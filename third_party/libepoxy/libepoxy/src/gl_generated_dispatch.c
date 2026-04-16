@@ -22,135 +22,92 @@ Khronos
 *
 *
 Copyright
-(
-c
-)
 2013
 -
-2018
+2025
 The
 Khronos
 Group
 Inc
 .
 *
-*
-Licensed
-under
-the
-Apache
+SPDX
+-
 License
-Version
-2
-.
-0
-(
-the
-"
-License
-"
-)
-;
-*
-you
-may
-not
-use
-this
-file
-except
-in
-compliance
-with
-the
-License
-.
-*
-You
-may
-obtain
-a
-copy
-of
-the
-License
-at
-*
-*
-http
+-
+Identifier
 :
-/
-/
-www
-.
-apache
-.
-org
-/
-licenses
-/
-LICENSE
+Apache
 -
 2
 .
 0
 *
 *
-Unless
-required
-by
-applicable
-law
-or
-agreed
-to
-in
-writing
-software
-*
-distributed
-under
-the
-License
+This
+file
+gl
+.
+xml
 is
-distributed
-on
-an
-"
-AS
-IS
-"
-BASIS
-*
-WITHOUT
-WARRANTIES
-OR
-CONDITIONS
-OF
-ANY
-KIND
-either
-express
-or
-implied
-.
-*
-See
 the
-License
-for
-the
-specific
-language
-governing
-permissions
+OpenGL
 and
-*
-limitations
-under
-the
-License
+OpenGL
+API
+Registry
 .
+The
+canonical
+*
+version
+of
+the
+registry
+together
+with
+documentation
+schema
+and
+Python
+*
+generator
+scripts
+used
+to
+generate
+C
+header
+files
+for
+OpenGL
+and
+OpenGL
+ES
+*
+can
+always
+be
+found
+in
+the
+Khronos
+Registry
+at
+*
+https
+:
+/
+/
+github
+.
+com
+/
+KhronosGroup
+/
+OpenGL
+-
+Registry
 *
 *
 /
@@ -699,6 +656,12 @@ epoxy_glBlitFramebufferANGLE
 PFNGLBLITFRAMEBUFFEREXTPROC
 epoxy_glBlitFramebufferEXT
 ;
+PFNGLBLITFRAMEBUFFERLAYEREXTPROC
+epoxy_glBlitFramebufferLayerEXT
+;
+PFNGLBLITFRAMEBUFFERLAYERSEXTPROC
+epoxy_glBlitFramebufferLayersEXT
+;
 PFNGLBLITFRAMEBUFFERNVPROC
 epoxy_glBlitFramebufferNV
 ;
@@ -719,6 +682,9 @@ epoxy_glBufferDataARB
 ;
 PFNGLBUFFERPAGECOMMITMENTARBPROC
 epoxy_glBufferPageCommitmentARB
+;
+PFNGLBUFFERPAGECOMMITMENTMEMNVPROC
+epoxy_glBufferPageCommitmentMemNV
 ;
 PFNGLBUFFERPARAMETERIAPPLEPROC
 epoxy_glBufferParameteriAPPLE
@@ -1509,6 +1475,9 @@ epoxy_glCreateRenderbuffers
 PFNGLCREATESAMPLERSPROC
 epoxy_glCreateSamplers
 ;
+PFNGLCREATESEMAPHORESNVPROC
+epoxy_glCreateSemaphoresNV
+;
 PFNGLCREATESHADERPROC
 epoxy_glCreateShader
 ;
@@ -1749,6 +1718,9 @@ epoxy_glDepthMask
 PFNGLDEPTHRANGEPROC
 epoxy_glDepthRange
 ;
+PFNGLDEPTHRANGEARRAYDVNVPROC
+epoxy_glDepthRangeArraydvNV
+;
 PFNGLDEPTHRANGEARRAYFVNVPROC
 epoxy_glDepthRangeArrayfvNV
 ;
@@ -1760,6 +1732,9 @@ epoxy_glDepthRangeArrayv
 ;
 PFNGLDEPTHRANGEINDEXEDPROC
 epoxy_glDepthRangeIndexed
+;
+PFNGLDEPTHRANGEINDEXEDDNVPROC
+epoxy_glDepthRangeIndexeddNV
 ;
 PFNGLDEPTHRANGEINDEXEDFNVPROC
 epoxy_glDepthRangeIndexedfNV
@@ -1976,6 +1951,12 @@ epoxy_glDrawElementsInstancedNV
 ;
 PFNGLDRAWMESHARRAYSSUNPROC
 epoxy_glDrawMeshArraysSUN
+;
+PFNGLDRAWMESHTASKSEXTPROC
+epoxy_glDrawMeshTasksEXT
+;
+PFNGLDRAWMESHTASKSINDIRECTEXTPROC
+epoxy_glDrawMeshTasksIndirectEXT
 ;
 PFNGLDRAWMESHTASKSINDIRECTNVPROC
 epoxy_glDrawMeshTasksIndirectNV
@@ -2298,6 +2279,9 @@ epoxy_glExtTexObjectStateOverrideiQCOM
 PFNGLEXTRACTCOMPONENTEXTPROC
 epoxy_glExtractComponentEXT
 ;
+PFNGLEXTRAPOLATETEX2DQCOMPROC
+epoxy_glExtrapolateTex2DQCOM
+;
 PFNGLFEEDBACKBUFFERPROC
 epoxy_glFeedbackBuffer
 ;
@@ -2528,6 +2512,9 @@ epoxy_glFramebufferSampleLocationsfvNV
 ;
 PFNGLFRAMEBUFFERSAMPLEPOSITIONSFVAMDPROC
 epoxy_glFramebufferSamplePositionsfvAMD
+;
+PFNGLFRAMEBUFFERSHADINGRATEEXTPROC
+epoxy_glFramebufferShadingRateEXT
 ;
 PFNGLFRAMEBUFFERTEXTUREPROC
 epoxy_glFramebufferTexture
@@ -3039,6 +3026,9 @@ epoxy_glGetFragmentMaterialfvSGIX
 PFNGLGETFRAGMENTMATERIALIVSGIXPROC
 epoxy_glGetFragmentMaterialivSGIX
 ;
+PFNGLGETFRAGMENTSHADINGRATESEXTPROC
+epoxy_glGetFragmentShadingRatesEXT
+;
 PFNGLGETFRAMEBUFFERATTACHMENTPARAMETERIVPROC
 epoxy_glGetFramebufferAttachmentParameteriv
 ;
@@ -3125,6 +3115,9 @@ epoxy_glGetInteger64v
 ;
 PFNGLGETINTEGER64VAPPLEPROC
 epoxy_glGetInteger64vAPPLE
+;
+PFNGLGETINTEGER64VEXTPROC
+epoxy_glGetInteger64vEXT
 ;
 PFNGLGETINTEGERINDEXEDVEXTPROC
 epoxy_glGetIntegerIndexedvEXT
@@ -3707,6 +3700,9 @@ epoxy_glGetSamplerParameterfv
 ;
 PFNGLGETSAMPLERPARAMETERIVPROC
 epoxy_glGetSamplerParameteriv
+;
+PFNGLGETSEMAPHOREPARAMETERIVNVPROC
+epoxy_glGetSemaphoreParameterivNV
 ;
 PFNGLGETSEMAPHOREPARAMETERUI64VEXTPROC
 epoxy_glGetSemaphoreParameterui64vEXT
@@ -4989,6 +4985,9 @@ epoxy_glMatrixTranslatedEXT
 PFNGLMATRIXTRANSLATEFEXTPROC
 epoxy_glMatrixTranslatefEXT
 ;
+PFNGLMAXACTIVESHADERCORESARMPROC
+epoxy_glMaxActiveShaderCoresARM
+;
 PFNGLMAXSHADERCOMPILERTHREADSARBPROC
 epoxy_glMaxShaderCompilerThreadsARB
 ;
@@ -5112,8 +5111,14 @@ epoxy_glMultiDrawElementsIndirectCountARB
 PFNGLMULTIDRAWELEMENTSINDIRECTEXTPROC
 epoxy_glMultiDrawElementsIndirectEXT
 ;
+PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTEXTPROC
+epoxy_glMultiDrawMeshTasksIndirectCountEXT
+;
 PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTNVPROC
 epoxy_glMultiDrawMeshTasksIndirectCountNV
+;
+PFNGLMULTIDRAWMESHTASKSINDIRECTEXTPROC
+epoxy_glMultiDrawMeshTasksIndirectEXT
 ;
 PFNGLMULTIDRAWMESHTASKSINDIRECTNVPROC
 epoxy_glMultiDrawMeshTasksIndirectNV
@@ -5550,6 +5555,9 @@ epoxy_glNamedBufferPageCommitmentARB
 PFNGLNAMEDBUFFERPAGECOMMITMENTEXTPROC
 epoxy_glNamedBufferPageCommitmentEXT
 ;
+PFNGLNAMEDBUFFERPAGECOMMITMENTMEMNVPROC
+epoxy_glNamedBufferPageCommitmentMemNV
+;
 PFNGLNAMEDBUFFERSTORAGEPROC
 epoxy_glNamedBufferStorage
 ;
@@ -5624,6 +5632,9 @@ epoxy_glNamedFramebufferTextureLayer
 ;
 PFNGLNAMEDFRAMEBUFFERTEXTURELAYEREXTPROC
 epoxy_glNamedFramebufferTextureLayerEXT
+;
+PFNGLNAMEDFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC
+epoxy_glNamedFramebufferTextureMultiviewOVR
 ;
 PFNGLNAMEDPROGRAMLOCALPARAMETER4DEXTPROC
 epoxy_glNamedProgramLocalParameter4dEXT
@@ -7287,6 +7298,9 @@ epoxy_glSelectBuffer
 PFNGLSELECTPERFMONITORCOUNTERSAMDPROC
 epoxy_glSelectPerfMonitorCountersAMD
 ;
+PFNGLSEMAPHOREPARAMETERIVNVPROC
+epoxy_glSemaphoreParameterivNV
+;
 PFNGLSEMAPHOREPARAMETERUI64VEXTPROC
 epoxy_glSemaphoreParameterui64vEXT
 ;
@@ -7338,11 +7352,20 @@ epoxy_glShaderSourceARB
 PFNGLSHADERSTORAGEBLOCKBINDINGPROC
 epoxy_glShaderStorageBlockBinding
 ;
+PFNGLSHADINGRATECOMBINEROPSEXTPROC
+epoxy_glShadingRateCombinerOpsEXT
+;
+PFNGLSHADINGRATEEXTPROC
+epoxy_glShadingRateEXT
+;
 PFNGLSHADINGRATEIMAGEBARRIERNVPROC
 epoxy_glShadingRateImageBarrierNV
 ;
 PFNGLSHADINGRATEIMAGEPALETTENVPROC
 epoxy_glShadingRateImagePaletteNV
+;
+PFNGLSHADINGRATEQCOMPROC
+epoxy_glShadingRateQCOM
 ;
 PFNGLSHADINGRATESAMPLEORDERCUSTOMNVPROC
 epoxy_glShadingRateSampleOrderCustomNV
@@ -7818,6 +7841,12 @@ epoxy_glTexEnvxv
 PFNGLTEXENVXVOESPROC
 epoxy_glTexEnvxvOES
 ;
+PFNGLTEXESTIMATEMOTIONQCOMPROC
+epoxy_glTexEstimateMotionQCOM
+;
+PFNGLTEXESTIMATEMOTIONREGIONSQCOMPROC
+epoxy_glTexEstimateMotionRegionsQCOM
+;
 PFNGLTEXFILTERFUNCSGISPROC
 epoxy_glTexFilterFuncSGIS
 ;
@@ -7893,6 +7922,9 @@ epoxy_glTexPageCommitmentARB
 PFNGLTEXPAGECOMMITMENTEXTPROC
 epoxy_glTexPageCommitmentEXT
 ;
+PFNGLTEXPAGECOMMITMENTMEMNVPROC
+epoxy_glTexPageCommitmentMemNV
+;
 PFNGLTEXPARAMETERIIVPROC
 epoxy_glTexParameterIiv
 ;
@@ -7964,6 +7996,12 @@ epoxy_glTexStorage3DMultisample
 ;
 PFNGLTEXSTORAGE3DMULTISAMPLEOESPROC
 epoxy_glTexStorage3DMultisampleOES
+;
+PFNGLTEXSTORAGEATTRIBS2DEXTPROC
+epoxy_glTexStorageAttribs2DEXT
+;
+PFNGLTEXSTORAGEATTRIBS3DEXTPROC
+epoxy_glTexStorageAttribs3DEXT
 ;
 PFNGLTEXSTORAGEMEM1DEXTPROC
 epoxy_glTexStorageMem1DEXT
@@ -8066,6 +8104,9 @@ epoxy_glTextureNormalEXT
 ;
 PFNGLTEXTUREPAGECOMMITMENTEXTPROC
 epoxy_glTexturePageCommitmentEXT
+;
+PFNGLTEXTUREPAGECOMMITMENTMEMNVPROC
+epoxy_glTexturePageCommitmentMemNV
 ;
 PFNGLTEXTUREPARAMETERIIVPROC
 epoxy_glTextureParameterIiv
@@ -10202,6 +10243,7 @@ PROVIDER_GL_ARB_vertex_shader
 PROVIDER_GL_ARB_vertex_type_2_10_10_10_rev
 PROVIDER_GL_ARB_viewport_array
 PROVIDER_GL_ARB_window_pos
+PROVIDER_GL_ARM_shader_core_properties
 PROVIDER_GL_ATI_draw_buffers
 PROVIDER_GL_ATI_element_array
 PROVIDER_GL_ATI_envmap_bumpmap
@@ -10245,7 +10287,9 @@ PROVIDER_GL_EXT_draw_range_elements
 PROVIDER_GL_EXT_draw_transform_feedback
 PROVIDER_GL_EXT_external_buffer
 PROVIDER_GL_EXT_fog_coord
+PROVIDER_GL_EXT_fragment_shading_rate
 PROVIDER_GL_EXT_framebuffer_blit
+PROVIDER_GL_EXT_framebuffer_blit_layers
 PROVIDER_GL_EXT_framebuffer_multisample
 PROVIDER_GL_EXT_framebuffer_object
 PROVIDER_GL_EXT_geometry_shader
@@ -10261,6 +10305,7 @@ PROVIDER_GL_EXT_map_buffer_range
 PROVIDER_GL_EXT_memory_object
 PROVIDER_GL_EXT_memory_object_fd
 PROVIDER_GL_EXT_memory_object_win32
+PROVIDER_GL_EXT_mesh_shader
 PROVIDER_GL_EXT_multi_draw_arrays
 PROVIDER_GL_EXT_multi_draw_indirect
 PROVIDER_GL_EXT_multisample
@@ -10298,6 +10343,7 @@ PROVIDER_GL_EXT_texture_integer
 PROVIDER_GL_EXT_texture_object
 PROVIDER_GL_EXT_texture_perturb_normal
 PROVIDER_GL_EXT_texture_storage
+PROVIDER_GL_EXT_texture_storage_compression
 PROVIDER_GL_EXT_texture_view
 PROVIDER_GL_EXT_timer_query
 PROVIDER_GL_EXT_transform_feedback
@@ -10329,6 +10375,7 @@ PROVIDER_GL_KHR_parallel_shader_compile
 PROVIDER_GL_KHR_robustness
 PROVIDER_GL_MESA_framebuffer_flip_y
 PROVIDER_GL_MESA_resize_buffers
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_GL_MESA_window_pos
 PROVIDER_GL_NVX_conditional_render
 PROVIDER_GL_NVX_gpu_multicast2
@@ -10371,6 +10418,7 @@ PROVIDER_GL_NV_half_float
 PROVIDER_GL_NV_instanced_arrays
 PROVIDER_GL_NV_internalformat_sample_query
 PROVIDER_GL_NV_memory_attachment
+PROVIDER_GL_NV_memory_object_sparse
 PROVIDER_GL_NV_mesh_shader
 PROVIDER_GL_NV_non_square_matrices
 PROVIDER_GL_NV_occlusion_query
@@ -10392,6 +10440,7 @@ PROVIDER_GL_NV_shader_buffer_load
 PROVIDER_GL_NV_shading_rate_image
 PROVIDER_GL_NV_texture_barrier
 PROVIDER_GL_NV_texture_multisample
+PROVIDER_GL_NV_timeline_semaphore
 PROVIDER_GL_NV_transform_feedback
 PROVIDER_GL_NV_transform_feedback2
 PROVIDER_GL_NV_vdpau_interop
@@ -10405,6 +10454,7 @@ PROVIDER_GL_NV_video_capture
 PROVIDER_GL_NV_viewport_array
 PROVIDER_GL_NV_viewport_swizzle
 PROVIDER_GL_OES_EGL_image
+PROVIDER_GL_OES_EGL_image_external
 PROVIDER_GL_OES_blend_equation_separate
 PROVIDER_GL_OES_blend_func_separate
 PROVIDER_GL_OES_blend_subtract
@@ -10440,8 +10490,11 @@ PROVIDER_GL_QCOM_alpha_test
 PROVIDER_GL_QCOM_driver_control
 PROVIDER_GL_QCOM_extended_get
 PROVIDER_GL_QCOM_extended_get2
+PROVIDER_GL_QCOM_frame_extrapolation
 PROVIDER_GL_QCOM_framebuffer_foveated
+PROVIDER_GL_QCOM_motion_estimation
 PROVIDER_GL_QCOM_shader_framebuffer_fetch_noncoherent
+PROVIDER_GL_QCOM_shading_rate
 PROVIDER_GL_QCOM_texture_foveated
 PROVIDER_GL_QCOM_tiled_rendering
 PROVIDER_GL_SGIS_detail_texture
@@ -11254,6 +11307,11 @@ GL_ARB_window_pos
 0
 "
 "
+GL_ARM_shader_core_properties
+\
+0
+"
+"
 GL_ATI_draw_buffers
 \
 0
@@ -11469,7 +11527,17 @@ GL_EXT_fog_coord
 0
 "
 "
+GL_EXT_fragment_shading_rate
+\
+0
+"
+"
 GL_EXT_framebuffer_blit
+\
+0
+"
+"
+GL_EXT_framebuffer_blit_layers
 \
 0
 "
@@ -11545,6 +11613,11 @@ GL_EXT_memory_object_fd
 "
 "
 GL_EXT_memory_object_win32
+\
+0
+"
+"
+GL_EXT_mesh_shader
 \
 0
 "
@@ -11734,6 +11807,11 @@ GL_EXT_texture_storage
 0
 "
 "
+GL_EXT_texture_storage_compression
+\
+0
+"
+"
 GL_EXT_texture_view
 \
 0
@@ -11885,6 +11963,11 @@ GL_MESA_framebuffer_flip_y
 "
 "
 GL_MESA_resize_buffers
+\
+0
+"
+"
+GL_MESA_sampler_objects
 \
 0
 "
@@ -12099,6 +12182,11 @@ GL_NV_memory_attachment
 0
 "
 "
+GL_NV_memory_object_sparse
+\
+0
+"
+"
 GL_NV_mesh_shader
 \
 0
@@ -12204,6 +12292,11 @@ GL_NV_texture_multisample
 0
 "
 "
+GL_NV_timeline_semaphore
+\
+0
+"
+"
 GL_NV_transform_feedback
 \
 0
@@ -12265,6 +12358,11 @@ GL_NV_viewport_swizzle
 "
 "
 GL_OES_EGL_image
+\
+0
+"
+"
+GL_OES_EGL_image_external
 \
 0
 "
@@ -12444,12 +12542,27 @@ GL_QCOM_extended_get2
 0
 "
 "
+GL_QCOM_frame_extrapolation
+\
+0
+"
+"
 GL_QCOM_framebuffer_foveated
 \
 0
 "
 "
+GL_QCOM_motion_estimation
+\
+0
+"
+"
 GL_QCOM_shader_framebuffer_fetch_noncoherent
+\
+0
+"
+"
+GL_QCOM_shading_rate
 \
 0
 "
@@ -13573,1618 +13686,1690 @@ GL_ARB_window_pos
 3382
 /
 *
+GL_ARM_shader_core_properties
+*
+/
+3412
+/
+*
 GL_ATI_draw_buffers
 *
 /
-3402
+3432
 /
 *
 GL_ATI_element_array
 *
 /
-3423
+3453
 /
 *
 GL_ATI_envmap_bumpmap
 *
 /
-3445
+3475
 /
 *
 GL_ATI_fragment_shader
 *
 /
-3468
+3498
 /
 *
 GL_ATI_map_object_buffer
 *
 /
-3493
+3523
 /
 *
 GL_ATI_pn_triangles
 *
 /
-3513
+3543
 /
 *
 GL_ATI_separate_stencil
 *
 /
-3537
+3567
 /
 *
 GL_ATI_vertex_array_object
 *
 /
-3564
+3594
 /
 *
 GL_ATI_vertex_attrib_array_object
 *
 /
-3598
+3628
 /
 *
 GL_ATI_vertex_streams
 *
 /
-3620
+3650
 /
 *
 GL_EXT_EGL_image_storage
 *
 /
-3645
+3675
 /
 *
 GL_EXT_base_instance
 *
 /
-3666
+3696
 /
 *
 GL_EXT_bindable_uniform
 *
 /
-3690
+3720
 /
 *
 GL_EXT_blend_color
 *
 /
-3709
+3739
 /
 *
 GL_EXT_blend_equation_separate
 *
 /
-3740
+3770
 /
 *
 GL_EXT_blend_func_extended
 *
 /
-3767
+3797
 /
 *
 GL_EXT_blend_func_separate
 *
 /
-3794
+3824
 /
 *
 GL_EXT_blend_minmax
 *
 /
-3814
+3844
 /
 *
 GL_EXT_buffer_storage
 *
 /
-3836
+3866
 /
 *
 GL_EXT_clear_texture
 *
 /
-3857
+3887
 /
 *
 GL_EXT_clip_control
 *
 /
-3877
+3907
 /
 *
 GL_EXT_color_subtable
 *
 /
-3899
+3929
 /
 *
 GL_EXT_compiled_vertex_array
 *
 /
-3928
+3958
 /
 *
 GL_EXT_convolution
 *
 /
-3947
+3977
 /
 *
 GL_EXT_coordinate_frame
 *
 /
-3971
+4001
 /
 *
 GL_EXT_copy_image
 *
 /
-3989
+4019
 /
 *
 GL_EXT_copy_texture
 *
 /
-4009
+4039
 /
 *
 GL_EXT_cull_vertex
 *
 /
-4028
+4058
 /
 *
 GL_EXT_debug_label
 *
 /
-4047
+4077
 /
 *
 GL_EXT_debug_marker
 *
 /
-4067
+4097
 /
 *
 GL_EXT_depth_bounds_test
 *
 /
-4092
+4122
 /
 *
 GL_EXT_direct_state_access
 *
 /
-4119
+4149
 /
 *
 GL_EXT_discard_framebuffer
 *
 /
-4146
+4176
 /
 *
 GL_EXT_disjoint_timer_query
 *
 /
-4174
+4204
 /
 *
 GL_EXT_draw_buffers
 *
 /
-4194
+4224
 /
 *
 GL_EXT_draw_buffers2
 *
 /
-4215
+4245
 /
 *
 GL_EXT_draw_buffers_indexed
 *
 /
-4243
+4273
 /
 *
 GL_EXT_draw_elements_base_vertex
 *
 /
-4276
+4306
 /
 *
 GL_EXT_draw_instanced
 *
 /
-4298
+4328
 /
 *
 GL_EXT_draw_range_elements
 *
 /
-4325
+4355
 /
 *
 GL_EXT_draw_transform_feedback
 *
 /
-4356
+4386
 /
 *
 GL_EXT_external_buffer
 *
 /
-4379
+4409
 /
 *
 GL_EXT_fog_coord
 *
 /
-4396
+4426
+/
+*
+GL_EXT_fragment_shading_rate
+*
+/
+4455
 /
 *
 GL_EXT_framebuffer_blit
 *
 /
-4420
+4479
+/
+*
+GL_EXT_framebuffer_blit_layers
+*
+/
+4510
 /
 *
 GL_EXT_framebuffer_multisample
 *
 /
-4451
+4541
 /
 *
 GL_EXT_framebuffer_object
 *
 /
-4477
+4567
 /
 *
 GL_EXT_geometry_shader
 *
 /
-4500
+4590
 /
 *
 GL_EXT_geometry_shader4
 *
 /
-4524
+4614
 /
 *
 GL_EXT_gpu_program_parameters
 *
 /
-4554
+4644
 /
 *
 GL_EXT_gpu_shader4
 *
 /
-4573
+4663
 /
 *
 GL_EXT_histogram
 *
 /
-4590
+4680
 /
 *
 GL_EXT_index_func
 *
 /
-4608
+4698
 /
 *
 GL_EXT_index_material
 *
 /
-4630
+4720
 /
 *
 GL_EXT_instanced_arrays
 *
 /
-4654
+4744
 /
 *
 GL_EXT_light_texture
 *
 /
-4675
+4765
 /
 *
 GL_EXT_map_buffer_range
 *
 /
-4699
+4789
 /
 *
 GL_EXT_memory_object
 *
 /
-4720
+4810
 /
 *
 GL_EXT_memory_object_fd
 *
 /
-4744
+4834
 /
 *
 GL_EXT_memory_object_win32
 *
 /
-4771
+4861
 /
 *
-GL_EXT_multi_draw_arrays
-*
-/
-4796
-/
-*
-GL_EXT_multi_draw_indirect
-*
-/
-4823
-/
-*
-GL_EXT_multisample
-*
-/
-4842
-/
-*
-GL_EXT_multisampled_render_to_texture
+GL_EXT_mesh_shader
 *
 /
 4880
 /
 *
+GL_EXT_multi_draw_arrays
+*
+/
+4905
+/
+*
+GL_EXT_multi_draw_indirect
+*
+/
+4932
+/
+*
+GL_EXT_multisample
+*
+/
+4951
+/
+*
+GL_EXT_multisampled_render_to_texture
+*
+/
+4989
+/
+*
 GL_EXT_multiview_draw_buffers
 *
 /
-4910
+5019
 /
 *
 GL_EXT_occlusion_query_boolean
 *
 /
-4941
+5050
 /
 *
 GL_EXT_paletted_texture
 *
 /
-4965
+5074
 /
 *
 GL_EXT_pixel_transform
 *
 /
-4988
+5097
 /
 *
 GL_EXT_point_parameters
 *
 /
-5012
+5121
 /
 *
 GL_EXT_polygon_offset
 *
 /
-5034
+5143
 /
 *
 GL_EXT_polygon_offset_clamp
 *
 /
-5062
+5171
 /
 *
 GL_EXT_primitive_bounding_box
 *
 /
-5092
+5201
 /
 *
 GL_EXT_provoking_vertex
 *
 /
-5116
+5225
 /
 *
 GL_EXT_raster_multisample
 *
 /
-5142
+5251
 /
 *
 GL_EXT_robustness
 *
 /
-5160
+5269
 /
 *
 GL_EXT_secondary_color
 *
 /
-5183
+5292
 /
 *
 GL_EXT_semaphore
 *
 /
-5200
+5309
 /
 *
 GL_EXT_semaphore_fd
 *
 /
-5220
+5329
 /
 *
 GL_EXT_semaphore_win32
 *
 /
-5243
+5352
 /
 *
 GL_EXT_separate_shader_objects
 *
 /
-5274
+5383
 /
 *
 GL_EXT_shader_framebuffer_fetch_non_coherent
 *
 /
-5319
+5428
 /
 *
 GL_EXT_shader_image_load_store
 *
 /
-5350
+5459
 /
 *
 GL_EXT_shader_pixel_local_storage2
 *
 /
-5385
+5494
 /
 *
 GL_EXT_sparse_texture
 *
 /
-5407
+5516
 /
 *
 GL_EXT_stencil_clear_tag
 *
 /
-5432
+5541
 /
 *
 GL_EXT_stencil_two_side
 *
 /
-5456
+5565
 /
 *
 GL_EXT_subtexture
 *
 /
-5474
+5583
 /
 *
 GL_EXT_tessellation_shader
 *
 /
-5501
+5610
 /
 *
 GL_EXT_texture3D
 *
 /
-5518
+5627
 /
 *
 GL_EXT_texture_array
 *
 /
-5539
+5648
 /
 *
 GL_EXT_texture_border_clamp
 *
 /
-5567
+5676
 /
 *
 GL_EXT_texture_buffer
 *
 /
-5589
+5698
 /
 *
 GL_EXT_texture_buffer_object
 *
 /
-5618
+5727
 /
 *
 GL_EXT_texture_integer
 *
 /
-5641
+5750
 /
 *
 GL_EXT_texture_object
 *
 /
-5663
+5772
 /
 *
 GL_EXT_texture_perturb_normal
 *
 /
-5693
+5802
 /
 *
 GL_EXT_texture_storage
 *
 /
-5716
+5825
+/
+*
+GL_EXT_texture_storage_compression
+*
+/
+5860
 /
 *
 GL_EXT_texture_view
 *
 /
-5736
+5880
 /
 *
 GL_EXT_timer_query
 *
 /
-5755
+5899
 /
 *
 GL_EXT_transform_feedback
 *
 /
-5781
+5925
 /
 *
 GL_EXT_vertex_array
 *
 /
-5801
+5945
 /
 *
 GL_EXT_vertex_attrib_64bit
 *
 /
-5828
+5972
 /
 *
 GL_EXT_vertex_shader
 *
 /
-5849
+5993
 /
 *
 GL_EXT_vertex_weighting
 *
 /
-5873
+6017
 /
 *
 GL_EXT_win32_keyed_mutex
 *
 /
-5898
+6042
 /
 *
 GL_EXT_window_rectangles
 *
 /
-5923
+6067
 /
 *
 GL_EXT_x11_sync_object
 *
 /
-5946
+6090
 /
 *
 GL_GREMEDY_frame_terminator
 *
 /
-5974
+6118
 /
 *
 GL_GREMEDY_string_marker
 *
 /
-5999
+6143
 /
 *
 GL_HP_image_transform
 *
 /
-6021
+6165
 /
 *
 GL_IBM_multimode_draw_arrays
 *
 /
-6050
+6194
 /
 *
 GL_IBM_static_data
 *
 /
-6069
+6213
 /
 *
 GL_IBM_vertex_array_lists
 *
 /
-6095
+6239
 /
 *
 GL_IMG_bindless_texture
 *
 /
-6119
+6263
 /
 *
 GL_IMG_framebuffer_downsample
 *
 /
-6149
+6293
 /
 *
 GL_IMG_multisampled_render_to_texture
 *
 /
-6187
+6331
 /
 *
 GL_IMG_user_clip_plane
 *
 /
-6210
+6354
 /
 *
 GL_INGR_blend_func_separate
 *
 /
-6238
+6382
 /
 *
 GL_INTEL_framebuffer_CMAA
 *
 /
-6264
+6408
 /
 *
 GL_INTEL_map_texture
 *
 /
-6285
+6429
 /
 *
 GL_INTEL_parallel_arrays
 *
 /
-6310
+6454
 /
 *
 GL_INTEL_performance_query
 *
 /
-6337
+6481
 /
 *
 GL_KHR_blend_equation_advanced
 *
 /
-6368
+6512
 /
 *
 GL_KHR_debug
 *
 /
-6381
+6525
 /
 *
 GL_KHR_parallel_shader_compile
 *
 /
-6412
+6556
 /
 *
 GL_KHR_robustness
 *
 /
-6430
+6574
 /
 *
 GL_MESA_framebuffer_flip_y
 *
 /
-6457
+6601
 /
 *
 GL_MESA_resize_buffers
 *
 /
-6480
+6624
+/
+*
+GL_MESA_sampler_objects
+*
+/
+6648
 /
 *
 GL_MESA_window_pos
 *
 /
-6499
+6667
 /
 *
 GL_NVX_conditional_render
 *
 /
-6525
+6693
 /
 *
 GL_NVX_gpu_multicast2
 *
 /
-6547
+6715
 /
 *
 GL_NVX_linked_gpu_multicast
 *
 /
-6575
+6743
 /
 *
 GL_NVX_progress_fence
 *
 /
-6597
+6765
 /
 *
 GL_NV_alpha_to_coverage_dither_control
 *
 /
-6636
+6804
 /
 *
 GL_NV_bindless_multi_draw_indirect
 *
 /
-6671
+6839
 /
 *
 GL_NV_bindless_multi_draw_indirect_count
 *
 /
-6712
+6880
 /
 *
 GL_NV_bindless_texture
 *
 /
-6735
+6903
 /
 *
 GL_NV_blend_equation_advanced
 *
 /
-6765
+6933
 /
 *
 GL_NV_clip_space_w_scaling
 *
 /
-6792
+6960
 /
 *
 GL_NV_command_list
 *
 /
-6811
+6979
 /
 *
 GL_NV_conditional_render
 *
 /
-6836
+7004
 /
 *
 GL_NV_conservative_raster
 *
 /
-6862
+7030
 /
 *
 GL_NV_conservative_raster_dilate
 *
 /
-6895
+7063
 /
 *
 GL_NV_conservative_raster_pre_snap_triangles
 *
 /
-6940
+7108
 /
 *
 GL_NV_copy_buffer
 *
 /
-6958
+7126
 /
 *
 GL_NV_copy_image
 *
 /
-6975
+7143
 /
 *
 GL_NV_coverage_sample
 *
 /
-6997
+7165
 /
 *
 GL_NV_depth_buffer_float
 *
 /
-7022
+7190
 /
 *
 GL_NV_draw_buffers
 *
 /
-7041
+7209
 /
 *
 GL_NV_draw_instanced
 *
 /
-7062
+7230
 /
 *
 GL_NV_draw_texture
 *
 /
-7081
+7249
 /
 *
 GL_NV_draw_vulkan_image
 *
 /
-7105
+7273
 /
 *
 GL_NV_evaluators
 *
 /
-7122
+7290
 /
 *
 GL_NV_explicit_multisample
 *
 /
-7149
+7317
 /
 *
 GL_NV_fence
 *
 /
-7161
+7329
 /
 *
 GL_NV_fragment_coverage_to_color
 *
 /
-7194
+7362
 /
 *
 GL_NV_fragment_program
 *
 /
-7217
+7385
 /
 *
 GL_NV_framebuffer_blit
 *
 /
-7240
+7408
 /
 *
 GL_NV_framebuffer_mixed_samples
 *
 /
-7272
+7440
 /
 *
 GL_NV_framebuffer_multisample
 *
 /
-7302
+7470
 /
 *
 GL_NV_framebuffer_multisample_coverage
 *
 /
-7341
+7509
 /
 *
 GL_NV_geometry_program4
 *
 /
-7365
+7533
 /
 *
 GL_NV_gpu_multicast
 *
 /
-7385
+7553
 /
 *
 GL_NV_gpu_program4
 *
 /
-7404
+7572
 /
 *
 GL_NV_gpu_program5
 *
 /
-7423
+7591
 /
 *
 GL_NV_gpu_shader5
 *
 /
-7441
+7609
 /
 *
 GL_NV_half_float
 *
 /
-7458
+7626
 /
 *
 GL_NV_instanced_arrays
 *
 /
-7481
+7649
 /
 *
 GL_NV_internalformat_sample_query
 *
 /
-7515
+7683
 /
 *
 GL_NV_memory_attachment
 *
 /
-7539
+7707
+/
+*
+GL_NV_memory_object_sparse
+*
+/
+7734
 /
 *
 GL_NV_mesh_shader
 *
 /
-7557
+7752
 /
 *
 GL_NV_non_square_matrices
 *
 /
-7583
+7778
 /
 *
 GL_NV_occlusion_query
 *
 /
-7605
+7800
 /
 *
 GL_NV_parameter_buffer_object
 *
 /
-7635
+7830
 /
 *
 GL_NV_path_rendering
 *
 /
-7656
+7851
 /
 *
 GL_NV_pixel_data_range
 *
 /
-7679
+7874
 /
 *
 GL_NV_point_sprite
 *
 /
-7698
+7893
 /
 *
 GL_NV_polygon_mode
 *
 /
-7717
+7912
 /
 *
 GL_NV_present_video
 *
 /
-7737
+7932
 /
 *
 GL_NV_primitive_restart
 *
 /
-7761
+7956
 /
 *
 GL_NV_query_resource
 *
 /
-7782
+7977
 /
 *
 GL_NV_query_resource_tag
 *
 /
-7807
+8002
 /
 *
 GL_NV_read_buffer
 *
 /
-7825
+8020
 /
 *
 GL_NV_register_combiners
 *
 /
-7850
+8045
 /
 *
 GL_NV_register_combiners2
 *
 /
-7876
+8071
 /
 *
 GL_NV_sample_locations
 *
 /
-7899
+8094
 /
 *
 GL_NV_scissor_exclusive
 *
 /
-7923
+8118
 /
 *
 GL_NV_shader_buffer_load
 *
 /
-7948
+8143
 /
 *
 GL_NV_shading_rate_image
 *
 /
-7973
+8168
 /
 *
 GL_NV_texture_barrier
 *
 /
-7995
+8190
 /
 *
 GL_NV_texture_multisample
 *
 /
-8021
+8216
+/
+*
+GL_NV_timeline_semaphore
+*
+/
+8241
 /
 *
 GL_NV_transform_feedback
 *
 /
-8046
+8266
 /
 *
 GL_NV_transform_feedback2
 *
 /
-8072
+8292
 /
 *
 GL_NV_vdpau_interop
 *
 /
-8092
+8312
 /
 *
 GL_NV_vdpau_interop2
 *
 /
-8113
+8333
 /
 *
 GL_NV_vertex_array_range
 *
 /
-8138
+8358
 /
 *
 GL_NV_vertex_attrib_integer_64bit
 *
 /
-8172
+8392
 /
 *
 GL_NV_vertex_buffer_unified_memory
 *
 /
-8207
+8427
 /
 *
 GL_NV_vertex_program
 *
 /
-8228
+8448
 /
 *
 GL_NV_vertex_program4
 *
 /
-8250
+8470
 /
 *
 GL_NV_video_capture
 *
 /
-8270
+8490
 /
 *
 GL_NV_viewport_array
 *
 /
-8291
+8511
 /
 *
 GL_NV_viewport_swizzle
 *
 /
-8314
+8534
 /
 *
 GL_OES_EGL_image
 *
 /
-8331
+8551
+/
+*
+GL_OES_EGL_image_external
+*
+/
+8577
 /
 *
 GL_OES_blend_equation_separate
 *
 /
-8362
+8608
 /
 *
 GL_OES_blend_func_separate
 *
 /
-8389
+8635
 /
 *
 GL_OES_blend_subtract
 *
 /
-8411
+8657
 /
 *
 GL_OES_byte_coordinates
 *
 /
-8435
+8681
 /
 *
 GL_OES_copy_image
 *
 /
-8453
+8699
 /
 *
 GL_OES_draw_buffers_indexed
 *
 /
-8481
+8727
 /
 *
 GL_OES_draw_elements_base_vertex
 *
 /
-8514
+8760
 /
 *
 GL_OES_draw_texture
 *
 /
-8534
+8780
 /
 *
 GL_OES_fixed_point
 *
 /
-8553
+8799
 /
 *
 GL_OES_framebuffer_object
 *
 /
-8579
+8825
 /
 *
 GL_OES_geometry_shader
 *
 /
-8602
+8848
 /
 *
 GL_OES_get_program_binary
 *
 /
-8628
+8874
 /
 *
 GL_OES_mapbuffer
 *
 /
-8645
+8891
 /
 *
 GL_OES_matrix_palette
 *
 /
-8667
+8913
 /
 *
 GL_OES_point_size_array
 *
 /
-8691
+8937
 /
 *
 GL_OES_primitive_bounding_box
 *
 /
-8721
+8967
 /
 *
 GL_OES_query_matrix
 *
 /
-8741
+8987
 /
 *
 GL_OES_sample_shading
 *
 /
-8763
+9009
 /
 *
 GL_OES_single_precision
 *
 /
-8787
+9033
 /
 *
 GL_OES_tessellation_shader
 *
 /
-8814
+9060
 /
 *
 GL_OES_texture_3D
 *
 /
-8832
+9078
 /
 *
 GL_OES_texture_border_clamp
 *
 /
-8860
+9106
 /
 *
 GL_OES_texture_buffer
 *
 /
-8882
+9128
 /
 *
 GL_OES_texture_cube_map
 *
 /
-8906
+9152
 /
 *
 GL_OES_texture_storage_multisample_2d_array
 *
 /
-8950
+9196
 /
 *
 GL_OES_texture_view
 *
 /
-8970
+9216
 /
 *
 GL_OES_vertex_array_object
 *
 /
-8997
+9243
 /
 *
 GL_OES_viewport_array
 *
 /
-9019
+9265
 /
 *
 GL_OVR_multiview
 *
 /
-9036
+9282
 /
 *
 GL_OVR_multiview_multisampled_render_to_texture
 *
 /
-9084
+9330
 /
 *
 GL_PGI_misc_hints
 *
 /
-9102
+9348
 /
 *
 GL_QCOM_alpha_test
 *
 /
-9121
+9367
 /
 *
 GL_QCOM_driver_control
 *
 /
-9144
+9390
 /
 *
 GL_QCOM_extended_get
 *
 /
-9165
+9411
 /
 *
 GL_QCOM_extended_get2
 *
 /
-9187
+9433
+/
+*
+GL_QCOM_frame_extrapolation
+*
+/
+9461
 /
 *
 GL_QCOM_framebuffer_foveated
 *
 /
-9216
+9490
+/
+*
+GL_QCOM_motion_estimation
+*
+/
+9516
 /
 *
 GL_QCOM_shader_framebuffer_fetch_noncoherent
 *
 /
-9261
+9561
+/
+*
+GL_QCOM_shading_rate
+*
+/
+9582
 /
 *
 GL_QCOM_texture_foveated
 *
 /
-9286
+9607
 /
 *
 GL_QCOM_tiled_rendering
 *
 /
-9310
+9631
 /
 *
 GL_SGIS_detail_texture
 *
 /
-9333
+9654
 /
 *
 GL_SGIS_fog_function
 *
 /
-9354
+9675
 /
 *
 GL_SGIS_multisample
 *
 /
-9374
+9695
 /
 *
 GL_SGIS_pixel_texture
 *
 /
-9396
+9717
 /
 *
 GL_SGIS_point_parameters
 *
 /
-9421
+9742
 /
 *
 GL_SGIS_sharpen_texture
 *
 /
-9445
+9766
 /
 *
 GL_SGIS_texture4D
 *
 /
-9463
+9784
 /
 *
 GL_SGIS_texture_color_mask
 *
 /
-9490
+9811
 /
 *
 GL_SGIS_texture_filter4
 *
 /
-9514
+9835
 /
 *
 GL_SGIX_async
 *
 /
-9528
+9849
 /
 *
 GL_SGIX_flush_raster
 *
 /
-9549
+9870
 /
 *
 GL_SGIX_fragment_lighting
 *
 /
-9575
+9896
 /
 *
 GL_SGIX_framezoom
 *
 /
-9593
+9914
 /
 *
 GL_SGIX_igloo_interface
 *
 /
-9617
+9938
 /
 *
 GL_SGIX_instruments
 *
 /
-9637
+9958
 /
 *
 GL_SGIX_list_priority
 *
 /
-9659
+9980
 /
 *
 GL_SGIX_pixel_texture
 *
 /
-9681
+10002
 /
 *
 GL_SGIX_polynomial_ffd
 *
 /
-9704
+10025
 /
 *
 GL_SGIX_reference_plane
 *
 /
-9728
+10049
 /
 *
 GL_SGIX_sprite
 *
 /
-9743
+10064
 /
 *
 GL_SGIX_tag_sample_buffer
 *
 /
-9769
+10090
 /
 *
 GL_SGI_color_table
 *
 /
-9788
+10109
 /
 *
 GL_SUNX_constant_data
 *
 /
-9810
+10131
 /
 *
 GL_SUN_global_alpha
 *
 /
-9830
+10151
 /
 *
 GL_SUN_mesh_array
 *
 /
-9848
+10169
 /
 *
 GL_SUN_triangle_list
 *
 /
-9869
+10190
 /
 *
 GL_SUN_vertex
 *
 /
-9883
+10204
 /
 *
 OpenGL
@@ -15194,7 +15379,7 @@ ES
 0
 *
 /
-9897
+10218
 /
 *
 OpenGL
@@ -15204,7 +15389,7 @@ ES
 0
 *
 /
-9911
+10232
 /
 *
 OpenGL
@@ -15214,7 +15399,7 @@ ES
 0
 *
 /
-9925
+10246
 /
 *
 OpenGL
@@ -15224,7 +15409,7 @@ ES
 1
 *
 /
-9939
+10260
 /
 *
 OpenGL
@@ -15234,7 +15419,7 @@ ES
 2
 *
 /
-9953
+10274
 /
 *
 always
@@ -25198,6 +25383,167 @@ e
 r
 '
 '
+L
+'
+'
+a
+'
+'
+y
+'
+'
+e
+'
+'
+r
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glBlitFramebufferLayerEXT
+'
+g
+'
+'
+l
+'
+'
+B
+'
+'
+l
+'
+'
+i
+'
+'
+t
+'
+'
+F
+'
+'
+r
+'
+'
+a
+'
+'
+m
+'
+'
+e
+'
+'
+b
+'
+'
+u
+'
+'
+f
+'
+'
+f
+'
+'
+e
+'
+'
+r
+'
+'
+L
+'
+'
+a
+'
+'
+y
+'
+'
+e
+'
+'
+r
+'
+'
+s
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glBlitFramebufferLayersEXT
+'
+g
+'
+'
+l
+'
+'
+B
+'
+'
+l
+'
+'
+i
+'
+'
+t
+'
+'
+F
+'
+'
+r
+'
+'
+a
+'
+'
+m
+'
+'
+e
+'
+'
+b
+'
+'
+u
+'
+'
+f
+'
+'
+f
+'
+'
+e
+'
+'
+r
+'
+'
 N
 '
 '
@@ -25585,6 +25931,91 @@ B
 /
 /
 glBufferPageCommitmentARB
+'
+g
+'
+'
+l
+'
+'
+B
+'
+'
+u
+'
+'
+f
+'
+'
+f
+'
+'
+e
+'
+'
+r
+'
+'
+P
+'
+'
+a
+'
+'
+g
+'
+'
+e
+'
+'
+C
+'
+'
+o
+'
+'
+m
+'
+'
+m
+'
+'
+i
+'
+'
+t
+'
+'
+m
+'
+'
+e
+'
+'
+n
+'
+'
+t
+'
+'
+M
+'
+'
+e
+'
+'
+m
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glBufferPageCommitmentMemNV
 '
 g
 '
@@ -42019,6 +42450,70 @@ e
 S
 '
 '
+e
+'
+'
+m
+'
+'
+a
+'
+'
+p
+'
+'
+h
+'
+'
+o
+'
+'
+r
+'
+'
+e
+'
+'
+s
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glCreateSemaphoresNV
+'
+g
+'
+'
+l
+'
+'
+C
+'
+'
+r
+'
+'
+e
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
+S
+'
+'
 h
 '
 '
@@ -47223,6 +47718,73 @@ a
 y
 '
 '
+d
+'
+'
+v
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glDepthRangeArraydvNV
+'
+g
+'
+'
+l
+'
+'
+D
+'
+'
+e
+'
+'
+p
+'
+'
+t
+'
+'
+h
+'
+'
+R
+'
+'
+a
+'
+'
+n
+'
+'
+g
+'
+'
+e
+'
+'
+A
+'
+'
+r
+'
+'
+r
+'
+'
+a
+'
+'
+y
+'
+'
 f
 '
 '
@@ -47427,6 +47989,76 @@ d
 /
 /
 glDepthRangeIndexed
+'
+g
+'
+'
+l
+'
+'
+D
+'
+'
+e
+'
+'
+p
+'
+'
+t
+'
+'
+h
+'
+'
+R
+'
+'
+a
+'
+'
+n
+'
+'
+g
+'
+'
+e
+'
+'
+I
+'
+'
+n
+'
+'
+d
+'
+'
+e
+'
+'
+x
+'
+'
+e
+'
+'
+d
+'
+'
+d
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glDepthRangeIndexeddNV
 '
 g
 '
@@ -52629,6 +53261,146 @@ N
 /
 /
 glDrawMeshArraysSUN
+'
+g
+'
+'
+l
+'
+'
+D
+'
+'
+r
+'
+'
+a
+'
+'
+w
+'
+'
+M
+'
+'
+e
+'
+'
+s
+'
+'
+h
+'
+'
+T
+'
+'
+a
+'
+'
+s
+'
+'
+k
+'
+'
+s
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glDrawMeshTasksEXT
+'
+g
+'
+'
+l
+'
+'
+D
+'
+'
+r
+'
+'
+a
+'
+'
+w
+'
+'
+M
+'
+'
+e
+'
+'
+s
+'
+'
+h
+'
+'
+T
+'
+'
+a
+'
+'
+s
+'
+'
+k
+'
+'
+s
+'
+'
+I
+'
+'
+n
+'
+'
+d
+'
+'
+i
+'
+'
+r
+'
+'
+e
+'
+'
+c
+'
+'
+t
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glDrawMeshTasksIndirectEXT
 '
 g
 '
@@ -59475,6 +60247,76 @@ g
 l
 '
 '
+E
+'
+'
+x
+'
+'
+t
+'
+'
+r
+'
+'
+a
+'
+'
+p
+'
+'
+o
+'
+'
+l
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
+T
+'
+'
+e
+'
+'
+x
+'
+'
+2
+'
+'
+D
+'
+'
+Q
+'
+'
+C
+'
+'
+O
+'
+'
+M
+'
+0
+/
+/
+glExtrapolateTex2DQCOM
+'
+g
+'
+'
+l
+'
+'
 F
 '
 '
@@ -64462,6 +65304,91 @@ D
 /
 /
 glFramebufferSamplePositionsfvAMD
+'
+g
+'
+'
+l
+'
+'
+F
+'
+'
+r
+'
+'
+a
+'
+'
+m
+'
+'
+e
+'
+'
+b
+'
+'
+u
+'
+'
+f
+'
+'
+f
+'
+'
+e
+'
+'
+r
+'
+'
+S
+'
+'
+h
+'
+'
+a
+'
+'
+d
+'
+'
+i
+'
+'
+n
+'
+'
+g
+'
+'
+R
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glFramebufferShadingRateEXT
 '
 g
 '
@@ -76297,6 +77224,94 @@ r
 a
 '
 '
+g
+'
+'
+m
+'
+'
+e
+'
+'
+n
+'
+'
+t
+'
+'
+S
+'
+'
+h
+'
+'
+a
+'
+'
+d
+'
+'
+i
+'
+'
+n
+'
+'
+g
+'
+'
+R
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
+s
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glGetFragmentShadingRatesEXT
+'
+g
+'
+'
+l
+'
+'
+G
+'
+'
+e
+'
+'
+t
+'
+'
+F
+'
+'
+r
+'
+'
+a
+'
+'
 m
 '
 '
@@ -78629,6 +79644,64 @@ E
 /
 /
 glGetInteger64vAPPLE
+'
+g
+'
+'
+l
+'
+'
+G
+'
+'
+e
+'
+'
+t
+'
+'
+I
+'
+'
+n
+'
+'
+t
+'
+'
+e
+'
+'
+g
+'
+'
+e
+'
+'
+r
+'
+'
+6
+'
+'
+4
+'
+'
+v
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glGetInteger64vEXT
 '
 g
 '
@@ -93160,6 +94233,91 @@ v
 /
 /
 glGetSamplerParameteriv
+'
+g
+'
+'
+l
+'
+'
+G
+'
+'
+e
+'
+'
+t
+'
+'
+S
+'
+'
+e
+'
+'
+m
+'
+'
+a
+'
+'
+p
+'
+'
+h
+'
+'
+o
+'
+'
+r
+'
+'
+e
+'
+'
+P
+'
+'
+a
+'
+'
+r
+'
+'
+a
+'
+'
+m
+'
+'
+e
+'
+'
+t
+'
+'
+e
+'
+'
+r
+'
+'
+i
+'
+'
+v
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glGetSemaphoreParameterivNV
 '
 g
 '
@@ -119445,6 +120603,85 @@ a
 x
 '
 '
+A
+'
+'
+c
+'
+'
+t
+'
+'
+i
+'
+'
+v
+'
+'
+e
+'
+'
+S
+'
+'
+h
+'
+'
+a
+'
+'
+d
+'
+'
+e
+'
+'
+r
+'
+'
+C
+'
+'
+o
+'
+'
+r
+'
+'
+e
+'
+'
+s
+'
+'
+A
+'
+'
+R
+'
+'
+M
+'
+0
+/
+/
+glMaxActiveShaderCoresARM
+'
+g
+'
+'
+l
+'
+'
+M
+'
+'
+a
+'
+'
+x
+'
+'
 S
 '
 '
@@ -122735,6 +123972,118 @@ n
 t
 '
 '
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glMultiDrawMeshTasksIndirectCountEXT
+'
+g
+'
+'
+l
+'
+'
+M
+'
+'
+u
+'
+'
+l
+'
+'
+t
+'
+'
+i
+'
+'
+D
+'
+'
+r
+'
+'
+a
+'
+'
+w
+'
+'
+M
+'
+'
+e
+'
+'
+s
+'
+'
+h
+'
+'
+T
+'
+'
+a
+'
+'
+s
+'
+'
+k
+'
+'
+s
+'
+'
+I
+'
+'
+n
+'
+'
+d
+'
+'
+i
+'
+'
+r
+'
+'
+e
+'
+'
+c
+'
+'
+t
+'
+'
+C
+'
+'
+o
+'
+'
+u
+'
+'
+n
+'
+'
+t
+'
+'
 N
 '
 '
@@ -122744,6 +124093,103 @@ V
 /
 /
 glMultiDrawMeshTasksIndirectCountNV
+'
+g
+'
+'
+l
+'
+'
+M
+'
+'
+u
+'
+'
+l
+'
+'
+t
+'
+'
+i
+'
+'
+D
+'
+'
+r
+'
+'
+a
+'
+'
+w
+'
+'
+M
+'
+'
+e
+'
+'
+s
+'
+'
+h
+'
+'
+T
+'
+'
+a
+'
+'
+s
+'
+'
+k
+'
+'
+s
+'
+'
+I
+'
+'
+n
+'
+'
+d
+'
+'
+i
+'
+'
+r
+'
+'
+e
+'
+'
+c
+'
+'
+t
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glMultiDrawMeshTasksIndirectEXT
 '
 g
 '
@@ -132472,6 +133918,106 @@ e
 r
 '
 '
+P
+'
+'
+a
+'
+'
+g
+'
+'
+e
+'
+'
+C
+'
+'
+o
+'
+'
+m
+'
+'
+m
+'
+'
+i
+'
+'
+t
+'
+'
+m
+'
+'
+e
+'
+'
+n
+'
+'
+t
+'
+'
+M
+'
+'
+e
+'
+'
+m
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glNamedBufferPageCommitmentMemNV
+'
+g
+'
+'
+l
+'
+'
+N
+'
+'
+a
+'
+'
+m
+'
+'
+e
+'
+'
+d
+'
+'
+B
+'
+'
+u
+'
+'
+f
+'
+'
+f
+'
+'
+e
+'
+'
+r
+'
+'
 S
 '
 '
@@ -134716,6 +136262,121 @@ T
 /
 /
 glNamedFramebufferTextureLayerEXT
+'
+g
+'
+'
+l
+'
+'
+N
+'
+'
+a
+'
+'
+m
+'
+'
+e
+'
+'
+d
+'
+'
+F
+'
+'
+r
+'
+'
+a
+'
+'
+m
+'
+'
+e
+'
+'
+b
+'
+'
+u
+'
+'
+f
+'
+'
+f
+'
+'
+e
+'
+'
+r
+'
+'
+T
+'
+'
+e
+'
+'
+x
+'
+'
+t
+'
+'
+u
+'
+'
+r
+'
+'
+e
+'
+'
+M
+'
+'
+u
+'
+'
+l
+'
+'
+t
+'
+'
+i
+'
+'
+v
+'
+'
+i
+'
+'
+e
+'
+'
+w
+'
+'
+O
+'
+'
+V
+'
+'
+R
+'
+0
+/
+/
+glNamedFramebufferTextureMultiviewOVR
 '
 g
 '
@@ -172486,6 +174147,82 @@ e
 r
 '
 '
+i
+'
+'
+v
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glSemaphoreParameterivNV
+'
+g
+'
+'
+l
+'
+'
+S
+'
+'
+e
+'
+'
+m
+'
+'
+a
+'
+'
+p
+'
+'
+h
+'
+'
+o
+'
+'
+r
+'
+'
+e
+'
+'
+P
+'
+'
+a
+'
+'
+r
+'
+'
+a
+'
+'
+m
+'
+'
+e
+'
+'
+t
+'
+'
+e
+'
+'
+r
+'
+'
 u
 '
 '
@@ -173466,6 +175203,143 @@ t
 e
 '
 '
+C
+'
+'
+o
+'
+'
+m
+'
+'
+b
+'
+'
+i
+'
+'
+n
+'
+'
+e
+'
+'
+r
+'
+'
+O
+'
+'
+p
+'
+'
+s
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glShadingRateCombinerOpsEXT
+'
+g
+'
+'
+l
+'
+'
+S
+'
+'
+h
+'
+'
+a
+'
+'
+d
+'
+'
+i
+'
+'
+n
+'
+'
+g
+'
+'
+R
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glShadingRateEXT
+'
+g
+'
+'
+l
+'
+'
+S
+'
+'
+h
+'
+'
+a
+'
+'
+d
+'
+'
+i
+'
+'
+n
+'
+'
+g
+'
+'
+R
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
 I
 '
 '
@@ -173596,6 +175470,61 @@ V
 /
 /
 glShadingRateImagePaletteNV
+'
+g
+'
+'
+l
+'
+'
+S
+'
+'
+h
+'
+'
+a
+'
+'
+d
+'
+'
+i
+'
+'
+n
+'
+'
+g
+'
+'
+R
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
+Q
+'
+'
+C
+'
+'
+O
+'
+'
+M
+'
+0
+/
+/
+glShadingRateQCOM
 '
 g
 '
@@ -182701,6 +184630,173 @@ e
 x
 '
 '
+E
+'
+'
+s
+'
+'
+t
+'
+'
+i
+'
+'
+m
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
+M
+'
+'
+o
+'
+'
+t
+'
+'
+i
+'
+'
+o
+'
+'
+n
+'
+'
+Q
+'
+'
+C
+'
+'
+O
+'
+'
+M
+'
+0
+/
+/
+glTexEstimateMotionQCOM
+'
+g
+'
+'
+l
+'
+'
+T
+'
+'
+e
+'
+'
+x
+'
+'
+E
+'
+'
+s
+'
+'
+t
+'
+'
+i
+'
+'
+m
+'
+'
+a
+'
+'
+t
+'
+'
+e
+'
+'
+M
+'
+'
+o
+'
+'
+t
+'
+'
+i
+'
+'
+o
+'
+'
+n
+'
+'
+R
+'
+'
+e
+'
+'
+g
+'
+'
+i
+'
+'
+o
+'
+'
+n
+'
+'
+s
+'
+'
+Q
+'
+'
+C
+'
+'
+O
+'
+'
+M
+'
+0
+/
+/
+glTexEstimateMotionRegionsQCOM
+'
+g
+'
+'
+l
+'
+'
+T
+'
+'
+e
+'
+'
+x
+'
+'
 F
 '
 '
@@ -183952,6 +186048,82 @@ T
 /
 /
 glTexPageCommitmentEXT
+'
+g
+'
+'
+l
+'
+'
+T
+'
+'
+e
+'
+'
+x
+'
+'
+P
+'
+'
+a
+'
+'
+g
+'
+'
+e
+'
+'
+C
+'
+'
+o
+'
+'
+m
+'
+'
+m
+'
+'
+i
+'
+'
+t
+'
+'
+m
+'
+'
+e
+'
+'
+n
+'
+'
+t
+'
+'
+M
+'
+'
+e
+'
+'
+m
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glTexPageCommitmentMemNV
 '
 g
 '
@@ -185359,6 +187531,158 @@ S
 /
 /
 glTexStorage3DMultisampleOES
+'
+g
+'
+'
+l
+'
+'
+T
+'
+'
+e
+'
+'
+x
+'
+'
+S
+'
+'
+t
+'
+'
+o
+'
+'
+r
+'
+'
+a
+'
+'
+g
+'
+'
+e
+'
+'
+A
+'
+'
+t
+'
+'
+t
+'
+'
+r
+'
+'
+i
+'
+'
+b
+'
+'
+s
+'
+'
+2
+'
+'
+D
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glTexStorageAttribs2DEXT
+'
+g
+'
+'
+l
+'
+'
+T
+'
+'
+e
+'
+'
+x
+'
+'
+S
+'
+'
+t
+'
+'
+o
+'
+'
+r
+'
+'
+a
+'
+'
+g
+'
+'
+e
+'
+'
+A
+'
+'
+t
+'
+'
+t
+'
+'
+r
+'
+'
+i
+'
+'
+b
+'
+'
+s
+'
+'
+3
+'
+'
+D
+'
+'
+E
+'
+'
+X
+'
+'
+T
+'
+0
+/
+/
+glTexStorageAttribs3DEXT
 '
 g
 '
@@ -187703,6 +190027,94 @@ T
 /
 /
 glTexturePageCommitmentEXT
+'
+g
+'
+'
+l
+'
+'
+T
+'
+'
+e
+'
+'
+x
+'
+'
+t
+'
+'
+u
+'
+'
+r
+'
+'
+e
+'
+'
+P
+'
+'
+a
+'
+'
+g
+'
+'
+e
+'
+'
+C
+'
+'
+o
+'
+'
+m
+'
+'
+m
+'
+'
+i
+'
+'
+t
+'
+'
+m
+'
+'
+e
+'
+'
+n
+'
+'
+t
+'
+'
+M
+'
+'
+e
+'
+'
+m
+'
+'
+N
+'
+'
+V
+'
+0
+/
+/
+glTexturePageCommitmentMemNV
 '
 g
 '
@@ -230565,6 +232977,29 @@ i
 break
 ;
 case
+PROVIDER_GL_ARM_shader_core_properties
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
 PROVIDER_GL_ATI_draw_buffers
 :
 if
@@ -231554,7 +233989,53 @@ i
 break
 ;
 case
+PROVIDER_GL_EXT_fragment_shading_rate
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
 PROVIDER_GL_EXT_framebuffer_blit
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
+PROVIDER_GL_EXT_framebuffer_blit_layers
 :
 if
 (
@@ -231900,6 +234381,29 @@ break
 ;
 case
 PROVIDER_GL_EXT_memory_object_win32
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
+PROVIDER_GL_EXT_mesh_shader
 :
 if
 (
@@ -232773,6 +235277,29 @@ i
 break
 ;
 case
+PROVIDER_GL_EXT_texture_storage_compression
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
 PROVIDER_GL_EXT_texture_view
 :
 if
@@ -233464,6 +235991,29 @@ break
 ;
 case
 PROVIDER_GL_MESA_resize_buffers
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
+PROVIDER_GL_MESA_sampler_objects
 :
 if
 (
@@ -234452,6 +237002,29 @@ i
 break
 ;
 case
+PROVIDER_GL_NV_memory_object_sparse
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
 PROVIDER_GL_NV_mesh_shader
 :
 if
@@ -234935,6 +237508,29 @@ i
 break
 ;
 case
+PROVIDER_GL_NV_timeline_semaphore
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
 PROVIDER_GL_NV_transform_feedback
 :
 if
@@ -235212,6 +237808,29 @@ break
 ;
 case
 PROVIDER_GL_OES_EGL_image
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
+PROVIDER_GL_OES_EGL_image_external
 :
 if
 (
@@ -236039,6 +238658,29 @@ i
 break
 ;
 case
+PROVIDER_GL_QCOM_frame_extrapolation
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
 PROVIDER_GL_QCOM_framebuffer_foveated
 :
 if
@@ -236062,7 +238704,53 @@ i
 break
 ;
 case
+PROVIDER_GL_QCOM_motion_estimation
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
 PROVIDER_GL_QCOM_shader_framebuffer_fetch_noncoherent
+:
+if
+(
+epoxy_conservative_has_gl_extension
+(
+provider_name
+)
+)
+return
+epoxy_get_proc_address
+(
+entrypoint_strings
++
+entrypoints
+[
+i
+]
+)
+;
+break
+;
+case
+PROVIDER_GL_QCOM_shading_rate
 :
 if
 (
@@ -241335,6 +244023,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -241347,6 +244036,14 @@ entrypoints
 ]
 =
 {
+1761
+/
+*
+"
+glBindSampler
+"
+*
+/
 1761
 /
 *
@@ -245832,7 +248529,7 @@ glBlitFramebufferEXT
 "
 *
 /
-3246
+3299
 /
 *
 "
@@ -245944,7 +248641,7 @@ glBlitFramebuffer
 "
 *
 /
-3246
+3299
 /
 *
 "
@@ -245969,6 +248666,46 @@ glBlitFramebufferEXT
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLBLITFRAMEBUFFERLAYEREXTPROC
+epoxy_glBlitFramebufferLayerEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_framebuffer_blit_layers
+3246
+/
+*
+glBlitFramebufferLayerEXT
+*
+/
+)
+;
+}
+static
+PFNGLBLITFRAMEBUFFERLAYERSEXTPROC
+epoxy_glBlitFramebufferLayersEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_framebuffer_blit_layers
+3272
+/
+*
+glBlitFramebufferLayersEXT
+*
+/
 )
 ;
 }
@@ -246004,7 +248741,7 @@ entrypoints
 ]
 =
 {
-3246
+3299
 /
 *
 "
@@ -246051,7 +248788,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3246
+3299
 /
 *
 "
@@ -246093,7 +248830,7 @@ entrypoints
 ]
 =
 {
-3266
+3319
 /
 *
 "
@@ -246101,7 +248838,7 @@ glBlitNamedFramebuffer
 "
 *
 /
-3266
+3319
 /
 *
 "
@@ -246116,7 +248853,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3266
+3319
 /
 *
 "
@@ -246140,7 +248877,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-3289
+3342
 /
 *
 glBufferAddressRangeNV
@@ -246160,7 +248897,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_memory_attachment
-3312
+3365
 /
 *
 glBufferAttachMemoryNV
@@ -246200,7 +248937,7 @@ entrypoints
 ]
 =
 {
-3335
+3388
 /
 *
 "
@@ -246208,7 +248945,7 @@ glBufferData
 "
 *
 /
-3335
+3388
 /
 *
 "
@@ -246216,7 +248953,7 @@ glBufferData
 "
 *
 /
-3335
+3388
 /
 *
 "
@@ -246224,7 +248961,7 @@ glBufferData
 "
 *
 /
-3348
+3401
 /
 *
 "
@@ -246239,7 +248976,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3335
+3388
 /
 *
 "
@@ -246283,7 +249020,7 @@ entrypoints
 ]
 =
 {
-3348
+3401
 /
 *
 "
@@ -246291,7 +249028,7 @@ glBufferDataARB
 "
 *
 /
-3335
+3388
 /
 *
 "
@@ -246299,7 +249036,7 @@ glBufferData
 "
 *
 /
-3335
+3388
 /
 *
 "
@@ -246307,7 +249044,7 @@ glBufferData
 "
 *
 /
-3335
+3388
 /
 *
 "
@@ -246322,7 +249059,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3348
+3401
 /
 *
 "
@@ -246346,10 +249083,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_sparse_buffer
-3364
+3417
 /
 *
 glBufferPageCommitmentARB
+*
+/
+)
+;
+}
+static
+PFNGLBUFFERPAGECOMMITMENTMEMNVPROC
+epoxy_glBufferPageCommitmentMemNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_NV_memory_object_sparse
+3443
+/
+*
+glBufferPageCommitmentMemNV
 *
 /
 )
@@ -246366,7 +249123,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_flush_buffer_range
-3390
+3471
 /
 *
 glBufferParameteriAPPLE
@@ -246405,7 +249162,7 @@ entrypoints
 ]
 =
 {
-3414
+3495
 /
 *
 "
@@ -246413,7 +249170,7 @@ glBufferStorage
 "
 *
 /
-3414
+3495
 /
 *
 "
@@ -246421,7 +249178,7 @@ glBufferStorage
 "
 *
 /
-3430
+3511
 /
 *
 "
@@ -246436,7 +249193,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3414
+3495
 /
 *
 "
@@ -246479,7 +249236,7 @@ entrypoints
 ]
 =
 {
-3430
+3511
 /
 *
 "
@@ -246487,7 +249244,7 @@ glBufferStorageEXT
 "
 *
 /
-3414
+3495
 /
 *
 "
@@ -246495,7 +249252,7 @@ glBufferStorage
 "
 *
 /
-3414
+3495
 /
 *
 "
@@ -246510,7 +249267,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3430
+3511
 /
 *
 "
@@ -246534,7 +249291,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_external_buffer
-3449
+3530
 /
 *
 glBufferStorageExternalEXT
@@ -246554,7 +249311,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-3476
+3557
 /
 *
 glBufferStorageMemEXT
@@ -246594,7 +249351,7 @@ entrypoints
 ]
 =
 {
-3498
+3579
 /
 *
 "
@@ -246602,7 +249359,7 @@ glBufferSubData
 "
 *
 /
-3498
+3579
 /
 *
 "
@@ -246610,7 +249367,7 @@ glBufferSubData
 "
 *
 /
-3498
+3579
 /
 *
 "
@@ -246618,7 +249375,7 @@ glBufferSubData
 "
 *
 /
-3514
+3595
 /
 *
 "
@@ -246633,7 +249390,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3498
+3579
 /
 *
 "
@@ -246677,7 +249434,7 @@ entrypoints
 ]
 =
 {
-3514
+3595
 /
 *
 "
@@ -246685,7 +249442,7 @@ glBufferSubDataARB
 "
 *
 /
-3498
+3579
 /
 *
 "
@@ -246693,7 +249450,7 @@ glBufferSubData
 "
 *
 /
-3498
+3579
 /
 *
 "
@@ -246701,7 +249458,7 @@ glBufferSubData
 "
 *
 /
-3498
+3579
 /
 *
 "
@@ -246716,7 +249473,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3514
+3595
 /
 *
 "
@@ -246740,7 +249497,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-3533
+3614
 /
 *
 glCallCommandListNV
@@ -246760,7 +249517,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-3553
+3634
 /
 *
 glCallList
@@ -246780,7 +249537,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-3564
+3645
 /
 *
 glCallLists
@@ -246820,7 +249577,7 @@ entrypoints
 ]
 =
 {
-3576
+3657
 /
 *
 "
@@ -246828,7 +249585,7 @@ glCheckFramebufferStatus
 "
 *
 /
-3576
+3657
 /
 *
 "
@@ -246836,7 +249593,7 @@ glCheckFramebufferStatus
 "
 *
 /
-3576
+3657
 /
 *
 "
@@ -246844,7 +249601,7 @@ glCheckFramebufferStatus
 "
 *
 /
-3601
+3682
 /
 *
 "
@@ -246859,7 +249616,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3576
+3657
 /
 *
 "
@@ -246903,7 +249660,7 @@ entrypoints
 ]
 =
 {
-3601
+3682
 /
 *
 "
@@ -246911,7 +249668,7 @@ glCheckFramebufferStatusEXT
 "
 *
 /
-3576
+3657
 /
 *
 "
@@ -246919,7 +249676,7 @@ glCheckFramebufferStatus
 "
 *
 /
-3576
+3657
 /
 *
 "
@@ -246927,7 +249684,7 @@ glCheckFramebufferStatus
 "
 *
 /
-3576
+3657
 /
 *
 "
@@ -246942,7 +249699,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3601
+3682
 /
 *
 "
@@ -246966,7 +249723,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-3629
+3710
 /
 *
 glCheckFramebufferStatusOES
@@ -247004,7 +249761,7 @@ entrypoints
 ]
 =
 {
-3657
+3738
 /
 *
 "
@@ -247012,7 +249769,7 @@ glCheckNamedFramebufferStatus
 "
 *
 /
-3657
+3738
 /
 *
 "
@@ -247027,7 +249784,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3657
+3738
 /
 *
 "
@@ -247051,7 +249808,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-3687
+3768
 /
 *
 glCheckNamedFramebufferStatusEXT
@@ -247089,7 +249846,7 @@ entrypoints
 ]
 =
 {
-3720
+3801
 /
 *
 "
@@ -247097,7 +249854,7 @@ glClampColor
 "
 *
 /
-3733
+3814
 /
 *
 "
@@ -247112,7 +249869,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3720
+3801
 /
 *
 "
@@ -247154,7 +249911,7 @@ entrypoints
 ]
 =
 {
-3733
+3814
 /
 *
 "
@@ -247162,7 +249919,7 @@ glClampColorARB
 "
 *
 /
-3720
+3801
 /
 *
 "
@@ -247177,7 +249934,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3733
+3814
 /
 *
 "
@@ -247220,7 +249977,7 @@ entrypoints
 ]
 =
 {
-3749
+3830
 /
 *
 "
@@ -247228,7 +249985,7 @@ glClear
 "
 *
 /
-3749
+3830
 /
 *
 "
@@ -247236,7 +249993,7 @@ glClear
 "
 *
 /
-3749
+3830
 /
 *
 "
@@ -247251,7 +250008,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3749
+3830
 /
 *
 "
@@ -247275,7 +250032,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-3757
+3838
 /
 *
 glClearAccum
@@ -247295,7 +250052,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-3770
+3851
 /
 *
 glClearAccumxOES
@@ -247333,7 +250090,7 @@ entrypoints
 ]
 =
 {
-3787
+3868
 /
 *
 "
@@ -247341,7 +250098,7 @@ glClearBufferData
 "
 *
 /
-3787
+3868
 /
 *
 "
@@ -247356,7 +250113,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3787
+3868
 /
 *
 "
@@ -247398,7 +250155,7 @@ entrypoints
 ]
 =
 {
-3805
+3886
 /
 *
 "
@@ -247406,7 +250163,7 @@ glClearBufferSubData
 "
 *
 /
-3805
+3886
 /
 *
 "
@@ -247421,7 +250178,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3805
+3886
 /
 *
 "
@@ -247463,7 +250220,7 @@ entrypoints
 ]
 =
 {
-3826
+3907
 /
 *
 "
@@ -247471,7 +250228,7 @@ glClearBufferfi
 "
 *
 /
-3826
+3907
 /
 *
 "
@@ -247486,7 +250243,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3826
+3907
 /
 *
 "
@@ -247528,7 +250285,7 @@ entrypoints
 ]
 =
 {
-3842
+3923
 /
 *
 "
@@ -247536,7 +250293,7 @@ glClearBufferfv
 "
 *
 /
-3842
+3923
 /
 *
 "
@@ -247551,7 +250308,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3842
+3923
 /
 *
 "
@@ -247593,7 +250350,7 @@ entrypoints
 ]
 =
 {
-3858
+3939
 /
 *
 "
@@ -247601,7 +250358,7 @@ glClearBufferiv
 "
 *
 /
-3858
+3939
 /
 *
 "
@@ -247616,7 +250373,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3858
+3939
 /
 *
 "
@@ -247658,7 +250415,7 @@ entrypoints
 ]
 =
 {
-3874
+3955
 /
 *
 "
@@ -247666,7 +250423,7 @@ glClearBufferuiv
 "
 *
 /
-3874
+3955
 /
 *
 "
@@ -247681,7 +250438,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3874
+3955
 /
 *
 "
@@ -247724,7 +250481,7 @@ entrypoints
 ]
 =
 {
-3891
+3972
 /
 *
 "
@@ -247732,7 +250489,7 @@ glClearColor
 "
 *
 /
-3891
+3972
 /
 *
 "
@@ -247740,7 +250497,7 @@ glClearColor
 "
 *
 /
-3891
+3972
 /
 *
 "
@@ -247755,7 +250512,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-3891
+3972
 /
 *
 "
@@ -247779,7 +250536,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_texture_integer
-3904
+3985
 /
 *
 glClearColorIiEXT
@@ -247799,7 +250556,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_texture_integer
-3922
+4003
 /
 *
 glClearColorIuiEXT
@@ -247819,7 +250576,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-3941
+4022
 /
 *
 glClearColorx
@@ -247839,7 +250596,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-3955
+4036
 /
 *
 glClearColorxOES
@@ -247859,7 +250616,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-3972
+4053
 /
 *
 glClearDepth
@@ -247879,7 +250636,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_depth_buffer_float
-3985
+4066
 /
 *
 glClearDepthdNV
@@ -247920,7 +250677,7 @@ entrypoints
 ]
 =
 {
-4001
+4082
 /
 *
 "
@@ -247928,7 +250685,7 @@ glClearDepthf
 "
 *
 /
-4001
+4082
 /
 *
 "
@@ -247936,7 +250693,7 @@ glClearDepthf
 "
 *
 /
-4001
+4082
 /
 *
 "
@@ -247944,7 +250701,7 @@ glClearDepthf
 "
 *
 /
-4001
+4082
 /
 *
 "
@@ -247952,7 +250709,7 @@ glClearDepthf
 "
 *
 /
-4015
+4096
 /
 *
 "
@@ -247967,7 +250724,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4001
+4082
 /
 *
 "
@@ -248012,7 +250769,7 @@ entrypoints
 ]
 =
 {
-4015
+4096
 /
 *
 "
@@ -248020,7 +250777,7 @@ glClearDepthfOES
 "
 *
 /
-4001
+4082
 /
 *
 "
@@ -248028,7 +250785,7 @@ glClearDepthf
 "
 *
 /
-4001
+4082
 /
 *
 "
@@ -248036,7 +250793,7 @@ glClearDepthf
 "
 *
 /
-4001
+4082
 /
 *
 "
@@ -248044,7 +250801,7 @@ glClearDepthf
 "
 *
 /
-4001
+4082
 /
 *
 "
@@ -248059,7 +250816,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4015
+4096
 /
 *
 "
@@ -248083,7 +250840,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-4032
+4113
 /
 *
 glClearDepthx
@@ -248103,7 +250860,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-4046
+4127
 /
 *
 glClearDepthxOES
@@ -248123,7 +250880,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4063
+4144
 /
 *
 glClearIndex
@@ -248161,7 +250918,7 @@ entrypoints
 ]
 =
 {
-4076
+4157
 /
 *
 "
@@ -248169,7 +250926,7 @@ glClearNamedBufferData
 "
 *
 /
-4076
+4157
 /
 *
 "
@@ -248184,7 +250941,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4076
+4157
 /
 *
 "
@@ -248208,7 +250965,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-4099
+4180
 /
 *
 glClearNamedBufferDataEXT
@@ -248246,7 +251003,7 @@ entrypoints
 ]
 =
 {
-4125
+4206
 /
 *
 "
@@ -248254,7 +251011,7 @@ glClearNamedBufferSubData
 "
 *
 /
-4125
+4206
 /
 *
 "
@@ -248269,7 +251026,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4125
+4206
 /
 *
 "
@@ -248293,7 +251050,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-4151
+4232
 /
 *
 glClearNamedBufferSubDataEXT
@@ -248331,7 +251088,7 @@ entrypoints
 ]
 =
 {
-4180
+4261
 /
 *
 "
@@ -248339,7 +251096,7 @@ glClearNamedFramebufferfi
 "
 *
 /
-4180
+4261
 /
 *
 "
@@ -248354,7 +251111,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4180
+4261
 /
 *
 "
@@ -248396,7 +251153,7 @@ entrypoints
 ]
 =
 {
-4206
+4287
 /
 *
 "
@@ -248404,7 +251161,7 @@ glClearNamedFramebufferfv
 "
 *
 /
-4206
+4287
 /
 *
 "
@@ -248419,7 +251176,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4206
+4287
 /
 *
 "
@@ -248461,7 +251218,7 @@ entrypoints
 ]
 =
 {
-4232
+4313
 /
 *
 "
@@ -248469,7 +251226,7 @@ glClearNamedFramebufferiv
 "
 *
 /
-4232
+4313
 /
 *
 "
@@ -248484,7 +251241,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4232
+4313
 /
 *
 "
@@ -248526,7 +251283,7 @@ entrypoints
 ]
 =
 {
-4258
+4339
 /
 *
 "
@@ -248534,7 +251291,7 @@ glClearNamedFramebufferuiv
 "
 *
 /
-4258
+4339
 /
 *
 "
@@ -248549,7 +251306,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4258
+4339
 /
 *
 "
@@ -248573,7 +251330,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_shader_pixel_local_storage2
-4285
+4366
 /
 *
 glClearPixelLocalStorageuiEXT
@@ -248612,7 +251369,7 @@ entrypoints
 ]
 =
 {
-4315
+4396
 /
 *
 "
@@ -248620,7 +251377,7 @@ glClearStencil
 "
 *
 /
-4315
+4396
 /
 *
 "
@@ -248628,7 +251385,7 @@ glClearStencil
 "
 *
 /
-4315
+4396
 /
 *
 "
@@ -248643,7 +251400,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4315
+4396
 /
 *
 "
@@ -248686,7 +251443,7 @@ entrypoints
 ]
 =
 {
-4330
+4411
 /
 *
 "
@@ -248694,7 +251451,7 @@ glClearTexImage
 "
 *
 /
-4330
+4411
 /
 *
 "
@@ -248702,7 +251459,7 @@ glClearTexImage
 "
 *
 /
-4346
+4427
 /
 *
 "
@@ -248717,7 +251474,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4330
+4411
 /
 *
 "
@@ -248760,7 +251517,7 @@ entrypoints
 ]
 =
 {
-4346
+4427
 /
 *
 "
@@ -248768,7 +251525,7 @@ glClearTexImageEXT
 "
 *
 /
-4330
+4411
 /
 *
 "
@@ -248776,7 +251533,7 @@ glClearTexImage
 "
 *
 /
-4330
+4411
 /
 *
 "
@@ -248791,7 +251548,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4346
+4427
 /
 *
 "
@@ -248834,7 +251591,7 @@ entrypoints
 ]
 =
 {
-4365
+4446
 /
 *
 "
@@ -248842,7 +251599,7 @@ glClearTexSubImage
 "
 *
 /
-4365
+4446
 /
 *
 "
@@ -248850,7 +251607,7 @@ glClearTexSubImage
 "
 *
 /
-4384
+4465
 /
 *
 "
@@ -248865,7 +251622,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4365
+4446
 /
 *
 "
@@ -248908,7 +251665,7 @@ entrypoints
 ]
 =
 {
-4384
+4465
 /
 *
 "
@@ -248916,7 +251673,7 @@ glClearTexSubImageEXT
 "
 *
 /
-4365
+4446
 /
 *
 "
@@ -248924,7 +251681,7 @@ glClearTexSubImage
 "
 *
 /
-4365
+4446
 /
 *
 "
@@ -248939,7 +251696,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4384
+4465
 /
 *
 "
@@ -248982,7 +251739,7 @@ entrypoints
 ]
 =
 {
-4406
+4487
 /
 *
 "
@@ -248990,7 +251747,7 @@ glClientActiveTexture
 "
 *
 /
-4406
+4487
 /
 *
 "
@@ -248998,7 +251755,7 @@ glClientActiveTexture
 "
 *
 /
-4428
+4509
 /
 *
 "
@@ -249013,7 +251770,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4406
+4487
 /
 *
 "
@@ -249056,7 +251813,7 @@ entrypoints
 ]
 =
 {
-4428
+4509
 /
 *
 "
@@ -249064,7 +251821,7 @@ glClientActiveTextureARB
 "
 *
 /
-4406
+4487
 /
 *
 "
@@ -249072,7 +251829,7 @@ glClientActiveTexture
 "
 *
 /
-4406
+4487
 /
 *
 "
@@ -249087,7 +251844,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4428
+4509
 /
 *
 "
@@ -249111,7 +251868,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-4453
+4534
 /
 *
 glClientActiveVertexStreamATI
@@ -249131,7 +251888,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-4483
+4564
 /
 *
 glClientAttribDefaultEXT
@@ -249151,7 +251908,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_progress_fence
-4508
+4589
 /
 *
 glClientWaitSemaphoreui64NVX
@@ -249191,7 +251948,7 @@ entrypoints
 ]
 =
 {
-4537
+4618
 /
 *
 "
@@ -249199,7 +251956,7 @@ glClientWaitSync
 "
 *
 /
-4537
+4618
 /
 *
 "
@@ -249207,7 +251964,7 @@ glClientWaitSync
 "
 *
 /
-4537
+4618
 /
 *
 "
@@ -249215,7 +251972,7 @@ glClientWaitSync
 "
 *
 /
-4554
+4635
 /
 *
 "
@@ -249230,7 +251987,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4537
+4618
 /
 *
 "
@@ -249274,7 +252031,7 @@ entrypoints
 ]
 =
 {
-4554
+4635
 /
 *
 "
@@ -249282,7 +252039,7 @@ glClientWaitSyncAPPLE
 "
 *
 /
-4537
+4618
 /
 *
 "
@@ -249290,7 +252047,7 @@ glClientWaitSync
 "
 *
 /
-4537
+4618
 /
 *
 "
@@ -249298,7 +252055,7 @@ glClientWaitSync
 "
 *
 /
-4537
+4618
 /
 *
 "
@@ -249313,7 +252070,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4554
+4635
 /
 *
 "
@@ -249356,7 +252113,7 @@ entrypoints
 ]
 =
 {
-4576
+4657
 /
 *
 "
@@ -249364,7 +252121,7 @@ glClipControl
 "
 *
 /
-4576
+4657
 /
 *
 "
@@ -249372,7 +252129,7 @@ glClipControl
 "
 *
 /
-4590
+4671
 /
 *
 "
@@ -249387,7 +252144,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4576
+4657
 /
 *
 "
@@ -249430,7 +252187,7 @@ entrypoints
 ]
 =
 {
-4590
+4671
 /
 *
 "
@@ -249438,7 +252195,7 @@ glClipControlEXT
 "
 *
 /
-4576
+4657
 /
 *
 "
@@ -249446,7 +252203,7 @@ glClipControl
 "
 *
 /
-4576
+4657
 /
 *
 "
@@ -249461,7 +252218,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-4590
+4671
 /
 *
 "
@@ -249485,7 +252242,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4607
+4688
 /
 *
 glClipPlane
@@ -249505,7 +252262,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-4619
+4700
 /
 *
 glClipPlanef
@@ -249525,7 +252282,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IMG_user_clip_plane
-4632
+4713
 /
 *
 glClipPlanefIMG
@@ -249545,7 +252302,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_single_precision
-4648
+4729
 /
 *
 glClipPlanefOES
@@ -249565,7 +252322,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-4664
+4745
 /
 *
 glClipPlanex
@@ -249585,7 +252342,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IMG_user_clip_plane
-4677
+4758
 /
 *
 glClipPlanexIMG
@@ -249605,7 +252362,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-4693
+4774
 /
 *
 glClipPlanexOES
@@ -249625,7 +252382,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4709
+4790
 /
 *
 glColor3b
@@ -249645,7 +252402,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4719
+4800
 /
 *
 glColor3bv
@@ -249665,7 +252422,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4730
+4811
 /
 *
 glColor3d
@@ -249685,7 +252442,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4740
+4821
 /
 *
 glColor3dv
@@ -249705,7 +252462,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4751
+4832
 /
 *
 glColor3f
@@ -249725,7 +252482,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-4761
+4842
 /
 *
 glColor3fVertex3fSUN
@@ -249745,7 +252502,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-4782
+4863
 /
 *
 glColor3fVertex3fvSUN
@@ -249765,7 +252522,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4804
+4885
 /
 *
 glColor3fv
@@ -249785,7 +252542,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-4815
+4896
 /
 *
 glColor3hNV
@@ -249805,7 +252562,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-4827
+4908
 /
 *
 glColor3hvNV
@@ -249825,7 +252582,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4840
+4921
 /
 *
 glColor3i
@@ -249845,7 +252602,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4850
+4931
 /
 *
 glColor3iv
@@ -249865,7 +252622,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4861
+4942
 /
 *
 glColor3s
@@ -249885,7 +252642,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4871
+4952
 /
 *
 glColor3sv
@@ -249905,7 +252662,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4882
+4963
 /
 *
 glColor3ub
@@ -249925,7 +252682,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4893
+4974
 /
 *
 glColor3ubv
@@ -249945,7 +252702,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4905
+4986
 /
 *
 glColor3ui
@@ -249965,7 +252722,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4916
+4997
 /
 *
 glColor3uiv
@@ -249985,7 +252742,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4928
+5009
 /
 *
 glColor3us
@@ -250005,7 +252762,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4939
+5020
 /
 *
 glColor3usv
@@ -250025,7 +252782,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-4951
+5032
 /
 *
 glColor3xOES
@@ -250045,7 +252802,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-4964
+5045
 /
 *
 glColor3xvOES
@@ -250065,7 +252822,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4978
+5059
 /
 *
 glColor4b
@@ -250085,7 +252842,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4988
+5069
 /
 *
 glColor4bv
@@ -250105,7 +252862,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-4999
+5080
 /
 *
 glColor4d
@@ -250125,7 +252882,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5009
+5090
 /
 *
 glColor4dv
@@ -250163,7 +252920,7 @@ entrypoints
 ]
 =
 {
-5020
+5101
 /
 *
 "
@@ -250171,7 +252928,7 @@ glColor4f
 "
 *
 /
-5020
+5101
 /
 *
 "
@@ -250186,7 +252943,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5020
+5101
 /
 *
 "
@@ -250210,7 +252967,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-5030
+5111
 /
 *
 glColor4fNormal3fVertex3fSUN
@@ -250230,7 +252987,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-5059
+5140
 /
 *
 glColor4fNormal3fVertex3fvSUN
@@ -250250,7 +253007,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5089
+5170
 /
 *
 glColor4fv
@@ -250270,7 +253027,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-5100
+5181
 /
 *
 glColor4hNV
@@ -250290,7 +253047,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-5112
+5193
 /
 *
 glColor4hvNV
@@ -250310,7 +253067,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5125
+5206
 /
 *
 glColor4i
@@ -250330,7 +253087,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5135
+5216
 /
 *
 glColor4iv
@@ -250350,7 +253107,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5146
+5227
 /
 *
 glColor4s
@@ -250370,7 +253127,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5156
+5237
 /
 *
 glColor4sv
@@ -250408,7 +253165,7 @@ entrypoints
 ]
 =
 {
-5167
+5248
 /
 *
 "
@@ -250416,7 +253173,7 @@ glColor4ub
 "
 *
 /
-5167
+5248
 /
 *
 "
@@ -250431,7 +253188,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5167
+5248
 /
 *
 "
@@ -250455,7 +253212,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-5178
+5259
 /
 *
 glColor4ubVertex2fSUN
@@ -250475,7 +253232,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-5200
+5281
 /
 *
 glColor4ubVertex2fvSUN
@@ -250495,7 +253252,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-5223
+5304
 /
 *
 glColor4ubVertex3fSUN
@@ -250515,7 +253272,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-5245
+5326
 /
 *
 glColor4ubVertex3fvSUN
@@ -250535,7 +253292,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5268
+5349
 /
 *
 glColor4ubv
@@ -250555,7 +253312,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5280
+5361
 /
 *
 glColor4ui
@@ -250575,7 +253332,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5291
+5372
 /
 *
 glColor4uiv
@@ -250595,7 +253352,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5303
+5384
 /
 *
 glColor4us
@@ -250615,7 +253372,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5314
+5395
 /
 *
 glColor4usv
@@ -250635,7 +253392,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-5326
+5407
 /
 *
 glColor4x
@@ -250655,7 +253412,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-5336
+5417
 /
 *
 glColor4xOES
@@ -250675,7 +253432,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-5349
+5430
 /
 *
 glColor4xvOES
@@ -250695,7 +253452,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-5363
+5444
 /
 *
 glColorFormatNV
@@ -250715,7 +253472,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-5379
+5460
 /
 *
 glColorFragmentOp1ATI
@@ -250735,7 +253492,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-5401
+5482
 /
 *
 glColorFragmentOp2ATI
@@ -250755,7 +253512,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-5423
+5504
 /
 *
 glColorFragmentOp3ATI
@@ -250794,7 +253551,7 @@ entrypoints
 ]
 =
 {
-5445
+5526
 /
 *
 "
@@ -250802,7 +253559,7 @@ glColorMask
 "
 *
 /
-5445
+5526
 /
 *
 "
@@ -250810,7 +253567,7 @@ glColorMask
 "
 *
 /
-5445
+5526
 /
 *
 "
@@ -250825,7 +253582,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5445
+5526
 /
 *
 "
@@ -250870,7 +253627,7 @@ entrypoints
 ]
 =
 {
-5457
+5538
 /
 *
 "
@@ -250878,7 +253635,7 @@ glColorMaskIndexedEXT
 "
 *
 /
-5479
+5560
 /
 *
 "
@@ -250886,7 +253643,7 @@ glColorMaski
 "
 *
 /
-5479
+5560
 /
 *
 "
@@ -250894,7 +253651,7 @@ glColorMaski
 "
 *
 /
-5492
+5573
 /
 *
 "
@@ -250902,7 +253659,7 @@ glColorMaskiEXT
 "
 *
 /
-5508
+5589
 /
 *
 "
@@ -250917,7 +253674,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5457
+5538
 /
 *
 "
@@ -250962,7 +253719,7 @@ entrypoints
 ]
 =
 {
-5479
+5560
 /
 *
 "
@@ -250970,7 +253727,7 @@ glColorMaski
 "
 *
 /
-5479
+5560
 /
 *
 "
@@ -250978,7 +253735,7 @@ glColorMaski
 "
 *
 /
-5457
+5538
 /
 *
 "
@@ -250986,7 +253743,7 @@ glColorMaskIndexedEXT
 "
 *
 /
-5492
+5573
 /
 *
 "
@@ -250994,7 +253751,7 @@ glColorMaskiEXT
 "
 *
 /
-5508
+5589
 /
 *
 "
@@ -251009,7 +253766,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5479
+5560
 /
 *
 "
@@ -251054,7 +253811,7 @@ entrypoints
 ]
 =
 {
-5492
+5573
 /
 *
 "
@@ -251062,7 +253819,7 @@ glColorMaskiEXT
 "
 *
 /
-5457
+5538
 /
 *
 "
@@ -251070,7 +253827,7 @@ glColorMaskIndexedEXT
 "
 *
 /
-5479
+5560
 /
 *
 "
@@ -251078,7 +253835,7 @@ glColorMaski
 "
 *
 /
-5479
+5560
 /
 *
 "
@@ -251086,7 +253843,7 @@ glColorMaski
 "
 *
 /
-5508
+5589
 /
 *
 "
@@ -251101,7 +253858,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5492
+5573
 /
 *
 "
@@ -251146,7 +253903,7 @@ entrypoints
 ]
 =
 {
-5508
+5589
 /
 *
 "
@@ -251154,7 +253911,7 @@ glColorMaskiOES
 "
 *
 /
-5457
+5538
 /
 *
 "
@@ -251162,7 +253919,7 @@ glColorMaskIndexedEXT
 "
 *
 /
-5479
+5560
 /
 *
 "
@@ -251170,7 +253927,7 @@ glColorMaski
 "
 *
 /
-5479
+5560
 /
 *
 "
@@ -251178,7 +253935,7 @@ glColorMaski
 "
 *
 /
-5492
+5573
 /
 *
 "
@@ -251193,7 +253950,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5508
+5589
 /
 *
 "
@@ -251217,7 +253974,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-5524
+5605
 /
 *
 glColorMaterial
@@ -251255,7 +254012,7 @@ entrypoints
 ]
 =
 {
-5540
+5621
 /
 *
 "
@@ -251263,7 +254020,7 @@ glColorP3ui
 "
 *
 /
-5540
+5621
 /
 *
 "
@@ -251278,7 +254035,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5540
+5621
 /
 *
 "
@@ -251320,7 +254077,7 @@ entrypoints
 ]
 =
 {
-5552
+5633
 /
 *
 "
@@ -251328,7 +254085,7 @@ glColorP3uiv
 "
 *
 /
-5552
+5633
 /
 *
 "
@@ -251343,7 +254100,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5552
+5633
 /
 *
 "
@@ -251385,7 +254142,7 @@ entrypoints
 ]
 =
 {
-5565
+5646
 /
 *
 "
@@ -251393,7 +254150,7 @@ glColorP4ui
 "
 *
 /
-5565
+5646
 /
 *
 "
@@ -251408,7 +254165,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5565
+5646
 /
 *
 "
@@ -251450,7 +254207,7 @@ entrypoints
 ]
 =
 {
-5577
+5658
 /
 *
 "
@@ -251458,7 +254215,7 @@ glColorP4uiv
 "
 *
 /
-5577
+5658
 /
 *
 "
@@ -251473,7 +254230,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5577
+5658
 /
 *
 "
@@ -251515,7 +254272,7 @@ entrypoints
 ]
 =
 {
-5590
+5671
 /
 *
 "
@@ -251523,7 +254280,7 @@ glColorPointer
 "
 *
 /
-5590
+5671
 /
 *
 "
@@ -251538,7 +254295,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5590
+5671
 /
 *
 "
@@ -251562,7 +254319,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_array
-5605
+5686
 /
 *
 glColorPointerEXT
@@ -251582,7 +254339,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_vertex_array_lists
-5623
+5704
 /
 *
 glColorPointerListIBM
@@ -251602,7 +254359,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_parallel_arrays
-5645
+5726
 /
 *
 glColorPointervINTEL
@@ -251640,7 +254397,7 @@ entrypoints
 ]
 =
 {
-5666
+5747
 /
 *
 "
@@ -251648,7 +254405,7 @@ glColorSubTable
 "
 *
 /
-5682
+5763
 /
 *
 "
@@ -251663,7 +254420,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5666
+5747
 /
 *
 "
@@ -251705,7 +254462,7 @@ entrypoints
 ]
 =
 {
-5682
+5763
 /
 *
 "
@@ -251713,7 +254470,7 @@ glColorSubTableEXT
 "
 *
 /
-5666
+5747
 /
 *
 "
@@ -251728,7 +254485,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5682
+5763
 /
 *
 "
@@ -251771,7 +254528,7 @@ entrypoints
 ]
 =
 {
-5701
+5782
 /
 *
 "
@@ -251779,7 +254536,7 @@ glColorTable
 "
 *
 /
-5714
+5795
 /
 *
 "
@@ -251787,7 +254544,7 @@ glColorTableEXT
 "
 *
 /
-5832
+5913
 /
 *
 "
@@ -251802,7 +254559,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5701
+5782
 /
 *
 "
@@ -251845,7 +254602,7 @@ entrypoints
 ]
 =
 {
-5714
+5795
 /
 *
 "
@@ -251853,7 +254610,7 @@ glColorTableEXT
 "
 *
 /
-5701
+5782
 /
 *
 "
@@ -251861,7 +254618,7 @@ glColorTable
 "
 *
 /
-5832
+5913
 /
 *
 "
@@ -251876,7 +254633,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5714
+5795
 /
 *
 "
@@ -251918,7 +254675,7 @@ entrypoints
 ]
 =
 {
-5730
+5811
 /
 *
 "
@@ -251926,7 +254683,7 @@ glColorTableParameterfv
 "
 *
 /
-5754
+5835
 /
 *
 "
@@ -251941,7 +254698,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5730
+5811
 /
 *
 "
@@ -251983,7 +254740,7 @@ entrypoints
 ]
 =
 {
-5754
+5835
 /
 *
 "
@@ -251991,7 +254748,7 @@ glColorTableParameterfvSGI
 "
 *
 /
-5730
+5811
 /
 *
 "
@@ -252006,7 +254763,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5754
+5835
 /
 *
 "
@@ -252048,7 +254805,7 @@ entrypoints
 ]
 =
 {
-5781
+5862
 /
 *
 "
@@ -252056,7 +254813,7 @@ glColorTableParameteriv
 "
 *
 /
-5805
+5886
 /
 *
 "
@@ -252071,7 +254828,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5781
+5862
 /
 *
 "
@@ -252113,7 +254870,7 @@ entrypoints
 ]
 =
 {
-5805
+5886
 /
 *
 "
@@ -252121,7 +254878,7 @@ glColorTableParameterivSGI
 "
 *
 /
-5781
+5862
 /
 *
 "
@@ -252136,7 +254893,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5805
+5886
 /
 *
 "
@@ -252179,7 +254936,7 @@ entrypoints
 ]
 =
 {
-5832
+5913
 /
 *
 "
@@ -252187,7 +254944,7 @@ glColorTableSGI
 "
 *
 /
-5701
+5782
 /
 *
 "
@@ -252195,7 +254952,7 @@ glColorTable
 "
 *
 /
-5714
+5795
 /
 *
 "
@@ -252210,7 +254967,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-5832
+5913
 /
 *
 "
@@ -252234,7 +254991,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-5848
+5929
 /
 *
 glCombinerInputNV
@@ -252254,7 +255011,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-5866
+5947
 /
 *
 glCombinerOutputNV
@@ -252274,7 +255031,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-5885
+5966
 /
 *
 glCombinerParameterfNV
@@ -252294,7 +255051,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-5908
+5989
 /
 *
 glCombinerParameterfvNV
@@ -252314,7 +255071,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-5932
+6013
 /
 *
 glCombinerParameteriNV
@@ -252334,7 +255091,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-5955
+6036
 /
 *
 glCombinerParameterivNV
@@ -252354,7 +255111,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners2
-5979
+6060
 /
 *
 glCombinerStageParameterfvNV
@@ -252374,7 +255131,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-6008
+6089
 /
 *
 glCommandListSegmentsNV
@@ -252394,7 +255151,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-6032
+6113
 /
 *
 glCompileCommandListNV
@@ -252433,7 +255190,7 @@ entrypoints
 ]
 =
 {
-6055
+6136
 /
 *
 "
@@ -252441,7 +255198,7 @@ glCompileShader
 "
 *
 /
-6055
+6136
 /
 *
 "
@@ -252449,7 +255206,7 @@ glCompileShader
 "
 *
 /
-6071
+6152
 /
 *
 "
@@ -252464,7 +255221,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6055
+6136
 /
 *
 "
@@ -252507,7 +255264,7 @@ entrypoints
 ]
 =
 {
-6071
+6152
 /
 *
 "
@@ -252515,7 +255272,7 @@ glCompileShaderARB
 "
 *
 /
-6055
+6136
 /
 *
 "
@@ -252523,7 +255280,7 @@ glCompileShader
 "
 *
 /
-6055
+6136
 /
 *
 "
@@ -252538,7 +255295,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6071
+6152
 /
 *
 "
@@ -252562,7 +255319,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shading_language_include
-6090
+6171
 /
 *
 glCompileShaderIncludeARB
@@ -252582,7 +255339,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6116
+6197
 /
 *
 glCompressedMultiTexImage1DEXT
@@ -252602,7 +255359,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6147
+6228
 /
 *
 glCompressedMultiTexImage2DEXT
@@ -252622,7 +255379,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6178
+6259
 /
 *
 glCompressedMultiTexImage3DEXT
@@ -252642,7 +255399,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6209
+6290
 /
 *
 glCompressedMultiTexSubImage1DEXT
@@ -252662,7 +255419,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6243
+6324
 /
 *
 glCompressedMultiTexSubImage2DEXT
@@ -252682,7 +255439,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6277
+6358
 /
 *
 glCompressedMultiTexSubImage3DEXT
@@ -252720,7 +255477,7 @@ entrypoints
 ]
 =
 {
-6311
+6392
 /
 *
 "
@@ -252728,7 +255485,7 @@ glCompressedTexImage1D
 "
 *
 /
-6334
+6415
 /
 *
 "
@@ -252743,7 +255500,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6311
+6392
 /
 *
 "
@@ -252785,7 +255542,7 @@ entrypoints
 ]
 =
 {
-6334
+6415
 /
 *
 "
@@ -252793,7 +255550,7 @@ glCompressedTexImage1DARB
 "
 *
 /
-6311
+6392
 /
 *
 "
@@ -252808,7 +255565,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6334
+6415
 /
 *
 "
@@ -252852,7 +255609,7 @@ entrypoints
 ]
 =
 {
-6360
+6441
 /
 *
 "
@@ -252860,7 +255617,7 @@ glCompressedTexImage2D
 "
 *
 /
-6360
+6441
 /
 *
 "
@@ -252868,7 +255625,7 @@ glCompressedTexImage2D
 "
 *
 /
-6360
+6441
 /
 *
 "
@@ -252876,7 +255633,7 @@ glCompressedTexImage2D
 "
 *
 /
-6383
+6464
 /
 *
 "
@@ -252891,7 +255648,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6360
+6441
 /
 *
 "
@@ -252935,7 +255692,7 @@ entrypoints
 ]
 =
 {
-6383
+6464
 /
 *
 "
@@ -252943,7 +255700,7 @@ glCompressedTexImage2DARB
 "
 *
 /
-6360
+6441
 /
 *
 "
@@ -252951,7 +255708,7 @@ glCompressedTexImage2D
 "
 *
 /
-6360
+6441
 /
 *
 "
@@ -252959,7 +255716,7 @@ glCompressedTexImage2D
 "
 *
 /
-6360
+6441
 /
 *
 "
@@ -252974,7 +255731,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6383
+6464
 /
 *
 "
@@ -253017,7 +255774,7 @@ entrypoints
 ]
 =
 {
-6409
+6490
 /
 *
 "
@@ -253025,7 +255782,7 @@ glCompressedTexImage3D
 "
 *
 /
-6409
+6490
 /
 *
 "
@@ -253033,7 +255790,7 @@ glCompressedTexImage3D
 "
 *
 /
-6432
+6513
 /
 *
 "
@@ -253048,7 +255805,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6409
+6490
 /
 *
 "
@@ -253091,7 +255848,7 @@ entrypoints
 ]
 =
 {
-6432
+6513
 /
 *
 "
@@ -253099,7 +255856,7 @@ glCompressedTexImage3DARB
 "
 *
 /
-6409
+6490
 /
 *
 "
@@ -253107,7 +255864,7 @@ glCompressedTexImage3D
 "
 *
 /
-6409
+6490
 /
 *
 "
@@ -253122,7 +255879,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6432
+6513
 /
 *
 "
@@ -253146,7 +255903,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_3D
-6458
+6539
 /
 *
 glCompressedTexImage3DOES
@@ -253184,7 +255941,7 @@ entrypoints
 ]
 =
 {
-6484
+6565
 /
 *
 "
@@ -253192,7 +255949,7 @@ glCompressedTexSubImage1D
 "
 *
 /
-6510
+6591
 /
 *
 "
@@ -253207,7 +255964,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6484
+6565
 /
 *
 "
@@ -253249,7 +256006,7 @@ entrypoints
 ]
 =
 {
-6510
+6591
 /
 *
 "
@@ -253257,7 +256014,7 @@ glCompressedTexSubImage1DARB
 "
 *
 /
-6484
+6565
 /
 *
 "
@@ -253272,7 +256029,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6510
+6591
 /
 *
 "
@@ -253316,7 +256073,7 @@ entrypoints
 ]
 =
 {
-6539
+6620
 /
 *
 "
@@ -253324,7 +256081,7 @@ glCompressedTexSubImage2D
 "
 *
 /
-6539
+6620
 /
 *
 "
@@ -253332,7 +256089,7 @@ glCompressedTexSubImage2D
 "
 *
 /
-6539
+6620
 /
 *
 "
@@ -253340,7 +256097,7 @@ glCompressedTexSubImage2D
 "
 *
 /
-6565
+6646
 /
 *
 "
@@ -253355,7 +256112,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6539
+6620
 /
 *
 "
@@ -253399,7 +256156,7 @@ entrypoints
 ]
 =
 {
-6565
+6646
 /
 *
 "
@@ -253407,7 +256164,7 @@ glCompressedTexSubImage2DARB
 "
 *
 /
-6539
+6620
 /
 *
 "
@@ -253415,7 +256172,7 @@ glCompressedTexSubImage2D
 "
 *
 /
-6539
+6620
 /
 *
 "
@@ -253423,7 +256180,7 @@ glCompressedTexSubImage2D
 "
 *
 /
-6539
+6620
 /
 *
 "
@@ -253438,7 +256195,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6565
+6646
 /
 *
 "
@@ -253481,7 +256238,7 @@ entrypoints
 ]
 =
 {
-6594
+6675
 /
 *
 "
@@ -253489,7 +256246,7 @@ glCompressedTexSubImage3D
 "
 *
 /
-6594
+6675
 /
 *
 "
@@ -253497,7 +256254,7 @@ glCompressedTexSubImage3D
 "
 *
 /
-6620
+6701
 /
 *
 "
@@ -253512,7 +256269,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6594
+6675
 /
 *
 "
@@ -253555,7 +256312,7 @@ entrypoints
 ]
 =
 {
-6620
+6701
 /
 *
 "
@@ -253563,7 +256320,7 @@ glCompressedTexSubImage3DARB
 "
 *
 /
-6594
+6675
 /
 *
 "
@@ -253571,7 +256328,7 @@ glCompressedTexSubImage3D
 "
 *
 /
-6594
+6675
 /
 *
 "
@@ -253586,7 +256343,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6620
+6701
 /
 *
 "
@@ -253610,7 +256367,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_3D
-6649
+6730
 /
 *
 glCompressedTexSubImage3DOES
@@ -253630,7 +256387,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6678
+6759
 /
 *
 glCompressedTextureImage1DEXT
@@ -253650,7 +256407,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6708
+6789
 /
 *
 glCompressedTextureImage2DEXT
@@ -253670,7 +256427,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6738
+6819
 /
 *
 glCompressedTextureImage3DEXT
@@ -253708,7 +256465,7 @@ entrypoints
 ]
 =
 {
-6768
+6849
 /
 *
 "
@@ -253716,7 +256473,7 @@ glCompressedTextureSubImage1D
 "
 *
 /
-6768
+6849
 /
 *
 "
@@ -253731,7 +256488,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6768
+6849
 /
 *
 "
@@ -253755,7 +256512,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6798
+6879
 /
 *
 glCompressedTextureSubImage1DEXT
@@ -253793,7 +256550,7 @@ entrypoints
 ]
 =
 {
-6831
+6912
 /
 *
 "
@@ -253801,7 +256558,7 @@ glCompressedTextureSubImage2D
 "
 *
 /
-6831
+6912
 /
 *
 "
@@ -253816,7 +256573,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6831
+6912
 /
 *
 "
@@ -253840,7 +256597,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6861
+6942
 /
 *
 glCompressedTextureSubImage2DEXT
@@ -253878,7 +256635,7 @@ entrypoints
 ]
 =
 {
-6894
+6975
 /
 *
 "
@@ -253886,7 +256643,7 @@ glCompressedTextureSubImage3D
 "
 *
 /
-6894
+6975
 /
 *
 "
@@ -253901,7 +256658,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-6894
+6975
 /
 *
 "
@@ -253925,7 +256682,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-6924
+7005
 /
 *
 glCompressedTextureSubImage3DEXT
@@ -253945,7 +256702,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_conservative_raster_dilate
-6957
+7038
 /
 *
 glConservativeRasterParameterfNV
@@ -253965,7 +256722,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_conservative_raster_pre_snap_triangles
-6990
+7071
 /
 *
 glConservativeRasterParameteriNV
@@ -254003,7 +256760,7 @@ entrypoints
 ]
 =
 {
-7023
+7104
 /
 *
 "
@@ -254011,7 +256768,7 @@ glConvolutionFilter1D
 "
 *
 /
-7045
+7126
 /
 *
 "
@@ -254026,7 +256783,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7023
+7104
 /
 *
 "
@@ -254068,7 +256825,7 @@ entrypoints
 ]
 =
 {
-7045
+7126
 /
 *
 "
@@ -254076,7 +256833,7 @@ glConvolutionFilter1DEXT
 "
 *
 /
-7023
+7104
 /
 *
 "
@@ -254091,7 +256848,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7045
+7126
 /
 *
 "
@@ -254133,7 +256890,7 @@ entrypoints
 ]
 =
 {
-7070
+7151
 /
 *
 "
@@ -254141,7 +256898,7 @@ glConvolutionFilter2D
 "
 *
 /
-7092
+7173
 /
 *
 "
@@ -254156,7 +256913,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7070
+7151
 /
 *
 "
@@ -254198,7 +256955,7 @@ entrypoints
 ]
 =
 {
-7092
+7173
 /
 *
 "
@@ -254206,7 +256963,7 @@ glConvolutionFilter2DEXT
 "
 *
 /
-7070
+7151
 /
 *
 "
@@ -254221,7 +256978,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7092
+7173
 /
 *
 "
@@ -254263,7 +257020,7 @@ entrypoints
 ]
 =
 {
-7117
+7198
 /
 *
 "
@@ -254271,7 +257028,7 @@ glConvolutionParameterf
 "
 *
 /
-7141
+7222
 /
 *
 "
@@ -254286,7 +257043,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7117
+7198
 /
 *
 "
@@ -254328,7 +257085,7 @@ entrypoints
 ]
 =
 {
-7141
+7222
 /
 *
 "
@@ -254336,7 +257093,7 @@ glConvolutionParameterfEXT
 "
 *
 /
-7117
+7198
 /
 *
 "
@@ -254351,7 +257108,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7141
+7222
 /
 *
 "
@@ -254393,7 +257150,7 @@ entrypoints
 ]
 =
 {
-7168
+7249
 /
 *
 "
@@ -254401,7 +257158,7 @@ glConvolutionParameterfv
 "
 *
 /
-7193
+7274
 /
 *
 "
@@ -254416,7 +257173,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7168
+7249
 /
 *
 "
@@ -254458,7 +257215,7 @@ entrypoints
 ]
 =
 {
-7193
+7274
 /
 *
 "
@@ -254466,7 +257223,7 @@ glConvolutionParameterfvEXT
 "
 *
 /
-7168
+7249
 /
 *
 "
@@ -254481,7 +257238,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7193
+7274
 /
 *
 "
@@ -254523,7 +257280,7 @@ entrypoints
 ]
 =
 {
-7221
+7302
 /
 *
 "
@@ -254531,7 +257288,7 @@ glConvolutionParameteri
 "
 *
 /
-7245
+7326
 /
 *
 "
@@ -254546,7 +257303,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7221
+7302
 /
 *
 "
@@ -254588,7 +257345,7 @@ entrypoints
 ]
 =
 {
-7245
+7326
 /
 *
 "
@@ -254596,7 +257353,7 @@ glConvolutionParameteriEXT
 "
 *
 /
-7221
+7302
 /
 *
 "
@@ -254611,7 +257368,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7245
+7326
 /
 *
 "
@@ -254653,7 +257410,7 @@ entrypoints
 ]
 =
 {
-7272
+7353
 /
 *
 "
@@ -254661,7 +257418,7 @@ glConvolutionParameteriv
 "
 *
 /
-7297
+7378
 /
 *
 "
@@ -254676,7 +257433,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7272
+7353
 /
 *
 "
@@ -254718,7 +257475,7 @@ entrypoints
 ]
 =
 {
-7297
+7378
 /
 *
 "
@@ -254726,7 +257483,7 @@ glConvolutionParameterivEXT
 "
 *
 /
-7272
+7353
 /
 *
 "
@@ -254741,7 +257498,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7297
+7378
 /
 *
 "
@@ -254765,7 +257522,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-7325
+7406
 /
 *
 glConvolutionParameterxOES
@@ -254785,7 +257542,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-7352
+7433
 /
 *
 glConvolutionParameterxvOES
@@ -254825,7 +257582,7 @@ entrypoints
 ]
 =
 {
-7380
+7461
 /
 *
 "
@@ -254833,7 +257590,7 @@ glCopyBufferSubData
 "
 *
 /
-7380
+7461
 /
 *
 "
@@ -254841,7 +257598,7 @@ glCopyBufferSubData
 "
 *
 /
-7380
+7461
 /
 *
 "
@@ -254849,7 +257606,7 @@ glCopyBufferSubData
 "
 *
 /
-7400
+7481
 /
 *
 "
@@ -254864,7 +257621,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7380
+7461
 /
 *
 "
@@ -254908,7 +257665,7 @@ entrypoints
 ]
 =
 {
-7400
+7481
 /
 *
 "
@@ -254916,7 +257673,7 @@ glCopyBufferSubDataNV
 "
 *
 /
-7380
+7461
 /
 *
 "
@@ -254924,7 +257681,7 @@ glCopyBufferSubData
 "
 *
 /
-7380
+7461
 /
 *
 "
@@ -254932,7 +257689,7 @@ glCopyBufferSubData
 "
 *
 /
-7380
+7461
 /
 *
 "
@@ -254947,7 +257704,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7400
+7481
 /
 *
 "
@@ -254989,7 +257746,7 @@ entrypoints
 ]
 =
 {
-7422
+7503
 /
 *
 "
@@ -254997,7 +257754,7 @@ glCopyColorSubTable
 "
 *
 /
-7442
+7523
 /
 *
 "
@@ -255012,7 +257769,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7422
+7503
 /
 *
 "
@@ -255054,7 +257811,7 @@ entrypoints
 ]
 =
 {
-7442
+7523
 /
 *
 "
@@ -255062,7 +257819,7 @@ glCopyColorSubTableEXT
 "
 *
 /
-7422
+7503
 /
 *
 "
@@ -255077,7 +257834,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7442
+7523
 /
 *
 "
@@ -255119,7 +257876,7 @@ entrypoints
 ]
 =
 {
-7465
+7546
 /
 *
 "
@@ -255127,7 +257884,7 @@ glCopyColorTable
 "
 *
 /
-7482
+7563
 /
 *
 "
@@ -255142,7 +257899,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7465
+7546
 /
 *
 "
@@ -255184,7 +257941,7 @@ entrypoints
 ]
 =
 {
-7482
+7563
 /
 *
 "
@@ -255192,7 +257949,7 @@ glCopyColorTableSGI
 "
 *
 /
-7465
+7546
 /
 *
 "
@@ -255207,7 +257964,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7482
+7563
 /
 *
 "
@@ -255249,7 +258006,7 @@ entrypoints
 ]
 =
 {
-7502
+7583
 /
 *
 "
@@ -255257,7 +258014,7 @@ glCopyConvolutionFilter1D
 "
 *
 /
-7528
+7609
 /
 *
 "
@@ -255272,7 +258029,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7502
+7583
 /
 *
 "
@@ -255314,7 +258071,7 @@ entrypoints
 ]
 =
 {
-7528
+7609
 /
 *
 "
@@ -255322,7 +258079,7 @@ glCopyConvolutionFilter1DEXT
 "
 *
 /
-7502
+7583
 /
 *
 "
@@ -255337,7 +258094,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7528
+7609
 /
 *
 "
@@ -255379,7 +258136,7 @@ entrypoints
 ]
 =
 {
-7557
+7638
 /
 *
 "
@@ -255387,7 +258144,7 @@ glCopyConvolutionFilter2D
 "
 *
 /
-7583
+7664
 /
 *
 "
@@ -255402,7 +258159,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7557
+7638
 /
 *
 "
@@ -255444,7 +258201,7 @@ entrypoints
 ]
 =
 {
-7583
+7664
 /
 *
 "
@@ -255452,7 +258209,7 @@ glCopyConvolutionFilter2DEXT
 "
 *
 /
-7557
+7638
 /
 *
 "
@@ -255467,7 +258224,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7583
+7664
 /
 *
 "
@@ -255512,7 +258269,7 @@ entrypoints
 ]
 =
 {
-7612
+7693
 /
 *
 "
@@ -255520,7 +258277,7 @@ glCopyImageSubData
 "
 *
 /
-7612
+7693
 /
 *
 "
@@ -255528,7 +258285,7 @@ glCopyImageSubData
 "
 *
 /
-7612
+7693
 /
 *
 "
@@ -255536,7 +258293,7 @@ glCopyImageSubData
 "
 *
 /
-7631
+7712
 /
 *
 "
@@ -255544,7 +258301,7 @@ glCopyImageSubDataEXT
 "
 *
 /
-7674
+7755
 /
 *
 "
@@ -255559,7 +258316,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7612
+7693
 /
 *
 "
@@ -255604,7 +258361,7 @@ entrypoints
 ]
 =
 {
-7631
+7712
 /
 *
 "
@@ -255612,7 +258369,7 @@ glCopyImageSubDataEXT
 "
 *
 /
-7612
+7693
 /
 *
 "
@@ -255620,7 +258377,7 @@ glCopyImageSubData
 "
 *
 /
-7612
+7693
 /
 *
 "
@@ -255628,7 +258385,7 @@ glCopyImageSubData
 "
 *
 /
-7612
+7693
 /
 *
 "
@@ -255636,7 +258393,7 @@ glCopyImageSubData
 "
 *
 /
-7674
+7755
 /
 *
 "
@@ -255651,7 +258408,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7631
+7712
 /
 *
 "
@@ -255675,7 +258432,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_copy_image
-7653
+7734
 /
 *
 glCopyImageSubDataNV
@@ -255716,7 +258473,7 @@ entrypoints
 ]
 =
 {
-7674
+7755
 /
 *
 "
@@ -255724,7 +258481,7 @@ glCopyImageSubDataOES
 "
 *
 /
-7612
+7693
 /
 *
 "
@@ -255732,7 +258489,7 @@ glCopyImageSubData
 "
 *
 /
-7612
+7693
 /
 *
 "
@@ -255740,7 +258497,7 @@ glCopyImageSubData
 "
 *
 /
-7612
+7693
 /
 *
 "
@@ -255748,7 +258505,7 @@ glCopyImageSubData
 "
 *
 /
-7631
+7712
 /
 *
 "
@@ -255763,7 +258520,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7674
+7755
 /
 *
 "
@@ -255787,7 +258544,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-7696
+7777
 /
 *
 glCopyMultiTexImage1DEXT
@@ -255807,7 +258564,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-7721
+7802
 /
 *
 glCopyMultiTexImage2DEXT
@@ -255827,7 +258584,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-7746
+7827
 /
 *
 glCopyMultiTexSubImage1DEXT
@@ -255847,7 +258604,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-7774
+7855
 /
 *
 glCopyMultiTexSubImage2DEXT
@@ -255867,7 +258624,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-7802
+7883
 /
 *
 glCopyMultiTexSubImage3DEXT
@@ -255905,7 +258662,7 @@ entrypoints
 ]
 =
 {
-7830
+7911
 /
 *
 "
@@ -255913,7 +258670,7 @@ glCopyNamedBufferSubData
 "
 *
 /
-7830
+7911
 /
 *
 "
@@ -255928,7 +258685,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7830
+7911
 /
 *
 "
@@ -255952,7 +258709,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-7855
+7936
 /
 *
 glCopyPathNV
@@ -255972,7 +258729,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-7868
+7949
 /
 *
 glCopyPixels
@@ -256010,7 +258767,7 @@ entrypoints
 ]
 =
 {
-7881
+7962
 /
 *
 "
@@ -256018,7 +258775,7 @@ glCopyTexImage1D
 "
 *
 /
-7898
+7979
 /
 *
 "
@@ -256033,7 +258790,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7881
+7962
 /
 *
 "
@@ -256075,7 +258832,7 @@ entrypoints
 ]
 =
 {
-7898
+7979
 /
 *
 "
@@ -256083,7 +258840,7 @@ glCopyTexImage1DEXT
 "
 *
 /
-7881
+7962
 /
 *
 "
@@ -256098,7 +258855,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7898
+7979
 /
 *
 "
@@ -256142,7 +258899,7 @@ entrypoints
 ]
 =
 {
-7918
+7999
 /
 *
 "
@@ -256150,7 +258907,7 @@ glCopyTexImage2D
 "
 *
 /
-7918
+7999
 /
 *
 "
@@ -256158,7 +258915,7 @@ glCopyTexImage2D
 "
 *
 /
-7918
+7999
 /
 *
 "
@@ -256166,7 +258923,7 @@ glCopyTexImage2D
 "
 *
 /
-7935
+8016
 /
 *
 "
@@ -256181,7 +258938,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7918
+7999
 /
 *
 "
@@ -256225,7 +258982,7 @@ entrypoints
 ]
 =
 {
-7935
+8016
 /
 *
 "
@@ -256233,7 +258990,7 @@ glCopyTexImage2DEXT
 "
 *
 /
-7918
+7999
 /
 *
 "
@@ -256241,7 +258998,7 @@ glCopyTexImage2D
 "
 *
 /
-7918
+7999
 /
 *
 "
@@ -256249,7 +259006,7 @@ glCopyTexImage2D
 "
 *
 /
-7918
+7999
 /
 *
 "
@@ -256264,7 +259021,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7935
+8016
 /
 *
 "
@@ -256306,7 +259063,7 @@ entrypoints
 ]
 =
 {
-7955
+8036
 /
 *
 "
@@ -256314,7 +259071,7 @@ glCopyTexSubImage1D
 "
 *
 /
-7975
+8056
 /
 *
 "
@@ -256329,7 +259086,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7955
+8036
 /
 *
 "
@@ -256371,7 +259128,7 @@ entrypoints
 ]
 =
 {
-7975
+8056
 /
 *
 "
@@ -256379,7 +259136,7 @@ glCopyTexSubImage1DEXT
 "
 *
 /
-7955
+8036
 /
 *
 "
@@ -256394,7 +259151,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7975
+8056
 /
 *
 "
@@ -256438,7 +259195,7 @@ entrypoints
 ]
 =
 {
-7998
+8079
 /
 *
 "
@@ -256446,7 +259203,7 @@ glCopyTexSubImage2D
 "
 *
 /
-7998
+8079
 /
 *
 "
@@ -256454,7 +259211,7 @@ glCopyTexSubImage2D
 "
 *
 /
-7998
+8079
 /
 *
 "
@@ -256462,7 +259219,7 @@ glCopyTexSubImage2D
 "
 *
 /
-8018
+8099
 /
 *
 "
@@ -256477,7 +259234,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-7998
+8079
 /
 *
 "
@@ -256521,7 +259278,7 @@ entrypoints
 ]
 =
 {
-8018
+8099
 /
 *
 "
@@ -256529,7 +259286,7 @@ glCopyTexSubImage2DEXT
 "
 *
 /
-7998
+8079
 /
 *
 "
@@ -256537,7 +259294,7 @@ glCopyTexSubImage2D
 "
 *
 /
-7998
+8079
 /
 *
 "
@@ -256545,7 +259302,7 @@ glCopyTexSubImage2D
 "
 *
 /
-7998
+8079
 /
 *
 "
@@ -256560,7 +259317,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8018
+8099
 /
 *
 "
@@ -256603,7 +259360,7 @@ entrypoints
 ]
 =
 {
-8041
+8122
 /
 *
 "
@@ -256611,7 +259368,7 @@ glCopyTexSubImage3D
 "
 *
 /
-8041
+8122
 /
 *
 "
@@ -256619,7 +259376,7 @@ glCopyTexSubImage3D
 "
 *
 /
-8061
+8142
 /
 *
 "
@@ -256634,7 +259391,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8041
+8122
 /
 *
 "
@@ -256677,7 +259434,7 @@ entrypoints
 ]
 =
 {
-8061
+8142
 /
 *
 "
@@ -256685,7 +259442,7 @@ glCopyTexSubImage3DEXT
 "
 *
 /
-8041
+8122
 /
 *
 "
@@ -256693,7 +259450,7 @@ glCopyTexSubImage3D
 "
 *
 /
-8041
+8122
 /
 *
 "
@@ -256708,7 +259465,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8061
+8142
 /
 *
 "
@@ -256732,7 +259489,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_3D
-8084
+8165
 /
 *
 glCopyTexSubImage3DOES
@@ -256752,7 +259509,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-8107
+8188
 /
 *
 glCopyTextureImage1DEXT
@@ -256772,7 +259529,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-8131
+8212
 /
 *
 glCopyTextureImage2DEXT
@@ -256792,7 +259549,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_copy_texture_levels
-8155
+8236
 /
 *
 glCopyTextureLevelsAPPLE
@@ -256830,7 +259587,7 @@ entrypoints
 ]
 =
 {
-8180
+8261
 /
 *
 "
@@ -256838,7 +259595,7 @@ glCopyTextureSubImage1D
 "
 *
 /
-8180
+8261
 /
 *
 "
@@ -256853,7 +259610,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8180
+8261
 /
 *
 "
@@ -256877,7 +259634,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-8204
+8285
 /
 *
 glCopyTextureSubImage1DEXT
@@ -256915,7 +259672,7 @@ entrypoints
 ]
 =
 {
-8231
+8312
 /
 *
 "
@@ -256923,7 +259680,7 @@ glCopyTextureSubImage2D
 "
 *
 /
-8231
+8312
 /
 *
 "
@@ -256938,7 +259695,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8231
+8312
 /
 *
 "
@@ -256962,7 +259719,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-8255
+8336
 /
 *
 glCopyTextureSubImage2DEXT
@@ -257000,7 +259757,7 @@ entrypoints
 ]
 =
 {
-8282
+8363
 /
 *
 "
@@ -257008,7 +259765,7 @@ glCopyTextureSubImage3D
 "
 *
 /
-8282
+8363
 /
 *
 "
@@ -257023,7 +259780,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8282
+8363
 /
 *
 "
@@ -257047,7 +259804,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-8306
+8387
 /
 *
 glCopyTextureSubImage3DEXT
@@ -257067,7 +259824,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-8333
+8414
 /
 *
 glCoverFillPathInstancedNV
@@ -257087,7 +259844,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-8360
+8441
 /
 *
 glCoverFillPathNV
@@ -257107,7 +259864,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-8378
+8459
 /
 *
 glCoverStrokePathInstancedNV
@@ -257127,7 +259884,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-8407
+8488
 /
 *
 glCoverStrokePathNV
@@ -257147,7 +259904,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_coverage_sample
-8427
+8508
 /
 *
 glCoverageMaskNV
@@ -257167,7 +259924,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_framebuffer_mixed_samples
-8444
+8525
 /
 *
 glCoverageModulationNV
@@ -257187,7 +259944,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_framebuffer_mixed_samples
-8467
+8548
 /
 *
 glCoverageModulationTableNV
@@ -257207,7 +259964,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_coverage_sample
-8495
+8576
 /
 *
 glCoverageOperationNV
@@ -257245,7 +260002,7 @@ entrypoints
 ]
 =
 {
-8517
+8598
 /
 *
 "
@@ -257253,7 +260010,7 @@ glCreateBuffers
 "
 *
 /
-8517
+8598
 /
 *
 "
@@ -257268,7 +260025,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8517
+8598
 /
 *
 "
@@ -257292,7 +260049,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-8533
+8614
 /
 *
 glCreateCommandListsNV
@@ -257330,7 +260087,7 @@ entrypoints
 ]
 =
 {
-8556
+8637
 /
 *
 "
@@ -257338,7 +260095,7 @@ glCreateFramebuffers
 "
 *
 /
-8556
+8637
 /
 *
 "
@@ -257353,7 +260110,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8556
+8637
 /
 *
 "
@@ -257377,7 +260134,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-8577
+8658
 /
 *
 glCreateMemoryObjectsEXT
@@ -257397,7 +260154,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-8602
+8683
 /
 *
 glCreatePerfQueryINTEL
@@ -257436,7 +260193,7 @@ entrypoints
 ]
 =
 {
-8625
+8706
 /
 *
 "
@@ -257444,7 +260201,7 @@ glCreateProgram
 "
 *
 /
-8625
+8706
 /
 *
 "
@@ -257452,7 +260209,7 @@ glCreateProgram
 "
 *
 /
-8641
+8722
 /
 *
 "
@@ -257467,7 +260224,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8625
+8706
 /
 *
 "
@@ -257510,7 +260267,7 @@ entrypoints
 ]
 =
 {
-8641
+8722
 /
 *
 "
@@ -257518,7 +260275,7 @@ glCreateProgramObjectARB
 "
 *
 /
-8625
+8706
 /
 *
 "
@@ -257526,7 +260283,7 @@ glCreateProgram
 "
 *
 /
-8625
+8706
 /
 *
 "
@@ -257541,7 +260298,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8641
+8722
 /
 *
 "
@@ -257583,7 +260340,7 @@ entrypoints
 ]
 =
 {
-8666
+8747
 /
 *
 "
@@ -257591,7 +260348,7 @@ glCreateProgramPipelines
 "
 *
 /
-8666
+8747
 /
 *
 "
@@ -257606,7 +260363,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8666
+8747
 /
 *
 "
@@ -257630,7 +260387,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_progress_fence
-8691
+8772
 /
 *
 glCreateProgressFenceNVX
@@ -257668,7 +260425,7 @@ entrypoints
 ]
 =
 {
-8716
+8797
 /
 *
 "
@@ -257676,7 +260433,7 @@ glCreateQueries
 "
 *
 /
-8716
+8797
 /
 *
 "
@@ -257691,7 +260448,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8716
+8797
 /
 *
 "
@@ -257733,7 +260490,7 @@ entrypoints
 ]
 =
 {
-8732
+8813
 /
 *
 "
@@ -257741,7 +260498,7 @@ glCreateRenderbuffers
 "
 *
 /
-8732
+8813
 /
 *
 "
@@ -257756,7 +260513,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8732
+8813
 /
 *
 "
@@ -257798,7 +260555,7 @@ entrypoints
 ]
 =
 {
-8754
+8835
 /
 *
 "
@@ -257806,7 +260563,7 @@ glCreateSamplers
 "
 *
 /
-8754
+8835
 /
 *
 "
@@ -257821,7 +260578,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8754
+8835
 /
 *
 "
@@ -257831,6 +260588,26 @@ glCreateSamplers
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLCREATESEMAPHORESNVPROC
+epoxy_glCreateSemaphoresNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_NV_timeline_semaphore
+8852
+/
+*
+glCreateSemaphoresNV
+*
+/
 )
 ;
 }
@@ -257864,7 +260641,7 @@ entrypoints
 ]
 =
 {
-8771
+8873
 /
 *
 "
@@ -257872,7 +260649,7 @@ glCreateShader
 "
 *
 /
-8771
+8873
 /
 *
 "
@@ -257880,7 +260657,7 @@ glCreateShader
 "
 *
 /
-8786
+8888
 /
 *
 "
@@ -257895,7 +260672,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8771
+8873
 /
 *
 "
@@ -257938,7 +260715,7 @@ entrypoints
 ]
 =
 {
-8786
+8888
 /
 *
 "
@@ -257946,7 +260723,7 @@ glCreateShaderObjectARB
 "
 *
 /
-8771
+8873
 /
 *
 "
@@ -257954,7 +260731,7 @@ glCreateShader
 "
 *
 /
-8771
+8873
 /
 *
 "
@@ -257969,7 +260746,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8786
+8888
 /
 *
 "
@@ -257993,7 +260770,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-8810
+8912
 /
 *
 glCreateShaderProgramEXT
@@ -258032,7 +260809,7 @@ entrypoints
 ]
 =
 {
-8835
+8937
 /
 *
 "
@@ -258040,7 +260817,7 @@ glCreateShaderProgramv
 "
 *
 /
-8835
+8937
 /
 *
 "
@@ -258048,7 +260825,7 @@ glCreateShaderProgramv
 "
 *
 /
-8835
+8937
 /
 *
 "
@@ -258063,7 +260840,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8835
+8937
 /
 *
 "
@@ -258087,7 +260864,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-8858
+8960
 /
 *
 glCreateShaderProgramvEXT
@@ -258107,7 +260884,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-8884
+8986
 /
 *
 glCreateStatesNV
@@ -258127,7 +260904,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_cl_event
-8901
+9003
 /
 *
 glCreateSyncFromCLeventARB
@@ -258165,7 +260942,7 @@ entrypoints
 ]
 =
 {
-8928
+9030
 /
 *
 "
@@ -258173,7 +260950,7 @@ glCreateTextures
 "
 *
 /
-8928
+9030
 /
 *
 "
@@ -258188,7 +260965,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8928
+9030
 /
 *
 "
@@ -258230,7 +261007,7 @@ entrypoints
 ]
 =
 {
-8945
+9047
 /
 *
 "
@@ -258238,7 +261015,7 @@ glCreateTransformFeedbacks
 "
 *
 /
-8945
+9047
 /
 *
 "
@@ -258253,7 +261030,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8945
+9047
 /
 *
 "
@@ -258295,7 +261072,7 @@ entrypoints
 ]
 =
 {
-8972
+9074
 /
 *
 "
@@ -258303,7 +261080,7 @@ glCreateVertexArrays
 "
 *
 /
-8972
+9074
 /
 *
 "
@@ -258318,7 +261095,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8972
+9074
 /
 *
 "
@@ -258361,7 +261138,7 @@ entrypoints
 ]
 =
 {
-8993
+9095
 /
 *
 "
@@ -258369,7 +261146,7 @@ glCullFace
 "
 *
 /
-8993
+9095
 /
 *
 "
@@ -258377,7 +261154,7 @@ glCullFace
 "
 *
 /
-8993
+9095
 /
 *
 "
@@ -258392,7 +261169,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-8993
+9095
 /
 *
 "
@@ -258416,7 +261193,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_cull_vertex
-9004
+9106
 /
 *
 glCullParameterdvEXT
@@ -258436,7 +261213,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_cull_vertex
-9025
+9127
 /
 *
 glCullParameterfvEXT
@@ -258456,7 +261233,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_matrix_palette
-9046
+9148
 /
 *
 glCurrentPaletteMatrixARB
@@ -258476,7 +261253,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_matrix_palette
-9072
+9174
 /
 *
 glCurrentPaletteMatrixOES
@@ -258517,7 +261294,7 @@ entrypoints
 ]
 =
 {
-9098
+9200
 /
 *
 "
@@ -258525,7 +261302,7 @@ glDebugMessageCallback
 "
 *
 /
-9098
+9200
 /
 *
 "
@@ -258533,7 +261310,7 @@ glDebugMessageCallback
 "
 *
 /
-9098
+9200
 /
 *
 "
@@ -258541,7 +261318,7 @@ glDebugMessageCallback
 "
 *
 /
-9147
+9249
 /
 *
 "
@@ -258549,7 +261326,7 @@ glDebugMessageCallbackARB
 "
 *
 /
-9173
+9275
 /
 *
 "
@@ -258564,7 +261341,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9098
+9200
 /
 *
 "
@@ -258588,7 +261365,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_debug_output
-9121
+9223
 /
 *
 glDebugMessageCallbackAMD
@@ -258629,7 +261406,7 @@ entrypoints
 ]
 =
 {
-9147
+9249
 /
 *
 "
@@ -258637,7 +261414,7 @@ glDebugMessageCallbackARB
 "
 *
 /
-9098
+9200
 /
 *
 "
@@ -258645,7 +261422,7 @@ glDebugMessageCallback
 "
 *
 /
-9098
+9200
 /
 *
 "
@@ -258653,7 +261430,7 @@ glDebugMessageCallback
 "
 *
 /
-9098
+9200
 /
 *
 "
@@ -258661,7 +261438,7 @@ glDebugMessageCallback
 "
 *
 /
-9173
+9275
 /
 *
 "
@@ -258676,7 +261453,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9147
+9249
 /
 *
 "
@@ -258721,7 +261498,7 @@ entrypoints
 ]
 =
 {
-9173
+9275
 /
 *
 "
@@ -258729,7 +261506,7 @@ glDebugMessageCallbackKHR
 "
 *
 /
-9098
+9200
 /
 *
 "
@@ -258737,7 +261514,7 @@ glDebugMessageCallback
 "
 *
 /
-9098
+9200
 /
 *
 "
@@ -258745,7 +261522,7 @@ glDebugMessageCallback
 "
 *
 /
-9098
+9200
 /
 *
 "
@@ -258753,7 +261530,7 @@ glDebugMessageCallback
 "
 *
 /
-9147
+9249
 /
 *
 "
@@ -258768,7 +261545,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9173
+9275
 /
 *
 "
@@ -258813,7 +261590,7 @@ entrypoints
 ]
 =
 {
-9199
+9301
 /
 *
 "
@@ -258821,7 +261598,7 @@ glDebugMessageControl
 "
 *
 /
-9199
+9301
 /
 *
 "
@@ -258829,7 +261606,7 @@ glDebugMessageControl
 "
 *
 /
-9199
+9301
 /
 *
 "
@@ -258837,7 +261614,7 @@ glDebugMessageControl
 "
 *
 /
-9221
+9323
 /
 *
 "
@@ -258845,7 +261622,7 @@ glDebugMessageControlARB
 "
 *
 /
-9246
+9348
 /
 *
 "
@@ -258860,7 +261637,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9199
+9301
 /
 *
 "
@@ -258905,7 +261682,7 @@ entrypoints
 ]
 =
 {
-9221
+9323
 /
 *
 "
@@ -258913,7 +261690,7 @@ glDebugMessageControlARB
 "
 *
 /
-9199
+9301
 /
 *
 "
@@ -258921,7 +261698,7 @@ glDebugMessageControl
 "
 *
 /
-9199
+9301
 /
 *
 "
@@ -258929,7 +261706,7 @@ glDebugMessageControl
 "
 *
 /
-9199
+9301
 /
 *
 "
@@ -258937,7 +261714,7 @@ glDebugMessageControl
 "
 *
 /
-9246
+9348
 /
 *
 "
@@ -258952,7 +261729,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9221
+9323
 /
 *
 "
@@ -258997,7 +261774,7 @@ entrypoints
 ]
 =
 {
-9246
+9348
 /
 *
 "
@@ -259005,7 +261782,7 @@ glDebugMessageControlKHR
 "
 *
 /
-9199
+9301
 /
 *
 "
@@ -259013,7 +261790,7 @@ glDebugMessageControl
 "
 *
 /
-9199
+9301
 /
 *
 "
@@ -259021,7 +261798,7 @@ glDebugMessageControl
 "
 *
 /
-9199
+9301
 /
 *
 "
@@ -259029,7 +261806,7 @@ glDebugMessageControl
 "
 *
 /
-9221
+9323
 /
 *
 "
@@ -259044,7 +261821,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9246
+9348
 /
 *
 "
@@ -259068,7 +261845,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_debug_output
-9271
+9373
 /
 *
 glDebugMessageEnableAMD
@@ -259109,7 +261886,7 @@ entrypoints
 ]
 =
 {
-9295
+9397
 /
 *
 "
@@ -259117,7 +261894,7 @@ glDebugMessageInsert
 "
 *
 /
-9295
+9397
 /
 *
 "
@@ -259125,7 +261902,7 @@ glDebugMessageInsert
 "
 *
 /
-9295
+9397
 /
 *
 "
@@ -259133,7 +261910,7 @@ glDebugMessageInsert
 "
 *
 /
-9340
+9442
 /
 *
 "
@@ -259141,7 +261918,7 @@ glDebugMessageInsertARB
 "
 *
 /
-9364
+9466
 /
 *
 "
@@ -259156,7 +261933,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9295
+9397
 /
 *
 "
@@ -259180,7 +261957,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_debug_output
-9316
+9418
 /
 *
 glDebugMessageInsertAMD
@@ -259221,7 +261998,7 @@ entrypoints
 ]
 =
 {
-9340
+9442
 /
 *
 "
@@ -259229,7 +262006,7 @@ glDebugMessageInsertARB
 "
 *
 /
-9295
+9397
 /
 *
 "
@@ -259237,7 +262014,7 @@ glDebugMessageInsert
 "
 *
 /
-9295
+9397
 /
 *
 "
@@ -259245,7 +262022,7 @@ glDebugMessageInsert
 "
 *
 /
-9295
+9397
 /
 *
 "
@@ -259253,7 +262030,7 @@ glDebugMessageInsert
 "
 *
 /
-9364
+9466
 /
 *
 "
@@ -259268,7 +262045,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9340
+9442
 /
 *
 "
@@ -259313,7 +262090,7 @@ entrypoints
 ]
 =
 {
-9364
+9466
 /
 *
 "
@@ -259321,7 +262098,7 @@ glDebugMessageInsertKHR
 "
 *
 /
-9295
+9397
 /
 *
 "
@@ -259329,7 +262106,7 @@ glDebugMessageInsert
 "
 *
 /
-9295
+9397
 /
 *
 "
@@ -259337,7 +262114,7 @@ glDebugMessageInsert
 "
 *
 /
-9295
+9397
 /
 *
 "
@@ -259345,7 +262122,7 @@ glDebugMessageInsert
 "
 *
 /
-9340
+9442
 /
 *
 "
@@ -259360,7 +262137,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9364
+9466
 /
 *
 "
@@ -259384,7 +262161,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_polynomial_ffd
-9388
+9490
 /
 *
 glDeformSGIX
@@ -259404,7 +262181,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_polynomial_ffd
-9401
+9503
 /
 *
 glDeformationMap3dSGIX
@@ -259424,7 +262201,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_polynomial_ffd
-9424
+9526
 /
 *
 glDeformationMap3fSGIX
@@ -259444,7 +262221,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_async
-9447
+9549
 /
 *
 glDeleteAsyncMarkersSGIX
@@ -259484,7 +262261,7 @@ entrypoints
 ]
 =
 {
-9472
+9574
 /
 *
 "
@@ -259492,7 +262269,7 @@ glDeleteBuffers
 "
 *
 /
-9472
+9574
 /
 *
 "
@@ -259500,7 +262277,7 @@ glDeleteBuffers
 "
 *
 /
-9472
+9574
 /
 *
 "
@@ -259508,7 +262285,7 @@ glDeleteBuffers
 "
 *
 /
-9488
+9590
 /
 *
 "
@@ -259523,7 +262300,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9472
+9574
 /
 *
 "
@@ -259567,7 +262344,7 @@ entrypoints
 ]
 =
 {
-9488
+9590
 /
 *
 "
@@ -259575,7 +262352,7 @@ glDeleteBuffersARB
 "
 *
 /
-9472
+9574
 /
 *
 "
@@ -259583,7 +262360,7 @@ glDeleteBuffers
 "
 *
 /
-9472
+9574
 /
 *
 "
@@ -259591,7 +262368,7 @@ glDeleteBuffers
 "
 *
 /
-9472
+9574
 /
 *
 "
@@ -259606,7 +262383,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9488
+9590
 /
 *
 "
@@ -259630,7 +262407,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-9507
+9609
 /
 *
 glDeleteCommandListsNV
@@ -259650,7 +262427,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_fence
-9530
+9632
 /
 *
 glDeleteFencesAPPLE
@@ -259670,7 +262447,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fence
-9550
+9652
 /
 *
 glDeleteFencesNV
@@ -259690,7 +262467,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-9567
+9669
 /
 *
 glDeleteFragmentShaderATI
@@ -259730,7 +262507,7 @@ entrypoints
 ]
 =
 {
-9593
+9695
 /
 *
 "
@@ -259738,7 +262515,7 @@ glDeleteFramebuffers
 "
 *
 /
-9593
+9695
 /
 *
 "
@@ -259746,7 +262523,7 @@ glDeleteFramebuffers
 "
 *
 /
-9593
+9695
 /
 *
 "
@@ -259754,7 +262531,7 @@ glDeleteFramebuffers
 "
 *
 /
-9614
+9716
 /
 *
 "
@@ -259769,7 +262546,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9593
+9695
 /
 *
 "
@@ -259813,7 +262590,7 @@ entrypoints
 ]
 =
 {
-9614
+9716
 /
 *
 "
@@ -259821,7 +262598,7 @@ glDeleteFramebuffersEXT
 "
 *
 /
-9593
+9695
 /
 *
 "
@@ -259829,7 +262606,7 @@ glDeleteFramebuffers
 "
 *
 /
-9593
+9695
 /
 *
 "
@@ -259837,7 +262614,7 @@ glDeleteFramebuffers
 "
 *
 /
-9593
+9695
 /
 *
 "
@@ -259852,7 +262629,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9614
+9716
 /
 *
 "
@@ -259876,7 +262653,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-9638
+9740
 /
 *
 glDeleteFramebuffersOES
@@ -259896,7 +262673,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-9662
+9764
 /
 *
 glDeleteLists
@@ -259916,7 +262693,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-9676
+9778
 /
 *
 glDeleteMemoryObjectsEXT
@@ -259936,7 +262713,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shading_language_include
-9701
+9803
 /
 *
 glDeleteNamedStringARB
@@ -259956,7 +262733,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_name_gen_delete
-9724
+9826
 /
 *
 glDeleteNamesAMD
@@ -259976,7 +262753,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shader_objects
-9741
+9843
 /
 *
 glDeleteObjectARB
@@ -259996,7 +262773,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_occlusion_query
-9759
+9861
 /
 *
 glDeleteOcclusionQueriesNV
@@ -260016,7 +262793,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-9786
+9888
 /
 *
 glDeletePathsNV
@@ -260036,7 +262813,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-9802
+9904
 /
 *
 glDeletePerfMonitorsAMD
@@ -260056,7 +262833,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-9826
+9928
 /
 *
 glDeletePerfQueryINTEL
@@ -260094,7 +262871,7 @@ entrypoints
 ]
 =
 {
-9849
+9951
 /
 *
 "
@@ -260102,7 +262879,7 @@ glDeleteProgram
 "
 *
 /
-9849
+9951
 /
 *
 "
@@ -260117,7 +262894,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9849
+9951
 /
 *
 "
@@ -260160,7 +262937,7 @@ entrypoints
 ]
 =
 {
-9865
+9967
 /
 *
 "
@@ -260168,7 +262945,7 @@ glDeleteProgramPipelines
 "
 *
 /
-9865
+9967
 /
 *
 "
@@ -260176,7 +262953,7 @@ glDeleteProgramPipelines
 "
 *
 /
-9865
+9967
 /
 *
 "
@@ -260191,7 +262968,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9865
+9967
 /
 *
 "
@@ -260215,7 +262992,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-9890
+9992
 /
 *
 glDeleteProgramPipelinesEXT
@@ -260254,7 +263031,7 @@ entrypoints
 ]
 =
 {
-9918
+10020
 /
 *
 "
@@ -260262,7 +263039,7 @@ glDeleteProgramsARB
 "
 *
 /
-9918
+10020
 /
 *
 "
@@ -260270,7 +263047,7 @@ glDeleteProgramsARB
 "
 *
 /
-9938
+10040
 /
 *
 "
@@ -260285,7 +263062,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9918
+10020
 /
 *
 "
@@ -260328,7 +263105,7 @@ entrypoints
 ]
 =
 {
-9938
+10040
 /
 *
 "
@@ -260336,7 +263113,7 @@ glDeleteProgramsNV
 "
 *
 /
-9918
+10020
 /
 *
 "
@@ -260344,7 +263121,7 @@ glDeleteProgramsARB
 "
 *
 /
-9918
+10020
 /
 *
 "
@@ -260359,7 +263136,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9938
+10040
 /
 *
 "
@@ -260402,7 +263179,7 @@ entrypoints
 ]
 =
 {
-9957
+10059
 /
 *
 "
@@ -260410,7 +263187,7 @@ glDeleteQueries
 "
 *
 /
-9957
+10059
 /
 *
 "
@@ -260418,7 +263195,7 @@ glDeleteQueries
 "
 *
 /
-9973
+10075
 /
 *
 "
@@ -260433,7 +263210,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9957
+10059
 /
 *
 "
@@ -260476,7 +263253,7 @@ entrypoints
 ]
 =
 {
-9973
+10075
 /
 *
 "
@@ -260484,7 +263261,7 @@ glDeleteQueriesARB
 "
 *
 /
-9957
+10059
 /
 *
 "
@@ -260492,7 +263269,7 @@ glDeleteQueries
 "
 *
 /
-9957
+10059
 /
 *
 "
@@ -260507,7 +263284,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9973
+10075
 /
 *
 "
@@ -260549,7 +263326,7 @@ entrypoints
 ]
 =
 {
-9992
+10094
 /
 *
 "
@@ -260557,7 +263334,7 @@ glDeleteQueriesEXT
 "
 *
 /
-9992
+10094
 /
 *
 "
@@ -260572,7 +263349,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-9992
+10094
 /
 *
 "
@@ -260596,7 +263373,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_query_resource_tag
-10011
+10113
 /
 *
 glDeleteQueryResourceTagNV
@@ -260636,7 +263413,7 @@ entrypoints
 ]
 =
 {
-10038
+10140
 /
 *
 "
@@ -260644,7 +263421,7 @@ glDeleteRenderbuffers
 "
 *
 /
-10038
+10140
 /
 *
 "
@@ -260652,7 +263429,7 @@ glDeleteRenderbuffers
 "
 *
 /
-10038
+10140
 /
 *
 "
@@ -260660,7 +263437,7 @@ glDeleteRenderbuffers
 "
 *
 /
-10060
+10162
 /
 *
 "
@@ -260675,7 +263452,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10038
+10140
 /
 *
 "
@@ -260719,7 +263496,7 @@ entrypoints
 ]
 =
 {
-10060
+10162
 /
 *
 "
@@ -260727,7 +263504,7 @@ glDeleteRenderbuffersEXT
 "
 *
 /
-10038
+10140
 /
 *
 "
@@ -260735,7 +263512,7 @@ glDeleteRenderbuffers
 "
 *
 /
-10038
+10140
 /
 *
 "
@@ -260743,7 +263520,7 @@ glDeleteRenderbuffers
 "
 *
 /
-10038
+10140
 /
 *
 "
@@ -260758,7 +263535,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10060
+10162
 /
 *
 "
@@ -260782,7 +263559,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-10085
+10187
 /
 *
 glDeleteRenderbuffersOES
@@ -260809,6 +263586,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -260821,7 +263599,7 @@ entrypoints
 ]
 =
 {
-10110
+10212
 /
 *
 "
@@ -260829,7 +263607,7 @@ glDeleteSamplers
 "
 *
 /
-10110
+10212
 /
 *
 "
@@ -260837,7 +263615,15 @@ glDeleteSamplers
 "
 *
 /
-10110
+10212
+/
+*
+"
+glDeleteSamplers
+"
+*
+/
+10212
 /
 *
 "
@@ -260852,7 +263638,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10110
+10212
 /
 *
 "
@@ -260876,7 +263662,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore
-10127
+10229
 /
 *
 glDeleteSemaphoresEXT
@@ -260914,7 +263700,7 @@ entrypoints
 ]
 =
 {
-10149
+10251
 /
 *
 "
@@ -260922,7 +263708,7 @@ glDeleteShader
 "
 *
 /
-10149
+10251
 /
 *
 "
@@ -260937,7 +263723,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10149
+10251
 /
 *
 "
@@ -260961,7 +263747,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-10164
+10266
 /
 *
 glDeleteStatesNV
@@ -261001,7 +263787,7 @@ entrypoints
 ]
 =
 {
-10181
+10283
 /
 *
 "
@@ -261009,7 +263795,7 @@ glDeleteSync
 "
 *
 /
-10181
+10283
 /
 *
 "
@@ -261017,7 +263803,7 @@ glDeleteSync
 "
 *
 /
-10181
+10283
 /
 *
 "
@@ -261025,7 +263811,7 @@ glDeleteSync
 "
 *
 /
-10194
+10296
 /
 *
 "
@@ -261040,7 +263826,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10181
+10283
 /
 *
 "
@@ -261084,7 +263870,7 @@ entrypoints
 ]
 =
 {
-10194
+10296
 /
 *
 "
@@ -261092,7 +263878,7 @@ glDeleteSyncAPPLE
 "
 *
 /
-10181
+10283
 /
 *
 "
@@ -261100,7 +263886,7 @@ glDeleteSync
 "
 *
 /
-10181
+10283
 /
 *
 "
@@ -261108,7 +263894,7 @@ glDeleteSync
 "
 *
 /
-10181
+10283
 /
 *
 "
@@ -261123,7 +263909,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10194
+10296
 /
 *
 "
@@ -261166,7 +263952,7 @@ entrypoints
 ]
 =
 {
-10212
+10314
 /
 *
 "
@@ -261174,7 +263960,7 @@ glDeleteTextures
 "
 *
 /
-10212
+10314
 /
 *
 "
@@ -261182,7 +263968,7 @@ glDeleteTextures
 "
 *
 /
-10212
+10314
 /
 *
 "
@@ -261197,7 +263983,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10212
+10314
 /
 *
 "
@@ -261221,7 +264007,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_texture_object
-10229
+10331
 /
 *
 glDeleteTexturesEXT
@@ -261261,7 +264047,7 @@ entrypoints
 ]
 =
 {
-10249
+10351
 /
 *
 "
@@ -261269,7 +264055,7 @@ glDeleteTransformFeedbacks
 "
 *
 /
-10249
+10351
 /
 *
 "
@@ -261277,7 +264063,7 @@ glDeleteTransformFeedbacks
 "
 *
 /
-10249
+10351
 /
 *
 "
@@ -261285,7 +264071,7 @@ glDeleteTransformFeedbacks
 "
 *
 /
-10276
+10378
 /
 *
 "
@@ -261300,7 +264086,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10249
+10351
 /
 *
 "
@@ -261344,7 +264130,7 @@ entrypoints
 ]
 =
 {
-10276
+10378
 /
 *
 "
@@ -261352,7 +264138,7 @@ glDeleteTransformFeedbacksNV
 "
 *
 /
-10249
+10351
 /
 *
 "
@@ -261360,7 +264146,7 @@ glDeleteTransformFeedbacks
 "
 *
 /
-10249
+10351
 /
 *
 "
@@ -261368,7 +264154,7 @@ glDeleteTransformFeedbacks
 "
 *
 /
-10249
+10351
 /
 *
 "
@@ -261383,7 +264169,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10276
+10378
 /
 *
 "
@@ -261428,7 +264214,7 @@ entrypoints
 ]
 =
 {
-10305
+10407
 /
 *
 "
@@ -261436,7 +264222,7 @@ glDeleteVertexArrays
 "
 *
 /
-10305
+10407
 /
 *
 "
@@ -261444,7 +264230,7 @@ glDeleteVertexArrays
 "
 *
 /
-10305
+10407
 /
 *
 "
@@ -261452,7 +264238,7 @@ glDeleteVertexArrays
 "
 *
 /
-10326
+10428
 /
 *
 "
@@ -261460,7 +264246,7 @@ glDeleteVertexArraysAPPLE
 "
 *
 /
-10352
+10454
 /
 *
 "
@@ -261475,7 +264261,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10305
+10407
 /
 *
 "
@@ -261520,7 +264306,7 @@ entrypoints
 ]
 =
 {
-10326
+10428
 /
 *
 "
@@ -261528,7 +264314,7 @@ glDeleteVertexArraysAPPLE
 "
 *
 /
-10305
+10407
 /
 *
 "
@@ -261536,7 +264322,7 @@ glDeleteVertexArrays
 "
 *
 /
-10305
+10407
 /
 *
 "
@@ -261544,7 +264330,7 @@ glDeleteVertexArrays
 "
 *
 /
-10305
+10407
 /
 *
 "
@@ -261552,7 +264338,7 @@ glDeleteVertexArrays
 "
 *
 /
-10352
+10454
 /
 *
 "
@@ -261567,7 +264353,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10326
+10428
 /
 *
 "
@@ -261612,7 +264398,7 @@ entrypoints
 ]
 =
 {
-10352
+10454
 /
 *
 "
@@ -261620,7 +264406,7 @@ glDeleteVertexArraysOES
 "
 *
 /
-10305
+10407
 /
 *
 "
@@ -261628,7 +264414,7 @@ glDeleteVertexArrays
 "
 *
 /
-10305
+10407
 /
 *
 "
@@ -261636,7 +264422,7 @@ glDeleteVertexArrays
 "
 *
 /
-10305
+10407
 /
 *
 "
@@ -261644,7 +264430,7 @@ glDeleteVertexArrays
 "
 *
 /
-10326
+10428
 /
 *
 "
@@ -261659,7 +264445,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10352
+10454
 /
 *
 "
@@ -261683,7 +264469,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-10376
+10478
 /
 *
 glDeleteVertexShaderEXT
@@ -261703,7 +264489,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_depth_bounds_test
-10400
+10502
 /
 *
 glDepthBoundsEXT
@@ -261723,7 +264509,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_depth_buffer_float
-10417
+10519
 /
 *
 glDepthBoundsdNV
@@ -261762,7 +264548,7 @@ entrypoints
 ]
 =
 {
-10434
+10536
 /
 *
 "
@@ -261770,7 +264556,7 @@ glDepthFunc
 "
 *
 /
-10434
+10536
 /
 *
 "
@@ -261778,7 +264564,7 @@ glDepthFunc
 "
 *
 /
-10434
+10536
 /
 *
 "
@@ -261793,7 +264579,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10434
+10536
 /
 *
 "
@@ -261836,7 +264622,7 @@ entrypoints
 ]
 =
 {
-10446
+10548
 /
 *
 "
@@ -261844,7 +264630,7 @@ glDepthMask
 "
 *
 /
-10446
+10548
 /
 *
 "
@@ -261852,7 +264638,7 @@ glDepthMask
 "
 *
 /
-10446
+10548
 /
 *
 "
@@ -261867,7 +264653,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10446
+10548
 /
 *
 "
@@ -261891,10 +264677,30 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-10458
+10560
 /
 *
 glDepthRange
+*
+/
+)
+;
+}
+static
+PFNGLDEPTHRANGEARRAYDVNVPROC
+epoxy_glDepthRangeArraydvNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_ARB_viewport_array
+10573
+/
+*
+glDepthRangeArraydvNV
 *
 /
 )
@@ -261911,7 +264717,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_viewport_array
-10471
+10595
 /
 *
 glDepthRangeArrayfvNV
@@ -261931,7 +264737,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_viewport_array
-10493
+10617
 /
 *
 glDepthRangeArrayfvOES
@@ -261969,7 +264775,7 @@ entrypoints
 ]
 =
 {
-10516
+10640
 /
 *
 "
@@ -261977,7 +264783,7 @@ glDepthRangeArrayv
 "
 *
 /
-10516
+10640
 /
 *
 "
@@ -261992,7 +264798,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10516
+10640
 /
 *
 "
@@ -262034,7 +264840,7 @@ entrypoints
 ]
 =
 {
-10535
+10659
 /
 *
 "
@@ -262042,7 +264848,7 @@ glDepthRangeIndexed
 "
 *
 /
-10535
+10659
 /
 *
 "
@@ -262057,7 +264863,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10535
+10659
 /
 *
 "
@@ -262067,6 +264873,26 @@ glDepthRangeIndexed
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLDEPTHRANGEINDEXEDDNVPROC
+epoxy_glDepthRangeIndexeddNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_ARB_viewport_array
+10679
+/
+*
+glDepthRangeIndexeddNV
+*
+/
 )
 ;
 }
@@ -262081,7 +264907,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_viewport_array
-10555
+10702
 /
 *
 glDepthRangeIndexedfNV
@@ -262101,7 +264927,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_viewport_array
-10578
+10725
 /
 *
 glDepthRangeIndexedfOES
@@ -262121,7 +264947,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_depth_buffer_float
-10602
+10749
 /
 *
 glDepthRangedNV
@@ -262162,7 +264988,7 @@ entrypoints
 ]
 =
 {
-10618
+10765
 /
 *
 "
@@ -262170,7 +264996,7 @@ glDepthRangef
 "
 *
 /
-10618
+10765
 /
 *
 "
@@ -262178,7 +265004,7 @@ glDepthRangef
 "
 *
 /
-10618
+10765
 /
 *
 "
@@ -262186,7 +265012,7 @@ glDepthRangef
 "
 *
 /
-10618
+10765
 /
 *
 "
@@ -262194,7 +265020,7 @@ glDepthRangef
 "
 *
 /
-10632
+10779
 /
 *
 "
@@ -262209,7 +265035,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10618
+10765
 /
 *
 "
@@ -262254,7 +265080,7 @@ entrypoints
 ]
 =
 {
-10632
+10779
 /
 *
 "
@@ -262262,7 +265088,7 @@ glDepthRangefOES
 "
 *
 /
-10618
+10765
 /
 *
 "
@@ -262270,7 +265096,7 @@ glDepthRangef
 "
 *
 /
-10618
+10765
 /
 *
 "
@@ -262278,7 +265104,7 @@ glDepthRangef
 "
 *
 /
-10618
+10765
 /
 *
 "
@@ -262286,7 +265112,7 @@ glDepthRangef
 "
 *
 /
-10618
+10765
 /
 *
 "
@@ -262301,7 +265127,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10632
+10779
 /
 *
 "
@@ -262325,7 +265151,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-10649
+10796
 /
 *
 glDepthRangex
@@ -262345,7 +265171,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-10663
+10810
 /
 *
 glDepthRangexOES
@@ -262384,7 +265210,7 @@ entrypoints
 ]
 =
 {
-10680
+10827
 /
 *
 "
@@ -262392,7 +265218,7 @@ glDetachObjectARB
 "
 *
 /
-10698
+10845
 /
 *
 "
@@ -262400,7 +265226,7 @@ glDetachShader
 "
 *
 /
-10698
+10845
 /
 *
 "
@@ -262415,7 +265241,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10680
+10827
 /
 *
 "
@@ -262458,7 +265284,7 @@ entrypoints
 ]
 =
 {
-10698
+10845
 /
 *
 "
@@ -262466,7 +265292,7 @@ glDetachShader
 "
 *
 /
-10698
+10845
 /
 *
 "
@@ -262474,7 +265300,7 @@ glDetachShader
 "
 *
 /
-10680
+10827
 /
 *
 "
@@ -262489,7 +265315,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10698
+10845
 /
 *
 "
@@ -262513,7 +265339,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_detail_texture
-10713
+10860
 /
 *
 glDetailTexFuncSGIS
@@ -262552,7 +265378,7 @@ entrypoints
 ]
 =
 {
-10733
+10880
 /
 *
 "
@@ -262560,7 +265386,7 @@ glDisable
 "
 *
 /
-10733
+10880
 /
 *
 "
@@ -262568,7 +265394,7 @@ glDisable
 "
 *
 /
-10733
+10880
 /
 *
 "
@@ -262583,7 +265409,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10733
+10880
 /
 *
 "
@@ -262625,7 +265451,7 @@ entrypoints
 ]
 =
 {
-10743
+10890
 /
 *
 "
@@ -262633,7 +265459,7 @@ glDisableClientState
 "
 *
 /
-10743
+10890
 /
 *
 "
@@ -262648,7 +265474,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10743
+10890
 /
 *
 "
@@ -262672,7 +265498,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-10764
+10911
 /
 *
 glDisableClientStateIndexedEXT
@@ -262692,7 +265518,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-10795
+10942
 /
 *
 glDisableClientStateiEXT
@@ -262712,7 +265538,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_driver_control
-10820
+10967
 /
 *
 glDisableDriverControlQCOM
@@ -262756,7 +265582,7 @@ entrypoints
 ]
 =
 {
-10847
+10994
 /
 *
 "
@@ -262764,7 +265590,7 @@ glDisableIndexedEXT
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -262772,7 +265598,7 @@ glDisableIndexedEXT
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -262780,7 +265606,7 @@ glDisablei
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -262788,7 +265614,7 @@ glDisablei
 "
 *
 /
-11074
+11221
 /
 *
 "
@@ -262796,7 +265622,7 @@ glDisableiEXT
 "
 *
 /
-11088
+11235
 /
 *
 "
@@ -262804,7 +265630,7 @@ glDisableiNV
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -262812,7 +265638,7 @@ glDisableiOES
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -262827,7 +265653,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10847
+10994
 /
 *
 "
@@ -262851,7 +265677,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-10867
+11014
 /
 *
 glDisableVariantClientStateEXT
@@ -262889,7 +265715,7 @@ entrypoints
 ]
 =
 {
-10898
+11045
 /
 *
 "
@@ -262897,7 +265723,7 @@ glDisableVertexArrayAttrib
 "
 *
 /
-10898
+11045
 /
 *
 "
@@ -262912,7 +265738,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-10898
+11045
 /
 *
 "
@@ -262936,7 +265762,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-10925
+11072
 /
 *
 glDisableVertexArrayAttribEXT
@@ -262956,7 +265782,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-10955
+11102
 /
 *
 glDisableVertexArrayEXT
@@ -262976,7 +265802,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_program_evaluators
-10979
+11126
 /
 *
 glDisableVertexAttribAPPLE
@@ -263016,7 +265842,7 @@ entrypoints
 ]
 =
 {
-11006
+11153
 /
 *
 "
@@ -263024,7 +265850,7 @@ glDisableVertexAttribArray
 "
 *
 /
-11006
+11153
 /
 *
 "
@@ -263032,7 +265858,7 @@ glDisableVertexAttribArray
 "
 *
 /
-11033
+11180
 /
 *
 "
@@ -263040,7 +265866,7 @@ glDisableVertexAttribArrayARB
 "
 *
 /
-11033
+11180
 /
 *
 "
@@ -263055,7 +265881,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11006
+11153
 /
 *
 "
@@ -263099,7 +265925,7 @@ entrypoints
 ]
 =
 {
-11033
+11180
 /
 *
 "
@@ -263107,7 +265933,7 @@ glDisableVertexAttribArrayARB
 "
 *
 /
-11033
+11180
 /
 *
 "
@@ -263115,7 +265941,7 @@ glDisableVertexAttribArrayARB
 "
 *
 /
-11006
+11153
 /
 *
 "
@@ -263123,7 +265949,7 @@ glDisableVertexAttribArray
 "
 *
 /
-11006
+11153
 /
 *
 "
@@ -263138,7 +265964,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11033
+11180
 /
 *
 "
@@ -263186,7 +266012,7 @@ entrypoints
 ]
 =
 {
-11063
+11210
 /
 *
 "
@@ -263194,7 +266020,7 @@ glDisablei
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -263202,7 +266028,7 @@ glDisablei
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -263210,7 +266036,7 @@ glDisableIndexedEXT
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -263218,7 +266044,7 @@ glDisableIndexedEXT
 "
 *
 /
-11074
+11221
 /
 *
 "
@@ -263226,7 +266052,7 @@ glDisableiEXT
 "
 *
 /
-11088
+11235
 /
 *
 "
@@ -263234,7 +266060,7 @@ glDisableiNV
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -263242,7 +266068,7 @@ glDisableiOES
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -263257,7 +266083,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11063
+11210
 /
 *
 "
@@ -263305,7 +266131,7 @@ entrypoints
 ]
 =
 {
-11074
+11221
 /
 *
 "
@@ -263313,7 +266139,7 @@ glDisableiEXT
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -263321,7 +266147,7 @@ glDisableIndexedEXT
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -263329,7 +266155,7 @@ glDisableIndexedEXT
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -263337,7 +266163,7 @@ glDisablei
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -263345,7 +266171,7 @@ glDisablei
 "
 *
 /
-11088
+11235
 /
 *
 "
@@ -263353,7 +266179,7 @@ glDisableiNV
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -263361,7 +266187,7 @@ glDisableiOES
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -263376,7 +266202,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11074
+11221
 /
 *
 "
@@ -263424,7 +266250,7 @@ entrypoints
 ]
 =
 {
-11088
+11235
 /
 *
 "
@@ -263432,7 +266258,7 @@ glDisableiNV
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -263440,7 +266266,7 @@ glDisableIndexedEXT
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -263448,7 +266274,7 @@ glDisableIndexedEXT
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -263456,7 +266282,7 @@ glDisablei
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -263464,7 +266290,7 @@ glDisablei
 "
 *
 /
-11074
+11221
 /
 *
 "
@@ -263472,7 +266298,7 @@ glDisableiEXT
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -263480,7 +266306,7 @@ glDisableiOES
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -263495,7 +266321,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11088
+11235
 /
 *
 "
@@ -263543,7 +266369,7 @@ entrypoints
 ]
 =
 {
-11101
+11248
 /
 *
 "
@@ -263551,7 +266377,7 @@ glDisableiOES
 "
 *
 /
-11101
+11248
 /
 *
 "
@@ -263559,7 +266385,7 @@ glDisableiOES
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -263567,7 +266393,7 @@ glDisableIndexedEXT
 "
 *
 /
-10847
+10994
 /
 *
 "
@@ -263575,7 +266401,7 @@ glDisableIndexedEXT
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -263583,7 +266409,7 @@ glDisablei
 "
 *
 /
-11063
+11210
 /
 *
 "
@@ -263591,7 +266417,7 @@ glDisablei
 "
 *
 /
-11074
+11221
 /
 *
 "
@@ -263599,7 +266425,7 @@ glDisableiEXT
 "
 *
 /
-11088
+11235
 /
 *
 "
@@ -263614,7 +266440,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11101
+11248
 /
 *
 "
@@ -263638,7 +266464,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_discard_framebuffer
-11115
+11262
 /
 *
 glDiscardFramebufferEXT
@@ -263677,7 +266503,7 @@ entrypoints
 ]
 =
 {
-11139
+11286
 /
 *
 "
@@ -263685,7 +266511,7 @@ glDispatchCompute
 "
 *
 /
-11139
+11286
 /
 *
 "
@@ -263693,7 +266519,7 @@ glDispatchCompute
 "
 *
 /
-11139
+11286
 /
 *
 "
@@ -263708,7 +266534,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11139
+11286
 /
 *
 "
@@ -263732,7 +266558,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_compute_variable_group_size
-11157
+11304
 /
 *
 glDispatchComputeGroupSizeARB
@@ -263771,7 +266597,7 @@ entrypoints
 ]
 =
 {
-11187
+11334
 /
 *
 "
@@ -263779,7 +266605,7 @@ glDispatchComputeIndirect
 "
 *
 /
-11187
+11334
 /
 *
 "
@@ -263787,7 +266613,7 @@ glDispatchComputeIndirect
 "
 *
 /
-11187
+11334
 /
 *
 "
@@ -263802,7 +266628,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11187
+11334
 /
 *
 "
@@ -263846,7 +266672,7 @@ entrypoints
 ]
 =
 {
-11213
+11360
 /
 *
 "
@@ -263854,7 +266680,7 @@ glDrawArrays
 "
 *
 /
-11213
+11360
 /
 *
 "
@@ -263862,7 +266688,7 @@ glDrawArrays
 "
 *
 /
-11213
+11360
 /
 *
 "
@@ -263870,7 +266696,7 @@ glDrawArrays
 "
 *
 /
-11226
+11373
 /
 *
 "
@@ -263885,7 +266711,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11213
+11360
 /
 *
 "
@@ -263929,7 +266755,7 @@ entrypoints
 ]
 =
 {
-11226
+11373
 /
 *
 "
@@ -263937,7 +266763,7 @@ glDrawArraysEXT
 "
 *
 /
-11213
+11360
 /
 *
 "
@@ -263945,7 +266771,7 @@ glDrawArrays
 "
 *
 /
-11213
+11360
 /
 *
 "
@@ -263953,7 +266779,7 @@ glDrawArrays
 "
 *
 /
-11213
+11360
 /
 *
 "
@@ -263968,7 +266794,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11226
+11373
 /
 *
 "
@@ -264011,7 +266837,7 @@ entrypoints
 ]
 =
 {
-11242
+11389
 /
 *
 "
@@ -264019,7 +266845,7 @@ glDrawArraysIndirect
 "
 *
 /
-11242
+11389
 /
 *
 "
@@ -264027,7 +266853,7 @@ glDrawArraysIndirect
 "
 *
 /
-11242
+11389
 /
 *
 "
@@ -264042,7 +266868,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11242
+11389
 /
 *
 "
@@ -264089,7 +266915,7 @@ entrypoints
 ]
 =
 {
-11263
+11410
 /
 *
 "
@@ -264097,7 +266923,7 @@ glDrawArraysInstanced
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264105,7 +266931,7 @@ glDrawArraysInstanced
 "
 *
 /
-11285
+11432
 /
 *
 "
@@ -264113,7 +266939,7 @@ glDrawArraysInstancedANGLE
 "
 *
 /
-11312
+11459
 /
 *
 "
@@ -264121,7 +266947,7 @@ glDrawArraysInstancedARB
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264129,7 +266955,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264137,7 +266963,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11433
+11580
 /
 *
 "
@@ -264152,7 +266978,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11263
+11410
 /
 *
 "
@@ -264199,7 +267025,7 @@ entrypoints
 ]
 =
 {
-11285
+11432
 /
 *
 "
@@ -264207,7 +267033,7 @@ glDrawArraysInstancedANGLE
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264215,7 +267041,7 @@ glDrawArraysInstanced
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264223,7 +267049,7 @@ glDrawArraysInstanced
 "
 *
 /
-11312
+11459
 /
 *
 "
@@ -264231,7 +267057,7 @@ glDrawArraysInstancedARB
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264239,7 +267065,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264247,7 +267073,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11433
+11580
 /
 *
 "
@@ -264262,7 +267088,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11285
+11432
 /
 *
 "
@@ -264309,7 +267135,7 @@ entrypoints
 ]
 =
 {
-11312
+11459
 /
 *
 "
@@ -264317,7 +267143,7 @@ glDrawArraysInstancedARB
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264325,7 +267151,7 @@ glDrawArraysInstanced
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264333,7 +267159,7 @@ glDrawArraysInstanced
 "
 *
 /
-11285
+11432
 /
 *
 "
@@ -264341,7 +267167,7 @@ glDrawArraysInstancedANGLE
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264349,7 +267175,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264357,7 +267183,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11433
+11580
 /
 *
 "
@@ -264372,7 +267198,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11312
+11459
 /
 *
 "
@@ -264415,7 +267241,7 @@ entrypoints
 ]
 =
 {
-11337
+11484
 /
 *
 "
@@ -264423,7 +267249,7 @@ glDrawArraysInstancedBaseInstance
 "
 *
 /
-11337
+11484
 /
 *
 "
@@ -264431,7 +267257,7 @@ glDrawArraysInstancedBaseInstance
 "
 *
 /
-11371
+11518
 /
 *
 "
@@ -264446,7 +267272,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11337
+11484
 /
 *
 "
@@ -264489,7 +267315,7 @@ entrypoints
 ]
 =
 {
-11371
+11518
 /
 *
 "
@@ -264497,7 +267323,7 @@ glDrawArraysInstancedBaseInstanceEXT
 "
 *
 /
-11337
+11484
 /
 *
 "
@@ -264505,7 +267331,7 @@ glDrawArraysInstancedBaseInstance
 "
 *
 /
-11337
+11484
 /
 *
 "
@@ -264520,7 +267346,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11371
+11518
 /
 *
 "
@@ -264567,7 +267393,7 @@ entrypoints
 ]
 =
 {
-11408
+11555
 /
 *
 "
@@ -264575,7 +267401,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264583,7 +267409,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264591,7 +267417,7 @@ glDrawArraysInstanced
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264599,7 +267425,7 @@ glDrawArraysInstanced
 "
 *
 /
-11285
+11432
 /
 *
 "
@@ -264607,7 +267433,7 @@ glDrawArraysInstancedANGLE
 "
 *
 /
-11312
+11459
 /
 *
 "
@@ -264615,7 +267441,7 @@ glDrawArraysInstancedARB
 "
 *
 /
-11433
+11580
 /
 *
 "
@@ -264630,7 +267456,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11408
+11555
 /
 *
 "
@@ -264677,7 +267503,7 @@ entrypoints
 ]
 =
 {
-11433
+11580
 /
 *
 "
@@ -264685,7 +267511,7 @@ glDrawArraysInstancedNV
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264693,7 +267519,7 @@ glDrawArraysInstanced
 "
 *
 /
-11263
+11410
 /
 *
 "
@@ -264701,7 +267527,7 @@ glDrawArraysInstanced
 "
 *
 /
-11285
+11432
 /
 *
 "
@@ -264709,7 +267535,7 @@ glDrawArraysInstancedANGLE
 "
 *
 /
-11312
+11459
 /
 *
 "
@@ -264717,7 +267543,7 @@ glDrawArraysInstancedARB
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264725,7 +267551,7 @@ glDrawArraysInstancedEXT
 "
 *
 /
-11408
+11555
 /
 *
 "
@@ -264740,7 +267566,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11433
+11580
 /
 *
 "
@@ -264764,7 +267590,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-11457
+11604
 /
 *
 glDrawBuffer
@@ -264805,7 +267631,7 @@ entrypoints
 ]
 =
 {
-11470
+11617
 /
 *
 "
@@ -264813,7 +267639,7 @@ glDrawBuffers
 "
 *
 /
-11470
+11617
 /
 *
 "
@@ -264821,7 +267647,7 @@ glDrawBuffers
 "
 *
 /
-11484
+11631
 /
 *
 "
@@ -264829,7 +267655,7 @@ glDrawBuffersARB
 "
 *
 /
-11501
+11648
 /
 *
 "
@@ -264837,7 +267663,7 @@ glDrawBuffersATI
 "
 *
 /
-11518
+11665
 /
 *
 "
@@ -264852,7 +267678,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11470
+11617
 /
 *
 "
@@ -264897,7 +267723,7 @@ entrypoints
 ]
 =
 {
-11484
+11631
 /
 *
 "
@@ -264905,7 +267731,7 @@ glDrawBuffersARB
 "
 *
 /
-11470
+11617
 /
 *
 "
@@ -264913,7 +267739,7 @@ glDrawBuffers
 "
 *
 /
-11470
+11617
 /
 *
 "
@@ -264921,7 +267747,7 @@ glDrawBuffers
 "
 *
 /
-11501
+11648
 /
 *
 "
@@ -264929,7 +267755,7 @@ glDrawBuffersATI
 "
 *
 /
-11518
+11665
 /
 *
 "
@@ -264944,7 +267770,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11484
+11631
 /
 *
 "
@@ -264989,7 +267815,7 @@ entrypoints
 ]
 =
 {
-11501
+11648
 /
 *
 "
@@ -264997,7 +267823,7 @@ glDrawBuffersATI
 "
 *
 /
-11470
+11617
 /
 *
 "
@@ -265005,7 +267831,7 @@ glDrawBuffers
 "
 *
 /
-11470
+11617
 /
 *
 "
@@ -265013,7 +267839,7 @@ glDrawBuffers
 "
 *
 /
-11484
+11631
 /
 *
 "
@@ -265021,7 +267847,7 @@ glDrawBuffersARB
 "
 *
 /
-11518
+11665
 /
 *
 "
@@ -265036,7 +267862,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11501
+11648
 /
 *
 "
@@ -265081,7 +267907,7 @@ entrypoints
 ]
 =
 {
-11518
+11665
 /
 *
 "
@@ -265089,7 +267915,7 @@ glDrawBuffersEXT
 "
 *
 /
-11470
+11617
 /
 *
 "
@@ -265097,7 +267923,7 @@ glDrawBuffers
 "
 *
 /
-11470
+11617
 /
 *
 "
@@ -265105,7 +267931,7 @@ glDrawBuffers
 "
 *
 /
-11484
+11631
 /
 *
 "
@@ -265113,7 +267939,7 @@ glDrawBuffersARB
 "
 *
 /
-11501
+11648
 /
 *
 "
@@ -265128,7 +267954,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11518
+11665
 /
 *
 "
@@ -265152,7 +267978,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_multiview_draw_buffers
-11535
+11682
 /
 *
 glDrawBuffersIndexedEXT
@@ -265172,7 +267998,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_draw_buffers
-11559
+11706
 /
 *
 glDrawBuffersNV
@@ -265192,7 +268018,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-11575
+11722
 /
 *
 glDrawCommandsAddressNV
@@ -265212,7 +268038,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-11599
+11746
 /
 *
 glDrawCommandsNV
@@ -265232,7 +268058,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-11616
+11763
 /
 *
 glDrawCommandsStatesAddressNV
@@ -265252,7 +268078,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-11646
+11793
 /
 *
 glDrawCommandsStatesNV
@@ -265272,7 +268098,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_element_array
-11669
+11816
 /
 *
 glDrawElementArrayAPPLE
@@ -265292,7 +268118,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_element_array
-11693
+11840
 /
 *
 glDrawElementArrayATI
@@ -265331,7 +268157,7 @@ entrypoints
 ]
 =
 {
-11715
+11862
 /
 *
 "
@@ -265339,7 +268165,7 @@ glDrawElements
 "
 *
 /
-11715
+11862
 /
 *
 "
@@ -265347,7 +268173,7 @@ glDrawElements
 "
 *
 /
-11715
+11862
 /
 *
 "
@@ -265362,7 +268188,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11715
+11862
 /
 *
 "
@@ -265407,7 +268233,7 @@ entrypoints
 ]
 =
 {
-11730
+11877
 /
 *
 "
@@ -265415,7 +268241,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11730
+11877
 /
 *
 "
@@ -265423,7 +268249,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11730
+11877
 /
 *
 "
@@ -265431,7 +268257,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11755
+11902
 /
 *
 "
@@ -265439,7 +268265,7 @@ glDrawElementsBaseVertexEXT
 "
 *
 /
-11783
+11930
 /
 *
 "
@@ -265454,7 +268280,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11730
+11877
 /
 *
 "
@@ -265499,7 +268325,7 @@ entrypoints
 ]
 =
 {
-11755
+11902
 /
 *
 "
@@ -265507,7 +268333,7 @@ glDrawElementsBaseVertexEXT
 "
 *
 /
-11730
+11877
 /
 *
 "
@@ -265515,7 +268341,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11730
+11877
 /
 *
 "
@@ -265523,7 +268349,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11730
+11877
 /
 *
 "
@@ -265531,7 +268357,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11783
+11930
 /
 *
 "
@@ -265546,7 +268372,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11755
+11902
 /
 *
 "
@@ -265591,7 +268417,7 @@ entrypoints
 ]
 =
 {
-11783
+11930
 /
 *
 "
@@ -265599,7 +268425,7 @@ glDrawElementsBaseVertexOES
 "
 *
 /
-11730
+11877
 /
 *
 "
@@ -265607,7 +268433,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11730
+11877
 /
 *
 "
@@ -265615,7 +268441,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11730
+11877
 /
 *
 "
@@ -265623,7 +268449,7 @@ glDrawElementsBaseVertex
 "
 *
 /
-11755
+11902
 /
 *
 "
@@ -265638,7 +268464,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11783
+11930
 /
 *
 "
@@ -265681,7 +268507,7 @@ entrypoints
 ]
 =
 {
-11811
+11958
 /
 *
 "
@@ -265689,7 +268515,7 @@ glDrawElementsIndirect
 "
 *
 /
-11811
+11958
 /
 *
 "
@@ -265697,7 +268523,7 @@ glDrawElementsIndirect
 "
 *
 /
-11811
+11958
 /
 *
 "
@@ -265712,7 +268538,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11811
+11958
 /
 *
 "
@@ -265759,7 +268585,7 @@ entrypoints
 ]
 =
 {
-11834
+11981
 /
 *
 "
@@ -265767,7 +268593,7 @@ glDrawElementsInstanced
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -265775,7 +268601,7 @@ glDrawElementsInstanced
 "
 *
 /
-11858
+12005
 /
 *
 "
@@ -265783,7 +268609,7 @@ glDrawElementsInstancedANGLE
 "
 *
 /
-11887
+12034
 /
 *
 "
@@ -265791,7 +268617,7 @@ glDrawElementsInstancedARB
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -265799,7 +268625,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -265807,7 +268633,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-12219
+12366
 /
 *
 "
@@ -265822,7 +268648,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11834
+11981
 /
 *
 "
@@ -265869,7 +268695,7 @@ entrypoints
 ]
 =
 {
-11858
+12005
 /
 *
 "
@@ -265877,7 +268703,7 @@ glDrawElementsInstancedANGLE
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -265885,7 +268711,7 @@ glDrawElementsInstanced
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -265893,7 +268719,7 @@ glDrawElementsInstanced
 "
 *
 /
-11887
+12034
 /
 *
 "
@@ -265901,7 +268727,7 @@ glDrawElementsInstancedARB
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -265909,7 +268735,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -265917,7 +268743,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-12219
+12366
 /
 *
 "
@@ -265932,7 +268758,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11858
+12005
 /
 *
 "
@@ -265979,7 +268805,7 @@ entrypoints
 ]
 =
 {
-11887
+12034
 /
 *
 "
@@ -265987,7 +268813,7 @@ glDrawElementsInstancedARB
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -265995,7 +268821,7 @@ glDrawElementsInstanced
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -266003,7 +268829,7 @@ glDrawElementsInstanced
 "
 *
 /
-11858
+12005
 /
 *
 "
@@ -266011,7 +268837,7 @@ glDrawElementsInstancedANGLE
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -266019,7 +268845,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -266027,7 +268853,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-12219
+12366
 /
 *
 "
@@ -266042,7 +268868,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11887
+12034
 /
 *
 "
@@ -266085,7 +268911,7 @@ entrypoints
 ]
 =
 {
-11914
+12061
 /
 *
 "
@@ -266093,7 +268919,7 @@ glDrawElementsInstancedBaseInstance
 "
 *
 /
-11914
+12061
 /
 *
 "
@@ -266101,7 +268927,7 @@ glDrawElementsInstancedBaseInstance
 "
 *
 /
-11950
+12097
 /
 *
 "
@@ -266116,7 +268942,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11914
+12061
 /
 *
 "
@@ -266159,7 +268985,7 @@ entrypoints
 ]
 =
 {
-11950
+12097
 /
 *
 "
@@ -266167,7 +268993,7 @@ glDrawElementsInstancedBaseInstanceEXT
 "
 *
 /
-11914
+12061
 /
 *
 "
@@ -266175,7 +269001,7 @@ glDrawElementsInstancedBaseInstance
 "
 *
 /
-11914
+12061
 /
 *
 "
@@ -266190,7 +269016,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11950
+12097
 /
 *
 "
@@ -266235,7 +269061,7 @@ entrypoints
 ]
 =
 {
-11989
+12136
 /
 *
 "
@@ -266243,7 +269069,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-11989
+12136
 /
 *
 "
@@ -266251,7 +269077,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-11989
+12136
 /
 *
 "
@@ -266259,7 +269085,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-12118
+12265
 /
 *
 "
@@ -266267,7 +269093,7 @@ glDrawElementsInstancedBaseVertexEXT
 "
 *
 /
-12155
+12302
 /
 *
 "
@@ -266282,7 +269108,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-11989
+12136
 /
 *
 "
@@ -266325,7 +269151,7 @@ entrypoints
 ]
 =
 {
-12023
+12170
 /
 *
 "
@@ -266333,7 +269159,7 @@ glDrawElementsInstancedBaseVertexBaseInstance
 "
 *
 /
-12023
+12170
 /
 *
 "
@@ -266341,7 +269167,7 @@ glDrawElementsInstancedBaseVertexBaseInstance
 "
 *
 /
-12069
+12216
 /
 *
 "
@@ -266356,7 +269182,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12023
+12170
 /
 *
 "
@@ -266399,7 +269225,7 @@ entrypoints
 ]
 =
 {
-12069
+12216
 /
 *
 "
@@ -266407,7 +269233,7 @@ glDrawElementsInstancedBaseVertexBaseInstanceEXT
 "
 *
 /
-12023
+12170
 /
 *
 "
@@ -266415,7 +269241,7 @@ glDrawElementsInstancedBaseVertexBaseInstance
 "
 *
 /
-12023
+12170
 /
 *
 "
@@ -266430,7 +269256,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12069
+12216
 /
 *
 "
@@ -266475,7 +269301,7 @@ entrypoints
 ]
 =
 {
-12118
+12265
 /
 *
 "
@@ -266483,7 +269309,7 @@ glDrawElementsInstancedBaseVertexEXT
 "
 *
 /
-11989
+12136
 /
 *
 "
@@ -266491,7 +269317,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-11989
+12136
 /
 *
 "
@@ -266499,7 +269325,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-11989
+12136
 /
 *
 "
@@ -266507,7 +269333,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-12155
+12302
 /
 *
 "
@@ -266522,7 +269348,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12118
+12265
 /
 *
 "
@@ -266567,7 +269393,7 @@ entrypoints
 ]
 =
 {
-12155
+12302
 /
 *
 "
@@ -266575,7 +269401,7 @@ glDrawElementsInstancedBaseVertexOES
 "
 *
 /
-11989
+12136
 /
 *
 "
@@ -266583,7 +269409,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-11989
+12136
 /
 *
 "
@@ -266591,7 +269417,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-11989
+12136
 /
 *
 "
@@ -266599,7 +269425,7 @@ glDrawElementsInstancedBaseVertex
 "
 *
 /
-12118
+12265
 /
 *
 "
@@ -266614,7 +269440,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12155
+12302
 /
 *
 "
@@ -266661,7 +269487,7 @@ entrypoints
 ]
 =
 {
-12192
+12339
 /
 *
 "
@@ -266669,7 +269495,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -266677,7 +269503,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -266685,7 +269511,7 @@ glDrawElementsInstanced
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -266693,7 +269519,7 @@ glDrawElementsInstanced
 "
 *
 /
-11858
+12005
 /
 *
 "
@@ -266701,7 +269527,7 @@ glDrawElementsInstancedANGLE
 "
 *
 /
-11887
+12034
 /
 *
 "
@@ -266709,7 +269535,7 @@ glDrawElementsInstancedARB
 "
 *
 /
-12219
+12366
 /
 *
 "
@@ -266724,7 +269550,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12192
+12339
 /
 *
 "
@@ -266771,7 +269597,7 @@ entrypoints
 ]
 =
 {
-12219
+12366
 /
 *
 "
@@ -266779,7 +269605,7 @@ glDrawElementsInstancedNV
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -266787,7 +269613,7 @@ glDrawElementsInstanced
 "
 *
 /
-11834
+11981
 /
 *
 "
@@ -266795,7 +269621,7 @@ glDrawElementsInstanced
 "
 *
 /
-11858
+12005
 /
 *
 "
@@ -266803,7 +269629,7 @@ glDrawElementsInstancedANGLE
 "
 *
 /
-11887
+12034
 /
 *
 "
@@ -266811,7 +269637,7 @@ glDrawElementsInstancedARB
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -266819,7 +269645,7 @@ glDrawElementsInstancedEXT
 "
 *
 /
-12192
+12339
 /
 *
 "
@@ -266834,7 +269660,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12219
+12366
 /
 *
 "
@@ -266858,10 +269684,50 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_mesh_array
-12245
+12392
 /
 *
 glDrawMeshArraysSUN
+*
+/
+)
+;
+}
+static
+PFNGLDRAWMESHTASKSEXTPROC
+epoxy_glDrawMeshTasksEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_mesh_shader
+12412
+/
+*
+glDrawMeshTasksEXT
+*
+/
+)
+;
+}
+static
+PFNGLDRAWMESHTASKSINDIRECTEXTPROC
+epoxy_glDrawMeshTasksIndirectEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_mesh_shader
+12431
+/
+*
+glDrawMeshTasksIndirectEXT
 *
 /
 )
@@ -266878,7 +269744,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_mesh_shader
-12265
+12458
 /
 *
 glDrawMeshTasksIndirectNV
@@ -266898,7 +269764,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_mesh_shader
-12291
+12484
 /
 *
 glDrawMeshTasksNV
@@ -266918,7 +269784,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-12309
+12502
 /
 *
 glDrawPixels
@@ -266938,7 +269804,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_element_array
-12322
+12515
 /
 *
 glDrawRangeElementArrayAPPLE
@@ -266958,7 +269824,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_element_array
-12351
+12544
 /
 *
 glDrawRangeElementArrayATI
@@ -266997,7 +269863,7 @@ entrypoints
 ]
 =
 {
-12378
+12571
 /
 *
 "
@@ -267005,7 +269871,7 @@ glDrawRangeElements
 "
 *
 /
-12378
+12571
 /
 *
 "
@@ -267013,7 +269879,7 @@ glDrawRangeElements
 "
 *
 /
-12494
+12687
 /
 *
 "
@@ -267028,7 +269894,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12378
+12571
 /
 *
 "
@@ -267073,7 +269939,7 @@ entrypoints
 ]
 =
 {
-12398
+12591
 /
 *
 "
@@ -267081,7 +269947,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12398
+12591
 /
 *
 "
@@ -267089,7 +269955,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12398
+12591
 /
 *
 "
@@ -267097,7 +269963,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12428
+12621
 /
 *
 "
@@ -267105,7 +269971,7 @@ glDrawRangeElementsBaseVertexEXT
 "
 *
 /
-12461
+12654
 /
 *
 "
@@ -267120,7 +269986,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12398
+12591
 /
 *
 "
@@ -267165,7 +270031,7 @@ entrypoints
 ]
 =
 {
-12428
+12621
 /
 *
 "
@@ -267173,7 +270039,7 @@ glDrawRangeElementsBaseVertexEXT
 "
 *
 /
-12398
+12591
 /
 *
 "
@@ -267181,7 +270047,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12398
+12591
 /
 *
 "
@@ -267189,7 +270055,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12398
+12591
 /
 *
 "
@@ -267197,7 +270063,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12461
+12654
 /
 *
 "
@@ -267212,7 +270078,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12428
+12621
 /
 *
 "
@@ -267257,7 +270123,7 @@ entrypoints
 ]
 =
 {
-12461
+12654
 /
 *
 "
@@ -267265,7 +270131,7 @@ glDrawRangeElementsBaseVertexOES
 "
 *
 /
-12398
+12591
 /
 *
 "
@@ -267273,7 +270139,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12398
+12591
 /
 *
 "
@@ -267281,7 +270147,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12398
+12591
 /
 *
 "
@@ -267289,7 +270155,7 @@ glDrawRangeElementsBaseVertex
 "
 *
 /
-12428
+12621
 /
 *
 "
@@ -267304,7 +270170,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12461
+12654
 /
 *
 "
@@ -267347,7 +270213,7 @@ entrypoints
 ]
 =
 {
-12494
+12687
 /
 *
 "
@@ -267355,7 +270221,7 @@ glDrawRangeElementsEXT
 "
 *
 /
-12378
+12571
 /
 *
 "
@@ -267363,7 +270229,7 @@ glDrawRangeElements
 "
 *
 /
-12378
+12571
 /
 *
 "
@@ -267378,7 +270244,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12494
+12687
 /
 *
 "
@@ -267402,7 +270268,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_draw_texture
-12517
+12710
 /
 *
 glDrawTexfOES
@@ -267422,7 +270288,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_draw_texture
-12531
+12724
 /
 *
 glDrawTexfvOES
@@ -267442,7 +270308,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_draw_texture
-12546
+12739
 /
 *
 glDrawTexiOES
@@ -267462,7 +270328,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_draw_texture
-12560
+12753
 /
 *
 glDrawTexivOES
@@ -267482,7 +270348,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_draw_texture
-12575
+12768
 /
 *
 glDrawTexsOES
@@ -267502,7 +270368,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_draw_texture
-12589
+12782
 /
 *
 glDrawTexsvOES
@@ -267522,7 +270388,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_draw_texture
-12604
+12797
 /
 *
 glDrawTextureNV
@@ -267542,7 +270408,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_draw_texture
-12620
+12813
 /
 *
 glDrawTexxOES
@@ -267562,7 +270428,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_draw_texture
-12634
+12827
 /
 *
 glDrawTexxvOES
@@ -267602,7 +270468,7 @@ entrypoints
 ]
 =
 {
-12649
+12842
 /
 *
 "
@@ -267610,7 +270476,7 @@ glDrawTransformFeedback
 "
 *
 /
-12649
+12842
 /
 *
 "
@@ -267618,7 +270484,7 @@ glDrawTransformFeedback
 "
 *
 /
-12673
+12866
 /
 *
 "
@@ -267626,7 +270492,7 @@ glDrawTransformFeedbackEXT
 "
 *
 /
-12769
+12962
 /
 *
 "
@@ -267641,7 +270507,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12649
+12842
 /
 *
 "
@@ -267685,7 +270551,7 @@ entrypoints
 ]
 =
 {
-12673
+12866
 /
 *
 "
@@ -267693,7 +270559,7 @@ glDrawTransformFeedbackEXT
 "
 *
 /
-12649
+12842
 /
 *
 "
@@ -267701,7 +270567,7 @@ glDrawTransformFeedback
 "
 *
 /
-12649
+12842
 /
 *
 "
@@ -267709,7 +270575,7 @@ glDrawTransformFeedback
 "
 *
 /
-12769
+12962
 /
 *
 "
@@ -267724,7 +270590,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12673
+12866
 /
 *
 "
@@ -267767,7 +270633,7 @@ entrypoints
 ]
 =
 {
-12700
+12893
 /
 *
 "
@@ -267775,7 +270641,7 @@ glDrawTransformFeedbackInstanced
 "
 *
 /
-12700
+12893
 /
 *
 "
@@ -267783,7 +270649,7 @@ glDrawTransformFeedbackInstanced
 "
 *
 /
-12733
+12926
 /
 *
 "
@@ -267798,7 +270664,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12700
+12893
 /
 *
 "
@@ -267841,7 +270707,7 @@ entrypoints
 ]
 =
 {
-12733
+12926
 /
 *
 "
@@ -267849,7 +270715,7 @@ glDrawTransformFeedbackInstancedEXT
 "
 *
 /
-12700
+12893
 /
 *
 "
@@ -267857,7 +270723,7 @@ glDrawTransformFeedbackInstanced
 "
 *
 /
-12700
+12893
 /
 *
 "
@@ -267872,7 +270738,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12733
+12926
 /
 *
 "
@@ -267916,7 +270782,7 @@ entrypoints
 ]
 =
 {
-12769
+12962
 /
 *
 "
@@ -267924,7 +270790,7 @@ glDrawTransformFeedbackNV
 "
 *
 /
-12649
+12842
 /
 *
 "
@@ -267932,7 +270798,7 @@ glDrawTransformFeedback
 "
 *
 /
-12649
+12842
 /
 *
 "
@@ -267940,7 +270806,7 @@ glDrawTransformFeedback
 "
 *
 /
-12673
+12866
 /
 *
 "
@@ -267955,7 +270821,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12769
+12962
 /
 *
 "
@@ -267997,7 +270863,7 @@ entrypoints
 ]
 =
 {
-12795
+12988
 /
 *
 "
@@ -268005,7 +270871,7 @@ glDrawTransformFeedbackStream
 "
 *
 /
-12795
+12988
 /
 *
 "
@@ -268020,7 +270886,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12795
+12988
 /
 *
 "
@@ -268062,7 +270928,7 @@ entrypoints
 ]
 =
 {
-12825
+13018
 /
 *
 "
@@ -268070,7 +270936,7 @@ glDrawTransformFeedbackStreamInstanced
 "
 *
 /
-12825
+13018
 /
 *
 "
@@ -268085,7 +270951,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-12825
+13018
 /
 *
 "
@@ -268109,7 +270975,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_draw_vulkan_image
-12864
+13057
 /
 *
 glDrawVkImageNV
@@ -268129,7 +270995,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_EGL_image
-12880
+13073
 /
 *
 glEGLImageTargetRenderbufferStorageOES
@@ -268149,7 +271015,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_EGL_image_storage
-12919
+13112
 /
 *
 glEGLImageTargetTexStorageEXT
@@ -268165,16 +271031,61 @@ epoxy_glEGLImageTargetTexture2DOES_resolver
 void
 )
 {
-return
-gl_single_resolver
-(
+static
+const
+enum
+gl_provider
+providers
+[
+]
+=
+{
 PROVIDER_GL_OES_EGL_image
-12949
+PROVIDER_GL_OES_EGL_image_external
+gl_provider_terminator
+}
+;
+static
+const
+uint32_t
+entrypoints
+[
+]
+=
+{
+13142
 /
 *
+"
 glEGLImageTargetTexture2DOES
+"
 *
 /
+13142
+/
+*
+"
+glEGLImageTargetTexture2DOES
+"
+*
+/
+}
+;
+return
+gl_provider_resolver
+(
+entrypoint_strings
++
+13142
+/
+*
+"
+glEGLImageTargetTexture2DOES
+"
+*
+/
+providers
+entrypoints
 )
 ;
 }
@@ -268189,7 +271100,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_EGL_image_storage
-12978
+13171
 /
 *
 glEGLImageTargetTextureStorageEXT
@@ -268209,7 +271120,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13012
+13205
 /
 *
 glEdgeFlag
@@ -268229,7 +271140,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-13023
+13216
 /
 *
 glEdgeFlagFormatNV
@@ -268249,7 +271160,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_1
-13042
+13235
 /
 *
 glEdgeFlagPointer
@@ -268269,7 +271180,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_array
-13060
+13253
 /
 *
 glEdgeFlagPointerEXT
@@ -268289,7 +271200,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_vertex_array_lists
-13081
+13274
 /
 *
 glEdgeFlagPointerListIBM
@@ -268309,7 +271220,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13106
+13299
 /
 *
 glEdgeFlagv
@@ -268329,7 +271240,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_element_array
-13118
+13311
 /
 *
 glElementPointerAPPLE
@@ -268349,7 +271260,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_element_array
-13140
+13333
 /
 *
 glElementPointerATI
@@ -268388,7 +271299,7 @@ entrypoints
 ]
 =
 {
-13160
+13353
 /
 *
 "
@@ -268396,7 +271307,7 @@ glEnable
 "
 *
 /
-13160
+13353
 /
 *
 "
@@ -268404,7 +271315,7 @@ glEnable
 "
 *
 /
-13160
+13353
 /
 *
 "
@@ -268419,7 +271330,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13160
+13353
 /
 *
 "
@@ -268461,7 +271372,7 @@ entrypoints
 ]
 =
 {
-13169
+13362
 /
 *
 "
@@ -268469,7 +271380,7 @@ glEnableClientState
 "
 *
 /
-13169
+13362
 /
 *
 "
@@ -268484,7 +271395,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13169
+13362
 /
 *
 "
@@ -268508,7 +271419,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-13189
+13382
 /
 *
 glEnableClientStateIndexedEXT
@@ -268528,7 +271439,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-13219
+13412
 /
 *
 glEnableClientStateiEXT
@@ -268548,7 +271459,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_driver_control
-13243
+13436
 /
 *
 glEnableDriverControlQCOM
@@ -268592,7 +271503,7 @@ entrypoints
 ]
 =
 {
-13269
+13462
 /
 *
 "
@@ -268600,7 +271511,7 @@ glEnableIndexedEXT
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -268608,7 +271519,7 @@ glEnableIndexedEXT
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -268616,7 +271527,7 @@ glEnablei
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -268624,7 +271535,7 @@ glEnablei
 "
 *
 /
-13487
+13680
 /
 *
 "
@@ -268632,7 +271543,7 @@ glEnableiEXT
 "
 *
 /
-13500
+13693
 /
 *
 "
@@ -268640,7 +271551,7 @@ glEnableiNV
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -268648,7 +271559,7 @@ glEnableiOES
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -268663,7 +271574,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13269
+13462
 /
 *
 "
@@ -268687,7 +271598,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-13288
+13481
 /
 *
 glEnableVariantClientStateEXT
@@ -268725,7 +271636,7 @@ entrypoints
 ]
 =
 {
-13318
+13511
 /
 *
 "
@@ -268733,7 +271644,7 @@ glEnableVertexArrayAttrib
 "
 *
 /
-13318
+13511
 /
 *
 "
@@ -268748,7 +271659,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13318
+13511
 /
 *
 "
@@ -268772,7 +271683,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-13344
+13537
 /
 *
 glEnableVertexArrayAttribEXT
@@ -268792,7 +271703,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-13373
+13566
 /
 *
 glEnableVertexArrayEXT
@@ -268812,7 +271723,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_program_evaluators
-13396
+13589
 /
 *
 glEnableVertexAttribAPPLE
@@ -268852,7 +271763,7 @@ entrypoints
 ]
 =
 {
-13422
+13615
 /
 *
 "
@@ -268860,7 +271771,7 @@ glEnableVertexAttribArray
 "
 *
 /
-13422
+13615
 /
 *
 "
@@ -268868,7 +271779,7 @@ glEnableVertexAttribArray
 "
 *
 /
-13448
+13641
 /
 *
 "
@@ -268876,7 +271787,7 @@ glEnableVertexAttribArrayARB
 "
 *
 /
-13448
+13641
 /
 *
 "
@@ -268891,7 +271802,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13422
+13615
 /
 *
 "
@@ -268935,7 +271846,7 @@ entrypoints
 ]
 =
 {
-13448
+13641
 /
 *
 "
@@ -268943,7 +271854,7 @@ glEnableVertexAttribArrayARB
 "
 *
 /
-13448
+13641
 /
 *
 "
@@ -268951,7 +271862,7 @@ glEnableVertexAttribArrayARB
 "
 *
 /
-13422
+13615
 /
 *
 "
@@ -268959,7 +271870,7 @@ glEnableVertexAttribArray
 "
 *
 /
-13422
+13615
 /
 *
 "
@@ -268974,7 +271885,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13448
+13641
 /
 *
 "
@@ -269022,7 +271933,7 @@ entrypoints
 ]
 =
 {
-13477
+13670
 /
 *
 "
@@ -269030,7 +271941,7 @@ glEnablei
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -269038,7 +271949,7 @@ glEnablei
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -269046,7 +271957,7 @@ glEnableIndexedEXT
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -269054,7 +271965,7 @@ glEnableIndexedEXT
 "
 *
 /
-13487
+13680
 /
 *
 "
@@ -269062,7 +271973,7 @@ glEnableiEXT
 "
 *
 /
-13500
+13693
 /
 *
 "
@@ -269070,7 +271981,7 @@ glEnableiNV
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -269078,7 +271989,7 @@ glEnableiOES
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -269093,7 +272004,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13477
+13670
 /
 *
 "
@@ -269141,7 +272052,7 @@ entrypoints
 ]
 =
 {
-13487
+13680
 /
 *
 "
@@ -269149,7 +272060,7 @@ glEnableiEXT
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -269157,7 +272068,7 @@ glEnableIndexedEXT
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -269165,7 +272076,7 @@ glEnableIndexedEXT
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -269173,7 +272084,7 @@ glEnablei
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -269181,7 +272092,7 @@ glEnablei
 "
 *
 /
-13500
+13693
 /
 *
 "
@@ -269189,7 +272100,7 @@ glEnableiNV
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -269197,7 +272108,7 @@ glEnableiOES
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -269212,7 +272123,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13487
+13680
 /
 *
 "
@@ -269260,7 +272171,7 @@ entrypoints
 ]
 =
 {
-13500
+13693
 /
 *
 "
@@ -269268,7 +272179,7 @@ glEnableiNV
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -269276,7 +272187,7 @@ glEnableIndexedEXT
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -269284,7 +272195,7 @@ glEnableIndexedEXT
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -269292,7 +272203,7 @@ glEnablei
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -269300,7 +272211,7 @@ glEnablei
 "
 *
 /
-13487
+13680
 /
 *
 "
@@ -269308,7 +272219,7 @@ glEnableiEXT
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -269316,7 +272227,7 @@ glEnableiOES
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -269331,7 +272242,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13500
+13693
 /
 *
 "
@@ -269379,7 +272290,7 @@ entrypoints
 ]
 =
 {
-13512
+13705
 /
 *
 "
@@ -269387,7 +272298,7 @@ glEnableiOES
 "
 *
 /
-13512
+13705
 /
 *
 "
@@ -269395,7 +272306,7 @@ glEnableiOES
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -269403,7 +272314,7 @@ glEnableIndexedEXT
 "
 *
 /
-13269
+13462
 /
 *
 "
@@ -269411,7 +272322,7 @@ glEnableIndexedEXT
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -269419,7 +272330,7 @@ glEnablei
 "
 *
 /
-13477
+13670
 /
 *
 "
@@ -269427,7 +272338,7 @@ glEnablei
 "
 *
 /
-13487
+13680
 /
 *
 "
@@ -269435,7 +272346,7 @@ glEnableiEXT
 "
 *
 /
-13500
+13693
 /
 *
 "
@@ -269450,7 +272361,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13512
+13705
 /
 *
 "
@@ -269474,7 +272385,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13525
+13718
 /
 *
 glEnd
@@ -269513,7 +272424,7 @@ entrypoints
 ]
 =
 {
-13531
+13724
 /
 *
 "
@@ -269521,7 +272432,7 @@ glEndConditionalRender
 "
 *
 /
-13554
+13747
 /
 *
 "
@@ -269529,7 +272440,7 @@ glEndConditionalRenderNV
 "
 *
 /
-13579
+13772
 /
 *
 "
@@ -269544,7 +272455,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13531
+13724
 /
 *
 "
@@ -269587,7 +272498,7 @@ entrypoints
 ]
 =
 {
-13554
+13747
 /
 *
 "
@@ -269595,7 +272506,7 @@ glEndConditionalRenderNV
 "
 *
 /
-13531
+13724
 /
 *
 "
@@ -269603,7 +272514,7 @@ glEndConditionalRender
 "
 *
 /
-13579
+13772
 /
 *
 "
@@ -269618,7 +272529,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13554
+13747
 /
 *
 "
@@ -269661,7 +272572,7 @@ entrypoints
 ]
 =
 {
-13579
+13772
 /
 *
 "
@@ -269669,7 +272580,7 @@ glEndConditionalRenderNVX
 "
 *
 /
-13531
+13724
 /
 *
 "
@@ -269677,7 +272588,7 @@ glEndConditionalRender
 "
 *
 /
-13554
+13747
 /
 *
 "
@@ -269692,7 +272603,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13579
+13772
 /
 *
 "
@@ -269716,7 +272627,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-13605
+13798
 /
 *
 glEndFragmentShaderATI
@@ -269736,7 +272647,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13628
+13821
 /
 *
 glEndList
@@ -269756,7 +272667,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_occlusion_query
-13638
+13831
 /
 *
 glEndOcclusionQueryNV
@@ -269776,7 +272687,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-13660
+13853
 /
 *
 glEndPerfMonitorAMD
@@ -269796,7 +272707,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-13680
+13873
 /
 *
 glEndPerfQueryINTEL
@@ -269835,7 +272746,7 @@ entrypoints
 ]
 =
 {
-13700
+13893
 /
 *
 "
@@ -269843,7 +272754,7 @@ glEndQuery
 "
 *
 /
-13700
+13893
 /
 *
 "
@@ -269851,7 +272762,7 @@ glEndQuery
 "
 *
 /
-13711
+13904
 /
 *
 "
@@ -269866,7 +272777,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13700
+13893
 /
 *
 "
@@ -269909,7 +272820,7 @@ entrypoints
 ]
 =
 {
-13711
+13904
 /
 *
 "
@@ -269917,7 +272828,7 @@ glEndQueryARB
 "
 *
 /
-13700
+13893
 /
 *
 "
@@ -269925,7 +272836,7 @@ glEndQuery
 "
 *
 /
-13700
+13893
 /
 *
 "
@@ -269940,7 +272851,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13711
+13904
 /
 *
 "
@@ -269982,7 +272893,7 @@ entrypoints
 ]
 =
 {
-13725
+13918
 /
 *
 "
@@ -269990,7 +272901,7 @@ glEndQueryEXT
 "
 *
 /
-13725
+13918
 /
 *
 "
@@ -270005,7 +272916,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13725
+13918
 /
 *
 "
@@ -270047,7 +272958,7 @@ entrypoints
 ]
 =
 {
-13739
+13932
 /
 *
 "
@@ -270055,7 +272966,7 @@ glEndQueryIndexed
 "
 *
 /
-13739
+13932
 /
 *
 "
@@ -270070,7 +272981,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13739
+13932
 /
 *
 "
@@ -270094,7 +273005,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_tiled_rendering
-13757
+13950
 /
 *
 glEndTilingQCOM
@@ -270134,7 +273045,7 @@ entrypoints
 ]
 =
 {
-13773
+13966
 /
 *
 "
@@ -270142,7 +273053,7 @@ glEndTransformFeedback
 "
 *
 /
-13773
+13966
 /
 *
 "
@@ -270150,7 +273061,7 @@ glEndTransformFeedback
 "
 *
 /
-13796
+13989
 /
 *
 "
@@ -270158,7 +273069,7 @@ glEndTransformFeedbackEXT
 "
 *
 /
-13822
+14015
 /
 *
 "
@@ -270173,7 +273084,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13773
+13966
 /
 *
 "
@@ -270217,7 +273128,7 @@ entrypoints
 ]
 =
 {
-13796
+13989
 /
 *
 "
@@ -270225,7 +273136,7 @@ glEndTransformFeedbackEXT
 "
 *
 /
-13773
+13966
 /
 *
 "
@@ -270233,7 +273144,7 @@ glEndTransformFeedback
 "
 *
 /
-13773
+13966
 /
 *
 "
@@ -270241,7 +273152,7 @@ glEndTransformFeedback
 "
 *
 /
-13822
+14015
 /
 *
 "
@@ -270256,7 +273167,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13796
+13989
 /
 *
 "
@@ -270300,7 +273211,7 @@ entrypoints
 ]
 =
 {
-13822
+14015
 /
 *
 "
@@ -270308,7 +273219,7 @@ glEndTransformFeedbackNV
 "
 *
 /
-13773
+13966
 /
 *
 "
@@ -270316,7 +273227,7 @@ glEndTransformFeedback
 "
 *
 /
-13773
+13966
 /
 *
 "
@@ -270324,7 +273235,7 @@ glEndTransformFeedback
 "
 *
 /
-13796
+13989
 /
 *
 "
@@ -270339,7 +273250,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-13822
+14015
 /
 *
 "
@@ -270363,7 +273274,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-13847
+14040
 /
 *
 glEndVertexShaderEXT
@@ -270383,7 +273294,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-13868
+14061
 /
 *
 glEndVideoCaptureNV
@@ -270403,7 +273314,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13888
+14081
 /
 *
 glEvalCoord1d
@@ -270423,7 +273334,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13902
+14095
 /
 *
 glEvalCoord1dv
@@ -270443,7 +273354,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13917
+14110
 /
 *
 glEvalCoord1f
@@ -270463,7 +273374,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13931
+14124
 /
 *
 glEvalCoord1fv
@@ -270483,7 +273394,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-13946
+14139
 /
 *
 glEvalCoord1xOES
@@ -270503,7 +273414,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-13963
+14156
 /
 *
 glEvalCoord1xvOES
@@ -270523,7 +273434,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13981
+14174
 /
 *
 glEvalCoord2d
@@ -270543,7 +273454,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-13995
+14188
 /
 *
 glEvalCoord2dv
@@ -270563,7 +273474,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-14010
+14203
 /
 *
 glEvalCoord2f
@@ -270583,7 +273494,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-14024
+14217
 /
 *
 glEvalCoord2fv
@@ -270603,7 +273514,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-14039
+14232
 /
 *
 glEvalCoord2xOES
@@ -270623,7 +273534,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-14056
+14249
 /
 *
 glEvalCoord2xvOES
@@ -270643,7 +273554,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-14074
+14267
 /
 *
 glEvalMapsNV
@@ -270663,7 +273574,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-14087
+14280
 /
 *
 glEvalMesh1
@@ -270683,7 +273594,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-14099
+14292
 /
 *
 glEvalMesh2
@@ -270703,7 +273614,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-14111
+14304
 /
 *
 glEvalPoint1
@@ -270723,7 +273634,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-14124
+14317
 /
 *
 glEvalPoint2
@@ -270743,7 +273654,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_sample_locations
-14137
+14330
 /
 *
 glEvaluateDepthValuesARB
@@ -270763,7 +273674,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-14162
+14355
 /
 *
 glExecuteProgramNV
@@ -270783,7 +273694,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get
-14181
+14374
 /
 *
 glExtGetBufferPointervQCOM
@@ -270803,7 +273714,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get
-14208
+14401
 /
 *
 glExtGetBuffersQCOM
@@ -270823,7 +273734,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get
-14228
+14421
 /
 *
 glExtGetFramebuffersQCOM
@@ -270843,7 +273754,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get2
-14253
+14446
 /
 *
 glExtGetProgramBinarySourceQCOM
@@ -270863,7 +273774,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get2
-14285
+14478
 /
 *
 glExtGetProgramsQCOM
@@ -270883,7 +273794,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get
-14306
+14499
 /
 *
 glExtGetRenderbuffersQCOM
@@ -270903,7 +273814,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get2
-14332
+14525
 /
 *
 glExtGetShadersQCOM
@@ -270923,7 +273834,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get
-14352
+14545
 /
 *
 glExtGetTexLevelParameterivQCOM
@@ -270943,7 +273854,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get
-14384
+14577
 /
 *
 glExtGetTexSubImageQCOM
@@ -270963,7 +273874,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get
-14408
+14601
 /
 *
 glExtGetTexturesQCOM
@@ -270983,7 +273894,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get2
-14429
+14622
 /
 *
 glExtIsProgramBinaryQCOM
@@ -271003,7 +273914,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_extended_get
-14454
+14647
 /
 *
 glExtTexObjectStateOverrideiQCOM
@@ -271023,10 +273934,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-14487
+14680
 /
 *
 glExtractComponentEXT
+*
+/
+)
+;
+}
+static
+PFNGLEXTRAPOLATETEX2DQCOMPROC
+epoxy_glExtrapolateTex2DQCOM_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_QCOM_frame_extrapolation
+14702
+/
+*
+glExtrapolateTex2DQCOM
 *
 /
 )
@@ -271043,7 +273974,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-14509
+14725
 /
 *
 glFeedbackBuffer
@@ -271063,7 +273994,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-14526
+14742
 /
 *
 glFeedbackBufferxOES
@@ -271103,7 +274034,7 @@ entrypoints
 ]
 =
 {
-14547
+14763
 /
 *
 "
@@ -271111,7 +274042,7 @@ glFenceSync
 "
 *
 /
-14547
+14763
 /
 *
 "
@@ -271119,7 +274050,7 @@ glFenceSync
 "
 *
 /
-14547
+14763
 /
 *
 "
@@ -271127,7 +274058,7 @@ glFenceSync
 "
 *
 /
-14559
+14775
 /
 *
 "
@@ -271142,7 +274073,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14547
+14763
 /
 *
 "
@@ -271186,7 +274117,7 @@ entrypoints
 ]
 =
 {
-14559
+14775
 /
 *
 "
@@ -271194,7 +274125,7 @@ glFenceSyncAPPLE
 "
 *
 /
-14547
+14763
 /
 *
 "
@@ -271202,7 +274133,7 @@ glFenceSync
 "
 *
 /
-14547
+14763
 /
 *
 "
@@ -271210,7 +274141,7 @@ glFenceSync
 "
 *
 /
-14547
+14763
 /
 *
 "
@@ -271225,7 +274156,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14559
+14775
 /
 *
 "
@@ -271249,7 +274180,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-14576
+14792
 /
 *
 glFinalCombinerInputNV
@@ -271288,7 +274219,7 @@ entrypoints
 ]
 =
 {
-14599
+14815
 /
 *
 "
@@ -271296,7 +274227,7 @@ glFinish
 "
 *
 /
-14599
+14815
 /
 *
 "
@@ -271304,7 +274235,7 @@ glFinish
 "
 *
 /
-14599
+14815
 /
 *
 "
@@ -271319,7 +274250,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14599
+14815
 /
 *
 "
@@ -271343,7 +274274,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_async
-14608
+14824
 /
 *
 glFinishAsyncSGIX
@@ -271363,7 +274294,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_fence
-14626
+14842
 /
 *
 glFinishFenceAPPLE
@@ -271383,7 +274314,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fence
-14645
+14861
 /
 *
 glFinishFenceNV
@@ -271403,7 +274334,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_fence
-14661
+14877
 /
 *
 glFinishObjectAPPLE
@@ -271423,7 +274354,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUNX_constant_data
-14681
+14897
 /
 *
 glFinishTextureSUNX
@@ -271462,7 +274393,7 @@ entrypoints
 ]
 =
 {
-14701
+14917
 /
 *
 "
@@ -271470,7 +274401,7 @@ glFlush
 "
 *
 /
-14701
+14917
 /
 *
 "
@@ -271478,7 +274409,7 @@ glFlush
 "
 *
 /
-14701
+14917
 /
 *
 "
@@ -271493,7 +274424,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14701
+14917
 /
 *
 "
@@ -271538,7 +274469,7 @@ entrypoints
 ]
 =
 {
-14709
+14925
 /
 *
 "
@@ -271546,7 +274477,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14709
+14925
 /
 *
 "
@@ -271554,7 +274485,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14709
+14925
 /
 *
 "
@@ -271562,7 +274493,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14734
+14950
 /
 *
 "
@@ -271570,7 +274501,7 @@ glFlushMappedBufferRangeAPPLE
 "
 *
 /
-14764
+14980
 /
 *
 "
@@ -271585,7 +274516,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14709
+14925
 /
 *
 "
@@ -271630,7 +274561,7 @@ entrypoints
 ]
 =
 {
-14734
+14950
 /
 *
 "
@@ -271638,7 +274569,7 @@ glFlushMappedBufferRangeAPPLE
 "
 *
 /
-14709
+14925
 /
 *
 "
@@ -271646,7 +274577,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14709
+14925
 /
 *
 "
@@ -271654,7 +274585,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14709
+14925
 /
 *
 "
@@ -271662,7 +274593,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14764
+14980
 /
 *
 "
@@ -271677,7 +274608,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14734
+14950
 /
 *
 "
@@ -271722,7 +274653,7 @@ entrypoints
 ]
 =
 {
-14764
+14980
 /
 *
 "
@@ -271730,7 +274661,7 @@ glFlushMappedBufferRangeEXT
 "
 *
 /
-14709
+14925
 /
 *
 "
@@ -271738,7 +274669,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14709
+14925
 /
 *
 "
@@ -271746,7 +274677,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14709
+14925
 /
 *
 "
@@ -271754,7 +274685,7 @@ glFlushMappedBufferRange
 "
 *
 /
-14734
+14950
 /
 *
 "
@@ -271769,7 +274700,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14764
+14980
 /
 *
 "
@@ -271811,7 +274742,7 @@ entrypoints
 ]
 =
 {
-14792
+15008
 /
 *
 "
@@ -271819,7 +274750,7 @@ glFlushMappedNamedBufferRange
 "
 *
 /
-14792
+15008
 /
 *
 "
@@ -271834,7 +274765,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14792
+15008
 /
 *
 "
@@ -271858,7 +274789,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-14822
+15038
 /
 *
 glFlushMappedNamedBufferRangeEXT
@@ -271878,7 +274809,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_pixel_data_range
-14855
+15071
 /
 *
 glFlushPixelDataRangeNV
@@ -271898,7 +274829,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_flush_raster
-14879
+15095
 /
 *
 glFlushRasterSGIX
@@ -271918,7 +274849,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_static_data
-14897
+15113
 /
 *
 glFlushStaticDataIBM
@@ -271938,7 +274869,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_array_range
-14918
+15134
 /
 *
 glFlushVertexArrayRangeAPPLE
@@ -271958,7 +274889,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_array_range
-14947
+15163
 /
 *
 glFlushVertexArrayRangeNV
@@ -271978,7 +274909,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-14973
+15189
 /
 *
 glFogCoordFormatNV
@@ -272016,7 +274947,7 @@ entrypoints
 ]
 =
 {
-14992
+15208
 /
 *
 "
@@ -272024,7 +274955,7 @@ glFogCoordPointer
 "
 *
 /
-15010
+15226
 /
 *
 "
@@ -272039,7 +274970,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-14992
+15208
 /
 *
 "
@@ -272081,7 +275012,7 @@ entrypoints
 ]
 =
 {
-15010
+15226
 /
 *
 "
@@ -272089,7 +275020,7 @@ glFogCoordPointerEXT
 "
 *
 /
-14992
+15208
 /
 *
 "
@@ -272104,7 +275035,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15010
+15226
 /
 *
 "
@@ -272128,7 +275059,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_vertex_array_lists
-15031
+15247
 /
 *
 glFogCoordPointerListIBM
@@ -272166,7 +275097,7 @@ entrypoints
 ]
 =
 {
-15056
+15272
 /
 *
 "
@@ -272174,7 +275105,7 @@ glFogCoordd
 "
 *
 /
-15068
+15284
 /
 *
 "
@@ -272189,7 +275120,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15056
+15272
 /
 *
 "
@@ -272231,7 +275162,7 @@ entrypoints
 ]
 =
 {
-15068
+15284
 /
 *
 "
@@ -272239,7 +275170,7 @@ glFogCoorddEXT
 "
 *
 /
-15056
+15272
 /
 *
 "
@@ -272254,7 +275185,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15068
+15284
 /
 *
 "
@@ -272296,7 +275227,7 @@ entrypoints
 ]
 =
 {
-15083
+15299
 /
 *
 "
@@ -272304,7 +275235,7 @@ glFogCoorddv
 "
 *
 /
-15096
+15312
 /
 *
 "
@@ -272319,7 +275250,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15083
+15299
 /
 *
 "
@@ -272361,7 +275292,7 @@ entrypoints
 ]
 =
 {
-15096
+15312
 /
 *
 "
@@ -272369,7 +275300,7 @@ glFogCoorddvEXT
 "
 *
 /
-15083
+15299
 /
 *
 "
@@ -272384,7 +275315,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15096
+15312
 /
 *
 "
@@ -272426,7 +275357,7 @@ entrypoints
 ]
 =
 {
-15112
+15328
 /
 *
 "
@@ -272434,7 +275365,7 @@ glFogCoordf
 "
 *
 /
-15124
+15340
 /
 *
 "
@@ -272449,7 +275380,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15112
+15328
 /
 *
 "
@@ -272491,7 +275422,7 @@ entrypoints
 ]
 =
 {
-15124
+15340
 /
 *
 "
@@ -272499,7 +275430,7 @@ glFogCoordfEXT
 "
 *
 /
-15112
+15328
 /
 *
 "
@@ -272514,7 +275445,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15124
+15340
 /
 *
 "
@@ -272556,7 +275487,7 @@ entrypoints
 ]
 =
 {
-15139
+15355
 /
 *
 "
@@ -272564,7 +275495,7 @@ glFogCoordfv
 "
 *
 /
-15152
+15368
 /
 *
 "
@@ -272579,7 +275510,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15139
+15355
 /
 *
 "
@@ -272621,7 +275552,7 @@ entrypoints
 ]
 =
 {
-15152
+15368
 /
 *
 "
@@ -272629,7 +275560,7 @@ glFogCoordfvEXT
 "
 *
 /
-15139
+15355
 /
 *
 "
@@ -272644,7 +275575,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15152
+15368
 /
 *
 "
@@ -272668,7 +275599,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-15168
+15384
 /
 *
 glFogCoordhNV
@@ -272688,7 +275619,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-15182
+15398
 /
 *
 glFogCoordhvNV
@@ -272708,7 +275639,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_fog_function
-15197
+15413
 /
 *
 glFogFuncSGIS
@@ -272746,7 +275677,7 @@ entrypoints
 ]
 =
 {
-15211
+15427
 /
 *
 "
@@ -272754,7 +275685,7 @@ glFogf
 "
 *
 /
-15211
+15427
 /
 *
 "
@@ -272769,7 +275700,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15211
+15427
 /
 *
 "
@@ -272811,7 +275742,7 @@ entrypoints
 ]
 =
 {
-15218
+15434
 /
 *
 "
@@ -272819,7 +275750,7 @@ glFogfv
 "
 *
 /
-15218
+15434
 /
 *
 "
@@ -272834,7 +275765,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15218
+15434
 /
 *
 "
@@ -272858,7 +275789,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-15226
+15442
 /
 *
 glFogi
@@ -272878,7 +275809,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-15233
+15449
 /
 *
 glFogiv
@@ -272898,7 +275829,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-15241
+15457
 /
 *
 glFogx
@@ -272918,7 +275849,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-15248
+15464
 /
 *
 glFogxOES
@@ -272938,7 +275869,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-15258
+15474
 /
 *
 glFogxv
@@ -272958,7 +275889,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-15266
+15482
 /
 *
 glFogxvOES
@@ -272978,7 +275909,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15277
+15493
 /
 *
 glFragmentColorMaterialSGIX
@@ -272998,7 +275929,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fragment_coverage_to_color
-15305
+15521
 /
 *
 glFragmentCoverageColorNV
@@ -273018,7 +275949,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15331
+15547
 /
 *
 glFragmentLightModelfSGIX
@@ -273038,7 +275969,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15357
+15573
 /
 *
 glFragmentLightModelfvSGIX
@@ -273058,7 +275989,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15384
+15600
 /
 *
 glFragmentLightModeliSGIX
@@ -273078,7 +276009,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15410
+15626
 /
 *
 glFragmentLightModelivSGIX
@@ -273098,7 +276029,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15437
+15653
 /
 *
 glFragmentLightfSGIX
@@ -273118,7 +276049,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15458
+15674
 /
 *
 glFragmentLightfvSGIX
@@ -273138,7 +276069,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15480
+15696
 /
 *
 glFragmentLightiSGIX
@@ -273158,7 +276089,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15501
+15717
 /
 *
 glFragmentLightivSGIX
@@ -273178,7 +276109,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15523
+15739
 /
 *
 glFragmentMaterialfSGIX
@@ -273198,7 +276129,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15547
+15763
 /
 *
 glFragmentMaterialfvSGIX
@@ -273218,7 +276149,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15572
+15788
 /
 *
 glFragmentMaterialiSGIX
@@ -273238,7 +276169,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-15596
+15812
 /
 *
 glFragmentMaterialivSGIX
@@ -273258,7 +276189,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_GREMEDY_frame_terminator
-15621
+15837
 /
 *
 glFrameTerminatorGREMEDY
@@ -273278,7 +276209,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_framezoom
-15646
+15862
 /
 *
 glFrameZoomSGIX
@@ -273298,7 +276229,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-15662
+15878
 /
 *
 glFramebufferDrawBufferEXT
@@ -273318,7 +276249,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-15689
+15905
 /
 *
 glFramebufferDrawBuffersEXT
@@ -273338,7 +276269,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_shader_framebuffer_fetch_non_coherent
-15717
+15933
 /
 *
 glFramebufferFetchBarrierEXT
@@ -273358,7 +276289,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_shader_framebuffer_fetch_noncoherent
-15746
+15962
 /
 *
 glFramebufferFetchBarrierQCOM
@@ -273378,7 +276309,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_framebuffer_foveated
-15776
+15992
 /
 *
 glFramebufferFoveationConfigQCOM
@@ -273398,7 +276329,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_framebuffer_foveated
-15809
+16025
 /
 *
 glFramebufferFoveationParametersQCOM
@@ -273437,7 +276368,7 @@ entrypoints
 ]
 =
 {
-15846
+16062
 /
 *
 "
@@ -273445,7 +276376,7 @@ glFramebufferParameteri
 "
 *
 /
-15846
+16062
 /
 *
 "
@@ -273453,7 +276384,7 @@ glFramebufferParameteri
 "
 *
 /
-15846
+16062
 /
 *
 "
@@ -273468,7 +276399,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15846
+16062
 /
 *
 "
@@ -273492,7 +276423,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_framebuffer_flip_y
-15870
+16086
 /
 *
 glFramebufferParameteriMESA
@@ -273512,7 +276443,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_shader_pixel_local_storage2
-15898
+16114
 /
 *
 glFramebufferPixelLocalStorageSizeEXT
@@ -273532,7 +276463,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-15936
+16152
 /
 *
 glFramebufferReadBufferEXT
@@ -273572,7 +276503,7 @@ entrypoints
 ]
 =
 {
-15963
+16179
 /
 *
 "
@@ -273580,7 +276511,7 @@ glFramebufferRenderbuffer
 "
 *
 /
-15963
+16179
 /
 *
 "
@@ -273588,7 +276519,7 @@ glFramebufferRenderbuffer
 "
 *
 /
-15963
+16179
 /
 *
 "
@@ -273596,7 +276527,7 @@ glFramebufferRenderbuffer
 "
 *
 /
-15989
+16205
 /
 *
 "
@@ -273611,7 +276542,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15963
+16179
 /
 *
 "
@@ -273655,7 +276586,7 @@ entrypoints
 ]
 =
 {
-15989
+16205
 /
 *
 "
@@ -273663,7 +276594,7 @@ glFramebufferRenderbufferEXT
 "
 *
 /
-15963
+16179
 /
 *
 "
@@ -273671,7 +276602,7 @@ glFramebufferRenderbuffer
 "
 *
 /
-15963
+16179
 /
 *
 "
@@ -273679,7 +276610,7 @@ glFramebufferRenderbuffer
 "
 *
 /
-15963
+16179
 /
 *
 "
@@ -273694,7 +276625,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-15989
+16205
 /
 *
 "
@@ -273718,7 +276649,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-16018
+16234
 /
 *
 glFramebufferRenderbufferOES
@@ -273738,7 +276669,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_sample_locations
-16047
+16263
 /
 *
 glFramebufferSampleLocationsfvARB
@@ -273758,7 +276689,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_sample_locations
-16081
+16297
 /
 *
 glFramebufferSampleLocationsfvNV
@@ -273778,10 +276709,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_framebuffer_sample_positions
-16114
+16330
 /
 *
 glFramebufferSamplePositionsfvAMD
+*
+/
+)
+;
+}
+static
+PFNGLFRAMEBUFFERSHADINGRATEEXTPROC
+epoxy_glFramebufferShadingRateEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_fragment_shading_rate
+16364
+/
+*
+glFramebufferShadingRateEXT
 *
 /
 )
@@ -273820,7 +276771,7 @@ entrypoints
 ]
 =
 {
-16148
+16392
 /
 *
 "
@@ -273828,7 +276779,7 @@ glFramebufferTexture
 "
 *
 /
-16148
+16392
 /
 *
 "
@@ -273836,7 +276787,7 @@ glFramebufferTexture
 "
 *
 /
-16478
+16722
 /
 *
 "
@@ -273844,7 +276795,7 @@ glFramebufferTextureARB
 "
 *
 /
-16502
+16746
 /
 *
 "
@@ -273852,7 +276803,7 @@ glFramebufferTextureEXT
 "
 *
 /
-16502
+16746
 /
 *
 "
@@ -273860,7 +276811,7 @@ glFramebufferTextureEXT
 "
 *
 /
-16782
+17026
 /
 *
 "
@@ -273875,7 +276826,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16148
+16392
 /
 *
 "
@@ -273918,7 +276869,7 @@ entrypoints
 ]
 =
 {
-16169
+16413
 /
 *
 "
@@ -273926,7 +276877,7 @@ glFramebufferTexture1D
 "
 *
 /
-16169
+16413
 /
 *
 "
@@ -273934,7 +276885,7 @@ glFramebufferTexture1D
 "
 *
 /
-16192
+16436
 /
 *
 "
@@ -273949,7 +276900,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16169
+16413
 /
 *
 "
@@ -273992,7 +276943,7 @@ entrypoints
 ]
 =
 {
-16192
+16436
 /
 *
 "
@@ -274000,7 +276951,7 @@ glFramebufferTexture1DEXT
 "
 *
 /
-16169
+16413
 /
 *
 "
@@ -274008,7 +276959,7 @@ glFramebufferTexture1D
 "
 *
 /
-16169
+16413
 /
 *
 "
@@ -274023,7 +276974,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16192
+16436
 /
 *
 "
@@ -274067,7 +277018,7 @@ entrypoints
 ]
 =
 {
-16218
+16462
 /
 *
 "
@@ -274075,7 +277026,7 @@ glFramebufferTexture2D
 "
 *
 /
-16218
+16462
 /
 *
 "
@@ -274083,7 +277034,7 @@ glFramebufferTexture2D
 "
 *
 /
-16218
+16462
 /
 *
 "
@@ -274091,7 +277042,7 @@ glFramebufferTexture2D
 "
 *
 /
-16277
+16521
 /
 *
 "
@@ -274106,7 +277057,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16218
+16462
 /
 *
 "
@@ -274130,7 +277081,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IMG_framebuffer_downsample
-16241
+16485
 /
 *
 glFramebufferTexture2DDownsampleIMG
@@ -274170,7 +277121,7 @@ entrypoints
 ]
 =
 {
-16277
+16521
 /
 *
 "
@@ -274178,7 +277129,7 @@ glFramebufferTexture2DEXT
 "
 *
 /
-16218
+16462
 /
 *
 "
@@ -274186,7 +277137,7 @@ glFramebufferTexture2D
 "
 *
 /
-16218
+16462
 /
 *
 "
@@ -274194,7 +277145,7 @@ glFramebufferTexture2D
 "
 *
 /
-16218
+16462
 /
 *
 "
@@ -274209,7 +277160,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16277
+16521
 /
 *
 "
@@ -274233,7 +277184,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_multisampled_render_to_texture
-16303
+16547
 /
 *
 glFramebufferTexture2DMultisampleEXT
@@ -274253,7 +277204,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IMG_multisampled_render_to_texture
-16340
+16584
 /
 *
 glFramebufferTexture2DMultisampleIMG
@@ -274273,7 +277224,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-16377
+16621
 /
 *
 glFramebufferTexture2DOES
@@ -274312,7 +277263,7 @@ entrypoints
 ]
 =
 {
-16403
+16647
 /
 *
 "
@@ -274320,7 +277271,7 @@ glFramebufferTexture3D
 "
 *
 /
-16403
+16647
 /
 *
 "
@@ -274328,7 +277279,7 @@ glFramebufferTexture3D
 "
 *
 /
-16426
+16670
 /
 *
 "
@@ -274343,7 +277294,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16403
+16647
 /
 *
 "
@@ -274386,7 +277337,7 @@ entrypoints
 ]
 =
 {
-16426
+16670
 /
 *
 "
@@ -274394,7 +277345,7 @@ glFramebufferTexture3DEXT
 "
 *
 /
-16403
+16647
 /
 *
 "
@@ -274402,7 +277353,7 @@ glFramebufferTexture3D
 "
 *
 /
-16403
+16647
 /
 *
 "
@@ -274417,7 +277368,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16426
+16670
 /
 *
 "
@@ -274441,7 +277392,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_3D
-16452
+16696
 /
 *
 glFramebufferTexture3DOES
@@ -274483,7 +277434,7 @@ entrypoints
 ]
 =
 {
-16478
+16722
 /
 *
 "
@@ -274491,7 +277442,7 @@ glFramebufferTextureARB
 "
 *
 /
-16148
+16392
 /
 *
 "
@@ -274499,7 +277450,7 @@ glFramebufferTexture
 "
 *
 /
-16148
+16392
 /
 *
 "
@@ -274507,7 +277458,7 @@ glFramebufferTexture
 "
 *
 /
-16502
+16746
 /
 *
 "
@@ -274515,7 +277466,7 @@ glFramebufferTextureEXT
 "
 *
 /
-16502
+16746
 /
 *
 "
@@ -274523,7 +277474,7 @@ glFramebufferTextureEXT
 "
 *
 /
-16782
+17026
 /
 *
 "
@@ -274538,7 +277489,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16478
+16722
 /
 *
 "
@@ -274584,7 +277535,7 @@ entrypoints
 ]
 =
 {
-16502
+16746
 /
 *
 "
@@ -274592,7 +277543,7 @@ glFramebufferTextureEXT
 "
 *
 /
-16502
+16746
 /
 *
 "
@@ -274600,7 +277551,7 @@ glFramebufferTextureEXT
 "
 *
 /
-16148
+16392
 /
 *
 "
@@ -274608,7 +277559,7 @@ glFramebufferTexture
 "
 *
 /
-16148
+16392
 /
 *
 "
@@ -274616,7 +277567,7 @@ glFramebufferTexture
 "
 *
 /
-16478
+16722
 /
 *
 "
@@ -274624,7 +277575,7 @@ glFramebufferTextureARB
 "
 *
 /
-16782
+17026
 /
 *
 "
@@ -274639,7 +277590,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16502
+16746
 /
 *
 "
@@ -274681,7 +277632,7 @@ entrypoints
 ]
 =
 {
-16526
+16770
 /
 *
 "
@@ -274689,7 +277640,7 @@ glFramebufferTextureFaceARB
 "
 *
 /
-16554
+16798
 /
 *
 "
@@ -274704,7 +277655,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16526
+16770
 /
 *
 "
@@ -274746,7 +277697,7 @@ entrypoints
 ]
 =
 {
-16554
+16798
 /
 *
 "
@@ -274754,7 +277705,7 @@ glFramebufferTextureFaceEXT
 "
 *
 /
-16526
+16770
 /
 *
 "
@@ -274769,7 +277720,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16554
+16798
 /
 *
 "
@@ -274815,7 +277766,7 @@ entrypoints
 ]
 =
 {
-16582
+16826
 /
 *
 "
@@ -274823,7 +277774,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16582
+16826
 /
 *
 "
@@ -274831,7 +277782,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16582
+16826
 /
 *
 "
@@ -274839,7 +277790,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16608
+16852
 /
 *
 "
@@ -274847,7 +277798,7 @@ glFramebufferTextureLayerARB
 "
 *
 /
-16676
+16920
 /
 *
 "
@@ -274855,7 +277806,7 @@ glFramebufferTextureLayerEXT
 "
 *
 /
-16676
+16920
 /
 *
 "
@@ -274870,7 +277821,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16582
+16826
 /
 *
 "
@@ -274916,7 +277867,7 @@ entrypoints
 ]
 =
 {
-16608
+16852
 /
 *
 "
@@ -274924,7 +277875,7 @@ glFramebufferTextureLayerARB
 "
 *
 /
-16582
+16826
 /
 *
 "
@@ -274932,7 +277883,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16582
+16826
 /
 *
 "
@@ -274940,7 +277891,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16582
+16826
 /
 *
 "
@@ -274948,7 +277899,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16676
+16920
 /
 *
 "
@@ -274956,7 +277907,7 @@ glFramebufferTextureLayerEXT
 "
 *
 /
-16676
+16920
 /
 *
 "
@@ -274971,7 +277922,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16608
+16852
 /
 *
 "
@@ -274995,7 +277946,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IMG_framebuffer_downsample
-16637
+16881
 /
 *
 glFramebufferTextureLayerDownsampleIMG
@@ -275037,7 +277988,7 @@ entrypoints
 ]
 =
 {
-16676
+16920
 /
 *
 "
@@ -275045,7 +277996,7 @@ glFramebufferTextureLayerEXT
 "
 *
 /
-16676
+16920
 /
 *
 "
@@ -275053,7 +278004,7 @@ glFramebufferTextureLayerEXT
 "
 *
 /
-16582
+16826
 /
 *
 "
@@ -275061,7 +278012,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16582
+16826
 /
 *
 "
@@ -275069,7 +278020,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16582
+16826
 /
 *
 "
@@ -275077,7 +278028,7 @@ glFramebufferTextureLayer
 "
 *
 /
-16608
+16852
 /
 *
 "
@@ -275092,7 +278043,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16676
+16920
 /
 *
 "
@@ -275116,7 +278067,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OVR_multiview_multisampled_render_to_texture
-16705
+16949
 /
 *
 glFramebufferTextureMultisampleMultiviewOVR
@@ -275136,7 +278087,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OVR_multiview
-16749
+16993
 /
 *
 glFramebufferTextureMultiviewOVR
@@ -275178,7 +278129,7 @@ entrypoints
 ]
 =
 {
-16782
+17026
 /
 *
 "
@@ -275186,7 +278137,7 @@ glFramebufferTextureOES
 "
 *
 /
-16148
+16392
 /
 *
 "
@@ -275194,7 +278145,7 @@ glFramebufferTexture
 "
 *
 /
-16148
+16392
 /
 *
 "
@@ -275202,7 +278153,7 @@ glFramebufferTexture
 "
 *
 /
-16478
+16722
 /
 *
 "
@@ -275210,7 +278161,7 @@ glFramebufferTextureARB
 "
 *
 /
-16502
+16746
 /
 *
 "
@@ -275218,7 +278169,7 @@ glFramebufferTextureEXT
 "
 *
 /
-16502
+16746
 /
 *
 "
@@ -275233,7 +278184,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16782
+17026
 /
 *
 "
@@ -275257,7 +278208,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-16806
+17050
 /
 *
 glFreeObjectBufferATI
@@ -275296,7 +278247,7 @@ entrypoints
 ]
 =
 {
-16828
+17072
 /
 *
 "
@@ -275304,7 +278255,7 @@ glFrontFace
 "
 *
 /
-16828
+17072
 /
 *
 "
@@ -275312,7 +278263,7 @@ glFrontFace
 "
 *
 /
-16828
+17072
 /
 *
 "
@@ -275327,7 +278278,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16828
+17072
 /
 *
 "
@@ -275351,7 +278302,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-16840
+17084
 /
 *
 glFrustum
@@ -275371,7 +278322,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-16850
+17094
 /
 *
 glFrustumf
@@ -275391,7 +278342,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_single_precision
-16861
+17105
 /
 *
 glFrustumfOES
@@ -275411,7 +278362,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-16875
+17119
 /
 *
 glFrustumx
@@ -275431,7 +278382,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-16886
+17130
 /
 *
 glFrustumxOES
@@ -275451,7 +278402,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_async
-16900
+17144
 /
 *
 glGenAsyncMarkersSGIX
@@ -275491,7 +278442,7 @@ entrypoints
 ]
 =
 {
-16922
+17166
 /
 *
 "
@@ -275499,7 +278450,7 @@ glGenBuffers
 "
 *
 /
-16922
+17166
 /
 *
 "
@@ -275507,7 +278458,7 @@ glGenBuffers
 "
 *
 /
-16922
+17166
 /
 *
 "
@@ -275515,7 +278466,7 @@ glGenBuffers
 "
 *
 /
-16935
+17179
 /
 *
 "
@@ -275530,7 +278481,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16922
+17166
 /
 *
 "
@@ -275574,7 +278525,7 @@ entrypoints
 ]
 =
 {
-16935
+17179
 /
 *
 "
@@ -275582,7 +278533,7 @@ glGenBuffersARB
 "
 *
 /
-16922
+17166
 /
 *
 "
@@ -275590,7 +278541,7 @@ glGenBuffers
 "
 *
 /
-16922
+17166
 /
 *
 "
@@ -275598,7 +278549,7 @@ glGenBuffers
 "
 *
 /
-16922
+17166
 /
 *
 "
@@ -275613,7 +278564,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-16935
+17179
 /
 *
 "
@@ -275637,7 +278588,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_fence
-16951
+17195
 /
 *
 glGenFencesAPPLE
@@ -275657,7 +278608,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fence
-16968
+17212
 /
 *
 glGenFencesNV
@@ -275677,7 +278628,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-16982
+17226
 /
 *
 glGenFragmentShadersATI
@@ -275717,7 +278668,7 @@ entrypoints
 ]
 =
 {
-17006
+17250
 /
 *
 "
@@ -275725,7 +278676,7 @@ glGenFramebuffers
 "
 *
 /
-17006
+17250
 /
 *
 "
@@ -275733,7 +278684,7 @@ glGenFramebuffers
 "
 *
 /
-17006
+17250
 /
 *
 "
@@ -275741,7 +278692,7 @@ glGenFramebuffers
 "
 *
 /
-17024
+17268
 /
 *
 "
@@ -275756,7 +278707,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17006
+17250
 /
 *
 "
@@ -275800,7 +278751,7 @@ entrypoints
 ]
 =
 {
-17024
+17268
 /
 *
 "
@@ -275808,7 +278759,7 @@ glGenFramebuffersEXT
 "
 *
 /
-17006
+17250
 /
 *
 "
@@ -275816,7 +278767,7 @@ glGenFramebuffers
 "
 *
 /
-17006
+17250
 /
 *
 "
@@ -275824,7 +278775,7 @@ glGenFramebuffers
 "
 *
 /
-17006
+17250
 /
 *
 "
@@ -275839,7 +278790,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17024
+17268
 /
 *
 "
@@ -275863,7 +278814,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-17045
+17289
 /
 *
 glGenFramebuffersOES
@@ -275883,7 +278834,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-17066
+17310
 /
 *
 glGenLists
@@ -275903,7 +278854,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_name_gen_delete
-17077
+17321
 /
 *
 glGenNamesAMD
@@ -275923,7 +278874,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_occlusion_query
-17091
+17335
 /
 *
 glGenOcclusionQueriesNV
@@ -275943,7 +278894,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-17115
+17359
 /
 *
 glGenPathsNV
@@ -275963,7 +278914,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-17128
+17372
 /
 *
 glGenPerfMonitorsAMD
@@ -276002,7 +278953,7 @@ entrypoints
 ]
 =
 {
-17149
+17393
 /
 *
 "
@@ -276010,7 +278961,7 @@ glGenProgramPipelines
 "
 *
 /
-17149
+17393
 /
 *
 "
@@ -276018,7 +278969,7 @@ glGenProgramPipelines
 "
 *
 /
-17149
+17393
 /
 *
 "
@@ -276033,7 +278984,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17149
+17393
 /
 *
 "
@@ -276057,7 +279008,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-17171
+17415
 /
 *
 glGenProgramPipelinesEXT
@@ -276096,7 +279047,7 @@ entrypoints
 ]
 =
 {
-17196
+17440
 /
 *
 "
@@ -276104,7 +279055,7 @@ glGenProgramsARB
 "
 *
 /
-17196
+17440
 /
 *
 "
@@ -276112,7 +279063,7 @@ glGenProgramsARB
 "
 *
 /
-17213
+17457
 /
 *
 "
@@ -276127,7 +279078,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17196
+17440
 /
 *
 "
@@ -276170,7 +279121,7 @@ entrypoints
 ]
 =
 {
-17213
+17457
 /
 *
 "
@@ -276178,7 +279129,7 @@ glGenProgramsNV
 "
 *
 /
-17196
+17440
 /
 *
 "
@@ -276186,7 +279137,7 @@ glGenProgramsARB
 "
 *
 /
-17196
+17440
 /
 *
 "
@@ -276201,7 +279152,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17213
+17457
 /
 *
 "
@@ -276244,7 +279195,7 @@ entrypoints
 ]
 =
 {
-17229
+17473
 /
 *
 "
@@ -276252,7 +279203,7 @@ glGenQueries
 "
 *
 /
-17229
+17473
 /
 *
 "
@@ -276260,7 +279211,7 @@ glGenQueries
 "
 *
 /
-17242
+17486
 /
 *
 "
@@ -276275,7 +279226,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17229
+17473
 /
 *
 "
@@ -276318,7 +279269,7 @@ entrypoints
 ]
 =
 {
-17242
+17486
 /
 *
 "
@@ -276326,7 +279277,7 @@ glGenQueriesARB
 "
 *
 /
-17229
+17473
 /
 *
 "
@@ -276334,7 +279285,7 @@ glGenQueries
 "
 *
 /
-17229
+17473
 /
 *
 "
@@ -276349,7 +279300,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17242
+17486
 /
 *
 "
@@ -276391,7 +279342,7 @@ entrypoints
 ]
 =
 {
-17258
+17502
 /
 *
 "
@@ -276399,7 +279350,7 @@ glGenQueriesEXT
 "
 *
 /
-17258
+17502
 /
 *
 "
@@ -276414,7 +279365,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17258
+17502
 /
 *
 "
@@ -276438,7 +279389,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_query_resource_tag
-17274
+17518
 /
 *
 glGenQueryResourceTagNV
@@ -276478,7 +279429,7 @@ entrypoints
 ]
 =
 {
-17298
+17542
 /
 *
 "
@@ -276486,7 +279437,7 @@ glGenRenderbuffers
 "
 *
 /
-17298
+17542
 /
 *
 "
@@ -276494,7 +279445,7 @@ glGenRenderbuffers
 "
 *
 /
-17298
+17542
 /
 *
 "
@@ -276502,7 +279453,7 @@ glGenRenderbuffers
 "
 *
 /
-17317
+17561
 /
 *
 "
@@ -276517,7 +279468,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17298
+17542
 /
 *
 "
@@ -276561,7 +279512,7 @@ entrypoints
 ]
 =
 {
-17317
+17561
 /
 *
 "
@@ -276569,7 +279520,7 @@ glGenRenderbuffersEXT
 "
 *
 /
-17298
+17542
 /
 *
 "
@@ -276577,7 +279528,7 @@ glGenRenderbuffers
 "
 *
 /
-17298
+17542
 /
 *
 "
@@ -276585,7 +279536,7 @@ glGenRenderbuffers
 "
 *
 /
-17298
+17542
 /
 *
 "
@@ -276600,7 +279551,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17317
+17561
 /
 *
 "
@@ -276624,7 +279575,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-17339
+17583
 /
 *
 glGenRenderbuffersOES
@@ -276651,6 +279602,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -276663,7 +279615,7 @@ entrypoints
 ]
 =
 {
-17361
+17605
 /
 *
 "
@@ -276671,7 +279623,7 @@ glGenSamplers
 "
 *
 /
-17361
+17605
 /
 *
 "
@@ -276679,7 +279631,15 @@ glGenSamplers
 "
 *
 /
-17361
+17605
+/
+*
+"
+glGenSamplers
+"
+*
+/
+17605
 /
 *
 "
@@ -276694,7 +279654,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17361
+17605
 /
 *
 "
@@ -276718,7 +279678,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore
-17375
+17619
 /
 *
 glGenSemaphoresEXT
@@ -276738,7 +279698,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-17394
+17638
 /
 *
 glGenSymbolsEXT
@@ -276777,7 +279737,7 @@ entrypoints
 ]
 =
 {
-17410
+17654
 /
 *
 "
@@ -276785,7 +279745,7 @@ glGenTextures
 "
 *
 /
-17410
+17654
 /
 *
 "
@@ -276793,7 +279753,7 @@ glGenTextures
 "
 *
 /
-17410
+17654
 /
 *
 "
@@ -276808,7 +279768,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17410
+17654
 /
 *
 "
@@ -276832,7 +279792,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_texture_object
-17424
+17668
 /
 *
 glGenTexturesEXT
@@ -276872,7 +279832,7 @@ entrypoints
 ]
 =
 {
-17441
+17685
 /
 *
 "
@@ -276880,7 +279840,7 @@ glGenTransformFeedbacks
 "
 *
 /
-17441
+17685
 /
 *
 "
@@ -276888,7 +279848,7 @@ glGenTransformFeedbacks
 "
 *
 /
-17441
+17685
 /
 *
 "
@@ -276896,7 +279856,7 @@ glGenTransformFeedbacks
 "
 *
 /
-17465
+17709
 /
 *
 "
@@ -276911,7 +279871,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17441
+17685
 /
 *
 "
@@ -276955,7 +279915,7 @@ entrypoints
 ]
 =
 {
-17465
+17709
 /
 *
 "
@@ -276963,7 +279923,7 @@ glGenTransformFeedbacksNV
 "
 *
 /
-17441
+17685
 /
 *
 "
@@ -276971,7 +279931,7 @@ glGenTransformFeedbacks
 "
 *
 /
-17441
+17685
 /
 *
 "
@@ -276979,7 +279939,7 @@ glGenTransformFeedbacks
 "
 *
 /
-17441
+17685
 /
 *
 "
@@ -276994,7 +279954,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17465
+17709
 /
 *
 "
@@ -277039,7 +279999,7 @@ entrypoints
 ]
 =
 {
-17491
+17735
 /
 *
 "
@@ -277047,7 +280007,7 @@ glGenVertexArrays
 "
 *
 /
-17491
+17735
 /
 *
 "
@@ -277055,7 +280015,7 @@ glGenVertexArrays
 "
 *
 /
-17491
+17735
 /
 *
 "
@@ -277063,7 +280023,7 @@ glGenVertexArrays
 "
 *
 /
-17509
+17753
 /
 *
 "
@@ -277071,7 +280031,7 @@ glGenVertexArraysAPPLE
 "
 *
 /
-17532
+17776
 /
 *
 "
@@ -277086,7 +280046,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17491
+17735
 /
 *
 "
@@ -277131,7 +280091,7 @@ entrypoints
 ]
 =
 {
-17509
+17753
 /
 *
 "
@@ -277139,7 +280099,7 @@ glGenVertexArraysAPPLE
 "
 *
 /
-17491
+17735
 /
 *
 "
@@ -277147,7 +280107,7 @@ glGenVertexArrays
 "
 *
 /
-17491
+17735
 /
 *
 "
@@ -277155,7 +280115,7 @@ glGenVertexArrays
 "
 *
 /
-17491
+17735
 /
 *
 "
@@ -277163,7 +280123,7 @@ glGenVertexArrays
 "
 *
 /
-17532
+17776
 /
 *
 "
@@ -277178,7 +280138,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17509
+17753
 /
 *
 "
@@ -277223,7 +280183,7 @@ entrypoints
 ]
 =
 {
-17532
+17776
 /
 *
 "
@@ -277231,7 +280191,7 @@ glGenVertexArraysOES
 "
 *
 /
-17491
+17735
 /
 *
 "
@@ -277239,7 +280199,7 @@ glGenVertexArrays
 "
 *
 /
-17491
+17735
 /
 *
 "
@@ -277247,7 +280207,7 @@ glGenVertexArrays
 "
 *
 /
-17491
+17735
 /
 *
 "
@@ -277255,7 +280215,7 @@ glGenVertexArrays
 "
 *
 /
-17509
+17753
 /
 *
 "
@@ -277270,7 +280230,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17532
+17776
 /
 *
 "
@@ -277294,7 +280254,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-17553
+17797
 /
 *
 glGenVertexShadersEXT
@@ -277334,7 +280294,7 @@ entrypoints
 ]
 =
 {
-17575
+17819
 /
 *
 "
@@ -277342,7 +280302,7 @@ glGenerateMipmap
 "
 *
 /
-17575
+17819
 /
 *
 "
@@ -277350,7 +280310,7 @@ glGenerateMipmap
 "
 *
 /
-17575
+17819
 /
 *
 "
@@ -277358,7 +280318,7 @@ glGenerateMipmap
 "
 *
 /
-17592
+17836
 /
 *
 "
@@ -277373,7 +280333,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17575
+17819
 /
 *
 "
@@ -277417,7 +280377,7 @@ entrypoints
 ]
 =
 {
-17592
+17836
 /
 *
 "
@@ -277425,7 +280385,7 @@ glGenerateMipmapEXT
 "
 *
 /
-17575
+17819
 /
 *
 "
@@ -277433,7 +280393,7 @@ glGenerateMipmap
 "
 *
 /
-17575
+17819
 /
 *
 "
@@ -277441,7 +280401,7 @@ glGenerateMipmap
 "
 *
 /
-17575
+17819
 /
 *
 "
@@ -277456,7 +280416,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17592
+17836
 /
 *
 "
@@ -277480,7 +280440,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-17612
+17856
 /
 *
 glGenerateMipmapOES
@@ -277500,7 +280460,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-17632
+17876
 /
 *
 glGenerateMultiTexMipmapEXT
@@ -277538,7 +280498,7 @@ entrypoints
 ]
 =
 {
-17660
+17904
 /
 *
 "
@@ -277546,7 +280506,7 @@ glGenerateTextureMipmap
 "
 *
 /
-17660
+17904
 /
 *
 "
@@ -277561,7 +280521,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17660
+17904
 /
 *
 "
@@ -277585,7 +280545,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-17684
+17928
 /
 *
 glGenerateTextureMipmapEXT
@@ -277623,7 +280583,7 @@ entrypoints
 ]
 =
 {
-17711
+17955
 /
 *
 "
@@ -277631,7 +280591,7 @@ glGetActiveAtomicCounterBufferiv
 "
 *
 /
-17711
+17955
 /
 *
 "
@@ -277646,7 +280606,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17711
+17955
 /
 *
 "
@@ -277689,7 +280649,7 @@ entrypoints
 ]
 =
 {
-17744
+17988
 /
 *
 "
@@ -277697,7 +280657,7 @@ glGetActiveAttrib
 "
 *
 /
-17744
+17988
 /
 *
 "
@@ -277705,7 +280665,7 @@ glGetActiveAttrib
 "
 *
 /
-17762
+18006
 /
 *
 "
@@ -277720,7 +280680,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17744
+17988
 /
 *
 "
@@ -277763,7 +280723,7 @@ entrypoints
 ]
 =
 {
-17762
+18006
 /
 *
 "
@@ -277771,7 +280731,7 @@ glGetActiveAttribARB
 "
 *
 /
-17744
+17988
 /
 *
 "
@@ -277779,7 +280739,7 @@ glGetActiveAttrib
 "
 *
 /
-17744
+17988
 /
 *
 "
@@ -277794,7 +280754,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17762
+18006
 /
 *
 "
@@ -277836,7 +280796,7 @@ entrypoints
 ]
 =
 {
-17783
+18027
 /
 *
 "
@@ -277844,7 +280804,7 @@ glGetActiveSubroutineName
 "
 *
 /
-17783
+18027
 /
 *
 "
@@ -277859,7 +280819,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17783
+18027
 /
 *
 "
@@ -277901,7 +280861,7 @@ entrypoints
 ]
 =
 {
-17809
+18053
 /
 *
 "
@@ -277909,7 +280869,7 @@ glGetActiveSubroutineUniformName
 "
 *
 /
-17809
+18053
 /
 *
 "
@@ -277924,7 +280884,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17809
+18053
 /
 *
 "
@@ -277966,7 +280926,7 @@ entrypoints
 ]
 =
 {
-17842
+18086
 /
 *
 "
@@ -277974,7 +280934,7 @@ glGetActiveSubroutineUniformiv
 "
 *
 /
-17842
+18086
 /
 *
 "
@@ -277989,7 +280949,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17842
+18086
 /
 *
 "
@@ -278032,7 +280992,7 @@ entrypoints
 ]
 =
 {
-17873
+18117
 /
 *
 "
@@ -278040,7 +281000,7 @@ glGetActiveUniform
 "
 *
 /
-17873
+18117
 /
 *
 "
@@ -278048,7 +281008,7 @@ glGetActiveUniform
 "
 *
 /
-17892
+18136
 /
 *
 "
@@ -278063,7 +281023,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17873
+18117
 /
 *
 "
@@ -278106,7 +281066,7 @@ entrypoints
 ]
 =
 {
-17892
+18136
 /
 *
 "
@@ -278114,7 +281074,7 @@ glGetActiveUniformARB
 "
 *
 /
-17873
+18117
 /
 *
 "
@@ -278122,7 +281082,7 @@ glGetActiveUniform
 "
 *
 /
-17873
+18117
 /
 *
 "
@@ -278137,7 +281097,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17892
+18136
 /
 *
 "
@@ -278180,7 +281140,7 @@ entrypoints
 ]
 =
 {
-17914
+18158
 /
 *
 "
@@ -278188,7 +281148,7 @@ glGetActiveUniformBlockName
 "
 *
 /
-17914
+18158
 /
 *
 "
@@ -278196,7 +281156,7 @@ glGetActiveUniformBlockName
 "
 *
 /
-17914
+18158
 /
 *
 "
@@ -278211,7 +281171,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17914
+18158
 /
 *
 "
@@ -278254,7 +281214,7 @@ entrypoints
 ]
 =
 {
-17942
+18186
 /
 *
 "
@@ -278262,7 +281222,7 @@ glGetActiveUniformBlockiv
 "
 *
 /
-17942
+18186
 /
 *
 "
@@ -278270,7 +281230,7 @@ glGetActiveUniformBlockiv
 "
 *
 /
-17942
+18186
 /
 *
 "
@@ -278285,7 +281245,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17942
+18186
 /
 *
 "
@@ -278327,7 +281287,7 @@ entrypoints
 ]
 =
 {
-17968
+18212
 /
 *
 "
@@ -278335,7 +281295,7 @@ glGetActiveUniformName
 "
 *
 /
-17968
+18212
 /
 *
 "
@@ -278350,7 +281310,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17968
+18212
 /
 *
 "
@@ -278393,7 +281353,7 @@ entrypoints
 ]
 =
 {
-17991
+18235
 /
 *
 "
@@ -278401,7 +281361,7 @@ glGetActiveUniformsiv
 "
 *
 /
-17991
+18235
 /
 *
 "
@@ -278409,7 +281369,7 @@ glGetActiveUniformsiv
 "
 *
 /
-17991
+18235
 /
 *
 "
@@ -278424,7 +281384,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-17991
+18235
 /
 *
 "
@@ -278448,7 +281408,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_transform_feedback
-18013
+18257
 /
 *
 glGetActiveVaryingNV
@@ -278468,7 +281428,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-18034
+18278
 /
 *
 glGetArrayObjectfvATI
@@ -278488,7 +281448,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-18056
+18300
 /
 *
 glGetArrayObjectivATI
@@ -278508,7 +281468,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shader_objects
-18078
+18322
 /
 *
 glGetAttachedObjectsARB
@@ -278546,7 +281506,7 @@ entrypoints
 ]
 =
 {
-18102
+18346
 /
 *
 "
@@ -278554,7 +281514,7 @@ glGetAttachedShaders
 "
 *
 /
-18102
+18346
 /
 *
 "
@@ -278569,7 +281529,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18102
+18346
 /
 *
 "
@@ -278612,7 +281572,7 @@ entrypoints
 ]
 =
 {
-18123
+18367
 /
 *
 "
@@ -278620,7 +281580,7 @@ glGetAttribLocation
 "
 *
 /
-18123
+18367
 /
 *
 "
@@ -278628,7 +281588,7 @@ glGetAttribLocation
 "
 *
 /
-18143
+18387
 /
 *
 "
@@ -278643,7 +281603,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18123
+18367
 /
 *
 "
@@ -278686,7 +281646,7 @@ entrypoints
 ]
 =
 {
-18143
+18387
 /
 *
 "
@@ -278694,7 +281654,7 @@ glGetAttribLocationARB
 "
 *
 /
-18123
+18367
 /
 *
 "
@@ -278702,7 +281662,7 @@ glGetAttribLocation
 "
 *
 /
-18123
+18367
 /
 *
 "
@@ -278717,7 +281677,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18143
+18387
 /
 *
 "
@@ -278761,7 +281721,7 @@ entrypoints
 ]
 =
 {
-18166
+18410
 /
 *
 "
@@ -278769,7 +281729,7 @@ glGetBooleanIndexedvEXT
 "
 *
 /
-18166
+18410
 /
 *
 "
@@ -278777,7 +281737,7 @@ glGetBooleanIndexedvEXT
 "
 *
 /
-18190
+18434
 /
 *
 "
@@ -278785,7 +281745,7 @@ glGetBooleani_v
 "
 *
 /
-18190
+18434
 /
 *
 "
@@ -278800,7 +281760,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18166
+18410
 /
 *
 "
@@ -278844,7 +281804,7 @@ entrypoints
 ]
 =
 {
-18190
+18434
 /
 *
 "
@@ -278852,7 +281812,7 @@ glGetBooleani_v
 "
 *
 /
-18190
+18434
 /
 *
 "
@@ -278860,7 +281820,7 @@ glGetBooleani_v
 "
 *
 /
-18166
+18410
 /
 *
 "
@@ -278868,7 +281828,7 @@ glGetBooleanIndexedvEXT
 "
 *
 /
-18166
+18410
 /
 *
 "
@@ -278883,7 +281843,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18190
+18434
 /
 *
 "
@@ -278926,7 +281886,7 @@ entrypoints
 ]
 =
 {
-18206
+18450
 /
 *
 "
@@ -278934,7 +281894,7 @@ glGetBooleanv
 "
 *
 /
-18206
+18450
 /
 *
 "
@@ -278942,7 +281902,7 @@ glGetBooleanv
 "
 *
 /
-18206
+18450
 /
 *
 "
@@ -278957,7 +281917,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18206
+18450
 /
 *
 "
@@ -278999,7 +281959,7 @@ entrypoints
 ]
 =
 {
-18220
+18464
 /
 *
 "
@@ -279007,7 +281967,7 @@ glGetBufferParameteri64v
 "
 *
 /
-18220
+18464
 /
 *
 "
@@ -279022,7 +281982,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18220
+18464
 /
 *
 "
@@ -279066,7 +282026,7 @@ entrypoints
 ]
 =
 {
-18245
+18489
 /
 *
 "
@@ -279074,7 +282034,7 @@ glGetBufferParameteriv
 "
 *
 /
-18245
+18489
 /
 *
 "
@@ -279082,7 +282042,7 @@ glGetBufferParameteriv
 "
 *
 /
-18245
+18489
 /
 *
 "
@@ -279090,7 +282050,7 @@ glGetBufferParameteriv
 "
 *
 /
-18268
+18512
 /
 *
 "
@@ -279105,7 +282065,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18245
+18489
 /
 *
 "
@@ -279149,7 +282109,7 @@ entrypoints
 ]
 =
 {
-18268
+18512
 /
 *
 "
@@ -279157,7 +282117,7 @@ glGetBufferParameterivARB
 "
 *
 /
-18245
+18489
 /
 *
 "
@@ -279165,7 +282125,7 @@ glGetBufferParameteriv
 "
 *
 /
-18245
+18489
 /
 *
 "
@@ -279173,7 +282133,7 @@ glGetBufferParameteriv
 "
 *
 /
-18245
+18489
 /
 *
 "
@@ -279188,7 +282148,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18268
+18512
 /
 *
 "
@@ -279212,7 +282172,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-18294
+18538
 /
 *
 glGetBufferParameterui64vNV
@@ -279252,7 +282212,7 @@ entrypoints
 ]
 =
 {
-18322
+18566
 /
 *
 "
@@ -279260,7 +282220,7 @@ glGetBufferPointerv
 "
 *
 /
-18322
+18566
 /
 *
 "
@@ -279268,7 +282228,7 @@ glGetBufferPointerv
 "
 *
 /
-18342
+18586
 /
 *
 "
@@ -279276,7 +282236,7 @@ glGetBufferPointervARB
 "
 *
 /
-18365
+18609
 /
 *
 "
@@ -279291,7 +282251,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18322
+18566
 /
 *
 "
@@ -279335,7 +282295,7 @@ entrypoints
 ]
 =
 {
-18342
+18586
 /
 *
 "
@@ -279343,7 +282303,7 @@ glGetBufferPointervARB
 "
 *
 /
-18322
+18566
 /
 *
 "
@@ -279351,7 +282311,7 @@ glGetBufferPointerv
 "
 *
 /
-18322
+18566
 /
 *
 "
@@ -279359,7 +282319,7 @@ glGetBufferPointerv
 "
 *
 /
-18365
+18609
 /
 *
 "
@@ -279374,7 +282334,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18342
+18586
 /
 *
 "
@@ -279418,7 +282378,7 @@ entrypoints
 ]
 =
 {
-18365
+18609
 /
 *
 "
@@ -279426,7 +282386,7 @@ glGetBufferPointervOES
 "
 *
 /
-18322
+18566
 /
 *
 "
@@ -279434,7 +282394,7 @@ glGetBufferPointerv
 "
 *
 /
-18322
+18566
 /
 *
 "
@@ -279442,7 +282402,7 @@ glGetBufferPointerv
 "
 *
 /
-18342
+18586
 /
 *
 "
@@ -279457,7 +282417,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18365
+18609
 /
 *
 "
@@ -279499,7 +282459,7 @@ entrypoints
 ]
 =
 {
-18388
+18632
 /
 *
 "
@@ -279507,7 +282467,7 @@ glGetBufferSubData
 "
 *
 /
-18407
+18651
 /
 *
 "
@@ -279522,7 +282482,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18388
+18632
 /
 *
 "
@@ -279564,7 +282524,7 @@ entrypoints
 ]
 =
 {
-18407
+18651
 /
 *
 "
@@ -279572,7 +282532,7 @@ glGetBufferSubDataARB
 "
 *
 /
-18388
+18632
 /
 *
 "
@@ -279587,7 +282547,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18407
+18651
 /
 *
 "
@@ -279611,7 +282571,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-18429
+18673
 /
 *
 glGetClipPlane
@@ -279631,7 +282591,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-18444
+18688
 /
 *
 glGetClipPlanef
@@ -279651,7 +282611,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_single_precision
-18460
+18704
 /
 *
 glGetClipPlanefOES
@@ -279671,7 +282631,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-18479
+18723
 /
 *
 glGetClipPlanex
@@ -279691,7 +282651,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-18495
+18739
 /
 *
 glGetClipPlanexOES
@@ -279729,7 +282689,7 @@ entrypoints
 ]
 =
 {
-18514
+18758
 /
 *
 "
@@ -279737,7 +282697,7 @@ glGetColorTable
 "
 *
 /
-18530
+18774
 /
 *
 "
@@ -279752,7 +282712,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18514
+18758
 /
 *
 "
@@ -279794,7 +282754,7 @@ entrypoints
 ]
 =
 {
-18530
+18774
 /
 *
 "
@@ -279802,7 +282762,7 @@ glGetColorTableEXT
 "
 *
 /
-18514
+18758
 /
 *
 "
@@ -279817,7 +282777,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18530
+18774
 /
 *
 "
@@ -279859,7 +282819,7 @@ entrypoints
 ]
 =
 {
-18549
+18793
 /
 *
 "
@@ -279867,7 +282827,7 @@ glGetColorTableParameterfv
 "
 *
 /
-18576
+18820
 /
 *
 "
@@ -279882,7 +282842,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18549
+18793
 /
 *
 "
@@ -279924,7 +282884,7 @@ entrypoints
 ]
 =
 {
-18576
+18820
 /
 *
 "
@@ -279932,7 +282892,7 @@ glGetColorTableParameterfvEXT
 "
 *
 /
-18549
+18793
 /
 *
 "
@@ -279947,7 +282907,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18576
+18820
 /
 *
 "
@@ -279971,7 +282931,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGI_color_table
-18606
+18850
 /
 *
 glGetColorTableParameterfvSGI
@@ -280009,7 +282969,7 @@ entrypoints
 ]
 =
 {
-18636
+18880
 /
 *
 "
@@ -280017,7 +282977,7 @@ glGetColorTableParameteriv
 "
 *
 /
-18663
+18907
 /
 *
 "
@@ -280032,7 +282992,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18636
+18880
 /
 *
 "
@@ -280074,7 +283034,7 @@ entrypoints
 ]
 =
 {
-18663
+18907
 /
 *
 "
@@ -280082,7 +283042,7 @@ glGetColorTableParameterivEXT
 "
 *
 /
-18636
+18880
 /
 *
 "
@@ -280097,7 +283057,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18663
+18907
 /
 *
 "
@@ -280121,7 +283081,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGI_color_table
-18693
+18937
 /
 *
 glGetColorTableParameterivSGI
@@ -280141,7 +283101,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGI_color_table
-18723
+18967
 /
 *
 glGetColorTableSGI
@@ -280161,7 +283121,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-18742
+18986
 /
 *
 glGetCombinerInputParameterfvNV
@@ -280181,7 +283141,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-18774
+19018
 /
 *
 glGetCombinerInputParameterivNV
@@ -280201,7 +283161,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-18806
+19050
 /
 *
 glGetCombinerOutputParameterfvNV
@@ -280221,7 +283181,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-18839
+19083
 /
 *
 glGetCombinerOutputParameterivNV
@@ -280241,7 +283201,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners2
-18872
+19116
 /
 *
 glGetCombinerStageParameterfvNV
@@ -280261,7 +283221,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-18904
+19148
 /
 *
 glGetCommandHeaderNV
@@ -280281,7 +283241,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-18925
+19169
 /
 *
 glGetCompressedMultiTexImageEXT
@@ -280319,7 +283279,7 @@ entrypoints
 ]
 =
 {
-18957
+19201
 /
 *
 "
@@ -280327,7 +283287,7 @@ glGetCompressedTexImage
 "
 *
 /
-18981
+19225
 /
 *
 "
@@ -280342,7 +283302,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18957
+19201
 /
 *
 "
@@ -280384,7 +283344,7 @@ entrypoints
 ]
 =
 {
-18981
+19225
 /
 *
 "
@@ -280392,7 +283352,7 @@ glGetCompressedTexImageARB
 "
 *
 /
-18957
+19201
 /
 *
 "
@@ -280407,7 +283367,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-18981
+19225
 /
 *
 "
@@ -280449,7 +283409,7 @@ entrypoints
 ]
 =
 {
-19008
+19252
 /
 *
 "
@@ -280457,7 +283417,7 @@ glGetCompressedTextureImage
 "
 *
 /
-19008
+19252
 /
 *
 "
@@ -280472,7 +283432,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19008
+19252
 /
 *
 "
@@ -280496,7 +283456,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-19036
+19280
 /
 *
 glGetCompressedTextureImageEXT
@@ -280534,7 +283494,7 @@ entrypoints
 ]
 =
 {
-19067
+19311
 /
 *
 "
@@ -280542,7 +283502,7 @@ glGetCompressedTextureSubImage
 "
 *
 /
-19067
+19311
 /
 *
 "
@@ -280557,7 +283517,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19067
+19311
 /
 *
 "
@@ -280581,7 +283541,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-19098
+19342
 /
 *
 glGetConvolutionFilter
@@ -280601,7 +283561,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_convolution
-19121
+19365
 /
 *
 glGetConvolutionFilterEXT
@@ -280621,7 +283581,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-19147
+19391
 /
 *
 glGetConvolutionParameterfv
@@ -280641,7 +283601,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_convolution
-19175
+19419
 /
 *
 glGetConvolutionParameterfvEXT
@@ -280661,7 +283621,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-19206
+19450
 /
 *
 glGetConvolutionParameteriv
@@ -280681,7 +283641,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_convolution
-19234
+19478
 /
 *
 glGetConvolutionParameterivEXT
@@ -280701,7 +283661,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-19265
+19509
 /
 *
 glGetConvolutionParameterxvOES
@@ -280721,7 +283681,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_framebuffer_mixed_samples
-19296
+19540
 /
 *
 glGetCoverageModulationTableNV
@@ -280762,7 +283722,7 @@ entrypoints
 ]
 =
 {
-19327
+19571
 /
 *
 "
@@ -280770,7 +283730,7 @@ glGetDebugMessageLog
 "
 *
 /
-19327
+19571
 /
 *
 "
@@ -280778,7 +283738,7 @@ glGetDebugMessageLog
 "
 *
 /
-19327
+19571
 /
 *
 "
@@ -280786,7 +283746,7 @@ glGetDebugMessageLog
 "
 *
 /
-19372
+19616
 /
 *
 "
@@ -280794,7 +283754,7 @@ glGetDebugMessageLogARB
 "
 *
 /
-19396
+19640
 /
 *
 "
@@ -280809,7 +283769,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19327
+19571
 /
 *
 "
@@ -280833,7 +283793,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_debug_output
-19348
+19592
 /
 *
 glGetDebugMessageLogAMD
@@ -280874,7 +283834,7 @@ entrypoints
 ]
 =
 {
-19372
+19616
 /
 *
 "
@@ -280882,7 +283842,7 @@ glGetDebugMessageLogARB
 "
 *
 /
-19327
+19571
 /
 *
 "
@@ -280890,7 +283850,7 @@ glGetDebugMessageLog
 "
 *
 /
-19327
+19571
 /
 *
 "
@@ -280898,7 +283858,7 @@ glGetDebugMessageLog
 "
 *
 /
-19327
+19571
 /
 *
 "
@@ -280906,7 +283866,7 @@ glGetDebugMessageLog
 "
 *
 /
-19396
+19640
 /
 *
 "
@@ -280921,7 +283881,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19372
+19616
 /
 *
 "
@@ -280966,7 +283926,7 @@ entrypoints
 ]
 =
 {
-19396
+19640
 /
 *
 "
@@ -280974,7 +283934,7 @@ glGetDebugMessageLogKHR
 "
 *
 /
-19327
+19571
 /
 *
 "
@@ -280982,7 +283942,7 @@ glGetDebugMessageLog
 "
 *
 /
-19327
+19571
 /
 *
 "
@@ -280990,7 +283950,7 @@ glGetDebugMessageLog
 "
 *
 /
-19327
+19571
 /
 *
 "
@@ -280998,7 +283958,7 @@ glGetDebugMessageLog
 "
 *
 /
-19372
+19616
 /
 *
 "
@@ -281013,7 +283973,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19396
+19640
 /
 *
 "
@@ -281037,7 +283997,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_detail_texture
-19420
+19664
 /
 *
 glGetDetailTexFuncSGIS
@@ -281077,7 +284037,7 @@ entrypoints
 ]
 =
 {
-19443
+19687
 /
 *
 "
@@ -281085,7 +284045,7 @@ glGetDoubleIndexedvEXT
 "
 *
 /
-19466
+19710
 /
 *
 "
@@ -281093,7 +284053,7 @@ glGetDoublei_v
 "
 *
 /
-19466
+19710
 /
 *
 "
@@ -281101,7 +284061,7 @@ glGetDoublei_v
 "
 *
 /
-19481
+19725
 /
 *
 "
@@ -281116,7 +284076,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19443
+19687
 /
 *
 "
@@ -281160,7 +284120,7 @@ entrypoints
 ]
 =
 {
-19466
+19710
 /
 *
 "
@@ -281168,7 +284128,7 @@ glGetDoublei_v
 "
 *
 /
-19466
+19710
 /
 *
 "
@@ -281176,7 +284136,7 @@ glGetDoublei_v
 "
 *
 /
-19443
+19687
 /
 *
 "
@@ -281184,7 +284144,7 @@ glGetDoubleIndexedvEXT
 "
 *
 /
-19481
+19725
 /
 *
 "
@@ -281199,7 +284159,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19466
+19710
 /
 *
 "
@@ -281243,7 +284203,7 @@ entrypoints
 ]
 =
 {
-19481
+19725
 /
 *
 "
@@ -281251,7 +284211,7 @@ glGetDoublei_vEXT
 "
 *
 /
-19443
+19687
 /
 *
 "
@@ -281259,7 +284219,7 @@ glGetDoubleIndexedvEXT
 "
 *
 /
-19466
+19710
 /
 *
 "
@@ -281267,7 +284227,7 @@ glGetDoublei_v
 "
 *
 /
-19466
+19710
 /
 *
 "
@@ -281282,7 +284242,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19481
+19725
 /
 *
 "
@@ -281306,7 +284266,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-19499
+19743
 /
 *
 glGetDoublev
@@ -281326,7 +284286,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_driver_control
-19512
+19756
 /
 *
 glGetDriverControlStringQCOM
@@ -281346,7 +284306,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_driver_control
-19541
+19785
 /
 *
 glGetDriverControlsQCOM
@@ -281385,7 +284345,7 @@ entrypoints
 ]
 =
 {
-19565
+19809
 /
 *
 "
@@ -281393,7 +284353,7 @@ glGetError
 "
 *
 /
-19565
+19809
 /
 *
 "
@@ -281401,7 +284361,7 @@ glGetError
 "
 *
 /
-19565
+19809
 /
 *
 "
@@ -281416,7 +284376,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19565
+19809
 /
 *
 "
@@ -281440,7 +284400,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fence
-19576
+19820
 /
 *
 glGetFenceivNV
@@ -281460,7 +284420,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-19591
+19835
 /
 *
 glGetFinalCombinerInputParameterfvNV
@@ -281480,7 +284440,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_register_combiners
-19628
+19872
 /
 *
 glGetFinalCombinerInputParameterivNV
@@ -281500,7 +284460,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-19665
+19909
 /
 *
 glGetFirstPerfQueryIdINTEL
@@ -281520,7 +284480,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-19692
+19936
 /
 *
 glGetFixedv
@@ -281540,7 +284500,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-19704
+19948
 /
 *
 glGetFixedvOES
@@ -281582,7 +284542,7 @@ entrypoints
 ]
 =
 {
-19719
+19963
 /
 *
 "
@@ -281590,7 +284550,7 @@ glGetFloatIndexedvEXT
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -281598,7 +284558,7 @@ glGetFloati_v
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -281606,7 +284566,7 @@ glGetFloati_v
 "
 *
 /
-19755
+19999
 /
 *
 "
@@ -281614,7 +284574,7 @@ glGetFloati_vEXT
 "
 *
 /
-19772
+20016
 /
 *
 "
@@ -281622,7 +284582,7 @@ glGetFloati_vNV
 "
 *
 /
-19788
+20032
 /
 *
 "
@@ -281637,7 +284597,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19719
+19963
 /
 *
 "
@@ -281683,7 +284643,7 @@ entrypoints
 ]
 =
 {
-19741
+19985
 /
 *
 "
@@ -281691,7 +284651,7 @@ glGetFloati_v
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -281699,7 +284659,7 @@ glGetFloati_v
 "
 *
 /
-19719
+19963
 /
 *
 "
@@ -281707,7 +284667,7 @@ glGetFloatIndexedvEXT
 "
 *
 /
-19755
+19999
 /
 *
 "
@@ -281715,7 +284675,7 @@ glGetFloati_vEXT
 "
 *
 /
-19772
+20016
 /
 *
 "
@@ -281723,7 +284683,7 @@ glGetFloati_vNV
 "
 *
 /
-19788
+20032
 /
 *
 "
@@ -281738,7 +284698,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19741
+19985
 /
 *
 "
@@ -281784,7 +284744,7 @@ entrypoints
 ]
 =
 {
-19755
+19999
 /
 *
 "
@@ -281792,7 +284752,7 @@ glGetFloati_vEXT
 "
 *
 /
-19719
+19963
 /
 *
 "
@@ -281800,7 +284760,7 @@ glGetFloatIndexedvEXT
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -281808,7 +284768,7 @@ glGetFloati_v
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -281816,7 +284776,7 @@ glGetFloati_v
 "
 *
 /
-19772
+20016
 /
 *
 "
@@ -281824,7 +284784,7 @@ glGetFloati_vNV
 "
 *
 /
-19788
+20032
 /
 *
 "
@@ -281839,7 +284799,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19755
+19999
 /
 *
 "
@@ -281885,7 +284845,7 @@ entrypoints
 ]
 =
 {
-19772
+20016
 /
 *
 "
@@ -281893,7 +284853,7 @@ glGetFloati_vNV
 "
 *
 /
-19719
+19963
 /
 *
 "
@@ -281901,7 +284861,7 @@ glGetFloatIndexedvEXT
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -281909,7 +284869,7 @@ glGetFloati_v
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -281917,7 +284877,7 @@ glGetFloati_v
 "
 *
 /
-19755
+19999
 /
 *
 "
@@ -281925,7 +284885,7 @@ glGetFloati_vEXT
 "
 *
 /
-19788
+20032
 /
 *
 "
@@ -281940,7 +284900,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19772
+20016
 /
 *
 "
@@ -281986,7 +284946,7 @@ entrypoints
 ]
 =
 {
-19788
+20032
 /
 *
 "
@@ -281994,7 +284954,7 @@ glGetFloati_vOES
 "
 *
 /
-19719
+19963
 /
 *
 "
@@ -282002,7 +284962,7 @@ glGetFloatIndexedvEXT
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -282010,7 +284970,7 @@ glGetFloati_v
 "
 *
 /
-19741
+19985
 /
 *
 "
@@ -282018,7 +284978,7 @@ glGetFloati_v
 "
 *
 /
-19755
+19999
 /
 *
 "
@@ -282026,7 +284986,7 @@ glGetFloati_vEXT
 "
 *
 /
-19772
+20016
 /
 *
 "
@@ -282041,7 +285001,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19788
+20032
 /
 *
 "
@@ -282084,7 +285044,7 @@ entrypoints
 ]
 =
 {
-19805
+20049
 /
 *
 "
@@ -282092,7 +285052,7 @@ glGetFloatv
 "
 *
 /
-19805
+20049
 /
 *
 "
@@ -282100,7 +285060,7 @@ glGetFloatv
 "
 *
 /
-19805
+20049
 /
 *
 "
@@ -282115,7 +285075,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19805
+20049
 /
 *
 "
@@ -282139,7 +285099,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_fog_function
-19817
+20061
 /
 *
 glGetFogFuncSGIS
@@ -282178,7 +285138,7 @@ entrypoints
 ]
 =
 {
-19834
+20078
 /
 *
 "
@@ -282186,7 +285146,7 @@ glGetFragDataIndex
 "
 *
 /
-19834
+20078
 /
 *
 "
@@ -282194,7 +285154,7 @@ glGetFragDataIndex
 "
 *
 /
-19853
+20097
 /
 *
 "
@@ -282209,7 +285169,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19834
+20078
 /
 *
 "
@@ -282252,7 +285212,7 @@ entrypoints
 ]
 =
 {
-19853
+20097
 /
 *
 "
@@ -282260,7 +285220,7 @@ glGetFragDataIndexEXT
 "
 *
 /
-19834
+20078
 /
 *
 "
@@ -282268,7 +285228,7 @@ glGetFragDataIndex
 "
 *
 /
-19834
+20078
 /
 *
 "
@@ -282283,7 +285243,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19853
+20097
 /
 *
 "
@@ -282326,7 +285286,7 @@ entrypoints
 ]
 =
 {
-19875
+20119
 /
 *
 "
@@ -282334,7 +285294,7 @@ glGetFragDataLocation
 "
 *
 /
-19875
+20119
 /
 *
 "
@@ -282342,7 +285302,7 @@ glGetFragDataLocation
 "
 *
 /
-19897
+20141
 /
 *
 "
@@ -282357,7 +285317,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19875
+20119
 /
 *
 "
@@ -282400,7 +285360,7 @@ entrypoints
 ]
 =
 {
-19897
+20141
 /
 *
 "
@@ -282408,7 +285368,7 @@ glGetFragDataLocationEXT
 "
 *
 /
-19875
+20119
 /
 *
 "
@@ -282416,7 +285376,7 @@ glGetFragDataLocation
 "
 *
 /
-19875
+20119
 /
 *
 "
@@ -282431,7 +285391,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-19897
+20141
 /
 *
 "
@@ -282455,7 +285415,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-19922
+20166
 /
 *
 glGetFragmentLightfvSGIX
@@ -282475,7 +285435,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-19947
+20191
 /
 *
 glGetFragmentLightivSGIX
@@ -282495,7 +285455,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-19972
+20216
 /
 *
 glGetFragmentMaterialfvSGIX
@@ -282515,10 +285475,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-20000
+20244
 /
 *
 glGetFragmentMaterialivSGIX
+*
+/
+)
+;
+}
+static
+PFNGLGETFRAGMENTSHADINGRATESEXTPROC
+epoxy_glGetFragmentShadingRatesEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_fragment_shading_rate
+20272
+/
+*
+glGetFragmentShadingRatesEXT
 *
 /
 )
@@ -282555,7 +285535,7 @@ entrypoints
 ]
 =
 {
-20028
+20301
 /
 *
 "
@@ -282563,7 +285543,7 @@ glGetFramebufferAttachmentParameteriv
 "
 *
 /
-20028
+20301
 /
 *
 "
@@ -282571,7 +285551,7 @@ glGetFramebufferAttachmentParameteriv
 "
 *
 /
-20028
+20301
 /
 *
 "
@@ -282579,7 +285559,7 @@ glGetFramebufferAttachmentParameteriv
 "
 *
 /
-20066
+20339
 /
 *
 "
@@ -282594,7 +285574,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20028
+20301
 /
 *
 "
@@ -282638,7 +285618,7 @@ entrypoints
 ]
 =
 {
-20066
+20339
 /
 *
 "
@@ -282646,7 +285626,7 @@ glGetFramebufferAttachmentParameterivEXT
 "
 *
 /
-20028
+20301
 /
 *
 "
@@ -282654,7 +285634,7 @@ glGetFramebufferAttachmentParameteriv
 "
 *
 /
-20028
+20301
 /
 *
 "
@@ -282662,7 +285642,7 @@ glGetFramebufferAttachmentParameteriv
 "
 *
 /
-20028
+20301
 /
 *
 "
@@ -282677,7 +285657,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20066
+20339
 /
 *
 "
@@ -282701,7 +285681,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-20107
+20380
 /
 *
 glGetFramebufferAttachmentParameterivOES
@@ -282721,7 +285701,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_framebuffer_sample_positions
-20148
+20421
 /
 *
 glGetFramebufferParameterfvAMD
@@ -282760,7 +285740,7 @@ entrypoints
 ]
 =
 {
-20179
+20452
 /
 *
 "
@@ -282768,7 +285748,7 @@ glGetFramebufferParameteriv
 "
 *
 /
-20179
+20452
 /
 *
 "
@@ -282776,7 +285756,7 @@ glGetFramebufferParameteriv
 "
 *
 /
-20179
+20452
 /
 *
 "
@@ -282791,7 +285771,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20179
+20452
 /
 *
 "
@@ -282815,7 +285795,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-20207
+20480
 /
 *
 glGetFramebufferParameterivEXT
@@ -282835,7 +285815,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_framebuffer_flip_y
-20238
+20511
 /
 *
 glGetFramebufferParameterivMESA
@@ -282855,7 +285835,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_shader_pixel_local_storage2
-20270
+20543
 /
 *
 glGetFramebufferPixelLocalStorageSizeEXT
@@ -282896,7 +285876,7 @@ entrypoints
 ]
 =
 {
-20311
+20584
 /
 *
 "
@@ -282904,7 +285884,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20311
+20584
 /
 *
 "
@@ -282912,7 +285892,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20311
+20584
 /
 *
 "
@@ -282920,7 +285900,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20364
+20637
 /
 *
 "
@@ -282928,7 +285908,7 @@ glGetGraphicsResetStatusEXT
 "
 *
 /
-20392
+20665
 /
 *
 "
@@ -282943,7 +285923,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20311
+20584
 /
 *
 "
@@ -282967,7 +285947,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-20336
+20609
 /
 *
 glGetGraphicsResetStatusARB
@@ -283008,7 +285988,7 @@ entrypoints
 ]
 =
 {
-20364
+20637
 /
 *
 "
@@ -283016,7 +285996,7 @@ glGetGraphicsResetStatusEXT
 "
 *
 /
-20311
+20584
 /
 *
 "
@@ -283024,7 +286004,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20311
+20584
 /
 *
 "
@@ -283032,7 +286012,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20311
+20584
 /
 *
 "
@@ -283040,7 +286020,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20392
+20665
 /
 *
 "
@@ -283055,7 +286035,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20364
+20637
 /
 *
 "
@@ -283100,7 +286080,7 @@ entrypoints
 ]
 =
 {
-20392
+20665
 /
 *
 "
@@ -283108,7 +286088,7 @@ glGetGraphicsResetStatusKHR
 "
 *
 /
-20311
+20584
 /
 *
 "
@@ -283116,7 +286096,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20311
+20584
 /
 *
 "
@@ -283124,7 +286104,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20311
+20584
 /
 *
 "
@@ -283132,7 +286112,7 @@ glGetGraphicsResetStatus
 "
 *
 /
-20364
+20637
 /
 *
 "
@@ -283147,7 +286127,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20392
+20665
 /
 *
 "
@@ -283171,7 +286151,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shader_objects
-20420
+20693
 /
 *
 glGetHandleARB
@@ -283191,7 +286171,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-20435
+20708
 /
 *
 glGetHistogram
@@ -283211,7 +286191,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_histogram
-20450
+20723
 /
 *
 glGetHistogramEXT
@@ -283231,7 +286211,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-20468
+20741
 /
 *
 glGetHistogramParameterfv
@@ -283251,7 +286231,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_histogram
-20494
+20767
 /
 *
 glGetHistogramParameterfvEXT
@@ -283271,7 +286251,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-20523
+20796
 /
 *
 glGetHistogramParameteriv
@@ -283291,7 +286271,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_histogram
-20549
+20822
 /
 *
 glGetHistogramParameterivEXT
@@ -283311,7 +286291,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-20578
+20851
 /
 *
 glGetHistogramParameterxvOES
@@ -283331,7 +286311,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-20607
+20880
 /
 *
 glGetImageHandleARB
@@ -283351,7 +286331,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-20627
+20900
 /
 *
 glGetImageHandleNV
@@ -283371,7 +286351,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_HP_image_transform
-20646
+20919
 /
 *
 glGetImageTransformParameterfvHP
@@ -283391,7 +286371,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_HP_image_transform
-20679
+20952
 /
 *
 glGetImageTransformParameterivHP
@@ -283411,7 +286391,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shader_objects
-20712
+20985
 /
 *
 glGetInfoLogARB
@@ -283431,7 +286411,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_instruments
-20728
+21001
 /
 *
 glGetInstrumentsSGIX
@@ -283469,7 +286449,7 @@ entrypoints
 ]
 =
 {
-20749
+21022
 /
 *
 "
@@ -283477,7 +286457,7 @@ glGetInteger64i_v
 "
 *
 /
-20749
+21022
 /
 *
 "
@@ -283492,7 +286472,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20749
+21022
 /
 *
 "
@@ -283525,6 +286505,7 @@ PROVIDER_Desktop_OpenGL_3_2
 PROVIDER_GL_ARB_sync
 PROVIDER_OpenGL_ES_3_0
 PROVIDER_GL_APPLE_sync
+PROVIDER_GL_EXT_disjoint_timer_query
 gl_provider_terminator
 }
 ;
@@ -283536,7 +286517,7 @@ entrypoints
 ]
 =
 {
-20767
+21040
 /
 *
 "
@@ -283544,7 +286525,7 @@ glGetInteger64v
 "
 *
 /
-20767
+21040
 /
 *
 "
@@ -283552,7 +286533,7 @@ glGetInteger64v
 "
 *
 /
-20767
+21040
 /
 *
 "
@@ -283560,11 +286541,19 @@ glGetInteger64v
 "
 *
 /
-20783
+21056
 /
 *
 "
 glGetInteger64vAPPLE
+"
+*
+/
+21077
+/
+*
+"
+glGetInteger64vEXT
 "
 *
 /
@@ -283575,7 +286564,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20767
+21040
 /
 *
 "
@@ -283608,6 +286597,7 @@ PROVIDER_GL_APPLE_sync
 PROVIDER_Desktop_OpenGL_3_2
 PROVIDER_GL_ARB_sync
 PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_EXT_disjoint_timer_query
 gl_provider_terminator
 }
 ;
@@ -283619,7 +286609,7 @@ entrypoints
 ]
 =
 {
-20783
+21056
 /
 *
 "
@@ -283627,7 +286617,7 @@ glGetInteger64vAPPLE
 "
 *
 /
-20767
+21040
 /
 *
 "
@@ -283635,7 +286625,7 @@ glGetInteger64v
 "
 *
 /
-20767
+21040
 /
 *
 "
@@ -283643,11 +286633,19 @@ glGetInteger64v
 "
 *
 /
-20767
+21040
 /
 *
 "
 glGetInteger64v
+"
+*
+/
+21077
+/
+*
+"
+glGetInteger64vEXT
 "
 *
 /
@@ -283658,11 +286656,103 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20783
+21056
 /
 *
 "
 glGetInteger64vAPPLE
+"
+*
+/
+providers
+entrypoints
+)
+;
+}
+static
+PFNGLGETINTEGER64VEXTPROC
+epoxy_glGetInteger64vEXT_resolver
+(
+void
+)
+{
+static
+const
+enum
+gl_provider
+providers
+[
+]
+=
+{
+PROVIDER_GL_EXT_disjoint_timer_query
+PROVIDER_Desktop_OpenGL_3_2
+PROVIDER_GL_ARB_sync
+PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_APPLE_sync
+gl_provider_terminator
+}
+;
+static
+const
+uint32_t
+entrypoints
+[
+]
+=
+{
+21077
+/
+*
+"
+glGetInteger64vEXT
+"
+*
+/
+21040
+/
+*
+"
+glGetInteger64v
+"
+*
+/
+21040
+/
+*
+"
+glGetInteger64v
+"
+*
+/
+21040
+/
+*
+"
+glGetInteger64v
+"
+*
+/
+21056
+/
+*
+"
+glGetInteger64vAPPLE
+"
+*
+/
+}
+;
+return
+gl_provider_resolver
+(
+entrypoint_strings
++
+21077
+/
+*
+"
+glGetInteger64vEXT
 "
 *
 /
@@ -283704,7 +286794,7 @@ entrypoints
 ]
 =
 {
-20804
+21096
 /
 *
 "
@@ -283712,7 +286802,7 @@ glGetIntegerIndexedvEXT
 "
 *
 /
-20804
+21096
 /
 *
 "
@@ -283720,7 +286810,7 @@ glGetIntegerIndexedvEXT
 "
 *
 /
-20828
+21120
 /
 *
 "
@@ -283728,7 +286818,7 @@ glGetIntegeri_v
 "
 *
 /
-20828
+21120
 /
 *
 "
@@ -283736,7 +286826,7 @@ glGetIntegeri_v
 "
 *
 /
-20828
+21120
 /
 *
 "
@@ -283744,7 +286834,7 @@ glGetIntegeri_v
 "
 *
 /
-20828
+21120
 /
 *
 "
@@ -283759,7 +286849,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20804
+21096
 /
 *
 "
@@ -283805,7 +286895,7 @@ entrypoints
 ]
 =
 {
-20828
+21120
 /
 *
 "
@@ -283813,7 +286903,7 @@ glGetIntegeri_v
 "
 *
 /
-20828
+21120
 /
 *
 "
@@ -283821,7 +286911,7 @@ glGetIntegeri_v
 "
 *
 /
-20828
+21120
 /
 *
 "
@@ -283829,7 +286919,7 @@ glGetIntegeri_v
 "
 *
 /
-20828
+21120
 /
 *
 "
@@ -283837,7 +286927,7 @@ glGetIntegeri_v
 "
 *
 /
-20804
+21096
 /
 *
 "
@@ -283845,7 +286935,7 @@ glGetIntegerIndexedvEXT
 "
 *
 /
-20804
+21096
 /
 *
 "
@@ -283860,7 +286950,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20828
+21120
 /
 *
 "
@@ -283884,7 +286974,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_multiview_draw_buffers
-20844
+21136
 /
 *
 glGetIntegeri_vEXT
@@ -283904,7 +286994,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-20863
+21155
 /
 *
 glGetIntegerui64i_vNV
@@ -283924,7 +287014,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-20885
+21177
 /
 *
 glGetIntegerui64vNV
@@ -283944,7 +287034,7 @@ return
 gl_single_resolver
 (
 PROVIDER_always_present
-20905
+21197
 /
 *
 glGetIntegerv
@@ -283964,7 +287054,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_internalformat_sample_query
-20919
+21211
 /
 *
 glGetInternalformatSampleivNV
@@ -284002,7 +287092,7 @@ entrypoints
 ]
 =
 {
-20949
+21241
 /
 *
 "
@@ -284010,7 +287100,7 @@ glGetInternalformati64v
 "
 *
 /
-20949
+21241
 /
 *
 "
@@ -284025,7 +287115,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20949
+21241
 /
 *
 "
@@ -284068,7 +287158,7 @@ entrypoints
 ]
 =
 {
-20973
+21265
 /
 *
 "
@@ -284076,7 +287166,7 @@ glGetInternalformativ
 "
 *
 /
-20973
+21265
 /
 *
 "
@@ -284084,7 +287174,7 @@ glGetInternalformativ
 "
 *
 /
-20973
+21265
 /
 *
 "
@@ -284099,7 +287189,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-20973
+21265
 /
 *
 "
@@ -284123,7 +287213,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-20995
+21287
 /
 *
 glGetInvariantBooleanvEXT
@@ -284143,7 +287233,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-21021
+21313
 /
 *
 glGetInvariantFloatvEXT
@@ -284163,7 +287253,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-21045
+21337
 /
 *
 glGetInvariantIntegervEXT
@@ -284201,7 +287291,7 @@ entrypoints
 ]
 =
 {
-21071
+21363
 /
 *
 "
@@ -284209,7 +287299,7 @@ glGetLightfv
 "
 *
 /
-21071
+21363
 /
 *
 "
@@ -284224,7 +287314,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-21071
+21363
 /
 *
 "
@@ -284248,7 +287338,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-21084
+21376
 /
 *
 glGetLightiv
@@ -284268,7 +287358,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-21097
+21389
 /
 *
 glGetLightxOES
@@ -284288,7 +287378,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-21112
+21404
 /
 *
 glGetLightxv
@@ -284308,7 +287398,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-21125
+21417
 /
 *
 glGetLightxvOES
@@ -284328,7 +287418,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_list_priority
-21141
+21433
 /
 *
 glGetListParameterfvSGIX
@@ -284348,7 +287438,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_list_priority
-21166
+21458
 /
 *
 glGetListParameterivSGIX
@@ -284368,7 +287458,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-21191
+21483
 /
 *
 glGetLocalConstantBooleanvEXT
@@ -284388,7 +287478,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-21221
+21513
 /
 *
 glGetLocalConstantFloatvEXT
@@ -284408,7 +287498,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-21249
+21541
 /
 *
 glGetLocalConstantIntegervEXT
@@ -284428,7 +287518,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-21279
+21571
 /
 *
 glGetMapAttribParameterfvNV
@@ -284448,7 +287538,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-21307
+21599
 /
 *
 glGetMapAttribParameterivNV
@@ -284468,7 +287558,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-21335
+21627
 /
 *
 glGetMapControlPointsNV
@@ -284488,7 +287578,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-21359
+21651
 /
 *
 glGetMapParameterfvNV
@@ -284508,7 +287598,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-21381
+21673
 /
 *
 glGetMapParameterivNV
@@ -284528,7 +287618,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-21403
+21695
 /
 *
 glGetMapdv
@@ -284548,7 +287638,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-21414
+21706
 /
 *
 glGetMapfv
@@ -284568,7 +287658,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-21425
+21717
 /
 *
 glGetMapiv
@@ -284588,7 +287678,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-21436
+21728
 /
 *
 glGetMapxvOES
@@ -284626,7 +287716,7 @@ entrypoints
 ]
 =
 {
-21450
+21742
 /
 *
 "
@@ -284634,7 +287724,7 @@ glGetMaterialfv
 "
 *
 /
-21450
+21742
 /
 *
 "
@@ -284649,7 +287739,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-21450
+21742
 /
 *
 "
@@ -284673,7 +287763,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-21466
+21758
 /
 *
 glGetMaterialiv
@@ -284693,7 +287783,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-21482
+21774
 /
 *
 glGetMaterialxOES
@@ -284713,7 +287803,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-21500
+21792
 /
 *
 glGetMaterialxv
@@ -284733,7 +287823,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-21516
+21808
 /
 *
 glGetMaterialxvOES
@@ -284753,7 +287843,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_memory_attachment
-21535
+21827
 /
 *
 glGetMemoryObjectDetachedResourcesuivNV
@@ -284773,7 +287863,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-21575
+21867
 /
 *
 glGetMemoryObjectParameterivEXT
@@ -284793,7 +287883,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-21607
+21899
 /
 *
 glGetMinmax
@@ -284813,7 +287903,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_histogram
-21619
+21911
 /
 *
 glGetMinmaxEXT
@@ -284833,7 +287923,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-21634
+21926
 /
 *
 glGetMinmaxParameterfv
@@ -284853,7 +287943,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_histogram
-21657
+21949
 /
 *
 glGetMinmaxParameterfvEXT
@@ -284873,7 +287963,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-21683
+21975
 /
 *
 glGetMinmaxParameteriv
@@ -284893,7 +287983,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_histogram
-21706
+21998
 /
 *
 glGetMinmaxParameterivEXT
@@ -284913,7 +288003,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21732
+22024
 /
 *
 glGetMultiTexEnvfvEXT
@@ -284933,7 +288023,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21754
+22046
 /
 *
 glGetMultiTexEnvivEXT
@@ -284953,7 +288043,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21776
+22068
 /
 *
 glGetMultiTexGendvEXT
@@ -284973,7 +288063,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21798
+22090
 /
 *
 glGetMultiTexGenfvEXT
@@ -284993,7 +288083,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21820
+22112
 /
 *
 glGetMultiTexGenivEXT
@@ -285013,7 +288103,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21842
+22134
 /
 *
 glGetMultiTexImageEXT
@@ -285033,7 +288123,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21864
+22156
 /
 *
 glGetMultiTexLevelParameterfvEXT
@@ -285053,7 +288143,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21897
+22189
 /
 *
 glGetMultiTexLevelParameterivEXT
@@ -285073,7 +288163,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21930
+22222
 /
 *
 glGetMultiTexParameterIivEXT
@@ -285093,7 +288183,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21959
+22251
 /
 *
 glGetMultiTexParameterIuivEXT
@@ -285113,7 +288203,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-21989
+22281
 /
 *
 glGetMultiTexParameterfvEXT
@@ -285133,7 +288223,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22017
+22309
 /
 *
 glGetMultiTexParameterivEXT
@@ -285173,7 +288263,7 @@ entrypoints
 ]
 =
 {
-22045
+22337
 /
 *
 "
@@ -285181,7 +288271,7 @@ glGetMultisamplefv
 "
 *
 /
-22045
+22337
 /
 *
 "
@@ -285189,7 +288279,7 @@ glGetMultisamplefv
 "
 *
 /
-22045
+22337
 /
 *
 "
@@ -285197,7 +288287,7 @@ glGetMultisamplefv
 "
 *
 /
-22064
+22356
 /
 *
 "
@@ -285212,7 +288302,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22045
+22337
 /
 *
 "
@@ -285256,7 +288346,7 @@ entrypoints
 ]
 =
 {
-22064
+22356
 /
 *
 "
@@ -285264,7 +288354,7 @@ glGetMultisamplefvNV
 "
 *
 /
-22045
+22337
 /
 *
 "
@@ -285272,7 +288362,7 @@ glGetMultisamplefv
 "
 *
 /
-22045
+22337
 /
 *
 "
@@ -285280,7 +288370,7 @@ glGetMultisamplefv
 "
 *
 /
-22045
+22337
 /
 *
 "
@@ -285295,7 +288385,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22064
+22356
 /
 *
 "
@@ -285337,7 +288427,7 @@ entrypoints
 ]
 =
 {
-22085
+22377
 /
 *
 "
@@ -285345,7 +288435,7 @@ glGetNamedBufferParameteri64v
 "
 *
 /
-22085
+22377
 /
 *
 "
@@ -285360,7 +288450,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22085
+22377
 /
 *
 "
@@ -285402,7 +288492,7 @@ entrypoints
 ]
 =
 {
-22115
+22407
 /
 *
 "
@@ -285410,7 +288500,7 @@ glGetNamedBufferParameteriv
 "
 *
 /
-22115
+22407
 /
 *
 "
@@ -285425,7 +288515,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22115
+22407
 /
 *
 "
@@ -285449,7 +288539,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22143
+22435
 /
 *
 glGetNamedBufferParameterivEXT
@@ -285469,7 +288559,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-22174
+22466
 /
 *
 glGetNamedBufferParameterui64vNV
@@ -285507,7 +288597,7 @@ entrypoints
 ]
 =
 {
-22207
+22499
 /
 *
 "
@@ -285515,7 +288605,7 @@ glGetNamedBufferPointerv
 "
 *
 /
-22207
+22499
 /
 *
 "
@@ -285530,7 +288620,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22207
+22499
 /
 *
 "
@@ -285554,7 +288644,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22232
+22524
 /
 *
 glGetNamedBufferPointervEXT
@@ -285592,7 +288682,7 @@ entrypoints
 ]
 =
 {
-22260
+22552
 /
 *
 "
@@ -285600,7 +288690,7 @@ glGetNamedBufferSubData
 "
 *
 /
-22260
+22552
 /
 *
 "
@@ -285615,7 +288705,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22260
+22552
 /
 *
 "
@@ -285639,7 +288729,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22284
+22576
 /
 *
 glGetNamedBufferSubDataEXT
@@ -285677,7 +288767,7 @@ entrypoints
 ]
 =
 {
-22311
+22603
 /
 *
 "
@@ -285685,7 +288775,7 @@ glGetNamedFramebufferAttachmentParameteriv
 "
 *
 /
-22311
+22603
 /
 *
 "
@@ -285700,7 +288790,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22311
+22603
 /
 *
 "
@@ -285724,7 +288814,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22354
+22646
 /
 *
 glGetNamedFramebufferAttachmentParameterivEXT
@@ -285744,7 +288834,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_framebuffer_sample_positions
-22400
+22692
 /
 *
 glGetNamedFramebufferParameterfvAMD
@@ -285782,7 +288872,7 @@ entrypoints
 ]
 =
 {
-22436
+22728
 /
 *
 "
@@ -285790,7 +288880,7 @@ glGetNamedFramebufferParameteriv
 "
 *
 /
-22436
+22728
 /
 *
 "
@@ -285805,7 +288895,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22436
+22728
 /
 *
 "
@@ -285829,7 +288919,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22469
+22761
 /
 *
 glGetNamedFramebufferParameterivEXT
@@ -285849,7 +288939,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22505
+22797
 /
 *
 glGetNamedProgramLocalParameterIivEXT
@@ -285869,7 +288959,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22543
+22835
 /
 *
 glGetNamedProgramLocalParameterIuivEXT
@@ -285889,7 +288979,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22582
+22874
 /
 *
 glGetNamedProgramLocalParameterdvEXT
@@ -285909,7 +288999,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22619
+22911
 /
 *
 glGetNamedProgramLocalParameterfvEXT
@@ -285929,7 +289019,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22656
+22948
 /
 *
 glGetNamedProgramStringEXT
@@ -285949,7 +289039,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22683
+22975
 /
 *
 glGetNamedProgramivEXT
@@ -285987,7 +289077,7 @@ entrypoints
 ]
 =
 {
-22706
+22998
 /
 *
 "
@@ -285995,7 +289085,7 @@ glGetNamedRenderbufferParameteriv
 "
 *
 /
-22706
+22998
 /
 *
 "
@@ -286010,7 +289100,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22706
+22998
 /
 *
 "
@@ -286034,7 +289124,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-22740
+23032
 /
 *
 glGetNamedRenderbufferParameterivEXT
@@ -286054,7 +289144,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shading_language_include
-22777
+23069
 /
 *
 glGetNamedStringARB
@@ -286074,7 +289164,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shading_language_include
-22797
+23089
 /
 *
 glGetNamedStringivARB
@@ -286094,7 +289184,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-22819
+23111
 /
 *
 glGetNextPerfQueryIdINTEL
@@ -286114,7 +289204,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-22845
+23137
 /
 *
 glGetObjectBufferfvATI
@@ -286134,7 +289224,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-22868
+23160
 /
 *
 glGetObjectBufferivATI
@@ -286174,7 +289264,7 @@ entrypoints
 ]
 =
 {
-22891
+23183
 /
 *
 "
@@ -286182,7 +289272,7 @@ glGetObjectLabel
 "
 *
 /
-22891
+23183
 /
 *
 "
@@ -286190,7 +289280,7 @@ glGetObjectLabel
 "
 *
 /
-22891
+23183
 /
 *
 "
@@ -286198,7 +289288,7 @@ glGetObjectLabel
 "
 *
 /
-22928
+23220
 /
 *
 "
@@ -286213,7 +289303,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22891
+23183
 /
 *
 "
@@ -286237,7 +289327,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_debug_label
-22908
+23200
 /
 *
 glGetObjectLabelEXT
@@ -286277,7 +289367,7 @@ entrypoints
 ]
 =
 {
-22928
+23220
 /
 *
 "
@@ -286285,7 +289375,7 @@ glGetObjectLabelKHR
 "
 *
 /
-22891
+23183
 /
 *
 "
@@ -286293,7 +289383,7 @@ glGetObjectLabel
 "
 *
 /
-22891
+23183
 /
 *
 "
@@ -286301,7 +289391,7 @@ glGetObjectLabel
 "
 *
 /
-22891
+23183
 /
 *
 "
@@ -286316,7 +289406,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-22928
+23220
 /
 *
 "
@@ -286340,7 +289430,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shader_objects
-22948
+23240
 /
 *
 glGetObjectParameterfvARB
@@ -286360,7 +289450,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_object_purgeable
-22974
+23266
 /
 *
 glGetObjectParameterivAPPLE
@@ -286380,7 +289470,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shader_objects
-23002
+23294
 /
 *
 glGetObjectParameterivARB
@@ -286420,7 +289510,7 @@ entrypoints
 ]
 =
 {
-23028
+23320
 /
 *
 "
@@ -286428,7 +289518,7 @@ glGetObjectPtrLabel
 "
 *
 /
-23028
+23320
 /
 *
 "
@@ -286436,7 +289526,7 @@ glGetObjectPtrLabel
 "
 *
 /
-23028
+23320
 /
 *
 "
@@ -286444,7 +289534,7 @@ glGetObjectPtrLabel
 "
 *
 /
-23048
+23340
 /
 *
 "
@@ -286459,7 +289549,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-23028
+23320
 /
 *
 "
@@ -286503,7 +289593,7 @@ entrypoints
 ]
 =
 {
-23048
+23340
 /
 *
 "
@@ -286511,7 +289601,7 @@ glGetObjectPtrLabelKHR
 "
 *
 /
-23028
+23320
 /
 *
 "
@@ -286519,7 +289609,7 @@ glGetObjectPtrLabel
 "
 *
 /
-23028
+23320
 /
 *
 "
@@ -286527,7 +289617,7 @@ glGetObjectPtrLabel
 "
 *
 /
-23028
+23320
 /
 *
 "
@@ -286542,7 +289632,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-23048
+23340
 /
 *
 "
@@ -286566,7 +289656,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_occlusion_query
-23071
+23363
 /
 *
 glGetOcclusionQueryivNV
@@ -286586,7 +289676,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_occlusion_query
-23095
+23387
 /
 *
 glGetOcclusionQueryuivNV
@@ -286606,7 +289696,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23120
+23412
 /
 *
 glGetPathColorGenfvNV
@@ -286626,7 +289716,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23142
+23434
 /
 *
 glGetPathColorGenivNV
@@ -286646,7 +289736,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23164
+23456
 /
 *
 glGetPathCommandsNV
@@ -286666,7 +289756,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23184
+23476
 /
 *
 glGetPathCoordsNV
@@ -286686,7 +289776,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23202
+23494
 /
 *
 glGetPathDashArrayNV
@@ -286706,7 +289796,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23223
+23515
 /
 *
 glGetPathLengthNV
@@ -286726,7 +289816,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23241
+23533
 /
 *
 glGetPathMetricRangeNV
@@ -286746,7 +289836,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23264
+23556
 /
 *
 glGetPathMetricsNV
@@ -286766,7 +289856,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23283
+23575
 /
 *
 glGetPathParameterfvNV
@@ -286786,7 +289876,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23306
+23598
 /
 *
 glGetPathParameterivNV
@@ -286806,7 +289896,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23329
+23621
 /
 *
 glGetPathSpacingNV
@@ -286826,7 +289916,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23348
+23640
 /
 *
 glGetPathTexGenfvNV
@@ -286846,7 +289936,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-23368
+23660
 /
 *
 glGetPathTexGenivNV
@@ -286866,7 +289956,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-23388
+23680
 /
 *
 glGetPerfCounterInfoINTEL
@@ -286886,7 +289976,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-23414
+23706
 /
 *
 glGetPerfMonitorCounterDataAMD
@@ -286906,7 +289996,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-23445
+23737
 /
 *
 glGetPerfMonitorCounterInfoAMD
@@ -286926,7 +290016,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-23476
+23768
 /
 *
 glGetPerfMonitorCounterStringAMD
@@ -286946,7 +290036,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-23509
+23801
 /
 *
 glGetPerfMonitorCountersAMD
@@ -286966,7 +290056,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-23537
+23829
 /
 *
 glGetPerfMonitorGroupStringAMD
@@ -286986,7 +290076,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-23568
+23860
 /
 *
 glGetPerfMonitorGroupsAMD
@@ -287006,7 +290096,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-23594
+23886
 /
 *
 glGetPerfQueryDataINTEL
@@ -287026,7 +290116,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-23618
+23910
 /
 *
 glGetPerfQueryIdByNameINTEL
@@ -287046,7 +290136,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_performance_query
-23646
+23938
 /
 *
 glGetPerfQueryInfoINTEL
@@ -287066,7 +290156,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-23670
+23962
 /
 *
 glGetPixelMapfv
@@ -287086,7 +290176,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-23686
+23978
 /
 *
 glGetPixelMapuiv
@@ -287106,7 +290196,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-23703
+23995
 /
 *
 glGetPixelMapusv
@@ -287126,7 +290216,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-23720
+24012
 /
 *
 glGetPixelMapxv
@@ -287146,7 +290236,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_pixel_texture
-23736
+24028
 /
 *
 glGetPixelTexGenParameterfvSGIS
@@ -287166,7 +290256,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_pixel_texture
-23768
+24060
 /
 *
 glGetPixelTexGenParameterivSGIS
@@ -287186,7 +290276,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_pixel_transform
-23800
+24092
 /
 *
 glGetPixelTransformParameterfvEXT
@@ -287206,7 +290296,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_pixel_transform
-23834
+24126
 /
 *
 glGetPixelTransformParameterivEXT
@@ -287226,7 +290316,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-23868
+24160
 /
 *
 glGetPointerIndexedvEXT
@@ -287246,7 +290336,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-23892
+24184
 /
 *
 glGetPointeri_vEXT
@@ -287289,7 +290379,7 @@ entrypoints
 ]
 =
 {
-23911
+24203
 /
 *
 "
@@ -287297,7 +290387,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287305,7 +290395,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287313,7 +290403,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287321,7 +290411,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287329,7 +290419,7 @@ glGetPointerv
 "
 *
 /
-23925
+24217
 /
 *
 "
@@ -287337,7 +290427,7 @@ glGetPointervEXT
 "
 *
 /
-23942
+24234
 /
 *
 "
@@ -287352,7 +290442,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-23911
+24203
 /
 *
 "
@@ -287399,7 +290489,7 @@ entrypoints
 ]
 =
 {
-23925
+24217
 /
 *
 "
@@ -287407,7 +290497,7 @@ glGetPointervEXT
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287415,7 +290505,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287423,7 +290513,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287431,7 +290521,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287439,7 +290529,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287447,7 +290537,7 @@ glGetPointerv
 "
 *
 /
-23942
+24234
 /
 *
 "
@@ -287462,7 +290552,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-23925
+24217
 /
 *
 "
@@ -287509,7 +290599,7 @@ entrypoints
 ]
 =
 {
-23942
+24234
 /
 *
 "
@@ -287517,7 +290607,7 @@ glGetPointervKHR
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287525,7 +290615,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287533,7 +290623,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287541,7 +290631,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287549,7 +290639,7 @@ glGetPointerv
 "
 *
 /
-23911
+24203
 /
 *
 "
@@ -287557,7 +290647,7 @@ glGetPointerv
 "
 *
 /
-23925
+24217
 /
 *
 "
@@ -287572,7 +290662,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-23942
+24234
 /
 *
 "
@@ -287596,7 +290686,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-23959
+24251
 /
 *
 glGetPolygonStipple
@@ -287636,7 +290726,7 @@ entrypoints
 ]
 =
 {
-23979
+24271
 /
 *
 "
@@ -287644,7 +290734,7 @@ glGetProgramBinary
 "
 *
 /
-23979
+24271
 /
 *
 "
@@ -287652,7 +290742,7 @@ glGetProgramBinary
 "
 *
 /
-23979
+24271
 /
 *
 "
@@ -287660,7 +290750,7 @@ glGetProgramBinary
 "
 *
 /
-23998
+24290
 /
 *
 "
@@ -287675,7 +290765,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-23979
+24271
 /
 *
 "
@@ -287719,7 +290809,7 @@ entrypoints
 ]
 =
 {
-23998
+24290
 /
 *
 "
@@ -287727,7 +290817,7 @@ glGetProgramBinaryOES
 "
 *
 /
-23979
+24271
 /
 *
 "
@@ -287735,7 +290825,7 @@ glGetProgramBinary
 "
 *
 /
-23979
+24271
 /
 *
 "
@@ -287743,7 +290833,7 @@ glGetProgramBinary
 "
 *
 /
-23979
+24271
 /
 *
 "
@@ -287758,7 +290848,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-23998
+24290
 /
 *
 "
@@ -287782,7 +290872,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-24020
+24312
 /
 *
 glGetProgramEnvParameterIivNV
@@ -287802,7 +290892,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-24050
+24342
 /
 *
 glGetProgramEnvParameterIuivNV
@@ -287840,7 +290930,7 @@ entrypoints
 ]
 =
 {
-24081
+24373
 /
 *
 "
@@ -287848,7 +290938,7 @@ glGetProgramEnvParameterdvARB
 "
 *
 /
-24081
+24373
 /
 *
 "
@@ -287863,7 +290953,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24081
+24373
 /
 *
 "
@@ -287905,7 +290995,7 @@ entrypoints
 ]
 =
 {
-24111
+24403
 /
 *
 "
@@ -287913,7 +291003,7 @@ glGetProgramEnvParameterfvARB
 "
 *
 /
-24111
+24403
 /
 *
 "
@@ -287928,7 +291018,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24111
+24403
 /
 *
 "
@@ -287970,7 +291060,7 @@ entrypoints
 ]
 =
 {
-24141
+24433
 /
 *
 "
@@ -287978,7 +291068,7 @@ glGetProgramInfoLog
 "
 *
 /
-24141
+24433
 /
 *
 "
@@ -287993,7 +291083,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24141
+24433
 /
 *
 "
@@ -288036,7 +291126,7 @@ entrypoints
 ]
 =
 {
-24161
+24453
 /
 *
 "
@@ -288044,7 +291134,7 @@ glGetProgramInterfaceiv
 "
 *
 /
-24161
+24453
 /
 *
 "
@@ -288052,7 +291142,7 @@ glGetProgramInterfaceiv
 "
 *
 /
-24161
+24453
 /
 *
 "
@@ -288067,7 +291157,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24161
+24453
 /
 *
 "
@@ -288091,7 +291181,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-24185
+24477
 /
 *
 glGetProgramLocalParameterIivNV
@@ -288111,7 +291201,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-24217
+24509
 /
 *
 glGetProgramLocalParameterIuivNV
@@ -288149,7 +291239,7 @@ entrypoints
 ]
 =
 {
-24250
+24542
 /
 *
 "
@@ -288157,7 +291247,7 @@ glGetProgramLocalParameterdvARB
 "
 *
 /
-24250
+24542
 /
 *
 "
@@ -288172,7 +291262,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24250
+24542
 /
 *
 "
@@ -288214,7 +291304,7 @@ entrypoints
 ]
 =
 {
-24282
+24574
 /
 *
 "
@@ -288222,7 +291312,7 @@ glGetProgramLocalParameterfvARB
 "
 *
 /
-24282
+24574
 /
 *
 "
@@ -288237,7 +291327,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24282
+24574
 /
 *
 "
@@ -288261,7 +291351,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fragment_program
-24314
+24606
 /
 *
 glGetProgramNamedParameterdvNV
@@ -288281,7 +291371,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fragment_program
-24345
+24637
 /
 *
 glGetProgramNamedParameterfvNV
@@ -288301,7 +291391,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-24376
+24668
 /
 *
 glGetProgramParameterdvNV
@@ -288321,7 +291411,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-24402
+24694
 /
 *
 glGetProgramParameterfvNV
@@ -288360,7 +291450,7 @@ entrypoints
 ]
 =
 {
-24428
+24720
 /
 *
 "
@@ -288368,7 +291458,7 @@ glGetProgramPipelineInfoLog
 "
 *
 /
-24428
+24720
 /
 *
 "
@@ -288376,7 +291466,7 @@ glGetProgramPipelineInfoLog
 "
 *
 /
-24428
+24720
 /
 *
 "
@@ -288391,7 +291481,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24428
+24720
 /
 *
 "
@@ -288415,7 +291505,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-24456
+24748
 /
 *
 glGetProgramPipelineInfoLogEXT
@@ -288454,7 +291544,7 @@ entrypoints
 ]
 =
 {
-24487
+24779
 /
 *
 "
@@ -288462,7 +291552,7 @@ glGetProgramPipelineiv
 "
 *
 /
-24487
+24779
 /
 *
 "
@@ -288470,7 +291560,7 @@ glGetProgramPipelineiv
 "
 *
 /
-24487
+24779
 /
 *
 "
@@ -288485,7 +291575,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24487
+24779
 /
 *
 "
@@ -288509,7 +291599,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-24510
+24802
 /
 *
 glGetProgramPipelineivEXT
@@ -288548,7 +291638,7 @@ entrypoints
 ]
 =
 {
-24536
+24828
 /
 *
 "
@@ -288556,7 +291646,7 @@ glGetProgramResourceIndex
 "
 *
 /
-24536
+24828
 /
 *
 "
@@ -288564,7 +291654,7 @@ glGetProgramResourceIndex
 "
 *
 /
-24536
+24828
 /
 *
 "
@@ -288579,7 +291669,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24536
+24828
 /
 *
 "
@@ -288622,7 +291712,7 @@ entrypoints
 ]
 =
 {
-24562
+24854
 /
 *
 "
@@ -288630,7 +291720,7 @@ glGetProgramResourceLocation
 "
 *
 /
-24562
+24854
 /
 *
 "
@@ -288638,7 +291728,7 @@ glGetProgramResourceLocation
 "
 *
 /
-24562
+24854
 /
 *
 "
@@ -288653,7 +291743,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24562
+24854
 /
 *
 "
@@ -288695,7 +291785,7 @@ entrypoints
 ]
 =
 {
-24591
+24883
 /
 *
 "
@@ -288703,7 +291793,7 @@ glGetProgramResourceLocationIndex
 "
 *
 /
-24591
+24883
 /
 *
 "
@@ -288718,7 +291808,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24591
+24883
 /
 *
 "
@@ -288742,7 +291832,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_blend_func_extended
-24625
+24917
 /
 *
 glGetProgramResourceLocationIndexEXT
@@ -288781,7 +291871,7 @@ entrypoints
 ]
 =
 {
-24662
+24954
 /
 *
 "
@@ -288789,7 +291879,7 @@ glGetProgramResourceName
 "
 *
 /
-24662
+24954
 /
 *
 "
@@ -288797,7 +291887,7 @@ glGetProgramResourceName
 "
 *
 /
-24662
+24954
 /
 *
 "
@@ -288812,7 +291902,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24662
+24954
 /
 *
 "
@@ -288836,7 +291926,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-24687
+24979
 /
 *
 glGetProgramResourcefvNV
@@ -288875,7 +291965,7 @@ entrypoints
 ]
 =
 {
-24712
+25004
 /
 *
 "
@@ -288883,7 +291973,7 @@ glGetProgramResourceiv
 "
 *
 /
-24712
+25004
 /
 *
 "
@@ -288891,7 +291981,7 @@ glGetProgramResourceiv
 "
 *
 /
-24712
+25004
 /
 *
 "
@@ -288906,7 +291996,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24712
+25004
 /
 *
 "
@@ -288948,7 +292038,7 @@ entrypoints
 ]
 =
 {
-24735
+25027
 /
 *
 "
@@ -288956,7 +292046,7 @@ glGetProgramStageiv
 "
 *
 /
-24735
+25027
 /
 *
 "
@@ -288971,7 +292061,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24735
+25027
 /
 *
 "
@@ -289013,7 +292103,7 @@ entrypoints
 ]
 =
 {
-24755
+25047
 /
 *
 "
@@ -289021,7 +292111,7 @@ glGetProgramStringARB
 "
 *
 /
-24755
+25047
 /
 *
 "
@@ -289036,7 +292126,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24755
+25047
 /
 *
 "
@@ -289060,7 +292150,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-24777
+25069
 /
 *
 glGetProgramStringNV
@@ -289080,7 +292170,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program5
-24798
+25090
 /
 *
 glGetProgramSubroutineParameteruivNV
@@ -289118,7 +292208,7 @@ entrypoints
 ]
 =
 {
-24835
+25127
 /
 *
 "
@@ -289126,7 +292216,7 @@ glGetProgramiv
 "
 *
 /
-24835
+25127
 /
 *
 "
@@ -289141,7 +292231,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24835
+25127
 /
 *
 "
@@ -289183,7 +292273,7 @@ entrypoints
 ]
 =
 {
-24850
+25142
 /
 *
 "
@@ -289191,7 +292281,7 @@ glGetProgramivARB
 "
 *
 /
-24850
+25142
 /
 *
 "
@@ -289206,7 +292296,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24850
+25142
 /
 *
 "
@@ -289230,7 +292320,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-24868
+25160
 /
 *
 glGetProgramivNV
@@ -289268,7 +292358,7 @@ entrypoints
 ]
 =
 {
-24885
+25177
 /
 *
 "
@@ -289276,7 +292366,7 @@ glGetQueryBufferObjecti64v
 "
 *
 /
-24885
+25177
 /
 *
 "
@@ -289291,7 +292381,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24885
+25177
 /
 *
 "
@@ -289333,7 +292423,7 @@ entrypoints
 ]
 =
 {
-24912
+25204
 /
 *
 "
@@ -289341,7 +292431,7 @@ glGetQueryBufferObjectiv
 "
 *
 /
-24912
+25204
 /
 *
 "
@@ -289356,7 +292446,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24912
+25204
 /
 *
 "
@@ -289398,7 +292488,7 @@ entrypoints
 ]
 =
 {
-24937
+25229
 /
 *
 "
@@ -289406,7 +292496,7 @@ glGetQueryBufferObjectui64v
 "
 *
 /
-24937
+25229
 /
 *
 "
@@ -289421,7 +292511,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24937
+25229
 /
 *
 "
@@ -289463,7 +292553,7 @@ entrypoints
 ]
 =
 {
-24965
+25257
 /
 *
 "
@@ -289471,7 +292561,7 @@ glGetQueryBufferObjectuiv
 "
 *
 /
-24965
+25257
 /
 *
 "
@@ -289486,7 +292576,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24965
+25257
 /
 *
 "
@@ -289528,7 +292618,7 @@ entrypoints
 ]
 =
 {
-24991
+25283
 /
 *
 "
@@ -289536,7 +292626,7 @@ glGetQueryIndexediv
 "
 *
 /
-24991
+25283
 /
 *
 "
@@ -289551,7 +292641,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-24991
+25283
 /
 *
 "
@@ -289595,7 +292685,7 @@ entrypoints
 ]
 =
 {
-25011
+25303
 /
 *
 "
@@ -289603,7 +292693,7 @@ glGetQueryObjecti64v
 "
 *
 /
-25011
+25303
 /
 *
 "
@@ -289611,7 +292701,7 @@ glGetQueryObjecti64v
 "
 *
 /
-25032
+25324
 /
 *
 "
@@ -289619,7 +292709,7 @@ glGetQueryObjecti64vEXT
 "
 *
 /
-25032
+25324
 /
 *
 "
@@ -289634,7 +292724,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25011
+25303
 /
 *
 "
@@ -289678,7 +292768,7 @@ entrypoints
 ]
 =
 {
-25032
+25324
 /
 *
 "
@@ -289686,7 +292776,7 @@ glGetQueryObjecti64vEXT
 "
 *
 /
-25032
+25324
 /
 *
 "
@@ -289694,7 +292784,7 @@ glGetQueryObjecti64vEXT
 "
 *
 /
-25011
+25303
 /
 *
 "
@@ -289702,7 +292792,7 @@ glGetQueryObjecti64v
 "
 *
 /
-25011
+25303
 /
 *
 "
@@ -289717,7 +292807,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25032
+25324
 /
 *
 "
@@ -289760,7 +292850,7 @@ entrypoints
 ]
 =
 {
-25056
+25348
 /
 *
 "
@@ -289768,7 +292858,7 @@ glGetQueryObjectiv
 "
 *
 /
-25075
+25367
 /
 *
 "
@@ -289776,7 +292866,7 @@ glGetQueryObjectivARB
 "
 *
 /
-25097
+25389
 /
 *
 "
@@ -289791,7 +292881,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25056
+25348
 /
 *
 "
@@ -289834,7 +292924,7 @@ entrypoints
 ]
 =
 {
-25075
+25367
 /
 *
 "
@@ -289842,7 +292932,7 @@ glGetQueryObjectivARB
 "
 *
 /
-25056
+25348
 /
 *
 "
@@ -289850,7 +292940,7 @@ glGetQueryObjectiv
 "
 *
 /
-25097
+25389
 /
 *
 "
@@ -289865,7 +292955,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25075
+25367
 /
 *
 "
@@ -289908,7 +292998,7 @@ entrypoints
 ]
 =
 {
-25097
+25389
 /
 *
 "
@@ -289916,7 +293006,7 @@ glGetQueryObjectivEXT
 "
 *
 /
-25056
+25348
 /
 *
 "
@@ -289924,7 +293014,7 @@ glGetQueryObjectiv
 "
 *
 /
-25075
+25367
 /
 *
 "
@@ -289939,7 +293029,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25097
+25389
 /
 *
 "
@@ -289983,7 +293073,7 @@ entrypoints
 ]
 =
 {
-25119
+25411
 /
 *
 "
@@ -289991,7 +293081,7 @@ glGetQueryObjectui64v
 "
 *
 /
-25119
+25411
 /
 *
 "
@@ -289999,7 +293089,7 @@ glGetQueryObjectui64v
 "
 *
 /
-25141
+25433
 /
 *
 "
@@ -290007,7 +293097,7 @@ glGetQueryObjectui64vEXT
 "
 *
 /
-25141
+25433
 /
 *
 "
@@ -290022,7 +293112,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25119
+25411
 /
 *
 "
@@ -290066,7 +293156,7 @@ entrypoints
 ]
 =
 {
-25141
+25433
 /
 *
 "
@@ -290074,7 +293164,7 @@ glGetQueryObjectui64vEXT
 "
 *
 /
-25141
+25433
 /
 *
 "
@@ -290082,7 +293172,7 @@ glGetQueryObjectui64vEXT
 "
 *
 /
-25119
+25411
 /
 *
 "
@@ -290090,7 +293180,7 @@ glGetQueryObjectui64v
 "
 *
 /
-25119
+25411
 /
 *
 "
@@ -290105,7 +293195,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25141
+25433
 /
 *
 "
@@ -290148,7 +293238,7 @@ entrypoints
 ]
 =
 {
-25166
+25458
 /
 *
 "
@@ -290156,7 +293246,7 @@ glGetQueryObjectuiv
 "
 *
 /
-25166
+25458
 /
 *
 "
@@ -290164,7 +293254,7 @@ glGetQueryObjectuiv
 "
 *
 /
-25186
+25478
 /
 *
 "
@@ -290179,7 +293269,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25166
+25458
 /
 *
 "
@@ -290222,7 +293312,7 @@ entrypoints
 ]
 =
 {
-25186
+25478
 /
 *
 "
@@ -290230,7 +293320,7 @@ glGetQueryObjectuivARB
 "
 *
 /
-25166
+25458
 /
 *
 "
@@ -290238,7 +293328,7 @@ glGetQueryObjectuiv
 "
 *
 /
-25166
+25458
 /
 *
 "
@@ -290253,7 +293343,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25186
+25478
 /
 *
 "
@@ -290295,7 +293385,7 @@ entrypoints
 ]
 =
 {
-25209
+25501
 /
 *
 "
@@ -290303,7 +293393,7 @@ glGetQueryObjectuivEXT
 "
 *
 /
-25209
+25501
 /
 *
 "
@@ -290318,7 +293408,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25209
+25501
 /
 *
 "
@@ -290361,7 +293451,7 @@ entrypoints
 ]
 =
 {
-25232
+25524
 /
 *
 "
@@ -290369,7 +293459,7 @@ glGetQueryiv
 "
 *
 /
-25232
+25524
 /
 *
 "
@@ -290377,7 +293467,7 @@ glGetQueryiv
 "
 *
 /
-25245
+25537
 /
 *
 "
@@ -290392,7 +293482,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25232
+25524
 /
 *
 "
@@ -290435,7 +293525,7 @@ entrypoints
 ]
 =
 {
-25245
+25537
 /
 *
 "
@@ -290443,7 +293533,7 @@ glGetQueryivARB
 "
 *
 /
-25232
+25524
 /
 *
 "
@@ -290451,7 +293541,7 @@ glGetQueryiv
 "
 *
 /
-25232
+25524
 /
 *
 "
@@ -290466,7 +293556,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25245
+25537
 /
 *
 "
@@ -290508,7 +293598,7 @@ entrypoints
 ]
 =
 {
-25261
+25553
 /
 *
 "
@@ -290516,7 +293606,7 @@ glGetQueryivEXT
 "
 *
 /
-25261
+25553
 /
 *
 "
@@ -290531,7 +293621,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25261
+25553
 /
 *
 "
@@ -290575,7 +293665,7 @@ entrypoints
 ]
 =
 {
-25277
+25569
 /
 *
 "
@@ -290583,7 +293673,7 @@ glGetRenderbufferParameteriv
 "
 *
 /
-25277
+25569
 /
 *
 "
@@ -290591,7 +293681,7 @@ glGetRenderbufferParameteriv
 "
 *
 /
-25277
+25569
 /
 *
 "
@@ -290599,7 +293689,7 @@ glGetRenderbufferParameteriv
 "
 *
 /
-25306
+25598
 /
 *
 "
@@ -290614,7 +293704,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25277
+25569
 /
 *
 "
@@ -290658,7 +293748,7 @@ entrypoints
 ]
 =
 {
-25306
+25598
 /
 *
 "
@@ -290666,7 +293756,7 @@ glGetRenderbufferParameterivEXT
 "
 *
 /
-25277
+25569
 /
 *
 "
@@ -290674,7 +293764,7 @@ glGetRenderbufferParameteriv
 "
 *
 /
-25277
+25569
 /
 *
 "
@@ -290682,7 +293772,7 @@ glGetRenderbufferParameteriv
 "
 *
 /
-25277
+25569
 /
 *
 "
@@ -290697,7 +293787,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25306
+25598
 /
 *
 "
@@ -290721,7 +293811,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-25338
+25630
 /
 *
 glGetRenderbufferParameterivOES
@@ -290762,7 +293852,7 @@ entrypoints
 ]
 =
 {
-25370
+25662
 /
 *
 "
@@ -290770,7 +293860,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25370
+25662
 /
 *
 "
@@ -290778,7 +293868,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25370
+25662
 /
 *
 "
@@ -290786,7 +293876,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25395
+25687
 /
 *
 "
@@ -290794,7 +293884,7 @@ glGetSamplerParameterIivEXT
 "
 *
 /
-25423
+25715
 /
 *
 "
@@ -290809,7 +293899,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25370
+25662
 /
 *
 "
@@ -290854,7 +293944,7 @@ entrypoints
 ]
 =
 {
-25395
+25687
 /
 *
 "
@@ -290862,7 +293952,7 @@ glGetSamplerParameterIivEXT
 "
 *
 /
-25370
+25662
 /
 *
 "
@@ -290870,7 +293960,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25370
+25662
 /
 *
 "
@@ -290878,7 +293968,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25370
+25662
 /
 *
 "
@@ -290886,7 +293976,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25423
+25715
 /
 *
 "
@@ -290901,7 +293991,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25395
+25687
 /
 *
 "
@@ -290946,7 +294036,7 @@ entrypoints
 ]
 =
 {
-25423
+25715
 /
 *
 "
@@ -290954,7 +294044,7 @@ glGetSamplerParameterIivOES
 "
 *
 /
-25370
+25662
 /
 *
 "
@@ -290962,7 +294052,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25370
+25662
 /
 *
 "
@@ -290970,7 +294060,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25370
+25662
 /
 *
 "
@@ -290978,7 +294068,7 @@ glGetSamplerParameterIiv
 "
 *
 /
-25395
+25687
 /
 *
 "
@@ -290993,7 +294083,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25423
+25715
 /
 *
 "
@@ -291038,7 +294128,7 @@ entrypoints
 ]
 =
 {
-25451
+25743
 /
 *
 "
@@ -291046,7 +294136,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25451
+25743
 /
 *
 "
@@ -291054,7 +294144,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25451
+25743
 /
 *
 "
@@ -291062,7 +294152,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25477
+25769
 /
 *
 "
@@ -291070,7 +294160,7 @@ glGetSamplerParameterIuivEXT
 "
 *
 /
-25506
+25798
 /
 *
 "
@@ -291085,7 +294175,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25451
+25743
 /
 *
 "
@@ -291130,7 +294220,7 @@ entrypoints
 ]
 =
 {
-25477
+25769
 /
 *
 "
@@ -291138,7 +294228,7 @@ glGetSamplerParameterIuivEXT
 "
 *
 /
-25451
+25743
 /
 *
 "
@@ -291146,7 +294236,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25451
+25743
 /
 *
 "
@@ -291154,7 +294244,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25451
+25743
 /
 *
 "
@@ -291162,7 +294252,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25506
+25798
 /
 *
 "
@@ -291177,7 +294267,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25477
+25769
 /
 *
 "
@@ -291222,7 +294312,7 @@ entrypoints
 ]
 =
 {
-25506
+25798
 /
 *
 "
@@ -291230,7 +294320,7 @@ glGetSamplerParameterIuivOES
 "
 *
 /
-25451
+25743
 /
 *
 "
@@ -291238,7 +294328,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25451
+25743
 /
 *
 "
@@ -291246,7 +294336,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25451
+25743
 /
 *
 "
@@ -291254,7 +294344,7 @@ glGetSamplerParameterIuiv
 "
 *
 /
-25477
+25769
 /
 *
 "
@@ -291269,7 +294359,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25506
+25798
 /
 *
 "
@@ -291300,6 +294390,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -291312,7 +294403,7 @@ entrypoints
 ]
 =
 {
-25535
+25827
 /
 *
 "
@@ -291320,7 +294411,7 @@ glGetSamplerParameterfv
 "
 *
 /
-25535
+25827
 /
 *
 "
@@ -291328,7 +294419,15 @@ glGetSamplerParameterfv
 "
 *
 /
-25535
+25827
+/
+*
+"
+glGetSamplerParameterfv
+"
+*
+/
+25827
 /
 *
 "
@@ -291343,7 +294442,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25535
+25827
 /
 *
 "
@@ -291374,6 +294473,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -291386,7 +294486,7 @@ entrypoints
 ]
 =
 {
-25559
+25851
 /
 *
 "
@@ -291394,7 +294494,7 @@ glGetSamplerParameteriv
 "
 *
 /
-25559
+25851
 /
 *
 "
@@ -291402,7 +294502,15 @@ glGetSamplerParameteriv
 "
 *
 /
-25559
+25851
+/
+*
+"
+glGetSamplerParameteriv
+"
+*
+/
+25851
 /
 *
 "
@@ -291417,7 +294525,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25559
+25851
 /
 *
 "
@@ -291427,6 +294535,26 @@ glGetSamplerParameteriv
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLGETSEMAPHOREPARAMETERIVNVPROC
+epoxy_glGetSemaphoreParameterivNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_NV_timeline_semaphore
+25875
+/
+*
+glGetSemaphoreParameterivNV
+*
+/
 )
 ;
 }
@@ -291441,7 +294569,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore
-25583
+25903
 /
 *
 glGetSemaphoreParameterui64vEXT
@@ -291461,7 +294589,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_imaging
-25615
+25935
 /
 *
 glGetSeparableFilter
@@ -291481,7 +294609,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_convolution
-25636
+25956
 /
 *
 glGetSeparableFilterEXT
@@ -291519,7 +294647,7 @@ entrypoints
 ]
 =
 {
-25660
+25980
 /
 *
 "
@@ -291527,7 +294655,7 @@ glGetShaderInfoLog
 "
 *
 /
-25660
+25980
 /
 *
 "
@@ -291542,7 +294670,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25660
+25980
 /
 *
 "
@@ -291585,7 +294713,7 @@ entrypoints
 ]
 =
 {
-25679
+25999
 /
 *
 "
@@ -291593,7 +294721,7 @@ glGetShaderPrecisionFormat
 "
 *
 /
-25679
+25999
 /
 *
 "
@@ -291601,7 +294729,7 @@ glGetShaderPrecisionFormat
 "
 *
 /
-25679
+25999
 /
 *
 "
@@ -291616,7 +294744,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25679
+25999
 /
 *
 "
@@ -291659,7 +294787,7 @@ entrypoints
 ]
 =
 {
-25706
+26026
 /
 *
 "
@@ -291667,7 +294795,7 @@ glGetShaderSource
 "
 *
 /
-25706
+26026
 /
 *
 "
@@ -291675,7 +294803,7 @@ glGetShaderSource
 "
 *
 /
-25724
+26044
 /
 *
 "
@@ -291690,7 +294818,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25706
+26026
 /
 *
 "
@@ -291733,7 +294861,7 @@ entrypoints
 ]
 =
 {
-25724
+26044
 /
 *
 "
@@ -291741,7 +294869,7 @@ glGetShaderSourceARB
 "
 *
 /
-25706
+26026
 /
 *
 "
@@ -291749,7 +294877,7 @@ glGetShaderSource
 "
 *
 /
-25706
+26026
 /
 *
 "
@@ -291764,7 +294892,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25724
+26044
 /
 *
 "
@@ -291806,7 +294934,7 @@ entrypoints
 ]
 =
 {
-25745
+26065
 /
 *
 "
@@ -291814,7 +294942,7 @@ glGetShaderiv
 "
 *
 /
-25745
+26065
 /
 *
 "
@@ -291829,7 +294957,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25745
+26065
 /
 *
 "
@@ -291853,7 +294981,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shading_rate_image
-25759
+26079
 /
 *
 glGetShadingRateImagePaletteNV
@@ -291873,7 +295001,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shading_rate_image
-25790
+26110
 /
 *
 glGetShadingRateSampleLocationivNV
@@ -291893,7 +295021,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_sharpen_texture
-25825
+26145
 /
 *
 glGetSharpenTexFuncSGIS
@@ -291913,7 +295041,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-25849
+26169
 /
 *
 glGetStageIndexNV
@@ -291933,7 +295061,7 @@ return
 gl_single_resolver
 (
 PROVIDER_always_present
-25867
+26187
 /
 *
 glGetString
@@ -291971,7 +295099,7 @@ entrypoints
 ]
 =
 {
-25879
+26199
 /
 *
 "
@@ -291979,7 +295107,7 @@ glGetStringi
 "
 *
 /
-25879
+26199
 /
 *
 "
@@ -291994,7 +295122,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25879
+26199
 /
 *
 "
@@ -292036,7 +295164,7 @@ entrypoints
 ]
 =
 {
-25892
+26212
 /
 *
 "
@@ -292044,7 +295172,7 @@ glGetSubroutineIndex
 "
 *
 /
-25892
+26212
 /
 *
 "
@@ -292059,7 +295187,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25892
+26212
 /
 *
 "
@@ -292101,7 +295229,7 @@ entrypoints
 ]
 =
 {
-25913
+26233
 /
 *
 "
@@ -292109,7 +295237,7 @@ glGetSubroutineUniformLocation
 "
 *
 /
-25913
+26233
 /
 *
 "
@@ -292124,7 +295252,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25913
+26233
 /
 *
 "
@@ -292168,7 +295296,7 @@ entrypoints
 ]
 =
 {
-25944
+26264
 /
 *
 "
@@ -292176,7 +295304,7 @@ glGetSynciv
 "
 *
 /
-25944
+26264
 /
 *
 "
@@ -292184,7 +295312,7 @@ glGetSynciv
 "
 *
 /
-25944
+26264
 /
 *
 "
@@ -292192,7 +295320,7 @@ glGetSynciv
 "
 *
 /
-25956
+26276
 /
 *
 "
@@ -292207,7 +295335,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25944
+26264
 /
 *
 "
@@ -292251,7 +295379,7 @@ entrypoints
 ]
 =
 {
-25956
+26276
 /
 *
 "
@@ -292259,7 +295387,7 @@ glGetSyncivAPPLE
 "
 *
 /
-25944
+26264
 /
 *
 "
@@ -292267,7 +295395,7 @@ glGetSynciv
 "
 *
 /
-25944
+26264
 /
 *
 "
@@ -292275,7 +295403,7 @@ glGetSynciv
 "
 *
 /
-25944
+26264
 /
 *
 "
@@ -292290,7 +295418,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-25956
+26276
 /
 *
 "
@@ -292314,7 +295442,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_envmap_bumpmap
-25973
+26293
 /
 *
 glGetTexBumpParameterfvATI
@@ -292334,7 +295462,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_envmap_bumpmap
-26000
+26320
 /
 *
 glGetTexBumpParameterivATI
@@ -292372,7 +295500,7 @@ entrypoints
 ]
 =
 {
-26027
+26347
 /
 *
 "
@@ -292380,7 +295508,7 @@ glGetTexEnvfv
 "
 *
 /
-26027
+26347
 /
 *
 "
@@ -292395,7 +295523,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26027
+26347
 /
 *
 "
@@ -292437,7 +295565,7 @@ entrypoints
 ]
 =
 {
-26041
+26361
 /
 *
 "
@@ -292445,7 +295573,7 @@ glGetTexEnviv
 "
 *
 /
-26041
+26361
 /
 *
 "
@@ -292460,7 +295588,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26041
+26361
 /
 *
 "
@@ -292484,7 +295612,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-26055
+26375
 /
 *
 glGetTexEnvxv
@@ -292504,7 +295632,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-26069
+26389
 /
 *
 glGetTexEnvxvOES
@@ -292524,7 +295652,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_texture_filter4
-26086
+26406
 /
 *
 glGetTexFilterFuncSGIS
@@ -292544,7 +295672,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-26109
+26429
 /
 *
 glGetTexGendv
@@ -292564,7 +295692,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-26123
+26443
 /
 *
 glGetTexGenfv
@@ -292584,7 +295712,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_cube_map
-26137
+26457
 /
 *
 glGetTexGenfvOES
@@ -292604,7 +295732,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-26154
+26474
 /
 *
 glGetTexGeniv
@@ -292624,7 +295752,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_cube_map
-26168
+26488
 /
 *
 glGetTexGenivOES
@@ -292662,7 +295790,7 @@ entrypoints
 ]
 =
 {
-26185
+26505
 /
 *
 "
@@ -292670,7 +295798,7 @@ glGetTexGenxvOES
 "
 *
 /
-26185
+26505
 /
 *
 "
@@ -292685,7 +295813,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26185
+26505
 /
 *
 "
@@ -292709,7 +295837,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-26202
+26522
 /
 *
 glGetTexImage
@@ -292747,7 +295875,7 @@ entrypoints
 ]
 =
 {
-26216
+26536
 /
 *
 "
@@ -292755,7 +295883,7 @@ glGetTexLevelParameterfv
 "
 *
 /
-26216
+26536
 /
 *
 "
@@ -292770,7 +295898,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26216
+26536
 /
 *
 "
@@ -292812,7 +295940,7 @@ entrypoints
 ]
 =
 {
-26241
+26561
 /
 *
 "
@@ -292820,7 +295948,7 @@ glGetTexLevelParameteriv
 "
 *
 /
-26241
+26561
 /
 *
 "
@@ -292835,7 +295963,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26241
+26561
 /
 *
 "
@@ -292859,7 +295987,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-26266
+26586
 /
 *
 glGetTexLevelParameterxvOES
@@ -292900,7 +296028,7 @@ entrypoints
 ]
 =
 {
-26294
+26614
 /
 *
 "
@@ -292908,7 +296036,7 @@ glGetTexParameterIiv
 "
 *
 /
-26294
+26614
 /
 *
 "
@@ -292916,7 +296044,7 @@ glGetTexParameterIiv
 "
 *
 /
-26315
+26635
 /
 *
 "
@@ -292924,7 +296052,7 @@ glGetTexParameterIivEXT
 "
 *
 /
-26315
+26635
 /
 *
 "
@@ -292932,7 +296060,7 @@ glGetTexParameterIivEXT
 "
 *
 /
-26339
+26659
 /
 *
 "
@@ -292947,7 +296075,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26294
+26614
 /
 *
 "
@@ -292992,7 +296120,7 @@ entrypoints
 ]
 =
 {
-26315
+26635
 /
 *
 "
@@ -293000,7 +296128,7 @@ glGetTexParameterIivEXT
 "
 *
 /
-26315
+26635
 /
 *
 "
@@ -293008,7 +296136,7 @@ glGetTexParameterIivEXT
 "
 *
 /
-26294
+26614
 /
 *
 "
@@ -293016,7 +296144,7 @@ glGetTexParameterIiv
 "
 *
 /
-26294
+26614
 /
 *
 "
@@ -293024,7 +296152,7 @@ glGetTexParameterIiv
 "
 *
 /
-26339
+26659
 /
 *
 "
@@ -293039,7 +296167,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26315
+26635
 /
 *
 "
@@ -293084,7 +296212,7 @@ entrypoints
 ]
 =
 {
-26339
+26659
 /
 *
 "
@@ -293092,7 +296220,7 @@ glGetTexParameterIivOES
 "
 *
 /
-26294
+26614
 /
 *
 "
@@ -293100,7 +296228,7 @@ glGetTexParameterIiv
 "
 *
 /
-26294
+26614
 /
 *
 "
@@ -293108,7 +296236,7 @@ glGetTexParameterIiv
 "
 *
 /
-26315
+26635
 /
 *
 "
@@ -293116,7 +296244,7 @@ glGetTexParameterIivEXT
 "
 *
 /
-26315
+26635
 /
 *
 "
@@ -293131,7 +296259,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26339
+26659
 /
 *
 "
@@ -293176,7 +296304,7 @@ entrypoints
 ]
 =
 {
-26363
+26683
 /
 *
 "
@@ -293184,7 +296312,7 @@ glGetTexParameterIuiv
 "
 *
 /
-26363
+26683
 /
 *
 "
@@ -293192,7 +296320,7 @@ glGetTexParameterIuiv
 "
 *
 /
-26385
+26705
 /
 *
 "
@@ -293200,7 +296328,7 @@ glGetTexParameterIuivEXT
 "
 *
 /
-26385
+26705
 /
 *
 "
@@ -293208,7 +296336,7 @@ glGetTexParameterIuivEXT
 "
 *
 /
-26410
+26730
 /
 *
 "
@@ -293223,7 +296351,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26363
+26683
 /
 *
 "
@@ -293268,7 +296396,7 @@ entrypoints
 ]
 =
 {
-26385
+26705
 /
 *
 "
@@ -293276,7 +296404,7 @@ glGetTexParameterIuivEXT
 "
 *
 /
-26385
+26705
 /
 *
 "
@@ -293284,7 +296412,7 @@ glGetTexParameterIuivEXT
 "
 *
 /
-26363
+26683
 /
 *
 "
@@ -293292,7 +296420,7 @@ glGetTexParameterIuiv
 "
 *
 /
-26363
+26683
 /
 *
 "
@@ -293300,7 +296428,7 @@ glGetTexParameterIuiv
 "
 *
 /
-26410
+26730
 /
 *
 "
@@ -293315,7 +296443,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26385
+26705
 /
 *
 "
@@ -293360,7 +296488,7 @@ entrypoints
 ]
 =
 {
-26410
+26730
 /
 *
 "
@@ -293368,7 +296496,7 @@ glGetTexParameterIuivOES
 "
 *
 /
-26363
+26683
 /
 *
 "
@@ -293376,7 +296504,7 @@ glGetTexParameterIuiv
 "
 *
 /
-26363
+26683
 /
 *
 "
@@ -293384,7 +296512,7 @@ glGetTexParameterIuiv
 "
 *
 /
-26385
+26705
 /
 *
 "
@@ -293392,7 +296520,7 @@ glGetTexParameterIuivEXT
 "
 *
 /
-26385
+26705
 /
 *
 "
@@ -293407,7 +296535,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26410
+26730
 /
 *
 "
@@ -293431,7 +296559,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_texture_range
-26435
+26755
 /
 *
 glGetTexParameterPointervAPPLE
@@ -293470,7 +296598,7 @@ entrypoints
 ]
 =
 {
-26466
+26786
 /
 *
 "
@@ -293478,7 +296606,7 @@ glGetTexParameterfv
 "
 *
 /
-26466
+26786
 /
 *
 "
@@ -293486,7 +296614,7 @@ glGetTexParameterfv
 "
 *
 /
-26466
+26786
 /
 *
 "
@@ -293501,7 +296629,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26466
+26786
 /
 *
 "
@@ -293544,7 +296672,7 @@ entrypoints
 ]
 =
 {
-26486
+26806
 /
 *
 "
@@ -293552,7 +296680,7 @@ glGetTexParameteriv
 "
 *
 /
-26486
+26806
 /
 *
 "
@@ -293560,7 +296688,7 @@ glGetTexParameteriv
 "
 *
 /
-26486
+26806
 /
 *
 "
@@ -293575,7 +296703,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26486
+26806
 /
 *
 "
@@ -293599,7 +296727,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-26506
+26826
 /
 *
 glGetTexParameterxv
@@ -293619,7 +296747,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-26526
+26846
 /
 *
 glGetTexParameterxvOES
@@ -293657,7 +296785,7 @@ entrypoints
 ]
 =
 {
-26549
+26869
 /
 *
 "
@@ -293665,7 +296793,7 @@ glGetTextureHandleARB
 "
 *
 /
-26571
+26891
 /
 *
 "
@@ -293680,7 +296808,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26549
+26869
 /
 *
 "
@@ -293722,7 +296850,7 @@ entrypoints
 ]
 =
 {
-26571
+26891
 /
 *
 "
@@ -293730,7 +296858,7 @@ glGetTextureHandleIMG
 "
 *
 /
-26549
+26869
 /
 *
 "
@@ -293745,7 +296873,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26571
+26891
 /
 *
 "
@@ -293769,7 +296897,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-26593
+26913
 /
 *
 glGetTextureHandleNV
@@ -293807,7 +296935,7 @@ entrypoints
 ]
 =
 {
-26614
+26934
 /
 *
 "
@@ -293815,7 +296943,7 @@ glGetTextureImage
 "
 *
 /
-26614
+26934
 /
 *
 "
@@ -293830,7 +296958,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26614
+26934
 /
 *
 "
@@ -293854,7 +296982,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-26632
+26952
 /
 *
 glGetTextureImageEXT
@@ -293892,7 +297020,7 @@ entrypoints
 ]
 =
 {
-26653
+26973
 /
 *
 "
@@ -293900,7 +297028,7 @@ glGetTextureLevelParameterfv
 "
 *
 /
-26653
+26973
 /
 *
 "
@@ -293915,7 +297043,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26653
+26973
 /
 *
 "
@@ -293939,7 +297067,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-26682
+27002
 /
 *
 glGetTextureLevelParameterfvEXT
@@ -293977,7 +297105,7 @@ entrypoints
 ]
 =
 {
-26714
+27034
 /
 *
 "
@@ -293985,7 +297113,7 @@ glGetTextureLevelParameteriv
 "
 *
 /
-26714
+27034
 /
 *
 "
@@ -294000,7 +297128,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26714
+27034
 /
 *
 "
@@ -294024,7 +297152,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-26743
+27063
 /
 *
 glGetTextureLevelParameterivEXT
@@ -294062,7 +297190,7 @@ entrypoints
 ]
 =
 {
-26775
+27095
 /
 *
 "
@@ -294070,7 +297198,7 @@ glGetTextureParameterIiv
 "
 *
 /
-26775
+27095
 /
 *
 "
@@ -294085,7 +297213,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26775
+27095
 /
 *
 "
@@ -294109,7 +297237,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-26800
+27120
 /
 *
 glGetTextureParameterIivEXT
@@ -294147,7 +297275,7 @@ entrypoints
 ]
 =
 {
-26828
+27148
 /
 *
 "
@@ -294155,7 +297283,7 @@ glGetTextureParameterIuiv
 "
 *
 /
-26828
+27148
 /
 *
 "
@@ -294170,7 +297298,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26828
+27148
 /
 *
 "
@@ -294194,7 +297322,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-26854
+27174
 /
 *
 glGetTextureParameterIuivEXT
@@ -294232,7 +297360,7 @@ entrypoints
 ]
 =
 {
-26883
+27203
 /
 *
 "
@@ -294240,7 +297368,7 @@ glGetTextureParameterfv
 "
 *
 /
-26883
+27203
 /
 *
 "
@@ -294255,7 +297383,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26883
+27203
 /
 *
 "
@@ -294279,7 +297407,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-26907
+27227
 /
 *
 glGetTextureParameterfvEXT
@@ -294317,7 +297445,7 @@ entrypoints
 ]
 =
 {
-26934
+27254
 /
 *
 "
@@ -294325,7 +297453,7 @@ glGetTextureParameteriv
 "
 *
 /
-26934
+27254
 /
 *
 "
@@ -294340,7 +297468,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26934
+27254
 /
 *
 "
@@ -294364,7 +297492,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-26958
+27278
 /
 *
 glGetTextureParameterivEXT
@@ -294402,7 +297530,7 @@ entrypoints
 ]
 =
 {
-26985
+27305
 /
 *
 "
@@ -294410,7 +297538,7 @@ glGetTextureSamplerHandleARB
 "
 *
 /
-27014
+27334
 /
 *
 "
@@ -294425,7 +297553,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-26985
+27305
 /
 *
 "
@@ -294467,7 +297595,7 @@ entrypoints
 ]
 =
 {
-27014
+27334
 /
 *
 "
@@ -294475,7 +297603,7 @@ glGetTextureSamplerHandleIMG
 "
 *
 /
-26985
+27305
 /
 *
 "
@@ -294490,7 +297618,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27014
+27334
 /
 *
 "
@@ -294514,7 +297642,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-27043
+27363
 /
 *
 glGetTextureSamplerHandleNV
@@ -294552,7 +297680,7 @@ entrypoints
 ]
 =
 {
-27071
+27391
 /
 *
 "
@@ -294560,7 +297688,7 @@ glGetTextureSubImage
 "
 *
 /
-27071
+27391
 /
 *
 "
@@ -294575,7 +297703,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27071
+27391
 /
 *
 "
@@ -294599,7 +297727,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-27092
+27412
 /
 *
 glGetTrackMatrixivNV
@@ -294638,7 +297766,7 @@ entrypoints
 ]
 =
 {
-27113
+27433
 /
 *
 "
@@ -294646,7 +297774,7 @@ glGetTransformFeedbackVarying
 "
 *
 /
-27113
+27433
 /
 *
 "
@@ -294654,7 +297782,7 @@ glGetTransformFeedbackVarying
 "
 *
 /
-27143
+27463
 /
 *
 "
@@ -294669,7 +297797,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27113
+27433
 /
 *
 "
@@ -294712,7 +297840,7 @@ entrypoints
 ]
 =
 {
-27143
+27463
 /
 *
 "
@@ -294720,7 +297848,7 @@ glGetTransformFeedbackVaryingEXT
 "
 *
 /
-27113
+27433
 /
 *
 "
@@ -294728,7 +297856,7 @@ glGetTransformFeedbackVarying
 "
 *
 /
-27113
+27433
 /
 *
 "
@@ -294743,7 +297871,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27143
+27463
 /
 *
 "
@@ -294767,7 +297895,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_transform_feedback
-27176
+27496
 /
 *
 glGetTransformFeedbackVaryingNV
@@ -294805,7 +297933,7 @@ entrypoints
 ]
 =
 {
-27208
+27528
 /
 *
 "
@@ -294813,7 +297941,7 @@ glGetTransformFeedbacki64_v
 "
 *
 /
-27208
+27528
 /
 *
 "
@@ -294828,7 +297956,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27208
+27528
 /
 *
 "
@@ -294870,7 +297998,7 @@ entrypoints
 ]
 =
 {
-27236
+27556
 /
 *
 "
@@ -294878,7 +298006,7 @@ glGetTransformFeedbacki_v
 "
 *
 /
-27236
+27556
 /
 *
 "
@@ -294893,7 +298021,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27236
+27556
 /
 *
 "
@@ -294935,7 +298063,7 @@ entrypoints
 ]
 =
 {
-27262
+27582
 /
 *
 "
@@ -294943,7 +298071,7 @@ glGetTransformFeedbackiv
 "
 *
 /
-27262
+27582
 /
 *
 "
@@ -294958,7 +298086,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27262
+27582
 /
 *
 "
@@ -294982,7 +298110,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ANGLE_translated_shader_source
-27287
+27607
 /
 *
 glGetTranslatedShaderSourceANGLE
@@ -295021,7 +298149,7 @@ entrypoints
 ]
 =
 {
-27320
+27640
 /
 *
 "
@@ -295029,7 +298157,7 @@ glGetUniformBlockIndex
 "
 *
 /
-27320
+27640
 /
 *
 "
@@ -295037,7 +298165,7 @@ glGetUniformBlockIndex
 "
 *
 /
-27320
+27640
 /
 *
 "
@@ -295052,7 +298180,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27320
+27640
 /
 *
 "
@@ -295076,7 +298204,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_bindable_uniform
-27343
+27663
 /
 *
 glGetUniformBufferSizeEXT
@@ -295115,7 +298243,7 @@ entrypoints
 ]
 =
 {
-27369
+27689
 /
 *
 "
@@ -295123,7 +298251,7 @@ glGetUniformIndices
 "
 *
 /
-27369
+27689
 /
 *
 "
@@ -295131,7 +298259,7 @@ glGetUniformIndices
 "
 *
 /
-27369
+27689
 /
 *
 "
@@ -295146,7 +298274,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27369
+27689
 /
 *
 "
@@ -295189,7 +298317,7 @@ entrypoints
 ]
 =
 {
-27389
+27709
 /
 *
 "
@@ -295197,7 +298325,7 @@ glGetUniformLocation
 "
 *
 /
-27389
+27709
 /
 *
 "
@@ -295205,7 +298333,7 @@ glGetUniformLocation
 "
 *
 /
-27410
+27730
 /
 *
 "
@@ -295220,7 +298348,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27389
+27709
 /
 *
 "
@@ -295263,7 +298391,7 @@ entrypoints
 ]
 =
 {
-27410
+27730
 /
 *
 "
@@ -295271,7 +298399,7 @@ glGetUniformLocationARB
 "
 *
 /
-27389
+27709
 /
 *
 "
@@ -295279,7 +298407,7 @@ glGetUniformLocation
 "
 *
 /
-27389
+27709
 /
 *
 "
@@ -295294,7 +298422,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27410
+27730
 /
 *
 "
@@ -295318,7 +298446,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_bindable_uniform
-27434
+27754
 /
 *
 glGetUniformOffsetEXT
@@ -295356,7 +298484,7 @@ entrypoints
 ]
 =
 {
-27456
+27776
 /
 *
 "
@@ -295364,7 +298492,7 @@ glGetUniformSubroutineuiv
 "
 *
 /
-27456
+27776
 /
 *
 "
@@ -295379,7 +298507,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27456
+27776
 /
 *
 "
@@ -295421,7 +298549,7 @@ entrypoints
 ]
 =
 {
-27482
+27802
 /
 *
 "
@@ -295429,7 +298557,7 @@ glGetUniformdv
 "
 *
 /
-27482
+27802
 /
 *
 "
@@ -295444,7 +298572,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27482
+27802
 /
 *
 "
@@ -295487,7 +298615,7 @@ entrypoints
 ]
 =
 {
-27497
+27817
 /
 *
 "
@@ -295495,7 +298623,7 @@ glGetUniformfv
 "
 *
 /
-27497
+27817
 /
 *
 "
@@ -295503,7 +298631,7 @@ glGetUniformfv
 "
 *
 /
-27512
+27832
 /
 *
 "
@@ -295518,7 +298646,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27497
+27817
 /
 *
 "
@@ -295561,7 +298689,7 @@ entrypoints
 ]
 =
 {
-27512
+27832
 /
 *
 "
@@ -295569,7 +298697,7 @@ glGetUniformfvARB
 "
 *
 /
-27497
+27817
 /
 *
 "
@@ -295577,7 +298705,7 @@ glGetUniformfv
 "
 *
 /
-27497
+27817
 /
 *
 "
@@ -295592,7 +298720,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27512
+27832
 /
 *
 "
@@ -295616,7 +298744,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-27530
+27850
 /
 *
 glGetUniformi64vARB
@@ -295654,7 +298782,7 @@ entrypoints
 ]
 =
 {
-27550
+27870
 /
 *
 "
@@ -295662,7 +298790,7 @@ glGetUniformi64vNV
 "
 *
 /
-27550
+27870
 /
 *
 "
@@ -295677,7 +298805,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27550
+27870
 /
 *
 "
@@ -295720,7 +298848,7 @@ entrypoints
 ]
 =
 {
-27569
+27889
 /
 *
 "
@@ -295728,7 +298856,7 @@ glGetUniformiv
 "
 *
 /
-27569
+27889
 /
 *
 "
@@ -295736,7 +298864,7 @@ glGetUniformiv
 "
 *
 /
-27584
+27904
 /
 *
 "
@@ -295751,7 +298879,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27569
+27889
 /
 *
 "
@@ -295794,7 +298922,7 @@ entrypoints
 ]
 =
 {
-27584
+27904
 /
 *
 "
@@ -295802,7 +298930,7 @@ glGetUniformivARB
 "
 *
 /
-27569
+27889
 /
 *
 "
@@ -295810,7 +298938,7 @@ glGetUniformiv
 "
 *
 /
-27569
+27889
 /
 *
 "
@@ -295825,7 +298953,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27584
+27904
 /
 *
 "
@@ -295849,7 +298977,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-27602
+27922
 /
 *
 glGetUniformui64vARB
@@ -295887,7 +299015,7 @@ entrypoints
 ]
 =
 {
-27623
+27943
 /
 *
 "
@@ -295895,7 +299023,7 @@ glGetUniformui64vNV
 "
 *
 /
-27623
+27943
 /
 *
 "
@@ -295910,7 +299038,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27623
+27943
 /
 *
 "
@@ -295953,7 +299081,7 @@ entrypoints
 ]
 =
 {
-27643
+27963
 /
 *
 "
@@ -295961,7 +299089,7 @@ glGetUniformuiv
 "
 *
 /
-27643
+27963
 /
 *
 "
@@ -295969,7 +299097,7 @@ glGetUniformuiv
 "
 *
 /
-27659
+27979
 /
 *
 "
@@ -295984,7 +299112,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27643
+27963
 /
 *
 "
@@ -296027,7 +299155,7 @@ entrypoints
 ]
 =
 {
-27659
+27979
 /
 *
 "
@@ -296035,7 +299163,7 @@ glGetUniformuivEXT
 "
 *
 /
-27643
+27963
 /
 *
 "
@@ -296043,7 +299171,7 @@ glGetUniformuiv
 "
 *
 /
-27643
+27963
 /
 *
 "
@@ -296058,7 +299186,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27659
+27979
 /
 *
 "
@@ -296100,7 +299228,7 @@ entrypoints
 ]
 =
 {
-27678
+27998
 /
 *
 "
@@ -296108,7 +299236,7 @@ glGetUnsignedBytei_vEXT
 "
 *
 /
-27678
+27998
 /
 *
 "
@@ -296123,7 +299251,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27678
+27998
 /
 *
 "
@@ -296165,7 +299293,7 @@ entrypoints
 ]
 =
 {
-27702
+28022
 /
 *
 "
@@ -296173,7 +299301,7 @@ glGetUnsignedBytevEXT
 "
 *
 /
-27702
+28022
 /
 *
 "
@@ -296188,7 +299316,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27702
+28022
 /
 *
 "
@@ -296212,7 +299340,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-27724
+28044
 /
 *
 glGetVariantArrayObjectfvATI
@@ -296232,7 +299360,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-27753
+28073
 /
 *
 glGetVariantArrayObjectivATI
@@ -296252,7 +299380,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-27782
+28102
 /
 *
 glGetVariantBooleanvEXT
@@ -296272,7 +299400,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-27806
+28126
 /
 *
 glGetVariantFloatvEXT
@@ -296292,7 +299420,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-27828
+28148
 /
 *
 glGetVariantIntegervEXT
@@ -296312,7 +299440,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-27852
+28172
 /
 *
 glGetVariantPointervEXT
@@ -296332,7 +299460,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_transform_feedback
-27876
+28196
 /
 *
 glGetVaryingLocationNV
@@ -296370,7 +299498,7 @@ entrypoints
 ]
 =
 {
-27899
+28219
 /
 *
 "
@@ -296378,7 +299506,7 @@ glGetVertexArrayIndexed64iv
 "
 *
 /
-27899
+28219
 /
 *
 "
@@ -296393,7 +299521,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27899
+28219
 /
 *
 "
@@ -296435,7 +299563,7 @@ entrypoints
 ]
 =
 {
-27927
+28247
 /
 *
 "
@@ -296443,7 +299571,7 @@ glGetVertexArrayIndexediv
 "
 *
 /
-27927
+28247
 /
 *
 "
@@ -296458,7 +299586,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-27927
+28247
 /
 *
 "
@@ -296482,7 +299610,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-27953
+28273
 /
 *
 glGetVertexArrayIntegeri_vEXT
@@ -296502,7 +299630,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-27983
+28303
 /
 *
 glGetVertexArrayIntegervEXT
@@ -296522,7 +299650,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-28011
+28331
 /
 *
 glGetVertexArrayPointeri_vEXT
@@ -296542,7 +299670,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-28041
+28361
 /
 *
 glGetVertexArrayPointervEXT
@@ -296580,7 +299708,7 @@ entrypoints
 ]
 =
 {
-28069
+28389
 /
 *
 "
@@ -296588,7 +299716,7 @@ glGetVertexArrayiv
 "
 *
 /
-28069
+28389
 /
 *
 "
@@ -296603,7 +299731,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28069
+28389
 /
 *
 "
@@ -296627,7 +299755,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_attrib_array_object
-28088
+28408
 /
 *
 glGetVertexAttribArrayObjectfvATI
@@ -296647,7 +299775,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_attrib_array_object
-28122
+28442
 /
 *
 glGetVertexAttribArrayObjectivATI
@@ -296674,6 +299802,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -296686,7 +299815,7 @@ entrypoints
 ]
 =
 {
-28156
+28476
 /
 *
 "
@@ -296694,7 +299823,7 @@ glGetVertexAttribIiv
 "
 *
 /
-28156
+28476
 /
 *
 "
@@ -296702,7 +299831,15 @@ glGetVertexAttribIiv
 "
 *
 /
-28177
+28497
+/
+*
+"
+glGetVertexAttribIivEXT
+"
+*
+/
+28497
 /
 *
 "
@@ -296717,7 +299854,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28156
+28476
 /
 *
 "
@@ -296746,6 +299883,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
@@ -296760,7 +299898,7 @@ entrypoints
 ]
 =
 {
-28177
+28497
 /
 *
 "
@@ -296768,7 +299906,15 @@ glGetVertexAttribIivEXT
 "
 *
 /
-28156
+28497
+/
+*
+"
+glGetVertexAttribIivEXT
+"
+*
+/
+28476
 /
 *
 "
@@ -296776,7 +299922,7 @@ glGetVertexAttribIiv
 "
 *
 /
-28156
+28476
 /
 *
 "
@@ -296791,7 +299937,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28177
+28497
 /
 *
 "
@@ -296822,6 +299968,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -296834,7 +299981,7 @@ entrypoints
 ]
 =
 {
-28201
+28521
 /
 *
 "
@@ -296842,7 +299989,7 @@ glGetVertexAttribIuiv
 "
 *
 /
-28201
+28521
 /
 *
 "
@@ -296850,7 +299997,15 @@ glGetVertexAttribIuiv
 "
 *
 /
-28223
+28543
+/
+*
+"
+glGetVertexAttribIuivEXT
+"
+*
+/
+28543
 /
 *
 "
@@ -296865,7 +300020,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28201
+28521
 /
 *
 "
@@ -296894,6 +300049,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
@@ -296908,7 +300064,7 @@ entrypoints
 ]
 =
 {
-28223
+28543
 /
 *
 "
@@ -296916,7 +300072,15 @@ glGetVertexAttribIuivEXT
 "
 *
 /
-28201
+28543
+/
+*
+"
+glGetVertexAttribIuivEXT
+"
+*
+/
+28521
 /
 *
 "
@@ -296924,7 +300088,7 @@ glGetVertexAttribIuiv
 "
 *
 /
-28201
+28521
 /
 *
 "
@@ -296939,7 +300103,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28223
+28543
 /
 *
 "
@@ -296982,7 +300146,7 @@ entrypoints
 ]
 =
 {
-28248
+28568
 /
 *
 "
@@ -296990,7 +300154,7 @@ glGetVertexAttribLdv
 "
 *
 /
-28248
+28568
 /
 *
 "
@@ -296998,7 +300162,7 @@ glGetVertexAttribLdv
 "
 *
 /
-28269
+28589
 /
 *
 "
@@ -297013,7 +300177,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28248
+28568
 /
 *
 "
@@ -297056,7 +300220,7 @@ entrypoints
 ]
 =
 {
-28269
+28589
 /
 *
 "
@@ -297064,7 +300228,7 @@ glGetVertexAttribLdvEXT
 "
 *
 /
-28248
+28568
 /
 *
 "
@@ -297072,7 +300236,7 @@ glGetVertexAttribLdv
 "
 *
 /
-28248
+28568
 /
 *
 "
@@ -297087,7 +300251,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28269
+28589
 /
 *
 "
@@ -297111,7 +300275,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-28293
+28613
 /
 *
 glGetVertexAttribLi64vNV
@@ -297131,7 +300295,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-28318
+28638
 /
 *
 glGetVertexAttribLui64vARB
@@ -297151,7 +300315,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-28345
+28665
 /
 *
 glGetVertexAttribLui64vNV
@@ -297192,7 +300356,7 @@ entrypoints
 ]
 =
 {
-28371
+28691
 /
 *
 "
@@ -297200,7 +300364,7 @@ glGetVertexAttribPointerv
 "
 *
 /
-28371
+28691
 /
 *
 "
@@ -297208,7 +300372,7 @@ glGetVertexAttribPointerv
 "
 *
 /
-28397
+28717
 /
 *
 "
@@ -297216,7 +300380,7 @@ glGetVertexAttribPointervARB
 "
 *
 /
-28397
+28717
 /
 *
 "
@@ -297224,7 +300388,7 @@ glGetVertexAttribPointervARB
 "
 *
 /
-28426
+28746
 /
 *
 "
@@ -297239,7 +300403,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28371
+28691
 /
 *
 "
@@ -297284,7 +300448,7 @@ entrypoints
 ]
 =
 {
-28397
+28717
 /
 *
 "
@@ -297292,7 +300456,7 @@ glGetVertexAttribPointervARB
 "
 *
 /
-28397
+28717
 /
 *
 "
@@ -297300,7 +300464,7 @@ glGetVertexAttribPointervARB
 "
 *
 /
-28371
+28691
 /
 *
 "
@@ -297308,7 +300472,7 @@ glGetVertexAttribPointerv
 "
 *
 /
-28371
+28691
 /
 *
 "
@@ -297316,7 +300480,7 @@ glGetVertexAttribPointerv
 "
 *
 /
-28426
+28746
 /
 *
 "
@@ -297331,7 +300495,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28397
+28717
 /
 *
 "
@@ -297376,7 +300540,7 @@ entrypoints
 ]
 =
 {
-28426
+28746
 /
 *
 "
@@ -297384,7 +300548,7 @@ glGetVertexAttribPointervNV
 "
 *
 /
-28371
+28691
 /
 *
 "
@@ -297392,7 +300556,7 @@ glGetVertexAttribPointerv
 "
 *
 /
-28371
+28691
 /
 *
 "
@@ -297400,7 +300564,7 @@ glGetVertexAttribPointerv
 "
 *
 /
-28397
+28717
 /
 *
 "
@@ -297408,7 +300572,7 @@ glGetVertexAttribPointervARB
 "
 *
 /
-28397
+28717
 /
 *
 "
@@ -297423,7 +300587,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28426
+28746
 /
 *
 "
@@ -297467,7 +300631,7 @@ entrypoints
 ]
 =
 {
-28454
+28774
 /
 *
 "
@@ -297475,7 +300639,7 @@ glGetVertexAttribdv
 "
 *
 /
-28474
+28794
 /
 *
 "
@@ -297483,7 +300647,7 @@ glGetVertexAttribdvARB
 "
 *
 /
-28474
+28794
 /
 *
 "
@@ -297491,7 +300655,7 @@ glGetVertexAttribdvARB
 "
 *
 /
-28497
+28817
 /
 *
 "
@@ -297506,7 +300670,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28454
+28774
 /
 *
 "
@@ -297550,7 +300714,7 @@ entrypoints
 ]
 =
 {
-28474
+28794
 /
 *
 "
@@ -297558,7 +300722,7 @@ glGetVertexAttribdvARB
 "
 *
 /
-28474
+28794
 /
 *
 "
@@ -297566,7 +300730,7 @@ glGetVertexAttribdvARB
 "
 *
 /
-28454
+28774
 /
 *
 "
@@ -297574,7 +300738,7 @@ glGetVertexAttribdv
 "
 *
 /
-28497
+28817
 /
 *
 "
@@ -297589,7 +300753,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28474
+28794
 /
 *
 "
@@ -297633,7 +300797,7 @@ entrypoints
 ]
 =
 {
-28497
+28817
 /
 *
 "
@@ -297641,7 +300805,7 @@ glGetVertexAttribdvNV
 "
 *
 /
-28454
+28774
 /
 *
 "
@@ -297649,7 +300813,7 @@ glGetVertexAttribdv
 "
 *
 /
-28474
+28794
 /
 *
 "
@@ -297657,7 +300821,7 @@ glGetVertexAttribdvARB
 "
 *
 /
-28474
+28794
 /
 *
 "
@@ -297672,7 +300836,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28497
+28817
 /
 *
 "
@@ -297717,7 +300881,7 @@ entrypoints
 ]
 =
 {
-28519
+28839
 /
 *
 "
@@ -297725,7 +300889,7 @@ glGetVertexAttribfv
 "
 *
 /
-28519
+28839
 /
 *
 "
@@ -297733,7 +300897,7 @@ glGetVertexAttribfv
 "
 *
 /
-28539
+28859
 /
 *
 "
@@ -297741,7 +300905,7 @@ glGetVertexAttribfvARB
 "
 *
 /
-28539
+28859
 /
 *
 "
@@ -297749,7 +300913,7 @@ glGetVertexAttribfvARB
 "
 *
 /
-28562
+28882
 /
 *
 "
@@ -297764,7 +300928,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28519
+28839
 /
 *
 "
@@ -297809,7 +300973,7 @@ entrypoints
 ]
 =
 {
-28539
+28859
 /
 *
 "
@@ -297817,7 +300981,7 @@ glGetVertexAttribfvARB
 "
 *
 /
-28539
+28859
 /
 *
 "
@@ -297825,7 +300989,7 @@ glGetVertexAttribfvARB
 "
 *
 /
-28519
+28839
 /
 *
 "
@@ -297833,7 +300997,7 @@ glGetVertexAttribfv
 "
 *
 /
-28519
+28839
 /
 *
 "
@@ -297841,7 +301005,7 @@ glGetVertexAttribfv
 "
 *
 /
-28562
+28882
 /
 *
 "
@@ -297856,7 +301020,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28539
+28859
 /
 *
 "
@@ -297901,7 +301065,7 @@ entrypoints
 ]
 =
 {
-28562
+28882
 /
 *
 "
@@ -297909,7 +301073,7 @@ glGetVertexAttribfvNV
 "
 *
 /
-28519
+28839
 /
 *
 "
@@ -297917,7 +301081,7 @@ glGetVertexAttribfv
 "
 *
 /
-28519
+28839
 /
 *
 "
@@ -297925,7 +301089,7 @@ glGetVertexAttribfv
 "
 *
 /
-28539
+28859
 /
 *
 "
@@ -297933,7 +301097,7 @@ glGetVertexAttribfvARB
 "
 *
 /
-28539
+28859
 /
 *
 "
@@ -297948,7 +301112,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28562
+28882
 /
 *
 "
@@ -297993,7 +301157,7 @@ entrypoints
 ]
 =
 {
-28584
+28904
 /
 *
 "
@@ -298001,7 +301165,7 @@ glGetVertexAttribiv
 "
 *
 /
-28584
+28904
 /
 *
 "
@@ -298009,7 +301173,7 @@ glGetVertexAttribiv
 "
 *
 /
-28604
+28924
 /
 *
 "
@@ -298017,7 +301181,7 @@ glGetVertexAttribivARB
 "
 *
 /
-28604
+28924
 /
 *
 "
@@ -298025,7 +301189,7 @@ glGetVertexAttribivARB
 "
 *
 /
-28627
+28947
 /
 *
 "
@@ -298040,7 +301204,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28584
+28904
 /
 *
 "
@@ -298085,7 +301249,7 @@ entrypoints
 ]
 =
 {
-28604
+28924
 /
 *
 "
@@ -298093,7 +301257,7 @@ glGetVertexAttribivARB
 "
 *
 /
-28604
+28924
 /
 *
 "
@@ -298101,7 +301265,7 @@ glGetVertexAttribivARB
 "
 *
 /
-28584
+28904
 /
 *
 "
@@ -298109,7 +301273,7 @@ glGetVertexAttribiv
 "
 *
 /
-28584
+28904
 /
 *
 "
@@ -298117,7 +301281,7 @@ glGetVertexAttribiv
 "
 *
 /
-28627
+28947
 /
 *
 "
@@ -298132,7 +301296,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28604
+28924
 /
 *
 "
@@ -298177,7 +301341,7 @@ entrypoints
 ]
 =
 {
-28627
+28947
 /
 *
 "
@@ -298185,7 +301349,7 @@ glGetVertexAttribivNV
 "
 *
 /
-28584
+28904
 /
 *
 "
@@ -298193,7 +301357,7 @@ glGetVertexAttribiv
 "
 *
 /
-28584
+28904
 /
 *
 "
@@ -298201,7 +301365,7 @@ glGetVertexAttribiv
 "
 *
 /
-28604
+28924
 /
 *
 "
@@ -298209,7 +301373,7 @@ glGetVertexAttribivARB
 "
 *
 /
-28604
+28924
 /
 *
 "
@@ -298224,7 +301388,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-28627
+28947
 /
 *
 "
@@ -298248,7 +301412,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-28649
+28969
 /
 *
 glGetVideoCaptureStreamdvNV
@@ -298268,7 +301432,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-28677
+28997
 /
 *
 glGetVideoCaptureStreamfvNV
@@ -298288,7 +301452,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-28705
+29025
 /
 *
 glGetVideoCaptureStreamivNV
@@ -298308,7 +301472,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-28733
+29053
 /
 *
 glGetVideoCaptureivNV
@@ -298328,7 +301492,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_present_video
-28755
+29075
 /
 *
 glGetVideoi64vNV
@@ -298348,7 +301512,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_present_video
-28772
+29092
 /
 *
 glGetVideoivNV
@@ -298368,7 +301532,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_present_video
-28787
+29107
 /
 *
 glGetVideoui64vNV
@@ -298388,7 +301552,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_present_video
-28805
+29125
 /
 *
 glGetVideouivNV
@@ -298408,7 +301572,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_draw_vulkan_image
-28821
+29141
 /
 *
 glGetVkProcAddrNV
@@ -298428,7 +301592,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-28839
+29159
 /
 *
 glGetnColorTable
@@ -298448,7 +301612,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-28856
+29176
 /
 *
 glGetnColorTableARB
@@ -298468,7 +301632,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-28876
+29196
 /
 *
 glGetnCompressedTexImage
@@ -298488,7 +301652,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-28901
+29221
 /
 *
 glGetnCompressedTexImageARB
@@ -298508,7 +301672,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-28929
+29249
 /
 *
 glGetnConvolutionFilter
@@ -298528,7 +301692,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-28953
+29273
 /
 *
 glGetnConvolutionFilterARB
@@ -298548,7 +301712,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-28980
+29300
 /
 *
 glGetnHistogram
@@ -298568,7 +301732,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-28996
+29316
 /
 *
 glGetnHistogramARB
@@ -298588,7 +301752,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29015
+29335
 /
 *
 glGetnMapdv
@@ -298608,7 +301772,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29027
+29347
 /
 *
 glGetnMapdvARB
@@ -298628,7 +301792,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29042
+29362
 /
 *
 glGetnMapfv
@@ -298648,7 +301812,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29054
+29374
 /
 *
 glGetnMapfvARB
@@ -298668,7 +301832,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29069
+29389
 /
 *
 glGetnMapiv
@@ -298688,7 +301852,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29081
+29401
 /
 *
 glGetnMapivARB
@@ -298708,7 +301872,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29096
+29416
 /
 *
 glGetnMinmax
@@ -298728,7 +301892,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29109
+29429
 /
 *
 glGetnMinmaxARB
@@ -298748,7 +301912,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29125
+29445
 /
 *
 glGetnPixelMapfv
@@ -298768,7 +301932,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29142
+29462
 /
 *
 glGetnPixelMapfvARB
@@ -298788,7 +301952,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29162
+29482
 /
 *
 glGetnPixelMapuiv
@@ -298808,7 +301972,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29180
+29500
 /
 *
 glGetnPixelMapuivARB
@@ -298828,7 +301992,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29201
+29521
 /
 *
 glGetnPixelMapusv
@@ -298848,7 +302012,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29219
+29539
 /
 *
 glGetnPixelMapusvARB
@@ -298868,7 +302032,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29240
+29560
 /
 *
 glGetnPolygonStipple
@@ -298888,7 +302052,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29261
+29581
 /
 *
 glGetnPolygonStippleARB
@@ -298908,7 +302072,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29285
+29605
 /
 *
 glGetnSeparableFilter
@@ -298928,7 +302092,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29307
+29627
 /
 *
 glGetnSeparableFilterARB
@@ -298948,7 +302112,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29332
+29652
 /
 *
 glGetnTexImage
@@ -298968,7 +302132,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29347
+29667
 /
 *
 glGetnTexImageARB
@@ -298988,7 +302152,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_4_5
-29365
+29685
 /
 *
 glGetnUniformdv
@@ -299008,7 +302172,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29381
+29701
 /
 *
 glGetnUniformdvARB
@@ -299049,7 +302213,7 @@ entrypoints
 ]
 =
 {
-29400
+29720
 /
 *
 "
@@ -299057,7 +302221,7 @@ glGetnUniformfv
 "
 *
 /
-29400
+29720
 /
 *
 "
@@ -299065,7 +302229,7 @@ glGetnUniformfv
 "
 *
 /
-29400
+29720
 /
 *
 "
@@ -299073,7 +302237,7 @@ glGetnUniformfv
 "
 *
 /
-29435
+29755
 /
 *
 "
@@ -299081,7 +302245,7 @@ glGetnUniformfvEXT
 "
 *
 /
-29454
+29774
 /
 *
 "
@@ -299096,7 +302260,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29400
+29720
 /
 *
 "
@@ -299120,7 +302284,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29416
+29736
 /
 *
 glGetnUniformfvARB
@@ -299161,7 +302325,7 @@ entrypoints
 ]
 =
 {
-29435
+29755
 /
 *
 "
@@ -299169,7 +302333,7 @@ glGetnUniformfvEXT
 "
 *
 /
-29400
+29720
 /
 *
 "
@@ -299177,7 +302341,7 @@ glGetnUniformfv
 "
 *
 /
-29400
+29720
 /
 *
 "
@@ -299185,7 +302349,7 @@ glGetnUniformfv
 "
 *
 /
-29400
+29720
 /
 *
 "
@@ -299193,7 +302357,7 @@ glGetnUniformfv
 "
 *
 /
-29454
+29774
 /
 *
 "
@@ -299208,7 +302372,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29435
+29755
 /
 *
 "
@@ -299253,7 +302417,7 @@ entrypoints
 ]
 =
 {
-29454
+29774
 /
 *
 "
@@ -299261,7 +302425,7 @@ glGetnUniformfvKHR
 "
 *
 /
-29400
+29720
 /
 *
 "
@@ -299269,7 +302433,7 @@ glGetnUniformfv
 "
 *
 /
-29400
+29720
 /
 *
 "
@@ -299277,7 +302441,7 @@ glGetnUniformfv
 "
 *
 /
-29400
+29720
 /
 *
 "
@@ -299285,7 +302449,7 @@ glGetnUniformfv
 "
 *
 /
-29435
+29755
 /
 *
 "
@@ -299300,7 +302464,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29454
+29774
 /
 *
 "
@@ -299324,7 +302488,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-29473
+29793
 /
 *
 glGetnUniformi64vARB
@@ -299365,7 +302529,7 @@ entrypoints
 ]
 =
 {
-29494
+29814
 /
 *
 "
@@ -299373,7 +302537,7 @@ glGetnUniformiv
 "
 *
 /
-29494
+29814
 /
 *
 "
@@ -299381,7 +302545,7 @@ glGetnUniformiv
 "
 *
 /
-29494
+29814
 /
 *
 "
@@ -299389,7 +302553,7 @@ glGetnUniformiv
 "
 *
 /
-29529
+29849
 /
 *
 "
@@ -299397,7 +302561,7 @@ glGetnUniformivEXT
 "
 *
 /
-29548
+29868
 /
 *
 "
@@ -299412,7 +302576,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29494
+29814
 /
 *
 "
@@ -299436,7 +302600,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29510
+29830
 /
 *
 glGetnUniformivARB
@@ -299477,7 +302641,7 @@ entrypoints
 ]
 =
 {
-29529
+29849
 /
 *
 "
@@ -299485,7 +302649,7 @@ glGetnUniformivEXT
 "
 *
 /
-29494
+29814
 /
 *
 "
@@ -299493,7 +302657,7 @@ glGetnUniformiv
 "
 *
 /
-29494
+29814
 /
 *
 "
@@ -299501,7 +302665,7 @@ glGetnUniformiv
 "
 *
 /
-29494
+29814
 /
 *
 "
@@ -299509,7 +302673,7 @@ glGetnUniformiv
 "
 *
 /
-29548
+29868
 /
 *
 "
@@ -299524,7 +302688,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29529
+29849
 /
 *
 "
@@ -299569,7 +302733,7 @@ entrypoints
 ]
 =
 {
-29548
+29868
 /
 *
 "
@@ -299577,7 +302741,7 @@ glGetnUniformivKHR
 "
 *
 /
-29494
+29814
 /
 *
 "
@@ -299585,7 +302749,7 @@ glGetnUniformiv
 "
 *
 /
-29494
+29814
 /
 *
 "
@@ -299593,7 +302757,7 @@ glGetnUniformiv
 "
 *
 /
-29494
+29814
 /
 *
 "
@@ -299601,7 +302765,7 @@ glGetnUniformiv
 "
 *
 /
-29529
+29849
 /
 *
 "
@@ -299616,7 +302780,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29548
+29868
 /
 *
 "
@@ -299640,7 +302804,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-29567
+29887
 /
 *
 glGetnUniformui64vARB
@@ -299680,7 +302844,7 @@ entrypoints
 ]
 =
 {
-29589
+29909
 /
 *
 "
@@ -299688,7 +302852,7 @@ glGetnUniformuiv
 "
 *
 /
-29589
+29909
 /
 *
 "
@@ -299696,7 +302860,7 @@ glGetnUniformuiv
 "
 *
 /
-29589
+29909
 /
 *
 "
@@ -299704,7 +302868,7 @@ glGetnUniformuiv
 "
 *
 /
-29626
+29946
 /
 *
 "
@@ -299719,7 +302883,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29589
+29909
 /
 *
 "
@@ -299743,7 +302907,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_robustness
-29606
+29926
 /
 *
 glGetnUniformuivARB
@@ -299783,7 +302947,7 @@ entrypoints
 ]
 =
 {
-29626
+29946
 /
 *
 "
@@ -299791,7 +302955,7 @@ glGetnUniformuivKHR
 "
 *
 /
-29589
+29909
 /
 *
 "
@@ -299799,7 +302963,7 @@ glGetnUniformuiv
 "
 *
 /
-29589
+29909
 /
 *
 "
@@ -299807,7 +302971,7 @@ glGetnUniformuiv
 "
 *
 /
-29589
+29909
 /
 *
 "
@@ -299822,7 +302986,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29626
+29946
 /
 *
 "
@@ -299846,7 +303010,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_global_alpha
-29646
+29966
 /
 *
 glGlobalAlphaFactorbSUN
@@ -299866,7 +303030,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_global_alpha
-29670
+29990
 /
 *
 glGlobalAlphaFactordSUN
@@ -299886,7 +303050,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_global_alpha
-29694
+30014
 /
 *
 glGlobalAlphaFactorfSUN
@@ -299906,7 +303070,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_global_alpha
-29718
+30038
 /
 *
 glGlobalAlphaFactoriSUN
@@ -299926,7 +303090,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_global_alpha
-29742
+30062
 /
 *
 glGlobalAlphaFactorsSUN
@@ -299946,7 +303110,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_global_alpha
-29766
+30086
 /
 *
 glGlobalAlphaFactorubSUN
@@ -299966,7 +303130,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_global_alpha
-29791
+30111
 /
 *
 glGlobalAlphaFactoruiSUN
@@ -299986,7 +303150,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_global_alpha
-29816
+30136
 /
 *
 glGlobalAlphaFactorusSUN
@@ -300025,7 +303189,7 @@ entrypoints
 ]
 =
 {
-29841
+30161
 /
 *
 "
@@ -300033,7 +303197,7 @@ glHint
 "
 *
 /
-29841
+30161
 /
 *
 "
@@ -300041,7 +303205,7 @@ glHint
 "
 *
 /
-29841
+30161
 /
 *
 "
@@ -300056,7 +303220,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29841
+30161
 /
 *
 "
@@ -300080,7 +303244,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_PGI_misc_hints
-29848
+30168
 /
 *
 glHintPGI
@@ -300118,7 +303282,7 @@ entrypoints
 ]
 =
 {
-29858
+30178
 /
 *
 "
@@ -300126,7 +303290,7 @@ glHistogram
 "
 *
 /
-29870
+30190
 /
 *
 "
@@ -300141,7 +303305,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29858
+30178
 /
 *
 "
@@ -300183,7 +303347,7 @@ entrypoints
 ]
 =
 {
-29870
+30190
 /
 *
 "
@@ -300191,7 +303355,7 @@ glHistogramEXT
 "
 *
 /
-29858
+30178
 /
 *
 "
@@ -300206,7 +303370,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-29870
+30190
 /
 *
 "
@@ -300230,7 +303394,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_igloo_interface
-29885
+30205
 /
 *
 glIglooInterfaceSGIX
@@ -300250,7 +303414,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_HP_image_transform
-29906
+30226
 /
 *
 glImageTransformParameterfHP
@@ -300270,7 +303434,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_HP_image_transform
-29935
+30255
 /
 *
 glImageTransformParameterfvHP
@@ -300290,7 +303454,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_HP_image_transform
-29965
+30285
 /
 *
 glImageTransformParameteriHP
@@ -300310,7 +303474,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_HP_image_transform
-29994
+30314
 /
 *
 glImageTransformParameterivHP
@@ -300330,7 +303494,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object_fd
-30024
+30344
 /
 *
 glImportMemoryFdEXT
@@ -300350,7 +303514,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object_win32
-30044
+30364
 /
 *
 glImportMemoryWin32HandleEXT
@@ -300370,7 +303534,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object_win32
-30073
+30393
 /
 *
 glImportMemoryWin32NameEXT
@@ -300390,7 +303554,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore_fd
-30100
+30420
 /
 *
 glImportSemaphoreFdEXT
@@ -300410,7 +303574,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore_win32
-30123
+30443
 /
 *
 glImportSemaphoreWin32HandleEXT
@@ -300430,7 +303594,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore_win32
-30155
+30475
 /
 *
 glImportSemaphoreWin32NameEXT
@@ -300450,7 +303614,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_x11_sync_object
-30185
+30505
 /
 *
 glImportSyncEXT
@@ -300470,7 +303634,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-30201
+30521
 /
 *
 glIndexFormatNV
@@ -300490,7 +303654,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_index_func
-30217
+30537
 /
 *
 glIndexFuncEXT
@@ -300510,7 +303674,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30232
+30552
 /
 *
 glIndexMask
@@ -300530,7 +303694,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_index_material
-30244
+30564
 /
 *
 glIndexMaterialEXT
@@ -300550,7 +303714,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_1
-30263
+30583
 /
 *
 glIndexPointer
@@ -300570,7 +303734,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_array
-30278
+30598
 /
 *
 glIndexPointerEXT
@@ -300590,7 +303754,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_vertex_array_lists
-30296
+30616
 /
 *
 glIndexPointerListIBM
@@ -300610,7 +303774,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30318
+30638
 /
 *
 glIndexd
@@ -300630,7 +303794,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30327
+30647
 /
 *
 glIndexdv
@@ -300650,7 +303814,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30337
+30657
 /
 *
 glIndexf
@@ -300670,7 +303834,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30346
+30666
 /
 *
 glIndexfv
@@ -300690,7 +303854,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30356
+30676
 /
 *
 glIndexi
@@ -300710,7 +303874,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30365
+30685
 /
 *
 glIndexiv
@@ -300730,7 +303894,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30375
+30695
 /
 *
 glIndexs
@@ -300750,7 +303914,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30384
+30704
 /
 *
 glIndexsv
@@ -300770,7 +303934,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_1
-30394
+30714
 /
 *
 glIndexub
@@ -300790,7 +303954,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_1
-30404
+30724
 /
 *
 glIndexubv
@@ -300810,7 +303974,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-30415
+30735
 /
 *
 glIndexxOES
@@ -300830,7 +303994,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-30427
+30747
 /
 *
 glIndexxvOES
@@ -300850,7 +304014,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-30440
+30760
 /
 *
 glInitNames
@@ -300870,7 +304034,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-30452
+30772
 /
 *
 glInsertComponentEXT
@@ -300890,7 +304054,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_debug_marker
-30473
+30793
 /
 *
 glInsertEventMarkerEXT
@@ -300910,7 +304074,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_instruments
-30496
+30816
 /
 *
 glInstrumentsBufferSGIX
@@ -300930,7 +304094,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_1
-30520
+30840
 /
 *
 glInterleavedArrays
@@ -300950,7 +304114,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-30540
+30860
 /
 *
 glInterpolatePathsNV
@@ -300988,7 +304152,7 @@ entrypoints
 ]
 =
 {
-30561
+30881
 /
 *
 "
@@ -300996,7 +304160,7 @@ glInvalidateBufferData
 "
 *
 /
-30561
+30881
 /
 *
 "
@@ -301011,7 +304175,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30561
+30881
 /
 *
 "
@@ -301053,7 +304217,7 @@ entrypoints
 ]
 =
 {
-30584
+30904
 /
 *
 "
@@ -301061,7 +304225,7 @@ glInvalidateBufferSubData
 "
 *
 /
-30584
+30904
 /
 *
 "
@@ -301076,7 +304240,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30584
+30904
 /
 *
 "
@@ -301119,7 +304283,7 @@ entrypoints
 ]
 =
 {
-30610
+30930
 /
 *
 "
@@ -301127,7 +304291,7 @@ glInvalidateFramebuffer
 "
 *
 /
-30610
+30930
 /
 *
 "
@@ -301135,7 +304299,7 @@ glInvalidateFramebuffer
 "
 *
 /
-30610
+30930
 /
 *
 "
@@ -301150,7 +304314,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30610
+30930
 /
 *
 "
@@ -301192,7 +304356,7 @@ entrypoints
 ]
 =
 {
-30634
+30954
 /
 *
 "
@@ -301200,7 +304364,7 @@ glInvalidateNamedFramebufferData
 "
 *
 /
-30634
+30954
 /
 *
 "
@@ -301215,7 +304379,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30634
+30954
 /
 *
 "
@@ -301257,7 +304421,7 @@ entrypoints
 ]
 =
 {
-30667
+30987
 /
 *
 "
@@ -301265,7 +304429,7 @@ glInvalidateNamedFramebufferSubData
 "
 *
 /
-30667
+30987
 /
 *
 "
@@ -301280,7 +304444,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30667
+30987
 /
 *
 "
@@ -301323,7 +304487,7 @@ entrypoints
 ]
 =
 {
-30703
+31023
 /
 *
 "
@@ -301331,7 +304495,7 @@ glInvalidateSubFramebuffer
 "
 *
 /
-30703
+31023
 /
 *
 "
@@ -301339,7 +304503,7 @@ glInvalidateSubFramebuffer
 "
 *
 /
-30703
+31023
 /
 *
 "
@@ -301354,7 +304518,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30703
+31023
 /
 *
 "
@@ -301396,7 +304560,7 @@ entrypoints
 ]
 =
 {
-30730
+31050
 /
 *
 "
@@ -301404,7 +304568,7 @@ glInvalidateTexImage
 "
 *
 /
-30730
+31050
 /
 *
 "
@@ -301419,7 +304583,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30730
+31050
 /
 *
 "
@@ -301461,7 +304625,7 @@ entrypoints
 ]
 =
 {
-30751
+31071
 /
 *
 "
@@ -301469,7 +304633,7 @@ glInvalidateTexSubImage
 "
 *
 /
-30751
+31071
 /
 *
 "
@@ -301484,7 +304648,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30751
+31071
 /
 *
 "
@@ -301508,7 +304672,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_async
-30775
+31095
 /
 *
 glIsAsyncMarkerSGIX
@@ -301548,7 +304712,7 @@ entrypoints
 ]
 =
 {
-30795
+31115
 /
 *
 "
@@ -301556,7 +304720,7 @@ glIsBuffer
 "
 *
 /
-30795
+31115
 /
 *
 "
@@ -301564,7 +304728,7 @@ glIsBuffer
 "
 *
 /
-30795
+31115
 /
 *
 "
@@ -301572,7 +304736,7 @@ glIsBuffer
 "
 *
 /
-30806
+31126
 /
 *
 "
@@ -301587,7 +304751,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30795
+31115
 /
 *
 "
@@ -301631,7 +304795,7 @@ entrypoints
 ]
 =
 {
-30806
+31126
 /
 *
 "
@@ -301639,7 +304803,7 @@ glIsBufferARB
 "
 *
 /
-30795
+31115
 /
 *
 "
@@ -301647,7 +304811,7 @@ glIsBuffer
 "
 *
 /
-30795
+31115
 /
 *
 "
@@ -301655,7 +304819,7 @@ glIsBuffer
 "
 *
 /
-30795
+31115
 /
 *
 "
@@ -301670,7 +304834,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30806
+31126
 /
 *
 "
@@ -301694,7 +304858,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-30820
+31140
 /
 *
 glIsBufferResidentNV
@@ -301714,7 +304878,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-30841
+31161
 /
 *
 glIsCommandListNV
@@ -301753,7 +304917,7 @@ entrypoints
 ]
 =
 {
-30859
+31179
 /
 *
 "
@@ -301761,7 +304925,7 @@ glIsEnabled
 "
 *
 /
-30859
+31179
 /
 *
 "
@@ -301769,7 +304933,7 @@ glIsEnabled
 "
 *
 /
-30859
+31179
 /
 *
 "
@@ -301784,7 +304948,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30859
+31179
 /
 *
 "
@@ -301832,7 +304996,7 @@ entrypoints
 ]
 =
 {
-30871
+31191
 /
 *
 "
@@ -301840,7 +305004,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -301848,7 +305012,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -301856,7 +305020,7 @@ glIsEnabledi
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -301864,7 +305028,7 @@ glIsEnabledi
 "
 *
 /
-30906
+31226
 /
 *
 "
@@ -301872,7 +305036,7 @@ glIsEnablediEXT
 "
 *
 /
-30922
+31242
 /
 *
 "
@@ -301880,7 +305044,7 @@ glIsEnablediNV
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -301888,7 +305052,7 @@ glIsEnablediOES
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -301903,7 +305067,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30871
+31191
 /
 *
 "
@@ -301951,7 +305115,7 @@ entrypoints
 ]
 =
 {
-30893
+31213
 /
 *
 "
@@ -301959,7 +305123,7 @@ glIsEnabledi
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -301967,7 +305131,7 @@ glIsEnabledi
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -301975,7 +305139,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -301983,7 +305147,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30906
+31226
 /
 *
 "
@@ -301991,7 +305155,7 @@ glIsEnablediEXT
 "
 *
 /
-30922
+31242
 /
 *
 "
@@ -301999,7 +305163,7 @@ glIsEnablediNV
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -302007,7 +305171,7 @@ glIsEnablediOES
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -302022,7 +305186,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30893
+31213
 /
 *
 "
@@ -302070,7 +305234,7 @@ entrypoints
 ]
 =
 {
-30906
+31226
 /
 *
 "
@@ -302078,7 +305242,7 @@ glIsEnablediEXT
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -302086,7 +305250,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -302094,7 +305258,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -302102,7 +305266,7 @@ glIsEnabledi
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -302110,7 +305274,7 @@ glIsEnabledi
 "
 *
 /
-30922
+31242
 /
 *
 "
@@ -302118,7 +305282,7 @@ glIsEnablediNV
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -302126,7 +305290,7 @@ glIsEnablediOES
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -302141,7 +305305,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30906
+31226
 /
 *
 "
@@ -302189,7 +305353,7 @@ entrypoints
 ]
 =
 {
-30922
+31242
 /
 *
 "
@@ -302197,7 +305361,7 @@ glIsEnablediNV
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -302205,7 +305369,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -302213,7 +305377,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -302221,7 +305385,7 @@ glIsEnabledi
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -302229,7 +305393,7 @@ glIsEnabledi
 "
 *
 /
-30906
+31226
 /
 *
 "
@@ -302237,7 +305401,7 @@ glIsEnablediEXT
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -302245,7 +305409,7 @@ glIsEnablediOES
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -302260,7 +305424,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30922
+31242
 /
 *
 "
@@ -302308,7 +305472,7 @@ entrypoints
 ]
 =
 {
-30937
+31257
 /
 *
 "
@@ -302316,7 +305480,7 @@ glIsEnablediOES
 "
 *
 /
-30937
+31257
 /
 *
 "
@@ -302324,7 +305488,7 @@ glIsEnablediOES
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -302332,7 +305496,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30871
+31191
 /
 *
 "
@@ -302340,7 +305504,7 @@ glIsEnabledIndexedEXT
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -302348,7 +305512,7 @@ glIsEnabledi
 "
 *
 /
-30893
+31213
 /
 *
 "
@@ -302356,7 +305520,7 @@ glIsEnabledi
 "
 *
 /
-30906
+31226
 /
 *
 "
@@ -302364,7 +305528,7 @@ glIsEnablediEXT
 "
 *
 /
-30922
+31242
 /
 *
 "
@@ -302379,7 +305543,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30937
+31257
 /
 *
 "
@@ -302403,7 +305567,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_fence
-30953
+31273
 /
 *
 glIsFenceAPPLE
@@ -302423,7 +305587,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fence
-30968
+31288
 /
 *
 glIsFenceNV
@@ -302463,7 +305627,7 @@ entrypoints
 ]
 =
 {
-30980
+31300
 /
 *
 "
@@ -302471,7 +305635,7 @@ glIsFramebuffer
 "
 *
 /
-30980
+31300
 /
 *
 "
@@ -302479,7 +305643,7 @@ glIsFramebuffer
 "
 *
 /
-30980
+31300
 /
 *
 "
@@ -302487,7 +305651,7 @@ glIsFramebuffer
 "
 *
 /
-30996
+31316
 /
 *
 "
@@ -302502,7 +305666,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30980
+31300
 /
 *
 "
@@ -302546,7 +305710,7 @@ entrypoints
 ]
 =
 {
-30996
+31316
 /
 *
 "
@@ -302554,7 +305718,7 @@ glIsFramebufferEXT
 "
 *
 /
-30980
+31300
 /
 *
 "
@@ -302562,7 +305726,7 @@ glIsFramebuffer
 "
 *
 /
-30980
+31300
 /
 *
 "
@@ -302570,7 +305734,7 @@ glIsFramebuffer
 "
 *
 /
-30980
+31300
 /
 *
 "
@@ -302585,7 +305749,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-30996
+31316
 /
 *
 "
@@ -302609,7 +305773,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-31015
+31335
 /
 *
 glIsFramebufferOES
@@ -302629,7 +305793,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-31034
+31354
 /
 *
 glIsImageHandleResidentARB
@@ -302649,7 +305813,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-31061
+31381
 /
 *
 glIsImageHandleResidentNV
@@ -302669,7 +305833,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-31087
+31407
 /
 *
 glIsList
@@ -302689,7 +305853,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-31096
+31416
 /
 *
 glIsMemoryObjectEXT
@@ -302709,7 +305873,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_name_gen_delete
-31116
+31436
 /
 *
 glIsNameAMD
@@ -302729,7 +305893,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-31128
+31448
 /
 *
 glIsNamedBufferResidentNV
@@ -302749,7 +305913,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shading_language_include
-31154
+31474
 /
 *
 glIsNamedStringARB
@@ -302769,7 +305933,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-31173
+31493
 /
 *
 glIsObjectBufferATI
@@ -302789,7 +305953,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_occlusion_query
-31193
+31513
 /
 *
 glIsOcclusionQueryNV
@@ -302809,7 +305973,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-31214
+31534
 /
 *
 glIsPathNV
@@ -302829,7 +305993,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-31225
+31545
 /
 *
 glIsPointInFillPathNV
@@ -302849,7 +306013,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-31247
+31567
 /
 *
 glIsPointInStrokePathNV
@@ -302887,7 +306051,7 @@ entrypoints
 ]
 =
 {
-31271
+31591
 /
 *
 "
@@ -302895,7 +306059,7 @@ glIsProgram
 "
 *
 /
-31271
+31591
 /
 *
 "
@@ -302910,7 +306074,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31271
+31591
 /
 *
 "
@@ -302953,7 +306117,7 @@ entrypoints
 ]
 =
 {
-31283
+31603
 /
 *
 "
@@ -302961,7 +306125,7 @@ glIsProgramARB
 "
 *
 /
-31283
+31603
 /
 *
 "
@@ -302969,7 +306133,7 @@ glIsProgramARB
 "
 *
 /
-31298
+31618
 /
 *
 "
@@ -302984,7 +306148,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31283
+31603
 /
 *
 "
@@ -303027,7 +306191,7 @@ entrypoints
 ]
 =
 {
-31298
+31618
 /
 *
 "
@@ -303035,7 +306199,7 @@ glIsProgramNV
 "
 *
 /
-31283
+31603
 /
 *
 "
@@ -303043,7 +306207,7 @@ glIsProgramARB
 "
 *
 /
-31283
+31603
 /
 *
 "
@@ -303058,7 +306222,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31298
+31618
 /
 *
 "
@@ -303101,7 +306265,7 @@ entrypoints
 ]
 =
 {
-31312
+31632
 /
 *
 "
@@ -303109,7 +306273,7 @@ glIsProgramPipeline
 "
 *
 /
-31312
+31632
 /
 *
 "
@@ -303117,7 +306281,7 @@ glIsProgramPipeline
 "
 *
 /
-31312
+31632
 /
 *
 "
@@ -303132,7 +306296,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31312
+31632
 /
 *
 "
@@ -303156,7 +306320,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-31332
+31652
 /
 *
 glIsProgramPipelineEXT
@@ -303195,7 +306359,7 @@ entrypoints
 ]
 =
 {
-31355
+31675
 /
 *
 "
@@ -303203,7 +306367,7 @@ glIsQuery
 "
 *
 /
-31355
+31675
 /
 *
 "
@@ -303211,7 +306375,7 @@ glIsQuery
 "
 *
 /
-31365
+31685
 /
 *
 "
@@ -303226,7 +306390,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31355
+31675
 /
 *
 "
@@ -303269,7 +306433,7 @@ entrypoints
 ]
 =
 {
-31365
+31685
 /
 *
 "
@@ -303277,7 +306441,7 @@ glIsQueryARB
 "
 *
 /
-31355
+31675
 /
 *
 "
@@ -303285,7 +306449,7 @@ glIsQuery
 "
 *
 /
-31355
+31675
 /
 *
 "
@@ -303300,7 +306464,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31365
+31685
 /
 *
 "
@@ -303342,7 +306506,7 @@ entrypoints
 ]
 =
 {
-31378
+31698
 /
 *
 "
@@ -303350,7 +306514,7 @@ glIsQueryEXT
 "
 *
 /
-31378
+31698
 /
 *
 "
@@ -303365,7 +306529,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31378
+31698
 /
 *
 "
@@ -303409,7 +306573,7 @@ entrypoints
 ]
 =
 {
-31391
+31711
 /
 *
 "
@@ -303417,7 +306581,7 @@ glIsRenderbuffer
 "
 *
 /
-31391
+31711
 /
 *
 "
@@ -303425,7 +306589,7 @@ glIsRenderbuffer
 "
 *
 /
-31391
+31711
 /
 *
 "
@@ -303433,7 +306597,7 @@ glIsRenderbuffer
 "
 *
 /
-31408
+31728
 /
 *
 "
@@ -303448,7 +306612,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31391
+31711
 /
 *
 "
@@ -303492,7 +306656,7 @@ entrypoints
 ]
 =
 {
-31408
+31728
 /
 *
 "
@@ -303500,7 +306664,7 @@ glIsRenderbufferEXT
 "
 *
 /
-31391
+31711
 /
 *
 "
@@ -303508,7 +306672,7 @@ glIsRenderbuffer
 "
 *
 /
-31391
+31711
 /
 *
 "
@@ -303516,7 +306680,7 @@ glIsRenderbuffer
 "
 *
 /
-31391
+31711
 /
 *
 "
@@ -303531,7 +306695,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31408
+31728
 /
 *
 "
@@ -303555,7 +306719,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-31428
+31748
 /
 *
 glIsRenderbufferOES
@@ -303582,6 +306746,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -303594,7 +306759,7 @@ entrypoints
 ]
 =
 {
-31448
+31768
 /
 *
 "
@@ -303602,7 +306767,7 @@ glIsSampler
 "
 *
 /
-31448
+31768
 /
 *
 "
@@ -303610,7 +306775,15 @@ glIsSampler
 "
 *
 /
-31448
+31768
+/
+*
+"
+glIsSampler
+"
+*
+/
+31768
 /
 *
 "
@@ -303625,7 +306798,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31448
+31768
 /
 *
 "
@@ -303649,7 +306822,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore
-31460
+31780
 /
 *
 glIsSemaphoreEXT
@@ -303687,7 +306860,7 @@ entrypoints
 ]
 =
 {
-31477
+31797
 /
 *
 "
@@ -303695,7 +306868,7 @@ glIsShader
 "
 *
 /
-31477
+31797
 /
 *
 "
@@ -303710,7 +306883,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31477
+31797
 /
 *
 "
@@ -303734,7 +306907,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-31488
+31808
 /
 *
 glIsStateNV
@@ -303774,7 +306947,7 @@ entrypoints
 ]
 =
 {
-31500
+31820
 /
 *
 "
@@ -303782,7 +306955,7 @@ glIsSync
 "
 *
 /
-31500
+31820
 /
 *
 "
@@ -303790,7 +306963,7 @@ glIsSync
 "
 *
 /
-31500
+31820
 /
 *
 "
@@ -303798,7 +306971,7 @@ glIsSync
 "
 *
 /
-31509
+31829
 /
 *
 "
@@ -303813,7 +306986,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31500
+31820
 /
 *
 "
@@ -303857,7 +307030,7 @@ entrypoints
 ]
 =
 {
-31509
+31829
 /
 *
 "
@@ -303865,7 +307038,7 @@ glIsSyncAPPLE
 "
 *
 /
-31500
+31820
 /
 *
 "
@@ -303873,7 +307046,7 @@ glIsSync
 "
 *
 /
-31500
+31820
 /
 *
 "
@@ -303881,7 +307054,7 @@ glIsSync
 "
 *
 /
-31500
+31820
 /
 *
 "
@@ -303896,7 +307069,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31509
+31829
 /
 *
 "
@@ -303939,7 +307112,7 @@ entrypoints
 ]
 =
 {
-31523
+31843
 /
 *
 "
@@ -303947,7 +307120,7 @@ glIsTexture
 "
 *
 /
-31523
+31843
 /
 *
 "
@@ -303955,7 +307128,7 @@ glIsTexture
 "
 *
 /
-31523
+31843
 /
 *
 "
@@ -303970,7 +307143,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31523
+31843
 /
 *
 "
@@ -303994,7 +307167,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_texture_object
-31535
+31855
 /
 *
 glIsTextureEXT
@@ -304014,7 +307187,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-31550
+31870
 /
 *
 glIsTextureHandleResidentARB
@@ -304034,7 +307207,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-31579
+31899
 /
 *
 glIsTextureHandleResidentNV
@@ -304074,7 +307247,7 @@ entrypoints
 ]
 =
 {
-31607
+31927
 /
 *
 "
@@ -304082,7 +307255,7 @@ glIsTransformFeedback
 "
 *
 /
-31607
+31927
 /
 *
 "
@@ -304090,7 +307263,7 @@ glIsTransformFeedback
 "
 *
 /
-31607
+31927
 /
 *
 "
@@ -304098,7 +307271,7 @@ glIsTransformFeedback
 "
 *
 /
-31629
+31949
 /
 *
 "
@@ -304113,7 +307286,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31607
+31927
 /
 *
 "
@@ -304157,7 +307330,7 @@ entrypoints
 ]
 =
 {
-31629
+31949
 /
 *
 "
@@ -304165,7 +307338,7 @@ glIsTransformFeedbackNV
 "
 *
 /
-31607
+31927
 /
 *
 "
@@ -304173,7 +307346,7 @@ glIsTransformFeedback
 "
 *
 /
-31607
+31927
 /
 *
 "
@@ -304181,7 +307354,7 @@ glIsTransformFeedback
 "
 *
 /
-31607
+31927
 /
 *
 "
@@ -304196,7 +307369,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31629
+31949
 /
 *
 "
@@ -304220,7 +307393,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-31653
+31973
 /
 *
 glIsVariantEnabledEXT
@@ -304261,7 +307434,7 @@ entrypoints
 ]
 =
 {
-31675
+31995
 /
 *
 "
@@ -304269,7 +307442,7 @@ glIsVertexArray
 "
 *
 /
-31675
+31995
 /
 *
 "
@@ -304277,7 +307450,7 @@ glIsVertexArray
 "
 *
 /
-31675
+31995
 /
 *
 "
@@ -304285,7 +307458,7 @@ glIsVertexArray
 "
 *
 /
-31691
+32011
 /
 *
 "
@@ -304293,7 +307466,7 @@ glIsVertexArrayAPPLE
 "
 *
 /
-31712
+32032
 /
 *
 "
@@ -304308,7 +307481,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31675
+31995
 /
 *
 "
@@ -304353,7 +307526,7 @@ entrypoints
 ]
 =
 {
-31691
+32011
 /
 *
 "
@@ -304361,7 +307534,7 @@ glIsVertexArrayAPPLE
 "
 *
 /
-31675
+31995
 /
 *
 "
@@ -304369,7 +307542,7 @@ glIsVertexArray
 "
 *
 /
-31675
+31995
 /
 *
 "
@@ -304377,7 +307550,7 @@ glIsVertexArray
 "
 *
 /
-31675
+31995
 /
 *
 "
@@ -304385,7 +307558,7 @@ glIsVertexArray
 "
 *
 /
-31712
+32032
 /
 *
 "
@@ -304400,7 +307573,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31691
+32011
 /
 *
 "
@@ -304445,7 +307618,7 @@ entrypoints
 ]
 =
 {
-31712
+32032
 /
 *
 "
@@ -304453,7 +307626,7 @@ glIsVertexArrayOES
 "
 *
 /
-31675
+31995
 /
 *
 "
@@ -304461,7 +307634,7 @@ glIsVertexArray
 "
 *
 /
-31675
+31995
 /
 *
 "
@@ -304469,7 +307642,7 @@ glIsVertexArray
 "
 *
 /
-31675
+31995
 /
 *
 "
@@ -304477,7 +307650,7 @@ glIsVertexArray
 "
 *
 /
-31691
+32011
 /
 *
 "
@@ -304492,7 +307665,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31712
+32032
 /
 *
 "
@@ -304516,7 +307689,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_program_evaluators
-31731
+32051
 /
 *
 glIsVertexAttribEnabledAPPLE
@@ -304536,7 +307709,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_linked_gpu_multicast
-31760
+32080
 /
 *
 glLGPUCopyImageSubDataNVX
@@ -304556,7 +307729,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_linked_gpu_multicast
-31786
+32106
 /
 *
 glLGPUInterlockNVX
@@ -304576,7 +307749,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_linked_gpu_multicast
-31805
+32125
 /
 *
 glLGPUNamedBufferSubDataNVX
@@ -304596,7 +307769,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_debug_label
-31833
+32153
 /
 *
 glLabelObjectEXT
@@ -304616,7 +307789,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_fragment_lighting
-31850
+32170
 /
 *
 glLightEnviSGIX
@@ -304654,7 +307827,7 @@ entrypoints
 ]
 =
 {
-31866
+32186
 /
 *
 "
@@ -304662,7 +307835,7 @@ glLightModelf
 "
 *
 /
-31866
+32186
 /
 *
 "
@@ -304677,7 +307850,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31866
+32186
 /
 *
 "
@@ -304719,7 +307892,7 @@ entrypoints
 ]
 =
 {
-31880
+32200
 /
 *
 "
@@ -304727,7 +307900,7 @@ glLightModelfv
 "
 *
 /
-31880
+32200
 /
 *
 "
@@ -304742,7 +307915,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31880
+32200
 /
 *
 "
@@ -304766,7 +307939,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-31895
+32215
 /
 *
 glLightModeli
@@ -304786,7 +307959,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-31909
+32229
 /
 *
 glLightModeliv
@@ -304806,7 +307979,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-31924
+32244
 /
 *
 glLightModelx
@@ -304826,7 +307999,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-31938
+32258
 /
 *
 glLightModelxOES
@@ -304846,7 +308019,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-31955
+32275
 /
 *
 glLightModelxv
@@ -304866,7 +308039,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-31970
+32290
 /
 *
 glLightModelxvOES
@@ -304904,7 +308077,7 @@ entrypoints
 ]
 =
 {
-31988
+32308
 /
 *
 "
@@ -304912,7 +308085,7 @@ glLightf
 "
 *
 /
-31988
+32308
 /
 *
 "
@@ -304927,7 +308100,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31988
+32308
 /
 *
 "
@@ -304969,7 +308142,7 @@ entrypoints
 ]
 =
 {
-31997
+32317
 /
 *
 "
@@ -304977,7 +308150,7 @@ glLightfv
 "
 *
 /
-31997
+32317
 /
 *
 "
@@ -304992,7 +308165,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-31997
+32317
 /
 *
 "
@@ -305016,7 +308189,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32007
+32327
 /
 *
 glLighti
@@ -305036,7 +308209,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32016
+32336
 /
 *
 glLightiv
@@ -305056,7 +308229,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-32026
+32346
 /
 *
 glLightx
@@ -305076,7 +308249,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-32035
+32355
 /
 *
 glLightxOES
@@ -305096,7 +308269,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-32047
+32367
 /
 *
 glLightxv
@@ -305116,7 +308289,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-32057
+32377
 /
 *
 glLightxvOES
@@ -305136,7 +308309,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32070
+32390
 /
 *
 glLineStipple
@@ -305175,7 +308348,7 @@ entrypoints
 ]
 =
 {
-32084
+32404
 /
 *
 "
@@ -305183,7 +308356,7 @@ glLineWidth
 "
 *
 /
-32084
+32404
 /
 *
 "
@@ -305191,7 +308364,7 @@ glLineWidth
 "
 *
 /
-32084
+32404
 /
 *
 "
@@ -305206,7 +308379,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32084
+32404
 /
 *
 "
@@ -305230,7 +308403,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-32096
+32416
 /
 *
 glLineWidthx
@@ -305250,7 +308423,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-32109
+32429
 /
 *
 glLineWidthxOES
@@ -305289,7 +308462,7 @@ entrypoints
 ]
 =
 {
-32125
+32445
 /
 *
 "
@@ -305297,7 +308470,7 @@ glLinkProgram
 "
 *
 /
-32125
+32445
 /
 *
 "
@@ -305305,7 +308478,7 @@ glLinkProgram
 "
 *
 /
-32139
+32459
 /
 *
 "
@@ -305320,7 +308493,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32125
+32445
 /
 *
 "
@@ -305363,7 +308536,7 @@ entrypoints
 ]
 =
 {
-32139
+32459
 /
 *
 "
@@ -305371,7 +308544,7 @@ glLinkProgramARB
 "
 *
 /
-32125
+32445
 /
 *
 "
@@ -305379,7 +308552,7 @@ glLinkProgram
 "
 *
 /
-32125
+32445
 /
 *
 "
@@ -305394,7 +308567,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32139
+32459
 /
 *
 "
@@ -305418,7 +308591,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32156
+32476
 /
 *
 glListBase
@@ -305438,7 +308611,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-32167
+32487
 /
 *
 glListDrawCommandsStatesClientNV
@@ -305458,7 +308631,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_list_priority
-32200
+32520
 /
 *
 glListParameterfSGIX
@@ -305478,7 +308651,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_list_priority
-32221
+32541
 /
 *
 glListParameterfvSGIX
@@ -305498,7 +308671,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_list_priority
-32243
+32563
 /
 *
 glListParameteriSGIX
@@ -305518,7 +308691,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_list_priority
-32264
+32584
 /
 *
 glListParameterivSGIX
@@ -305556,7 +308729,7 @@ entrypoints
 ]
 =
 {
-32286
+32606
 /
 *
 "
@@ -305564,7 +308737,7 @@ glLoadIdentity
 "
 *
 /
-32286
+32606
 /
 *
 "
@@ -305579,7 +308752,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32286
+32606
 /
 *
 "
@@ -305603,7 +308776,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_polynomial_ffd
-32301
+32621
 /
 *
 glLoadIdentityDeformationMapSGIX
@@ -305623,7 +308796,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32334
+32654
 /
 *
 glLoadMatrixd
@@ -305661,7 +308834,7 @@ entrypoints
 ]
 =
 {
-32348
+32668
 /
 *
 "
@@ -305669,7 +308842,7 @@ glLoadMatrixf
 "
 *
 /
-32348
+32668
 /
 *
 "
@@ -305684,7 +308857,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32348
+32668
 /
 *
 "
@@ -305708,7 +308881,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-32362
+32682
 /
 *
 glLoadMatrixx
@@ -305728,7 +308901,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-32376
+32696
 /
 *
 glLoadMatrixxOES
@@ -305748,7 +308921,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32393
+32713
 /
 *
 glLoadName
@@ -305768,7 +308941,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_matrix_palette
-32404
+32724
 /
 *
 glLoadPaletteFromModelViewMatrixOES
@@ -305788,7 +308961,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-32440
+32760
 /
 *
 glLoadProgramNV
@@ -305826,7 +308999,7 @@ entrypoints
 ]
 =
 {
-32456
+32776
 /
 *
 "
@@ -305834,7 +309007,7 @@ glLoadTransposeMatrixd
 "
 *
 /
-32479
+32799
 /
 *
 "
@@ -305849,7 +309022,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32456
+32776
 /
 *
 "
@@ -305891,7 +309064,7 @@ entrypoints
 ]
 =
 {
-32479
+32799
 /
 *
 "
@@ -305899,7 +309072,7 @@ glLoadTransposeMatrixdARB
 "
 *
 /
-32456
+32776
 /
 *
 "
@@ -305914,7 +309087,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32479
+32799
 /
 *
 "
@@ -305956,7 +309129,7 @@ entrypoints
 ]
 =
 {
-32505
+32825
 /
 *
 "
@@ -305964,7 +309137,7 @@ glLoadTransposeMatrixf
 "
 *
 /
-32528
+32848
 /
 *
 "
@@ -305979,7 +309152,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32505
+32825
 /
 *
 "
@@ -306021,7 +309194,7 @@ entrypoints
 ]
 =
 {
-32528
+32848
 /
 *
 "
@@ -306029,7 +309202,7 @@ glLoadTransposeMatrixfARB
 "
 *
 /
-32505
+32825
 /
 *
 "
@@ -306044,7 +309217,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32528
+32848
 /
 *
 "
@@ -306068,7 +309241,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-32554
+32874
 /
 *
 glLoadTransposeMatrixxOES
@@ -306088,7 +309261,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_compiled_vertex_array
-32580
+32900
 /
 *
 glLockArraysEXT
@@ -306126,7 +309299,7 @@ entrypoints
 ]
 =
 {
-32596
+32916
 /
 *
 "
@@ -306134,7 +309307,7 @@ glLogicOp
 "
 *
 /
-32596
+32916
 /
 *
 "
@@ -306149,7 +309322,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-32596
+32916
 /
 *
 "
@@ -306173,7 +309346,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-32606
+32926
 /
 *
 glMakeBufferNonResidentNV
@@ -306193,7 +309366,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-32632
+32952
 /
 *
 glMakeBufferResidentNV
@@ -306213,7 +309386,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-32655
+32975
 /
 *
 glMakeImageHandleNonResidentARB
@@ -306233,7 +309406,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-32687
+33007
 /
 *
 glMakeImageHandleNonResidentNV
@@ -306253,7 +309426,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-32718
+33038
 /
 *
 glMakeImageHandleResidentARB
@@ -306273,7 +309446,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-32747
+33067
 /
 *
 glMakeImageHandleResidentNV
@@ -306293,7 +309466,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-32775
+33095
 /
 *
 glMakeNamedBufferNonResidentNV
@@ -306313,7 +309486,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-32806
+33126
 /
 *
 glMakeNamedBufferResidentNV
@@ -306333,7 +309506,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-32834
+33154
 /
 *
 glMakeTextureHandleNonResidentARB
@@ -306353,7 +309526,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-32868
+33188
 /
 *
 glMakeTextureHandleNonResidentNV
@@ -306373,7 +309546,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-32901
+33221
 /
 *
 glMakeTextureHandleResidentARB
@@ -306393,7 +309566,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-32932
+33252
 /
 *
 glMakeTextureHandleResidentNV
@@ -306413,7 +309586,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32962
+33282
 /
 *
 glMap1d
@@ -306433,7 +309606,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32970
+33290
 /
 *
 glMap1f
@@ -306453,7 +309626,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-32978
+33298
 /
 *
 glMap1xOES
@@ -306473,7 +309646,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32989
+33309
 /
 *
 glMap2d
@@ -306493,7 +309666,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-32997
+33317
 /
 *
 glMap2f
@@ -306513,7 +309686,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-33005
+33325
 /
 *
 glMap2xOES
@@ -306552,7 +309725,7 @@ entrypoints
 ]
 =
 {
-33016
+33336
 /
 *
 "
@@ -306560,7 +309733,7 @@ glMapBuffer
 "
 *
 /
-33028
+33348
 /
 *
 "
@@ -306568,7 +309741,7 @@ glMapBufferARB
 "
 *
 /
-33043
+33363
 /
 *
 "
@@ -306583,7 +309756,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33016
+33336
 /
 *
 "
@@ -306626,7 +309799,7 @@ entrypoints
 ]
 =
 {
-33028
+33348
 /
 *
 "
@@ -306634,7 +309807,7 @@ glMapBufferARB
 "
 *
 /
-33016
+33336
 /
 *
 "
@@ -306642,7 +309815,7 @@ glMapBuffer
 "
 *
 /
-33043
+33363
 /
 *
 "
@@ -306657,7 +309830,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33028
+33348
 /
 *
 "
@@ -306700,7 +309873,7 @@ entrypoints
 ]
 =
 {
-33043
+33363
 /
 *
 "
@@ -306708,7 +309881,7 @@ glMapBufferOES
 "
 *
 /
-33016
+33336
 /
 *
 "
@@ -306716,7 +309889,7 @@ glMapBuffer
 "
 *
 /
-33028
+33348
 /
 *
 "
@@ -306731,7 +309904,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33043
+33363
 /
 *
 "
@@ -306775,7 +309948,7 @@ entrypoints
 ]
 =
 {
-33058
+33378
 /
 *
 "
@@ -306783,7 +309956,7 @@ glMapBufferRange
 "
 *
 /
-33058
+33378
 /
 *
 "
@@ -306791,7 +309964,7 @@ glMapBufferRange
 "
 *
 /
-33058
+33378
 /
 *
 "
@@ -306799,7 +309972,7 @@ glMapBufferRange
 "
 *
 /
-33075
+33395
 /
 *
 "
@@ -306814,7 +309987,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33058
+33378
 /
 *
 "
@@ -306858,7 +310031,7 @@ entrypoints
 ]
 =
 {
-33075
+33395
 /
 *
 "
@@ -306866,7 +310039,7 @@ glMapBufferRangeEXT
 "
 *
 /
-33058
+33378
 /
 *
 "
@@ -306874,7 +310047,7 @@ glMapBufferRange
 "
 *
 /
-33058
+33378
 /
 *
 "
@@ -306882,7 +310055,7 @@ glMapBufferRange
 "
 *
 /
-33058
+33378
 /
 *
 "
@@ -306897,7 +310070,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33075
+33395
 /
 *
 "
@@ -306921,7 +310094,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-33095
+33415
 /
 *
 glMapControlPointsNV
@@ -306941,7 +310114,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-33116
+33436
 /
 *
 glMapGrid1d
@@ -306961,7 +310134,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-33128
+33448
 /
 *
 glMapGrid1f
@@ -306981,7 +310154,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-33140
+33460
 /
 *
 glMapGrid1xOES
@@ -307001,7 +310174,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-33155
+33475
 /
 *
 glMapGrid2d
@@ -307021,7 +310194,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-33167
+33487
 /
 *
 glMapGrid2f
@@ -307041,7 +310214,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-33179
+33499
 /
 *
 glMapGrid2xOES
@@ -307079,7 +310252,7 @@ entrypoints
 ]
 =
 {
-33194
+33514
 /
 *
 "
@@ -307087,7 +310260,7 @@ glMapNamedBuffer
 "
 *
 /
-33194
+33514
 /
 *
 "
@@ -307102,7 +310275,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33194
+33514
 /
 *
 "
@@ -307126,7 +310299,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-33211
+33531
 /
 *
 glMapNamedBufferEXT
@@ -307164,7 +310337,7 @@ entrypoints
 ]
 =
 {
-33231
+33551
 /
 *
 "
@@ -307172,7 +310345,7 @@ glMapNamedBufferRange
 "
 *
 /
-33231
+33551
 /
 *
 "
@@ -307187,7 +310360,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33231
+33551
 /
 *
 "
@@ -307211,7 +310384,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-33253
+33573
 /
 *
 glMapNamedBufferRangeEXT
@@ -307231,7 +310404,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_map_object_buffer
-33278
+33598
 /
 *
 glMapObjectBufferATI
@@ -307251,7 +310424,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-33299
+33619
 /
 *
 glMapParameterfvNV
@@ -307271,7 +310444,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_evaluators
-33318
+33638
 /
 *
 glMapParameterivNV
@@ -307291,7 +310464,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_map_texture
-33337
+33657
 /
 *
 glMapTexture2DINTEL
@@ -307311,7 +310484,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_program_evaluators
-33357
+33677
 /
 *
 glMapVertexAttrib1dAPPLE
@@ -307331,7 +310504,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_program_evaluators
-33382
+33702
 /
 *
 glMapVertexAttrib1fAPPLE
@@ -307351,7 +310524,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_program_evaluators
-33407
+33727
 /
 *
 glMapVertexAttrib2dAPPLE
@@ -307371,7 +310544,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_program_evaluators
-33432
+33752
 /
 *
 glMapVertexAttrib2fAPPLE
@@ -307409,7 +310582,7 @@ entrypoints
 ]
 =
 {
-33457
+33777
 /
 *
 "
@@ -307417,7 +310590,7 @@ glMaterialf
 "
 *
 /
-33457
+33777
 /
 *
 "
@@ -307432,7 +310605,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33457
+33777
 /
 *
 "
@@ -307474,7 +310647,7 @@ entrypoints
 ]
 =
 {
-33469
+33789
 /
 *
 "
@@ -307482,7 +310655,7 @@ glMaterialfv
 "
 *
 /
-33469
+33789
 /
 *
 "
@@ -307497,7 +310670,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33469
+33789
 /
 *
 "
@@ -307521,7 +310694,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-33482
+33802
 /
 *
 glMateriali
@@ -307541,7 +310714,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-33494
+33814
 /
 *
 glMaterialiv
@@ -307561,7 +310734,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-33507
+33827
 /
 *
 glMaterialx
@@ -307581,7 +310754,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-33519
+33839
 /
 *
 glMaterialxOES
@@ -307601,7 +310774,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-33534
+33854
 /
 *
 glMaterialxv
@@ -307621,7 +310794,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-33547
+33867
 /
 *
 glMaterialxvOES
@@ -307659,7 +310832,7 @@ entrypoints
 ]
 =
 {
-33563
+33883
 /
 *
 "
@@ -307667,7 +310840,7 @@ glMatrixFrustumEXT
 "
 *
 /
-33563
+33883
 /
 *
 "
@@ -307682,7 +310855,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33563
+33883
 /
 *
 "
@@ -307706,7 +310879,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_matrix_palette
-33582
+33902
 /
 *
 glMatrixIndexPointerARB
@@ -307726,7 +310899,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_matrix_palette
-33606
+33926
 /
 *
 glMatrixIndexPointerOES
@@ -307746,7 +310919,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_matrix_palette
-33630
+33950
 /
 *
 glMatrixIndexubvARB
@@ -307766,7 +310939,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_matrix_palette
-33650
+33970
 /
 *
 glMatrixIndexuivARB
@@ -307786,7 +310959,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_matrix_palette
-33670
+33990
 /
 *
 glMatrixIndexusvARB
@@ -307806,7 +310979,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-33690
+34010
 /
 *
 glMatrixLoad3x2fNV
@@ -307826,7 +310999,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-33709
+34029
 /
 *
 glMatrixLoad3x3fNV
@@ -307864,7 +311037,7 @@ entrypoints
 ]
 =
 {
-33728
+34048
 /
 *
 "
@@ -307872,7 +311045,7 @@ glMatrixLoadIdentityEXT
 "
 *
 /
-33728
+34048
 /
 *
 "
@@ -307887,7 +311060,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33728
+34048
 /
 *
 "
@@ -307911,7 +311084,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-33752
+34072
 /
 *
 glMatrixLoadTranspose3x3fNV
@@ -307949,7 +311122,7 @@ entrypoints
 ]
 =
 {
-33780
+34100
 /
 *
 "
@@ -307957,7 +311130,7 @@ glMatrixLoadTransposedEXT
 "
 *
 /
-33780
+34100
 /
 *
 "
@@ -307972,7 +311145,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33780
+34100
 /
 *
 "
@@ -308014,7 +311187,7 @@ entrypoints
 ]
 =
 {
-33806
+34126
 /
 *
 "
@@ -308022,7 +311195,7 @@ glMatrixLoadTransposefEXT
 "
 *
 /
-33806
+34126
 /
 *
 "
@@ -308037,7 +311210,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33806
+34126
 /
 *
 "
@@ -308079,7 +311252,7 @@ entrypoints
 ]
 =
 {
-33832
+34152
 /
 *
 "
@@ -308087,7 +311260,7 @@ glMatrixLoaddEXT
 "
 *
 /
-33832
+34152
 /
 *
 "
@@ -308102,7 +311275,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33832
+34152
 /
 *
 "
@@ -308144,7 +311317,7 @@ entrypoints
 ]
 =
 {
-33849
+34169
 /
 *
 "
@@ -308152,7 +311325,7 @@ glMatrixLoadfEXT
 "
 *
 /
-33849
+34169
 /
 *
 "
@@ -308167,7 +311340,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33849
+34169
 /
 *
 "
@@ -308209,7 +311382,7 @@ entrypoints
 ]
 =
 {
-33866
+34186
 /
 *
 "
@@ -308217,7 +311390,7 @@ glMatrixMode
 "
 *
 /
-33866
+34186
 /
 *
 "
@@ -308232,7 +311405,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33866
+34186
 /
 *
 "
@@ -308256,7 +311429,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-33879
+34199
 /
 *
 glMatrixMult3x2fNV
@@ -308276,7 +311449,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-33898
+34218
 /
 *
 glMatrixMult3x3fNV
@@ -308296,7 +311469,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-33917
+34237
 /
 *
 glMatrixMultTranspose3x3fNV
@@ -308334,7 +311507,7 @@ entrypoints
 ]
 =
 {
-33945
+34265
 /
 *
 "
@@ -308342,7 +311515,7 @@ glMatrixMultTransposedEXT
 "
 *
 /
-33945
+34265
 /
 *
 "
@@ -308357,7 +311530,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33945
+34265
 /
 *
 "
@@ -308399,7 +311572,7 @@ entrypoints
 ]
 =
 {
-33971
+34291
 /
 *
 "
@@ -308407,7 +311580,7 @@ glMatrixMultTransposefEXT
 "
 *
 /
-33971
+34291
 /
 *
 "
@@ -308422,7 +311595,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33971
+34291
 /
 *
 "
@@ -308464,7 +311637,7 @@ entrypoints
 ]
 =
 {
-33997
+34317
 /
 *
 "
@@ -308472,7 +311645,7 @@ glMatrixMultdEXT
 "
 *
 /
-33997
+34317
 /
 *
 "
@@ -308487,7 +311660,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-33997
+34317
 /
 *
 "
@@ -308529,7 +311702,7 @@ entrypoints
 ]
 =
 {
-34014
+34334
 /
 *
 "
@@ -308537,7 +311710,7 @@ glMatrixMultfEXT
 "
 *
 /
-34014
+34334
 /
 *
 "
@@ -308552,7 +311725,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34014
+34334
 /
 *
 "
@@ -308594,7 +311767,7 @@ entrypoints
 ]
 =
 {
-34031
+34351
 /
 *
 "
@@ -308602,7 +311775,7 @@ glMatrixOrthoEXT
 "
 *
 /
-34031
+34351
 /
 *
 "
@@ -308617,7 +311790,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34031
+34351
 /
 *
 "
@@ -308659,7 +311832,7 @@ entrypoints
 ]
 =
 {
-34048
+34368
 /
 *
 "
@@ -308667,7 +311840,7 @@ glMatrixPopEXT
 "
 *
 /
-34048
+34368
 /
 *
 "
@@ -308682,7 +311855,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34048
+34368
 /
 *
 "
@@ -308724,7 +311897,7 @@ entrypoints
 ]
 =
 {
-34063
+34383
 /
 *
 "
@@ -308732,7 +311905,7 @@ glMatrixPushEXT
 "
 *
 /
-34063
+34383
 /
 *
 "
@@ -308747,7 +311920,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34063
+34383
 /
 *
 "
@@ -308789,7 +311962,7 @@ entrypoints
 ]
 =
 {
-34079
+34399
 /
 *
 "
@@ -308797,7 +311970,7 @@ glMatrixRotatedEXT
 "
 *
 /
-34079
+34399
 /
 *
 "
@@ -308812,7 +311985,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34079
+34399
 /
 *
 "
@@ -308854,7 +312027,7 @@ entrypoints
 ]
 =
 {
-34098
+34418
 /
 *
 "
@@ -308862,7 +312035,7 @@ glMatrixRotatefEXT
 "
 *
 /
-34098
+34418
 /
 *
 "
@@ -308877,7 +312050,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34098
+34418
 /
 *
 "
@@ -308919,7 +312092,7 @@ entrypoints
 ]
 =
 {
-34117
+34437
 /
 *
 "
@@ -308927,7 +312100,7 @@ glMatrixScaledEXT
 "
 *
 /
-34117
+34437
 /
 *
 "
@@ -308942,7 +312115,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34117
+34437
 /
 *
 "
@@ -308984,7 +312157,7 @@ entrypoints
 ]
 =
 {
-34135
+34455
 /
 *
 "
@@ -308992,7 +312165,7 @@ glMatrixScalefEXT
 "
 *
 /
-34135
+34455
 /
 *
 "
@@ -309007,7 +312180,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34135
+34455
 /
 *
 "
@@ -309049,7 +312222,7 @@ entrypoints
 ]
 =
 {
-34153
+34473
 /
 *
 "
@@ -309057,7 +312230,7 @@ glMatrixTranslatedEXT
 "
 *
 /
-34153
+34473
 /
 *
 "
@@ -309072,7 +312245,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34153
+34473
 /
 *
 "
@@ -309114,7 +312287,7 @@ entrypoints
 ]
 =
 {
-34175
+34495
 /
 *
 "
@@ -309122,7 +312295,7 @@ glMatrixTranslatefEXT
 "
 *
 /
-34175
+34495
 /
 *
 "
@@ -309137,7 +312310,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34175
+34495
 /
 *
 "
@@ -309147,6 +312320,26 @@ glMatrixTranslatefEXT
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLMAXACTIVESHADERCORESARMPROC
+epoxy_glMaxActiveShaderCoresARM_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_ARM_shader_core_properties
+34517
+/
+*
+glMaxActiveShaderCoresARM
+*
+/
 )
 ;
 }
@@ -309179,7 +312372,7 @@ entrypoints
 ]
 =
 {
-34197
+34543
 /
 *
 "
@@ -309187,7 +312380,7 @@ glMaxShaderCompilerThreadsARB
 "
 *
 /
-34227
+34573
 /
 *
 "
@@ -309202,7 +312395,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34197
+34543
 /
 *
 "
@@ -309244,7 +312437,7 @@ entrypoints
 ]
 =
 {
-34227
+34573
 /
 *
 "
@@ -309252,7 +312445,7 @@ glMaxShaderCompilerThreadsKHR
 "
 *
 /
-34197
+34543
 /
 *
 "
@@ -309267,7 +312460,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34227
+34573
 /
 *
 "
@@ -309311,7 +312504,7 @@ entrypoints
 ]
 =
 {
-34257
+34603
 /
 *
 "
@@ -309319,7 +312512,7 @@ glMemoryBarrier
 "
 *
 /
-34257
+34603
 /
 *
 "
@@ -309327,7 +312520,7 @@ glMemoryBarrier
 "
 *
 /
-34257
+34603
 /
 *
 "
@@ -309335,7 +312528,7 @@ glMemoryBarrier
 "
 *
 /
-34297
+34643
 /
 *
 "
@@ -309350,7 +312543,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34257
+34603
 /
 *
 "
@@ -309393,7 +312586,7 @@ entrypoints
 ]
 =
 {
-34273
+34619
 /
 *
 "
@@ -309401,7 +312594,7 @@ glMemoryBarrierByRegion
 "
 *
 /
-34273
+34619
 /
 *
 "
@@ -309409,7 +312602,7 @@ glMemoryBarrierByRegion
 "
 *
 /
-34273
+34619
 /
 *
 "
@@ -309424,7 +312617,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34273
+34619
 /
 *
 "
@@ -309468,7 +312661,7 @@ entrypoints
 ]
 =
 {
-34297
+34643
 /
 *
 "
@@ -309476,7 +312669,7 @@ glMemoryBarrierEXT
 "
 *
 /
-34257
+34603
 /
 *
 "
@@ -309484,7 +312677,7 @@ glMemoryBarrier
 "
 *
 /
-34257
+34603
 /
 *
 "
@@ -309492,7 +312685,7 @@ glMemoryBarrier
 "
 *
 /
-34257
+34603
 /
 *
 "
@@ -309507,7 +312700,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34297
+34643
 /
 *
 "
@@ -309531,7 +312724,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-34316
+34662
 /
 *
 glMemoryObjectParameterivEXT
@@ -309571,7 +312764,7 @@ entrypoints
 ]
 =
 {
-34345
+34691
 /
 *
 "
@@ -309579,7 +312772,7 @@ glMinSampleShading
 "
 *
 /
-34345
+34691
 /
 *
 "
@@ -309587,7 +312780,7 @@ glMinSampleShading
 "
 *
 /
-34364
+34710
 /
 *
 "
@@ -309595,7 +312788,7 @@ glMinSampleShadingARB
 "
 *
 /
-34386
+34732
 /
 *
 "
@@ -309610,7 +312803,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34345
+34691
 /
 *
 "
@@ -309654,7 +312847,7 @@ entrypoints
 ]
 =
 {
-34364
+34710
 /
 *
 "
@@ -309662,7 +312855,7 @@ glMinSampleShadingARB
 "
 *
 /
-34345
+34691
 /
 *
 "
@@ -309670,7 +312863,7 @@ glMinSampleShading
 "
 *
 /
-34345
+34691
 /
 *
 "
@@ -309678,7 +312871,7 @@ glMinSampleShading
 "
 *
 /
-34386
+34732
 /
 *
 "
@@ -309693,7 +312886,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34364
+34710
 /
 *
 "
@@ -309737,7 +312930,7 @@ entrypoints
 ]
 =
 {
-34386
+34732
 /
 *
 "
@@ -309745,7 +312938,7 @@ glMinSampleShadingOES
 "
 *
 /
-34345
+34691
 /
 *
 "
@@ -309753,7 +312946,7 @@ glMinSampleShading
 "
 *
 /
-34345
+34691
 /
 *
 "
@@ -309761,7 +312954,7 @@ glMinSampleShading
 "
 *
 /
-34364
+34710
 /
 *
 "
@@ -309776,7 +312969,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34386
+34732
 /
 *
 "
@@ -309818,7 +313011,7 @@ entrypoints
 ]
 =
 {
-34408
+34754
 /
 *
 "
@@ -309826,7 +313019,7 @@ glMinmax
 "
 *
 /
-34417
+34763
 /
 *
 "
@@ -309841,7 +313034,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34408
+34754
 /
 *
 "
@@ -309883,7 +313076,7 @@ entrypoints
 ]
 =
 {
-34417
+34763
 /
 *
 "
@@ -309891,7 +313084,7 @@ glMinmaxEXT
 "
 *
 /
-34408
+34754
 /
 *
 "
@@ -309906,7 +313099,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34417
+34763
 /
 *
 "
@@ -309930,7 +313123,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-34429
+34775
 /
 *
 glMultMatrixd
@@ -309968,7 +313161,7 @@ entrypoints
 ]
 =
 {
-34443
+34789
 /
 *
 "
@@ -309976,7 +313169,7 @@ glMultMatrixf
 "
 *
 /
-34443
+34789
 /
 *
 "
@@ -309991,7 +313184,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34443
+34789
 /
 *
 "
@@ -310015,7 +313208,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-34457
+34803
 /
 *
 glMultMatrixx
@@ -310035,7 +313228,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-34471
+34817
 /
 *
 glMultMatrixxOES
@@ -310073,7 +313266,7 @@ entrypoints
 ]
 =
 {
-34488
+34834
 /
 *
 "
@@ -310081,7 +313274,7 @@ glMultTransposeMatrixd
 "
 *
 /
-34511
+34857
 /
 *
 "
@@ -310096,7 +313289,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34488
+34834
 /
 *
 "
@@ -310138,7 +313331,7 @@ entrypoints
 ]
 =
 {
-34511
+34857
 /
 *
 "
@@ -310146,7 +313339,7 @@ glMultTransposeMatrixdARB
 "
 *
 /
-34488
+34834
 /
 *
 "
@@ -310161,7 +313354,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34511
+34857
 /
 *
 "
@@ -310203,7 +313396,7 @@ entrypoints
 ]
 =
 {
-34537
+34883
 /
 *
 "
@@ -310211,7 +313404,7 @@ glMultTransposeMatrixf
 "
 *
 /
-34560
+34906
 /
 *
 "
@@ -310226,7 +313419,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34537
+34883
 /
 *
 "
@@ -310268,7 +313461,7 @@ entrypoints
 ]
 =
 {
-34560
+34906
 /
 *
 "
@@ -310276,7 +313469,7 @@ glMultTransposeMatrixfARB
 "
 *
 /
-34537
+34883
 /
 *
 "
@@ -310291,7 +313484,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34560
+34906
 /
 *
 "
@@ -310315,7 +313508,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-34586
+34932
 /
 *
 glMultTransposeMatrixxOES
@@ -310353,7 +313546,7 @@ entrypoints
 ]
 =
 {
-34612
+34958
 /
 *
 "
@@ -310361,7 +313554,7 @@ glMultiDrawArrays
 "
 *
 /
-34630
+34976
 /
 *
 "
@@ -310376,7 +313569,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34612
+34958
 /
 *
 "
@@ -310418,7 +313611,7 @@ entrypoints
 ]
 =
 {
-34630
+34976
 /
 *
 "
@@ -310426,7 +313619,7 @@ glMultiDrawArraysEXT
 "
 *
 /
-34612
+34958
 /
 *
 "
@@ -310441,7 +313634,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34630
+34976
 /
 *
 "
@@ -310485,7 +313678,7 @@ entrypoints
 ]
 =
 {
-34651
+34997
 /
 *
 "
@@ -310493,7 +313686,7 @@ glMultiDrawArraysIndirect
 "
 *
 /
-34651
+34997
 /
 *
 "
@@ -310501,7 +313694,7 @@ glMultiDrawArraysIndirect
 "
 *
 /
-34677
+35023
 /
 *
 "
@@ -310509,7 +313702,7 @@ glMultiDrawArraysIndirectAMD
 "
 *
 /
-34848
+35194
 /
 *
 "
@@ -310524,7 +313717,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34651
+34997
 /
 *
 "
@@ -310568,7 +313761,7 @@ entrypoints
 ]
 =
 {
-34677
+35023
 /
 *
 "
@@ -310576,7 +313769,7 @@ glMultiDrawArraysIndirectAMD
 "
 *
 /
-34651
+34997
 /
 *
 "
@@ -310584,7 +313777,7 @@ glMultiDrawArraysIndirect
 "
 *
 /
-34651
+34997
 /
 *
 "
@@ -310592,7 +313785,7 @@ glMultiDrawArraysIndirect
 "
 *
 /
-34848
+35194
 /
 *
 "
@@ -310607,7 +313800,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34677
+35023
 /
 *
 "
@@ -310631,7 +313824,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_multi_draw_indirect_count
-34706
+35052
 /
 *
 glMultiDrawArraysIndirectBindlessCountNV
@@ -310651,7 +313844,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_multi_draw_indirect
-34747
+35093
 /
 *
 glMultiDrawArraysIndirectBindlessNV
@@ -310689,7 +313882,7 @@ entrypoints
 ]
 =
 {
-34783
+35129
 /
 *
 "
@@ -310697,7 +313890,7 @@ glMultiDrawArraysIndirectCount
 "
 *
 /
-34814
+35160
 /
 *
 "
@@ -310712,7 +313905,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34783
+35129
 /
 *
 "
@@ -310754,7 +313947,7 @@ entrypoints
 ]
 =
 {
-34814
+35160
 /
 *
 "
@@ -310762,7 +313955,7 @@ glMultiDrawArraysIndirectCountARB
 "
 *
 /
-34783
+35129
 /
 *
 "
@@ -310777,7 +313970,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34814
+35160
 /
 *
 "
@@ -310821,7 +314014,7 @@ entrypoints
 ]
 =
 {
-34848
+35194
 /
 *
 "
@@ -310829,7 +314022,7 @@ glMultiDrawArraysIndirectEXT
 "
 *
 /
-34651
+34997
 /
 *
 "
@@ -310837,7 +314030,7 @@ glMultiDrawArraysIndirect
 "
 *
 /
-34651
+34997
 /
 *
 "
@@ -310845,7 +314038,7 @@ glMultiDrawArraysIndirect
 "
 *
 /
-34677
+35023
 /
 *
 "
@@ -310860,7 +314053,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34848
+35194
 /
 *
 "
@@ -310884,7 +314077,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_element_array
-34877
+35223
 /
 *
 glMultiDrawElementArrayAPPLE
@@ -310922,7 +314115,7 @@ entrypoints
 ]
 =
 {
-34906
+35252
 /
 *
 "
@@ -310930,7 +314123,7 @@ glMultiDrawElements
 "
 *
 /
-34989
+35335
 /
 *
 "
@@ -310945,7 +314138,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34906
+35252
 /
 *
 "
@@ -310989,7 +314182,7 @@ entrypoints
 ]
 =
 {
-34926
+35272
 /
 *
 "
@@ -310997,7 +314190,7 @@ glMultiDrawElementsBaseVertex
 "
 *
 /
-34926
+35272
 /
 *
 "
@@ -311005,7 +314198,7 @@ glMultiDrawElementsBaseVertex
 "
 *
 /
-34956
+35302
 /
 *
 "
@@ -311013,7 +314206,7 @@ glMultiDrawElementsBaseVertexEXT
 "
 *
 /
-34956
+35302
 /
 *
 "
@@ -311028,7 +314221,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34926
+35272
 /
 *
 "
@@ -311072,7 +314265,7 @@ entrypoints
 ]
 =
 {
-34956
+35302
 /
 *
 "
@@ -311080,7 +314273,7 @@ glMultiDrawElementsBaseVertexEXT
 "
 *
 /
-34956
+35302
 /
 *
 "
@@ -311088,7 +314281,7 @@ glMultiDrawElementsBaseVertexEXT
 "
 *
 /
-34926
+35272
 /
 *
 "
@@ -311096,7 +314289,7 @@ glMultiDrawElementsBaseVertex
 "
 *
 /
-34926
+35272
 /
 *
 "
@@ -311111,7 +314304,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34956
+35302
 /
 *
 "
@@ -311153,7 +314346,7 @@ entrypoints
 ]
 =
 {
-34989
+35335
 /
 *
 "
@@ -311161,7 +314354,7 @@ glMultiDrawElementsEXT
 "
 *
 /
-34906
+35252
 /
 *
 "
@@ -311176,7 +314369,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-34989
+35335
 /
 *
 "
@@ -311220,7 +314413,7 @@ entrypoints
 ]
 =
 {
-35012
+35358
 /
 *
 "
@@ -311228,7 +314421,7 @@ glMultiDrawElementsIndirect
 "
 *
 /
-35012
+35358
 /
 *
 "
@@ -311236,7 +314429,7 @@ glMultiDrawElementsIndirect
 "
 *
 /
-35040
+35386
 /
 *
 "
@@ -311244,7 +314437,7 @@ glMultiDrawElementsIndirectAMD
 "
 *
 /
-35221
+35567
 /
 *
 "
@@ -311259,7 +314452,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35012
+35358
 /
 *
 "
@@ -311303,7 +314496,7 @@ entrypoints
 ]
 =
 {
-35040
+35386
 /
 *
 "
@@ -311311,7 +314504,7 @@ glMultiDrawElementsIndirectAMD
 "
 *
 /
-35012
+35358
 /
 *
 "
@@ -311319,7 +314512,7 @@ glMultiDrawElementsIndirect
 "
 *
 /
-35012
+35358
 /
 *
 "
@@ -311327,7 +314520,7 @@ glMultiDrawElementsIndirect
 "
 *
 /
-35221
+35567
 /
 *
 "
@@ -311342,7 +314535,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35040
+35386
 /
 *
 "
@@ -311366,7 +314559,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_multi_draw_indirect_count
-35071
+35417
 /
 *
 glMultiDrawElementsIndirectBindlessCountNV
@@ -311386,7 +314579,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_multi_draw_indirect
-35114
+35460
 /
 *
 glMultiDrawElementsIndirectBindlessNV
@@ -311424,7 +314617,7 @@ entrypoints
 ]
 =
 {
-35152
+35498
 /
 *
 "
@@ -311432,7 +314625,7 @@ glMultiDrawElementsIndirectCount
 "
 *
 /
-35185
+35531
 /
 *
 "
@@ -311447,7 +314640,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35152
+35498
 /
 *
 "
@@ -311489,7 +314682,7 @@ entrypoints
 ]
 =
 {
-35185
+35531
 /
 *
 "
@@ -311497,7 +314690,7 @@ glMultiDrawElementsIndirectCountARB
 "
 *
 /
-35152
+35498
 /
 *
 "
@@ -311512,7 +314705,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35185
+35531
 /
 *
 "
@@ -311556,7 +314749,7 @@ entrypoints
 ]
 =
 {
-35221
+35567
 /
 *
 "
@@ -311564,7 +314757,7 @@ glMultiDrawElementsIndirectEXT
 "
 *
 /
-35012
+35358
 /
 *
 "
@@ -311572,7 +314765,7 @@ glMultiDrawElementsIndirect
 "
 *
 /
-35012
+35358
 /
 *
 "
@@ -311580,7 +314773,7 @@ glMultiDrawElementsIndirect
 "
 *
 /
-35040
+35386
 /
 *
 "
@@ -311595,7 +314788,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35221
+35567
 /
 *
 "
@@ -311605,6 +314798,26 @@ glMultiDrawElementsIndirectEXT
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTEXTPROC
+epoxy_glMultiDrawMeshTasksIndirectCountEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_mesh_shader
+35598
+/
+*
+glMultiDrawMeshTasksIndirectCountEXT
+*
+/
 )
 ;
 }
@@ -311619,10 +314832,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_mesh_shader
-35252
+35635
 /
 *
 glMultiDrawMeshTasksIndirectCountNV
+*
+/
+)
+;
+}
+static
+PFNGLMULTIDRAWMESHTASKSINDIRECTEXTPROC
+epoxy_glMultiDrawMeshTasksIndirectEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_mesh_shader
+35671
+/
+*
+glMultiDrawMeshTasksIndirectEXT
 *
 /
 )
@@ -311639,7 +314872,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_mesh_shader
-35288
+35703
 /
 *
 glMultiDrawMeshTasksIndirectNV
@@ -311659,7 +314892,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_element_array
-35319
+35734
 /
 *
 glMultiDrawRangeElementArrayAPPLE
@@ -311679,7 +314912,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_multimode_draw_arrays
-35353
+35768
 /
 *
 glMultiModeDrawArraysIBM
@@ -311699,7 +314932,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_multimode_draw_arrays
-35378
+35793
 /
 *
 glMultiModeDrawElementsIBM
@@ -311719,7 +314952,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-35405
+35820
 /
 *
 glMultiTexBufferEXT
@@ -311739,7 +314972,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-35425
+35840
 /
 *
 glMultiTexCoord1bOES
@@ -311759,7 +314992,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-35446
+35861
 /
 *
 glMultiTexCoord1bvOES
@@ -311797,7 +315030,7 @@ entrypoints
 ]
 =
 {
-35468
+35883
 /
 *
 "
@@ -311805,7 +315038,7 @@ glMultiTexCoord1d
 "
 *
 /
-35486
+35901
 /
 *
 "
@@ -311820,7 +315053,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35468
+35883
 /
 *
 "
@@ -311862,7 +315095,7 @@ entrypoints
 ]
 =
 {
-35486
+35901
 /
 *
 "
@@ -311870,7 +315103,7 @@ glMultiTexCoord1dARB
 "
 *
 /
-35468
+35883
 /
 *
 "
@@ -311885,7 +315118,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35486
+35901
 /
 *
 "
@@ -311927,7 +315160,7 @@ entrypoints
 ]
 =
 {
-35507
+35922
 /
 *
 "
@@ -311935,7 +315168,7 @@ glMultiTexCoord1dv
 "
 *
 /
-35526
+35941
 /
 *
 "
@@ -311950,7 +315183,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35507
+35922
 /
 *
 "
@@ -311992,7 +315225,7 @@ entrypoints
 ]
 =
 {
-35526
+35941
 /
 *
 "
@@ -312000,7 +315233,7 @@ glMultiTexCoord1dvARB
 "
 *
 /
-35507
+35922
 /
 *
 "
@@ -312015,7 +315248,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35526
+35941
 /
 *
 "
@@ -312057,7 +315290,7 @@ entrypoints
 ]
 =
 {
-35548
+35963
 /
 *
 "
@@ -312065,7 +315298,7 @@ glMultiTexCoord1f
 "
 *
 /
-35566
+35981
 /
 *
 "
@@ -312080,7 +315313,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35548
+35963
 /
 *
 "
@@ -312122,7 +315355,7 @@ entrypoints
 ]
 =
 {
-35566
+35981
 /
 *
 "
@@ -312130,7 +315363,7 @@ glMultiTexCoord1fARB
 "
 *
 /
-35548
+35963
 /
 *
 "
@@ -312145,7 +315378,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35566
+35981
 /
 *
 "
@@ -312187,7 +315420,7 @@ entrypoints
 ]
 =
 {
-35587
+36002
 /
 *
 "
@@ -312195,7 +315428,7 @@ glMultiTexCoord1fv
 "
 *
 /
-35606
+36021
 /
 *
 "
@@ -312210,7 +315443,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35587
+36002
 /
 *
 "
@@ -312252,7 +315485,7 @@ entrypoints
 ]
 =
 {
-35606
+36021
 /
 *
 "
@@ -312260,7 +315493,7 @@ glMultiTexCoord1fvARB
 "
 *
 /
-35587
+36002
 /
 *
 "
@@ -312275,7 +315508,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35606
+36021
 /
 *
 "
@@ -312299,7 +315532,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-35628
+36043
 /
 *
 glMultiTexCoord1hNV
@@ -312319,7 +315552,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-35648
+36063
 /
 *
 glMultiTexCoord1hvNV
@@ -312357,7 +315590,7 @@ entrypoints
 ]
 =
 {
-35669
+36084
 /
 *
 "
@@ -312365,7 +315598,7 @@ glMultiTexCoord1i
 "
 *
 /
-35687
+36102
 /
 *
 "
@@ -312380,7 +315613,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35669
+36084
 /
 *
 "
@@ -312422,7 +315655,7 @@ entrypoints
 ]
 =
 {
-35687
+36102
 /
 *
 "
@@ -312430,7 +315663,7 @@ glMultiTexCoord1iARB
 "
 *
 /
-35669
+36084
 /
 *
 "
@@ -312445,7 +315678,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35687
+36102
 /
 *
 "
@@ -312487,7 +315720,7 @@ entrypoints
 ]
 =
 {
-35708
+36123
 /
 *
 "
@@ -312495,7 +315728,7 @@ glMultiTexCoord1iv
 "
 *
 /
-35727
+36142
 /
 *
 "
@@ -312510,7 +315743,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35708
+36123
 /
 *
 "
@@ -312552,7 +315785,7 @@ entrypoints
 ]
 =
 {
-35727
+36142
 /
 *
 "
@@ -312560,7 +315793,7 @@ glMultiTexCoord1ivARB
 "
 *
 /
-35708
+36123
 /
 *
 "
@@ -312575,7 +315808,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35727
+36142
 /
 *
 "
@@ -312617,7 +315850,7 @@ entrypoints
 ]
 =
 {
-35749
+36164
 /
 *
 "
@@ -312625,7 +315858,7 @@ glMultiTexCoord1s
 "
 *
 /
-35767
+36182
 /
 *
 "
@@ -312640,7 +315873,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35749
+36164
 /
 *
 "
@@ -312682,7 +315915,7 @@ entrypoints
 ]
 =
 {
-35767
+36182
 /
 *
 "
@@ -312690,7 +315923,7 @@ glMultiTexCoord1sARB
 "
 *
 /
-35749
+36164
 /
 *
 "
@@ -312705,7 +315938,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35767
+36182
 /
 *
 "
@@ -312747,7 +315980,7 @@ entrypoints
 ]
 =
 {
-35788
+36203
 /
 *
 "
@@ -312755,7 +315988,7 @@ glMultiTexCoord1sv
 "
 *
 /
-35807
+36222
 /
 *
 "
@@ -312770,7 +316003,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35788
+36203
 /
 *
 "
@@ -312812,7 +316045,7 @@ entrypoints
 ]
 =
 {
-35807
+36222
 /
 *
 "
@@ -312820,7 +316053,7 @@ glMultiTexCoord1svARB
 "
 *
 /
-35788
+36203
 /
 *
 "
@@ -312835,7 +316068,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35807
+36222
 /
 *
 "
@@ -312859,7 +316092,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-35829
+36244
 /
 *
 glMultiTexCoord1xOES
@@ -312879,7 +316112,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-35850
+36265
 /
 *
 glMultiTexCoord1xvOES
@@ -312899,7 +316132,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-35872
+36287
 /
 *
 glMultiTexCoord2bOES
@@ -312919,7 +316152,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-35893
+36308
 /
 *
 glMultiTexCoord2bvOES
@@ -312957,7 +316190,7 @@ entrypoints
 ]
 =
 {
-35915
+36330
 /
 *
 "
@@ -312965,7 +316198,7 @@ glMultiTexCoord2d
 "
 *
 /
-35933
+36348
 /
 *
 "
@@ -312980,7 +316213,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35915
+36330
 /
 *
 "
@@ -313022,7 +316255,7 @@ entrypoints
 ]
 =
 {
-35933
+36348
 /
 *
 "
@@ -313030,7 +316263,7 @@ glMultiTexCoord2dARB
 "
 *
 /
-35915
+36330
 /
 *
 "
@@ -313045,7 +316278,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35933
+36348
 /
 *
 "
@@ -313087,7 +316320,7 @@ entrypoints
 ]
 =
 {
-35954
+36369
 /
 *
 "
@@ -313095,7 +316328,7 @@ glMultiTexCoord2dv
 "
 *
 /
-35973
+36388
 /
 *
 "
@@ -313110,7 +316343,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35954
+36369
 /
 *
 "
@@ -313152,7 +316385,7 @@ entrypoints
 ]
 =
 {
-35973
+36388
 /
 *
 "
@@ -313160,7 +316393,7 @@ glMultiTexCoord2dvARB
 "
 *
 /
-35954
+36369
 /
 *
 "
@@ -313175,7 +316408,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35973
+36388
 /
 *
 "
@@ -313217,7 +316450,7 @@ entrypoints
 ]
 =
 {
-35995
+36410
 /
 *
 "
@@ -313225,7 +316458,7 @@ glMultiTexCoord2f
 "
 *
 /
-36013
+36428
 /
 *
 "
@@ -313240,7 +316473,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-35995
+36410
 /
 *
 "
@@ -313282,7 +316515,7 @@ entrypoints
 ]
 =
 {
-36013
+36428
 /
 *
 "
@@ -313290,7 +316523,7 @@ glMultiTexCoord2fARB
 "
 *
 /
-35995
+36410
 /
 *
 "
@@ -313305,7 +316538,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36013
+36428
 /
 *
 "
@@ -313347,7 +316580,7 @@ entrypoints
 ]
 =
 {
-36034
+36449
 /
 *
 "
@@ -313355,7 +316588,7 @@ glMultiTexCoord2fv
 "
 *
 /
-36053
+36468
 /
 *
 "
@@ -313370,7 +316603,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36034
+36449
 /
 *
 "
@@ -313412,7 +316645,7 @@ entrypoints
 ]
 =
 {
-36053
+36468
 /
 *
 "
@@ -313420,7 +316653,7 @@ glMultiTexCoord2fvARB
 "
 *
 /
-36034
+36449
 /
 *
 "
@@ -313435,7 +316668,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36053
+36468
 /
 *
 "
@@ -313459,7 +316692,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-36075
+36490
 /
 *
 glMultiTexCoord2hNV
@@ -313479,7 +316712,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-36095
+36510
 /
 *
 glMultiTexCoord2hvNV
@@ -313517,7 +316750,7 @@ entrypoints
 ]
 =
 {
-36116
+36531
 /
 *
 "
@@ -313525,7 +316758,7 @@ glMultiTexCoord2i
 "
 *
 /
-36134
+36549
 /
 *
 "
@@ -313540,7 +316773,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36116
+36531
 /
 *
 "
@@ -313582,7 +316815,7 @@ entrypoints
 ]
 =
 {
-36134
+36549
 /
 *
 "
@@ -313590,7 +316823,7 @@ glMultiTexCoord2iARB
 "
 *
 /
-36116
+36531
 /
 *
 "
@@ -313605,7 +316838,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36134
+36549
 /
 *
 "
@@ -313647,7 +316880,7 @@ entrypoints
 ]
 =
 {
-36155
+36570
 /
 *
 "
@@ -313655,7 +316888,7 @@ glMultiTexCoord2iv
 "
 *
 /
-36174
+36589
 /
 *
 "
@@ -313670,7 +316903,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36155
+36570
 /
 *
 "
@@ -313712,7 +316945,7 @@ entrypoints
 ]
 =
 {
-36174
+36589
 /
 *
 "
@@ -313720,7 +316953,7 @@ glMultiTexCoord2ivARB
 "
 *
 /
-36155
+36570
 /
 *
 "
@@ -313735,7 +316968,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36174
+36589
 /
 *
 "
@@ -313777,7 +317010,7 @@ entrypoints
 ]
 =
 {
-36196
+36611
 /
 *
 "
@@ -313785,7 +317018,7 @@ glMultiTexCoord2s
 "
 *
 /
-36214
+36629
 /
 *
 "
@@ -313800,7 +317033,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36196
+36611
 /
 *
 "
@@ -313842,7 +317075,7 @@ entrypoints
 ]
 =
 {
-36214
+36629
 /
 *
 "
@@ -313850,7 +317083,7 @@ glMultiTexCoord2sARB
 "
 *
 /
-36196
+36611
 /
 *
 "
@@ -313865,7 +317098,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36214
+36629
 /
 *
 "
@@ -313907,7 +317140,7 @@ entrypoints
 ]
 =
 {
-36235
+36650
 /
 *
 "
@@ -313915,7 +317148,7 @@ glMultiTexCoord2sv
 "
 *
 /
-36254
+36669
 /
 *
 "
@@ -313930,7 +317163,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36235
+36650
 /
 *
 "
@@ -313972,7 +317205,7 @@ entrypoints
 ]
 =
 {
-36254
+36669
 /
 *
 "
@@ -313980,7 +317213,7 @@ glMultiTexCoord2svARB
 "
 *
 /
-36235
+36650
 /
 *
 "
@@ -313995,7 +317228,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36254
+36669
 /
 *
 "
@@ -314019,7 +317252,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-36276
+36691
 /
 *
 glMultiTexCoord2xOES
@@ -314039,7 +317272,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-36297
+36712
 /
 *
 glMultiTexCoord2xvOES
@@ -314059,7 +317292,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-36319
+36734
 /
 *
 glMultiTexCoord3bOES
@@ -314079,7 +317312,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-36340
+36755
 /
 *
 glMultiTexCoord3bvOES
@@ -314117,7 +317350,7 @@ entrypoints
 ]
 =
 {
-36362
+36777
 /
 *
 "
@@ -314125,7 +317358,7 @@ glMultiTexCoord3d
 "
 *
 /
-36380
+36795
 /
 *
 "
@@ -314140,7 +317373,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36362
+36777
 /
 *
 "
@@ -314182,7 +317415,7 @@ entrypoints
 ]
 =
 {
-36380
+36795
 /
 *
 "
@@ -314190,7 +317423,7 @@ glMultiTexCoord3dARB
 "
 *
 /
-36362
+36777
 /
 *
 "
@@ -314205,7 +317438,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36380
+36795
 /
 *
 "
@@ -314247,7 +317480,7 @@ entrypoints
 ]
 =
 {
-36401
+36816
 /
 *
 "
@@ -314255,7 +317488,7 @@ glMultiTexCoord3dv
 "
 *
 /
-36420
+36835
 /
 *
 "
@@ -314270,7 +317503,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36401
+36816
 /
 *
 "
@@ -314312,7 +317545,7 @@ entrypoints
 ]
 =
 {
-36420
+36835
 /
 *
 "
@@ -314320,7 +317553,7 @@ glMultiTexCoord3dvARB
 "
 *
 /
-36401
+36816
 /
 *
 "
@@ -314335,7 +317568,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36420
+36835
 /
 *
 "
@@ -314377,7 +317610,7 @@ entrypoints
 ]
 =
 {
-36442
+36857
 /
 *
 "
@@ -314385,7 +317618,7 @@ glMultiTexCoord3f
 "
 *
 /
-36460
+36875
 /
 *
 "
@@ -314400,7 +317633,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36442
+36857
 /
 *
 "
@@ -314442,7 +317675,7 @@ entrypoints
 ]
 =
 {
-36460
+36875
 /
 *
 "
@@ -314450,7 +317683,7 @@ glMultiTexCoord3fARB
 "
 *
 /
-36442
+36857
 /
 *
 "
@@ -314465,7 +317698,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36460
+36875
 /
 *
 "
@@ -314507,7 +317740,7 @@ entrypoints
 ]
 =
 {
-36481
+36896
 /
 *
 "
@@ -314515,7 +317748,7 @@ glMultiTexCoord3fv
 "
 *
 /
-36500
+36915
 /
 *
 "
@@ -314530,7 +317763,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36481
+36896
 /
 *
 "
@@ -314572,7 +317805,7 @@ entrypoints
 ]
 =
 {
-36500
+36915
 /
 *
 "
@@ -314580,7 +317813,7 @@ glMultiTexCoord3fvARB
 "
 *
 /
-36481
+36896
 /
 *
 "
@@ -314595,7 +317828,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36500
+36915
 /
 *
 "
@@ -314619,7 +317852,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-36522
+36937
 /
 *
 glMultiTexCoord3hNV
@@ -314639,7 +317872,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-36542
+36957
 /
 *
 glMultiTexCoord3hvNV
@@ -314677,7 +317910,7 @@ entrypoints
 ]
 =
 {
-36563
+36978
 /
 *
 "
@@ -314685,7 +317918,7 @@ glMultiTexCoord3i
 "
 *
 /
-36581
+36996
 /
 *
 "
@@ -314700,7 +317933,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36563
+36978
 /
 *
 "
@@ -314742,7 +317975,7 @@ entrypoints
 ]
 =
 {
-36581
+36996
 /
 *
 "
@@ -314750,7 +317983,7 @@ glMultiTexCoord3iARB
 "
 *
 /
-36563
+36978
 /
 *
 "
@@ -314765,7 +317998,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36581
+36996
 /
 *
 "
@@ -314807,7 +318040,7 @@ entrypoints
 ]
 =
 {
-36602
+37017
 /
 *
 "
@@ -314815,7 +318048,7 @@ glMultiTexCoord3iv
 "
 *
 /
-36621
+37036
 /
 *
 "
@@ -314830,7 +318063,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36602
+37017
 /
 *
 "
@@ -314872,7 +318105,7 @@ entrypoints
 ]
 =
 {
-36621
+37036
 /
 *
 "
@@ -314880,7 +318113,7 @@ glMultiTexCoord3ivARB
 "
 *
 /
-36602
+37017
 /
 *
 "
@@ -314895,7 +318128,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36621
+37036
 /
 *
 "
@@ -314937,7 +318170,7 @@ entrypoints
 ]
 =
 {
-36643
+37058
 /
 *
 "
@@ -314945,7 +318178,7 @@ glMultiTexCoord3s
 "
 *
 /
-36661
+37076
 /
 *
 "
@@ -314960,7 +318193,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36643
+37058
 /
 *
 "
@@ -315002,7 +318235,7 @@ entrypoints
 ]
 =
 {
-36661
+37076
 /
 *
 "
@@ -315010,7 +318243,7 @@ glMultiTexCoord3sARB
 "
 *
 /
-36643
+37058
 /
 *
 "
@@ -315025,7 +318258,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36661
+37076
 /
 *
 "
@@ -315067,7 +318300,7 @@ entrypoints
 ]
 =
 {
-36682
+37097
 /
 *
 "
@@ -315075,7 +318308,7 @@ glMultiTexCoord3sv
 "
 *
 /
-36701
+37116
 /
 *
 "
@@ -315090,7 +318323,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36682
+37097
 /
 *
 "
@@ -315132,7 +318365,7 @@ entrypoints
 ]
 =
 {
-36701
+37116
 /
 *
 "
@@ -315140,7 +318373,7 @@ glMultiTexCoord3svARB
 "
 *
 /
-36682
+37097
 /
 *
 "
@@ -315155,7 +318388,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36701
+37116
 /
 *
 "
@@ -315179,7 +318412,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-36723
+37138
 /
 *
 glMultiTexCoord3xOES
@@ -315199,7 +318432,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-36744
+37159
 /
 *
 glMultiTexCoord3xvOES
@@ -315219,7 +318452,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-36766
+37181
 /
 *
 glMultiTexCoord4bOES
@@ -315239,7 +318472,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-36787
+37202
 /
 *
 glMultiTexCoord4bvOES
@@ -315277,7 +318510,7 @@ entrypoints
 ]
 =
 {
-36809
+37224
 /
 *
 "
@@ -315285,7 +318518,7 @@ glMultiTexCoord4d
 "
 *
 /
-36827
+37242
 /
 *
 "
@@ -315300,7 +318533,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36809
+37224
 /
 *
 "
@@ -315342,7 +318575,7 @@ entrypoints
 ]
 =
 {
-36827
+37242
 /
 *
 "
@@ -315350,7 +318583,7 @@ glMultiTexCoord4dARB
 "
 *
 /
-36809
+37224
 /
 *
 "
@@ -315365,7 +318598,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36827
+37242
 /
 *
 "
@@ -315407,7 +318640,7 @@ entrypoints
 ]
 =
 {
-36848
+37263
 /
 *
 "
@@ -315415,7 +318648,7 @@ glMultiTexCoord4dv
 "
 *
 /
-36867
+37282
 /
 *
 "
@@ -315430,7 +318663,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36848
+37263
 /
 *
 "
@@ -315472,7 +318705,7 @@ entrypoints
 ]
 =
 {
-36867
+37282
 /
 *
 "
@@ -315480,7 +318713,7 @@ glMultiTexCoord4dvARB
 "
 *
 /
-36848
+37263
 /
 *
 "
@@ -315495,7 +318728,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36867
+37282
 /
 *
 "
@@ -315538,7 +318771,7 @@ entrypoints
 ]
 =
 {
-36889
+37304
 /
 *
 "
@@ -315546,7 +318779,7 @@ glMultiTexCoord4f
 "
 *
 /
-36889
+37304
 /
 *
 "
@@ -315554,7 +318787,7 @@ glMultiTexCoord4f
 "
 *
 /
-36907
+37322
 /
 *
 "
@@ -315569,7 +318802,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36889
+37304
 /
 *
 "
@@ -315612,7 +318845,7 @@ entrypoints
 ]
 =
 {
-36907
+37322
 /
 *
 "
@@ -315620,7 +318853,7 @@ glMultiTexCoord4fARB
 "
 *
 /
-36889
+37304
 /
 *
 "
@@ -315628,7 +318861,7 @@ glMultiTexCoord4f
 "
 *
 /
-36889
+37304
 /
 *
 "
@@ -315643,7 +318876,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36907
+37322
 /
 *
 "
@@ -315685,7 +318918,7 @@ entrypoints
 ]
 =
 {
-36928
+37343
 /
 *
 "
@@ -315693,7 +318926,7 @@ glMultiTexCoord4fv
 "
 *
 /
-36947
+37362
 /
 *
 "
@@ -315708,7 +318941,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36928
+37343
 /
 *
 "
@@ -315750,7 +318983,7 @@ entrypoints
 ]
 =
 {
-36947
+37362
 /
 *
 "
@@ -315758,7 +318991,7 @@ glMultiTexCoord4fvARB
 "
 *
 /
-36928
+37343
 /
 *
 "
@@ -315773,7 +319006,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-36947
+37362
 /
 *
 "
@@ -315797,7 +319030,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-36969
+37384
 /
 *
 glMultiTexCoord4hNV
@@ -315817,7 +319050,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-36989
+37404
 /
 *
 glMultiTexCoord4hvNV
@@ -315855,7 +319088,7 @@ entrypoints
 ]
 =
 {
-37010
+37425
 /
 *
 "
@@ -315863,7 +319096,7 @@ glMultiTexCoord4i
 "
 *
 /
-37028
+37443
 /
 *
 "
@@ -315878,7 +319111,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37010
+37425
 /
 *
 "
@@ -315920,7 +319153,7 @@ entrypoints
 ]
 =
 {
-37028
+37443
 /
 *
 "
@@ -315928,7 +319161,7 @@ glMultiTexCoord4iARB
 "
 *
 /
-37010
+37425
 /
 *
 "
@@ -315943,7 +319176,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37028
+37443
 /
 *
 "
@@ -315985,7 +319218,7 @@ entrypoints
 ]
 =
 {
-37049
+37464
 /
 *
 "
@@ -315993,7 +319226,7 @@ glMultiTexCoord4iv
 "
 *
 /
-37068
+37483
 /
 *
 "
@@ -316008,7 +319241,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37049
+37464
 /
 *
 "
@@ -316050,7 +319283,7 @@ entrypoints
 ]
 =
 {
-37068
+37483
 /
 *
 "
@@ -316058,7 +319291,7 @@ glMultiTexCoord4ivARB
 "
 *
 /
-37049
+37464
 /
 *
 "
@@ -316073,7 +319306,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37068
+37483
 /
 *
 "
@@ -316115,7 +319348,7 @@ entrypoints
 ]
 =
 {
-37090
+37505
 /
 *
 "
@@ -316123,7 +319356,7 @@ glMultiTexCoord4s
 "
 *
 /
-37108
+37523
 /
 *
 "
@@ -316138,7 +319371,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37090
+37505
 /
 *
 "
@@ -316180,7 +319413,7 @@ entrypoints
 ]
 =
 {
-37108
+37523
 /
 *
 "
@@ -316188,7 +319421,7 @@ glMultiTexCoord4sARB
 "
 *
 /
-37090
+37505
 /
 *
 "
@@ -316203,7 +319436,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37108
+37523
 /
 *
 "
@@ -316245,7 +319478,7 @@ entrypoints
 ]
 =
 {
-37129
+37544
 /
 *
 "
@@ -316253,7 +319486,7 @@ glMultiTexCoord4sv
 "
 *
 /
-37148
+37563
 /
 *
 "
@@ -316268,7 +319501,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37129
+37544
 /
 *
 "
@@ -316310,7 +319543,7 @@ entrypoints
 ]
 =
 {
-37148
+37563
 /
 *
 "
@@ -316318,7 +319551,7 @@ glMultiTexCoord4svARB
 "
 *
 /
-37129
+37544
 /
 *
 "
@@ -316333,7 +319566,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37148
+37563
 /
 *
 "
@@ -316357,7 +319590,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-37170
+37585
 /
 *
 glMultiTexCoord4x
@@ -316377,7 +319610,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-37188
+37603
 /
 *
 glMultiTexCoord4xOES
@@ -316397,7 +319630,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-37209
+37624
 /
 *
 glMultiTexCoord4xvOES
@@ -316435,7 +319668,7 @@ entrypoints
 ]
 =
 {
-37231
+37646
 /
 *
 "
@@ -316443,7 +319676,7 @@ glMultiTexCoordP1ui
 "
 *
 /
-37231
+37646
 /
 *
 "
@@ -316458,7 +319691,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37231
+37646
 /
 *
 "
@@ -316500,7 +319733,7 @@ entrypoints
 ]
 =
 {
-37251
+37666
 /
 *
 "
@@ -316508,7 +319741,7 @@ glMultiTexCoordP1uiv
 "
 *
 /
-37251
+37666
 /
 *
 "
@@ -316523,7 +319756,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37251
+37666
 /
 *
 "
@@ -316565,7 +319798,7 @@ entrypoints
 ]
 =
 {
-37272
+37687
 /
 *
 "
@@ -316573,7 +319806,7 @@ glMultiTexCoordP2ui
 "
 *
 /
-37272
+37687
 /
 *
 "
@@ -316588,7 +319821,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37272
+37687
 /
 *
 "
@@ -316630,7 +319863,7 @@ entrypoints
 ]
 =
 {
-37292
+37707
 /
 *
 "
@@ -316638,7 +319871,7 @@ glMultiTexCoordP2uiv
 "
 *
 /
-37292
+37707
 /
 *
 "
@@ -316653,7 +319886,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37292
+37707
 /
 *
 "
@@ -316695,7 +319928,7 @@ entrypoints
 ]
 =
 {
-37313
+37728
 /
 *
 "
@@ -316703,7 +319936,7 @@ glMultiTexCoordP3ui
 "
 *
 /
-37313
+37728
 /
 *
 "
@@ -316718,7 +319951,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37313
+37728
 /
 *
 "
@@ -316760,7 +319993,7 @@ entrypoints
 ]
 =
 {
-37333
+37748
 /
 *
 "
@@ -316768,7 +320001,7 @@ glMultiTexCoordP3uiv
 "
 *
 /
-37333
+37748
 /
 *
 "
@@ -316783,7 +320016,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37333
+37748
 /
 *
 "
@@ -316825,7 +320058,7 @@ entrypoints
 ]
 =
 {
-37354
+37769
 /
 *
 "
@@ -316833,7 +320066,7 @@ glMultiTexCoordP4ui
 "
 *
 /
-37354
+37769
 /
 *
 "
@@ -316848,7 +320081,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37354
+37769
 /
 *
 "
@@ -316890,7 +320123,7 @@ entrypoints
 ]
 =
 {
-37374
+37789
 /
 *
 "
@@ -316898,7 +320131,7 @@ glMultiTexCoordP4uiv
 "
 *
 /
-37374
+37789
 /
 *
 "
@@ -316913,7 +320146,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-37374
+37789
 /
 *
 "
@@ -316937,7 +320170,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37395
+37810
 /
 *
 glMultiTexCoordPointerEXT
@@ -316957,7 +320190,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37421
+37836
 /
 *
 glMultiTexEnvfEXT
@@ -316977,7 +320210,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37439
+37854
 /
 *
 glMultiTexEnvfvEXT
@@ -316997,7 +320230,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37458
+37873
 /
 *
 glMultiTexEnviEXT
@@ -317017,7 +320250,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37476
+37891
 /
 *
 glMultiTexEnvivEXT
@@ -317037,7 +320270,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37495
+37910
 /
 *
 glMultiTexGendEXT
@@ -317057,7 +320290,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37513
+37928
 /
 *
 glMultiTexGendvEXT
@@ -317077,7 +320310,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37532
+37947
 /
 *
 glMultiTexGenfEXT
@@ -317097,7 +320330,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37550
+37965
 /
 *
 glMultiTexGenfvEXT
@@ -317117,7 +320350,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37569
+37984
 /
 *
 glMultiTexGeniEXT
@@ -317137,7 +320370,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37587
+38002
 /
 *
 glMultiTexGenivEXT
@@ -317157,7 +320390,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37606
+38021
 /
 *
 glMultiTexImage1DEXT
@@ -317177,7 +320410,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37627
+38042
 /
 *
 glMultiTexImage2DEXT
@@ -317197,7 +320430,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37648
+38063
 /
 *
 glMultiTexImage3DEXT
@@ -317217,7 +320450,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37669
+38084
 /
 *
 glMultiTexParameterIivEXT
@@ -317237,7 +320470,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37695
+38110
 /
 *
 glMultiTexParameterIuivEXT
@@ -317257,7 +320490,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37722
+38137
 /
 *
 glMultiTexParameterfEXT
@@ -317277,7 +320510,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37746
+38161
 /
 *
 glMultiTexParameterfvEXT
@@ -317297,7 +320530,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37771
+38186
 /
 *
 glMultiTexParameteriEXT
@@ -317317,7 +320550,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37795
+38210
 /
 *
 glMultiTexParameterivEXT
@@ -317337,7 +320570,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37820
+38235
 /
 *
 glMultiTexRenderbufferEXT
@@ -317357,7 +320590,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37846
+38261
 /
 *
 glMultiTexSubImage1DEXT
@@ -317377,7 +320610,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37870
+38285
 /
 *
 glMultiTexSubImage2DEXT
@@ -317397,7 +320630,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-37894
+38309
 /
 *
 glMultiTexSubImage3DEXT
@@ -317417,7 +320650,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-37918
+38333
 /
 *
 glMulticastBarrierNV
@@ -317437,7 +320670,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-37939
+38354
 /
 *
 glMulticastBlitFramebufferNV
@@ -317457,7 +320690,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-37968
+38383
 /
 *
 glMulticastBufferSubDataNV
@@ -317477,7 +320710,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-37995
+38410
 /
 *
 glMulticastCopyBufferSubDataNV
@@ -317497,7 +320730,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-38026
+38441
 /
 *
 glMulticastCopyImageSubDataNV
@@ -317517,7 +320750,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-38056
+38471
 /
 *
 glMulticastFramebufferSampleLocationsfvNV
@@ -317537,7 +320770,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-38098
+38513
 /
 *
 glMulticastGetQueryObjecti64vNV
@@ -317557,7 +320790,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-38130
+38545
 /
 *
 glMulticastGetQueryObjectivNV
@@ -317577,7 +320810,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-38160
+38575
 /
 *
 glMulticastGetQueryObjectui64vNV
@@ -317597,7 +320830,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-38193
+38608
 /
 *
 glMulticastGetQueryObjectuivNV
@@ -317617,7 +320850,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_gpu_multicast2
-38224
+38639
 /
 *
 glMulticastScissorArrayvNVX
@@ -317637,7 +320870,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_gpu_multicast2
-38252
+38667
 /
 *
 glMulticastViewportArrayvNVX
@@ -317657,7 +320890,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_gpu_multicast2
-38281
+38696
 /
 *
 glMulticastViewportPositionWScaleNVX
@@ -317677,7 +320910,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-38318
+38733
 /
 *
 glMulticastWaitSyncNV
@@ -317697,7 +320930,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_memory_attachment
-38340
+38755
 /
 *
 glNamedBufferAttachMemoryNV
@@ -317735,7 +320968,7 @@ entrypoints
 ]
 =
 {
-38368
+38783
 /
 *
 "
@@ -317743,7 +320976,7 @@ glNamedBufferData
 "
 *
 /
-38368
+38783
 /
 *
 "
@@ -317758,7 +320991,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38368
+38783
 /
 *
 "
@@ -317782,7 +321015,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-38386
+38801
 /
 *
 glNamedBufferDataEXT
@@ -317802,7 +321035,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_sparse_buffer
-38407
+38822
 /
 *
 glNamedBufferPageCommitmentARB
@@ -317822,10 +321055,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_sparse_buffer
-38438
+38853
 /
 *
 glNamedBufferPageCommitmentEXT
+*
+/
+)
+;
+}
+static
+PFNGLNAMEDBUFFERPAGECOMMITMENTMEMNVPROC
+epoxy_glNamedBufferPageCommitmentMemNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_NV_memory_object_sparse
+38884
+/
+*
+glNamedBufferPageCommitmentMemNV
 *
 /
 )
@@ -317861,7 +321114,7 @@ entrypoints
 ]
 =
 {
-38469
+38917
 /
 *
 "
@@ -317869,7 +321122,7 @@ glNamedBufferStorage
 "
 *
 /
-38469
+38917
 /
 *
 "
@@ -317877,7 +321130,7 @@ glNamedBufferStorage
 "
 *
 /
-38490
+38938
 /
 *
 "
@@ -317892,7 +321145,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38469
+38917
 /
 *
 "
@@ -317935,7 +321188,7 @@ entrypoints
 ]
 =
 {
-38490
+38938
 /
 *
 "
@@ -317943,7 +321196,7 @@ glNamedBufferStorageEXT
 "
 *
 /
-38469
+38917
 /
 *
 "
@@ -317951,7 +321204,7 @@ glNamedBufferStorage
 "
 *
 /
-38469
+38917
 /
 *
 "
@@ -317966,7 +321219,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38490
+38938
 /
 *
 "
@@ -317990,7 +321243,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_external_buffer
-38514
+38962
 /
 *
 glNamedBufferStorageExternalEXT
@@ -318010,7 +321263,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-38546
+38994
 /
 *
 glNamedBufferStorageMemEXT
@@ -318049,7 +321302,7 @@ entrypoints
 ]
 =
 {
-38573
+39021
 /
 *
 "
@@ -318057,7 +321310,7 @@ glNamedBufferSubData
 "
 *
 /
-38573
+39021
 /
 *
 "
@@ -318065,7 +321318,7 @@ glNamedBufferSubData
 "
 *
 /
-38594
+39042
 /
 *
 "
@@ -318080,7 +321333,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38573
+39021
 /
 *
 "
@@ -318123,7 +321376,7 @@ entrypoints
 ]
 =
 {
-38594
+39042
 /
 *
 "
@@ -318131,7 +321384,7 @@ glNamedBufferSubDataEXT
 "
 *
 /
-38573
+39021
 /
 *
 "
@@ -318139,7 +321392,7 @@ glNamedBufferSubData
 "
 *
 /
-38573
+39021
 /
 *
 "
@@ -318154,7 +321407,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38594
+39042
 /
 *
 "
@@ -318178,7 +321431,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-38618
+39066
 /
 *
 glNamedCopyBufferSubDataEXT
@@ -318216,7 +321469,7 @@ entrypoints
 ]
 =
 {
-38646
+39094
 /
 *
 "
@@ -318224,7 +321477,7 @@ glNamedFramebufferDrawBuffer
 "
 *
 /
-38646
+39094
 /
 *
 "
@@ -318239,7 +321492,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38646
+39094
 /
 *
 "
@@ -318281,7 +321534,7 @@ entrypoints
 ]
 =
 {
-38675
+39123
 /
 *
 "
@@ -318289,7 +321542,7 @@ glNamedFramebufferDrawBuffers
 "
 *
 /
-38675
+39123
 /
 *
 "
@@ -318304,7 +321557,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38675
+39123
 /
 *
 "
@@ -318346,7 +321599,7 @@ entrypoints
 ]
 =
 {
-38705
+39153
 /
 *
 "
@@ -318354,7 +321607,7 @@ glNamedFramebufferParameteri
 "
 *
 /
-38705
+39153
 /
 *
 "
@@ -318369,7 +321622,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38705
+39153
 /
 *
 "
@@ -318393,7 +321646,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-38734
+39182
 /
 *
 glNamedFramebufferParameteriEXT
@@ -318431,7 +321684,7 @@ entrypoints
 ]
 =
 {
-38766
+39214
 /
 *
 "
@@ -318439,7 +321692,7 @@ glNamedFramebufferReadBuffer
 "
 *
 /
-38766
+39214
 /
 *
 "
@@ -318454,7 +321707,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38766
+39214
 /
 *
 "
@@ -318496,7 +321749,7 @@ entrypoints
 ]
 =
 {
-38795
+39243
 /
 *
 "
@@ -318504,7 +321757,7 @@ glNamedFramebufferRenderbuffer
 "
 *
 /
-38795
+39243
 /
 *
 "
@@ -318519,7 +321772,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38795
+39243
 /
 *
 "
@@ -318543,7 +321796,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-38826
+39274
 /
 *
 glNamedFramebufferRenderbufferEXT
@@ -318563,7 +321816,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_sample_locations
-38860
+39308
 /
 *
 glNamedFramebufferSampleLocationsfvARB
@@ -318583,7 +321836,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_sample_locations
-38899
+39347
 /
 *
 glNamedFramebufferSampleLocationsfvNV
@@ -318603,7 +321856,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_framebuffer_sample_positions
-38937
+39385
 /
 *
 glNamedFramebufferSamplePositionsfvAMD
@@ -318641,7 +321894,7 @@ entrypoints
 ]
 =
 {
-38976
+39424
 /
 *
 "
@@ -318649,7 +321902,7 @@ glNamedFramebufferTexture
 "
 *
 /
-38976
+39424
 /
 *
 "
@@ -318664,7 +321917,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-38976
+39424
 /
 *
 "
@@ -318688,7 +321941,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39002
+39450
 /
 *
 glNamedFramebufferTexture1DEXT
@@ -318708,7 +321961,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39033
+39481
 /
 *
 glNamedFramebufferTexture2DEXT
@@ -318728,7 +321981,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39064
+39512
 /
 *
 glNamedFramebufferTexture3DEXT
@@ -318748,7 +322001,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39095
+39543
 /
 *
 glNamedFramebufferTextureEXT
@@ -318768,7 +322021,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39124
+39572
 /
 *
 glNamedFramebufferTextureFaceEXT
@@ -318806,7 +322059,7 @@ entrypoints
 ]
 =
 {
-39157
+39605
 /
 *
 "
@@ -318814,7 +322067,7 @@ glNamedFramebufferTextureLayer
 "
 *
 /
-39157
+39605
 /
 *
 "
@@ -318829,7 +322082,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-39157
+39605
 /
 *
 "
@@ -318853,10 +322106,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39188
+39636
 /
 *
 glNamedFramebufferTextureLayerEXT
+*
+/
+)
+;
+}
+static
+PFNGLNAMEDFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC
+epoxy_glNamedFramebufferTextureMultiviewOVR_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_OVR_multiview
+39670
+/
+*
+glNamedFramebufferTextureMultiviewOVR
 *
 /
 )
@@ -318873,7 +322146,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39222
+39708
 /
 *
 glNamedProgramLocalParameter4dEXT
@@ -318893,7 +322166,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39256
+39742
 /
 *
 glNamedProgramLocalParameter4dvEXT
@@ -318913,7 +322186,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39291
+39777
 /
 *
 glNamedProgramLocalParameter4fEXT
@@ -318933,7 +322206,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39325
+39811
 /
 *
 glNamedProgramLocalParameter4fvEXT
@@ -318953,7 +322226,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39360
+39846
 /
 *
 glNamedProgramLocalParameterI4iEXT
@@ -318973,7 +322246,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39395
+39881
 /
 *
 glNamedProgramLocalParameterI4ivEXT
@@ -318993,7 +322266,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39431
+39917
 /
 *
 glNamedProgramLocalParameterI4uiEXT
@@ -319013,7 +322286,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39467
+39953
 /
 *
 glNamedProgramLocalParameterI4uivEXT
@@ -319033,7 +322306,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39504
+39990
 /
 *
 glNamedProgramLocalParameters4fvEXT
@@ -319053,7 +322326,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39540
+40026
 /
 *
 glNamedProgramLocalParametersI4ivEXT
@@ -319073,7 +322346,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39577
+40063
 /
 *
 glNamedProgramLocalParametersI4uivEXT
@@ -319093,7 +322366,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39615
+40101
 /
 *
 glNamedProgramStringEXT
@@ -319131,7 +322404,7 @@ entrypoints
 ]
 =
 {
-39639
+40125
 /
 *
 "
@@ -319139,7 +322412,7 @@ glNamedRenderbufferStorage
 "
 *
 /
-39639
+40125
 /
 *
 "
@@ -319154,7 +322427,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-39639
+40125
 /
 *
 "
@@ -319178,7 +322451,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39666
+40152
 /
 *
 glNamedRenderbufferStorageEXT
@@ -319216,7 +322489,7 @@ entrypoints
 ]
 =
 {
-39696
+40182
 /
 *
 "
@@ -319224,7 +322497,7 @@ glNamedRenderbufferStorageMultisample
 "
 *
 /
-39696
+40182
 /
 *
 "
@@ -319239,7 +322512,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-39696
+40182
 /
 *
 "
@@ -319263,7 +322536,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_framebuffer_multisample_advanced
-39734
+40220
 /
 *
 glNamedRenderbufferStorageMultisampleAdvancedAMD
@@ -319283,7 +322556,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39783
+40269
 /
 *
 glNamedRenderbufferStorageMultisampleCoverageEXT
@@ -319303,7 +322576,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-39832
+40318
 /
 *
 glNamedRenderbufferStorageMultisampleEXT
@@ -319323,7 +322596,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_shading_language_include
-39873
+40359
 /
 *
 glNamedStringARB
@@ -319343,7 +322616,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-39890
+40376
 /
 *
 glNewList
@@ -319363,7 +322636,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-39900
+40386
 /
 *
 glNewObjectBufferATI
@@ -319383,7 +322656,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-39921
+40407
 /
 *
 glNormal3b
@@ -319403,7 +322676,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-39932
+40418
 /
 *
 glNormal3bv
@@ -319423,7 +322696,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-39944
+40430
 /
 *
 glNormal3d
@@ -319443,7 +322716,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-39955
+40441
 /
 *
 glNormal3dv
@@ -319481,7 +322754,7 @@ entrypoints
 ]
 =
 {
-39967
+40453
 /
 *
 "
@@ -319489,7 +322762,7 @@ glNormal3f
 "
 *
 /
-39967
+40453
 /
 *
 "
@@ -319504,7 +322777,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-39967
+40453
 /
 *
 "
@@ -319528,7 +322801,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-39978
+40464
 /
 *
 glNormal3fVertex3fSUN
@@ -319548,7 +322821,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-40000
+40486
 /
 *
 glNormal3fVertex3fvSUN
@@ -319568,7 +322841,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-40023
+40509
 /
 *
 glNormal3fv
@@ -319588,7 +322861,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-40035
+40521
 /
 *
 glNormal3hNV
@@ -319608,7 +322881,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-40048
+40534
 /
 *
 glNormal3hvNV
@@ -319628,7 +322901,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-40062
+40548
 /
 *
 glNormal3i
@@ -319648,7 +322921,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-40073
+40559
 /
 *
 glNormal3iv
@@ -319668,7 +322941,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-40085
+40571
 /
 *
 glNormal3s
@@ -319688,7 +322961,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-40096
+40582
 /
 *
 glNormal3sv
@@ -319708,7 +322981,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-40108
+40594
 /
 *
 glNormal3x
@@ -319728,7 +323001,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-40119
+40605
 /
 *
 glNormal3xOES
@@ -319748,7 +323021,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-40133
+40619
 /
 *
 glNormal3xvOES
@@ -319768,7 +323041,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-40148
+40634
 /
 *
 glNormalFormatNV
@@ -319806,7 +323079,7 @@ entrypoints
 ]
 =
 {
-40165
+40651
 /
 *
 "
@@ -319814,7 +323087,7 @@ glNormalP3ui
 "
 *
 /
-40165
+40651
 /
 *
 "
@@ -319829,7 +323102,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40165
+40651
 /
 *
 "
@@ -319871,7 +323144,7 @@ entrypoints
 ]
 =
 {
-40178
+40664
 /
 *
 "
@@ -319879,7 +323152,7 @@ glNormalP3uiv
 "
 *
 /
-40178
+40664
 /
 *
 "
@@ -319894,7 +323167,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40178
+40664
 /
 *
 "
@@ -319936,7 +323209,7 @@ entrypoints
 ]
 =
 {
-40192
+40678
 /
 *
 "
@@ -319944,7 +323217,7 @@ glNormalPointer
 "
 *
 /
-40192
+40678
 /
 *
 "
@@ -319959,7 +323232,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40192
+40678
 /
 *
 "
@@ -319983,7 +323256,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_array
-40208
+40694
 /
 *
 glNormalPointerEXT
@@ -320003,7 +323276,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_vertex_array_lists
-40227
+40713
 /
 *
 glNormalPointerListIBM
@@ -320023,7 +323296,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_parallel_arrays
-40250
+40736
 /
 *
 glNormalPointervINTEL
@@ -320043,7 +323316,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40272
+40758
 /
 *
 glNormalStream3bATI
@@ -320063,7 +323336,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40292
+40778
 /
 *
 glNormalStream3bvATI
@@ -320083,7 +323356,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40313
+40799
 /
 *
 glNormalStream3dATI
@@ -320103,7 +323376,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40333
+40819
 /
 *
 glNormalStream3dvATI
@@ -320123,7 +323396,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40354
+40840
 /
 *
 glNormalStream3fATI
@@ -320143,7 +323416,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40374
+40860
 /
 *
 glNormalStream3fvATI
@@ -320163,7 +323436,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40395
+40881
 /
 *
 glNormalStream3iATI
@@ -320183,7 +323456,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40415
+40901
 /
 *
 glNormalStream3ivATI
@@ -320203,7 +323476,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40436
+40922
 /
 *
 glNormalStream3sATI
@@ -320223,7 +323496,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-40456
+40942
 /
 *
 glNormalStream3svATI
@@ -320263,7 +323536,7 @@ entrypoints
 ]
 =
 {
-40477
+40963
 /
 *
 "
@@ -320271,7 +323544,7 @@ glObjectLabel
 "
 *
 /
-40477
+40963
 /
 *
 "
@@ -320279,7 +323552,7 @@ glObjectLabel
 "
 *
 /
-40477
+40963
 /
 *
 "
@@ -320287,7 +323560,7 @@ glObjectLabel
 "
 *
 /
-40491
+40977
 /
 *
 "
@@ -320302,7 +323575,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40477
+40963
 /
 *
 "
@@ -320346,7 +323619,7 @@ entrypoints
 ]
 =
 {
-40491
+40977
 /
 *
 "
@@ -320354,7 +323627,7 @@ glObjectLabelKHR
 "
 *
 /
-40477
+40963
 /
 *
 "
@@ -320362,7 +323635,7 @@ glObjectLabel
 "
 *
 /
-40477
+40963
 /
 *
 "
@@ -320370,7 +323643,7 @@ glObjectLabel
 "
 *
 /
-40477
+40963
 /
 *
 "
@@ -320385,7 +323658,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40491
+40977
 /
 *
 "
@@ -320429,7 +323702,7 @@ entrypoints
 ]
 =
 {
-40508
+40994
 /
 *
 "
@@ -320437,7 +323710,7 @@ glObjectPtrLabel
 "
 *
 /
-40508
+40994
 /
 *
 "
@@ -320445,7 +323718,7 @@ glObjectPtrLabel
 "
 *
 /
-40508
+40994
 /
 *
 "
@@ -320453,7 +323726,7 @@ glObjectPtrLabel
 "
 *
 /
-40525
+41011
 /
 *
 "
@@ -320468,7 +323741,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40508
+40994
 /
 *
 "
@@ -320512,7 +323785,7 @@ entrypoints
 ]
 =
 {
-40525
+41011
 /
 *
 "
@@ -320520,7 +323793,7 @@ glObjectPtrLabelKHR
 "
 *
 /
-40508
+40994
 /
 *
 "
@@ -320528,7 +323801,7 @@ glObjectPtrLabel
 "
 *
 /
-40508
+40994
 /
 *
 "
@@ -320536,7 +323809,7 @@ glObjectPtrLabel
 "
 *
 /
-40508
+40994
 /
 *
 "
@@ -320551,7 +323824,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40525
+41011
 /
 *
 "
@@ -320575,7 +323848,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_object_purgeable
-40545
+41031
 /
 *
 glObjectPurgeableAPPLE
@@ -320595,7 +323868,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_object_purgeable
-40568
+41054
 /
 *
 glObjectUnpurgeableAPPLE
@@ -320615,7 +323888,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-40593
+41079
 /
 *
 glOrtho
@@ -320635,7 +323908,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-40601
+41087
 /
 *
 glOrthof
@@ -320655,7 +323928,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_single_precision
-40610
+41096
 /
 *
 glOrthofOES
@@ -320675,7 +323948,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-40622
+41108
 /
 *
 glOrthox
@@ -320695,7 +323968,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-40631
+41117
 /
 *
 glOrthoxOES
@@ -320715,7 +323988,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_pn_triangles
-40643
+41129
 /
 *
 glPNTrianglesfATI
@@ -320735,7 +324008,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_pn_triangles
-40661
+41147
 /
 *
 glPNTrianglesiATI
@@ -320755,7 +324028,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-40679
+41165
 /
 *
 glPassTexCoordATI
@@ -320775,7 +324048,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-40697
+41183
 /
 *
 glPassThrough
@@ -320795,7 +324068,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-40711
+41197
 /
 *
 glPassThroughxOES
@@ -320833,7 +324106,7 @@ entrypoints
 ]
 =
 {
-40729
+41215
 /
 *
 "
@@ -320841,7 +324114,7 @@ glPatchParameterfv
 "
 *
 /
-40729
+41215
 /
 *
 "
@@ -320856,7 +324129,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40729
+41215
 /
 *
 "
@@ -320901,7 +324174,7 @@ entrypoints
 ]
 =
 {
-40748
+41234
 /
 *
 "
@@ -320909,7 +324182,7 @@ glPatchParameteri
 "
 *
 /
-40748
+41234
 /
 *
 "
@@ -320917,7 +324190,7 @@ glPatchParameteri
 "
 *
 /
-40748
+41234
 /
 *
 "
@@ -320925,7 +324198,7 @@ glPatchParameteri
 "
 *
 /
-40766
+41252
 /
 *
 "
@@ -320933,7 +324206,7 @@ glPatchParameteriEXT
 "
 *
 /
-40787
+41273
 /
 *
 "
@@ -320948,7 +324221,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40748
+41234
 /
 *
 "
@@ -320993,7 +324266,7 @@ entrypoints
 ]
 =
 {
-40766
+41252
 /
 *
 "
@@ -321001,7 +324274,7 @@ glPatchParameteriEXT
 "
 *
 /
-40748
+41234
 /
 *
 "
@@ -321009,7 +324282,7 @@ glPatchParameteri
 "
 *
 /
-40748
+41234
 /
 *
 "
@@ -321017,7 +324290,7 @@ glPatchParameteri
 "
 *
 /
-40748
+41234
 /
 *
 "
@@ -321025,7 +324298,7 @@ glPatchParameteri
 "
 *
 /
-40787
+41273
 /
 *
 "
@@ -321040,7 +324313,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40766
+41252
 /
 *
 "
@@ -321085,7 +324358,7 @@ entrypoints
 ]
 =
 {
-40787
+41273
 /
 *
 "
@@ -321093,7 +324366,7 @@ glPatchParameteriOES
 "
 *
 /
-40748
+41234
 /
 *
 "
@@ -321101,7 +324374,7 @@ glPatchParameteri
 "
 *
 /
-40748
+41234
 /
 *
 "
@@ -321109,7 +324382,7 @@ glPatchParameteri
 "
 *
 /
-40748
+41234
 /
 *
 "
@@ -321117,7 +324390,7 @@ glPatchParameteri
 "
 *
 /
-40766
+41252
 /
 *
 "
@@ -321132,7 +324405,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-40787
+41273
 /
 *
 "
@@ -321156,7 +324429,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40808
+41294
 /
 *
 glPathColorGenNV
@@ -321176,7 +324449,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40825
+41311
 /
 *
 glPathCommandsNV
@@ -321196,7 +324469,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40842
+41328
 /
 *
 glPathCoordsNV
@@ -321216,7 +324489,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40857
+41343
 /
 *
 glPathCoverDepthFuncNV
@@ -321236,7 +324509,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40880
+41366
 /
 *
 glPathDashArrayNV
@@ -321256,7 +324529,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40898
+41384
 /
 *
 glPathFogGenNV
@@ -321276,7 +324549,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40913
+41399
 /
 *
 glPathGlyphIndexArrayNV
@@ -321296,7 +324569,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40937
+41423
 /
 *
 glPathGlyphIndexRangeNV
@@ -321316,7 +324589,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40961
+41447
 /
 *
 glPathGlyphRangeNV
@@ -321336,7 +324609,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40980
+41466
 /
 *
 glPathGlyphsNV
@@ -321356,7 +324629,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-40995
+41481
 /
 *
 glPathMemoryGlyphIndexArrayNV
@@ -321376,7 +324649,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41025
+41511
 /
 *
 glPathParameterfNV
@@ -321396,7 +324669,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41044
+41530
 /
 *
 glPathParameterfvNV
@@ -321416,7 +324689,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41064
+41550
 /
 *
 glPathParameteriNV
@@ -321436,7 +324709,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41083
+41569
 /
 *
 glPathParameterivNV
@@ -321456,7 +324729,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41103
+41589
 /
 *
 glPathStencilDepthOffsetNV
@@ -321476,7 +324749,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41130
+41616
 /
 *
 glPathStencilFuncNV
@@ -321496,7 +324769,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41150
+41636
 /
 *
 glPathStringNV
@@ -321516,7 +324789,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41165
+41651
 /
 *
 glPathSubCommandsNV
@@ -321536,7 +324809,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41185
+41671
 /
 *
 glPathSubCoordsNV
@@ -321556,7 +324829,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41203
+41689
 /
 *
 glPathTexGenNV
@@ -321596,7 +324869,7 @@ entrypoints
 ]
 =
 {
-41218
+41704
 /
 *
 "
@@ -321604,7 +324877,7 @@ glPauseTransformFeedback
 "
 *
 /
-41218
+41704
 /
 *
 "
@@ -321612,7 +324885,7 @@ glPauseTransformFeedback
 "
 *
 /
-41218
+41704
 /
 *
 "
@@ -321620,7 +324893,7 @@ glPauseTransformFeedback
 "
 *
 /
-41243
+41729
 /
 *
 "
@@ -321635,7 +324908,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41218
+41704
 /
 *
 "
@@ -321679,7 +324952,7 @@ entrypoints
 ]
 =
 {
-41243
+41729
 /
 *
 "
@@ -321687,7 +324960,7 @@ glPauseTransformFeedbackNV
 "
 *
 /
-41218
+41704
 /
 *
 "
@@ -321695,7 +324968,7 @@ glPauseTransformFeedback
 "
 *
 /
-41218
+41704
 /
 *
 "
@@ -321703,7 +324976,7 @@ glPauseTransformFeedback
 "
 *
 /
-41218
+41704
 /
 *
 "
@@ -321718,7 +324991,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41243
+41729
 /
 *
 "
@@ -321742,7 +325015,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_pixel_data_range
-41270
+41756
 /
 *
 glPixelDataRangeNV
@@ -321762,7 +325035,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-41289
+41775
 /
 *
 glPixelMapfv
@@ -321782,7 +325055,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-41302
+41788
 /
 *
 glPixelMapuiv
@@ -321802,7 +325075,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-41316
+41802
 /
 *
 glPixelMapusv
@@ -321822,7 +325095,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-41330
+41816
 /
 *
 glPixelMapx
@@ -321842,7 +325115,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-41342
+41828
 /
 *
 glPixelStoref
@@ -321881,7 +325154,7 @@ entrypoints
 ]
 =
 {
-41356
+41842
 /
 *
 "
@@ -321889,7 +325162,7 @@ glPixelStorei
 "
 *
 /
-41356
+41842
 /
 *
 "
@@ -321897,7 +325170,7 @@ glPixelStorei
 "
 *
 /
-41356
+41842
 /
 *
 "
@@ -321912,7 +325185,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41356
+41842
 /
 *
 "
@@ -321936,7 +325209,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-41370
+41856
 /
 *
 glPixelStorex
@@ -321956,7 +325229,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_pixel_texture
-41384
+41870
 /
 *
 glPixelTexGenParameterfSGIS
@@ -321976,7 +325249,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_pixel_texture
-41412
+41898
 /
 *
 glPixelTexGenParameterfvSGIS
@@ -321996,7 +325269,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_pixel_texture
-41441
+41927
 /
 *
 glPixelTexGenParameteriSGIS
@@ -322016,7 +325289,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_pixel_texture
-41469
+41955
 /
 *
 glPixelTexGenParameterivSGIS
@@ -322036,7 +325309,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_pixel_texture
-41498
+41984
 /
 *
 glPixelTexGenSGIX
@@ -322056,7 +325329,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-41516
+42002
 /
 *
 glPixelTransferf
@@ -322076,7 +325349,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-41533
+42019
 /
 *
 glPixelTransferi
@@ -322096,7 +325369,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-41550
+42036
 /
 *
 glPixelTransferxOES
@@ -322116,7 +325389,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_pixel_transform
-41570
+42056
 /
 *
 glPixelTransformParameterfEXT
@@ -322136,7 +325409,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_pixel_transform
-41600
+42086
 /
 *
 glPixelTransformParameterfvEXT
@@ -322156,7 +325429,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_pixel_transform
-41631
+42117
 /
 *
 glPixelTransformParameteriEXT
@@ -322176,7 +325449,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_pixel_transform
-41661
+42147
 /
 *
 glPixelTransformParameterivEXT
@@ -322196,7 +325469,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-41692
+42178
 /
 *
 glPixelZoom
@@ -322216,7 +325489,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-41704
+42190
 /
 *
 glPixelZoomxOES
@@ -322236,7 +325509,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-41720
+42206
 /
 *
 glPointAlongPathNV
@@ -322277,7 +325550,7 @@ entrypoints
 ]
 =
 {
-41739
+42225
 /
 *
 "
@@ -322285,7 +325558,7 @@ glPointParameterf
 "
 *
 /
-41739
+42225
 /
 *
 "
@@ -322293,7 +325566,7 @@ glPointParameterf
 "
 *
 /
-41757
+42243
 /
 *
 "
@@ -322301,7 +325574,7 @@ glPointParameterfARB
 "
 *
 /
-41778
+42264
 /
 *
 "
@@ -322309,7 +325582,7 @@ glPointParameterfEXT
 "
 *
 /
-41799
+42285
 /
 *
 "
@@ -322324,7 +325597,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41739
+42225
 /
 *
 "
@@ -322369,7 +325642,7 @@ entrypoints
 ]
 =
 {
-41757
+42243
 /
 *
 "
@@ -322377,7 +325650,7 @@ glPointParameterfARB
 "
 *
 /
-41739
+42225
 /
 *
 "
@@ -322385,7 +325658,7 @@ glPointParameterf
 "
 *
 /
-41739
+42225
 /
 *
 "
@@ -322393,7 +325666,7 @@ glPointParameterf
 "
 *
 /
-41778
+42264
 /
 *
 "
@@ -322401,7 +325674,7 @@ glPointParameterfEXT
 "
 *
 /
-41799
+42285
 /
 *
 "
@@ -322416,7 +325689,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41757
+42243
 /
 *
 "
@@ -322461,7 +325734,7 @@ entrypoints
 ]
 =
 {
-41778
+42264
 /
 *
 "
@@ -322469,7 +325742,7 @@ glPointParameterfEXT
 "
 *
 /
-41739
+42225
 /
 *
 "
@@ -322477,7 +325750,7 @@ glPointParameterf
 "
 *
 /
-41739
+42225
 /
 *
 "
@@ -322485,7 +325758,7 @@ glPointParameterf
 "
 *
 /
-41757
+42243
 /
 *
 "
@@ -322493,7 +325766,7 @@ glPointParameterfARB
 "
 *
 /
-41799
+42285
 /
 *
 "
@@ -322508,7 +325781,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41778
+42264
 /
 *
 "
@@ -322553,7 +325826,7 @@ entrypoints
 ]
 =
 {
-41799
+42285
 /
 *
 "
@@ -322561,7 +325834,7 @@ glPointParameterfSGIS
 "
 *
 /
-41739
+42225
 /
 *
 "
@@ -322569,7 +325842,7 @@ glPointParameterf
 "
 *
 /
-41739
+42225
 /
 *
 "
@@ -322577,7 +325850,7 @@ glPointParameterf
 "
 *
 /
-41757
+42243
 /
 *
 "
@@ -322585,7 +325858,7 @@ glPointParameterfARB
 "
 *
 /
-41778
+42264
 /
 *
 "
@@ -322600,7 +325873,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41799
+42285
 /
 *
 "
@@ -322645,7 +325918,7 @@ entrypoints
 ]
 =
 {
-41821
+42307
 /
 *
 "
@@ -322653,7 +325926,7 @@ glPointParameterfv
 "
 *
 /
-41821
+42307
 /
 *
 "
@@ -322661,7 +325934,7 @@ glPointParameterfv
 "
 *
 /
-41840
+42326
 /
 *
 "
@@ -322669,7 +325942,7 @@ glPointParameterfvARB
 "
 *
 /
-41862
+42348
 /
 *
 "
@@ -322677,7 +325950,7 @@ glPointParameterfvEXT
 "
 *
 /
-41884
+42370
 /
 *
 "
@@ -322692,7 +325965,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41821
+42307
 /
 *
 "
@@ -322737,7 +326010,7 @@ entrypoints
 ]
 =
 {
-41840
+42326
 /
 *
 "
@@ -322745,7 +326018,7 @@ glPointParameterfvARB
 "
 *
 /
-41821
+42307
 /
 *
 "
@@ -322753,7 +326026,7 @@ glPointParameterfv
 "
 *
 /
-41821
+42307
 /
 *
 "
@@ -322761,7 +326034,7 @@ glPointParameterfv
 "
 *
 /
-41862
+42348
 /
 *
 "
@@ -322769,7 +326042,7 @@ glPointParameterfvEXT
 "
 *
 /
-41884
+42370
 /
 *
 "
@@ -322784,7 +326057,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41840
+42326
 /
 *
 "
@@ -322829,7 +326102,7 @@ entrypoints
 ]
 =
 {
-41862
+42348
 /
 *
 "
@@ -322837,7 +326110,7 @@ glPointParameterfvEXT
 "
 *
 /
-41821
+42307
 /
 *
 "
@@ -322845,7 +326118,7 @@ glPointParameterfv
 "
 *
 /
-41821
+42307
 /
 *
 "
@@ -322853,7 +326126,7 @@ glPointParameterfv
 "
 *
 /
-41840
+42326
 /
 *
 "
@@ -322861,7 +326134,7 @@ glPointParameterfvARB
 "
 *
 /
-41884
+42370
 /
 *
 "
@@ -322876,7 +326149,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41862
+42348
 /
 *
 "
@@ -322921,7 +326194,7 @@ entrypoints
 ]
 =
 {
-41884
+42370
 /
 *
 "
@@ -322929,7 +326202,7 @@ glPointParameterfvSGIS
 "
 *
 /
-41821
+42307
 /
 *
 "
@@ -322937,7 +326210,7 @@ glPointParameterfv
 "
 *
 /
-41821
+42307
 /
 *
 "
@@ -322945,7 +326218,7 @@ glPointParameterfv
 "
 *
 /
-41840
+42326
 /
 *
 "
@@ -322953,7 +326226,7 @@ glPointParameterfvARB
 "
 *
 /
-41862
+42348
 /
 *
 "
@@ -322968,7 +326241,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41884
+42370
 /
 *
 "
@@ -323010,7 +326283,7 @@ entrypoints
 ]
 =
 {
-41907
+42393
 /
 *
 "
@@ -323018,7 +326291,7 @@ glPointParameteri
 "
 *
 /
-41925
+42411
 /
 *
 "
@@ -323033,7 +326306,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41907
+42393
 /
 *
 "
@@ -323075,7 +326348,7 @@ entrypoints
 ]
 =
 {
-41925
+42411
 /
 *
 "
@@ -323083,7 +326356,7 @@ glPointParameteriNV
 "
 *
 /
-41907
+42393
 /
 *
 "
@@ -323098,7 +326371,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41925
+42411
 /
 *
 "
@@ -323140,7 +326413,7 @@ entrypoints
 ]
 =
 {
-41945
+42431
 /
 *
 "
@@ -323148,7 +326421,7 @@ glPointParameteriv
 "
 *
 /
-41964
+42450
 /
 *
 "
@@ -323163,7 +326436,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41945
+42431
 /
 *
 "
@@ -323205,7 +326478,7 @@ entrypoints
 ]
 =
 {
-41964
+42450
 /
 *
 "
@@ -323213,7 +326486,7 @@ glPointParameterivNV
 "
 *
 /
-41945
+42431
 /
 *
 "
@@ -323228,7 +326501,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-41964
+42450
 /
 *
 "
@@ -323252,7 +326525,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-41985
+42471
 /
 *
 glPointParameterx
@@ -323272,7 +326545,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-42003
+42489
 /
 *
 glPointParameterxOES
@@ -323292,7 +326565,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-42024
+42510
 /
 *
 glPointParameterxv
@@ -323312,7 +326585,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-42043
+42529
 /
 *
 glPointParameterxvOES
@@ -323350,7 +326623,7 @@ entrypoints
 ]
 =
 {
-42065
+42551
 /
 *
 "
@@ -323358,7 +326631,7 @@ glPointSize
 "
 *
 /
-42065
+42551
 /
 *
 "
@@ -323373,7 +326646,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42065
+42551
 /
 *
 "
@@ -323397,7 +326670,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_point_size_array
-42077
+42563
 /
 *
 glPointSizePointerOES
@@ -323417,7 +326690,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-42099
+42585
 /
 *
 glPointSizex
@@ -323437,7 +326710,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-42112
+42598
 /
 *
 glPointSizexOES
@@ -323457,7 +326730,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_async
-42128
+42614
 /
 *
 glPollAsyncSGIX
@@ -323477,7 +326750,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_instruments
-42144
+42630
 /
 *
 glPollInstrumentsSGIX
@@ -323515,7 +326788,7 @@ entrypoints
 ]
 =
 {
-42166
+42652
 /
 *
 "
@@ -323523,7 +326796,7 @@ glPolygonMode
 "
 *
 /
-42180
+42666
 /
 *
 "
@@ -323538,7 +326811,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42166
+42652
 /
 *
 "
@@ -323580,7 +326853,7 @@ entrypoints
 ]
 =
 {
-42180
+42666
 /
 *
 "
@@ -323588,7 +326861,7 @@ glPolygonModeNV
 "
 *
 /
-42166
+42652
 /
 *
 "
@@ -323603,7 +326876,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42180
+42666
 /
 *
 "
@@ -323646,7 +326919,7 @@ entrypoints
 ]
 =
 {
-42196
+42682
 /
 *
 "
@@ -323654,7 +326927,7 @@ glPolygonOffset
 "
 *
 /
-42196
+42682
 /
 *
 "
@@ -323662,7 +326935,7 @@ glPolygonOffset
 "
 *
 /
-42196
+42682
 /
 *
 "
@@ -323677,7 +326950,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42196
+42682
 /
 *
 "
@@ -323720,7 +326993,7 @@ entrypoints
 ]
 =
 {
-42212
+42698
 /
 *
 "
@@ -323728,7 +327001,7 @@ glPolygonOffsetClamp
 "
 *
 /
-42212
+42698
 /
 *
 "
@@ -323736,7 +327009,7 @@ glPolygonOffsetClamp
 "
 *
 /
-42233
+42719
 /
 *
 "
@@ -323751,7 +327024,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42212
+42698
 /
 *
 "
@@ -323794,7 +327067,7 @@ entrypoints
 ]
 =
 {
-42233
+42719
 /
 *
 "
@@ -323802,7 +327075,7 @@ glPolygonOffsetClampEXT
 "
 *
 /
-42212
+42698
 /
 *
 "
@@ -323810,7 +327083,7 @@ glPolygonOffsetClamp
 "
 *
 /
-42212
+42698
 /
 *
 "
@@ -323825,7 +327098,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42233
+42719
 /
 *
 "
@@ -323849,7 +327122,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_polygon_offset
-42257
+42743
 /
 *
 glPolygonOffsetEXT
@@ -323869,7 +327142,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-42276
+42762
 /
 *
 glPolygonOffsetx
@@ -323889,7 +327162,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-42293
+42779
 /
 *
 glPolygonOffsetxOES
@@ -323909,7 +327182,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-42313
+42799
 /
 *
 glPolygonStipple
@@ -323929,7 +327202,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-42330
+42816
 /
 *
 glPopAttrib
@@ -323949,7 +327222,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_1
-42342
+42828
 /
 *
 glPopClientAttrib
@@ -323989,7 +327262,7 @@ entrypoints
 ]
 =
 {
-42360
+42846
 /
 *
 "
@@ -323997,7 +327270,7 @@ glPopDebugGroup
 "
 *
 /
-42360
+42846
 /
 *
 "
@@ -324005,7 +327278,7 @@ glPopDebugGroup
 "
 *
 /
-42360
+42846
 /
 *
 "
@@ -324013,7 +327286,7 @@ glPopDebugGroup
 "
 *
 /
-42376
+42862
 /
 *
 "
@@ -324028,7 +327301,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42360
+42846
 /
 *
 "
@@ -324072,7 +327345,7 @@ entrypoints
 ]
 =
 {
-42376
+42862
 /
 *
 "
@@ -324080,7 +327353,7 @@ glPopDebugGroupKHR
 "
 *
 /
-42360
+42846
 /
 *
 "
@@ -324088,7 +327361,7 @@ glPopDebugGroup
 "
 *
 /
-42360
+42846
 /
 *
 "
@@ -324096,7 +327369,7 @@ glPopDebugGroup
 "
 *
 /
-42360
+42846
 /
 *
 "
@@ -324111,7 +327384,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42376
+42862
 /
 *
 "
@@ -324135,7 +327408,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_debug_marker
-42395
+42881
 /
 *
 glPopGroupMarkerEXT
@@ -324173,7 +327446,7 @@ entrypoints
 ]
 =
 {
-42415
+42901
 /
 *
 "
@@ -324181,7 +327454,7 @@ glPopMatrix
 "
 *
 /
-42415
+42901
 /
 *
 "
@@ -324196,7 +327469,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42415
+42901
 /
 *
 "
@@ -324220,7 +327493,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-42427
+42913
 /
 *
 glPopName
@@ -324240,7 +327513,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_present_video
-42437
+42923
 /
 *
 glPresentFrameDualFillNV
@@ -324260,7 +327533,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_present_video
-42462
+42948
 /
 *
 glPresentFrameKeyedNV
@@ -324300,7 +327573,7 @@ entrypoints
 ]
 =
 {
-42484
+42970
 /
 *
 "
@@ -324308,7 +327581,7 @@ glPrimitiveBoundingBox
 "
 *
 /
-42507
+42993
 /
 *
 "
@@ -324316,7 +327589,7 @@ glPrimitiveBoundingBoxARB
 "
 *
 /
-42533
+43019
 /
 *
 "
@@ -324324,7 +327597,7 @@ glPrimitiveBoundingBoxEXT
 "
 *
 /
-42559
+43045
 /
 *
 "
@@ -324339,7 +327612,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42484
+42970
 /
 *
 "
@@ -324383,7 +327656,7 @@ entrypoints
 ]
 =
 {
-42507
+42993
 /
 *
 "
@@ -324391,7 +327664,7 @@ glPrimitiveBoundingBoxARB
 "
 *
 /
-42484
+42970
 /
 *
 "
@@ -324399,7 +327672,7 @@ glPrimitiveBoundingBox
 "
 *
 /
-42533
+43019
 /
 *
 "
@@ -324407,7 +327680,7 @@ glPrimitiveBoundingBoxEXT
 "
 *
 /
-42559
+43045
 /
 *
 "
@@ -324422,7 +327695,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42507
+42993
 /
 *
 "
@@ -324466,7 +327739,7 @@ entrypoints
 ]
 =
 {
-42533
+43019
 /
 *
 "
@@ -324474,7 +327747,7 @@ glPrimitiveBoundingBoxEXT
 "
 *
 /
-42484
+42970
 /
 *
 "
@@ -324482,7 +327755,7 @@ glPrimitiveBoundingBox
 "
 *
 /
-42507
+42993
 /
 *
 "
@@ -324490,7 +327763,7 @@ glPrimitiveBoundingBoxARB
 "
 *
 /
-42559
+43045
 /
 *
 "
@@ -324505,7 +327778,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42533
+43019
 /
 *
 "
@@ -324549,7 +327822,7 @@ entrypoints
 ]
 =
 {
-42559
+43045
 /
 *
 "
@@ -324557,7 +327830,7 @@ glPrimitiveBoundingBoxOES
 "
 *
 /
-42484
+42970
 /
 *
 "
@@ -324565,7 +327838,7 @@ glPrimitiveBoundingBox
 "
 *
 /
-42507
+42993
 /
 *
 "
@@ -324573,7 +327846,7 @@ glPrimitiveBoundingBoxARB
 "
 *
 /
-42533
+43019
 /
 *
 "
@@ -324588,7 +327861,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42559
+43045
 /
 *
 "
@@ -324612,7 +327885,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_3_1
-42585
+43071
 /
 *
 glPrimitiveRestartIndex
@@ -324632,7 +327905,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_primitive_restart
-42609
+43095
 /
 *
 glPrimitiveRestartIndexNV
@@ -324652,7 +327925,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_primitive_restart
-42635
+43121
 /
 *
 glPrimitiveRestartNV
@@ -324690,7 +327963,7 @@ entrypoints
 ]
 =
 {
-42656
+43142
 /
 *
 "
@@ -324698,7 +327971,7 @@ glPrioritizeTextures
 "
 *
 /
-42677
+43163
 /
 *
 "
@@ -324713,7 +327986,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42656
+43142
 /
 *
 "
@@ -324755,7 +328028,7 @@ entrypoints
 ]
 =
 {
-42677
+43163
 /
 *
 "
@@ -324763,7 +328036,7 @@ glPrioritizeTexturesEXT
 "
 *
 /
-42656
+43142
 /
 *
 "
@@ -324778,7 +328051,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42677
+43163
 /
 *
 "
@@ -324802,7 +328075,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-42701
+43187
 /
 *
 glPrioritizeTexturesxOES
@@ -324842,7 +328115,7 @@ entrypoints
 ]
 =
 {
-42726
+43212
 /
 *
 "
@@ -324850,7 +328123,7 @@ glProgramBinary
 "
 *
 /
-42726
+43212
 /
 *
 "
@@ -324858,7 +328131,7 @@ glProgramBinary
 "
 *
 /
-42726
+43212
 /
 *
 "
@@ -324866,7 +328139,7 @@ glProgramBinary
 "
 *
 /
-42742
+43228
 /
 *
 "
@@ -324881,7 +328154,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42726
+43212
 /
 *
 "
@@ -324925,7 +328198,7 @@ entrypoints
 ]
 =
 {
-42742
+43228
 /
 *
 "
@@ -324933,7 +328206,7 @@ glProgramBinaryOES
 "
 *
 /
-42726
+43212
 /
 *
 "
@@ -324941,7 +328214,7 @@ glProgramBinary
 "
 *
 /
-42726
+43212
 /
 *
 "
@@ -324949,7 +328222,7 @@ glProgramBinary
 "
 *
 /
-42726
+43212
 /
 *
 "
@@ -324964,7 +328237,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42742
+43228
 /
 *
 "
@@ -324988,7 +328261,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_parameter_buffer_object
-42761
+43247
 /
 *
 glProgramBufferParametersIivNV
@@ -325008,7 +328281,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_parameter_buffer_object
-42792
+43278
 /
 *
 glProgramBufferParametersIuivNV
@@ -325028,7 +328301,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_parameter_buffer_object
-42824
+43310
 /
 *
 glProgramBufferParametersfvNV
@@ -325066,7 +328339,7 @@ entrypoints
 ]
 =
 {
-42854
+43340
 /
 *
 "
@@ -325074,7 +328347,7 @@ glProgramEnvParameter4dARB
 "
 *
 /
-42854
+43340
 /
 *
 "
@@ -325089,7 +328362,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42854
+43340
 /
 *
 "
@@ -325131,7 +328404,7 @@ entrypoints
 ]
 =
 {
-42881
+43367
 /
 *
 "
@@ -325139,7 +328412,7 @@ glProgramEnvParameter4dvARB
 "
 *
 /
-42881
+43367
 /
 *
 "
@@ -325154,7 +328427,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42881
+43367
 /
 *
 "
@@ -325196,7 +328469,7 @@ entrypoints
 ]
 =
 {
-42909
+43395
 /
 *
 "
@@ -325204,7 +328477,7 @@ glProgramEnvParameter4fARB
 "
 *
 /
-42909
+43395
 /
 *
 "
@@ -325219,7 +328492,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42909
+43395
 /
 *
 "
@@ -325261,7 +328534,7 @@ entrypoints
 ]
 =
 {
-42936
+43422
 /
 *
 "
@@ -325269,7 +328542,7 @@ glProgramEnvParameter4fvARB
 "
 *
 /
-42936
+43422
 /
 *
 "
@@ -325284,7 +328557,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-42936
+43422
 /
 *
 "
@@ -325308,7 +328581,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-42964
+43450
 /
 *
 glProgramEnvParameterI4iNV
@@ -325328,7 +328601,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-42991
+43477
 /
 *
 glProgramEnvParameterI4ivNV
@@ -325348,7 +328621,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43019
+43505
 /
 *
 glProgramEnvParameterI4uiNV
@@ -325368,7 +328641,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43047
+43533
 /
 *
 glProgramEnvParameterI4uivNV
@@ -325388,7 +328661,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_gpu_program_parameters
-43076
+43562
 /
 *
 glProgramEnvParameters4fvEXT
@@ -325408,7 +328681,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43105
+43591
 /
 *
 glProgramEnvParametersI4ivNV
@@ -325428,7 +328701,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43134
+43620
 /
 *
 glProgramEnvParametersI4uivNV
@@ -325466,7 +328739,7 @@ entrypoints
 ]
 =
 {
-43164
+43650
 /
 *
 "
@@ -325474,7 +328747,7 @@ glProgramLocalParameter4dARB
 "
 *
 /
-43164
+43650
 /
 *
 "
@@ -325489,7 +328762,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43164
+43650
 /
 *
 "
@@ -325531,7 +328804,7 @@ entrypoints
 ]
 =
 {
-43193
+43679
 /
 *
 "
@@ -325539,7 +328812,7 @@ glProgramLocalParameter4dvARB
 "
 *
 /
-43193
+43679
 /
 *
 "
@@ -325554,7 +328827,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43193
+43679
 /
 *
 "
@@ -325596,7 +328869,7 @@ entrypoints
 ]
 =
 {
-43223
+43709
 /
 *
 "
@@ -325604,7 +328877,7 @@ glProgramLocalParameter4fARB
 "
 *
 /
-43223
+43709
 /
 *
 "
@@ -325619,7 +328892,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43223
+43709
 /
 *
 "
@@ -325661,7 +328934,7 @@ entrypoints
 ]
 =
 {
-43252
+43738
 /
 *
 "
@@ -325669,7 +328942,7 @@ glProgramLocalParameter4fvARB
 "
 *
 /
-43252
+43738
 /
 *
 "
@@ -325684,7 +328957,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43252
+43738
 /
 *
 "
@@ -325708,7 +328981,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43282
+43768
 /
 *
 glProgramLocalParameterI4iNV
@@ -325728,7 +329001,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43311
+43797
 /
 *
 glProgramLocalParameterI4ivNV
@@ -325748,7 +329021,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43341
+43827
 /
 *
 glProgramLocalParameterI4uiNV
@@ -325768,7 +329041,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43371
+43857
 /
 *
 glProgramLocalParameterI4uivNV
@@ -325788,7 +329061,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_gpu_program_parameters
-43402
+43888
 /
 *
 glProgramLocalParameters4fvEXT
@@ -325808,7 +329081,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43433
+43919
 /
 *
 glProgramLocalParametersI4ivNV
@@ -325828,7 +329101,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program4
-43464
+43950
 /
 *
 glProgramLocalParametersI4uivNV
@@ -325848,7 +329121,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fragment_program
-43496
+43982
 /
 *
 glProgramNamedParameter4dNV
@@ -325868,7 +329141,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fragment_program
-43524
+44010
 /
 *
 glProgramNamedParameter4dvNV
@@ -325888,7 +329161,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fragment_program
-43553
+44039
 /
 *
 glProgramNamedParameter4fNV
@@ -325908,7 +329181,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fragment_program
-43581
+44067
 /
 *
 glProgramNamedParameter4fvNV
@@ -325928,7 +329201,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-43610
+44096
 /
 *
 glProgramParameter4dNV
@@ -325948,7 +329221,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-43633
+44119
 /
 *
 glProgramParameter4dvNV
@@ -325968,7 +329241,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-43657
+44143
 /
 *
 glProgramParameter4fNV
@@ -325988,7 +329261,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-43680
+44166
 /
 *
 glProgramParameter4fvNV
@@ -326031,7 +329304,7 @@ entrypoints
 ]
 =
 {
-43704
+44190
 /
 *
 "
@@ -326039,7 +329312,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326047,7 +329320,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326055,7 +329328,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326063,7 +329336,7 @@ glProgramParameteri
 "
 *
 /
-43724
+44210
 /
 *
 "
@@ -326071,7 +329344,7 @@ glProgramParameteriARB
 "
 *
 /
-43747
+44233
 /
 *
 "
@@ -326079,7 +329352,7 @@ glProgramParameteriEXT
 "
 *
 /
-43747
+44233
 /
 *
 "
@@ -326094,7 +329367,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43704
+44190
 /
 *
 "
@@ -326141,7 +329414,7 @@ entrypoints
 ]
 =
 {
-43724
+44210
 /
 *
 "
@@ -326149,7 +329422,7 @@ glProgramParameteriARB
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326157,7 +329430,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326165,7 +329438,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326173,7 +329446,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326181,7 +329454,7 @@ glProgramParameteri
 "
 *
 /
-43747
+44233
 /
 *
 "
@@ -326189,7 +329462,7 @@ glProgramParameteriEXT
 "
 *
 /
-43747
+44233
 /
 *
 "
@@ -326204,7 +329477,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43724
+44210
 /
 *
 "
@@ -326251,7 +329524,7 @@ entrypoints
 ]
 =
 {
-43747
+44233
 /
 *
 "
@@ -326259,7 +329532,7 @@ glProgramParameteriEXT
 "
 *
 /
-43747
+44233
 /
 *
 "
@@ -326267,7 +329540,7 @@ glProgramParameteriEXT
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326275,7 +329548,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326283,7 +329556,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326291,7 +329564,7 @@ glProgramParameteri
 "
 *
 /
-43704
+44190
 /
 *
 "
@@ -326299,7 +329572,7 @@ glProgramParameteri
 "
 *
 /
-43724
+44210
 /
 *
 "
@@ -326314,7 +329587,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43747
+44233
 /
 *
 "
@@ -326338,7 +329611,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-43770
+44256
 /
 *
 glProgramParameters4dvNV
@@ -326358,7 +329631,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-43795
+44281
 /
 *
 glProgramParameters4fvNV
@@ -326378,7 +329651,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-43820
+44306
 /
 *
 glProgramPathFragmentInputGenNV
@@ -326416,7 +329689,7 @@ entrypoints
 ]
 =
 {
-43852
+44338
 /
 *
 "
@@ -326424,7 +329697,7 @@ glProgramStringARB
 "
 *
 /
-43852
+44338
 /
 *
 "
@@ -326439,7 +329712,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43852
+44338
 /
 *
 "
@@ -326463,7 +329736,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_program5
-43871
+44357
 /
 *
 glProgramSubroutineParametersuivNV
@@ -326501,7 +329774,7 @@ entrypoints
 ]
 =
 {
-43906
+44392
 /
 *
 "
@@ -326509,7 +329782,7 @@ glProgramUniform1d
 "
 *
 /
-43906
+44392
 /
 *
 "
@@ -326524,7 +329797,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43906
+44392
 /
 *
 "
@@ -326548,7 +329821,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-43925
+44411
 /
 *
 glProgramUniform1dEXT
@@ -326586,7 +329859,7 @@ entrypoints
 ]
 =
 {
-43947
+44433
 /
 *
 "
@@ -326594,7 +329867,7 @@ glProgramUniform1dv
 "
 *
 /
-43947
+44433
 /
 *
 "
@@ -326609,7 +329882,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43947
+44433
 /
 *
 "
@@ -326633,7 +329906,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-43967
+44453
 /
 *
 glProgramUniform1dvEXT
@@ -326674,7 +329947,7 @@ entrypoints
 ]
 =
 {
-43990
+44476
 /
 *
 "
@@ -326682,7 +329955,7 @@ glProgramUniform1f
 "
 *
 /
-43990
+44476
 /
 *
 "
@@ -326690,7 +329963,7 @@ glProgramUniform1f
 "
 *
 /
-43990
+44476
 /
 *
 "
@@ -326698,7 +329971,7 @@ glProgramUniform1f
 "
 *
 /
-44009
+44495
 /
 *
 "
@@ -326706,7 +329979,7 @@ glProgramUniform1fEXT
 "
 *
 /
-44009
+44495
 /
 *
 "
@@ -326721,7 +329994,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-43990
+44476
 /
 *
 "
@@ -326766,7 +330039,7 @@ entrypoints
 ]
 =
 {
-44009
+44495
 /
 *
 "
@@ -326774,7 +330047,7 @@ glProgramUniform1fEXT
 "
 *
 /
-44009
+44495
 /
 *
 "
@@ -326782,7 +330055,7 @@ glProgramUniform1fEXT
 "
 *
 /
-43990
+44476
 /
 *
 "
@@ -326790,7 +330063,7 @@ glProgramUniform1f
 "
 *
 /
-43990
+44476
 /
 *
 "
@@ -326798,7 +330071,7 @@ glProgramUniform1f
 "
 *
 /
-43990
+44476
 /
 *
 "
@@ -326813,7 +330086,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44009
+44495
 /
 *
 "
@@ -326858,7 +330131,7 @@ entrypoints
 ]
 =
 {
-44031
+44517
 /
 *
 "
@@ -326866,7 +330139,7 @@ glProgramUniform1fv
 "
 *
 /
-44031
+44517
 /
 *
 "
@@ -326874,7 +330147,7 @@ glProgramUniform1fv
 "
 *
 /
-44031
+44517
 /
 *
 "
@@ -326882,7 +330155,7 @@ glProgramUniform1fv
 "
 *
 /
-44051
+44537
 /
 *
 "
@@ -326890,7 +330163,7 @@ glProgramUniform1fvEXT
 "
 *
 /
-44051
+44537
 /
 *
 "
@@ -326905,7 +330178,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44031
+44517
 /
 *
 "
@@ -326950,7 +330223,7 @@ entrypoints
 ]
 =
 {
-44051
+44537
 /
 *
 "
@@ -326958,7 +330231,7 @@ glProgramUniform1fvEXT
 "
 *
 /
-44051
+44537
 /
 *
 "
@@ -326966,7 +330239,7 @@ glProgramUniform1fvEXT
 "
 *
 /
-44031
+44517
 /
 *
 "
@@ -326974,7 +330247,7 @@ glProgramUniform1fv
 "
 *
 /
-44031
+44517
 /
 *
 "
@@ -326982,7 +330255,7 @@ glProgramUniform1fv
 "
 *
 /
-44031
+44517
 /
 *
 "
@@ -326997,7 +330270,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44051
+44537
 /
 *
 "
@@ -327042,7 +330315,7 @@ entrypoints
 ]
 =
 {
-44074
+44560
 /
 *
 "
@@ -327050,7 +330323,7 @@ glProgramUniform1i
 "
 *
 /
-44074
+44560
 /
 *
 "
@@ -327058,7 +330331,7 @@ glProgramUniform1i
 "
 *
 /
-44074
+44560
 /
 *
 "
@@ -327066,7 +330339,7 @@ glProgramUniform1i
 "
 *
 /
-44189
+44675
 /
 *
 "
@@ -327074,7 +330347,7 @@ glProgramUniform1iEXT
 "
 *
 /
-44189
+44675
 /
 *
 "
@@ -327089,7 +330362,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44074
+44560
 /
 *
 "
@@ -327113,7 +330386,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-44093
+44579
 /
 *
 glProgramUniform1i64ARB
@@ -327151,7 +330424,7 @@ entrypoints
 ]
 =
 {
-44117
+44603
 /
 *
 "
@@ -327159,7 +330432,7 @@ glProgramUniform1i64NV
 "
 *
 /
-44117
+44603
 /
 *
 "
@@ -327174,7 +330447,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44117
+44603
 /
 *
 "
@@ -327198,7 +330471,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-44140
+44626
 /
 *
 glProgramUniform1i64vARB
@@ -327236,7 +330509,7 @@ entrypoints
 ]
 =
 {
-44165
+44651
 /
 *
 "
@@ -327244,7 +330517,7 @@ glProgramUniform1i64vNV
 "
 *
 /
-44165
+44651
 /
 *
 "
@@ -327259,7 +330532,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44165
+44651
 /
 *
 "
@@ -327304,7 +330577,7 @@ entrypoints
 ]
 =
 {
-44189
+44675
 /
 *
 "
@@ -327312,7 +330585,7 @@ glProgramUniform1iEXT
 "
 *
 /
-44189
+44675
 /
 *
 "
@@ -327320,7 +330593,7 @@ glProgramUniform1iEXT
 "
 *
 /
-44074
+44560
 /
 *
 "
@@ -327328,7 +330601,7 @@ glProgramUniform1i
 "
 *
 /
-44074
+44560
 /
 *
 "
@@ -327336,7 +330609,7 @@ glProgramUniform1i
 "
 *
 /
-44074
+44560
 /
 *
 "
@@ -327351,7 +330624,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44189
+44675
 /
 *
 "
@@ -327396,7 +330669,7 @@ entrypoints
 ]
 =
 {
-44211
+44697
 /
 *
 "
@@ -327404,7 +330677,7 @@ glProgramUniform1iv
 "
 *
 /
-44211
+44697
 /
 *
 "
@@ -327412,7 +330685,7 @@ glProgramUniform1iv
 "
 *
 /
-44211
+44697
 /
 *
 "
@@ -327420,7 +330693,7 @@ glProgramUniform1iv
 "
 *
 /
-44231
+44717
 /
 *
 "
@@ -327428,7 +330701,7 @@ glProgramUniform1ivEXT
 "
 *
 /
-44231
+44717
 /
 *
 "
@@ -327443,7 +330716,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44211
+44697
 /
 *
 "
@@ -327488,7 +330761,7 @@ entrypoints
 ]
 =
 {
-44231
+44717
 /
 *
 "
@@ -327496,7 +330769,7 @@ glProgramUniform1ivEXT
 "
 *
 /
-44231
+44717
 /
 *
 "
@@ -327504,7 +330777,7 @@ glProgramUniform1ivEXT
 "
 *
 /
-44211
+44697
 /
 *
 "
@@ -327512,7 +330785,7 @@ glProgramUniform1iv
 "
 *
 /
-44211
+44697
 /
 *
 "
@@ -327520,7 +330793,7 @@ glProgramUniform1iv
 "
 *
 /
-44211
+44697
 /
 *
 "
@@ -327535,7 +330808,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44231
+44717
 /
 *
 "
@@ -327580,7 +330853,7 @@ entrypoints
 ]
 =
 {
-44254
+44740
 /
 *
 "
@@ -327588,7 +330861,7 @@ glProgramUniform1ui
 "
 *
 /
-44254
+44740
 /
 *
 "
@@ -327596,7 +330869,7 @@ glProgramUniform1ui
 "
 *
 /
-44254
+44740
 /
 *
 "
@@ -327604,7 +330877,7 @@ glProgramUniform1ui
 "
 *
 /
-44374
+44860
 /
 *
 "
@@ -327612,7 +330885,7 @@ glProgramUniform1uiEXT
 "
 *
 /
-44374
+44860
 /
 *
 "
@@ -327627,7 +330900,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44254
+44740
 /
 *
 "
@@ -327651,7 +330924,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-44274
+44760
 /
 *
 glProgramUniform1ui64ARB
@@ -327689,7 +330962,7 @@ entrypoints
 ]
 =
 {
-44299
+44785
 /
 *
 "
@@ -327697,7 +330970,7 @@ glProgramUniform1ui64NV
 "
 *
 /
-44299
+44785
 /
 *
 "
@@ -327712,7 +330985,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44299
+44785
 /
 *
 "
@@ -327736,7 +331009,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-44323
+44809
 /
 *
 glProgramUniform1ui64vARB
@@ -327774,7 +331047,7 @@ entrypoints
 ]
 =
 {
-44349
+44835
 /
 *
 "
@@ -327782,7 +331055,7 @@ glProgramUniform1ui64vNV
 "
 *
 /
-44349
+44835
 /
 *
 "
@@ -327797,7 +331070,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44349
+44835
 /
 *
 "
@@ -327842,7 +331115,7 @@ entrypoints
 ]
 =
 {
-44374
+44860
 /
 *
 "
@@ -327850,7 +331123,7 @@ glProgramUniform1uiEXT
 "
 *
 /
-44374
+44860
 /
 *
 "
@@ -327858,7 +331131,7 @@ glProgramUniform1uiEXT
 "
 *
 /
-44254
+44740
 /
 *
 "
@@ -327866,7 +331139,7 @@ glProgramUniform1ui
 "
 *
 /
-44254
+44740
 /
 *
 "
@@ -327874,7 +331147,7 @@ glProgramUniform1ui
 "
 *
 /
-44254
+44740
 /
 *
 "
@@ -327889,7 +331162,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44374
+44860
 /
 *
 "
@@ -327934,7 +331207,7 @@ entrypoints
 ]
 =
 {
-44397
+44883
 /
 *
 "
@@ -327942,7 +331215,7 @@ glProgramUniform1uiv
 "
 *
 /
-44397
+44883
 /
 *
 "
@@ -327950,7 +331223,7 @@ glProgramUniform1uiv
 "
 *
 /
-44397
+44883
 /
 *
 "
@@ -327958,7 +331231,7 @@ glProgramUniform1uiv
 "
 *
 /
-44418
+44904
 /
 *
 "
@@ -327966,7 +331239,7 @@ glProgramUniform1uivEXT
 "
 *
 /
-44418
+44904
 /
 *
 "
@@ -327981,7 +331254,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44397
+44883
 /
 *
 "
@@ -328026,7 +331299,7 @@ entrypoints
 ]
 =
 {
-44418
+44904
 /
 *
 "
@@ -328034,7 +331307,7 @@ glProgramUniform1uivEXT
 "
 *
 /
-44418
+44904
 /
 *
 "
@@ -328042,7 +331315,7 @@ glProgramUniform1uivEXT
 "
 *
 /
-44397
+44883
 /
 *
 "
@@ -328050,7 +331323,7 @@ glProgramUniform1uiv
 "
 *
 /
-44397
+44883
 /
 *
 "
@@ -328058,7 +331331,7 @@ glProgramUniform1uiv
 "
 *
 /
-44397
+44883
 /
 *
 "
@@ -328073,7 +331346,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44418
+44904
 /
 *
 "
@@ -328115,7 +331388,7 @@ entrypoints
 ]
 =
 {
-44442
+44928
 /
 *
 "
@@ -328123,7 +331396,7 @@ glProgramUniform2d
 "
 *
 /
-44442
+44928
 /
 *
 "
@@ -328138,7 +331411,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44442
+44928
 /
 *
 "
@@ -328162,7 +331435,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-44461
+44947
 /
 *
 glProgramUniform2dEXT
@@ -328200,7 +331473,7 @@ entrypoints
 ]
 =
 {
-44483
+44969
 /
 *
 "
@@ -328208,7 +331481,7 @@ glProgramUniform2dv
 "
 *
 /
-44483
+44969
 /
 *
 "
@@ -328223,7 +331496,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44483
+44969
 /
 *
 "
@@ -328247,7 +331520,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-44503
+44989
 /
 *
 glProgramUniform2dvEXT
@@ -328288,7 +331561,7 @@ entrypoints
 ]
 =
 {
-44526
+45012
 /
 *
 "
@@ -328296,7 +331569,7 @@ glProgramUniform2f
 "
 *
 /
-44526
+45012
 /
 *
 "
@@ -328304,7 +331577,7 @@ glProgramUniform2f
 "
 *
 /
-44526
+45012
 /
 *
 "
@@ -328312,7 +331585,7 @@ glProgramUniform2f
 "
 *
 /
-44545
+45031
 /
 *
 "
@@ -328320,7 +331593,7 @@ glProgramUniform2fEXT
 "
 *
 /
-44545
+45031
 /
 *
 "
@@ -328335,7 +331608,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44526
+45012
 /
 *
 "
@@ -328380,7 +331653,7 @@ entrypoints
 ]
 =
 {
-44545
+45031
 /
 *
 "
@@ -328388,7 +331661,7 @@ glProgramUniform2fEXT
 "
 *
 /
-44545
+45031
 /
 *
 "
@@ -328396,7 +331669,7 @@ glProgramUniform2fEXT
 "
 *
 /
-44526
+45012
 /
 *
 "
@@ -328404,7 +331677,7 @@ glProgramUniform2f
 "
 *
 /
-44526
+45012
 /
 *
 "
@@ -328412,7 +331685,7 @@ glProgramUniform2f
 "
 *
 /
-44526
+45012
 /
 *
 "
@@ -328427,7 +331700,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44545
+45031
 /
 *
 "
@@ -328472,7 +331745,7 @@ entrypoints
 ]
 =
 {
-44567
+45053
 /
 *
 "
@@ -328480,7 +331753,7 @@ glProgramUniform2fv
 "
 *
 /
-44567
+45053
 /
 *
 "
@@ -328488,7 +331761,7 @@ glProgramUniform2fv
 "
 *
 /
-44567
+45053
 /
 *
 "
@@ -328496,7 +331769,7 @@ glProgramUniform2fv
 "
 *
 /
-44587
+45073
 /
 *
 "
@@ -328504,7 +331777,7 @@ glProgramUniform2fvEXT
 "
 *
 /
-44587
+45073
 /
 *
 "
@@ -328519,7 +331792,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44567
+45053
 /
 *
 "
@@ -328564,7 +331837,7 @@ entrypoints
 ]
 =
 {
-44587
+45073
 /
 *
 "
@@ -328572,7 +331845,7 @@ glProgramUniform2fvEXT
 "
 *
 /
-44587
+45073
 /
 *
 "
@@ -328580,7 +331853,7 @@ glProgramUniform2fvEXT
 "
 *
 /
-44567
+45053
 /
 *
 "
@@ -328588,7 +331861,7 @@ glProgramUniform2fv
 "
 *
 /
-44567
+45053
 /
 *
 "
@@ -328596,7 +331869,7 @@ glProgramUniform2fv
 "
 *
 /
-44567
+45053
 /
 *
 "
@@ -328611,7 +331884,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44587
+45073
 /
 *
 "
@@ -328656,7 +331929,7 @@ entrypoints
 ]
 =
 {
-44610
+45096
 /
 *
 "
@@ -328664,7 +331937,7 @@ glProgramUniform2i
 "
 *
 /
-44610
+45096
 /
 *
 "
@@ -328672,7 +331945,7 @@ glProgramUniform2i
 "
 *
 /
-44610
+45096
 /
 *
 "
@@ -328680,7 +331953,7 @@ glProgramUniform2i
 "
 *
 /
-44725
+45211
 /
 *
 "
@@ -328688,7 +331961,7 @@ glProgramUniform2iEXT
 "
 *
 /
-44725
+45211
 /
 *
 "
@@ -328703,7 +331976,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44610
+45096
 /
 *
 "
@@ -328727,7 +332000,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-44629
+45115
 /
 *
 glProgramUniform2i64ARB
@@ -328765,7 +332038,7 @@ entrypoints
 ]
 =
 {
-44653
+45139
 /
 *
 "
@@ -328773,7 +332046,7 @@ glProgramUniform2i64NV
 "
 *
 /
-44653
+45139
 /
 *
 "
@@ -328788,7 +332061,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44653
+45139
 /
 *
 "
@@ -328812,7 +332085,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-44676
+45162
 /
 *
 glProgramUniform2i64vARB
@@ -328850,7 +332123,7 @@ entrypoints
 ]
 =
 {
-44701
+45187
 /
 *
 "
@@ -328858,7 +332131,7 @@ glProgramUniform2i64vNV
 "
 *
 /
-44701
+45187
 /
 *
 "
@@ -328873,7 +332146,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44701
+45187
 /
 *
 "
@@ -328918,7 +332191,7 @@ entrypoints
 ]
 =
 {
-44725
+45211
 /
 *
 "
@@ -328926,7 +332199,7 @@ glProgramUniform2iEXT
 "
 *
 /
-44725
+45211
 /
 *
 "
@@ -328934,7 +332207,7 @@ glProgramUniform2iEXT
 "
 *
 /
-44610
+45096
 /
 *
 "
@@ -328942,7 +332215,7 @@ glProgramUniform2i
 "
 *
 /
-44610
+45096
 /
 *
 "
@@ -328950,7 +332223,7 @@ glProgramUniform2i
 "
 *
 /
-44610
+45096
 /
 *
 "
@@ -328965,7 +332238,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44725
+45211
 /
 *
 "
@@ -329010,7 +332283,7 @@ entrypoints
 ]
 =
 {
-44747
+45233
 /
 *
 "
@@ -329018,7 +332291,7 @@ glProgramUniform2iv
 "
 *
 /
-44747
+45233
 /
 *
 "
@@ -329026,7 +332299,7 @@ glProgramUniform2iv
 "
 *
 /
-44747
+45233
 /
 *
 "
@@ -329034,7 +332307,7 @@ glProgramUniform2iv
 "
 *
 /
-44767
+45253
 /
 *
 "
@@ -329042,7 +332315,7 @@ glProgramUniform2ivEXT
 "
 *
 /
-44767
+45253
 /
 *
 "
@@ -329057,7 +332330,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44747
+45233
 /
 *
 "
@@ -329102,7 +332375,7 @@ entrypoints
 ]
 =
 {
-44767
+45253
 /
 *
 "
@@ -329110,7 +332383,7 @@ glProgramUniform2ivEXT
 "
 *
 /
-44767
+45253
 /
 *
 "
@@ -329118,7 +332391,7 @@ glProgramUniform2ivEXT
 "
 *
 /
-44747
+45233
 /
 *
 "
@@ -329126,7 +332399,7 @@ glProgramUniform2iv
 "
 *
 /
-44747
+45233
 /
 *
 "
@@ -329134,7 +332407,7 @@ glProgramUniform2iv
 "
 *
 /
-44747
+45233
 /
 *
 "
@@ -329149,7 +332422,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44767
+45253
 /
 *
 "
@@ -329194,7 +332467,7 @@ entrypoints
 ]
 =
 {
-44790
+45276
 /
 *
 "
@@ -329202,7 +332475,7 @@ glProgramUniform2ui
 "
 *
 /
-44790
+45276
 /
 *
 "
@@ -329210,7 +332483,7 @@ glProgramUniform2ui
 "
 *
 /
-44790
+45276
 /
 *
 "
@@ -329218,7 +332491,7 @@ glProgramUniform2ui
 "
 *
 /
-44910
+45396
 /
 *
 "
@@ -329226,7 +332499,7 @@ glProgramUniform2uiEXT
 "
 *
 /
-44910
+45396
 /
 *
 "
@@ -329241,7 +332514,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44790
+45276
 /
 *
 "
@@ -329265,7 +332538,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-44810
+45296
 /
 *
 glProgramUniform2ui64ARB
@@ -329303,7 +332576,7 @@ entrypoints
 ]
 =
 {
-44835
+45321
 /
 *
 "
@@ -329311,7 +332584,7 @@ glProgramUniform2ui64NV
 "
 *
 /
-44835
+45321
 /
 *
 "
@@ -329326,7 +332599,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44835
+45321
 /
 *
 "
@@ -329350,7 +332623,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-44859
+45345
 /
 *
 glProgramUniform2ui64vARB
@@ -329388,7 +332661,7 @@ entrypoints
 ]
 =
 {
-44885
+45371
 /
 *
 "
@@ -329396,7 +332669,7 @@ glProgramUniform2ui64vNV
 "
 *
 /
-44885
+45371
 /
 *
 "
@@ -329411,7 +332684,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44885
+45371
 /
 *
 "
@@ -329456,7 +332729,7 @@ entrypoints
 ]
 =
 {
-44910
+45396
 /
 *
 "
@@ -329464,7 +332737,7 @@ glProgramUniform2uiEXT
 "
 *
 /
-44910
+45396
 /
 *
 "
@@ -329472,7 +332745,7 @@ glProgramUniform2uiEXT
 "
 *
 /
-44790
+45276
 /
 *
 "
@@ -329480,7 +332753,7 @@ glProgramUniform2ui
 "
 *
 /
-44790
+45276
 /
 *
 "
@@ -329488,7 +332761,7 @@ glProgramUniform2ui
 "
 *
 /
-44790
+45276
 /
 *
 "
@@ -329503,7 +332776,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44910
+45396
 /
 *
 "
@@ -329548,7 +332821,7 @@ entrypoints
 ]
 =
 {
-44933
+45419
 /
 *
 "
@@ -329556,7 +332829,7 @@ glProgramUniform2uiv
 "
 *
 /
-44933
+45419
 /
 *
 "
@@ -329564,7 +332837,7 @@ glProgramUniform2uiv
 "
 *
 /
-44933
+45419
 /
 *
 "
@@ -329572,7 +332845,7 @@ glProgramUniform2uiv
 "
 *
 /
-44954
+45440
 /
 *
 "
@@ -329580,7 +332853,7 @@ glProgramUniform2uivEXT
 "
 *
 /
-44954
+45440
 /
 *
 "
@@ -329595,7 +332868,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44933
+45419
 /
 *
 "
@@ -329640,7 +332913,7 @@ entrypoints
 ]
 =
 {
-44954
+45440
 /
 *
 "
@@ -329648,7 +332921,7 @@ glProgramUniform2uivEXT
 "
 *
 /
-44954
+45440
 /
 *
 "
@@ -329656,7 +332929,7 @@ glProgramUniform2uivEXT
 "
 *
 /
-44933
+45419
 /
 *
 "
@@ -329664,7 +332937,7 @@ glProgramUniform2uiv
 "
 *
 /
-44933
+45419
 /
 *
 "
@@ -329672,7 +332945,7 @@ glProgramUniform2uiv
 "
 *
 /
-44933
+45419
 /
 *
 "
@@ -329687,7 +332960,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44954
+45440
 /
 *
 "
@@ -329729,7 +333002,7 @@ entrypoints
 ]
 =
 {
-44978
+45464
 /
 *
 "
@@ -329737,7 +333010,7 @@ glProgramUniform3d
 "
 *
 /
-44978
+45464
 /
 *
 "
@@ -329752,7 +333025,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-44978
+45464
 /
 *
 "
@@ -329776,7 +333049,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-44997
+45483
 /
 *
 glProgramUniform3dEXT
@@ -329814,7 +333087,7 @@ entrypoints
 ]
 =
 {
-45019
+45505
 /
 *
 "
@@ -329822,7 +333095,7 @@ glProgramUniform3dv
 "
 *
 /
-45019
+45505
 /
 *
 "
@@ -329837,7 +333110,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45019
+45505
 /
 *
 "
@@ -329861,7 +333134,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-45039
+45525
 /
 *
 glProgramUniform3dvEXT
@@ -329902,7 +333175,7 @@ entrypoints
 ]
 =
 {
-45062
+45548
 /
 *
 "
@@ -329910,7 +333183,7 @@ glProgramUniform3f
 "
 *
 /
-45062
+45548
 /
 *
 "
@@ -329918,7 +333191,7 @@ glProgramUniform3f
 "
 *
 /
-45062
+45548
 /
 *
 "
@@ -329926,7 +333199,7 @@ glProgramUniform3f
 "
 *
 /
-45081
+45567
 /
 *
 "
@@ -329934,7 +333207,7 @@ glProgramUniform3fEXT
 "
 *
 /
-45081
+45567
 /
 *
 "
@@ -329949,7 +333222,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45062
+45548
 /
 *
 "
@@ -329994,7 +333267,7 @@ entrypoints
 ]
 =
 {
-45081
+45567
 /
 *
 "
@@ -330002,7 +333275,7 @@ glProgramUniform3fEXT
 "
 *
 /
-45081
+45567
 /
 *
 "
@@ -330010,7 +333283,7 @@ glProgramUniform3fEXT
 "
 *
 /
-45062
+45548
 /
 *
 "
@@ -330018,7 +333291,7 @@ glProgramUniform3f
 "
 *
 /
-45062
+45548
 /
 *
 "
@@ -330026,7 +333299,7 @@ glProgramUniform3f
 "
 *
 /
-45062
+45548
 /
 *
 "
@@ -330041,7 +333314,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45081
+45567
 /
 *
 "
@@ -330086,7 +333359,7 @@ entrypoints
 ]
 =
 {
-45103
+45589
 /
 *
 "
@@ -330094,7 +333367,7 @@ glProgramUniform3fv
 "
 *
 /
-45103
+45589
 /
 *
 "
@@ -330102,7 +333375,7 @@ glProgramUniform3fv
 "
 *
 /
-45103
+45589
 /
 *
 "
@@ -330110,7 +333383,7 @@ glProgramUniform3fv
 "
 *
 /
-45123
+45609
 /
 *
 "
@@ -330118,7 +333391,7 @@ glProgramUniform3fvEXT
 "
 *
 /
-45123
+45609
 /
 *
 "
@@ -330133,7 +333406,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45103
+45589
 /
 *
 "
@@ -330178,7 +333451,7 @@ entrypoints
 ]
 =
 {
-45123
+45609
 /
 *
 "
@@ -330186,7 +333459,7 @@ glProgramUniform3fvEXT
 "
 *
 /
-45123
+45609
 /
 *
 "
@@ -330194,7 +333467,7 @@ glProgramUniform3fvEXT
 "
 *
 /
-45103
+45589
 /
 *
 "
@@ -330202,7 +333475,7 @@ glProgramUniform3fv
 "
 *
 /
-45103
+45589
 /
 *
 "
@@ -330210,7 +333483,7 @@ glProgramUniform3fv
 "
 *
 /
-45103
+45589
 /
 *
 "
@@ -330225,7 +333498,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45123
+45609
 /
 *
 "
@@ -330270,7 +333543,7 @@ entrypoints
 ]
 =
 {
-45146
+45632
 /
 *
 "
@@ -330278,7 +333551,7 @@ glProgramUniform3i
 "
 *
 /
-45146
+45632
 /
 *
 "
@@ -330286,7 +333559,7 @@ glProgramUniform3i
 "
 *
 /
-45146
+45632
 /
 *
 "
@@ -330294,7 +333567,7 @@ glProgramUniform3i
 "
 *
 /
-45261
+45747
 /
 *
 "
@@ -330302,7 +333575,7 @@ glProgramUniform3iEXT
 "
 *
 /
-45261
+45747
 /
 *
 "
@@ -330317,7 +333590,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45146
+45632
 /
 *
 "
@@ -330341,7 +333614,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-45165
+45651
 /
 *
 glProgramUniform3i64ARB
@@ -330379,7 +333652,7 @@ entrypoints
 ]
 =
 {
-45189
+45675
 /
 *
 "
@@ -330387,7 +333660,7 @@ glProgramUniform3i64NV
 "
 *
 /
-45189
+45675
 /
 *
 "
@@ -330402,7 +333675,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45189
+45675
 /
 *
 "
@@ -330426,7 +333699,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-45212
+45698
 /
 *
 glProgramUniform3i64vARB
@@ -330464,7 +333737,7 @@ entrypoints
 ]
 =
 {
-45237
+45723
 /
 *
 "
@@ -330472,7 +333745,7 @@ glProgramUniform3i64vNV
 "
 *
 /
-45237
+45723
 /
 *
 "
@@ -330487,7 +333760,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45237
+45723
 /
 *
 "
@@ -330532,7 +333805,7 @@ entrypoints
 ]
 =
 {
-45261
+45747
 /
 *
 "
@@ -330540,7 +333813,7 @@ glProgramUniform3iEXT
 "
 *
 /
-45261
+45747
 /
 *
 "
@@ -330548,7 +333821,7 @@ glProgramUniform3iEXT
 "
 *
 /
-45146
+45632
 /
 *
 "
@@ -330556,7 +333829,7 @@ glProgramUniform3i
 "
 *
 /
-45146
+45632
 /
 *
 "
@@ -330564,7 +333837,7 @@ glProgramUniform3i
 "
 *
 /
-45146
+45632
 /
 *
 "
@@ -330579,7 +333852,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45261
+45747
 /
 *
 "
@@ -330624,7 +333897,7 @@ entrypoints
 ]
 =
 {
-45283
+45769
 /
 *
 "
@@ -330632,7 +333905,7 @@ glProgramUniform3iv
 "
 *
 /
-45283
+45769
 /
 *
 "
@@ -330640,7 +333913,7 @@ glProgramUniform3iv
 "
 *
 /
-45283
+45769
 /
 *
 "
@@ -330648,7 +333921,7 @@ glProgramUniform3iv
 "
 *
 /
-45303
+45789
 /
 *
 "
@@ -330656,7 +333929,7 @@ glProgramUniform3ivEXT
 "
 *
 /
-45303
+45789
 /
 *
 "
@@ -330671,7 +333944,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45283
+45769
 /
 *
 "
@@ -330716,7 +333989,7 @@ entrypoints
 ]
 =
 {
-45303
+45789
 /
 *
 "
@@ -330724,7 +333997,7 @@ glProgramUniform3ivEXT
 "
 *
 /
-45303
+45789
 /
 *
 "
@@ -330732,7 +334005,7 @@ glProgramUniform3ivEXT
 "
 *
 /
-45283
+45769
 /
 *
 "
@@ -330740,7 +334013,7 @@ glProgramUniform3iv
 "
 *
 /
-45283
+45769
 /
 *
 "
@@ -330748,7 +334021,7 @@ glProgramUniform3iv
 "
 *
 /
-45283
+45769
 /
 *
 "
@@ -330763,7 +334036,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45303
+45789
 /
 *
 "
@@ -330808,7 +334081,7 @@ entrypoints
 ]
 =
 {
-45326
+45812
 /
 *
 "
@@ -330816,7 +334089,7 @@ glProgramUniform3ui
 "
 *
 /
-45326
+45812
 /
 *
 "
@@ -330824,7 +334097,7 @@ glProgramUniform3ui
 "
 *
 /
-45326
+45812
 /
 *
 "
@@ -330832,7 +334105,7 @@ glProgramUniform3ui
 "
 *
 /
-45446
+45932
 /
 *
 "
@@ -330840,7 +334113,7 @@ glProgramUniform3uiEXT
 "
 *
 /
-45446
+45932
 /
 *
 "
@@ -330855,7 +334128,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45326
+45812
 /
 *
 "
@@ -330879,7 +334152,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-45346
+45832
 /
 *
 glProgramUniform3ui64ARB
@@ -330917,7 +334190,7 @@ entrypoints
 ]
 =
 {
-45371
+45857
 /
 *
 "
@@ -330925,7 +334198,7 @@ glProgramUniform3ui64NV
 "
 *
 /
-45371
+45857
 /
 *
 "
@@ -330940,7 +334213,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45371
+45857
 /
 *
 "
@@ -330964,7 +334237,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-45395
+45881
 /
 *
 glProgramUniform3ui64vARB
@@ -331002,7 +334275,7 @@ entrypoints
 ]
 =
 {
-45421
+45907
 /
 *
 "
@@ -331010,7 +334283,7 @@ glProgramUniform3ui64vNV
 "
 *
 /
-45421
+45907
 /
 *
 "
@@ -331025,7 +334298,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45421
+45907
 /
 *
 "
@@ -331070,7 +334343,7 @@ entrypoints
 ]
 =
 {
-45446
+45932
 /
 *
 "
@@ -331078,7 +334351,7 @@ glProgramUniform3uiEXT
 "
 *
 /
-45446
+45932
 /
 *
 "
@@ -331086,7 +334359,7 @@ glProgramUniform3uiEXT
 "
 *
 /
-45326
+45812
 /
 *
 "
@@ -331094,7 +334367,7 @@ glProgramUniform3ui
 "
 *
 /
-45326
+45812
 /
 *
 "
@@ -331102,7 +334375,7 @@ glProgramUniform3ui
 "
 *
 /
-45326
+45812
 /
 *
 "
@@ -331117,7 +334390,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45446
+45932
 /
 *
 "
@@ -331162,7 +334435,7 @@ entrypoints
 ]
 =
 {
-45469
+45955
 /
 *
 "
@@ -331170,7 +334443,7 @@ glProgramUniform3uiv
 "
 *
 /
-45469
+45955
 /
 *
 "
@@ -331178,7 +334451,7 @@ glProgramUniform3uiv
 "
 *
 /
-45469
+45955
 /
 *
 "
@@ -331186,7 +334459,7 @@ glProgramUniform3uiv
 "
 *
 /
-45490
+45976
 /
 *
 "
@@ -331194,7 +334467,7 @@ glProgramUniform3uivEXT
 "
 *
 /
-45490
+45976
 /
 *
 "
@@ -331209,7 +334482,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45469
+45955
 /
 *
 "
@@ -331254,7 +334527,7 @@ entrypoints
 ]
 =
 {
-45490
+45976
 /
 *
 "
@@ -331262,7 +334535,7 @@ glProgramUniform3uivEXT
 "
 *
 /
-45490
+45976
 /
 *
 "
@@ -331270,7 +334543,7 @@ glProgramUniform3uivEXT
 "
 *
 /
-45469
+45955
 /
 *
 "
@@ -331278,7 +334551,7 @@ glProgramUniform3uiv
 "
 *
 /
-45469
+45955
 /
 *
 "
@@ -331286,7 +334559,7 @@ glProgramUniform3uiv
 "
 *
 /
-45469
+45955
 /
 *
 "
@@ -331301,7 +334574,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45490
+45976
 /
 *
 "
@@ -331343,7 +334616,7 @@ entrypoints
 ]
 =
 {
-45514
+46000
 /
 *
 "
@@ -331351,7 +334624,7 @@ glProgramUniform4d
 "
 *
 /
-45514
+46000
 /
 *
 "
@@ -331366,7 +334639,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45514
+46000
 /
 *
 "
@@ -331390,7 +334663,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-45533
+46019
 /
 *
 glProgramUniform4dEXT
@@ -331428,7 +334701,7 @@ entrypoints
 ]
 =
 {
-45555
+46041
 /
 *
 "
@@ -331436,7 +334709,7 @@ glProgramUniform4dv
 "
 *
 /
-45555
+46041
 /
 *
 "
@@ -331451,7 +334724,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45555
+46041
 /
 *
 "
@@ -331475,7 +334748,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-45575
+46061
 /
 *
 glProgramUniform4dvEXT
@@ -331516,7 +334789,7 @@ entrypoints
 ]
 =
 {
-45598
+46084
 /
 *
 "
@@ -331524,7 +334797,7 @@ glProgramUniform4f
 "
 *
 /
-45598
+46084
 /
 *
 "
@@ -331532,7 +334805,7 @@ glProgramUniform4f
 "
 *
 /
-45598
+46084
 /
 *
 "
@@ -331540,7 +334813,7 @@ glProgramUniform4f
 "
 *
 /
-45617
+46103
 /
 *
 "
@@ -331548,7 +334821,7 @@ glProgramUniform4fEXT
 "
 *
 /
-45617
+46103
 /
 *
 "
@@ -331563,7 +334836,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45598
+46084
 /
 *
 "
@@ -331608,7 +334881,7 @@ entrypoints
 ]
 =
 {
-45617
+46103
 /
 *
 "
@@ -331616,7 +334889,7 @@ glProgramUniform4fEXT
 "
 *
 /
-45617
+46103
 /
 *
 "
@@ -331624,7 +334897,7 @@ glProgramUniform4fEXT
 "
 *
 /
-45598
+46084
 /
 *
 "
@@ -331632,7 +334905,7 @@ glProgramUniform4f
 "
 *
 /
-45598
+46084
 /
 *
 "
@@ -331640,7 +334913,7 @@ glProgramUniform4f
 "
 *
 /
-45598
+46084
 /
 *
 "
@@ -331655,7 +334928,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45617
+46103
 /
 *
 "
@@ -331700,7 +334973,7 @@ entrypoints
 ]
 =
 {
-45639
+46125
 /
 *
 "
@@ -331708,7 +334981,7 @@ glProgramUniform4fv
 "
 *
 /
-45639
+46125
 /
 *
 "
@@ -331716,7 +334989,7 @@ glProgramUniform4fv
 "
 *
 /
-45639
+46125
 /
 *
 "
@@ -331724,7 +334997,7 @@ glProgramUniform4fv
 "
 *
 /
-45659
+46145
 /
 *
 "
@@ -331732,7 +335005,7 @@ glProgramUniform4fvEXT
 "
 *
 /
-45659
+46145
 /
 *
 "
@@ -331747,7 +335020,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45639
+46125
 /
 *
 "
@@ -331792,7 +335065,7 @@ entrypoints
 ]
 =
 {
-45659
+46145
 /
 *
 "
@@ -331800,7 +335073,7 @@ glProgramUniform4fvEXT
 "
 *
 /
-45659
+46145
 /
 *
 "
@@ -331808,7 +335081,7 @@ glProgramUniform4fvEXT
 "
 *
 /
-45639
+46125
 /
 *
 "
@@ -331816,7 +335089,7 @@ glProgramUniform4fv
 "
 *
 /
-45639
+46125
 /
 *
 "
@@ -331824,7 +335097,7 @@ glProgramUniform4fv
 "
 *
 /
-45639
+46125
 /
 *
 "
@@ -331839,7 +335112,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45659
+46145
 /
 *
 "
@@ -331884,7 +335157,7 @@ entrypoints
 ]
 =
 {
-45682
+46168
 /
 *
 "
@@ -331892,7 +335165,7 @@ glProgramUniform4i
 "
 *
 /
-45682
+46168
 /
 *
 "
@@ -331900,7 +335173,7 @@ glProgramUniform4i
 "
 *
 /
-45682
+46168
 /
 *
 "
@@ -331908,7 +335181,7 @@ glProgramUniform4i
 "
 *
 /
-45797
+46283
 /
 *
 "
@@ -331916,7 +335189,7 @@ glProgramUniform4iEXT
 "
 *
 /
-45797
+46283
 /
 *
 "
@@ -331931,7 +335204,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45682
+46168
 /
 *
 "
@@ -331955,7 +335228,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-45701
+46187
 /
 *
 glProgramUniform4i64ARB
@@ -331993,7 +335266,7 @@ entrypoints
 ]
 =
 {
-45725
+46211
 /
 *
 "
@@ -332001,7 +335274,7 @@ glProgramUniform4i64NV
 "
 *
 /
-45725
+46211
 /
 *
 "
@@ -332016,7 +335289,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45725
+46211
 /
 *
 "
@@ -332040,7 +335313,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-45748
+46234
 /
 *
 glProgramUniform4i64vARB
@@ -332078,7 +335351,7 @@ entrypoints
 ]
 =
 {
-45773
+46259
 /
 *
 "
@@ -332086,7 +335359,7 @@ glProgramUniform4i64vNV
 "
 *
 /
-45773
+46259
 /
 *
 "
@@ -332101,7 +335374,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45773
+46259
 /
 *
 "
@@ -332146,7 +335419,7 @@ entrypoints
 ]
 =
 {
-45797
+46283
 /
 *
 "
@@ -332154,7 +335427,7 @@ glProgramUniform4iEXT
 "
 *
 /
-45797
+46283
 /
 *
 "
@@ -332162,7 +335435,7 @@ glProgramUniform4iEXT
 "
 *
 /
-45682
+46168
 /
 *
 "
@@ -332170,7 +335443,7 @@ glProgramUniform4i
 "
 *
 /
-45682
+46168
 /
 *
 "
@@ -332178,7 +335451,7 @@ glProgramUniform4i
 "
 *
 /
-45682
+46168
 /
 *
 "
@@ -332193,7 +335466,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45797
+46283
 /
 *
 "
@@ -332238,7 +335511,7 @@ entrypoints
 ]
 =
 {
-45819
+46305
 /
 *
 "
@@ -332246,7 +335519,7 @@ glProgramUniform4iv
 "
 *
 /
-45819
+46305
 /
 *
 "
@@ -332254,7 +335527,7 @@ glProgramUniform4iv
 "
 *
 /
-45819
+46305
 /
 *
 "
@@ -332262,7 +335535,7 @@ glProgramUniform4iv
 "
 *
 /
-45839
+46325
 /
 *
 "
@@ -332270,7 +335543,7 @@ glProgramUniform4ivEXT
 "
 *
 /
-45839
+46325
 /
 *
 "
@@ -332285,7 +335558,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45819
+46305
 /
 *
 "
@@ -332330,7 +335603,7 @@ entrypoints
 ]
 =
 {
-45839
+46325
 /
 *
 "
@@ -332338,7 +335611,7 @@ glProgramUniform4ivEXT
 "
 *
 /
-45839
+46325
 /
 *
 "
@@ -332346,7 +335619,7 @@ glProgramUniform4ivEXT
 "
 *
 /
-45819
+46305
 /
 *
 "
@@ -332354,7 +335627,7 @@ glProgramUniform4iv
 "
 *
 /
-45819
+46305
 /
 *
 "
@@ -332362,7 +335635,7 @@ glProgramUniform4iv
 "
 *
 /
-45819
+46305
 /
 *
 "
@@ -332377,7 +335650,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45839
+46325
 /
 *
 "
@@ -332422,7 +335695,7 @@ entrypoints
 ]
 =
 {
-45862
+46348
 /
 *
 "
@@ -332430,7 +335703,7 @@ glProgramUniform4ui
 "
 *
 /
-45862
+46348
 /
 *
 "
@@ -332438,7 +335711,7 @@ glProgramUniform4ui
 "
 *
 /
-45862
+46348
 /
 *
 "
@@ -332446,7 +335719,7 @@ glProgramUniform4ui
 "
 *
 /
-45982
+46468
 /
 *
 "
@@ -332454,7 +335727,7 @@ glProgramUniform4uiEXT
 "
 *
 /
-45982
+46468
 /
 *
 "
@@ -332469,7 +335742,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45862
+46348
 /
 *
 "
@@ -332493,7 +335766,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-45882
+46368
 /
 *
 glProgramUniform4ui64ARB
@@ -332531,7 +335804,7 @@ entrypoints
 ]
 =
 {
-45907
+46393
 /
 *
 "
@@ -332539,7 +335812,7 @@ glProgramUniform4ui64NV
 "
 *
 /
-45907
+46393
 /
 *
 "
@@ -332554,7 +335827,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45907
+46393
 /
 *
 "
@@ -332578,7 +335851,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-45931
+46417
 /
 *
 glProgramUniform4ui64vARB
@@ -332616,7 +335889,7 @@ entrypoints
 ]
 =
 {
-45957
+46443
 /
 *
 "
@@ -332624,7 +335897,7 @@ glProgramUniform4ui64vNV
 "
 *
 /
-45957
+46443
 /
 *
 "
@@ -332639,7 +335912,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45957
+46443
 /
 *
 "
@@ -332684,7 +335957,7 @@ entrypoints
 ]
 =
 {
-45982
+46468
 /
 *
 "
@@ -332692,7 +335965,7 @@ glProgramUniform4uiEXT
 "
 *
 /
-45982
+46468
 /
 *
 "
@@ -332700,7 +335973,7 @@ glProgramUniform4uiEXT
 "
 *
 /
-45862
+46348
 /
 *
 "
@@ -332708,7 +335981,7 @@ glProgramUniform4ui
 "
 *
 /
-45862
+46348
 /
 *
 "
@@ -332716,7 +335989,7 @@ glProgramUniform4ui
 "
 *
 /
-45862
+46348
 /
 *
 "
@@ -332731,7 +336004,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-45982
+46468
 /
 *
 "
@@ -332776,7 +336049,7 @@ entrypoints
 ]
 =
 {
-46005
+46491
 /
 *
 "
@@ -332784,7 +336057,7 @@ glProgramUniform4uiv
 "
 *
 /
-46005
+46491
 /
 *
 "
@@ -332792,7 +336065,7 @@ glProgramUniform4uiv
 "
 *
 /
-46005
+46491
 /
 *
 "
@@ -332800,7 +336073,7 @@ glProgramUniform4uiv
 "
 *
 /
-46026
+46512
 /
 *
 "
@@ -332808,7 +336081,7 @@ glProgramUniform4uivEXT
 "
 *
 /
-46026
+46512
 /
 *
 "
@@ -332823,7 +336096,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46005
+46491
 /
 *
 "
@@ -332868,7 +336141,7 @@ entrypoints
 ]
 =
 {
-46026
+46512
 /
 *
 "
@@ -332876,7 +336149,7 @@ glProgramUniform4uivEXT
 "
 *
 /
-46026
+46512
 /
 *
 "
@@ -332884,7 +336157,7 @@ glProgramUniform4uivEXT
 "
 *
 /
-46005
+46491
 /
 *
 "
@@ -332892,7 +336165,7 @@ glProgramUniform4uiv
 "
 *
 /
-46005
+46491
 /
 *
 "
@@ -332900,7 +336173,7 @@ glProgramUniform4uiv
 "
 *
 /
-46005
+46491
 /
 *
 "
@@ -332915,7 +336188,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46026
+46512
 /
 *
 "
@@ -332957,7 +336230,7 @@ entrypoints
 ]
 =
 {
-46050
+46536
 /
 *
 "
@@ -332965,7 +336238,7 @@ glProgramUniformHandleui64ARB
 "
 *
 /
-46080
+46566
 /
 *
 "
@@ -332980,7 +336253,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46050
+46536
 /
 *
 "
@@ -333022,7 +336295,7 @@ entrypoints
 ]
 =
 {
-46080
+46566
 /
 *
 "
@@ -333030,7 +336303,7 @@ glProgramUniformHandleui64IMG
 "
 *
 /
-46050
+46536
 /
 *
 "
@@ -333045,7 +336318,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46080
+46566
 /
 *
 "
@@ -333069,7 +336342,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-46110
+46596
 /
 *
 glProgramUniformHandleui64NV
@@ -333107,7 +336380,7 @@ entrypoints
 ]
 =
 {
-46139
+46625
 /
 *
 "
@@ -333115,7 +336388,7 @@ glProgramUniformHandleui64vARB
 "
 *
 /
-46170
+46656
 /
 *
 "
@@ -333130,7 +336403,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46139
+46625
 /
 *
 "
@@ -333172,7 +336445,7 @@ entrypoints
 ]
 =
 {
-46170
+46656
 /
 *
 "
@@ -333180,7 +336453,7 @@ glProgramUniformHandleui64vIMG
 "
 *
 /
-46139
+46625
 /
 *
 "
@@ -333195,7 +336468,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46170
+46656
 /
 *
 "
@@ -333219,7 +336492,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-46201
+46687
 /
 *
 glProgramUniformHandleui64vNV
@@ -333257,7 +336530,7 @@ entrypoints
 ]
 =
 {
-46231
+46717
 /
 *
 "
@@ -333265,7 +336538,7 @@ glProgramUniformMatrix2dv
 "
 *
 /
-46231
+46717
 /
 *
 "
@@ -333280,7 +336553,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46231
+46717
 /
 *
 "
@@ -333304,7 +336577,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-46257
+46743
 /
 *
 glProgramUniformMatrix2dvEXT
@@ -333345,7 +336618,7 @@ entrypoints
 ]
 =
 {
-46286
+46772
 /
 *
 "
@@ -333353,7 +336626,7 @@ glProgramUniformMatrix2fv
 "
 *
 /
-46286
+46772
 /
 *
 "
@@ -333361,7 +336634,7 @@ glProgramUniformMatrix2fv
 "
 *
 /
-46286
+46772
 /
 *
 "
@@ -333369,7 +336642,7 @@ glProgramUniformMatrix2fv
 "
 *
 /
-46312
+46798
 /
 *
 "
@@ -333377,7 +336650,7 @@ glProgramUniformMatrix2fvEXT
 "
 *
 /
-46312
+46798
 /
 *
 "
@@ -333392,7 +336665,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46286
+46772
 /
 *
 "
@@ -333437,7 +336710,7 @@ entrypoints
 ]
 =
 {
-46312
+46798
 /
 *
 "
@@ -333445,7 +336718,7 @@ glProgramUniformMatrix2fvEXT
 "
 *
 /
-46312
+46798
 /
 *
 "
@@ -333453,7 +336726,7 @@ glProgramUniformMatrix2fvEXT
 "
 *
 /
-46286
+46772
 /
 *
 "
@@ -333461,7 +336734,7 @@ glProgramUniformMatrix2fv
 "
 *
 /
-46286
+46772
 /
 *
 "
@@ -333469,7 +336742,7 @@ glProgramUniformMatrix2fv
 "
 *
 /
-46286
+46772
 /
 *
 "
@@ -333484,7 +336757,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46312
+46798
 /
 *
 "
@@ -333526,7 +336799,7 @@ entrypoints
 ]
 =
 {
-46341
+46827
 /
 *
 "
@@ -333534,7 +336807,7 @@ glProgramUniformMatrix2x3dv
 "
 *
 /
-46341
+46827
 /
 *
 "
@@ -333549,7 +336822,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46341
+46827
 /
 *
 "
@@ -333573,7 +336846,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-46369
+46855
 /
 *
 glProgramUniformMatrix2x3dvEXT
@@ -333614,7 +336887,7 @@ entrypoints
 ]
 =
 {
-46400
+46886
 /
 *
 "
@@ -333622,7 +336895,7 @@ glProgramUniformMatrix2x3fv
 "
 *
 /
-46400
+46886
 /
 *
 "
@@ -333630,7 +336903,7 @@ glProgramUniformMatrix2x3fv
 "
 *
 /
-46400
+46886
 /
 *
 "
@@ -333638,7 +336911,7 @@ glProgramUniformMatrix2x3fv
 "
 *
 /
-46428
+46914
 /
 *
 "
@@ -333646,7 +336919,7 @@ glProgramUniformMatrix2x3fvEXT
 "
 *
 /
-46428
+46914
 /
 *
 "
@@ -333661,7 +336934,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46400
+46886
 /
 *
 "
@@ -333706,7 +336979,7 @@ entrypoints
 ]
 =
 {
-46428
+46914
 /
 *
 "
@@ -333714,7 +336987,7 @@ glProgramUniformMatrix2x3fvEXT
 "
 *
 /
-46428
+46914
 /
 *
 "
@@ -333722,7 +336995,7 @@ glProgramUniformMatrix2x3fvEXT
 "
 *
 /
-46400
+46886
 /
 *
 "
@@ -333730,7 +337003,7 @@ glProgramUniformMatrix2x3fv
 "
 *
 /
-46400
+46886
 /
 *
 "
@@ -333738,7 +337011,7 @@ glProgramUniformMatrix2x3fv
 "
 *
 /
-46400
+46886
 /
 *
 "
@@ -333753,7 +337026,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46428
+46914
 /
 *
 "
@@ -333795,7 +337068,7 @@ entrypoints
 ]
 =
 {
-46459
+46945
 /
 *
 "
@@ -333803,7 +337076,7 @@ glProgramUniformMatrix2x4dv
 "
 *
 /
-46459
+46945
 /
 *
 "
@@ -333818,7 +337091,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46459
+46945
 /
 *
 "
@@ -333842,7 +337115,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-46487
+46973
 /
 *
 glProgramUniformMatrix2x4dvEXT
@@ -333883,7 +337156,7 @@ entrypoints
 ]
 =
 {
-46518
+47004
 /
 *
 "
@@ -333891,7 +337164,7 @@ glProgramUniformMatrix2x4fv
 "
 *
 /
-46518
+47004
 /
 *
 "
@@ -333899,7 +337172,7 @@ glProgramUniformMatrix2x4fv
 "
 *
 /
-46518
+47004
 /
 *
 "
@@ -333907,7 +337180,7 @@ glProgramUniformMatrix2x4fv
 "
 *
 /
-46546
+47032
 /
 *
 "
@@ -333915,7 +337188,7 @@ glProgramUniformMatrix2x4fvEXT
 "
 *
 /
-46546
+47032
 /
 *
 "
@@ -333930,7 +337203,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46518
+47004
 /
 *
 "
@@ -333975,7 +337248,7 @@ entrypoints
 ]
 =
 {
-46546
+47032
 /
 *
 "
@@ -333983,7 +337256,7 @@ glProgramUniformMatrix2x4fvEXT
 "
 *
 /
-46546
+47032
 /
 *
 "
@@ -333991,7 +337264,7 @@ glProgramUniformMatrix2x4fvEXT
 "
 *
 /
-46518
+47004
 /
 *
 "
@@ -333999,7 +337272,7 @@ glProgramUniformMatrix2x4fv
 "
 *
 /
-46518
+47004
 /
 *
 "
@@ -334007,7 +337280,7 @@ glProgramUniformMatrix2x4fv
 "
 *
 /
-46518
+47004
 /
 *
 "
@@ -334022,7 +337295,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46546
+47032
 /
 *
 "
@@ -334064,7 +337337,7 @@ entrypoints
 ]
 =
 {
-46577
+47063
 /
 *
 "
@@ -334072,7 +337345,7 @@ glProgramUniformMatrix3dv
 "
 *
 /
-46577
+47063
 /
 *
 "
@@ -334087,7 +337360,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46577
+47063
 /
 *
 "
@@ -334111,7 +337384,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-46603
+47089
 /
 *
 glProgramUniformMatrix3dvEXT
@@ -334152,7 +337425,7 @@ entrypoints
 ]
 =
 {
-46632
+47118
 /
 *
 "
@@ -334160,7 +337433,7 @@ glProgramUniformMatrix3fv
 "
 *
 /
-46632
+47118
 /
 *
 "
@@ -334168,7 +337441,7 @@ glProgramUniformMatrix3fv
 "
 *
 /
-46632
+47118
 /
 *
 "
@@ -334176,7 +337449,7 @@ glProgramUniformMatrix3fv
 "
 *
 /
-46658
+47144
 /
 *
 "
@@ -334184,7 +337457,7 @@ glProgramUniformMatrix3fvEXT
 "
 *
 /
-46658
+47144
 /
 *
 "
@@ -334199,7 +337472,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46632
+47118
 /
 *
 "
@@ -334244,7 +337517,7 @@ entrypoints
 ]
 =
 {
-46658
+47144
 /
 *
 "
@@ -334252,7 +337525,7 @@ glProgramUniformMatrix3fvEXT
 "
 *
 /
-46658
+47144
 /
 *
 "
@@ -334260,7 +337533,7 @@ glProgramUniformMatrix3fvEXT
 "
 *
 /
-46632
+47118
 /
 *
 "
@@ -334268,7 +337541,7 @@ glProgramUniformMatrix3fv
 "
 *
 /
-46632
+47118
 /
 *
 "
@@ -334276,7 +337549,7 @@ glProgramUniformMatrix3fv
 "
 *
 /
-46632
+47118
 /
 *
 "
@@ -334291,7 +337564,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46658
+47144
 /
 *
 "
@@ -334333,7 +337606,7 @@ entrypoints
 ]
 =
 {
-46687
+47173
 /
 *
 "
@@ -334341,7 +337614,7 @@ glProgramUniformMatrix3x2dv
 "
 *
 /
-46687
+47173
 /
 *
 "
@@ -334356,7 +337629,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46687
+47173
 /
 *
 "
@@ -334380,7 +337653,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-46715
+47201
 /
 *
 glProgramUniformMatrix3x2dvEXT
@@ -334421,7 +337694,7 @@ entrypoints
 ]
 =
 {
-46746
+47232
 /
 *
 "
@@ -334429,7 +337702,7 @@ glProgramUniformMatrix3x2fv
 "
 *
 /
-46746
+47232
 /
 *
 "
@@ -334437,7 +337710,7 @@ glProgramUniformMatrix3x2fv
 "
 *
 /
-46746
+47232
 /
 *
 "
@@ -334445,7 +337718,7 @@ glProgramUniformMatrix3x2fv
 "
 *
 /
-46774
+47260
 /
 *
 "
@@ -334453,7 +337726,7 @@ glProgramUniformMatrix3x2fvEXT
 "
 *
 /
-46774
+47260
 /
 *
 "
@@ -334468,7 +337741,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46746
+47232
 /
 *
 "
@@ -334513,7 +337786,7 @@ entrypoints
 ]
 =
 {
-46774
+47260
 /
 *
 "
@@ -334521,7 +337794,7 @@ glProgramUniformMatrix3x2fvEXT
 "
 *
 /
-46774
+47260
 /
 *
 "
@@ -334529,7 +337802,7 @@ glProgramUniformMatrix3x2fvEXT
 "
 *
 /
-46746
+47232
 /
 *
 "
@@ -334537,7 +337810,7 @@ glProgramUniformMatrix3x2fv
 "
 *
 /
-46746
+47232
 /
 *
 "
@@ -334545,7 +337818,7 @@ glProgramUniformMatrix3x2fv
 "
 *
 /
-46746
+47232
 /
 *
 "
@@ -334560,7 +337833,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46774
+47260
 /
 *
 "
@@ -334602,7 +337875,7 @@ entrypoints
 ]
 =
 {
-46805
+47291
 /
 *
 "
@@ -334610,7 +337883,7 @@ glProgramUniformMatrix3x4dv
 "
 *
 /
-46805
+47291
 /
 *
 "
@@ -334625,7 +337898,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46805
+47291
 /
 *
 "
@@ -334649,7 +337922,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-46833
+47319
 /
 *
 glProgramUniformMatrix3x4dvEXT
@@ -334690,7 +337963,7 @@ entrypoints
 ]
 =
 {
-46864
+47350
 /
 *
 "
@@ -334698,7 +337971,7 @@ glProgramUniformMatrix3x4fv
 "
 *
 /
-46864
+47350
 /
 *
 "
@@ -334706,7 +337979,7 @@ glProgramUniformMatrix3x4fv
 "
 *
 /
-46864
+47350
 /
 *
 "
@@ -334714,7 +337987,7 @@ glProgramUniformMatrix3x4fv
 "
 *
 /
-46892
+47378
 /
 *
 "
@@ -334722,7 +337995,7 @@ glProgramUniformMatrix3x4fvEXT
 "
 *
 /
-46892
+47378
 /
 *
 "
@@ -334737,7 +338010,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46864
+47350
 /
 *
 "
@@ -334782,7 +338055,7 @@ entrypoints
 ]
 =
 {
-46892
+47378
 /
 *
 "
@@ -334790,7 +338063,7 @@ glProgramUniformMatrix3x4fvEXT
 "
 *
 /
-46892
+47378
 /
 *
 "
@@ -334798,7 +338071,7 @@ glProgramUniformMatrix3x4fvEXT
 "
 *
 /
-46864
+47350
 /
 *
 "
@@ -334806,7 +338079,7 @@ glProgramUniformMatrix3x4fv
 "
 *
 /
-46864
+47350
 /
 *
 "
@@ -334814,7 +338087,7 @@ glProgramUniformMatrix3x4fv
 "
 *
 /
-46864
+47350
 /
 *
 "
@@ -334829,7 +338102,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46892
+47378
 /
 *
 "
@@ -334871,7 +338144,7 @@ entrypoints
 ]
 =
 {
-46923
+47409
 /
 *
 "
@@ -334879,7 +338152,7 @@ glProgramUniformMatrix4dv
 "
 *
 /
-46923
+47409
 /
 *
 "
@@ -334894,7 +338167,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46923
+47409
 /
 *
 "
@@ -334918,7 +338191,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-46949
+47435
 /
 *
 glProgramUniformMatrix4dvEXT
@@ -334959,7 +338232,7 @@ entrypoints
 ]
 =
 {
-46978
+47464
 /
 *
 "
@@ -334967,7 +338240,7 @@ glProgramUniformMatrix4fv
 "
 *
 /
-46978
+47464
 /
 *
 "
@@ -334975,7 +338248,7 @@ glProgramUniformMatrix4fv
 "
 *
 /
-46978
+47464
 /
 *
 "
@@ -334983,7 +338256,7 @@ glProgramUniformMatrix4fv
 "
 *
 /
-47004
+47490
 /
 *
 "
@@ -334991,7 +338264,7 @@ glProgramUniformMatrix4fvEXT
 "
 *
 /
-47004
+47490
 /
 *
 "
@@ -335006,7 +338279,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-46978
+47464
 /
 *
 "
@@ -335051,7 +338324,7 @@ entrypoints
 ]
 =
 {
-47004
+47490
 /
 *
 "
@@ -335059,7 +338332,7 @@ glProgramUniformMatrix4fvEXT
 "
 *
 /
-47004
+47490
 /
 *
 "
@@ -335067,7 +338340,7 @@ glProgramUniformMatrix4fvEXT
 "
 *
 /
-46978
+47464
 /
 *
 "
@@ -335075,7 +338348,7 @@ glProgramUniformMatrix4fv
 "
 *
 /
-46978
+47464
 /
 *
 "
@@ -335083,7 +338356,7 @@ glProgramUniformMatrix4fv
 "
 *
 /
-46978
+47464
 /
 *
 "
@@ -335098,7 +338371,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47004
+47490
 /
 *
 "
@@ -335140,7 +338413,7 @@ entrypoints
 ]
 =
 {
-47033
+47519
 /
 *
 "
@@ -335148,7 +338421,7 @@ glProgramUniformMatrix4x2dv
 "
 *
 /
-47033
+47519
 /
 *
 "
@@ -335163,7 +338436,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47033
+47519
 /
 *
 "
@@ -335187,7 +338460,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-47061
+47547
 /
 *
 glProgramUniformMatrix4x2dvEXT
@@ -335228,7 +338501,7 @@ entrypoints
 ]
 =
 {
-47092
+47578
 /
 *
 "
@@ -335236,7 +338509,7 @@ glProgramUniformMatrix4x2fv
 "
 *
 /
-47092
+47578
 /
 *
 "
@@ -335244,7 +338517,7 @@ glProgramUniformMatrix4x2fv
 "
 *
 /
-47092
+47578
 /
 *
 "
@@ -335252,7 +338525,7 @@ glProgramUniformMatrix4x2fv
 "
 *
 /
-47120
+47606
 /
 *
 "
@@ -335260,7 +338533,7 @@ glProgramUniformMatrix4x2fvEXT
 "
 *
 /
-47120
+47606
 /
 *
 "
@@ -335275,7 +338548,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47092
+47578
 /
 *
 "
@@ -335320,7 +338593,7 @@ entrypoints
 ]
 =
 {
-47120
+47606
 /
 *
 "
@@ -335328,7 +338601,7 @@ glProgramUniformMatrix4x2fvEXT
 "
 *
 /
-47120
+47606
 /
 *
 "
@@ -335336,7 +338609,7 @@ glProgramUniformMatrix4x2fvEXT
 "
 *
 /
-47092
+47578
 /
 *
 "
@@ -335344,7 +338617,7 @@ glProgramUniformMatrix4x2fv
 "
 *
 /
-47092
+47578
 /
 *
 "
@@ -335352,7 +338625,7 @@ glProgramUniformMatrix4x2fv
 "
 *
 /
-47092
+47578
 /
 *
 "
@@ -335367,7 +338640,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47120
+47606
 /
 *
 "
@@ -335409,7 +338682,7 @@ entrypoints
 ]
 =
 {
-47151
+47637
 /
 *
 "
@@ -335417,7 +338690,7 @@ glProgramUniformMatrix4x3dv
 "
 *
 /
-47151
+47637
 /
 *
 "
@@ -335432,7 +338705,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47151
+47637
 /
 *
 "
@@ -335456,7 +338729,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-47179
+47665
 /
 *
 glProgramUniformMatrix4x3dvEXT
@@ -335497,7 +338770,7 @@ entrypoints
 ]
 =
 {
-47210
+47696
 /
 *
 "
@@ -335505,7 +338778,7 @@ glProgramUniformMatrix4x3fv
 "
 *
 /
-47210
+47696
 /
 *
 "
@@ -335513,7 +338786,7 @@ glProgramUniformMatrix4x3fv
 "
 *
 /
-47210
+47696
 /
 *
 "
@@ -335521,7 +338794,7 @@ glProgramUniformMatrix4x3fv
 "
 *
 /
-47238
+47724
 /
 *
 "
@@ -335529,7 +338802,7 @@ glProgramUniformMatrix4x3fvEXT
 "
 *
 /
-47238
+47724
 /
 *
 "
@@ -335544,7 +338817,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47210
+47696
 /
 *
 "
@@ -335589,7 +338862,7 @@ entrypoints
 ]
 =
 {
-47238
+47724
 /
 *
 "
@@ -335597,7 +338870,7 @@ glProgramUniformMatrix4x3fvEXT
 "
 *
 /
-47238
+47724
 /
 *
 "
@@ -335605,7 +338878,7 @@ glProgramUniformMatrix4x3fvEXT
 "
 *
 /
-47210
+47696
 /
 *
 "
@@ -335613,7 +338886,7 @@ glProgramUniformMatrix4x3fv
 "
 *
 /
-47210
+47696
 /
 *
 "
@@ -335621,7 +338894,7 @@ glProgramUniformMatrix4x3fv
 "
 *
 /
-47210
+47696
 /
 *
 "
@@ -335636,7 +338909,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47238
+47724
 /
 *
 "
@@ -335660,7 +338933,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-47269
+47755
 /
 *
 glProgramUniformui64NV
@@ -335680,7 +338953,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-47292
+47778
 /
 *
 glProgramUniformui64vNV
@@ -335700,7 +338973,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_geometry_program4
-47316
+47802
 /
 *
 glProgramVertexLimitNV
@@ -335739,7 +339012,7 @@ entrypoints
 ]
 =
 {
-47339
+47825
 /
 *
 "
@@ -335747,7 +339020,7 @@ glProvokingVertex
 "
 *
 /
-47339
+47825
 /
 *
 "
@@ -335755,7 +339028,7 @@ glProvokingVertex
 "
 *
 /
-47357
+47843
 /
 *
 "
@@ -335770,7 +339043,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47339
+47825
 /
 *
 "
@@ -335813,7 +339086,7 @@ entrypoints
 ]
 =
 {
-47357
+47843
 /
 *
 "
@@ -335821,7 +339094,7 @@ glProvokingVertexEXT
 "
 *
 /
-47339
+47825
 /
 *
 "
@@ -335829,7 +339102,7 @@ glProvokingVertex
 "
 *
 /
-47339
+47825
 /
 *
 "
@@ -335844,7 +339117,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47357
+47843
 /
 *
 "
@@ -335868,7 +339141,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47378
+47864
 /
 *
 glPushAttrib
@@ -335888,7 +339161,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_1
-47391
+47877
 /
 *
 glPushClientAttrib
@@ -335908,7 +339181,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-47410
+47896
 /
 *
 glPushClientAttribDefaultEXT
@@ -335948,7 +339221,7 @@ entrypoints
 ]
 =
 {
-47439
+47925
 /
 *
 "
@@ -335956,7 +339229,7 @@ glPushDebugGroup
 "
 *
 /
-47439
+47925
 /
 *
 "
@@ -335964,7 +339237,7 @@ glPushDebugGroup
 "
 *
 /
-47439
+47925
 /
 *
 "
@@ -335972,7 +339245,7 @@ glPushDebugGroup
 "
 *
 /
-47456
+47942
 /
 *
 "
@@ -335987,7 +339260,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47439
+47925
 /
 *
 "
@@ -336031,7 +339304,7 @@ entrypoints
 ]
 =
 {
-47456
+47942
 /
 *
 "
@@ -336039,7 +339312,7 @@ glPushDebugGroupKHR
 "
 *
 /
-47439
+47925
 /
 *
 "
@@ -336047,7 +339320,7 @@ glPushDebugGroup
 "
 *
 /
-47439
+47925
 /
 *
 "
@@ -336055,7 +339328,7 @@ glPushDebugGroup
 "
 *
 /
-47439
+47925
 /
 *
 "
@@ -336070,7 +339343,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47456
+47942
 /
 *
 "
@@ -336094,7 +339367,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_debug_marker
-47476
+47962
 /
 *
 glPushGroupMarkerEXT
@@ -336132,7 +339405,7 @@ entrypoints
 ]
 =
 {
-47497
+47983
 /
 *
 "
@@ -336140,7 +339413,7 @@ glPushMatrix
 "
 *
 /
-47497
+47983
 /
 *
 "
@@ -336155,7 +339428,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47497
+47983
 /
 *
 "
@@ -336179,7 +339452,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47510
+47996
 /
 *
 glPushName
@@ -336218,7 +339491,7 @@ entrypoints
 ]
 =
 {
-47521
+48007
 /
 *
 "
@@ -336226,7 +339499,7 @@ glQueryCounter
 "
 *
 /
-47521
+48007
 /
 *
 "
@@ -336234,7 +339507,7 @@ glQueryCounter
 "
 *
 /
-47536
+48022
 /
 *
 "
@@ -336249,7 +339522,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47521
+48007
 /
 *
 "
@@ -336292,7 +339565,7 @@ entrypoints
 ]
 =
 {
-47536
+48022
 /
 *
 "
@@ -336300,7 +339573,7 @@ glQueryCounterEXT
 "
 *
 /
-47521
+48007
 /
 *
 "
@@ -336308,7 +339581,7 @@ glQueryCounter
 "
 *
 /
-47521
+48007
 /
 *
 "
@@ -336323,7 +339596,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-47536
+48022
 /
 *
 "
@@ -336347,7 +339620,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_query_matrix
-47554
+48040
 /
 *
 glQueryMatrixxOES
@@ -336367,7 +339640,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_occlusion_query_event
-47572
+48058
 /
 *
 glQueryObjectParameteruiAMD
@@ -336387,7 +339660,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_query_resource
-47600
+48086
 /
 *
 glQueryResourceNV
@@ -336407,7 +339680,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_query_resource_tag
-47618
+48104
 /
 *
 glQueryResourceTagNV
@@ -336427,7 +339700,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47639
+48125
 /
 *
 glRasterPos2d
@@ -336447,7 +339720,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47653
+48139
 /
 *
 glRasterPos2dv
@@ -336467,7 +339740,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47668
+48154
 /
 *
 glRasterPos2f
@@ -336487,7 +339760,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47682
+48168
 /
 *
 glRasterPos2fv
@@ -336507,7 +339780,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47697
+48183
 /
 *
 glRasterPos2i
@@ -336527,7 +339800,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47711
+48197
 /
 *
 glRasterPos2iv
@@ -336547,7 +339820,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47726
+48212
 /
 *
 glRasterPos2s
@@ -336567,7 +339840,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47740
+48226
 /
 *
 glRasterPos2sv
@@ -336587,7 +339860,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-47755
+48241
 /
 *
 glRasterPos2xOES
@@ -336607,7 +339880,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-47772
+48258
 /
 *
 glRasterPos2xvOES
@@ -336627,7 +339900,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47790
+48276
 /
 *
 glRasterPos3d
@@ -336647,7 +339920,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47804
+48290
 /
 *
 glRasterPos3dv
@@ -336667,7 +339940,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47819
+48305
 /
 *
 glRasterPos3f
@@ -336687,7 +339960,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47833
+48319
 /
 *
 glRasterPos3fv
@@ -336707,7 +339980,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47848
+48334
 /
 *
 glRasterPos3i
@@ -336727,7 +340000,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47862
+48348
 /
 *
 glRasterPos3iv
@@ -336747,7 +340020,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47877
+48363
 /
 *
 glRasterPos3s
@@ -336767,7 +340040,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47891
+48377
 /
 *
 glRasterPos3sv
@@ -336787,7 +340060,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-47906
+48392
 /
 *
 glRasterPos3xOES
@@ -336807,7 +340080,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-47923
+48409
 /
 *
 glRasterPos3xvOES
@@ -336827,7 +340100,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47941
+48427
 /
 *
 glRasterPos4d
@@ -336847,7 +340120,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47955
+48441
 /
 *
 glRasterPos4dv
@@ -336867,7 +340140,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47970
+48456
 /
 *
 glRasterPos4f
@@ -336887,7 +340160,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47984
+48470
 /
 *
 glRasterPos4fv
@@ -336907,7 +340180,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-47999
+48485
 /
 *
 glRasterPos4i
@@ -336927,7 +340200,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48013
+48499
 /
 *
 glRasterPos4iv
@@ -336947,7 +340220,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48028
+48514
 /
 *
 glRasterPos4s
@@ -336967,7 +340240,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48042
+48528
 /
 *
 glRasterPos4sv
@@ -336987,7 +340260,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-48057
+48543
 /
 *
 glRasterPos4xOES
@@ -337007,7 +340280,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-48074
+48560
 /
 *
 glRasterPos4xvOES
@@ -337045,7 +340318,7 @@ entrypoints
 ]
 =
 {
-48092
+48578
 /
 *
 "
@@ -337053,7 +340326,7 @@ glRasterSamplesEXT
 "
 *
 /
-48092
+48578
 /
 *
 "
@@ -337068,7 +340341,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48092
+48578
 /
 *
 "
@@ -337110,7 +340383,7 @@ entrypoints
 ]
 =
 {
-48111
+48597
 /
 *
 "
@@ -337118,7 +340391,7 @@ glReadBuffer
 "
 *
 /
-48111
+48597
 /
 *
 "
@@ -337133,7 +340406,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48111
+48597
 /
 *
 "
@@ -337157,7 +340430,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_multiview_draw_buffers
-48124
+48610
 /
 *
 glReadBufferIndexedEXT
@@ -337177,7 +340450,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_read_buffer
-48147
+48633
 /
 *
 glReadBufferNV
@@ -337197,7 +340470,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_instruments
-48162
+48648
 /
 *
 glReadInstrumentsSGIX
@@ -337236,7 +340509,7 @@ entrypoints
 ]
 =
 {
-48184
+48670
 /
 *
 "
@@ -337244,7 +340517,7 @@ glReadPixels
 "
 *
 /
-48184
+48670
 /
 *
 "
@@ -337252,7 +340525,7 @@ glReadPixels
 "
 *
 /
-48184
+48670
 /
 *
 "
@@ -337267,7 +340540,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48184
+48670
 /
 *
 "
@@ -337313,7 +340586,7 @@ entrypoints
 ]
 =
 {
-48197
+48683
 /
 *
 "
@@ -337321,7 +340594,7 @@ glReadnPixels
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337329,7 +340602,7 @@ glReadnPixels
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337337,7 +340610,7 @@ glReadnPixels
 "
 *
 /
-48211
+48697
 /
 *
 "
@@ -337345,7 +340618,7 @@ glReadnPixelsARB
 "
 *
 /
-48228
+48714
 /
 *
 "
@@ -337353,7 +340626,7 @@ glReadnPixelsEXT
 "
 *
 /
-48245
+48731
 /
 *
 "
@@ -337368,7 +340641,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48197
+48683
 /
 *
 "
@@ -337414,7 +340687,7 @@ entrypoints
 ]
 =
 {
-48211
+48697
 /
 *
 "
@@ -337422,7 +340695,7 @@ glReadnPixelsARB
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337430,7 +340703,7 @@ glReadnPixels
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337438,7 +340711,7 @@ glReadnPixels
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337446,7 +340719,7 @@ glReadnPixels
 "
 *
 /
-48228
+48714
 /
 *
 "
@@ -337454,7 +340727,7 @@ glReadnPixelsEXT
 "
 *
 /
-48245
+48731
 /
 *
 "
@@ -337469,7 +340742,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48211
+48697
 /
 *
 "
@@ -337515,7 +340788,7 @@ entrypoints
 ]
 =
 {
-48228
+48714
 /
 *
 "
@@ -337523,7 +340796,7 @@ glReadnPixelsEXT
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337531,7 +340804,7 @@ glReadnPixels
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337539,7 +340812,7 @@ glReadnPixels
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337547,7 +340820,7 @@ glReadnPixels
 "
 *
 /
-48211
+48697
 /
 *
 "
@@ -337555,7 +340828,7 @@ glReadnPixelsARB
 "
 *
 /
-48245
+48731
 /
 *
 "
@@ -337570,7 +340843,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48228
+48714
 /
 *
 "
@@ -337616,7 +340889,7 @@ entrypoints
 ]
 =
 {
-48245
+48731
 /
 *
 "
@@ -337624,7 +340897,7 @@ glReadnPixelsKHR
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337632,7 +340905,7 @@ glReadnPixels
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337640,7 +340913,7 @@ glReadnPixels
 "
 *
 /
-48197
+48683
 /
 *
 "
@@ -337648,7 +340921,7 @@ glReadnPixels
 "
 *
 /
-48211
+48697
 /
 *
 "
@@ -337656,7 +340929,7 @@ glReadnPixelsARB
 "
 *
 /
-48228
+48714
 /
 *
 "
@@ -337671,7 +340944,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48245
+48731
 /
 *
 "
@@ -337695,7 +340968,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48262
+48748
 /
 *
 glRectd
@@ -337715,7 +340988,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48270
+48756
 /
 *
 glRectdv
@@ -337735,7 +341008,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48279
+48765
 /
 *
 glRectf
@@ -337755,7 +341028,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48287
+48773
 /
 *
 glRectfv
@@ -337775,7 +341048,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48296
+48782
 /
 *
 glRecti
@@ -337795,7 +341068,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48304
+48790
 /
 *
 glRectiv
@@ -337815,7 +341088,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48313
+48799
 /
 *
 glRects
@@ -337835,7 +341108,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48321
+48807
 /
 *
 glRectsv
@@ -337855,7 +341128,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-48330
+48816
 /
 *
 glRectxOES
@@ -337875,7 +341148,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-48341
+48827
 /
 *
 glRectxvOES
@@ -337895,7 +341168,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_reference_plane
-48353
+48839
 /
 *
 glReferencePlaneSGIX
@@ -337915,7 +341188,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_win32_keyed_mutex
-48374
+48860
 /
 *
 glReleaseKeyedMutexWin32EXT
@@ -337954,7 +341227,7 @@ entrypoints
 ]
 =
 {
-48402
+48888
 /
 *
 "
@@ -337962,7 +341235,7 @@ glReleaseShaderCompiler
 "
 *
 /
-48402
+48888
 /
 *
 "
@@ -337970,7 +341243,7 @@ glReleaseShaderCompiler
 "
 *
 /
-48402
+48888
 /
 *
 "
@@ -337985,7 +341258,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48402
+48888
 /
 *
 "
@@ -338009,7 +341282,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_gpu_multicast
-48426
+48912
 /
 *
 glRenderGpuMaskNV
@@ -338029,7 +341302,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-48444
+48930
 /
 *
 glRenderMode
@@ -338069,7 +341342,7 @@ entrypoints
 ]
 =
 {
-48457
+48943
 /
 *
 "
@@ -338077,7 +341350,7 @@ glRenderbufferStorage
 "
 *
 /
-48457
+48943
 /
 *
 "
@@ -338085,7 +341358,7 @@ glRenderbufferStorage
 "
 *
 /
-48457
+48943
 /
 *
 "
@@ -338093,7 +341366,7 @@ glRenderbufferStorage
 "
 *
 /
-48479
+48965
 /
 *
 "
@@ -338108,7 +341381,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48457
+48943
 /
 *
 "
@@ -338152,7 +341425,7 @@ entrypoints
 ]
 =
 {
-48479
+48965
 /
 *
 "
@@ -338160,7 +341433,7 @@ glRenderbufferStorageEXT
 "
 *
 /
-48457
+48943
 /
 *
 "
@@ -338168,7 +341441,7 @@ glRenderbufferStorage
 "
 *
 /
-48457
+48943
 /
 *
 "
@@ -338176,7 +341449,7 @@ glRenderbufferStorage
 "
 *
 /
-48457
+48943
 /
 *
 "
@@ -338191,7 +341464,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48479
+48965
 /
 *
 "
@@ -338237,7 +341510,7 @@ entrypoints
 ]
 =
 {
-48504
+48990
 /
 *
 "
@@ -338245,7 +341518,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48504
+48990
 /
 *
 "
@@ -338253,7 +341526,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48504
+48990
 /
 *
 "
@@ -338261,7 +341534,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48700
+49186
 /
 *
 "
@@ -338269,7 +341542,7 @@ glRenderbufferStorageMultisampleEXT
 "
 *
 /
-48700
+49186
 /
 *
 "
@@ -338277,7 +341550,7 @@ glRenderbufferStorageMultisampleEXT
 "
 *
 /
-48772
+49258
 /
 *
 "
@@ -338292,7 +341565,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48504
+48990
 /
 *
 "
@@ -338316,7 +341589,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ANGLE_framebuffer_multisample
-48537
+49023
 /
 *
 glRenderbufferStorageMultisampleANGLE
@@ -338336,7 +341609,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_framebuffer_multisample
-48575
+49061
 /
 *
 glRenderbufferStorageMultisampleAPPLE
@@ -338356,7 +341629,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_framebuffer_multisample_advanced
-48613
+49099
 /
 *
 glRenderbufferStorageMultisampleAdvancedAMD
@@ -338376,7 +341649,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_framebuffer_multisample_coverage
-48657
+49143
 /
 *
 glRenderbufferStorageMultisampleCoverageNV
@@ -338418,7 +341691,7 @@ entrypoints
 ]
 =
 {
-48700
+49186
 /
 *
 "
@@ -338426,7 +341699,7 @@ glRenderbufferStorageMultisampleEXT
 "
 *
 /
-48700
+49186
 /
 *
 "
@@ -338434,7 +341707,7 @@ glRenderbufferStorageMultisampleEXT
 "
 *
 /
-48504
+48990
 /
 *
 "
@@ -338442,7 +341715,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48504
+48990
 /
 *
 "
@@ -338450,7 +341723,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48504
+48990
 /
 *
 "
@@ -338458,7 +341731,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48772
+49258
 /
 *
 "
@@ -338473,7 +341746,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48700
+49186
 /
 *
 "
@@ -338497,7 +341770,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IMG_multisampled_render_to_texture
-48736
+49222
 /
 *
 glRenderbufferStorageMultisampleIMG
@@ -338539,7 +341812,7 @@ entrypoints
 ]
 =
 {
-48772
+49258
 /
 *
 "
@@ -338547,7 +341820,7 @@ glRenderbufferStorageMultisampleNV
 "
 *
 /
-48504
+48990
 /
 *
 "
@@ -338555,7 +341828,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48504
+48990
 /
 *
 "
@@ -338563,7 +341836,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48504
+48990
 /
 *
 "
@@ -338571,7 +341844,7 @@ glRenderbufferStorageMultisample
 "
 *
 /
-48700
+49186
 /
 *
 "
@@ -338579,7 +341852,7 @@ glRenderbufferStorageMultisampleEXT
 "
 *
 /
-48700
+49186
 /
 *
 "
@@ -338594,7 +341867,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-48772
+49258
 /
 *
 "
@@ -338618,7 +341891,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_framebuffer_object
-48807
+49293
 /
 *
 glRenderbufferStorageOES
@@ -338638,7 +341911,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_triangle_list
-48832
+49318
 /
 *
 glReplacementCodePointerSUN
@@ -338658,7 +341931,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_triangle_list
-48860
+49346
 /
 *
 glReplacementCodeubSUN
@@ -338678,7 +341951,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_triangle_list
-48883
+49369
 /
 *
 glReplacementCodeubvSUN
@@ -338698,7 +341971,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-48907
+49393
 /
 *
 glReplacementCodeuiColor3fVertex3fSUN
@@ -338718,7 +341991,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-48945
+49431
 /
 *
 glReplacementCodeuiColor3fVertex3fvSUN
@@ -338738,7 +342011,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-48984
+49470
 /
 *
 glReplacementCodeuiColor4fNormal3fVertex3fSUN
@@ -338758,7 +342031,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49030
+49516
 /
 *
 glReplacementCodeuiColor4fNormal3fVertex3fvSUN
@@ -338778,7 +342051,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49077
+49563
 /
 *
 glReplacementCodeuiColor4ubVertex3fSUN
@@ -338798,7 +342071,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49116
+49602
 /
 *
 glReplacementCodeuiColor4ubVertex3fvSUN
@@ -338818,7 +342091,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49156
+49642
 /
 *
 glReplacementCodeuiNormal3fVertex3fSUN
@@ -338838,7 +342111,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49195
+49681
 /
 *
 glReplacementCodeuiNormal3fVertex3fvSUN
@@ -338858,7 +342131,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_triangle_list
-49235
+49721
 /
 *
 glReplacementCodeuiSUN
@@ -338878,7 +342151,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49258
+49744
 /
 *
 glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fSUN
@@ -338898,7 +342171,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49314
+49800
 /
 *
 glReplacementCodeuiTexCoord2fColor4fNormal3fVertex3fvSUN
@@ -338918,7 +342191,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49371
+49857
 /
 *
 glReplacementCodeuiTexCoord2fNormal3fVertex3fSUN
@@ -338938,7 +342211,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49420
+49906
 /
 *
 glReplacementCodeuiTexCoord2fNormal3fVertex3fvSUN
@@ -338958,7 +342231,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49470
+49956
 /
 *
 glReplacementCodeuiTexCoord2fVertex3fSUN
@@ -338978,7 +342251,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49511
+49997
 /
 *
 glReplacementCodeuiTexCoord2fVertex3fvSUN
@@ -338998,7 +342271,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49553
+50039
 /
 *
 glReplacementCodeuiVertex3fSUN
@@ -339018,7 +342291,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-49584
+50070
 /
 *
 glReplacementCodeuiVertex3fvSUN
@@ -339038,7 +342311,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_triangle_list
-49616
+50102
 /
 *
 glReplacementCodeuivSUN
@@ -339058,7 +342331,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_triangle_list
-49640
+50126
 /
 *
 glReplacementCodeusSUN
@@ -339078,7 +342351,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_triangle_list
-49663
+50149
 /
 *
 glReplacementCodeusvSUN
@@ -339098,7 +342371,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-49687
+50173
 /
 *
 glRequestResidentProgramsNV
@@ -339136,7 +342409,7 @@ entrypoints
 ]
 =
 {
-49715
+50201
 /
 *
 "
@@ -339144,7 +342417,7 @@ glResetHistogram
 "
 *
 /
-49732
+50218
 /
 *
 "
@@ -339159,7 +342432,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-49715
+50201
 /
 *
 "
@@ -339201,7 +342474,7 @@ entrypoints
 ]
 =
 {
-49732
+50218
 /
 *
 "
@@ -339209,7 +342482,7 @@ glResetHistogramEXT
 "
 *
 /
-49715
+50201
 /
 *
 "
@@ -339224,7 +342497,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-49732
+50218
 /
 *
 "
@@ -339248,7 +342521,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_memory_attachment
-49752
+50238
 /
 *
 glResetMemoryObjectParameterNV
@@ -339286,7 +342559,7 @@ entrypoints
 ]
 =
 {
-49783
+50269
 /
 *
 "
@@ -339294,7 +342567,7 @@ glResetMinmax
 "
 *
 /
-49797
+50283
 /
 *
 "
@@ -339309,7 +342582,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-49783
+50269
 /
 *
 "
@@ -339351,7 +342624,7 @@ entrypoints
 ]
 =
 {
-49797
+50283
 /
 *
 "
@@ -339359,7 +342632,7 @@ glResetMinmaxEXT
 "
 *
 /
-49783
+50269
 /
 *
 "
@@ -339374,7 +342647,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-49797
+50283
 /
 *
 "
@@ -339398,7 +342671,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_resize_buffers
-49814
+50300
 /
 *
 glResizeBuffersMESA
@@ -339418,7 +342691,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_sample_locations
-49834
+50320
 /
 *
 glResolveDepthValuesNV
@@ -339438,7 +342711,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_framebuffer_multisample
-49857
+50343
 /
 *
 glResolveMultisampleFramebufferAPPLE
@@ -339478,7 +342751,7 @@ entrypoints
 ]
 =
 {
-49894
+50380
 /
 *
 "
@@ -339486,7 +342759,7 @@ glResumeTransformFeedback
 "
 *
 /
-49894
+50380
 /
 *
 "
@@ -339494,7 +342767,7 @@ glResumeTransformFeedback
 "
 *
 /
-49894
+50380
 /
 *
 "
@@ -339502,7 +342775,7 @@ glResumeTransformFeedback
 "
 *
 /
-49920
+50406
 /
 *
 "
@@ -339517,7 +342790,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-49894
+50380
 /
 *
 "
@@ -339561,7 +342834,7 @@ entrypoints
 ]
 =
 {
-49920
+50406
 /
 *
 "
@@ -339569,7 +342842,7 @@ glResumeTransformFeedbackNV
 "
 *
 /
-49894
+50380
 /
 *
 "
@@ -339577,7 +342850,7 @@ glResumeTransformFeedback
 "
 *
 /
-49894
+50380
 /
 *
 "
@@ -339585,7 +342858,7 @@ glResumeTransformFeedback
 "
 *
 /
-49894
+50380
 /
 *
 "
@@ -339600,7 +342873,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-49920
+50406
 /
 *
 "
@@ -339624,7 +342897,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-49948
+50434
 /
 *
 glRotated
@@ -339662,7 +342935,7 @@ entrypoints
 ]
 =
 {
-49958
+50444
 /
 *
 "
@@ -339670,7 +342943,7 @@ glRotatef
 "
 *
 /
-49958
+50444
 /
 *
 "
@@ -339685,7 +342958,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-49958
+50444
 /
 *
 "
@@ -339709,7 +342982,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-49968
+50454
 /
 *
 glRotatex
@@ -339729,7 +343002,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-49978
+50464
 /
 *
 glRotatexOES
@@ -339769,7 +343042,7 @@ entrypoints
 ]
 =
 {
-49991
+50477
 /
 *
 "
@@ -339777,7 +343050,7 @@ glSampleCoverage
 "
 *
 /
-49991
+50477
 /
 *
 "
@@ -339785,7 +343058,7 @@ glSampleCoverage
 "
 *
 /
-49991
+50477
 /
 *
 "
@@ -339793,7 +343066,7 @@ glSampleCoverage
 "
 *
 /
-50008
+50494
 /
 *
 "
@@ -339808,7 +343081,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-49991
+50477
 /
 *
 "
@@ -339852,7 +343125,7 @@ entrypoints
 ]
 =
 {
-50008
+50494
 /
 *
 "
@@ -339860,7 +343133,7 @@ glSampleCoverageARB
 "
 *
 /
-49991
+50477
 /
 *
 "
@@ -339868,7 +343141,7 @@ glSampleCoverage
 "
 *
 /
-49991
+50477
 /
 *
 "
@@ -339876,7 +343149,7 @@ glSampleCoverage
 "
 *
 /
-49991
+50477
 /
 *
 "
@@ -339891,7 +343164,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50008
+50494
 /
 *
 "
@@ -339915,7 +343188,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-50028
+50514
 /
 *
 glSampleCoveragex
@@ -339935,7 +343208,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-50046
+50532
 /
 *
 glSampleCoveragexOES
@@ -339955,7 +343228,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-50067
+50553
 /
 *
 glSampleMapATI
@@ -339993,7 +343266,7 @@ entrypoints
 ]
 =
 {
-50082
+50568
 /
 *
 "
@@ -340001,7 +343274,7 @@ glSampleMaskEXT
 "
 *
 /
-50120
+50606
 /
 *
 "
@@ -340016,7 +343289,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50082
+50568
 /
 *
 "
@@ -340040,7 +343313,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_explicit_multisample
-50098
+50584
 /
 *
 glSampleMaskIndexedNV
@@ -340078,7 +343351,7 @@ entrypoints
 ]
 =
 {
-50120
+50606
 /
 *
 "
@@ -340086,7 +343359,7 @@ glSampleMaskSGIS
 "
 *
 /
-50082
+50568
 /
 *
 "
@@ -340101,7 +343374,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50120
+50606
 /
 *
 "
@@ -340144,7 +343417,7 @@ entrypoints
 ]
 =
 {
-50137
+50623
 /
 *
 "
@@ -340152,7 +343425,7 @@ glSampleMaski
 "
 *
 /
-50137
+50623
 /
 *
 "
@@ -340160,7 +343433,7 @@ glSampleMaski
 "
 *
 /
-50137
+50623
 /
 *
 "
@@ -340175,7 +343448,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50137
+50623
 /
 *
 "
@@ -340217,7 +343490,7 @@ entrypoints
 ]
 =
 {
-50151
+50637
 /
 *
 "
@@ -340225,7 +343498,7 @@ glSamplePatternEXT
 "
 *
 /
-50170
+50656
 /
 *
 "
@@ -340240,7 +343513,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50151
+50637
 /
 *
 "
@@ -340282,7 +343555,7 @@ entrypoints
 ]
 =
 {
-50170
+50656
 /
 *
 "
@@ -340290,7 +343563,7 @@ glSamplePatternSGIS
 "
 *
 /
-50151
+50637
 /
 *
 "
@@ -340305,7 +343578,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50170
+50656
 /
 *
 "
@@ -340350,7 +343623,7 @@ entrypoints
 ]
 =
 {
-50190
+50676
 /
 *
 "
@@ -340358,7 +343631,7 @@ glSamplerParameterIiv
 "
 *
 /
-50190
+50676
 /
 *
 "
@@ -340366,7 +343639,7 @@ glSamplerParameterIiv
 "
 *
 /
-50190
+50676
 /
 *
 "
@@ -340374,7 +343647,7 @@ glSamplerParameterIiv
 "
 *
 /
-50212
+50698
 /
 *
 "
@@ -340382,7 +343655,7 @@ glSamplerParameterIivEXT
 "
 *
 /
-50237
+50723
 /
 *
 "
@@ -340397,7 +343670,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50190
+50676
 /
 *
 "
@@ -340442,7 +343715,7 @@ entrypoints
 ]
 =
 {
-50212
+50698
 /
 *
 "
@@ -340450,7 +343723,7 @@ glSamplerParameterIivEXT
 "
 *
 /
-50190
+50676
 /
 *
 "
@@ -340458,7 +343731,7 @@ glSamplerParameterIiv
 "
 *
 /
-50190
+50676
 /
 *
 "
@@ -340466,7 +343739,7 @@ glSamplerParameterIiv
 "
 *
 /
-50190
+50676
 /
 *
 "
@@ -340474,7 +343747,7 @@ glSamplerParameterIiv
 "
 *
 /
-50237
+50723
 /
 *
 "
@@ -340489,7 +343762,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50212
+50698
 /
 *
 "
@@ -340534,7 +343807,7 @@ entrypoints
 ]
 =
 {
-50237
+50723
 /
 *
 "
@@ -340542,7 +343815,7 @@ glSamplerParameterIivOES
 "
 *
 /
-50190
+50676
 /
 *
 "
@@ -340550,7 +343823,7 @@ glSamplerParameterIiv
 "
 *
 /
-50190
+50676
 /
 *
 "
@@ -340558,7 +343831,7 @@ glSamplerParameterIiv
 "
 *
 /
-50190
+50676
 /
 *
 "
@@ -340566,7 +343839,7 @@ glSamplerParameterIiv
 "
 *
 /
-50212
+50698
 /
 *
 "
@@ -340581,7 +343854,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50237
+50723
 /
 *
 "
@@ -340626,7 +343899,7 @@ entrypoints
 ]
 =
 {
-50262
+50748
 /
 *
 "
@@ -340634,7 +343907,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50262
+50748
 /
 *
 "
@@ -340642,7 +343915,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50262
+50748
 /
 *
 "
@@ -340650,7 +343923,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50285
+50771
 /
 *
 "
@@ -340658,7 +343931,7 @@ glSamplerParameterIuivEXT
 "
 *
 /
-50311
+50797
 /
 *
 "
@@ -340673,7 +343946,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50262
+50748
 /
 *
 "
@@ -340718,7 +343991,7 @@ entrypoints
 ]
 =
 {
-50285
+50771
 /
 *
 "
@@ -340726,7 +343999,7 @@ glSamplerParameterIuivEXT
 "
 *
 /
-50262
+50748
 /
 *
 "
@@ -340734,7 +344007,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50262
+50748
 /
 *
 "
@@ -340742,7 +344015,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50262
+50748
 /
 *
 "
@@ -340750,7 +344023,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50311
+50797
 /
 *
 "
@@ -340765,7 +344038,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50285
+50771
 /
 *
 "
@@ -340810,7 +344083,7 @@ entrypoints
 ]
 =
 {
-50311
+50797
 /
 *
 "
@@ -340818,7 +344091,7 @@ glSamplerParameterIuivOES
 "
 *
 /
-50262
+50748
 /
 *
 "
@@ -340826,7 +344099,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50262
+50748
 /
 *
 "
@@ -340834,7 +344107,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50262
+50748
 /
 *
 "
@@ -340842,7 +344115,7 @@ glSamplerParameterIuiv
 "
 *
 /
-50285
+50771
 /
 *
 "
@@ -340857,7 +344130,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50311
+50797
 /
 *
 "
@@ -340888,6 +344161,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -340900,7 +344174,7 @@ entrypoints
 ]
 =
 {
-50337
+50823
 /
 *
 "
@@ -340908,7 +344182,7 @@ glSamplerParameterf
 "
 *
 /
-50337
+50823
 /
 *
 "
@@ -340916,7 +344190,15 @@ glSamplerParameterf
 "
 *
 /
-50337
+50823
+/
+*
+"
+glSamplerParameterf
+"
+*
+/
+50823
 /
 *
 "
@@ -340931,7 +344213,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50337
+50823
 /
 *
 "
@@ -340962,6 +344244,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -340974,7 +344257,7 @@ entrypoints
 ]
 =
 {
-50357
+50843
 /
 *
 "
@@ -340982,7 +344265,7 @@ glSamplerParameterfv
 "
 *
 /
-50357
+50843
 /
 *
 "
@@ -340990,7 +344273,15 @@ glSamplerParameterfv
 "
 *
 /
-50357
+50843
+/
+*
+"
+glSamplerParameterfv
+"
+*
+/
+50843
 /
 *
 "
@@ -341005,7 +344296,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50357
+50843
 /
 *
 "
@@ -341036,6 +344327,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -341048,7 +344340,7 @@ entrypoints
 ]
 =
 {
-50378
+50864
 /
 *
 "
@@ -341056,7 +344348,7 @@ glSamplerParameteri
 "
 *
 /
-50378
+50864
 /
 *
 "
@@ -341064,7 +344356,15 @@ glSamplerParameteri
 "
 *
 /
-50378
+50864
+/
+*
+"
+glSamplerParameteri
+"
+*
+/
+50864
 /
 *
 "
@@ -341079,7 +344379,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50378
+50864
 /
 *
 "
@@ -341110,6 +344410,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_3
 PROVIDER_GL_ARB_sampler_objects
+PROVIDER_GL_MESA_sampler_objects
 PROVIDER_OpenGL_ES_3_0
 gl_provider_terminator
 }
@@ -341122,7 +344423,7 @@ entrypoints
 ]
 =
 {
-50398
+50884
 /
 *
 "
@@ -341130,7 +344431,7 @@ glSamplerParameteriv
 "
 *
 /
-50398
+50884
 /
 *
 "
@@ -341138,7 +344439,15 @@ glSamplerParameteriv
 "
 *
 /
-50398
+50884
+/
+*
+"
+glSamplerParameteriv
+"
+*
+/
+50884
 /
 *
 "
@@ -341153,7 +344462,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50398
+50884
 /
 *
 "
@@ -341177,7 +344486,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-50419
+50905
 /
 *
 glScaled
@@ -341215,7 +344524,7 @@ entrypoints
 ]
 =
 {
-50428
+50914
 /
 *
 "
@@ -341223,7 +344532,7 @@ glScalef
 "
 *
 /
-50428
+50914
 /
 *
 "
@@ -341238,7 +344547,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50428
+50914
 /
 *
 "
@@ -341262,7 +344571,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-50437
+50923
 /
 *
 glScalex
@@ -341282,7 +344591,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-50446
+50932
 /
 *
 glScalexOES
@@ -341321,7 +344630,7 @@ entrypoints
 ]
 =
 {
-50458
+50944
 /
 *
 "
@@ -341329,7 +344638,7 @@ glScissor
 "
 *
 /
-50458
+50944
 /
 *
 "
@@ -341337,7 +344646,7 @@ glScissor
 "
 *
 /
-50458
+50944
 /
 *
 "
@@ -341352,7 +344661,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50458
+50944
 /
 *
 "
@@ -341396,7 +344705,7 @@ entrypoints
 ]
 =
 {
-50468
+50954
 /
 *
 "
@@ -341404,7 +344713,7 @@ glScissorArrayv
 "
 *
 /
-50468
+50954
 /
 *
 "
@@ -341412,7 +344721,7 @@ glScissorArrayv
 "
 *
 /
-50484
+50970
 /
 *
 "
@@ -341420,7 +344729,7 @@ glScissorArrayvNV
 "
 *
 /
-50502
+50988
 /
 *
 "
@@ -341435,7 +344744,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50468
+50954
 /
 *
 "
@@ -341479,7 +344788,7 @@ entrypoints
 ]
 =
 {
-50484
+50970
 /
 *
 "
@@ -341487,7 +344796,7 @@ glScissorArrayvNV
 "
 *
 /
-50468
+50954
 /
 *
 "
@@ -341495,7 +344804,7 @@ glScissorArrayv
 "
 *
 /
-50468
+50954
 /
 *
 "
@@ -341503,7 +344812,7 @@ glScissorArrayv
 "
 *
 /
-50502
+50988
 /
 *
 "
@@ -341518,7 +344827,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50484
+50970
 /
 *
 "
@@ -341562,7 +344871,7 @@ entrypoints
 ]
 =
 {
-50502
+50988
 /
 *
 "
@@ -341570,7 +344879,7 @@ glScissorArrayvOES
 "
 *
 /
-50468
+50954
 /
 *
 "
@@ -341578,7 +344887,7 @@ glScissorArrayv
 "
 *
 /
-50468
+50954
 /
 *
 "
@@ -341586,7 +344895,7 @@ glScissorArrayv
 "
 *
 /
-50484
+50970
 /
 *
 "
@@ -341601,7 +344910,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50502
+50988
 /
 *
 "
@@ -341625,7 +344934,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_scissor_exclusive
-50521
+51007
 /
 *
 glScissorExclusiveArrayvNV
@@ -341645,7 +344954,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_scissor_exclusive
-50548
+51034
 /
 *
 glScissorExclusiveNV
@@ -341685,7 +344994,7 @@ entrypoints
 ]
 =
 {
-50569
+51055
 /
 *
 "
@@ -341693,7 +345002,7 @@ glScissorIndexed
 "
 *
 /
-50569
+51055
 /
 *
 "
@@ -341701,7 +345010,7 @@ glScissorIndexed
 "
 *
 /
-50586
+51072
 /
 *
 "
@@ -341709,7 +345018,7 @@ glScissorIndexedNV
 "
 *
 /
-50605
+51091
 /
 *
 "
@@ -341724,7 +345033,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50569
+51055
 /
 *
 "
@@ -341768,7 +345077,7 @@ entrypoints
 ]
 =
 {
-50586
+51072
 /
 *
 "
@@ -341776,7 +345085,7 @@ glScissorIndexedNV
 "
 *
 /
-50569
+51055
 /
 *
 "
@@ -341784,7 +345093,7 @@ glScissorIndexed
 "
 *
 /
-50569
+51055
 /
 *
 "
@@ -341792,7 +345101,7 @@ glScissorIndexed
 "
 *
 /
-50605
+51091
 /
 *
 "
@@ -341807,7 +345116,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50586
+51072
 /
 *
 "
@@ -341851,7 +345160,7 @@ entrypoints
 ]
 =
 {
-50605
+51091
 /
 *
 "
@@ -341859,7 +345168,7 @@ glScissorIndexedOES
 "
 *
 /
-50569
+51055
 /
 *
 "
@@ -341867,7 +345176,7 @@ glScissorIndexed
 "
 *
 /
-50569
+51055
 /
 *
 "
@@ -341875,7 +345184,7 @@ glScissorIndexed
 "
 *
 /
-50586
+51072
 /
 *
 "
@@ -341890,7 +345199,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50605
+51091
 /
 *
 "
@@ -341934,7 +345243,7 @@ entrypoints
 ]
 =
 {
-50625
+51111
 /
 *
 "
@@ -341942,7 +345251,7 @@ glScissorIndexedv
 "
 *
 /
-50625
+51111
 /
 *
 "
@@ -341950,7 +345259,7 @@ glScissorIndexedv
 "
 *
 /
-50643
+51129
 /
 *
 "
@@ -341958,7 +345267,7 @@ glScissorIndexedvNV
 "
 *
 /
-50663
+51149
 /
 *
 "
@@ -341973,7 +345282,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50625
+51111
 /
 *
 "
@@ -342017,7 +345326,7 @@ entrypoints
 ]
 =
 {
-50643
+51129
 /
 *
 "
@@ -342025,7 +345334,7 @@ glScissorIndexedvNV
 "
 *
 /
-50625
+51111
 /
 *
 "
@@ -342033,7 +345342,7 @@ glScissorIndexedv
 "
 *
 /
-50625
+51111
 /
 *
 "
@@ -342041,7 +345350,7 @@ glScissorIndexedv
 "
 *
 /
-50663
+51149
 /
 *
 "
@@ -342056,7 +345365,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50643
+51129
 /
 *
 "
@@ -342100,7 +345409,7 @@ entrypoints
 ]
 =
 {
-50663
+51149
 /
 *
 "
@@ -342108,7 +345417,7 @@ glScissorIndexedvOES
 "
 *
 /
-50625
+51111
 /
 *
 "
@@ -342116,7 +345425,7 @@ glScissorIndexedv
 "
 *
 /
-50625
+51111
 /
 *
 "
@@ -342124,7 +345433,7 @@ glScissorIndexedv
 "
 *
 /
-50643
+51129
 /
 *
 "
@@ -342139,7 +345448,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50663
+51149
 /
 *
 "
@@ -342181,7 +345490,7 @@ entrypoints
 ]
 =
 {
-50684
+51170
 /
 *
 "
@@ -342189,7 +345498,7 @@ glSecondaryColor3b
 "
 *
 /
-50703
+51189
 /
 *
 "
@@ -342204,7 +345513,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50684
+51170
 /
 *
 "
@@ -342246,7 +345555,7 @@ entrypoints
 ]
 =
 {
-50703
+51189
 /
 *
 "
@@ -342254,7 +345563,7 @@ glSecondaryColor3bEXT
 "
 *
 /
-50684
+51170
 /
 *
 "
@@ -342269,7 +345578,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50703
+51189
 /
 *
 "
@@ -342311,7 +345620,7 @@ entrypoints
 ]
 =
 {
-50725
+51211
 /
 *
 "
@@ -342319,7 +345628,7 @@ glSecondaryColor3bv
 "
 *
 /
-50745
+51231
 /
 *
 "
@@ -342334,7 +345643,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50725
+51211
 /
 *
 "
@@ -342376,7 +345685,7 @@ entrypoints
 ]
 =
 {
-50745
+51231
 /
 *
 "
@@ -342384,7 +345693,7 @@ glSecondaryColor3bvEXT
 "
 *
 /
-50725
+51211
 /
 *
 "
@@ -342399,7 +345708,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50745
+51231
 /
 *
 "
@@ -342441,7 +345750,7 @@ entrypoints
 ]
 =
 {
-50768
+51254
 /
 *
 "
@@ -342449,7 +345758,7 @@ glSecondaryColor3d
 "
 *
 /
-50787
+51273
 /
 *
 "
@@ -342464,7 +345773,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50768
+51254
 /
 *
 "
@@ -342506,7 +345815,7 @@ entrypoints
 ]
 =
 {
-50787
+51273
 /
 *
 "
@@ -342514,7 +345823,7 @@ glSecondaryColor3dEXT
 "
 *
 /
-50768
+51254
 /
 *
 "
@@ -342529,7 +345838,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50787
+51273
 /
 *
 "
@@ -342571,7 +345880,7 @@ entrypoints
 ]
 =
 {
-50809
+51295
 /
 *
 "
@@ -342579,7 +345888,7 @@ glSecondaryColor3dv
 "
 *
 /
-50829
+51315
 /
 *
 "
@@ -342594,7 +345903,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50809
+51295
 /
 *
 "
@@ -342636,7 +345945,7 @@ entrypoints
 ]
 =
 {
-50829
+51315
 /
 *
 "
@@ -342644,7 +345953,7 @@ glSecondaryColor3dvEXT
 "
 *
 /
-50809
+51295
 /
 *
 "
@@ -342659,7 +345968,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50829
+51315
 /
 *
 "
@@ -342701,7 +346010,7 @@ entrypoints
 ]
 =
 {
-50852
+51338
 /
 *
 "
@@ -342709,7 +346018,7 @@ glSecondaryColor3f
 "
 *
 /
-50871
+51357
 /
 *
 "
@@ -342724,7 +346033,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50852
+51338
 /
 *
 "
@@ -342766,7 +346075,7 @@ entrypoints
 ]
 =
 {
-50871
+51357
 /
 *
 "
@@ -342774,7 +346083,7 @@ glSecondaryColor3fEXT
 "
 *
 /
-50852
+51338
 /
 *
 "
@@ -342789,7 +346098,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50871
+51357
 /
 *
 "
@@ -342831,7 +346140,7 @@ entrypoints
 ]
 =
 {
-50893
+51379
 /
 *
 "
@@ -342839,7 +346148,7 @@ glSecondaryColor3fv
 "
 *
 /
-50913
+51399
 /
 *
 "
@@ -342854,7 +346163,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50893
+51379
 /
 *
 "
@@ -342896,7 +346205,7 @@ entrypoints
 ]
 =
 {
-50913
+51399
 /
 *
 "
@@ -342904,7 +346213,7 @@ glSecondaryColor3fvEXT
 "
 *
 /
-50893
+51379
 /
 *
 "
@@ -342919,7 +346228,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50913
+51399
 /
 *
 "
@@ -342943,7 +346252,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-50936
+51422
 /
 *
 glSecondaryColor3hNV
@@ -342963,7 +346272,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-50957
+51443
 /
 *
 glSecondaryColor3hvNV
@@ -343001,7 +346310,7 @@ entrypoints
 ]
 =
 {
-50979
+51465
 /
 *
 "
@@ -343009,7 +346318,7 @@ glSecondaryColor3i
 "
 *
 /
-50998
+51484
 /
 *
 "
@@ -343024,7 +346333,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50979
+51465
 /
 *
 "
@@ -343066,7 +346375,7 @@ entrypoints
 ]
 =
 {
-50998
+51484
 /
 *
 "
@@ -343074,7 +346383,7 @@ glSecondaryColor3iEXT
 "
 *
 /
-50979
+51465
 /
 *
 "
@@ -343089,7 +346398,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-50998
+51484
 /
 *
 "
@@ -343131,7 +346440,7 @@ entrypoints
 ]
 =
 {
-51020
+51506
 /
 *
 "
@@ -343139,7 +346448,7 @@ glSecondaryColor3iv
 "
 *
 /
-51040
+51526
 /
 *
 "
@@ -343154,7 +346463,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51020
+51506
 /
 *
 "
@@ -343196,7 +346505,7 @@ entrypoints
 ]
 =
 {
-51040
+51526
 /
 *
 "
@@ -343204,7 +346513,7 @@ glSecondaryColor3ivEXT
 "
 *
 /
-51020
+51506
 /
 *
 "
@@ -343219,7 +346528,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51040
+51526
 /
 *
 "
@@ -343261,7 +346570,7 @@ entrypoints
 ]
 =
 {
-51063
+51549
 /
 *
 "
@@ -343269,7 +346578,7 @@ glSecondaryColor3s
 "
 *
 /
-51082
+51568
 /
 *
 "
@@ -343284,7 +346593,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51063
+51549
 /
 *
 "
@@ -343326,7 +346635,7 @@ entrypoints
 ]
 =
 {
-51082
+51568
 /
 *
 "
@@ -343334,7 +346643,7 @@ glSecondaryColor3sEXT
 "
 *
 /
-51063
+51549
 /
 *
 "
@@ -343349,7 +346658,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51082
+51568
 /
 *
 "
@@ -343391,7 +346700,7 @@ entrypoints
 ]
 =
 {
-51104
+51590
 /
 *
 "
@@ -343399,7 +346708,7 @@ glSecondaryColor3sv
 "
 *
 /
-51124
+51610
 /
 *
 "
@@ -343414,7 +346723,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51104
+51590
 /
 *
 "
@@ -343456,7 +346765,7 @@ entrypoints
 ]
 =
 {
-51124
+51610
 /
 *
 "
@@ -343464,7 +346773,7 @@ glSecondaryColor3svEXT
 "
 *
 /
-51104
+51590
 /
 *
 "
@@ -343479,7 +346788,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51124
+51610
 /
 *
 "
@@ -343521,7 +346830,7 @@ entrypoints
 ]
 =
 {
-51147
+51633
 /
 *
 "
@@ -343529,7 +346838,7 @@ glSecondaryColor3ub
 "
 *
 /
-51167
+51653
 /
 *
 "
@@ -343544,7 +346853,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51147
+51633
 /
 *
 "
@@ -343586,7 +346895,7 @@ entrypoints
 ]
 =
 {
-51167
+51653
 /
 *
 "
@@ -343594,7 +346903,7 @@ glSecondaryColor3ubEXT
 "
 *
 /
-51147
+51633
 /
 *
 "
@@ -343609,7 +346918,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51167
+51653
 /
 *
 "
@@ -343651,7 +346960,7 @@ entrypoints
 ]
 =
 {
-51190
+51676
 /
 *
 "
@@ -343659,7 +346968,7 @@ glSecondaryColor3ubv
 "
 *
 /
-51211
+51697
 /
 *
 "
@@ -343674,7 +346983,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51190
+51676
 /
 *
 "
@@ -343716,7 +347025,7 @@ entrypoints
 ]
 =
 {
-51211
+51697
 /
 *
 "
@@ -343724,7 +347033,7 @@ glSecondaryColor3ubvEXT
 "
 *
 /
-51190
+51676
 /
 *
 "
@@ -343739,7 +347048,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51211
+51697
 /
 *
 "
@@ -343781,7 +347090,7 @@ entrypoints
 ]
 =
 {
-51235
+51721
 /
 *
 "
@@ -343789,7 +347098,7 @@ glSecondaryColor3ui
 "
 *
 /
-51255
+51741
 /
 *
 "
@@ -343804,7 +347113,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51235
+51721
 /
 *
 "
@@ -343846,7 +347155,7 @@ entrypoints
 ]
 =
 {
-51255
+51741
 /
 *
 "
@@ -343854,7 +347163,7 @@ glSecondaryColor3uiEXT
 "
 *
 /
-51235
+51721
 /
 *
 "
@@ -343869,7 +347178,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51255
+51741
 /
 *
 "
@@ -343911,7 +347220,7 @@ entrypoints
 ]
 =
 {
-51278
+51764
 /
 *
 "
@@ -343919,7 +347228,7 @@ glSecondaryColor3uiv
 "
 *
 /
-51299
+51785
 /
 *
 "
@@ -343934,7 +347243,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51278
+51764
 /
 *
 "
@@ -343976,7 +347285,7 @@ entrypoints
 ]
 =
 {
-51299
+51785
 /
 *
 "
@@ -343984,7 +347293,7 @@ glSecondaryColor3uivEXT
 "
 *
 /
-51278
+51764
 /
 *
 "
@@ -343999,7 +347308,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51299
+51785
 /
 *
 "
@@ -344041,7 +347350,7 @@ entrypoints
 ]
 =
 {
-51323
+51809
 /
 *
 "
@@ -344049,7 +347358,7 @@ glSecondaryColor3us
 "
 *
 /
-51343
+51829
 /
 *
 "
@@ -344064,7 +347373,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51323
+51809
 /
 *
 "
@@ -344106,7 +347415,7 @@ entrypoints
 ]
 =
 {
-51343
+51829
 /
 *
 "
@@ -344114,7 +347423,7 @@ glSecondaryColor3usEXT
 "
 *
 /
-51323
+51809
 /
 *
 "
@@ -344129,7 +347438,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51343
+51829
 /
 *
 "
@@ -344171,7 +347480,7 @@ entrypoints
 ]
 =
 {
-51366
+51852
 /
 *
 "
@@ -344179,7 +347488,7 @@ glSecondaryColor3usv
 "
 *
 /
-51387
+51873
 /
 *
 "
@@ -344194,7 +347503,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51366
+51852
 /
 *
 "
@@ -344236,7 +347545,7 @@ entrypoints
 ]
 =
 {
-51387
+51873
 /
 *
 "
@@ -344244,7 +347553,7 @@ glSecondaryColor3usvEXT
 "
 *
 /
-51366
+51852
 /
 *
 "
@@ -344259,7 +347568,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51387
+51873
 /
 *
 "
@@ -344283,7 +347592,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-51411
+51897
 /
 *
 glSecondaryColorFormatNV
@@ -344321,7 +347630,7 @@ entrypoints
 ]
 =
 {
-51436
+51922
 /
 *
 "
@@ -344329,7 +347638,7 @@ glSecondaryColorP3ui
 "
 *
 /
-51436
+51922
 /
 *
 "
@@ -344344,7 +347653,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51436
+51922
 /
 *
 "
@@ -344386,7 +347695,7 @@ entrypoints
 ]
 =
 {
-51457
+51943
 /
 *
 "
@@ -344394,7 +347703,7 @@ glSecondaryColorP3uiv
 "
 *
 /
-51457
+51943
 /
 *
 "
@@ -344409,7 +347718,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51457
+51943
 /
 *
 "
@@ -344451,7 +347760,7 @@ entrypoints
 ]
 =
 {
-51479
+51965
 /
 *
 "
@@ -344459,7 +347768,7 @@ glSecondaryColorPointer
 "
 *
 /
-51503
+51989
 /
 *
 "
@@ -344474,7 +347783,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51479
+51965
 /
 *
 "
@@ -344516,7 +347825,7 @@ entrypoints
 ]
 =
 {
-51503
+51989
 /
 *
 "
@@ -344524,7 +347833,7 @@ glSecondaryColorPointerEXT
 "
 *
 /
-51479
+51965
 /
 *
 "
@@ -344539,7 +347848,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51503
+51989
 /
 *
 "
@@ -344563,7 +347872,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_vertex_array_lists
-51530
+52016
 /
 *
 glSecondaryColorPointerListIBM
@@ -344583,7 +347892,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-51561
+52047
 /
 *
 glSelectBuffer
@@ -344603,10 +347912,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_performance_monitor
-51576
+52062
 /
 *
 glSelectPerfMonitorCountersAMD
+*
+/
+)
+;
+}
+static
+PFNGLSEMAPHOREPARAMETERIVNVPROC
+epoxy_glSemaphoreParameterivNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_NV_timeline_semaphore
+52093
+/
+*
+glSemaphoreParameterivNV
 *
 /
 )
@@ -344623,7 +347952,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore
-51607
+52118
 /
 *
 glSemaphoreParameterui64vEXT
@@ -344661,7 +347990,7 @@ entrypoints
 ]
 =
 {
-51636
+52147
 /
 *
 "
@@ -344669,7 +347998,7 @@ glSeparableFilter2D
 "
 *
 /
-51656
+52167
 /
 *
 "
@@ -344684,7 +348013,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51636
+52147
 /
 *
 "
@@ -344726,7 +348055,7 @@ entrypoints
 ]
 =
 {
-51656
+52167
 /
 *
 "
@@ -344734,7 +348063,7 @@ glSeparableFilter2DEXT
 "
 *
 /
-51636
+52147
 /
 *
 "
@@ -344749,7 +348078,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51656
+52167
 /
 *
 "
@@ -344773,7 +348102,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_fence
-51679
+52190
 /
 *
 glSetFenceAPPLE
@@ -344793,7 +348122,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fence
-51695
+52206
 /
 *
 glSetFenceNV
@@ -344813,7 +348142,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_fragment_shader
-51708
+52219
 /
 *
 glSetFragmentShaderConstantATI
@@ -344833,7 +348162,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-51739
+52250
 /
 *
 glSetInvariantEXT
@@ -344853,7 +348182,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-51757
+52268
 /
 *
 glSetLocalConstantEXT
@@ -344873,7 +348202,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_sample_positions
-51779
+52290
 /
 *
 glSetMultisamplefvAMD
@@ -344911,7 +348240,7 @@ entrypoints
 ]
 =
 {
-51801
+52312
 /
 *
 "
@@ -344919,7 +348248,7 @@ glShadeModel
 "
 *
 /
-51801
+52312
 /
 *
 "
@@ -344934,7 +348263,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51801
+52312
 /
 *
 "
@@ -344977,7 +348306,7 @@ entrypoints
 ]
 =
 {
-51814
+52325
 /
 *
 "
@@ -344985,7 +348314,7 @@ glShaderBinary
 "
 *
 /
-51814
+52325
 /
 *
 "
@@ -344993,7 +348322,7 @@ glShaderBinary
 "
 *
 /
-51814
+52325
 /
 *
 "
@@ -345008,7 +348337,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51814
+52325
 /
 *
 "
@@ -345032,7 +348361,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-51829
+52340
 /
 *
 glShaderOp1EXT
@@ -345052,7 +348381,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-51844
+52355
 /
 *
 glShaderOp2EXT
@@ -345072,7 +348401,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-51859
+52370
 /
 *
 glShaderOp3EXT
@@ -345111,7 +348440,7 @@ entrypoints
 ]
 =
 {
-51874
+52385
 /
 *
 "
@@ -345119,7 +348448,7 @@ glShaderSource
 "
 *
 /
-51874
+52385
 /
 *
 "
@@ -345127,7 +348456,7 @@ glShaderSource
 "
 *
 /
-51889
+52400
 /
 *
 "
@@ -345142,7 +348471,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51874
+52385
 /
 *
 "
@@ -345185,7 +348514,7 @@ entrypoints
 ]
 =
 {
-51889
+52400
 /
 *
 "
@@ -345193,7 +348522,7 @@ glShaderSourceARB
 "
 *
 /
-51874
+52385
 /
 *
 "
@@ -345201,7 +348530,7 @@ glShaderSource
 "
 *
 /
-51874
+52385
 /
 *
 "
@@ -345216,7 +348545,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51889
+52400
 /
 *
 "
@@ -345258,7 +348587,7 @@ entrypoints
 ]
 =
 {
-51907
+52418
 /
 *
 "
@@ -345266,7 +348595,7 @@ glShaderStorageBlockBinding
 "
 *
 /
-51907
+52418
 /
 *
 "
@@ -345281,7 +348610,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-51907
+52418
 /
 *
 "
@@ -345291,6 +348620,46 @@ glShaderStorageBlockBinding
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLSHADINGRATECOMBINEROPSEXTPROC
+epoxy_glShadingRateCombinerOpsEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_fragment_shading_rate
+52446
+/
+*
+glShadingRateCombinerOpsEXT
+*
+/
+)
+;
+}
+static
+PFNGLSHADINGRATEEXTPROC
+epoxy_glShadingRateEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_fragment_shading_rate
+52474
+/
+*
+glShadingRateEXT
+*
+/
 )
 ;
 }
@@ -345305,7 +348674,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shading_rate_image
-51935
+52491
 /
 *
 glShadingRateImageBarrierNV
@@ -345325,10 +348694,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shading_rate_image
-51963
+52519
 /
 *
 glShadingRateImagePaletteNV
+*
+/
+)
+;
+}
+static
+PFNGLSHADINGRATEQCOMPROC
+epoxy_glShadingRateQCOM_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_QCOM_shading_rate
+52547
+/
+*
+glShadingRateQCOM
 *
 /
 )
@@ -345345,7 +348734,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shading_rate_image
-51991
+52565
 /
 *
 glShadingRateSampleOrderCustomNV
@@ -345365,7 +348754,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shading_rate_image
-52024
+52598
 /
 *
 glShadingRateSampleOrderNV
@@ -345385,7 +348774,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_sharpen_texture
-52051
+52625
 /
 *
 glSharpenTexFuncSGIS
@@ -345405,7 +348794,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore
-52072
+52646
 /
 *
 glSignalSemaphoreEXT
@@ -345425,7 +348814,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_progress_fence
-52093
+52667
 /
 *
 glSignalSemaphoreui64NVX
@@ -345445,7 +348834,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_draw_vulkan_image
-52118
+52692
 /
 *
 glSignalVkFenceNV
@@ -345465,7 +348854,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_draw_vulkan_image
-52136
+52710
 /
 *
 glSignalVkSemaphoreNV
@@ -345503,7 +348892,7 @@ entrypoints
 ]
 =
 {
-52158
+52732
 /
 *
 "
@@ -345511,7 +348900,7 @@ glSpecializeShader
 "
 *
 /
-52177
+52751
 /
 *
 "
@@ -345526,7 +348915,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52158
+52732
 /
 *
 "
@@ -345568,7 +348957,7 @@ entrypoints
 ]
 =
 {
-52177
+52751
 /
 *
 "
@@ -345576,7 +348965,7 @@ glSpecializeShaderARB
 "
 *
 /
-52158
+52732
 /
 *
 "
@@ -345591,7 +348980,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52177
+52751
 /
 *
 "
@@ -345615,7 +349004,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_sprite
-52199
+52773
 /
 *
 glSpriteParameterfSGIX
@@ -345635,7 +349024,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_sprite
-52222
+52796
 /
 *
 glSpriteParameterfvSGIX
@@ -345655,7 +349044,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_sprite
-52246
+52820
 /
 *
 glSpriteParameteriSGIX
@@ -345675,7 +349064,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_sprite
-52269
+52843
 /
 *
 glSpriteParameterivSGIX
@@ -345695,7 +349084,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_instruments
-52293
+52867
 /
 *
 glStartInstrumentsSGIX
@@ -345715,7 +349104,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_tiled_rendering
-52316
+52890
 /
 *
 glStartTilingQCOM
@@ -345735,7 +349124,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_command_list
-52334
+52908
 /
 *
 glStateCaptureNV
@@ -345755,7 +349144,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_stencil_clear_tag
-52351
+52925
 /
 *
 glStencilClearTagEXT
@@ -345775,7 +349164,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-52372
+52946
 /
 *
 glStencilFillPathInstancedNV
@@ -345795,7 +349184,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-52401
+52975
 /
 *
 glStencilFillPathNV
@@ -345834,7 +349223,7 @@ entrypoints
 ]
 =
 {
-52421
+52995
 /
 *
 "
@@ -345842,7 +349231,7 @@ glStencilFunc
 "
 *
 /
-52421
+52995
 /
 *
 "
@@ -345850,7 +349239,7 @@ glStencilFunc
 "
 *
 /
-52421
+52995
 /
 *
 "
@@ -345865,7 +349254,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52421
+52995
 /
 *
 "
@@ -345907,7 +349296,7 @@ entrypoints
 ]
 =
 {
-52435
+53009
 /
 *
 "
@@ -345915,7 +349304,7 @@ glStencilFuncSeparate
 "
 *
 /
-52435
+53009
 /
 *
 "
@@ -345930,7 +349319,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52435
+53009
 /
 *
 "
@@ -345954,7 +349343,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_separate_stencil
-52457
+53031
 /
 *
 glStencilFuncSeparateATI
@@ -345993,7 +349382,7 @@ entrypoints
 ]
 =
 {
-52482
+53056
 /
 *
 "
@@ -346001,7 +349390,7 @@ glStencilMask
 "
 *
 /
-52482
+53056
 /
 *
 "
@@ -346009,7 +349398,7 @@ glStencilMask
 "
 *
 /
-52482
+53056
 /
 *
 "
@@ -346024,7 +349413,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52482
+53056
 /
 *
 "
@@ -346066,7 +349455,7 @@ entrypoints
 ]
 =
 {
-52496
+53070
 /
 *
 "
@@ -346074,7 +349463,7 @@ glStencilMaskSeparate
 "
 *
 /
-52496
+53070
 /
 *
 "
@@ -346089,7 +349478,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52496
+53070
 /
 *
 "
@@ -346132,7 +349521,7 @@ entrypoints
 ]
 =
 {
-52518
+53092
 /
 *
 "
@@ -346140,7 +349529,7 @@ glStencilOp
 "
 *
 /
-52518
+53092
 /
 *
 "
@@ -346148,7 +349537,7 @@ glStencilOp
 "
 *
 /
-52518
+53092
 /
 *
 "
@@ -346163,7 +349552,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52518
+53092
 /
 *
 "
@@ -346206,7 +349595,7 @@ entrypoints
 ]
 =
 {
-52530
+53104
 /
 *
 "
@@ -346214,7 +349603,7 @@ glStencilOpSeparate
 "
 *
 /
-52530
+53104
 /
 *
 "
@@ -346222,7 +349611,7 @@ glStencilOpSeparate
 "
 *
 /
-52550
+53124
 /
 *
 "
@@ -346237,7 +349626,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52530
+53104
 /
 *
 "
@@ -346280,7 +349669,7 @@ entrypoints
 ]
 =
 {
-52550
+53124
 /
 *
 "
@@ -346288,7 +349677,7 @@ glStencilOpSeparateATI
 "
 *
 /
-52530
+53104
 /
 *
 "
@@ -346296,7 +349685,7 @@ glStencilOpSeparate
 "
 *
 /
-52530
+53104
 /
 *
 "
@@ -346311,7 +349700,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-52550
+53124
 /
 *
 "
@@ -346335,7 +349724,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_stencil_operation_extended
-52573
+53147
 /
 *
 glStencilOpValueAMD
@@ -346355,7 +349744,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-52593
+53167
 /
 *
 glStencilStrokePathInstancedNV
@@ -346375,7 +349764,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-52624
+53198
 /
 *
 glStencilStrokePathNV
@@ -346395,7 +349784,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-52646
+53220
 /
 *
 glStencilThenCoverFillPathInstancedNV
@@ -346415,7 +349804,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-52684
+53258
 /
 *
 glStencilThenCoverFillPathNV
@@ -346435,7 +349824,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-52713
+53287
 /
 *
 glStencilThenCoverStrokePathInstancedNV
@@ -346455,7 +349844,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-52753
+53327
 /
 *
 glStencilThenCoverStrokePathNV
@@ -346475,7 +349864,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_instruments
-52784
+53358
 /
 *
 glStopInstrumentsSGIX
@@ -346495,7 +349884,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_GREMEDY_string_marker
-52806
+53380
 /
 *
 glStringMarkerGREMEDY
@@ -346515,7 +349904,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_conservative_raster
-52828
+53402
 /
 *
 glSubpixelPrecisionBiasNV
@@ -346535,7 +349924,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-52854
+53428
 /
 *
 glSwizzleEXT
@@ -346555,7 +349944,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_map_texture
-52867
+53441
 /
 *
 glSyncTextureINTEL
@@ -346575,7 +349964,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIX_tag_sample_buffer
-52886
+53460
 /
 *
 glTagSampleBufferSGIX
@@ -346595,7 +349984,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-52908
+53482
 /
 *
 glTangent3bEXT
@@ -346615,7 +350004,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-52923
+53497
 /
 *
 glTangent3bvEXT
@@ -346635,7 +350024,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-52939
+53513
 /
 *
 glTangent3dEXT
@@ -346655,7 +350044,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-52954
+53528
 /
 *
 glTangent3dvEXT
@@ -346675,7 +350064,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-52970
+53544
 /
 *
 glTangent3fEXT
@@ -346695,7 +350084,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-52985
+53559
 /
 *
 glTangent3fvEXT
@@ -346715,7 +350104,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-53001
+53575
 /
 *
 glTangent3iEXT
@@ -346735,7 +350124,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-53016
+53590
 /
 *
 glTangent3ivEXT
@@ -346755,7 +350144,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-53032
+53606
 /
 *
 glTangent3sEXT
@@ -346775,7 +350164,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-53047
+53621
 /
 *
 glTangent3svEXT
@@ -346795,7 +350184,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_coordinate_frame
-53063
+53637
 /
 *
 glTangentPointerEXT
@@ -346815,7 +350204,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_3DFX_tbuffer
-53083
+53657
 /
 *
 glTbufferMask3DFX
@@ -346835,7 +350224,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_vertex_shader_tessellator
-53101
+53675
 /
 *
 glTessellationFactorAMD
@@ -346855,7 +350244,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_vertex_shader_tessellator
-53125
+53699
 /
 *
 glTessellationModeAMD
@@ -346875,7 +350264,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_fence
-53147
+53721
 /
 *
 glTestFenceAPPLE
@@ -346895,7 +350284,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_fence
-53164
+53738
 /
 *
 glTestFenceNV
@@ -346915,7 +350304,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_fence
-53178
+53752
 /
 *
 glTestObjectAPPLE
@@ -346935,7 +350324,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_memory_attachment
-53196
+53770
 /
 *
 glTexAttachMemoryNV
@@ -346977,7 +350366,7 @@ entrypoints
 ]
 =
 {
-53216
+53790
 /
 *
 "
@@ -346985,7 +350374,7 @@ glTexBuffer
 "
 *
 /
-53216
+53790
 /
 *
 "
@@ -346993,7 +350382,7 @@ glTexBuffer
 "
 *
 /
-53228
+53802
 /
 *
 "
@@ -347001,7 +350390,7 @@ glTexBufferARB
 "
 *
 /
-53243
+53817
 /
 *
 "
@@ -347009,7 +350398,7 @@ glTexBufferEXT
 "
 *
 /
-53243
+53817
 /
 *
 "
@@ -347017,7 +350406,7 @@ glTexBufferEXT
 "
 *
 /
-53258
+53832
 /
 *
 "
@@ -347032,7 +350421,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-53216
+53790
 /
 *
 "
@@ -347078,7 +350467,7 @@ entrypoints
 ]
 =
 {
-53228
+53802
 /
 *
 "
@@ -347086,7 +350475,7 @@ glTexBufferARB
 "
 *
 /
-53216
+53790
 /
 *
 "
@@ -347094,7 +350483,7 @@ glTexBuffer
 "
 *
 /
-53216
+53790
 /
 *
 "
@@ -347102,7 +350491,7 @@ glTexBuffer
 "
 *
 /
-53243
+53817
 /
 *
 "
@@ -347110,7 +350499,7 @@ glTexBufferEXT
 "
 *
 /
-53243
+53817
 /
 *
 "
@@ -347118,7 +350507,7 @@ glTexBufferEXT
 "
 *
 /
-53258
+53832
 /
 *
 "
@@ -347133,7 +350522,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-53228
+53802
 /
 *
 "
@@ -347179,7 +350568,7 @@ entrypoints
 ]
 =
 {
-53243
+53817
 /
 *
 "
@@ -347187,7 +350576,7 @@ glTexBufferEXT
 "
 *
 /
-53243
+53817
 /
 *
 "
@@ -347195,7 +350584,7 @@ glTexBufferEXT
 "
 *
 /
-53216
+53790
 /
 *
 "
@@ -347203,7 +350592,7 @@ glTexBuffer
 "
 *
 /
-53216
+53790
 /
 *
 "
@@ -347211,7 +350600,7 @@ glTexBuffer
 "
 *
 /
-53228
+53802
 /
 *
 "
@@ -347219,7 +350608,7 @@ glTexBufferARB
 "
 *
 /
-53258
+53832
 /
 *
 "
@@ -347234,7 +350623,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-53243
+53817
 /
 *
 "
@@ -347280,7 +350669,7 @@ entrypoints
 ]
 =
 {
-53258
+53832
 /
 *
 "
@@ -347288,7 +350677,7 @@ glTexBufferOES
 "
 *
 /
-53216
+53790
 /
 *
 "
@@ -347296,7 +350685,7 @@ glTexBuffer
 "
 *
 /
-53216
+53790
 /
 *
 "
@@ -347304,7 +350693,7 @@ glTexBuffer
 "
 *
 /
-53228
+53802
 /
 *
 "
@@ -347312,7 +350701,7 @@ glTexBufferARB
 "
 *
 /
-53243
+53817
 /
 *
 "
@@ -347320,7 +350709,7 @@ glTexBufferEXT
 "
 *
 /
-53243
+53817
 /
 *
 "
@@ -347335,7 +350724,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-53258
+53832
 /
 *
 "
@@ -347380,7 +350769,7 @@ entrypoints
 ]
 =
 {
-53273
+53847
 /
 *
 "
@@ -347388,7 +350777,7 @@ glTexBufferRange
 "
 *
 /
-53273
+53847
 /
 *
 "
@@ -347396,7 +350785,7 @@ glTexBufferRange
 "
 *
 /
-53273
+53847
 /
 *
 "
@@ -347404,7 +350793,7 @@ glTexBufferRange
 "
 *
 /
-53290
+53864
 /
 *
 "
@@ -347412,7 +350801,7 @@ glTexBufferRangeEXT
 "
 *
 /
-53310
+53884
 /
 *
 "
@@ -347427,7 +350816,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-53273
+53847
 /
 *
 "
@@ -347472,7 +350861,7 @@ entrypoints
 ]
 =
 {
-53290
+53864
 /
 *
 "
@@ -347480,7 +350869,7 @@ glTexBufferRangeEXT
 "
 *
 /
-53273
+53847
 /
 *
 "
@@ -347488,7 +350877,7 @@ glTexBufferRange
 "
 *
 /
-53273
+53847
 /
 *
 "
@@ -347496,7 +350885,7 @@ glTexBufferRange
 "
 *
 /
-53273
+53847
 /
 *
 "
@@ -347504,7 +350893,7 @@ glTexBufferRange
 "
 *
 /
-53310
+53884
 /
 *
 "
@@ -347519,7 +350908,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-53290
+53864
 /
 *
 "
@@ -347564,7 +350953,7 @@ entrypoints
 ]
 =
 {
-53310
+53884
 /
 *
 "
@@ -347572,7 +350961,7 @@ glTexBufferRangeOES
 "
 *
 /
-53273
+53847
 /
 *
 "
@@ -347580,7 +350969,7 @@ glTexBufferRange
 "
 *
 /
-53273
+53847
 /
 *
 "
@@ -347588,7 +350977,7 @@ glTexBufferRange
 "
 *
 /
-53273
+53847
 /
 *
 "
@@ -347596,7 +350985,7 @@ glTexBufferRange
 "
 *
 /
-53290
+53864
 /
 *
 "
@@ -347611,7 +351000,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-53310
+53884
 /
 *
 "
@@ -347635,7 +351024,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_envmap_bumpmap
-53330
+53904
 /
 *
 glTexBumpParameterfvATI
@@ -347655,7 +351044,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_envmap_bumpmap
-53354
+53928
 /
 *
 glTexBumpParameterivATI
@@ -347675,7 +351064,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-53378
+53952
 /
 *
 glTexCoord1bOES
@@ -347695,7 +351084,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-53394
+53968
 /
 *
 glTexCoord1bvOES
@@ -347715,7 +351104,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53411
+53985
 /
 *
 glTexCoord1d
@@ -347735,7 +351124,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53424
+53998
 /
 *
 glTexCoord1dv
@@ -347755,7 +351144,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53438
+54012
 /
 *
 glTexCoord1f
@@ -347775,7 +351164,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53451
+54025
 /
 *
 glTexCoord1fv
@@ -347795,7 +351184,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-53465
+54039
 /
 *
 glTexCoord1hNV
@@ -347815,7 +351204,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-53480
+54054
 /
 *
 glTexCoord1hvNV
@@ -347835,7 +351224,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53496
+54070
 /
 *
 glTexCoord1i
@@ -347855,7 +351244,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53509
+54083
 /
 *
 glTexCoord1iv
@@ -347875,7 +351264,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53523
+54097
 /
 *
 glTexCoord1s
@@ -347895,7 +351284,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53536
+54110
 /
 *
 glTexCoord1sv
@@ -347915,7 +351304,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-53550
+54124
 /
 *
 glTexCoord1xOES
@@ -347935,7 +351324,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-53566
+54140
 /
 *
 glTexCoord1xvOES
@@ -347955,7 +351344,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-53583
+54157
 /
 *
 glTexCoord2bOES
@@ -347975,7 +351364,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-53599
+54173
 /
 *
 glTexCoord2bvOES
@@ -347995,7 +351384,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53616
+54190
 /
 *
 glTexCoord2d
@@ -348015,7 +351404,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53629
+54203
 /
 *
 glTexCoord2dv
@@ -348035,7 +351424,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53643
+54217
 /
 *
 glTexCoord2f
@@ -348055,7 +351444,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53656
+54230
 /
 *
 glTexCoord2fColor3fVertex3fSUN
@@ -348075,7 +351464,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53687
+54261
 /
 *
 glTexCoord2fColor3fVertex3fvSUN
@@ -348095,7 +351484,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53719
+54293
 /
 *
 glTexCoord2fColor4fNormal3fVertex3fSUN
@@ -348115,7 +351504,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53758
+54332
 /
 *
 glTexCoord2fColor4fNormal3fVertex3fvSUN
@@ -348135,7 +351524,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53798
+54372
 /
 *
 glTexCoord2fColor4ubVertex3fSUN
@@ -348155,7 +351544,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53830
+54404
 /
 *
 glTexCoord2fColor4ubVertex3fvSUN
@@ -348175,7 +351564,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53863
+54437
 /
 *
 glTexCoord2fNormal3fVertex3fSUN
@@ -348195,7 +351584,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53895
+54469
 /
 *
 glTexCoord2fNormal3fVertex3fvSUN
@@ -348215,7 +351604,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53928
+54502
 /
 *
 glTexCoord2fVertex3fSUN
@@ -348235,7 +351624,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-53952
+54526
 /
 *
 glTexCoord2fVertex3fvSUN
@@ -348255,7 +351644,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-53977
+54551
 /
 *
 glTexCoord2fv
@@ -348275,7 +351664,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-53991
+54565
 /
 *
 glTexCoord2hNV
@@ -348295,7 +351684,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-54006
+54580
 /
 *
 glTexCoord2hvNV
@@ -348315,7 +351704,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54022
+54596
 /
 *
 glTexCoord2i
@@ -348335,7 +351724,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54035
+54609
 /
 *
 glTexCoord2iv
@@ -348355,7 +351744,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54049
+54623
 /
 *
 glTexCoord2s
@@ -348375,7 +351764,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54062
+54636
 /
 *
 glTexCoord2sv
@@ -348395,7 +351784,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-54076
+54650
 /
 *
 glTexCoord2xOES
@@ -348415,7 +351804,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-54092
+54666
 /
 *
 glTexCoord2xvOES
@@ -348435,7 +351824,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-54109
+54683
 /
 *
 glTexCoord3bOES
@@ -348455,7 +351844,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-54125
+54699
 /
 *
 glTexCoord3bvOES
@@ -348475,7 +351864,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54142
+54716
 /
 *
 glTexCoord3d
@@ -348495,7 +351884,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54155
+54729
 /
 *
 glTexCoord3dv
@@ -348515,7 +351904,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54169
+54743
 /
 *
 glTexCoord3f
@@ -348535,7 +351924,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54182
+54756
 /
 *
 glTexCoord3fv
@@ -348555,7 +351944,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-54196
+54770
 /
 *
 glTexCoord3hNV
@@ -348575,7 +351964,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-54211
+54785
 /
 *
 glTexCoord3hvNV
@@ -348595,7 +351984,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54227
+54801
 /
 *
 glTexCoord3i
@@ -348615,7 +352004,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54240
+54814
 /
 *
 glTexCoord3iv
@@ -348635,7 +352024,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54254
+54828
 /
 *
 glTexCoord3s
@@ -348655,7 +352044,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54267
+54841
 /
 *
 glTexCoord3sv
@@ -348675,7 +352064,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-54281
+54855
 /
 *
 glTexCoord3xOES
@@ -348695,7 +352084,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-54297
+54871
 /
 *
 glTexCoord3xvOES
@@ -348715,7 +352104,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-54314
+54888
 /
 *
 glTexCoord4bOES
@@ -348735,7 +352124,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-54330
+54904
 /
 *
 glTexCoord4bvOES
@@ -348755,7 +352144,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54347
+54921
 /
 *
 glTexCoord4d
@@ -348775,7 +352164,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54360
+54934
 /
 *
 glTexCoord4dv
@@ -348795,7 +352184,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54374
+54948
 /
 *
 glTexCoord4f
@@ -348815,7 +352204,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-54387
+54961
 /
 *
 glTexCoord4fColor4fNormal3fVertex4fSUN
@@ -348835,7 +352224,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-54426
+55000
 /
 *
 glTexCoord4fColor4fNormal3fVertex4fvSUN
@@ -348855,7 +352244,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-54466
+55040
 /
 *
 glTexCoord4fVertex4fSUN
@@ -348875,7 +352264,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SUN_vertex
-54490
+55064
 /
 *
 glTexCoord4fVertex4fvSUN
@@ -348895,7 +352284,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54515
+55089
 /
 *
 glTexCoord4fv
@@ -348915,7 +352304,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-54529
+55103
 /
 *
 glTexCoord4hNV
@@ -348935,7 +352324,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-54544
+55118
 /
 *
 glTexCoord4hvNV
@@ -348955,7 +352344,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54560
+55134
 /
 *
 glTexCoord4i
@@ -348975,7 +352364,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54573
+55147
 /
 *
 glTexCoord4iv
@@ -348995,7 +352384,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54587
+55161
 /
 *
 glTexCoord4s
@@ -349015,7 +352404,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54600
+55174
 /
 *
 glTexCoord4sv
@@ -349035,7 +352424,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-54614
+55188
 /
 *
 glTexCoord4xOES
@@ -349055,7 +352444,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-54630
+55204
 /
 *
 glTexCoord4xvOES
@@ -349075,7 +352464,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-54647
+55221
 /
 *
 glTexCoordFormatNV
@@ -349113,7 +352502,7 @@ entrypoints
 ]
 =
 {
-54666
+55240
 /
 *
 "
@@ -349121,7 +352510,7 @@ glTexCoordP1ui
 "
 *
 /
-54666
+55240
 /
 *
 "
@@ -349136,7 +352525,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54666
+55240
 /
 *
 "
@@ -349178,7 +352567,7 @@ entrypoints
 ]
 =
 {
-54681
+55255
 /
 *
 "
@@ -349186,7 +352575,7 @@ glTexCoordP1uiv
 "
 *
 /
-54681
+55255
 /
 *
 "
@@ -349201,7 +352590,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54681
+55255
 /
 *
 "
@@ -349243,7 +352632,7 @@ entrypoints
 ]
 =
 {
-54697
+55271
 /
 *
 "
@@ -349251,7 +352640,7 @@ glTexCoordP2ui
 "
 *
 /
-54697
+55271
 /
 *
 "
@@ -349266,7 +352655,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54697
+55271
 /
 *
 "
@@ -349308,7 +352697,7 @@ entrypoints
 ]
 =
 {
-54712
+55286
 /
 *
 "
@@ -349316,7 +352705,7 @@ glTexCoordP2uiv
 "
 *
 /
-54712
+55286
 /
 *
 "
@@ -349331,7 +352720,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54712
+55286
 /
 *
 "
@@ -349373,7 +352762,7 @@ entrypoints
 ]
 =
 {
-54728
+55302
 /
 *
 "
@@ -349381,7 +352770,7 @@ glTexCoordP3ui
 "
 *
 /
-54728
+55302
 /
 *
 "
@@ -349396,7 +352785,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54728
+55302
 /
 *
 "
@@ -349438,7 +352827,7 @@ entrypoints
 ]
 =
 {
-54743
+55317
 /
 *
 "
@@ -349446,7 +352835,7 @@ glTexCoordP3uiv
 "
 *
 /
-54743
+55317
 /
 *
 "
@@ -349461,7 +352850,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54743
+55317
 /
 *
 "
@@ -349503,7 +352892,7 @@ entrypoints
 ]
 =
 {
-54759
+55333
 /
 *
 "
@@ -349511,7 +352900,7 @@ glTexCoordP4ui
 "
 *
 /
-54759
+55333
 /
 *
 "
@@ -349526,7 +352915,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54759
+55333
 /
 *
 "
@@ -349568,7 +352957,7 @@ entrypoints
 ]
 =
 {
-54774
+55348
 /
 *
 "
@@ -349576,7 +352965,7 @@ glTexCoordP4uiv
 "
 *
 /
-54774
+55348
 /
 *
 "
@@ -349591,7 +352980,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54774
+55348
 /
 *
 "
@@ -349633,7 +353022,7 @@ entrypoints
 ]
 =
 {
-54790
+55364
 /
 *
 "
@@ -349641,7 +353030,7 @@ glTexCoordPointer
 "
 *
 /
-54790
+55364
 /
 *
 "
@@ -349656,7 +353045,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54790
+55364
 /
 *
 "
@@ -349680,7 +353069,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_array
-54808
+55382
 /
 *
 glTexCoordPointerEXT
@@ -349700,7 +353089,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_vertex_array_lists
-54829
+55403
 /
 *
 glTexCoordPointerListIBM
@@ -349720,7 +353109,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_parallel_arrays
-54854
+55428
 /
 *
 glTexCoordPointervINTEL
@@ -349758,7 +353147,7 @@ entrypoints
 ]
 =
 {
-54878
+55452
 /
 *
 "
@@ -349766,7 +353155,7 @@ glTexEnvf
 "
 *
 /
-54878
+55452
 /
 *
 "
@@ -349781,7 +353170,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54878
+55452
 /
 *
 "
@@ -349823,7 +353212,7 @@ entrypoints
 ]
 =
 {
-54888
+55462
 /
 *
 "
@@ -349831,7 +353220,7 @@ glTexEnvfv
 "
 *
 /
-54888
+55462
 /
 *
 "
@@ -349846,7 +353235,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54888
+55462
 /
 *
 "
@@ -349888,7 +353277,7 @@ entrypoints
 ]
 =
 {
-54899
+55473
 /
 *
 "
@@ -349896,7 +353285,7 @@ glTexEnvi
 "
 *
 /
-54899
+55473
 /
 *
 "
@@ -349911,7 +353300,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54899
+55473
 /
 *
 "
@@ -349953,7 +353342,7 @@ entrypoints
 ]
 =
 {
-54909
+55483
 /
 *
 "
@@ -349961,7 +353350,7 @@ glTexEnviv
 "
 *
 /
-54909
+55483
 /
 *
 "
@@ -349976,7 +353365,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-54909
+55483
 /
 *
 "
@@ -350000,7 +353389,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-54920
+55494
 /
 *
 glTexEnvx
@@ -350020,7 +353409,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-54930
+55504
 /
 *
 glTexEnvxOES
@@ -350040,7 +353429,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-54943
+55517
 /
 *
 glTexEnvxv
@@ -350060,10 +353449,50 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-54954
+55528
 /
 *
 glTexEnvxvOES
+*
+/
+)
+;
+}
+static
+PFNGLTEXESTIMATEMOTIONQCOMPROC
+epoxy_glTexEstimateMotionQCOM_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_QCOM_motion_estimation
+55542
+/
+*
+glTexEstimateMotionQCOM
+*
+/
+)
+;
+}
+static
+PFNGLTEXESTIMATEMOTIONREGIONSQCOMPROC
+epoxy_glTexEstimateMotionRegionsQCOM_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_QCOM_motion_estimation
+55566
+/
+*
+glTexEstimateMotionRegionsQCOM
 *
 /
 )
@@ -350080,7 +353509,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_texture_filter4
-54968
+55597
 /
 *
 glTexFilterFuncSGIS
@@ -350100,7 +353529,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54988
+55617
 /
 *
 glTexGend
@@ -350120,7 +353549,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-54998
+55627
 /
 *
 glTexGendv
@@ -350140,7 +353569,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-55009
+55638
 /
 *
 glTexGenf
@@ -350160,7 +353589,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_cube_map
-55019
+55648
 /
 *
 glTexGenfOES
@@ -350180,7 +353609,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-55032
+55661
 /
 *
 glTexGenfv
@@ -350200,7 +353629,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_cube_map
-55043
+55672
 /
 *
 glTexGenfvOES
@@ -350220,7 +353649,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-55057
+55686
 /
 *
 glTexGeni
@@ -350240,7 +353669,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_cube_map
-55067
+55696
 /
 *
 glTexGeniOES
@@ -350260,7 +353689,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-55080
+55709
 /
 *
 glTexGeniv
@@ -350280,7 +353709,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_cube_map
-55091
+55720
 /
 *
 glTexGenivOES
@@ -350318,7 +353747,7 @@ entrypoints
 ]
 =
 {
-55105
+55734
 /
 *
 "
@@ -350326,7 +353755,7 @@ glTexGenxOES
 "
 *
 /
-55105
+55734
 /
 *
 "
@@ -350341,7 +353770,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55105
+55734
 /
 *
 "
@@ -350383,7 +353812,7 @@ entrypoints
 ]
 =
 {
-55118
+55747
 /
 *
 "
@@ -350391,7 +353820,7 @@ glTexGenxvOES
 "
 *
 /
-55118
+55747
 /
 *
 "
@@ -350406,7 +353835,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55118
+55747
 /
 *
 "
@@ -350430,7 +353859,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-55132
+55761
 /
 *
 glTexImage1D
@@ -350469,7 +353898,7 @@ entrypoints
 ]
 =
 {
-55145
+55774
 /
 *
 "
@@ -350477,7 +353906,7 @@ glTexImage2D
 "
 *
 /
-55145
+55774
 /
 *
 "
@@ -350485,7 +353914,7 @@ glTexImage2D
 "
 *
 /
-55145
+55774
 /
 *
 "
@@ -350500,7 +353929,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55145
+55774
 /
 *
 "
@@ -350542,7 +353971,7 @@ entrypoints
 ]
 =
 {
-55158
+55787
 /
 *
 "
@@ -350550,7 +353979,7 @@ glTexImage2DMultisample
 "
 *
 /
-55158
+55787
 /
 *
 "
@@ -350565,7 +353994,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55158
+55787
 /
 *
 "
@@ -350589,7 +354018,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_texture_multisample
-55182
+55811
 /
 *
 glTexImage2DMultisampleCoverageNV
@@ -350628,7 +354057,7 @@ entrypoints
 ]
 =
 {
-55216
+55845
 /
 *
 "
@@ -350636,7 +354065,7 @@ glTexImage3D
 "
 *
 /
-55216
+55845
 /
 *
 "
@@ -350644,7 +354073,7 @@ glTexImage3D
 "
 *
 /
-55229
+55858
 /
 *
 "
@@ -350659,7 +354088,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55216
+55845
 /
 *
 "
@@ -350702,7 +354131,7 @@ entrypoints
 ]
 =
 {
-55229
+55858
 /
 *
 "
@@ -350710,7 +354139,7 @@ glTexImage3DEXT
 "
 *
 /
-55216
+55845
 /
 *
 "
@@ -350718,7 +354147,7 @@ glTexImage3D
 "
 *
 /
-55216
+55845
 /
 *
 "
@@ -350733,7 +354162,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55229
+55858
 /
 *
 "
@@ -350775,7 +354204,7 @@ entrypoints
 ]
 =
 {
-55245
+55874
 /
 *
 "
@@ -350783,7 +354212,7 @@ glTexImage3DMultisample
 "
 *
 /
-55245
+55874
 /
 *
 "
@@ -350798,7 +354227,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55245
+55874
 /
 *
 "
@@ -350822,7 +354251,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_texture_multisample
-55269
+55898
 /
 *
 glTexImage3DMultisampleCoverageNV
@@ -350842,7 +354271,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_3D
-55303
+55932
 /
 *
 glTexImage3DOES
@@ -350862,7 +354291,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_texture4D
-55319
+55948
 /
 *
 glTexImage4DSGIS
@@ -350900,7 +354329,7 @@ entrypoints
 ]
 =
 {
-55336
+55965
 /
 *
 "
@@ -350908,7 +354337,7 @@ glTexPageCommitmentARB
 "
 *
 /
-55359
+55988
 /
 *
 "
@@ -350923,7 +354352,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55336
+55965
 /
 *
 "
@@ -350965,7 +354394,7 @@ entrypoints
 ]
 =
 {
-55359
+55988
 /
 *
 "
@@ -350973,7 +354402,7 @@ glTexPageCommitmentEXT
 "
 *
 /
-55336
+55965
 /
 *
 "
@@ -350988,7 +354417,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55359
+55988
 /
 *
 "
@@ -350998,6 +354427,26 @@ glTexPageCommitmentEXT
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLTEXPAGECOMMITMENTMEMNVPROC
+epoxy_glTexPageCommitmentMemNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_NV_memory_object_sparse
+56011
+/
+*
+glTexPageCommitmentMemNV
+*
+/
 )
 ;
 }
@@ -351033,7 +354482,7 @@ entrypoints
 ]
 =
 {
-55382
+56036
 /
 *
 "
@@ -351041,7 +354490,7 @@ glTexParameterIiv
 "
 *
 /
-55382
+56036
 /
 *
 "
@@ -351049,7 +354498,7 @@ glTexParameterIiv
 "
 *
 /
-55400
+56054
 /
 *
 "
@@ -351057,7 +354506,7 @@ glTexParameterIivEXT
 "
 *
 /
-55400
+56054
 /
 *
 "
@@ -351065,7 +354514,7 @@ glTexParameterIivEXT
 "
 *
 /
-55421
+56075
 /
 *
 "
@@ -351080,7 +354529,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55382
+56036
 /
 *
 "
@@ -351125,7 +354574,7 @@ entrypoints
 ]
 =
 {
-55400
+56054
 /
 *
 "
@@ -351133,7 +354582,7 @@ glTexParameterIivEXT
 "
 *
 /
-55400
+56054
 /
 *
 "
@@ -351141,7 +354590,7 @@ glTexParameterIivEXT
 "
 *
 /
-55382
+56036
 /
 *
 "
@@ -351149,7 +354598,7 @@ glTexParameterIiv
 "
 *
 /
-55382
+56036
 /
 *
 "
@@ -351157,7 +354606,7 @@ glTexParameterIiv
 "
 *
 /
-55421
+56075
 /
 *
 "
@@ -351172,7 +354621,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55400
+56054
 /
 *
 "
@@ -351217,7 +354666,7 @@ entrypoints
 ]
 =
 {
-55421
+56075
 /
 *
 "
@@ -351225,7 +354674,7 @@ glTexParameterIivOES
 "
 *
 /
-55382
+56036
 /
 *
 "
@@ -351233,7 +354682,7 @@ glTexParameterIiv
 "
 *
 /
-55382
+56036
 /
 *
 "
@@ -351241,7 +354690,7 @@ glTexParameterIiv
 "
 *
 /
-55400
+56054
 /
 *
 "
@@ -351249,7 +354698,7 @@ glTexParameterIivEXT
 "
 *
 /
-55400
+56054
 /
 *
 "
@@ -351264,7 +354713,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55421
+56075
 /
 *
 "
@@ -351309,7 +354758,7 @@ entrypoints
 ]
 =
 {
-55442
+56096
 /
 *
 "
@@ -351317,7 +354766,7 @@ glTexParameterIuiv
 "
 *
 /
-55442
+56096
 /
 *
 "
@@ -351325,7 +354774,7 @@ glTexParameterIuiv
 "
 *
 /
-55461
+56115
 /
 *
 "
@@ -351333,7 +354782,7 @@ glTexParameterIuivEXT
 "
 *
 /
-55461
+56115
 /
 *
 "
@@ -351341,7 +354790,7 @@ glTexParameterIuivEXT
 "
 *
 /
-55483
+56137
 /
 *
 "
@@ -351356,7 +354805,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55442
+56096
 /
 *
 "
@@ -351401,7 +354850,7 @@ entrypoints
 ]
 =
 {
-55461
+56115
 /
 *
 "
@@ -351409,7 +354858,7 @@ glTexParameterIuivEXT
 "
 *
 /
-55461
+56115
 /
 *
 "
@@ -351417,7 +354866,7 @@ glTexParameterIuivEXT
 "
 *
 /
-55442
+56096
 /
 *
 "
@@ -351425,7 +354874,7 @@ glTexParameterIuiv
 "
 *
 /
-55442
+56096
 /
 *
 "
@@ -351433,7 +354882,7 @@ glTexParameterIuiv
 "
 *
 /
-55483
+56137
 /
 *
 "
@@ -351448,7 +354897,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55461
+56115
 /
 *
 "
@@ -351493,7 +354942,7 @@ entrypoints
 ]
 =
 {
-55483
+56137
 /
 *
 "
@@ -351501,7 +354950,7 @@ glTexParameterIuivOES
 "
 *
 /
-55442
+56096
 /
 *
 "
@@ -351509,7 +354958,7 @@ glTexParameterIuiv
 "
 *
 /
-55442
+56096
 /
 *
 "
@@ -351517,7 +354966,7 @@ glTexParameterIuiv
 "
 *
 /
-55461
+56115
 /
 *
 "
@@ -351525,7 +354974,7 @@ glTexParameterIuivEXT
 "
 *
 /
-55461
+56115
 /
 *
 "
@@ -351540,7 +354989,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55483
+56137
 /
 *
 "
@@ -351583,7 +355032,7 @@ entrypoints
 ]
 =
 {
-55505
+56159
 /
 *
 "
@@ -351591,7 +355040,7 @@ glTexParameterf
 "
 *
 /
-55505
+56159
 /
 *
 "
@@ -351599,7 +355048,7 @@ glTexParameterf
 "
 *
 /
-55505
+56159
 /
 *
 "
@@ -351614,7 +355063,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55505
+56159
 /
 *
 "
@@ -351657,7 +355106,7 @@ entrypoints
 ]
 =
 {
-55521
+56175
 /
 *
 "
@@ -351665,7 +355114,7 @@ glTexParameterfv
 "
 *
 /
-55521
+56175
 /
 *
 "
@@ -351673,7 +355122,7 @@ glTexParameterfv
 "
 *
 /
-55521
+56175
 /
 *
 "
@@ -351688,7 +355137,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55521
+56175
 /
 *
 "
@@ -351731,7 +355180,7 @@ entrypoints
 ]
 =
 {
-55538
+56192
 /
 *
 "
@@ -351739,7 +355188,7 @@ glTexParameteri
 "
 *
 /
-55538
+56192
 /
 *
 "
@@ -351747,7 +355196,7 @@ glTexParameteri
 "
 *
 /
-55538
+56192
 /
 *
 "
@@ -351762,7 +355211,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55538
+56192
 /
 *
 "
@@ -351805,7 +355254,7 @@ entrypoints
 ]
 =
 {
-55554
+56208
 /
 *
 "
@@ -351813,7 +355262,7 @@ glTexParameteriv
 "
 *
 /
-55554
+56208
 /
 *
 "
@@ -351821,7 +355270,7 @@ glTexParameteriv
 "
 *
 /
-55554
+56208
 /
 *
 "
@@ -351836,7 +355285,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55554
+56208
 /
 *
 "
@@ -351860,7 +355309,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-55571
+56225
 /
 *
 glTexParameterx
@@ -351880,7 +355329,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-55587
+56241
 /
 *
 glTexParameterxOES
@@ -351900,7 +355349,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-55606
+56260
 /
 *
 glTexParameterxv
@@ -351920,7 +355369,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-55623
+56277
 /
 *
 glTexParameterxvOES
@@ -351940,7 +355389,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_explicit_multisample
-55643
+56297
 /
 *
 glTexRenderbufferNV
@@ -351979,7 +355428,7 @@ entrypoints
 ]
 =
 {
-55663
+56317
 /
 *
 "
@@ -351987,7 +355436,7 @@ glTexStorage1D
 "
 *
 /
-55663
+56317
 /
 *
 "
@@ -351995,7 +355444,7 @@ glTexStorage1D
 "
 *
 /
-55678
+56332
 /
 *
 "
@@ -352010,7 +355459,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55663
+56317
 /
 *
 "
@@ -352053,7 +355502,7 @@ entrypoints
 ]
 =
 {
-55678
+56332
 /
 *
 "
@@ -352061,7 +355510,7 @@ glTexStorage1DEXT
 "
 *
 /
-55663
+56317
 /
 *
 "
@@ -352069,7 +355518,7 @@ glTexStorage1D
 "
 *
 /
-55663
+56317
 /
 *
 "
@@ -352084,7 +355533,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55678
+56332
 /
 *
 "
@@ -352128,7 +355577,7 @@ entrypoints
 ]
 =
 {
-55696
+56350
 /
 *
 "
@@ -352136,7 +355585,7 @@ glTexStorage2D
 "
 *
 /
-55696
+56350
 /
 *
 "
@@ -352144,7 +355593,7 @@ glTexStorage2D
 "
 *
 /
-55696
+56350
 /
 *
 "
@@ -352152,7 +355601,7 @@ glTexStorage2D
 "
 *
 /
-55711
+56365
 /
 *
 "
@@ -352167,7 +355616,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55696
+56350
 /
 *
 "
@@ -352211,7 +355660,7 @@ entrypoints
 ]
 =
 {
-55711
+56365
 /
 *
 "
@@ -352219,7 +355668,7 @@ glTexStorage2DEXT
 "
 *
 /
-55696
+56350
 /
 *
 "
@@ -352227,7 +355676,7 @@ glTexStorage2D
 "
 *
 /
-55696
+56350
 /
 *
 "
@@ -352235,7 +355684,7 @@ glTexStorage2D
 "
 *
 /
-55696
+56350
 /
 *
 "
@@ -352250,7 +355699,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55711
+56365
 /
 *
 "
@@ -352293,7 +355742,7 @@ entrypoints
 ]
 =
 {
-55729
+56383
 /
 *
 "
@@ -352301,7 +355750,7 @@ glTexStorage2DMultisample
 "
 *
 /
-55729
+56383
 /
 *
 "
@@ -352309,7 +355758,7 @@ glTexStorage2DMultisample
 "
 *
 /
-55729
+56383
 /
 *
 "
@@ -352324,7 +355773,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55729
+56383
 /
 *
 "
@@ -352368,7 +355817,7 @@ entrypoints
 ]
 =
 {
-55755
+56409
 /
 *
 "
@@ -352376,7 +355825,7 @@ glTexStorage3D
 "
 *
 /
-55755
+56409
 /
 *
 "
@@ -352384,7 +355833,7 @@ glTexStorage3D
 "
 *
 /
-55755
+56409
 /
 *
 "
@@ -352392,7 +355841,7 @@ glTexStorage3D
 "
 *
 /
-55770
+56424
 /
 *
 "
@@ -352407,7 +355856,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55755
+56409
 /
 *
 "
@@ -352451,7 +355900,7 @@ entrypoints
 ]
 =
 {
-55770
+56424
 /
 *
 "
@@ -352459,7 +355908,7 @@ glTexStorage3DEXT
 "
 *
 /
-55755
+56409
 /
 *
 "
@@ -352467,7 +355916,7 @@ glTexStorage3D
 "
 *
 /
-55755
+56409
 /
 *
 "
@@ -352475,7 +355924,7 @@ glTexStorage3D
 "
 *
 /
-55755
+56409
 /
 *
 "
@@ -352490,7 +355939,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55770
+56424
 /
 *
 "
@@ -352534,7 +355983,7 @@ entrypoints
 ]
 =
 {
-55788
+56442
 /
 *
 "
@@ -352542,7 +355991,7 @@ glTexStorage3DMultisample
 "
 *
 /
-55788
+56442
 /
 *
 "
@@ -352550,7 +355999,7 @@ glTexStorage3DMultisample
 "
 *
 /
-55788
+56442
 /
 *
 "
@@ -352558,7 +356007,7 @@ glTexStorage3DMultisample
 "
 *
 /
-55814
+56468
 /
 *
 "
@@ -352573,7 +356022,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55788
+56442
 /
 *
 "
@@ -352617,7 +356066,7 @@ entrypoints
 ]
 =
 {
-55814
+56468
 /
 *
 "
@@ -352625,7 +356074,7 @@ glTexStorage3DMultisampleOES
 "
 *
 /
-55788
+56442
 /
 *
 "
@@ -352633,7 +356082,7 @@ glTexStorage3DMultisample
 "
 *
 /
-55788
+56442
 /
 *
 "
@@ -352641,7 +356090,7 @@ glTexStorage3DMultisample
 "
 *
 /
-55788
+56442
 /
 *
 "
@@ -352656,7 +356105,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55814
+56468
 /
 *
 "
@@ -352666,6 +356115,46 @@ glTexStorage3DMultisampleOES
 /
 providers
 entrypoints
+)
+;
+}
+static
+PFNGLTEXSTORAGEATTRIBS2DEXTPROC
+epoxy_glTexStorageAttribs2DEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_texture_storage_compression
+56497
+/
+*
+glTexStorageAttribs2DEXT
+*
+/
+)
+;
+}
+static
+PFNGLTEXSTORAGEATTRIBS3DEXTPROC
+epoxy_glTexStorageAttribs3DEXT_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_EXT_texture_storage_compression
+56522
+/
+*
+glTexStorageAttribs3DEXT
+*
+/
 )
 ;
 }
@@ -352680,7 +356169,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-55843
+56547
 /
 *
 glTexStorageMem1DEXT
@@ -352700,7 +356189,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-55864
+56568
 /
 *
 glTexStorageMem2DEXT
@@ -352720,7 +356209,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-55885
+56589
 /
 *
 glTexStorageMem2DMultisampleEXT
@@ -352740,7 +356229,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-55917
+56621
 /
 *
 glTexStorageMem3DEXT
@@ -352760,7 +356249,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-55938
+56642
 /
 *
 glTexStorageMem3DMultisampleEXT
@@ -352780,7 +356269,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_sparse_texture
-55970
+56674
 /
 *
 glTexStorageSparseAMD
@@ -352818,7 +356307,7 @@ entrypoints
 ]
 =
 {
-55992
+56696
 /
 *
 "
@@ -352826,7 +356315,7 @@ glTexSubImage1D
 "
 *
 /
-56008
+56712
 /
 *
 "
@@ -352841,7 +356330,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-55992
+56696
 /
 *
 "
@@ -352883,7 +356372,7 @@ entrypoints
 ]
 =
 {
-56008
+56712
 /
 *
 "
@@ -352891,7 +356380,7 @@ glTexSubImage1DEXT
 "
 *
 /
-55992
+56696
 /
 *
 "
@@ -352906,7 +356395,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56008
+56712
 /
 *
 "
@@ -352950,7 +356439,7 @@ entrypoints
 ]
 =
 {
-56027
+56731
 /
 *
 "
@@ -352958,7 +356447,7 @@ glTexSubImage2D
 "
 *
 /
-56027
+56731
 /
 *
 "
@@ -352966,7 +356455,7 @@ glTexSubImage2D
 "
 *
 /
-56027
+56731
 /
 *
 "
@@ -352974,7 +356463,7 @@ glTexSubImage2D
 "
 *
 /
-56043
+56747
 /
 *
 "
@@ -352989,7 +356478,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56027
+56731
 /
 *
 "
@@ -353033,7 +356522,7 @@ entrypoints
 ]
 =
 {
-56043
+56747
 /
 *
 "
@@ -353041,7 +356530,7 @@ glTexSubImage2DEXT
 "
 *
 /
-56027
+56731
 /
 *
 "
@@ -353049,7 +356538,7 @@ glTexSubImage2D
 "
 *
 /
-56027
+56731
 /
 *
 "
@@ -353057,7 +356546,7 @@ glTexSubImage2D
 "
 *
 /
-56027
+56731
 /
 *
 "
@@ -353072,7 +356561,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56043
+56747
 /
 *
 "
@@ -353115,7 +356604,7 @@ entrypoints
 ]
 =
 {
-56062
+56766
 /
 *
 "
@@ -353123,7 +356612,7 @@ glTexSubImage3D
 "
 *
 /
-56062
+56766
 /
 *
 "
@@ -353131,7 +356620,7 @@ glTexSubImage3D
 "
 *
 /
-56078
+56782
 /
 *
 "
@@ -353146,7 +356635,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56062
+56766
 /
 *
 "
@@ -353189,7 +356678,7 @@ entrypoints
 ]
 =
 {
-56078
+56782
 /
 *
 "
@@ -353197,7 +356686,7 @@ glTexSubImage3DEXT
 "
 *
 /
-56062
+56766
 /
 *
 "
@@ -353205,7 +356694,7 @@ glTexSubImage3D
 "
 *
 /
-56062
+56766
 /
 *
 "
@@ -353220,7 +356709,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56078
+56782
 /
 *
 "
@@ -353244,7 +356733,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_texture_3D
-56097
+56801
 /
 *
 glTexSubImage3DOES
@@ -353264,7 +356753,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_texture4D
-56116
+56820
 /
 *
 glTexSubImage4DSGIS
@@ -353284,7 +356773,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_memory_attachment
-56136
+56840
 /
 *
 glTextureAttachMemoryNV
@@ -353322,7 +356811,7 @@ entrypoints
 ]
 =
 {
-56160
+56864
 /
 *
 "
@@ -353330,7 +356819,7 @@ glTextureBarrier
 "
 *
 /
-56160
+56864
 /
 *
 "
@@ -353345,7 +356834,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56160
+56864
 /
 *
 "
@@ -353369,7 +356858,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_texture_barrier
-56177
+56881
 /
 *
 glTextureBarrierNV
@@ -353407,7 +356896,7 @@ entrypoints
 ]
 =
 {
-56196
+56900
 /
 *
 "
@@ -353415,7 +356904,7 @@ glTextureBuffer
 "
 *
 /
-56196
+56900
 /
 *
 "
@@ -353430,7 +356919,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56196
+56900
 /
 *
 "
@@ -353454,7 +356943,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56212
+56916
 /
 *
 glTextureBufferEXT
@@ -353492,7 +356981,7 @@ entrypoints
 ]
 =
 {
-56231
+56935
 /
 *
 "
@@ -353500,7 +356989,7 @@ glTextureBufferRange
 "
 *
 /
-56231
+56935
 /
 *
 "
@@ -353515,7 +357004,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56231
+56935
 /
 *
 "
@@ -353539,7 +357028,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56252
+56956
 /
 *
 glTextureBufferRangeEXT
@@ -353559,7 +357048,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_SGIS_texture_color_mask
-56276
+56980
 /
 *
 glTextureColorMaskSGIS
@@ -353579,7 +357068,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_QCOM_texture_foveated
-56299
+57003
 /
 *
 glTextureFoveationParametersQCOM
@@ -353599,7 +357088,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56332
+57036
 /
 *
 glTextureImage1DEXT
@@ -353619,7 +357108,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56352
+57056
 /
 *
 glTextureImage2DEXT
@@ -353639,7 +357128,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_texture_multisample
-56372
+57076
 /
 *
 glTextureImage2DMultisampleCoverageNV
@@ -353659,7 +357148,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_texture_multisample
-56410
+57114
 /
 *
 glTextureImage2DMultisampleNV
@@ -353679,7 +357168,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56440
+57144
 /
 *
 glTextureImage3DEXT
@@ -353699,7 +357188,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_texture_multisample
-56460
+57164
 /
 *
 glTextureImage3DMultisampleCoverageNV
@@ -353719,7 +357208,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_texture_multisample
-56498
+57202
 /
 *
 glTextureImage3DMultisampleNV
@@ -353739,7 +357228,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_light_texture
-56528
+57232
 /
 *
 glTextureLightEXT
@@ -353759,7 +357248,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_light_texture
-56546
+57250
 /
 *
 glTextureMaterialEXT
@@ -353779,7 +357268,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_texture_perturb_normal
-56567
+57271
 /
 *
 glTextureNormalEXT
@@ -353799,10 +357288,30 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56586
+57290
 /
 *
 glTexturePageCommitmentEXT
+*
+/
+)
+;
+}
+static
+PFNGLTEXTUREPAGECOMMITMENTMEMNVPROC
+epoxy_glTexturePageCommitmentMemNV_resolver
+(
+void
+)
+{
+return
+gl_single_resolver
+(
+PROVIDER_GL_NV_memory_object_sparse
+57317
+/
+*
+glTexturePageCommitmentMemNV
 *
 /
 )
@@ -353837,7 +357346,7 @@ entrypoints
 ]
 =
 {
-56613
+57346
 /
 *
 "
@@ -353845,7 +357354,7 @@ glTextureParameterIiv
 "
 *
 /
-56613
+57346
 /
 *
 "
@@ -353860,7 +357369,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56613
+57346
 /
 *
 "
@@ -353884,7 +357393,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56635
+57368
 /
 *
 glTextureParameterIivEXT
@@ -353922,7 +357431,7 @@ entrypoints
 ]
 =
 {
-56660
+57393
 /
 *
 "
@@ -353930,7 +357439,7 @@ glTextureParameterIuiv
 "
 *
 /
-56660
+57393
 /
 *
 "
@@ -353945,7 +357454,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56660
+57393
 /
 *
 "
@@ -353969,7 +357478,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56683
+57416
 /
 *
 glTextureParameterIuivEXT
@@ -354007,7 +357516,7 @@ entrypoints
 ]
 =
 {
-56709
+57442
 /
 *
 "
@@ -354015,7 +357524,7 @@ glTextureParameterf
 "
 *
 /
-56709
+57442
 /
 *
 "
@@ -354030,7 +357539,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56709
+57442
 /
 *
 "
@@ -354054,7 +357563,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56729
+57462
 /
 *
 glTextureParameterfEXT
@@ -354092,7 +357601,7 @@ entrypoints
 ]
 =
 {
-56752
+57485
 /
 *
 "
@@ -354100,7 +357609,7 @@ glTextureParameterfv
 "
 *
 /
-56752
+57485
 /
 *
 "
@@ -354115,7 +357624,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56752
+57485
 /
 *
 "
@@ -354139,7 +357648,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56773
+57506
 /
 *
 glTextureParameterfvEXT
@@ -354177,7 +357686,7 @@ entrypoints
 ]
 =
 {
-56797
+57530
 /
 *
 "
@@ -354185,7 +357694,7 @@ glTextureParameteri
 "
 *
 /
-56797
+57530
 /
 *
 "
@@ -354200,7 +357709,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56797
+57530
 /
 *
 "
@@ -354224,7 +357733,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56817
+57550
 /
 *
 glTextureParameteriEXT
@@ -354262,7 +357771,7 @@ entrypoints
 ]
 =
 {
-56840
+57573
 /
 *
 "
@@ -354270,7 +357779,7 @@ glTextureParameteriv
 "
 *
 /
-56840
+57573
 /
 *
 "
@@ -354285,7 +357794,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56840
+57573
 /
 *
 "
@@ -354309,7 +357818,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56861
+57594
 /
 *
 glTextureParameterivEXT
@@ -354329,7 +357838,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_texture_range
-56885
+57618
 /
 *
 glTextureRangeAPPLE
@@ -354349,7 +357858,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-56905
+57638
 /
 *
 glTextureRenderbufferEXT
@@ -354387,7 +357896,7 @@ entrypoints
 ]
 =
 {
-56930
+57663
 /
 *
 "
@@ -354395,7 +357904,7 @@ glTextureStorage1D
 "
 *
 /
-56930
+57663
 /
 *
 "
@@ -354410,7 +357919,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56930
+57663
 /
 *
 "
@@ -354452,7 +357961,7 @@ entrypoints
 ]
 =
 {
-56949
+57682
 /
 *
 "
@@ -354460,7 +357969,7 @@ glTextureStorage1DEXT
 "
 *
 /
-56949
+57682
 /
 *
 "
@@ -354475,7 +357984,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56949
+57682
 /
 *
 "
@@ -354517,7 +358026,7 @@ entrypoints
 ]
 =
 {
-56971
+57704
 /
 *
 "
@@ -354525,7 +358034,7 @@ glTextureStorage2D
 "
 *
 /
-56971
+57704
 /
 *
 "
@@ -354540,7 +358049,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56971
+57704
 /
 *
 "
@@ -354582,7 +358091,7 @@ entrypoints
 ]
 =
 {
-56990
+57723
 /
 *
 "
@@ -354590,7 +358099,7 @@ glTextureStorage2DEXT
 "
 *
 /
-56990
+57723
 /
 *
 "
@@ -354605,7 +358114,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-56990
+57723
 /
 *
 "
@@ -354647,7 +358156,7 @@ entrypoints
 ]
 =
 {
-57012
+57745
 /
 *
 "
@@ -354655,7 +358164,7 @@ glTextureStorage2DMultisample
 "
 *
 /
-57012
+57745
 /
 *
 "
@@ -354670,7 +358179,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57012
+57745
 /
 *
 "
@@ -354694,7 +358203,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-57042
+57775
 /
 *
 glTextureStorage2DMultisampleEXT
@@ -354732,7 +358241,7 @@ entrypoints
 ]
 =
 {
-57075
+57808
 /
 *
 "
@@ -354740,7 +358249,7 @@ glTextureStorage3D
 "
 *
 /
-57075
+57808
 /
 *
 "
@@ -354755,7 +358264,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57075
+57808
 /
 *
 "
@@ -354797,7 +358306,7 @@ entrypoints
 ]
 =
 {
-57094
+57827
 /
 *
 "
@@ -354805,7 +358314,7 @@ glTextureStorage3DEXT
 "
 *
 /
-57094
+57827
 /
 *
 "
@@ -354820,7 +358329,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57094
+57827
 /
 *
 "
@@ -354862,7 +358371,7 @@ entrypoints
 ]
 =
 {
-57116
+57849
 /
 *
 "
@@ -354870,7 +358379,7 @@ glTextureStorage3DMultisample
 "
 *
 /
-57116
+57849
 /
 *
 "
@@ -354885,7 +358394,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57116
+57849
 /
 *
 "
@@ -354909,7 +358418,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-57146
+57879
 /
 *
 glTextureStorage3DMultisampleEXT
@@ -354929,7 +358438,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-57179
+57912
 /
 *
 glTextureStorageMem1DEXT
@@ -354949,7 +358458,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-57204
+57937
 /
 *
 glTextureStorageMem2DEXT
@@ -354969,7 +358478,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-57229
+57962
 /
 *
 glTextureStorageMem2DMultisampleEXT
@@ -354989,7 +358498,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-57265
+57998
 /
 *
 glTextureStorageMem3DEXT
@@ -355009,7 +358518,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_memory_object
-57290
+58023
 /
 *
 glTextureStorageMem3DMultisampleEXT
@@ -355029,7 +358538,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_sparse_texture
-57326
+58059
 /
 *
 glTextureStorageSparseAMD
@@ -355067,7 +358576,7 @@ entrypoints
 ]
 =
 {
-57352
+58085
 /
 *
 "
@@ -355075,7 +358584,7 @@ glTextureSubImage1D
 "
 *
 /
-57352
+58085
 /
 *
 "
@@ -355090,7 +358599,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57352
+58085
 /
 *
 "
@@ -355114,7 +358623,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-57372
+58105
 /
 *
 glTextureSubImage1DEXT
@@ -355152,7 +358661,7 @@ entrypoints
 ]
 =
 {
-57395
+58128
 /
 *
 "
@@ -355160,7 +358669,7 @@ glTextureSubImage2D
 "
 *
 /
-57395
+58128
 /
 *
 "
@@ -355175,7 +358684,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57395
+58128
 /
 *
 "
@@ -355199,7 +358708,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-57415
+58148
 /
 *
 glTextureSubImage2DEXT
@@ -355237,7 +358746,7 @@ entrypoints
 ]
 =
 {
-57438
+58171
 /
 *
 "
@@ -355245,7 +358754,7 @@ glTextureSubImage3D
 "
 *
 /
-57438
+58171
 /
 *
 "
@@ -355260,7 +358769,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57438
+58171
 /
 *
 "
@@ -355284,7 +358793,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-57458
+58191
 /
 *
 glTextureSubImage3DEXT
@@ -355324,7 +358833,7 @@ entrypoints
 ]
 =
 {
-57481
+58214
 /
 *
 "
@@ -355332,7 +358841,7 @@ glTextureView
 "
 *
 /
-57481
+58214
 /
 *
 "
@@ -355340,7 +358849,7 @@ glTextureView
 "
 *
 /
-57495
+58228
 /
 *
 "
@@ -355348,7 +358857,7 @@ glTextureViewEXT
 "
 *
 /
-57512
+58245
 /
 *
 "
@@ -355363,7 +358872,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57481
+58214
 /
 *
 "
@@ -355407,7 +358916,7 @@ entrypoints
 ]
 =
 {
-57495
+58228
 /
 *
 "
@@ -355415,7 +358924,7 @@ glTextureViewEXT
 "
 *
 /
-57481
+58214
 /
 *
 "
@@ -355423,7 +358932,7 @@ glTextureView
 "
 *
 /
-57481
+58214
 /
 *
 "
@@ -355431,7 +358940,7 @@ glTextureView
 "
 *
 /
-57512
+58245
 /
 *
 "
@@ -355446,7 +358955,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57495
+58228
 /
 *
 "
@@ -355490,7 +358999,7 @@ entrypoints
 ]
 =
 {
-57512
+58245
 /
 *
 "
@@ -355498,7 +359007,7 @@ glTextureViewOES
 "
 *
 /
-57481
+58214
 /
 *
 "
@@ -355506,7 +359015,7 @@ glTextureView
 "
 *
 /
-57481
+58214
 /
 *
 "
@@ -355514,7 +359023,7 @@ glTextureView
 "
 *
 /
-57495
+58228
 /
 *
 "
@@ -355529,7 +359038,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57512
+58245
 /
 *
 "
@@ -355553,7 +359062,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-57529
+58262
 /
 *
 glTrackMatrixNV
@@ -355573,7 +359082,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_transform_feedback
-57545
+58278
 /
 *
 glTransformFeedbackAttribsNV
@@ -355611,7 +359120,7 @@ entrypoints
 ]
 =
 {
-57574
+58307
 /
 *
 "
@@ -355619,7 +359128,7 @@ glTransformFeedbackBufferBase
 "
 *
 /
-57574
+58307
 /
 *
 "
@@ -355634,7 +359143,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57574
+58307
 /
 *
 "
@@ -355676,7 +359185,7 @@ entrypoints
 ]
 =
 {
-57604
+58337
 /
 *
 "
@@ -355684,7 +359193,7 @@ glTransformFeedbackBufferRange
 "
 *
 /
-57604
+58337
 /
 *
 "
@@ -355699,7 +359208,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57604
+58337
 /
 *
 "
@@ -355723,7 +359232,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_transform_feedback
-57635
+58368
 /
 *
 glTransformFeedbackStreamAttribsNV
@@ -355762,7 +359271,7 @@ entrypoints
 ]
 =
 {
-57670
+58403
 /
 *
 "
@@ -355770,7 +359279,7 @@ glTransformFeedbackVaryings
 "
 *
 /
-57670
+58403
 /
 *
 "
@@ -355778,7 +359287,7 @@ glTransformFeedbackVaryings
 "
 *
 /
-57698
+58431
 /
 *
 "
@@ -355793,7 +359302,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57670
+58403
 /
 *
 "
@@ -355836,7 +359345,7 @@ entrypoints
 ]
 =
 {
-57698
+58431
 /
 *
 "
@@ -355844,7 +359353,7 @@ glTransformFeedbackVaryingsEXT
 "
 *
 /
-57670
+58403
 /
 *
 "
@@ -355852,7 +359361,7 @@ glTransformFeedbackVaryings
 "
 *
 /
-57670
+58403
 /
 *
 "
@@ -355867,7 +359376,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57698
+58431
 /
 *
 "
@@ -355891,7 +359400,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_transform_feedback
-57729
+58462
 /
 *
 glTransformFeedbackVaryingsNV
@@ -355911,7 +359420,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-57759
+58492
 /
 *
 glTransformPathNV
@@ -355931,7 +359440,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-57777
+58510
 /
 *
 glTranslated
@@ -355969,7 +359478,7 @@ entrypoints
 ]
 =
 {
-57790
+58523
 /
 *
 "
@@ -355977,7 +359486,7 @@ glTranslatef
 "
 *
 /
-57790
+58523
 /
 *
 "
@@ -355992,7 +359501,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57790
+58523
 /
 *
 "
@@ -356016,7 +359525,7 @@ return
 gl_single_resolver
 (
 PROVIDER_OpenGL_ES_1_0
-57803
+58536
 /
 *
 glTranslatex
@@ -356036,7 +359545,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-57816
+58549
 /
 *
 glTranslatexOES
@@ -356074,7 +359583,7 @@ entrypoints
 ]
 =
 {
-57832
+58565
 /
 *
 "
@@ -356082,7 +359591,7 @@ glUniform1d
 "
 *
 /
-57832
+58565
 /
 *
 "
@@ -356097,7 +359606,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57832
+58565
 /
 *
 "
@@ -356139,7 +359648,7 @@ entrypoints
 ]
 =
 {
-57844
+58577
 /
 *
 "
@@ -356147,7 +359656,7 @@ glUniform1dv
 "
 *
 /
-57844
+58577
 /
 *
 "
@@ -356162,7 +359671,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57844
+58577
 /
 *
 "
@@ -356205,7 +359714,7 @@ entrypoints
 ]
 =
 {
-57857
+58590
 /
 *
 "
@@ -356213,7 +359722,7 @@ glUniform1f
 "
 *
 /
-57857
+58590
 /
 *
 "
@@ -356221,7 +359730,7 @@ glUniform1f
 "
 *
 /
-57869
+58602
 /
 *
 "
@@ -356236,7 +359745,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57857
+58590
 /
 *
 "
@@ -356279,7 +359788,7 @@ entrypoints
 ]
 =
 {
-57869
+58602
 /
 *
 "
@@ -356287,7 +359796,7 @@ glUniform1fARB
 "
 *
 /
-57857
+58590
 /
 *
 "
@@ -356295,7 +359804,7 @@ glUniform1f
 "
 *
 /
-57857
+58590
 /
 *
 "
@@ -356310,7 +359819,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57869
+58602
 /
 *
 "
@@ -356353,7 +359862,7 @@ entrypoints
 ]
 =
 {
-57884
+58617
 /
 *
 "
@@ -356361,7 +359870,7 @@ glUniform1fv
 "
 *
 /
-57884
+58617
 /
 *
 "
@@ -356369,7 +359878,7 @@ glUniform1fv
 "
 *
 /
-57897
+58630
 /
 *
 "
@@ -356384,7 +359893,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57884
+58617
 /
 *
 "
@@ -356427,7 +359936,7 @@ entrypoints
 ]
 =
 {
-57897
+58630
 /
 *
 "
@@ -356435,7 +359944,7 @@ glUniform1fvARB
 "
 *
 /
-57884
+58617
 /
 *
 "
@@ -356443,7 +359952,7 @@ glUniform1fv
 "
 *
 /
-57884
+58617
 /
 *
 "
@@ -356458,7 +359967,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57897
+58630
 /
 *
 "
@@ -356501,7 +360010,7 @@ entrypoints
 ]
 =
 {
-57913
+58646
 /
 *
 "
@@ -356509,7 +360018,7 @@ glUniform1i
 "
 *
 /
-57913
+58646
 /
 *
 "
@@ -356517,7 +360026,7 @@ glUniform1i
 "
 *
 /
-57993
+58726
 /
 *
 "
@@ -356532,7 +360041,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57913
+58646
 /
 *
 "
@@ -356556,7 +360065,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-57925
+58658
 /
 *
 glUniform1i64ARB
@@ -356594,7 +360103,7 @@ entrypoints
 ]
 =
 {
-57942
+58675
 /
 *
 "
@@ -356602,7 +360111,7 @@ glUniform1i64NV
 "
 *
 /
-57942
+58675
 /
 *
 "
@@ -356617,7 +360126,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57942
+58675
 /
 *
 "
@@ -356641,7 +360150,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-57958
+58691
 /
 *
 glUniform1i64vARB
@@ -356679,7 +360188,7 @@ entrypoints
 ]
 =
 {
-57976
+58709
 /
 *
 "
@@ -356687,7 +360196,7 @@ glUniform1i64vNV
 "
 *
 /
-57976
+58709
 /
 *
 "
@@ -356702,7 +360211,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57976
+58709
 /
 *
 "
@@ -356745,7 +360254,7 @@ entrypoints
 ]
 =
 {
-57993
+58726
 /
 *
 "
@@ -356753,7 +360262,7 @@ glUniform1iARB
 "
 *
 /
-57913
+58646
 /
 *
 "
@@ -356761,7 +360270,7 @@ glUniform1i
 "
 *
 /
-57913
+58646
 /
 *
 "
@@ -356776,7 +360285,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-57993
+58726
 /
 *
 "
@@ -356819,7 +360328,7 @@ entrypoints
 ]
 =
 {
-58008
+58741
 /
 *
 "
@@ -356827,7 +360336,7 @@ glUniform1iv
 "
 *
 /
-58008
+58741
 /
 *
 "
@@ -356835,7 +360344,7 @@ glUniform1iv
 "
 *
 /
-58021
+58754
 /
 *
 "
@@ -356850,7 +360359,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58008
+58741
 /
 *
 "
@@ -356893,7 +360402,7 @@ entrypoints
 ]
 =
 {
-58021
+58754
 /
 *
 "
@@ -356901,7 +360410,7 @@ glUniform1ivARB
 "
 *
 /
-58008
+58741
 /
 *
 "
@@ -356909,7 +360418,7 @@ glUniform1iv
 "
 *
 /
-58008
+58741
 /
 *
 "
@@ -356924,7 +360433,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58021
+58754
 /
 *
 "
@@ -356967,7 +360476,7 @@ entrypoints
 ]
 =
 {
-58037
+58770
 /
 *
 "
@@ -356975,7 +360484,7 @@ glUniform1ui
 "
 *
 /
-58037
+58770
 /
 *
 "
@@ -356983,7 +360492,7 @@ glUniform1ui
 "
 *
 /
-58122
+58855
 /
 *
 "
@@ -356998,7 +360507,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58037
+58770
 /
 *
 "
@@ -357022,7 +360531,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58050
+58783
 /
 *
 glUniform1ui64ARB
@@ -357060,7 +360569,7 @@ entrypoints
 ]
 =
 {
-58068
+58801
 /
 *
 "
@@ -357068,7 +360577,7 @@ glUniform1ui64NV
 "
 *
 /
-58068
+58801
 /
 *
 "
@@ -357083,7 +360592,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58068
+58801
 /
 *
 "
@@ -357107,7 +360616,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58085
+58818
 /
 *
 glUniform1ui64vARB
@@ -357145,7 +360654,7 @@ entrypoints
 ]
 =
 {
-58104
+58837
 /
 *
 "
@@ -357153,7 +360662,7 @@ glUniform1ui64vNV
 "
 *
 /
-58104
+58837
 /
 *
 "
@@ -357168,7 +360677,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58104
+58837
 /
 *
 "
@@ -357211,7 +360720,7 @@ entrypoints
 ]
 =
 {
-58122
+58855
 /
 *
 "
@@ -357219,7 +360728,7 @@ glUniform1uiEXT
 "
 *
 /
-58037
+58770
 /
 *
 "
@@ -357227,7 +360736,7 @@ glUniform1ui
 "
 *
 /
-58037
+58770
 /
 *
 "
@@ -357242,7 +360751,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58122
+58855
 /
 *
 "
@@ -357285,7 +360794,7 @@ entrypoints
 ]
 =
 {
-58138
+58871
 /
 *
 "
@@ -357293,7 +360802,7 @@ glUniform1uiv
 "
 *
 /
-58138
+58871
 /
 *
 "
@@ -357301,7 +360810,7 @@ glUniform1uiv
 "
 *
 /
-58152
+58885
 /
 *
 "
@@ -357316,7 +360825,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58138
+58871
 /
 *
 "
@@ -357359,7 +360868,7 @@ entrypoints
 ]
 =
 {
-58152
+58885
 /
 *
 "
@@ -357367,7 +360876,7 @@ glUniform1uivEXT
 "
 *
 /
-58138
+58871
 /
 *
 "
@@ -357375,7 +360884,7 @@ glUniform1uiv
 "
 *
 /
-58138
+58871
 /
 *
 "
@@ -357390,7 +360899,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58152
+58885
 /
 *
 "
@@ -357432,7 +360941,7 @@ entrypoints
 ]
 =
 {
-58169
+58902
 /
 *
 "
@@ -357440,7 +360949,7 @@ glUniform2d
 "
 *
 /
-58169
+58902
 /
 *
 "
@@ -357455,7 +360964,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58169
+58902
 /
 *
 "
@@ -357497,7 +361006,7 @@ entrypoints
 ]
 =
 {
-58181
+58914
 /
 *
 "
@@ -357505,7 +361014,7 @@ glUniform2dv
 "
 *
 /
-58181
+58914
 /
 *
 "
@@ -357520,7 +361029,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58181
+58914
 /
 *
 "
@@ -357563,7 +361072,7 @@ entrypoints
 ]
 =
 {
-58194
+58927
 /
 *
 "
@@ -357571,7 +361080,7 @@ glUniform2f
 "
 *
 /
-58194
+58927
 /
 *
 "
@@ -357579,7 +361088,7 @@ glUniform2f
 "
 *
 /
-58206
+58939
 /
 *
 "
@@ -357594,7 +361103,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58194
+58927
 /
 *
 "
@@ -357637,7 +361146,7 @@ entrypoints
 ]
 =
 {
-58206
+58939
 /
 *
 "
@@ -357645,7 +361154,7 @@ glUniform2fARB
 "
 *
 /
-58194
+58927
 /
 *
 "
@@ -357653,7 +361162,7 @@ glUniform2f
 "
 *
 /
-58194
+58927
 /
 *
 "
@@ -357668,7 +361177,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58206
+58939
 /
 *
 "
@@ -357711,7 +361220,7 @@ entrypoints
 ]
 =
 {
-58221
+58954
 /
 *
 "
@@ -357719,7 +361228,7 @@ glUniform2fv
 "
 *
 /
-58221
+58954
 /
 *
 "
@@ -357727,7 +361236,7 @@ glUniform2fv
 "
 *
 /
-58234
+58967
 /
 *
 "
@@ -357742,7 +361251,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58221
+58954
 /
 *
 "
@@ -357785,7 +361294,7 @@ entrypoints
 ]
 =
 {
-58234
+58967
 /
 *
 "
@@ -357793,7 +361302,7 @@ glUniform2fvARB
 "
 *
 /
-58221
+58954
 /
 *
 "
@@ -357801,7 +361310,7 @@ glUniform2fv
 "
 *
 /
-58221
+58954
 /
 *
 "
@@ -357816,7 +361325,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58234
+58967
 /
 *
 "
@@ -357859,7 +361368,7 @@ entrypoints
 ]
 =
 {
-58250
+58983
 /
 *
 "
@@ -357867,7 +361376,7 @@ glUniform2i
 "
 *
 /
-58250
+58983
 /
 *
 "
@@ -357875,7 +361384,7 @@ glUniform2i
 "
 *
 /
-58330
+59063
 /
 *
 "
@@ -357890,7 +361399,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58250
+58983
 /
 *
 "
@@ -357914,7 +361423,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58262
+58995
 /
 *
 glUniform2i64ARB
@@ -357952,7 +361461,7 @@ entrypoints
 ]
 =
 {
-58279
+59012
 /
 *
 "
@@ -357960,7 +361469,7 @@ glUniform2i64NV
 "
 *
 /
-58279
+59012
 /
 *
 "
@@ -357975,7 +361484,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58279
+59012
 /
 *
 "
@@ -357999,7 +361508,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58295
+59028
 /
 *
 glUniform2i64vARB
@@ -358037,7 +361546,7 @@ entrypoints
 ]
 =
 {
-58313
+59046
 /
 *
 "
@@ -358045,7 +361554,7 @@ glUniform2i64vNV
 "
 *
 /
-58313
+59046
 /
 *
 "
@@ -358060,7 +361569,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58313
+59046
 /
 *
 "
@@ -358103,7 +361612,7 @@ entrypoints
 ]
 =
 {
-58330
+59063
 /
 *
 "
@@ -358111,7 +361620,7 @@ glUniform2iARB
 "
 *
 /
-58250
+58983
 /
 *
 "
@@ -358119,7 +361628,7 @@ glUniform2i
 "
 *
 /
-58250
+58983
 /
 *
 "
@@ -358134,7 +361643,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58330
+59063
 /
 *
 "
@@ -358177,7 +361686,7 @@ entrypoints
 ]
 =
 {
-58345
+59078
 /
 *
 "
@@ -358185,7 +361694,7 @@ glUniform2iv
 "
 *
 /
-58345
+59078
 /
 *
 "
@@ -358193,7 +361702,7 @@ glUniform2iv
 "
 *
 /
-58358
+59091
 /
 *
 "
@@ -358208,7 +361717,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58345
+59078
 /
 *
 "
@@ -358251,7 +361760,7 @@ entrypoints
 ]
 =
 {
-58358
+59091
 /
 *
 "
@@ -358259,7 +361768,7 @@ glUniform2ivARB
 "
 *
 /
-58345
+59078
 /
 *
 "
@@ -358267,7 +361776,7 @@ glUniform2iv
 "
 *
 /
-58345
+59078
 /
 *
 "
@@ -358282,7 +361791,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58358
+59091
 /
 *
 "
@@ -358325,7 +361834,7 @@ entrypoints
 ]
 =
 {
-58374
+59107
 /
 *
 "
@@ -358333,7 +361842,7 @@ glUniform2ui
 "
 *
 /
-58374
+59107
 /
 *
 "
@@ -358341,7 +361850,7 @@ glUniform2ui
 "
 *
 /
-58459
+59192
 /
 *
 "
@@ -358356,7 +361865,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58374
+59107
 /
 *
 "
@@ -358380,7 +361889,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58387
+59120
 /
 *
 glUniform2ui64ARB
@@ -358418,7 +361927,7 @@ entrypoints
 ]
 =
 {
-58405
+59138
 /
 *
 "
@@ -358426,7 +361935,7 @@ glUniform2ui64NV
 "
 *
 /
-58405
+59138
 /
 *
 "
@@ -358441,7 +361950,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58405
+59138
 /
 *
 "
@@ -358465,7 +361974,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58422
+59155
 /
 *
 glUniform2ui64vARB
@@ -358503,7 +362012,7 @@ entrypoints
 ]
 =
 {
-58441
+59174
 /
 *
 "
@@ -358511,7 +362020,7 @@ glUniform2ui64vNV
 "
 *
 /
-58441
+59174
 /
 *
 "
@@ -358526,7 +362035,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58441
+59174
 /
 *
 "
@@ -358569,7 +362078,7 @@ entrypoints
 ]
 =
 {
-58459
+59192
 /
 *
 "
@@ -358577,7 +362086,7 @@ glUniform2uiEXT
 "
 *
 /
-58374
+59107
 /
 *
 "
@@ -358585,7 +362094,7 @@ glUniform2ui
 "
 *
 /
-58374
+59107
 /
 *
 "
@@ -358600,7 +362109,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58459
+59192
 /
 *
 "
@@ -358643,7 +362152,7 @@ entrypoints
 ]
 =
 {
-58475
+59208
 /
 *
 "
@@ -358651,7 +362160,7 @@ glUniform2uiv
 "
 *
 /
-58475
+59208
 /
 *
 "
@@ -358659,7 +362168,7 @@ glUniform2uiv
 "
 *
 /
-58489
+59222
 /
 *
 "
@@ -358674,7 +362183,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58475
+59208
 /
 *
 "
@@ -358717,7 +362226,7 @@ entrypoints
 ]
 =
 {
-58489
+59222
 /
 *
 "
@@ -358725,7 +362234,7 @@ glUniform2uivEXT
 "
 *
 /
-58475
+59208
 /
 *
 "
@@ -358733,7 +362242,7 @@ glUniform2uiv
 "
 *
 /
-58475
+59208
 /
 *
 "
@@ -358748,7 +362257,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58489
+59222
 /
 *
 "
@@ -358790,7 +362299,7 @@ entrypoints
 ]
 =
 {
-58506
+59239
 /
 *
 "
@@ -358798,7 +362307,7 @@ glUniform3d
 "
 *
 /
-58506
+59239
 /
 *
 "
@@ -358813,7 +362322,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58506
+59239
 /
 *
 "
@@ -358855,7 +362364,7 @@ entrypoints
 ]
 =
 {
-58518
+59251
 /
 *
 "
@@ -358863,7 +362372,7 @@ glUniform3dv
 "
 *
 /
-58518
+59251
 /
 *
 "
@@ -358878,7 +362387,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58518
+59251
 /
 *
 "
@@ -358921,7 +362430,7 @@ entrypoints
 ]
 =
 {
-58531
+59264
 /
 *
 "
@@ -358929,7 +362438,7 @@ glUniform3f
 "
 *
 /
-58531
+59264
 /
 *
 "
@@ -358937,7 +362446,7 @@ glUniform3f
 "
 *
 /
-58543
+59276
 /
 *
 "
@@ -358952,7 +362461,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58531
+59264
 /
 *
 "
@@ -358995,7 +362504,7 @@ entrypoints
 ]
 =
 {
-58543
+59276
 /
 *
 "
@@ -359003,7 +362512,7 @@ glUniform3fARB
 "
 *
 /
-58531
+59264
 /
 *
 "
@@ -359011,7 +362520,7 @@ glUniform3f
 "
 *
 /
-58531
+59264
 /
 *
 "
@@ -359026,7 +362535,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58543
+59276
 /
 *
 "
@@ -359069,7 +362578,7 @@ entrypoints
 ]
 =
 {
-58558
+59291
 /
 *
 "
@@ -359077,7 +362586,7 @@ glUniform3fv
 "
 *
 /
-58558
+59291
 /
 *
 "
@@ -359085,7 +362594,7 @@ glUniform3fv
 "
 *
 /
-58571
+59304
 /
 *
 "
@@ -359100,7 +362609,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58558
+59291
 /
 *
 "
@@ -359143,7 +362652,7 @@ entrypoints
 ]
 =
 {
-58571
+59304
 /
 *
 "
@@ -359151,7 +362660,7 @@ glUniform3fvARB
 "
 *
 /
-58558
+59291
 /
 *
 "
@@ -359159,7 +362668,7 @@ glUniform3fv
 "
 *
 /
-58558
+59291
 /
 *
 "
@@ -359174,7 +362683,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58571
+59304
 /
 *
 "
@@ -359217,7 +362726,7 @@ entrypoints
 ]
 =
 {
-58587
+59320
 /
 *
 "
@@ -359225,7 +362734,7 @@ glUniform3i
 "
 *
 /
-58587
+59320
 /
 *
 "
@@ -359233,7 +362742,7 @@ glUniform3i
 "
 *
 /
-58667
+59400
 /
 *
 "
@@ -359248,7 +362757,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58587
+59320
 /
 *
 "
@@ -359272,7 +362781,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58599
+59332
 /
 *
 glUniform3i64ARB
@@ -359310,7 +362819,7 @@ entrypoints
 ]
 =
 {
-58616
+59349
 /
 *
 "
@@ -359318,7 +362827,7 @@ glUniform3i64NV
 "
 *
 /
-58616
+59349
 /
 *
 "
@@ -359333,7 +362842,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58616
+59349
 /
 *
 "
@@ -359357,7 +362866,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58632
+59365
 /
 *
 glUniform3i64vARB
@@ -359395,7 +362904,7 @@ entrypoints
 ]
 =
 {
-58650
+59383
 /
 *
 "
@@ -359403,7 +362912,7 @@ glUniform3i64vNV
 "
 *
 /
-58650
+59383
 /
 *
 "
@@ -359418,7 +362927,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58650
+59383
 /
 *
 "
@@ -359461,7 +362970,7 @@ entrypoints
 ]
 =
 {
-58667
+59400
 /
 *
 "
@@ -359469,7 +362978,7 @@ glUniform3iARB
 "
 *
 /
-58587
+59320
 /
 *
 "
@@ -359477,7 +362986,7 @@ glUniform3i
 "
 *
 /
-58587
+59320
 /
 *
 "
@@ -359492,7 +363001,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58667
+59400
 /
 *
 "
@@ -359535,7 +363044,7 @@ entrypoints
 ]
 =
 {
-58682
+59415
 /
 *
 "
@@ -359543,7 +363052,7 @@ glUniform3iv
 "
 *
 /
-58682
+59415
 /
 *
 "
@@ -359551,7 +363060,7 @@ glUniform3iv
 "
 *
 /
-58695
+59428
 /
 *
 "
@@ -359566,7 +363075,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58682
+59415
 /
 *
 "
@@ -359609,7 +363118,7 @@ entrypoints
 ]
 =
 {
-58695
+59428
 /
 *
 "
@@ -359617,7 +363126,7 @@ glUniform3ivARB
 "
 *
 /
-58682
+59415
 /
 *
 "
@@ -359625,7 +363134,7 @@ glUniform3iv
 "
 *
 /
-58682
+59415
 /
 *
 "
@@ -359640,7 +363149,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58695
+59428
 /
 *
 "
@@ -359683,7 +363192,7 @@ entrypoints
 ]
 =
 {
-58711
+59444
 /
 *
 "
@@ -359691,7 +363200,7 @@ glUniform3ui
 "
 *
 /
-58711
+59444
 /
 *
 "
@@ -359699,7 +363208,7 @@ glUniform3ui
 "
 *
 /
-58796
+59529
 /
 *
 "
@@ -359714,7 +363223,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58711
+59444
 /
 *
 "
@@ -359738,7 +363247,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58724
+59457
 /
 *
 glUniform3ui64ARB
@@ -359776,7 +363285,7 @@ entrypoints
 ]
 =
 {
-58742
+59475
 /
 *
 "
@@ -359784,7 +363293,7 @@ glUniform3ui64NV
 "
 *
 /
-58742
+59475
 /
 *
 "
@@ -359799,7 +363308,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58742
+59475
 /
 *
 "
@@ -359823,7 +363332,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58759
+59492
 /
 *
 glUniform3ui64vARB
@@ -359861,7 +363370,7 @@ entrypoints
 ]
 =
 {
-58778
+59511
 /
 *
 "
@@ -359869,7 +363378,7 @@ glUniform3ui64vNV
 "
 *
 /
-58778
+59511
 /
 *
 "
@@ -359884,7 +363393,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58778
+59511
 /
 *
 "
@@ -359927,7 +363436,7 @@ entrypoints
 ]
 =
 {
-58796
+59529
 /
 *
 "
@@ -359935,7 +363444,7 @@ glUniform3uiEXT
 "
 *
 /
-58711
+59444
 /
 *
 "
@@ -359943,7 +363452,7 @@ glUniform3ui
 "
 *
 /
-58711
+59444
 /
 *
 "
@@ -359958,7 +363467,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58796
+59529
 /
 *
 "
@@ -360001,7 +363510,7 @@ entrypoints
 ]
 =
 {
-58812
+59545
 /
 *
 "
@@ -360009,7 +363518,7 @@ glUniform3uiv
 "
 *
 /
-58812
+59545
 /
 *
 "
@@ -360017,7 +363526,7 @@ glUniform3uiv
 "
 *
 /
-58826
+59559
 /
 *
 "
@@ -360032,7 +363541,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58812
+59545
 /
 *
 "
@@ -360075,7 +363584,7 @@ entrypoints
 ]
 =
 {
-58826
+59559
 /
 *
 "
@@ -360083,7 +363592,7 @@ glUniform3uivEXT
 "
 *
 /
-58812
+59545
 /
 *
 "
@@ -360091,7 +363600,7 @@ glUniform3uiv
 "
 *
 /
-58812
+59545
 /
 *
 "
@@ -360106,7 +363615,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58826
+59559
 /
 *
 "
@@ -360148,7 +363657,7 @@ entrypoints
 ]
 =
 {
-58843
+59576
 /
 *
 "
@@ -360156,7 +363665,7 @@ glUniform4d
 "
 *
 /
-58843
+59576
 /
 *
 "
@@ -360171,7 +363680,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58843
+59576
 /
 *
 "
@@ -360213,7 +363722,7 @@ entrypoints
 ]
 =
 {
-58855
+59588
 /
 *
 "
@@ -360221,7 +363730,7 @@ glUniform4dv
 "
 *
 /
-58855
+59588
 /
 *
 "
@@ -360236,7 +363745,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58855
+59588
 /
 *
 "
@@ -360279,7 +363788,7 @@ entrypoints
 ]
 =
 {
-58868
+59601
 /
 *
 "
@@ -360287,7 +363796,7 @@ glUniform4f
 "
 *
 /
-58868
+59601
 /
 *
 "
@@ -360295,7 +363804,7 @@ glUniform4f
 "
 *
 /
-58880
+59613
 /
 *
 "
@@ -360310,7 +363819,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58868
+59601
 /
 *
 "
@@ -360353,7 +363862,7 @@ entrypoints
 ]
 =
 {
-58880
+59613
 /
 *
 "
@@ -360361,7 +363870,7 @@ glUniform4fARB
 "
 *
 /
-58868
+59601
 /
 *
 "
@@ -360369,7 +363878,7 @@ glUniform4f
 "
 *
 /
-58868
+59601
 /
 *
 "
@@ -360384,7 +363893,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58880
+59613
 /
 *
 "
@@ -360427,7 +363936,7 @@ entrypoints
 ]
 =
 {
-58895
+59628
 /
 *
 "
@@ -360435,7 +363944,7 @@ glUniform4fv
 "
 *
 /
-58895
+59628
 /
 *
 "
@@ -360443,7 +363952,7 @@ glUniform4fv
 "
 *
 /
-58908
+59641
 /
 *
 "
@@ -360458,7 +363967,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58895
+59628
 /
 *
 "
@@ -360501,7 +364010,7 @@ entrypoints
 ]
 =
 {
-58908
+59641
 /
 *
 "
@@ -360509,7 +364018,7 @@ glUniform4fvARB
 "
 *
 /
-58895
+59628
 /
 *
 "
@@ -360517,7 +364026,7 @@ glUniform4fv
 "
 *
 /
-58895
+59628
 /
 *
 "
@@ -360532,7 +364041,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58908
+59641
 /
 *
 "
@@ -360575,7 +364084,7 @@ entrypoints
 ]
 =
 {
-58924
+59657
 /
 *
 "
@@ -360583,7 +364092,7 @@ glUniform4i
 "
 *
 /
-58924
+59657
 /
 *
 "
@@ -360591,7 +364100,7 @@ glUniform4i
 "
 *
 /
-59004
+59737
 /
 *
 "
@@ -360606,7 +364115,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58924
+59657
 /
 *
 "
@@ -360630,7 +364139,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58936
+59669
 /
 *
 glUniform4i64ARB
@@ -360668,7 +364177,7 @@ entrypoints
 ]
 =
 {
-58953
+59686
 /
 *
 "
@@ -360676,7 +364185,7 @@ glUniform4i64NV
 "
 *
 /
-58953
+59686
 /
 *
 "
@@ -360691,7 +364200,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58953
+59686
 /
 *
 "
@@ -360715,7 +364224,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-58969
+59702
 /
 *
 glUniform4i64vARB
@@ -360753,7 +364262,7 @@ entrypoints
 ]
 =
 {
-58987
+59720
 /
 *
 "
@@ -360761,7 +364270,7 @@ glUniform4i64vNV
 "
 *
 /
-58987
+59720
 /
 *
 "
@@ -360776,7 +364285,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-58987
+59720
 /
 *
 "
@@ -360819,7 +364328,7 @@ entrypoints
 ]
 =
 {
-59004
+59737
 /
 *
 "
@@ -360827,7 +364336,7 @@ glUniform4iARB
 "
 *
 /
-58924
+59657
 /
 *
 "
@@ -360835,7 +364344,7 @@ glUniform4i
 "
 *
 /
-58924
+59657
 /
 *
 "
@@ -360850,7 +364359,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59004
+59737
 /
 *
 "
@@ -360893,7 +364402,7 @@ entrypoints
 ]
 =
 {
-59019
+59752
 /
 *
 "
@@ -360901,7 +364410,7 @@ glUniform4iv
 "
 *
 /
-59019
+59752
 /
 *
 "
@@ -360909,7 +364418,7 @@ glUniform4iv
 "
 *
 /
-59032
+59765
 /
 *
 "
@@ -360924,7 +364433,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59019
+59752
 /
 *
 "
@@ -360967,7 +364476,7 @@ entrypoints
 ]
 =
 {
-59032
+59765
 /
 *
 "
@@ -360975,7 +364484,7 @@ glUniform4ivARB
 "
 *
 /
-59019
+59752
 /
 *
 "
@@ -360983,7 +364492,7 @@ glUniform4iv
 "
 *
 /
-59019
+59752
 /
 *
 "
@@ -360998,7 +364507,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59032
+59765
 /
 *
 "
@@ -361041,7 +364550,7 @@ entrypoints
 ]
 =
 {
-59048
+59781
 /
 *
 "
@@ -361049,7 +364558,7 @@ glUniform4ui
 "
 *
 /
-59048
+59781
 /
 *
 "
@@ -361057,7 +364566,7 @@ glUniform4ui
 "
 *
 /
-59133
+59866
 /
 *
 "
@@ -361072,7 +364581,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59048
+59781
 /
 *
 "
@@ -361096,7 +364605,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-59061
+59794
 /
 *
 glUniform4ui64ARB
@@ -361134,7 +364643,7 @@ entrypoints
 ]
 =
 {
-59079
+59812
 /
 *
 "
@@ -361142,7 +364651,7 @@ glUniform4ui64NV
 "
 *
 /
-59079
+59812
 /
 *
 "
@@ -361157,7 +364666,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59079
+59812
 /
 *
 "
@@ -361181,7 +364690,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_gpu_shader_int64
-59096
+59829
 /
 *
 glUniform4ui64vARB
@@ -361219,7 +364728,7 @@ entrypoints
 ]
 =
 {
-59115
+59848
 /
 *
 "
@@ -361227,7 +364736,7 @@ glUniform4ui64vNV
 "
 *
 /
-59115
+59848
 /
 *
 "
@@ -361242,7 +364751,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59115
+59848
 /
 *
 "
@@ -361285,7 +364794,7 @@ entrypoints
 ]
 =
 {
-59133
+59866
 /
 *
 "
@@ -361293,7 +364802,7 @@ glUniform4uiEXT
 "
 *
 /
-59048
+59781
 /
 *
 "
@@ -361301,7 +364810,7 @@ glUniform4ui
 "
 *
 /
-59048
+59781
 /
 *
 "
@@ -361316,7 +364825,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59133
+59866
 /
 *
 "
@@ -361359,7 +364868,7 @@ entrypoints
 ]
 =
 {
-59149
+59882
 /
 *
 "
@@ -361367,7 +364876,7 @@ glUniform4uiv
 "
 *
 /
-59149
+59882
 /
 *
 "
@@ -361375,7 +364884,7 @@ glUniform4uiv
 "
 *
 /
-59163
+59896
 /
 *
 "
@@ -361390,7 +364899,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59149
+59882
 /
 *
 "
@@ -361433,7 +364942,7 @@ entrypoints
 ]
 =
 {
-59163
+59896
 /
 *
 "
@@ -361441,7 +364950,7 @@ glUniform4uivEXT
 "
 *
 /
-59149
+59882
 /
 *
 "
@@ -361449,7 +364958,7 @@ glUniform4uiv
 "
 *
 /
-59149
+59882
 /
 *
 "
@@ -361464,7 +364973,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59163
+59896
 /
 *
 "
@@ -361507,7 +365016,7 @@ entrypoints
 ]
 =
 {
-59180
+59913
 /
 *
 "
@@ -361515,7 +365024,7 @@ glUniformBlockBinding
 "
 *
 /
-59180
+59913
 /
 *
 "
@@ -361523,7 +365032,7 @@ glUniformBlockBinding
 "
 *
 /
-59180
+59913
 /
 *
 "
@@ -361538,7 +365047,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59180
+59913
 /
 *
 "
@@ -361562,7 +365071,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_bindable_uniform
-59202
+59935
 /
 *
 glUniformBufferEXT
@@ -361600,7 +365109,7 @@ entrypoints
 ]
 =
 {
-59221
+59954
 /
 *
 "
@@ -361608,7 +365117,7 @@ glUniformHandleui64ARB
 "
 *
 /
-59244
+59977
 /
 *
 "
@@ -361623,7 +365132,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59221
+59954
 /
 *
 "
@@ -361665,7 +365174,7 @@ entrypoints
 ]
 =
 {
-59244
+59977
 /
 *
 "
@@ -361673,7 +365182,7 @@ glUniformHandleui64IMG
 "
 *
 /
-59221
+59954
 /
 *
 "
@@ -361688,7 +365197,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59244
+59977
 /
 *
 "
@@ -361712,7 +365221,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-59267
+60000
 /
 *
 glUniformHandleui64NV
@@ -361750,7 +365259,7 @@ entrypoints
 ]
 =
 {
-59289
+60022
 /
 *
 "
@@ -361758,7 +365267,7 @@ glUniformHandleui64vARB
 "
 *
 /
-59313
+60046
 /
 *
 "
@@ -361773,7 +365282,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59289
+60022
 /
 *
 "
@@ -361815,7 +365324,7 @@ entrypoints
 ]
 =
 {
-59313
+60046
 /
 *
 "
@@ -361823,7 +365332,7 @@ glUniformHandleui64vIMG
 "
 *
 /
-59289
+60022
 /
 *
 "
@@ -361838,7 +365347,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59313
+60046
 /
 *
 "
@@ -361862,7 +365371,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_bindless_texture
-59337
+60070
 /
 *
 glUniformHandleui64vNV
@@ -361900,7 +365409,7 @@ entrypoints
 ]
 =
 {
-59360
+60093
 /
 *
 "
@@ -361908,7 +365417,7 @@ glUniformMatrix2dv
 "
 *
 /
-59360
+60093
 /
 *
 "
@@ -361923,7 +365432,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59360
+60093
 /
 *
 "
@@ -361966,7 +365475,7 @@ entrypoints
 ]
 =
 {
-59379
+60112
 /
 *
 "
@@ -361974,7 +365483,7 @@ glUniformMatrix2fv
 "
 *
 /
-59379
+60112
 /
 *
 "
@@ -361982,7 +365491,7 @@ glUniformMatrix2fv
 "
 *
 /
-59398
+60131
 /
 *
 "
@@ -361997,7 +365506,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59379
+60112
 /
 *
 "
@@ -362040,7 +365549,7 @@ entrypoints
 ]
 =
 {
-59398
+60131
 /
 *
 "
@@ -362048,7 +365557,7 @@ glUniformMatrix2fvARB
 "
 *
 /
-59379
+60112
 /
 *
 "
@@ -362056,7 +365565,7 @@ glUniformMatrix2fv
 "
 *
 /
-59379
+60112
 /
 *
 "
@@ -362071,7 +365580,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59398
+60131
 /
 *
 "
@@ -362113,7 +365622,7 @@ entrypoints
 ]
 =
 {
-59420
+60153
 /
 *
 "
@@ -362121,7 +365630,7 @@ glUniformMatrix2x3dv
 "
 *
 /
-59420
+60153
 /
 *
 "
@@ -362136,7 +365645,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59420
+60153
 /
 *
 "
@@ -362179,7 +365688,7 @@ entrypoints
 ]
 =
 {
-59441
+60174
 /
 *
 "
@@ -362187,7 +365696,7 @@ glUniformMatrix2x3fv
 "
 *
 /
-59441
+60174
 /
 *
 "
@@ -362195,7 +365704,7 @@ glUniformMatrix2x3fv
 "
 *
 /
-59462
+60195
 /
 *
 "
@@ -362210,7 +365719,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59441
+60174
 /
 *
 "
@@ -362253,7 +365762,7 @@ entrypoints
 ]
 =
 {
-59462
+60195
 /
 *
 "
@@ -362261,7 +365770,7 @@ glUniformMatrix2x3fvNV
 "
 *
 /
-59441
+60174
 /
 *
 "
@@ -362269,7 +365778,7 @@ glUniformMatrix2x3fv
 "
 *
 /
-59441
+60174
 /
 *
 "
@@ -362284,7 +365793,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59462
+60195
 /
 *
 "
@@ -362326,7 +365835,7 @@ entrypoints
 ]
 =
 {
-59485
+60218
 /
 *
 "
@@ -362334,7 +365843,7 @@ glUniformMatrix2x4dv
 "
 *
 /
-59485
+60218
 /
 *
 "
@@ -362349,7 +365858,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59485
+60218
 /
 *
 "
@@ -362392,7 +365901,7 @@ entrypoints
 ]
 =
 {
-59506
+60239
 /
 *
 "
@@ -362400,7 +365909,7 @@ glUniformMatrix2x4fv
 "
 *
 /
-59506
+60239
 /
 *
 "
@@ -362408,7 +365917,7 @@ glUniformMatrix2x4fv
 "
 *
 /
-59527
+60260
 /
 *
 "
@@ -362423,7 +365932,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59506
+60239
 /
 *
 "
@@ -362466,7 +365975,7 @@ entrypoints
 ]
 =
 {
-59527
+60260
 /
 *
 "
@@ -362474,7 +365983,7 @@ glUniformMatrix2x4fvNV
 "
 *
 /
-59506
+60239
 /
 *
 "
@@ -362482,7 +365991,7 @@ glUniformMatrix2x4fv
 "
 *
 /
-59506
+60239
 /
 *
 "
@@ -362497,7 +366006,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59527
+60260
 /
 *
 "
@@ -362539,7 +366048,7 @@ entrypoints
 ]
 =
 {
-59550
+60283
 /
 *
 "
@@ -362547,7 +366056,7 @@ glUniformMatrix3dv
 "
 *
 /
-59550
+60283
 /
 *
 "
@@ -362562,7 +366071,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59550
+60283
 /
 *
 "
@@ -362605,7 +366114,7 @@ entrypoints
 ]
 =
 {
-59569
+60302
 /
 *
 "
@@ -362613,7 +366122,7 @@ glUniformMatrix3fv
 "
 *
 /
-59569
+60302
 /
 *
 "
@@ -362621,7 +366130,7 @@ glUniformMatrix3fv
 "
 *
 /
-59588
+60321
 /
 *
 "
@@ -362636,7 +366145,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59569
+60302
 /
 *
 "
@@ -362679,7 +366188,7 @@ entrypoints
 ]
 =
 {
-59588
+60321
 /
 *
 "
@@ -362687,7 +366196,7 @@ glUniformMatrix3fvARB
 "
 *
 /
-59569
+60302
 /
 *
 "
@@ -362695,7 +366204,7 @@ glUniformMatrix3fv
 "
 *
 /
-59569
+60302
 /
 *
 "
@@ -362710,7 +366219,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59588
+60321
 /
 *
 "
@@ -362752,7 +366261,7 @@ entrypoints
 ]
 =
 {
-59610
+60343
 /
 *
 "
@@ -362760,7 +366269,7 @@ glUniformMatrix3x2dv
 "
 *
 /
-59610
+60343
 /
 *
 "
@@ -362775,7 +366284,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59610
+60343
 /
 *
 "
@@ -362818,7 +366327,7 @@ entrypoints
 ]
 =
 {
-59631
+60364
 /
 *
 "
@@ -362826,7 +366335,7 @@ glUniformMatrix3x2fv
 "
 *
 /
-59631
+60364
 /
 *
 "
@@ -362834,7 +366343,7 @@ glUniformMatrix3x2fv
 "
 *
 /
-59652
+60385
 /
 *
 "
@@ -362849,7 +366358,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59631
+60364
 /
 *
 "
@@ -362892,7 +366401,7 @@ entrypoints
 ]
 =
 {
-59652
+60385
 /
 *
 "
@@ -362900,7 +366409,7 @@ glUniformMatrix3x2fvNV
 "
 *
 /
-59631
+60364
 /
 *
 "
@@ -362908,7 +366417,7 @@ glUniformMatrix3x2fv
 "
 *
 /
-59631
+60364
 /
 *
 "
@@ -362923,7 +366432,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59652
+60385
 /
 *
 "
@@ -362965,7 +366474,7 @@ entrypoints
 ]
 =
 {
-59675
+60408
 /
 *
 "
@@ -362973,7 +366482,7 @@ glUniformMatrix3x4dv
 "
 *
 /
-59675
+60408
 /
 *
 "
@@ -362988,7 +366497,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59675
+60408
 /
 *
 "
@@ -363031,7 +366540,7 @@ entrypoints
 ]
 =
 {
-59696
+60429
 /
 *
 "
@@ -363039,7 +366548,7 @@ glUniformMatrix3x4fv
 "
 *
 /
-59696
+60429
 /
 *
 "
@@ -363047,7 +366556,7 @@ glUniformMatrix3x4fv
 "
 *
 /
-59717
+60450
 /
 *
 "
@@ -363062,7 +366571,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59696
+60429
 /
 *
 "
@@ -363105,7 +366614,7 @@ entrypoints
 ]
 =
 {
-59717
+60450
 /
 *
 "
@@ -363113,7 +366622,7 @@ glUniformMatrix3x4fvNV
 "
 *
 /
-59696
+60429
 /
 *
 "
@@ -363121,7 +366630,7 @@ glUniformMatrix3x4fv
 "
 *
 /
-59696
+60429
 /
 *
 "
@@ -363136,7 +366645,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59717
+60450
 /
 *
 "
@@ -363178,7 +366687,7 @@ entrypoints
 ]
 =
 {
-59740
+60473
 /
 *
 "
@@ -363186,7 +366695,7 @@ glUniformMatrix4dv
 "
 *
 /
-59740
+60473
 /
 *
 "
@@ -363201,7 +366710,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59740
+60473
 /
 *
 "
@@ -363244,7 +366753,7 @@ entrypoints
 ]
 =
 {
-59759
+60492
 /
 *
 "
@@ -363252,7 +366761,7 @@ glUniformMatrix4fv
 "
 *
 /
-59759
+60492
 /
 *
 "
@@ -363260,7 +366769,7 @@ glUniformMatrix4fv
 "
 *
 /
-59778
+60511
 /
 *
 "
@@ -363275,7 +366784,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59759
+60492
 /
 *
 "
@@ -363318,7 +366827,7 @@ entrypoints
 ]
 =
 {
-59778
+60511
 /
 *
 "
@@ -363326,7 +366835,7 @@ glUniformMatrix4fvARB
 "
 *
 /
-59759
+60492
 /
 *
 "
@@ -363334,7 +366843,7 @@ glUniformMatrix4fv
 "
 *
 /
-59759
+60492
 /
 *
 "
@@ -363349,7 +366858,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59778
+60511
 /
 *
 "
@@ -363391,7 +366900,7 @@ entrypoints
 ]
 =
 {
-59800
+60533
 /
 *
 "
@@ -363399,7 +366908,7 @@ glUniformMatrix4x2dv
 "
 *
 /
-59800
+60533
 /
 *
 "
@@ -363414,7 +366923,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59800
+60533
 /
 *
 "
@@ -363457,7 +366966,7 @@ entrypoints
 ]
 =
 {
-59821
+60554
 /
 *
 "
@@ -363465,7 +366974,7 @@ glUniformMatrix4x2fv
 "
 *
 /
-59821
+60554
 /
 *
 "
@@ -363473,7 +366982,7 @@ glUniformMatrix4x2fv
 "
 *
 /
-59842
+60575
 /
 *
 "
@@ -363488,7 +366997,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59821
+60554
 /
 *
 "
@@ -363531,7 +367040,7 @@ entrypoints
 ]
 =
 {
-59842
+60575
 /
 *
 "
@@ -363539,7 +367048,7 @@ glUniformMatrix4x2fvNV
 "
 *
 /
-59821
+60554
 /
 *
 "
@@ -363547,7 +367056,7 @@ glUniformMatrix4x2fv
 "
 *
 /
-59821
+60554
 /
 *
 "
@@ -363562,7 +367071,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59842
+60575
 /
 *
 "
@@ -363604,7 +367113,7 @@ entrypoints
 ]
 =
 {
-59865
+60598
 /
 *
 "
@@ -363612,7 +367121,7 @@ glUniformMatrix4x3dv
 "
 *
 /
-59865
+60598
 /
 *
 "
@@ -363627,7 +367136,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59865
+60598
 /
 *
 "
@@ -363670,7 +367179,7 @@ entrypoints
 ]
 =
 {
-59886
+60619
 /
 *
 "
@@ -363678,7 +367187,7 @@ glUniformMatrix4x3fv
 "
 *
 /
-59886
+60619
 /
 *
 "
@@ -363686,7 +367195,7 @@ glUniformMatrix4x3fv
 "
 *
 /
-59907
+60640
 /
 *
 "
@@ -363701,7 +367210,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59886
+60619
 /
 *
 "
@@ -363744,7 +367253,7 @@ entrypoints
 ]
 =
 {
-59907
+60640
 /
 *
 "
@@ -363752,7 +367261,7 @@ glUniformMatrix4x3fvNV
 "
 *
 /
-59886
+60619
 /
 *
 "
@@ -363760,7 +367269,7 @@ glUniformMatrix4x3fv
 "
 *
 /
-59886
+60619
 /
 *
 "
@@ -363775,7 +367284,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59907
+60640
 /
 *
 "
@@ -363817,7 +367326,7 @@ entrypoints
 ]
 =
 {
-59930
+60663
 /
 *
 "
@@ -363825,7 +367334,7 @@ glUniformSubroutinesuiv
 "
 *
 /
-59930
+60663
 /
 *
 "
@@ -363840,7 +367349,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-59930
+60663
 /
 *
 "
@@ -363864,7 +367373,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-59954
+60687
 /
 *
 glUniformui64NV
@@ -363884,7 +367393,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_shader_buffer_load
-59970
+60703
 /
 *
 glUniformui64vNV
@@ -363904,7 +367413,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_compiled_vertex_array
-59987
+60720
 /
 *
 glUnlockArraysEXT
@@ -363944,7 +367453,7 @@ entrypoints
 ]
 =
 {
-60005
+60738
 /
 *
 "
@@ -363952,7 +367461,7 @@ glUnmapBuffer
 "
 *
 /
-60005
+60738
 /
 *
 "
@@ -363960,7 +367469,7 @@ glUnmapBuffer
 "
 *
 /
-60019
+60752
 /
 *
 "
@@ -363968,7 +367477,7 @@ glUnmapBufferARB
 "
 *
 /
-60036
+60769
 /
 *
 "
@@ -363983,7 +367492,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60005
+60738
 /
 *
 "
@@ -364027,7 +367536,7 @@ entrypoints
 ]
 =
 {
-60019
+60752
 /
 *
 "
@@ -364035,7 +367544,7 @@ glUnmapBufferARB
 "
 *
 /
-60005
+60738
 /
 *
 "
@@ -364043,7 +367552,7 @@ glUnmapBuffer
 "
 *
 /
-60005
+60738
 /
 *
 "
@@ -364051,7 +367560,7 @@ glUnmapBuffer
 "
 *
 /
-60036
+60769
 /
 *
 "
@@ -364066,7 +367575,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60019
+60752
 /
 *
 "
@@ -364110,7 +367619,7 @@ entrypoints
 ]
 =
 {
-60036
+60769
 /
 *
 "
@@ -364118,7 +367627,7 @@ glUnmapBufferOES
 "
 *
 /
-60005
+60738
 /
 *
 "
@@ -364126,7 +367635,7 @@ glUnmapBuffer
 "
 *
 /
-60005
+60738
 /
 *
 "
@@ -364134,7 +367643,7 @@ glUnmapBuffer
 "
 *
 /
-60019
+60752
 /
 *
 "
@@ -364149,7 +367658,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60036
+60769
 /
 *
 "
@@ -364191,7 +367700,7 @@ entrypoints
 ]
 =
 {
-60053
+60786
 /
 *
 "
@@ -364199,7 +367708,7 @@ glUnmapNamedBuffer
 "
 *
 /
-60053
+60786
 /
 *
 "
@@ -364214,7 +367723,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60053
+60786
 /
 *
 "
@@ -364238,7 +367747,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-60072
+60805
 /
 *
 glUnmapNamedBufferEXT
@@ -364258,7 +367767,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_map_object_buffer
-60094
+60827
 /
 *
 glUnmapObjectBufferATI
@@ -364278,7 +367787,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_map_texture
-60117
+60850
 /
 *
 glUnmapTexture2DINTEL
@@ -364298,7 +367807,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-60139
+60872
 /
 *
 glUpdateObjectBufferATI
@@ -364318,7 +367827,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_gpu_multicast2
-60163
+60896
 /
 *
 glUploadGpuMaskNVX
@@ -364357,7 +367866,7 @@ entrypoints
 ]
 =
 {
-60182
+60915
 /
 *
 "
@@ -364365,7 +367874,7 @@ glUseProgram
 "
 *
 /
-60182
+60915
 /
 *
 "
@@ -364373,7 +367882,7 @@ glUseProgram
 "
 *
 /
-60195
+60928
 /
 *
 "
@@ -364388,7 +367897,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60182
+60915
 /
 *
 "
@@ -364431,7 +367940,7 @@ entrypoints
 ]
 =
 {
-60195
+60928
 /
 *
 "
@@ -364439,7 +367948,7 @@ glUseProgramObjectARB
 "
 *
 /
-60182
+60915
 /
 *
 "
@@ -364447,7 +367956,7 @@ glUseProgram
 "
 *
 /
-60182
+60915
 /
 *
 "
@@ -364462,7 +367971,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60195
+60928
 /
 *
 "
@@ -364505,7 +368014,7 @@ entrypoints
 ]
 =
 {
-60217
+60950
 /
 *
 "
@@ -364513,7 +368022,7 @@ glUseProgramStages
 "
 *
 /
-60217
+60950
 /
 *
 "
@@ -364521,7 +368030,7 @@ glUseProgramStages
 "
 *
 /
-60217
+60950
 /
 *
 "
@@ -364536,7 +368045,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60217
+60950
 /
 *
 "
@@ -364560,7 +368069,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-60236
+60969
 /
 *
 glUseProgramStagesEXT
@@ -364580,7 +368089,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-60258
+60991
 /
 *
 glUseShaderProgramEXT
@@ -364600,7 +368109,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60280
+61013
 /
 *
 glVDPAUFiniNV
@@ -364620,7 +368129,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60294
+61027
 /
 *
 glVDPAUGetSurfaceivNV
@@ -364640,7 +368149,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60316
+61049
 /
 *
 glVDPAUInitNV
@@ -364660,7 +368169,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60330
+61063
 /
 *
 glVDPAUIsSurfaceNV
@@ -364680,7 +368189,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60349
+61082
 /
 *
 glVDPAUMapSurfacesNV
@@ -364700,7 +368209,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60370
+61103
 /
 *
 glVDPAURegisterOutputSurfaceNV
@@ -364720,7 +368229,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60401
+61134
 /
 *
 glVDPAURegisterVideoSurfaceNV
@@ -364740,7 +368249,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop2
-60431
+61164
 /
 *
 glVDPAURegisterVideoSurfaceWithPictureStructureNV
@@ -364760,7 +368269,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60481
+61214
 /
 *
 glVDPAUSurfaceAccessNV
@@ -364780,7 +368289,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60504
+61237
 /
 *
 glVDPAUUnmapSurfacesNV
@@ -364800,7 +368309,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vdpau_interop
-60527
+61260
 /
 *
 glVDPAUUnregisterSurfaceNV
@@ -364839,7 +368348,7 @@ entrypoints
 ]
 =
 {
-60554
+61287
 /
 *
 "
@@ -364847,7 +368356,7 @@ glValidateProgram
 "
 *
 /
-60554
+61287
 /
 *
 "
@@ -364855,7 +368364,7 @@ glValidateProgram
 "
 *
 /
-60572
+61305
 /
 *
 "
@@ -364870,7 +368379,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60554
+61287
 /
 *
 "
@@ -364913,7 +368422,7 @@ entrypoints
 ]
 =
 {
-60572
+61305
 /
 *
 "
@@ -364921,7 +368430,7 @@ glValidateProgramARB
 "
 *
 /
-60554
+61287
 /
 *
 "
@@ -364929,7 +368438,7 @@ glValidateProgram
 "
 *
 /
-60554
+61287
 /
 *
 "
@@ -364944,7 +368453,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60572
+61305
 /
 *
 "
@@ -364987,7 +368496,7 @@ entrypoints
 ]
 =
 {
-60593
+61326
 /
 *
 "
@@ -364995,7 +368504,7 @@ glValidateProgramPipeline
 "
 *
 /
-60593
+61326
 /
 *
 "
@@ -365003,7 +368512,7 @@ glValidateProgramPipeline
 "
 *
 /
-60593
+61326
 /
 *
 "
@@ -365018,7 +368527,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-60593
+61326
 /
 *
 "
@@ -365042,7 +368551,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_separate_shader_objects
-60619
+61352
 /
 *
 glValidateProgramPipelineEXT
@@ -365062,7 +368571,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_array_object
-60648
+61381
 /
 *
 glVariantArrayObjectATI
@@ -365082,7 +368591,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60672
+61405
 /
 *
 glVariantPointerEXT
@@ -365102,7 +368611,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60692
+61425
 /
 *
 glVariantbvEXT
@@ -365122,7 +368631,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60707
+61440
 /
 *
 glVariantdvEXT
@@ -365142,7 +368651,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60722
+61455
 /
 *
 glVariantfvEXT
@@ -365162,7 +368671,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60737
+61470
 /
 *
 glVariantivEXT
@@ -365182,7 +368691,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60752
+61485
 /
 *
 glVariantsvEXT
@@ -365202,7 +368711,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60767
+61500
 /
 *
 glVariantubvEXT
@@ -365222,7 +368731,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60783
+61516
 /
 *
 glVariantuivEXT
@@ -365242,7 +368751,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-60799
+61532
 /
 *
 glVariantusvEXT
@@ -365262,7 +368771,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-60815
+61548
 /
 *
 glVertex2bOES
@@ -365282,7 +368791,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-60829
+61562
 /
 *
 glVertex2bvOES
@@ -365302,7 +368811,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-60844
+61577
 /
 *
 glVertex2d
@@ -365322,7 +368831,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-60855
+61588
 /
 *
 glVertex2dv
@@ -365342,7 +368851,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-60867
+61600
 /
 *
 glVertex2f
@@ -365362,7 +368871,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-60878
+61611
 /
 *
 glVertex2fv
@@ -365382,7 +368891,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-60890
+61623
 /
 *
 glVertex2hNV
@@ -365402,7 +368911,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-60903
+61636
 /
 *
 glVertex2hvNV
@@ -365422,7 +368931,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-60917
+61650
 /
 *
 glVertex2i
@@ -365442,7 +368951,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-60928
+61661
 /
 *
 glVertex2iv
@@ -365462,7 +368971,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-60940
+61673
 /
 *
 glVertex2s
@@ -365482,7 +368991,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-60951
+61684
 /
 *
 glVertex2sv
@@ -365502,7 +369011,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-60963
+61696
 /
 *
 glVertex2xOES
@@ -365522,7 +369031,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-60977
+61710
 /
 *
 glVertex2xvOES
@@ -365542,7 +369051,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-60992
+61725
 /
 *
 glVertex3bOES
@@ -365562,7 +369071,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-61006
+61739
 /
 *
 glVertex3bvOES
@@ -365582,7 +369091,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61021
+61754
 /
 *
 glVertex3d
@@ -365602,7 +369111,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61032
+61765
 /
 *
 glVertex3dv
@@ -365622,7 +369131,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61044
+61777
 /
 *
 glVertex3f
@@ -365642,7 +369151,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61055
+61788
 /
 *
 glVertex3fv
@@ -365662,7 +369171,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-61067
+61800
 /
 *
 glVertex3hNV
@@ -365682,7 +369191,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-61080
+61813
 /
 *
 glVertex3hvNV
@@ -365702,7 +369211,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61094
+61827
 /
 *
 glVertex3i
@@ -365722,7 +369231,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61105
+61838
 /
 *
 glVertex3iv
@@ -365742,7 +369251,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61117
+61850
 /
 *
 glVertex3s
@@ -365762,7 +369271,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61128
+61861
 /
 *
 glVertex3sv
@@ -365782,7 +369291,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-61140
+61873
 /
 *
 glVertex3xOES
@@ -365802,7 +369311,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-61154
+61887
 /
 *
 glVertex3xvOES
@@ -365822,7 +369331,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-61169
+61902
 /
 *
 glVertex4bOES
@@ -365842,7 +369351,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_byte_coordinates
-61183
+61916
 /
 *
 glVertex4bvOES
@@ -365862,7 +369371,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61198
+61931
 /
 *
 glVertex4d
@@ -365882,7 +369391,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61209
+61942
 /
 *
 glVertex4dv
@@ -365902,7 +369411,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61221
+61954
 /
 *
 glVertex4f
@@ -365922,7 +369431,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61232
+61965
 /
 *
 glVertex4fv
@@ -365942,7 +369451,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-61244
+61977
 /
 *
 glVertex4hNV
@@ -365962,7 +369471,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-61257
+61990
 /
 *
 glVertex4hvNV
@@ -365982,7 +369491,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61271
+62004
 /
 *
 glVertex4i
@@ -366002,7 +369511,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61282
+62015
 /
 *
 glVertex4iv
@@ -366022,7 +369531,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61294
+62027
 /
 *
 glVertex4s
@@ -366042,7 +369551,7 @@ return
 gl_single_resolver
 (
 PROVIDER_Desktop_OpenGL_1_0
-61305
+62038
 /
 *
 glVertex4sv
@@ -366062,7 +369571,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-61317
+62050
 /
 *
 glVertex4xOES
@@ -366082,7 +369591,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_fixed_point
-61331
+62064
 /
 *
 glVertex4xvOES
@@ -366120,7 +369629,7 @@ entrypoints
 ]
 =
 {
-61346
+62079
 /
 *
 "
@@ -366128,7 +369637,7 @@ glVertexArrayAttribBinding
 "
 *
 /
-61346
+62079
 /
 *
 "
@@ -366143,7 +369652,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-61346
+62079
 /
 *
 "
@@ -366185,7 +369694,7 @@ entrypoints
 ]
 =
 {
-61373
+62106
 /
 *
 "
@@ -366193,7 +369702,7 @@ glVertexArrayAttribFormat
 "
 *
 /
-61373
+62106
 /
 *
 "
@@ -366208,7 +369717,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-61373
+62106
 /
 *
 "
@@ -366250,7 +369759,7 @@ entrypoints
 ]
 =
 {
-61399
+62132
 /
 *
 "
@@ -366258,7 +369767,7 @@ glVertexArrayAttribIFormat
 "
 *
 /
-61399
+62132
 /
 *
 "
@@ -366273,7 +369782,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-61399
+62132
 /
 *
 "
@@ -366315,7 +369824,7 @@ entrypoints
 ]
 =
 {
-61426
+62159
 /
 *
 "
@@ -366323,7 +369832,7 @@ glVertexArrayAttribLFormat
 "
 *
 /
-61426
+62159
 /
 *
 "
@@ -366338,7 +369847,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-61426
+62159
 /
 *
 "
@@ -366362,7 +369871,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61453
+62186
 /
 *
 glVertexArrayBindVertexBufferEXT
@@ -366400,7 +369909,7 @@ entrypoints
 ]
 =
 {
-61486
+62219
 /
 *
 "
@@ -366408,7 +369917,7 @@ glVertexArrayBindingDivisor
 "
 *
 /
-61486
+62219
 /
 *
 "
@@ -366423,7 +369932,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-61486
+62219
 /
 *
 "
@@ -366447,7 +369956,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61514
+62247
 /
 *
 glVertexArrayColorOffsetEXT
@@ -366467,7 +369976,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61542
+62275
 /
 *
 glVertexArrayEdgeFlagOffsetEXT
@@ -366505,7 +370014,7 @@ entrypoints
 ]
 =
 {
-61573
+62306
 /
 *
 "
@@ -366513,7 +370022,7 @@ glVertexArrayElementBuffer
 "
 *
 /
-61573
+62306
 /
 *
 "
@@ -366528,7 +370037,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-61573
+62306
 /
 *
 "
@@ -366552,7 +370061,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61600
+62333
 /
 *
 glVertexArrayFogCoordOffsetEXT
@@ -366572,7 +370081,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61631
+62364
 /
 *
 glVertexArrayIndexOffsetEXT
@@ -366592,7 +370101,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61659
+62392
 /
 *
 glVertexArrayMultiTexCoordOffsetEXT
@@ -366612,7 +370121,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61695
+62428
 /
 *
 glVertexArrayNormalOffsetEXT
@@ -366632,7 +370141,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_array_range
-61724
+62457
 /
 *
 glVertexArrayParameteriAPPLE
@@ -366652,7 +370161,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_APPLE_vertex_array_range
-61753
+62486
 /
 *
 glVertexArrayRangeAPPLE
@@ -366672,7 +370181,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_array_range
-61777
+62510
 /
 *
 glVertexArrayRangeNV
@@ -366692,7 +370201,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61798
+62531
 /
 *
 glVertexArraySecondaryColorOffsetEXT
@@ -366712,7 +370221,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61835
+62568
 /
 *
 glVertexArrayTexCoordOffsetEXT
@@ -366732,7 +370241,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61866
+62599
 /
 *
 glVertexArrayVertexAttribBindingEXT
@@ -366752,7 +370261,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61902
+62635
 /
 *
 glVertexArrayVertexAttribDivisorEXT
@@ -366772,7 +370281,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61938
+62671
 /
 *
 glVertexArrayVertexAttribFormatEXT
@@ -366792,7 +370301,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-61973
+62706
 /
 *
 glVertexArrayVertexAttribIFormatEXT
@@ -366812,7 +370321,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-62009
+62742
 /
 *
 glVertexArrayVertexAttribIOffsetEXT
@@ -366832,7 +370341,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-62045
+62778
 /
 *
 glVertexArrayVertexAttribLFormatEXT
@@ -366852,7 +370361,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-62081
+62814
 /
 *
 glVertexArrayVertexAttribLOffsetEXT
@@ -366872,7 +370381,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-62117
+62850
 /
 *
 glVertexArrayVertexAttribOffsetEXT
@@ -366892,7 +370401,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-62152
+62885
 /
 *
 glVertexArrayVertexBindingDivisorEXT
@@ -366930,7 +370439,7 @@ entrypoints
 ]
 =
 {
-62189
+62922
 /
 *
 "
@@ -366938,7 +370447,7 @@ glVertexArrayVertexBuffer
 "
 *
 /
-62189
+62922
 /
 *
 "
@@ -366953,7 +370462,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62189
+62922
 /
 *
 "
@@ -366995,7 +370504,7 @@ entrypoints
 ]
 =
 {
-62215
+62948
 /
 *
 "
@@ -367003,7 +370512,7 @@ glVertexArrayVertexBuffers
 "
 *
 /
-62215
+62948
 /
 *
 "
@@ -367018,7 +370527,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62215
+62948
 /
 *
 "
@@ -367042,7 +370551,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_direct_state_access
-62242
+62975
 /
 *
 glVertexArrayVertexOffsetEXT
@@ -367082,7 +370591,7 @@ entrypoints
 ]
 =
 {
-62271
+63004
 /
 *
 "
@@ -367090,7 +370599,7 @@ glVertexAttrib1d
 "
 *
 /
-62288
+63021
 /
 *
 "
@@ -367098,7 +370607,7 @@ glVertexAttrib1dARB
 "
 *
 /
-62288
+63021
 /
 *
 "
@@ -367106,7 +370615,7 @@ glVertexAttrib1dARB
 "
 *
 /
-62308
+63041
 /
 *
 "
@@ -367121,7 +370630,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62271
+63004
 /
 *
 "
@@ -367165,7 +370674,7 @@ entrypoints
 ]
 =
 {
-62288
+63021
 /
 *
 "
@@ -367173,7 +370682,7 @@ glVertexAttrib1dARB
 "
 *
 /
-62288
+63021
 /
 *
 "
@@ -367181,7 +370690,7 @@ glVertexAttrib1dARB
 "
 *
 /
-62271
+63004
 /
 *
 "
@@ -367189,7 +370698,7 @@ glVertexAttrib1d
 "
 *
 /
-62308
+63041
 /
 *
 "
@@ -367204,7 +370713,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62288
+63021
 /
 *
 "
@@ -367248,7 +370757,7 @@ entrypoints
 ]
 =
 {
-62308
+63041
 /
 *
 "
@@ -367256,7 +370765,7 @@ glVertexAttrib1dNV
 "
 *
 /
-62271
+63004
 /
 *
 "
@@ -367264,7 +370773,7 @@ glVertexAttrib1d
 "
 *
 /
-62288
+63021
 /
 *
 "
@@ -367272,7 +370781,7 @@ glVertexAttrib1dARB
 "
 *
 /
-62288
+63021
 /
 *
 "
@@ -367287,7 +370796,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62308
+63041
 /
 *
 "
@@ -367331,7 +370840,7 @@ entrypoints
 ]
 =
 {
-62327
+63060
 /
 *
 "
@@ -367339,7 +370848,7 @@ glVertexAttrib1dv
 "
 *
 /
-62345
+63078
 /
 *
 "
@@ -367347,7 +370856,7 @@ glVertexAttrib1dvARB
 "
 *
 /
-62345
+63078
 /
 *
 "
@@ -367355,7 +370864,7 @@ glVertexAttrib1dvARB
 "
 *
 /
-62366
+63099
 /
 *
 "
@@ -367370,7 +370879,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62327
+63060
 /
 *
 "
@@ -367414,7 +370923,7 @@ entrypoints
 ]
 =
 {
-62345
+63078
 /
 *
 "
@@ -367422,7 +370931,7 @@ glVertexAttrib1dvARB
 "
 *
 /
-62345
+63078
 /
 *
 "
@@ -367430,7 +370939,7 @@ glVertexAttrib1dvARB
 "
 *
 /
-62327
+63060
 /
 *
 "
@@ -367438,7 +370947,7 @@ glVertexAttrib1dv
 "
 *
 /
-62366
+63099
 /
 *
 "
@@ -367453,7 +370962,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62345
+63078
 /
 *
 "
@@ -367497,7 +371006,7 @@ entrypoints
 ]
 =
 {
-62366
+63099
 /
 *
 "
@@ -367505,7 +371014,7 @@ glVertexAttrib1dvNV
 "
 *
 /
-62327
+63060
 /
 *
 "
@@ -367513,7 +371022,7 @@ glVertexAttrib1dv
 "
 *
 /
-62345
+63078
 /
 *
 "
@@ -367521,7 +371030,7 @@ glVertexAttrib1dvARB
 "
 *
 /
-62345
+63078
 /
 *
 "
@@ -367536,7 +371045,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62366
+63099
 /
 *
 "
@@ -367581,7 +371090,7 @@ entrypoints
 ]
 =
 {
-62386
+63119
 /
 *
 "
@@ -367589,7 +371098,7 @@ glVertexAttrib1f
 "
 *
 /
-62386
+63119
 /
 *
 "
@@ -367597,7 +371106,7 @@ glVertexAttrib1f
 "
 *
 /
-62403
+63136
 /
 *
 "
@@ -367605,7 +371114,7 @@ glVertexAttrib1fARB
 "
 *
 /
-62403
+63136
 /
 *
 "
@@ -367613,7 +371122,7 @@ glVertexAttrib1fARB
 "
 *
 /
-62423
+63156
 /
 *
 "
@@ -367628,7 +371137,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62386
+63119
 /
 *
 "
@@ -367673,7 +371182,7 @@ entrypoints
 ]
 =
 {
-62403
+63136
 /
 *
 "
@@ -367681,7 +371190,7 @@ glVertexAttrib1fARB
 "
 *
 /
-62403
+63136
 /
 *
 "
@@ -367689,7 +371198,7 @@ glVertexAttrib1fARB
 "
 *
 /
-62386
+63119
 /
 *
 "
@@ -367697,7 +371206,7 @@ glVertexAttrib1f
 "
 *
 /
-62386
+63119
 /
 *
 "
@@ -367705,7 +371214,7 @@ glVertexAttrib1f
 "
 *
 /
-62423
+63156
 /
 *
 "
@@ -367720,7 +371229,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62403
+63136
 /
 *
 "
@@ -367765,7 +371274,7 @@ entrypoints
 ]
 =
 {
-62423
+63156
 /
 *
 "
@@ -367773,7 +371282,7 @@ glVertexAttrib1fNV
 "
 *
 /
-62386
+63119
 /
 *
 "
@@ -367781,7 +371290,7 @@ glVertexAttrib1f
 "
 *
 /
-62386
+63119
 /
 *
 "
@@ -367789,7 +371298,7 @@ glVertexAttrib1f
 "
 *
 /
-62403
+63136
 /
 *
 "
@@ -367797,7 +371306,7 @@ glVertexAttrib1fARB
 "
 *
 /
-62403
+63136
 /
 *
 "
@@ -367812,7 +371321,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62423
+63156
 /
 *
 "
@@ -367857,7 +371366,7 @@ entrypoints
 ]
 =
 {
-62442
+63175
 /
 *
 "
@@ -367865,7 +371374,7 @@ glVertexAttrib1fv
 "
 *
 /
-62442
+63175
 /
 *
 "
@@ -367873,7 +371382,7 @@ glVertexAttrib1fv
 "
 *
 /
-62460
+63193
 /
 *
 "
@@ -367881,7 +371390,7 @@ glVertexAttrib1fvARB
 "
 *
 /
-62460
+63193
 /
 *
 "
@@ -367889,7 +371398,7 @@ glVertexAttrib1fvARB
 "
 *
 /
-62481
+63214
 /
 *
 "
@@ -367904,7 +371413,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62442
+63175
 /
 *
 "
@@ -367949,7 +371458,7 @@ entrypoints
 ]
 =
 {
-62460
+63193
 /
 *
 "
@@ -367957,7 +371466,7 @@ glVertexAttrib1fvARB
 "
 *
 /
-62460
+63193
 /
 *
 "
@@ -367965,7 +371474,7 @@ glVertexAttrib1fvARB
 "
 *
 /
-62442
+63175
 /
 *
 "
@@ -367973,7 +371482,7 @@ glVertexAttrib1fv
 "
 *
 /
-62442
+63175
 /
 *
 "
@@ -367981,7 +371490,7 @@ glVertexAttrib1fv
 "
 *
 /
-62481
+63214
 /
 *
 "
@@ -367996,7 +371505,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62460
+63193
 /
 *
 "
@@ -368041,7 +371550,7 @@ entrypoints
 ]
 =
 {
-62481
+63214
 /
 *
 "
@@ -368049,7 +371558,7 @@ glVertexAttrib1fvNV
 "
 *
 /
-62442
+63175
 /
 *
 "
@@ -368057,7 +371566,7 @@ glVertexAttrib1fv
 "
 *
 /
-62442
+63175
 /
 *
 "
@@ -368065,7 +371574,7 @@ glVertexAttrib1fv
 "
 *
 /
-62460
+63193
 /
 *
 "
@@ -368073,7 +371582,7 @@ glVertexAttrib1fvARB
 "
 *
 /
-62460
+63193
 /
 *
 "
@@ -368088,7 +371597,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62481
+63214
 /
 *
 "
@@ -368112,7 +371621,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-62501
+63234
 /
 *
 glVertexAttrib1hNV
@@ -368132,7 +371641,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-62520
+63253
 /
 *
 glVertexAttrib1hvNV
@@ -368172,7 +371681,7 @@ entrypoints
 ]
 =
 {
-62540
+63273
 /
 *
 "
@@ -368180,7 +371689,7 @@ glVertexAttrib1s
 "
 *
 /
-62557
+63290
 /
 *
 "
@@ -368188,7 +371697,7 @@ glVertexAttrib1sARB
 "
 *
 /
-62557
+63290
 /
 *
 "
@@ -368196,7 +371705,7 @@ glVertexAttrib1sARB
 "
 *
 /
-62577
+63310
 /
 *
 "
@@ -368211,7 +371720,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62540
+63273
 /
 *
 "
@@ -368255,7 +371764,7 @@ entrypoints
 ]
 =
 {
-62557
+63290
 /
 *
 "
@@ -368263,7 +371772,7 @@ glVertexAttrib1sARB
 "
 *
 /
-62557
+63290
 /
 *
 "
@@ -368271,7 +371780,7 @@ glVertexAttrib1sARB
 "
 *
 /
-62540
+63273
 /
 *
 "
@@ -368279,7 +371788,7 @@ glVertexAttrib1s
 "
 *
 /
-62577
+63310
 /
 *
 "
@@ -368294,7 +371803,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62557
+63290
 /
 *
 "
@@ -368338,7 +371847,7 @@ entrypoints
 ]
 =
 {
-62577
+63310
 /
 *
 "
@@ -368346,7 +371855,7 @@ glVertexAttrib1sNV
 "
 *
 /
-62540
+63273
 /
 *
 "
@@ -368354,7 +371863,7 @@ glVertexAttrib1s
 "
 *
 /
-62557
+63290
 /
 *
 "
@@ -368362,7 +371871,7 @@ glVertexAttrib1sARB
 "
 *
 /
-62557
+63290
 /
 *
 "
@@ -368377,7 +371886,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62577
+63310
 /
 *
 "
@@ -368421,7 +371930,7 @@ entrypoints
 ]
 =
 {
-62596
+63329
 /
 *
 "
@@ -368429,7 +371938,7 @@ glVertexAttrib1sv
 "
 *
 /
-62614
+63347
 /
 *
 "
@@ -368437,7 +371946,7 @@ glVertexAttrib1svARB
 "
 *
 /
-62614
+63347
 /
 *
 "
@@ -368445,7 +371954,7 @@ glVertexAttrib1svARB
 "
 *
 /
-62635
+63368
 /
 *
 "
@@ -368460,7 +371969,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62596
+63329
 /
 *
 "
@@ -368504,7 +372013,7 @@ entrypoints
 ]
 =
 {
-62614
+63347
 /
 *
 "
@@ -368512,7 +372021,7 @@ glVertexAttrib1svARB
 "
 *
 /
-62614
+63347
 /
 *
 "
@@ -368520,7 +372029,7 @@ glVertexAttrib1svARB
 "
 *
 /
-62596
+63329
 /
 *
 "
@@ -368528,7 +372037,7 @@ glVertexAttrib1sv
 "
 *
 /
-62635
+63368
 /
 *
 "
@@ -368543,7 +372052,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62614
+63347
 /
 *
 "
@@ -368587,7 +372096,7 @@ entrypoints
 ]
 =
 {
-62635
+63368
 /
 *
 "
@@ -368595,7 +372104,7 @@ glVertexAttrib1svNV
 "
 *
 /
-62596
+63329
 /
 *
 "
@@ -368603,7 +372112,7 @@ glVertexAttrib1sv
 "
 *
 /
-62614
+63347
 /
 *
 "
@@ -368611,7 +372120,7 @@ glVertexAttrib1svARB
 "
 *
 /
-62614
+63347
 /
 *
 "
@@ -368626,7 +372135,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62635
+63368
 /
 *
 "
@@ -368670,7 +372179,7 @@ entrypoints
 ]
 =
 {
-62655
+63388
 /
 *
 "
@@ -368678,7 +372187,7 @@ glVertexAttrib2d
 "
 *
 /
-62672
+63405
 /
 *
 "
@@ -368686,7 +372195,7 @@ glVertexAttrib2dARB
 "
 *
 /
-62672
+63405
 /
 *
 "
@@ -368694,7 +372203,7 @@ glVertexAttrib2dARB
 "
 *
 /
-62692
+63425
 /
 *
 "
@@ -368709,7 +372218,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62655
+63388
 /
 *
 "
@@ -368753,7 +372262,7 @@ entrypoints
 ]
 =
 {
-62672
+63405
 /
 *
 "
@@ -368761,7 +372270,7 @@ glVertexAttrib2dARB
 "
 *
 /
-62672
+63405
 /
 *
 "
@@ -368769,7 +372278,7 @@ glVertexAttrib2dARB
 "
 *
 /
-62655
+63388
 /
 *
 "
@@ -368777,7 +372286,7 @@ glVertexAttrib2d
 "
 *
 /
-62692
+63425
 /
 *
 "
@@ -368792,7 +372301,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62672
+63405
 /
 *
 "
@@ -368836,7 +372345,7 @@ entrypoints
 ]
 =
 {
-62692
+63425
 /
 *
 "
@@ -368844,7 +372353,7 @@ glVertexAttrib2dNV
 "
 *
 /
-62655
+63388
 /
 *
 "
@@ -368852,7 +372361,7 @@ glVertexAttrib2d
 "
 *
 /
-62672
+63405
 /
 *
 "
@@ -368860,7 +372369,7 @@ glVertexAttrib2dARB
 "
 *
 /
-62672
+63405
 /
 *
 "
@@ -368875,7 +372384,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62692
+63425
 /
 *
 "
@@ -368919,7 +372428,7 @@ entrypoints
 ]
 =
 {
-62711
+63444
 /
 *
 "
@@ -368927,7 +372436,7 @@ glVertexAttrib2dv
 "
 *
 /
-62729
+63462
 /
 *
 "
@@ -368935,7 +372444,7 @@ glVertexAttrib2dvARB
 "
 *
 /
-62729
+63462
 /
 *
 "
@@ -368943,7 +372452,7 @@ glVertexAttrib2dvARB
 "
 *
 /
-62750
+63483
 /
 *
 "
@@ -368958,7 +372467,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62711
+63444
 /
 *
 "
@@ -369002,7 +372511,7 @@ entrypoints
 ]
 =
 {
-62729
+63462
 /
 *
 "
@@ -369010,7 +372519,7 @@ glVertexAttrib2dvARB
 "
 *
 /
-62729
+63462
 /
 *
 "
@@ -369018,7 +372527,7 @@ glVertexAttrib2dvARB
 "
 *
 /
-62711
+63444
 /
 *
 "
@@ -369026,7 +372535,7 @@ glVertexAttrib2dv
 "
 *
 /
-62750
+63483
 /
 *
 "
@@ -369041,7 +372550,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62729
+63462
 /
 *
 "
@@ -369085,7 +372594,7 @@ entrypoints
 ]
 =
 {
-62750
+63483
 /
 *
 "
@@ -369093,7 +372602,7 @@ glVertexAttrib2dvNV
 "
 *
 /
-62711
+63444
 /
 *
 "
@@ -369101,7 +372610,7 @@ glVertexAttrib2dv
 "
 *
 /
-62729
+63462
 /
 *
 "
@@ -369109,7 +372618,7 @@ glVertexAttrib2dvARB
 "
 *
 /
-62729
+63462
 /
 *
 "
@@ -369124,7 +372633,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62750
+63483
 /
 *
 "
@@ -369169,7 +372678,7 @@ entrypoints
 ]
 =
 {
-62770
+63503
 /
 *
 "
@@ -369177,7 +372686,7 @@ glVertexAttrib2f
 "
 *
 /
-62770
+63503
 /
 *
 "
@@ -369185,7 +372694,7 @@ glVertexAttrib2f
 "
 *
 /
-62787
+63520
 /
 *
 "
@@ -369193,7 +372702,7 @@ glVertexAttrib2fARB
 "
 *
 /
-62787
+63520
 /
 *
 "
@@ -369201,7 +372710,7 @@ glVertexAttrib2fARB
 "
 *
 /
-62807
+63540
 /
 *
 "
@@ -369216,7 +372725,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62770
+63503
 /
 *
 "
@@ -369261,7 +372770,7 @@ entrypoints
 ]
 =
 {
-62787
+63520
 /
 *
 "
@@ -369269,7 +372778,7 @@ glVertexAttrib2fARB
 "
 *
 /
-62787
+63520
 /
 *
 "
@@ -369277,7 +372786,7 @@ glVertexAttrib2fARB
 "
 *
 /
-62770
+63503
 /
 *
 "
@@ -369285,7 +372794,7 @@ glVertexAttrib2f
 "
 *
 /
-62770
+63503
 /
 *
 "
@@ -369293,7 +372802,7 @@ glVertexAttrib2f
 "
 *
 /
-62807
+63540
 /
 *
 "
@@ -369308,7 +372817,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62787
+63520
 /
 *
 "
@@ -369353,7 +372862,7 @@ entrypoints
 ]
 =
 {
-62807
+63540
 /
 *
 "
@@ -369361,7 +372870,7 @@ glVertexAttrib2fNV
 "
 *
 /
-62770
+63503
 /
 *
 "
@@ -369369,7 +372878,7 @@ glVertexAttrib2f
 "
 *
 /
-62770
+63503
 /
 *
 "
@@ -369377,7 +372886,7 @@ glVertexAttrib2f
 "
 *
 /
-62787
+63520
 /
 *
 "
@@ -369385,7 +372894,7 @@ glVertexAttrib2fARB
 "
 *
 /
-62787
+63520
 /
 *
 "
@@ -369400,7 +372909,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62807
+63540
 /
 *
 "
@@ -369445,7 +372954,7 @@ entrypoints
 ]
 =
 {
-62826
+63559
 /
 *
 "
@@ -369453,7 +372962,7 @@ glVertexAttrib2fv
 "
 *
 /
-62826
+63559
 /
 *
 "
@@ -369461,7 +372970,7 @@ glVertexAttrib2fv
 "
 *
 /
-62844
+63577
 /
 *
 "
@@ -369469,7 +372978,7 @@ glVertexAttrib2fvARB
 "
 *
 /
-62844
+63577
 /
 *
 "
@@ -369477,7 +372986,7 @@ glVertexAttrib2fvARB
 "
 *
 /
-62865
+63598
 /
 *
 "
@@ -369492,7 +373001,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62826
+63559
 /
 *
 "
@@ -369537,7 +373046,7 @@ entrypoints
 ]
 =
 {
-62844
+63577
 /
 *
 "
@@ -369545,7 +373054,7 @@ glVertexAttrib2fvARB
 "
 *
 /
-62844
+63577
 /
 *
 "
@@ -369553,7 +373062,7 @@ glVertexAttrib2fvARB
 "
 *
 /
-62826
+63559
 /
 *
 "
@@ -369561,7 +373070,7 @@ glVertexAttrib2fv
 "
 *
 /
-62826
+63559
 /
 *
 "
@@ -369569,7 +373078,7 @@ glVertexAttrib2fv
 "
 *
 /
-62865
+63598
 /
 *
 "
@@ -369584,7 +373093,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62844
+63577
 /
 *
 "
@@ -369629,7 +373138,7 @@ entrypoints
 ]
 =
 {
-62865
+63598
 /
 *
 "
@@ -369637,7 +373146,7 @@ glVertexAttrib2fvNV
 "
 *
 /
-62826
+63559
 /
 *
 "
@@ -369645,7 +373154,7 @@ glVertexAttrib2fv
 "
 *
 /
-62826
+63559
 /
 *
 "
@@ -369653,7 +373162,7 @@ glVertexAttrib2fv
 "
 *
 /
-62844
+63577
 /
 *
 "
@@ -369661,7 +373170,7 @@ glVertexAttrib2fvARB
 "
 *
 /
-62844
+63577
 /
 *
 "
@@ -369676,7 +373185,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62865
+63598
 /
 *
 "
@@ -369700,7 +373209,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-62885
+63618
 /
 *
 glVertexAttrib2hNV
@@ -369720,7 +373229,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-62904
+63637
 /
 *
 glVertexAttrib2hvNV
@@ -369760,7 +373269,7 @@ entrypoints
 ]
 =
 {
-62924
+63657
 /
 *
 "
@@ -369768,7 +373277,7 @@ glVertexAttrib2s
 "
 *
 /
-62941
+63674
 /
 *
 "
@@ -369776,7 +373285,7 @@ glVertexAttrib2sARB
 "
 *
 /
-62941
+63674
 /
 *
 "
@@ -369784,7 +373293,7 @@ glVertexAttrib2sARB
 "
 *
 /
-62961
+63694
 /
 *
 "
@@ -369799,7 +373308,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62924
+63657
 /
 *
 "
@@ -369843,7 +373352,7 @@ entrypoints
 ]
 =
 {
-62941
+63674
 /
 *
 "
@@ -369851,7 +373360,7 @@ glVertexAttrib2sARB
 "
 *
 /
-62941
+63674
 /
 *
 "
@@ -369859,7 +373368,7 @@ glVertexAttrib2sARB
 "
 *
 /
-62924
+63657
 /
 *
 "
@@ -369867,7 +373376,7 @@ glVertexAttrib2s
 "
 *
 /
-62961
+63694
 /
 *
 "
@@ -369882,7 +373391,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62941
+63674
 /
 *
 "
@@ -369926,7 +373435,7 @@ entrypoints
 ]
 =
 {
-62961
+63694
 /
 *
 "
@@ -369934,7 +373443,7 @@ glVertexAttrib2sNV
 "
 *
 /
-62924
+63657
 /
 *
 "
@@ -369942,7 +373451,7 @@ glVertexAttrib2s
 "
 *
 /
-62941
+63674
 /
 *
 "
@@ -369950,7 +373459,7 @@ glVertexAttrib2sARB
 "
 *
 /
-62941
+63674
 /
 *
 "
@@ -369965,7 +373474,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62961
+63694
 /
 *
 "
@@ -370009,7 +373518,7 @@ entrypoints
 ]
 =
 {
-62980
+63713
 /
 *
 "
@@ -370017,7 +373526,7 @@ glVertexAttrib2sv
 "
 *
 /
-62998
+63731
 /
 *
 "
@@ -370025,7 +373534,7 @@ glVertexAttrib2svARB
 "
 *
 /
-62998
+63731
 /
 *
 "
@@ -370033,7 +373542,7 @@ glVertexAttrib2svARB
 "
 *
 /
-63019
+63752
 /
 *
 "
@@ -370048,7 +373557,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62980
+63713
 /
 *
 "
@@ -370092,7 +373601,7 @@ entrypoints
 ]
 =
 {
-62998
+63731
 /
 *
 "
@@ -370100,7 +373609,7 @@ glVertexAttrib2svARB
 "
 *
 /
-62998
+63731
 /
 *
 "
@@ -370108,7 +373617,7 @@ glVertexAttrib2svARB
 "
 *
 /
-62980
+63713
 /
 *
 "
@@ -370116,7 +373625,7 @@ glVertexAttrib2sv
 "
 *
 /
-63019
+63752
 /
 *
 "
@@ -370131,7 +373640,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-62998
+63731
 /
 *
 "
@@ -370175,7 +373684,7 @@ entrypoints
 ]
 =
 {
-63019
+63752
 /
 *
 "
@@ -370183,7 +373692,7 @@ glVertexAttrib2svNV
 "
 *
 /
-62980
+63713
 /
 *
 "
@@ -370191,7 +373700,7 @@ glVertexAttrib2sv
 "
 *
 /
-62998
+63731
 /
 *
 "
@@ -370199,7 +373708,7 @@ glVertexAttrib2svARB
 "
 *
 /
-62998
+63731
 /
 *
 "
@@ -370214,7 +373723,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63019
+63752
 /
 *
 "
@@ -370258,7 +373767,7 @@ entrypoints
 ]
 =
 {
-63039
+63772
 /
 *
 "
@@ -370266,7 +373775,7 @@ glVertexAttrib3d
 "
 *
 /
-63056
+63789
 /
 *
 "
@@ -370274,7 +373783,7 @@ glVertexAttrib3dARB
 "
 *
 /
-63056
+63789
 /
 *
 "
@@ -370282,7 +373791,7 @@ glVertexAttrib3dARB
 "
 *
 /
-63076
+63809
 /
 *
 "
@@ -370297,7 +373806,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63039
+63772
 /
 *
 "
@@ -370341,7 +373850,7 @@ entrypoints
 ]
 =
 {
-63056
+63789
 /
 *
 "
@@ -370349,7 +373858,7 @@ glVertexAttrib3dARB
 "
 *
 /
-63056
+63789
 /
 *
 "
@@ -370357,7 +373866,7 @@ glVertexAttrib3dARB
 "
 *
 /
-63039
+63772
 /
 *
 "
@@ -370365,7 +373874,7 @@ glVertexAttrib3d
 "
 *
 /
-63076
+63809
 /
 *
 "
@@ -370380,7 +373889,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63056
+63789
 /
 *
 "
@@ -370424,7 +373933,7 @@ entrypoints
 ]
 =
 {
-63076
+63809
 /
 *
 "
@@ -370432,7 +373941,7 @@ glVertexAttrib3dNV
 "
 *
 /
-63039
+63772
 /
 *
 "
@@ -370440,7 +373949,7 @@ glVertexAttrib3d
 "
 *
 /
-63056
+63789
 /
 *
 "
@@ -370448,7 +373957,7 @@ glVertexAttrib3dARB
 "
 *
 /
-63056
+63789
 /
 *
 "
@@ -370463,7 +373972,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63076
+63809
 /
 *
 "
@@ -370507,7 +374016,7 @@ entrypoints
 ]
 =
 {
-63095
+63828
 /
 *
 "
@@ -370515,7 +374024,7 @@ glVertexAttrib3dv
 "
 *
 /
-63113
+63846
 /
 *
 "
@@ -370523,7 +374032,7 @@ glVertexAttrib3dvARB
 "
 *
 /
-63113
+63846
 /
 *
 "
@@ -370531,7 +374040,7 @@ glVertexAttrib3dvARB
 "
 *
 /
-63134
+63867
 /
 *
 "
@@ -370546,7 +374055,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63095
+63828
 /
 *
 "
@@ -370590,7 +374099,7 @@ entrypoints
 ]
 =
 {
-63113
+63846
 /
 *
 "
@@ -370598,7 +374107,7 @@ glVertexAttrib3dvARB
 "
 *
 /
-63113
+63846
 /
 *
 "
@@ -370606,7 +374115,7 @@ glVertexAttrib3dvARB
 "
 *
 /
-63095
+63828
 /
 *
 "
@@ -370614,7 +374123,7 @@ glVertexAttrib3dv
 "
 *
 /
-63134
+63867
 /
 *
 "
@@ -370629,7 +374138,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63113
+63846
 /
 *
 "
@@ -370673,7 +374182,7 @@ entrypoints
 ]
 =
 {
-63134
+63867
 /
 *
 "
@@ -370681,7 +374190,7 @@ glVertexAttrib3dvNV
 "
 *
 /
-63095
+63828
 /
 *
 "
@@ -370689,7 +374198,7 @@ glVertexAttrib3dv
 "
 *
 /
-63113
+63846
 /
 *
 "
@@ -370697,7 +374206,7 @@ glVertexAttrib3dvARB
 "
 *
 /
-63113
+63846
 /
 *
 "
@@ -370712,7 +374221,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63134
+63867
 /
 *
 "
@@ -370757,7 +374266,7 @@ entrypoints
 ]
 =
 {
-63154
+63887
 /
 *
 "
@@ -370765,7 +374274,7 @@ glVertexAttrib3f
 "
 *
 /
-63154
+63887
 /
 *
 "
@@ -370773,7 +374282,7 @@ glVertexAttrib3f
 "
 *
 /
-63171
+63904
 /
 *
 "
@@ -370781,7 +374290,7 @@ glVertexAttrib3fARB
 "
 *
 /
-63171
+63904
 /
 *
 "
@@ -370789,7 +374298,7 @@ glVertexAttrib3fARB
 "
 *
 /
-63191
+63924
 /
 *
 "
@@ -370804,7 +374313,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63154
+63887
 /
 *
 "
@@ -370849,7 +374358,7 @@ entrypoints
 ]
 =
 {
-63171
+63904
 /
 *
 "
@@ -370857,7 +374366,7 @@ glVertexAttrib3fARB
 "
 *
 /
-63171
+63904
 /
 *
 "
@@ -370865,7 +374374,7 @@ glVertexAttrib3fARB
 "
 *
 /
-63154
+63887
 /
 *
 "
@@ -370873,7 +374382,7 @@ glVertexAttrib3f
 "
 *
 /
-63154
+63887
 /
 *
 "
@@ -370881,7 +374390,7 @@ glVertexAttrib3f
 "
 *
 /
-63191
+63924
 /
 *
 "
@@ -370896,7 +374405,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63171
+63904
 /
 *
 "
@@ -370941,7 +374450,7 @@ entrypoints
 ]
 =
 {
-63191
+63924
 /
 *
 "
@@ -370949,7 +374458,7 @@ glVertexAttrib3fNV
 "
 *
 /
-63154
+63887
 /
 *
 "
@@ -370957,7 +374466,7 @@ glVertexAttrib3f
 "
 *
 /
-63154
+63887
 /
 *
 "
@@ -370965,7 +374474,7 @@ glVertexAttrib3f
 "
 *
 /
-63171
+63904
 /
 *
 "
@@ -370973,7 +374482,7 @@ glVertexAttrib3fARB
 "
 *
 /
-63171
+63904
 /
 *
 "
@@ -370988,7 +374497,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63191
+63924
 /
 *
 "
@@ -371033,7 +374542,7 @@ entrypoints
 ]
 =
 {
-63210
+63943
 /
 *
 "
@@ -371041,7 +374550,7 @@ glVertexAttrib3fv
 "
 *
 /
-63210
+63943
 /
 *
 "
@@ -371049,7 +374558,7 @@ glVertexAttrib3fv
 "
 *
 /
-63228
+63961
 /
 *
 "
@@ -371057,7 +374566,7 @@ glVertexAttrib3fvARB
 "
 *
 /
-63228
+63961
 /
 *
 "
@@ -371065,7 +374574,7 @@ glVertexAttrib3fvARB
 "
 *
 /
-63249
+63982
 /
 *
 "
@@ -371080,7 +374589,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63210
+63943
 /
 *
 "
@@ -371125,7 +374634,7 @@ entrypoints
 ]
 =
 {
-63228
+63961
 /
 *
 "
@@ -371133,7 +374642,7 @@ glVertexAttrib3fvARB
 "
 *
 /
-63228
+63961
 /
 *
 "
@@ -371141,7 +374650,7 @@ glVertexAttrib3fvARB
 "
 *
 /
-63210
+63943
 /
 *
 "
@@ -371149,7 +374658,7 @@ glVertexAttrib3fv
 "
 *
 /
-63210
+63943
 /
 *
 "
@@ -371157,7 +374666,7 @@ glVertexAttrib3fv
 "
 *
 /
-63249
+63982
 /
 *
 "
@@ -371172,7 +374681,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63228
+63961
 /
 *
 "
@@ -371217,7 +374726,7 @@ entrypoints
 ]
 =
 {
-63249
+63982
 /
 *
 "
@@ -371225,7 +374734,7 @@ glVertexAttrib3fvNV
 "
 *
 /
-63210
+63943
 /
 *
 "
@@ -371233,7 +374742,7 @@ glVertexAttrib3fv
 "
 *
 /
-63210
+63943
 /
 *
 "
@@ -371241,7 +374750,7 @@ glVertexAttrib3fv
 "
 *
 /
-63228
+63961
 /
 *
 "
@@ -371249,7 +374758,7 @@ glVertexAttrib3fvARB
 "
 *
 /
-63228
+63961
 /
 *
 "
@@ -371264,7 +374773,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63249
+63982
 /
 *
 "
@@ -371288,7 +374797,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-63269
+64002
 /
 *
 glVertexAttrib3hNV
@@ -371308,7 +374817,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-63288
+64021
 /
 *
 glVertexAttrib3hvNV
@@ -371348,7 +374857,7 @@ entrypoints
 ]
 =
 {
-63308
+64041
 /
 *
 "
@@ -371356,7 +374865,7 @@ glVertexAttrib3s
 "
 *
 /
-63325
+64058
 /
 *
 "
@@ -371364,7 +374873,7 @@ glVertexAttrib3sARB
 "
 *
 /
-63325
+64058
 /
 *
 "
@@ -371372,7 +374881,7 @@ glVertexAttrib3sARB
 "
 *
 /
-63345
+64078
 /
 *
 "
@@ -371387,7 +374896,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63308
+64041
 /
 *
 "
@@ -371431,7 +374940,7 @@ entrypoints
 ]
 =
 {
-63325
+64058
 /
 *
 "
@@ -371439,7 +374948,7 @@ glVertexAttrib3sARB
 "
 *
 /
-63325
+64058
 /
 *
 "
@@ -371447,7 +374956,7 @@ glVertexAttrib3sARB
 "
 *
 /
-63308
+64041
 /
 *
 "
@@ -371455,7 +374964,7 @@ glVertexAttrib3s
 "
 *
 /
-63345
+64078
 /
 *
 "
@@ -371470,7 +374979,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63325
+64058
 /
 *
 "
@@ -371514,7 +375023,7 @@ entrypoints
 ]
 =
 {
-63345
+64078
 /
 *
 "
@@ -371522,7 +375031,7 @@ glVertexAttrib3sNV
 "
 *
 /
-63308
+64041
 /
 *
 "
@@ -371530,7 +375039,7 @@ glVertexAttrib3s
 "
 *
 /
-63325
+64058
 /
 *
 "
@@ -371538,7 +375047,7 @@ glVertexAttrib3sARB
 "
 *
 /
-63325
+64058
 /
 *
 "
@@ -371553,7 +375062,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63345
+64078
 /
 *
 "
@@ -371597,7 +375106,7 @@ entrypoints
 ]
 =
 {
-63364
+64097
 /
 *
 "
@@ -371605,7 +375114,7 @@ glVertexAttrib3sv
 "
 *
 /
-63382
+64115
 /
 *
 "
@@ -371613,7 +375122,7 @@ glVertexAttrib3svARB
 "
 *
 /
-63382
+64115
 /
 *
 "
@@ -371621,7 +375130,7 @@ glVertexAttrib3svARB
 "
 *
 /
-63403
+64136
 /
 *
 "
@@ -371636,7 +375145,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63364
+64097
 /
 *
 "
@@ -371680,7 +375189,7 @@ entrypoints
 ]
 =
 {
-63382
+64115
 /
 *
 "
@@ -371688,7 +375197,7 @@ glVertexAttrib3svARB
 "
 *
 /
-63382
+64115
 /
 *
 "
@@ -371696,7 +375205,7 @@ glVertexAttrib3svARB
 "
 *
 /
-63364
+64097
 /
 *
 "
@@ -371704,7 +375213,7 @@ glVertexAttrib3sv
 "
 *
 /
-63403
+64136
 /
 *
 "
@@ -371719,7 +375228,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63382
+64115
 /
 *
 "
@@ -371763,7 +375272,7 @@ entrypoints
 ]
 =
 {
-63403
+64136
 /
 *
 "
@@ -371771,7 +375280,7 @@ glVertexAttrib3svNV
 "
 *
 /
-63364
+64097
 /
 *
 "
@@ -371779,7 +375288,7 @@ glVertexAttrib3sv
 "
 *
 /
-63382
+64115
 /
 *
 "
@@ -371787,7 +375296,7 @@ glVertexAttrib3svARB
 "
 *
 /
-63382
+64115
 /
 *
 "
@@ -371802,7 +375311,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63403
+64136
 /
 *
 "
@@ -371845,7 +375354,7 @@ entrypoints
 ]
 =
 {
-63423
+64156
 /
 *
 "
@@ -371853,7 +375362,7 @@ glVertexAttrib4Nbv
 "
 *
 /
-63442
+64175
 /
 *
 "
@@ -371861,7 +375370,7 @@ glVertexAttrib4NbvARB
 "
 *
 /
-63442
+64175
 /
 *
 "
@@ -371876,7 +375385,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63423
+64156
 /
 *
 "
@@ -371919,7 +375428,7 @@ entrypoints
 ]
 =
 {
-63442
+64175
 /
 *
 "
@@ -371927,7 +375436,7 @@ glVertexAttrib4NbvARB
 "
 *
 /
-63442
+64175
 /
 *
 "
@@ -371935,7 +375444,7 @@ glVertexAttrib4NbvARB
 "
 *
 /
-63423
+64156
 /
 *
 "
@@ -371950,7 +375459,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63442
+64175
 /
 *
 "
@@ -371993,7 +375502,7 @@ entrypoints
 ]
 =
 {
-63464
+64197
 /
 *
 "
@@ -372001,7 +375510,7 @@ glVertexAttrib4Niv
 "
 *
 /
-63483
+64216
 /
 *
 "
@@ -372009,7 +375518,7 @@ glVertexAttrib4NivARB
 "
 *
 /
-63483
+64216
 /
 *
 "
@@ -372024,7 +375533,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63464
+64197
 /
 *
 "
@@ -372067,7 +375576,7 @@ entrypoints
 ]
 =
 {
-63483
+64216
 /
 *
 "
@@ -372075,7 +375584,7 @@ glVertexAttrib4NivARB
 "
 *
 /
-63483
+64216
 /
 *
 "
@@ -372083,7 +375592,7 @@ glVertexAttrib4NivARB
 "
 *
 /
-63464
+64197
 /
 *
 "
@@ -372098,7 +375607,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63483
+64216
 /
 *
 "
@@ -372141,7 +375650,7 @@ entrypoints
 ]
 =
 {
-63505
+64238
 /
 *
 "
@@ -372149,7 +375658,7 @@ glVertexAttrib4Nsv
 "
 *
 /
-63524
+64257
 /
 *
 "
@@ -372157,7 +375666,7 @@ glVertexAttrib4NsvARB
 "
 *
 /
-63524
+64257
 /
 *
 "
@@ -372172,7 +375681,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63505
+64238
 /
 *
 "
@@ -372215,7 +375724,7 @@ entrypoints
 ]
 =
 {
-63524
+64257
 /
 *
 "
@@ -372223,7 +375732,7 @@ glVertexAttrib4NsvARB
 "
 *
 /
-63524
+64257
 /
 *
 "
@@ -372231,7 +375740,7 @@ glVertexAttrib4NsvARB
 "
 *
 /
-63505
+64238
 /
 *
 "
@@ -372246,7 +375755,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63524
+64257
 /
 *
 "
@@ -372290,7 +375799,7 @@ entrypoints
 ]
 =
 {
-63546
+64279
 /
 *
 "
@@ -372298,7 +375807,7 @@ glVertexAttrib4Nub
 "
 *
 /
-63565
+64298
 /
 *
 "
@@ -372306,7 +375815,7 @@ glVertexAttrib4NubARB
 "
 *
 /
-63565
+64298
 /
 *
 "
@@ -372314,7 +375823,7 @@ glVertexAttrib4NubARB
 "
 *
 /
-64178
+64911
 /
 *
 "
@@ -372329,7 +375838,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63546
+64279
 /
 *
 "
@@ -372373,7 +375882,7 @@ entrypoints
 ]
 =
 {
-63565
+64298
 /
 *
 "
@@ -372381,7 +375890,7 @@ glVertexAttrib4NubARB
 "
 *
 /
-63565
+64298
 /
 *
 "
@@ -372389,7 +375898,7 @@ glVertexAttrib4NubARB
 "
 *
 /
-63546
+64279
 /
 *
 "
@@ -372397,7 +375906,7 @@ glVertexAttrib4Nub
 "
 *
 /
-64178
+64911
 /
 *
 "
@@ -372412,7 +375921,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63565
+64298
 /
 *
 "
@@ -372456,7 +375965,7 @@ entrypoints
 ]
 =
 {
-63587
+64320
 /
 *
 "
@@ -372464,7 +375973,7 @@ glVertexAttrib4Nubv
 "
 *
 /
-63607
+64340
 /
 *
 "
@@ -372472,7 +375981,7 @@ glVertexAttrib4NubvARB
 "
 *
 /
-63607
+64340
 /
 *
 "
@@ -372480,7 +375989,7 @@ glVertexAttrib4NubvARB
 "
 *
 /
-64239
+64972
 /
 *
 "
@@ -372495,7 +376004,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63587
+64320
 /
 *
 "
@@ -372539,7 +376048,7 @@ entrypoints
 ]
 =
 {
-63607
+64340
 /
 *
 "
@@ -372547,7 +376056,7 @@ glVertexAttrib4NubvARB
 "
 *
 /
-63607
+64340
 /
 *
 "
@@ -372555,7 +376064,7 @@ glVertexAttrib4NubvARB
 "
 *
 /
-63587
+64320
 /
 *
 "
@@ -372563,7 +376072,7 @@ glVertexAttrib4Nubv
 "
 *
 /
-64239
+64972
 /
 *
 "
@@ -372578,7 +376087,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63607
+64340
 /
 *
 "
@@ -372621,7 +376130,7 @@ entrypoints
 ]
 =
 {
-63630
+64363
 /
 *
 "
@@ -372629,7 +376138,7 @@ glVertexAttrib4Nuiv
 "
 *
 /
-63650
+64383
 /
 *
 "
@@ -372637,7 +376146,7 @@ glVertexAttrib4NuivARB
 "
 *
 /
-63650
+64383
 /
 *
 "
@@ -372652,7 +376161,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63630
+64363
 /
 *
 "
@@ -372695,7 +376204,7 @@ entrypoints
 ]
 =
 {
-63650
+64383
 /
 *
 "
@@ -372703,7 +376212,7 @@ glVertexAttrib4NuivARB
 "
 *
 /
-63650
+64383
 /
 *
 "
@@ -372711,7 +376220,7 @@ glVertexAttrib4NuivARB
 "
 *
 /
-63630
+64363
 /
 *
 "
@@ -372726,7 +376235,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63650
+64383
 /
 *
 "
@@ -372769,7 +376278,7 @@ entrypoints
 ]
 =
 {
-63673
+64406
 /
 *
 "
@@ -372777,7 +376286,7 @@ glVertexAttrib4Nusv
 "
 *
 /
-63693
+64426
 /
 *
 "
@@ -372785,7 +376294,7 @@ glVertexAttrib4NusvARB
 "
 *
 /
-63693
+64426
 /
 *
 "
@@ -372800,7 +376309,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63673
+64406
 /
 *
 "
@@ -372843,7 +376352,7 @@ entrypoints
 ]
 =
 {
-63693
+64426
 /
 *
 "
@@ -372851,7 +376360,7 @@ glVertexAttrib4NusvARB
 "
 *
 /
-63693
+64426
 /
 *
 "
@@ -372859,7 +376368,7 @@ glVertexAttrib4NusvARB
 "
 *
 /
-63673
+64406
 /
 *
 "
@@ -372874,7 +376383,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63693
+64426
 /
 *
 "
@@ -372917,7 +376426,7 @@ entrypoints
 ]
 =
 {
-63716
+64449
 /
 *
 "
@@ -372925,7 +376434,7 @@ glVertexAttrib4bv
 "
 *
 /
-63734
+64467
 /
 *
 "
@@ -372933,7 +376442,7 @@ glVertexAttrib4bvARB
 "
 *
 /
-63734
+64467
 /
 *
 "
@@ -372948,7 +376457,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63716
+64449
 /
 *
 "
@@ -372991,7 +376500,7 @@ entrypoints
 ]
 =
 {
-63734
+64467
 /
 *
 "
@@ -372999,7 +376508,7 @@ glVertexAttrib4bvARB
 "
 *
 /
-63734
+64467
 /
 *
 "
@@ -373007,7 +376516,7 @@ glVertexAttrib4bvARB
 "
 *
 /
-63716
+64449
 /
 *
 "
@@ -373022,7 +376531,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63734
+64467
 /
 *
 "
@@ -373066,7 +376575,7 @@ entrypoints
 ]
 =
 {
-63755
+64488
 /
 *
 "
@@ -373074,7 +376583,7 @@ glVertexAttrib4d
 "
 *
 /
-63772
+64505
 /
 *
 "
@@ -373082,7 +376591,7 @@ glVertexAttrib4dARB
 "
 *
 /
-63772
+64505
 /
 *
 "
@@ -373090,7 +376599,7 @@ glVertexAttrib4dARB
 "
 *
 /
-63792
+64525
 /
 *
 "
@@ -373105,7 +376614,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63755
+64488
 /
 *
 "
@@ -373149,7 +376658,7 @@ entrypoints
 ]
 =
 {
-63772
+64505
 /
 *
 "
@@ -373157,7 +376666,7 @@ glVertexAttrib4dARB
 "
 *
 /
-63772
+64505
 /
 *
 "
@@ -373165,7 +376674,7 @@ glVertexAttrib4dARB
 "
 *
 /
-63755
+64488
 /
 *
 "
@@ -373173,7 +376682,7 @@ glVertexAttrib4d
 "
 *
 /
-63792
+64525
 /
 *
 "
@@ -373188,7 +376697,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63772
+64505
 /
 *
 "
@@ -373232,7 +376741,7 @@ entrypoints
 ]
 =
 {
-63792
+64525
 /
 *
 "
@@ -373240,7 +376749,7 @@ glVertexAttrib4dNV
 "
 *
 /
-63755
+64488
 /
 *
 "
@@ -373248,7 +376757,7 @@ glVertexAttrib4d
 "
 *
 /
-63772
+64505
 /
 *
 "
@@ -373256,7 +376765,7 @@ glVertexAttrib4dARB
 "
 *
 /
-63772
+64505
 /
 *
 "
@@ -373271,7 +376780,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63792
+64525
 /
 *
 "
@@ -373315,7 +376824,7 @@ entrypoints
 ]
 =
 {
-63811
+64544
 /
 *
 "
@@ -373323,7 +376832,7 @@ glVertexAttrib4dv
 "
 *
 /
-63829
+64562
 /
 *
 "
@@ -373331,7 +376840,7 @@ glVertexAttrib4dvARB
 "
 *
 /
-63829
+64562
 /
 *
 "
@@ -373339,7 +376848,7 @@ glVertexAttrib4dvARB
 "
 *
 /
-63850
+64583
 /
 *
 "
@@ -373354,7 +376863,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63811
+64544
 /
 *
 "
@@ -373398,7 +376907,7 @@ entrypoints
 ]
 =
 {
-63829
+64562
 /
 *
 "
@@ -373406,7 +376915,7 @@ glVertexAttrib4dvARB
 "
 *
 /
-63829
+64562
 /
 *
 "
@@ -373414,7 +376923,7 @@ glVertexAttrib4dvARB
 "
 *
 /
-63811
+64544
 /
 *
 "
@@ -373422,7 +376931,7 @@ glVertexAttrib4dv
 "
 *
 /
-63850
+64583
 /
 *
 "
@@ -373437,7 +376946,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63829
+64562
 /
 *
 "
@@ -373481,7 +376990,7 @@ entrypoints
 ]
 =
 {
-63850
+64583
 /
 *
 "
@@ -373489,7 +376998,7 @@ glVertexAttrib4dvNV
 "
 *
 /
-63811
+64544
 /
 *
 "
@@ -373497,7 +377006,7 @@ glVertexAttrib4dv
 "
 *
 /
-63829
+64562
 /
 *
 "
@@ -373505,7 +377014,7 @@ glVertexAttrib4dvARB
 "
 *
 /
-63829
+64562
 /
 *
 "
@@ -373520,7 +377029,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63850
+64583
 /
 *
 "
@@ -373565,7 +377074,7 @@ entrypoints
 ]
 =
 {
-63870
+64603
 /
 *
 "
@@ -373573,7 +377082,7 @@ glVertexAttrib4f
 "
 *
 /
-63870
+64603
 /
 *
 "
@@ -373581,7 +377090,7 @@ glVertexAttrib4f
 "
 *
 /
-63887
+64620
 /
 *
 "
@@ -373589,7 +377098,7 @@ glVertexAttrib4fARB
 "
 *
 /
-63887
+64620
 /
 *
 "
@@ -373597,7 +377106,7 @@ glVertexAttrib4fARB
 "
 *
 /
-63907
+64640
 /
 *
 "
@@ -373612,7 +377121,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63870
+64603
 /
 *
 "
@@ -373657,7 +377166,7 @@ entrypoints
 ]
 =
 {
-63887
+64620
 /
 *
 "
@@ -373665,7 +377174,7 @@ glVertexAttrib4fARB
 "
 *
 /
-63887
+64620
 /
 *
 "
@@ -373673,7 +377182,7 @@ glVertexAttrib4fARB
 "
 *
 /
-63870
+64603
 /
 *
 "
@@ -373681,7 +377190,7 @@ glVertexAttrib4f
 "
 *
 /
-63870
+64603
 /
 *
 "
@@ -373689,7 +377198,7 @@ glVertexAttrib4f
 "
 *
 /
-63907
+64640
 /
 *
 "
@@ -373704,7 +377213,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63887
+64620
 /
 *
 "
@@ -373749,7 +377258,7 @@ entrypoints
 ]
 =
 {
-63907
+64640
 /
 *
 "
@@ -373757,7 +377266,7 @@ glVertexAttrib4fNV
 "
 *
 /
-63870
+64603
 /
 *
 "
@@ -373765,7 +377274,7 @@ glVertexAttrib4f
 "
 *
 /
-63870
+64603
 /
 *
 "
@@ -373773,7 +377282,7 @@ glVertexAttrib4f
 "
 *
 /
-63887
+64620
 /
 *
 "
@@ -373781,7 +377290,7 @@ glVertexAttrib4fARB
 "
 *
 /
-63887
+64620
 /
 *
 "
@@ -373796,7 +377305,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63907
+64640
 /
 *
 "
@@ -373841,7 +377350,7 @@ entrypoints
 ]
 =
 {
-63926
+64659
 /
 *
 "
@@ -373849,7 +377358,7 @@ glVertexAttrib4fv
 "
 *
 /
-63926
+64659
 /
 *
 "
@@ -373857,7 +377366,7 @@ glVertexAttrib4fv
 "
 *
 /
-63944
+64677
 /
 *
 "
@@ -373865,7 +377374,7 @@ glVertexAttrib4fvARB
 "
 *
 /
-63944
+64677
 /
 *
 "
@@ -373873,7 +377382,7 @@ glVertexAttrib4fvARB
 "
 *
 /
-63965
+64698
 /
 *
 "
@@ -373888,7 +377397,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63926
+64659
 /
 *
 "
@@ -373933,7 +377442,7 @@ entrypoints
 ]
 =
 {
-63944
+64677
 /
 *
 "
@@ -373941,7 +377450,7 @@ glVertexAttrib4fvARB
 "
 *
 /
-63944
+64677
 /
 *
 "
@@ -373949,7 +377458,7 @@ glVertexAttrib4fvARB
 "
 *
 /
-63926
+64659
 /
 *
 "
@@ -373957,7 +377466,7 @@ glVertexAttrib4fv
 "
 *
 /
-63926
+64659
 /
 *
 "
@@ -373965,7 +377474,7 @@ glVertexAttrib4fv
 "
 *
 /
-63965
+64698
 /
 *
 "
@@ -373980,7 +377489,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63944
+64677
 /
 *
 "
@@ -374025,7 +377534,7 @@ entrypoints
 ]
 =
 {
-63965
+64698
 /
 *
 "
@@ -374033,7 +377542,7 @@ glVertexAttrib4fvNV
 "
 *
 /
-63926
+64659
 /
 *
 "
@@ -374041,7 +377550,7 @@ glVertexAttrib4fv
 "
 *
 /
-63926
+64659
 /
 *
 "
@@ -374049,7 +377558,7 @@ glVertexAttrib4fv
 "
 *
 /
-63944
+64677
 /
 *
 "
@@ -374057,7 +377566,7 @@ glVertexAttrib4fvARB
 "
 *
 /
-63944
+64677
 /
 *
 "
@@ -374072,7 +377581,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-63965
+64698
 /
 *
 "
@@ -374096,7 +377605,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-63985
+64718
 /
 *
 glVertexAttrib4hNV
@@ -374116,7 +377625,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-64004
+64737
 /
 *
 glVertexAttrib4hvNV
@@ -374155,7 +377664,7 @@ entrypoints
 ]
 =
 {
-64024
+64757
 /
 *
 "
@@ -374163,7 +377672,7 @@ glVertexAttrib4iv
 "
 *
 /
-64042
+64775
 /
 *
 "
@@ -374171,7 +377680,7 @@ glVertexAttrib4ivARB
 "
 *
 /
-64042
+64775
 /
 *
 "
@@ -374186,7 +377695,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64024
+64757
 /
 *
 "
@@ -374229,7 +377738,7 @@ entrypoints
 ]
 =
 {
-64042
+64775
 /
 *
 "
@@ -374237,7 +377746,7 @@ glVertexAttrib4ivARB
 "
 *
 /
-64042
+64775
 /
 *
 "
@@ -374245,7 +377754,7 @@ glVertexAttrib4ivARB
 "
 *
 /
-64024
+64757
 /
 *
 "
@@ -374260,7 +377769,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64042
+64775
 /
 *
 "
@@ -374304,7 +377813,7 @@ entrypoints
 ]
 =
 {
-64063
+64796
 /
 *
 "
@@ -374312,7 +377821,7 @@ glVertexAttrib4s
 "
 *
 /
-64080
+64813
 /
 *
 "
@@ -374320,7 +377829,7 @@ glVertexAttrib4sARB
 "
 *
 /
-64080
+64813
 /
 *
 "
@@ -374328,7 +377837,7 @@ glVertexAttrib4sARB
 "
 *
 /
-64100
+64833
 /
 *
 "
@@ -374343,7 +377852,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64063
+64796
 /
 *
 "
@@ -374387,7 +377896,7 @@ entrypoints
 ]
 =
 {
-64080
+64813
 /
 *
 "
@@ -374395,7 +377904,7 @@ glVertexAttrib4sARB
 "
 *
 /
-64080
+64813
 /
 *
 "
@@ -374403,7 +377912,7 @@ glVertexAttrib4sARB
 "
 *
 /
-64063
+64796
 /
 *
 "
@@ -374411,7 +377920,7 @@ glVertexAttrib4s
 "
 *
 /
-64100
+64833
 /
 *
 "
@@ -374426,7 +377935,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64080
+64813
 /
 *
 "
@@ -374470,7 +377979,7 @@ entrypoints
 ]
 =
 {
-64100
+64833
 /
 *
 "
@@ -374478,7 +377987,7 @@ glVertexAttrib4sNV
 "
 *
 /
-64063
+64796
 /
 *
 "
@@ -374486,7 +377995,7 @@ glVertexAttrib4s
 "
 *
 /
-64080
+64813
 /
 *
 "
@@ -374494,7 +378003,7 @@ glVertexAttrib4sARB
 "
 *
 /
-64080
+64813
 /
 *
 "
@@ -374509,7 +378018,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64100
+64833
 /
 *
 "
@@ -374553,7 +378062,7 @@ entrypoints
 ]
 =
 {
-64119
+64852
 /
 *
 "
@@ -374561,7 +378070,7 @@ glVertexAttrib4sv
 "
 *
 /
-64137
+64870
 /
 *
 "
@@ -374569,7 +378078,7 @@ glVertexAttrib4svARB
 "
 *
 /
-64137
+64870
 /
 *
 "
@@ -374577,7 +378086,7 @@ glVertexAttrib4svARB
 "
 *
 /
-64158
+64891
 /
 *
 "
@@ -374592,7 +378101,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64119
+64852
 /
 *
 "
@@ -374636,7 +378145,7 @@ entrypoints
 ]
 =
 {
-64137
+64870
 /
 *
 "
@@ -374644,7 +378153,7 @@ glVertexAttrib4svARB
 "
 *
 /
-64137
+64870
 /
 *
 "
@@ -374652,7 +378161,7 @@ glVertexAttrib4svARB
 "
 *
 /
-64119
+64852
 /
 *
 "
@@ -374660,7 +378169,7 @@ glVertexAttrib4sv
 "
 *
 /
-64158
+64891
 /
 *
 "
@@ -374675,7 +378184,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64137
+64870
 /
 *
 "
@@ -374719,7 +378228,7 @@ entrypoints
 ]
 =
 {
-64158
+64891
 /
 *
 "
@@ -374727,7 +378236,7 @@ glVertexAttrib4svNV
 "
 *
 /
-64119
+64852
 /
 *
 "
@@ -374735,7 +378244,7 @@ glVertexAttrib4sv
 "
 *
 /
-64137
+64870
 /
 *
 "
@@ -374743,7 +378252,7 @@ glVertexAttrib4svARB
 "
 *
 /
-64137
+64870
 /
 *
 "
@@ -374758,7 +378267,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64158
+64891
 /
 *
 "
@@ -374802,7 +378311,7 @@ entrypoints
 ]
 =
 {
-64178
+64911
 /
 *
 "
@@ -374810,7 +378319,7 @@ glVertexAttrib4ubNV
 "
 *
 /
-63546
+64279
 /
 *
 "
@@ -374818,7 +378327,7 @@ glVertexAttrib4Nub
 "
 *
 /
-63565
+64298
 /
 *
 "
@@ -374826,7 +378335,7 @@ glVertexAttrib4NubARB
 "
 *
 /
-63565
+64298
 /
 *
 "
@@ -374841,7 +378350,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64178
+64911
 /
 *
 "
@@ -374884,7 +378393,7 @@ entrypoints
 ]
 =
 {
-64198
+64931
 /
 *
 "
@@ -374892,7 +378401,7 @@ glVertexAttrib4ubv
 "
 *
 /
-64217
+64950
 /
 *
 "
@@ -374900,7 +378409,7 @@ glVertexAttrib4ubvARB
 "
 *
 /
-64217
+64950
 /
 *
 "
@@ -374915,7 +378424,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64198
+64931
 /
 *
 "
@@ -374958,7 +378467,7 @@ entrypoints
 ]
 =
 {
-64217
+64950
 /
 *
 "
@@ -374966,7 +378475,7 @@ glVertexAttrib4ubvARB
 "
 *
 /
-64217
+64950
 /
 *
 "
@@ -374974,7 +378483,7 @@ glVertexAttrib4ubvARB
 "
 *
 /
-64198
+64931
 /
 *
 "
@@ -374989,7 +378498,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64217
+64950
 /
 *
 "
@@ -375033,7 +378542,7 @@ entrypoints
 ]
 =
 {
-64239
+64972
 /
 *
 "
@@ -375041,7 +378550,7 @@ glVertexAttrib4ubvNV
 "
 *
 /
-63587
+64320
 /
 *
 "
@@ -375049,7 +378558,7 @@ glVertexAttrib4Nubv
 "
 *
 /
-63607
+64340
 /
 *
 "
@@ -375057,7 +378566,7 @@ glVertexAttrib4NubvARB
 "
 *
 /
-63607
+64340
 /
 *
 "
@@ -375072,7 +378581,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64239
+64972
 /
 *
 "
@@ -375115,7 +378624,7 @@ entrypoints
 ]
 =
 {
-64260
+64993
 /
 *
 "
@@ -375123,7 +378632,7 @@ glVertexAttrib4uiv
 "
 *
 /
-64279
+65012
 /
 *
 "
@@ -375131,7 +378640,7 @@ glVertexAttrib4uivARB
 "
 *
 /
-64279
+65012
 /
 *
 "
@@ -375146,7 +378655,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64260
+64993
 /
 *
 "
@@ -375189,7 +378698,7 @@ entrypoints
 ]
 =
 {
-64279
+65012
 /
 *
 "
@@ -375197,7 +378706,7 @@ glVertexAttrib4uivARB
 "
 *
 /
-64279
+65012
 /
 *
 "
@@ -375205,7 +378714,7 @@ glVertexAttrib4uivARB
 "
 *
 /
-64260
+64993
 /
 *
 "
@@ -375220,7 +378729,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64279
+65012
 /
 *
 "
@@ -375263,7 +378772,7 @@ entrypoints
 ]
 =
 {
-64301
+65034
 /
 *
 "
@@ -375271,7 +378780,7 @@ glVertexAttrib4usv
 "
 *
 /
-64320
+65053
 /
 *
 "
@@ -375279,7 +378788,7 @@ glVertexAttrib4usvARB
 "
 *
 /
-64320
+65053
 /
 *
 "
@@ -375294,7 +378803,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64301
+65034
 /
 *
 "
@@ -375337,7 +378846,7 @@ entrypoints
 ]
 =
 {
-64320
+65053
 /
 *
 "
@@ -375345,7 +378854,7 @@ glVertexAttrib4usvARB
 "
 *
 /
-64320
+65053
 /
 *
 "
@@ -375353,7 +378862,7 @@ glVertexAttrib4usvARB
 "
 *
 /
-64301
+65034
 /
 *
 "
@@ -375368,7 +378877,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64320
+65053
 /
 *
 "
@@ -375392,7 +378901,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_attrib_array_object
-64342
+65075
 /
 *
 glVertexAttribArrayObjectATI
@@ -375431,7 +378940,7 @@ entrypoints
 ]
 =
 {
-64371
+65104
 /
 *
 "
@@ -375439,7 +378948,7 @@ glVertexAttribBinding
 "
 *
 /
-64371
+65104
 /
 *
 "
@@ -375447,7 +378956,7 @@ glVertexAttribBinding
 "
 *
 /
-64371
+65104
 /
 *
 "
@@ -375462,7 +378971,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64371
+65104
 /
 *
 "
@@ -375508,7 +379017,7 @@ entrypoints
 ]
 =
 {
-64393
+65126
 /
 *
 "
@@ -375516,7 +379025,7 @@ glVertexAttribDivisor
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375524,7 +379033,7 @@ glVertexAttribDivisor
 "
 *
 /
-64415
+65148
 /
 *
 "
@@ -375532,7 +379041,7 @@ glVertexAttribDivisorANGLE
 "
 *
 /
-64442
+65175
 /
 *
 "
@@ -375540,7 +379049,7 @@ glVertexAttribDivisorARB
 "
 *
 /
-64467
+65200
 /
 *
 "
@@ -375548,7 +379057,7 @@ glVertexAttribDivisorEXT
 "
 *
 /
-64492
+65225
 /
 *
 "
@@ -375563,7 +379072,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64393
+65126
 /
 *
 "
@@ -375609,7 +379118,7 @@ entrypoints
 ]
 =
 {
-64415
+65148
 /
 *
 "
@@ -375617,7 +379126,7 @@ glVertexAttribDivisorANGLE
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375625,7 +379134,7 @@ glVertexAttribDivisor
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375633,7 +379142,7 @@ glVertexAttribDivisor
 "
 *
 /
-64442
+65175
 /
 *
 "
@@ -375641,7 +379150,7 @@ glVertexAttribDivisorARB
 "
 *
 /
-64467
+65200
 /
 *
 "
@@ -375649,7 +379158,7 @@ glVertexAttribDivisorEXT
 "
 *
 /
-64492
+65225
 /
 *
 "
@@ -375664,7 +379173,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64415
+65148
 /
 *
 "
@@ -375710,7 +379219,7 @@ entrypoints
 ]
 =
 {
-64442
+65175
 /
 *
 "
@@ -375718,7 +379227,7 @@ glVertexAttribDivisorARB
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375726,7 +379235,7 @@ glVertexAttribDivisor
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375734,7 +379243,7 @@ glVertexAttribDivisor
 "
 *
 /
-64415
+65148
 /
 *
 "
@@ -375742,7 +379251,7 @@ glVertexAttribDivisorANGLE
 "
 *
 /
-64467
+65200
 /
 *
 "
@@ -375750,7 +379259,7 @@ glVertexAttribDivisorEXT
 "
 *
 /
-64492
+65225
 /
 *
 "
@@ -375765,7 +379274,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64442
+65175
 /
 *
 "
@@ -375811,7 +379320,7 @@ entrypoints
 ]
 =
 {
-64467
+65200
 /
 *
 "
@@ -375819,7 +379328,7 @@ glVertexAttribDivisorEXT
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375827,7 +379336,7 @@ glVertexAttribDivisor
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375835,7 +379344,7 @@ glVertexAttribDivisor
 "
 *
 /
-64415
+65148
 /
 *
 "
@@ -375843,7 +379352,7 @@ glVertexAttribDivisorANGLE
 "
 *
 /
-64442
+65175
 /
 *
 "
@@ -375851,7 +379360,7 @@ glVertexAttribDivisorARB
 "
 *
 /
-64492
+65225
 /
 *
 "
@@ -375866,7 +379375,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64467
+65200
 /
 *
 "
@@ -375912,7 +379421,7 @@ entrypoints
 ]
 =
 {
-64492
+65225
 /
 *
 "
@@ -375920,7 +379429,7 @@ glVertexAttribDivisorNV
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375928,7 +379437,7 @@ glVertexAttribDivisor
 "
 *
 /
-64393
+65126
 /
 *
 "
@@ -375936,7 +379445,7 @@ glVertexAttribDivisor
 "
 *
 /
-64415
+65148
 /
 *
 "
@@ -375944,7 +379453,7 @@ glVertexAttribDivisorANGLE
 "
 *
 /
-64442
+65175
 /
 *
 "
@@ -375952,7 +379461,7 @@ glVertexAttribDivisorARB
 "
 *
 /
-64467
+65200
 /
 *
 "
@@ -375967,7 +379476,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64492
+65225
 /
 *
 "
@@ -376010,7 +379519,7 @@ entrypoints
 ]
 =
 {
-64516
+65249
 /
 *
 "
@@ -376018,7 +379527,7 @@ glVertexAttribFormat
 "
 *
 /
-64516
+65249
 /
 *
 "
@@ -376026,7 +379535,7 @@ glVertexAttribFormat
 "
 *
 /
-64516
+65249
 /
 *
 "
@@ -376041,7 +379550,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64516
+65249
 /
 *
 "
@@ -376065,7 +379574,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-64537
+65270
 /
 *
 glVertexAttribFormatNV
@@ -376091,6 +379600,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -376103,7 +379613,7 @@ entrypoints
 ]
 =
 {
-64560
+65293
 /
 *
 "
@@ -376111,7 +379621,15 @@ glVertexAttribI1i
 "
 *
 /
-64578
+65311
+/
+*
+"
+glVertexAttribI1iEXT
+"
+*
+/
+65311
 /
 *
 "
@@ -376126,7 +379644,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64560
+65293
 /
 *
 "
@@ -376155,6 +379673,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -376168,7 +379687,7 @@ entrypoints
 ]
 =
 {
-64578
+65311
 /
 *
 "
@@ -376176,7 +379695,15 @@ glVertexAttribI1iEXT
 "
 *
 /
-64560
+65311
+/
+*
+"
+glVertexAttribI1iEXT
+"
+*
+/
+65293
 /
 *
 "
@@ -376191,7 +379718,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64578
+65311
 /
 *
 "
@@ -376221,6 +379748,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -376233,7 +379761,7 @@ entrypoints
 ]
 =
 {
-64599
+65332
 /
 *
 "
@@ -376241,7 +379769,15 @@ glVertexAttribI1iv
 "
 *
 /
-64618
+65351
+/
+*
+"
+glVertexAttribI1ivEXT
+"
+*
+/
+65351
 /
 *
 "
@@ -376256,7 +379792,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64599
+65332
 /
 *
 "
@@ -376285,6 +379821,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -376298,7 +379835,7 @@ entrypoints
 ]
 =
 {
-64618
+65351
 /
 *
 "
@@ -376306,7 +379843,15 @@ glVertexAttribI1ivEXT
 "
 *
 /
-64599
+65351
+/
+*
+"
+glVertexAttribI1ivEXT
+"
+*
+/
+65332
 /
 *
 "
@@ -376321,7 +379866,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64618
+65351
 /
 *
 "
@@ -376351,6 +379896,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -376363,7 +379909,7 @@ entrypoints
 ]
 =
 {
-64640
+65373
 /
 *
 "
@@ -376371,7 +379917,15 @@ glVertexAttribI1ui
 "
 *
 /
-64659
+65392
+/
+*
+"
+glVertexAttribI1uiEXT
+"
+*
+/
+65392
 /
 *
 "
@@ -376386,7 +379940,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64640
+65373
 /
 *
 "
@@ -376415,6 +379969,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -376428,7 +379983,7 @@ entrypoints
 ]
 =
 {
-64659
+65392
 /
 *
 "
@@ -376436,7 +379991,15 @@ glVertexAttribI1uiEXT
 "
 *
 /
-64640
+65392
+/
+*
+"
+glVertexAttribI1uiEXT
+"
+*
+/
+65373
 /
 *
 "
@@ -376451,7 +380014,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64659
+65392
 /
 *
 "
@@ -376481,6 +380044,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -376493,7 +380057,7 @@ entrypoints
 ]
 =
 {
-64681
+65414
 /
 *
 "
@@ -376501,7 +380065,15 @@ glVertexAttribI1uiv
 "
 *
 /
-64701
+65434
+/
+*
+"
+glVertexAttribI1uivEXT
+"
+*
+/
+65434
 /
 *
 "
@@ -376516,7 +380088,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64681
+65414
 /
 *
 "
@@ -376545,6 +380117,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -376558,7 +380131,7 @@ entrypoints
 ]
 =
 {
-64701
+65434
 /
 *
 "
@@ -376566,7 +380139,15 @@ glVertexAttribI1uivEXT
 "
 *
 /
-64681
+65434
+/
+*
+"
+glVertexAttribI1uivEXT
+"
+*
+/
+65414
 /
 *
 "
@@ -376581,7 +380162,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64701
+65434
 /
 *
 "
@@ -376611,6 +380192,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -376623,7 +380205,7 @@ entrypoints
 ]
 =
 {
-64724
+65457
 /
 *
 "
@@ -376631,7 +380213,15 @@ glVertexAttribI2i
 "
 *
 /
-64742
+65475
+/
+*
+"
+glVertexAttribI2iEXT
+"
+*
+/
+65475
 /
 *
 "
@@ -376646,7 +380236,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64724
+65457
 /
 *
 "
@@ -376675,6 +380265,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -376688,7 +380279,7 @@ entrypoints
 ]
 =
 {
-64742
+65475
 /
 *
 "
@@ -376696,7 +380287,15 @@ glVertexAttribI2iEXT
 "
 *
 /
-64724
+65475
+/
+*
+"
+glVertexAttribI2iEXT
+"
+*
+/
+65457
 /
 *
 "
@@ -376711,7 +380310,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64742
+65475
 /
 *
 "
@@ -376741,6 +380340,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -376753,7 +380353,7 @@ entrypoints
 ]
 =
 {
-64763
+65496
 /
 *
 "
@@ -376761,7 +380361,15 @@ glVertexAttribI2iv
 "
 *
 /
-64782
+65515
+/
+*
+"
+glVertexAttribI2ivEXT
+"
+*
+/
+65515
 /
 *
 "
@@ -376776,7 +380384,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64763
+65496
 /
 *
 "
@@ -376805,6 +380413,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -376818,7 +380427,7 @@ entrypoints
 ]
 =
 {
-64782
+65515
 /
 *
 "
@@ -376826,7 +380435,15 @@ glVertexAttribI2ivEXT
 "
 *
 /
-64763
+65515
+/
+*
+"
+glVertexAttribI2ivEXT
+"
+*
+/
+65496
 /
 *
 "
@@ -376841,7 +380458,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64782
+65515
 /
 *
 "
@@ -376871,6 +380488,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -376883,7 +380501,7 @@ entrypoints
 ]
 =
 {
-64804
+65537
 /
 *
 "
@@ -376891,7 +380509,15 @@ glVertexAttribI2ui
 "
 *
 /
-64823
+65556
+/
+*
+"
+glVertexAttribI2uiEXT
+"
+*
+/
+65556
 /
 *
 "
@@ -376906,7 +380532,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64804
+65537
 /
 *
 "
@@ -376935,6 +380561,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -376948,7 +380575,7 @@ entrypoints
 ]
 =
 {
-64823
+65556
 /
 *
 "
@@ -376956,7 +380583,15 @@ glVertexAttribI2uiEXT
 "
 *
 /
-64804
+65556
+/
+*
+"
+glVertexAttribI2uiEXT
+"
+*
+/
+65537
 /
 *
 "
@@ -376971,7 +380606,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64823
+65556
 /
 *
 "
@@ -377001,6 +380636,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -377013,7 +380649,7 @@ entrypoints
 ]
 =
 {
-64845
+65578
 /
 *
 "
@@ -377021,7 +380657,15 @@ glVertexAttribI2uiv
 "
 *
 /
-64865
+65598
+/
+*
+"
+glVertexAttribI2uivEXT
+"
+*
+/
+65598
 /
 *
 "
@@ -377036,7 +380680,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64845
+65578
 /
 *
 "
@@ -377065,6 +380709,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -377078,7 +380723,7 @@ entrypoints
 ]
 =
 {
-64865
+65598
 /
 *
 "
@@ -377086,7 +380731,15 @@ glVertexAttribI2uivEXT
 "
 *
 /
-64845
+65598
+/
+*
+"
+glVertexAttribI2uivEXT
+"
+*
+/
+65578
 /
 *
 "
@@ -377101,7 +380754,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64865
+65598
 /
 *
 "
@@ -377131,6 +380784,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -377143,7 +380797,7 @@ entrypoints
 ]
 =
 {
-64888
+65621
 /
 *
 "
@@ -377151,7 +380805,15 @@ glVertexAttribI3i
 "
 *
 /
-64906
+65639
+/
+*
+"
+glVertexAttribI3iEXT
+"
+*
+/
+65639
 /
 *
 "
@@ -377166,7 +380828,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64888
+65621
 /
 *
 "
@@ -377195,6 +380857,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -377208,7 +380871,7 @@ entrypoints
 ]
 =
 {
-64906
+65639
 /
 *
 "
@@ -377216,7 +380879,15 @@ glVertexAttribI3iEXT
 "
 *
 /
-64888
+65639
+/
+*
+"
+glVertexAttribI3iEXT
+"
+*
+/
+65621
 /
 *
 "
@@ -377231,7 +380902,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64906
+65639
 /
 *
 "
@@ -377261,6 +380932,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -377273,7 +380945,7 @@ entrypoints
 ]
 =
 {
-64927
+65660
 /
 *
 "
@@ -377281,7 +380953,15 @@ glVertexAttribI3iv
 "
 *
 /
-64946
+65679
+/
+*
+"
+glVertexAttribI3ivEXT
+"
+*
+/
+65679
 /
 *
 "
@@ -377296,7 +380976,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64927
+65660
 /
 *
 "
@@ -377325,6 +381005,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -377338,7 +381019,7 @@ entrypoints
 ]
 =
 {
-64946
+65679
 /
 *
 "
@@ -377346,7 +381027,15 @@ glVertexAttribI3ivEXT
 "
 *
 /
-64927
+65679
+/
+*
+"
+glVertexAttribI3ivEXT
+"
+*
+/
+65660
 /
 *
 "
@@ -377361,7 +381050,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64946
+65679
 /
 *
 "
@@ -377391,6 +381080,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -377403,7 +381093,7 @@ entrypoints
 ]
 =
 {
-64968
+65701
 /
 *
 "
@@ -377411,7 +381101,15 @@ glVertexAttribI3ui
 "
 *
 /
-64987
+65720
+/
+*
+"
+glVertexAttribI3uiEXT
+"
+*
+/
+65720
 /
 *
 "
@@ -377426,7 +381124,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64968
+65701
 /
 *
 "
@@ -377455,6 +381153,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -377468,7 +381167,7 @@ entrypoints
 ]
 =
 {
-64987
+65720
 /
 *
 "
@@ -377476,7 +381175,15 @@ glVertexAttribI3uiEXT
 "
 *
 /
-64968
+65720
+/
+*
+"
+glVertexAttribI3uiEXT
+"
+*
+/
+65701
 /
 *
 "
@@ -377491,7 +381198,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-64987
+65720
 /
 *
 "
@@ -377521,6 +381228,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -377533,7 +381241,7 @@ entrypoints
 ]
 =
 {
-65009
+65742
 /
 *
 "
@@ -377541,7 +381249,15 @@ glVertexAttribI3uiv
 "
 *
 /
-65029
+65762
+/
+*
+"
+glVertexAttribI3uivEXT
+"
+*
+/
+65762
 /
 *
 "
@@ -377556,7 +381272,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65009
+65742
 /
 *
 "
@@ -377585,6 +381301,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -377598,7 +381315,7 @@ entrypoints
 ]
 =
 {
-65029
+65762
 /
 *
 "
@@ -377606,7 +381323,15 @@ glVertexAttribI3uivEXT
 "
 *
 /
-65009
+65762
+/
+*
+"
+glVertexAttribI3uivEXT
+"
+*
+/
+65742
 /
 *
 "
@@ -377621,7 +381346,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65029
+65762
 /
 *
 "
@@ -377651,6 +381376,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -377663,7 +381389,7 @@ entrypoints
 ]
 =
 {
-65052
+65785
 /
 *
 "
@@ -377671,7 +381397,15 @@ glVertexAttribI4bv
 "
 *
 /
-65071
+65804
+/
+*
+"
+glVertexAttribI4bvEXT
+"
+*
+/
+65804
 /
 *
 "
@@ -377686,7 +381420,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65052
+65785
 /
 *
 "
@@ -377715,6 +381449,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -377728,7 +381463,7 @@ entrypoints
 ]
 =
 {
-65071
+65804
 /
 *
 "
@@ -377736,7 +381471,15 @@ glVertexAttribI4bvEXT
 "
 *
 /
-65052
+65804
+/
+*
+"
+glVertexAttribI4bvEXT
+"
+*
+/
+65785
 /
 *
 "
@@ -377751,7 +381494,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65071
+65804
 /
 *
 "
@@ -377782,6 +381525,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -377794,7 +381538,7 @@ entrypoints
 ]
 =
 {
-65093
+65826
 /
 *
 "
@@ -377802,7 +381546,7 @@ glVertexAttribI4i
 "
 *
 /
-65093
+65826
 /
 *
 "
@@ -377810,7 +381554,15 @@ glVertexAttribI4i
 "
 *
 /
-65111
+65844
+/
+*
+"
+glVertexAttribI4iEXT
+"
+*
+/
+65844
 /
 *
 "
@@ -377825,7 +381577,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65093
+65826
 /
 *
 "
@@ -377854,6 +381606,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
@@ -377868,7 +381621,7 @@ entrypoints
 ]
 =
 {
-65111
+65844
 /
 *
 "
@@ -377876,7 +381629,15 @@ glVertexAttribI4iEXT
 "
 *
 /
-65093
+65844
+/
+*
+"
+glVertexAttribI4iEXT
+"
+*
+/
+65826
 /
 *
 "
@@ -377884,7 +381645,7 @@ glVertexAttribI4i
 "
 *
 /
-65093
+65826
 /
 *
 "
@@ -377899,7 +381660,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65111
+65844
 /
 *
 "
@@ -377930,6 +381691,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -377942,7 +381704,7 @@ entrypoints
 ]
 =
 {
-65132
+65865
 /
 *
 "
@@ -377950,7 +381712,7 @@ glVertexAttribI4iv
 "
 *
 /
-65132
+65865
 /
 *
 "
@@ -377958,7 +381720,15 @@ glVertexAttribI4iv
 "
 *
 /
-65151
+65884
+/
+*
+"
+glVertexAttribI4ivEXT
+"
+*
+/
+65884
 /
 *
 "
@@ -377973,7 +381743,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65132
+65865
 /
 *
 "
@@ -378002,6 +381772,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
@@ -378016,7 +381787,7 @@ entrypoints
 ]
 =
 {
-65151
+65884
 /
 *
 "
@@ -378024,7 +381795,15 @@ glVertexAttribI4ivEXT
 "
 *
 /
-65132
+65884
+/
+*
+"
+glVertexAttribI4ivEXT
+"
+*
+/
+65865
 /
 *
 "
@@ -378032,7 +381811,7 @@ glVertexAttribI4iv
 "
 *
 /
-65132
+65865
 /
 *
 "
@@ -378047,7 +381826,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65151
+65884
 /
 *
 "
@@ -378077,6 +381856,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -378089,7 +381869,7 @@ entrypoints
 ]
 =
 {
-65173
+65906
 /
 *
 "
@@ -378097,7 +381877,15 @@ glVertexAttribI4sv
 "
 *
 /
-65192
+65925
+/
+*
+"
+glVertexAttribI4svEXT
+"
+*
+/
+65925
 /
 *
 "
@@ -378112,7 +381900,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65173
+65906
 /
 *
 "
@@ -378141,6 +381929,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -378154,7 +381943,7 @@ entrypoints
 ]
 =
 {
-65192
+65925
 /
 *
 "
@@ -378162,7 +381951,15 @@ glVertexAttribI4svEXT
 "
 *
 /
-65173
+65925
+/
+*
+"
+glVertexAttribI4svEXT
+"
+*
+/
+65906
 /
 *
 "
@@ -378177,7 +381974,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65192
+65925
 /
 *
 "
@@ -378207,6 +382004,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -378219,7 +382017,7 @@ entrypoints
 ]
 =
 {
-65214
+65947
 /
 *
 "
@@ -378227,7 +382025,15 @@ glVertexAttribI4ubv
 "
 *
 /
-65234
+65967
+/
+*
+"
+glVertexAttribI4ubvEXT
+"
+*
+/
+65967
 /
 *
 "
@@ -378242,7 +382048,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65214
+65947
 /
 *
 "
@@ -378271,6 +382077,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -378284,7 +382091,7 @@ entrypoints
 ]
 =
 {
-65234
+65967
 /
 *
 "
@@ -378292,7 +382099,15 @@ glVertexAttribI4ubvEXT
 "
 *
 /
-65214
+65967
+/
+*
+"
+glVertexAttribI4ubvEXT
+"
+*
+/
+65947
 /
 *
 "
@@ -378307,7 +382122,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65234
+65967
 /
 *
 "
@@ -378338,6 +382153,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -378350,7 +382166,7 @@ entrypoints
 ]
 =
 {
-65257
+65990
 /
 *
 "
@@ -378358,7 +382174,7 @@ glVertexAttribI4ui
 "
 *
 /
-65257
+65990
 /
 *
 "
@@ -378366,7 +382182,15 @@ glVertexAttribI4ui
 "
 *
 /
-65276
+66009
+/
+*
+"
+glVertexAttribI4uiEXT
+"
+*
+/
+66009
 /
 *
 "
@@ -378381,7 +382205,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65257
+65990
 /
 *
 "
@@ -378410,6 +382234,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
@@ -378424,7 +382249,7 @@ entrypoints
 ]
 =
 {
-65276
+66009
 /
 *
 "
@@ -378432,7 +382257,15 @@ glVertexAttribI4uiEXT
 "
 *
 /
-65257
+66009
+/
+*
+"
+glVertexAttribI4uiEXT
+"
+*
+/
+65990
 /
 *
 "
@@ -378440,7 +382273,7 @@ glVertexAttribI4ui
 "
 *
 /
-65257
+65990
 /
 *
 "
@@ -378455,7 +382288,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65276
+66009
 /
 *
 "
@@ -378486,6 +382319,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -378498,7 +382332,7 @@ entrypoints
 ]
 =
 {
-65298
+66031
 /
 *
 "
@@ -378506,7 +382340,7 @@ glVertexAttribI4uiv
 "
 *
 /
-65298
+66031
 /
 *
 "
@@ -378514,7 +382348,15 @@ glVertexAttribI4uiv
 "
 *
 /
-65318
+66051
+/
+*
+"
+glVertexAttribI4uivEXT
+"
+*
+/
+66051
 /
 *
 "
@@ -378529,7 +382371,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65298
+66031
 /
 *
 "
@@ -378558,6 +382400,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
@@ -378572,7 +382415,7 @@ entrypoints
 ]
 =
 {
-65318
+66051
 /
 *
 "
@@ -378580,7 +382423,15 @@ glVertexAttribI4uivEXT
 "
 *
 /
-65298
+66051
+/
+*
+"
+glVertexAttribI4uivEXT
+"
+*
+/
+66031
 /
 *
 "
@@ -378588,7 +382439,7 @@ glVertexAttribI4uiv
 "
 *
 /
-65298
+66031
 /
 *
 "
@@ -378603,7 +382454,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65318
+66051
 /
 *
 "
@@ -378633,6 +382484,7 @@ providers
 =
 {
 PROVIDER_Desktop_OpenGL_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -378645,7 +382497,7 @@ entrypoints
 ]
 =
 {
-65341
+66074
 /
 *
 "
@@ -378653,7 +382505,15 @@ glVertexAttribI4usv
 "
 *
 /
-65361
+66094
+/
+*
+"
+glVertexAttribI4usvEXT
+"
+*
+/
+66094
 /
 *
 "
@@ -378668,7 +382528,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65341
+66074
 /
 *
 "
@@ -378697,6 +382557,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 gl_provider_terminator
@@ -378710,7 +382571,7 @@ entrypoints
 ]
 =
 {
-65361
+66094
 /
 *
 "
@@ -378718,7 +382579,15 @@ glVertexAttribI4usvEXT
 "
 *
 /
-65341
+66094
+/
+*
+"
+glVertexAttribI4usvEXT
+"
+*
+/
+66074
 /
 *
 "
@@ -378733,7 +382602,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65361
+66094
 /
 *
 "
@@ -378776,7 +382645,7 @@ entrypoints
 ]
 =
 {
-65384
+66117
 /
 *
 "
@@ -378784,7 +382653,7 @@ glVertexAttribIFormat
 "
 *
 /
-65384
+66117
 /
 *
 "
@@ -378792,7 +382661,7 @@ glVertexAttribIFormat
 "
 *
 /
-65384
+66117
 /
 *
 "
@@ -378807,7 +382676,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65384
+66117
 /
 *
 "
@@ -378831,7 +382700,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-65406
+66139
 /
 *
 glVertexAttribIFormatNV
@@ -378858,6 +382727,7 @@ providers
 {
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 gl_provider_terminator
 }
@@ -378870,7 +382740,7 @@ entrypoints
 ]
 =
 {
-65430
+66163
 /
 *
 "
@@ -378878,7 +382748,7 @@ glVertexAttribIPointer
 "
 *
 /
-65430
+66163
 /
 *
 "
@@ -378886,7 +382756,15 @@ glVertexAttribIPointer
 "
 *
 /
-65453
+66186
+/
+*
+"
+glVertexAttribIPointerEXT
+"
+*
+/
+66186
 /
 *
 "
@@ -378901,7 +382779,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65430
+66163
 /
 *
 "
@@ -378930,6 +382808,7 @@ providers
 ]
 =
 {
+PROVIDER_GL_EXT_gpu_shader4
 PROVIDER_GL_NV_vertex_program4
 PROVIDER_Desktop_OpenGL_3_0
 PROVIDER_OpenGL_ES_3_0
@@ -378944,7 +382823,7 @@ entrypoints
 ]
 =
 {
-65453
+66186
 /
 *
 "
@@ -378952,7 +382831,15 @@ glVertexAttribIPointerEXT
 "
 *
 /
-65430
+66186
+/
+*
+"
+glVertexAttribIPointerEXT
+"
+*
+/
+66163
 /
 *
 "
@@ -378960,7 +382847,7 @@ glVertexAttribIPointer
 "
 *
 /
-65430
+66163
 /
 *
 "
@@ -378975,7 +382862,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65453
+66186
 /
 *
 "
@@ -379018,7 +382905,7 @@ entrypoints
 ]
 =
 {
-65479
+66212
 /
 *
 "
@@ -379026,7 +382913,7 @@ glVertexAttribL1d
 "
 *
 /
-65479
+66212
 /
 *
 "
@@ -379034,7 +382921,7 @@ glVertexAttribL1d
 "
 *
 /
-65497
+66230
 /
 *
 "
@@ -379049,7 +382936,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65479
+66212
 /
 *
 "
@@ -379092,7 +382979,7 @@ entrypoints
 ]
 =
 {
-65497
+66230
 /
 *
 "
@@ -379100,7 +382987,7 @@ glVertexAttribL1dEXT
 "
 *
 /
-65479
+66212
 /
 *
 "
@@ -379108,7 +382995,7 @@ glVertexAttribL1d
 "
 *
 /
-65479
+66212
 /
 *
 "
@@ -379123,7 +383010,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65497
+66230
 /
 *
 "
@@ -379166,7 +383053,7 @@ entrypoints
 ]
 =
 {
-65518
+66251
 /
 *
 "
@@ -379174,7 +383061,7 @@ glVertexAttribL1dv
 "
 *
 /
-65518
+66251
 /
 *
 "
@@ -379182,7 +383069,7 @@ glVertexAttribL1dv
 "
 *
 /
-65537
+66270
 /
 *
 "
@@ -379197,7 +383084,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65518
+66251
 /
 *
 "
@@ -379240,7 +383127,7 @@ entrypoints
 ]
 =
 {
-65537
+66270
 /
 *
 "
@@ -379248,7 +383135,7 @@ glVertexAttribL1dvEXT
 "
 *
 /
-65518
+66251
 /
 *
 "
@@ -379256,7 +383143,7 @@ glVertexAttribL1dv
 "
 *
 /
-65518
+66251
 /
 *
 "
@@ -379271,7 +383158,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65537
+66270
 /
 *
 "
@@ -379295,7 +383182,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65559
+66292
 /
 *
 glVertexAttribL1i64NV
@@ -379315,7 +383202,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65581
+66314
 /
 *
 glVertexAttribL1i64vNV
@@ -379335,7 +383222,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-65604
+66337
 /
 *
 glVertexAttribL1ui64ARB
@@ -379355,7 +383242,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65628
+66361
 /
 *
 glVertexAttribL1ui64NV
@@ -379375,7 +383262,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_bindless_texture
-65651
+66384
 /
 *
 glVertexAttribL1ui64vARB
@@ -379395,7 +383282,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65676
+66409
 /
 *
 glVertexAttribL1ui64vNV
@@ -379434,7 +383321,7 @@ entrypoints
 ]
 =
 {
-65700
+66433
 /
 *
 "
@@ -379442,7 +383329,7 @@ glVertexAttribL2d
 "
 *
 /
-65700
+66433
 /
 *
 "
@@ -379450,7 +383337,7 @@ glVertexAttribL2d
 "
 *
 /
-65718
+66451
 /
 *
 "
@@ -379465,7 +383352,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65700
+66433
 /
 *
 "
@@ -379508,7 +383395,7 @@ entrypoints
 ]
 =
 {
-65718
+66451
 /
 *
 "
@@ -379516,7 +383403,7 @@ glVertexAttribL2dEXT
 "
 *
 /
-65700
+66433
 /
 *
 "
@@ -379524,7 +383411,7 @@ glVertexAttribL2d
 "
 *
 /
-65700
+66433
 /
 *
 "
@@ -379539,7 +383426,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65718
+66451
 /
 *
 "
@@ -379582,7 +383469,7 @@ entrypoints
 ]
 =
 {
-65739
+66472
 /
 *
 "
@@ -379590,7 +383477,7 @@ glVertexAttribL2dv
 "
 *
 /
-65739
+66472
 /
 *
 "
@@ -379598,7 +383485,7 @@ glVertexAttribL2dv
 "
 *
 /
-65758
+66491
 /
 *
 "
@@ -379613,7 +383500,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65739
+66472
 /
 *
 "
@@ -379656,7 +383543,7 @@ entrypoints
 ]
 =
 {
-65758
+66491
 /
 *
 "
@@ -379664,7 +383551,7 @@ glVertexAttribL2dvEXT
 "
 *
 /
-65739
+66472
 /
 *
 "
@@ -379672,7 +383559,7 @@ glVertexAttribL2dv
 "
 *
 /
-65739
+66472
 /
 *
 "
@@ -379687,7 +383574,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65758
+66491
 /
 *
 "
@@ -379711,7 +383598,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65780
+66513
 /
 *
 glVertexAttribL2i64NV
@@ -379731,7 +383618,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65802
+66535
 /
 *
 glVertexAttribL2i64vNV
@@ -379751,7 +383638,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65825
+66558
 /
 *
 glVertexAttribL2ui64NV
@@ -379771,7 +383658,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65848
+66581
 /
 *
 glVertexAttribL2ui64vNV
@@ -379810,7 +383697,7 @@ entrypoints
 ]
 =
 {
-65872
+66605
 /
 *
 "
@@ -379818,7 +383705,7 @@ glVertexAttribL3d
 "
 *
 /
-65872
+66605
 /
 *
 "
@@ -379826,7 +383713,7 @@ glVertexAttribL3d
 "
 *
 /
-65890
+66623
 /
 *
 "
@@ -379841,7 +383728,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65872
+66605
 /
 *
 "
@@ -379884,7 +383771,7 @@ entrypoints
 ]
 =
 {
-65890
+66623
 /
 *
 "
@@ -379892,7 +383779,7 @@ glVertexAttribL3dEXT
 "
 *
 /
-65872
+66605
 /
 *
 "
@@ -379900,7 +383787,7 @@ glVertexAttribL3d
 "
 *
 /
-65872
+66605
 /
 *
 "
@@ -379915,7 +383802,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65890
+66623
 /
 *
 "
@@ -379958,7 +383845,7 @@ entrypoints
 ]
 =
 {
-65911
+66644
 /
 *
 "
@@ -379966,7 +383853,7 @@ glVertexAttribL3dv
 "
 *
 /
-65911
+66644
 /
 *
 "
@@ -379974,7 +383861,7 @@ glVertexAttribL3dv
 "
 *
 /
-65930
+66663
 /
 *
 "
@@ -379989,7 +383876,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65911
+66644
 /
 *
 "
@@ -380032,7 +383919,7 @@ entrypoints
 ]
 =
 {
-65930
+66663
 /
 *
 "
@@ -380040,7 +383927,7 @@ glVertexAttribL3dvEXT
 "
 *
 /
-65911
+66644
 /
 *
 "
@@ -380048,7 +383935,7 @@ glVertexAttribL3dv
 "
 *
 /
-65911
+66644
 /
 *
 "
@@ -380063,7 +383950,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-65930
+66663
 /
 *
 "
@@ -380087,7 +383974,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65952
+66685
 /
 *
 glVertexAttribL3i64NV
@@ -380107,7 +383994,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65974
+66707
 /
 *
 glVertexAttribL3i64vNV
@@ -380127,7 +384014,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-65997
+66730
 /
 *
 glVertexAttribL3ui64NV
@@ -380147,7 +384034,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-66020
+66753
 /
 *
 glVertexAttribL3ui64vNV
@@ -380186,7 +384073,7 @@ entrypoints
 ]
 =
 {
-66044
+66777
 /
 *
 "
@@ -380194,7 +384081,7 @@ glVertexAttribL4d
 "
 *
 /
-66044
+66777
 /
 *
 "
@@ -380202,7 +384089,7 @@ glVertexAttribL4d
 "
 *
 /
-66062
+66795
 /
 *
 "
@@ -380217,7 +384104,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66044
+66777
 /
 *
 "
@@ -380260,7 +384147,7 @@ entrypoints
 ]
 =
 {
-66062
+66795
 /
 *
 "
@@ -380268,7 +384155,7 @@ glVertexAttribL4dEXT
 "
 *
 /
-66044
+66777
 /
 *
 "
@@ -380276,7 +384163,7 @@ glVertexAttribL4d
 "
 *
 /
-66044
+66777
 /
 *
 "
@@ -380291,7 +384178,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66062
+66795
 /
 *
 "
@@ -380334,7 +384221,7 @@ entrypoints
 ]
 =
 {
-66083
+66816
 /
 *
 "
@@ -380342,7 +384229,7 @@ glVertexAttribL4dv
 "
 *
 /
-66083
+66816
 /
 *
 "
@@ -380350,7 +384237,7 @@ glVertexAttribL4dv
 "
 *
 /
-66102
+66835
 /
 *
 "
@@ -380365,7 +384252,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66083
+66816
 /
 *
 "
@@ -380408,7 +384295,7 @@ entrypoints
 ]
 =
 {
-66102
+66835
 /
 *
 "
@@ -380416,7 +384303,7 @@ glVertexAttribL4dvEXT
 "
 *
 /
-66083
+66816
 /
 *
 "
@@ -380424,7 +384311,7 @@ glVertexAttribL4dv
 "
 *
 /
-66083
+66816
 /
 *
 "
@@ -380439,7 +384326,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66102
+66835
 /
 *
 "
@@ -380463,7 +384350,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-66124
+66857
 /
 *
 glVertexAttribL4i64NV
@@ -380483,7 +384370,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-66146
+66879
 /
 *
 glVertexAttribL4i64vNV
@@ -380503,7 +384390,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-66169
+66902
 /
 *
 glVertexAttribL4ui64NV
@@ -380523,7 +384410,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-66192
+66925
 /
 *
 glVertexAttribL4ui64vNV
@@ -380561,7 +384448,7 @@ entrypoints
 ]
 =
 {
-66216
+66949
 /
 *
 "
@@ -380569,7 +384456,7 @@ glVertexAttribLFormat
 "
 *
 /
-66216
+66949
 /
 *
 "
@@ -380584,7 +384471,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66216
+66949
 /
 *
 "
@@ -380608,7 +384495,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_attrib_integer_64bit
-66238
+66971
 /
 *
 glVertexAttribLFormatNV
@@ -380647,7 +384534,7 @@ entrypoints
 ]
 =
 {
-66262
+66995
 /
 *
 "
@@ -380655,7 +384542,7 @@ glVertexAttribLPointer
 "
 *
 /
-66262
+66995
 /
 *
 "
@@ -380663,7 +384550,7 @@ glVertexAttribLPointer
 "
 *
 /
-66285
+67018
 /
 *
 "
@@ -380678,7 +384565,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66262
+66995
 /
 *
 "
@@ -380721,7 +384608,7 @@ entrypoints
 ]
 =
 {
-66285
+67018
 /
 *
 "
@@ -380729,7 +384616,7 @@ glVertexAttribLPointerEXT
 "
 *
 /
-66262
+66995
 /
 *
 "
@@ -380737,7 +384624,7 @@ glVertexAttribLPointer
 "
 *
 /
-66262
+66995
 /
 *
 "
@@ -380752,7 +384639,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66285
+67018
 /
 *
 "
@@ -380794,7 +384681,7 @@ entrypoints
 ]
 =
 {
-66311
+67044
 /
 *
 "
@@ -380802,7 +384689,7 @@ glVertexAttribP1ui
 "
 *
 /
-66311
+67044
 /
 *
 "
@@ -380817,7 +384704,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66311
+67044
 /
 *
 "
@@ -380859,7 +384746,7 @@ entrypoints
 ]
 =
 {
-66330
+67063
 /
 *
 "
@@ -380867,7 +384754,7 @@ glVertexAttribP1uiv
 "
 *
 /
-66330
+67063
 /
 *
 "
@@ -380882,7 +384769,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66330
+67063
 /
 *
 "
@@ -380924,7 +384811,7 @@ entrypoints
 ]
 =
 {
-66350
+67083
 /
 *
 "
@@ -380932,7 +384819,7 @@ glVertexAttribP2ui
 "
 *
 /
-66350
+67083
 /
 *
 "
@@ -380947,7 +384834,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66350
+67083
 /
 *
 "
@@ -380989,7 +384876,7 @@ entrypoints
 ]
 =
 {
-66369
+67102
 /
 *
 "
@@ -380997,7 +384884,7 @@ glVertexAttribP2uiv
 "
 *
 /
-66369
+67102
 /
 *
 "
@@ -381012,7 +384899,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66369
+67102
 /
 *
 "
@@ -381054,7 +384941,7 @@ entrypoints
 ]
 =
 {
-66389
+67122
 /
 *
 "
@@ -381062,7 +384949,7 @@ glVertexAttribP3ui
 "
 *
 /
-66389
+67122
 /
 *
 "
@@ -381077,7 +384964,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66389
+67122
 /
 *
 "
@@ -381119,7 +385006,7 @@ entrypoints
 ]
 =
 {
-66408
+67141
 /
 *
 "
@@ -381127,7 +385014,7 @@ glVertexAttribP3uiv
 "
 *
 /
-66408
+67141
 /
 *
 "
@@ -381142,7 +385029,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66408
+67141
 /
 *
 "
@@ -381184,7 +385071,7 @@ entrypoints
 ]
 =
 {
-66428
+67161
 /
 *
 "
@@ -381192,7 +385079,7 @@ glVertexAttribP4ui
 "
 *
 /
-66428
+67161
 /
 *
 "
@@ -381207,7 +385094,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66428
+67161
 /
 *
 "
@@ -381249,7 +385136,7 @@ entrypoints
 ]
 =
 {
-66447
+67180
 /
 *
 "
@@ -381257,7 +385144,7 @@ glVertexAttribP4uiv
 "
 *
 /
-66447
+67180
 /
 *
 "
@@ -381272,7 +385159,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66447
+67180
 /
 *
 "
@@ -381296,7 +385183,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_AMD_interleaved_elements
-66467
+67200
 /
 *
 glVertexAttribParameteriAMD
@@ -381336,7 +385223,7 @@ entrypoints
 ]
 =
 {
-66495
+67228
 /
 *
 "
@@ -381344,7 +385231,7 @@ glVertexAttribPointer
 "
 *
 /
-66495
+67228
 /
 *
 "
@@ -381352,7 +385239,7 @@ glVertexAttribPointer
 "
 *
 /
-66517
+67250
 /
 *
 "
@@ -381360,7 +385247,7 @@ glVertexAttribPointerARB
 "
 *
 /
-66517
+67250
 /
 *
 "
@@ -381375,7 +385262,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66495
+67228
 /
 *
 "
@@ -381419,7 +385306,7 @@ entrypoints
 ]
 =
 {
-66517
+67250
 /
 *
 "
@@ -381427,7 +385314,7 @@ glVertexAttribPointerARB
 "
 *
 /
-66517
+67250
 /
 *
 "
@@ -381435,7 +385322,7 @@ glVertexAttribPointerARB
 "
 *
 /
-66495
+67228
 /
 *
 "
@@ -381443,7 +385330,7 @@ glVertexAttribPointer
 "
 *
 /
-66495
+67228
 /
 *
 "
@@ -381458,7 +385345,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66517
+67250
 /
 *
 "
@@ -381482,7 +385369,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66542
+67275
 /
 *
 glVertexAttribPointerNV
@@ -381502,7 +385389,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66566
+67299
 /
 *
 glVertexAttribs1dvNV
@@ -381522,7 +385409,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66587
+67320
 /
 *
 glVertexAttribs1fvNV
@@ -381542,7 +385429,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-66608
+67341
 /
 *
 glVertexAttribs1hvNV
@@ -381562,7 +385449,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66629
+67362
 /
 *
 glVertexAttribs1svNV
@@ -381582,7 +385469,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66650
+67383
 /
 *
 glVertexAttribs2dvNV
@@ -381602,7 +385489,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66671
+67404
 /
 *
 glVertexAttribs2fvNV
@@ -381622,7 +385509,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-66692
+67425
 /
 *
 glVertexAttribs2hvNV
@@ -381642,7 +385529,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66713
+67446
 /
 *
 glVertexAttribs2svNV
@@ -381662,7 +385549,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66734
+67467
 /
 *
 glVertexAttribs3dvNV
@@ -381682,7 +385569,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66755
+67488
 /
 *
 glVertexAttribs3fvNV
@@ -381702,7 +385589,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-66776
+67509
 /
 *
 glVertexAttribs3hvNV
@@ -381722,7 +385609,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66797
+67530
 /
 *
 glVertexAttribs3svNV
@@ -381742,7 +385629,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66818
+67551
 /
 *
 glVertexAttribs4dvNV
@@ -381762,7 +385649,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66839
+67572
 /
 *
 glVertexAttribs4fvNV
@@ -381782,7 +385669,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-66860
+67593
 /
 *
 glVertexAttribs4hvNV
@@ -381802,7 +385689,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66881
+67614
 /
 *
 glVertexAttribs4svNV
@@ -381822,7 +385709,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_program
-66902
+67635
 /
 *
 glVertexAttribs4ubvNV
@@ -381861,7 +385748,7 @@ entrypoints
 ]
 =
 {
-66924
+67657
 /
 *
 "
@@ -381869,7 +385756,7 @@ glVertexBindingDivisor
 "
 *
 /
-66924
+67657
 /
 *
 "
@@ -381877,7 +385764,7 @@ glVertexBindingDivisor
 "
 *
 /
-66924
+67657
 /
 *
 "
@@ -381892,7 +385779,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-66924
+67657
 /
 *
 "
@@ -381916,7 +385803,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-66947
+67680
 /
 *
 glVertexBlendARB
@@ -381936,7 +385823,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-66964
+67697
 /
 *
 glVertexBlendEnvfATI
@@ -381956,7 +385843,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-66985
+67718
 /
 *
 glVertexBlendEnviATI
@@ -381976,7 +385863,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_vertex_buffer_unified_memory
-67006
+67739
 /
 *
 glVertexFormatNV
@@ -382014,7 +385901,7 @@ entrypoints
 ]
 =
 {
-67023
+67756
 /
 *
 "
@@ -382022,7 +385909,7 @@ glVertexP2ui
 "
 *
 /
-67023
+67756
 /
 *
 "
@@ -382037,7 +385924,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-67023
+67756
 /
 *
 "
@@ -382079,7 +385966,7 @@ entrypoints
 ]
 =
 {
-67036
+67769
 /
 *
 "
@@ -382087,7 +385974,7 @@ glVertexP2uiv
 "
 *
 /
-67036
+67769
 /
 *
 "
@@ -382102,7 +385989,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-67036
+67769
 /
 *
 "
@@ -382144,7 +386031,7 @@ entrypoints
 ]
 =
 {
-67050
+67783
 /
 *
 "
@@ -382152,7 +386039,7 @@ glVertexP3ui
 "
 *
 /
-67050
+67783
 /
 *
 "
@@ -382167,7 +386054,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-67050
+67783
 /
 *
 "
@@ -382209,7 +386096,7 @@ entrypoints
 ]
 =
 {
-67063
+67796
 /
 *
 "
@@ -382217,7 +386104,7 @@ glVertexP3uiv
 "
 *
 /
-67063
+67796
 /
 *
 "
@@ -382232,7 +386119,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-67063
+67796
 /
 *
 "
@@ -382274,7 +386161,7 @@ entrypoints
 ]
 =
 {
-67077
+67810
 /
 *
 "
@@ -382282,7 +386169,7 @@ glVertexP4ui
 "
 *
 /
-67077
+67810
 /
 *
 "
@@ -382297,7 +386184,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-67077
+67810
 /
 *
 "
@@ -382339,7 +386226,7 @@ entrypoints
 ]
 =
 {
-67090
+67823
 /
 *
 "
@@ -382347,7 +386234,7 @@ glVertexP4uiv
 "
 *
 /
-67090
+67823
 /
 *
 "
@@ -382362,7 +386249,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-67090
+67823
 /
 *
 "
@@ -382404,7 +386291,7 @@ entrypoints
 ]
 =
 {
-67104
+67837
 /
 *
 "
@@ -382412,7 +386299,7 @@ glVertexPointer
 "
 *
 /
-67104
+67837
 /
 *
 "
@@ -382427,7 +386314,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-67104
+67837
 /
 *
 "
@@ -382451,7 +386338,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_array
-67120
+67853
 /
 *
 glVertexPointerEXT
@@ -382471,7 +386358,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_IBM_vertex_array_lists
-67139
+67872
 /
 *
 glVertexPointerListIBM
@@ -382491,7 +386378,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_INTEL_parallel_arrays
-67162
+67895
 /
 *
 glVertexPointervINTEL
@@ -382511,7 +386398,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67184
+67917
 /
 *
 glVertexStream1dATI
@@ -382531,7 +386418,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67204
+67937
 /
 *
 glVertexStream1dvATI
@@ -382551,7 +386438,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67225
+67958
 /
 *
 glVertexStream1fATI
@@ -382571,7 +386458,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67245
+67978
 /
 *
 glVertexStream1fvATI
@@ -382591,7 +386478,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67266
+67999
 /
 *
 glVertexStream1iATI
@@ -382611,7 +386498,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67286
+68019
 /
 *
 glVertexStream1ivATI
@@ -382631,7 +386518,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67307
+68040
 /
 *
 glVertexStream1sATI
@@ -382651,7 +386538,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67327
+68060
 /
 *
 glVertexStream1svATI
@@ -382671,7 +386558,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67348
+68081
 /
 *
 glVertexStream2dATI
@@ -382691,7 +386578,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67368
+68101
 /
 *
 glVertexStream2dvATI
@@ -382711,7 +386598,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67389
+68122
 /
 *
 glVertexStream2fATI
@@ -382731,7 +386618,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67409
+68142
 /
 *
 glVertexStream2fvATI
@@ -382751,7 +386638,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67430
+68163
 /
 *
 glVertexStream2iATI
@@ -382771,7 +386658,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67450
+68183
 /
 *
 glVertexStream2ivATI
@@ -382791,7 +386678,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67471
+68204
 /
 *
 glVertexStream2sATI
@@ -382811,7 +386698,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67491
+68224
 /
 *
 glVertexStream2svATI
@@ -382831,7 +386718,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67512
+68245
 /
 *
 glVertexStream3dATI
@@ -382851,7 +386738,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67532
+68265
 /
 *
 glVertexStream3dvATI
@@ -382871,7 +386758,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67553
+68286
 /
 *
 glVertexStream3fATI
@@ -382891,7 +386778,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67573
+68306
 /
 *
 glVertexStream3fvATI
@@ -382911,7 +386798,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67594
+68327
 /
 *
 glVertexStream3iATI
@@ -382931,7 +386818,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67614
+68347
 /
 *
 glVertexStream3ivATI
@@ -382951,7 +386838,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67635
+68368
 /
 *
 glVertexStream3sATI
@@ -382971,7 +386858,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67655
+68388
 /
 *
 glVertexStream3svATI
@@ -382991,7 +386878,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67676
+68409
 /
 *
 glVertexStream4dATI
@@ -383011,7 +386898,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67696
+68429
 /
 *
 glVertexStream4dvATI
@@ -383031,7 +386918,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67717
+68450
 /
 *
 glVertexStream4fATI
@@ -383051,7 +386938,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67737
+68470
 /
 *
 glVertexStream4fvATI
@@ -383071,7 +386958,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67758
+68491
 /
 *
 glVertexStream4iATI
@@ -383091,7 +386978,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67778
+68511
 /
 *
 glVertexStream4ivATI
@@ -383111,7 +386998,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67799
+68532
 /
 *
 glVertexStream4sATI
@@ -383131,7 +387018,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ATI_vertex_streams
-67819
+68552
 /
 *
 glVertexStream4svATI
@@ -383151,7 +387038,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_weighting
-67840
+68573
 /
 *
 glVertexWeightPointerEXT
@@ -383171,7 +387058,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_weighting
-67865
+68598
 /
 *
 glVertexWeightfEXT
@@ -383191,7 +387078,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_weighting
-67884
+68617
 /
 *
 glVertexWeightfvEXT
@@ -383211,7 +387098,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-67904
+68637
 /
 *
 glVertexWeighthNV
@@ -383231,7 +387118,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_half_float
-67922
+68655
 /
 *
 glVertexWeighthvNV
@@ -383251,7 +387138,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-67941
+68674
 /
 *
 glVideoCaptureNV
@@ -383271,7 +387158,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-67958
+68691
 /
 *
 glVideoCaptureStreamParameterdvNV
@@ -383291,7 +387178,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-67992
+68725
 /
 *
 glVideoCaptureStreamParameterfvNV
@@ -383311,7 +387198,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_video_capture
-68026
+68759
 /
 *
 glVideoCaptureStreamParameterivNV
@@ -383350,7 +387237,7 @@ entrypoints
 ]
 =
 {
-68060
+68793
 /
 *
 "
@@ -383358,7 +387245,7 @@ glViewport
 "
 *
 /
-68060
+68793
 /
 *
 "
@@ -383366,7 +387253,7 @@ glViewport
 "
 *
 /
-68060
+68793
 /
 *
 "
@@ -383381,7 +387268,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68060
+68793
 /
 *
 "
@@ -383425,7 +387312,7 @@ entrypoints
 ]
 =
 {
-68071
+68804
 /
 *
 "
@@ -383433,7 +387320,7 @@ glViewportArrayv
 "
 *
 /
-68071
+68804
 /
 *
 "
@@ -383441,7 +387328,7 @@ glViewportArrayv
 "
 *
 /
-68088
+68821
 /
 *
 "
@@ -383449,7 +387336,7 @@ glViewportArrayvNV
 "
 *
 /
-68107
+68840
 /
 *
 "
@@ -383464,7 +387351,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68071
+68804
 /
 *
 "
@@ -383508,7 +387395,7 @@ entrypoints
 ]
 =
 {
-68088
+68821
 /
 *
 "
@@ -383516,7 +387403,7 @@ glViewportArrayvNV
 "
 *
 /
-68071
+68804
 /
 *
 "
@@ -383524,7 +387411,7 @@ glViewportArrayv
 "
 *
 /
-68071
+68804
 /
 *
 "
@@ -383532,7 +387419,7 @@ glViewportArrayv
 "
 *
 /
-68107
+68840
 /
 *
 "
@@ -383547,7 +387434,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68088
+68821
 /
 *
 "
@@ -383591,7 +387478,7 @@ entrypoints
 ]
 =
 {
-68107
+68840
 /
 *
 "
@@ -383599,7 +387486,7 @@ glViewportArrayvOES
 "
 *
 /
-68071
+68804
 /
 *
 "
@@ -383607,7 +387494,7 @@ glViewportArrayv
 "
 *
 /
-68071
+68804
 /
 *
 "
@@ -383615,7 +387502,7 @@ glViewportArrayv
 "
 *
 /
-68088
+68821
 /
 *
 "
@@ -383630,7 +387517,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68107
+68840
 /
 *
 "
@@ -383674,7 +387561,7 @@ entrypoints
 ]
 =
 {
-68127
+68860
 /
 *
 "
@@ -383682,7 +387569,7 @@ glViewportIndexedf
 "
 *
 /
-68127
+68860
 /
 *
 "
@@ -383690,7 +387577,7 @@ glViewportIndexedf
 "
 *
 /
-68146
+68879
 /
 *
 "
@@ -383698,7 +387585,7 @@ glViewportIndexedfNV
 "
 *
 /
-68167
+68900
 /
 *
 "
@@ -383713,7 +387600,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68127
+68860
 /
 *
 "
@@ -383757,7 +387644,7 @@ entrypoints
 ]
 =
 {
-68146
+68879
 /
 *
 "
@@ -383765,7 +387652,7 @@ glViewportIndexedfNV
 "
 *
 /
-68127
+68860
 /
 *
 "
@@ -383773,7 +387660,7 @@ glViewportIndexedf
 "
 *
 /
-68127
+68860
 /
 *
 "
@@ -383781,7 +387668,7 @@ glViewportIndexedf
 "
 *
 /
-68167
+68900
 /
 *
 "
@@ -383796,7 +387683,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68146
+68879
 /
 *
 "
@@ -383840,7 +387727,7 @@ entrypoints
 ]
 =
 {
-68167
+68900
 /
 *
 "
@@ -383848,7 +387735,7 @@ glViewportIndexedfOES
 "
 *
 /
-68127
+68860
 /
 *
 "
@@ -383856,7 +387743,7 @@ glViewportIndexedf
 "
 *
 /
-68127
+68860
 /
 *
 "
@@ -383864,7 +387751,7 @@ glViewportIndexedf
 "
 *
 /
-68146
+68879
 /
 *
 "
@@ -383879,7 +387766,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68167
+68900
 /
 *
 "
@@ -383923,7 +387810,7 @@ entrypoints
 ]
 =
 {
-68189
+68922
 /
 *
 "
@@ -383931,7 +387818,7 @@ glViewportIndexedfv
 "
 *
 /
-68189
+68922
 /
 *
 "
@@ -383939,7 +387826,7 @@ glViewportIndexedfv
 "
 *
 /
-68209
+68942
 /
 *
 "
@@ -383947,7 +387834,7 @@ glViewportIndexedfvNV
 "
 *
 /
-68231
+68964
 /
 *
 "
@@ -383962,7 +387849,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68189
+68922
 /
 *
 "
@@ -384006,7 +387893,7 @@ entrypoints
 ]
 =
 {
-68209
+68942
 /
 *
 "
@@ -384014,7 +387901,7 @@ glViewportIndexedfvNV
 "
 *
 /
-68189
+68922
 /
 *
 "
@@ -384022,7 +387909,7 @@ glViewportIndexedfv
 "
 *
 /
-68189
+68922
 /
 *
 "
@@ -384030,7 +387917,7 @@ glViewportIndexedfv
 "
 *
 /
-68231
+68964
 /
 *
 "
@@ -384045,7 +387932,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68209
+68942
 /
 *
 "
@@ -384089,7 +387976,7 @@ entrypoints
 ]
 =
 {
-68231
+68964
 /
 *
 "
@@ -384097,7 +387984,7 @@ glViewportIndexedfvOES
 "
 *
 /
-68189
+68922
 /
 *
 "
@@ -384105,7 +387992,7 @@ glViewportIndexedfv
 "
 *
 /
-68189
+68922
 /
 *
 "
@@ -384113,7 +388000,7 @@ glViewportIndexedfv
 "
 *
 /
-68209
+68942
 /
 *
 "
@@ -384128,7 +388015,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68231
+68964
 /
 *
 "
@@ -384152,7 +388039,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_clip_space_w_scaling
-68254
+68987
 /
 *
 glViewportPositionWScaleNV
@@ -384172,7 +388059,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_viewport_swizzle
-68281
+69014
 /
 *
 glViewportSwizzleNV
@@ -384192,7 +388079,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_semaphore
-68301
+69034
 /
 *
 glWaitSemaphoreEXT
@@ -384212,7 +388099,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NVX_progress_fence
-68320
+69053
 /
 *
 glWaitSemaphoreui64NVX
@@ -384252,7 +388139,7 @@ entrypoints
 ]
 =
 {
-68343
+69076
 /
 *
 "
@@ -384260,7 +388147,7 @@ glWaitSync
 "
 *
 /
-68343
+69076
 /
 *
 "
@@ -384268,7 +388155,7 @@ glWaitSync
 "
 *
 /
-68343
+69076
 /
 *
 "
@@ -384276,7 +388163,7 @@ glWaitSync
 "
 *
 /
-68354
+69087
 /
 *
 "
@@ -384291,7 +388178,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68343
+69076
 /
 *
 "
@@ -384335,7 +388222,7 @@ entrypoints
 ]
 =
 {
-68354
+69087
 /
 *
 "
@@ -384343,7 +388230,7 @@ glWaitSyncAPPLE
 "
 *
 /
-68343
+69076
 /
 *
 "
@@ -384351,7 +388238,7 @@ glWaitSync
 "
 *
 /
-68343
+69076
 /
 *
 "
@@ -384359,7 +388246,7 @@ glWaitSync
 "
 *
 /
-68343
+69076
 /
 *
 "
@@ -384374,7 +388261,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68354
+69087
 /
 *
 "
@@ -384398,7 +388285,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_draw_vulkan_image
-68370
+69103
 /
 *
 glWaitVkSemaphoreNV
@@ -384418,7 +388305,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_NV_path_rendering
-68390
+69123
 /
 *
 glWeightPathsNV
@@ -384438,7 +388325,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68406
+69139
 /
 *
 glWeightPointerARB
@@ -384458,7 +388345,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_OES_matrix_palette
-68425
+69158
 /
 *
 glWeightPointerOES
@@ -384478,7 +388365,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68444
+69177
 /
 *
 glWeightbvARB
@@ -384498,7 +388385,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68458
+69191
 /
 *
 glWeightdvARB
@@ -384518,7 +388405,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68472
+69205
 /
 *
 glWeightfvARB
@@ -384538,7 +388425,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68486
+69219
 /
 *
 glWeightivARB
@@ -384558,7 +388445,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68500
+69233
 /
 *
 glWeightsvARB
@@ -384578,7 +388465,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68514
+69247
 /
 *
 glWeightubvARB
@@ -384598,7 +388485,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68529
+69262
 /
 *
 glWeightuivARB
@@ -384618,7 +388505,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_ARB_vertex_blend
-68544
+69277
 /
 *
 glWeightusvARB
@@ -384657,7 +388544,7 @@ entrypoints
 ]
 =
 {
-68559
+69292
 /
 *
 "
@@ -384665,7 +388552,7 @@ glWindowPos2d
 "
 *
 /
-68573
+69306
 /
 *
 "
@@ -384673,7 +388560,7 @@ glWindowPos2dARB
 "
 *
 /
-68590
+69323
 /
 *
 "
@@ -384688,7 +388575,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68559
+69292
 /
 *
 "
@@ -384731,7 +388618,7 @@ entrypoints
 ]
 =
 {
-68573
+69306
 /
 *
 "
@@ -384739,7 +388626,7 @@ glWindowPos2dARB
 "
 *
 /
-68559
+69292
 /
 *
 "
@@ -384747,7 +388634,7 @@ glWindowPos2d
 "
 *
 /
-68590
+69323
 /
 *
 "
@@ -384762,7 +388649,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68573
+69306
 /
 *
 "
@@ -384805,7 +388692,7 @@ entrypoints
 ]
 =
 {
-68590
+69323
 /
 *
 "
@@ -384813,7 +388700,7 @@ glWindowPos2dMESA
 "
 *
 /
-68559
+69292
 /
 *
 "
@@ -384821,7 +388708,7 @@ glWindowPos2d
 "
 *
 /
-68573
+69306
 /
 *
 "
@@ -384836,7 +388723,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68590
+69323
 /
 *
 "
@@ -384879,7 +388766,7 @@ entrypoints
 ]
 =
 {
-68608
+69341
 /
 *
 "
@@ -384887,7 +388774,7 @@ glWindowPos2dv
 "
 *
 /
-68623
+69356
 /
 *
 "
@@ -384895,7 +388782,7 @@ glWindowPos2dvARB
 "
 *
 /
-68641
+69374
 /
 *
 "
@@ -384910,7 +388797,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68608
+69341
 /
 *
 "
@@ -384953,7 +388840,7 @@ entrypoints
 ]
 =
 {
-68623
+69356
 /
 *
 "
@@ -384961,7 +388848,7 @@ glWindowPos2dvARB
 "
 *
 /
-68608
+69341
 /
 *
 "
@@ -384969,7 +388856,7 @@ glWindowPos2dv
 "
 *
 /
-68641
+69374
 /
 *
 "
@@ -384984,7 +388871,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68623
+69356
 /
 *
 "
@@ -385027,7 +388914,7 @@ entrypoints
 ]
 =
 {
-68641
+69374
 /
 *
 "
@@ -385035,7 +388922,7 @@ glWindowPos2dvMESA
 "
 *
 /
-68608
+69341
 /
 *
 "
@@ -385043,7 +388930,7 @@ glWindowPos2dv
 "
 *
 /
-68623
+69356
 /
 *
 "
@@ -385058,7 +388945,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68641
+69374
 /
 *
 "
@@ -385101,7 +388988,7 @@ entrypoints
 ]
 =
 {
-68660
+69393
 /
 *
 "
@@ -385109,7 +388996,7 @@ glWindowPos2f
 "
 *
 /
-68674
+69407
 /
 *
 "
@@ -385117,7 +389004,7 @@ glWindowPos2fARB
 "
 *
 /
-68691
+69424
 /
 *
 "
@@ -385132,7 +389019,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68660
+69393
 /
 *
 "
@@ -385175,7 +389062,7 @@ entrypoints
 ]
 =
 {
-68674
+69407
 /
 *
 "
@@ -385183,7 +389070,7 @@ glWindowPos2fARB
 "
 *
 /
-68660
+69393
 /
 *
 "
@@ -385191,7 +389078,7 @@ glWindowPos2f
 "
 *
 /
-68691
+69424
 /
 *
 "
@@ -385206,7 +389093,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68674
+69407
 /
 *
 "
@@ -385249,7 +389136,7 @@ entrypoints
 ]
 =
 {
-68691
+69424
 /
 *
 "
@@ -385257,7 +389144,7 @@ glWindowPos2fMESA
 "
 *
 /
-68660
+69393
 /
 *
 "
@@ -385265,7 +389152,7 @@ glWindowPos2f
 "
 *
 /
-68674
+69407
 /
 *
 "
@@ -385280,7 +389167,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68691
+69424
 /
 *
 "
@@ -385323,7 +389210,7 @@ entrypoints
 ]
 =
 {
-68709
+69442
 /
 *
 "
@@ -385331,7 +389218,7 @@ glWindowPos2fv
 "
 *
 /
-68724
+69457
 /
 *
 "
@@ -385339,7 +389226,7 @@ glWindowPos2fvARB
 "
 *
 /
-68742
+69475
 /
 *
 "
@@ -385354,7 +389241,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68709
+69442
 /
 *
 "
@@ -385397,7 +389284,7 @@ entrypoints
 ]
 =
 {
-68724
+69457
 /
 *
 "
@@ -385405,7 +389292,7 @@ glWindowPos2fvARB
 "
 *
 /
-68709
+69442
 /
 *
 "
@@ -385413,7 +389300,7 @@ glWindowPos2fv
 "
 *
 /
-68742
+69475
 /
 *
 "
@@ -385428,7 +389315,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68724
+69457
 /
 *
 "
@@ -385471,7 +389358,7 @@ entrypoints
 ]
 =
 {
-68742
+69475
 /
 *
 "
@@ -385479,7 +389366,7 @@ glWindowPos2fvMESA
 "
 *
 /
-68709
+69442
 /
 *
 "
@@ -385487,7 +389374,7 @@ glWindowPos2fv
 "
 *
 /
-68724
+69457
 /
 *
 "
@@ -385502,7 +389389,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68742
+69475
 /
 *
 "
@@ -385545,7 +389432,7 @@ entrypoints
 ]
 =
 {
-68761
+69494
 /
 *
 "
@@ -385553,7 +389440,7 @@ glWindowPos2i
 "
 *
 /
-68775
+69508
 /
 *
 "
@@ -385561,7 +389448,7 @@ glWindowPos2iARB
 "
 *
 /
-68792
+69525
 /
 *
 "
@@ -385576,7 +389463,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68761
+69494
 /
 *
 "
@@ -385619,7 +389506,7 @@ entrypoints
 ]
 =
 {
-68775
+69508
 /
 *
 "
@@ -385627,7 +389514,7 @@ glWindowPos2iARB
 "
 *
 /
-68761
+69494
 /
 *
 "
@@ -385635,7 +389522,7 @@ glWindowPos2i
 "
 *
 /
-68792
+69525
 /
 *
 "
@@ -385650,7 +389537,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68775
+69508
 /
 *
 "
@@ -385693,7 +389580,7 @@ entrypoints
 ]
 =
 {
-68792
+69525
 /
 *
 "
@@ -385701,7 +389588,7 @@ glWindowPos2iMESA
 "
 *
 /
-68761
+69494
 /
 *
 "
@@ -385709,7 +389596,7 @@ glWindowPos2i
 "
 *
 /
-68775
+69508
 /
 *
 "
@@ -385724,7 +389611,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68792
+69525
 /
 *
 "
@@ -385767,7 +389654,7 @@ entrypoints
 ]
 =
 {
-68810
+69543
 /
 *
 "
@@ -385775,7 +389662,7 @@ glWindowPos2iv
 "
 *
 /
-68825
+69558
 /
 *
 "
@@ -385783,7 +389670,7 @@ glWindowPos2ivARB
 "
 *
 /
-68843
+69576
 /
 *
 "
@@ -385798,7 +389685,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68810
+69543
 /
 *
 "
@@ -385841,7 +389728,7 @@ entrypoints
 ]
 =
 {
-68825
+69558
 /
 *
 "
@@ -385849,7 +389736,7 @@ glWindowPos2ivARB
 "
 *
 /
-68810
+69543
 /
 *
 "
@@ -385857,7 +389744,7 @@ glWindowPos2iv
 "
 *
 /
-68843
+69576
 /
 *
 "
@@ -385872,7 +389759,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68825
+69558
 /
 *
 "
@@ -385915,7 +389802,7 @@ entrypoints
 ]
 =
 {
-68843
+69576
 /
 *
 "
@@ -385923,7 +389810,7 @@ glWindowPos2ivMESA
 "
 *
 /
-68810
+69543
 /
 *
 "
@@ -385931,7 +389818,7 @@ glWindowPos2iv
 "
 *
 /
-68825
+69558
 /
 *
 "
@@ -385946,7 +389833,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68843
+69576
 /
 *
 "
@@ -385989,7 +389876,7 @@ entrypoints
 ]
 =
 {
-68862
+69595
 /
 *
 "
@@ -385997,7 +389884,7 @@ glWindowPos2s
 "
 *
 /
-68876
+69609
 /
 *
 "
@@ -386005,7 +389892,7 @@ glWindowPos2sARB
 "
 *
 /
-68893
+69626
 /
 *
 "
@@ -386020,7 +389907,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68862
+69595
 /
 *
 "
@@ -386063,7 +389950,7 @@ entrypoints
 ]
 =
 {
-68876
+69609
 /
 *
 "
@@ -386071,7 +389958,7 @@ glWindowPos2sARB
 "
 *
 /
-68862
+69595
 /
 *
 "
@@ -386079,7 +389966,7 @@ glWindowPos2s
 "
 *
 /
-68893
+69626
 /
 *
 "
@@ -386094,7 +389981,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68876
+69609
 /
 *
 "
@@ -386137,7 +390024,7 @@ entrypoints
 ]
 =
 {
-68893
+69626
 /
 *
 "
@@ -386145,7 +390032,7 @@ glWindowPos2sMESA
 "
 *
 /
-68862
+69595
 /
 *
 "
@@ -386153,7 +390040,7 @@ glWindowPos2s
 "
 *
 /
-68876
+69609
 /
 *
 "
@@ -386168,7 +390055,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68893
+69626
 /
 *
 "
@@ -386211,7 +390098,7 @@ entrypoints
 ]
 =
 {
-68911
+69644
 /
 *
 "
@@ -386219,7 +390106,7 @@ glWindowPos2sv
 "
 *
 /
-68926
+69659
 /
 *
 "
@@ -386227,7 +390114,7 @@ glWindowPos2svARB
 "
 *
 /
-68944
+69677
 /
 *
 "
@@ -386242,7 +390129,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68911
+69644
 /
 *
 "
@@ -386285,7 +390172,7 @@ entrypoints
 ]
 =
 {
-68926
+69659
 /
 *
 "
@@ -386293,7 +390180,7 @@ glWindowPos2svARB
 "
 *
 /
-68911
+69644
 /
 *
 "
@@ -386301,7 +390188,7 @@ glWindowPos2sv
 "
 *
 /
-68944
+69677
 /
 *
 "
@@ -386316,7 +390203,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68926
+69659
 /
 *
 "
@@ -386359,7 +390246,7 @@ entrypoints
 ]
 =
 {
-68944
+69677
 /
 *
 "
@@ -386367,7 +390254,7 @@ glWindowPos2svMESA
 "
 *
 /
-68911
+69644
 /
 *
 "
@@ -386375,7 +390262,7 @@ glWindowPos2sv
 "
 *
 /
-68926
+69659
 /
 *
 "
@@ -386390,7 +390277,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68944
+69677
 /
 *
 "
@@ -386433,7 +390320,7 @@ entrypoints
 ]
 =
 {
-68963
+69696
 /
 *
 "
@@ -386441,7 +390328,7 @@ glWindowPos3d
 "
 *
 /
-68977
+69710
 /
 *
 "
@@ -386449,7 +390336,7 @@ glWindowPos3dARB
 "
 *
 /
-68994
+69727
 /
 *
 "
@@ -386464,7 +390351,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68963
+69696
 /
 *
 "
@@ -386507,7 +390394,7 @@ entrypoints
 ]
 =
 {
-68977
+69710
 /
 *
 "
@@ -386515,7 +390402,7 @@ glWindowPos3dARB
 "
 *
 /
-68963
+69696
 /
 *
 "
@@ -386523,7 +390410,7 @@ glWindowPos3d
 "
 *
 /
-68994
+69727
 /
 *
 "
@@ -386538,7 +390425,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68977
+69710
 /
 *
 "
@@ -386581,7 +390468,7 @@ entrypoints
 ]
 =
 {
-68994
+69727
 /
 *
 "
@@ -386589,7 +390476,7 @@ glWindowPos3dMESA
 "
 *
 /
-68963
+69696
 /
 *
 "
@@ -386597,7 +390484,7 @@ glWindowPos3d
 "
 *
 /
-68977
+69710
 /
 *
 "
@@ -386612,7 +390499,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-68994
+69727
 /
 *
 "
@@ -386655,7 +390542,7 @@ entrypoints
 ]
 =
 {
-69012
+69745
 /
 *
 "
@@ -386663,7 +390550,7 @@ glWindowPos3dv
 "
 *
 /
-69027
+69760
 /
 *
 "
@@ -386671,7 +390558,7 @@ glWindowPos3dvARB
 "
 *
 /
-69045
+69778
 /
 *
 "
@@ -386686,7 +390573,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69012
+69745
 /
 *
 "
@@ -386729,7 +390616,7 @@ entrypoints
 ]
 =
 {
-69027
+69760
 /
 *
 "
@@ -386737,7 +390624,7 @@ glWindowPos3dvARB
 "
 *
 /
-69012
+69745
 /
 *
 "
@@ -386745,7 +390632,7 @@ glWindowPos3dv
 "
 *
 /
-69045
+69778
 /
 *
 "
@@ -386760,7 +390647,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69027
+69760
 /
 *
 "
@@ -386803,7 +390690,7 @@ entrypoints
 ]
 =
 {
-69045
+69778
 /
 *
 "
@@ -386811,7 +390698,7 @@ glWindowPos3dvMESA
 "
 *
 /
-69012
+69745
 /
 *
 "
@@ -386819,7 +390706,7 @@ glWindowPos3dv
 "
 *
 /
-69027
+69760
 /
 *
 "
@@ -386834,7 +390721,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69045
+69778
 /
 *
 "
@@ -386877,7 +390764,7 @@ entrypoints
 ]
 =
 {
-69064
+69797
 /
 *
 "
@@ -386885,7 +390772,7 @@ glWindowPos3f
 "
 *
 /
-69078
+69811
 /
 *
 "
@@ -386893,7 +390780,7 @@ glWindowPos3fARB
 "
 *
 /
-69095
+69828
 /
 *
 "
@@ -386908,7 +390795,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69064
+69797
 /
 *
 "
@@ -386951,7 +390838,7 @@ entrypoints
 ]
 =
 {
-69078
+69811
 /
 *
 "
@@ -386959,7 +390846,7 @@ glWindowPos3fARB
 "
 *
 /
-69064
+69797
 /
 *
 "
@@ -386967,7 +390854,7 @@ glWindowPos3f
 "
 *
 /
-69095
+69828
 /
 *
 "
@@ -386982,7 +390869,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69078
+69811
 /
 *
 "
@@ -387025,7 +390912,7 @@ entrypoints
 ]
 =
 {
-69095
+69828
 /
 *
 "
@@ -387033,7 +390920,7 @@ glWindowPos3fMESA
 "
 *
 /
-69064
+69797
 /
 *
 "
@@ -387041,7 +390928,7 @@ glWindowPos3f
 "
 *
 /
-69078
+69811
 /
 *
 "
@@ -387056,7 +390943,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69095
+69828
 /
 *
 "
@@ -387099,7 +390986,7 @@ entrypoints
 ]
 =
 {
-69113
+69846
 /
 *
 "
@@ -387107,7 +390994,7 @@ glWindowPos3fv
 "
 *
 /
-69128
+69861
 /
 *
 "
@@ -387115,7 +391002,7 @@ glWindowPos3fvARB
 "
 *
 /
-69146
+69879
 /
 *
 "
@@ -387130,7 +391017,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69113
+69846
 /
 *
 "
@@ -387173,7 +391060,7 @@ entrypoints
 ]
 =
 {
-69128
+69861
 /
 *
 "
@@ -387181,7 +391068,7 @@ glWindowPos3fvARB
 "
 *
 /
-69113
+69846
 /
 *
 "
@@ -387189,7 +391076,7 @@ glWindowPos3fv
 "
 *
 /
-69146
+69879
 /
 *
 "
@@ -387204,7 +391091,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69128
+69861
 /
 *
 "
@@ -387247,7 +391134,7 @@ entrypoints
 ]
 =
 {
-69146
+69879
 /
 *
 "
@@ -387255,7 +391142,7 @@ glWindowPos3fvMESA
 "
 *
 /
-69113
+69846
 /
 *
 "
@@ -387263,7 +391150,7 @@ glWindowPos3fv
 "
 *
 /
-69128
+69861
 /
 *
 "
@@ -387278,7 +391165,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69146
+69879
 /
 *
 "
@@ -387321,7 +391208,7 @@ entrypoints
 ]
 =
 {
-69165
+69898
 /
 *
 "
@@ -387329,7 +391216,7 @@ glWindowPos3i
 "
 *
 /
-69179
+69912
 /
 *
 "
@@ -387337,7 +391224,7 @@ glWindowPos3iARB
 "
 *
 /
-69196
+69929
 /
 *
 "
@@ -387352,7 +391239,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69165
+69898
 /
 *
 "
@@ -387395,7 +391282,7 @@ entrypoints
 ]
 =
 {
-69179
+69912
 /
 *
 "
@@ -387403,7 +391290,7 @@ glWindowPos3iARB
 "
 *
 /
-69165
+69898
 /
 *
 "
@@ -387411,7 +391298,7 @@ glWindowPos3i
 "
 *
 /
-69196
+69929
 /
 *
 "
@@ -387426,7 +391313,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69179
+69912
 /
 *
 "
@@ -387469,7 +391356,7 @@ entrypoints
 ]
 =
 {
-69196
+69929
 /
 *
 "
@@ -387477,7 +391364,7 @@ glWindowPos3iMESA
 "
 *
 /
-69165
+69898
 /
 *
 "
@@ -387485,7 +391372,7 @@ glWindowPos3i
 "
 *
 /
-69179
+69912
 /
 *
 "
@@ -387500,7 +391387,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69196
+69929
 /
 *
 "
@@ -387543,7 +391430,7 @@ entrypoints
 ]
 =
 {
-69214
+69947
 /
 *
 "
@@ -387551,7 +391438,7 @@ glWindowPos3iv
 "
 *
 /
-69229
+69962
 /
 *
 "
@@ -387559,7 +391446,7 @@ glWindowPos3ivARB
 "
 *
 /
-69247
+69980
 /
 *
 "
@@ -387574,7 +391461,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69214
+69947
 /
 *
 "
@@ -387617,7 +391504,7 @@ entrypoints
 ]
 =
 {
-69229
+69962
 /
 *
 "
@@ -387625,7 +391512,7 @@ glWindowPos3ivARB
 "
 *
 /
-69214
+69947
 /
 *
 "
@@ -387633,7 +391520,7 @@ glWindowPos3iv
 "
 *
 /
-69247
+69980
 /
 *
 "
@@ -387648,7 +391535,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69229
+69962
 /
 *
 "
@@ -387691,7 +391578,7 @@ entrypoints
 ]
 =
 {
-69247
+69980
 /
 *
 "
@@ -387699,7 +391586,7 @@ glWindowPos3ivMESA
 "
 *
 /
-69214
+69947
 /
 *
 "
@@ -387707,7 +391594,7 @@ glWindowPos3iv
 "
 *
 /
-69229
+69962
 /
 *
 "
@@ -387722,7 +391609,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69247
+69980
 /
 *
 "
@@ -387765,7 +391652,7 @@ entrypoints
 ]
 =
 {
-69266
+69999
 /
 *
 "
@@ -387773,7 +391660,7 @@ glWindowPos3s
 "
 *
 /
-69280
+70013
 /
 *
 "
@@ -387781,7 +391668,7 @@ glWindowPos3sARB
 "
 *
 /
-69297
+70030
 /
 *
 "
@@ -387796,7 +391683,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69266
+69999
 /
 *
 "
@@ -387839,7 +391726,7 @@ entrypoints
 ]
 =
 {
-69280
+70013
 /
 *
 "
@@ -387847,7 +391734,7 @@ glWindowPos3sARB
 "
 *
 /
-69266
+69999
 /
 *
 "
@@ -387855,7 +391742,7 @@ glWindowPos3s
 "
 *
 /
-69297
+70030
 /
 *
 "
@@ -387870,7 +391757,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69280
+70013
 /
 *
 "
@@ -387913,7 +391800,7 @@ entrypoints
 ]
 =
 {
-69297
+70030
 /
 *
 "
@@ -387921,7 +391808,7 @@ glWindowPos3sMESA
 "
 *
 /
-69266
+69999
 /
 *
 "
@@ -387929,7 +391816,7 @@ glWindowPos3s
 "
 *
 /
-69280
+70013
 /
 *
 "
@@ -387944,7 +391831,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69297
+70030
 /
 *
 "
@@ -387987,7 +391874,7 @@ entrypoints
 ]
 =
 {
-69315
+70048
 /
 *
 "
@@ -387995,7 +391882,7 @@ glWindowPos3sv
 "
 *
 /
-69330
+70063
 /
 *
 "
@@ -388003,7 +391890,7 @@ glWindowPos3svARB
 "
 *
 /
-69348
+70081
 /
 *
 "
@@ -388018,7 +391905,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69315
+70048
 /
 *
 "
@@ -388061,7 +391948,7 @@ entrypoints
 ]
 =
 {
-69330
+70063
 /
 *
 "
@@ -388069,7 +391956,7 @@ glWindowPos3svARB
 "
 *
 /
-69315
+70048
 /
 *
 "
@@ -388077,7 +391964,7 @@ glWindowPos3sv
 "
 *
 /
-69348
+70081
 /
 *
 "
@@ -388092,7 +391979,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69330
+70063
 /
 *
 "
@@ -388135,7 +392022,7 @@ entrypoints
 ]
 =
 {
-69348
+70081
 /
 *
 "
@@ -388143,7 +392030,7 @@ glWindowPos3svMESA
 "
 *
 /
-69315
+70048
 /
 *
 "
@@ -388151,7 +392038,7 @@ glWindowPos3sv
 "
 *
 /
-69330
+70063
 /
 *
 "
@@ -388166,7 +392053,7 @@ gl_provider_resolver
 (
 entrypoint_strings
 +
-69348
+70081
 /
 *
 "
@@ -388190,7 +392077,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_window_pos
-69367
+70100
 /
 *
 glWindowPos4dMESA
@@ -388210,7 +392097,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_window_pos
-69385
+70118
 /
 *
 glWindowPos4dvMESA
@@ -388230,7 +392117,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_window_pos
-69404
+70137
 /
 *
 glWindowPos4fMESA
@@ -388250,7 +392137,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_window_pos
-69422
+70155
 /
 *
 glWindowPos4fvMESA
@@ -388270,7 +392157,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_window_pos
-69441
+70174
 /
 *
 glWindowPos4iMESA
@@ -388290,7 +392177,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_window_pos
-69459
+70192
 /
 *
 glWindowPos4ivMESA
@@ -388310,7 +392197,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_window_pos
-69478
+70211
 /
 *
 glWindowPos4sMESA
@@ -388330,7 +392217,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_MESA_window_pos
-69496
+70229
 /
 *
 glWindowPos4svMESA
@@ -388350,7 +392237,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_window_rectangles
-69515
+70248
 /
 *
 glWindowRectanglesEXT
@@ -388370,7 +392257,7 @@ return
 gl_single_resolver
 (
 PROVIDER_GL_EXT_vertex_shader
-69537
+70270
 /
 *
 glWriteMaskEXT
@@ -391127,6 +395014,88 @@ filter
 )
 GEN_THUNKS
 (
+glBlitFramebufferLayerEXT
+(
+GLint
+srcX0
+GLint
+srcY0
+GLint
+srcX1
+GLint
+srcY1
+GLint
+srcLayer
+GLint
+dstX0
+GLint
+dstY0
+GLint
+dstX1
+GLint
+dstY1
+GLint
+dstLayer
+GLbitfield
+mask
+GLenum
+filter
+)
+(
+srcX0
+srcY0
+srcX1
+srcY1
+srcLayer
+dstX0
+dstY0
+dstX1
+dstY1
+dstLayer
+mask
+filter
+)
+)
+GEN_THUNKS
+(
+glBlitFramebufferLayersEXT
+(
+GLint
+srcX0
+GLint
+srcY0
+GLint
+srcX1
+GLint
+srcY1
+GLint
+dstX0
+GLint
+dstY0
+GLint
+dstX1
+GLint
+dstY1
+GLbitfield
+mask
+GLenum
+filter
+)
+(
+srcX0
+srcY0
+srcX1
+srcY1
+dstX0
+dstY0
+dstX1
+dstY1
+mask
+filter
+)
+)
+GEN_THUNKS
+(
 glBlitFramebufferNV
 (
 GLint
@@ -391305,6 +395274,32 @@ commit
 target
 offset
 size
+commit
+)
+)
+GEN_THUNKS
+(
+glBufferPageCommitmentMemNV
+(
+GLenum
+target
+GLintptr
+offset
+GLsizeiptr
+size
+GLuint
+memory
+GLuint64
+memOffset
+GLboolean
+commit
+)
+(
+target
+offset
+size
+memory
+memOffset
 commit
 )
 )
@@ -397269,6 +401264,21 @@ n
 samplers
 )
 )
+GEN_THUNKS
+(
+glCreateSemaphoresNV
+(
+GLsizei
+n
+GLuint
+*
+semaphores
+)
+(
+n
+semaphores
+)
+)
 GEN_THUNKS_RET
 (
 GLuint
@@ -397344,6 +401354,7 @@ count
 const
 GLchar
 *
+const
 *
 strings
 )
@@ -398642,6 +402653,25 @@ f
 )
 GEN_THUNKS
 (
+glDepthRangeArraydvNV
+(
+GLuint
+first
+GLsizei
+count
+const
+GLdouble
+*
+v
+)
+(
+first
+count
+v
+)
+)
+GEN_THUNKS
+(
 glDepthRangeArrayfvNV
 (
 GLuint
@@ -398700,6 +402730,23 @@ v
 GEN_THUNKS
 (
 glDepthRangeIndexed
+(
+GLuint
+index
+GLdouble
+n
+GLdouble
+f
+)
+(
+index
+n
+f
+)
+)
+GEN_THUNKS
+(
+glDepthRangeIndexeddNV
 (
 GLuint
 index
@@ -400080,6 +404127,34 @@ mode
 first
 count
 width
+)
+)
+GEN_THUNKS
+(
+glDrawMeshTasksEXT
+(
+GLuint
+num_groups_x
+GLuint
+num_groups_y
+GLuint
+num_groups_z
+)
+(
+num_groups_x
+num_groups_y
+num_groups_z
+)
+)
+GEN_THUNKS
+(
+glDrawMeshTasksIndirectEXT
+(
+GLintptr
+indirect
+)
+(
+indirect
 )
 )
 GEN_THUNKS
@@ -401787,6 +405862,26 @@ num
 )
 GEN_THUNKS
 (
+glExtrapolateTex2DQCOM
+(
+GLuint
+src1
+GLuint
+src2
+GLuint
+output
+GLfloat
+scaleFactor
+)
+(
+src1
+src2
+output
+scaleFactor
+)
+)
+GEN_THUNKS
+(
 glFeedbackBuffer
 (
 GLsizei
@@ -402961,6 +407056,35 @@ target
 numsamples
 pixelindex
 values
+)
+)
+GEN_THUNKS
+(
+glFramebufferShadingRateEXT
+(
+GLenum
+target
+GLenum
+attachment
+GLuint
+texture
+GLint
+baseLayer
+GLsizei
+numLayers
+GLsizei
+texelWidth
+GLsizei
+texelHeight
+)
+(
+target
+attachment
+texture
+baseLayer
+numLayers
+texelWidth
+texelHeight
 )
 )
 GEN_THUNKS
@@ -404375,7 +408499,7 @@ shadertype
 GLuint
 index
 GLsizei
-bufsize
+bufSize
 GLsizei
 *
 length
@@ -404387,7 +408511,7 @@ name
 program
 shadertype
 index
-bufsize
+bufSize
 length
 name
 )
@@ -404403,7 +408527,7 @@ shadertype
 GLuint
 index
 GLsizei
-bufsize
+bufSize
 GLsizei
 *
 length
@@ -404415,7 +408539,7 @@ name
 program
 shadertype
 index
-bufsize
+bufSize
 length
 name
 )
@@ -405629,13 +409753,13 @@ GEN_THUNKS
 glGetCoverageModulationTableNV
 (
 GLsizei
-bufsize
+bufSize
 GLfloat
 *
 v
 )
 (
-bufsize
+bufSize
 v
 )
 )
@@ -405686,11 +409810,11 @@ glGetDebugMessageLogAMD
 GLuint
 count
 GLsizei
-bufsize
+bufSize
 GLenum
 *
 categories
-GLuint
+GLenum
 *
 severities
 GLuint
@@ -405705,7 +409829,7 @@ message
 )
 (
 count
-bufsize
+bufSize
 categories
 severities
 ids
@@ -406281,6 +410405,28 @@ params
 )
 GEN_THUNKS
 (
+glGetFragmentShadingRatesEXT
+(
+GLsizei
+samples
+GLsizei
+maxCount
+GLsizei
+*
+count
+GLenum
+*
+shadingRates
+)
+(
+samples
+maxCount
+count
+shadingRates
+)
+)
+GEN_THUNKS
+(
 glGetFramebufferAttachmentParameteriv
 (
 GLenum
@@ -406794,6 +410940,21 @@ params
 )
 GEN_THUNKS
 (
+glGetInteger64vEXT
+(
+GLenum
+pname
+GLint64
+*
+data
+)
+(
+pname
+data
+)
+)
+GEN_THUNKS
+(
 glGetIntegerIndexedvEXT
 (
 GLenum
@@ -406907,7 +411068,7 @@ samples
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLint
 *
 params
@@ -406917,7 +411078,7 @@ target
 internalformat
 samples
 pname
-bufSize
+count
 params
 )
 )
@@ -406932,7 +411093,7 @@ internalformat
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLint64
 *
 params
@@ -406941,7 +411102,7 @@ params
 target
 internalformat
 pname
-bufSize
+count
 params
 )
 )
@@ -406956,7 +411117,7 @@ internalformat
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLint
 *
 params
@@ -406965,7 +411126,7 @@ params
 target
 internalformat
 pname
-bufSize
+count
 params
 )
 )
@@ -409961,7 +414122,7 @@ GLenum
 *
 props
 GLsizei
-bufSize
+count
 GLsizei
 *
 length
@@ -409975,7 +414136,7 @@ programInterface
 index
 propCount
 props
-bufSize
+count
 length
 params
 )
@@ -409997,7 +414158,7 @@ GLenum
 *
 props
 GLsizei
-bufSize
+count
 GLsizei
 *
 length
@@ -410011,7 +414172,7 @@ programInterface
 index
 propCount
 props
-bufSize
+count
 length
 params
 )
@@ -410680,6 +414841,24 @@ params
 )
 GEN_THUNKS
 (
+glGetSemaphoreParameterivNV
+(
+GLuint
+semaphore
+GLenum
+pname
+GLint
+*
+params
+)
+(
+semaphore
+pname
+params
+)
+)
+GEN_THUNKS
+(
 glGetSemaphoreParameterui64vEXT
 (
 GLuint
@@ -411009,7 +415188,7 @@ sync
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLsizei
 *
 length
@@ -411020,7 +415199,7 @@ values
 (
 sync
 pname
-bufSize
+count
 length
 values
 )
@@ -411034,7 +415213,7 @@ sync
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLsizei
 *
 length
@@ -411045,7 +415224,7 @@ values
 (
 sync
 pname
-bufSize
+count
 length
 values
 )
@@ -412162,7 +416341,7 @@ glGetTranslatedShaderSourceANGLE
 GLuint
 shader
 GLsizei
-bufsize
+bufSize
 GLsizei
 *
 length
@@ -412172,7 +416351,7 @@ source
 )
 (
 shader
-bufsize
+bufSize
 length
 source
 )
@@ -418347,6 +422526,17 @@ z
 )
 GEN_THUNKS
 (
+glMaxActiveShaderCoresARM
+(
+GLuint
+count
+)
+(
+count
+)
+)
+GEN_THUNKS
+(
 glMaxShaderCompilerThreadsARB
 (
 GLuint
@@ -418926,7 +423116,7 @@ const
 *
 indices
 GLsizei
-primcount
+drawcount
 const
 GLint
 *
@@ -418937,7 +423127,7 @@ mode
 count
 type
 indices
-primcount
+drawcount
 basevertex
 )
 )
@@ -419162,6 +423352,26 @@ stride
 )
 GEN_THUNKS
 (
+glMultiDrawMeshTasksIndirectCountEXT
+(
+GLintptr
+indirect
+GLintptr
+drawcount
+GLsizei
+maxdrawcount
+GLsizei
+stride
+)
+(
+indirect
+drawcount
+maxdrawcount
+stride
+)
+)
+GEN_THUNKS
+(
 glMultiDrawMeshTasksIndirectCountNV
 (
 GLintptr
@@ -419177,6 +423387,23 @@ stride
 indirect
 drawcount
 maxdrawcount
+stride
+)
+)
+GEN_THUNKS
+(
+glMultiDrawMeshTasksIndirectEXT
+(
+GLintptr
+indirect
+GLsizei
+drawcount
+GLsizei
+stride
+)
+(
+indirect
+drawcount
 stride
 )
 )
@@ -422071,6 +426298,32 @@ commit
 )
 GEN_THUNKS
 (
+glNamedBufferPageCommitmentMemNV
+(
+GLuint
+buffer
+GLintptr
+offset
+GLsizeiptr
+size
+GLuint
+memory
+GLuint64
+memOffset
+GLboolean
+commit
+)
+(
+buffer
+offset
+size
+memory
+memOffset
+commit
+)
+)
+GEN_THUNKS
+(
 glNamedBufferStorage
 (
 GLuint
@@ -422589,6 +426842,32 @@ attachment
 texture
 level
 layer
+)
+)
+GEN_THUNKS
+(
+glNamedFramebufferTextureMultiviewOVR
+(
+GLuint
+framebuffer
+GLenum
+attachment
+GLuint
+texture
+GLint
+level
+GLint
+baseViewIndex
+GLsizei
+numViews
+)
+(
+framebuffer
+attachment
+texture
+level
+baseViewIndex
+numViews
 )
 )
 GEN_THUNKS
@@ -424215,6 +428494,7 @@ pathParameterTemplate
 GLfloat
 emScale
 GLuint
+*
 baseAndCount
 )
 (
@@ -430118,7 +434398,7 @@ queryType
 GLint
 tagId
 GLuint
-bufSize
+count
 GLint
 *
 buffer
@@ -430126,7 +434406,7 @@ buffer
 (
 queryType
 tagId
-bufSize
+count
 buffer
 )
 )
@@ -433374,6 +437654,25 @@ counterList
 )
 GEN_THUNKS
 (
+glSemaphoreParameterivNV
+(
+GLuint
+semaphore
+GLenum
+pname
+const
+GLint
+*
+params
+)
+(
+semaphore
+pname
+params
+)
+)
+GEN_THUNKS
+(
 glSemaphoreParameterui64vEXT
 (
 GLuint
@@ -433583,7 +437882,7 @@ GLuint
 *
 shaders
 GLenum
-binaryformat
+binaryFormat
 const
 void
 *
@@ -433594,7 +437893,7 @@ length
 (
 count
 shaders
-binaryformat
+binaryFormat
 binary
 length
 )
@@ -433732,6 +438031,31 @@ storageBlockBinding
 )
 GEN_THUNKS
 (
+glShadingRateCombinerOpsEXT
+(
+GLenum
+combinerOp0
+GLenum
+combinerOp1
+)
+(
+combinerOp0
+combinerOp1
+)
+)
+GEN_THUNKS
+(
+glShadingRateEXT
+(
+GLenum
+rate
+)
+(
+rate
+)
+)
+GEN_THUNKS
+(
 glShadingRateImageBarrierNV
 (
 GLboolean
@@ -433761,6 +438085,17 @@ viewport
 first
 count
 rates
+)
+)
+GEN_THUNKS
+(
+glShadingRateQCOM
+(
+GLenum
+rate
+)
+(
+rate
 )
 )
 GEN_THUNKS
@@ -436545,6 +440880,43 @@ params
 )
 GEN_THUNKS
 (
+glTexEstimateMotionQCOM
+(
+GLuint
+ref
+GLuint
+target
+GLuint
+output
+)
+(
+ref
+target
+output
+)
+)
+GEN_THUNKS
+(
+glTexEstimateMotionRegionsQCOM
+(
+GLuint
+ref
+GLuint
+target
+GLuint
+output
+GLuint
+mask
+)
+(
+ref
+target
+output
+mask
+)
+)
+GEN_THUNKS
+(
 glTexFilterFuncSGIS
 (
 GLenum
@@ -437203,6 +441575,50 @@ commit
 )
 GEN_THUNKS
 (
+glTexPageCommitmentMemNV
+(
+GLenum
+target
+GLint
+layer
+GLint
+level
+GLint
+xoffset
+GLint
+yoffset
+GLint
+zoffset
+GLsizei
+width
+GLsizei
+height
+GLsizei
+depth
+GLuint
+memory
+GLuint64
+offset
+GLboolean
+commit
+)
+(
+target
+layer
+level
+xoffset
+yoffset
+zoffset
+width
+height
+depth
+memory
+offset
+commit
+)
+)
+GEN_THUNKS
+(
 glTexParameterIiv
 (
 GLenum
@@ -437693,6 +442109,65 @@ width
 height
 depth
 fixedsamplelocations
+)
+)
+GEN_THUNKS
+(
+glTexStorageAttribs2DEXT
+(
+GLenum
+target
+GLsizei
+levels
+GLenum
+internalformat
+GLsizei
+width
+GLsizei
+height
+const
+GLint
+*
+attrib_list
+)
+(
+target
+levels
+internalformat
+width
+height
+attrib_list
+)
+)
+GEN_THUNKS
+(
+glTexStorageAttribs3DEXT
+(
+GLenum
+target
+GLsizei
+levels
+GLenum
+internalformat
+GLsizei
+width
+GLsizei
+height
+GLsizei
+depth
+const
+GLint
+*
+attrib_list
+)
+(
+target
+levels
+internalformat
+width
+height
+depth
+attrib_list
 )
 )
 GEN_THUNKS
@@ -438681,6 +443156,50 @@ zoffset
 width
 height
 depth
+commit
+)
+)
+GEN_THUNKS
+(
+glTexturePageCommitmentMemNV
+(
+GLuint
+texture
+GLint
+layer
+GLint
+level
+GLint
+xoffset
+GLint
+yoffset
+GLint
+zoffset
+GLsizei
+width
+GLsizei
+height
+GLsizei
+depth
+GLuint
+memory
+GLuint64
+offset
+GLboolean
+commit
+)
+(
+texture
+layer
+level
+xoffset
+yoffset
+zoffset
+width
+height
+depth
+memory
+offset
 commit
 )
 )
@@ -442650,7 +447169,7 @@ surface
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLsizei
 *
 length
@@ -442661,7 +447180,7 @@ values
 (
 surface
 pname
-bufSize
+count
 length
 values
 )
@@ -451661,6 +456180,18 @@ epoxy_glBlitFramebufferEXT_dispatch_table_rewrite_ptr
 glBlitFramebufferEXT
 *
 /
+epoxy_glBlitFramebufferLayerEXT_dispatch_table_rewrite_ptr
+/
+*
+glBlitFramebufferLayerEXT
+*
+/
+epoxy_glBlitFramebufferLayersEXT_dispatch_table_rewrite_ptr
+/
+*
+glBlitFramebufferLayersEXT
+*
+/
 epoxy_glBlitFramebufferNV_dispatch_table_rewrite_ptr
 /
 *
@@ -451701,6 +456232,12 @@ epoxy_glBufferPageCommitmentARB_dispatch_table_rewrite_ptr
 /
 *
 glBufferPageCommitmentARB
+*
+/
+epoxy_glBufferPageCommitmentMemNV_dispatch_table_rewrite_ptr
+/
+*
+glBufferPageCommitmentMemNV
 *
 /
 epoxy_glBufferParameteriAPPLE_dispatch_table_rewrite_ptr
@@ -453281,6 +457818,12 @@ epoxy_glCreateSamplers_dispatch_table_rewrite_ptr
 glCreateSamplers
 *
 /
+epoxy_glCreateSemaphoresNV_dispatch_table_rewrite_ptr
+/
+*
+glCreateSemaphoresNV
+*
+/
 epoxy_glCreateShader_dispatch_table_rewrite_ptr
 /
 *
@@ -453761,6 +458304,12 @@ epoxy_glDepthRange_dispatch_table_rewrite_ptr
 glDepthRange
 *
 /
+epoxy_glDepthRangeArraydvNV_dispatch_table_rewrite_ptr
+/
+*
+glDepthRangeArraydvNV
+*
+/
 epoxy_glDepthRangeArrayfvNV_dispatch_table_rewrite_ptr
 /
 *
@@ -453783,6 +458332,12 @@ epoxy_glDepthRangeIndexed_dispatch_table_rewrite_ptr
 /
 *
 glDepthRangeIndexed
+*
+/
+epoxy_glDepthRangeIndexeddNV_dispatch_table_rewrite_ptr
+/
+*
+glDepthRangeIndexeddNV
 *
 /
 epoxy_glDepthRangeIndexedfNV_dispatch_table_rewrite_ptr
@@ -454215,6 +458770,18 @@ epoxy_glDrawMeshArraysSUN_dispatch_table_rewrite_ptr
 /
 *
 glDrawMeshArraysSUN
+*
+/
+epoxy_glDrawMeshTasksEXT_dispatch_table_rewrite_ptr
+/
+*
+glDrawMeshTasksEXT
+*
+/
+epoxy_glDrawMeshTasksIndirectEXT_dispatch_table_rewrite_ptr
+/
+*
+glDrawMeshTasksIndirectEXT
 *
 /
 epoxy_glDrawMeshTasksIndirectNV_dispatch_table_rewrite_ptr
@@ -454859,6 +459426,12 @@ epoxy_glExtractComponentEXT_dispatch_table_rewrite_ptr
 glExtractComponentEXT
 *
 /
+epoxy_glExtrapolateTex2DQCOM_dispatch_table_rewrite_ptr
+/
+*
+glExtrapolateTex2DQCOM
+*
+/
 epoxy_glFeedbackBuffer_dispatch_table_rewrite_ptr
 /
 *
@@ -455319,6 +459892,12 @@ epoxy_glFramebufferSamplePositionsfvAMD_dispatch_table_rewrite_ptr
 /
 *
 glFramebufferSamplePositionsfvAMD
+*
+/
+epoxy_glFramebufferShadingRateEXT_dispatch_table_rewrite_ptr
+/
+*
+glFramebufferShadingRateEXT
 *
 /
 epoxy_glFramebufferTexture_dispatch_table_rewrite_ptr
@@ -456341,6 +460920,12 @@ epoxy_glGetFragmentMaterialivSGIX_dispatch_table_rewrite_ptr
 glGetFragmentMaterialivSGIX
 *
 /
+epoxy_glGetFragmentShadingRatesEXT_dispatch_table_rewrite_ptr
+/
+*
+glGetFragmentShadingRatesEXT
+*
+/
 epoxy_glGetFramebufferAttachmentParameteriv_dispatch_table_rewrite_ptr
 /
 *
@@ -456513,6 +461098,12 @@ epoxy_glGetInteger64vAPPLE_dispatch_table_rewrite_ptr
 /
 *
 glGetInteger64vAPPLE
+*
+/
+epoxy_glGetInteger64vEXT_dispatch_table_rewrite_ptr
+/
+*
+glGetInteger64vEXT
 *
 /
 epoxy_glGetIntegerIndexedvEXT_dispatch_table_rewrite_ptr
@@ -457677,6 +462268,12 @@ epoxy_glGetSamplerParameteriv_dispatch_table_rewrite_ptr
 /
 *
 glGetSamplerParameteriv
+*
+/
+epoxy_glGetSemaphoreParameterivNV_dispatch_table_rewrite_ptr
+/
+*
+glGetSemaphoreParameterivNV
 *
 /
 epoxy_glGetSemaphoreParameterui64vEXT_dispatch_table_rewrite_ptr
@@ -460241,6 +464838,12 @@ epoxy_glMatrixTranslatefEXT_dispatch_table_rewrite_ptr
 glMatrixTranslatefEXT
 *
 /
+epoxy_glMaxActiveShaderCoresARM_dispatch_table_rewrite_ptr
+/
+*
+glMaxActiveShaderCoresARM
+*
+/
 epoxy_glMaxShaderCompilerThreadsARB_dispatch_table_rewrite_ptr
 /
 *
@@ -460487,10 +465090,22 @@ epoxy_glMultiDrawElementsIndirectEXT_dispatch_table_rewrite_ptr
 glMultiDrawElementsIndirectEXT
 *
 /
+epoxy_glMultiDrawMeshTasksIndirectCountEXT_dispatch_table_rewrite_ptr
+/
+*
+glMultiDrawMeshTasksIndirectCountEXT
+*
+/
 epoxy_glMultiDrawMeshTasksIndirectCountNV_dispatch_table_rewrite_ptr
 /
 *
 glMultiDrawMeshTasksIndirectCountNV
+*
+/
+epoxy_glMultiDrawMeshTasksIndirectEXT_dispatch_table_rewrite_ptr
+/
+*
+glMultiDrawMeshTasksIndirectEXT
 *
 /
 epoxy_glMultiDrawMeshTasksIndirectNV_dispatch_table_rewrite_ptr
@@ -461363,6 +465978,12 @@ epoxy_glNamedBufferPageCommitmentEXT_dispatch_table_rewrite_ptr
 glNamedBufferPageCommitmentEXT
 *
 /
+epoxy_glNamedBufferPageCommitmentMemNV_dispatch_table_rewrite_ptr
+/
+*
+glNamedBufferPageCommitmentMemNV
+*
+/
 epoxy_glNamedBufferStorage_dispatch_table_rewrite_ptr
 /
 *
@@ -461511,6 +466132,12 @@ epoxy_glNamedFramebufferTextureLayerEXT_dispatch_table_rewrite_ptr
 /
 *
 glNamedFramebufferTextureLayerEXT
+*
+/
+epoxy_glNamedFramebufferTextureMultiviewOVR_dispatch_table_rewrite_ptr
+/
+*
+glNamedFramebufferTextureMultiviewOVR
 *
 /
 epoxy_glNamedProgramLocalParameter4dEXT_dispatch_table_rewrite_ptr
@@ -464837,6 +469464,12 @@ epoxy_glSelectPerfMonitorCountersAMD_dispatch_table_rewrite_ptr
 glSelectPerfMonitorCountersAMD
 *
 /
+epoxy_glSemaphoreParameterivNV_dispatch_table_rewrite_ptr
+/
+*
+glSemaphoreParameterivNV
+*
+/
 epoxy_glSemaphoreParameterui64vEXT_dispatch_table_rewrite_ptr
 /
 *
@@ -464939,6 +469572,18 @@ epoxy_glShaderStorageBlockBinding_dispatch_table_rewrite_ptr
 glShaderStorageBlockBinding
 *
 /
+epoxy_glShadingRateCombinerOpsEXT_dispatch_table_rewrite_ptr
+/
+*
+glShadingRateCombinerOpsEXT
+*
+/
+epoxy_glShadingRateEXT_dispatch_table_rewrite_ptr
+/
+*
+glShadingRateEXT
+*
+/
 epoxy_glShadingRateImageBarrierNV_dispatch_table_rewrite_ptr
 /
 *
@@ -464949,6 +469594,12 @@ epoxy_glShadingRateImagePaletteNV_dispatch_table_rewrite_ptr
 /
 *
 glShadingRateImagePaletteNV
+*
+/
+epoxy_glShadingRateQCOM_dispatch_table_rewrite_ptr
+/
+*
+glShadingRateQCOM
 *
 /
 epoxy_glShadingRateSampleOrderCustomNV_dispatch_table_rewrite_ptr
@@ -465899,6 +470550,18 @@ epoxy_glTexEnvxvOES_dispatch_table_rewrite_ptr
 glTexEnvxvOES
 *
 /
+epoxy_glTexEstimateMotionQCOM_dispatch_table_rewrite_ptr
+/
+*
+glTexEstimateMotionQCOM
+*
+/
+epoxy_glTexEstimateMotionRegionsQCOM_dispatch_table_rewrite_ptr
+/
+*
+glTexEstimateMotionRegionsQCOM
+*
+/
 epoxy_glTexFilterFuncSGIS_dispatch_table_rewrite_ptr
 /
 *
@@ -466049,6 +470712,12 @@ epoxy_glTexPageCommitmentEXT_dispatch_table_rewrite_ptr
 glTexPageCommitmentEXT
 *
 /
+epoxy_glTexPageCommitmentMemNV_dispatch_table_rewrite_ptr
+/
+*
+glTexPageCommitmentMemNV
+*
+/
 epoxy_glTexParameterIiv_dispatch_table_rewrite_ptr
 /
 *
@@ -466191,6 +470860,18 @@ epoxy_glTexStorage3DMultisampleOES_dispatch_table_rewrite_ptr
 /
 *
 glTexStorage3DMultisampleOES
+*
+/
+epoxy_glTexStorageAttribs2DEXT_dispatch_table_rewrite_ptr
+/
+*
+glTexStorageAttribs2DEXT
+*
+/
+epoxy_glTexStorageAttribs3DEXT_dispatch_table_rewrite_ptr
+/
+*
+glTexStorageAttribs3DEXT
 *
 /
 epoxy_glTexStorageMem1DEXT_dispatch_table_rewrite_ptr
@@ -466395,6 +471076,12 @@ epoxy_glTexturePageCommitmentEXT_dispatch_table_rewrite_ptr
 /
 *
 glTexturePageCommitmentEXT
+*
+/
+epoxy_glTexturePageCommitmentMemNV_dispatch_table_rewrite_ptr
+/
+*
+glTexturePageCommitmentMemNV
 *
 /
 epoxy_glTextureParameterIiv_dispatch_table_rewrite_ptr
@@ -471037,6 +475724,14 @@ epoxy_glBlitFramebufferEXT
 =
 epoxy_glBlitFramebufferEXT_dispatch_table_thunk
 ;
+epoxy_glBlitFramebufferLayerEXT
+=
+epoxy_glBlitFramebufferLayerEXT_dispatch_table_thunk
+;
+epoxy_glBlitFramebufferLayersEXT
+=
+epoxy_glBlitFramebufferLayersEXT_dispatch_table_thunk
+;
 epoxy_glBlitFramebufferNV
 =
 epoxy_glBlitFramebufferNV_dispatch_table_thunk
@@ -471064,6 +475759,10 @@ epoxy_glBufferDataARB_dispatch_table_thunk
 epoxy_glBufferPageCommitmentARB
 =
 epoxy_glBufferPageCommitmentARB_dispatch_table_thunk
+;
+epoxy_glBufferPageCommitmentMemNV
+=
+epoxy_glBufferPageCommitmentMemNV_dispatch_table_thunk
 ;
 epoxy_glBufferParameteriAPPLE
 =
@@ -472117,6 +476816,10 @@ epoxy_glCreateSamplers
 =
 epoxy_glCreateSamplers_dispatch_table_thunk
 ;
+epoxy_glCreateSemaphoresNV
+=
+epoxy_glCreateSemaphoresNV_dispatch_table_thunk
+;
 epoxy_glCreateShader
 =
 epoxy_glCreateShader_dispatch_table_thunk
@@ -472437,6 +477140,10 @@ epoxy_glDepthRange
 =
 epoxy_glDepthRange_dispatch_table_thunk
 ;
+epoxy_glDepthRangeArraydvNV
+=
+epoxy_glDepthRangeArraydvNV_dispatch_table_thunk
+;
 epoxy_glDepthRangeArrayfvNV
 =
 epoxy_glDepthRangeArrayfvNV_dispatch_table_thunk
@@ -472452,6 +477159,10 @@ epoxy_glDepthRangeArrayv_dispatch_table_thunk
 epoxy_glDepthRangeIndexed
 =
 epoxy_glDepthRangeIndexed_dispatch_table_thunk
+;
+epoxy_glDepthRangeIndexeddNV
+=
+epoxy_glDepthRangeIndexeddNV_dispatch_table_thunk
 ;
 epoxy_glDepthRangeIndexedfNV
 =
@@ -472740,6 +477451,14 @@ epoxy_glDrawElementsInstancedNV_dispatch_table_thunk
 epoxy_glDrawMeshArraysSUN
 =
 epoxy_glDrawMeshArraysSUN_dispatch_table_thunk
+;
+epoxy_glDrawMeshTasksEXT
+=
+epoxy_glDrawMeshTasksEXT_dispatch_table_thunk
+;
+epoxy_glDrawMeshTasksIndirectEXT
+=
+epoxy_glDrawMeshTasksIndirectEXT_dispatch_table_thunk
 ;
 epoxy_glDrawMeshTasksIndirectNV
 =
@@ -473169,6 +477888,10 @@ epoxy_glExtractComponentEXT
 =
 epoxy_glExtractComponentEXT_dispatch_table_thunk
 ;
+epoxy_glExtrapolateTex2DQCOM
+=
+epoxy_glExtrapolateTex2DQCOM_dispatch_table_thunk
+;
 epoxy_glFeedbackBuffer
 =
 epoxy_glFeedbackBuffer_dispatch_table_thunk
@@ -473476,6 +478199,10 @@ epoxy_glFramebufferSampleLocationsfvNV_dispatch_table_thunk
 epoxy_glFramebufferSamplePositionsfvAMD
 =
 epoxy_glFramebufferSamplePositionsfvAMD_dispatch_table_thunk
+;
+epoxy_glFramebufferShadingRateEXT
+=
+epoxy_glFramebufferShadingRateEXT_dispatch_table_thunk
 ;
 epoxy_glFramebufferTexture
 =
@@ -474157,6 +478884,10 @@ epoxy_glGetFragmentMaterialivSGIX
 =
 epoxy_glGetFragmentMaterialivSGIX_dispatch_table_thunk
 ;
+epoxy_glGetFragmentShadingRatesEXT
+=
+epoxy_glGetFragmentShadingRatesEXT_dispatch_table_thunk
+;
 epoxy_glGetFramebufferAttachmentParameteriv
 =
 epoxy_glGetFramebufferAttachmentParameteriv_dispatch_table_thunk
@@ -474272,6 +479003,10 @@ epoxy_glGetInteger64v_dispatch_table_thunk
 epoxy_glGetInteger64vAPPLE
 =
 epoxy_glGetInteger64vAPPLE_dispatch_table_thunk
+;
+epoxy_glGetInteger64vEXT
+=
+epoxy_glGetInteger64vEXT_dispatch_table_thunk
 ;
 epoxy_glGetIntegerIndexedvEXT
 =
@@ -475048,6 +479783,10 @@ epoxy_glGetSamplerParameterfv_dispatch_table_thunk
 epoxy_glGetSamplerParameteriv
 =
 epoxy_glGetSamplerParameteriv_dispatch_table_thunk
+;
+epoxy_glGetSemaphoreParameterivNV
+=
+epoxy_glGetSemaphoreParameterivNV_dispatch_table_thunk
 ;
 epoxy_glGetSemaphoreParameterui64vEXT
 =
@@ -476757,6 +481496,10 @@ epoxy_glMatrixTranslatefEXT
 =
 epoxy_glMatrixTranslatefEXT_dispatch_table_thunk
 ;
+epoxy_glMaxActiveShaderCoresARM
+=
+epoxy_glMaxActiveShaderCoresARM_dispatch_table_thunk
+;
 epoxy_glMaxShaderCompilerThreadsARB
 =
 epoxy_glMaxShaderCompilerThreadsARB_dispatch_table_thunk
@@ -476921,9 +481664,17 @@ epoxy_glMultiDrawElementsIndirectEXT
 =
 epoxy_glMultiDrawElementsIndirectEXT_dispatch_table_thunk
 ;
+epoxy_glMultiDrawMeshTasksIndirectCountEXT
+=
+epoxy_glMultiDrawMeshTasksIndirectCountEXT_dispatch_table_thunk
+;
 epoxy_glMultiDrawMeshTasksIndirectCountNV
 =
 epoxy_glMultiDrawMeshTasksIndirectCountNV_dispatch_table_thunk
+;
+epoxy_glMultiDrawMeshTasksIndirectEXT
+=
+epoxy_glMultiDrawMeshTasksIndirectEXT_dispatch_table_thunk
 ;
 epoxy_glMultiDrawMeshTasksIndirectNV
 =
@@ -477505,6 +482256,10 @@ epoxy_glNamedBufferPageCommitmentEXT
 =
 epoxy_glNamedBufferPageCommitmentEXT_dispatch_table_thunk
 ;
+epoxy_glNamedBufferPageCommitmentMemNV
+=
+epoxy_glNamedBufferPageCommitmentMemNV_dispatch_table_thunk
+;
 epoxy_glNamedBufferStorage
 =
 epoxy_glNamedBufferStorage_dispatch_table_thunk
@@ -477604,6 +482359,10 @@ epoxy_glNamedFramebufferTextureLayer_dispatch_table_thunk
 epoxy_glNamedFramebufferTextureLayerEXT
 =
 epoxy_glNamedFramebufferTextureLayerEXT_dispatch_table_thunk
+;
+epoxy_glNamedFramebufferTextureMultiviewOVR
+=
+epoxy_glNamedFramebufferTextureMultiviewOVR_dispatch_table_thunk
 ;
 epoxy_glNamedProgramLocalParameter4dEXT
 =
@@ -479821,6 +484580,10 @@ epoxy_glSelectPerfMonitorCountersAMD
 =
 epoxy_glSelectPerfMonitorCountersAMD_dispatch_table_thunk
 ;
+epoxy_glSemaphoreParameterivNV
+=
+epoxy_glSemaphoreParameterivNV_dispatch_table_thunk
+;
 epoxy_glSemaphoreParameterui64vEXT
 =
 epoxy_glSemaphoreParameterui64vEXT_dispatch_table_thunk
@@ -479889,6 +484652,14 @@ epoxy_glShaderStorageBlockBinding
 =
 epoxy_glShaderStorageBlockBinding_dispatch_table_thunk
 ;
+epoxy_glShadingRateCombinerOpsEXT
+=
+epoxy_glShadingRateCombinerOpsEXT_dispatch_table_thunk
+;
+epoxy_glShadingRateEXT
+=
+epoxy_glShadingRateEXT_dispatch_table_thunk
+;
 epoxy_glShadingRateImageBarrierNV
 =
 epoxy_glShadingRateImageBarrierNV_dispatch_table_thunk
@@ -479896,6 +484667,10 @@ epoxy_glShadingRateImageBarrierNV_dispatch_table_thunk
 epoxy_glShadingRateImagePaletteNV
 =
 epoxy_glShadingRateImagePaletteNV_dispatch_table_thunk
+;
+epoxy_glShadingRateQCOM
+=
+epoxy_glShadingRateQCOM_dispatch_table_thunk
 ;
 epoxy_glShadingRateSampleOrderCustomNV
 =
@@ -480529,6 +485304,14 @@ epoxy_glTexEnvxvOES
 =
 epoxy_glTexEnvxvOES_dispatch_table_thunk
 ;
+epoxy_glTexEstimateMotionQCOM
+=
+epoxy_glTexEstimateMotionQCOM_dispatch_table_thunk
+;
+epoxy_glTexEstimateMotionRegionsQCOM
+=
+epoxy_glTexEstimateMotionRegionsQCOM_dispatch_table_thunk
+;
 epoxy_glTexFilterFuncSGIS
 =
 epoxy_glTexFilterFuncSGIS_dispatch_table_thunk
@@ -480629,6 +485412,10 @@ epoxy_glTexPageCommitmentEXT
 =
 epoxy_glTexPageCommitmentEXT_dispatch_table_thunk
 ;
+epoxy_glTexPageCommitmentMemNV
+=
+epoxy_glTexPageCommitmentMemNV_dispatch_table_thunk
+;
 epoxy_glTexParameterIiv
 =
 epoxy_glTexParameterIiv_dispatch_table_thunk
@@ -480724,6 +485511,14 @@ epoxy_glTexStorage3DMultisample_dispatch_table_thunk
 epoxy_glTexStorage3DMultisampleOES
 =
 epoxy_glTexStorage3DMultisampleOES_dispatch_table_thunk
+;
+epoxy_glTexStorageAttribs2DEXT
+=
+epoxy_glTexStorageAttribs2DEXT_dispatch_table_thunk
+;
+epoxy_glTexStorageAttribs3DEXT
+=
+epoxy_glTexStorageAttribs3DEXT_dispatch_table_thunk
 ;
 epoxy_glTexStorageMem1DEXT
 =
@@ -480860,6 +485655,10 @@ epoxy_glTextureNormalEXT_dispatch_table_thunk
 epoxy_glTexturePageCommitmentEXT
 =
 epoxy_glTexturePageCommitmentEXT_dispatch_table_thunk
+;
+epoxy_glTexturePageCommitmentMemNV
+=
+epoxy_glTexturePageCommitmentMemNV_dispatch_table_thunk
 ;
 epoxy_glTextureParameterIiv
 =
@@ -484287,6 +489086,16 @@ epoxy_glBlitFramebufferEXT
 =
 epoxy_glBlitFramebufferEXT_global_rewrite_ptr
 ;
+PFNGLBLITFRAMEBUFFERLAYEREXTPROC
+epoxy_glBlitFramebufferLayerEXT
+=
+epoxy_glBlitFramebufferLayerEXT_global_rewrite_ptr
+;
+PFNGLBLITFRAMEBUFFERLAYERSEXTPROC
+epoxy_glBlitFramebufferLayersEXT
+=
+epoxy_glBlitFramebufferLayersEXT_global_rewrite_ptr
+;
 PFNGLBLITFRAMEBUFFERNVPROC
 epoxy_glBlitFramebufferNV
 =
@@ -484321,6 +489130,11 @@ PFNGLBUFFERPAGECOMMITMENTARBPROC
 epoxy_glBufferPageCommitmentARB
 =
 epoxy_glBufferPageCommitmentARB_global_rewrite_ptr
+;
+PFNGLBUFFERPAGECOMMITMENTMEMNVPROC
+epoxy_glBufferPageCommitmentMemNV
+=
+epoxy_glBufferPageCommitmentMemNV_global_rewrite_ptr
 ;
 PFNGLBUFFERPARAMETERIAPPLEPROC
 epoxy_glBufferParameteriAPPLE
@@ -485637,6 +490451,11 @@ epoxy_glCreateSamplers
 =
 epoxy_glCreateSamplers_global_rewrite_ptr
 ;
+PFNGLCREATESEMAPHORESNVPROC
+epoxy_glCreateSemaphoresNV
+=
+epoxy_glCreateSemaphoresNV_global_rewrite_ptr
+;
 PFNGLCREATESHADERPROC
 epoxy_glCreateShader
 =
@@ -486037,6 +490856,11 @@ epoxy_glDepthRange
 =
 epoxy_glDepthRange_global_rewrite_ptr
 ;
+PFNGLDEPTHRANGEARRAYDVNVPROC
+epoxy_glDepthRangeArraydvNV
+=
+epoxy_glDepthRangeArraydvNV_global_rewrite_ptr
+;
 PFNGLDEPTHRANGEARRAYFVNVPROC
 epoxy_glDepthRangeArrayfvNV
 =
@@ -486056,6 +490880,11 @@ PFNGLDEPTHRANGEINDEXEDPROC
 epoxy_glDepthRangeIndexed
 =
 epoxy_glDepthRangeIndexed_global_rewrite_ptr
+;
+PFNGLDEPTHRANGEINDEXEDDNVPROC
+epoxy_glDepthRangeIndexeddNV
+=
+epoxy_glDepthRangeIndexeddNV_global_rewrite_ptr
 ;
 PFNGLDEPTHRANGEINDEXEDFNVPROC
 epoxy_glDepthRangeIndexedfNV
@@ -486416,6 +491245,16 @@ PFNGLDRAWMESHARRAYSSUNPROC
 epoxy_glDrawMeshArraysSUN
 =
 epoxy_glDrawMeshArraysSUN_global_rewrite_ptr
+;
+PFNGLDRAWMESHTASKSEXTPROC
+epoxy_glDrawMeshTasksEXT
+=
+epoxy_glDrawMeshTasksEXT_global_rewrite_ptr
+;
+PFNGLDRAWMESHTASKSINDIRECTEXTPROC
+epoxy_glDrawMeshTasksIndirectEXT
+=
+epoxy_glDrawMeshTasksIndirectEXT_global_rewrite_ptr
 ;
 PFNGLDRAWMESHTASKSINDIRECTNVPROC
 epoxy_glDrawMeshTasksIndirectNV
@@ -486952,6 +491791,11 @@ epoxy_glExtractComponentEXT
 =
 epoxy_glExtractComponentEXT_global_rewrite_ptr
 ;
+PFNGLEXTRAPOLATETEX2DQCOMPROC
+epoxy_glExtrapolateTex2DQCOM
+=
+epoxy_glExtrapolateTex2DQCOM_global_rewrite_ptr
+;
 PFNGLFEEDBACKBUFFERPROC
 epoxy_glFeedbackBuffer
 =
@@ -487336,6 +492180,11 @@ PFNGLFRAMEBUFFERSAMPLEPOSITIONSFVAMDPROC
 epoxy_glFramebufferSamplePositionsfvAMD
 =
 epoxy_glFramebufferSamplePositionsfvAMD_global_rewrite_ptr
+;
+PFNGLFRAMEBUFFERSHADINGRATEEXTPROC
+epoxy_glFramebufferShadingRateEXT
+=
+epoxy_glFramebufferShadingRateEXT_global_rewrite_ptr
 ;
 PFNGLFRAMEBUFFERTEXTUREPROC
 epoxy_glFramebufferTexture
@@ -488187,6 +493036,11 @@ epoxy_glGetFragmentMaterialivSGIX
 =
 epoxy_glGetFragmentMaterialivSGIX_global_rewrite_ptr
 ;
+PFNGLGETFRAGMENTSHADINGRATESEXTPROC
+epoxy_glGetFragmentShadingRatesEXT
+=
+epoxy_glGetFragmentShadingRatesEXT_global_rewrite_ptr
+;
 PFNGLGETFRAMEBUFFERATTACHMENTPARAMETERIVPROC
 epoxy_glGetFramebufferAttachmentParameteriv
 =
@@ -488331,6 +493185,11 @@ PFNGLGETINTEGER64VAPPLEPROC
 epoxy_glGetInteger64vAPPLE
 =
 epoxy_glGetInteger64vAPPLE_global_rewrite_ptr
+;
+PFNGLGETINTEGER64VEXTPROC
+epoxy_glGetInteger64vEXT
+=
+epoxy_glGetInteger64vEXT_global_rewrite_ptr
 ;
 PFNGLGETINTEGERINDEXEDVEXTPROC
 epoxy_glGetIntegerIndexedvEXT
@@ -489301,6 +494160,11 @@ PFNGLGETSAMPLERPARAMETERIVPROC
 epoxy_glGetSamplerParameteriv
 =
 epoxy_glGetSamplerParameteriv_global_rewrite_ptr
+;
+PFNGLGETSEMAPHOREPARAMETERIVNVPROC
+epoxy_glGetSemaphoreParameterivNV
+=
+epoxy_glGetSemaphoreParameterivNV_global_rewrite_ptr
 ;
 PFNGLGETSEMAPHOREPARAMETERUI64VEXTPROC
 epoxy_glGetSemaphoreParameterui64vEXT
@@ -491437,6 +496301,11 @@ epoxy_glMatrixTranslatefEXT
 =
 epoxy_glMatrixTranslatefEXT_global_rewrite_ptr
 ;
+PFNGLMAXACTIVESHADERCORESARMPROC
+epoxy_glMaxActiveShaderCoresARM
+=
+epoxy_glMaxActiveShaderCoresARM_global_rewrite_ptr
+;
 PFNGLMAXSHADERCOMPILERTHREADSARBPROC
 epoxy_glMaxShaderCompilerThreadsARB
 =
@@ -491642,10 +496511,20 @@ epoxy_glMultiDrawElementsIndirectEXT
 =
 epoxy_glMultiDrawElementsIndirectEXT_global_rewrite_ptr
 ;
+PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTEXTPROC
+epoxy_glMultiDrawMeshTasksIndirectCountEXT
+=
+epoxy_glMultiDrawMeshTasksIndirectCountEXT_global_rewrite_ptr
+;
 PFNGLMULTIDRAWMESHTASKSINDIRECTCOUNTNVPROC
 epoxy_glMultiDrawMeshTasksIndirectCountNV
 =
 epoxy_glMultiDrawMeshTasksIndirectCountNV_global_rewrite_ptr
+;
+PFNGLMULTIDRAWMESHTASKSINDIRECTEXTPROC
+epoxy_glMultiDrawMeshTasksIndirectEXT
+=
+epoxy_glMultiDrawMeshTasksIndirectEXT_global_rewrite_ptr
 ;
 PFNGLMULTIDRAWMESHTASKSINDIRECTNVPROC
 epoxy_glMultiDrawMeshTasksIndirectNV
@@ -492372,6 +497251,11 @@ epoxy_glNamedBufferPageCommitmentEXT
 =
 epoxy_glNamedBufferPageCommitmentEXT_global_rewrite_ptr
 ;
+PFNGLNAMEDBUFFERPAGECOMMITMENTMEMNVPROC
+epoxy_glNamedBufferPageCommitmentMemNV
+=
+epoxy_glNamedBufferPageCommitmentMemNV_global_rewrite_ptr
+;
 PFNGLNAMEDBUFFERSTORAGEPROC
 epoxy_glNamedBufferStorage
 =
@@ -492496,6 +497380,11 @@ PFNGLNAMEDFRAMEBUFFERTEXTURELAYEREXTPROC
 epoxy_glNamedFramebufferTextureLayerEXT
 =
 epoxy_glNamedFramebufferTextureLayerEXT_global_rewrite_ptr
+;
+PFNGLNAMEDFRAMEBUFFERTEXTUREMULTIVIEWOVRPROC
+epoxy_glNamedFramebufferTextureMultiviewOVR
+=
+epoxy_glNamedFramebufferTextureMultiviewOVR_global_rewrite_ptr
 ;
 PFNGLNAMEDPROGRAMLOCALPARAMETER4DEXTPROC
 epoxy_glNamedProgramLocalParameter4dEXT
@@ -495267,6 +500156,11 @@ epoxy_glSelectPerfMonitorCountersAMD
 =
 epoxy_glSelectPerfMonitorCountersAMD_global_rewrite_ptr
 ;
+PFNGLSEMAPHOREPARAMETERIVNVPROC
+epoxy_glSemaphoreParameterivNV
+=
+epoxy_glSemaphoreParameterivNV_global_rewrite_ptr
+;
 PFNGLSEMAPHOREPARAMETERUI64VEXTPROC
 epoxy_glSemaphoreParameterui64vEXT
 =
@@ -495352,6 +500246,16 @@ epoxy_glShaderStorageBlockBinding
 =
 epoxy_glShaderStorageBlockBinding_global_rewrite_ptr
 ;
+PFNGLSHADINGRATECOMBINEROPSEXTPROC
+epoxy_glShadingRateCombinerOpsEXT
+=
+epoxy_glShadingRateCombinerOpsEXT_global_rewrite_ptr
+;
+PFNGLSHADINGRATEEXTPROC
+epoxy_glShadingRateEXT
+=
+epoxy_glShadingRateEXT_global_rewrite_ptr
+;
 PFNGLSHADINGRATEIMAGEBARRIERNVPROC
 epoxy_glShadingRateImageBarrierNV
 =
@@ -495361,6 +500265,11 @@ PFNGLSHADINGRATEIMAGEPALETTENVPROC
 epoxy_glShadingRateImagePaletteNV
 =
 epoxy_glShadingRateImagePaletteNV_global_rewrite_ptr
+;
+PFNGLSHADINGRATEQCOMPROC
+epoxy_glShadingRateQCOM
+=
+epoxy_glShadingRateQCOM_global_rewrite_ptr
 ;
 PFNGLSHADINGRATESAMPLEORDERCUSTOMNVPROC
 epoxy_glShadingRateSampleOrderCustomNV
@@ -496152,6 +501061,16 @@ epoxy_glTexEnvxvOES
 =
 epoxy_glTexEnvxvOES_global_rewrite_ptr
 ;
+PFNGLTEXESTIMATEMOTIONQCOMPROC
+epoxy_glTexEstimateMotionQCOM
+=
+epoxy_glTexEstimateMotionQCOM_global_rewrite_ptr
+;
+PFNGLTEXESTIMATEMOTIONREGIONSQCOMPROC
+epoxy_glTexEstimateMotionRegionsQCOM
+=
+epoxy_glTexEstimateMotionRegionsQCOM_global_rewrite_ptr
+;
 PFNGLTEXFILTERFUNCSGISPROC
 epoxy_glTexFilterFuncSGIS
 =
@@ -496277,6 +501196,11 @@ epoxy_glTexPageCommitmentEXT
 =
 epoxy_glTexPageCommitmentEXT_global_rewrite_ptr
 ;
+PFNGLTEXPAGECOMMITMENTMEMNVPROC
+epoxy_glTexPageCommitmentMemNV
+=
+epoxy_glTexPageCommitmentMemNV_global_rewrite_ptr
+;
 PFNGLTEXPARAMETERIIVPROC
 epoxy_glTexParameterIiv
 =
@@ -496396,6 +501320,16 @@ PFNGLTEXSTORAGE3DMULTISAMPLEOESPROC
 epoxy_glTexStorage3DMultisampleOES
 =
 epoxy_glTexStorage3DMultisampleOES_global_rewrite_ptr
+;
+PFNGLTEXSTORAGEATTRIBS2DEXTPROC
+epoxy_glTexStorageAttribs2DEXT
+=
+epoxy_glTexStorageAttribs2DEXT_global_rewrite_ptr
+;
+PFNGLTEXSTORAGEATTRIBS3DEXTPROC
+epoxy_glTexStorageAttribs3DEXT
+=
+epoxy_glTexStorageAttribs3DEXT_global_rewrite_ptr
 ;
 PFNGLTEXSTORAGEMEM1DEXTPROC
 epoxy_glTexStorageMem1DEXT
@@ -496566,6 +501500,11 @@ PFNGLTEXTUREPAGECOMMITMENTEXTPROC
 epoxy_glTexturePageCommitmentEXT
 =
 epoxy_glTexturePageCommitmentEXT_global_rewrite_ptr
+;
+PFNGLTEXTUREPAGECOMMITMENTMEMNVPROC
+epoxy_glTexturePageCommitmentMemNV
+=
+epoxy_glTexturePageCommitmentMemNV_global_rewrite_ptr
 ;
 PFNGLTEXTUREPARAMETERIIVPROC
 epoxy_glTextureParameterIiv

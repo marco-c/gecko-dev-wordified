@@ -237,7 +237,7 @@ __APPLE__
 #
 define
 PLATFORM_HAS_EGL
-0
+ENABLE_EGL
 #
 define
 PLATFORM_HAS_GLX

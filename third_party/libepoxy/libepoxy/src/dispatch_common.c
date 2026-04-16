@@ -1394,6 +1394,14 @@ dylib
 "
 #
 define
+EGL_LIB
+"
+libEGL
+.
+dylib
+"
+#
+define
 OPENGL_LIB
 "
 /
@@ -1419,7 +1427,7 @@ GLES1_LIB
 "
 libGLESv1_CM
 .
-so
+dylib
 "
 #
 define
@@ -1427,7 +1435,7 @@ GLES2_LIB
 "
 libGLESv2
 .
-so
+dylib
 "
 #
 elif
