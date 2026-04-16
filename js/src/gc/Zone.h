@@ -6218,6 +6218,13 @@ otherZone
 {
 MOZ_ASSERT
 (
+isGCMarking
+(
+)
+)
+;
+MOZ_ASSERT
+(
 otherZone
 -
 >
