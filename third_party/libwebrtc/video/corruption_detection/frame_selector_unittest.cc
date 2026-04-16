@@ -225,6 +225,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -570,6 +579,9 @@ AlwaysSelectsKeyFrames
 FrameSelector
 selector
 (
+CreateTestEnvironment
+(
+)
 ScalabilityMode
 :
 :
@@ -632,6 +644,9 @@ SelectsBasedOnLowOverheadSpan
 FrameSelector
 selector
 (
+CreateTestEnvironment
+(
+)
 ScalabilityMode
 :
 :
@@ -787,6 +802,9 @@ SelectsBasedOnHighOverheadSpan
 FrameSelector
 selector
 (
+CreateTestEnvironment
+(
+)
 ScalabilityMode
 :
 :
@@ -942,6 +960,9 @@ IndependentKeyframesWithSimulcast
 FrameSelector
 selector
 (
+CreateTestEnvironment
+(
+)
 ScalabilityMode
 :
 :
@@ -1131,6 +1152,9 @@ TreatsDeltaAsKeyframeWithInterLayerPrediction
 FrameSelector
 selector
 (
+CreateTestEnvironment
+(
+)
 ScalabilityMode
 :
 :
@@ -1331,6 +1355,9 @@ SelectsAboutHalfInMiddleOfSpan
 FrameSelector
 selector
 (
+CreateTestEnvironment
+(
+)
 ScalabilityMode
 :
 :
@@ -1504,6 +1531,9 @@ FallbackToRtpTimestamp
 FrameSelector
 selector
 (
+CreateTestEnvironment
+(
+)
 ScalabilityMode
 :
 :
