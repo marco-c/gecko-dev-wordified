@@ -3425,6 +3425,9 @@ rule
 hasContainer
 :
 true
+matched
+:
+true
 }
 ]
 ;
@@ -3483,6 +3486,7 @@ const
 containerName
 containerQuery
 hasContainer
+matched
 }
 =
 containerQueryData
@@ -3516,6 +3520,10 @@ tooltip
 (
 !
 hasContainer
+|
+|
+!
+matched
 ?
 "
 unmatched
