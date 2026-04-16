@@ -277,7 +277,7 @@ being
 equal
 .
 constexpr
-uint16_t
+int16_t
 kNetworkCostSlice
 =
 -
