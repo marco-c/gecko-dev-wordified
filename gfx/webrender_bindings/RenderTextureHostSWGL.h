@@ -303,6 +303,7 @@ SWGLCompositeSurfaceInfo
 *
 aInfo
 )
+override
 ;
 size_t
 BytesFromPlanes
