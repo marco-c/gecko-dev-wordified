@@ -409,6 +409,10 @@ ExpectNearAbsolute
 (
 expected_output
 gru
+.
+output
+(
+)
 3e
 -
 6f
