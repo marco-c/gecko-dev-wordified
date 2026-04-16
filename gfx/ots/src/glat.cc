@@ -2265,8 +2265,8 @@ outputSize
 ;
 /
 /
-return
 output
+buffer
 size
 if
 (

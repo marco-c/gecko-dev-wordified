@@ -1207,7 +1207,13 @@ v
 *
 out_number
 =
+static_cast
+<
+int16_t
+>
+(
 result
+)
 ;
 }
 else

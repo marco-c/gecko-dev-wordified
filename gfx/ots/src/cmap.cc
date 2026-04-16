@@ -2700,6 +2700,7 @@ i
 .
 start_glyph_id
 >
+=
 num_glyphs
 )
 {
