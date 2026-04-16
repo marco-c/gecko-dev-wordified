@@ -63,11 +63,6 @@ TestDrawTargetBase
 .
 h
 "
-#
-include
-<
-sstream
->
 using
 namespace
 mozilla

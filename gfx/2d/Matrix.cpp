@@ -80,11 +80,6 @@ h
 #
 include
 <
-ostream
->
-#
-include
-<
 math
 .
 h
