@@ -802,6 +802,8 @@ resize
 JS
 way
 .
+assertEq
+(
 rab
 .
 resize
@@ -809,6 +811,8 @@ resize
 65536
 *
 30
+)
+undefined
 )
 ;
 assertEq
