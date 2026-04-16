@@ -2607,6 +2607,17 @@ char
 name
 )
 {
+if
+(
+len
+=
+=
+0
+)
+{
+return
+;
+}
 gc
 :
 :
