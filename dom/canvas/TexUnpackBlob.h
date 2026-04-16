@@ -287,10 +287,10 @@ const
 WebGLContext
 *
 const
-uint32_t
+size_t
 rowLength
 const
-uint32_t
+size_t
 rowCount
 WebGLTexelFormat
 srcFormat
