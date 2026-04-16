@@ -7103,6 +7103,18 @@ True
             
 return
         
+self
+.
+log
+.
+test_start
+(
+name
+group
+=
+group
+)
+        
 #
 Check
 for
@@ -7917,18 +7929,6 @@ None
         
 try
 :
-            
-self
-.
-log
-.
-test_start
-(
-name
-group
-=
-group
-)
             
 if
 self
