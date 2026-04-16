@@ -418,7 +418,7 @@ __ARM_PCS_VFP
 |
 defined
 (
-_M_ARM
+_WIN32
 )
 FFI_DEFAULT_ABI
 =
@@ -461,7 +461,7 @@ define
 FFI_TARGET_SPECIFIC_VARIADIC
 #
 ifndef
-_M_ARM
+_WIN32
 #
 define
 FFI_TARGET_HAS_COMPLEX_TYPE
@@ -567,7 +567,7 @@ endif
 else
 #
 ifdef
-_MSC_VER
+_WIN32
 #
 define
 FFI_TRAMPOLINE_SIZE

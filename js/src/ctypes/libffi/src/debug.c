@@ -414,12 +414,15 @@ FFI_ASSERT
 macro
 *
 /
+NORETURN
 void
 ffi_assert
 (
+const
 char
 *
 expr
+const
 char
 *
 file
@@ -477,6 +480,7 @@ ffi_type_test
 ffi_type
 *
 a
+const
 char
 *
 file

@@ -28,7 +28,7 @@ the
 MPL
 was
 not
-distibuted
+distributed
 with
 this
 #
@@ -93,6 +93,26 @@ FFI_EXEC_TRAMPOLINE_TABLE
 :
 "
 0
+"
+        
+"
+FFI_VERSION_NUMBER
+"
+:
+"
+30502
+"
+        
+"
+FFI_VERSION_STRING
+"
+:
+"
+3
+.
+5
+.
+2
 "
         
 "
@@ -189,7 +209,7 @@ main
 *
 sys
 .
-agv
+argv
 [
 1
 :
