@@ -2086,17 +2086,6 @@ ipc
 :
 :
 IPCResult
-RecvOnInitialStorageAccess
-(
-)
-;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
 RecvRecordUserActivationForBTP
 (
 )
