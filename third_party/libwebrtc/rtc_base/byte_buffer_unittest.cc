@@ -900,10 +900,8 @@ ArrayView
 const
 uint8_t
 >
-(
-nullptr
-0
-)
+{
+}
 )
 ;
 uint8_t
