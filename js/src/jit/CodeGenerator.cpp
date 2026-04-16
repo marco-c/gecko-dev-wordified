@@ -127259,9 +127259,6 @@ StackOverflow
 entryTrapSiteDesc
 )
 ;
-return
-true
-;
 }
 )
 ;
@@ -127434,8 +127431,11 @@ functionEntryStackMap
 )
 )
 {
-return
-false
+masm
+.
+setOOM
+(
+)
 ;
 }
 masm
@@ -127448,9 +127448,6 @@ rejoin
 (
 )
 )
-;
-return
-true
 ;
 }
 )
