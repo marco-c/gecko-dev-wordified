@@ -38715,12 +38715,11 @@ IsRecording
 &
 !
 (
-!
 NeedToApplyFilter
 (
 )
-&
-&
+|
+|
 NeedToDrawShadow
 (
 )
