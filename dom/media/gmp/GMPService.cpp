@@ -2370,12 +2370,6 @@ MOZ_ASSERT
 aThread
 )
 ;
-mMutex
-.
-AssertCurrentThreadOwns
-(
-)
-;
 if
 (
 !
