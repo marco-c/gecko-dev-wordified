@@ -19498,6 +19498,13 @@ defined
 (
 __arm__
 )
+&
+&
+!
+defined
+(
+__SOFTFP__
+)
 static
 void
 EnableFlushDenormalToZero
@@ -19797,6 +19804,13 @@ endif
 defined
 (
 __arm__
+)
+&
+&
+!
+defined
+(
+__SOFTFP__
 )
 static
 float
