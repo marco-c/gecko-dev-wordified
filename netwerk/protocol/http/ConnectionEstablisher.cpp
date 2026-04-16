@@ -3959,11 +3959,6 @@ rv
 )
 )
 {
-Finish
-(
-rv
-)
-;
 return
 false
 ;
