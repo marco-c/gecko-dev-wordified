@@ -1047,12 +1047,13 @@ expectedProxyPageState
 let
 switcher
 =
-gURLBar
+document
 .
-querySelector
+getElementById
 (
 "
-.
+urlbar
+-
 searchmode
 -
 switcher

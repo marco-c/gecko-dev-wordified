@@ -1330,15 +1330,9 @@ popup
 .
 querySelector
 (
-panel
--
-item
+menuitem
 [
-data
--
-engine
--
-name
+label
 =
 {
 engineName

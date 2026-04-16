@@ -4390,9 +4390,14 @@ popup
 querySelector
 (
 "
-panel
--
-item
+menuitem
+:
+not
+(
+[
+disabled
+]
+)
 "
 )
 .
