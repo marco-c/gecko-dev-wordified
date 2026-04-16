@@ -3074,6 +3074,8 @@ PlayoutAudioDeviceInfo
 {
 int
 id
+=
+0
 ;
 /
 /
@@ -3084,6 +3086,8 @@ device
 .
 int
 max_volume
+=
+0
 ;
 /
 /
