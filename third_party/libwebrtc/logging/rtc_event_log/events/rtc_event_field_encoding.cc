@@ -1570,13 +1570,12 @@ const
 uint64_t
 >
 remaining_values
-(
+=
 all_values
 .
-subview
+subspan
 (
 1
-)
 )
 ;
 FixedLengthEncodingParametersV3

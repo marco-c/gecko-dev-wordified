@@ -191,6 +191,12 @@ rtc_event_log2_proto_include
 .
 h
 "
+/
+/
+IWYU
+pragma
+:
+keep
 #
 include
 "
@@ -346,7 +352,7 @@ size
 )
 )
 .
-subview
+subspan
 (
 1
 )
@@ -931,7 +937,7 @@ raw_dd_data
 i
 ]
 .
-subview
+subspan
 (
 3
 )
