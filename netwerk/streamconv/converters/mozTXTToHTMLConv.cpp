@@ -4501,6 +4501,17 @@ ignoreLen
 uint32_t
 textAfterPos
 =
+0
+;
+if
+(
+afterIndex
+<
+aInLength
+)
+{
+textAfterPos
+=
 aInString
 [
 afterIndex
@@ -4540,6 +4551,7 @@ afterIndex
 ]
 )
 ;
+}
 }
 return
 !
