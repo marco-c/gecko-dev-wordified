@@ -9935,9 +9935,12 @@ len
 PRUint32
 i
 ;
-PRUint32
+PRUint64
 reqLen
 =
+(
+PRUint64
+)
 len
 +
 1
@@ -9992,6 +9995,7 @@ if
 *
 pRemaining
 >
+=
 reqLen
 )
 {
@@ -10094,6 +10098,9 @@ dest
 pRemaining
 -
 =
+(
+PRUint32
+)
 reqLen
 ;
 }
@@ -10179,7 +10186,7 @@ maxLen
 =
 0
 ;
-PRInt32
+PRUint32
 finalLen
 =
 0

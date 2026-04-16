@@ -3332,6 +3332,17 @@ SECAlgorithmID
 )
 )
 ;
+PORT_Memset
+(
+&
+originatorpublickey
+0
+sizeof
+(
+SECKEYPublicKey
+)
+)
+;
 PORT_Assert
 (
 bulkalgtag
