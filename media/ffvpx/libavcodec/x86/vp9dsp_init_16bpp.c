@@ -223,9 +223,6 @@ vp9dsp_init
 .
 h
 "
-#
-if
-HAVE_X86ASM
 decl_fpel_func
 (
 put
@@ -496,13 +493,6 @@ decl_ipred_dir_funcs
 hd
 )
 ;
-#
-endif
-/
-*
-HAVE_X86ASM
-*
-/
 av_cold
 void
 ff_vp9dsp_init_16bpp_x86
@@ -512,9 +502,6 @@ VP9DSPContext
 dsp
 )
 {
-#
-if
-HAVE_X86ASM
 int
 cpu_flags
 =
@@ -1025,11 +1012,4 @@ avx2
 #
 endif
 }
-#
-endif
-/
-*
-HAVE_X86ASM
-*
-/
 }

@@ -221,6 +221,9 @@ unsigned
 high_bit_depth
 )
 {
+#
+if
+HAVE_SSE2_INLINE
 int
 cpu_flags
 =
@@ -275,4 +278,6 @@ ff_fdct_sse2
 ;
 }
 }
+#
+endif
 }

@@ -279,7 +279,7 @@ ctx
 >
 emulated_edge_mc
 =
-ff_emulated_edge_mc_8
+emulated_edge_mc_8
 ;
 }
 else
@@ -289,7 +289,7 @@ ctx
 >
 emulated_edge_mc
 =
-ff_emulated_edge_mc_16
+emulated_edge_mc_16
 ;
 }
 #
@@ -331,6 +331,9 @@ bpc
 #
 elif
 ARCH_X86
+&
+&
+HAVE_X86ASM
 ff_videodsp_init_x86
 (
 ctx

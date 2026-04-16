@@ -5650,6 +5650,9 @@ chroma_format_idc
 #
 elif
 ARCH_X86
+&
+&
+HAVE_X86ASM
 ff_h264_pred_init_x86
 (
 h

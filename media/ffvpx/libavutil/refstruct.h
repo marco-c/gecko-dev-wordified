@@ -601,7 +601,7 @@ A
 bitwise
 combination
 of
-av_refstruct_FLAG_
+AV_REFSTRUCT_FLAG_
 *
 flags
 .
@@ -1207,7 +1207,7 @@ needs
 a
 set
 of
-interchangable
+interchangeable
 objects
 .
 *
@@ -1598,7 +1598,7 @@ reset_cb
 and
 the
 *
-av_refstruct_POOL_FLAG_RESET_ON_INIT_ERROR
+AV_REFSTRUCT_POOL_FLAG_RESET_ON_INIT_ERROR
 flag
 are
 also
@@ -1695,7 +1695,7 @@ behave
 as
 if
 the
-av_refstruct_POOL_FLAG_NO_ZEROING
+AV_REFSTRUCT_POOL_FLAG_NO_ZEROING
 *
 flag
 had
@@ -1771,7 +1771,7 @@ a
 bitwise
 combination
 of
-av_refstruct_POOL_FLAG_
+AV_REFSTRUCT_POOL_FLAG_
 *
 flags
 *
@@ -1815,7 +1815,7 @@ zeroed
 unless
 *
 the
-av_refstruct_POOL_FLAG_NO_ZEROING
+AV_REFSTRUCT_POOL_FLAG_NO_ZEROING
 flag
 is
 in

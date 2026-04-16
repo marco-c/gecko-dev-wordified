@@ -1869,7 +1869,7 @@ the
 same
 value
 is
-repeatly
+repeatedly
 added
 that
 *

@@ -229,6 +229,15 @@ include
 "
 libavutil
 /
+attributes
+.
+h
+"
+#
+include
+"
+libavutil
+/
 thread
 .
 h
@@ -258,13 +267,6 @@ h
 include
 "
 pthread_internal
-.
-h
-"
-#
-include
-"
-thread
 .
 h
 "
@@ -321,6 +323,7 @@ context
 *
 /
 static
+av_cold
 void
 validate_thread_parameters
 (
@@ -518,6 +521,7 @@ MAX_AUTO_THREADS
 )
 ;
 }
+av_cold
 int
 ff_thread_init
 (
@@ -566,6 +570,7 @@ return
 0
 ;
 }
+av_cold
 void
 ff_thread_free
 (

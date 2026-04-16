@@ -849,12 +849,6 @@ filled
 buffer
 or
 NULL
-if
-sample_fmt
-is
-*
-unknown
-or
 in
 case
 of
