@@ -498,7 +498,6 @@ null
 struct
 RtpTransceiverStatsInfo
 {
-const
 scoped_refptr
 <
 RtpTransceiver
