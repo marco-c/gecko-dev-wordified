@@ -320,13 +320,6 @@ nsPlaceholderFrame_h_
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

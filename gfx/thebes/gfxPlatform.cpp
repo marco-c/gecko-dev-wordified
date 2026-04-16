@@ -733,13 +733,6 @@ endif
 #
 include
 "
-nsGkAtoms
-.
-h
-"
-#
-include
-"
 gfxPlatformFontList
 .
 h
