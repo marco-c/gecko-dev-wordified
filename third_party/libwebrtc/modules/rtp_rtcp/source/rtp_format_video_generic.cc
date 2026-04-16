@@ -101,14 +101,12 @@ h
 #
 include
 <
-string
-.
-h
+cstdint
 >
 #
 include
 <
-cstdint
+cstring
 >
 #
 include
@@ -433,7 +431,7 @@ remaining_payload_
 =
 remaining_payload_
 .
-subview
+subspan
 (
 next_packet_payload_len
 )

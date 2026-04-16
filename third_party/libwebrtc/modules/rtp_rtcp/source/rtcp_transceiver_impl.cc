@@ -1659,7 +1659,7 @@ packet
 =
 packet
 .
-subview
+subspan
 (
 rtcp_block
 .

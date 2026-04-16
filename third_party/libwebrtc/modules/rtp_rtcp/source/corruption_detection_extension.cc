@@ -541,7 +541,7 @@ sample_values
 =
 data
 .
-subview
+subspan
 (
 kConfigurationBytes
 )
