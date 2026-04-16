@@ -266,6 +266,10 @@ helper
 sendRequest
 (
 tabId
+{
+action
+type
+:
 "
 GeckoView
 :
@@ -273,8 +277,6 @@ BrowserAction
 :
 Update
 "
-{
-action
 }
 )
 ;
@@ -337,6 +339,10 @@ sendRequest
 tab
 .
 id
+{
+action
+type
+:
 "
 GeckoView
 :
@@ -344,8 +350,6 @@ BrowserAction
 :
 OpenPopup
 "
-{
-action
 popupUri
 }
 )
