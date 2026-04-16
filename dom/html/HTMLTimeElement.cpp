@@ -84,6 +84,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsVariant
 .
 h

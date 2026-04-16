@@ -182,6 +182,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsHTMLCanvasFrame
 .
 h

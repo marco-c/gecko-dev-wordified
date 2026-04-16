@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsLineBreaker
 .
 h

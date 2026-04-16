@@ -106,6 +106,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsGkAtoms
+.
+h
+"
 namespace
 mozilla
 :

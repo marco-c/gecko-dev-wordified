@@ -184,6 +184,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsIFrameInlines
 .
 h

@@ -174,6 +174,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h

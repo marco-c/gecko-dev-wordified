@@ -262,6 +262,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
