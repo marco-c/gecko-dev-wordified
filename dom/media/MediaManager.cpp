@@ -16327,12 +16327,6 @@ false
 ;
 mPrefs
 .
-mUseAecMobile
-=
-false
-;
-mPrefs
-.
 mAgcOn
 =
 false
