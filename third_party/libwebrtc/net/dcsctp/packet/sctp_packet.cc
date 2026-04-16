@@ -1713,7 +1713,7 @@ uint8_t
 data_copy
 )
 .
-subview
+subspan
 (
 kHeaderSize
 )
@@ -1901,7 +1901,7 @@ type
 flags
 descriptor_data
 .
-subview
+subspan
 (
 0
 padded_length
@@ -1912,7 +1912,7 @@ descriptor_data
 =
 descriptor_data
 .
-subview
+subspan
 (
 padded_length
 )
