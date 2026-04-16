@@ -276,7 +276,7 @@ profile
 #
 Set
 to
-NULL
+nullptr
 when
 not
 present
@@ -314,7 +314,7 @@ None
 )
 else
 "
-NULL
+nullptr
 "
     
 expected
@@ -520,7 +520,7 @@ sourceurl
 ]
 =
 "
-NULL
+nullptr
 "
     
 if
@@ -593,7 +593,7 @@ sourcerevision
 ]
 =
 "
-NULL
+nullptr
 "
     
 output
@@ -682,7 +682,7 @@ id
 s
 "
                  
-NULL
+nullptr
 /
 /
 copyright
@@ -732,7 +732,7 @@ profile
 )
 s
                  
-NULL
+nullptr
 /
 /
 UAName
