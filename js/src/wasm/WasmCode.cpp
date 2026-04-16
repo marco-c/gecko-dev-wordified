@@ -11072,6 +11072,12 @@ SymbolicAddress
 :
 PrintText
 :
+case
+SymbolicAddress
+:
+:
+Printf
+:
 break
 ;
 default
