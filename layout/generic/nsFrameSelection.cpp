@@ -9601,8 +9601,10 @@ the
 range
 list
 :
+nsCOMPtr
+<
 nsINode
-*
+>
 inclusiveTableCellAncestor
 =
 GetClosestInclusiveTableCellAncestor
