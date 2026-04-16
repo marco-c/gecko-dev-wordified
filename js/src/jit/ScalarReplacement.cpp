@@ -27461,15 +27461,6 @@ toObjectKeys
 )
 ;
 }
-MDefinition
-*
-objectKeysLength
-(
-MInstruction
-*
-ins
-)
-;
 void
 visitLength
 (
