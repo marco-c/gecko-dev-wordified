@@ -9449,7 +9449,7 @@ procedural_masquerade_whitespace
 (
 )
 {
-ascii_case_insensitive_phf_map
+ascii_case_insensitive_map
 !
 {
 map
@@ -11618,7 +11618,7 @@ ident
 =
 css
 :
-pat
+literal
 )
 +
 }
