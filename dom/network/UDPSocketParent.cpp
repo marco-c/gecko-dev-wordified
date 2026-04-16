@@ -2513,11 +2513,11 @@ UDPSocketParent
 RecvJoinMulticast
 (
 const
-nsCString
+nsACString
 &
 aMulticastAddress
 const
-nsCString
+nsACString
 &
 aInterface
 )
@@ -2597,11 +2597,11 @@ UDPSocketParent
 RecvLeaveMulticast
 (
 const
-nsCString
+nsACString
 &
 aMulticastAddress
 const
-nsCString
+nsACString
 &
 aInterface
 )
