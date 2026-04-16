@@ -2723,7 +2723,13 @@ mPostTraversalTasks
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 aTask
+)
 )
 ;
 }

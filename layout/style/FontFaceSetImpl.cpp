@@ -4766,7 +4766,7 @@ void
 FontFaceSetImpl
 :
 :
-OnLoadingStarted
+DispatchLoadingEventAndReplaceReadyPromise
 (
 )
 {
