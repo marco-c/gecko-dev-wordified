@@ -1736,6 +1736,12 @@ as
 a
 String
 .
+SuppressWarnings
+(
+"
+ScannerUseDelimiter
+"
+)
 private
 static
 String
