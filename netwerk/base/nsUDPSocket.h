@@ -74,6 +74,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -467,7 +476,11 @@ nsIEventTarget
 >
 mListenerTarget
 ;
+Atomic
+<
 bool
+ReleaseAcquire
+>
 mAttached
 {
 false
