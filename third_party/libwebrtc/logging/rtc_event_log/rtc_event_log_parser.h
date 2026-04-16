@@ -2451,7 +2451,7 @@ events
 and
 resets
 the
-ParsedRtcEventLogNew
+ParsedRtcEventLog
 to
 an
 /

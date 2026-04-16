@@ -472,7 +472,7 @@ a
 reference
 to
 the
-ParsedRtcEventLogNew
+ParsedRtcEventLog
 for
 the
 /
@@ -483,7 +483,7 @@ its
 lifetime
 .
 The
-ParsedRtcEventLogNew
+ParsedRtcEventLog
 must
 not
 be

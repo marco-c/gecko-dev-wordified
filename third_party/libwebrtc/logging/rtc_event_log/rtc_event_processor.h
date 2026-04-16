@@ -684,7 +684,7 @@ example
 :
 /
 /
-ParsedRtcEventLogNew
+ParsedRtcEventLog
 log
 ;
 /
