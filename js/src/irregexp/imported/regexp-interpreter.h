@@ -37,6 +37,12 @@ the
 LICENSE
 file
 .
+#
+ifndef
+V8_REGEXP_REGEXP_INTERPRETER_H_
+#
+define
+V8_REGEXP_REGEXP_INTERPRETER_H_
 /
 /
 A
@@ -48,12 +54,6 @@ Irregexp
 byte
 code
 .
-#
-ifndef
-V8_REGEXP_REGEXP_INTERPRETER_H_
-#
-define
-V8_REGEXP_REGEXP_INTERPRETER_H_
 #
 include
 "
@@ -74,6 +74,9 @@ internal
 class
 TrustedByteArray
 ;
+namespace
+regexp
+{
 class
 V8_EXPORT_PRIVATE
 IrregexpInterpreter
@@ -407,6 +410,11 @@ call_origin
 ;
 }
 ;
+}
+/
+/
+namespace
+regexp
 }
 /
 /
