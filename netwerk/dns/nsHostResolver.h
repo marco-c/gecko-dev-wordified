@@ -2020,6 +2020,13 @@ AddrHostRecord
 rec
 )
 const
+MOZ_REQUIRES
+(
+rec
+-
+>
+addr_info_lock
+)
 ;
 public
 :
