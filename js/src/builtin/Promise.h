@@ -2044,6 +2044,10 @@ CreatePromiseObjectWithoutResolutionFunctions
 JSContext
 *
 cx
+int32_t
+extraFlags
+=
+0
 )
 ;
 [

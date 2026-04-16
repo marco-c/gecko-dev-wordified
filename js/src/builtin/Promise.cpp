@@ -14241,6 +14241,8 @@ CreatePromiseObjectWithoutResolutionFunctions
 JSContext
 *
 cx
+int32_t
+extraFlags
 )
 {
 /
@@ -14282,6 +14284,8 @@ AddPromiseFlags
 *
 promise
 PROMISE_FLAG_DEFAULT_RESOLVING_FUNCTIONS
+|
+extraFlags
 )
 ;
 /
@@ -45232,6 +45236,7 @@ promise
 CreatePromiseObjectWithoutResolutionFunctions
 (
 cx
+PROMISE_FLAG_ASYNC
 )
 ;
 if
@@ -45244,13 +45249,6 @@ return
 nullptr
 ;
 }
-AddPromiseFlags
-(
-*
-promise
-PROMISE_FLAG_ASYNC
-)
-;
 return
 promise
 ;
@@ -45317,6 +45315,7 @@ promise
 CreatePromiseObjectWithoutResolutionFunctions
 (
 cx
+PROMISE_FLAG_ASYNC
 )
 ;
 if
@@ -45329,13 +45328,6 @@ return
 nullptr
 ;
 }
-AddPromiseFlags
-(
-*
-promise
-PROMISE_FLAG_ASYNC
-)
-;
 return
 promise
 ;
