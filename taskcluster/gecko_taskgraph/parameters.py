@@ -923,6 +923,15 @@ head_git_rev
 )
 :
 str
+    
+Optional
+(
+"
+pull_request_number
+"
+)
+:
+int
 }
 def
 get_contents
@@ -1172,12 +1181,6 @@ mozilla
 -
 central
 "
-        
-"
-pull_request_number
-"
-:
-None
         
 "
 release_enable_emefree
