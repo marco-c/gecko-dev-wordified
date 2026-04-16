@@ -299,6 +299,15 @@ std
 span
 <
 const
+RtpParameters
+>
+sender_parameters
+std
+:
+:
+span
+<
+const
 RtpReceiverSignalInfo
 >
 receivers
