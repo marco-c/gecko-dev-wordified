@@ -451,17 +451,6 @@ WAIT_FOR_MIGRATION_CLOSE
 ;
 window
 .
-AWWaitForNimbus
-=
-receive
-(
-"
-WAIT_FOR_NIMBUS
-"
-)
-;
-window
-.
 AWEvaluateScreenTargeting
 =
 receive
