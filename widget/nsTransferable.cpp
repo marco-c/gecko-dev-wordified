@@ -960,6 +960,10 @@ PR_Close
 mCacheFD
 )
 ;
+mCacheFD
+=
+nullptr
+;
 }
 mData
 =
