@@ -426,7 +426,6 @@ ComputeTimelineData
 const
 override
 ;
-static
 std
 :
 :
@@ -448,6 +447,7 @@ ComputedTimelineData
 &
 aData
 )
+const
 ;
 /
 /
