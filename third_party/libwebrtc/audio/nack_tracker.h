@@ -994,6 +994,14 @@ optional
 TimeDelta
 >
 fixed_delay
+=
+TimeDelta
+:
+:
+Seconds
+(
+1
+)
 ;
 }
 ;
