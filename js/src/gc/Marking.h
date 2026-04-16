@@ -539,15 +539,6 @@ thing
 ;
 }
 inline
-bool
-IsAboutToBeFinalizedDuringMinorSweep
-(
-Cell
-*
-cell
-)
-;
-inline
 Cell
 *
 ToMarkable
