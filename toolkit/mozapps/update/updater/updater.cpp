@@ -23024,12 +23024,6 @@ if
 isElevated
 )
 {
-PerformInstallationFromDMG
-(
-argc
-argv
-)
-;
 freeArguments
 (
 argc
