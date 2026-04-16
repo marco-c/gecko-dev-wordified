@@ -1244,6 +1244,8 @@ max_length
 <
 =
 ring_buffer_mask
++
+1
 )
 ;
 out
@@ -1258,6 +1260,12 @@ if
 prev_ix
 <
 cur_ix
+&
+&
+cached_backward
+<
+=
+max_backward
 )
 {
 prev_ix

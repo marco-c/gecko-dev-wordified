@@ -1823,9 +1823,11 @@ result
 =
 0
 ;
+size_t
+i
+;
 for
 (
-size_t
 i
 =
 0

@@ -3557,6 +3557,8 @@ max_length
 <
 =
 ring_buffer_mask
++
+1
 )
 ;
 for
@@ -4388,6 +4390,8 @@ max_length
 <
 =
 ring_buffer_mask
++
+1
 )
 ;
 while

@@ -3134,6 +3134,8 @@ max_len
 <
 =
 ringbuffer_mask
++
+1
 )
 ;
 EvaluateNode
