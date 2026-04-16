@@ -3049,6 +3049,9 @@ transceiver
 transceivers_
 )
 {
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 for
 (
 auto
@@ -3075,6 +3078,9 @@ sender
 )
 ;
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 }
 return
 senders
@@ -3116,6 +3122,9 @@ transceiver
 transceivers_
 )
 {
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 for
 (
 auto
@@ -3142,6 +3151,9 @@ receiver
 )
 ;
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 }
 return
 receivers

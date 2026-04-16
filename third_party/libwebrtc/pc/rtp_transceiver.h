@@ -1806,6 +1806,8 @@ by
 this
 transceiver
 .
+PLAN_B_ONLY
+const
 std
 :
 :
@@ -1819,6 +1821,7 @@ RtpSenderInternal
 >
 >
 >
+&
 senders
 (
 )
@@ -1908,6 +1911,8 @@ by
 this
 transceiver
 .
+PLAN_B_ONLY
+const
 std
 :
 :
@@ -1921,6 +1926,7 @@ RtpReceiverInternal
 >
 >
 >
+&
 receivers
 (
 )
@@ -2619,6 +2625,7 @@ mid
 const
 override
 ;
+absl_nonnull
 scoped_refptr
 <
 RtpSenderInterface
@@ -2629,6 +2636,7 @@ sender
 const
 override
 ;
+absl_nonnull
 scoped_refptr
 <
 RtpReceiverInterface

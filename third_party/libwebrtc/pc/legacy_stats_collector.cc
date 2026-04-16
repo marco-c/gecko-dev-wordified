@@ -547,6 +547,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -8914,6 +8925,9 @@ it
 second
 ;
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 for
 (
 const
@@ -8987,6 +9001,9 @@ track_id
 )
 ;
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 /
 /
 Populating
@@ -9105,6 +9122,9 @@ get
 (
 )
 ;
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 for
 (
 const
@@ -9168,6 +9188,9 @@ id
 )
 ;
 }
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
+)
 }
 for
 (
