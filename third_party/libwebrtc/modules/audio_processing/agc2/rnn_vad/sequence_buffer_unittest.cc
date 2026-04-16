@@ -280,9 +280,7 @@ in
 the
 buffer
 .
-const
 auto
-*
 m
 =
 std
@@ -324,9 +322,7 @@ Push
 chunk
 )
 ;
-const
 auto
-*
 m
 =
 std

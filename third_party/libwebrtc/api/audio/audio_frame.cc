@@ -798,7 +798,7 @@ zeroed_data
 (
 )
 .
-begin
+data
 (
 )
 :

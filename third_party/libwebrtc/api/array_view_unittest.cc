@@ -5025,9 +5025,7 @@ crend
 )
 )
 ;
-const
-char
-*
+auto
 cit
 =
 av
@@ -5075,8 +5073,7 @@ crit
 )
 ;
 }
-char
-*
+auto
 it
 =
 av
@@ -5395,9 +5392,7 @@ crend
 )
 )
 ;
-const
-char
-*
+auto
 cit
 =
 av
@@ -5445,8 +5440,7 @@ crit
 )
 ;
 }
-char
-*
+auto
 it
 =
 av
