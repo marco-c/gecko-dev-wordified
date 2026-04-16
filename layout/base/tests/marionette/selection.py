@@ -846,10 +846,10 @@ tag_name
 in
 (
 "
-input
+INPUT
 "
 "
-textarea
+TEXTAREA
 "
 )
     
