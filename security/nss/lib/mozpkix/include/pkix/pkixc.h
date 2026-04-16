@@ -201,14 +201,6 @@ field
 is
 ignored
 .
-At
-least
-one
-certificate
-must
-be
-provided
-.
 /
 /
 certificate

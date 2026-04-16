@@ -2181,9 +2181,6 @@ modulus
 SECItem
 publicExponent
 ;
-PRBool
-needVerify
-;
 }
 ;
 typedef

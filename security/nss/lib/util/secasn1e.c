@@ -4123,15 +4123,6 @@ len
 }
 break
 ;
-case
-SEC_ASN1_NULL
-:
-len
-=
-0
-;
-break
-;
 default
 :
 len

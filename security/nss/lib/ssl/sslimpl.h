@@ -10723,7 +10723,6 @@ void
 tls_DestroySignOrVerifyContext
 (
 tlsSignOrVerifyContext
-*
 ctx
 )
 ;

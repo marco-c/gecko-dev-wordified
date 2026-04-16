@@ -195,9 +195,6 @@ MLKEM1024_CIPHERTEXT_BYTES
 break
 ;
 case
-params_ml_kem512
-:
-case
 params_kyber_invalid
 :
 break
@@ -255,9 +252,6 @@ MLKEM1024_PRIVATE_KEY_BYTES
 break
 ;
 case
-params_ml_kem512
-:
-case
 params_kyber_invalid
 :
 break
@@ -314,9 +308,6 @@ MLKEM1024_PUBLIC_KEY_BYTES
 ;
 break
 ;
-case
-params_ml_kem512
-:
 case
 params_kyber_invalid
 :
