@@ -3141,7 +3141,7 @@ Selecteditem
 StyleSystemColor
 :
 :
-Buttontext
+Windowtext
 )
 ;
 }
@@ -3208,11 +3208,11 @@ SystemPair
 StyleSystemColor
 :
 :
-Buttonface
+Selecteditemtext
 StyleSystemColor
 :
 :
-Buttontext
+Windowtext
 )
 ;
 }
