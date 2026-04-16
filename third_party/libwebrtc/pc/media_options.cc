@@ -150,6 +150,17 @@ checks
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+plan_b_only
+.
+h
+"
 namespace
 webrtc
 {
@@ -245,6 +256,7 @@ rid
 /
 /
 namespace
+PLAN_B_ONLY
 void
 MediaDescriptionOptions
 :
@@ -297,6 +309,7 @@ SimulcastLayerList
 )
 ;
 }
+PLAN_B_ONLY
 void
 MediaDescriptionOptions
 :
@@ -399,6 +412,7 @@ num_sim_layers
 )
 ;
 }
+PLAN_B_ONLY
 void
 MediaDescriptionOptions
 :

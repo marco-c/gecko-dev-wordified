@@ -452,6 +452,17 @@ logging
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+plan_b_only
+.
+h
+"
 namespace
 webrtc
 {
@@ -911,6 +922,7 @@ observer_
 )
 ;
 }
+PLAN_B_ONLY
 VoiceMediaSendChannelInterface
 *
 RtpTransmissionManager
@@ -952,6 +964,7 @@ voice_media_send_channel
 )
 ;
 }
+PLAN_B_ONLY
 VideoMediaSendChannelInterface
 *
 RtpTransmissionManager
@@ -993,6 +1006,7 @@ video_media_send_channel
 )
 ;
 }
+PLAN_B_ONLY
 VoiceMediaReceiveChannelInterface
 *
 RtpTransmissionManager
@@ -1034,6 +1048,7 @@ voice_media_receive_channel
 )
 ;
 }
+PLAN_B_ONLY
 VideoMediaReceiveChannelInterface
 *
 RtpTransmissionManager
@@ -1075,6 +1090,7 @@ video_media_receive_channel
 )
 ;
 }
+PLAN_B_ONLY
 RTCErrorOr
 <
 scoped_refptr
@@ -2682,6 +2698,7 @@ return
 all_receivers
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2775,6 +2792,7 @@ return
 nullptr
 ;
 }
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpTransceiverProxyWithInternal
@@ -2868,6 +2886,7 @@ return
 nullptr
 ;
 }
+PLAN_B_ONLY
 void
 RtpTransmissionManager
 :
@@ -3233,6 +3252,7 @@ unified
 plan
 SDP
 .
+PLAN_B_ONLY
 void
 RtpTransmissionManager
 :
@@ -3356,6 +3376,7 @@ get
 )
 ;
 }
+PLAN_B_ONLY
 void
 RtpTransmissionManager
 :
@@ -3567,6 +3588,7 @@ AUDIO_ADDED
 )
 ;
 }
+PLAN_B_ONLY
 void
 RtpTransmissionManager
 :
@@ -3798,6 +3820,7 @@ remote
 /
 description
 .
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpReceiverInterface
@@ -3931,6 +3954,7 @@ return
 receiver
 ;
 }
+PLAN_B_ONLY
 void
 RtpTransmissionManager
 :
@@ -4056,6 +4080,7 @@ type
 ;
 }
 }
+PLAN_B_ONLY
 void
 RtpTransmissionManager
 :
@@ -4359,6 +4384,7 @@ receiver
 ;
 }
 }
+PLAN_B_ONLY
 void
 RtpTransmissionManager
 :
@@ -4513,6 +4539,7 @@ first_ssrc
 )
 ;
 }
+PLAN_B_ONLY
 void
 RtpTransmissionManager
 :

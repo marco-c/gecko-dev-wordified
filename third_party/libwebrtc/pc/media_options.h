@@ -208,6 +208,17 @@ simulcast_description
 .
 h
 "
+#
+include
+"
+rtc_base
+/
+system
+/
+plan_b_only
+.
+h
+"
 namespace
 webrtc
 {
@@ -407,6 +418,7 @@ can
 be
 simplified
 .
+PLAN_B_ONLY
 void
 AddAudioSender
 (
@@ -432,6 +444,7 @@ string
 stream_ids
 )
 ;
+PLAN_B_ONLY
 void
 AddVideoSender
 (
@@ -590,6 +603,7 @@ DCHECK
 on
 type
 .
+PLAN_B_ONLY
 void
 AddSenderInternal
 (

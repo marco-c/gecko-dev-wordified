@@ -382,7 +382,7 @@ bool
 is_unified_plan
 VoiceMediaReceiveChannelInterface
 *
-voice_channel
+media_channel
 )
 :
 AudioRtpReceiver
@@ -390,7 +390,7 @@ AudioRtpReceiver
 worker_thread
 receiver_id
 streams
-voice_channel
+media_channel
 RemoteAudioSource
 :
 :
@@ -435,7 +435,7 @@ MediaStreamInterface
 streams
 VoiceMediaReceiveChannelInterface
 *
-voice_channel
+media_channel
 )
 :
 AudioRtpReceiver
@@ -443,7 +443,7 @@ AudioRtpReceiver
 worker_thread
 receiver_id
 streams
-voice_channel
+media_channel
 RemoteAudioSource
 :
 :
