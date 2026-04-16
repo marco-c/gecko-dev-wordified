@@ -4017,6 +4017,8 @@ let
 answer
 =
 await
+gBrowser
+.
 OpenInTabsUtils
 .
 promiseConfirmOpenInTabs
