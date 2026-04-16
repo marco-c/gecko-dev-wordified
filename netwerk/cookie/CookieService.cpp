@@ -10760,8 +10760,6 @@ nsIURI
 *
 aHostURI
 bool
-aFromHttp
-bool
 aIsThirdParty
 const
 nsTArray
@@ -10845,7 +10843,7 @@ cookieData
 aHostURI
 aBaseDomain
 false
-aFromHttp
+false
 )
 ;
 MOZ_ASSERT
@@ -10960,7 +10958,7 @@ aHostURI
 "
 "
 _ns
-aFromHttp
+false
 aIsThirdParty
 aBrowsingContext
 )

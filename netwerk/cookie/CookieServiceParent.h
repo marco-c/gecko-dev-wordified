@@ -517,8 +517,6 @@ nsIURI
 *
 aHost
 bool
-aFromHttp
-bool
 aIsThirdParty
 const
 nsTArray
@@ -568,8 +566,6 @@ aOriginAttributes
 nsIURI
 *
 aHost
-bool
-aFromHttp
 bool
 aIsThirdParty
 const

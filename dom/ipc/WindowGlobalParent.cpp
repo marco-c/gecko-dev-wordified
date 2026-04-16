@@ -11323,8 +11323,6 @@ nsIURI
 *
 aHost
 bool
-aFromHttp
-bool
 aIsThirdParty
 const
 nsTArray
@@ -11441,7 +11439,6 @@ SetCookies
 aBaseDomain
 aOriginAttributes
 aHost
-aFromHttp
 aIsThirdParty
 aCookies
 GetBrowsingContext
