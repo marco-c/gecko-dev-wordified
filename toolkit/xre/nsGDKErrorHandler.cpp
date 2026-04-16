@@ -212,8 +212,8 @@ X11
 errors
 .
 *
-Unfortunatelly
-We
+Unfortunately
+we
 don
 '
 t
@@ -561,8 +561,10 @@ BeginReading
 ;
 if
 (
-!
 start
+=
+=
+kNotFound
 )
 {
 MOZ_CRASH_UNSAFE
