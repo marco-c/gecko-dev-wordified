@@ -128,9 +128,6 @@ webrtc
 void
 FuzzAudioProcessing
 (
-test
-:
-:
 FuzzDataHelper
 *
 fuzz_data

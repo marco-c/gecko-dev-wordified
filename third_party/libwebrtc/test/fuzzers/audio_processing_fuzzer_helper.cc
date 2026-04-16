@@ -241,9 +241,6 @@ x
 void
 GenerateFloatFrame
 (
-test
-:
-:
 FuzzDataHelper
 *
 fuzz_data
@@ -417,9 +414,6 @@ f
 void
 GenerateFixedFrame
 (
-test
-:
-:
 FuzzDataHelper
 *
 fuzz_data
@@ -524,9 +518,6 @@ namespace
 void
 FuzzAudioProcessing
 (
-test
-:
-:
 FuzzDataHelper
 *
 fuzz_data
