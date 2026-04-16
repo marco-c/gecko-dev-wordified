@@ -1521,8 +1521,10 @@ WorkerPrivate
 aWorkerPrivate
 bool
 aFireAtScope
+RefPtr
+<
 DOMEventTargetHelper
-*
+>
 aTarget
 UniquePtr
 <
@@ -2114,6 +2116,10 @@ Constructor
 aTarget
 ?
 aTarget
+.
+get
+(
+)
 :
 globalScope
 u
