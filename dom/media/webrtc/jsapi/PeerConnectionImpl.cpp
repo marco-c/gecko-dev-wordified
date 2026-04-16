@@ -3462,11 +3462,13 @@ XRE_IsContentProcess
 {
 mStunAddrsRequest
 =
-new
 net
 :
 :
 StunAddrsRequestChild
+:
+:
+Create
 (
 new
 StunAddrsHandler

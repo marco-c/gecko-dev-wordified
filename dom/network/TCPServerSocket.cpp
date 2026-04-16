@@ -314,8 +314,10 @@ GeckoProcessType_Content
 {
 mServerBridgeChild
 =
-new
 TCPServerSocketChild
+:
+:
+Create
 (
 this
 mPort
