@@ -2932,7 +2932,8 @@ additional_data
 =
 *
 /
-nullptr
+{
+}
 payload
 encrypted_audio_payload
 &

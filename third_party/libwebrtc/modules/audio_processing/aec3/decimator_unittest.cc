@@ -101,13 +101,6 @@ h
 #
 include
 <
-math
-.
-h
->
-#
-include
-<
 algorithm
 >
 #
@@ -793,7 +786,8 @@ decimator
 Decimate
 (
 x
-nullptr
+{
+}
 )
 "
 "

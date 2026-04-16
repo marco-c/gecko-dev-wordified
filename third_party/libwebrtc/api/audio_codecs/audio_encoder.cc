@@ -549,7 +549,8 @@ ReclaimContainedEncoders
 )
 {
 return
-nullptr
+{
+}
 ;
 }
 bool

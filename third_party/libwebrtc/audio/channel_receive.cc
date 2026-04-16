@@ -4776,7 +4776,8 @@ additional_data
 =
 *
 /
-nullptr
+{
+}
 ArrayView
 <
 const

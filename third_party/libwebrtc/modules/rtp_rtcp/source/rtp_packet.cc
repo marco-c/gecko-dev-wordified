@@ -2384,7 +2384,8 @@ received
 length
 ;
 return
-nullptr
+{
+}
 ;
 }
 if
@@ -2423,7 +2424,8 @@ set
 "
 ;
 return
-nullptr
+{
+}
 ;
 }
 if
@@ -2462,7 +2464,8 @@ set
 "
 ;
 return
-nullptr
+{
+}
 ;
 }
 const
@@ -2727,7 +2730,8 @@ extension
 "
 ;
 return
-nullptr
+{
+}
 ;
 }
 /
@@ -2834,7 +2838,8 @@ buffer
 "
 ;
 return
-nullptr
+{
+}
 ;
 }
 /
@@ -4882,7 +4887,8 @@ not
 registered
 .
 return
-nullptr
+{
+}
 ;
 }
 ExtensionInfo
@@ -4904,7 +4910,8 @@ nullptr
 )
 {
 return
-nullptr
+{
+}
 ;
 }
 return
@@ -4996,7 +5003,8 @@ kOneByteHeaderExtensionMaxValueSize
 )
 {
 return
-nullptr
+{
+}
 ;
 }
 uint8_t
@@ -5027,7 +5035,8 @@ not
 registered
 .
 return
-nullptr
+{
+}
 ;
 }
 if
@@ -5049,7 +5058,8 @@ kOneByteHeaderExtensionMaxId
 )
 {
 return
-nullptr
+{
+}
 ;
 }
 return
