@@ -1,16 +1,5 @@
 /
 /
--
-*
--
-mode
-:
-js2
--
-*
--
-/
-/
 Script
 for
 Debugger
@@ -44,7 +33,7 @@ f
 /
 /
 line
-6
+5
 function
 ff
 (
@@ -65,7 +54,7 @@ me
 /
 /
 line
-8
+7
 }
 ;
 ff
@@ -93,7 +82,7 @@ Oz
 /
 /
 line
-15
+14
 }
 f
 .

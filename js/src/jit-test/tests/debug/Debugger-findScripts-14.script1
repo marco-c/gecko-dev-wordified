@@ -1,14 +1,3 @@
-/
-/
--
-*
--
-mode
-:
-js2
--
-*
--
 function
 f
 (
@@ -22,7 +11,7 @@ x
 /
 /
 line
-4
+2
 return
 function
 g
@@ -37,7 +26,7 @@ y
 /
 /
 line
-6
+4
 return
 function
 h
@@ -52,7 +41,7 @@ z
 /
 /
 line
-8
+6
 return
 x
 +
