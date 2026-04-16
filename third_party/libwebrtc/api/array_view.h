@@ -919,6 +919,7 @@ negative
 ;
 public
 :
+constexpr
 ArrayViewBase
 (
 T
@@ -960,6 +961,7 @@ return
 false
 ;
 }
+constexpr
 T
 *
 data
@@ -1019,6 +1021,7 @@ T
 public
 :
 explicit
+constexpr
 ArrayViewBase
 (
 T
@@ -1059,6 +1062,7 @@ return
 true
 ;
 }
+constexpr
 T
 *
 data
@@ -1113,6 +1117,7 @@ kArrayViewVarSize
 {
 public
 :
+constexpr
 ArrayViewBase
 (
 T
@@ -1164,6 +1169,7 @@ size_
 0
 ;
 }
+constexpr
 T
 *
 data
@@ -1352,6 +1358,7 @@ kArrayViewVarSize
 )
 /
 /
+constexpr
 ArrayView
 (
 U
@@ -1461,6 +1468,7 @@ cannot
 be
 empty
 .
+constexpr
 ArrayView
 (
 )
@@ -2572,6 +2580,11 @@ element
 type
 .
 )
+[
+[
+nodiscard
+]
+]
 T
 &
 operator
@@ -3065,6 +3078,11 @@ count
 ;
 }
 }
+[
+[
+nodiscard
+]
+]
 constexpr
 ArrayView
 <
@@ -3591,7 +3609,11 @@ std
 ptrdiff_t
 Size
 >
-inline
+[
+[
+deprecated
+]
+]
 ArrayView
 <
 U
