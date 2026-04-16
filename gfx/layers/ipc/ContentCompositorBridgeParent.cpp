@@ -1863,7 +1863,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aId
 )
@@ -2084,7 +2084,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aId
 )
@@ -2153,7 +2153,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aId
 )
@@ -2230,7 +2230,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aLayersId
 )
@@ -2309,7 +2309,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aLayersId
 )
@@ -2377,7 +2377,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aLayersId
 )
@@ -2445,7 +2445,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aLayersId
 )
@@ -2514,7 +2514,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aLayersId
 )
@@ -2591,7 +2591,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aLayersId
 )
@@ -2671,7 +2671,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aLayersId
 )
@@ -3074,7 +3074,7 @@ state
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 aLayersId
 )

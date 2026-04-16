@@ -4717,7 +4717,7 @@ LayerTreeState
 *
 state
 =
-GetIndirectShadowTree
+GetLayerTreeState
 (
 layersId
 )
@@ -10029,7 +10029,7 @@ LayerTreeState
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTreeInternal
+GetLayerTreeStateInternal
 (
 LayersId
 aId
@@ -10087,14 +10087,14 @@ bool
 CompositorBridgeParent
 :
 :
-HasIndirectShadowTree
+HasLayerTreeState
 (
 LayersId
 aId
 )
 {
 return
-GetIndirectShadowTreeInternal
+GetLayerTreeStateInternal
 (
 aId
 )
@@ -10116,7 +10116,7 @@ LayerTreeState
 CompositorBridgeParent
 :
 :
-GetIndirectShadowTree
+GetLayerTreeState
 (
 LayersId
 aId
@@ -10144,7 +10144,7 @@ IsInCompositorThread
 )
 ;
 return
-GetIndirectShadowTreeInternal
+GetLayerTreeStateInternal
 (
 aId
 )
@@ -10159,7 +10159,7 @@ bool
 CompositorBridgeParent
 :
 :
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 LayersId
 aId

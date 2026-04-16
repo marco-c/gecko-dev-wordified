@@ -926,7 +926,7 @@ aIsTestLoggingEnabled
 CompositorBridgeParent
 :
 :
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 aRootLayersId
 [
@@ -5889,7 +5889,7 @@ controller
 CompositorBridgeParent
 :
 :
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 mRootLayersId
 [
@@ -8596,7 +8596,7 @@ geckoContentController
 CompositorBridgeParent
 :
 :
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 aLayersId
 [
@@ -27200,7 +27200,7 @@ api
 CompositorBridgeParent
 :
 :
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 mRootLayersId
 [
@@ -27259,7 +27259,7 @@ controller
 CompositorBridgeParent
 :
 :
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 aLayersId
 [

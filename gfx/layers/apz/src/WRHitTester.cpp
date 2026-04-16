@@ -1205,7 +1205,7 @@ layersIdExists
 CompositorBridgeParent
 :
 :
-HasIndirectShadowTree
+HasLayerTreeState
 (
 result
 .

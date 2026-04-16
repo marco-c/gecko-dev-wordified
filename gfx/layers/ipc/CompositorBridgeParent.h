@@ -2838,7 +2838,7 @@ thread
 static
 LayerTreeState
 *
-GetIndirectShadowTree
+GetLayerTreeState
 (
 LayersId
 aId
@@ -2872,7 +2872,7 @@ false
 /
 static
 bool
-HasIndirectShadowTree
+HasLayerTreeState
 (
 LayersId
 aId
@@ -2912,7 +2912,7 @@ false
 /
 static
 bool
-CallWithIndirectShadowTree
+CallWithLayerTreeState
 (
 LayersId
 aId
@@ -3477,7 +3477,7 @@ returned
 static
 LayerTreeState
 *
-GetIndirectShadowTreeInternal
+GetLayerTreeStateInternal
 (
 LayersId
 aId
