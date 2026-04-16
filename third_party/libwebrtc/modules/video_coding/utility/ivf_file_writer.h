@@ -234,6 +234,11 @@ to
 no
 limit
 .
+[
+[
+deprecated
+]
+]
 static
 std
 :
@@ -267,6 +272,11 @@ string_view
 filename
 size_t
 byte_limit
+int
+*
+error
+=
+nullptr
 )
 ;
 ~

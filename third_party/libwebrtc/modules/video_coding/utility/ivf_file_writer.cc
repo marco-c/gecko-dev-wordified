@@ -423,6 +423,15 @@ string_view
 filename
 size_t
 byte_limit
+int
+*
+error
+/
+*
+=
+nullptr
+*
+/
 )
 {
 return
@@ -443,6 +452,7 @@ FileWrapper
 OpenWriteOnly
 (
 filename
+error
 )
 byte_limit
 )
