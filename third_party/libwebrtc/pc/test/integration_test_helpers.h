@@ -803,6 +803,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 task_queue_for_test
 .
 h
@@ -3774,6 +3785,7 @@ local_rendered_height
 )
 ;
 }
+PLAN_B_ONLY
 size_t
 number_of_remote_streams
 (
@@ -3807,6 +3819,7 @@ count
 )
 ;
 }
+PLAN_B_ONLY
 StreamCollectionInterface
 *
 remote_streams
@@ -3845,6 +3858,7 @@ get
 )
 ;
 }
+PLAN_B_ONLY
 StreamCollectionInterface
 *
 local_streams

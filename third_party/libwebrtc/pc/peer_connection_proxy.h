@@ -329,6 +329,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -416,6 +427,9 @@ PeerConnection
 PROXY_PRIMARY_THREAD_DESTRUCTOR
 (
 )
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 PROXY_METHOD0
 (
 scoped_refptr
@@ -445,6 +459,9 @@ void
 RemoveStream
 MediaStreamInterface
 *
+)
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
 )
 PROXY_METHOD2
 (
@@ -584,6 +601,9 @@ const
 RtpTransceiverInit
 &
 )
+RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
+(
+)
 PROXY_METHOD2
 (
 scoped_refptr
@@ -603,6 +623,9 @@ std
 :
 string
 &
+)
+RTC_ALLOW_PLAN_B_DEPRECATION_END
+(
 )
 PROXY_CONSTMETHOD0
 (

@@ -819,6 +819,17 @@ include
 "
 rtc_base
 /
+system
+/
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
 thread
 .
 h
@@ -1115,6 +1126,7 @@ RelayServerConfig
 turn_servers
 )
 ;
+PLAN_B_ONLY
 scoped_refptr
 <
 StreamCollectionInterface
@@ -1124,6 +1136,7 @@ local_streams
 )
 override
 ;
+PLAN_B_ONLY
 scoped_refptr
 <
 StreamCollectionInterface
@@ -1133,6 +1146,7 @@ remote_streams
 )
 override
 ;
+PLAN_B_ONLY
 bool
 AddStream
 (
@@ -1142,6 +1156,7 @@ local_stream
 )
 override
 ;
+PLAN_B_ONLY
 void
 RemoveStream
 (
@@ -1347,6 +1362,7 @@ init
 )
 override
 ;
+PLAN_B_ONLY
 scoped_refptr
 <
 RtpSenderInterface

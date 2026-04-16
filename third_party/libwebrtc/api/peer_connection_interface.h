@@ -1312,6 +1312,17 @@ rtc_base
 /
 system
 /
+plan_b_only
+.
+h
+"
+#
+include
+"
+rtc_base
+/
+system
+/
 rtc_export
 .
 h
@@ -6217,6 +6228,7 @@ GetSenders
 )
 instead
 .
+PLAN_B_ONLY
 virtual
 scoped_refptr
 <
@@ -6256,6 +6268,7 @@ GetReceivers
 )
 instead
 .
+PLAN_B_ONLY
 virtual
 scoped_refptr
 <
@@ -6402,6 +6415,7 @@ use
 AddTrack
 instead
 .
+PLAN_B_ONLY
 virtual
 bool
 AddStream
@@ -6460,6 +6474,7 @@ use
 RemoveTrack
 instead
 .
+PLAN_B_ONLY
 virtual
 void
 RemoveStream
@@ -7326,6 +7341,7 @@ use
 AddTransceiver
 instead
 .
+PLAN_B_ONLY
 virtual
 scoped_refptr
 <
