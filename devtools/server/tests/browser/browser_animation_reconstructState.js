@@ -39,7 +39,7 @@ that
 even
 though
 the
-AnimationPlayerActor
+AnimationActor
 only
 sends
 the

@@ -90,7 +90,7 @@ the
 corresponding
 /
 /
-AnimationPlayerActor
+AnimationActor
 .
 add_task
 (

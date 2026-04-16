@@ -38,7 +38,7 @@ Test
 the
 output
 of
-AnimationPlayerActor
+AnimationActor
 .
 getType
 (
@@ -47,7 +47,7 @@ getType
 const
 {
 ANIMATION_TYPES
-AnimationPlayerActor
+AnimationActor
 }
 =
 require
@@ -84,7 +84,7 @@ just
 the
 properties
 the
-AnimationPlayerActor
+AnimationActor
 uses
 .
 const
@@ -262,7 +262,7 @@ returned
 by
 /
 /
-AnimationPlayerActor
+AnimationActor
 .
 getType
 .
@@ -386,7 +386,7 @@ const
 actor
 =
 new
-AnimationPlayerActor
+AnimationActor
 (
 {
 }

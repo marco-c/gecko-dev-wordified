@@ -36,7 +36,7 @@ strict
 /
 Test
 that
-AnimationPlayerActor
+AnimationActor
 .
 getName
 returns
@@ -62,7 +62,7 @@ it
 .
 const
 {
-AnimationPlayerActor
+AnimationActor
 }
 =
 require
@@ -99,7 +99,7 @@ just
 the
 properties
 the
-AnimationPlayerActor
+AnimationActor
 uses
 .
 const
@@ -298,7 +298,7 @@ returned
 by
 /
 /
-AnimationPlayerActor
+AnimationActor
 .
 getName
 .
@@ -565,7 +565,7 @@ const
 actor
 =
 new
-AnimationPlayerActor
+AnimationActor
 (
 {
 }
