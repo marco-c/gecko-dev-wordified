@@ -1250,6 +1250,10 @@ class
 DMABufDevice
 final
 {
+friend
+class
+DMABufDeviceLock
+;
 public
 :
 bool
@@ -1424,6 +1428,12 @@ DMABufDeviceLock
 ;
 ~
 DMABufDeviceLock
+(
+)
+;
+static
+void
+Shutdown
 (
 )
 ;

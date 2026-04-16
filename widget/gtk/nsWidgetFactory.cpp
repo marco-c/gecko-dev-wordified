@@ -203,6 +203,13 @@ h
 #
 include
 "
+DMABufDevice
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -351,6 +358,13 @@ level
 widget
 classes
 .
+DMABufDeviceLock
+:
+:
+Shutdown
+(
+)
+;
 WidgetUtils
 :
 :
