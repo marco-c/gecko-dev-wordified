@@ -1170,15 +1170,6 @@ return
 mEnableAltSvc
 ;
 }
-bool
-AllowAltSvcOE
-(
-)
-{
-return
-mEnableAltSvcOE
-;
-}
 uint32_t
 ConnectTimeout
 (
@@ -3905,11 +3896,6 @@ mDebugObservations
 ;
 uint32_t
 mEnableAltSvc
-:
-1
-;
-uint32_t
-mEnableAltSvcOE
 :
 1
 ;
