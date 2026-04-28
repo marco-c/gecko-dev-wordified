@@ -271,6 +271,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+run_loop
+.
+h
+"
 using
 :
 :
@@ -1502,7 +1511,10 @@ receiver_params
 }
 private
 :
-AutoThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 VoiceMediaInfo

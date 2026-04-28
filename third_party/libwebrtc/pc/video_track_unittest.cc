@@ -196,6 +196,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+run_loop
+.
+h
+"
 namespace
 webrtc
 {
@@ -286,7 +295,10 @@ Current
 }
 protected
 :
-AutoThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 scoped_refptr

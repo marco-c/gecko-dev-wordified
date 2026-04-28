@@ -634,6 +634,15 @@ include
 "
 test
 /
+run_loop
+.
+h
+"
+#
+include
+"
+test
+/
 wait_until
 .
 h
@@ -1100,7 +1109,10 @@ pc_factory_
 ;
 private
 :
-AutoThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 }

@@ -593,6 +593,15 @@ include
 "
 test
 /
+run_loop
+.
+h
+"
+#
+include
+"
+test
+/
 wait_until
 .
 h
@@ -1381,7 +1390,10 @@ VirtualSocketServer
 >
 vss_
 ;
-AutoSocketServerThread
+test
+:
+:
+RunLoop
 main_
 ;
 scoped_refptr

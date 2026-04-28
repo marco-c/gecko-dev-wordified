@@ -526,6 +526,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+run_loop
+.
+h
+"
 /
 /
 This
@@ -1056,7 +1065,10 @@ pc_factory_
 ;
 private
 :
-AutoThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 }

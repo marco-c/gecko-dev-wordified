@@ -603,6 +603,15 @@ gtest
 .
 h
 "
+#
+include
+"
+test
+/
+run_loop
+.
+h
+"
 namespace
 webrtc
 {
@@ -4972,7 +4981,10 @@ offset
 .
 private
 :
-AutoThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 }
