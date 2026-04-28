@@ -25551,6 +25551,18 @@ return
 true
 ;
 }
+/
+*
+Wrappers
+stay
+preserved
+for
+dummy
+DOM
+objects
+.
+*
+/
 static
 bool
 DummyHasReleasedWrapperCallback
@@ -25560,7 +25572,7 @@ obj
 )
 {
 return
-true
+false
 ;
 }
 #
