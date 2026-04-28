@@ -1167,6 +1167,11 @@ endif
 SWIG
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 AssertionResult
 {
 public

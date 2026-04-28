@@ -620,6 +620,11 @@ etc
 .
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 FilePath
 {
 public

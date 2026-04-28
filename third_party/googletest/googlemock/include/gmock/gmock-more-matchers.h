@@ -543,6 +543,11 @@ style
 string
 .
 class
+[
+[
+nodiscard
+]
+]
 IsEmptyMatcher
 {
 public

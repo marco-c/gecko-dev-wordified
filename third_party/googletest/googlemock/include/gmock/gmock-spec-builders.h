@@ -11075,7 +11075,6 @@ g_gmock_mutex
 MutexLock
 l
 (
-&
 g_gmock_mutex
 )
 ;
@@ -12550,7 +12549,6 @@ untyped_args
 MutexLock
 l
 (
-&
 g_gmock_mutex
 )
 ;
@@ -16850,7 +16848,10 @@ testing
 internal
 :
 :
-GetWithoutMatchers
+WithoutMatchers
+:
+:
+Get
 (
 )
 \

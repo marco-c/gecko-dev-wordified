@@ -821,6 +821,11 @@ main
 )
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 DeathTest
 {
 public
@@ -1414,6 +1419,11 @@ for
 testing
 .
 class
+[
+[
+nodiscard
+]
+]
 DeathTestFactory
 {
 public
@@ -1471,6 +1481,11 @@ normal
 use
 .
 class
+[
+[
+nodiscard
+]
+]
 DefaultDeathTestFactory
 :
 public
@@ -2194,6 +2209,9 @@ AlwaysTrue
 )
 {
 \
+(
+void
+)
 :
 :
 testing
@@ -2246,6 +2264,11 @@ was
 called
 .
 class
+[
+[
+nodiscard
+]
+]
 InternalRunDeathTestFlag
 {
 public

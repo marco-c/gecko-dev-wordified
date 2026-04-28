@@ -490,6 +490,11 @@ constructor
 .
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 ScopedFakeTestPartResultReporter
 :
 public
@@ -782,6 +787,11 @@ generated
 .
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 SingleFailureChecker
 {
 public

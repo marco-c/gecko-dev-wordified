@@ -505,6 +505,11 @@ utilities
 .
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 String
 {
 public

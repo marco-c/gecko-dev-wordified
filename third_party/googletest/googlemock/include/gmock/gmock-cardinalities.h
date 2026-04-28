@@ -534,6 +534,11 @@ a
 cardinality
 .
 class
+[
+[
+nodiscard
+]
+]
 CardinalityInterface
 {
 public
@@ -729,6 +734,11 @@ Cardinality
 !
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 Cardinality
 {
 public

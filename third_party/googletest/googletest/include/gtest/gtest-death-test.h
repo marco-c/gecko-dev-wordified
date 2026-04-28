@@ -1895,6 +1895,11 @@ code
 .
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 ExitedWithCode
 {
 public
@@ -1981,6 +1986,11 @@ signal
 .
 class
 GTEST_API_
+[
+[
+nodiscard
+]
+]
 KilledBySignal
 {
 public
@@ -2905,6 +2915,9 @@ AlwaysFalse
 )
 {
 \
+(
+void
+)
 :
 :
 testing
