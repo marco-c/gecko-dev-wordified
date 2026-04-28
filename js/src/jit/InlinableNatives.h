@@ -437,6 +437,11 @@ _
 DateGetSeconds
 )
 \
+_
+(
+DateNow
+)
+\
 \
 _
 (

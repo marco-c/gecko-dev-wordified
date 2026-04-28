@@ -4631,6 +4631,14 @@ DateObject
 dateObj
 )
 ;
+double
+DateNow
+(
+JSContext
+*
+cx
+)
+;
 JSAtom
 *
 AtomizeStringNoGC

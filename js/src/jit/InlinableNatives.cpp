@@ -1640,6 +1640,12 @@ case
 InlinableNative
 :
 :
+DateNow
+:
+case
+InlinableNative
+:
+:
 FunctionBind
 :
 case
