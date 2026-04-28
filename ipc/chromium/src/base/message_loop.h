@@ -50,6 +50,11 @@ BASE_MESSAGE_LOOP_H_
 #
 include
 <
+deque
+>
+#
+include
+<
 queue
 >
 #

@@ -64,6 +64,11 @@ define
 mozilla_CycleCollectedJSContext_h
 #
 include
+<
+deque
+>
+#
+include
 "
 js
 /

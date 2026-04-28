@@ -64,6 +64,11 @@ define
 mozilla_layers_NativeLayerWayland_h
 #
 include
+<
+deque
+>
+#
+include
 "
 mozilla
 /
