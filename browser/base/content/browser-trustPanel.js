@@ -2175,6 +2175,12 @@ this
 isSecurePage
 (
 )
+|
+|
+this
+.
+#
+isCertUserOverridden
 ?
 "
 secure
@@ -2211,6 +2217,12 @@ this
 .
 #
 isAboutNetErrorPage
+|
+|
+this
+.
+#
+isCertUserOverridden
 )
 {
 icon
