@@ -388,13 +388,6 @@ PropTypes
 object
 .
 isRequired
-CloseButton
-:
-PropTypes
-.
-elementType
-.
-isRequired
 }
 ;
 }
@@ -1873,7 +1866,6 @@ searchInFileEnabled
 searchKey
 setSearchOptions
 searchOptions
-CloseButton
 }
 =
 this
@@ -2052,7 +2044,6 @@ query
 )
 setSearchOptions
 searchOptions
-CloseButton
 }
 )
 )
