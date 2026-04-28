@@ -3200,16 +3200,6 @@ bool
 aIsActivate
 )
 ;
-bool
-DispatchStandardEvent
-(
-mozilla
-:
-:
-EventMessage
-aMsg
-)
-;
 void
 RelayMouseEvent
 (
