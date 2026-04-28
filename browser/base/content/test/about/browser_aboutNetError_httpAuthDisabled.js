@@ -182,6 +182,14 @@ info
 ;
 netErrorCard
 .
+resolvedErrorId
+=
+"
+basicHttpAuthDisabled
+"
+;
+netErrorCard
+.
 errorConfig
 =
 netErrorCard

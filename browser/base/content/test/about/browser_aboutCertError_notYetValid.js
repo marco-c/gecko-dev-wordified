@@ -408,6 +408,14 @@ info
 ;
 netErrorCard
 .
+resolvedErrorId
+=
+"
+MOZILLA_PKIX_ERROR_NOT_YET_VALID_CERTIFICATE
+"
+;
+netErrorCard
+.
 errorConfig
 =
 netErrorCard
