@@ -131,7 +131,7 @@ checkTelemetry
 '
 GC_IS_COMPARTMENTAL
 '
-false
+0
 (
 )
 =
@@ -146,7 +146,7 @@ checkTelemetry
 '
 GC_IS_COMPARTMENTAL
 '
-true
+1
 (
 )
 =
@@ -227,7 +227,7 @@ checkTelemetry
 '
 GC_RESET
 '
-false
+0
 (
 )
 =
@@ -242,7 +242,7 @@ checkTelemetry
 '
 GC_RESET
 '
-false
+0
 (
 )
 =
@@ -265,7 +265,7 @@ checkTelemetry
 '
 GC_RESET
 '
-true
+1
 (
 )
 =
@@ -288,7 +288,7 @@ checkTelemetry
 '
 GC_NON_INCREMENTAL
 '
-true
+1
 (
 )
 =
@@ -303,7 +303,7 @@ checkTelemetry
 '
 GC_NON_INCREMENTAL
 '
-true
+1
 (
 )
 =
@@ -326,7 +326,7 @@ checkTelemetry
 '
 GC_NON_INCREMENTAL
 '
-false
+0
 (
 )
 =
@@ -349,7 +349,7 @@ checkTelemetry
 '
 GC_NON_INCREMENTAL
 '
-false
+0
 (
 )
 =
