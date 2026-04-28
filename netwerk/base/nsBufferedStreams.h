@@ -812,7 +812,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 nsBufferedInputStream
@@ -836,6 +835,10 @@ nsCOMPtr
 nsIInputStreamCallback
 >
 mAsyncWaitCallback
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 /
 /
@@ -851,6 +854,10 @@ nsCOMPtr
 nsIInputStreamLengthCallback
 >
 mAsyncInputStreamLengthCallback
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 bool
 mIsIPCSerializable

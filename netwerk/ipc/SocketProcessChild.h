@@ -1119,7 +1119,6 @@ below
 .
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 SocketProcessChild
@@ -1138,6 +1137,10 @@ BackgroundDataBridgeParent
 >
 >
 mBackgroundDataBridgeMap
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 bool
 mShuttingDown

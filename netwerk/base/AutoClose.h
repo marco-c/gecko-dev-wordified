@@ -318,10 +318,13 @@ nsCOMPtr
 T
 >
 mPtr
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 }
 ;

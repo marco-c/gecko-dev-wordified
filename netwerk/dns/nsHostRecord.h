@@ -2061,6 +2061,7 @@ has
 a
 value
 )
+.
 bool
 HasUsableResultInternal
 (
@@ -2448,6 +2449,7 @@ Nothing
 )
 )
 ;
+mutable
 mozilla
 :
 :

@@ -186,11 +186,14 @@ false
 static
 uint32_t
 sListenerId
+MOZ_GUARDED_BY
+(
+sLock
+)
 ;
 static
 StaticMutex
 sLock
-MOZ_UNANNOTATED
 ;
 static
 nsTHashMap
@@ -202,6 +205,10 @@ nsIHttpUpgradeListener
 >
 >
 sHttpUpgradeListenerMap
+MOZ_GUARDED_BY
+(
+sLock
+)
 ;
 }
 ;

@@ -604,13 +604,16 @@ of
 mBackgroundThread
 Mutex
 mBgThreadMutex
-MOZ_UNANNOTATED
 ;
 nsCOMPtr
 <
 nsISerialEventTarget
 >
 mBackgroundThread
+MOZ_GUARDED_BY
+(
+mBgThreadMutex
+)
 ;
 /
 /

@@ -370,6 +370,10 @@ nsCOMPtr
 nsITransportSecurityInfo
 >
 mSecurityInfo
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 Atomic
 <
@@ -382,7 +386,6 @@ false
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 WebSocketConnectionParent

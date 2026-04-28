@@ -294,6 +294,10 @@ nsCOMPtr
 nsIStreamListener
 >
 mNextListener
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 /
 /
@@ -644,6 +648,10 @@ mBufferLen
 ;
 nsCString
 mContentType
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 /
 /
@@ -662,7 +670,6 @@ mozilla
 :
 Mutex
 mMutex
-MOZ_UNANNOTATED
 ;
 protected
 :
@@ -682,6 +689,10 @@ length
 ;
 nsCString
 mDecodedData
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 /
 /

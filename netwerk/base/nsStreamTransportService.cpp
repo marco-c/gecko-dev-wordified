@@ -436,7 +436,6 @@ default
 ;
 Mutex
 mMutex
-MOZ_UNANNOTATED
 {
 "
 nsInputStreamTransport
@@ -460,6 +459,10 @@ nsCOMPtr
 nsIInputStreamCallback
 >
 mAsyncWaitCallback
+MOZ_GUARDED_BY
+(
+mMutex
+)
 ;
 nsCOMPtr
 <

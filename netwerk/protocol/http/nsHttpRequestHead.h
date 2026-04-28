@@ -1125,7 +1125,6 @@ lock
 mutable
 RecursiveMutex
 mRecursiveMutex
-MOZ_UNANNOTATED
 {
 "
 nsHttpRequestHead

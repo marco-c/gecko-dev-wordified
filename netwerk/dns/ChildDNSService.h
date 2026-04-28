@@ -335,10 +335,13 @@ DNSRequestSender
 >
 >
 mPendingRequests
+MOZ_GUARDED_BY
+(
+mPendingRequestsLock
+)
 ;
 Mutex
 mPendingRequestsLock
-MOZ_UNANNOTATED
 {
 "
 DNSPendingRequestsLock

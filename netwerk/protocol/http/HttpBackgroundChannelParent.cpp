@@ -2363,6 +2363,12 @@ GetBackgroundTarget
 (
 )
 {
+MutexAutoLock
+lock
+(
+mBgThreadMutex
+)
+;
 MOZ_ASSERT
 (
 mBackgroundThread
