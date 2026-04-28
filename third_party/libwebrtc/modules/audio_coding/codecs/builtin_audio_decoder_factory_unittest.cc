@@ -616,7 +616,7 @@ of
 channels
 up
 to
-24
+16
 .
 const
 int
@@ -641,7 +641,7 @@ num_channels
 1
 2
 3
-24
+16
 }
 ;
 for
