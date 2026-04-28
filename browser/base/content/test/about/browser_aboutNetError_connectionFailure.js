@@ -37,7 +37,7 @@ add_task
 (
 async
 function
-test_netInterrupt_error_page_elements
+test_connectionFailure_error_page_elements
 (
 )
 {
@@ -51,7 +51,7 @@ await
 loadNetErrorPage
 (
 "
-netInterrupt
+connectionFailure
 "
 "
 127
@@ -159,14 +159,14 @@ dataset
 .
 l10nId
 "
-netInterrupt
+connectionFailure
 -
 title
 "
 "
 Using
 the
-netInterrupt
+connectionFailure
 title
 "
 )
@@ -194,7 +194,7 @@ intro
 "
 Using
 the
-netInterrupt
+connectionFailure
 intro
 "
 )
@@ -415,7 +415,7 @@ code
 is
 shown
 for
-netInterrupt
+connectionFailure
 "
 )
 ;
