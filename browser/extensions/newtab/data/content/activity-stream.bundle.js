@@ -129616,6 +129616,11 @@ toggle
 pressed
 :
 wallpapersUserEnabled
+&
+&
+!
+!
+activeWallpaper
 |
 |
 null
