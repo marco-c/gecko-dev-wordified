@@ -58,18 +58,6 @@ api
 {
     
 "
-bitset
-"
-:
-[
-        
-"
-bitset
-"
-    
-]
-    
-"
 deque
 "
 :
