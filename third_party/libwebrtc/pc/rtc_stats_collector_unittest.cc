@@ -22022,7 +22022,7 @@ id_of_first_ssrc
 for
 (
 const
-auto
+RTCOutboundRtpStreamStats
 *
 outbound_rtp
 :
@@ -22453,7 +22453,7 @@ id_of_second_ssrc
 for
 (
 const
-auto
+RTCOutboundRtpStreamStats
 *
 outbound_rtp
 :

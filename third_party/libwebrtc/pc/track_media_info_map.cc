@@ -360,7 +360,10 @@ i
 )
 {
 const
-auto
+TrackMediaInfoMap
+:
+:
+RtpSenderSignalInfo
 &
 sender
 =
@@ -383,7 +386,7 @@ continue
 ;
 }
 const
-auto
+RtpParameters
 &
 parameters
 =
@@ -417,7 +420,7 @@ attachment_id
 for
 (
 const
-auto
+RtpEncodingParameters
 &
 encoding
 :
