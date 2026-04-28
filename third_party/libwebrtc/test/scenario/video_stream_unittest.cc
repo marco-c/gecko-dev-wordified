@@ -2542,6 +2542,8 @@ rates
 start_rate
 =
 kMinVideoBitrate
+*
+2
 ;
 c
 -
