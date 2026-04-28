@@ -197,6 +197,8 @@ NetEqNetworkStatistics
 {
 uint16_t
 current_buffer_size_ms
+=
+0
 ;
 /
 /
@@ -209,6 +211,8 @@ ms
 .
 uint16_t
 preferred_buffer_size_ms
+=
+0
 ;
 /
 /
@@ -220,6 +224,8 @@ ms
 .
 uint16_t
 jitter_peaks_found
+=
+0
 ;
 /
 /
@@ -231,8 +237,6 @@ delay
 due
 to
 peaky
-/
-/
 jitter
 ;
 0
@@ -240,6 +244,8 @@ otherwise
 .
 uint16_t
 expand_rate
+=
+0
 ;
 /
 /
@@ -264,6 +270,8 @@ Q14
 .
 uint16_t
 speech_expand_rate
+=
+0
 ;
 /
 /
@@ -275,10 +283,10 @@ stream
 )
 of
 synthesized
-/
-/
 speech
 inserted
+/
+/
 through
 expansion
 (
@@ -288,6 +296,8 @@ Q14
 .
 uint16_t
 preemptive_rate
+=
+0
 ;
 /
 /
@@ -296,11 +306,7 @@ of
 data
 inserted
 through
-pre
--
-emptive
-/
-/
+preemptive
 expansion
 (
 in
@@ -309,6 +315,8 @@ Q14
 .
 uint16_t
 accelerate_rate
+=
+0
 ;
 /
 /
@@ -318,8 +326,6 @@ data
 removed
 through
 acceleration
-/
-/
 (
 in
 Q14
@@ -327,6 +333,8 @@ Q14
 .
 uint16_t
 secondary_decoded_rate
+=
+0
 ;
 /
 /
@@ -338,8 +346,6 @@ from
 FEC
 /
 RED
-/
-/
 decoding
 (
 in
@@ -348,6 +354,8 @@ Q14
 .
 uint16_t
 secondary_discarded_rate
+=
+0
 ;
 /
 /
@@ -360,8 +368,6 @@ RED
 data
 (
 in
-/
-/
 Q14
 )
 .
@@ -391,15 +397,23 @@ decoded
 .
 int
 mean_waiting_time_ms
+=
+0
 ;
 int
 median_waiting_time_ms
+=
+0
 ;
 int
 min_waiting_time_ms
+=
+0
 ;
 int
 max_waiting_time_ms
+=
+0
 ;
 }
 ;
