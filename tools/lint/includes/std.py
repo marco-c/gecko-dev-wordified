@@ -3086,6 +3086,10 @@ remove
 "
         
 "
+rename
+"
+        
+"
 rewind
 "
         
