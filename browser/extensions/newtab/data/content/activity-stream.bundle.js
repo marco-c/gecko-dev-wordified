@@ -99945,6 +99945,18 @@ handleUseCurrentLocation
 (
 )
 {
+(
+0
+external_ReactRedux_namespaceObject
+.
+batch
+)
+(
+(
+)
+=
+>
+{
 dispatch
 (
 actionCreators
@@ -99978,6 +99990,9 @@ data
 false
 }
 )
+)
+;
+}
 )
 ;
 }
@@ -106919,7 +106934,7 @@ div
 className
 :
 "
-forecast
+weather
 -
 error
 "
