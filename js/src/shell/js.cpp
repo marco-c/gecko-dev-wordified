@@ -260,11 +260,6 @@ include
 cctype
 >
 #
-include
-<
-chrono
->
-#
 ifdef
 XP_WIN
 #
