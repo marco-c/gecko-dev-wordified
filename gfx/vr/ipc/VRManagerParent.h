@@ -219,8 +219,6 @@ dom
 :
 ContentParentId
 aChildId
-uint32_t
-aNamespace
 bool
 aIsContentChild
 )
@@ -232,8 +230,6 @@ VRManagerParent
 >
 CreateSameProcess
 (
-uint32_t
-aNamespace
 )
 ;
 static
@@ -247,8 +243,6 @@ PVRManagerParent
 &
 &
 aEndpoint
-uint32_t
-aNamespace
 )
 ;
 static
@@ -267,8 +261,6 @@ dom
 :
 ContentParentId
 aChildId
-uint32_t
-aNamespace
 )
 ;
 static
@@ -641,9 +633,6 @@ dom
 :
 ContentParentId
 mChildId
-;
-uint32_t
-mNamespace
 ;
 bool
 mHaveEventListener

@@ -19807,7 +19807,7 @@ videoManager
 AutoTArray
 <
 uint32_t
-4
+3
 >
 namespaces
 ;
@@ -21016,7 +21016,7 @@ videoManager
 AutoTArray
 <
 uint32_t
-4
+3
 >
 namespaces
 ;
