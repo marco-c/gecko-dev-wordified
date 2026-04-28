@@ -503,20 +503,6 @@ enabled
 False
         
 #
-Disable
-captive
-portal
-        
-"
-captivedetect
-.
-canonicalURL
-"
-:
-"
-"
-        
-#
 Defensively
 disable
 data
@@ -1544,6 +1530,25 @@ allow_scrolling_more_than_one_page
 "
 :
 True
+        
+#
+Disable
+captive
+portal
+        
+"
+network
+.
+captive
+-
+portal
+-
+service
+.
+enabled
+"
+:
+False
         
 #
 Disable
