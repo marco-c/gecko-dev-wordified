@@ -99,7 +99,7 @@ been
 installed
 "
 "
-updateApp
+updates
 "
 )
 ;
