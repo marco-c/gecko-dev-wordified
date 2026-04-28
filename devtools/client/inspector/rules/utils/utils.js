@@ -1030,7 +1030,9 @@ contains
 "
 inspector
 -
-attribute
+attr
+-
+name
 "
 )
 )
