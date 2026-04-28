@@ -5188,7 +5188,7 @@ lruCount
 }
 )
 ;
-ASSERT
+if
 (
 iter
 -
@@ -5196,10 +5196,11 @@ iter
 second
 .
 storage
-!
+=
 =
 newStorage
 )
+break
 ;
 ASSERT
 (
@@ -5625,7 +5626,7 @@ lruCount
 }
 )
 ;
-ASSERT
+if
 (
 iter
 -
@@ -5633,10 +5634,11 @@ iter
 second
 .
 storage
-!
+=
 =
 newStorage
 )
+break
 ;
 ASSERT
 (
