@@ -239,7 +239,7 @@ equal
 (
 justMatrix
 .
-moduleCount
+dotCount
 21
 "
 HELLO
@@ -251,7 +251,7 @@ version
 1
 (
 21
-modules
+dots
 )
 "
 )
@@ -316,7 +316,7 @@ matrix
 length
 justMatrix
 .
-moduleCount
+dotCount
 "
 matrix
 has
@@ -341,7 +341,7 @@ matrix
 length
 justMatrix
 .
-moduleCount
+dotCount
 "
 matrix
 rows
