@@ -1551,16 +1551,6 @@ False
         
 )
         
-print
-(
-"
-Auth0
-token
-validated
-.
-"
-)
-        
 return
 user_token
     
@@ -1894,14 +1884,26 @@ status_code
 200
 :
                 
-print
-(
+#
+Terminate
+the
+in
+-
+progress
 "
-\
-nLogin
-successful
+Waiting
+.
+.
+.
+.
+.
 .
 "
+line
+.
+                
+print
+(
 )
                 
 return
@@ -3642,46 +3644,6 @@ id
 "
 ]
     
-lando_api_status_url
-=
-lando_api
-.
-lando_try_status_api_url
-(
-job_id
-)
-    
-success_msg
-=
-(
-        
-f
-"
-Lando
-try
-submission
-success
-in
-{
-duration
-:
-.
-1f
-}
-s
-:
-{
-lando_api_status_url
-}
-"
-    
-)
-    
-print
-(
-success_msg
-)
-    
 #
 Send
 a
@@ -3706,7 +3668,20 @@ build
 .
 notify
 (
-success_msg
+f
+"
+try
+submission
+success
+in
+{
+duration
+:
+.
+1f
+}
+s
+"
 )
     
 return
@@ -3725,5 +3700,11 @@ lando_job_id
 "
 :
 job_id
+        
+"
+duration
+"
+:
+duration
     
 }

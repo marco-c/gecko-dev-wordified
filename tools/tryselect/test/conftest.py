@@ -336,6 +336,14 @@ lando_job_id
 "
 :
 42
+            
+"
+duration
+"
+:
+1
+.
+5
         
 }
     
