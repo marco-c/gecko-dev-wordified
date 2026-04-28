@@ -112,6 +112,15 @@ h
 #
 include
 "
+test
+/
+gtest
+.
+h
+"
+#
+include
+"
 sdk
 /
 objc
@@ -218,15 +227,6 @@ video_coding
 include
 /
 video_error_codes
-.
-h
-"
-#
-include
-"
-rtc_base
-/
-gunit
 .
 h
 "
@@ -532,6 +532,7 @@ NS_DESIGNATED_INITIALIZER
 end
 implementation
 RTCVideoEncoderFactoryFake
+{
 NSString
 *
 _scalabilityMode
@@ -539,6 +540,7 @@ _scalabilityMode
 bool
 _isPowerEfficient
 ;
+}
 -
 (
 instancetype

@@ -101,7 +101,7 @@ include
 "
 rtc_base
 /
-gunit
+ip_address
 .
 h
 "
@@ -111,6 +111,15 @@ include
 rtc_base
 /
 net_helpers
+.
+h
+"
+#
+include
+"
+test
+/
+gtest
 .
 h
 "
