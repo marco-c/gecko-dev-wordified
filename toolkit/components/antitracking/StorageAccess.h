@@ -265,7 +265,7 @@ the
 storage
 eAllow
 =
-3
+2
 /
 /
 Keep
@@ -285,7 +285,7 @@ value
 .
 eNumValues
 =
-4
+3
 }
 ;
 /
