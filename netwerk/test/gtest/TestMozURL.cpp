@@ -22,6 +22,11 @@ For
 MOZ_GTEST_BENCH
 #
 include
+<
+regex
+>
+#
+include
 "
 json
 /
