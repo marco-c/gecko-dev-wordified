@@ -1204,7 +1204,7 @@ if
 (
 mAdoptedStyleSheets
 .
-SafeElementAt
+ElementAt
 (
 aIndex
 )
@@ -4932,11 +4932,9 @@ aSheet
 }
 )
 ;
-tmp
--
->
-ClearAdoptedStyleSheets
+NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
+mAdoptedStyleSheets
 )
 ;
 tmp
