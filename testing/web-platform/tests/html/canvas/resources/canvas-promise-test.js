@@ -220,6 +220,9 @@ CanvasTestType
 OFFSCREEN
 CanvasTestType
 .
+PLACEHOLDER
+CanvasTestType
+.
 WORKER
 ]
 ;
