@@ -203,16 +203,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-<
-atomic
->
-#
-include
-<
-functional
->
 class
 nsIFile
 ;

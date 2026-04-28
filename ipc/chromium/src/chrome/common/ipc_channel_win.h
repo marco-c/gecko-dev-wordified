@@ -69,11 +69,6 @@ h
 "
 #
 include
-<
-atomic
->
-#
-include
 "
 base
 /
@@ -286,6 +281,14 @@ static
 const
 ChannelKind
 sKind
+;
+static
+bool
+IsAllowedHandleType
+(
+HANDLE
+handle
+)
 ;
 private
 :
