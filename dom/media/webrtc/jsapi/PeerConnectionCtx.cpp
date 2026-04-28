@@ -65,6 +65,11 @@ h
 "
 #
 include
+<
+span
+>
+#
+include
 "
 PeerConnectionImpl
 .
@@ -787,10 +792,10 @@ kNoError
 bool
 GetLinearAecOutput
 (
-webrtc
+std
 :
 :
-ArrayView
+span
 <
 std
 :

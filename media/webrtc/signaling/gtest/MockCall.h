@@ -64,6 +64,11 @@ define
 MOCK_CALL_H_
 #
 include
+<
+span
+>
+#
+include
 "
 gmock
 /
@@ -859,10 +864,10 @@ Resource
 void
 SetCsrcs
 (
-webrtc
+std
 :
 :
-ArrayView
+span
 <
 const
 uint32_t
