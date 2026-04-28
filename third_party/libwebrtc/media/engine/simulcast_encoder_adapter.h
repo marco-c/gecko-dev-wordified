@@ -1051,6 +1051,10 @@ FramerateController
 >
 framerate_controller_
 ;
+mutable
+Mutex
+queue_mutex_
+;
 std
 :
 :
@@ -1059,6 +1063,10 @@ deque
 uint32_t
 >
 pending_rtp_timestamps_
+RTC_GUARDED_BY
+(
+queue_mutex_
+)
 ;
 const
 int
