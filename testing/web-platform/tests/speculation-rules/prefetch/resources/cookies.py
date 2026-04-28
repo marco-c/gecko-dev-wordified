@@ -167,6 +167,16 @@ cookie_count
 }
 "
                       
+path
+=
+"
+/
+speculation
+-
+rules
+/
+"
+                      
 secure
 =
 True
@@ -200,6 +210,16 @@ prefetch
 else
 "
 navigate
+"
+      
+path
+=
+"
+/
+speculation
+-
+rules
+/
 "
 )
   
