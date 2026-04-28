@@ -472,6 +472,16 @@ aId
 )
 ;
 }
+uint32_t
+GetNamespace
+(
+)
+const
+{
+return
+mNamespace
+;
+}
 private
 :
 static
