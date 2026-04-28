@@ -61,6 +61,9 @@ super
 :
 :
 {
+CollState
+Sync15ClientResponse
+Sync15StorageClient
 request
 :
 :
@@ -68,9 +71,6 @@ request
 NormalResponseHandler
 UploadInfo
 }
-CollState
-Sync15ClientResponse
-Sync15StorageClient
 }
 ;
 use

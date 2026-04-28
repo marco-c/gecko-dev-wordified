@@ -81,9 +81,6 @@ mod
 error
 ;
 mod
-fakespot
-;
-mod
 geoname
 ;
 mod

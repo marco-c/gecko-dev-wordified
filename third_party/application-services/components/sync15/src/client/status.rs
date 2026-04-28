@@ -367,7 +367,6 @@ Error
 :
 StorageHttpError
 (
-ref
 e
 )
 =
@@ -657,8 +656,8 @@ e
 )
 =
 r
-{
-if
+&
+&
 let
 Some
 (
@@ -684,7 +683,6 @@ time
 cur_best
 )
 ;
-}
 }
 cur_best
 }

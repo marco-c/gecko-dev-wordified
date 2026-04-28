@@ -70,8 +70,8 @@ crate
 :
 :
 {
-telemetry
 ServerTimestamp
+telemetry
 }
 ;
 use
@@ -84,6 +84,12 @@ use
 crate
 :
 :
+Guid
+;
+use
+crate
+:
+:
 bso
 :
 :
@@ -91,12 +97,6 @@ bso
 IncomingBso
 OutgoingBso
 }
-;
-use
-crate
-:
-:
-Guid
 ;
 use
 super

@@ -432,7 +432,7 @@ default
 uniffi
 :
 :
-include_scaffolding
+setup_scaffolding
 !
 (
 "

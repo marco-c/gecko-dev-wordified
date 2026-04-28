@@ -113,12 +113,12 @@ error
 :
 {
 self
+Error
+ErrorResponse
 debug
 info
 trace
 warn
-Error
-ErrorResponse
 }
 ;
 use
@@ -181,6 +181,9 @@ viaduct
 :
 :
 {
+Method
+Request
+Response
 header_names
 :
 :
@@ -188,9 +191,6 @@ header_names
 self
 AUTHORIZATION
 }
-Method
-Request
-Response
 }
 ;
 /

@@ -138,9 +138,9 @@ serde
 :
 :
 {
-ser
 Serialize
 Serializer
+ser
 }
 ;
 /
@@ -2822,8 +2822,6 @@ inc
 )
 Some
 (
-ref
-mut
 existing
 )
 =
@@ -5004,8 +5002,8 @@ existing
 self
 .
 uid
-{
-if
+&
+&
 *
 existing
 !
@@ -5030,7 +5028,6 @@ existing
 uid
 )
 ;
-}
 }
 self
 .
@@ -5425,7 +5422,6 @@ Error
 :
 StorageHttpError
 (
-ref
 e
 )
 =
@@ -5551,7 +5547,6 @@ Error
 :
 CryptoError
 (
-ref
 e
 )
 =
@@ -5587,7 +5582,6 @@ Error
 :
 RequestError
 (
-ref
 e
 )
 =
@@ -5623,7 +5617,6 @@ Error
 :
 UnexpectedStatus
 (
-ref
 e
 )
 =
@@ -5644,7 +5637,6 @@ Error
 :
 Interrupted
 (
-ref
 e
 )
 =
