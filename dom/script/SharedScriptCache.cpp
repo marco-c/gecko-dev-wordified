@@ -1618,7 +1618,7 @@ mKey
 (
 aLoader
 aRequest
-aLoadedScript
+aRequest
 -
 >
 ReferrerPolicy
