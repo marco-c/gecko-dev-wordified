@@ -1341,6 +1341,9 @@ case
 Args_Double_Int
 :
 case
+Args_Double_IntInt
+:
+case
 Args_Double_DoubleInt
 :
 case

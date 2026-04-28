@@ -1646,6 +1646,12 @@ case
 InlinableNative
 :
 :
+DateParse
+:
+case
+InlinableNative
+:
+:
 FunctionBind
 :
 case

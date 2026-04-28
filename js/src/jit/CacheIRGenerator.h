@@ -4705,6 +4705,11 @@ tryAttachDateNow
 )
 ;
 AttachDecision
+tryAttachDateParse
+(
+)
+;
+AttachDecision
 tryAttachWeakMapHas
 (
 )
