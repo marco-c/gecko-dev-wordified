@@ -233,7 +233,7 @@ XSIMD_SVE_REGISTER_HPP
 #
 include
 "
-xsimd_generic_arch
+xsimd_common_arch
 .
 hpp
 "
@@ -292,7 +292,7 @@ sve
 xsimd
 :
 :
-generic
+common
 {
 static
 constexpr
@@ -692,11 +692,10 @@ T
 using
 signed_int_or_floating_point_sve_vector_type
 =
-typename
 std
 :
 :
-conditional
+conditional_t
 <
 std
 :
@@ -717,9 +716,6 @@ signed_int_sve_vector_type
 T
 >
 >
-:
-:
-type
 ;
 template
 <
@@ -729,11 +725,10 @@ T
 using
 sve_vector_type
 =
-typename
 std
 :
 :
-conditional
+conditional_t
 <
 std
 :
@@ -754,9 +749,6 @@ unsigned_int_sve_vector_type
 T
 >
 >
-:
-:
-type
 ;
 }
 /

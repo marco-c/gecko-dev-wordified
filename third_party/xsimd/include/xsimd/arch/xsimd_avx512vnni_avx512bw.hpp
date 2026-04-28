@@ -224,16 +224,6 @@ define
 XSIMD_AVX512VNNI_AVX512_BW_HPP
 #
 include
-<
-array
->
-#
-include
-<
-type_traits
->
-#
-include
 "
 .
 .

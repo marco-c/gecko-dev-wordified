@@ -227,7 +227,7 @@ include
 "
 .
 /
-xsimd_generic_arch
+xsimd_common_arch
 .
 hpp
 "
@@ -249,7 +249,7 @@ instructions
 struct
 avx
 :
-generic
+common
 {
 static
 constexpr

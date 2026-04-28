@@ -355,7 +355,7 @@ default_arch
 :
 :
 value
-generic
+common
 default_arch
 >
 :
@@ -2334,11 +2334,10 @@ default_arch
 using
 default_allocator
 =
-typename
 std
 :
 :
-conditional
+conditional_t
 <
 A
 :
@@ -2364,9 +2363,6 @@ allocator
 T
 >
 >
-:
-:
-type
 ;
 }
 #

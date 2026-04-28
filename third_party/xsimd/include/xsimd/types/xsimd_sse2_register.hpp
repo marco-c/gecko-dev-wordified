@@ -227,7 +227,7 @@ include
 "
 .
 /
-xsimd_generic_arch
+xsimd_common_arch
 .
 hpp
 "
@@ -277,7 +277,7 @@ instructions
 struct
 sse2
 :
-generic
+common
 {
 static
 constexpr
