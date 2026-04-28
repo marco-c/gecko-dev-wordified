@@ -226,7 +226,7 @@ DataSize
 :
 Bytes
 (
-1000
+1280
 )
 )
 bytes_in_flight_head_room

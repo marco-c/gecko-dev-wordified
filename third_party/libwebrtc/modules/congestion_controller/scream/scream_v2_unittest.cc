@@ -1308,7 +1308,7 @@ Size
 /
 /
 default
-1000
+1280
 bytes
 )
 when
@@ -1340,7 +1340,7 @@ DataSize
 :
 Bytes
 (
-1000
+1280
 )
 )
 ;
