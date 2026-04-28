@@ -65,6 +65,13 @@ ContentRange_h_
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -253,7 +260,10 @@ aSize
 ContentRange
 (
 const
-nsACString
+nsContentUtils
+:
+:
+ParsedRange
 &
 aRangeHeader
 uint64_t
