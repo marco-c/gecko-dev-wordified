@@ -147,11 +147,6 @@ mozilla_dom_gamepad_GamepadHandle_h
 #
 include
 <
-cinttypes
->
-#
-include
-<
 type_traits
 >
 #

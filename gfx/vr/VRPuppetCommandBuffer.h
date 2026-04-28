@@ -64,13 +64,6 @@ define
 GFX_VR_SERVICE_VRPUPPETCOMMANDBUFFER_H
 #
 include
-<
-inttypes
-.
-h
->
-#
-include
 "
 mozilla
 /
