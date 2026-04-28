@@ -12959,6 +12959,17 @@ IteratorJoin
 1
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+includes
+"
+"
+IteratorIncludes
+"
+2
+0
+)
 #
 endif
 JS_FS_END
