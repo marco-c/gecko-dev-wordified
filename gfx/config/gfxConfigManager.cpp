@@ -235,7 +235,7 @@ MOZ_WAYLAND
 StaticPrefs
 :
 :
-gfx_wayland_hdr_AtStartup
+gfx_color_management_hdr
 (
 )
 |
@@ -243,7 +243,7 @@ gfx_wayland_hdr_AtStartup
 StaticPrefs
 :
 :
-gfx_wayland_hdr_force_enabled_AtStartup
+gfx_color_management_hdr_force_enabled
 (
 )
 |
