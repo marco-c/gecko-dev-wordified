@@ -7709,7 +7709,7 @@ relaxed
 atomic
 flag
 .
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 =
 true
 ;
@@ -7753,7 +7753,7 @@ minorSweepingFinished
 =
 true
 ;
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 =
 true
 ;
@@ -8530,7 +8530,7 @@ relaxed
 atomic
 flag
 .
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 =
 true
 ;
@@ -9742,7 +9742,7 @@ ref
 )
 )
 ;
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 =
 false
 ;
@@ -10862,7 +10862,7 @@ majorFinishedWhileMinorSweeping
 MOZ_ASSERT
 (
 !
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 )
 ;
 MOZ_ASSERT
@@ -12967,7 +12967,7 @@ switches
 .
 if
 (
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 )
 {
 mergeSweptData
@@ -18404,7 +18404,7 @@ here
 if
 (
 !
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 )
 {
 #
@@ -18420,7 +18420,7 @@ this
 MOZ_ASSERT_IF
 (
 !
-hasMinorSweepDataToMerge
+hasSweepDataToMerge
 !
 minorSweepingFinished
 )
