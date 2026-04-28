@@ -2027,13 +2027,7 @@ StringyBuilder
 /
 /
 Tests
-a
-non
-macro
-based
-alternative
-to
-LOG_AND_RETURN_ERROR
+LOG_ERROR
 .
 TEST
 (
