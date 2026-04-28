@@ -600,8 +600,9 @@ virtual
 HTMLTextFieldAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 LocalAccessible
@@ -1491,8 +1492,9 @@ virtual
 HTMLProgressAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 DOMAttributeChanged
@@ -1732,8 +1734,9 @@ virtual
 HTMLMeterAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 DOMAttributeChanged
@@ -1966,8 +1969,9 @@ virtual
 HTMLDateTimeAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

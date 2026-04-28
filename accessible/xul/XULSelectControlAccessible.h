@@ -115,8 +115,9 @@ virtual
 XULSelectControlAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 LocalAccessible

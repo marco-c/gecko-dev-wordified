@@ -844,8 +844,9 @@ write
 s
 (
 )
-{
-}
+=
+default
+;
 \
 n
 \

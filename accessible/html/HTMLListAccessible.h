@@ -168,8 +168,9 @@ virtual
 HTMLListAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -265,8 +266,9 @@ virtual
 HTMLLIAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -313,8 +315,9 @@ virtual
 HTMLListBulletAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 LocalAccessible

@@ -491,8 +491,9 @@ virtual
 ApplicationAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 LocalAccessible

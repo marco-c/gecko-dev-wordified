@@ -249,8 +249,9 @@ virtual
 HTMLTableCellAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -373,8 +374,9 @@ virtual
 HTMLTableRowAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -590,8 +592,9 @@ virtual
 HTMLTableAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 LocalAccessible
@@ -743,8 +746,9 @@ virtual
 HTMLCaptionAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

@@ -191,8 +191,9 @@ virtual
 HTMLImageMapAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

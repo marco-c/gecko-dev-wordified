@@ -296,8 +296,9 @@ virtual
 XULLabelTextLeafAccessible
 (
 )
-{
-}
+=
+default
+;
 /
 /
 LocalAccessible

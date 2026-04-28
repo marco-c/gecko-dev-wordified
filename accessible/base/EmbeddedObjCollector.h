@@ -110,8 +110,9 @@ public
 EmbeddedObjCollector
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

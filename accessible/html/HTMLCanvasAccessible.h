@@ -137,8 +137,9 @@ virtual
 HTMLCanvasAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

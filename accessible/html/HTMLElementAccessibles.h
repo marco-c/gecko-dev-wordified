@@ -299,8 +299,9 @@ virtual
 HTMLLabelAccessible
 (
 )
-{
-}
+=
+default
+;
 virtual
 ENameValueFlag
 NativeName
@@ -416,8 +417,9 @@ virtual
 HTMLOutputAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -613,8 +615,9 @@ virtual
 HTMLHeaderOrFooterAccessible
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
