@@ -760,15 +760,6 @@ AudioDeviceInfo
 >
 mDevice
 ;
-bool
-mAudioOutputRegistered
-MOZ_GUARDED_BY
-(
-sMainThreadCapability
-)
-=
-false
-;
 media
 :
 :
