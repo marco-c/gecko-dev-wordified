@@ -1738,6 +1738,12 @@ ShouldIgnoreMemoryPressure
 )
 override
 ;
+void
+ClearInProcessForMemoryPressure
+(
+)
+override
+;
 private
 :
 bool
