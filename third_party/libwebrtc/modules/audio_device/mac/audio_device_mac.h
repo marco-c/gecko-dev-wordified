@@ -130,6 +130,11 @@ memory
 >
 #
 include
+<
+span
+>
+#
+include
 "
 absl
 /
@@ -1083,7 +1088,10 @@ AudioObjectPropertyScope
 scope
 uint16_t
 index
-ArrayView
+std
+:
+:
+span
 <
 char
 >
