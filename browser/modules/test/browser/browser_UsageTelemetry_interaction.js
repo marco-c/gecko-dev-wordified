@@ -98,6 +98,9 @@ preferences_paneSync
 "
 preferences_paneContainers
 "
+"
+preferences_paneAccessibility
+"
 ]
 ;
 function
