@@ -1716,7 +1716,7 @@ CLEANUP_DISPLAY
 }
 info
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

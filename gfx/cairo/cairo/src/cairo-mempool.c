@@ -2142,7 +2142,7 @@ pool
 >
 blocks
 =
-calloc
+_cairo_calloc_ab
 (
 num_blocks
 sizeof

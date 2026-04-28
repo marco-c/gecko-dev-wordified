@@ -403,8 +403,7 @@ MAX_FREED_POOL_SIZE
 typedef
 struct
 {
-void
-*
+cairo_atomic_intptr_t
 pool
 [
 MAX_FREED_POOL_SIZE
@@ -422,8 +421,7 @@ void
 *
 _atomic_fetch
 (
-void
-*
+cairo_atomic_intptr_t
 *
 slot
 )
@@ -462,8 +460,7 @@ cairo_always_inline
 cairo_bool_t
 _atomic_store
 (
-void
-*
+cairo_atomic_intptr_t
 *
 slot
 void

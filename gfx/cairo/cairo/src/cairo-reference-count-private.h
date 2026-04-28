@@ -467,7 +467,7 @@ define
 CAIRO_REFERENCE_COUNT_INVALID_VALUE
 (
 (
-cairo_atomic_int_t
+int
 )
 -
 1

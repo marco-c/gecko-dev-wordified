@@ -1465,7 +1465,7 @@ _cairo_path_nil
 ;
 path
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -1544,7 +1544,7 @@ path
 ;
 path
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

@@ -641,7 +641,7 @@ status
 ;
 extra
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -1567,7 +1567,7 @@ base
 ;
 snapshot
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

@@ -1117,7 +1117,7 @@ options
 ;
 options
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -1287,7 +1287,7 @@ _cairo_font_options_nil
 ;
 options
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

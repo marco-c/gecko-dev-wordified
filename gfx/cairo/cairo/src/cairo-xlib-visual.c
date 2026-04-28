@@ -725,7 +725,7 @@ RAMP_SIZE
 ;
 info
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (

@@ -2488,7 +2488,7 @@ CAIRO_STATUS_SURFACE_FINISHED
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
@@ -2914,7 +2914,7 @@ CAIRO_SURFACE_TYPE_SUBSURFACE
 ;
 surface
 =
-_cairo_malloc
+_cairo_calloc
 (
 sizeof
 (
