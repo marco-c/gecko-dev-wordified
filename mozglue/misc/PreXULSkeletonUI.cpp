@@ -107,6 +107,11 @@ cmath
 #
 include
 <
+locale
+>
+#
+include
+<
 string
 >
 #
