@@ -439,6 +439,22 @@ setUp
 (
 )
         
+self
+.
+marionette
+.
+set_pref
+(
+"
+network
+.
+dns
+.
+disableIPv6
+"
+True
+)
+        
 #
 Find
 a
