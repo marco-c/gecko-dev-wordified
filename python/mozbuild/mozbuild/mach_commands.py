@@ -9632,6 +9632,10 @@ type
 =
 str
     
+default
+=
+None
+    
 help
 =
 "
@@ -9654,6 +9658,11 @@ type
 =
 str
     
+default
+=
+"
+"
+    
 help
 =
 "
@@ -9675,16 +9684,8 @@ def
 source_package
 (
 command_context
-verbose
-=
-False
 output
-=
-None
 upload
-=
-"
-"
 )
 :
     
@@ -10501,14 +10502,6 @@ command_context
 .
 _run_make
 (
-                
-directory
-=
-"
-browser
-/
-installer
-"
                 
 target
 =
