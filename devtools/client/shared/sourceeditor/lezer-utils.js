@@ -444,10 +444,7 @@ Set
 [
 nodeTypes
 .
-VariableDefinition
-nodeTypes
-.
-VariableDeclaration
+VariableName
 nodeTypes
 .
 this
