@@ -596,7 +596,7 @@ xhtml
 ;
 showBtn
 .
-click
+doCommand
 (
 )
 ;

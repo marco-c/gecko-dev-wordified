@@ -143,7 +143,7 @@ STATE_PENDING
 }
 ;
 await
-runAboutPrefsUpdateTest
+runAboutDialogUpdateTest
 (
 params
 [
