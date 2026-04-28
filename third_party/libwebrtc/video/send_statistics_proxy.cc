@@ -9608,7 +9608,7 @@ num_spatial_layers
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -9647,7 +9647,7 @@ num_simulcast_streams
 ;
 for
 (
-int
+size_t
 i
 =
 0
@@ -9691,7 +9691,7 @@ spatial_layers
 ;
 for
 (
-int
+size_t
 i
 =
 0

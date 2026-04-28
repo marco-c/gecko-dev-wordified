@@ -769,7 +769,7 @@ VideoBitrateAllocation
 ;
 for
 (
-int
+size_t
 tl
 =
 0

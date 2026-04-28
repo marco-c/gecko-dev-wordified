@@ -3090,7 +3090,7 @@ RTPVideoHeaderVP8
 ;
 for
 (
-int
+size_t
 tid
 =
 1
@@ -3199,7 +3199,7 @@ RTPVideoHeaderVP9
 ;
 for
 (
-int
+size_t
 tid
 =
 1

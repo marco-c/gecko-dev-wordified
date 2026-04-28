@@ -97,6 +97,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -8187,7 +8192,7 @@ headers
 generic
 )
 ;
-int
+size_t
 num_decode_targets
 =
 headers
