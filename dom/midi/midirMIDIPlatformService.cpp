@@ -504,13 +504,7 @@ u
 "
 "
 _ns
-static_cast
-<
-uint32_t
->
-(
 type
-)
 )
 ;
 MIDIPlatformService
@@ -578,13 +572,7 @@ u
 "
 "
 _ns
-static_cast
-<
-uint32_t
->
-(
 type
-)
 )
 ;
 MIDIPlatformService
