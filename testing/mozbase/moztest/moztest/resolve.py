@@ -8846,7 +8846,7 @@ _reset_state
 (
 )
         
-test_path
+app_dir
 =
 os
 .
@@ -8854,7 +8854,6 @@ path
 .
 join
 (
-            
 self
 .
 topsrcdir
@@ -8870,6 +8869,18 @@ fenix
 "
 app
 "
+)
+        
+test_subdirs
+=
+(
+            
+os
+.
+path
+.
+join
+(
 "
 src
 "
@@ -8879,6 +8890,24 @@ test
 "
 java
 "
+)
+            
+os
+.
+path
+.
+join
+(
+"
+src
+"
+"
+test
+"
+"
+kotlin
+"
+)
         
 )
         
@@ -8891,16 +8920,21 @@ os
 .
 walk
 (
-test_path
+app_dir
 )
 :
             
 if
-"
-test
-"
+any
+(
+sd
 in
 root
+for
+sd
+in
+test_subdirs
+)
 :
                 
 for
@@ -9050,6 +9084,26 @@ relpath
                     
 }
 )
+            
+dirs
+[
+:
+]
+=
+[
+d
+for
+d
+in
+dirs
+if
+d
+!
+=
+"
+build
+"
+]
         
 self
 .
