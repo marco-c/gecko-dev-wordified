@@ -311,12 +311,6 @@ nsPIDOMWindowOuter
 namespace
 mozilla
 {
-enum
-class
-NativeKeyBindingsType
-:
-uint8_t
-;
 namespace
 a11y
 {
@@ -2713,10 +2707,7 @@ IPCResult
 RecvRequestNativeKeyBindings
 (
 const
-mozilla
-:
-:
-NativeKeyBindingsType
+uint32_t
 &
 aType
 const
