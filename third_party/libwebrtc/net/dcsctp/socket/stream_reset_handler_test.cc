@@ -133,15 +133,6 @@ include
 "
 api
 /
-array_view
-.
-h
-"
-#
-include
-"
-api
-/
 task_queue
 /
 task_queue_base
