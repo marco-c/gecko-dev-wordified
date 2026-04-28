@@ -33259,6 +33259,7 @@ Assembler
 :
 Equal
 element
+JS_ELEMENTS_HOLE
 failure
 -
 >
@@ -33585,6 +33586,7 @@ Assembler
 :
 Equal
 element
+JS_ELEMENTS_HOLE
 &
 notDense
 )
@@ -35347,7 +35349,7 @@ valueReg
 ;
 masm
 .
-branchTestMagic
+branchTestMagicValue
 (
 Assembler
 :
@@ -35358,6 +35360,7 @@ output
 valueReg
 (
 )
+JS_ELEMENTS_HOLE
 &
 done
 )
@@ -35808,6 +35811,7 @@ Assembler
 :
 Equal
 element
+JS_ELEMENTS_HOLE
 failure
 -
 >
@@ -36024,6 +36028,7 @@ Assembler
 :
 Equal
 element
+JS_ELEMENTS_HOLE
 &
 hole
 )
@@ -45185,6 +45190,7 @@ Assembler
 :
 Equal
 element
+JS_ELEMENTS_HOLE
 failure
 -
 >

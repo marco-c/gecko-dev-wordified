@@ -21108,13 +21108,14 @@ createdThisOK
 ;
 masm
 .
-branchTestMagic
+branchTestMagicValue
 (
 Assembler
 :
 :
 Equal
 JSReturnOperand
+JS_UNINITIALIZED_LEXICAL
 &
 createdThisOK
 )
