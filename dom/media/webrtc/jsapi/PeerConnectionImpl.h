@@ -4137,6 +4137,15 @@ mDataChannelsClosed
 bool
 mForceIceTcp
 ;
+Maybe
+<
+dom
+:
+:
+RTCRtcpMuxPolicy
+>
+mRtcpMuxPolicy
+;
 RefPtr
 <
 MediaTransportHandler
