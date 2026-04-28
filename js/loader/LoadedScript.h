@@ -4810,6 +4810,8 @@ ScriptLoadRequest
 :
 mFetchInfo
 to
+read
+and
 update
 the
 /
@@ -4824,12 +4826,7 @@ RefPtr
 <
 ScriptFetchInfo
 >
-mFetchInfoForUpdatingPreload
-;
-bool
-mForPreload
-=
-false
+mFetchInfoForAccessingPreloadFlag
 ;
 bool
 mHadImportMap
@@ -5091,7 +5088,12 @@ ForPreload
 const
 {
 return
-mForPreload
+mFetchInfoForAccessingPreloadFlag
+-
+>
+IsForModulePreload
+(
+)
 ;
 }
 bool
