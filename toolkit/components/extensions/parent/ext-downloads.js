@@ -524,6 +524,12 @@ webp
 "
 heic
 "
+"
+avif
+"
+"
+jxl
+"
 ]
 ;
 const
