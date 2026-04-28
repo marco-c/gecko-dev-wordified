@@ -71,9 +71,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 registerCleanupFunction

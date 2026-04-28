@@ -235,17 +235,6 @@ MockFilePicker
 .
 init
 (
-/
-*
-mock
-BrowsingContext
-*
-/
-{
-window
-:
-globalThis
-}
 )
 ;
 registerCleanupFunction

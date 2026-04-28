@@ -250,9 +250,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 mockTransferRegisterer

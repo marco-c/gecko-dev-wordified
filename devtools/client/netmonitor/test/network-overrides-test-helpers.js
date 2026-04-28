@@ -1234,11 +1234,6 @@ overridePath
 prepareFilePicker
 (
 overrideFileName
-monitor
-.
-toolbox
-.
-topWindow
 )
 ;
 info
@@ -1540,17 +1535,6 @@ to
 create
 .
 *
-param
-{
-XULWindow
-}
-chromeWindow
-*
-The
-browser
-window
-.
-*
 returns
 {
 string
@@ -1569,7 +1553,6 @@ function
 prepareFilePicker
 (
 filename
-chromeWindow
 )
 {
 const
@@ -1583,9 +1566,6 @@ MockFilePicker
 .
 init
 (
-chromeWindow
-.
-browsingContext
 )
 ;
 const

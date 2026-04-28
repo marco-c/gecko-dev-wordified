@@ -169,9 +169,6 @@ MockFilePicker
 .
 init
 (
-window
-.
-browsingContext
 )
 ;
 Services
