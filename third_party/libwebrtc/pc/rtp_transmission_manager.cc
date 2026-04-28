@@ -2076,13 +2076,14 @@ header_extensions_to_negotiate
 ;
 if
 (
+!
 env_
 .
 field_trials
 (
 )
 .
-IsEnabled
+IsDisabled
 (
 "
 WebRTC
