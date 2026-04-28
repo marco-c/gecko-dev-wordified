@@ -178,7 +178,7 @@ string
 &
 transportId
 const
-int
+RTCIceGathererState
 &
 state
 )
@@ -197,7 +197,7 @@ string
 &
 transportId
 const
-int
+RTCIceTransportState
 &
 state
 )
@@ -254,7 +254,7 @@ string
 &
 transportId
 const
-int
+TransportLayerState
 &
 state
 )
@@ -273,7 +273,7 @@ string
 &
 transportId
 const
-int
+TransportLayerState
 &
 state
 )
