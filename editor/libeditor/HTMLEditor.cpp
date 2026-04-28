@@ -615,11 +615,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentList
+nsContentList
 .
 h
 "
@@ -3306,7 +3302,7 @@ NS_OK
 }
 RefPtr
 <
-ContentList
+nsContentList
 >
 headElementList
 =
@@ -3661,7 +3657,7 @@ META
 tags
 RefPtr
 <
-ContentList
+nsContentList
 >
 metaElementList
 =
@@ -3723,6 +3719,11 @@ metaElementList
 Item
 (
 i
+)
+-
+>
+AsElement
+(
 )
 ;
 MOZ_ASSERT
@@ -10532,7 +10533,7 @@ base
 tag
 RefPtr
 <
-ContentList
+nsContentList
 >
 baseElementList
 =

@@ -2261,7 +2261,7 @@ elementinternals
 labels
 already_AddRefed
 <
-NodeList
+nsINodeList
 >
 ElementInternals
 :

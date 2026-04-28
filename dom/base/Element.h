@@ -465,6 +465,9 @@ class
 nsAttrValueOrString
 ;
 class
+nsContentList
+;
+class
 nsDOMAttributeMap
 ;
 class
@@ -532,6 +535,9 @@ nsIDOMXULSelectControlItemElement
 ;
 class
 nsIFrame
+;
+class
+nsIHTMLCollection
 ;
 class
 nsIPrincipal
@@ -658,9 +664,6 @@ Attr
 ;
 class
 BooleanOrScrollIntoViewOptions
-;
-class
-ContentList
 ;
 class
 Document
@@ -793,13 +796,7 @@ Element
 ;
 already_AddRefed
 <
-mozilla
-:
-:
-dom
-:
-:
-ContentList
+nsContentList
 >
 NS_GetContentList
 (
@@ -8413,7 +8410,7 @@ aError
 ;
 already_AddRefed
 <
-HTMLCollection
+nsIHTMLCollection
 >
 GetElementsByTagName
 (
@@ -8425,7 +8422,7 @@ aQualifiedName
 ;
 already_AddRefed
 <
-HTMLCollection
+nsIHTMLCollection
 >
 GetElementsByTagNameNS
 (
@@ -8444,7 +8441,7 @@ aError
 ;
 already_AddRefed
 <
-HTMLCollection
+nsIHTMLCollection
 >
 GetElementsByClassName
 (

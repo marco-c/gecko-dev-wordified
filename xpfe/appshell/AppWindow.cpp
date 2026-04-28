@@ -361,11 +361,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ContentList
+nsContentList
 .
 h
 "
@@ -12096,12 +12092,9 @@ false
 ErrorResult
 err
 ;
-RefPtr
+nsCOMPtr
 <
-dom
-:
-:
-HTMLCollection
+nsIHTMLCollection
 >
 toolbarSprings
 =

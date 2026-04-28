@@ -91,6 +91,9 @@ nsTArray
 h
 "
 class
+nsINodeList
+;
+class
 inDeepTreeWalker
 final
 :

@@ -5536,7 +5536,7 @@ colors
 ;
 RefPtr
 <
-ContentList
+nsContentList
 >
 options
 =
@@ -48276,7 +48276,7 @@ mEntries
 }
 already_AddRefed
 <
-NodeList
+nsINodeList
 >
 HTMLInputElement
 :
@@ -48293,7 +48293,7 @@ GetLabelsInternal
 }
 already_AddRefed
 <
-NodeList
+nsINodeList
 >
 HTMLInputElement
 :

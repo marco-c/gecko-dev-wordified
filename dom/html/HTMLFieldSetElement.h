@@ -435,7 +435,7 @@ aType
 )
 const
 ;
-HTMLCollection
+nsIHTMLCollection
 *
 Elements
 (
@@ -626,7 +626,7 @@ used
 to
 generate
 the
-ContentList
+nsContentList
 (
 listed
 form
@@ -659,7 +659,7 @@ elements
 .
 RefPtr
 <
-ContentList
+nsContentList
 >
 mElements
 ;

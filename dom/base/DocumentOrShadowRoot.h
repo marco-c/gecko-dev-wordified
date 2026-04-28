@@ -129,10 +129,16 @@ nsTHashSet
 h
 "
 class
+nsContentList
+;
+class
 nsCycleCollectionTraversalCallback
 ;
 class
 nsINode
+;
+class
+nsINodeList
 ;
 class
 nsWindowSizes
@@ -159,9 +165,6 @@ class
 Element
 ;
 class
-ContentList
-;
-class
 CustomElementRegistry
 ;
 class
@@ -172,9 +175,6 @@ DocumentOrShadowRoot
 ;
 class
 HTMLInputElement
-;
-class
-NodeList
 ;
 class
 StyleSheetList
@@ -612,7 +612,7 @@ return
 }
 already_AddRefed
 <
-ContentList
+nsContentList
 >
 GetElementsByTagName
 (
@@ -636,7 +636,7 @@ aTagName
 }
 already_AddRefed
 <
-ContentList
+nsContentList
 >
 GetElementsByTagNameNS
 (
@@ -652,7 +652,7 @@ aLocalName
 ;
 already_AddRefed
 <
-ContentList
+nsContentList
 >
 GetElementsByTagNameNS
 (
@@ -673,7 +673,7 @@ ErrorResult
 ;
 already_AddRefed
 <
-ContentList
+nsContentList
 >
 GetElementsByClassName
 (

@@ -300,7 +300,7 @@ IsContent
 {
 /
 /
-NodeList
+nsINodeList
 deals
 with
 nsIContent
@@ -309,11 +309,11 @@ only
 so
 need
 to
+/
+/
 filter
 out
 other
-/
-/
 nodes
 for
 now

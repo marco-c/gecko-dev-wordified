@@ -408,7 +408,7 @@ return
 1
 ;
 }
-HTMLCollection
+nsIHTMLCollection
 *
 cells
 =

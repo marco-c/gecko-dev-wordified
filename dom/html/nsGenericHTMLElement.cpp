@@ -322,17 +322,6 @@ mozilla
 /
 dom
 /
-ContentList
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 CustomElementRegistry
 .
 h
@@ -13051,7 +13040,7 @@ aData
 }
 already_AddRefed
 <
-NodeList
+nsINodeList
 >
 nsGenericHTMLElement
 :
@@ -13068,7 +13057,7 @@ LabelsInternal
 }
 already_AddRefed
 <
-NodeList
+nsINodeList
 >
 nsGenericHTMLElement
 :
@@ -13120,7 +13109,7 @@ slots
 mLabelsList
 =
 new
-LabelsNodeList
+nsLabelsNodeList
 (
 this
 SubtreeRoot
@@ -13133,7 +13122,7 @@ nullptr
 }
 RefPtr
 <
-LabelsNodeList
+nsLabelsNodeList
 >
 labels
 =

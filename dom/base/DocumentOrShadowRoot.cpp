@@ -126,17 +126,6 @@ mozilla
 /
 dom
 /
-ContentList
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 CustomElementRegistry
 .
 h
@@ -1856,7 +1845,7 @@ nullptr
 }
 already_AddRefed
 <
-ContentList
+nsContentList
 >
 DocumentOrShadowRoot
 :
@@ -1878,7 +1867,7 @@ rv
 ;
 RefPtr
 <
-ContentList
+nsContentList
 >
 list
 =
@@ -1912,7 +1901,7 @@ forget
 }
 already_AddRefed
 <
-ContentList
+nsContentList
 >
 DocumentOrShadowRoot
 :
@@ -2008,7 +1997,7 @@ aLocalName
 }
 already_AddRefed
 <
-ContentList
+nsContentList
 >
 DocumentOrShadowRoot
 :

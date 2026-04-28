@@ -10249,7 +10249,7 @@ aURI
 void
 Gecko_ContentList_AppendAll
 (
-SimpleContentList
+nsSimpleContentList
 *
 aList
 const
