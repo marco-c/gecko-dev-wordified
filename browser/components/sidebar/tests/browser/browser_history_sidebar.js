@@ -4495,7 +4495,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 rows
 [
 0
