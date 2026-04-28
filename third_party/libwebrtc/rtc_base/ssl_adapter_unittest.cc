@@ -259,6 +259,15 @@ include
 "
 test
 /
+run_loop
+.
+h
+"
+#
+include
+"
+test
+/
 wait_until
 .
 h
@@ -1983,7 +1992,10 @@ VirtualSocketServer
 >
 vss_
 ;
-AutoSocketServerThread
+test
+:
+:
+RunLoop
 thread_
 ;
 std

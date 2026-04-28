@@ -201,6 +201,15 @@ include
 "
 test
 /
+run_loop
+.
+h
+"
+#
+include
+"
+test
+/
 wait_until
 .
 h
@@ -460,7 +469,10 @@ Millis
 10000
 )
 ;
-AutoThread
+test
+:
+:
+RunLoop
 main_thread_
 ;
 RTCCertificateGeneratorFixture
