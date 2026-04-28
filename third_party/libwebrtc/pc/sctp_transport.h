@@ -474,7 +474,7 @@ webrtc
 SctpTransport
 .
 This
-can
+must
 be
 called
 from
@@ -484,7 +484,7 @@ the
 signaling
 thread
 .
-void
+bool
 Start
 (
 const
