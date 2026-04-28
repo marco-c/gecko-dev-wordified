@@ -8788,7 +8788,8 @@ goto
 bad_arg
 ;
 }
-return
+ret
+=
 dred_decoder_load_model
 (
 dred_dec
