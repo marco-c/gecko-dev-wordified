@@ -188,11 +188,6 @@ h
 /
 for
 gfxCriticalNote
-#
-include
-<
-mutex
->
 using
 namespace
 mozilla

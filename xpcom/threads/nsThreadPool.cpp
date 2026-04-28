@@ -180,6 +180,11 @@ nsThreadSyncDispatch
 .
 h
 "
+#
+include
+<
+mutex
+>
 using
 namespace
 mozilla

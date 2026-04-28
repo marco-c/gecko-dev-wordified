@@ -90,6 +90,11 @@ gbm
 h
 >
 #
+include
+<
+mutex
+>
+#
 undef
 LOGDMABUF
 #
