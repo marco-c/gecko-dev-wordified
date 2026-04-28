@@ -320,9 +320,6 @@ bool
 disableStubFoldingLoadsAndStores
 ;
 bool
-disableSink
-;
-bool
 disableRedundantShapeGuards
 ;
 bool
