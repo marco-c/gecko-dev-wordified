@@ -1712,7 +1712,7 @@ to
 PC
 offset
 .
-void
+BufferOffset
 bl
 (
 int
@@ -1767,7 +1767,7 @@ offset
 if
 zero
 .
-void
+BufferOffset
 cbz
 (
 const
@@ -1832,7 +1832,7 @@ if
 not
 zero
 .
-void
+BufferOffset
 cbnz
 (
 const
@@ -2151,7 +2151,7 @@ offset
 if
 zero
 .
-void
+BufferOffset
 tbz
 (
 const
@@ -2224,7 +2224,7 @@ if
 not
 zero
 .
-void
+BufferOffset
 tbnz
 (
 const
@@ -2327,7 +2327,7 @@ a
 PC
 offset
 .
-void
+BufferOffset
 adr
 (
 const
@@ -2390,7 +2390,7 @@ a
 PC
 offset
 .
-void
+BufferOffset
 adrp
 (
 const
