@@ -7330,6 +7330,9 @@ MediaEngineSource
 :
 kMaxDeviceNameLength
 ]
+=
+{
+}
 ;
 char
 deviceUniqueId
@@ -7339,6 +7342,9 @@ MediaEngineSource
 :
 kMaxUniqueIdLength
 ]
+=
+{
+}
 ;
 nsCString
 name
