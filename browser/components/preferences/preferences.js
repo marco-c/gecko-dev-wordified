@@ -1669,6 +1669,9 @@ httpsOnly
 networkProxy
 "
 "
+privacyPanel
+"
+"
 browsingProtection
 "
 "
