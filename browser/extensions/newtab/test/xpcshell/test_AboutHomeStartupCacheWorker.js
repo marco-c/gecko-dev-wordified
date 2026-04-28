@@ -606,6 +606,8 @@ stream
 .
 newtabWallpapers
 .
+system
+.
 enabled
 "
 false
