@@ -487,7 +487,7 @@ effect
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 browsingContext
 .
@@ -4485,7 +4485,7 @@ stopAnimationsUpdates
 ;
 /
 /
-ownerGlobal
+documentGlobal
 doesn
 '
 t
@@ -4508,7 +4508,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 const
 win
 =

@@ -1,6 +1,6 @@
 /
 /
-ownerGlobal
+documentGlobal
 isn
 '
 t
@@ -19,7 +19,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 *
 /
 /

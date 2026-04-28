@@ -353,7 +353,7 @@ nodeActor
 .
 rawNode
 .
-ownerGlobal
+documentGlobal
 .
 customElements
 ;
@@ -426,6 +426,8 @@ nodeActor
 return
 ;
 }
+try
+{
 const
 win
 =
@@ -433,7 +435,7 @@ nodeActor
 .
 rawNode
 .
-ownerGlobal
+documentGlobal
 ;
 const
 registry
@@ -483,6 +485,13 @@ delete
 nodeActor
 )
 ;
+}
+}
+catch
+(
+ex
+)
+{
 }
 }
 /
@@ -784,10 +793,7 @@ t
 have
 a
 documentElement
-or
-an
 *
-ownerGlobal
 and
 can
 '
@@ -813,7 +819,6 @@ nodeActor
 rawNode
 ;
 return
-(
 !
 Cu
 .
@@ -825,16 +830,10 @@ node
 &
 node
 .
-ownerGlobal
-&
-&
-node
-.
 ownerDocument
 ?
 .
 documentElement
-)
 ;
 }
 }

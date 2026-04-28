@@ -864,7 +864,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 button
 .
 ownerDocument

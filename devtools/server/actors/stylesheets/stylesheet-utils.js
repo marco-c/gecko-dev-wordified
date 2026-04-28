@@ -664,7 +664,7 @@ mozilla
 /
 use
 -
-ownerGlobal
+documentGlobal
 options
 .
 window
