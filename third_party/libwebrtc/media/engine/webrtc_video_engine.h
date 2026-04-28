@@ -4655,6 +4655,9 @@ TaskQueueBase
 const
 worker_thread_
 ;
+ScopedTaskSafety
+task_safety_
+;
 scoped_refptr
 <
 PendingTaskSafetyFlag

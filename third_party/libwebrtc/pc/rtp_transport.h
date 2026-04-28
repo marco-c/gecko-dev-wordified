@@ -721,6 +721,14 @@ sink
 )
 override
 ;
+void
+SetActivePayloadTypeDemuxing
+(
+bool
+enabled
+)
+override
+;
 protected
 :
 /

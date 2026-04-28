@@ -3019,6 +3019,11 @@ ssrc_sink_it
 second
 ;
 }
+if
+(
+use_payload_type_demuxing_
+)
+{
 /
 /
 Legacy
@@ -3028,9 +3033,13 @@ only
 signal
 payload
 type
-support
+.
+/
+/
+Support
 that
 as
+a
 last
 resort
 .
@@ -3044,6 +3053,10 @@ PayloadType
 )
 ssrc
 )
+;
+}
+return
+nullptr
 ;
 }
 RtpPacketSinkInterface

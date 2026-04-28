@@ -3990,7 +3990,7 @@ the
 affected
 channels
 .
-bool
+void
 UpdatePayloadTypeDemuxingState
 (
 ContentSource

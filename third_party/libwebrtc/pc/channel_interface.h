@@ -709,16 +709,6 @@ type
 =
 0
 ;
-virtual
-bool
-SetPayloadTypeDemuxingEnabled
-(
-bool
-enabled
-)
-=
-0
-;
 /
 /
 Access
