@@ -139,6 +139,14 @@ crashtest
 "
 WebDriverCrashtestExecutor
 "
+                              
+"
+test262
+"
+:
+"
+WebDriverTestharnessExecutor
+"
 }
                  
 "

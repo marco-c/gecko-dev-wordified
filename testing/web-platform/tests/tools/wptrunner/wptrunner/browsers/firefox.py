@@ -217,6 +217,14 @@ wdspec
 "
 MarionetteWdspecExecutor
 "
+                              
+"
+test262
+"
+:
+"
+MarionetteTestharnessExecutor
+"
 }
                  
 "
