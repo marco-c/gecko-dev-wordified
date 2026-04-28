@@ -216,6 +216,7 @@ bool
 {
 unsafe
 {
+!
 crate
 :
 :
@@ -225,7 +226,11 @@ gecko_bindings
 structs
 :
 :
-ServoTraversalStatistics_sActive
+ServoTraversalStatistics_sSingleton
+.
+is_null
+(
+)
 }
 }
 #
@@ -329,15 +334,6 @@ Gecko_IsMainThread
 let
 gecko_stats
 =
-std
-:
-:
-ptr
-:
-:
-addr_of_mut
-!
-(
 crate
 :
 :
@@ -348,7 +344,6 @@ structs
 :
 :
 ServoTraversalStatistics_sSingleton
-)
 ;
 (
 *
