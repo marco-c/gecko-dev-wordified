@@ -66,11 +66,6 @@ h
 #
 include
 <
-cctype
->
-#
-include
-<
 errno
 .
 h
