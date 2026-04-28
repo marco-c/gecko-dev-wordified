@@ -25963,14 +25963,6 @@ ExtContentPolicyType
 aType
 )
 ;
-case
-nsIContentPolicy
-:
-:
-TYPE_END
-:
-break
-;
 /
 /
 Do

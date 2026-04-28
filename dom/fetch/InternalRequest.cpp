@@ -2358,12 +2358,6 @@ nsIContentPolicy
 :
 TYPE_INVALID
 :
-case
-nsIContentPolicy
-:
-:
-TYPE_END
-:
 break
 ;
 /
