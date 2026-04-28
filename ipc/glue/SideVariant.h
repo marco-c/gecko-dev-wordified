@@ -64,6 +64,11 @@ define
 mozilla_ipc_SidedVariant_h
 #
 include
+<
+variant
+>
+#
+include
 "
 mozilla
 /
