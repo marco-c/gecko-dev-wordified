@@ -181,16 +181,6 @@ include
 ostream
 >
 #
-ifdef
-JS_JITSPEW
-#
-include
-<
-queue
->
-#
-endif
-#
 include
 "
 irregexp
