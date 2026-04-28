@@ -380,6 +380,9 @@ mCurrentTooltip
 nsWeakPtr
 mPreviousMouseMoveTarget
 ;
+nsWeakPtr
+mTooltipSourceDoc
+;
 /
 /
 a
