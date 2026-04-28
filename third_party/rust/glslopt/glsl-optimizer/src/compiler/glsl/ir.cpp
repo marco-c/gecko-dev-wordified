@@ -2971,9 +2971,8 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
-!
 "
 Invalid
 base
@@ -3354,7 +3353,7 @@ ir_last_quadop
 return
 4
 ;
-unreachable
+UNREACHABLE
 (
 "
 Could

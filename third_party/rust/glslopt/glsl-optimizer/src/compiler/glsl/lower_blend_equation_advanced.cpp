@@ -2945,7 +2945,7 @@ BLEND_NONE
 case
 BLEND_ALL
 :
-unreachable
+UNREACHABLE
 (
 "
 not

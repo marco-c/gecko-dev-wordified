@@ -5442,7 +5442,7 @@ mix
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unexpected
@@ -12631,7 +12631,7 @@ std430
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unexpected
@@ -12681,7 +12681,7 @@ buffer
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unexpected

@@ -9642,7 +9642,7 @@ oper
 case
 ast_aggregate
 :
-unreachable
+UNREACHABLE
 (
 "
 ast_aggregate
@@ -14405,7 +14405,7 @@ break
 case
 ast_unsized_array_dim
 :
-unreachable
+UNREACHABLE
 (
 "
 ast_unsized_array_dim
@@ -14444,7 +14444,7 @@ hir
 .
 *
 /
-unreachable
+UNREACHABLE
 (
 "
 ast_function_call
@@ -15756,7 +15756,7 @@ false
 case
 ast_function_call
 :
-unreachable
+UNREACHABLE
 (
 "
 should
@@ -15773,7 +15773,7 @@ hir
 case
 ast_unsized_array_dim
 :
-unreachable
+UNREACHABLE
 (
 "
 ast_unsized_array_dim
@@ -17603,7 +17603,7 @@ type_idx
 }
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unsupported
@@ -17923,7 +17923,7 @@ type_idx
 }
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unsupported
@@ -18243,7 +18243,7 @@ type_idx
 }
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unsupported
@@ -18268,7 +18268,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unsupported
@@ -18302,7 +18302,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unsupported
@@ -35143,7 +35143,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unknown
@@ -35296,7 +35296,7 @@ break
 ;
 default
 :
-unreachable
+UNREACHABLE
 (
 "
 Unknown

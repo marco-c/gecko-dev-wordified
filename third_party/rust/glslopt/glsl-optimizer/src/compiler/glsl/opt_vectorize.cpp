@@ -1589,7 +1589,7 @@ return
 SWIZZLE_W
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 not

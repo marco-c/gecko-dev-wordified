@@ -948,7 +948,7 @@ new_distance_in_var
 }
 else
 {
-unreachable
+UNREACHABLE
 (
 "
 not

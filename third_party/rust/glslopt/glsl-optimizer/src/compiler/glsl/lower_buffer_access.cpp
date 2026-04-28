@@ -1627,7 +1627,7 @@ is_struct
 )
 ;
 }
-unreachable
+UNREACHABLE
 (
 "
 invalid
@@ -1675,7 +1675,7 @@ impossible
 .
 *
 /
-unreachable
+UNREACHABLE
 (
 "
 invalid

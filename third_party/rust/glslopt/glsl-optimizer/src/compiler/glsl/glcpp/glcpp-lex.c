@@ -6171,7 +6171,7 @@ NEWLINE_CATCHUP
 5
 #
 define
-UNREACHABLE
+NOT_REACHABLE
 6
 #
 define
@@ -11295,7 +11295,7 @@ t
 actually
 use
 the
-UNREACHABLE
+NOT_REACHABLE
 start
 condition
 .
@@ -11333,7 +11333,7 @@ if
 YY_START
 =
 =
-UNREACHABLE
+NOT_REACHABLE
 )
 {
 unput
@@ -11416,7 +11416,7 @@ NEWLINE_CATCHUP
 case
 YY_STATE_EOF
 (
-UNREACHABLE
+NOT_REACHABLE
 )
 :
 yyterminate
