@@ -1778,6 +1778,7 @@ next
 =
 nextInstrOffset
 (
+UncondBranchRangeType
 )
 ;
 BufferOffset
@@ -1851,6 +1852,7 @@ next
 =
 nextInstrOffset
 (
+CondBranchRangeType
 )
 ;
 BufferOffset
@@ -2077,6 +2079,7 @@ next
 =
 nextInstrOffset
 (
+UncondBranchRangeType
 )
 ;
 BufferOffset
@@ -2234,6 +2237,7 @@ next
 =
 nextInstrOffset
 (
+CondBranchRangeType
 )
 ;
 BufferOffset
@@ -2392,6 +2396,7 @@ next
 =
 nextInstrOffset
 (
+CondBranchRangeType
 )
 ;
 BufferOffset
@@ -2606,6 +2611,7 @@ next
 =
 nextInstrOffset
 (
+TestBranchRangeType
 )
 ;
 BufferOffset
@@ -2821,6 +2827,7 @@ next
 =
 nextInstrOffset
 (
+TestBranchRangeType
 )
 ;
 BufferOffset
