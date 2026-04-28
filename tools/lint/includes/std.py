@@ -58,22 +58,6 @@ api
 {
     
 "
-queue
-"
-:
-[
-        
-"
-priority_queue
-"
-        
-"
-queue
-"
-    
-]
-    
-"
 iostream
 "
 :

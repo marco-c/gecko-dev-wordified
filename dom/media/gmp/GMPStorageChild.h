@@ -64,6 +64,11 @@ define
 GMPStorageChild_h_
 #
 include
+<
+queue
+>
+#
+include
 "
 gmp
 -

@@ -110,6 +110,11 @@ SHARED_SURFACE_H_
 #
 include
 <
+queue
+>
+#
+include
+<
 stdint
 .
 h
