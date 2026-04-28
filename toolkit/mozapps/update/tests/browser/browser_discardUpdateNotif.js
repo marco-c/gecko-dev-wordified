@@ -414,7 +414,7 @@ is
 (
 manualDesktopCheckbox
 .
-selected
+checked
 true
 "
 Manual
