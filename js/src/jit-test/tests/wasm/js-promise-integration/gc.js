@@ -1,5 +1,20 @@
 /
 /
+|
+jit
+-
+test
+|
+skip
+-
+if
+:
+!
+wasmJSPromiseIntegrationEnabled
+(
+)
+/
+/
 Test
 if
 we
@@ -274,6 +289,7 @@ then
 )
 =
 >
+{
 assertEq
 (
 15
@@ -285,5 +301,6 @@ g
 .
 value
 )
+}
 )
 ;
