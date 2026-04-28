@@ -7452,7 +7452,7 @@ set
 a
 salt
 through
-XML_SetHashSalt
+XML_SetHashSalt16Bytes
 )
 *
 /
@@ -7629,7 +7629,7 @@ set
 a
 salt
 through
-XML_SetHashSalt
+XML_SetHashSalt16Bytes
 )
 *
 /
@@ -7754,7 +7754,7 @@ set
 a
 salt
 through
-XML_SetHashSalt
+XML_SetHashSalt16Bytes
 )
 *
 /
