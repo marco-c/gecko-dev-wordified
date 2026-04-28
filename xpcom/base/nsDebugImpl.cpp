@@ -2012,6 +2012,13 @@ int32_t
 aLine
 )
 {
+aFile
+=
+MOZ_StripRelativeComponents
+(
+aFile
+)
+;
 FixedBuffer
 nonPIDBuf
 ;
