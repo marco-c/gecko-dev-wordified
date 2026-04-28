@@ -665,7 +665,7 @@ anyway
 irrelevant_version_number
 =
 "
-500
+1
 .
 0
 "
