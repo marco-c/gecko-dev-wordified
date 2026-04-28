@@ -85,6 +85,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DimensionRequest
 .
 h
@@ -470,6 +479,7 @@ template
 <
 >
 struct
+MOZ_ENUM_SERIALIZER_ALLOW_SENTINEL_UPPER_BOUND
 ParamTraits
 <
 nsIWidget
