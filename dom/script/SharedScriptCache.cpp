@@ -1624,10 +1624,10 @@ aLoadedScript
 ReferrerPolicy
 (
 )
-aLoadedScript
+aRequest
 -
 >
-GetFetchOptions
+FetchOptions
 (
 )
 aLoadedScript
