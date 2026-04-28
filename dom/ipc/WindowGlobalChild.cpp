@@ -3603,7 +3603,10 @@ nscolor
 &
 aBackgroundColor
 const
-uint32_t
+gfx
+:
+:
+CrossProcessPaintFlags
 &
 aFlags
 DrawSnapshotResolver
@@ -3628,12 +3631,6 @@ BrowsingContext
 aRect
 aScale
 aBackgroundColor
-(
-gfx
-:
-:
-CrossProcessPaintFlags
-)
 aFlags
 )
 )
