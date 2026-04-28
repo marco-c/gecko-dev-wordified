@@ -65,11 +65,6 @@ h
 "
 #
 include
-<
-algorithm
->
-#
-include
 "
 gfx2DGlue
 .
