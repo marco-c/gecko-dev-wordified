@@ -2797,7 +2797,7 @@ Name
 return
 NonOwningAnimationTarget
 {
-mTarget
+mSourceOrTarget
 }
 ;
 case
@@ -2815,10 +2815,10 @@ pseudo
 =
 FindNearestScroller
 (
-mTarget
+mSourceOrTarget
 .
 mElement
-mTarget
+mSourceOrTarget
 .
 mPseudoRequest
 )
@@ -2852,7 +2852,7 @@ Self
 return
 NonOwningAnimationTarget
 {
-mTarget
+mSourceOrTarget
 }
 ;
 case
@@ -2924,7 +2924,7 @@ script
 .
 return
 {
-mTarget
+mSourceOrTarget
 .
 mElement
 -
