@@ -1015,6 +1015,16 @@ TrialInliningState
 Candidate
 )
 ;
+writer
+.
+setTrialInliningState
+(
+TrialInliningState
+:
+:
+Inlined
+)
+;
 fallback
 -
 >
