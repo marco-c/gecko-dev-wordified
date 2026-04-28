@@ -6387,7 +6387,7 @@ JSMSG_ITERATOR_ZIP_INVALID_OPTION_TYPE
 "
 padding
 "
-padding
+paddingOption
 =
 =
 =
@@ -6398,7 +6398,7 @@ null
 "
 :
 typeof
-padding
+paddingOption
 )
 ;
 }
@@ -7240,7 +7240,7 @@ JSMSG_ITERATOR_ZIP_INVALID_OPTION_TYPE
 "
 padding
 "
-padding
+paddingOption
 =
 =
 =
@@ -7251,7 +7251,7 @@ null
 "
 :
 typeof
-padding
+paddingOption
 )
 ;
 }
