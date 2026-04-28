@@ -2990,14 +2990,14 @@ originalOffer
 ;
 }
 function
-PC_LOCAL_REMOVE_RTCPMUX_FROM_OFFER
+PC_REMOTE_REMOVE_RTCPMUX_FROM_OFFER
 (
 test
 )
 {
 test
 .
-originalOffer
+_local_offer
 .
 sdp
 =
@@ -3007,7 +3007,7 @@ removeRtcpMux
 (
 test
 .
-originalOffer
+_local_offer
 .
 sdp
 )
@@ -3030,7 +3030,7 @@ stringify
 (
 test
 .
-originalOffer
+_local_offer
 )
 )
 ;
