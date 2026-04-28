@@ -76,7 +76,7 @@ consoleAllowList
 push
 (
 "
-_onLoad
+parseXMLData
 :
 Failed
 to
