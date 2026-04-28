@@ -464,13 +464,6 @@ pthread
 h
 >
 #
-include
-<
-wchar
-.
-h
->
-#
 ifdef
 MOZ_GECKOVIEW_HISTORY
 #

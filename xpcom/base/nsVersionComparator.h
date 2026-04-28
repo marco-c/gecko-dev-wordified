@@ -121,13 +121,6 @@ UPDATER_NO_STRING_GLUE_STL
 )
 #
 include
-<
-wchar
-.
-h
->
-#
-include
 "
 nsString
 .
