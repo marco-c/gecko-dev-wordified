@@ -2372,6 +2372,14 @@ kDegree_180
 kDegree_270
 =
 270
+/
+/
+Keep
+in
+sync
+with
+VideoRotationValidator
+.
 }
 ;
 /
