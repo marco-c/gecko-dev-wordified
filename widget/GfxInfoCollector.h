@@ -174,6 +174,14 @@ char
 value
 )
 ;
+InfoObject
+(
+InfoObject
+&
+)
+=
+delete
+;
 private
 :
 /
@@ -203,12 +211,6 @@ InfoObject
 JSContext
 *
 aCx
-)
-;
-InfoObject
-(
-InfoObject
-&
 )
 ;
 JSContext
