@@ -139,6 +139,7 @@ panelWin
 .
 document
 ;
+await
 selectPage
 (
 panel
@@ -412,6 +413,7 @@ panelWin
 .
 document
 ;
+await
 selectPage
 (
 panel

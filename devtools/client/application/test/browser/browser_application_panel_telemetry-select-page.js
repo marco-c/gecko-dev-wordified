@@ -145,6 +145,7 @@ default
 "
 )
 ;
+await
 selectPage
 (
 panel

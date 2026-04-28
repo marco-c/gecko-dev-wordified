@@ -197,6 +197,7 @@ worker
 "
 )
 ;
+await
 selectPage
 (
 panel
@@ -402,6 +403,7 @@ appear
 "
 )
 ;
+await
 selectPage
 (
 panel
@@ -470,6 +472,7 @@ load
 "
 )
 ;
+await
 selectPage
 (
 panel
