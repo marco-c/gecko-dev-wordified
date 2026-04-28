@@ -58,11 +58,6 @@ MPL
 /
 #
 include
-<
-iostream
->
-#
-include
 "
 FuzzingInterface
 .
