@@ -2835,10 +2835,6 @@ const
 nsCString
 &
 aURI
-const
-IPCBlob
-&
-aBlob
 nsIPrincipal
 *
 aPrincipal
