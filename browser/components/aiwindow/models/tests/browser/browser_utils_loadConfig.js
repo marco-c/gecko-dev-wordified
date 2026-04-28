@@ -326,6 +326,7 @@ loadConfig
 MODEL_FEATURES
 .
 CHAT
+2
 )
 ;
 const
