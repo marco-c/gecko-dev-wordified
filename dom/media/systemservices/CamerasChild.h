@@ -1231,6 +1231,9 @@ IPCResult
 RecvReplyGetCaptureCapability
 (
 const
+webrtc
+:
+:
 VideoCaptureCapability
 &
 capability
