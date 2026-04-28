@@ -101,6 +101,8 @@ DateObject
 public
 NativeObject
 {
+public
+:
 /
 /
 Time
@@ -134,6 +136,8 @@ UTC_TIME_SLOT
 =
 0
 ;
+private
+:
 /
 /
 Time
