@@ -1248,7 +1248,7 @@ mKind
 aLoadedScript
 -
 >
-ReferrerPolicy
+CachedReferrerPolicy
 (
 )
 aFetchOptions
@@ -1568,7 +1568,6 @@ mLoadedScript
 new
 ClassicScript
 (
-aReferrerPolicy
 aURI
 )
 ;
@@ -1585,7 +1584,6 @@ mLoadedScript
 new
 ImportMapScript
 (
-aReferrerPolicy
 aURI
 )
 ;
@@ -1602,7 +1600,6 @@ mLoadedScript
 new
 ModuleScript
 (
-aReferrerPolicy
 aURI
 mFetchInfo
 )
