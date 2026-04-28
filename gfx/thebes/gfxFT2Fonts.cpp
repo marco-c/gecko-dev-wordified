@@ -153,13 +153,6 @@ h
 "
 #
 include
-<
-locale
-.
-h
->
-#
-include
 "
 nsTArray
 .
