@@ -148,6 +148,11 @@ APZCTreeManager
 .
 h
 "
+#
+include
+<
+stack
+>
 using
 mozilla
 :

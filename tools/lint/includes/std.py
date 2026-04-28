@@ -578,6 +578,18 @@ unique_lock
 ]
     
 "
+stack
+"
+:
+[
+        
+"
+stack
+"
+    
+]
+    
+"
 bitset
 "
 :
