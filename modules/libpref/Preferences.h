@@ -203,6 +203,11 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+<
+atomic
+>
 class
 nsIFile
 ;

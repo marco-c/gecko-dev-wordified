@@ -60,6 +60,11 @@ MPL
 #
 include
 <
+atomic
+>
+#
+include
+<
 audiopolicy
 .
 h

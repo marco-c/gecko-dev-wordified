@@ -69,6 +69,11 @@ h
 "
 #
 include
+<
+atomic
+>
+#
+include
 "
 base
 /
