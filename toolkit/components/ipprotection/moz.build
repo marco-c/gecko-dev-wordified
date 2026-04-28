@@ -134,7 +134,7 @@ mjs
 "
 android
 /
-IPPAndroidEnroll
+IPPAndroidEnrollAndEntitle
 .
 sys
 .
@@ -158,6 +158,15 @@ MOZ_SRC_FILES
 fxa
 /
 IPPEnrollAndEntitleManager
+.
+sys
+.
+mjs
+"
+"
+fxa
+/
+IPPFxaActivateAuthProvider
 .
 sys
 .
