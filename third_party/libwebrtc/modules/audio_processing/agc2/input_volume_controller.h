@@ -477,12 +477,6 @@ int
 target_range_max_dbfs
 =
 -
-30
-;
-int
-target_range_experimental_max_dbfs
-=
--
 12
 ;
 int
