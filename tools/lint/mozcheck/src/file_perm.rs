@@ -245,6 +245,10 @@ mode
 (
 )
 ;
+/
+/
+not
+executable
 if
 mode
 &
