@@ -63,6 +63,11 @@ mozilla_SandboxSettings_h
 define
 mozilla_SandboxSettings_h
 #
+include
+<
+cinttypes
+>
+#
 if
 defined
 (

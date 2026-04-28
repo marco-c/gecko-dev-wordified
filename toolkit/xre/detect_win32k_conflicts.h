@@ -62,6 +62,11 @@ TOOLKIT_XRE_DETECT_WIN32K_CONFLICTS_H
 #
 define
 TOOLKIT_XRE_DETECT_WIN32K_CONFLICTS_H
+#
+include
+<
+cinttypes
+>
 /
 /
 C

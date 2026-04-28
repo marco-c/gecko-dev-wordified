@@ -65,7 +65,9 @@ threading_CpuCount_h
 #
 include
 <
-cstdint
+inttypes
+.
+h
 >
 namespace
 js

@@ -102,6 +102,13 @@ FloatingPoint
 .
 h
 "
+#
+include
+<
+inttypes
+.
+h
+>
 namespace
 mozilla
 {

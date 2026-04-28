@@ -74,11 +74,6 @@ GFX_FONT_CONSTANTS_H
 #
 define
 GFX_FONT_CONSTANTS_H
-#
-include
-<
-cstdint
->
 /
 *
 *
