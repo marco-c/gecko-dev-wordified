@@ -304,6 +304,7 @@ WidgetContentCommandEvent
 /
 class
 WidgetContentCommandEvent
+final
 :
 public
 WidgetGUIEvent
@@ -358,6 +359,12 @@ false
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+WidgetContentCommandEvent
+eContentCommandEventClass
+eGUIEventClass
+)
 virtual
 WidgetEvent
 *
@@ -1011,6 +1018,7 @@ WidgetChromeCommandEvent
 /
 class
 WidgetCommandEvent
+final
 :
 public
 WidgetGUIEvent
@@ -1167,6 +1175,12 @@ nullptr
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+WidgetCommandEvent
+eCommandEventClass
+eGUIEventClass
+)
 virtual
 WidgetEvent
 *

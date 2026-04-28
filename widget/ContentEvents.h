@@ -285,6 +285,7 @@ InternalScrollPortEvent
 /
 class
 InternalScrollPortEvent
+final
 :
 public
 WidgetGUIEvent
@@ -342,6 +343,12 @@ eVertical
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalScrollPortEvent
+eScrollPortEventClass
+eGUIEventClass
+)
 virtual
 WidgetEvent
 *
@@ -609,6 +616,7 @@ InternalScrollPortEvent
 /
 class
 InternalScrollAreaEvent
+final
 :
 public
 WidgetGUIEvent
@@ -654,6 +662,12 @@ aTime
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalScrollAreaEvent
+eScrollAreaEventClass
+eGUIEventClass
+)
 virtual
 WidgetEvent
 *
@@ -951,6 +965,7 @@ reference
 /
 class
 InternalFormEvent
+final
 :
 public
 WidgetEvent
@@ -996,6 +1011,12 @@ nullptr
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalFormEvent
+eFormEventClass
+eBasicEventClass
+)
 virtual
 WidgetEvent
 *
@@ -1259,6 +1280,7 @@ InternalClipboardEvent
 /
 class
 InternalClipboardEvent
+final
 :
 public
 WidgetEvent
@@ -1300,6 +1322,12 @@ aTime
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalClipboardEvent
+eClipboardEventClass
+eBasicEventClass
+)
 virtual
 WidgetEvent
 *
@@ -1561,6 +1589,7 @@ InternalFocusEvent
 /
 class
 InternalFocusEvent
+final
 :
 public
 InternalUIEvent
@@ -1610,6 +1639,12 @@ false
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalFocusEvent
+eFocusEventClass
+eUIEventClass
+)
 virtual
 WidgetEvent
 *
@@ -1874,6 +1909,7 @@ InternalTransitionEvent
 /
 class
 InternalTransitionEvent
+final
 :
 public
 WidgetEvent
@@ -1967,6 +2003,12 @@ aOther
 =
 default
 ;
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalTransitionEvent
+eTransitionEventClass
+eBasicEventClass
+)
 virtual
 WidgetEvent
 *
@@ -2240,6 +2282,7 @@ InternalAnimationEvent
 /
 class
 InternalAnimationEvent
+final
 :
 public
 WidgetEvent
@@ -2333,6 +2376,12 @@ aOther
 =
 default
 ;
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalAnimationEvent
+eAnimationEventClass
+eBasicEventClass
+)
 virtual
 WidgetEvent
 *
@@ -2606,6 +2655,7 @@ InternalSMILTimeEvent
 /
 class
 InternalSMILTimeEvent
+final
 :
 public
 InternalUIEvent
@@ -2647,6 +2697,12 @@ aTime
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalSMILTimeEvent
+eSMILTimeEventClass
+eUIEventClass
+)
 virtual
 WidgetEvent
 *

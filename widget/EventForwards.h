@@ -533,15 +533,10 @@ class
 IDs
 *
 /
-using
-EventClassIDType
-=
-uint8_t
-;
 enum
 EventClassID
 :
-EventClassIDType
+uint8_t
 {
 /
 /
@@ -607,7 +602,7 @@ NS_EVENT_CLASS
 #
 undef
 NS_ROOT_EVENT_CLASS
-eEventClassID_MaxValue
+eEventClassUninitialized
 }
 ;
 const

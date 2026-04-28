@@ -1917,6 +1917,12 @@ false
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+WidgetKeyboardEvent
+eKeyboardEventClass
+eInputEventClass
+)
 /
 /
 IsInputtingText
@@ -6813,6 +6819,7 @@ WidgetCompositionEvent
 /
 class
 WidgetCompositionEvent
+final
 :
 public
 WidgetGUIEvent
@@ -6899,6 +6906,12 @@ eVoidEvent
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+WidgetCompositionEvent
+eCompositionEventClass
+eGUIEventClass
+)
 virtual
 WidgetEvent
 *
@@ -7522,6 +7535,7 @@ WidgetQueryContentEvent
 /
 class
 WidgetQueryContentEvent
+final
 :
 public
 WidgetGUIEvent
@@ -7671,6 +7685,12 @@ mNeedsToFlushLayout
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+WidgetQueryContentEvent
+eQueryContentEventClass
+eGUIEventClass
+)
 WidgetEvent
 *
 Duplicate
@@ -10147,6 +10167,7 @@ WidgetSelectionEvent
 /
 class
 WidgetSelectionEvent
+final
 :
 public
 WidgetGUIEvent
@@ -10276,6 +10297,12 @@ NO_REASON
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+WidgetSelectionEvent
+eSelectionEventClass
+eGUIEventClass
+)
 virtual
 WidgetEvent
 *
@@ -10591,6 +10618,7 @@ InternalEditorInputEvent
 /
 class
 InternalEditorInputEvent
+final
 :
 public
 InternalUIEvent
@@ -10644,6 +10672,12 @@ aTime
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalEditorInputEvent
+eEditorInputEventClass
+eUIEventClass
+)
 virtual
 WidgetEvent
 *
@@ -11035,6 +11069,7 @@ InternalLegacyTextEvent
 /
 class
 InternalLegacyTextEvent
+final
 :
 public
 InternalUIEvent
@@ -11088,6 +11123,12 @@ aTime
 )
 {
 }
+NS_DEFINE_VIRTUAL_DESTRUCTOR_CHECKING_CLASS_VALUE
+(
+InternalLegacyTextEvent
+eLegacyTextEventClass
+eUIEventClass
+)
 virtual
 WidgetEvent
 *
