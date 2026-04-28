@@ -3446,6 +3446,17 @@ transfer_characteristics
 )
 )
 ;
+mInfo
+.
+mVideo
+.
+mHDRMetadata
+=
+ParseWebMMasteringMetadata
+(
+params
+)
+;
 /
 /
 Picture
