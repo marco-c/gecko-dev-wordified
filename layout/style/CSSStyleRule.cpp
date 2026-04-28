@@ -148,6 +148,17 @@ mozilla
 /
 dom
 /
+ContentList
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ShadowRoot
 .
 h
@@ -2448,7 +2459,7 @@ kind
 }
 already_AddRefed
 <
-nsINodeList
+NodeList
 >
 CSSStyleRule
 :
@@ -2497,7 +2508,7 @@ contentList
 =
 MakeRefPtr
 <
-nsSimpleContentList
+SimpleContentList
 >
 (
 &

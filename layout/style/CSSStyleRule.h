@@ -380,7 +380,7 @@ const
 ;
 already_AddRefed
 <
-nsINodeList
+NodeList
 >
 QuerySelectorAll
 (

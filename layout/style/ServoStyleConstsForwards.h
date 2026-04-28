@@ -265,9 +265,6 @@ class
 nsStaticAtom
 ;
 class
-nsSimpleContentList
-;
-class
 imgRequestProxy
 ;
 struct
@@ -664,6 +661,9 @@ CallerType
 uint32_t
 ;
 class
+SimpleContentList
+;
+class
 Element
 ;
 class
@@ -674,6 +674,14 @@ Document
 /
 namespace
 dom
+using
+StyleSimpleContentList
+=
+dom
+:
+:
+SimpleContentList
+;
 /
 /
 Replacement

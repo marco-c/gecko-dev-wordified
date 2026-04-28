@@ -109,9 +109,6 @@ nsWrapperCache
 h
 "
 class
-nsContentList
-;
-class
 nsINode
 ;
 namespace
@@ -120,6 +117,9 @@ mozilla
 :
 dom
 {
+class
+ContentList
+;
 class
 Document
 ;
@@ -352,7 +352,7 @@ aResult
 }
 private
 :
-nsContentList
+ContentList
 *
 Collection
 (
@@ -384,7 +384,7 @@ one
 .
 *
 /
-nsContentList
+ContentList
 *
 GetDocumentAllList
 (
@@ -433,14 +433,14 @@ mDocument
 ;
 RefPtr
 <
-nsContentList
+ContentList
 >
 mCollection
 ;
 nsRefPtrHashtable
 <
 nsStringHashKey
-nsContentList
+ContentList
 >
 mNamedMap
 ;

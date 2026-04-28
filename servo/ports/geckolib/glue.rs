@@ -17912,7 +17912,7 @@ mut
 structs
 :
 :
-nsSimpleContentList
+SimpleContentList
 may_use_invalidation
 :
 bool
@@ -18089,7 +18089,7 @@ mut
 structs
 :
 :
-nsSimpleContentList
+SimpleContentList
 )
 {
 let

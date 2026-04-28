@@ -177,9 +177,6 @@ nsAtom
 class
 nsIURI
 ;
-class
-nsSimpleContentList
-;
 struct
 nsFont
 ;
@@ -249,6 +246,9 @@ class
 CompositeOperationOrAuto
 :
 uint8_t
+;
+class
+SimpleContentList
 ;
 }
 /
@@ -3802,7 +3802,13 @@ APIs
 void
 Gecko_ContentList_AppendAll
 (
-nsSimpleContentList
+mozilla
+:
+:
+dom
+:
+:
+SimpleContentList
 *
 aContentList
 const

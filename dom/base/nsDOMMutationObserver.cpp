@@ -144,6 +144,17 @@ mozilla
 /
 dom
 /
+ContentList
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocGroup
 .
 h
@@ -309,7 +320,7 @@ nsDOMMutationRecord
 =
 default
 ;
-nsINodeList
+NodeList
 *
 nsDOMMutationRecord
 :
@@ -327,7 +338,7 @@ mAddedNodes
 mAddedNodes
 =
 new
-nsSimpleContentList
+SimpleContentList
 (
 mTarget
 )
@@ -337,7 +348,7 @@ return
 mAddedNodes
 ;
 }
-nsINodeList
+NodeList
 *
 nsDOMMutationRecord
 :
@@ -355,7 +366,7 @@ mRemovedNodes
 mRemovedNodes
 =
 new
-nsSimpleContentList
+SimpleContentList
 (
 mTarget
 )
@@ -1330,7 +1341,7 @@ m
 mAddedNodes
 =
 new
-nsSimpleContentList
+SimpleContentList
 (
 parent
 )
@@ -1555,7 +1566,7 @@ m
 mAddedNodes
 =
 new
-nsSimpleContentList
+SimpleContentList
 (
 parent
 )
@@ -2105,7 +2116,7 @@ m
 mRemovedNodes
 =
 new
-nsSimpleContentList
+SimpleContentList
 (
 parent
 )
@@ -6251,7 +6262,7 @@ mWantsChildList
 ;
 RefPtr
 <
-nsSimpleContentList
+SimpleContentList
 >
 removedList
 ;
@@ -6263,7 +6274,7 @@ wantsChildList
 removedList
 =
 new
-nsSimpleContentList
+SimpleContentList
 (
 mBatchTarget
 )
@@ -6544,12 +6555,12 @@ Length
 {
 RefPtr
 <
-nsSimpleContentList
+SimpleContentList
 >
 addedList
 =
 new
-nsSimpleContentList
+SimpleContentList
 (
 mBatchTarget
 )

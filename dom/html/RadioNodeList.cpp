@@ -368,7 +368,7 @@ return
 NS_IMPL_ISUPPORTS_INHERITED
 (
 RadioNodeList
-nsSimpleContentList
+SimpleContentList
 RadioNodeList
 )
 }

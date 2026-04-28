@@ -65,7 +65,11 @@ HTMLDataListElement_h_
 #
 include
 "
-nsContentList
+mozilla
+/
+dom
+/
+ContentList
 .
 h
 "
@@ -135,7 +139,7 @@ datalist
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-nsContentList
+ContentList
 *
 Options
 (
@@ -150,7 +154,7 @@ mOptions
 mOptions
 =
 new
-nsContentList
+ContentList
 (
 this
 MatchOptions
@@ -190,7 +194,7 @@ used
 to
 generate
 the
-nsContentList
+ContentList
 (
 option
 elements
@@ -261,7 +265,7 @@ element
 .
 RefPtr
 <
-nsContentList
+ContentList
 >
 mOptions
 ;

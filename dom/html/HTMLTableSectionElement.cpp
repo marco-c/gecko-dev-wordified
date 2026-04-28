@@ -196,7 +196,7 @@ NS_IMPL_ELEMENT_CLONE
 (
 HTMLTableSectionElement
 )
-nsIHTMLCollection
+HTMLCollection
 *
 HTMLTableSectionElement
 :
@@ -214,7 +214,7 @@ mRows
 mRows
 =
 new
-nsContentList
+ContentList
 (
 this
 mNodeInfo
@@ -274,7 +274,7 @@ return
 nullptr
 ;
 }
-nsIHTMLCollection
+HTMLCollection
 *
 rows
 =
@@ -482,7 +482,7 @@ NS_ERROR_DOM_INDEX_SIZE_ERR
 return
 ;
 }
-nsIHTMLCollection
+HTMLCollection
 *
 rows
 =
