@@ -58,6 +58,18 @@ api
 {
     
 "
+deque
+"
+:
+[
+        
+"
+deque
+"
+    
+]
+    
+"
 chrono
 "
 :

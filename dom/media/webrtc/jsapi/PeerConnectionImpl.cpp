@@ -76,11 +76,6 @@ cstdlib
 #
 include
 <
-deque
->
-#
-include
-<
 set
 >
 #
