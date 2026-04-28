@@ -4429,6 +4429,11 @@ GreenJXLTestCase
 )
 ;
 ImageTestCase
+ProgressiveJXLTestCase
+(
+)
+;
+ImageTestCase
 DownscaledJXLTestCase
 (
 )
