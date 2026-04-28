@@ -9987,7 +9987,7 @@ WindowProxyHolder
 nsINode
 :
 :
-GetDocumentGlobalForBindings
+GetOwnerDocGlobalForBindings
 (
 )
 {
@@ -10079,7 +10079,7 @@ nsIGlobalObject
 nsINode
 :
 :
-GetDocumentGlobal
+GetOwnerDocGlobal
 (
 )
 const

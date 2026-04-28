@@ -709,7 +709,7 @@ global
 =
 aNode
 .
-GetDocumentGlobal
+GetOwnerDocGlobal
 (
 )
 ;

@@ -6305,7 +6305,7 @@ attrModifiedObserver
 =
 /
 /
-documentGlobal
+ownerGlobal
 doesn
 '
 t
@@ -6327,7 +6327,7 @@ mozilla
 /
 use
 -
-documentGlobal
+ownerGlobal
 new
 contentRootElement
 .

@@ -353,7 +353,7 @@ nodeActor
 .
 rawNode
 .
-documentGlobal
+ownerDocGlobal
 .
 customElements
 ;
@@ -435,7 +435,7 @@ nodeActor
 .
 rawNode
 .
-documentGlobal
+ownerDocGlobal
 ;
 const
 registry

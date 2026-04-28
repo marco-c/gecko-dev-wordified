@@ -8444,7 +8444,7 @@ global
 el
 -
 >
-GetDocumentGlobal
+GetOwnerDocGlobal
 (
 )
 ;
