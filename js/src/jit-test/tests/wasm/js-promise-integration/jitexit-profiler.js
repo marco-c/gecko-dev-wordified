@@ -10,6 +10,12 @@ skip
 if
 :
 !
+wasmJSPromiseIntegrationEnabled
+(
+)
+|
+|
+!
 WasmHelpers
 .
 isSingleStepProfilingEnabled
