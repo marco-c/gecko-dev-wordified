@@ -220,7 +220,7 @@ in
 lines
 .
             
-line
+stripped_line
 =
 line
 .
@@ -238,7 +238,7 @@ stack_comment_pat
 .
 search
 (
-line
+stripped_line
 )
             
 if
@@ -406,7 +406,7 @@ if
 formatted
 !
 =
-line
+stripped_line
 :
                     
 changed
@@ -427,7 +427,7 @@ lines
 .
 append
 (
-line
+stripped_line
 )
         
 print
