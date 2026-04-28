@@ -3109,14 +3109,14 @@ Event
 (
 )
 marks
-aEvent
+aMouseOrPointerEvent
 as
 posted
 to
 remote
+*
 process
 if
-*
 it
 succeeded
 .
@@ -3128,7 +3128,7 @@ the
 result
 with
 *
-aEvent
+aMouseOrPointerEvent
 .
 HasBeenPostedToRemoteProcess
 (
@@ -3141,7 +3141,7 @@ SendRealMouseEvent
 (
 WidgetMouseEvent
 &
-aEvent
+aMouseOrPointerEvent
 )
 ;
 void
