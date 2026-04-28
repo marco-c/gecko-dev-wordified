@@ -134,12 +134,12 @@ for
 ms
 packets
 of
-32
+48
 kHz
 PCM16
 samples
 (
-3200
+4800
 bytes
 )
 plus
@@ -153,7 +153,7 @@ const
 size_t
 kMaxPacketBufferSize
 =
-3500
+5100
 ;
 uint8_t
 data
