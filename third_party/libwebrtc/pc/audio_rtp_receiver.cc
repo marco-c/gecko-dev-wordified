@@ -291,6 +291,15 @@ h
 #
 include
 "
+pc
+/
+rtp_receiver
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 checks
@@ -501,7 +510,7 @@ OnAudioChannelGoneAction
 source_gone_action
 )
 :
-worker_thread_
+RtpReceiverBase
 (
 worker_thread
 )
