@@ -270,6 +270,7 @@ dom
 :
 RTCStatsTimestampState
 (
+0
 TimeStamp
 :
 :
@@ -294,6 +295,11 @@ Micros
 (
 0
 )
+RTPCallerType
+:
+:
+Normal
+0
 )
 {
 }
