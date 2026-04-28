@@ -139,16 +139,14 @@ clear_module_printers
 __name__
 )
 class
-JSStringTypeCache
+StringFlagsCache
 :
     
 #
 Cache
 information
 about
-the
-JSString
-type
+StringFlags
 for
 this
 objfile
@@ -175,7 +173,7 @@ cast
 (
 cache
 .
-JSString_ptr_t
+StringFlags_ptr_t
 )
         
 self
@@ -266,25 +264,25 @@ if
 not
 cache
 .
-mod_JSString
+mod_StringFlags
 :
             
 cache
 .
-mod_JSString
+mod_StringFlags
 =
-JSStringTypeCache
+StringFlagsCache
 (
 cache
 )
         
 self
 .
-stc
+stringFlags
 =
 cache
 .
-mod_JSString
+mod_StringFlags
 ptr_pretty_printer
 (
 "
@@ -380,16 +378,16 @@ corrupt
             
 yield
 from
+f
 "
 <
 CORRUPT
 :
-%
-s
+{
+corrupt
+}
 >
 "
-%
-corrupt
             
 return
         
@@ -400,7 +398,7 @@ flags
 &
 self
 .
-stc
+stringFlags
 .
 LINEAR_BIT
 )
@@ -490,7 +488,7 @@ flags
 &
 self
 .
-stc
+stringFlags
 .
 INLINE_CHARS_BIT
 )
@@ -505,7 +503,7 @@ flags
 &
 self
 .
-stc
+stringFlags
 .
 LATIN1_CHARS_BIT
 )
@@ -709,19 +707,19 @@ invalid_chars_allowed
 s
 +
 =
+f
 "
 \
 \
 x
-%
-04x
-"
-%
-(
+{
 c
 &
 0xFFFF
-)
+:
+04x
+}
+"
         
 return
 s
