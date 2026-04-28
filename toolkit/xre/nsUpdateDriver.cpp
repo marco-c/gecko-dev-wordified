@@ -65,6 +65,13 @@ h
 >
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 nsUpdateDriver
 .

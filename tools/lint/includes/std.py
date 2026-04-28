@@ -3086,10 +3086,6 @@ remove
 "
         
 "
-rename
-"
-        
-"
 rewind
 "
         

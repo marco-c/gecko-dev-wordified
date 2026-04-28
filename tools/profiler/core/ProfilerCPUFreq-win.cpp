@@ -92,6 +92,13 @@ endif
 #
 include
 <
+stdio
+.
+h
+>
+#
+include
+<
 strsafe
 .
 h

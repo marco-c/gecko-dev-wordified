@@ -111,6 +111,13 @@ spawn
 .
 h
 >
+#
+include
+<
+stdio
+.
+h
+>
 using
 namespace
 mozilla
