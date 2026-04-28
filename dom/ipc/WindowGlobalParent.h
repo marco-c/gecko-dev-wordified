@@ -2831,13 +2831,6 @@ false
 ;
 }
 ;
-nsCString
-BFCacheStatusToString
-(
-uint32_t
-aFlags
-)
-;
 }
 /
 /
