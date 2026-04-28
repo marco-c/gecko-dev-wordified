@@ -462,7 +462,10 @@ out
 )
 ;
 implementation
+RTC_OBJC_TYPE
+(
 RTCMTLNV12Renderer
+)
 {
 /
 /

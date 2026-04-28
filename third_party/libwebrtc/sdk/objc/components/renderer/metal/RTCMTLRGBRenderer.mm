@@ -374,7 +374,10 @@ out
 )
 ;
 implementation
+RTC_OBJC_TYPE
+(
 RTCMTLRGBRenderer
+)
 {
 /
 /

@@ -238,7 +238,10 @@ frame
 (
 id
 <
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 >
 )
 createNV12Renderer
@@ -247,7 +250,10 @@ createNV12Renderer
 (
 id
 <
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 >
 )
 createI420Renderer
@@ -589,7 +595,10 @@ rendererMock
 OCMClassMock
 (
 [
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 class
 ]
 )

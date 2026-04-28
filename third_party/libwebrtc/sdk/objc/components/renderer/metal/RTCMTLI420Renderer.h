@@ -104,7 +104,13 @@ NS_AVAILABLE
 9_0
 )
 interface
+RTC_OBJC_TYPE
+(
 RTCMTLI420Renderer
+)
 :
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 end

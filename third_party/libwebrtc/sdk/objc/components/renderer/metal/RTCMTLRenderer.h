@@ -144,7 +144,10 @@ views
 *
 /
 protocol
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 <
 NSObject
 >
@@ -163,6 +166,7 @@ rendering
 of
 the
 provided
+*
 frame
 .
 *
@@ -220,7 +224,7 @@ of
 the
 method
 are
-responisble
+responsible
 *
 for
 performing
@@ -279,11 +283,17 @@ NS_AVAILABLE
 9_0
 )
 interface
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 :
 NSObject
 <
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 >
 /
 *

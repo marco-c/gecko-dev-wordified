@@ -126,7 +126,13 @@ NS_AVAILABLE
 9_0
 )
 interface
+RTC_OBJC_TYPE
+(
 RTCMTLRGBRenderer
+)
 :
+RTC_OBJC_TYPE
+(
 RTCMTLRenderer
+)
 end
