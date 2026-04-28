@@ -237,8 +237,6 @@ org
 /
 content
 /
-plugin
-/
 document
 -
 loader
