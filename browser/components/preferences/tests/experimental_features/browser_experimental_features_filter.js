@@ -1545,9 +1545,7 @@ experimental
 -
 pane
 -
-features
--
-rendered
+loaded
 "
 )
 ;
