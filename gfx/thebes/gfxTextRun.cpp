@@ -11070,7 +11070,6 @@ aFont
 >
 ProcessSingleSpaceShapedWord
 (
-aDrawTarget
 vertical
 mAppUnitsPerDevUnit
 flags

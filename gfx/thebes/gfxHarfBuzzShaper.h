@@ -90,17 +90,6 @@ include
 "
 mozilla
 /
-gfx
-/
-2D
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MruCache
 .
 h
@@ -399,9 +388,6 @@ nullptr
 bool
 ShapeText
 (
-DrawTarget
-*
-aDrawTarget
 const
 char16_t
 *
