@@ -64,11 +64,6 @@ cerrno
 #
 include
 <
-cinttypes
->
-#
-include
-<
 cstdio
 >
 #

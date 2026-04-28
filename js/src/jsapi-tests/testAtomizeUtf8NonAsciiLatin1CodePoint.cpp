@@ -97,16 +97,6 @@ DecodeOneUtf8CodePoint
 #
 include
 <
-inttypes
-.
-h
->
-/
-/
-UINT8_MAX
-#
-include
-<
 stdint
 .
 h
