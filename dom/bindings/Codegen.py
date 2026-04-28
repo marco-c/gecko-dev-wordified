@@ -116327,32 +116327,6 @@ LegacyLenientSetter
 )
 :
                     
-#
-XXX
-In
-this
-case
-we
-need
-to
-add
-an
-include
-for
-mozilla
-/
-dom
-/
-Document
-.
-h
-to
-the
-generated
-cpp
-file
-.
-                    
 cgThings
 .
 append
@@ -131190,7 +131164,7 @@ h
 True
         
 def
-descriptorDeprecated
+descriptorDeprecatedOrLenientSetter
 (
 desc
 )
@@ -131205,6 +131179,7 @@ interface
 return
 any
 (
+(
                 
 m
 .
@@ -131213,6 +131188,18 @@ getExtendedAttribute
 "
 Deprecated
 "
+)
+                
+or
+m
+.
+getExtendedAttribute
+(
+"
+LegacyLenientSetter
+"
+)
+            
 )
 for
 m
@@ -131224,7 +131211,6 @@ members
 [
 iface
 ]
-            
 )
         
 bindingHeaders
@@ -131243,7 +131229,7 @@ h
 any
 (
             
-descriptorDeprecated
+descriptorDeprecatedOrLenientSetter
 (
 d
 )
