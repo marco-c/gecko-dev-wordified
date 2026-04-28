@@ -4156,6 +4156,11 @@ GreenFirstFrameAnimatedJXLTestCase
 (
 )
 ;
+ImageTestCase
+LongAnimatedJXLTestCase
+(
+)
+;
 #
 endif
 ImageTestCase
