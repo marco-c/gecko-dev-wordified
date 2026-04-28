@@ -1201,7 +1201,7 @@ UniqueNames
 if
 (
 !
-AddDataPropertyToPlainObject
+AddDataPropertyToNativeObjectNoHooks
 (
 cx
 obj

@@ -34429,6 +34429,15 @@ nfixed
 *
 /
 0
+ObjectFlags
+(
+{
+ObjectFlag
+:
+:
+HasNonWritableOrAccessorPropExclProto
+}
+)
 )
 )
 ;
