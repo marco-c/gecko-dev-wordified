@@ -445,7 +445,10 @@ mutable_data
 (
 )
 returns
-ArrayView
+std
+:
+:
+span
 .
 TEST
 (
