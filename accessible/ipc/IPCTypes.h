@@ -249,10 +249,7 @@ mozilla
 a11y
 :
 :
-AccType
-:
-:
-eLastAccType
+kHighestAccType
 >
 {
 }
