@@ -112,6 +112,12 @@ TimeStamp
 responseStart
 ;
 TimeStamp
+firstInterimResponseStart
+;
+TimeStamp
+finalResponseHeadersStart
+;
+TimeStamp
 responseEnd
 ;
 TimeStamp
