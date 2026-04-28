@@ -555,6 +555,8 @@ dom
 :
 ContentParentId
 aContentId
+uint32_t
+aNamespace
 )
 :
 mThread
@@ -564,6 +566,10 @@ aThread
 mContentId
 (
 aContentId
+)
+mNamespace
+(
+aNamespace
 )
 mClosed
 (
@@ -624,6 +630,8 @@ ImageBridgeParent
 :
 CreateSameProcess
 (
+uint32_t
+aNamespace
 )
 {
 EndpointProcInfo
@@ -655,6 +663,7 @@ dom
 ContentParentId
 (
 )
+aNamespace
 )
 ;
 {
@@ -716,6 +725,8 @@ PImageBridgeParent
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 {
 MOZ_ASSERT
@@ -769,6 +780,7 @@ dom
 ContentParentId
 (
 )
+aNamespace
 )
 ;
 compositorThread
@@ -1483,6 +1495,8 @@ dom
 :
 ContentParentId
 aContentId
+uint32_t
+aNamespace
 )
 {
 nsCOMPtr
@@ -1521,6 +1535,7 @@ OtherEndpointProcInfo
 (
 )
 aContentId
+aNamespace
 )
 ;
 compositorThread
@@ -2563,6 +2578,9 @@ const
 {
 return
 (
+mNamespace
+=
+=
 static_cast
 <
 uint32_t
@@ -2574,24 +2592,6 @@ wr
 AsUint64
 (
 aId
-)
->
->
-32
-)
-=
-=
-static_cast
-<
-uint32_t
->
-(
-static_cast
-<
-uint64_t
->
-(
-mContentId
 )
 >
 >
