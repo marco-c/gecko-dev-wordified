@@ -633,6 +633,9 @@ host_os
 mac
 '
 :
+#
+includes
+iOS
         
 print
 (
@@ -867,6 +870,36 @@ b
 2nd
 try
 )
+'
+)
+        
+print
+(
+'
+Lets
+clobber
+iOS
+due
+to
+rtc_executable
+-
+>
+rtc_test
+'
+)
+        
+print
+(
+'
+Lets
+clobber
+iOS
+due
+to
+rtc_executable
+-
+>
+rtc_test
 '
 )
     
