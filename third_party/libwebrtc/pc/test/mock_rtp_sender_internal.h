@@ -101,6 +101,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -439,7 +444,13 @@ MOCK_METHOD
 void
 SetCachedParameters
 (
+std
+:
+:
+optional
+<
 RtpParameters
+>
 )
 (
 override

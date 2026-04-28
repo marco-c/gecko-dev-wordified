@@ -562,9 +562,6 @@ RtpHeaderExtensionQueryInterface
 &
 query_interface
 const
-webrtc
-:
-:
 FieldTrialsView
 *
 field_trials

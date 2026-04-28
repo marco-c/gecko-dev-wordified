@@ -755,7 +755,13 @@ virtual
 void
 SetCachedParameters
 (
+std
+:
+:
+optional
+<
 RtpParameters
+>
 parameters
 )
 =
@@ -1209,7 +1215,13 @@ override
 void
 SetCachedParameters
 (
+std
+:
+:
+optional
+<
 RtpParameters
+>
 parameters
 )
 override

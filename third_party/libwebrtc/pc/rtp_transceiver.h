@@ -3381,6 +3381,14 @@ worker_thread
 )
 )
 ;
+VideoMediaSendChannelInterface
+:
+:
+EncoderSwitchRequestCallback
+GetEncoderSwitchRequestCallback
+(
+)
+;
 RTCError
 UpdateCodecPreferencesCaches
 (
@@ -3487,10 +3495,6 @@ scoped_refptr
 PendingTaskSafetyFlag
 >
 signaling_thread_safety_
-RTC_GUARDED_BY
-(
-thread_
-)
 ;
 scoped_refptr
 <
