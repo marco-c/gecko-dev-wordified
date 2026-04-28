@@ -549,6 +549,7 @@ const
 titleString
 descriptionString
 buttonString
+contentHeaderString
 ]
 =
 await
@@ -2225,13 +2226,7 @@ explanationDiv
 .
 textContent
 =
-"
-Content
-from
-blocked
-embed
-:
-"
+contentHeaderString
 ;
 explanationDiv
 .
