@@ -7,7 +7,7 @@ UTF
 8
 sequences
 var
-Cc
+CC
 =
 Components
 .
@@ -870,7 +870,7 @@ inStr
 var
 ConverterInputStream
 =
-Cc
+CC
 (
 "
 mozilla
