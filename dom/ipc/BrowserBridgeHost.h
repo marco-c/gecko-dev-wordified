@@ -249,7 +249,7 @@ const
 override
 ;
 bool
-CanRecv
+CanSend
 (
 )
 const

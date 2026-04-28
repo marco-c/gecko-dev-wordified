@@ -4418,7 +4418,7 @@ NotifyImpendingShutdown
 {
 if
 (
-CanRecv
+CanSend
 (
 )
 )

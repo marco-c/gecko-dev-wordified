@@ -444,7 +444,7 @@ if
 self
 -
 >
-CanRecv
+CanSend
 (
 )
 |
@@ -724,7 +724,7 @@ OnManagerThread
 if
 (
 !
-CanRecv
+CanSend
 (
 )
 |
@@ -1555,7 +1555,7 @@ if
 self
 -
 >
-CanRecv
+CanSend
 (
 )
 )

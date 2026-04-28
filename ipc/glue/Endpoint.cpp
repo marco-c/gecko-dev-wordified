@@ -292,7 +292,7 @@ actor
 actor
 -
 >
-CanRecv
+CanSend
 (
 )
 )

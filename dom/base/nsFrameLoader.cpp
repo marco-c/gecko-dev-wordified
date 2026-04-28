@@ -13277,7 +13277,7 @@ GetRemoteBrowser
 )
 -
 >
-CanRecv
+CanSend
 (
 )
 )

@@ -345,7 +345,7 @@ const
 ;
 virtual
 bool
-CanRecv
+CanSend
 (
 )
 const
