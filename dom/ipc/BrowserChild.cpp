@@ -15410,13 +15410,7 @@ aEvent
 ;
 SendRequestNativeKeyBindings
 (
-static_cast
-<
-uint32_t
->
-(
 aType
-)
 localEvent
 &
 aCommands
