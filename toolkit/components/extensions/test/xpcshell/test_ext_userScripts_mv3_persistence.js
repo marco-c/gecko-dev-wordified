@@ -2320,7 +2320,7 @@ startsWith
 "
 blob
 :
-null
+system
 "
 )
 js
@@ -2399,7 +2399,7 @@ startsWith
 "
 blob
 :
-null
+system
 "
 )
 js
