@@ -4562,7 +4562,7 @@ except
 when
 /
 /
-suspendable
+cont
 stacks
 are
 present
@@ -4945,12 +4945,6 @@ table
 lookupForSampler
 (
 returnAddr
-cx_
--
->
-runtime
-(
-)
 *
 samplePositionInProfilerBuffer_
 )
