@@ -2135,6 +2135,17 @@ None
 ;
 cmd
 .
+arg
+(
+"
+-
+-
+fail
+"
+)
+;
+cmd
+.
 args
 (
 [
