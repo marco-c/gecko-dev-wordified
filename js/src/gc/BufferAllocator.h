@@ -4331,6 +4331,8 @@ freeStart
 uintptr_t
 freeEnd
 bool
+shouldDecommit
+bool
 expectUnchanged
 FreeLists
 &
