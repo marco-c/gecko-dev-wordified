@@ -1043,7 +1043,7 @@ out
         
 assert
 "
-lower
+lowest
 priority
 "
 in
