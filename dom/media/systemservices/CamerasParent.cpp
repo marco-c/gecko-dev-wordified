@@ -7173,15 +7173,9 @@ height
 webrtcCaps
 .
 maxFPS
-static_cast
-<
-int
->
-(
 webrtcCaps
 .
 videoType
-)
 webrtcCaps
 .
 interlaced
