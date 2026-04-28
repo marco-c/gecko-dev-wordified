@@ -247,6 +247,10 @@ aNumEntries
 uint32_t
 *
 aDecodedData
+bool
+aIsV5
+=
+false
 )
 ;
 /

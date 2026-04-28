@@ -8571,6 +8571,12 @@ aDecoded
 [
 0
 ]
+/
+*
+aIsV5
+*
+/
+true
 )
 ;
 NS_ENSURE_TRUE
