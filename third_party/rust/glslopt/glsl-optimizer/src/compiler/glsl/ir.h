@@ -11625,6 +11625,9 @@ vector_elements
 ;
 ir_constant
 (
+mesa
+:
+:
 float16_t
 f16
 unsigned

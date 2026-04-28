@@ -402,6 +402,9 @@ h
 #
 ifdef
 __cplusplus
+namespace
+mesa
+{
 /
 *
 Helper
@@ -494,6 +497,13 @@ FP16_ZERO
 }
 }
 ;
+}
+/
+*
+namespace
+mesa
+*
+/
 #
 endif
 #

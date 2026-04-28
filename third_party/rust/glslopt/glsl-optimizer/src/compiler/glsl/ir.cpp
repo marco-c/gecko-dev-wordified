@@ -3687,6 +3687,9 @@ ir_constant
 :
 ir_constant
 (
+mesa
+:
+:
 float16_t
 f16
 unsigned
