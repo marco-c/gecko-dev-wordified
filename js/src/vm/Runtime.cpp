@@ -1539,7 +1539,9 @@ addTelemetry
 (
 JSMetric
 id
-uint32_t
+const
+JSTelemetryData
+&
 sample
 )
 {
