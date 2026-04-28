@@ -39307,7 +39307,7 @@ get
 nsContentUtils
 :
 :
-ReportToConsoleNonLocalized
+ReportToConsoleByWindowID
 (
 NS_ConvertUTF8toUTF16
 (
@@ -39321,7 +39321,7 @@ warningFlag
 Security
 "
 _ns
-GetDocument
+WindowID
 (
 )
 )
