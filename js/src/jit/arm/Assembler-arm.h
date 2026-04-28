@@ -7561,10 +7561,6 @@ headerSize
 =
 1
 .
-instBufferAlign
-=
-8
-.
 pcBias
 =
 8
