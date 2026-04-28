@@ -4764,6 +4764,11 @@ UpdateDiskCache
 (
 )
 ;
+void
+DispatchStopCollectingDelazifications
+(
+)
+;
 /
 *
 *
