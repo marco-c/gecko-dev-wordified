@@ -4250,7 +4250,7 @@ const
 ;
 already_AddRefed
 <
-nsINodeList
+NodeList
 >
 GetLabelsForBindings
 (
@@ -4258,7 +4258,7 @@ GetLabelsForBindings
 ;
 already_AddRefed
 <
-nsINodeList
+NodeList
 >
 GetLabelsInternal
 (

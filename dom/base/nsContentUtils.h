@@ -472,9 +472,6 @@ class
 nsAutoScriptBlockerSuppressNodeRemoved
 ;
 class
-nsContentList
-;
-class
 nsCycleCollectionTraversalCallback
 ;
 class
@@ -748,6 +745,9 @@ BrowsingContextGroup
 ;
 class
 ContentChild
+;
+class
+ContentList
 ;
 class
 ContentFrameMessageManager
@@ -14445,7 +14445,7 @@ Delete
 strings
 allocated
 for
-nsContentList
+ContentList
 matches
 *
 /
@@ -17033,7 +17033,13 @@ on
 static
 already_AddRefed
 <
-nsContentList
+mozilla
+:
+:
+dom
+:
+:
+ContentList
 >
 GetElementsByClassName
 (
