@@ -1004,7 +1004,9 @@ bookmarks
 TYPE_BOOKMARK
 url
 :
-NetUtil
+Services
+.
+io
 .
 newURI
 (

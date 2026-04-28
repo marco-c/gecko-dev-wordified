@@ -110,7 +110,9 @@ browser
 const
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -126,7 +128,9 @@ html
 const
 FIRST_REDIRECTING_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -142,7 +146,9 @@ sjs
 const
 FINAL_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

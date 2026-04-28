@@ -311,7 +311,9 @@ urls
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

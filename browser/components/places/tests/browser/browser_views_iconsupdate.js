@@ -85,7 +85,9 @@ function
 const
 PAGE_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -104,7 +106,9 @@ test
 const
 ICON_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

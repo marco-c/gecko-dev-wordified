@@ -477,7 +477,9 @@ function
 )
 {
 return
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -520,7 +522,9 @@ function
 )
 {
 return
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -657,8 +661,6 @@ nsIURI
 *
 param
 {
-nsIFile
-|
 string
 }
 aSpec
@@ -677,7 +679,9 @@ aSpec
 )
 {
 return
-NetUtil
+Services
+.
+io
 .
 newURI
 (

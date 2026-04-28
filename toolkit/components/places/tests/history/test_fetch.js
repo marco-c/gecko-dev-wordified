@@ -68,7 +68,9 @@ historyvisits
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -622,7 +624,9 @@ clear
 let
 TEST_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -1360,7 +1364,9 @@ eraseEverything
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

@@ -276,7 +276,9 @@ URI
 let
 witnessURI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

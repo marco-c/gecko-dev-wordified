@@ -229,7 +229,9 @@ uri
 uri
 |
 |
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -360,7 +362,9 @@ TRANSITION_TYPED
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -414,7 +418,9 @@ typedCount
 let
 testuri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -530,7 +536,9 @@ TRANSITION_FRAMED_LINK
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -583,7 +591,9 @@ typedCount
 let
 testuri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -637,7 +647,9 @@ test_multiple_onVisit
 let
 testuri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -777,7 +789,9 @@ hidden
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

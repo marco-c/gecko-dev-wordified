@@ -54,7 +54,9 @@ eraseEverything
 let
 WITNESS_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -137,7 +139,9 @@ visit
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -1732,7 +1736,9 @@ test_orphans
 let
 uri
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (

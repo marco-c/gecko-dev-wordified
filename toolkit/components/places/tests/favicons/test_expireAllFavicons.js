@@ -23,7 +23,9 @@ strict
 const
 TEST_PAGE_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
@@ -42,7 +44,9 @@ com
 const
 BOOKMARKED_PAGE_URI
 =
-NetUtil
+Services
+.
+io
 .
 newURI
 (
