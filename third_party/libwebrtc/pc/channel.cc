@@ -5695,10 +5695,9 @@ ssrc
 <
 new_stream
 .
-ssrcs
-[
-0
-]
+first_ssrc
+(
+)
 <
 <
 "
