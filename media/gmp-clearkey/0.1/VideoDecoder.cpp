@@ -139,11 +139,6 @@ cstdint
 >
 #
 include
-<
-thread
->
-#
-include
 "
 BigEndian
 .
