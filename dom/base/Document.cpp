@@ -107179,7 +107179,7 @@ Element
 ;
 if
 (
-GetFullscreenElement
+GetUnretargetedFullscreenElement
 (
 )
 =
@@ -134616,7 +134616,7 @@ Element
 *
 elem
 =
-GetFullscreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;
@@ -134673,7 +134673,7 @@ Element
 *
 elem
 =
-GetFullscreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;
@@ -134721,7 +134721,7 @@ Element
 *
 elem
 =
-GetFullscreenElement
+GetUnretargetedFullscreenElement
 (
 )
 ;
