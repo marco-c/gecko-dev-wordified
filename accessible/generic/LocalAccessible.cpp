@@ -20752,6 +20752,11 @@ eInsideAlert
 ;
 if
 (
+IsTableRow
+(
+)
+|
+|
 IsTableCell
 (
 )
@@ -20978,6 +20983,11 @@ UncacheChildrenInSubtree
 .
 if
 (
+IsTableRow
+(
+)
+|
+|
 IsTable
 (
 )

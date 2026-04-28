@@ -22256,6 +22256,14 @@ IsTable
 aRoot
 -
 >
+IsTableRow
+(
+)
+|
+|
+aRoot
+-
+>
 IsTableCell
 (
 )

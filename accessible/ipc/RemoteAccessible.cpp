@@ -444,6 +444,11 @@ IsTable
 )
 |
 |
+IsTableRow
+(
+)
+|
+|
 IsTableCell
 (
 )
