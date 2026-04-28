@@ -3087,6 +3087,14 @@ SetContentLength
 mBlobSize
 )
 ;
+mChannel
+-
+>
+SetBackingBlob
+(
+blobImpl
+)
+;
 nsCOMPtr
 <
 nsIInputStream
