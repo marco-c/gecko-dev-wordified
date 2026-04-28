@@ -3214,6 +3214,7 @@ move
 (
 encoder_config
 )
+nullptr
 config
 .
 stream

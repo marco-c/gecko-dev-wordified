@@ -1485,6 +1485,13 @@ fec_controller
 *
 /
 nullptr
+/
+*
+encoder_switch_request_callback
+=
+*
+/
+nullptr
 std
 :
 :
