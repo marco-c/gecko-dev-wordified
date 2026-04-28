@@ -583,7 +583,7 @@ A
 face
 object
 *
-glyph_index
+glyph
 :
 Glyph
 index
@@ -629,7 +629,7 @@ hb_face_t
 *
 face
 hb_codepoint_t
-glyph_index
+glyph
 )
 {
 return
@@ -642,7 +642,7 @@ face
 table
 .
 cff1
-glyph_index
+glyph
 )
 ;
 }
@@ -715,7 +715,7 @@ A
 face
 object
 *
-glyph_index
+glyph
 :
 Glyph
 index
@@ -761,7 +761,7 @@ hb_face_t
 *
 face
 hb_codepoint_t
-glyph_index
+glyph
 )
 {
 return
@@ -774,7 +774,7 @@ face
 table
 .
 cff2
-glyph_index
+glyph
 )
 ;
 }

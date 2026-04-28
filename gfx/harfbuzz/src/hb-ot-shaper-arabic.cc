@@ -4270,8 +4270,14 @@ extra_glyphs_needed
 )
 )
 )
+{
+extra_glyphs_needed
+=
+UINT_MAX
+;
 break
 ;
+}
 DEBUG_MSG
 (
 ARABIC

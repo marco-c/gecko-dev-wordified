@@ -1014,9 +1014,8 @@ reset_error
 (
 )
 ;
-resize
+clear
 (
-0
 )
 ;
 return
