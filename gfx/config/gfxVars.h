@@ -204,13 +204,6 @@ true
 \
 _
 (
-AllowWebglOop
-bool
-true
-)
-\
-_
-(
 BrowserTabsRemoteAutostart
 bool
 false
