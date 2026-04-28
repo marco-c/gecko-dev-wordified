@@ -174,7 +174,7 @@ paths
 path
 |
 {
-run_lint_in_parallel
+check_reject_words
 (
 path
 &
@@ -194,7 +194,7 @@ Ok
 }
 pub
 fn
-run_lint_in_parallel
+check_reject_words
 (
 path
 :
@@ -426,7 +426,7 @@ Write
 test
 ]
 fn
-test_run_lint_in_parallel_finds_matches
+test_check_reject_words_finds_matches
 (
 )
 {
@@ -572,7 +572,7 @@ unwrap
 let
 issues
 =
-run_lint_in_parallel
+check_reject_words
 (
 file_path
 .
@@ -678,7 +678,7 @@ Some
 test
 ]
 fn
-test_run_lint_in_parallel_no_matches
+test_check_reject_words_no_matches
 (
 )
 {
@@ -777,7 +777,7 @@ unwrap
 let
 issues
 =
-run_lint_in_parallel
+check_reject_words
 (
 file_path
 .
@@ -822,7 +822,7 @@ is_empty
 test
 ]
 fn
-test_run_lint_in_parallel_missing_file
+test_check_reject_words_missing_file
 (
 )
 {
@@ -853,7 +853,7 @@ unwrap
 let
 issues
 =
-run_lint_in_parallel
+check_reject_words
 (
 "
 /
