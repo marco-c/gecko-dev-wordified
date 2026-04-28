@@ -69,6 +69,13 @@ nsISound
 .
 h
 "
+#
+include
+"
+nsIStreamLoader
+.
+h
+"
 namespace
 mozilla
 {
@@ -80,6 +87,8 @@ HeadlessSound
 :
 public
 nsISound
+public
+nsIStreamLoaderObserver
 {
 public
 :
@@ -89,6 +98,7 @@ HeadlessSound
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISOUND
+NS_DECL_NSISTREAMLOADEROBSERVER
 private
 :
 virtual
