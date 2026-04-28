@@ -275,8 +275,9 @@ virtual
 BindingParams
 (
 )
-{
-}
+=
+default
+;
 explicit
 BindingParams
 (
@@ -635,8 +636,9 @@ virtual
 AsyncBindingParams
 (
 )
-{
-}
+=
+default
+;
 private
 :
 /

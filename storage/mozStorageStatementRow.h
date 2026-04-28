@@ -194,8 +194,9 @@ private
 StatementRow
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner

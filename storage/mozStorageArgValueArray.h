@@ -109,8 +109,9 @@ private
 ArgValueArray
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 mArgc
 ;

@@ -113,8 +113,9 @@ array_type
 BindingParamsArray
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
