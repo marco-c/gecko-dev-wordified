@@ -10590,7 +10590,7 @@ output
 "
 {
 }
-false
+true
 false
 }
 IsEmptyNodeTest
