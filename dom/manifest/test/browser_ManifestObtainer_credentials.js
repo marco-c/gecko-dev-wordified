@@ -235,6 +235,8 @@ is
 (
 short_name
 "
+cookie
+=
 "
 )
 ;
