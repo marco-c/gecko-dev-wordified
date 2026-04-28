@@ -82,7 +82,7 @@ query
 name
 :
 "
-geolocation
+notifications
 "
 }
 )
