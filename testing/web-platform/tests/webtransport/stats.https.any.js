@@ -719,7 +719,7 @@ wt
 .
 datagrams
 .
-incomingHighWaterMark
+incomingMaxBufferedDatagrams
 =
 4
 ;
@@ -874,7 +874,7 @@ wt
 .
 datagrams
 .
-incomingHighWaterMark
+incomingMaxBufferedDatagrams
 )
 ;
 }
