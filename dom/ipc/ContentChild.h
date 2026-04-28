@@ -2741,6 +2741,10 @@ const
 TabId
 &
 aTabId
+const
+bool
+&
+aIgnoreAllowSitePermission
 )
 ;
 bool

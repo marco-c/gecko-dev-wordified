@@ -3215,6 +3215,10 @@ const
 TabId
 &
 aTabId
+const
+bool
+&
+aIgnoreAllowSitePermission
 )
 ;
 mozilla
@@ -3254,6 +3258,10 @@ const
 TabId
 &
 tabId
+const
+bool
+&
+aIgnoreAllowSitePermission
 )
 override
 ;
