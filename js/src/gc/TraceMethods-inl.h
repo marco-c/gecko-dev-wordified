@@ -1334,6 +1334,11 @@ rightChild
 (
 )
 ;
+bool
+shouldMark
+=
+true
+;
 #
 ifdef
 JS_GC_CONCURRENT_MARKING
@@ -1565,7 +1570,9 @@ isRopeAtomic
 )
 )
 {
-continue
+shouldMark
+=
+false
 ;
 }
 }
@@ -1586,6 +1593,11 @@ isRope
 ;
 #
 endif
+if
+(
+shouldMark
+)
+{
 if
 (
 mark
@@ -1749,6 +1761,7 @@ JSRope
 left
 )
 ;
+}
 }
 }
 if
