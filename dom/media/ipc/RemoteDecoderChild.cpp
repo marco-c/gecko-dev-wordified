@@ -1613,7 +1613,7 @@ self
 >
 mShutdownPromise
 .
-Resolve
+ResolveIfExists
 (
 aValue
 .
