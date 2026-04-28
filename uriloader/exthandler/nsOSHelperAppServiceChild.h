@@ -123,8 +123,8 @@ public
 nsOSHelperAppServiceChild
 (
 )
-{
-}
+=
+default
 ;
 virtual
 ~

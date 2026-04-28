@@ -1261,8 +1261,9 @@ virtual
 nsMIMEInfoImpl
 (
 )
-{
-}
+=
+default
+;
 /
 /
 nsIMIMEInfo

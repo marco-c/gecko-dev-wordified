@@ -109,8 +109,9 @@ NS_DECL_NSILOCALHANDLERAPP
 nsLocalHandlerApp
 (
 )
-{
-}
+=
+default
+;
 nsLocalHandlerApp
 (
 const
@@ -160,8 +161,9 @@ virtual
 nsLocalHandlerApp
 (
 )
-{
-}
+=
+default
+;
 virtual
 std
 :
