@@ -1469,6 +1469,7 @@ FromCache
 *
 aLoadedScript
 aFetchOptions
+mFetchInfo
 )
 ;
 /
@@ -1685,6 +1686,7 @@ ModuleScript
 aReferrerPolicy
 aFetchOptions
 aURI
+mFetchInfo
 )
 ;
 break
