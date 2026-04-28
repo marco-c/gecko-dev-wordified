@@ -2805,9 +2805,10 @@ frame
 >
 set_may_contain_cursor
 (
-options_
-.
-prefer_cursor_embedded
+capture_session
+-
+>
+MayContainCursor
 (
 )
 )
