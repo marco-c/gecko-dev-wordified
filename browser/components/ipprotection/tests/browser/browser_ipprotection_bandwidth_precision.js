@@ -192,16 +192,6 @@ enabled
 "
 true
 ]
-[
-"
-browser
-.
-ipProtection
-.
-egressLocationEnabled
-"
-true
-]
 ]
 }
 )
