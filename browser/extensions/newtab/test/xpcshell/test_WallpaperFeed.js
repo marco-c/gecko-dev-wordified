@@ -142,7 +142,7 @@ mjs
 )
 ;
 const
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 =
 "
 browser
@@ -154,8 +154,6 @@ activity
 stream
 .
 newtabWallpapers
-.
-system
 .
 enabled
 "
@@ -318,7 +316,7 @@ prefs
 .
 setBoolPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 true
 )
 ;
@@ -576,7 +574,7 @@ prefs
 .
 clearUserPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 )
 ;
 sandbox
@@ -619,7 +617,7 @@ prefs
 .
 setBoolPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 true
 )
 ;
@@ -668,8 +666,6 @@ name
 "
 newtabWallpapers
 .
-system
-.
 enabled
 "
 }
@@ -707,7 +703,7 @@ prefs
 .
 clearUserPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 )
 ;
 sandbox
@@ -756,7 +752,7 @@ prefs
 .
 setBoolPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 true
 )
 ;
@@ -838,7 +834,7 @@ prefs
 .
 clearUserPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 )
 ;
 sandbox
@@ -1257,7 +1253,7 @@ prefs
 .
 setBoolPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 true
 )
 ;
@@ -1561,7 +1557,7 @@ prefs
 .
 clearUserPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 )
 ;
 Services
@@ -1627,7 +1623,7 @@ prefs
 .
 setBoolPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 true
 )
 ;
@@ -1785,7 +1781,7 @@ prefs
 .
 clearUserPref
 (
-PREF_SYSTEM_WALLPAPERS_ENABLED
+PREF_WALLPAPERS_ENABLED
 )
 ;
 sandbox
