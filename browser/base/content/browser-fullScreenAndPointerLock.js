@@ -4161,6 +4161,12 @@ PopupNotifications
 remove
 (
 notifications
+/
+*
+withoutUserResponse
+=
+*
+/
 true
 )
 ;
