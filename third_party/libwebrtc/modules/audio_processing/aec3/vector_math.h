@@ -184,9 +184,6 @@ endif
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Provides
@@ -1630,11 +1627,6 @@ optimization_
 ;
 }
 ;
-}
-/
-/
-namespace
-aec3
 }
 /
 /

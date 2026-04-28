@@ -132,9 +132,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Let
@@ -2102,11 +2099,6 @@ x_size
 ;
 }
 }
-}
-/
-/
-namespace
-aec3
 }
 /
 /

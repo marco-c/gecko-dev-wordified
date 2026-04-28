@@ -146,9 +146,6 @@ ApmDataDumper
 struct
 DownsampledRenderBuffer
 ;
-namespace
-aec3
-{
 #
 if
 defined
@@ -477,11 +474,6 @@ float
 h
 )
 ;
-}
-/
-/
-namespace
-aec3
 /
 /
 Produces

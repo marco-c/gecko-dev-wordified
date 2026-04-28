@@ -174,9 +174,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 #
 if
 defined
@@ -235,11 +232,6 @@ FftData
 upper_band_noise
 )
 ;
-}
-/
-/
-namespace
-aec3
 /
 /
 Generates

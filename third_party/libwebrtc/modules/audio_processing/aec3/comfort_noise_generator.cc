@@ -762,9 +762,6 @@ begin
 )
 )
 ;
-aec3
-:
-:
 VectorMath
 (
 optimization

@@ -312,9 +312,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 #
 if
 RTC_DCHECK_IS_ON
@@ -1477,11 +1474,6 @@ a
 )
 ;
 }
-}
-/
-/
-namespace
-aec3
 }
 /
 /

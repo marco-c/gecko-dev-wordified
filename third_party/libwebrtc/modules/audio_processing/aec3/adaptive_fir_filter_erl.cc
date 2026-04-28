@@ -201,9 +201,6 @@ endif
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Computes
@@ -658,11 +655,6 @@ kFftLengthBy2
 }
 #
 endif
-}
-/
-/
-namespace
-aec3
 void
 ComputeErl
 (
@@ -738,9 +730,6 @@ Aec3Optimization
 :
 kSse2
 :
-aec3
-:
-:
 ErlComputer_SSE2
 (
 H2
@@ -754,9 +743,6 @@ Aec3Optimization
 :
 :
 kAvx2
-:
-aec3
-:
 :
 ErlComputer_AVX2
 (
@@ -780,9 +766,6 @@ Aec3Optimization
 :
 kNeon
 :
-aec3
-:
-:
 ErlComputer_NEON
 (
 H2
@@ -794,9 +777,6 @@ break
 #
 endif
 default
-:
-aec3
-:
 :
 ErlComputer
 (

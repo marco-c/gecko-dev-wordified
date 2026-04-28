@@ -192,9 +192,6 @@ namespace
 webrtc
 {
 namespace
-aec3
-{
-namespace
 {
 float
 Power
@@ -606,11 +603,6 @@ f
 ;
 }
 }
-}
-/
-/
-namespace
-aec3
 }
 /
 /

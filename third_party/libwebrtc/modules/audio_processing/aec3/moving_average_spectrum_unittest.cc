@@ -94,7 +94,7 @@ audio_processing
 /
 aec3
 /
-moving_average
+moving_average_spectrum
 .
 h
 "
@@ -122,7 +122,7 @@ webrtc
 {
 TEST
 (
-MovingAverage
+MovingAverageSpectrum
 Average
 )
 {
@@ -146,10 +146,7 @@ e
 -
 6f
 ;
-aec3
-:
-:
-MovingAverage
+MovingAverageSpectrum
 ma
 (
 num_elem
@@ -665,7 +662,7 @@ e
 }
 TEST
 (
-MovingAverage
+MovingAverageSpectrum
 PassThrough
 )
 {
@@ -689,10 +686,7 @@ e
 -
 6f
 ;
-aec3
-:
-:
-MovingAverage
+MovingAverageSpectrum
 ma
 (
 num_elem

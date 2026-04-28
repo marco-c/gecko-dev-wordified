@@ -198,9 +198,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Computes
@@ -214,7 +211,7 @@ the
 filter
 .
 void
-ComputeFrequencyResponse
+ComputeFrequencyResponse_C
 (
 size_t
 num_partitions
@@ -671,11 +668,6 @@ S
 ;
 #
 endif
-}
-/
-/
-namespace
-aec3
 /
 /
 Provides

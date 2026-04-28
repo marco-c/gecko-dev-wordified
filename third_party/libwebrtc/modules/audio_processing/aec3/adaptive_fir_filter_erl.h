@@ -140,9 +140,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Computes
@@ -304,11 +301,6 @@ erl
 ;
 #
 endif
-}
-/
-/
-namespace
-aec3
 /
 /
 Computes

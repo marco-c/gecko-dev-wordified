@@ -215,7 +215,7 @@ audio_processing
 /
 aec3
 /
-moving_average
+moving_average_spectrum
 .
 h
 "
@@ -2886,9 +2886,6 @@ to
 amplitude
 domain
 .
-aec3
-:
-:
 VectorMath
 (
 optimization_
@@ -2980,10 +2977,7 @@ num_capture_channels_
 nearend_smoothers_
 (
 num_capture_channels_
-aec3
-:
-:
-MovingAverage
+MovingAverageSpectrum
 (
 kFftLengthBy2Plus1
 config

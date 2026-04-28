@@ -183,9 +183,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Computes
@@ -1735,11 +1732,6 @@ lim2
 )
 ;
 }
-}
-/
-/
-namespace
-aec3
 }
 /
 /

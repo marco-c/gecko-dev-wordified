@@ -127,9 +127,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Elementwise
@@ -611,11 +608,6 @@ j
 ;
 }
 }
-}
-/
-/
-namespace
-aec3
 }
 /
 /

@@ -308,9 +308,6 @@ false
 ;
 }
 ;
-namespace
-aec3
-{
 /
 /
 Updates
@@ -390,11 +387,6 @@ float
 value
 )
 ;
-}
-/
-/
-namespace
-aec3
 }
 /
 /

@@ -510,9 +510,6 @@ alignment_shift_winner
 /
 /
 namespace
-namespace
-aec3
-{
 #
 if
 defined
@@ -4976,11 +4973,6 @@ return
 lag_estimate1
 ;
 }
-}
-/
-/
-namespace
-aec3
 MatchedFilter
 :
 :
@@ -5559,9 +5551,6 @@ Aec3Optimization
 :
 kSse2
 :
-aec3
-:
-:
 MatchedFilterCore_SSE2
 (
 x_start_index
@@ -5591,9 +5580,6 @@ Aec3Optimization
 :
 :
 kAvx2
-:
-aec3
-:
 :
 MatchedFilterCore_AVX2
 (
@@ -5633,9 +5619,6 @@ Aec3Optimization
 :
 kNeon
 :
-aec3
-:
-:
 MatchedFilterCore_NEON
 (
 x_start_index
@@ -5663,9 +5646,6 @@ break
 #
 endif
 default
-:
-aec3
-:
 :
 MatchedFilterCore
 (
@@ -5736,9 +5716,6 @@ const
 size_t
 lag_estimate
 =
-aec3
-:
-:
 MaxSquarePeakIndex
 (
 filters_
@@ -6276,9 +6253,6 @@ const
 size_t
 lag_estimate
 =
-aec3
-:
-:
 MaxSquarePeakIndex
 (
 filters_

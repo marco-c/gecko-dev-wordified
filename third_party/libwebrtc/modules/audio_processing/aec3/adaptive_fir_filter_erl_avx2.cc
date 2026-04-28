@@ -146,9 +146,6 @@ h
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Computes
@@ -307,11 +304,6 @@ kFftLengthBy2
 ;
 }
 }
-}
-/
-/
-namespace
-aec3
 }
 /
 /

@@ -593,9 +593,6 @@ Erl
 .
 Value
 "
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 true
@@ -633,9 +630,6 @@ Erl
 .
 Max
 "
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 true
@@ -673,9 +667,6 @@ Erl
 .
 Min
 "
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 true
@@ -720,9 +711,6 @@ Erle
 .
 Value
 "
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 false
@@ -760,9 +748,6 @@ Erle
 .
 Max
 "
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 false
@@ -800,9 +785,6 @@ Erle
 .
 Min
 "
-aec3
-:
-:
 TransformDbMetricForReporting
 (
 false
@@ -858,9 +840,6 @@ break
 }
 }
 }
-namespace
-aec3
-{
 void
 UpdateDbMetric
 (
@@ -1090,11 +1069,6 @@ max_value
 )
 ;
 }
-}
-/
-/
-namespace
-aec3
 }
 /
 /

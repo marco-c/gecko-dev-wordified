@@ -240,9 +240,6 @@ endif
 namespace
 webrtc
 {
-namespace
-aec3
-{
 /
 /
 Computes
@@ -256,7 +253,7 @@ the
 filter
 .
 void
-ComputeFrequencyResponse
+ComputeFrequencyResponse_C
 (
 size_t
 num_partitions
@@ -4241,11 +4238,6 @@ lim2
 }
 #
 endif
-}
-/
-/
-namespace
-aec3
 namespace
 {
 /
@@ -4806,9 +4798,6 @@ Aec3Optimization
 :
 kSse2
 :
-aec3
-:
-:
 ApplyFilter_Sse2
 (
 render_buffer
@@ -4824,9 +4813,6 @@ Aec3Optimization
 :
 :
 kAvx2
-:
-aec3
-:
 :
 ApplyFilter_Avx2
 (
@@ -4852,9 +4838,6 @@ Aec3Optimization
 :
 kNeon
 :
-aec3
-:
-:
 ApplyFilter_Neon
 (
 render_buffer
@@ -4868,9 +4851,6 @@ break
 #
 endif
 default
-:
-aec3
-:
 :
 ApplyFilter
 (
@@ -5051,9 +5031,6 @@ Aec3Optimization
 :
 kSse2
 :
-aec3
-:
-:
 ComputeFrequencyResponse_Sse2
 (
 current_size_partitions_
@@ -5068,9 +5045,6 @@ Aec3Optimization
 :
 :
 kAvx2
-:
-aec3
-:
 :
 ComputeFrequencyResponse_Avx2
 (
@@ -5095,9 +5069,6 @@ Aec3Optimization
 :
 kNeon
 :
-aec3
-:
-:
 ComputeFrequencyResponse_Neon
 (
 current_size_partitions_
@@ -5111,10 +5082,7 @@ break
 endif
 default
 :
-aec3
-:
-:
-ComputeFrequencyResponse
+ComputeFrequencyResponse_C
 (
 current_size_partitions_
 H_
@@ -5175,9 +5143,6 @@ Aec3Optimization
 :
 kSse2
 :
-aec3
-:
-:
 AdaptPartitions_Sse2
 (
 render_buffer
@@ -5194,9 +5159,6 @@ Aec3Optimization
 :
 :
 kAvx2
-:
-aec3
-:
 :
 AdaptPartitions_Avx2
 (
@@ -5223,9 +5185,6 @@ Aec3Optimization
 :
 kNeon
 :
-aec3
-:
-:
 AdaptPartitions_Neon
 (
 render_buffer
@@ -5240,9 +5199,6 @@ break
 #
 endif
 default
-:
-aec3
-:
 :
 AdaptPartitions
 (
