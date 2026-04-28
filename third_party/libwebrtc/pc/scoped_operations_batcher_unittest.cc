@@ -186,7 +186,7 @@ get
 ;
 batcher
 .
-push_back
+Add
 (
 [
 &
@@ -416,7 +416,7 @@ Current
 ;
 batcher
 .
-push_back
+AddWithFinalizer
 (
 std
 :
@@ -500,7 +500,7 @@ get
 ;
 batcher
 .
-push_back
+Add
 (
 [
 &
@@ -518,7 +518,7 @@ push_back
 ;
 batcher
 .
-push_back
+Add
 (
 [
 &
@@ -576,7 +576,7 @@ push_back
 ;
 batcher
 .
-push_back
+Add
 (
 [
 &
@@ -594,7 +594,7 @@ push_back
 ;
 batcher
 .
-push_back
+Add
 (
 [
 &

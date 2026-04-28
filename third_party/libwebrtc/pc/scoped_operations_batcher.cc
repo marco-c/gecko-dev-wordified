@@ -456,7 +456,7 @@ void
 ScopedOperationsBatcher
 :
 :
-push_back
+Add
 (
 absl
 :
@@ -502,7 +502,7 @@ void
 ScopedOperationsBatcher
 :
 :
-push_back
+AddWithFinalizer
 (
 absl
 :
