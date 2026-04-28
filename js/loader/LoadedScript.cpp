@@ -1294,11 +1294,11 @@ mReceivedScriptTextLength
 (
 0
 )
-mStencil
+mCachedStencil
 (
 aOther
 .
-mStencil
+mCachedStencil
 )
 {
 MOZ_ASSERT
@@ -1347,7 +1347,7 @@ eCachedStencil
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-mStencil
+mCachedStencil
 )
 ;
 MOZ_ASSERT
@@ -1719,7 +1719,7 @@ aMallocSizeOf
 ;
 if
 (
-mStencil
+mCachedStencil
 )
 {
 bytes
@@ -1730,7 +1730,7 @@ JS
 :
 SizeOfStencil
 (
-mStencil
+mCachedStencil
 aMallocSizeOf
 )
 ;
