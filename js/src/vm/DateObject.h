@@ -254,6 +254,8 @@ COMPONENTS_START_SLOT
 =
 2
 ;
+public
+:
 static
 const
 uint32_t
@@ -299,6 +301,8 @@ COMPONENTS_START_SLOT
 +
 4
 ;
+private
+:
 /
 *
 *
