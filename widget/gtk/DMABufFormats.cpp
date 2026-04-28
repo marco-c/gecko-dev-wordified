@@ -1372,6 +1372,10 @@ if
 (
 !
 formatTable
+|
+|
+!
+formatTable
 -
 >
 IsSet
