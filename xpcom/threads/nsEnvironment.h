@@ -142,8 +142,9 @@ private
 nsEnvironment
 (
 )
-{
-}
+=
+default
+;
 ~
 nsEnvironment
 (

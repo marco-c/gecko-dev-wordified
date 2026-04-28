@@ -783,8 +783,9 @@ virtual
 TaskManager
 (
 )
-{
-}
+=
+default
+;
 private
 :
 friend
@@ -1554,8 +1555,9 @@ virtual
 Task
 (
 )
-{
-}
+=
+default
+;
 friend
 class
 TaskController

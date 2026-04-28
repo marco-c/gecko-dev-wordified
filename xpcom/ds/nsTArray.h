@@ -10088,6 +10088,7 @@ array
 /
 around
 .
+MOZ_REINITIALIZES
 void
 ClearAndRetainStorage
 (
@@ -15861,6 +15862,7 @@ ActualAlloc
 =
 Alloc
 >
+MOZ_REINITIALIZES
 typename
 ActualAlloc
 :
@@ -19869,8 +19871,9 @@ constexpr
 nsTArray
 (
 )
-{
-}
+=
+default
+;
 explicit
 nsTArray
 (
