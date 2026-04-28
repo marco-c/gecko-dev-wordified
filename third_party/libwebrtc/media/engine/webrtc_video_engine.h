@@ -5187,9 +5187,6 @@ const
 int
 receive_buffer_size_
 ;
-ScopedTaskSafety
-task_safety_
-;
 }
 ;
 /
