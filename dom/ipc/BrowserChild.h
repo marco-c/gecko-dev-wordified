@@ -1515,7 +1515,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseEvent
 const
 ScrollableLayerGuid
 &
@@ -1541,7 +1541,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseEvent
 const
 ScrollableLayerGuid
 &
@@ -1567,7 +1567,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseEvent
 const
 ScrollableLayerGuid
 &
@@ -1593,7 +1593,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseEvent
 const
 ScrollableLayerGuid
 &
@@ -1619,7 +1619,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseEvent
 const
 ScrollableLayerGuid
 &
@@ -1645,7 +1645,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseEvent
 const
 ScrollableLayerGuid
 &
@@ -1671,7 +1671,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseOrPointerEvent
 const
 ScrollableLayerGuid
 &
@@ -1697,7 +1697,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseOrPointerEvent
 const
 ScrollableLayerGuid
 &
@@ -1723,7 +1723,7 @@ mozilla
 :
 WidgetPointerEvent
 &
-aEvent
+aPointerEvent
 const
 ScrollableLayerGuid
 &
@@ -1749,7 +1749,7 @@ mozilla
 :
 WidgetPointerEvent
 &
-aEvent
+aPointerEvent
 const
 ScrollableLayerGuid
 &
@@ -1775,7 +1775,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseEvent
 const
 ScrollableLayerGuid
 &
@@ -1801,7 +1801,7 @@ mozilla
 :
 WidgetMouseEvent
 &
-aEvent
+aMouseEvent
 const
 ScrollableLayerGuid
 &
@@ -3767,7 +3767,7 @@ HandleRealMouseButtonEvent
 const
 WidgetMouseEvent
 &
-aEvent
+aMouseOrPointerEvent
 const
 ScrollableLayerGuid
 &
@@ -4621,15 +4621,6 @@ aCachedBrowsingContext
 bool
 CreateRemoteLayerManager
 (
-mozilla
-:
-:
-layers
-:
-:
-PCompositorBridgeChild
-*
-aCompositorChild
 )
 ;
 nsresult
