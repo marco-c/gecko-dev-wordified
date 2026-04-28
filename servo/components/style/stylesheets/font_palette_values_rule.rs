@@ -116,6 +116,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 error_reporting
 :
 :
@@ -265,6 +274,7 @@ cssparser
 :
 :
 {
+match_ignore_ascii_case
 AtRuleParser
 CowRcStr
 DeclarationParser
@@ -502,7 +512,7 @@ resolve_to_absolute
 (
 )
 .
-is_some
+is_ok
 (
 )
 {
