@@ -3174,7 +3174,8 @@ CacheBehavior
 :
 uint8_t
 {
-DoNothing
+DoNothingDisabled
+DoNothingExisting
 Insert
 Evict
 }
