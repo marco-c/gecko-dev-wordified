@@ -1890,6 +1890,12 @@ uint32_t
 aLineNumber
 )
 ;
+gfxTextRun
+*
+GetEllipsisTextRun
+(
+)
+;
 LogicalRect
 mContentArea
 ;
@@ -2294,6 +2300,12 @@ the
 inline
 end
 marker
+RefPtr
+<
+gfxTextRun
+>
+mEllipsisTextRun
+;
 }
 ;
 }
