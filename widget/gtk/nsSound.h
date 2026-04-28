@@ -71,13 +71,6 @@ h
 "
 #
 include
-"
-nsIStreamLoader
-.
-h
-"
-#
-include
 <
 gtk
 /
@@ -90,8 +83,6 @@ nsSound
 :
 public
 nsISound
-public
-nsIStreamLoaderObserver
 {
 public
 :
@@ -116,7 +107,6 @@ GetInstance
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISOUND
-NS_DECL_NSISTREAMLOADEROBSERVER
 private
 :
 virtual
