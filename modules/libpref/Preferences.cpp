@@ -74,6 +74,13 @@ index
 rst
 .
 #
+include
+<
+ctype
+.
+h
+>
+#
 ifdef
 NIGHTLY_BUILD
 #

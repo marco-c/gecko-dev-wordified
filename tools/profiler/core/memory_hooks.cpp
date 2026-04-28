@@ -184,6 +184,13 @@ h
 #
 include
 <
+ctype
+.
+h
+>
+#
+include
+<
 errno
 .
 h
