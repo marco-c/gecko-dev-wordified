@@ -445,19 +445,6 @@ current_delay
 ;
 }
 ;
-static
-constexpr
-TimeDelta
-kDefaultRenderDelay
-=
-TimeDelta
-:
-:
-Millis
-(
-10
-)
-;
 VCMTiming
 (
 Clock
@@ -494,7 +481,7 @@ Reset
 ;
 /
 /
-Set
+Sets
 the
 amount
 of
@@ -519,7 +506,7 @@ render_delay
 ;
 /
 /
-Set
+Sets
 the
 minimum
 time
@@ -550,9 +537,9 @@ required_delay
 ;
 /
 /
-Set
+Sets
 /
-get
+gets
 the
 minimum
 playout
@@ -577,7 +564,7 @@ min_playout_delay
 ;
 /
 /
-Set
+Sets
 the
 minimum
 and
@@ -915,7 +902,7 @@ const
 ;
 /
 /
-Return
+Returns
 current
 timing
 information
