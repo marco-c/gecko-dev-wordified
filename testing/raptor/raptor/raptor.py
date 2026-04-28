@@ -841,6 +841,12 @@ power_test
 args
 .
 power_test
+            
+simpleperf
+=
+args
+.
+simpleperf
         
 )
     
