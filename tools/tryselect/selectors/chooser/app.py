@@ -73,6 +73,12 @@ request
 from
 tryselect
 .
+push
+import
+LARGE_PUSH_THRESHOLD
+from
+tryselect
+.
 selectors
 .
 chooser
@@ -1192,6 +1198,28 @@ pernosco_active
 config
 .
 pernosco_active
+        
+"
+large_push_threshold
+"
+:
+LARGE_PUSH_THRESHOLD
+        
+"
+large_push_multiplier
+"
+:
+config
+.
+rebuild_multiplier
+        
+"
+large_push_suppressed
+"
+:
+config
+.
+priority_preset
     
 }
     
