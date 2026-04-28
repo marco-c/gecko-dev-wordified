@@ -2504,7 +2504,7 @@ this
 .
 cssQueryContainerTooltipHelper
 .
-setContentAndShowContainerHighlighter
+setContent
 (
 nodeInfo
 .
