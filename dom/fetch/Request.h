@@ -555,11 +555,12 @@ using
 FetchBody
 :
 :
-BodyBlobImpl
+BodyBlobURISpec
 ;
-BlobImpl
-*
-BodyBlobImpl
+const
+nsACString
+&
+BodyBlobURISpec
 (
 )
 const
@@ -568,7 +569,7 @@ return
 mRequest
 -
 >
-BodyBlobImpl
+BodyBlobURISpec
 (
 )
 ;

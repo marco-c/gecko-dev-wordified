@@ -4127,10 +4127,6 @@ TransmitBlobDataIfBlobURL
 nsIURI
 *
 aURI
-const
-OriginAttributes
-&
-aAttrs
 )
 ;
 void

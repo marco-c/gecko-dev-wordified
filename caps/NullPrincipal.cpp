@@ -1154,9 +1154,6 @@ BlobURLProtocolHandler
 GetBlobURLPrincipal
 (
 aURI
-OriginAttributesRef
-(
-)
 getter_AddRefs
 (
 blobPrincipal
