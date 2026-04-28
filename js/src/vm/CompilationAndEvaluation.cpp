@@ -1440,10 +1440,8 @@ JS
 :
 AbortCollectingDelazifications
 (
-JS
-:
-:
-HandleScript
+JSScript
+*
 script
 )
 {
@@ -1476,14 +1474,8 @@ JS
 :
 AbortCollectingDelazifications
 (
-JS
-:
-:
-Handle
-<
 JSObject
 *
->
 module
 )
 {

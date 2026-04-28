@@ -2597,11 +2597,8 @@ JS_PUBLIC_API
 void
 AbortCollectingDelazifications
 (
-Handle
-<
 JSScript
 *
->
 script
 )
 ;
@@ -2610,11 +2607,8 @@ JS_PUBLIC_API
 void
 AbortCollectingDelazifications
 (
-Handle
-<
 JSObject
 *
->
 module
 )
 ;
