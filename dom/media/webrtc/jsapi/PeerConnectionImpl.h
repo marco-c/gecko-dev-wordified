@@ -4657,8 +4657,9 @@ virtual
 StunAddrsHandler
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

@@ -152,11 +152,6 @@ CallbackThreadRegistry
 (
 )
 ;
-~
-CallbackThreadRegistry
-(
-)
-{
 /
 /
 It
@@ -207,7 +202,13 @@ immediately
 destroy
 it
 .
-}
+~
+CallbackThreadRegistry
+(
+)
+=
+default
+;
 CallbackThreadRegistry
 (
 const

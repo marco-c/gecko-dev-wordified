@@ -133,8 +133,9 @@ public
 RsdparsaSdpMediaSection
 (
 )
-{
-}
+=
+default
+;
 MediaType
 GetMediaType
 (

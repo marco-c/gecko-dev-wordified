@@ -16036,6 +16036,8 @@ T
 class
 SequenceTracer
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16076,6 +16078,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16089,8 +16093,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence
@@ -16161,6 +16163,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16174,8 +16178,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence
@@ -16255,6 +16257,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16268,8 +16272,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence
@@ -16344,6 +16346,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16357,8 +16361,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence
@@ -16424,6 +16426,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16437,8 +16441,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence
@@ -16499,6 +16501,8 @@ true
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16512,8 +16516,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence
@@ -16574,6 +16576,8 @@ false
 true
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16587,8 +16591,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence
@@ -16662,6 +16664,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16675,8 +16679,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence
@@ -16887,6 +16889,8 @@ false
 false
 >
 {
+public
+:
 explicit
 SequenceTracer
 (
@@ -16900,8 +16904,6 @@ Should
 never
 be
 instantiated
-public
-:
 static
 void
 TraceSequence

@@ -1691,8 +1691,6 @@ InternalResponse
 (
 )
 ;
-private
-:
 explicit
 InternalResponse
 (
@@ -1716,6 +1714,8 @@ InternalResponse
 =
 delete
 ;
+private
+:
 /
 /
 Returns

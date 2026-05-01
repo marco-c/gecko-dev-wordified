@@ -1280,6 +1280,12 @@ mIsRoot
 ;
 }
 ;
+ScrollTimeline
+(
+)
+=
+delete
+;
 static
 already_AddRefed
 <
@@ -1912,12 +1918,6 @@ virtual
 ScrollTimeline
 (
 )
-;
-ScrollTimeline
-(
-)
-=
-delete
 ;
 ScrollTimeline
 (
