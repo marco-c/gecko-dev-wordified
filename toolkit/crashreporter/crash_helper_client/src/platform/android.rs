@@ -146,6 +146,14 @@ connector
 spawner_thread
 :
 None
+pid
+:
+0
+/
+/
+Unused
+on
+Android
 }
 )
 }
