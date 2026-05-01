@@ -1854,24 +1854,6 @@ searchfox
 =
 (
                     
-"
-https
-:
-/
-/
-searchfox
-.
-org
-/
-mozilla
--
-central
-/
-source
-/
-"
-                    
-+
 pathlib
 .
 Path
