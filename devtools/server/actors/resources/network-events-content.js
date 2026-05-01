@@ -1598,6 +1598,17 @@ NETWORK_EVENT_TYPES
 .
 RESPONSE_CONTENT
 :
+if
+(
+updateResource
+.
+contentSize
+!
+=
+=
+undefined
+)
+{
 resourceUpdates
 .
 contentSize
@@ -1606,6 +1617,7 @@ updateResource
 .
 contentSize
 ;
+}
 resourceUpdates
 .
 mimeType
