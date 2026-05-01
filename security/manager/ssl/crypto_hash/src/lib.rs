@@ -1351,6 +1351,7 @@ result
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -1451,6 +1452,7 @@ big
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C

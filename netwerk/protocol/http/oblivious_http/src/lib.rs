@@ -1328,6 +1328,7 @@ configs
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C

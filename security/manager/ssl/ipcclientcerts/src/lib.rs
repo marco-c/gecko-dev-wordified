@@ -1194,6 +1194,7 @@ module
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
