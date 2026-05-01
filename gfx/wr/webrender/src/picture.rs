@@ -2089,7 +2089,7 @@ use
 what
 is
 in
-PicturePrimitive
+PictureInstance
 pub
 composite_mode
 :
@@ -4024,7 +4024,7 @@ properties
 for
 a
 given
-PicturePrimitive
+PictureInstance
 #
 [
 derive
@@ -4158,7 +4158,7 @@ Serialize
 ]
 pub
 struct
-PicturePrimitive
+PictureInstance
 {
 /
 /
@@ -4628,7 +4628,7 @@ SnapshotInfo
 >
 }
 impl
-PicturePrimitive
+PictureInstance
 {
 pub
 fn
@@ -5085,7 +5085,7 @@ SnapshotInfo
 >
 Self
 {
-PicturePrimitive
+PictureInstance
 {
 prim_list
 primary_render_task_id
@@ -6246,7 +6246,7 @@ split
 planes
 via
 BSP
-PicturePrimitive
+PictureInstance
 :
 :
 resolve_split_planes

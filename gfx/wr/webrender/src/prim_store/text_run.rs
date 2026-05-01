@@ -1214,7 +1214,7 @@ text_runs
 .
 push
 (
-TextRunPrimitive
+TextRunInstance
 {
 used_font
 :
@@ -1429,7 +1429,7 @@ Serialize
 ]
 pub
 struct
-TextRunPrimitive
+TextRunInstance
 {
 pub
 used_font
@@ -1463,7 +1463,7 @@ requested_raster_space
 RasterSpace
 }
 impl
-TextRunPrimitive
+TextRunInstance
 {
 pub
 fn
@@ -3496,13 +3496,13 @@ size_of
 :
 :
 <
-TextRunPrimitive
+TextRunInstance
 >
 (
 )
 72
 "
-TextRunPrimitive
+TextRunInstance
 size
 changed
 "
