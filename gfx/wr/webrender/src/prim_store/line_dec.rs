@@ -198,7 +198,7 @@ crate
 prim_store
 :
 :
-PrimitiveInstanceKind
+PrimitiveKind
 ;
 use
 crate
@@ -1579,9 +1579,9 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LineDecoration

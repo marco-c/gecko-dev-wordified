@@ -188,7 +188,7 @@ NinePatchDescriptor
 PrimKey
 PrimTemplate
 PrimTemplateCommonData
-PrimitiveInstanceKind
+PrimitiveKind
 PrimitiveOpacity
 PrimitiveStore
 VECS_PER_SEGMENT
@@ -1588,9 +1588,9 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 NormalBorder
@@ -2513,9 +2513,9 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder

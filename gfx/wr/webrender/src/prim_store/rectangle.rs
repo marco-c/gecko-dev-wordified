@@ -106,7 +106,7 @@ prim_store
 PrimKey
 InternablePrimitive
 PrimitiveStore
-PrimitiveInstanceKind
+PrimitiveKind
 ColorBindingIndex
 SegmentInstanceIndex
 PrimTemplate
@@ -336,7 +336,7 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
 let
 color_binding_index
@@ -388,7 +388,7 @@ ColorBindingIndex
 INVALID
 }
 ;
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle

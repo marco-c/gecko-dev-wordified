@@ -4390,7 +4390,7 @@ Serialize
 ]
 pub
 enum
-PrimitiveInstanceKind
+PrimitiveKind
 {
 /
 /
@@ -4739,7 +4739,7 @@ BoxShadowDataHandle
 }
 }
 impl
-PrimitiveInstanceKind
+PrimitiveKind
 {
 pub
 fn
@@ -4755,7 +4755,7 @@ PictureIndex
 match
 self
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -4902,7 +4902,7 @@ found
 pub
 kind
 :
-PrimitiveInstanceKind
+PrimitiveKind
 /
 /
 /
@@ -4984,7 +4984,7 @@ new
 (
 kind
 :
-PrimitiveInstanceKind
+PrimitiveKind
 clip_leaf_id
 :
 ClipLeafId
@@ -5079,7 +5079,7 @@ self
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Rectangle
@@ -5097,7 +5097,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -5115,7 +5115,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ImageBorder
@@ -5133,7 +5133,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LineDecoration
@@ -5151,7 +5151,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 LinearGradient
@@ -5169,7 +5169,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 NormalBorder
@@ -5187,7 +5187,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -5205,7 +5205,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 RadialGradient
@@ -5223,7 +5223,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 ConicGradient
@@ -5241,7 +5241,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun
@@ -5259,7 +5259,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage
@@ -5277,7 +5277,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropCapture
@@ -5295,7 +5295,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender
@@ -5313,7 +5313,7 @@ uid
 (
 )
 }
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BoxShadow
@@ -7861,7 +7861,7 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 ;
 }
 #
@@ -8020,13 +8020,13 @@ size_of
 :
 :
 <
-PrimitiveInstanceKind
+PrimitiveKind
 >
 (
 )
 24
 "
-PrimitiveInstanceKind
+PrimitiveKind
 size
 changed
 "

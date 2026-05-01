@@ -777,7 +777,7 @@ prim_store
 :
 :
 {
-PrimitiveInstanceKind
+PrimitiveKind
 NinePatchDescriptor
 PrimitiveStore
 }
@@ -5897,7 +5897,7 @@ prim_range
 {
 if
 let
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -17229,7 +17229,7 @@ PrimitiveInstance
 :
 new
 (
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -20300,7 +20300,7 @@ filtered_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture
@@ -20517,7 +20517,7 @@ backdrop_render_instance
 .
 kind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender
@@ -25956,7 +25956,7 @@ PrimitiveInstance
 :
 new
 (
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Picture

@@ -212,7 +212,7 @@ prim_store
 :
 {
 InternablePrimitive
-PrimitiveInstanceKind
+PrimitiveKind
 LayoutPointAu
 }
 ;
@@ -1203,7 +1203,7 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
 let
 run_index
@@ -1262,7 +1262,7 @@ requested_raster_space
 }
 )
 ;
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 TextRun

@@ -233,7 +233,7 @@ PrimKey
 PrimTemplate
 PrimTemplateCommonData
 PrimitiveInstanceIndex
-PrimitiveInstanceKind
+PrimitiveKind
 PrimitiveOpacity
 PrimitiveScratchBuffer
 PrimitiveStore
@@ -3238,7 +3238,7 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
 /
 /
@@ -3314,7 +3314,7 @@ new
 }
 )
 ;
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 Image
@@ -5107,9 +5107,9 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 YuvImage

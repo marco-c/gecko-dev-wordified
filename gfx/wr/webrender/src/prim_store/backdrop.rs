@@ -89,7 +89,7 @@ prim_store
 :
 {
 InternablePrimitive
-PrimitiveInstanceKind
+PrimitiveKind
 PrimKey
 PrimTemplate
 PrimTemplateCommonData
@@ -676,9 +676,9 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropCapture
@@ -731,9 +731,9 @@ PrimitiveStore
 )
 -
 >
-PrimitiveInstanceKind
+PrimitiveKind
 {
-PrimitiveInstanceKind
+PrimitiveKind
 :
 :
 BackdropRender
