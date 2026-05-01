@@ -893,6 +893,11 @@ cmd_moveLeft2
 )
 NS_DEFINE_COMMAND
 (
+MoveLeft3
+cmd_moveLeft3
+)
+NS_DEFINE_COMMAND
+(
 MoveRight
 cmd_moveRight
 )
@@ -900,6 +905,11 @@ NS_DEFINE_COMMAND
 (
 MoveRight2
 cmd_moveRight2
+)
+NS_DEFINE_COMMAND
+(
+MoveRight3
+cmd_moveRight3
 )
 NS_DEFINE_COMMAND
 (
@@ -953,6 +963,11 @@ cmd_selectLeft2
 )
 NS_DEFINE_COMMAND
 (
+SelectLeft3
+cmd_selectLeft3
+)
+NS_DEFINE_COMMAND
+(
 SelectRight
 cmd_selectRight
 )
@@ -960,6 +975,11 @@ NS_DEFINE_COMMAND
 (
 SelectRight2
 cmd_selectRight2
+)
+NS_DEFINE_COMMAND
+(
+SelectRight3
+cmd_selectRight3
 )
 NS_DEFINE_COMMAND
 (

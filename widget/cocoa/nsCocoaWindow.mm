@@ -20132,7 +20132,7 @@ HandleCommand
 Command
 :
 :
-EndLine
+MoveRight3
 )
 ;
 }
@@ -20173,7 +20173,7 @@ HandleCommand
 Command
 :
 :
-SelectEndLine
+SelectRight3
 )
 ;
 }
@@ -20368,7 +20368,7 @@ HandleCommand
 Command
 :
 :
-BeginLine
+MoveLeft3
 )
 ;
 }
@@ -20409,7 +20409,7 @@ HandleCommand
 Command
 :
 :
-SelectBeginLine
+SelectLeft3
 )
 ;
 }
