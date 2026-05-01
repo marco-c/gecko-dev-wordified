@@ -250,7 +250,14 @@ MAX_HANDLES_PER_MESSAGE
 :
 usize
 =
-2
+size_of
+:
+:
+<
+HANDLE
+>
+(
+)
 ;
 /
 /

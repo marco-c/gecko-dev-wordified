@@ -211,7 +211,6 @@ platform
 :
 :
 {
-AsProcessReaderHandle
 PlatformError
 ProcessHandle
 }
