@@ -87,6 +87,7 @@ IPCEvent
 IPCListener
 IPCQueue
 Pid
+ProcessHandle
 }
 ;
 use
@@ -116,10 +117,7 @@ crate
 crash_generation
 :
 :
-{
 CrashGenerator
-PlatformData
-}
 ;
 #
 [
@@ -448,11 +446,11 @@ of
 this
 connection
 .
-platform_data
+process_handle
 :
 Option
 <
-PlatformData
+ProcessHandle
 >
 }
 pub
@@ -638,7 +636,7 @@ crash
 generation
 OOP
 .
-platform_data
+process_handle
 :
 None
 }
@@ -733,7 +731,7 @@ External
 process
 :
 None
-platform_data
+process_handle
 :
 None
 }
@@ -1359,9 +1357,9 @@ reply
 id
 )
 )
-platform_data
+process_handle
 :
-get_platform_data
+get_process_handle
 (
 reply
 )
@@ -1748,7 +1746,7 @@ None
 }
 }
 fn
-get_platform_data
+get_process_handle
 (
 #
 [
@@ -1767,7 +1765,7 @@ Result
 <
 Option
 <
-PlatformData
+ProcessHandle
 >
 >
 {

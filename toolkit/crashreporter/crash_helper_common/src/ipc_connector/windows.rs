@@ -87,6 +87,7 @@ OverlappedOperation
 }
 PlatformError
 }
+ProcessHandle
 IO_TIMEOUT
 }
 ;
@@ -840,7 +841,7 @@ mut
 self
 process
 :
-OwnedHandle
+ProcessHandle
 )
 {
 self
@@ -850,6 +851,8 @@ process
 Some
 (
 process
+.
+0
 )
 ;
 }

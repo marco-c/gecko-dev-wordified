@@ -82,6 +82,7 @@ IPCChannel
 IPCConnector
 IPCListener
 Pid
+ProcessHandle
 }
 ;
 use
@@ -361,7 +362,7 @@ IPCListener
 >
 Result
 <
-OwnedHandle
+ProcessHandle
 >
 {
 /
@@ -739,6 +740,8 @@ handle
 .
 Ok
 (
+ProcessHandle
+(
 unsafe
 {
 OwnedHandle
@@ -753,6 +756,7 @@ as
 RawHandle
 )
 }
+)
 )
 }
 pub

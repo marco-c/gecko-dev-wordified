@@ -115,16 +115,6 @@ sync
 Mutex
 }
 ;
-pub
-(
-crate
-)
-type
-PlatformData
-=
-(
-)
-;
 /
 /
 Table
