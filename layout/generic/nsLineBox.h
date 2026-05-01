@@ -469,6 +469,8 @@ PresShell
 aPresShell
 )
 ;
+public
+:
 void
 operator
 delete
@@ -482,8 +484,6 @@ sz
 =
 delete
 ;
-public
-:
 /
 /
 Use
@@ -6757,8 +6757,6 @@ aLastVisual
 )
 final
 ;
-private
-:
 nsLineIterator
 (
 )
@@ -6775,6 +6773,8 @@ aOther
 =
 delete
 ;
+private
+:
 const
 nsLineBox
 *

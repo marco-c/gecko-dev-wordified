@@ -268,8 +268,6 @@ Shutdown
 ;
 }
 }
-private
-:
 /
 /
 not
@@ -280,7 +278,11 @@ called
 nsLayoutStatics
 (
 )
+=
+delete
 ;
+private
+:
 static
 void
 Shutdown

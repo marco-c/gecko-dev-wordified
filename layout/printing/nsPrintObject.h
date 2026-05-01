@@ -595,8 +595,6 @@ mShrinkRatio
 .
 0
 ;
-private
-:
 nsPrintObject
 &
 operator
@@ -610,6 +608,8 @@ aOther
 =
 delete
 ;
+private
+:
 bool
 mPrintingIsEnabled
 =

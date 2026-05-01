@@ -202,8 +202,6 @@ document
 is
 being
 aborted
-private
-:
 nsPrintData
 (
 )
@@ -223,6 +221,8 @@ aOther
 =
 delete
 ;
+private
+:
 ~
 nsPrintData
 (
