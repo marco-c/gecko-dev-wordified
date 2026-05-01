@@ -18,6 +18,7 @@ C
 2018
 -
 2019
+2025
 D
 .
 R
@@ -2254,7 +2255,7 @@ BYTE_BIT
 else
 {
 __m64
-tmp
+mmitmp
 ;
 /
 *
@@ -2265,7 +2266,7 @@ column
 block
 *
 /
-tmp
+mmitmp
 =
 _mm_load_si64
 (
@@ -2286,7 +2287,7 @@ wk
 _mm_and_si64
 (
 masklast
-tmp
+mmitmp
 )
 ;
 /
@@ -2299,7 +2300,7 @@ tmp
 )
 *
 /
-tmp
+mmitmp
 =
 _mm_load_si64
 (
@@ -2320,7 +2321,7 @@ wk
 _mm_and_si64
 (
 masklast
-tmp
+mmitmp
 )
 ;
 /
