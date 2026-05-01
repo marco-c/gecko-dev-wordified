@@ -3621,8 +3621,10 @@ LEGACY_LANG_SUBTAG
 }
 /
 /
-Step
+Steps
 12
+-
+13
 .
 (
 Optimized
@@ -3706,7 +3708,7 @@ options
 /
 /
 Step
-13
+14
 .
 if
 (
@@ -3726,7 +3728,7 @@ false
 /
 /
 Step
-14
+15
 .
 JS
 :
@@ -3743,9 +3745,9 @@ cx
 /
 /
 Steps
-15
+16
 -
-17
+18
 .
 Rooted
 <
@@ -3804,9 +3806,9 @@ false
 /
 /
 Steps
-18
+19
 -
-20
+21
 .
 Rooted
 <
@@ -3865,7 +3867,7 @@ false
 /
 /
 Step
-21
+25
 .
 static
 constexpr
@@ -3934,7 +3936,7 @@ false
 /
 /
 Step
-22
+26
 .
 if
 (
@@ -3968,7 +3970,7 @@ false
 /
 /
 Step
-23
+27
 .
 static
 constexpr
@@ -4033,7 +4035,7 @@ false
 /
 /
 Step
-24
+28
 .
 if
 (
@@ -4066,10 +4068,8 @@ false
 }
 /
 /
-Steps
-25
--
-26
+Step
+29
 .
 mozilla
 :
@@ -4109,7 +4109,9 @@ false
 /
 /
 Step
-27
+30
+-
+31
 .
 if
 (
@@ -4143,9 +4145,9 @@ false
 /
 /
 Steps
-28
+32
 -
-30
+34
 .
 Rooted
 <
@@ -4204,7 +4206,7 @@ false
 /
 /
 Step
-31
+35
 .
 if
 (
@@ -4297,9 +4299,9 @@ false
 /
 Steps
 6
-32
+36
 -
-38
+43
 .
 JSObject
 *
@@ -4325,7 +4327,7 @@ false
 /
 /
 Step
-39
+44
 .
 args
 .
