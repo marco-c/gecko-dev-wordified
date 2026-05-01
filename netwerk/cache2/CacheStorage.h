@@ -167,6 +167,12 @@ aType
 )
 {
 }
+CacheEntryTable
+(
+)
+=
+delete
+;
 EType
 Type
 (
@@ -182,12 +188,6 @@ private
 EType
 const
 mType
-;
-CacheEntryTable
-(
-)
-=
-delete
 ;
 }
 ;
