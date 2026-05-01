@@ -368,10 +368,7 @@ HashableValue
 *
 /
 static
-PreBarriered
-<
 Value
->
 NormalizeDoubleValue
 (
 double

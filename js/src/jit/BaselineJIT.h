@@ -1227,8 +1227,9 @@ JitCode
 *
 >
 method_
-=
+{
 nullptr
+}
 ;
 /
 /

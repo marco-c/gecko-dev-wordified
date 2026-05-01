@@ -530,8 +530,9 @@ JitCode
 *
 >
 method_
-=
+{
 nullptr
+}
 ;
 /
 /

@@ -4478,7 +4478,7 @@ defaultValue
 )
 {
 }
-MOZ_IMPLICIT
+explicit
 BarrieredPtrImpl
 (
 const
@@ -6012,17 +6012,7 @@ create
 )
 {
 }
-/
-/
-Implicitly
-adding
-barriers
-is
-a
-reasonable
-default
-.
-MOZ_IMPLICIT
+explicit
 GCStructPtr
 (
 const
