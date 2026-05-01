@@ -188,7 +188,7 @@ components
 /
 ipprotection
 /
-GuardianClient
+GuardianTypes
 .
 sys
 .
@@ -2069,6 +2069,8 @@ BrowserTestUtils
 openNewForegroundTab
 (
 win
+.
+gBrowser
 )
 ;
 Assert
@@ -2094,6 +2096,8 @@ BrowserTestUtils
 openNewForegroundTab
 (
 win
+.
+gBrowser
 )
 ;
 Assert

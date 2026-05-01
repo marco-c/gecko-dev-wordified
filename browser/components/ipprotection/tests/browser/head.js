@@ -457,7 +457,7 @@ components
 /
 ipprotection
 /
-GuardianClient
+GuardianTypes
 .
 sys
 .
