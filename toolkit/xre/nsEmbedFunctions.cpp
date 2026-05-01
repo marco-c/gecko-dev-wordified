@@ -1941,9 +1941,6 @@ OTHER
 #
 ifdef
 XP_MACOSX
-auto
-_supplementalFontThread
-=
 gfxPlatformMac
 :
 :
