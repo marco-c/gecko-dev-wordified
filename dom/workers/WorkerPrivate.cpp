@@ -38503,10 +38503,6 @@ GetEffectiveStoragePrincipal
 )
 const
 {
-AssertIsOnWorkerThread
-(
-)
-;
 if
 (
 mLoadInfo
