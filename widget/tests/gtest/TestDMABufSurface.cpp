@@ -416,6 +416,7 @@ fence
 0
 refCount
 nullptr
+false
 )
 )
 ;
@@ -658,6 +659,7 @@ fence
 0
 refCount
 nullptr
+false
 )
 )
 ;
