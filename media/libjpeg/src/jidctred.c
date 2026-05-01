@@ -45,6 +45,7 @@ C
 )
 2015
 2022
+2026
 D
 .
 R
@@ -89,7 +90,7 @@ either
 2x2
 or
 1x1
-pixels
+samples
 from
 an
 8x8
@@ -3470,7 +3471,7 @@ take
 the
 *
 average
-pixel
+sample
 value
 which
 is

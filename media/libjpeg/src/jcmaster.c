@@ -72,6 +72,7 @@ C
 2022
 -
 2024
+2026
 D
 .
 R
@@ -2053,7 +2054,6 @@ int
 scanno
 ncomps
 ci
-coefi
 thisi
 ;
 int
@@ -2072,6 +2072,7 @@ MAX_COMPONENTS
 ifdef
 C_PROGRESSIVE_SUPPORTED
 int
+coefi
 *
 last_bitpos_ptr
 ;
@@ -4871,14 +4872,14 @@ pass_number
 +
 +
 ;
+FALLTHROUGH
+/
+*
+FALLTHROUGH
+*
+/
 #
 endif
-FALLTHROUGH
-/
-*
-FALLTHROUGH
-*
-/
 case
 output_pass
 :

@@ -58,6 +58,7 @@ Copyright
 C
 )
 2022
+2026
 D
 .
 R
@@ -1339,6 +1340,9 @@ compptr
 dc_tbl_no
 ]
 ;
+#
+ifdef
+ENTROPY_OPT_SUPPORTED
 entropy
 -
 >
@@ -1358,6 +1362,8 @@ compptr
 dc_tbl_no
 ]
 ;
+#
+endif
 }
 }
 }

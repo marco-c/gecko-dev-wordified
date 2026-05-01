@@ -44,6 +44,7 @@ Copyright
 C
 )
 2022
+2026
 D
 .
 R
@@ -288,7 +289,7 @@ MAX_COMPONENTS
 These
 arrays
 save
-pixel
+component
 expansion
 factors
 so

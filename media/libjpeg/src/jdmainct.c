@@ -47,6 +47,7 @@ C
 2016
 2022
 2024
+2026
 D
 .
 R
@@ -320,11 +321,13 @@ will
 typically
 produce
 max_v_samp_factor
-pixel
 rows
+of
+each
+component
+*
 from
 each
-*
 row
 group
 (
