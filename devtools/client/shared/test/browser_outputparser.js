@@ -5239,7 +5239,6 @@ y
 span
 >
 +
-+
 <
 /
 span
@@ -5335,7 +5334,6 @@ y
 /
 span
 >
-+
 +
 <
 /
@@ -5913,7 +5911,6 @@ y
 span
 >
 +
-+
 <
 /
 span
@@ -6009,7 +6006,6 @@ y
 /
 span
 >
-+
 +
 <
 /
@@ -7109,13 +7105,6 @@ point
 "
 center
 "
-data
--
-pair
-=
-"
-y
-"
 >
 10px
 <
@@ -7147,7 +7136,7 @@ data
 pair
 =
 "
-x
+y
 "
 >
 top
@@ -7174,13 +7163,6 @@ point
 =
 "
 center
-"
-data
--
-pair
-=
-"
-y
 "
 >
 15px
