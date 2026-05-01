@@ -143,8 +143,9 @@ private
 nsHttpNegotiateAuth
 (
 )
-{
-}
+=
+default
+;
 /
 /
 returns

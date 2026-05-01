@@ -637,8 +637,8 @@ class
 PermissionKey
 (
 )
-{
-}
+=
+default
 ;
 }
 ;

@@ -394,8 +394,9 @@ public
 NodeOffsetRange
 (
 )
-{
-}
+=
+default
+;
 NodeOffsetRange
 (
 NodeOffset
