@@ -98,8 +98,9 @@ NS_DECL_NSISTREAMLISTENER
 nsZipDataStream
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Init
 (
@@ -130,8 +131,9 @@ private
 nsZipDataStream
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIStreamListener
