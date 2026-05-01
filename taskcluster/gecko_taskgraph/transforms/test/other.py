@@ -6081,7 +6081,7 @@ opt
 "
 macosx1500
 -
-64
+aarch64
 /
 opt
 "
@@ -6089,7 +6089,7 @@ opt
 "
 macosx1500
 -
-64
+aarch64
 /
 debug
 "
@@ -6097,7 +6097,7 @@ debug
 "
 macosx1500
 -
-64
+aarch64
 -
 shippable
 /
@@ -6107,7 +6107,7 @@ opt
 "
 macosx1500
 -
-64
+aarch64
 -
 devedition
 /
