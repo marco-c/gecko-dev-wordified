@@ -1458,8 +1458,9 @@ T
 Mapping
 (
 )
-{
-}
+=
+default
+;
 MOZ_IMPLICIT
 Mapping
 (
