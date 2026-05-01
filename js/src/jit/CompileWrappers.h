@@ -608,6 +608,12 @@ allocNurseryBigInts
 ;
 void
 *
+addressOfZone
+(
+)
+;
+void
+*
 addressOfNurseryPosition
 (
 )
