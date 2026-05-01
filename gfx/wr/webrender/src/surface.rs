@@ -244,8 +244,8 @@ visibility
 :
 :
 {
-VisibilityState
-PrimitiveVisibility
+DrawState
+PrimitiveDrawHeader
 FrameVisibilityContext
 }
 ;
@@ -3324,7 +3324,7 @@ self
 vis
 :
 &
-PrimitiveVisibility
+PrimitiveDrawHeader
 targets
 :
 &
@@ -3349,7 +3349,7 @@ vis
 .
 state
 {
-VisibilityState
+DrawState
 :
 :
 Unset
@@ -3369,7 +3369,7 @@ state
 )
 ;
 }
-VisibilityState
+DrawState
 :
 :
 Culled
@@ -3378,7 +3378,7 @@ Culled
 {
 false
 }
-VisibilityState
+DrawState
 :
 :
 Visible
@@ -3406,7 +3406,7 @@ sub_slice_index
 targets
 )
 }
-VisibilityState
+DrawState
 :
 :
 PassThrough

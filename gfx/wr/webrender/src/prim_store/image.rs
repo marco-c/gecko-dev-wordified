@@ -302,7 +302,7 @@ visibility
 :
 :
 {
-PrimitiveVisibility
+PrimitiveDrawHeader
 compute_conservative_visible_rect
 }
 ;
@@ -1041,7 +1041,7 @@ visibility
 :
 &
 mut
-PrimitiveVisibility
+PrimitiveDrawHeader
 prim_origin
 :
 LayoutPoint

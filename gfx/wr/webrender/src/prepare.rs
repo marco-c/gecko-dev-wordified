@@ -419,7 +419,7 @@ crate
 visibility
 :
 :
-VisibilityState
+DrawState
 ;
 const
 MAX_MASK_SIZE
@@ -837,7 +837,7 @@ prim_instances
 prim_instance_index
 ]
 .
-vis
+draw
 &
 mut
 cmd_buffer_targets
@@ -1563,7 +1563,7 @@ can_use_clip_chain_for_quad_path
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 frame_state
@@ -3113,7 +3113,7 @@ None
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 quad_transform
@@ -3397,21 +3397,21 @@ allow_subpixel
 match
 prim_instance
 .
-vis
+draw
 .
 state
 {
-VisibilityState
+DrawState
 :
 :
 Culled
 |
-VisibilityState
+DrawState
 :
 :
 Unset
 |
-VisibilityState
+DrawState
 :
 :
 PassThrough
@@ -3431,7 +3431,7 @@ state
 )
 ;
 }
-VisibilityState
+DrawState
 :
 :
 Visible
@@ -3548,7 +3548,7 @@ contains_box
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -3564,7 +3564,7 @@ intersects
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -4076,7 +4076,7 @@ None
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 quad_transform
@@ -4326,7 +4326,7 @@ image_data
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 prim_instance_index
@@ -4380,7 +4380,7 @@ frame_context
 mut
 prim_instance
 .
-vis
+draw
 prim_instance
 .
 prim_origin
@@ -4516,7 +4516,7 @@ prim_instance_index
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 quad_transform
@@ -4602,7 +4602,7 @@ get_surface_rect
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -4666,7 +4666,7 @@ quad_transform
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 frame_state
@@ -4727,7 +4727,7 @@ cache_key
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 quad_transform
@@ -4836,7 +4836,7 @@ prim_instance_index
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 quad_transform
@@ -4884,7 +4884,7 @@ None
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 quad_transform
@@ -4993,7 +4993,7 @@ prim_instance_index
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 quad_transform
@@ -5134,7 +5134,7 @@ get_surface_rect
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -5198,7 +5198,7 @@ quad_transform
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 frame_state
@@ -5259,7 +5259,7 @@ cache_key
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 quad_transform
@@ -5314,7 +5314,7 @@ pic_index
 if
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -5596,7 +5596,7 @@ in
 .
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -5616,7 +5616,7 @@ get_instance_from_range
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -5819,7 +5819,7 @@ get_instance_from_range
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -6080,7 +6080,7 @@ coverage_rect
 =
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -6250,7 +6250,7 @@ get_instance_from_range
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -6409,7 +6409,7 @@ clip_task_id
 ;
 prim_instance
 .
-vis
+draw
 .
 clip_task_index
 =
@@ -6548,7 +6548,7 @@ local_prim_rect
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -6629,7 +6629,7 @@ map
 &
 prim_instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -6751,11 +6751,11 @@ clear_visibility
 match
 prim_instance
 .
-vis
+draw
 .
 state
 {
-VisibilityState
+DrawState
 :
 :
 Unset
@@ -6775,7 +6775,7 @@ state
 )
 ;
 }
-VisibilityState
+DrawState
 :
 :
 Visible
@@ -6803,12 +6803,12 @@ targets
 )
 ;
 }
-VisibilityState
+DrawState
 :
 :
 PassThrough
 |
-VisibilityState
+DrawState
 :
 :
 Culled
@@ -7702,7 +7702,7 @@ Some
 &
 instance
 .
-vis
+draw
 .
 clip_chain
 )
@@ -7783,7 +7783,7 @@ set_active_clips_from_clip_chain
 &
 instance
 .
-vis
+draw
 .
 clip_chain
 prim_spatial_node_index
@@ -8001,7 +8001,7 @@ rendering
 .
 instance
 .
-vis
+draw
 .
 clip_task_index
 =
@@ -8055,7 +8055,7 @@ else
 if
 instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -8113,7 +8113,7 @@ get_surface_rect
 &
 instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -8215,7 +8215,7 @@ new_mask
 device_rect
 instance
 .
-vis
+draw
 .
 clip_chain
 .
@@ -8279,7 +8279,7 @@ clip_task_id
 ;
 instance
 .
-vis
+draw
 .
 clip_task_index
 =
@@ -9061,7 +9061,7 @@ prim_clip_chain
 &
 instance
 .
-vis
+draw
 .
 clip_chain
 ;
