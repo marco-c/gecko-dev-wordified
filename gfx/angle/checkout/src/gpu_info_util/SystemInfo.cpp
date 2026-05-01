@@ -216,9 +216,6 @@ NVIDIA
 case
 kVendorID_Qualcomm
 :
-case
-kVendorID_Qualcomm_DXGI
-:
 return
 "
 Qualcomm
