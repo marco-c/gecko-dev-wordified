@@ -1922,6 +1922,12 @@ aResult
 =
 =
 MSPR_E_NO_DECRYPTOR_AVAILABLE
+|
+|
+aResult
+=
+=
+MF_E_HARDWARE_DRM_UNSUPPORTED
 )
 {
 NotifyDisableHWDRM
