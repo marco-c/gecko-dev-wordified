@@ -387,6 +387,13 @@ const
 nsIContent
 *
 aFocusedContent
+const
+nsIContent
+*
+aTargetContent
+const
+WritingMode
+aWritingMode
 )
 ;
 static

@@ -3737,6 +3737,17 @@ mGestureDownContent
 nullptr
 ;
 }
+nsIContent
+*
+GetURLTargetContent
+(
+)
+const
+{
+return
+mURLTargetContent
+;
+}
 protected
 :
 /
