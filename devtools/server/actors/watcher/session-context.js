@@ -1395,15 +1395,6 @@ Resources
 .
 TYPES
 .
-NETWORK_EVENT_DECODED_BODY_SIZE
-]
-:
-true
-[
-Resources
-.
-TYPES
-.
 NETWORK_EVENT_STACKTRACE
 ]
 :
