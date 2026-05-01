@@ -1984,7 +1984,7 @@ if
 (
 BlockHasInterestingDefs
 (
-block
+i
 )
 )
 {
