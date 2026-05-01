@@ -344,6 +344,9 @@ register_child_process
 &
 mut
 self
+id
+:
+GeckoChildId
 )
 -
 >
@@ -464,6 +467,7 @@ RegisterChildProcess
 :
 new
 (
+id
 server_endpoint
 .
 into_ancillary
@@ -1829,6 +1833,9 @@ client
 *
 mut
 CrashHelperClient
+id
+:
+GeckoChildId
 connector
 :
 *
@@ -1863,6 +1870,7 @@ client
 .
 register_child_process
 (
+id
 )
 {
 let
