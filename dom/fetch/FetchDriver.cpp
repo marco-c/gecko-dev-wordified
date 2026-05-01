@@ -6452,6 +6452,12 @@ RequestDestination
 :
 Json
 :
+case
+RequestDestination
+:
+:
+Text
+:
 return
 FETCH_PRIORITY_ADJUSTMENT_FOR
 (
