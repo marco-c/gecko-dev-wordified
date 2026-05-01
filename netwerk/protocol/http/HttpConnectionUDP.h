@@ -905,6 +905,11 @@ nsHttpTransaction
 >
 mQueuedConnectUdpTransaction
 ;
+bool
+mAlreadyWildcard
+=
+false
+;
 }
 ;
 }
