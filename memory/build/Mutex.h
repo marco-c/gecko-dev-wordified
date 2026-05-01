@@ -511,8 +511,9 @@ constexpr
 Mutex
 (
 )
-{
-}
+=
+default
+;
 /
 /
 (
