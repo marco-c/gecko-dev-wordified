@@ -548,7 +548,10 @@ list
 static
 *
 /
-void
+gfxPlatformMac
+:
+:
+SupplementalFontThread
 gfxPlatformMac
 :
 :
@@ -600,6 +603,11 @@ PR_JOINABLE_THREAD
 )
 ;
 }
+return
+SupplementalFontThread
+(
+)
+;
 }
 /
 *

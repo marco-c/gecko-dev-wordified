@@ -37471,6 +37471,9 @@ actually
 requires
 it
 .
+auto
+_supplementalFontThread
+=
 gfxPlatformMac
 :
 :
