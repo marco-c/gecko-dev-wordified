@@ -45,6 +45,7 @@ C
 )
 2013
 2022
+2024
 D
 .
 R
@@ -149,6 +150,13 @@ cinfo
 )
 ;
 else
+if
+(
+cinfo
+-
+>
+is_decompressor
+)
 return
 ;
 /

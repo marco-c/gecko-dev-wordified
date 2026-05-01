@@ -14,6 +14,7 @@ Copyright
 C
 )
 2015
+2024
 D
 .
 R
@@ -232,7 +233,7 @@ num_cols
 yloop
 ;
 #
-if
+ifdef
 __BIG_ENDIAN__
 int
 offset
@@ -272,7 +273,7 @@ cb
 cr
 ;
 #
-if
+ifdef
 __BIG_ENDIAN__
 __vector
 unsigned
@@ -474,7 +475,7 @@ __16X
 )
 }
 #
-if
+ifdef
 __BIG_ENDIAN__
 shift_pack_index
 =
@@ -1944,7 +1945,7 @@ RGB_INDEX
 #
 endif
 #
-if
+ifdef
 __BIG_ENDIAN__
 offset
 =
@@ -2470,7 +2471,7 @@ outptr
 endif
 }
 #
-if
+ifdef
 __BIG_ENDIAN__
 }
 #

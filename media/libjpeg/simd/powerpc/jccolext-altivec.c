@@ -16,6 +16,7 @@ C
 2014
 -
 2015
+2024
 D
 .
 R
@@ -248,7 +249,7 @@ RGB_PIXELSIZE
 num_cols
 ;
 #
-if
+ifdef
 __BIG_ENDIAN__
 int
 offset
@@ -297,7 +298,10 @@ cr
 ;
 #
 if
+defined
+(
 __BIG_ENDIAN__
+)
 |
 |
 RGB_PIXELSIZE
@@ -317,7 +321,10 @@ rgb3
 endif
 #
 if
+defined
+(
 __BIG_ENDIAN__
+)
 &
 &
 RGB_PIXELSIZE
@@ -472,7 +479,7 @@ __16X
 )
 }
 #
-if
+ifdef
 __BIG_ENDIAN__
 shift_pack_index
 =
@@ -608,7 +615,7 @@ outptr2
 )
 {
 #
-if
+ifdef
 __BIG_ENDIAN__
 /
 *
@@ -1103,7 +1110,7 @@ inptr
 endif
 }
 #
-if
+ifdef
 __BIG_ENDIAN__
 }
 #

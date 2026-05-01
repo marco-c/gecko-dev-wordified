@@ -1039,6 +1039,9 @@ cid2
 3
 )
 {
+#
+ifdef
+D_LOSSLESS_SUPPORTED
 if
 (
 cinfo
@@ -1067,6 +1070,8 @@ marker
 *
 /
 else
+#
+endif
 cinfo
 -
 >
@@ -1138,6 +1143,9 @@ cid1
 cid2
 )
 ;
+#
+ifdef
+D_LOSSLESS_SUPPORTED
 if
 (
 cinfo
@@ -1165,6 +1173,8 @@ RGB
 *
 /
 else
+#
+endif
 cinfo
 -
 >

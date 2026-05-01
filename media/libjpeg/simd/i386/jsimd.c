@@ -34,7 +34,7 @@ C
 2018
 2022
 -
-2023
+2024
 D
 .
 R
@@ -137,6 +137,8 @@ include
 .
 .
 /
+src
+/
 jinclude
 .
 h
@@ -149,6 +151,8 @@ include
 /
 .
 .
+/
+src
 /
 jpeglib
 .
@@ -163,6 +167,8 @@ include
 .
 .
 /
+src
+/
 jsimd
 .
 h
@@ -176,6 +182,8 @@ include
 .
 .
 /
+src
+/
 jdct
 .
 h
@@ -188,6 +196,8 @@ include
 /
 .
 .
+/
+src
 /
 jsimddct
 .

@@ -14,6 +14,7 @@ Copyright
 C
 )
 2015
+2024
 D
 .
 R
@@ -364,7 +365,7 @@ next_index_lastcol
 15
 }
 #
-if
+ifdef
 __BIG_ENDIAN__
 merge_pack_index
 =
@@ -1035,7 +1036,7 @@ next_index_lastcol
 15
 }
 #
-if
+ifdef
 __BIG_ENDIAN__
 merge_pack_index
 =

@@ -531,10 +531,6 @@ ifdef
 C_LOSSLESS_SUPPORTED
 #
 define
-_jinit_read_gif
-j16init_read_gif
-#
-define
 _jinit_read_ppm
 j16init_read_ppm
 #
@@ -1129,10 +1125,6 @@ h
 )
 *
 /
-#
-define
-_jinit_read_gif
-j12init_read_gif
 #
 define
 _jinit_write_gif
@@ -1731,10 +1723,6 @@ h
 )
 *
 /
-#
-define
-_jinit_read_gif
-jinit_read_gif
 #
 define
 _jinit_write_gif

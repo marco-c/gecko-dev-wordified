@@ -16,6 +16,7 @@ C
 2014
 -
 2015
+2024
 D
 .
 R
@@ -253,7 +254,7 @@ result
 *
 /
 #
-if
+ifdef
 __BIG_ENDIAN__
 #
 define
@@ -860,7 +861,7 @@ WORD_BIT
 }
 ;
 #
-if
+ifdef
 __BIG_ENDIAN__
 __vector
 unsigned

@@ -17,6 +17,7 @@ C
 -
 2015
 2020
+2024
 D
 .
 R
@@ -2206,6 +2207,10 @@ pb_centerjsamp
 {
 __16X
 (
+(
+signed
+char
+)
 CENTERJSAMPLE
 )
 }
