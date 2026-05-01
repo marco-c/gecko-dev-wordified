@@ -66,7 +66,7 @@ C
 2020
 2022
 -
-2023
+2024
 D
 .
 R
@@ -7321,6 +7321,16 @@ j_common_ptr
 )
 cinfo
 JPOOL_IMAGE
+sizeof
+(
+my_coef_controller
+)
+)
+;
+memset
+(
+coef
+0
 sizeof
 (
 my_coef_controller

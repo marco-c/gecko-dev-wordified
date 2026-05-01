@@ -3721,6 +3721,16 @@ my_main_controller
 )
 )
 ;
+memset
+(
+main_ptr
+0
+sizeof
+(
+my_main_controller
+)
+)
+;
 cinfo
 -
 >
