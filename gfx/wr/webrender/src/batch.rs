@@ -8977,6 +8977,8 @@ ctx
 .
 scratch
 .
+scene
+.
 segment_instances
 [
 segment_instance_index
@@ -8991,6 +8993,8 @@ Some
 ctx
 .
 scratch
+.
+scene
 .
 segments
 [
@@ -9479,11 +9483,15 @@ ctx
 .
 scratch
 .
+frame
+.
 border_task_ids
 [
 ctx
 .
 scratch
+.
+frame
 .
 normal_border
 [
@@ -9942,6 +9950,8 @@ glyph_keys
 ctx
 .
 scratch
+.
+scene
 .
 glyph_keys
 [
@@ -11115,6 +11125,8 @@ ctx
 .
 scratch
 .
+frame
+.
 line_decoration
 [
 scratch_handle
@@ -12150,6 +12162,8 @@ ctx
 .
 scratch
 .
+scene
+.
 segment_instances
 [
 image_instance
@@ -12166,6 +12180,8 @@ Some
 ctx
 .
 scratch
+.
+scene
 .
 segments
 [
@@ -16513,6 +16529,8 @@ match
 self
 .
 scratch
+.
+frame
 .
 clip_mask_instances
 [

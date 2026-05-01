@@ -5803,6 +5803,8 @@ if
 !
 scratch
 .
+frame
+.
 required_sub_graphs
 .
 contains

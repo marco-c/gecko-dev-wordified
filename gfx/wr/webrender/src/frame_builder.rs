@@ -4598,6 +4598,8 @@ scratch
 .
 primitive
 .
+frame
+.
 debug_items
 Vec
 :
@@ -4881,6 +4883,8 @@ add
 them
 to
 scratch
+.
+frame
 .
 debug_items
 .
@@ -5711,6 +5715,8 @@ coordinate
 rects
 to
 scratch
+.
+frame
 .
 debug_items
 if

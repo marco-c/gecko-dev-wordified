@@ -18548,6 +18548,8 @@ prepare
 pass
 scratch
 .
+frame
+.
 required_sub_graphs
 .
 insert
