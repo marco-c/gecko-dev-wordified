@@ -180,8 +180,9 @@ false
 RacyRegisteredThread
 (
 )
-{
-}
+=
+default
+;
 void
 SetIsBeingProfiled
 (
