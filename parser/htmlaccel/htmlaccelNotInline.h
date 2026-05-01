@@ -71,6 +71,11 @@ Attributes
 .
 h
 "
+#
+include
+<
+cstddef
+>
 namespace
 mozilla
 :
@@ -242,6 +247,9 @@ left
 over
 .
 MOZ_NEVER_INLINE
+std
+:
+:
 size_t
 SkipNonEscapedInTextNode
 (
@@ -311,6 +319,9 @@ left
 over
 .
 MOZ_NEVER_INLINE
+std
+:
+:
 size_t
 SkipNonEscapedInTextNode
 (
@@ -382,6 +393,9 @@ left
 over
 .
 MOZ_NEVER_INLINE
+std
+:
+:
 size_t
 SkipNonEscapedInAttributeValue
 (

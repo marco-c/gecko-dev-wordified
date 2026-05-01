@@ -80,8 +80,9 @@ nsIParserUtils
 nsParserUtils
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
