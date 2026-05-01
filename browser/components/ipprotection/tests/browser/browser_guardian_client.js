@@ -84,6 +84,8 @@ components
 /
 ipprotection
 /
+fxa
+/
 GuardianClient
 .
 sys
