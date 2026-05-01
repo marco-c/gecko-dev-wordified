@@ -6475,12 +6475,6 @@ case
 ExtContentPolicy
 :
 :
-TYPE_TEXT
-:
-case
-ExtContentPolicy
-:
-:
 TYPE_PROXIED_WEBRTC_MEDIA
 :
 case
