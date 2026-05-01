@@ -214,8 +214,8 @@ sSingleton
 IdentityCredentialRequestManager
 (
 )
-{
-}
+=
+default
 ;
 ~
 IdentityCredentialRequestManager
