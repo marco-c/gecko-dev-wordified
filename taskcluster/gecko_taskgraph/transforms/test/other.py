@@ -6104,8 +6104,6 @@ debug
 macosx1500
 -
 64
--
-shippable
 /
 opt
 "
@@ -6116,6 +6114,26 @@ macosx1500
 64
 /
 debug
+"
+                
+"
+macosx1500
+-
+64
+-
+shippable
+/
+opt
+"
+                
+"
+macosx1500
+-
+64
+-
+devedition
+/
+opt
 "
                 
 "
