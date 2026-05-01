@@ -488,6 +488,9 @@ CaptureIdFor
 (
 int
 aStreamId
+CamerasParent
+*
+aParent
 )
 ;
 int32_t
@@ -1802,7 +1805,7 @@ DeviceInfo
 >
 GetDeviceInfo
 (
-int
+CaptureEngine
 aEngine
 )
 ;
@@ -1810,7 +1813,7 @@ VideoEngine
 *
 EnsureInitialized
 (
-int
+CaptureEngine
 aEngine
 )
 ;
