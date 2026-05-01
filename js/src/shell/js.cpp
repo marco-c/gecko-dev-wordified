@@ -89322,7 +89322,7 @@ JS
 Prefs
 :
 :
-setAtStartup_experimental_import_text
+set_experimental_import_text
 (
 true
 )
