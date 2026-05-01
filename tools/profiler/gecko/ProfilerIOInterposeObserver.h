@@ -149,8 +149,9 @@ virtual
 ProfilerIOInterposeObserver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
