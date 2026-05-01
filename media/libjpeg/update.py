@@ -244,6 +244,8 @@ JCONFIG_TEMPLATES
 =
 [
 "
+src
+/
 jconfig
 .
 h
@@ -251,6 +253,8 @@ h
 in
 "
 "
+src
+/
 jconfigint
 .
 h
@@ -258,6 +262,8 @@ h
 in
 "
 "
+src
+/
 jversion
 .
 h
@@ -972,9 +978,9 @@ def
 parse_moz_build_sources
 (
 path
-root_only
+exclude_prefix
 =
-False
+None
 )
 :
     
@@ -1017,25 +1023,35 @@ varname
 assignments
 .
     
-root_only
+exclude_prefix
 :
 if
-True
+set
 skip
 entries
 that
-contain
-'
-/
-'
+start
+with
+this
+prefix
 (
 e
 .
 g
 .
+'
+simd
+/
+'
+to
+    
+exclude
 SIMD
-subdirectory
 files
+from
+the
+JPEG_SOURCES
+comparison
 )
 .
     
@@ -1075,13 +1091,14 @@ list_vars
 :
         
 if
-root_only
+exclude_prefix
 and
-"
-/
-"
-in
 item
+.
+startswith
+(
+exclude_prefix
+)
 :
             
 continue
@@ -1463,7 +1480,7 @@ moz
 .
 build
 "
-False
+None
 )
         
 (
@@ -1481,7 +1498,7 @@ moz
 .
 build
 "
-False
+None
 )
         
 (
@@ -1495,7 +1512,10 @@ moz
 .
 build
 "
-True
+"
+simd
+/
+"
 )
     
 ]
@@ -1507,27 +1527,37 @@ True
 for
 var_name
 moz_build_path
-root_only
+exclude_prefix
 in
 checks
 :
         
 cmake_set
 =
-set
+{
+os
+.
+path
+.
+basename
 (
+f
+)
+for
+f
+in
 resolved
 [
 var_name
 ]
-)
+}
         
 moz_set
 =
 parse_moz_build_sources
 (
 moz_build_path
-root_only
+exclude_prefix
 )
         
 added
