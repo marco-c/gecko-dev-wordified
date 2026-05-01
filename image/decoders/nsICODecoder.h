@@ -163,8 +163,9 @@ virtual
 nsICODecoder
 (
 )
-{
-}
+=
+default
+;
 /
 /
 /

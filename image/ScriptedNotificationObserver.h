@@ -122,8 +122,9 @@ virtual
 ScriptedNotificationObserver
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 imgIScriptedNotificationObserver

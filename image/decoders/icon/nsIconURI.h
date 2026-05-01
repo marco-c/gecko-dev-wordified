@@ -580,8 +580,9 @@ explicit
 Mutator
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -589,8 +590,9 @@ virtual
 Mutator
 (
 )
-{
-}
+=
+default
+;
 friend
 class
 nsMozIconURI

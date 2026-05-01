@@ -570,8 +570,9 @@ virtual
 OrientedImage
 (
 )
-{
-}
+=
+default
+;
 gfxMatrix
 OrientationMatrix
 (

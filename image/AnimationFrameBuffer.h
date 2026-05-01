@@ -473,8 +473,9 @@ virtual
 AnimationFrameBuffer
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
