@@ -1471,6 +1471,14 @@ for
 given
 numbers
 .
+using
+BitArray
+=
+ExternalBitArray
+<
+size_t
+>
+;
 mozilla
 :
 :
