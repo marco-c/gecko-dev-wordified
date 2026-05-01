@@ -142,6 +142,7 @@ unix
 :
 {
 daemonize
+get_client_handle
 PROXY_RENDEZ_VOUS
 }
 ;
@@ -180,6 +181,7 @@ windows
 :
 {
 daemonize
+get_client_handle
 PROXY_RENDEZ_VOUS
 }
 ;
