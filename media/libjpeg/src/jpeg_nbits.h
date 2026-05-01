@@ -8,6 +8,8 @@ C
 2014
 2021
 2024
+-
+2025
 D
 .
 R
@@ -254,6 +256,12 @@ _M_ARM
 defined
 (
 _M_ARM64
+)
+|
+|
+defined
+(
+_M_ARM64EC
 )
 #
 if

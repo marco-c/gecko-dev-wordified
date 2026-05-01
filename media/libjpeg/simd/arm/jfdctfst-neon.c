@@ -1,13 +1,7 @@
 /
 *
 *
-jfdctfst
--
-neon
-.
-c
--
-fast
+Fast
 integer
 FDCT
 (

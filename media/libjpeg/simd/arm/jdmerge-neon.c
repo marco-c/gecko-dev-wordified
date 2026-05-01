@@ -1,13 +1,7 @@
 /
 *
 *
-jdmerge
--
-neon
-.
-c
--
-merged
+Merged
 upsampling
 /
 color

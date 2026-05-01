@@ -1,13 +1,7 @@
 /
 *
 *
-jidctfst
--
-neon
-.
-c
--
-fast
+Fast
 integer
 IDCT
 (

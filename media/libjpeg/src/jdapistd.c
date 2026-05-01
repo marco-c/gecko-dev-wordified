@@ -49,7 +49,7 @@ C
 2020
 2022
 -
-2024
+2025
 D
 .
 R
@@ -2978,6 +2978,13 @@ NULL
 ;
 if
 (
+!
+master
+-
+>
+using_merged_upsample
+&
+&
 cinfo
 -
 >
@@ -3048,6 +3055,12 @@ dummy_row
 }
 if
 (
+cinfo
+-
+>
+quantize_colors
+&
+&
 cinfo
 -
 >

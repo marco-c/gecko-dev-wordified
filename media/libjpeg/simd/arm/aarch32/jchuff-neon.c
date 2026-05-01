@@ -1,12 +1,6 @@
 /
 *
 *
-jchuff
--
-neon
-.
-c
--
 Huffman
 entropy
 encoding

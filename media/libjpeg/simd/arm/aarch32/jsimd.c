@@ -1,11 +1,6 @@
 /
 *
 *
-jsimd_arm
-.
-c
-*
-*
 Copyright
 2009
 Pierre

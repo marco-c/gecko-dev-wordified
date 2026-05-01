@@ -1,13 +1,7 @@
 /
 *
 *
-jquanti
--
-neon
-.
-c
--
-sample
+Sample
 data
 conversion
 and
@@ -38,6 +32,8 @@ Copyright
 C
 )
 2024
+-
+2025
 D
 .
 R
@@ -876,6 +872,13 @@ __aarch64__
 defined
 (
 _M_ARM64
+)
+|
+|
+\
+defined
+(
+_M_ARM64EC
 )
 )
 #

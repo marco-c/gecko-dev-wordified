@@ -1,13 +1,7 @@
 /
 *
 *
-jdsample
--
-neon
-.
-c
--
-upsampling
+Upsampling
 (
 Arm
 Neon

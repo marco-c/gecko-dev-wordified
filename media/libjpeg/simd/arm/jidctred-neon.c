@@ -1,13 +1,7 @@
 /
 *
 *
-jidctred
--
-neon
-.
-c
--
-reduced
+Reduced
 -
 size
 IDCT

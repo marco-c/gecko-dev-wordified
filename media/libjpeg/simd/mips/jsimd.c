@@ -1,11 +1,6 @@
 /
 *
 *
-jsimd_mips
-.
-c
-*
-*
 Copyright
 2009
 Pierre

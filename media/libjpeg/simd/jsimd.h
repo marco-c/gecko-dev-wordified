@@ -1,13 +1,6 @@
 /
 *
 *
-simd
-/
-jsimd
-.
-h
-*
-*
 Copyright
 2009
 Pierre

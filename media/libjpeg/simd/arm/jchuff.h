@@ -46,6 +46,7 @@ C
 2009
 2018
 2021
+2025
 D
 .
 R
@@ -139,6 +140,12 @@ __aarch64__
 defined
 (
 _M_ARM64
+)
+|
+|
+defined
+(
+_M_ARM64EC
 )
 #
 define
@@ -433,6 +440,12 @@ __aarch64__
 defined
 (
 _M_ARM64
+)
+|
+|
+defined
+(
+_M_ARM64EC
 )
 #
 define

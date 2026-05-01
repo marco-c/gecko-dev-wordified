@@ -1,13 +1,7 @@
 /
 *
 *
-jccolext
--
-neon
-.
-c
--
-colorspace
+Colorspace
 conversion
 (
 32

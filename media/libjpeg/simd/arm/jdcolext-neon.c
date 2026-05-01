@@ -1,13 +1,7 @@
 /
 *
 *
-jdcolext
--
-neon
-.
-c
--
-colorspace
+Colorspace
 conversion
 (
 Arm

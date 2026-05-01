@@ -1,13 +1,7 @@
 /
 *
 *
-jfdctint
--
-neon
-.
-c
--
-accurate
+Accurate
 integer
 FDCT
 (

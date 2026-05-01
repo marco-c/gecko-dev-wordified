@@ -1,11 +1,6 @@
 /
 *
 *
-jsimd_powerpc
-.
-c
-*
-*
 Copyright
 2009
 Pierre

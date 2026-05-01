@@ -1,11 +1,6 @@
 /
 *
 *
-jsimd_i386
-.
-c
-*
-*
 Copyright
 2009
 Pierre

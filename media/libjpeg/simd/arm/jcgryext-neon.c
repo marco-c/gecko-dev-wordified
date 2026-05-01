@@ -1,13 +1,7 @@
 /
 *
 *
-jcgryext
--
-neon
-.
-c
--
-grayscale
+Grayscale
 colorspace
 conversion
 (

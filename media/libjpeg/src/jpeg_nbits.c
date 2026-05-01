@@ -6,6 +6,8 @@ Copyright
 C
 )
 2024
+-
+2025
 D
 .
 R
@@ -105,9 +107,18 @@ _M_IX86
 |
 |
 \
+(
 defined
 (
 _M_X64
+)
+&
+&
+!
+defined
+(
+_M_ARM64EC
+)
 )
 )
 &

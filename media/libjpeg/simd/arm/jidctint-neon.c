@@ -1,13 +1,7 @@
 /
 *
 *
-jidctint
--
-neon
-.
-c
--
-accurate
+Accurate
 integer
 IDCT
 (

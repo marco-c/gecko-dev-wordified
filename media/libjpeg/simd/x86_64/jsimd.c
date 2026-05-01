@@ -1,11 +1,6 @@
 /
 *
 *
-jsimd_x86_64
-.
-c
-*
-*
 Copyright
 2009
 Pierre

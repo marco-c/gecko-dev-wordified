@@ -65,7 +65,7 @@ C
 2016
 2018
 -
-2024
+2025
 D
 .
 R
@@ -439,6 +439,13 @@ _M_ARM
 defined
 (
 _M_ARM64
+)
+|
+|
+\
+defined
+(
+_M_ARM64EC
 )
 )
 typedef
