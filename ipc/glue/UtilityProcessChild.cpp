@@ -571,7 +571,7 @@ const
 nsCString
 &
 aParentBuildID
-uint64_t
+SandboxingKind
 aSandboxingKind
 )
 {
@@ -801,9 +801,6 @@ false
 }
 mSandbox
 =
-(
-SandboxingKind
-)
 aSandboxingKind
 ;
 /
