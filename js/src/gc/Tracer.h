@@ -3177,10 +3177,7 @@ Zone
 *
 weakMapZone
 const
-BarrieredBase
-<
 T
->
 *
 thingp
 const
@@ -3198,11 +3195,13 @@ gc
 :
 ConvertToBase
 (
-thingp
--
+const_cast
+<
+T
+*
 >
-unbarrieredAddress
 (
+thingp
 )
 )
 name
