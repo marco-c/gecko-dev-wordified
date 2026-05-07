@@ -202,15 +202,17 @@ c
 :
         
 return
+f
 "
 \
 \
 x
-%
-02x
-"
-%
+{
 c
+:
+02x
+}
+"
     
 elif
 c
@@ -220,15 +222,17 @@ c
 :
         
 return
+f
 "
 \
 \
 u
-%
-04x
-"
-%
+{
 c
+:
+04x
+}
+"
     
 else
 :
@@ -348,6 +352,7 @@ else
 :
         
 return
+f
 "
 (
 cannot
@@ -356,16 +361,15 @@ string
 with
 char
 type
-%
-s
-)
-"
-%
+{
 char_type
 .
 GetName
 (
 )
+}
+)
+"
     
 i
 =
