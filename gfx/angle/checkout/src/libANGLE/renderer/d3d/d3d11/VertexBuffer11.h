@@ -190,7 +190,7 @@ gl
 :
 VertexAttribType
 currentValueType
-GLint
+size_t
 start
 size_t
 count

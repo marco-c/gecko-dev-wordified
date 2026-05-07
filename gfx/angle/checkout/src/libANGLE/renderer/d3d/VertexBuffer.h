@@ -290,7 +290,7 @@ gl
 :
 VertexAttribType
 currentValueType
-GLint
+size_t
 start
 size_t
 count
@@ -559,7 +559,7 @@ size_t
 count
 GLsizei
 instances
-GLuint
+uint64_t
 baseInstance
 unsigned
 int
@@ -660,13 +660,13 @@ gl
 :
 VertexAttribType
 currentValueType
-GLint
+size_t
 start
 size_t
 count
 GLsizei
 instances
-GLuint
+uint64_t
 baseInstance
 unsigned
 int
@@ -709,7 +709,7 @@ size_t
 count
 GLsizei
 instances
-GLuint
+uint64_t
 baseInstance
 )
 ;
@@ -812,7 +812,7 @@ gl
 VertexBinding
 &
 binding
-GLint
+size_t
 start
 GLsizei
 count
