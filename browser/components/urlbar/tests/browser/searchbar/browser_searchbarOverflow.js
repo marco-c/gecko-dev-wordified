@@ -703,8 +703,6 @@ engine2
 '
 )
 .
-button
-.
 click
 (
 )
