@@ -20184,7 +20184,7 @@ defined
 GP_PLAT_amd64_freebsd
 )
 uintptr_t
-rEDZONE_SIZE
+REDZONE_SIZE
 =
 128
 ;
@@ -20199,7 +20199,7 @@ Value
 (
 )
 -
-rEDZONE_SIZE
+REDZONE_SIZE
 ;
 #
 elif
@@ -20214,7 +20214,7 @@ defined
 GP_PLAT_arm_android
 )
 uintptr_t
-rEDZONE_SIZE
+REDZONE_SIZE
 =
 0
 ;
@@ -20229,7 +20229,7 @@ Value
 (
 )
 -
-rEDZONE_SIZE
+REDZONE_SIZE
 ;
 #
 elif
@@ -20251,7 +20251,7 @@ defined
 GP_PLAT_arm64_freebsd
 )
 uintptr_t
-rEDZONE_SIZE
+REDZONE_SIZE
 =
 0
 ;
@@ -20266,7 +20266,7 @@ Value
 (
 )
 -
-rEDZONE_SIZE
+REDZONE_SIZE
 ;
 #
 elif
@@ -20281,7 +20281,7 @@ defined
 GP_PLAT_x86_android
 )
 uintptr_t
-rEDZONE_SIZE
+REDZONE_SIZE
 =
 0
 ;
@@ -20296,7 +20296,7 @@ Value
 (
 )
 -
-rEDZONE_SIZE
+REDZONE_SIZE
 ;
 #
 elif
@@ -20305,7 +20305,7 @@ defined
 GP_PLAT_mips64_linux
 )
 uintptr_t
-rEDZONE_SIZE
+REDZONE_SIZE
 =
 0
 ;
@@ -20320,7 +20320,7 @@ Value
 (
 )
 -
-rEDZONE_SIZE
+REDZONE_SIZE
 ;
 #
 else
