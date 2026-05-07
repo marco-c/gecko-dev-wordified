@@ -1452,6 +1452,11 @@ mFixedPosTarget
 ;
 SideBits
 mFixedPosSides
+=
+SideBits
+:
+:
+eNone
 ;
 ScrollableLayerGuid
 :
