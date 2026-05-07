@@ -2282,7 +2282,7 @@ by
 the
 order
 of
-mAvailRuns
+mRunsAvail
 .
 mozilla
 :
