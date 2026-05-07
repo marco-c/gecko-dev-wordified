@@ -3863,7 +3863,7 @@ asIon
 (
 )
 .
-getScriptSource
+getScriptKey
 (
 0
 )
@@ -3936,7 +3936,7 @@ asBaseline
 (
 )
 .
-scriptSource
+scriptKey
 (
 )
 .

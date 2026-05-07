@@ -747,7 +747,7 @@ count
 .
 sourceId
 =
-getScriptSource
+getScriptKey
 (
 scriptIdx
 )
@@ -820,6 +820,8 @@ ImmutableScriptData
 isd
 =
 scriptData
+.
+scriptKey
 .
 sharedData
 -
@@ -1198,7 +1200,7 @@ results
 .
 sourceId
 =
-scriptSource
+scriptKey
 (
 )
 .
@@ -4992,7 +4994,7 @@ scriptIdx
 .
 scriptData
 .
-sourceAndExtent
+scriptKey
 .
 matches
 (
@@ -6233,7 +6235,7 @@ scriptList
 .
 scriptData
 .
-sourceAndExtent
+scriptKey
 .
 scriptSource
 -
@@ -6248,7 +6250,7 @@ scriptList
 .
 scriptData
 .
-sourceAndExtent
+scriptKey
 .
 toStringStart
 scriptList
@@ -6258,7 +6260,7 @@ scriptList
 .
 scriptData
 .
-sourceAndExtent
+scriptKey
 .
 toStringEnd
 mozilla
@@ -6338,7 +6340,7 @@ i
 .
 scriptData
 .
-sourceAndExtent
+scriptKey
 .
 scriptSource
 -
@@ -6353,7 +6355,7 @@ i
 .
 scriptData
 .
-sourceAndExtent
+scriptKey
 .
 toStringStart
 scriptList
@@ -6363,7 +6365,7 @@ i
 .
 scriptData
 .
-sourceAndExtent
+scriptKey
 .
 toStringEnd
 )
