@@ -1869,7 +1869,8 @@ JxlColorProfile
 >
 Result
 <
-bool
+(
+)
 >
 {
 if
@@ -1884,7 +1885,8 @@ needs_blending
 return
 Ok
 (
-false
+(
+)
 )
 ;
 }
@@ -1943,7 +1945,8 @@ lf_level
 return
 Ok
 (
-false
+(
+)
 )
 ;
 }
@@ -2002,7 +2005,8 @@ else
 return
 Ok
 (
-false
+(
+)
 )
 ;
 }
@@ -2017,7 +2021,8 @@ is_linear
 return
 Ok
 (
-false
+(
+)
 )
 ;
 }
@@ -2087,7 +2092,8 @@ alpha
 return
 Ok
 (
-false
+(
+)
 )
 ;
 }
@@ -2174,7 +2180,8 @@ buffers
 return
 Ok
 (
-false
+(
+)
 )
 ;
 }
@@ -2219,7 +2226,8 @@ is_none
 return
 Ok
 (
-false
+(
+)
 )
 ;
 }
@@ -2578,10 +2586,6 @@ output_tf
 }
 Ok
 (
-!
-regions
-.
-is_empty
 (
 )
 )

@@ -152,7 +152,7 @@ than
 this
 number
 of
-samples
+pixels
 or
 with
 frames
@@ -165,7 +165,7 @@ than
 this
 number
 of
-samples
+pixels
 .
 The
 limit
@@ -197,10 +197,10 @@ has
 /
 /
 million
-samples
+pixels
 .
 pub
-sample_limit
+pixel_limit
 :
 Option
 <
@@ -426,7 +426,7 @@ Pass
 cms
 :
 None
-sample_limit
+pixel_limit
 :
 None
 high_precision

@@ -799,11 +799,6 @@ finalize_lf
 )
 ?
 ;
-self
-.
-pixels_dirty
-|
-=
 frame
 .
 decode_and_render_hf_groups
@@ -1397,11 +1392,6 @@ clear
 )
 ;
 }
-self
-.
-pixels_dirty
-|
-=
 frame
 .
 decode_and_render_hf_groups
@@ -1478,11 +1468,6 @@ can_do_early_rendering
 (
 )
 {
-self
-.
-pixels_dirty
-|
-=
 frame
 .
 decode_and_render_hf_groups

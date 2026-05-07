@@ -5514,6 +5514,10 @@ iter_mut
 zip
 (
 buf_tmp
+.
+into_iter
+(
+)
 )
 )
 {
@@ -6513,6 +6517,10 @@ iter
 zip
 (
 out_bufs
+.
+into_iter
+(
+)
 )
 {
 buffers
