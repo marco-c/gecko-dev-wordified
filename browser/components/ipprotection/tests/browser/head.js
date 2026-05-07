@@ -2353,7 +2353,7 @@ setupSandbox
 .
 stub
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 "
 hasUpgraded
 "
