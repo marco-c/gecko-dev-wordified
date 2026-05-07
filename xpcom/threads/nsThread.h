@@ -1761,6 +1761,8 @@ Relaxed
 >
 *
 mIsAPoolThreadFreePtr
+=
+nullptr
 ;
 /
 /

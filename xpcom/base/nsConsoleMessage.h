@@ -111,12 +111,16 @@ default
 ;
 int64_t
 mMicroSecondTimeStamp
+=
+0
 ;
 nsString
 mMessage
 ;
 bool
 mIsForwardedFromContentProcess
+=
+false
 ;
 }
 ;

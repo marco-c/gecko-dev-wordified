@@ -3129,6 +3129,8 @@ generation
 .
 uint8_t
 mHashShift
+=
+0
 ;
 /
 /
