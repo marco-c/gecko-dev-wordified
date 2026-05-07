@@ -8931,7 +8931,13 @@ servers
 .
 push_back
 (
+std
+:
+:
+move
+(
 server
+)
 )
 ;
 }
