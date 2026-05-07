@@ -683,14 +683,6 @@ testResetFOG
 (
 )
 ;
-Services
-.
-telemetry
-.
-clearEvents
-(
-)
-;
 await
 setStorage
 (

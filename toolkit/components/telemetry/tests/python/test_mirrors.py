@@ -310,12 +310,6 @@ shown
 "
     
 "
-address
-#
-address_form
-"
-    
-"
 pwmgr
 #
 mgmt_interaction

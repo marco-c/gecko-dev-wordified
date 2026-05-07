@@ -175,13 +175,6 @@ number
 )
 ]
 ;
-await
-assertTelemetry
-(
-undefined
-expectedFormEvents
-)
-;
 assertFormInteractionEventsInGlean
 (
 expectedFormEvents
@@ -374,13 +367,6 @@ number
 }
 )
 ]
-;
-await
-assertTelemetry
-(
-undefined
-expectedFormEvents
-)
 ;
 assertFormInteractionEventsInGlean
 (
