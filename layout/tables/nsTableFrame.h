@@ -4643,6 +4643,15 @@ bool
 aValue
 )
 ;
+mozilla
+:
+:
+TableBCData
+*
+GetOrCreateTableBCData
+(
+)
+;
 void
 SetFullBCDamageArea
 (
