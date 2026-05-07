@@ -1859,9 +1859,9 @@ indexOf
 if
 (
 !
-nativeSelectEnabled
-(
-)
+selectPopup
+.
+isNativeMenu
 )
 {
 numberMove
@@ -1926,9 +1926,9 @@ waitForPreview
 {
 if
 (
-nativeSelectEnabled
-(
-)
+selectPopup
+.
+isNativeMenu
 )
 {
 selectPopup

@@ -1007,9 +1007,9 @@ popuphidden
 ;
 if
 (
-nativeSelectEnabled
-(
-)
+popup
+.
+isNativeMenu
 )
 {
 popup
