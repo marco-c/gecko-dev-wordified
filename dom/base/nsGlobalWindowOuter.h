@@ -1447,7 +1447,7 @@ final
 ;
 nsIGlobalObject
 *
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const

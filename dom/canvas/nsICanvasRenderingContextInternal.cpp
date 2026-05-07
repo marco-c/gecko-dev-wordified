@@ -657,7 +657,7 @@ global
 mOffscreenCanvas
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -949,7 +949,7 @@ do_QueryInterface
 mOffscreenCanvas
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

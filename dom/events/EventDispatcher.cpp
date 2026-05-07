@@ -852,7 +852,7 @@ do_QueryInterface
 aEventTarget
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -6577,7 +6577,7 @@ global
 target
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -8444,7 +8444,7 @@ aEvent
 mTarget
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

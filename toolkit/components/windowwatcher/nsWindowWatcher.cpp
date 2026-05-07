@@ -3328,7 +3328,7 @@ browserElement
 browserElement
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 &
@@ -3336,7 +3336,7 @@ GetOwnerGlobal
 browserElement
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 -
@@ -3351,7 +3351,7 @@ parentWindowOuter
 browserElement
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 -

@@ -124,7 +124,7 @@ AudioTrack
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 const
 nsAString
 &
@@ -150,7 +150,7 @@ aStreamTrack
 :
 MediaTrack
 (
-aOwnerGlobal
+aRelevantGlobal
 aId
 aKind
 aLabel

@@ -8863,7 +8863,7 @@ global
 target
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

@@ -9423,7 +9423,7 @@ global
 aNode
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

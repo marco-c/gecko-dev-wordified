@@ -1048,7 +1048,7 @@ nsIGlobalObject
 >
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

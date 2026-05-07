@@ -8441,7 +8441,7 @@ global
 mTarget
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

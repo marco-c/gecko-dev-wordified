@@ -4050,7 +4050,7 @@ global
 target
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

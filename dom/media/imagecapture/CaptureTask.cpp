@@ -345,7 +345,7 @@ Create
 mImageCapture
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 blobImpl

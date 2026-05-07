@@ -200,7 +200,7 @@ GetParentObject
 const
 {
 return
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

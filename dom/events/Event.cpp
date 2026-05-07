@@ -1725,7 +1725,7 @@ global
 eventTarget
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -2232,7 +2232,7 @@ global
 et
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

@@ -3662,7 +3662,7 @@ global
 mWebSocket
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -9404,7 +9404,7 @@ mImpl
 mDisconnectingOrDisconnected
 )
 {
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 -
@@ -12216,7 +12216,7 @@ jsapi
 .
 Init
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -12324,7 +12324,7 @@ Blob
 :
 CreateStringBlob
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aData
