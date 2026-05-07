@@ -94,7 +94,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 IdentityProvider
-mOwner
+mGlobal
 )
 IdentityProvider
 :
@@ -149,14 +149,14 @@ nsIGlobalObject
 aGlobal
 )
 :
-mOwner
+mGlobal
 (
 aGlobal
 )
 {
 MOZ_ASSERT
 (
-mOwner
+mGlobal
 )
 ;
 }

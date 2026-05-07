@@ -750,7 +750,7 @@ BindToGlobal
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 {
 GlobalTeardownObserver
@@ -758,7 +758,7 @@ GlobalTeardownObserver
 :
 BindToGlobal
 (
-aOwner
+aGlobal
 )
 ;
 GlobalFreezeObserver
@@ -766,7 +766,7 @@ GlobalFreezeObserver
 :
 BindToGlobal
 (
-aOwner
+aGlobal
 )
 ;
 }

@@ -227,7 +227,7 @@ GetParentObject
 const
 {
 return
-mOwner
+mGlobal
 ;
 }
 void
@@ -313,7 +313,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwner
+mGlobal
 ;
 RefPtr
 <

@@ -731,7 +731,7 @@ FrozenCallback
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 override
 {
@@ -765,7 +765,7 @@ ThawedCallback
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 override
 {
