@@ -1520,6 +1520,9 @@ break
 case
 kVendorID_Qualcomm
 :
+case
+kVendorID_Qualcomm_DXGI
+:
 gpu
 .
 driverVendor
