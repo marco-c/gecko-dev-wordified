@@ -176,6 +176,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGImageContext
 .
 h

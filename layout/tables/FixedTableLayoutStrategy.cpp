@@ -105,6 +105,15 @@ h
 #
 include
 "
+mozilla
+/
+ReflowInput
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

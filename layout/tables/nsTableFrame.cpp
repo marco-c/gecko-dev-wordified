@@ -148,6 +148,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RestyleManager
 .
 h

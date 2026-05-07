@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGContainerFrame
 .
 h

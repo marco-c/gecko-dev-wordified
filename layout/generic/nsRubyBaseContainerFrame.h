@@ -93,6 +93,9 @@ nsContainerFrame
 .
 h
 "
+class
+nsLineLayout
+;
 namespace
 mozilla
 {

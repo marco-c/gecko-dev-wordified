@@ -107,6 +107,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPresData
 .
 h

@@ -87,6 +87,15 @@ h
 #
 include
 "
+mozilla
+/
+ReflowInput
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

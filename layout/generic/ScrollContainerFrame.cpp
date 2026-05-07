@@ -337,6 +337,15 @@ include
 "
 mozilla
 /
+ReflowInput
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGOuterSVGFrame
 .
 h
