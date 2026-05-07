@@ -4510,6 +4510,9 @@ self
 )
 :
         
+import
+inspect
+        
 from
 talos
 import
@@ -4539,6 +4542,15 @@ fromlist
 test_lists
 )
         
+mod_path
+=
+inspect
+.
+getfile
+(
+mod
+)
+        
 suite_name
 =
 "
@@ -4566,10 +4578,17 @@ suite_name
 update
 (
 {
+                
 test
 :
 {
+"
+path
+"
+:
+mod_path
 }
+            
 }
 )
             

@@ -5980,7 +5980,6 @@ lint_error
 called
     
 assert
-not
 PerfDocLogger
 .
 FAILED

@@ -2179,16 +2179,10 @@ run
 .
 /
 mach
-lint
--
-l
 perfdocs
 -
 -
-outgoing
--
--
-fix
+generate
 "
                 
 +

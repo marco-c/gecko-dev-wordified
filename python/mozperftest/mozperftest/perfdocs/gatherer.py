@@ -472,6 +472,7 @@ hg
             
 str
 (
+                
 pathlib
 .
 Path
@@ -485,7 +486,11 @@ python
 "
 mozperftest
 "
+"
+mozperftest
+"
 )
+            
 )
             
 str

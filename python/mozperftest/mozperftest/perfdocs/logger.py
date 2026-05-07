@@ -353,6 +353,46 @@ files
 files
 ]
         
+#
+Always
+set
+FAILED
+to
+true
+when
+a
+warning
+is
+output
+.
+This
+will
+let
+us
+fail
+        
+#
+even
+on
+pushes
+that
+don
+'
+t
+contain
+outgoing
+files
+(
+in
+production
+)
+        
+PerfDocLogger
+.
+FAILED
+=
+True
+        
 if
 len
 (
@@ -422,12 +462,6 @@ file
 "
             
 )
-            
-PerfDocLogger
-.
-FAILED
-=
-True
             
 return
         

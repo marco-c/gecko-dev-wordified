@@ -797,3 +797,8 @@ generator
 generate_perfdocs
 (
 )
+    
+return
+PerfDocLogger
+.
+FAILED
