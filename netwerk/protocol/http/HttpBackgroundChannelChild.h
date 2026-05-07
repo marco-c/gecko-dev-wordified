@@ -762,6 +762,8 @@ process
 .
 ODASource
 mFirstODASource
+=
+ODA_PENDING
 ;
 /
 /

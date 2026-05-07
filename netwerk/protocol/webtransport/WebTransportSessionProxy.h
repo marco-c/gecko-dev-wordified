@@ -1365,6 +1365,8 @@ mMutex
 ;
 bool
 mDedicatedConnection
+=
+false
 ;
 /
 /

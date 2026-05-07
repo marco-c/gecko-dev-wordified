@@ -64,11 +64,6 @@ define
 mozilla_net_SocketProcessBridgeChild_h
 #
 include
-<
-functional
->
-#
-include
 "
 mozilla
 /
@@ -265,6 +260,8 @@ mShuttingDown
 ;
 ProcessId
 mSocketProcessPid
+=
+0
 ;
 }
 ;

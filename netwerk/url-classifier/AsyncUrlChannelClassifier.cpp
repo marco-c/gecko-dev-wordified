@@ -804,6 +804,11 @@ nsIUrlClassifierFeature
 :
 URIType
 mURIType
+=
+nsIUrlClassifierFeature
+:
+:
+blocklistURI
 ;
 }
 ;

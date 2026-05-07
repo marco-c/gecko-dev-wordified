@@ -235,6 +235,8 @@ mCorsUnsafeHeaders
 ;
 nsID
 mSandboxedNullPrincipalID
+{
+}
 ;
 Maybe
 <

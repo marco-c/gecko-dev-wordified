@@ -1074,6 +1074,8 @@ mStatus
 ;
 bool
 mIsNonSubresourceRequest
+=
+false
 ;
 /
 /
