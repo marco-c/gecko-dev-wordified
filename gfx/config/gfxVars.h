@@ -922,6 +922,14 @@ UseWebRenderDCompositionTextureOverlayWin
 bool
 false
 )
+\
+_
+(
+VideoHDR
+bool
+false
+)
+\
 /
 *
 Add
