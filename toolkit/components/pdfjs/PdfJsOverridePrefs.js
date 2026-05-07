@@ -274,12 +274,6 @@ true
 ;
 #
 endif
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 pref
 (
 "
@@ -290,5 +284,3 @@ enableOptimizedPartialRendering
 true
 )
 ;
-#
-endif
