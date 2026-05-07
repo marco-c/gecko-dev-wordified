@@ -451,8 +451,10 @@ side
 *
 /
 virtual
+already_AddRefed
+<
 PTextureChild
-*
+>
 CreateTexture
 (
 const
