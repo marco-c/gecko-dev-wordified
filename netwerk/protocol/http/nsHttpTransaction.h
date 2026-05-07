@@ -1247,6 +1247,8 @@ nodiscard
 bool
 Do0RTT
 (
+bool
+aCanSendEarlyData
 )
 override
 ;
@@ -4184,12 +4186,12 @@ mIsResettingForTunnelConn
 false
 ;
 bool
-mEarlyDataWasAvailable
+mResumptionAttempted
 =
 false
 ;
 bool
-ShouldRestartOn0RttError
+ShouldRestartOnResumptionError
 (
 nsresult
 reason
