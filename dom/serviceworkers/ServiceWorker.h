@@ -182,7 +182,7 @@ Create
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 const
 ServiceWorkerDescriptor
 &

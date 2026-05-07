@@ -1440,7 +1440,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwner
+mGlobal
 ;
 /
 /
@@ -1477,7 +1477,7 @@ FetchBody
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 ;
 virtual
@@ -1655,7 +1655,7 @@ GetParentObject
 const
 {
 return
-mOwner
+mGlobal
 ;
 }
 AbortSignalImpl

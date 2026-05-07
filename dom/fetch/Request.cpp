@@ -274,7 +274,7 @@ Request
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mOwner
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -300,7 +300,7 @@ Request
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mOwner
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -334,7 +334,7 @@ Request
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 SafeRefPtr
 <
 InternalRequest
@@ -350,7 +350,7 @@ FetchBody
 Request
 >
 (
-aOwner
+aGlobal
 )
 mRequest
 (
@@ -486,7 +486,7 @@ AbortSignal
 :
 Any
 (
-aOwner
+aGlobal
 array
 [
 ]
@@ -3315,7 +3315,7 @@ MakeSafeRefPtr
 Request
 >
 (
-mOwner
+mGlobal
 std
 :
 :
@@ -3349,7 +3349,7 @@ mHeaders
 new
 Headers
 (
-mOwner
+mGlobal
 mRequest
 -
 >
@@ -3385,7 +3385,7 @@ AbortSignal
 :
 Create
 (
-mOwner
+mGlobal
 SignalAborted
 :
 :

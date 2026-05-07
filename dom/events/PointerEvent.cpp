@@ -2893,7 +2893,7 @@ owner
 =
 do_QueryInterface
 (
-mOwner
+mGlobal
 )
 ;
 for

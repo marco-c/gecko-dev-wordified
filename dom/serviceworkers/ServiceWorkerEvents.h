@@ -1014,7 +1014,7 @@ GetParentObject
 const
 {
 return
-mOwner
+mGlobal
 ;
 }
 void
@@ -1108,7 +1108,7 @@ PushMessageData
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 nsTArray
 <
 uint8_t
@@ -1124,7 +1124,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwner
+mGlobal
 ;
 nsTArray
 <

@@ -288,7 +288,7 @@ GetParentObject
 const
 {
 return
-mOwner
+mGlobal
 ;
 }
 static
@@ -324,7 +324,7 @@ Create
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 ;
 already_AddRefed
@@ -449,7 +449,7 @@ Instance
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 ;
 virtual
@@ -464,7 +464,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwner
+mGlobal
 ;
 RefPtr
 <

@@ -113,7 +113,7 @@ GetParentObject
 const
 {
 return
-mOwner
+mGlobal
 ;
 }
 JSObject
@@ -207,7 +207,7 @@ TextFormat
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 ;
 ~
@@ -221,7 +221,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwner
+mGlobal
 ;
 }
 ;

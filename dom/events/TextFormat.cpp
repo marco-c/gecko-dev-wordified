@@ -87,7 +87,7 @@ TextFormat
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 TextFormat
-mOwner
+mGlobal
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -106,12 +106,12 @@ TextFormat
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 :
-mOwner
+mGlobal
 (
-aOwner
+aGlobal
 )
 {
 }
