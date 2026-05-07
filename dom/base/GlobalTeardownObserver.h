@@ -315,7 +315,7 @@ BindToGlobal
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 ;
 private

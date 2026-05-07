@@ -738,7 +738,7 @@ FrozenCallback
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 {
 /

@@ -172,7 +172,7 @@ BindToGlobal
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 )
 {
 MOZ_ASSERT
@@ -183,14 +183,14 @@ mParentObject
 ;
 if
 (
-aOwner
+aGlobal
 )
 {
 mParentObject
 =
-aOwner
+aGlobal
 ;
-aOwner
+aGlobal
 -
 >
 AddGlobalTeardownObserver
@@ -204,7 +204,7 @@ isWindow
 =
 !
 !
-aOwner
+aGlobal
 -
 >
 GetAsInnerWindow

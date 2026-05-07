@@ -6032,7 +6032,7 @@ PushMessageData
 (
 nsIGlobalObject
 *
-aOwner
+aGlobal
 nsTArray
 <
 uint8_t
@@ -6042,9 +6042,9 @@ uint8_t
 aBytes
 )
 :
-mOwner
+mGlobal
 (
-aOwner
+aGlobal
 )
 mBytes
 (
@@ -6066,7 +6066,7 @@ jsapi
 .
 Init
 (
-mOwner
+mGlobal
 )
 )
 {
@@ -6094,7 +6094,7 @@ default
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 PushMessageData
-mOwner
+mGlobal
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
@@ -6362,7 +6362,7 @@ BodyUtil
 :
 ConsumeBlob
 (
-mOwner
+mGlobal
 u
 "
 "
