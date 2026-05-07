@@ -61,8 +61,8 @@ nserror
 :
 :
 {
-NS_ERROR_NULL_POINTER
 nsresult
+NS_ERROR_NULL_POINTER
 }
 ;
 /

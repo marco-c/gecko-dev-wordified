@@ -159,7 +159,7 @@ properties
 :
 :
 {
-CASCADE_PROPERTY
+property_counts
 CSSWideKeyword
 ComputedValues
 DeclarationImportanceIterator
@@ -171,7 +171,7 @@ PropertyDeclarationId
 PropertyFlags
 ShorthandsWithPropertyReferencesCache
 StyleBuilder
-property_counts
+CASCADE_PROPERTY
 }
 ;
 use
