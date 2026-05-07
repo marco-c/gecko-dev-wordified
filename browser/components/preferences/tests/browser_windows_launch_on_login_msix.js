@@ -276,7 +276,7 @@ enabled
 await
 WindowsLaunchOnLogin
 .
-getLaunchOnLoginEnabled
+getLaunchOnLoginEnabledMSIX
 (
 )
 ;
@@ -333,7 +333,7 @@ enabled
 await
 WindowsLaunchOnLogin
 .
-getLaunchOnLoginEnabled
+getLaunchOnLoginEnabledMSIX
 (
 )
 ;
