@@ -485,13 +485,6 @@ defined
 (
 _MSC_VER
 )
-&
-&
-!
-defined
-(
-MOZ_SANDBOX
-)
 static_assert
 (
 StrEndsWith
