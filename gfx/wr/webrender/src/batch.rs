@@ -11549,7 +11549,6 @@ PrimitiveKind
 YuvImage
 {
 data_handle
-compositor_surface_kind
 .
 .
 }
@@ -11564,6 +11563,8 @@ prim_info
 segment_instance_index
 ;
 if
+prim_info
+.
 compositor_surface_kind
 .
 needs_cutout
@@ -11929,7 +11930,6 @@ PrimitiveKind
 Image
 {
 data_handle
-compositor_surface_kind
 .
 .
 }
@@ -11948,6 +11948,8 @@ unwrap_image
 )
 ;
 if
+prim_info
+.
 compositor_surface_kind
 .
 needs_cutout

@@ -113,15 +113,6 @@ use
 crate
 :
 :
-composite
-:
-:
-CompositorSurfaceKind
-;
-use
-crate
-:
-:
 clip
 :
 :
@@ -4571,9 +4562,6 @@ primitive
 data_handle
 :
 YuvImageDataHandle
-compositor_surface_kind
-:
-CompositorSurfaceKind
 }
 Image
 {
@@ -4593,9 +4581,6 @@ primitive
 data_handle
 :
 ImageDataHandle
-compositor_surface_kind
-:
-CompositorSurfaceKind
 }
 LinearGradient
 {
