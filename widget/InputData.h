@@ -4096,9 +4096,13 @@ zero
 .
 int32_t
 mLineOrPageDeltaY
+=
+0
 ;
 bool
 mHandledByAPZ
+=
+false
 ;
 }
 ;
@@ -5090,6 +5094,8 @@ mIsMomentum
 ;
 bool
 mAllowToOverrideSystemScrollSpeed
+=
+false
 ;
 /
 /
@@ -5120,6 +5126,11 @@ delta
 .
 WheelDeltaAdjustmentStrategy
 mWheelDeltaAdjustmentStrategy
+=
+WheelDeltaAdjustmentStrategy
+:
+:
+eNone
 ;
 APZWheelAction
 mAPZAction

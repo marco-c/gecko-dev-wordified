@@ -118,6 +118,8 @@ unnecessarily
 unsigned
 long
 mCurrentProgress
+=
+0
 ;
 RefPtr
 <
