@@ -1319,7 +1319,7 @@ Bug
 await
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 promiseDocumentFlushed
 (

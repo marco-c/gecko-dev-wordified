@@ -882,7 +882,7 @@ synthesizeKey
 }
 gTree
 .
-ownerGlobal
+documentGlobal
 )
 ;
 Assert
@@ -1148,7 +1148,7 @@ y
 }
 gTree
 .
-ownerGlobal
+documentGlobal
 )
 ;
 Assert
@@ -1572,7 +1572,7 @@ KEY_Enter
 }
 gTree
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -1595,7 +1595,7 @@ KEY_Enter
 }
 gTree
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /
@@ -1994,7 +1994,7 @@ clickCount
 }
 gTree
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /
@@ -2023,7 +2023,7 @@ clickCount
 }
 gTree
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -2049,7 +2049,7 @@ KEY_Enter
 }
 gTree
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /

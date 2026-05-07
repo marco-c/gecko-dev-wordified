@@ -372,7 +372,7 @@ VK_TAB
 }
 selectorContainerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -431,7 +431,7 @@ VK_RETURN
 }
 selectorContainerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 data
@@ -531,7 +531,7 @@ VK_RETURN
 }
 selectorContainerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

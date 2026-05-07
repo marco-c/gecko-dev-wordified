@@ -6932,7 +6932,7 @@ win
 =
 aNode
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -13062,7 +13062,7 @@ win
 =
 aNode
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

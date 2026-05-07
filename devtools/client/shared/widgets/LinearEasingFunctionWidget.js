@@ -483,7 +483,7 @@ reducedMotion
 =
 parent
 .
-ownerGlobal
+documentGlobal
 .
 matchMedia
 (

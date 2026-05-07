@@ -1424,7 +1424,7 @@ megalistChromeWindow
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 [
 0
 ]

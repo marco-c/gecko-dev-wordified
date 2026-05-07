@@ -133,7 +133,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 {
 xulFrameLoaderCreatedListenerInfo

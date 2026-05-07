@@ -1140,7 +1140,7 @@ ok
 !
 browser
 .
-ownerGlobal
+documentGlobal
 "
 openFirefoxView
 called
@@ -1158,7 +1158,7 @@ equal
 typeof
 browser
 .
-ownerGlobal
+documentGlobal
 .
 FirefoxViewHandler
 .

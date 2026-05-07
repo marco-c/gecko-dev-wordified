@@ -1717,7 +1717,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 (
 )
 {
@@ -1757,7 +1757,7 @@ _target
 .
 browser
 .
-ownerGlobal
+documentGlobal
 )
 )
 ;
@@ -2251,7 +2251,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -2438,7 +2438,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -2622,7 +2622,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -2806,7 +2806,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -2958,7 +2958,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -3248,7 +3248,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -3405,7 +3405,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -3585,7 +3585,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -3786,7 +3786,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 openTrustedLinkIn
@@ -3963,7 +3963,7 @@ _target
 browser
 :
 {
-ownerGlobal
+documentGlobal
 :
 {
 gURLBar

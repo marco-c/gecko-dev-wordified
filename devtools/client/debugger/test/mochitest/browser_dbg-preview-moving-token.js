@@ -726,7 +726,7 @@ mouseover
 }
 fooTokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1042,7 +1042,7 @@ mousemove
 }
 privateStaticPopupEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -1066,7 +1066,7 @@ mousemove
 }
 fooTokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info
@@ -1137,7 +1137,7 @@ mousemove
 }
 fooTokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info

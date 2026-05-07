@@ -109,7 +109,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 }
 )
@@ -291,7 +291,7 @@ generalWin
 =
 generalDoc
 .
-ownerGlobal
+documentGlobal
 ;
 let
 linkPreviewSetting
@@ -531,7 +531,7 @@ docShell
 .
 chromeEventHandler
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -836,7 +836,7 @@ generalWin
 =
 generalDoc
 .
-ownerGlobal
+documentGlobal
 ;
 let
 tabGroupSetting
@@ -1162,7 +1162,7 @@ generalWin
 =
 generalDoc
 .
-ownerGlobal
+documentGlobal
 ;
 let
 translationsSetting
@@ -1399,7 +1399,7 @@ docShell
 .
 chromeEventHandler
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -1635,7 +1635,7 @@ generalWin
 =
 generalDoc
 .
-ownerGlobal
+documentGlobal
 ;
 let
 linkPreviewSetting

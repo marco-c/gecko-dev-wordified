@@ -163,7 +163,7 @@ win
 =
 selectedTab
 .
-ownerGlobal
+documentGlobal
 ;
 const
 tabContextMenu

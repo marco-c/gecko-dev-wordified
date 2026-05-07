@@ -14335,7 +14335,7 @@ openIfNeeded
 (
 tab
 .
-ownerGlobal
+documentGlobal
 tab
 {
 trigger
@@ -14532,7 +14532,7 @@ closeIfNeeded
 (
 tab
 .
-ownerGlobal
+documentGlobal
 tab
 options
 )

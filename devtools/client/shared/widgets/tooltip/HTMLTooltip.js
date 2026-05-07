@@ -7449,7 +7449,7 @@ this
 .
 xulPanelWrapper
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

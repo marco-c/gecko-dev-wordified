@@ -94,7 +94,7 @@ win
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 const
 tab2

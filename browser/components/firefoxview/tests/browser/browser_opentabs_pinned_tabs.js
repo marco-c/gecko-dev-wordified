@@ -1198,7 +1198,7 @@ of
 tabs
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -1225,7 +1225,7 @@ tab
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 FirefoxViewHandler
 .
@@ -1234,7 +1234,7 @@ tab
 {
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

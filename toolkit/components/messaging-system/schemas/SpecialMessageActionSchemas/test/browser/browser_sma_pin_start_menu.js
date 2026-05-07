@@ -179,7 +179,7 @@ PIN_FIREFOX_TO_START_MENU
 "
 }
 {
-ownerGlobal
+documentGlobal
 :
 {
 getShellService

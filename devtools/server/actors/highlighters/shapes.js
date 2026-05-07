@@ -2297,7 +2297,7 @@ this
 .
 drawingNode
 .
-ownerGlobal
+documentGlobal
 this
 .
 drawingNode
@@ -3010,7 +3010,7 @@ this
 .
 currentNode
 .
-ownerGlobal
+documentGlobal
 !
 =
 =
@@ -3033,7 +3033,7 @@ this
 .
 currentNode
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -3318,7 +3318,7 @@ getFrameOffsets
 (
 target
 .
-ownerGlobal
+documentGlobal
 this
 .
 currentNode
@@ -22614,7 +22614,7 @@ this
 .
 currentNode
 .
-ownerGlobal
+documentGlobal
 .
 innerHeight
 ;
@@ -22625,7 +22625,7 @@ this
 .
 currentNode
 .
-ownerGlobal
+documentGlobal
 .
 innerWidth
 ;

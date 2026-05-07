@@ -1013,7 +1013,7 @@ cs
 =
 node
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

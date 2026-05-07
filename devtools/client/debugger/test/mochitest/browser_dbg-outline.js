@@ -501,7 +501,7 @@ sourcesTab
 }
 sourcesTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

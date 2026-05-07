@@ -112,7 +112,7 @@ reloadButton
 }
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -229,7 +229,7 @@ key
 ]
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

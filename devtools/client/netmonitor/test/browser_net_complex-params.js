@@ -1281,7 +1281,7 @@ VK_SPACE
 }
 rawDataToggle
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

@@ -8925,13 +8925,6 @@ GetOwnerGlobal
 const
 override
 ;
-nsPIDOMWindowOuter
-*
-GetOwnerGlobalForBindingsInternal
-(
-)
-override
-;
 /
 /
 The

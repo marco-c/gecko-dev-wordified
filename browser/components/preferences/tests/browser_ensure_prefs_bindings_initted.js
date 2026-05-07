@@ -95,7 +95,7 @@ prefReader
 =
 doc
 .
-ownerGlobal
+documentGlobal
 .
 Preferences
 ;

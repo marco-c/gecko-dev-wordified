@@ -190,7 +190,7 @@ tab
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /
@@ -1041,7 +1041,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 nativeTab
@@ -1135,7 +1135,7 @@ tab
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (
@@ -2228,7 +2228,7 @@ nativeTab
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 mobileWindowTracker
 .
@@ -2381,7 +2381,7 @@ nativeTab
 .
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

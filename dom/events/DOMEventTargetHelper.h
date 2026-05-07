@@ -531,13 +531,6 @@ aTypeWithOn
 )
 const
 ;
-nsPIDOMWindowOuter
-*
-GetOwnerGlobalForBindingsInternal
-(
-)
-override
-;
 /
 /
 Like

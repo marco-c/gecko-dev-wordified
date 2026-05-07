@@ -1637,7 +1637,7 @@ items
 i
 ]
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

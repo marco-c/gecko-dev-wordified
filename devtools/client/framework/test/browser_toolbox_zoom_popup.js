@@ -913,13 +913,13 @@ scale
 =
 popup
 .
-ownerGlobal
+documentGlobal
 .
 devicePixelRatio
 /
 doc
 .
-ownerGlobal
+documentGlobal
 .
 devicePixelRatio
 ;

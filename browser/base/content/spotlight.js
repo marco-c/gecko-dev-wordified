@@ -75,7 +75,7 @@ XPCOMUtils
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 ChromeUtils
 .
@@ -901,7 +901,7 @@ stopPropagation
 ;
 browser
 .
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (
@@ -931,7 +931,7 @@ pagehide
 {
 browser
 .
-ownerGlobal
+documentGlobal
 .
 removeEventListener
 (

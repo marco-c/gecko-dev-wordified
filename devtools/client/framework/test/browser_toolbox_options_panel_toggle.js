@@ -454,7 +454,7 @@ menuItem
 }
 menuItem
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -520,7 +520,7 @@ button
 }
 button
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

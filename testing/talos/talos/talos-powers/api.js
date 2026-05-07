@@ -2710,7 +2710,7 @@ msg
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }

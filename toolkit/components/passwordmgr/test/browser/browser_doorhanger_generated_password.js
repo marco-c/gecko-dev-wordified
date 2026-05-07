@@ -567,7 +567,7 @@ promiseFocus
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -5810,7 +5810,7 @@ promiseFocus
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -6797,7 +6797,7 @@ promiseFocus
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /

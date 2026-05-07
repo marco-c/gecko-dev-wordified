@@ -140,7 +140,7 @@ view
 :
 el
 .
-ownerGlobal
+documentGlobal
 }
 )
 )

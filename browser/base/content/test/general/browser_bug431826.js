@@ -301,7 +301,7 @@ equal
 (
 div
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -508,7 +508,7 @@ equal
 (
 div
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

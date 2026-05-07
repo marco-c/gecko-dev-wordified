@@ -530,7 +530,7 @@ iconCS
 =
 doc
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

@@ -852,7 +852,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -1003,7 +1003,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 let
@@ -1145,7 +1145,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 newValue
@@ -1291,7 +1291,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -1323,7 +1323,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 newValue
@@ -1502,7 +1502,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 newValue
@@ -1619,7 +1619,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 onTimeout
@@ -1665,7 +1665,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 raceWinner
@@ -1763,7 +1763,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 newValue
@@ -1940,7 +1940,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -1968,7 +1968,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 newValue
@@ -2093,7 +2093,7 @@ widget
 .
 parent
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info
