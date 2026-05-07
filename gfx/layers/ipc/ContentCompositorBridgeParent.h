@@ -1008,8 +1008,10 @@ aActor
 )
 override
 ;
+already_AddRefed
+<
 PWebRenderBridgeParent
-*
+>
 AllocPWebRenderBridgeParent
 (
 const
@@ -1027,15 +1029,6 @@ const
 WindowKind
 &
 aWindowKind
-)
-override
-;
-bool
-DeallocPWebRenderBridgeParent
-(
-PWebRenderBridgeParent
-*
-aActor
 )
 override
 ;
