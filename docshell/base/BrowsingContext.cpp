@@ -19657,7 +19657,13 @@ scriptLocation
 (
 )
 =
+std
+:
+:
+move
+(
 scriptLocation
+)
 ;
 JS
 :
