@@ -626,7 +626,7 @@ ELEMENT_NODE
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

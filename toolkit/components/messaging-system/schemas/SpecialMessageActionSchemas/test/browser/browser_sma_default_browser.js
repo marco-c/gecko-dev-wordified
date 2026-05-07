@@ -71,7 +71,7 @@ SET_DEFAULT_BROWSER
 "
 }
 {
-documentGlobal
+ownerGlobal
 :
 {
 getShellService

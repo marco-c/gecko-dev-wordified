@@ -266,7 +266,7 @@ isnot
 (
 emptyPlaceHolderEl
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -359,7 +359,7 @@ newLink
 }
 newLink
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -380,7 +380,7 @@ is
 (
 emptyPlaceHolderEl
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

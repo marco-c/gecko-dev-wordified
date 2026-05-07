@@ -286,7 +286,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -420,7 +420,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -556,7 +556,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -693,7 +693,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -1039,7 +1039,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -1404,7 +1404,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -1962,7 +1962,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -2319,7 +2319,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

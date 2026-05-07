@@ -544,7 +544,7 @@ win
 =
 root
 .
-documentGlobal
+ownerGlobal
 &
 &
 newTheme

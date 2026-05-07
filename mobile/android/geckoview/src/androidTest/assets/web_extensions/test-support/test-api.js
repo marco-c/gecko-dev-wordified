@@ -1319,7 +1319,7 @@ CustomEvent
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 return
 browser
@@ -1373,7 +1373,7 @@ CustomEvent
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 return
 browser

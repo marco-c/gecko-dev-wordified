@@ -152,12 +152,12 @@ LockManagerChild
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 :
-mGlobal
+mOwner
 (
-aGlobal
+aOwner
 )
 {
 if

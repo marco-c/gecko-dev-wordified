@@ -2252,7 +2252,7 @@ nsIGlobalObject
 nsBaseFilePicker
 :
 :
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 const
@@ -2380,7 +2380,7 @@ auto
 *
 innerParent
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -2461,7 +2461,7 @@ auto
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

@@ -409,7 +409,7 @@ Init
 element
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

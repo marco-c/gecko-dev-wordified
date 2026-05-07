@@ -40980,7 +40980,7 @@ global
 aTarget
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

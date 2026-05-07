@@ -876,7 +876,7 @@ VideoEncoderConfig
 ApplyResistFingerprintingIfNeeded
 (
 config
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

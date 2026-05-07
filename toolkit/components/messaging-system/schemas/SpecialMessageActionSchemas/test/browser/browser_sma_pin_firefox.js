@@ -219,7 +219,7 @@ PIN_FIREFOX_TO_TASKBAR
 "
 }
 {
-documentGlobal
+ownerGlobal
 :
 {
 getShellService

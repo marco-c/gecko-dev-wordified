@@ -1568,7 +1568,7 @@ win
 =
 this
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .
@@ -1659,7 +1659,7 @@ _scrollTimer
 {
 this
 .
-documentGlobal
+ownerGlobal
 .
 clearInterval
 (

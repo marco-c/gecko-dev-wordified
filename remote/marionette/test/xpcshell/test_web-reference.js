@@ -179,7 +179,7 @@ false
 ;
 this
 .
-documentGlobal
+ownerGlobal
 =
 {
 document
@@ -738,7 +738,7 @@ from
 (
 divEl
 .
-documentGlobal
+ownerGlobal
 )
 instanceof
 WebWindow

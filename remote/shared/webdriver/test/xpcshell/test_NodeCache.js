@@ -368,7 +368,7 @@ Bug
 1820734
 :
 No
-documentGlobal
+ownerGlobal
 is
 available
 in
@@ -462,7 +462,7 @@ Bug
 1820734
 :
 No
-documentGlobal
+ownerGlobal
 is
 available
 in

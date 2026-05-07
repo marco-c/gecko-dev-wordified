@@ -175,7 +175,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -314,7 +314,7 @@ repeat
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -509,7 +509,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let
@@ -692,7 +692,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -906,7 +906,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -1058,7 +1058,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 isStillFullscreen
@@ -1334,7 +1334,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -1684,7 +1684,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -2082,7 +2082,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -2296,7 +2296,7 @@ KEY_Escape
 }
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

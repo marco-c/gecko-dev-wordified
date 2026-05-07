@@ -120,7 +120,7 @@ win
 =
 panel
 .
-documentGlobal
+ownerGlobal
 ;
 isnot
 (

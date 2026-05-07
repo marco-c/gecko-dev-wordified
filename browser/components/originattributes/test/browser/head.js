@@ -357,7 +357,7 @@ tab
 ;
 tab
 .
-documentGlobal
+ownerGlobal
 .
 focus
 (
@@ -721,7 +721,7 @@ tab
 ;
 tab
 .
-documentGlobal
+ownerGlobal
 .
 focus
 (

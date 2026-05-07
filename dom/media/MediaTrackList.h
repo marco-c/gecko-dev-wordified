@@ -336,7 +336,7 @@ CreateAudioTrack
 (
 nsIGlobalObject
 *
-aRelevantGlobal
+aOwnerGlobal
 const
 nsAString
 &
@@ -395,7 +395,7 @@ CreateVideoTrack
 (
 nsIGlobalObject
 *
-aRelevantGlobal
+aOwnerGlobal
 const
 nsAString
 &

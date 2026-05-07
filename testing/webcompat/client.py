@@ -240,7 +240,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
                     
 win
@@ -12240,7 +12240,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
                 
 if

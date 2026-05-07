@@ -75,7 +75,7 @@ contextmenu
 }
 tab
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

@@ -1941,7 +1941,7 @@ nsIGlobalObject
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

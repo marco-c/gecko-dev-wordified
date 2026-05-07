@@ -4932,7 +4932,7 @@ top
 .
 embedderElement
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .
@@ -5031,7 +5031,7 @@ top
 .
 embedderElement
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .
@@ -6572,7 +6572,7 @@ top
 .
 embedderElement
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -11516,7 +11516,7 @@ top
 .
 embedderElement
 .
-documentGlobal
+ownerGlobal
 ;
 window
 .

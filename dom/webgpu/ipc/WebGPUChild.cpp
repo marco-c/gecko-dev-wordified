@@ -2292,7 +2292,7 @@ JsWarning
 device
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aMessage

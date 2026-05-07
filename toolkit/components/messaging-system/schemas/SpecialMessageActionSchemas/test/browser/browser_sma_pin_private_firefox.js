@@ -206,7 +206,7 @@ true
 }
 }
 {
-documentGlobal
+ownerGlobal
 :
 {
 getShellService

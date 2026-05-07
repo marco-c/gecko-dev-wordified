@@ -1732,7 +1732,7 @@ canAccessWindow
 (
 tab
 .
-documentGlobal
+ownerGlobal
 )
 )
 {

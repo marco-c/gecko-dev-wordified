@@ -535,7 +535,7 @@ gIdentityHandler
 =
 tabbrowser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 doc
@@ -577,7 +577,7 @@ identityIconImage
 =
 tabbrowser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -1209,7 +1209,7 @@ waitForEvent
 (
 tabbrowser
 .
-documentGlobal
+ownerGlobal
 "
 popupshown
 "
@@ -1478,7 +1478,7 @@ securityViewBG
 =
 tabbrowser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -1528,7 +1528,7 @@ securityContentBG
 =
 tabbrowser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

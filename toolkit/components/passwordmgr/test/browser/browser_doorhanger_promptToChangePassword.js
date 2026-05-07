@@ -727,7 +727,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let

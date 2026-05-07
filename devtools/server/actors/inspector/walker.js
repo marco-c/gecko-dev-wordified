@@ -8439,7 +8439,7 @@ node
 .
 rawNode
 .
-documentGlobal
+ownerGlobal
 HELPER_SHEET
 )
 ;

@@ -2789,7 +2789,7 @@ tabRowForTab2
 }
 tabRowForTab2
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

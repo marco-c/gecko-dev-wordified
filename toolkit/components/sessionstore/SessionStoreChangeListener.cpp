@@ -556,7 +556,7 @@ global
 target
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

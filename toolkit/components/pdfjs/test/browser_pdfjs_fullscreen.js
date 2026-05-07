@@ -133,7 +133,7 @@ painted
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (

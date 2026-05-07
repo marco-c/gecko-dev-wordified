@@ -254,7 +254,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

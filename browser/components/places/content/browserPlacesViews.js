@@ -4449,7 +4449,7 @@ event
 .
 currentTarget
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

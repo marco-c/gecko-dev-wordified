@@ -3734,7 +3734,7 @@ nsIGlobalObject
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -3987,7 +3987,7 @@ nsIGlobalObject
 >
 globalObject
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

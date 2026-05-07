@@ -1149,7 +1149,7 @@ promiseFocus
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 registerCleanupFunction

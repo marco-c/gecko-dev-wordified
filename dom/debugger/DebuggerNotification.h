@@ -131,7 +131,7 @@ DebuggerNotificationType
 aType
 nsIGlobalObject
 *
-aRelevantGlobal
+aOwnerGlobal
 =
 nullptr
 )
@@ -144,9 +144,9 @@ mDebuggeeGlobal
 (
 aDebuggeeGlobal
 )
-mRelevantGlobal
+mOwnerGlobal
 (
-aRelevantGlobal
+aOwnerGlobal
 )
 {
 }
@@ -159,7 +159,7 @@ const
 {
 MOZ_ASSERT
 (
-mRelevantGlobal
+mOwnerGlobal
 "
 Notification
 must
@@ -178,7 +178,7 @@ wrapped
 )
 ;
 return
-mRelevantGlobal
+mOwnerGlobal
 ;
 }
 DebuggerNotificationType
@@ -282,7 +282,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mRelevantGlobal
+mOwnerGlobal
 ;
 }
 ;

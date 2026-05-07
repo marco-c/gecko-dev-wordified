@@ -652,7 +652,7 @@ nativeTab
 scriptBrowser
 ?
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 ?

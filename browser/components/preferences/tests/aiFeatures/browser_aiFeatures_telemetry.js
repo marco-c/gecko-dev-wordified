@@ -1100,7 +1100,7 @@ confirmButton
 }
 dialogEl
 .
-documentGlobal
+ownerGlobal
 )
 )
 ;

@@ -1005,7 +1005,7 @@ header
 }
 type
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

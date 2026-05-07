@@ -635,7 +635,7 @@ observeStylingInTargetWindow
 (
 panel
 .
-documentGlobal
+ownerGlobal
 5
 )
 ;

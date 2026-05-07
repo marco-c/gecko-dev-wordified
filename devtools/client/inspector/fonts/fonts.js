@@ -6942,7 +6942,7 @@ this
 .
 document
 .
-documentGlobal
+ownerGlobal
 )
 }
 ;

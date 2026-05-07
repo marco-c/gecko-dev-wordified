@@ -1962,7 +1962,7 @@ historyMode
 }
 historyMode
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let
@@ -2067,7 +2067,7 @@ targetItem
 }
 targetItem
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -2350,7 +2350,7 @@ checkbox
 }
 checkbox
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -2470,7 +2470,7 @@ checkbox
 }
 checkbox
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -2973,7 +2973,7 @@ target
 }
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

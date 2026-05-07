@@ -1174,7 +1174,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 shown

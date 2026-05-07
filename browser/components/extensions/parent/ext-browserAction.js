@@ -406,7 +406,7 @@ get
 (
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -476,7 +476,7 @@ updateWindow
 (
 target
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -3483,7 +3483,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 let
 {
@@ -3627,7 +3627,7 @@ window
 =
 button
 .
-documentGlobal
+ownerGlobal
 ;
 switch
 (
@@ -5039,7 +5039,7 @@ tab
 :
 node
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -5544,7 +5544,7 @@ else
 {
 node
 .
-documentGlobal
+ownerGlobal
 .
 requestAnimationFrame
 (

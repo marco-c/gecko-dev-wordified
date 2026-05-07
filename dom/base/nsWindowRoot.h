@@ -361,9 +361,16 @@ return
 mParent
 ;
 }
+nsPIDOMWindowOuter
+*
+GetOwnerGlobalForBindingsInternal
+(
+)
+override
+;
 nsIGlobalObject
 *
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 const

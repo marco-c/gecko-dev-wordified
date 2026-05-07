@@ -719,7 +719,7 @@ popupWindow
 .
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

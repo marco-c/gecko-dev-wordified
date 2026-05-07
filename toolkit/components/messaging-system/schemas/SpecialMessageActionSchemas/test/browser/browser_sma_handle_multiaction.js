@@ -615,7 +615,7 @@ gBrowser
 |
 |
 {
-documentGlobal
+ownerGlobal
 :
 window
 }

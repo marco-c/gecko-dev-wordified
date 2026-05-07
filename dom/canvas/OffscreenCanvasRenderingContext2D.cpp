@@ -272,7 +272,7 @@ return
 mOffscreenCanvas
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

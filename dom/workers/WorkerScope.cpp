@@ -2037,7 +2037,7 @@ owner
 of
 itself
 .
-BindToGlobal
+BindToOwner
 (
 static_cast
 <

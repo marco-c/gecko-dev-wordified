@@ -10553,13 +10553,13 @@ win
 =
 osReauthCheckbox
 .
-documentGlobal
+ownerGlobal
 .
 docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /

@@ -1889,7 +1889,7 @@ win
 .
 parent
 .
-documentGlobal
+ownerGlobal
 ;
 }
 return

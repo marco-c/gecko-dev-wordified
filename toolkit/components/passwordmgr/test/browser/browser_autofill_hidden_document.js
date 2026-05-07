@@ -1088,7 +1088,7 @@ authenticate
 "
 tab1
 .
-documentGlobal
+ownerGlobal
 )
 ;
 /

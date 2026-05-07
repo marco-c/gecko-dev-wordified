@@ -3879,7 +3879,7 @@ openerTab
 =
 tab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

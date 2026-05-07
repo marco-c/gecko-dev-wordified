@@ -256,7 +256,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 )
 {
 xulFrameLoaderCreatedCounter
@@ -1376,7 +1376,7 @@ xulFrameLoaderCreatedCounter
 ;
 container_tab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -1466,7 +1466,7 @@ userContextId
 ;
 container_tab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

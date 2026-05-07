@@ -2764,7 +2764,7 @@ this
 .
 rawNode
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -2778,7 +2778,7 @@ this
 .
 rawNode
 .
-documentGlobal
+ownerGlobal
 .
 customElements
 ;
@@ -4467,7 +4467,7 @@ this
 .
 rawNode
 .
-documentGlobal
+ownerGlobal
 ;
 return
 {
@@ -4678,7 +4678,7 @@ this
 .
 rawNode
 .
-documentGlobal
+ownerGlobal
 .
 docShell
 ;

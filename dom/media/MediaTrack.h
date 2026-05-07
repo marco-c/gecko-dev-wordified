@@ -239,7 +239,7 @@ MediaTrack
 (
 nsIGlobalObject
 *
-aRelevantGlobal
+aOwnerGlobal
 const
 nsAString
 &

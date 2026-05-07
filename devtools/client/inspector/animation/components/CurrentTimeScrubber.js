@@ -480,7 +480,7 @@ getTopWindow
 (
 current
 .
-documentGlobal
+ownerGlobal
 )
 ;
 this

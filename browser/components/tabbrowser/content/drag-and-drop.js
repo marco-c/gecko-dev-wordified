@@ -9858,7 +9858,7 @@ SidebarController
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 SidebarController
 .
@@ -17022,7 +17022,7 @@ draggedTabContainer
 =
 draggedTabDocument
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -17733,7 +17733,7 @@ sourceNode
 &
 sourceNode
 .
-documentGlobal
+ownerGlobal
 .
 isChromeWindow
 &
@@ -17796,7 +17796,7 @@ isWindowPrivate
 (
 sourceNode
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -17815,7 +17815,7 @@ gMultiProcessBrowser
 =
 sourceNode
 .
-documentGlobal
+ownerGlobal
 .
 gMultiProcessBrowser
 )
@@ -17835,7 +17835,7 @@ gFissionBrowser
 =
 sourceNode
 .
-documentGlobal
+ownerGlobal
 .
 gFissionBrowser
 )

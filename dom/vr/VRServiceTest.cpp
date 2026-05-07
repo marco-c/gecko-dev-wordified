@@ -240,7 +240,7 @@ DOMEventTargetHelper
 aVRServiceTest
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -2298,7 +2298,7 @@ DOMEventTargetHelper
 aVRServiceTest
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

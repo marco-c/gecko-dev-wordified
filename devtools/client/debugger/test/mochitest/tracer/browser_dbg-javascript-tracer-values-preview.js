@@ -388,7 +388,7 @@ false
 ;
 tracerTree
 .
-documentGlobal
+ownerGlobal
 .
 focus
 (

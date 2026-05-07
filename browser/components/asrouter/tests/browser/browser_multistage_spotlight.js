@@ -217,7 +217,7 @@ waitForCondition
 !
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gDialogBox
 ?
@@ -1096,7 +1096,7 @@ ok
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 .
 gDialogBox
 .
@@ -1143,7 +1143,7 @@ parentWindow
 =
 browserFrame
 .
-documentGlobal
+ownerGlobal
 ;
 browserFrame
 .
@@ -1170,7 +1170,7 @@ ok
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 .
 gDialogBox
 .
@@ -1305,7 +1305,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 spotlight_url

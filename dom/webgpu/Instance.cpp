@@ -244,7 +244,7 @@ mParent
 GPU_IMPL_CYCLE_COLLECTION
 (
 Instance
-mGlobal
+mOwner
 mWgslLanguageFeatures
 )
 /
@@ -376,7 +376,7 @@ Create
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 {
 RefPtr
@@ -388,7 +388,7 @@ result
 new
 Instance
 (
-aGlobal
+aOwner
 )
 ;
 return
@@ -406,12 +406,12 @@ Instance
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 :
-mGlobal
+mOwner
 (
-aGlobal
+aOwner
 )
 mWgslLanguageFeatures
 (
@@ -670,7 +670,7 @@ Promise
 :
 Create
 (
-mGlobal
+mOwner
 aRv
 )
 ;
@@ -701,7 +701,7 @@ JSObject
 *
 obj
 =
-mGlobal
+mOwner
 -
 >
 GetGlobalJSObject
@@ -828,7 +828,7 @@ api
 .
 Init
 (
-mGlobal
+mOwner
 )
 )
 {
@@ -981,7 +981,7 @@ nsContentUtils
 :
 IsURIInList
 (
-mGlobal
+mOwner
 -
 >
 GetBaseURI
@@ -1167,7 +1167,7 @@ api
 .
 Init
 (
-mGlobal
+mOwner
 )
 )
 {
@@ -1278,7 +1278,7 @@ api
 .
 Init
 (
-mGlobal
+mOwner
 )
 )
 {
@@ -1365,7 +1365,7 @@ api
 .
 Init
 (
-mGlobal
+mOwner
 )
 )
 {

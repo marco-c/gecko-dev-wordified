@@ -283,7 +283,7 @@ win
 :
 browser
 .
-documentGlobal
+ownerGlobal
 location
 :
 "

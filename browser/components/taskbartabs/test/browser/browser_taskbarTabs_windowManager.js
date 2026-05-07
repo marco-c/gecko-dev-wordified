@@ -697,7 +697,7 @@ win
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 checkUserContextId
 (

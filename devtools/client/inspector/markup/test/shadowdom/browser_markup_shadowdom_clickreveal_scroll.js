@@ -807,7 +807,7 @@ win
 =
 element
 .
-documentGlobal
+ownerGlobal
 ;
 const
 rect

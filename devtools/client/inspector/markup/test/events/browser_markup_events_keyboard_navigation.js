@@ -245,7 +245,7 @@ VK_RETURN
 }
 eventTooltipBadge
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await
@@ -303,7 +303,7 @@ tooltip
 .
 panel
 .
-documentGlobal
+ownerGlobal
 ;
 const
 tooltipContainerEl
