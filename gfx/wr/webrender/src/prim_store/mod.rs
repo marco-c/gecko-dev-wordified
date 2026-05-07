@@ -2776,10 +2776,6 @@ flags
 :
 PrimitiveFlags
 pub
-may_need_repetition
-:
-bool
-pub
 prim_size
 :
 LayoutSize
@@ -2880,9 +2876,6 @@ flags
 common
 .
 flags
-may_need_repetition
-:
-true
 prim_size
 :
 common

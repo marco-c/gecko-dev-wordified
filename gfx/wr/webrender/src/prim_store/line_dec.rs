@@ -2364,7 +2364,7 @@ LineDecorationTemplate
 >
 (
 )
-52
+48
 "
 LineDecorationTemplate
 size
