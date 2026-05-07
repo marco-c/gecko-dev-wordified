@@ -104,9 +104,6 @@ preferencesPaneAbout
 "
 preferencesPaneAccessibility
 "
-"
-preferencesPanePermissionsData
-"
 ]
 ;
 function
