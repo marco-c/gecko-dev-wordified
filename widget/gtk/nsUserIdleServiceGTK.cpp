@@ -267,7 +267,7 @@ stuff
 XScreenSaverInfo
 ;
 typedef
-bool
+Bool
 (
 *
 _XScreenSaverQueryExtension_fn
