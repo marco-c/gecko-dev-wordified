@@ -21691,6 +21691,16 @@ isAdd
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 #
 ifdef
 JS_JITSPEW
