@@ -2951,7 +2951,7 @@ this
 [
 self
 =
-UnsafePtr
+RefPtr
 <
 HttpChannelChild
 >
@@ -6424,7 +6424,7 @@ ChannelFunctionEvent
 [
 self
 =
-UnsafePtr
+RefPtr
 <
 HttpChannelChild
 >
@@ -6447,7 +6447,7 @@ GetODATarget
 [
 self
 =
-UnsafePtr
+RefPtr
 <
 HttpChannelChild
 >
@@ -6486,7 +6486,7 @@ this
 [
 self
 =
-UnsafePtr
+RefPtr
 <
 HttpChannelChild
 >
