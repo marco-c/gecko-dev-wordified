@@ -3139,7 +3139,13 @@ aOutKeys
 .
 push_back
 (
+std
+:
+:
+move
+(
 key
+)
 )
 ;
 uint8_t
@@ -3525,7 +3531,13 @@ aOutKeyIds
 .
 push_back
 (
+std
+:
+:
+move
+(
 keyId
+)
 )
 ;
 }

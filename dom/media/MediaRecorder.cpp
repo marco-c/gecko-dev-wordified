@@ -3752,7 +3752,13 @@ labels
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 label
+)
 )
 ;
 return
@@ -3896,7 +3902,13 @@ labels
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 label
+)
 )
 ;
 }

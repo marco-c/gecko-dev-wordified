@@ -2206,7 +2206,13 @@ file
 .
 aOutFilename
 =
+std
+:
+:
+move
+(
 hashStr
+)
 ;
 return
 NS_OK

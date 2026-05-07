@@ -1979,7 +1979,6 @@ Then
 mThread
 __func__
 [
-=
 this
 self
 =
@@ -1989,6 +1988,15 @@ MediaTransportHandlerIPC
 >
 (
 this
+)
+transportIds
+=
+std
+:
+:
+move
+(
+transportIds
 )
 ]
 (

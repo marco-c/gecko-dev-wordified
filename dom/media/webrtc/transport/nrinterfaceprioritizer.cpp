@@ -1113,7 +1113,13 @@ local_addrs_
 .
 insert
 (
+std
+:
+:
+move
+(
 addr
+)
 )
 ;
 if

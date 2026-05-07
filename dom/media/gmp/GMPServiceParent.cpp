@@ -3688,7 +3688,13 @@ aTopic
 )
 mData
 (
+std
+:
+:
+move
+(
 aData
+)
 )
 {
 }
