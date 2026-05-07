@@ -1678,7 +1678,13 @@ u
 src
 "
 _ns
+std
+:
+:
+move
+(
 src
+)
 }
 ;
 nsContentUtils

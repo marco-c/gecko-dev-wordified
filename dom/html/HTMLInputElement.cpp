@@ -16645,7 +16645,13 @@ count
 }
 aValue
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 }
 const
@@ -17482,7 +17488,13 @@ return
 }
 mFocusedValue
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 if
 (

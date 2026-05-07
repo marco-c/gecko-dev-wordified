@@ -1327,7 +1327,13 @@ true
 ;
 aText
 =
+std
+:
+:
+move
+(
 text
+)
 ;
 }
 void

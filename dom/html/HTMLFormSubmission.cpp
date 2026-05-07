@@ -2658,7 +2658,13 @@ IsEmpty
 {
 filename16
 =
+std
+:
+:
+move
+(
 relativePath
+)
 ;
 }
 if
@@ -3024,7 +3030,13 @@ else
 {
 dirname16
 =
+std
+:
+:
+move
+(
 path
+)
 ;
 }
 if
