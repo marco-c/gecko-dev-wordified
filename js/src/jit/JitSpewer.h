@@ -1514,8 +1514,9 @@ channel
 JitSpewIndent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

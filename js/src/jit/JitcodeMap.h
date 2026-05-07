@@ -762,6 +762,8 @@ JitcodeGlobalEntry
 =
 default
 ;
+public
+:
 JitcodeGlobalEntry
 (
 const
@@ -784,8 +786,6 @@ other
 =
 delete
 ;
-public
-:
 struct
 DestroyPolicy
 {

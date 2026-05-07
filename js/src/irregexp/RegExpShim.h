@@ -6349,8 +6349,9 @@ public
 Tagged
 (
 )
-{
-}
+=
+default
+;
 MOZ_IMPLICIT
 Tagged
 (
@@ -9089,8 +9090,9 @@ public
 AllowGarbageCollection
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

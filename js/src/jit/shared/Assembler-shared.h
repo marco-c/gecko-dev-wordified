@@ -5170,8 +5170,9 @@ inline
 AutoCreatedBy
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #
