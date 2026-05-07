@@ -245,9 +245,6 @@ URL
 .
 .
 /
-.
-.
-/
 browser
 /
 searchSuggestionEngine

@@ -150,9 +150,6 @@ URL
 .
 .
 /
-.
-.
-/
 browser
 /
 searchSuggestionEngine
