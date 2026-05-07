@@ -1999,17 +1999,11 @@ arrayLarge2
 i
 )
 ;
-/
-/
 arrayCond
 (
 i
 )
 ;
-See
-bug
-1697691
-.
 arrayHole0
 (
 i
