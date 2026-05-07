@@ -1162,7 +1162,13 @@ aPattern
 .
 mSuffix
 =
+std
+:
+:
+move
+(
 originPatternNoScheme
+)
 ;
 return
 NS_OK

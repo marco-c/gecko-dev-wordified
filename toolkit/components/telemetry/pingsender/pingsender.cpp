@@ -1233,7 +1233,13 @@ pings
 .
 push_back
 (
+std
+:
+:
+move
+(
 ping
+)
 )
 ;
 }

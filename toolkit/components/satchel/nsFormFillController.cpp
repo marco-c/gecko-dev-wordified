@@ -3714,7 +3714,13 @@ searchString
 ;
 mLastSearchString
 =
+std
+:
+:
+move
+(
 searchString
+)
 ;
 if
 (

@@ -5234,7 +5234,13 @@ escaped
 ;
 aResult
 =
+std
+:
+:
+move
+(
 url
+)
 ;
 return
 NS_OK

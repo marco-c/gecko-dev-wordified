@@ -674,7 +674,13 @@ caps
 {
 mDocCaps
 =
+std
+:
+:
+move
+(
 caps
+)
 ;
 mDocCapChanged
 =
