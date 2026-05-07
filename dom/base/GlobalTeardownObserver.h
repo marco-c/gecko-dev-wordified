@@ -311,7 +311,7 @@ GlobalTeardownObserver
 )
 ;
 void
-BindToOwner
+BindToGlobal
 (
 nsIGlobalObject
 *
@@ -373,7 +373,7 @@ is
 /
 obtained
 in
-BindToOwner
+BindToGlobal
 .
 bool
 mHasOrHasHadOwnerWindow
