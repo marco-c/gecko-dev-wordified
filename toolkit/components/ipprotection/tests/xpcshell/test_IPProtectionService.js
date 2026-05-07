@@ -203,9 +203,9 @@ sandbox
 .
 stub
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 "
-isEnrolledAndEntitled
+entitlement
 "
 )
 .
@@ -215,7 +215,9 @@ get
 )
 =
 >
-true
+createTestEntitlement
+(
+)
 )
 ;
 await
@@ -340,9 +342,9 @@ sandbox
 .
 stub
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 "
-isEnrolledAndEntitled
+entitlement
 "
 )
 .
@@ -352,7 +354,9 @@ get
 )
 =
 >
-true
+createTestEntitlement
+(
+)
 )
 ;
 await
@@ -525,9 +529,9 @@ Assert
 .
 ok
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
-isEnrolledAndEntitled
+entitlement
 "
 Should
 be
