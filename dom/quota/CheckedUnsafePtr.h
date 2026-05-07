@@ -120,6 +120,15 @@ include
 "
 mozilla
 /
+SourcePathLiteral
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StackWalk
 .
 h
@@ -314,7 +323,7 @@ CheckedUnsafePtr
 .
 h
 "
-_ns
+_sp
 "
 dom
 /
@@ -324,7 +333,7 @@ CheckedUnsafePtr
 .
 h
 "
-_ns
+_sp
 }
 }
 }
@@ -359,7 +368,7 @@ mozillaRelativeBase
 mozilla
 /
 "
-_ns
+_sp
 ;
 static
 constexpr
@@ -376,7 +385,7 @@ CheckedUnsafePtr
 .
 h
 "
-_ns
+_sp
 ;
 static
 constexpr
@@ -491,7 +500,7 @@ CheckedUnsafePtr
 .
 h
 "
-_ns
+_sp
 ;
 MOZ_ASSERT
 (
@@ -799,7 +808,7 @@ RFindInReadable
 "
 /
 "
-_ns
+_sp
 aSourceFilePath
 .
 BeginReading
