@@ -11594,6 +11594,11 @@ panel
 .
 destroy
 (
+{
+fromInspectorDestroy
+:
+true
+}
 )
 ;
 }
