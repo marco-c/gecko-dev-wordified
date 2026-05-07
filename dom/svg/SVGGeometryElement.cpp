@@ -1739,10 +1739,10 @@ nullptr
 ;
 }
 return
-do_AddRef
-(
-new
+MakeAndAddRef
+<
 DOMSVGPoint
+>
 (
 path
 -
@@ -1763,7 +1763,6 @@ path
 >
 ComputeLength
 (
-)
 )
 )
 )
