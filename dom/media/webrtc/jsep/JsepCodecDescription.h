@@ -238,7 +238,7 @@ const
 0
 ;
 virtual
-int32_t
+uint8_t
 H264Level
 (
 )
@@ -247,7 +247,7 @@ const
 0
 ;
 virtual
-int32_t
+uint32_t
 H264MaxBr
 (
 )
@@ -256,7 +256,7 @@ const
 0
 ;
 virtual
-int32_t
+uint32_t
 H264MaxMbps
 (
 )
@@ -283,7 +283,7 @@ const
 0
 ;
 virtual
-int32_t
+uint32_t
 VP8MaxFs
 (
 )
@@ -292,7 +292,7 @@ const
 0
 ;
 virtual
-int32_t
+uint32_t
 VP8MaxFr
 (
 )

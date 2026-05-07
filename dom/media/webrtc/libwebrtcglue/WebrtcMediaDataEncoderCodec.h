@@ -65,6 +65,13 @@ WebrtcMediaDataEncoderCodec_h_
 #
 include
 "
+MediaCodecsSupport
+.
+h
+"
+#
+include
+"
 MediaConduitInterface
 .
 h
@@ -151,8 +158,11 @@ final
 )
 ;
 static
-bool
-CanCreate
+media
+:
+:
+EncodeSupportSet
+SupportsCodec
 (
 const
 webrtc

@@ -761,6 +761,13 @@ false
 \
 _
 (
+HasWebrtcH264Hw
+bool
+false
+)
+\
+_
+(
 UseHEVCHwDecode
 bool
 false
