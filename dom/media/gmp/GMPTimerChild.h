@@ -125,7 +125,6 @@ GMPChild
 ;
 class
 GMPTimerChild
-final
 :
 public
 PGMPTimerChild
@@ -139,7 +138,6 @@ public
 NS_INLINE_DECL_REFCOUNTING
 (
 GMPTimerChild
-final
 )
 explicit
 GMPTimerChild
