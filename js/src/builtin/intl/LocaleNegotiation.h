@@ -169,6 +169,12 @@ CollationNumeric
 kn
 *
 /
+FirstDayOfWeek
+/
+*
+fw
+*
+/
 HourCycle
 /
 *
