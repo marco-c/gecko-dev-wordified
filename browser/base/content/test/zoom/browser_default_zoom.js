@@ -681,7 +681,7 @@ tabBrowser
 =
 1
 .
-33
+3
 ;
 }
 )
@@ -696,7 +696,7 @@ tabBrowser
 )
 1
 .
-33
+3
 "
 Increasing
 zoom

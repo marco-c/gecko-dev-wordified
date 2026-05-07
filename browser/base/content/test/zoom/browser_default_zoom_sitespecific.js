@@ -226,7 +226,7 @@ to
 ;
 /
 /
-67
+70
 %
 global
 zoom
@@ -235,7 +235,7 @@ FullZoomHelper
 .
 changeDefaultZoom
 (
-67
+70
 )
 ;
 let
@@ -253,13 +253,13 @@ is
 defaultZoom
 0
 .
-67
+7
 "
 Global
 zoom
 is
 at
-67
+70
 %
 "
 )
@@ -283,7 +283,7 @@ tabBrowser1
 =
 0
 .
-67
+7
 )
 ;
 zoomLevel
@@ -300,7 +300,7 @@ is
 zoomLevel
 0
 .
-67
+7
 "
 tab
 1
@@ -309,7 +309,7 @@ has
 been
 set
 to
-67
+70
 %
 "
 )
@@ -437,7 +437,7 @@ is
 zoomLevel
 0
 .
-67
+7
 "
 tab
 3
@@ -446,7 +446,7 @@ has
 been
 set
 to
-67
+70
 %
 "
 )
@@ -681,7 +681,7 @@ is
 zoomLevel
 1
 .
-7
+6
 "
 tab
 1
@@ -690,7 +690,7 @@ has
 been
 set
 to
-170
+160
 %
 "
 )
@@ -717,13 +717,13 @@ is
 zoomLevel
 1
 .
-7
+6
 "
 tab
 1
 zoom
 remains
-170
+160
 %
 "
 )
