@@ -24355,6 +24355,19 @@ target
 )
 )
 ;
+js
+:
+:
+ProxyOptions
+options
+;
+options
+.
+setLazyProto
+(
+true
+)
+;
 JS
 :
 :
@@ -24375,6 +24388,7 @@ aCx
 aHandler
 targetValue
 nullptr
+options
 )
 )
 ;
