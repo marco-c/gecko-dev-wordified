@@ -63,12 +63,6 @@ nsExceptionHandler
 .
 h
 "
-using
-mozilla
-:
-:
-UniqueFileHandle
-;
 namespace
 CrashReporter
 {
@@ -881,15 +875,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-CrashPipeType
-GetChildNotificationPipe
-(
-)
-{
-return
-nullptr
-;
-}
 bool
 RegisterChildIPCChannel
 (
@@ -902,6 +887,8 @@ geckoargs
 ChildProcessArgs
 &
 aArgs
+GeckoChildID
+aID
 )
 {
 return
