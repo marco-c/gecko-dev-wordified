@@ -1466,6 +1466,13 @@ error_name
 error
 .
 name
+is_destroying
+:
+toolbox
+.
+isDestroying
+(
+)
 packet_error
 :
 serverPacket
