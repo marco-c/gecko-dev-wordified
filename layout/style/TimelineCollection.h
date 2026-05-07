@@ -186,7 +186,6 @@ nsTHashMap
 <
 RefPtr
 <
-const
 nsAtom
 >
 RefPtr
@@ -235,7 +234,6 @@ TimelineType
 >
 Lookup
 (
-const
 nsAtom
 *
 aName
@@ -261,7 +259,6 @@ TimelineType
 >
 Extract
 (
-const
 nsAtom
 *
 aName
