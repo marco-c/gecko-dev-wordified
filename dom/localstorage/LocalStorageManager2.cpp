@@ -1630,7 +1630,13 @@ storagePrincipalInfo
 (
 )
 =
+std
+:
+:
+move
+(
 principalInfo
+)
 ;
 commonParams
 .
@@ -1638,7 +1644,13 @@ originKey
 (
 )
 =
+std
+:
+:
+move
+(
 originKey
+)
 ;
 LSRequestPreloadDatastoreParams
 params
