@@ -9823,7 +9823,6 @@ PrimitiveKind
 TextRun
 {
 data_handle
-run_index
 .
 .
 }
@@ -9840,19 +9839,6 @@ kind_scratch
 unwrap_text_run
 (
 )
-;
-let
-run
-=
-&
-ctx
-.
-prim_store
-.
-text_runs
-[
-run_index
-]
 ;
 let
 run_scratch
@@ -10370,7 +10356,7 @@ BlendMode
 :
 PremultipliedAlpha
 if
-run
+prim_data
 .
 shadow
 {
