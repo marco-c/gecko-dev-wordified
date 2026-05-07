@@ -1236,15 +1236,6 @@ TextRun
 {
 data_handle
 run_index
-scratch_handle
-:
-storage
-:
-:
-Index
-:
-:
-INVALID
 }
 }
 }

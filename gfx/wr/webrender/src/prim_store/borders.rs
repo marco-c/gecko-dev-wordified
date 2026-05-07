@@ -1596,15 +1596,6 @@ PrimitiveKind
 NormalBorder
 {
 data_handle
-scratch_handle
-:
-storage
-:
-:
-Index
-:
-:
-INVALID
 }
 }
 }
