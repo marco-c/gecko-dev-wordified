@@ -1,3 +1,58 @@
+#
+This
+Source
+Code
+Form
+is
+subject
+to
+the
+terms
+of
+the
+Mozilla
+Public
+#
+License
+v
+.
+2
+.
+0
+.
+If
+a
+copy
+of
+the
+MPL
+was
+not
+distributed
+with
+this
+#
+file
+You
+can
+obtain
+one
+at
+http
+:
+/
+/
+mozilla
+.
+org
+/
+MPL
+/
+2
+.
+0
+/
+.
 import
 os
 import
@@ -6,13 +61,14 @@ from
 unittest
 import
 mock
+from
+mozperftest
+.
+tests
+.
+test_perfdocs
 import
-mozunit
-LINTER
-=
-"
-perfdocs
-"
+temp_file
 def
 setup_sample_logger
 (
@@ -23,6 +79,8 @@ top_dir
 :
     
 from
+mozperftest
+.
 perfdocs
 .
 logger
@@ -52,6 +110,8 @@ TOP_DIR
 top_dir
     
 import
+mozperftest
+.
 perfdocs
 .
 gatherer
@@ -59,6 +119,8 @@ as
 gt
     
 import
+mozperftest
+.
 perfdocs
 .
 generator
@@ -66,6 +128,8 @@ as
 gn
     
 import
+mozperftest
+.
 perfdocs
 .
 utils
@@ -73,6 +137,8 @@ as
 utls
     
 import
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -107,6 +173,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -123,11 +191,6 @@ structured_logger
 perfdocs_sample
 )
 :
-    
-from
-test_perfdocs
-import
-temp_file
     
 top_dir
 =
@@ -153,16 +216,7 @@ Path
 (
 top_dir
 "
-tools
-"
-"
-lint
-"
-"
-perfdocs
-"
-"
-templates
+perfdocs_templates
 "
 )
     
@@ -179,6 +233,8 @@ True
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -186,6 +242,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -217,6 +275,12 @@ workspace
 =
 top_dir
 )
+    
+generator
+.
+templates_path
+=
+templates_dir
     
 with
 temp_file
@@ -259,6 +323,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -275,11 +341,6 @@ structured_logger
 perfdocs_sample
 )
 :
-    
-from
-test_perfdocs
-import
-temp_file
     
 top_dir
 =
@@ -305,16 +366,7 @@ Path
 (
 top_dir
 "
-tools
-"
-"
-lint
-"
-"
-perfdocs
-"
-"
-templates
+perfdocs_templates
 "
 )
     
@@ -331,6 +383,8 @@ True
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -338,6 +392,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -478,6 +534,8 @@ patch
 (
             
 "
+mozperftest
+.
 perfdocs
 .
 framework_gatherers
@@ -597,6 +655,12 @@ workspace
 =
 top_dir
 )
+        
+generator
+.
+templates_path
+=
+templates_dir
         
 with
 temp_file
@@ -753,6 +817,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -787,6 +853,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -794,6 +862,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -875,6 +945,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 generator
@@ -894,6 +966,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 generator
@@ -909,6 +983,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -924,11 +1000,6 @@ structured_logger
 perfdocs_sample
 )
 :
-    
-from
-test_perfdocs
-import
-temp_file
     
 top_dir
 =
@@ -954,16 +1025,7 @@ Path
 (
 top_dir
 "
-tools
-"
-"
-lint
-"
-"
-perfdocs
-"
-"
-templates
+perfdocs_templates
 "
 )
     
@@ -980,6 +1042,8 @@ True
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -987,6 +1051,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -1022,6 +1088,12 @@ workspace
 =
 top_dir
 )
+    
+generator
+.
+templates_path
+=
+templates_dir
     
 with
 temp_file
@@ -1124,23 +1196,17 @@ run
 .
 /
 mach
-lint
--
-l
 perfdocs
 -
 -
-outgoing
--
--
-fix
+generate
+"
+        
+"
 to
 update
 them
 .
-"
-        
-"
 You
 can
 also
@@ -1151,12 +1217,12 @@ perfdocs
 diff
 patch
 file
-produced
-from
-this
 "
         
 "
+produced
+from
+this
 reviewbot
 test
 to
@@ -1285,6 +1351,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 generator
@@ -1304,6 +1372,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 generator
@@ -1347,6 +1417,8 @@ failure
 "
     
 from
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1354,6 +1426,10 @@ import
 PerfDocLogger
     
 from
+mozperftest
+.
+tests
+.
 test_perfdocs
 import
 temp_file
@@ -1418,16 +1494,7 @@ Path
 (
 top_dir
 "
-tools
-"
-"
-lint
-"
-"
-perfdocs
-"
-"
-templates
+perfdocs_templates
 "
 )
     
@@ -1444,6 +1511,8 @@ True
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -1451,6 +1520,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -1486,6 +1557,12 @@ workspace
 =
 top_dir
 )
+    
+generator
+.
+templates_path
+=
+templates_dir
     
 with
 temp_file
@@ -1588,23 +1665,17 @@ run
 .
 /
 mach
-lint
--
-l
 perfdocs
 -
 -
-outgoing
--
--
-fix
+generate
+"
+        
+"
 to
 update
 them
 .
-"
-        
-"
 You
 can
 also
@@ -1615,12 +1686,12 @@ perfdocs
 diff
 patch
 file
-produced
-from
-this
 "
         
 "
+produced
+from
+this
 reviewbot
 test
 to
@@ -1706,6 +1777,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1722,11 +1795,6 @@ structured_logger
 perfdocs_sample
 )
 :
-    
-from
-test_perfdocs
-import
-temp_file
     
 top_dir
 =
@@ -1752,16 +1820,7 @@ Path
 (
 top_dir
 "
-tools
-"
-"
-lint
-"
-"
-perfdocs
-"
-"
-templates
+perfdocs_templates
 "
 )
     
@@ -1778,6 +1837,8 @@ True
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -1785,6 +1846,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -1816,6 +1879,12 @@ workspace
 =
 top_dir
 )
+    
+generator
+.
+templates_path
+=
+templates_dir
     
 with
 temp_file
@@ -1950,6 +2019,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -1983,6 +2054,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -1990,6 +2063,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2083,6 +2158,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2116,6 +2193,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -2123,6 +2202,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2179,6 +2260,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2213,6 +2296,8 @@ top_dir
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -2220,6 +2305,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2258,6 +2345,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 generator
@@ -2349,6 +2438,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2365,11 +2456,6 @@ structured_logger
 perfdocs_sample
 )
 :
-    
-from
-test_perfdocs
-import
-temp_file
     
 top_dir
 =
@@ -2395,16 +2481,7 @@ Path
 (
 top_dir
 "
-tools
-"
-"
-lint
-"
-"
-perfdocs
-"
-"
-templates
+perfdocs_templates
 "
 )
     
@@ -2421,6 +2498,8 @@ True
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -2428,6 +2507,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2459,6 +2540,12 @@ workspace
 =
 top_dir
 )
+    
+generator
+.
+templates_path
+=
+templates_dir
     
 assert
 not
@@ -2567,6 +2654,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 generator
@@ -2579,6 +2668,8 @@ mock
 patch
 (
 "
+mozperftest
+.
 perfdocs
 .
 logger
@@ -2596,11 +2687,6 @@ structured_logger
 perfdocs_sample
 )
 :
-    
-from
-test_perfdocs
-import
-temp_file
     
 top_dir
 =
@@ -2626,16 +2712,7 @@ Path
 (
 top_dir
 "
-tools
-"
-"
-lint
-"
-"
-perfdocs
-"
-"
-templates
+perfdocs_templates
 "
 )
     
@@ -2652,6 +2729,8 @@ True
 )
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -2659,6 +2738,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier
@@ -2690,6 +2771,12 @@ workspace
 =
 top_dir
 )
+    
+generator
+.
+templates_path
+=
+templates_dir
     
 with
 temp_file
@@ -2783,17 +2870,3 @@ args
 =
 =
 expected
-if
-__name__
-=
-=
-"
-__main__
-"
-:
-    
-mozunit
-.
-main
-(
-)
