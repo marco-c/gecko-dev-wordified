@@ -276,6 +276,16 @@ ProcessHandle
 >
 >
 >
+#
+[
+allow
+(
+unused
+)
+]
+pid
+:
+Pid
 }
 impl
 CrashHelperClient
