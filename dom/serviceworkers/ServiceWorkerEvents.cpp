@@ -7250,7 +7250,7 @@ PushMessageData
 aOwner
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 std

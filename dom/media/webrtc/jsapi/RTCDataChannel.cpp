@@ -4970,7 +4970,7 @@ Blob
 :
 CreateStringBlob
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aData

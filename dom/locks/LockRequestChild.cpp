@@ -709,7 +709,7 @@ Signal
 )
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

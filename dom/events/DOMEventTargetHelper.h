@@ -380,7 +380,7 @@ NS_DOMEVENTTARGETHELPER_IID
 )
 nsIGlobalObject
 *
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 const
@@ -390,7 +390,7 @@ return
 GlobalTeardownObserver
 :
 :
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

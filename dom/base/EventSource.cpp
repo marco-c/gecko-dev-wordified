@@ -8499,7 +8499,7 @@ lock
 mEventSource
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

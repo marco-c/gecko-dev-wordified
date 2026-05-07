@@ -3343,7 +3343,7 @@ global
 mParent
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

@@ -154,7 +154,7 @@ GetParentObject
 const
 {
 return
-mOwnerGlobal
+mRelevantGlobal
 ;
 }
 /
@@ -257,7 +257,7 @@ DebuggerNotificationObserver
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 )
 ;
 ~
@@ -280,7 +280,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mOwnerGlobal
+mRelevantGlobal
 ;
 }
 ;

@@ -2402,7 +2402,7 @@ MakeRefPtr
 NavigationHistoryEntry
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 &
@@ -2731,7 +2731,7 @@ MakeRefPtr
 NavigationHistoryEntry
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aDestinationSHE
@@ -2831,7 +2831,7 @@ MakeRefPtr
 NavigationHistoryEntry
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aDestinationSHE
@@ -2932,7 +2932,7 @@ mt
 AutoEntryScript
 aes
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 "
@@ -5518,7 +5518,7 @@ undefined
 nsCOMPtr
 globalObject
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -6227,7 +6227,7 @@ MakeRefPtr
 NavigationHistoryEntry
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 &
@@ -6843,7 +6843,7 @@ aState
 RefPtr
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -8021,7 +8021,7 @@ current
 RefPtr
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -10588,7 +10588,7 @@ MakeAndAddRef
 NavigationDestination
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aDestinationSessionHistoryInfo
@@ -10935,7 +10935,7 @@ MakeAndAddRef
 NavigationDestination
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aDestinationURL
@@ -11137,7 +11137,7 @@ MakeAndAddRef
 NavigationDestination
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aDestinationURL
@@ -11808,7 +11808,7 @@ nsIGlobalObject
 >
 globalObject
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -14873,7 +14873,7 @@ Promise
 :
 CreateInfallible
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -14886,7 +14886,7 @@ Promise
 :
 CreateInfallible
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -15076,7 +15076,7 @@ Promise
 :
 CreateInfallible
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -15089,7 +15089,7 @@ Promise
 :
 CreateInfallible
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -15533,7 +15533,7 @@ MakeRefPtr
 NavigationHistoryEntry
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 previousEntryForActivation
@@ -15691,7 +15691,7 @@ MakeRefPtr
 NavigationActivation
 >
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 currentEntry

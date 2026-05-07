@@ -621,7 +621,7 @@ do_QueryInterface
 aTarget
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -961,7 +961,7 @@ do_QueryInterface
 element
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -1044,7 +1044,7 @@ do_QueryInterface
 target
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

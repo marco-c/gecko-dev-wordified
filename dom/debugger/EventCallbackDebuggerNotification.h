@@ -132,7 +132,7 @@ CallbackDebuggerNotificationPhase
 aPhase
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 =
 nullptr
 )
@@ -142,7 +142,7 @@ CallbackDebuggerNotification
 aDebuggeeGlobal
 aType
 aPhase
-aOwnerGlobal
+aRelevantGlobal
 )
 mEvent
 (
@@ -281,7 +281,7 @@ aEventTarget
 aEventTarget
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 :

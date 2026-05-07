@@ -3690,7 +3690,7 @@ go
 pt
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

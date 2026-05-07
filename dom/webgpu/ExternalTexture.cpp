@@ -1743,7 +1743,7 @@ global
 aDevice
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;

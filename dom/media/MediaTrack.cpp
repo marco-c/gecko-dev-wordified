@@ -97,7 +97,7 @@ MediaTrack
 (
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 const
 nsAString
 &
@@ -118,7 +118,7 @@ aLanguage
 :
 DOMEventTargetHelper
 (
-aOwnerGlobal
+aRelevantGlobal
 )
 mId
 (
