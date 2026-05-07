@@ -9102,6 +9102,8 @@ node
 derive
 (
 Debug
+Copy
+Clone
 )
 ]
 #
