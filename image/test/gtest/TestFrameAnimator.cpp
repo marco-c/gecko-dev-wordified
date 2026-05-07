@@ -880,6 +880,13 @@ CheckFrameAnimatorBlend
 BlendAnimatedJXLTestCase
 (
 )
+/
+*
+aFuzz
+=
+*
+/
+1
 )
 ;
 }
