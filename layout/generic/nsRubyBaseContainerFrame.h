@@ -485,8 +485,6 @@ aIsComplete
 ;
 nscoord
 mBaseline
-=
-0
 ;
 /
 /

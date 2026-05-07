@@ -8391,8 +8391,6 @@ mMargin
 ;
 nscoord
 mItalicCorrection
-=
-0
 ;
 MathMLFrameType
 mChildFrameType
