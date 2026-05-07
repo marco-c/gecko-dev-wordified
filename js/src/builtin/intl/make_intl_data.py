@@ -14179,6 +14179,15 @@ Aragonese
         
 (
 "
+bqi
+"
+"
+Bakhtiari
+"
+)
+        
+(
+"
 cak
 "
 "
@@ -30446,6 +30455,7 @@ argparse
 .
 ArgumentTypeError
 (
+f
 "
 URL
 protocol
@@ -30453,9 +30463,10 @@ must
 be
 https
 :
-"
-%
+{
 v
+}
+"
 )
         
 return
