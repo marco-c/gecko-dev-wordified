@@ -530,9 +530,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 paused
 :
 true
@@ -700,9 +697,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false
@@ -886,9 +880,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false
@@ -1120,9 +1111,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 unauthenticated
 :
 false

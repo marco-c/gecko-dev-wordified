@@ -1187,14 +1187,6 @@ content
 .
 state
 .
-isSignedOut
-=
-false
-;
-content
-.
-state
-.
 paused
 =
 true

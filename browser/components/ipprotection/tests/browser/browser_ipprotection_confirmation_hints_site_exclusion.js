@@ -2805,9 +2805,6 @@ await
 openPanel
 (
 {
-isSignedOut
-:
-false
 isProtectionEnabled
 :
 true
