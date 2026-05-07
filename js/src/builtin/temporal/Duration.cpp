@@ -15757,6 +15757,14 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+ISODateWithinLimits
+(
+end
+)
+)
+;
 /
 /
 Steps
@@ -15779,7 +15787,7 @@ time
 ;
 MOZ_ASSERT
 (
-ISODateTimeWithinLimits
+IsValidISODateTime
 (
 endDateTime
 )
