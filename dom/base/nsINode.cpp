@@ -13126,6 +13126,11 @@ ChildIndexCache
 :
 :
 kThreshold
+&
+&
+NS_IsMainThread
+(
+)
 )
 {
 return
@@ -13475,6 +13480,11 @@ ChildIndexCache
 :
 :
 kThreshold
+&
+&
+NS_IsMainThread
+(
+)
 )
 {
 return
