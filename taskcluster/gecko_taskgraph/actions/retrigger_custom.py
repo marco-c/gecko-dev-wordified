@@ -1431,14 +1431,12 @@ create_task_from_def
 (
         
 new_task_definition
-        
 parameters
 [
 "
 level
 "
 ]
-        
 action_tag
 =
 "
@@ -1447,14 +1445,6 @@ retrigger
 custom
 -
 task
-"
-        
-max_priority
-=
-"
-very
--
-low
 "
     
 )
