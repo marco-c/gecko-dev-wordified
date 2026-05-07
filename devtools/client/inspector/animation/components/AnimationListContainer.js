@@ -633,7 +633,7 @@ resizeObserver
 new
 current
 .
-ownerGlobal
+documentGlobal
 .
 ResizeObserver
 (

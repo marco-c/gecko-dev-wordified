@@ -7795,7 +7795,7 @@ tab
 ;
 tabbrowser
 .
-ownerGlobal
+documentGlobal
 .
 focus
 (
@@ -7844,7 +7844,7 @@ browsingContext
 .
 embedderElement
 .
-ownerGlobal
+documentGlobal
 ;
 parentWin
 .

@@ -2502,7 +2502,7 @@ this
 .
 currentNode
 .
-ownerGlobal
+documentGlobal
 ;
 this
 .

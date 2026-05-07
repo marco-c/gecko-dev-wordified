@@ -261,7 +261,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 await
 openAiFeaturePanel

@@ -542,7 +542,7 @@ VK_SPACE
 }
 rawResponseToggle
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

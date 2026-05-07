@@ -145,7 +145,7 @@ if
 (
 browser
 .
-ownerGlobal
+documentGlobal
 .
 top
 .

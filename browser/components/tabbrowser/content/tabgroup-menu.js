@@ -3482,7 +3482,7 @@ isWindowPrivate
 (
 this
 .
-ownerGlobal
+documentGlobal
 )
 &
 &
@@ -5975,7 +5975,7 @@ isWindowPrivate
 (
 this
 .
-ownerGlobal
+documentGlobal
 )
 )
 {

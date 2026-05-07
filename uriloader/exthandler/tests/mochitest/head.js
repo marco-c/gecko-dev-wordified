@@ -875,7 +875,7 @@ tabDialogBox
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

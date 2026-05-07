@@ -868,7 +868,7 @@ tabGroupId
 ;
 tabGroup
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -1007,7 +1007,7 @@ errors
 .
 tabGroup
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -3510,7 +3510,7 @@ length
 =
 tabGroup
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

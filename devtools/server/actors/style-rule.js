@@ -1944,7 +1944,7 @@ this
 .
 rawNode
 .
-ownerGlobal
+documentGlobal
 !
 =
 =
@@ -2592,7 +2592,7 @@ DocumentWalker
 selectedElement
 selectedElement
 .
-ownerGlobal
+documentGlobal
 )
 ;
 for
@@ -2676,7 +2676,7 @@ pageStyle
 return
 selectedElement
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

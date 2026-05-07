@@ -672,7 +672,7 @@ ZoomManager
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 zoom
@@ -733,7 +733,7 @@ ZoomManager
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 zoom

@@ -752,7 +752,7 @@ is
 (
 newTab1
 .
-ownerGlobal
+documentGlobal
 win1
 "
 The
@@ -786,7 +786,7 @@ is
 (
 newTab2
 .
-ownerGlobal
+documentGlobal
 win2
 "
 The
@@ -815,7 +815,7 @@ is
 (
 newTab3
 .
-ownerGlobal
+documentGlobal
 win2
 "
 The

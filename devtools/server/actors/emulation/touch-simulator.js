@@ -1125,7 +1125,7 @@ view
 =
 target
 .
-ownerGlobal
+documentGlobal
 ;
 const
 evt
@@ -1325,7 +1325,7 @@ ownerDocument
 ?
 target
 .
-ownerGlobal
+documentGlobal
 :
 null
 ;

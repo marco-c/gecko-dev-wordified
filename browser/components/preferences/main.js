@@ -7784,7 +7784,7 @@ target
 {
 target
 .
-ownerGlobal
+documentGlobal
 .
 gSubDialog
 .

@@ -146,7 +146,7 @@ promiseFocus
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /

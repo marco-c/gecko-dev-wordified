@@ -361,13 +361,6 @@ return
 mParent
 ;
 }
-nsPIDOMWindowOuter
-*
-GetOwnerGlobalForBindingsInternal
-(
-)
-override
-;
 nsIGlobalObject
 *
 GetOwnerGlobal

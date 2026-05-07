@@ -346,7 +346,7 @@ res_restore
 ;
 browser
 .
-ownerGlobal
+documentGlobal
 .
 windowUtils
 .
@@ -423,7 +423,7 @@ resolution
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 windowUtils
 .

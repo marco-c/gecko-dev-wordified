@@ -3846,7 +3846,7 @@ contentWindow
 &
 iframeOrWindow
 .
-ownerGlobal
+documentGlobal
 !
 =
 =

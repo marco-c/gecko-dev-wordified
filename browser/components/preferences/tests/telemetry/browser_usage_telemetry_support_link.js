@@ -598,7 +598,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 const
 SETTING_ID
@@ -850,7 +850,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 const
 SETTING_ID

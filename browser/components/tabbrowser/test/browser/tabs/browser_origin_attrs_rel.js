@@ -355,7 +355,7 @@ aEvent
 .
 target
 .
-ownerGlobal
+documentGlobal
 )
 {
 xulFrameLoaderCreatedCounter
@@ -1529,7 +1529,7 @@ xulFrameLoaderCreatedCounter
 ;
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -1590,7 +1590,7 @@ waitForNewTab
 (
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 aLinkInfo
@@ -1852,7 +1852,7 @@ event
 listener
 aBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

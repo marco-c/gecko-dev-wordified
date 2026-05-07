@@ -629,7 +629,7 @@ navigator
 =
 existingTab
 .
-ownerGlobal
+documentGlobal
 ;
 navigator
 .

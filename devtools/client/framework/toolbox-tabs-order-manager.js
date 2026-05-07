@@ -810,7 +810,7 @@ this
 .
 dragTarget
 .
-ownerGlobal
+documentGlobal
 .
 top
 ;

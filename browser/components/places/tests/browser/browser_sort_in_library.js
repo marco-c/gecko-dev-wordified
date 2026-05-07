@@ -1670,7 +1670,7 @@ win
 =
 tree
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

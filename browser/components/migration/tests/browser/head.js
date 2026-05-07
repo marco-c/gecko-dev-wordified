@@ -1951,7 +1951,7 @@ selector
 }
 wizard
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -2035,7 +2035,7 @@ panelItem
 }
 wizard
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

@@ -1316,7 +1316,7 @@ openFirefoxViewTab
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /
@@ -2603,7 +2603,7 @@ openFirefoxViewTab
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 visitList

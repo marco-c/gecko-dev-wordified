@@ -1695,7 +1695,7 @@ called
 .
 backgroundTab
 .
-ownerGlobal
+documentGlobal
 .
 gURLBar
 .

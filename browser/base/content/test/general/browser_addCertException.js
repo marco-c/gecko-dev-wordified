@@ -237,7 +237,7 @@ gIdentityHandler
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 let
 promisePanelOpen
@@ -248,7 +248,7 @@ waitForEvent
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 "
 popupshown
 "
@@ -339,7 +339,7 @@ identityIconImage
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -371,7 +371,7 @@ securityViewBG
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
@@ -421,7 +421,7 @@ securityContentBG
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

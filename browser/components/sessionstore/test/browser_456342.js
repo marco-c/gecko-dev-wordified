@@ -363,7 +363,7 @@ true
 true
 elem
 .
-ownerGlobal
+documentGlobal
 0
 )
 ;

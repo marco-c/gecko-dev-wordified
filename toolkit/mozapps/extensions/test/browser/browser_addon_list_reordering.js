@@ -193,7 +193,7 @@ win
 =
 card
 .
-ownerGlobal
+documentGlobal
 ;
 let
 button
@@ -287,7 +287,7 @@ win
 =
 el
 .
-ownerGlobal
+documentGlobal
 ;
 el
 .

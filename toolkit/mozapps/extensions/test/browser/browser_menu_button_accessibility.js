@@ -49,7 +49,7 @@ waitForEvent
 (
 btn
 .
-ownerGlobal
+documentGlobal
 "
 shown
 "
@@ -104,7 +104,7 @@ waitForEvent
 (
 btn
 .
-ownerGlobal
+documentGlobal
 "
 hidden
 "
@@ -155,7 +155,7 @@ win
 =
 btn
 .
-ownerGlobal
+documentGlobal
 ;
 is
 (

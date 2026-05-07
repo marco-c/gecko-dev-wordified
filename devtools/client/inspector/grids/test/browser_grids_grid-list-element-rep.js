@@ -826,7 +826,7 @@ mouseover
 }
 openInspectorButton
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const
@@ -907,7 +907,7 @@ click
 openInspectorButton
 openInspectorButton
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

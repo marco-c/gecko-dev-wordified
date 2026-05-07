@@ -272,7 +272,7 @@ tab
 ;
 tab
 .
-ownerGlobal
+documentGlobal
 .
 focus
 (

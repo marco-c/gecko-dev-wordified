@@ -1610,7 +1610,7 @@ win
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

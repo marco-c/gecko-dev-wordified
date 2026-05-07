@@ -755,7 +755,7 @@ ok
 (
 ctxBrowser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

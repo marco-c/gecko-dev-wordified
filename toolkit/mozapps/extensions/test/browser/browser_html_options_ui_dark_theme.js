@@ -676,7 +676,7 @@ style
 =
 optionsBrowser
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

@@ -1760,7 +1760,7 @@ _showSetToDefaultSpotlight
 calls
 browser
 .
-ownerGlobal
+documentGlobal
 .
 getShellService
 (
