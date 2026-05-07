@@ -734,16 +734,6 @@ gfx
 ColorDepth
 mColorDepth
 ;
-const
-Maybe
-<
-gfx
-:
-:
-HDRMetadata
->
-mHDRMetadata
-;
 /
 /
 Method
