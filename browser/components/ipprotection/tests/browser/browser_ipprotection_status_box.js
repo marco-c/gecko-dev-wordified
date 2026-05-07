@@ -160,10 +160,7 @@ test_paused_content
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 canEnroll
@@ -493,10 +490,7 @@ test_paused_content_upgraded
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 hasUpgraded

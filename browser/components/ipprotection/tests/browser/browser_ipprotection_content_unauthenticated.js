@@ -553,10 +553,7 @@ test_signin_button
 setupService
 (
 {
-isSignedIn
-:
-false
-isEnrolledAndEntitled
+isReady
 :
 false
 }
@@ -861,10 +858,7 @@ test_panel_get_started_entrypoint
 setupService
 (
 {
-isSignedIn
-:
-false
-isEnrolledAndEntitled
+isReady
 :
 false
 }
@@ -1089,10 +1083,7 @@ test_learn_more_vpn_link
 setupService
 (
 {
-isSignedIn
-:
-false
-isEnrolledAndEntitled
+isReady
 :
 false
 }
@@ -1769,10 +1760,7 @@ test_panel_get_started_signed_in
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 false
 }

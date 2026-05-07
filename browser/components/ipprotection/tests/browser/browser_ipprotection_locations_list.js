@@ -196,7 +196,7 @@ await
 openPanel
 (
 {
-isEnrolledAndEntitled
+isReady
 :
 true
 locationsList

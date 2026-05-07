@@ -1293,10 +1293,7 @@ test_remove_infobar_after_sign_out
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 }
@@ -1397,7 +1394,7 @@ out
 setupService
 (
 {
-isSignedIn
+isReady
 :
 false
 }
@@ -2909,10 +2906,7 @@ test_dismissed_state_persists_through_sign_out
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 }
@@ -3043,7 +3037,7 @@ dismiss
 setupService
 (
 {
-isSignedIn
+isReady
 :
 false
 }
@@ -3065,10 +3059,7 @@ waitForTick
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 }

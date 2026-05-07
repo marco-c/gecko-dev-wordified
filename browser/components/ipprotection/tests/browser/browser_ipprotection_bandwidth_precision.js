@@ -126,10 +126,7 @@ remaining
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 canEnroll

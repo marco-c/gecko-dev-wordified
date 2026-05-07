@@ -246,10 +246,7 @@ opts
 setupService
 (
 {
-isSignedIn
-:
-true
-isEnrolledAndEntitled
+isReady
 :
 true
 canEnroll
