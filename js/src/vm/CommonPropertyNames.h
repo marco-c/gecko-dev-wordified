@@ -1686,6 +1686,14 @@ GetBuiltinSymbol
 \
 MACRO_
 (
+getCollations
+"
+getCollations
+"
+)
+\
+MACRO_
+(
 GetInternalError
 "
 GetInternalError
