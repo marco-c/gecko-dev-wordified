@@ -9195,9 +9195,11 @@ fetch_toolchains
 append
 (
 "
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
 )
             
@@ -9312,9 +9314,9 @@ is
 used
 to
 run
-symbolicator
+profiler
 -
-cli
+edit
 our
 profile
 symbolication

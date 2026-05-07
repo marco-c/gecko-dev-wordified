@@ -1975,21 +1975,23 @@ MOZ_FETCHES_DIR
 "
 ]
             
-symbolicator_path
+profiler_edit_path
 =
 Path
 (
                 
 moz_fetch
 "
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
 "
-symbolicator
+profiler
 -
-cli
+edit
 .
 js
 "
@@ -2107,9 +2109,11 @@ have
 the
 toolchains
 for
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 symbolication
 yet
 .
@@ -2122,7 +2126,7 @@ _validate_symbolication_deps
 (
 [
                 
-symbolicator_path
+profiler_edit_path
                 
 samply_path
                 
@@ -2461,16 +2465,12 @@ node_path
                             
 str
 (
-Path
-(
-symbolicator_path
-)
+profiler_edit_path
 )
                             
 "
 -
--
-input
+i
 "
                             
 str
@@ -2480,8 +2480,7 @@ unsym_profile
                             
 "
 -
--
-output
+o
 "
                             
 str
@@ -2491,6 +2490,10 @@ sym_profile
                             
 "
 -
+-
+symbolicate
+-
+with
 -
 server
 "
@@ -2521,7 +2524,7 @@ bufsize
                     
 )
 as
-symbolicator_process
+profiler_edit_process
 :
                         
 #
@@ -2538,7 +2541,7 @@ info
 for
 line
 in
-symbolicator_process
+profiler_edit_process
 .
 stdout
 :
@@ -2549,9 +2552,9 @@ info
 (
 f
 "
-symbolicator
+profiler
 -
-cli
+edit
 {
 line
 .

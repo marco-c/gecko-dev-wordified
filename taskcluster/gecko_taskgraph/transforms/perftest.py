@@ -2208,9 +2208,11 @@ samply
 "
                 
 "
-symbolicator
+profiler
 -
-cli
+node
+-
+tools
 "
             
 ]
