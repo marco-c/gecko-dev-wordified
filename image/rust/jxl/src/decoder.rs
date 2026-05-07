@@ -426,9 +426,6 @@ new
 metadata_only
 :
 bool
-premultiply
-:
-bool
 has_cms
 :
 bool
@@ -438,7 +435,6 @@ bool
 Self
 {
 let
-mut
 options
 =
 JxlDecoderOptions
@@ -447,12 +443,6 @@ JxlDecoderOptions
 default
 (
 )
-;
-options
-.
-premultiply_output
-=
-premultiply
 ;
 let
 inner
