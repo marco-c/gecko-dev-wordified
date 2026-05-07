@@ -966,7 +966,7 @@ nsPIDOMWindowInner
 aWindow
 )
 {
-BindToOwner
+BindToGlobal
 (
 aWindow
 -

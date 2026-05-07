@@ -224,7 +224,7 @@ DisconnectFreezeObserver
 ;
 }
 void
-BindToOwner
+BindToGlobal
 (
 nsIGlobalObject
 *

@@ -3169,7 +3169,7 @@ mIsShutDown
 GlobalTeardownObserver
 :
 :
-BindToOwner
+BindToGlobal
 (
 aGlobal
 )
@@ -3177,7 +3177,7 @@ aGlobal
 GlobalFreezeObserver
 :
 :
-BindToOwner
+BindToGlobal
 (
 aGlobal
 )
