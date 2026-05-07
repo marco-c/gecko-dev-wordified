@@ -89915,9 +89915,6 @@ nsIFrame
 ShouldBreakBefore
 (
 const
-ReflowInput
-:
-:
 BreakType
 aBreakType
 )
@@ -89951,9 +89948,6 @@ nsIFrame
 ShouldBreakAfter
 (
 const
-ReflowInput
-:
-:
 BreakType
 aBreakType
 )
@@ -89994,9 +89988,6 @@ const
 StyleBreakBetween
 aBreakBetween
 const
-ReflowInput
-:
-:
 BreakType
 aBreakType
 )
@@ -90061,9 +90052,6 @@ return
 aBreakType
 =
 =
-ReflowInput
-:
-:
 BreakType
 :
 :

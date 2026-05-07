@@ -2725,9 +2725,6 @@ kidReflowInput
 .
 mBreakType
 =
-ReflowInput
-:
-:
 BreakType
 :
 :
@@ -3162,9 +3159,6 @@ kidReflowInput
 .
 mBreakType
 =
-ReflowInput
-:
-:
 BreakType
 :
 :

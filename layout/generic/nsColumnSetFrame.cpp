@@ -5003,9 +5003,6 @@ kidReflowInput
 .
 mBreakType
 =
-ReflowInput
-:
-:
 BreakType
 :
 :
