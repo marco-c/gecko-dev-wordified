@@ -9,12 +9,14 @@ Updates
 "
 menu
 item
+async
 function
 checkAll
 (
 win
 )
 {
+await
 triggerPageOptionsAction
 (
 win
