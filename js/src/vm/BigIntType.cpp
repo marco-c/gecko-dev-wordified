@@ -20862,6 +20862,7 @@ length
 ;
 Digit
 highDigitMask
+mask
 ;
 {
 auto
@@ -21007,7 +21008,6 @@ DigitBits
 highDigitBits
 )
 ;
-Digit
 mask
 =
 highDigitMask
@@ -21108,11 +21108,6 @@ res
 digits
 (
 )
-;
-Digit
-mask
-=
-highDigitMask
 ;
 while
 (
