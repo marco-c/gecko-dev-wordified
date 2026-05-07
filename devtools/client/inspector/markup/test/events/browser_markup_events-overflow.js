@@ -427,7 +427,7 @@ header
 }
 header
 .
-documentGlobal
+ownerGlobal
 )
 ;
 await

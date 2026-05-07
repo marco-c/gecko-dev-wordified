@@ -609,7 +609,7 @@ win
 =
 el
 .
-documentGlobal
+ownerGlobal
 ;
 return
 win

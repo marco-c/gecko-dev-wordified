@@ -731,7 +731,7 @@ FrozenCallback
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 override
 {
@@ -765,7 +765,7 @@ ThawedCallback
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 override
 {
@@ -3169,7 +3169,7 @@ mIsShutDown
 GlobalTeardownObserver
 :
 :
-BindToGlobal
+BindToOwner
 (
 aGlobal
 )
@@ -3177,7 +3177,7 @@ aGlobal
 GlobalFreezeObserver
 :
 :
-BindToGlobal
+BindToOwner
 (
 aGlobal
 )
@@ -8499,7 +8499,7 @@ lock
 mEventSource
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

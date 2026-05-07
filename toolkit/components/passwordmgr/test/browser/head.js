@@ -5269,7 +5269,7 @@ promiseFocus
 (
 browser
 .
-documentGlobal
+ownerGlobal
 )
 ;
 /
@@ -5728,7 +5728,7 @@ hintElem
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 ConfirmationHint
 .

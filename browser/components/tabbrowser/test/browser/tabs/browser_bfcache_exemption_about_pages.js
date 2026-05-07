@@ -130,7 +130,7 @@ evt
 .
 target
 .
-documentGlobal
+ownerGlobal
 .
 document
 .

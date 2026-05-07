@@ -340,7 +340,7 @@ _target
 browser
 :
 {
-documentGlobal
+ownerGlobal
 :
 {
 openPreferences
@@ -372,7 +372,7 @@ _target
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 openPreferences
 )
@@ -421,7 +421,7 @@ _target
 browser
 :
 {
-documentGlobal
+ownerGlobal
 :
 {
 BrowserAddonUI
@@ -457,7 +457,7 @@ _target
 .
 browser
 .
-documentGlobal
+ownerGlobal
 .
 BrowserAddonUI
 .

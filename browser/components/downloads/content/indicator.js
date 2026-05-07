@@ -2207,7 +2207,7 @@ if
 (
 anchor
 .
-documentGlobal
+ownerGlobal
 .
 matchMedia
 (

@@ -68,7 +68,7 @@ MutationObserver
 =
 element
 .
-documentGlobal
+ownerGlobal
 .
 MutationObserver
 ;

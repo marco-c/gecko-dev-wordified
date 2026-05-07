@@ -558,7 +558,7 @@ win
 =
 doc
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /
@@ -888,7 +888,7 @@ win
 =
 doc
 .
-documentGlobal
+ownerGlobal
 ;
 let
 paneLoaded
@@ -1206,7 +1206,7 @@ win
 =
 doc
 .
-documentGlobal
+ownerGlobal
 ;
 let
 paneLoaded
@@ -1678,7 +1678,7 @@ win
 =
 doc
 .
-documentGlobal
+ownerGlobal
 ;
 let
 profilesNote

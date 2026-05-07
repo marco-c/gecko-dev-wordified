@@ -990,7 +990,7 @@ style
 =
 element
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

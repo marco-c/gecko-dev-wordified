@@ -2576,7 +2576,7 @@ callsFake
 {
 return
 {
-documentGlobal
+ownerGlobal
 :
 {
 PopupNotifications
@@ -3795,7 +3795,7 @@ callsFake
 {
 return
 {
-documentGlobal
+ownerGlobal
 :
 {
 PopupNotifications

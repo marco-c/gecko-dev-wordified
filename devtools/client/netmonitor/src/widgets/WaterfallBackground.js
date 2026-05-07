@@ -956,7 +956,7 @@ getCssVariableColor
 colorVariableName
 document
 .
-documentGlobal
+ownerGlobal
 )
 ;
 const

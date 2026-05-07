@@ -2706,7 +2706,7 @@ win
 =
 rawNode
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /

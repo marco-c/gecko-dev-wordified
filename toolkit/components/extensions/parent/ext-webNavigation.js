@@ -872,7 +872,7 @@ data
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

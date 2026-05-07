@@ -812,7 +812,7 @@ AsContent
 )
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -2937,7 +2937,7 @@ use
 mOwner
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 nsIGlobalObject
@@ -7805,7 +7805,7 @@ use
 this
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 RefPtr
@@ -8426,7 +8426,7 @@ shouldn
 t
 this
 be
-GetRelevantGlobal
+GetOwnerGlobal
 ?
 But
 it
@@ -8434,9 +8434,9 @@ it
 s
 privileged
 code
-/
-/
 so
+/
+/
 seems
 probably
 fine

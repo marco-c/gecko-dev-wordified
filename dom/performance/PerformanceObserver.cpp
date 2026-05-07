@@ -212,7 +212,7 @@ mPerformance
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mGlobal
+mOwner
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -234,7 +234,7 @@ mPerformance
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mGlobal
+mOwner
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -272,7 +272,7 @@ PerformanceObserverCallback
 aCb
 )
 :
-mGlobal
+mOwner
 (
 aOwner
 -
@@ -297,7 +297,7 @@ false
 {
 MOZ_ASSERT
 (
-mGlobal
+mOwner
 )
 ;
 mPerformance
@@ -323,7 +323,7 @@ PerformanceObserverCallback
 aCb
 )
 :
-mGlobal
+mOwner
 (
 aWorkerPrivate
 -
@@ -819,7 +819,7 @@ mPerformance
 |
 |
 !
-mGlobal
+mOwner
 )
 {
 aRv
@@ -1414,7 +1414,7 @@ params
 invalidTypesJoined
 }
 ;
-mGlobal
+mOwner
 -
 >
 ReportToConsole
@@ -1479,7 +1479,7 @@ IsEmpty
 )
 )
 {
-mGlobal
+mOwner
 -
 >
 ReportToConsole
@@ -1700,7 +1700,7 @@ params
 type
 }
 ;
-mGlobal
+mOwner
 -
 >
 ReportToConsole

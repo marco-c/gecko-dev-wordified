@@ -3334,7 +3334,7 @@ waitForEvent
 (
 browser
 .
-documentGlobal
+ownerGlobal
 .
 document
 "
@@ -3606,7 +3606,7 @@ waitForEvent
 (
 browser
 .
-documentGlobal
+ownerGlobal
 .
 document
 "

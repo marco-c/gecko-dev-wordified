@@ -302,7 +302,7 @@ checkbox
 }
 checkbox
 .
-documentGlobal
+ownerGlobal
 )
 ;
 /

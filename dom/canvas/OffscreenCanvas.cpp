@@ -1755,7 +1755,7 @@ nsIGlobalObject
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -2415,7 +2415,7 @@ ImageBitmap
 :
 CreateFromOffscreenCanvas
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 *
@@ -2883,7 +2883,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -3277,7 +3277,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -3600,7 +3600,7 @@ nsContentUtils
 :
 ShouldResistFingerprinting
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aTarget
@@ -3835,7 +3835,7 @@ win
 =
 do_QueryInterface
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -3927,7 +3927,7 @@ win
 =
 do_QueryInterface
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -4015,7 +4015,7 @@ win
 =
 do_QueryInterface
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -4104,7 +4104,7 @@ win
 =
 do_QueryInterface
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

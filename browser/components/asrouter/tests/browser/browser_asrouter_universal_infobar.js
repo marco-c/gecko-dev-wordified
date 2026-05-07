@@ -351,7 +351,7 @@ const
 browser
 =
 {
-documentGlobal
+ownerGlobal
 :
 win
 id
@@ -766,13 +766,13 @@ origBox
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gNotificationBox
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gNotificationBox
 =
@@ -868,7 +868,7 @@ ok
 (
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gNotificationBox
 .
@@ -902,7 +902,7 @@ cleanupInfobars
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gNotificationBox
 =
@@ -952,13 +952,13 @@ origBox
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gNotificationBox
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gNotificationBox
 =
@@ -1135,7 +1135,7 @@ cleanupInfobars
 ;
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gNotificationBox
 =
@@ -1976,7 +1976,7 @@ _universalInfobars
 box
 :
 {
-documentGlobal
+ownerGlobal
 :
 fakeWindow
 }

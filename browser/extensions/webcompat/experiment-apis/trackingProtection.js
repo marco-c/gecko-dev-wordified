@@ -1895,7 +1895,7 @@ win
 .
 gBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 {

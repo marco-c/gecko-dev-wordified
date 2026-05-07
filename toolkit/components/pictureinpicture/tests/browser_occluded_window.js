@@ -140,7 +140,7 @@ bc
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 ;
@@ -683,7 +683,7 @@ bc
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 ;
@@ -1203,7 +1203,7 @@ bc
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 browsingContext
 ;

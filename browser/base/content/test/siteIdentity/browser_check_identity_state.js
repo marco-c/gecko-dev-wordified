@@ -238,7 +238,7 @@ refreshIdentityPopup
 return
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

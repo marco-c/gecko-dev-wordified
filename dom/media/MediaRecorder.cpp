@@ -13050,7 +13050,7 @@ thread
 if
 (
 !
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -13081,7 +13081,7 @@ Blob
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aBlobImpl

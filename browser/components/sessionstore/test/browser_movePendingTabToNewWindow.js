@@ -433,7 +433,7 @@ isnot
 newWindow
 gBrowser
 .
-documentGlobal
+ownerGlobal
 "
 Tab
 moved

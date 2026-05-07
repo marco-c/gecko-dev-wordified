@@ -229,7 +229,7 @@ aEvent
 .
 target
 .
-documentGlobal
+ownerGlobal
 )
 {
 xulFrameLoaderCreatedCounter
@@ -685,7 +685,7 @@ xulFrameLoaderCreatedCounter
 ;
 aBrowser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -910,7 +910,7 @@ remoteType
 ;
 aBrowser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

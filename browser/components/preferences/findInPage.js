@@ -1553,7 +1553,7 @@ getFindSelection
 (
 startNode
 .
-documentGlobal
+ownerGlobal
 )
 .
 addRange

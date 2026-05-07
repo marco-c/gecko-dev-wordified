@@ -696,7 +696,7 @@ Blob
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aBlob

@@ -1137,7 +1137,7 @@ VK_SPACE
 }
 rawToggleInput
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }

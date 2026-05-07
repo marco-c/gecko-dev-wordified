@@ -1289,7 +1289,7 @@ return
 mOriginalTarget
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

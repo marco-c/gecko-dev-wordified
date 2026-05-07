@@ -1910,7 +1910,7 @@ this
 .
 currentNode
 .
-documentGlobal
+ownerGlobal
 ;
 this
 .

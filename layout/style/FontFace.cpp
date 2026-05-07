@@ -530,7 +530,7 @@ nsIGlobalObject
 aParent
 )
 {
-BindToGlobal
+BindToOwner
 (
 aParent
 )
@@ -1912,7 +1912,7 @@ mImpl
 |
 |
 !
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -1927,7 +1927,7 @@ Promise
 :
 CreateInfallible
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

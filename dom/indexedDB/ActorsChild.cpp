@@ -2324,7 +2324,7 @@ Create
 (
 database
 .
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 blobImpl
@@ -2422,7 +2422,7 @@ Create
 (
 database
 .
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 blobImpl
@@ -6662,7 +6662,7 @@ if
 !
 factory
 .
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -10023,7 +10023,7 @@ if
 database
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -10174,7 +10174,7 @@ if
 database
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -10380,7 +10380,7 @@ Database
 )
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -10524,7 +10524,7 @@ Database
 )
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -16149,7 +16149,7 @@ Database
 )
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

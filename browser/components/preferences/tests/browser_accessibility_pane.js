@@ -462,7 +462,7 @@ win
 =
 doc
 .
-documentGlobal
+ownerGlobal
 ;
 let
 paneLoaded

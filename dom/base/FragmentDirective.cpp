@@ -3286,7 +3286,7 @@ Create
 mDocument
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 IgnoreErrors

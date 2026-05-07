@@ -4001,7 +4001,7 @@ DOCUMENT_NODE
 return
 target
 .
-documentGlobal
+ownerGlobal
 .
 docShell
 .

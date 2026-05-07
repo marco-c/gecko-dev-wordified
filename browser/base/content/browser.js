@@ -8199,7 +8199,7 @@ browser
 |
 browser
 .
-documentGlobal
+ownerGlobal
 !
 =
 window

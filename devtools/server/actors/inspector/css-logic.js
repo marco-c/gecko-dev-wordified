@@ -975,7 +975,7 @@ ELEMENT_NODE
 !
 node
 .
-documentGlobal
+ownerGlobal
 )
 {
 return
@@ -1091,7 +1091,7 @@ null
 return
 node
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

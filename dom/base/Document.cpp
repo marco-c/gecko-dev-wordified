@@ -98076,7 +98076,7 @@ Init
 doc
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -105994,7 +105994,7 @@ Init
 self
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

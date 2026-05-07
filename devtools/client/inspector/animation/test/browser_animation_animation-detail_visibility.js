@@ -280,7 +280,7 @@ win
 =
 detailEl
 .
-documentGlobal
+ownerGlobal
 ;
 await
 waitUntil

@@ -794,7 +794,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 const
 contextMenu

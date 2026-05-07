@@ -660,7 +660,7 @@ debuggerIcon
 }
 debuggerIcon
 .
-documentGlobal
+ownerGlobal
 )
 ;
 const

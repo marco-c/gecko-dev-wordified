@@ -289,7 +289,7 @@ if
 (
 node
 .
-documentGlobal
+ownerGlobal
 .
 matchMedia
 (

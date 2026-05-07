@@ -126,7 +126,7 @@ const
 ;
 nsIGlobalObject
 *
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 const
@@ -311,11 +311,11 @@ GlobalTeardownObserver
 )
 ;
 void
-BindToGlobal
+BindToOwner
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 ;
 private
@@ -373,7 +373,7 @@ is
 /
 obtained
 in
-BindToGlobal
+BindToOwner
 .
 bool
 mHasOrHasHadOwnerWindow

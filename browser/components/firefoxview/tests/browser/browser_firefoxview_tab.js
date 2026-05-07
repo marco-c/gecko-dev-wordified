@@ -654,7 +654,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 ok
 (
@@ -817,7 +817,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 ok
 (
@@ -946,7 +946,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 EventUtils
 .
@@ -1855,7 +1855,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 ok
 (
@@ -2008,7 +2008,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 Assert
 .

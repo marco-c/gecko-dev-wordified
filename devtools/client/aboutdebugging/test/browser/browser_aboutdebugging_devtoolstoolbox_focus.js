@@ -759,7 +759,7 @@ navigator
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ;
 is
 (

@@ -143,7 +143,7 @@ url
 =
 browser
 .
-documentGlobal
+ownerGlobal
 .
 BROWSER_NEW_TAB_URL
 ;

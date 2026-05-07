@@ -413,7 +413,7 @@ win
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (
@@ -1074,7 +1074,7 @@ win
 browser
 ?
 .
-documentGlobal
+ownerGlobal
 ;
 if
 (

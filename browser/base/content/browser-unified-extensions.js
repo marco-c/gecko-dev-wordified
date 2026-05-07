@@ -606,7 +606,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 const
 tab
@@ -747,7 +747,7 @@ tab
 :
 this
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -859,7 +859,7 @@ extension
 policy
 this
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .
@@ -1011,7 +1011,7 @@ extension
 policy
 this
 .
-documentGlobal
+ownerGlobal
 )
 ;
 this

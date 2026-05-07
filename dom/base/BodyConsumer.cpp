@@ -1618,7 +1618,7 @@ consumer
 GlobalTeardownObserver
 :
 :
-BindToGlobal
+BindToOwner
 (
 aGlobal
 )
@@ -1629,7 +1629,7 @@ consumer
 GlobalFreezeObserver
 :
 :
-BindToGlobal
+BindToOwner
 (
 aGlobal
 )

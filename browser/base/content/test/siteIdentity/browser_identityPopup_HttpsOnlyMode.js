@@ -936,7 +936,7 @@ gIdentityHandler
 =
 gBrowser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 promisePanelOpen
@@ -947,7 +947,7 @@ waitForEvent
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 "
 popupshown
 "
@@ -1009,7 +1009,7 @@ is
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

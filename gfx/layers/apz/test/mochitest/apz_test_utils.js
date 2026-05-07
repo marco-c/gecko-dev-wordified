@@ -1944,7 +1944,7 @@ aOptions
 .
 popupElement
 .
-documentGlobal
+ownerGlobal
 :
 window
 )
@@ -2900,7 +2900,7 @@ aPopupElement
 ?
 aPopupElement
 .
-documentGlobal
+ownerGlobal
 :
 window
 aPopupElement
@@ -8970,7 +8970,7 @@ aPopupElement
 ?
 aPopupElement
 .
-documentGlobal
+ownerGlobal
 :
 window
 )

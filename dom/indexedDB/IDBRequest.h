@@ -515,7 +515,7 @@ owner
 if
 (
 !
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -568,7 +568,7 @@ autoJS
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -856,7 +856,7 @@ GetParentObject
 const
 {
 return
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

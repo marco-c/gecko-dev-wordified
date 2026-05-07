@@ -314,7 +314,7 @@ docShell
 .
 chromeEventHandler
 .
-documentGlobal
+ownerGlobal
 ;
 }
 /

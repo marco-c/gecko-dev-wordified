@@ -663,7 +663,7 @@ this
 .
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 scale

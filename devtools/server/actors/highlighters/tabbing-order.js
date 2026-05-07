@@ -599,7 +599,7 @@ this
 win
 currentFocusedElement
 .
-documentGlobal
+ownerGlobal
 )
 )
 {
@@ -675,7 +675,7 @@ this
 win
 currentFocusedElement
 .
-documentGlobal
+ownerGlobal
 )
 )
 {

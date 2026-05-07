@@ -417,7 +417,7 @@ codeMirror
 .
 contentDOM
 .
-documentGlobal
+ownerGlobal
 ;
 const
 font

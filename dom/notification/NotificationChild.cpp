@@ -170,7 +170,7 @@ if
 mWindow
 )
 {
-BindToGlobal
+BindToOwner
 (
 mWindow
 -
@@ -738,7 +738,7 @@ FrozenCallback
 (
 nsIGlobalObject
 *
-aGlobal
+aOwner
 )
 {
 /

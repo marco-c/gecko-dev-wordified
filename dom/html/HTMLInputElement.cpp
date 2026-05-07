@@ -1820,7 +1820,7 @@ global
 mInputElement
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -1883,7 +1883,7 @@ Create
 mInputElement
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aBlobImpls
@@ -3789,7 +3789,7 @@ if
 mInput
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -6237,7 +6237,7 @@ Init
 bc
 title
 mode
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -14879,7 +14879,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -15206,7 +15206,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -15351,7 +15351,7 @@ nsIGlobalObject
 *
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -22301,7 +22301,7 @@ jsapi
 .
 Init
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -37306,7 +37306,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -40141,7 +40141,7 @@ IsEmpty
 {
 NS_ENSURE_STATE
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -40160,7 +40160,7 @@ Blob
 :
 CreateStringBlob
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 "
@@ -48060,7 +48060,7 @@ nsIGlobalObject
 >
 global
 =
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;

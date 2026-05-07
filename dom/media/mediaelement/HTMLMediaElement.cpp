@@ -36980,7 +36980,7 @@ AudioStreamTrack
 aStreamTrack
 nsIGlobalObject
 *
-aRelevantGlobal
+aOwnerGlobal
 )
 {
 nsAutoString
@@ -37015,7 +37015,7 @@ MediaTrackList
 :
 CreateAudioTrack
 (
-aRelevantGlobal
+aOwnerGlobal
 id
 u
 "
@@ -37044,7 +37044,7 @@ VideoStreamTrack
 aStreamTrack
 nsIGlobalObject
 *
-aRelevantGlobal
+aOwnerGlobal
 )
 {
 nsAutoString
@@ -37079,7 +37079,7 @@ MediaTrackList
 :
 CreateVideoTrack
 (
-aRelevantGlobal
+aOwnerGlobal
 id
 u
 "
@@ -37232,7 +37232,7 @@ AudioTracks
 )
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -37317,7 +37317,7 @@ VideoTracks
 )
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )
@@ -51573,7 +51573,7 @@ CreateAudioTrack
 audioList
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 info
@@ -51667,7 +51667,7 @@ CreateVideoTrack
 videoList
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 info

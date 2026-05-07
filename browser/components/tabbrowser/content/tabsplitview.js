@@ -585,7 +585,7 @@ in
 disconnectedCallback
 this
 .
-documentGlobal
+ownerGlobal
 .
 addEventListener
 (
@@ -703,7 +703,7 @@ disconnect
 ;
 this
 .
-documentGlobal
+ownerGlobal
 .
 removeEventListener
 (
@@ -1837,13 +1837,13 @@ tabToMove
 =
 this
 .
-documentGlobal
+ownerGlobal
 =
 =
 =
 tab
 .
-documentGlobal
+ownerGlobal
 ?
 tab
 :

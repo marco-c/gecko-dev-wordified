@@ -1911,7 +1911,7 @@ flushWindow
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 then

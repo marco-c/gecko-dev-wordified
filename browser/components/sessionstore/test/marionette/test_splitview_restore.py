@@ -432,7 +432,7 @@ flushWindow
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 then
@@ -760,7 +760,7 @@ flushWindow
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 then
@@ -1162,7 +1162,7 @@ flushWindow
 (
 gBrowser
 .
-documentGlobal
+ownerGlobal
 )
 .
 then

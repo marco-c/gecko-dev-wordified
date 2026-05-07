@@ -2778,7 +2778,7 @@ spy
 (
 browser
 .
-documentGlobal
+ownerGlobal
 .
 gURLBar
 .

@@ -729,7 +729,7 @@ PanelUI
 =
 target
 .
-documentGlobal
+ownerGlobal
 ;
 switch
 (

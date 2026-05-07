@@ -1191,7 +1191,7 @@ Promise
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aRv
@@ -1337,7 +1337,7 @@ Promise
 :
 Create
 (
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 aRv
@@ -1643,7 +1643,7 @@ if
 NS_WARN_IF
 (
 !
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 )

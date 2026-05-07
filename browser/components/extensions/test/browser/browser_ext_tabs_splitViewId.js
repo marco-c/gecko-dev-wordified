@@ -251,7 +251,7 @@ splitview
 =
 tab1
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

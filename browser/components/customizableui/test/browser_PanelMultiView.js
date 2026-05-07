@@ -213,7 +213,7 @@ win
 =
 element
 .
-documentGlobal
+ownerGlobal
 ;
 let
 style

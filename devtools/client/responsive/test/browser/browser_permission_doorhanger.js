@@ -238,7 +238,7 @@ win
 =
 browser
 .
-documentGlobal
+ownerGlobal
 ;
 let
 waitPromptPromise

@@ -623,7 +623,7 @@ this
 .
 sourceBrowser
 .
-documentGlobal
+ownerGlobal
 .
 document
 .
@@ -879,7 +879,7 @@ initFn
 (
 doc
 .
-documentGlobal
+ownerGlobal
 )
 ;
 }
@@ -1842,7 +1842,7 @@ this
 .
 sourceBrowser
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 .

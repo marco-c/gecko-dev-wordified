@@ -772,7 +772,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 }
 else
@@ -791,7 +791,7 @@ event
 .
 target
 .
-documentGlobal
+ownerGlobal
 ;
 }
 if

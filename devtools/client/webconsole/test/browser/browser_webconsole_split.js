@@ -673,7 +673,7 @@ isConsoleVisible
 =
 webconsolePanel
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (
@@ -692,7 +692,7 @@ isDeckVisible
 =
 deck
 .
-documentGlobal
+ownerGlobal
 .
 getComputedStyle
 (

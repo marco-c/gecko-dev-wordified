@@ -748,7 +748,7 @@ link
 }
 link
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let
@@ -969,7 +969,7 @@ link
 }
 link
 .
-documentGlobal
+ownerGlobal
 )
 ;
 let

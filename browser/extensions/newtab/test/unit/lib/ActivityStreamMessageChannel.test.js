@@ -151,7 +151,7 @@ preloaded
 "
 "
 )
-documentGlobal
+ownerGlobal
 :
 {
 addEventListener
@@ -1039,7 +1039,7 @@ data
 .
 browser
 .
-documentGlobal
+ownerGlobal
 =
 {
 STATE_MAXIMIZED

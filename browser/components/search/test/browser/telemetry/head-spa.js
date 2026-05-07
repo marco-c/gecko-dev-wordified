@@ -388,7 +388,7 @@ waitForNewTab
 (
 tab
 .
-documentGlobal
+ownerGlobal
 .
 gBrowser
 )
@@ -438,7 +438,7 @@ tab
 .
 linkedBrowser
 .
-documentGlobal
+ownerGlobal
 .
 document
 .

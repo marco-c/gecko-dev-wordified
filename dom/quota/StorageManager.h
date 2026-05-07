@@ -148,7 +148,7 @@ nsCOMPtr
 <
 nsIGlobalObject
 >
-mGlobal
+mOwner
 ;
 public
 :
@@ -190,7 +190,7 @@ GetParentObject
 const
 {
 return
-mGlobal
+mOwner
 ;
 }
 JSObject

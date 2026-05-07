@@ -60,7 +60,7 @@ win
 =
 target
 .
-documentGlobal
+ownerGlobal
 ;
 Services
 .

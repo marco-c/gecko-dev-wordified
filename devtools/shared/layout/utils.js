@@ -2623,12 +2623,12 @@ return
 (
 node
 .
-documentGlobal
+ownerGlobal
 &
 &
 node
 .
-documentGlobal
+ownerGlobal
 .
 HTMLTemplateElement
 .
@@ -4010,7 +4010,7 @@ win
 =
 node
 .
-documentGlobal
+ownerGlobal
 ;
 /
 /

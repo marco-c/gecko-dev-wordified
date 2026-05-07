@@ -1286,7 +1286,7 @@ global
 mOffscreenCanvas
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
@@ -20966,14 +20966,14 @@ GetCurrentJSContext
 aOffscreenCanvas
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ?
 aOffscreenCanvas
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 -
@@ -37122,7 +37122,7 @@ global
 mOffscreenCanvas
 -
 >
-GetRelevantGlobal
+GetOwnerGlobal
 (
 )
 ;
