@@ -1133,7 +1133,6 @@ aElement
 nsAtom
 &
 aNamespace
-const
 nsAtom
 &
 aName
