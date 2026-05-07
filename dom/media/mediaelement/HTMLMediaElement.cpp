@@ -4255,6 +4255,8 @@ false
 MOZ_INIT_OUTSIDE_CTOR
 uint64_t
 mOwnerBrowsingContextId
+=
+0
 ;
 const
 nsID

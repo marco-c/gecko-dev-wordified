@@ -1492,6 +1492,8 @@ only
 .
 bool
 mDeviceMuted
+=
+false
 ;
 /
 /
