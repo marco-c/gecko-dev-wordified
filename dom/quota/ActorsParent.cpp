@@ -53056,7 +53056,13 @@ leafName
 ;
 mSpec
 =
+std
+:
+:
+move
+(
 spec
+)
 ;
 mAttrs
 =
@@ -53070,7 +53076,13 @@ attrs
 ;
 mOriginalSuffix
 =
+std
+:
+:
+move
+(
 originalSuffix
+)
 ;
 mPersistenceType
 .
