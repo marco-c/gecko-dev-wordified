@@ -1130,6 +1130,8 @@ loader
 ScriptLoadRequest
 *
 aRequest
+CacheExpirationTime
+aExpirationTime
 JS
 :
 :
