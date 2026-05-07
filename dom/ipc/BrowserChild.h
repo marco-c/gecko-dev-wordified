@@ -1559,7 +1559,7 @@ ipc
 :
 :
 IPCResult
-RecvRealMouseMoveEventForTests
+RecvRealMouseMoveEventNoCompress
 (
 const
 mozilla
@@ -1585,7 +1585,7 @@ ipc
 :
 :
 IPCResult
-RecvNormalPriorityRealMouseMoveEventForTests
+RecvNormalPriorityRealMouseMoveEventNoCompress
 (
 const
 mozilla
