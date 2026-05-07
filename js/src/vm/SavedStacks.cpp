@@ -10441,6 +10441,11 @@ seenStartAt
 !
 startAt
 ;
+bool
+framePushed
+=
+false
+;
 RootedField
 <
 LocationValue
@@ -11184,6 +11189,10 @@ if
 seenStartAt
 )
 {
+framePushed
+=
+true
+;
 if
 (
 !
@@ -12085,6 +12094,9 @@ false
 }
 if
 (
+framePushed
+&
+&
 capture
 .
 is
