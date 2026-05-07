@@ -8322,7 +8322,9 @@ SECFailure
 ;
 for
 (
+const
 auto
+&
 digest
 :
 digests_
