@@ -1498,8 +1498,10 @@ gSingleton
 {
 gSingleton
 =
-new
+MakeRefPtr
+<
 BrokenImageIcon
+>
 (
 aFrame
 )
@@ -4897,8 +4899,10 @@ aPrevInFlow
 ;
 mListener
 =
-new
+MakeRefPtr
+<
 nsImageListener
+>
 (
 this
 )
@@ -18948,8 +18952,10 @@ GetMapElement
 {
 mImageMap
 =
-new
+MakeRefPtr
+<
 nsImageMap
+>
 (
 )
 ;
