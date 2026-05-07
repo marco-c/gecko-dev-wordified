@@ -31075,7 +31075,7 @@ this
 Deal
 with
 the
-possiblity
+possibility
 that
 we
 '
@@ -40413,7 +40413,7 @@ along
 to
 our
 event
-hanlder
+handler
 so
 Gecko
 /

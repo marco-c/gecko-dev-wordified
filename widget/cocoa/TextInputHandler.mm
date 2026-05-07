@@ -11669,7 +11669,7 @@ may
 /
 be
 no
-candiate
+candidate
 words
 .
 In
@@ -35372,7 +35372,7 @@ TextInputHandlerBase
 :
 :
 GetWindowLevel
-Destryoed
+Destroyed
 (
 )
 =
