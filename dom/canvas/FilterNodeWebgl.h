@@ -1346,6 +1346,8 @@ mMatrix
 ;
 AlphaMode
 mAlphaMode
+=
+ALPHA_MODE_PREMULTIPLIED
 ;
 int32_t
 InputIndex
