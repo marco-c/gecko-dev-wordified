@@ -13119,6 +13119,10 @@ cycle_collector
 :
 deferred_finalize_async
 .
+ProcessGet
+(
+)
+.
 Start
 (
 )
@@ -13176,6 +13180,10 @@ cycle_collector
 :
 :
 deferred_finalize_async
+.
+ProcessGet
+(
+)
 .
 StopAndAccumulate
 (

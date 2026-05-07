@@ -1158,6 +1158,10 @@ cycle_collector
 :
 full
 .
+ProcessGet
+(
+)
+.
 AccumulateRawDuration
 (
 aCCNowDuration
@@ -1170,6 +1174,10 @@ cycle_collector
 :
 :
 max_pause
+.
+ProcessGet
+(
+)
 .
 AccumulateRawDuration
 (
@@ -1203,6 +1211,10 @@ cycle_collector
 :
 time_between
 .
+ProcessGet
+(
+)
+.
 AccumulateRawDuration
 (
 timeBetween
@@ -1216,6 +1228,10 @@ cycle_collector
 :
 :
 forget_skippable_max
+.
+ProcessGet
+(
+)
 .
 AccumulateRawDuration
 (
