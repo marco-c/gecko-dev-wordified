@@ -2232,10 +2232,6 @@ into_iter
 zip
 (
 inv_perm
-.
-into_iter
-(
-)
 )
 {
 shuffled_ret
