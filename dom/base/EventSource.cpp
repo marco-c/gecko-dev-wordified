@@ -3134,7 +3134,13 @@ srcURI
 ;
 mOrigin
 =
+std
+:
+:
+move
+(
 origin
+)
 ;
 return
 NS_OK

@@ -3619,7 +3619,13 @@ GetIntegerValue
 ;
 aResult
 =
+std
+:
+:
+move
+(
 intStr
+)
 ;
 break
 ;

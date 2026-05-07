@@ -4269,7 +4269,13 @@ AppendLiteral
 }
 aResult
 =
+std
+:
+:
+move
+(
 matrixStr
+)
 ;
 }
 /

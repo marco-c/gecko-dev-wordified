@@ -10288,7 +10288,13 @@ args
 .
 mNewValue
 =
+std
+:
+:
+move
+(
 attrValue
+)
 ;
 args
 .
@@ -10305,7 +10311,13 @@ VoidString
 (
 )
 :
+std
+:
+:
+move
+(
 namespaceURI
+)
 )
 ;
 nsContentUtils
