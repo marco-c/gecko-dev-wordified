@@ -1458,15 +1458,6 @@ Resources
 .
 TYPES
 .
-SESSION_HISTORY
-]
-:
-true
-[
-Resources
-.
-TYPES
-.
 WEBSOCKET
 ]
 :
