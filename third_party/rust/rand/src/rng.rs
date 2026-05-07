@@ -3496,7 +3496,7 @@ i128
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

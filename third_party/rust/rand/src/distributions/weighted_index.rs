@@ -941,7 +941,7 @@ Deserialize
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -3606,7 +3606,7 @@ new
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

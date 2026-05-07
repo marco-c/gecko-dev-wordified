@@ -640,7 +640,7 @@ StdRng
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
@@ -910,7 +910,7 @@ ThreadRng
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

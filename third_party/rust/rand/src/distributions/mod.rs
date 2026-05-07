@@ -636,7 +636,6 @@ from
 this
 distribution
 using
-[
 Rng
 :
 :
@@ -644,7 +643,6 @@ sample
 (
 Range
 )
-]
 or
 /
 /
@@ -705,7 +703,6 @@ object
 than
 to
 call
-[
 Rng
 :
 :
@@ -713,7 +710,6 @@ sample
 (
 Range
 )
-]
 .
 /
 /
@@ -776,7 +772,6 @@ of
 type
 T
 with
-[
 Rng
 :
 :
@@ -784,7 +779,6 @@ sample
 (
 Range
 )
-]
 .
 /
 /
@@ -1220,7 +1214,7 @@ alloc
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg

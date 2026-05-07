@@ -1388,13 +1388,14 @@ Rng
 [
 cfg
 (
-features
+feature
 =
 "
 nightly
 "
 )
 ]
+unsafe
 impl
 <
 D

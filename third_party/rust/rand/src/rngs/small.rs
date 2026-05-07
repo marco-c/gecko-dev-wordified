@@ -897,7 +897,7 @@ rand_xoshiro
 [
 cfg_attr
 (
-doc_cfg
+docsrs
 doc
 (
 cfg
