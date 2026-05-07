@@ -5288,9 +5288,16 @@ GetCurrentThreadId
 )
 )
 ;
-MOZ_ASSERT
+NS_WARNING_ASSERTION
 (
 mHook
+"
+SetWindowsHookEx
+(
+WH_GETMESSAGE
+)
+failed
+"
 )
 ;
 if
