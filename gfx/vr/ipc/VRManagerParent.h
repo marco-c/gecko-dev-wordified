@@ -306,8 +306,10 @@ VRManagerParent
 (
 )
 ;
+already_AddRefed
+<
 PVRLayerParent
-*
+>
 AllocPVRLayerParent
 (
 const
@@ -318,14 +320,6 @@ const
 uint32_t
 &
 aGroup
-)
-;
-bool
-DeallocPVRLayerParent
-(
-PVRLayerParent
-*
-actor
 )
 ;
 virtual
