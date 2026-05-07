@@ -34199,6 +34199,10 @@ NotifyUAWidgetSetupOrChange
 (
 )
 ;
+SetCuesDirty
+(
+)
+;
 }
 }
 /
@@ -36976,7 +36980,7 @@ AudioStreamTrack
 aStreamTrack
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 )
 {
 nsAutoString
@@ -37011,7 +37015,7 @@ MediaTrackList
 :
 CreateAudioTrack
 (
-aOwnerGlobal
+aRelevantGlobal
 id
 u
 "
@@ -37040,7 +37044,7 @@ VideoStreamTrack
 aStreamTrack
 nsIGlobalObject
 *
-aOwnerGlobal
+aRelevantGlobal
 )
 {
 nsAutoString
@@ -37075,7 +37079,7 @@ MediaTrackList
 :
 CreateVideoTrack
 (
-aOwnerGlobal
+aRelevantGlobal
 id
 u
 "
@@ -37228,7 +37232,7 @@ AudioTracks
 )
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -37313,7 +37317,7 @@ VideoTracks
 )
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -39251,6 +39255,10 @@ MOZ_ASSERT
 (
 !
 mSeekDOMPromise
+)
+;
+SetCuesDirty
+(
 )
 ;
 }
@@ -49829,13 +49837,6 @@ TextTrackManager
 this
 )
 ;
-mTextTrackManager
--
->
-AddListeners
-(
-)
-;
 }
 return
 mTextTrackManager
@@ -51572,7 +51573,7 @@ CreateAudioTrack
 audioList
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 info
@@ -51666,7 +51667,7 @@ CreateVideoTrack
 videoList
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 info

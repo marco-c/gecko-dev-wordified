@@ -2217,7 +2217,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -4471,7 +4471,7 @@ Blob
 :
 Create
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 mResponseBlobImpl
@@ -13516,7 +13516,7 @@ nsIGlobalObject
 >
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 ;
@@ -15768,7 +15768,7 @@ jsapi
 .
 Init
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -20491,7 +20491,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -20530,7 +20530,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -23650,7 +23650,7 @@ nsIGlobalObject
 *
 global
 =
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )

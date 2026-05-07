@@ -104,6 +104,9 @@ nsISimpleEnumerator
 class
 nsIWidget
 ;
+class
+nsIGlobalObject
+;
 namespace
 mozilla
 :
@@ -150,6 +153,9 @@ nsIFilePicker
 :
 Mode
 aMode
+nsISupports
+*
+aGlobal
 )
 override
 ;
@@ -361,6 +367,13 @@ aValue
 )
 override
 ;
+nsIGlobalObject
+*
+GetRelevantGlobal
+(
+)
+const
+;
 protected
 :
 virtual
@@ -427,6 +440,12 @@ dom
 BrowsingContext
 >
 mBrowsingContext
+;
+nsCOMPtr
+<
+nsIGlobalObject
+>
+mGlobal
 ;
 nsIFilePicker
 :

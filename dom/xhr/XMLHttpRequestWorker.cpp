@@ -12496,7 +12496,7 @@ Blob
 :
 Create
 (
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 mResponseData

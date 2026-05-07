@@ -394,6 +394,10 @@ ActorDestroyReason
 aReason
 )
 {
+Unfollow
+(
+)
+;
 CastedManager
 (
 )
@@ -705,7 +709,7 @@ Signal
 )
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
@@ -779,10 +783,6 @@ reason
 )
 ;
 }
-Unfollow
-(
-)
-;
 Send__delete__
 (
 this

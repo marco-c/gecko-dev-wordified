@@ -486,7 +486,7 @@ Create
 aElement
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aRv
@@ -919,7 +919,7 @@ Create
 aDoc
 -
 >
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 aRv

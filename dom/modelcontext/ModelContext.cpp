@@ -1703,7 +1703,7 @@ Init
 (
 signal
 .
-GetOwnerGlobal
+GetRelevantGlobal
 (
 )
 )
