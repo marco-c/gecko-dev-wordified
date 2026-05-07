@@ -401,6 +401,8 @@ generated
 "
     
 from
+mozperftest
+.
 perfdocs
 .
 logger
@@ -422,7 +424,34 @@ None
 )
 :
         
-floc
+#
+Navigate
+up
+from
+python
+/
+mozperftest
+/
+mozperftest
+/
+perfdocs
+/
+perfdocs
+.
+py
+        
+#
+to
+the
+repo
+root
+(
+4
+levels
+up
+)
+        
+top_dir
 =
 pathlib
 .
@@ -434,28 +463,11 @@ __file__
 absolute
 (
 )
-        
-top_dir
-=
-pathlib
 .
-Path
-(
-str
-(
-floc
-)
-.
-split
-(
-"
-tools
-"
-)
+parents
 [
-0
+4
 ]
-)
 .
 resolve
 (
@@ -680,6 +692,8 @@ until
 later
     
 from
+mozperftest
+.
 perfdocs
 .
 generator
@@ -687,6 +701,8 @@ import
 Generator
     
 from
+mozperftest
+.
 perfdocs
 .
 verifier

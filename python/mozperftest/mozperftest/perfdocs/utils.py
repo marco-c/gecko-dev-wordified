@@ -68,6 +68,8 @@ mozversioncontrol
 import
 get_repository_object
 from
+mozperftest
+.
 perfdocs
 .
 logger
