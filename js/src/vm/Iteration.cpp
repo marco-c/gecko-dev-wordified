@@ -749,6 +749,8 @@ visited_
 ;
 uint32_t
 ownPropertyCount_
+=
+0
 ;
 bool
 enumeratingProtoChain_

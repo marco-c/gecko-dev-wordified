@@ -2351,6 +2351,8 @@ sanity
 .
 uint32_t
 allocWritten_
+=
+0
 ;
 /
 /
@@ -2547,9 +2549,13 @@ writer_
 ;
 uint32_t
 instructionCount_
+=
+0
 ;
 uint32_t
 instructionsWritten_
+=
+0
 ;
 public
 :

@@ -468,6 +468,11 @@ nullptr
 ;
 Kind
 kind_
+=
+Kind
+:
+:
+JSJit
 ;
 static
 const

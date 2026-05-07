@@ -3989,6 +3989,8 @@ label_
 ;
 uint32_t
 stackPushed_
+=
+0
 ;
 #
 ifdef

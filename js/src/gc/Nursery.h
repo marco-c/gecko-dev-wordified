@@ -4127,6 +4127,8 @@ promoted
 .
 bool
 reportPromotion_
+=
+false
 ;
 #
 endif

@@ -30772,6 +30772,8 @@ simulator
 ;
 size_t
 compartmentCount
+=
+0
 ;
 /
 /

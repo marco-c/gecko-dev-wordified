@@ -887,6 +887,8 @@ private
 :
 bool
 isConcurrent
+=
+false
 ;
 JS
 :
@@ -3212,7 +3214,7 @@ JSFunction
 doCleanup
 JSObject
 *
-hostDefinedData
+incumbentGlobal
 )
 ;
 [
