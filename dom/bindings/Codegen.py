@@ -4128,16 +4128,6 @@ nativeType
 hooks
 }
           
-FindAssociatedGlobalForNative
-<
-{
-nativeType
-}
->
-:
-:
-Get
-          
 {
 getProto
 }

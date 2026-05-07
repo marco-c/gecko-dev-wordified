@@ -677,17 +677,6 @@ int32_t
 aDelta
 )
 ;
-/
-/
-BindingUtils
-.
-h
-'
-s
-FindAssociatedGlobalForNative
-needs
-this
-.
 nsIGlobalObject
 *
 GetParentObject

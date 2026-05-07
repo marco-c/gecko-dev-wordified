@@ -5558,17 +5558,6 @@ HandleObject
 target
 )
 ;
-JSObject
-*
-DetachExpandoChain
-(
-JS
-:
-:
-HandleObject
-target
-)
-;
 bool
 SetExpandoChain
 (
