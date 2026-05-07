@@ -35574,9 +35574,6 @@ reflect
 state
 changes
 .
-#
-ifndef
-XP_LINUX
 pref
 (
 "
@@ -35593,8 +35590,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 Felt
