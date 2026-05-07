@@ -51,7 +51,7 @@ onMoveToNewWindow
 )
 ;
 function
-getRealTabByExtensionTabId
+getNativeTabByExtensionTabId
 (
 tabId
 )
@@ -227,7 +227,7 @@ tabIds
 const
 tab1
 =
-getRealTabByExtensionTabId
+getNativeTabByExtensionTabId
 (
 tabIds
 [
@@ -238,7 +238,7 @@ tabIds
 const
 tab2
 =
-getRealTabByExtensionTabId
+getNativeTabByExtensionTabId
 (
 tabIds
 [
