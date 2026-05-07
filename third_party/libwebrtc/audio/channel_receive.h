@@ -1320,6 +1320,8 @@ frame_transformer
 RtcpEventObserver
 *
 rtcp_event_observer
+uint32_t
+local_ssrc
 )
 ;
 }

@@ -781,6 +781,11 @@ config
 rtp
 .
 rtcp_event_observer
+config
+.
+rtp
+.
+local_ssrc
 )
 ;
 }
