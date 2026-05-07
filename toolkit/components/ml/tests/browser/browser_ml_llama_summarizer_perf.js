@@ -681,14 +681,10 @@ run
 .
 /
 mach
-lint
--
-l
 perfdocs
 -
 -
-fix
-.
+generate
 /
 /
 This

@@ -44,14 +44,10 @@ run
 .
 /
 mach
-lint
--
-l
 perfdocs
 -
 -
-fix
-.
+generate
 to
 update
 docs
