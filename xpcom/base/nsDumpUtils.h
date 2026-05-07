@@ -729,7 +729,13 @@ aPath
 :
 mDirPath
 (
+std
+:
+:
+move
+(
 aPath
+)
 )
 mFifoInfoLock
 (
