@@ -80,6 +80,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -548,10 +555,10 @@ space
 if
 (
 !
-StaticPrefs
+gfxPlatform
 :
 :
-gfx_color_management_hdr
+UseHDR
 (
 )
 )
