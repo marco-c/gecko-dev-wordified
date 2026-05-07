@@ -68,6 +68,8 @@ text
 assert_equals
 (
 result
+.
+default
 "
 text
 file
