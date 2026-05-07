@@ -6729,7 +6729,7 @@ extra_bits
 =
 IMIN
 (
-12
+14
 IMAX
 (
 2
@@ -8626,7 +8626,7 @@ extra_bits
 =
 IMIN
 (
-12
+14
 extra_bits
 )
 ;
@@ -13210,6 +13210,12 @@ if
 ctx
 .
 extra_bands
+|
+|
+ext_total_bits
+!
+=
+0
 )
 theta_rdo
 =
