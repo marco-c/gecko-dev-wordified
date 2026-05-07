@@ -1606,6 +1606,8 @@ userSpaceOnUse
 /
 uint16_t
 mPrimitiveUnits
+=
+SVG_UNIT_TYPE_USERSPACEONUSE
 ;
 /
 *
