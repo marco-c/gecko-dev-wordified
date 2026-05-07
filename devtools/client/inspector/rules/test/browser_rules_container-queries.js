@@ -1850,7 +1850,6 @@ red
 "
 style
 (
-(
 var
 (
 -
@@ -1860,7 +1859,6 @@ y
 )
 >
 20px
-)
 )
 "
 +
@@ -1906,7 +1904,6 @@ empty
 style
 (
 (
-(
 attr
 (
 data
@@ -1922,9 +1919,7 @@ length
 <
 10px
 )
-)
 or
-(
 (
 attr
 (
@@ -1937,9 +1932,7 @@ px
 <
 100px
 )
-)
 or
-(
 (
 attr
 (
@@ -1950,7 +1943,6 @@ px
 )
 <
 1000px
-)
 )
 )
 {
@@ -2046,7 +2038,6 @@ expectedConditionText
 "
 style
 (
-(
 var
 (
 -
@@ -2056,7 +2047,6 @@ y
 )
 >
 20px
-)
 )
 "
 expectedHeaderText
@@ -2103,7 +2093,6 @@ is
 "
 style
 (
-(
 var
 (
 -
@@ -2113,7 +2102,6 @@ y
 )
 >
 20px
-)
 )
 "
 but
@@ -2468,7 +2456,6 @@ expectedConditionText
 style
 (
 (
-(
 attr
 (
 data
@@ -2484,9 +2471,7 @@ length
 <
 10px
 )
-)
 or
-(
 (
 attr
 (
@@ -2499,9 +2484,7 @@ px
 <
 100px
 )
-)
 or
-(
 (
 attr
 (
@@ -2512,7 +2495,6 @@ px
 )
 <
 1000px
-)
 )
 )
 "
