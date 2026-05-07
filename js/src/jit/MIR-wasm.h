@@ -11892,6 +11892,8 @@ will
 rewrite
 any
 array
+or
+struct
 data
 pointers
 on
@@ -11913,6 +11915,14 @@ AliasSet
 :
 :
 WasmArrayDataPointer
+)
+|
+AliasSet
+(
+AliasSet
+:
+:
+WasmStructOutlineDataPointer
 )
 ;
 return
