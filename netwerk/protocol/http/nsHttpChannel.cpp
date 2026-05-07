@@ -48625,6 +48625,12 @@ Suspend
 "
 NETWORK
 {
+MarkerStack
+:
+:
+Capture
+(
+)
 }
 FlowMarker
 Flow
