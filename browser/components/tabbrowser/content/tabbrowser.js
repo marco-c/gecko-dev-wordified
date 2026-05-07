@@ -4950,7 +4950,7 @@ true
 }
 )
 ;
-this
+gBrowser
 .
 _insertBrowser
 (
