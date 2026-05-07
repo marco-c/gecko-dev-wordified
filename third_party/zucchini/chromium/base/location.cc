@@ -229,7 +229,7 @@ __clang__
 &
 defined
 (
-_MSC_VER
+_WIN32
 )
 constexpr
 char
@@ -470,7 +470,7 @@ __clang__
 &
 defined
 (
-_MSC_VER
+_WIN32
 )
 static_assert
 (
