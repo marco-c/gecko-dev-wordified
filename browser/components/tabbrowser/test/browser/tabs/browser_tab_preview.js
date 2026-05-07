@@ -3970,6 +3970,11 @@ source
 "
 hover_menu
 "
+note_length
+:
+noteText
+.
+length
 }
 "
 added
@@ -3977,6 +3982,9 @@ event
 extra
 data
 should
+include
+length
+and
 say
 the
 tab
@@ -5922,7 +5930,7 @@ gBrowser
 "
 about
 :
-logo
+blank
 "
 )
 ;

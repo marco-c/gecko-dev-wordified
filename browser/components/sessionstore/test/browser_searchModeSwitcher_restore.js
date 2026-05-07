@@ -200,7 +200,7 @@ gBrowser
 "
 about
 :
-logo
+mozilla
 "
 )
 ;

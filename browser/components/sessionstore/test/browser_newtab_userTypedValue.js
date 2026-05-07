@@ -75,9 +75,14 @@ win
 .
 gBrowser
 "
-about
+https
 :
-logo
+/
+/
+example
+.
+com
+/
 "
 )
 ;

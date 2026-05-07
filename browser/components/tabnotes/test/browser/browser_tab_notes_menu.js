@@ -3162,7 +3162,7 @@ gBrowser
 "
 about
 :
-logo
+mozilla
 "
 )
 ;

@@ -79,7 +79,7 @@ mozilla
 )
 ;
 let
-aboutLogoTab
+aboutBlankTab
 =
 BrowserTestUtils
 .
@@ -91,7 +91,7 @@ gBrowser
 "
 about
 :
-logo
+blank
 "
 )
 ;
@@ -106,7 +106,7 @@ addTabGroup
 (
 [
 aboutMozillaTab
-aboutLogoTab
+aboutBlankTab
 ]
 {
 color
@@ -455,7 +455,7 @@ mozillaTabGroupId
 "
 about
 :
-logo
+blank
 tab
 should
 be
