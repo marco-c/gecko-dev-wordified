@@ -915,7 +915,7 @@ if
 aRequest
 -
 >
-IsCachedStencil
+OnceCachedStencil
 (
 )
 )
@@ -2116,7 +2116,7 @@ if
 aRequest
 -
 >
-IsCachedStencil
+OnceCachedStencil
 (
 )
 )

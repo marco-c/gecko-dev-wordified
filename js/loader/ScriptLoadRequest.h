@@ -760,7 +760,7 @@ instead
 MOZ_ASSERT
 (
 !
-IsCachedStencil
+OnceCachedStencil
 (
 )
 )
