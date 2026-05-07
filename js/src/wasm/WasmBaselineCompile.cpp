@@ -48259,10 +48259,10 @@ move
 the
 sp
 to
-x28
+x20
 here
 because
-x28
+x20
 is
 not
 being
@@ -48293,7 +48293,7 @@ All
 .
 hasRegisterIndex
 (
-x28
+x20
 .
 asUnsized
 (
@@ -48305,7 +48305,7 @@ masm
 .
 Mov
 (
-x28
+x20
 sp
 )
 ;

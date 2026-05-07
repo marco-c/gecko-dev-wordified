@@ -1028,7 +1028,7 @@ Wasm
 Baseline
 )
 dedicate
-x28
+x20
 to
 /
 /
@@ -1406,7 +1406,7 @@ AArch64
 ABI
 PSP
 (
-x28
+x20
 )
 is
 /
@@ -2255,7 +2255,7 @@ PSP
 on
 return
 because
-x28
+x20
 is
 /
 /
@@ -2668,7 +2668,7 @@ copies
 because
 PSP
 (
-x28
+x20
 )
 is
 callee
@@ -2785,7 +2785,7 @@ code
 /
 /
 *
-x28
+x20
 would
 become
 free
@@ -2809,7 +2809,7 @@ with
 code
 that
 expects
-x28
+x20
 to
 hold
 a
@@ -2934,7 +2934,7 @@ by
 a
 copy
 to
-x28
+x20
 .
 /
 /
@@ -3480,7 +3480,7 @@ PseudoStackPointer
 Registers
 :
 :
-x28
+x20
 }
 ;
 static
@@ -3492,7 +3492,7 @@ PseudoStackPointer64
 Registers
 :
 :
-x28
+x20
 64
 }
 ;
@@ -3505,7 +3505,7 @@ PseudoStackPointer32
 Registers
 :
 :
-x28
+x20
 32
 }
 ;

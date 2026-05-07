@@ -1935,7 +1935,7 @@ The
 prebarrier
 assumes
 that
-x28
+x20
 =
 =
 sp
@@ -1953,7 +1953,7 @@ vixl
 :
 Operand
 (
-x28
+x20
 )
 )
 ;
@@ -2161,7 +2161,7 @@ The
 prebarrier
 assumes
 that
-x28
+x20
 =
 =
 sp
@@ -2179,7 +2179,7 @@ vixl
 :
 Operand
 (
-x28
+x20
 )
 )
 ;

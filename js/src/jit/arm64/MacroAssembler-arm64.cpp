@@ -3482,6 +3482,7 @@ asMasm
 PseudoStackPointer
 r0
 r1
+r2
 )
 ;
 MOZ_ASSERT
@@ -27473,8 +27474,8 @@ MacroAssembler
 :
 mov
 (
-x28
-x28
+x20
+x20
 )
 ;
 }
@@ -27482,8 +27483,13 @@ const
 int32_t
 SlowCallMarker
 =
-0xaa1c03fc
+0xaa1403f4
 ;
+/
+/
+mov
+x20
+x20
 void
 MacroAssembler
 :

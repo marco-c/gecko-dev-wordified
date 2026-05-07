@@ -1089,7 +1089,7 @@ the
 PSP
 register
 (
-r28
+r20
 )
 and
 a
@@ -1103,7 +1103,7 @@ masm
 push
 (
 r19
-r28
+r20
 )
 ;
 /
@@ -1417,7 +1417,7 @@ sp
 /
 /
 Restore
-r28
+r20
 and
 r19
 .
@@ -1425,7 +1425,7 @@ masm
 .
 pop
 (
-r28
+r20
 r19
 )
 ;

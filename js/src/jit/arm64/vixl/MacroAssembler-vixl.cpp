@@ -343,7 +343,7 @@ Assembler
 )
 sp_
 (
-x28
+x20
 )
 tmp_list_
 (
@@ -9759,9 +9759,9 @@ particular
 /
 /
 str
-x28
+x20
 [
-x28
+x20
 #
 -
 8

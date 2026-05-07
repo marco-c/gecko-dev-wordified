@@ -1976,7 +1976,7 @@ as
 opposed
 to
 the
-x28
+x20
 -
 based
 /
