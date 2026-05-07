@@ -302,7 +302,7 @@ override
 ;
 /
 /
-ClientIPCAllocator
+LayersIPCChannel
 base
 :
 :
@@ -339,9 +339,8 @@ aTextureId
 )
 override
 {
-MOZ_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-false
 "
 NO
 RECYCLING
