@@ -118,7 +118,6 @@ class_
 static
 const
 JSClass
-&
 protoClass_
 ;
 static
