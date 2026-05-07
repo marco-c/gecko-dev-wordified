@@ -5914,7 +5914,13 @@ aImgRequest
 )
 mResult
 (
+std
+:
+:
+move
+(
 aResult
+)
 )
 {
 MOZ_ASSERT
