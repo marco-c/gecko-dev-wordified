@@ -66,9 +66,9 @@ mozlog
 PACKAGE_VERSION
 =
 "
-8
+9
 .
-1
+0
 .
 0
 "
