@@ -10265,6 +10265,14 @@ aLoadResults
 )
 windowGlobalParent
 aResolver
+=
+std
+:
+:
+move
+(
+aResolver
+)
 ]
 (
 nsIDocumentViewer
