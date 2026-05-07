@@ -301,7 +301,7 @@ linkEl
 }
 linkEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 const

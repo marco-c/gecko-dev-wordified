@@ -60,7 +60,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 await
 navigateToViewAndWait
@@ -433,7 +433,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 await
 navigateToViewAndWait
@@ -1121,7 +1121,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 await
 navigateToViewAndWait
@@ -1718,7 +1718,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 await
 navigateToViewAndWait

@@ -2229,7 +2229,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 document
 .

@@ -441,7 +441,7 @@ gBrowser
 .
 selectedBrowser
 .
-ownerGlobal
+documentGlobal
 "
 DOMModalDialogClosed
 "
@@ -748,7 +748,7 @@ EventPromise
 (
 browser
 .
-ownerGlobal
+documentGlobal
 "
 DOMModalDialogClosed
 "

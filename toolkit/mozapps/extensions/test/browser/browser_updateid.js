@@ -154,7 +154,7 @@ moreOptionsButton
 }
 item
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

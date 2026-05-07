@@ -156,7 +156,7 @@ frameUrl
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 testBrowser
 url
@@ -294,7 +294,7 @@ gIdentityHandler
 =
 testBrowser
 .
-ownerGlobal
+documentGlobal
 ;
 ok
 (

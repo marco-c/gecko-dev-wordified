@@ -2316,7 +2316,7 @@ VK_F5
 }
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

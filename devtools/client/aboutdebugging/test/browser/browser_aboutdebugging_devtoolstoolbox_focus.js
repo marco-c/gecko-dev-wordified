@@ -759,7 +759,7 @@ navigator
 =
 tab
 .
-ownerGlobal
+documentGlobal
 ;
 is
 (
@@ -784,13 +784,8 @@ Services
 .
 wm
 .
-getMostRecentWindow
+getMostRecentBrowserWindow
 (
-"
-navigator
-:
-browser
-"
 )
 ;
 is

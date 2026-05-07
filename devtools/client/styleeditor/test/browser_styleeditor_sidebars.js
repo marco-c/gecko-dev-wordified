@@ -475,7 +475,7 @@ win
 =
 el
 .
-ownerGlobal
+documentGlobal
 ;
 const
 endX

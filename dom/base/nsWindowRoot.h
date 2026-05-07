@@ -254,6 +254,12 @@ GetWindow
 )
 override
 ;
+nsGlobalWindowInner
+*
+GetInnerWindow
+(
+)
+;
 nsresult
 GetControllers
 (
@@ -355,13 +361,6 @@ return
 mParent
 ;
 }
-nsPIDOMWindowOuter
-*
-GetOwnerGlobalForBindingsInternal
-(
-)
-override
-;
 nsIGlobalObject
 *
 GetOwnerGlobal

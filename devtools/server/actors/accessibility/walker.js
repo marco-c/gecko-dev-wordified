@@ -6037,7 +6037,7 @@ win
 =
 target
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

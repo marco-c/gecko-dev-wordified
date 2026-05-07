@@ -1501,7 +1501,7 @@ win
 =
 browser
 .
-ownerGlobal
+documentGlobal
 ;
 const
 promisePageActionPanelClosed

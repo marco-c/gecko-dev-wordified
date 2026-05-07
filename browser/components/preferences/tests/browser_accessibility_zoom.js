@@ -349,7 +349,7 @@ ZoomUI
 =
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 ZoomUI
 ;

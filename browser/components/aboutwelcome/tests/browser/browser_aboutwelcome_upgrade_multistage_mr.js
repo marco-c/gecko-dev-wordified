@@ -1598,14 +1598,14 @@ assertFirefoxViewTabSelected
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 closeFirefoxViewTab
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

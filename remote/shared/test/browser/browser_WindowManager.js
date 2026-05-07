@@ -3238,7 +3238,7 @@ expectedWindows
 [
 gBrowser
 .
-ownerGlobal
+documentGlobal
 win1
 win2
 win3
@@ -3847,7 +3847,7 @@ openWindow
 (
 gBrowser
 .
-ownerGlobal
+documentGlobal
 "
 chrome
 :

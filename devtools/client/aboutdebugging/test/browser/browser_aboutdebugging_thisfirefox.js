@@ -327,7 +327,7 @@ blank
 ;
 targetTab
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -529,7 +529,7 @@ win
 =
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 /
 /

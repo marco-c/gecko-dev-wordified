@@ -16280,7 +16280,7 @@ mouseover
 }
 tokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /
@@ -16315,7 +16315,7 @@ mousemove
 }
 tokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -16639,7 +16639,7 @@ mouseout
 }
 tokenEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 /
@@ -16758,7 +16758,7 @@ mousemove
 }
 element
 .
-ownerGlobal
+documentGlobal
 )
 ;
 info
@@ -22532,7 +22532,7 @@ outlineTab
 }
 outlineTab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 if

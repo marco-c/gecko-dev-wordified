@@ -508,7 +508,7 @@ tab
 .
 linkedBrowser
 .
-ownerGlobal
+documentGlobal
 )
 )
 ;

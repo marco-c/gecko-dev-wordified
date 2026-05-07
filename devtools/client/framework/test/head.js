@@ -1746,7 +1746,7 @@ mousedown
 }
 dragTargetEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await
@@ -1791,7 +1791,7 @@ mousemove
 }
 passedTargetEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1823,7 +1823,7 @@ mousemove
 }
 dropTargetEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -1840,7 +1840,7 @@ mouseup
 }
 dropTargetEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -1878,7 +1878,7 @@ mouseout
 }
 containerEl
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -2603,7 +2603,7 @@ toolbox
 .
 doc
 .
-ownerGlobal
+documentGlobal
 ;
 if
 (

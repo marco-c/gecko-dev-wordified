@@ -1155,7 +1155,7 @@ waitForNewTab
 (
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 "
@@ -1370,7 +1370,7 @@ waitForNewTab
 (
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 "

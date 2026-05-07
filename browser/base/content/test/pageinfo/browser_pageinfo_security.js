@@ -514,7 +514,7 @@ closeWindow
 (
 browser
 .
-ownerGlobal
+documentGlobal
 )
 ;
 }
@@ -522,7 +522,7 @@ else
 {
 browser
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .

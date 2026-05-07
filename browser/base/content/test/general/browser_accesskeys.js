@@ -1315,7 +1315,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 _sent
 =
@@ -1328,7 +1328,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 document
 .
@@ -1338,7 +1338,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 _oldFocusedElement
 =
@@ -1385,7 +1385,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 _sent
 =
@@ -1421,7 +1421,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 _sent
 )
@@ -1430,7 +1430,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 _sent
 =
@@ -1443,7 +1443,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 document
 .
@@ -1453,7 +1453,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 _oldFocusedElement
 =

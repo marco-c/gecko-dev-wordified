@@ -521,7 +521,7 @@ in
 disconnectedCallback
 this
 .
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (
@@ -609,7 +609,7 @@ changed
 ;
 this
 .
-ownerGlobal
+documentGlobal
 .
 addEventListener
 (
@@ -978,7 +978,7 @@ disconnectedCallback
 {
 this
 .
-ownerGlobal
+documentGlobal
 .
 removeEventListener
 (
@@ -990,7 +990,7 @@ this
 ;
 this
 .
-ownerGlobal
+documentGlobal
 .
 removeEventListener
 (
@@ -3405,13 +3405,13 @@ splitViewToMove
 =
 this
 .
-ownerGlobal
+documentGlobal
 =
 =
 =
 tabOrSplitView
 .
-ownerGlobal
+documentGlobal
 ?
 tabOrSplitView
 :
@@ -3460,7 +3460,7 @@ pinned
 {
 tabOrSplitView
 .
-ownerGlobal
+documentGlobal
 .
 gBrowser
 .
@@ -3475,13 +3475,13 @@ tabToMove
 =
 this
 .
-ownerGlobal
+documentGlobal
 =
 =
 =
 tabOrSplitView
 .
-ownerGlobal
+documentGlobal
 ?
 tabOrSplitView
 :

@@ -123,7 +123,7 @@ defaultView
 =
 browser
 .
-ownerGlobal
+documentGlobal
 .
 document
 ;

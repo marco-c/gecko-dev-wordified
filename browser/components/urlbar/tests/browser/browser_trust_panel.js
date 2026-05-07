@@ -535,7 +535,7 @@ win
 >
 gBrowser
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (

@@ -8107,7 +8107,7 @@ event
 .
 target
 .
-ownerGlobal
+documentGlobal
 .
 setTimeout
 (

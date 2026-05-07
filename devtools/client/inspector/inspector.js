@@ -5097,7 +5097,7 @@ event
 .
 originalTarget
 .
-ownerGlobal
+documentGlobal
 ;
 return
 win

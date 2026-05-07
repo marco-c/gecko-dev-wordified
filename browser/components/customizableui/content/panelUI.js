@@ -5153,7 +5153,7 @@ DownloadsPanel
 =
 button
 .
-ownerGlobal
+documentGlobal
 ;
 switch
 (

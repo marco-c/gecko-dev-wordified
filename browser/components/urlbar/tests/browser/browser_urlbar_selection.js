@@ -84,7 +84,7 @@ target
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 return
@@ -106,7 +106,7 @@ waitForEvent
 (
 target
 .
-ownerGlobal
+documentGlobal
 "
 contextmenu
 "
@@ -129,7 +129,7 @@ button
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 return
@@ -175,7 +175,7 @@ mousemove
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -194,7 +194,7 @@ mousedown
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -213,7 +213,7 @@ mousemove
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 EventUtils
@@ -232,7 +232,7 @@ mouseup
 }
 target
 .
-ownerGlobal
+documentGlobal
 )
 ;
 return
@@ -1087,9 +1087,9 @@ gURLBar
 .
 inputField
 30
-0
+10
 60
-0
+10
 )
 ;
 Assert
@@ -1283,9 +1283,9 @@ gURLBar
 .
 inputField
 30
-0
+10
 60
-0
+10
 )
 ;
 Assert

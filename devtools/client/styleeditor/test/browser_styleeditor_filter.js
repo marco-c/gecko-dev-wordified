@@ -609,7 +609,7 @@ is
 (
 filterInput
 .
-ownerGlobal
+documentGlobal
 .
 document
 .

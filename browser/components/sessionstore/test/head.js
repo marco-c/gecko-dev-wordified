@@ -2940,7 +2940,7 @@ content
 .
 document
 .
-ownerGlobal
+documentGlobal
 .
 visualViewport
 =
@@ -3215,7 +3215,7 @@ true
 true
 node
 .
-ownerGlobal
+documentGlobal
 0
 )
 ;
@@ -3800,7 +3800,7 @@ contextmenu
 }
 tab
 .
-ownerGlobal
+documentGlobal
 )
 ;
 await

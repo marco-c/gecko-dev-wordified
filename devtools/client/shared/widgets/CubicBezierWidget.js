@@ -1267,7 +1267,7 @@ this
 .
 canvas
 .
-ownerGlobal
+documentGlobal
 ;
 const
 computedStyle
@@ -2107,7 +2107,7 @@ reducedMotion
 =
 parent
 .
-ownerGlobal
+documentGlobal
 .
 matchMedia
 (
@@ -2332,7 +2332,7 @@ this
 .
 parent
 .
-ownerGlobal
+documentGlobal
 .
 getComputedStyle
 (
