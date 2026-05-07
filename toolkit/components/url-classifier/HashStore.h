@@ -1223,6 +1223,8 @@ TAG
 }
 bool
 mFullUpdate
+=
+false
 ;
 PrefixStringMap
 mPrefixesMap

@@ -1332,6 +1332,8 @@ mTableUpdates
 ;
 uint32_t
 mUpdateWaitSec
+=
+0
 ;
 /
 /
@@ -1350,6 +1352,8 @@ mLastResults
 ;
 nsresult
 mUpdateStatus
+=
+NS_OK
 ;
 nsTArray
 <

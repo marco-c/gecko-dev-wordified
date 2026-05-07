@@ -541,6 +541,11 @@ for
 values
 AnalysisType
 mAnalysisType
+=
+AnalysisType
+:
+:
+eUnspecified
 ;
 /
 /
@@ -550,6 +555,11 @@ for
 values
 Reason
 mReason
+=
+Reason
+:
+:
+eUnknown
 ;
 RefPtr
 <
@@ -744,6 +754,11 @@ for
 values
 OperationType
 mOperationTypeForDisplay
+=
+OperationType
+:
+:
+eClipboard
 ;
 /
 /
@@ -2522,6 +2537,8 @@ transaction
 .
 size_t
 mNumCARequestsRemaining
+=
+0
 ;
 /
 /

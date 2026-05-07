@@ -1034,6 +1034,8 @@ Options
 .
 bool
 mAPIObjectPrepended
+=
+false
 ;
 APIObjectType
 mAPIObjectType
