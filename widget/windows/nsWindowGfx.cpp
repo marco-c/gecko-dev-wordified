@@ -1754,8 +1754,7 @@ return
 true
 ;
 }
-WindowRenderer
-*
+RefPtr
 renderer
 =
 GetWindowRenderer
