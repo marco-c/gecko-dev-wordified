@@ -3062,10 +3062,6 @@ frame_state
 .
 resource_cache
 &
-store
-.
-color_bindings
-&
 frame_state
 .
 surface_stack
