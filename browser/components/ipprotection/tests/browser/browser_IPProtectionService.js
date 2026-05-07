@@ -1036,7 +1036,7 @@ enabled
 "
 )
 ;
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 resetEntitlement
 (
@@ -1131,17 +1131,6 @@ waitForWidgetAdded
 (
 )
 ;
-/
-/
-IPPEnrollAndEntitleManager
-checks
-isSignedIn
-directly
-so
-stub
-it
-here
-.
 const
 sandbox
 =
@@ -1355,7 +1344,7 @@ setupSandbox
 .
 stub
 (
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 "
 updateEntitlement
 "
@@ -1916,7 +1905,7 @@ statusCardEl
 Mock
 a
 failure
-IPPEnrollAndEntitleManager
+IPPFxaAuthProvider
 .
 resetEntitlement
 (
