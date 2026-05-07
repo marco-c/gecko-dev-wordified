@@ -104,6 +104,9 @@ preferencesPaneAbout
 "
 preferencesPaneAccessibility
 "
+"
+preferencesPaneAppearance
+"
 ]
 ;
 function
