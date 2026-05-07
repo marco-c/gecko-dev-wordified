@@ -8284,6 +8284,14 @@ if
 (
 !
 mIPCClosed
+&
+&
+chan
+-
+>
+IsNavigation
+(
+)
 )
 {
 /
