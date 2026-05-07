@@ -577,7 +577,7 @@ restore
 *
 Tests
 that
-refetchEntitlement
+checkForUpgrade
 works
 as
 expected
@@ -598,7 +598,7 @@ add_task
 (
 async
 function
-test_IPProtectionService_refetchEntitlement_has_vpn_linked
+test_IPProtectionService_checkForUpgrade_has_vpn_linked
 (
 )
 {
@@ -709,9 +709,11 @@ hasUpgraded
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPProtectionService
 .
-refetchEntitlement
+authProvider
+.
+checkForUpgrade
 (
 )
 ;
@@ -756,7 +758,7 @@ restore
 *
 Tests
 that
-refetchEntitlement
+checkForUpgrade
 returns
 errors
 if
@@ -777,7 +779,7 @@ add_task
 (
 async
 function
-test_IPProtectionService_refetchEntitlement_no_vpn_linked
+test_IPProtectionService_checkForUpgrade_no_vpn_linked
 (
 )
 {
@@ -846,9 +848,11 @@ StateChanged
 )
 ;
 await
-IPPEnrollAndEntitleManager
+IPProtectionService
 .
-refetchEntitlement
+authProvider
+.
+checkForUpgrade
 (
 )
 ;
