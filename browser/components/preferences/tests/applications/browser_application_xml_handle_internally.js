@@ -186,7 +186,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-downloads
+general
 "
 {
 leaveOpen
