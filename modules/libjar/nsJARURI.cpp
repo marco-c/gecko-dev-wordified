@@ -3784,7 +3784,13 @@ spec
 !
 relativeSpec
 =
+std
+:
+:
+move
+(
 relativeEntrySpec
+)
 ;
 }
 return

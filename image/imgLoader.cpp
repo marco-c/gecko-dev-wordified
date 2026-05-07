@@ -20632,6 +20632,14 @@ RefPtr
 policy
 }
 computedHash
+=
+std
+:
+:
+move
+(
+computedHash
+)
 bufferedImage
 =
 std
