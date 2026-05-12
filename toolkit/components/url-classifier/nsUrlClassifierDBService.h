@@ -280,7 +280,7 @@ namespace
 net
 {
 class
-AsyncUrlChannelClassifier
+AntiTrackingChannelClassifierUtils
 ;
 }
 }
@@ -332,7 +332,7 @@ mozilla
 net
 :
 :
-AsyncUrlChannelClassifier
+AntiTrackingChannelClassifierUtils
 ;
 public
 :
