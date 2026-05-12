@@ -1559,10 +1559,8 @@ benign
 if
 constexpr
 (
-bool
+hasOption
 (
-opts
-&
 gc
 :
 :
