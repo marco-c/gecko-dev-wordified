@@ -1408,7 +1408,7 @@ include
 "
 mozilla
 /
-ProcInfo
+CpuInfo
 .
 h
 "
