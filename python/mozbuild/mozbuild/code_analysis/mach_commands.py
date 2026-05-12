@@ -5843,7 +5843,7 @@ header_filter
         
 sources
 =
-[
+{
             
 mozpath
 .
@@ -5857,18 +5857,21 @@ test
 "
 checker
 )
+            
 +
 "
 .
 cpp
 "
+:
+None
             
 for
 checker
 in
 items
         
-]
+}
         
 print_out
 =
@@ -7132,9 +7135,11 @@ header_filter
         
 sources
 =
-[
+{
 test_file_path_cpp
-]
+:
+None
+}
     
 )
     
