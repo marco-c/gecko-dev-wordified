@@ -43,6 +43,12 @@ script
 .
 .
 /
+.
+.
+/
+.
+.
+/
 resources
 /
 util

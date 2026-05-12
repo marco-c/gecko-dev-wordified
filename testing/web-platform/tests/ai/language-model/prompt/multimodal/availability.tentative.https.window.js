@@ -30,6 +30,12 @@ script
 .
 .
 /
+.
+.
+/
+.
+.
+/
 resources
 /
 util
