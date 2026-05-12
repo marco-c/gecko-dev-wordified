@@ -1565,7 +1565,7 @@ kHSTSKeySuffix
 }
 static
 void
-GetStorageKey
+GetNormalizedStorageKey
 (
 const
 nsACString
@@ -2016,7 +2016,7 @@ NS_ERROR_NOT_AVAILABLE
 nsAutoCString
 storageKey
 ;
-GetStorageKey
+GetNormalizedStorageKey
 (
 hostname
 aOriginAttributes
@@ -5058,7 +5058,7 @@ migrated
 nsAutoCString
 storageKey
 ;
-GetStorageKey
+GetNormalizedStorageKey
 (
 aHostname
 aOriginAttributes
@@ -5369,7 +5369,7 @@ rv
 nsAutoCString
 storageKey
 ;
-GetStorageKey
+GetNormalizedStorageKey
 (
 aHostname
 aOriginAttributes
@@ -5475,7 +5475,7 @@ rv
 nsAutoCString
 storageKey
 ;
-GetStorageKey
+GetNormalizedStorageKey
 (
 aHostname
 aOriginAttributes
@@ -5934,7 +5934,7 @@ entry
 nsAutoCString
 storageKey
 ;
-GetStorageKey
+GetNormalizedStorageKey
 (
 aHost
 aOriginAttributes
