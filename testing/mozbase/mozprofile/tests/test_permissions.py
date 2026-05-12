@@ -425,7 +425,7 @@ user_prefs
 )
 =
 =
-6
+7
     
 assert
 user_prefs
@@ -557,6 +557,24 @@ dns
 https_rr
 .
 check_record_with_cname
+"
+False
+)
+    
+assert
+user_prefs
+[
+6
+]
+=
+=
+(
+"
+network
+.
+dns
+.
+port_prefixed_qname_https_rr
 "
 False
 )

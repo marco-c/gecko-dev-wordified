@@ -1712,6 +1712,22 @@ False
                 
 )
 )
+                
+user_prefs
+.
+append
+(
+(
+"
+network
+.
+dns
+.
+port_prefixed_qname_https_rr
+"
+False
+)
+)
             
 else
 :
