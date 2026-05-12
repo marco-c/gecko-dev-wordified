@@ -933,7 +933,10 @@ nsString
 std
 :
 :
-move
+forward
+<
+T
+>
 (
 aAttrValue
 )

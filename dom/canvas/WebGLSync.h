@@ -323,7 +323,10 @@ F
 std
 :
 :
-move
+forward
+<
+F
+>
 (
 fn
 )

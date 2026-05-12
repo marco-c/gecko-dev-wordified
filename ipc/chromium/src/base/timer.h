@@ -673,8 +673,9 @@ protected
 BaseTimer_Helper
 (
 )
-{
-}
+=
+default
+;
 /
 /
 We
@@ -743,8 +744,9 @@ virtual
 TimerTask
 (
 )
-{
-}
+=
+default
+;
 BaseTimer_Helper
 *
 timer_

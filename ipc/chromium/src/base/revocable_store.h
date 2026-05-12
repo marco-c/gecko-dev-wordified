@@ -217,8 +217,9 @@ protected
 StoreRef
 (
 )
-{
-}
+=
+default
+;
 private
 :
 RevocableStore

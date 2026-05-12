@@ -93,8 +93,9 @@ MessagePumpDefault
 MessagePumpDefault
 (
 )
-{
-}
+=
+default
+;
 /
 /
 MessagePump
