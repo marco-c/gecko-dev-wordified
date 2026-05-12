@@ -2496,8 +2496,6 @@ DnsAndConnectSocket
 :
 Abandon
 (
-bool
-aReenqueueTransaction
 )
 {
 LOG

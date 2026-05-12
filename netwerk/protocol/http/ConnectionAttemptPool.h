@@ -173,10 +173,6 @@ abandon
 void
 CloseAllConnectionAttempts
 (
-bool
-aReenqueueTransaction
-=
-false
 )
 ;
 /

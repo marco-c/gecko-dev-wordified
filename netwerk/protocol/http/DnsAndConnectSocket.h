@@ -246,10 +246,6 @@ override
 void
 Abandon
 (
-bool
-aReenqueueTransaction
-=
-false
 )
 override
 ;
