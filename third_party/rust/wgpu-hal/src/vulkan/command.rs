@@ -5578,7 +5578,6 @@ let
 sets
 =
 [
-*
 group
 .
 set
@@ -7601,7 +7600,7 @@ raw
 }
 unsafe
 fn
-dispatch
+dispatch_workgroups
 (
 &
 mut
@@ -7646,7 +7645,7 @@ count
 }
 unsafe
 fn
-dispatch_indirect
+dispatch_workgroups_indirect
 (
 &
 mut
