@@ -124,7 +124,7 @@ net
 :
 EarlyHintRegistrar
 >
-gSingleton
+gEarlyHintRegistrarSingleton
 ;
 }
 /
@@ -299,7 +299,7 @@ NS_IsMainThread
 if
 (
 !
-gSingleton
+gEarlyHintRegistrarSingleton
 )
 {
 return
@@ -311,7 +311,7 @@ auto
 &
 preloader
 :
-gSingleton
+gEarlyHintRegistrarSingleton
 -
 >
 mEarlyHint
@@ -370,7 +370,7 @@ false
 ;
 }
 }
-gSingleton
+gEarlyHintRegistrarSingleton
 -
 >
 mEarlyHint
@@ -404,10 +404,10 @@ NS_IsMainThread
 if
 (
 !
-gSingleton
+gEarlyHintRegistrarSingleton
 )
 {
-gSingleton
+gEarlyHintRegistrarSingleton
 =
 new
 EarlyHintRegistrar
@@ -493,14 +493,14 @@ mozilla
 ClearOnShutdown
 (
 &
-gSingleton
+gEarlyHintRegistrarSingleton
 )
 ;
 }
 return
 do_AddRef
 (
-gSingleton
+gEarlyHintRegistrarSingleton
 )
 ;
 }

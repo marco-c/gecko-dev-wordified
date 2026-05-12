@@ -292,10 +292,6 @@ rv
 namespace
 TestThrottledEventQueue
 using
-namespace
-TestThrottledEventQueue
-;
-using
 testing
 :
 :
@@ -326,6 +322,9 @@ RunnableQueue
 (
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 queue
@@ -345,6 +344,9 @@ a
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 queue
@@ -364,6 +366,9 @@ b
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 queue
@@ -450,6 +455,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -672,6 +680,9 @@ on
 the
 base
 .
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -730,6 +741,9 @@ is
 already
 queued
 .
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -784,6 +798,9 @@ after
 the
 executor
 .
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -1010,6 +1027,9 @@ run
 before
 it
 .
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -1029,6 +1049,9 @@ a
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1045,6 +1068,9 @@ log
 b
 '
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -1067,6 +1093,9 @@ c
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1201,6 +1230,9 @@ stall
 the
 ThrottledEventQueue
 .
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1247,6 +1279,9 @@ log
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1373,6 +1408,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1517,6 +1555,9 @@ AwaitIdle
 might
 block
 .
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1907,6 +1948,9 @@ queue
 "
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -1932,6 +1976,9 @@ a
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -2450,6 +2497,9 @@ IsPaused
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -2515,6 +2565,9 @@ IsPaused
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -2679,6 +2732,9 @@ IsPaused
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -2698,6 +2754,9 @@ A
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -2731,6 +2790,9 @@ true
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -2750,6 +2812,9 @@ c
 }
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -2861,6 +2926,9 @@ IsPaused
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -2891,6 +2959,9 @@ false
 )
 )
 ;
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 base
@@ -3117,6 +3188,9 @@ the
 base
 target
 .
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled
@@ -3576,6 +3650,9 @@ the
 base
 target
 .
+TestThrottledEventQueue
+:
+:
 Enqueue
 (
 throttled

@@ -353,7 +353,7 @@ RectType
 >
 static
 bool
-TestConstructors
+TestRectConstructors
 (
 )
 {
@@ -6136,7 +6136,7 @@ Gfx
 nsRect
 )
 {
-TestConstructors
+TestRectConstructors
 <
 nsRect
 >
@@ -6214,7 +6214,7 @@ Gfx
 nsIntRect
 )
 {
-TestConstructors
+TestRectConstructors
 <
 nsIntRect
 >
@@ -6292,7 +6292,7 @@ Gfx
 gfxRect
 )
 {
-TestConstructors
+TestRectConstructors
 <
 gfxRect
 >

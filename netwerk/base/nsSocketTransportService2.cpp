@@ -5084,7 +5084,7 @@ static
 const
 char
 *
-gCallbackPrefs
+gCallbackUpdatePrefs
 [
 ]
 =
@@ -5502,7 +5502,7 @@ Preferences
 RegisterCallbacks
 (
 UpdatePrefs
-gCallbackPrefs
+gCallbackUpdatePrefs
 this
 )
 ;
@@ -5942,7 +5942,7 @@ Preferences
 UnregisterCallbacks
 (
 UpdatePrefs
-gCallbackPrefs
+gCallbackUpdatePrefs
 this
 )
 ;
