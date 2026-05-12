@@ -41997,8 +41997,8 @@ enabled_on
 profiles
 "
 "
-[
-]
+{
+}
 "
 )
 ;
