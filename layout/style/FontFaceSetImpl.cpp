@@ -2737,8 +2737,10 @@ mURI
 =
 uri
 ?
-new
+MakeRefPtr
+<
 gfxFontSrcURI
+>
 (
 uri
 )
@@ -2847,8 +2849,10 @@ face
 >
 mOriginPrincipal
 =
-new
+MakeRefPtr
+<
 gfxFontSrcPrincipal
+>
 (
 extraData
 .
