@@ -427,10 +427,7 @@ specified
 calc
 :
 :
-{
-CalcLengthPercentage
 CalcNumeric
-}
 ;
 /
 /
@@ -13510,7 +13507,7 @@ Calc
 (
 Box
 <
-CalcLengthPercentage
+CalcNumeric
 >
 )
 }
@@ -16381,7 +16378,7 @@ Calc
 (
 Box
 <
-CalcLengthPercentage
+CalcNumeric
 >
 )
 }
@@ -16530,17 +16527,7 @@ LengthPercentage
 :
 Calc
 (
-Box
-:
-:
-new
-(
-CalcLengthPercentage
-(
-*
 calc
-)
-)
 )
 }
 }
