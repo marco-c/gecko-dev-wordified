@@ -332,7 +332,6 @@ specified
 :
 {
 LengthPercentage
-NoCalcPercentage
 NonNegativeLengthPercentage
 SVGPathData
 }
@@ -7558,18 +7557,10 @@ LengthPercentage
 :
 Percentage
 (
-NoCalcPercentage
-:
-:
-new
-(
 word
 .
 as_percentage
 (
-)
-.
-0
 )
 )
 ;

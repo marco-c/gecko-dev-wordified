@@ -85,9 +85,9 @@ specified
 :
 {
 NoCalcLength
-NoCalcNumber
-NoCalcPercentage
-NoCalcTime
+Number
+Percentage
+Time
 }
 ;
 use
@@ -213,7 +213,7 @@ time
 >
 Time
 (
-NoCalcTime
+Time
 )
 /
 /
@@ -252,7 +252,7 @@ value
 >
 Number
 (
-NoCalcNumber
+Number
 )
 /
 /
@@ -289,7 +289,7 @@ percentages
 >
 Percentage
 (
-NoCalcPercentage
+Percentage
 )
 /
 /
@@ -901,7 +901,7 @@ Ok
 time
 )
 =
-NoCalcTime
+Time
 :
 :
 parse_dimension
@@ -939,7 +939,7 @@ NoCalcNumeric
 :
 Number
 (
-NoCalcNumber
+Number
 :
 :
 new
@@ -960,7 +960,7 @@ NoCalcNumeric
 :
 Percentage
 (
-NoCalcPercentage
+Percentage
 :
 :
 new

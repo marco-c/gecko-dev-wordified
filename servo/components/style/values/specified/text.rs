@@ -957,16 +957,9 @@ i
 )
 )
 .
-unwrap_or_else
+unwrap_or
 (
-|
-_
-|
 pre_hyphen_length
-.
-clone
-(
-)
 )
 ;
 Ok

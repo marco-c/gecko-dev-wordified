@@ -139,13 +139,6 @@ calc
 AllowParse
 Leaf
 }
-specified
-:
-:
-number
-:
-:
-NoCalcNumber
 }
 }
 ;
@@ -1092,11 +1085,6 @@ Leaf
 :
 Number
 (
-NoCalcNumber
-:
-:
-new
-(
 value
 .
 unwrap_or
@@ -1104,7 +1092,6 @@ unwrap_or
 0
 .
 0
-)
 )
 )
 }
