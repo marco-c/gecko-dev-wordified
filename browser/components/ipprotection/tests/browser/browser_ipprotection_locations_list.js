@@ -508,7 +508,7 @@ getAttribute
 "
 aria
 -
-selected
+checked
 "
 )
 "
@@ -635,7 +635,7 @@ getAttribute
 "
 aria
 -
-selected
+checked
 "
 )
 "
@@ -808,7 +808,7 @@ getAttribute
 "
 aria
 -
-selected
+checked
 "
 )
 "
@@ -854,7 +854,7 @@ getAttribute
 "
 aria
 -
-selected
+checked
 "
 )
 "
@@ -996,7 +996,7 @@ getAttribute
 "
 aria
 -
-selected
+checked
 "
 )
 "
