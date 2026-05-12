@@ -4875,6 +4875,8 @@ from_px
 number
 .
 value
+(
+)
 )
 .
 into
@@ -5037,6 +5039,8 @@ b
 a
 .
 value
+(
+)
 .
 partial_cmp
 (
@@ -5044,6 +5048,8 @@ partial_cmp
 b
 .
 value
+(
+)
 )
 }
 (
@@ -5278,11 +5284,15 @@ if
 second_radius
 .
 value
+(
+)
 >
 =
 first_radius
 .
 value
+(
+)
 {
 (
 false
@@ -5317,6 +5327,8 @@ from_px
 radius
 .
 value
+(
+)
 )
 )
 )
