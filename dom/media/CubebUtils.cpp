@@ -176,6 +176,15 @@ h
 #
 include
 "
+base
+/
+process_util
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
@@ -3836,6 +3845,8 @@ ipc
 FileDescriptor
 CreateAudioIPCConnectionUnlocked
 (
+uint32_t
+aRemotePid
 )
 {
 MOZ_ASSERT
@@ -3951,6 +3962,7 @@ audioipc2
 audioipc2_server_new_client
 (
 sServerHandle
+aRemotePid
 sAudioIPCShmAreaSize
 )
 ;
@@ -4052,6 +4064,8 @@ ipc
 FileDescriptor
 CreateAudioIPCConnection
 (
+uint32_t
+aRemotePid
 )
 {
 #
@@ -4066,6 +4080,7 @@ sMutex
 return
 CreateAudioIPCConnectionUnlocked
 (
+aRemotePid
 )
 ;
 #
@@ -4281,6 +4296,12 @@ fd
 =
 CreateAudioIPCConnectionUnlocked
 (
+base
+:
+:
+GetCurrentProcId
+(
+)
 )
 ;
 if
