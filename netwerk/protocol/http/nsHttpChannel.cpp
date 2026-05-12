@@ -51246,12 +51246,6 @@ redirected
 channel
 if
 (
-!
-LoadAuthRedirectedChannel
-(
-)
-&
-&
 NS_ShouldClassifyChannel
 (
 this
@@ -54162,12 +54156,6 @@ redirect
 bool
 shouldBeClassifiedForTracker
 =
-!
-LoadAuthRedirectedChannel
-(
-)
-&
-&
 NS_ShouldClassifyChannel
 (
 this
