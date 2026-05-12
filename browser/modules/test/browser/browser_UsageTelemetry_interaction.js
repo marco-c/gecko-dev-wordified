@@ -105,6 +105,9 @@ preferencesPaneAbout
 preferencesPaneAccessibility
 "
 "
+preferencesPaneDownloads
+"
+"
 preferencesPaneAppearance
 "
 "

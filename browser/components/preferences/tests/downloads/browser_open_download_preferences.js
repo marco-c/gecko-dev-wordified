@@ -189,7 +189,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-general
+downloads
 "
 {
 leaveOpen
@@ -206,7 +206,7 @@ page
 opened
 on
 the
-general
+downloads
 pane
 .
 "

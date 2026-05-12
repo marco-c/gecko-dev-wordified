@@ -145,15 +145,6 @@ mysection
 inProgress
 :
 true
-l10nId
-:
-"
-downloads
--
-header
--
-2
-"
 headingLevel
 :
 2
