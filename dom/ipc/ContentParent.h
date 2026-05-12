@@ -7580,6 +7580,8 @@ BrowsingContext
 aContext
 MediaAudibleState
 aState
+ControlType
+aType
 )
 ;
 mozilla

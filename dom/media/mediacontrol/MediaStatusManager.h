@@ -568,6 +568,13 @@ uint64_t
 aBrowsingContextId
 MediaAudibleState
 aState
+ControlType
+aType
+=
+ControlType
+:
+:
+eControllable
 )
 =
 0
@@ -1187,6 +1194,13 @@ uint64_t
 aBrowsingContextId
 MediaAudibleState
 aState
+ControlType
+aType
+=
+ControlType
+:
+:
+eControllable
 )
 override
 ;

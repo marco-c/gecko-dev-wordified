@@ -43615,6 +43615,8 @@ BrowsingContext
 aContext
 MediaAudibleState
 aState
+ControlType
+aType
 )
 {
 if
@@ -43663,6 +43665,7 @@ ContextId
 (
 )
 aState
+aType
 )
 ;
 }
