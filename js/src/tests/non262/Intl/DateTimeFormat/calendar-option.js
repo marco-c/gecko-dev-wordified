@@ -467,9 +467,7 @@ rgsa
 "
 :
 "
-islamic
--
-tbla
+gregory
 "
 }
 ;
