@@ -251,6 +251,7 @@ None
 EmptyData
 CorruptedData
 CorruptedMetadata
+InvalidStride
 }
 ;
 explicit
