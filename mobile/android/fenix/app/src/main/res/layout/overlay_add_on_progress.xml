@@ -212,6 +212,16 @@ wrap_content
 "
 android
 :
+textColor
+=
+"
+?
+attr
+/
+textPrimary
+"
+android
+:
 layout_height
 =
 "
@@ -270,7 +280,7 @@ drawableStartCompat
 "
 drawable
 /
-mozac_ic_extensions_black
+mozac_ic_extension_24
 "
 /
 >
@@ -290,8 +300,6 @@ style
 =
 "
 ?
-android
-:
 attr
 /
 borderlessButtonStyle
