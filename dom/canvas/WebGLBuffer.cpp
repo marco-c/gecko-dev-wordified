@@ -335,8 +335,6 @@ LOCAL_GL_STREAM_READ
 :
 if
 (
-MOZ_LIKELY
-(
 webgl
 -
 >
@@ -344,10 +342,16 @@ IsWebGL2
 (
 )
 )
-)
+[
+[
+likely
+]
+]
+{
 return
 true
 ;
+}
 break
 ;
 default

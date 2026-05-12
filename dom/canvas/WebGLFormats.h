@@ -1038,11 +1038,14 @@ packing
 ;
 if
 (
-MOZ_LIKELY
-(
 pii
 )
-)
+[
+[
+likely
+]
+]
+{
 return
 pii
 -
@@ -1051,6 +1054,7 @@ BytesPerPixel
 (
 )
 ;
+}
 gfxCriticalError
 (
 )
