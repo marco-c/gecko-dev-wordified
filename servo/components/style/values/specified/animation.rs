@@ -1173,7 +1173,6 @@ count
 [
 derive
 (
-Copy
 Clone
 Debug
 MallocSizeOf

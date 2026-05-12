@@ -6187,7 +6187,6 @@ Context
 NumberOrPercentage
 {
 match
-*
 self
 {
 specified

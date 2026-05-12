@@ -2833,7 +2833,7 @@ Leaf
 :
 Number
 (
-value
+n
 )
 =
 >
@@ -2842,7 +2842,11 @@ Self
 :
 Number
 (
+n
+.
 value
+(
+)
 )
 _
 =
@@ -3187,7 +3191,7 @@ Leaf
 :
 Number
 (
-value
+n
 )
 =
 >
@@ -3196,7 +3200,11 @@ Self
 :
 Number
 (
+n
+.
 value
+(
+)
 )
 _
 =
@@ -3327,7 +3335,7 @@ Leaf
 :
 Number
 (
-value
+n
 )
 =
 *
@@ -3335,7 +3343,11 @@ leaf
 {
 Ok
 (
+n
+.
 value
+(
+)
 )
 }
 else
