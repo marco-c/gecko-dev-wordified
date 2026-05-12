@@ -71,11 +71,6 @@ algorithm
 #
 include
 <
-cmath
->
-#
-include
-<
 cstddef
 >
 #
@@ -5978,8 +5973,10 @@ sGlobalMessageManager
 ;
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 MessageManagerReporter
+>
 (
 )
 )
@@ -8547,8 +8544,10 @@ ChildProcessMessageManagerCallback
 ;
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 MessageManagerReporter
+>
 (
 )
 )

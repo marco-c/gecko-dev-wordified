@@ -2696,8 +2696,10 @@ kFontSystemWhitelistPref
 }
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 MemoryReporter
+>
 (
 )
 )

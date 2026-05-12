@@ -13916,8 +13916,10 @@ PlatformStartup
 {
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 GfxTexturesReporter
+>
 (
 )
 )

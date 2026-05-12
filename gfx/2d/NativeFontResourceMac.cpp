@@ -419,8 +419,12 @@ RegisterMemoryReporter
 {
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 NativeFontResourceMacReporter
+>
+(
+)
 )
 ;
 }

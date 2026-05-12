@@ -8912,8 +8912,10 @@ cache
 .
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 MemoryReporter
+>
 (
 )
 )

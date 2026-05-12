@@ -211,8 +211,12 @@ RegisterMemoryReporter
 {
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 SourceSurfaceAlignedRawDataReporter
+>
+(
+)
 )
 ;
 }

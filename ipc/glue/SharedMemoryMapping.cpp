@@ -283,8 +283,10 @@ true
 {
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 MappingReporter
+>
 (
 )
 )

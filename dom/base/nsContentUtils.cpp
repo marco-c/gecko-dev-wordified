@@ -7068,8 +7068,10 @@ EventListenerManager
 ;
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 DOMEventListenerManagersHashReporter
+>
 (
 )
 )

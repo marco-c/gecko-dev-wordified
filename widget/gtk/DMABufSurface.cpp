@@ -1376,8 +1376,10 @@ InitMemoryReporting
 {
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 DMABufSurfaceReporter
+>
 (
 )
 )
