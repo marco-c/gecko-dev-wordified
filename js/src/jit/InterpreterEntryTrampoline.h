@@ -301,7 +301,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

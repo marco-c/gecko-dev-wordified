@@ -23981,7 +23981,7 @@ i
 ]
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 paramPtr

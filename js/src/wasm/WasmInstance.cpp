@@ -24364,7 +24364,7 @@ funcIndex
 +
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -24403,7 +24403,7 @@ funcExportIndex
 +
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -24458,7 +24458,7 @@ memoryInstanceData
 memoryIndex
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -24581,7 +24581,7 @@ offset
 )
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 obj
@@ -24623,7 +24623,7 @@ tagIndex
 +
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -24681,7 +24681,7 @@ typeDefInstanceData
 typeIndex
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -24753,7 +24753,7 @@ metrics
 targets
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -24768,7 +24768,7 @@ target
 }
 }
 }
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -24781,7 +24781,7 @@ value
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -25439,7 +25439,7 @@ AnyRef
 continue
 ;
 }
-TraceManuallyBarrieredNullableEdge
+TraceManuallyBarrieredEdge
 (
 trc
 (
@@ -25561,7 +25561,7 @@ offsetOfRegisterResult
 i
 )
 ;
-TraceManuallyBarrieredNullableEdge
+TraceManuallyBarrieredEdge
 (
 trc
 (
@@ -27240,7 +27240,7 @@ AnyRef
 loc
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 refLoc

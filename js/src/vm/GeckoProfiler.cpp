@@ -4045,7 +4045,7 @@ rawScript
 (
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 &

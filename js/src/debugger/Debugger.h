@@ -323,7 +323,7 @@ h
 /
 /
 for
-TraceNullableEdge
+TraceEdge
 TraceEdge
 #
 include
@@ -4256,7 +4256,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

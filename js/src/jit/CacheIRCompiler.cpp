@@ -9159,7 +9159,7 @@ trc
 )
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -9275,7 +9275,7 @@ trc
 )
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

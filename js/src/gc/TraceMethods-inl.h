@@ -286,7 +286,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -396,7 +396,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1867,7 +1867,7 @@ trc
 js
 :
 :
-TraceNullableCellHeaderEdge
+TraceCellHeaderEdge
 (
 trc
 this
@@ -1929,7 +1929,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1970,7 +1970,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -2010,7 +2010,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -2047,7 +2047,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -2059,7 +2059,7 @@ shape
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

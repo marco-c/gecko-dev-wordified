@@ -960,7 +960,7 @@ moduleRequest_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -973,7 +973,7 @@ importName_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1162,7 +1162,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1175,7 +1175,7 @@ exportName_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1188,7 +1188,7 @@ moduleRequest_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1201,7 +1201,7 @@ importName_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1762,7 +1762,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -1775,7 +1775,7 @@ key_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -6699,7 +6699,7 @@ evaluationError
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -6712,7 +6712,7 @@ metaObject
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -6760,7 +6760,7 @@ trace
 trc
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -6773,7 +6773,7 @@ topLevelCapability
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -6786,7 +6786,7 @@ asyncParentModules
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

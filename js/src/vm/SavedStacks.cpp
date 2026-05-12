@@ -1726,7 +1726,7 @@ source
 "
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -1742,7 +1742,7 @@ functionDisplayName
 "
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -1758,7 +1758,7 @@ asyncCause
 "
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 &

@@ -494,7 +494,7 @@ JSTracer
 trc
 )
 {
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -504,7 +504,7 @@ objectBeingIterated_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -514,7 +514,7 @@ iterObj_
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

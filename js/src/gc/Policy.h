@@ -254,7 +254,7 @@ HeapPtr
 T
 >
 .
-TraceNullableRoot
+TraceRoot
 (
 trc
 vp
@@ -394,7 +394,7 @@ name
 js
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 thingp
@@ -556,7 +556,7 @@ name
 js
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 thingp

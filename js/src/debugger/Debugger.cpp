@@ -9429,6 +9429,7 @@ frameobj
 >
 isOnStack
 (
+cx
 )
 &
 &
@@ -19884,6 +19885,7 @@ frameObj
 .
 isOnStack
 (
+cx
 )
 )
 {
@@ -29276,7 +29278,7 @@ Object
 "
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -47236,6 +47238,7 @@ frameObj
 >
 isOnStack
 (
+cx
 )
 )
 {

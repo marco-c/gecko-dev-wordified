@@ -16874,7 +16874,7 @@ JSTracer
 trc
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -16937,7 +16937,7 @@ item
 "
 )
 ;
-TraceNullableRoot
+TraceRoot
 (
 trc
 &

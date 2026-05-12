@@ -2595,7 +2595,7 @@ isInList
 )
 )
 ;
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

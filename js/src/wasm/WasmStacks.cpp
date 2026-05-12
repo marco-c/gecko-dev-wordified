@@ -5507,7 +5507,7 @@ i
 +
 )
 {
-TraceManuallyBarrieredNullableEdge
+TraceManuallyBarrieredEdge
 (
 trc
 &
@@ -5551,7 +5551,7 @@ initial
 resume
 state
 .
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

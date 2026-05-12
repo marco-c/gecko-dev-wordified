@@ -2894,7 +2894,7 @@ JSTracer
 trc
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -3458,7 +3458,7 @@ extension
 extensions_
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
@@ -3719,7 +3719,7 @@ extension
 extensions_
 )
 {
-TraceNullableRoot
+TraceRoot
 (
 trc
 &
