@@ -33,14 +33,14 @@ worker
 .
 onmessage
 =
-evt
+msg
 =
 >
 self
 .
 postMessage
 (
-evt
+msg
 .
 data
 )
@@ -126,7 +126,7 @@ worker
 .
 onmessage
 =
-e
+msg
 =
 >
 evt
@@ -138,7 +138,7 @@ ports
 .
 postMessage
 (
-e
+msg
 .
 data
 )
@@ -147,7 +147,7 @@ worker
 .
 postMessage
 (
-evt
+e
 .
 data
 )
