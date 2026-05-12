@@ -4012,8 +4012,6 @@ StyleCalcLengthPercentage
 *
 >
 (
-aLP
-.
 _0
 .
 _0
