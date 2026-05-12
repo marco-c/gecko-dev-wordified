@@ -105,7 +105,7 @@ backward
 compat
 {
 version
-152
+151
 }
 *
 *
@@ -120,7 +120,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 *
@@ -138,7 +138,7 @@ happy
 on
 pre
 -
-152
+151
 versions
 *
 otherwise
@@ -163,7 +163,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -187,7 +187,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 "
@@ -603,7 +603,7 @@ backward
 compat
 {
 version
-152
+151
 }
 *
 *
@@ -618,7 +618,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 *
@@ -641,7 +641,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -856,7 +856,7 @@ backward
 compat
 {
 version
-152
+151
 }
 *
 *
@@ -871,7 +871,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 *
@@ -894,7 +894,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -1257,7 +1257,7 @@ backward
 compat
 {
 version
-152
+151
 }
 *
 *
@@ -1272,7 +1272,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 *
@@ -1295,7 +1295,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -1618,7 +1618,7 @@ backward
 compat
 {
 version
-152
+151
 }
 *
 *
@@ -1633,7 +1633,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 *
@@ -1656,7 +1656,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -1935,7 +1935,7 @@ backward
 compat
 {
 version
-152
+151
 }
 *
 *
@@ -1950,7 +1950,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 *
@@ -1973,7 +1973,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -2307,7 +2307,7 @@ backward
 compat
 {
 version
-152
+151
 }
 *
 *
@@ -2322,7 +2322,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 *
@@ -2345,7 +2345,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
@@ -2772,7 +2772,7 @@ backward
 compat
 {
 version
-152
+151
 }
 *
 *
@@ -2787,7 +2787,7 @@ is
 only
 supported
 in
-152
+151
 onwards
 .
 *
@@ -2810,7 +2810,7 @@ AppConstants
 .
 MOZ_APP_VERSION
 "
-152
+151
 .
 0a1
 "
