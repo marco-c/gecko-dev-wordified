@@ -3329,6 +3329,8 @@ as_slice
 len
 (
 )
+-
+1
 )
 ;
 let
