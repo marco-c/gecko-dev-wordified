@@ -21901,7 +21901,7 @@ aRestart
 )
 )
 ;
-mEarlyDataWasAvailable
+mResumptionAttempted
 =
 true
 ;

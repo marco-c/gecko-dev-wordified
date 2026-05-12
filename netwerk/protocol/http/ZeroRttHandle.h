@@ -633,6 +633,8 @@ Do0RTT
 HappyEyeballsTransaction
 *
 aCaller
+bool
+aCanSendEarlyData
 )
 ;
 /

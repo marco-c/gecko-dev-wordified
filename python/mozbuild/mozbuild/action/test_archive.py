@@ -212,6 +212,10 @@ SanctionsTestServer
 "
     
 "
+ZeroRttAcceptServer
+"
+    
+"
 SmokeDMD
 "
     

@@ -5257,6 +5257,10 @@ GenerateOCSPResponse
 "
 SanctionsTestServer
 "
+            
+"
+ZeroRttAcceptServer
+"
         
 ]
         
