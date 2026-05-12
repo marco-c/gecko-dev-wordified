@@ -3839,7 +3839,7 @@ self
 )
 -
 >
-u32
+usize
 {
 match
 self

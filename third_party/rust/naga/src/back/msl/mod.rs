@@ -719,9 +719,6 @@ keywords
 mod
 mesh_shader
 ;
-mod
-ray
-;
 pub
 mod
 sampler
@@ -7391,11 +7388,6 @@ Caps
 :
 :
 SHADER_FLOAT16
-|
-Caps
-:
-:
-SHADER_INT16
 |
 Caps
 :
