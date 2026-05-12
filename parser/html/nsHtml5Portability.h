@@ -302,6 +302,13 @@ h
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 nsHtml5ByteReadable
 .
 h
