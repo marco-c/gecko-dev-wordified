@@ -779,6 +779,8 @@ raw_content
 )
         
 if
+diskarzhan_results
+and
 fix
 :
             
