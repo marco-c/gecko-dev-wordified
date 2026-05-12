@@ -837,6 +837,15 @@ nsISocketTransport
 aTransport
 )
 ;
+nsresult
+CheckLNAForAddr
+(
+const
+NetAddr
+&
+aAddr
+)
+;
 /
 /
 Timer
