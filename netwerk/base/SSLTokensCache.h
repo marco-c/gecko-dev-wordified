@@ -966,11 +966,6 @@ aSynchronous
 )
 ;
 void
-RegisterShutdownBlocker
-(
-)
-;
-void
 RemoveShutdownBlocker
 (
 )
