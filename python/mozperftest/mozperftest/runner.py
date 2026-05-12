@@ -1460,6 +1460,10 @@ if
 sys
 .
 version_info
+[
+:
+2
+]
 =
 =
 (
