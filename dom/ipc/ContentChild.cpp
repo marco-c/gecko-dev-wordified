@@ -1529,6 +1529,15 @@ include
 "
 mozilla
 /
+SandboxSettings
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 UtilityProcessSandboxing
