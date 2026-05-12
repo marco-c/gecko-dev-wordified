@@ -4805,7 +4805,7 @@ new
 specified
 :
 :
-CalcLengthPercentage
+CalcNumeric
 :
 :
 from_computed_value
@@ -8336,7 +8336,7 @@ impl
 specified
 :
 :
-CalcLengthPercentage
+CalcNumeric
 {
 /
 /
@@ -9077,7 +9077,7 @@ NoCalcLength
 specified
 :
 :
-CalcLengthPercentage
+CalcNumeric
 {
 clamping_mode
 :
