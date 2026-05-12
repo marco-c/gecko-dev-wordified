@@ -290,7 +290,7 @@ mozilla
 Forward
 declaration
 for
-StyleLengthPercentageUnion
+StyleLengthPercentage
 :
 :
 AsCalc
