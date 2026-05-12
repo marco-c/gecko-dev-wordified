@@ -945,6 +945,10 @@ private
 :
 friend
 class
+ArenaChunk
+;
+friend
+class
 ChunkPool
 ;
 ArenaChunk
