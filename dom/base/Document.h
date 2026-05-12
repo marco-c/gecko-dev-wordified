@@ -11962,8 +11962,6 @@ UniquePtr
 FullscreenRequest
 >
 aRequest
-bool
-aApplyFullscreenDirectly
 )
 ;
 /

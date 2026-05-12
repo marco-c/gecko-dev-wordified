@@ -106495,6 +106495,12 @@ aApplyFullscreenDirectly
 }
 else
 {
+MOZ_ASSERT
+(
+!
+aApplyFullscreenDirectly
+)
+;
 RequestFullscreenInParentProcess
 (
 std
@@ -106504,7 +106510,6 @@ move
 (
 aRequest
 )
-aApplyFullscreenDirectly
 )
 ;
 }
@@ -107023,8 +107028,6 @@ UniquePtr
 FullscreenRequest
 >
 aRequest
-bool
-aApplyFullscreenDirectly
 )
 {
 MOZ_ASSERT
@@ -107068,9 +107071,6 @@ return
 }
 if
 (
-aApplyFullscreenDirectly
-|
-|
 ShouldApplyFullscreenDirectly
 (
 this
