@@ -922,13 +922,6 @@ C
 u8
 )
 ]
-#
-[
-typed
-(
-todo_derive_fields
-)
-]
 pub
 enum
 GenericSVGOpacity
