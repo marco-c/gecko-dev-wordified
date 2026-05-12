@@ -89121,7 +89121,7 @@ JS
 Prefs
 :
 :
-setAtStartup_experimental_wasm_esm_integration
+set_experimental_wasm_esm_integration
 (
 true
 )
@@ -89156,7 +89156,7 @@ JS
 Prefs
 :
 :
-setAtStartup_experimental_source_phase_imports
+set_experimental_source_phase_imports
 (
 true
 )
