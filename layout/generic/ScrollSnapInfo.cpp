@@ -716,6 +716,16 @@ AsElement
 Describe
 (
 string
+dom
+:
+:
+Element
+:
+:
+DescriptionKind
+:
+:
+IdOnly
 )
 ;
 }
