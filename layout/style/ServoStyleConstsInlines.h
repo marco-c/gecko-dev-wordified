@@ -2393,11 +2393,7 @@ ToDegrees
 )
 )
 *
-M_PI
-/
-180
-.
-0
+kRadPerDegree
 ;
 }
 inline

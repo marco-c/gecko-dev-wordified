@@ -3294,11 +3294,7 @@ float
 (
 aAngle
 *
-M_PI
-/
-180
-.
-0
+kRadPerDegree
 )
 ;
 double
