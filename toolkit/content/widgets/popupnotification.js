@@ -681,7 +681,7 @@ body
 "
 >
 <
-label
+a
 class
 =
 "
@@ -700,7 +700,7 @@ center
 >
 <
 /
-label
+a
 >
 <
 !
