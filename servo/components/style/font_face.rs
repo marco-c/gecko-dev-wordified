@@ -1824,9 +1824,6 @@ const
 crate
 :
 :
-gecko
-:
-:
 url
 :
 :

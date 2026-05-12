@@ -120,7 +120,3 @@ selector_parser
 mod
 shadow_parts
 ;
-pub
-mod
-url
-;
