@@ -1306,9 +1306,6 @@ enum
 ServerMessage
 {
 ClientConnect
-(
-u32
-)
 ClientDisconnect
 ContextGetBackendId
 ContextGetMaxChannelCount

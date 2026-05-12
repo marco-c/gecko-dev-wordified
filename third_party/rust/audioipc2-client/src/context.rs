@@ -1241,17 +1241,6 @@ send_recv
 (
 rpc
 ClientConnect
-(
-std
-:
-:
-process
-:
-:
-id
-(
-)
-)
 =
 >
 ClientConnected
