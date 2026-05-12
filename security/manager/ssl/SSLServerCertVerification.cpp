@@ -7587,9 +7587,17 @@ OverridableErrorCategory
 :
 ERROR_UNSET
 )
+mIsBuiltCertChainRootBuiltInRoot
+(
+false
+)
 mProviderFlags
 (
 0
+)
+mMadeOCSPRequests
+(
+false
 )
 {
 }
