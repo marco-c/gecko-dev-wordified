@@ -3026,7 +3026,11 @@ is
 enabled
 globally
 .
+Atomic
+<
 bool
+Relaxed
+>
 mKeepaliveEnabledPref
 {
 false
