@@ -418,7 +418,7 @@ textColor
 ?
 attr
 /
-textSecondary
+colorOnSurfaceVariant
 "
 android
 :
@@ -642,15 +642,6 @@ layout_margin
 =
 "
 8dp
-"
-android
-:
-buttonTint
-=
-"
-color
-/
-tab_checkbox_tint
 "
 android
 :
