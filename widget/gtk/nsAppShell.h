@@ -129,6 +129,11 @@ nsAppShell
 public
 nsBaseAppShell
 {
+static
+nsAppShell
+*
+sAppShell
+;
 public
 :
 nsAppShell
@@ -343,6 +348,11 @@ unsigned
 mTag
 =
 0
+;
+bool
+mInitialized
+=
+false
 ;
 SessionRestoreState
 mSessionRestoreState

@@ -463,6 +463,9 @@ sPollFunc
 ;
 nsAppShell
 *
+nsAppShell
+:
+:
 sAppShell
 =
 nullptr
@@ -2629,6 +2632,12 @@ Init
 (
 )
 {
+MOZ_ASSERT
+(
+!
+sAppShell
+)
+;
 mozilla
 :
 :
