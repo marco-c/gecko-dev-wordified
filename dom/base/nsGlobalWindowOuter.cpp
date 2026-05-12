@@ -43215,8 +43215,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 ChildCommandDispatcher
+>
 (
 root
 child
@@ -43300,8 +43302,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 CommandDispatcher
+>
 (
 xulCommandDispatcher
 anAction

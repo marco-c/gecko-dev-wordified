@@ -1059,8 +1059,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 AsyncSendIntrinsicSizeAndRatioToEmbedder
+>
 (
 this
 )

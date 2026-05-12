@@ -27724,8 +27724,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 nsBeforeFirstPaintDispatcher
+>
 (
 mDocument
 )

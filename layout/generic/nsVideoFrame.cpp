@@ -1459,8 +1459,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 DispatchControlsResizeEvent
+>
 (
 controls
 )

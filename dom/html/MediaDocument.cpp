@@ -1038,8 +1038,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 nsDocElementCreatedNotificationRunner
+>
 (
 this
 )

@@ -40062,8 +40062,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 DeferredContentEditableCountChangeEvent
+>
 (
 this
 aElement
@@ -97956,8 +97958,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 ExitFullscreenScriptRunnable
+>
 (
 root
 fullscreenLeaf

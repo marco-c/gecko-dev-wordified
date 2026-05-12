@@ -1305,8 +1305,10 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
+MakeAndAddRef
+<
 nsAsyncScriptLoad
+>
 (
 this
 aURL
