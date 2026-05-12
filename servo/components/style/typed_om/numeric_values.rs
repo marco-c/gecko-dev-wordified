@@ -86,7 +86,7 @@ specified
 {
 NoCalcLength
 NoCalcNumber
-Percentage
+NoCalcPercentage
 Time
 }
 ;
@@ -289,7 +289,7 @@ percentages
 >
 Percentage
 (
-Percentage
+NoCalcPercentage
 )
 /
 /
@@ -960,7 +960,7 @@ NoCalcNumeric
 :
 Percentage
 (
-Percentage
+NoCalcPercentage
 :
 :
 new
