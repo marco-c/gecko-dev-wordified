@@ -1528,7 +1528,9 @@ oldBackupFileName
 "
 FirefoxBackup_profile_name_20260311
 -
-1400
+140000
+.
+000
 .
 html
 "
@@ -1751,7 +1753,9 @@ oldBackupFileName
 "
 FirefoxBackup_profile_name_20260311
 -
-1400
+140000
+.
+000
 .
 html
 "
@@ -1762,7 +1766,9 @@ newBackupFileName
 "
 FirefoxBackup_profile_name_20260311
 -
-1500
+150000
+.
+000
 .
 html
 "
