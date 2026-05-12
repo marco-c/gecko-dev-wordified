@@ -19308,10 +19308,7 @@ Value
 (
 )
 :
-SharedWebRemoteType
-(
-attrs
-)
+DEFAULT_REMOTE_TYPE
 ;
 /
 /
