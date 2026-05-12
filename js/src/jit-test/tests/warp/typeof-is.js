@@ -267,11 +267,6 @@ null
 )
 transplantableObject
 (
-{
-proxy
-:
-true
-}
 )
 .
 object
@@ -612,11 +607,6 @@ null
 )
 transplantableObject
 (
-{
-proxy
-:
-true
-}
 )
 .
 object
