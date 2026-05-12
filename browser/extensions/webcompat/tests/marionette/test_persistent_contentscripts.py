@@ -757,22 +757,23 @@ bgWin
 .
 interventions
 .
-buildContentScriptsRegistrationsForIntervention
+buildContentScriptRegistrations
 (
                         
 config
+.
+label
+                        
+config
+.
+interventions
+[
+0
+]
                         
 matches
                         
 excludeMatches
-                        
-/
-*
-force
-=
-*
-/
-true
                       
 )
 [
