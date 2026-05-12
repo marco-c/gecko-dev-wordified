@@ -221,6 +221,9 @@ classic
 isSessionOngoing
 :
 false
+pickedActionKey
+:
+null
 }
 }
 )
@@ -450,6 +453,9 @@ private
 isSessionOngoing
 :
 false
+pickedActionKey
+:
+null
 }
 }
 )
