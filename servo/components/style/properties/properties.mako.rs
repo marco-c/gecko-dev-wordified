@@ -14451,10 +14451,16 @@ style
 self
 for_property
 :
+PropertyId
+:
+:
+NonCustom
+(
 id
 .
 into
 (
+)
 )
 current_longhand
 :
