@@ -610,6 +610,11 @@ home
 "
 about
 :
+logo
+"
+"
+about
+:
 memory
 "
 "
