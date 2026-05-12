@@ -4879,6 +4879,15 @@ TransferFunction
 :
 BT709
 ;
+Maybe
+<
+gfx
+:
+:
+HDRMetadata
+>
+mHDRMetadata
+;
 gfx
 :
 :
