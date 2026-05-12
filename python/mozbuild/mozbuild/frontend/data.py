@@ -3673,6 +3673,10 @@ location
 "
         
 "
+output_category
+"
+        
+"
 SUFFIX_VAR
 "
         
@@ -3716,6 +3720,19 @@ self
 cargo_file
 =
 cargo_file
+        
+self
+.
+output_category
+=
+context
+.
+get
+(
+self
+.
+OUTPUT_CATEGORY_VAR
+)
         
 #
 Skip
@@ -3878,6 +3895,12 @@ FEATURES_VAR
 "
 RUST_PROGRAM_FEATURES
 "
+    
+OUTPUT_CATEGORY_VAR
+=
+"
+RUST_PROGRAM_OUTPUT_CATEGORY
+"
 class
 HostRustProgram
 (
@@ -3907,6 +3930,12 @@ FEATURES_VAR
 =
 "
 HOST_RUST_PROGRAM_FEATURES
+"
+    
+OUTPUT_CATEGORY_VAR
+=
+"
+HOST_RUST_PROGRAM_OUTPUT_CATEGORY
 "
 class
 RustTests
