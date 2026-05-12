@@ -87,7 +87,7 @@ specified
 NoCalcLength
 NoCalcNumber
 NoCalcPercentage
-Time
+NoCalcTime
 }
 ;
 use
@@ -213,7 +213,7 @@ time
 >
 Time
 (
-Time
+NoCalcTime
 )
 /
 /
@@ -901,7 +901,7 @@ Ok
 time
 )
 =
-Time
+NoCalcTime
 :
 :
 parse_dimension
