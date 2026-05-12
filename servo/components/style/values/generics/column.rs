@@ -66,6 +66,15 @@ the
 column
 properties
 .
+use
+crate
+:
+:
+derives
+:
+:
+*
+;
 /
 /
 /
@@ -105,6 +114,13 @@ ToTyped
 repr
 (
 u8
+)
+]
+#
+[
+typed
+(
+todo_derive_fields
 )
 ]
 pub
@@ -177,6 +193,7 @@ pub
 fn
 is_auto
 (
+&
 self
 )
 -

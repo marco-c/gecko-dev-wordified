@@ -1173,7 +1173,6 @@ count
 [
 derive
 (
-Copy
 Clone
 Debug
 MallocSizeOf
@@ -1183,13 +1182,6 @@ SpecifiedValueInfo
 ToCss
 ToShmem
 ToTyped
-)
-]
-#
-[
-typed_value
-(
-derive_fields
 )
 ]
 pub
@@ -1346,13 +1338,6 @@ none
 repr
 (
 C
-)
-]
-#
-[
-typed_value
-(
-derive_fields
 )
 ]
 pub
@@ -4164,6 +4149,13 @@ transparent
 ]
 #
 [
+typed
+(
+todo_derive_fields
+)
+]
+#
+[
 value_info
 (
 other_values
@@ -5083,6 +5075,7 @@ derive
 Copy
 Clone
 Debug
+Eq
 MallocSizeOf
 Parse
 PartialEq

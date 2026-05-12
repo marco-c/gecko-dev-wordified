@@ -85,7 +85,7 @@ specified
 :
 {
 NoCalcLength
-Number
+NoCalcNumber
 Percentage
 Time
 }
@@ -135,13 +135,6 @@ ToTyped
 repr
 (
 u8
-)
-]
-#
-[
-typed_value
-(
-derive_fields
 )
 ]
 pub
@@ -259,7 +252,7 @@ value
 >
 Number
 (
-Number
+NoCalcNumber
 )
 /
 /
@@ -946,7 +939,7 @@ NoCalcNumeric
 :
 Number
 (
-Number
+NoCalcNumber
 :
 :
 new
