@@ -120569,7 +120569,7 @@ widget
 -
 view
 -
-schedule
+matches
 "
 className
 :
@@ -120578,7 +120578,7 @@ sports
 -
 view
 -
-schedule
+matches
 "
 onClick
 :
