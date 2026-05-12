@@ -156,12 +156,6 @@ defined
 (
 _WIN32
 )
-|
-|
-defined
-(
-__MINGW32__
-)
 #
 include
 <
@@ -668,12 +662,6 @@ __EMSCRIPTEN__
 )
 |
 |
-defined
-(
-__MINGW32__
-)
-|
-|
 \
 defined
 (
@@ -682,9 +670,8 @@ __hexagon__
 /
 /
 Emscripten
-WASI
 and
-MinGW
+WASI
 pthread
 implementations
 does
@@ -843,10 +830,6 @@ endif
 /
 !
 __EMSCRIPTEN__
-&
-&
-!
-__MINGW32__
 #
 elif
 ABSL_THREAD_IDENTITY_MODE
