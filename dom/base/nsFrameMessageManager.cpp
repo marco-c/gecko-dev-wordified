@@ -5973,10 +5973,8 @@ sGlobalMessageManager
 ;
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 MessageManagerReporter
->
 (
 )
 )
@@ -8544,10 +8542,8 @@ ChildProcessMessageManagerCallback
 ;
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 MessageManagerReporter
->
 (
 )
 )

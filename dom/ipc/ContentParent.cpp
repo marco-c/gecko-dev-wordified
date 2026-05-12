@@ -4553,10 +4553,8 @@ ContentParents
 .
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 ContentParentsMemoryReporter
->
 (
 )
 )

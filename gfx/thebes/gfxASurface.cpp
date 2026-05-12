@@ -2432,10 +2432,8 @@ registered
 {
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 SurfaceMemoryReporter
->
 (
 )
 )

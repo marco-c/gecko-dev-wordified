@@ -284,12 +284,8 @@ RegisterMemoryReporter
 {
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 NativeFontResourceDataMemoryReporter
->
-(
-)
 )
 ;
 }

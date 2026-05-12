@@ -3050,10 +3050,8 @@ true
 ;
 RegisterStrongMemoryReporter
 (
-MakeAndAddRef
-<
+new
 BlobURLsReporter
->
 (
 )
 )

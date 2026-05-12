@@ -17306,10 +17306,7 @@ false
 }
 RegisterStrongMemoryReporter
 (
-do_AddRef
-(
 sSingleton
-)
 )
 ;
 /
