@@ -4078,6 +4078,17 @@ false
 }
 virtual
 bool
+IsSelectedContentElement
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
+bool
 IsGenericHTMLFormControlElementWithState
 (
 )
