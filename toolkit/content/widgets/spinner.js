@@ -3974,14 +3974,6 @@ itemsView
 [
 currentItemIndex
 ]
-&
-&
-itemsView
-[
-currentItemIndex
-]
-.
-enabled
 )
 {
 this
