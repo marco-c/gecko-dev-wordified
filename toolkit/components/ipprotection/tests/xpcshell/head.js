@@ -95,6 +95,7 @@ mjs
 ;
 const
 {
+ERRORS
 IPPProxyManager
 IPPProxyStates
 }
