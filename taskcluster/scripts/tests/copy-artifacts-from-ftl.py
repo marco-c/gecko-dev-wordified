@@ -1074,6 +1074,7 @@ subprocess
 .
 check_output
 (
+            
 [
 "
 gsutil
@@ -1086,6 +1087,12 @@ gcs_path
 text
 =
 True
+stderr
+=
+subprocess
+.
+STDOUT
+        
 )
         
 return
@@ -1103,13 +1110,20 @@ as
 e
 :
         
+output
+=
+e
+.
+output
+or
+"
+"
+        
 if
 "
 AccessDeniedException
 "
 in
-e
-.
 output
 :
             
@@ -1137,8 +1151,6 @@ network
 error
 "
 in
-e
-.
 output
 .
 lower
@@ -1164,6 +1176,40 @@ gcs_path
 "
 )
         
+elif
+"
+CommandException
+:
+One
+or
+more
+URLs
+matched
+no
+objects
+"
+in
+output
+:
+            
+logging
+.
+info
+(
+f
+"
+No
+files
+found
+in
+GCS
+at
+{
+gcs_path
+}
+"
+)
+        
 else
 :
             
@@ -1177,10 +1223,12 @@ Failed
 to
 list
 files
+at
+{
+gcs_path
+}
 :
 {
-e
-.
 output
 }
 "
@@ -1570,8 +1618,11 @@ f
 "
 Failed
 to
-list
-files
+copy
+file
+{
+artifact
+}
 :
 {
 result
