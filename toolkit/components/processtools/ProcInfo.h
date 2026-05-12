@@ -1681,4 +1681,4 @@ mozilla
 endif
 /
 /
-ProcInfo_h
+_mozilla_ProcInfo_h
