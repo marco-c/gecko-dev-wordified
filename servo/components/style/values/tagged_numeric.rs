@@ -215,14 +215,6 @@ hidden
 ]
 #
 [
-derive
-(
-Clone
-Copy
-)
-]
-#
-[
 repr
 (
 C
