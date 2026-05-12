@@ -9237,10 +9237,8 @@ in
 test_platform
 :
                 
-fetch_toolchains
-.
-append
-(
+samply_toolchain
+=
 "
 macosx64
 -
@@ -9248,7 +9246,6 @@ aarch64
 -
 samply
 "
-)
             
 elif
 "
@@ -9258,16 +9255,13 @@ in
 test_platform
 :
                 
-fetch_toolchains
-.
-append
-(
+samply_toolchain
+=
 "
 macosx64
 -
 samply
 "
-)
             
 elif
 "
@@ -9277,29 +9271,37 @@ in
 test_platform
 :
                 
-fetch_toolchains
-.
-append
-(
+samply_toolchain
+=
 "
 win64
 -
 samply
 "
-)
             
 else
+:
+                
+samply_toolchain
+=
+"
+linux64
+-
+samply
+"
+            
+if
+samply_toolchain
+not
+in
+fetch_toolchains
 :
                 
 fetch_toolchains
 .
 append
 (
-"
-linux64
--
-samply
-"
+samply_toolchain
 )
             
 #
