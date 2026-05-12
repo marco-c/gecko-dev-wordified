@@ -28880,7 +28880,9 @@ UpdateSpacing
 (
 )
 {
+const
 auto
+&
 state
 =
 CurrentState
