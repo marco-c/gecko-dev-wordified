@@ -2496,13 +2496,17 @@ items
                 
 if
 scheme
-=
-=
+in
+(
+"
+dns
+"
 "
 webtransport
 -
 h3
 "
+)
 :
                     
 continue
