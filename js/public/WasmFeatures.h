@@ -811,10 +811,7 @@ force
 enable
 *
 /
-WasmJSPromiseIntegrationFlag
-(
-cx
-)
+false
 \
 /
 *
