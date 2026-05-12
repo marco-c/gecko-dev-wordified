@@ -97,6 +97,9 @@ h
 namespace
 mozilla
 {
+struct
+URLExtraData
+;
 /
 *
 *
@@ -421,6 +424,9 @@ const
 nsAString
 &
 aPseudoElement
+URLExtraData
+*
+aURLExtraData
 bool
 aIgnoreEnabledState
 =
