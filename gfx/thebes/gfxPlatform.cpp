@@ -7314,8 +7314,10 @@ XRE_IsParentProcess
 {
 RegisterStrongAsyncMemoryReporter
 (
-new
+MakeAndAddRef
+<
 WebRenderMemoryReporter
+>
 (
 )
 )
