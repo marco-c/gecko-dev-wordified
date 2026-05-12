@@ -336,8 +336,20 @@ process
 "
 -
 -
-maven
+artifact
 -
+filter
+"
+        
+"
+public
+/
+build
+/
+target
+.
+maven
+.
 zip
 "
     
@@ -608,14 +620,6 @@ aar
 "
             
 )
-            
-if
-"
-exoplayer2
-"
-not
-in
-path
         
 ]
         
