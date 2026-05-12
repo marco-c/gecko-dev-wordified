@@ -174,6 +174,9 @@ function
 <
 void
 (
+mozilla
+:
+:
 ipc
 :
 :
@@ -240,6 +243,9 @@ void
 (
 nsTArray
 <
+mozilla
+:
+:
 ipc
 :
 :
@@ -289,6 +295,9 @@ understands
 void
 FOGData
 (
+mozilla
+:
+:
 ipc
 :
 :
@@ -339,6 +348,9 @@ understands
 void
 SendFOGData
 (
+mozilla
+:
+:
 ipc
 :
 :

@@ -335,6 +335,8 @@ logging
 purposes
 .
 static
+:
+:
 PlatformThreadId
 CurrentId
 (
