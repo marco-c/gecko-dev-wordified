@@ -561,12 +561,10 @@ aFormat
 )
 ;
 void
-VSyncCallbackHandler
+FrameCallbackHandler
 (
 uint32_t
 aTime
-bool
-aEmulated
 )
 ;
 RefPtr
@@ -1451,11 +1449,6 @@ thread
 .
 bool
 IsMapped
-(
-)
-;
-bool
-IsVisible
 (
 )
 ;
