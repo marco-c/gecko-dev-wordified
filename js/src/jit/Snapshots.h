@@ -2559,7 +2559,7 @@ instructionsWritten_
 ;
 public
 :
-SnapshotOffset
+RecoverOffset
 startRecover
 (
 uint32_t

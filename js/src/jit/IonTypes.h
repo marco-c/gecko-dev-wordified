@@ -283,7 +283,7 @@ jit
 using
 RecoverOffset
 =
-uint32_t
+uint64_t
 ;
 using
 SnapshotOffset
@@ -360,10 +360,10 @@ SNAPSHOT_MAX_NARGS
 ;
 static
 const
-SnapshotOffset
+RecoverOffset
 INVALID_RECOVER_OFFSET
 =
-uint32_t
+RecoverOffset
 (
 -
 1
@@ -374,7 +374,7 @@ const
 SnapshotOffset
 INVALID_SNAPSHOT_OFFSET
 =
-uint32_t
+SnapshotOffset
 (
 -
 1
