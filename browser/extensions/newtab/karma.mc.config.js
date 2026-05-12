@@ -1993,7 +1993,13 @@ test
 jsx
 )
 "
-common
+content
+-
+src
+/
+components
+/
+Widgets
 /
 WidgetsRegistry
 .

@@ -86330,7 +86330,13 @@ MODULE
 :
 .
 /
-common
+content
+-
+src
+/
+components
+/
+Widgets
 /
 WidgetsRegistry
 .
