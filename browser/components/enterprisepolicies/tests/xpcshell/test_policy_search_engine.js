@@ -288,7 +288,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -416,7 +416,7 @@ default
 Clean
 up
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -519,7 +519,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -649,7 +649,7 @@ engine
 Clean
 up
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -762,7 +762,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -866,7 +866,7 @@ default
 Clean
 up
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -935,7 +935,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -1086,7 +1086,7 @@ utf
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -1166,7 +1166,7 @@ installed
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -1218,7 +1218,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -1444,7 +1444,7 @@ present
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -1516,7 +1516,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -1623,7 +1623,7 @@ encoding
 Clean
 up
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -1647,7 +1647,7 @@ test_install_and_update
 )
 {
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -1784,7 +1784,7 @@ correct
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -1924,7 +1924,7 @@ correct
 Clean
 up
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -1996,7 +1996,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -2148,7 +2148,7 @@ correct
 Clean
 up
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -2220,7 +2220,7 @@ starts
 )
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -2333,7 +2333,7 @@ await
 settingsWritten
 ;
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
@@ -2433,7 +2433,7 @@ restart
 Clean
 up
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 }
@@ -2457,7 +2457,7 @@ test_reset_default
 )
 {
 await
-setupPolicyEngineWithJsonWithSearch
+setupPolicyEngineWithJsonForSearch
 (
 {
 policies
