@@ -224,7 +224,7 @@ glean
 {
 static
 LazyLogModule
-sLog
+sJOGLog
 (
 "
 jog
@@ -369,7 +369,7 @@ false
 ;
 MOZ_LOG
 (
-sLog
+sJOGLog
 LogLevel
 :
 :
@@ -443,7 +443,7 @@ to
 .
 MOZ_LOG
 (
-sLog
+sJOGLog
 LogLevel
 :
 :
@@ -570,7 +570,7 @@ uri
 {
 MOZ_LOG
 (
-sLog
+sJOGLog
 LogLevel
 :
 :
@@ -665,7 +665,7 @@ rv
 {
 MOZ_LOG
 (
-sLog
+sJOGLog
 LogLevel
 :
 :
@@ -715,7 +715,7 @@ input
 {
 MOZ_LOG
 (
-sLog
+sJOGLog
 LogLevel
 :
 :
@@ -759,7 +759,7 @@ contents
 {
 MOZ_LOG
 (
-sLog
+sJOGLog
 LogLevel
 :
 :
@@ -995,7 +995,7 @@ jogfileString
 endif
 MOZ_LOG
 (
-sLog
+sJOGLog
 LogLevel
 :
 :
@@ -1915,7 +1915,7 @@ mozilla
 glean
 :
 :
-sLog
+sJOGLog
 mozilla
 :
 :
@@ -2327,7 +2327,7 @@ mozilla
 glean
 :
 :
-sLog
+sJOGLog
 mozilla
 :
 :
