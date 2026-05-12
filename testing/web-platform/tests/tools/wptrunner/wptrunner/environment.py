@@ -88,23 +88,6 @@ os
 pardir
 )
 )
-sys
-.
-path
-.
-insert
-(
-0
-repo_root
-)
-from
-tools
-import
-localpaths
-#
-noqa
-:
-F401
 serve
 =
 None
@@ -221,6 +204,12 @@ test_paths
 :
     
 return
+os
+.
+path
+.
+join
+(
 test_paths
 [
 "
@@ -229,6 +218,7 @@ test_paths
 ]
 .
 tests_path
+)
 def
 webtranport_h3_server_is_running
 (
