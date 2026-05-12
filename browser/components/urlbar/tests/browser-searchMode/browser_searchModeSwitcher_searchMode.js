@@ -299,6 +299,15 @@ click
 (
 )
 ;
+EventUtils
+.
+synthesizeKey
+(
+"
+KEY_Enter
+"
+)
+;
 await
 Promise
 .
