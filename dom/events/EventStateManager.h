@@ -9369,6 +9369,8 @@ aWidget
 nsPresContext
 *
 aPresContext
+bool
+aUnadjustedMovement
 )
 ;
 static

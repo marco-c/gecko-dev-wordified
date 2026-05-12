@@ -32048,6 +32048,10 @@ Element
 :
 RequestPointerLock
 (
+const
+PointerLockOptions
+&
+aOptions
 CallerType
 aCallerType
 ErrorResult
@@ -32077,6 +32081,7 @@ PointerLockManager
 RequestLock
 (
 this
+aOptions
 aCallerType
 promise
 )
