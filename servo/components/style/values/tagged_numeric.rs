@@ -171,9 +171,9 @@ std
 :
 :
 {
+fmt
 marker
 mem
-fmt
 }
 ;
 use

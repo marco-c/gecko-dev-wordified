@@ -1310,6 +1310,7 @@ calc
 )
 =
 >
+{
 calc
 .
 clamping_mode
@@ -1380,6 +1381,7 @@ resolution
 }
 }
 )
+}
 }
 ;
 ComputedResolution

@@ -251,10 +251,6 @@ CssUrl
 ;
 pub
 mod
-tagged_numeric
-;
-pub
-mod
 animated
 ;
 pub
@@ -276,6 +272,10 @@ resolved
 pub
 mod
 specified
+;
+pub
+mod
+tagged_numeric
 ;
 /
 /
