@@ -9007,8 +9007,10 @@ nsIRunnable
 >
 event
 =
-new
+MakeAndAddRef
+<
 nsXULPopupHidingEvent
+>
 (
 popupToHide
 nextPopup
@@ -20059,8 +20061,10 @@ nsIRunnable
 >
 event
 =
-new
+MakeAndAddRef
+<
 nsXULPopupPositionedEvent
+>
 (
 aPopup
 )

@@ -871,11 +871,13 @@ aFontFaceSrc
 {
 referrerInfo
 =
-new
+MakeAndAddRef
+<
 dom
 :
 :
 ReferrerInfo
+>
 (
 aDocument
 -

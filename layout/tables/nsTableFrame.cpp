@@ -30007,8 +30007,10 @@ nsIRunnable
 >
 evt
 =
-new
+MakeAndAddRef
+<
 nsDelayedCalcBCBorders
+>
 (
 this
 )
