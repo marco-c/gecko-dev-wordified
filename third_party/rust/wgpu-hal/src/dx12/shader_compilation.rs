@@ -2679,7 +2679,7 @@ device
 .
 features
 .
-intersects
+contains
 (
 wgt
 :
@@ -2688,14 +2688,6 @@ Features
 :
 :
 SHADER_F16
-|
-wgt
-:
-:
-Features
-:
-:
-SHADER_I16
 )
 {
 compile_args
