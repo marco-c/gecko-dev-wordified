@@ -3093,6 +3093,10 @@ LinkedListElement
 Document
 >
 ;
+friend
+class
+AutoRestoreCloningForSVGUse
+;
 protected
 :
 Document
