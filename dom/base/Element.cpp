@@ -34280,14 +34280,6 @@ Parse
 aOptions
 .
 mPseudoElement
-OwnerDoc
-(
-)
--
->
-DefaultStyleAttrURLData
-(
-)
 )
 ;
 if

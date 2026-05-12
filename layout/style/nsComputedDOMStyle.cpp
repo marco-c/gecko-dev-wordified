@@ -524,17 +524,6 @@ PseudoStyleRequest
 Parse
 (
 aPseudoElt
-aElement
--
->
-OwnerDoc
-(
-)
--
->
-DefaultStyleAttrURLData
-(
-)
 )
 ;
 auto

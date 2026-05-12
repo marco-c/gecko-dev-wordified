@@ -2792,16 +2792,6 @@ PseudoStyleRequest
 Parse
 (
 aPseudo
-aElement
-.
-OwnerDoc
-(
-)
--
->
-DefaultStyleAttrURLData
-(
-)
 )
 ;
 if

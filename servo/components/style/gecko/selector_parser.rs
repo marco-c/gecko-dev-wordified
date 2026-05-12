@@ -2967,10 +2967,6 @@ pseudo_element
 .
 enabled_in_content
 (
-&
-self
-.
-url_data
 )
 {
 return
