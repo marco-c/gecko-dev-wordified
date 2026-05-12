@@ -1380,14 +1380,12 @@ to
 hold
 a
 simplified
-<
-length
->
-or
-<
-percentage
->
+calc
 expression
+and
+associated
+clamping
+mode
 .
 /
 /
@@ -1470,7 +1468,7 @@ missing_docs
 ]
 pub
 struct
-CalcLengthPercentage
+CalcNumeric
 {
 #
 [
@@ -1489,7 +1487,7 @@ node
 CalcNode
 }
 impl
-CalcLengthPercentage
+CalcNumeric
 {
 fn
 same_unit_length_as
@@ -1620,7 +1618,7 @@ b
 impl
 SpecifiedValueInfo
 for
-CalcLengthPercentage
+CalcNumeric
 {
 }
 /
@@ -8017,7 +8015,7 @@ a
 b
 )
 =
-CalcLengthPercentage
+CalcNumeric
 :
 :
 same_unit_length_as
@@ -9853,7 +9851,7 @@ AllowedNumericType
 >
 Result
 <
-CalcLengthPercentage
+CalcNumeric
 (
 )
 >
@@ -9871,7 +9869,7 @@ we
 allow
 numbers
 inside
-CalcLengthPercentage
+CalcNumeric
 calculations
 that
 resolve
@@ -9918,7 +9916,7 @@ else
 {
 Ok
 (
-CalcLengthPercentage
+CalcNumeric
 {
 clamping_mode
 node
@@ -10496,7 +10494,7 @@ AllowAnchorPositioningFunctions
 >
 Result
 <
-CalcLengthPercentage
+CalcNumeric
 ParseError
 <
 '
@@ -10769,7 +10767,7 @@ MathFunction
 >
 Result
 <
-CalcLengthPercentage
+CalcNumeric
 ParseError
 <
 '

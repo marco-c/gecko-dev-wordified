@@ -413,7 +413,7 @@ specified
 calc
 :
 :
-CalcLengthPercentage
+CalcNumeric
 ;
 /
 /
@@ -13493,7 +13493,7 @@ Calc
 (
 Box
 <
-CalcLengthPercentage
+CalcNumeric
 >
 )
 }
@@ -16367,7 +16367,7 @@ Calc
 (
 Box
 <
-CalcLengthPercentage
+CalcNumeric
 >
 )
 }
@@ -16506,7 +16506,7 @@ Box
 :
 new
 (
-CalcLengthPercentage
+CalcNumeric
 {
 clamping_mode
 node
