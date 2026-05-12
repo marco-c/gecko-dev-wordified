@@ -2010,7 +2010,7 @@ group
 -
 blue
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2028,7 +2028,7 @@ group
 -
 blue
 -
-content
+text
 -
 invert
 "
@@ -2100,7 +2100,7 @@ group
 -
 purple
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2118,7 +2118,7 @@ group
 -
 purple
 -
-content
+text
 -
 invert
 "
@@ -2190,7 +2190,7 @@ group
 -
 cyan
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2208,7 +2208,7 @@ group
 -
 cyan
 -
-content
+text
 -
 invert
 "
@@ -2280,7 +2280,7 @@ group
 -
 orange
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2298,7 +2298,7 @@ group
 -
 orange
 -
-content
+text
 -
 invert
 "
@@ -2370,7 +2370,7 @@ group
 -
 yellow
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2388,7 +2388,7 @@ group
 -
 yellow
 -
-content
+text
 -
 invert
 "
@@ -2460,7 +2460,7 @@ group
 -
 pink
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2478,7 +2478,7 @@ group
 -
 pink
 -
-content
+text
 -
 invert
 "
@@ -2550,7 +2550,7 @@ group
 -
 green
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2568,7 +2568,7 @@ group
 -
 green
 -
-content
+text
 -
 invert
 "
@@ -2640,7 +2640,7 @@ group
 -
 red
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2658,7 +2658,7 @@ group
 -
 red
 -
-content
+text
 -
 invert
 "
@@ -2730,7 +2730,7 @@ group
 -
 gray
 -
-content
+text
 "
 isFromDevTools
 :
@@ -2748,7 +2748,7 @@ group
 -
 gray
 -
-content
+text
 -
 invert
 "
