@@ -61536,8 +61536,6 @@ fill
                 
 if
 (
-MOZ_UNLIKELY
-(
 rv
 .
 MaybeSetPendingException
@@ -61548,7 +61546,11 @@ context
 }
 )
 )
-)
+[
+[
+unlikely
+]
+]
 {
                   
 return
@@ -157623,8 +157625,6 @@ OBSERVABLE_ARRAY_DOM_INTERFACE_SLOT
             
 if
 (
-MOZ_LIKELY
-(
 !
 val
 .
@@ -157632,7 +157632,11 @@ isUndefined
 (
 )
 )
-)
+[
+[
+likely
+]
+]
 {
               
 auto
