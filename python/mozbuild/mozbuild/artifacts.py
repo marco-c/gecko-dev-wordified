@@ -1648,9 +1648,9 @@ download_symbols
 =
 False
         
-artifact_filters
+download_maven_zip
 =
-None
+False
         
 override_job_configuration
 =
@@ -1666,13 +1666,6 @@ None
     
 )
 :
-        
-artifact_filters
-=
-artifact_filters
-or
-[
-]
         
 if
 override_job_configuration
@@ -1755,11 +1748,36 @@ zst
         
 self
 .
-_artifact_filters
+_maven_zip_re
 =
-set
+None
+        
+if
+download_maven_zip
+:
+            
+self
+.
+_maven_zip_re
+=
+re
+.
+compile
 (
-artifact_filters
+r
+"
+public
+/
+build
+/
+target
+\
+.
+maven
+\
+.
+zip
+"
 )
         
 self
@@ -1886,11 +1904,9 @@ tests_artifact
 =
 None
         
-found_artifact_filters
+maven_zip_artifact
 =
-set
-(
-)
+None
         
 for
 artifact
@@ -1910,27 +1926,30 @@ name
 if
 self
 .
-_artifact_filters
+_maven_zip_re
 :
                 
 if
-name
-in
 self
 .
-_artifact_filters
-:
-                    
-found_artifact_filters
+_maven_zip_re
 .
-add
+match
 (
 name
 )
+:
+                    
+maven_zip_artifact
+=
+name
                     
 yield
 name
                 
+else
+:
+                    
 continue
             
 elif
@@ -2084,51 +2103,39 @@ none
 if
 self
 .
-_artifact_filters
+_maven_zip_re
+and
+not
+maven_zip_artifact
 :
             
-missing_artifacts
-=
-self
-.
-_artifact_filters
--
-found_artifact_filters
-            
-if
-missing_artifacts
-:
-                
 raise
 ValueError
 (
-                    
-f
-"
-Did
-not
-find
-expected
-artifacts
-{
-sorted
-(
-missing_artifacts
-)
-}
-.
-Did
-find
-artifacts
-:
-{
-sorted
-(
-found_artifact_filters
-)
-}
-"
                 
+f
+'
+Expected
+Maven
+zip
+archive
+matching
+"
+{
+self
+.
+_maven_zip_re
+}
+"
+but
+'
+                
+"
+found
+none
+!
+"
+            
 )
     
 contextmanager
@@ -9056,9 +9063,9 @@ download_symbols
 =
 False
         
-artifact_filters
+download_maven_zip
 =
-None
+False
         
 no_process
 =
@@ -9074,13 +9081,6 @@ None
     
 )
 :
-        
-artifact_filters
-=
-artifact_filters
-or
-[
-]
         
 if
 (
@@ -9325,9 +9325,9 @@ download_symbols
 =
 download_symbols
                     
-artifact_filters
+download_maven_zip
 =
-artifact_filters
+download_maven_zip
                     
 override_job_configuration
 =
@@ -9412,10 +9412,9 @@ download_symbols
 =
 False
                 
-artifact_filters
+download_maven_zip
 =
-[
-]
+False
                 
 override_job_configuration
 =

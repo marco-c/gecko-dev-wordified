@@ -336,20 +336,8 @@ process
 "
 -
 -
-artifact
--
-filter
-"
-        
-"
-public
-/
-build
-/
-target
-.
 maven
-.
+-
 zip
 "
     

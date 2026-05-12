@@ -553,9 +553,9 @@ download_symbols
 =
 False
     
-artifact_filters
+download_maven_zip
 =
-None
+False
     
 no_process
 =
@@ -566,13 +566,6 @@ unfiltered_project_package
 False
 )
 :
-    
-artifact_filters
-=
-artifact_filters
-or
-[
-]
     
 state_dir
 =
@@ -712,7 +705,7 @@ topsrcdir
 )
     
 if
-artifact_filters
+download_maven_zip
 :
         
 if
@@ -725,9 +718,9 @@ ValueError
 "
 -
 -
-artifact
+maven
 -
-filter
+zip
 requires
 -
 -
@@ -747,9 +740,9 @@ ValueError
 "
 -
 -
-artifact
+maven
 -
-filter
+zip
 requires
 no
 -
@@ -769,9 +762,9 @@ ValueError
 "
 -
 -
-artifact
+maven
 -
-filter
+zip
 requires
 -
 -
@@ -843,9 +836,9 @@ download_symbols
 =
 download_symbols
         
-artifact_filters
+download_maven_zip
 =
-artifact_filters
+download_maven_zip
         
 no_process
 =
@@ -1144,57 +1137,26 @@ CommandArgument
 "
 -
 -
-artifact
+maven
 -
-filter
+zip
 "
-    
-dest
-=
-"
-artifact_filters
-"
-    
-default
-=
-None
-    
 action
 =
 "
-append
+store_true
 "
-    
 help
 =
 "
-Filter
-artifacts
-by
-full
-path
-(
-e
-.
-g
-.
-'
-public
-/
-build
-/
-target
-.
-maven
-.
+Download
+Maven
 zip
-'
+(
+Android
+-
+only
 )
-.
-Can
-specify
-multiple
-times
 .
 "
 )
@@ -1244,18 +1206,11 @@ unfiltered_project_package
 =
 False
     
-artifact_filters
+maven_zip
 =
-None
+False
 )
 :
-    
-artifact_filters
-=
-artifact_filters
-or
-[
-]
     
 command_context
 .
@@ -1292,9 +1247,9 @@ download_symbols
 =
 symbols
         
-artifact_filters
+download_maven_zip
 =
-artifact_filters
+maven_zip
         
 no_process
 =
