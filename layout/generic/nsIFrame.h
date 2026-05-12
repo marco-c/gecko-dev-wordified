@@ -19352,6 +19352,11 @@ MarkSubtreeDirty
 (
 )
 ;
+void
+MarkPrincipalChildrenDirty
+(
+)
+;
 /
 *
 *
