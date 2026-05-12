@@ -2545,6 +2545,17 @@ JSScript
 script
 )
 ;
+bool
+CanBaselineCompileScript
+(
+JSContext
+*
+cx
+JSScript
+*
+script
+)
+;
 /
 /
 Called
