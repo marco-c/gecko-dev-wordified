@@ -753,17 +753,31 @@ MOZ_DISABLE_NONLOCAL_CONNECTIONS
 )
     
 #
-Set
+Only
+enable
+verbose
 WebRTC
 logging
 in
-case
-it
-is
-not
-set
-yet
+CI
+where
+logs
+are
+uploaded
+as
+artifacts
+.
     
+if
+"
+MOZ_UPLOAD_DIR
+"
+in
+os
+.
+environ
+:
+        
 env
 .
 setdefault
@@ -786,7 +800,7 @@ jsep
 4
 "
 )
-    
+        
 env
 .
 setdefault
@@ -798,7 +812,7 @@ R_LOG_LEVEL
 6
 "
 )
-    
+        
 env
 .
 setdefault
@@ -810,7 +824,7 @@ R_LOG_DESTINATION
 stderr
 "
 )
-    
+        
 env
 .
 setdefault
