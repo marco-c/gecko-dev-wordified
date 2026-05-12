@@ -677,7 +677,7 @@ nullptr
 ;
 }
 ;
-MOZ_RUNINIT
+constinit
 static
 nsTHashMap
 <
@@ -3215,11 +3215,6 @@ out
 >
 Append
 (
-(
-const
-char
-*
-)
 mEgl
 -
 >
@@ -3253,11 +3248,6 @@ out
 >
 Append
 (
-(
-const
-char
-*
-)
 mEgl
 -
 >
@@ -3291,11 +3281,6 @@ out
 >
 Append
 (
-(
-const
-char
-*
-)
 mEgl
 -
 >
@@ -3345,11 +3330,6 @@ out
 >
 Append
 (
-(
-const
-char
-*
-)
 mEgl
 -
 >

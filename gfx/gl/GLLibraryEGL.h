@@ -1729,7 +1729,7 @@ target
 public
 :
 const
-GLubyte
+char
 *
 fQueryString
 (
@@ -2958,7 +2958,7 @@ target
 )
 ;
 const
-GLubyte
+char
 *
 (
 GLAPIENTRY

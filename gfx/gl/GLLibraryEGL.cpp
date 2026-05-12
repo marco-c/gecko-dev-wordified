@@ -4624,11 +4624,6 @@ ShouldDumpExts
 auto
 rawExtString
 =
-(
-const
-char
-*
-)
 mLib
 -
 >
@@ -4711,11 +4706,6 @@ const
 auto
 vendor
 =
-(
-const
-char
-*
-)
 mLib
 -
 >
@@ -5739,11 +5729,6 @@ crash
 .
 rawExtString
 =
-(
-const
-char
-*
-)
 fQueryString
 (
 nullptr
