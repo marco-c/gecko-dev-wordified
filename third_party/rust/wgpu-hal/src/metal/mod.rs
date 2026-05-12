@@ -1970,6 +1970,12 @@ ExposedAdapter
 Api
 >
 {
+autoreleasepool
+(
+|
+_
+|
+{
 let
 name
 =
@@ -2146,6 +2152,8 @@ shared
 )
 )
 }
+}
+)
 }
 }
 pub
