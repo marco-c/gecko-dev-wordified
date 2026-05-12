@@ -7754,10 +7754,6 @@ novaTranslate
 const
 novaMode
 =
-!
-expandOnHoverEnabled
-&
-&
 Services
 .
 prefs
@@ -15575,7 +15571,7 @@ _getRects
 [
 this
 .
-sidebarMain
+sidebarContainer
 ]
 )
 [
