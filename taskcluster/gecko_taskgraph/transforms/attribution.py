@@ -263,10 +263,6 @@ repackage_type
 "
             
 "
-required_signoffs
-"
-            
-"
 shippable
 "
             
