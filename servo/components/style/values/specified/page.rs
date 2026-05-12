@@ -75,6 +75,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -129,7 +138,10 @@ use
 cssparser
 :
 :
+{
+match_ignore_ascii_case
 Parser
+}
 ;
 use
 style_traits
