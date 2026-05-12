@@ -282,6 +282,14 @@ browser
 "
 )
 ;
+await
+SimpleTest
+.
+promiseFocus
+(
+browser
+)
+;
 info
 (
 "
