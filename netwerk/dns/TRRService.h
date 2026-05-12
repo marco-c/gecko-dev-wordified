@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DataMutex
 .
 h
@@ -2438,7 +2447,11 @@ mConfirmation
 ConfirmationWrapper
 mConfirmation
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mParentalControlEnabled
 {
 false
