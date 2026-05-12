@@ -690,7 +690,7 @@ aScrolledRect
 Returns
 an
 |
-nsAutoString
+nsAutoCString
 |
 representation
 of
@@ -702,7 +702,7 @@ ScrollSnapInfo
 SnapTarget
 |
 static
-nsAutoString
+nsAutoCString
 StringifySnapTarget
 (
 const
@@ -719,7 +719,7 @@ aSnapTarget
 Returns
 an
 |
-nsAutoString
+nsAutoCString
 |
 representation
 of
@@ -745,7 +745,7 @@ typename
 T
 >
 static
-nsAutoString
+nsAutoCString
 StringifySnapTargetList
 (
 const
@@ -757,7 +757,7 @@ T
 aSnapTargets
 )
 {
-nsAutoString
+nsAutoCString
 string
 ;
 string
