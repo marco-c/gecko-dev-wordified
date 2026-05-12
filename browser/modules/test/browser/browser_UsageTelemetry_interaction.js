@@ -113,6 +113,9 @@ preferencesPaneAppearance
 "
 preferencesPanePermissionsData
 "
+"
+preferencesPaneTabsBrowsing
+"
 ]
 ;
 function
