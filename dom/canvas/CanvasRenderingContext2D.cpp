@@ -14763,8 +14763,6 @@ Save
 {
 if
 (
-MOZ_UNLIKELY
-(
 HasErrorState
 (
 )
@@ -14776,7 +14774,11 @@ IsEmpty
 (
 )
 )
-)
+[
+[
+unlikely
+]
+]
 {
 SetErrorState
 (
@@ -14877,8 +14879,6 @@ Restore
 {
 if
 (
-MOZ_UNLIKELY
-(
 mStyleStack
 .
 Length
@@ -14892,7 +14892,11 @@ HasErrorState
 (
 )
 )
-)
+[
+[
+unlikely
+]
+]
 {
 return
 ;
@@ -20102,8 +20106,6 @@ Frames
 }
 if
 (
-MOZ_UNLIKELY
-(
 presShell
 -
 >
@@ -20111,7 +20113,11 @@ IsDestroying
 (
 )
 )
-)
+[
+[
+unlikely
+]
+]
 {
 return
 ;

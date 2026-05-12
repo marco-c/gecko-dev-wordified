@@ -30409,12 +30409,14 @@ allowed
 }
 if
 (
-MOZ_UNLIKELY
-(
 !
 funcMatchesLocation
 )
-)
+[
+[
+unlikely
+]
+]
 {
 std
 :

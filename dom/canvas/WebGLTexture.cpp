@@ -1110,8 +1110,6 @@ false
 }
 if
 (
-MOZ_UNLIKELY
-(
 ensureInit
 &
 &
@@ -1119,7 +1117,11 @@ cur
 .
 mUninitializedSlices
 )
-)
+[
+[
+unlikely
+]
+]
 {
 auto
 imageTarget
