@@ -302,6 +302,7 @@ angle
 {
 AllowUnitlessZeroAngle
 Angle
+NoCalcAngle
 }
 ;
 pub

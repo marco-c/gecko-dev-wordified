@@ -75,6 +75,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -1613,7 +1622,6 @@ property
 derive
 (
 Clone
-Copy
 Debug
 MallocSizeOf
 PartialEq
@@ -1621,6 +1629,13 @@ SpecifiedValueInfo
 ToCss
 ToShmem
 ToTyped
+)
+]
+#
+[
+typed
+(
+todo_derive_fields
 )
 ]
 pub
