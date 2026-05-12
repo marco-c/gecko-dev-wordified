@@ -592,7 +592,10 @@ sWindowReporter
 ;
 RegisterStrongMemoryReporter
 (
+do_AddRef
+(
 sWindowReporter
+)
 )
 ;
 RegisterNonJSSizeOfTab

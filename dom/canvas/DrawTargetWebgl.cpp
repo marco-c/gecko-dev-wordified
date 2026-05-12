@@ -586,8 +586,12 @@ true
 ;
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 AcceleratedCanvas2DMemoryReporter
+>
+(
+)
 )
 ;
 }

@@ -513,8 +513,10 @@ false
 }
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 HyphenReporter
+>
 (
 )
 )

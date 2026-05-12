@@ -887,8 +887,10 @@ NS_ERROR_OUT_OF_MEMORY
 }
 RegisterStrongMemoryReporter
 (
-new
+MakeAndAddRef
+<
 MemoryReporter
+>
 (
 )
 )
