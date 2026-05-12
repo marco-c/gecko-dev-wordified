@@ -1394,7 +1394,7 @@ f
 "
 IO
 error
-occured
+occurred
 :
 {
 e
@@ -1414,7 +1414,7 @@ f
 "
 Parse
 error
-occured
+occurred
 :
 {
 e
