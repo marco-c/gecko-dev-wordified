@@ -557,7 +557,7 @@ bool
 requestBodyHasHeaders
 uint64_t
 browserId
-uint8_t
+HttpTrafficCategory
 httpTrafficCategory
 uint64_t
 requestContextID
@@ -736,13 +736,7 @@ bug
 .
 this
 browserId
-static_cast
-<
-HttpTrafficCategory
->
-(
 httpTrafficCategory
-)
 rc
 classOfService
 initialRwin
@@ -1043,7 +1037,7 @@ uint64_t
 &
 aTopLevelOuterContentWindowId
 const
-uint8_t
+HttpTrafficCategory
 &
 aHttpTrafficCategory
 const

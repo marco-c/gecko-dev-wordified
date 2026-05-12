@@ -1328,13 +1328,7 @@ ipcStream
 requestContentLength
 requestBodyHasHeaders
 browserId
-static_cast
-<
-uint8_t
->
-(
 trafficCategory
-)
 requestContextID
 classOfService
 initialRwin
