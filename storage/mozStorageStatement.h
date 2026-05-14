@@ -589,7 +589,7 @@ calling
 ?
 *
 /
-nsresult
+void
 internalFinalize
 (
 bool
