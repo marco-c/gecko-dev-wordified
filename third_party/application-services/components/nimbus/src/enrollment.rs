@@ -4925,9 +4925,6 @@ crate
 )
 fn
 evolve_enrollments
-<
-E
->
 (
 &
 mut
@@ -4939,7 +4936,7 @@ prev_experiments
 :
 &
 [
-E
+Experiment
 ]
 next_experiments
 :
@@ -4987,12 +4984,6 @@ EnrollmentChangeEvent
 >
 )
 >
-where
-E
-:
-ExperimentMetadata
-+
-Clone
 {
 let
 mut
@@ -5393,9 +5384,6 @@ crate
 )
 fn
 evolve_enrollment_recipes
-<
-E
->
 (
 &
 mut
@@ -5407,7 +5395,7 @@ prev_experiments
 :
 &
 [
-E
+Experiment
 ]
 next_experiments
 :
@@ -5455,12 +5443,6 @@ EnrollmentChangeEvent
 >
 )
 >
-where
-E
-:
-ExperimentMetadata
-+
-Clone
 {
 let
 mut
@@ -7021,9 +7003,6 @@ crate
 )
 fn
 evolve_enrollment
-<
-E
->
 (
 &
 mut
@@ -7036,7 +7015,7 @@ prev_experiment
 Option
 <
 &
-E
+Experiment
 >
 next_experiment
 :
@@ -7104,12 +7083,6 @@ Option
 ExperimentEnrollment
 >
 >
-where
-E
-:
-ExperimentMetadata
-+
-Clone
 {
 let
 is_already_enrolled

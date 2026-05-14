@@ -896,6 +896,9 @@ scope
 "
 )
 ;
+let
+tok
+=
 account
 .
 get_access_token
@@ -911,6 +914,12 @@ println
 (
 "
 Success
+:
+{
+tok
+:
+?
+}
 "
 )
 ;

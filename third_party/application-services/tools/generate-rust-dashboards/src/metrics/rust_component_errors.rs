@@ -642,7 +642,7 @@ RenameByRegex
 regex
 :
 "
-errors
+error_count
 (
 .
 *
