@@ -110,19 +110,6 @@ include
 "
 jit
 /
-arm
-/
-Simulator
--
-arm
-.
-h
-"
-#
-include
-"
-jit
-/
 AtomicOp
 .
 h
@@ -24738,6 +24725,7 @@ asMasm
 sp
 r0
 r1
+r2
 )
 ;
 }
