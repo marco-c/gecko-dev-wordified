@@ -254,6 +254,9 @@ StylePositionTryFallbacksItem
 struct
 StyleRuleChange
 ;
+struct
+StyleCascadeLevel
+;
 class
 ErrorResult
 ;
@@ -1664,6 +1667,8 @@ ComputedStyle
 >
 ResolvePositionTry
 (
+StyleCascadeLevel
+aScope
 dom
 :
 :

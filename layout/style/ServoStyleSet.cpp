@@ -2261,13 +2261,6 @@ ResolveScheduledPresAttrs
 (
 )
 ;
-mDocument
--
->
-CacheAllKnownLangPrefs
-(
-)
-;
 if
 (
 gfxUserFontSet
@@ -3826,6 +3819,8 @@ ServoStyleSet
 :
 ResolvePositionTry
 (
+StyleCascadeLevel
+aScope
 dom
 :
 :
@@ -3852,6 +3847,7 @@ get
 )
 &
 aStyle
+aScope
 &
 aElement
 &

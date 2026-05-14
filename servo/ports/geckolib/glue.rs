@@ -825,6 +825,7 @@ rule_tree
 :
 :
 {
+CascadeLevel
 RuleCascadeFlags
 StrongRuleNode
 }
@@ -26306,6 +26307,9 @@ style
 :
 &
 ComputedValues
+scope
+:
+CascadeLevel
 element
 :
 &
@@ -26378,6 +26382,7 @@ resolve_position_try
 style
 &
 guards
+scope
 element
 fallback_item
 )

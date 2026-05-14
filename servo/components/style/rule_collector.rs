@@ -824,7 +824,7 @@ rule_hash_target
 =
 element
 .
-rule_hash_target
+ultimate_originating_element
 (
 )
 ;
