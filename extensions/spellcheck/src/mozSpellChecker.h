@@ -1106,6 +1106,8 @@ mSpellCheckingEngine
 ;
 bool
 mFromStart
+=
+false
 ;
 nsTArray
 <

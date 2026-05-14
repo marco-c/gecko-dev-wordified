@@ -989,6 +989,8 @@ mCurrentSelectionAnchorNode
 ;
 uint32_t
 mCurrentSelectionOffset
+=
+0
 ;
 /
 /
