@@ -4137,7 +4137,7 @@ ipProtection
 .
 enabled
 "
-false
+true
 )
 ;
 pref
