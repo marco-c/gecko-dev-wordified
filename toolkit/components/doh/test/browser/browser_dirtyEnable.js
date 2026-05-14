@@ -211,6 +211,7 @@ preserved
 "
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -221,6 +222,7 @@ ensureNoTRRModeChange
 undefined
 )
 ;
+await
 ensureNoHeuristicsTelemetry
 (
 )
@@ -242,6 +244,7 @@ ensureNoTRRModeChange
 undefined
 )
 ;
+await
 ensureNoHeuristicsTelemetry
 (
 )
@@ -287,10 +290,12 @@ ensureNoTRRModeChange
 undefined
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
 ;
+await
 ensureNoHeuristicsTelemetry
 (
 )
@@ -354,6 +359,7 @@ preserved
 "
 )
 ;
+await
 ensureNoHeuristicsTelemetry
 (
 )

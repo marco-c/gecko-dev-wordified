@@ -388,6 +388,7 @@ restartDoHController
 (
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -528,6 +529,7 @@ restartDoHController
 (
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )

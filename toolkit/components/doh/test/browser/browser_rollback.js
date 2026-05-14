@@ -417,6 +417,7 @@ ensureTRRMode
 undefined
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -465,6 +466,7 @@ ensureTRRMode
 2
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -562,6 +564,7 @@ ensureTRRMode
 undefined
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -610,6 +613,7 @@ ensureTRRMode
 0
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -710,6 +714,7 @@ ensureTRRMode
 undefined
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -758,6 +763,7 @@ ensureTRRMode
 2
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
@@ -855,6 +861,7 @@ ensureTRRMode
 undefined
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )

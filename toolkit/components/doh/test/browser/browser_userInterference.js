@@ -336,6 +336,7 @@ ensureNoTRRModeChange
 undefined
 )
 ;
+await
 ensureNoHeuristicsTelemetry
 (
 )
@@ -398,6 +399,7 @@ ensureNoTRRModeChange
 undefined
 )
 ;
+await
 ensureNoHeuristicsTelemetry
 (
 )
@@ -422,10 +424,12 @@ ensureNoTRRModeChange
 undefined
 )
 ;
+await
 ensureNoTRRSelectionTelemetry
 (
 )
 ;
+await
 ensureNoHeuristicsTelemetry
 (
 )
@@ -447,6 +451,7 @@ ensureNoTRRModeChange
 undefined
 )
 ;
+await
 ensureNoHeuristicsTelemetry
 (
 )
