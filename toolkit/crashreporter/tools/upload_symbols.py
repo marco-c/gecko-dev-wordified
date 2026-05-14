@@ -2512,6 +2512,7 @@ _
 in
 enumerate
 (
+        
 redo
 .
 retrier
@@ -2519,10 +2520,17 @@ retrier
 attempts
 =
 MAX_RETRIES
+sleeptime
+=
+60
+sleepscale
+=
+1
 )
 start
 =
 1
+    
 )
 :
         
@@ -2658,37 +2666,12 @@ take
 a
 while
 .
-The
-load
-balancer
-                
-#
-in
-front
-of
-symbols
-.
-mozilla
-.
-org
-has
-a
-300
-second
-timeout
-so
-we
-'
-ll
-use
-that
-.
                 
 timeout
 =
 (
-300
-300
+10
+600
 )
                 
 *
