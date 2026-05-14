@@ -6706,7 +6706,7 @@ JSProto_Proxy
 |
 JSCLASS_HAS_RESERVED_SLOTS
 (
-2
+SwappableProxyReservedSlots
 )
 &
 ProxyClassSpec
