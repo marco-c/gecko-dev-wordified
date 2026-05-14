@@ -272,8 +272,7 @@ BUG_COMPONENT
 Taskcluster
 '
 '
-Platform
-Libraries
+General
 '
 )
 with
@@ -449,8 +448,7 @@ BUG_COMPONENT
 Taskcluster
 '
 '
-Platform
-Libraries
+General
 '
 )
 with
@@ -471,8 +469,7 @@ BUG_COMPONENT
 Taskcluster
 '
 '
-Platform
-Libraries
+General
 '
 )
 with
