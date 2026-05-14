@@ -147,6 +147,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+breach_alerts
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 }
 /
 /
