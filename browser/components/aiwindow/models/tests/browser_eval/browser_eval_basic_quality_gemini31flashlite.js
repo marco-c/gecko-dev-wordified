@@ -57,9 +57,9 @@ Eval
 -
 gemini
 -
-2
+3
 .
-5
+1
 -
 flash
 -
@@ -77,9 +77,9 @@ MLPA
 via
 gemini
 -
-2
+3
 .
-5
+1
 -
 flash
 -
@@ -185,7 +185,7 @@ add_task
 (
 async
 function
-test_chat_basic_quality_gemini25flashlite
+test_chat_basic_quality_gemini31flashlite
 (
 )
 {
@@ -195,9 +195,9 @@ runChatEvalForModel
 "
 gemini
 -
-2
+3
 .
-5
+1
 -
 flash
 -
