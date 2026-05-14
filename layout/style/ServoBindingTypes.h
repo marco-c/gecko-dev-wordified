@@ -827,6 +827,9 @@ Document
 class
 Element
 ;
+class
+ShadowRoot
+;
 }
 /
 /

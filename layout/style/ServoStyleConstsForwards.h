@@ -1061,6 +1061,14 @@ dom
 Element
 ;
 using
+StyleRawShadowRoot
+=
+dom
+:
+:
+ShadowRoot
+;
+using
 StyleDocument
 =
 dom
