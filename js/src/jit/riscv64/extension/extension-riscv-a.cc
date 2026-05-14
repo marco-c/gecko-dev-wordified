@@ -445,9 +445,6 @@ addition
 to
 RV32A
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 void
 AssemblerRISCVA
 :
@@ -776,8 +773,6 @@ rs2
 )
 ;
 }
-#
-endif
 }
 /
 /

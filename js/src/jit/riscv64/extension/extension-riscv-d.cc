@@ -767,9 +767,6 @@ ToRegister
 )
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 /
 /
 RV64D
@@ -933,8 +930,6 @@ zero_reg
 )
 ;
 }
-#
-endif
 }
 /
 /
