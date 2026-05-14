@@ -1199,7 +1199,7 @@ if
 mRequest
 -
 >
-IsSerializedStencil
+IsRetrievedAsSerializedStencil
 (
 )
 &
@@ -1227,7 +1227,7 @@ if
 mRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
@@ -1449,7 +1449,7 @@ MOZ_ASSERT
 mRequest
 -
 >
-IsSerializedStencil
+IsRetrievedAsSerializedStencil
 (
 )
 )
@@ -3317,7 +3317,7 @@ if
 mRequest
 -
 >
-IsSerializedStencil
+IsRetrievedAsSerializedStencil
 (
 )
 &
@@ -3364,7 +3364,7 @@ if
 mRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
@@ -3541,7 +3541,7 @@ MOZ_ASSERT
 mRequest
 -
 >
-IsSerializedStencil
+IsRetrievedAsSerializedStencil
 (
 )
 )

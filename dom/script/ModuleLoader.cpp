@@ -2420,7 +2420,7 @@ if
 aRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
@@ -2497,7 +2497,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsSerializedStencil
+IsRetrievedAsSerializedStencil
 (
 )
 )
@@ -2728,7 +2728,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
@@ -3337,7 +3337,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
@@ -3659,7 +3659,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )

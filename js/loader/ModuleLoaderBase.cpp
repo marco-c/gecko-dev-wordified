@@ -11721,7 +11721,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-IsTextSource
+IsFetchedAsTextSource
 (
 )
 )
