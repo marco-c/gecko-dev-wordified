@@ -319,7 +319,7 @@ shadowRoot
 querySelector
 (
 "
-h3
+h2
 "
 )
 ;
