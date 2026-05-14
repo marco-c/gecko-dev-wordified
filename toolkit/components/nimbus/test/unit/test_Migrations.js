@@ -7781,6 +7781,9 @@ true
 isFirefoxLabsOptIn
 :
 true
+isRollout
+:
+true
 firefoxLabsTitle
 :
 "
