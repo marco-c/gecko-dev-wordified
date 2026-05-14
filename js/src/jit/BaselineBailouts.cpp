@@ -4401,7 +4401,7 @@ read
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 maybeArgsObj
 .
@@ -6490,7 +6490,7 @@ isObject
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 returnVal
