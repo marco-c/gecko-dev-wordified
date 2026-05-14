@@ -244,7 +244,7 @@ prompt
 role
 :
 '
-system
+user
 '
 content
 :
