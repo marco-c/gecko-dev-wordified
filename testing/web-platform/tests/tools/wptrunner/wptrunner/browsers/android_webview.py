@@ -48,7 +48,7 @@ executors
 .
 base
 import
-WdspecExecutor
+PytestExecutor
 #
 noqa
 :
@@ -156,7 +156,7 @@ wdspec
 "
 :
 "
-WdspecExecutor
+PytestExecutor
 "
                               
 "
@@ -165,6 +165,14 @@ crashtest
 :
 "
 WebDriverCrashtestExecutor
+"
+                              
+"
+test262
+"
+:
+"
+ChromeDriverTestharnessExecutor
 "
 }
                  

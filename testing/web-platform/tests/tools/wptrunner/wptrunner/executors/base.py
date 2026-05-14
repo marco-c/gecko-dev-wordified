@@ -68,7 +68,7 @@ from
 protocol
 import
 Protocol
-WdspecProtocol
+PytestProtocol
 merge_dicts
 here
 =
@@ -252,11 +252,15 @@ reftest_screenshot
     
 if
 test_type
-=
-=
+in
+(
 "
 wdspec
 "
+"
+aamtest
+"
+)
 :
         
 executor_kwargs
@@ -5190,7 +5194,7 @@ return
 success
 data
 class
-WdspecExecutor
+PytestExecutor
 (
 TestExecutor
 )
@@ -5210,7 +5214,7 @@ Protocol
 ]
 ]
 =
-WdspecProtocol
+PytestProtocol
     
 def
 __init__
@@ -5583,11 +5587,11 @@ extra_timeout
 success
 data
 =
-WdspecRun
+PytestRun
 (
 self
 .
-do_wdspec
+do_pytest
                                   
 test
 .
@@ -5627,7 +5631,7 @@ data
 )
     
 def
-do_wdspec
+do_pytest
 (
 self
 path
@@ -5774,7 +5778,7 @@ timeout
 timeout
 )
 class
-WdspecRun
+PytestRun
 :
     
 def

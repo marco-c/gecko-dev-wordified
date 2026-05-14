@@ -58,7 +58,7 @@ TestharnessExecutor
                    
 TimedRunner
                    
-WdspecExecutor
+PytestExecutor
                    
 get_pages
                    
@@ -10360,9 +10360,9 @@ split
 return
 screenshots
 class
-MarionetteWdspecExecutor
+MarionettePytestExecutor
 (
-WdspecExecutor
+PytestExecutor
 )
 :
     

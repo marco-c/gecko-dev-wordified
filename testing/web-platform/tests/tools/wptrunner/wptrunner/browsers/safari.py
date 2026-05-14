@@ -54,7 +54,7 @@ executors
 .
 base
 import
-WdspecExecutor
+PytestExecutor
 #
 noqa
 :
@@ -138,7 +138,7 @@ wdspec
 "
 :
 "
-WdspecExecutor
+PytestExecutor
 "
                               
 "

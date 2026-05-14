@@ -56,7 +56,7 @@ noqa
 :
 F401
                                             
-MarionetteWdspecExecutor
+MarionettePytestExecutor
 )
 #
 noqa
@@ -102,7 +102,7 @@ noqa
 :
 F401
                       
-FirefoxWdSpecBrowser
+FirefoxPytestBrowser
                       
 ProfileCreator
 as
@@ -181,7 +181,15 @@ wdspec
 "
 :
 "
-MarionetteWdspecExecutor
+MarionettePytestExecutor
+"
+                              
+"
+test262
+"
+:
+"
+MarionetteTestharnessExecutor
 "
 }
                  
@@ -2929,7 +2937,7 @@ False
 class
 FirefoxAndroidWdSpecBrowser
 (
-FirefoxWdSpecBrowser
+FirefoxPytestBrowser
 )
 :
     

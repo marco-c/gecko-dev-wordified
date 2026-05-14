@@ -40,7 +40,7 @@ executors
 .
 base
 import
-WdspecExecutor
+PytestExecutor
 #
 noqa
 :
@@ -118,7 +118,15 @@ wdspec
 "
 :
 "
-WdspecExecutor
+PytestExecutor
+"
+                              
+"
+test262
+"
+:
+"
+SeleniumTestharnessExecutor
 "
 }
                  
