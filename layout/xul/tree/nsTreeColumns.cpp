@@ -1497,9 +1497,10 @@ InvalidateColumns
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
+NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 nsTreeColumns
+mFirstColumn
 )
 /
 /
