@@ -12587,12 +12587,11 @@ return
 nullptr
 ;
 }
-JS
-:
-:
-SetReservedSlot
-(
 obj
+-
+>
+setReservedSlot
+(
 FRAME_SLOT
 ObjectValue
 (

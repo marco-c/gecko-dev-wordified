@@ -270,7 +270,7 @@ parseNode
 obj
 -
 >
-initSlot
+initReservedSlot
 (
 ParseNodeSlot
 StringValue
@@ -283,7 +283,7 @@ parseNode
 obj
 -
 >
-initSlot
+initReservedSlot
 (
 ValueSlot
 val
@@ -315,7 +315,7 @@ Value
 slot
 (
 cx
-getSlot
+getReservedSlot
 (
 KeySlot
 )
@@ -392,7 +392,7 @@ return
 false
 ;
 }
-setSlot
+setReservedSlot
 (
 KeySlot
 val
