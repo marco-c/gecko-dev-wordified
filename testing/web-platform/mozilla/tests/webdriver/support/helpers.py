@@ -686,17 +686,27 @@ d
 def
 __init__
 (
+        
 self
+        
 configuration
+        
 hostname
 =
 None
+        
 extra_args
 =
 None
+        
 extra_env
 =
 None
+        
+popen_kwargs
+=
+None
+    
 )
 :
         
@@ -765,6 +775,15 @@ self
 extra_env
 =
 extra_env
+or
+{
+}
+        
+self
+.
+popen_kwargs
+=
+popen_kwargs
 or
 {
 }
@@ -947,6 +966,7 @@ subprocess
 .
 Popen
 (
+            
 self
 .
 command
@@ -958,6 +978,12 @@ stdout
 subprocess
 .
 PIPE
+*
+*
+self
+.
+popen_kwargs
+        
 )
         
 self
