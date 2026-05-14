@@ -605,7 +605,8 @@ paneInitialized
 let
 preferredLanguage
 =
-getSettingControl
+await
+settingControlRenders
 (
 "
 browserLanguagePreferred
