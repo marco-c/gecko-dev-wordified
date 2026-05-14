@@ -6,7 +6,6 @@ global
 =
 window
 dedicatedworker
-shadowrealm
 test
 (
 function

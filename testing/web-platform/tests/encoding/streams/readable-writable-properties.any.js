@@ -6,7 +6,6 @@ global
 =
 window
 worker
-shadowrealm
 /
 /
 This

@@ -7,7 +7,6 @@ global
 window
 dedicatedworker
 jsshell
-shadowrealm
 promise_test
 (
 async

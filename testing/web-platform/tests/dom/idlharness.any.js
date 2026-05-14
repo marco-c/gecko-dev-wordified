@@ -5,11 +5,6 @@ META
 global
 =
 worker
-shadowrealm
--
-in
--
-window
 /
 /
 META

@@ -6,7 +6,6 @@ global
 =
 window
 dedicatedworker
-shadowrealm
 '
 use
 strict

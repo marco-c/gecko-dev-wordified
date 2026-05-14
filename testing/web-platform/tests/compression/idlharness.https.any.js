@@ -30,11 +30,6 @@ global
 =
 window
 dedicatedworker
-shadowrealm
--
-in
--
-window
 '
 use
 strict

@@ -6,11 +6,6 @@ global
 =
 window
 worker
-shadowrealm
--
-in
--
-window
 /
 /
 META

@@ -7,7 +7,6 @@ global
 window
 worker
 jsshell
-shadowrealm
 /
 /
 META
@@ -39,7 +38,7 @@ fn
 (
 )
 ;
-assert_not_reached
+assert_unreached
 (
 expected
 to
