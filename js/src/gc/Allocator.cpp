@@ -2925,7 +2925,6 @@ arena
 init
 (
 gc
-zone_
 thingKind
 )
 ;
