@@ -3678,7 +3678,7 @@ new
 specified
 :
 :
-CalcNumeric
+CalcLengthPercentage
 :
 :
 from_computed_value
@@ -7209,7 +7209,7 @@ impl
 specified
 :
 :
-CalcNumeric
+CalcLengthPercentage
 {
 /
 /
@@ -7281,6 +7281,8 @@ let
 node
 =
 self
+.
+0
 .
 node
 .
@@ -7442,6 +7444,8 @@ new_calc
 node
 self
 .
+0
+.
 clamping_mode
 )
 }
@@ -7595,6 +7599,8 @@ to
 match
 self
 .
+0
+.
 node
 {
 calc
@@ -7716,6 +7722,8 @@ Leaf
 ;
 match
 self
+.
+0
 .
 node
 {
@@ -7864,6 +7872,11 @@ NoCalcLength
 specified
 :
 :
+CalcLengthPercentage
+(
+specified
+:
+:
 CalcNumeric
 {
 clamping_mode
@@ -7967,6 +7980,7 @@ n
 }
 )
 }
+)
 }
 }
 /
