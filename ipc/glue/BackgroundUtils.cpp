@@ -5264,6 +5264,11 @@ loadInfoArgs
 contentPolicyType
 (
 )
+loadInfoArgs
+.
+serviceWorkerTaintingSynthesized
+(
+)
 static_cast
 <
 LoadTainting
