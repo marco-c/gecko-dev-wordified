@@ -679,6 +679,11 @@ deactivated
 ;
 IMPL_EVENT_HANDLER
 (
+audiblechange
+)
+;
+IMPL_EVENT_HANDLER
+(
 metadatachange
 )
 ;

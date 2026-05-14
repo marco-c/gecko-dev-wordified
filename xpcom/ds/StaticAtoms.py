@@ -26497,6 +26497,16 @@ onactivated
 Atom
 (
 "
+onaudiblechange
+"
+"
+onaudiblechange
+"
+)
+    
+Atom
+(
+"
 ondeactivated
 "
 "
