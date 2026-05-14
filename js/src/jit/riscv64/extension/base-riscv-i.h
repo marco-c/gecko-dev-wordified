@@ -1063,17 +1063,6 @@ instr
 )
 ;
 #
-elif
-JS_CODEGEN_RISCV32
-MOZ_ASSERT
-(
-IsLw
-(
-instr
-)
-)
-;
-#
 endif
 MOZ_ASSERT
 (
