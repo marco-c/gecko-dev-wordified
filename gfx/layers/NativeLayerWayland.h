@@ -561,10 +561,12 @@ aFormat
 )
 ;
 void
-FrameCallbackHandler
+VSyncCallbackHandler
 (
 uint32_t
 aTime
+bool
+aEmulated
 )
 ;
 RefPtr
