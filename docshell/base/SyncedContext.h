@@ -2275,9 +2275,7 @@ Size
 >
 \
 struct
-MOZ_EMPTY_BASES
 Fields
-\
 :
 eachfield
 (

@@ -2238,7 +2238,6 @@ js
 *
 /
 class
-MOZ_EMPTY_BASES
 JSInfallibleAllocPolicy
 :
 public
