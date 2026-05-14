@@ -66,6 +66,13 @@ nsJARURI_h_
 #
 include
 "
+nsIIPCSerializableURI
+.
+h
+"
+#
+include
+"
 nsIJARURI
 .
 h
@@ -102,6 +109,13 @@ h
 include
 "
 nsIURIMutator
+.
+h
+"
+#
+include
+"
+nsIURIWithSizeOf
 .
 h
 "
@@ -223,6 +237,10 @@ public
 nsISerializable
 public
 nsINestedURI
+public
+nsIIPCSerializableURI
+public
+nsIURIWithSizeOf
 {
 public
 :
@@ -232,6 +250,8 @@ NS_DECL_NSIURL
 NS_DECL_NSIJARURI
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSINESTEDURI
+NS_DECL_NSIIPCSERIALIZABLEURI
+NS_DECL_NSIURIWITHSIZEOF
 NS_INLINE_DECL_STATIC_IID
 (
 NS_THIS_JARURI_IMPL_CID

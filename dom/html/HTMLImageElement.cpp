@@ -241,6 +241,13 @@ h
 #
 include
 "
+nsIURIWithSizeOf
+.
+h
+"
+#
+include
+"
 nsImageFrame
 .
 h
@@ -7893,7 +7900,7 @@ own
 URI
 will
 call
-nsIURI
+nsIURIWithSizeOf
 :
 :
 SizeOfIncludingThis
@@ -7909,11 +7916,9 @@ mSrcURI
 aNodeSize
 +
 =
-mSrcURI
--
->
-SizeOfIncludingThis
+SizeOfIncludingThisIfURIWithSizeOf
 (
+mSrcURI
 aSizes
 .
 mState

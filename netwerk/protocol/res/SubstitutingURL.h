@@ -290,10 +290,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD_
-(
+virtual
 void
-)
 Serialize
 (
 ipc

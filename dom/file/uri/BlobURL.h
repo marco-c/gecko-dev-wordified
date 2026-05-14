@@ -240,10 +240,8 @@ aResult
 )
 override
 ;
-NS_IMETHOD_
-(
+virtual
 void
-)
 Serialize
 (
 mozilla
