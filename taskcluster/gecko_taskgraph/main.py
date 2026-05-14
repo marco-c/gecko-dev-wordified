@@ -4496,6 +4496,7 @@ def
 decision
 (
 options
+parameters
 )
 :
     
@@ -4509,6 +4510,7 @@ taskgraph_decision
 taskgraph_decision
 (
 options
+parameters
 )
 command
 (
