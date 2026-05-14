@@ -565,6 +565,9 @@ as
 ECALL
 use
 imm12
+#
+if
+JS_CODEGEN_RISCV64
 /
 /
 RV64I
@@ -752,6 +755,8 @@ kFunct3Shift
 <
 kFunct7Shift
 )
+#
+endif
 }
 ;
 }

@@ -96,7 +96,11 @@ include
 "
 jit
 /
-RegisterSets
+mips64
+/
+Simulator
+-
+mips64
 .
 h
 "
@@ -105,7 +109,7 @@ include
 "
 jit
 /
-Simulator
+RegisterSets
 .
 h
 "

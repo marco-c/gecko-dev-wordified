@@ -287,6 +287,9 @@ SUCH
 DAMAGE
 .
 #
+ifdef
+JS_SIMULATOR_ARM64
+#
 include
 <
 cmath
@@ -27995,3 +27998,8 @@ dst
 /
 namespace
 vixl
+#
+endif
+/
+/
+JS_SIMULATOR_ARM64
