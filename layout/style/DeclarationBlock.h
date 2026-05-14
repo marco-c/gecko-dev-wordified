@@ -162,7 +162,6 @@ DeclarationBlock
 (
 already_AddRefed
 <
-const
 StyleLockedDeclarationBlock
 >
 aRaw
@@ -598,7 +597,6 @@ aRuleType
 )
 ;
 }
-const
 StyleLockedDeclarationBlock
 *
 Raw
@@ -885,7 +883,6 @@ nullptr
 ;
 RefPtr
 <
-const
 StyleLockedDeclarationBlock
 >
 mRaw

@@ -4582,7 +4582,7 @@ avoid
 compile
 errors
 .
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 nsComputedDOMStyle
 :
@@ -4591,7 +4591,7 @@ GetOrCreateCSSDeclaration
 (
 Operation
 aOperation
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 *
 aCreated
@@ -4615,7 +4615,7 @@ nsComputedDOMStyle
 :
 SetCSSDeclaration
 (
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 MutationClosureData
 *

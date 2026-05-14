@@ -693,7 +693,7 @@ nsStyledElement
 :
 SetInlineStyleDeclaration
 (
-DeclarationBlock
+StyleLockedDeclarationBlock
 &
 aDeclaration
 MutationClosureData
@@ -724,10 +724,16 @@ update
 nsAttrValue
 attrValue
 (
+MakeAndAddRef
+<
+DeclarationBlock
+>
+(
 do_AddRef
 (
 &
 aDeclaration
+)
 )
 nullptr
 )

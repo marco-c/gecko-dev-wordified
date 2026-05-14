@@ -2531,7 +2531,7 @@ element
 .
 *
 /
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 GetInlineStyleDeclaration
 (
@@ -2646,9 +2646,8 @@ virtual
 nsresult
 SetInlineStyleDeclaration
 (
-DeclarationBlock
+StyleLockedDeclarationBlock
 &
-aDeclaration
 MutationClosureData
 &
 aData
@@ -2685,7 +2684,7 @@ null
 .
 *
 /
-DeclarationBlock
+StyleLockedDeclarationBlock
 *
 GetSMILOverrideStyleDeclaration
 (
@@ -2731,7 +2730,7 @@ noticed
 void
 SetSMILOverrideStyleDeclaration
 (
-DeclarationBlock
+StyleLockedDeclarationBlock
 &
 )
 ;
