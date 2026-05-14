@@ -10659,11 +10659,17 @@ cloneReadInfos
 [
 database
 =
+RefPtr
+<
+IDBDatabase
+>
+(
 mTransaction
 -
 >
 Database
 (
+)
 )
 this
 ]
