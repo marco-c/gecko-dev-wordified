@@ -1850,17 +1850,6 @@ instr
 )
 ;
 #
-elif
-V8_TARGET_ARCH_RISCV32
-MOZ_ASSERT
-(
-IsLw
-(
-instr
-)
-)
-;
-#
 endif
 int32_t
 imm12
