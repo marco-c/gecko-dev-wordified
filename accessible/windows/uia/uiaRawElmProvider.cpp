@@ -8310,11 +8310,13 @@ FromAccessible
 acc
 )
 ;
-RefPtr
+auto
 uiaRange
 =
-new
+MakeRefPtr
+<
 UiaTextRange
+>
 (
 range
 )

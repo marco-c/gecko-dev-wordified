@@ -6055,11 +6055,13 @@ FAR
 ppenum
 )
 {
-RefPtr
+auto
 newEnum
 =
-new
+MakeRefPtr
+<
 AccessibleEnumerator
+>
 (
 *
 this
