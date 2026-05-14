@@ -67,7 +67,7 @@ h
 "
 #
 ifdef
-JS_SIMULATOR_ARM64
+JS_CODEGEN_ARM64
 #
 include
 "

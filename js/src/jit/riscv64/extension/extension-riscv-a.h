@@ -256,6 +256,9 @@ Register
 rs2
 )
 ;
+#
+ifdef
+JS_CODEGEN_RISCV64
 /
 /
 RV64A
@@ -430,6 +433,8 @@ Register
 rs2
 )
 ;
+#
+endif
 }
 ;
 }
