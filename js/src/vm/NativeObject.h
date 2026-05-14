@@ -4729,7 +4729,7 @@ JS
 shadow
 :
 :
-Object
+NativeObject
 )
 "
 shadow
@@ -4812,7 +4812,7 @@ JS
 shadow
 :
 :
-Object
+NativeObject
 slots
 )
 "
@@ -4842,7 +4842,7 @@ JS
 shadow
 :
 :
-Object
+NativeObject
 _1
 )
 "
@@ -9035,7 +9035,7 @@ JS
 shadow
 :
 :
-Object
+NativeObject
 :
 :
 MAX_FIXED_SLOTS

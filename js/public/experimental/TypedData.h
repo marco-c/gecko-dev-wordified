@@ -160,11 +160,11 @@ GetClass
 JS
 :
 :
-GetReservedSlot
+GetNativeObjectReservedSlot
 JS
 :
 :
-GetMaybePtrFromReservedSlot
+GetMaybePtrFromNativeObjectReservedSlot
 #
 include
 "
@@ -4452,12 +4452,12 @@ Value
 &
 lenSlot
 =
-\
 JS
 :
 :
-GetReservedSlot
+GetNativeObjectReservedSlot
 (
+\
 unwrapped
 detail
 :
@@ -4494,7 +4494,7 @@ data
 JS
 :
 :
-GetMaybePtrFromReservedSlot
+GetMaybePtrFromNativeObjectReservedSlot
 <
 ExternalType
 >

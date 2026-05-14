@@ -128,7 +128,7 @@ void
 *
 freeFunc
 =
-GetMaybePtrFromReservedSlot
+GetMaybePtrFromNativeObjectReservedSlot
 <
 void
 >
@@ -141,7 +141,7 @@ void
 *
 data
 =
-GetMaybePtrFromReservedSlot
+GetMaybePtrFromNativeObjectReservedSlot
 <
 void
 >
@@ -252,7 +252,7 @@ nullptr
 JS
 :
 :
-SetReservedSlot
+SetNativeObjectReservedSlot
 (
 retval
 DATA_SLOT
@@ -293,7 +293,7 @@ nullptr
 JS
 :
 :
-SetReservedSlot
+SetNativeObjectReservedSlot
 (
 retval
 DATA_SLOT
@@ -309,7 +309,7 @@ ptr
 JS
 :
 :
-SetReservedSlot
+SetNativeObjectReservedSlot
 (
 retval
 FREE_FUNC_SLOT

@@ -166,7 +166,7 @@ Function
 shadow
 :
 :
-Object
+NativeObject
 {
 enum
 {
