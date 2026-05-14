@@ -3535,9 +3535,6 @@ main_prim_address
 transform_id
 quad_flags
 aa_flags
-pattern
-.
-blend_mode
 )
 transform
 .
@@ -3916,9 +3913,6 @@ add_composite_prim
 pattern
 .
 base_color
-pattern
-.
-blend_mode
 prim_instance_index
 &
 clipped_surface_rect
@@ -5308,9 +5302,6 @@ add_composite_prim
 pattern
 .
 base_color
-pattern
-.
-blend_mode
 prim_instance_index
 &
 device_clip_rect
@@ -6839,9 +6830,6 @@ add_composite_prim
 pattern
 .
 base_color
-pattern
-.
-blend_mode
 prim_instance_index
 device_clip_rect
 frame_state
@@ -8331,9 +8319,6 @@ EdgeMask
 empty
 (
 )
-pattern
-.
-blend_mode
 )
 targets
 )
@@ -8345,9 +8330,6 @@ add_composite_prim
 base_color
 :
 ColorF
-blend_mode
-:
-BlendMode
 prim_instance_index
 :
 PrimitiveInstanceIndex
@@ -8624,7 +8606,6 @@ EdgeMask
 empty
 (
 )
-blend_mode
 )
 targets
 )
@@ -10528,9 +10509,6 @@ RenderTaskId
 z_id
 :
 ZBufferId
-blend_mode
-:
-BlendMode
 render_tasks
 :
 &
@@ -10734,7 +10712,7 @@ Invalid
 )
 ;
 let
-prim_blend_mode
+default_blend_mode
 =
 if
 quad_flags
@@ -10746,15 +10724,6 @@ QuadFlags
 :
 IS_OPAQUE
 )
-&
-&
-blend_mode
-=
-=
-BlendMode
-:
-:
-PremultipliedAlpha
 {
 BlendMode
 :
@@ -10763,7 +10732,10 @@ None
 }
 else
 {
-blend_mode
+BlendMode
+:
+:
+PremultipliedAlpha
 }
 ;
 let
@@ -10782,7 +10754,7 @@ BatchKey
 {
 blend_mode
 :
-prim_blend_mode
+default_blend_mode
 kind
 :
 BatchKind
@@ -10801,6 +10773,11 @@ aa_batch_key
 BatchKey
 {
 blend_mode
+:
+BlendMode
+:
+:
+PremultipliedAlpha
 kind
 :
 BatchKind
