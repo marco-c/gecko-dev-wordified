@@ -538,12 +538,21 @@ False
                 
 tune_performance
 (
+                    
 self
 .
 device
+                    
 log
 =
 LOG
+                    
+test_names
+=
+self
+.
+_test_names
+                
 )
     
 property
@@ -1979,6 +1988,12 @@ tests
 test_names
 )
 :
+        
+self
+.
+_test_names
+=
+test_names
         
 self
 .
