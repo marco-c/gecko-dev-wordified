@@ -22064,7 +22064,13 @@ js_pod_malloc
 char
 >
 (
+static_cast
+<
+size_t
+>
+(
 rawLen
+)
 )
 )
 ;
