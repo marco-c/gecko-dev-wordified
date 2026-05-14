@@ -25681,7 +25681,11 @@ namespace
 void
 SetCacheFlags
 (
+Atomic
+<
 uint32_t
+Relaxed
+>
 &
 aLoadFlags
 uint32_t
@@ -25697,7 +25701,6 @@ possible
 cache
 related
 flags
-.
 uint32_t
 allPossibleFlags
 =
@@ -25739,7 +25742,6 @@ set
 the
 new
 flags
-.
 aLoadFlags
 |
 =
