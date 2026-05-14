@@ -17533,7 +17533,9 @@ tabshifted
 }
 window
 .
-browser
+gBrowser
+.
+selectedBrowser
 )
 ;
 /
