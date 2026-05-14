@@ -1090,7 +1090,7 @@ resources
 mRootSurface
 -
 >
-SetFrameCallbackStateHandlerLocked
+SetVSyncCallbackStateHandlerLocked
 (
 lock
 [
@@ -1113,7 +1113,7 @@ void
 LOGVERBOSE
 (
 "
-FrameCallbackStateHandler
+VSyncCallbackStateHandler
 (
 )
 "
@@ -3983,7 +3983,7 @@ aTime
 mRootSurface
 -
 >
-FrameCallbackHandler
+VSyncCallbackHandler
 (
 nullptr
 aTime
@@ -6004,7 +6004,7 @@ events
 mSurface
 -
 >
-SetFrameCallbackLocked
+SetVSyncCallbackLocked
 (
 surfaceLock
 [
@@ -6299,7 +6299,7 @@ mSurface
 mSurface
 -
 >
-SetFrameCallbackStateLocked
+SetVSyncCallbackStateLocked
 (
 lock
 aState
@@ -6483,7 +6483,7 @@ handler
 mSurface
 -
 >
-ClearFrameCallbackHandlerLocked
+ClearVSyncCallbackHandlerLocked
 (
 surfaceLock
 )
