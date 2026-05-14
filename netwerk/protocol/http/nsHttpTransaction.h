@@ -4690,6 +4690,12 @@ mIsResettingForTunnelConn
 =
 false
 ;
+Maybe
+<
+bool
+>
+mIsWebsocketUpgrade
+;
 bool
 mResumptionAttempted
 =
