@@ -7532,6 +7532,17 @@ current_dirty_region
 combined
 ;
 let
+visibility_spatial_node
+=
+frame_state
+.
+current_dirty_region
+(
+)
+.
+visibility_spatial_node
+;
+let
 splitter
 =
 &
@@ -7597,6 +7608,7 @@ frame_context
 spatial_tree
 prim_spatial_node_index
 ancestor_index
+visibility_spatial_node
 local_prim_rect
 &
 prim_info
