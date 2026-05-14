@@ -294,9 +294,6 @@ SUCH
 DAMAGE
 .
 #
-ifdef
-JS_SIMULATOR_RISCV64
-#
 include
 "
 jit
@@ -30690,8 +30687,3 @@ return
 simulator_
 ;
 }
-#
-endif
-/
-/
-JS_SIMULATOR_RISCV64
