@@ -3451,8 +3451,6 @@ NotSupported
 Win11PinToTaskBarResult
 IsCurrentAppPinnedToTaskbarWin11
 (
-bool
-aCheckOnly
 )
 {
 return
