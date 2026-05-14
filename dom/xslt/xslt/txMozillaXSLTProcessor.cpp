@@ -1294,7 +1294,10 @@ txMozillaXSLTProcessor
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mOwner
+mStylesheetDocument
+mEmbeddedStylesheetRoot
 mSource
+mVariables
 )
 MOZ_RELEASE_ASSERT
 (

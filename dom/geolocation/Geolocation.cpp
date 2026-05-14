@@ -6136,6 +6136,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mPendingCallbacks
 mWatchingCallbacks
+mBrowsingContext
 mPendingRequests
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
@@ -6149,6 +6150,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mPendingCallbacks
 mWatchingCallbacks
+mBrowsingContext
 mPendingRequests
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
