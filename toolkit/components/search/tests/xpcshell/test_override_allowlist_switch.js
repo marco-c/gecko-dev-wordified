@@ -950,7 +950,7 @@ have
 race
 conditions
 when
-addEnginesFromExtension
+addEngineFromExtension
 /
 /
 loads
@@ -1680,7 +1680,7 @@ else
 await
 SearchService
 .
-addEnginesFromExtension
+addEngineFromExtension
 (
 extensionData
 )

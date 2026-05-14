@@ -568,7 +568,7 @@ reset
 await
 SearchService
 .
-addEnginesFromExtension
+addEngineFromExtension
 (
 extension
 .

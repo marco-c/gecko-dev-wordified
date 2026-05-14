@@ -3294,7 +3294,7 @@ try
 await
 SearchService
 .
-addEnginesFromExtension
+addEngineFromExtension
 (
 extension
 )
