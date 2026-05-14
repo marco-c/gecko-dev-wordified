@@ -4846,7 +4846,7 @@ if
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )
@@ -9209,7 +9209,7 @@ MOZ_ASSERT
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )
@@ -10733,7 +10733,7 @@ if
 request
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )
@@ -14593,7 +14593,7 @@ if
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 &
@@ -15263,7 +15263,7 @@ if
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )
@@ -20153,7 +20153,7 @@ if
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 &
@@ -20716,7 +20716,7 @@ if
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )
@@ -23945,7 +23945,7 @@ if
 aRequest
 -
 >
-OnceCachedStencil
+IsRetrievedFromMemoryCache
 (
 )
 )
