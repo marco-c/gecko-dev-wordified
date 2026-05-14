@@ -3936,8 +3936,10 @@ controller
 .
 mNotificationController
 =
-new
+MakeRefPtr
+<
 NotificationController
+>
 (
 this
 mPresShell
@@ -8055,8 +8057,10 @@ state
 .
 event
 =
-new
+MakeRefPtr
+<
 AccStateChangeEvent
+>
 (
 accessible
 states
@@ -8749,8 +8753,10 @@ event
 ;
 event
 =
-new
+MakeRefPtr
+<
 AccStateChangeEvent
+>
 (
 accessible
 states
@@ -8775,8 +8781,10 @@ well
 .
 event
 =
-new
+MakeRefPtr
+<
 AccStateChangeEvent
+>
 (
 accessible
 states
