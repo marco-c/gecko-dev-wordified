@@ -298,7 +298,7 @@ from
 decompositions
     
 for
-char
+codepoint
 in
 range
 (
@@ -310,7 +310,7 @@ char
 =
 chr
 (
-char
+codepoint
 )
         
 if
@@ -782,7 +782,7 @@ char
 )
 :
                 
-char
+c
 =
 mappings
 [
@@ -802,8 +802,8 @@ i
 1
 BaseCharMapping
 (
-char
-char
+c
+c
 )
 )
                 
