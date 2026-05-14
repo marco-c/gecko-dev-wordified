@@ -760,6 +760,7 @@ in
 the
 list
 )
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary

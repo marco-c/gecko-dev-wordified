@@ -210,6 +210,7 @@ it
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree

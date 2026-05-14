@@ -287,6 +287,7 @@ which
 is
 two
 )
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -306,6 +307,7 @@ Other
 bookmarks
 "
 folder
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -349,6 +351,7 @@ selected
 "
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -403,6 +406,7 @@ window
 via
 context
 menu
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -643,6 +647,7 @@ nodeForTreeIndex
 )
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree

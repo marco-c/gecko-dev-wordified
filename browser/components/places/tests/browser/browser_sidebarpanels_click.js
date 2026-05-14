@@ -828,6 +828,7 @@ promiseAlertDialogObserved
 (
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree

@@ -567,6 +567,7 @@ with
 a
 single
 click
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -622,6 +623,7 @@ gResponse
 =
 0
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -685,6 +687,7 @@ node
 on
 first
 run
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -741,6 +744,7 @@ getChild
 )
 ;
 }
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -861,6 +865,7 @@ waitForNewWindow
 (
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -995,6 +1000,7 @@ waitForNewWindow
 (
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -1334,6 +1340,7 @@ firstNodeIndex
 )
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree
@@ -1604,6 +1611,7 @@ firstNodeIndex
 )
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 tree

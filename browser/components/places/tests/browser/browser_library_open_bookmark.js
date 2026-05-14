@@ -206,6 +206,7 @@ selectNode
 bmLibrary
 )
 ;
+await
 synthesizeClickOnSelectedTreeCell
 (
 gLibrary
