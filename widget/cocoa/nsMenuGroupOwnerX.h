@@ -194,9 +194,12 @@ eCommand_ID_TouchBar
 eCommand_ID_Account
 =
 9
-eCommand_ID_Last
+eCommand_ID_SetAsDefault
 =
 10
+eCommand_ID_Last
+=
+11
 }
 ;
 /
