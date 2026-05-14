@@ -508,7 +508,7 @@ shell
 mWaylandSurface
 -
 >
-SetFrameCallbackLocked
+SetVSyncCallbackLocked
 (
 surfaceLock
 [
@@ -961,7 +961,7 @@ mWaylandSurface
 mWaylandSurface
 -
 >
-SetFrameCallbackStateLocked
+SetVSyncCallbackStateLocked
 (
 lock
 aEnabled
