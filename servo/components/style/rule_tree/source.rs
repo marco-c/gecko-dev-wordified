@@ -632,7 +632,7 @@ read_unchecked
 (
 )
 .
-may_be_in_rule_tree
+immutable
 .
 store
 (
