@@ -1838,9 +1838,6 @@ Instr
 instr
 )
 {
-#
-if
-JS_CODEGEN_RISCV64
 MOZ_ASSERT
 (
 IsLd
@@ -1849,8 +1846,6 @@ instr
 )
 )
 ;
-#
-endif
 int32_t
 imm12
 =
@@ -1871,9 +1866,6 @@ return
 imm12
 ;
 }
-#
-ifdef
-JS_CODEGEN_RISCV64
 bool
 AssemblerRISCVI
 :
@@ -2215,8 +2207,6 @@ rs2
 )
 ;
 }
-#
-endif
 int
 AssemblerRISCVI
 :

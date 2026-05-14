@@ -212,9 +212,6 @@ kFunct3Shift
 <
 kFunct7Shift
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 /
 /
 RV64M
@@ -311,8 +308,6 @@ kFunct3Shift
 <
 kFunct7Shift
 )
-#
-endif
 }
 ;
 }
