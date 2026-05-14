@@ -504,6 +504,13 @@ TCPSocketParent
 socketParent
 -
 >
+AddIPDLReference
+(
+)
+;
+socketParent
+-
+>
 SetSocket
 (
 socket
