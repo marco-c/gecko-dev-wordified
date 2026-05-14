@@ -10080,9 +10080,9 @@ endIndex
 if
 (
 focusedIndex
-!
+>
 =
-kNothingSelected
+0
 )
 {
 return
