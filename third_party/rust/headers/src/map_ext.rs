@@ -8,9 +8,6 @@ Header
 HeaderValue
 }
 ;
-use
-http
-;
 /
 /
 /
@@ -395,10 +392,6 @@ HeaderValue
 Tmp
 }
 impl
-<
-'
-a
->
 Extend
 <
 HeaderValue
@@ -407,7 +400,7 @@ for
 ToValues
 <
 '
-a
+_
 >
 {
 fn

@@ -155,6 +155,7 @@ as_u16
 /
 /
 pub
+const
 fn
 as_u16
 (

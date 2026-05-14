@@ -8,7 +8,7 @@ rust
 bindgen
 0
 .
-66
+72
 .
 1
 *
@@ -865,6 +865,14 @@ _MIPS_SIM_ABI64
 u32
 =
 3
+;
+pub
+const
+__BITS_PER_LONG_LONG
+:
+u32
+=
+64
 ;
 pub
 const

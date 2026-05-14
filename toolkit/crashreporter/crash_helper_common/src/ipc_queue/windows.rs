@@ -273,7 +273,15 @@ INVALID_HANDLE_VALUE
 ExistingCompletionPort
 *
 /
-0
+std
+:
+:
+ptr
+:
+:
+null_mut
+(
+)
 /
 *
 CompletionKey

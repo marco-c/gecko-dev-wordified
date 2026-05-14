@@ -8,7 +8,7 @@ rust
 bindgen
 0
 .
-66
+72
 .
 1
 *
@@ -549,6 +549,14 @@ h_proto
 :
 __be16
 }
+pub
+const
+__BITS_PER_LONG_LONG
+:
+u32
+=
+64
+;
 pub
 const
 ETH_ALEN
