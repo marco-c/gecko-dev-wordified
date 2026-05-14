@@ -15056,6 +15056,14 @@ mDocGroup
 )
 ;
 }
+DocumentOrShadowRoot
+:
+:
+Unlink
+(
+this
+)
+;
 UnlinkOriginalDocumentIfStatic
 (
 )
