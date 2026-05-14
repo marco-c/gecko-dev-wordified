@@ -2945,13 +2945,6 @@ ToShmem
 ToTyped
 )
 ]
-#
-[
-typed
-(
-todo_derive_fields
-)
-]
 pub
 enum
 TextAlign
