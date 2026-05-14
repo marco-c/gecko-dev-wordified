@@ -3868,6 +3868,21 @@ vv
 enable
 trace
 logs
+            
+cmd
+.
+append
+(
+"
+-
+-
+log
+-
+raw
+-
+unexpectedonly
+"
+)
         
 test_type_suite
 =
