@@ -5568,7 +5568,6 @@ ContStack
 :
 unwind
 (
-cx
 wasmPreviousStack
 -
 >

@@ -2639,6 +2639,13 @@ wasmGuardPages
 MACRO
 (
 _
+NonHeap
+wasmContStacks
+)
+\
+MACRO
+(
+_
 MallocHeap
 jitLazyLink
 )
