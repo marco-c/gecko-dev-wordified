@@ -2017,13 +2017,6 @@ encode
 decode
 if
 false
-#
-if
-!
-defined
-(
-XP_MACOSX
-)
 TEST_F
 (
 WebRTCCodecInfoTest
@@ -2139,8 +2132,6 @@ get
 )
 ;
 }
-#
-endif
 /
 /
 Test
