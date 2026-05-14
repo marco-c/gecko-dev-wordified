@@ -191,6 +191,15 @@ ifdef
 TARGET_IS_WINDOWS
 CHECK
 (
+EmptyBasesChecker
+"
+empty
+-
+bases
+"
+)
+CHECK
+(
 LoadLibraryUsageChecker
 "
 load
