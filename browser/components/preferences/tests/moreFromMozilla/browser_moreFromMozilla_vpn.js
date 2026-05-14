@@ -115,7 +115,7 @@ true
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -137,7 +137,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
@@ -198,7 +198,7 @@ false
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -222,7 +222,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
@@ -310,7 +310,7 @@ true
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -334,7 +334,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
@@ -416,7 +416,7 @@ CU
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -440,7 +440,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
@@ -527,7 +527,7 @@ true
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -551,7 +551,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
@@ -641,7 +641,7 @@ CU
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -665,7 +665,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
@@ -729,7 +729,7 @@ unsupportedRegion
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -751,7 +751,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
@@ -815,7 +815,7 @@ supportedRegion
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -837,7 +837,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
@@ -896,7 +896,7 @@ true
 let
 {
 vpnPromoCard
-mobileCard
+mobilePromo
 }
 =
 await
@@ -920,7 +920,7 @@ visible
 ;
 ok
 (
-mobileCard
+mobilePromo
 "
 The
 Mobile
