@@ -287,9 +287,6 @@ SUCH
 DAMAGE
 .
 #
-ifdef
-JS_SIMULATOR_ARM64
-#
 ifndef
 VIXL_A64_DEBUGGER_A64_H_
 #
@@ -739,8 +736,3 @@ endif
 /
 /
 VIXL_A64_DEBUGGER_A64_H_
-#
-endif
-/
-/
-JS_SIMULATOR_ARM64
