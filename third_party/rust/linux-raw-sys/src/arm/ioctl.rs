@@ -8,7 +8,7 @@ rust
 bindgen
 0
 .
-72
+66
 .
 1
 *
@@ -6564,6 +6564,14 @@ VFIO_DEVICE_GET_REGION_INFO
 u32
 =
 15212
+;
+pub
+const
+REISERFS_IOC_UNPACK
+:
+u32
+=
+1074056449
 ;
 pub
 const

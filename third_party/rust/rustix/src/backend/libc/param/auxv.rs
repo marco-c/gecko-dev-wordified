@@ -148,11 +148,6 @@ any
 target_os
 =
 "
-horizon
-"
-target_os
-=
-"
 vita
 "
 target_os

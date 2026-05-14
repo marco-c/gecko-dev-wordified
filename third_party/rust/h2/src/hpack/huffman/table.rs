@@ -1088,7 +1088,7 @@ DECODE_TABLE
 [
 [
 (
-u8
+usize
 u8
 u8
 )

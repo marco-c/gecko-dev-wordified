@@ -1058,15 +1058,7 @@ target_process
 target_handle_to_close
 as
 _
-std
-:
-:
-ptr
-:
-:
-null_mut
-(
-)
+0
 std
 :
 :

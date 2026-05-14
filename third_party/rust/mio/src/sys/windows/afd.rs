@@ -480,15 +480,7 @@ as_raw_handle
 )
 as
 HANDLE
-std
-:
-:
-ptr
-:
-:
-null_mut
-(
-)
+0
 None
 overlapped
 iosb
@@ -950,9 +942,7 @@ as
 u32
 RootDirectory
 :
-null_mut
-(
-)
+0
 ObjectName
 :
 &

@@ -63,7 +63,7 @@ crate
 logging
 ;
 use
-http
+hyper
 :
 :
 Method

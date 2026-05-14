@@ -757,9 +757,15 @@ encoder
 .
 encode
 (
+&
+mut
 input
 .
 clone
+(
+)
+.
+into_iter
 (
 )
 &

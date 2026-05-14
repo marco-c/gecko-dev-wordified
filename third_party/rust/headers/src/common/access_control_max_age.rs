@@ -8,9 +8,6 @@ time
 Duration
 ;
 use
-crate
-:
-:
 util
 :
 :
@@ -178,6 +175,14 @@ Examples
 /
 /
 /
+/
+/
+/
+#
+extern
+crate
+headers
+;
 /
 /
 /

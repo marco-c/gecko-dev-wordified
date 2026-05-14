@@ -22,24 +22,6 @@ uri
 :
 Authority
 ;
-use
-http
-:
-:
-{
-HeaderName
-HeaderValue
-}
-;
-use
-crate
-:
-:
-{
-Error
-Header
-}
-;
 /
 /
 /
@@ -134,6 +116,8 @@ port_u16
 }
 }
 impl
+:
+:
 Header
 for
 Host
@@ -147,6 +131,8 @@ name
 &
 '
 static
+:
+:
 HeaderName
 {
 &
@@ -174,6 +160,8 @@ Item
 &
 '
 i
+:
+:
 HeaderValue
 >
 >
@@ -189,6 +177,8 @@ I
 Result
 <
 Self
+:
+:
 Error
 >
 {
@@ -231,6 +221,8 @@ Host
 .
 ok_or_else
 (
+:
+:
 Error
 :
 :
@@ -244,6 +236,8 @@ E
 :
 Extend
 <
+:
+:
 HeaderValue
 >
 >
@@ -275,6 +269,8 @@ as_bytes
 let
 val
 =
+:
+:
 HeaderValue
 :
 :

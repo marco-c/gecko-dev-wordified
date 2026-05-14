@@ -184,9 +184,6 @@ AsyncWrite
 inner
 :
 T
-final_flush_done
-:
-bool
 encoder
 :
 Encoder
@@ -582,9 +579,6 @@ CHAIN_THRESHOLD_WITHOUT_VECTORED_IO
 FramedWrite
 {
 inner
-final_flush_done
-:
-false
 encoder
 :
 Encoder
@@ -1134,12 +1128,6 @@ Result
 >
 >
 {
-if
-!
-self
-.
-final_flush_done
-{
 ready
 !
 (
@@ -1152,13 +1140,6 @@ cx
 )
 ?
 ;
-self
-.
-final_flush_done
-=
-true
-;
-}
 Pin
 :
 :

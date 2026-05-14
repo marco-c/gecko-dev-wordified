@@ -1,7 +1,4 @@
 use
-http
-:
-:
 HeaderValue
 ;
 /
@@ -18,17 +15,15 @@ in
 RFC7231
 ]
 (
-https
+http
 :
 /
 /
-datatracker
+tools
 .
 ietf
 .
 org
-/
-doc
 /
 html
 /

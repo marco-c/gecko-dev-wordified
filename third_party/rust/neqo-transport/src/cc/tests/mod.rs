@@ -233,7 +233,6 @@ new
 IP_ADDR
 MTU
 )
-true
 )
 }
 /
@@ -286,7 +285,6 @@ new
 IP_ADDR
 MTU
 )
-true
 )
 }
 /
@@ -357,6 +355,5 @@ new
 IP_ADDR
 MTU
 )
-true
 )
 }

@@ -170,12 +170,12 @@ process
 "
 and
 \
-\
 "
 stdio
 \
 "
 cargo
+\
 features
 .
 "

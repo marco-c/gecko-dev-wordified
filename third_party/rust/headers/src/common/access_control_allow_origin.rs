@@ -8,12 +8,6 @@ convert
 TryFrom
 ;
 use
-http
-:
-:
-HeaderValue
-;
-use
 super
 :
 :
@@ -23,9 +17,6 @@ origin
 Origin
 ;
 use
-crate
-:
-:
 util
 :
 :
@@ -35,10 +26,7 @@ TryFromValues
 }
 ;
 use
-crate
-:
-:
-Error
+HeaderValue
 ;
 /
 /
@@ -233,6 +221,14 @@ Examples
 /
 /
 /
+/
+/
+/
+#
+extern
+crate
+headers
+;
 /
 /
 /
@@ -490,6 +486,8 @@ AccessControlAllowOrigin
 type
 Error
 =
+:
+:
 Error
 ;
 fn
@@ -505,6 +503,8 @@ str
 Result
 <
 Self
+:
+:
 Error
 >
 {
@@ -524,6 +524,8 @@ map_err
 |
 _
 |
+:
+:
 Error
 :
 :
@@ -567,6 +569,8 @@ OriginOrAny
 type
 Error
 =
+:
+:
 Error
 ;
 fn
@@ -582,6 +586,8 @@ HeaderValue
 Result
 <
 Self
+:
+:
 Error
 >
 {
@@ -603,6 +609,8 @@ Origin
 .
 ok_or_else
 (
+:
+:
 Error
 :
 :
@@ -634,6 +642,8 @@ I
 Result
 <
 Self
+:
+:
 Error
 >
 where
@@ -699,6 +709,8 @@ Origin
 .
 ok_or_else
 (
+:
+:
 Error
 :
 :
@@ -750,7 +762,7 @@ origin
 >
 origin
 .
-to_value
+into_value
 (
 )
 OriginOrAny

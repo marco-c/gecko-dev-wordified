@@ -8,7 +8,7 @@ rust
 bindgen
 0
 .
-72
+66
 .
 1
 *
@@ -785,14 +785,6 @@ LO_KEY_SIZE
 u32
 =
 32
-;
-pub
-const
-__BITS_PER_LONG_LONG
-:
-u32
-=
-64
 ;
 pub
 const

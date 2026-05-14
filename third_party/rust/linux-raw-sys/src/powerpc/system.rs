@@ -8,7 +8,7 @@ rust
 bindgen
 0
 .
-72
+66
 .
 1
 *
@@ -912,14 +912,6 @@ c_char
 65usize
 ]
 }
-pub
-const
-__BITS_PER_LONG_LONG
-:
-u32
-=
-64
-;
 pub
 const
 SI_LOAD_SHIFT

@@ -8,7 +8,7 @@ rust
 bindgen
 0
 .
-72
+66
 .
 1
 *
