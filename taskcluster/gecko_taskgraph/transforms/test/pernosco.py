@@ -110,12 +110,34 @@ tasks
         
 return
     
+states
+=
+(
+"
+completed
+"
+"
+defined
+"
+"
+exception
+"
+"
+failed
+"
+"
+running
+"
+)
+    
 for
 task
 in
 tasks
 :
         
+routes
+=
 task
 .
 setdefault
@@ -126,9 +148,13 @@ routes
 [
 ]
 )
+        
+routes
 .
-append
+extend
 (
+[
+f
 "
 notify
 .
@@ -140,8 +166,15 @@ v1
 .
 on
 -
-resolved
+{
+state
+}
 "
+for
+state
+in
+states
+]
 )
         
 yield
