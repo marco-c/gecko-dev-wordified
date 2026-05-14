@@ -18666,6 +18666,7 @@ from
 MaybeGlobalThisPolicy
 .
 struct
+MOZ_EMPTY_BASES
 LenientThisPolicy
 :
 public
@@ -19575,6 +19576,7 @@ LenientThis
 behavior
 .
 struct
+MOZ_EMPTY_BASES
 MaybeCrossOriginObjectLenientThisPolicy
 :
 public

@@ -6292,6 +6292,13 @@ sd
 yUVColorSpace
 (
 )
+gfx
+:
+:
+TransferFunction
+:
+:
+SRGB
 )
 ;
 }
@@ -10925,6 +10932,11 @@ subdesc
 yUVColorSpace
 (
 )
+subdesc
+.
+transferFunction
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -15027,6 +15039,7 @@ class
 Ts
 >
 struct
+MOZ_EMPTY_BASES
 overloaded
 :
 Ts
