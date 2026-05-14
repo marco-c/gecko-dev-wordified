@@ -383,10 +383,6 @@ ProxyObject
 expando
 (
 )
-.
-toObjectOrNull
-(
-)
 )
 ;
 /
@@ -556,10 +552,6 @@ ProxyObject
 expando
 (
 )
-.
-toObjectOrNull
-(
-)
 )
 ;
 if
@@ -627,10 +619,6 @@ ProxyObject
 )
 .
 expando
-(
-)
-.
-toObjectOrNull
 (
 )
 )
@@ -914,10 +902,6 @@ ProxyObject
 expando
 (
 )
-.
-toObjectOrNull
-(
-)
 )
 ;
 /
@@ -1018,10 +1002,6 @@ ProxyObject
 )
 .
 expando
-(
-)
-.
-toObjectOrNull
 (
 )
 )
@@ -6221,7 +6201,7 @@ trc
 proxy
 -
 >
-slotOfExpando
+expandoPtr
 (
 )
 "
