@@ -302,6 +302,12 @@ vixl
 h
 "
 #
+if
+defined
+(
+JS_SIMULATOR_ARM64
+)
+#
 include
 "
 jit
@@ -316,6 +322,8 @@ vixl
 .
 h
 "
+#
+endif
 #
 include
 "
