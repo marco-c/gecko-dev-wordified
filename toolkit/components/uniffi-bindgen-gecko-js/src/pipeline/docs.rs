@@ -231,15 +231,14 @@ docstring
 .
 }
 )
-=
->
-{
 if
 docstring
 .
 is_some
 (
 )
+=
+>
 {
 docs
 .
@@ -254,7 +253,6 @@ clone
 )
 )
 ;
-}
 }
 TypeDefinition
 :
