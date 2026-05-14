@@ -9954,6 +9954,16 @@ onPopupShown
 (
 )
 {
+PopupNotifications
+.
+suppressWhileOpen
+(
+this
+.
+#
+popup
+)
+;
 /
 /
 Disable
