@@ -410,6 +410,17 @@ ClearResultConnection
 (
 )
 ;
+HttpConnectionBase
+*
+ResultConn
+(
+)
+const
+{
+return
+mResultConn
+;
+}
 virtual
 bool
 IsUDP
