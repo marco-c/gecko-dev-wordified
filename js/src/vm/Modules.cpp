@@ -10361,7 +10361,7 @@ ModuleSource
 ]
 ]
 .
-ModuleSourceObject
+JSObject
 *
 moduleSourceObject
 =
@@ -23320,7 +23320,7 @@ ModuleSource
 ]
 ]
 .
-ModuleSourceObject
+JSObject
 *
 moduleSource
 =
