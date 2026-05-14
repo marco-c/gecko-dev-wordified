@@ -11949,6 +11949,17 @@ CleanupFullscreenState
 (
 )
 ;
+void
+MaybeExitKeyboardLockedFullscreen
+(
+WidgetKeyboardEvent
+*
+aKeyboardEvent
+Document
+*
+aFullscreenRoot
+)
+;
 private
 :
 ~
