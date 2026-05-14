@@ -491,11 +491,9 @@ aVSyncCallbackStateHandler
 /
 Set
 a
-a
 routine
 which
-return
-if
+returns
 whether
 we
 should
