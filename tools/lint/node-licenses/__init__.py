@@ -968,18 +968,30 @@ run
 (
         
 cmd_args
+        
 shell
 =
 shell
+        
 capture_output
 =
 True
+        
 text
 =
 True
+        
 check
 =
 False
+        
+encoding
+=
+"
+utf
+-
+8
+"
     
 )
     
