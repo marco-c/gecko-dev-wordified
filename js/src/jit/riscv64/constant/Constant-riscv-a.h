@@ -263,9 +263,6 @@ kFunct3Shift
 <
 kFunct5Shift
 )
-#
-ifdef
-JS_CODEGEN_RISCV64
 /
 /
 RV64A
@@ -464,11 +461,6 @@ kFunct3Shift
 <
 kFunct5Shift
 )
-#
-endif
-/
-/
-JS_CODEGEN_RISCV64
 }
 ;
 }
