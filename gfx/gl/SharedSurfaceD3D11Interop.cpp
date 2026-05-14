@@ -2783,6 +2783,17 @@ ColorRange
 :
 :
 FULL
+mDesc
+.
+transferFunction
+/
+*
+hdrMetadata
+*
+/
+Nothing
+(
+)
 /
 *
 hasKeyedMutex
