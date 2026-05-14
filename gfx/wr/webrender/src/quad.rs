@@ -1248,10 +1248,6 @@ local_rect
 :
 &
 LayoutRect
-local_clip_rect
-:
-&
-LayoutRect
 aligned_aa_edges
 :
 EdgeMask
@@ -1413,6 +1409,9 @@ strategy
 &
 pattern
 local_rect
+&
+clip_chain
+.
 local_clip_rect
 aligned_aa_edges
 transfomed_aa_edges
