@@ -1124,6 +1124,9 @@ mProfileDBFileSize
 PRTime
 mProfileDBModifiedTime
 ;
+nsCString
+mIniStatus
+;
 /
 /
 A
