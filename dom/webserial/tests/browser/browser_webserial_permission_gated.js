@@ -1831,6 +1831,11 @@ example
 .
 com
 "
+permission_type
+:
+"
+serial
+"
 }
 ]
 AddonTestUtils
