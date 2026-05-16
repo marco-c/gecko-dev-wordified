@@ -690,14 +690,14 @@ nativeSelect
 .
 value
 "
-home
+true
 "
 "
 Dropdown
 value
 is
 '
-home
+true
 '
 when
 pref
@@ -711,7 +711,7 @@ changeMozSelectValue
 (
 select
 "
-blank
+false
 "
 )
 ;
@@ -739,7 +739,7 @@ changeMozSelectValue
 (
 select
 "
-home
+true
 "
 )
 ;
