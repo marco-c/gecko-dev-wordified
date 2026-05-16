@@ -747,7 +747,6 @@ eCSSDeclaration
 =
 0x10
 eURL
-eImage
 eAtomArray
 eDoubleValue
 /
