@@ -179,6 +179,9 @@ profilePath
 "
 test_withProfileLock
 "
+"
+tests
+"
 )
 ;
 await
@@ -359,6 +362,9 @@ createUniqueProfile
 profilePath
 "
 test_readPreferences
+"
+"
+tests
 "
 )
 ;
@@ -696,6 +702,9 @@ profilePath
 "
 test_readTelemetryClientID
 "
+"
+tests
+"
 )
 ;
 /
@@ -946,6 +955,9 @@ createUniqueProfile
 profilePath
 "
 test_readFirefoxMessagingSystemTargetingSnapshot
+"
+"
+tests
 "
 )
 ;

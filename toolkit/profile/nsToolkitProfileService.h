@@ -485,6 +485,10 @@ CreateTimesInternal
 nsIFile
 *
 profileDir
+const
+nsACString
+&
+aSource
 )
 ;
 void
@@ -568,6 +572,10 @@ UseLegacyProfiles
 nsresult
 CreateDefaultProfile
 (
+const
+nsACString
+&
+aSource
 nsToolkitProfile
 *
 *
@@ -584,6 +592,10 @@ const
 nsACString
 &
 aNamePrefix
+const
+nsACString
+&
+aSource
 nsToolkitProfile
 *
 *
@@ -600,6 +612,10 @@ const
 nsACString
 &
 aName
+const
+nsACString
+&
+aSource
 nsToolkitProfile
 *
 *

@@ -418,6 +418,9 @@ null
 "
 Test2
 "
+"
+tests
+"
 )
 ;
 /
@@ -549,6 +552,9 @@ createProfile
 null
 "
 Test3
+"
+"
+tests
 "
 )
 ;
@@ -754,6 +760,9 @@ createProfile
 null
 "
 Test4
+"
+"
+tests
 "
 )
 ;
@@ -1079,6 +1088,9 @@ createProfile
 null
 "
 Test5
+"
+"
+tests
 "
 )
 ;

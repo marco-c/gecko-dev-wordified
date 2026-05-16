@@ -1340,6 +1340,9 @@ ProfileService
 {
 CreateProfile
 }
+"
+aboutprofiles
+"
 )
 ;
 }

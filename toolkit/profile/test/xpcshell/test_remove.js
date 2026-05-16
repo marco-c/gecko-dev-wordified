@@ -324,6 +324,9 @@ null
 "
 profile1
 "
+"
+tests
+"
 )
 )
 ;
@@ -338,6 +341,9 @@ createProfile
 null
 "
 profile2
+"
+"
+tests
 "
 )
 )
@@ -354,6 +360,9 @@ null
 "
 profile3
 "
+"
+tests
+"
 )
 )
 ;
@@ -368,6 +377,9 @@ createProfile
 null
 "
 profile4
+"
+"
+tests
 "
 )
 )
@@ -384,6 +396,9 @@ null
 "
 profile5
 "
+"
+tests
+"
 )
 )
 ;
@@ -398,6 +413,9 @@ createProfile
 null
 "
 profile6
+"
+"
+tests
 "
 )
 )
@@ -414,6 +432,9 @@ null
 "
 profile7
 "
+"
+tests
+"
 )
 )
 ;
@@ -429,6 +450,9 @@ null
 "
 profile8
 "
+"
+tests
+"
 )
 )
 ;
@@ -443,6 +467,9 @@ createProfile
 null
 "
 profile9
+"
+"
+tests
 "
 )
 )

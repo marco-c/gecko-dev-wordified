@@ -105,6 +105,9 @@ createProfile
 (
 null
 profileName
+"
+tests
+"
 )
 ;
 profile

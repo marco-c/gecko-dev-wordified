@@ -158,6 +158,9 @@ newProfileDir
 "
 new
 "
+"
+tests
+"
 )
 ;
 await

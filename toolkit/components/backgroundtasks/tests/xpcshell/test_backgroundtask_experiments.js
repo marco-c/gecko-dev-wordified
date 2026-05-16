@@ -430,6 +430,9 @@ taskProfD
 "
 test_backgroundtask_experiments_task
 "
+"
+tests
+"
 )
 ;
 registerCleanupFunction

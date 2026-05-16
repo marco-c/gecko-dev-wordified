@@ -271,6 +271,10 @@ SelectableProfileService
 createNewProfile
 (
 false
+null
+"
+tests
+"
 )
 ;
 Assert

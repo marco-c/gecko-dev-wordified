@@ -794,6 +794,15 @@ _verify_common_data
 version
 )
         
+self
+.
+assert_profile_source
+(
+"
+backup
+"
+)
+        
 for
 check
 in

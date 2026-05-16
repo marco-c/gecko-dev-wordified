@@ -351,6 +351,9 @@ profD
 "
 test_profile_is_slim
 "
+"
+tests
+"
 )
 ;
 registerCleanupFunction

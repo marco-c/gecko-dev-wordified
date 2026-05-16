@@ -672,6 +672,10 @@ SelectableProfileService
 createNewProfile
 (
 false
+null
+"
+tests
+"
 )
 ;
 }
@@ -827,6 +831,10 @@ SelectableProfileService
 createNewProfile
 (
 false
+null
+"
+tests
+"
 )
 ;
 }
@@ -1004,6 +1012,10 @@ SelectableProfileService
 createNewProfile
 (
 false
+null
+"
+tests
+"
 )
 ;
 }
