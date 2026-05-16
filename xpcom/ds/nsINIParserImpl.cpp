@@ -111,6 +111,9 @@ Init
 nsIFile
 *
 aINIFile
+bool
+*
+aContainedErrors
 )
 {
 return
@@ -119,6 +122,7 @@ mParser
 Init
 (
 aINIFile
+aContainedErrors
 )
 ;
 }
@@ -152,6 +156,9 @@ CreateINIParser
 nsIFile
 *
 aINIFile
+bool
+*
+aContainedErrors
 nsIINIParser
 *
 *
@@ -189,6 +196,7 @@ p
 Init
 (
 aINIFile
+aContainedErrors
 )
 ;
 if
@@ -537,6 +545,9 @@ const
 nsACString
 &
 aData
+bool
+*
+aContainedErrors
 )
 {
 return
@@ -548,6 +559,7 @@ nsCString
 (
 aData
 )
+aContainedErrors
 )
 ;
 }
