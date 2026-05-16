@@ -473,7 +473,7 @@ text
 textContent
 "
 ZIP
-code
+Code
 "
 "
 US
@@ -485,7 +485,7 @@ should
 be
 '
 ZIP
-code
+Code
 '
 "
 )

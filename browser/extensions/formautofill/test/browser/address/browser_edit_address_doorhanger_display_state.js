@@ -474,14 +474,7 @@ is
 (
 element
 .
-selectedOption
-?
-.
 label
-?
-?
-"
-"
 TEST
 .
 expected
