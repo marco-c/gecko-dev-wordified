@@ -2505,6 +2505,16 @@ shared_pings
 .
 yaml
 "
+    
+"
+toolkit
+/
+profile
+/
+pings
+.
+yaml
+"
 ]
 #
 Pings
