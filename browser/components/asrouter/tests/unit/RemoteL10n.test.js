@@ -594,6 +594,13 @@ termsofuse
 ftl
 "
 "
+preview
+/
+aiWindow
+.
+ftl
+"
+"
 toolkit
 /
 branding
@@ -798,6 +805,13 @@ ftl
 browser
 /
 termsofuse
+.
+ftl
+"
+"
+preview
+/
+aiWindow
 .
 ftl
 "
