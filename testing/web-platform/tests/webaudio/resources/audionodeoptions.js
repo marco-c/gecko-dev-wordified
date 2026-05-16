@@ -3067,6 +3067,12 @@ TypeError
 >
 new
 window
+[
+name
+]
+(
+1
+)
 '
 new
 '
