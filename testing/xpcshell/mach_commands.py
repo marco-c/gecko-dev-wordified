@@ -2320,6 +2320,12 @@ tags
             
 if
 "
+webextensions
+"
+in
+tags
+and
+"
 portal
 "
 in
@@ -2421,17 +2427,33 @@ if
 install_portal_test_dependencies
 :
             
+dir_relpath
+=
+params
+[
+"
+manifest
+"
+]
+.
+get
+(
+"
+dir_relpath
+"
+)
+[
+0
+]
+            
 #
 Only
 Linux
+Native
+Messaging
+Portal
 xpcshell
 tests
-that
-mock
-D
--
-Bus
-interfaces
 need
 this
 .
@@ -2445,10 +2467,14 @@ path
 join
 (
                 
-here
+dir_relpath
                 
 "
-linux_portal_requirements
+linux_native
+-
+messaging
+-
+portal_requirements
 .
 txt
 "
