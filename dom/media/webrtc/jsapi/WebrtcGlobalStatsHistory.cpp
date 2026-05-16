@@ -489,7 +489,7 @@ SDP
 History
 is
 stored
-seperately
+separately
 see
 MakeSdpElements
 .

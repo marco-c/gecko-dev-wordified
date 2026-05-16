@@ -7608,10 +7608,12 @@ information
 must
 be
 treated
-seperately
+separately
 as
 a
-hiearchical
+hierarchical
+/
+/
 value
 .
 /
@@ -7620,7 +7622,7 @@ So
 we
 need
 to
-seperate
+separate
 the
 regular
 parameters

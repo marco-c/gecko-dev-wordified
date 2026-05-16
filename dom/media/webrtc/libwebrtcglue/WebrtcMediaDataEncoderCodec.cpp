@@ -671,7 +671,7 @@ profileLevel
 /
 TODO
 :
-Eveluate
+Evaluate
 if
 there
 is

@@ -6017,7 +6017,7 @@ our
 max
 of
 10Mbps
-overriden
+overridden
 by
 /
 /
@@ -8112,7 +8112,9 @@ PT
 then
 ensure
 we
-dont
+don
+'
+t
 have
 an
 rtx_ssrc

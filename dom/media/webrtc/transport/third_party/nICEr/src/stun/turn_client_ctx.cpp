@@ -4707,7 +4707,7 @@ should
 probably
 start
 a
-seperate
+separate
 /
 /
 STUN

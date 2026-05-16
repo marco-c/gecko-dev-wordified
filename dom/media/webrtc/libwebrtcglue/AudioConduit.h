@@ -930,7 +930,7 @@ if
 needed
 .
 The
-overriden
+overridden
 value
 is
 *

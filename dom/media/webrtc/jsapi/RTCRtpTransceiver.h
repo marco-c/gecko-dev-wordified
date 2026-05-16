@@ -1720,7 +1720,7 @@ if
 setCodecPreferences
 was
 called
-succesfully
+successfully
 and
 passed
 /
