@@ -852,6 +852,12 @@ slug
 wantedActive
 )
 ;
+el
+.
+scrollIntoView
+(
+)
+;
 EventUtils
 .
 synthesizeMouseAtCenter
