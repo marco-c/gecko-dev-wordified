@@ -2385,6 +2385,13 @@ UpdateNormalizedTimingForTimelineDataChange
 (
 )
 ;
+anim
+-
+>
+MaybeUpdateKeyframeComputedOffsets
+(
+)
+;
 }
 }
 std
