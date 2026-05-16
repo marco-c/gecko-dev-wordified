@@ -387,9 +387,9 @@ css
 masking
 /
 #
-propdef
--
 clip
+-
+property
 "
 deprecated
 :
