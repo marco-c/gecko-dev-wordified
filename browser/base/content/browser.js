@@ -28396,7 +28396,7 @@ dialog
 -
 subdialog
 "
-options
+dialogOptions
 :
 {
 consumeOutsideClicks
