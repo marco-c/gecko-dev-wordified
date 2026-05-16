@@ -175,6 +175,7 @@ Chinese
 MicrosoftPinyin
 MicrosoftPinyinNewExperienceInputStyle
 MicrosoftWubi
+Sogou
 /
 /
 TIP
