@@ -254,6 +254,14 @@ testResetFOG
 (
 )
 ;
+Services
+.
+telemetry
+.
+clearScalars
+(
+)
+;
 /
 /
 Setup
