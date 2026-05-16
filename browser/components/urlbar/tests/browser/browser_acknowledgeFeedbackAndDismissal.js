@@ -2644,10 +2644,9 @@ before
 .
 content
 "
-attr
-(
-label
-)
+{
+expectedLabel
+}
 "
 "
 :
