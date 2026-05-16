@@ -1484,7 +1484,7 @@ already_AddRefed
 <
 nsCaret
 >
-GetCaretForSelection
+GetCaret
 (
 )
 const

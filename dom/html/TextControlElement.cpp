@@ -2160,7 +2160,7 @@ caret
 ps
 -
 >
-GetOriginalCaret
+GetCaret
 (
 )
 ;

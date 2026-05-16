@@ -4514,7 +4514,7 @@ PresShellPtr
 )
 -
 >
-GetOriginalCaret
+GetCaret
 (
 )
 ;

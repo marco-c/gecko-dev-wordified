@@ -6442,7 +6442,7 @@ true
 presShell
 -
 >
-SetActiveCaret
+SetCaret
 (
 mCaret
 )
@@ -6502,7 +6502,7 @@ presShell
 presShell
 -
 >
-RestoreOriginalCaret
+RestoreCaret
 (
 )
 ;

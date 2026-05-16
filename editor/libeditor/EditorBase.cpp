@@ -27255,7 +27255,7 @@ nsCaret
 >
 caret
 =
-GetCaretForSelection
+GetCaret
 (
 )
 ;
@@ -39353,7 +39353,7 @@ nsCaret
 >
 caret
 =
-GetCaretForSelection
+GetCaret
 (
 )
 ;
@@ -39992,7 +39992,7 @@ nsCaret
 >
 caret
 =
-GetCaretForSelection
+GetCaret
 (
 )
 )
@@ -42441,7 +42441,7 @@ nsCaret
 >
 caret
 =
-GetCaretForSelection
+GetCaret
 (
 )
 ;
@@ -50414,7 +50414,7 @@ nsCaret
 EditorBase
 :
 :
-GetCaretForSelection
+GetCaret
 (
 )
 const
@@ -50444,7 +50444,7 @@ return
 presShell
 -
 >
-GetOriginalCaret
+GetCaret
 (
 )
 ;

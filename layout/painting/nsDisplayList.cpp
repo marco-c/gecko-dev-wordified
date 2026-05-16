@@ -7995,7 +7995,7 @@ CurrentPresShellState
 mPresShell
 -
 >
-GetActiveCaret
+GetCaret
 (
 )
 ;
@@ -8571,7 +8571,7 @@ state
 mPresShell
 -
 >
-GetActiveCaret
+GetCaret
 (
 )
 ;
