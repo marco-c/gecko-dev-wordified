@@ -1670,6 +1670,7 @@ KeyframeUtils
 ComputeMissingKeyframeOffsets
 (
 mKeyframes
+aTimeline
 )
 ;
 if
