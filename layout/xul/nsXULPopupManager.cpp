@@ -7580,7 +7580,7 @@ caret
 presShell
 -
 >
-GetCaret
+GetActiveCaret
 (
 )
 ;

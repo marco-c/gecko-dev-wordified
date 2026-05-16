@@ -22217,7 +22217,7 @@ caret
 aPresShell
 -
 >
-GetCaret
+GetOriginalCaret
 (
 )
 ;
