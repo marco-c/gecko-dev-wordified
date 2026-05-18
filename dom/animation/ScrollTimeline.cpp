@@ -2070,7 +2070,7 @@ Teardown
 )
 ;
 }
-void
+bool
 ScrollTimeline
 :
 :
@@ -2142,6 +2142,11 @@ GetPrimaryFrame
 )
 {
 return
+prevCachedCurrentTime
+.
+isSome
+(
+)
 ;
 }
 /
@@ -2176,6 +2181,11 @@ scrollContainerFrame
 )
 {
 return
+prevCachedCurrentTime
+.
+isSome
+(
+)
 ;
 }
 const
@@ -2241,6 +2251,11 @@ orientation
 )
 {
 return
+prevCachedCurrentTime
+.
+isSome
+(
+)
 ;
 }
 const
@@ -2335,6 +2350,12 @@ TimelineDataDidChange
 )
 ;
 }
+return
+mCachedCurrentTime
+!
+=
+prevCachedCurrentTime
+;
 }
 void
 ScrollTimeline
