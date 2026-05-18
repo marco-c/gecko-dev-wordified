@@ -61,8 +61,8 @@ lockstore_rs
 :
 :
 {
+Keystore
 LockstoreError
-LockstoreKeystore
 KEK_REF_LOCAL
 KEK_REF_PRP
 }
@@ -148,7 +148,16 @@ on_disk_keystore
 -
 >
 (
-LockstoreKeystore
+std
+:
+:
+sync
+:
+:
+Arc
+<
+Keystore
+>
 tempfile
 :
 :
@@ -192,10 +201,10 @@ sqlite
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
-new
+get
 (
 path
 )
@@ -224,7 +233,7 @@ has_and_init_prp
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -311,7 +320,7 @@ set_without_old_when_already_initialized_fails
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -385,7 +394,7 @@ unlock_then_get_dek_succeeds
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -512,7 +521,7 @@ get_dek_when_locked_fails
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -653,7 +662,7 @@ unlock_expires_after_timeout
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -847,7 +856,7 @@ wrong_password_returns_wrong_password_and_does_not_cache
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -937,7 +946,7 @@ unlock_before_init_returns_not_initialized
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -1000,7 +1009,7 @@ change_prp_rewraps_deks
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -1248,7 +1257,7 @@ change_with_wrong_old_password_rejected
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -1348,7 +1357,7 @@ add_then_remove_local_level_leaves_prp_only
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -1590,10 +1599,10 @@ sqlite
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
-new
+get
 (
 path
 .
@@ -1674,10 +1683,10 @@ close
 let
 ks2
 =
-LockstoreKeystore
+Keystore
 :
 :
-new
+get
 (
 path
 )
@@ -1896,7 +1905,7 @@ encrypt_decrypt_roundtrip_local
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -2007,7 +2016,7 @@ encrypt_decrypt_roundtrip_prp
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -2219,7 +2228,7 @@ encrypt_non_extractable_dek_still_works
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -2378,7 +2387,7 @@ prp_dek_supports_non_extractable
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -2580,7 +2589,7 @@ local_key_is_always_unlocked
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -2686,7 +2695,7 @@ unknown_kek_ref_reports_locked
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
@@ -2826,7 +2835,7 @@ lock_clears_prp_cache
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory

@@ -120,8 +120,8 @@ lockstore_rs
 :
 :
 {
+Keystore
 LockstoreError
-LockstoreKeystore
 }
 ;
 use
@@ -172,7 +172,7 @@ slot
 let
 ks
 =
-LockstoreKeystore
+Keystore
 :
 :
 new_in_memory
