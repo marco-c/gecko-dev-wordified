@@ -1779,6 +1779,11 @@ WillRefresh
 (
 )
 ;
+bool
+UpdateIfStale
+(
+)
+;
 /
 /
 May
