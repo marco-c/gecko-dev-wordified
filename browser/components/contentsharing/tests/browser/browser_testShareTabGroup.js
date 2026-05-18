@@ -208,6 +208,9 @@ await
 assertContentSharingModal
 (
 window
+new
+ShareResult
+(
 {
 share
 :
@@ -222,7 +225,11 @@ url
 isSignedIn
 :
 true
+isSchemaValid
+:
+true
 }
+)
 )
 ;
 Assert
