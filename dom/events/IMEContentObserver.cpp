@@ -6752,7 +6752,6 @@ mChangeStart
 mRootElement
 &
 offset
-LINE_BREAK_TYPE_NATIVE
 )
 ;
 if
@@ -16053,10 +16052,6 @@ aContent
 aRootElement
 &
 length
-LineBreakType
-:
-:
-LINE_BREAK_TYPE_NATIVE
 )
 ;
 if
@@ -17481,10 +17476,6 @@ aContent
 aRootElement
 &
 textLength
-LineBreakType
-:
-:
-LINE_BREAK_TYPE_NATIVE
 /
 *
 aIsRemovingNode
@@ -17584,10 +17575,6 @@ aContent
 aRootElement
 &
 textLengthBeforeContent
-LineBreakType
-:
-:
-LINE_BREAK_TYPE_NATIVE
 )
 ;
 if
@@ -17674,10 +17661,6 @@ aEndContent
 aRootElement
 &
 textLength
-LineBreakType
-:
-:
-LINE_BREAK_TYPE_NATIVE
 )
 ;
 if
@@ -17798,10 +17781,6 @@ nullptr
 aRootElement
 &
 lengthIncludingLineBreakCausedByOpenTagOfContent
-LineBreakType
-:
-:
-LINE_BREAK_TYPE_NATIVE
 )
 ;
 if
