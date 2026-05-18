@@ -98,7 +98,10 @@ use
 keystore
 :
 :
+{
+ConnectionHandle
 LockstoreKeystore
+}
 ;
 #
 [
