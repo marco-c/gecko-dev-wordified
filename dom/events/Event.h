@@ -2613,7 +2613,7 @@ aEventTypeArg
 ;
 nsIContent
 *
-GetExplicitTargetFromFrame
+GetTargetFromFrame
 (
 )
 ;

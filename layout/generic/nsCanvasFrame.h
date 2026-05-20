@@ -404,7 +404,7 @@ override
 endif
 nsIContent
 *
-GetExplicitEventTargetContent
+GetContentForEvent
 (
 const
 mozilla
@@ -412,17 +412,9 @@ mozilla
 :
 WidgetEvent
 *
-=
-nullptr
 )
 const
-final
-;
-using
-nsIFrame
-:
-:
-GetExplicitEventTargetContent
+override
 ;
 nsRect
 CanvasArea
