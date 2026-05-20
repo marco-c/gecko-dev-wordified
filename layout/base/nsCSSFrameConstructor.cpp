@@ -40072,6 +40072,11 @@ aInsertion
 -
 >
 mParentFrame
+-
+>
+GetTailContinuation
+(
+)
 ;
 aInsertion
 -
@@ -40238,6 +40243,11 @@ aInsertion
 -
 >
 mParentFrame
+-
+>
+FirstContinuation
+(
+)
 -
 >
 GetParent
