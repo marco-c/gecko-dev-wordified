@@ -13043,10 +13043,20 @@ defaults
 :
 {
 "
+per
+-
+task
+-
 rebuild
 "
 :
+{
+"
+speedometer3
+"
+:
 20
+}
 }
     
 }
@@ -13072,6 +13082,17 @@ defaults
     
 }
 }
+SP3_TASK
+=
+"
+browsertime
+-
+benchmark
+-
+firefox
+-
+speedometer3
+"
 pytest
 .
 mark
@@ -13081,6 +13102,7 @@ parametrize
     
 "
 selected_categories
+tasks
 try_config_params
 expected_rebuild
 "
@@ -13088,6 +13110,7 @@ expected_rebuild
 [
         
 (
+            
 [
 "
 Critical
@@ -13097,9 +13120,20 @@ desktop
 firefox
 "
 ]
+            
+[
+SP3_TASK
+]
+            
 {
 }
+            
+{
+SP3_TASK
+:
 20
+}
+        
 )
         
 (
@@ -13112,6 +13146,10 @@ Performance
 desktop
 firefox
 "
+]
+            
+[
+SP3_TASK
 ]
             
 {
@@ -13152,10 +13190,27 @@ firefox
             
 ]
             
+[
+SP3_TASK
+"
+browsertime
+-
+benchmark
+-
+firefox
+-
+motionmark
+"
+]
+            
 {
 }
             
-1
+{
+SP3_TASK
+:
+20
+}
         
 )
     
@@ -13166,6 +13221,7 @@ test_category_default_rebuild
 (
     
 selected_categories
+tasks
 try_config_params
 expected_rebuild
 )
@@ -13348,13 +13404,7 @@ get_perf_tasks_mock
 .
 return_value
 =
-[
-"
-a
--
-task
-"
-]
+tasks
 selected_categories
 [
 ]
@@ -13389,10 +13439,8 @@ call_args
 3
 ]
             
-actual_rebuild
+task_config
 =
-(
-                
 (
 actual_try_config
 or
@@ -13408,6 +13456,10 @@ try_task_config
 {
 }
 )
+            
+actual_rebuild
+=
+task_config
 .
 get
 (
@@ -13415,8 +13467,6 @@ get
 rebuild
 "
 1
-)
-            
 )
             
 assert

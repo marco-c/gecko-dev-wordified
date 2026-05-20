@@ -182,6 +182,10 @@ os
 import
 re
 from
+collections
+import
+defaultdict
+from
 slugid
 import
 nice
@@ -2467,6 +2471,39 @@ if
 rebuild
 :
         
+if
+isinstance
+(
+rebuild
+int
+)
+:
+            
+rebuild
+=
+defaultdict
+(
+lambda
+n
+=
+rebuild
+:
+n
+)
+        
+else
+:
+            
+rebuild
+=
+defaultdict
+(
+lambda
+:
+1
+rebuild
+)
+        
 for
 task
 in
@@ -2478,6 +2515,24 @@ values
 (
 )
 :
+            
+count
+=
+rebuild
+[
+task
+.
+label
+]
+            
+if
+count
+=
+=
+1
+:
+                
+continue
             
 chunk_index
 =
@@ -2555,7 +2610,7 @@ task_duplicates
 "
 ]
 =
-rebuild
+count
             
 elif
 task
@@ -2574,7 +2629,7 @@ task_duplicates
 "
 ]
 =
-rebuild
+count
     
 return
 taskgraph
