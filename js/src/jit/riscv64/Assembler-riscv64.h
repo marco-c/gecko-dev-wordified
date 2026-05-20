@@ -968,10 +968,7 @@ WasmTrapInstructionLength
 =
 2
 *
-sizeof
-(
-uint32_t
-)
+kInstrSize
 ;
 /
 /
@@ -1049,7 +1046,7 @@ AssemblerBufferSettings
 .
 instSize
 =
-4
+kInstrSize
 .
 guardSize
 =
@@ -3103,10 +3100,7 @@ PatchWrite_NearCallSize
 return
 7
 *
-sizeof
-(
-uint32_t
-)
+kInstrSize
 ;
 }
 static
@@ -3253,7 +3247,7 @@ NopSize
 )
 {
 return
-4
+kInstrSize
 ;
 }
 static

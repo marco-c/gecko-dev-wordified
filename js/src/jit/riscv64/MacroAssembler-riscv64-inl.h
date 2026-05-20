@@ -12515,7 +12515,7 @@ offset
 (
 )
 +
-4
+kInstrSize
 )
 )
 ;

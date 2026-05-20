@@ -7210,7 +7210,7 @@ getOffset
 (
 )
 +
-4
+kInstrSize
 )
 )
 ;
@@ -8370,7 +8370,7 @@ BufferOffset
 (
 next
 +
-4
+kInstrSize
 )
 )
 -
@@ -8503,7 +8503,7 @@ BufferOffset
 (
 next
 +
-4
+kInstrSize
 )
 )
 -
@@ -12161,7 +12161,7 @@ getOffset
 (
 )
 +
-4
+kInstrSize
 )
 )
 ;
