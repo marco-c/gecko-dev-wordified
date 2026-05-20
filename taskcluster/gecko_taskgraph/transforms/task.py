@@ -8747,6 +8747,10 @@ mac_sign_and_pkg
 "
             
 "
+mac_sign_pkg
+"
+            
+"
 mac_sign_and_pkg_hardened
 "
             

@@ -1501,14 +1501,8 @@ kind
 ]
         
 #
-build
--
-mac
--
-{
-signing
+Mac
 notarization
-}
 uses
 signingscript
 instead
@@ -1529,8 +1523,6 @@ kind
 endswith
 (
 "
--
-mac
 -
 notarization
 "
