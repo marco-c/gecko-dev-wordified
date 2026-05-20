@@ -2528,10 +2528,6 @@ BufferOffset
 pos
 BufferOffset
 target_pos
-bool
-trampoline
-=
-false
 )
 ;
 int32_t
