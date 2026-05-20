@@ -901,6 +901,9 @@ end
 EmbeddedVector
 <
 char
+disasm
+:
+:
 ReasonableBufferSize
 >
 buffer
