@@ -2455,8 +2455,6 @@ jumpChainTargetAt
 (
 BufferOffset
 pos
-bool
-is_internal
 )
 ;
 static
@@ -2468,8 +2466,6 @@ Instruction
 instruction
 BufferOffset
 pos
-bool
-is_internal
 Instruction
 *
 instruction2
@@ -2482,8 +2478,6 @@ jumpChainGetNextLink
 (
 BufferOffset
 pos
-bool
-is_internal
 )
 ;
 uint32_t
@@ -2492,8 +2486,6 @@ jumpChainUseNextLink
 Label
 *
 label
-bool
-is_internal
 )
 ;
 static
