@@ -360,7 +360,7 @@ function
 *
 param
 {
-nsIPK11Token
+nsIPKCS11Token
 }
 token
 *

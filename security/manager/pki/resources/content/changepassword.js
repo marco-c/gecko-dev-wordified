@@ -285,7 +285,7 @@ QueryInterface
 (
 Ci
 .
-nsIPK11Token
+nsIPKCS11Token
 )
 ;
 document
