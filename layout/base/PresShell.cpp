@@ -57647,12 +57647,6 @@ return
 true
 ;
 }
-/
-/
-FIXME
-:
-bug
-2035992
 if
 (
 auto
@@ -57662,7 +57656,7 @@ target
 aFrameToHandleEvent
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aGUIEvent
 )
