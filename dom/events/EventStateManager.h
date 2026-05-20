@@ -1852,6 +1852,17 @@ WidgetEvent
 nullptr
 )
 ;
+nsIContent
+*
+GetEventTargetContent
+(
+const
+WidgetEvent
+*
+=
+nullptr
+)
+;
 /
 /
 We
