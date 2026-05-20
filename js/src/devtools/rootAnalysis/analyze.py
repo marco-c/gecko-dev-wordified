@@ -2923,6 +2923,9 @@ quiet
 data
 =
 None
+firsterr
+=
+None
 for
 default
 in
@@ -2977,6 +2980,8 @@ e
         
 firsterr
 =
+firsterr
+or
 e
         
 pass
