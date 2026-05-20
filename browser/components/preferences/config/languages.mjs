@@ -5534,6 +5534,11 @@ translations
 inProgress
 :
 true
+subcategory
+:
+"
+translations
+"
 l10nId
 :
 "
