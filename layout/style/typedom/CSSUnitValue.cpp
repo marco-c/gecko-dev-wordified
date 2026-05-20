@@ -754,6 +754,12 @@ case
 eCSSProperty_grid_template_rows
 :
 case
+eCSSProperty_grid_auto_columns
+:
+case
+eCSSProperty_grid_auto_rows
+:
+case
 eCSSProperty_column_gap
 :
 case

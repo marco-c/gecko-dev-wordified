@@ -3154,13 +3154,6 @@ repr
 transparent
 )
 ]
-#
-[
-typed
-(
-todo_derive_fields
-)
-]
 pub
 struct
 GenericImplicitGridTracks
