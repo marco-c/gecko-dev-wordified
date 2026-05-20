@@ -4,6 +4,18 @@ std
 :
 fmt
 ;
+use
+http
+:
+:
+HeaderValue
+;
+use
+crate
+:
+:
+Error
+;
 /
 /
 /
@@ -43,8 +55,6 @@ I
 Result
 <
 E
-:
-:
 Error
 >
 where
@@ -57,8 +67,6 @@ Item
 &
 '
 i
-:
-:
 HeaderValue
 >
 T
@@ -162,8 +170,6 @@ map_err
 |
 _
 |
-:
-:
 Error
 :
 :

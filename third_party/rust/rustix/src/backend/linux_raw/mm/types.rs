@@ -2,10 +2,7 @@ use
 crate
 :
 :
-backend
-:
-:
-c
+ffi
 ;
 use
 bitflags
@@ -917,7 +914,10 @@ MAP_DROPPABLE
 const
 DROPPABLE
 =
-c
+linux_raw_sys
+:
+:
+general
 :
 :
 MAP_DROPPABLE
@@ -1995,7 +1995,7 @@ pub
 struct
 UserfaultfdFlags
 :
-c
+ffi
 :
 :
 c_uint

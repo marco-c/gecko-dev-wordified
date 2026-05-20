@@ -3247,7 +3247,6 @@ EINPROGRESS
 /
 /
 EINTR
-.
 /
 /
 /

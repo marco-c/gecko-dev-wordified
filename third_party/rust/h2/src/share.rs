@@ -4052,10 +4052,7 @@ Error
 >
 >
 {
-futures_util
-:
-:
-future
+crate
 :
 :
 poll_fn
@@ -4107,10 +4104,7 @@ crate
 Error
 >
 {
-futures_util
-:
-:
-future
+crate
 :
 :
 poll_fn
@@ -5180,10 +5174,7 @@ ping
 )
 ?
 ;
-futures_util
-:
-:
-future
+crate
 :
 :
 poll_fn

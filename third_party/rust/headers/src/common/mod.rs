@@ -737,6 +737,7 @@ test_decode
 <
 T
 :
+crate
 :
 :
 Header
@@ -758,6 +759,9 @@ T
 >
 {
 use
+crate
+:
+:
 HeaderMapExt
 ;
 let
@@ -821,6 +825,7 @@ test_encode
 <
 T
 :
+crate
 :
 :
 Header
@@ -840,6 +845,9 @@ http
 HeaderMap
 {
 use
+crate
+:
+:
 HeaderMapExt
 ;
 let
@@ -913,6 +921,9 @@ super
 ty
 ;
 use
+crate
+:
+:
 HeaderMapExt
 ;
 #
@@ -957,6 +968,7 @@ append
 <
 ty
 as
+crate
 :
 :
 Header
@@ -1066,6 +1078,7 @@ append
 <
 ty
 as
+crate
 :
 :
 Header

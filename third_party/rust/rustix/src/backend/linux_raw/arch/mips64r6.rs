@@ -82,8 +82,6 @@ it
 /
 /
 !
-Note
-that
 MIPS
 R6
 inline
@@ -95,11 +93,11 @@ t
 differ
 from
 MIPS
+because
+no
 /
 /
 !
-because
-no
 explicit
 call
 of
@@ -130,6 +128,8 @@ FromAsm
 RetReg
 SyscallNumber
 ToAsm
+as
+_
 A0
 A1
 A2
@@ -937,6 +937,11 @@ asm
 (
 "
 syscall
+"
+"
+teq
+0
+0
 "
 in
 (

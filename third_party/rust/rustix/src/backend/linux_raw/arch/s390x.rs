@@ -22,6 +22,8 @@ FromAsm
 RetReg
 SyscallNumber
 ToAsm
+as
+_
 A0
 A1
 A2
@@ -337,6 +339,12 @@ asm
 svc
 0
 "
+"
+j
+.
++
+2
+"
 in
 (
 "
@@ -362,7 +370,6 @@ to_asm
 options
 (
 nostack
-preserves_flags
 noreturn
 )
 )

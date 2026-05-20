@@ -25,6 +25,12 @@ bytes
 Bytes
 ;
 use
+http
+:
+:
+HeaderValue
+;
+use
 sha1
 :
 :
@@ -111,14 +117,6 @@ no_run
 /
 /
 /
-#
-extern
-crate
-headers
-;
-/
-/
-/
 use
 headers
 :
@@ -190,8 +188,6 @@ pub
 struct
 SecWebsocketAccept
 (
-:
-:
 HeaderValue
 )
 ;
@@ -304,7 +300,6 @@ ENGINE
 .
 encode
 (
-&
 sha1
 .
 finalize
@@ -316,8 +311,6 @@ finalize
 let
 val
 =
-:
-:
 HeaderValue
 :
 :

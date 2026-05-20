@@ -13,10 +13,7 @@ use
 crate
 :
 :
-backend
-:
-:
-c
+ffi
 ;
 use
 bitflags
@@ -88,7 +85,7 @@ pub
 struct
 CreateFlags
 :
-c
+ffi
 :
 :
 c_uint
@@ -221,7 +218,7 @@ pub
 struct
 WatchFlags
 :
-c
+ffi
 :
 :
 c_uint
@@ -639,7 +636,7 @@ pub
 struct
 ReadFlags
 :
-c
+ffi
 :
 :
 c_uint

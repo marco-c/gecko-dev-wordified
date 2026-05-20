@@ -167,14 +167,6 @@ Examples
 /
 /
 #
-extern
-crate
-headers
-;
-/
-/
-/
-#
 [
 macro_use
 ]

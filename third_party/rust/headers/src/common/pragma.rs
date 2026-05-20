@@ -1,4 +1,7 @@
 use
+http
+:
+:
 HeaderValue
 ;
 /
@@ -222,14 +225,6 @@ Examples
 /
 /
 /
-/
-/
-/
-#
-extern
-crate
-headers
-;
 /
 /
 /

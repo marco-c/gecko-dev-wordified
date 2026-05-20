@@ -86,6 +86,8 @@ FromAsm
 RetReg
 SyscallNumber
 ToAsm
+as
+_
 A0
 A1
 A2
@@ -894,6 +896,11 @@ asm
 (
 "
 syscall
+"
+"
+teq
+0
+0
 "
 in
 (

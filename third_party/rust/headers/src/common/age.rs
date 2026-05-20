@@ -8,6 +8,9 @@ time
 Duration
 ;
 use
+crate
+:
+:
 util
 :
 :
@@ -323,14 +326,6 @@ Example
 /
 /
 /
-/
-/
-/
-#
-extern
-crate
-headers
-;
 /
 /
 /

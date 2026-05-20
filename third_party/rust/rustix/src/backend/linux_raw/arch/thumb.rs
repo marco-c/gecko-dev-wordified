@@ -77,6 +77,8 @@ FromAsm
 RetReg
 SyscallNumber
 ToAsm
+as
+_
 A0
 A1
 A2
@@ -482,6 +484,11 @@ nr
 "
 svc
 0
+"
+"
+udf
+#
+16
 "
 nr
 =

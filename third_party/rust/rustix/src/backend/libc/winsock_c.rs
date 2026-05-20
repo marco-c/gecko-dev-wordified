@@ -208,9 +208,9 @@ u16
 For
 better
 compatibility
-/
-/
 with
+/
+/
 Unix
 -
 family
@@ -218,7 +218,7 @@ APIs
 redeclare
 them
 as
-u32
+i32
 .
 pub
 (
@@ -600,7 +600,13 @@ time_t
 pub
 tv_nsec
 :
-i64
+crate
+:
+:
+ffi
+:
+:
+c_long
 }
 pub
 type

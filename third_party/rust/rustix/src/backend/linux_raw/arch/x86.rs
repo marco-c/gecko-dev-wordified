@@ -129,6 +129,8 @@ FromAsm
 RetReg
 SyscallNumber
 ToAsm
+as
+_
 A0
 A1
 A2
@@ -379,6 +381,9 @@ call
 {
 callee
 }
+"
+"
+ud2
 "
 callee
 =
@@ -1803,6 +1808,9 @@ asm
 "
 int
 0x80
+"
+"
+ud2
 "
 in
 (
