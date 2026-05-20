@@ -4576,12 +4576,18 @@ nsIContent
 nsCanvasFrame
 :
 :
-GetContentForEvent
+GetExplicitEventTargetContent
 (
 const
 WidgetEvent
 *
 aEvent
+/
+*
+=
+nullptr
+*
+/
 )
 const
 {
@@ -4594,7 +4600,7 @@ content
 nsIFrame
 :
 :
-GetContentForEvent
+GetExplicitEventTargetContent
 (
 aEvent
 )
@@ -4622,7 +4628,7 @@ return
 kid
 -
 >
-GetContentForEvent
+GetExplicitEventTargetContent
 (
 aEvent
 )
