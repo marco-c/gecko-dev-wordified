@@ -1430,6 +1430,7 @@ PartialEq
 SpecifiedValueInfo
 ToCss
 ToShmem
+ToTyped
 )
 ]
 #
@@ -1629,13 +1630,6 @@ SpecifiedValueInfo
 ToCss
 ToShmem
 ToTyped
-)
-]
-#
-[
-typed
-(
-todo_derive_fields
 )
 ]
 pub

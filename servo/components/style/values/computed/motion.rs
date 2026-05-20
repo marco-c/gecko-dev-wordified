@@ -75,6 +75,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 values
 :
 :
