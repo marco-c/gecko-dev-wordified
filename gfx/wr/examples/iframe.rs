@@ -451,14 +451,6 @@ paired_with_perspective
 :
 false
 }
-SpatialTreeItemKey
-:
-:
-new
-(
-0
-0
-)
 )
 ;
 /

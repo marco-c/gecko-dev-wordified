@@ -7131,11 +7131,6 @@ wr
 RasterSpace
 &
 aRasterSpace
-wr
-:
-:
-SpatialTreeItemKey
-aSCOriginKey
 )
 {
 WRDL_LOG
@@ -7369,7 +7364,6 @@ Length
 (
 )
 aRasterSpace
-aSCOriginKey
 )
 ;
 return
@@ -7827,11 +7821,6 @@ wr
 LayoutVector2D
 &
 aAppliedOffset
-wr
-:
-:
-SpatialTreeItemKey
-aKey
 const
 WrAnimationProperty
 *
@@ -7860,7 +7849,6 @@ aLeftMargin
 aVerticalBounds
 aHorizontalBounds
 aAppliedOffset
-aKey
 aAnimation
 )
 ;
@@ -8238,11 +8226,6 @@ wr
 :
 HasScrollLinkedEffect
 aHasScrollLinkedEffect
-wr
-:
-:
-SpatialTreeItemKey
-aKey
 )
 {
 auto
@@ -8323,7 +8306,6 @@ aClipRect
 aScrollOffset
 aScrollOffsetGeneration
 aHasScrollLinkedEffect
-aKey
 )
 ;
 WRDL_LOG
