@@ -453,15 +453,6 @@ kCJalOffsetBits
 -
 1
 ;
-static
-constexpr
-int
-kTrampolineSlotsSize
-=
-2
-*
-kInstrSize
-;
 static_assert
 (
 kCJalOffsetBits
