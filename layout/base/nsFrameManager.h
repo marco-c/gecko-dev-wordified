@@ -403,8 +403,6 @@ nsIFrame
 *
 *
 Capture
-/
-restore
 frame
 state
 for
@@ -468,17 +466,6 @@ aFrame
 /
 void
 CaptureFrameState
-(
-nsIFrame
-*
-aFrame
-nsILayoutHistoryState
-*
-aState
-)
-;
-void
-RestoreFrameState
 (
 nsIFrame
 *
