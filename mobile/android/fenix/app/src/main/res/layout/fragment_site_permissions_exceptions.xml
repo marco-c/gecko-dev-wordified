@@ -279,15 +279,6 @@ DestructiveButton
 "
 android
 :
-background
-=
-"
-drawable
-/
-button_background
-"
-android
-:
 text
 =
 "
