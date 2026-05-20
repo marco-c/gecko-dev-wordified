@@ -23227,11 +23227,6 @@ JS_DISASM_RISCV64
 disassembleInstr
 (
 auipc_
--
->
-InstructionBits
-(
-)
 )
 ;
 #
@@ -23272,11 +23267,6 @@ JS_DISASM_RISCV64
 disassembleInstr
 (
 jalr_
--
->
-InstructionBits
-(
-)
 )
 ;
 #
