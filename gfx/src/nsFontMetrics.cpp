@@ -1191,7 +1191,7 @@ x
 mP2A
 )
 static
-nscoord
+gfxFloat
 GetBaseline
 (
 const
