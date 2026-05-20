@@ -637,6 +637,8 @@ mNativeValue
 MOZ_INIT_OUTSIDE_CTOR
 bool
 mIsDefined
+=
+false
 ;
 /
 /
@@ -667,6 +669,8 @@ mRootNativeValue
 MOZ_INIT_OUTSIDE_CTOR
 bool
 mIsRootDefined
+=
+false
 ;
 }
 ;
