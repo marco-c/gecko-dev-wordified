@@ -37814,17 +37814,6 @@ moved
 .
 *
 /
-rt
--
->
-geckoProfiler
-(
-)
-.
-checkStringsMapAfterMovingGC
-(
-)
-;
 for
 (
 ZonesIter

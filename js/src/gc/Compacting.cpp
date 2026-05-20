@@ -5318,17 +5318,6 @@ fixupAllCrossCompartmentWrappersAfterMovingGC
 trc
 )
 ;
-rt
--
->
-geckoProfiler
-(
-)
-.
-fixupStringsMapAfterMovingGC
-(
-)
-;
 /
 /
 Mark
