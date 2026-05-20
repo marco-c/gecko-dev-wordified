@@ -4180,7 +4180,9 @@ aDestination
 ;
 for
 (
+const
 auto
+&
 range
 :
 aSnapInfo
@@ -4256,7 +4258,9 @@ break
 }
 for
 (
+const
 auto
+&
 range
 :
 aSnapInfo

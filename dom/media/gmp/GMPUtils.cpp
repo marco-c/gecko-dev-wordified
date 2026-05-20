@@ -991,7 +991,9 @@ lines
 ;
 for
 (
+const
 nsCString
+&
 line
 :
 lines

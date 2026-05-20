@@ -13479,7 +13479,9 @@ directiveNames
 ;
 for
 (
+const
 nsString
+&
 dir
 :
 directiveNames
@@ -13702,7 +13704,9 @@ directiveNames
 ;
 for
 (
+const
 nsString
+&
 dir
 :
 directiveNames
@@ -14353,7 +14357,9 @@ directiveNames
 ;
 for
 (
+const
 nsString
+&
 dir
 :
 directiveNames

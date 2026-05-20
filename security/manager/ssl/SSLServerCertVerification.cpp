@@ -3884,7 +3884,9 @@ sctsFromTiledLogs
 ;
 for
 (
+const
 auto
+&
 verifiedSCT
 :
 info

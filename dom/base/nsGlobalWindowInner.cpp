@@ -39019,10 +39019,12 @@ childShell
 }
 for
 (
+const
 nsCOMPtr
 <
 nsIDocShellTreeItem
 >
+&
 childShell
 :
 children

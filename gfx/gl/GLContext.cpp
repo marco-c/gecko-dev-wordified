@@ -13328,7 +13328,9 @@ rawExts
 {
 for
 (
+const
 auto
+&
 extension
 :
 nsDependentCString
