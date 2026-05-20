@@ -42267,8 +42267,8 @@ enabled_on
 profiles
 "
 "
-{
-}
+[
+]
 "
 )
 ;
