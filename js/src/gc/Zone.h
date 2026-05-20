@@ -5413,7 +5413,7 @@ jit
 :
 JitZone
 *
-getJitZone
+getOrCreateJitZone
 (
 JSContext
 *
@@ -5456,9 +5456,7 @@ cx
 )
 {
 return
-!
-!
-getJitZone
+getOrCreateJitZone
 (
 cx
 )

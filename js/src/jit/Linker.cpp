@@ -246,7 +246,7 @@ zone
 )
 -
 >
-getJitZone
+getOrCreateJitZone
 (
 cx
 )
@@ -270,7 +270,7 @@ fail
 cx
 )
 here
-getJitZone
+getOrCreateJitZone
 reports
 OOM
 .
