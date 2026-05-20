@@ -922,6 +922,17 @@ GetFlattenedTreeParentElement
 (
 )
 ;
+/
+/
+Rely
+on
+the
+behaviour
+of
+document
+.
+scrollingElement
+.
 Element
 *
 root
@@ -934,7 +945,7 @@ OwnerDoc
 )
 -
 >
-GetDocumentElement
+GetScrollingElementNoFlush
 (
 )
 ;
@@ -3143,7 +3154,7 @@ OwnerDoc
 )
 -
 >
-GetDocumentElement
+GetScrollingElementNoFlush
 (
 )
 PseudoStyleRequest
