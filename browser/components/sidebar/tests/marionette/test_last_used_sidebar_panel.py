@@ -385,7 +385,7 @@ shown
         
 self
 .
-assertEqual
+assertFalse
 (
             
 self
@@ -393,7 +393,6 @@ self
 get_current_sidebar_id
 (
 )
-None
 "
 The
 sidebar
