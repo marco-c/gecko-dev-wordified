@@ -179,7 +179,7 @@ call
 begin
 to
 reset
-mStartupCrashTrackingEnded
+mStartupCrashAndHangTrackingEnded
 appStartup
 .
 trackStartupCrashBegin
