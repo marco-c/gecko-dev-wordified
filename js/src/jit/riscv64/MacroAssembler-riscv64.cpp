@@ -23617,11 +23617,10 @@ Instruction
 *
 inst
 =
-reinterpret_cast
-<
 Instruction
-*
->
+:
+:
+At
 (
 farJump
 +
