@@ -1035,13 +1035,6 @@ it
 )
 }
 )
-}
-.
-pointerInput
-(
-Unit
-)
-{
 var
 totalDrag
 =
