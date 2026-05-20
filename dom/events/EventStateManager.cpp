@@ -31997,12 +31997,6 @@ if
 mCurrentTarget
 )
 {
-/
-/
-FIXME
-:
-bug
-2035992
 nsCOMPtr
 <
 nsIContent
@@ -32012,7 +32006,7 @@ targetContent
 mCurrentTarget
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aEvent
 )
