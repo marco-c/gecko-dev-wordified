@@ -281,7 +281,7 @@ R
 .
 id
 .
-action_aiControlsFragment_to_pageSummariesSettingsFragment
+pageSummariesSettingsFragment
 label
 =
 R
@@ -303,7 +303,7 @@ R
 .
 id
 .
-action_aiControlsFragment_to_translationsSettingsFragment
+translations_settings_graph
 label
 =
 R
