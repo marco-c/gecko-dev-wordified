@@ -735,7 +735,7 @@ yaml
 "
 services
 /
-common
+settings
 /
 metrics
 .
