@@ -5034,15 +5034,6 @@ fixupAfterMovingGC
 (
 )
 ;
-zone
--
->
-fixupScriptMapsAfterMovingGC
-(
-&
-trc
-)
-;
 /
 /
 Fixup

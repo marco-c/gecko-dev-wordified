@@ -2124,7 +2124,7 @@ Create
 Zone
 :
 :
-scriptFilenameMap
+scriptFinalWarmUpCountMap
 if
 necessary
 .
@@ -2156,9 +2156,16 @@ map
 =
 MakeUnique
 <
+JS
+:
+:
+WeakCache
+<
 ScriptFinalWarmUpCountMap
 >
+>
 (
+zone
 )
 ;
 if
@@ -2238,6 +2245,10 @@ zone
 scriptFinalWarmUpCountMap
 -
 >
+get
+(
+)
+.
 put
 (
 script
