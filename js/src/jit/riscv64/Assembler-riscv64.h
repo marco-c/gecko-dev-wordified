@@ -3255,12 +3255,6 @@ kRs1Shift
 kImm12Shift
 )
 ;
-*
-reinterpret_cast
-<
-Instr
-*
->
 (
 inst
 +
@@ -3268,8 +3262,12 @@ inst
 *
 kInstrSize
 )
-=
+-
+>
+SetInstructionBits
+(
 jalr_
+)
 ;
 }
 static
