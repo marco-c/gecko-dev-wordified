@@ -428,13 +428,6 @@ uint16_t
 uimm9
 )
 ;
-int
-CJumpOffset
-(
-Instr
-instr
-)
-;
 inline
 int16_t
 cjumpOffset
