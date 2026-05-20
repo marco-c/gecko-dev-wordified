@@ -6016,12 +6016,6 @@ HTMLOptionElement
 >
 option
 ;
-/
-/
-FIXME
-:
-bug
-2035992
 for
 (
 nsIContent
@@ -6038,7 +6032,7 @@ EventStateManager
 )
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 )
 ;
