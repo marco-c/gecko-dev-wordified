@@ -2642,8 +2642,9 @@ ImplicitlyCapturePointer
 nsIFrame
 *
 aFrame
+const
 WidgetEvent
-*
+&
 aEvent
 )
 ;
