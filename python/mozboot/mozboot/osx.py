@@ -56,6 +56,8 @@ MPL
 import
 platform
 import
+ssl
+import
 subprocess
 import
 sys
@@ -1782,14 +1784,12 @@ print
 BREW_INSTALL
 )
         
-bootstrap
+ssl_context
 =
-urlopen
+ssl
+.
+create_default_context
 (
-            
-url
-=
-HOMEBREW_BOOTSTRAP
 cafile
 =
 certifi
@@ -1797,6 +1797,17 @@ certifi
 where
 (
 )
+)
+        
+bootstrap
+=
+urlopen
+(
+            
+HOMEBREW_BOOTSTRAP
+context
+=
+ssl_context
 timeout
 =
 20
