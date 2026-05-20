@@ -523,10 +523,14 @@ waitForViewLoad
 win
 )
 ;
-modelHubCategory
+AboutAddonsTestUtils
 .
-click
+clickCategoryButton
 (
+win
+"
+mlmodel
+"
 )
 ;
 await
