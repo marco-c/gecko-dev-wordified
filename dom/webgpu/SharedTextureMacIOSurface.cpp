@@ -254,7 +254,13 @@ CreateIOSurface
 (
 aWidth
 aHeight
-true
+MacIOSurface
+:
+:
+AllowAlpha
+:
+:
+Yes
 )
 ;
 if
@@ -526,6 +532,12 @@ mSurface
 -
 >
 GetYUVColorSpace
+(
+)
+mSurface
+-
+>
+GetTransferFunction
 (
 )
 std
