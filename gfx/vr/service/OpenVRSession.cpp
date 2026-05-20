@@ -8857,6 +8857,12 @@ MacIOSurface
 LookupSurface
 (
 aTextureHandle
+/
+*
+aHasAlpha
+*
+/
+false
 gfx
 :
 :
@@ -8871,13 +8877,6 @@ TransferFunction
 :
 :
 SRGB
-MacIOSurface
-:
-:
-AllowAlpha
-:
-:
-No
 )
 ;
 if
