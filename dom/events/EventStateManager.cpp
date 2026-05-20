@@ -41544,12 +41544,6 @@ if
 sLastDragOverFrame
 )
 {
-/
-/
-FIXME
-:
-bug
-2035992
 nsCOMPtr
 <
 nsIContent
@@ -41559,7 +41553,7 @@ lastContent
 sLastDragOverFrame
 -
 >
-GetExplicitEventTargetContent
+GetEventTargetContent
 (
 aDragEvent
 )
