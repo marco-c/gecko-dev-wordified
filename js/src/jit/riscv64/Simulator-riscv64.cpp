@@ -21015,7 +21015,7 @@ RO_FSGNJ_S
 /
 /
 RO_FSGNJN_S
-RO_FSQNJX_S
+RO_FSGNJX_S
 switch
 (
 instr_
@@ -21081,7 +21081,7 @@ case
 {
 /
 /
-RO_FSQNJX_S
+RO_FSGNJX_S
 set_frd
 (
 fsgnj32
@@ -22255,7 +22255,7 @@ RO_FSGNJ_D
 /
 /
 RO_FSGNJN_D
-RO_FSQNJX_D
+RO_FSGNJX_D
 switch
 (
 instr_
@@ -22321,7 +22321,7 @@ case
 {
 /
 /
-RO_FSQNJX_D
+RO_FSGNJX_D
 set_drd
 (
 fsgnj64
