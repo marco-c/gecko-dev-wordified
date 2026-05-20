@@ -4507,6 +4507,13 @@ Servo_CSSSupports
 aDeclaration
 &
 params
+/
+*
+aUrlData
+=
+*
+/
+nullptr
 )
 ;
 }
