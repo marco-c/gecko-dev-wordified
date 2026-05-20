@@ -428,6 +428,13 @@ h
 #
 endif
 #
+include
+"
+nsComponentManagerUtils
+.
+h
+"
+#
 endif
 #
 include
