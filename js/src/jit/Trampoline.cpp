@@ -1720,6 +1720,10 @@ FrameType
 :
 :
 IonICCall
+FrameType
+:
+:
+TrampolineNative
 }
 )
 ;

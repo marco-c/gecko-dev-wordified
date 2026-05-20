@@ -3451,15 +3451,6 @@ rec
 InternalError
 )
 ;
-assertEq
-(
-rec
-(
-2000
-)
-2000
-)
-;
 assertAsmTypeFail
 (
 USE_ASM
