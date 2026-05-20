@@ -136,6 +136,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MFCDMChild
+final
 )
 ;
 explicit
@@ -481,9 +482,12 @@ mKeySystem
 ;
 }
 void
-IPDLActorDestroyed
+ActorDestroy
 (
+ActorDestroyReason
+aWhy
 )
+override
 ;
 void
 EnsureRemote
@@ -545,12 +549,6 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mManagerThread
-;
-RefPtr
-<
-MFCDMChild
->
-mIPDLSelfRef
 ;
 using
 RemotePromise

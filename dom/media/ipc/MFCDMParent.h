@@ -248,6 +248,7 @@ public
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MFCDMParent
+final
 )
 ;
 MFCDMParent
@@ -382,6 +383,14 @@ return
 mKeySystem
 ;
 }
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+override
+;
 mozilla
 :
 :
@@ -712,11 +721,6 @@ OnHardwareContextReset
 (
 )
 ;
-void
-Destroy
-(
-)
-;
 private
 :
 ~
@@ -982,12 +986,6 @@ static
 inline
 BSTR
 sWidevineL1Path
-;
-RefPtr
-<
-MFCDMParent
->
-mIPDLSelfRef
 ;
 Microsoft
 :

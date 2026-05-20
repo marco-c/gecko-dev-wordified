@@ -155,6 +155,7 @@ us
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 RemoteDecoderParent
+final
 )
 RemoteDecoderParent
 (
@@ -189,11 +190,6 @@ aTrackingId
 RemoteCDMParent
 *
 aCDM
-)
-;
-void
-Destroy
-(
 )
 ;
 /
@@ -544,12 +540,6 @@ DecodedData
 &
 aOutput
 )
-;
-RefPtr
-<
-RemoteDecoderParent
->
-mIPDLSelfRef
 ;
 const
 RefPtr
