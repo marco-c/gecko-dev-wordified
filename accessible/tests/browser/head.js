@@ -585,8 +585,6 @@ tests
 /
 mochitest
 /
-promisified
--
 events
 .
 js

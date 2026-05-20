@@ -116,8 +116,6 @@ common
 .
 js
 and
-promisified
--
 events
 .
 js
@@ -152,8 +150,6 @@ MOCHITESTS_DIR
 name
 :
 "
-promisified
--
 events
 .
 js

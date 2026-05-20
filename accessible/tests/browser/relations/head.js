@@ -113,10 +113,7 @@ this
 /
 /
 Loading
-and
-common
-.
-js
+helpers
 from
 accessible
 /
@@ -132,8 +129,6 @@ as
 /
 well
 as
-promisified
--
 events
 .
 js
@@ -180,8 +175,6 @@ MOCHITESTS_DIR
 name
 :
 "
-promisified
--
 events
 .
 js

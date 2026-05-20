@@ -38,8 +38,6 @@ from
 .
 .
 /
-promisified
--
 events
 .
 js

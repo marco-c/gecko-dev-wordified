@@ -112,10 +112,7 @@ this
 /
 /
 Loading
-and
-common
-.
-js
+helpers
 from
 accessible
 /
@@ -126,16 +123,6 @@ mochitest
 for
 all
 tests
-as
-/
-/
-well
-as
-promisified
--
-events
-.
-js
 .
 /
 *
@@ -195,8 +182,6 @@ MOCHITESTS_DIR
 name
 :
 "
-promisified
--
 events
 .
 js

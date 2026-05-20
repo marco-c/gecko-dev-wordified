@@ -17,8 +17,6 @@ import
 globals
 -
 from
-promisified
--
 events
 .
 js
