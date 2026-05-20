@@ -14811,6 +14811,7 @@ AsKeyframeEffect
 MaybeUpdateKeyframeComputedOffsets
 (
 mTimeline
+mTimelineRange
 )
 ;
 }

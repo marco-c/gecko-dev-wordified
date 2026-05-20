@@ -186,6 +186,17 @@ mozilla
 /
 dom
 /
+ElementInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 KeyframeEffect
 .
 h
@@ -706,6 +717,13 @@ dom
 AnimationTimeline
 *
 aTimeline
+const
+dom
+:
+:
+AnimationRange
+&
+aRange
 )
 {
 aEffect
@@ -721,6 +739,8 @@ aKeyframes
 )
 mComputedStyle
 aTimeline
+&
+aRange
 )
 ;
 }
@@ -1670,6 +1690,7 @@ move
 aNewKeyframes
 )
 aTimeline
+aTimelineRange
 )
 ;
 }
@@ -2128,7 +2149,7 @@ e
 e
 -
 >
-GetParentElement
+GetFlattenedTreeParentElement
 (
 )
 )
@@ -3280,6 +3301,7 @@ move
 keyframes
 )
 timeline
+range
 )
 ;
 auto

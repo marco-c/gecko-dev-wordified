@@ -3688,6 +3688,15 @@ aEndValue
 &
 aNewStyle
 timeline
+nullptr
+/
+*
+No
+AnimationRange
+for
+transitions
+*
+/
 )
 ;
 if

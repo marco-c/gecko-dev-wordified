@@ -1221,6 +1221,10 @@ const
 AnimationTimeline
 *
 aTimeline
+const
+AnimationRange
+*
+aRange
 )
 ;
 /
@@ -2660,6 +2664,10 @@ const
 AnimationTimeline
 *
 aTimelne
+const
+AnimationRange
+&
+aRange
 )
 ;
 protected
