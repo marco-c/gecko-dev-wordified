@@ -1436,6 +1436,29 @@ mangled
                 
 return
             
+if
+line
+.
+startswith
+(
+"
+!
+"
+)
+:
+                
+#
+JSON
+describing
+the
+format
+and
+available
+attributes
+.
+                
+return
+            
 #
 Sample
 lines
