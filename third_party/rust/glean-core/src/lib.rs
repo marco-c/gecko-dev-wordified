@@ -5091,7 +5091,7 @@ MallocSizeOf
 core
 :
 :
-with_glean
+with_opt_glean
 (
 |
 glean
@@ -5102,6 +5102,11 @@ size_of
 (
 ops
 )
+)
+.
+unwrap_or
+(
+0
 )
 }
 /
