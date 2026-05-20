@@ -1,14 +1,4 @@
 /
-*
-eslint
--
-disable
-no
--
-undef
-*
-/
-/
 /
 Trigger
 a
