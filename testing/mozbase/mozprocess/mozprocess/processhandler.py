@@ -5078,7 +5078,7 @@ Exception
                         
 self
 .
-debug
+info
 (
                             
 "
@@ -5144,7 +5144,7 @@ is_alive
                             
 self
 .
-debug
+info
 (
                                 
 "
