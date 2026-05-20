@@ -5028,11 +5028,6 @@ false
 }
 switch
 (
-nsHTMLTags
-:
-:
-CaseSensitiveAtomTagToId
-(
 aContent
 .
 NodeInfo
@@ -5040,9 +5035,13 @@ NodeInfo
 )
 -
 >
-NameAtom
+HTMLTag
 (
 )
+.
+valueOr
+(
+eHTMLTag_unknown
 )
 )
 {
