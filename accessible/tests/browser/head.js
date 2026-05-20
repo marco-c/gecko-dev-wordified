@@ -583,8 +583,10 @@ accessible
 /
 tests
 /
-browser
+mochitest
 /
+promisified
+-
 events
 .
 js
