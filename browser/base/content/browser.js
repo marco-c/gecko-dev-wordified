@@ -19480,7 +19480,7 @@ for
 this
 .
 )
-const
+var
 Win10TabletModeUpdater
 =
 {
