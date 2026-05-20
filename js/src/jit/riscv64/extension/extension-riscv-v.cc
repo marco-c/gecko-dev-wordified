@@ -60,11 +60,13 @@ CAN_USE_RVV
 #
 include
 "
-src
+jit
 /
-codegen
+riscv64
 /
-assembler
+base
+/
+Integer
 .
 h
 "
