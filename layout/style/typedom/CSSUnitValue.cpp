@@ -748,6 +748,12 @@ case
 eCSSProperty_transition_duration
 :
 case
+eCSSProperty_grid_template_columns
+:
+case
+eCSSProperty_grid_template_rows
+:
+case
 eCSSProperty_column_gap
 :
 case
