@@ -4979,7 +4979,7 @@ menu
 function
 createHighlightButton
 (
-highlighterTypes
+highlighters
 id
 )
 {
@@ -5006,7 +5006,6 @@ buttons
 id
 }
 )
-highlighterTypes
 isToolSupported
 :
 toolbox
@@ -5046,7 +5045,7 @@ Promise
 .
 all
 (
-highlighterTypes
+highlighters
 .
 map
 (
@@ -5205,7 +5204,7 @@ false
 ;
 }
 return
-highlighterTypes
+highlighters
 .
 every
 (
