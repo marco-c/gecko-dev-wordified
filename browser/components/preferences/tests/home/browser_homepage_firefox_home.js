@@ -153,18 +153,6 @@ pushPrefEnv
 set
 :
 [
-[
-"
-browser
-.
-settings
--
-redesign
-.
-enabled
-"
-true
-]
 /
 /
 Opening
@@ -319,7 +307,7 @@ shadowRoot
 querySelector
 (
 "
-h2
+h3
 "
 )
 ;
