@@ -2419,16 +2419,6 @@ yaml
 "
     
 "
-dom
-/
-security
-/
-pings
-.
-yaml
-"
-    
-"
 services
 /
 fxaccounts

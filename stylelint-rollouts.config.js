@@ -1238,17 +1238,6 @@ browser
 /
 components
 /
-security
-/
-unexpectedScriptLoad
-.
-css
-"
-"
-browser
-/
-components
-/
 sidebar
 /
 sidebar
