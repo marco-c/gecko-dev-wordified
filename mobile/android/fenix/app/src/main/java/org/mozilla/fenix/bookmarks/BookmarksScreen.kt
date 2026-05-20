@@ -1610,10 +1610,13 @@ rememberNavController
 val
 store
 =
+remember
+{
 buildStore
 (
 navController
 )
+}
 val
 isPrivateModeLocked
 by
