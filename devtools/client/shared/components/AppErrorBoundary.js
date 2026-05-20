@@ -1651,6 +1651,11 @@ contentProcessStack
 |
 "
 "
+session_id
+:
+toolbox
+.
+sessionId
 stack
 :
 error
