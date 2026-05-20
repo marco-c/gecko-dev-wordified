@@ -540,6 +540,11 @@ helper_swipe_gesture
 html
 "
 "
+helper_swipe_gesture_rotated_vertical
+.
+html
+"
+"
 !
 /
 gfx
