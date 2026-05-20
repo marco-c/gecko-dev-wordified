@@ -16161,6 +16161,12 @@ aPanInput
 AllowsSwipe
 (
 )
+&
+&
+!
+aApzResult
+.
+mTargetCanScrollHorizontally
 )
 {
 SwipeInfo
