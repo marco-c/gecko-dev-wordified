@@ -2959,10 +2959,7 @@ recursion
 void
 TraceCycleCollectorChildren
 (
-JS
-:
-:
-CallbackTracer
+JSTracer
 *
 trc
 Shape

@@ -899,10 +899,7 @@ gc
 :
 TraceCycleCollectorChildren
 (
-JS
-:
-:
-CallbackTracer
+JSTracer
 *
 trc
 Shape
