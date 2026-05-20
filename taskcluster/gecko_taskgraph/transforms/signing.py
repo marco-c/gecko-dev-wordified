@@ -1501,8 +1501,14 @@ kind
 ]
         
 #
-Mac
+build
+-
+mac
+-
+{
+signing
 notarization
+}
 uses
 signingscript
 instead
@@ -1523,6 +1529,8 @@ kind
 endswith
 (
 "
+-
+mac
 -
 notarization
 "
