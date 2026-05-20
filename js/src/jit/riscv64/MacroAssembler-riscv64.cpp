@@ -23003,16 +23003,6 @@ Acquire
 (
 )
 ;
-int32_t
-imm32
-=
-1
-*
-sizeof
-(
-uint32_t
-)
-;
 auto
 [
 Hi20
@@ -23021,7 +23011,7 @@ Lo12
 =
 ToHigh20Low12
 (
-imm32
+0
 )
 ;
 auipc
