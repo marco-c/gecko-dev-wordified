@@ -2316,6 +2316,15 @@ Windows
 script
 "
 .
+wsb
+"
+/
+/
+Windows
+Sandbox
+configuration
+"
+.
 wsc
 "
 /
