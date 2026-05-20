@@ -1362,9 +1362,7 @@ will
 be
 logged
 via
-|
-dumpn
-|
+MOZ_LOG
 .
 If
 you
@@ -2216,9 +2214,7 @@ will
 be
 logged
 via
-|
-dumpn
-|
+MOZ_LOG
 .
 *
 If
@@ -2589,9 +2585,7 @@ will
 be
 logged
 via
-|
-dumpn
-|
+MOZ_LOG
 .
 If
 you
@@ -4199,9 +4193,7 @@ be
 logged
 *
 via
-|
-dumpn
-|
+MOZ_LOG
 .
 If
 you
