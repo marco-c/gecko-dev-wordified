@@ -228,10 +228,14 @@ BookmarkingUI
 .
 star
 ;
-bookmarkStar
+EventUtils
 .
-click
+synthesizeMouseAtCenter
 (
+bookmarkStar
+{
+}
+win
 )
 ;
 await
