@@ -9068,7 +9068,7 @@ case
 Tag
 :
 :
-Fr
+Flex
 :
 {
 nsAutoString
@@ -9081,9 +9081,11 @@ AppendCSSNumber
 (
 aBreadth
 .
-AsFr
+AsFlex
 (
 )
+.
+_0
 tmpStr
 )
 ;
@@ -9364,7 +9366,7 @@ IsAuto
 &
 max
 .
-IsFr
+IsFlex
 (
 )
 )

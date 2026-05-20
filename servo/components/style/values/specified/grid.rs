@@ -123,6 +123,7 @@ grid
 :
 :
 {
+Flex
 GridTemplateComponent
 ImplicitGridTracks
 RepeatCount
@@ -190,10 +191,7 @@ crate
 values
 :
 :
-{
-CSSFloat
 CustomIdent
-}
 ;
 use
 cssparser
@@ -219,6 +217,9 @@ ParseError
 StyleParseErrorKind
 }
 ;
+impl
+Flex
+{
 /
 /
 /
@@ -228,9 +229,8 @@ single
 flexible
 length
 .
-pub
 fn
-parse_flex
+parse
 <
 '
 i
@@ -254,7 +254,7 @@ t
 >
 Result
 <
-CSSFloat
+Self
 ParseError
 <
 '
@@ -311,7 +311,10 @@ is_sign_positive
 >
 Ok
 (
+Self
+(
 value
+)
 )
 ref
 t
@@ -330,6 +333,7 @@ clone
 )
 )
 )
+}
 }
 }
 impl
@@ -563,7 +567,10 @@ input
 .
 try_parse
 (
-parse_flex
+Flex
+:
+:
+parse
 )
 {
 return
@@ -572,7 +579,7 @@ Ok
 TrackBreadth
 :
 :
-Fr
+Flex
 (
 f
 )
