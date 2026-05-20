@@ -1728,10 +1728,10 @@ See
 \
 ref
 encctlcodes
+*
 "
 the
 list
-*
 of
 available
 requests
@@ -2481,6 +2481,7 @@ codes
 /
 /
 *
+*
 {
 *
 /
@@ -3219,6 +3220,7 @@ define
 OV_ECTL_RATEMANAGE_HARD
 0x13
 /
+*
 *
 }
 *

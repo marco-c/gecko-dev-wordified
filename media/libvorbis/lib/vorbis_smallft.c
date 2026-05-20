@@ -473,6 +473,7 @@ ifac
 )
 {
 static
+const
 int
 ntryh
 [
@@ -487,6 +488,7 @@ ntryh
 }
 ;
 static
+const
 float
 tpi
 =
@@ -1381,6 +1383,7 @@ wa3
 )
 {
 static
+const
 float
 hsqt2
 =
@@ -2236,6 +2239,7 @@ wa
 )
 {
 static
+const
 float
 tpi
 =
@@ -5168,6 +5172,7 @@ wa2
 )
 {
 static
+const
 float
 taur
 =
@@ -5176,6 +5181,7 @@ taur
 5f
 ;
 static
+const
 float
 taui
 =
@@ -5750,6 +5756,7 @@ wa3
 )
 {
 static
+const
 float
 sqrt2
 =
@@ -6616,6 +6623,7 @@ wa
 )
 {
 static
+const
 float
 tpi
 =
