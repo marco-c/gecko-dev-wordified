@@ -1325,6 +1325,9 @@ emptyList
 (
 )
 )
+errorState
+=
+null
 isTeamSelected
 =
 true
