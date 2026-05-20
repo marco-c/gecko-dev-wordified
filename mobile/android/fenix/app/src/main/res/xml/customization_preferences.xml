@@ -171,6 +171,13 @@ pref_key_customization_category_app_icon
 "
 app
 :
+allowDividerBelow
+=
+"
+false
+"
+app
+:
 iconSpaceReserved
 =
 "
