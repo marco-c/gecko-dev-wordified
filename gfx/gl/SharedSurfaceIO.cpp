@@ -328,7 +328,13 @@ width
 size
 .
 height
-true
+MacIOSurface
+:
+:
+AllowAlpha
+:
+:
+Yes
 )
 ;
 if

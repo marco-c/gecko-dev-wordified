@@ -407,6 +407,13 @@ ColorDepth
 :
 :
 COLOR_10
+MacIOSurface
+:
+:
+AllowAlpha
+:
+:
+Yes
 )
 ;
 ASSERT_TRUE

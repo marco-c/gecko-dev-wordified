@@ -254,7 +254,13 @@ CreateIOSurface
 (
 aWidth
 aHeight
-true
+MacIOSurface
+:
+:
+AllowAlpha
+:
+:
+Yes
 )
 ;
 if
