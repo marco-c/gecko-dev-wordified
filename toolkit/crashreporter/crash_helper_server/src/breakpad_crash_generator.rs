@@ -283,6 +283,7 @@ crash_helper_common
 BreakpadChar
 BreakpadData
 BreakpadString
+ExtraCrashData
 Pid
 }
 ;
@@ -357,7 +358,6 @@ ffi
 :
 :
 {
-c_char
 c_void
 OsString
 }
@@ -430,6 +430,9 @@ BreakpadInitType
 =
 *
 const
+crate
+:
+:
 c_char
 ;
 #
@@ -748,9 +751,11 @@ fn
 const
 c_void
 BreakpadProcessId
-*
-const
-c_char
+Option
+<
+&
+ExtraCrashData
+>
 *
 const
 BreakpadChar
@@ -1084,9 +1089,11 @@ fn
 const
 c_void
 BreakpadProcessId
-*
-const
-c_char
+Option
+<
+&
+ExtraCrashData
+>
 *
 const
 BreakpadChar

@@ -6713,6 +6713,11 @@ if
 minidump_writer_dump
 (
 minidump_writer
+/
+*
+extra_data
+*
+/
 nullptr
 )
 )
