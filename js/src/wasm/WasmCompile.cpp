@@ -7273,6 +7273,8 @@ DecodeComponent
 (
 d
 c
+args
+listener
 )
 )
 {

@@ -5367,6 +5367,13 @@ chosen
 static
 const
 uint32_t
+MaxComponentCoreModules
+=
+100
+;
+static
+const
+uint32_t
 MaxComponentTypes
 =
 1000000
