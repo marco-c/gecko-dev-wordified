@@ -1099,6 +1099,17 @@ priv
 const
 override
 ;
+bool
+mayBeSwapped
+(
+)
+const
+override
+{
+return
+true
+;
+}
 /
 *
 *

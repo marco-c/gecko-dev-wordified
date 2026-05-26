@@ -56936,6 +56936,17 @@ obj
 singleton
 ;
 }
+bool
+mayBeSwapped
+(
+)
+const
+override
+{
+return
+true
+;
+}
 static
 JSObject
 *
