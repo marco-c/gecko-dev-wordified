@@ -5437,6 +5437,13 @@ MaxComponentImports
 static
 const
 uint32_t
+MaxComponentExports
+=
+1000000
+;
+static
+const
+uint32_t
 MaxComponentFuncs
 =
 1000000
