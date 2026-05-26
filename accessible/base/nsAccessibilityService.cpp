@@ -13275,6 +13275,8 @@ eXPCOM
 eMainProcess
 |
 ePlatformAPI
+|
+ePdfOutput
 )
 ;
 /
