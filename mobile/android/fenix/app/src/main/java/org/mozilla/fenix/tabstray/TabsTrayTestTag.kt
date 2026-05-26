@@ -216,6 +216,15 @@ selectTabs
 "
 const
 val
+SELECT_ALL_TABS
+=
+"
+THREE_DOT_BUTTON
+.
+selectAllTabs
+"
+const
+val
 SHARE_ALL_TABS
 =
 "
