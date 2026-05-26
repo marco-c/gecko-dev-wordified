@@ -3540,7 +3540,7 @@ stub
 stubs_
 )
 {
-TraceWeakEdge
+TraceOrClearWeakEdge
 (
 trc
 &
@@ -3568,7 +3568,7 @@ traceWeak
 trc
 )
 ;
-TraceWeakEdge
+TraceOrClearWeakEdge
 (
 trc
 &
@@ -3581,7 +3581,7 @@ lastStubFoldingBailoutInner_
 "
 )
 ;
-TraceWeakEdge
+TraceOrClearWeakEdge
 (
 trc
 &

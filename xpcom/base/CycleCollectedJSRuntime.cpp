@@ -1250,7 +1250,7 @@ template
 typename
 T
 >
-void
+bool
 onEdge
 (
 T
@@ -1280,7 +1280,7 @@ template
 typename
 T
 >
-void
+bool
 NoteWeakMapChildrenTracer
 :
 :
@@ -1310,6 +1310,7 @@ JSString
 )
 {
 return
+true
 ;
 }
 T
@@ -1353,6 +1354,7 @@ WantAllTraces
 )
 {
 return
+true
 ;
 }
 JS
@@ -1412,6 +1414,9 @@ cellPtr
 )
 ;
 }
+return
+true
+;
 }
 struct
 NoteWeakMapsTracer
@@ -2859,7 +2864,7 @@ template
 typename
 T
 >
-void
+bool
 onEdge
 (
 T
@@ -2889,7 +2894,7 @@ template
 typename
 T
 >
-void
+bool
 TraversalTracer
 :
 :
@@ -2936,6 +2941,7 @@ JSString
 )
 {
 return
+true
 ;
 }
 /
@@ -2958,6 +2964,7 @@ thing
 )
 {
 return
+true
 ;
 }
 /
@@ -3006,6 +3013,7 @@ WantAllTraces
 )
 {
 return
+true
 ;
 }
 /
@@ -3157,6 +3165,7 @@ thing
 )
 ;
 return
+true
 ;
 }
 /
@@ -3246,6 +3255,9 @@ thing
 )
 ;
 }
+return
+true
+;
 }
 /
 *

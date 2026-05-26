@@ -1313,7 +1313,7 @@ _2
 )
 \
 virtual
-void
+bool
 on
 #
 #
@@ -1507,7 +1507,7 @@ _1
 _2
 )
 \
-void
+bool
 on
 #
 #
@@ -1528,6 +1528,7 @@ name
 final
 {
 \
+return
 derived
 (
 )
@@ -1697,7 +1698,7 @@ template
 typename
 T
 >
-void
+bool
 onEdge
 (
 T
@@ -1735,6 +1736,9 @@ name
 )
 ;
 }
+return
+true
+;
 }
 friend
 class
