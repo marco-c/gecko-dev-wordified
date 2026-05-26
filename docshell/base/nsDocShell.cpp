@@ -74593,6 +74593,14 @@ aLoadState
 GetLoadingSessionHistoryInfo
 (
 )
+|
+|
+aLoadState
+-
+>
+IsResumingInterceptedNavigation
+(
+)
 )
 {
 return
