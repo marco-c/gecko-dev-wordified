@@ -451,6 +451,16 @@ TextureCacheUpdate
 >
 )
 {
+if
+update_list
+.
+is_empty
+(
+)
+{
+return
+;
+}
 let
 mut
 stats
