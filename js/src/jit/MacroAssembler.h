@@ -27120,7 +27120,6 @@ DEFINED_ON
 (
 arm
 loong64
-riscv64
 mips64
 )
 ;
@@ -27148,7 +27147,6 @@ DEFINED_ON
 arm
 mips64
 loong64
-riscv64
 )
 ;
 void
@@ -27174,7 +27172,6 @@ DEFINED_ON
 (
 arm
 loong64
-riscv64
 mips64
 )
 ;
@@ -27202,7 +27199,6 @@ DEFINED_ON
 arm
 mips64
 loong64
-riscv64
 )
 ;
 /
@@ -27294,6 +27290,7 @@ output
 DEFINED_ON
 (
 arm64
+riscv64
 )
 ;
 void
@@ -27316,6 +27313,7 @@ output
 DEFINED_ON
 (
 arm64
+riscv64
 )
 ;
 void
@@ -27338,6 +27336,7 @@ ptr
 DEFINED_ON
 (
 arm64
+riscv64
 )
 ;
 void
@@ -27360,6 +27359,7 @@ ptr
 DEFINED_ON
 (
 arm64
+riscv64
 )
 ;
 /
