@@ -1951,7 +1951,7 @@ forget
 }
 while
 (
-0
+false
 )
 ;
 /

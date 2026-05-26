@@ -4835,7 +4835,7 @@ aParentFrame
 ;
 while
 (
-1
+true
 )
 {
 nsIFrame

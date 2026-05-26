@@ -759,7 +759,7 @@ mCurrentNode
 ;
 while
 (
-1
+true
 )
 {
 nsINode
@@ -1345,7 +1345,7 @@ nullptr
 }
 while
 (
-1
+true
 )
 {
 nsINode

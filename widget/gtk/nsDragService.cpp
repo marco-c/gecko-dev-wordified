@@ -14144,7 +14144,7 @@ writeCount
 ;
 while
 (
-1
+true
 )
 {
 rv

@@ -1592,7 +1592,7 @@ aNode
 ;
 while
 (
-1
+true
 )
 {
 if

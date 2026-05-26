@@ -392,7 +392,7 @@ aRead
 {
 while
 (
-1
+true
 )
 {
 nsresult

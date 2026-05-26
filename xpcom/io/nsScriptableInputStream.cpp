@@ -450,7 +450,7 @@ totalBytesRead
 ;
 while
 (
-1
+true
 )
 {
 uint32_t

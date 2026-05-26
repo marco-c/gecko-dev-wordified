@@ -28267,7 +28267,7 @@ nullptr
 ;
 while
 (
-1
+true
 )
 {
 /
@@ -28283,7 +28283,7 @@ in
 scope
 while
 (
-1
+true
 )
 {
 /

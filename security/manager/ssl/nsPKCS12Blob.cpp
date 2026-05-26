@@ -77,6 +77,15 @@ include
 "
 mozilla
 /
+EndianUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -1947,7 +1956,7 @@ user
 (
 while
 (
-1
+true
 )
 {
 /

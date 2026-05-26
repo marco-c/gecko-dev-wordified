@@ -2417,7 +2417,7 @@ mGIFStruct
 .
 is_transparent
 =
-0
+false
 ;
 mGIFStruct
 .

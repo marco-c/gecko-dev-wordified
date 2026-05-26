@@ -2611,7 +2611,7 @@ false
 )
 mLengthComputable
 (
-0
+false
 )
 mStatusResult
 (

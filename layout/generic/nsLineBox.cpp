@@ -709,7 +709,7 @@ mFlags
 .
 mHasHashedFrames
 =
-1
+true
 ;
 aFromLine
 -
@@ -718,7 +718,7 @@ mFlags
 .
 mHasHashedFrames
 =
-0
+false
 ;
 aFromLine
 -
@@ -933,7 +933,7 @@ mFlags
 .
 mHasHashedFrames
 =
-0
+false
 ;
 aFromLine
 -

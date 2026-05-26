@@ -1337,7 +1337,7 @@ nullptr
 )
 mHasBGRA
 (
-0
+false
 )
 mUseExternalSurfaceSize
 (
