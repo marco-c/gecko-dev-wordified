@@ -1032,16 +1032,6 @@ label
 )
 ;
 CodeOffset
-BranchAndLinkShortHelper
-(
-int32_t
-offset
-Label
-*
-L
-)
-;
-CodeOffset
 BranchAndLinkLong
 (
 Label
