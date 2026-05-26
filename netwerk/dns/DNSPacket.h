@@ -493,6 +493,10 @@ const
 nsACString
 &
 aOriginHost
+bool
+aAllowRFC1918
+=
+true
 )
 ;
 void
@@ -563,6 +567,10 @@ unsigned
 char
 *
 aBuffer
+bool
+aAllowRFC1918
+=
+true
 )
 ;
 nsresult
