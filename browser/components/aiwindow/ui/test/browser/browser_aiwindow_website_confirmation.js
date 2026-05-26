@@ -1710,14 +1710,14 @@ testTabs
 =
 [
 {
-tabId
+linkedPanel
 :
 "
 prog
 -
 1
 "
-label
+title
 :
 "
 Programmatic
@@ -1739,7 +1739,7 @@ icon16
 .
 png
 "
-href
+url
 :
 "
 https
@@ -1755,14 +1755,14 @@ checked
 false
 }
 {
-tabId
+linkedPanel
 :
 "
 prog
 -
 2
 "
-label
+title
 :
 "
 Programmatic
@@ -1784,7 +1784,7 @@ icon16
 .
 png
 "
-href
+url
 :
 "
 https
@@ -1954,7 +1954,7 @@ selected
 0
 ]
 .
-tabId
+linkedPanel
 "
 prog
 -
@@ -1979,7 +1979,7 @@ selected
 1
 ]
 .
-tabId
+linkedPanel
 "
 prog
 -
@@ -2201,7 +2201,7 @@ manyTabs
 push
 (
 {
-tabId
+linkedPanel
 :
 scroll
 -
@@ -2210,7 +2210,7 @@ tab
 {
 i
 }
-label
+title
 :
 Scroll
 Test
@@ -2235,7 +2235,7 @@ defaultFavicon
 .
 svg
 "
-href
+url
 :
 https
 :
