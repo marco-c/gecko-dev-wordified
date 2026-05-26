@@ -2428,6 +2428,8 @@ BrowserTestUtils
 browserLoaded
 (
 innerBC
+.
+embedderElement
 {
 wantLoad
 :
