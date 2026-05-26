@@ -3483,7 +3483,9 @@ GetAssociatedPopover
 const
 ;
 /
-/
+*
+*
+*
 https
 :
 /
@@ -3507,10 +3509,14 @@ topmost
 popover
 -
 ancestor
+*
+/
 Element
 *
 GetTopmostPopoverAncestor
 (
+PopoverAttributeState
+aMode
 const
 Element
 *

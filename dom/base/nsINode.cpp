@@ -24059,12 +24059,8 @@ Hint
 ;
 for
 (
-const
-RefPtr
-<
 Element
->
-&
+*
 el
 :
 Reversed
@@ -24113,12 +24109,8 @@ Auto
 ;
 for
 (
-const
-RefPtr
-<
 Element
->
-&
+*
 el
 :
 Reversed
