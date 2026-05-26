@@ -13022,7 +13022,7 @@ Shutdown
 gApplicationAccessible
 -
 >
-Init
+CreateInitialDocs
 (
 )
 ;

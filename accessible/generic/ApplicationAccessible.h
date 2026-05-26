@@ -332,7 +332,7 @@ override
 /
 ApplicationAccessible
 void
-Init
+CreateInitialDocs
 (
 )
 ;

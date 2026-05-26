@@ -833,7 +833,7 @@ void
 ApplicationAccessible
 :
 :
-Init
+CreateInitialDocs
 (
 )
 {
