@@ -1901,6 +1901,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -2329,6 +2332,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -2425,6 +2431,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -2803,6 +2812,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -2880,6 +2892,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -2957,6 +2972,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -3034,6 +3052,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -3112,6 +3133,9 @@ aValue
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -3283,6 +3307,7 @@ TextBounds
 /
 GetCachedTextLines
 kNecessaryBoundsDomains
+this
 )
 ;
 if
@@ -4102,6 +4127,7 @@ CacheDomain
 :
 :
 Bounds
+this
 )
 ;
 uint32_t
@@ -4467,6 +4493,9 @@ aWhichChild
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryBoundsDomains
@@ -5533,6 +5562,7 @@ CacheDomain
 :
 :
 Bounds
+this
 )
 ;
 Maybe
@@ -5665,6 +5695,7 @@ CacheDomain
 :
 :
 Bounds
+this
 )
 ;
 Maybe
@@ -5788,6 +5819,7 @@ CacheDomain
 :
 :
 TransformMatrix
+this
 )
 ;
 /
@@ -5948,6 +5980,7 @@ CacheDomain
 :
 :
 ScrollPosition
+this
 )
 ;
 Maybe
@@ -6171,6 +6204,7 @@ CacheDomain
 :
 :
 APZ
+this
 )
 ;
 MOZ_ASSERT
@@ -6338,6 +6372,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryBoundsDomains
@@ -6481,6 +6518,7 @@ CacheDomain
 :
 :
 Style
+this
 )
 ;
 MOZ_ASSERT
@@ -6541,6 +6579,7 @@ CacheDomain
 :
 :
 Style
+this
 )
 ;
 MOZ_ASSERT
@@ -6601,6 +6640,7 @@ CacheDomain
 :
 :
 Bounds
+this
 )
 ;
 MOZ_ASSERT
@@ -6651,6 +6691,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryBoundsDomains
@@ -8101,6 +8144,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryBoundsDomains
@@ -8134,6 +8180,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -10401,6 +10450,9 @@ IsText
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -10574,6 +10626,9 @@ aFields
 if
 (
 !
+mDoc
+-
+>
 DomainsAreActive
 (
 CacheDomain
@@ -10930,6 +10985,7 @@ CacheDomain
 :
 :
 Relations
+this
 )
 ;
 if
@@ -11221,6 +11277,9 @@ aToUpdate
 if
 (
 !
+mDoc
+-
+>
 DomainsAreActive
 (
 CacheDomain
@@ -11691,6 +11750,9 @@ GetCachedTextLength
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -11784,6 +11846,9 @@ GetCachedTextLines
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -11862,6 +11927,7 @@ CacheDomain
 :
 :
 TextBounds
+this
 )
 ;
 MOZ_ASSERT
@@ -12050,6 +12116,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -12168,6 +12237,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -12233,6 +12305,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -12435,6 +12510,9 @@ GetCachedTextAttributes
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -12574,6 +12652,9 @@ DefaultTextAttributes
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -12722,6 +12803,7 @@ CacheDomain
 :
 :
 ARIA
+this
 )
 ;
 if
@@ -12777,6 +12859,7 @@ CacheDomain
 :
 :
 Relations
+this
 )
 ;
 if
@@ -12826,6 +12909,9 @@ State
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -13451,6 +13537,9 @@ AccAttributes
 ;
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -14819,6 +14908,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -14893,6 +14985,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -14956,6 +15051,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -15034,6 +15132,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -15188,6 +15289,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -15251,6 +15355,7 @@ CacheDomain
 :
 :
 Actions
+this
 )
 ;
 if
@@ -15302,6 +15407,9 @@ actionCount
 ;
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -15384,6 +15492,9 @@ aName
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -15556,6 +15667,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -15611,6 +15725,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -15758,6 +15875,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -15937,6 +16057,9 @@ helpful
 .
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -16007,6 +16130,9 @@ GetOrCreateGroupInfo
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -16137,6 +16263,9 @@ RelationByType
 .
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -16245,6 +16374,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -16760,6 +16892,9 @@ aItems
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryStateDomains
@@ -16832,6 +16967,9 @@ SelectedItemCount
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryStateDomains
@@ -16912,6 +17050,9 @@ aIndex
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryStateDomains
@@ -17000,6 +17141,9 @@ aIndex
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryStateDomains
@@ -17101,6 +17245,9 @@ aIndex
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryStateDomains
@@ -17207,6 +17354,9 @@ aIndex
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryStateDomains
@@ -17311,6 +17461,9 @@ SelectAll
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryStateDomains
@@ -17421,6 +17574,9 @@ UnselectAll
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 kNecessaryStateDomains
@@ -17634,6 +17790,9 @@ TableIsProbablyForLayout
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -17803,6 +17962,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -17873,6 +18035,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -18020,6 +18185,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -18152,6 +18320,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -18257,6 +18428,9 @@ aLocale
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
@@ -18539,6 +18713,9 @@ const
 {
 if
 (
+mDoc
+-
+>
 RequestDomainsIfInactive
 (
 CacheDomain
