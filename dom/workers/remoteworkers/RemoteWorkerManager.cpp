@@ -888,15 +888,7 @@ NOT_REMOTE_TYPE
 nsCString
 preferredRemoteType
 =
-SharedWebRemoteType
-(
-aPrincipal
--
->
-OriginAttributesRef
-(
-)
-)
+DEFAULT_REMOTE_TYPE
 ;
 if
 (
