@@ -418,7 +418,7 @@ add_task
 (
 async
 function
-test_pingPayload_write_in_microsurvey
+test_pingPayload_writeInMicrosurvey
 (
 )
 {
@@ -535,7 +535,7 @@ MOCHITEST
 event_context
 :
 {
-write_in_microsurvey
+writeInMicrosurvey
 :
 true
 }
@@ -560,7 +560,7 @@ add_task
 (
 async
 function
-test_pingPayload_nowrite_in_microsurvey
+test_pingPayload_nowriteInMicrosurvey
 (
 )
 {
@@ -2368,7 +2368,7 @@ submitted
 ;
 eventContext
 .
-write_in_microsurvey
+writeInMicrosurvey
 =
 true
 ;
@@ -2468,7 +2468,7 @@ pingSubmitted
 "
 Ping
 with
-write_in_microsurvey
+writeInMicrosurvey
 submitted
 "
 )
