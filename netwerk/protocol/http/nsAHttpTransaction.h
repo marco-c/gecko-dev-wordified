@@ -178,6 +178,9 @@ class
 nsHttpRequestHead
 ;
 class
+nsHttpResponseHead
+;
+class
 nsHttpConnectionInfo
 ;
 class
@@ -1933,8 +1936,10 @@ virtual
 void
 OnProxyConnectComplete
 (
-int32_t
-aResponseCode
+const
+nsHttpResponseHead
+&
+aResponseHead
 )
 {
 }
