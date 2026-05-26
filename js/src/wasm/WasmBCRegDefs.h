@@ -414,7 +414,7 @@ Double
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 static
 constexpr
 FloatRegister
@@ -458,7 +458,7 @@ busy
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 static_assert
 (
 RabaldrScratchV128
@@ -890,7 +890,7 @@ RegTypeOf
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 static_assert
 (
 t
@@ -1006,7 +1006,7 @@ Float64
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 template
 <
 >
@@ -1658,7 +1658,7 @@ RegF64
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 struct
 RegV128
 :
@@ -1741,7 +1741,7 @@ f64_
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 RegV128
 v128_
 ;
@@ -1758,7 +1758,7 @@ F32
 F64
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 V128
 #
 endif
@@ -1831,7 +1831,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 explicit
 AnyReg
 (
@@ -1940,7 +1940,7 @@ f64_
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 RegV128
 v128
 (
@@ -2010,7 +2010,7 @@ f64_
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 V128
 :
@@ -4106,7 +4106,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 bool
 isAvailableV128
 (
@@ -4239,7 +4239,7 @@ specific
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 [
 [
 nodiscard
@@ -4311,7 +4311,7 @@ r
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 inline
 void
 freeV128
@@ -4573,7 +4573,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 addKnownV128
 (
@@ -4779,7 +4779,7 @@ endif
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 ifdef
 RABALDR_SCRATCH_V128

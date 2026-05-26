@@ -15354,7 +15354,7 @@ return
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 MIRType
 :
@@ -19806,7 +19806,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 MIRType
 :
@@ -23442,7 +23442,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 const
 LDefinition
 *
@@ -23497,7 +23497,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 switch
 (
 ins
@@ -23923,7 +23923,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 lhs
 =
@@ -26794,7 +26794,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 lhs
 =
@@ -27128,7 +27128,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 src
 =
@@ -27543,7 +27543,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 lhs
 =
@@ -27941,7 +27941,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 src
 =
@@ -28702,7 +28702,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MOZ_ASSERT
 (
 ToFloatRegister
@@ -29088,7 +29088,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MOZ_RELEASE_ASSERT
 (
 ins
@@ -29198,7 +29198,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 dest
 =
@@ -29401,7 +29401,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 Register64
 src
 =
@@ -29663,7 +29663,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 src
 =
@@ -30788,7 +30788,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 src
 =
@@ -31259,7 +31259,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 src
 =
@@ -31674,7 +31674,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 FloatRegister
 src
 =
@@ -31842,7 +31842,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 /
 /
 Forward
@@ -32203,7 +32203,7 @@ ins
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 /
 /
 Forward

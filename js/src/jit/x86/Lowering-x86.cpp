@@ -3974,7 +3974,7 @@ Simd128
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 valueAlloc
 =
 useRegisterAtStart

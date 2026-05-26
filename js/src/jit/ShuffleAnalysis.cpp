@@ -127,7 +127,7 @@ Some
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 /
 /
 Specialization
@@ -6465,4 +6465,4 @@ R
 endif
 /
 /
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD

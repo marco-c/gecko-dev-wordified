@@ -241,7 +241,7 @@ s
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 error
 "
@@ -318,7 +318,7 @@ s
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 error
 "
@@ -356,7 +356,7 @@ getRegisterDumpOffsetInBytes
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 error
 "

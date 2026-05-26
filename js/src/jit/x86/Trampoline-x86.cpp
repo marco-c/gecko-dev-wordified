@@ -1870,7 +1870,7 @@ masm
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 masm
 .
 PushRegsInMask
