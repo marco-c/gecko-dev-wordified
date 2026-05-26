@@ -998,7 +998,7 @@ cfString
 :
 CFStringCreateWithCharacters
 (
-NULL
+nullptr
 reinterpret_cast
 <
 const

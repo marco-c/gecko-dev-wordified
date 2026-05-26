@@ -649,7 +649,7 @@ CTFontCreateWithFontDescriptor
 (
 ctFontDesc
 0
-NULL
+nullptr
 )
 ;
 /
@@ -698,7 +698,7 @@ fontRef
 CTFontCopyGraphicsFont
 (
 ctFont
-NULL
+nullptr
 )
 ;
 CFRelease

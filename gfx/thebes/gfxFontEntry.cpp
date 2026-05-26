@@ -11498,7 +11498,7 @@ faces
 ]
 =
 {
-0
+nullptr
 }
 ;
 for

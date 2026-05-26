@@ -5881,7 +5881,7 @@ mSymbols
 .
 fGetGraphicsResetStatus
 =
-0
+nullptr
 ;
 }
 if

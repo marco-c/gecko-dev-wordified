@@ -1165,7 +1165,7 @@ fCreateWindowSurface
 (
 config
 window
-0
+nullptr
 )
 ;
 #
@@ -4828,7 +4828,7 @@ EGLNativeWindowType
 (
 eglwindow
 )
-0
+nullptr
 )
 ;
 if

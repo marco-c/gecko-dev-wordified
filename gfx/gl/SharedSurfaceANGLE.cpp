@@ -407,7 +407,7 @@ Size
 size
 ;
 return
-0
+nullptr
 ;
 }
 return

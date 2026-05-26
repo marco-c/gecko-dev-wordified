@@ -3682,13 +3682,13 @@ sDcompCreateSurfaceHandleFn
 )
 {
 return
-0
+nullptr
 ;
 }
 HANDLE
 handle
 =
-0
+nullptr
 ;
 HRESULT
 hr
@@ -3710,7 +3710,7 @@ hr
 )
 {
 return
-0
+nullptr
 ;
 }
 return

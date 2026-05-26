@@ -287,7 +287,7 @@ SourceSurfaceRawData
 :
 mRawData
 (
-0
+nullptr
 )
 mStride
 (

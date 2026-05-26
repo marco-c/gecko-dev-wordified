@@ -10537,7 +10537,7 @@ flags
 GLsync
 ret
 =
-0
+nullptr
 ;
 BEFORE_GL_CALL
 ;

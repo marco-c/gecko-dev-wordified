@@ -9031,7 +9031,7 @@ component
 stride
 mColorSpace
 bitmapInfo
-NULL
+nullptr
 /
 *
 Callback
@@ -9039,7 +9039,7 @@ when
 released
 *
 /
-NULL
+nullptr
 )
 ;
 if
