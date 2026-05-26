@@ -1413,6 +1413,13 @@ GetCustomElementRegistry
 (
 )
 ;
+void
+SetCustomElementRegistry
+(
+CustomElementRegistry
+&
+)
+;
 protected
 :
 /
