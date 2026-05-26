@@ -560,15 +560,6 @@ SampleRate
 )
 )
 ;
-if
-(
-!
-loader
-)
-{
-return
-;
-}
 mHRTFPanner
 =
 MakeUnique
