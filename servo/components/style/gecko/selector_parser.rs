@@ -1927,9 +1927,13 @@ pref
 !
 (
 "
-dom
+layout
 .
-headingoffset
+css
+.
+heading
+-
+selector
 .
 enabled
 "
