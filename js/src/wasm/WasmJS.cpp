@@ -2800,7 +2800,7 @@ line
 caller
 -
 >
-filename
+source
 =
 FormatIntroducedFilename
 (
@@ -2822,7 +2822,7 @@ if
 caller
 -
 >
-filename
+source
 )
 {
 ReportOutOfMemory
@@ -2875,7 +2875,7 @@ fn
 =
 caller
 .
-filename
+source
 .
 get
 (
@@ -4257,7 +4257,7 @@ filename
 {
 scriptedCaller
 .
-filename
+source
 =
 DuplicateString
 (
@@ -4278,7 +4278,7 @@ if
 !
 scriptedCaller
 .
-filename
+source
 )
 {
 return
@@ -4287,9 +4287,12 @@ false
 }
 scriptedCaller
 .
-filenameIsURL
+kind
 =
-true
+ScriptedCallerKind
+:
+:
+Url
 ;
 }
 SharedCompileArgs
@@ -31959,7 +31962,7 @@ compileArgs_
 >
 scriptedCaller
 .
-filename
+source
 =
 DuplicateString
 (
@@ -31971,9 +31974,12 @@ compileArgs_
 >
 scriptedCaller
 .
-filenameIsURL
+kind
 =
-true
+ScriptedCallerKind
+:
+:
+Url
 ;
 }
 if

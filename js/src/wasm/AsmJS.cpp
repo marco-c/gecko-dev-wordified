@@ -41031,7 +41031,7 @@ line
 unused
 scriptedCaller
 .
-filename
+source
 =
 DuplicateString
 (
@@ -41050,7 +41050,7 @@ if
 !
 scriptedCaller
 .
-filename
+source
 )
 {
 return

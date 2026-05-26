@@ -432,7 +432,10 @@ move
 (
 selfHosted
 )
-false
+ScriptedCallerKind
+:
+:
+SelfHosted
 0
 )
 ;
