@@ -79,6 +79,16 @@ allow_internal_csp_violation
 "
 true
 ]
+[
+"
+security
+.
+chrome_baseline_csp
+.
+enabled
+"
+true
+]
 ]
 }
 )
