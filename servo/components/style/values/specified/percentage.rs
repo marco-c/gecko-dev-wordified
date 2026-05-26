@@ -87,6 +87,18 @@ use
 crate
 :
 :
+typed_om
+:
+:
+{
+ToTyped
+TypedValue
+}
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -236,8 +248,6 @@ CssWriter
 ParseError
 SpecifiedValueInfo
 ToCss
-ToTyped
-TypedValue
 }
 ;
 use

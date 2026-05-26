@@ -132,6 +132,18 @@ use
 crate
 :
 :
+typed_om
+:
+:
+{
+ToTyped
+TypedValue
+}
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -313,8 +325,6 @@ ParseError
 SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
-ToTyped
-TypedValue
 }
 ;
 use

@@ -248,6 +248,15 @@ use
 crate
 :
 :
+typed_om
+:
+:
+TypedValueList
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -360,7 +369,6 @@ ParseError
 ParsingMode
 StyleParseErrorKind
 ToCss
-TypedValueList
 }
 ;
 use

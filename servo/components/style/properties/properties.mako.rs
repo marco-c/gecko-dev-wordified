@@ -316,8 +316,6 @@ ParseError
 SpecifiedValueInfo
 StyleParseErrorKind
 ToCss
-TypedValueList
-ToTyped
 }
 ;
 use
@@ -353,6 +351,18 @@ logical_geometry
 LogicalAxis
 LogicalCorner
 LogicalSide
+}
+;
+use
+crate
+:
+:
+typed_om
+:
+:
+{
+ToTyped
+TypedValueList
 }
 ;
 use
