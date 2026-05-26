@@ -3341,6 +3341,9 @@ ZoneStatsExtras
 default
 ;
 nsCString
+zoneName
+;
+nsCString
 pathPrefix
 ;
 private
