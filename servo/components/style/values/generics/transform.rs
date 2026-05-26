@@ -2949,6 +2949,7 @@ radians64
 }
 /
 /
+/
 Convert
 a
 number
@@ -2957,9 +2958,11 @@ into
 a
 float
 .
+pub
 trait
 ToFloat
 {
+/
 /
 /
 Return
@@ -2996,6 +2999,7 @@ f32
 )
 >
 ;
+/
 /
 /
 Return
