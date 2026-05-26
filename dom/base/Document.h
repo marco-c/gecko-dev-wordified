@@ -23751,6 +23751,7 @@ int32_t
 aY
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 Element
 *
 GetScrollingElement
