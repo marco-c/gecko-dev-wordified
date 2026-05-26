@@ -4119,11 +4119,10 @@ Register
 dest
 )
 {
-addi
+mv
 (
 dest
 src
-0
 )
 ;
 }
