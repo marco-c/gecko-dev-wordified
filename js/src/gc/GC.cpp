@@ -38964,6 +38964,16 @@ tc
 return
 ;
 }
+if
+(
+CurrentThreadIsTouchingGrayThings
+(
+)
+)
+{
+return
+;
+}
 /
 /
 TODO
