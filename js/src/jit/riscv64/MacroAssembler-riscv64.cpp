@@ -7159,6 +7159,13 @@ address
 base
 ;
 }
+AutoForbidPoolsAndNops
+afp
+(
+this
+1
+)
+;
 FaultingCodeOffset
 fco
 =
@@ -7560,6 +7567,13 @@ address
 base
 ;
 }
+AutoForbidPoolsAndNops
+afp
+(
+this
+1
+)
+;
 FaultingCodeOffset
 fco
 =
