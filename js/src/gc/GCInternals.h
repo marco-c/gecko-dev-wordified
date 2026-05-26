@@ -1560,7 +1560,7 @@ template
 typename
 T
 >
-bool
+void
 onEdge
 (
 T
@@ -1607,7 +1607,7 @@ template
 typename
 T
 >
-bool
+void
 onEdge
 (
 T

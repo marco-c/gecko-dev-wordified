@@ -39219,7 +39219,7 @@ template
 typename
 T
 >
-bool
+void
 js
 :
 :
@@ -39255,7 +39255,6 @@ thing
 )
 {
 return
-true
 ;
 }
 /
@@ -39331,9 +39330,6 @@ thing
 thingp
 =
 nullptr
-;
-return
-false
 ;
 }
 void

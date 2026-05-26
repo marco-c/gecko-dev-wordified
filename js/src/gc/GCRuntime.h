@@ -1134,7 +1134,7 @@ template
 typename
 T
 >
-bool
+void
 onEdge
 (
 T
