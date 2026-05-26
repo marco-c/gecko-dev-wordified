@@ -483,17 +483,6 @@ include
 "
 mozilla
 /
-net
-/
-UrlClassifierFeatureFactory
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_javascript
 .
 h
@@ -40131,7 +40120,7 @@ aErrorCode
 {
 MOZ_ASSERT
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode

@@ -258,17 +258,6 @@ h
 #
 include
 "
-mozilla
-/
-net
-/
-UrlClassifierFeatureFactory
-.
-h
-"
-#
-include
-"
 AltDataOutputStreamChild
 .
 h
@@ -8240,7 +8229,7 @@ value
 .
 if
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode

@@ -203,17 +203,6 @@ include
 "
 mozilla
 /
-net
-/
-UrlClassifierFeatureFactory
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ClearOnShutdown
 .
 h
@@ -1684,7 +1673,7 @@ allowlisting
 .
 if
 (
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
@@ -2278,7 +2267,7 @@ XRE_IsParentProcess
 MOZ_ASSERT
 (
 !
-UrlClassifierFeatureFactory
+ChannelClassifierUtils
 :
 :
 IsClassifierBlockingErrorCode
