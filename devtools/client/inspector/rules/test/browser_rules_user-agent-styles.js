@@ -827,7 +827,7 @@ index
 >
 rule
 .
-selector
+domRule
 .
 selectors
 [
@@ -887,7 +887,7 @@ index
 >
 rule
 .
-selector
+domRule
 .
 selectors
 [

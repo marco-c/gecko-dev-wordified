@@ -6362,8 +6362,6 @@ this
 .
 rule
 .
-selector
-.
 selectorsSpecificity
 ?
 .
@@ -6416,8 +6414,6 @@ specificity
 this
 .
 rule
-.
-selector
 .
 selectorsSpecificity
 ?
