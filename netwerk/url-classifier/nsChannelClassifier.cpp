@@ -183,6 +183,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 UrlClassifierCommon
 .
 h
@@ -2445,7 +2456,7 @@ security
 change
 event
 .
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 SetBlockedContent

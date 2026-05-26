@@ -784,6 +784,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 HttpBaseChannel
 .
 h
@@ -7309,7 +7320,7 @@ mScriptMode
 net
 :
 :
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsTrackingClassificationFlag

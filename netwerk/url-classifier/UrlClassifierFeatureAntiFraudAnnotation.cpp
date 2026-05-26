@@ -104,6 +104,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 UrlClassifierCommon
 .
 h
@@ -775,7 +786,7 @@ aList
 aHashes
 )
 ;
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 AnnotateChannelWithoutNotifying

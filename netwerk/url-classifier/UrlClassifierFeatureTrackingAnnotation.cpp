@@ -104,6 +104,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 UrlClassifierCommon
 .
 h
@@ -743,7 +754,7 @@ nsIWebProgressListener
 :
 STATE_LOADED_LEVEL_1_TRACKING_CONTENT
 ;
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 AnnotateChannel

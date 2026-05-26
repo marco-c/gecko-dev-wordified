@@ -299,10 +299,7 @@ if
 (
 MOZ_LOG_TEST
 (
-UrlClassifierCommon
-:
-:
-sLog
+gChannelClassifierLog
 LogLevel
 :
 :
@@ -1011,10 +1008,7 @@ if
 (
 MOZ_LOG_TEST
 (
-UrlClassifierCommon
-:
-:
-sLog
+gChannelClassifierLog
 LogLevel
 :
 :

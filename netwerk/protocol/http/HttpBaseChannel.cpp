@@ -474,7 +474,7 @@ mozilla
 /
 net
 /
-UrlClassifierCommon
+ChannelClassifierUtils
 .
 h
 "
@@ -12049,7 +12049,7 @@ mThirdPartyClassificationFlags
 *
 aIsTrackingResource
 =
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsTrackingClassificationFlag
@@ -12095,7 +12095,7 @@ mThirdPartyClassificationFlags
 *
 aIsThirdPartySocialTrackingResource
 =
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsSocialTrackingClassificationFlag

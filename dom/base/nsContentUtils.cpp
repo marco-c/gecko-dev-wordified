@@ -2214,7 +2214,7 @@ mozilla
 /
 net
 /
-UrlClassifierCommon
+ChannelClassifierUtils
 .
 h
 "
@@ -65768,7 +65768,7 @@ mozilla
 net
 :
 :
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsTrackingClassificationFlag

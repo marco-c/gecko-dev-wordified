@@ -70,6 +70,17 @@ mozilla
 /
 net
 /
+ChannelClassifierUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 UrlClassifierCommon
 .
 h
@@ -441,7 +452,7 @@ aChannel
 ;
 if
 (
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 IsPassiveContent
@@ -674,7 +685,7 @@ aList
 aHashes
 )
 ;
-UrlClassifierCommon
+ChannelClassifierUtils
 :
 :
 AnnotateChannel
