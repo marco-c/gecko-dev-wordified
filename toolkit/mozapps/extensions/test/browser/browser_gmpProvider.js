@@ -646,6 +646,8 @@ Assert
 .
 ok
 (
+AboutAddonsTestUtils
+.
 isCategoryVisible
 (
 win
