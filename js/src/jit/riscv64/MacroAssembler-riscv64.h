@@ -2193,16 +2193,6 @@ Operand
 rt
 )
 ;
-BufferOffset
-BranchShortHelper
-(
-int32_t
-offset
-Label
-*
-L
-)
-;
 bool
 BranchShortHelper
 (
