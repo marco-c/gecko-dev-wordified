@@ -1767,7 +1767,7 @@ Register
 dest
 )
 {
-ma_add32
+addw
 (
 dest
 dest
@@ -1901,7 +1901,7 @@ src
 scratch
 )
 ;
-ma_add32
+addw
 (
 dest
 dest
@@ -2068,14 +2068,11 @@ Register
 dest
 )
 {
-ma_add64
+add
 (
 dest
 dest
-Operand
-(
 src
-)
 )
 ;
 }
@@ -2241,7 +2238,7 @@ Register
 dest
 )
 {
-ma_and
+and_
 (
 dest
 dest
@@ -2374,7 +2371,7 @@ src
 scratch2
 )
 ;
-ma_and
+and_
 (
 dest
 dest
@@ -2444,7 +2441,7 @@ Register64
 dest
 )
 {
-ma_and
+and_
 (
 dest
 .
@@ -2470,7 +2467,7 @@ Register
 dest
 )
 {
-ma_and
+and_
 (
 dest
 dest
@@ -7040,14 +7037,11 @@ Acquire
 (
 )
 ;
-ma_and
+and_
 (
 scratch
 lhs
-Operand
-(
 rhs
-)
 )
 ;
 ma_b
@@ -8119,7 +8113,7 @@ ffff
 )
 )
 ;
-ma_sub64
+sub
 (
 scratch
 dest
@@ -12210,7 +12204,7 @@ Register
 dest
 )
 {
-ma_or
+or_
 (
 dest
 dest
@@ -12320,7 +12314,7 @@ Register64
 dest
 )
 {
-ma_or
+or_
 (
 dest
 .
@@ -12396,7 +12390,7 @@ Register
 dest
 )
 {
-ma_or
+or_
 (
 dest
 dest
@@ -12683,7 +12677,7 @@ if
 isUnsigned
 )
 {
-ma_divu32
+divuw
 (
 dest
 lhs
@@ -12693,7 +12687,7 @@ rhs
 }
 else
 {
-ma_div32
+divw
 (
 dest
 lhs
@@ -12723,7 +12717,7 @@ if
 isUnsigned
 )
 {
-ma_divu64
+divu
 (
 dest
 lhs
@@ -12733,7 +12727,7 @@ rhs
 }
 else
 {
-ma_div64
+div
 (
 dest
 lhs
@@ -12763,7 +12757,7 @@ if
 isUnsigned
 )
 {
-ma_modu32
+remuw
 (
 dest
 lhs
@@ -12773,7 +12767,7 @@ rhs
 }
 else
 {
-ma_mod32
+remw
 (
 dest
 lhs
@@ -12803,7 +12797,7 @@ if
 isUnsigned
 )
 {
-ma_modu64
+remu
 (
 dest
 lhs
@@ -12813,7 +12807,7 @@ rhs
 }
 else
 {
-ma_mod64
+rem
 (
 dest
 lhs
@@ -14445,7 +14439,7 @@ Register
 dest
 )
 {
-ma_xor
+xor_
 (
 dest
 dest
@@ -14597,7 +14591,7 @@ Register64
 dest
 )
 {
-ma_xor
+xor_
 (
 dest
 .
@@ -14673,7 +14667,7 @@ Register
 dest
 )
 {
-ma_xor
+xor_
 (
 dest
 dest

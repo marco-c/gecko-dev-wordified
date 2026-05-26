@@ -2301,7 +2301,7 @@ reg_code
 ;
 masm
 .
-ma_or
+mv
 (
 R1
 .
@@ -2309,7 +2309,6 @@ scratchReg
 (
 )
 reg_chain
-zero
 )
 ;
 }

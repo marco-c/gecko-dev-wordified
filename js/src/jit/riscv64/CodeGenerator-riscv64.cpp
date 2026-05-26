@@ -2804,7 +2804,7 @@ output
 {
 masm
 .
-ma_div64
+div
 (
 output
 dividend
@@ -2831,7 +2831,7 @@ output
 {
 masm
 .
-ma_mod64
+rem
 (
 output
 dividend
@@ -3102,7 +3102,7 @@ notOverflow
 }
 masm
 .
-ma_div64
+div
 (
 output
 lhs
@@ -3330,7 +3330,7 @@ rhs
 ;
 masm
 .
-ma_mod64
+rem
 (
 output
 lhs
@@ -3404,7 +3404,7 @@ rhs
 ;
 masm
 .
-ma_divu64
+divu
 (
 output
 lhs
@@ -3478,7 +3478,7 @@ rhs
 ;
 masm
 .
-ma_modu64
+remu
 (
 output
 lhs
@@ -5273,7 +5273,7 @@ else
 {
 masm
 .
-ma_add64
+add
 (
 dest
 lhs
@@ -5359,7 +5359,7 @@ else
 {
 masm
 .
-ma_add64
+add
 (
 dest
 lhs
@@ -5501,7 +5501,7 @@ else
 {
 masm
 .
-ma_sub32
+subw
 (
 ToRegister
 (
@@ -5673,7 +5673,7 @@ else
 {
 masm
 .
-ma_sub64
+sub
 (
 dest
 lhs
@@ -5759,7 +5759,7 @@ else
 {
 masm
 .
-ma_sub64
+sub
 (
 dest
 lhs
@@ -7894,7 +7894,7 @@ canTruncateRemainder
 {
 masm
 .
-ma_div32
+divw
 (
 dest
 lhs
@@ -7972,7 +7972,7 @@ u
 .
 masm
 .
-ma_div32
+divw
 (
 dest
 lhs
@@ -7981,7 +7981,7 @@ rhs
 ;
 masm
 .
-ma_mod32
+remw
 (
 temp
 lhs
@@ -8737,7 +8737,7 @@ snapshot
 }
 masm
 .
-ma_mod32
+remw
 (
 dest
 lhs
@@ -15468,7 +15468,7 @@ canTruncateRemainder
 {
 masm
 .
-ma_divu32
+divuw
 (
 output
 lhs
@@ -15537,7 +15537,7 @@ u
 .
 masm
 .
-ma_divu32
+divuw
 (
 output
 lhs
@@ -15546,7 +15546,7 @@ rhs
 ;
 masm
 .
-ma_modu32
+remuw
 (
 scratch
 lhs
@@ -15828,7 +15828,7 @@ snapshot
 }
 masm
 .
-ma_modu32
+remuw
 (
 output
 lhs
