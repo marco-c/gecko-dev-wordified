@@ -615,6 +615,9 @@ TextInputListener
 class
 TextServicesDocument
 ;
+struct
+LimitersAndCaretData
+;
 namespace
 dom
 {
@@ -7249,6 +7252,12 @@ return
 mSelection
 ;
 }
+LimitersAndCaretData
+SelectionLimitersAndCaretData
+(
+)
+const
+;
 Text
 *
 GetCachedTextNode
@@ -10284,6 +10293,12 @@ SelectionRef
 )
 ;
 }
+LimitersAndCaretData
+SelectionLimitersAndCaretData
+(
+)
+const
+;
 /
 /
 Return
