@@ -385,7 +385,8 @@ openAIWindow
 {
 waitForTabURL
 :
-false
+"
+"
 }
 )
 ;
@@ -665,7 +666,8 @@ openAIWindow
 {
 waitForTabURL
 :
-false
+"
+"
 }
 )
 ;
