@@ -177,8 +177,6 @@ data
 fn
 read_tls_vec
 <
-'
-a
 const
 WIDTH
 :
@@ -188,8 +186,6 @@ u8
 value
 :
 &
-'
-a
 [
 u8
 ]
@@ -200,14 +196,10 @@ Result
 <
 (
 &
-'
-a
 [
 u8
 ]
 &
-'
-a
 [
 u8
 ]
