@@ -1678,7 +1678,7 @@ handling
 brain
 transplants
 (
-JSObject
+ProxyObject
 :
 :
 swap
