@@ -233,7 +233,7 @@ mMsg
 get
 (
 )
-NULL
+nullptr
 mFile
 mLine
 )

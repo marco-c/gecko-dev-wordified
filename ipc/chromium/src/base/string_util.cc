@@ -455,7 +455,7 @@ value_type
 *
 endptr
 =
-NULL
+nullptr
 ;
 typename
 traits
@@ -804,7 +804,7 @@ char
 *
 ascii_end
 =
-NULL
+nullptr
 ;
 value_type
 ret
@@ -1079,7 +1079,7 @@ char
 *
 ascii_end
 =
-NULL
+nullptr
 ;
 value_type
 ret

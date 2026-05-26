@@ -299,15 +299,14 @@ name
 :
 startup_data_
 (
-NULL
+nullptr
 )
 thread_
-(
-0
-)
+{
+}
 message_loop_
 (
-NULL
+nullptr
 )
 thread_id_
 (
@@ -570,7 +569,7 @@ thread
 ;
 startup_data_
 =
-NULL
+nullptr
 ;
 /
 /
@@ -775,7 +774,7 @@ anymore
 .
 message_loop_
 =
-NULL
+nullptr
 ;
 /
 /
@@ -790,7 +789,7 @@ joined
 .
 startup_data_
 =
-NULL
+nullptr
 ;
 }
 void
@@ -1233,7 +1232,7 @@ anymore
 .
 message_loop_
 =
-NULL
+nullptr
 ;
 thread_id_
 =

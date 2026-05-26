@@ -1591,7 +1591,7 @@ msghdr
 msg
 =
 {
-0
+nullptr
 }
 ;
 struct
@@ -1878,7 +1878,7 @@ int
 *
 wire_fds
 =
-NULL
+nullptr
 ;
 unsigned
 num_wire_fds
@@ -3007,7 +3007,7 @@ char
 *
 error
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3933,7 +3933,7 @@ msghdr
 msgh
 =
 {
-0
+nullptr
 }
 ;
 char

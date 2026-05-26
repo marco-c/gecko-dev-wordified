@@ -1376,7 +1376,7 @@ Lock
 )
 state_
 (
-NULL
+nullptr
 )
 run_depth_base_
 (
@@ -2201,7 +2201,7 @@ get_tls_ptr
 .
 Set
 (
-NULL
+nullptr
 )
 ;
 }
@@ -4484,7 +4484,7 @@ XP_WIN
 )
 dispatcher
 =
-NULL
+nullptr
 ;
 #
 endif

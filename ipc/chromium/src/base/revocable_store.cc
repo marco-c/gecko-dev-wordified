@@ -161,7 +161,7 @@ owning_reference_
 >
 set_store
 (
-NULL
+nullptr
 )
 ;
 }
@@ -217,7 +217,7 @@ owning_reference_
 >
 set_store
 (
-NULL
+nullptr
 )
 ;
 /

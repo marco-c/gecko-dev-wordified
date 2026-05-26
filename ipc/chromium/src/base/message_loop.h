@@ -3624,7 +3624,7 @@ if
 loop
 )
 return
-NULL
+nullptr
 ;
 Type
 type

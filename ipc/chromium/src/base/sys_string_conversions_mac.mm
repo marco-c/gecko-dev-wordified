@@ -200,7 +200,7 @@ false
 /
 /
 isExternalRepresentation
-NULL
+nullptr
 /
 /
 buffer
@@ -370,7 +370,7 @@ out_buffer
 ]
 )
 out_size
-NULL
+nullptr
 )
 ;
 /
@@ -536,7 +536,7 @@ cfstring
 (
 CFStringCreateWithBytesNoCopy
 (
-NULL
+nullptr
 reinterpret_cast
 <
 const

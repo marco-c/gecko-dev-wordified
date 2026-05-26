@@ -866,7 +866,7 @@ thread_handle
 pthread_join
 (
 thread_handle
-NULL
+nullptr
 )
 ;
 }

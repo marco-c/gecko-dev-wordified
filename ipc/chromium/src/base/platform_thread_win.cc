@@ -376,7 +376,7 @@ return
 thread_handle
 !
 =
-NULL
+nullptr
 ;
 }
 /

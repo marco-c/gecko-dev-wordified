@@ -90,7 +90,7 @@ pthread_key_create
 (
 &
 slot
-NULL
+nullptr
 )
 ;
 CHECK

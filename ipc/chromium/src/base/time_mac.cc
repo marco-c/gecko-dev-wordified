@@ -531,7 +531,7 @@ CFTimeZoneCopySystem
 (
 )
 :
-NULL
+nullptr
 )
 ;
 CFAbsoluteTime
@@ -603,7 +603,7 @@ CFTimeZoneCopySystem
 (
 )
 :
-NULL
+nullptr
 )
 ;
 CFGregorianDate

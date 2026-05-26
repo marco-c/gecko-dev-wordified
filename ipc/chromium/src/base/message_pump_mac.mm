@@ -277,7 +277,7 @@ MessagePumpCFRunLoopBase
 :
 delegate_
 (
-NULL
+nullptr
 )
 delayed_work_fire_time_
 (
@@ -377,7 +377,7 @@ delayed_work_timer_
 =
 CFRunLoopTimerCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -433,7 +433,7 @@ work_source_
 =
 CFRunLoopSourceCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -462,7 +462,7 @@ delayed_work_source_
 =
 CFRunLoopSourceCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -491,7 +491,7 @@ idle_work_source_
 =
 CFRunLoopSourceCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -520,7 +520,7 @@ nesting_deferred_work_source_
 =
 CFRunLoopSourceCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -556,7 +556,7 @@ pre_wait_observer_
 =
 CFRunLoopObserverCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -585,7 +585,7 @@ pre_source_observer_
 =
 CFRunLoopObserverCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -614,7 +614,7 @@ enter_exit_observer_
 =
 CFRunLoopObserverCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -4090,7 +4090,7 @@ quit_source_
 =
 CFRunLoopSourceCreate
 (
-NULL
+nullptr
 /
 /
 allocator
@@ -4477,7 +4477,7 @@ windowNumber
 0
 context
 :
-NULL
+nullptr
 subtype
 :
 0
