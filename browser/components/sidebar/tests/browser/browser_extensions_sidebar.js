@@ -734,9 +734,15 @@ synthesizeMouseAtCenter
 categories
 -
 box
+moz
+-
+page
+-
+nav
+-
 button
 [
-name
+view
 =
 extension
 ]
