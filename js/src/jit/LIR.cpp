@@ -5135,7 +5135,7 @@ format
 off
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 /
 /
 Alignment

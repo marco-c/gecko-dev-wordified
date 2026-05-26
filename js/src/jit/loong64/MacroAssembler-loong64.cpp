@@ -17518,7 +17518,7 @@ diff
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -17693,7 +17693,7 @@ iter
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -17928,7 +17928,7 @@ diffG
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "

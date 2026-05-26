@@ -86,7 +86,7 @@ may
 differ
 depending
 on
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 :
 if
 SIMD

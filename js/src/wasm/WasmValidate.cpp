@@ -7640,7 +7640,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 uint16_t
 (
@@ -11658,7 +11658,7 @@ break
 endif
 /
 /
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 uint16_t
 (

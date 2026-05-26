@@ -85318,7 +85318,7 @@ x64
 |
 #
 ifdef
-ENABLE_WASM_AVX
+ENABLE_JIT_AVX
 !
 op
 .

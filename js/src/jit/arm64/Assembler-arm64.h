@@ -367,7 +367,7 @@ ScratchFloat32Reg_
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 static
 constexpr
 FloatRegister
