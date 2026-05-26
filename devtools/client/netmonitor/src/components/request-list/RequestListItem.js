@@ -1227,9 +1227,6 @@ statusText
 fromCache
 "
 "
-isRacing
-"
-"
 fromServiceWorker
 "
 "

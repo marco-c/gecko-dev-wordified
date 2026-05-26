@@ -1079,9 +1079,6 @@ statusText
 httpVersion
 "
 "
-isRacing
-"
-"
 securityState
 "
 "
