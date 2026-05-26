@@ -5441,17 +5441,6 @@ themes
 /
 shared
 /
-toolbarbutton
-.
-css
-"
-"
-toolkit
-/
-themes
-/
-shared
-/
 tree
 /
 tree
