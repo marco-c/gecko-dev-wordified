@@ -57,7 +57,7 @@ sys
 .
 mjs
 "
-ShareResult
+makeShareResult
 :
 "
 resource
