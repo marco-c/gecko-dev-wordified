@@ -33,6 +33,11 @@ use
 strict
 "
 ;
+requestLongerTimeout
+(
+3
+)
+;
 function
 checkForPrompt
 (
