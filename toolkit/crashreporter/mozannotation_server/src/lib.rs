@@ -203,13 +203,6 @@ size_of
 ManuallyDrop
 }
 ;
-#
-[
-derive
-(
-Clone
-)
-]
 pub
 enum
 AnnotationData
@@ -227,13 +220,6 @@ String
 CString
 )
 }
-#
-[
-derive
-(
-Clone
-)
-]
 pub
 struct
 CAnnotation
