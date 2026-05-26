@@ -208,7 +208,7 @@ float
 *
 channelData
 =
-js_pod_malloc
+js_pod_calloc
 <
 float
 >
