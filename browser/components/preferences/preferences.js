@@ -1782,7 +1782,7 @@ ai
 -
 controls
 -
-header
+header2
 "
 iconSrc
 :
@@ -1863,7 +1863,7 @@ l10nId
 "
 pane
 -
-downloads
+downloads2
 "
 iconSrc
 :
@@ -2266,7 +2266,7 @@ preferences
 -
 languages
 -
-header
+header2
 "
 iconSrc
 :
@@ -2749,10 +2749,10 @@ groupIds
 passwords
 "
 "
-addresses
-"
-"
 payments
+"
+"
+addresses
 "
 ]
 module
@@ -3830,7 +3830,7 @@ account
 -
 sync
 -
-title
+title2
 "
 )
 ;
