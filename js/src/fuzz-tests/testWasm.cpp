@@ -1819,7 +1819,7 @@ warnings
 SharedModule
 module
 =
-CompileBuffer
+CompileModule
 (
 *
 compileArgs

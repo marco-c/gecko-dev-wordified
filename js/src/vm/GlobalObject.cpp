@@ -1064,6 +1064,14 @@ cx
 case
 JSProto_WasmModule
 :
+#
+ifdef
+ENABLE_WASM_COMPONENTS
+case
+JSProto_WasmComponent
+:
+#
+endif
 case
 JSProto_WasmInstance
 :
