@@ -3299,25 +3299,6 @@ filename
 platform
 =
 platform
-                
-level
-=
-str
-(
-config
-.
-params
-.
-get
-(
-"
-level
-"
-"
-1
-"
-)
-)
             
 )
             
