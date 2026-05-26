@@ -1879,15 +1879,6 @@ JSTracer
 trc
 )
 ;
-bool
-needsSweep
-(
-JSTracer
-*
-trc
-)
-const
-;
 static
 void
 printInfoHeader
