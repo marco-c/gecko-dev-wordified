@@ -3539,6 +3539,9 @@ std
 string
 s
 ;
+(
+void
+)
 r
 .
 SerializeToString
@@ -4396,6 +4399,9 @@ std
 string
 s
 ;
+(
+void
+)
 r
 .
 SerializeToString
@@ -5785,6 +5791,9 @@ std
 string
 s
 ;
+(
+void
+)
 hit
 .
 SerializeToString
