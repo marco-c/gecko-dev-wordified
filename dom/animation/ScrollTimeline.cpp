@@ -2092,6 +2092,13 @@ mElement
 MOZ_ASSERT
 (
 e
+"
+HasNonMinimalNonZeroDisplayPort
+requires
+a
+source
+element
+"
 )
 ;
 return
