@@ -174,6 +174,8 @@ nsACString
 aFlavor
 ClipboardType
 aWhichClipboard
+uint64_t
+aThreshold
 )
 override
 ;

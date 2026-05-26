@@ -135,6 +135,13 @@ js
 ]
 [
 "
+browser_test_clipboard_getDataIfSmallerThan_parent
+.
+js
+"
+]
+[
+"
 browser_test_clipboardcache
 .
 js

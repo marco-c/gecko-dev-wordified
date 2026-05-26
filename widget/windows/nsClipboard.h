@@ -222,6 +222,10 @@ const
 nsCString
 &
 aFlavor
+uint64_t
+aThreshold
+=
+0
 )
 ;
 static
@@ -239,6 +243,10 @@ aWindow
 nsITransferable
 *
 aTransferable
+uint64_t
+aThreshold
+=
+0
 )
 ;
 static
@@ -259,6 +267,10 @@ aData
 uint32_t
 *
 aLen
+uint64_t
+aThreshold
+=
+0
 )
 ;
 static
@@ -283,6 +295,10 @@ aData
 uint32_t
 *
 aLen
+uint64_t
+aThreshold
+=
+0
 )
 ;
 static
@@ -538,6 +554,10 @@ nsACString
 aFlavor
 ClipboardType
 aWhichClipboard
+uint64_t
+aThreshold
+=
+0
 )
 override
 ;
