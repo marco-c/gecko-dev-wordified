@@ -378,7 +378,7 @@ nsISupports
 *
 rawPtr
 =
-0
+nullptr
 ;
 nsresult
 status
@@ -765,7 +765,7 @@ nsISupports
 *
 rawPtr
 =
-0
+nullptr
 ;
 nsresult
 status

@@ -307,7 +307,7 @@ nsISupports
 *
 rawPtr
 =
-0
+nullptr
 ;
 nsresult
 status
@@ -646,7 +646,7 @@ nsISupports
 *
 rawPtr
 =
-0
+nullptr
 ;
 nsresult
 status
@@ -849,7 +849,7 @@ IBar
 *
 barP
 =
-0
+nullptr
 ;
 nsresult
 rv
@@ -882,7 +882,7 @@ IFoo
 *
 fooP
 =
-0
+nullptr
 ;
 rv
 =

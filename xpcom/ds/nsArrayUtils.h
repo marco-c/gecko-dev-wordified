@@ -166,7 +166,7 @@ nsresult
 *
 aErrorPtr
 =
-0
+nullptr
 )
 {
 return

@@ -232,7 +232,7 @@ nsresult
 *
 aError
 =
-0
+nullptr
 )
 {
 return

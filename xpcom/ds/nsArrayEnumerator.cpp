@@ -208,7 +208,7 @@ MOZ_ASSERT
 aResult
 !
 =
-0
+nullptr
 "
 null
 ptr
@@ -297,7 +297,7 @@ MOZ_ASSERT
 aResult
 !
 =
-0
+nullptr
 "
 null
 ptr
@@ -759,7 +759,7 @@ MOZ_ASSERT
 aResult
 !
 =
-0
+nullptr
 "
 null
 ptr
@@ -806,7 +806,7 @@ MOZ_ASSERT
 aResult
 !
 =
-0
+nullptr
 "
 null
 ptr

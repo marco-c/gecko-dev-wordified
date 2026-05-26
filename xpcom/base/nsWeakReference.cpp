@@ -264,7 +264,7 @@ aAnswer
 *
 aAnswer
 =
-0
+nullptr
 ;
 }
 }

@@ -794,11 +794,11 @@ segmentOffset
 }
 mWriteCursor
 =
-0
+nullptr
 ;
 mSegmentEnd
 =
-0
+nullptr
 ;
 LOG
 (
@@ -1229,7 +1229,7 @@ mWriteCursor
 {
 mSegmentEnd
 =
-0
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1820,11 +1820,11 @@ aPosition
 {
 mWriteCursor
 =
-0
+nullptr
 ;
 mSegmentEnd
 =
-0
+nullptr
 ;
 LOG
 (

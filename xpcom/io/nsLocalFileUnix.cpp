@@ -11237,7 +11237,7 @@ NS_ERROR_FAILURE
 CFBooleanRef
 isApp
 =
-NULL
+nullptr
 ;
 *
 aResult
@@ -11250,7 +11250,7 @@ url
 kCFURLIsApplicationKey
 &
 isApp
-NULL
+nullptr
 )
 &
 &

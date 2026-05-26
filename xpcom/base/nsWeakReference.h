@@ -110,7 +110,7 @@ nsSupportsWeakReference
 :
 mProxy
 (
-0
+nullptr
 )
 {
 }

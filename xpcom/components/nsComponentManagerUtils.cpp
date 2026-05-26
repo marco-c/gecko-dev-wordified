@@ -817,7 +817,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if
@@ -875,7 +875,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if
@@ -935,7 +935,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if
@@ -993,7 +993,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if
@@ -1051,7 +1051,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if
@@ -1109,7 +1109,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 return
@@ -1156,7 +1156,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if
@@ -1214,7 +1214,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 return
@@ -1261,7 +1261,7 @@ status
 *
 aInstancePtr
 =
-0
+nullptr
 ;
 }
 if

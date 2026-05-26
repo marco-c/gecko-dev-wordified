@@ -3364,7 +3364,7 @@ proc_translated
 ret
 &
 size
-NULL
+nullptr
 0
 )
 =
@@ -4923,7 +4923,7 @@ cpufrequency_max
 sysctlValue64
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -4973,7 +4973,7 @@ physicalcpu_max
 sysctlValue32
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5021,7 +5021,7 @@ logicalcpu_max
 sysctlValue32
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5069,7 +5069,7 @@ l2cachesize
 sysctlValue64
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5119,7 +5119,7 @@ l3cachesize
 sysctlValue64
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5160,10 +5160,10 @@ cpu
 .
 vendor
 "
-NULL
+nullptr
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5193,7 +5193,7 @@ vendor
 cpuVendorStr
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5221,10 +5221,10 @@ cpu
 .
 brand_string
 "
-NULL
+nullptr
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5254,7 +5254,7 @@ brand_string
 cpuNameStr
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5293,7 +5293,7 @@ family
 sysctlValue32
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5343,7 +5343,7 @@ model
 sysctlValue32
 &
 len
-NULL
+nullptr
 0
 )
 )
@@ -5393,7 +5393,7 @@ stepping
 sysctlValue32
 &
 len
-NULL
+nullptr
 0
 )
 )

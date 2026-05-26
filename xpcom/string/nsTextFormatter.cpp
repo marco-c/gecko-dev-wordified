@@ -5082,13 +5082,13 @@ ss
 .
 base
 =
-0
+nullptr
 ;
 ss
 .
 cur
 =
-0
+nullptr
 ;
 ss
 .

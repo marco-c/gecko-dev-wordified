@@ -1291,7 +1291,7 @@ return
 aStr2
 !
 =
-0
+nullptr
 ;
 }
 if
@@ -1364,7 +1364,7 @@ return
 aStr2
 !
 =
-0
+nullptr
 ;
 }
 if
@@ -1700,7 +1700,7 @@ aVer2
 extraD
 !
 =
-0
+nullptr
 ;
 }
 if

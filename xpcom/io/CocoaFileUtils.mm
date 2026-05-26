@@ -702,7 +702,7 @@ static
 MDItemSetAttribute_type
 mdItemSetAttributeFunc
 =
-NULL
+nullptr
 ;
 static
 bool
@@ -783,7 +783,7 @@ mdItem
 :
 MDItemCreate
 (
-NULL
+nullptr
 filePath
 )
 ;
@@ -805,7 +805,7 @@ CFArrayCreateMutable
 (
 kCFAllocatorDefault
 2
-NULL
+nullptr
 )
 ;
 if
@@ -944,7 +944,7 @@ localPool
 CFDictionaryRef
 quarantineProps
 =
-NULL
+nullptr
 ;
 if
 (
@@ -957,9 +957,9 @@ quarantineProps
 :
 CFDictionaryCreate
 (
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 0
 &
 kCFTypeDictionaryKeyCallBacks
@@ -981,7 +981,7 @@ aFileURL
 kCFURLQuarantinePropertiesKey
 &
 quarantineProps
-NULL
+nullptr
 )
 ;
 /
@@ -1025,7 +1025,7 @@ quarantineProps
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1073,7 +1073,7 @@ quarantineProps
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 /
@@ -1298,7 +1298,7 @@ CFURLSetResourcePropertyForKey
 fileURL
 kCFURLQuarantinePropertiesKey
 mutQuarantineProps
-NULL
+nullptr
 )
 ;
 :

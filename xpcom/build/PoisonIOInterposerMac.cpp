@@ -1449,7 +1449,7 @@ FuncData
 aio_write_data
 =
 {
-0
+nullptr
 (
 void
 *

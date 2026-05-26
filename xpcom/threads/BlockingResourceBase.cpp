@@ -1138,7 +1138,7 @@ members
 }
 mChainPrev
 =
-0
+nullptr
 ;
 sDeadlockDetector
 -
@@ -1205,7 +1205,7 @@ mistakes
 .
 mChainPrev
 =
-0
+nullptr
 ;
 /
 /
@@ -1600,7 +1600,7 @@ sDeadlockDetector
 ;
 sDeadlockDetector
 =
-0
+nullptr
 ;
 }
 MOZ_NEVER_INLINE
@@ -1671,7 +1671,7 @@ chainFront
 ?
 chainFront
 :
-0
+nullptr
 this
 )
 )
@@ -2908,7 +2908,7 @@ mEntryCount
 ;
 mChainPrev
 =
-0
+nullptr
 ;
 nsresult
 rv
@@ -3362,7 +3362,7 @@ mLock
 >
 mChainPrev
 =
-0
+nullptr
 ;
 mLock
 -
