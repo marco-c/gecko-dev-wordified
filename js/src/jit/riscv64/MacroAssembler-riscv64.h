@@ -599,8 +599,6 @@ offset
 int32_t
 GetOffset
 (
-int32_t
-offset
 Label
 *
 L
