@@ -136,6 +136,7 @@ values
 :
 {
 computed
+computed
 :
 :
 color
@@ -755,6 +756,16 @@ resolve_to_absolute
 (
 &
 self
+context
+:
+Option
+<
+&
+computed
+:
+:
+Context
+>
 )
 -
 >
@@ -786,6 +797,7 @@ alpha
 resolve
 (
 origin_color
+context
 )
 ?
 .
@@ -1084,6 +1096,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -1114,6 +1127,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -1144,6 +1158,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -1200,6 +1215,16 @@ Option
 &
 AbsoluteColor
 >
+context
+:
+Option
+<
+&
+computed
+:
+:
+Context
+>
 )
 -
 >
@@ -1219,6 +1244,7 @@ component
 resolve
 (
 origin_color
+context
 )
 ?
 .
@@ -1279,6 +1305,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 resolve
@@ -1289,6 +1316,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 resolve
@@ -1299,6 +1327,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 alpha
@@ -1500,6 +1529,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -1526,6 +1556,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -1573,6 +1604,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -1820,6 +1852,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -1846,6 +1879,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -1893,6 +1927,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2070,6 +2105,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2094,6 +2130,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2118,6 +2155,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2250,6 +2288,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2274,6 +2313,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2298,6 +2338,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2440,6 +2481,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2464,6 +2506,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2488,6 +2531,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2624,6 +2668,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2648,6 +2693,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2672,6 +2718,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2823,6 +2870,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2849,6 +2897,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -2875,6 +2924,7 @@ origin_color
 as_ref
 (
 )
+context
 )
 ?
 .
@@ -3068,6 +3118,16 @@ resolve_to_absolute
 (
 &
 self
+context
+:
+Option
+<
+&
+computed
+:
+:
+Context
+>
 )
 -
 >
@@ -3103,12 +3163,14 @@ o
 .
 resolve_to_absolute
 (
+context
 )
 )
 ?
 .
 resolve_to_absolute
 (
+context
 )
 }
 }
@@ -3577,11 +3639,29 @@ unwrap
 (
 )
 ;
+/
+/
+Computed
+value
+context
+is
+not
+required
+as
+it
+was
+already
+applied
+to
+this
+color
+.
 match
 resolvable
 .
 resolve_to_absolute
 (
+None
 )
 {
 Ok

@@ -3153,6 +3153,7 @@ color
 .
 honored_in_forced_colors_mode
 (
+context
 /
 *
 allow_transparent
@@ -3282,6 +3283,7 @@ color
 .
 honored_in_forced_colors_mode
 (
+context
 /
 *
 allow_transparent
@@ -3638,6 +3640,7 @@ color
 .
 honored_in_forced_colors_mode
 (
+context
 /
 *
 allow_transparent
