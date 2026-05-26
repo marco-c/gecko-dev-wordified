@@ -502,6 +502,16 @@ pref
 "
 pdfjs
 .
+enableSelectionRendering
+"
+true
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableSignatureEditor
 "
 false
