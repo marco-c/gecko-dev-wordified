@@ -37689,7 +37689,7 @@ spatialId
 =
 aBuilder
 .
-GetSpatialIdForDefinedStickyLayer
+GetSpatialIdForDefinedLayer
 (
 stickyAsr
 )
