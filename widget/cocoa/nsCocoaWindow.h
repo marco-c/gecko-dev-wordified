@@ -4543,6 +4543,11 @@ static
 LayoutDeviceIntPoint
 sNativeLockedPoint
 ;
+static
+nsCocoaWindow
+*
+sNativeLockedWindow
+;
 }
 ;
 #
