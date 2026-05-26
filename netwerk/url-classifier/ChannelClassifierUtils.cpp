@@ -1986,9 +1986,9 @@ uint32_t
 aReplacedEvent
 uint32_t
 aAllowedEvent
-bool
+ChannelBlockDecision
 *
-aShouldContinue
+aOutDecision
 )
 {
 MOZ_ASSERT
@@ -1998,7 +1998,7 @@ aChannel
 ;
 MOZ_ASSERT
 (
-aShouldContinue
+aOutDecision
 )
 ;
 ChannelBlockDecision
@@ -2013,6 +2013,11 @@ aChannel
 aFeatureName
 aList
 )
+;
+*
+aOutDecision
+=
+decision
 ;
 if
 (
@@ -2087,11 +2092,6 @@ aChannel
 event
 blocked
 )
-;
-*
-aShouldContinue
-=
-true
 ;
 return
 NS_OK
@@ -2184,11 +2184,6 @@ aErrorCode
 )
 ;
 }
-*
-aShouldContinue
-=
-false
-;
 return
 NS_OK
 ;
