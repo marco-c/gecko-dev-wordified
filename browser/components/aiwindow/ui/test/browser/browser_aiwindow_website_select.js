@@ -449,7 +449,7 @@ event
 .
 detail
 .
-linkedPanel
+tabId
 "
 test
 -
@@ -681,7 +681,7 @@ test
 data
 select
 .
-linkedPanel
+tabId
 =
 "
 test
@@ -700,7 +700,7 @@ Label
 ;
 select
 .
-url
+href
 =
 "
 https
@@ -814,7 +814,7 @@ event
 .
 detail
 .
-linkedPanel
+tabId
 "
 test
 -
@@ -824,7 +824,7 @@ id
 Event
 has
 correct
-linkedPanel
+tabId
 "
 )
 ;
@@ -857,7 +857,7 @@ event
 .
 detail
 .
-url
+href
 "
 https
 :
@@ -873,7 +873,7 @@ com
 Event
 has
 correct
-url
+href
 "
 )
 ;
@@ -1251,9 +1251,9 @@ ok
 (
 select
 .
-url
+href
 "
-URL
+Href
 property
 is
 accessible
