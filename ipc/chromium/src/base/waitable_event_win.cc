@@ -82,6 +82,15 @@ time
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ProfilerThreadSleep
+.
+h
+"
 namespace
 base
 {
@@ -216,6 +225,8 @@ Wait
 (
 )
 {
+AUTO_PROFILER_THREAD_SLEEP
+;
 DWORD
 result
 =
@@ -283,6 +294,8 @@ TimeDelta
 max_time
 )
 {
+AUTO_PROFILER_THREAD_SLEEP
+;
 DCHECK
 (
 max_time
@@ -446,6 +459,8 @@ size_t
 count
 )
 {
+AUTO_PROFILER_THREAD_SLEEP
+;
 HANDLE
 handles
 [
