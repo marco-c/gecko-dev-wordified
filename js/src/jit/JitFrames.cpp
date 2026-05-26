@@ -10626,7 +10626,7 @@ MOZ_ASSERT
 nextPC
 !
 =
-0
+nullptr
 )
 ;
 wasm

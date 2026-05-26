@@ -4856,7 +4856,7 @@ void
 *
 scriptContextId
 =
-NULL
+nullptr
 ;
 uint32_t
 flags
