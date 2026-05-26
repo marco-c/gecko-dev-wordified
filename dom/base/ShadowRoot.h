@@ -648,6 +648,14 @@ Declarative
 aDeclarative
 CustomSlotDispatch
 aCustomSlotDispatch
+const
+Maybe
+<
+CustomElementRegistry
+*
+>
+&
+aRegistry
 already_AddRefed
 <
 mozilla
