@@ -166919,7 +166919,7 @@ Logo
 /
 variants
 /
-LogoSpinSmooth
+SpinSmooth
 .
 jsx
 /
@@ -167020,8 +167020,6 @@ this
 file
 the
 *
-logo
--
 spin
 -
 smooth
@@ -167036,8 +167034,6 @@ jsx
 )
 the
 *
-logo
--
 spin
 -
 smooth
@@ -167086,8 +167082,6 @@ content
 /
 assets
 /
-logo
--
 spin
 -
 smooth
@@ -167441,8 +167435,6 @@ content
 /
 assets
 /
-logo
--
 spin
 -
 smooth
@@ -167710,7 +167702,7 @@ animation
 *
 /
 function
-LogoSpinSmooth
+SpinSmooth
 (
 )
 {
@@ -168009,8 +168001,6 @@ logo
 variation
 -
 small
-logo
--
 spin
 -
 smooth
@@ -168063,8 +168053,6 @@ clipPath
 id
 :
 "
-logo
--
 spin
 -
 smooth
@@ -168134,8 +168122,6 @@ clipPath
 url
 (
 #
-logo
--
 spin
 -
 smooth
@@ -168618,8 +168604,6 @@ each
 200x200
 to
 match
-logo
--
 spin
 -
 smooth
@@ -177891,8 +177875,6 @@ fallback
 null
 }
 "
-logo
--
 spin
 -
 smooth
@@ -177901,7 +177883,7 @@ smooth
 {
 component
 :
-LogoSpinSmooth
+SpinSmooth
 minViewportWidth
 :
 0
