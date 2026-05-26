@@ -134,6 +134,7 @@ Cu
 arrayFromChildren
 forceGC
 contentSpawnMutation
+DEFAULT_CONTENT_DOC_BODY_ID
 DEFAULT_IFRAME_ID
 DEFAULT_IFRAME_DOC_BODY_ID
 invokeContentTask
@@ -2746,6 +2747,18 @@ contentDocBodyAttrs
 options
 ;
 const
+isIframe
+=
+options
+.
+iframe
+|
+|
+options
+.
+remoteIframe
+;
+const
 attrs
 =
 {
@@ -2760,7 +2773,7 @@ contentDocBodyAttrs
 ;
 if
 (
-gIsIframe
+isIframe
 )
 {
 doc
@@ -2932,7 +2945,7 @@ encodedDoc
 if
 (
 !
-gIsIframe
+isIframe
 &
 &
 options
