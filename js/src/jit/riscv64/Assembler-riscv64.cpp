@@ -1778,8 +1778,8 @@ temps
 this
 )
 ;
-BlockTrampolinePoolScope
-block_trampoline_pool
+AutoForbidPoolsAndNops
+afp
 (
 this
 8
