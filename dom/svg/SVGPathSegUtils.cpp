@@ -2381,7 +2381,7 @@ threshold
 std
 :
 :
-fmin
+min
 (
 (
 std
@@ -2797,7 +2797,10 @@ min
 .
 x
 =
-fmin
+std
+:
+:
+min
 (
 min
 .
@@ -2811,7 +2814,10 @@ min
 .
 y
 =
-fmin
+std
+:
+:
+min
 (
 min
 .
@@ -2825,7 +2831,10 @@ max
 .
 x
 =
-fmax
+std
+:
+:
+max
 (
 max
 .
@@ -2839,7 +2848,10 @@ max
 .
 y
 =
-fmax
+std
+:
+:
+max
 (
 max
 .
