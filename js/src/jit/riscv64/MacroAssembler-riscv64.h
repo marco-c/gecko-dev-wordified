@@ -4036,6 +4036,8 @@ const
 Value
 &
 val
+CodeOffset
+offset
 )
 {
 MOZ_ASSERT
@@ -4108,7 +4110,9 @@ dataRelocations_
 .
 writeUnsigned
 (
-currentOffset
+offset
+.
+offset
 (
 )
 )
@@ -6419,11 +6423,9 @@ Acquire
 (
 )
 ;
-writeDataRelocation
-(
-val
-)
-;
+CodeOffset
+offset
+=
 movWithPatch
 (
 ImmWord
@@ -6435,6 +6437,12 @@ asRawBits
 )
 )
 scratch
+)
+;
+writeDataRelocation
+(
+val
+offset
 )
 ;
 push
