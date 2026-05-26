@@ -1718,9 +1718,6 @@ appearance
 browserTheme
 "
 "
-browserLayout
-"
-"
 relatedSettings
 "
 ]
@@ -3129,6 +3126,9 @@ section
 groupIds
 :
 [
+"
+browserLayout
+"
 "
 tabs
 "
