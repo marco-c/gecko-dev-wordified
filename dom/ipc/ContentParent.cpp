@@ -9470,7 +9470,15 @@ IsEmpty
 {
 remoteType
 =
-DEFAULT_REMOTE_TYPE
+SharedWebRemoteType
+(
+aBrowsingContext
+-
+>
+OriginAttributesRef
+(
+)
+)
 ;
 }
 TabId
