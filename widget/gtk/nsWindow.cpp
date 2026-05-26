@@ -49955,7 +49955,7 @@ GdkIsWaylandDisplay
 {
 static
 constexpr
-bool
+uint32_t
 sMaxTouchPoints
 =
 5
