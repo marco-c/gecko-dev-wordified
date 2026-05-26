@@ -450,7 +450,7 @@ mutableStateOf
 (
 DeleteDownloadBehavior
 .
-DELETE_FROM_DEVICE
+ASK_WHEN_DELETING
 )
 var
 onBehaviorSelected
@@ -891,7 +891,7 @@ mutableStateOf
 (
 DeleteDownloadBehavior
 .
-DELETE_FROM_DEVICE
+ASK_WHEN_DELETING
 )
 }
 DeleteBehaviorRadioGroup
