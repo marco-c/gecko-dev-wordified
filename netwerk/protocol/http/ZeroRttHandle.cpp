@@ -643,7 +643,7 @@ attempt
 attempt
 -
 >
-LockInRealTxnFromPendingQueue
+LockInRealTransactionFromPendingQueue
 (
 )
 )
