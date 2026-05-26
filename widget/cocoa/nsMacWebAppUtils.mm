@@ -330,7 +330,9 @@ false
 meaning
 the
 app
-wasnt
+wasn
+'
+t
 launched
 for
 some
@@ -394,7 +396,7 @@ additionalEventParamDescriptor
 nil
 launchIdentifier
 :
-NULL
+nullptr
 ]
 ;
 return

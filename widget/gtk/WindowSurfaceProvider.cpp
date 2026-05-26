@@ -550,7 +550,7 @@ mXWindow
 ;
 mXVisual
 =
-0
+nullptr
 ;
 mXDepth
 =

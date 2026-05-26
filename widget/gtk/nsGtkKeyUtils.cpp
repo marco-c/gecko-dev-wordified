@@ -4380,7 +4380,7 @@ char
 )
 mmap
 (
-NULL
+nullptr
 size
 PROT_READ
 MAP_PRIVATE

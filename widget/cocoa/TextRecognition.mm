@@ -223,7 +223,7 @@ data
 CGImageRef
 imageRef
 =
-NULL
+nullptr
 ;
 nsresult
 rv

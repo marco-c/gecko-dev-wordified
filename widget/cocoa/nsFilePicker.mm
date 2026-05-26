@@ -2940,7 +2940,7 @@ CFStringRef
 (
 otherExtension
 )
-NULL
+nullptr
 )
 ;
 if

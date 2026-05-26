@@ -1363,7 +1363,7 @@ kPMDestinationPrinter
 PMPrinter
 currentPrinter
 =
-NULL
+nullptr
 ;
 status
 =

@@ -2840,8 +2840,8 @@ get
 (
 )
 G_FILE_MONITOR_NONE
-NULL
-NULL
+nullptr
+nullptr
 )
 )
 ;

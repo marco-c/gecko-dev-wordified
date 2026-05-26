@@ -1535,11 +1535,11 @@ nullptr
 )
 mCFRunLoop
 (
-NULL
+nullptr
 )
 mCFRunLoopSource
 (
-NULL
+nullptr
 )
 mRunningEventLoop
 (
@@ -3336,7 +3336,7 @@ windowNumber
 0
 context
 :
-NULL
+nullptr
 subtype
 :
 kEventSubtypeNone
@@ -3535,7 +3535,7 @@ windowNumber
 0
 context
 :
-NULL
+nullptr
 subtype
 :
 kEventSubtypeNone
@@ -3643,7 +3643,7 @@ windowNumber
 0
 context
 :
-NULL
+nullptr
 subtype
 :
 kEventSubtypeNone

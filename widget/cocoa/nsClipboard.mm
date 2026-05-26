@@ -969,7 +969,7 @@ flag
 cocoaPasteboard
 setData
 :
-NULL
+nullptr
 forType
 :
 currentKey
@@ -1927,7 +1927,7 @@ to
 CFStringRef
 outputType
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2300,7 +2300,7 @@ CFMutableDataRef
 encodedData
 outputType
 1
-NULL
+nullptr
 )
 ;
 if
@@ -2330,7 +2330,7 @@ CGImageSourceCreateImageAtIndex
 (
 source
 0
-NULL
+nullptr
 )
 ;
 if
@@ -2383,7 +2383,7 @@ srgbImage
 srgbImage
 :
 cgImage
-NULL
+nullptr
 )
 ;
 CGColorSpaceRelease
@@ -4268,7 +4268,7 @@ continue
 CGImageRef
 imageRef
 =
-NULL
+nullptr
 ;
 rv
 =
@@ -4341,7 +4341,7 @@ tiff
 "
 )
 1
-NULL
+nullptr
 )
 ;
 CGImageDestinationRef
@@ -4359,21 +4359,21 @@ png
 "
 )
 1
-NULL
+nullptr
 )
 ;
 CGImageDestinationAddImage
 (
 destRefTIFF
 imageRef
-NULL
+nullptr
 )
 ;
 CGImageDestinationAddImage
 (
 destRefPNG
 imageRef
-NULL
+nullptr
 )
 ;
 const

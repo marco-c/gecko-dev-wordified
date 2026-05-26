@@ -3519,7 +3519,7 @@ cgEvent
 =
 CGEventCreateScrollWheelEvent
 (
-NULL
+nullptr
 units
 3
 (
