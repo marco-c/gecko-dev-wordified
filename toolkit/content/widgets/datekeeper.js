@@ -525,7 +525,7 @@ state
 .
 min
 .
-getFullYear
+getUTCFullYear
 (
 )
 ;
@@ -538,7 +538,7 @@ state
 .
 max
 .
-getFullYear
+getUTCFullYear
 (
 )
 ;
@@ -620,7 +620,7 @@ state
 .
 min
 .
-getMonth
+getUTCMonth
 (
 )
 :
@@ -638,7 +638,7 @@ state
 .
 max
 .
-getMonth
+getUTCMonth
 (
 )
 :
@@ -664,7 +664,7 @@ state
 .
 min
 .
-getMonth
+getUTCMonth
 (
 )
 ;
@@ -687,7 +687,7 @@ state
 .
 max
 .
-getMonth
+getUTCMonth
 (
 )
 ;
@@ -954,7 +954,7 @@ state
 .
 min
 .
-getFullYear
+getUTCFullYear
 (
 )
 ;
@@ -967,7 +967,7 @@ state
 .
 min
 .
-getMonth
+getUTCMonth
 (
 )
 ;
@@ -980,7 +980,7 @@ state
 .
 min
 .
-getDate
+getUTCDate
 (
 )
 ;
@@ -993,7 +993,7 @@ state
 .
 max
 .
-getFullYear
+getUTCFullYear
 (
 )
 ;
@@ -1006,7 +1006,7 @@ state
 .
 max
 .
-getMonth
+getUTCMonth
 (
 )
 ;
@@ -1019,7 +1019,7 @@ state
 .
 max
 .
-getDate
+getUTCDate
 (
 )
 ;
@@ -1352,7 +1352,7 @@ state
 .
 min
 .
-getFullYear
+getUTCFullYear
 (
 )
 ;
@@ -1365,7 +1365,7 @@ state
 .
 min
 .
-getMonth
+getUTCMonth
 (
 )
 ;
@@ -1378,7 +1378,7 @@ state
 .
 max
 .
-getFullYear
+getUTCFullYear
 (
 )
 ;
@@ -1391,7 +1391,7 @@ state
 .
 max
 .
-getMonth
+getUTCMonth
 (
 )
 ;
@@ -1559,7 +1559,7 @@ state
 .
 min
 .
-getFullYear
+getUTCFullYear
 (
 )
 1
@@ -1578,7 +1578,7 @@ state
 .
 max
 .
-getFullYear
+getUTCFullYear
 (
 )
 MAX_YEAR
