@@ -1268,12 +1268,9 @@ cache
 def
 _is_hg_try
 (
+remote
 )
 :
-    
-remote
-=
-MACH_TRY_REMOTE
     
 if
 not
@@ -1350,6 +1347,21 @@ False
 )
 :
     
+remote
+=
+os
+.
+environ
+.
+get
+(
+"
+MACH_TRY_REMOTE
+"
+)
+or
+MACH_TRY_REMOTE
+    
 metrics
 .
 mach_try
@@ -1372,7 +1384,7 @@ if
 push
 and
 not
-MACH_TRY_REMOTE
+remote
 :
         
 print
@@ -1418,6 +1430,7 @@ or
 not
 _is_hg_try
 (
+remote
 )
     
 check_working_directory
@@ -1691,7 +1704,7 @@ allow_log_capture
                 
 remote
 =
-MACH_TRY_REMOTE
+remote
             
 )
         
