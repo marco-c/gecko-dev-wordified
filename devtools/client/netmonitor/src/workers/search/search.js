@@ -1154,6 +1154,10 @@ regexQuery
 =
 RegExp
 (
+RegExp
+.
+escape
+(
 caseSensitive
 ?
 query
@@ -1162,6 +1166,7 @@ query
 .
 toLowerCase
 (
+)
 )
 flags
 )
