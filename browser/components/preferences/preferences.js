@@ -3395,6 +3395,12 @@ categoryName
 if
 (
 template
+&
+&
+!
+srdSectionPrefs
+.
+all
 )
 {
 /
