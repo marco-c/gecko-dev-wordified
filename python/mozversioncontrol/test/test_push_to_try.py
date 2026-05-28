@@ -1112,8 +1112,21 @@ r
 "
                 
 "
+heads
+(
 trunk
 (
+)
+|
+(
+remote_bookmarks
+(
+)
+&
+ancestors
+(
+)
+)
 )
 .
 .
