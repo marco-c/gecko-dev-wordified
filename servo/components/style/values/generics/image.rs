@@ -248,7 +248,6 @@ PartialEq
 SpecifiedValueInfo
 ToResolvedValue
 ToShmem
-ToTyped
 )
 ]
 #
@@ -257,13 +256,6 @@ repr
 (
 C
 u8
-)
-]
-#
-[
-typed
-(
-todo_derive_fields
 )
 ]
 pub
