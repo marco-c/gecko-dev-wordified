@@ -241,7 +241,6 @@ MakeFromEncodedNDK
 (
 sk_sp
 <
-const
 SkData
 >
 )

@@ -424,9 +424,6 @@ points
 return
 {
 fPoints
-(
-size_t
-)
 fNumPoints
 }
 ;

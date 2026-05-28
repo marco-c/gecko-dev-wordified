@@ -71,7 +71,7 @@ if
 !
 defined
 (
-SK_OLD_CPU_X64_LEVEL
+SK_OLD_CPU_SSE_LEVEL
 )
 #
 error
@@ -84,14 +84,14 @@ SkOpts_RestoreTarget
 endif
 #
 undef
-SK_CPU_X64_LEVEL
+SK_CPU_SSE_LEVEL
 #
 define
-SK_CPU_X64_LEVEL
-SK_OLD_CPU_X64_LEVEL
+SK_CPU_SSE_LEVEL
+SK_OLD_CPU_SSE_LEVEL
 #
 undef
-SK_OLD_CPU_X64_LEVEL
+SK_OLD_CPU_SSE_LEVEL
 #
 if
 defined

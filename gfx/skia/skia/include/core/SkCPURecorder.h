@@ -413,15 +413,6 @@ return
 nullptr
 ;
 }
-void
-createCaptureBreakpoint
-(
-SkSurface
-*
-)
-final
-{
-}
 }
 ;
 inline

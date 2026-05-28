@@ -497,8 +497,8 @@ Glyph
 *
 mGlyph
 ;
-SkPathBuilder
-mPathBuilder
+SkPath
+mPath
 ;
 }
 ctx
@@ -596,7 +596,7 @@ y
 ;
 ctx
 .
-mPathBuilder
+mPath
 .
 addPath
 (
@@ -620,11 +620,7 @@ ctx
 return
 ctx
 .
-mPathBuilder
-.
-detach
-(
-)
+mPath
 ;
 }
 already_AddRefed

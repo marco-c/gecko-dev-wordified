@@ -171,7 +171,6 @@ SkSurfaceProps
 props
 )
 ;
-explicit
 SkImage_Picture
 (
 Validator

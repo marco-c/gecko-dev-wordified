@@ -4,7 +4,8 @@
 Copyright
 2018
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -85,7 +86,6 @@ SkClusterator
 {
 public
 :
-explicit
 SkClusterator
 (
 const

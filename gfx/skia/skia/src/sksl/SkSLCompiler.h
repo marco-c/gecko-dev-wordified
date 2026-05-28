@@ -1009,7 +1009,6 @@ ErrorReporter
 {
 public
 :
-explicit
 CompilerErrorReporter
 (
 Compiler

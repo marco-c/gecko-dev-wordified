@@ -1779,7 +1779,7 @@ return
 surf
 -
 >
-makeTemporaryImage
+makeImageSnapshot
 (
 )
 ;
@@ -1800,13 +1800,13 @@ tile
 at
 the
 given
+/
+/
 CTM
 /
 local
 matrix
 .
-/
-/
 Also
 adjusts
 the

@@ -229,7 +229,6 @@ GrDeferredDisplayListRecorder
 {
 public
 :
-explicit
 GrDeferredDisplayListRecorder
 (
 const

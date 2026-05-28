@@ -2385,6 +2385,7 @@ operator
 +
 =
 (
+const
 char
 c
 )

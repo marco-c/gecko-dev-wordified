@@ -102,11 +102,6 @@ destruction
 *
 /
 class
-[
-[
-nodiscard
-]
-]
 SkAutoCoInitialize
 :
 SkNoncopyable

@@ -4,7 +4,8 @@
 Copyright
 2018
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -53,7 +54,7 @@ SK_ENABLE_OPTIMIZE_SIZE
 #
 define
 SK_OPTS_NS
-ml4
+hsw
 #
 include
 "
@@ -69,7 +70,7 @@ namespace
 SkOpts
 {
 void
-Init_ml4
+Init_hsw
 (
 )
 {

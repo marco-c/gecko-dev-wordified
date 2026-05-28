@@ -4,7 +4,8 @@
 Copyright
 2018
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -663,11 +664,6 @@ fFlags
 }
 ;
 class
-[
-[
-nodiscard
-]
-]
 SkAutoToGlyphs
 {
 public

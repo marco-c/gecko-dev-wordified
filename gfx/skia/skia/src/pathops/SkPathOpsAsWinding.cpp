@@ -4,7 +4,8 @@
 Copyright
 2018
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -328,7 +329,7 @@ false
 }
 ;
 static
-unsigned
+int
 VerbPtCount
 (
 SkPathVerb
@@ -337,7 +338,7 @@ verb
 {
 static
 const
-uint8_t
+int
 kPtCount
 [
 ]
@@ -2130,7 +2131,7 @@ true
 ;
 for
 (
-size_t
+int
 index
 =
 1

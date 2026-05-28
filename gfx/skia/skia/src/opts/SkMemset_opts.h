@@ -4,7 +4,8 @@
 Copyright
 2017
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -82,14 +83,14 @@ count
 if
 defined
 (
-SK_CPU_X64_LEVEL
+SK_CPU_SSE_LEVEL
 )
 &
 &
-SK_CPU_X64_LEVEL
+SK_CPU_SSE_LEVEL
 >
 =
-SK_CPU_X64_LEVEL_AVX
+SK_CPU_SSE_LEVEL_AVX
 static
 constexpr
 int

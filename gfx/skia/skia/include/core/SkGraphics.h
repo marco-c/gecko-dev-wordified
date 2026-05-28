@@ -918,9 +918,7 @@ PurgeAllCaches
 (
 )
 ;
-using
-ImageGeneratorFromEncodedDataFactory
-=
+typedef
 std
 :
 :
@@ -930,11 +928,11 @@ SkImageGenerator
 >
 (
 *
+ImageGeneratorFromEncodedDataFactory
 )
 (
 sk_sp
 <
-const
 SkData
 >
 )

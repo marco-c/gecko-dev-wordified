@@ -4,7 +4,8 @@
 Copyright
 2019
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -375,7 +376,6 @@ GrBaseContextPriv
 for
 hidden
 functions
-explicit
 GrContext_Base
 (
 sk_sp

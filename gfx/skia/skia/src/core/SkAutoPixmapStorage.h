@@ -89,11 +89,6 @@ struct
 SkMask
 ;
 class
-[
-[
-nodiscard
-]
-]
 SkAutoPixmapStorage
 :
 public
