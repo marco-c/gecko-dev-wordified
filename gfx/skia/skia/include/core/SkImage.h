@@ -665,6 +665,7 @@ DeferredFromEncodedData
 (
 sk_sp
 <
+const
 SkData
 >
 encoded
@@ -5611,6 +5612,7 @@ Image_refEncodedData
 /
 sk_sp
 <
+const
 SkData
 >
 refEncodedData

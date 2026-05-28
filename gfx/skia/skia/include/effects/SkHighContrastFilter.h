@@ -4,8 +4,7 @@
 Copyright
 2017
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -207,7 +206,7 @@ fContrast
 -
 1
 .
-0
+0f
 &
 &
 fContrast
@@ -215,7 +214,7 @@ fContrast
 =
 1
 .
-0
+0f
 ;
 }
 /

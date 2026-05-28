@@ -6943,7 +6943,7 @@ positions
 (
 )
 .
-begin
+data
 (
 )
 ;
@@ -7335,16 +7335,10 @@ this
 positions
 glyphs
 {
-nullptr
-0
 }
 {
-nullptr
-0
 }
 {
-nullptr
-0
 }
 )
 ;

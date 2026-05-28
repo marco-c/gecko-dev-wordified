@@ -239,6 +239,7 @@ IWICBitmapSource
 imageSource
 sk_sp
 <
+const
 SkData
 >
 SkEncodedOrigin
@@ -248,6 +249,7 @@ protected
 :
 sk_sp
 <
+const
 SkData
 >
 onRefEncodedData
@@ -289,6 +291,7 @@ fImageSource
 ;
 sk_sp
 <
+const
 SkData
 >
 fData
@@ -321,6 +324,7 @@ MakeFromEncodedWIC
 (
 sk_sp
 <
+const
 SkData
 >
 data
@@ -1183,6 +1187,7 @@ IWICBitmapSource
 imageSource
 sk_sp
 <
+const
 SkData
 >
 data
@@ -1220,6 +1225,7 @@ origin
 }
 sk_sp
 <
+const
 SkData
 >
 ImageGeneratorWIC

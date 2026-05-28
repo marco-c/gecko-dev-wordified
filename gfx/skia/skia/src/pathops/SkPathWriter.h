@@ -325,7 +325,7 @@ skia_private
 :
 TArray
 <
-SkPath
+SkPathBuilder
 >
 &
 partials
@@ -354,7 +354,7 @@ pt
 SkPathBuilder
 fBuilder
 ;
-SkPath
+SkPathBuilder
 fCurrent
 ;
 /
@@ -367,7 +367,7 @@ skia_private
 :
 TArray
 <
-SkPath
+SkPathBuilder
 >
 fPartials
 ;

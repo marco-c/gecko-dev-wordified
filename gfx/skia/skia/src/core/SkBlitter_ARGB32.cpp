@@ -1013,10 +1013,10 @@ miserable
 .
 #
 if
-SK_CPU_SSE_LEVEL
+SK_CPU_X64_LEVEL
 >
 =
-SK_CPU_SSE_LEVEL_SSE2
+SK_CPU_X64_LEVEL_SSE2
 #
 include
 <

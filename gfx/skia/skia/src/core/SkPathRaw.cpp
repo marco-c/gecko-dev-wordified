@@ -5,7 +5,6 @@ Copyright
 2025
 Google
 LLC
-.
 *
 *
 Use
@@ -197,6 +196,7 @@ IsRectContour
 (
 fPoints
 fVerbs
+fSegmentMask
 false
 )
 )

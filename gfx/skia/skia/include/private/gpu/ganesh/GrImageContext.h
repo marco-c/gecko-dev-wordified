@@ -4,8 +4,7 @@
 Copyright
 2019
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -207,6 +206,7 @@ GrImageContextPriv
 for
 hidden
 functions
+explicit
 GrImageContext
 (
 sk_sp

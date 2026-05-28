@@ -334,6 +334,7 @@ DawnTextureInfo
 =
 default
 ;
+explicit
 DawnTextureInfo
 (
 WGPUTexture
@@ -342,7 +343,7 @@ texture
 ;
 DawnTextureInfo
 (
-uint32_t
+SampleCount
 sampleCount
 Mipmapped
 mipmapped
@@ -395,7 +396,7 @@ slice
 }
 DawnTextureInfo
 (
-uint32_t
+SampleCount
 sampleCount
 Mipmapped
 mipmapped
@@ -459,7 +460,7 @@ __EMSCRIPTEN__
 )
 DawnTextureInfo
 (
-uint32_t
+SampleCount
 sampleCount
 Mipmapped
 mipmapped
@@ -589,21 +590,6 @@ viewFormat
 (
 )
 const
-;
-bool
-serialize
-(
-SkWStream
-*
-)
-const
-;
-bool
-deserialize
-(
-SkStream
-*
-)
 ;
 /
 /

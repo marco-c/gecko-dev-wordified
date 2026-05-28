@@ -144,6 +144,11 @@ class
 SkWriteBuffer
 ;
 class
+[
+[
+nodiscard
+]
+]
 SkAutoCanvasMatrixPaint
 :
 SkNoncopyable
@@ -197,6 +202,11 @@ directly
 into
 the
 readbuffer
+[
+[
+nodiscard
+]
+]
 static
 bool
 ReadLattice

@@ -1668,7 +1668,6 @@ drawPath
 path
 paint
 nullptr
-true
 )
 ;
 }
@@ -3132,7 +3131,7 @@ radii
 (
 )
 .
-begin
+data
 (
 )
 )

@@ -767,6 +767,18 @@ return
 ptr
 ;
 }
+\
+T
+*
+data
+(
+)
+const
+{
+return
+ptr
+;
+}
 /
 /
 An
@@ -2048,7 +2060,7 @@ SkColor
 >
 colors
 ;
-int
+unsigned
 count
 ;
 SkBlendMode

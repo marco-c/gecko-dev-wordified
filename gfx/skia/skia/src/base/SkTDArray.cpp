@@ -4,8 +4,7 @@
 Copyright
 2018
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -124,6 +123,13 @@ fSizeOfT
 sizeOfT
 }
 {
+SkASSERT
+(
+sizeOfT
+>
+0
+)
+;
 }
 SkTDStorage
 :
@@ -162,6 +168,13 @@ size
 {
 SkASSERT
 (
+sizeOfT
+>
+0
+)
+;
+SkASSERT
+(
 src
 !
 =
@@ -174,7 +187,7 @@ storageSize
 this
 -
 >
-bytes
+safe_bytes
 (
 size
 )
@@ -847,7 +860,7 @@ newStorageSize
 this
 -
 >
-bytes
+safe_bytes
 (
 fCapacity
 )
@@ -939,7 +952,7 @@ fStorage
 this
 -
 >
-bytes
+safe_bytes
 (
 fCapacity
 )

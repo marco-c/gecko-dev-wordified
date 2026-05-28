@@ -4512,6 +4512,11 @@ quads
 *
 /
 class
+[
+[
+nodiscard
+]
+]
 SkAutoConicToQuads
 {
 public

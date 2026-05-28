@@ -135,6 +135,7 @@ SkEdgeClipper
 {
 public
 :
+explicit
 SkEdgeClipper
 (
 bool
