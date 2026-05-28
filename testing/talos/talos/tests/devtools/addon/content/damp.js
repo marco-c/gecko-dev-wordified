@@ -3501,11 +3501,6 @@ registerWindowActor
 DampLoad
 "
 {
-kind
-:
-"
-JSWindowActor
-"
 parent
 :
 {
