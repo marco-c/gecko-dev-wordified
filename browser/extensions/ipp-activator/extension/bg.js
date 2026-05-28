@@ -2094,7 +2094,6 @@ tabId
 tab
 .
 id
-url
 }
 )
 ;
