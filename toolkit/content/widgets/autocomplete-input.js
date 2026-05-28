@@ -1431,7 +1431,11 @@ this
 =
 =
 =
-document
+this
+.
+getRootNode
+(
+)
 .
 activeElement
 ;
