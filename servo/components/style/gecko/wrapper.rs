@@ -14074,11 +14074,6 @@ Stalled
 NonTSPseudoClass
 :
 :
-PictureInPicture
-|
-NonTSPseudoClass
-:
-:
 Muted
 =
 >
