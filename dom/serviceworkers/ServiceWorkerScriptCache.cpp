@@ -6271,9 +6271,6 @@ RefreshLastUpdateCheckTime
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 nsCOMPtr
 <
 nsILoadInfo
@@ -6317,8 +6314,6 @@ TYPE_TEXT
 )
 )
 {
-#
-endif
 nsAutoCString
 mimeType
 ;
@@ -6494,12 +6489,7 @@ return
 rv
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 }
-#
-endif
 nsCOMPtr
 <
 nsIURI

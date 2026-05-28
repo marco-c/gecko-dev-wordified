@@ -2677,6 +2677,8 @@ HasWasmMimeTypeEssence
 mimeTypeUTF16
 )
 )
+#
+endif
 /
 /
 Allow
@@ -2741,8 +2743,6 @@ ModuleType
 :
 Text
 )
-#
-endif
 )
 )
 {

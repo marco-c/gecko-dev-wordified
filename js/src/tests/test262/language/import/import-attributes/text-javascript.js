@@ -19,9 +19,6 @@ skip
 -
 if
 (
-release_or_beta
-|
-|
 !
 xulRuntime
 .
@@ -30,13 +27,6 @@ shell
 module
 -
 -
-import
--
-text
-is
-not
-released
-yet
 requires
 shell
 -

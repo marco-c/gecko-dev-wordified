@@ -2140,6 +2140,8 @@ ModuleType
 Bytes
 ;
 }
+#
+endif
 else
 if
 (
@@ -2182,8 +2184,6 @@ ModuleType
 Text
 ;
 }
-#
-endif
 else
 {
 moduleType
