@@ -793,17 +793,6 @@ return
 nullptr
 ;
 }
-virtual
-bool
-IsInactiveTimeline
-(
-)
-const
-{
-return
-false
-;
-}
 /
 /
 For
