@@ -409,6 +409,10 @@ const
 CompositorBridgeOptions
 &
 aOpt
+const
+uint32_t
+&
+aNamespace
 )
 ;
 static

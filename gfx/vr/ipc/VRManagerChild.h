@@ -445,6 +445,8 @@ static
 void
 InitSameProcess
 (
+uint32_t
+aNamespace
 )
 ;
 static
@@ -458,6 +460,8 @@ PVRManagerChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 static
@@ -471,6 +475,8 @@ PVRManagerChild
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 static
@@ -678,6 +684,8 @@ protected
 explicit
 VRManagerChild
 (
+uint32_t
+aNamespace
 )
 ;
 ~
@@ -856,6 +864,9 @@ void
 NotifyRuntimeCapabilitiesUpdatedInternal
 (
 )
+;
+uint32_t
+mNamespace
 ;
 nsTArray
 <

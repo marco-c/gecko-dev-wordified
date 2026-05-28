@@ -405,6 +405,8 @@ PImageBridgeParent
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 mozilla
@@ -448,6 +450,8 @@ PVRManagerParent
 &
 &
 aEndpoint
+uint32_t
+aNamespace
 )
 ;
 mozilla
@@ -633,6 +637,8 @@ const
 ContentParentId
 &
 aChildId
+uint32_t
+aNamespace
 )
 ;
 mozilla
@@ -655,6 +661,8 @@ const
 ContentParentId
 &
 aChildId
+uint32_t
+aNamespace
 )
 ;
 mozilla
