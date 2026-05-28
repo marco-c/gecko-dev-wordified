@@ -214,6 +214,17 @@ mozilla
 /
 dom
 /
+AudioSessionBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 JSProcessActorParent
 .
 h
@@ -7658,6 +7669,8 @@ MediaAudibleState
 aState
 ControlType
 aType
+AudioSessionType
+aSessionType
 )
 ;
 mozilla

@@ -4219,6 +4219,14 @@ NotifyMediaAudibleChanged
 (
 mOwnerBrowsingContextId
 aState
+ControlType
+:
+:
+eControllable
+AudioSessionType
+:
+:
+Playback
 )
 ;
 }

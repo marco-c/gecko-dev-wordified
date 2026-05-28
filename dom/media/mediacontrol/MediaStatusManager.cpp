@@ -377,6 +377,8 @@ MediaAudibleState
 aState
 ControlType
 aType
+AudioSessionType
+aSessionType
 )
 {
 /

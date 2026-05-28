@@ -43923,6 +43923,8 @@ MediaAudibleState
 aState
 ControlType
 aType
+AudioSessionType
+aSessionType
 )
 {
 if
@@ -43972,6 +43974,7 @@ ContextId
 )
 aState
 aType
+aSessionType
 )
 ;
 }
