@@ -3457,10 +3457,6 @@ float
 ret
 .
 data
-.
-data
-(
-)
 )
 )
 ;
@@ -3553,10 +3549,6 @@ int32_t
 ret
 .
 data
-.
-data
-(
-)
 )
 )
 ;
@@ -3592,10 +3584,6 @@ uint32_t
 ret
 .
 data
-.
-data
-(
-)
 )
 )
 ;
