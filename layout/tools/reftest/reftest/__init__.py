@@ -828,6 +828,20 @@ skip_if
 )
 :
             
+self
+.
+manifests
+[
+normalized_path
+]
+[
+"
+has_test_lines
+"
+]
+=
+True
+            
 if
 RE_PROTOCOL
 .
@@ -1281,6 +1295,12 @@ tests_skip_if
 "
 :
 None
+                
+"
+has_test_lines
+"
+:
+False
             
 }
         
