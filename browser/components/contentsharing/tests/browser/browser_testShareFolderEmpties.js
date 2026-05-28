@@ -217,7 +217,7 @@ places
 -
 share
 -
-folder
+folder2
 "
 ]
 '
