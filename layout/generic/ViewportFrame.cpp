@@ -3602,6 +3602,9 @@ AbsPosReflowFlag
 CBHeightChanged
 }
 ;
+nsReflowStatus
+absposStatus
+;
 GetAbsoluteContainingBlock
 (
 )
@@ -3612,7 +3615,7 @@ Reflow
 this
 aPresContext
 reflowInput
-aStatus
+absposStatus
 cb
 flags
 /
@@ -3622,6 +3625,13 @@ aOverflowAreas
 *
 /
 nullptr
+)
+;
+aStatus
+.
+MergeCompletionStatusFrom
+(
+absposStatus
 )
 ;
 }
