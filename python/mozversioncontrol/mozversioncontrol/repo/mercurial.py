@@ -105,6 +105,7 @@ repo
 .
 base
 import
+HG_TRY_URL
 Repository
 class
 HgRepository
@@ -2481,6 +2482,10 @@ str
 =
 {
 }
+        
+remote
+=
+HG_TRY_URL
         
 allow_log_capture
 :

@@ -83,6 +83,7 @@ repo
 .
 base
 import
+HG_TRY_URL
 Repository
 #
 noqa

@@ -92,6 +92,21 @@ errors
 import
 MissingVCSInfo
 MissingVCSTool
+HG_TRY_URL
+=
+"
+ssh
+:
+/
+/
+hg
+.
+mozilla
+.
+org
+/
+try
+"
 def
 get_tool_path
 (
@@ -2180,6 +2195,12 @@ str
 =
 {
 }
+        
+remote
+:
+str
+=
+HG_TRY_URL
         
 allow_log_capture
 :
