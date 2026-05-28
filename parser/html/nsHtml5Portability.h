@@ -514,6 +514,13 @@ releaseStatics
 (
 )
 ;
+#
+include
+"
+nsHtml5PortabilityHSupplement
+.
+h
+"
 }
 ;
 #
