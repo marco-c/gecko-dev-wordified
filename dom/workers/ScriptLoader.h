@@ -2220,7 +2220,7 @@ aRequest
 )
 ;
 bool
-StoreCSP
+StorePolicyContainerArgs
 (
 )
 ;
