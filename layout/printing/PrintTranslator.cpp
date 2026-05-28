@@ -273,14 +273,6 @@ false
 }
 uint8_t
 eventType
-=
-RecordedEvent
-:
-:
-EventType
-:
-:
-INVALID
 ;
 ReadElement
 (
