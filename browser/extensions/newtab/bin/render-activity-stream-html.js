@@ -580,6 +580,12 @@ blob
 chrome
 :
 ;
+media
+-
+src
+chrome
+:
+;
 style
 -
 src
