@@ -26581,6 +26581,16 @@ onpositionstatechange
 Atom
 (
 "
+oneffectiveaudiosessiontypechange
+"
+"
+oneffectiveaudiosessiontypechange
+"
+)
+    
+Atom
+(
+"
 onsupportedkeyschange
 "
 "
