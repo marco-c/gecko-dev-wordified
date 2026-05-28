@@ -618,7 +618,7 @@ EXPECT_FALSE
 (
 status
 .
-IsBcAudibleForTesting
+IsBcAudible
 (
 kBcA
 )
@@ -641,7 +641,7 @@ EXPECT_TRUE
 (
 status
 .
-IsBcAudibleForTesting
+IsBcAudible
 (
 kBcA
 )
@@ -651,7 +651,7 @@ EXPECT_FALSE
 (
 status
 .
-IsBcAudibleForTesting
+IsBcAudible
 (
 kBcB
 )
@@ -674,7 +674,7 @@ EXPECT_FALSE
 (
 status
 .
-IsBcAudibleForTesting
+IsBcAudible
 (
 kBcA
 )
