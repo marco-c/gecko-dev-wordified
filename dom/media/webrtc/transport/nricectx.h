@@ -1079,6 +1079,17 @@ NrIceMediaStream
 >
 result
 ;
+result
+.
+reserve
+(
+streams_
+.
+size
+(
+)
+)
+;
 for
 (
 auto

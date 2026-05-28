@@ -3859,6 +3859,17 @@ JsepCodecDescription
 >
 clones
 ;
+clones
+.
+reserve
+(
+mPrototypeCodecs
+.
+size
+(
+)
+)
+;
 for
 (
 const
