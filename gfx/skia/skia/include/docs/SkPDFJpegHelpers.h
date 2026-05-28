@@ -122,7 +122,6 @@ Decode
 (
 sk_sp
 <
-const
 SkData
 >
 data

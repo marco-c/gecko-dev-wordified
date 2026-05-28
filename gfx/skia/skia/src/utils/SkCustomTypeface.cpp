@@ -3305,10 +3305,7 @@ invalid
 .
 if
 (
-SkStreamPriv
-:
-:
-RemainingLengthIsBelow
+StreamRemainingLengthIsBelow
 (
 stream
 sz

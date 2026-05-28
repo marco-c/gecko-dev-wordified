@@ -1538,7 +1538,7 @@ USE_LIBZ_RS
 ?
 938
 :
-945
+955
 )
 ;
 referenceBytes
@@ -2054,9 +2054,9 @@ AppConstants
 .
 USE_LIBZ_RS
 ?
-2262
+2283
 :
-2261
+2280
 )
 ;
 referenceBytes
@@ -4062,7 +4062,7 @@ istream
 available
 (
 )
-1224
+1227
 )
 ;
 referenceBytes
@@ -4206,7 +4206,7 @@ istream
 available
 (
 )
-1217
+1219
 )
 ;
 referenceBytes

@@ -591,8 +591,6 @@ const
 SkPaint
 *
 paint
-SkScalerContextFlags
-flags
 )
 {
 SkPaint
@@ -620,7 +618,10 @@ setupPaint
 SkSurfaceProps
 (
 )
-flags
+SkScalerContextFlags
+:
+:
+kFakeGammaAndBoostContrast
 SkMatrix
 :
 :

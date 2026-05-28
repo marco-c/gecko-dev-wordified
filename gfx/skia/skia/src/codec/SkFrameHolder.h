@@ -4,7 +4,8 @@
 Copyright
 2017
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -155,7 +156,6 @@ SkNoncopyable
 {
 public
 :
-explicit
 SkFrame
 (
 int

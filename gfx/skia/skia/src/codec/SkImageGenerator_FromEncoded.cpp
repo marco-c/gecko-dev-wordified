@@ -204,7 +204,6 @@ MakeFromEncoded
 (
 sk_sp
 <
-const
 SkData
 >
 data
@@ -294,7 +293,6 @@ DeferredFromEncodedData
 (
 sk_sp
 <
-const
 SkData
 >
 encoded

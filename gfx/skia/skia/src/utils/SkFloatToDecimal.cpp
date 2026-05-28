@@ -4,7 +4,8 @@
 Copyright
 2017
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -927,7 +928,7 @@ value
 <
 0
 .
-0f
+0
 )
 {
 *

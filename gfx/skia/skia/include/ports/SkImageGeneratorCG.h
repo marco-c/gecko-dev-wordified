@@ -146,7 +146,6 @@ MakeFromEncodedCG
 (
 sk_sp
 <
-const
 SkData
 >
 )

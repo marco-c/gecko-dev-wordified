@@ -9264,7 +9264,7 @@ of
 roots
 that
 lie
-within
+withing
 0
 <
 t
@@ -16457,7 +16457,7 @@ fPts
 2
 ]
 ;
-size_t
+int
 count
 =
 2

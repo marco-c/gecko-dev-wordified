@@ -256,7 +256,6 @@ of
 canvas
 *
 /
-explicit
 SkOverdrawCanvas
 (
 SkCanvas

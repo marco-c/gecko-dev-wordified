@@ -4,7 +4,8 @@
 Copyright
 2017
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -848,13 +849,6 @@ stream
 duplicate
 (
 )
-(
-instanceIndex
-<
-<
-16
-)
-+
 faceIndex
 0
 nullptr

@@ -648,7 +648,6 @@ doAA
 )
 ;
 }
-explicit
 Element
 (
 sk_sp
@@ -1657,7 +1656,6 @@ fIsIntersectionOfRects
 uint32_t
 fGenID
 ;
-explicit
 Element
 (
 int

@@ -156,11 +156,6 @@ called
 *
 /
 class
-[
-[
-nodiscard
-]
-]
 SkAutoMalloc
 :
 SkNoncopyable
@@ -607,11 +602,6 @@ size_t
 kSizeRequested
 >
 class
-[
-[
-nodiscard
-]
-]
 SkAutoSMalloc
 :
 SkNoncopyable

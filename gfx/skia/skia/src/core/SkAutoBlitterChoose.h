@@ -4,7 +4,8 @@
 Copyright
 2017
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -222,11 +223,6 @@ SkSTArenaAlloc
 >
 ;
 class
-[
-[
-nodiscard
-]
-]
 SkAutoBlitterChoose
 :
 SkNoncopyable

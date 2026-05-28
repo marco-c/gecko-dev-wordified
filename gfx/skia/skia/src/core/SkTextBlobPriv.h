@@ -4,7 +4,8 @@
 Copyright
 2018
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -1404,7 +1405,6 @@ SkTextBlobRunIterator
 {
 public
 :
-explicit
 SkTextBlobRunIterator
 (
 const

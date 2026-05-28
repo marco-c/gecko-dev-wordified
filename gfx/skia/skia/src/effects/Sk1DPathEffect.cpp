@@ -1434,7 +1434,7 @@ scratch
 .
 set
 (
-sk_float_midpoint
+SkScalarAve
 (
 srcP
 [
@@ -1449,7 +1449,7 @@ srcP
 .
 fX
 )
-sk_float_midpoint
+SkScalarAve
 (
 srcP
 [

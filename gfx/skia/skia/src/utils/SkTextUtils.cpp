@@ -4,7 +4,8 @@
 Copyright
 2018
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -312,10 +313,6 @@ font
 getPos
 (
 ag
-.
-glyphs
-(
-)
 pos
 {
 x
@@ -352,10 +349,6 @@ font
 getPaths
 (
 ag
-.
-glyphs
-(
-)
 [
 ]
 (

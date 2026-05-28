@@ -4,7 +4,8 @@
 Copyright
 2017
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -362,12 +363,12 @@ fTileMode
 &
 u
 .
-fPremulInterp
+fGradientFlags
 =
 =
 v
 .
-fPremulInterp
+fGradientFlags
 &
 &
 SkPackedArrayEqual

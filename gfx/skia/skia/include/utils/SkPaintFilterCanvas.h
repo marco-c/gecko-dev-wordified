@@ -296,7 +296,6 @@ bounds
 .
 *
 /
-explicit
 SkPaintFilterCanvas
 (
 SkCanvas

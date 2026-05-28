@@ -4,7 +4,8 @@
 Copyright
 2017
 Google
-LLC
+Inc
+.
 *
 *
 Use
@@ -1072,9 +1073,6 @@ fVertices
 -
 >
 fPositions
-(
-size_t
-)
 fVertices
 -
 >

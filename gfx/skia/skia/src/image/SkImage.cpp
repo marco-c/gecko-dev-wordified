@@ -1791,7 +1791,6 @@ localMatrix
 }
 sk_sp
 <
-const
 SkData
 >
 SkImage
@@ -1803,6 +1802,11 @@ refEncodedData
 const
 {
 return
+sk_sp
+<
+SkData
+>
+(
 as_IB
 (
 this
@@ -1811,6 +1815,7 @@ this
 >
 onRefEncoded
 (
+)
 )
 ;
 }

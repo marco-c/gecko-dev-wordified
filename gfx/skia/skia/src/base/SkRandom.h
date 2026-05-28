@@ -169,7 +169,6 @@ init
 )
 ;
 }
-explicit
 SkRandom
 (
 uint32_t

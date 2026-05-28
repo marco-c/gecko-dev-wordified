@@ -100,7 +100,6 @@ Kind
 :
 kBreak
 ;
-explicit
 BreakStatement
 (
 Position

@@ -558,11 +558,6 @@ textureRead
 \
 SKSL_INTRINSIC
 (
-textureSize
-)
-\
-SKSL_INTRINSIC
-(
 textureWidth
 )
 \

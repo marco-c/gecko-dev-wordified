@@ -378,7 +378,7 @@ possible
 for
 a
 given
-SK_CPU_X64_LEVEL
+SK_CPU_SSE_LEVEL
 .
 This
 header
@@ -393,7 +393,7 @@ times
 with
 a
 different
-SK_CPU_X64_LEVEL
+SK_CPU_SSE_LEVEL
 each
 compilation
 .
@@ -449,7 +449,7 @@ e
 .
 g
 .
-ml3
+hsw
 :
 :
 )
@@ -618,7 +618,7 @@ e
 g
 .
 (
-ml3
+hsw
 :
 :
 blit_row_color32
@@ -680,7 +680,7 @@ e
 .
 g
 .
-Init_ml3
+Init_hsw
 Init_ssse3
 )
 .

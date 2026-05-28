@@ -317,7 +317,6 @@ MakeFromEncoded
 (
 sk_sp
 <
-const
 SkData
 >
 std

@@ -4,8 +4,7 @@
 Copyright
 2012
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -80,19 +79,6 @@ private
 base
 /
 SkPoint_impl
-.
-h
-"
-#
-include
-"
-include
-/
-private
-/
-base
-/
-SkSpan_impl
 .
 h
 "
@@ -1866,7 +1852,7 @@ roots
 )
 )
 ;
-size_t
+int
 intersectionCount
 =
 0
@@ -2157,7 +2143,7 @@ CY
 yIntercept
 )
 ;
-size_t
+int
 intersectionCount
 =
 0
@@ -2289,6 +2275,7 @@ t1
 ;
 }
 return
+SkSpan
 {
 intersectionStorage
 intersectionCount
