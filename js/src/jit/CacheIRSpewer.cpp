@@ -268,9 +268,6 @@ lhsId
 2
 rhsId
 3
-/
-/
-ReturnFromIC
 class
 MOZ_RAII
 CacheIROpsJitSpewer
@@ -3761,12 +3758,6 @@ ID
 ID
 (
 3
-)
-/
-/
-OP
-(
-ReturnFromIC
 )
 /
 /
