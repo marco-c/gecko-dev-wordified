@@ -2314,6 +2314,17 @@ certutil_binary
 =
 certutil
         
+wd_tests
+=
+(
+"
+wdspec
+"
+"
+aamtest
+"
+)
+        
 if
 kwargs
 [
@@ -2324,9 +2335,9 @@ webdriver_binary
 is
 None
 and
-"
-wdspec
-"
+any
+(
+t
 in
 kwargs
 [
@@ -2334,6 +2345,11 @@ kwargs
 test_types
 "
 ]
+for
+t
+in
+wd_tests
+)
 :
             
 webdriver_binary
@@ -2474,10 +2490,29 @@ install
 geckodriver
 skipping
 wdspec
+/
+aamtest
 tests
 "
 )
                 
+for
+t
+in
+wd_tests
+:
+                    
+if
+t
+in
+kwargs
+[
+"
+test_types
+"
+]
+:
+                        
 kwargs
 [
 "
@@ -2487,9 +2522,7 @@ test_types
 .
 remove
 (
-"
-wdspec
-"
+t
 )
         
 if
