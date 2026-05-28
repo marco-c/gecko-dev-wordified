@@ -6987,6 +6987,14 @@ Value
 :
 0
 ;
+IDBCursorDirection
+direction
+=
+IDBCursorDirection
+:
+:
+Next
+;
 auto
 keyRangeResult
 =
@@ -7316,6 +7324,12 @@ Value
 :
 0
 ;
+direction
+=
+options
+.
+mDirection
+;
 }
 const
 int64_t
@@ -7370,6 +7384,7 @@ ObjectStoreGetAllKeysParams
 id
 optionalKeyRange
 limit
+direction
 )
 ;
 }
@@ -7382,6 +7397,7 @@ ObjectStoreGetAllParams
 id
 optionalKeyRange
 limit
+direction
 )
 ;
 }
