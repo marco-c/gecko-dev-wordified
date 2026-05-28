@@ -294,6 +294,11 @@ results
 "
     
 "
+landoInstance
+=
+%
+s
+&
 baseLando
 =
 %
@@ -362,6 +367,11 @@ jobs
 repo
 =
 try
+&
+landoInstance
+=
+%
+s
 &
 landoCommitID
 =
@@ -7323,6 +7333,55 @@ mwu_task
 )
     
 def
+determine_lando_instance
+(
+push_to_vcs
+=
+False
+)
+:
+        
+"
+"
+"
+Determine
+the
+lando
+instance
+id
+that
+a
+push
+will
+use
+.
+"
+"
+"
+        
+return
+"
+"
+if
+push_to_vcs
+else
+os
+.
+getenv
+(
+"
+LANDO_TRY_CONFIG
+"
+"
+lando
+-
+prod
+-
+2025
+"
+)
+    
+def
 check_cached_revision
 (
 selected_tasks
@@ -7813,6 +7872,8 @@ them
 up
                 
 if
+(
+                    
 push
 .
 get
@@ -7828,12 +7889,11 @@ False
 not
 push_to_vcs
 )
+                    
 and
 set
 (
-                    
 selected_tasks
-                
 )
 <
 =
@@ -7845,6 +7905,29 @@ push
 tasks
 "
 ]
+)
+                    
+and
+push
+.
+get
+(
+"
+lando_instance
+"
+"
+"
+)
+                    
+=
+=
+PerfParser
+.
+determine_lando_instance
+(
+push_to_vcs
+)
+                
 )
 :
                     
@@ -8012,6 +8095,26 @@ lando
 :
 not
 push_to_vcs
+            
+"
+lando_instance
+"
+:
+(
+                
+PerfParser
+.
+push_info
+.
+lando_instance
+if
+not
+push_to_vcs
+else
+"
+"
+            
+)
         
 }
         
@@ -9038,7 +9141,9 @@ check_cached_revision
 (
                             
 selected_tasks
+                            
 compare_commit
+                            
 push_to_vcs
                         
 )
@@ -9291,10 +9396,6 @@ True
 push_to_vcs
 =
 False
-                        
-force_old_lando
-=
-True
                     
 )
                     
@@ -9312,20 +9413,49 @@ push_data
                         
 return
                     
+lando_instance
+=
+push_data
+[
+"
+lando_instance
+"
+]
+                    
+lando_commit_id
+=
+push_data
+[
+"
+lando_job_id
+"
+]
+                    
+if
+not
+lando_instance
+or
+not
+lando_commit_id
+:
+                        
+return
+                    
+PerfParser
+.
+push_info
+.
+lando_instance
+=
+lando_instance
+                    
 PerfParser
 .
 push_info
 .
 base_lando_commit_id
 =
-push_data
-[
-                        
-"
-lando_job_id
-"
-                    
-]
+lando_commit_id
                 
 else
 :
@@ -9520,10 +9650,6 @@ True
 push_to_vcs
 =
 False
-                    
-force_old_lando
-=
-True
                 
 )
                 
@@ -9541,11 +9667,16 @@ push_data
                     
 return
                 
-PerfParser
-.
-push_info
-.
-new_lando_commit_id
+lando_instance
+=
+push_data
+[
+"
+lando_instance
+"
+]
+                
+lando_commit_id
 =
 push_data
 [
@@ -9553,6 +9684,32 @@ push_data
 lando_job_id
 "
 ]
+                
+if
+not
+lando_instance
+and
+not
+lando_commit_id
+:
+                    
+return
+                
+PerfParser
+.
+push_info
+.
+lando_instance
+=
+lando_instance
+                
+PerfParser
+.
+push_info
+.
+new_lando_commit_id
+=
+lando_commit_id
             
 else
 :
@@ -12609,11 +12766,16 @@ push_to_vcs
             
 original_try_url
 =
+TREEHERDER_TRY_LANDO_BASE_URL
+%
 (
                 
-TREEHERDER_TRY_LANDO_BASE_URL
+PerfParser
+.
+push_info
+.
+lando_instance
                 
-%
 PerfParser
 .
 push_info
@@ -12624,10 +12786,16 @@ base_lando_commit_id
             
 local_change_try_url
 =
-(
-                
 TREEHERDER_TRY_LANDO_BASE_URL
 %
+(
+                
+PerfParser
+.
+push_info
+.
+lando_instance
+                
 PerfParser
 .
 push_info

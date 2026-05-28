@@ -90,6 +90,10 @@ new_revision
 =
 None
         
+lando_instance
+=
+None
+        
 base_lando_commit_id
 =
 None
@@ -116,6 +120,12 @@ self
 new_revision
 =
 new_revision
+        
+self
+.
+lando_instance
+=
+lando_instance
         
 self
 .
@@ -210,6 +220,38 @@ self
 finished_run
 =
 True
+    
+property
+    
+def
+lando_instance
+(
+self
+)
+:
+        
+return
+self
+.
+_lando_instance
+    
+lando_instance
+.
+setter
+    
+def
+lando_instance
+(
+self
+lando_instance
+)
+:
+        
+self
+.
+_lando_instance
+=
+lando_instance
     
 property
     
@@ -353,6 +395,10 @@ pushes
         
 return
 (
+            
+self
+.
+lando_instance
             
 self
 .
