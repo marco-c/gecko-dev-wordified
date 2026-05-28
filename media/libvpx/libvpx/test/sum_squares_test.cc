@@ -999,10 +999,6 @@ SSEFunc
 tst
 =
 nullptr
-int
-depth
-=
-0
 )
 :
 ref_func
@@ -1012,10 +1008,6 @@ ref
 tst_func
 (
 tst
-)
-bit_depth
-(
-depth
 )
 {
 }
@@ -1037,9 +1029,6 @@ Pointer
 to
 tested
 function
-int
-bit_depth
-;
 }
 ;
 using

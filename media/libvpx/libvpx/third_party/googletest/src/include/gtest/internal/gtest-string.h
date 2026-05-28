@@ -465,6 +465,11 @@ cstdint
 #
 include
 <
+sstream
+>
+#
+include
+<
 string
 >
 #
@@ -593,7 +598,7 @@ c_str
 )
 ;
 #
-if
+ifdef
 GTEST_OS_WINDOWS_MOBILE
 /
 /

@@ -1102,14 +1102,14 @@ got_pkts
 vpx_codec_iter_t
 iter
 =
-NULL
+nullptr
 ;
 const
 vpx_codec_cx_pkt_t
 *
 pkt
 =
-NULL
+nullptr
 ;
 const
 vpx_codec_err_t
@@ -1149,7 +1149,7 @@ iter
 )
 !
 =
-NULL
+nullptr
 )
 {
 got_pkts
@@ -1743,7 +1743,7 @@ encode_frame
 (
 &
 codec
-NULL
+nullptr
 -
 1
 0

@@ -333,6 +333,11 @@ define
 GOOGLETEST_INCLUDE_GTEST_GTEST_SPI_H_
 #
 include
+<
+string
+>
+#
+include
 "
 gtest
 /

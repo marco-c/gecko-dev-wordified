@@ -754,6 +754,15 @@ generated_noise
 =
 NULL
 ;
+cm
+-
+>
+postproc_state
+.
+generated_noise_size
+=
+0
+;
 #
 else
 (

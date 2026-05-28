@@ -122,6 +122,9 @@ int8_t
 *
 generated_noise
 ;
+int
+generated_noise_size
+;
 }
 ;
 #
