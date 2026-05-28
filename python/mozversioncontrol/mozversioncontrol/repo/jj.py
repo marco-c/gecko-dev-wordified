@@ -3055,6 +3055,21 @@ ref
 "
 )
         
+if
+ref
+and
+dest_branch
+:
+            
+ref
+=
+self
+.
+_resolve_to_commit
+(
+ref
+)
+        
 self
 .
 _git
