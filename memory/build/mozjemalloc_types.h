@@ -1331,6 +1331,9 @@ operations
 is
 unspecified
 .
+size_t
+arena_run_header
+;
 }
 jemalloc_stats_t
 ;
