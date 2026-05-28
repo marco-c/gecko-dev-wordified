@@ -554,23 +554,6 @@ bool
 DefaultCodecPreferences
 :
 :
-UseAudioTransportCCStatic
-(
-)
-{
-return
-StaticPrefs
-:
-:
-media_navigator_audio_use_transport_cc
-(
-)
-;
-}
-bool
-DefaultCodecPreferences
-:
-:
 UseAudioFecStatic
 (
 )
@@ -891,7 +874,6 @@ JsepAudioCodecDescription
 :
 CreateDefaultG722
 (
-aPrefs
 )
 )
 ;
@@ -904,7 +886,6 @@ JsepAudioCodecDescription
 :
 CreateDefaultPCMU
 (
-aPrefs
 )
 )
 ;
@@ -917,7 +898,6 @@ JsepAudioCodecDescription
 :
 CreateDefaultPCMA
 (
-aPrefs
 )
 )
 ;
