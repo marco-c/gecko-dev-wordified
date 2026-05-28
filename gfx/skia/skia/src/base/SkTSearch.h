@@ -900,6 +900,11 @@ tables
 *
 /
 class
+[
+[
+nodiscard
+]
+]
 SkAutoAsciiToLC
 {
 public

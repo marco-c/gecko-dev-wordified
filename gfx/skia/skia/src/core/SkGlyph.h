@@ -3120,6 +3120,7 @@ SkDrawable
 drawable
 )
 ;
+explicit
 SkPictureBackedGlyphDrawable
 (
 sk_sp

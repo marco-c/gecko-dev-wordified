@@ -127,6 +127,7 @@ SkNoncopyable
 {
 public
 :
+explicit
 SkPicturePlayback
 (
 const

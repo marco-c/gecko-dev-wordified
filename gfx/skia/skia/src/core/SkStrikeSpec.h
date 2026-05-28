@@ -4,8 +4,7 @@
 Copyright
 2019
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -465,6 +464,13 @@ SkPaint
 paint
 =
 nullptr
+SkScalerContextFlags
+flags
+=
+SkScalerContextFlags
+:
+:
+kFakeGammaAndBoostContrast
 )
 ;
 sk_sp

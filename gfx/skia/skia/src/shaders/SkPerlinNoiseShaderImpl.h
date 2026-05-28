@@ -1792,6 +1792,17 @@ ShaderType
 kPerlinNoise
 ;
 }
+bool
+isOpaque
+(
+)
+const
+override
+{
+return
+false
+;
+}
 SkPerlinNoiseShaderType
 noiseType
 (

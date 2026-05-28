@@ -4,8 +4,7 @@
 Copyright
 2023
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -118,6 +117,7 @@ SkTypeface_Make_Fontations
 (
 sk_sp
 <
+const
 SkData
 >
 fontData

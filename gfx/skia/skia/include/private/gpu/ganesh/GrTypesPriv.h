@@ -2140,7 +2140,6 @@ constexpr
 bool
 GrClipEdgeTypeIsFill
 (
-const
 GrClipEdgeType
 edgeType
 )
@@ -2171,7 +2170,6 @@ constexpr
 bool
 GrClipEdgeTypeIsInverseFill
 (
-const
 GrClipEdgeType
 edgeType
 )
@@ -2202,7 +2200,6 @@ constexpr
 bool
 GrClipEdgeTypeIsAA
 (
-const
 GrClipEdgeType
 edgeType
 )
@@ -2233,7 +2230,6 @@ inline
 GrClipEdgeType
 GrInvertClipEdgeType
 (
-const
 GrClipEdgeType
 edgeType
 )
@@ -3832,7 +3828,7 @@ GrColorType
 kR_16
 :
 return
-kUnknown_SkColorType
+kR16_unorm_SkColorType
 ;
 case
 GrColorType
@@ -3841,7 +3837,7 @@ GrColorType
 kR_F16
 :
 return
-kUnknown_SkColorType
+kR16_float_SkColorType
 ;
 case
 GrColorType
@@ -4087,6 +4083,15 @@ GrColorType
 kAlpha_16
 ;
 case
+kR16_unorm_SkColorType
+:
+return
+GrColorType
+:
+:
+kR_16
+;
+case
 kR16G16_unorm_SkColorType
 :
 return
@@ -4103,6 +4108,15 @@ GrColorType
 :
 :
 kAlpha_F16
+;
+case
+kR16_float_SkColorType
+:
+return
+GrColorType
+:
+:
+kR_F16
 ;
 case
 kR16G16_float_SkColorType

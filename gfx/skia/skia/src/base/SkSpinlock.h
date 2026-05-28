@@ -306,6 +306,7 @@ SkAutoSpinlock
 {
 public
 :
+explicit
 SkAutoSpinlock
 (
 SkSpinlock

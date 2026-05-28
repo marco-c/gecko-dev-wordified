@@ -120,6 +120,7 @@ SkImageInfo
 &
 sk_sp
 <
+const
 SkData
 >
 AImageDecoder
@@ -136,6 +137,7 @@ protected
 :
 sk_sp
 <
+const
 SkData
 >
 onRefEncodedData
@@ -166,6 +168,7 @@ private
 :
 sk_sp
 <
+const
 SkData
 >
 fData
@@ -441,6 +444,7 @@ MakeFromEncodedNDK
 (
 sk_sp
 <
+const
 SkData
 >
 data
@@ -451,9 +455,11 @@ if
 !
 data
 )
+{
 return
 nullptr
 ;
+}
 AImageDecoder
 *
 rawDecoder
@@ -615,6 +621,7 @@ SkImageInfo
 info
 sk_sp
 <
+const
 SkData
 >
 data
@@ -1449,6 +1456,7 @@ false
 }
 sk_sp
 <
+const
 SkData
 >
 ImageGeneratorNDK

@@ -4,8 +4,7 @@
 Copyright
 2018
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -259,6 +258,7 @@ fUniqueID
 ;
 }
 ;
+explicit
 SkImage_Lazy
 (
 Validator
@@ -385,6 +385,7 @@ override
 ;
 sk_sp
 <
+const
 SkData
 >
 onRefEncoded

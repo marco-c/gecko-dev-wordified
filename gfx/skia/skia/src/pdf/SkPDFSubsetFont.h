@@ -4,7 +4,6 @@ Copyright
 2018
 Google
 LLC
-.
 /
 /
 Use
@@ -125,6 +124,11 @@ const
 SkPDFGlyphUse
 &
 glyphUsage
+)
+;
+bool
+SkPDFCanSubsetTableBasedFonts
+(
 )
 ;
 #

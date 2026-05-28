@@ -5,7 +5,6 @@ Copyright
 2022
 Google
 LLC
-.
 *
 *
 Use

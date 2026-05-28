@@ -5,7 +5,6 @@ Copyright
 2024
 Google
 LLC
-.
 *
 *
 Use
@@ -139,9 +138,9 @@ include
 "
 rust
 /
-png
+common
 /
-UtilsForFFI
+SpanUtils
 .
 h
 "

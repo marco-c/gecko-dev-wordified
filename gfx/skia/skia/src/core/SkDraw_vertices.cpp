@@ -4,8 +4,7 @@
 Copyright
 2017
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -2563,7 +2562,7 @@ priv
 )
 ;
 const
-int
+size_t
 vertexCount
 =
 info
@@ -2573,7 +2572,7 @@ vertexCount
 )
 ;
 const
-int
+size_t
 indexCount
 =
 info

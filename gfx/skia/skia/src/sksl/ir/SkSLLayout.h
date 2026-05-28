@@ -329,7 +329,6 @@ SkSL
 :
 LayoutFlag
 )
-;
 namespace
 SkSL
 {

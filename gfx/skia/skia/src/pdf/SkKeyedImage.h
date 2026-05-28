@@ -4,8 +4,7 @@
 Copyright
 2017
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -120,6 +119,7 @@ SkKeyedImage
 )
 {
 }
+explicit
 SkKeyedImage
 (
 sk_sp
@@ -128,6 +128,7 @@ SkImage
 >
 )
 ;
+explicit
 SkKeyedImage
 (
 const

@@ -4,8 +4,7 @@
 Copyright
 2017
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -12270,6 +12269,9 @@ setBoundsCheck
 (
 {
 polygonVerts
+(
+size_t
+)
 polygonSize
 }
 )

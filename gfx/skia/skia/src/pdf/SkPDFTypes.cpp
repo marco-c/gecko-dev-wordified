@@ -4578,7 +4578,10 @@ fCompressionLevel
 )
 )
 ;
-SkStreamCopy
+SkStreamPriv
+:
+:
+Copy
 (
 &
 deflateWStream
