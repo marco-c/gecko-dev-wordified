@@ -15541,7 +15541,7 @@ gMaxBinClass
 ;
 try_run_size
 =
-gPageSize
+gMinimumRunSize
 ;
 /
 /
