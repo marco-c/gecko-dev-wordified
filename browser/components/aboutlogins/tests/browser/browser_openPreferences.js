@@ -227,7 +227,7 @@ about
 :
 preferences
 #
-privacy
+passwordsAutofill
 .
 The
 wantLoad
@@ -297,7 +297,7 @@ about
 :
 preferences
 #
-privacy
+passwordsAutofill
 "
 )
 {
