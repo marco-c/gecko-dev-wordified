@@ -405,6 +405,13 @@ IsHDR
 (
 isHDR
 )
+Screen
+:
+:
+IsHDR
+(
+isHDR
+)
 orientation
 angle
 )
