@@ -165,9 +165,6 @@ float
 aDpi
 IsPseudoDisplay
 IsHDR
-aIsHDR
-IsHDR
-aIsVideoHDR
 hal
 :
 :
@@ -341,16 +338,6 @@ return
 mIsHDR
 ;
 }
-bool
-GetIsVideoHDR
-(
-)
-const
-{
-return
-mIsVideoHDR
-;
-}
 private
 :
 virtual
@@ -419,10 +406,6 @@ mIsPseudoDisplay
 const
 bool
 mIsHDR
-;
-const
-bool
-mIsVideoHDR
 ;
 }
 ;
