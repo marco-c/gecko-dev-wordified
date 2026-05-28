@@ -4446,7 +4446,10 @@ write_status_headers
 )
             
 except
+(
 StreamClosedError
+ProtocolError
+)
 :
                 
 #
@@ -4475,6 +4478,8 @@ issues
 #
 The
 stream
+or
+connection
 was
 already
 closed
@@ -5375,8 +5380,29 @@ req_handler
 )
                 
 except
+(
 StreamClosedError
+ProtocolError
+)
 :
+                    
+#
+The
+stream
+or
+connection
+was
+closed
+before
+we
+could
+                    
+#
+finish
+writing
+the
+response
+.
                     
 self
 .
@@ -5384,6 +5410,7 @@ logger
 .
 debug
 (
+                        
 '
 (
 %
@@ -5398,10 +5425,14 @@ write
 response
 ;
 stream
+or
+'
+                        
+'
+connection
 closed
 '
 %
-                                    
 (
 self
 .
