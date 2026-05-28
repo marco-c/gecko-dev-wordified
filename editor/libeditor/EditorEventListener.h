@@ -439,6 +439,16 @@ DragEvent
 aDragEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+void
+DidFocus
+(
+const
+InternalFocusEvent
+&
+aFocusEvent
+)
+;
 void
 RefuseToDropAndHideCaret
 (
