@@ -244,15 +244,6 @@ include
 "
 mozilla
 /
-MemoryReporting
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PrincipalHashKey
 .
 h
@@ -339,13 +330,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsIMemoryReporter
 .
 h
 "
@@ -509,6 +493,7 @@ usage
 .
 class
 SubResourceNetworkMetadataHolder
+final
 {
 public
 :
