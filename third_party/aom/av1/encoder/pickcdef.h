@@ -1422,6 +1422,8 @@ int
 fbc
 int
 sb_count
+int
+adaptive_cdef_mode
 )
 ;
 /

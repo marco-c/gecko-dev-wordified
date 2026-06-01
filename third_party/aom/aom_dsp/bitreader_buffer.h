@@ -277,9 +277,6 @@ aom_read_bit_buffer
 rb
 )
 ;
-#
-if
-CONFIG_AV1_DECODER
 uint32_t
 aom_rb_read_unsigned_literal
 (
@@ -291,6 +288,9 @@ int
 bits
 )
 ;
+#
+if
+CONFIG_AV1_DECODER
 int
 aom_rb_read_inv_signed_literal
 (

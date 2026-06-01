@@ -193,6 +193,13 @@ h
 >
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 third_party
 /
@@ -377,7 +384,7 @@ potential
 .
 constexpr
 size_t
-kChunkSize
+kChunkSize2
 =
 64
 /
@@ -397,7 +404,7 @@ uint64_t
 (
 kOuter
 /
-kChunkSize
+kChunkSize2
 )
 ;
 const
@@ -431,7 +438,7 @@ vectors
 .
 HWY_DASSERT
 (
-kChunkSize
+kChunkSize2
 >
 =
 N
@@ -1136,7 +1143,7 @@ r
 =
 num_chunks
 *
-kChunkSize
+kChunkSize2
 ;
 r
 <
@@ -1733,7 +1740,7 @@ potential
 .
 constexpr
 size_t
-kChunkSize
+kChunkSize2
 =
 64
 /
@@ -1753,7 +1760,7 @@ uint64_t
 (
 kOuter
 /
-kChunkSize
+kChunkSize2
 )
 ;
 const
@@ -1869,7 +1876,7 @@ vectors
 .
 HWY_DASSERT
 (
-kChunkSize
+kChunkSize2
 >
 =
 N
@@ -2605,7 +2612,7 @@ r
 =
 num_chunks
 *
-kChunkSize
+kChunkSize2
 ;
 r
 <
@@ -3028,7 +3035,7 @@ potential
 .
 constexpr
 size_t
-kChunkSize
+kChunkSize2
 =
 64
 /
@@ -3048,7 +3055,7 @@ uint64_t
 (
 kOuter
 /
-kChunkSize
+kChunkSize2
 )
 ;
 const
@@ -3107,7 +3114,7 @@ vectors
 .
 HWY_DASSERT
 (
-kChunkSize
+kChunkSize2
 >
 =
 N
@@ -3730,7 +3737,7 @@ r
 =
 num_chunks
 *
-kChunkSize
+kChunkSize2
 ;
 r
 <

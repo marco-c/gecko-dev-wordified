@@ -139,6 +139,18 @@ control
 .
 *
 *
+\
+attention
+Experimental
+.
+Not
+part
+of
+the
+stable
+API
+.
+*
 /
 #
 ifndef
@@ -159,7 +171,7 @@ endif
 #
 include
 "
-.
+aom
 /
 aom_integer
 .
@@ -168,7 +180,7 @@ h
 #
 include
 "
-.
+aom
 /
 aom_tpl
 .
@@ -808,7 +820,7 @@ parameters
 Store
 the
 superblock
-quantiztaion
+quantization
 parameters
 *
 /
@@ -1441,7 +1453,7 @@ used
 to
 distribute
 bits
-betweeen
+between
 easier
 and
 harder

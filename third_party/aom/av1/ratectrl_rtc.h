@@ -737,6 +737,11 @@ initial_width_
 int
 initial_height_
 ;
+bool
+rc_is_valid_
+=
+false
+;
 }
 ;
 }

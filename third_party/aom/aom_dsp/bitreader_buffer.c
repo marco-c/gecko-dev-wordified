@@ -364,9 +364,6 @@ return
 value
 ;
 }
-#
-if
-CONFIG_AV1_DECODER
 uint32_t
 aom_rb_read_unsigned_literal
 (
@@ -429,6 +426,9 @@ return
 value
 ;
 }
+#
+if
+CONFIG_AV1_DECODER
 int
 aom_rb_read_inv_signed_literal
 (
