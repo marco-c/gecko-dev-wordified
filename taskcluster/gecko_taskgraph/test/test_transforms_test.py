@@ -1198,15 +1198,13 @@ platform
 "
 :
 "
-linux1804
+linux2404
 -
 64
 -
 clang
 -
 trunk
--
-qr
 /
 opt
 "
@@ -1248,7 +1246,7 @@ version
 "
 :
 "
-1804
+2404
 "
                     
 }
