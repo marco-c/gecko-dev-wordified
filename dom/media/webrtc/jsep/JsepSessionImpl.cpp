@@ -11212,6 +11212,9 @@ return
 transceiver
 ;
 }
+/
+/
+Recycle
 transceiver
 -
 >
@@ -11250,6 +11253,15 @@ for
 |
 level
 |
+if
+(
+msection
+.
+IsReceiving
+(
+)
+)
+{
 transceiver
 =
 FindUnassociatedTransceiver
@@ -11284,6 +11296,7 @@ transceiver
 return
 transceiver
 ;
+}
 }
 /
 /
