@@ -4242,6 +4242,12 @@ percent
 mozilla
 :
 :
+StyleCornerShapeRect
+mCornerShape
+;
+mozilla
+:
+:
 StyleImage
 mBorderImageSource
 ;
