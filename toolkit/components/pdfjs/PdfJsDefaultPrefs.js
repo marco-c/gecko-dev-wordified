@@ -697,6 +697,16 @@ pref
 "
 pdfjs
 .
+postMessageAfterPrintCallback
+"
+false
+)
+;
+pref
+(
+"
+pdfjs
+.
 scrollModeOnLoad
 "
 -
