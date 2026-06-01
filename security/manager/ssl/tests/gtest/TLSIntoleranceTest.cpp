@@ -122,8 +122,13 @@ nsSSLIOLayerHelpers
 >
 helpers
 =
-new
+mozilla
+:
+:
+MakeRefPtr
+<
 nsSSLIOLayerHelpers
+>
 (
 PublicOrPrivate
 :

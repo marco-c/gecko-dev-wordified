@@ -6394,13 +6394,12 @@ aPtrForLogging
 )
 ;
 RefPtr
+resultTask
+=
+MakeRefPtr
 <
 SSLServerCertVerificationResult
 >
-resultTask
-=
-new
-SSLServerCertVerificationResult
 (
 socketControl
 )

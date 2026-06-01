@@ -7788,13 +7788,12 @@ return
 ;
 }
 RefPtr
-<
-Runnable
->
 runnable
 =
-new
+MakeRefPtr
+<
 FallbackPrefRemover
+>
 (
 hostname
 )

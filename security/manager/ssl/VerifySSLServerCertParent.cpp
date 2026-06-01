@@ -810,13 +810,12 @@ authKeyBits
 ;
 }
 RefPtr
+resultTask
+=
+MakeRefPtr
 <
 IPCServerCertVerificationResult
 >
-resultTask
-=
-new
-IPCServerCertVerificationResult
 (
 mBackgroundThread
 this
