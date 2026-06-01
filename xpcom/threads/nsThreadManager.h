@@ -484,8 +484,10 @@ be
 /
 specified
 .
+RefPtr
+<
 nsThread
-*
+>
 CreateCurrentThread
 (
 mozilla
