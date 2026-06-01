@@ -1870,13 +1870,12 @@ NS_OK
 ;
 }
 RefPtr
+tempRemover
+=
+MakeRefPtr
 <
 nsAnonTempFileRemover
 >
-tempRemover
-=
-new
-nsAnonTempFileRemover
 (
 )
 ;
