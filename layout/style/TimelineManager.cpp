@@ -1445,7 +1445,7 @@ e
 aTimelineCandidate
 -
 >
-GetParentElement
+GetFlattenedTreeParentElement
 (
 )
 ;
@@ -1465,7 +1465,7 @@ e
 e
 -
 >
-GetParentElement
+GetFlattenedTreeParentElement
 (
 )
 )
