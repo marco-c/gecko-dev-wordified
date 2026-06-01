@@ -55,7 +55,7 @@ AbortController
 (
 )
 ;
-navigator
+document
 .
 modelContext
 .

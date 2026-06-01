@@ -24,7 +24,7 @@ let
 tools
 =
 await
-navigator
+document
 .
 modelContext
 .
@@ -75,7 +75,7 @@ let
 tools
 =
 await
-navigator
+document
 .
 modelContext
 .
@@ -102,7 +102,7 @@ name
 )
 )
 {
-navigator
+document
 .
 modelContext
 .
@@ -121,7 +121,7 @@ resolve
 }
 }
 ;
-navigator
+document
 .
 modelContext
 .
@@ -179,7 +179,7 @@ AbortController
 (
 )
 ;
-navigator
+document
 .
 modelContext
 .
@@ -199,7 +199,7 @@ tool
 ]
 =
 await
-navigator
+document
 .
 modelContext
 .

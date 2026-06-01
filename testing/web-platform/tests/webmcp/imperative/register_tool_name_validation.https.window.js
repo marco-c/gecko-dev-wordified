@@ -62,7 +62,7 @@ of
 validNames
 )
 {
-navigator
+document
 .
 modelContext
 .
@@ -271,7 +271,7 @@ InvalidStateError
 =
 >
 {
-navigator
+document
 .
 modelContext
 .
