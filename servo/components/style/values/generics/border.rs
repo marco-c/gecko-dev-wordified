@@ -1535,10 +1535,6 @@ clone
 bottom_left
 :
 s
-.
-clone
-(
-)
 }
 }
 }
