@@ -191,6 +191,17 @@ irregexp
 /
 util
 /
+BitFieldShim
+.
+h
+"
+#
+include
+"
+irregexp
+/
+util
+/
 BitVectorShim
 .
 h
