@@ -2257,7 +2257,7 @@ tree
 caller
 routes
 through
-lockstore_keystore_open
+keystore_open
 which
 /
 /

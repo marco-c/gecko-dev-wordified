@@ -6568,7 +6568,7 @@ get
 test
 ]
 fn
-test_lockstore_keystore_get_returns_same_arc
+test_keystore_get_returns_same_arc
 (
 )
 {
@@ -6699,7 +6699,7 @@ Arc
 test
 ]
 fn
-test_lockstore_keystore_get_distinct_paths
+test_keystore_get_distinct_paths
 (
 )
 {
@@ -6858,7 +6858,7 @@ Arcs
 test
 ]
 fn
-test_lockstore_keystore_get_state_visible_across_handles
+test_keystore_get_state_visible_across_handles
 (
 )
 {
