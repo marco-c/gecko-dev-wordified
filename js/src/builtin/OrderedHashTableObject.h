@@ -7472,7 +7472,6 @@ data
 TraceBufferEdge
 (
 trc
-obj
 &
 data
 "

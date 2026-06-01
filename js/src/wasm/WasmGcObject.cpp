@@ -1998,8 +1998,6 @@ TraceBufferEdge
 (
 trc
 &
-arrayObj
-&
 oolHeader
 "
 WasmArrayObject
@@ -3792,8 +3790,6 @@ addressOfOOLPtr
 TraceBufferEdge
 (
 trc
-&
-structObj
 addressOfOOLPtr
 "
 WasmStructObject

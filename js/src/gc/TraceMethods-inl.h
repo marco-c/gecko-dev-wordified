@@ -314,7 +314,6 @@ data_
 TraceBufferEdge
 (
 trc
-this
 &
 data_
 "
@@ -2086,7 +2085,6 @@ data
 TraceBufferEdge
 (
 trc
-this
 &
 data
 "
@@ -3350,7 +3348,6 @@ js
 TraceBufferEdge
 (
 trc
-this
 &
 heapDigits_
 "

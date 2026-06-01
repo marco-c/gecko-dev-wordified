@@ -1217,7 +1217,6 @@ barrierTracer
 TraceBufferEdge
 (
 trc
-this
 &
 data_
 "
