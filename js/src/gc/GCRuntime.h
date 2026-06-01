@@ -362,6 +362,9 @@ class
 AutoHeapSession
 ;
 class
+AutoLockBufferAllocator
+;
+class
 AutoTraceSession
 ;
 class
@@ -8827,7 +8830,7 @@ BufferAllocator
 ;
 friend
 class
-AutoLock
+AutoLockBufferAllocator
 ;
 friend
 class
