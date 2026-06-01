@@ -2759,6 +2759,7 @@ AttemptConnection
 {
 id
 endpoint
+is_ech_retry
 }
 )
 =
@@ -2854,6 +2855,7 @@ address
 port
 (
 )
+is_ech_retry
 }
 ;
 }
@@ -3794,6 +3796,9 @@ IpAddr
 port
 :
 u16
+is_ech_retry
+:
+bool
 }
 CancelConnection
 {
