@@ -138,6 +138,13 @@ locale
 ;
 if
 (
+expectedValue
+=
+=
+=
+undefined
+|
+|
 typeof
 expectedValue
 =

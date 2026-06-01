@@ -1896,9 +1896,6 @@ first
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -2028,8 +2025,6 @@ return
 fw
 ;
 }
-#
-endif
 /
 *
 *
@@ -4048,9 +4043,6 @@ false
 ;
 }
 }
-#
-ifdef
-NIGHTLY_BUILD
 if
 (
 JS
@@ -4194,8 +4186,6 @@ false
 }
 }
 }
-#
-endif
 /
 /
 Step
@@ -5327,9 +5317,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 struct
 UnicodeValue
 {
@@ -5966,8 +5953,6 @@ length
 )
 ;
 }
-#
-endif
 struct
 BaseNamePartsResult
 {
@@ -7269,9 +7254,6 @@ length
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -11333,8 +11315,6 @@ return
 true
 ;
 }
-#
-endif
 /
 /
 Intl
@@ -12457,9 +12437,6 @@ args
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 get
@@ -12590,8 +12567,6 @@ args
 )
 ;
 }
-#
-endif
 /
 /
 get
@@ -14000,9 +13975,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Intl
@@ -15341,8 +15313,6 @@ args
 )
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -15387,9 +15357,6 @@ Locale_toSource
 0
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -15453,8 +15420,6 @@ Locale_getWeekInfo
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
@@ -15498,9 +15463,6 @@ collation
 Locale_collation
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_PSG
 (
 "
@@ -15509,8 +15471,6 @@ firstDayOfWeek
 Locale_firstDayOfWeek
 0
 )
-#
-endif
 JS_PSG
 (
 "
