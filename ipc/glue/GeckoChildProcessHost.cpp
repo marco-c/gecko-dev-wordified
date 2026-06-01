@@ -4563,8 +4563,10 @@ BaseProcessLauncher
 >
 launcher
 =
-new
+MakeRefPtr
+<
 ProcessLauncher
+>
 (
 this
 std

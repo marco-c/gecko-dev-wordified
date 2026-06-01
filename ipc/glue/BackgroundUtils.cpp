@@ -1191,13 +1191,12 @@ aOptionalResult
 stackResult
 ;
 RefPtr
+csp
+=
+MakeRefPtr
 <
 nsCSPContext
 >
-csp
-=
-new
-nsCSPContext
 (
 )
 ;

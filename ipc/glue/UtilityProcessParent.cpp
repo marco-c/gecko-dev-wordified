@@ -890,13 +890,12 @@ aWhy
 )
 {
 RefPtr
+props
+=
+MakeRefPtr
 <
 nsHashPropertyBag
 >
-props
-=
-new
-nsHashPropertyBag
 (
 )
 ;

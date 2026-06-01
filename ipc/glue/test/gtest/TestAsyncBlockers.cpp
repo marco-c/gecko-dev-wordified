@@ -525,13 +525,12 @@ timer
 )
 ;
 RefPtr
+timerCb
+=
+MakeRefPtr
 <
 AsyncBlockerTimerCallback
 >
-timerCb
-=
-new
-AsyncBlockerTimerCallback
 (
 )
 ;
