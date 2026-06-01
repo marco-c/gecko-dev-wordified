@@ -117,6 +117,7 @@ defaultPdfHandler
 shown
 action
 daysSinceLastAppLaunch
+isTaskbarPinned
 )
 =
 >
@@ -132,6 +133,7 @@ defaultPdfHandler
 shown
 action
 daysSinceLastAppLaunch
+isTaskbarPinned
 }
 )
 ;
@@ -308,6 +310,21 @@ sentPings
 .
 daysSinceLastAppLaunch
 7
+)
+;
+Assert
+.
+equal
+(
+sentPings
+[
+0
+]
+.
+isTaskbarPinned
+"
+Error
+"
 )
 ;
 }
