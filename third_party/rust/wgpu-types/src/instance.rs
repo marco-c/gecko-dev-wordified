@@ -511,8 +511,8 @@ MemoryBudgetThresholds
 /
 /
 Options
-the
-control
+for
+configuring
 the
 behavior
 of

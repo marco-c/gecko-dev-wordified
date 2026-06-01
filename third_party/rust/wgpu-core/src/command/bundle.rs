@@ -8858,7 +8858,7 @@ extend_from_slice
 &
 bind_group
 .
-used_buffer_ranges
+buffer_init_actions
 )
 ;
 self
@@ -8870,7 +8870,7 @@ extend_from_slice
 &
 bind_group
 .
-used_texture_ranges
+texture_init_actions
 )
 ;
 self

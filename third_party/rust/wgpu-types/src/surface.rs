@@ -2373,7 +2373,6 @@ sacrificing
 latency
 when
 the
-the
 CPU
 and
 GPU
