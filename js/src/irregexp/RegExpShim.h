@@ -471,6 +471,14 @@ V8_NOEXCEPT
 noexcept
 #
 define
+V8_LIFETIME_BOUND
+/
+*
+unsupported
+*
+/
+#
+define
 V8_LIKELY
 (
 x
