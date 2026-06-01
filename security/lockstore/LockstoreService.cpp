@@ -2485,7 +2485,7 @@ nsresult
 LockstoreService
 :
 :
-DoListCollections
+DoListDeks
 (
 )
 {
@@ -2499,7 +2499,7 @@ out
 ;
 MOZ_TRY
 (
-lockstore_keystore_list_collections
+lockstore_keystore_list_deks
 (
 mKeystore
 &
@@ -2527,7 +2527,7 @@ DoListKeks
 const
 nsACString
 &
-aCollection
+aDekName
 )
 {
 LOCKSTORE_SYNC_PREAMBLE
@@ -2540,11 +2540,11 @@ out
 ;
 MOZ_TRY
 (
-lockstore_keystore_list_collection_keks
+lockstore_keystore_list_keks
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 out
 )
@@ -3409,7 +3409,7 @@ NS_IMETHODIMP
 LockstoreService
 :
 :
-ListCollections
+ListDeks
 (
 JSContext
 *
@@ -3430,7 +3430,7 @@ aPromise
 LockstoreService
 :
 :
-DoListCollections
+DoListDeks
 )
 ;
 }
@@ -3443,7 +3443,7 @@ ListKeks
 const
 nsACString
 &
-aCollection
+aDekName
 JSContext
 *
 aCx
@@ -3466,7 +3466,7 @@ LockstoreService
 DoListKeks
 nsCString
 {
-aCollection
+aDekName
 }
 )
 ;
