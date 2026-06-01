@@ -2772,7 +2772,13 @@ aCertListOut
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 cert
+)
 )
 ;
 }
@@ -7500,7 +7506,13 @@ aVerifiedChain
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 cert
+)
 )
 ;
 }
