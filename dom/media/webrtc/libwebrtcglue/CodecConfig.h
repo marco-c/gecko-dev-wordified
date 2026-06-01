@@ -421,6 +421,16 @@ str
 )
 ;
 }
+bool
+HasCongestionControlAck
+(
+)
+const
+{
+return
+false
+;
+}
 }
 ;
 /
