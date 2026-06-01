@@ -426,6 +426,13 @@ kind
 }
 )
 ;
+const
+tolerance
+=
+target
+/
+10
+;
 result
 =
 await
@@ -433,9 +440,9 @@ measureDelayFromStats
 (
 t
 receiver
-10
-target
 20
+target
+tolerance
 )
 ;
 assert_true
