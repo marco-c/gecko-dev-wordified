@@ -1048,6 +1048,12 @@ case
 roles
 :
 :
+SEARCHBOX
+:
+case
+roles
+:
+:
 PASSWORD_TEXT
 :
 case
@@ -1660,6 +1666,12 @@ roles
 :
 :
 ENTRY
+:
+case
+roles
+:
+:
+SEARCHBOX
 :
 case
 roles
