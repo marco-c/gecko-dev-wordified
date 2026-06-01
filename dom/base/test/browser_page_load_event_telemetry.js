@@ -305,6 +305,13 @@ browser
 )
 ;
 }
+BrowserTestUtils
+.
+removeTab
+(
+tab
+)
+;
 }
 /
 /
@@ -327,13 +334,6 @@ a
 timeout
 .
 1000
-)
-;
-BrowserTestUtils
-.
-removeTab
-(
-tab
 )
 ;
 }
