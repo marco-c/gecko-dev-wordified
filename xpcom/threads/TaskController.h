@@ -2186,8 +2186,12 @@ aExternalCondVar
 void
 SetIdleTaskManager
 (
+already_AddRefed
+<
 IdleTaskManager
-*
+>
+&
+&
 aIdleTaskManager
 )
 {
