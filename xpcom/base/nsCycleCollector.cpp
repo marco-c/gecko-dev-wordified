@@ -11606,12 +11606,13 @@ message
 asynchronously
 .
 RefPtr
-log
-=
-MakeRefPtr
 <
 LogStringMessageAsync
 >
+log
+=
+new
+LogStringMessageAsync
 (
 msg
 )

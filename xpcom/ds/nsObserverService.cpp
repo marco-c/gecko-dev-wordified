@@ -1040,12 +1040,13 @@ Create
 )
 ;
 RefPtr
-os
-=
-MakeRefPtr
 <
 nsObserverService
 >
+os
+=
+new
+nsObserverService
 (
 )
 ;

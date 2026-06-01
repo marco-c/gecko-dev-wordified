@@ -934,12 +934,13 @@ target
 )
 ;
 RefPtr
-event
-=
-MakeRefPtr
 <
 AvailableEvent
 >
+event
+=
+new
+AvailableEvent
 (
 aStream
 aCallback

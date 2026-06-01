@@ -812,12 +812,13 @@ observer
 service
 .
 RefPtr
-watcher
-=
-MakeRefPtr
 <
 nsMemoryPressureWatcher
 >
+watcher
+=
+new
+nsMemoryPressureWatcher
 (
 )
 ;

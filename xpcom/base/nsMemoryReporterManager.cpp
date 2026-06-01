@@ -16714,12 +16714,13 @@ aCallback
 )
 {
 RefPtr
-runnable
-=
-MakeRefPtr
 <
 MinimizeMemoryUsageRunnable
 >
+runnable
+=
+new
+MinimizeMemoryUsageRunnable
 (
 aCallback
 )
