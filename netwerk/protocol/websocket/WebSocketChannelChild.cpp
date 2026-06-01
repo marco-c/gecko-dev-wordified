@@ -386,8 +386,10 @@ aEncrypted
 ;
 mEventQ
 =
-new
+MakeRefPtr
+<
 ChannelEventQueue
+>
 (
 static_cast
 <
@@ -2967,8 +2969,10 @@ mListenerMutex
 ;
 mListenerMT
 =
-new
+MakeRefPtr
+<
 ListenerAndContextContainer
+>
 (
 aListener
 aContext
