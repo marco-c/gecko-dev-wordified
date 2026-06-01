@@ -634,9 +634,10 @@ is
 (
 win
 .
-history
+gLastCategory
+?
 .
-state
+category
 "
 paneEtpCustomize
 "

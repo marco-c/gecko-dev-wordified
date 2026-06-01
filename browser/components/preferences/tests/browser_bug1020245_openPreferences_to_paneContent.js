@@ -614,9 +614,10 @@ gBrowser
 .
 contentWindow
 .
-history
+gLastCategory
+?
 .
-state
+category
 ;
 is
 (
@@ -1167,9 +1168,10 @@ selectedPane
 =
 win
 .
-history
+gLastCategory
+?
 .
-state
+category
 ;
 await
 finalPrefPaneLoaded
