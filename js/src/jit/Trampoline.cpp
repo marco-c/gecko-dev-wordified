@@ -1634,6 +1634,10 @@ BaselineStub
 FrameType
 :
 :
+IonICCall
+FrameType
+:
+:
 CppToJSJit
 FrameType
 :
