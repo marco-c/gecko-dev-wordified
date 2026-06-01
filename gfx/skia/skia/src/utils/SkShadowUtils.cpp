@@ -4,8 +4,7 @@
 Copyright
 2017
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -2702,6 +2701,12 @@ const
 return
 fShapeForKey
 .
+hasUnstyledKey
+(
+)
+?
+fShapeForKey
+.
 unstyledKeySize
 (
 )
@@ -2710,6 +2715,9 @@ sizeof
 (
 uint32_t
 )
+:
+-
+1
 ;
 }
 void

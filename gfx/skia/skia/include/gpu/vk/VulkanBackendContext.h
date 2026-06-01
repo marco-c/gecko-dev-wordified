@@ -313,11 +313,9 @@ nullptr
 ;
 /
 /
-Optional
-.
 The
 client
-may
+must
 provide
 an
 inplementation

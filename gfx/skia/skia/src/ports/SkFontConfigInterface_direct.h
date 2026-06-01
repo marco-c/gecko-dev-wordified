@@ -127,6 +127,7 @@ it
 .
 *
 /
+explicit
 SkFontConfigInterfaceDirect
 (
 FcConfig

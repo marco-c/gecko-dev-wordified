@@ -386,6 +386,7 @@ for
 bitmap
 (
 )
+explicit
 SkColorTable
 (
 const

@@ -165,9 +165,9 @@ SK_CPU_X86
 )
 #
 if
-SK_CPU_SSE_LEVEL
+SK_CPU_X64_LEVEL
 <
-SK_CPU_SSE_LEVEL_SSSE3
+SK_CPU_X64_LEVEL_SSSE3
 if
 (
 SkCpu
@@ -175,7 +175,7 @@ SkCpu
 :
 Supports
 (
-SkCpu
+SkX64
 :
 :
 SSSE3

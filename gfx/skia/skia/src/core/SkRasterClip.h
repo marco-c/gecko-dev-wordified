@@ -829,6 +829,11 @@ SkClipOp
 }
 ;
 class
+[
+[
+nodiscard
+]
+]
 SkAutoRasterClipValidate
 :
 SkNoncopyable

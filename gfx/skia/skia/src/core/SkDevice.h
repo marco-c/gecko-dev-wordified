@@ -2898,8 +2898,6 @@ const
 SkPaint
 &
 paint
-bool
-pathIsMutable
 )
 =
 0
@@ -5185,7 +5183,6 @@ SkPath
 const
 SkPaint
 &
-bool
 )
 override
 {
@@ -5404,6 +5401,11 @@ fClipStack
 }
 ;
 class
+[
+[
+nodiscard
+]
+]
 SkAutoDeviceTransformRestore
 :
 SkNoncopyable

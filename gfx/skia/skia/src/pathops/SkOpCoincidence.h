@@ -2034,7 +2034,8 @@ fixUp
 (
 SkCoincidentSpans
 *
-coin
+*
+headPtr
 SkOpPtT
 *
 deleted
@@ -2049,7 +2050,8 @@ markCollapsed
 (
 SkCoincidentSpans
 *
-head
+*
+headPtr
 SkOpPtT
 *
 test
@@ -2088,7 +2090,8 @@ release
 (
 SkCoincidentSpans
 *
-coin
+*
+headPtr
 SkCoincidentSpans
 *
 )
@@ -2098,6 +2101,8 @@ releaseDeleted
 (
 SkCoincidentSpans
 *
+*
+headPtr
 )
 ;
 void

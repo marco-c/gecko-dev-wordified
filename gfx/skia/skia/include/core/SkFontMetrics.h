@@ -4,8 +4,7 @@
 Copyright
 2018
 Google
-Inc
-.
+LLC
 *
 *
 Use

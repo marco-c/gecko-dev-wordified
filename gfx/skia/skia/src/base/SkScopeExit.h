@@ -95,6 +95,7 @@ SkScopeExit
 =
 default
 ;
+explicit
 SkScopeExit
 (
 std

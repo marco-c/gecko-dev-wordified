@@ -5,7 +5,6 @@ Copyright
 2025
 Google
 LLC
-.
 *
 *
 Use
@@ -148,6 +147,7 @@ lines
 +
 close
 )
+explicit
 Rect
 (
 const
@@ -189,6 +189,7 @@ conics
 +
 close
 )
+explicit
 Oval
 (
 const
@@ -277,6 +278,7 @@ kCW
 )
 {
 }
+explicit
 RRect
 (
 const

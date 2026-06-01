@@ -1372,7 +1372,10 @@ ssize
 ;
 if
 (
-StreamRemainingLengthIsBelow
+SkStreamPriv
+:
+:
+RemainingLengthIsBelow
 (
 stream
 size
@@ -1759,6 +1762,7 @@ detachAsData
 static
 sk_sp
 <
+const
 SkData
 >
 custom_serialize

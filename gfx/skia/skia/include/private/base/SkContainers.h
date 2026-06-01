@@ -4,7 +4,6 @@ Copyright
 2022
 Google
 LLC
-.
 /
 /
 Use
@@ -197,6 +196,9 @@ capacity
 sizeof
 (
 T
+)
+(
+size_t
 )
 kCapacityMultiple
 )

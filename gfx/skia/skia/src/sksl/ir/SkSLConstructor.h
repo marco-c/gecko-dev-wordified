@@ -558,6 +558,9 @@ fArguments
 front
 (
 )
+(
+size_t
+)
 fArguments
 .
 size
@@ -590,6 +593,9 @@ fArguments
 .
 front
 (
+)
+(
+size_t
 )
 fArguments
 .

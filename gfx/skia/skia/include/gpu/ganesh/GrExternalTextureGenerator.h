@@ -163,6 +163,7 @@ GrTextureGenerator
 {
 public
 :
+explicit
 GrExternalTextureGenerator
 (
 const

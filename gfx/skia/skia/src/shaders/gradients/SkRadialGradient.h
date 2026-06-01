@@ -117,7 +117,7 @@ center
 SkScalar
 radius
 const
-Descriptor
+SkGradient
 &
 )
 ;

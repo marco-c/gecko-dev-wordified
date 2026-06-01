@@ -2148,6 +2148,14 @@ get
 (
 )
 patternBBox
+is_tiled
+(
+tileModesX
+)
+is_tiled
+(
+tileModesY
+)
 std
 :
 :

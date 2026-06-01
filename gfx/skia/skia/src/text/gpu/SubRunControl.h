@@ -4,8 +4,7 @@
 Copyright
 2020
 Google
-Inc
-.
+LLC
 *
 *
 Use
@@ -300,6 +299,7 @@ fMaxDistanceFieldFontSize
 }
 #
 else
+explicit
 SubRunControl
 (
 bool
