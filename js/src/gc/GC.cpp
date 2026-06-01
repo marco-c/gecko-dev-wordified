@@ -17917,7 +17917,7 @@ JS
 :
 CallbackTracer
 {
-void
+bool
 onChild
 (
 JS
@@ -18138,7 +18138,7 @@ return
 false
 ;
 }
-void
+bool
 CompartmentCheckTracer
 :
 :
@@ -18249,6 +18249,9 @@ isAtomsZone
 )
 ;
 }
+return
+true
+;
 }
 bool
 CompartmentCheckTracer
@@ -32601,6 +32604,7 @@ updateHighFrequencyModeOnGCStart
 gcOptions
 (
 )
+reason
 lastGCStartTime_
 now
 tunables
