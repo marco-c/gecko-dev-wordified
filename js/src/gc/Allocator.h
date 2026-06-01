@@ -1091,15 +1091,6 @@ TraceBufferEdgeInternal
 JSTracer
 *
 trc
-JS
-:
-:
-Zone
-*
-zone
-Cell
-*
-maybeOwner
 void
 *
 *

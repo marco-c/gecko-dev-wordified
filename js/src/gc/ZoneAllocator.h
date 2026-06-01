@@ -2354,12 +2354,6 @@ traceOwnedAlloc
 JSTracer
 *
 trc
-gc
-:
-:
-Cell
-*
-maybeOwner
 T
 *
 *
@@ -2402,8 +2396,6 @@ gc
 TraceBufferEdgeInternal
 (
 trc
-zone
-maybeOwner
 ptrp
 name
 )
