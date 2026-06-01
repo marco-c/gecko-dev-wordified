@@ -287,7 +287,15 @@ mRequest
 =
 aRequest
 ;
+RefPtr
+<
+SheetLoadData
+>
+sheetLoadData
+=
 mSheetLoadData
+;
+sheetLoadData
 -
 >
 OnStartRequest
