@@ -7205,6 +7205,11 @@ USES_VIEWPORT_UNITS
 ComputedValueFlags
 :
 :
+USES_FONT_RELATIVE_UNITS
+|
+ComputedValueFlags
+:
+:
 DEPENDS_ON_CONTAINER_STYLE_QUERY
 ;
 context
