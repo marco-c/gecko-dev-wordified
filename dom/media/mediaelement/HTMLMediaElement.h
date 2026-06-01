@@ -8460,12 +8460,6 @@ ErrorResult
 aRv
 )
 ;
-using
-nsGenericHTMLElement
-:
-:
-DispatchEvent
-;
 /
 /
 For
