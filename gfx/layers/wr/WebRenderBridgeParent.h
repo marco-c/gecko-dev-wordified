@@ -1572,16 +1572,6 @@ mWrEpoch
 ;
 }
 bool
-HasReceivedDisplayList
-(
-)
-const
-{
-return
-mReceivedDisplayList
-;
-}
-bool
 MatchesNamespace
 (
 const
