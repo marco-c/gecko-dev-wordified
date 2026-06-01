@@ -193,13 +193,12 @@ usage
 :
 *
 RefPtr
+sr
+=
+MakeRefPtr
 <
 SyncRunnable
 >
-sr
-=
-new
-SyncRunnable
 (
 new
 myrunnable

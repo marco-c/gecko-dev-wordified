@@ -5801,8 +5801,10 @@ nsIRunnable
 >
 event
 =
-new
+MakeRefPtr
+<
 nsThreadShutdownEvent
+>
 (
 WrapNotNull
 (

@@ -4567,13 +4567,12 @@ NS_ERROR_NOT_AVAILABLE
 ;
 }
 RefPtr
+wrapper
+=
+MakeRefPtr
 <
 nsThreadSyncDispatch
 >
-wrapper
-=
-new
-nsThreadSyncDispatch
 (
 current
 .
