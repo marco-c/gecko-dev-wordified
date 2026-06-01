@@ -5604,6 +5604,11 @@ id
 "
 translationsManageButton
 "
+loadPane
+:
+"
+translations
+"
 l10nId
 :
 "
