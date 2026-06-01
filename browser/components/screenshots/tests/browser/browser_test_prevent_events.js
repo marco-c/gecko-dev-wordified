@@ -503,6 +503,11 @@ WheelEvent
 "
 wheel
 "
+{
+deltaY
+:
+1
+}
 )
 )
 ;
