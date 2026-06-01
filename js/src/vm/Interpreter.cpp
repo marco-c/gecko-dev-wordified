@@ -28329,6 +28329,10 @@ isDebuggee
 )
 )
 ;
+INIT_COVERAGE
+(
+)
+;
 COUNT_COVERAGE
 (
 )
