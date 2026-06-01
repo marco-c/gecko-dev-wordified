@@ -2124,7 +2124,8 @@ android
     
 flavors
 =
-None
+[
+]
     
 if
 flavor
