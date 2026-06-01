@@ -11032,7 +11032,7 @@ delazified
 and
 relazified
 .
-GCStructPtr
+GCBuffer
 <
 PrivateScriptData
 *
