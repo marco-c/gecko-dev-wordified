@@ -1536,6 +1536,11 @@ internal
 backtrack_
 label
 .
+[
+[
+maybe_unused
+]
+]
 auto
 fix_label
 =
