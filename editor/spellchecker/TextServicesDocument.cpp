@@ -8889,13 +8889,12 @@ certain
 content
 nodes
 RefPtr
+filter
+=
+MakeRefPtr
 <
 FilteredContentIterator
 >
-filter
-=
-new
-FilteredContentIterator
 (
 std
 :

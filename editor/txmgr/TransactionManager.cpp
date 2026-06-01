@@ -2629,13 +2629,12 @@ transaction
 items
 .
 RefPtr
+transactionItem
+=
+MakeRefPtr
 <
 TransactionItem
 >
-transactionItem
-=
-new
-TransactionItem
 (
 aTransaction
 )

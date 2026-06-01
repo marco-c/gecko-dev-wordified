@@ -825,13 +825,12 @@ Ranges
 )
 {
 RefPtr
+rangeItem
+=
+MakeRefPtr
 <
 RangeItem
 >
-rangeItem
-=
-new
-RangeItem
 (
 )
 ;

@@ -2546,13 +2546,12 @@ UI
 state
 maintainer
 RefPtr
+commandsUpdater
+=
+MakeRefPtr
 <
 ComposerCommandsUpdater
 >
-commandsUpdater
-=
-new
-ComposerCommandsUpdater
 (
 )
 ;
