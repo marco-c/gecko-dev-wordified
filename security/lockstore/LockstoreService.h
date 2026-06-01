@@ -774,6 +774,15 @@ uint32_t
 aCacheTimeoutMs
 )
 ;
+nsresult
+DoDeleteKek
+(
+const
+nsACString
+&
+aKekRef
+)
+;
 private
 :
 ~
