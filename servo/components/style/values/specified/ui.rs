@@ -69,6 +69,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -603,6 +612,13 @@ repr
 transparent
 )
 ]
+#
+[
+typed
+(
+todo_derive_fields
+)
+]
 pub
 struct
 BoolInteger
@@ -1096,6 +1112,7 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+ToTyped
 )
 ]
 #
