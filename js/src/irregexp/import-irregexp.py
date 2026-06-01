@@ -563,7 +563,11 @@ compile
 #
 include
 "
+(
 src
+|
+include
+)
 /
 '
 )
