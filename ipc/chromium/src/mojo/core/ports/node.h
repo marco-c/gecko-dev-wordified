@@ -1580,6 +1580,8 @@ delegate
 DelegateHolder
 (
 )
+=
+default
 ;
 DelegateHolder
 (

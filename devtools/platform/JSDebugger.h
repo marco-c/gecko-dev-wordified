@@ -96,6 +96,8 @@ private
 JSDebugger
 (
 )
+=
+default
 ;
 }
 ;

@@ -93,6 +93,8 @@ private
 MozIntlHelper
 (
 )
+=
+default
 ;
 }
 ;

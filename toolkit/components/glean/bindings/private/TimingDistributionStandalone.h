@@ -410,6 +410,16 @@ AutoTimer
 (
 )
 ;
+/
+/
+NOLINT
+(
+performance
+-
+trivially
+-
+destructible
+)
 private
 :
 AutoTimer

@@ -363,16 +363,6 @@ clear
 filter
 memory
 }
-Biquad
-:
-:
-~
-Biquad
-(
-)
-=
-default
-;
 void
 Biquad
 :
