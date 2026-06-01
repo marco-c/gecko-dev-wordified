@@ -145,7 +145,13 @@ noexcept
 :
 ptr_
 (
+std
+:
+:
+move
+(
 other
+)
 .
 release
 (

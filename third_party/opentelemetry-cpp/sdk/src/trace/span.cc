@@ -357,10 +357,6 @@ move
 span_context
 )
 )
-has_ended_
-{
-false
-}
 {
 if
 (

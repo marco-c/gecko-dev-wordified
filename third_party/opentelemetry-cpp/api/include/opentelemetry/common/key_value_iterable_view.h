@@ -918,6 +918,7 @@ common
 KeyValueIterable
 &
 attributes
+OPENTELEMETRY_ATTRIBUTE_LIFETIME_BOUND
 )
 noexcept
 {
