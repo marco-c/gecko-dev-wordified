@@ -4737,6 +4737,7 @@ return
 this
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -4765,6 +4766,13 @@ const
 nsID
 &
 aChangeID
+nsTArray
+<
+NavigationEntriesTruncation
+>
+&
+&
+aTruncations
 )
 ;
 mozilla
