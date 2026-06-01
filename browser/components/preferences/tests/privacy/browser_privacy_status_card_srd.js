@@ -2018,9 +2018,6 @@ doc
 querySelector
 (
 '
-moz
--
-fieldset
 [
 data
 -
@@ -2032,6 +2029,9 @@ update
 state
 "
 ]
+moz
+-
+fieldset
 '
 )
 ;
