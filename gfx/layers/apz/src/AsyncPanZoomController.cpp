@@ -42059,6 +42059,10 @@ RecalculateLayoutViewportOffset
 (
 )
 ;
+needToReclampScroll
+=
+true
+;
 }
 else
 if
