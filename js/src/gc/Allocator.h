@@ -1085,6 +1085,7 @@ alloc
 )
 ;
 void
+*
 TraceBufferEdgeInternal
 (
 JSTracer

@@ -2399,9 +2399,6 @@ ChunkSize
 MediumAllocGranularity
 >
 {
-#
-ifdef
-DEBUG
 MainThreadOrGCTaskData
 <
 Zone
@@ -2409,8 +2406,6 @@ Zone
 >
 zone
 ;
-#
-endif
 MainThreadOrGCTaskData
 <
 bool
@@ -3354,9 +3349,6 @@ LargeBufferCheckValue
 )
 ;
 }
-#
-ifdef
-DEBUG
 inline
 Zone
 *
@@ -3371,8 +3363,6 @@ zoneFromAnyThread
 (
 )
 ;
-#
-endif
 void
 *
 data
