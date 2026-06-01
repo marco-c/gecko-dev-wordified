@@ -127,6 +127,11 @@ exporter
 cc
 "
 "
+multi_recordable
+.
+cc
+"
+"
 provider
 .
 cc
@@ -155,6 +160,11 @@ cc
 "
 "
 span
+.
+cc
+"
+"
+span_data
 .
 cc
 "
