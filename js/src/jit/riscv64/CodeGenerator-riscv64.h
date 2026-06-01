@@ -432,6 +432,13 @@ cond
 )
 ;
 }
+enum
+FloatFormat
+{
+SingleFloat
+DoubleFloat
+}
+;
 void
 branchToBlock
 (
