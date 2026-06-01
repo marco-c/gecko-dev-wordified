@@ -3432,7 +3432,7 @@ nsIFrame
 *
 aAnchor
 bool
-aCBRectIsvalid
+aCBRectIsValid
 )
 {
 auto
@@ -3452,7 +3452,7 @@ nsRect
 {
 if
 (
-aCBRectIsvalid
+aCBRectIsValid
 )
 {
 return
@@ -3812,7 +3812,7 @@ ScopedNameRef
 &
 aAnchorName
 bool
-aCBRectIsvalid
+aCBRectIsValid
 AnchorPosResolutionCache
 *
 aResolutionCache
@@ -4073,7 +4073,7 @@ GetAnchorPosRect
 (
 aAbsoluteContainingBlock
 anchor
-aCBRectIsvalid
+aCBRectIsValid
 )
 ;
 return
