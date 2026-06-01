@@ -3299,6 +3299,25 @@ filename
 platform
 =
 platform
+                
+level
+=
+str
+(
+config
+.
+params
+.
+get
+(
+"
+level
+"
+"
+1
+"
+)
+)
             
 )
             
@@ -4511,15 +4530,37 @@ mapping
 [
 filename
 ]
+                
 "
 from
 "
+                
 "
 blah
 "
+                
 platform
 =
 platform
+                
+level
+=
+str
+(
+config
+.
+params
+.
+get
+(
+"
+level
+"
+"
+1
+"
+)
+)
             
 )
             
