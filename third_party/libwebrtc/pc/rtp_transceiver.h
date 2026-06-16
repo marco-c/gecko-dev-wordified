@@ -1181,7 +1181,7 @@ and
 sets
 it
 .
-RTCError
+void
 CreateChannel
 (
 absl
@@ -1228,6 +1228,9 @@ string_view
 &
 >
 transport_lookup
+ScopedOperationsBatcher
+&
+network_batcher
 )
 ;
 /
