@@ -486,7 +486,7 @@ const
 StylePathCommand
 >
 aPath
-double
+float
 aDistance
 )
 {
