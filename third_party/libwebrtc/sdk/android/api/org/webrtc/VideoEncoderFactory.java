@@ -128,11 +128,6 @@ encoder
 *
 /
 CalledByNative
-(
-"
-VideoEncoderSelector
-"
-)
 void
 onCurrentEncoder
 (
@@ -178,11 +173,6 @@ preferred
 /
 Nullable
 CalledByNative
-(
-"
-VideoEncoderSelector
-"
-)
 VideoCodecInfo
 onAvailableBitrate
 (
@@ -230,11 +220,6 @@ preferred
 /
 Nullable
 CalledByNative
-(
-"
-VideoEncoderSelector
-"
-)
 default
 VideoCodecInfo
 onResolutionChange
@@ -292,11 +277,6 @@ preferred
 /
 Nullable
 CalledByNative
-(
-"
-VideoEncoderSelector
-"
-)
 VideoCodecInfo
 onEncoderBroken
 (

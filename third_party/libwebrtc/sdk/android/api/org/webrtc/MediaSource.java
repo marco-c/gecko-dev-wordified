@@ -124,11 +124,6 @@ ENDED
 MUTED
 ;
 CalledByNative
-(
-"
-State
-"
-)
 static
 State
 fromNativeIndex

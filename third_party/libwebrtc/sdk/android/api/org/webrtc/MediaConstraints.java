@@ -184,11 +184,6 @@ value
 ;
 }
 CalledByNative
-(
-"
-KeyValuePair
-"
-)
 public
 String
 getKey
@@ -200,11 +195,6 @@ key
 ;
 }
 CalledByNative
-(
-"
-KeyValuePair
-"
-)
 public
 String
 getValue
