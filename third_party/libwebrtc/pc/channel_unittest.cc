@@ -185,6 +185,15 @@ include
 "
 api
 /
+media_types
+.
+h
+"
+#
+include
+"
+api
+/
 rtc_error
 .
 h
@@ -947,7 +956,7 @@ Traits
 webrtc
 :
 :
-VoiceChannel
+BaseChannel
 webrtc
 :
 :
@@ -989,7 +998,7 @@ Traits
 webrtc
 :
 :
-VideoChannel
+BaseChannel
 webrtc
 :
 :
@@ -12870,7 +12879,7 @@ unique_ptr
 webrtc
 :
 :
-VoiceChannel
+BaseChannel
 >
 ChannelTest
 <
@@ -12952,7 +12961,7 @@ make_unique
 webrtc
 :
 :
-VoiceChannel
+BaseChannel
 >
 (
 worker_thread
@@ -12973,6 +12982,13 @@ move
 receive_ch
 )
 kAudioMid
+webrtc
+:
+:
+MediaType
+:
+:
+AUDIO
 (
 flags
 &
@@ -13317,7 +13333,7 @@ unique_ptr
 webrtc
 :
 :
-VideoChannel
+BaseChannel
 >
 ChannelTest
 <
@@ -13399,7 +13415,7 @@ make_unique
 webrtc
 :
 :
-VideoChannel
+BaseChannel
 >
 (
 worker_thread
@@ -13420,6 +13436,13 @@ move
 receive_ch
 )
 kVideoMid
+webrtc
+:
+:
+MediaType
+:
+:
+VIDEO
 (
 flags
 &
