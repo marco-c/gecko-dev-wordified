@@ -687,6 +687,12 @@ suite_id
 "
 :
 suite_id
+            
+"
+include_all
+"
+:
+True
         
 }
         
