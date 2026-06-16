@@ -31437,6 +31437,16 @@ Promise
 >
 mReadyForIdle
 ;
+/
+/
+Lazily
+created
+in
+FeaturePolicy
+(
+)
+.
+mutable
 RefPtr
 <
 mozilla
