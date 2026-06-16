@@ -1124,6 +1124,16 @@ use
 style_traits
 :
 :
+owned_array
+:
+:
+OwnedArray
+;
+pub
+use
+style_traits
+:
+:
 owned_slice
 :
 :

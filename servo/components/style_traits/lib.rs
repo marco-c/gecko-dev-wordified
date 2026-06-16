@@ -575,6 +575,10 @@ values
 ;
 pub
 mod
+owned_array
+;
+pub
+mod
 owned_slice
 ;
 pub
