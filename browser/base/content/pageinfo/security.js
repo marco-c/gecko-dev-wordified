@@ -2010,6 +2010,7 @@ true
 }
 if
 (
+await
 realmHasPasswords
 (
 uri
