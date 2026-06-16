@@ -163,9 +163,6 @@ nss
 {
 AllowZeroRtt
 AuthenticationStatus
-RecordProtectionOps
-as
-_
 ZeroRttCheckResult
 ZeroRttChecker
 generate_ech_keys
@@ -3712,8 +3709,7 @@ unwrap
 ;
 let
 (
-aead_enc
-aead_dec
+aead
 hp
 )
 =
@@ -3785,7 +3781,7 @@ len
 let
 plaintext
 =
-aead_dec
+aead
 .
 decrypt
 (
@@ -3919,7 +3915,7 @@ len
 (
 )
 +
-aead_enc
+aead
 .
 expansion
 (
@@ -3998,7 +3994,7 @@ len
 (
 )
 +
-aead_enc
+aead
 .
 expansion
 (
@@ -4009,7 +4005,7 @@ expansion
 let
 v
 =
-aead_enc
+aead
 .
 encrypt
 (
@@ -4663,7 +4659,6 @@ unwrap
 let
 (
 aead
-_
 hp
 )
 =
