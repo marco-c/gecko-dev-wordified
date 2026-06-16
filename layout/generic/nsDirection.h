@@ -102,6 +102,15 @@ eDirPrevious
 std
 :
 :
+string
+format_as
+(
+nsDirection
+)
+;
+std
+:
+:
 ostream
 &
 operator
@@ -113,11 +122,7 @@ std
 :
 ostream
 &
-aStream
-const
 nsDirection
-&
-aDirection
 )
 ;
 #
