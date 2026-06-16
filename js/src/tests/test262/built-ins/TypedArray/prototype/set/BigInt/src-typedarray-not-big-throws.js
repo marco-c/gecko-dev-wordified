@@ -247,6 +247,13 @@ littleTypedArray
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

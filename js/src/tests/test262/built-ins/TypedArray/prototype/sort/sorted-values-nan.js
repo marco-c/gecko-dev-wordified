@@ -417,6 +417,12 @@ NaN
 ;
 }
 floatArrayConstructors
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

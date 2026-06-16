@@ -137,6 +137,9 @@ js
 features
 :
 [
+Symbol
+.
+species
 TypedArray
 change
 -
@@ -323,12 +326,6 @@ with
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

@@ -256,6 +256,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -264,7 +265,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 DETACHBUFFER
@@ -331,9 +335,10 @@ length
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )

@@ -43,7 +43,7 @@ object
 using
 the
 Object
-contructor
+constructor
 has
 its
 [

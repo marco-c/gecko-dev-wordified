@@ -121,11 +121,12 @@ js
 -
 *
 /
-testWithTypedArrayConstructors
+testWithAllTypedArrayConstructors
 (
 function
 (
 ctor
+makeCtorArg
 )
 {
 var
@@ -134,6 +135,10 @@ sample
 new
 ctor
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 assert
@@ -150,12 +155,6 @@ true
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

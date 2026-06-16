@@ -220,6 +220,11 @@ view
 ;
 }
 views
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

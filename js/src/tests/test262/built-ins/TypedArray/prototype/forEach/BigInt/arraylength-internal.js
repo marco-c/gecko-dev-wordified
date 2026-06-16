@@ -318,12 +318,6 @@ descriptor
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

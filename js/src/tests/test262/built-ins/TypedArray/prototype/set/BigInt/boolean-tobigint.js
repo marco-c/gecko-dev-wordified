@@ -392,6 +392,13 @@ BigInt
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

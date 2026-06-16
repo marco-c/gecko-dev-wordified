@@ -708,6 +708,13 @@ SyntaxError
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

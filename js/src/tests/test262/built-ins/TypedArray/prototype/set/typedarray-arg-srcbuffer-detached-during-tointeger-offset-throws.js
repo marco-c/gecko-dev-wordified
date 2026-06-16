@@ -201,6 +201,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -217,6 +218,10 @@ target
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 var
@@ -279,9 +284,10 @@ calledOffset
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )

@@ -36,7 +36,9 @@ esid
 :
 sec
 -
-initializepluralrules
+intl
+.
+pluralrules
 description
 :
 Checks

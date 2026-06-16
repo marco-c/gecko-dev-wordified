@@ -246,9 +246,10 @@ obj
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )
