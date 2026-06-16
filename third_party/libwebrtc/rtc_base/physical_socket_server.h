@@ -1562,7 +1562,7 @@ dscp_
 6bit
 .
 uint8_t
-ecn_
+ecn_send_options_
 =
 0
 ;
@@ -1570,6 +1570,11 @@ ecn_
 /
 2bits
 .
+bool
+read_ecn_
+=
+false
+;
 #
 if
 RTC_DCHECK_IS_ON
