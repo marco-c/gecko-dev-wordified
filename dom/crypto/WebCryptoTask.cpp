@@ -17944,8 +17944,10 @@ const
 ObjectOrString
 &
 aUnwrapAlgorithm
+already_AddRefed
+<
 ImportKeyTask
-*
+>
 aTask
 )
 :
@@ -20981,6 +20983,10 @@ aWrappedKey
 aUnwrappingKey
 aUnwrapAlgorithm
 importTask
+.
+forget
+(
+)
 )
 ;
 }
@@ -21009,6 +21015,10 @@ aWrappedKey
 aUnwrappingKey
 aUnwrapAlgorithm
 importTask
+.
+forget
+(
+)
 )
 ;
 }
@@ -21037,6 +21047,10 @@ aWrappedKey
 aUnwrappingKey
 aUnwrapAlgorithm
 importTask
+.
+forget
+(
+)
 )
 ;
 }
