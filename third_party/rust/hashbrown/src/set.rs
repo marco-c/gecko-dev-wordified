@@ -8765,7 +8765,7 @@ self
 .
 map
 .
-find_or_find_insert_index
+find_or_find_insert_slot
 (
 hash
 &
@@ -8781,7 +8781,7 @@ bucket
 bucket
 Err
 (
-index
+slot
 )
 =
 >
@@ -8793,10 +8793,10 @@ map
 .
 table
 .
-insert_at_index
+insert_in_slot
 (
 hash
-index
+slot
 (
 value
 (
@@ -9169,7 +9169,7 @@ self
 .
 map
 .
-find_or_find_insert_index
+find_or_find_insert_slot
 (
 hash
 value
@@ -9184,7 +9184,7 @@ bucket
 bucket
 Err
 (
-index
+slot
 )
 =
 >
@@ -9224,10 +9224,10 @@ map
 .
 table
 .
-insert_at_index
+insert_in_slot
 (
 hash
-index
+slot
 (
 new
 (
@@ -11020,7 +11020,7 @@ self
 .
 map
 .
-find_or_find_insert_index
+find_or_find_insert_slot
 (
 hash
 &
@@ -11057,7 +11057,7 @@ value
 )
 Err
 (
-index
+slot
 )
 =
 >
@@ -11070,10 +11070,10 @@ map
 .
 table
 .
-insert_at_index
+insert_in_slot
 (
 hash
-index
+slot
 (
 value
 (
@@ -14605,7 +14605,7 @@ self
 .
 map
 .
-find_or_find_insert_index
+find_or_find_insert_slot
 (
 hash
 item
@@ -14633,7 +14633,7 @@ bucket
 }
 Err
 (
-index
+slot
 )
 =
 >
@@ -14645,10 +14645,10 @@ map
 .
 table
 .
-insert_at_index
+insert_in_slot
 (
 hash
-index
+slot
 (
 item
 .

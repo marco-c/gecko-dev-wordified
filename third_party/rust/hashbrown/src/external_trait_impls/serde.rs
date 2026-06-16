@@ -134,7 +134,7 @@ marker
 PhantomData
 ;
 use
-serde_core
+serde
 :
 :
 de
@@ -148,7 +148,7 @@ Visitor
 }
 ;
 use
-serde_core
+serde
 :
 :
 ser
@@ -638,7 +638,7 @@ marker
 PhantomData
 ;
 use
-serde_core
+serde
 :
 :
 de
@@ -652,7 +652,7 @@ Visitor
 }
 ;
 use
-serde_core
+serde
 :
 :
 ser
