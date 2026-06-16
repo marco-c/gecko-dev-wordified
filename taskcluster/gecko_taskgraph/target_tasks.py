@@ -6132,6 +6132,33 @@ chrome
 "
 in
 try_name
+or
+"
+custom
+-
+car
+"
+in
+try_name
+:
+                    
+if
+"
+linux2404
+"
+in
+platform
+:
+                        
+return
+False
+                
+if
+"
+chrome
+"
+in
+try_name
 :
                     
 if
@@ -6215,6 +6242,19 @@ motionmark
 )
 :
                             
+return
+False
+                    
+if
+"
+wasm
+-
+godot
+"
+in
+try_name
+:
+                        
 return
 False
                     
