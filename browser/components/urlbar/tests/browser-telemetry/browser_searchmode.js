@@ -3431,9 +3431,9 @@ TouchBarHelper
 .
 insertRestrictionInUrlbar
 (
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 HISTORY
 )

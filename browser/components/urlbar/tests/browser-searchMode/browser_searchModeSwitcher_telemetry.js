@@ -746,9 +746,9 @@ Object
 .
 keys
 (
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 )
 .
 includes
@@ -760,9 +760,9 @@ engineOrRestrict
 let
 restrict
 =
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 [
 engineOrRestrict
 ]

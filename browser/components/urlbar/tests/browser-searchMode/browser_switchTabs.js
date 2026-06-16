@@ -1981,9 +1981,9 @@ let
 value
 =
 {
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 BOOKMARK
 }

@@ -578,9 +578,9 @@ createContext
 (
 foo
 {
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 OPENPAGE
 }
@@ -883,9 +883,9 @@ createContext
 javascript
 :
 {
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 .
 HISTORY
 }
@@ -2326,9 +2326,9 @@ Object
 .
 entries
 (
-UrlbarTokenizer
+UrlbarShared
 .
-RESTRICT
+RESTRICT_TOKENS
 )
 )
 {
