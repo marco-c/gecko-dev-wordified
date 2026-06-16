@@ -314,8 +314,10 @@ return
 null
 .
 static
+UniquePtr
+<
 PerformanceTimingData
-*
+>
 Create
 (
 nsITimedChannel
@@ -347,8 +349,10 @@ aZeroTime
 )
 ;
 static
+UniquePtr
+<
 PerformanceTimingData
-*
+>
 Create
 (
 const
