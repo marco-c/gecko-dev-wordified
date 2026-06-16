@@ -119,6 +119,12 @@ DestroyNative
 )
 override
 ;
+void
+ConfigureToplevelWindowNative
+(
+)
+override
+;
 bool
 ConfigureX11GLVisual
 (
