@@ -3649,8 +3649,10 @@ MediaSourceEnum
 Camera
 :
 return
-new
+MakeRefPtr
+<
 MediaEngineFakeVideoSource
+>
 (
 )
 ;
@@ -3661,8 +3663,10 @@ MediaSourceEnum
 Microphone
 :
 return
-new
+MakeRefPtr
+<
 MediaEngineFakeAudioSource
+>
 (
 )
 ;
@@ -3763,8 +3767,10 @@ deep
 cloned
 .
 return
-new
+MakeRefPtr
+<
 MediaEngineFakeAudioSource
+>
 (
 )
 ;
