@@ -1573,6 +1573,7 @@ Outer
 windows
 only
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 SetInitialPrincipal
