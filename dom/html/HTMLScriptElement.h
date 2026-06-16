@@ -293,6 +293,15 @@ aParent
 override
 ;
 virtual
+void
+UnbindFromTree
+(
+UnbindContext
+&
+)
+override
+;
+virtual
 bool
 ParseAttribute
 (
