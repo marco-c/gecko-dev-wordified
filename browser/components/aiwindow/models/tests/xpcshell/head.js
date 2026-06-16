@@ -245,6 +245,12 @@ addSeenUrls
 )
 {
 }
+async
+addHistoryResults
+(
+)
+{
+}
 getAllMentionURLs
 (
 )
