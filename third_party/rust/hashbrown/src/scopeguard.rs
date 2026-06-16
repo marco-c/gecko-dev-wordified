@@ -25,6 +25,9 @@ ptr
 }
 ;
 pub
+(
+crate
+)
 struct
 ScopeGuard
 <
@@ -53,6 +56,9 @@ T
 inline
 ]
 pub
+(
+crate
+)
 fn
 guard
 <
@@ -115,6 +121,9 @@ T
 inline
 ]
 pub
+(
+crate
+)
 fn
 into_inner
 (
@@ -189,6 +198,8 @@ ptr
 read
 (
 &
+raw
+const
 guard
 .
 value
@@ -213,6 +224,8 @@ ptr
 read
 (
 &
+raw
+const
 guard
 .
 dropfn
