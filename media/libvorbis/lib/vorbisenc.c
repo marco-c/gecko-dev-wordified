@@ -1726,7 +1726,7 @@ adj_stereo
 p
 )
 {
-float
+double
 s
 =
 hi
