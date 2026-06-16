@@ -2323,7 +2323,7 @@ cssnumericvalue
 to
 pub
 fn
-resolve_to_unit
+to_unit
 (
 &
 self
