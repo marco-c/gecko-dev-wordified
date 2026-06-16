@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-SDPMEDIASECTION_H_
+DOM_MEDIA_WEBRTC_SDP_SDPMEDIASECTION_H_
 #
 define
-SDPMEDIASECTION_H_
+DOM_MEDIA_WEBRTC_SDP_SDPMEDIASECTION_H_
 #
 include
 <
@@ -897,6 +897,7 @@ inline
 void
 SetReceiving
 (
+const
 bool
 receiving
 )
@@ -957,6 +958,7 @@ inline
 void
 SetSending
 (
+const
 bool
 sending
 )
@@ -1017,6 +1019,7 @@ inline
 void
 SetDirection
 (
+const
 SdpDirectionAttribute
 :
 :
@@ -1030,8 +1033,10 @@ GetAttributeList
 .
 SetAttribute
 (
-new
+MakeUnique
+<
 SdpDirectionAttribute
+>
 (
 direction
 )
@@ -1152,6 +1157,7 @@ std
 string
 &
 pt
+const
 SdpRtcpFbAttributeList
 :
 :
@@ -1343,6 +1349,7 @@ std
 ostream
 &
 os
+const
 SdpMediaSection
 :
 :
@@ -1460,6 +1467,7 @@ std
 ostream
 &
 os
+const
 SdpMediaSection
 :
 :
@@ -2182,6 +2190,7 @@ public
 :
 SdpConnection
 (
+const
 sdp
 :
 :
@@ -2192,10 +2201,12 @@ std
 :
 string
 addr
+const
 uint8_t
 ttl
 =
 0
+const
 uint32_t
 count
 =
