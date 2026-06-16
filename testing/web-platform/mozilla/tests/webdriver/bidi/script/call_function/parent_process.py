@@ -293,12 +293,16 @@ bidi_session
 .
 script
 .
-evaluate
+call_function
 (
                 
-expression
+function_declaration
 =
 "
+(
+)
+=
+>
 1
 +
 1
@@ -384,12 +388,16 @@ bidi_session
 .
 script
 .
-evaluate
+call_function
 (
         
-expression
+function_declaration
 =
 "
+(
+)
+=
+>
 1
 +
 1
