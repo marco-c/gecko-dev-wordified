@@ -4285,12 +4285,6 @@ case
 JSOp
 :
 :
-BindVar
-:
-case
-JSOp
-:
-:
 MutateProto
 :
 case
