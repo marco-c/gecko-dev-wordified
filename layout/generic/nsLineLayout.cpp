@@ -17143,10 +17143,8 @@ GetFontBaseline
 [
 ]
 (
-RefPtr
-<
 nsFontMetrics
->
+*
 aFM
 StyleAlignmentBaseline
 aAlignmentBaseline
