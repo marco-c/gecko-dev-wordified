@@ -12829,6 +12829,11 @@ AssertIsOnMainThread
 (
 )
 ;
+if
+(
+mIsServerSide
+)
+{
 NS_ENSURE_TRUE
 (
 !
@@ -12840,11 +12845,6 @@ IsEmpty
 NS_ERROR_DOM_SYNTAX_ERR
 )
 ;
-if
-(
-mIsServerSide
-)
-{
 mWebSocket
 -
 >
