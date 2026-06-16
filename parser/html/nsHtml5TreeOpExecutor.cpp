@@ -6114,14 +6114,6 @@ GetScriptIsImportMap
 )
 |
 |
-sele
--
->
-GetScriptIsSpeculationRules
-(
-)
-|
-|
 aScriptElement
 -
 >

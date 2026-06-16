@@ -200,10 +200,6 @@ dom_fragmentdirectives
 ;
 extern
 crate
-dom_speculationrules
-;
-extern
-crate
 encoding_glue
 ;
 extern
