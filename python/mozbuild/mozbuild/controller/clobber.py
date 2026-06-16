@@ -1108,6 +1108,9 @@ no_clobber
 mozbuild
 "
 "
+clangd
+"
+"
 msvc
 "
 "
