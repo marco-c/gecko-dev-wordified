@@ -326,8 +326,10 @@ false
 public
 :
 static
+RefPtr
+<
 WebGLVertexArray
-*
+>
 Create
 (
 WebGLContext
