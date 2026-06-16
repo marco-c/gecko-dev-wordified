@@ -4792,6 +4792,8 @@ const
 DecorationRectParams
 &
 aParams
+bool
+aSnapToDevicePixels
 )
 ;
 /
