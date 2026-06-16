@@ -1913,7 +1913,7 @@ aIndex
 domItem
 -
 >
-ToSVGPoint
+ToPoint
 (
 )
 )
@@ -2174,7 +2174,7 @@ aIndex
 domItem
 -
 >
-ToSVGPoint
+ToPoint
 (
 )
 ;
@@ -2192,7 +2192,7 @@ MUST
 come
 after
 the
-ToSVGPoint
+ToPoint
 (
 )
 call

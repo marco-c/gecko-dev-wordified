@@ -2153,7 +2153,7 @@ this
 )
 ;
 const
-SVGPoint
+Point
 &
 translate
 =
@@ -2188,15 +2188,6 @@ scale
 PostTranslate
 (
 translate
-.
-GetX
-(
-)
-translate
-.
-GetY
-(
-)
 )
 )
 ;
