@@ -896,6 +896,17 @@ std
 string
 &
 tone
+const
+std
+:
+:
+string
+&
+/
+*
+tone_buffer
+*
+/
 )
 override
 {
