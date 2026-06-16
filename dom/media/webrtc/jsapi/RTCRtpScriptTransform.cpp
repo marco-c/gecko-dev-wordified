@@ -594,8 +594,12 @@ aWindow
 )
 mProxy
 (
-new
+MakeRefPtr
+<
 FrameTransformerProxy
+>
+(
+)
 )
 {
 }
