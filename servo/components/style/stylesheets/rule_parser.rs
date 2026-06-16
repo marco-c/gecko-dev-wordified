@@ -2959,6 +2959,7 @@ MediaList
 parse
 (
 &
+mut
 self
 .
 context
@@ -5255,6 +5256,7 @@ MediaList
 parse
 (
 &
+mut
 self
 .
 context
@@ -6206,6 +6208,7 @@ MediaList
 parse
 (
 &
+mut
 self
 .
 context
