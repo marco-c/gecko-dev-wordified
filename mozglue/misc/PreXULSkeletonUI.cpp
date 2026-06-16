@@ -1214,6 +1214,11 @@ GetMonitorInfoW
 ;
 MOZ_DECL_IMPORTED_WIN32_FN
 (
+SetWindowLongPtrW
+)
+;
+MOZ_DECL_IMPORTED_WIN32_FN
+(
 StretchDIBits
 )
 ;
@@ -11141,6 +11146,12 @@ GetMonitorInfoW
 ;
 MOZ_LOAD_OR_FAIL
 (
+user32Dll
+SetWindowLongPtrW
+)
+;
+MOZ_LOAD_OR_FAIL
+(
 gdi32Dll
 StretchDIBits
 )
@@ -12491,11 +12502,6 @@ approved
 =
 false
 ;
-int
-j
-=
-0
-;
 for
 (
 const
@@ -12625,7 +12631,7 @@ true
 ;
 if
 (
-j
+i
 =
 =
 profileArgIndex
@@ -12640,10 +12646,6 @@ true
 break
 ;
 }
-+
-+
-j
-;
 }
 if
 (
@@ -15546,10 +15548,6 @@ IntervalUntilNowFrom
 skeletonStart
 )
 )
-;
-sPreXULSkeletonUIShown
-=
-true
 ;
 return
 Ok
