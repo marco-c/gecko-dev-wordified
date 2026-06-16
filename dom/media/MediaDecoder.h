@@ -3935,9 +3935,6 @@ FinishShutdown
 void
 ConnectMirrors
 (
-MediaDecoderStateMachineBase
-*
-aObject
 )
 ;
 void
