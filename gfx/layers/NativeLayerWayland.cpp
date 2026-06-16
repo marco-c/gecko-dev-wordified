@@ -9566,8 +9566,10 @@ return
 }
 mSnapshot
 =
-new
+MakeRefPtr
+<
 RenderSourceNLRS
+>
 (
 std
 :
