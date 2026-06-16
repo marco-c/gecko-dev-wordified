@@ -1941,8 +1941,6 @@ already_AddRefed
 <
 nsASocketHandler
 >
-&
-&
 aHandler
 PRIntervalTime
 aPollStartEpoch

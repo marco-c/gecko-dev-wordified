@@ -126,8 +126,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 nsIEventTarget
 :

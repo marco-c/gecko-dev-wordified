@@ -238,8 +238,6 @@ already_AddRefed
 <
 T
 >
-&
-&
 aOther
 )
 {
