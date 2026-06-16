@@ -5876,11 +5876,6 @@ selector
 -
 button
 "
-"
-:
-:
-picker
-"
 ]
 )
 ;

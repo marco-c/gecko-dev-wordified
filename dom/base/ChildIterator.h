@@ -867,7 +867,6 @@ AtBeforeKid
 AtFlatTreeKids
 AtAnonKids
 AtAfterKid
-AtPickerIconKid
 AtEnd
 }
 ;
