@@ -68,10 +68,6 @@ tempfile
 import
 threading
 from
-mozdevice
-import
-ADBDevice
-from
 mozlog
 import
 get_proxy_logger
@@ -95,6 +91,8 @@ import
 ON_TRY
     
 download_file
+    
+get_adb_device_or_emu
     
 get_output_dir
     
@@ -1778,7 +1776,7 @@ device
             
 device
 =
-ADBDevice
+get_adb_device_or_emu
 (
 )
             

@@ -79,6 +79,8 @@ FIREFOX_DESKTOP_APPS
 FIREFOX_MOBILE_APPS
     
 ON_TRY
+    
+get_adb_device_or_emu
 )
 class
 MultipleApplicationSetups
@@ -795,18 +797,10 @@ Exception
             
 pass
         
-from
-mozdevice
-import
-ADBDeviceFactory
-        
 device
 =
-ADBDeviceFactory
+get_adb_device_or_emu
 (
-verbose
-=
-True
 )
         
 pkg_info
