@@ -18621,6 +18621,16 @@ set_underlying_type_for_vpn
 ADAPTER_TYPE_UNKNOWN
 )
 ;
+new_candidate
+.
+set_network_slice
+(
+NetworkSlice
+:
+:
+NO_SLICE
+)
+;
 network_thread
 (
 )
