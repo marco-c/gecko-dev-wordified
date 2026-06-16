@@ -7356,7 +7356,7 @@ current
 scenario
 Rule
 .
-previewPropertyValue
+setPropertyValue
 (
 )
 *
@@ -7542,7 +7542,7 @@ textProperty
 .
 rule
 .
-previewPropertyValue
+setPropertyValue
 (
 textProperty
 value
