@@ -443,6 +443,8 @@ input
 enum
 class
 APZScrollAnimationType
+:
+uint8_t
 {
 No
 /
