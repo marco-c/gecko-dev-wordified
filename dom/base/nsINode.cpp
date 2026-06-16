@@ -26907,7 +26907,9 @@ AsElement
 AttachShadowWithoutNameChecks
 (
 init
-false
+Nothing
+(
+)
 originalShadowRoot
 -
 >
@@ -26930,6 +26932,7 @@ CustomSlotDispatch
 :
 :
 No
+false
 )
 ;
 newShadowRoot
