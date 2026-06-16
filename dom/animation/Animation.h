@@ -3119,6 +3119,11 @@ PostUpdate
 (
 )
 ;
+bool
+MakeReadyAndMaybeTrigger
+(
+)
+;
 void
 AutoAlignStartTime
 (
