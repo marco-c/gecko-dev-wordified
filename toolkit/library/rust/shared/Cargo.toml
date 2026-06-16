@@ -155,7 +155,7 @@ rust
 rev
 =
 "
-fb7ed9effb5eae0f3768c2c5ec0a63c61f35ba60
+3d36cb1c1211f0aa65087895524f3e6690e23289
 "
 features
 =
@@ -557,7 +557,7 @@ audioipc
 rev
 =
 "
-57a79753da9de4cf4b1c54e0c6775d3d2aba26f6
+042d48dc5932ced772c2bf20a2aef2845fd6ec85
 "
 optional
 =
@@ -586,7 +586,7 @@ audioipc
 rev
 =
 "
-57a79753da9de4cf4b1c54e0c6775d3d2aba26f6
+042d48dc5932ced772c2bf20a2aef2845fd6ec85
 "
 optional
 =
