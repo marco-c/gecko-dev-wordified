@@ -11539,7 +11539,7 @@ _
 in
 range
 (
-5
+20
 )
 :
             
@@ -11559,7 +11559,19 @@ break
             
 except
 TypeError
+as
+e
 :
+                
+if
+_
+=
+=
+20
+:
+                    
+raise
+e
                 
 await
 self
