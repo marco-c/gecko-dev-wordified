@@ -335,15 +335,6 @@ h
 #
 include
 "
-call
-/
-call_basic_stats
-.
-h
-"
-#
-include
-"
 domstubs
 .
 h
@@ -3488,7 +3479,10 @@ Maybe
 webrtc
 :
 :
-CallBasicStats
+Call
+:
+:
+Stats
 >
 WebrtcAudioConduit
 :

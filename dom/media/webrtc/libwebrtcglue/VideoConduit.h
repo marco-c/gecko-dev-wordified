@@ -186,15 +186,6 @@ video_encoder
 .
 h
 "
-#
-include
-"
-call
-/
-call_basic_stats
-.
-h
-"
 /
 *
 *
@@ -1243,7 +1234,10 @@ Maybe
 webrtc
 :
 :
-CallBasicStats
+Call
+:
+:
+Stats
 >
 GetCallStats
 (
