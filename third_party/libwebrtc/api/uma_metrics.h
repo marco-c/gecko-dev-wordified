@@ -1471,6 +1471,9 @@ INT_MAX
 1
 to
 INT_MAX
+kSdpBandwidthNegative
+=
+5
 kSdpBandwidthMax
 }
 ;
