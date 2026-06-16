@@ -2069,6 +2069,15 @@ importmap
 )
 |
 |
+(
+StaticPrefs
+:
+:
+dom_speculation_rules_enabled
+(
+)
+&
+&
 aType
 .
 EqualsLiteral
@@ -2076,6 +2085,7 @@ EqualsLiteral
 "
 speculationrules
 "
+)
 )
 ;
 }
