@@ -6242,7 +6242,7 @@ com
 :
 /
 /
-c
+*
 .
 disquscdn
 .
