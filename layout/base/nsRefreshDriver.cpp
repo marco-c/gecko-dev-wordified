@@ -3769,6 +3769,7 @@ PRIORITY_NORMAL
 NS_DispatchToMainThread
 (
 vsyncEvent
+NS_DISPATCH_FALLIBLE
 )
 ;
 }
