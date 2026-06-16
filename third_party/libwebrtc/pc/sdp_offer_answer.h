@@ -2440,6 +2440,9 @@ const
 ContentInfo
 *
 old_remote_content
+ScopedOperationsBatcher
+&
+worker_tasks
 )
 RTC_RUN_ON
 (

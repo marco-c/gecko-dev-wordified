@@ -1133,6 +1133,9 @@ SimulcastLayer
 >
 &
 initial_simulcast_layers
+ScopedOperationsBatcher
+&
+worker_tasks
 absl
 :
 :
