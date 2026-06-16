@@ -5510,6 +5510,15 @@ RTC_DCHECK_RUN_ON
 worker_thread_checker_
 )
 ;
+RTC_DCHECK
+(
+file
+.
+is_open
+(
+)
+)
+;
 AudioProcessing
 *
 ap
