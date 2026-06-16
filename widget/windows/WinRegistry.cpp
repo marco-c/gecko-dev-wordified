@@ -251,7 +251,7 @@ size
 nameBuf
 )
 ;
-LONG
+LSTATUS
 rv
 =
 RegEnumKeyExW
@@ -270,10 +270,10 @@ lastWritten
 ;
 if
 (
+LSTATUS_FAILED
+(
 rv
-!
-=
-ERROR_SUCCESS
+)
 )
 {
 return
@@ -311,7 +311,7 @@ mKey
 )
 ;
 return
-SUCCEEDED
+LSTATUS_SUCCEEDED
 (
 RegDeleteKeyW
 (
@@ -405,7 +405,7 @@ size
 nameBuf
 )
 ;
-LONG
+LSTATUS
 rv
 =
 RegEnumValueW
@@ -423,10 +423,10 @@ nullptr
 ;
 if
 (
+LSTATUS_FAILED
+(
 rv
-!
-=
-ERROR_SUCCESS
+)
 )
 {
 return
@@ -466,7 +466,7 @@ mKey
 DWORD
 result
 ;
-LONG
+LSTATUS
 rv
 =
 RegQueryValueExW
@@ -485,7 +485,7 @@ nullptr
 )
 ;
 return
-SUCCEEDED
+LSTATUS_SUCCEEDED
 (
 rv
 )
@@ -519,9 +519,19 @@ MOZ_ASSERT
 mKey
 )
 ;
-return
-SUCCEEDED
+/
+/
+NOTE
+:
+Intentionally
+not
+propagating
+errors
+from
+RegDeleteValueW
 (
+)
+.
 RegDeleteValueW
 (
 mKey
@@ -531,7 +541,9 @@ get
 (
 )
 )
-)
+;
+return
+true
 ;
 }
 Maybe
@@ -571,7 +583,7 @@ sizeof
 DWORD
 )
 ;
-HRESULT
+LSTATUS
 rv
 =
 RegQueryValueExW
@@ -596,7 +608,7 @@ size
 ;
 if
 (
-FAILED
+LSTATUS_FAILED
 (
 rv
 )
@@ -641,7 +653,7 @@ mKey
 )
 ;
 return
-SUCCEEDED
+LSTATUS_SUCCEEDED
 (
 RegSetValueExW
 (
@@ -705,7 +717,7 @@ sizeof
 uint64_t
 )
 ;
-HRESULT
+LSTATUS
 rv
 =
 RegQueryValueExW
@@ -730,7 +742,7 @@ size
 ;
 if
 (
-FAILED
+LSTATUS_FAILED
 (
 rv
 )
@@ -775,7 +787,7 @@ mKey
 )
 ;
 return
-SUCCEEDED
+LSTATUS_SUCCEEDED
 (
 RegSetValueExW
 (
@@ -832,7 +844,7 @@ type
 DWORD
 size
 ;
-LONG
+LSTATUS
 rv
 =
 RegQueryValueExW
@@ -853,7 +865,7 @@ size
 ;
 if
 (
-FAILED
+LSTATUS_FAILED
 (
 rv
 )
@@ -907,7 +919,7 @@ size
 )
 ;
 return
-SUCCEEDED
+LSTATUS_SUCCEEDED
 (
 rv
 )
@@ -998,7 +1010,7 @@ mKey
 )
 ;
 return
-SUCCEEDED
+LSTATUS_SUCCEEDED
 (
 RegSetValueExW
 (
@@ -1122,7 +1134,7 @@ type
 DWORD
 size
 ;
-LONG
+LSTATUS
 rv
 =
 RegQueryValueExW
@@ -1143,7 +1155,7 @@ size
 ;
 if
 (
-FAILED
+LSTATUS_FAILED
 (
 rv
 )
@@ -1646,7 +1658,7 @@ LengthBytes
 DWORD
 type
 ;
-HRESULT
+LSTATUS
 rv
 =
 RegQueryValueExW
@@ -1674,7 +1686,7 @@ size
 ;
 if
 (
-FAILED
+LSTATUS_FAILED
 (
 rv
 )
@@ -2020,7 +2032,7 @@ REG_NOTIFY_CHANGE_SECURITY
 |
 REG_NOTIFY_THREAD_AGNOSTIC
 ;
-HRESULT
+LSTATUS
 rv
 =
 RegNotifyChangeKeyValue
@@ -2052,7 +2064,7 @@ return
 !
 NS_WARN_IF
 (
-FAILED
+LSTATUS_FAILED
 (
 rv
 )
