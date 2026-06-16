@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+FrameMetrics
+.
+h
+"
+#
+include
+"
 js
 /
 Array
@@ -1650,7 +1657,7 @@ IsRootContentDocumentCrossProcess
 /
 /
 Use
-eMainThread
+MainThread
 so
 this
 takes
@@ -1693,10 +1700,10 @@ pos_Y
 layers
 :
 :
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eMainThread
+MainThread
 ScrollMode
 :
 :

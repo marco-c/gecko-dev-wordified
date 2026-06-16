@@ -1365,13 +1365,10 @@ aMetrics
 .
 SetVisualScrollUpdateType
 (
-FrameMetrics
-:
-:
 ScrollOffsetUpdateType
 :
 :
-eMainThread
+MainThread
 )
 ;
 aMetrics

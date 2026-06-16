@@ -29325,10 +29325,10 @@ targetPos
 layers
 :
 :
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eMainThread
+MainThread
 scrollMode
 )
 ;

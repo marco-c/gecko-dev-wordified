@@ -9198,9 +9198,6 @@ sf
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-FrameMetrics
-:
-:
 ScrollOffsetUpdateType
 updateType
 ;
@@ -9214,10 +9211,10 @@ UPDATE_TYPE_RESTORE
 :
 updateType
 =
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eRestore
+Restore
 ;
 break
 ;
@@ -9226,10 +9223,10 @@ UPDATE_TYPE_MAIN_THREAD
 :
 updateType
 =
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eMainThread
+MainThread
 ;
 break
 ;

@@ -25590,10 +25590,10 @@ ScrollToVisual
 (
 *
 aDestination
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eMainThread
+MainThread
 scrollMode
 )
 ;
@@ -83875,9 +83875,6 @@ const
 nsPoint
 &
 aVisualViewportOffset
-FrameMetrics
-:
-:
 ScrollOffsetUpdateType
 aUpdateType
 ScrollMode
@@ -83975,9 +83972,6 @@ const
 nsPoint
 &
 aVisualViewportOffset
-FrameMetrics
-:
-:
 ScrollOffsetUpdateType
 aUpdateType
 )

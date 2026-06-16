@@ -188,10 +188,10 @@ GetVisualScrollUpdateType
 )
 !
 =
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eNone
+None
 )
 {
 aStream

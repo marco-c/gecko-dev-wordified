@@ -2077,10 +2077,10 @@ GetMetrics
 .
 SetVisualScrollUpdateType
 (
-FrameMetrics
+ScrollOffsetUpdateType
 :
 :
-eMainThread
+MainThread
 )
 ;
 scrollUpdates
