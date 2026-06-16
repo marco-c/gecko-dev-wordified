@@ -77,6 +77,9 @@ sign
 '
 verify
 '
+'
+getPublicKey
+'
 ]
 }
 '
@@ -103,6 +106,9 @@ sign
 '
 verify
 '
+'
+getPublicKey
+'
 ]
 }
 '
@@ -128,6 +134,9 @@ sign
 '
 '
 verify
+'
+'
+getPublicKey
 '
 ]
 }
@@ -161,6 +170,9 @@ decapsulateKey
 '
 decapsulateBits
 '
+'
+getPublicKey
+'
 ]
 }
 '
@@ -193,6 +205,9 @@ decapsulateKey
 '
 decapsulateBits
 '
+'
+getPublicKey
+'
 ]
 }
 '
@@ -224,6 +239,9 @@ decapsulateKey
 '
 '
 decapsulateBits
+'
+'
+getPublicKey
 '
 ]
 }
@@ -314,6 +332,9 @@ decapsulateKey
 '
 '
 decapsulateBits
+'
+'
+getPublicKey
 '
 ]
 ;
