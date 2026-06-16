@@ -170,8 +170,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 runnable
 )
 {
