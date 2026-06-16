@@ -1985,6 +1985,15 @@ success
 "
 )
 ;
+Services
+.
+dns
+.
+clearCache
+(
+true
+)
+;
 await
 new
 TRRDNSListener
