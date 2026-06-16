@@ -1529,6 +1529,7 @@ destroy
 ;
 return
 {
+evaluateExpression
 importFunctions
 importScript
 spawn
