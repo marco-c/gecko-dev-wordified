@@ -232,11 +232,6 @@ define
 XSIMD_WASM_HPP
 #
 include
-<
-type_traits
->
-#
-include
 "
 .
 .
@@ -258,6 +253,11 @@ xsimd_common_cast
 .
 hpp
 "
+#
+include
+<
+type_traits
+>
 namespace
 xsimd
 {

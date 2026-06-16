@@ -237,6 +237,8 @@ hpp
 #
 include
 "
+.
+/
 xsimd_aligned_allocator
 .
 hpp

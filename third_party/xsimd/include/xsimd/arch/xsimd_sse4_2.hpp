@@ -224,11 +224,6 @@ define
 XSIMD_SSE4_2_HPP
 #
 include
-<
-limits
->
-#
-include
 "
 .
 .
@@ -239,6 +234,11 @@ xsimd_sse4_2_register
 .
 hpp
 "
+#
+include
+<
+limits
+>
 namespace
 xsimd
 {

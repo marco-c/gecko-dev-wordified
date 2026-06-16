@@ -224,11 +224,6 @@ define
 XSIMD_AVX512VBMI_HPP
 #
 include
-<
-type_traits
->
-#
-include
 "
 .
 .
@@ -239,6 +234,11 @@ xsimd_avx512vbmi_register
 .
 hpp
 "
+#
+include
+<
+type_traits
+>
 namespace
 xsimd
 {

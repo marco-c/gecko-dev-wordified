@@ -224,11 +224,6 @@ define
 XSIMD_COMMON_ARCH_HPP
 #
 include
-<
-cstddef
->
-#
-include
 "
 .
 .
@@ -239,6 +234,11 @@ xsimd_config
 .
 hpp
 "
+#
+include
+<
+cstddef
+>
 /
 *
 *
