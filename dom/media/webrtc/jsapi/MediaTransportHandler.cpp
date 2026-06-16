@@ -9687,13 +9687,12 @@ nsresult
 rv
 ;
 RefPtr
+flow
+=
+MakeRefPtr
 <
 TransportFlow
 >
-flow
-=
-new
-TransportFlow
 (
 aTransportId
 )

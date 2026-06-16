@@ -707,13 +707,12 @@ sockp
 )
 {
 RefPtr
-<
-NrSocketBase
->
 sock
 =
-new
+MakeRefPtr
+<
 TestNrSocket
+>
 (
 static_cast
 <
