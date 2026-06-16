@@ -11576,14 +11576,6 @@ new
 .
 0
 )
-previously_applied_offset
-:
-LayoutVector2D
-:
-:
-zero
-(
-)
 current_offset
 :
 LayoutVector2D
