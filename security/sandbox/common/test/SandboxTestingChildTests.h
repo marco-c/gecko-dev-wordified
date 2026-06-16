@@ -6532,6 +6532,7 @@ XP_MACOSX
 RunMacTestLaunchProcess
 (
 child
+EPERM
 )
 ;
 RunMacTestWindowServer
