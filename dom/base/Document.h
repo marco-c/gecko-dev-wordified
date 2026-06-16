@@ -19108,12 +19108,7 @@ void
 ForceSkipDTDSecurityChecks
 (
 )
-{
-mSkipDTDSecurityChecks
-=
-true
 ;
-}
 /
 *
 *
