@@ -101,7 +101,7 @@ use
 crate
 :
 :
-raw
+alloc
 :
 :
 Allocator
@@ -161,9 +161,6 @@ Serializer
 ;
 use
 crate
-:
-:
-hash_map
 :
 :
 HashMap
@@ -605,7 +602,7 @@ use
 crate
 :
 :
-raw
+alloc
 :
 :
 Allocator
@@ -665,9 +662,6 @@ Serializer
 ;
 use
 crate
-:
-:
-hash_set
 :
 :
 HashSet
@@ -1070,16 +1064,6 @@ deserialize_seq
 visitor
 )
 }
-#
-[
-allow
-(
-clippy
-:
-:
-missing_errors_doc
-)
-]
 fn
 deserialize_in_place
 <

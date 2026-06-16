@@ -1,5 +1,5 @@
 use
-alloc
+stdalloc
 :
 :
 collections
@@ -8,7 +8,7 @@ collections
 LinkedList
 ;
 use
-alloc
+stdalloc
 :
 :
 vec
@@ -41,7 +41,7 @@ an
 intermediary
 #
 [
-allow
+expect
 (
 clippy
 :
