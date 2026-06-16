@@ -3311,23 +3311,6 @@ py
 )
     
 "
-wrshell
-"
-:
-MachCommandReference
-(
-"
-gfx
-/
-wr
-/
-mach_commands
-.
-py
-"
-)
-    
-"
 xpcshell
 "
 :
