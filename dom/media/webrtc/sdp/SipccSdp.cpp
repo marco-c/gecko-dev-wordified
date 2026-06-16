@@ -176,8 +176,10 @@ mAttributeList
 ;
 }
 }
+UniquePtr
+<
 Sdp
-*
+>
 SipccSdp
 :
 :
@@ -187,8 +189,10 @@ Clone
 const
 {
 return
-new
+MakeUnique
+<
 SipccSdp
+>
 (
 *
 this
