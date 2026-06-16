@@ -1158,6 +1158,9 @@ EnumeratePortsImpl
 SerialPortList
 &
 aPorts
+bool
+*
+aLikelyAccessDenied
 )
 {
 return
