@@ -395,7 +395,7 @@ testTag
 (
 TabsTrayTestTag
 .
-TAB_GROUP_ONBOARDING_ITEM
+TAB_GROUP_ONBOARDING_GRID_ITEM
 )
 title
 =
@@ -510,6 +510,11 @@ fillMaxWidth
 (
 )
 .
+height
+(
+TabListItemHeight
+)
+.
 background
 (
 MaterialTheme
@@ -538,7 +543,7 @@ layout
 .
 space
 .
-dynamic200
+static100
 bottom
 =
 FirefoxTheme
@@ -547,14 +552,14 @@ layout
 .
 space
 .
-dynamic200
+static100
 )
 .
 testTag
 (
 TabsTrayTestTag
 .
-TAB_GROUP_ONBOARDING_ITEM
+TAB_GROUP_ONBOARDING_LIST_ITEM
 )
 verticalAlignment
 =
