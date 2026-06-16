@@ -643,7 +643,7 @@ encoding
 =
 =
 "
-unicode
+display
 "
 )
 {
