@@ -9103,8 +9103,10 @@ return
 fontEntry
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 CoreTextFontList
 :
 :
@@ -9601,8 +9603,10 @@ nullptr
 ;
 }
 return
-new
+MakeAndAddRef
+<
 CTFontEntry
+>
 (
 aFontName
 fontRef

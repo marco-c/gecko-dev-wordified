@@ -2091,8 +2091,10 @@ aLoadCmaps
 const
 override
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 LookupLocalFont
 (
 FontVisibilityProvider

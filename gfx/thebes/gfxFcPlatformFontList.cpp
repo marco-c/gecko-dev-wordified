@@ -15318,8 +15318,10 @@ FontFamily
 )
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 gfxFcPlatformFontList
 :
 :
@@ -15408,8 +15410,10 @@ nullptr
 ;
 }
 return
-new
+MakeAndAddRef
+<
 gfxFontconfigFontEntry
+>
 (
 aFontName
 *

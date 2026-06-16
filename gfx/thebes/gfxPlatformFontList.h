@@ -3489,8 +3489,10 @@ entry
 *
 /
 virtual
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 LookupLocalFont
 (
 FontVisibilityProvider
@@ -6068,8 +6070,10 @@ MOZ_REQUIRES
 mLock
 )
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 LookupInSharedFaceNameList
 (
 FontVisibilityProvider

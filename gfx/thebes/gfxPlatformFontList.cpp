@@ -7184,8 +7184,10 @@ return
 lookup
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 gfxPlatformFontList
 :
 :
@@ -7409,8 +7411,10 @@ return
 nullptr
 ;
 }
+RefPtr
+<
 gfxFontEntry
-*
+>
 fe
 =
 CreateFontEntry
@@ -7455,6 +7459,10 @@ aStyleForEntry
 }
 return
 fe
+.
+forget
+(
+)
 ;
 }
 void
