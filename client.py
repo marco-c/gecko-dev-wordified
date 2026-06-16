@@ -745,14 +745,16 @@ destination
     
 print
 (
+f
 "
 reverting
 to
 HG
 version
 of
-%
-s
+{
+depfile
+}
 to
 get
 its
@@ -760,8 +762,6 @@ blank
 line
 state
 "
-%
-depfile
 )
     
 check_call_noisy
@@ -786,22 +786,20 @@ depfile
     
 print
 (
+f
 "
 old
 state
 of
-%
-s
+{
+depfile
+}
 is
 :
-%
-s
-"
-%
-(
-depfile
+{
 old_state
-)
+}
+"
 )
     
 do_hg_replace
@@ -824,22 +822,20 @@ depfile
     
 print
 (
+f
 "
 new
 state
 of
-%
-s
+{
+depfile
+}
 is
 :
-%
-s
-"
-%
-(
-depfile
+{
 new_state
-)
+}
+"
 )
     
 if
