@@ -18928,6 +18928,12 @@ PreferEncryptedRtpHeaderExtensionsWhenEncryptionEnabled
 MediaSessionOptions
 opts
 ;
+opts
+.
+offer_extmap_allow_mixed
+=
+true
+;
 AddAudioVideoSections
 (
 RtpTransceiverDirection
