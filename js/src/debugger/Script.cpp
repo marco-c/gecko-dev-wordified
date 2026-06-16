@@ -9308,17 +9308,6 @@ JSOp
 :
 DynamicImport
 :
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
-case
-JSOp
-:
-:
-DynamicImportSource
-:
-#
-endif
 case
 JSOp
 :
