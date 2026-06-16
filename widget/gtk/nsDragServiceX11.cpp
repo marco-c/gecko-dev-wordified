@@ -2179,8 +2179,10 @@ aSelectionData
 ;
 dragData
 =
-new
+MakeRefPtr
+<
 DragData
+>
 (
 target
 std
@@ -2247,8 +2249,10 @@ aSelectionData
 ;
 dragData
 =
-new
+MakeRefPtr
+<
 DragData
+>
 (
 target
 std
@@ -2396,8 +2400,10 @@ return
 }
 dragData
 =
-new
+MakeRefPtr
+<
 DragData
+>
 (
 target
 data
