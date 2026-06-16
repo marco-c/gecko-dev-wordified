@@ -804,6 +804,7 @@ _run_read_only
 "
 log
 "
+            
 "
 -
 -
@@ -811,20 +812,26 @@ no
 -
 graph
 "
+            
 "
 -
 n1
 "
+            
 "
 -
-r
+-
+revisions
 "
+            
 revset
+            
 "
 -
 -
 template
 "
+            
 "
 change_id
 .
@@ -1079,6 +1086,7 @@ _run_read_only
 "
 log
 "
+            
 "
 -
 -
@@ -1086,10 +1094,13 @@ no
 -
 graph
 "
+            
 "
 -
-r
+-
+revisions
 "
+            
 f
 "
 latest
@@ -1099,11 +1110,13 @@ revset
 }
 )
 "
+            
 "
 -
 -
 template
 "
+            
 "
 commit_id
 "
@@ -1185,7 +1198,8 @@ n1
             
 "
 -
-r
+-
+revisions
 "
             
 self
@@ -1602,7 +1616,8 @@ log
             
 "
 -
-r
+-
+revisions
 "
             
 rev
@@ -2266,7 +2281,8 @@ diff
 "
 "
 -
-r
+-
+revisions
 "
 rev
 "
@@ -3252,7 +3268,8 @@ n1
                 
 "
 -
-r
+-
+revisions
 "
                 
 self
@@ -3286,7 +3303,8 @@ create
 dest_branch
 "
 -
-r
+-
+revision
 "
 self
 .
@@ -3718,7 +3736,8 @@ graph
             
 "
 -
-r
+-
+revisions
 "
             
 f
@@ -4360,7 +4379,8 @@ graph
                 
 "
 -
-r
+-
+revisions
 "
                 
 "
