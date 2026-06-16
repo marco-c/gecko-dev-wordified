@@ -1062,16 +1062,6 @@ return
 bytecodeSize_
 ;
 }
-uint32_t
-warmUpCount
-(
-)
-const
-{
-return
-warmUpCount_
-;
-}
 void
 resetWarmUpCount
 (
