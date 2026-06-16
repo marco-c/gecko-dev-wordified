@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_nsClipboardGtk_h_
+_RetrievalContextGtk_h_
 #
 define
-_nsClipboardGtk_h_
+_RetrievalContextGtk_h_
 #
 include
 "
@@ -170,6 +170,6 @@ sPrimaryTargets
 endif
 /
 *
-_nsClipboardGtk_h_
+_RetrievalContextGtk_h_
 *
 /

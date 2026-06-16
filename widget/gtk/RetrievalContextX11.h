@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_nsClipboardX11_h_
+_RetrievalContextX11_h_
 #
 define
-_nsClipboardX11_h_
+_RetrievalContextX11_h_
 #
 include
 <
@@ -203,6 +203,6 @@ widget
 endif
 /
 *
-_nsClipboardX11_h_
+_RetrievalContextX11_h_
 *
 /

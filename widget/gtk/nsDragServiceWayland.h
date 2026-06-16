@@ -65,7 +65,7 @@ nsDragServiceWayland_h_
 #
 include
 "
-nsClipboardWayland
+RetrievalContextWayland
 .
 h
 "

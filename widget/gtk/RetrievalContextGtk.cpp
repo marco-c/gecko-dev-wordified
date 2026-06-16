@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsClipboard
+RetrievalContextGtk
 .
 h
 "
