@@ -23159,7 +23159,7 @@ RequestTierUp
 switchToMainStack
 *
 /
-false
+true
 ExitFrameAlignment
 :
 :
@@ -23500,7 +23500,7 @@ RequestTierUp
 switchToMainStack
 *
 /
-false
+true
 ExitFrameAlignment
 :
 :
