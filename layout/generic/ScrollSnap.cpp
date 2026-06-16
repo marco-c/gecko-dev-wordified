@@ -4107,7 +4107,13 @@ aSnapportSize
 {
 addEdge
 (
+range
+.
+FindNearestSnapPoint
+(
 aClampedDestination
+aSnapportSize
+)
 range
 .
 mSnapArea
