@@ -1576,7 +1576,8 @@ JitSpew_EAA
 )
 )
 {
-JitSpewCont
+AutoJitSpewMessage
+msg
 (
 JitSpew_EAA
 "
@@ -1588,7 +1589,9 @@ create
 ;
 DumpMIRDefinition
 (
-JitSpewPrinter
+msg
+.
+printer
 (
 )
 replacement
@@ -1601,13 +1604,12 @@ showDetails
 false
 )
 ;
-JitSpewCont
+msg
+.
+append
 (
-JitSpew_EAA
 "
 '
-\
-n
 "
 )
 ;

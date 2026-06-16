@@ -5394,7 +5394,8 @@ curBytecodeOffset
 nextBytecodeOffset
 )
 {
-JitSpewStart
+AutoJitSpewMessage
+msg
 (
 JitSpew_Profiling
 "
@@ -5449,9 +5450,10 @@ JSOp
 pc
 )
 ;
-JitSpewCont
+msg
+.
+append
 (
-JitSpew_Profiling
 "
 %
 s
@@ -5473,11 +5475,6 @@ pc
 )
 ;
 }
-JitSpewFin
-(
-JitSpew_Profiling
-)
-;
 }
 spewer
 .

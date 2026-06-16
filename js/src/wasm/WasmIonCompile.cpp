@@ -75471,7 +75471,7 @@ func
 inputs
 )
 {
-JitSpewCont
+JitSpew
 (
 JitSpew_Codegen
 "
@@ -76140,7 +76140,7 @@ JitSpew_Codegen
 "
 )
 ;
-JitSpewCont
+JitSpew
 (
 JitSpew_Codegen
 "
