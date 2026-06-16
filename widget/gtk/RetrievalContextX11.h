@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_RetrievalContextX11_h_
+RetrievalContextX11_h
 #
 define
-_RetrievalContextX11_h_
+RetrievalContextX11_h
 #
 include
 <
@@ -203,6 +203,6 @@ widget
 endif
 /
 *
-_RetrievalContextX11_h_
+RetrievalContextX11_h
 *
 /
