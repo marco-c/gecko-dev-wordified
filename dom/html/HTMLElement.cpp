@@ -193,8 +193,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FromParser
 aFromParser
@@ -2994,8 +2992,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 mozilla
 :
@@ -3094,8 +3090,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 mozilla
 :

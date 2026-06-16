@@ -195,8 +195,6 @@ already_AddRefed
 <
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;

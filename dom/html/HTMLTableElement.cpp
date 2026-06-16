@@ -3676,8 +3676,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

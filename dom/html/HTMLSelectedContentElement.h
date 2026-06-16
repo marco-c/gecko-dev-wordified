@@ -92,8 +92,6 @@ already_AddRefed
 class
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 ;

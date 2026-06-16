@@ -740,8 +740,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

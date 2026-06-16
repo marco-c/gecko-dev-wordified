@@ -14010,8 +14010,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :
@@ -18743,8 +18741,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FormControlType
 aType
@@ -20374,8 +20370,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 FromParser
 aFromParser
