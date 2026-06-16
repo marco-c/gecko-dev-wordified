@@ -1498,8 +1498,6 @@ already_AddRefed
 <
 BrowsingContext
 >
-&
-&
 aContext
 )
 {
