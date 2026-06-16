@@ -186,11 +186,11 @@ ThinVec
 ;
 pub
 mod
-numeric_declaration
+numeric
 ;
 pub
 mod
-numeric_values
+numeric_declaration
 ;
 pub
 mod

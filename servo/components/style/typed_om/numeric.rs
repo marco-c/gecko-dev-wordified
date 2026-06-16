@@ -62,7 +62,7 @@ MPL
 Typed
 OM
 Numeric
-Values
+Value
 .
 use
 crate
