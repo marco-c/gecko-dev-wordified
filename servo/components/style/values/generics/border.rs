@@ -298,7 +298,6 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
-ToTyped
 )
 ]
 #
@@ -306,13 +305,6 @@ ToTyped
 repr
 (
 C
-)
-]
-#
-[
-typed
-(
-todo_derive_fields
 )
 ]
 pub
