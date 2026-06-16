@@ -2914,6 +2914,14 @@ format
 AV_PIX_FMT_DRM_PRIME
 )
 {
+if
+(
+aAVFrame
+-
+>
+hw_frames_ctx
+)
+{
 AVHWDeviceType
 hwdeviceType
 =
@@ -2971,6 +2979,7 @@ hwdeviceType
 )
 )
 ;
+}
 return
 Nothing
 (
