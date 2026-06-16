@@ -1715,6 +1715,8 @@ OnStateChange
 (
 aTransportId
 aState
+{
+}
 )
 ;
 }

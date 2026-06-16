@@ -2300,6 +2300,15 @@ TransportLayer
 :
 State
 aState
+const
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
+&
 )
 {
 MOZ_ASSERT
