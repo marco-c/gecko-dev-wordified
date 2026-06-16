@@ -112,8 +112,10 @@ return
 nullptr
 ;
 return
-new
+MakeRefPtr
+<
 WebGLSampler
+>
 (
 this
 )

@@ -362,8 +362,10 @@ return
 nullptr
 ;
 return
-new
+MakeRefPtr
+<
 WebGLQuery
+>
 (
 this
 )

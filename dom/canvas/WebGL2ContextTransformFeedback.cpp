@@ -213,8 +213,10 @@ tf
 )
 ;
 return
-new
+MakeRefPtr
+<
 WebGLTransformFeedback
+>
 (
 this
 tf
