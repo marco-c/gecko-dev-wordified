@@ -2694,7 +2694,7 @@ sctpmap
 webrtc
 -
 datachannel
-1024
+65535
 \
 r
 \
@@ -3297,7 +3297,7 @@ sctpmap
 webrtc
 -
 datachannel
-1024
+65535
 \
 r
 \
