@@ -3471,11 +3471,6 @@ char
 )
 entries
 +
-(
-unsigned
-long
-)
-(
 sizeof
 (
 void
@@ -3486,7 +3481,6 @@ void
 totalEntries
 +
 1
-)
 )
 ;
 /

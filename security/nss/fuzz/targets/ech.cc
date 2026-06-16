@@ -208,6 +208,10 @@ SSL_SetClientEchConfigs
 (
 sslFd
 data
+(
+unsigned
+int
+)
 len
 )
 ;

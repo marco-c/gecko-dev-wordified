@@ -3639,6 +3639,16 @@ len
 =
 =
 0
+|
+|
+input
+.
+len
+>
+sizeof
+(
+testString
+)
 )
 {
 input

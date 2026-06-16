@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-TLS_SERVER_CERT_H_
+TLS_SERVER_CERTS_H_
 #
 define
-TLS_SERVER_CERT_H_
+TLS_SERVER_CERTS_H_
 #
 include
 "
@@ -70,10 +70,10 @@ prio
 h
 "
 namespace
-TlsServer
+TlsServerCerts
 {
 void
-InstallServerCertificates
+InstallCertificates
 (
 PRFileDesc
 *
@@ -84,9 +84,9 @@ fd
 /
 /
 namespace
-TlsServer
+TlsServerCerts
 #
 endif
 /
 /
-TLS_SERVER_CERT_H_
+TLS_SERVER_CERTS_H_
