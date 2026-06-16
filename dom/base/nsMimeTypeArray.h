@@ -201,7 +201,7 @@ nsMimeType
 aMimeTypes
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 nsMimeTypeArray
@@ -213,7 +213,6 @@ GetParentObject
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -336,7 +335,6 @@ retval
 ;
 protected
 :
-virtual
 ~
 nsMimeTypeArray
 (
@@ -440,7 +438,6 @@ return
 mPluginElement
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -556,7 +553,6 @@ mName
 }
 protected
 :
-virtual
 ~
 nsMimeType
 (

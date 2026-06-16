@@ -125,7 +125,6 @@ nsWrapperCache
 {
 protected
 :
-virtual
 ~
 Crypto
 (
@@ -141,7 +140,7 @@ nsIGlobalObject
 aParent
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 Crypto
@@ -195,7 +194,6 @@ return
 mParent
 ;
 }
-virtual
 JSObject
 *
 WrapObject

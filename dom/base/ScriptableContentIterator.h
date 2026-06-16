@@ -110,7 +110,7 @@ ScriptableContentIterator
 (
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
 ScriptableContentIterator
@@ -118,7 +118,6 @@ ScriptableContentIterator
 NS_DECL_NSISCRIPTABLECONTENTITERATOR
 protected
 :
-virtual
 ~
 ScriptableContentIterator
 (

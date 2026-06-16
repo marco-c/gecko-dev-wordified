@@ -515,7 +515,7 @@ Element
 aContent
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_WRAPPERCACHE_CLASS
 (
 nsDOMAttributeMap
@@ -690,7 +690,6 @@ return
 mContent
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -878,7 +877,6 @@ const
 ;
 protected
 :
-virtual
 ~
 nsDOMAttributeMap
 (

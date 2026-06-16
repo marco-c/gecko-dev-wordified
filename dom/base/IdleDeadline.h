@@ -166,7 +166,6 @@ return
 mGlobal
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -197,7 +196,7 @@ DidTimeout
 )
 const
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 IdleDeadline

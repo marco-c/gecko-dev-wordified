@@ -137,7 +137,7 @@ default
 ;
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_WRAPPERCACHE_CLASS
 (
 SubtleCrypto
@@ -163,7 +163,6 @@ return
 mParent
 ;
 }
-virtual
 JSObject
 *
 WrapObject
