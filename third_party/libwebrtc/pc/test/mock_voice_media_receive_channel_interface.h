@@ -361,10 +361,10 @@ override
 MOCK_METHOD
 (
 void
-SetPlayout
+SetReceive
 (
 bool
-playout
+receive
 )
 (
 override

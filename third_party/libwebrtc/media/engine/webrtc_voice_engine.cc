@@ -10424,7 +10424,7 @@ return
 true
 ;
 }
-void
+bool
 WebRtcVoiceSendChannel
 :
 :
@@ -10461,6 +10461,7 @@ send
 )
 {
 return
+true
 ;
 }
 /
@@ -10638,6 +10639,9 @@ send
 send_
 =
 send
+;
+return
+true
 ;
 }
 bool
@@ -15795,7 +15799,7 @@ temporarily
 pause
 playout
 .
-SetPlayout
+SetReceive
 (
 false
 )
@@ -15840,7 +15844,7 @@ recv_codecs_
 =
 codecs
 ;
-SetPlayout
+SetReceive
 (
 playout_enabled
 )
@@ -16138,10 +16142,10 @@ void
 WebRtcVoiceReceiveChannel
 :
 :
-SetPlayout
+SetReceive
 (
 bool
-playout
+receive
 )
 {
 TRACE_EVENT0
@@ -16153,7 +16157,7 @@ webrtc
 WebRtcVoiceMediaChannel
 :
 :
-SetPlayout
+SetReceive
 "
 )
 ;
@@ -16167,7 +16171,7 @@ if
 playout_
 =
 =
-playout
+receive
 )
 {
 return
@@ -16190,13 +16194,13 @@ second
 >
 SetPlayout
 (
-playout
+receive
 )
 ;
 }
 playout_
 =
-playout
+receive
 ;
 }
 bool
