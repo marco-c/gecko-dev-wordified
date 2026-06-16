@@ -11222,6 +11222,9 @@ false
 }
 if
 (
+framePushed
+&
+&
 captureIsSatisfied
 (
 cx
