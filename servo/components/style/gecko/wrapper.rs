@@ -225,7 +225,7 @@ dom
 :
 :
 {
-AttributeProvider
+ElementContext
 LayoutIterator
 NodeInfo
 OpaqueNode
@@ -12581,7 +12581,7 @@ impl
 '
 le
 >
-AttributeProvider
+ElementContext
 for
 GeckoElement
 <
