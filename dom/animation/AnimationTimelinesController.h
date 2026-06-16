@@ -205,11 +205,6 @@ UpdateHiddenByContentVisibility
 (
 )
 ;
-void
-TrySampleScrollTimelines
-(
-)
-;
 private
 :
 LinkedList
