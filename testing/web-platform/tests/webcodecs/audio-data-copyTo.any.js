@@ -5,7 +5,7 @@ META
 global
 =
 window
-worker
+dedicatedworker
 test
 (
 (
