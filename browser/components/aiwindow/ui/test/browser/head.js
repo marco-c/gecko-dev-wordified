@@ -4954,6 +4954,8 @@ focus
 ;
 smartbar
 .
+inputField
+.
 focus
 (
 )
