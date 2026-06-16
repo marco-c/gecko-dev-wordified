@@ -293,7 +293,7 @@ ok
 F
 ]
 {
-6
+8
 }
 /
 .
@@ -308,6 +308,7 @@ should
 be
 in
 uppercase
+RRGGBBAA
 HEX
 format
 (
@@ -315,7 +316,7 @@ e
 .
 g
 .
-FFFFFF
+FFFFFFFF
 )
 "
 )
