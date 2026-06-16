@@ -24964,10 +24964,6 @@ None
             
 if
 crashAsPass
-or
-crash_count
->
-0
 :
                 
 #
@@ -25012,10 +25008,6 @@ expected
 CRASH
 "
                 
-if
-crashAsPass
-:
-                    
 status
 =
 0
