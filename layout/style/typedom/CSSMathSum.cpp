@@ -245,8 +245,6 @@ auto
 value
 :
 aMathSum
-.
-values
 )
 {
 /

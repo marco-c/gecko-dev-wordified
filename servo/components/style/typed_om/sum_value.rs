@@ -685,10 +685,7 @@ Step
 for
 item
 in
-&
 math_sum
-.
-values
 {
 /
 /

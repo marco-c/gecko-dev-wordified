@@ -112,7 +112,6 @@ typed_om
 :
 :
 {
-MathSum
 NumericValue
 ToTyped
 TypedValue
@@ -17874,10 +17873,7 @@ NumericValue
 :
 Sum
 (
-MathSum
-{
 values
-}
 )
 )
 )
@@ -17942,10 +17938,6 @@ NumericValue
 :
 Sum
 (
-MathSum
-{
-values
-:
 ThinVec
 :
 :
@@ -17955,7 +17947,6 @@ from
 inner
 ]
 )
-}
 )
 )
 )

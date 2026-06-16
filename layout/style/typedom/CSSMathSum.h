@@ -148,7 +148,15 @@ class
 ErrorResult
 ;
 struct
+StyleNumericValue
+;
+using
 StyleMathSum
+=
+CopyableTArray
+<
+StyleNumericValue
+>
 ;
 namespace
 dom
