@@ -4493,6 +4493,9 @@ stored
 in
 each
 WeakRefObject
+skipping
+dying
+objects
 .
 for
 (
@@ -4538,6 +4541,15 @@ WeakRefObject
 (
 )
 ;
+if
+(
+!
+IsAboutToBeFinalizedUnbarriered
+(
+weakRef
+)
+)
+{
 MOZ_ASSERT
 (
 weakRef
@@ -4559,6 +4571,7 @@ setTarget
 newTarget
 )
 ;
+}
 }
 Zone
 *
