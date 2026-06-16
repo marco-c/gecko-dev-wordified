@@ -91,6 +91,9 @@ RTC_BASE_SYSTEM_ASM_DEFINES_H_
 #
 define
 RTC_BASE_SYSTEM_ASM_DEFINES_H_
+#
+ifdef
+__ASSEMBLER__
 /
 /
 clang
@@ -379,6 +382,11 @@ clang
 -
 format
 on
+#
+endif
+/
+/
+__ASSEMBLER__
 #
 endif
 /
