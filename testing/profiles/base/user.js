@@ -279,7 +279,11 @@ extensions
 .
 formautofill
 .
-useml
+addresses
+.
+telemetry
+.
+mlenabled
 "
 false
 )
