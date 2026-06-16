@@ -1169,9 +1169,8 @@ The
 second
 tab
 with
-empty
-.
-xpi
+HTTP
+204
 has
 no
 url
@@ -1298,9 +1297,9 @@ test
 /
 browser
 /
-empty
+204
 .
-xpi
+sjs
 "
 ;
 let
