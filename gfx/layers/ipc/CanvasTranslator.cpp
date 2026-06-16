@@ -10240,16 +10240,6 @@ if
 parent
 )
 {
-MOZ_ASSERT_UNREACHABLE
-(
-"
-unexpected
-to
-be
-called
-"
-)
-;
 gfxCriticalNote
 <
 <
