@@ -2321,8 +2321,10 @@ attemptingEarlyData
 )
 ;
 static
+already_AddRefed
+<
 Http2StreamTunnel
-*
+>
 CreateTunnelStreamFromConnInfo
 (
 Http2Session
