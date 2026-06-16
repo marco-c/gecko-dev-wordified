@@ -8832,6 +8832,9 @@ WindowGlobalParent
 CreateDisconnected
 (
 aInit
+Manager
+(
+)
 )
 ;
 BindPWindowGlobalEndpoint

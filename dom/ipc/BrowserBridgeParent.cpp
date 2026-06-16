@@ -710,6 +710,7 @@ WindowGlobalParent
 CreateDisconnected
 (
 aWindowInit
+aContentParent
 )
 ;
 if

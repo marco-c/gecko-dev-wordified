@@ -451,8 +451,6 @@ virtual
 DocumentChannel
 (
 )
-=
-default
 ;
 const
 RefPtr
@@ -529,6 +527,15 @@ nsCOMPtr
 nsISupports
 >
 mOwner
+;
+RefPtr
+<
+dom
+:
+:
+ParentProcessChannelHandle
+>
+mParentProcessChannelHandle
 ;
 RefPtr
 <
