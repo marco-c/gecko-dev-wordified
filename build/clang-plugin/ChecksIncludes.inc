@@ -117,6 +117,13 @@ h
 #
 include
 "
+FinalCycleCollectingIsupportsChecker
+.
+h
+"
+#
+include
+"
 ExplicitImplicitChecker
 .
 h
