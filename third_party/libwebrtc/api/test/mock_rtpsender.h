@@ -96,11 +96,6 @@ cstdint
 #
 include
 <
-memory
->
-#
-include
-<
 string
 >
 #
@@ -522,10 +517,7 @@ MOCK_METHOD
 void
 SetEncoderSelector
 (
-std
-:
-:
-unique_ptr
+scoped_refptr
 <
 VideoEncoderFactory
 :
