@@ -78,12 +78,17 @@ AsyncClipboardRequest
 h
 "
 #
+ifdef
+MOZ_ENABLE_DBUS
+#
 include
 "
 FileTransferPortal
 .
 h
 "
+#
+endif
 using
 namespace
 mozilla
@@ -1183,6 +1188,9 @@ int
 aLength
 )
 {
+#
+ifdef
+MOZ_ENABLE_DBUS
 nsCString
 data
 (
@@ -1234,6 +1242,8 @@ get
 )
 ;
 }
+#
+endif
 return
 nullptr
 ;

@@ -214,6 +214,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -232,13 +239,6 @@ gio
 .
 h
 >
-#
-include
-"
-nsIObserverService
-.
-h
-"
 #
 include
 "
