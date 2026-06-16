@@ -1987,6 +1987,10 @@ mMayScheduleScrollAnimations
 (
 false
 )
+mScrollbarClickAndHoldScrollendPending
+(
+false
+)
 mForceDisableOverlayScrollbars
 (
 false
