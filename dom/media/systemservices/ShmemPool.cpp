@@ -106,7 +106,7 @@ SHMEMPOOL_LOG_VERBOSE
 args
 )
 \
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sShmemPoolLog
 mozilla
@@ -116,6 +116,8 @@ LogLevel
 :
 :
 Verbose
+\
+MOZ_LOG_EXPAND_ARGS
 args
 )
 namespace
@@ -423,8 +425,8 @@ ShmemPool
 use
 increased
 :
-%
-zu
+{
+}
 buffers
 "
 mMaxPoolUse
@@ -519,8 +521,8 @@ ShmemPool
 usage
 reduced
 to
-%
-zu
+{
+}
 buffers
 "
 poolUse
