@@ -2439,6 +2439,7 @@ GetMinAdvanceWidth
 Range
 aRange
 )
+const
 ;
 /
 *
