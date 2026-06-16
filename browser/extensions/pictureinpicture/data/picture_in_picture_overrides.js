@@ -3378,6 +3378,9 @@ youtube
 .
 js
 "
+hasUrlbarEligibilityOverride
+:
+true
 }
 "
 https
@@ -3412,6 +3415,9 @@ youtube
 .
 js
 "
+hasUrlbarEligibilityOverride
+:
+true
 }
 }
 washingtonpost
