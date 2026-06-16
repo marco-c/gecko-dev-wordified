@@ -635,11 +635,6 @@ nsMainThreadPtrHolder
 SheetLoadData
 >
 ;
-enum
-SheetParsingMode
-:
-uint8_t
-;
 }
 /
 /
@@ -1012,14 +1007,6 @@ dom
 :
 :
 CallerType
-;
-using
-StyleSheetParsingMode
-=
-css
-:
-:
-SheetParsingMode
 ;
 using
 StyleSheetLoadData

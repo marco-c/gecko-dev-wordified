@@ -1284,13 +1284,6 @@ CreateAsStyle
 aURI
 aPrincipal
 aCorsMode
-css
-:
-:
-SheetParsingMode
-:
-:
-eAuthorSheetFeatures
 )
 )
 ;
