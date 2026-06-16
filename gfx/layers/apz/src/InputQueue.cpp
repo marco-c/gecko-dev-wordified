@@ -1452,7 +1452,9 @@ Yes
 &
 aFlags
 .
-mDispatchToContent
+IsFastPathApzAwareDispatchToContent
+(
+)
 &
 &
 !
