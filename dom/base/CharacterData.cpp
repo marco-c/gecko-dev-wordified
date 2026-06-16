@@ -264,8 +264,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

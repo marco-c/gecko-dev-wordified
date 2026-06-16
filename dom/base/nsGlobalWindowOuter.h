@@ -6294,8 +6294,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 )
 const
 final

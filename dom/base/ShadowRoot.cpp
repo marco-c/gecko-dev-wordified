@@ -515,8 +515,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

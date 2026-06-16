@@ -1807,8 +1807,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

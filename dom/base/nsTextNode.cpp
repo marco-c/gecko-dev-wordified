@@ -191,8 +191,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 int32_t
 aNameSpaceID

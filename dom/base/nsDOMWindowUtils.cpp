@@ -1516,8 +1516,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 )
 ;
@@ -1541,8 +1539,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 )
 ;
@@ -1557,8 +1553,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 )
 :
@@ -1596,8 +1590,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aEvent
 )
 {
