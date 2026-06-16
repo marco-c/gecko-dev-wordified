@@ -194,6 +194,10 @@ numeric_declaration
 ;
 pub
 mod
+numeric_type
+;
+pub
+mod
 sum_value
 ;
 /
