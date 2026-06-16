@@ -1234,6 +1234,9 @@ css
 variable
 "
 ]
+closeWithEscape
+:
+true
 }
 )
 ;
