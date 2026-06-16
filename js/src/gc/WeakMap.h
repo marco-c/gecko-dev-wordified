@@ -1048,6 +1048,17 @@ WeakMapBase
 SystemAllocPolicy
 >
 ;
+class
+WeakMapBase
+;
+using
+WeakMapList
+=
+SlimLinkedList
+<
+WeakMapBase
+>
+;
 /
 /
 Common
