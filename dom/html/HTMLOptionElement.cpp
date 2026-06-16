@@ -977,6 +977,17 @@ state
 if
 needed
 .
+/
+/
+Keep
+in
+sync
+with
+Element
+:
+:
+SetNoNameSpaceAttrOnNewlyCreatedElement
+!
 SetStates
 (
 ElementState
