@@ -10663,15 +10663,13 @@ Frame
 ;
 if
 (
+!
 frame
 -
 >
-PopupState
+IsVisibleOrHiding
 (
 )
-=
-=
-ePopupInvisible
 |
 |
 frame
