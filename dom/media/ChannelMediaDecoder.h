@@ -788,8 +788,10 @@ run
 this
 decoder
 .
+already_AddRefed
+<
 MediaDecoderStateMachineBase
-*
+>
 CreateStateMachine
 (
 bool
