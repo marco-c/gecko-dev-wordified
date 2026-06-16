@@ -3146,11 +3146,6 @@ bool
 enable
 )
 ;
-void
-ResetUnsignaledRecvStream
-(
-)
-;
 const
 std
 :
