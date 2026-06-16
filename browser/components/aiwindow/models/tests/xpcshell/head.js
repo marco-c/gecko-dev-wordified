@@ -234,6 +234,12 @@ commit
 return
 {
 securityProperties
+serpUrlsForAnonymousFetch
+:
+new
+Set
+(
+)
 addSeenUrls
 (
 )
@@ -249,6 +255,11 @@ Set
 (
 )
 ;
+}
+addSerpUrlsForAnonymousFetch
+(
+)
+{
 }
 }
 ;
