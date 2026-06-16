@@ -570,7 +570,6 @@ again
 "
 )
 ;
-await
 remoteClients
 .
 translationsWasm
