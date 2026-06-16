@@ -857,13 +857,12 @@ return
 ;
 }
 RefPtr
+observer
+=
+MakeRefPtr
 <
 SystemPermissionObserver
 >
-observer
-=
-new
-SystemPermissionObserver
 (
 )
 ;
