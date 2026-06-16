@@ -5161,13 +5161,12 @@ nullptr
 ;
 }
 RefPtr
-<
-UnscaledFont
->
 unscaledFont
 =
-new
+MakeRefPtr
+<
 UnscaledFontMac
+>
 (
 font
 )
