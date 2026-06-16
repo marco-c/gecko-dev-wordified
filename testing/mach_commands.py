@@ -9861,6 +9861,11 @@ rv
 =
 0
     
+report
+=
+[
+]
+    
 with_context
 =
 [
@@ -9895,25 +9900,17 @@ issues
 ]
 :
                 
-command_context
+report
 .
-log
+append
+(
 (
                     
 logging
 .
 ERROR
                     
-"
-fluent
--
-migration
--
-test
-"
-                    
 {
-                        
 "
 error
 "
@@ -9924,13 +9921,11 @@ issue
 msg
 "
 ]
-                        
 "
 file
 "
 :
 to_test
-                    
 }
                     
 "
@@ -9945,6 +9940,7 @@ error
 }
 "
                 
+)
 )
             
 if
@@ -9990,22 +9986,15 @@ as
 e
 :
             
-command_context
+report
 .
-log
+append
+(
 (
                 
 logging
 .
 ERROR
-                
-"
-fluent
--
-migration
--
-test
-"
                 
 {
 "
@@ -10035,6 +10024,7 @@ error
 }
 "
             
+)
 )
             
 rv
@@ -10068,9 +10058,17 @@ test_migration
 command_context
 obj_dir
 repo_dir
+report
 *
 *
 context
+)
+    
+fmt
+.
+render_report
+(
+report
 )
     
 return
