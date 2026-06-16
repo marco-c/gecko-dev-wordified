@@ -1455,6 +1455,15 @@ aFlags
 mDispatchToContent
 &
 &
+!
+block
+-
+>
+IsDuringFastFling
+(
+)
+&
+&
 (
 !
 block
