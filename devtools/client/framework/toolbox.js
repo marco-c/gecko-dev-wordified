@@ -7216,7 +7216,7 @@ _resolveIsOpen
 }
 catch
 (
-error
+exception
 )
 {
 console
@@ -7232,9 +7232,9 @@ toolbox
 "
 String
 (
-error
+exception
 )
-error
+exception
 )
 ;
 /
@@ -7273,7 +7273,7 @@ dump
 .
 dump
 (
-error
+exception
 .
 stack
 +
@@ -7285,7 +7285,7 @@ n
 ;
 if
 (
-error
+exception
 .
 clientPacket
 )
@@ -7302,7 +7302,7 @@ JSON
 .
 stringify
 (
-error
+exception
 .
 clientPacket
 null
@@ -7318,7 +7318,7 @@ n
 }
 if
 (
-error
+exception
 .
 serverPacket
 )
@@ -7335,7 +7335,7 @@ JSON
 .
 stringify
 (
-error
+exception
 .
 serverPacket
 null
@@ -7448,10 +7448,11 @@ this
 .
 _appBoundary
 .
-toolboxDidCatch
+handleException
 (
-error
+exception
 this
+true
 )
 ;
 }
