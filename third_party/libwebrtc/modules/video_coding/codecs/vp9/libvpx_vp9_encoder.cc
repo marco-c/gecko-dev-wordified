@@ -13515,7 +13515,10 @@ while
 (
 cx_data
 =
-vpx_codec_get_cx_data
+libvpx_
+-
+>
+codec_get_cx_data
 (
 encoder_
 &
