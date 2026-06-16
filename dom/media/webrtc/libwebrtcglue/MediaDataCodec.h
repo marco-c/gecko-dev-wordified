@@ -305,8 +305,13 @@ failed
 *
 /
 static
+std
+:
+:
+unique_ptr
+<
 WebrtcVideoDecoder
-*
+>
 CreateDecoder
 (
 webrtc

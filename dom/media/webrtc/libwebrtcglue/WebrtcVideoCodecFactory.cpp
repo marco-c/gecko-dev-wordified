@@ -702,9 +702,7 @@ using
 MediaDataDecoder
 .
 decoder
-.
-reset
-(
+=
 MediaDataCodec
 :
 :
@@ -712,7 +710,6 @@ CreateDecoder
 (
 type
 mTrackingId
-)
 )
 ;
 if
