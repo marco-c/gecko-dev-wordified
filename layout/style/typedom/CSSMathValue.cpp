@@ -659,10 +659,10 @@ const
 CSSPropertyId
 &
 aPropertyId
-bool
-aNested
-bool
-aParenLess
+const
+SerializationContext
+&
+aContext
 nsACString
 &
 aDest
@@ -697,7 +697,7 @@ mathClamp
 ToCssTextWithProperty
 (
 aPropertyId
-aNested
+aContext
 aDest
 )
 ;
@@ -725,7 +725,7 @@ mathMax
 ToCssTextWithProperty
 (
 aPropertyId
-aNested
+aContext
 aDest
 )
 ;
@@ -753,7 +753,7 @@ mathMin
 ToCssTextWithProperty
 (
 aPropertyId
-aNested
+aContext
 aDest
 )
 ;
@@ -781,8 +781,7 @@ mathInvert
 ToCssTextWithProperty
 (
 aPropertyId
-aNested
-aParenLess
+aContext
 aDest
 )
 ;
@@ -810,8 +809,7 @@ mathNegate
 ToCssTextWithProperty
 (
 aPropertyId
-aNested
-aParenLess
+aContext
 aDest
 )
 ;
@@ -839,8 +837,7 @@ mathProduct
 ToCssTextWithProperty
 (
 aPropertyId
-aNested
-aParenLess
+aContext
 aDest
 )
 ;
@@ -868,8 +865,7 @@ mathSum
 ToCssTextWithProperty
 (
 aPropertyId
-aNested
-aParenLess
+aContext
 aDest
 )
 ;
