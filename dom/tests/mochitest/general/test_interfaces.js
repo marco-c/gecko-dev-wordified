@@ -513,9 +513,6 @@ SuspendError
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
@@ -524,9 +521,6 @@ name
 Suspending
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
@@ -620,9 +614,6 @@ name
 promising
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }

@@ -529,7 +529,7 @@ jsPromiseIntegration
 {
 status
 :
-NIGHTLY
+RELEASED
 test
 :
 (
