@@ -132,7 +132,7 @@ SidebarController
 newWin
 ;
 const
-sidebarContainer
+sidebarLauncher
 =
 document
 .
@@ -141,7 +141,7 @@ getElementById
 "
 sidebar
 -
-container
+main
 "
 )
 ;
@@ -201,7 +201,7 @@ Assert
 .
 ok
 (
-sidebarContainer
+sidebarLauncher
 .
 hidden
 "
@@ -281,7 +281,7 @@ BrowserTestUtils
 .
 waitForMutationCondition
 (
-sidebarContainer
+sidebarLauncher
 {
 attributes
 :
@@ -299,7 +299,7 @@ hidden
 =
 >
 !
-sidebarContainer
+sidebarLauncher
 .
 hidden
 )
@@ -354,7 +354,7 @@ Assert
 ok
 (
 !
-sidebarContainer
+sidebarLauncher
 .
 hidden
 "

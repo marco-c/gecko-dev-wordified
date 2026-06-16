@@ -201,7 +201,7 @@ getElementById
 "
 sidebar
 -
-container
+main
 "
 )
 ;
@@ -562,7 +562,7 @@ button
 )
 ;
 let
-sidebarContainer
+sidebarMain
 =
 document
 .
@@ -571,7 +571,7 @@ getElementById
 "
 sidebar
 -
-container
+main
 "
 )
 ;
@@ -773,7 +773,7 @@ removed
 ok
 (
 !
-sidebarContainer
+sidebarMain
 .
 hidden
 "
