@@ -405,6 +405,15 @@ return
 mAddr
 ;
 }
+already_AddRefed
+<
+nsIDNSAddrRecord
+>
+AddrRecord
+(
+)
+const
+;
 void
 ClearResultConnection
 (
