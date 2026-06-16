@@ -6879,7 +6879,6 @@ errorInfoOut
 >
 setCircularImport
 (
-cx
 module
 )
 ;
@@ -7579,7 +7578,6 @@ errorInfoOut
 >
 setImportedModule
 (
-cx
 module
 )
 ;
@@ -8347,7 +8345,6 @@ errorInfoOut
 >
 setForAmbiguousImport
 (
-cx
 module
 module1
 module2
@@ -8395,7 +8392,6 @@ errorInfoOut
 >
 setCircularImport
 (
-cx
 module
 )
 ;
@@ -8407,7 +8403,6 @@ errorInfoOut
 >
 setImportedModule
 (
-cx
 module
 )
 ;
@@ -8519,7 +8514,6 @@ errorInfoOut
 >
 setImportedModule
 (
-cx
 module
 )
 ;
@@ -9567,9 +9561,6 @@ ModuleErrorInfo
 :
 setImportedModule
 (
-JSContext
-*
-cx
 ModuleObject
 *
 importedModule
@@ -9612,9 +9603,6 @@ ModuleErrorInfo
 :
 setForAmbiguousImport
 (
-JSContext
-*
-cx
 ModuleObject
 *
 importedModule
@@ -9628,7 +9616,6 @@ module2
 {
 setImportedModule
 (
-cx
 importedModule
 )
 ;
