@@ -1023,14 +1023,6 @@ doc
 LiteralDoc
 (
 )
-ARMBuffer
-:
-:
-PoolEntry
-*
-pe
-=
-nullptr
 )
 {
 MOZ_ASSERT
@@ -1066,7 +1058,6 @@ numInst
 numPoolEntries
 inst
 data
-pe
 )
 ;
 propagateOOM

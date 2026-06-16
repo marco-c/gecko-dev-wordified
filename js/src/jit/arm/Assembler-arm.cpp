@@ -11366,12 +11366,6 @@ const
 LiteralDoc
 &
 doc
-ARMBuffer
-:
-:
-PoolEntry
-*
-pe
 bool
 loadToPC
 )
@@ -11419,7 +11413,6 @@ numInst
 numPoolEntries
 inst
 data
-pe
 )
 ;
 propagateOOM
@@ -11547,7 +11540,6 @@ LiteralDoc
 (
 value
 )
-nullptr
 dest
 =
 =

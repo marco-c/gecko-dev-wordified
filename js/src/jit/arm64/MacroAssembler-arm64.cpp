@@ -1685,7 +1685,8 @@ index
 to
 the
 corresponding
-PoolEntry
+pool
+entry
 in
 the
 instruction
@@ -1900,7 +1901,8 @@ index
 to
 the
 corresponding
-PoolEntry
+pool
+entry
 in
 the
 instruction
