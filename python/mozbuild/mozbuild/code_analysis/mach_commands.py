@@ -5804,6 +5804,33 @@ empty
 return
 TOOLS_CHECKER_LIST_EMPTY
     
+#
+Some
+checks
+need
+header
+interaction
+    
+test_file_path_h
+=
+"
+|
+"
+.
+join
+(
+checker
++
+"
+.
+h
+"
+for
+checker
+in
+items
+)
+    
 issues
 clang_output
 =
@@ -5833,8 +5860,7 @@ items
         
 header_filter
 =
-"
-"
+test_file_path_h
         
 sources
 =
@@ -7102,6 +7128,39 @@ checker_error
 return
 TOOLS_CHECKER_NO_TEST_FILE
     
+#
+Some
+checks
+need
+header
+interaction
+    
+test_file_path_h
+=
+os
+.
+path
+.
+splitext
+(
+os
+.
+path
+.
+basename
+(
+test_file_path_cpp
+)
+)
+[
+0
+]
++
+"
+.
+h
+"
+    
 issues
 clang_output
 =
@@ -7125,8 +7184,7 @@ check
         
 header_filter
 =
-"
-"
+test_file_path_h
         
 sources
 =
