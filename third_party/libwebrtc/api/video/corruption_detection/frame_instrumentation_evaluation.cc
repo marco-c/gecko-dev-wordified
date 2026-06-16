@@ -371,9 +371,7 @@ default
 void
 OnInstrumentedFrame
 (
-const
 FrameInstrumentationData
-&
 data
 const
 VideoFrame

@@ -1721,9 +1721,7 @@ const
 VideoFrame
 &
 frame
-const
 FrameInstrumentationData
-&
 frame_instrumentation_data
 VideoContentType
 content_type

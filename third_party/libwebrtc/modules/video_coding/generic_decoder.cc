@@ -1821,11 +1821,17 @@ corruption_score_calculator_
 CalculateCorruptionScore
 (
 decodedImage
+std
+:
+:
+move
+(
 *
 frame_info
 -
 >
 frame_instrumentation_data
+)
 frame_info
 -
 >
