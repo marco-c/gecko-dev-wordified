@@ -30646,7 +30646,7 @@ noBarrier
 )
 ;
 void
-emitValueReadBarrierFastPath
+emitWeapMapBarrierFastPath
 (
 ValueOperand
 value
