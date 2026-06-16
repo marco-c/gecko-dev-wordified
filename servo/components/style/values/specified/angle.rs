@@ -405,7 +405,7 @@ deg
 "
 =
 >
-AngleUnit
+Self
 :
 :
 Deg
@@ -414,7 +414,7 @@ grad
 "
 =
 >
-AngleUnit
+Self
 :
 :
 Grad
@@ -423,7 +423,7 @@ turn
 "
 =
 >
-AngleUnit
+Self
 :
 :
 Turn
@@ -432,7 +432,7 @@ rad
 "
 =
 >
-AngleUnit
+Self
 :
 :
 Rad
