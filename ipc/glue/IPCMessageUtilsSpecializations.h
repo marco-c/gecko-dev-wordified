@@ -3043,7 +3043,6 @@ N
 using
 T
 =
-typename
 mozilla
 :
 :
@@ -3058,9 +3057,6 @@ Ts
 .
 .
 >
-:
-:
-Type
 ;
 static
 ReadResult
