@@ -5057,6 +5057,15 @@ RedUlpfecEnabled
 (
 )
 ;
+if
+(
+aPrefs
+.
+UseRtx
+(
+)
+)
+{
 codec
 -
 >
@@ -5067,6 +5076,7 @@ EnableRtx
 "
 )
 ;
+}
 return
 ConfigureCommonVideoCodec
 (
