@@ -1417,6 +1417,15 @@ n
 savePtr
 )
 ;
+if
+(
+!
+rest
+)
+{
+continue
+;
+}
 size_t
 value
 ;
