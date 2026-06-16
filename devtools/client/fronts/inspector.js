@@ -856,18 +856,6 @@ type
 return
 ;
 }
-if
-(
-this
-.
-_highlighters
-.
-has
-(
-type
-)
-)
-{
 const
 highlighter
 =
@@ -906,7 +894,6 @@ delete
 type
 )
 ;
-}
 }
 async
 getHighlighterByType
