@@ -393,8 +393,10 @@ make_unique
 WebrtcVideoEncoderProxy
 >
 (
-new
+MakeRefPtr
+<
 WebrtcMediaDataEncoder
+>
 (
 aFormat
 )
