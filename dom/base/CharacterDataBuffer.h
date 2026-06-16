@@ -933,10 +933,6 @@ return
 false
 ;
 }
-ReleaseBuffer
-(
-)
-;
 if
 (
 aForce2b
@@ -962,6 +958,10 @@ GetStringBuffer
 )
 )
 {
+ReleaseBuffer
+(
+)
+;
 NS_ADDREF
 (
 m2b
