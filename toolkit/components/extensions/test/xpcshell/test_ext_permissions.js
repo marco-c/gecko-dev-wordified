@@ -4404,6 +4404,9 @@ mozillaAddons
 networkStatus
 "
 "
+publicSuffix
+"
+"
 scripting
 "
 "
