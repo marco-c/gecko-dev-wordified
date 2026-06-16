@@ -552,17 +552,8 @@ ToString
 )
 const
 {
-char
-string_buf
-[
-2048
-]
-;
-SimpleStringBuilder
+StringBuilder
 ss
-(
-string_buf
-)
 ;
 ss
 <
@@ -778,7 +769,7 @@ ss
 return
 ss
 .
-str
+Release
 (
 )
 ;

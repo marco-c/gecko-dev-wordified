@@ -283,17 +283,8 @@ ToString
 )
 const
 {
-char
-string_buf
-[
-2048
-]
-;
-SimpleStringBuilder
+StringBuilder
 oss
-(
-string_buf
-)
 ;
 oss
 <
@@ -351,7 +342,7 @@ false
 return
 oss
 .
-str
+Release
 (
 )
 ;

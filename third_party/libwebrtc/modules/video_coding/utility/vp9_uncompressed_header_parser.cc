@@ -1853,17 +1853,8 @@ ToString
 )
 const
 {
-char
-buf
-[
-1024
-]
-;
-SimpleStringBuilder
+StringBuilder
 oss
-(
-buf
-)
 ;
 oss
 <
@@ -1907,7 +1898,7 @@ show_existing_frame
 return
 oss
 .
-str
+Release
 (
 )
 ;
@@ -2608,7 +2599,7 @@ oss
 return
 oss
 .
-str
+Release
 (
 )
 ;

@@ -908,17 +908,8 @@ ToString
 )
 const
 {
-char
-buf
-[
-2048
-]
-;
-SimpleStringBuilder
+StringBuilder
 builder
-(
-buf
-)
 ;
 builder
 <
@@ -1563,7 +1554,7 @@ enabled
 return
 builder
 .
-str
+Release
 (
 )
 ;

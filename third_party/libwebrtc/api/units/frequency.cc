@@ -130,17 +130,8 @@ Frequency
 value
 )
 {
-char
-buf
-[
-64
-]
-;
-SimpleStringBuilder
+StringBuilder
 sb
-(
-buf
-)
 ;
 if
 (
@@ -243,7 +234,7 @@ Hz
 return
 sb
 .
-str
+Release
 (
 )
 ;

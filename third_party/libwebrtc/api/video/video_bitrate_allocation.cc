@@ -951,17 +951,8 @@ power
 of
 two
 .
-char
-string_buf
-[
-512
-]
-;
-SimpleStringBuilder
+StringBuilder
 ssb
-(
-string_buf
-)
 ;
 ssb
 <
@@ -1170,7 +1161,7 @@ ssb
 return
 ssb
 .
-str
+Release
 (
 )
 ;

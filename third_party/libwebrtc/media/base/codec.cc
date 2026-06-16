@@ -1831,17 +1831,8 @@ ToString
 )
 const
 {
-char
-buf
-[
-256
-]
-;
-SimpleStringBuilder
+StringBuilder
 sb
-(
-buf
-)
 ;
 switch
 (
@@ -1967,7 +1958,7 @@ break
 return
 sb
 .
-str
+Release
 (
 )
 ;

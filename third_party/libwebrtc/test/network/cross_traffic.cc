@@ -538,7 +538,7 @@ random_walk_cross_traffic_rate
 this
 ]
 (
-SimpleStringBuilder
+StringBuilder
 &
 sb
 )
@@ -819,7 +819,7 @@ pulsed_peaks_cross_traffic_rate
 this
 ]
 (
-SimpleStringBuilder
+StringBuilder
 &
 sb
 )

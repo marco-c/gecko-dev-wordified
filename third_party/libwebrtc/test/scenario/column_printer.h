@@ -189,7 +189,7 @@ void
 webrtc
 :
 :
-SimpleStringBuilder
+StringBuilder
 &
 )
 >
@@ -221,7 +221,7 @@ void
 webrtc
 :
 :
-SimpleStringBuilder
+StringBuilder
 &
 )
 >
@@ -248,7 +248,7 @@ void
 webrtc
 :
 :
-SimpleStringBuilder
+StringBuilder
 &
 )
 >

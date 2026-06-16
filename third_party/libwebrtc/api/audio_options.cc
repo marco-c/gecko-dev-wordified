@@ -128,7 +128,7 @@ T
 void
 ToStringIfSet
 (
-SimpleStringBuilder
+StringBuilder
 *
 result
 const
@@ -500,17 +500,8 @@ ToString
 )
 const
 {
-char
-buffer
-[
-1024
-]
-;
-SimpleStringBuilder
+StringBuilder
 result
-(
-buffer
-)
 ;
 result
 <
@@ -648,7 +639,7 @@ result
 return
 result
 .
-str
+Release
 (
 )
 ;

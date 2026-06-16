@@ -229,17 +229,8 @@ string_view
 suffix
 )
 {
-char
-buf
-[
-1024
-]
-;
-SimpleStringBuilder
+StringBuilder
 ss
-(
-buf
-)
 ;
 if
 (
@@ -302,7 +293,7 @@ suffix
 return
 ss
 .
-str
+Release
 (
 )
 ;

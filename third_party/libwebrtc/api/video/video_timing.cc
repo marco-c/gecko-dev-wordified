@@ -559,17 +559,8 @@ return
 "
 ;
 }
-char
-buf
-[
-1024
-]
-;
-SimpleStringBuilder
+StringBuilder
 sb
-(
-buf
-)
 ;
 sb
 <
@@ -681,7 +672,7 @@ IsTimerTriggered
 return
 sb
 .
-str
+Release
 (
 )
 ;

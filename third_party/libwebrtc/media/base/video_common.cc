@@ -544,17 +544,8 @@ break
 ;
 }
 }
-char
-buf
-[
-256
-]
-;
-SimpleStringBuilder
+StringBuilder
 sb
-(
-buf
-)
 ;
 sb
 <
@@ -586,7 +577,7 @@ interval
 return
 sb
 .
-str
+Release
 (
 )
 ;
