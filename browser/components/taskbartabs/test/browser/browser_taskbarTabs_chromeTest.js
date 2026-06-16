@@ -371,7 +371,7 @@ getElementById
 "
 sidebar
 -
-main
+container
 "
 )
 ;
