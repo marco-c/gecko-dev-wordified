@@ -13334,8 +13334,10 @@ aLength
 )
 ;
 }
+already_AddRefed
+<
 gfxFontFamily
-*
+>
 gfxFT2FontList
 :
 :
@@ -13351,8 +13353,10 @@ aVisibility
 const
 {
 return
-new
+MakeAndAddRef
+<
 FT2FontFamily
+>
 (
 aName
 aVisibility

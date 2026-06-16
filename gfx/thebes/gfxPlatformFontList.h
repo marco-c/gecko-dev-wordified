@@ -6604,8 +6604,10 @@ new
 family
 .
 virtual
+already_AddRefed
+<
 gfxFontFamily
-*
+>
 CreateFontFamily
 (
 const

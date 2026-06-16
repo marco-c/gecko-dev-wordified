@@ -1086,8 +1086,10 @@ PlatformFontList
 )
 ;
 }
+already_AddRefed
+<
 gfxFontFamily
-*
+>
 CreateFontFamily
 (
 const

@@ -10812,8 +10812,10 @@ forget
 )
 ;
 }
+already_AddRefed
+<
 gfxFontFamily
-*
+>
 CoreTextFontList
 :
 :
@@ -10829,8 +10831,10 @@ aVisibility
 const
 {
 return
-new
+MakeAndAddRef
+<
 CTFontFamily
+>
 (
 aName
 aVisibility

@@ -16736,8 +16736,10 @@ forget
 )
 ;
 }
+already_AddRefed
+<
 gfxFontFamily
-*
+>
 gfxDWriteFontList
 :
 :
@@ -16753,8 +16755,10 @@ aVisibility
 const
 {
 return
-new
+MakeAndAddRef
+<
 gfxDWriteFontFamily
+>
 (
 aName
 aVisibility

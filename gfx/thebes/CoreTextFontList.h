@@ -1063,8 +1063,10 @@ SystemFontListEntry
 ;
 public
 :
+already_AddRefed
+<
 gfxFontFamily
-*
+>
 CreateFontFamily
 (
 const

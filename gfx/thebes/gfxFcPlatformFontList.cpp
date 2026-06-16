@@ -19190,8 +19190,10 @@ true
 ;
 }
 }
+already_AddRefed
+<
 gfxFontFamily
-*
+>
 gfxFcPlatformFontList
 :
 :
@@ -19207,8 +19209,10 @@ aVisibility
 const
 {
 return
-new
+MakeAndAddRef
+<
 gfxFontconfigFontFamily
+>
 (
 aName
 aVisibility
