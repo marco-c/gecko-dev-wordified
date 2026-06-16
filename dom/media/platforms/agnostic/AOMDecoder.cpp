@@ -6262,7 +6262,7 @@ isErr
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sPDMLog
 mozilla
@@ -6272,7 +6272,6 @@ LogLevel
 :
 :
 Debug
-(
 "
 AOMDecoder
 :
@@ -6285,7 +6284,6 @@ read
 MDCV
 fields
 "
-)
 )
 ;
 continue
@@ -6500,7 +6498,7 @@ isErr
 )
 )
 {
-MOZ_LOG
+MOZ_LOG_FMT
 (
 sPDMLog
 mozilla
@@ -6510,7 +6508,6 @@ LogLevel
 :
 :
 Debug
-(
 "
 AOMDecoder
 :
@@ -6523,7 +6520,6 @@ read
 CLL
 fields
 "
-)
 )
 ;
 continue
