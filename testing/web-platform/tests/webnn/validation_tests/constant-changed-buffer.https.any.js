@@ -21,7 +21,6 @@ META
 global
 =
 window
-worker
 /
 /
 META
