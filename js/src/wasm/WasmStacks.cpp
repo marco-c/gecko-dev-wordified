@@ -4305,6 +4305,10 @@ target
 void
 *
 contBaseFrameStub
+const
+Code
+*
+creatorCode
 )
 {
 /
@@ -4377,6 +4381,10 @@ target_
 initialResumeCallee_
 =
 target
+;
+initialResumeCode_
+=
+creatorCode
 ;
 handlers_
 =
@@ -4605,6 +4613,10 @@ stack
 nullptr
 ;
 initialResumeCallee_
+=
+nullptr
+;
+initialResumeCode_
 =
 nullptr
 ;
@@ -6418,6 +6430,10 @@ target
 void
 *
 contBaseFrameStub
+const
+Code
+*
+creatorCode
 )
 {
 if
@@ -6476,6 +6492,7 @@ prepare
 continuation
 target
 contBaseFrameStub
+creatorCode
 )
 ;
 return
@@ -7100,6 +7117,10 @@ target
 void
 *
 contBaseFrameStub
+const
+Code
+*
+creatorCode
 )
 {
 ensureInitialized
@@ -7153,6 +7174,7 @@ allocate
 continuation
 target
 contBaseFrameStub
+creatorCode
 )
 ;
 /
@@ -7383,6 +7405,10 @@ target
 void
 *
 contBaseFrameStub
+const
+Code
+*
+creatorCode
 )
 {
 Rooted
@@ -7437,6 +7463,7 @@ cx
 cont
 target
 contBaseFrameStub
+creatorCode
 )
 )
 ;
