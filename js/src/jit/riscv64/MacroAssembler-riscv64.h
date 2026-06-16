@@ -2250,8 +2250,6 @@ FPURegister
 dst
 FPURegister
 src
-FPURegister
-fpu_scratch
 FPURoundingMode
 mode
 )
@@ -2508,8 +2506,6 @@ FPURegister
 fd
 FPURegister
 fs
-FPURegister
-fpu_scratch
 )
 ;
 void
@@ -2519,8 +2515,6 @@ FPURegister
 fd
 FPURegister
 fs
-FPURegister
-fpu_scratch
 )
 ;
 void
@@ -2530,8 +2524,6 @@ FPURegister
 fd
 FPURegister
 fs
-FPURegister
-fpu_scratch
 )
 ;
 void
@@ -2541,8 +2533,6 @@ FPURegister
 fd
 FPURegister
 fs
-FPURegister
-fpu_scratch
 )
 ;
 /
@@ -2557,8 +2547,6 @@ FPURegister
 fd
 FPURegister
 fs
-FPURegister
-fpu_scratch
 )
 ;
 void
@@ -2568,8 +2556,6 @@ FPURegister
 fd
 FPURegister
 fs
-FPURegister
-fpu_scratch
 )
 ;
 void
@@ -2579,8 +2565,6 @@ FPURegister
 fd
 FPURegister
 fs
-FPURegister
-fpu_scratch
 )
 ;
 void
@@ -2590,8 +2574,6 @@ FPURegister
 fd
 FPURegister
 fs
-FPURegister
-fpu_scratch
 )
 ;
 /
