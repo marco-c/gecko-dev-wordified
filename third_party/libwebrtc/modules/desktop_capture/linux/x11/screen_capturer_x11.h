@@ -396,8 +396,13 @@ XEventHandler
 {
 public
 :
+explicit
 ScreenCapturerX11
 (
+const
+DesktopCaptureOptions
+&
+options
 )
 ;
 ~
@@ -725,6 +730,10 @@ DeinitXlib
 ;
 DesktopCaptureOptions
 options_
+;
+Clock
+&
+clock_
 ;
 Callback
 *
