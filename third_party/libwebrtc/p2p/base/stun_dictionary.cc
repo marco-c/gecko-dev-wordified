@@ -2328,12 +2328,7 @@ StunByteStringAttribute
 STUN_ATTR_GOOG_DELTA
 buf
 .
-Data
-(
-)
-buf
-.
-Length
+DataView
 (
 )
 )
