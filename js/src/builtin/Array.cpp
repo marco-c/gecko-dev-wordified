@@ -6377,6 +6377,10 @@ header
 -
 >
 initializedLength
+.
+get
+(
+)
 newLen
 )
 ;

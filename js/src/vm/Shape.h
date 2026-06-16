@@ -2914,7 +2914,10 @@ SMALL_SLOTSPAN_SHIFT
 )
 }
 ;
+GCData
+<
 uint32_t
+>
 immutableFlags
 ;
 /
