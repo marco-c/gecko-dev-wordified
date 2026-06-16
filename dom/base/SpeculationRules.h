@@ -108,6 +108,9 @@ nsStringFwd
 h
 "
 class
+nsIGlobalObject
+;
+class
 nsIURI
 ;
 namespace
@@ -193,6 +196,17 @@ aDocumentBaseUri
 nsIURI
 *
 aBaseUri
+)
+;
+static
+void
+ReportParseError
+(
+nsIGlobalObject
+*
+aGlobal
+SpeculationRuleParseError
+aError
 )
 ;
 }
