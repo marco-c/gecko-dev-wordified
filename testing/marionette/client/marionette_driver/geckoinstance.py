@@ -1821,6 +1821,23 @@ off
 "
         
 #
+Disable
+the
+WebAuthn
+consents
+prompt
+        
+"
+security
+.
+webauthn
+.
+related_origin_requests_mode
+"
+:
+1
+        
+#
 Ensure
 blocklist
 updates
