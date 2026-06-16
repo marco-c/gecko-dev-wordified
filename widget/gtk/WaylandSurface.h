@@ -1387,7 +1387,7 @@ WaylandSurfaceLock
 &
 aProofOfLock
 const
-DesktopIntRect
+DesktopRect
 &
 aRect
 )
@@ -3392,7 +3392,7 @@ mViewport
 =
 nullptr
 ;
-DesktopIntRect
+DesktopRect
 mViewportSourceRect
 {
 -
