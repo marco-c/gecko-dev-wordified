@@ -3165,8 +3165,10 @@ std
 :
 vector
 <
+scoped_refptr
+<
 SctpDataChannel
-*
+>
 >
 channels_to_start
 ;
@@ -3278,14 +3280,8 @@ channels_to_start
 .
 push_back
 (
-(
 *
 it
-)
-.
-get
-(
-)
 )
 ;
 }
@@ -3355,7 +3351,7 @@ ready_to_send
 for
 (
 auto
-*
+&
 channel
 :
 channels_to_start
