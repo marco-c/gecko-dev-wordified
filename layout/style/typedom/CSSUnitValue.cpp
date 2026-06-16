@@ -782,6 +782,9 @@ case
 eCSSProperty_border_image_slice
 :
 case
+eCSSProperty_border_image_width
+:
+case
 eCSSProperty_font_size_adjust
 :
 case
