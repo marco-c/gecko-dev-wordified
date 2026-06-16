@@ -85,7 +85,7 @@ tabId
 options
 )
 {
-const
+let
 {
 frameId
 =
@@ -94,6 +94,9 @@ name
 =
 "
 "
+documentId
+=
+null
 }
 =
 options
@@ -113,6 +116,7 @@ connect
 name
 tabId
 frameId
+documentId
 }
 )
 ;
@@ -125,7 +129,7 @@ options
 callback
 )
 {
-const
+let
 arg
 =
 {
@@ -136,6 +140,12 @@ options
 ?
 .
 frameId
+documentId
+:
+options
+?
+.
+documentId
 message
 callback
 }

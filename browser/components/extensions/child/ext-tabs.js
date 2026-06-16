@@ -94,6 +94,9 @@ name
 =
 "
 "
+documentId
+=
+null
 }
 =
 options
@@ -113,6 +116,7 @@ connect
 name
 tabId
 frameId
+documentId
 }
 )
 ;
@@ -136,6 +140,12 @@ options
 ?
 .
 frameId
+documentId
+:
+options
+?
+.
+documentId
 message
 callback
 }
