@@ -36119,10 +36119,6 @@ SetupAlteredPrefetchPref
 (
 )
 ;
-SetupSkeletonUIPrefs
-(
-)
-;
 #
 if
 defined
@@ -36201,6 +36197,10 @@ defined
 MOZ_BACKGROUNDTASKS
 )
 {
+SetupSkeletonUIPrefs
+(
+)
+;
 Preferences
 :
 :
