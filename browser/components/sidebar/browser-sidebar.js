@@ -1577,6 +1577,11 @@ menuId
 "
 menu_openTabsSidebar
 "
+keyId
+:
+"
+viewOpenTabsSidebarKb
+"
 menuL10nId
 :
 "
