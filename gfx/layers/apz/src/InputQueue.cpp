@@ -294,6 +294,8 @@ TouchBehaviorFlags
 >
 &
 aTouchBehaviors
+InitialTouchMove
+aInitialTouchMove
 )
 {
 APZThreadUtils
@@ -338,6 +340,7 @@ aTarget
 aFlags
 event
 aTouchBehaviors
+aInitialTouchMove
 )
 ;
 }
@@ -624,6 +627,8 @@ TouchBehaviorFlags
 >
 &
 aTouchBehaviors
+InitialTouchMove
+aInitialTouchMove
 )
 {
 APZEventResult
