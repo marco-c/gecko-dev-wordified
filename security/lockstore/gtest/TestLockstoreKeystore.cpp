@@ -626,6 +626,8 @@ mKeystore
 kekType
 &
 empty
+&
+empty
 /
 *
 cache_timeout_ms
@@ -702,6 +704,10 @@ password
 _ns
 )
 ;
+const
+nsCString
+empty
+;
 nsresult
 rv
 =
@@ -710,6 +716,8 @@ keystore_create_kek
 mKeystore
 &
 kekType
+&
+empty
 &
 aPassword
 /
@@ -4130,6 +4138,8 @@ mKeystore
 kekType
 &
 empty
+&
+empty
 0
 &
 otherLocal
@@ -4274,6 +4284,8 @@ keystore_create_kek
 mKeystore
 &
 kekType
+&
+empty
 &
 empty
 0

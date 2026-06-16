@@ -4281,6 +4281,10 @@ kek_type
 :
 &
 nsACString
+identifier
+:
+&
+nsACString
 secret
 :
 &
@@ -4338,6 +4342,15 @@ NS_ERROR_INVALID_ARG
 }
 ;
 let
+identifier_str
+=
+identifier
+.
+to_utf8
+(
+)
+;
+let
 mut
 secret_buf
 :
@@ -4366,6 +4379,8 @@ keystore
 create_kek
 (
 parsed
+&
+identifier_str
 &
 secret_buf
 Duration
