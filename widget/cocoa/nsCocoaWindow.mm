@@ -2759,7 +2759,7 @@ aButton
 nsIWidget
 :
 :
-Modifiers
+NativeModifiers
 aModifierFlags
 nsISynthesizedEventCallback
 *
@@ -3392,7 +3392,7 @@ eNotPressed
 nsIWidget
 :
 :
-Modifiers
+NativeModifiers
 :
 :
 NO_MODIFIERS

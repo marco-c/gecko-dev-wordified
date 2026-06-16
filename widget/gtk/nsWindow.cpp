@@ -45110,7 +45110,7 @@ aButton
 nsIWidget
 :
 :
-Modifiers
+NativeModifiers
 aModifierFlags
 nsISynthesizedEventCallback
 *
@@ -45152,7 +45152,10 @@ int
 (
 aButton
 )
+static_cast
+<
 int
+>
 (
 aModifierFlags
 )
