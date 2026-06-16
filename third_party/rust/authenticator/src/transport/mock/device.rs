@@ -229,6 +229,10 @@ usize
 =
 64
 ;
+pub
+(
+crate
+)
 const
 OUT_HID_RPT_SIZE
 :
