@@ -3614,6 +3614,9 @@ network_thread
 void
 OnNetworkRouteChanged
 (
+ChannelInterface
+*
+channel
 std
 :
 :
