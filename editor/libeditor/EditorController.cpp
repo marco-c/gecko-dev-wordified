@@ -240,6 +240,14 @@ cmd_pasteTransferable
 ;
 NS_REGISTER_COMMAND
 (
+PasteNoFormattingCommand
+"
+cmd_pasteNoFormatting
+"
+)
+;
+NS_REGISTER_COMMAND
+(
 SwitchTextDirectionCommand
 "
 cmd_switchTextDirection
