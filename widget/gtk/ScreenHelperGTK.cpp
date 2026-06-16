@@ -485,13 +485,6 @@ IsHDR
 (
 0
 )
-Screen
-:
-:
-IsHDR
-(
-0
-)
 )
 ;
 }
@@ -1326,13 +1319,6 @@ IsPseudoDisplay
 :
 :
 No
-Screen
-:
-:
-IsHDR
-(
-aIsHDR
-)
 Screen
 :
 :

@@ -2701,7 +2701,7 @@ if
 dx
 -
 >
-GetScreenIsVideoHDR
+GetScreenIsHDR
 (
 )
 )

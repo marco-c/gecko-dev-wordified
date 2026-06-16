@@ -1004,13 +1004,6 @@ IsHDR
 (
 isHDR
 )
-Screen
-:
-:
-IsHDR
-(
-isHDR
-)
 )
 ;
 return

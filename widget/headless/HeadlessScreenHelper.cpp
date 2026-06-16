@@ -242,13 +242,6 @@ IsHDR
 :
 :
 No
-Screen
-:
-:
-IsHDR
-:
-:
-No
 )
 ;
 screenList
