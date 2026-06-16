@@ -87,6 +87,11 @@ algorithm
 >
 #
 include
+<
+cmath
+>
+#
+include
 "
 AnchorPositioningUtils
 .
