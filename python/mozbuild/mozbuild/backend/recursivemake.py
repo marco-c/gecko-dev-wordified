@@ -3832,7 +3832,7 @@ join
 (
 obj
 .
-relobjdir
+objdir
 out
 )
                     
@@ -3859,17 +3859,23 @@ tier
 )
                 
 for
-input
+dep
 in
+chain
+(
 obj
 .
 inputs
+obj
+.
+extra_deps
+)
 :
                     
 if
 isinstance
 (
-input
+dep
 ObjDirPath
 )
 :
@@ -3888,7 +3894,7 @@ relobjdir
                             
 tier
                             
-input
+dep
                         
 )
 )

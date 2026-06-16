@@ -8264,6 +8264,10 @@ inputs
 "
         
 "
+extra_deps
+"
+        
+"
 flags
 "
         
@@ -8321,6 +8325,11 @@ False
 required_during_compile
 =
 None
+        
+extra_deps
+=
+(
+)
     
 )
 :
@@ -8372,6 +8381,12 @@ self
 flags
 =
 flags
+        
+self
+.
+extra_deps
+=
+extra_deps
         
 self
 .
