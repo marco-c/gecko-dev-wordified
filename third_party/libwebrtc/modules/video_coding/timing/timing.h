@@ -641,10 +641,10 @@ buffer
 level
 .
 void
-SetJitterDelay
+SetMinimumDelay
 (
 TimeDelta
-required_delay
+minimum_delay
 )
 ;
 /
@@ -826,12 +826,12 @@ time
 .
 virtual
 void
-IncomingTimestamp
+OnCompleteTemporalUnit
 (
 uint32_t
 rtp_timestamp
 Timestamp
-last_packet_time
+now
 )
 ;
 /
@@ -845,10 +845,9 @@ when
 the
 frame
 with
-timestamp
+rtp_timestamp
 /
 /
-frame_timestamp
 should
 be
 rendered
@@ -857,8 +856,6 @@ that
 the
 system
 time
-/
-/
 currently
 is
 now
@@ -868,7 +865,7 @@ Timestamp
 RenderTime
 (
 uint32_t
-frame_timestamp
+rtp_timestamp
 Timestamp
 now
 )
@@ -995,7 +992,7 @@ target
 delay
 which
 is
-required
+minimum
 delay
 +
 decode
