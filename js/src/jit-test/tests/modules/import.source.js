@@ -41,6 +41,16 @@ imports
 -
 enable
 -
+wasm
+-
+esm
+-
+integration
+;
+-
+-
+enable
+-
 source
 -
 phase

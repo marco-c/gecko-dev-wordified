@@ -7156,7 +7156,7 @@ JS
 Prefs
 :
 :
-experimental_source_phase_imports
+experimental_wasm_esm_integration
 (
 )
 )
@@ -8789,7 +8789,7 @@ JS
 Prefs
 :
 :
-experimental_source_phase_imports
+experimental_wasm_esm_integration
 (
 )
 )
