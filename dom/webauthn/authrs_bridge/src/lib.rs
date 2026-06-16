@@ -10911,8 +10911,6 @@ manage
 60
 *
 1000
-*
-1000
 status_tx
 state_callback
 )
