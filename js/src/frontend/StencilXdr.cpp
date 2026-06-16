@@ -4286,9 +4286,6 @@ attributes
 )
 )
 ;
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 MOZ_TRY
 (
 xdr
@@ -4310,8 +4307,6 @@ phase
 )
 )
 ;
-#
-endif
 return
 Ok
 (

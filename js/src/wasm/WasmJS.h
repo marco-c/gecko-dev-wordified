@@ -728,9 +728,6 @@ JSObject
 obj
 )
 ;
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 [
 [
 nodiscard
@@ -757,8 +754,6 @@ MutableHandleObject
 moduleObj
 )
 ;
-#
-endif
 }
 /
 /
