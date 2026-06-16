@@ -9009,6 +9009,10 @@ self
 tests
                     
 if
+key
+in
+t
+and
 mozpath
 .
 normpath
