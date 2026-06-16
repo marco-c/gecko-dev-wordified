@@ -142,6 +142,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -150,7 +151,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 10
+)
 )
 ;
 function
@@ -205,9 +209,10 @@ TypeError
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )

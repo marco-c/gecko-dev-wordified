@@ -60,7 +60,9 @@ esid
 :
 sec
 -
-initializenumberformat
+intl
+.
+numberformat
 description
 :
 Tests

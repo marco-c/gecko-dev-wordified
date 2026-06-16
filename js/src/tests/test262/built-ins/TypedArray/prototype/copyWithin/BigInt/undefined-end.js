@@ -362,6 +362,13 @@ copyWithin
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

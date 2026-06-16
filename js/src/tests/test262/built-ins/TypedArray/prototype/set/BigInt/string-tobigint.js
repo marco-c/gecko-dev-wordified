@@ -328,7 +328,7 @@ n
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -348,6 +348,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -356,7 +357,10 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 typedArray
@@ -549,6 +553,13 @@ exponents
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

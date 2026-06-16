@@ -142,7 +142,7 @@ exception
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -162,6 +162,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -170,6 +171,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42n
 43n
@@ -177,6 +180,7 @@ TA
 45n
 46n
 ]
+)
 )
 ;
 assert
@@ -338,6 +342,13 @@ sort
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

@@ -172,7 +172,7 @@ function
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -192,6 +192,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -200,6 +201,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42n
 43n
@@ -207,6 +210,7 @@ TA
 45n
 46n
 ]
+)
 )
 ;
 var
@@ -266,6 +270,13 @@ returned
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

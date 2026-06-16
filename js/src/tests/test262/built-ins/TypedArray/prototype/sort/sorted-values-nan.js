@@ -147,6 +147,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -157,6 +158,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 2
 NaN
@@ -164,6 +167,7 @@ NaN
 0
 1
 ]
+)
 )
 .
 sort
@@ -265,6 +269,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3
 NaN
@@ -275,6 +281,7 @@ Infinity
 Infinity
 2
 ]
+)
 )
 .
 sort
@@ -410,6 +417,12 @@ NaN
 ;
 }
 floatArrayConstructors
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

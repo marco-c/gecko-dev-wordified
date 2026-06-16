@@ -120,7 +120,7 @@ js
 -
 *
 /
-testWithTypedArrayConstructors
+testWithAllTypedArrayConstructors
 (
 function
 (

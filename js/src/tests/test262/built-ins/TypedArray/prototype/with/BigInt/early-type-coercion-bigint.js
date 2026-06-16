@@ -131,7 +131,7 @@ copy
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 compareArray
@@ -148,6 +148,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -156,11 +157,14 @@ arr
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 1n
 2n
 ]
+)
 )
 ;
 var
@@ -215,6 +219,13 @@ arr
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

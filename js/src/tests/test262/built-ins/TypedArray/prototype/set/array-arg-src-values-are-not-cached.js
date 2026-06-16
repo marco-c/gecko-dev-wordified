@@ -219,6 +219,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -227,7 +228,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 5
+)
 )
 ;
 var
@@ -330,6 +334,13 @@ sample
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

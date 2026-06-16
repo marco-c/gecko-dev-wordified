@@ -151,7 +151,7 @@ exception
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 detachArrayBuffer
@@ -174,6 +174,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -182,7 +183,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 DETACHBUFFER
@@ -211,6 +215,13 @@ reverse
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

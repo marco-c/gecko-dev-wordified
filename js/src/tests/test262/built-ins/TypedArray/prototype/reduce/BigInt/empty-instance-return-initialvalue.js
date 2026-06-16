@@ -236,7 +236,7 @@ accumulator
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -256,6 +256,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -269,6 +270,10 @@ result
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 .
 reduce

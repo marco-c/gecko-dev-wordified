@@ -108,7 +108,7 @@ invalidStrings
 .
 123
 [
-CET
+UTC
 ]
 "
 "
@@ -126,7 +126,7 @@ minutes
 .
 5
 [
-CET
+UTC
 ]
 "
 "

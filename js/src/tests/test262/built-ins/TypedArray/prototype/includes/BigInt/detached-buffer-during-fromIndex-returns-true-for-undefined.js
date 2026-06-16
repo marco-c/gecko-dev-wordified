@@ -48,7 +48,7 @@ description
 :
 >
 Returns
-false
+true
 if
 buffer
 is
@@ -58,8 +58,7 @@ ValidateTypedArray
 and
 searchElement
 is
-a
-value
+undefined
 info
 :
 |
@@ -309,6 +308,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 const
@@ -317,7 +317,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 const
@@ -357,9 +360,10 @@ true
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )

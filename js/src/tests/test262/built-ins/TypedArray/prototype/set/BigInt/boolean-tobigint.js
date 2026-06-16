@@ -313,7 +313,7 @@ false
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -333,6 +333,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -341,7 +342,10 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 typedArray
@@ -388,6 +392,13 @@ BigInt
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

@@ -109,7 +109,7 @@ len
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -129,6 +129,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -140,7 +141,10 @@ custom
 new
 TA
 (
+makeCtorArg
+(
 3
+)
 )
 ;
 var
@@ -211,6 +215,13 @@ length
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

@@ -760,6 +760,11 @@ returns
 ;
 }
 views
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

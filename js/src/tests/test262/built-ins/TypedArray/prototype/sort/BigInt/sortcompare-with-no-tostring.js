@@ -132,7 +132,7 @@ y
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 compareArray
@@ -175,6 +175,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -183,11 +184,14 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 20n
 100n
 3n
 ]
+)
 )
 ;
 var
@@ -232,6 +236,13 @@ result
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

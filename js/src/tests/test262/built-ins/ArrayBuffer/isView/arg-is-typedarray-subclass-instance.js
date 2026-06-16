@@ -125,11 +125,12 @@ js
 -
 *
 /
-testWithTypedArrayConstructors
+testWithAllTypedArrayConstructors
 (
 function
 (
 ctor
+makeCtorArg
 )
 {
 class
@@ -144,6 +145,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 assert
@@ -157,12 +162,6 @@ sample
 )
 ;
 }
-null
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

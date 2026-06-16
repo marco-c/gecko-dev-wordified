@@ -115,7 +115,7 @@ A
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 detachArrayBuffer
@@ -154,6 +154,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 let
@@ -185,10 +186,6 @@ function
 count
 )
 {
-counter
-+
-+
-;
 Other
 =
 TA
@@ -208,6 +205,10 @@ sample
 buffer
 )
 ;
+counter
++
++
+;
 other
 =
 new
@@ -226,7 +227,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 0
+)
 )
 ;
 sample
@@ -363,7 +367,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 4
+)
 )
 ;
 sample
@@ -403,6 +410,13 @@ is
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

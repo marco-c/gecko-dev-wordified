@@ -46,7 +46,7 @@ that
 Intl
 .
 DateTimeFormat
-contructor
+constructor
 converts
 the
 options

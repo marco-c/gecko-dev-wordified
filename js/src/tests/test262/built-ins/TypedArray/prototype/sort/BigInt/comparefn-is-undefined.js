@@ -98,7 +98,7 @@ includes
 compareArray
 .
 js
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -118,6 +118,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 let
@@ -126,6 +127,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42n
 44n
@@ -133,6 +136,7 @@ TA
 43n
 45n
 ]
+)
 )
 ;
 let
@@ -211,6 +215,13 @@ is
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

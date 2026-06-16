@@ -178,10 +178,10 @@ sameValue
 (
 withOverflow
 .
-calendar
+calendarId
 plainDate
 .
-calendar
+calendarId
 "
 with
 overflow
@@ -233,10 +233,10 @@ sameValue
 (
 withCalendar
 .
-calendar
+calendarId
 plainDate
 .
-calendar
+calendarId
 "
 with
 calendar

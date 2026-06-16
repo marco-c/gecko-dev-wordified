@@ -303,7 +303,7 @@ exception
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -330,6 +330,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -338,7 +339,10 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 assert
 .
@@ -368,6 +372,13 @@ Symbol
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

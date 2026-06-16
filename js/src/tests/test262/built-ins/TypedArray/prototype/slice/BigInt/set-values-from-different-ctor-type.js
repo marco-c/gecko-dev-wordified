@@ -263,7 +263,7 @@ A
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 compareArray
@@ -298,6 +298,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -306,7 +307,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 arr
+)
 )
 ;
 var

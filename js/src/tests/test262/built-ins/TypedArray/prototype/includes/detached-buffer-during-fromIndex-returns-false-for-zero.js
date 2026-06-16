@@ -58,8 +58,8 @@ ValidateTypedArray
 and
 searchElement
 is
-a
-value
+not
+undefined
 info
 :
 |
@@ -308,6 +308,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 const
@@ -316,7 +317,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 const
@@ -356,9 +360,10 @@ false
 ;
 }
 null
+null
 [
 "
-passthrough
+immutable
 "
 ]
 )

@@ -177,6 +177,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -185,7 +186,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 DETACHBUFFER
@@ -215,6 +219,13 @@ callbackfn
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

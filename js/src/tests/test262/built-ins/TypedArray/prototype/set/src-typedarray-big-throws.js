@@ -159,7 +159,7 @@ exception
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 testTypedArray
@@ -188,6 +188,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 BTA
+makeCtorArg
 )
 {
 bigTypedArray
@@ -195,9 +196,12 @@ bigTypedArray
 new
 BTA
 (
+makeCtorArg
+(
 [
 1n
 ]
+)
 )
 ;
 testWithTypedArrayConstructors
@@ -205,6 +209,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 littleTypedArray
@@ -238,6 +243,13 @@ bigTypedArray
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

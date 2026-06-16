@@ -147,6 +147,9 @@ unordered
 features
 :
 [
+Symbol
+.
+species
 TypedArray
 ]
 includes
@@ -169,6 +172,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -176,6 +180,8 @@ ta
 =
 new
 TA
+(
+makeCtorArg
 (
 [
 10
@@ -185,6 +191,7 @@ TA
 50
 60
 ]
+)
 )
 ;
 ta

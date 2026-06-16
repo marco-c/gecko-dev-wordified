@@ -136,6 +136,9 @@ js
 features
 :
 [
+Symbol
+.
+species
 TypedArray
 change
 -
@@ -152,7 +155,10 @@ copy
 /
 testWithTypedArrayConstructors
 (
+(
 TA
+makeCtorArg
+)
 =
 >
 {
@@ -162,6 +168,10 @@ ta
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 ta
@@ -202,6 +212,10 @@ ta
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 ta
@@ -250,6 +264,10 @@ ta
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 Object

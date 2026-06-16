@@ -531,6 +531,7 @@ testWithTypedArrayConstructors
 function
 (
 FA
+makeCtorArg
 )
 {
 var
@@ -547,7 +548,10 @@ samples
 new
 FA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 var
@@ -584,11 +588,14 @@ controls
 new
 FA
 (
+makeCtorArg
+(
 [
 aNaN
 aNaN
 aNaN
 ]
+)
 )
 ;
 Object
@@ -710,6 +717,12 @@ precision
 }
 }
 floatArrayConstructors
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

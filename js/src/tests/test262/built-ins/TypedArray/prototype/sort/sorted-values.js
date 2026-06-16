@@ -122,6 +122,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -132,12 +133,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 4
 3
 2
 1
 ]
+)
 )
 .
 sort
@@ -167,12 +171,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3
 4
 1
 2
 ]
+)
 )
 .
 sort
@@ -202,6 +209,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3
 4
@@ -211,6 +220,7 @@ TA
 1
 2
 ]
+)
 )
 .
 sort
@@ -239,6 +249,13 @@ numbers
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 testWithTypedArrayConstructors
@@ -246,6 +263,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -254,6 +272,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 0
@@ -261,6 +281,7 @@ TA
 0
 2
 ]
+)
 )
 .
 sort
@@ -287,6 +308,12 @@ sample
 ;
 }
 floatArrayConstructors
+null
+[
+"
+immutable
+"
+]
 )
 ;
 testWithTypedArrayConstructors
@@ -294,6 +321,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -302,6 +330,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 1
 0
@@ -309,6 +339,7 @@ TA
 0
 2
 ]
+)
 )
 .
 sort
@@ -334,6 +365,12 @@ sample
 ;
 }
 intArrayConstructors
+null
+[
+"
+immutable
+"
+]
 )
 ;
 testWithTypedArrayConstructors
@@ -341,6 +378,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -348,6 +386,8 @@ sample
 =
 new
 TA
+(
+makeCtorArg
 (
 [
 -
@@ -362,6 +402,7 @@ TA
 1
 0
 ]
+)
 )
 .
 sort
@@ -404,6 +445,12 @@ Int16Array
 Int32Array
 ]
 )
+null
+[
+"
+immutable
+"
+]
 )
 ;
 testWithTypedArrayConstructors
@@ -411,6 +458,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -420,6 +468,8 @@ sample
 =
 new
 TA
+(
+makeCtorArg
 (
 [
 0
@@ -431,6 +481,7 @@ TA
 5
 1
 ]
+)
 )
 .
 sort
@@ -464,6 +515,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 0
 .
@@ -484,6 +537,7 @@ TA
 5
 1
 ]
+)
 )
 .
 sort
@@ -529,6 +583,8 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 3
 4
@@ -538,6 +594,7 @@ Infinity
 1
 2
 ]
+)
 )
 .
 sort
@@ -566,6 +623,12 @@ infinities
 ;
 }
 floatArrayConstructors
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

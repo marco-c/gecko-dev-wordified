@@ -386,7 +386,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
-N
+makeCtorArg
 )
 {
 var
@@ -395,7 +395,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 arr
+)
 )
 ;
 calls

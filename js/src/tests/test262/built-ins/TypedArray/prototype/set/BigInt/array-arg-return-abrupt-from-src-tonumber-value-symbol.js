@@ -200,7 +200,7 @@ kNumber
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 compareArray
@@ -224,6 +224,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -266,12 +267,15 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 1n
 2n
 3n
 4n
 ]
+)
 )
 ;
 assert
@@ -315,6 +319,13 @@ exception
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

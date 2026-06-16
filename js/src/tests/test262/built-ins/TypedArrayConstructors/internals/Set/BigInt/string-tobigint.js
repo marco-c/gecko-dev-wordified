@@ -462,7 +462,7 @@ Number
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -495,6 +495,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -503,7 +504,10 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 typedArray
@@ -704,6 +708,13 @@ SyntaxError
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare
