@@ -2345,6 +2345,17 @@ ensure_child
 \
 n
 "
+"
+race
+:
+StrongRuleNode
+>
+:
+:
+ensure_child
+\
+n
+"
 /
 /
 No
