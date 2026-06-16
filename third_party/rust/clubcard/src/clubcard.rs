@@ -421,9 +421,6 @@ encoded
 universe
 .
 pub
-(
-crate
-)
 universe
 :
 UniverseMetadata
@@ -442,9 +439,6 @@ Queryable
 belongs
 .
 pub
-(
-crate
-)
 partition
 :
 PartitionMetadata
@@ -460,9 +454,6 @@ block
 metadata
 .
 pub
-(
-crate
-)
 index
 :
 ClubcardIndex
@@ -473,9 +464,6 @@ The
 matrix
 X
 pub
-(
-crate
-)
 approx_filter
 :
 Vec
@@ -492,9 +480,6 @@ The
 matrix
 Y
 pub
-(
-crate
-)
 exact_filter
 :
 Vec
