@@ -705,9 +705,6 @@ mod
 frame_builder
 ;
 mod
-frame_snap
-;
-mod
 freelist
 ;
 mod
