@@ -1144,8 +1144,8 @@ EME_LOG
 New
 Capabilities
 =
-%
-s
+{
+}
 "
 NS_ConvertUTF16toUTF8
 (
@@ -1467,8 +1467,8 @@ Logging
 deprecation
 warning
 '
-%
-s
+{
+}
 '
 to
 WebConsole
