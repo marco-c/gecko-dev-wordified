@@ -1822,8 +1822,10 @@ font
 static
 *
 /
+already_AddRefed
+<
 FT2FontEntry
-*
+>
 FT2FontEntry
 :
 :
@@ -1886,8 +1888,10 @@ FTUserFontData
 >
 ufd
 =
-new
+MakeRefPtr
+<
 FTUserFontData
+>
 (
 aFontData
 aLength
@@ -1947,8 +1951,10 @@ names
 bug
 737315
 )
+RefPtr
+<
 FT2FontEntry
-*
+>
 fe
 =
 FT2FontEntry
@@ -2019,6 +2025,10 @@ true
 }
 return
 fe
+.
+forget
+(
+)
 ;
 }
 /
@@ -13333,8 +13343,6 @@ is
 destroyed
 .
 return
-do_AddRef
-(
 FT2FontEntry
 :
 :
@@ -13346,7 +13354,6 @@ aStretchForEntry
 aStyleForEntry
 aFontData
 aLength
-)
 )
 ;
 }
