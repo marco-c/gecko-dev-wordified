@@ -795,6 +795,13 @@ VRProcessChild
 .
 h
 "
+#
+include
+"
+nsTraceRefcnt
+.
+h
+"
 using
 namespace
 mozilla
@@ -1913,6 +1920,13 @@ Init
 (
 aArgc
 aArgv
+)
+;
+nsTraceRefcnt
+:
+:
+EarlyInit
+(
 )
 ;
 AUTO_BASE_PROFILER_LABEL

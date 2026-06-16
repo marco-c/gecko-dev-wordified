@@ -192,6 +192,12 @@ char
 aClass
 )
 ;
+static
+void
+EarlyInit
+(
+)
+;
 #
 ifdef
 MOZ_ENABLE_FORKSERVER
