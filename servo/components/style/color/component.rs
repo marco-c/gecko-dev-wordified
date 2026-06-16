@@ -164,8 +164,8 @@ style_traits
 :
 {
 ParseError
-ToCss
 StyleParseErrorKind
+ToCss
 }
 ;
 /
