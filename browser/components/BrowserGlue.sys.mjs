@@ -2358,7 +2358,7 @@ lazy
 .
 SearchService
 .
-getEngineByName
+getEngineById
 (
 subject
 .
@@ -10181,7 +10181,7 @@ number
 const
 APP_DATA_VERSION
 =
-173
+175
 ;
 const
 PREF
