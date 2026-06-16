@@ -418,8 +418,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :
