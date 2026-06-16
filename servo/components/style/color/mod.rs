@@ -4388,7 +4388,7 @@ channel_keyword
 ChannelKeyword
 :
 :
-ALPHA
+Alpha
 {
 return
 Ok
