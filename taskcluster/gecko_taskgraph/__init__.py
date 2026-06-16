@@ -111,7 +111,7 @@ gecko_taskgraph
 .
 config
 import
-graph_config_schema
+GraphConfigSchema
 GECKO
 =
 os
@@ -180,7 +180,7 @@ taskgraph_config
 .
 graph_config_schema
 =
-graph_config_schema
+GraphConfigSchema
 #
 Overwrite
 Taskgraph
@@ -549,6 +549,20 @@ gecko_taskgraph
 parameters
 import
 register_parameters
+    
+from
+gecko_taskgraph
+import
+task_context
+#
+noqa
+-
+trigger
+custom
+task
+-
+context
+registration
     
 from
 gecko_taskgraph
