@@ -1413,8 +1413,6 @@ encoder
 auto
 gmpEncoder
 =
-WrapUnique
-(
 GmpVideoCodec
 :
 :
@@ -1422,7 +1420,6 @@ CreateEncoder
 (
 aFormat
 mPCHandle
-)
 )
 ;
 {
@@ -1460,14 +1457,13 @@ ReleasePluginEvent
 ;
 }
 encoder
-.
-reset
+=
+std
+:
+:
+move
 (
 gmpEncoder
-.
-release
-(
-)
 )
 ;
 break

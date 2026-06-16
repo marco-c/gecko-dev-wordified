@@ -65,6 +65,11 @@ GMPVIDEOCODEC_H_
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -96,8 +101,13 @@ GmpVideoCodec
 public
 :
 static
+std
+:
+:
+unique_ptr
+<
 WebrtcVideoEncoder
-*
+>
 CreateEncoder
 (
 const
