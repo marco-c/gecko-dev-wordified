@@ -655,6 +655,7 @@ raise
 Exception
 (
                 
+f
 "
 Unknown
 file
@@ -663,11 +664,10 @@ type
 provided
 here
 :
-%
-s
-"
-%
+{
 file_grouping
+}
+"
             
 )
         
@@ -743,6 +743,7 @@ raise
 Exception
 (
                 
+f
 "
 Could
 not
@@ -753,11 +754,10 @@ in
 this
 configuration
 :
-%
-s
-"
-%
+{
 file_grouping
+}
+"
             
 )
         
@@ -1087,15 +1087,15 @@ parse_output
         
 print
 (
+f
 "
 Writing
 results
 to
-%
-s
-"
-%
+{
 output_data_filepath
+}
+"
 )
         
 with

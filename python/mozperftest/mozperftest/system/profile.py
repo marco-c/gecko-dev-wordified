@@ -763,16 +763,16 @@ self
 .
 info
 (
+f
 "
 Applying
 use
 prefs
 from
-%
-s
-"
-%
+{
 user_js
+}
+"
 )
             
 default_prefs
@@ -805,17 +805,17 @@ self
 .
 info
 (
+f
 "
 Created
 profile
 at
-%
-s
-"
-%
+{
 profile
 .
 profile
+}
+"
 )
         
 self

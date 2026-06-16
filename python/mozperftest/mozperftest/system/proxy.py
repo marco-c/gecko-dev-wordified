@@ -1026,13 +1026,13 @@ self
 .
 info
 (
+f
 "
 Downloading
-%
-s
-"
-%
+{
 replay_file
+}
+"
 )
             
 download_file
@@ -1167,11 +1167,6 @@ extend
 -
 tool
 =
-%
-s
-"
-%
-"
 mitmproxy
 -
 android
@@ -1241,11 +1236,6 @@ extend
 -
 tool
 =
-%
-s
-"
-%
-"
 mitmproxy
 "
 ]
@@ -1314,16 +1304,16 @@ command
 extend
 (
 [
+f
 "
 -
 -
 binary
 =
-%
-s
-"
-%
+{
 binary
+}
+"
 ]
 )
         
@@ -1625,17 +1615,17 @@ self
 .
 info
 (
+f
 "
 Received
 port
 number
-%
-s
+{
+port
+}
 from
 mozproxy
 "
-%
-port
 )
         
 prefs
@@ -1787,22 +1777,22 @@ create_socket_connection
 "
 reverse
 "
+f
 "
 tcp
 :
-%
-s
-"
-%
+{
 port
+}
+"
+f
 "
 tcp
 :
-%
-s
-"
-%
+{
 port
+}
+"
 )
         
 return
@@ -1851,6 +1841,7 @@ err
 ValueError
 (
                     
+f
 "
 mozproxy
 terminated
@@ -1858,11 +1849,12 @@ early
 with
 return
 code
-%
-d
-"
-%
+{
 returncode
+:
+d
+}
+"
                 
 )
             

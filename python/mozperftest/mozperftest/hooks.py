@@ -261,6 +261,7 @@ else
 raise
 OSError
 (
+f
 "
 Could
 not
@@ -268,14 +269,10 @@ find
 hook
 module
 .
-%
-s
-"
-%
-str
-(
+{
 hook_module
-)
+}
+"
 )
     
 def
@@ -406,14 +403,14 @@ self
 .
 debug
 (
+f
 "
 Running
 hook
-%
-s
-"
-%
+{
 name
+}
+"
 )
         
 return
