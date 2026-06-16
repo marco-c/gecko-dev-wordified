@@ -505,8 +505,6 @@ already_AddRefed
 <
 U
 >
-&
-&
 aData
 )
 ;
@@ -545,8 +543,6 @@ already_AddRefed
 <
 U
 >
-&
-&
 aData
 const
 mozilla
@@ -1281,8 +1277,6 @@ already_AddRefed
 <
 U
 >
-&
-&
 aData
 )
 {
@@ -1358,8 +1352,6 @@ already_AddRefed
 <
 U
 >
-&
-&
 aData
 const
 mozilla

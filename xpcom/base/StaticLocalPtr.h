@@ -634,8 +634,6 @@ already_AddRefed
 <
 T
 >
-&
-&
 aPtr
 )
 :

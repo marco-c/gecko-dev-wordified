@@ -3859,8 +3859,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aRunnable
 )
 {
@@ -3932,8 +3930,6 @@ already_AddRefed
 <
 nsIRunnable
 >
-&
-&
 aTransaction
 )
 {
