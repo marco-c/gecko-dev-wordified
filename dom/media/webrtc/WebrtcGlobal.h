@@ -1377,6 +1377,8 @@ mIceLocalUsernameFragment
 mDtlsState
 mIceState
 mSelectedCandidatePairId
+mTlsVersion
+mDtlsCipher
 mDtlsRole
 mSrtpCipher
 )
