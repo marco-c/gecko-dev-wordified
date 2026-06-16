@@ -4846,8 +4846,6 @@ already_AddRefed
 <
 nsIContent
 >
-&
-&
 aContent
 )
 {

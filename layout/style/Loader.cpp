@@ -1901,8 +1901,6 @@ already_AddRefed
 <
 SubResourceNetworkMetadataHolder
 >
-&
-&
 aNetworkMetadata
 )
 :
@@ -2171,8 +2169,6 @@ already_AddRefed
 <
 SubResourceNetworkMetadataHolder
 >
-&
-&
 aNetworkMetadata
 )
 :
@@ -2470,8 +2466,6 @@ already_AddRefed
 <
 SubResourceNetworkMetadataHolder
 >
-&
-&
 aNetworkMetadata
 )
 :
