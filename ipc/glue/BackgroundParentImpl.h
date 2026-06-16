@@ -583,7 +583,13 @@ uint64_t
 &
 aBrowsingContextID
 const
+mozilla
+:
+:
+Maybe
+<
 IPCClientInfo
+>
 &
 aClientInfo
 const
