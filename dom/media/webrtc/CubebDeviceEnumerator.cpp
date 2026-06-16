@@ -1144,8 +1144,10 @@ aSide
 RefPtr
 set
 =
-new
+MakeRefPtr
+<
 AudioDeviceSet
+>
 (
 )
 ;
@@ -1584,8 +1586,10 @@ GetCubeb
 )
 {
 return
-new
+MakeRefPtr
+<
 AudioDeviceSet
+>
 (
 )
 ;
@@ -1697,8 +1701,10 @@ _ns
 RefPtr
 devices
 =
-new
+MakeRefPtr
+<
 AudioDeviceSet
+>
 (
 )
 ;
