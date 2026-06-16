@@ -79987,7 +79987,7 @@ columnLineInfo
 =
 new
 ComputedGridLineInfo
-(
+{
 std
 :
 :
@@ -80016,7 +80016,7 @@ move
 (
 colNamesFollowingRepeat
 )
-)
+}
 ;
 SetProperty
 (
@@ -80370,7 +80370,7 @@ rowLineInfo
 =
 new
 ComputedGridLineInfo
-(
+{
 std
 :
 :
@@ -80399,7 +80399,7 @@ move
 (
 rowNamesFollowingRepeat
 )
-)
+}
 ;
 SetProperty
 (
