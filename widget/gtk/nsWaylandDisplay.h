@@ -1287,6 +1287,11 @@ WaitForAsyncRoundtrips
 )
 ;
 void
+RequestRoundtrip
+(
+)
+;
+void
 RefreshScreens
 (
 )
