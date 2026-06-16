@@ -3322,11 +3322,12 @@ a
 single
 password
             
+await
 Services
 .
 logins
 .
-removeAllLogins
+removeAllLoginsAsync
 (
 )
 ;
