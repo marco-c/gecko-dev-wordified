@@ -2078,6 +2078,8 @@ char16_t
 aMaskChar
 bool
 aCaseTransformsOnly
+bool
+aUseCapitalEsZet
 const
 nsAtom
 *
@@ -4843,12 +4845,7 @@ ch
 0x00DF
 &
 &
-StaticPrefs
-:
-:
-layout_css_text_transform_uppercase_eszett_enabled
-(
-)
+aUseCapitalEsZet
 )
 {
 ch
@@ -6215,6 +6212,7 @@ aCaseTransformsOnly
 *
 /
 false
+mUseCapitalEsZet
 nullptr
 charsToMergeArray
 deletedCharsArray

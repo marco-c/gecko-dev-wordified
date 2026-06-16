@@ -874,6 +874,13 @@ aCaseTransformsOnly
 *
 /
 false
+/
+*
+aUseCapitalEsZet
+=
+*
+/
+false
 language
 charsToMergeArray
 deletedCharsArray
