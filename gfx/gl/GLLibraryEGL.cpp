@@ -3622,17 +3622,6 @@ if
 mIsANGLE
 )
 {
-MOZ_ASSERT
-(
-IsExtensionSupported
-(
-EGLLibExtension
-:
-:
-ANGLE_platform_angle_d3d
-)
-)
-;
 const
 SymLoadStruct
 angleSymbols
@@ -3674,6 +3663,9 @@ return
 false
 ;
 }
+#
+ifdef
+XP_WIN
 MOZ_ASSERT
 (
 IsExtensionSupported
@@ -3685,6 +3677,8 @@ ANGLE_platform_angle_d3d
 )
 )
 ;
+#
+endif
 const
 SymLoadStruct
 createDeviceSymbols
