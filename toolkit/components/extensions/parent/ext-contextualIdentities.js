@@ -869,6 +869,10 @@ getSupportedColors
 (
 )
 {
+checkAPIEnabled
+(
+)
+;
 return
 ContextualIdentityService
 .
@@ -898,6 +902,10 @@ getSupportedIcons
 (
 )
 {
+checkAPIEnabled
+(
+)
+;
 return
 ContextualIdentityService
 .
