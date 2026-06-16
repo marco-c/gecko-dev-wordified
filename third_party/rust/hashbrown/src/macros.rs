@@ -9,7 +9,7 @@ crate
 .
 #
 [
-expect
+allow
 (
 unused_macro_rules
 )

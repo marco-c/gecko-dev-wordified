@@ -101,7 +101,7 @@ use
 crate
 :
 :
-alloc
+raw
 :
 :
 Allocator
@@ -134,7 +134,7 @@ marker
 PhantomData
 ;
 use
-serde
+serde_core
 :
 :
 de
@@ -148,7 +148,7 @@ Visitor
 }
 ;
 use
-serde
+serde_core
 :
 :
 ser
@@ -161,6 +161,9 @@ Serializer
 ;
 use
 crate
+:
+:
+hash_map
 :
 :
 HashMap
@@ -602,7 +605,7 @@ use
 crate
 :
 :
-alloc
+raw
 :
 :
 Allocator
@@ -635,7 +638,7 @@ marker
 PhantomData
 ;
 use
-serde
+serde_core
 :
 :
 de
@@ -649,7 +652,7 @@ Visitor
 }
 ;
 use
-serde
+serde_core
 :
 :
 ser
@@ -662,6 +665,9 @@ Serializer
 ;
 use
 crate
+:
+:
+hash_set
 :
 :
 HashSet
@@ -1064,6 +1070,16 @@ deserialize_seq
 visitor
 )
 }
+#
+[
+allow
+(
+clippy
+:
+:
+missing_errors_doc
+)
+]
 fn
 deserialize_in_place
 <

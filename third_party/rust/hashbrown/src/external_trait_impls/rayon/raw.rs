@@ -2,13 +2,10 @@ use
 crate
 :
 :
-alloc
+raw
 :
 :
-{
-Allocator
-Global
-}
+Bucket
 ;
 use
 crate
@@ -18,7 +15,8 @@ raw
 :
 :
 {
-Bucket
+Allocator
+Global
 RawIter
 RawIterRange
 RawTable
@@ -65,7 +63,6 @@ iter
 :
 :
 {
-ParallelIterator
 plumbing
 :
 :
@@ -75,6 +72,7 @@ Folder
 UnindexedConsumer
 UnindexedProducer
 }
+ParallelIterator
 }
 ;
 /
@@ -96,9 +94,6 @@ the
 table
 .
 pub
-(
-crate
-)
 struct
 RawParIter
 <
@@ -521,9 +516,6 @@ returns
 elements
 .
 pub
-(
-crate
-)
 struct
 RawIntoParIter
 <
@@ -588,8 +580,6 @@ RawParIter
 T
 >
 {
-unsafe
-{
 self
 .
 table
@@ -597,7 +587,6 @@ table
 par_iter
 (
 )
-}
 }
 }
 impl
@@ -761,9 +750,6 @@ table
 storage
 .
 pub
-(
-crate
-)
 struct
 RawParDrain
 <
@@ -897,8 +883,6 @@ RawParIter
 T
 >
 {
-unsafe
-{
 self
 .
 table
@@ -910,7 +894,6 @@ as_ref
 par_iter
 (
 )
-}
 }
 }
 impl
@@ -1496,9 +1479,6 @@ inline
 )
 ]
 pub
-(
-crate
-)
 unsafe
 fn
 par_iter
@@ -1513,8 +1493,6 @@ RawParIter
 T
 >
 {
-unsafe
-{
 RawParIter
 {
 iter
@@ -1526,7 +1504,6 @@ iter
 )
 .
 iter
-}
 }
 }
 /
@@ -1558,9 +1535,6 @@ inline
 )
 ]
 pub
-(
-crate
-)
 fn
 into_par_iter
 (
@@ -1619,9 +1593,6 @@ inline
 )
 ]
 pub
-(
-crate
-)
 fn
 par_drain
 (
