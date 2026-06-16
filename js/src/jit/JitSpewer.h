@@ -169,6 +169,7 @@ define
 JITSPEW_CHANNEL
 (
 name
+help
 )
 JitSpew_
 #
@@ -620,6 +621,7 @@ define
 JITSPEW_MODULE_PTR
 (
 name
+help
 )
 &
 name
