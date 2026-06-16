@@ -348,9 +348,6 @@ chmod
 link
 "
 "
-symlink
-"
-"
 mkdir
 "
 "
