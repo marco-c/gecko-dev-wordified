@@ -46595,7 +46595,7 @@ BottomLayer
 mClip
 !
 =
-StyleGeometryBox
+StyleBackgroundClip
 :
 :
 BorderBox

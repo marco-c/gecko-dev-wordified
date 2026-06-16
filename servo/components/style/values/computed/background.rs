@@ -114,7 +114,10 @@ specified
 background
 :
 :
+{
+BackgroundClip
 BackgroundRepeat
+}
 ;
 /
 /
