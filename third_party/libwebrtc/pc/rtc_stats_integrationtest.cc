@@ -4190,6 +4190,15 @@ candidate
 tcp_type
 )
 ;
+verifier
+.
+TestAttributeIsUndefined
+(
+candidate
+.
+network_slice
+)
+;
 return
 verifier
 .

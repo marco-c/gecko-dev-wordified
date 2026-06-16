@@ -869,6 +869,14 @@ networkAdapterType
 &
 network_adapter_type
 )
+AttributeInit
+(
+"
+networkSlice
+"
+&
+network_slice
+)
 )
 /
 /
