@@ -444,6 +444,16 @@ drawable
 /
 mozac_ic_add_to_homescreen_24
 "
+app
+:
+tint
+=
+"
+?
+attr
+/
+colorOnSurface
+"
 /
 >
 <
