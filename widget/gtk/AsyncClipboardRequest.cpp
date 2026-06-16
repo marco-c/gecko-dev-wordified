@@ -303,9 +303,6 @@ release
 ;
 }
 }
-#
-ifdef
-MOZ_X11
 struct
 DataRequestGtk
 :
@@ -1074,8 +1071,6 @@ break
 }
 }
 }
-#
-endif
 #
 ifdef
 MOZ_WAYLAND
