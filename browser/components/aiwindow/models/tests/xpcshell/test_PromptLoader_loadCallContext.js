@@ -282,7 +282,7 @@ CHAT
 version
 :
 "
-5
+6
 .
 0
 "
@@ -831,7 +831,7 @@ CHAT
 version
 :
 "
-5
+6
 .
 0
 "
@@ -922,7 +922,7 @@ assistant
 version
 :
 "
-5
+6
 .
 0
 "
@@ -1122,7 +1122,7 @@ CHAT
 version
 :
 "
-5
+6
 .
 0
 "
@@ -1546,7 +1546,7 @@ CHAT
 version
 :
 "
-5
+6
 .
 0
 "

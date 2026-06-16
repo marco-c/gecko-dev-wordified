@@ -465,7 +465,7 @@ MOCK_RS_RECORDS
 "
 chat
 "
-5
+6
 ]
 [
 "
@@ -857,7 +857,7 @@ prompt
 version
 :
 "
-v5
+v6
 .
 0
 "
@@ -913,7 +913,7 @@ prompt
 version
 :
 "
-v5
+v6
 .
 0
 "
@@ -963,7 +963,7 @@ prompt
 version
 :
 "
-v5
+v6
 .
 0
 "
