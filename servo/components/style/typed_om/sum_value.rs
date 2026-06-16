@@ -84,6 +84,7 @@ typed_om
 :
 :
 {
+MathValue
 NumericValue
 UnitValue
 }
@@ -649,9 +650,15 @@ CSSMathSum
 NumericValue
 :
 :
+Math
+(
+MathValue
+:
+:
 Sum
 (
 math_sum
+)
 )
 =
 >
