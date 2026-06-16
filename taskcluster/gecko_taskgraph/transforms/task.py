@@ -270,7 +270,6 @@ util
 attributes
 import
 TRUNK_PROJECTS
-is_try
 release_level
 from
 gecko_taskgraph
@@ -6357,20 +6356,6 @@ suffix
 =
 cache_version
         
-skip_untrusted
-=
-is_try
-(
-config
-.
-params
-)
-or
-level
-=
-=
-1
-        
 for
 cache
 in
@@ -6419,7 +6404,10 @@ untrusted
 "
 )
 and
-skip_untrusted
+level
+=
+=
+1
 :
                 
 continue
@@ -6645,7 +6633,10 @@ cache
 "
 )
 and
-skip_untrusted
+level
+=
+=
+1
 :
         
 payload
@@ -19130,23 +19121,11 @@ try
     
 cap
 =
-(
-        
 "
 28
 days
 "
-        
 if
-is_try
-(
-config
-.
-params
-)
-and
-int
-(
 config
 .
 params
@@ -19155,15 +19134,13 @@ params
 level
 "
 ]
-)
 =
 =
+"
 1
-        
+"
 else
 None
-    
-)
     
 cap_from_now
 =

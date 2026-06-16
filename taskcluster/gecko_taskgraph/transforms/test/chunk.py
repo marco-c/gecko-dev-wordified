@@ -91,14 +91,6 @@ gecko_taskgraph
 .
 util
 .
-attributes
-import
-is_try
-from
-gecko_taskgraph
-.
-util
-.
 chunking
 import
 (
@@ -272,12 +264,17 @@ chunks
 perfile_number_of_chunks
 (
                 
-is_try
-(
 config
 .
 params
-)
+[
+"
+try_mode
+"
+]
+is
+not
+None
                 
 env
 .
