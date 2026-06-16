@@ -5474,6 +5474,8 @@ notification
 .
 menubutton
 .
+chevronButtonEl
+.
 click
 (
 )

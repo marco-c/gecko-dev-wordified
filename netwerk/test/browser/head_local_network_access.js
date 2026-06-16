@@ -188,7 +188,7 @@ notification
 .
 button
 .
-doCommand
+click
 (
 )
 ;
@@ -212,7 +212,7 @@ notification
 .
 secondaryButton
 .
-doCommand
+click
 (
 )
 ;
@@ -1235,18 +1235,6 @@ lna
 blocking
 "
 true
-]
-[
-"
-network
-.
-http
-.
-rcwn
-.
-enabled
-"
-false
 ]
 [
 "

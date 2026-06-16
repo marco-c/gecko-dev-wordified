@@ -1271,7 +1271,7 @@ notification
 .
 secondaryButton
 .
-doCommand
+click
 (
 )
 ;
@@ -1607,7 +1607,7 @@ notification
 .
 button
 .
-doCommand
+click
 (
 )
 ;
@@ -2931,7 +2931,7 @@ notification
 .
 secondaryButton
 .
-doCommand
+click
 (
 )
 ;

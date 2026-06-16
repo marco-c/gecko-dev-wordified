@@ -832,7 +832,7 @@ mainActionButton
 ;
 mainActionButton
 .
-doCommand
+click
 (
 )
 ;
