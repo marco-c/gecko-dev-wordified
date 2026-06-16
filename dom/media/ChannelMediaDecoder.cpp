@@ -1231,10 +1231,8 @@ forget
 )
 ;
 }
-already_AddRefed
-<
 MediaDecoderStateMachineBase
->
+*
 ChannelMediaDecoder
 :
 :
@@ -1446,10 +1444,8 @@ aDisableExternalEngine
 )
 {
 return
-MakeAndAddRef
-<
+new
 ExternalEngineStateMachine
->
 (
 this
 mReader
@@ -1459,10 +1455,8 @@ mReader
 #
 endif
 return
-MakeAndAddRef
-<
+new
 MediaDecoderStateMachine
->
 (
 this
 mReader

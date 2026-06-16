@@ -321,10 +321,8 @@ HLSDecoder
 (
 )
 ;
-already_AddRefed
-<
 MediaDecoderStateMachineBase
->
+*
 CreateStateMachine
 (
 bool

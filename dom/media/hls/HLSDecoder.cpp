@@ -2080,10 +2080,8 @@ sAllocatedInstances
 )
 ;
 }
-already_AddRefed
-<
 MediaDecoderStateMachineBase
->
+*
 HLSDecoder
 :
 :
@@ -2201,10 +2199,8 @@ GetPlayerId
 )
 ;
 return
-MakeAndAddRef
-<
+new
 MediaDecoderStateMachine
->
 (
 this
 mReader
