@@ -4649,6 +4649,10 @@ current_description
 )
 const
 {
+RTC_DCHECK_DISALLOW_THREAD_BLOCKING_CALLS
+(
+)
+;
 /
 /
 Must
