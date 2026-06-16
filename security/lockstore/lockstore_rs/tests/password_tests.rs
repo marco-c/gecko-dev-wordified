@@ -325,8 +325,6 @@ KekType
 :
 :
 LocalKey
-"
-"
 b
 "
 "

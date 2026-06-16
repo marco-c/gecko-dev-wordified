@@ -207,10 +207,6 @@ async
 function
 mintLocalKek
 (
-identifier
-=
-"
-"
 )
 {
 return
@@ -223,7 +219,6 @@ createKek
 "
 local
 "
-identifier
 "
 "
 /
@@ -251,13 +246,6 @@ createKek
 (
 "
 password
-"
-/
-*
-identifier
-*
-/
-"
 "
 password
 /

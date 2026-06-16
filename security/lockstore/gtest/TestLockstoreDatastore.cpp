@@ -437,8 +437,6 @@ mKeystore
 kekType
 &
 empty
-&
-empty
 /
 *
 cache_timeout_ms
