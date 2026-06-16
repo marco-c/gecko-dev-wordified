@@ -48,7 +48,7 @@ supporting
 platforms
 and
 features
-needded
+needed
 by
 Firefox
 and
@@ -534,7 +534,7 @@ on
 :
 ref
 :
-mozilla_projects_nss_nss_sources_building_testing
+mozilla_projects_nss_building
 to
 get
 started

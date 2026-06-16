@@ -785,6 +785,11 @@ CKR_MECHANISM_INVALID
 break
 ;
 }
+sftk_FreeAttribute
+(
+att
+)
+;
 if
 (
 context

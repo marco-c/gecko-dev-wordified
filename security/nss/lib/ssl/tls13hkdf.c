@@ -1102,10 +1102,10 @@ handshakeHashLen
 |
 (
 labelLen
-+
-kLabelPrefixLen
 >
 255
+-
+kLabelPrefixLen
 )
 )
 {
