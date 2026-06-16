@@ -706,7 +706,7 @@ test
 "
 )
 /
-NS_ERROR_FAILURE
+NS_ERROR_UNEXPECTED
 /
 "
 Executing
