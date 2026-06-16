@@ -1377,6 +1377,14 @@ aStatus
 )
 ;
 }
+else
+{
+MarkBlockAncestorHavingAbsoluteDescendants
+(
+aReflowInput
+)
+;
+}
 }
 void
 nsRubyFrame
