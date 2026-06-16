@@ -4852,10 +4852,6 @@ UsingConnect
 MOZ_ASSERT
 (
 mProxyConnectResponseHead
-.
-isSome
-(
-)
 )
 ;
 httpTransaction
@@ -4863,7 +4859,6 @@ httpTransaction
 >
 OnProxyConnectComplete
 (
-*
 mProxyConnectResponseHead
 )
 ;
@@ -8020,7 +8015,10 @@ request
 .
 mProxyConnectResponseHead
 =
-Some
+MakeRefPtr
+<
+ProxyConnectResponseHead
+>
 (
 responseHead
 )
@@ -8086,7 +8084,7 @@ mTransaction
 >
 OnProxyConnectComplete
 (
-responseHead
+mProxyConnectResponseHead
 )
 ;
 if

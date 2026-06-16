@@ -17617,6 +17617,10 @@ aResponseCode
 mProxyConnectResponseHead
 -
 >
+Head
+(
+)
+.
 Status
 (
 )
@@ -17679,6 +17683,10 @@ return
 mProxyConnectResponseHead
 -
 >
+Head
+(
+)
+.
 GetHeader
 (
 nsHttp
@@ -64273,10 +64281,8 @@ ProxyFailover
 )
 {
 mProxyConnectResponseHead
-.
-reset
-(
-)
+=
+nullptr
 ;
 return
 NS_OK
