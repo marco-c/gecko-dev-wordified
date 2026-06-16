@@ -52,6 +52,13 @@ Assertions
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 js
 {
