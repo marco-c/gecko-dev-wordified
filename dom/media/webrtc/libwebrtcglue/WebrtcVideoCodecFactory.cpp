@@ -748,8 +748,6 @@ decoder
 auto
 gmpDecoder
 =
-WrapUnique
-(
 GmpVideoCodec
 :
 :
@@ -757,7 +755,6 @@ CreateDecoder
 (
 mPCHandle
 mTrackingId
-)
 )
 ;
 {
@@ -795,14 +792,13 @@ ReleasePluginEvent
 ;
 }
 decoder
-.
-reset
+=
+std
+:
+:
+move
 (
 gmpDecoder
-.
-release
-(
-)
 )
 ;
 break

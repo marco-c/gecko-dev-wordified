@@ -125,8 +125,13 @@ aPCHandle
 )
 ;
 static
+std
+:
+:
+unique_ptr
+<
 WebrtcVideoDecoder
-*
+>
 CreateDecoder
 (
 std
