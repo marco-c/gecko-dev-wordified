@@ -188,8 +188,6 @@ actors
 0
 ]
 .
-sourceObject
-.
 url
 .
 endsWith

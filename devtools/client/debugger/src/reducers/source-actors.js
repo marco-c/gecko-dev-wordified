@@ -137,7 +137,7 @@ create
 .
 js
 :
-createScriptSourceActor
+createSourceActor
 for
 the
 shape

@@ -134,7 +134,7 @@ create
 .
 js
 :
-createScriptSourceActor
+createSourceActor
 (
 )
 *
@@ -335,7 +335,7 @@ create
 .
 js
 :
-createScriptSourceActor
+createSourceActor
 (
 )
 *
