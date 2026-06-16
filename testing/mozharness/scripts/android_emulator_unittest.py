@@ -3223,25 +3223,6 @@ tests
 ]
 )
         
-try_options
-try_tests
-=
-self
-.
-try_args
-(
-self
-.
-test_suite
-)
-        
-cmd
-.
-extend
-(
-try_options
-)
-        
 if
 not
 self
@@ -3289,8 +3270,6 @@ tests
 )
                     
 None
-                    
-try_tests
                 
 )
             
