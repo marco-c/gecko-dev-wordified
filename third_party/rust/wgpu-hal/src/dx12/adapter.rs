@@ -6026,7 +6026,7 @@ u64
 16
 /
 /
-254
+256
 min_uniform_buffer_offset_alignment
 :
 Direct3D12

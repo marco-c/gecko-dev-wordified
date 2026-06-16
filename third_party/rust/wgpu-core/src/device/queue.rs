@@ -5966,9 +5966,8 @@ if
 has_copy_partial_init_tracker_coverage
 (
 size
+&
 destination
-.
-mip_level
 &
 dst
 .
@@ -7828,9 +7827,8 @@ has_copy_partial_init_tracker_coverage
 (
 &
 size
+&
 destination
-.
-mip_level
 &
 dst
 .
