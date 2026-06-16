@@ -7236,6 +7236,10 @@ of
 given
 type
 .
+ReleaseEncoder
+(
+)
+;
 encoder_
 .
 reset
