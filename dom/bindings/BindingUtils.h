@@ -5115,7 +5115,7 @@ false
 )
 {
 }
-void
+bool
 onChild
 (
 JS
@@ -5150,6 +5150,9 @@ TraceProtoAndIfaceCache
 was
 called
 .
+return
+true
+;
 }
 }
 ;
@@ -23476,8 +23479,6 @@ already_AddRefed
 <
 S
 >
-&
-&
 aPtr
 )
 {
