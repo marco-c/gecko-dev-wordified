@@ -658,6 +658,17 @@ IsSogouActive
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
+static
+bool
+IsWeChatIMEActive
+(
+)
+;
 /
 /
 Note
