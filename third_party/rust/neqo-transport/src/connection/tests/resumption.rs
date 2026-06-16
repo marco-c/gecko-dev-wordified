@@ -113,7 +113,12 @@ use
 nss
 :
 :
+{
 AuthenticationStatus
+RecordProtectionOps
+as
+_
+}
 ;
 use
 test_fixture
@@ -887,7 +892,8 @@ packet
 .
 let
 (
-aead
+aead_enc
+aead_dec
 hp
 )
 =
@@ -953,7 +959,7 @@ let
 mut
 plaintext
 =
-aead
+aead_dec
 .
 decrypt
 (
@@ -1138,7 +1144,7 @@ MIN_INITIAL_PACKET_SIZE
 0
 )
 ;
-aead
+aead_enc
 .
 encrypt
 (

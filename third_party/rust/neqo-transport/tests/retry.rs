@@ -166,6 +166,9 @@ nss
 :
 {
 AuthenticationStatus
+RecordProtectionOps
+as
+_
 generate_ech_keys
 }
 ;
@@ -4944,7 +4947,8 @@ keys
 .
 let
 (
-aead
+aead_enc
+aead_dec
 hp
 )
 =
@@ -5012,7 +5016,7 @@ len
 let
 plaintext
 =
-aead
+aead_dec
 .
 decrypt
 (
@@ -5197,7 +5201,7 @@ u8
 default
 )
 ;
-aead
+aead_enc
 .
 encrypt
 (
@@ -5635,6 +5639,7 @@ DCID
 .
 let
 (
+_
 aead_orig
 hp_orig
 )
@@ -5839,6 +5844,7 @@ DCID
 let
 (
 aead_short
+_
 hp_short
 )
 =

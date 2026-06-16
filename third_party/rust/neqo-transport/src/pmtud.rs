@@ -3027,7 +3027,7 @@ prot
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 ;
@@ -4242,7 +4242,7 @@ prot
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 ;
@@ -4644,7 +4644,7 @@ probe_size
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 .
@@ -4820,7 +4820,7 @@ prot
 CryptoDxState
 :
 :
-test_default
+test_default_write
 (
 )
 ;
