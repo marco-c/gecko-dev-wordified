@@ -7873,8 +7873,6 @@ already_AddRefed
 <
 SharedImmutableScriptData
 >
-&
-&
 data
 )
 {
