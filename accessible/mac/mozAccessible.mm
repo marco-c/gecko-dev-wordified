@@ -6045,7 +6045,7 @@ eSecondary
 nsIWidget
 :
 :
-NativeModifiers
+Modifiers
 :
 :
 NO_MODIFIERS

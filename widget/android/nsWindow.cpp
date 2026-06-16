@@ -20268,7 +20268,7 @@ aButton
 nsIWidget
 :
 :
-NativeModifiers
+Modifiers
 aModifierFlags
 nsISynthesizedEventCallback
 *
@@ -20685,7 +20685,7 @@ eNotPressed
 nsIWidget
 :
 :
-NativeModifiers
+Modifiers
 :
 :
 NO_MODIFIERS

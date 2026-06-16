@@ -3177,10 +3177,7 @@ KeyPair
 >
 *
 aArray
-nsIWidget
-:
-:
-NativeModifiers
+uint32_t
 aModifiers
 UINT
 aMessage
