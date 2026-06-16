@@ -4327,7 +4327,6 @@ mEditingHost
 <
 <
 "
-<
 mIgnoredLineBreak
 :
 "
