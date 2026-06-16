@@ -5277,6 +5277,9 @@ ModuleObject
 module
 )
 ;
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 static
 ModuleEnvironmentObject
 *
@@ -5293,6 +5296,8 @@ ModuleObject
 module
 )
 ;
+#
+endif
 ModuleObject
 &
 module

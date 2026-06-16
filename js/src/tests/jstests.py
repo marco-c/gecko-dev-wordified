@@ -4469,17 +4469,9 @@ recognized_prefs
 set
 (
 [
-        
 "
 wasm_js_promise_integration
 "
-        
-"
-experimental
-.
-wasm_esm_integration
-"
-    
 ]
 )
     

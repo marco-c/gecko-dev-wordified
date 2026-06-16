@@ -3752,6 +3752,9 @@ return
 env
 ;
 }
+#
+ifdef
+ENABLE_SOURCE_PHASE_IMPORTS
 /
 *
 static
@@ -3979,6 +3982,8 @@ return
 env
 ;
 }
+#
+endif
 ModuleObject
 &
 ModuleEnvironmentObject
