@@ -141,9 +141,9 @@ const
 Environment
 &
 env
-Thread
+SocketServer
 *
-thread
+ss
 const
 SocketAddress
 &
@@ -156,12 +156,7 @@ env
 )
 server_socket_
 (
-thread
--
->
-socketserver
-(
-)
+ss
 -
 >
 Create

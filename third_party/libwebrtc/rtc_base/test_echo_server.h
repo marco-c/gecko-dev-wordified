@@ -142,6 +142,17 @@ h
 #
 include
 "
+api
+/
+task_queue
+/
+task_queue_base
+.
+h
+"
+#
+include
+"
 rtc_base
 /
 async_packet_socket
@@ -211,7 +222,7 @@ include
 "
 rtc_base
 /
-thread
+socket_server
 .
 h
 "
@@ -250,9 +261,9 @@ const
 Environment
 &
 env
-Thread
+SocketServer
 *
-thread
+ss
 const
 SocketAddress
 &
@@ -571,7 +582,7 @@ extract
 iter
 )
 ;
-Thread
+TaskQueueBase
 :
 :
 Current
