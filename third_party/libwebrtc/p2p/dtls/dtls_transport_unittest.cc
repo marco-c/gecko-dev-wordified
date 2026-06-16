@@ -231,15 +231,6 @@ include
 "
 api
 /
-field_trials_view
-.
-h
-"
-#
-include
-"
-api
-/
 ice_transport_interface
 .
 h
@@ -5868,6 +5859,10 @@ set_ssl_stream_factory
 &
 ]
 (
+const
+Environment
+&
+env
 std
 :
 :
@@ -5887,10 +5882,6 @@ SSLHandshakeError
 )
 >
 handshake_error_callback
-const
-FieldTrialsView
-*
-field_trials
 )
 {
 auto
@@ -5909,6 +5900,7 @@ SSLStreamAdapter
 :
 Create
 (
+env
 std
 :
 :
@@ -5923,7 +5915,6 @@ move
 (
 handshake_error_callback
 )
-field_trials
 )
 )
 ;
@@ -6017,6 +6008,10 @@ set_ssl_stream_factory
 &
 ]
 (
+const
+Environment
+&
+env
 std
 :
 :
@@ -6036,10 +6031,6 @@ SSLHandshakeError
 )
 >
 handshake_error_callback
-const
-FieldTrialsView
-*
-field_trials
 )
 {
 auto
@@ -6058,6 +6049,7 @@ SSLStreamAdapter
 :
 Create
 (
+env
 std
 :
 :
@@ -6072,7 +6064,6 @@ move
 (
 handshake_error_callback
 )
-field_trials
 )
 )
 ;

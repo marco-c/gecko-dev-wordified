@@ -186,15 +186,6 @@ include
 "
 api
 /
-field_trials_view
-.
-h
-"
-#
-include
-"
-api
-/
 ice_transport_interface
 .
 h
@@ -1116,6 +1107,9 @@ unique_ptr
 SSLStreamAdapter
 >
 (
+const
+Environment
+&
 std
 :
 :
@@ -1134,10 +1128,6 @@ SSLHandshakeError
 )
 >
 handshake_error_callback
-const
-FieldTrialsView
-*
-field_trials
 )
 >
 ;
