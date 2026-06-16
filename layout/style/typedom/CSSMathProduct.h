@@ -303,6 +303,8 @@ CSSPropertyId
 aPropertyId
 bool
 aNested
+bool
+aParenLess
 nsACString
 &
 aDest

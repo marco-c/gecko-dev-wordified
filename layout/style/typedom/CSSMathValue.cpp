@@ -661,6 +661,8 @@ CSSPropertyId
 aPropertyId
 bool
 aNested
+bool
+aParenLess
 nsACString
 &
 aDest
@@ -780,6 +782,7 @@ ToCssTextWithProperty
 (
 aPropertyId
 aNested
+aParenLess
 aDest
 )
 ;
@@ -808,6 +811,7 @@ ToCssTextWithProperty
 (
 aPropertyId
 aNested
+aParenLess
 aDest
 )
 ;
@@ -836,6 +840,7 @@ ToCssTextWithProperty
 (
 aPropertyId
 aNested
+aParenLess
 aDest
 )
 ;
@@ -864,6 +869,7 @@ ToCssTextWithProperty
 (
 aPropertyId
 aNested
+aParenLess
 aDest
 )
 ;
