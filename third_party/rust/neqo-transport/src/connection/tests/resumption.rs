@@ -110,14 +110,14 @@ Role
 }
 ;
 use
-neqo_crypto
+nss
 :
 :
 {
-AeadTrait
+AuthenticationStatus
+RecordProtectionOps
 as
 _
-AuthenticationStatus
 }
 ;
 use
@@ -892,7 +892,8 @@ packet
 .
 let
 (
-aead
+aead_enc
+aead_dec
 hp
 )
 =
@@ -958,7 +959,7 @@ let
 mut
 plaintext
 =
-aead
+aead_dec
 .
 decrypt
 (
@@ -1143,7 +1144,7 @@ MIN_INITIAL_PACKET_SIZE
 0
 )
 ;
-aead
+aead_enc
 .
 encrypt
 (
