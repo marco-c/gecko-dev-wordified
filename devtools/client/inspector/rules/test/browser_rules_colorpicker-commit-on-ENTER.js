@@ -335,9 +335,11 @@ ruleView
 once
 (
 "
-ruleview
+property
 -
-changed
+value
+-
+updated
 "
 )
 ;

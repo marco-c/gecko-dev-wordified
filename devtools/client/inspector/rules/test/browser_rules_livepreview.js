@@ -414,6 +414,13 @@ flush
 await
 onPreviewDone
 ;
+if
+(
+data
+.
+escape
+)
+{
 const
 onValueDone
 =
@@ -428,13 +435,6 @@ changed
 "
 )
 ;
-if
-(
-data
-.
-escape
-)
-{
 /
 /
 First
@@ -533,6 +533,9 @@ KEY_Escape
 "
 )
 ;
+await
+onValueDone
+;
 }
 else
 {
@@ -546,9 +549,6 @@ KEY_Enter
 )
 ;
 }
-await
-onValueDone
-;
 /
 /
 While
