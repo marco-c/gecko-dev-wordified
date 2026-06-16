@@ -349,13 +349,6 @@ expected
 )
 ;
 }
-null
-null
-[
-"
-immutable
-"
-]
 )
 ;
 reportCompare

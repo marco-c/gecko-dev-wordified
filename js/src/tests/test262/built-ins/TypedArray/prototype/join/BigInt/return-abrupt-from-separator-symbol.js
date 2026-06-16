@@ -215,7 +215,6 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -224,10 +223,6 @@ sample
 new
 TA
 (
-makeCtorArg
-(
-0
-)
 )
 ;
 assert
@@ -250,6 +245,12 @@ s
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

@@ -127,12 +127,11 @@ ArrayBuffer
 .
 isView
 ;
-testWithAllTypedArrayConstructors
+testWithTypedArrayConstructors
 (
 function
 (
 ctor
-makeCtorArg
 )
 {
 var
@@ -141,10 +140,6 @@ sample
 new
 ctor
 (
-makeCtorArg
-(
-0
-)
 )
 ;
 assert
@@ -164,6 +159,12 @@ TypedArray
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 var

@@ -717,12 +717,6 @@ precision
 }
 }
 floatArrayConstructors
-null
-[
-"
-immutable
-"
-]
 )
 ;
 reportCompare

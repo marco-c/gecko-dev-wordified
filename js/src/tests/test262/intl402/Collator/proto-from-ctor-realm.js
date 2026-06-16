@@ -109,6 +109,17 @@ CollatorPrototype
 internalSlotsList
 )
 .
+6
+.
+Return
+?
+InitializeCollator
+(
+collator
+locales
+options
+)
+.
 OrdinaryCreateFromConstructor
 (
 constructor

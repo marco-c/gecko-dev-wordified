@@ -287,6 +287,12 @@ descriptor
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

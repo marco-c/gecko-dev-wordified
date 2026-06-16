@@ -298,7 +298,6 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -307,10 +306,7 @@ sample
 new
 TA
 (
-makeCtorArg
-(
 arr
-)
 )
 ;
 var
@@ -402,6 +398,12 @@ ctor
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

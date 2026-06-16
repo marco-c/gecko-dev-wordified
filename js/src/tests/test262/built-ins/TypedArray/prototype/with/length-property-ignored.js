@@ -260,10 +260,16 @@ length
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 function
-setLengthOnPrototype
+setLength
 (
 length
 )
@@ -315,7 +321,7 @@ makeCtorArg
 )
 )
 ;
-setLengthOnPrototype
+setLength
 (
 2
 )
@@ -331,7 +337,7 @@ with
 0
 )
 ;
-setLengthOnPrototype
+setLength
 (
 3
 )
@@ -348,7 +354,7 @@ res
 ]
 )
 ;
-setLengthOnPrototype
+setLength
 (
 5
 )
@@ -363,7 +369,7 @@ with
 0
 )
 ;
-setLengthOnPrototype
+setLength
 (
 3
 )

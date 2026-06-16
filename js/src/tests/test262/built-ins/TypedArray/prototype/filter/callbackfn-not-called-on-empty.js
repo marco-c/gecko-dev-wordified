@@ -135,7 +135,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -146,10 +145,6 @@ called
 new
 TA
 (
-makeCtorArg
-(
-0
-)
 )
 .
 filter
@@ -174,6 +169,12 @@ called
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

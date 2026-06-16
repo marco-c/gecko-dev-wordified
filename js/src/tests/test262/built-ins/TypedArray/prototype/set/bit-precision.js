@@ -179,7 +179,6 @@ function
 body
 (
 FA
-makeCtorArg
 )
 {
 var
@@ -188,10 +187,7 @@ source
 new
 FA
 (
-makeCtorArg
-(
 NaNs
-)
 )
 ;
 var
@@ -246,12 +242,6 @@ targetBytes
 )
 }
 floatArrayConstructors
-null
-[
-"
-immutable
-"
-]
 )
 ;
 reportCompare

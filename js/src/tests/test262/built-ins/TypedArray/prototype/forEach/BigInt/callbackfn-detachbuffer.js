@@ -224,7 +224,6 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -238,10 +237,7 @@ sample
 new
 TA
 (
-makeCtorArg
-(
 2
-)
 )
 ;
 sample
@@ -286,10 +282,9 @@ loops
 ;
 }
 null
-null
 [
 "
-immutable
+passthrough
 "
 ]
 )

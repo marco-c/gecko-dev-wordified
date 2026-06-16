@@ -36,9 +36,7 @@ esid
 :
 sec
 -
-intl
-.
-collator
+initializecollator
 description
 :
 Checks
@@ -54,11 +52,6 @@ the
 Collator
 constructor
 .
-locale
-:
-[
-en
-]
 -
 -
 -

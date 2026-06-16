@@ -219,11 +219,6 @@ view
 ;
 }
 views
-[
-"
-passthrough
-"
-]
 )
 ;
 reportCompare

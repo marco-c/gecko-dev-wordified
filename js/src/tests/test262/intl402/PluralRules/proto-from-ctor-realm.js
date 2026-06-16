@@ -100,6 +100,17 @@ PluralRulesPrototype
 .
 )
 .
+3
+.
+Return
+?
+InitializePluralRules
+(
+pluralRules
+locales
+options
+)
+.
 OrdinaryCreateFromConstructor
 (
 constructor

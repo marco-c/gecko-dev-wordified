@@ -302,7 +302,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 const
@@ -311,14 +310,11 @@ sample
 new
 TA
 (
-makeCtorArg
-(
 [
 1
 2
 3
 ]
-)
 )
 ;
 const
@@ -359,10 +355,9 @@ separator
 ;
 }
 null
-null
 [
 "
-immutable
+passthrough
 "
 ]
 )

@@ -107,7 +107,7 @@ upsert
 /
 verifyProperty
 (
-WeakMap
+Map
 .
 prototype
 .

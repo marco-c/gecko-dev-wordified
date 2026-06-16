@@ -266,7 +266,6 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -280,10 +279,6 @@ result
 new
 TA
 (
-makeCtorArg
-(
-0
-)
 )
 .
 reduceRight
@@ -317,6 +312,12 @@ false
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

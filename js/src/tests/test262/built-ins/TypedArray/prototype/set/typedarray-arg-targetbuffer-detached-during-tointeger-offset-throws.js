@@ -201,7 +201,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -210,10 +209,7 @@ sample
 new
 TA
 (
-makeCtorArg
-(
 2
-)
 )
 ;
 var
@@ -222,10 +218,7 @@ src
 new
 TA
 (
-makeCtorArg
-(
 1
-)
 )
 ;
 var
@@ -288,10 +281,9 @@ calledOffset
 ;
 }
 null
-null
 [
 "
-immutable
+passthrough
 "
 ]
 )

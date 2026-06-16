@@ -308,7 +308,6 @@ testWithTypedArrayConstructors
 function
 (
 TA
-makeCtorArg
 )
 {
 var
@@ -317,10 +316,7 @@ sample
 new
 TA
 (
-makeCtorArg
-(
 arr
-)
 )
 ;
 /
@@ -381,6 +377,12 @@ expected
 )
 ;
 }
+null
+[
+"
+passthrough
+"
+]
 )
 ;
 reportCompare

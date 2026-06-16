@@ -37,9 +37,7 @@ esid
 :
 sec
 -
-intl
-.
-numberformat
+initializenumberformat
 description
 :
 >
@@ -48,7 +46,7 @@ that
 Intl
 .
 NumberFormat
-constructor
+contructor
 converts
 the
 locales

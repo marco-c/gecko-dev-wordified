@@ -36,9 +36,7 @@ esid
 :
 sec
 -
-intl
-.
-numberformat
+initializenumberformat
 description
 :
 Abrupt

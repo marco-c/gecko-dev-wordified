@@ -36,9 +36,7 @@ esid
 :
 sec
 -
-intl
-.
-collator
+initializecollator
 description
 :
 resolved

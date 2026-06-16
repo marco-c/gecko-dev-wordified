@@ -566,7 +566,7 @@ sameValue
 (
 result1
 .
-slice
+substr
 (
 -
 6
@@ -624,7 +624,7 @@ sameValue
 (
 result2
 .
-slice
+substr
 (
 -
 6
@@ -682,7 +682,7 @@ sameValue
 (
 result3
 .
-slice
+substr
 (
 -
 6
@@ -741,7 +741,7 @@ sameValue
 (
 result4
 .
-slice
+substr
 (
 -
 6
@@ -806,7 +806,7 @@ sameValue
 (
 result5
 .
-slice
+substr
 (
 -
 6
