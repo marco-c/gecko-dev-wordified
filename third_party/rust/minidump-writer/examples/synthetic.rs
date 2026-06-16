@@ -31,9 +31,9 @@ minidump_format
 :
 :
 {
-MDRawHeader
 MD_HEADER_SIGNATURE
 MD_HEADER_VERSION
+MDRawHeader
 }
 }
 std
