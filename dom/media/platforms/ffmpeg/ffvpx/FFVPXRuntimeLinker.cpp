@@ -410,8 +410,8 @@ unable
 to
 load
 library
-{
-}
+%
+s
 "
 aFile
 -
@@ -895,8 +895,8 @@ FFMPEGP_LOG
 Link
 result
 :
-{
-}
+%
+s
 "
 ToString
 (

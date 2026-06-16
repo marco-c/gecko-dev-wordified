@@ -436,8 +436,8 @@ support
 Missing
 or
 old
-{
-}
+%
+s
 library
 .
 \
@@ -537,8 +537,8 @@ support
 Missing
 or
 old
-{
-}
+%
+s
 library
 .
 \

@@ -800,7 +800,7 @@ aLogLine
 )
 override
 {
-MOZ_LOG_FMT
+MOZ_LOG
 (
 sWebRtcLog
 SeverityToLevel
@@ -811,9 +811,10 @@ severity
 (
 )
 )
+(
 "
-{
-}
+%
+s
 "
 aLogLine
 .
@@ -823,6 +824,7 @@ DefaultLogLine
 .
 data
 (
+)
 )
 )
 ;

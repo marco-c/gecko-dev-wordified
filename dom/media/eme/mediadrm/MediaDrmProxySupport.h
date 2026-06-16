@@ -143,7 +143,7 @@ x
 .
 )
 \
-MOZ_LOG_FMT
+MOZ_LOG
 (
 GetMDRMNLog
 (
@@ -156,13 +156,14 @@ LogLevel
 :
 Debug
 \
+(
 "
 [
 MediaDrmProxySupport
 ]
 [
-{
-}
+%
+s
 ]
 "
 x
@@ -170,6 +171,7 @@ __FUNCTION__
 #
 #
 __VA_ARGS__
+)
 )
 #
 endif

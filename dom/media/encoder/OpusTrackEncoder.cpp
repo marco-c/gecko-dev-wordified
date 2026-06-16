@@ -2924,8 +2924,8 @@ data
 !
 Result
 :
-{
-}
+%
+s
 .
 "
 opus_strerror
@@ -3033,11 +3033,9 @@ LOG
 Opus
 ]
 mOutputTimeStamp
-{
-:
+%
 .
 3f
-}
 .
 "
 media
