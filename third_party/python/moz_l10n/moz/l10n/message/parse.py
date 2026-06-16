@@ -555,4 +555,9 @@ PatternMessage
 [
 source
 ]
+if
+source
+else
+[
+]
 )

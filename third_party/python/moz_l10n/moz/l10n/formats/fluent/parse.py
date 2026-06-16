@@ -135,7 +135,6 @@ finditer
 from
 typing
 import
-Tuple
 cast
 from
 fluent
@@ -2176,7 +2175,7 @@ values
 )
 Key
 =
-Tuple
+tuple
 [
 str
 bool

@@ -125,13 +125,18 @@ __future__
 import
 annotations
 from
+collections
+.
+abc
+import
+Generator
+from
 io
 import
 StringIO
 from
 typing
 import
-Generator
 TextIO
 from
 iniparse
@@ -802,8 +807,6 @@ Generator
 ini
 .
 LineType
-None
-None
 ]
 :
     
