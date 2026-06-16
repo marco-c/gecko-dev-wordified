@@ -590,13 +590,6 @@ reify_percentage
 self
 .
 0
-/
-*
-was_calc
-=
-*
-/
-false
 dest
 )
 }
