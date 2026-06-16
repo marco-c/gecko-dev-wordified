@@ -4208,7 +4208,7 @@ index
 )
 ;
 }
-bool
+void
 MozBaseAssembler
 :
 :
@@ -4325,17 +4325,6 @@ SetImmLLiteral
 source
 )
 ;
-return
-false
-;
-/
-/
-Nothing
-uses
-the
-return
-value
-.
 }
 void
 MozBaseAssembler
