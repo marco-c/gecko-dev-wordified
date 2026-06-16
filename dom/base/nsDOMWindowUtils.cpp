@@ -5462,7 +5462,10 @@ NewRunnableMethod
 <
 int32_t
 int32_t
-uint32_t
+nsIWidget
+:
+:
+NativeModifiers
 nsString
 nsString
 nsISynthesizedEventCallback
@@ -5483,15 +5486,9 @@ nsIWidget
 SynthesizeNativeKeyEvent
 aNativeKeyboardLayout
 aNativeKeyCode
-static_cast
-<
-uint32_t
->
-(
 GetWidgetModifiers
 (
 aModifiers
-)
 )
 aCharacters
 aUnmodifiedCharacters
