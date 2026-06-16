@@ -3039,8 +3039,6 @@ already_AddRefed
 <
 Runnable
 >
-&
-&
 aReplyEvent
 )
 :

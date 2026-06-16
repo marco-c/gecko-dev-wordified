@@ -221,8 +221,6 @@ already_AddRefed
 <
 Promise
 >
-&
-&
 aClosedPromise
 )
 {
@@ -248,8 +246,6 @@ already_AddRefed
 <
 ReadableStream
 >
-&
-&
 aStream
 )
 {

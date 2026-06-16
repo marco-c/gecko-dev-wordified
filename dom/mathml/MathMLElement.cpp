@@ -500,8 +500,6 @@ dom
 :
 NodeInfo
 >
-&
-&
 aNodeInfo
 )
 :

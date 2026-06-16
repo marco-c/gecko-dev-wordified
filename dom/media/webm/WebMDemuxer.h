@@ -179,8 +179,6 @@ already_AddRefed
 <
 MediaRawData
 >
-&
-&
 aItem
 )
 {
@@ -221,8 +219,6 @@ already_AddRefed
 <
 MediaRawData
 >
-&
-&
 aItem
 )
 {
