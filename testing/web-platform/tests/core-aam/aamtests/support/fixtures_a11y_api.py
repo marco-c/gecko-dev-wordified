@@ -17,8 +17,12 @@ TODO
 add
 support
 for
-Edge
-Safari
+getting
+the
+PID
+from
+other
+browsers
 .
     
 if
@@ -75,25 +79,14 @@ processID
 firefox
 "
     
-if
+return
+0
 capabilities
 [
 "
 browserName
 "
 ]
-=
-=
-"
-servo
-"
-:
-        
-return
-0
-"
-servo
-"
 pytest
 .
 fixture
