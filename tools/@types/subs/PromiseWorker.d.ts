@@ -288,11 +288,15 @@ undefined
 ;
 data
 :
-any
+object
+|
+undefined
 ;
 meta
 :
-any
+object
+|
+undefined
 ;
 }
 /
