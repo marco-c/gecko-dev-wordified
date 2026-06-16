@@ -626,6 +626,16 @@ _moz_generated_content_backdrop
 Atom
 (
 "
+mozgeneratedcontentcheckmark
+"
+"
+_moz_generated_content_checkmark
+"
+)
+    
+Atom
+(
+"
 mozquote
 "
 "
@@ -2668,6 +2678,16 @@ checked
 "
 "
 checked
+"
+)
+    
+Atom
+(
+"
+checkmark
+"
+"
+checkmark
 "
 )
     
@@ -23830,6 +23850,19 @@ backdropPseudoProperty
 nsXMLElement
 *
     
+Atom
+(
+"
+checkmarkPseudoProperty
+"
+"
+checkmarkPseudoProperty
+"
+)
+#
+nsXMLElement
+*
+    
 #
 Languages
 for
@@ -27814,6 +27847,17 @@ PseudoStyle_Picker
 "
 :
 picker
+"
+)
+    
+Atom
+(
+"
+PseudoStyle_Checkmark
+"
+"
+:
+checkmark
 "
 )
     
