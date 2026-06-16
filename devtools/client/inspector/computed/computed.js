@@ -10627,7 +10627,7 @@ inspector
 .
 toolbox
 .
-viewSourceInStyleEditorByResource
+viewStyleSourceByResource
 (
 sheet
 line

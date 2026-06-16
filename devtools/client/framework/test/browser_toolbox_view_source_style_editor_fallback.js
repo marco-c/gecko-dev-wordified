@@ -173,7 +173,7 @@ fileFound
 await
 toolbox
 .
-viewSourceInStyleEditorByURL
+viewStyleSourceByURL
 (
 CSS_URL
 0
@@ -184,7 +184,7 @@ ok
 !
 fileFound
 "
-viewSourceInStyleEditorByURL
+viewStyleSourceByURL
 should
 resolve
 to

@@ -1729,7 +1729,7 @@ kindly
 loaded
 markup
 .
-xhtml
+html
 .
 *
 param
@@ -8597,7 +8597,7 @@ this
 .
 toolbox
 .
-viewGeneratedSourceInStyleEditor
+viewStyleGeneratedSource
 (
 url
 )

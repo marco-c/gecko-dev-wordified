@@ -3480,7 +3480,7 @@ getToolbox
 ;
 toolbox
 .
-viewGeneratedSourceInStyleEditor
+viewStyleGeneratedSource
 (
 url
 )
