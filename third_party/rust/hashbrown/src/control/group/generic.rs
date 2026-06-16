@@ -953,7 +953,7 @@ low
 %
 chance
 per
-byte
+tag
 )
 .
 #
