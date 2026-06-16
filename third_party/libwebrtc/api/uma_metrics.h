@@ -1348,7 +1348,7 @@ kDataChannelMaxMessageSize
 101
 kDataChannelSctpPort
 =
-101
+102
 kMaxValue
 }
 ;
