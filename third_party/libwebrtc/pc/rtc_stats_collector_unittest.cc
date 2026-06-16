@@ -31253,6 +31253,13 @@ set_streams_observer
 nullptr
 /
 *
+enable_sframe_at_owner
+=
+*
+/
+nullptr
+/
+*
 media_channel
 =
 *

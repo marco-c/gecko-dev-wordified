@@ -3810,6 +3810,13 @@ remote_sender_info
 .
 sender_id
 streams
+/
+*
+enable_sframe_at_owner
+=
+*
+/
+nullptr
 )
 ;
 auto

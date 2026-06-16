@@ -350,6 +350,13 @@ string
 >
 (
 )
+/
+*
+enable_sframe_at_owner
+=
+*
+/
+nullptr
 )
 )
 {
@@ -880,6 +887,13 @@ string
 >
 (
 )
+/
+*
+enable_sframe_at_owner
+=
+*
+/
+nullptr
 &
 receive_channel
 )

@@ -8951,6 +8951,13 @@ get
 (
 )
 nullptr
+/
+*
+enable_sframe_at_owner
+=
+*
+/
+nullptr
 rtp_manager
 (
 )
@@ -9028,6 +9035,13 @@ worker_thread
 CreateRandomUuid
 (
 )
+nullptr
+/
+*
+enable_sframe_at_owner
+=
+*
+/
 nullptr
 rtp_manager
 (

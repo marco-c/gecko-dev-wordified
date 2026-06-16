@@ -544,6 +544,13 @@ stream
 "
 }
 )
+/
+*
+enable_sframe_at_owner
+=
+*
+/
+nullptr
 )
 )
 {
