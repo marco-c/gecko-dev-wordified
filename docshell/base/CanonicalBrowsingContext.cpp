@@ -10840,10 +10840,6 @@ if
 (
 !
 shistory
-|
-|
-!
-mActiveEntry
 )
 {
 return
