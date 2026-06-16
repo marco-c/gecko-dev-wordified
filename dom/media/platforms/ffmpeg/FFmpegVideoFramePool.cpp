@@ -4823,6 +4823,14 @@ GetDMABufSurface
 (
 )
 ;
+if
+(
+aAVFrame
+-
+>
+hw_frames_ctx
+)
+{
 AVHWDeviceType
 hwdeviceType
 =
@@ -4881,6 +4889,7 @@ GetUID
 )
 )
 ;
+}
 bool
 copySurface
 =
