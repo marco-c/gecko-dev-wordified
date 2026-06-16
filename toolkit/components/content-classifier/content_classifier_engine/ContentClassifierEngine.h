@@ -478,6 +478,8 @@ const
 ContentClassifierRequest
 &
 aRequest
+bool
+aPreviouslyMatched
 )
 ;
 private
