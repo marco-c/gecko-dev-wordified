@@ -13599,6 +13599,9 @@ PictureInPictureEvent
 insecureContext
 :
 true
+android
+:
+false
 }
 /
 /
@@ -13625,6 +13628,9 @@ PictureInPictureWindow
 insecureContext
 :
 true
+android
+:
+false
 }
 /
 /
