@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+functools
+import
 logging
 import
 os
@@ -106,7 +108,6 @@ mozbuild
 util
 import
 HierarchicalStringList
-memoize
 from
 .
 .
@@ -175,6 +176,8 @@ InstallationTarget
 IPDLCollection
     
 JARManifest
+    
+JsShellArchive
     
 LegacyRunTests
     
@@ -1800,7 +1803,9 @@ objdir
                 
 )
         
-memoize
+functools
+.
+cache
         
 def
 rust_libraries
@@ -3543,7 +3548,9 @@ candidates
 ]
 )
     
-memoize
+functools
+.
+cache
     
 def
 _get_external_library
@@ -11627,6 +11634,29 @@ LegacyRunTests
 (
 context
 run_tests
+)
+        
+if
+jsshell_files
+:
+=
+context
+.
+get
+(
+"
+JS_SHELL_ARCHIVE_FILES
+"
+[
+]
+)
+:
+            
+yield
+JsShellArchive
+(
+context
+jsshell_files
 )
         
 rust_tests
