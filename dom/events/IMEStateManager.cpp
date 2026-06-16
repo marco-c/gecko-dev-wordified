@@ -1067,9 +1067,18 @@ BrowserParent
 aFocus
 )
 {
-MOZ_ASSERT
+RefPtr
+<
+BrowserParent
+>
+blur
 (
 aBlur
+)
+;
+MOZ_ASSERT
+(
+blur
 !
 =
 aFocus
@@ -1093,7 +1102,7 @@ isSome
 {
 MOZ_ASSERT
 (
-aBlur
+blur
 =
 =
 sPendingFocusedBrowserSwitchingData
@@ -1182,7 +1191,7 @@ browsers
 return
 ;
 }
-aBlur
+blur
 =
 sPendingFocusedBrowserSwitchingData
 .
@@ -1204,7 +1213,7 @@ aFocus
 ;
 MOZ_ASSERT
 (
-aBlur
+blur
 !
 =
 aFocus
@@ -1309,7 +1318,7 @@ OnFocusChangeInternal
 .
 if
 (
-aBlur
+blur
 &
 &
 !
@@ -1348,7 +1357,7 @@ sPendingFocusedBrowserSwitchingData
 .
 emplace
 (
-aBlur
+blur
 aFocus
 )
 ;
@@ -1583,7 +1592,7 @@ iframes
 .
 if
 (
-aBlur
+blur
 &
 &
 (
@@ -1592,7 +1601,7 @@ aFocus
 |
 |
 (
-aBlur
+blur
 -
 >
 Manager
@@ -1644,7 +1653,7 @@ focus
 )
 )
 ;
-aBlur
+blur
 -
 >
 StopIMEStateManagement
@@ -1689,7 +1698,7 @@ blur
 .
 /
 /
-aBlur
+blur
 can
 be
 null
@@ -1717,14 +1726,14 @@ sFocusedIMEBrowserParent
 |
 |
 !
-aBlur
+blur
 |
 |
 (
 sFocusedIMEBrowserParent
 =
 =
-aBlur
+blur
 )
 )
 ;
