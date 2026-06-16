@@ -296,7 +296,7 @@ nsHtml5AttributeName
 :
 ALL_NO_NS
 =
-0
+nullptr
 ;
 int32_t
 *
@@ -305,7 +305,7 @@ nsHtml5AttributeName
 :
 XMLNS_NS
 =
-0
+nullptr
 ;
 int32_t
 *
@@ -314,7 +314,7 @@ nsHtml5AttributeName
 :
 XML_NS
 =
-0
+nullptr
 ;
 int32_t
 *
@@ -323,7 +323,7 @@ nsHtml5AttributeName
 :
 XLINK_NS
 =
-0
+nullptr
 ;
 nsStaticAtom
 *
@@ -333,7 +333,7 @@ nsHtml5AttributeName
 :
 ALL_NO_PREFIX
 =
-0
+nullptr
 ;
 nsStaticAtom
 *
@@ -343,7 +343,7 @@ nsHtml5AttributeName
 :
 XMLNS_PREFIX
 =
-0
+nullptr
 ;
 nsStaticAtom
 *
@@ -353,7 +353,7 @@ nsHtml5AttributeName
 :
 XLINK_PREFIX
 =
-0
+nullptr
 ;
 nsStaticAtom
 *
@@ -363,7 +363,7 @@ nsHtml5AttributeName
 :
 XML_PREFIX
 =
-0
+nullptr
 ;
 nsHtml5AttributeName
 :
@@ -5299,7 +5299,7 @@ nsHtml5AttributeName
 :
 ATTRIBUTE_NAMES
 =
-0
+nullptr
 ;
 static
 int32_t

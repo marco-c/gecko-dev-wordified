@@ -2289,7 +2289,7 @@ nsHtml5ElementName
 :
 ELEMENT_NAMES
 =
-0
+nullptr
 ;
 static
 int32_t
