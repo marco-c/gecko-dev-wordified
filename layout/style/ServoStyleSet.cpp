@@ -5194,15 +5194,6 @@ PseudoStyleType
 :
 :
 Checkmark
-|
-|
-type
-=
-=
-PseudoStyleType
-:
-:
-PickerIcon
 )
 {
 /
