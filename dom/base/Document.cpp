@@ -21847,6 +21847,14 @@ if
 isSrcdocChannel
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+IsTopLevelContentDocument
+(
+)
+)
+;
 mIsSrcdocDocument
 =
 true
