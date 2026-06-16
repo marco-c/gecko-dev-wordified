@@ -976,6 +976,15 @@ ImmWord
 imm
 )
 ;
+void
+patchLi32
+(
+CodeOffset
+offset
+Imm32
+imm
+)
+;
 #
 define
 DEFINE_INSTRUCTION
