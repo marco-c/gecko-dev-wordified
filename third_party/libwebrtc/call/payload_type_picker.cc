@@ -2740,7 +2740,13 @@ std
 :
 pair
 {
+std
+:
+:
+string
+(
 uri
+)
 encrypt
 }
 )
@@ -2900,7 +2906,13 @@ std
 :
 pair
 {
+std
+:
+:
+string
+(
 uri
+)
 encrypt
 }
 )
