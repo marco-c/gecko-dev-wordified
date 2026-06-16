@@ -2552,10 +2552,13 @@ ContentGroup
 bundle_group
 ScopedOperationsBatcher
 &
+network_teardown_tasks
+ScopedOperationsBatcher
+&
 worker_tasks
 ScopedOperationsBatcher
 &
-network_tasks
+network_init_tasks
 )
 RTC_RUN_ON
 (
