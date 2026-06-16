@@ -65694,10 +65694,6 @@ tempFixed
 (
 CallTempReg0
 )
-tempFixed
-(
-CallTempReg1
-)
 )
 ;
 defineReturn
@@ -65743,10 +65739,6 @@ tempFixed
 (
 CallTempReg0
 )
-tempFixed
-(
-CallTempReg1
-)
 )
 ;
 defineReturn
@@ -65791,10 +65783,6 @@ utcTime
 tempFixed
 (
 CallTempReg0
-)
-tempFixed
-(
-CallTempReg1
 )
 )
 ;
