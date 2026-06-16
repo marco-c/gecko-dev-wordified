@@ -299,7 +299,6 @@ ids
 void
 SetInitSendEncodings
 (
-const
 std
 :
 :
@@ -307,7 +306,6 @@ vector
 <
 RtpEncodingParameters
 >
-&
 encodings
 )
 ;
