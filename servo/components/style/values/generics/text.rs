@@ -208,6 +208,13 @@ repr
 C
 )
 ]
+#
+[
+typed
+(
+todo_derive_fields
+)
+]
 pub
 struct
 GenericHyphenateLimitChars
@@ -772,13 +779,6 @@ ToTyped
 allow
 (
 missing_docs
-)
-]
-#
-[
-typed_value
-(
-derive_fields
 )
 ]
 pub
