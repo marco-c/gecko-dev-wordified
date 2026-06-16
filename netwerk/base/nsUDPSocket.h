@@ -479,9 +479,6 @@ nullptr
 NetAddr
 mAddr
 ;
-OriginAttributes
-mOriginAttributes
-;
 nsCOMPtr
 <
 nsIUDPSocketListener

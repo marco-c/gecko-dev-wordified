@@ -2887,12 +2887,6 @@ uint32_t
 ;
 FWD_H3ST
 (
-SetIsPrivate
-bool
-)
-;
-FWD_H3ST
-(
 SetIsTRRConnection
 bool
 )
