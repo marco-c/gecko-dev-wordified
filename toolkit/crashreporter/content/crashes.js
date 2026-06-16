@@ -1828,6 +1828,7 @@ e
 {
 if
 (
+!
 DOMException
 .
 isInstance
@@ -1851,6 +1852,8 @@ throw
 e
 ;
 }
+return
+;
 }
 for
 (
