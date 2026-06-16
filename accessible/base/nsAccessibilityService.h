@@ -289,8 +289,10 @@ XPCApplicationAcc
 )
 ;
 typedef
+already_AddRefed
+<
 LocalAccessible
-*
+>
 (
 New_Accessible
 )
