@@ -463,7 +463,7 @@ clock
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 const
@@ -543,7 +543,7 @@ clock
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 const

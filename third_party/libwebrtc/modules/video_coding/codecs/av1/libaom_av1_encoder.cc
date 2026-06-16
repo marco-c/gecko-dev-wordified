@@ -1925,7 +1925,7 @@ realtime_clock_
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 )

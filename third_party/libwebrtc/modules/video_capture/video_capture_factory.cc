@@ -173,7 +173,7 @@ Create
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 deviceUniqueIdUTF8
@@ -266,7 +266,7 @@ Create
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 options

@@ -760,7 +760,7 @@ use
 our
 clock
 not
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 and
 we
 avoid

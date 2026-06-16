@@ -396,7 +396,7 @@ absl_nonnull
 Clock
 :
 :
-GetRealTimeClockRaw
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 {

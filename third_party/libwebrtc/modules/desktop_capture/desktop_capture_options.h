@@ -406,7 +406,7 @@ clock
 Clock
 :
 :
-GetRealTimeClock
+GetRealTimeClockOnlyUseForRelativeTime
 (
 )
 ;
