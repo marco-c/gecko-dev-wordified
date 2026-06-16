@@ -2019,14 +2019,6 @@ ifdef
 ENABLE_WASM_JSPI
 if
 (
-StackSwitchingAvailable
-(
-cx
-)
-)
-{
-if
-(
 StringEqualsLiteral
 (
 typeLinearStr
@@ -2074,7 +2066,6 @@ nocont
 return
 true
 ;
-}
 }
 #
 endif
