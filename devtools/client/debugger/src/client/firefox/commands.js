@@ -2077,6 +2077,8 @@ blackbox
 (
 sourceActor
 .
+sourceObject
+.
 url
 ranges
 )
@@ -2090,6 +2092,8 @@ blackboxingFront
 unblackbox
 (
 sourceActor
+.
+sourceObject
 .
 url
 ranges
