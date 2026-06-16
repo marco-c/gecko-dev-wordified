@@ -1745,6 +1745,11 @@ IsCurrent
 )
 )
 {
+RTC_DCHECK_RUN_ON
+(
+signaling_thread_
+)
+;
 return
 network_thread_
 -
