@@ -1314,6 +1314,14 @@ std
 string
 >
 scalability_mode
+std
+:
+:
+optional
+<
+Resolution
+>
+resolution
 )
 const
 {
@@ -1425,6 +1433,7 @@ QueryCodecSupport
 (
 format
 scalability_mode
+resolution
 )
 ;
 }

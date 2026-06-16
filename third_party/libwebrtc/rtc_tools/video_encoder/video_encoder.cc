@@ -2738,6 +2738,16 @@ SdpVideoFormat
 video_codec_string
 )
 scalability_mode_string
+/
+*
+resolution
+=
+*
+/
+std
+:
+:
+nullopt
 )
 ;
 return
