@@ -119,14 +119,6 @@ reset
 (
 )
 ;
-token
-.
-initPassword
-(
-"
-"
-)
-;
 }
 /
 /

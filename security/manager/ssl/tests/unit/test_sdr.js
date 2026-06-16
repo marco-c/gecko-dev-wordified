@@ -1382,8 +1382,10 @@ nsIPKCS11Token
 ;
 token
 .
-initPassword
+changePassword
 (
+"
+"
 "
 password
 "
@@ -1455,14 +1457,6 @@ token
 .
 reset
 (
-)
-;
-token
-.
-initPassword
-(
-"
-"
 )
 ;
 }
