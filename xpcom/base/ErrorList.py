@@ -15170,6 +15170,18 @@ FAILURE
 52
 )
     
+errors
+[
+"
+NS_ERROR_DOM_MEDIA_CDM_NOT_FOUND_ERR
+"
+]
+=
+FAILURE
+(
+53
+)
+    
 #
 Internal
 platform
