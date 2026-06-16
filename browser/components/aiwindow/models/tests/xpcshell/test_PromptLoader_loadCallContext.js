@@ -893,7 +893,7 @@ fakeRecords
 )
 ;
 const
-prompt
+result
 =
 await
 loadPrompt
@@ -905,9 +905,12 @@ CHAT
 ;
 Assert
 .
-equal
+deepEqual
 (
+result
+{
 prompt
+:
 "
 You
 are
@@ -916,6 +919,14 @@ helpful
 assistant
 .
 "
+version
+:
+"
+5
+.
+0
+"
+}
 "
 loadPrompt
 should
@@ -1195,7 +1206,9 @@ OVERRIDE
 )
 ;
 const
+{
 prompt
+}
 =
 await
 loadPrompt
