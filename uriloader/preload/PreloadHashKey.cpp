@@ -102,6 +102,15 @@ h
 #
 include
 "
+mozilla
+/
+StyleSheet
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
