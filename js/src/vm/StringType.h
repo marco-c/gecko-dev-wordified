@@ -12068,15 +12068,6 @@ hasTwoByteChars
 )
 ;
 return
-JSLinearString
-:
-:
-twoByteChars
-(
-nogc
-)
-;
-return
 isInline
 (
 )
