@@ -415,7 +415,7 @@ popup
 "
 shiftEvent
 "
-window
+popup
 "
 ]
 [
@@ -531,7 +531,7 @@ popup
 "
 shiftEvent
 "
-window
+popup
 "
 ]
 [
@@ -697,7 +697,7 @@ popup
 "
 altShiftEvent
 "
-window
+popup
 "
 ]
 [
@@ -813,7 +813,7 @@ popup
 "
 altShiftEvent
 "
-window
+popup
 "
 ]
 [
@@ -1338,7 +1338,7 @@ popup
 "
 shiftEvent
 "
-window
+popup
 "
 ]
 [
@@ -1394,7 +1394,7 @@ popup
 "
 shiftEvent
 "
-window
+popup
 "
 ]
 ]
@@ -1497,7 +1497,7 @@ popup
 "
 shiftEvent
 "
-window
+popup
 "
 ]
 [
@@ -1561,7 +1561,7 @@ popup
 "
 shiftEvent
 "
-window
+popup
 "
 ]
 ]
