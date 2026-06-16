@@ -6142,6 +6142,9 @@ addons
 newtab
 "
 "
+devtools
+"
+"
 browser
 "
 ]

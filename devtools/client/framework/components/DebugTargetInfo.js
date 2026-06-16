@@ -2241,9 +2241,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
+/
+images
 /
 back
 .
@@ -2300,9 +2302,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
+/
+images
 /
 forward
 .
