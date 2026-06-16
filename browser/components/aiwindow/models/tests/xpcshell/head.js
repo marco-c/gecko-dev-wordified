@@ -245,12 +245,6 @@ addSeenUrls
 )
 {
 }
-async
-addHistoryResults
-(
-)
-{
-}
 getAllMentionURLs
 (
 )
