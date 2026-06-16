@@ -197,7 +197,7 @@ nchw
 /
 /
 MLRoundingType
-roundingType
+outputShapeRounding
 =
 "
 floor
@@ -3736,7 +3736,7 @@ float32
 tensor
 options
 .
-roundingType
+outputShapeRounding
 =
 floor
 '
@@ -3992,7 +3992,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -4085,7 +4085,7 @@ float32
 tensor
 options
 .
-roundingType
+outputShapeRounding
 =
 ceil
 '
@@ -4341,7 +4341,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -4464,7 +4464,7 @@ float32
 tensor
 options
 .
-roundingType
+outputShapeRounding
 =
 ceil
 and
@@ -4659,7 +4659,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -4758,7 +4758,7 @@ nhwc
 and
 options
 .
-roundingType
+outputShapeRounding
 =
 floor
 '
@@ -5021,7 +5021,7 @@ layout
 nhwc
 '
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -5120,7 +5120,7 @@ nhwc
 and
 options
 .
-roundingType
+outputShapeRounding
 =
 ceil
 '
@@ -5383,7 +5383,7 @@ layout
 nhwc
 '
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -5510,7 +5510,7 @@ outputSizes
 ignores
 options
 .
-roundingType
+outputShapeRounding
 =
 floor
 '
@@ -5766,7 +5766,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -5901,7 +5901,7 @@ outputSizes
 ignores
 options
 .
-roundingType
+outputShapeRounding
 =
 ceil
 '
@@ -6157,7 +6157,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -10191,7 +10191,7 @@ float16
 tensor
 options
 .
-roundingType
+outputShapeRounding
 =
 floor
 '
@@ -10441,7 +10441,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -10534,7 +10534,7 @@ float16
 tensor
 options
 .
-roundingType
+outputShapeRounding
 =
 ceil
 '
@@ -10784,7 +10784,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -10905,7 +10905,7 @@ float16
 tensor
 options
 .
-roundingType
+outputShapeRounding
 =
 ceil
 and
@@ -11096,7 +11096,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -11195,7 +11195,7 @@ nhwc
 and
 options
 .
-roundingType
+outputShapeRounding
 =
 floor
 '
@@ -11452,7 +11452,7 @@ layout
 nhwc
 '
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -11551,7 +11551,7 @@ nhwc
 and
 options
 .
-roundingType
+outputShapeRounding
 =
 ceil
 '
@@ -11808,7 +11808,7 @@ layout
 nhwc
 '
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -11933,7 +11933,7 @@ outputSizes
 ignores
 options
 .
-roundingType
+outputShapeRounding
 =
 floor
 '
@@ -12183,7 +12183,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
@@ -12316,7 +12316,7 @@ outputSizes
 ignores
 options
 .
-roundingType
+outputShapeRounding
 =
 ceil
 '
@@ -12566,7 +12566,7 @@ strides
 2
 ]
 '
-roundingType
+outputShapeRounding
 '
 :
 '
