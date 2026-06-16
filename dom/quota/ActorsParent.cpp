@@ -12742,7 +12742,7 @@ nsTArray
 <
 NotNull
 <
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -13303,17 +13303,7 @@ privateStorageLocks
 aMinSizeToBeFreed
 ]
 {
-nsTArray
-<
-NotNull
-<
-RefPtr
-<
-const
-OriginInfo
->
->
->
+OriginInfosFlatTraversable
 inactiveOrigins
 ;
 for
@@ -16261,12 +16251,11 @@ groupInfo
 >
 LockedAddOriginInfo
 (
-MakeNotNull
-<
-RefPtr
+WrapNotNullUnchecked
+(
+MakeSafeRefPtr
 <
 OriginInfo
->
 >
 (
 groupInfo
@@ -16295,6 +16284,7 @@ aFullOriginMetadata
 .
 mPersisted
 aDirectoryExists
+)
 )
 )
 ;
@@ -16384,7 +16374,7 @@ groupInfo
 return
 ;
 }
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -16501,7 +16491,7 @@ groupInfo
 return
 ;
 }
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -16626,7 +16616,7 @@ UsageInfo
 }
 ;
 }
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -16745,7 +16735,7 @@ groupInfo
 return
 ;
 }
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -16860,7 +16850,7 @@ groupInfo
 return
 ;
 }
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -16973,7 +16963,7 @@ groupInfo
 return
 ;
 }
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -19835,7 +19825,7 @@ return
 nullptr
 ;
 }
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -19943,6 +19933,10 @@ new
 CanonicalQuotaObject
 (
 originInfo
+.
+unsafeGetRawPtr
+(
+)
 aClientType
 path
 fileSize
@@ -20304,7 +20298,7 @@ lock
 mQuotaMutex
 )
 ;
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -20367,7 +20361,7 @@ lock
 mQuotaMutex
 )
 ;
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -33865,7 +33859,7 @@ lock
 mQuotaMutex
 )
 ;
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -37039,7 +37033,7 @@ lock
 mQuotaMutex
 )
 ;
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -43303,7 +43297,7 @@ lock
 mQuotaMutex
 )
 ;
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -43429,7 +43423,7 @@ type
 PERSISTENCE_TYPE_DEFAULT
 )
 {
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -43578,7 +43572,7 @@ if
 groupInfo
 )
 {
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -43664,7 +43658,7 @@ lock
 mQuotaMutex
 )
 ;
-RefPtr
+SafeRefPtr
 <
 OriginInfo
 >
@@ -44802,7 +44796,7 @@ forget
 )
 ;
 }
-already_AddRefed
+SafeRefPtr
 <
 OriginInfo
 >
