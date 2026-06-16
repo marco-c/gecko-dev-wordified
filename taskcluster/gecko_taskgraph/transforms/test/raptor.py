@@ -5253,12 +5253,6 @@ extend
 "
 -
 -
-add
--
-option
-=
--
--
 simpleperf
 "
                 
@@ -5768,12 +5762,6 @@ options
         
 if
 "
--
--
-add
--
-option
-=
 -
 -
 simpleperf
