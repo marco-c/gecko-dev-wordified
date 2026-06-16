@@ -163,8 +163,10 @@ mFormats
 )
 mConnection
 (
-new
+MakeUnique
+<
 SdpConnection
+>
 (
 *
 aOrig
