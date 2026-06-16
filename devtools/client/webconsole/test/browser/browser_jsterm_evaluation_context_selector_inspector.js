@@ -1081,7 +1081,7 @@ markup
 .
 contextMenu
 .
-_openMenu
+openMenu
 (
 {
 target

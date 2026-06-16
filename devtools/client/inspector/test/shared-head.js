@@ -5237,7 +5237,7 @@ markup
 .
 contextMenu
 .
-_openMenu
+openMenu
 (
 options
 )

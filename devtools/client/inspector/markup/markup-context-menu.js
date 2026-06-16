@@ -432,7 +432,7 @@ preventDefault
 ;
 this
 .
-_openMenu
+openMenu
 (
 {
 screenX
@@ -471,7 +471,8 @@ links
 .
 *
 /
-_copyAttributeLink
+#
+copyAttributeLink
 (
 link
 )
@@ -531,7 +532,8 @@ clipboard
 .
 *
 /
-_copyCssPath
+#
+copyCssPath
 (
 )
 {
@@ -604,7 +606,8 @@ clipboard
 .
 *
 /
-_copyImageDataUri
+#
+copyImageDataUri
 (
 )
 {
@@ -661,7 +664,8 @@ clipboard
 .
 *
 /
-_copyInnerHTML
+#
+copyInnerHTML
 (
 )
 {
@@ -691,7 +695,8 @@ clipboard
 .
 *
 /
-_copyOuterHTML
+#
+copyOuterHTML
 (
 )
 {
@@ -722,7 +727,8 @@ clipboard
 .
 *
 /
-_copyUniqueSelector
+#
+copyUniqueSelector
 (
 )
 {
@@ -792,7 +798,8 @@ clipboard
 .
 *
 /
-_copyXPath
+#
+copyXPath
 (
 )
 {
@@ -856,7 +863,8 @@ node
 .
 *
 /
-_deleteNode
+#
+deleteNode
 (
 )
 {
@@ -964,7 +972,8 @@ selected
 node
 *
 /
-_duplicateNode
+#
+duplicateNode
 (
 )
 {
@@ -1050,7 +1059,8 @@ Node
 .
 *
 /
-_editHTML
+#
+editHTML
 (
 )
 {
@@ -1099,7 +1109,8 @@ debugger
 .
 *
 /
-_jumpToCustomElementDefinition
+#
+jumpToCustomElementDefinition
 (
 )
 {
@@ -1159,7 +1170,8 @@ directly
 .
 *
 /
-_onAddAttribute
+#
+onAddAttribute
 (
 )
 {
@@ -1212,7 +1224,8 @@ directly
 .
 *
 /
-_onCopyAttributeValue
+#
+onCopyAttributeValue
 (
 )
 {
@@ -1260,13 +1273,15 @@ menu
 .
 *
 /
-_onCopyLink
+#
+onCopyLink
 (
 )
 {
 this
 .
-_copyAttributeLink
+#
+copyAttributeLink
 (
 this
 .
@@ -1303,7 +1318,8 @@ directly
 .
 *
 /
-_onEditAttribute
+#
+onEditAttribute
 (
 )
 {
@@ -1367,7 +1383,8 @@ menu
 .
 *
 /
-_onFollowLink
+#
+onFollowLink
 (
 )
 {
@@ -1429,7 +1446,8 @@ directly
 .
 *
 /
-_onRemoveAttribute
+#
+onRemoveAttribute
 (
 )
 {
@@ -1517,7 +1535,8 @@ afterEnd
 .
 *
 /
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 position
 )
@@ -1527,7 +1546,8 @@ content
 =
 this
 .
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 ;
@@ -1595,7 +1615,8 @@ HTML
 .
 *
 /
-_pasteInnerHTML
+#
+pasteInnerHTML
 (
 )
 {
@@ -1604,7 +1625,8 @@ content
 =
 this
 .
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 ;
@@ -1690,7 +1712,8 @@ HTML
 .
 *
 /
-_pasteOuterHTML
+#
+pasteOuterHTML
 (
 )
 {
@@ -1699,7 +1722,8 @@ content
 =
 this
 .
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 ;
@@ -1778,7 +1802,8 @@ node
 *
 /
 async
-_showAccessibilityProperties
+#
+showAccessibilityProperties
 (
 )
 {
@@ -1870,7 +1895,8 @@ DOM
 properties
 *
 /
-_showDOMProperties
+#
+showDOMProperties
 (
 )
 {
@@ -1974,7 +2000,8 @@ variable
 *
 /
 async
-_useInConsole
+#
+useInConsole
 (
 )
 {
@@ -2147,7 +2174,8 @@ ready
 )
 ;
 }
-_getAttributesSubmenu
+#
+getAttributesSubmenu
 (
 isEditableElement
 )
@@ -2241,7 +2269,8 @@ click
 >
 this
 .
-_onAddAttribute
+#
+onAddAttribute
 (
 )
 }
@@ -2313,7 +2342,8 @@ click
 >
 this
 .
-_onCopyAttributeValue
+#
+onCopyAttributeValue
 (
 )
 }
@@ -2385,7 +2415,8 @@ click
 >
 this
 .
-_onEditAttribute
+#
+onEditAttribute
 (
 )
 }
@@ -2457,7 +2488,8 @@ click
 >
 this
 .
-_onRemoveAttribute
+#
+onRemoveAttribute
 (
 )
 }
@@ -2497,7 +2529,8 @@ null
 .
 *
 /
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 {
@@ -2532,7 +2565,8 @@ return
 null
 ;
 }
-_getCopySubmenu
+#
+getCopySubmenu
 (
 markupContainer
 isElement
@@ -2604,7 +2638,8 @@ click
 >
 this
 .
-_copyInnerHTML
+#
+copyInnerHTML
 (
 )
 }
@@ -2664,7 +2699,8 @@ click
 >
 this
 .
-_copyOuterHTML
+#
+copyOuterHTML
 (
 )
 }
@@ -2724,7 +2760,8 @@ click
 >
 this
 .
-_copyUniqueSelector
+#
+copyUniqueSelector
 (
 )
 }
@@ -2784,7 +2821,8 @@ click
 >
 this
 .
-_copyCssPath
+#
+copyCssPath
 (
 )
 }
@@ -2844,7 +2882,8 @@ click
 >
 this
 .
-_copyXPath
+#
+copyXPath
 (
 )
 }
@@ -2904,7 +2943,8 @@ click
 >
 this
 .
-_copyImageDataUri
+#
+copyImageDataUri
 (
 )
 }
@@ -2915,7 +2955,8 @@ return
 copySubmenu
 ;
 }
-_getDOMBreakpointSubmenu
+#
+getDOMBreakpointSubmenu
 (
 isElement
 )
@@ -3174,7 +3215,8 @@ links
 .
 *
 /
-_getNodeLinkMenuItems
+#
+getNodeLinkMenuItems
 (
 )
 {
@@ -3207,7 +3249,8 @@ click
 >
 this
 .
-_onFollowLink
+#
+onFollowLink
 (
 )
 }
@@ -3242,7 +3285,8 @@ click
 >
 this
 .
-_onCopyLink
+#
+onCopyLink
 (
 )
 }
@@ -3539,7 +3583,8 @@ linkCopy
 ]
 ;
 }
-_getPasteSubmenu
+#
+getPasteSubmenu
 (
 isElement
 isFragment
@@ -3563,7 +3608,8 @@ isElement
 &
 this
 .
-_getClipboardContentForPaste
+#
+getClipboardContentForPaste
 (
 )
 ;
@@ -3695,7 +3741,8 @@ click
 >
 this
 .
-_pasteInnerHTML
+#
+pasteInnerHTML
 (
 )
 }
@@ -3759,7 +3806,8 @@ click
 >
 this
 .
-_pasteOuterHTML
+#
+pasteOuterHTML
 (
 )
 }
@@ -3818,7 +3866,8 @@ click
 >
 this
 .
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 "
 beforeBegin
@@ -3880,7 +3929,8 @@ click
 >
 this
 .
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 "
 afterEnd
@@ -3942,7 +3992,8 @@ click
 >
 this
 .
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 "
 afterBegin
@@ -4004,7 +4055,8 @@ click
 >
 this
 .
-_pasteAdjacentHTML
+#
+pasteAdjacentHTML
 (
 "
 beforeEnd
@@ -4018,7 +4070,8 @@ return
 pasteSubmenu
 ;
 }
-_createPseudoClassMenuItem
+#
+createPseudoClassMenuItem
 (
 pseudoClass
 enabled
@@ -4117,7 +4170,8 @@ return
 menuitem
 ;
 }
-_getPseudoClassSubmenu
+#
+getPseudoClassSubmenu
 (
 )
 {
@@ -4160,7 +4214,8 @@ append
 (
 this
 .
-_createPseudoClassMenuItem
+#
+createPseudoClassMenuItem
 (
 name
 enabled
@@ -4216,7 +4271,8 @@ append
 (
 this
 .
-_createPseudoClassMenuItem
+#
+createPseudoClassMenuItem
 (
 pseudo
 enabled
@@ -4229,7 +4285,8 @@ return
 menu
 ;
 }
-_getEditMarkupString
+#
+getEditMarkupString
 (
 )
 {
@@ -4292,7 +4349,7 @@ inspectorXMLEdit
 "
 ;
 }
-_openMenu
+openMenu
 (
 {
 target
@@ -4493,7 +4550,8 @@ getStr
 {
 this
 .
-_getEditMarkupString
+#
+getEditMarkupString
 (
 )
 }
@@ -4533,7 +4591,8 @@ click
 >
 this
 .
-_editHTML
+#
+editHTML
 (
 )
 }
@@ -4649,7 +4708,8 @@ click
 >
 this
 .
-_duplicateNode
+#
+duplicateNode
 (
 )
 }
@@ -4720,7 +4780,8 @@ click
 >
 this
 .
-_deleteNode
+#
+deleteNode
 (
 )
 }
@@ -4763,7 +4824,8 @@ submenu
 :
 this
 .
-_getAttributesSubmenu
+#
+getAttributesSubmenu
 (
 isElement
 &
@@ -4873,7 +4935,8 @@ submenu
 :
 this
 .
-_getDOMBreakpointSubmenu
+#
+getDOMBreakpointSubmenu
 (
 isElement
 )
@@ -4930,7 +4993,8 @@ click
 >
 this
 .
-_useInConsole
+#
+useInConsole
 (
 )
 }
@@ -4974,7 +5038,8 @@ click
 >
 this
 .
-_showDOMProperties
+#
+showDOMProperties
 (
 )
 }
@@ -5038,7 +5103,8 @@ click
 >
 this
 .
-_showAccessibilityProperties
+#
+showAccessibilityProperties
 (
 )
 }
@@ -5094,7 +5160,8 @@ click
 >
 this
 .
-_jumpToCustomElementDefinition
+#
+jumpToCustomElementDefinition
 (
 )
 }
@@ -5143,7 +5210,8 @@ submenu
 :
 this
 .
-_getPseudoClassSubmenu
+#
+getPseudoClassSubmenu
 (
 )
 }
@@ -5318,7 +5386,8 @@ submenu
 :
 this
 .
-_getCopySubmenu
+#
+getCopySubmenu
 (
 markupContainer
 isElement
@@ -5352,7 +5421,8 @@ submenu
 :
 this
 .
-_getPasteSubmenu
+#
+getPasteSubmenu
 (
 isElement
 isFragment
@@ -5516,7 +5586,8 @@ nodeLinkMenuItems
 =
 this
 .
-_getNodeLinkMenuItems
+#
+getNodeLinkMenuItems
 (
 )
 ;
