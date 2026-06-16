@@ -267,6 +267,14 @@ addSerpUrlsForAnonymousFetch
 )
 {
 }
+getLatestUserMentionCount
+(
+)
+{
+return
+0
+;
+}
 }
 ;
 }
