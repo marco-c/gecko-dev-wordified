@@ -560,10 +560,8 @@ JsepSessionImpl
 aOrig
 )
 ;
-UniquePtr
-<
 JsepSession
->
+*
 Clone
 (
 )
@@ -571,10 +569,8 @@ const
 override
 {
 return
-MakeUnique
-<
+new
 JsepSessionImpl
->
 (
 *
 this

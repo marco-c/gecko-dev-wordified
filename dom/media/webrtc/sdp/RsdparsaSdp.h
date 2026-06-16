@@ -149,10 +149,8 @@ SdpOrigin
 origin
 )
 ;
-UniquePtr
-<
 Sdp
->
+*
 Clone
 (
 )
