@@ -408,9 +408,6 @@ HandleObject
 moduleRequestArg
 )
 ;
-#
-ifdef
-ENABLE_SOURCE_PHASE_IMPORTS
 JSObject
 *
 getOrCreateTest262ModuleSourceModule
@@ -420,8 +417,6 @@ JSContext
 cx
 )
 ;
-#
-endif
 bool
 lookupModuleInRegistry
 (
