@@ -134,8 +134,8 @@ calc
 :
 :
 {
-AllowParse
 CalcNode
+CalcParseFlags
 Leaf
 }
 specified
@@ -718,9 +718,9 @@ location
 ;
 let
 mut
-allow
+flags
 =
-AllowParse
+CalcParseFlags
 :
 :
 new
@@ -733,7 +733,7 @@ units
 )
 )
 ;
-allow
+flags
 .
 color_components
 =
@@ -756,7 +756,7 @@ parse
 context
 input
 function
-allow
+flags
 )
 ?
 ;

@@ -107,6 +107,7 @@ calc
 self
 CalcUnits
 PositivePercentageBasis
+SimplificationResult
 }
 ;
 use
@@ -2182,7 +2183,16 @@ simplify
 mut
 self
 )
+-
+>
+SimplificationResult
 {
+return
+SimplificationResult
+:
+:
+Unchanged
+;
 }
 fn
 sort_key
