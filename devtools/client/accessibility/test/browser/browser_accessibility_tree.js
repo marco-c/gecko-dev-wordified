@@ -258,6 +258,10 @@ role
 :
 "
 heading
+(
+level
+1
+)
 "
 name
 :
