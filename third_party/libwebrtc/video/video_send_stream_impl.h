@@ -1220,17 +1220,6 @@ Implements
 EncodedImageCallback
 .
 void
-OnDroppedFrame
-(
-EncodedImageCallback
-:
-:
-DropReason
-reason
-)
-override
-;
-void
 OnFrameDropped
 (
 uint32_t
