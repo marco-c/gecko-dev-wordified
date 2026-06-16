@@ -1099,6 +1099,15 @@ bindings
 is_empty
 (
 )
+|
+|
+variant_attrs
+.
+function
+.
+is_some
+(
+)
 {
 derive_variant_fields_expr
 (
