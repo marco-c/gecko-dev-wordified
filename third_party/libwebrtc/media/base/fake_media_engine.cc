@@ -1172,7 +1172,7 @@ VoiceMediaReceiveInfo
 FakeVoiceMediaReceiveChannel
 :
 :
-GetStatsCallback
+GetStatsTask
 (
 bool
 reset_legacy
@@ -2127,7 +2127,7 @@ VoiceMediaSendInfo
 FakeVoiceMediaSendChannel
 :
 :
-GetStatsCallback
+GetStatsTask
 (
 )
 {
@@ -2793,7 +2793,7 @@ VideoMediaSendInfo
 FakeVideoMediaSendChannel
 :
 :
-GetStatsCallback
+GetStatsTask
 (
 )
 {
@@ -3681,7 +3681,7 @@ VideoMediaReceiveInfo
 FakeVideoMediaReceiveChannel
 :
 :
-GetStatsCallback
+GetStatsTask
 (
 )
 {

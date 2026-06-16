@@ -1527,7 +1527,7 @@ VideoMediaSendInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 override
@@ -3540,7 +3540,7 @@ void
 &
 &
 >
-GetResetUnsignaledRecvStreamCallback
+GetResetUnsignaledRecvStreamTask
 (
 )
 override
@@ -3620,7 +3620,7 @@ VideoMediaReceiveInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 override

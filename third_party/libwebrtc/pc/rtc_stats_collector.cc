@@ -15893,7 +15893,7 @@ get_send_stats_voice
 voice_send
 -
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 ;
@@ -15904,7 +15904,7 @@ get_receive_stats_voice
 voice_receive
 -
 >
-GetStatsCallback
+GetStatsTask
 (
 false
 )
@@ -15974,7 +15974,7 @@ get_send_stats_video
 video_send
 -
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 ;
@@ -15985,7 +15985,7 @@ get_receive_stats_video
 video_receive
 -
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 ;

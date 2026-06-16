@@ -868,7 +868,7 @@ VoiceMediaSendInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 override
@@ -1074,10 +1074,10 @@ VoiceMediaReceiveInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 bool
-get_and_clear_legacy_stats
+reset_legacy
 )
 override
 {
@@ -1300,7 +1300,7 @@ VideoMediaSendInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 override
@@ -1495,7 +1495,7 @@ VideoMediaReceiveInfo
 (
 )
 >
-GetStatsCallback
+GetStatsTask
 (
 )
 override
