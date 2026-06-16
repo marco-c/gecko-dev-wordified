@@ -1721,7 +1721,6 @@ styleeditor
 .
 transitions
 "
-true
 )
 ;
 export
