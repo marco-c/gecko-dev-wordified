@@ -267,6 +267,8 @@ const
 CSSPropertyId
 &
 aPropertyId
+bool
+aNested
 nsACString
 &
 aDest
