@@ -2338,7 +2338,7 @@ profileString_
 =
 nullptr
 ;
-HeapPtr
+GCPtr
 <
 JSScript
 *
@@ -2487,7 +2487,7 @@ this
 has
 happened
 .
-HeapPtr
+GCPtr
 <
 EnvironmentObject
 *

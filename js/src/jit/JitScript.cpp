@@ -2700,6 +2700,10 @@ zone
 nullptr
 )
 ;
+templateEnv_
+=
+nullptr
+;
 }
 struct
 FallbackStubs
