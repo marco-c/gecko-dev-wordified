@@ -210,6 +210,10 @@ nsCOMPtr
 nsISupports
 >
 aParent
+const
+StyleNumericType
+&
+aNumericType
 double
 aValue
 const

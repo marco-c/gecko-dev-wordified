@@ -579,6 +579,12 @@ CSSUnitValue
 Create
 (
 global
+StyleNumericType
+:
+:
+Length
+(
+)
 0
 .
 0

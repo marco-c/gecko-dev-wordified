@@ -79,6 +79,7 @@ typed_om
 :
 :
 {
+NumericType
 NumericValue
 ToTyped
 TypedValue
@@ -317,6 +318,14 @@ Unit
 (
 UnitValue
 {
+numeric_type
+:
+NumericType
+:
+:
+angle
+(
+)
 value
 :
 self

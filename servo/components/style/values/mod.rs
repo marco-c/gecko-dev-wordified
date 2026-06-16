@@ -132,6 +132,7 @@ typed_om
 :
 {
 KeywordValue
+NumericType
 NumericValue
 ToTyped
 TypedValue
@@ -3135,6 +3136,14 @@ Unit
 (
 UnitValue
 {
+numeric_type
+:
+NumericType
+:
+:
+percent
+(
+)
 value
 :
 value
