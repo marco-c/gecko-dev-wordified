@@ -472,8 +472,8 @@ CPPONLY
 :
 TreeBuilder
 treeBuilder
-Interner
-interner
+boolean
+maybeAtomize
 )
 {
 return

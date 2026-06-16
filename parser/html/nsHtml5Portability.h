@@ -389,9 +389,8 @@ length
 nsHtml5TreeBuilder
 *
 treeBuilder
-nsHtml5AtomTable
-*
-interner
+bool
+maybeAtomize
 )
 ;
 static
