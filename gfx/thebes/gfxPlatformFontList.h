@@ -3619,8 +3619,10 @@ required
 *
 /
 virtual
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 MakePlatformFont
 (
 const

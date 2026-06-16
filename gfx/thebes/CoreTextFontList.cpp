@@ -9643,8 +9643,10 @@ MOZ_DEFINE_MALLOC_SIZE_OF_ON_ALLOC
 (
 UserFontMallocSizeOfOnAlloc
 )
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 CoreTextFontList
 :
 :
@@ -9770,10 +9772,10 @@ return
 nullptr
 ;
 }
-auto
+RefPtr
 newFontEntry
 =
-MakeUnique
+MakeRefPtr
 <
 CTFontEntry
 >
@@ -9842,7 +9844,7 @@ aFontData
 return
 newFontEntry
 .
-release
+forget
 (
 )
 ;

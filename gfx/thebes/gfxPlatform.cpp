@@ -13115,8 +13115,10 @@ aStyleForEntry
 )
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 gfxPlatform
 :
 :
