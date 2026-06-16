@@ -974,8 +974,10 @@ gfxFT2FontList
 (
 )
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 CreateFontEntry
 (
 mozilla

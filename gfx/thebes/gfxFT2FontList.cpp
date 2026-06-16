@@ -12661,8 +12661,10 @@ Clear
 )
 ;
 }
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 gfxFT2FontList
 :
 :
@@ -12708,8 +12710,10 @@ list
 )
 )
 ;
+RefPtr
+<
 FT2FontEntry
-*
+>
 fe
 =
 FT2FontEntry
@@ -12759,6 +12763,10 @@ list
 ;
 return
 fe
+.
+forget
+(
+)
 ;
 }
 /

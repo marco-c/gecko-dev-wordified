@@ -6464,8 +6464,10 @@ mLock
 {
 }
 virtual
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 CreateFontEntry
 (
 mozilla

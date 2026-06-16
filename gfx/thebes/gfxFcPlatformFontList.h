@@ -1556,8 +1556,10 @@ SystemFontList
 *
 )
 ;
+already_AddRefed
+<
 gfxFontEntry
-*
+>
 CreateFontEntry
 (
 mozilla
