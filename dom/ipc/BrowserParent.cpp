@@ -12380,7 +12380,7 @@ static_cast
 nsIWidget
 :
 :
-Modifiers
+NativeModifiers
 >
 (
 aModifierFlags
