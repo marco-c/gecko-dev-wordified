@@ -585,7 +585,6 @@ testToken
 .
 login
 (
-true
 )
 ;
 ok
@@ -593,8 +592,6 @@ ok
 testToken
 .
 isLoggedIn
-(
-)
 "
 Should
 have

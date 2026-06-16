@@ -143,8 +143,6 @@ equal
 internalKeyToken
 .
 isLoggedIn
-(
-)
 isLoggedIn
 Should
 {
@@ -160,12 +158,6 @@ not
 be
 logged
 in
-)
-;
-internalKeyToken
-.
-isLoggedIn
-(
 )
 ;
 }

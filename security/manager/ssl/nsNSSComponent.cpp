@@ -11293,11 +11293,11 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsNSSComponent
 :
 :
-LogoutAuthenticatedPK11
+ClearTLSCacheAndCancelAllConnections
 (
 )
 {

@@ -491,7 +491,7 @@ function
 {
 token
 .
-logoutSimple
+logout
 (
 )
 ;

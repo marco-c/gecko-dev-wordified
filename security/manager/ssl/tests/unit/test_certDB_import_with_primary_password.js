@@ -634,7 +634,7 @@ password
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;

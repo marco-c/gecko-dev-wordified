@@ -422,7 +422,7 @@ hunter2
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;
@@ -530,7 +530,7 @@ numPrompts
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;

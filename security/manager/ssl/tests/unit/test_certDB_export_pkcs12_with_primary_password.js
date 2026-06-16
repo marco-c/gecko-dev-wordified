@@ -418,7 +418,7 @@ password
 ;
 token
 .
-logoutSimple
+logout
 (
 )
 ;
@@ -538,7 +538,7 @@ password
 .
 token
 .
-logoutSimple
+logout
 (
 )
 ;
@@ -684,7 +684,7 @@ password
 .
 token
 .
-logoutSimple
+logout
 (
 )
 ;
