@@ -1510,6 +1510,8 @@ vector
 IceCandidateCollection
 >
 candidates
+EncodingOptions
+encoding_options
 )
 {
 if
@@ -1555,6 +1557,7 @@ move
 (
 candidates
 )
+encoding_options
 )
 )
 ;
@@ -1768,6 +1771,8 @@ vector
 IceCandidateCollection
 >
 candidates
+EncodingOptions
+encoding_options
 )
 :
 sdp_type_
@@ -1801,6 +1806,10 @@ move
 (
 candidates
 )
+)
+encoding_options_
+(
+encoding_options
 )
 {
 RTC_DCHECK
@@ -1928,6 +1937,7 @@ CloneCandidateCollection
 (
 candidate_collection_
 )
+encoding_options_
 )
 ;
 }
