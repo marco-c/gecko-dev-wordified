@@ -3805,10 +3805,6 @@ unnecessary
 repetition
 in
 output
-pub
-(
-super
-)
 need_bake_expressions
 :
 back
@@ -3842,10 +3838,6 @@ cfg
 test
 )
 ]
-pub
-(
-super
-)
 put_expression_stack_pointers
 :
 FastHashSet
@@ -3862,10 +3854,6 @@ cfg
 test
 )
 ]
-pub
-(
-super
-)
 put_block_stack_pointers
 :
 FastHashSet
@@ -3916,10 +3904,6 @@ index
 and
 index
 )
-pub
-(
-super
-)
 struct_member_pads
 :
 FastHashSet
@@ -3935,10 +3919,6 @@ Type
 u32
 )
 >
-pub
-(
-super
-)
 needs_object_memory_barriers
 :
 bool
