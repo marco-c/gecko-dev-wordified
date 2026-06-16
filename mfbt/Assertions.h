@@ -817,6 +817,10 @@ aPath
 {
 if
 (
+!
+aPath
+|
+|
 *
 aPath
 =
