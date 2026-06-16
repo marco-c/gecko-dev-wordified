@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsClipboardWayland
+RetrievalContextWayland
 .
 h
 "

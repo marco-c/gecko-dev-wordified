@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-_nsClipboardWayland_h_
+_RetrievalContextWayland_h_
 #
 define
-_nsClipboardWayland_h_
+_RetrievalContextWayland_h_
 #
 include
 "
@@ -711,6 +711,6 @@ widget
 endif
 /
 *
-_nsClipboardWayland_h_
+_RetrievalContextWayland_h_
 *
 /

@@ -66,7 +66,7 @@ h
 #
 include
 "
-nsClipboardX11
+RetrievalContextX11
 .
 h
 "
