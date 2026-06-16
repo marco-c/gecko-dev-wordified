@@ -25105,14 +25105,7 @@ page_size
 ;
 gPageSize
 =
-std
-:
-:
-min
-(
-4_KiB
 page_size
-)
 ;
 #
 endif
