@@ -1632,7 +1632,7 @@ by
 start
 of
 a
-follwing
+following
 text
 *
 node
