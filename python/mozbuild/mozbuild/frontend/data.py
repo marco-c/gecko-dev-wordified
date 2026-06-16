@@ -2317,6 +2317,10 @@ cxx_link
 "
         
 "
+extra_link_deps
+"
+        
+"
 lib_defines
 "
         
@@ -2390,6 +2394,13 @@ defaultdict
 (
 list
 )
+        
+self
+.
+extra_link_deps
+=
+[
+]
     
 property
     
@@ -8765,6 +8776,11 @@ mm
 "
 .
 def
+"
+                    
+"
+.
+plist
 "
                     
 "
