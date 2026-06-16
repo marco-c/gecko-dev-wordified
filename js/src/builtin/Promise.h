@@ -2134,7 +2134,7 @@ NIGHTLY_BUILD
 /
 Implements
 the
-MaybeDeferredPromiseResolve
+SafePromiseResolve
 abstract
 operation
 from

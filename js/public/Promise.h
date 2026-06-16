@@ -3863,7 +3863,7 @@ This
 corresponds
 to
 the
-MaybeDeferredPromiseResolve
+SafePromiseResolve
 abstract
 operation
 from
