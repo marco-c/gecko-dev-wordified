@@ -23607,13 +23607,13 @@ barriers
 "
 )
 ;
-GCPtrVal
+HeapPtrVal
 *
 val
 =
 js_new
 <
-GCPtrVal
+HeapPtrVal
 >
 (
 Val
@@ -24713,7 +24713,7 @@ type
 )
 ;
 }
-GCPtrVal
+HeapPtrVal
 &
 WasmGlobalObject
 :
@@ -24726,7 +24726,7 @@ return
 *
 reinterpret_cast
 <
-GCPtrVal
+HeapPtrVal
 *
 >
 (
@@ -24742,7 +24742,7 @@ toPrivate
 ;
 }
 const
-GCPtrVal
+HeapPtrVal
 &
 WasmGlobalObject
 :
@@ -24756,7 +24756,7 @@ return
 *
 reinterpret_cast
 <
-GCPtrVal
+HeapPtrVal
 *
 >
 (
