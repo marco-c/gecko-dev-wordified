@@ -788,7 +788,7 @@ parsed
 .
 theme
 .
-headerURL
+headerImage
 .
 endsWith
 (
@@ -805,7 +805,7 @@ update
 has
 the
 expected
-headerURL
+headerImage
 "
 )
 ;
