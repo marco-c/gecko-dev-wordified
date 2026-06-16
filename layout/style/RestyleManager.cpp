@@ -3470,9 +3470,6 @@ break
 if
 (
 isEmpty
-&
-&
-containerIsElement
 )
 {
 RestyleForEmptyChange
