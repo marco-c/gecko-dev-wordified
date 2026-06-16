@@ -205,6 +205,14 @@ return
 mPersistenceType
 ;
 }
+const
+nsCString
+&
+GetGroup
+(
+)
+const
+;
 private
 :
 /
