@@ -145,6 +145,13 @@ nsIStringBundle
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 using
 namespace
 mozilla

@@ -104,6 +104,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsPluginArray
 .
 h

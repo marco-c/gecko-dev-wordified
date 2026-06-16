@@ -334,6 +334,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

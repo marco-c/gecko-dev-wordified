@@ -422,6 +422,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsPIWindowRoot
 .
 h

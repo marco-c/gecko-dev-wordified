@@ -492,6 +492,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h

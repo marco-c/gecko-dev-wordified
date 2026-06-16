@@ -223,6 +223,13 @@ nsPIDOMWindow
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 using
 namespace
 mozilla

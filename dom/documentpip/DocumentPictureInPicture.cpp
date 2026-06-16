@@ -157,6 +157,13 @@ h
 #
 include
 "
+nsGlobalWindowOuter
+.
+h
+"
+#
+include
+"
 nsIWindowWatcher
 .
 h
@@ -165,6 +172,13 @@ h
 include
 "
 nsNetUtil
+.
+h
+"
+#
+include
+"
+nsPIDOMWindowInlines
 .
 h
 "

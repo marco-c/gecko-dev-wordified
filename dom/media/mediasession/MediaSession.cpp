@@ -131,6 +131,13 @@ WindowContext
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 /
 /
 avoid

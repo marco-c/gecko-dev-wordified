@@ -129,6 +129,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

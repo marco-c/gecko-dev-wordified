@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsSynthVoiceRegistry
 .
 h

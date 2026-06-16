@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsSpeechTask
 .
 h

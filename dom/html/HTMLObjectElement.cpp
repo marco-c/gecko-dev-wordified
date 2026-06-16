@@ -165,6 +165,13 @@ nsIWidget
 h
 "
 #
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #

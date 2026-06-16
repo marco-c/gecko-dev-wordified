@@ -167,6 +167,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsSandboxFlags
 .
 h

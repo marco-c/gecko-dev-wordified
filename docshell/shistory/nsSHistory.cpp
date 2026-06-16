@@ -183,6 +183,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

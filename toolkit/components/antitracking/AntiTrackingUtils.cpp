@@ -284,6 +284,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsQueryObject
 .
 h
@@ -2607,7 +2614,7 @@ is
 /
 /
 BEHAVIOR_REJECT_TRACKER
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 or
 /
 /
@@ -4941,7 +4948,7 @@ return
 Do
 not
 check
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 her
 because
 when

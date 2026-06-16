@@ -106,6 +106,13 @@ nsIWebBrowserChrome
 .
 h
 "
+#
+include
+"
+nsPIDOMWindowInlines
+.
+h
+"
 namespace
 mozilla
 :

@@ -784,6 +784,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

@@ -1773,6 +1773,13 @@ h
 #
 include
 "
+nsPIDOMWindowInlines
+.
+h
+"
+#
+include
+"
 nsPingListener
 .
 h

@@ -198,6 +198,13 @@ ACCESSIBILITY
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIWindowsRegKey
 .
 h

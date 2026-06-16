@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsMenuPopupFrame
 .
 h
