@@ -1161,10 +1161,6 @@ deactivate_initial_state_reset_at_echo_path_change_
 ;
 const
 bool
-full_reset_at_echo_path_change_
-;
-const
-bool
 subtractor_analyzer_reset_at_echo_path_change_
 ;
 /
