@@ -4319,10 +4319,14 @@ selector
 ;
 if
 (
-!
 firstInput
 .
-isInlineLayout
+inputLayout
+=
+=
+"
+block
+"
 )
 {
 return
