@@ -297,14 +297,6 @@ lock
 )
 ;
 void
-markDeferredWeakmaps
-(
-AutoLockHelperThreadState
-&
-lock
-)
-;
-void
 waitUntilResumed
 (
 AutoLockHelperThreadState
@@ -585,8 +577,10 @@ sliceBudget
 )
 ;
 bool
-anyMarkerHasEntries
+hasWork
 (
+MarkColor
+color
 )
 const
 ;
