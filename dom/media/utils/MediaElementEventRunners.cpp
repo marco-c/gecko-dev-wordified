@@ -452,16 +452,6 @@ resize
 )
 )
 {
-MOZ_ASSERT
-(
-mElement
--
->
-HasVideo
-(
-)
-)
-;
 auto
 mediaInfo
 =
