@@ -26,6 +26,14 @@ imports
 wasmIsSupported
 (
 )
+|
+|
+getBuildConfiguration
+(
+"
+release_or_beta
+"
+)
 ;
 -
 -
