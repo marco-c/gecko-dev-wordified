@@ -1489,6 +1489,9 @@ nsIPrintSettings
 .
 kPaperSizeInches
 paperId
+sortAfterLocal
+=
+false
 }
 =
 opts
@@ -1722,6 +1725,7 @@ printer
 =
 {
 name
+sortAfterLocal
 supportsColor
 :
 Promise

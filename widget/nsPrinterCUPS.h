@@ -267,11 +267,14 @@ aDisplayName
 cups_dest_t
 *
 aPrinter
+bool
+aSortAfterLocal
 )
 :
 nsPrinterBase
 (
 aArray
+aSortAfterLocal
 )
 mShim
 (

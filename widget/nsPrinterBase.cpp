@@ -1173,11 +1173,17 @@ const
 CommonPaperInfoArray
 *
 aPaperInfoArray
+bool
+aSortAfterLocal
 )
 :
 mCommonPaperInfo
 (
 aPaperInfoArray
+)
+mSortAfterLocal
+(
+aSortAfterLocal
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
