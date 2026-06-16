@@ -697,15 +697,6 @@ R2_unbounded
 override
 ;
 EchoCanceller3Config
-GetConfiguration
-(
-bool
-multi_channel
-)
-const
-override
-;
-EchoCanceller3Config
 :
 :
 Suppressor
