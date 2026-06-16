@@ -1500,7 +1500,7 @@ SetChannel
 again
 .
 RTCError
-SetChannel
+SetChannelForTest
 (
 std
 :

@@ -3923,7 +3923,7 @@ receive_channel
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :

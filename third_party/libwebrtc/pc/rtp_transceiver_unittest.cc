@@ -1054,7 +1054,7 @@ Times
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -1167,7 +1167,7 @@ channel
 required
 to
 allow
-SetChannel
+SetChannelForTest
 (
 )
 /
@@ -1307,7 +1307,7 @@ op
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -1535,7 +1535,7 @@ Times
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -1966,7 +1966,7 @@ result
 transceiver
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -5962,7 +5962,7 @@ Times
 transceiver_
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -6355,7 +6355,7 @@ description
 transceiver_
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -6748,7 +6748,7 @@ description
 transceiver_
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
@@ -7098,7 +7098,7 @@ Times
 transceiver_
 -
 >
-SetChannel
+SetChannelForTest
 (
 std
 :
