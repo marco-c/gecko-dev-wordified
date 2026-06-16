@@ -1124,13 +1124,12 @@ Release
 TextureClient
 .
 RefPtr
-<
-Runnable
->
 task
 =
-new
+MakeRefPtr
+<
 TextureClientReleaseTask
+>
 (
 textureHolder
 -

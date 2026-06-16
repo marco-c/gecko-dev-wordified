@@ -1340,13 +1340,12 @@ data
 )
 ;
 RefPtr
-<
-TextureHost
->
 host
 =
-new
+MakeRefPtr
+<
 MemoryTextureHost
+>
 (
 reinterpret_cast
 <

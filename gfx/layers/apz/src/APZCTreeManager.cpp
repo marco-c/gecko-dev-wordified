@@ -8011,13 +8011,12 @@ forget
 }
 }
 RefPtr
+node
+=
+MakeRefPtr
 <
 HitTestingTreeNode
 >
-node
-=
-new
-HitTestingTreeNode
 (
 aApzc
 false
