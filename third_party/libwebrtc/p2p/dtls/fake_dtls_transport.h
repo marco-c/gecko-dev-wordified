@@ -529,6 +529,15 @@ FakeIceTransportInternal
 ice
 )
 :
+DtlsTransportInternal
+(
+ice
+-
+>
+network_thread
+(
+)
+)
 owned_ice_transport_
 (
 std
