@@ -2563,8 +2563,7 @@ try
 "
 "
 -
--
-message
+m
 "
 message
 )
@@ -2687,8 +2686,7 @@ revert
 "
 "
 -
--
-all
+a
 "
 )
     

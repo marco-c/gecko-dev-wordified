@@ -759,15 +759,11 @@ log
 "
 "
 -
--
-limit
-=
-0
+n0
 "
 "
 -
--
-template
+T
 "
 f
 '
@@ -807,7 +803,6 @@ _run_read_only
 "
 log
 "
-            
 "
 -
 -
@@ -815,29 +810,19 @@ no
 -
 graph
 "
-            
 "
 -
--
-limit
-=
-1
+n1
 "
-            
 "
 -
--
-revisions
+r
 "
-            
 revset
-            
 "
 -
--
-template
+T
 "
-            
 "
 change_id
 .
@@ -1092,7 +1077,6 @@ _run_read_only
 "
 log
 "
-            
 "
 -
 -
@@ -1100,13 +1084,10 @@ no
 -
 graph
 "
-            
 "
 -
--
-revisions
+r
 "
-            
 f
 "
 latest
@@ -1116,13 +1097,10 @@ revset
 }
 )
 "
-            
 "
 -
--
-template
+T
 "
-            
 "
 commit_id
 "
@@ -1199,16 +1177,12 @@ graph
             
 "
 -
--
-limit
-=
-1
+n1
 "
             
 "
 -
--
-revision
+r
 "
             
 self
@@ -1217,8 +1191,7 @@ HEAD_REVSET
             
 "
 -
--
-template
+T
 "
             
 '
@@ -1294,15 +1267,10 @@ _run_read_only
 "
 log
 "
-                
 "
 -
--
-limit
-=
-1
+n1
 "
-                
 "
 -
 -
@@ -1310,13 +1278,10 @@ no
 -
 graph
 "
-                
 "
 -
--
-template
+T
 "
-                
 '
 committer
 .
@@ -1628,8 +1593,7 @@ log
             
 "
 -
--
-revisions
+r
 "
             
 rev
@@ -1644,8 +1608,7 @@ graph
             
 "
 -
--
-template
+T
 "
             
 '
@@ -2293,8 +2256,7 @@ diff
 "
 "
 -
--
-revisions
+r
 "
 rev
 "
@@ -2877,6 +2839,9 @@ restore
 "
 "
 -
+r
+"
+"
 -
 "
 str
@@ -2915,8 +2880,7 @@ commit
 "
 "
 -
--
-message
+m
 "
 message
 ]
@@ -3262,7 +3226,6 @@ _run_read_only
 "
 log
 "
-                
 "
 -
 -
@@ -3270,31 +3233,21 @@ no
 -
 graph
 "
-                
 "
 -
--
-limit
-=
-1
+n1
 "
-                
 "
 -
--
-revision
+r
 "
-                
 self
 .
 HEAD_REVSET
-                
 "
 -
--
-template
+T
 "
-                
 template
             
 )
@@ -3316,8 +3269,7 @@ create
 dest_branch
 "
 -
--
-revision
+r
 "
 self
 .
@@ -3749,8 +3701,7 @@ graph
             
 "
 -
--
-revisions
+r
 "
             
 f
@@ -3774,8 +3725,7 @@ empty
             
 "
 -
--
-template
+T
 "
             
 '
@@ -3804,9 +3754,7 @@ append
 f
 "
 -
--
-limit
-=
+n
 {
 limit
 }
@@ -4169,10 +4117,7 @@ log
 "
 "
 -
--
-limit
-=
-1
+n1
 "
 "
 -
@@ -4183,8 +4128,7 @@ graph
 "
 "
 -
--
-template
+T
 "
 "
 id
@@ -4397,8 +4341,7 @@ graph
                 
 "
 -
--
-revisions
+r
 "
                 
 "
@@ -4432,8 +4375,7 @@ exact
                 
 "
 -
--
-template
+T
 "
                 
 "
@@ -4542,10 +4484,7 @@ log
 "
 "
 -
--
-limit
-=
-1
+n1
 "
 "
 -
@@ -4556,8 +4495,7 @@ graph
 "
 "
 -
--
-template
+T
 "
 "
 id
@@ -4586,8 +4524,7 @@ new
 "
 "
 -
--
-message
+m
 "
 commit_message
 self
@@ -4932,16 +4869,12 @@ graph
             
 "
 -
--
-limit
-=
-1
+n1
 "
             
 "
 -
--
-template
+T
 "
             
 "
