@@ -7148,6 +7148,9 @@ return
 nullptr
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 JS
@@ -7156,7 +7159,7 @@ JS
 Prefs
 :
 :
-experimental_source_phase_imports
+experimental_wasm_esm_integration
 (
 )
 )
@@ -7226,6 +7229,8 @@ TenuredObject
 ;
 }
 }
+#
+endif
 return
 NewNativeConstructor
 (
@@ -8781,6 +8786,9 @@ JSProtoKey
 key
 )
 {
+#
+ifdef
+NIGHTLY_BUILD
 if
 (
 JS
@@ -8789,7 +8797,7 @@ JS
 Prefs
 :
 :
-experimental_source_phase_imports
+experimental_wasm_esm_integration
 (
 )
 )
@@ -8834,6 +8842,8 @@ abstractModuleSourceProto
 )
 ;
 }
+#
+endif
 return
 GlobalObject
 :
