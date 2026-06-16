@@ -8470,6 +8470,10 @@ CaptureStack
 this
 &
 stack
+js
+:
+:
+MAX_REPORTED_STACK_DEPTH
 )
 )
 {
