@@ -36496,6 +36496,12 @@ LayoutDevicePoint
 aOutOrigin
 =
 nullptr
+const
+nsDisplayListBuilder
+*
+aBuilder
+=
+nullptr
 )
 const
 ;
