@@ -2278,6 +2278,12 @@ StopObservingGVAutoplayIfNeeded
 (
 )
 ;
+bool
+ShouldDelayPlayUntilGVAutoplayRequestResolved
+(
+)
+const
+;
 /
 /
 Check
