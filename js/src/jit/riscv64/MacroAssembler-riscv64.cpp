@@ -30727,7 +30727,7 @@ Assembler
 :
 :
 NotEqual
-LongJump
+ShortJump
 )
 ;
 }
@@ -30819,7 +30819,7 @@ Assembler
 :
 :
 NotEqual
-LongJump
+ShortJump
 )
 ;
 }
@@ -30957,7 +30957,7 @@ Assembler
 :
 :
 NotEqual
-LongJump
+ShortJump
 )
 ;
 }
@@ -36420,7 +36420,7 @@ Assembler
 :
 :
 NotEqual
-LongJump
+ShortJump
 )
 ;
 }
@@ -36570,7 +36570,7 @@ Assembler
 :
 :
 NotEqual
-LongJump
+ShortJump
 )
 ;
 }
@@ -36738,7 +36738,7 @@ Assembler
 :
 :
 NotEqual
-LongJump
+ShortJump
 )
 ;
 }
@@ -36950,7 +36950,7 @@ Assembler
 :
 :
 LessThan
-LongJump
+ShortJump
 )
 ;
 }
@@ -37044,7 +37044,7 @@ Assembler
 :
 :
 LessThan
-LongJump
+ShortJump
 )
 ;
 }
@@ -37133,7 +37133,7 @@ Assembler
 :
 :
 NotEqual
-LongJump
+ShortJump
 )
 ;
 }
@@ -37235,7 +37235,7 @@ Assembler
 :
 :
 LessThan
-LongJump
+ShortJump
 )
 ;
 }
@@ -37259,7 +37259,7 @@ Assembler
 :
 :
 GreaterThan
-LongJump
+ShortJump
 )
 ;
 }
@@ -37375,7 +37375,7 @@ Assembler
 :
 :
 LessThan
-LongJump
+ShortJump
 )
 ;
 }
@@ -37399,7 +37399,7 @@ Assembler
 :
 :
 GreaterThan
-LongJump
+ShortJump
 )
 ;
 }
@@ -37519,7 +37519,7 @@ Assembler
 :
 :
 Zero
-LongJump
+ShortJump
 )
 ;
 }
@@ -37721,7 +37721,7 @@ Assembler
 :
 :
 Zero
-LongJump
+ShortJump
 )
 ;
 }
@@ -37818,7 +37818,7 @@ Assembler
 :
 :
 Zero
-LongJump
+ShortJump
 )
 ;
 }
@@ -37937,7 +37937,7 @@ Assembler
 :
 :
 Zero
-LongJump
+ShortJump
 )
 ;
 }
@@ -38012,7 +38012,7 @@ rd
 rd
 taken
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -38068,7 +38068,7 @@ rd
 rd
 taken
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -38124,7 +38124,7 @@ rd
 rd
 taken
 cond
-LongJump
+ShortJump
 )
 ;
 }

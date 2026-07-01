@@ -1090,7 +1090,7 @@ dest
 dest
 label
 cond
-LongJump
+ShortJump
 )
 ;
 break
@@ -1170,7 +1170,7 @@ dest
 dest
 label
 cond
-LongJump
+ShortJump
 )
 ;
 break
