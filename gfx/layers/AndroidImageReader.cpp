@@ -1505,7 +1505,7 @@ gfx
 SurfaceFormat
 :
 :
-R8G8B8A8
+R8G8B8X8
 ;
 /
 /
