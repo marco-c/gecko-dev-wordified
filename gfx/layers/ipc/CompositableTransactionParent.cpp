@@ -819,6 +819,12 @@ host
 >
 UseRemoteTexture
 (
+/
+*
+aCalledInCallback
+*
+/
+false
 )
 ;
 break
