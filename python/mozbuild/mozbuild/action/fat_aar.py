@@ -710,6 +710,18 @@ jar_finder
 )
 :
             
+path_with_prefix
+=
+mozpath
+.
+join
+(
+"
+geckoview
+"
+path
+)
+            
 #
 Native
 libraries
@@ -737,7 +749,7 @@ copier
 .
 add
 (
-path
+path_with_prefix
 fileobj
 )
             
@@ -751,7 +763,7 @@ copier
 .
 add
 (
-path
+path_with_prefix
 fileobj
 )
             
@@ -879,7 +891,7 @@ diffs
 f
 "
 {
-path
+path_with_prefix
 }
 !
 /
@@ -952,7 +964,7 @@ overlap
                 
 diffs
 [
-path
+path_with_prefix
 ]
 [
 fingerprint
@@ -1007,6 +1019,8 @@ allow_pattern_list
 {
         
 "
+geckoview
+/
 AndroidManifest
 .
 xml
@@ -1028,6 +1042,8 @@ builds
 .
         
 "
+geckoview
+/
 classes
 .
 jar
@@ -1053,6 +1069,8 @@ well
 .
         
 "
+geckoview
+/
 classes
 .
 jar
@@ -1079,6 +1097,8 @@ architecture
 .
         
 "
+geckoview
+/
 chrome
 /
 toolkit
@@ -1116,6 +1136,8 @@ push
 .
         
 "
+geckoview
+/
 *
 *
 /
@@ -1125,6 +1147,8 @@ ftl
 "
         
 "
+geckoview
+/
 *
 *
 /
@@ -1134,6 +1158,8 @@ dtd
 "
         
 "
+geckoview
+/
 *
 *
 /
