@@ -210,6 +210,10 @@ OnWindowMaximized
 nsWindow
 *
 aWin
+bool
+aForce
+=
+false
 )
 ;
 /
