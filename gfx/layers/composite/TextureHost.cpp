@@ -1468,6 +1468,12 @@ case
 SurfaceDescriptor
 :
 :
+TAndroidImageReaderImageDescriptor
+:
+case
+SurfaceDescriptor
+:
+:
 TSurfaceDescriptorSharedGLTexture
 :
 case
