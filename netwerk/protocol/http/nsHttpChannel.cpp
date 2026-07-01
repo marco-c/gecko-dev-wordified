@@ -555,6 +555,15 @@ include
 "
 mozilla
 /
+ProfilerDumpOrCrash
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ProfilerLabels
 .
 h
@@ -62212,7 +62221,7 @@ mStatus
 NS_ERROR_NON_LOCAL_CONNECTION_REFUSED
 )
 {
-MOZ_CRASH_UNSAFE
+MOZ_DUMP_PROFILE_OR_CRASH_UNSAFE
 (
 nsPrintfCString
 (
@@ -62265,10 +62274,6 @@ GetSpecOrDefault
 get
 (
 )
-)
-.
-get
-(
 )
 )
 ;
