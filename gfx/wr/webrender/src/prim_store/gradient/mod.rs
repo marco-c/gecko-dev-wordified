@@ -804,7 +804,7 @@ LinearGradientTemplate
 >
 (
 )
-80
+72
 "
 LinearGradientTemplate
 size
