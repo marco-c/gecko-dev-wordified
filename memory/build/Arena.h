@@ -689,7 +689,7 @@ return
 aThis
 -
 >
-mChunksMavisedElim
+mChunksMadvisedElement
 ;
 }
 static
@@ -711,7 +711,7 @@ return
 aThis
 -
 >
-mChunksMavisedElim
+mChunksMadvisedElement
 ;
 }
 }

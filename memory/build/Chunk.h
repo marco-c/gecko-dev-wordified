@@ -1393,7 +1393,7 @@ DoublyLinkedListElement
 <
 arena_chunk_t
 >
-mChunksDirtyElim
+mChunksDirtyElement
 ;
 #
 ifdef
@@ -1471,7 +1471,7 @@ DoublyLinkedListElement
 <
 arena_chunk_t
 >
-mChunksMavisedElim
+mChunksMadvisedElement
 ;
 #
 endif
@@ -1598,7 +1598,7 @@ return
 aThis
 -
 >
-mChunksDirtyElim
+mChunksDirtyElement
 ;
 }
 static
@@ -1620,7 +1620,7 @@ return
 aThis
 -
 >
-mChunksDirtyElim
+mChunksDirtyElement
 ;
 }
 using
