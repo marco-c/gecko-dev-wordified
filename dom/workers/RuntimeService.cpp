@@ -4877,7 +4877,6 @@ obj
 )
 )
 ;
-return
 mozilla
 :
 :
@@ -4888,6 +4887,9 @@ TryPreserveWrapper
 (
 obj
 )
+;
+return
+true
 ;
 }
 static

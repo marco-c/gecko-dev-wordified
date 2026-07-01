@@ -380,7 +380,6 @@ aObj
 )
 )
 ;
-return
 mozilla
 :
 :
@@ -391,6 +390,9 @@ TryPreserveWrapper
 (
 aObj
 )
+;
+return
+true
 ;
 }
 JSObject

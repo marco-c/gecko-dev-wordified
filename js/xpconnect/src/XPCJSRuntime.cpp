@@ -21807,9 +21807,6 @@ obj
 )
 )
 ;
-if
-(
-!
 mozilla
 :
 :
@@ -21820,12 +21817,7 @@ TryPreserveWrapper
 (
 obj
 )
-)
-{
-return
-false
 ;
-}
 MOZ_ASSERT
 (
 !

@@ -8354,7 +8354,7 @@ return
 0
 ;
 }
-bool
+void
 TryPreserveWrapper
 (
 JS
@@ -8454,7 +8454,6 @@ native
 ;
 }
 return
-true
 ;
 }
 const
@@ -8521,7 +8520,6 @@ preservesWrapper
 )
 {
 return
-true
 ;
 }
 WrapperCacheGetter
@@ -8624,9 +8622,6 @@ mParticipant
 )
 ;
 }
-return
-true
-;
 }
 bool
 HasReleasedWrapper
