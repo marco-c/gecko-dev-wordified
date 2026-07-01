@@ -470,7 +470,7 @@ Zero
 (
 )
 ;
-target_delay
+stats_target_delay
 =
 TimeDelta
 :
@@ -529,7 +529,7 @@ StatsTargetDelay
 const
 {
 TimeDelta
-stats_target_delay
+delay
 =
 TargetDelay
 (
@@ -553,7 +553,7 @@ TimeDelta
 Zero
 (
 )
-stats_target_delay
+delay
 )
 ;
 }
@@ -1262,7 +1262,7 @@ timings_
 ;
 timings
 .
-target_delay
+stats_target_delay
 =
 timings_
 .

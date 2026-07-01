@@ -355,7 +355,7 @@ p6
 =
 arg
 .
-target_delay
+stats_target_delay
 >
 =
 TimeDelta
@@ -452,7 +452,7 @@ minimum_delay
 =
 arg
 .
-target_delay
+stats_target_delay
 ;
 if
 (
@@ -484,7 +484,7 @@ minimum_delay
 <
 <
 "
-target_delay
+stats_target_delay
 :
 "
 <
@@ -493,7 +493,7 @@ ToString
 (
 arg
 .
-target_delay
+stats_target_delay
 )
 <
 <
@@ -563,7 +563,7 @@ m3
 =
 arg
 .
-target_delay
+stats_target_delay
 >
 =
 arg
@@ -582,7 +582,7 @@ result_listener
 <
 "
 \
-ntarget_delay
+nstats_target_delay
 :
 "
 <
@@ -591,7 +591,7 @@ ToString
 (
 arg
 .
-target_delay
+stats_target_delay
 )
 <
 <
@@ -645,7 +645,7 @@ m4
 =
 arg
 .
-target_delay
+stats_target_delay
 <
 =
 arg
@@ -1792,7 +1792,7 @@ EXPECT_EQ
 (
 timings
 .
-target_delay
+stats_target_delay
 TimeDelta
 :
 :
@@ -2067,7 +2067,7 @@ EXPECT_EQ
 (
 timings
 .
-target_delay
+stats_target_delay
 minimum_delay
 )
 ;
@@ -2331,7 +2331,7 @@ EXPECT_EQ
 (
 timings
 .
-target_delay
+stats_target_delay
 TimeDelta
 :
 :
@@ -3055,7 +3055,7 @@ delay
 is
 initialized
 to
-jitter
+minimum
 delay
 .
 EXPECT_EQ
@@ -3201,7 +3201,7 @@ delay
 is
 initialized
 to
-jitter
+minimum
 delay
 .
 EXPECT_EQ
@@ -3346,7 +3346,7 @@ delay
 is
 initialized
 to
-jitter
+minimum
 delay
 .
 EXPECT_EQ
@@ -3484,7 +3484,7 @@ delay
 is
 initialized
 to
-jitter
+minimum
 delay
 .
 EXPECT_EQ
@@ -3683,7 +3683,7 @@ TargetVideoDelay
 /
 /
 Reduce
-jitter
+minimum
 delay
 .
 timing
