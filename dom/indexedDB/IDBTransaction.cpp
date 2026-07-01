@@ -2210,11 +2210,13 @@ ReadyState
 :
 :
 Finished
-!
-NS_SUCCEEDED
+NS_FAILED
 (
 mAbortCode
 )
+|
+|
+mFiredCompleteOrAbort
 )
 ;
 MOZ_ASSERT
