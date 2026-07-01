@@ -216,13 +216,6 @@ nsIURIMutator
 .
 h
 "
-#
-include
-"
-nsComponentManagerUtils
-.
-h
-"
 using
 namespace
 JS
