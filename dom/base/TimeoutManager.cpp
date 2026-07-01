@@ -3292,6 +3292,15 @@ GetTimeout
 timeoutId
 aReason
 )
+|
+|
+mIdleTimeouts
+.
+GetTimeout
+(
+timeoutId
+aReason
+)
 )
 ;
 return
