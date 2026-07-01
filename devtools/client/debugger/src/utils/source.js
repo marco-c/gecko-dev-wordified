@@ -419,6 +419,17 @@ return
 false
 ;
 }
+if
+(
+source
+.
+isStyleSheet
+)
+{
+return
+false
+;
+}
 return
 true
 ;
