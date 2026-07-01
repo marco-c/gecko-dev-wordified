@@ -1634,7 +1634,7 @@ GetFormat
 SurfaceFormat
 :
 :
-NV16
+P210
 )
 {
 MOZ_ASSERT
@@ -1648,17 +1648,6 @@ ColorDepth
 :
 :
 COLOR_10
-"
-Currently
-NV16
-only
-supports
-10
--
-bit
-color
-.
-"
 )
 ;
 MOZ_ASSERT

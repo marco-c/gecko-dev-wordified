@@ -20781,7 +20781,7 @@ Push
 a
 2
 planar
-NV16
+P210
 image
 .
 #
@@ -20794,7 +20794,7 @@ extern
 C
 "
 fn
-wr_dp_push_yuv_NV16_image
+wr_dp_push_yuv_P210_image
 (
 state
 :
@@ -20910,7 +20910,7 @@ bounds
 YuvData
 :
 :
-NV16
+P210
 (
 image_key_0
 image_key_1

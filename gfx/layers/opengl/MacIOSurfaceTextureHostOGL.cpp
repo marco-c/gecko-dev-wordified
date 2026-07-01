@@ -700,7 +700,7 @@ gfx
 SurfaceFormat
 :
 :
-NV16
+P210
 :
 {
 return
@@ -1463,7 +1463,7 @@ gfx
 SurfaceFormat
 :
 :
-NV16
+P210
 :
 {
 if
@@ -2178,7 +2178,7 @@ gfx
 SurfaceFormat
 :
 :
-NV16
+P210
 :
 {
 if
@@ -2221,7 +2221,7 @@ return
 }
 aBuilder
 .
-PushNV16Image
+PushP210Image
 (
 aBounds
 aClip

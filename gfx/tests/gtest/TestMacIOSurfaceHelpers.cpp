@@ -793,7 +793,7 @@ HALF_WIDTH_AND_HEIGHT
 Tests
 that
 an
-NV16
+P210
 (
 10
 -
@@ -824,7 +824,7 @@ CreateSourceSurfaceFromMacIOSurface
 TEST
 (
 MacIOSurfaceHelpers
-NV16Readback
+P210Readback
 )
 {
 ASSERT_NO_FATAL_FAILURE
