@@ -1464,7 +1464,7 @@ NavigationAPIMethodTracker
 aNavigationAPIMethodTracker
 )
 ;
-bool
+void
 SetCurrentEntryIndex
 (
 const
