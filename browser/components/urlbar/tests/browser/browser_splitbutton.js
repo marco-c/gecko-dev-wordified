@@ -79,7 +79,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

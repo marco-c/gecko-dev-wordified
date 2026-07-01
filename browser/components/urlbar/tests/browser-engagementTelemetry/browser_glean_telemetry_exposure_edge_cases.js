@@ -663,7 +663,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -873,7 +873,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -900,7 +900,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1229,7 +1229,7 @@ RESULT_SOURCE
 BOOKMARKS
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1259,7 +1259,7 @@ RESULT_SOURCE
 HISTORY
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1370,7 +1370,7 @@ row
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -2093,7 +2093,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -2127,7 +2127,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -2857,7 +2857,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3134,7 +3134,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3168,7 +3168,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3925,7 +3925,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4135,7 +4135,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4162,7 +4162,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4489,7 +4489,7 @@ RESULT_SOURCE
 BOOKMARKS
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4519,7 +4519,7 @@ RESULT_SOURCE
 HISTORY
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4630,7 +4630,7 @@ row
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5518,7 +5518,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5746,7 +5746,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5773,7 +5773,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5800,7 +5800,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6128,7 +6128,7 @@ RESULT_SOURCE
 BOOKMARKS
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6158,7 +6158,7 @@ RESULT_SOURCE
 HISTORY
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6177,7 +6177,7 @@ RESULT_SOURCE
 TABS
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6288,7 +6288,7 @@ row
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6544,7 +6544,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -6894,7 +6894,7 @@ RESULT_SOURCE
 HISTORY
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

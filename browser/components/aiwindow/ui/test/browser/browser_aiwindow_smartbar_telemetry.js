@@ -2429,7 +2429,7 @@ spawn
 (
 browser
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

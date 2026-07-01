@@ -1278,7 +1278,7 @@ history
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1287,7 +1287,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1296,7 +1296,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1305,7 +1305,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1314,7 +1314,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1323,7 +1323,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1336,7 +1336,7 @@ suggest
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1435,7 +1435,7 @@ suggestions
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1455,7 +1455,7 @@ foo
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1479,7 +1479,7 @@ suggest
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1496,7 +1496,7 @@ history
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1505,7 +1505,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1514,7 +1514,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1523,7 +1523,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1626,7 +1626,7 @@ history
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1635,7 +1635,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1644,7 +1644,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1653,7 +1653,7 @@ URL
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1666,7 +1666,7 @@ suggest
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1684,7 +1684,7 @@ suggestions
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1704,7 +1704,7 @@ foo
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1779,7 +1779,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

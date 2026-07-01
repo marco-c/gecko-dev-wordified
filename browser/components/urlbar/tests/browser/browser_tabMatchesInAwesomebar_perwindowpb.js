@@ -970,7 +970,7 @@ Assert
 .
 equal
 (
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1098,7 +1098,7 @@ Assert
 .
 notEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

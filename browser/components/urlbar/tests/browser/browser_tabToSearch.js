@@ -3224,7 +3224,7 @@ equal
 tabToSearchResult
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3564,7 +3564,7 @@ notEqual
 tabToSearchResult
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3876,7 +3876,7 @@ equal
 secondResult
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

@@ -444,7 +444,7 @@ equal
 details
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

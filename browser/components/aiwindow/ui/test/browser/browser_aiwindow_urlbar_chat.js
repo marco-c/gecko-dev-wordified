@@ -619,7 +619,7 @@ equal
 firstResult
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -657,7 +657,7 @@ equal
 secondResult
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -695,7 +695,7 @@ equal
 thirdResult
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

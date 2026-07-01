@@ -257,7 +257,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -295,7 +295,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -333,7 +333,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -634,7 +634,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -671,7 +671,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -711,7 +711,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -857,7 +857,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -894,7 +894,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -931,7 +931,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -974,7 +974,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1011,7 +1011,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1051,7 +1051,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1231,7 +1231,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1268,7 +1268,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1305,7 +1305,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1349,7 +1349,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1393,7 +1393,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1435,7 +1435,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1607,7 +1607,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1672,7 +1672,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1856,7 +1856,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1901,7 +1901,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1948,7 +1948,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -1994,7 +1994,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3145,7 +3145,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3185,7 +3185,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3347,7 +3347,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3485,7 +3485,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3626,7 +3626,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3666,7 +3666,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3797,7 +3797,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3837,7 +3837,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -3891,7 +3891,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4094,14 +4094,14 @@ foo
 "
 semanticType
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
 URL
 nonSemanticType
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4132,7 +4132,7 @@ source
 type
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4770,14 +4770,14 @@ tab
 "
 semanticType
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
 TAB_SWITCH
 nonSemanticType
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4893,7 +4893,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -4944,7 +4944,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5221,7 +5221,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5269,7 +5269,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -5625,7 +5625,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

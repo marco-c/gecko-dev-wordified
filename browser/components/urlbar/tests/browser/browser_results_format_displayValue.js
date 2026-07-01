@@ -94,7 +94,7 @@ UrlbarResult
 {
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -262,7 +262,7 @@ row
 result
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .

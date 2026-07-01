@@ -2125,7 +2125,7 @@ equal
 details
 .
 type
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
@@ -2443,7 +2443,7 @@ details
 type
 !
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_TYPE
 .
