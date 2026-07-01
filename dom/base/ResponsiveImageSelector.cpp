@@ -165,6 +165,7 @@ NS_IMPL_CYCLE_COLLECTION
 (
 ResponsiveImageSelector
 mOwnerNode
+mSelectedCandidateURL
 )
 static
 bool
@@ -1724,7 +1725,12 @@ nsRFPService
 :
 GetDevicePixelRatioAtZoom
 (
-1
+pctx
+-
+>
+GetFullZoom
+(
+)
 )
 ;
 }
