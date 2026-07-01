@@ -1064,6 +1064,10 @@ offered_codecs
 PayloadTypeSuggester
 &
 pt_suggester
+bool
+pick_from_top_of_range
+=
+false
 )
 ;
 }
