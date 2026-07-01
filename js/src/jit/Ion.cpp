@@ -5945,7 +5945,7 @@ disp
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 numSafepointIndices
 (
@@ -6046,7 +6046,7 @@ in
 the
 list
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 min
 <
