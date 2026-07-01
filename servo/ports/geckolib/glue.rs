@@ -22698,7 +22698,7 @@ mut
 font_face
 :
 :
-ComputedFontStyleDescriptor
+ComputedFontStyleRange
 )
 -
 >

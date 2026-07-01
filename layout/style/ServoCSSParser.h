@@ -165,9 +165,6 @@ StyleParsingMode
 struct
 StylePerDocumentStyleData
 ;
-union
-StyleComputedFontStyleDescriptor
-;
 enum
 class
 StyleColorSpace
