@@ -1498,6 +1498,8 @@ if
 obs
 )
 {
+MOZ_ALWAYS_SUCCEEDS
+(
 obs
 -
 >
@@ -1505,7 +1507,8 @@ AddObserver
 (
 this
 INTL_APP_LOCALES_CHANGED
-true
+false
+)
 )
 ;
 }
