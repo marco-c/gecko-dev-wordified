@@ -17767,9 +17767,12 @@ and
 the
 DoRefresh
 .
-nsCOMPtr
+RefPtr
 <
-nsIRunnable
+nsRunnableMethod
+<
+nsRefreshDriver
+>
 >
 event
 =

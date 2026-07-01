@@ -36236,9 +36236,12 @@ nsIRunnable
 >
 mFrameLoaderFinalizers
 ;
-nsCOMPtr
+RefPtr
 <
-nsIRunnable
+nsRunnableMethod
+<
+Document
+>
 >
 mFrameLoaderRunner
 ;

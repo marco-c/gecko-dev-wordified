@@ -7503,6 +7503,8 @@ already_AddRefed
 <
 KnowsCompositor
 >
+&
+&
 >
 (
 "

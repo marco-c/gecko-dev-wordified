@@ -838,6 +838,8 @@ Dispatch
 NewRunnableMethod
 <
 nsHttpResponseHead
+&
+&
 const
 bool
 const

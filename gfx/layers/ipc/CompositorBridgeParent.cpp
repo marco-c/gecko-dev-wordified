@@ -5103,9 +5103,12 @@ task
 NewRunnableMethod
 <
 uint64_t
+StoreCopyPassByRRef
+<
 nsTArray
 <
 ScrollableLayerGuid
+>
 >
 >
 (

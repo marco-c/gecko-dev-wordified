@@ -1115,13 +1115,8 @@ Dispatch
 (
 NewRunnableMethod
 <
-std
-:
-:
-reference_wrapper
-<
 GMPTestMonitor
->
+&
 >
 (
 "

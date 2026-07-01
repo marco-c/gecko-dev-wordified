@@ -1564,7 +1564,7 @@ event
 ;
 mProcessLinkHeaderEvent
 =
-NewNonOwningCancelableRunnableMethod
+NewNonOwningRunnableMethod
 (
 "
 nsContentSink

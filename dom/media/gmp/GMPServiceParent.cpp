@@ -2308,6 +2308,8 @@ dom
 :
 :
 Pref
+&
+&
 >
 (
 "
@@ -4475,10 +4477,14 @@ ipc
 :
 ByteBuf
 >
+&
+&
 ipc
 :
 :
 RejectCallback
+&
+&
 >
 (
 "
@@ -4786,6 +4792,8 @@ Maybe
 UntrustedModulesData
 >
 >
+&
+&
 ipc
 :
 :
@@ -5226,10 +5234,14 @@ ResolveCallback
 <
 bool
 >
+&
+&
 ipc
 :
 :
 RejectCallback
+&
+&
 >
 (
 "

@@ -20676,6 +20676,7 @@ computedHash
 )
 )
 {
+return
 listener
 -
 >
@@ -20684,8 +20685,6 @@ OnStopRequest
 request
 NS_ERROR_FAILURE
 )
-;
-return
 ;
 }
 uint32_t
@@ -20764,6 +20763,7 @@ rv
 )
 )
 {
+return
 listener
 -
 >
@@ -20773,10 +20773,9 @@ request
 rv
 )
 ;
+}
+}
 return
-;
-}
-}
 listener
 -
 >
@@ -20785,8 +20784,6 @@ OnStopRequest
 request
 status
 )
-;
-return
 ;
 }
 [

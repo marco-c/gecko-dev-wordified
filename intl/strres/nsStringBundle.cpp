@@ -2080,7 +2080,7 @@ AsyncPreload
 return
 NS_DispatchToCurrentThreadQueue
 (
-NewRunnableMethod
+NewIdleRunnableMethod
 (
 "
 nsStringBundleBase

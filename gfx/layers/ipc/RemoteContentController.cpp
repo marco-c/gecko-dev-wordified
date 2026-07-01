@@ -319,9 +319,12 @@ Dispatch
 (
 NewRunnableMethod
 <
+StoreCopyPassByRRef
+<
 nsTArray
 <
 MatrixMessage
+>
 >
 >
 (

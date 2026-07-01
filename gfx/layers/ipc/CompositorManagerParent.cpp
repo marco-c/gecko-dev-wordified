@@ -524,6 +524,8 @@ Endpoint
 <
 PCompositorManagerParent
 >
+&
+&
 bool
 >
 (

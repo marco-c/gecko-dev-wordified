@@ -1649,8 +1649,14 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 <
+StoreCopyPassByRRef
+<
 ServiceWorkerLifetimeExtension
+>
+StoreCopyPassByRRef
+<
 TryToActivateCallback
+>
 >
 (
 "

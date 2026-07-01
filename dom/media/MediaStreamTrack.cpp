@@ -564,7 +564,10 @@ DispatchToMainThreadStableState
 (
 NewRunnableMethod
 <
+StoreCopyPassByConstLRef
+<
 PrincipalHandle
+>
 >
 (
 "

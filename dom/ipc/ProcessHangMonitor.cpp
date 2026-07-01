@@ -2147,6 +2147,8 @@ Endpoint
 <
 PProcessHangMonitorChild
 >
+&
+&
 >
 (
 "
@@ -6727,6 +6729,8 @@ Endpoint
 <
 PProcessHangMonitorParent
 >
+&
+&
 >
 (
 "

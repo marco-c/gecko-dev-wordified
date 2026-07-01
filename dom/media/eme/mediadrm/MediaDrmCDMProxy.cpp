@@ -643,6 +643,8 @@ UniquePtr
 <
 CreateSessionData
 >
+&
+&
 >
 (
 "
@@ -882,6 +884,8 @@ UniquePtr
 <
 UpdateSessionData
 >
+&
+&
 >
 (
 "
@@ -993,6 +997,8 @@ UniquePtr
 <
 SessionOpData
 >
+&
+&
 >
 (
 "
