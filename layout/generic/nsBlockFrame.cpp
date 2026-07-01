@@ -10283,6 +10283,12 @@ if
 IsHiddenByContentVisibilityOfInFlowParentForLayout
 (
 )
+&
+&
+!
+GetNextContinuation
+(
+)
 )
 {
 FinishAndStoreOverflow
