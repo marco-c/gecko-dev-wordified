@@ -1270,7 +1270,7 @@ Equal
 AboveOrEqual
 :
 Below
-LongJump
+ShortJump
 )
 ;
 }
@@ -4977,7 +4977,7 @@ JSVAL_TAG_BIGINT
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -5233,7 +5233,7 @@ JSVAL_TAG_BOOLEAN
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -5485,7 +5485,7 @@ JSVAL_TAG_MAX_DOUBLE
 )
 label
 actual
-LongJump
+ShortJump
 )
 ;
 }
@@ -5794,7 +5794,7 @@ JSVAL_TAG_INT32
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6036,7 +6036,7 @@ JSVAL_TAG_MAGIC
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6245,7 +6245,7 @@ magic
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6310,7 +6310,7 @@ magic
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6352,7 +6352,7 @@ JSVAL_TAG_NULL
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6556,7 +6556,7 @@ ValueUpperInclNumberTag
 )
 label
 actual
-LongJump
+ShortJump
 )
 ;
 }
@@ -6644,7 +6644,7 @@ JSVAL_TAG_OBJECT
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -6891,7 +6891,7 @@ Equal
 Below
 :
 AboveOrEqual
-LongJump
+ShortJump
 )
 ;
 }
@@ -7228,7 +7228,7 @@ JSVAL_TAG_STRING
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -7484,7 +7484,7 @@ JSVAL_TAG_SYMBOL
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -7814,7 +7814,7 @@ JSVAL_TAG_UNDEFINED
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }

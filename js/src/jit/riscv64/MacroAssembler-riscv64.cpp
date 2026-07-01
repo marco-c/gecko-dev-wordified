@@ -20463,7 +20463,7 @@ asRawBits
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -20515,7 +20515,7 @@ valueReg
 scratch
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -20695,7 +20695,7 @@ temp
 scratch
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
