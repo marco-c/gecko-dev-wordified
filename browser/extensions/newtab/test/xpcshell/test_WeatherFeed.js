@@ -2464,9 +2464,6 @@ expected
 timeoutMs
 :
 7000
-endpointUrl
-:
-undefined
 }
 )
 ;
