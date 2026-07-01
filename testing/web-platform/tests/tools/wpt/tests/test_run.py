@@ -175,13 +175,20 @@ logger
 )
 :
     
+with
 run
 .
-setup_logging
+GlobalLogger
 (
 {
 }
 )
+as
+logger
+:
+        
+yield
+logger
 pytest
 .
 mark
