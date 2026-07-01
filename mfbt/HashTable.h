@@ -9139,10 +9139,6 @@ return
 HashString
 (
 aLookup
-strlen
-(
-aLookup
-)
 )
 ;
 }

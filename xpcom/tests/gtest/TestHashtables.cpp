@@ -657,10 +657,6 @@ mozilla
 HashString
 (
 aEntity
-strlen
-(
-aEntity
-)
 )
 ;
 }

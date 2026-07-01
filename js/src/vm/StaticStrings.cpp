@@ -315,7 +315,7 @@ hash
 mozilla
 :
 :
-HashLatin1AsUTF16
+HashString
 (
 &
 ch
@@ -398,7 +398,7 @@ hash
 mozilla
 :
 :
-HashLatin1AsUTF16
+HashString
 (
 buffer
 2
@@ -562,7 +562,7 @@ hash
 mozilla
 :
 :
-HashLatin1AsUTF16
+HashString
 (
 buffer
 3
