@@ -735,6 +735,14 @@ EqualsLiteral
 (
 MOZ_WEBAUTHN_AUTHENTICATOR_TRANSPORT_HYBRID
 )
+|
+|
+str
+.
+EqualsLiteral
+(
+MOZ_WEBAUTHN_AUTHENTICATOR_TRANSPORT_CABLE
+)
 )
 {
 transports
