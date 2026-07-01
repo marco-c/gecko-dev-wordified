@@ -522,6 +522,14 @@ nsAutoOwningEventTarget
 (
 )
 ;
+explicit
+nsAutoOwningEventTarget
+(
+nsISerialEventTarget
+*
+aTarget
+)
+;
 nsAutoOwningEventTarget
 (
 const
