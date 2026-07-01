@@ -901,6 +901,14 @@ Playback
 override
 ;
 void
+NotifyBrowsingContextDiscarded
+(
+uint64_t
+aBrowsingContextId
+)
+override
+;
+void
 SetIsInPictureInPictureMode
 (
 uint64_t
