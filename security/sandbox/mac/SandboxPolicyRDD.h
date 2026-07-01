@@ -404,12 +404,6 @@ self
 )
 (
 allow
-sysctl
--
-read
-)
-(
-allow
 file
 -
 read
