@@ -122,6 +122,9 @@ BindContext
 class
 CharacterDataBuffer
 ;
+class
+CustomElementRegistry
+;
 struct
 UnbindContext
 ;

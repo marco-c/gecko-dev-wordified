@@ -2871,6 +2871,14 @@ nsINode
 &
 )
 ;
+static
+bool
+IsInScopedRegistryMap
+(
+nsINode
+&
+)
+;
 void
 TraceDefinitions
 (

@@ -3030,6 +3030,9 @@ shadow
 AttachShadowWithoutNameChecks
 (
 init
+Nothing
+(
+)
 )
 ;
 }
