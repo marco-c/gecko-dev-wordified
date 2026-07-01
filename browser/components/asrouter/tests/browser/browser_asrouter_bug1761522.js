@@ -343,7 +343,6 @@ base_url
 baseURL
 }
 cdn
-/
 }
 }
 }
