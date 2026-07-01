@@ -1455,12 +1455,6 @@ strings
 "
 )
 ;
-token
-.
-reset
-(
-)
-;
 }
 )
 ;
