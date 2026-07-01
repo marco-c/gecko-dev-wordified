@@ -50816,8 +50816,9 @@ Manager
 (
 )
 principalInfo
-{
-}
+PrincipalValidationOptions
+(
+)
 )
 )
 {
@@ -51318,8 +51319,9 @@ Manager
 (
 )
 aPrincipalInfo
-{
-}
+PrincipalValidationOptions
+(
+)
 )
 )
 QM_IPC_FAIL
