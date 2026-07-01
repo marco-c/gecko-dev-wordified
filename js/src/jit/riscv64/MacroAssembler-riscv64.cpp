@@ -27693,7 +27693,7 @@ index
 boundsCheckLimit
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -27744,7 +27744,7 @@ scratch2
 )
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -27775,7 +27775,7 @@ boundsCheckLimit
 reg
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
@@ -27825,7 +27825,7 @@ reg
 scratch2
 label
 cond
-LongJump
+ShortJump
 )
 ;
 }
