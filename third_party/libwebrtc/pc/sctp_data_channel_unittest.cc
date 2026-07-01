@@ -189,17 +189,6 @@ include
 "
 api
 /
-task_queue
-/
-pending_task_safety_flag
-.
-h
-"
-#
-include
-"
-api
-/
 test
 /
 rtc_error_matchers
@@ -565,7 +554,6 @@ SctpDataChannel
 CreateProxy
 (
 inner_channel_
-signaling_safety_
 )
 ;
 }
@@ -578,13 +566,6 @@ override
 run_loop_
 .
 Flush
-(
-)
-;
-signaling_safety_
--
->
-SetNotAlive
 (
 )
 ;
@@ -961,19 +942,6 @@ network_thread_
 ;
 InternalDataChannelInit
 init_
-;
-scoped_refptr
-<
-PendingTaskSafetyFlag
->
-signaling_safety_
-=
-PendingTaskSafetyFlag
-:
-:
-Create
-(
-)
 ;
 std
 :
@@ -1816,7 +1784,6 @@ test1
 "
 init
 )
-signaling_safety_
 )
 ;
 EXPECT_EQ
@@ -1905,7 +1872,6 @@ SctpDataChannel
 CreateProxy
 (
 dc
-signaling_safety_
 )
 ;
 EXPECT_THAT
@@ -2128,7 +2094,6 @@ SctpDataChannel
 CreateProxy
 (
 dc
-signaling_safety_
 )
 ;
 EXPECT_THAT
@@ -2351,7 +2316,6 @@ SctpDataChannel
 CreateProxy
 (
 dc
-signaling_safety_
 )
 ;
 EXPECT_THAT
@@ -2533,7 +2497,6 @@ SctpDataChannel
 CreateProxy
 (
 dc
-signaling_safety_
 )
 ;
 EXPECT_THAT
@@ -2947,7 +2910,6 @@ SctpDataChannel
 CreateProxy
 (
 dc
-signaling_safety_
 )
 ;
 EXPECT_THAT
@@ -3485,7 +3447,6 @@ SctpDataChannel
 CreateProxy
 (
 dc
-signaling_safety_
 )
 ;
 EXPECT_THAT

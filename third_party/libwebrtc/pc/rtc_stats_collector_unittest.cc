@@ -17528,6 +17528,9 @@ RTCPeerConnectionStats
 )
 ;
 }
+ScopedTaskSafety
+signaling_safety
+;
 FakeDataChannelController
 controller
 (
@@ -17560,6 +17563,11 @@ DummyChannelA
 "
 false
 InternalDataChannelInit
+(
+)
+signaling_safety
+.
+flag
 (
 )
 Thread
@@ -17597,6 +17605,11 @@ DummyChannelB
 "
 false
 InternalDataChannelInit
+(
+)
+signaling_safety
+.
+flag
 (
 )
 Thread
