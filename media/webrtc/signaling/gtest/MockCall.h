@@ -1941,6 +1941,14 @@ nullptr
 ;
 }
 virtual
+void
+DisconnectFromNetworkThread
+(
+)
+override
+{
+}
+virtual
 webrtc
 :
 :
