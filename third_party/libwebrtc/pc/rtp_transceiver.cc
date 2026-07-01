@@ -9321,11 +9321,16 @@ network_thread
 )
 )
 ;
-RTC_DCHECK
+if
 (
+!
 channel_
 )
+{
+return
+true
 ;
+}
 if
 (
 transport
