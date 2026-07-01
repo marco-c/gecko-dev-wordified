@@ -613,11 +613,11 @@ GetFrameId
 ;
 new_metadata
 .
-SetFrameDependencies
+SetDependencies
 (
 metadata
 .
-GetFrameDependencies
+GetDependencies
 (
 )
 )
