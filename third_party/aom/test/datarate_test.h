@@ -462,6 +462,10 @@ lag_realtime_mode_
 =
 0
 ;
+enable_warped_motion_
+=
+false
+;
 }
 void
 PreEncodeFrameHook
@@ -586,7 +590,7 @@ encoder
 Control
 (
 AV1E_SET_ENABLE_WARPED_MOTION
-0
+enable_warped_motion_
 )
 ;
 encoder
@@ -1950,6 +1954,9 @@ avif_mode_
 ;
 int
 lag_realtime_mode_
+;
+bool
+enable_warped_motion_
 ;
 }
 ;

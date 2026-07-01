@@ -224,6 +224,9 @@ uint8_t
 *
 buffer
 ;
+size_t
+size
+;
 od_ec_enc
 ec
 ;
@@ -342,6 +345,8 @@ w
 uint8_t
 *
 buffer
+size_t
+size
 )
 ;
 /
