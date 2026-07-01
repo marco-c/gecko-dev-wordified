@@ -667,7 +667,7 @@ SystemVersion
 plist
 "
 )
-NULL
+nullptr
 )
 ;
 CFReadStreamRef
@@ -696,8 +696,8 @@ kCFAllocatorDefault
 stream
 0
 kCFPropertyListImmutable
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 CFReadStreamClose
@@ -1138,7 +1138,7 @@ proc_translated
 ret
 &
 size
-NULL
+nullptr
 0
 )
 =
@@ -3505,6 +3505,21 @@ char
 SandboxPolicyGPU
 )
 ;
+if
+(
+ProcessIsX86_64
+(
+)
+)
+{
+profile
+.
+append
+(
+SandboxPolicyGPUx86_64Addend
+)
+;
+}
 params
 .
 push_back
@@ -3779,7 +3794,7 @@ char
 *
 msg
 =
-NULL
+nullptr
 ;
 asprintf
 (
@@ -4089,7 +4104,7 @@ char
 *
 errorbuf
 =
-NULL
+nullptr
 ;
 int
 rv
@@ -4125,7 +4140,7 @@ char
 *
 msg
 =
-NULL
+nullptr
 ;
 asprintf
 (
@@ -4819,7 +4834,7 @@ pipe
 )
 !
 =
-NULL
+nullptr
 )
 {
 aInfo
@@ -5257,7 +5272,7 @@ pipe
 )
 !
 =
-NULL
+nullptr
 )
 {
 aInfo
@@ -5760,7 +5775,7 @@ pipe
 )
 !
 =
-NULL
+nullptr
 )
 {
 aInfo
@@ -6255,7 +6270,7 @@ sandbox_check
 getpid
 (
 )
-NULL
+nullptr
 0
 )
 =
@@ -6289,7 +6304,7 @@ sandbox_check
 getpid
 (
 )
-NULL
+nullptr
 0
 )
 =
