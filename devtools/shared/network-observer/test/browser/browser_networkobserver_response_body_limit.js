@@ -464,7 +464,7 @@ add_task
 (
 async
 function
-testNetworkObserverWithResponseBodyLimit1000
+testNetworkObserverWithBodyLimit1000
 (
 )
 {
@@ -508,7 +508,7 @@ createNetworkObserver
 (
 {
 events
-responseBodyLimit
+bodyLimit
 :
 BYTES_1000
 decodeResponseBodies
@@ -597,7 +597,7 @@ dynamically
 ;
 networkObserver
 .
-setResponseBodyLimit
+setBodyLimit
 (
 bigSize
 )
@@ -666,7 +666,7 @@ add_task
 (
 async
 function
-testNetworkObserverWithResponseBodyLimitGzipped
+testNetworkObserverWithBodyLimitGzipped
 (
 )
 {
@@ -724,7 +724,7 @@ createNetworkObserver
 (
 {
 events
-responseBodyLimit
+bodyLimit
 :
 BYTES_1000
 decodeResponseBodies
@@ -788,7 +788,7 @@ createNetworkObserver
 (
 {
 events
-responseBodyLimit
+bodyLimit
 :
 BYTES_1000
 decodeResponseBodies
@@ -881,7 +881,7 @@ add_task
 (
 async
 function
-testNetworkObserverWithResponseBodyLimitZero
+testNetworkObserverWithBodyLimitZero
 (
 )
 {
@@ -961,7 +961,7 @@ createNetworkObserver
 (
 {
 events
-responseBodyLimit
+bodyLimit
 :
 0
 decodeResponseBodies
@@ -1082,7 +1082,7 @@ add_task
 (
 async
 function
-testNetworkObserverWithResponseBodyLimitDefault
+testNetworkObserverWithBodyLimitDefault
 (
 )
 {
@@ -1126,7 +1126,7 @@ createNetworkObserver
 (
 {
 events
-responseBodyLimit
+bodyLimit
 :
 undefined
 decodeResponseBodies
@@ -1222,7 +1222,7 @@ createNetworkObserver
 (
 {
 events
-responseBodyLimit
+bodyLimit
 decodeResponseBodies
 =
 false
@@ -1235,10 +1235,10 @@ Create
 a
 NetworkObserver
 with
-responseBodyLimit
+bodyLimit
 =
 {
-responseBodyLimit
+bodyLimit
 }
 +
 decodeResponseBodies
@@ -1298,7 +1298,7 @@ return
 owner
 ;
 }
-responseBodyLimit
+bodyLimit
 }
 )
 ;

@@ -1441,7 +1441,7 @@ devtools
 .
 netmonitor
 .
-requestBodyLimit
+bodyLimit
 "
 )
 ;

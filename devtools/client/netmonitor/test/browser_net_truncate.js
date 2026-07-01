@@ -71,7 +71,7 @@ devtools
 .
 netmonitor
 .
-responseBodyLimit
+bodyLimit
 "
 )
 ;
