@@ -2460,7 +2460,7 @@ Step
 document
 -
 >
-SetPreviouslyFocusedContent
+SetFocusNavigationStartingPoint
 (
 nullptr
 )
