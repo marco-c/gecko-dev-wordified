@@ -1148,6 +1148,10 @@ GetPrefixAtom
 aValue
 nullptr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
