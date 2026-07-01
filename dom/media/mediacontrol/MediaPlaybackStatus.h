@@ -829,13 +829,6 @@ aBcId
 )
 const
 ;
-void
-ClearBrowsingContext
-(
-uint64_t
-aContextId
-)
-;
 private
 :
 /
