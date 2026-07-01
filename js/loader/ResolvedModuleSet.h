@@ -271,6 +271,11 @@ mSerializedBaseURL
 get
 (
 )
+mSerializedBaseURL
+.
+Length
+(
+)
 )
 mozilla
 :
@@ -280,6 +285,11 @@ HashString
 mNormalizedSpecifier
 .
 get
+(
+)
+mNormalizedSpecifier
+.
+Length
 (
 )
 )

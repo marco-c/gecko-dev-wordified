@@ -972,11 +972,6 @@ FloatingPoint
 cpp
 "
 "
-HashFunctions
-.
-cpp
-"
-"
 Poison
 .
 cpp

@@ -138,6 +138,11 @@ aLookup
 get
 (
 )
+aLookup
+.
+Length
+(
+)
 )
 ;
 }
