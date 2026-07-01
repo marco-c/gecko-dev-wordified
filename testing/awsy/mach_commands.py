@@ -698,6 +698,7 @@ toolchain
 v
 "
             
+f
 "
 -
 -
@@ -705,12 +706,12 @@ tooltool
 -
 manifest
 =
-%
-s
-"
-%
+{
 manifest_file
+}
+"
             
+f
 "
 -
 -
@@ -718,11 +719,7 @@ cache
 -
 dir
 =
-%
-s
-"
-            
-%
+{
 os
 .
 path
@@ -734,12 +731,14 @@ command_context
 _mach_context
 .
 state_dir
-"
+'
 tooltool
 -
 cache
-"
+'
 )
+}
+"
         
 ]
     
@@ -1741,6 +1740,7 @@ maxTabs
     
 help
 =
+f
 "
 Maximum
 number
@@ -1751,12 +1751,11 @@ open
 .
 Defaults
 to
-%
-s
+{
+MAX_TABS
+}
 .
 "
-%
-MAX_TABS
 )
 CommandArgument
 (
@@ -1791,6 +1790,7 @@ iterations
     
 help
 =
+f
 "
 Number
 of
@@ -1804,12 +1804,11 @@ suite
 .
 Defaults
 to
-%
-s
+{
+ITERATIONS
+}
 .
 "
-%
-ITERATIONS
 )
 CommandArgument
 (
@@ -1848,6 +1847,7 @@ perTabPause
     
 help
 =
+f
 "
 Seconds
 to
@@ -1859,12 +1859,11 @@ tabs
 .
 Defaults
 to
-%
-s
+{
+PER_TAB_PAUSE
+}
 .
 "
-%
-PER_TAB_PAUSE
 )
 CommandArgument
 (
@@ -1903,6 +1902,7 @@ settleWaitTime
     
 help
 =
+f
 "
 Seconds
 to
@@ -1913,17 +1913,13 @@ to
 settled
 down
 .
-"
-    
-"
 Defaults
 to
-%
-s
+{
+SETTLE_WAIT_TIME
+}
 .
 "
-%
-SETTLE_WAIT_TIME
 )
 CommandArgument
 (
