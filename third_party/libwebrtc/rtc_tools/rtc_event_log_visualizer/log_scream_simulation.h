@@ -464,11 +464,6 @@ Zero
 )
 ;
 double
-queue_delay_dev_norm
-=
-0
-;
-double
 ref_window_scale_factor_due_to_avg_min_delay
 =
 0
@@ -505,6 +500,13 @@ l4s_alpha
 ;
 double
 l4s_alpha_v
+=
+0
+.
+0
+;
+double
+loss_event_rate
 =
 0
 .
