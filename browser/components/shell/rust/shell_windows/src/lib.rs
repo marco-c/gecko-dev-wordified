@@ -92,5 +92,8 @@ mod
 secondary_tiles
 ;
 mod
+taskbar
+;
+mod
 util
 ;
