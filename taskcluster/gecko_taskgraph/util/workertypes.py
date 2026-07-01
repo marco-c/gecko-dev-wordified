@@ -53,12 +53,18 @@ MPL
 0
 /
 .
+import
+functools
 from
-mozbuild
+mozilla_taskgraph
 .
 util
+.
+attributes
 import
-memoize
+release_level
+as
+_release_level
 from
 taskgraph
 .
@@ -75,16 +81,6 @@ util
 keyed_by
 import
 evaluate_keyed_by
-from
-gecko_taskgraph
-.
-util
-.
-attributes
-import
-release_level
-as
-_release_level
 WORKER_TYPES
 =
 {
@@ -211,7 +207,9 @@ signing
 None
 )
 }
-memoize
+functools
+.
+cache
 def
 _get
 (
@@ -761,6 +759,14 @@ level
         
 _release_level
 (
+graph_config
+[
+"
+release
+-
+branches
+"
+]
 parameters
 )
         
