@@ -347,8 +347,11 @@ on_entry
     
 assert_navigation_info
 (
+        
 event
+        
 {
+            
 "
 context
 "
@@ -359,12 +362,41 @@ new_tab
 context
 "
 ]
+            
 "
 url
 "
 :
 target_url
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
 }
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
+        
+}
+    
 )
 async
 def
@@ -492,6 +524,7 @@ assert_navigation_info
 event
         
 {
+            
 "
 context
 "
@@ -502,6 +535,7 @@ new_tab
 context
 "
 ]
+            
 "
 timestamp
 "
@@ -511,6 +545,33 @@ int_interval
 time_start
 time_end
 )
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
+        
 }
     
 )
@@ -613,6 +674,14 @@ complete
 "
 )
     
+event
+=
+await
+wait_for_future_safe
+(
+on_fragment_navigated
+)
+    
 recursive_compare
 (
         
@@ -651,14 +720,36 @@ url
 '
 :
 target_url
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
         
 }
         
-await
-wait_for_future_safe
-(
-on_fragment_navigated
-)
+event
     
 )
 async
@@ -773,6 +864,14 @@ complete
 "
 )
     
+event
+=
+await
+wait_for_future_safe
+(
+on_fragment_navigated
+)
+    
 recursive_compare
 (
         
@@ -794,14 +893,36 @@ url
 '
 :
 target_url
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
         
 }
         
-await
-wait_for_future_safe
-(
-on_fragment_navigated
-)
+event
     
 )
 async
@@ -1048,6 +1169,14 @@ complete
 "
 )
     
+event
+=
+await
+wait_for_future_safe
+(
+on_fragment_navigated
+)
+    
 recursive_compare
 (
         
@@ -1075,14 +1204,36 @@ url
 '
 :
 target_url
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+child_info
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
         
 }
         
-await
-wait_for_future_safe
-(
-on_fragment_navigated
-)
+event
     
 )
     
@@ -1310,6 +1461,14 @@ target_context
     
 )
     
+event
+=
+await
+wait_for_future_safe
+(
+on_fragment_navigated
+)
+    
 recursive_compare
 (
         
@@ -1332,14 +1491,36 @@ url
 '
 :
 target_url
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
         
 }
         
-await
-wait_for_future_safe
-(
-on_fragment_navigated
-)
+event
     
 )
 pytest
@@ -1491,6 +1672,14 @@ complete
 "
 )
     
+event
+=
+await
+wait_for_future_safe
+(
+on_fragment_navigated
+)
+    
 recursive_compare
 (
         
@@ -1513,14 +1702,36 @@ url
 '
 :
 target_url
+            
+*
+*
+(
+{
+"
+userContext
+"
+:
+new_tab
+[
+"
+userContext
+"
+]
+}
+if
+"
+userContext
+"
+in
+event
+else
+{
+}
+)
         
 }
         
-await
-wait_for_future_safe
-(
-on_fragment_navigated
-)
+event
     
 )
 pytest
