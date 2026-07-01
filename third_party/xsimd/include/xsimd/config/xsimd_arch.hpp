@@ -1055,6 +1055,7 @@ avx512vl
 avx512cd
 avx512f
 avxvnni
+avx512vl_256
 fma3
 <
 avx2
@@ -1065,6 +1066,7 @@ fma3
 avx
 >
 avx
+avx512vl_128
 avx2_128
 avx_128
 fma4

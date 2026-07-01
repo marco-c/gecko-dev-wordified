@@ -18807,10 +18807,10 @@ A
 mem
 src
 mask
-requires_arch
-<
+aligned_mode
+{
+}
 common
->
 {
 }
 )

@@ -1247,7 +1247,7 @@ i
 y
 [
 ]
-ouput
+output
 result
 in
 an
@@ -1306,7 +1306,7 @@ for
 -
 bit
 *
-precison
+precision
 one
 may
 have

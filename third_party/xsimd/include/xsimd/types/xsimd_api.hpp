@@ -10341,7 +10341,7 @@ c
 ptr
 and
 the
-specifed
+specified
 *
 batch
 value
@@ -11061,7 +11061,7 @@ c
 ptr
 and
 the
-specifed
+specified
 *
 batch
 value
@@ -16830,7 +16830,7 @@ param
 x
 batch
 of
-flaoting
+floating
 point
 values
 .

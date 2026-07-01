@@ -231,6 +231,15 @@ xsimd_common_arch
 .
 hpp
 "
+#
+include
+"
+.
+/
+xsimd_fma3_avx2_register
+.
+hpp
+"
 namespace
 xsimd
 {
