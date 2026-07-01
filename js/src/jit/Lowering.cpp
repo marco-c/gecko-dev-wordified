@@ -46991,7 +46991,7 @@ alloc
 )
 LMegamorphicLoadSlot
 (
-useFixedAtStart
+useRegisterAtStart
 (
 ins
 -
@@ -46999,7 +46999,6 @@ ins
 object
 (
 )
-CallTempReg3
 )
 tempFixed
 (
@@ -47015,7 +47014,7 @@ CallTempReg2
 )
 tempFixed
 (
-CallTempReg4
+CallTempReg3
 )
 )
 ;
@@ -47097,7 +47096,7 @@ alloc
 )
 LMegamorphicLoadSlotPermissive
 (
-useFixedAtStart
+useRegisterAtStart
 (
 ins
 -
@@ -47105,7 +47104,6 @@ ins
 object
 (
 )
-CallTempReg3
 )
 tempFixed
 (
@@ -47210,7 +47208,7 @@ alloc
 )
 LMegamorphicLoadSlotByValue
 (
-useFixedAtStart
+useRegisterAtStart
 (
 ins
 -
@@ -47218,7 +47216,6 @@ ins
 object
 (
 )
-CallTempReg3
 )
 useBoxAtStart
 (
@@ -47329,7 +47326,7 @@ alloc
 )
 LMegamorphicLoadSlotByValuePermissive
 (
-useFixedAtStart
+useRegisterAtStart
 (
 ins
 -
@@ -47337,7 +47334,6 @@ ins
 object
 (
 )
-CallTempReg3
 )
 useBoxAtStart
 (
@@ -47354,11 +47350,11 @@ CallTempReg0
 )
 tempFixed
 (
-CallTempReg1
+IonGenericCallCalleeReg
 )
 tempFixed
 (
-CallTempReg2
+IonGenericCallArgcReg
 )
 )
 ;
@@ -47404,7 +47400,7 @@ alloc
 )
 LMegamorphicLoadSlotByValuePermissive
 (
-useFixedAtStart
+useRegisterAtStart
 (
 ins
 -
@@ -47412,7 +47408,6 @@ ins
 object
 (
 )
-CallTempReg3
 )
 useBoxAtStart
 (
