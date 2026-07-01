@@ -899,8 +899,6 @@ VideoMediaSendChannelInterface
 :
 EncoderSwitchRequestCallback
 video_encoder_switch_request_callback
-=
-nullptr
 )
 override
 ;

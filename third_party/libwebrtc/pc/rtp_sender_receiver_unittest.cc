@@ -1063,6 +1063,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 )
 ;
 voice_media_receive_channel_
@@ -9164,6 +9165,7 @@ video_bitrate_allocator_factory
 get
 (
 )
+nullptr
 )
 ;
 scoped_refptr
