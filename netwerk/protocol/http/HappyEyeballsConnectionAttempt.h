@@ -1707,7 +1707,7 @@ EnterDone
 void
 ProcessTCPConn
 (
-nsHttpConnection
+HttpConnectionBase
 *
 aConn
 ConnectionEntry
@@ -1720,7 +1720,7 @@ aTransactionAlreadyOnConn
 void
 ProcessUDPConn
 (
-HttpConnectionUDP
+HttpConnectionBase
 *
 aConn
 ConnectionEntry
