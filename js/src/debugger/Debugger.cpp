@@ -24700,7 +24700,7 @@ void
 Debugger
 :
 :
-forEachOnStackOrSuspendedDebuggerFrame
+forEachOnStackOrSuspendedGeneratorDebuggerFrame
 (
 JSContext
 *
@@ -47499,7 +47499,7 @@ if
 frameObj
 -
 >
-isSuspended
+isSuspendedGeneratorFrame
 (
 )
 )
@@ -49931,7 +49931,7 @@ endif
 dbgFrame
 -
 >
-suspend
+suspendGeneratorFrame
 (
 gcx
 )
@@ -49978,7 +49978,7 @@ JS
 AutoAssertNoGC
 nogc
 ;
-forEachOnStackOrSuspendedDebuggerFrame
+forEachOnStackOrSuspendedGeneratorDebuggerFrame
 (
 cx
 frame

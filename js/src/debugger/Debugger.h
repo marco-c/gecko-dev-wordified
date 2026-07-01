@@ -6682,7 +6682,7 @@ DebuggerFrame
 >
 static
 void
-forEachOnStackOrSuspendedDebuggerFrame
+forEachOnStackOrSuspendedGeneratorDebuggerFrame
 (
 JSContext
 *
