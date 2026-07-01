@@ -146,6 +146,13 @@ h
 #
 include
 "
+URIHasher
+.
+h
+"
+#
+include
+"
 nsISensitiveInfoHiddenURI
 .
 h
@@ -786,6 +793,8 @@ public
 nsIIPCSerializableURI
 public
 nsIURIWithSizeOf
+public
+URIHasher
 #
 ifdef
 DEBUG_DUMP_URLS_AT_SHUTDOWN

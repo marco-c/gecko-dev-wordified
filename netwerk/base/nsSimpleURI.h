@@ -118,6 +118,13 @@ nsISimpleURIMutator
 .
 h
 "
+#
+include
+"
+URIHasher
+.
+h
+"
 namespace
 mozilla
 {
@@ -171,6 +178,8 @@ public
 nsIIPCSerializableURI
 public
 nsIURIWithSizeOf
+public
+URIHasher
 {
 protected
 :
