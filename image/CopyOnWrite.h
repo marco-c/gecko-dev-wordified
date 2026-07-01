@@ -411,7 +411,13 @@ aValue
 :
 mValue
 (
+std
+:
+:
+move
+(
 aValue
+)
 )
 mReaders
 (
@@ -1145,7 +1151,13 @@ MakeRefPtr
 CopyOnWriteValue
 >
 (
+std
+:
+:
+move
+(
 aValue
+)
 )
 )
 {
