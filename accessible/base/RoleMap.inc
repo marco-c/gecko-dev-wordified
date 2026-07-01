@@ -1428,7 +1428,7 @@ nsGkAtoms
 :
 :
 marquee
-ATK_ROLE_ANIMATION
+ATK_ROLE_MARQUEE
 NSAccessibilityUnknownRole
 "
 AXApplicationMarquee
