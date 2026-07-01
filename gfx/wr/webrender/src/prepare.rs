@@ -11556,7 +11556,6 @@ resource_cache
 &
 dirty_rect
 &
-mut
 data_stores
 .
 clip
