@@ -77,6 +77,15 @@ SandboxInfo
 h
 "
 #
+include
+"
+public
+/
+GeckoTraceEvent
+.
+h
+"
+#
 if
 defined
 (

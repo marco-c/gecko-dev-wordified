@@ -710,6 +710,7 @@ constructor
 #
 define
 LAZY_INSTANCE_INITIALIZER
+\
 {
 }
 namespace
@@ -1328,6 +1329,7 @@ Traits
 :
 kAllowedToAccessOnNonjoinableThread
 )
+{
 internal
 :
 :
@@ -1335,6 +1337,7 @@ AssertSingletonAllowed
 (
 )
 ;
+}
 #
 endif
 return

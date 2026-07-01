@@ -82,6 +82,15 @@ include
 "
 base
 /
+compiler_specific
+.
+h
+"
+#
+include
+"
+base
+/
 strings
 /
 stringprintf
@@ -1056,6 +1065,8 @@ Program
 program
 )
 {
+UNSAFE_TODO
+(
 fputs
 (
 StringPrintProgram
@@ -1067,6 +1078,7 @@ c_str
 (
 )
 stderr
+)
 )
 ;
 }

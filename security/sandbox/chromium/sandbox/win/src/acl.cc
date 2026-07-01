@@ -63,7 +63,7 @@ h
 namespace
 sandbox
 {
-absl
+std
 :
 :
 optional
@@ -152,7 +152,7 @@ case
 INTEGRITY_LEVEL_LAST
 :
 return
-absl
+std
 :
 :
 nullopt
@@ -161,12 +161,6 @@ nullopt
 NOTREACHED
 (
 )
-;
-return
-absl
-:
-:
-nullopt
 ;
 }
 DWORD
@@ -188,7 +182,7 @@ IntegrityLevel
 integrity_level
 )
 {
-absl
+std
 :
 :
 optional

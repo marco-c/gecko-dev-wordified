@@ -80,14 +80,6 @@ typing
 #
 include
 "
-base
-/
-allocator
-/
-partition_allocator
-/
-src
-/
 partition_alloc
 /
 pointers

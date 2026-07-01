@@ -53,8 +53,8 @@ h
 "
 namespace
 base
-{
-namespace
+:
+:
 internal
 {
 bool
@@ -144,9 +144,7 @@ ret
 /
 /
 namespace
-internal
-}
-/
-/
-namespace
 base
+:
+:
+internal

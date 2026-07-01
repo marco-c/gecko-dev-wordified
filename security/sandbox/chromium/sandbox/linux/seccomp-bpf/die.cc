@@ -521,14 +521,14 @@ else
 logging
 :
 :
-LogMessage
+LogMessageFatal
 (
 file
 line
 logging
 :
 :
-LOG_FATAL
+LOGGING_FATAL
 )
 .
 stream
@@ -611,7 +611,7 @@ line
 logging
 :
 :
-LOG_INFO
+LOGGING_INFO
 )
 .
 stream

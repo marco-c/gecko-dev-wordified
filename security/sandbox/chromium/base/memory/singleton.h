@@ -1024,9 +1024,11 @@ std
 memory_order_relaxed
 )
 )
+{
 return
 nullptr
 ;
+}
 return
 new
 (
@@ -1050,6 +1052,7 @@ if
 (
 p
 )
+{
 p
 -
 >
@@ -1061,6 +1064,7 @@ Type
 (
 )
 ;
+}
 }
 static
 const
@@ -2098,6 +2102,7 @@ Traits
 :
 kAllowedToAccessOnNonjoinableThread
 )
+{
 internal
 :
 :
@@ -2105,6 +2110,7 @@ AssertSingletonAllowed
 (
 )
 ;
+}
 #
 endif
 return
@@ -2182,6 +2188,7 @@ Traits
 :
 kAllowedToAccessOnNonjoinableThread
 )
+{
 internal
 :
 :
@@ -2189,6 +2196,7 @@ AssertSingletonAllowed
 (
 )
 ;
+}
 #
 endif
 if
@@ -2204,9 +2212,11 @@ std
 memory_order_relaxed
 )
 )
+{
 return
 nullptr
 ;
+}
 /
 /
 Need

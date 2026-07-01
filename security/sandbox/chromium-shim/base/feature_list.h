@@ -352,7 +352,7 @@ kFeature
 )
 \
 extern
-CONSTINIT
+constinit
 const
 base
 :
@@ -425,7 +425,7 @@ name
 default_state
 )
 \
-CONSTINIT
+constinit
 const
 base
 :
@@ -584,7 +584,7 @@ feature_object_name
 )
 \
 extern
-CONSTINIT
+constinit
 const
 base
 :
@@ -831,7 +831,7 @@ field_trial_params_internal
 *
 /
 \
-CONSTINIT
+constinit
 const
 base
 :
@@ -968,7 +968,7 @@ field_trial_params_internal
 *
 /
 \
-CONSTINIT
+constinit
 const
 base
 :

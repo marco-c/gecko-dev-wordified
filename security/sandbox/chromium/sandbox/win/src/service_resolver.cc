@@ -231,9 +231,6 @@ NOTREACHED
 (
 )
 ;
-return
-STATUS_UNSUCCESSFUL
-;
 }
 return
 STATUS_SUCCESS

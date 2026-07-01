@@ -582,10 +582,9 @@ intercept
 .
 /
 /
-The
-field
-is
-accessed
+RAW_PTR_EXCLUSION
+:
+Accessed
 too
 early
 during

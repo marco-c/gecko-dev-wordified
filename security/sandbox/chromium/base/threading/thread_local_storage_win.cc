@@ -440,6 +440,7 @@ DLL_PROCESS_DETACH
 =
 reason
 )
+{
 base
 :
 :
@@ -453,6 +454,7 @@ OnThreadExit
 (
 )
 ;
+}
 }
 /
 /

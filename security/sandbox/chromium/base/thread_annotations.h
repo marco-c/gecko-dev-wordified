@@ -419,12 +419,6 @@ defined
 (
 __clang__
 )
-&
-&
-__clang_major__
->
-=
-9
 #
 define
 THREAD_ANNOTATION_ATTRIBUTE__

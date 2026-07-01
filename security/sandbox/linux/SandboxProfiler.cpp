@@ -94,6 +94,15 @@ h
 #
 include
 "
+public
+/
+GeckoTraceEvent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics

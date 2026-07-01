@@ -53,8 +53,8 @@ h
 "
 namespace
 base
-{
-namespace
+:
+:
 debug
 {
 /
@@ -107,9 +107,7 @@ var
 /
 /
 namespace
-debug
-}
-/
-/
-namespace
 base
+:
+:
+debug

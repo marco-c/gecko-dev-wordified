@@ -577,6 +577,11 @@ public
 \
 using
 DisallowBaseUnretainedMarker
+[
+[
+maybe_unused
+]
+]
 =
 void
 ;
