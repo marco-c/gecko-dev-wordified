@@ -756,6 +756,14 @@ SetError
 (
 nsresult
 aRv
+const
+nsACString
+&
+aMessage
+=
+EmptyCString
+(
+)
 )
 ;
 nsresult
