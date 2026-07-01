@@ -1433,6 +1433,7 @@ reset
 (
 )
 ;
+await
 token
 .
 changePassword

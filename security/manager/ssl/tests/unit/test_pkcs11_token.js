@@ -505,6 +505,7 @@ _
 ?
 "
 ;
+await
 token
 .
 changePassword
