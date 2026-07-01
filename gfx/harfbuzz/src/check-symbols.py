@@ -478,7 +478,7 @@ r
 .
 +
 [
-BCDGIRSTu
+BCDGIRSTWu
 ]
 .
 +
