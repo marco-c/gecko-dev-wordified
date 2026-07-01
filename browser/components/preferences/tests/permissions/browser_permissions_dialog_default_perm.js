@@ -675,6 +675,9 @@ all
 "
 )
 ;
+let
+removeAllButton
+=
 doc
 .
 getElementById
@@ -683,6 +686,13 @@ getElementById
 removeAllPermissions
 "
 )
+;
+await
+removeAllButton
+.
+updateComplete
+;
+removeAllButton
 .
 click
 (
