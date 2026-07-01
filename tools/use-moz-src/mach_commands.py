@@ -2248,6 +2248,31 @@ newtab_files
 )
             
 )
+        
+command_context
+.
+_mach_context
+.
+commands
+.
+dispatch
+(
+            
+"
+ts
+"
+            
+command_context
+.
+_mach_context
+            
+subcommand
+=
+"
+paths
+"
+        
+)
     
 _log
 .
