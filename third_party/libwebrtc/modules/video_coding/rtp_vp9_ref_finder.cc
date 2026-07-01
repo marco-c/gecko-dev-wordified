@@ -571,10 +571,7 @@ codec_header
 .
 num_ref_pics
 >
-EncodedFrame
-:
-:
-kMaxFrameReferences
+kMaxVp9RefPics
 )
 {
 return
@@ -1361,10 +1358,7 @@ num_ref_pics
 gof_idx
 ]
 >
-EncodedFrame
-:
-:
-kMaxFrameReferences
+kMaxVp9RefPics
 )
 {
 return
