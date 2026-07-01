@@ -573,6 +573,20 @@ __func__
 ;
 \
 }
+#
+define
+DO_FAIL_VOID
+[
+]
+(
+)
+{
+EXPECT_TRUE
+(
+false
+)
+;
+}
 TEST
 (
 MozPromise
@@ -645,7 +659,7 @@ BeginShutdown
 )
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 }
@@ -701,7 +715,7 @@ Then
 (
 queue
 __func__
-DO_FAIL
+DO_FAIL_VOID
 [
 queue
 ]
@@ -1225,7 +1239,7 @@ BeginShutdown
 )
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 }
@@ -1476,7 +1490,7 @@ Then
 (
 queue
 __func__
-DO_FAIL
+DO_FAIL_VOID
 [
 queue
 &
@@ -3132,7 +3146,7 @@ BeginShutdown
 )
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 }
@@ -4024,7 +4038,7 @@ aResolveValue
 )
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 /
@@ -4087,7 +4101,7 @@ aResolveValue
 )
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 /
@@ -4165,7 +4179,7 @@ aResolveValue
 )
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 promise1
@@ -4273,7 +4287,7 @@ value
 true
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 EXPECT_EQ
@@ -4347,7 +4361,7 @@ value
 true
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 EXPECT_EQ
@@ -4545,7 +4559,7 @@ value1
 true
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 EXPECT_EQ
@@ -4815,7 +4829,7 @@ value1
 true
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 EXPECT_EQ
@@ -5013,7 +5027,7 @@ value1
 true
 ;
 }
-DO_FAIL
+DO_FAIL_VOID
 )
 ;
 promise1
@@ -5684,3 +5698,6 @@ BeginShutdown
 #
 undef
 DO_FAIL
+#
+undef
+DO_FAIL_VOID
