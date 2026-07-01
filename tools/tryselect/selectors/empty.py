@@ -108,6 +108,10 @@ env
 "
         
 "
+extensions
+"
+        
+"
 gecko
 -
 profile

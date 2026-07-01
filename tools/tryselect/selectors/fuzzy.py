@@ -735,6 +735,10 @@ tasks
 "
         
 "
+extensions
+"
+        
+"
 gecko
 -
 profile
