@@ -158667,6 +158667,9 @@ textarea
 select
 "
 "
+dialog
+"
+"
 [
 contenteditable
 =
