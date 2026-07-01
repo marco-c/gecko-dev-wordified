@@ -140631,11 +140631,16 @@ tab
 }
 )
 ;
+handleInteraction
+(
+)
+;
 }
 [
 dispatch
 widgetSize
 activeTab
+handleInteraction
 ]
 )
 ;
