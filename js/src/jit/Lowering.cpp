@@ -11314,7 +11314,7 @@ right
 LAllocation
 lhs
 =
-useRegister
+useRegisterAtStart
 (
 left
 )
@@ -11376,7 +11376,7 @@ Compare_UIntPtr
 {
 rhs
 =
-useAnyOrInt32Constant
+useAnyOrInt32ConstantAtStart
 (
 right
 )
@@ -11386,7 +11386,7 @@ else
 {
 rhs
 =
-useAny
+useAnyAtStart
 (
 right
 )
@@ -11474,11 +11474,11 @@ alloc
 )
 LCompareI64
 (
-useInt64Register
+useInt64RegisterAtStart
 (
 left
 )
-useInt64OrConstant
+useInt64OrConstantAtStart
 (
 right
 )
