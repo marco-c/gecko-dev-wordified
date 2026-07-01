@@ -1045,6 +1045,9 @@ false
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

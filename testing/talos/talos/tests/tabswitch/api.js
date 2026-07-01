@@ -211,6 +211,9 @@ true
 }
 }
 }
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

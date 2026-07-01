@@ -1780,6 +1780,9 @@ test
 "
 "
 ]
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

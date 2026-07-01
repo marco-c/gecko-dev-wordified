@@ -345,6 +345,9 @@ true
 includeChrome
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

@@ -3579,6 +3579,9 @@ false
 includeChrome
 :
 false
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;

@@ -882,6 +882,9 @@ subframeURI
 allFrames
 :
 true
+safeForUntrustedWebProcess
+:
+true
 }
 )
 ;
