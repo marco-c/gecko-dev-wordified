@@ -1083,6 +1083,14 @@ FeedbackAccordingToTransportCcCount
 0
 ;
 virtual
+void
+DisconnectFromNetworkThread
+(
+)
+=
+0
+;
+virtual
 TaskQueueBase
 *
 network_thread
