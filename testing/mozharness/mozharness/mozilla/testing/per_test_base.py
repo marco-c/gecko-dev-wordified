@@ -5232,10 +5232,11 @@ names
 for
 the
 raw
-and
 errorsummary
-logs
+and
         
+testsummary
+logs
 on
 each
 run
@@ -5330,6 +5331,33 @@ index
         
 )
         
+test_summary_file
+=
+os
+.
+path
+.
+join
+(
+            
+dir
+"
+%
+s
+%
+s_testsummary
+.
+jsonl
+"
+%
+(
+test_suite
+index
+)
+        
+)
+        
 return
 raw_log_file
 error_summary_file
+test_summary_file

@@ -4801,6 +4801,7 @@ query_abs_res_dir
             
 raw_log_file
 error_summary_file
+test_summary_file
 =
 self
 .
@@ -4873,6 +4874,12 @@ error_summary_file
 "
 :
 error_summary_file
+                
+"
+test_summary_file
+"
+:
+test_summary_file
                 
 "
 gtest_dir
