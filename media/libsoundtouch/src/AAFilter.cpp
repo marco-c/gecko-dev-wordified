@@ -577,7 +577,9 @@ soundtouch
 #
 define
 PI
-M_PI
+3
+.
+14159265358979323846
 #
 define
 TWOPI
