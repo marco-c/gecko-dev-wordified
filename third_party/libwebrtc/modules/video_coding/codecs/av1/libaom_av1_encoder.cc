@@ -1573,7 +1573,6 @@ timestamp_
 ;
 const
 Environment
-&
 env_
 ;
 const
