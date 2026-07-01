@@ -2164,6 +2164,9 @@ dlgtype
 )
 &
 &
+defaultButton
+&
+&
 focusedElt
 !
 =
