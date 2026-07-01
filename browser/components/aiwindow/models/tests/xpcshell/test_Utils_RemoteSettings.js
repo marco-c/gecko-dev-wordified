@@ -58,7 +58,7 @@ MPL
 /
 const
 {
-openAIEngine
+getRemoteClient
 parseVersion
 FEATURE_MAJOR_VERSIONS
 }
@@ -102,8 +102,6 @@ test_feature_major_versions_in_dump
 const
 client
 =
-openAIEngine
-.
 getRemoteClient
 (
 )

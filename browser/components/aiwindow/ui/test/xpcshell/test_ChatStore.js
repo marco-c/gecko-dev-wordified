@@ -378,8 +378,12 @@ addMessage
 (
 role
 content
-messageLink
 0
+{
+pageUrl
+:
+messageLink
+}
 )
 ;
 await
@@ -3480,7 +3484,6 @@ prompt
 xyzSystemToken99
 "
 }
-null
 0
 )
 ;
