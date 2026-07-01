@@ -5203,15 +5203,6 @@ common
 transformed_aa_edges
 ;
 let
-common_data
-=
-&
-mut
-prim_data
-.
-common
-;
-let
 border_data
 =
 &
@@ -6257,7 +6248,6 @@ border_data
 .
 write_brush_gpu_blocks
 (
-common_data
 prim_info
 .
 snapped_local_rect
@@ -6333,15 +6323,6 @@ prim_data
 common
 .
 transformed_aa_edges
-;
-let
-common_data
-=
-&
-mut
-prim_data
-.
-common
 ;
 let
 border_data
@@ -6433,7 +6414,6 @@ border_data
 .
 update
 (
-common_data
 frame_state
 )
 ;
@@ -6531,7 +6511,6 @@ border_data
 .
 write_brush_gpu_blocks
 (
-common_data
 prim_info
 .
 snapped_local_rect
@@ -6617,7 +6596,10 @@ template
 data
 .
 let
+(
 gpu_address
+opacity
+)
 =
 prim_data
 .
@@ -6643,6 +6625,7 @@ push
 RectangleScratch
 {
 gpu_address
+opacity
 }
 )
 ;
@@ -6838,7 +6821,6 @@ let
 common_data
 =
 &
-mut
 prim_data
 .
 common
@@ -7066,7 +7048,6 @@ let
 common_data
 =
 &
-mut
 prim_data
 .
 common
@@ -7209,7 +7190,6 @@ image_data
 .
 update
 (
-common_data
 prim_instance_index
 prim_spatial_node_index
 frame_state
