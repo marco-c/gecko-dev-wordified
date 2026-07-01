@@ -2185,7 +2185,7 @@ regnum
 Registers
 :
 :
-invalid_reg
+Invalid
 )
 {
 *
@@ -2208,7 +2208,7 @@ fpuregnum
 FloatRegisters
 :
 :
-invalid_reg
+Invalid
 )
 {
 *
@@ -3607,7 +3607,7 @@ regnum
 Registers
 :
 :
-invalid_reg
+Invalid
 )
 {
 value
@@ -3651,7 +3651,7 @@ fpuregnum
 FloatRegisters
 :
 :
-invalid_reg
+Invalid
 )
 {
 fvalue
@@ -3832,7 +3832,7 @@ fpuregnum
 FloatRegisters
 :
 :
-invalid_reg
+Invalid
 )
 {
 value
@@ -4441,7 +4441,7 @@ regnum
 Registers
 :
 :
-invalid_reg
+Invalid
 |
 |
 strncmp
