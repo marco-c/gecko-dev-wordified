@@ -2011,6 +2011,12 @@ mIsFirstPaint
 (
 true
 )
+mIsRootWebRenderBridgeParent
+(
+!
+!
+aWidget
+)
 {
 LOG
 (
@@ -2147,6 +2153,10 @@ false
 mIsFirstPaint
 (
 true
+)
+mIsRootWebRenderBridgeParent
+(
+false
 )
 {
 MOZ_ASSERT
@@ -2297,6 +2307,10 @@ mDestroyed
 true
 )
 mIsFirstPaint
+(
+false
+)
+mIsRootWebRenderBridgeParent
 (
 false
 )
@@ -7389,9 +7403,7 @@ IsRootWebRenderBridgeParent
 const
 {
 return
-!
-!
-mWidget
+mIsRootWebRenderBridgeParent
 ;
 }
 void
