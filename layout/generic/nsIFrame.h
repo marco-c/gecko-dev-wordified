@@ -26586,6 +26586,12 @@ IsReplaced
 )
 const
 ;
+bool
+IsAtomicInline
+(
+)
+const
+;
 /
 *
 *
