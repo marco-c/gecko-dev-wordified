@@ -5134,6 +5134,8 @@ accumulate
 the
 received
 bytes
+and
+packets
 for
 the
 active
@@ -5157,6 +5159,17 @@ bytes_recvd
 +
 =
 len
+;
+peer_comp
+-
+>
+active
+-
+>
+packets_recvd
++
+=
+1
 ;
 gettimeofday
 (

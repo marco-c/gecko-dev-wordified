@@ -5605,6 +5605,8 @@ accumulate
 the
 sent
 bytes
+and
+packets
 for
 the
 active
@@ -5620,6 +5622,17 @@ bytes_sent
 +
 =
 len
+;
+comp
+-
+>
+active
+-
+>
+packets_sent
++
+=
+1
 ;
 gettimeofday
 (

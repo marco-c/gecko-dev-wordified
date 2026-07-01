@@ -407,6 +407,12 @@ bytes_sent
 UINT8
 bytes_recvd
 ;
+UINT8
+packets_sent
+;
+UINT8
+packets_recvd
+;
 struct
 timeval
 last_sent
