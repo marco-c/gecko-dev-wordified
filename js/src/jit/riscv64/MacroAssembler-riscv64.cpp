@@ -23857,6 +23857,8 @@ jalr
 (
 scratch
 Lo12
+{
+}
 )
 ;
 /
@@ -31256,6 +31258,14 @@ this
 1
 )
 ;
+LabelDoc
+doc
+=
+refLabel
+(
+L
+)
+;
 int32_t
 offset
 =
@@ -31281,6 +31291,7 @@ Assembler
 j
 (
 offset
+doc
 )
 ;
 return
@@ -31521,6 +31532,14 @@ this
 1
 )
 ;
+LabelDoc
+doc
+=
+refLabel
+(
+L
+)
+;
 int32_t
 offset
 =
@@ -31549,6 +31568,7 @@ beq
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31564,6 +31584,7 @@ bne
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31584,6 +31605,7 @@ bgt
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31599,6 +31621,7 @@ bge
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31614,6 +31637,7 @@ blt
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31629,6 +31653,7 @@ ble
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31649,6 +31674,7 @@ bgtu
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31664,6 +31690,7 @@ bgeu
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31679,6 +31706,7 @@ bltu
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31694,6 +31722,7 @@ bleu
 rs
 rt
 offset
+doc
 )
 ;
 break
@@ -31735,6 +31764,14 @@ independent
 long
 branch
 .
+LabelDoc
+doc
+=
+refLabel
+(
+L
+)
+;
 int32_t
 imm
 =
@@ -31788,6 +31825,7 @@ jr
 (
 scratch
 Lo12
+doc
 )
 ;
 /
@@ -31841,6 +31879,14 @@ this
 1
 )
 ;
+LabelDoc
+doc
+=
+refLabel
+(
+L
+)
+;
 int32_t
 offset
 =
@@ -31857,6 +31903,7 @@ return
 jal
 (
 offset
+doc
 )
 ;
 }
@@ -31877,6 +31924,14 @@ branch
 and
 link
 .
+LabelDoc
+doc
+=
+refLabel
+(
+L
+)
+;
 int32_t
 imm
 =
@@ -31930,6 +31985,7 @@ jalr
 (
 scratch
 Lo12
+doc
 )
 ;
 /
