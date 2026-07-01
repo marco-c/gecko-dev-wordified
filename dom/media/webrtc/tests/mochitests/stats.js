@@ -1131,12 +1131,6 @@ iceState
 selectedCandidatePairId
 "
 "
-localCertificateId
-"
-"
-remoteCertificateId
-"
-"
 tlsVersion
 "
 "
@@ -1156,6 +1150,12 @@ optional
 unimplemented
 :
 [
+"
+localCertificateId
+"
+"
+remoteCertificateId
+"
 "
 selectedCandidatePairChanges
 "
