@@ -407,6 +407,10 @@ cpu
 include
 /
 '
+'
+src
+/
+'
 ]
 EXPORTS
 +
@@ -462,6 +466,15 @@ ggml
 include
 /
 ggml
+.
+h
+"
+"
+ggml
+/
+include
+/
+gguf
 .
 h
 "
