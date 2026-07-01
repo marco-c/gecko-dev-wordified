@@ -248,6 +248,7 @@ MoveOperand
 &
 operand
 )
+const
 {
 MOZ_ASSERT
 (
@@ -316,6 +317,7 @@ MoveOperand
 &
 operand
 )
+const
 {
 return
 Address
