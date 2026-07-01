@@ -516,6 +516,9 @@ BreakpadData
 minidump_path
 :
 OsString
+build_id
+:
+String
 )
 -
 >
@@ -620,6 +623,7 @@ minidump_path
 clone
 (
 )
+build_id
 )
 )
 )

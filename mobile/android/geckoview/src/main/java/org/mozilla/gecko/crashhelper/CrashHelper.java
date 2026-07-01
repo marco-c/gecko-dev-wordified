@@ -421,6 +421,9 @@ CrashHelper
 .
 crash_generator
 (
+BuildConfig
+.
+MOZ_APP_BUILDID
 browserPid
 breakpadFd
 .
@@ -1125,6 +1128,8 @@ native
 void
 crash_generator
 (
+String
+buildId
 int
 clientPid
 int

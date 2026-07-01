@@ -1162,6 +1162,11 @@ minidump_path
 *
 const
 BreakpadChar
+build_id
+:
+*
+const
+c_char
 )
 -
 >
@@ -1201,6 +1206,7 @@ new
 helper_name
 breakpad_data
 minidump_path
+build_id
 )
 {
 let
