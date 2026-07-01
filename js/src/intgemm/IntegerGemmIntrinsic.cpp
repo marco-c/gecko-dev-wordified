@@ -843,7 +843,8 @@ aArgs
 MOZ_ASSERT
 (
 size
->
+<
+=
 sizeof
 (
 text
