@@ -606,6 +606,11 @@ MOZ_DIAGNOSTIC_ASSERT
 XRE_IsParentProcess
 (
 )
+|
+|
+XRE_IsGPUProcess
+(
+)
 )
 ;
 std
@@ -1148,6 +1153,11 @@ if
 XRE_IsParentProcess
 (
 )
+|
+|
+XRE_IsGPUProcess
+(
+)
 )
 {
 mozilla
@@ -1460,6 +1470,11 @@ aFreezable
 |
 |
 XRE_IsParentProcess
+(
+)
+|
+|
+XRE_IsGPUProcess
 (
 )
 "
