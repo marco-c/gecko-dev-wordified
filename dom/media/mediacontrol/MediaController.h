@@ -854,6 +854,12 @@ IsActive
 const
 override
 ;
+bool
+IsMuted
+(
+)
+const
+;
 /
 /
 IMediaInfoUpdater
@@ -1387,6 +1393,11 @@ false
 ;
 bool
 mShutdown
+=
+false
+;
+bool
+mIsMuted
 =
 false
 ;
