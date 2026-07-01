@@ -1136,6 +1136,11 @@ move
 (
 snapTargetIds
 )
+aRequest
+.
+GetScrollGenerationOnApz
+(
+)
 )
 ;
 geckoScrollPosition
@@ -1325,11 +1330,6 @@ ResetScrollInfoIfNeeded
 aRequest
 .
 GetScrollGeneration
-(
-)
-aRequest
-.
-GetScrollGenerationOnApz
 (
 )
 aRequest
@@ -3316,6 +3316,12 @@ std
 move
 (
 snapTargetIds
+)
+sf
+-
+>
+ScrollGenerationOnApz
+(
 )
 )
 ;

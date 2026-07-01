@@ -3362,6 +3362,10 @@ ScrollSnapTargetIds
 &
 &
 aLastSnapTargetIds
+const
+APZScrollGeneration
+&
+aGenerationOnApz
 )
 ;
 /
@@ -4765,10 +4769,6 @@ const
 MainThreadScrollGeneration
 &
 aGeneration
-const
-APZScrollGeneration
-&
-aGenerationOnApz
 APZScrollAnimationType
 aAPZScrollAnimationType
 InScrollingGesture
