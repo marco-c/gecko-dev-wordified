@@ -143,9 +143,6 @@ DebugOnly
 h
 "
 #
-ifndef
-MOZ_STORAGE_SORTWARNING_SQL_DUMP
-#
 include
 "
 mozilla
@@ -161,8 +158,6 @@ mozilla
 LazyLogModule
 gStorageLog
 ;
-#
-endif
 namespace
 mozilla
 {
@@ -1376,9 +1371,6 @@ while
 hasResults
 )
 ;
-#
-ifndef
-MOZ_STORAGE_SORTWARNING_SQL_DUMP
 if
 (
 MOZ_LOG_TEST
@@ -1390,8 +1382,6 @@ LogLevel
 Warning
 )
 )
-#
-endif
 {
 /
 /
