@@ -2187,6 +2187,8 @@ nsACString
 aKekRef
 bool
 aExtractable
+uint32_t
+aKeySize
 )
 {
 LOCKSTORE_SYNC_PREAMBLE
@@ -2200,6 +2202,7 @@ aCollection
 &
 aKekRef
 aExtractable
+aKeySize
 )
 ;
 }
@@ -3057,6 +3060,8 @@ nsACString
 aKekRef
 bool
 aExtractable
+uint32_t
+aKeySize
 JSContext
 *
 aCx
@@ -3086,6 +3091,7 @@ nsCString
 aKekRef
 }
 aExtractable
+aKeySize
 )
 ;
 }

@@ -464,6 +464,13 @@ mTestColl
 &
 mLocalKekRef
 false
+/
+*
+key_size
+=
+*
+/
+32
 )
 ;
 ASSERT_NS_SUCCEEDED

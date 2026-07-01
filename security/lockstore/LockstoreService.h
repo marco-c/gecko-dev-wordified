@@ -560,6 +560,8 @@ nsACString
 aKekRef
 bool
 aExtractable
+uint32_t
+aKeySize
 )
 ;
 nsresult
