@@ -1184,8 +1184,6 @@ this
 .
 watcherActor
 .
-browserElement
-.
 browsingContext
 .
 currentWindowGlobal

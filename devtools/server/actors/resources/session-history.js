@@ -204,8 +204,6 @@ this
 .
 watcherActor
 .
-browserElement
-.
 browsingContext
 .
 id
@@ -381,8 +379,6 @@ this
 .
 watcherActor
 .
-browserElement
-.
 browsingContext
 .
 id
@@ -424,7 +420,7 @@ this
 .
 watcherActor
 .
-browserElement
+browsingContext
 .
 browserId
 ;
@@ -539,8 +535,6 @@ this
 .
 watcherActor
 .
-browserElement
-.
 browsingContext
 .
 id
@@ -599,8 +593,6 @@ browsingContextID
 this
 .
 watcherActor
-.
-browserElement
 .
 browsingContext
 .
