@@ -9941,7 +9941,7 @@ Assembler
 :
 :
 NotEqual
-LongJump
+ShortJump
 )
 ;
 }
