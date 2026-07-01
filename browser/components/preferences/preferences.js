@@ -1749,6 +1749,9 @@ appearance
 browserTheme
 "
 "
+windowDensity
+"
+"
 relatedSettings
 "
 ]
