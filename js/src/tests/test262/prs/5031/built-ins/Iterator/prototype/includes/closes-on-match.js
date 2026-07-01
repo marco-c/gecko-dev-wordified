@@ -190,6 +190,14 @@ closed
 true
 )
 ;
+assert
+.
+sameValue
+(
+i
+5
+)
+;
 reportCompare
 (
 0
