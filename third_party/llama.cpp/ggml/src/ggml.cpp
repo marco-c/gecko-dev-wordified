@@ -57,9 +57,6 @@ previous_terminate_handler
 was
 nullptr
 }
-#
-if
-0
 static
 bool
 ggml_uncaught_exception_init
@@ -127,5 +124,3 @@ true
 (
 )
 ;
-#
-endif

@@ -882,7 +882,7 @@ set
 gradients
 to
 zero
-initilize
+initialize
 loss
 and
 optionally
