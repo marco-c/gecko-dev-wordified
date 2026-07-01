@@ -386,6 +386,10 @@ html_admonition
 "
 fieldlist
 "
+    
+"
+substitution
+"
 ]
 #
 The
