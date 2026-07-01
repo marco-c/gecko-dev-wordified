@@ -451,6 +451,21 @@ debug_test
 "
 ]
                       
+#
+android
+only
+                      
+"
+isolated_process
+"
+:
+kwargs
+[
+"
+isolated_process
+"
+]
+                      
 }
     
 if
@@ -1048,6 +1063,9 @@ def
 get_environ
 (
 chaos_mode_flags
+isolated_process
+=
+False
 env_extras
 =
 None
@@ -1153,6 +1171,21 @@ hex
 (
 chaos_mode_flags
 )
+    
+if
+isolated_process
+:
+        
+env
+[
+"
+MOZ_ANDROID_CONTENT_SERVICE_ISOLATED_PROCESS
+"
+]
+=
+"
+1
+"
     
 return
 env
@@ -1699,6 +1732,9 @@ False
 env_extras
 =
 None
+isolated_process
+=
+False
 *
 *
 kwargs
@@ -1853,6 +1889,12 @@ self
 disable_fission
 =
 disable_fission
+        
+self
+.
+isolated_process
+=
+isolated_process
         
 self
 .
@@ -2297,6 +2339,9 @@ get_environ
 self
 .
 chaos_mode_flags
+self
+.
+isolated_process
 self
 .
 env_extras

@@ -1720,6 +1720,14 @@ options
 .
 remoteTestRoot
         
+self
+.
+isolatedProcess
+=
+options
+.
+isolated_process
+        
 if
 not
 options
@@ -3268,6 +3276,23 @@ R_LOG_VERBOSE
 1
 "
 )
+        
+if
+self
+.
+isolatedProcess
+:
+            
+env
+[
+"
+MOZ_ANDROID_CONTENT_SERVICE_ISOLATED_PROCESS
+"
+]
+=
+"
+1
+"
         
 return
 env
