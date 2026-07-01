@@ -660,7 +660,6 @@ beta
 The
 list
 below
-list
 should
 be
 updated
@@ -680,15 +679,7 @@ releases
 /
 mozilla
 -
-esr115
-"
-        
-"
-releases
-/
-mozilla
--
-esr128
+esr153
 "
         
 "
@@ -697,6 +688,14 @@ releases
 mozilla
 -
 esr140
+"
+        
+"
+releases
+/
+mozilla
+-
+esr115
 "
     
 ]
@@ -778,7 +777,6 @@ beta
 The
 list
 below
-list
 should
 be
 updated
@@ -798,15 +796,7 @@ releases
 /
 comm
 -
-esr115
-"
-        
-"
-releases
-/
-comm
--
-esr128
+esr153
 "
         
 "

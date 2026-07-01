@@ -441,13 +441,13 @@ releases
 /
 mozilla
 -
-esr128
+esr140
 "
 :
 "
 mozilla
 -
-esr128
+esr140
 "
         
 "
@@ -455,13 +455,13 @@ releases
 /
 mozilla
 -
-esr140
+esr153
 "
 :
 "
 mozilla
 -
-esr140
+esr153
 "
     
 }

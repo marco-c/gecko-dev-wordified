@@ -203,12 +203,6 @@ esr115
 "
 mozilla
 -
-esr128
-"
-    
-"
-mozilla
--
 esr140
 "
 }
