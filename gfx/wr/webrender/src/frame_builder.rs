@@ -4615,11 +4615,6 @@ prim_headers
 &
 mut
 z_generator
-scene
-.
-config
-.
-gpu_supports_fast_clears
 &
 scene
 .
@@ -7007,9 +7002,6 @@ z_generator
 &
 mut
 ZBufferIdGenerator
-gpu_supports_fast_clears
-:
-bool
 prim_instances
 :
 &
@@ -7157,7 +7149,6 @@ Color
 false
 texture_id
 screen_size
-gpu_supports_fast_clears
 Some
 (
 used_rect
@@ -7225,7 +7216,6 @@ Alpha
 false
 texture_id
 screen_size
-gpu_supports_fast_clears
 Some
 (
 used_rect
@@ -7924,7 +7914,6 @@ target_kind
 true
 texture
 screen_size
-gpu_supports_fast_clears
 None
 &
 ctx
