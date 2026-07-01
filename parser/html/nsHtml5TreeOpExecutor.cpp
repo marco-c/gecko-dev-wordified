@@ -3086,6 +3086,11 @@ isEmpty
 )
 )
 {
+if
+(
+gBackgroundFlushRunner
+)
+{
 gBackgroundFlushRunner
 -
 >
@@ -3097,6 +3102,7 @@ gBackgroundFlushRunner
 =
 nullptr
 ;
+}
 return
 true
 ;
@@ -6110,6 +6116,14 @@ sele
 -
 >
 GetScriptIsImportMap
+(
+)
+|
+|
+sele
+-
+>
+GetScriptIsSpeculationRules
 (
 )
 |
