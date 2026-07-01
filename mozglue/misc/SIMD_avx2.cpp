@@ -1142,13 +1142,10 @@ static_assert
 std
 :
 :
-is_unsigned
+is_unsigned_v
 <
 TValue
 >
-:
-:
-value
 )
 ;
 /

@@ -856,14 +856,11 @@ ProxyReleaseChooser
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 nsISupports
 T
 >
-:
-:
-value
 >
 :
 :

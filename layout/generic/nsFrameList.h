@@ -1663,7 +1663,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 mozilla
@@ -1678,9 +1678,6 @@ Predicate
 ReturnType
 bool
 >
-:
-:
-value
 &
 &
 mozilla
@@ -1701,7 +1698,7 @@ arity
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 mozilla
@@ -1721,9 +1718,6 @@ ParameterType
 nsIFrame
 *
 >
-:
-:
-value
 "
 aPredicate
 should

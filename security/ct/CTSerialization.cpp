@@ -830,13 +830,10 @@ if
 std
 :
 :
-is_signed
+is_signed_v
 <
 T
 >
-:
-:
-value
 )
 {
 /

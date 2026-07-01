@@ -30775,7 +30775,7 @@ static_assert
 std
 :
 :
-is_trivially_copyable
+is_trivially_copyable_v
 <
 js
 :
@@ -30791,9 +30791,6 @@ mozilla
 Nothing
 >
 >
-:
-:
-value
 "
 Must
 be
@@ -30807,7 +30804,7 @@ static_assert
 std
 :
 :
-is_trivially_destructible
+is_trivially_destructible_v
 <
 js
 :
@@ -30823,9 +30820,6 @@ mozilla
 Nothing
 >
 >
-:
-:
-value
 "
 Must
 be
@@ -30839,7 +30833,7 @@ static_assert
 std
 :
 :
-is_trivially_copyable
+is_trivially_copyable_v
 <
 js
 :
@@ -30855,9 +30849,6 @@ mozilla
 Nothing
 >
 >
-:
-:
-value
 "
 Must
 be
@@ -30871,7 +30862,7 @@ static_assert
 std
 :
 :
-is_trivially_destructible
+is_trivially_destructible_v
 <
 js
 :
@@ -30887,9 +30878,6 @@ mozilla
 Nothing
 >
 >
-:
-:
-value
 "
 Must
 be

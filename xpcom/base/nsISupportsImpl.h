@@ -965,14 +965,11 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 nsISupports
 _type
 >
-:
-:
-value
 \
 "
 nsISupports
