@@ -3094,6 +3094,15 @@ force
 bool
 =
 False
+        
+env
+:
+Optional
+[
+dict
+]
+=
+None
     
 )
 :
@@ -3169,6 +3178,9 @@ dest_branch
 force
 =
 force
+env
+=
+env
 )
     
 def

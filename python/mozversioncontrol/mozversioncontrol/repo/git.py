@@ -2531,6 +2531,15 @@ force
 bool
 =
 False
+        
+env
+:
+Optional
+[
+dict
+]
+=
+None
     
 )
 :
@@ -2647,10 +2656,25 @@ append
 ref
 )
         
+run_kwargs
+=
+{
+"
+env
+"
+:
+env
+}
+if
+env
+else
+{
+}
+        
 (
 cmd
 _
-env
+merged_env
 )
 =
 self
@@ -2659,6 +2683,9 @@ _process_run_args
 (
 *
 args
+*
+*
+run_kwargs
 )
         
 subprocess
@@ -2673,7 +2700,7 @@ self
 path
 env
 =
-env
+merged_env
 )
     
 def
