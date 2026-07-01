@@ -2049,11 +2049,11 @@ isIndexGood
 {
 kernelL
 =
-0
+nullptr
 ;
 kernelR
 =
-0
+nullptr
 ;
 return
 ;

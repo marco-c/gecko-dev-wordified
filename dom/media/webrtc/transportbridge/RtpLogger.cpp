@@ -393,7 +393,7 @@ gettimeofday
 (
 &
 tv
-NULL
+nullptr
 )
 ;
 ss

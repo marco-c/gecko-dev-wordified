@@ -3443,8 +3443,8 @@ noAtts
 ]
 =
 {
-0
-0
+nullptr
+nullptr
 }
 ;
 constexpr

@@ -2420,7 +2420,7 @@ Elements
 (
 )
 0
-NULL
+nullptr
 gamepad
 .
 mInputReportContext

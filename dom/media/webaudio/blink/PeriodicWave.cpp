@@ -1121,7 +1121,7 @@ m_bandLimitedTables
 rangeIndex
 ]
 =
-0
+nullptr
 ;
 }
 /

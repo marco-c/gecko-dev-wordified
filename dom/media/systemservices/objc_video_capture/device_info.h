@@ -176,7 +176,7 @@ char
 *
 productUniqueIdUTF8
 =
-0
+nullptr
 uint32_t
 productUniqueIdUTF8Length
 =
@@ -185,7 +185,12 @@ pid_t
 *
 pid
 =
-0
+nullptr
+bool
+*
+deviceIsPlaceholder
+=
+nullptr
 )
 override
 ;

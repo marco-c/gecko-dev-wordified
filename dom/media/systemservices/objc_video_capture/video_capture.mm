@@ -326,7 +326,7 @@ deviceUniqueIdUTF8
 )
 {
 return
-NULL
+nullptr
 ;
 }
 webrtc

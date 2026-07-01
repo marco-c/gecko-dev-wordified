@@ -321,7 +321,7 @@ char
 *
 threadName
 =
-NULL
+nullptr
 ;
 /
 /

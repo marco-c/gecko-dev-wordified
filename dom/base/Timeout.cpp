@@ -404,7 +404,6 @@ mTimeRemaining
 =
 TimeDuration
 (
-0
 )
 ;
 }

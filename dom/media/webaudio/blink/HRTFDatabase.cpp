@@ -784,11 +784,11 @@ Length
 {
 kernelL
 =
-0
+nullptr
 ;
 kernelR
 =
-0
+nullptr
 ;
 return
 ;
@@ -841,11 +841,11 @@ hrtfElevation
 {
 kernelL
 =
-0
+nullptr
 ;
 kernelR
 =
-0
+nullptr
 ;
 return
 ;

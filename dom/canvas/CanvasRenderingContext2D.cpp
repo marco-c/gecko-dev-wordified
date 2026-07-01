@@ -32127,7 +32127,7 @@ Elements
 (
 )
 :
-0
+nullptr
 ;
 strokeOpts
 .

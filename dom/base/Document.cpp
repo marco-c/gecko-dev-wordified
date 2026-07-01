@@ -29771,7 +29771,6 @@ DocumentTimeline
 this
 TimeDuration
 (
-0
 )
 )
 ;
@@ -74560,7 +74559,7 @@ dependencies
 dups
 first
 .
-0
+nullptr
 }
 ;
 nsAutoCString

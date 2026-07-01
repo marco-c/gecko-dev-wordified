@@ -4404,7 +4404,6 @@ Value
 <
 TimeDuration
 (
-0
 )
 )
 {
@@ -6229,7 +6228,6 @@ EffectEnd
 :
 TimeDuration
 (
-0
 )
 ;
 bool
@@ -13370,7 +13368,6 @@ SetValue
 (
 TimeDuration
 (
-0
 )
 )
 ;
@@ -14513,7 +14510,6 @@ Value
 )
 TimeDuration
 (
-0
 )
 )
 )
@@ -14525,7 +14521,9 @@ mHoldTime
 .
 SetValue
 (
-0
+TimeDuration
+(
+)
 )
 ;
 }
@@ -15458,7 +15456,6 @@ mEffect
 return
 StickyTimeDuration
 (
-0
 )
 ;
 }

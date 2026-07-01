@@ -4649,7 +4649,6 @@ When
 )
 TimeDuration
 (
-0
 )
 )
 )
@@ -7778,7 +7777,6 @@ delay
 <
 TimeDuration
 (
-0
 )
 )
 {
@@ -7786,7 +7784,6 @@ delay
 =
 TimeDuration
 (
-0
 )
 ;
 }
@@ -8840,9 +8837,6 @@ frozen
 .
 TimeDuration
 delta
-(
-0
-)
 ;
 if
 (

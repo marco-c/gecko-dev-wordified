@@ -6045,7 +6045,7 @@ t
 =
 time
 (
-0
+nullptr
 )
 ;
 nsCString

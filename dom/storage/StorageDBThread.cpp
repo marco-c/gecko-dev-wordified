@@ -4198,7 +4198,8 @@ mFlushImmediately
 )
 {
 return
-0
+{
+}
 ;
 /
 /
@@ -4271,7 +4272,8 @@ kMaxAge
 )
 {
 return
-0
+{
+}
 ;
 /
 /

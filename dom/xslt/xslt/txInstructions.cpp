@@ -215,7 +215,7 @@ ImportFrame
 *
 frame
 =
-0
+nullptr
 ;
 txInstruction
 *
@@ -416,7 +416,7 @@ ImportFrame
 *
 frame
 =
-0
+nullptr
 ;
 txExpandedName
 mode
@@ -545,7 +545,7 @@ ImportFrame
 *
 frame
 =
-0
+nullptr
 ;
 txInstruction
 *

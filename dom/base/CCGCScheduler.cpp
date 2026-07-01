@@ -2254,7 +2254,6 @@ KillGCRunner
 ;
 EnsureGCRunner
 (
-0
 )
 ;
 }
@@ -3194,7 +3193,6 @@ s
 >
 EnsureGCRunner
 (
-0
 )
 ;
 }
@@ -3369,7 +3367,6 @@ s
 >
 EnsureGCRunner
 (
-0
 )
 ;
 }
@@ -3755,7 +3752,6 @@ GC
 .
 EnsureGCRunner
 (
-0
 )
 ;
 }
@@ -3775,7 +3771,6 @@ mGCRunner
 {
 EnsureGCRunner
 (
-0
 )
 ;
 return
@@ -4300,7 +4295,9 @@ EnsureCCRunner
 CCRunnerFired
 "
 _ns
-0
+TimeDuration
+(
+)
 aDelay
 minimumBudget
 true

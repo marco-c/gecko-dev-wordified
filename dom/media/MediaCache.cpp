@@ -8856,7 +8856,6 @@ use
 return
 TimeDuration
 (
-0
 )
 ;
 }
@@ -8969,7 +8968,6 @@ bytesAhead
 return
 TimeDuration
 (
-0
 )
 ;
 int64_t
@@ -9614,7 +9612,7 @@ GetCount
 TimeDuration
 latestPredictedUseForOverflow
 =
-0
+nullptr
 ;
 if
 (
@@ -11752,7 +11750,6 @@ latestNextUse
 =
 TimeDuration
 (
-0
 )
 )
 {

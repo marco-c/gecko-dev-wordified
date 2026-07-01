@@ -1135,7 +1135,7 @@ workletGlobal
 )
 {
 return
-0
+nullptr
 ;
 }
 return

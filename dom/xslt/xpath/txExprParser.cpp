@@ -2699,7 +2699,7 @@ rv
 =
 parseParameters
 (
-0
+nullptr
 lexer
 aContext
 )
@@ -3541,7 +3541,7 @@ aTest
 *
 aTest
 =
-0
+nullptr
 ;
 UniquePtr
 <
@@ -5263,7 +5263,7 @@ idx
 *
 aPrefix
 =
-0
+nullptr
 ;
 if
 (

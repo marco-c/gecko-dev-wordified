@@ -807,7 +807,7 @@ init
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
@@ -919,7 +919,7 @@ stream_get_latency
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
@@ -927,7 +927,7 @@ stream_get_input_latency
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
@@ -951,7 +951,7 @@ stream_get_current_device
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
@@ -959,7 +959,7 @@ stream_set_input_mute
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
@@ -975,7 +975,7 @@ stream_device_destroy
 =
 *
 /
-NULL
+nullptr
 /
 *
 .
