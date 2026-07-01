@@ -641,9 +641,6 @@ mod
 border
 ;
 mod
-border_image
-;
-mod
 box_shadow
 ;
 #
