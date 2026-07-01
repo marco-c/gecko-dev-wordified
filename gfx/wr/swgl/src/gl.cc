@@ -11349,6 +11349,9 @@ return
 case
 GL_R8
 :
+case
+GL_R16
+:
 break
 ;
 default
