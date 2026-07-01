@@ -437,6 +437,14 @@ type
 "
 :
 prompt_type
+        
+"
+userContext
+"
+:
+"
+default
+"
     
 }
     
@@ -557,6 +565,14 @@ type
 "
 :
 prompt_type
+        
+"
+userContext
+"
+:
+"
+default
+"
     
 }
     
@@ -1044,6 +1060,14 @@ type
 "
 beforeunload
 "
+        
+"
+userContext
+"
+:
+"
+default
+"
     
 }
     
@@ -1129,6 +1153,14 @@ type
 :
 "
 beforeunload
+"
+        
+"
+userContext
+"
+:
+"
+default
 "
     
 }
