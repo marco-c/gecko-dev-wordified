@@ -842,6 +842,17 @@ ShapedTextFlags
 )
 ;
 }
+nscoord
+LetterSpacing
+(
+)
+const
+override
+{
+return
+0
+;
+}
 }
 ;
 }
