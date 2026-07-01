@@ -13,12 +13,6 @@ if
 this
 .
 SharedArrayBuffer
-|
-|
-!
-isAsmJSCompilationAvailable
-(
-)
 Random
 =
 {

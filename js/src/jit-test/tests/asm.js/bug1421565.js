@@ -14,15 +14,6 @@ offthread
 compile
 =
 off
-;
-skip
--
-if
-:
-!
-isAsmJSCompilationAvailable
-(
-)
 load
 (
 libdir

@@ -10,12 +10,6 @@ skip
 if
 :
 !
-isAsmJSCompilationAvailable
-(
-)
-|
-|
-!
 Function
 .
 prototype
