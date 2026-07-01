@@ -14541,7 +14541,7 @@ address
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssemblerARMCompat
 :
 :
@@ -14577,6 +14577,7 @@ src
 scratch
 )
 ;
+return
 ma_str
 (
 scratch
@@ -14585,7 +14586,7 @@ scratch2
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssemblerARMCompat
 :
 :
@@ -14666,6 +14667,7 @@ imm
 scratch2
 )
 ;
+return
 ma_str
 (
 scratch2
@@ -14692,6 +14694,7 @@ imm
 scratch
 )
 ;
+return
 ma_str
 (
 scratch
@@ -14835,7 +14838,7 @@ return
 fco
 ;
 }
-void
+FaultingCodeOffset
 MacroAssemblerARMCompat
 :
 :
@@ -14849,6 +14852,7 @@ Address
 address
 )
 {
+return
 store32
 (
 Imm32
@@ -14861,7 +14865,7 @@ address
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssemblerARMCompat
 :
 :
@@ -14875,6 +14879,7 @@ BaseIndex
 address
 )
 {
+return
 store32
 (
 Imm32

@@ -5666,7 +5666,7 @@ return
 fco
 ;
 }
-void
+FaultingCodeOffset
 MacroAssemblerMIPS64
 :
 :
@@ -5786,6 +5786,7 @@ as
 a
 parameter
 here
+return
 ma_store
 (
 scratch
@@ -5799,7 +5800,7 @@ extension
 )
 ;
 }
-void
+FaultingCodeOffset
 MacroAssemblerMIPS64
 :
 :
@@ -5837,6 +5838,7 @@ scratch2
 imm
 )
 ;
+return
 ma_store
 (
 scratch2
@@ -10532,7 +10534,7 @@ template
 typename
 T
 >
-void
+FaultingCodeOffset
 MacroAssemblerMIPS64Compat
 :
 :
@@ -10544,6 +10546,7 @@ T
 address
 )
 {
+return
 ma_store
 (
 imm
@@ -10553,7 +10556,7 @@ SizeDouble
 ;
 }
 template
-void
+FaultingCodeOffset
 MacroAssemblerMIPS64Compat
 :
 :
@@ -10569,7 +10572,7 @@ address
 )
 ;
 template
-void
+FaultingCodeOffset
 MacroAssemblerMIPS64Compat
 :
 :
