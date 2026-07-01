@@ -317,6 +317,7 @@ bool
 IsPaused
 (
 )
+const
 {
 return
 mPaused
