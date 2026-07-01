@@ -5191,7 +5191,7 @@ b
 NotEqual
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -5429,7 +5429,7 @@ b
 NonZero
 :
 Zero
-LongJump
+ShortJump
 )
 ;
 }
@@ -5994,7 +5994,7 @@ b
 NonZero
 :
 Zero
-LongJump
+ShortJump
 )
 ;
 }
@@ -7442,7 +7442,7 @@ b
 NotEqual
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
