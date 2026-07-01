@@ -7139,6 +7139,7 @@ kNegativeZero
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -7174,6 +7175,7 @@ Imm32
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -7214,6 +7216,7 @@ kNegativeZero
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -7249,6 +7252,7 @@ Imm32
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -7337,6 +7341,7 @@ kNegativeZero
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -7372,6 +7377,7 @@ Imm32
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -20457,6 +20463,7 @@ asRawBits
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -20508,6 +20515,7 @@ valueReg
 scratch
 label
 cond
+LongJump
 )
 ;
 }
@@ -20687,6 +20695,7 @@ temp
 scratch
 label
 cond
+LongJump
 )
 ;
 }
@@ -21570,6 +21579,7 @@ Assembler
 :
 :
 Signed
+LongJump
 )
 ;
 }
@@ -21711,6 +21721,7 @@ Assembler
 :
 :
 Signed
+LongJump
 )
 ;
 }
@@ -22440,6 +22451,7 @@ Assembler
 :
 :
 Signed
+LongJump
 )
 ;
 return
@@ -22874,6 +22886,7 @@ kNegativeZero
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -22987,6 +23000,7 @@ kNegativeZero
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -25418,6 +25432,7 @@ Assembler
 :
 :
 Equal
+LongJump
 )
 ;
 }
@@ -25894,6 +25909,7 @@ kNegativeZero
 )
 fail
 Equal
+LongJump
 )
 ;
 }
@@ -26827,6 +26843,7 @@ Assembler
 :
 :
 Signed
+LongJump
 )
 ;
 }
@@ -26967,6 +26984,7 @@ Assembler
 :
 :
 Signed
+LongJump
 )
 ;
 }
@@ -27675,6 +27693,7 @@ index
 boundsCheckLimit
 label
 cond
+LongJump
 )
 ;
 }
@@ -27725,6 +27744,7 @@ scratch2
 )
 label
 cond
+LongJump
 )
 ;
 }
@@ -27755,6 +27775,7 @@ boundsCheckLimit
 reg
 label
 cond
+LongJump
 )
 ;
 }
@@ -27804,6 +27825,7 @@ reg
 scratch2
 label
 cond
+LongJump
 )
 ;
 }
@@ -29320,6 +29342,7 @@ Assembler
 :
 :
 Equal
+LongJump
 )
 ;
 }
@@ -29395,6 +29418,7 @@ Assembler
 :
 :
 Equal
+LongJump
 )
 ;
 }
@@ -29481,6 +29505,7 @@ Assembler
 :
 :
 Equal
+LongJump
 )
 ;
 }
@@ -29663,6 +29688,7 @@ Assembler
 :
 :
 Equal
+LongJump
 )
 ;
 }
@@ -29738,6 +29764,7 @@ Assembler
 :
 :
 Equal
+LongJump
 )
 ;
 }
@@ -29824,6 +29851,7 @@ Assembler
 :
 :
 Equal
+LongJump
 )
 ;
 }
@@ -30699,6 +30727,7 @@ Assembler
 :
 :
 NotEqual
+LongJump
 )
 ;
 }
@@ -30790,6 +30819,7 @@ Assembler
 :
 :
 NotEqual
+LongJump
 )
 ;
 }
@@ -30927,6 +30957,7 @@ Assembler
 :
 :
 NotEqual
+LongJump
 )
 ;
 }
@@ -36389,6 +36420,7 @@ Assembler
 :
 :
 NotEqual
+LongJump
 )
 ;
 }
@@ -36538,6 +36570,7 @@ Assembler
 :
 :
 NotEqual
+LongJump
 )
 ;
 }
@@ -36705,6 +36738,7 @@ Assembler
 :
 :
 NotEqual
+LongJump
 )
 ;
 }
@@ -36916,6 +36950,7 @@ Assembler
 :
 :
 LessThan
+LongJump
 )
 ;
 }
@@ -37009,6 +37044,7 @@ Assembler
 :
 :
 LessThan
+LongJump
 )
 ;
 }
@@ -37097,6 +37133,7 @@ Assembler
 :
 :
 NotEqual
+LongJump
 )
 ;
 }
@@ -37198,6 +37235,7 @@ Assembler
 :
 :
 LessThan
+LongJump
 )
 ;
 }
@@ -37221,6 +37259,7 @@ Assembler
 :
 :
 GreaterThan
+LongJump
 )
 ;
 }
@@ -37336,6 +37375,7 @@ Assembler
 :
 :
 LessThan
+LongJump
 )
 ;
 }
@@ -37359,6 +37399,7 @@ Assembler
 :
 :
 GreaterThan
+LongJump
 )
 ;
 }
@@ -37478,6 +37519,7 @@ Assembler
 :
 :
 Zero
+LongJump
 )
 ;
 }
@@ -37679,6 +37721,7 @@ Assembler
 :
 :
 Zero
+LongJump
 )
 ;
 }
@@ -37775,6 +37818,7 @@ Assembler
 :
 :
 Zero
+LongJump
 )
 ;
 }
@@ -37893,6 +37937,7 @@ Assembler
 :
 :
 Zero
+LongJump
 )
 ;
 }
@@ -37967,6 +38012,7 @@ rd
 rd
 taken
 cond
+LongJump
 )
 ;
 }
@@ -38022,6 +38068,7 @@ rd
 rd
 taken
 cond
+LongJump
 )
 ;
 }
@@ -38077,6 +38124,7 @@ rd
 rd
 taken
 cond
+LongJump
 )
 ;
 }
@@ -41687,6 +41735,7 @@ dest
 dest
 negZero
 Zero
+LongJump
 )
 ;
 }
