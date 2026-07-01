@@ -180,17 +180,6 @@ annotation
 .
 JNITarget
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
-RobocopTarget
-;
 public
 final
 class
@@ -1559,7 +1548,6 @@ getLibraryBase
 )
 ;
 }
-RobocopTarget
 public
 static
 synchronized

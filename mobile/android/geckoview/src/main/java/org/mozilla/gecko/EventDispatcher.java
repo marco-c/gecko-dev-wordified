@@ -153,17 +153,6 @@ gecko
 .
 annotation
 .
-RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
 WrapForJNI
 ;
 import
@@ -239,7 +228,6 @@ geckoview
 .
 GeckoResult
 ;
-RobocopTarget
 public
 final
 class

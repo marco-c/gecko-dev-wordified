@@ -174,17 +174,6 @@ gecko
 .
 annotation
 .
-RobocopTarget
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-annotation
-.
 WrapForJNI
 ;
 /
@@ -225,7 +214,6 @@ objects
 .
 *
 /
-RobocopTarget
 public
 final
 class
