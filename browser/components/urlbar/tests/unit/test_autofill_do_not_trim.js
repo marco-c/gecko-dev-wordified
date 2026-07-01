@@ -236,7 +236,7 @@ org
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -378,7 +378,7 @@ org
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -523,7 +523,7 @@ org
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -685,7 +685,7 @@ link
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

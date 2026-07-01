@@ -1080,7 +1080,7 @@ RESULT_TYPE
 TIP
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

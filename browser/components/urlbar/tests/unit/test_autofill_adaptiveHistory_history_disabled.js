@@ -530,7 +530,7 @@ Bookmark
 "
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

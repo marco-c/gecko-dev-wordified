@@ -330,7 +330,7 @@ expectedSearchMode
 .
 source
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -535,7 +535,7 @@ expectedSearchMode
 .
 source
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3047,7 +3047,7 @@ window
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3072,7 +3072,7 @@ b
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

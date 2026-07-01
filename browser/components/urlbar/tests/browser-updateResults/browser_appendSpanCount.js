@@ -413,7 +413,7 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -679,7 +679,7 @@ RESULT_TYPE
 URL
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

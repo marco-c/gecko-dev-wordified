@@ -184,7 +184,7 @@ get_results
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -264,7 +264,7 @@ get_results
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -344,7 +344,7 @@ get_results
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -424,7 +424,7 @@ get_results
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -491,7 +491,7 @@ get_results
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -595,7 +595,7 @@ get_results
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -705,7 +705,7 @@ searchMode
 {
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

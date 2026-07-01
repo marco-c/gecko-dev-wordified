@@ -1388,7 +1388,7 @@ false
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1563,7 +1563,7 @@ false
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

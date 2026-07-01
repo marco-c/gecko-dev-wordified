@@ -1811,7 +1811,7 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -2355,7 +2355,7 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3561,7 +3561,7 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4132,7 +4132,7 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

@@ -847,7 +847,7 @@ equal
 result
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1034,7 +1034,7 @@ equal
 result
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

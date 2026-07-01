@@ -151,7 +151,7 @@ urlbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -225,7 +225,7 @@ urlbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -276,7 +276,7 @@ searchbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -356,7 +356,7 @@ urlbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -408,7 +408,7 @@ searchbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -484,7 +484,7 @@ urlbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -535,7 +535,7 @@ searchbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -610,7 +610,7 @@ urlbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -661,7 +661,7 @@ searchbar
 sources
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

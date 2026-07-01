@@ -269,7 +269,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

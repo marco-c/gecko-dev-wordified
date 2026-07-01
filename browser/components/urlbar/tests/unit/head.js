@@ -3052,7 +3052,7 @@ from
 See
 {
 link
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 }
@@ -3178,7 +3178,7 @@ heuristic
 false
 source
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3239,7 +3239,7 @@ isBlockable
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3253,7 +3253,7 @@ blockL10n
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3283,7 +3283,7 @@ helpUrl
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3481,7 +3481,7 @@ RESULT_TYPE
 SEARCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3754,7 +3754,7 @@ RESULT_TYPE
 OMNIBOX
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4143,7 +4143,7 @@ RESULT_TYPE
 TAB_SWITCH
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4340,7 +4340,7 @@ RESULT_TYPE
 KEYWORD
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -4659,7 +4659,7 @@ RESULT_TYPE
 REMOTE_TAB
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -5181,7 +5181,7 @@ result
 .
 Defaults
 to
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -5302,7 +5302,7 @@ RESULT_TYPE
 SEARCH
 source
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -5998,7 +5998,7 @@ heuristic
 false
 source
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6088,7 +6088,7 @@ UrlbarProviderAboutPages
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6178,7 +6178,7 @@ undefined
 source
 !
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6334,7 +6334,7 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6516,7 +6516,7 @@ RESULT_TYPE
 DYNAMIC
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7726,7 +7726,7 @@ actual
 source
 =
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7797,7 +7797,7 @@ actual
 source
 !
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

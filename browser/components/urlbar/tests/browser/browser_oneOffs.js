@@ -125,7 +125,7 @@ action
 source
 !
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6009,7 +6009,7 @@ bookmarks
 :
 expectedSource
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6034,7 +6034,7 @@ tabs
 :
 expectedSource
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -6059,7 +6059,7 @@ history
 :
 expectedSource
 =
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

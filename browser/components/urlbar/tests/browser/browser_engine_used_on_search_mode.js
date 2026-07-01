@@ -306,7 +306,7 @@ engine
 name
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -497,7 +497,7 @@ engine
 name
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

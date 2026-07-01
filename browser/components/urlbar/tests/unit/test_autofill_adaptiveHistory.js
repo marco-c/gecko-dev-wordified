@@ -3000,7 +3000,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3139,7 +3139,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3230,7 +3230,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3451,7 +3451,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3634,7 +3634,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -3710,7 +3710,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7691,7 +7691,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -7805,7 +7805,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -8009,7 +8009,7 @@ pref
 true
 source
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -8736,12 +8736,12 @@ source
 ]
 :
 [
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
 HISTORY
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .

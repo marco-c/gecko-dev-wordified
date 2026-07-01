@@ -325,7 +325,7 @@ oneOffButtons
 selectedButton
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -682,7 +682,7 @@ oneOffButtons
 selectedButton
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1227,7 +1227,7 @@ oneOffButtons
 selectedButton
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1412,7 +1412,7 @@ oneOffButtons
 selectedButton
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
@@ -1550,7 +1550,7 @@ oneOffButtons
 selectedButton
 .
 source
-UrlbarUtils
+UrlbarShared
 .
 RESULT_SOURCE
 .
