@@ -291,11 +291,6 @@ Failure_BadBuildId
 Failure
 |
 0x1
-Failure_AsmJSNotSupported
-=
-Failure
-|
-0x2
 Failure_BadDecode
 =
 Failure

@@ -1085,10 +1085,6 @@ one
 created
 for
 WASM
-or
-asm
-.
-js
 so
 it
 *
@@ -2605,16 +2601,6 @@ WASM
 -
 backed
 ArrayBuffer
-or
-an
-ArrayBuffer
-used
-*
-in
-asm
-.
-js
-code
 .
 *
 /
