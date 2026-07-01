@@ -44054,9 +44054,8 @@ answerer_send_codecs
 answerer_recv_codecs
 )
 ;
-EXPECT_EQ
+EXPECT_THAT
 (
-offerer_sendrecv_codecs
 codec_lookup_helper_offerer_
 .
 GetCodecVendor
@@ -44070,6 +44069,16 @@ video_sendrecv_codecs
 .
 codecs
 (
+)
+CodecListsMatch
+(
+offerer_sendrecv_codecs
+&
+env_
+.
+field_trials
+(
+)
 )
 )
 ;
