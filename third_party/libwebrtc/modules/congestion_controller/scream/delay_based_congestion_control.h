@@ -271,6 +271,8 @@ const
 TransportPacketsFeedback
 &
 msg
+bool
+alr
 )
 ;
 /
@@ -655,6 +657,8 @@ UpdateSmoothedRtt
 (
 TimeDelta
 rtt_sample
+bool
+alr
 )
 ;
 void

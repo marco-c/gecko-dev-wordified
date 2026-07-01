@@ -358,6 +358,11 @@ Zero
 (
 )
 ;
+bool
+is_application_limited
+=
+false
+;
 /
 /
 Data
