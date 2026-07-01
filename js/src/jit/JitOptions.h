@@ -585,6 +585,9 @@ bool
 js_regexp_duplicate_named_groups
 ;
 bool
+js_regexp_buffer_boundaries
+;
+bool
 regexp_possessive_quantifier
 ;
 bool
