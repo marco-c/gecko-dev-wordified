@@ -497,9 +497,6 @@ MOZ_WIDGET_ANDROID
 class
 SurfaceTextureImage
 ;
-class
-AndroidImageReaderImage
-;
 #
 elif
 defined
@@ -1086,17 +1083,6 @@ virtual
 SurfaceTextureImage
 *
 AsSurfaceTextureImage
-(
-)
-{
-return
-nullptr
-;
-}
-virtual
-AndroidImageReaderImage
-*
-AsAndroidImageReaderImage
 (
 )
 {

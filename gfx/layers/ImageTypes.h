@@ -499,7 +499,6 @@ playback
 *
 /
 DCOMP_SURFACE
-ANDROID_IMAGE_READER
 }
 ;
 enum
