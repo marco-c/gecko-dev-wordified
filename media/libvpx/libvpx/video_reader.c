@@ -272,6 +272,11 @@ t
 read
 file
 header
+fclose
+(
+file
+)
+;
 return
 NULL
 ;
@@ -313,6 +318,11 @@ filename
 Wrong
 IVF
 signature
+fclose
+(
+file
+)
+;
 return
 NULL
 ;
@@ -353,6 +363,11 @@ filename
 Wrong
 IVF
 version
+fclose
+(
+file
+)
+;
 return
 NULL
 ;
@@ -396,6 +411,11 @@ Can
 t
 allocate
 VpxVideoReader
+fclose
+(
+file
+)
+;
 return
 NULL
 ;

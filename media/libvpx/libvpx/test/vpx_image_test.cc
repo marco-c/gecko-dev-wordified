@@ -475,6 +475,14 @@ EXPECT_EQ
 (
 img
 .
+x_chroma_shift
+1u
+)
+;
+EXPECT_EQ
+(
+img
+.
 stride
 [
 VPX_PLANE_U

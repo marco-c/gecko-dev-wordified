@@ -37976,7 +37976,7 @@ a
 (
 (
 const
-int
+tran_low_t
 *
 )
 elem1
@@ -37989,7 +37989,7 @@ b
 (
 (
 const
-int
+tran_low_t
 *
 )
 elem2
@@ -38716,8 +38716,6 @@ qsort
 (
 coeff
 coeff_count
--
-1
 sizeof
 (
 *
