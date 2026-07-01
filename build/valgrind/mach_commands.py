@@ -499,25 +499,36 @@ interpolation
 server
 "
 :
+f
 "
-%
-s
-:
-%
-d
-"
-%
+{
 httpd
 .
 httpd
 .
 server_address
+[
+0
+]
+}
+:
+{
+httpd
+.
+httpd
+.
+server_address
+[
+1
+]
+}
+"
         
 }
         
 for
-k
-v
+pref_name
+raw_pref_value
 in
 prefs
 .
@@ -526,17 +537,21 @@ items
 )
 :
             
+interpolated_pref_value
+=
+raw_pref_value
+            
 if
 isinstance
 (
-v
+raw_pref_value
 str
 )
 :
                 
-v
+interpolated_pref_value
 =
-v
+raw_pref_value
 .
 format
 (
@@ -547,14 +562,14 @@ interpolation
             
 prefs
 [
-k
+pref_name
 ]
 =
 Preferences
 .
 cast
 (
-v
+interpolated_pref_value
 )
         
 quitter
@@ -1406,21 +1421,21 @@ extraOptions
 =
 [
                         
+f
 "
 taskcluster
 -
-%
-s
-"
-%
+{
 os
 .
 environ
 [
-"
+'
 TASKCLUSTER_INSTANCE_TYPE
-"
+'
 ]
+}
+"
                     
 ]
                 
