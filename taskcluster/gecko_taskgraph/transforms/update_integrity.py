@@ -1610,26 +1610,36 @@ locale
             
 #
 channel
--
-stop
-hardcoding
             
+job
+[
 "
-nightly
+attributes
+"
+]
+[
+"
+update
 -
-try
+channel
 "
+]
             
 #
 app
 name
--
-stop
-hardcoding
             
+job
+[
 "
-firefox
+attributes
 "
+]
+[
+"
+shipping_product
+"
+]
             
 #
 artifact
