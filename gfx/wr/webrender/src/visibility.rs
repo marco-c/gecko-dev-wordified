@@ -3434,7 +3434,6 @@ resource_cache
 &
 surface_culling_rect
 &
-mut
 frame_state
 .
 data_stores

@@ -10904,7 +10904,6 @@ VisRect
 clip_data_store
 :
 &
-mut
 ClipDataStore
 rg_builder
 :
@@ -11088,7 +11087,6 @@ let
 node
 =
 &
-mut
 clip_data_store
 [
 node_info
