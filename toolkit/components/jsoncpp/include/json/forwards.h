@@ -160,6 +160,12 @@ ValueIterator
 class
 ValueConstIterator
 ;
+class
+ValueMembersView
+;
+class
+ValueConstMembersView
+;
 }
 /
 /
