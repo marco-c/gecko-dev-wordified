@@ -621,6 +621,18 @@ inherited
 from
 Document
 .
+bool
+IsAsciiCompatible
+(
+const
+mozilla
+:
+:
+Encoding
+*
+aEncoding
+)
+;
 virtual
 bool
 WillIgnoreCharsetOverride
@@ -908,7 +920,6 @@ set
 int32_t
 mNumForms
 ;
-static
 void
 TryReloadCharset
 (
