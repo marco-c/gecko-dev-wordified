@@ -4430,11 +4430,6 @@ OnCubebOperationThread
 )
 )
 ;
-MOZ_ASSERT
-(
-mAudioStream
-)
-;
 cubeb_stream_set_name
 (
 mAudioStream
