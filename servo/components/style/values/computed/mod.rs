@@ -3546,7 +3546,16 @@ so
 it
 must
 return
-0
+/
+/
+the
+default
+sibling
+index
+and
+count
+of
+1
 .
 if
 self
