@@ -2008,13 +2008,6 @@ type
 }
 is
 set
-for
-theme
-{
-theme
-.
-preset
-}
 )
 ;
 }
