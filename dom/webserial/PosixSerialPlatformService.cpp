@@ -153,6 +153,15 @@ include
 "
 mozilla
 /
+ResultVariant
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SyncRunnable
 .
 h
