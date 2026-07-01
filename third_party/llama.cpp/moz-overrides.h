@@ -261,10 +261,11 @@ consistently
 uses
 e
 err
-and
 /
 /
 error
+and
+ex
 for
 the
 exception
@@ -308,6 +309,14 @@ exception
 )
 \
 error
+=
+std
+:
+:
+exception
+(
+)
+ex
 =
 std
 :

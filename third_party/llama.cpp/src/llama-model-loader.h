@@ -226,6 +226,8 @@ tensor_idx
 0
 )
 {
+/
+/
 throw
 std
 :
@@ -251,6 +253,13 @@ ggml_get_name
 tensor
 )
 )
+)
+;
+std
+:
+:
+abort
+(
 )
 ;
 }
@@ -294,6 +303,8 @@ size
 )
 )
 {
+/
+/
 throw
 std
 :
@@ -326,6 +337,13 @@ ggml_get_name
 tensor
 )
 )
+)
+;
+std
+:
+:
+abort
+(
 )
 ;
 }
