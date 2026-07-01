@@ -6147,6 +6147,22 @@ em
 -
 14
 -
+x86_64
+/
+debug
+-
+isolated
+-
+process
+"
+                
+"
+android
+-
+em
+-
+14
+-
 x86
 -
 shippable
@@ -7175,6 +7191,13 @@ opt
 "
 "
 debug
+"
+"
+debug
+-
+isolated
+-
+process
 "
 ]
     
