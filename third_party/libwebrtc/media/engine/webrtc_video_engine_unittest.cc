@@ -5079,6 +5079,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 EXPECT_TRUE
@@ -5192,6 +5193,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -6059,6 +6061,7 @@ move
 (
 callback
 )
+nullptr
 )
 ;
 VideoSenderParameters
@@ -7140,6 +7143,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -8509,6 +8513,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 VideoSenderParameters
@@ -8749,6 +8754,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -9069,6 +9075,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 VideoSenderParameters
@@ -9346,6 +9353,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -11644,6 +11652,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 VideoSenderParameters
@@ -12783,6 +12792,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -13972,6 +13982,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -21418,6 +21429,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 receive_channel_
@@ -27251,6 +27263,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 receive_channel_
@@ -27344,6 +27357,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -31607,6 +31621,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 receive_channel_
@@ -32000,6 +32015,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 receive_channel_
@@ -32210,6 +32226,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -43395,6 +43412,7 @@ get
 (
 )
 nullptr
+nullptr
 )
 ;
 send_channel
@@ -43492,6 +43510,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -43775,6 +43794,7 @@ video_bitrate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -76233,6 +76253,7 @@ mock_rate_allocator_factory_
 get
 (
 )
+nullptr
 nullptr
 )
 ;

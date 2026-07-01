@@ -910,6 +910,17 @@ override
 )
 )
 ;
+MOCK_METHOD
+(
+void
+OnParametersChanged
+(
+)
+(
+override
+)
+)
+;
 }
 ;
 }
