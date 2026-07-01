@@ -1212,6 +1212,8 @@ CodecConfiguration
 configurations
 MediaType
 type
+bool
+rtx_enabled
 )
 {
 Codecs
@@ -1358,6 +1360,11 @@ an
 RTX
 codec
 .
+if
+(
+rtx_enabled
+)
+{
 out
 .
 push_back
@@ -1374,6 +1381,7 @@ kRtxCodecName
 )
 )
 ;
+}
 }
 if
 (
@@ -1660,6 +1668,7 @@ CodecsFromConfigurations
 (
 configurations_
 type
+rtx_enabled
 )
 )
 ;

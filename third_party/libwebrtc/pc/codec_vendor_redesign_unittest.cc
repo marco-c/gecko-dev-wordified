@@ -778,7 +778,7 @@ id
 TEST_F
 (
 CodecVendorRedesignTest
-DISABLED_VideoOfferIncludesRtxAndRedAndAssignsIds
+VideoOfferIncludesRtxAndRedAndAssignsIds
 )
 {
 MediaDescriptionOptions
