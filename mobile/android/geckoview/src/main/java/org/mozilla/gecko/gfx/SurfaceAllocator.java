@@ -70,6 +70,13 @@ android
 .
 os
 .
+Binder
+;
+import
+android
+.
+os
+.
 IBinder
 ;
 import
@@ -159,6 +166,17 @@ static
 ISurfaceAllocator
 sAllocator
 ;
+private
+static
+final
+IBinder
+sClient
+=
+new
+Binder
+(
+)
+;
 /
 /
 Keep
@@ -243,6 +261,7 @@ getInstance
 .
 getSurfaceAllocator
 (
+sClient
 )
 ;
 }
@@ -254,6 +273,7 @@ GeckoServiceChildProcess
 .
 getSurfaceAllocator
 (
+sClient
 )
 ;
 }

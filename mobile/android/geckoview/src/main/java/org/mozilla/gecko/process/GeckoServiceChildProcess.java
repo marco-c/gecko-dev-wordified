@@ -1011,6 +1011,9 @@ getSurfaceAllocator
 final
 int
 allocatorId
+final
+IBinder
+client
 )
 {
 Log
@@ -1241,6 +1244,9 @@ static
 ISurfaceAllocator
 getSurfaceAllocator
 (
+final
+IBinder
+client
 )
 throws
 RemoteException
@@ -1250,6 +1256,7 @@ sProcessManager
 .
 getSurfaceAllocator
 (
+client
 )
 ;
 }
