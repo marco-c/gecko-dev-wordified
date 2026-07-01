@@ -48,6 +48,8 @@ include
 <
 cstring
 >
+/
+/
 #
 include
 <
@@ -355,6 +357,8 @@ h
 "
 #
 endif
+/
+/
 namespace
 fs
 =
@@ -363,6 +367,9 @@ std
 :
 filesystem
 ;
+#
+if
+0
 static
 std
 :
@@ -487,6 +494,8 @@ string
 ;
 }
 }
+#
+endif
 struct
 ggml_backend_reg_entry
 {
@@ -1003,6 +1012,9 @@ device
 )
 ;
 }
+#
+if
+0
 ggml_backend_reg_t
 load_backend
 (
@@ -1374,6 +1386,8 @@ return
 reg
 ;
 }
+#
+endif
 void
 unload_backend
 (
@@ -2072,6 +2086,9 @@ nullptr
 )
 ;
 }
+#
+if
+0
 /
 /
 Dynamic
@@ -2590,6 +2607,11 @@ return
 #
 endif
 }
+#
+endif
+#
+if
+0
 static
 fs
 :
@@ -2672,6 +2694,8 @@ so
 #
 endif
 }
+#
+endif
 static
 ggml_backend_reg_t
 ggml_backend_load_best
@@ -2688,6 +2712,9 @@ char
 user_search_path
 )
 {
+#
+if
+0
 /
 /
 enumerate
@@ -3419,6 +3446,11 @@ best_path
 silent
 )
 ;
+#
+endif
+return
+nullptr
+;
 }
 void
 ggml_backend_load_all
@@ -3628,6 +3660,8 @@ if
 backend_path
 )
 {
+/
+/
 ggml_backend_load
 (
 backend_path
