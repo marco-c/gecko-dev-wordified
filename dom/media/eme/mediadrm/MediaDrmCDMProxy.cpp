@@ -292,7 +292,7 @@ GetEMEOriginID
 mKeys
 -
 >
-GetPrincipal
+GetStoragePrincipal
 (
 )
 )
