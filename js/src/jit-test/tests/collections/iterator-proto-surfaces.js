@@ -234,6 +234,12 @@ includes
 join
 "
 "
+chunks
+"
+"
+windows
+"
+"
 constructor
 "
 Symbol

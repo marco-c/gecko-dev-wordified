@@ -12100,6 +12100,8 @@ true
 ;
 }
 }
+#
+endif
 if
 (
 key
@@ -12160,17 +12162,6 @@ return
 true
 ;
 }
-}
-#
-endif
-if
-(
-key
-=
-=
-JSProto_Iterator
-)
-{
 if
 (
 !

@@ -11414,6 +11414,8 @@ JSMSG_ITERATOR_RANGE_INVALID_START
 )
 ;
 }
+#
+endif
 /
 *
 *
@@ -13476,8 +13478,6 @@ undefined
 implicit
 )
 }
-#
-endif
 /
 *
 *
