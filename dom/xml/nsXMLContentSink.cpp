@@ -4394,7 +4394,7 @@ eUseCounter_custom_XSLStylesheet
 mDocument
 -
 >
-WarnOnceAbout
+WarnOnceAndReportAbout
 (
 DeprecatedOperations
 :
