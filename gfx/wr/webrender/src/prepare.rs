@@ -643,7 +643,6 @@ FrameBuildingState
 data_stores
 :
 &
-mut
 DataStores
 scratch
 :
@@ -916,7 +915,6 @@ FrameBuildingState
 data_stores
 :
 &
-mut
 DataStores
 scratch
 :
@@ -1538,7 +1536,6 @@ PlaneSplitAnchor
 data_stores
 :
 &
-mut
 DataStores
 scratch
 :
@@ -2371,7 +2368,6 @@ FrameBuildingState
 data_stores
 :
 &
-mut
 DataStores
 scratch
 :
@@ -10964,7 +10960,6 @@ FrameBuildingState
 data_stores
 :
 &
-mut
 DataStores
 segments_store
 :
@@ -11915,7 +11910,6 @@ PrimitiveStore
 data_stores
 :
 &
-mut
 DataStores
 scratch
 :
