@@ -3117,7 +3117,7 @@ FIRST_ARG_SLOT
 register
 UINT32
 r28
-asm
+__asm__
 (
 "
 r28

@@ -523,6 +523,5 @@ define
 FFI_EXTRA_CIF_FIELDS
 unsigned
 nfixedargs
-;
 #
 endif

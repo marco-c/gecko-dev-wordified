@@ -1853,7 +1853,7 @@ be
 visible
 *
 /
-asm
+__asm__
 volatile
 (
 "

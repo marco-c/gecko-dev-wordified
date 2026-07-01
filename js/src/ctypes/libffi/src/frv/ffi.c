@@ -1663,7 +1663,7 @@ branch
 .
 *
 /
-asm
+__asm__
 (
 "
 ldi
@@ -1686,7 +1686,7 @@ rvalue
 )
 )
 ;
-asm
+__asm__
 (
 "
 ldi

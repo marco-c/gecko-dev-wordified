@@ -2109,7 +2109,7 @@ and
 fastcall
 if
 the
-paramter
+parameter
 passed
 as
 64
@@ -2996,7 +2996,7 @@ and
 fastcall
 if
 the
-paramter
+parameter
 passed
 as
 64

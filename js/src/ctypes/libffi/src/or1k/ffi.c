@@ -1708,7 +1708,7 @@ cif
 >
 rtype
 )
-asm
+__asm__
 (
 "
 l

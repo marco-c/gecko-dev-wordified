@@ -2182,7 +2182,7 @@ icache
 .
 *
 /
-asm
+__asm__
 volatile
 (
 "

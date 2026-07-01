@@ -517,7 +517,7 @@ ptr
 UINT64
 ret
 ;
-asm
+__asm__
 (
 "
 lds
@@ -572,7 +572,7 @@ UINT64
 val
 )
 {
-asm
+__asm__
 (
 "
 sts
@@ -2095,7 +2095,7 @@ h
 .
 *
 /
-asm
+__asm__
 volatile
 (
 "
