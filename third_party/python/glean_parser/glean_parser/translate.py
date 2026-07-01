@@ -309,7 +309,7 @@ Outputter
 (
 go_server
 .
-output_go
+output_go_logger
 [
 ]
 )

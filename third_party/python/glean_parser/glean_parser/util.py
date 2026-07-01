@@ -2020,6 +2020,11 @@ diskcache
 Cache
 (
 cache_dir
+disk
+=
+diskcache
+.
+JSONDisk
 )
 as
 dc
@@ -2038,8 +2043,6 @@ key
 ]
     
 contents
-:
-str
 =
 urllib
 .
@@ -2053,6 +2056,15 @@ url
 read
 (
 )
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
     
 if
 cache
@@ -2064,6 +2076,11 @@ diskcache
 Cache
 (
 cache_dir
+disk
+=
+diskcache
+.
+JSONDisk
 )
 as
 dc
@@ -3510,6 +3527,10 @@ lifetime
     
 "
 disabled
+"
+    
+"
+in_session
 "
 ]
 #
