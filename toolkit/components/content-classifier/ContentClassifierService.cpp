@@ -73,6 +73,13 @@ h
 #
 include
 "
+ContentClassifierPrefMirror
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -2642,6 +2649,13 @@ InitRSClient
 )
 ;
 }
+ContentClassifierPrefMirror
+:
+:
+Init
+(
+)
+;
 }
 void
 ContentClassifierService
