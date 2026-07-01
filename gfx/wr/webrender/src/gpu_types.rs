@@ -629,6 +629,13 @@ pub
 enum
 RasterizationSpace
 {
+#
+[
+allow
+(
+unused
+)
+]
 Local
 =
 0
