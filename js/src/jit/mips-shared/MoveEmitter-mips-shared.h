@@ -291,10 +291,6 @@ breakCycle
 const
 MoveOperand
 &
-from
-const
-MoveOperand
-&
 to
 MoveOp
 :

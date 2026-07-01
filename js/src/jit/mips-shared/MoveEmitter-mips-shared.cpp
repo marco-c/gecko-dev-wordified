@@ -1341,7 +1341,6 @@ begins
 .
 breakCycle
 (
-from
 to
 move
 .
@@ -1429,7 +1428,6 @@ isCycleBegin
 {
 breakCycle
 (
-from
 to
 move
 .

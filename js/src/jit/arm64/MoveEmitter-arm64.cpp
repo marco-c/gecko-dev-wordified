@@ -463,7 +463,6 @@ isCycleEnd
 ;
 breakCycle
 (
-from
 to
 move
 .
@@ -1622,10 +1621,6 @@ MoveEmitterARM64
 :
 breakCycle
 (
-const
-MoveOperand
-&
-from
 const
 MoveOperand
 &
