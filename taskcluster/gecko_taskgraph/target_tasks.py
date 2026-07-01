@@ -9773,6 +9773,26 @@ run
 "
 )
     
+#
+Pretend
+we
+'
+re
+running
+on
+the
+target
+project
+for
+purposes
+of
+run
+-
+on
+-
+projects
+filtering
+    
 params
 =
 parameters
@@ -9789,6 +9809,17 @@ project
 ]
 =
 target_project
+    
+params
+[
+"
+level
+"
+]
+=
+"
+3
+"
     
 return
 lambda
