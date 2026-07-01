@@ -5285,6 +5285,7 @@ FrameBuildingContext
 data_stores
 :
 &
+mut
 DataStores
 scratch
 :
@@ -9794,6 +9795,7 @@ FrameBuildingState
 data_stores
 :
 &
+mut
 DataStores
 scratch
 :
