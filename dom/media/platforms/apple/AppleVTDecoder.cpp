@@ -2106,12 +2106,6 @@ max
 )
 )
 ;
-mSeekTargetThreshold
-.
-reset
-(
-)
-;
 mIsFlushing
 =
 false
