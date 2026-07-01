@@ -7725,6 +7725,8 @@ RTC_DCHECK_NOTREACHED
 (
 )
 ;
+return
+;
 }
 permission_queries_
 .
