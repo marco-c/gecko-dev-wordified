@@ -193,6 +193,17 @@ include
 "
 absl
 /
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
 functional
 /
 any_invocable
@@ -14315,6 +14326,7 @@ Environment
 env
 WebRtcVoiceEngine
 *
+absl_nonnull
 engine
 const
 MediaConfig
@@ -14330,6 +14342,7 @@ CryptoOptions
 crypto_options
 Call
 *
+absl_nonnull
 call
 )
 :

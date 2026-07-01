@@ -159,6 +159,17 @@ include
 "
 absl
 /
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
 functional
 /
 bind_front
@@ -2051,6 +2062,7 @@ MediaType
 media_type
 RtpPacketReceived
 packet
+absl_nonnull
 OnUndemuxablePacketHandler
 undemuxable_packet_handler
 )
@@ -9419,6 +9431,7 @@ MediaType
 media_type
 RtpPacketReceived
 packet
+absl_nonnull
 OnUndemuxablePacketHandler
 undemuxable_packet_handler
 )

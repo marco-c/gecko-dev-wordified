@@ -182,6 +182,17 @@ include
 "
 absl
 /
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
 functional
 /
 any_invocable
@@ -20501,6 +20512,7 @@ Environment
 env
 Call
 *
+absl_nonnull
 call
 const
 MediaConfig
@@ -20516,6 +20528,7 @@ CryptoOptions
 crypto_options
 VideoDecoderFactory
 *
+absl_nonnull
 decoder_factory
 )
 :
