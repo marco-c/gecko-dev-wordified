@@ -542,7 +542,7 @@ Method
 pub
 url
 :
-Url
+ViaductUrl
 pub
 headers
 :
@@ -2262,7 +2262,7 @@ response
 pub
 url
 :
-Url
+ViaductUrl
 /
 /
 /

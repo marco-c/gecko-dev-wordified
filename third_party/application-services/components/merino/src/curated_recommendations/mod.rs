@@ -147,6 +147,7 @@ test
 mod
 tests
 ;
+pub
 use
 crate
 :
@@ -214,6 +215,7 @@ error
 :
 {
 ApiResult
+CuratedRecommendationsApiError
 Error
 Result
 }

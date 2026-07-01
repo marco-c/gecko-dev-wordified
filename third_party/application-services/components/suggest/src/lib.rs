@@ -150,8 +150,12 @@ geoname
 :
 :
 {
+AlternateNames
 Geoname
+GeonameAlternates
 GeonameMatch
+GeonameMatchType
+GeonameType
 }
 ;
 pub
@@ -204,7 +208,9 @@ suggestion
 :
 {
 raw_suggestion_url_matches
+FtsMatchInfo
 Suggestion
+YelpSubjectType
 }
 ;
 pub

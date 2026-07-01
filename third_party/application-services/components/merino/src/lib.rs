@@ -225,6 +225,16 @@ pub
 mod
 worldcup
 ;
+pub
+use
+curated_recommendations
+:
+:
+{
+CuratedRecommendationLocale
+CuratedRecommendationsApiError
+}
+;
 uniffi
 :
 :

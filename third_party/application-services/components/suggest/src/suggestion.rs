@@ -75,6 +75,7 @@ geoname
 :
 :
 Geoname
+JsonValue
 }
 ;
 /
@@ -454,10 +455,7 @@ data
 :
 Option
 <
-serde_json
-:
-:
-Value
+JsonValue
 >
 /
 /

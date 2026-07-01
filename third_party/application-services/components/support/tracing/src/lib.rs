@@ -82,6 +82,7 @@ layer
 :
 {
 register_event_sink
+register_event_sink_box
 simple_event_layer
 unregister_event_sink
 EventSinkId
@@ -903,10 +904,7 @@ String
 pub
 fields
 :
-serde_json
-:
-:
-Value
+TracingJsonValue
 }
 #
 [

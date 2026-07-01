@@ -139,7 +139,7 @@ uniffi
 :
 export
 (
-with_foreign
+callback_interface
 )
 ]
 pub

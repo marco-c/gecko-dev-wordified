@@ -146,9 +146,6 @@ UPPERCASE
 )
 ]
 pub
-(
-crate
-)
 enum
 JSONEngineMethod
 {
@@ -274,9 +271,6 @@ camelCase
 )
 ]
 pub
-(
-crate
-)
 struct
 JSONEngineUrl
 {
