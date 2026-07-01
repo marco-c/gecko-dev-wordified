@@ -700,7 +700,7 @@ DirectTransport
 env
 (
 )
-task_queue
+network_thread
 (
 )
 std
@@ -762,7 +762,7 @@ DirectTransport
 env
 (
 )
-task_queue
+network_thread
 (
 )
 std
