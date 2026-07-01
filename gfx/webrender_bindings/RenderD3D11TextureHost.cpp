@@ -914,6 +914,15 @@ gfx
 SurfaceFormat
 :
 :
+NV16
+:
+case
+gfx
+:
+:
+SurfaceFormat
+:
+:
 P210
 :
 {

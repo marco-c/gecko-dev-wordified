@@ -873,6 +873,12 @@ kCVPixelFormatType_420YpCbCr10BiPlanarFullRange
 format
 =
 =
+kCVPixelFormatType_422YpCbCr8BiPlanarFullRange
+|
+|
+format
+=
+=
 kCVPixelFormatType_422YpCbCr10BiPlanarFullRange
 |
 |
