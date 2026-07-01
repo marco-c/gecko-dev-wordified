@@ -164,6 +164,12 @@ UpdateAndGetSessionState
 (
 )
 ;
+static
+void
+InitSessionRestore
+(
+)
+;
 void
 ScheduleNativeEventCallback
 (
