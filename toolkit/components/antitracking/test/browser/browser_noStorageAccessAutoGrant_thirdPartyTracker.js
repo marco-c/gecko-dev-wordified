@@ -352,7 +352,7 @@ requestStorageAccessAndExpectFailure
 )
 ;
 await
-clearSiteTestData
+cleanUpData
 (
 )
 ;
@@ -479,7 +479,7 @@ requestStorageAccessAndExpectSuccess
 )
 ;
 await
-clearSiteTestData
+cleanUpData
 (
 )
 ;
