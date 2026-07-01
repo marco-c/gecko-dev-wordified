@@ -365,7 +365,7 @@ mHTTPS
 ;
 mInVisitHeaders
 =
-false
+0
 ;
 }
 nsHttpRequestHead
@@ -496,7 +496,7 @@ mHTTPS
 ;
 mInVisitHeaders
 =
-false
+0
 ;
 }
 nsHttpRequestHead
@@ -604,7 +604,7 @@ mHTTPS
 ;
 mInVisitHeaders
 =
-false
+0
 ;
 return
 *
@@ -844,9 +844,9 @@ mon
 mRecursiveMutex
 )
 ;
++
++
 mInVisitHeaders
-=
-true
 ;
 nsresult
 rv
@@ -859,9 +859,9 @@ visitor
 filter
 )
 ;
+-
+-
 mInVisitHeaders
-=
-false
 ;
 return
 rv

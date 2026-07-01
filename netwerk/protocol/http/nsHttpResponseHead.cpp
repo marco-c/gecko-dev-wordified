@@ -887,7 +887,7 @@ mPragmaNoCache
 ;
 mInVisitHeaders
 =
-false
+0
 ;
 }
 HttpVersion
@@ -8024,9 +8024,9 @@ monitor
 mRecursiveMutex
 )
 ;
++
++
 mInVisitHeaders
-=
-true
 ;
 nsresult
 rv
@@ -8039,9 +8039,9 @@ visitor
 filter
 )
 ;
+-
+-
 mInVisitHeaders
-=
-false
 ;
 return
 rv
@@ -8185,9 +8185,9 @@ monitor
 mRecursiveMutex
 )
 ;
++
++
 mInVisitHeaders
-=
-true
 ;
 nsresult
 rv
@@ -8200,9 +8200,9 @@ aHeader
 aVisitor
 )
 ;
+-
+-
 mInVisitHeaders
-=
-false
 ;
 return
 rv
