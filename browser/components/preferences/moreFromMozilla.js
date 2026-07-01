@@ -1525,9 +1525,15 @@ box
 ;
 qrcode
 .
+setAttribute
+(
+"
 hidden
-=
+"
+"
 false
+"
+)
 ;
 let
 qrcode_title
