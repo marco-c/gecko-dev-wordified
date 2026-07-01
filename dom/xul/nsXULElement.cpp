@@ -7474,6 +7474,16 @@ aNotify
 *
 /
 false
+mozilla
+:
+:
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 )
 ;
