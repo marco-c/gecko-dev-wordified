@@ -3945,6 +3945,9 @@ gBrowser
 removeTabGroup
 (
 this
+{
+metricsContext
+}
 )
 ;
 }

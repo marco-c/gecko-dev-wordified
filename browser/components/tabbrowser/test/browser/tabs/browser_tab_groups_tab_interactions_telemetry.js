@@ -1171,7 +1171,7 @@ menu
 calls
 tab_interactions
 .
-close_tabstrip
+close_tabmenu
 "
 )
 ;
@@ -1194,9 +1194,9 @@ await
 assertMetricFoundFor
 (
 "
-close_tabstrip
+close_tabmenu
 "
-2
+1
 )
 ;
 info
@@ -1537,7 +1537,7 @@ await
 assertMetricEmpty
 (
 "
-close_tab_other
+close_tabmenu
 "
 )
 ;
@@ -1563,7 +1563,7 @@ command
 calls
 tab_interactions
 .
-close_tab_other
+close_tabmenu
 "
 )
 ;
@@ -1585,7 +1585,7 @@ await
 assertMetricFoundFor
 (
 "
-close_tab_other
+close_tabmenu
 "
 )
 ;
@@ -1612,7 +1612,7 @@ command
 calls
 tab_interactions
 .
-close_tab_other
+close_tabmenu
 "
 )
 ;
@@ -1657,7 +1657,7 @@ await
 assertMetricFoundFor
 (
 "
-close_tab_other
+close_tabmenu
 "
 2
 )
@@ -1685,7 +1685,7 @@ command
 calls
 tab_interactions
 .
-close_tab_other
+close_tabmenu
 "
 )
 ;
@@ -1721,7 +1721,7 @@ await
 assertMetricFoundFor
 (
 "
-close_tab_other
+close_tabmenu
 "
 3
 )
@@ -1748,7 +1748,7 @@ command
 calls
 tab_interactions
 .
-close_tab_other
+close_tabmenu
 "
 )
 ;
@@ -1805,7 +1805,7 @@ await
 assertMetricFoundFor
 (
 "
-close_tab_other
+close_tabmenu
 "
 4
 )

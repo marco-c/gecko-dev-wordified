@@ -4528,7 +4528,7 @@ TabMetrics
 .
 METRIC_SOURCE
 .
-TAB_STRIP
+TAB_MENU
 )
 }
 )
@@ -4561,7 +4561,7 @@ TabMetrics
 .
 METRIC_SOURCE
 .
-TAB_STRIP
+TAB_MENU
 )
 }
 )
@@ -5211,7 +5211,7 @@ TabMetrics
 .
 METRIC_SOURCE
 .
-TAB_STRIP
+TAB_MENU
 )
 }
 )
