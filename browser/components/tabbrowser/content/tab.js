@@ -4741,6 +4741,12 @@ unmute
 method
 browser
 .
+browsingContext
+?
+.
+mediaController
+?
+.
 unmute
 (
 )
@@ -4778,6 +4784,12 @@ its
 mute
 method
 browser
+.
+browsingContext
+?
+.
+mediaController
+?
 .
 mute
 (
