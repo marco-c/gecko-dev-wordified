@@ -99,10 +99,6 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
-const
-nsACString
-&
-aRemoteType
 )
 ;
 bool
