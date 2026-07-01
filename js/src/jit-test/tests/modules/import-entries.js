@@ -331,7 +331,11 @@ js
 }
 importName
 :
-null
+'
+*
+namespace
+*
+'
 localName
 :
 '
