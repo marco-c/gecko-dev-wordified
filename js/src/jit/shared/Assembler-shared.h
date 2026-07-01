@@ -3379,10 +3379,6 @@ Describes
 a
 single
 wasm
-or
-asm
-.
-js
 memory
 access
 for

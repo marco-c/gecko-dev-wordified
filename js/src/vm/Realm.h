@@ -4417,7 +4417,7 @@ is
 disabled
 .
 See
-debuggerObservesAsmJS
+debuggerObservesWasm
 below
 .
 /

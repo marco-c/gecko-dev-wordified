@@ -5767,13 +5767,6 @@ setFunbox
 funbox
 )
 ;
-funbox
--
->
-functionNode
-=
-funNode
-;
 }
 void
 addFunctionFormalParameter

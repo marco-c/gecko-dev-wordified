@@ -46408,11 +46408,6 @@ Scalar
 :
 Int32
 ;
-/
-/
-see
-AsmJSStoreHeap
-;
 Register
 val
 =

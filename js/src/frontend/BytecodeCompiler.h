@@ -401,10 +401,6 @@ we
 '
 re
 in
-asm
-.
-js
-or
 "
 use
 strict

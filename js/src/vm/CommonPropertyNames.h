@@ -4398,15 +4398,6 @@ usage
 \
 MACRO_
 (
-use_asm_
-"
-use
-asm
-"
-)
-\
-MACRO_
-(
 use_strict_
 "
 use
