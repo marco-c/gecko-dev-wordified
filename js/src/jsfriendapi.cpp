@@ -1016,7 +1016,7 @@ return
 realm
 -
 >
-debuggerObservesAsmJS
+debuggerObservesWasm
 (
 )
 ;

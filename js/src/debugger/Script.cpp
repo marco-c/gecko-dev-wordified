@@ -3342,14 +3342,6 @@ HandleObject
 array
 )
 {
-/
-/
-Ignore
-asm
-.
-js
-natives
-.
 if
 (
 !
