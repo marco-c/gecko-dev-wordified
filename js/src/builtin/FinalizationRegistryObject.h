@@ -2011,17 +2011,6 @@ record
 ;
 static
 void
-preserveDOMWrapper
-(
-JSContext
-*
-cx
-HandleObject
-obj
-)
-;
-static
-void
 trace
 (
 JSTracer

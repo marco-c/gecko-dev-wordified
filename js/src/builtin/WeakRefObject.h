@@ -212,17 +212,6 @@ obj
 )
 ;
 static
-void
-preserveDOMWrapper
-(
-JSContext
-*
-cx
-HandleObject
-obj
-)
-;
-static
 bool
 deref
 (
