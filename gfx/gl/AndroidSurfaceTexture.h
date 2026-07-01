@@ -100,12 +100,6 @@ public
 :
 static
 void
-Init
-(
-)
-;
-static
-void
 GetTransformMatrix
 (
 const
