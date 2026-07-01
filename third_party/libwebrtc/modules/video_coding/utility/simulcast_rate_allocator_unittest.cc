@@ -261,6 +261,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 create_test_field_trials
 .
 h
@@ -732,7 +741,7 @@ CreateAllocator
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )

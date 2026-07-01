@@ -200,17 +200,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 field_trials
 .
 h
@@ -5131,7 +5120,7 @@ AudioEncoderOpus
 :
 MakeAudioEncoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 std
@@ -5878,7 +5867,7 @@ AudioEncoderOpus
 :
 MakeAudioEncoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 std

@@ -555,6 +555,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 function_audio_decoder_factory
 .
 h
@@ -2089,7 +2098,7 @@ DefaultNetEqFactory
 .
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 config
@@ -2433,7 +2442,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -11646,7 +11655,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;

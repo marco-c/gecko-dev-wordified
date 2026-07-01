@@ -173,17 +173,6 @@ h
 #
 include
 "
-api
-/
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
 modules
 /
 audio_processing
@@ -350,6 +339,15 @@ rtc_base
 strings
 /
 string_builder
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -1709,7 +1707,7 @@ EXPECT_DEATH
 (
 Subtractor
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -1753,7 +1751,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1880,7 +1878,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1968,7 +1966,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -2044,7 +2042,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -2307,7 +2305,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -2534,7 +2532,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;

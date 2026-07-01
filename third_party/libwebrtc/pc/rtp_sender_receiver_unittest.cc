@@ -211,17 +211,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 make_ref_counted
 .
 h
@@ -633,6 +622,15 @@ include
 rtc_base
 /
 unique_id_generator
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -1575,7 +1573,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -1687,7 +1685,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -2011,7 +2009,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -2144,7 +2142,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -3630,7 +3628,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -4212,7 +4210,7 @@ const
 Environment
 env_
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -6408,7 +6406,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -6540,7 +6538,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -6778,7 +6776,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -7038,7 +7036,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -8128,7 +8126,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -8371,7 +8369,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -8739,7 +8737,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -9072,7 +9070,7 @@ run_loop
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -9508,7 +9506,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -12398,7 +12396,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -13873,7 +13871,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -14498,7 +14496,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -14602,7 +14600,7 @@ VideoRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -14723,7 +14721,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_
@@ -14864,7 +14862,7 @@ AudioRtpSender
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 signaling_thread_

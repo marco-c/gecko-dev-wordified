@@ -195,17 +195,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 make_ref_counted
 .
 h
@@ -281,6 +270,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -329,7 +327,7 @@ MockInitialize
 :
 AudioProcessingImpl
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -1624,7 +1622,7 @@ BuiltinAudioProcessingBuilder
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -1870,7 +1868,7 @@ BuiltinAudioProcessingBuilder
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -2116,7 +2114,7 @@ BuiltinAudioProcessingBuilder
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -2415,7 +2413,7 @@ echo_control_factory
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -3078,7 +3076,7 @@ echo_control_factory
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -3421,7 +3419,7 @@ echo_control_factory
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -3765,7 +3763,7 @@ echo_control_factory
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -4199,7 +4197,7 @@ echo_control_factory
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -4709,7 +4707,7 @@ test_render_pre_processor
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5122,7 +5120,7 @@ config
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5244,7 +5242,7 @@ config
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5597,7 +5595,7 @@ GetConfig
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5667,7 +5665,7 @@ GetConfig
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5792,7 +5790,7 @@ GetConfig
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5891,7 +5889,7 @@ GetConfig
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -5967,7 +5965,7 @@ GetConfig
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -6241,7 +6239,7 @@ false
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -6414,7 +6412,7 @@ false
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -6604,7 +6602,7 @@ true
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -6707,7 +6705,7 @@ GetParam
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
@@ -6846,7 +6844,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -7478,7 +7476,7 @@ BuiltinAudioProcessingBuilder
 .
 Build
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )

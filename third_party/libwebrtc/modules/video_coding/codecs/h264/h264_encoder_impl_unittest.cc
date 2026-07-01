@@ -116,17 +116,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 make_ref_counted
 .
 h
@@ -266,6 +255,15 @@ video_coding
 include
 /
 video_error_codes
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -444,7 +442,7 @@ CanInitializeWithDefaultParameters
 H264EncoderImpl
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -496,7 +494,7 @@ CanInitializeWithNonInterleavedModeExplicitly
 H264EncoderImpl
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -555,7 +553,7 @@ CanInitializeWithSingleNalUnitModeExplicitly
 H264EncoderImpl
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -614,7 +612,7 @@ OnFrameDropped
 H264EncoderImpl
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -932,7 +930,7 @@ RejectsI420FramesWithUnequalChromaStrides
 H264EncoderImpl
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {
@@ -1105,7 +1103,7 @@ RejectsNativeFramesWithUnequalChromaStrides
 H264EncoderImpl
 encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 {

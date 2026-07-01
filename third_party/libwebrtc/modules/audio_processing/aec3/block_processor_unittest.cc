@@ -153,17 +153,6 @@ h
 #
 include
 "
-api
-/
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
 modules
 /
 audio_processing
@@ -323,6 +312,15 @@ rtc_base
 strings
 /
 string_builder
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -989,7 +987,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1806,7 +1804,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1847,7 +1845,7 @@ TestLongerCall
 {
 RunBasicSetupAndApiCallTest
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 16000
@@ -1910,7 +1908,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1952,7 +1950,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -2016,7 +2014,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -2073,7 +2071,7 @@ BlockProcessor
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -2157,7 +2155,7 @@ BlockProcessor
 :
 Create
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config

@@ -197,17 +197,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 field_trials
 .
 h
@@ -318,6 +307,15 @@ rtc_base
 strings
 /
 string_builder
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -1690,7 +1688,7 @@ RunCaptureTransportVerificationTest
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -1868,7 +1866,7 @@ RunRenderTransportVerificationTest
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -2411,7 +2409,7 @@ break
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -2897,7 +2895,7 @@ break
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -3476,7 +3474,7 @@ break
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -3749,7 +3747,7 @@ config
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 config
@@ -4070,7 +4068,7 @@ RunRenderPipelineSwapQueueOverrunReturnValueTest
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -4281,7 +4279,7 @@ sample_rate_hz_
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -4430,7 +4428,7 @@ sample_rate_hz_
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -6608,7 +6606,7 @@ kNumBlocksForSurroundConfig
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 mono_config
@@ -6894,7 +6892,7 @@ kNumBlocksForSurroundConfig
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 mono_config
@@ -7176,7 +7174,7 @@ kNumBlocksForSurroundConfig
 EchoCanceller3
 aec3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 mono_config
@@ -7464,7 +7462,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -7922,7 +7920,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -8135,7 +8133,7 @@ EXPECT_DEATH
 (
 EchoCanceller3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config
@@ -8229,7 +8227,7 @@ EXPECT_DEATH
 (
 EchoCanceller3
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 EchoCanceller3Config

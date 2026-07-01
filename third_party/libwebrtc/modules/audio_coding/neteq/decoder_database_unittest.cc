@@ -162,17 +162,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 make_ref_counted
 .
 h
@@ -202,6 +191,15 @@ audio_coding
 neteq
 /
 packet
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -261,7 +259,7 @@ CreateAndDestroy
 DecoderDatabase
 db
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 make_ref_counted
@@ -301,7 +299,7 @@ InsertAndRemove
 DecoderDatabase
 db
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 make_ref_counted
@@ -419,7 +417,7 @@ InsertAndRemoveAll
 DecoderDatabase
 db
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 make_ref_counted
@@ -627,7 +625,7 @@ decoder
 DecoderDatabase
 db
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 std
@@ -778,7 +776,7 @@ GetDecoder
 DecoderDatabase
 db
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 CreateBuiltinAudioDecoderFactory
@@ -843,7 +841,7 @@ TypeTests
 DecoderDatabase
 db
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 make_ref_counted
@@ -1100,7 +1098,7 @@ kNumPayloads
 DecoderDatabase
 db
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 make_ref_counted
@@ -1424,7 +1422,7 @@ ActiveDecoders
 DecoderDatabase
 db
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 CreateBuiltinAudioDecoderFactory

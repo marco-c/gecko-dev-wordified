@@ -477,6 +477,15 @@ include
 "
 test
 /
+create_test_environment
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -1155,7 +1164,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1865,7 +1874,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -2120,7 +2129,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -2701,7 +2710,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -3311,7 +3320,7 @@ encoder
 =
 CreateLibaomAv1Encoder
 (
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 )
