@@ -5,7 +5,7 @@ Copyright
 (
 c
 )
-2026
+2017
 Alliance
 for
 Open
@@ -357,10 +357,6 @@ CONFIG_SIZE_LIMIT
 define
 CONFIG_SPEED_STATS
 0
-#
-define
-CONFIG_SVT_AV1
-1
 #
 define
 CONFIG_TFLITE

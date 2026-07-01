@@ -2395,11 +2395,7 @@ txfm_search_done
 ;
 store_winner_mode_stats
 (
-&
 cpi
--
->
-common
 x
 mbmi
 NULL
@@ -4838,6 +4834,10 @@ use_hadamard
 *
 /
 0
+cpi
+-
+>
+do_border_pad
 )
 ;
 }
@@ -9829,7 +9829,7 @@ mode_cost
 mode_costs
 -
 >
-skip_mode_cost
+skip_txfm_cost
 [
 skip_ctx
 ]
@@ -10027,6 +10027,10 @@ use_hadamard
 *
 /
 1
+cpi
+-
+>
+do_border_pad
 )
 ;
 const
@@ -12183,6 +12187,10 @@ use_hadamard
 *
 /
 1
+cpi
+-
+>
+do_border_pad
 )
 ;
 const
@@ -12495,11 +12503,7 @@ txfm_search_done
 ;
 store_winner_mode_stats
 (
-&
 cpi
--
->
-common
 x
 mbmi
 NULL
