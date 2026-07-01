@@ -231,6 +231,9 @@ find
 includes
 "
 "
+join
+"
+"
 constructor
 "
 Symbol
