@@ -7480,13 +7480,6 @@ CrashReporter
 OOPInit
 (
 greBinDir
-/
-*
-force
-=
-*
-/
-true
 )
 ;
 if
@@ -7527,12 +7520,6 @@ CrashReporter
 SetExceptionHandler
 (
 greBinDir
-/
-*
-force
-=
-*
-/
 true
 )
 ;
