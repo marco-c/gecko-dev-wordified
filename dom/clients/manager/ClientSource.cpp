@@ -170,6 +170,17 @@ mozilla
 /
 dom
 /
+ContentChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMMozPromiseRequestHolder
 .
 h
@@ -1276,6 +1287,9 @@ ClientIsValidPrincipalInfo
 mClientInfo
 .
 PrincipalInfo
+(
+)
+CurrentRemoteType
 (
 )
 )

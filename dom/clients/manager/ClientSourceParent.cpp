@@ -1041,6 +1041,16 @@ mClientInfo
 PrincipalInfo
 (
 )
+mContentParentHandle
+?
+mContentParentHandle
+-
+>
+GetRemoteType
+(
+)
+:
+NOT_REMOTE_TYPE
 )
 )
 )
