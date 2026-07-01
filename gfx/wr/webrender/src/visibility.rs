@@ -462,7 +462,6 @@ data_stores
 &
 '
 a
-mut
 DataStores
 pub
 clip_tree
