@@ -61,12 +61,12 @@ api
 :
 :
 {
-ClipMode
-ColorF
 units
 :
 :
 *
+ClipMode
+ColorF
 }
 ;
 use
@@ -122,9 +122,9 @@ render_task
 :
 :
 {
-ImageClipSubTask
-RectangleClipSubTask
 SubTask
+RectangleClipSubTask
+ImageClipSubTask
 }
 ;
 use
@@ -2467,7 +2467,7 @@ scratch
 }
 pub
 fn
-prepare_border_nine_patch
+prepare_border_image_nine_patch
 (
 nine_patch
 :
@@ -3360,19 +3360,6 @@ else
 transfomed_aa_edges
 }
 ;
-let
-local_clip_rect
-=
-local_clip_rect
-.
-intersection_unchecked
-(
-&
-clip_chain
-.
-local_clip_rect
-)
-;
 /
 /
 We
@@ -3474,7 +3461,6 @@ quad
 create_quad_primitive
 (
 local_rect
-&
 local_clip_rect
 &
 DeviceRect
@@ -3848,7 +3834,6 @@ local_rect
 .
 intersection_unchecked
 (
-&
 local_clip_rect
 )
 ;
@@ -3920,7 +3905,6 @@ raster_spatial_node_index
 (
 )
 local_rect
-&
 local_clip_rect
 &
 clipped_surface_rect
@@ -3991,7 +3975,6 @@ prepare_tiles
 (
 prim_instance_index
 local_rect
-&
 local_clip_rect
 &
 clipped_surface_rect
@@ -4025,7 +4008,6 @@ prepare_nine_patch
 (
 prim_instance_index
 local_rect
-&
 local_clip_rect
 &
 clipped_surface_rect
