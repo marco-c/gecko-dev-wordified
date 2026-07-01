@@ -304,6 +304,9 @@ description
 test
 description
 "
+expectNoTabDetails
+:
+true
 }
 )
 ;
