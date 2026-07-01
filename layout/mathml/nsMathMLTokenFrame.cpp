@@ -96,6 +96,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf16
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -555,7 +564,10 @@ length
 2
 &
 &
-NS_IS_HIGH_SURROGATE
+mozilla
+:
+:
+IsHighSurrogate
 (
 data
 [

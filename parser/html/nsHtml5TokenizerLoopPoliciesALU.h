@@ -62,6 +62,15 @@ nsHtml5TokenizerLoopPoliciesALU_h
 #
 define
 nsHtml5TokenizerLoopPoliciesALU_h
+#
+include
+"
+mozilla
+/
+Utf16
+.
+h
+"
 /
 *
 *
@@ -759,7 +768,10 @@ if
 MOZ_LIKELY
 (
 !
-NS_IS_LOW_SURROGATE
+mozilla
+:
+:
+IsLowSurrogate
 (
 c
 )

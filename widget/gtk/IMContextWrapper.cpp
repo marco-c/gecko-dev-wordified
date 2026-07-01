@@ -215,6 +215,15 @@ WritingModes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Utf16
+.
+h
+"
 /
 /
 For
@@ -16177,7 +16186,10 @@ Length
 {
 if
 (
-NS_IS_SURROGATE_PAIR
+mozilla
+:
+:
+IsSurrogatePair
 (
 im
 [

@@ -82,6 +82,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf16
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -1760,7 +1769,10 @@ rootName
 .
 SetLength
 (
-NS_IS_LOW_SURROGATE
+mozilla
+:
+:
+IsLowSurrogate
 (
 rootName
 [

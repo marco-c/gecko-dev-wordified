@@ -81,6 +81,15 @@ h
 for
 IgnoreModifierState
 ShortcutKeyCandidate
+#
+include
+"
+mozilla
+/
+Utf16
+.
+h
+"
 namespace
 mozilla
 {
@@ -497,7 +506,10 @@ compare
 correctly
 if
 (
-IS_IN_BMP
+mozilla
+:
+:
+IsInBMP
 (
 charCode
 )

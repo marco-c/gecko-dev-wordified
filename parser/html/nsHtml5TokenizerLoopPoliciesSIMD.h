@@ -82,6 +82,15 @@ htmlaccelNotInline
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Utf16
+.
+h
+"
 /
 *
 *
@@ -3248,7 +3257,10 @@ if
 MOZ_LIKELY
 (
 !
-NS_IS_LOW_SURROGATE
+mozilla
+:
+:
+IsLowSurrogate
 (
 c
 )

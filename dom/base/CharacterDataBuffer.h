@@ -149,7 +149,9 @@ h
 #
 include
 "
-nsCharTraits
+mozilla
+/
+Utf16
 .
 h
 "
@@ -944,9 +946,6 @@ aUpdateBidi
 {
 if
 (
-mozilla
-:
-:
 StringBuffer
 *
 buffer
@@ -1140,9 +1139,6 @@ if
 AppendTo
 (
 aString
-mozilla
-:
-:
 fallible
 )
 )
@@ -1204,9 +1200,6 @@ nsAString
 &
 aString
 const
-mozilla
-:
-:
 fallible_t
 &
 aFallible
@@ -1333,9 +1326,6 @@ AppendTo
 aString
 aOffset
 aLength
-mozilla
-:
-:
 fallible
 )
 )
@@ -1432,9 +1422,6 @@ aOffset
 uint32_t
 aLength
 const
-mozilla
-:
-:
 fallible_t
 &
 aFallible
@@ -1913,7 +1900,7 @@ false
 ;
 }
 return
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 Get2b
 (
@@ -1992,7 +1979,7 @@ false
 ;
 }
 return
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 Get2b
 (
@@ -2122,7 +2109,7 @@ aIndex
 if
 (
 !
-IS_SURROGATE
+IsSurrogate
 (
 ch
 )
@@ -2143,7 +2130,7 @@ mState
 mLength
 &
 &
-NS_IS_HIGH_SURROGATE
+IsHighSurrogate
 (
 ch
 )
@@ -2163,14 +2150,14 @@ aIndex
 ;
 if
 (
-NS_IS_LOW_SURROGATE
+IsLowSurrogate
 (
 nextCh
 )
 )
 {
 return
-SURROGATE_TO_UCS4
+SurrogateToUCS4
 (
 ch
 nextCh
@@ -2299,9 +2286,6 @@ mLength
 size_t
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -2952,9 +2936,6 @@ FormFeedIsSignificant
 using
 WhitespaceOptions
 =
-mozilla
-:
-:
 EnumSet
 <
 WhitespaceOption
@@ -3985,9 +3966,6 @@ aLength
 ;
 union
 {
-mozilla
-:
-:
 StringBuffer
 *
 m2b

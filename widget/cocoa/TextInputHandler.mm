@@ -185,6 +185,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf16
+.
+h
+"
+#
+include
+"
 nsCocoaWindow
 .
 h
@@ -297,9 +306,6 @@ logging
 usual
 behavior
 .
-mozilla
-:
-:
 LazyLogModule
 gIMELog
 (
@@ -363,9 +369,6 @@ logging
 usual
 behavior
 .
-mozilla
-:
-:
 LazyLogModule
 gKeyLog
 (
@@ -21154,7 +21157,7 @@ Length
 {
 if
 (
-NS_IS_SURROGATE_PAIR
+IsSurrogatePair
 (
 key
 [
@@ -33390,7 +33393,7 @@ IsEmpty
 )
 &
 &
-NS_IS_LOW_SURROGATE
+IsLowSurrogate
 (
 queryTextContentEvent
 .
