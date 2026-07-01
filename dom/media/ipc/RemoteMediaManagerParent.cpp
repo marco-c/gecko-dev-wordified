@@ -870,8 +870,6 @@ Endpoint
 <
 PRemoteMediaManagerParent
 >
-&
-&
 >
 (
 "

@@ -1327,10 +1327,7 @@ Dispatch
 NewRunnableMethod
 <
 PromiseId
-StoreCopyPassByRRef
-<
 CopyableErrorResult
->
 nsCString
 >
 (

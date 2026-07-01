@@ -4876,8 +4876,6 @@ nsTArray
 <
 OTSMessage
 >
-&
-&
 nsMainThreadPtrHandle
 <
 nsIFontLoadCompleteCallback

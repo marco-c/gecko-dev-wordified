@@ -1726,12 +1726,10 @@ Dispatch
 (
 NewRunnableMethod
 <
-const
 nsCOMPtr
 <
 nsIInputStreamCallback
 >
-&
 >
 (
 "
@@ -2141,12 +2139,10 @@ Dispatch
 (
 NewRunnableMethod
 <
-const
 nsCOMPtr
 <
 nsIOutputStreamCallback
 >
-&
 >
 (
 "

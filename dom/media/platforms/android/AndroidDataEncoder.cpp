@@ -2204,8 +2204,6 @@ Sample
 :
 :
 GlobalRef
-&
-&
 java
 :
 :

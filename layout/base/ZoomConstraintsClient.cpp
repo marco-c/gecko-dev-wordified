@@ -1221,12 +1221,9 @@ updated
 /
 value
 .
-RefPtr
+nsCOMPtr
 <
-nsRunnableMethod
-<
-ZoomConstraintsClient
->
+nsIRunnable
 >
 event
 =

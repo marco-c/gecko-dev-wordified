@@ -2435,8 +2435,6 @@ mozilla
 :
 PProfilerChild
 >
-&
-&
 >
 (
 "

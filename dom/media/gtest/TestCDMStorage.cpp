@@ -3181,8 +3181,6 @@ UniquePtr
 <
 NodeInfo
 >
-&
-&
 >
 (
 "
@@ -3280,8 +3278,6 @@ UniquePtr
 <
 NodeInfo
 >
-&
-&
 >
 (
 "
@@ -4296,8 +4292,6 @@ UniquePtr
 <
 BaseDomainNodeInfo
 >
-&
-&
 >
 (
 "
@@ -4391,8 +4385,6 @@ UniquePtr
 <
 BaseDomainNodeInfo
 >
-&
-&
 >
 (
 "

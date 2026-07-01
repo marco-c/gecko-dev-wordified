@@ -510,8 +510,6 @@ Endpoint
 <
 PVRManagerParent
 >
-&
-&
 >
 (
 "
@@ -763,8 +761,6 @@ Endpoint
 <
 PVRManagerParent
 >
-&
-&
 >
 (
 "

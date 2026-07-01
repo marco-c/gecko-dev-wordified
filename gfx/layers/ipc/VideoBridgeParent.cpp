@@ -384,8 +384,6 @@ Endpoint
 <
 PVideoBridgeParent
 >
-&
-&
 >
 (
 "

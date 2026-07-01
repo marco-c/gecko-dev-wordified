@@ -6559,8 +6559,6 @@ UniquePtr
 <
 GMPDecodeData
 >
-&
-&
 >
 (
 __func__

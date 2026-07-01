@@ -10172,10 +10172,7 @@ return
 NS_ERROR_OFFLINE
 ;
 }
-nsRunnableMethod
-<
-nsHttpChannel
->
+CancelableRunnable
 *
 event
 =
@@ -10256,7 +10253,7 @@ event
 event
 -
 >
-Revoke
+Cancel
 (
 )
 ;
@@ -84916,7 +84913,7 @@ void
 )
 NS_DispatchToMainThreadQueue
 (
-NewIdleRunnableMethod
+NewRunnableMethod
 (
 "
 nsHttpChannel

@@ -322,8 +322,6 @@ h
 /
 /
 For
-nsRunnableMethod
-and
 nsRevocableEventPtr
 #
 include

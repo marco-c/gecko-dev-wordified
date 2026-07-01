@@ -298,9 +298,7 @@ mozilla
 :
 NewRunnableMethod
 <
-const
-nsAString
-&
+nsString
 >
 (
 "

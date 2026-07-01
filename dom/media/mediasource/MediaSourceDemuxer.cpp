@@ -982,8 +982,6 @@ RefPtr
 <
 TrackBuffersManager
 >
-&
-&
 >
 (
 "

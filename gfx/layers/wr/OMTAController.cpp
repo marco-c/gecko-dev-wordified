@@ -164,8 +164,6 @@ Dispatch
 NewRunnableMethod
 <
 JankedAnimations
-&
-&
 >
 (
 "

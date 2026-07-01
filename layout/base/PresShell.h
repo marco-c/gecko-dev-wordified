@@ -19662,10 +19662,7 @@ Nothing
 ;
 nsRevocableEventPtr
 <
-nsRunnableMethod
-<
-PresShell
->
+CancelableRunnable
 >
 mUpdateApproximateFrameVisibilityEvent
 ;

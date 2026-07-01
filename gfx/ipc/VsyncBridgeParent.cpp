@@ -161,8 +161,6 @@ Endpoint
 <
 PVsyncBridgeParent
 >
-&
-&
 >
 (
 "

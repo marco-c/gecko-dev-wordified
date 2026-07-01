@@ -829,11 +829,12 @@ Reopen
 ;
 return
 InvokeAsync
-(
-static_cast
 <
-AbstractThread
-*
+already_AddRefed
+<
+MediaByteBuffer
+>
+SourceBufferAttributes
 >
 (
 GetTaskQueueSafe
@@ -842,7 +843,6 @@ GetTaskQueueSafe
 .
 get
 (
-)
 )
 this
 __func__
