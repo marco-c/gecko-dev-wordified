@@ -757,7 +757,7 @@ test
 .
 assertEq
 (
-32
+16
 img
 .
 naturalWidth
@@ -777,7 +777,7 @@ test
 .
 assertEq
 (
-32
+16
 img
 .
 naturalHeight
