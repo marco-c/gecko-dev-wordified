@@ -4931,7 +4931,7 @@ mSurface
 mSurface
 -
 >
-GetType
+GetUnderlyingType
 (
 )
 =

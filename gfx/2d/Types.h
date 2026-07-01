@@ -240,6 +240,16 @@ for
 recording
 *
 /
+CANVAS_RECORDING
+/
+*
+Surface
+used
+for
+canvas
+recording
+*
+/
 DATA_SHARED
 /
 *
