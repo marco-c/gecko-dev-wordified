@@ -5777,7 +5777,7 @@ true
 }
 /
 /
-UrlbarController
+UrlbarChildController
 listener
 method
 onViewOpen
@@ -5802,7 +5802,7 @@ true
 }
 /
 /
-UrlbarController
+UrlbarChildController
 listener
 method
 onViewClose

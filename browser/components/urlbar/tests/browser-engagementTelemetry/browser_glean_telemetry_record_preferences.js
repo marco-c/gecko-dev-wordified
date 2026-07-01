@@ -78,7 +78,7 @@ TelemetryEvent
 of
 /
 /
-UrlbarController
+UrlbarParentController
 .
 const
 win
@@ -144,7 +144,7 @@ maxRichResults
 Record
 prefMaxResults
 when
-UrlbarController
+UrlbarParentController
 is
 initialized
 "
@@ -337,7 +337,7 @@ Record
 green
 }
 when
-UrlbarController
+UrlbarParentController
 is
 initialized
 )

@@ -35,7 +35,7 @@ These
 tests
 test
 the
-UrlbarController
+UrlbarParentController
 in
 association
 with

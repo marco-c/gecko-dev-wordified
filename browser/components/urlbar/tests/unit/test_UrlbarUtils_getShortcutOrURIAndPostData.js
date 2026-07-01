@@ -38,7 +38,7 @@ test
 the
 functionality
 of
-UrlbarController
+UrlbarParentController
 by
 stubbing
 out

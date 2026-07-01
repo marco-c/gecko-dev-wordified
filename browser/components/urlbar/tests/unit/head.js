@@ -6542,7 +6542,7 @@ results
 returned
 by
 a
-UrlbarController
+UrlbarParentController
 match
 those
 in
