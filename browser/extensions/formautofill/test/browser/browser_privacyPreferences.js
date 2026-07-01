@@ -1747,7 +1747,12 @@ is
 (
 FormAutofill
 .
-isAutofillAddressesAvailable
+isAutofillTypeAvailable
+(
+"
+address
+"
+)
 false
 "
 Address

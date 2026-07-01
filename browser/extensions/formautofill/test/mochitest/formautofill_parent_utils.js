@@ -700,7 +700,12 @@ if
 !
 FormAutofill
 .
-isAutofillCreditCardsAvailable
+isAutofillTypeAvailable
+(
+"
+creditCard
+"
+)
 )
 {
 return
