@@ -161,8 +161,6 @@ public
 nsPKCS12Blob
 (
 )
-=
-default
 ;
 ~
 nsPKCS12Blob
@@ -225,6 +223,12 @@ error
 ;
 private
 :
+nsCOMPtr
+<
+nsIInterfaceRequestor
+>
+mUIContext
+;
 /
 /
 local

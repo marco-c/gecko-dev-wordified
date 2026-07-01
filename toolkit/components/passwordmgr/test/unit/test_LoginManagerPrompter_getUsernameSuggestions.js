@@ -1035,7 +1035,6 @@ be
 enabled
 and
 locked
-await
 LoginTestUtils
 .
 primaryPassword
@@ -1092,7 +1091,6 @@ testCase
 isLoggedIn
 )
 {
-await
 LoginTestUtils
 .
 primaryPassword

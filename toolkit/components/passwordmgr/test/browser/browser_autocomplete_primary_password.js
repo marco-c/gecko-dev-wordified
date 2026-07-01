@@ -276,7 +276,6 @@ addLoginAsync
 login
 )
 ;
-await
 LoginTestUtils
 .
 primaryPassword
@@ -292,7 +291,6 @@ function
 (
 )
 {
-await
 LoginTestUtils
 .
 primaryPassword

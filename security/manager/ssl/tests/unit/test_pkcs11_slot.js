@@ -581,7 +581,6 @@ token
 "
 )
 ;
-await
 testToken
 .
 login

@@ -1380,7 +1380,6 @@ Ci
 nsIPKCS11Token
 )
 ;
-await
 token
 .
 changePassword
@@ -1392,7 +1391,6 @@ password
 "
 )
 ;
-await
 token
 .
 logout
@@ -1453,6 +1451,12 @@ returning
 empty
 strings
 "
+)
+;
+token
+.
+reset
+(
 )
 ;
 }

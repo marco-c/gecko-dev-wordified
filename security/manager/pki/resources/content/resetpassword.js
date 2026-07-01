@@ -75,16 +75,9 @@ async
 function
 resetPassword
 (
-event
 )
 {
-event
-.
-preventDefault
-(
-)
-;
-let
+var
 token
 =
 Cc
@@ -109,7 +102,6 @@ Ci
 nsIPKCS11Token
 )
 ;
-await
 token
 .
 reset
@@ -201,10 +193,4 @@ message
 )
 ;
 }
-window
-.
-close
-(
-)
-;
 }

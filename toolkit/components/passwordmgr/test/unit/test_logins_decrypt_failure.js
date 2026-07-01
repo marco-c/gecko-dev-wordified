@@ -83,7 +83,6 @@ known
 .
 *
 /
-async
 function
 resetPrimaryPassword
 (
@@ -114,7 +113,6 @@ Ci
 nsIPKCS11Token
 )
 ;
-await
 token
 .
 reset
@@ -182,7 +180,6 @@ non
 -
 decryptable
 .
-await
 resetPrimaryPassword
 (
 )
@@ -993,7 +990,6 @@ non
 -
 decryptable
 .
-await
 resetPrimaryPassword
 (
 )
@@ -1200,7 +1196,6 @@ non
 -
 decryptable
 .
-await
 resetPrimaryPassword
 (
 )

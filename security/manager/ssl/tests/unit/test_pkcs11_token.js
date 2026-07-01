@@ -311,9 +311,6 @@ match
 )
 ;
 }
-add_task
-(
-async
 function
 run_test
 (
@@ -422,7 +419,6 @@ in
 an
 error
 .
-await
 token
 .
 logout
@@ -505,7 +501,6 @@ _
 ?
 "
 ;
-await
 token
 .
 changePassword
@@ -515,7 +510,6 @@ changePassword
 initialPW
 )
 ;
-await
 token
 .
 login
@@ -537,7 +531,6 @@ into
 "
 )
 ;
-await
 token
 .
 logout
@@ -585,5 +578,3 @@ password
 )
 ;
 }
-)
-;

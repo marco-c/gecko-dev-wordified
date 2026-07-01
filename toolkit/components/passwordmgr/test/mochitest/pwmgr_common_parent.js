@@ -1439,7 +1439,6 @@ addMessageListener
 "
 setPrimaryPassword
 "
-async
 (
 {
 enable
@@ -1453,7 +1452,6 @@ if
 enable
 )
 {
-await
 LoginTestUtils
 .
 primaryPassword
@@ -1465,7 +1463,6 @@ enable
 }
 else
 {
-await
 LoginTestUtils
 .
 primaryPassword

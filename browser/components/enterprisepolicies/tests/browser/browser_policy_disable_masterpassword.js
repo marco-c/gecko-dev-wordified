@@ -522,7 +522,6 @@ true
 }
 )
 ;
-await
 mpToken
 .
 changePassword
@@ -591,7 +590,6 @@ true
 /
 Clean
 up
-await
 mpToken
 .
 changePassword

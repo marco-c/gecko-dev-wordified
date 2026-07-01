@@ -239,7 +239,6 @@ true
 }
 )
 ;
-await
 LoginTestUtils
 .
 primaryPassword
@@ -344,7 +343,6 @@ disabled
 }
 )
 ;
-await
 LoginTestUtils
 .
 primaryPassword
@@ -392,7 +390,6 @@ true
 }
 )
 ;
-await
 LoginTestUtils
 .
 primaryPassword
@@ -537,7 +534,6 @@ closeWindow
 changeMPWindow
 )
 ;
-await
 LoginTestUtils
 .
 primaryPassword
