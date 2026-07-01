@@ -227,7 +227,7 @@ sys
 .
 mjs
 "
-UrlbarController
+UrlbarParentController
 :
 "
 moz
@@ -243,7 +243,7 @@ components
 /
 urlbar
 /
-UrlbarController
+UrlbarParentController
 .
 sys
 .
@@ -1118,7 +1118,7 @@ controller
 *
 param
 {
-UrlbarController
+UrlbarParentController
 }
 controller
 The

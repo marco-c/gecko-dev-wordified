@@ -278,7 +278,7 @@ throws
 =
 >
 new
-UrlbarController
+UrlbarParentController
 (
 )
 /
@@ -307,7 +307,7 @@ throws
 =
 >
 new
-UrlbarController
+UrlbarParentController
 (
 {
 input
@@ -347,7 +347,7 @@ throws
 =
 >
 new
-UrlbarController
+UrlbarParentController
 (
 {
 input
@@ -395,7 +395,7 @@ throws
 =
 >
 new
-UrlbarController
+UrlbarParentController
 (
 {
 input
@@ -450,7 +450,7 @@ throws
 =
 >
 new
-UrlbarController
+UrlbarParentController
 (
 {
 input
@@ -511,7 +511,7 @@ throws
 =
 >
 new
-UrlbarController
+UrlbarParentController
 (
 {
 input
@@ -563,7 +563,7 @@ throws
 =
 >
 new
-UrlbarController
+UrlbarParentController
 (
 {
 input
@@ -614,7 +614,7 @@ set
 )
 ;
 new
-UrlbarController
+UrlbarParentController
 (
 {
 input
