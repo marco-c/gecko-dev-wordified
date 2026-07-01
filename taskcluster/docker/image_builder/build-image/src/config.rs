@@ -332,6 +332,13 @@ Option
 <
 String
 >
+pub
+target_arch
+:
+Option
+<
+String
+>
 }
 impl
 Config
@@ -545,6 +552,9 @@ default
 (
 )
 chown_output
+:
+None
+target_arch
 :
 None
 }
@@ -780,6 +790,9 @@ collect
 chown_output
 :
 None
+target_arch
+:
+None
 }
 )
 ;
@@ -989,6 +1002,9 @@ into
 (
 )
 )
+target_arch
+:
+None
 }
 )
 ;
