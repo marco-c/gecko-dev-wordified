@@ -1360,6 +1360,8 @@ public
 :
 enum
 FPRegisterID
+:
+uint8_t
 {
 f0
 =
@@ -2979,6 +2981,8 @@ set
 .
 Encoding
 encoding_
+:
+5
 ;
 /
 /
@@ -2986,6 +2990,8 @@ encoding_
 encodings
 Kind
 kind_
+:
+2
 ;
 /
 /
@@ -2996,6 +3002,8 @@ more
 later
 bool
 invalid_
+:
+1
 ;
 public
 :
