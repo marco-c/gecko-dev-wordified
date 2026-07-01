@@ -14844,8 +14844,6 @@ nsIFrame
 :
 GetFontMetricsDerivedCaretBaseline
 (
-nscoord
-aBSize
 )
 const
 {
@@ -14883,6 +14881,7 @@ GetWritingMode
 (
 )
 ;
+const
 nscoord
 lineHeight
 =
@@ -14901,7 +14900,6 @@ PresContext
 GetContent
 (
 )
-aBSize
 inflation
 )
 ;

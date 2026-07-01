@@ -2423,7 +2423,6 @@ CalcLineHeight
 style
 context
 aElement
-NS_UNCONSTRAINEDSIZE
 1
 .
 0f

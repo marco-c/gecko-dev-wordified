@@ -9673,11 +9673,6 @@ Self
 :
 :
 Normal
-|
-Self
-:
-:
-MozBlockHeight
 )
 {
 return

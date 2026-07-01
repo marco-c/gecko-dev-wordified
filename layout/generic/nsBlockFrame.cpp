@@ -4440,10 +4440,6 @@ GetLogicalAscent
 return
 GetFontMetricsDerivedCaretBaseline
 (
-ContentBSize
-(
-wm
-)
 )
 ;
 }

@@ -2238,7 +2238,6 @@ aPc
 )
 aVertical
 aElement
-NS_UNCONSTRAINEDSIZE
 1
 .
 0f
