@@ -76,7 +76,6 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_no_user_session
 class
 TestAccessibility
 (
@@ -821,26 +820,6 @@ button
 click
 (
 )
-)
-    
-skip_if_no_user_session
-(
-        
-"
-Bug
-2047574
--
-accessibility
-API
-requires
-a
-real
-display
-/
-window
-manager
-"
-    
 )
     
 def
