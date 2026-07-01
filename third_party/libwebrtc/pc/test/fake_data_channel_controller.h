@@ -96,6 +96,11 @@ cstddef
 #
 include
 <
+optional
+>
+#
+include
+<
 set
 >
 #
@@ -469,6 +474,10 @@ label
 )
 transport_available_
 init
+std
+:
+:
+nullopt
 signaling_safety_
 .
 flag
