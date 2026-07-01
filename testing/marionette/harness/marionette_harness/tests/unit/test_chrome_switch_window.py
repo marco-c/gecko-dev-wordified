@@ -60,7 +60,7 @@ sys
 from
 marionette_harness
 import
-skip_if_no_user_session
+skip_if_macos_vm
 #
 add
 this
@@ -162,7 +162,7 @@ context
         
 pass
     
-skip_if_no_user_session
+skip_if_macos_vm
 (
         
 "
