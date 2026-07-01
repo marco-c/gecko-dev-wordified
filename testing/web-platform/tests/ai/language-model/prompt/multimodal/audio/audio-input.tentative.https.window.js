@@ -50,6 +50,9 @@ script
 .
 .
 /
+.
+.
+/
 resources
 /
 util
