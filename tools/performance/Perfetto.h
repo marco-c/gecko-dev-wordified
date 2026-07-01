@@ -2278,7 +2278,7 @@ hash
 mozilla
 :
 :
-HashStringKnownLength
+HashString
 (
 nameStr
 nameSv

@@ -391,7 +391,7 @@ hash
 mozilla
 :
 :
-HashString
+HashLatin1AsUTF16
 (
 chars
 length
@@ -494,7 +494,7 @@ hash
 mozilla
 :
 :
-HashString
+HashLatin1AsUTF16
 (
 chars
 length
@@ -571,7 +571,7 @@ MOZ_ASSERT
 mozilla
 :
 :
-HashString
+HashLatin1AsUTF16
 (
 latin1Chars
 length

@@ -1709,6 +1709,10 @@ HashString
 (
 )
 .
+See
+bug
+2048255
+.
 static
 constexpr
 HashNumber

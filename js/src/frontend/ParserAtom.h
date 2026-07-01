@@ -4617,7 +4617,7 @@ getLength1Content
 (
 Length1StaticParserString
 s
-Latin1Char
+char
 contents
 [
 1
