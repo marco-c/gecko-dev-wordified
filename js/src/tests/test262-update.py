@@ -351,6 +351,24 @@ Bug
 2003341
     
 "
+iterator
+-
+chunking
+"
+:
+"
+!
+Iterator
+.
+prototype
+.
+chunks
+"
+#
+Bug
+1997187
+    
+"
 immutable
 -
 arraybuffer
@@ -598,6 +616,22 @@ enable
 iterator
 -
 join
+"
+    
+"
+iterator
+-
+chunking
+"
+:
+"
+-
+-
+enable
+-
+iterator
+-
+chunking
 "
     
 "
