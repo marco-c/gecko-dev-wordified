@@ -4550,7 +4550,7 @@ MOZ_ASSERT
 aSurface
 -
 >
-GetType
+GetUnderlyingType
 (
 )
 =
