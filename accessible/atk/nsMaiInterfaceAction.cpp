@@ -482,7 +482,7 @@ any
 actions
 .
 return
-0
+nullptr
 ;
 }
 if
@@ -696,7 +696,7 @@ any
 actions
 .
 return
-0
+nullptr
 ;
 }
 if

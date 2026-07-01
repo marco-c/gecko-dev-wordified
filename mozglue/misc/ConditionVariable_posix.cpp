@@ -520,7 +520,7 @@ pthread_cond_init
 (
 &
 mCond
-NULL
+nullptr
 )
 ;
 MOZ_RELEASE_ASSERT

@@ -138,8 +138,6 @@ sFuncs
 static
 platform_handle_t
 sFd
-=
-0
 ;
 static
 bool
@@ -1268,10 +1266,8 @@ MALLOC_LOG
 .
 if
 (
+!
 sFd
-=
-=
-0
 )
 {
 return

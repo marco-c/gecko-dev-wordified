@@ -3254,8 +3254,8 @@ return
 ExtractFile
 (
 currItem
-0
-0
+nullptr
+nullptr
 )
 ;
 }
@@ -3321,8 +3321,8 @@ rv
 ExtractFile
 (
 currItem
-0
-0
+nullptr
+nullptr
 )
 ;
 if
@@ -3575,7 +3575,7 @@ BuildSynthetics
 NS_OK
 )
 return
-0
+nullptr
 ;
 }
 }
@@ -4250,7 +4250,7 @@ char
 *
 pattern
 =
-0
+nullptr
 ;
 /
 /
@@ -4535,7 +4535,7 @@ mLock
 *
 aResult
 =
-0
+nullptr
 ;
 *
 aNameLen
@@ -8376,7 +8376,7 @@ MOZ_ASSERT
 aName
 !
 =
-0
+nullptr
 )
 ;
 const

@@ -641,10 +641,10 @@ kSCPropNetProxiesSOCKSPort
 true
 }
 {
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
 false
 }
 }
@@ -686,11 +686,11 @@ nsOSXSystemProxySettings
 :
 mSystemDynamicStore
 (
-NULL
+nullptr
 )
 mProxyDict
 (
-NULL
+nullptr
 )
 {
 mContext
@@ -701,9 +701,9 @@ SCDynamicStoreContext
 {
 0
 this
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 }
 ;
 }
@@ -759,7 +759,7 @@ mSystemDynamicStore
 =
 SCDynamicStoreCreate
 (
-NULL
+nullptr
 CFSTR
 (
 "
@@ -797,7 +797,7 @@ proxiesKey
 =
 SCDynamicStoreKeyCreateProxies
 (
-NULL
+nullptr
 )
 ;
 if
@@ -813,7 +813,7 @@ keyArray
 =
 CFArrayCreate
 (
-NULL
+nullptr
 (
 const
 void
@@ -846,7 +846,7 @@ SCDynamicStoreSetNotificationKeys
 (
 mSystemDynamicStore
 keyArray
-NULL
+nullptr
 )
 ;
 CFRelease
@@ -869,7 +869,7 @@ storeRLSource
 =
 SCDynamicStoreCreateRunLoopSource
 (
-NULL
+nullptr
 mSystemDynamicStore
 0
 )
@@ -1087,7 +1087,7 @@ rls
 =
 SCDynamicStoreCreateRunLoopSource
 (
-NULL
+nullptr
 mSystemDynamicStore
 0
 )
@@ -1178,7 +1178,7 @@ NS_ENSURE_TRUE
 mProxyDict
 !
 =
-NULL
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -1197,7 +1197,7 @@ keys
 mScheme
 !
 =
-NULL
+nullptr
 ;
 +
 +
@@ -1271,7 +1271,7 @@ NS_ENSURE_TRUE
 enabled
 =
 =
-NULL
+nullptr
 |
 |
 [
@@ -1327,7 +1327,7 @@ if
 host
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -1451,7 +1451,7 @@ NS_ENSURE_TRUE
 value
 =
 =
-NULL
+nullptr
 |
 |
 [
@@ -1517,7 +1517,7 @@ if
 value
 !
 =
-NULL
+nullptr
 )
 {
 NS_ENSURE_TRUE
@@ -1577,7 +1577,7 @@ NS_ENSURE_TRUE
 mProxyDict
 !
 =
-NULL
+nullptr
 false
 )
 ;
@@ -1601,7 +1601,7 @@ NS_ENSURE_TRUE
 exceptionList
 =
 =
-NULL
+nullptr
 |
 |
 [
@@ -1629,7 +1629,7 @@ NSString
 *
 currentValue
 =
-NULL
+nullptr
 ;
 while
 (
@@ -1711,7 +1711,7 @@ NS_ENSURE_TRUE
 mProxyDict
 !
 =
-NULL
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -2263,7 +2263,7 @@ keys
 mScheme
 !
 =
-NULL
+nullptr
 ;
 +
 +
@@ -2302,7 +2302,7 @@ if
 enabled
 =
 =
-NULL
+nullptr
 |
 |
 [
@@ -2363,7 +2363,7 @@ if
 host
 =
 =
-NULL
+nullptr
 )
 break
 ;
@@ -2514,7 +2514,7 @@ if
 exceptionList
 !
 =
-NULL
+nullptr
 &
 &
 [
@@ -2541,7 +2541,7 @@ NSString
 *
 currentValue
 =
-NULL
+nullptr
 ;
 while
 (
@@ -2560,7 +2560,7 @@ if
 currentValue
 !
 =
-NULL
+nullptr
 &
 &
 [

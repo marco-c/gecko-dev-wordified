@@ -244,8 +244,8 @@ lookupCFString
 :
 CFStringCreateWithFormat
 (
-NULL
-NULL
+nullptr
+nullptr
 CFSTR
 (
 "
@@ -268,9 +268,9 @@ lookupCFURL
 :
 CFURLCreateWithString
 (
-NULL
+nullptr
 lookupCFString
-NULL
+nullptr
 )
 ;
 if
@@ -287,7 +287,7 @@ LSCopyDefaultApplicationURLForURL
 (
 lookupCFURL
 kLSRolesAll
-NULL
+nullptr
 )
 ;
 if
@@ -1096,7 +1096,7 @@ pathAsCFString
 :
 CFStringCreateWithCharacters
 (
-NULL
+nullptr
 reinterpret_cast
 <
 const
@@ -1503,7 +1503,7 @@ appURL
 )
 {
 return
-NULL
+nullptr
 ;
 }
 CFDictionaryRef
@@ -1530,7 +1530,7 @@ infoDict
 )
 {
 return
-NULL
+nullptr
 ;
 }
 CFTypeRef
@@ -1580,7 +1580,7 @@ infoDict
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 CFArrayRef
@@ -1620,7 +1620,7 @@ infoDict
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 CFMutableArrayRef
@@ -1871,7 +1871,7 @@ mimeTypes
 ;
 mimeTypes
 =
-NULL
+nullptr
 ;
 }
 return
@@ -1976,13 +1976,15 @@ get
 )
 ;
 RefPtr
+mimeInfoMac
+=
+mozilla
+:
+:
+MakeRefPtr
 <
 nsMIMEInfoMac
 >
-mimeInfoMac
-=
-new
-nsMIMEInfoMac
 (
 aMIMEType
 )
@@ -2027,7 +2029,7 @@ extAppFSRef
 CFStringRef
 cfMIMEType
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2054,7 +2056,7 @@ cfMIMEType
 :
 CFStringCreateWithCString
 (
-NULL
+nullptr
 flatType
 .
 get
@@ -2071,7 +2073,7 @@ cfMIMEType
 CFURLRef
 appURL
 =
-NULL
+nullptr
 ;
 err
 =
@@ -2165,7 +2167,7 @@ cfExt
 :
 CFStringCreateWithCString
 (
-NULL
+nullptr
 flatExt
 .
 get
@@ -2923,7 +2925,7 @@ MIMETypeForExtension
 extStr
 ]
 :
-NULL
+nullptr
 ;
 if
 (
@@ -3205,7 +3207,7 @@ app
 CFStringRef
 cfAppName
 =
-NULL
+nullptr
 ;
 :
 :
@@ -3405,7 +3407,7 @@ extensionsForMIMEType
 typeStr
 ]
 :
-NULL
+nullptr
 ;
 if
 (
@@ -3459,7 +3461,7 @@ cfType
 :
 CFStringCreateWithCString
 (
-NULL
+nullptr
 mimeType
 .
 get

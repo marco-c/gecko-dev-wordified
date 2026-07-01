@@ -1831,8 +1831,6 @@ defined
 XP_WIN
 )
 gMainThreadId
-=
-0
 ;
 /
 /

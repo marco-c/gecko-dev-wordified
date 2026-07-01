@@ -551,7 +551,7 @@ lightLMU
 &
 outputs
 nil
-0
+nullptr
 )
 ;
 if

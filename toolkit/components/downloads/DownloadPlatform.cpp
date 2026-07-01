@@ -419,7 +419,7 @@ urlStr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 CFURLRef
@@ -431,7 +431,7 @@ CFURLCreateWithString
 (
 kCFAllocatorDefault
 urlStr
-NULL
+nullptr
 )
 ;
 :
@@ -1102,7 +1102,7 @@ metadata
 CFStringRef
 pathCFStr
 =
-NULL
+nullptr
 ;
 if
 (

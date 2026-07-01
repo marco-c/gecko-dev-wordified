@@ -7448,7 +7448,7 @@ dir
 )
 !
 =
-0
+nullptr
 )
 {
 if
@@ -23092,7 +23092,7 @@ updater
 )
 !
 =
-0
+nullptr
 ;
 #
 else
@@ -23169,7 +23169,7 @@ dmgInstall
 )
 !
 =
-0
+nullptr
 )
 )
 {

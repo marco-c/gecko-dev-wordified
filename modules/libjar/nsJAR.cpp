@@ -3290,7 +3290,7 @@ mNameLen
 ;
 mName
 =
-0
+nullptr
 ;
 /
 /

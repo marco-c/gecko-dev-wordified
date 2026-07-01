@@ -3181,7 +3181,7 @@ if
 base_pages
 =
 =
-0
+nullptr
 )
 {
 return
