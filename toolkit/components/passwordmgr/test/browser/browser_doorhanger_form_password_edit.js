@@ -1421,6 +1421,7 @@ isLoggedIn
 Enable
 Primary
 Password
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1486,6 +1487,7 @@ testData
 isLoggedIn
 )
 {
+await
 LoginTestUtils
 .
 primaryPassword

@@ -1029,6 +1029,7 @@ for
 OS
 auth
 .
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1529,6 +1530,7 @@ gBrowser
 selectedTab
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1624,6 +1626,7 @@ prompt
 on
 load
 .
+await
 LoginTestUtils
 .
 primaryPassword
@@ -2018,6 +2021,7 @@ gBrowser
 selectedTab
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword

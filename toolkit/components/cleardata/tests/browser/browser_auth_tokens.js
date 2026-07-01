@@ -303,6 +303,7 @@ resolve
 )
 ;
 }
+async
 function
 runTest
 (
@@ -328,6 +329,7 @@ login
 "
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -507,6 +509,7 @@ logoutAndTeardown
 (
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -524,6 +527,7 @@ test_deleteAll
 (
 )
 {
+await
 runTest
 (
 {
@@ -557,6 +561,7 @@ true
 ]
 )
 {
+await
 runTest
 (
 {
@@ -592,6 +597,7 @@ true
 ]
 )
 {
+await
 runTest
 (
 {

@@ -485,10 +485,13 @@ bad_certs
 ;
 add_test
 (
+async
 function
+logout
 (
 )
 {
+await
 token
 .
 logout
