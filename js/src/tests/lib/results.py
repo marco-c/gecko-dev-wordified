@@ -206,39 +206,15 @@ splitlines
 (
 )
         
-for
-line
-in
+if
 lines
 :
             
-#
-Skip
-the
-asm
-.
-js
-compilation
-success
-message
-.
-            
-if
-"
-Successfully
-compiled
-asm
-.
-js
-code
-"
-not
-in
-line
-:
-                
 return
-line
+lines
+[
+0
+]
         
 return
 "

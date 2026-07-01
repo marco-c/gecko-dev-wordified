@@ -57,7 +57,7 @@ MPL
 "
 "
 In
-asm
+wasm
 code
 out
 -
@@ -73,6 +73,8 @@ the
 engine
 handles
 internally
+via
+WasmTrapHandler
 .
 Make
 GDB
@@ -292,7 +294,7 @@ gdb
 /
 mozilla
 /
-asmjs
+wasm_trap
 .
 py
 :

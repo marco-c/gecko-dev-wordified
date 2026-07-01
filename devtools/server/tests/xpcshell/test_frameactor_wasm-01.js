@@ -72,9 +72,6 @@ threadFront
 reconfigure
 (
 {
-observeAsmJS
-:
-true
 observeWasm
 :
 true

@@ -2517,11 +2517,6 @@ imp
 /
 /
 Test
-asm
-.
-js
-=
->
 ion
 paths
 setJitCompilerOption
