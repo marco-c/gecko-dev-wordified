@@ -40644,13 +40644,6 @@ such
 a
 window
 .
-aError
-.
-Throw
-(
-NS_ERROR_NOT_INITIALIZED
-)
-;
 return
 0
 ;
