@@ -3844,7 +3844,7 @@ wrapper
 Nuke
 it
 .
-NukeRemovedCrossCompartmentWrapper
+NukeCrossCompartmentWrapper
 (
 cx
 wobj
