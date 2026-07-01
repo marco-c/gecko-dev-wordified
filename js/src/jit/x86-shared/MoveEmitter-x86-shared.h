@@ -203,7 +203,14 @@ void
 assertDone
 (
 )
+{
+MOZ_ASSERT
+(
+!
+inCycle_
+)
 ;
+}
 Address
 cycleSlot
 (
@@ -392,7 +399,12 @@ masm
 MoveEmitterX86
 (
 )
+{
+assertDone
+(
+)
 ;
+}
 void
 emit
 (
