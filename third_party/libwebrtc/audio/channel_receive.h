@@ -1261,6 +1261,15 @@ frame_decryptor
 =
 0
 ;
+virtual
+uint32_t
+remote_ssrc
+(
+)
+const
+=
+0
+;
 }
 ;
 std
