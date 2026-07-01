@@ -57794,6 +57794,10 @@ PreBarrierReg
 )
 ;
 }
+sync
+(
+)
+;
 /
 /
 Perform
