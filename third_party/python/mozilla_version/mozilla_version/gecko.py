@@ -971,6 +971,8 @@ _KNOWN_ESR_MAJOR_NUMBERS
 128
         
 140
+        
+153
     
 )
     
