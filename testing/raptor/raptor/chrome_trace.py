@@ -1013,11 +1013,10 @@ creation
 "
 "
         
-mozfile
-.
-remove
+super
 (
-self
+)
 .
-temp_profile_dir
+clean
+(
 )
