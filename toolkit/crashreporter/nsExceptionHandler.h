@@ -456,6 +456,10 @@ OOPInit
 nsIFile
 *
 aXREDirectory
+bool
+force
+=
+false
 )
 ;
 void
