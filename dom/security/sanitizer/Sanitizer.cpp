@@ -12496,6 +12496,13 @@ ELEMENT
 (
 XHTML
 xhtml
+base
+)
+\
+ELEMENT
+(
+XHTML
+xhtml
 embed
 )
 \
@@ -13449,10 +13456,6 @@ nsGkAtoms
 :
 :
 area
-nsGkAtoms
-:
-:
-base
 )
 &
 &
