@@ -1468,10 +1468,6 @@ For
 a
 given
 WebAssembly
-/
-asm
-.
-js
 '
 clamped
 '
@@ -1575,10 +1571,6 @@ On
 WASM_SUPPORTS_HUGE_MEMORY
 platforms
 every
-asm
-.
-js
-or
 WebAssembly
 32
 -

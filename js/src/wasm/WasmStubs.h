@@ -1657,8 +1657,6 @@ ImmPtr
 >
 &
 callee
-bool
-isAsmJS
 CodeRangeVector
 *
 codeRanges

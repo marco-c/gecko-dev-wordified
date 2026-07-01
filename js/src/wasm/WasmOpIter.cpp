@@ -4859,12 +4859,6 @@ MozOp
 :
 OldCallDirect
 :
-return
-OpKind
-:
-:
-OldCallDirect
-;
 case
 MozOp
 :
@@ -4875,7 +4869,7 @@ return
 OpKind
 :
 :
-OldCallIndirect
+Call
 ;
 case
 MozOp

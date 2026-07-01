@@ -1966,7 +1966,7 @@ BytecodeOffset
 (
 site
 .
-lineOrBytecode
+bytecodeOffset
 (
 )
 )
