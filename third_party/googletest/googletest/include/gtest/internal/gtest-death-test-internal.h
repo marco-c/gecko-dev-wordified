@@ -1877,6 +1877,7 @@ nullptr
 )
 {
 \
+const
 std
 :
 :
@@ -1894,6 +1895,7 @@ DeathTest
 >
 gtest_dt_ptr
 (
+\
 gtest_dt
 )
 ;

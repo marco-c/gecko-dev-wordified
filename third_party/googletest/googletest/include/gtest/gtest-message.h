@@ -1051,7 +1051,6 @@ endif
 /
 GTEST_HAS_ABSL
 >
-inline
 Message
 &
 operator
@@ -1303,7 +1302,6 @@ type
 =
 0
 >
-inline
 Message
 &
 operator
