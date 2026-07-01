@@ -9,8 +9,14 @@ mozlog
 .
 formatters
 import
+(
+    
 ErrorSummaryFormatter
+    
 MachFormatter
+    
+TestSummaryFormatter
+)
 from
 mozlog
 .
@@ -68,6 +74,12 @@ errorsummary
 "
 :
 ErrorSummaryFormatter
+        
+"
+testsummary
+"
+:
+TestSummaryFormatter
     
 }
     

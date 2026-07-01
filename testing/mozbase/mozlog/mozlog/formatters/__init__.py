@@ -80,6 +80,11 @@ import
 TbplFormatter
 from
 .
+testsummary
+import
+TestSummaryFormatter
+from
+.
 unittest
 import
 UnittestFormatter
@@ -148,6 +153,10 @@ TbplFormatter
     
 "
 ErrorSummaryFormatter
+"
+    
+"
+TestSummaryFormatter
 "
     
 "
