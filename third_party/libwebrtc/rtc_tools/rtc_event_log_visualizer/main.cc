@@ -1785,6 +1785,9 @@ simulated_scream_ref_window
 simulated_scream_ratios
 "
 "
+simulated_scream_feedback_events_per_rtt
+"
+"
 network_delay_feedback
 "
 "
