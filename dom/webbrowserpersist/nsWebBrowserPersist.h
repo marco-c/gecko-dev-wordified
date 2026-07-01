@@ -210,6 +210,9 @@ nsWeakReference
 h
 "
 class
+nsIReferrerInfo
+;
+class
 nsIStorageStream
 ;
 class
@@ -501,6 +504,9 @@ MakeOutputStream
 nsIURI
 *
 aFile
+nsIURI
+*
+aSourceURI
 nsIOutputStream
 *
 *
@@ -513,6 +519,9 @@ MakeOutputStreamFromFile
 nsIFile
 *
 aFile
+nsIURI
+*
+aSourceURI
 nsIOutputStream
 *
 *
@@ -793,6 +802,12 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+nsCOMPtr
+<
+nsIReferrerInfo
+>
+mReferrerInfo
 ;
 nsCOMPtr
 <
