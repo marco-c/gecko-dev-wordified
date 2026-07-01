@@ -361,6 +361,7 @@ ShutdownVideoBridge
 (
 )
 ;
+static
 bool
 OnManagerThread
 (

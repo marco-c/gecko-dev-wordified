@@ -664,6 +664,11 @@ task
 ;
 }
 }
+/
+*
+static
+*
+/
 bool
 RemoteMediaManagerParent
 :
