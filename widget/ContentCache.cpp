@@ -887,6 +887,15 @@ AppendAppNotesToCrashReport
 info
 )
 ;
+NS_WARNING
+(
+info
+.
+get
+(
+)
+)
+;
 MOZ_DIAGNOSTIC_CRASH
 (
 "
