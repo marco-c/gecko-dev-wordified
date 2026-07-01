@@ -414,6 +414,8 @@ cx
 NativeObject
 *
 obj
+PropertyKey
+key
 PropertyInfo
 prop
 )
@@ -444,6 +446,10 @@ ObjectFlag
 :
 :
 UseWatchtowerTestingLog
+ObjectFlag
+:
+:
+HasRealmFuseProperty
 }
 )
 ;
@@ -604,6 +610,10 @@ ObjectFlag
 :
 :
 UseWatchtowerTestingLog
+ObjectFlag
+:
+:
+HasRealmFuseProperty
 }
 )
 ;
@@ -618,6 +628,8 @@ cx
 NativeObject
 *
 obj
+PropertyKey
+key
 PropertyInfo
 prop
 )
@@ -672,6 +684,7 @@ canOptimizeSetSlotSlow
 (
 cx
 obj
+key
 prop
 )
 ;

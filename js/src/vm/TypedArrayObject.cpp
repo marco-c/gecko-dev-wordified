@@ -40700,7 +40700,7 @@ GenericFinishInit
 WhichHasRealmFuseProperty
 :
 :
-Proto
+ProtoAndCtor
 >
 \
 JSProto_TypedArray
