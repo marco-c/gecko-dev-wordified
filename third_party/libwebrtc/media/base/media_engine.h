@@ -878,8 +878,12 @@ const
 0
 ;
 virtual
+const
+scoped_refptr
+<
 AudioEncoderFactory
-*
+>
+&
 encoder_factory
 (
 )
@@ -888,8 +892,12 @@ const
 0
 ;
 virtual
+const
+scoped_refptr
+<
 AudioDecoderFactory
-*
+>
+&
 decoder_factory
 (
 )
