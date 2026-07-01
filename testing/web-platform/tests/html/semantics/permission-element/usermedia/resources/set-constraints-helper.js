@@ -338,7 +338,7 @@ t
 step_timeout
 (
 r
-600
+PEPC_CLICK_DELAY
 )
 )
 ;
