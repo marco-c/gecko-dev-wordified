@@ -1102,6 +1102,7 @@ disable
 )
 ;
 }
+await
 LoginTestUtils
 .
 clearData
