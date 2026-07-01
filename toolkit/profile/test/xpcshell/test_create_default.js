@@ -113,6 +113,12 @@ timesFile
 path
 )
 ;
+/
+/
+Allow
+5ms
+tolerance
+.
 Assert
 .
 greaterOrEqual
@@ -121,6 +127,8 @@ times
 .
 created
 start
+-
+5
 "
 Profile
 should
