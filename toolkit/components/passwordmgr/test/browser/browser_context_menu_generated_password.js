@@ -522,6 +522,7 @@ the
 primary
 password
 .
+await
 LoginTestUtils
 .
 primaryPassword
@@ -633,6 +634,7 @@ hidePopup
 }
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword

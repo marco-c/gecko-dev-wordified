@@ -1391,6 +1391,7 @@ password
 "
 )
 ;
+await
 token
 .
 logout

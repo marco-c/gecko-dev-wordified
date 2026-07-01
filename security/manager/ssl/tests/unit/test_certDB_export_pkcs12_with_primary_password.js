@@ -332,6 +332,9 @@ return
 null
 ;
 }
+add_task
+(
+async
 function
 run_test
 (
@@ -416,6 +419,7 @@ password
 "
 )
 ;
+await
 token
 .
 logout
@@ -536,6 +540,7 @@ for
 the
 password
 .
+await
 token
 .
 logout
@@ -682,6 +687,7 @@ for
 the
 password
 .
+await
 token
 .
 logout
@@ -812,3 +818,5 @@ export
 )
 ;
 }
+)
+;

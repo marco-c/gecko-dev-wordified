@@ -2221,6 +2221,7 @@ messages
 could
 be
 shown
+await
 LoginTestUtils
 .
 primaryPassword
@@ -2452,6 +2453,7 @@ primary
 password
 error
 message
+await
 LoginTestUtils
 .
 primaryPassword

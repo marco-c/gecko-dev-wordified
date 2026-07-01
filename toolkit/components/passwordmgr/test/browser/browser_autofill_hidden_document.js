@@ -908,6 +908,7 @@ test_immediate_autofill_with_primarypassword
 (
 )
 {
+await
 LoginTestUtils
 .
 primaryPassword
@@ -947,6 +948,7 @@ function
 (
 )
 {
+await
 LoginTestUtils
 .
 primaryPassword

@@ -223,6 +223,7 @@ removeAllUserFacingLoginsAsync
 (
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -273,6 +274,7 @@ tests
 "
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1499,6 +1501,7 @@ empty
 }
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1679,6 +1682,7 @@ tests
 "
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword
@@ -1818,6 +1822,7 @@ authenticated
 }
 )
 ;
+await
 LoginTestUtils
 .
 primaryPassword

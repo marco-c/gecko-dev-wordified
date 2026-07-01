@@ -548,6 +548,9 @@ return
 null
 ;
 }
+add_task
+(
+async
 function
 run_test
 (
@@ -632,6 +635,7 @@ password
 "
 )
 ;
+await
 token
 .
 logout
@@ -783,3 +787,5 @@ mail
 )
 ;
 }
+)
+;

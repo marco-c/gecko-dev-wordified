@@ -233,6 +233,7 @@ case
 login_button
 "
 :
+await
 doLogin
 (
 )
@@ -244,6 +245,7 @@ case
 logout_button
 "
 :
+await
 doLogout
 (
 )
@@ -1958,6 +1960,7 @@ in
 to
 a
 slot
+async
 function
 doLogin
 (
@@ -1991,6 +1994,7 @@ getToken
 ;
 try
 {
+await
 selected_token
 .
 login
@@ -2086,6 +2090,7 @@ out
 of
 a
 slot
+async
 function
 doLogout
 (
@@ -2106,6 +2111,7 @@ getToken
 ;
 try
 {
+await
 selected_token
 .
 logout
