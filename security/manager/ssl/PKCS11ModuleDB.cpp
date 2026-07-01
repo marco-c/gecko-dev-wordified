@@ -282,7 +282,7 @@ if
 StaticPrefs
 :
 :
-security_utility_pkcs11_module_process_enabled_AtStartup
+security_utility_pkcs11_module_process_enabled
 (
 )
 &
@@ -997,7 +997,7 @@ if
 StaticPrefs
 :
 :
-security_utility_pkcs11_module_process_enabled_AtStartup
+security_utility_pkcs11_module_process_enabled
 (
 )
 )
@@ -2070,7 +2070,7 @@ if
 StaticPrefs
 :
 :
-security_utility_pkcs11_module_process_enabled_AtStartup
+security_utility_pkcs11_module_process_enabled
 (
 )
 )
@@ -3349,7 +3349,7 @@ if
 StaticPrefs
 :
 :
-security_utility_pkcs11_module_process_enabled_AtStartup
+security_utility_pkcs11_module_process_enabled
 (
 )
 )
