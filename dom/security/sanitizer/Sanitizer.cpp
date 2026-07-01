@@ -15125,6 +15125,17 @@ child
 GetShadowRoot
 (
 )
+;
+shadow
+&
+&
+!
+shadow
+-
+>
+IsUAWidget
+(
+)
 )
 {
 SanitizeChildren
