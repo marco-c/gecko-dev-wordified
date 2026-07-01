@@ -111,15 +111,6 @@ strict
 (
 )
 )
-asmJS_
-(
-parent
--
->
-useAsmOrInsideUseAsm
-(
-)
-)
 {
 }
 }
