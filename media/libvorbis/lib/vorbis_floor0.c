@@ -854,7 +854,7 @@ if
 ci
 -
 >
-book_param
+decbooks
 [
 info
 -
@@ -864,8 +864,7 @@ books
 j
 ]
 ]
--
->
+.
 maptype
 =
 =
@@ -879,7 +878,7 @@ if
 ci
 -
 >
-book_param
+decbooks
 [
 info
 -
@@ -889,8 +888,7 @@ books
 j
 ]
 ]
--
->
+.
 dim
 <
 1
@@ -1595,14 +1593,14 @@ vi
 >
 codec_setup
 ;
-codebook
+dec_codebook
 *
 b
 =
 ci
 -
 >
-fullbooks
+decbooks
 +
 info
 -

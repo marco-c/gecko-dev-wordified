@@ -8131,14 +8131,14 @@ i
 j
 k
 ;
-codebook
+dec_codebook
 *
 books
 =
 ci
 -
 >
-fullbooks
+decbooks
 ;
 /
 *
