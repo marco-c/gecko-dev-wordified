@@ -106,6 +106,17 @@ include
 "
 absl
 /
+base
+/
+macros
+.
+h
+"
+#
+include
+"
+absl
+/
 strings
 /
 string_view
@@ -276,6 +287,9 @@ template
 typename
 Extension
 >
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 bool
 Register
 (
@@ -305,6 +319,9 @@ RTPExtensionType
 type
 )
 ;
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 bool
 RegisterByType
 (
@@ -337,6 +354,9 @@ string_view
 uri
 )
 ;
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 bool
 RegisterByUri
 (
@@ -412,6 +432,9 @@ downstream
 is
 updated
 .
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 RTPExtensionType
 GetType
 (

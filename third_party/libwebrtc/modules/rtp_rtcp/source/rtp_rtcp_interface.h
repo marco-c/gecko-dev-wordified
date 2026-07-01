@@ -131,6 +131,17 @@ include
 "
 absl
 /
+base
+/
+macros
+.
+h
+"
+#
+include
+"
+absl
+/
 strings
 /
 string_view
@@ -2019,6 +2030,9 @@ downstream
 is
 updated
 .
+ABSL_DEPRECATE_AND_INLINE
+(
+)
 void
 RegisterRtpHeaderExtension
 (
