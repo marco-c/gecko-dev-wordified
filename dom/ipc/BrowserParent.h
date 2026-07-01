@@ -4126,12 +4126,6 @@ EventMessage
 aMessage
 )
 ;
-BrowserParent
-*
-TopLevelBrowserParent
-(
-)
-;
 protected
 :
 friend
@@ -4349,10 +4343,6 @@ ipc
 IPCResult
 RecvRequestPointerLock
 (
-const
-bool
-&
-aUnadjustedMovement
 RequestPointerLockResolver
 &
 &
