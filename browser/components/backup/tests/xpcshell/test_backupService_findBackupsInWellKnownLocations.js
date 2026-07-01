@@ -529,14 +529,6 @@ bs
 .
 findBackupsInWellKnownLocations
 (
-{
-validateFile
-:
-false
-multipleFiles
-:
-false
-}
 )
 ;
 Assert
