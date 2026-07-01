@@ -1931,7 +1931,7 @@ failed
 /
 /
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1954,7 +1954,7 @@ Yikes
 /
 #
 define
-LOG_ERROR
+RTC_LOG_ERROR
 (
 x
 )

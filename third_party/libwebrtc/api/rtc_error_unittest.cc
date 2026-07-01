@@ -2027,7 +2027,7 @@ StringyBuilder
 /
 /
 Tests
-LOG_ERROR
+RTC_LOG_ERROR
 .
 TEST
 (
@@ -2083,7 +2083,7 @@ foo
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :

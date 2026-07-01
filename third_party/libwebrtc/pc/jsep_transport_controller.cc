@@ -2919,7 +2919,7 @@ RollbackTransports
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -4757,7 +4757,7 @@ transport
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5044,7 +5044,7 @@ ok
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

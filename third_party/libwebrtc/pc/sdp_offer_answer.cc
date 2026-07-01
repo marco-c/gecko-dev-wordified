@@ -3432,7 +3432,7 @@ remote_direction
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -3467,7 +3467,7 @@ remote_direction
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -3660,7 +3660,7 @@ sframe_enabled
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -3986,7 +3986,7 @@ not
 right
 .
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -4018,7 +4018,7 @@ identity_fingerprint
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -4037,7 +4037,7 @@ kSdpWithoutDtlsFingerprint
 else
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -4437,7 +4437,7 @@ empty
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -4478,7 +4478,7 @@ kMidMaxSize
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -4526,7 +4526,7 @@ second
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -4687,7 +4687,7 @@ parameters
 "
 ;
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -4897,7 +4897,7 @@ content_description
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5134,7 +5134,7 @@ encrypt
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5347,7 +5347,7 @@ content_description
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5599,7 +5599,7 @@ end
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5825,7 +5825,7 @@ kMaxSimulcastStreams
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -6025,7 +6025,7 @@ cryptex
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -6234,7 +6234,7 @@ first_media_content
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -6314,7 +6314,7 @@ cryptex_level
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -6512,7 +6512,7 @@ rtcp_mux
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -16099,7 +16099,7 @@ ok
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 error
 )
@@ -16145,7 +16145,7 @@ kNone
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -16258,7 +16258,7 @@ second
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -26624,7 +26624,7 @@ kHaveRemoteOffer
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -30376,7 +30376,7 @@ description
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -30434,7 +30434,7 @@ type
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -30621,7 +30621,7 @@ bundle_groups_by_mid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -30826,7 +30826,7 @@ bundle_groups_by_mid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -31025,7 +31025,7 @@ type
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -31255,7 +31255,7 @@ type
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -31421,7 +31421,7 @@ size
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -31863,7 +31863,7 @@ empty
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -32497,7 +32497,7 @@ type
 else
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -33063,7 +33063,7 @@ are
 rejected
 .
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -33630,7 +33630,7 @@ type
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -34298,7 +34298,7 @@ mid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -38579,7 +38579,7 @@ offer_to_receive_audio
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -38652,7 +38652,7 @@ offer_to_receive_video
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -43730,7 +43730,7 @@ end
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -43855,7 +43855,7 @@ mediacontent_index
 else
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -43907,7 +43907,7 @@ content_size
 }
 }
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -44336,7 +44336,7 @@ mid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

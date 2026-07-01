@@ -7422,7 +7422,7 @@ while
 recycling
 .
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -8600,7 +8600,7 @@ while
 recycling
 .
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

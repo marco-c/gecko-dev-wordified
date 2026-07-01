@@ -2875,7 +2875,7 @@ IsValid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :

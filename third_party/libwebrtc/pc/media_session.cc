@@ -2708,7 +2708,7 @@ field_trials
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5530,7 +5530,7 @@ get
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -5743,7 +5743,7 @@ offer
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -7002,7 +7002,7 @@ get
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -9367,7 +9367,7 @@ transport
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -9764,7 +9764,7 @@ trials
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -9846,7 +9846,7 @@ kOneByteOnly
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10099,7 +10099,7 @@ data_transport
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10408,7 +10408,7 @@ kOneByteOnly
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -10784,7 +10784,7 @@ unsupported_transport
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

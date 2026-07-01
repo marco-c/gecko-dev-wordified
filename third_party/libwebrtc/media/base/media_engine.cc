@@ -808,7 +808,7 @@ codecFound
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -922,7 +922,7 @@ scalabilityModeFound
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1009,7 +1009,7 @@ scalabilityModeFound
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1126,7 +1126,7 @@ bitrate_priority
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1188,7 +1188,7 @@ scale_resolution_down_by
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1252,7 +1252,7 @@ max_framerate
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1334,7 +1334,7 @@ min_bitrate_bps
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1407,7 +1407,7 @@ kMaxTemporalStreams
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1491,7 +1491,7 @@ height
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1560,7 +1560,7 @@ codec
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1626,7 +1626,7 @@ kRtpCsrcSize
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1684,7 +1684,7 @@ csrcs
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1754,7 +1754,7 @@ has_value
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1880,7 +1880,7 @@ num_spatial_layers
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2010,7 +2010,7 @@ size
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2047,7 +2047,7 @@ rtcp
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2084,7 +2084,7 @@ header_extensions
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2150,7 +2150,7 @@ rid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2217,7 +2217,7 @@ ssrc
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

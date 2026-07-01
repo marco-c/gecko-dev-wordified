@@ -1639,7 +1639,7 @@ kTransport
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1677,7 +1677,7 @@ size
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1743,7 +1743,7 @@ PROTO_TCP
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1827,7 +1827,7 @@ URI
 url
 ;
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -1920,7 +1920,7 @@ size
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2075,7 +2075,7 @@ syntax
 uri_without_transport
 ;
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2142,7 +2142,7 @@ format
 uri_without_transport
 ;
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2195,7 +2195,7 @@ port
 port
 ;
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2307,7 +2307,7 @@ native
 equivalent
 .
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2367,7 +2367,7 @@ kMaxTurnUsernameLength
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2506,7 +2506,7 @@ ip
 address
 .
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2643,7 +2643,7 @@ error
 already
 .
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2754,7 +2754,7 @@ empty
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (
@@ -2865,7 +2865,7 @@ err
 else
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 (

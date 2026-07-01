@@ -3013,7 +3013,7 @@ parameters
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -4214,7 +4214,7 @@ stopped_
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -4244,7 +4244,7 @@ last_transaction_id_
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -4289,7 +4289,7 @@ transaction_id
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -6527,7 +6527,7 @@ stopped_
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -6673,7 +6673,7 @@ rid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -8891,7 +8891,7 @@ empty
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
@@ -8948,7 +8948,7 @@ rid
 )
 {
 return
-LOG_ERROR
+RTC_LOG_ERROR
 (
 RTCError
 :
