@@ -8792,9 +8792,9 @@ in
 profile
 opens
 under
+/
+/
 xpcshell
-/
-/
 with
 the
 pref
@@ -8808,10 +8808,10 @@ on
 an
 existing
 profile
+/
+/
 is
 still
-/
-/
 surfaced
 below
 .
