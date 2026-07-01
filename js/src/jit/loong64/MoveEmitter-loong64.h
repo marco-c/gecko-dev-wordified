@@ -417,14 +417,6 @@ finish
 (
 )
 ;
-void
-setScratchRegister
-(
-Register
-reg
-)
-{
-}
 }
 ;
 typedef

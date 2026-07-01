@@ -370,14 +370,6 @@ finish
 (
 )
 ;
-void
-setScratchRegister
-(
-Register
-reg
-)
-{
-}
 }
 ;
 using
