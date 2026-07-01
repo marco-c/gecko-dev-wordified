@@ -108,15 +108,6 @@ include
 "
 mozilla
 /
-ParamTraits_TiedFields
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 Point

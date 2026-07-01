@@ -156,15 +156,6 @@ include
 "
 mozilla
 /
-ParamTraits_TiedFields
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 ByteBuf

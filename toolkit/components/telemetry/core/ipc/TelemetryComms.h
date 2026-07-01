@@ -142,15 +142,6 @@ h
 #
 include
 "
-mozilla
-/
-ParamTraits_TiedFields
-.
-h
-"
-#
-include
-"
 nsITelemetry
 .
 h

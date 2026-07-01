@@ -96,15 +96,6 @@ include
 "
 mozilla
 /
-ParamTraits_TiedFields
-.
-h
-"
-#
-include
-"
-mozilla
-/
 webrender
 /
 webrender_ffi
