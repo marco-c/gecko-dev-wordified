@@ -2725,11 +2725,7 @@ WasmInstanceData
 6
 /
 /
-An
-asm
-.
-js
-/
+A
 wasm
 private
 global
@@ -2742,11 +2738,7 @@ WasmHeap
 7
 /
 /
-An
-asm
-.
-js
-/
+A
 wasm
 heap
 load
@@ -2759,10 +2751,6 @@ WasmHeapMeta
 /
 /
 The
-asm
-.
-js
-/
 wasm
 heap
 base
