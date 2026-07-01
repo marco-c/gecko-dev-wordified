@@ -1146,7 +1146,6 @@ this
 registerTraceableChannel
 (
 policy
-remoteTab
 )
 ;
 /
