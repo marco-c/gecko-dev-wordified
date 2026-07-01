@@ -12675,7 +12675,10 @@ logic
 has
 to
 match
-write_rounded_rect_clip_blocks
+ClipBatcher
+:
+:
+add
 behavior
 .
 fn
