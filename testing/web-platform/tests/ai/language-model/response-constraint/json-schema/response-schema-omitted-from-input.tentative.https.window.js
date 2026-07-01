@@ -63,6 +63,15 @@ js
 /
 META
 :
+script
+=
+util
+.
+js
+/
+/
+META
+:
 timeout
 =
 long
