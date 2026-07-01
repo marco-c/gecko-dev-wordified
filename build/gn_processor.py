@@ -2078,6 +2078,10 @@ libs
 "
             
 "
+frameworks
+"
+            
+"
 output_name
 "
         
@@ -5098,6 +5102,17 @@ get
 (
 "
 libs
+"
+[
+]
+)
++
+spec
+.
+get
+(
+"
+frameworks
 "
 [
 ]
