@@ -617,8 +617,10 @@ each
 ongoing
 operation
 .
-auto
-*
+RefPtr
+<
+CacheCreator
+>
 cacheCreator
 =
 mRequestHandle
@@ -2787,8 +2789,10 @@ IsCancelled
 )
 )
 {
-auto
-*
+RefPtr
+<
+CacheCreator
+>
 cacheCreator
 =
 mRequestHandle
