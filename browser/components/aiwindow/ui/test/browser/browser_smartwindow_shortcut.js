@@ -142,6 +142,12 @@ closeSidebar
 win
 )
 ;
+await
+waitForSidebarClosed
+(
+win
+)
+;
 win
 .
 gBrowser

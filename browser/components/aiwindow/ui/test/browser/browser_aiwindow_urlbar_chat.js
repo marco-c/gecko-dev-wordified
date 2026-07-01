@@ -538,6 +538,12 @@ closeSidebar
 win
 )
 ;
+await
+waitForSidebarClosed
+(
+win
+)
+;
 /
 /
 Make
