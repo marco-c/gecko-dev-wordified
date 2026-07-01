@@ -12377,7 +12377,7 @@ highlighters
 type
 ]
 .
-finalize
+destroy
 (
 )
 ;

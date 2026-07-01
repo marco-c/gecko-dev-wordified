@@ -312,6 +312,15 @@ expect
 a
 response
 .
+This
+will
+also
+destroy
+the
+actor
+on
+the
+backend
 super
 .
 destroy

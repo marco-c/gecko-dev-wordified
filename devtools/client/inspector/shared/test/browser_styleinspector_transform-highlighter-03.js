@@ -277,7 +277,7 @@ resolve
 )
 ;
 }
-finalize
+destroy
 (
 )
 {

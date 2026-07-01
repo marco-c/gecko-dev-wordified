@@ -127,13 +127,6 @@ json
 methods
 :
 {
-release
-:
-{
-release
-:
-true
-}
 show
 :
 {
@@ -190,6 +183,9 @@ finalize
 :
 {
 oneway
+:
+true
+release
 :
 true
 }
