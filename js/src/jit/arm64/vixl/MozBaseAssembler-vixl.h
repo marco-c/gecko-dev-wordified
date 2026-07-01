@@ -1215,9 +1215,7 @@ vixl
 Instruction
 *
 instr
-const
 LabelDoc
-&
 target
 )
 {
@@ -1843,9 +1841,7 @@ EmitBranch
 (
 Instr
 instruction
-const
 LabelDoc
-&
 doc
 )
 {

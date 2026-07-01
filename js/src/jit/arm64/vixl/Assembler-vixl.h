@@ -1636,9 +1636,7 @@ b
 (
 int
 imm26
-const
 LabelDoc
-&
 doc
 )
 ;
@@ -1668,9 +1666,7 @@ int
 imm19
 Condition
 cond
-const
 LabelDoc
-&
 doc
 )
 ;
@@ -1717,9 +1713,7 @@ bl
 (
 int
 imm26
-const
 LabelDoc
-&
 doc
 )
 ;
@@ -1776,9 +1770,7 @@ Register
 rt
 int
 imm19
-const
 LabelDoc
-&
 doc
 )
 ;
@@ -1841,9 +1833,7 @@ Register
 rt
 int
 imm19
-const
 LabelDoc
-&
 doc
 )
 ;
@@ -2162,9 +2152,7 @@ unsigned
 bit_pos
 int
 imm14
-const
 LabelDoc
-&
 doc
 )
 ;
@@ -2235,9 +2223,7 @@ unsigned
 bit_pos
 int
 imm14
-const
 LabelDoc
-&
 doc
 )
 ;
@@ -2336,9 +2322,7 @@ Register
 rd
 int
 imm21
-const
 LabelDoc
-&
 doc
 )
 ;
@@ -2399,9 +2383,7 @@ Register
 rd
 int
 imm21
-const
 LabelDoc
-&
 doc
 )
 ;
