@@ -6530,6 +6530,15 @@ in
 all
 cases
 .
+if
+(
+rmc
+.
+shiftAmount
+>
+0
+)
+{
 masm
 .
 Asr
@@ -6541,6 +6550,7 @@ rmc
 shiftAmount
 )
 ;
+}
 /
 /
 We
@@ -7149,6 +7159,15 @@ shiftAmount
 }
 else
 {
+if
+(
+rmc
+.
+shiftAmount
+>
+0
+)
+{
 masm
 .
 Lsr
@@ -7160,6 +7179,7 @@ rmc
 shiftAmount
 )
 ;
+}
 }
 }
 void
