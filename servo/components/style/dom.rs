@@ -3833,11 +3833,11 @@ C
 +
 implementation
 of
+AttrArray
+:
+:
 HashForBloomFilter
-in
-Element
 .
-cpp
 fn
 hash_for_bloom_filter
 (
