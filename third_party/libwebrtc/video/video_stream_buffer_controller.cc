@@ -760,6 +760,7 @@ decode_timing_
 (
 clock_
 timing_
+field_trials_
 )
 timeout_tracker_
 (
@@ -1744,9 +1745,8 @@ frames
 )
 )
 ;
-timing_
--
->
+decode_timing_
+.
 SetLastDecodeScheduledTimestamp
 (
 now
