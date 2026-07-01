@@ -358,6 +358,10 @@ icon
 src
 :
 icon
+alt
+:
+"
+"
 }
 )
 Localized

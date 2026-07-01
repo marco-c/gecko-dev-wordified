@@ -294,6 +294,10 @@ this
 props
 .
 icon
+alt
+:
+"
+"
 }
 )
 dom
