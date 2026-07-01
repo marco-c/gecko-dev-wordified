@@ -9327,6 +9327,10 @@ time
 picker
 UI
 .
+By
+default
+disabled
+.
 pref
 (
 "
@@ -9338,7 +9342,7 @@ datetime
 .
 timepicker
 "
-true
+false
 )
 ;
 /
