@@ -253,6 +253,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_headers
 .
 h
@@ -1043,9 +1052,7 @@ MOCK_METHOD
 void
 SetSendAudioLevelIndicationStatus
 (
-bool
-enable
-int
+RtpHeaderExtensionId
 id
 )
 (

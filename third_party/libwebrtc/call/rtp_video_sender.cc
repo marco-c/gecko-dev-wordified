@@ -247,6 +247,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_headers
 .
 h
@@ -3268,7 +3277,7 @@ i
 .
 uri
 ;
-int
+RtpHeaderExtensionId
 id
 =
 rtp_config_

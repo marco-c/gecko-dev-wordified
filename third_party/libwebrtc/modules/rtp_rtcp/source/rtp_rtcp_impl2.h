@@ -179,6 +179,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_headers
 .
 h
@@ -873,7 +882,7 @@ absl
 :
 string_view
 uri
-int
+RtpHeaderExtensionId
 id
 )
 override

@@ -467,10 +467,10 @@ EXPECT_TRUE
 (
 GetRtcpType
 (
-kRtcpReport
+kFakeRtcpReport
 sizeof
 (
-kRtcpReport
+kFakeRtcpReport
 )
 &
 pt
@@ -569,7 +569,7 @@ RtpPacketType
 kRtcp
 InferRtpPacketType
 (
-kRtcpReport
+kFakeRtcpReport
 )
 )
 ;

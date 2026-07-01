@@ -140,6 +140,15 @@ h
 #
 include
 "
+api
+/
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
 p2p
 /
 base
@@ -330,7 +339,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 send_extension_ids
@@ -345,7 +354,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 recv_extension_ids
@@ -570,7 +579,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 >
 send_extension_ids_
@@ -585,7 +594,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 >
 recv_extension_ids_

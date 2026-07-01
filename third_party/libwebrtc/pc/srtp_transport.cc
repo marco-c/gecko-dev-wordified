@@ -125,6 +125,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 timestamp
@@ -1223,7 +1232,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 send_extension_ids
@@ -1242,7 +1251,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 recv_extension_ids
@@ -1575,7 +1584,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 send_extension_ids
@@ -1594,7 +1603,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 recv_extension_ids

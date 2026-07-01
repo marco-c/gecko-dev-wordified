@@ -122,6 +122,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -311,7 +320,7 @@ one
 virtual
 RTCErrorOr
 <
-int
+RtpHeaderExtensionId
 >
 SuggestRtpHeaderExtensionId
 (

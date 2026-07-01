@@ -140,6 +140,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 transport
 /
 ecn_marking
@@ -1078,9 +1087,7 @@ rtcp_len
 =
 sizeof
 (
-:
-:
-kRtcpReport
+kFakeRtcpReport
 )
 ;
 size_t
@@ -1122,9 +1129,7 @@ char
 memcpy
 (
 rtcp_packet_data
-:
-:
-kRtcpReport
+kFakeRtcpReport
 rtcp_len
 )
 ;
@@ -1409,7 +1414,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 extension_ids
 ;
@@ -1519,7 +1524,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 &
 encrypted_header_ids
@@ -1991,7 +1996,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 encrypted_headers
 ;
@@ -2296,7 +2301,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 extension_ids
 ;
@@ -2497,7 +2502,7 @@ std
 :
 vector
 <
-int
+RtpHeaderExtensionId
 >
 extension_ids
 ;

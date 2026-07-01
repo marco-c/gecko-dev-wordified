@@ -353,6 +353,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -7667,7 +7676,7 @@ const
 RtpHeaderExtensions
 &
 extensions
-int
+RtpHeaderExtensionId
 id
 )
 {

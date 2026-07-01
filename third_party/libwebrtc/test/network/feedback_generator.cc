@@ -173,6 +173,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -593,7 +602,10 @@ transport_sequence_number_extension
 .
 id
 =
+RtpHeaderExtensionId
+(
 1
+)
 ;
 transport_sequence_number_extension
 .

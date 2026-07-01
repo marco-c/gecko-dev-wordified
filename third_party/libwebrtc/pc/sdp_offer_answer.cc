@@ -343,6 +343,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -5055,7 +5064,7 @@ std
 :
 map
 <
-int
+RtpHeaderExtensionId
 RtpExtension
 >
 &
@@ -5287,7 +5296,7 @@ std
 :
 map
 <
-int
+RtpHeaderExtensionId
 RtpExtension
 >
 id_to_extension

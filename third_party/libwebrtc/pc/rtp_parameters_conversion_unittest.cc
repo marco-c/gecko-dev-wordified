@@ -120,6 +120,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -1387,7 +1396,10 @@ uri
 ;
 EXPECT_EQ
 (
+RtpHeaderExtensionId
+(
 1
+)
 capabilities
 .
 header_extensions
@@ -1415,7 +1427,10 @@ uri
 ;
 EXPECT_EQ
 (
+RtpHeaderExtensionId
+(
 3
+)
 capabilities
 .
 header_extensions

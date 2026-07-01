@@ -1146,6 +1146,10 @@ insert
 rtp_extension
 .
 id
+.
+value
+(
+)
 )
 ;
 }

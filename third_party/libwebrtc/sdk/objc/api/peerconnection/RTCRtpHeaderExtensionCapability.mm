@@ -209,10 +209,14 @@ _preferredId
 NSNumber
 numberWithInt
 :
-*
 nativeRtpHeaderExtensionCapability
 .
 preferred_id
+-
+>
+value
+(
+)
 ]
 ;
 }
@@ -330,7 +334,10 @@ std
 :
 optional
 <
-int
+webrtc
+:
+:
+RtpHeaderExtensionId
 >
 (
 _preferredId
