@@ -5034,6 +5034,7 @@ stackwalk
 cpu
 screenshots
 memory
+java
 "
             
 )
