@@ -1629,6 +1629,7 @@ int
 length
 )
 ;
+RTC_EXPORT
 IPAddress
 GetLoopbackIP
 (
