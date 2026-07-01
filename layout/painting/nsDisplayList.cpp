@@ -44390,10 +44390,6 @@ GetTransformForRendering
 LayoutDevicePoint
 *
 aOutOrigin
-const
-nsDisplayListBuilder
-*
-aBuilder
 )
 const
 {
@@ -44531,7 +44527,6 @@ nsLayoutUtils
 ShouldSnapToGrid
 (
 mFrame
-aBuilder
 )
 )
 {
@@ -44903,7 +44898,6 @@ GetTransformForRendering
 (
 &
 position
-aDisplayListBuilder
 )
 ;
 gfx
@@ -45013,7 +45007,6 @@ nsLayoutUtils
 ShouldSnapToGrid
 (
 mFrame
-aDisplayListBuilder
 )
 )
 {
