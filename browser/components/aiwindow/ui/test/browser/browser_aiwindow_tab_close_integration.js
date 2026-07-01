@@ -1422,6 +1422,11 @@ properties
 confirmedData
 :
 {
+actionType
+:
+"
+close_tabs
+"
 selectedTabs
 :
 [
@@ -1854,6 +1859,11 @@ properties
 confirmedData
 :
 {
+actionType
+:
+"
+close_tabs
+"
 wasRestored
 :
 true
