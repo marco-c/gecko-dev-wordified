@@ -1877,6 +1877,17 @@ const
 MediaContentDescription
 *
 content
+std
+:
+:
+vector
+<
+uint32_t
+>
+removed_ssrcs
+=
+{
+}
 )
 RTC_RUN_ON
 (
@@ -1943,6 +1954,8 @@ network_thread
 void
 DisconnectFromRtpTransport_n
 (
+bool
+permanent_teardown
 )
 RTC_RUN_ON
 (
