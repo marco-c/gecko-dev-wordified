@@ -2395,7 +2395,11 @@ txfm_search_done
 ;
 store_winner_mode_stats
 (
+&
 cpi
+-
+>
+common
 x
 mbmi
 NULL
@@ -4834,10 +4838,6 @@ use_hadamard
 *
 /
 0
-cpi
--
->
-do_border_pad
 )
 ;
 }
@@ -10027,10 +10027,6 @@ use_hadamard
 *
 /
 1
-cpi
--
->
-do_border_pad
 )
 ;
 const
@@ -12187,10 +12183,6 @@ use_hadamard
 *
 /
 1
-cpi
--
->
-do_border_pad
 )
 ;
 const
@@ -12503,7 +12495,11 @@ txfm_search_done
 ;
 store_winner_mode_stats
 (
+&
 cpi
+-
+>
+common
 x
 mbmi
 NULL

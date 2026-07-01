@@ -5709,8 +5709,6 @@ TX_SIZE
 tx_size
 int
 use_hadamard
-bool
-do_border_pad
 )
 {
 MACROBLOCKD
@@ -5944,7 +5942,7 @@ buffers
 .
 av1_subtract_block
 (
-x
+bd_info
 txbh
 txbw
 p
@@ -6019,12 +6017,6 @@ pd
 dst
 .
 stride
-plane
-plane_bsize
-col
-row
-DCT_DCT
-do_border_pad
 )
 ;
 av1_quick_txfm
@@ -6230,10 +6222,6 @@ use_hadamard
 *
 /
 1
-cpi
--
->
-do_border_pad
 )
 ;
 if

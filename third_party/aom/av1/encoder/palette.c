@@ -2417,7 +2417,11 @@ txfm_search_done
 ;
 store_winner_mode_stats
 (
+&
 cpi
+-
+>
+common
 x
 mbmi
 NULL

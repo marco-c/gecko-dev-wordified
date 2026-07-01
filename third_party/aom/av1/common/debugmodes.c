@@ -879,13 +879,6 @@ w
 "
 )
 ;
-if
-(
-!
-hdrFile
-)
-return
-;
 fwrite
 (
 data
@@ -986,13 +979,6 @@ filename
 w
 "
 )
-;
-if
-(
-!
-fcFile
-)
-return
 ;
 const
 uint16_t

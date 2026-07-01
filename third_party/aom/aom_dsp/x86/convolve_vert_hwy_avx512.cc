@@ -129,11 +129,6 @@ HWY_BROKEN_32BIT
 0
 #
 include
-<
-cstdint
->
-#
-include
 "
 aom_dsp
 /

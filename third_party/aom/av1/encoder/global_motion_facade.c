@@ -800,7 +800,7 @@ assert
 (
 gm_erroradv_tr_level
 <
-3
+2
 )
 ;
 /
