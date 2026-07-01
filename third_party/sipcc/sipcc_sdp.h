@@ -1537,6 +1537,9 @@ SDP_APT
 SDP_RTX_TIME
 SDP_LEVEL_IDX
 SDP_TIER
+SDP_OPUS_PTIME
+SDP_OPUS_MINPTIME
+SDP_OPUS_MAXPTIME
 SDP_MAX_FMTP_PARAM
 SDP_FMTP_PARAM_UNKNOWN
 }
@@ -2541,6 +2544,15 @@ SDP_MAX_STRING_LEN
 ;
 uint16_t
 cbr
+;
+uint32_t
+opus_ptime
+;
+uint32_t
+opus_minptime
+;
+uint32_t
+opus_maxptime
 ;
 /
 *
