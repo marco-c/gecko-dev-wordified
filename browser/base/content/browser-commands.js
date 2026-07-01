@@ -2109,9 +2109,8 @@ gBrowser
 removeMultiSelectedTabs
 (
 {
-.
-.
-.
+metricsContext
+:
 gBrowser
 .
 TabMetrics
@@ -2227,9 +2226,8 @@ removeCurrentTab
 animate
 :
 true
-.
-.
-.
+metricsContext
+:
 gBrowser
 .
 TabMetrics
