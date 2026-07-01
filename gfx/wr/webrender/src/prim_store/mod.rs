@@ -1767,10 +1767,6 @@ flags
 :
 PrimitiveFlags
 pub
-opacity
-:
-PrimitiveOpacity
-pub
 aligned_aa_edges
 :
 EdgeMask
@@ -1801,14 +1797,6 @@ flags
 common
 .
 flags
-opacity
-:
-PrimitiveOpacity
-:
-:
-translucent
-(
-)
 aligned_aa_edges
 :
 common
