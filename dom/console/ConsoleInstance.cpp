@@ -680,7 +680,7 @@ ConsoleLogLevel
 >
 level
 =
-StringToEnum
+CaseInsensitiveStringToEnum
 <
 ConsoleLogLevel
 >
