@@ -7079,6 +7079,9 @@ GetUncomposedDoc
 {
 if
 (
+aValue
+&
+&
 ShouldExposeIdAsHTMLDocumentProperty
 (
 this
