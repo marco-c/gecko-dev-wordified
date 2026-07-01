@@ -1668,6 +1668,10 @@ id
 AccGroupInfo
 no
 domain
+not
+sent
+from
+content
 static
 constexpr
 nsStaticAtom
@@ -1687,6 +1691,10 @@ int32_t
 >
 no
 domain
+not
+sent
+from
+content
 /
 /
 As
