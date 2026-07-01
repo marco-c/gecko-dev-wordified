@@ -811,10 +811,6 @@ PayloadTypeSuggester
 pt_suggester
 bool
 pick_from_top_of_range
-bool
-favor_send_order
-=
-false
 )
 ;
 /
