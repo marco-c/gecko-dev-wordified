@@ -987,6 +987,9 @@ SSLFingerprint
 >
 identity_fingerprint
 ;
+bool
+cryptex
+;
 }
 ;
 }
