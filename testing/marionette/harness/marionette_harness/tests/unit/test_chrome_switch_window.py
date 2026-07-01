@@ -60,7 +60,7 @@ sys
 from
 marionette_harness
 import
-skip_if_no_window_manager
+skip_if_no_user_session
 #
 add
 this
@@ -162,7 +162,7 @@ context
         
 pass
     
-skip_if_no_window_manager
+skip_if_no_user_session
 (
         
 "
