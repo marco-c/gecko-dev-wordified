@@ -97,7 +97,10 @@ crate
 border
 :
 :
+{
 NormalBorderAu
+NinePatchDescriptorExt
+}
 ;
 use
 crate
@@ -3625,7 +3628,7 @@ NormalBorderTemplate
 >
 (
 )
-156
+152
 "
 NormalBorderTemplate
 size
