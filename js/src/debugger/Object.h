@@ -1477,6 +1477,13 @@ methods_
 [
 ]
 ;
+static
+const
+JSFunctionSpec
+fuzzing_unsafe_methods_
+[
+]
+;
 PromiseObject
 *
 promise
