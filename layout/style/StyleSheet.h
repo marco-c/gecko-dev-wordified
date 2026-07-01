@@ -2733,7 +2733,7 @@ unlink
 .
 mAdopters
 .
-RemoveElement
+UnorderedRemoveElement
 (
 &
 aAdopter
