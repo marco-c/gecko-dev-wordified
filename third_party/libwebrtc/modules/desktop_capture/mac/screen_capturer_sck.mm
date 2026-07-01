@@ -214,12 +214,6 @@ scoped_cftyperef
 .
 h
 "
-using
-webrtc
-:
-:
-DesktopFrameIOSurface
-;
 namespace
 webrtc
 {

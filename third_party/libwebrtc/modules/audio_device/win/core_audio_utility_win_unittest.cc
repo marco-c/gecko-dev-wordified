@@ -147,12 +147,6 @@ WRL
 :
 ComPtr
 ;
-using
-webrtc
-:
-:
-AudioDeviceName
-;
 namespace
 webrtc
 {

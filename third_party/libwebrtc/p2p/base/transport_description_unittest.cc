@@ -127,12 +127,6 @@ gtest
 .
 h
 "
-using
-webrtc
-:
-:
-RTCErrorType
-;
 namespace
 webrtc
 {

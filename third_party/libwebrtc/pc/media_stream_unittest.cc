@@ -220,12 +220,6 @@ testing
 :
 Exactly
 ;
-using
-webrtc
-:
-:
-scoped_refptr
-;
 namespace
 webrtc
 {
