@@ -132,6 +132,17 @@ MediaDevice
 override
 ;
 void
+InvalidateDesktopCaptureDeviceCache
+(
+dom
+:
+:
+MediaSourceEnum
+)
+override
+{
+}
+void
 Shutdown
 (
 )

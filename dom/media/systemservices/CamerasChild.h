@@ -1491,6 +1491,13 @@ CaptureEngine
 aCapEngine
 )
 ;
+int
+InvalidateDesktopCaptureDeviceCache
+(
+CaptureEngine
+aCapEngine
+)
+;
 template
 <
 typename
