@@ -3217,7 +3217,7 @@ src_pass
 .
 depth_stencil_attachment
 .
-as_ref
+clone
 (
 )
 timestamp_writes
@@ -3226,7 +3226,7 @@ src_pass
 .
 timestamp_writes
 .
-as_ref
+clone
 (
 )
 occlusion_query_set

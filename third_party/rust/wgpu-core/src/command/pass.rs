@@ -1743,6 +1743,16 @@ base
 raw_encoder
 query_index
 pending_query_resets
+state
+.
+base
+.
+snatch_guard
+state
+.
+base
+.
+query_set_writes
 )
 ?
 ;

@@ -903,6 +903,7 @@ SHARED_TRACKER_INDEX_ALLOCATOR_INNER
 TEXTURE_BIND_GROUPS
 TEXTURE_CLEAR_MODE
 TEXTURE_VIEWS
+QUERY_SET_INITIALIZED_SLOTS
 /
 /
 Uncomment
@@ -1139,6 +1140,18 @@ SharedTrackerIndexAllocator
 :
 :
 inner
+"
+followed
+by
+{
+}
+rank
+QUERY_SET_INITIALIZED_SLOTS
+"
+QuerySet
+:
+:
+initialized_slots
 "
 followed
 by

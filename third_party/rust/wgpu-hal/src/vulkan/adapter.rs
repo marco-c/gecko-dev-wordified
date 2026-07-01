@@ -17951,6 +17951,9 @@ true
 trace_ray_argument_validation
 :
 true
+emit_int_div_checks
+:
+true
 }
 }
 ;

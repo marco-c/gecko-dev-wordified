@@ -1410,6 +1410,9 @@ depth
 :
 1
 }
+_drop_guard
+:
+None
 }
 drawable
 :

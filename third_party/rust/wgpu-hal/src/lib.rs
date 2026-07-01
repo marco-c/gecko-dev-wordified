@@ -2750,6 +2750,19 @@ extern
 crate
 alloc
 ;
+#
+[
+allow
+(
+unused_extern_crates
+)
+]
+extern
+crate
+naga_types
+as
+nt
+;
 extern
 crate
 wgpu_types
@@ -3429,6 +3442,7 @@ any
 (
 gles
 vulkan
+metal
 )
 )
 ]
@@ -3459,6 +3473,7 @@ any
 (
 gles
 vulkan
+metal
 )
 )
 ]
@@ -3483,6 +3498,7 @@ any
 (
 gles
 vulkan
+metal
 )
 any
 (
@@ -3552,6 +3568,7 @@ any
 (
 gles
 vulkan
+metal
 )
 )
 ]
@@ -3600,6 +3617,7 @@ any
 (
 gles
 vulkan
+metal
 )
 )
 ]
