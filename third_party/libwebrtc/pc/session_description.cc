@@ -1102,9 +1102,12 @@ media_description
 )
 -
 >
-set_extmap_allow_mixed_enum
+set_extmap_allow_mixed_level
 (
 MediaContentDescription
+:
+:
+AttributeLevel
 :
 :
 kSession

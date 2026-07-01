@@ -4029,12 +4029,12 @@ id_domain
 answer
 -
 >
-set_extmap_allow_mixed_enum
+set_extmap_allow_mixed_level
 (
 offer
 -
 >
-extmap_allow_mixed_enum
+extmap_allow_mixed_level
 (
 )
 )
