@@ -239,15 +239,9 @@ tab
 tabIndex
 :
 0
-metricsContext
+isUserTriggered
 :
-gBrowser
-.
-TabMetrics
-.
-userTriggeredContext
-(
-)
+true
 }
 )
 ;

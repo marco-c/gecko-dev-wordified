@@ -4161,9 +4161,6 @@ gBrowser
 .
 removeMultiSelectedTabs
 (
-{
-metricsContext
-:
 lazy
 .
 TabMetrics
@@ -4178,7 +4175,6 @@ METRIC_SOURCE
 .
 TAB_STRIP
 )
-}
 )
 ;
 }
@@ -4196,8 +4192,9 @@ true
 triggeringEvent
 :
 event
-metricsContext
-:
+.
+.
+.
 lazy
 .
 TabMetrics
