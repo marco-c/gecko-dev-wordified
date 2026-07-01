@@ -1864,8 +1864,9 @@ widget_wayland_fractional_scale_enabled
 (
 )
 ;
-if
-(
+bool
+setHandler
+=
 surface
 -
 >
@@ -1875,6 +1876,10 @@ IsToplevelSurface
 &
 &
 fractionalScale
+;
+if
+(
+setHandler
 )
 {
 surface
@@ -1952,7 +1957,7 @@ Ceiled
 aSetHandler
 *
 /
-true
+setHandler
 )
 ;
 surface
