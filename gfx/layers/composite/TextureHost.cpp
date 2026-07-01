@@ -3391,6 +3391,7 @@ GetBufferDescriptor
 )
 )
 ;
+}
 if
 (
 auto
@@ -3410,7 +3411,6 @@ OnRenderTextureCreated
 texture
 )
 ;
-}
 }
 wr
 :
