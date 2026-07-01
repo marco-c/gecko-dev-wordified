@@ -405,14 +405,6 @@ layout_marginBottom
 "
 android
 :
-buttonTint
-=
-"
-?
-accentHighContrast
-"
-android
-:
 checked
 =
 "
