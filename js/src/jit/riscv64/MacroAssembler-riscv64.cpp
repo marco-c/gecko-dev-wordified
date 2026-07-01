@@ -29342,7 +29342,7 @@ Assembler
 :
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -29418,7 +29418,7 @@ Assembler
 :
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -29505,7 +29505,7 @@ Assembler
 :
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -29688,7 +29688,7 @@ Assembler
 :
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -29764,7 +29764,7 @@ Assembler
 :
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
@@ -29851,7 +29851,7 @@ Assembler
 :
 :
 Equal
-LongJump
+ShortJump
 )
 ;
 }
