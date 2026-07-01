@@ -2268,6 +2268,10 @@ static
 bool
 is_rd_prng
 =
+true
+;
+/
+/
 std
 :
 :
