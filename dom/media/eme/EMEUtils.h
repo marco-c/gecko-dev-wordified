@@ -616,6 +616,15 @@ Document
 aDocument
 )
 ;
+nsCString
+DeriveMediaDrmOriginId
+(
+const
+nsACString
+&
+aOriginKey
+)
+;
 }
 /
 /
