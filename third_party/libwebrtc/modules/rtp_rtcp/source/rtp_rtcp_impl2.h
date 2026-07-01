@@ -2394,6 +2394,10 @@ these
 are
 different
 .
+RTC_NO_UNIQUE_ADDRESS
+ScopedTaskSafety
+task_safety_
+;
 /
 /
 The
@@ -2519,10 +2523,6 @@ RTC_GUARDED_BY
 (
 mutex_rtt_
 )
-;
-RTC_NO_UNIQUE_ADDRESS
-ScopedTaskSafety
-task_safety_
 ;
 }
 ;
