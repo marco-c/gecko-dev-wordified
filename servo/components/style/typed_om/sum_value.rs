@@ -845,7 +845,10 @@ Step
 for
 item
 in
+&
 math_sum
+.
+values
 {
 /
 /
@@ -2698,6 +2701,11 @@ unit
 return
 Ok
 (
+MathSum
+:
+:
+try_from_numeric_values
+(
 values
 .
 into_iter
@@ -2715,6 +2723,8 @@ Unit
 collect
 (
 )
+)
+?
 )
 ;
 }
@@ -2969,7 +2979,14 @@ Err
 }
 Ok
 (
+MathSum
+:
+:
+try_from_numeric_values
+(
 result
+)
+?
 )
 }
 }

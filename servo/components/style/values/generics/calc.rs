@@ -112,6 +112,7 @@ typed_om
 :
 :
 {
+MathSum
 MathValue
 NumericValue
 ToTyped
@@ -19331,6 +19332,11 @@ MathValue
 :
 Sum
 (
+MathSum
+:
+:
+try_from_numeric_values
+(
 ThinVec
 :
 :
@@ -19340,6 +19346,8 @@ from
 inner
 ]
 )
+)
+?
 )
 )
 )
@@ -19886,7 +19894,14 @@ MathValue
 :
 Sum
 (
+MathSum
+:
+:
+try_from_numeric_values
+(
 values
+)
+?
 )
 )
 )
