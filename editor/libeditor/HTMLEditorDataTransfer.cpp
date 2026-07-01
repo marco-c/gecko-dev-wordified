@@ -1975,6 +1975,17 @@ return
 NS_OK
 ;
 }
+if
+(
+GetEditContext
+(
+)
+)
+{
+return
+NS_SUCCESS_DOM_NO_OPERATION
+;
+}
 AutoEditActionDataSetter
 editActionData
 (
