@@ -17800,6 +17800,10 @@ mLaunchResolvedOk
 (
 false
 )
+mIsUntrusted
+(
+false
+)
 mIsRemoteInputEventQueueEnabled
 (
 false
