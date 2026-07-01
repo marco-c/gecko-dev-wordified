@@ -4513,6 +4513,9 @@ gBrowser
 .
 removeMultiSelectedTabs
 (
+{
+metricsContext
+:
 gBrowser
 .
 TabMetrics
@@ -4527,6 +4530,7 @@ METRIC_SOURCE
 .
 TAB_STRIP
 )
+}
 )
 ;
 }
@@ -4543,9 +4547,8 @@ contextTab
 animate
 :
 true
-.
-.
-.
+metricsContext
+:
 gBrowser
 .
 TabMetrics
@@ -4682,9 +4685,8 @@ this
 contextTabs
 {
 insertBefore
-.
-.
-.
+metricsContext
+:
 gBrowser
 .
 TabMetrics
@@ -4897,9 +4899,8 @@ addTabGroup
 tabsAndSplitViews
 {
 insertBefore
-.
-.
-.
+metricsContext
+:
 gBrowser
 .
 TabMetrics
@@ -5196,9 +5197,8 @@ tabs
 animate
 :
 true
-.
-.
-.
+metricsContext
+:
 gBrowser
 .
 TabMetrics
