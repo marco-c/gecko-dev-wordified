@@ -8253,6 +8253,12 @@ return
 true
 ;
 }
+MaybePreserveDOMWrapper
+(
+cx
+obj
+)
+;
 /
 /
 The
@@ -8296,13 +8302,6 @@ the
 flag
 .
 return
-MaybePreserveDOMWrapper
-(
-cx
-obj
-)
-&
-&
 JSObject
 :
 :

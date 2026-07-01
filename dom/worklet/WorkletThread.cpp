@@ -339,7 +339,7 @@ size_t
 /
 Helper
 functions
-bool
+void
 PreserveWrapper
 (
 JSContext
@@ -390,9 +390,6 @@ TryPreserveWrapper
 (
 aObj
 )
-;
-return
-true
 ;
 }
 JSObject

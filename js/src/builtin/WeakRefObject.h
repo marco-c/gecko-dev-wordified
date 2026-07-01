@@ -212,7 +212,7 @@ obj
 )
 ;
 static
-bool
+void
 preserveDOMWrapper
 (
 JSContext

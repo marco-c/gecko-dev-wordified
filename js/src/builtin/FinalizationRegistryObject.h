@@ -2010,7 +2010,7 @@ record
 )
 ;
 static
-bool
+void
 preserveDOMWrapper
 (
 JSContext
@@ -2087,7 +2087,7 @@ enum
 CleanupCallbackSlot
 =
 0
-HostDefinedDataSlot
+IncumbentGlobalRepresentative
 RecordsToBeCleanedUpSlot
 IsQueuedForCleanupSlot
 DoCleanupFunctionSlot
@@ -2119,7 +2119,7 @@ const
 ;
 JSObject
 *
-getHostDefinedData
+getIncumbentGlobalRepresentative
 (
 )
 const
