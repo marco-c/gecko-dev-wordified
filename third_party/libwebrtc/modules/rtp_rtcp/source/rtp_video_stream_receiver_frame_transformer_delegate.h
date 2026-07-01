@@ -168,15 +168,6 @@ include
 "
 rtc_base
 /
-thread
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 thread_annotations
 .
 h
@@ -263,7 +254,7 @@ transformed
 frames
 on
 the
-network_thread_
+task_queue
 .
 class
 RtpVideoStreamReceiverFrameTransformerDelegate
@@ -288,7 +279,7 @@ FrameTransformerInterface
 frame_transformer
 TaskQueueBase
 *
-network_thread
+task_queue
 uint32_t
 ssrc
 )

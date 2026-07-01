@@ -904,15 +904,6 @@ include
 "
 rtc_base
 /
-thread
-.
-h
-"
-#
-include
-"
-rtc_base
-/
 trace_event
 .
 h
@@ -6818,7 +6809,7 @@ move
 (
 frame_transformer
 )
-Thread
+TaskQueueBase
 :
 :
 Current
