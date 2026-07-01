@@ -328,7 +328,7 @@ group1tab
 isUserTriggered
 :
 true
-telemetryUserCreateSource
+telemetrySource
 :
 "
 test
@@ -842,7 +842,7 @@ group2Tabs
 isUserTriggered
 :
 true
-telemetryUserCreateSource
+telemetrySource
 :
 "
 test
@@ -6485,7 +6485,7 @@ tab
 isUserTriggered
 :
 true
-telemetryUserCreateSource
+telemetrySource
 :
 "
 test

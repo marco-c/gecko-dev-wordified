@@ -21400,7 +21400,7 @@ string
 [
 options
 .
-telemetryUserCreateSource
+telemetrySource
 ]
 *
 The
@@ -21454,11 +21454,15 @@ false
 isUserTriggered
 =
 false
-telemetryUserCreateSource
+telemetrySource
 =
-"
-unknown
-"
+this
+.
+TabMetrics
+.
+METRIC_SOURCE
+.
+UNKNOWN
 }
 =
 {
@@ -21723,7 +21727,7 @@ true
 detail
 :
 {
-telemetryUserCreateSource
+telemetrySource
 }
 }
 )
