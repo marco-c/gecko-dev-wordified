@@ -12624,6 +12624,9 @@ const
 FontDrawParams
 &
 aFontParams
+imgDrawingParams
+&
+aImgParams
 )
 :
 mRunParams
@@ -12633,6 +12636,10 @@ aRunParams
 mFontParams
 (
 aFontParams
+)
+mImgParams
+(
+aImgParams
 )
 mBuffer
 (
@@ -13118,6 +13125,10 @@ FontDrawParams
 &
 mFontParams
 ;
+imgDrawingParams
+&
+mImgParams
+;
 private
 :
 static
@@ -13285,9 +13296,6 @@ mFontParams
 contextPaint
 )
 {
-imgDrawingParams
-imgParams
-;
 fillPattern
 =
 mFontParams
@@ -13313,7 +13321,7 @@ context
 CurrentMatrixDouble
 (
 )
-imgParams
+mImgParams
 )
 ;
 }
@@ -15559,6 +15567,9 @@ aGlyphID
 fontParams
 .
 contextPaint
+aBuffer
+.
+mImgParams
 runParams
 .
 callbacks
@@ -16248,6 +16259,9 @@ const
 EmphasisMarkDrawParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 {
 float
@@ -16505,6 +16519,7 @@ markRange
 *
 aPt
 params
+aImgParams
 )
 ;
 inlineCoord
@@ -16566,6 +16581,9 @@ aPt
 TextRunDrawParams
 &
 aRunParams
+imgDrawingParams
+&
+aImgParams
 gfx
 :
 :
@@ -18864,6 +18882,7 @@ buffer
 (
 aRunParams
 fontParams
+aImgParams
 )
 ;
 if
@@ -19189,6 +19208,9 @@ aGlyphId
 SVGContextPaint
 *
 aContextPaint
+imgDrawingParams
+&
+aImgParams
 )
 const
 {
@@ -19324,6 +19346,7 @@ RenderSVGGlyph
 aContext
 aGlyphId
 aContextPaint
+aImgParams
 )
 ;
 aContext
@@ -19362,6 +19385,9 @@ aGlyphId
 SVGContextPaint
 *
 aContextPaint
+imgDrawingParams
+&
+aImgParams
 gfxTextRunDrawCallbacks
 *
 aCallbacks
@@ -19399,6 +19425,7 @@ aTextDrawer
 aPoint
 aGlyphId
 aContextPaint
+aImgParams
 )
 ;
 }

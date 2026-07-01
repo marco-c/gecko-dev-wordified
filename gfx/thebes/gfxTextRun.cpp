@@ -2879,6 +2879,9 @@ aSpacingRange
 TextRunDrawParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 gfx
 :
 :
@@ -2937,6 +2940,7 @@ aRange
 end
 aPt
 aParams
+aImgParams
 aOrientation
 )
 ;
@@ -3105,6 +3109,9 @@ aProvider
 TextRunDrawParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 gfx
 :
 :
@@ -3442,6 +3449,7 @@ pt
 aProvider
 aRange
 aParams
+aImgParams
 aOrientation
 )
 ;
@@ -3836,6 +3844,9 @@ const
 DrawParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 const
 {
@@ -4849,6 +4860,7 @@ aParams
 .
 provider
 params
+aImgParams
 iter
 .
 GlyphRun
@@ -4871,6 +4883,7 @@ aParams
 provider
 ligatureRange
 params
+aImgParams
 iter
 .
 GlyphRun
@@ -4904,6 +4917,7 @@ aParams
 .
 provider
 params
+aImgParams
 iter
 .
 GlyphRun
@@ -5043,6 +5057,15 @@ gfx
 PaletteCache
 &
 aPaletteCache
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+&
+aImgParams
 )
 const
 {
@@ -5266,6 +5289,7 @@ Length
 (
 )
 params
+aImgParams
 )
 ;
 if

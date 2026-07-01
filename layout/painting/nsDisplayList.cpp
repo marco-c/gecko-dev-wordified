@@ -52393,6 +52393,17 @@ PaintTextParams
 PaintText
 ;
 }
+imgDrawingParams
+imgParams
+(
+aBuilder
+-
+>
+GetImageDecodeFlags
+(
+)
+)
+;
 f
 -
 >
@@ -52410,6 +52421,7 @@ f
 IsSelected
 (
 )
+imgParams
 aOpacity
 )
 ;

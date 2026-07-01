@@ -1395,6 +1395,12 @@ aGlyphId
 SVGContextPaint
 *
 aContextPaint
+image
+:
+:
+imgDrawingParams
+&
+aImgParams
 )
 {
 gfxContextAutoSaveRestore
@@ -1452,6 +1458,7 @@ PaintSVGGlyph
 (
 glyph
 aContext
+aImgParams
 )
 ;
 #

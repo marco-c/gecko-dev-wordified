@@ -1378,6 +1378,17 @@ mozilla
 StretchRange
 StretchRange
 ;
+using
+imgDrawingParams
+=
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+;
 /
 /
 Used
@@ -2511,6 +2522,9 @@ mozilla
 SVGContextPaint
 *
 aContextPaint
+imgDrawingParams
+&
+aImgParams
 )
 ;
 /

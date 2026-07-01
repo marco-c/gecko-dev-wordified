@@ -32099,6 +32099,9 @@ strokeOpts
 strokeOpts
 ;
 }
+imgDrawingParams
+dummy
+;
 mTextRun
 -
 >
@@ -32117,6 +32120,7 @@ get
 )
 point
 params
+dummy
 )
 ;
 }

@@ -10118,6 +10118,17 @@ gfx
 :
 ShapedTextFlags
 ;
+using
+imgDrawingParams
+=
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+;
 public
 :
 using
@@ -12360,6 +12371,9 @@ aPt
 TextRunDrawParams
 &
 aRunParams
+imgDrawingParams
+&
+aImgParams
 mozilla
 :
 :
@@ -12444,6 +12458,9 @@ const
 EmphasisMarkDrawParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 ;
 /
@@ -16352,6 +16369,9 @@ aGlyphId
 SVGContextPaint
 *
 aContextPaint
+imgDrawingParams
+&
+aImgParams
 )
 const
 ;
@@ -16383,6 +16403,9 @@ aGlyphId
 SVGContextPaint
 *
 aContextPaint
+imgDrawingParams
+&
+aImgParams
 gfxTextRunDrawCallbacks
 *
 aCallbacks

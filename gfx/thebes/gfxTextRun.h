@@ -692,6 +692,17 @@ gfx
 DrawTarget
 DrawTarget
 ;
+using
+imgDrawingParams
+=
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+;
 /
 /
 Public
@@ -2130,6 +2141,9 @@ const
 DrawParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 )
 const
 ;
@@ -2204,6 +2218,9 @@ gfx
 PaletteCache
 &
 aPaletteCache
+imgDrawingParams
+&
+aImgParams
 )
 const
 ;
@@ -6205,6 +6222,9 @@ aProvider
 TextRunDrawParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 mozilla
 :
 :
@@ -6413,6 +6433,9 @@ aSpacingRange
 TextRunDrawParams
 &
 aParams
+imgDrawingParams
+&
+aImgParams
 mozilla
 :
 :

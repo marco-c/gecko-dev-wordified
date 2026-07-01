@@ -726,6 +726,15 @@ mozilla
 SVGContextPaint
 *
 aContextPaint
+mozilla
+:
+:
+image
+:
+:
+imgDrawingParams
+&
+aImgParams
 )
 ;
 /

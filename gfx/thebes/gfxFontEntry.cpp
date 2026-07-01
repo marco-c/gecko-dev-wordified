@@ -2008,6 +2008,9 @@ aGlyphId
 SVGContextPaint
 *
 aContextPaint
+imgDrawingParams
+&
+aImgParams
 )
 {
 MOZ_ASSERT
@@ -2040,6 +2043,7 @@ RenderGlyph
 aContext
 aGlyphId
 aContextPaint
+aImgParams
 )
 ;
 }
