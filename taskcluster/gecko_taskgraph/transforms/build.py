@@ -85,6 +85,14 @@ JOB_CHOICES
 as
 ARTIFACT_JOBS
 from
+mozilla_taskgraph
+.
+util
+.
+attributes
+import
+release_level
+from
 taskgraph
 .
 transforms
@@ -116,7 +124,6 @@ util
 attributes
 import
 RELEASE_PROJECTS
-release_level
 from
 gecko_taskgraph
 .
@@ -1636,6 +1643,7 @@ name
 *
 *
 {
+                
 "
 release
 -
@@ -1644,10 +1652,23 @@ level
 :
 release_level
 (
+                    
+config
+.
+graph_config
+[
+"
+release
+-
+branches
+"
+]
 config
 .
 params
+                
 )
+            
 }
         
 )
@@ -1963,17 +1984,32 @@ jobs
     
 is_prod_project
 =
+(
+        
 release_level
 (
 config
 .
+graph_config
+[
+"
+release
+-
+branches
+"
+]
+config
+.
 params
 )
+        
 =
 =
 "
 production
 "
+    
+)
     
 for
 job
