@@ -160,8 +160,7 @@ std
 :
 {
 enable_if
-remove_reference
-remove_cv
+remove_cvref
 }
 _t
 #
@@ -1517,15 +1516,9 @@ is_same_v
 std
 :
 :
-remove_cv_t
-<
-std
-:
-:
-remove_reference_t
+remove_cvref_t
 <
 Callable
->
 >
 FunctionRef
 >
