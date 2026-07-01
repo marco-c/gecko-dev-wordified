@@ -385,7 +385,7 @@ filename
 "
 kinds
 .
-rst
+md
 "
             
 identifiers
@@ -435,7 +435,7 @@ filename
 "
 kinds
 .
-rst
+md
 "
                 
 identifiers
@@ -507,7 +507,7 @@ filename
 "
 parameters
 .
-rst
+md
 "
             
 identifiers
@@ -559,7 +559,7 @@ filename
 "
 parameters
 .
-rst
+md
 "
                 
 identifiers
@@ -753,7 +753,7 @@ filename
 "
 kinds
 .
-rst
+md
 "
             
 identifiers
@@ -786,7 +786,7 @@ filename
 "
 kinds
 .
-rst
+md
 "
             
 identifiers
@@ -836,7 +836,7 @@ filename
 "
 kinds
 .
-rst
+md
 "
                 
 identifiers
@@ -927,7 +927,7 @@ filename
 "
 parameters
 .
-rst
+md
 "
             
 identifiers
@@ -962,7 +962,7 @@ filename
 "
 parameters
 .
-rst
+md
 "
             
 identifiers
@@ -1014,7 +1014,7 @@ filename
 "
 parameters
 .
-rst
+md
 "
                 
 identifiers
