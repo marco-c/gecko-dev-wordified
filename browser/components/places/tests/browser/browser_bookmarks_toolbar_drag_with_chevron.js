@@ -422,7 +422,7 @@ false
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -462,7 +462,7 @@ selectedTab
 newTab
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -634,7 +634,7 @@ container
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -784,7 +784,7 @@ item
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -958,7 +958,7 @@ let
 srcElement
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

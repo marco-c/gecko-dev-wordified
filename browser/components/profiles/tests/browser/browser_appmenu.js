@@ -257,7 +257,7 @@ visibleButton
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

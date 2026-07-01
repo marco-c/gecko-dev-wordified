@@ -346,7 +346,7 @@ browser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -393,7 +393,7 @@ setting
 groups
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -546,7 +546,7 @@ browser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -579,7 +579,7 @@ GROUP_SELECTOR
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -622,7 +622,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1035,7 +1035,7 @@ browser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1178,7 +1178,7 @@ browser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1328,7 +1328,7 @@ browser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1483,7 +1483,7 @@ browser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1579,7 +1579,7 @@ browser
 contentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

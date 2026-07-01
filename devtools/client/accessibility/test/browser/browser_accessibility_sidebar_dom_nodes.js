@@ -216,7 +216,7 @@ doc
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

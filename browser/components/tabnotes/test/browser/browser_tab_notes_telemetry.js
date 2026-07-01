@@ -335,7 +335,7 @@ tabNoteCreated
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

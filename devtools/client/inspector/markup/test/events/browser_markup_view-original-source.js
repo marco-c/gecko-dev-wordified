@@ -262,7 +262,7 @@ let
 source
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

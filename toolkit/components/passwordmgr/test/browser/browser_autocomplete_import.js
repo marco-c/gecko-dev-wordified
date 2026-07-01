@@ -656,7 +656,7 @@ richlistitem
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -973,7 +973,7 @@ requestAnimationFrame
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1227,7 +1227,7 @@ richlistitem
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1282,7 +1282,7 @@ suggestion
 const
 migratePromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1337,7 +1337,7 @@ const
 importedItem
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

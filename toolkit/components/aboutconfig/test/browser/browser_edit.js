@@ -1924,7 +1924,7 @@ hidePopup
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

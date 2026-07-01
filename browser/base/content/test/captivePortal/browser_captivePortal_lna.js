@@ -472,18 +472,6 @@ true
 ]
 [
 "
-network
-.
-http
-.
-rcwn
-.
-enabled
-"
-false
-]
-[
-"
 captivedetect
 .
 canonicalURL
@@ -934,7 +922,7 @@ to
 be
 updated
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1153,7 +1141,7 @@ port
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1346,7 +1334,7 @@ to
 be
 updated
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

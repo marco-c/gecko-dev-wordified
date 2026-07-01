@@ -1050,7 +1050,7 @@ try
 {
 return
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

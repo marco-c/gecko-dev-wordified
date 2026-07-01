@@ -94,7 +94,7 @@ megalist
 {
 return
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -190,7 +190,7 @@ list
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -344,7 +344,7 @@ megalist
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -542,7 +542,7 @@ megalist
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

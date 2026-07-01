@@ -671,7 +671,7 @@ promiseHidden
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -778,7 +778,7 @@ promiseHidden
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2320,7 +2320,7 @@ windows
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2512,7 +2512,7 @@ container
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

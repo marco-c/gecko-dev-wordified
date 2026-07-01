@@ -1111,7 +1111,7 @@ dialog
 let
 inputUpdatePromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2240,7 +2240,7 @@ false
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3139,7 +3139,7 @@ turnOnScheduledBackups
 updateComplete
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3887,7 +3887,7 @@ turnOnScheduledBackups
 updateComplete
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3971,7 +3971,7 @@ await
 closedPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

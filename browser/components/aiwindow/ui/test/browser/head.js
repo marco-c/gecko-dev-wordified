@@ -1485,7 +1485,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3512,7 +3512,7 @@ expectedUrl
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4480,7 +4480,7 @@ const
 chevronButton
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4588,7 +4588,7 @@ const
 engineItem
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -10751,7 +10751,7 @@ messageIndex
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -10805,7 +10805,7 @@ const
 aichatBrowser
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

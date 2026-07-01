@@ -174,7 +174,7 @@ SidebarController
 browser
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

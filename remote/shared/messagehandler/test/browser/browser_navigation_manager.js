@@ -312,7 +312,7 @@ URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

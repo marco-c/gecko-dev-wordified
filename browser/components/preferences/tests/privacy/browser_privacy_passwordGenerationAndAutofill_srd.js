@@ -1015,7 +1015,7 @@ checked
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

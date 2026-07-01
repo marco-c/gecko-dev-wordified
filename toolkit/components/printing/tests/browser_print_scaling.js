@@ -281,7 +281,7 @@ mockPrinterName
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -3825,7 +3825,7 @@ busy
 state
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

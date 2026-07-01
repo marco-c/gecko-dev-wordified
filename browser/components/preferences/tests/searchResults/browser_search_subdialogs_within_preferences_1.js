@@ -119,7 +119,7 @@ add
 its
 panels
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

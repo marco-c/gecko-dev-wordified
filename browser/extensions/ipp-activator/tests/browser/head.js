@@ -413,7 +413,7 @@ assertion
 passes
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

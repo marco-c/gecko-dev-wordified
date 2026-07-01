@@ -507,7 +507,7 @@ created
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -813,7 +813,7 @@ received
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1128,7 +1128,7 @@ received
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1162,7 +1162,7 @@ events
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1439,7 +1439,7 @@ received
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1481,7 +1481,7 @@ to
 be
 handled
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1835,7 +1835,7 @@ received
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1891,7 +1891,7 @@ response
 content
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

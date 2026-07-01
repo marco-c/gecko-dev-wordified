@@ -1029,7 +1029,7 @@ be
 created
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

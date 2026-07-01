@@ -266,7 +266,7 @@ notificationStack
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

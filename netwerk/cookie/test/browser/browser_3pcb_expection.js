@@ -487,7 +487,7 @@ imported
 correctly
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

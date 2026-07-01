@@ -520,7 +520,7 @@ clickClearReports
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

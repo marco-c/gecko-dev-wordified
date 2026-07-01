@@ -116,7 +116,7 @@ switcher
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

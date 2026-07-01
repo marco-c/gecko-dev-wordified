@@ -166,7 +166,7 @@ on_console_message
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -175,7 +175,7 @@ kTestURI
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

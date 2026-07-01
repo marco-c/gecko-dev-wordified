@@ -228,7 +228,7 @@ await
 downloadFinishedPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

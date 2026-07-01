@@ -222,7 +222,7 @@ count
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1370,7 +1370,7 @@ let
 tabElement
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1823,7 +1823,7 @@ documentElement
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

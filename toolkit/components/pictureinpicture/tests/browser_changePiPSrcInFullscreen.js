@@ -555,7 +555,7 @@ top
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -739,7 +739,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -873,7 +873,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1252,7 +1252,7 @@ top
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1436,7 +1436,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1532,7 +1532,7 @@ mp4
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1605,7 +1605,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2000,7 +2000,7 @@ top
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2184,7 +2184,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2306,7 +2306,7 @@ not
 actually
 resizing
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2340,7 +2340,7 @@ the
 new
 width
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2416,7 +2416,7 @@ fullscreen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2638,7 +2638,7 @@ resize
 event
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -613,7 +613,7 @@ cards
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

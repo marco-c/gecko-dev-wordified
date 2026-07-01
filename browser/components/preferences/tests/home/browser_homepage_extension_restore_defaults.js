@@ -341,7 +341,7 @@ poll
 here
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

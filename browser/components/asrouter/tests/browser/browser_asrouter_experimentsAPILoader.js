@@ -1132,7 +1132,7 @@ wait
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1285,7 +1285,7 @@ updateRecipes
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1398,7 +1398,7 @@ updateRecipes
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1494,7 +1494,7 @@ updateRecipes
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1599,7 +1599,7 @@ updateRecipes
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1891,7 +1891,7 @@ updateRecipes
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2001,7 +2001,7 @@ updateRecipes
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2270,7 +2270,7 @@ updateRecipes
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2299,7 +2299,7 @@ experiment
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

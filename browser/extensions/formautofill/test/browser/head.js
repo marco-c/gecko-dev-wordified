@@ -5407,7 +5407,7 @@ present
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -10776,7 +10776,7 @@ FormAutofill
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

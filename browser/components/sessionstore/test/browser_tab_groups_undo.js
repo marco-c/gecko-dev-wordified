@@ -251,7 +251,7 @@ getLastClosedTabGroupId
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -600,7 +600,7 @@ getLastClosedTabGroupId
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

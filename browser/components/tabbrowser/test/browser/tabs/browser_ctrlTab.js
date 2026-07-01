@@ -1652,7 +1652,7 @@ the
 future
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

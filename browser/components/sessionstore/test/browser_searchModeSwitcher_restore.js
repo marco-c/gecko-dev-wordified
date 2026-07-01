@@ -524,7 +524,7 @@ trigger
 once
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -602,7 +602,7 @@ to
 finish
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

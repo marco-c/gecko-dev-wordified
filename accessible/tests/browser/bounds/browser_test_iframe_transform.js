@@ -1327,7 +1327,7 @@ new
 OuterDoc
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

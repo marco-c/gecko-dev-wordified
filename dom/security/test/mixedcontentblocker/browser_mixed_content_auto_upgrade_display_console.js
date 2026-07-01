@@ -156,7 +156,7 @@ kTestURI
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

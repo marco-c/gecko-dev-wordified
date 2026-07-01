@@ -59,7 +59,7 @@ id
 extension
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -919,7 +919,7 @@ to
 change
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1057,7 +1057,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1243,7 +1243,7 @@ to
 change
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

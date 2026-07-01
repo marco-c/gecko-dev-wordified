@@ -115,7 +115,7 @@ let
 pageInfo
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -353,7 +353,7 @@ the
 WNPanel
 messages
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -398,7 +398,7 @@ update_action
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -604,7 +604,7 @@ loadMessagesFromAllProviders
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -649,7 +649,7 @@ update_action
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -763,7 +763,7 @@ loadMessagesFromAllProviders
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

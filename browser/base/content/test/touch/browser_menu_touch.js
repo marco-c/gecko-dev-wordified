@@ -494,7 +494,7 @@ target
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -617,7 +617,7 @@ target
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1036,7 +1036,7 @@ AREA_NAVBAR
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1158,7 +1158,7 @@ AREA_FIXED_OVERFLOW_PANEL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

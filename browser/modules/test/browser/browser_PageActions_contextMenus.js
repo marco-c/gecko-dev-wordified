@@ -515,7 +515,7 @@ becomes
 selected
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -721,7 +721,7 @@ becomes
 selected
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

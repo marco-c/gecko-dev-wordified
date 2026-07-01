@@ -1313,7 +1313,7 @@ browser_urlbar
 :
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -106,7 +106,7 @@ visible
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1440,7 +1440,7 @@ tab
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

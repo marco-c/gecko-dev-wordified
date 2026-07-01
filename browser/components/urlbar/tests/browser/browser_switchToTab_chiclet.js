@@ -399,7 +399,7 @@ switchtab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -438,7 +438,7 @@ visible
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -705,7 +705,7 @@ switchtab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -733,7 +733,7 @@ hidden
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

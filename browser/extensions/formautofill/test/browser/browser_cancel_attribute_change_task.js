@@ -256,7 +256,7 @@ popup
 to
 open
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -400,7 +400,7 @@ to
 open
 again
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

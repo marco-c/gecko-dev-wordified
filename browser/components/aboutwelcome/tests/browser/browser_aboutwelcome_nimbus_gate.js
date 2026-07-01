@@ -328,7 +328,7 @@ openAboutWelcome
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -487,7 +487,7 @@ openAboutWelcome
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -732,7 +732,7 @@ openAboutWelcome
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -944,7 +944,7 @@ openAboutWelcome
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1216,7 +1216,7 @@ openAboutWelcome
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1655,7 +1655,7 @@ await
 firstInit
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

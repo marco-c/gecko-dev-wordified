@@ -1553,7 +1553,7 @@ let
 backButton
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

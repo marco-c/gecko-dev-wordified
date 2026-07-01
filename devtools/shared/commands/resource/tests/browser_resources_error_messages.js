@@ -578,7 +578,7 @@ onAvailable
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

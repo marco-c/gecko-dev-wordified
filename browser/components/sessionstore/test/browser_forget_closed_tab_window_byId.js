@@ -826,7 +826,7 @@ newWin
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

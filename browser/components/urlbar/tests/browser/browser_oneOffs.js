@@ -5005,7 +5005,7 @@ populated
 instead
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

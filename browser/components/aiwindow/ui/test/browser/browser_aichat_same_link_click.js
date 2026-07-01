@@ -461,7 +461,7 @@ TEST_URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

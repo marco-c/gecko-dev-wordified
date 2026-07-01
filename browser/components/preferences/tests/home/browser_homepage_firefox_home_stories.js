@@ -386,7 +386,7 @@ exists
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

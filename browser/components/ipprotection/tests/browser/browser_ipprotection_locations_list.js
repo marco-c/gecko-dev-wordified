@@ -558,7 +558,7 @@ button
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -652,7 +652,7 @@ selected
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1358,7 +1358,7 @@ window
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1591,7 +1591,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1645,7 +1645,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

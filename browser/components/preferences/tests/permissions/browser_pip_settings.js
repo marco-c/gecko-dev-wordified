@@ -114,7 +114,7 @@ let
 settingControl
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

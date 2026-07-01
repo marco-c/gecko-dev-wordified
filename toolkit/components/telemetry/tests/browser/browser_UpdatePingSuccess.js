@@ -622,7 +622,7 @@ with
 validation
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -65,7 +65,7 @@ it
 s
 open
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

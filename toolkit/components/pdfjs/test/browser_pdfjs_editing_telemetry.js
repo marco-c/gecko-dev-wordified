@@ -341,7 +341,7 @@ spanBox
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -435,7 +435,7 @@ spanBox
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -539,7 +539,7 @@ doCommand
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

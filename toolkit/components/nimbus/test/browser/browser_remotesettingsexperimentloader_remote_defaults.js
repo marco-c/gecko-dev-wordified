@@ -1180,7 +1180,7 @@ setTimer
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -629,7 +629,7 @@ https
 /
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 .
@@ -713,7 +713,7 @@ exist
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

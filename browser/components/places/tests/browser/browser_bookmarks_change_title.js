@@ -220,7 +220,7 @@ editBookmarkPanelTitle
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

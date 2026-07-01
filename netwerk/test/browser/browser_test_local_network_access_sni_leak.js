@@ -1710,7 +1710,7 @@ the
 server
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

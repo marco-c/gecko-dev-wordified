@@ -453,7 +453,7 @@ let
 component
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -601,7 +601,7 @@ null
 }
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -643,7 +643,7 @@ bookmarkList
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -446,7 +446,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -575,7 +575,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1174,7 +1174,7 @@ box
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -176,7 +176,7 @@ document
 documentElement
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

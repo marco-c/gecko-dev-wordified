@@ -236,7 +236,7 @@ let
 addonCard
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -469,7 +469,7 @@ let
 addonCard
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

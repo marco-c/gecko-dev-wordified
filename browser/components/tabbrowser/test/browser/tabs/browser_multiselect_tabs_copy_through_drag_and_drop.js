@@ -424,7 +424,7 @@ multiselected
 ;
 }
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -445,7 +445,7 @@ tab1
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

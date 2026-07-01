@@ -754,7 +754,7 @@ expectedRequestsCount
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

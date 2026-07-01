@@ -89,7 +89,7 @@ let
 popup
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

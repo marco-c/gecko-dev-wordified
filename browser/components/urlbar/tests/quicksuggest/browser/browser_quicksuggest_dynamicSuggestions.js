@@ -398,7 +398,7 @@ is
 available
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

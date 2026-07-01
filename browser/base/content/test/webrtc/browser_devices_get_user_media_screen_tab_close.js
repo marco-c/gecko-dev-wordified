@@ -315,7 +315,7 @@ browsingContext
 let
 tabClosedPromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

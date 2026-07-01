@@ -430,7 +430,7 @@ let
 actualValues
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

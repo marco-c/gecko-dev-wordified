@@ -464,7 +464,7 @@ visibleTabs
 ]
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -494,7 +494,7 @@ test
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

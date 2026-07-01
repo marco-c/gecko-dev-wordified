@@ -601,7 +601,7 @@ TEST_PAGE_2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -812,7 +812,7 @@ TEST_PAGE_1
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -881,7 +881,7 @@ linkedBrowser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1592,7 +1592,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

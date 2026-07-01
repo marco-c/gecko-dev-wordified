@@ -675,7 +675,7 @@ selectedElement
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2261,7 +2261,7 @@ getFirstSelectableElement
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2574,7 +2574,7 @@ c
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3416,7 +3416,7 @@ shiftKey
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

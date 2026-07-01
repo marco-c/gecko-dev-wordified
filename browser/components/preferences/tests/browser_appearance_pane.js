@@ -287,7 +287,7 @@ appearance
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

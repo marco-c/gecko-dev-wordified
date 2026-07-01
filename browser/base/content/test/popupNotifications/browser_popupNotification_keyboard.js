@@ -246,7 +246,7 @@ resetEnv
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

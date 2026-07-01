@@ -1858,7 +1858,7 @@ helper
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2061,7 +2061,7 @@ correct
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4891,7 +4891,7 @@ mockPrinterName
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

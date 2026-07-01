@@ -235,7 +235,7 @@ window
 windowUtils
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

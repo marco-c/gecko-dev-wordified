@@ -417,7 +417,7 @@ quick
 loop
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

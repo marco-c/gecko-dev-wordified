@@ -338,7 +338,7 @@ load
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1764,7 +1764,7 @@ load
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

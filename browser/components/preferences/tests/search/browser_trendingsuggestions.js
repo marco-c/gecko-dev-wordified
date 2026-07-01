@@ -316,7 +316,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

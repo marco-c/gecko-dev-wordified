@@ -668,7 +668,7 @@ scaling
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -911,7 +911,7 @@ kDuplexNone
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1001,7 +1001,7 @@ kDuplexFlipOnLongEdge
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1088,7 +1088,7 @@ kDuplexNone
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1163,7 +1163,7 @@ kDuplexFlipOnShortEdge
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1419,7 +1419,7 @@ kDuplexNone
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1478,7 +1478,7 @@ numCopies
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1542,7 +1542,7 @@ kDuplexFlipOnLongEdge
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1706,7 +1706,7 @@ scaling
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -112,7 +112,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -317,7 +317,7 @@ startup
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

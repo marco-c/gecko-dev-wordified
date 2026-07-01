@@ -250,7 +250,7 @@ preview
 .
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -320,7 +320,7 @@ to
 go
 away
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -352,7 +352,7 @@ await
 tabGroupCreateByUser
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -443,7 +443,7 @@ create
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -551,7 +551,7 @@ value
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -863,7 +863,7 @@ close
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -983,7 +983,7 @@ group
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1245,7 +1245,7 @@ newTabInGroup2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1363,7 +1363,7 @@ group
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1587,7 +1587,7 @@ collapsed
 true
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1792,7 +1792,7 @@ saveAndClose
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1935,7 +1935,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2247,7 +2247,7 @@ group2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3429,7 +3429,7 @@ waitForReopenRecord
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3558,7 +3558,7 @@ waitForNoActiveGroups
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4493,7 +4493,7 @@ tab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4591,7 +4591,7 @@ menu
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4747,7 +4747,7 @@ menu
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4893,7 +4893,7 @@ menu
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6581,7 +6581,7 @@ await
 tabGroupContextClosed
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

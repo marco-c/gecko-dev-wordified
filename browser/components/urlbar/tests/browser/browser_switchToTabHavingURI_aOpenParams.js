@@ -373,7 +373,7 @@ whenComparingAndReplace
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

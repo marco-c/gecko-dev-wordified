@@ -422,7 +422,7 @@ text
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

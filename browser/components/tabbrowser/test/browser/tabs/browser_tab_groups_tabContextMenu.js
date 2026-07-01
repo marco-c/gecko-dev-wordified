@@ -7365,7 +7365,7 @@ from
 the
 DOM
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

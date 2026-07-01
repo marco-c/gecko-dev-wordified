@@ -429,7 +429,7 @@ expectedVisited
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

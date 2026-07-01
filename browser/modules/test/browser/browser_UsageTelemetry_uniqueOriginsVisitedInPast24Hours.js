@@ -507,7 +507,7 @@ time
 out
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -723,7 +723,7 @@ label
 let
 hidden
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

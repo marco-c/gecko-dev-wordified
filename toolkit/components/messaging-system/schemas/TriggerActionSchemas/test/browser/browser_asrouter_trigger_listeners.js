@@ -624,7 +624,7 @@ TEST_URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -741,7 +741,7 @@ TEST_URL
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1080,7 +1080,7 @@ NewSavedPassword
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1366,7 +1366,7 @@ LoginUpdateSaved
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1893,7 +1893,7 @@ ContentBlockingEvent
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1976,7 +1976,7 @@ ContentBlockingEvent
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2446,7 +2446,7 @@ ContentBlockingMilestone
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

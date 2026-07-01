@@ -2231,7 +2231,7 @@ changeFn
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2988,7 +2988,7 @@ waitForPreviewVisible
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

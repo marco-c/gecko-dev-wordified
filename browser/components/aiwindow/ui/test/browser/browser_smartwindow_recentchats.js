@@ -1320,7 +1320,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

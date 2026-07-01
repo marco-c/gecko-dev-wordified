@@ -163,7 +163,7 @@ is
 set
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

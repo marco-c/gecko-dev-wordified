@@ -162,7 +162,7 @@ focus
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -269,7 +269,7 @@ await
 closedPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

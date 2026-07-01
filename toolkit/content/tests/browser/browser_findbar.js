@@ -1589,7 +1589,7 @@ query
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

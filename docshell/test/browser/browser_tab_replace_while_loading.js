@@ -376,7 +376,7 @@ created
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

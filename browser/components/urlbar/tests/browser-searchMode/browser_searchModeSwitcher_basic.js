@@ -414,7 +414,7 @@ focus
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1558,7 +1558,7 @@ null
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2034,7 +2034,7 @@ let
 searchModeSwitcherIconUrl
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4899,7 +4899,7 @@ let
 searchModeSwitcherIconUrl
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5976,7 +5976,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6025,7 +6025,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6053,7 +6053,7 @@ engine
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6274,7 +6274,7 @@ await
 searchmodeChanged
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

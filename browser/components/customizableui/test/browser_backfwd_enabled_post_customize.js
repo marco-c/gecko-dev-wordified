@@ -138,7 +138,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -171,7 +171,7 @@ linkedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -198,7 +198,7 @@ goBack
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -240,7 +240,7 @@ button
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -375,7 +375,7 @@ endCustomizing
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

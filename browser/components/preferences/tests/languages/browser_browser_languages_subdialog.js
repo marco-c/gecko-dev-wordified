@@ -1561,7 +1561,7 @@ be
 populated
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4500,7 +4500,7 @@ installed
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5677,7 +5677,7 @@ hidePopup
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6548,7 +6548,7 @@ hidePopup
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

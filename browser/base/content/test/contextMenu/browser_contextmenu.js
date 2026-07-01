@@ -7832,7 +7832,7 @@ await
 exited
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -848,7 +848,7 @@ move
 "
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

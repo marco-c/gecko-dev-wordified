@@ -1038,7 +1038,7 @@ KEY_Tab
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

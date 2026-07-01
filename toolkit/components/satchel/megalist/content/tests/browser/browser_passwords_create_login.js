@@ -140,7 +140,7 @@ isFromMenuDropdown
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -261,7 +261,7 @@ password
 const
 loginFormPromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -436,7 +436,7 @@ form
 const
 popupPromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -529,7 +529,7 @@ alpha
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -574,7 +574,7 @@ scrollingElement
 const
 scrollPromise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1328,7 +1328,7 @@ password
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1465,7 +1465,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1596,7 +1596,7 @@ field
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1668,7 +1668,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1844,7 +1844,7 @@ const
 closeWithoutSavingButton
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

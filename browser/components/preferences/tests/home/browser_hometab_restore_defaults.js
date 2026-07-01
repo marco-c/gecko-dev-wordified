@@ -114,7 +114,7 @@ tab
 linkedBrowser
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -212,7 +212,7 @@ toggleRestoreDefaultsBtn
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -267,7 +267,7 @@ load
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -346,7 +346,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -396,7 +396,7 @@ preference
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -576,7 +576,7 @@ tab
 linkedBrowser
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -674,7 +674,7 @@ toggleRestoreDefaultsBtn
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -782,7 +782,7 @@ up
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -874,7 +874,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -925,7 +925,7 @@ preference
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -456,7 +456,7 @@ hidden
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

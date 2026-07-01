@@ -504,7 +504,7 @@ finishedTestTwo
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -2834,7 +2834,7 @@ KEY_Enter
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3082,7 +3082,7 @@ KEY_Enter
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3344,7 +3344,7 @@ KEY_Enter
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3537,7 +3537,7 @@ KEY_Enter
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6534,7 +6534,7 @@ KEY_Enter
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

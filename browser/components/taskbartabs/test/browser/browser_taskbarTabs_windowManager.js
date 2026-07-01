@@ -2083,7 +2083,7 @@ newY1
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2337,7 +2337,7 @@ settle
 and
 persist
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

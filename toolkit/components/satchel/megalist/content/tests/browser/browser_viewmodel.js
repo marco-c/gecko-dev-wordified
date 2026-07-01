@@ -368,7 +368,7 @@ addMockPasswords
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

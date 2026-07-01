@@ -213,7 +213,7 @@ activeWindow
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

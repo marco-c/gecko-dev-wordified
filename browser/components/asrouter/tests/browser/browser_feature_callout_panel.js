@@ -1027,7 +1027,7 @@ reposition
 itself
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1678,7 +1678,7 @@ targeting
 renders
 async
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2750,7 +2750,7 @@ primary
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4345,7 +4345,7 @@ class
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

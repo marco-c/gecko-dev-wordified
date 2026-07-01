@@ -2095,7 +2095,7 @@ editors
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2745,7 +2745,7 @@ waitForPreviewVisible
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2796,7 +2796,7 @@ KEY_Escape
 )
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

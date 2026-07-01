@@ -1684,7 +1684,7 @@ done
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

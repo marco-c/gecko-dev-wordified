@@ -884,7 +884,7 @@ gBrowser
 let
 promise
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

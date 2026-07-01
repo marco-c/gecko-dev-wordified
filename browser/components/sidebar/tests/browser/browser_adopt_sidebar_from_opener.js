@@ -345,7 +345,7 @@ object
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -414,7 +414,7 @@ opener
 window
 sidebar
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -667,7 +667,7 @@ history
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -760,7 +760,7 @@ let
 newContentDocument
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

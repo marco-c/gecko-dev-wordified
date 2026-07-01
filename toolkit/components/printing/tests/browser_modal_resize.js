@@ -804,7 +804,7 @@ around
 that
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

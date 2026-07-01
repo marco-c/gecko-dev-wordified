@@ -908,7 +908,7 @@ this
 panel
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -981,7 +981,7 @@ visible
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1173,7 +1173,7 @@ waitForPanelClosed
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

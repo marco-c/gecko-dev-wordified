@@ -1060,7 +1060,7 @@ exited
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

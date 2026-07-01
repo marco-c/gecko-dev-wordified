@@ -5826,7 +5826,7 @@ in
 time
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

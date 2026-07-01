@@ -1591,7 +1591,7 @@ openTabsMenu
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1908,7 +1908,6 @@ view
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -2225,7 +2224,7 @@ await
 waitForGroup
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2460,7 +2459,7 @@ hidePopup
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3480,7 +3479,7 @@ sync
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -363,7 +363,7 @@ probe
 appears
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

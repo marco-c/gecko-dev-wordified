@@ -2049,7 +2049,7 @@ opentabs
 "
 tab
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4437,7 +4437,7 @@ to
 be
 removed
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4785,7 +4785,7 @@ to
 be
 removed
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6028,7 +6028,7 @@ to
 be
 reversed
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6418,7 +6418,7 @@ to
 be
 reversed
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6830,7 +6830,7 @@ to
 be
 updated
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -313,7 +313,7 @@ url
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -419,7 +419,7 @@ false
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

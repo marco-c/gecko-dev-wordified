@@ -3912,7 +3912,7 @@ tabNoteCreated
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5432,7 +5432,7 @@ window
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5971,7 +5971,7 @@ group1
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6024,7 +6024,7 @@ group2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -7258,7 +7258,7 @@ bgWindow
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -7383,7 +7383,7 @@ bgWindow
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -8353,7 +8353,7 @@ fail
 without
 it
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -8835,7 +8835,7 @@ window
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -8937,7 +8937,7 @@ window
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -9244,7 +9244,7 @@ window
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -9354,7 +9354,7 @@ window
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -9602,7 +9602,7 @@ fgWindow
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -10141,7 +10141,7 @@ mouseover
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -10219,7 +10219,7 @@ finish
 .
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -11194,7 +11194,7 @@ tabGroup
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -11225,7 +11225,7 @@ group
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

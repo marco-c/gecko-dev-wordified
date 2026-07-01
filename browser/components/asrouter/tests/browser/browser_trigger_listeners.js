@@ -719,7 +719,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3175,7 +3175,7 @@ minimize
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

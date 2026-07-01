@@ -361,7 +361,7 @@ occurring
 *
 /
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

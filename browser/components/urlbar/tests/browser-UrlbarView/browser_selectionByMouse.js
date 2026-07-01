@@ -2921,7 +2921,7 @@ let
 elements
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

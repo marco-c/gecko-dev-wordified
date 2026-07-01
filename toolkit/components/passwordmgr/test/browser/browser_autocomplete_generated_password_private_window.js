@@ -358,7 +358,7 @@ richlistitem
 let
 onPopupClosed
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

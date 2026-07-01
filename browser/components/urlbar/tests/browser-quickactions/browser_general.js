@@ -185,7 +185,7 @@ name
 >
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1791,7 +1791,7 @@ let
 updateButton
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1887,7 +1887,7 @@ update
 updateButton
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

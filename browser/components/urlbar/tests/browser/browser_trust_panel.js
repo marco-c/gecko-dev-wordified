@@ -819,7 +819,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1027,7 +1027,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1262,7 +1262,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1399,7 +1399,7 @@ button
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1684,7 +1684,7 @@ cryptomining
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1742,7 +1742,7 @@ fingerprinting
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2454,7 +2454,7 @@ to
 appear
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2854,7 +2854,7 @@ to
 appear
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3312,7 +3312,7 @@ section
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3372,7 +3372,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3440,7 +3440,7 @@ section
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3677,7 +3677,7 @@ section
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3801,7 +3801,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3869,7 +3869,7 @@ section
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4125,7 +4125,7 @@ to
 appear
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

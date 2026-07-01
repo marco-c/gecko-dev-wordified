@@ -2084,7 +2084,7 @@ tab2
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2197,7 +2197,7 @@ focus
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2293,7 +2293,7 @@ click
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2502,7 +2502,7 @@ correctly
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3496,7 +3496,7 @@ ends
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4114,7 +4114,7 @@ focus
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

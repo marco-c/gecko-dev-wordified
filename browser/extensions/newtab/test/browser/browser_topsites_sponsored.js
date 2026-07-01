@@ -200,7 +200,7 @@ to
 render
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

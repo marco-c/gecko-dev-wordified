@@ -1062,7 +1062,7 @@ tab5
 let
 tabsReordered
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -4704,7 +4704,7 @@ s
 async
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

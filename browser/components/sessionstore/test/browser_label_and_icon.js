@@ -216,7 +216,7 @@ stored
 properly
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -150,7 +150,7 @@ showFirefoxAccountsForAIWindow
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

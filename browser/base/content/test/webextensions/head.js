@@ -1150,7 +1150,7 @@ just
 clicked
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

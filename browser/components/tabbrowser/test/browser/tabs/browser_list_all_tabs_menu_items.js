@@ -1452,7 +1452,7 @@ persist
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

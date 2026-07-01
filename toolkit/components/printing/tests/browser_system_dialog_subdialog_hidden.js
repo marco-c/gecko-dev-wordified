@@ -549,7 +549,7 @@ print
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

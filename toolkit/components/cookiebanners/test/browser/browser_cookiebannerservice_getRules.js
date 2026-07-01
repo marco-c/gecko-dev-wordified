@@ -330,7 +330,7 @@ CookieBannerListService
 importAllRules
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

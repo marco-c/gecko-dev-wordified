@@ -1313,7 +1313,7 @@ waitForPendingHistory
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

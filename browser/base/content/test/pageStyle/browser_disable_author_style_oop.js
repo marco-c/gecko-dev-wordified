@@ -218,7 +218,7 @@ be
 styled
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

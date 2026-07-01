@@ -1206,7 +1206,7 @@ work
 let
 ready
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

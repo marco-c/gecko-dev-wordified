@@ -289,7 +289,7 @@ browser
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -416,7 +416,7 @@ mouseover
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

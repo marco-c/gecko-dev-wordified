@@ -1137,7 +1137,7 @@ should
 remain
 open
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -2123,7 +2123,7 @@ doc
 css_marker_mid
 .
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

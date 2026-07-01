@@ -247,7 +247,7 @@ pass
 try
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

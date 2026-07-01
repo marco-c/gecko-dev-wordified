@@ -1077,7 +1077,7 @@ error
 popup
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

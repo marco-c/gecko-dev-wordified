@@ -523,7 +523,7 @@ doCommand
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -628,7 +628,7 @@ abortAllDialogs
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

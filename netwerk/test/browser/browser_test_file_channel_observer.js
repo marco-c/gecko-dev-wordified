@@ -453,7 +453,7 @@ opened
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -448,7 +448,7 @@ editBMPanel_locationField
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

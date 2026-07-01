@@ -226,7 +226,7 @@ notificationValue
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -663,7 +663,7 @@ await
 newWindowPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -757,7 +757,7 @@ await
 loadPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -446,7 +446,6 @@ for
 script
 to
 finish
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -577,7 +576,6 @@ openProtectionsPanel
 window
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -612,7 +610,7 @@ there
 after
 unblock
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -3269,7 +3269,7 @@ input
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

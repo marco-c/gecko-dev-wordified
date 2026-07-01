@@ -1912,7 +1912,7 @@ to
 render
 something
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

@@ -159,7 +159,7 @@ preview
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

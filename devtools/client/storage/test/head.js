@@ -6839,7 +6839,7 @@ to
 become
 empty
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

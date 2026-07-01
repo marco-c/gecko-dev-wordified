@@ -640,7 +640,7 @@ it
 let
 waitForPanelShown
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

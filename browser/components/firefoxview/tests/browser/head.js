@@ -2438,7 +2438,7 @@ deck
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2475,7 +2475,7 @@ win
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

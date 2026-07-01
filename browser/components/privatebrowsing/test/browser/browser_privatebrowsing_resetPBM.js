@@ -3375,7 +3375,7 @@ remaining
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3855,7 +3855,7 @@ remaining
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -4828,7 +4828,7 @@ remaining
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

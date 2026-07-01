@@ -1362,7 +1362,7 @@ splitButtonMain
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1588,7 +1588,7 @@ i
 ]
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

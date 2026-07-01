@@ -400,7 +400,7 @@ sidebar
 toolButtons
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

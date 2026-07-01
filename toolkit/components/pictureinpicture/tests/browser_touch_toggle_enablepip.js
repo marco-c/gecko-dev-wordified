@@ -677,7 +677,6 @@ toggle
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -697,7 +696,6 @@ content
 window
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1153,7 +1151,7 @@ open
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

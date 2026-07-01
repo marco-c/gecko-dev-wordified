@@ -4259,7 +4259,7 @@ await
 dialogPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -6117,7 +6117,7 @@ message
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

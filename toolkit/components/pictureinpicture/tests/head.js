@@ -5590,7 +5590,7 @@ await
 entered
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5853,7 +5853,7 @@ await
 exited
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (

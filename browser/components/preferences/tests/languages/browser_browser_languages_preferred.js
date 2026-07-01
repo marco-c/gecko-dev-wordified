@@ -629,7 +629,7 @@ fr
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
