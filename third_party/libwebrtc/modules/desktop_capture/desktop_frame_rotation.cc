@@ -602,7 +602,7 @@ RTC_DCHECK
 target
 )
 ;
-RTC_DCHECK
+RTC_CHECK
 (
 DesktopRect
 :
@@ -673,7 +673,7 @@ rotation
 target_offset
 )
 ;
-RTC_DCHECK
+RTC_CHECK
 (
 DesktopRect
 :
