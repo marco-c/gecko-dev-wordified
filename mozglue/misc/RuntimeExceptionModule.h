@@ -86,16 +86,6 @@ UnregisterRuntimeExceptionModule
 (
 )
 ;
-MFBT_API
-bool
-CrashReporterIsEnabled
-(
-bool
-force
-=
-false
-)
-;
 }
 /
 /
