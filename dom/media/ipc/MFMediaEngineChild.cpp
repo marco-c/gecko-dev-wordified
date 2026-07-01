@@ -1201,6 +1201,8 @@ MFMediaEngineChild
 :
 RecvNotifyHardwareReset
 (
+uint32_t
+aPlatformError
 )
 {
 AssertOnManagerThread
@@ -1227,6 +1229,7 @@ mOwner
 >
 NotifyHardwareReset
 (
+aPlatformError
 )
 ;
 return
@@ -2728,6 +2731,8 @@ MFMediaEngineWrapper
 :
 NotifyHardwareReset
 (
+uint32_t
+aPlatformError
 )
 {
 AssertOnManagerThread
@@ -2748,6 +2753,7 @@ mOwner
 >
 NotifyHardwareReset
 (
+aPlatformError
 )
 ;
 }
