@@ -4382,6 +4382,12 @@ defined
 (
 __HAIKU__
 )
+|
+|
+defined
+(
+__sun__
+)
 /
 /
 visionOS
@@ -4389,6 +4395,8 @@ visionOS
 tvOS
 /
 Haiku
+/
+Solaris
 don
 '
 t
