@@ -925,15 +925,6 @@ locale
 self
 .
 locale
-os_version
-:
-None
-/
-/
-TODO
-:
-bug
-2017277
 }
 )
 ;

@@ -386,12 +386,6 @@ str
 =
 None
         
-in_session
-:
-bool
-=
-False
-        
 _config
 :
 Optional
@@ -614,23 +608,6 @@ self
 telemetry_mirror
 =
 telemetry_mirror
-        
-if
-not
-hasattr
-(
-self
-"
-in_session
-"
-)
-:
-            
-self
-.
-in_session
-=
-in_session
         
 #
 _validated
@@ -2027,20 +2004,6 @@ extra_keys
 "
 {
 }
-)
-        
-self
-.
-in_session
-=
-kwargs
-.
-pop
-(
-"
-in_session
-"
-True
 )
         
 self

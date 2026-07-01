@@ -942,9 +942,6 @@ None
 locale
 :
 None
-os_version
-:
-None
 }
 )
 ;

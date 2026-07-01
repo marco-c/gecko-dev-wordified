@@ -4342,9 +4342,6 @@ Some
 (
 41
 )
-session_sample_rate
-:
-None
 }
 ;
 glean
