@@ -3374,7 +3374,7 @@ asrouter
 ftl
 "
 "
-preview
+browser
 /
 aiWindow
 .
