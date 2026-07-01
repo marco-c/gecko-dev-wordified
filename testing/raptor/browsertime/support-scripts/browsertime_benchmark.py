@@ -843,6 +843,7 @@ LOG
 info
 (
                         
+f
 "
 turning
 on
@@ -852,11 +853,10 @@ for
 measurement
 type
 :
-%
-s
-"
-%
+{
 name
+}
+"
                     
 )
                     
@@ -911,37 +911,42 @@ failed_tests
 append
 (
                         
+f
 "
-%
-s
+{
+_sub
+}
 test
 Failed
 .
-decodedFrames
-%
-s
-droppedFrames
-%
-s
-.
 "
                         
-%
-(
-_sub
-_value
-[
+f
 "
 decodedFrames
-"
-]
+{
 _value
 [
+'
+decodedFrames
+'
+]
+}
+"
+                        
+f
 "
 droppedFrames
-"
+{
+_value
+[
+'
+droppedFrames
+'
 ]
-)
+}
+.
+"
                     
 )
                 
@@ -2486,6 +2491,7 @@ raise
 Exception
 (
                     
+f
 "
 Speedometer
 has
@@ -2493,15 +2499,14 @@ has
 subtests
 found
 :
-%
-s
-instead
-"
-%
+{
 len
 (
 results
 )
+}
+instead
+"
                 
 )
             
@@ -3775,17 +3780,17 @@ return
 raise
 NotImplementedError
 (
+f
 "
 Summary
 for
-%
-s
+{
+testname
+}
 is
 not
 implemented
 "
-%
-testname
 )
         
 if
@@ -3951,15 +3956,15 @@ vals
 raise
 NotImplementedError
 (
+f
 "
 Unit
-%
-s
+{
+unit
+}
 not
 suported
 "
-%
-unit
 )
         
 if
@@ -4248,12 +4253,14 @@ for
 measurement
 type
 :
-%
-s
 "
                     
-%
+f
+"
+{
 measurement_name
+}
+"
                 
 )
                 
@@ -4350,12 +4357,14 @@ for
 measurement
 type
 :
-%
-s
 "
                     
-%
+f
+"
+{
 measurement_name
+}
+"
                 
 )
                 
@@ -4702,6 +4711,7 @@ LOG
 .
 warning
 (
+f
 "
 Youtube
 sub
@@ -4709,11 +4719,10 @@ sub
 test
 FAILED
 :
-%
-s
-"
-%
+{
 test
+}
+"
 )
                 
 LOG

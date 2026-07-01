@@ -245,16 +245,16 @@ LOG
 .
 info
 (
+f
 "
 setup_test
 :
 '
-%
-s
+{
+test
+}
 '
 "
-%
-test
 )
         
 self
@@ -463,6 +463,7 @@ LOG
 .
 info
 (
+f
 "
 Caddy
 is
@@ -470,10 +471,7 @@ installed
 .
 Version
 :
-%
-s
-"
-%
+{
 result
 .
 stdout
@@ -481,6 +479,8 @@ stdout
 strip
 (
 )
+}
+"
 )
                 
 return
@@ -554,17 +554,17 @@ LOG
 .
 info
 (
+f
 "
 node
 bin
 :
-%
-s
-"
-%
+{
 self
 .
 browsertime_node
+}
+"
 )
         
 server_path
@@ -604,14 +604,14 @@ LOG
 .
 info
 (
+f
 "
 server_path
 :
-%
-s
-"
-%
+{
 server_path
+}
+"
 )
         
 if
@@ -674,15 +674,15 @@ LOG
 .
 info
 (
+f
 "
 server
 msg
 :
-%
-s
-"
-%
+{
 msg
+}
+"
 )
         
 match
@@ -735,17 +735,17 @@ LOG
 .
 info
 (
+f
 "
 backend
 port
 :
-%
-s
-"
-%
+{
 self
 .
 backend_port
+}
+"
 )
             
 return
@@ -911,14 +911,14 @@ LOG
 .
 info
 (
+f
 "
 key_path
 :
-%
-s
-"
-%
+{
 key_path
+}
+"
 )
         
 if
@@ -949,14 +949,14 @@ LOG
 .
 info
 (
+f
 "
 pem_path
 :
-%
-s
-"
-%
+{
 pem_path
+}
+"
 )
         
 if
@@ -1555,14 +1555,14 @@ LOG
 .
 info
 (
+f
 "
 caddyfile_content
 :
-%
-s
-"
-%
+{
 caddyfile_content
+}
+"
 )
         
 with
@@ -1612,14 +1612,14 @@ LOG
 .
 info
 (
+f
 "
 temp_json_file_path
 :
-%
-s
-"
-%
+{
 temp_json_file_path
+}
+"
 )
         
 command
@@ -4683,14 +4683,14 @@ LOG
 .
 info
 (
+f
 "
 modify_command
 :
-%
-s
-"
-%
+{
 cmd
+}
+"
 )
         
 #
@@ -5349,9 +5349,11 @@ LOG
 .
 info
 (
+f
 "
-%
-s
+{
+name
+}
 server
 shutting
 down
@@ -5359,8 +5361,6 @@ down
 .
 .
 "
-%
-name
 )
         
 if
@@ -5378,19 +5378,19 @@ LOG
 .
 info
 (
+f
 "
 server
 already
 dead
-%
-s
-"
-%
+{
 proc
 .
 poll
 (
 )
+}
+"
 )
         
 else
@@ -5400,20 +5400,17 @@ LOG
 .
 info
 (
+f
 "
 server
 pid
 is
-%
-s
-"
-%
-str
-(
+{
 proc
 .
 pid
-)
+}
+"
 )
             
 try

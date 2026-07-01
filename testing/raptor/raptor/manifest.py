@@ -516,11 +516,13 @@ LOG
 error
 (
                 
+f
 "
 setting
 '
-%
-s
+{
+setting
+}
 '
 is
 required
@@ -528,20 +530,19 @@ but
 not
 found
 in
-%
-s
 "
                 
-%
-(
-setting
+f
+"
+{
 test_details
 [
-"
+'
 manifest
-"
+'
 ]
-)
+}
+"
             
 )
     
@@ -606,11 +607,13 @@ LOG
 error
 (
                     
+f
 "
 setting
 '
-%
-s
+{
+setting
+}
 '
 is
 required
@@ -618,20 +621,19 @@ but
 not
 found
 in
-%
-s
 "
                     
-%
-(
-setting
+f
+"
+{
 test_details
 [
-"
+'
 manifest
-"
+'
 ]
-)
+}
+"
                 
 )
     
@@ -1031,6 +1033,7 @@ LOG
 error
 (
                     
+f
 "
 The
 '
@@ -1039,16 +1042,17 @@ alert_on
 value
 of
 '
-%
-s
+{
+alert_on_value
+}
 '
 is
 not
 valid
-because
 "
                     
 "
+because
 it
 doesn
 '
@@ -1063,8 +1067,6 @@ test
 setting
 !
 "
-%
-alert_on_value
                 
 )
                 
@@ -3317,21 +3319,21 @@ LOG
 .
 info
 (
+f
 "
 configuring
 settings
 for
 test
-%
-s
-"
-%
+{
 next_test
 [
-"
+'
 name
-"
+'
 ]
+}
+"
 )
         
 max_page_cycles
@@ -3679,6 +3681,7 @@ LOG
 info
 (
                         
+f
 "
 gecko
 -
@@ -3686,13 +3689,12 @@ profiling
 entries
 set
 to
-%
-s
-"
-%
+{
 args
 .
 gecko_profile_entries
+}
+"
                     
 )
                 
@@ -3737,6 +3739,7 @@ LOG
 info
 (
                         
+f
 "
 gecko
 -
@@ -3744,14 +3747,12 @@ profiling
 interval
 set
 to
-%
-s
-"
-                        
-%
+{
 args
 .
 gecko_profile_interval
+}
+"
                     
 )
                 
@@ -3882,18 +3883,18 @@ LOG
 .
 info
 (
+f
 "
 gecko
 -
 profiling
 threads
-%
-s
-"
-%
+{
 args
 .
 gecko_profile_threads
+}
+"
 )
                 
 if
@@ -3931,20 +3932,18 @@ LOG
 .
 info
 (
-                        
+f
 "
 gecko
 -
 profiling
 features
-%
-s
-"
-%
+{
 args
 .
 gecko_profile_features
-                    
+}
+"
 )
         
 else
@@ -4114,24 +4113,24 @@ LOG
 info
 (
                 
+f
 "
 setting
 page
 -
 cycles
 to
-%
-d
+{
+args
+.
+page_cycles
+}
 as
 specified
 on
 cmd
 line
 "
-%
-args
-.
-page_cycles
             
 )
         
@@ -4166,29 +4165,31 @@ LOG
 info
 (
                 
+f
 "
 setting
 page
 -
 cycles
 to
-%
-d
+{
+next_test
+[
+'
+page_cycles
+'
+]
+}
 because
+"
+                
+"
 gecko
 -
 profling
 is
 enabled
 "
-                
-%
-next_test
-[
-"
-page_cycles
-"
-]
             
 )
         
@@ -4256,25 +4257,27 @@ LOG
 info
 (
                 
+f
 "
 setting
 browser
 -
 cycles
 to
-%
-d
+{
+args
+.
+browser_cycles
+}
 as
 specified
+"
+                
+"
 on
 cmd
 line
 "
-                
-%
-args
-.
-browser_cycles
             
 )
         
@@ -4309,29 +4312,31 @@ LOG
 info
 (
                 
+f
 "
 setting
 browser
 -
 cycles
 to
-%
-d
+{
+next_test
+[
+'
+browser_cycles
+'
+]
+}
 because
+"
+                
+"
 gecko
 -
 profilng
 is
 enabled
 "
-                
-%
-next_test
-[
-"
-browser_cycles
-"
-]
             
 )
         
@@ -4368,25 +4373,24 @@ LOG
 info
 (
                 
+f
 "
 setting
 page
 -
 timeout
 to
-%
-d
+{
+args
+.
+page_timeout
+}
 as
 specified
 on
 cmd
 line
 "
-                
-%
-args
-.
-page_timeout
             
 )
             
@@ -4815,50 +4819,52 @@ LOG
 info
 (
                 
+f
 "
 adding
 extra
 test_url
 params
 (
-%
-s
+{
+args
+.
+test_url_params
+}
 )
 as
 specified
+"
+                
+f
+"
 on
 cmd
 line
-"
-                
-"
 to
 the
 current
 test_url
 (
-%
-s
+{
+initial_test_url
+}
 )
-resulting
-:
-%
-s
 "
                 
-%
-(
-args
-.
-test_url_params
-initial_test_url
+f
+"
+resulting
+:
+{
 next_test
 [
-"
+'
 test_url
-"
+'
 ]
-)
+}
+"
             
 )
         
@@ -5017,6 +5023,7 @@ LOG
 info
 (
                 
+f
 "
 using
 live
@@ -5026,17 +5033,16 @@ using
 page
 timeout
 of
-%
-dms
-"
-                
-%
+{
 next_test
 [
-"
+'
 page_timeout
-"
+'
 ]
+}
+ms
+"
             
 )
         
@@ -5066,32 +5072,34 @@ raise
 Exception
 (
                 
+f
 "
-%
-s
+{
+next_test
+.
+get
+(
+'
+name
+'
+'
+Unknown
+'
+)
+}
 test
 can
 only
 be
 run
 with
+"
+                
+"
 -
 -
 browsertime
 "
-                
-%
-next_test
-.
-get
-(
-"
-name
-"
-"
-Unknown
-"
-)
             
 )
         
@@ -5637,10 +5645,17 @@ LOG
 .
 info
 (
+f
 "
 test
-%
-s
+{
+test
+[
+'
+name
+'
+]
+}
 is
 not
 valid
@@ -5649,13 +5664,6 @@ to
 missing
 settings
 "
-%
-test
-[
-"
-name
-"
-]
 )
                 
 tests_to_run
