@@ -3446,15 +3446,6 @@ GetPrincipal
 (
 )
 ;
-mStoragePrincipal
-=
-sop
--
->
-GetEffectiveStoragePrincipal
-(
-)
-;
 /
 /
 Begin
