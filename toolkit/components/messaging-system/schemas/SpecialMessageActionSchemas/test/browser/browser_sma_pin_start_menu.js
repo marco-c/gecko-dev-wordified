@@ -69,14 +69,14 @@ return
 this
 ;
 }
-isCurrentAppPinnedToStartMenu
+isCurrentAppPinnedToStartMenuAsync
 :
 sandbox
 .
 stub
 (
 )
-pinCurrentAppToStartMenu
+pinCurrentAppToStartMenuAsync
 :
 sandbox
 .
@@ -153,7 +153,7 @@ prop
 ;
 shell
 .
-isCurrentAppPinnedToStartMenu
+isCurrentAppPinnedToStartMenuAsync
 .
 resolves
 (
@@ -195,7 +195,7 @@ shell
 ;
 shell
 .
-isCurrentAppPinnedToStartMenu
+isCurrentAppPinnedToStartMenuAsync
 .
 resolves
 (
@@ -220,11 +220,11 @@ equal
 (
 shell
 .
-pinCurrentAppToStartMenu
+pinCurrentAppToStartMenuAsync
 .
 callCount
 count
-pinCurrentAppToStartMenu
+pinCurrentAppToStartMenuAsync
 was
 {
 message
@@ -256,7 +256,7 @@ pinned
 .
 shell
 .
-isCurrentAppPinnedToStartMenu
+isCurrentAppPinnedToStartMenuAsync
 .
 resolves
 (
@@ -287,7 +287,7 @@ unpinned
 .
 shell
 .
-isCurrentAppPinnedToStartMenu
+isCurrentAppPinnedToStartMenuAsync
 .
 resolves
 (

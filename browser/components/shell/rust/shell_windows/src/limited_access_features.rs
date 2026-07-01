@@ -1954,7 +1954,7 @@ Publisher
 "
 >
 in
-AppxManifest
+AppxManfiest
 .
 xml
 .
@@ -2053,6 +2053,7 @@ xml
 For
 unpackaged
 applications
+this
 this
 is
 inferred
@@ -2433,7 +2434,7 @@ Safety
 /
 This
 function
-must
+much
 be
 called
 with
