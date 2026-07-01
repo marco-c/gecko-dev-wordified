@@ -1217,9 +1217,7 @@ cubeb_stream
 aStream
 )
 ;
-char
-const
-*
+nsCString
 StreamName
 (
 )
@@ -1237,10 +1235,6 @@ mMutex
 ;
 return
 mName
-.
-get
-(
-)
 ;
 }
 cubeb_devid
