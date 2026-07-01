@@ -1810,7 +1810,7 @@ ai
 -
 controls
 -
-header2
+header3
 "
 iconSrc
 :
@@ -1891,7 +1891,7 @@ l10nId
 "
 pane
 -
-downloads2
+downloads3
 "
 iconSrc
 :
@@ -2294,7 +2294,7 @@ preferences
 -
 languages
 -
-header2
+header3
 "
 iconSrc
 :
