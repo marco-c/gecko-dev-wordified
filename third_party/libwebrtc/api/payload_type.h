@@ -418,6 +418,7 @@ rtcp_mux
 =
 false
 )
+const
 {
 /
 /
@@ -533,6 +534,7 @@ bool
 IsSet
 (
 )
+const
 {
 return
 value
