@@ -363,6 +363,11 @@ innerViews
 zone
 zone
 )
+moduleScriptSources
+(
+zone
+zone
+)
 iteratorCache
 (
 zone
