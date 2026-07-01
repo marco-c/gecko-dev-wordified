@@ -834,14 +834,6 @@ ssrc
 )
 override
 ;
-void
-SetLocalSsrc
-(
-uint32_t
-local_ssrc
-)
-override
-;
 /
 /
 Sender
@@ -2421,6 +2413,7 @@ placed
 before
 it
 .
+const
 absl
 :
 :
@@ -2432,10 +2425,6 @@ uint32_t
 const
 >
 recv_ssrc_callback_
-RTC_GUARDED_BY
-(
-rtcp_module_checker_
-)
 ;
 /
 /
@@ -2464,12 +2453,9 @@ rtcp_sender_
 RTCPReceiver
 rtcp_receiver_
 ;
+const
 uint16_t
 packet_overhead_
-RTC_GUARDED_BY
-(
-rtcp_module_checker_
-)
 ;
 /
 /
