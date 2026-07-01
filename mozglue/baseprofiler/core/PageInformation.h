@@ -282,6 +282,9 @@ if
 -
 -
 mRefCnt
+=
+=
+0
 )
 {
 delete
