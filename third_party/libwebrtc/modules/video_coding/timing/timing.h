@@ -860,7 +860,6 @@ currently
 is
 now
 .
-virtual
 Timestamp
 RenderTime
 (
@@ -970,7 +969,6 @@ as
 /
 possible
 .
-virtual
 TimeDelta
 MaxWaitingTime
 (
