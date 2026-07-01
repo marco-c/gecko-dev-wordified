@@ -239,13 +239,6 @@ interface
 ResourceCallbacks
 {
 void
-onLoad
-(
-String
-mediaUrl
-)
-;
-void
 onDataArrived
 (
 )

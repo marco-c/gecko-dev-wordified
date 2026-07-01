@@ -196,17 +196,6 @@ WrapForJNI
 public
 native
 void
-onLoad
-(
-String
-mediaUrl
-)
-;
-Override
-WrapForJNI
-public
-native
-void
 onDataArrived
 (
 )
