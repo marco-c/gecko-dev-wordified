@@ -2270,12 +2270,6 @@ NSS_CMSSignedData_Destroy
 )
 MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
 (
-UniquePK11GenericObject
-PK11GenericObject
-PK11_DestroyGenericObject
-)
-MOZ_TYPE_SPECIFIC_UNIQUE_PTR_TEMPLATE
-(
 UniquePK11SlotList
 PK11SlotList
 PK11_FreeSlotList
