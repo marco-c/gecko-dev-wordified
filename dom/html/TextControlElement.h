@@ -1553,6 +1553,14 @@ bool
 aNotify
 )
 ;
+Element
+*
+FindShadowPseudo
+(
+PseudoStyleType
+)
+const
+;
 void
 UpdatePlaceholder
 (
