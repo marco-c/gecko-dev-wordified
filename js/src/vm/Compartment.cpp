@@ -2551,7 +2551,7 @@ CrossCompartmentWrapperObject
 )
 )
 {
-NukeCrossCompartmentWrapper
+NukeRemovedCrossCompartmentWrapper
 (
 cx
 wrapper
