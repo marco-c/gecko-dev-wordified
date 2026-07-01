@@ -791,7 +791,6 @@ fn
 update
 (
 &
-mut
 self
 frame_state
 :

@@ -1268,7 +1268,6 @@ fn
 write_brush_gpu_blocks
 (
 &
-mut
 self
 prim_size
 :
@@ -1389,7 +1388,6 @@ fn
 update
 (
 &
-mut
 self
 border_segments
 :
