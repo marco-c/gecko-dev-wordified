@@ -5935,6 +5935,15 @@ if
 (
 !
 mSessionManager
+|
+|
+!
+StaticPrefs
+:
+:
+widget_wayland_session_management_enabled_AtStartup
+(
+)
 )
 {
 return
