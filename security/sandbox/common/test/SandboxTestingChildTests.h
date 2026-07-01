@@ -341,15 +341,6 @@ endif
 ifdef
 XP_MACOSX
 #
-include
-"
-mozilla
-/
-Sandbox
-.
-h
-"
-#
 if
 defined
 (
@@ -9654,9 +9645,7 @@ child
 RunMacTestWindowServer
 (
 child
-ProcessIsX86_64
-(
-)
+true
 )
 ;
 #
