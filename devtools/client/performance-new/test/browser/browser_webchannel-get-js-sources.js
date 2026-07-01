@@ -164,6 +164,9 @@ uuid
 1
 "
 :
+{
+sourceText
+:
 "
 function
 testFunction
@@ -175,6 +178,7 @@ return
 ;
 }
 "
+}
 "
 uuid
 -
@@ -182,6 +186,9 @@ uuid
 -
 2
 "
+:
+{
+sourceText
 :
 "
 console
@@ -197,6 +204,7 @@ source
 )
 ;
 "
+}
 "
 uuid
 -
@@ -204,6 +212,9 @@ uuid
 -
 5
 "
+:
+{
+sourceText
 :
 "
 function
@@ -218,6 +229,7 @@ test
 ;
 }
 "
+}
 "
 uuid
 -
@@ -225,6 +237,9 @@ uuid
 -
 6
 "
+:
+{
+sourceText
 :
 "
 alert
@@ -236,6 +251,7 @@ world
 )
 ;
 "
+}
 }
 ;
 const
@@ -403,7 +419,7 @@ basic
 +
 "
 &
-sourceUuids
+sourceIds
 =
 "
 +
@@ -529,6 +545,9 @@ uuid
 1
 "
 :
+{
+sourceText
+:
 "
 function
 testFunction
@@ -540,6 +559,7 @@ return
 ;
 }
 "
+}
 }
 ;
 /
@@ -688,7 +708,7 @@ nonexistent
 +
 "
 &
-sourceUuids
+sourceIds
 =
 "
 +
@@ -876,7 +896,7 @@ data
 +
 "
 &
-sourceUuids
+sourceIds
 =
 "
 +
@@ -1011,7 +1031,7 @@ need
 to
 pass
 invalid
-sourceUuids
+sourceIds
 directly
 in
 the
@@ -1048,7 +1068,7 @@ request
 +
 "
 &
-sourceUuids
+sourceIds
 =
 invalid_not_array
 "

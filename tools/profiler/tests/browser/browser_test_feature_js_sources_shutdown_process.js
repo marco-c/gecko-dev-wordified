@@ -645,6 +645,9 @@ sources
 [
 sourceId
 ]
+?
+.
+sourceText
 ;
 if
 (

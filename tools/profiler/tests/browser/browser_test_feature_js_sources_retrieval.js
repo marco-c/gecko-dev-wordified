@@ -442,7 +442,7 @@ sources
 )
 {
 const
-sourceText
+sourceInfo
 =
 sources
 [
@@ -485,6 +485,9 @@ Assert
 ok
 (
 typeof
+sourceInfo
+?
+.
 sourceText
 =
 =
@@ -496,6 +499,8 @@ string
 &
 !
 !
+sourceInfo
+.
 sourceText
 .
 length
@@ -504,12 +509,11 @@ Source
 sourceId
 }
 should
-be
-a
+have
 non
 -
 empty
-string
+sourceText
 )
 ;
 }
@@ -831,6 +835,9 @@ sources
 [
 sourceId
 ]
+?
+.
+sourceText
 ;
 if
 (
@@ -1248,6 +1255,9 @@ sources
 [
 sourceId
 ]
+?
+.
+sourceText
 ;
 if
 (
