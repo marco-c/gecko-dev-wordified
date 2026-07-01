@@ -24420,17 +24420,6 @@ DeprecatedOperations
 aOperation
 )
 ;
-void
-DeprecationWarning
-(
-const
-GlobalObject
-&
-aGlobal
-DeprecatedOperations
-aOperation
-)
-;
 namespace
 binding_detail
 {
