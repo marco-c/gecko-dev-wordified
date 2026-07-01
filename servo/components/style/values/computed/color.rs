@@ -635,9 +635,6 @@ foreground
 color
 into
 an
-/
-/
-/
 absolute
 color
 .
