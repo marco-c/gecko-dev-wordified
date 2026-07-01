@@ -4731,6 +4731,13 @@ but
 -
 default
 *
+/
+/
+src
+=
+*
+source
+*
 )
 /
 /
@@ -4825,6 +4832,8 @@ ImportEntry
 +
 /
 ns
+/
+src
 |
 -
 |

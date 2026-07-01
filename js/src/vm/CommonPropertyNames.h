@@ -3878,6 +3878,16 @@ namespace
 \
 MACRO_
 (
+star_source_star_
+"
+*
+source
+*
+"
+)
+\
+MACRO_
+(
 start
 "
 start
