@@ -3001,6 +3001,7 @@ inspectorFront
 getHighlighterByType
 (
 type
+true
 )
 ;
 }
