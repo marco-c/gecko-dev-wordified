@@ -321,7 +321,7 @@ props
 return
 dom
 .
-h1
+header
 (
 {
 className
@@ -383,7 +383,7 @@ version
 }
 dom
 .
-label
+h1
 (
 {
 className
@@ -427,6 +427,9 @@ subtitle
 runtime
 -
 info__subtitle
+heading
+-
+large
 "
 }
 deviceName
@@ -466,9 +469,6 @@ button
 className
 :
 "
-default
--
-button
 runtime
 -
 info__action

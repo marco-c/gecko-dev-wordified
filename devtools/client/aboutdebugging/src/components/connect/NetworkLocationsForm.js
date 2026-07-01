@@ -711,9 +711,6 @@ input
 className
 :
 "
-default
--
-input
 qa
 -
 network
@@ -796,8 +793,6 @@ className
 :
 "
 primary
--
-button
 qa
 -
 network

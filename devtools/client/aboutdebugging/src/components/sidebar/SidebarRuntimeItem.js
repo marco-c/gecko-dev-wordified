@@ -558,15 +558,9 @@ button
 className
 :
 "
-default
+small
 -
 button
-default
--
-button
--
--
-micro
 qa
 -
 connect
