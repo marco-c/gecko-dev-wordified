@@ -848,7 +848,13 @@ mozilla
 .
 org
 /
-psm
+network
+/
+ssl
+-
+tokens
+-
+cache
 ;
 1
 "
@@ -858,7 +864,7 @@ getService
 (
 Ci
 .
-nsINSSComponent
+nsISSLTokensCache
 )
 ;
 await
