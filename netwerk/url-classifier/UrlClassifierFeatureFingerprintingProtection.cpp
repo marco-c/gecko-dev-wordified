@@ -768,6 +768,7 @@ nsIWebProgressListener
 :
 :
 STATE_ALLOWED_FINGERPRINTING_CONTENT
+nullptr
 &
 decision
 )

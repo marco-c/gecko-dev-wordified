@@ -830,6 +830,7 @@ nsIWebProgressListener
 :
 :
 STATE_ALLOWED_TRACKING_CONTENT
+nullptr
 &
 decision
 )
