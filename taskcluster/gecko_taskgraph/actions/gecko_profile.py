@@ -760,6 +760,7 @@ Example
 :
 js
 stackwalk
+cpu
 screenshots
 memory
 "

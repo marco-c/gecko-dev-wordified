@@ -282,6 +282,7 @@ gecko_profile_features
 "
 js
 stackwalk
+cpu
 screenshots
 memory
 "
