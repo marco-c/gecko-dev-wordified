@@ -1494,8 +1494,12 @@ MaybeProcessCoalescingKeys
 (
 ConnectionEntry
 *
-nsIDNSAddrRecord
-*
+const
+nsTArray
+<
+NetAddr
+>
+&
 bool
 )
 override
