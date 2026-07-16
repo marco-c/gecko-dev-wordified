@@ -1969,6 +1969,9 @@ AUMID
 must_use
 ]
 pub
+(
+super
+)
 async
 fn
 set_aumid
@@ -2177,6 +2180,9 @@ default
 AUMID
 .
 pub
+(
+super
+)
 fn
 restore_aumid
 (
