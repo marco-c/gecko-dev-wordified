@@ -1867,10 +1867,10 @@ contextMenu
 dispatchEvent
 (
 new
-MouseEvent
+PointerEvent
 (
 "
-popupshowing
+contextmenu
 "
 {
 bubbles
