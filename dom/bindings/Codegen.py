@@ -54734,7 +54734,10 @@ return
 _setValue
 (
 "
-JS_NumberValue
+JS
+:
+:
+NumberValue
 (
 %
 s
@@ -85547,7 +85550,10 @@ double
 These
 all
 use
-JS_NumberValue
+JS
+:
+:
+NumberValue
 which
 can
 return
@@ -85557,8 +85563,7 @@ double
 .
             
 #
-But
-TI
+JSJitInfo
 treats
 "
 double
@@ -86190,7 +86195,10 @@ double
 These
 all
 use
-JS_NumberValue
+JS
+:
+:
+NumberValue
 which
 can
 return
@@ -86200,8 +86208,7 @@ double
 .
             
 #
-But
-TI
+JSJitInfo
 treats
 "
 double

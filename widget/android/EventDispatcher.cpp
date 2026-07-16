@@ -2115,7 +2115,13 @@ JNIEnv
 :
 ReleaseDoubleArrayElements
 &
-JS_NumberValue
+JS
+:
+:
+NumberValue
+<
+double
+>
 >
 (
 aCx

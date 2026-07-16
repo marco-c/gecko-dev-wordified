@@ -9237,7 +9237,7 @@ aCx
 JS
 :
 :
-Float32Value
+NumberValue
 (
 static_cast
 <
