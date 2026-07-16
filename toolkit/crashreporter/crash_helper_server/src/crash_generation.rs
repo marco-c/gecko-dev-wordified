@@ -1651,10 +1651,7 @@ kind
 phc
 :
 :
-Kind
-:
-:
-Unknown
+PHC_KIND_UNKNOWN
 {
 return
 Ok
