@@ -2754,7 +2754,7 @@ mozilla
 ScrollUpdateType
 :
 :
-PureRelative
+ZeroDeltaLayoutScroll
 >
 {
 }
