@@ -392,15 +392,8 @@ _notificationPanel
 null
 init
 (
-shouldSuppress
 )
 {
-this
-.
-_shouldSuppress
-=
-shouldSuppress
-;
 this
 .
 _initElements
@@ -6292,9 +6285,7 @@ document
 fullscreenElement
 |
 |
-this
-.
-_shouldSuppress
+shouldSuppressPopupNotifications
 (
 )
 )
