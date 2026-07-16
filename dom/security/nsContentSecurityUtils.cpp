@@ -14119,7 +14119,7 @@ if
 aDocument
 -
 >
-IsBeingUsedAsImage
+IsResourceDoc
 (
 )
 |
