@@ -217,7 +217,7 @@ counts
 /
 #
 ifdef
-DEBUG
+SOFTOKEN_FUZZ
 #
 define
 MAX_ITERATION_COUNT
