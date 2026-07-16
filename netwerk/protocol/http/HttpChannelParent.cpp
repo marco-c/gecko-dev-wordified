@@ -4987,6 +4987,9 @@ rv
 NS_LinkRedirectChannels
 (
 registrarId
+GetContentParentId
+(
+)
 this
 getter_AddRefs
 (
@@ -13050,6 +13053,9 @@ RegisterChannel
 (
 newChannel
 mRedirectChannelId
+GetContentParentId
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -13541,6 +13547,9 @@ rv
 NS_LinkRedirectChannels
 (
 mRedirectChannelId
+GetContentParentId
+(
+)
 this
 getter_AddRefs
 (

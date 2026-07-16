@@ -15546,6 +15546,8 @@ NS_LinkRedirectChannels
 (
 uint64_t
 channelId
+uint64_t
+aContentParentId
 nsIParentChannel
 *
 parentChannel
@@ -15580,6 +15582,7 @@ registrar
 LinkChannels
 (
 channelId
+aContentParentId
 parentChannel
 _result
 )

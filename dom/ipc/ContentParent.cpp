@@ -32047,6 +32047,9 @@ rv
 NS_LinkRedirectChannels
 (
 registrarId
+ChildID
+(
+)
 nullptr
 getter_AddRefs
 (
@@ -32103,6 +32106,9 @@ rv
 NS_LinkRedirectChannels
 (
 registrarId
+ChildID
+(
+)
 parent
 getter_AddRefs
 (

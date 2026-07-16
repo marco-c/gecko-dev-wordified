@@ -150,6 +150,8 @@ Register
 (
 uint64_t
 aRegistrarId
+uint64_t
+aContentParentId
 )
 {
 nsCOMPtr
@@ -192,6 +194,7 @@ MOZ_ALWAYS_SUCCEEDS
 NS_LinkRedirectChannels
 (
 aRegistrarId
+aContentParentId
 this
 getter_AddRefs
 (
