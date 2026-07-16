@@ -451,6 +451,17 @@ length
 of
 the
 payload
+Returns
+an
+error
+if
+the
+payload
+length
+is
+above
+INT_MAX
+.
 param
 evbuf
 the
