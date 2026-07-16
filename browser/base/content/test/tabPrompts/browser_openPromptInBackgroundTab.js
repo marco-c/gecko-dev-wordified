@@ -862,9 +862,7 @@ waitForAttribute
 selected
 "
 openedTab
-"
 true
-"
 )
 ;
 /
