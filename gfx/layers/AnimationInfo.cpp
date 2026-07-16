@@ -2377,7 +2377,7 @@ state
 timeline
 -
 >
-GetState
+GetSnapshot
 (
 )
 ;
