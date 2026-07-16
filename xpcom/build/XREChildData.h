@@ -81,7 +81,7 @@ mozilla
 /
 sandboxing
 /
-loggingTypes
+TargetGeckoServices
 .
 h
 "
@@ -153,13 +153,11 @@ nullptr
 *
 *
 *
-Function
+Callback
 to
-provide
-a
-logging
-function
-to
+set
+TargetGeckoServices
+in
 the
 chromium
 sandbox
@@ -173,8 +171,8 @@ mozilla
 sandboxing
 :
 :
-ProvideLogFunctionCb
-ProvideLogFunction
+SetTargetGeckoServicesCb
+setTargetGeckoServices
 =
 nullptr
 ;

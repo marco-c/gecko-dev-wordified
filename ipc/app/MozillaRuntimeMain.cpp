@@ -158,7 +158,7 @@ mozilla
 /
 sandboxing
 /
-sandboxLogging
+TargetGeckoServices
 .
 h
 "
@@ -586,7 +586,7 @@ return
 }
 childData
 .
-ProvideLogFunction
+setTargetGeckoServices
 =
 mozilla
 :
@@ -594,7 +594,7 @@ mozilla
 sandboxing
 :
 :
-ProvideLogFunction
+SetTargetGeckoServices
 ;
 }
 #
