@@ -330,6 +330,17 @@ aFamily
 0
 ;
 virtual
+void
+ResetIPFamilyPreference
+(
+ConnectionEntry
+*
+aEntry
+)
+=
+0
+;
+virtual
 bool
 MaybeProcessCoalescingKeys
 (
