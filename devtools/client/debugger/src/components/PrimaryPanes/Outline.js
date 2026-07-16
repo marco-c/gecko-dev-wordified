@@ -1992,11 +1992,6 @@ devtools
 -
 monospace
 "
-dir
-:
-"
-ltr
-"
 }
 namedFunctions
 .
@@ -2621,11 +2616,6 @@ list
 devtools
 -
 monospace
-"
-dir
-:
-"
-ltr
 "
 }
 filteredAtRules
