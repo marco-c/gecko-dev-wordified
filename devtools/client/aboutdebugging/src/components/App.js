@@ -650,12 +650,6 @@ page
 "
 {
 selectedRuntimeId
-:
-selectedRuntimeId
-|
-|
-"
-"
 }
 )
 :
