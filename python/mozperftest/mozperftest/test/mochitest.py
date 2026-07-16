@@ -822,7 +822,6 @@ MOZ_PROFILER_STARTUP_FEATURES
 "
 js
 stackwalk
-cpu
 screenshots
 memory
 "

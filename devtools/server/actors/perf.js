@@ -570,9 +570,6 @@ js
 stackwalk
 "
 "
-cpu
-"
-"
 memory
 "
 ]
