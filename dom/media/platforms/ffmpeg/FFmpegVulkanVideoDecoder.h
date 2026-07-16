@@ -499,11 +499,6 @@ mCmdCopyImage
 =
 nullptr
 ;
-PFN_vkDeviceWaitIdle
-mDeviceWaitIdle
-=
-nullptr
-;
 /
 /
 Function
