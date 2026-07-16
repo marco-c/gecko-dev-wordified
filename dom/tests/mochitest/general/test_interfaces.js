@@ -3968,6 +3968,9 @@ CSSTranslate
 insecureContext
 :
 true
+nightly
+:
+true
 }
 /
 /
