@@ -271,7 +271,10 @@ any
 thread
 .
 static
-bool
+media
+:
+:
+DecodeSupportSet
 Supports
 (
 RemoteMediaIn
