@@ -2109,6 +2109,12 @@ width
 stdDev
 .
 height
+/
+*
+should_inflate
+*
+/
+true
 )
 )
 ;

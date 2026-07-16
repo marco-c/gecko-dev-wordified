@@ -2553,6 +2553,7 @@ Blur
 (
 width
 height
+should_inflate
 )
 =
 >
@@ -2564,8 +2565,6 @@ Blur
 width
 height
 should_inflate
-:
-true
 edge_mode
 :
 BlurEdgeMode
