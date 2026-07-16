@@ -7972,7 +7972,7 @@ ChromeRulesEnabled
 mDocument
 -
 >
-UserHasInteracted
+HasBeenUserGestureActivated
 (
 )
 )
