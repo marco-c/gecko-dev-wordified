@@ -971,6 +971,13 @@ bool
 false
 )
 \
+_
+(
+AllowMetalAngleWebGL
+bool
+false
+)
+\
 /
 *
 Add
