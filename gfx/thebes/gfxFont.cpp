@@ -13303,8 +13303,15 @@ mFontParams
 contextPaint
 -
 >
-GetFillPattern
+GetPattern
 (
+SVGContextPaint
+:
+:
+Tag
+:
+:
+Fill
 mRunParams
 .
 context
