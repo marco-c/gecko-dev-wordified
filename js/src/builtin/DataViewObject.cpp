@@ -4914,15 +4914,12 @@ rval
 .
 setDouble
 (
-CanonicalizeNaN
-(
 static_cast
 <
 double
 >
 (
 val
-)
 )
 )
 ;
@@ -5049,10 +5046,7 @@ rval
 .
 setDouble
 (
-CanonicalizeNaN
-(
 val
-)
 )
 ;
 return
@@ -5178,10 +5172,7 @@ rval
 .
 setDouble
 (
-CanonicalizeNaN
-(
 val
-)
 )
 ;
 return
