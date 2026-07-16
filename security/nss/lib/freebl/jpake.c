@@ -2489,8 +2489,12 @@ GX4
 0
 )
 {
-return
+err
+=
 MP_BADARG
+;
+goto
+cleanup
 ;
 }
 CHECK_MPI_OK

@@ -2039,7 +2039,10 @@ above
 #
 define
 FIPS_INTERFACE_COUNT
-4
+PR_ARRAY_SIZE
+(
+fips_interfaces
+)
 /
 *
 CKO_NOT_A_KEY
@@ -11139,7 +11142,7 @@ CHECK_FORK
 )
 ;
 return
-FC_AsyncJoin
+NSC_AsyncJoin
 (
 hSession
 pFunctionName

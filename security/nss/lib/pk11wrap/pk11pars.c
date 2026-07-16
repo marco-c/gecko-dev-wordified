@@ -12904,14 +12904,14 @@ loser
 PORT_Strcpy
 (
 newParam
-oldParam
+rawParam
 )
 ;
 tmpLen
 =
 strlen
 (
-oldParam
+rawParam
 )
 ;
 nextParam
