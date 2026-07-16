@@ -11087,6 +11087,16 @@ AudioQueue
 PeekBack
 (
 )
+;
+audio
+&
+&
+audio
+-
+>
+Frames
+(
+)
 )
 {
 typicalPacketFrameCount
