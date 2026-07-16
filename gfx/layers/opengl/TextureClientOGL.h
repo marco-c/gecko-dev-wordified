@@ -867,6 +867,16 @@ aOutDescriptor
 )
 override
 ;
+void
+GetSubDescriptor
+(
+RemoteDecoderVideoSubDescriptor
+*
+const
+aOutDesc
+)
+override
+;
 /
 /
 Useless
