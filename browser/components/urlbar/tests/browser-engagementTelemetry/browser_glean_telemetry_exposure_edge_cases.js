@@ -1661,6 +1661,7 @@ never
 be
 visible
 .
+await
 assertExposureTelemetry
 (
 [
@@ -2604,6 +2605,7 @@ triggered
 an
 exposure
 .
+await
 assertExposureTelemetry
 (
 [
@@ -3647,6 +3649,7 @@ triggered
 an
 exposure
 .
+await
 assertExposureTelemetry
 (
 [
@@ -5174,6 +5177,7 @@ have
 been
 recorded
 .
+await
 assertExposureTelemetry
 (
 [
@@ -7199,6 +7203,7 @@ only
 history
 "
 .
+await
 assertExposureTelemetry
 (
 [

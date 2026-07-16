@@ -406,6 +406,7 @@ Interactions
 .
 interactionUpdatePromise
 ;
+await
 assertBounceTelemetry
 (
 [
@@ -637,6 +638,7 @@ Interactions
 .
 interactionUpdatePromise
 ;
+await
 assertBounceTelemetry
 (
 [
@@ -834,6 +836,7 @@ Interactions
 .
 interactionUpdatePromise
 ;
+await
 assertBounceTelemetry
 (
 [
@@ -1087,6 +1090,7 @@ Interactions
 .
 interactionUpdatePromise
 ;
+await
 assertBounceTelemetry
 (
 [

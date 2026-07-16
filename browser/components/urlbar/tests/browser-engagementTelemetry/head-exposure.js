@@ -231,6 +231,7 @@ trigger
 (
 )
 ;
+await
 assertExposureTelemetry
 (
 expectedEvents
