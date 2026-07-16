@@ -794,7 +794,7 @@ if
 obj
 -
 >
-isForwarded
+isForwardedNonAtomic
 (
 )
 )
@@ -1058,7 +1058,7 @@ if
 str
 -
 >
-isForwarded
+isForwardedNonAtomic
 (
 )
 )
@@ -1215,7 +1215,7 @@ if
 bi
 -
 >
-isForwarded
+isForwardedNonAtomic
 (
 )
 )
@@ -1363,7 +1363,7 @@ if
 gs
 -
 >
-isForwarded
+isForwardedNonAtomic
 (
 )
 )
@@ -1689,7 +1689,7 @@ if
 cell
 -
 >
-isForwarded
+isForwardedNonAtomic
 (
 )
 )
@@ -4574,7 +4574,7 @@ if
 root
 -
 >
-isForwarded
+isForwardedNonAtomic
 (
 )
 )
