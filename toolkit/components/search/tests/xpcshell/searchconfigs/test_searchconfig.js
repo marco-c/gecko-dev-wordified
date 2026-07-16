@@ -3515,6 +3515,9 @@ ecosia
 aliases
 :
 [
+"
+ecosia
+"
 ]
 default
 :
