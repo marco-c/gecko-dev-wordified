@@ -2987,6 +2987,15 @@ test
 )
 ;
 await
+waitForSmartbarAction
+(
+sidebarBrowser
+"
+chat
+"
+)
+;
+await
 SpecialPowers
 .
 spawn
