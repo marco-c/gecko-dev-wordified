@@ -7,6 +7,10 @@ borrow
 :
 :
 Cow
+boxed
+:
+:
+Box
 string
 :
 :
@@ -278,9 +282,12 @@ ValidationError
 [
 from
 ]
+Box
+<
 WithSpan
 <
 ValidationError
+>
 >
 )
 #

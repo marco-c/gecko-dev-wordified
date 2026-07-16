@@ -43,6 +43,10 @@ pub
 mod
 conv
 ;
+pub
+mod
+dxgi_lib
+;
 #
 [
 cfg
@@ -80,13 +84,6 @@ pub
 mod
 name
 ;
-#
-[
-cfg
-(
-dx12
-)
-]
 pub
 mod
 result

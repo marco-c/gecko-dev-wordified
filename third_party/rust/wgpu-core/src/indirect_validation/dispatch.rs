@@ -796,14 +796,6 @@ label
 :
 None
 inner
-:
-Box
-:
-:
-new
-(
-inner
-)
 }
 )
 }
