@@ -238,10 +238,7 @@ if
 state
 =
 =
-nsFrameState
-(
-0
-)
+NS_FRAME_STATE_NONE
 )
 {
 result
@@ -544,10 +541,7 @@ LENGTH
 ]
 =
 {
-nsFrameState
-(
-0
-)
+NS_FRAME_STATE_NONE
 }
 ;
 #

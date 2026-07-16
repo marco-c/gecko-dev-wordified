@@ -80846,10 +80846,7 @@ const
 nsFrameState
 bits
 =
-nsFrameState
-(
-0
-)
+NS_FRAME_STATE_NONE
 ;
 const
 auto
@@ -81495,10 +81492,7 @@ NS_FRAME_FONT_INFLATION_FLOW_ROOT
 nsFrameState
 bits
 =
-nsFrameState
-(
-0
-)
+NS_FRAME_STATE_NONE
 ;
 if
 (

@@ -7141,10 +7141,7 @@ parentFrame
 RemoveStateBits
 (
 ~
-nsFrameState
-(
-0
-)
+NS_FRAME_STATE_NONE
 )
 ;
 parentFrame
@@ -10190,10 +10187,7 @@ NS_FRAME_FIRST_REFLOW
 {
 dirtyBits
 =
-nsFrameState
-(
-0
-)
+NS_FRAME_STATE_NONE
 ;
 }
 else

@@ -131,6 +131,9 @@ nsFrameState
 :
 nsFrameState_size_t
 {
+NS_FRAME_STATE_NONE
+=
+0
 #
 define
 FRAME_STATE_BIT
