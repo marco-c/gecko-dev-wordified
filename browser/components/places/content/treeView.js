@@ -10044,7 +10044,7 @@ node
 tags
 ?
 .
-replace
+replaceAll
 (
 "
 "

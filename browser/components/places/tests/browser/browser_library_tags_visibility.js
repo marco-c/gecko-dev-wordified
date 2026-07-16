@@ -130,6 +130,9 @@ tagB
 "
 tagA
 "
+"
+tagC
+"
 ]
 ;
 const
