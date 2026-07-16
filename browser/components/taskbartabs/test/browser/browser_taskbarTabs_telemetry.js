@@ -697,7 +697,6 @@ TaskbarTabsPin
 pinTaskbarTab
 (
 taskbarTab
-gRegistry
 await
 TaskbarTabsUtils
 .
@@ -1010,7 +1009,6 @@ TaskbarTabsPin
 unpinTaskbarTab
 (
 taskbarTab
-gRegistry
 )
 ;
 snapshot
