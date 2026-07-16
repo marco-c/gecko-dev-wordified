@@ -518,8 +518,7 @@ automatically
 const
 gRegistry
 =
-new
-TaskbarTabsRegistry
+createInMemoryRegistry
 (
 )
 ;
