@@ -37,6 +37,7 @@ assertFirefoxViewTabSelected
 openFirefoxViewTab
 closeFirefoxViewTab
 isFirefoxViewTabSelectedInWindow
+enableFirefoxViewButton
 init
 :
 FirefoxViewTestUtilsInit

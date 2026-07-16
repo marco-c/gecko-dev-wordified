@@ -398,6 +398,11 @@ return
 promise
 ;
 }
+enableFirefoxViewButton
+(
+window
+)
+;
 add_task
 (
 async
