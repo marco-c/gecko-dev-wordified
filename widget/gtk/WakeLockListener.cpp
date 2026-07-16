@@ -3369,7 +3369,6 @@ xid
 =
 0
 ;
-static
 const
 uint32_t
 flags
