@@ -369,6 +369,10 @@ nsIGeolocationUpdate
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIGeolocationService
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIGeolocationUpdate
 )
 NS_INTERFACE_MAP_ENTRY
@@ -1755,7 +1759,7 @@ mHigherAccuracy
 highRequired
 ;
 }
-void
+NS_IMETHODIMP
 nsGeolocationService
 :
 :
@@ -1812,6 +1816,7 @@ SendRemoveGeolocationListener
 )
 ;
 return
+NS_OK
 ;
 /
 /
@@ -1838,6 +1843,7 @@ obs
 )
 {
 return
+NS_OK
 ;
 }
 if
@@ -1847,6 +1853,7 @@ mProvider
 )
 {
 return
+NS_OK
 ;
 }
 mHigherAccuracy
@@ -1878,6 +1885,9 @@ u
 shutdown
 "
 )
+;
+return
+NS_OK
 ;
 }
 StaticRefPtr
