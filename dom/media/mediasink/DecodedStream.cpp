@@ -3360,6 +3360,7 @@ const
 MediaInfo
 &
 aInfo
+StartType
 )
 {
 AssertOwnerThread
