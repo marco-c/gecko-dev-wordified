@@ -2300,6 +2300,15 @@ styleSheetActors
 )
 )
 ;
+await
+dispatch
+(
+loadSourceMapsForSourceActors
+(
+styleSheetActors
+)
+)
+;
 }
 ;
 }
