@@ -37048,7 +37048,7 @@ getObjectPrototype
 )
 ;
 return
-NewTenuredObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -37057,6 +37057,12 @@ WasmNamespaceObject
 :
 class_
 proto
+{
+.
+newKind
+=
+TenuredObject
+}
 )
 ;
 }

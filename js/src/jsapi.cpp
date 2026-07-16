@@ -12629,11 +12629,15 @@ JSCLASS_IS_GLOBAL
 )
 ;
 return
-NewObjectWithGivenProtoAndAllocSite
+NewObjectWithGivenProto
 (
 cx
 clasp
 proto
+{
+.
+site
+=
 cx
 -
 >
@@ -12643,6 +12647,7 @@ realm
 -
 >
 localAllocSite
+}
 )
 ;
 }

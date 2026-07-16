@@ -1531,7 +1531,7 @@ getObjectPrototype
 )
 ;
 return
-NewTenuredObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -1540,6 +1540,12 @@ TemporalNowObject
 :
 class_
 proto
+{
+.
+newKind
+=
+TenuredObject
+}
 )
 ;
 }

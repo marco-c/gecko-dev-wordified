@@ -12928,7 +12928,7 @@ getObjectPrototype
 )
 ;
 return
-NewTenuredObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
@@ -12937,6 +12937,12 @@ AtomicsObject
 :
 class_
 proto
+{
+.
+newKind
+=
+TenuredObject
+}
 )
 ;
 }
