@@ -68,7 +68,7 @@ include
 "
 mozilla
 /
-Logging
+IntegerPrintfMacros
 .
 h
 "
@@ -77,7 +77,7 @@ include
 "
 mozilla
 /
-IntegerPrintfMacros
+Logging
 .
 h
 "

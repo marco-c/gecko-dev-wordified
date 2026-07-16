@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-gfxFT2FontBase
+gfxFT2Utils
 .
 h
 "
 #
 include
 "
-gfxFT2Utils
+gfxFT2FontBase
 .
 h
 "

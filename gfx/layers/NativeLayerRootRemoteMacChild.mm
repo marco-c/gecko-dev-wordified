@@ -63,7 +63,7 @@ mozilla
 /
 layers
 /
-NativeLayerRemoteMac
+NativeLayerRootRemoteMacChild
 .
 h
 "
@@ -74,7 +74,7 @@ mozilla
 /
 layers
 /
-NativeLayerRootRemoteMacChild
+NativeLayerRemoteMac
 .
 h
 "

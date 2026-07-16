@@ -70,7 +70,7 @@ mozilla
 /
 layers
 /
-WebRenderMessageUtils
+WebRenderBridgeChild
 .
 h
 "
@@ -81,7 +81,7 @@ mozilla
 /
 layers
 /
-WebRenderBridgeChild
+WebRenderMessageUtils
 .
 h
 "

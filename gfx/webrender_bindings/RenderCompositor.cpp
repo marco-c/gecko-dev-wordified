@@ -66,6 +66,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 gfxConfig
 .
 h
@@ -74,13 +81,6 @@ h
 include
 "
 gfxPlatform
-.
-h
-"
-#
-include
-"
-GLContext
 .
 h
 "

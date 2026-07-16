@@ -66,9 +66,7 @@ h
 #
 include
 "
-mozilla
-/
-Assertions
+VRShMem
 .
 h
 "
@@ -82,7 +80,9 @@ h
 #
 include
 "
-VRShMem
+mozilla
+/
+Assertions
 .
 h
 "

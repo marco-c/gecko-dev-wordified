@@ -66,6 +66,13 @@ h
 #
 include
 "
+DataSourceSurfaceWrapper
+.
+h
+"
+#
+include
+"
 DrawTargetCairo
 .
 h
@@ -74,13 +81,6 @@ h
 include
 "
 HelpersCairo
-.
-h
-"
-#
-include
-"
-DataSourceSurfaceWrapper
 .
 h
 "

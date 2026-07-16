@@ -65,6 +65,13 @@ GFX_PLATFORM_ANDROID_H
 #
 include
 "
+MediaCodecsSupport
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h
@@ -87,13 +94,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-MediaCodecsSupport
 .
 h
 "

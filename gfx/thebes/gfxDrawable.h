@@ -65,14 +65,14 @@ GFX_DRAWABLE_H
 #
 include
 "
-gfxRect
+gfxMatrix
 .
 h
 "
 #
 include
 "
-gfxMatrix
+gfxRect
 .
 h
 "

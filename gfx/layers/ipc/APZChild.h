@@ -80,7 +80,7 @@ mozilla
 /
 layers
 /
-PAPZChild
+APZTaskRunnable
 .
 h
 "
@@ -91,7 +91,7 @@ mozilla
 /
 layers
 /
-APZTaskRunnable
+PAPZChild
 .
 h
 "

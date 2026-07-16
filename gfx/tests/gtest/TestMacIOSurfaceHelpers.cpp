@@ -99,6 +99,13 @@ P210
 #
 include
 "
+MacIOSurfaceHelpers
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -124,13 +131,6 @@ mozilla
 gfx
 /
 MacIOSurface
-.
-h
-"
-#
-include
-"
-MacIOSurfaceHelpers
 .
 h
 "

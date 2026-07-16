@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-prenv
-.
-h
-"
-#
-include
-"
 GLContextProvider
 .
 h
@@ -78,6 +71,13 @@ mozilla
 gfx
 /
 gfxVars
+.
+h
+"
+#
+include
+"
+prenv
 .
 h
 "

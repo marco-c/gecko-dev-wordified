@@ -79,6 +79,8 @@ endif
 include
 "
 cairo
+-
+pdf
 .
 h
 "
@@ -86,8 +88,6 @@ h
 include
 "
 cairo
--
-pdf
 .
 h
 "

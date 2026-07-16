@@ -65,13 +65,6 @@ GFX_VR_SERVICE_VRSERVICE_H
 #
 include
 "
-moz_external_vr
-.
-h
-"
-#
-include
-"
 base
 /
 process
@@ -85,6 +78,13 @@ base
 :
 :
 ProcessHandle
+#
+include
+"
+moz_external_vr
+.
+h
+"
 #
 include
 "

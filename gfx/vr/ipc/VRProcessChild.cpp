@@ -86,9 +86,7 @@ include
 "
 mozilla
 /
-ipc
-/
-ProcessUtils
+StaticPrefs_dom
 .
 h
 "
@@ -97,7 +95,9 @@ include
 "
 mozilla
 /
-StaticPrefs_dom
+ipc
+/
+ProcessUtils
 .
 h
 "

@@ -80,13 +80,6 @@ h
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-#
-include
-"
 MozFramebuffer
 .
 h
@@ -95,6 +88,13 @@ h
 include
 "
 SharedSurface
+.
+h
+"
+#
+include
+"
+gfx2DGlue
 .
 h
 "

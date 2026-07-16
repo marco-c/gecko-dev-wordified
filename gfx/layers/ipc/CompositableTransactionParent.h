@@ -65,6 +65,13 @@ MOZILLA_LAYERS_COMPOSITABLETRANSACTIONPARENT_H
 #
 include
 "
+CompositableHost
+.
+h
+"
+#
+include
+"
 mozilla
 /
 NotNull
@@ -110,13 +117,6 @@ mozilla
 layers
 /
 TextureClient
-.
-h
-"
-#
-include
-"
-CompositableHost
 .
 h
 "

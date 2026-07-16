@@ -105,6 +105,13 @@ LayoutDeviceIntSize
 #
 include
 "
+WindowRenderer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AlreadyAddRefed
@@ -320,13 +327,6 @@ h
 /
 for
 WebRenderScrollData
-#
-include
-"
-WindowRenderer
-.
-h
-"
 #
 include
 "

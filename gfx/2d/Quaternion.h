@@ -64,13 +64,6 @@ define
 MOZILLA_GFX_QUATERNION_H_
 #
 include
-"
-Types
-.
-h
-"
-#
-include
 <
 math
 .
@@ -81,6 +74,13 @@ include
 <
 ostream
 >
+#
+include
+"
+Types
+.
+h
+"
 #
 include
 "

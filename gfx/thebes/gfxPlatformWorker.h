@@ -67,7 +67,7 @@ include
 "
 mozilla
 /
-ThreadLocal
+RefPtr
 .
 h
 "
@@ -76,7 +76,7 @@ include
 "
 mozilla
 /
-RefPtr
+ThreadLocal
 .
 h
 "

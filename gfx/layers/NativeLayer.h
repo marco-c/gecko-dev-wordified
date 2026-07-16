@@ -65,6 +65,13 @@ mozilla_layers_NativeLayer_h
 #
 include
 "
+GLTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -108,13 +115,6 @@ mozilla
 layers
 /
 ScreenshotGrabber
-.
-h
-"
-#
-include
-"
-GLTypes
 .
 h
 "

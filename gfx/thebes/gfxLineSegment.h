@@ -65,14 +65,14 @@ GFX_LINESEGMENT_H
 #
 include
 "
-gfxTypes
+gfxPoint
 .
 h
 "
 #
 include
 "
-gfxPoint
+gfxTypes
 .
 h
 "

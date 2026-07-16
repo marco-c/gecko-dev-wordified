@@ -64,6 +64,13 @@ define
 HEAPCOPYOFSTACKARRAY_H_
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -80,13 +87,6 @@ UniquePtr
 .
 h
 "
-#
-include
-<
-string
-.
-h
->
 namespace
 mozilla
 {

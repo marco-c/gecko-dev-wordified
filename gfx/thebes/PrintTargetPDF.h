@@ -65,6 +65,13 @@ MOZILLA_GFX_PRINTTARGETPDF_H
 #
 include
 "
+PrintTarget
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -73,13 +80,6 @@ h
 include
 "
 nsIOutputStream
-.
-h
-"
-#
-include
-"
-PrintTarget
 .
 h
 "

@@ -65,6 +65,15 @@ FUZZ_MOCKSCALEDFONT_H
 #
 include
 "
+harfbuzz
+/
+hb
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx

@@ -91,7 +91,7 @@ mozilla
 /
 gfx
 /
-gfxVars
+Logging
 .
 h
 "
@@ -102,7 +102,7 @@ mozilla
 /
 gfx
 /
-Logging
+gfxVars
 .
 h
 "

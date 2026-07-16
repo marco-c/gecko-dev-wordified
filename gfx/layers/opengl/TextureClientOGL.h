@@ -166,14 +166,14 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-AndroidSurfaceTexture
+AndroidNativeWindow
 .
 h
 "
 #
 include
 "
-AndroidNativeWindow
+AndroidSurfaceTexture
 .
 h
 "

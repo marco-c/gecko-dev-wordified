@@ -66,6 +66,13 @@ h
 #
 include
 "
+RecordedCanvasEventImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -82,13 +89,6 @@ mozilla
 layers
 /
 CompositableForwarder
-.
-h
-"
-#
-include
-"
-RecordedCanvasEventImpl
 .
 h
 "

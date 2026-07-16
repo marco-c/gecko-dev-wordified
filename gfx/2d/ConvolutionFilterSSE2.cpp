@@ -42,6 +42,13 @@ file
 .
 #
 include
+<
+immintrin
+.
+h
+>
+#
+include
 "
 SkConvolver
 .
@@ -56,13 +63,6 @@ Attributes
 .
 h
 "
-#
-include
-<
-immintrin
-.
-h
->
 namespace
 skia
 {

@@ -64,6 +64,11 @@ define
 GFX_VR_DISPLAY_CLIENT_H
 #
 include
+<
+array
+>
+#
+include
 "
 gfxVR
 .
@@ -105,11 +110,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-<
-array
->
 namespace
 mozilla
 {

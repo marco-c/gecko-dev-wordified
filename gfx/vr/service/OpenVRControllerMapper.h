@@ -65,7 +65,7 @@ GFX_VR_SERVICE_OPENVRCONTROLLERMAPPER_H
 #
 include
 "
-openvr
+moz_external_vr
 .
 h
 "
@@ -79,7 +79,7 @@ h
 #
 include
 "
-moz_external_vr
+openvr
 .
 h
 "

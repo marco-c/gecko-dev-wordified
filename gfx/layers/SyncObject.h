@@ -67,9 +67,7 @@ include
 "
 mozilla
 /
-gfx
-/
-FileHandleWrapper
+RefCounted
 .
 h
 "
@@ -78,7 +76,9 @@ include
 "
 mozilla
 /
-RefCounted
+gfx
+/
+FileHandleWrapper
 .
 h
 "

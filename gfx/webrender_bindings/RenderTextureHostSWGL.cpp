@@ -66,6 +66,13 @@ h
 #
 include
 "
+RenderThread
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -82,13 +89,6 @@ mozilla
 layers
 /
 TextureHost
-.
-h
-"
-#
-include
-"
-RenderThread
 .
 h
 "
