@@ -1157,7 +1157,7 @@ containingShadowRoot
 containingShadowRoot
 -
 >
-IsUAShadowRootSlow
+IsUAWidget
 (
 )
 ?

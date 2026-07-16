@@ -7143,7 +7143,12 @@ into
 mRanges
 )
 .
-void
+[
+[
+nodiscard
+]
+]
+nsresult
 ReorderRangesIfNecessary
 (
 )

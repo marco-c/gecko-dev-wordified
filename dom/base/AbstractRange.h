@@ -1251,7 +1251,12 @@ IsEmpty
 )
 ;
 }
-void
+[
+[
+nodiscard
+]
+]
+nsresult
 RegisterSelection
 (
 mozilla
