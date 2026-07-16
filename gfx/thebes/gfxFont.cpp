@@ -23857,7 +23857,7 @@ nsAtom
 aLanguage
 bool
 aVertical
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 gfx
 :
@@ -24764,7 +24764,7 @@ ProcessSingleSpaceShapedWord
 (
 bool
 aVertical
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 gfx
 :
@@ -26878,7 +26878,7 @@ wordIs8Bit
 =
 true
 ;
-int32_t
+uint16_t
 appUnitsPerDevUnit
 =
 aTextRun

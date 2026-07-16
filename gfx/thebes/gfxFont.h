@@ -7772,7 +7772,7 @@ ShapedTextFlags
 TEXT_IS_8BIT
 ;
 }
-int32_t
+uint16_t
 GetAppUnitsPerDevUnit
 (
 )
@@ -13224,7 +13224,7 @@ ProcessSingleSpaceShapedWord
 (
 bool
 aVertical
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 mozilla
 :
@@ -15033,7 +15033,7 @@ nsAtom
 aLanguage
 bool
 aVertical
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 mozilla
 :
@@ -15293,7 +15293,7 @@ nsAtom
 *
 mLanguage
 ;
-int32_t
+uint16_t
 mAppUnitsPerDevUnit
 ;
 PLDHashNumber
@@ -15320,7 +15320,7 @@ aScriptCode
 nsAtom
 *
 aLanguage
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 ShapedTextFlags
 aFlags
@@ -15440,7 +15440,7 @@ aScriptCode
 nsAtom
 *
 aLanguage
-int32_t
+uint16_t
 aAppUnitsPerDevUnit
 ShapedTextFlags
 aFlags
