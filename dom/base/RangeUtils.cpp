@@ -130,6 +130,13 @@ nsFrameSelection
 .
 h
 "
+#
+include
+"
+nsIContentInlines
+.
+h
+"
 namespace
 mozilla
 {
