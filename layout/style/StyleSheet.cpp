@@ -7543,7 +7543,7 @@ future
 auto
 allowImportRules
 =
-SelfOrAncestorIsConstructed
+IsConstructed
 (
 )
 ?
@@ -8073,7 +8073,7 @@ eCompatibility_FullStandards
 auto
 allowImportRules
 =
-SelfOrAncestorIsConstructed
+IsConstructed
 (
 )
 ?
