@@ -7068,6 +7068,8 @@ allow1918
 PendingTransactionInfo
 *
 pendingTransInfo
+bool
+retryWithoutTRR
 )
 {
 return
@@ -7083,6 +7085,7 @@ speculative
 urgentStart
 allow1918
 pendingTransInfo
+retryWithoutTRR
 )
 ;
 }

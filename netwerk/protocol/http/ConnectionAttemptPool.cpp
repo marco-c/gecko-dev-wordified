@@ -241,6 +241,8 @@ allow1918
 PendingTransactionInfo
 *
 pendingTransInfo
+bool
+retryWithoutTRR
 )
 {
 MOZ_ASSERT
@@ -313,6 +315,7 @@ trans
 caps
 speculative
 urgentStart
+retryWithoutTRR
 )
 ;
 }

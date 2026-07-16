@@ -144,6 +144,10 @@ allow1918
 PendingTransactionInfo
 *
 pendingTransInfo
+bool
+retryWithoutTRR
+=
+false
 )
 ;
 size_t
