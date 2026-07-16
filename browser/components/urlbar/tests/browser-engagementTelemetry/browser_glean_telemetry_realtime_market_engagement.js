@@ -248,6 +248,7 @@ target
 await
 onLocationChange
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -351,6 +352,7 @@ KEY_Enter
 await
 onLocationChange
 ;
+await
 assertEngagementTelemetry
 (
 [

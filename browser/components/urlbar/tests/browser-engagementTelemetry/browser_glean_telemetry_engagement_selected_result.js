@@ -162,6 +162,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -301,6 +302,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -492,6 +494,7 @@ promiseSearchComplete
 window
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -685,6 +688,7 @@ promiseSearchComplete
 window
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -873,6 +877,7 @@ promiseSearchComplete
 window
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1046,6 +1051,7 @@ promiseSearchComplete
 window
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1146,6 +1152,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1253,6 +1260,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1392,6 +1400,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1538,6 +1547,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1704,6 +1714,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1871,6 +1882,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1991,6 +2003,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -2108,6 +2121,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -2228,6 +2242,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -2325,6 +2340,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -2399,6 +2415,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -2517,6 +2534,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -2661,6 +2679,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -2739,6 +2758,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -2851,6 +2871,7 @@ selectedTab
 tab
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -3112,6 +3133,7 @@ opened
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -3374,6 +3396,7 @@ opened
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -3554,6 +3577,7 @@ selectedTab
 tab
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -3656,6 +3680,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -3748,6 +3773,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -3927,6 +3953,7 @@ KEY_Enter
 await
 onComplete
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -4025,6 +4052,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -4142,6 +4170,7 @@ KEY_Enter
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -4273,6 +4302,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -4433,6 +4463,7 @@ KEY_Enter
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -4523,6 +4554,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 expected
@@ -4663,6 +4695,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -4807,6 +4840,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -4973,6 +5007,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -5088,6 +5123,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -5252,6 +5288,7 @@ true
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -5558,6 +5595,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -5961,6 +5999,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -6236,6 +6275,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -6335,6 +6375,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -6427,6 +6468,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -6560,6 +6602,7 @@ preferences
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -6740,6 +6783,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [

@@ -626,6 +626,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -877,6 +878,7 @@ record
 abandonment
 event
 .
+await
 assertAbandonmentTelemetry
 (
 [
@@ -892,6 +894,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -1028,6 +1031,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [

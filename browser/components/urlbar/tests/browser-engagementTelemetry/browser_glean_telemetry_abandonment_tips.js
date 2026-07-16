@@ -322,6 +322,7 @@ resetEnv
 (
 )
 ;
+await
 assertAbandonmentTelemetry
 (
 [

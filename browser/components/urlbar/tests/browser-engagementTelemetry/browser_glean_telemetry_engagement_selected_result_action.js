@@ -479,6 +479,7 @@ pickActionByEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -575,6 +576,7 @@ pickActionByClick
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -779,6 +781,7 @@ window
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 [

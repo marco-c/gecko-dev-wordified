@@ -419,6 +419,7 @@ onEngagementDeferred
 ]
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -432,6 +433,7 @@ enter
 ]
 )
 ;
+await
 assertAbandonmentTelemetry
 (
 [

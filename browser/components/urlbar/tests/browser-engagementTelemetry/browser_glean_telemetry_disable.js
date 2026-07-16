@@ -713,6 +713,7 @@ doClick
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
@@ -914,6 +915,7 @@ doBlur
 (
 )
 ;
+await
 assertAbandonmentTelemetry
 (
 [

@@ -1215,6 +1215,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 expected
@@ -1278,6 +1279,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 expected
@@ -1340,6 +1342,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 expected
@@ -1403,6 +1406,7 @@ com
 "
 )
 ;
+await
 assertEngagementTelemetry
 (
 expected
@@ -1527,6 +1531,7 @@ KEY_Enter
 }
 )
 ;
+await
 assertEngagementTelemetry
 (
 expected

@@ -321,6 +321,7 @@ session
 is
 started
 .
+await
 assertEngagementTelemetry
 (
 [
@@ -537,6 +538,7 @@ recorded
 as
 engagement
 .
+await
 assertEngagementTelemetry
 (
 [
@@ -766,6 +768,7 @@ doEnter
 (
 )
 ;
+await
 assertEngagementTelemetry
 (
 [
