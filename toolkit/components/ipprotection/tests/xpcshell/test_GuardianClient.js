@@ -94,7 +94,7 @@ mjs
 ;
 const
 {
-IPPFxaAuthProvider
+IPPFxaActivateAuthProvider
 }
 =
 ChromeUtils
@@ -117,7 +117,7 @@ ipprotection
 /
 fxa
 /
-IPPFxaAuthProvider
+IPPFxaActivateAuthProvider
 .
 sys
 .
@@ -6560,7 +6560,7 @@ AbortController
 const
 promise
 =
-IPPFxaAuthProvider
+IPPFxaActivateAuthProvider
 .
 getToken
 (
