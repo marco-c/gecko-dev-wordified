@@ -1313,7 +1313,7 @@ if
 lastSeperator
 =
 =
-NULL
+nullptr
 )
 {
 /

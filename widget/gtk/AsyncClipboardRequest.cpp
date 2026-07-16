@@ -1248,7 +1248,7 @@ g_unix_open_pipe
 (
 pipe_fd
 FD_CLOEXEC
-NULL
+nullptr
 )
 )
 {
