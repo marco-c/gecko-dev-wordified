@@ -500,7 +500,7 @@ MS
 Format
 :
 :
-UniqueString
+String
 }
 {
 "
@@ -966,7 +966,7 @@ MS
 Format
 :
 :
-UniqueString
+String
 }
 {
 "
@@ -1148,7 +1148,7 @@ MS
 Format
 :
 :
-UniqueString
+String
 }
 {
 "
