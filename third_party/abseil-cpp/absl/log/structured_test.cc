@@ -426,6 +426,17 @@ EXPECT_CALL
 (
 sink
 Send
+)
+.
+Times
+(
+0
+)
+;
+EXPECT_CALL
+(
+sink
+Send
 (
 AllOf
 (

@@ -226,7 +226,7 @@ enable_if_t
 std
 :
 :
-is_void
+is_void_v
 <
 typename
 Policy
@@ -234,9 +234,6 @@ Policy
 :
 element_is_owner
 >
-:
-:
-value
 >
 >
 :
@@ -315,17 +312,13 @@ slot_type
 using
 value_type
 =
-typename
 std
 :
 :
-remove_reference
+remove_reference_t
 <
 reference
 >
-:
-:
-type
 ;
 /
 /
@@ -614,7 +607,7 @@ static
 auto
 element
 (
-absl
+std
 :
 :
 remove_const_t
@@ -697,7 +690,7 @@ return
 std
 :
 :
-is_same
+is_same_v
 <
 decltype
 (
@@ -725,9 +718,6 @@ std
 :
 true_type
 >
-:
-:
-value
 ;
 }
 /
@@ -759,7 +749,7 @@ return
 std
 :
 :
-is_same
+is_same_v
 <
 decltype
 (
@@ -777,9 +767,6 @@ std
 :
 true_type
 >
-:
-:
-value
 ;
 }
 private

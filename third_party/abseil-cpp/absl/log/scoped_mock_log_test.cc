@@ -2025,7 +2025,7 @@ ScopedMockLogCanBeDeletedWhenAnotherThreadIsLogging
 auto
 log
 =
-absl
+std
 :
 :
 make_unique

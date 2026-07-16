@@ -1300,7 +1300,6 @@ absl
 ReaderMutexLock
 global_sinks_lock
 (
-&
 guard_
 )
 ;
@@ -1391,7 +1390,6 @@ absl
 WriterMutexLock
 global_sinks_lock
 (
-&
 guard_
 )
 ;
@@ -1475,7 +1473,6 @@ absl
 WriterMutexLock
 global_sinks_lock
 (
-&
 guard_
 )
 ;
@@ -1612,7 +1609,6 @@ absl
 ReaderMutexLock
 global_sinks_lock
 (
-&
 guard_
 )
 ;

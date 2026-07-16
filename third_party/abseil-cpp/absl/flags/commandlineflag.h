@@ -389,6 +389,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -409,9 +414,18 @@ absl
 /
 base
 /
-internal
-/
 fast_type_id
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
+nullability
 .
 h
 "
@@ -779,9 +793,6 @@ TypeId
 )
 =
 =
-base_internal
-:
-:
 FastTypeId
 <
 T
@@ -818,7 +829,7 @@ on
 success
 /
 /
-absl
+std
 :
 :
 nullopt
@@ -829,7 +840,7 @@ template
 typename
 T
 >
-absl
+std
 :
 :
 optional
@@ -858,7 +869,7 @@ T
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1098,7 +1109,7 @@ IsRetired
 )
 {
 return
-absl
+std
 :
 :
 nullopt
@@ -1396,6 +1407,7 @@ std
 :
 string
 *
+absl_nonnull
 error
 )
 ;
@@ -1658,6 +1670,7 @@ Read
 (
 void
 *
+absl_nonnull
 dst
 )
 const

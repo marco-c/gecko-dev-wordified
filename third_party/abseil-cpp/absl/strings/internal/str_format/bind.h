@@ -784,7 +784,7 @@ static
 bool
 CheckMatches
 (
-absl
+std
 :
 :
 index_sequence
@@ -1286,7 +1286,7 @@ C
 .
 >
 (
-absl
+std
 :
 :
 make_index_sequence

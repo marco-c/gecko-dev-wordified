@@ -158,6 +158,11 @@ cstdint
 >
 #
 include
+<
+variant
+>
+#
+include
 "
 absl
 /
@@ -188,17 +193,6 @@ absl
 types
 /
 span
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-variant
 .
 h
 "
@@ -493,7 +487,7 @@ varint
 )
 {
 return
-absl
+std
 :
 :
 visit
@@ -520,7 +514,7 @@ i64
 )
 {
 return
-absl
+std
 :
 :
 visit
@@ -594,7 +588,7 @@ i32
 )
 {
 return
-absl
+std
 :
 :
 visit
@@ -644,7 +638,7 @@ buf
 )
 {
 return
-absl
+std
 :
 :
 visit

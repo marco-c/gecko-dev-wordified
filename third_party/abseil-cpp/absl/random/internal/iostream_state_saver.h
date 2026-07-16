@@ -600,7 +600,7 @@ typename
 T
 >
 typename
-absl
+std
 :
 :
 enable_if_t
@@ -609,7 +609,7 @@ enable_if_t
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 std
 :
@@ -617,9 +617,6 @@ std
 ios_base
 T
 >
-:
-:
-value
 null_state_saver
 <
 T
@@ -1075,7 +1072,7 @@ typename
 T
 >
 typename
-absl
+std
 :
 :
 enable_if_t
@@ -1084,7 +1081,7 @@ enable_if_t
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 std
 :
@@ -1092,9 +1089,6 @@ std
 ios_base
 T
 >
-:
-:
-value
 null_state_saver
 <
 T
@@ -1556,13 +1550,10 @@ static_assert
 std
 :
 :
-is_floating_point
+is_floating_point_v
 <
 FloatType
 >
-:
-:
-value
 "
 "
 )

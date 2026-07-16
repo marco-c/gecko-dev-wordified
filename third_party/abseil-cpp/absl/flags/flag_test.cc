@@ -171,6 +171,11 @@ atomic
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -394,17 +399,6 @@ absl
 time
 /
 time
-.
-h
-"
-#
-include
-"
-absl
-/
-types
-/
-optional
 .
 h
 "
@@ -9025,7 +9019,7 @@ F
 f
 uint64_t
 num_leaks
-absl
+std
 :
 :
 optional
@@ -9034,7 +9028,7 @@ uint64_t
 >
 num_new_instances
 =
-absl
+std
 :
 :
 nullopt
@@ -10176,7 +10170,7 @@ FLAGS_prefix_test_macro_named_flag
 -
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -10184,7 +10178,7 @@ optional
 bool
 >
 optional_bool
-absl
+std
 :
 :
 nullopt
@@ -10195,7 +10189,7 @@ help
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -10212,7 +10206,7 @@ help
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -10230,7 +10224,7 @@ help
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -10241,7 +10235,7 @@ std
 string
 >
 optional_string
-absl
+std
 :
 :
 nullopt
@@ -10252,7 +10246,7 @@ help
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
@@ -10263,7 +10257,7 @@ absl
 Duration
 >
 optional_duration
-absl
+std
 :
 :
 nullopt
@@ -10274,12 +10268,12 @@ help
 ;
 ABSL_FLAG
 (
-absl
+std
 :
 :
 optional
 <
-absl
+std
 :
 :
 optional
@@ -10288,7 +10282,7 @@ int
 >
 >
 optional_optional_int
-absl
+std
 :
 :
 nullopt
@@ -10363,7 +10357,7 @@ GetFlag
 (
 FLAGS_optional_bool
 )
-absl
+std
 :
 :
 nullopt
@@ -10450,7 +10444,7 @@ SetFlag
 (
 &
 FLAGS_optional_bool
-absl
+std
 :
 :
 nullopt
@@ -10480,7 +10474,7 @@ GetFlag
 (
 FLAGS_optional_bool
 )
-absl
+std
 :
 :
 nullopt
@@ -10587,7 +10581,7 @@ GetFlag
 (
 FLAGS_optional_int
 )
-absl
+std
 :
 :
 nullopt
@@ -10674,7 +10668,7 @@ SetFlag
 (
 &
 FLAGS_optional_int
-absl
+std
 :
 :
 nullopt
@@ -10704,7 +10698,7 @@ GetFlag
 (
 FLAGS_optional_int
 )
-absl
+std
 :
 :
 nullopt
@@ -10907,7 +10901,7 @@ SetFlag
 (
 &
 FLAGS_optional_double
-absl
+std
 :
 :
 nullopt
@@ -10937,7 +10931,7 @@ GetFlag
 (
 FLAGS_optional_double
 )
-absl
+std
 :
 :
 nullopt
@@ -11044,7 +11038,7 @@ GetFlag
 (
 FLAGS_optional_string
 )
-absl
+std
 :
 :
 nullopt
@@ -11150,7 +11144,7 @@ SetFlag
 (
 &
 FLAGS_optional_string
-absl
+std
 :
 :
 nullopt
@@ -11180,7 +11174,7 @@ GetFlag
 (
 FLAGS_optional_string
 )
-absl
+std
 :
 :
 nullopt
@@ -11287,7 +11281,7 @@ GetFlag
 (
 FLAGS_optional_duration
 )
-absl
+std
 :
 :
 nullopt
@@ -11397,7 +11391,7 @@ SetFlag
 (
 &
 FLAGS_optional_duration
-absl
+std
 :
 :
 nullopt
@@ -11427,7 +11421,7 @@ GetFlag
 (
 FLAGS_optional_duration
 )
-absl
+std
 :
 :
 nullopt
@@ -11534,13 +11528,13 @@ GetFlag
 (
 FLAGS_optional_optional_int
 )
-absl
+std
 :
 :
 nullopt
 )
 ;
-absl
+std
 :
 :
 optional
@@ -11549,7 +11543,7 @@ int
 >
 nullint
 {
-absl
+std
 :
 :
 nullopt
@@ -11601,12 +11595,12 @@ GetFlag
 (
 FLAGS_optional_optional_int
 )
-absl
+std
 :
 :
 optional
 <
-absl
+std
 :
 :
 optional
@@ -11663,7 +11657,7 @@ SetFlag
 (
 &
 FLAGS_optional_optional_int
-absl
+std
 :
 :
 optional
@@ -11711,7 +11705,7 @@ GetFlag
 (
 FLAGS_optional_optional_int
 )
-absl
+std
 :
 :
 optional
@@ -11730,7 +11724,7 @@ SetFlag
 (
 &
 FLAGS_optional_optional_int
-absl
+std
 :
 :
 nullopt
@@ -11760,7 +11754,7 @@ GetFlag
 (
 FLAGS_optional_optional_int
 )
-absl
+std
 :
 :
 nullopt

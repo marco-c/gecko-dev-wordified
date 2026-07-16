@@ -347,7 +347,7 @@ num_tus
 auto
 sites
 =
-absl
+std
 :
 :
 make_unique
@@ -469,7 +469,7 @@ max_extra_static_data_bytes_per_tu
 auto
 buf
 =
-absl
+std
 :
 :
 make_unique
@@ -756,7 +756,7 @@ shufflin
 auto
 new_sites
 =
-absl
+std
 :
 :
 make_unique
@@ -1248,13 +1248,10 @@ static_assert
 std
 :
 :
-is_trivially_destructible
+is_trivially_destructible_v
 <
 VLogSite
 >
-:
-:
-value
 "
 "
 )

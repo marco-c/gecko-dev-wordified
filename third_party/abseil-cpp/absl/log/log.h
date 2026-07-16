@@ -2885,11 +2885,11 @@ instead
 define
 VLOG
 (
-severity
+verbose_level
 )
 ABSL_LOG_INTERNAL_VLOG_IMPL
 (
-severity
+verbose_level
 )
 /
 /
@@ -2924,11 +2924,11 @@ nothing
 define
 DVLOG
 (
-severity
+verbose_level
 )
 ABSL_LOG_INTERNAL_DVLOG_IMPL
 (
-severity
+verbose_level
 )
 /
 /

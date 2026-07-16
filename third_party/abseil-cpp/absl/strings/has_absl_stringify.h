@@ -390,7 +390,7 @@ enable_if_t
 std
 :
 :
-is_void
+is_void_v
 <
 decltype
 (
@@ -423,9 +423,6 @@ T
 )
 )
 >
-:
-:
-value
 >
 >
 :

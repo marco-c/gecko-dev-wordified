@@ -316,15 +316,7 @@ ARM64
 if
 defined
 (
-__native_client__
-)
-|
-|
-(
-defined
-(
 __APPLE__
-)
 )
 |
 |

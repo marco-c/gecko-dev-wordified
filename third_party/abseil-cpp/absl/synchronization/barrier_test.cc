@@ -299,7 +299,6 @@ absl
 MutexLock
 lock
 (
-&
 mutex
 )
 ;
@@ -476,7 +475,6 @@ absl
 MutexLock
 lock
 (
-&
 mutex
 )
 ;
@@ -562,7 +560,6 @@ absl
 MutexLock
 lock
 (
-&
 mutex
 )
 ;

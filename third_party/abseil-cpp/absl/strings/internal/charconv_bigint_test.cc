@@ -1292,7 +1292,7 @@ MultiplyByOverflow
 /
 Check
 that
-multiplcation
+multiplication
 overflow
 predictably
 truncates

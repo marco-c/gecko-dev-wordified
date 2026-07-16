@@ -869,15 +869,6 @@ atomic
 <
 size_t
 >
-hashes_bitwise_xor
-;
-std
-:
-:
-atomic
-<
-size_t
->
 max_reserve
 ;
 /
@@ -958,7 +949,7 @@ absl
 Time
 create_time
 ;
-int32_t
+uint32_t
 depth
 ;
 /
@@ -1112,7 +1103,7 @@ capacity
 )
 ;
 void
-RecordInsertSlow
+RecordInsertMissSlow
 (
 HashtablezInfo
 *
@@ -1417,7 +1408,7 @@ info_
 }
 inline
 void
-RecordInsert
+RecordInsertMiss
 (
 size_t
 hash
@@ -1437,7 +1428,7 @@ nullptr
 )
 return
 ;
-RecordInsertSlow
+RecordInsertMissSlow
 (
 info_
 hash
@@ -1633,7 +1624,7 @@ RecordClearedReservation
 }
 inline
 void
-RecordInsert
+RecordInsertMiss
 (
 size_t
 /

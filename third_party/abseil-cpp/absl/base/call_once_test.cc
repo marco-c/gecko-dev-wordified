@@ -301,7 +301,7 @@ WaitAndIncrement
 {
 counters_mu
 .
-Lock
+lock
 (
 )
 ;
@@ -311,7 +311,7 @@ call_once_invoke_count
 ;
 counters_mu
 .
-Unlock
+unlock
 (
 )
 ;
@@ -332,7 +332,7 @@ call_once_finished_count
 ;
 counters_mu
 .
-Unlock
+unlock
 (
 )
 ;
@@ -344,7 +344,7 @@ ThreadBody
 {
 counters_mu
 .
-Lock
+lock
 (
 )
 ;
@@ -354,7 +354,7 @@ running_thread_count
 ;
 counters_mu
 .
-Unlock
+unlock
 (
 )
 ;
@@ -369,7 +369,7 @@ WaitAndIncrement
 ;
 counters_mu
 .
-Lock
+lock
 (
 )
 ;
@@ -379,7 +379,7 @@ call_once_return_count
 ;
 counters_mu
 .
-Unlock
+unlock
 (
 )
 ;
@@ -602,7 +602,7 @@ true
 ;
 counters_mu
 .
-Unlock
+unlock
 (
 )
 ;
@@ -627,7 +627,7 @@ join
 }
 counters_mu
 .
-Lock
+lock
 (
 )
 ;
@@ -651,7 +651,7 @@ call_once_return_count
 ;
 counters_mu
 .
-Unlock
+unlock
 (
 )
 ;

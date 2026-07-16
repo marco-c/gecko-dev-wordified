@@ -2418,7 +2418,9 @@ absl
 :
 string_view
 absl_flag_help
+ABSL_ATTRIBUTE_LIFETIME_BOUND
 =
+\
 ABSL_FLAG_IMPL_FLAGHELP
 (
 txt

@@ -514,6 +514,8 @@ new_count
 =
 0
 ;
+EXPECT_EQ
+(
 sampler
 .
 Iterate
@@ -555,6 +557,8 @@ new_count
 ;
 }
 }
+)
+0
 )
 ;
 /
@@ -867,6 +871,8 @@ preexisting_info
 /
 /
 NOLINT
+EXPECT_EQ
+(
 sampler
 .
 Iterate
@@ -890,6 +896,8 @@ info
 )
 ;
 }
+)
+0
 )
 ;
 TestInlineElementSize

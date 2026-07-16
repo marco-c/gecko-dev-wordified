@@ -166,6 +166,11 @@ random
 >
 #
 include
+<
+type_traits
+>
+#
+include
 "
 gtest
 /
@@ -2206,10 +2211,10 @@ CheckArgsInferType
 {
 static_assert
 (
-absl
+std
 :
 :
-conjunction
+conjunction_v
 <
 std
 :
@@ -2248,9 +2253,6 @@ A
 )
 >
 >
-:
-:
-value
 "
 "
 )

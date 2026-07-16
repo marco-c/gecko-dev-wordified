@@ -325,6 +325,11 @@ cstdint
 >
 #
 include
+<
+variant
+>
+#
+include
 "
 absl
 /
@@ -424,7 +429,7 @@ varints
 using
 Varint
 =
-absl
+std
 :
 :
 variant
@@ -470,7 +475,7 @@ varints
 using
 I64
 =
-absl
+std
 :
 :
 variant
@@ -560,7 +565,7 @@ varints
 using
 I32
 =
-absl
+std
 :
 :
 variant
@@ -597,7 +602,7 @@ structure
 using
 Value
 =
-absl
+std
 :
 :
 variant
@@ -814,7 +819,7 @@ field_number
 }
 ;
 return
-absl
+std
 :
 :
 visit

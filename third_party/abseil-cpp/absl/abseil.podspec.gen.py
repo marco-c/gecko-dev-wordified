@@ -373,6 +373,18 @@ ALWAYS_SEARCH_USER_PATHS
 '
 NO
 '
+    
+'
+CLANG_CXX_LANGUAGE_STANDARD
+'
+=
+>
+'
+c
++
++
+17
+'
   
 }
   

@@ -400,13 +400,6 @@ __Fuchsia__
 )
 |
 |
-\
-defined
-(
-__native_client__
-)
-|
-|
 defined
 (
 __OpenBSD__
@@ -1227,7 +1220,7 @@ static_cast
 absl
 :
 :
-LogSeverity
+LogSeverityAtLeast
 >
 (
 ABSL_MIN_LOG_LEVEL

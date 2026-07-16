@@ -145,6 +145,11 @@ ABSL_STATUS_STATUS_PAYLOAD_PRINTER_H_
 #
 include
 <
+optional
+>
+#
+include
+<
 string
 >
 #
@@ -286,7 +291,7 @@ success
 /
 /
 or
-absl
+std
 :
 :
 nullopt
@@ -367,12 +372,7 @@ logic
 using
 StatusPayloadPrinter
 =
-absl
-:
-:
-Nullable
-<
-absl
+std
 :
 :
 optional
@@ -384,6 +384,7 @@ string
 >
 (
 *
+absl_nullable
 )
 (
 absl
@@ -397,7 +398,6 @@ absl
 Cord
 &
 )
->
 ;
 /
 /

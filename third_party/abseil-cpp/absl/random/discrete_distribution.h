@@ -284,6 +284,7 @@ p0
 .
 .
 pn
+-
 1
 )
 =
@@ -749,13 +750,10 @@ static_assert
 std
 :
 :
-is_integral
+is_integral_v
 <
 result_type
 >
-:
-:
-value
 "
 Class
 -

@@ -138,6 +138,11 @@ License
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -1157,7 +1162,7 @@ string_len
 auto
 dest
 =
-absl
+std
 :
 :
 make_unique

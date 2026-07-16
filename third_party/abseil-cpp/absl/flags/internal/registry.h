@@ -165,6 +165,17 @@ include
 "
 absl
 /
+base
+/
+fast_type_id
+.
+h
+"
+#
+include
+"
+absl
+/
 flags
 /
 commandlineflag
@@ -932,7 +943,7 @@ flags_internal
 Retire
 (
 flag_name
-base_internal
+absl
 :
 :
 FastTypeId

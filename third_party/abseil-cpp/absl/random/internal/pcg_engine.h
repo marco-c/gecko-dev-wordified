@@ -336,7 +336,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 typename
 Params
@@ -349,9 +349,6 @@ Mix
 :
 state_type
 >
-:
-:
-value
 "
 Class
 -
@@ -380,7 +377,7 @@ static_assert
 std
 :
 :
-is_unsigned
+is_unsigned_v
 <
 typename
 Mix
@@ -388,9 +385,6 @@ Mix
 :
 result_type
 >
-:
-:
-value
 "
 Class
 -
@@ -527,7 +521,7 @@ SeedSequence
 typename
 =
 typename
-absl
+std
 :
 :
 enable_if_t
@@ -536,14 +530,11 @@ enable_if_t
 std
 :
 :
-is_same
+is_same_v
 <
 SeedSequence
 pcg_engine
 >
-:
-:
-value
 >
 >
 explicit
@@ -677,7 +668,7 @@ class
 SeedSequence
 >
 typename
-absl
+std
 :
 :
 enable_if_t
@@ -686,14 +677,11 @@ enable_if_t
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 SeedSequence
 uint64_t
 >
-:
-:
-value
 void
 >
 seed
@@ -779,7 +767,7 @@ Traits
 >
 friend
 typename
-absl
+std
 :
 :
 enable_if_t
@@ -924,7 +912,7 @@ Traits
 >
 friend
 typename
-absl
+std
 :
 :
 enable_if_t
@@ -1047,7 +1035,7 @@ Traits
 >
 friend
 typename
-absl
+std
 :
 :
 enable_if_t
@@ -1234,7 +1222,7 @@ Traits
 >
 friend
 typename
-absl
+std
 :
 :
 enable_if_t

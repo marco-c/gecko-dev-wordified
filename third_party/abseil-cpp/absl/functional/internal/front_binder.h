@@ -247,7 +247,7 @@ Tuple
 &
 &
 bound
-absl
+std
 :
 :
 index_sequence
@@ -343,7 +343,7 @@ BoundArgs
 using
 Idx
 =
-absl
+std
 :
 :
 make_index_sequence
@@ -376,7 +376,7 @@ constexpr
 explicit
 FrontBinder
 (
-absl
+std
 :
 :
 in_place_t
@@ -808,11 +808,14 @@ bind_front_t
 =
 FrontBinder
 <
+std
+:
+:
 decay_t
 <
 F
 >
-absl
+std
 :
 :
 decay_t

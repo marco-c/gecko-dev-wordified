@@ -262,12 +262,12 @@ value_type
 EXPECT_TRUE
 (
 (
-absl
+std
 :
 :
 conjunction
 <
-absl
+std
 :
 :
 negation
@@ -304,7 +304,7 @@ size_type
 EXPECT_TRUE
 (
 (
-absl
+std
 :
 :
 conjunction

@@ -224,14 +224,11 @@ return
 std
 :
 :
-is_same
+is_same_v
 <
 Type1
 Type2
 >
-:
-:
-value
 )
 ;
 }

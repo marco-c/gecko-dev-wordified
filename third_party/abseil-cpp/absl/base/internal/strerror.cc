@@ -333,7 +333,7 @@ if
 std
 :
 :
-is_same
+is_same_v
 <
 decltype
 (
@@ -341,9 +341,6 @@ ret
 )
 int
 >
-:
-:
-value
 )
 {
 /

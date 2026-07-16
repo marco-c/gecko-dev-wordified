@@ -3343,7 +3343,7 @@ absl
 :
 :
 Mutex
-*
+&
 HelpAttributesMutex
 (
 )
@@ -3362,11 +3362,8 @@ Mutex
 mutex
 ;
 return
+*
 mutex
-.
-get
-(
-)
 ;
 }
 ABSL_CONST_INIT

@@ -220,7 +220,6 @@ Block
 MutexLock
 l
 (
-&
 this
 -
 >

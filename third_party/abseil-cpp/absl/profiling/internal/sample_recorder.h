@@ -703,7 +703,7 @@ have
 been
 dropped
 .
-int64_t
+size_t
 Iterate
 (
 const
@@ -1287,7 +1287,6 @@ absl
 MutexLock
 l
 (
-&
 graveyard_
 .
 init_mu
@@ -1465,7 +1464,6 @@ absl
 MutexLock
 graveyard_lock
 (
-&
 graveyard_
 .
 init_mu
@@ -1477,7 +1475,6 @@ absl
 MutexLock
 sample_lock
 (
-&
 sample
 -
 >
@@ -1536,7 +1533,6 @@ absl
 MutexLock
 graveyard_lock
 (
-&
 graveyard_
 .
 init_mu
@@ -1595,7 +1591,6 @@ absl
 MutexLock
 sample_lock
 (
-&
 sample
 -
 >
@@ -1773,7 +1768,6 @@ absl
 MutexLock
 sample_lock
 (
-&
 sample
 -
 >
@@ -1958,7 +1952,7 @@ template
 typename
 T
 >
-int64_t
+size_t
 SampleRecorder
 <
 T
@@ -2013,7 +2007,6 @@ absl
 MutexLock
 l
 (
-&
 s
 -
 >

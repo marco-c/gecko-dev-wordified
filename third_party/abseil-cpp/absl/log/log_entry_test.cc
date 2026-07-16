@@ -2071,7 +2071,7 @@ if
 std
 :
 :
-is_signed
+is_signed_v
 <
 absl
 :
@@ -2081,9 +2081,6 @@ LogEntry
 :
 tid_t
 >
-:
-:
-value
 )
 {
 LogEntryTestPeer
@@ -3431,7 +3428,7 @@ if
 std
 :
 :
-is_signed
+is_signed_v
 <
 absl
 :
@@ -3441,9 +3438,6 @@ LogEntry
 :
 tid_t
 >
-:
-:
-value
 )
 {
 LogEntryTestPeer

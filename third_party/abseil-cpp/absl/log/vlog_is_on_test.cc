@@ -148,6 +148,11 @@ h
 "
 #
 include
+<
+optional
+>
+#
+include
 "
 gmock
 /
@@ -230,17 +235,6 @@ scoped_mock_log
 .
 h
 "
-#
-include
-"
-absl
-/
-types
-/
-optional
-.
-h
-"
 namespace
 {
 using
@@ -251,7 +245,7 @@ testing
 :
 _
 ;
-absl
+std
 :
 :
 optional
@@ -271,7 +265,7 @@ ABSL_MAX_VLOG_VERBOSITY
 #
 else
 return
-absl
+std
 :
 :
 nullopt
@@ -279,7 +273,7 @@ nullopt
 #
 endif
 }
-absl
+std
 :
 :
 optional
@@ -305,7 +299,7 @@ ABSL_MIN_LOG_LEVEL
 #
 else
 return
-absl
+std
 :
 :
 nullopt

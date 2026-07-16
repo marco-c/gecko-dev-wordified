@@ -2278,7 +2278,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2289,9 +2289,6 @@ absl
 :
 CivilMinute
 >
-:
-:
-value
 )
 )
 ;
@@ -2301,7 +2298,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2312,9 +2309,6 @@ absl
 :
 CivilHour
 >
-:
-:
-value
 )
 )
 ;
@@ -2324,7 +2318,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2335,9 +2329,6 @@ absl
 :
 CivilDay
 >
-:
-:
-value
 )
 )
 ;
@@ -2347,7 +2338,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2358,9 +2349,6 @@ absl
 :
 CivilMonth
 >
-:
-:
-value
 )
 )
 ;
@@ -2370,7 +2358,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2381,9 +2369,6 @@ absl
 :
 CivilYear
 >
-:
-:
-value
 )
 )
 ;
@@ -2393,7 +2378,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2404,9 +2389,6 @@ absl
 :
 CivilHour
 >
-:
-:
-value
 )
 )
 ;
@@ -2416,7 +2398,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2427,9 +2409,6 @@ absl
 :
 CivilDay
 >
-:
-:
-value
 )
 )
 ;
@@ -2439,7 +2418,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2450,9 +2429,6 @@ absl
 :
 CivilMonth
 >
-:
-:
-value
 )
 )
 ;
@@ -2462,7 +2438,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2473,9 +2449,6 @@ absl
 :
 CivilYear
 >
-:
-:
-value
 )
 )
 ;
@@ -2485,7 +2458,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2496,9 +2469,6 @@ absl
 :
 CivilDay
 >
-:
-:
-value
 )
 )
 ;
@@ -2508,7 +2478,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2519,9 +2489,6 @@ absl
 :
 CivilMonth
 >
-:
-:
-value
 )
 )
 ;
@@ -2531,7 +2498,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2542,9 +2509,6 @@ absl
 :
 CivilYear
 >
-:
-:
-value
 )
 )
 ;
@@ -2554,7 +2518,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2565,9 +2529,6 @@ absl
 :
 CivilMonth
 >
-:
-:
-value
 )
 )
 ;
@@ -2577,7 +2538,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2588,9 +2549,6 @@ absl
 :
 CivilYear
 >
-:
-:
-value
 )
 )
 ;
@@ -2600,7 +2558,7 @@ EXPECT_FALSE
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 absl
 :
@@ -2611,9 +2569,6 @@ absl
 :
 CivilYear
 >
-:
-:
-value
 )
 )
 ;

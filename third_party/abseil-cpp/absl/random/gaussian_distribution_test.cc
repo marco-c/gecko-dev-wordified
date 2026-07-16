@@ -470,7 +470,7 @@ RealTypes
 std
 :
 :
-conditional
+conditional_t
 <
 absl
 :
@@ -504,9 +504,6 @@ long
 double
 >
 >
-:
-:
-type
 ;
 TYPED_TEST_SUITE
 (
@@ -1083,15 +1080,12 @@ if
 std
 :
 :
-is_same
+is_same_v
 <
 TypeParam
 long
 double
 >
-:
-:
-value
 )
 {
 LOG

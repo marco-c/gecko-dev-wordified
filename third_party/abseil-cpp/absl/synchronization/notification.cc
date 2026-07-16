@@ -226,7 +226,6 @@ TraceObjectKind
 MutexLock
 l
 (
-&
 this
 -
 >
@@ -326,7 +325,6 @@ destructed
 MutexLock
 l
 (
-&
 this
 -
 >
@@ -391,7 +389,7 @@ this
 >
 mutex_
 .
-Unlock
+unlock
 (
 )
 ;
@@ -478,7 +476,7 @@ this
 >
 mutex_
 .
-Unlock
+unlock
 (
 )
 ;
@@ -572,7 +570,7 @@ this
 >
 mutex_
 .
-Unlock
+unlock
 (
 )
 ;

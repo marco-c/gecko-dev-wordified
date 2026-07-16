@@ -370,7 +370,7 @@ Convertible1
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -413,7 +413,7 @@ Convertible2
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -477,7 +477,7 @@ source
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -514,7 +514,7 @@ source
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -615,7 +615,7 @@ int
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -636,7 +636,7 @@ var
 ;
 ASSERT_NE
 (
-absl
+std
 :
 :
 get
@@ -660,7 +660,7 @@ EXPECT_EQ
 (
 0
 *
-absl
+std
 :
 :
 get
@@ -708,7 +708,7 @@ foo
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -736,7 +736,7 @@ EXPECT_EQ
 foo
 "
 *
-absl
+std
 :
 :
 get
@@ -890,7 +890,7 @@ v1
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -907,7 +907,7 @@ int
 (
 v1
 )
-absl
+std
 :
 :
 get
@@ -958,7 +958,7 @@ v1
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -978,7 +978,7 @@ string
 (
 v1
 )
-absl
+std
 :
 :
 get
@@ -1035,7 +1035,7 @@ other
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -1051,7 +1051,7 @@ int
 (
 other
 )
-absl
+std
 :
 :
 get
@@ -1100,7 +1100,7 @@ other
 ;
 EXPECT_EQ
 (
-absl
+std
 :
 :
 get
@@ -1119,7 +1119,7 @@ string
 (
 other
 )
-absl
+std
 :
 :
 get
@@ -1148,6 +1148,9 @@ VariantTest
 TestRvalueConversionViaConvertVariantTo
 )
 {
+std
+:
+:
 variant
 <
 Convertible1
@@ -1187,7 +1190,7 @@ Convertible1
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -1230,7 +1233,7 @@ Convertible2
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -1249,6 +1252,9 @@ VariantTest
 TestLvalueConversionViaConvertVariantTo
 )
 {
+std
+:
+:
 variant
 <
 Convertible2
@@ -1263,6 +1269,9 @@ Convertible1
 )
 )
 ;
+std
+:
+:
 variant
 <
 Convertible1
@@ -1288,7 +1297,7 @@ source
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -1325,7 +1334,7 @@ source
 ;
 ASSERT_TRUE
 (
-absl
+std
 :
 :
 holds_alternative
@@ -1426,7 +1435,7 @@ int
 ;
 EXPECT_THAT
 (
-absl
+std
 :
 :
 get_if
@@ -1482,7 +1491,7 @@ foo
 ;
 EXPECT_THAT
 (
-absl
+std
 :
 :
 get_if

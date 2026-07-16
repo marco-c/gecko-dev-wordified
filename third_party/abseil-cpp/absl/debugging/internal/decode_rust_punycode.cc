@@ -1584,14 +1584,9 @@ false
 /
 /
 namespace
-absl
-:
-:
-Nullable
-<
 char
 *
->
+absl_nullable
 DecodeRustPunycode
 (
 DecodeRustPunycodeOptions

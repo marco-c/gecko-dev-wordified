@@ -412,7 +412,7 @@ h
 if
 defined
 (
-__MACH__
+__APPLE__
 )
 #
 include
@@ -1948,7 +1948,7 @@ fp
 elif
 defined
 (
-__MACH__
+__APPLE__
 )
 uint32_t
 size
