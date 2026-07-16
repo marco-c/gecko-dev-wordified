@@ -452,6 +452,13 @@ HttpBackgroundChannelParent
 Init
 (
 const
+dom
+:
+:
+ContentParentId
+&
+aCpId
+const
 uint64_t
 &
 aChannelId
@@ -492,6 +499,10 @@ AssertIsInMainProcess
 AssertIsOnBackgroundThread
 (
 )
+;
+mContentParentId
+=
+aCpId
 ;
 RefPtr
 <
