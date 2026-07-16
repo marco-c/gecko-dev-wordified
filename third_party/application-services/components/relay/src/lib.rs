@@ -91,6 +91,13 @@ error_support
 :
 handle_error
 ;
+pub
+use
+rs
+:
+:
+RelayRemoteSettingsClient
+;
 use
 serde
 :

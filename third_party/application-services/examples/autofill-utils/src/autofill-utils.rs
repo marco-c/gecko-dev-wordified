@@ -3737,7 +3737,7 @@ Result
 )
 >
 {
-nss
+nss_as
 :
 :
 ensure_initialized
@@ -3750,7 +3750,6 @@ viaduct_hyper
 viaduct_init_backend_hyper
 (
 )
-?
 ;
 let
 opts

@@ -76,15 +76,6 @@ viaduct_hyper
 viaduct_init_backend_hyper
 (
 )
-.
-expect
-(
-"
-Error
-initializing
-viaduct
-"
-)
 ;
 ingest
 :
