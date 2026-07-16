@@ -356,7 +356,6 @@ async
 def
 parent_process_session
 (
-session
 configuration
 geckodriver
 )
