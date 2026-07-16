@@ -41,14 +41,6 @@ file
 .
 /
 /
-#
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
 /
 /
 loadimage_paletted
@@ -544,10 +536,6 @@ LoadPalettedToRGBA8
 void
 LoadPalettedToRGBA8Impl
 (
-const
-ImageLoadContext
-&
-context
 size_t
 width
 size_t
@@ -638,7 +626,7 @@ anglebug
 .
 com
 /
-42266155
+7688
 )
 :
 mip

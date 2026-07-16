@@ -54,14 +54,6 @@ VertexBuffer
 implementation
 .
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 libANGLE

@@ -83,11 +83,6 @@ LIBANGLE_INFOLOG_H_
 #
 define
 LIBANGLE_INFOLOG_H_
-#
-include
-<
-string
->
 namespace
 gl
 {
@@ -133,10 +128,9 @@ const
 void
 appendSanitized
 (
-std
-:
-:
-string
+const
+char
+*
 message
 )
 ;

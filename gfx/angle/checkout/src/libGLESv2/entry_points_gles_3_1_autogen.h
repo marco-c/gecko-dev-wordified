@@ -103,6 +103,15 @@ export
 .
 h
 >
+#
+include
+"
+common
+/
+platform
+.
+h
+"
 extern
 "
 C

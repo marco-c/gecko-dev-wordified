@@ -3064,7 +3064,7 @@ GLenum
 pname
 GLfixed
 *
-data
+params
 )
 ;
 typedef
@@ -5065,7 +5065,7 @@ GLenum
 pname
 GLfixed
 *
-data
+params
 )
 ;
 GL_API

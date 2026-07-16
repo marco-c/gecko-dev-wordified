@@ -1428,9 +1428,6 @@ bufferSRV
 =
 nullptr
 ;
-BufferFeedback
-feedback
-;
 ANGLE_TRY
 (
 bufferStorage11
@@ -1442,8 +1439,6 @@ context
 srvFormat
 &
 bufferSRV
-&
-feedback
 )
 )
 ;
@@ -1453,15 +1448,6 @@ bufferSRV
 !
 =
 nullptr
-)
-;
-unpackBuffer
--
->
-applyImplFeedback
-(
-context
-feedback
 )
 ;
 const

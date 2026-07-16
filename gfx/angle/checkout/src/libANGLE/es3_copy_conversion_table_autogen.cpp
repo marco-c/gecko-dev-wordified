@@ -161,9 +161,6 @@ framebufferFormat
 case
 GL_BGRA_EXT
 :
-case
-GL_RGBA
-:
 return
 true
 ;
