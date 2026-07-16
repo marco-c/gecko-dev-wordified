@@ -254,9 +254,6 @@ RTCDataChannel
 struct
 RTCStatsCollection
 ;
-class
-RTCErrorParams
-;
 }
 ;
 /
@@ -1465,13 +1462,6 @@ uint8_t
 >
 &
 aRemoteCerts
-Maybe
-<
-dom
-:
-:
-RTCErrorParams
->
 )
 ;
 void

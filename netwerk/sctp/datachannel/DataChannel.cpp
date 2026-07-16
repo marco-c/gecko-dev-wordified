@@ -2309,13 +2309,6 @@ uint8_t
 >
 >
 &
-Maybe
-<
-dom
-:
-:
-RTCErrorParams
->
 )
 {
 MOZ_ASSERT

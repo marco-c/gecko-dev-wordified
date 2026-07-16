@@ -2833,13 +2833,6 @@ uint8_t
 >
 >
 &
-Maybe
-<
-dom
-:
-:
-RTCErrorParams
->
 )
 {
 if
@@ -2880,13 +2873,6 @@ TransportLayer
 :
 State
 aState
-Maybe
-<
-dom
-:
-:
-RTCErrorParams
->
 )
 {
 if

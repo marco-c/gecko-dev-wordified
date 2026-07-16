@@ -312,9 +312,6 @@ RTCRTPContributingSourceStats
 class
 RTCStatsTimestampMaker
 ;
-class
-RTCErrorParams
-;
 }
 /
 /
@@ -1177,13 +1174,6 @@ uint8_t
 >
 &
 aRemoteCerts
-Maybe
-<
-dom
-:
-:
-RTCErrorParams
->
 )
 ;
 void
@@ -1200,13 +1190,6 @@ TransportLayer
 :
 :
 State
-Maybe
-<
-dom
-:
-:
-RTCErrorParams
->
 )
 ;
 virtual
