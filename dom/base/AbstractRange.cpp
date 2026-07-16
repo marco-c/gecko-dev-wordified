@@ -5221,7 +5221,7 @@ IsDisplayContents
 return
 ;
 }
-FlattenedChildIteratorForSelection
+FlattenedChildIterator
 childIter
 (
 content
