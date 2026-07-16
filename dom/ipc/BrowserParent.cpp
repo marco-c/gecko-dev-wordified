@@ -8087,6 +8087,17 @@ SetTopLevelInContentProcess
 (
 )
 ;
+if
+(
+!
+doc
+-
+>
+IsPrintDoc
+(
+)
+)
+{
 a11y
 :
 :
@@ -8095,6 +8106,7 @@ ProxyCreated
 doc
 )
 ;
+}
 /
 /
 It
@@ -8272,6 +8284,12 @@ doc
 #
 ifdef
 XP_WIN
+if
+(
+!
+aIsPrintDoc
+)
+{
 doc
 -
 >
@@ -8279,6 +8297,7 @@ MaybeInitWindowEmulation
 (
 )
 ;
+}
 #
 endif
 }
