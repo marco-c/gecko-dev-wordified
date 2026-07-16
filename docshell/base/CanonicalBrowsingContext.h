@@ -457,13 +457,6 @@ mEmbedderProcessId
 aProcessId
 ;
 }
-bool
-IsKnownSubInTree
-(
-uint64_t
-aProcessId
-)
-;
 uint64_t
 OwnerProcessId
 (
