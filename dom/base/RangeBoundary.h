@@ -3052,6 +3052,11 @@ with
 invalid
 offset
 ?
+\
+nthis
+=
+{
+}
 "
 *
 this
