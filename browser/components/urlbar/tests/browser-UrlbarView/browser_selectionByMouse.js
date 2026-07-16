@@ -1965,7 +1965,7 @@ menu
 -
 learn
 -
-more2
+more
 "
 }
 isBlockable
@@ -2034,7 +2034,7 @@ assertResultMenuOpen
 {
 Assert
 .
-ok
+equal
 (
 gURLBar
 .
@@ -2042,12 +2042,10 @@ view
 .
 resultMenu
 .
-hasAttribute
-(
+state
 "
-open
+showing
 "
-)
 "
 Result
 menu

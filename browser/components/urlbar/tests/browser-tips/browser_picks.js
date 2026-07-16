@@ -1150,7 +1150,7 @@ tip
 -
 get
 -
-help2
+help
 "
 }
 }

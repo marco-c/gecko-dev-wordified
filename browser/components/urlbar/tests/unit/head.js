@@ -3273,7 +3273,7 @@ remove
 -
 from
 -
-history2
+history
 "
 }
 :
@@ -3522,7 +3522,7 @@ remove
 -
 from
 -
-history2
+history
 "
 }
 helpUrl
@@ -6119,7 +6119,7 @@ remove
 -
 from
 -
-history2
+history
 "
 }
 ;

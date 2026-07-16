@@ -403,7 +403,7 @@ menu
 -
 learn
 -
-more2
+more
 "
 }
 isBlockable
@@ -553,7 +553,7 @@ menu
 -
 learn
 -
-more2
+more
 "
 }
 isBlockable

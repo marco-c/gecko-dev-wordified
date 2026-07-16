@@ -1298,11 +1298,9 @@ view
 .
 resultMenu
 .
-removeAttribute
+hidePopup
 (
-"
-open
-"
+true
 )
 ;
 await

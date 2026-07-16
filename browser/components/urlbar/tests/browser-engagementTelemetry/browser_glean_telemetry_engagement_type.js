@@ -1541,7 +1541,7 @@ menu
 -
 learn
 -
-more2
+more
 "
 }
 }

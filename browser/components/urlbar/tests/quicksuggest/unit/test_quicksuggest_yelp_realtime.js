@@ -2147,7 +2147,7 @@ in
 -
 dismiss
 -
-all2
+all
 "
 }
 }
