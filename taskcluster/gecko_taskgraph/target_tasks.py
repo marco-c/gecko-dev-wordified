@@ -7375,17 +7375,6 @@ shippable
 False
 )
             
-#
-Nightly
-only
-builds
-don
-'
-t
-have
-shipping_product
-set
-            
 task
 .
 attributes
@@ -7398,7 +7387,6 @@ shipping_product
 )
 in
 {
-None
 "
 firefox
 "
