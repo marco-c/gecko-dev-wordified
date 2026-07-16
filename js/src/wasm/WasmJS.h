@@ -549,6 +549,9 @@ WasmInstanceObject
 instanceObj
 )
 ;
+struct
+ImportValues
+;
 /
 /
 Extracts
@@ -590,9 +593,6 @@ WasmModule
 :
 instantiate
 .
-struct
-ImportValues
-;
 [
 [
 nodiscard
