@@ -295,8 +295,11 @@ view
 .
 resultMenu
 .
-hidePopup
+removeAttribute
 (
+"
+open
+"
 )
 ;
 await
@@ -399,8 +402,11 @@ view
 .
 resultMenu
 .
-hidePopup
+removeAttribute
 (
+"
+open
+"
 )
 ;
 info
@@ -1233,7 +1239,7 @@ menu
 -
 learn
 -
-more
+more2
 "
 }
 }

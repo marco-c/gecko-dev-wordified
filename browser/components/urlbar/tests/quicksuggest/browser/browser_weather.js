@@ -689,9 +689,11 @@ view
 .
 resultMenu
 .
-hidePopup
+removeAttribute
 (
-true
+"
+open
+"
 )
 ;
 }
