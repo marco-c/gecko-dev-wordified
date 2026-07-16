@@ -2871,7 +2871,7 @@ AsContent
 )
 -
 >
-GetAssignedSlot
+GetAssignedSlotForSelection
 (
 )
 ;
