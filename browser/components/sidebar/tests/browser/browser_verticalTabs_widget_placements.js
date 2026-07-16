@@ -376,6 +376,13 @@ alltabs
 button
 "
 "
+ai
+-
+window
+-
+toggle
+"
+"
 panic
 -
 button
