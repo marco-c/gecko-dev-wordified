@@ -2580,14 +2580,7 @@ id
 .
 Parse
 (
-PromiseFlatCString
-(
 leafName
-)
-.
-get
-(
-)
 )
 )
 true
