@@ -1881,10 +1881,6 @@ sPendingHDCPCheck
 =
 nullptr
 ;
-mHardwareResetInProgress
-=
-true
-;
 RefPtr
 <
 MFCDMParent
