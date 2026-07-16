@@ -112,6 +112,13 @@ GeckoViewSupport
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 using
 namespace
 mozilla
@@ -1986,7 +1993,7 @@ numberValue
 ;
 aOut
 .
-setDouble
+setNumber
 (
 numberValue
 )

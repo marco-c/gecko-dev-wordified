@@ -29837,9 +29837,7 @@ rval
 (
 )
 .
-set
-(
-JS_NumberValue
+setNumber
 (
 double
 (
@@ -29855,7 +29853,6 @@ shape
 >
 >
 3
-)
 )
 )
 ;
@@ -73274,16 +73271,13 @@ rval
 (
 )
 .
-set
-(
-JS_NumberValue
+setNumber
 (
 double
 (
 3
 .
 14
-)
 )
 )
 ;

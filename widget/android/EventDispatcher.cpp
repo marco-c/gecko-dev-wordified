@@ -164,6 +164,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ScopeExit
@@ -2108,10 +2115,7 @@ JNIEnv
 :
 ReleaseDoubleArrayElements
 &
-JS
-:
-:
-DoubleValue
+JS_NumberValue
 >
 (
 aCx

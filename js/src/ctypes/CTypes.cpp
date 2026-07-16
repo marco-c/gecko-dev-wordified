@@ -20068,7 +20068,7 @@ data
 \
 result
 .
-setDouble
+setNumber
 (
 double
 (
