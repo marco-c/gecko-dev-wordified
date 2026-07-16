@@ -2810,9 +2810,12 @@ mKBuffer
 .
 resize
 (
+size_t
+(
 size
 .
 width
+)
 *
 size
 .
