@@ -211,6 +211,7 @@ ContentVisibility
 Display
 DominantBaseline
 Float
+MarginTrim
 Overflow
 OverflowAnchor
 OverscrollBehavior

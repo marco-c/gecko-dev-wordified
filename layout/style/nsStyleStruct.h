@@ -3475,6 +3475,12 @@ mozilla
 StyleOverflowClipMargin
 mOverflowClipMargin
 ;
+mozilla
+:
+:
+StyleMarginTrim
+mMarginTrim
+;
 }
 ;
 struct
