@@ -56,12 +56,6 @@ Serializer
 }
 ;
 use
-serde
-:
-:
-serde_if_integer128
-;
-use
 std
 :
 :
@@ -487,9 +481,6 @@ u64
 )
 )
 ;
-serde_if_integer128
-!
-{
 write_primitive
 !
 (
@@ -508,7 +499,6 @@ u128
 )
 )
 ;
-}
 write_primitive
 !
 (

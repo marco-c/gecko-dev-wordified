@@ -385,14 +385,10 @@ struct
 UidU64Visitor
 ;
 impl
-<
-'
-de
->
 Visitor
 <
 '
-de
+_
 >
 for
 UidU64Visitor
