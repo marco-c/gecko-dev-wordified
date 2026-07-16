@@ -2404,9 +2404,6 @@ BitmapShadow
 ColorBitmap
 =
 3
-Image
-=
-4
 }
 impl
 From
