@@ -224,11 +224,15 @@ nsWrapperCache
 h
 "
 class
-nsGeolocationService
-;
-class
 nsGeolocationRequest
 ;
+namespace
+mozilla
+{
+class
+GeolocationService
+;
+}
 namespace
 mozilla
 :
@@ -304,7 +308,10 @@ friend
 class
 :
 :
-nsGeolocationService
+mozilla
+:
+:
+GeolocationService
 ;
 public
 :
@@ -844,7 +851,7 @@ deregistering
 void
 SetService
 (
-nsGeolocationService
+GeolocationService
 *
 aService
 )
@@ -1023,7 +1030,7 @@ pointer
 .
 RefPtr
 <
-nsGeolocationService
+GeolocationService
 >
 mService
 ;
@@ -1038,7 +1045,7 @@ override
 .
 RefPtr
 <
-nsGeolocationService
+GeolocationService
 >
 mServiceOverride
 ;

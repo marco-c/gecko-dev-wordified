@@ -294,9 +294,6 @@ class
 nsDocShellLoadState
 ;
 class
-nsGeolocationService
-;
-class
 nsGlobalWindowInner
 ;
 class
@@ -344,6 +341,9 @@ mozilla
 {
 class
 ErrorResult
+;
+class
+GeolocationService
 ;
 class
 LogModule
@@ -4172,7 +4172,7 @@ IsSubframe
 }
 RefPtr
 <
-nsGeolocationService
+GeolocationService
 >
 GetGeolocationServiceOverride
 (
@@ -11247,7 +11247,7 @@ mCurrentWindowContext
 ;
 RefPtr
 <
-nsGeolocationService
+GeolocationService
 >
 mGeolocationServiceOverride
 ;
