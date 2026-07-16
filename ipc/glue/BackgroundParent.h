@@ -538,6 +538,9 @@ ValidatePrincipalOptions
 >
 &
 aOptions
+=
+{
+}
 )
 ;
 static
@@ -561,6 +564,9 @@ ValidatePrincipalOptions
 >
 &
 aOptions
+=
+{
+}
 )
 ;
 static

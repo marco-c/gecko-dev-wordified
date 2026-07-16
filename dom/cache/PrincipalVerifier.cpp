@@ -650,8 +650,6 @@ mHandle
 GetRemoteType
 (
 )
-{
-}
 )
 )
 )
