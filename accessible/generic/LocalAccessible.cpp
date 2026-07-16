@@ -21202,9 +21202,6 @@ shown
 if
 (
 aParent
-&
-&
-aParent
 -
 >
 Elm
