@@ -5803,7 +5803,7 @@ SliceBudget
 budget
 )
 ;
-void
+bool
 finishAnyConcurrentMarking
 (
 JS
