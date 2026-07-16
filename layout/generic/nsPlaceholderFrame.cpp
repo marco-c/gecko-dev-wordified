@@ -500,6 +500,9 @@ const
 if
 (
 mOutOfFlowFrame
+&
+&
+mOutOfFlowFrame
 -
 >
 IsFloating
@@ -835,6 +838,9 @@ HasAnyStateBits
 (
 NS_FRAME_FIRST_REFLOW
 )
+&
+&
+mOutOfFlowFrame
 &
 &
 !

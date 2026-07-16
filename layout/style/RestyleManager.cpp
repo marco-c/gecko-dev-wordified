@@ -8299,6 +8299,15 @@ GetRealFrameForPlaceholder
 f
 )
 ;
+if
+(
+!
+outOfFlow
+)
+{
+continue
+;
+}
 /
 /
 If

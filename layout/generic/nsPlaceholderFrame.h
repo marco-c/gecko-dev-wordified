@@ -555,6 +555,11 @@ GetOutOfFlowFrame
 )
 const
 {
+MOZ_ASSERT
+(
+mOutOfFlowFrame
+)
+;
 return
 mOutOfFlowFrame
 ;

@@ -8481,6 +8481,9 @@ childFrame
 if
 (
 realFrame
+&
+&
+realFrame
 -
 >
 IsLetterFrame
@@ -10221,6 +10224,9 @@ childFrame
 ;
 if
 (
+realFrame
+&
+&
 realFrame
 -
 >

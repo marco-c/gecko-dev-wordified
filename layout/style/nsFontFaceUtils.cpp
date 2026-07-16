@@ -1456,7 +1456,9 @@ IsPlaceholderFrame
 )
 )
 {
-nsIFrame
+if
+(
+auto
 *
 oof
 =
@@ -1467,7 +1469,8 @@ GetRealFrameForPlaceholder
 (
 f
 )
-;
+)
+{
 if
 (
 !
@@ -1500,6 +1503,7 @@ AppendElement
 oof
 )
 ;
+}
 }
 }
 for

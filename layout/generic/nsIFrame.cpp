@@ -31086,6 +31086,10 @@ child
 ;
 if
 (
+!
+childOrOutOfFlow
+|
+|
 ShouldSkipFrame
 (
 aBuilder
