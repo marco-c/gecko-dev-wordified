@@ -3649,10 +3649,7 @@ MaybeReflowForInflationScreenSizeChange
 auto
 changeHint
 =
-nsChangeHint
-{
-0
-}
+nsChangeHint_Empty
 ;
 auto
 restyleHint
