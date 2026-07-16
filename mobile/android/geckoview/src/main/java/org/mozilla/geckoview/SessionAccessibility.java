@@ -214,6 +214,13 @@ androidx
 .
 annotation
 .
+AnyThread
+;
+import
+androidx
+.
+annotation
+.
 NonNull
 ;
 import
@@ -2433,6 +2440,7 @@ updateAccessibilitySettings
 )
 ;
 }
+AnyThread
 /
 *
 package
