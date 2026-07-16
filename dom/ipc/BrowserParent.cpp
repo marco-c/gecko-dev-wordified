@@ -7494,6 +7494,9 @@ uint64_t
 const
 MaybeDiscardedBrowsingContext
 &
+const
+bool
+&
 )
 {
 /
@@ -7584,6 +7587,10 @@ const
 MaybeDiscardedBrowsingContext
 &
 aBrowsingContext
+const
+bool
+&
+aIsPrintDoc
 )
 {
 #
@@ -7618,6 +7625,14 @@ DocAccessibleParent
 >
 (
 aDoc
+)
+;
+doc
+-
+>
+SetIsPrintDoc
+(
+aIsPrintDoc
 )
 ;
 /

@@ -2427,6 +2427,9 @@ uint64_t
 const
 MaybeDiscardedBrowsingContext
 &
+const
+bool
+&
 )
 ;
 bool
@@ -2460,6 +2463,10 @@ const
 MaybeDiscardedBrowsingContext
 &
 aBrowsingContext
+const
+bool
+&
+aIsPrintDoc
 )
 override
 ;
