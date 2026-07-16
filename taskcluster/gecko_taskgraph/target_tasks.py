@@ -7315,6 +7315,7 @@ def
 make_desktop_nightly_filter
 (
 platforms
+graph_config
 )
 :
     
@@ -7384,6 +7385,7 @@ filter_for_target_project
 _filter_by_release_project
 (
 parameters
+graph_config
 )
         
 return
@@ -7795,14 +7797,15 @@ filter
 =
 make_desktop_nightly_filter
 (
-{
         
+{
+            
 "
 linux64
 -
 shippable
 "
-        
+            
 "
 linux64
 -
@@ -7810,8 +7813,11 @@ aarch64
 -
 shippable
 "
-    
+        
 }
+        
+graph_config
+    
 )
     
 return
@@ -7939,6 +7945,7 @@ macosx64
 shippable
 "
 }
+graph_config
 )
     
 return
@@ -8068,6 +8075,7 @@ win32
 shippable
 "
 }
+graph_config
 )
     
 return
@@ -8197,6 +8205,7 @@ win64
 shippable
 "
 }
+graph_config
 )
     
 return
@@ -8330,6 +8339,7 @@ aarch64
 shippable
 "
 }
+graph_config
 )
     
 return
@@ -8537,6 +8547,7 @@ make_desktop_nightly_filter
 {
 None
 }
+graph_config
 )
     
 release_tasks
@@ -9977,13 +9988,20 @@ def
 _filter_by_release_project
 (
 parameters
+graph_config
 )
 :
     
-project_by_release
+project_by_release_by_trust_domain
 =
 {
         
+"
+gecko
+"
+:
+{
+            
 "
 nightly
 "
@@ -9993,7 +10011,7 @@ mozilla
 -
 central
 "
-        
+            
 "
 beta
 "
@@ -10003,7 +10021,7 @@ mozilla
 -
 beta
 "
-        
+            
 "
 release
 "
@@ -10013,7 +10031,7 @@ mozilla
 -
 release
 "
-        
+            
 "
 esr153
 "
@@ -10023,7 +10041,7 @@ mozilla
 -
 esr153
 "
-        
+            
 "
 esr140
 "
@@ -10033,8 +10051,111 @@ mozilla
 -
 esr140
 "
+        
+}
+        
+"
+comm
+"
+:
+{
+            
+"
+nightly
+"
+:
+"
+comm
+-
+central
+"
+            
+"
+beta
+"
+:
+"
+comm
+-
+beta
+"
+            
+"
+release
+"
+:
+"
+comm
+-
+release
+"
+            
+"
+esr153
+"
+:
+"
+comm
+-
+esr153
+"
+            
+"
+esr140
+"
+:
+"
+comm
+-
+esr140
+"
+        
+}
     
 }
+    
+trust_domain
+=
+graph_config
+[
+"
+trust
+-
+domain
+"
+]
+    
+project_by_release
+=
+project_by_release_by_trust_domain
+.
+get
+(
+trust_domain
+)
+    
+if
+project_by_release
+is
+None
+:
+        
+raise
+Exception
+(
+f
+"
+Unsupported
+trust
+domain
+'
+{
+trust_domain
+}
+'
+.
+"
+)
     
 target_project
 =
@@ -10210,6 +10331,7 @@ filter_for_target_project
 _filter_by_release_project
 (
 parameters
+graph_config
 )
     
 return
@@ -10313,6 +10435,7 @@ filter_for_target_project
 _filter_by_release_project
 (
 parameters
+graph_config
 )
     
 return
