@@ -2062,15 +2062,28 @@ nogpu
 )
 )
         
-#
+_private_browsing
+:
+Token
+=
+self
+.
+add
+(
+            
+Token
+(
+t_type
+=
+t_variant
+value
+=
+"
 privateBrowsing
--
--
-not
-used
-in
-any
-manifests
+"
+)
+        
+)
         
 _remote_async
 :
