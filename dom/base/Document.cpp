@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsAnimationManager
-.
-h
-"
-#
-include
-"
 NSSErrorsService
 .
 h
@@ -3011,6 +3004,13 @@ h
 include
 "
 nsAboutProtocolUtils
+.
+h
+"
+#
+include
+"
+nsAnimationManager
 .
 h
 "
