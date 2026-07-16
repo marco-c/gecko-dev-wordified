@@ -1308,15 +1308,6 @@ the
 error
 to
 EME
-(
-never
-/
-/
-demote
-SL3000
-to
-SL2000
-)
 .
 MOZ_DEFINE_ENUM_CLASS_WITH_BASE_AND_TOSTRING_AT_CLASS_SCOPE
 (
