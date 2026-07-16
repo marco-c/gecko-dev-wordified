@@ -151,6 +151,13 @@ hints
 h2
 .
 html
+test
+(
+(
+)
+=
+>
+{
 const
 params
 =
@@ -237,9 +244,11 @@ toString
 (
 )
 ;
-fetch_tests_from_window
-(
-openWindow
+window
+.
+location
+.
+replace
 (
 new
 URL
@@ -250,5 +259,7 @@ window
 location
 )
 )
+;
+}
 )
 ;

@@ -15,6 +15,13 @@ helpers
 sub
 .
 js
+test
+(
+(
+)
+=
+>
+{
 const
 preloads
 =
@@ -52,8 +59,6 @@ crossorigin_attr
 }
 ]
 ;
-fetch_tests_from_window
-(
 navigateToTestWithEarlyHints
 (
 "
@@ -67,5 +72,7 @@ html
 "
 preloads
 )
+;
+}
 )
 ;
