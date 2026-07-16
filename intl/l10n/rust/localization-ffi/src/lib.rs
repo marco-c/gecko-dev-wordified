@@ -101,10 +101,6 @@ l10nregistry_ffi
 :
 :
 {
-coverage
-:
-:
-l10nregistry_clear_coverage_cache
 env
 :
 :
@@ -3767,10 +3763,6 @@ loc
 LocalizationRc
 )
 {
-l10nregistry_clear_coverage_cache
-(
-)
-;
 loc
 .
 on_change
