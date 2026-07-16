@@ -522,16 +522,6 @@ pref
 "
 pdfjs
 .
-enableSignatureVerification
-"
-true
-)
-;
-pref
-(
-"
-pdfjs
-.
 enableSplitMerge
 "
 false
