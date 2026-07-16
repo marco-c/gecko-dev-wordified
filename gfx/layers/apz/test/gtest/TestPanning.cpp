@@ -172,17 +172,7 @@ request
 for
 each
 pan
-plus
-one
-for
-/
-/
-the
-scrolling
-gesture
-end
-state
-transition
+.
 EXPECT_CALL
 (
 *
@@ -195,7 +185,7 @@ _
 .
 Times
 (
-7
+6
 )
 ;
 }
