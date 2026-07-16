@@ -110,6 +110,16 @@ inst
 -
 apt
 "
+    
+"
+rpm
+"
+:
+"
+inst
+-
+rpm
+"
 }
 transforms
 =
