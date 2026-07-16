@@ -10,11 +10,6 @@ antitracking_head
 js
 *
 /
-requestLongerTimeout
-(
-2
-)
-;
 AntiTracking
 .
 runTest
