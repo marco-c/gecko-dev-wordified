@@ -79,9 +79,6 @@ mozilla
 class
 ScrollContainerFrame
 ;
-struct
-TimelineRangeOffset
-;
 }
 /
 /
