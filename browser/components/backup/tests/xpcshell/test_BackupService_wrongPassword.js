@@ -370,7 +370,7 @@ true
 await
 bs
 .
-loadBackupFileInfo
+getBackupFileInfo
 (
 testBackupPath
 )

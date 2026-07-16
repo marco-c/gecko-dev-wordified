@@ -251,7 +251,7 @@ createSandbox
 ;
 /
 /
-loadBackupFileInfo
+getBackupFileInfo
 should
 return
 without
@@ -278,7 +278,7 @@ stub
 (
 bs
 "
-loadBackupFileInfo
+getBackupFileInfo
 "
 )
 .
@@ -1404,7 +1404,7 @@ stub
 (
 bs
 "
-loadBackupFileInfo
+getBackupFileInfo
 "
 )
 .

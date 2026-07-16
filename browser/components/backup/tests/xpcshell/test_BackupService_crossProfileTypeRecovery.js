@@ -1254,7 +1254,7 @@ profilesDisabled
 await
 bs
 .
-loadBackupFileInfo
+getBackupFileInfo
 (
 archivePath
 )

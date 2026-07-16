@@ -349,7 +349,7 @@ DECOMPRESSION_FAILED
 await
 bs
 .
-loadBackupFileInfo
+getBackupFileInfo
 (
 testBackupPath
 )
@@ -770,7 +770,7 @@ manifest
 await
 bs
 .
-loadBackupFileInfo
+getBackupFileInfo
 (
 testBackupPath
 )
@@ -1164,7 +1164,7 @@ err
 await
 bs
 .
-loadBackupFileInfo
+getBackupFileInfo
 (
 testBackupPath
 )
@@ -1454,7 +1454,7 @@ genericError
 await
 bs
 .
-loadBackupFileInfo
+getBackupFileInfo
 (
 testBackupPath
 )

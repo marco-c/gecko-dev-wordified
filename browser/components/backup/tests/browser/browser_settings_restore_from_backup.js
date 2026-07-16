@@ -2547,7 +2547,7 @@ a
 stale
 /
 /
-loadBackupFileInfo
+getBackupFileInfo
 request
 (
 from
