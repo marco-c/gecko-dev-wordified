@@ -11399,6 +11399,51 @@ else
 :
                         
 #
+The
+file
+is
+matched
+against
+GENERATED_FILES
+by
+its
+                        
+#
+source
+name
+which
+is
+unaffected
+by
+a
+rename
+at
+install
+                        
+#
+time
+(
+a
+(
+source
+target_basename
+)
+tuple
+)
+.
+                        
+source_basename
+=
+mozpath
+.
+basename
+(
+f
+.
+full_path
+)
+                        
+#
 TODO
 :
 Bug
@@ -11460,9 +11505,7 @@ file
 .
                         
 if
-f
-.
-target_basename
+source_basename
 not
 in
 generated_files
@@ -11536,9 +11579,7 @@ LOCALIZED_GENERATED_FILES
 .
                             
 if
-f
-.
-target_basename
+source_basename
 not
 in
 localized_generated_files
@@ -11602,9 +11643,7 @@ LOCALIZED_FILES
 .
                         
 elif
-f
-.
-target_basename
+source_basename
 in
 localized_generated_files
 :
