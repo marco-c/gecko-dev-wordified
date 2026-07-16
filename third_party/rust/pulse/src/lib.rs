@@ -204,7 +204,10 @@ use
 proplist
 :
 :
+{
+OwnedProplist
 Proplist
+}
 ;
 use
 std

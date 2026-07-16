@@ -45,7 +45,6 @@ raw
 {
 c_char
 c_int
-c_void
 }
 ;
 cubeb_enum
@@ -130,9 +129,6 @@ pub
 fn
 cubeb_async_log_reset_threads
 (
-_
-:
-c_void
 )
 ;
 pub
