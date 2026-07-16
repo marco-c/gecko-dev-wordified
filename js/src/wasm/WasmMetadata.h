@@ -3272,6 +3272,11 @@ init
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 addDefinedFunc
 (
@@ -3306,6 +3311,11 @@ Nothing
 )
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 addDefinedFuncWithType
 (

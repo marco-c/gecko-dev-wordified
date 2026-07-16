@@ -1062,6 +1062,11 @@ the
 given
 imports
 :
+[
+[
+nodiscard
+]
+]
 bool
 instantiate
 (
