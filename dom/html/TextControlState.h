@@ -1588,6 +1588,17 @@ UpdateEditorOnTypeChange
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
+bool
+IsPreparingEditor
+(
+)
+const
+;
 /
 *
 *

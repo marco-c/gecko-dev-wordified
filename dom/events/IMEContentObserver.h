@@ -1066,6 +1066,12 @@ IsEditorHandlingEventForComposition
 const
 ;
 bool
+IsPreparingTextEditor
+(
+)
+const
+;
+bool
 KeepAliveDuringDeactive
 (
 )
@@ -1245,6 +1251,7 @@ queue
 void
 MaybeNotifyCompositionEventHandled
 (
+EventMessage
 )
 ;
 /
