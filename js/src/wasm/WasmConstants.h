@@ -5421,6 +5421,13 @@ MaxComponentCanonOpts
 static
 const
 uint32_t
+MaxComponentFlatteningDepth
+=
+63
+;
+static
+const
+uint32_t
 MaxComponentInlineExports
 =
 MaxComponentImports
