@@ -81,6 +81,14 @@ COMPILER_TRANSLATOR_STATIC_TYPE_H_
 define
 COMPILER_TRANSLATOR_STATIC_TYPE_H_
 #
+ifdef
+UNSAFE_BUFFERS_BUILD
+#
+pragma
+allow_unsafe_buffers
+#
+endif
+#
 include
 "
 compiler
@@ -812,7 +820,10 @@ precision
 qualifier
 primarySize
 secondarySize
-TSpan
+angle
+:
+:
+Span
 <
 const
 unsigned
@@ -874,7 +885,10 @@ precision
 qualifier
 primarySize
 secondarySize
-TSpan
+angle
+:
+:
+Span
 <
 const
 unsigned
@@ -1212,6 +1226,7 @@ secondarySize
 =
 1
 >
+constexpr
 const
 TType
 *

@@ -140,6 +140,13 @@ gl
 VertexArrayState
 &
 data
+const
+gl
+:
+:
+VertexArrayBuffers
+&
+vertexArrayBuffers
 )
 ;
 ~
@@ -311,7 +318,7 @@ getTranslatedAttribs
 )
 const
 ;
-Serial
+UniqueSerial
 getCurrentStateSerial
 (
 )
@@ -559,7 +566,7 @@ gl
 AttributesMask
 mAttribsToTranslate
 ;
-Serial
+UniqueSerial
 mCurrentStateSerial
 ;
 /

@@ -277,7 +277,6 @@ const
 Context
 *
 context
-const
 Program
 *
 program
@@ -303,7 +302,6 @@ const
 Context
 *
 context
-const
 Program
 *
 program
@@ -341,7 +339,7 @@ anglebug
 .
 com
 /
-2516
+42261225
 [
 [
 nodiscard
@@ -413,6 +411,12 @@ BlobCache
 Key
 *
 hashOut
+egl
+:
+:
+CacheGetResult
+*
+resultOut
 )
 ;
 /

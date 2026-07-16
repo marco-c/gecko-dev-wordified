@@ -17,7 +17,7 @@ py
 using
 overlay
 /
-DejaVuSansMono
+RobotoMono
 -
 Bold
 .
@@ -116,7 +116,7 @@ constexpr
 uint32_t
 kFontGlyphHeight
 =
-34
+39
 ;
 constexpr
 uint32_t
@@ -126,8 +126,8 @@ kFontMipCount
 ]
 =
 {
-54910
-12920
+62985
+14440
 }
 ;
 constexpr
@@ -139,14 +139,14 @@ kFontMipCount
 =
 {
 0
-54910
+62985
 }
 ;
 constexpr
 uint32_t
 kFontTotalDataSize
 =
-67830
+77425
 ;
 constexpr
 uint32_t
