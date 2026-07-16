@@ -70,9 +70,7 @@ include
 "
 mozilla
 /
-gtest
-/
-MozAssertions
+NullPrincipal
 .
 h
 "
@@ -81,7 +79,9 @@ include
 "
 mozilla
 /
-NullPrincipal
+gtest
+/
+MozAssertions
 .
 h
 "
