@@ -10466,6 +10466,8 @@ SheetLoadData
 aData
 nsresult
 aStatus
+bool
+aCanFireEvents
 )
 {
 aData
@@ -10857,9 +10859,15 @@ aStatus
 )
 ;
 }
+}
 if
 (
 loadDispatcher
+)
+{
+if
+(
+aCanFireEvents
 )
 {
 loadDispatcher
@@ -10870,12 +10878,7 @@ RunDOMEventWhenSafe
 )
 ;
 }
-}
 else
-if
-(
-loadDispatcher
-)
 {
 loadDispatcher
 -
@@ -10884,6 +10887,7 @@ PostDOMEvent
 (
 )
 ;
+}
 }
 }
 /
