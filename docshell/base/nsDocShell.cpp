@@ -14604,7 +14604,7 @@ principal
 ;
 }
 void
-VerifyCientPrincipalInfosMatch
+VerifyClientPrincipalInfosMatch
 (
 const
 mozilla
@@ -14978,7 +14978,7 @@ uri
 return
 ;
 }
-VerifyCientPrincipalInfosMatch
+VerifyClientPrincipalInfosMatch
 (
 aClientSource
 -
