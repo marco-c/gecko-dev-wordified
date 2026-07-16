@@ -451,7 +451,7 @@ NS_OK
 }
 if
 (
-GetEditContext
+GetEditActionEditContext
 (
 )
 )
