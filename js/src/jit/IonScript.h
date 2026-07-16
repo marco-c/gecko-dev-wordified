@@ -2320,7 +2320,7 @@ size_t
 index
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 index
 <
@@ -2389,7 +2389,7 @@ retAddr
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 containsCodeAddress
 (
@@ -2650,7 +2650,7 @@ GCContext
 gcx
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 invalidationCount_
 )
