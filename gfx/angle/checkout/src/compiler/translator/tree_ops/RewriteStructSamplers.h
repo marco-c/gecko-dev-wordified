@@ -198,11 +198,6 @@ TIntermBlock
 class
 TSymbolTable
 ;
-[
-[
-nodiscard
-]
-]
 bool
 RewriteStructSamplers
 (
@@ -229,4 +224,4 @@ sh
 endif
 /
 /
-COMPILER_TRANSLATOR_TREEOPS_VULKAN_REWRITESTRUCTSAMPLERS_H_
+COMPILER_TRANSLATOR_TREEOPS_REWRITESTRUCTSAMPLERS_H_

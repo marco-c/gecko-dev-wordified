@@ -155,7 +155,6 @@ GLImplFactory
 factory
 )
 ;
-virtual
 ~
 FenceNV
 (
@@ -271,7 +270,7 @@ final
 public
 RefCountObject
 <
-GLuint
+SyncID
 >
 public
 LabeledObject
@@ -286,8 +285,12 @@ rx
 GLImplFactory
 *
 factory
-GLuint
+SyncID
 id
+const
+Context
+*
+context
 )
 ;
 ~

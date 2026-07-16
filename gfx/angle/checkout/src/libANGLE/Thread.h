@@ -102,14 +102,6 @@ gUseAndroidOpenGLTlsSlot
 ;
 #
 endif
-void
-PthreadKeyDestructorCallback
-(
-void
-*
-ptr
-)
-;
 }
 /
 /
@@ -210,7 +202,7 @@ anglebug
 .
 com
 /
-3041
+42261727
 void
 setError
 (

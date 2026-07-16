@@ -123,6 +123,11 @@ const
 TIntermTyped
 *
 acbBufferOffsets
+const
+TVariable
+*
+*
+atomicCountersOut
 )
 ;
 }

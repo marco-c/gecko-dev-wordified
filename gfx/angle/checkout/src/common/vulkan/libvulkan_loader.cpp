@@ -165,9 +165,8 @@ kSearchTypes
 /
 On
 Android
-Fuchsia
 and
-GGP
+Fuchsia
 we
 use
 the
