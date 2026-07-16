@@ -165,7 +165,7 @@ mWrCompositorForceEnabled
 (
 false
 )
-mWrForceAngle
+mWrRequireAngle
 (
 false
 )
@@ -336,6 +336,12 @@ bool
 >
 mWrCompositorEnabled
 ;
+Maybe
+<
+bool
+>
+mWrAngleEnabled
+;
 bool
 mWrForceEnabled
 ;
@@ -346,7 +352,7 @@ bool
 mWrCompositorForceEnabled
 ;
 bool
-mWrForceAngle
+mWrRequireAngle
 ;
 bool
 mWrDCompWinEnabled
