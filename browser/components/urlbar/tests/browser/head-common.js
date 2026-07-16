@@ -1944,7 +1944,7 @@ happen
 .
 gURLBar
 .
-_setValue
+setValue
 (
 searchString
 )
