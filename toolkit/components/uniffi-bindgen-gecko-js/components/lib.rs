@@ -67,6 +67,14 @@ uniffi_reexport_scaffolding
 (
 )
 ;
+autofill
+:
+:
+uniffi_reexport_scaffolding
+!
+(
+)
+;
 tabs
 :
 :
