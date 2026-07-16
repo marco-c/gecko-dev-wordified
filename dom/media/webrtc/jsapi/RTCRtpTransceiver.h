@@ -1194,7 +1194,10 @@ mSyncGroup
 ;
 }
 const
-nsTArray
+std
+:
+:
+vector
 <
 UniquePtr
 <
@@ -1696,7 +1699,10 @@ calling
 /
 setCodecPreferences
 .
-nsTArray
+std
+:
+:
+vector
 <
 UniquePtr
 <

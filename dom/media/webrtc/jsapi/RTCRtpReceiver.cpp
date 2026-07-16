@@ -5971,8 +5971,6 @@ GetNegotiatedDetails
 >
 GetExt
 (
-nsLiteralCString
-(
 webrtc
 :
 :
@@ -5980,7 +5978,6 @@ RtpExtension
 :
 :
 kMidUri
-)
 )
 )
 )
@@ -6479,8 +6476,6 @@ GetNegotiatedDetails
 >
 GetExt
 (
-nsLiteralCString
-(
 webrtc
 :
 :
@@ -6488,7 +6483,6 @@ RtpExtension
 :
 :
 kMidUri
-)
 )
 )
 )
@@ -7296,7 +7290,7 @@ GetPreferredCodecs
 (
 )
 .
-IsEmpty
+empty
 (
 )
 )

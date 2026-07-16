@@ -576,31 +576,24 @@ Init
 )
 )
 ;
-DefaultCodecPreferences
-prefs
-;
-AutoTArray
+std
+:
+:
+vector
 <
 UniquePtr
 <
 JsepCodecDescription
 >
-16
 >
 preferredCodecs
 ;
-EnumerateDefaultVideoCodecs
+PeerConnectionImpl
+:
+:
+SetupPreferredCodecs
 (
-&
 preferredCodecs
-prefs
-)
-;
-EnumerateDefaultAudioCodecs
-(
-&
-preferredCodecs
-prefs
 )
 ;
 for
@@ -721,23 +714,23 @@ SetDefaultCodecs
 preferredCodecs
 )
 ;
-AutoTArray
+std
+:
+:
+vector
 <
 PeerConnectionImpl
 :
 :
 RtpExtensionHeader
-16
 >
 preferredHeaders
 ;
 PeerConnectionImpl
 :
 :
-GetDefaultRtpExtensions
+SetupPreferredRtpExtensions
 (
-prefs
-&
 preferredHeaders
 )
 ;
@@ -10350,7 +10343,10 @@ string
 &
 aSdp
 const
-nsACString
+std
+:
+:
+string
 &
 aUri
 uint16_t
@@ -10549,7 +10545,10 @@ string
 &
 aSdp
 const
-nsACString
+std
+:
+:
+string
 &
 aUri
 )
@@ -28926,9 +28925,7 @@ are
 recvonly
 .
 See
-EnumerateDefault
-*
-Codecs
+SetupPreferredCodecs
 above
 .
 ASSERT_EQ
@@ -33908,7 +33905,6 @@ AddAudioRtpExtension
 "
 foo
 "
-_ns
 )
 ;
 /
@@ -33925,7 +33921,6 @@ AddAudioRtpExtension
 "
 bar
 "
-_ns
 )
 ;
 /
@@ -33942,7 +33937,6 @@ AddAudioRtpExtension
 "
 bar
 "
-_ns
 )
 ;
 /
@@ -34088,7 +34082,6 @@ audio
 -
 level
 "
-_ns
 offerExtmap
 [
 0
@@ -34127,7 +34120,6 @@ audio
 -
 level
 "
-_ns
 offerExtmap
 [
 1
@@ -34164,7 +34156,6 @@ sdes
 :
 mid
 "
-_ns
 offerExtmap
 [
 2
@@ -34217,7 +34208,6 @@ extensions
 -
 01
 "
-_ns
 offerExtmap
 [
 3
@@ -34242,7 +34232,6 @@ ASSERT_EQ
 "
 foo
 "
-_ns
 offerExtmap
 [
 4
@@ -34267,7 +34256,6 @@ ASSERT_EQ
 "
 bar
 "
-_ns
 offerExtmap
 [
 5
@@ -34380,7 +34368,6 @@ audio
 -
 level
 "
-_ns
 answerExtmap
 [
 0
@@ -34417,7 +34404,6 @@ sdes
 :
 mid
 "
-_ns
 answerExtmap
 [
 1
@@ -34470,7 +34456,6 @@ extensions
 -
 01
 "
-_ns
 answerExtmap
 [
 2
@@ -34512,7 +34497,6 @@ ASSERT_EQ
 "
 bar
 "
-_ns
 answerExtmap
 [
 3
@@ -34706,7 +34690,6 @@ audio
 -
 level
 "
-_ns
 offerAudioExtmap
 [
 0
@@ -34745,7 +34728,6 @@ audio
 -
 level
 "
-_ns
 offerAudioExtmap
 [
 1
@@ -34782,7 +34764,6 @@ sdes
 :
 mid
 "
-_ns
 offerAudioExtmap
 [
 2
@@ -34824,7 +34805,6 @@ extensions
 -
 01
 "
-_ns
 offerAudioExtmap
 [
 3
@@ -34923,7 +34903,6 @@ sdes
 :
 mid
 "
-_ns
 offerVideoExtmap
 [
 0
@@ -34957,7 +34936,6 @@ send
 -
 time
 "
-_ns
 offerVideoExtmap
 [
 1
@@ -34992,7 +34970,6 @@ hdrext
 :
 toffset
 "
-_ns
 offerVideoExtmap
 [
 2
@@ -35035,7 +35012,6 @@ playout
 -
 delay
 "
-_ns
 offerVideoExtmap
 [
 3
@@ -35088,7 +35064,6 @@ extensions
 -
 01
 "
-_ns
 offerVideoExtmap
 [
 4
@@ -35201,7 +35176,6 @@ audio
 -
 level
 "
-_ns
 answerAudioExtmap
 [
 0
@@ -35238,7 +35212,6 @@ sdes
 :
 mid
 "
-_ns
 answerAudioExtmap
 [
 1
@@ -35291,7 +35264,6 @@ extensions
 -
 01
 "
-_ns
 answerAudioExtmap
 [
 2
@@ -35390,7 +35362,6 @@ sdes
 :
 mid
 "
-_ns
 answerVideoExtmap
 [
 0
@@ -35424,7 +35395,6 @@ send
 -
 time
 "
-_ns
 answerVideoExtmap
 [
 1
@@ -35459,7 +35429,6 @@ hdrext
 :
 toffset
 "
-_ns
 answerVideoExtmap
 [
 2
@@ -35512,7 +35481,6 @@ extensions
 -
 01
 "
-_ns
 answerVideoExtmap
 [
 3
@@ -35607,7 +35575,6 @@ AddAudioRtpExtension
 "
 foo
 "
-_ns
 )
 ;
 /
@@ -35624,7 +35591,6 @@ AddAudioRtpExtension
 "
 bar
 "
-_ns
 )
 ;
 /
@@ -35641,7 +35607,6 @@ AddAudioRtpExtension
 "
 bar
 "
-_ns
 )
 ;
 /
@@ -35657,7 +35622,6 @@ AddAudioRtpExtension
 "
 bar
 "
-_ns
 )
 ;
 /
@@ -35673,7 +35637,6 @@ AddAudioRtpExtension
 "
 baz
 "
-_ns
 )
 ;
 /
@@ -35690,7 +35653,6 @@ AddAudioRtpExtension
 "
 bar
 "
-_ns
 )
 ;
 /
@@ -35801,7 +35763,6 @@ audio
 -
 level
 "
-_ns
 offerExtmap
 [
 0
@@ -35840,7 +35801,6 @@ audio
 -
 level
 "
-_ns
 offerExtmap
 [
 1
@@ -35877,7 +35837,6 @@ sdes
 :
 mid
 "
-_ns
 offerExtmap
 [
 2
@@ -35930,7 +35889,6 @@ extensions
 -
 01
 "
-_ns
 offerExtmap
 [
 3
@@ -35955,7 +35913,6 @@ ASSERT_EQ
 "
 foo
 "
-_ns
 offerExtmap
 [
 4
@@ -35980,7 +35937,6 @@ ASSERT_EQ
 "
 bar
 "
-_ns
 offerExtmap
 [
 5
@@ -36005,7 +35961,6 @@ ASSERT_EQ
 "
 baz
 "
-_ns
 offerExtmap
 [
 6
@@ -37655,7 +37610,6 @@ audio
 -
 level
 "
-_ns
 )
 -
 >
@@ -37687,7 +37641,6 @@ audio
 -
 level
 "
-_ns
 )
 -
 >
@@ -37715,7 +37668,6 @@ hdrext
 :
 toffset
 "
-_ns
 )
 -
 >
@@ -37743,7 +37695,6 @@ hdrext
 :
 toffset
 "
-_ns
 )
 -
 >
@@ -37781,7 +37732,6 @@ send
 -
 time
 "
-_ns
 )
 -
 >
@@ -37819,7 +37769,6 @@ send
 -
 time
 "
-_ns
 )
 -
 >
@@ -37973,7 +37922,6 @@ AddAudioRtpExtension
 "
 foo
 "
-_ns
 )
 ;
 mSessionAns
@@ -37984,7 +37932,6 @@ AddAudioRtpExtension
 "
 bar
 "
-_ns
 )
 ;
 mSessionAns
@@ -37995,7 +37942,6 @@ AddAudioRtpExtension
 "
 baz
 "
-_ns
 )
 ;
 /
@@ -38529,7 +38475,6 @@ GetExt
 "
 foo
 "
-_ns
 )
 -
 >
@@ -38547,7 +38492,6 @@ GetExt
 "
 foo
 "
-_ns
 )
 -
 >
@@ -38565,7 +38509,6 @@ GetExt
 "
 bar
 "
-_ns
 )
 -
 >
@@ -38583,7 +38526,6 @@ GetExt
 "
 bar
 "
-_ns
 )
 -
 >
@@ -38601,7 +38543,6 @@ GetExt
 "
 baz
 "
-_ns
 )
 -
 >
@@ -38619,7 +38560,6 @@ GetExt
 "
 baz
 "
-_ns
 )
 -
 >
@@ -38651,7 +38591,6 @@ audio
 -
 level
 "
-_ns
 )
 -
 >
@@ -38683,7 +38622,6 @@ audio
 -
 level
 "
-_ns
 )
 -
 >
@@ -39065,7 +39003,6 @@ sdes
 :
 mid
 "
-_ns
 14
 )
 ;
@@ -39257,7 +39194,6 @@ sdes
 :
 mid
 "
-_ns
 14
 &
 oldId
@@ -39315,7 +39251,6 @@ sdes
 :
 mid
 "
-_ns
 oldId
 )
 ;
@@ -39411,7 +39346,6 @@ sdes
 :
 mid
 "
-_ns
 )
 ;
 uint16_t
@@ -39445,7 +39379,6 @@ audio
 -
 level
 "
-_ns
 midId
 &
 ssrcLevelId
@@ -39471,7 +39404,6 @@ sdes
 :
 mid
 "
-_ns
 ssrcLevelId
 )
 ;
@@ -39692,7 +39624,6 @@ audio
 -
 level
 "
-_ns
 )
 {
 ext
@@ -39702,7 +39633,6 @@ extensionname
 "
 foo
 "
-_ns
 ;
 }
 }
@@ -39913,7 +39843,6 @@ audio
 -
 level
 "
-_ns
 0
 )
 ;
@@ -40081,7 +40010,6 @@ audio
 -
 level
 "
-_ns
 )
 {
 ext
@@ -40091,7 +40019,6 @@ extensionname
 "
 foo
 "
-_ns
 ;
 }
 }

@@ -7751,7 +7751,10 @@ rustExtmap
 rustExtmaps
 )
 {
-nsCString
+std
+:
+:
+string
 name
 (
 convertStringView
@@ -7855,7 +7858,10 @@ kInactive
 break
 ;
 }
-nsCString
+std
+:
+:
+string
 extensionAttributes
 (
 convertStringView
