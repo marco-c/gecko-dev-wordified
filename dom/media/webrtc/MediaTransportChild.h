@@ -267,6 +267,11 @@ uint8_t
 &
 &
 remoteCerts
+Maybe
+<
+RTCErrorParams
+>
+error
 )
 ;
 mozilla
@@ -286,6 +291,11 @@ const
 TransportLayerState
 &
 state
+Maybe
+<
+RTCErrorParams
+>
+error
 )
 ;
 private
