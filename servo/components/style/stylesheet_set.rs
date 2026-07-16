@@ -2177,17 +2177,9 @@ document
 .
 #
 [
-cfg_attr
-(
-feature
-=
-"
-servo
-"
 derive
 (
 MallocSizeOf
-)
 )
 ]
 pub
