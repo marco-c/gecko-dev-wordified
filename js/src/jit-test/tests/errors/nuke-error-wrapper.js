@@ -8,6 +8,11 @@ test
 error
 :
 finished
+gczeal
+(
+0
+)
+;
 var
 g
 =
