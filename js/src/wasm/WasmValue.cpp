@@ -5080,10 +5080,7 @@ dst
 .
 set
 (
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 src
 )
@@ -5124,10 +5121,7 @@ dst
 .
 set
 (
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 src
 )

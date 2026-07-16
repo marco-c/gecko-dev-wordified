@@ -39393,10 +39393,7 @@ nan
 *
 vp
 =
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 static_cast
 <
@@ -39544,10 +39541,7 @@ nan
 *
 vp
 =
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 dval
 )
@@ -39654,10 +39648,7 @@ jsval
 *
 vp
 =
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 val
 )

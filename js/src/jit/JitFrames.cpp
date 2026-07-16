@@ -12976,10 +12976,7 @@ RValueAllocation
 DOUBLE_REG
 :
 return
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 fromRegister
 <
@@ -13001,10 +12998,7 @@ RValueAllocation
 FLOAT32_REG
 :
 return
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 fromRegister
 <
@@ -13026,10 +13020,7 @@ RValueAllocation
 FLOAT32_STACK
 :
 return
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 ReadFrameFloat32Slot
 (
@@ -13086,10 +13077,7 @@ case
 JSVAL_TYPE_DOUBLE
 :
 return
-JS
-:
-:
-CanonicalizedDoubleValue
+DoubleValue
 (
 ReadFrameDoubleSlot
 (
