@@ -1266,6 +1266,14 @@ keyword
 window
 )
 ;
+await
+UrlbarTestUtils
+.
+promiseSearchComplete
+(
+window
+)
+;
 EventUtils
 .
 synthesizeKey
