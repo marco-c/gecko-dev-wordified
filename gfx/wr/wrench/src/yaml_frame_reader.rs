@@ -13192,9 +13192,6 @@ unwrap_or
 (
 false
 )
-is_offset_only
-:
-false
 }
 }
 ;
@@ -13946,9 +13943,6 @@ false
 paired_with_perspective
 :
 false
-is_offset_only
-:
-true
 }
 )
 }

@@ -1405,9 +1405,6 @@ true
 paired_with_perspective
 :
 false
-is_offset_only
-:
-false
 }
 LayoutVector2D
 :
@@ -7540,9 +7537,6 @@ false
 paired_with_perspective
 :
 false
-is_offset_only
-:
-false
 }
 origin_in_parent_reference_frame
 PipelineId
@@ -9188,9 +9182,6 @@ true
 paired_with_perspective
 :
 false
-is_offset_only
-:
-false
 }
 LayoutVector2D
 :
@@ -9391,9 +9382,6 @@ should_snap
 :
 true
 paired_with_perspective
-:
-false
-is_offset_only
 :
 false
 }
@@ -9682,9 +9670,6 @@ true
 paired_with_perspective
 :
 false
-is_offset_only
-:
-false
 }
 LayoutVector2D
 :
@@ -9969,9 +9954,6 @@ should_snap
 :
 true
 paired_with_perspective
-:
-false
-is_offset_only
 :
 false
 }
@@ -10264,9 +10246,6 @@ should_snap
 :
 true
 paired_with_perspective
-:
-false
-is_offset_only
 :
 false
 }
@@ -10622,9 +10601,6 @@ true
 paired_with_perspective
 :
 false
-is_offset_only
-:
-false
 }
 LayoutVector2D
 :
@@ -10767,9 +10743,6 @@ should_snap
 :
 false
 paired_with_perspective
-:
-false
-is_offset_only
 :
 false
 }
@@ -10976,9 +10949,6 @@ should_snap
 :
 true
 paired_with_perspective
-:
-false
-is_offset_only
 :
 false
 }
