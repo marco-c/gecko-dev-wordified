@@ -60,6 +60,11 @@ cstddef
 #
 include
 <
+iostream
+>
+#
+include
+<
 tuple
 >
 #
@@ -263,6 +268,9 @@ USE
 masm_
 )
 ;
+#
+ifndef
+COMPILING_IRREGEXP_FOR_EXTERNAL_EMBEDDER
 /
 /
 Bytecode
@@ -369,6 +377,12 @@ analysis
 ;
 }
 }
+#
+endif
+/
+/
+!
+COMPILING_IRREGEXP_FOR_EXTERNAL_EMBEDDER
 PreVisitBytecodes
 (
 )
