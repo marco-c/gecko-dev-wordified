@@ -9134,7 +9134,7 @@ FunctionCall
 call
 )
 ;
-void
+CodeOffset
 builtinInstanceMethodCall
 (
 const
@@ -9149,12 +9149,6 @@ const
 FunctionCall
 &
 call
-CodeOffset
-*
-callStackMapKey
-CodeOffset
-*
-trapStackMapKey
 )
 ;
 /

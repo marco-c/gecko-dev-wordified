@@ -75409,10 +75409,8 @@ CalleeDesc
 :
 BuiltinInstanceMethod
 :
-{
-CodeOffset
-unused_trapStackMapKey
-;
+retOffset
+=
 masm
 .
 wasmCallBuiltinInstanceMethod
@@ -75441,10 +75439,6 @@ callBase
 builtinMethodFailureTrap
 (
 )
-&
-retOffset
-&
-unused_trapStackMapKey
 )
 ;
 /
@@ -75492,7 +75486,6 @@ false
 ;
 break
 ;
-}
 case
 wasm
 :
