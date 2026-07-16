@@ -2287,11 +2287,6 @@ BlendMode
 :
 :
 SubpixelDualSource
-|
-BlendMode
-:
-:
-MultiplyDualSource
 =
 >
 {
