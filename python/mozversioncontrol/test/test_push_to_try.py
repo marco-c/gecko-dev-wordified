@@ -311,39 +311,6 @@ return
 "
     
 def
-fake_subprocess_run
-(
-*
-args
-*
-*
-kwargs
-)
-:
-        
-return
-subprocess
-.
-CompletedProcess
-(
-args
-[
-0
-]
-0
-stdout
-=
-fake_run
-(
-*
-args
-*
-*
-kwargs
-)
-)
-    
-def
 normalize_fake_run
 (
 *
@@ -468,17 +435,6 @@ a9d7
 -
 814a71241242
 "
-    
-monkeypatch
-.
-setattr
-(
-subprocess
-"
-run
-"
-fake_subprocess_run
-)
     
 monkeypatch
 .
@@ -1685,6 +1641,14 @@ change
 "
                 
 None
+                
+"
+-
+-
+allow
+-
+new
+"
                 
 "
 -

@@ -111,7 +111,7 @@ Version
 "
 0
 .
-38
+28
 "
 )
 from
@@ -2922,6 +2922,22 @@ message
 ]
         
 if
+author
+:
+            
+cmd
++
+=
+[
+"
+-
+-
+author
+"
+author
+]
+        
+if
 date
 :
             
@@ -2993,28 +3009,6 @@ cmd
 *
 *
 run_kwargs
-)
-        
-if
-author
-:
-            
-self
-.
-_run
-(
-"
-metaedit
-"
-"
--
--
-author
-"
-author
-"
--
-"
 )
     
 def
@@ -3528,6 +3522,14 @@ change
 "
                 
 head
+                
+"
+-
+-
+allow
+-
+new
+"
                 
 "
 -
@@ -5838,14 +5840,21 @@ self
 _run
 (
 "
-metaedit
+describe
 "
 "
 -
 -
-update
+reset
 -
 author
+"
+"
+-
+-
+no
+-
+edit
 "
 )
             
