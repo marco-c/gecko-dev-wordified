@@ -16377,7 +16377,7 @@ rhs
 {
 set_rd
 (
-UINT32_MAX
+UINTPTR_MAX
 )
 ;
 }
@@ -16385,7 +16385,7 @@ else
 {
 set_rd
 (
-zext32
+sext32
 (
 lhs
 /
@@ -16507,7 +16507,7 @@ rhs
 {
 set_rd
 (
-zext32
+sext32
 (
 lhs
 )
@@ -16518,7 +16518,7 @@ else
 {
 set_rd
 (
-zext32
+sext32
 (
 lhs
 %
