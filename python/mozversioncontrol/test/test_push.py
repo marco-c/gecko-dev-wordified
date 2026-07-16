@@ -1856,23 +1856,30 @@ mock
 .
 patch
 (
-        
 "
 mozversioncontrol
 .
 repo
 .
-git
+base
 .
 subprocess
 .
-check_call
+run
 "
-    
 )
 as
-mock_check_call
+mock_run
 :
+        
+mock_run
+.
+return_value
+.
+stdout
+=
+"
+"
         
 vcs
 .
@@ -1897,7 +1904,7 @@ sentinel
 }
 )
     
-mock_check_call
+mock_run
 .
 assert_called_once
 (
@@ -1905,7 +1912,7 @@ assert_called_once
     
 passed_env
 =
-mock_check_call
+mock_run
 .
 call_args
 [
