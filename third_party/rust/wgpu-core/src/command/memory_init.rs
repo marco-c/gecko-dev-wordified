@@ -2509,12 +2509,15 @@ state
 for
 query_set
 in
-&
 self
 .
 trackers
 .
 query_sets
+.
+used_resources
+(
+)
 {
 if
 let

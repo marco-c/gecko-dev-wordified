@@ -1983,7 +1983,9 @@ grid_size
 y
 )
 >
-0xffffffffull
+{
+max_total
+}
 |
 |
 "

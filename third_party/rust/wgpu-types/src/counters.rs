@@ -694,6 +694,7 @@ missing_docs
 derive
 (
 Clone
+Debug
 Default
 )
 ]
@@ -731,6 +732,10 @@ render_pipelines
 InternalCounter
 pub
 compute_pipelines
+:
+InternalCounter
+pub
+ray_tracing_pipelines
 :
 InternalCounter
 pub
@@ -848,6 +853,7 @@ InternalCounters
 derive
 (
 Clone
+Debug
 Default
 )
 ]
@@ -920,6 +926,7 @@ get_internal_counters
 derive
 (
 Clone
+Debug
 Default
 )
 ]
@@ -1045,6 +1052,7 @@ AllocatorReport
 derive
 (
 Clone
+Debug
 )
 ]
 pub

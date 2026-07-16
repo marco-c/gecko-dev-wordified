@@ -168,6 +168,13 @@ struct
 OnceBox
 .
 html
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 RacyLock
