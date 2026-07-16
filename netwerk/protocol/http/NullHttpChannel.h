@@ -271,6 +271,12 @@ false
 }
 ;
 bool
+mAllRedirectsSameOriginIgnoringInternal
+{
+false
+}
+;
+bool
 mAllRedirectsPassTimingAllowCheck
 {
 false
