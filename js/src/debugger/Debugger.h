@@ -3946,7 +3946,6 @@ OnEnterFrame
 OnNativeCall
 OnNewGlobalObject
 OnNewPromise
-OnPromiseSettled
 OnGarbageCollection
 HookCount
 }
