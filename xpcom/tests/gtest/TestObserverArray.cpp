@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsTObserverArray
-.
-h
-"
-#
-include
-"
 gtest
 /
 gtest
@@ -78,6 +71,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsTObserverArray
 .
 h
 "

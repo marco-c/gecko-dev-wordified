@@ -59,7 +59,9 @@ MPL
 #
 include
 "
-nsThreadUtils
+gtest
+/
+gtest
 .
 h
 "
@@ -75,9 +77,7 @@ h
 #
 include
 "
-gtest
-/
-gtest
+nsThreadUtils
 .
 h
 "

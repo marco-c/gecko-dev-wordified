@@ -64,6 +64,11 @@ define
 nsIClassInfoImpl_h_
 #
 include
+<
+new
+>
+#
+include
 "
 mozilla
 /
@@ -103,11 +108,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-<
-new
->
 /
 *
 *

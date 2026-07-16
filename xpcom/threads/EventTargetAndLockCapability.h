@@ -74,7 +74,7 @@ include
 "
 mozilla
 /
-ThreadSafety
+EventTargetCapability
 .
 h
 "
@@ -83,7 +83,7 @@ include
 "
 mozilla
 /
-EventTargetCapability
+ThreadSafety
 .
 h
 "

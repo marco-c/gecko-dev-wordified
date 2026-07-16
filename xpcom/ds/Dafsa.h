@@ -65,13 +65,6 @@ mozilla_Dafsa_h
 #
 include
 "
-stdint
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Span
@@ -82,6 +75,13 @@ h
 include
 "
 nsStringFwd
+.
+h
+"
+#
+include
+"
+stdint
 .
 h
 "

@@ -91,14 +91,14 @@ h
 #
 include
 "
-nsIInputStream
+nsIIPCSerializableInputStream
 .
 h
 "
 #
 include
 "
-nsIIPCSerializableInputStream
+nsIInputStream
 .
 h
 "

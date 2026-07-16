@@ -74,13 +74,6 @@ h
 #
 include
 "
-nsTHashMap
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h
@@ -103,6 +96,13 @@ h
 include
 "
 nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
+nsTHashMap
 .
 h
 "

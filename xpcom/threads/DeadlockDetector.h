@@ -72,13 +72,6 @@ h
 #
 include
 "
-prlock
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
@@ -87,6 +80,13 @@ h
 include
 "
 nsTArray
+.
+h
+"
+#
+include
+"
+prlock
 .
 h
 "

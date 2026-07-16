@@ -72,14 +72,14 @@ h
 #
 include
 "
-nscore
+nsIFile
 .
 h
 "
 #
 include
 "
-nsIFile
+nscore
 .
 h
 "

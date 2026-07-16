@@ -67,6 +67,11 @@ h
 "
 #
 include
+<
+memory
+>
+#
+include
 "
 mozilla
 /
@@ -201,11 +206,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-<
-memory
->
 namespace
 mozilla
 {

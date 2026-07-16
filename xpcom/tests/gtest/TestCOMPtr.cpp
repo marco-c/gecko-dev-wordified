@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 gtest
 /
 gtest
@@ -80,6 +73,13 @@ mozilla
 gtest
 /
 MozAssertions
+.
+h
+"
+#
+include
+"
+nsCOMPtr
 .
 h
 "

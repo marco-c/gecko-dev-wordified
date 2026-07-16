@@ -65,14 +65,14 @@ nsLinebreakConverter_h_
 #
 include
 "
-nscore
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nscore
 .
 h
 "

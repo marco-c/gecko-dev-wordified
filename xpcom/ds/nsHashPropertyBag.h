@@ -65,6 +65,13 @@ nsHashPropertyBag_h_
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsIVariant
 .
 h
@@ -80,13 +87,6 @@ h
 include
 "
 nsIWritablePropertyBag2
-.
-h
-"
-#
-include
-"
-nsCycleCollectionParticipant
 .
 h
 "

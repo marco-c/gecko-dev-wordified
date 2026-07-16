@@ -65,14 +65,14 @@ nsBinaryStream_h_
 #
 include
 "
-nsCOMPtr
+nsAString
 .
 h
 "
 #
 include
 "
-nsAString
+nsCOMPtr
 .
 h
 "

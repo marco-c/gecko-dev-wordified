@@ -6,14 +6,14 @@ cpp
 #
 include
 "
-nsINode
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsINode
 .
 h
 "

@@ -82,7 +82,7 @@ include
 "
 mozilla
 /
-ThreadSafety
+BlockingResourceBase
 .
 h
 "
@@ -91,7 +91,7 @@ include
 "
 mozilla
 /
-BlockingResourceBase
+ThreadSafety
 .
 h
 "

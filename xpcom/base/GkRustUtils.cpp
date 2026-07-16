@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-gk_rust_utils_ffi_generated
+GkRustUtils
 .
 h
 "
 #
 include
 "
-GkRustUtils
+gk_rust_utils_ffi_generated
 .
 h
 "

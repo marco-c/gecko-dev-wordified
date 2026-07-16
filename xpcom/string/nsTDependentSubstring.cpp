@@ -72,6 +72,12 @@ include
 nsTSubstring
 first
 .
+/
+/
+clang
+-
+format
+off
 #
 include
 "
@@ -86,6 +92,12 @@ nsTDependentSubstring
 .
 h
 "
+/
+/
+clang
+-
+format
+on
 template
 <
 typename

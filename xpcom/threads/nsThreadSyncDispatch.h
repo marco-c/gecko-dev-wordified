@@ -65,6 +65,13 @@ nsThreadSyncDispatch_h_
 #
 include
 "
+MaybeLeakRefPtr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -93,13 +100,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-MaybeLeakRefPtr
 .
 h
 "

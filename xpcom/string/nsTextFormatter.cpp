@@ -133,6 +133,13 @@ net
 /
 #
 include
+"
+nsTextFormatter
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -145,13 +152,6 @@ stdio
 .
 h
 >
-#
-include
-"
-prdtoa
-.
-h
-"
 #
 include
 "
@@ -180,7 +180,7 @@ h
 #
 include
 "
-nsTextFormatter
+prdtoa
 .
 h
 "

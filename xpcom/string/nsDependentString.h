@@ -65,14 +65,14 @@ nsDependentString_h_
 #
 include
 "
-nsString
+nsDebug
 .
 h
 "
 #
 include
 "
-nsDebug
+nsString
 .
 h
 "

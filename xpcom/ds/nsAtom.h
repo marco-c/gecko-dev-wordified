@@ -90,7 +90,7 @@ include
 "
 mozilla
 /
-TextUtils
+MemoryReporting
 .
 h
 "
@@ -99,7 +99,7 @@ include
 "
 mozilla
 /
-MemoryReporting
+TextUtils
 .
 h
 "

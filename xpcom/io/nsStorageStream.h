@@ -136,7 +136,9 @@ _nsStorageStream_h_
 #
 include
 "
-nsIStorageStream
+mozilla
+/
+Mutex
 .
 h
 "
@@ -150,9 +152,7 @@ h
 #
 include
 "
-mozilla
-/
-Mutex
+nsIStorageStream
 .
 h
 "

@@ -65,6 +65,13 @@ AppShutdown_h
 #
 include
 "
+ShutdownPhase
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -73,13 +80,6 @@ h
 include
 "
 nsISupports
-.
-h
-"
-#
-include
-"
-ShutdownPhase
 .
 h
 "

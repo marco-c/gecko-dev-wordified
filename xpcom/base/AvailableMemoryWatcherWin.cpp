@@ -58,6 +58,13 @@ MPL
 /
 #
 include
+<
+memoryapi
+.
+h
+>
+#
+include
 "
 AvailableMemoryWatcher
 .
@@ -153,13 +160,6 @@ nsWindowsHelpers
 .
 h
 "
-#
-include
-<
-memoryapi
-.
-h
->
 extern
 mozilla
 :

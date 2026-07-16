@@ -70,14 +70,14 @@ functional
 #
 include
 "
-nsISupportsImpl
+nsIInputStreamLength
 .
 h
 "
 #
 include
 "
-nsIInputStreamLength
+nsISupportsImpl
 .
 h
 "

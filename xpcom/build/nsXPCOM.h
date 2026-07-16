@@ -65,7 +65,9 @@ nsXPCOM_h_
 #
 include
 "
-nscore
+mozilla
+/
+Attributes
 .
 h
 "
@@ -79,9 +81,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+nscore
 .
 h
 "

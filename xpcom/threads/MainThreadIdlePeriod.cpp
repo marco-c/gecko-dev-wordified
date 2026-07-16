@@ -66,6 +66,13 @@ h
 #
 include
 "
+VRManagerChild
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
@@ -89,13 +96,6 @@ mozilla
 dom
 /
 Document
-.
-h
-"
-#
-include
-"
-VRManagerChild
 .
 h
 "

@@ -71,6 +71,8 @@ include
 gtest
 /
 gtest
+-
+spi
 .
 h
 "
@@ -80,8 +82,6 @@ include
 gtest
 /
 gtest
--
-spi
 .
 h
 "

@@ -117,6 +117,13 @@ detection
 /
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -158,13 +165,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 class
 nsIIdlePeriod
 ;

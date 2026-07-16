@@ -102,14 +102,14 @@ h
 #
 include
 "
-nsISeekableStream
+nsIInputStreamLength
 .
 h
 "
 #
 include
 "
-nsIInputStreamLength
+nsISeekableStream
 .
 h
 "

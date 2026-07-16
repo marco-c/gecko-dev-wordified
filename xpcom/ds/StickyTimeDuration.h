@@ -72,7 +72,7 @@ include
 "
 mozilla
 /
-TimeStamp
+FloatingPoint
 .
 h
 "
@@ -81,7 +81,7 @@ include
 "
 mozilla
 /
-FloatingPoint
+TimeStamp
 .
 h
 "

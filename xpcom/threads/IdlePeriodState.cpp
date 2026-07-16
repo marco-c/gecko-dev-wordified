@@ -61,7 +61,7 @@ include
 "
 mozilla
 /
-AppShutdown
+IdlePeriodState
 .
 h
 "
@@ -70,7 +70,7 @@ include
 "
 mozilla
 /
-IdlePeriodState
+AppShutdown
 .
 h
 "
@@ -88,9 +88,9 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
-IdleSchedulerChild
+ContentChild
 .
 h
 "
@@ -99,9 +99,9 @@ include
 "
 mozilla
 /
-dom
+ipc
 /
-ContentChild
+IdleSchedulerChild
 .
 h
 "

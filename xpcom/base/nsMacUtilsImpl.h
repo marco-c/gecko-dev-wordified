@@ -65,13 +65,6 @@ nsMacUtilsImpl_h_
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
@@ -93,6 +86,13 @@ include
 mozilla
 /
 StaticPtr
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

@@ -93,14 +93,14 @@ h
 #
 include
 "
-nsThreadUtils
+nsIObserverService
 .
 h
 "
 #
 include
 "
-nsIObserverService
+nsThreadUtils
 .
 h
 "

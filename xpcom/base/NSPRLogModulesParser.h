@@ -64,6 +64,11 @@ define
 XPCOM_BASE_NSPRLOGMODULESPARSER_H_
 #
 include
+<
+functional
+>
+#
+include
 "
 mozilla
 /
@@ -71,11 +76,6 @@ Logging
 .
 h
 "
-#
-include
-<
-functional
->
 namespace
 mozilla
 {

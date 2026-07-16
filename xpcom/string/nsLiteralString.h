@@ -65,13 +65,6 @@ nsLiteralString_h_
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -80,6 +73,13 @@ h
 include
 "
 nsTLiteralString
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

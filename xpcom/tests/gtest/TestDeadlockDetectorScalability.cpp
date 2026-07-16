@@ -71,7 +71,9 @@ MOZ_DMD
 #
 include
 "
-nsIMemoryReporter
+gtest
+/
+gtest
 .
 h
 "
@@ -87,9 +89,7 @@ h
 #
 include
 "
-gtest
-/
-gtest
+nsIMemoryReporter
 .
 h
 "

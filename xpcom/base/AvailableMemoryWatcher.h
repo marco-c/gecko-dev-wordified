@@ -65,11 +65,7 @@ mozilla_AvailableMemoryWatcher_h
 #
 include
 "
-mozilla
-/
-ipc
-/
-CrashReporterHost
+MemoryPressureLevelMac
 .
 h
 "
@@ -85,7 +81,11 @@ h
 #
 include
 "
-MemoryPressureLevelMac
+mozilla
+/
+ipc
+/
+CrashReporterHost
 .
 h
 "

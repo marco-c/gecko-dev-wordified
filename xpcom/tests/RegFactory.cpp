@@ -66,7 +66,7 @@ h
 #
 include
 "
-prlink
+nsCOMPtr
 .
 h
 "
@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -94,7 +87,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsIServiceManager
 .
 h
 "
@@ -102,6 +95,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+prlink
 .
 h
 "

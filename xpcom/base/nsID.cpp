@@ -80,6 +80,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -108,13 +115,6 @@ h
 include
 "
 nss
-.
-h
-"
-#
-include
-"
-ScopedNSSTypes
 .
 h
 "

@@ -65,14 +65,14 @@ nsObserverList_h_
 #
 include
 "
-nsISupports
+nsCOMArray
 .
 h
 "
 #
 include
 "
-nsCOMArray
+nsHashKeys
 .
 h
 "
@@ -86,7 +86,7 @@ h
 #
 include
 "
-nsHashKeys
+nsISupports
 .
 h
 "

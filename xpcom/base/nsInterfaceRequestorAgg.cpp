@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsIInterfaceRequestor
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -80,7 +73,7 @@ h
 #
 include
 "
-nsThreadUtils
+nsIInterfaceRequestor
 .
 h
 "
@@ -88,6 +81,13 @@ h
 include
 "
 nsProxyRelease
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

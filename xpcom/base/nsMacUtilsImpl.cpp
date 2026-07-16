@@ -111,14 +111,14 @@ h
 #
 include
 "
-nsComponentManagerUtils
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsComponentManagerUtils
 .
 h
 "

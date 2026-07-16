@@ -88,6 +88,13 @@ nsVersionComparator_h_
 #
 include
 <
+assert
+.
+h
+>
+#
+include
+<
 stdlib
 .
 h
@@ -96,13 +103,6 @@ h
 include
 <
 string
-.
-h
->
-#
-include
-<
-assert
 .
 h
 >

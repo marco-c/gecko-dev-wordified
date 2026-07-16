@@ -77,6 +77,13 @@ nsAString_h_
 #
 include
 "
+nsStringFlags
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
@@ -85,13 +92,6 @@ h
 include
 "
 nsStringIterator
-.
-h
-"
-#
-include
-"
-nsStringFlags
 .
 h
 "

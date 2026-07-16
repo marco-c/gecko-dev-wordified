@@ -102,14 +102,14 @@ h
 #
 include
 "
-nsServiceManagerUtils
+nsIComponentManager
 .
 h
 "
 #
 include
 "
-nsIComponentManager
+nsServiceManagerUtils
 .
 h
 "

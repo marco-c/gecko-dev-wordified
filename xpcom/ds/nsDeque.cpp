@@ -65,13 +65,6 @@ h
 "
 #
 include
-"
-nsISupportsImpl
-.
-h
-"
-#
-include
 <
 string
 .
@@ -83,6 +76,13 @@ include
 mozilla
 /
 CheckedInt
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

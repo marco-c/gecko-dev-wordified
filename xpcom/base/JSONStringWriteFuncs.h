@@ -64,6 +64,11 @@ define
 JSONSTRINGWRITEFUNCS_H
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -78,11 +83,6 @@ nsString
 .
 h
 "
-#
-include
-<
-type_traits
->
 namespace
 mozilla
 {

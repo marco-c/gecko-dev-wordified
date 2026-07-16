@@ -83,13 +83,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsISerialEventTarget
 .
 h
@@ -98,6 +91,13 @@ h
 include
 "
 nsISupports
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

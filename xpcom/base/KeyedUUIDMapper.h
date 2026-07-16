@@ -65,14 +65,14 @@ KeyedUUIDMapper_h
 #
 include
 "
-nsIKeyedUUIDMapper
+ScopedNSSTypes
 .
 h
 "
 #
 include
 "
-ScopedNSSTypes
+nsIKeyedUUIDMapper
 .
 h
 "

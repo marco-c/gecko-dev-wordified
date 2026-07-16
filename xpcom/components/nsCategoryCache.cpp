@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsIObserverService
+nsCategoryCache
 .
 h
 "
@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h
@@ -99,13 +106,6 @@ h
 include
 "
 nsXPCOMCID
-.
-h
-"
-#
-include
-"
-nsCategoryCache
 .
 h
 "

@@ -70,7 +70,7 @@ include
 "
 mozilla
 /
-ProfilerRunnable
+FlowMarkers
 .
 h
 "
@@ -79,7 +79,7 @@ include
 "
 mozilla
 /
-FlowMarkers
+ProfilerRunnable
 .
 h
 "
@@ -100,14 +100,14 @@ h
 #
 include
 "
-nsThreadUtils
+nsQueryObject
 .
 h
 "
 #
 include
 "
-nsQueryObject
+nsThreadUtils
 .
 h
 "

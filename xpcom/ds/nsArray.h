@@ -65,13 +65,6 @@ nsArray_h_
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -87,6 +80,13 @@ h
 include
 "
 nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
+nsIMutableArray
 .
 h
 "
