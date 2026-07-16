@@ -404,6 +404,7 @@ Display
 DominantBaseline
 Float
 LineClamp
+MarginTrim
 Overflow
 OverflowAnchor
 OverflowClipMargin
@@ -632,6 +633,7 @@ as
 GradientEndingShape
 Gradient
 Image
+ImageDecoding
 ImageRendering
 }
 ;

@@ -4665,6 +4665,10 @@ GridAutoFlow
 "
                 
 "
+ImageDecoding
+"
+                
+"
 ImageRendering
 "
                 
@@ -4702,6 +4706,10 @@ JustifyItems
                 
 "
 LineBreak
+"
+                
+"
+MarginTrim
 "
                 
 "
