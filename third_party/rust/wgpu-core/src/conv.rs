@@ -867,7 +867,7 @@ wgt
 TextureUsages
 :
 :
-TRANSIENT
+TRANSIENT_ATTACHMENT
 )
 )
 ;
@@ -1261,7 +1261,7 @@ wgt
 TextureUsages
 :
 :
-TRANSIENT
+TRANSIENT_ATTACHMENT
 uses
 .
 contains

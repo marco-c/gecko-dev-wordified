@@ -123,6 +123,7 @@ backend
 derive
 (
 Clone
+Debug
 Default
 )
 ]
