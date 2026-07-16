@@ -3017,7 +3017,7 @@ IsContent
 {
 TreeIterator
 <
-FlattenedChildIterator
+FlattenedChildIteratorForSelection
 >
 iter
 (
@@ -13708,7 +13708,7 @@ aContent
 ;
 TreeIterator
 <
-FlattenedChildIterator
+FlattenedChildIteratorForSelection
 >
 iter
 (

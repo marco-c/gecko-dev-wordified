@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsIDOMXULButtonElement
 .
 h
