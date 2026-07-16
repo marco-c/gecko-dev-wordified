@@ -1425,7 +1425,6 @@ MOZ_ASSERT
 )
 ;
 }
-}
 if
 (
 NS_SUCCEEDED
@@ -1497,6 +1496,7 @@ mTrrStart
 ;
 }
 }
+}
 bool
 pendingRequest
 =
@@ -1507,13 +1507,11 @@ if
 mTRRRequestCounter
 )
 {
-mTRRRequestCounter
--
--
-;
 pendingRequest
 =
 (
+-
+-
 mTRRRequestCounter
 !
 =
