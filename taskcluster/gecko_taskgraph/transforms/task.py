@@ -165,6 +165,12 @@ signed_artifacts
 import
 get_signed_artifacts
 from
+mozilla_taskgraph
+.
+worker_types
+import
+get_release_config
+from
 taskcluster
 .
 utils
@@ -310,7 +316,6 @@ util
 scriptworker
 import
 BALROG_ACTIONS
-get_release_config
 from
 gecko_taskgraph
 .

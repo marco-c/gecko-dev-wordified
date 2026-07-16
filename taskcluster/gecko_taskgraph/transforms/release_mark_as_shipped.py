@@ -54,6 +54,12 @@ MPL
 /
 .
 from
+mozilla_taskgraph
+.
+worker_types
+import
+get_release_config
+from
 taskgraph
 .
 transforms
@@ -61,14 +67,6 @@ transforms
 base
 import
 TransformSequence
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-get_release_config
 transforms
 =
 TransformSequence

@@ -62,6 +62,12 @@ attributes
 import
 release_level
 from
+mozilla_taskgraph
+.
+worker_types
+import
+get_release_config
+from
 taskgraph
 .
 transforms
@@ -77,14 +83,6 @@ util
 schema
 import
 resolve_keyed_by
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-get_release_config
 transforms
 =
 TransformSequence

@@ -76,6 +76,12 @@ logging
 import
 attr
 from
+mozilla_taskgraph
+.
+worker_types
+import
+get_release_config
+from
 taskgraph
 .
 transforms
@@ -91,14 +97,6 @@ transforms
 l10n
 import
 parse_locales_file
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-get_release_config
 logger
 =
 logging

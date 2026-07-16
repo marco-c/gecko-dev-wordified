@@ -84,6 +84,12 @@ attributes
 import
 release_level
 from
+mozilla_taskgraph
+.
+worker_types
+import
+get_release_config
+from
 taskgraph
 .
 transforms
@@ -108,14 +114,6 @@ task
 import
 get_branch_repo
 get_branch_rev
-from
-gecko_taskgraph
-.
-util
-.
-scriptworker
-import
-get_release_config
 transforms
 =
 TransformSequence
