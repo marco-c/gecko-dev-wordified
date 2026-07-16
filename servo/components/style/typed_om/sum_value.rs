@@ -1140,7 +1140,10 @@ Step
 for
 item
 in
+&
 math_product
+.
+values
 {
 /
 /

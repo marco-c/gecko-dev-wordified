@@ -112,6 +112,7 @@ typed_om
 :
 :
 {
+MathProduct
 MathSum
 MathValue
 NumericValue
@@ -20110,7 +20111,14 @@ MathValue
 :
 Product
 (
+MathProduct
+:
+:
+try_from_numeric_values
+(
 values
+)
+?
 )
 )
 )
