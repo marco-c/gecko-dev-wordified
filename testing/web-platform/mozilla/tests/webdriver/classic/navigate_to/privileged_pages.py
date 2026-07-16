@@ -145,9 +145,6 @@ extension_new_tab
 xpi
 "
 )
-pytest
-.
-fixture
 def
 chrome_url
 (
@@ -494,12 +491,6 @@ teardown
 "
 "
     
-session
-.
-end
-(
-)
-    
 config
 =
 deepcopy
@@ -576,6 +567,9 @@ geckodriver
 config
 =
 config
+force_new
+=
+True
 )
     
 driver
@@ -626,6 +620,7 @@ by
 those
 that
 don
+'
 t
 ;
 so
@@ -639,12 +634,16 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_about_url_with_system_access
 (
 session
-new_tab_classic
 )
 :
     
@@ -672,22 +671,32 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_chrome_url_with_system_access
 (
 session
-chrome_url
-new_tab_classic
 )
 :
+    
+url
+=
+chrome_url
+(
+session
+)
     
 response
 =
 navigate_to
 (
 session
-chrome_url
+url
 )
     
 assert_success
@@ -701,17 +710,21 @@ session
 url
 =
 =
-chrome_url
+url
 pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_moz_extension_url_with_system_access
 (
 session
-new_tab_classic
 )
 :
     
@@ -808,12 +821,16 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 def
 test_resource_url_with_system_access
 (
 session
-new_tab_classic
 )
 :
     
@@ -841,7 +858,12 @@ pytest
 .
 mark
 .
+geckodriver
+(
 allow_system_access
+=
+True
+)
 pytest
 .
 mark
@@ -895,7 +917,6 @@ test_inherit_principal_url_in_parent_process_context_with_system_access
 (
     
 session
-new_tab_classic
 url
 )
 :
@@ -956,7 +977,6 @@ def
 test_chrome_url_without_system_access
 (
 session
-chrome_url
 )
 :
     
@@ -966,6 +986,9 @@ navigate_to
 (
 session
 chrome_url
+(
+session
+)
 )
     
 assert_error

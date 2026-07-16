@@ -10,8 +10,6 @@ tests
 bidi
 .
 browsing_context
-.
-navigate
 import
 navigate_and_assert
 pytestmark
@@ -84,46 +82,6 @@ clone
 False
 )
     
-config
-=
-deepcopy
-(
-configuration
-)
-    
-config
-[
-"
-capabilities
-"
-]
-[
-"
-moz
-:
-firefoxOptions
-"
-]
-[
-"
-args
-"
-]
-=
-[
-        
-"
--
--
-profile
-"
-        
-custom_profile
-.
-profile
-    
-]
-    
 #
 Capability
 matching
@@ -136,6 +94,13 @@ BiDi
 (
 bug
 1713784
+)
+    
+config
+=
+deepcopy
+(
+configuration
 )
     
 config
@@ -152,20 +117,6 @@ acceptInsecureCerts
 =
 accept_insecure_certs
     
-config
-[
-"
-capabilities
-"
-]
-[
-"
-webSocketUrl
-"
-]
-=
-True
-    
 driver
 =
 geckodriver
@@ -173,6 +124,9 @@ geckodriver
 config
 =
 config
+profile
+=
+custom_profile
 )
     
 driver
@@ -243,11 +197,4 @@ expected_error
 not
 accept_insecure_certs
     
-)
-    
-await
-driver
-.
-delete_session
-(
 )
