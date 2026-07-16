@@ -220,9 +220,6 @@ CreateWidgetCompositorBridge
 (
 uint64_t
 aProcessToken
-WebRenderLayerManager
-*
-aLayerManager
 uint32_t
 aNamespace
 CSSToLayoutDeviceScale
@@ -251,9 +248,6 @@ CompositorBridgeChild
 >
 CreateSameProcessWidgetCompositorBridge
 (
-WebRenderLayerManager
-*
-aLayerManager
 uint32_t
 aNamespace
 )

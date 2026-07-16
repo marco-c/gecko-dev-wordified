@@ -64,13 +64,6 @@ define
 mozilla_gfx_NativeFontResourceFreeType_h
 #
 include
-"
-2D
-.
-h
-"
-#
-include
 <
 cairo
 -
@@ -78,6 +71,13 @@ ft
 .
 h
 >
+#
+include
+"
+2D
+.
+h
+"
 #
 include
 "

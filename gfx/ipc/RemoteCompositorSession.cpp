@@ -97,7 +97,7 @@ mozilla
 /
 layers
 /
-APZChild
+APZCTreeManagerChild
 .
 h
 "
@@ -108,7 +108,7 @@ mozilla
 /
 layers
 /
-APZCTreeManagerChild
+APZChild
 .
 h
 "
@@ -194,8 +194,12 @@ aChild
 CompositorWidgetDelegate
 *
 aWidgetDelegate
+RefPtr
+<
 APZCTreeManagerChild
-*
+>
+&
+&
 aAPZ
 const
 LayersId
@@ -212,7 +216,13 @@ aRootLayerTreeId
 )
 mAPZ
 (
+std
+:
+:
+move
+(
 aAPZ
+)
 )
 {
 MOZ_ASSERT

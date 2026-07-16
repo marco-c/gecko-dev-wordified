@@ -65,13 +65,6 @@ mozilla_gfx_layers_TextureSourceProvider_h
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AlreadyAddRefed
@@ -95,6 +88,13 @@ mozilla
 layers
 /
 CompositorTypes
+.
+h
+"
+#
+include
+"
+nsISupportsImpl
 .
 h
 "

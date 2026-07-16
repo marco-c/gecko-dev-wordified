@@ -65,13 +65,6 @@ NSMARGIN_H
 #
 include
 "
-nsCoord
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -88,6 +81,13 @@ mozilla
 gfx
 /
 Rect
+.
+h
+"
+#
+include
+"
+nsCoord
 .
 h
 "

@@ -65,6 +65,13 @@ mozilla_gfx_vr_VRMessageUtils_h
 #
 include
 "
+gfxVR
+.
+h
+"
+#
+include
+"
 ipc
 /
 EnumSerializer
@@ -97,13 +104,6 @@ mozilla
 dom
 /
 GamepadMessageUtils
-.
-h
-"
-#
-include
-"
-gfxVR
 .
 h
 "

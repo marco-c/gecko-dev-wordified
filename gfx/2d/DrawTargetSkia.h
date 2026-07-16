@@ -64,13 +64,6 @@ define
 MOZILLA_GFX_DRAWTARGETSKIA_H
 #
 include
-"
-2D
-.
-h
-"
-#
-include
 <
 sstream
 >
@@ -79,6 +72,13 @@ include
 <
 vector
 >
+#
+include
+"
+2D
+.
+h
+"
 #
 ifdef
 XP_DARWIN

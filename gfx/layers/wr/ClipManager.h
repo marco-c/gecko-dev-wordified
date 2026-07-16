@@ -86,9 +86,9 @@ include
 "
 mozilla
 /
-webrender
+layout
 /
-WebRenderAPI
+StickyScrollContainer
 .
 h
 "
@@ -97,9 +97,9 @@ include
 "
 mozilla
 /
-layout
+webrender
 /
-StickyScrollContainer
+WebRenderAPI
 .
 h
 "

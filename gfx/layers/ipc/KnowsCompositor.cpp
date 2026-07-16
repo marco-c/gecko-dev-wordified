@@ -68,9 +68,9 @@ include
 "
 mozilla
 /
-layers
+ipc
 /
-ImageBridgeChild
+ProtocolUtils
 .
 h
 "
@@ -79,9 +79,9 @@ include
 "
 mozilla
 /
-ipc
+layers
 /
-ProtocolUtils
+ImageBridgeChild
 .
 h
 "

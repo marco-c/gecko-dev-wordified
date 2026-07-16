@@ -64,6 +64,11 @@ define
 MOZILLA_GFX_PATH_CAIRO_H_
 #
 include
+<
+vector
+>
+#
+include
 "
 2D
 .
@@ -76,11 +81,6 @@ cairo
 .
 h
 "
-#
-include
-<
-vector
->
 namespace
 mozilla
 {

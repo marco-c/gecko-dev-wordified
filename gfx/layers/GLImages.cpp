@@ -66,6 +66,13 @@ h
 #
 include
 "
+GLBlitHelper
+.
+h
+"
+#
+include
+"
 GLContext
 .
 h
@@ -80,13 +87,6 @@ h
 #
 include
 "
-ScopedGLHelpers
-.
-h
-"
-#
-include
-"
 GLImages
 .
 h
@@ -94,7 +94,7 @@ h
 #
 include
 "
-GLBlitHelper
+GLLibraryEGL
 .
 h
 "
@@ -108,7 +108,7 @@ h
 #
 include
 "
-GLLibraryEGL
+ScopedGLHelpers
 .
 h
 "

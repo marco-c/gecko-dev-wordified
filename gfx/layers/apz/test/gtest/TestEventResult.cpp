@@ -58,6 +58,11 @@ MPL
 /
 #
 include
+<
+tuple
+>
+#
+include
 "
 APZCTreeManagerTester
 .
@@ -97,11 +102,6 @@ LayersTypes
 .
 h
 "
-#
-include
-<
-tuple
->
 using
 LayersUpdateFlags
 =

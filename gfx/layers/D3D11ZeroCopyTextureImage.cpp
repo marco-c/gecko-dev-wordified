@@ -58,6 +58,13 @@ MPL
 /
 #
 include
+"
+D3D11ZeroCopyTextureImage
+.
+h
+"
+#
+include
 <
 d3d11
 .
@@ -70,13 +77,6 @@ mfobjects
 .
 h
 >
-#
-include
-"
-D3D11ZeroCopyTextureImage
-.
-h
-"
 #
 include
 "

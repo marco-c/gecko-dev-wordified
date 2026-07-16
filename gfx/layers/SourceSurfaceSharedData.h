@@ -76,9 +76,7 @@ include
 "
 mozilla
 /
-gfx
-/
-2D
+Mutex
 .
 h
 "
@@ -87,7 +85,9 @@ include
 "
 mozilla
 /
-Mutex
+gfx
+/
+2D
 .
 h
 "

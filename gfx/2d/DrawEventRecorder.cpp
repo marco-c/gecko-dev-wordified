@@ -73,14 +73,14 @@ h
 #
 include
 "
-RecordingTypes
+RecordedEventImpl
 .
 h
 "
 #
 include
 "
-RecordedEventImpl
+RecordingTypes
 .
 h
 "

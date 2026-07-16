@@ -73,6 +73,13 @@ h
 #
 include
 "
+SharedSurface
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -111,13 +118,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-SharedSurface
 .
 h
 "

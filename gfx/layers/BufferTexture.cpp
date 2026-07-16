@@ -71,6 +71,13 @@ utility
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 libyuv
 .
 h
@@ -147,13 +154,6 @@ mozilla
 layers
 /
 TextureForwarder
-.
-h
-"
-#
-include
-"
-gfxPlatform
 .
 h
 "
