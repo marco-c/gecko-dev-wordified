@@ -1215,6 +1215,14 @@ writing
 -
 mode
 "
+"
+-
+moz
+-
+image
+-
+decoding
+"
 ]
 )
 ]
@@ -2165,6 +2173,11 @@ transform
 -
 webkit
 -
+line
+-
+clamp
+"
+"
 line
 -
 clamp
