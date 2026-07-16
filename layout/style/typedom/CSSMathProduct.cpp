@@ -571,11 +571,12 @@ nullptr
 Step
 3
 .
-nsTArray
+AutoTArray
 <
 const
 StyleNumericType
 *
+8
 >
 numericTypes
 ;
