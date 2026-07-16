@@ -3711,7 +3711,7 @@ customIcon
 .
 enabled
 "
-false
+true
 )
 ;
 /
