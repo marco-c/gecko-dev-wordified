@@ -2796,6 +2796,7 @@ _push_to_hg_try
 self
 message
 changed_files
+remote
 allow_log_capture
 )
 :
@@ -2902,21 +2903,14 @@ never
 push
 "
                 
+f
 "
 hg
 :
 :
-ssh
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-try
+{
+remote
+}
 "
                 
 f
