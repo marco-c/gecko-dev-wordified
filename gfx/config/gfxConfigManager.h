@@ -169,10 +169,6 @@ mWrForceAngle
 (
 false
 )
-mWrForceAngleNoGPUProcess
-(
-false
-)
 mWrDCompWinEnabled
 (
 false
@@ -351,9 +347,6 @@ mWrCompositorForceEnabled
 ;
 bool
 mWrForceAngle
-;
-bool
-mWrForceAngleNoGPUProcess
 ;
 bool
 mWrDCompWinEnabled
