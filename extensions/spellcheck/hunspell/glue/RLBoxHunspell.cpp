@@ -547,6 +547,15 @@ shouldAbortOnFailure
 *
 /
 false
+nullptr
+/
+*
+capacity
+*
+/
+"
+rlbox_wasm2c_hunspell
+"
 )
 ;
 #
