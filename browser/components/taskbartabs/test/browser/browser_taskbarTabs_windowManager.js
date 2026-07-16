@@ -163,8 +163,7 @@ nsIWinTaskbar
 const
 registry
 =
-new
-TaskbarTabsRegistry
+createInMemoryRegistry
 (
 )
 ;
