@@ -2465,6 +2465,27 @@ py
 )
     
 "
+shell
+-
+test
+"
+:
+MachCommandReference
+(
+"
+browser
+/
+installer
+/
+linux
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 show
 -
 log
