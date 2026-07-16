@@ -242,15 +242,6 @@ from
 "
 .
 /
-stylesheets
-"
-;
-export
-*
-from
-"
-.
-/
 tabs
 "
 ;

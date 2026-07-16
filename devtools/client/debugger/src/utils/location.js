@@ -453,7 +453,6 @@ columnNumber
 and
 stacktrace
 attributes
-.
 /
 /
 -
