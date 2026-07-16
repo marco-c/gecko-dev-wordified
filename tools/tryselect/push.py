@@ -1559,9 +1559,17 @@ flush
         
 ssh_command
 =
+(
+            
 f
 "
 ssh
+-
+F
+/
+dev
+/
+null
 -
 i
 {
@@ -1574,11 +1582,22 @@ keyfile
 name
 )
 }
+"
+            
+"
 -
 o
 IdentitiesOnly
 =
 yes
+-
+o
+IdentityAgent
+=
+none
+"
+            
+"
 -
 o
 StrictHostKeyChecking
@@ -1587,6 +1606,8 @@ accept
 -
 new
 "
+        
+)
         
 sha
 =
