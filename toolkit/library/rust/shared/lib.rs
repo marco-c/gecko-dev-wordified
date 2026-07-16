@@ -307,6 +307,10 @@ signature_cache
 ;
 extern
 crate
+sitecategories
+;
+extern
+crate
 static_prefs
 ;
 extern

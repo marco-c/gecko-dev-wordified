@@ -390,15 +390,11 @@ false
 ]
 [
 "
-permissions
-.
-desktop
--
-notification
+toolkit
 .
 telemetry
 .
-siteCategories
+site_categories
 "
 JSON
 .
