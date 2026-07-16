@@ -559,7 +559,6 @@ Display
 DominantBaseline
 Float
 LineClamp
-MarginTrim
 Overflow
 OverflowAnchor
 OverflowClipMargin
