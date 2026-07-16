@@ -302,6 +302,7 @@ SetProxyConnectFailed
 override
 {
 }
+const
 nsHttpRequestHead
 *
 RequestHead

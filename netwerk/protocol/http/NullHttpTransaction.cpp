@@ -179,6 +179,8 @@ nsIInterfaceRequestor
 callbacks
 uint32_t
 caps
+bool
+reportActivity
 )
 :
 mStatus
@@ -212,6 +214,15 @@ mConnectionInfo
 ci
 )
 {
+if
+(
+!
+reportActivity
+)
+{
+return
+;
+}
 nsresult
 rv
 ;
@@ -842,6 +853,7 @@ return
 0
 ;
 }
+const
 nsHttpRequestHead
 *
 NullHttpTransaction

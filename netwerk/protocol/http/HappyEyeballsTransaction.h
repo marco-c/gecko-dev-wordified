@@ -1161,6 +1161,7 @@ real
 txn
 directly
 .
+const
 nsHttpRequestHead
 *
 RequestHead

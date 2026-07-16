@@ -877,6 +877,7 @@ nsACString
 &
 aMethod
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -896,6 +897,7 @@ nsHttpRequestHead
 Version
 (
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -917,6 +919,7 @@ nsACString
 &
 aRequestURI
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -939,6 +942,7 @@ nsACString
 &
 aPath
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -990,6 +994,7 @@ nsACString
 &
 aOrigin
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -1214,6 +1219,7 @@ nsACString
 &
 v
 )
+const
 {
 v
 .
@@ -1315,6 +1321,7 @@ nsHttpAtom
 &
 h
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -1346,6 +1353,7 @@ char
 *
 v
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -1450,6 +1458,7 @@ nsHttpRequestHead
 ParsedMethod
 (
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -1470,6 +1479,7 @@ EqualsMethod
 ParsedMethodType
 aType
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -1622,6 +1632,7 @@ nsHttpRequestHead
 IsHTTPS
 (
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -1942,6 +1953,7 @@ nsHttpRequestHead
 IsSafeMethod
 (
 )
+const
 {
 RecursiveMutexAutoLock
 mon
@@ -2082,6 +2094,7 @@ buf
 bool
 pruneProxyHeaders
 )
+const
 {
 RecursiveMutexAutoLock
 mon

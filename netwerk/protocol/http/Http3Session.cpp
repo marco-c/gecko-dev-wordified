@@ -15003,6 +15003,7 @@ SetProxyConnectFailed
 )
 ;
 }
+const
 nsHttpRequestHead
 *
 Http3Session

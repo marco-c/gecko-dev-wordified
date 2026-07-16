@@ -28419,6 +28419,7 @@ return
 0
 ;
 }
+const
 nsHttpRequestHead
 *
 Http2Session

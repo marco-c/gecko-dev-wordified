@@ -513,6 +513,7 @@ for
 idempotent
 methods
 .
+const
 nsHttpRequestHead
 *
 head

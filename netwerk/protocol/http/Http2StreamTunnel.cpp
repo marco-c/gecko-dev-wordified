@@ -3505,6 +3505,7 @@ uint8_t
 firstFrameFlags
 )
 {
+const
 nsHttpRequestHead
 *
 head

@@ -558,11 +558,13 @@ nsACString
 &
 aMethod
 )
+const
 ;
 HttpVersion
 Version
 (
 )
+const
 ;
 void
 RequestURI
@@ -571,6 +573,7 @@ nsACString
 &
 RequestURI
 )
+const
 ;
 void
 Path
@@ -579,6 +582,7 @@ nsACString
 &
 aPath
 )
+const
 ;
 void
 SetHTTPS
@@ -591,6 +595,7 @@ bool
 IsHTTPS
 (
 )
+const
 ;
 void
 SetOrigin
@@ -614,6 +619,7 @@ nsACString
 &
 aOrigin
 )
+const
 ;
 [
 [
@@ -714,6 +720,7 @@ nsACString
 &
 v
 )
+const
 ;
 [
 [
@@ -746,6 +753,7 @@ char
 *
 v
 )
+const
 ;
 /
 /
@@ -775,6 +783,7 @@ nsHttpAtom
 &
 h
 )
+const
 ;
 void
 Flatten
@@ -786,6 +795,7 @@ pruneProxyHeaders
 =
 false
 )
+const
 ;
 /
 /
@@ -821,6 +831,7 @@ bool
 IsSafeMethod
 (
 )
+const
 ;
 enum
 ParsedMethodType
@@ -853,6 +864,7 @@ ParsedMethodType
 ParsedMethod
 (
 )
+const
 ;
 bool
 EqualsMethod
@@ -860,11 +872,13 @@ EqualsMethod
 ParsedMethodType
 aType
 )
+const
 ;
 bool
 IsGet
 (
 )
+const
 {
 return
 EqualsMethod
@@ -877,6 +891,7 @@ bool
 IsPost
 (
 )
+const
 {
 return
 EqualsMethod
@@ -889,6 +904,7 @@ bool
 IsPatch
 (
 )
+const
 {
 return
 EqualsMethod
@@ -901,6 +917,7 @@ bool
 IsOptions
 (
 )
+const
 {
 return
 EqualsMethod
@@ -913,6 +930,7 @@ bool
 IsConnect
 (
 )
+const
 {
 return
 EqualsMethod
@@ -925,6 +943,7 @@ bool
 IsHead
 (
 )
+const
 {
 return
 EqualsMethod
@@ -937,6 +956,7 @@ bool
 IsPut
 (
 )
+const
 {
 return
 EqualsMethod
@@ -949,6 +969,7 @@ bool
 IsTrace
 (
 )
+const
 {
 return
 EqualsMethod
