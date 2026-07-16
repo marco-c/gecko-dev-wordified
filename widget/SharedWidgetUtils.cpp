@@ -83,14 +83,14 @@ h
 #
 include
 "
-nsIDocShellTreeItem
+nsIDocShell
 .
 h
 "
 #
 include
 "
-nsIDocShell
+nsIDocShellTreeItem
 .
 h
 "

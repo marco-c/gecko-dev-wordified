@@ -21,14 +21,14 @@ GTK_PRIMARY_SELECTION_CLIENT_PROTOCOL_H
 #
 include
 <
-stdint
+stddef
 .
 h
 >
 #
 include
 <
-stddef
+stdint
 .
 h
 >

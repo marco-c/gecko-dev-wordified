@@ -69,13 +69,6 @@ h
 "
 #
 include
-"
-nsDebug
-.
-h
-"
-#
-include
 <
 inputpaneinterop
 .
@@ -99,6 +92,13 @@ wrl
 .
 h
 >
+#
+include
+"
+nsDebug
+.
+h
+"
 using
 namespace
 ABI

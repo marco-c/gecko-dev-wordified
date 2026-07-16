@@ -66,7 +66,7 @@ h
 #
 include
 "
-nsISupportsPrimitives
+nsCOMPtr
 .
 h
 "
@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsISupportsPrimitives
 .
 h
 "

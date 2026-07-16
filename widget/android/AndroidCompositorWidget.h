@@ -65,14 +65,14 @@ mozilla_widget_AndroidCompositorWidget_h
 #
 include
 "
-CompositorWidget
+AndroidNativeWindow
 .
 h
 "
 #
 include
 "
-AndroidNativeWindow
+CompositorWidget
 .
 h
 "

@@ -63,13 +63,6 @@ nsPrintSettingsX_h_
 define
 nsPrintSettingsX_h_
 #
-include
-"
-nsPrintSettingsImpl
-.
-h
-"
-#
 import
 <
 Cocoa
@@ -78,6 +71,13 @@ Cocoa
 .
 h
 >
+#
+include
+"
+nsPrintSettingsImpl
+.
+h
+"
 /
 /
 clang

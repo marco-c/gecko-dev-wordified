@@ -74,14 +74,14 @@ h
 #
 include
 "
-nsIAppShell
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsIThreadInternal
+nsIAppShell
 .
 h
 "
@@ -102,7 +102,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsIThreadInternal
 .
 h
 "

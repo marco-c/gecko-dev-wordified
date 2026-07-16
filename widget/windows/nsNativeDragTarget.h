@@ -64,13 +64,6 @@ define
 _nsNativeDragTarget_h_
 #
 include
-"
-nsCOMPtr
-.
-h
-"
-#
-include
 <
 ole2
 .
@@ -83,6 +76,13 @@ shlobj
 .
 h
 >
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 #
 ifndef
 IDropTargetHelper

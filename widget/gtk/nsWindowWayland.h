@@ -62,6 +62,13 @@ _nsWindowWayland_h_
 #
 define
 _nsWindowWayland_h_
+#
+include
+"
+nsWindow
+.
+h
+"
 namespace
 mozilla
 :

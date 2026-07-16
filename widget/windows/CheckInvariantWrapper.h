@@ -89,6 +89,11 @@ define
 CHECKINVARIANTWRAPPER_H_
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -96,11 +101,6 @@ Attributes
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 {

@@ -66,14 +66,14 @@ WinTaskbar_h_
 #
 include
 <
-windows
+shobjidl
 .
 h
 >
 #
 include
 <
-shobjidl
+windows
 .
 h
 >

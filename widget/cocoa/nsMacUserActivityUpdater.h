@@ -65,14 +65,14 @@ nsMacUserActivityUpdater_h_
 #
 include
 "
-nsIMacUserActivityUpdater
+nsCocoaWindow
 .
 h
 "
 #
 include
 "
-nsCocoaWindow
+nsIMacUserActivityUpdater
 .
 h
 "

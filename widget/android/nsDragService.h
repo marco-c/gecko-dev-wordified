@@ -65,13 +65,6 @@ nsDragService_h_
 #
 include
 "
-nsBaseDragService
-.
-h
-"
-#
-include
-"
 AndroidGraphics
 .
 h
@@ -84,6 +77,13 @@ mozilla
 java
 /
 GeckoDragAndDropNatives
+.
+h
+"
+#
+include
+"
+nsBaseDragService
 .
 h
 "

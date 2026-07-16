@@ -67,9 +67,7 @@ include
 "
 mozilla
 /
-dom
-/
-ContentParent
+PClipboardReadRequestParent
 .
 h
 "
@@ -78,7 +76,9 @@ include
 "
 mozilla
 /
-PClipboardReadRequestParent
+dom
+/
+ContentParent
 .
 h
 "

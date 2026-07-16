@@ -71,7 +71,7 @@ mozilla
 /
 dom
 /
-Document
+BrowserChild
 .
 h
 "
@@ -82,7 +82,7 @@ mozilla
 /
 dom
 /
-BrowserChild
+Document
 .
 h
 "

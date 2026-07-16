@@ -202,9 +202,9 @@ include
 "
 mozilla
 /
-widget
+ipc
 /
-IMEData
+IPCForwards
 .
 h
 "
@@ -213,9 +213,9 @@ include
 "
 mozilla
 /
-ipc
+widget
 /
-IPCForwards
+IMEData
 .
 h
 "

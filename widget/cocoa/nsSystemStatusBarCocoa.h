@@ -74,14 +74,14 @@ h
 #
 include
 "
-nsISystemStatusBar
+nsClassHashtable
 .
 h
 "
 #
 include
 "
-nsClassHashtable
+nsISystemStatusBar
 .
 h
 "

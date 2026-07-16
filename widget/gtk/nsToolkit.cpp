@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+nsGTKToolkit
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -70,13 +77,6 @@ for
 '
 nullptr
 '
-#
-include
-"
-nsGTKToolkit
-.
-h
-"
 nsGTKToolkit
 *
 nsGTKToolkit

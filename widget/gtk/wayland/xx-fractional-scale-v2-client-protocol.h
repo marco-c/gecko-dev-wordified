@@ -21,14 +21,14 @@ XX_FRACTIONAL_SCALE_V2_CLIENT_PROTOCOL_H
 #
 include
 <
-stdint
+stddef
 .
 h
 >
 #
 include
 <
-stddef
+stdint
 .
 h
 >

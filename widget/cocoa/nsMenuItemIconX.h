@@ -92,9 +92,7 @@ include
 "
 mozilla
 /
-widget
-/
-IconLoader
+WeakPtr
 .
 h
 "
@@ -103,7 +101,9 @@ include
 "
 mozilla
 /
-WeakPtr
+widget
+/
+IconLoader
 .
 h
 "

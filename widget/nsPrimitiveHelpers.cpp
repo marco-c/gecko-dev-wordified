@@ -223,13 +223,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -237,7 +230,7 @@ h
 #
 include
 "
-nsXPCOM
+nsComponentManagerUtils
 .
 h
 "
@@ -266,6 +259,13 @@ h
 include
 "
 nsReadableUtils
+.
+h
+"
+#
+include
+"
+nsXPCOM
 .
 h
 "

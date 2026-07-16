@@ -64,6 +64,13 @@ define
 mozilla_widget_WinModifierKeyState_h_
 #
 include
+<
+windows
+.
+h
+>
+#
+include
 "
 mozilla
 /
@@ -78,13 +85,6 @@ nsStringFwd
 .
 h
 "
-#
-include
-<
-windows
-.
-h
->
 namespace
 mozilla
 {

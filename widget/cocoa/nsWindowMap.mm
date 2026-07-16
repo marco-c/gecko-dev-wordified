@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsObjCExceptions
-.
-h
-"
-#
-include
-"
 nsChildView
 .
 h
@@ -81,6 +74,13 @@ h
 include
 "
 nsCocoaWindow
+.
+h
+"
+#
+include
+"
+nsObjCExceptions
 .
 h
 "

@@ -87,6 +87,13 @@ taskbar
 #
 include
 "
+WinUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -99,13 +106,6 @@ include
 mozilla
 /
 StaticPrefs_widget
-.
-h
-"
-#
-include
-"
-WinUtils
 .
 h
 "

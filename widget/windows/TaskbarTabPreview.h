@@ -66,14 +66,14 @@ _mozilla_widget_TaskbarTabPreview_h_
 #
 include
 "
-nsITaskbarTabPreview
+TaskbarPreview
 .
 h
 "
 #
 include
 "
-TaskbarPreview
+nsITaskbarTabPreview
 .
 h
 "

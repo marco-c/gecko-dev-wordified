@@ -72,6 +72,13 @@ h
 #
 include
 "
+AndroidBridge
+.
+h
+"
+#
+include
+"
 mozilla
 /
 jni
@@ -99,13 +106,6 @@ mozilla
 jni
 /
 Utils
-.
-h
-"
-#
-include
-"
-AndroidBridge
 .
 h
 "

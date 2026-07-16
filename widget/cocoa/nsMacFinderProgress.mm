@@ -75,14 +75,14 @@ h
 #
 include
 "
-nsProxyRelease
+nsObjCExceptions
 .
 h
 "
 #
 include
 "
-nsThreadUtils
+nsProxyRelease
 .
 h
 "
@@ -96,7 +96,7 @@ h
 #
 include
 "
-nsObjCExceptions
+nsThreadUtils
 .
 h
 "

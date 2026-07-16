@@ -73,6 +73,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MacStringHelpers
@@ -109,13 +116,6 @@ mozilla
 widget
 /
 GeckoViewSupport
-.
-h
-"
-#
-include
-"
-jsapi
 .
 h
 "

@@ -69,6 +69,13 @@ RetrievalContextWayland
 .
 h
 "
+#
+include
+"
+nsDragService
+.
+h
+"
 namespace
 mozilla
 :

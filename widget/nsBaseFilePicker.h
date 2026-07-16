@@ -66,7 +66,7 @@ nsBaseFilePicker_h_
 #
 include
 "
-nsISupports
+nsCOMPtr
 .
 h
 "
@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsISupports
 .
 h
 "

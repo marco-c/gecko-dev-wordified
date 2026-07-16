@@ -84,9 +84,7 @@ include
 "
 mozilla
 /
-java
-/
-WebMessageWrappers
+Preferences
 .
 h
 "
@@ -95,7 +93,9 @@ include
 "
 mozilla
 /
-Preferences
+java
+/
+WebMessageWrappers
 .
 h
 "

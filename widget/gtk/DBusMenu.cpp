@@ -66,14 +66,14 @@ h
 #
 include
 "
-prlink
+nsThreadUtils
 .
 h
 "
 #
 include
 "
-nsThreadUtils
+prlink
 .
 h
 "

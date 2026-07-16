@@ -67,13 +67,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 PropertyAndElement
@@ -83,6 +76,13 @@ h
 /
 /
 JS_DefineProperty
+#
+include
+"
+jsapi
+.
+h
+"
 #
 include
 "

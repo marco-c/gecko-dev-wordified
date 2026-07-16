@@ -65,13 +65,6 @@ GeckoBatteryManager_h
 #
 include
 "
-nsAppShell
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Hal
@@ -86,6 +79,13 @@ mozilla
 java
 /
 GeckoBatteryManagerNatives
+.
+h
+"
+#
+include
+"
+nsAppShell
 .
 h
 "

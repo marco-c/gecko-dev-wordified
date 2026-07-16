@@ -75,6 +75,13 @@ h
 #
 include
 "
+NativeMenuMac
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -86,7 +93,7 @@ h
 #
 include
 "
-NativeMenuMac
+nsGkAtoms
 .
 h
 "
@@ -94,13 +101,6 @@ h
 include
 "
 nsISupports
-.
-h
-"
-#
-include
-"
-nsGkAtoms
 .
 h
 "

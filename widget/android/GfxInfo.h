@@ -66,13 +66,6 @@ _mozilla_widget_GfxInfo_h_
 #
 include
 "
-GfxInfoBase
-.
-h
-"
-#
-include
-"
 GfxDriverInfo
 .
 h
@@ -80,7 +73,7 @@ h
 #
 include
 "
-nsString
+GfxInfoBase
 .
 h
 "
@@ -90,6 +83,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

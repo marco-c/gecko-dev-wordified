@@ -65,14 +65,14 @@ mozilla_widget_HeadlessLookAndFeel_h
 #
 include
 "
-nsXPLookAndFeel
+nsLookAndFeel
 .
 h
 "
 #
 include
 "
-nsLookAndFeel
+nsXPLookAndFeel
 .
 h
 "

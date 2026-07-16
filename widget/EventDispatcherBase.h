@@ -121,14 +121,14 @@ h
 #
 include
 "
-nsIGeckoViewBridge
+nsHashKeys
 .
 h
 "
 #
 include
 "
-nsHashKeys
+nsIGeckoViewBridge
 .
 h
 "

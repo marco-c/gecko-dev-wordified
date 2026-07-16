@@ -76,7 +76,7 @@ mozilla
 /
 widget
 /
-PCompositorWidgetChild
+CompositorWidgetVsyncObserver
 .
 h
 "
@@ -87,7 +87,7 @@ mozilla
 /
 widget
 /
-CompositorWidgetVsyncObserver
+PCompositorWidgetChild
 .
 h
 "

@@ -65,13 +65,6 @@ mozilla_widget_Screen_h
 #
 include
 "
-nsIScreen
-.
-h
-"
-#
-include
-"
 Units
 .
 h
@@ -92,6 +85,13 @@ hal
 :
 :
 ScreenOrientation
+#
+include
+"
+nsIScreen
+.
+h
+"
 namespace
 mozilla
 {

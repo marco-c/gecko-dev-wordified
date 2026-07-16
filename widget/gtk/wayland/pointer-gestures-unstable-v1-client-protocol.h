@@ -21,14 +21,14 @@ POINTER_GESTURES_UNSTABLE_V1_CLIENT_PROTOCOL_H
 #
 include
 <
-stdint
+stddef
 .
 h
 >
 #
 include
 <
-stddef
+stdint
 .
 h
 >

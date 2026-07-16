@@ -65,14 +65,14 @@ widget_gtk_nsWidgetFactory_h
 #
 include
 "
-nscore
+nsID
 .
 h
 "
 #
 include
 "
-nsID
+nscore
 .
 h
 "

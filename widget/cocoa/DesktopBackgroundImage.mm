@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+DesktopBackgroundImage
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -76,13 +83,6 @@ h
 include
 "
 nsIFile
-.
-h
-"
-#
-include
-"
-DesktopBackgroundImage
 .
 h
 "

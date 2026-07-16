@@ -81,7 +81,7 @@ h
 #
 include
 "
-nsRect
+Units
 .
 h
 "
@@ -95,14 +95,14 @@ h
 #
 include
 "
-nsTArray
+nsRect
 .
 h
 "
 #
 include
 "
-Units
+nsTArray
 .
 h
 "

@@ -102,13 +102,6 @@ h
 #
 include
 "
-nsAString
-.
-h
-"
-#
-include
-"
 MainThreadUtils
 .
 h
@@ -119,6 +112,13 @@ include
 mozilla
 /
 Services
+.
+h
+"
+#
+include
+"
+nsAString
 .
 h
 "

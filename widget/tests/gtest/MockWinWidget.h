@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 Units
 .
 h
@@ -91,6 +84,13 @@ mozilla
 widget
 /
 WindowOcclusionState
+.
+h
+"
+#
+include
+"
+nsIWidget
 .
 h
 "

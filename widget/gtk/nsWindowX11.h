@@ -62,6 +62,13 @@ _nsWindowX11_h_
 #
 define
 _nsWindowX11_h_
+#
+include
+"
+nsWindow
+.
+h
+"
 namespace
 mozilla
 :

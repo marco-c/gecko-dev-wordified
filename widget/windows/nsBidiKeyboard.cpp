@@ -66,6 +66,13 @@ h
 "
 #
 include
+<
+tchar
+.
+h
+>
+#
+include
 "
 WidgetUtils
 .
@@ -78,13 +85,6 @@ nsIWidget
 .
 h
 "
-#
-include
-<
-tchar
-.
-h
->
 NS_IMPL_ISUPPORTS
 (
 nsBidiKeyboard

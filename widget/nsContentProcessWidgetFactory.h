@@ -65,14 +65,14 @@ nsContentProcessWidgetFactory_h
 #
 include
 "
-nsISupports
+nsComponentManagerUtils
 .
 h
 "
 #
 include
 "
-nsComponentManagerUtils
+nsISupports
 .
 h
 "

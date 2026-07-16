@@ -65,14 +65,14 @@ mozilla_widget_ScrollbarDrawingAndroid_h
 #
 include
 "
-nsITheme
+ScrollbarDrawing
 .
 h
 "
 #
 include
 "
-ScrollbarDrawing
+nsITheme
 .
 h
 "

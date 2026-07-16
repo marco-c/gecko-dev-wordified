@@ -65,6 +65,13 @@ RetrievalContextWayland_h
 #
 include
 "
+WUniquePtr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Mutex
@@ -89,13 +96,6 @@ h
 include
 "
 nsWindow
-.
-h
-"
-#
-include
-"
-WUniquePtr
 .
 h
 "

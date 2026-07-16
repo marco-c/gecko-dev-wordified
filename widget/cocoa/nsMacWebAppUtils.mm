@@ -68,13 +68,6 @@ h
 #
 include
 "
-nsMacWebAppUtils
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -83,6 +76,13 @@ h
 include
 "
 nsCocoaUtils
+.
+h
+"
+#
+include
+"
+nsMacWebAppUtils
 .
 h
 "

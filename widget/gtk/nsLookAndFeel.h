@@ -72,14 +72,14 @@ h
 #
 include
 "
-nsXPLookAndFeel
+gfxFont
 .
 h
 "
 #
 include
 "
-gfxFont
+nsXPLookAndFeel
 .
 h
 "

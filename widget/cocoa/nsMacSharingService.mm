@@ -75,13 +75,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 js
 /
 Array
@@ -110,7 +103,7 @@ JS_SetProperty
 #
 include
 "
-nsCocoaUtils
+jsapi
 .
 h
 "
@@ -120,6 +113,13 @@ include
 mozilla
 /
 MacStringHelpers
+.
+h
+"
+#
+include
+"
+nsCocoaUtils
 .
 h
 "

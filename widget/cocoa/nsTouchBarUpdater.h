@@ -65,14 +65,14 @@ nsTouchBarUpdater_h_
 #
 include
 "
-nsITouchBarUpdater
+nsCocoaWindow
 .
 h
 "
 #
 include
 "
-nsCocoaWindow
+nsITouchBarUpdater
 .
 h
 "

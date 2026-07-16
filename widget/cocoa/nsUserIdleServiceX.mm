@@ -64,13 +64,6 @@ nsUserIdleServiceX
 h
 "
 #
-include
-"
-nsObjCExceptions
-.
-h
-"
-#
 import
 <
 Foundation
@@ -79,6 +72,13 @@ Foundation
 .
 h
 >
+#
+include
+"
+nsObjCExceptions
+.
+h
+"
 bool
 nsUserIdleServiceX
 :

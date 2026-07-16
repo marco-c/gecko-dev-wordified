@@ -62,6 +62,13 @@ XP_MACOSX
 #
 include
 "
+NativeKeyBindings
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -101,13 +108,6 @@ include
 mozilla
 /
 TextEvents
-.
-h
-"
-#
-include
-"
-NativeKeyBindings
 .
 h
 "

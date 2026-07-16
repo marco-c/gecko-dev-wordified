@@ -83,14 +83,14 @@ h
 #
 include
 "
-gfxXlibSurface
+gfxImageSurface
 .
 h
 "
 #
 include
 "
-gfxImageSurface
+gfxXlibSurface
 .
 h
 "

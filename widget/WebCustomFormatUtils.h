@@ -100,14 +100,14 @@ WIDGET_WEBCUSTOMFORMATUTILS_H
 #
 include
 "
-nsTHashMap
+nsString
 .
 h
 "
 #
 include
 "
-nsString
+nsTHashMap
 .
 h
 "

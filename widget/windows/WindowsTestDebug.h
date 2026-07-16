@@ -62,6 +62,12 @@ mozilla_widget_WindowsTestDebug_h_
 #
 define
 mozilla_widget_WindowsTestDebug_h_
+/
+/
+clang
+-
+format
+off
 #
 include
 <
@@ -76,6 +82,12 @@ restartmanager
 .
 h
 >
+/
+/
+clang
+-
+format
+on
 #
 include
 "

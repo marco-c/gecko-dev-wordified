@@ -73,14 +73,14 @@ h
 #
 include
 "
-gfxFontUtils
+TextEvents
 .
 h
 "
 #
 include
 "
-TextEvents
+gfxFontUtils
 .
 h
 "
@@ -107,7 +107,7 @@ include
 "
 mozilla
 /
-WritingModes
+Utf16
 .
 h
 "
@@ -116,7 +116,7 @@ include
 "
 mozilla
 /
-Utf16
+WritingModes
 .
 h
 "

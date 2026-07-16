@@ -83,6 +83,13 @@ h
 #
 include
 "
+nsChangeObserver
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -97,7 +104,7 @@ h
 #
 include
 "
-nsChangeObserver
+nsString
 .
 h
 "
@@ -105,13 +112,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "

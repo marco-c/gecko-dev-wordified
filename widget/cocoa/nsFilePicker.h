@@ -73,14 +73,14 @@ h
 #
 include
 "
-nsString
+nsCOMArray
 .
 h
 "
 #
 include
 "
-nsCOMArray
+nsString
 .
 h
 "

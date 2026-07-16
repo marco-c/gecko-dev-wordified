@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsDragService
-.
-h
-"
-#
-include
-"
 nsDragServiceWayland
 .
 h
@@ -74,6 +67,13 @@ h
 include
 "
 AsyncClipboardRequest
+.
+h
+"
+#
+include
+"
+nsDragService
 .
 h
 "

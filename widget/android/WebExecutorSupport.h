@@ -69,7 +69,7 @@ mozilla
 /
 java
 /
-GeckoWebExecutorNatives
+GeckoResultWrappers
 .
 h
 "
@@ -80,7 +80,7 @@ mozilla
 /
 java
 /
-GeckoResultWrappers
+GeckoWebExecutorNatives
 .
 h
 "

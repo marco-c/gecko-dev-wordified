@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 VsyncDispatcher
 .
 h
@@ -92,6 +85,13 @@ mozilla
 gfx
 /
 2D
+.
+h
+"
+#
+include
+"
+nsIWidget
 .
 h
 "

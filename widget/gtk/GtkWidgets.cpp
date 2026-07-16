@@ -58,6 +58,13 @@ MPL
 /
 #
 include
+"
+GtkWidgets
+.
+h
+"
+#
+include
 <
 dlfcn
 .
@@ -75,13 +82,6 @@ h
 #
 include
 "
-GtkWidgets
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -93,7 +93,7 @@ include
 "
 mozilla
 /
-PodOperations
+EnumeratedArray
 .
 h
 "
@@ -102,7 +102,7 @@ include
 "
 mozilla
 /
-EnumeratedArray
+PodOperations
 .
 h
 "

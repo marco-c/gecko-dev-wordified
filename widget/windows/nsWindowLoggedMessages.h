@@ -72,13 +72,6 @@ h
 #
 include
 "
-wtypes
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -87,6 +80,13 @@ h
 include
 "
 nsStringFwd
+.
+h
+"
+#
+include
+"
+wtypes
 .
 h
 "

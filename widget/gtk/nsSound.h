@@ -64,13 +64,6 @@ define
 _nsSound_h_
 #
 include
-"
-nsISound
-.
-h
-"
-#
-include
 <
 gtk
 /
@@ -78,6 +71,13 @@ gtk
 .
 h
 >
+#
+include
+"
+nsISound
+.
+h
+"
 class
 nsSound
 :

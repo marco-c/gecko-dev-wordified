@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+TestWidgetEventCtors
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest
@@ -82,13 +89,6 @@ mozilla
 dom
 /
 MouseEventBinding
-.
-h
-"
-#
-include
-"
-TestWidgetEventCtors
 .
 h
 "

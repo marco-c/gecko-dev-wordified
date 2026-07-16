@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Components
@@ -87,6 +80,13 @@ include
 mozilla
 /
 WidgetUtils
+.
+h
+"
+#
+include
+"
+nsISupports
 .
 h
 "

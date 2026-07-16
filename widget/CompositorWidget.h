@@ -65,7 +65,7 @@ mozilla_widget_CompositorWidget_h_
 #
 include
 "
-nsISupports
+Units
 .
 h
 "
@@ -75,13 +75,6 @@ include
 mozilla
 /
 RefPtr
-.
-h
-"
-#
-include
-"
-Units
 .
 h
 "
@@ -115,6 +108,13 @@ mozilla
 layers
 /
 LayersTypes
+.
+h
+"
+#
+include
+"
+nsISupports
 .
 h
 "

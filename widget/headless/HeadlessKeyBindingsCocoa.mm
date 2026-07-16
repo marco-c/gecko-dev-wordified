@@ -57,13 +57,6 @@ MPL
 *
 /
 #
-include
-"
-HeadlessKeyBindings
-.
-h
-"
-#
 import
 <
 Cocoa
@@ -75,7 +68,7 @@ h
 #
 include
 "
-nsCocoaUtils
+HeadlessKeyBindings
 .
 h
 "
@@ -119,6 +112,13 @@ include
 mozilla
 /
 WritingModes
+.
+h
+"
+#
+include
+"
+nsCocoaUtils
 .
 h
 "

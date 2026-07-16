@@ -68,14 +68,14 @@ h
 #
 include
 "
-nsColorPicker
+nsCocoaUtils
 .
 h
 "
 #
 include
 "
-nsCocoaUtils
+nsColorPicker
 .
 h
 "

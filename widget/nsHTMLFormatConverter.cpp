@@ -73,6 +73,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -80,7 +87,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsISupportsPrimitives
 .
 h
 "
@@ -105,13 +112,6 @@ nsXPCOM
 .
 h
 "
-#
-include
-"
-nsISupportsPrimitives
-.
-h
-"
 /
 /
 HTML
@@ -120,7 +120,7 @@ stuff
 #
 include
 "
-nsPrimitiveHelpers
+nsContentUtils
 .
 h
 "
@@ -134,7 +134,7 @@ h
 #
 include
 "
-nsContentUtils
+nsPrimitiveHelpers
 .
 h
 "
