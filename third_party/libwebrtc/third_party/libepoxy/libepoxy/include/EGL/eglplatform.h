@@ -230,14 +230,7 @@ include
 .
 .
 /
-.
-.
-/
-gfx
-/
 angle
-/
-checkout
 /
 include
 /
