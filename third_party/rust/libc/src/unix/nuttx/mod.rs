@@ -3044,6 +3044,14 @@ i32
 =
 0x25
 ;
+pub
+const
+_SC_HOST_NAME_MAX
+:
+i32
+=
+0x26
+;
 /
 /
 signal

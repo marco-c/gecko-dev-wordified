@@ -900,7 +900,7 @@ pub
 const
 POLLIN
 :
-c_short
+c_int
 =
 0x0001
 ;
@@ -908,7 +908,7 @@ pub
 const
 POLLPRI
 :
-c_short
+c_int
 =
 0x0002
 ;
@@ -916,7 +916,7 @@ pub
 const
 POLLOUT
 :
-c_short
+c_int
 =
 0x0004
 ;
@@ -924,7 +924,7 @@ pub
 const
 POLLRDNORM
 :
-c_short
+c_int
 =
 0x0040
 ;
@@ -932,7 +932,7 @@ pub
 const
 POLLWRNORM
 :
-c_short
+c_int
 =
 POLLOUT
 ;
@@ -940,7 +940,7 @@ pub
 const
 POLLRDBAND
 :
-c_short
+c_int
 =
 0x0080
 ;
@@ -948,7 +948,7 @@ pub
 const
 POLLWRBAND
 :
-c_short
+c_int
 =
 0x0100
 ;
@@ -956,7 +956,7 @@ pub
 const
 POLLERR
 :
-c_short
+c_int
 =
 0x0008
 ;
@@ -964,7 +964,7 @@ pub
 const
 POLLHUP
 :
-c_short
+c_int
 =
 0x0010
 ;
@@ -972,7 +972,7 @@ pub
 const
 POLLNVAL
 :
-c_short
+c_int
 =
 0x0020
 ;

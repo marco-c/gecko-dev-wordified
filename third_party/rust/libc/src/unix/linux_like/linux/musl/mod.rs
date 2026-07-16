@@ -4735,7 +4735,7 @@ c_int
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -5012,7 +5012,7 @@ c_void
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -5041,7 +5041,7 @@ c_int
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -5763,7 +5763,7 @@ cfg_attr
 (
 all
 (
-musl32_time64
+musl_redir_time64
 target_pointer_width
 =
 "

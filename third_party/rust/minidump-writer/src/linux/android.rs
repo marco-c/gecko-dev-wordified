@@ -4,7 +4,6 @@ super
 :
 :
 {
-Pid
 maps_reader
 :
 :
@@ -346,9 +345,6 @@ process_inspector
 :
 &
 ProcessInspector
-pid
-:
-Pid
 load_bias
 :
 usize
@@ -401,7 +397,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-pid
 addr
 SIZEOF_DYN
 )
@@ -509,9 +504,6 @@ process_inspector
 :
 &
 ProcessInspector
-pid
-:
-Pid
 ehdr
 :
 &
@@ -533,7 +525,6 @@ ph
 parse_loaded_elf_program_headers
 (
 process_inspector
-pid
 ehdr
 address
 )
@@ -584,7 +575,6 @@ if
 has_android_packed_relocations
 (
 process_inspector
-pid
 load_bias
 ph
 )
@@ -635,9 +625,6 @@ process_inspector
 :
 &
 ProcessInspector
-pid
-:
-Pid
 ehdr
 :
 &
@@ -694,7 +681,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-pid
 phdr_addr
 elf_header
 :
@@ -878,9 +864,6 @@ process_inspector
 :
 &
 ProcessInspector
-pid
-:
-Pid
 mappings
 :
 &
@@ -960,7 +943,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-pid
 map
 .
 start_address
@@ -1097,7 +1079,6 @@ load_bias
 get_effective_load_bias
 (
 process_inspector
-pid
 &
 ehdr
 map

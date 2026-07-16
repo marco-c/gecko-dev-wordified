@@ -6648,7 +6648,7 @@ if
 cfg
 !
 (
-musl32_time64
+musl_redir_time64
 )
 {
 0x102
@@ -11594,7 +11594,7 @@ cfg_attr
 (
 any
 (
-musl32_time64
+musl_redir_time64
 gnu_time_bits64
 )
 link_name
@@ -11981,7 +11981,7 @@ __futimes64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -12796,7 +12796,7 @@ __settimeofday64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -12845,7 +12845,7 @@ __sem_timedwait64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -12975,7 +12975,7 @@ __ppoll64
 [
 cfg_attr
 (
-musl32_time64
+musl_redir_time64
 link_name
 =
 "
@@ -13784,7 +13784,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =
@@ -13823,7 +13823,7 @@ cfg_attr
 any
 (
 gnu_time_bits64
-musl32_time64
+musl_redir_time64
 )
 link_name
 =

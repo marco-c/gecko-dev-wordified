@@ -5829,6 +5829,14 @@ c_int
 ;
 pub
 const
+IP_MINTTL
+:
+c_int
+=
+66
+;
+pub
+const
 IPV6_RECVHOPLIMIT
 :
 c_int

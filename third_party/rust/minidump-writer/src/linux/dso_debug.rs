@@ -793,9 +793,6 @@ buffer
 &
 mut
 Buffer
-blamed_thread
-:
-i32
 auxv
 :
 &
@@ -871,7 +868,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-blamed_thread
 phdr
 SIZEOF_PHDR
 *
@@ -1195,7 +1191,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-blamed_thread
 dyn_addr
 as
 usize
@@ -1427,7 +1422,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-blamed_thread
 r_debug
 std
 :
@@ -1549,7 +1543,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-blamed_thread
 curr_map
 std
 :
@@ -1779,7 +1772,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-blamed_thread
 map
 .
 l_name
@@ -1995,7 +1987,6 @@ MinidumpWriter
 copy_from_process
 (
 process_inspector
-blamed_thread
 dyn_addr
 as
 usize
