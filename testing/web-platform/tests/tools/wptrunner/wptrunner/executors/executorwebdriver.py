@@ -7642,6 +7642,11 @@ type
 path
 value
 )
+[
+"
+extension
+"
+]
     
 def
 uninstall_web_extension
