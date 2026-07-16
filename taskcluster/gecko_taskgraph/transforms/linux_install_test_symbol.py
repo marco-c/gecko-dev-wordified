@@ -120,6 +120,16 @@ inst
 -
 rpm
 "
+    
+"
+flatpak
+"
+:
+"
+inst
+-
+flatpak
+"
 }
 transforms
 =
