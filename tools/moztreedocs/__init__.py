@@ -677,7 +677,7 @@ main_path
 "
 index
 .
-rst
+md
 "
 )
         
@@ -1753,7 +1753,7 @@ staging_dir
 "
 index
 .
-rst
+md
 "
 )
 "
