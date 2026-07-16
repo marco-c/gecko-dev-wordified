@@ -4456,9 +4456,6 @@ mConnectionInfo
 mRequestHead
 mUploadStream
 mReqContentLength
-LoadUploadStreamHasHeaders
-(
-)
 mCurrentEventTarget
 callbacks
 this

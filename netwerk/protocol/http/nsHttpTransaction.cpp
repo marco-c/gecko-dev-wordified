@@ -1471,8 +1471,6 @@ nsIInputStream
 requestBody
 uint64_t
 requestContentLength
-bool
-requestBodyHasHeaders
 nsIEventTarget
 *
 target
@@ -1922,7 +1920,7 @@ requestHead
 !
 !
 requestBody
-requestBodyHasHeaders
+false
 cinfo
 -
 >

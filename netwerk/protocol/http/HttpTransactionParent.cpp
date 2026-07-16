@@ -969,8 +969,6 @@ nsIInputStream
 requestBody
 uint64_t
 requestContentLength
-bool
-requestBodyHasHeaders
 nsIEventTarget
 *
 target
@@ -1326,7 +1324,6 @@ infoArgs
 requestHead
 ipcStream
 requestContentLength
-requestBodyHasHeaders
 browserId
 trafficCategory
 requestContextID
@@ -1363,7 +1360,7 @@ requestHead
 !
 !
 requestBody
-requestBodyHasHeaders
+false
 cinfo
 -
 >

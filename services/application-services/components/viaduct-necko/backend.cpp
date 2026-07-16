@@ -4219,7 +4219,6 @@ nsDependentCString
 (
 methodStr
 )
-false
 )
 ;
 if

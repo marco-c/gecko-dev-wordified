@@ -17192,16 +17192,6 @@ optionalCorsPreflightArgs
 ;
 openArgs
 .
-uploadStreamHasHeaders
-(
-)
-=
-LoadUploadStreamHasHeaders
-(
-)
-;
-openArgs
-.
 priority
 (
 )

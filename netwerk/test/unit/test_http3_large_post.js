@@ -1087,13 +1087,6 @@ aContentLength
 "
 POST
 "
-/
-*
-aStreamHasHeaders
-=
-*
-/
-false
 )
 ;
 }

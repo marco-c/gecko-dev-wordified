@@ -6053,12 +6053,6 @@ bodyStream
 contentType
 bodyLength
 method
-false
-/
-*
-aStreamHasHeaders
-*
-/
 )
 ;
 NS_ENSURE_SUCCESS

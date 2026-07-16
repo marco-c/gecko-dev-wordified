@@ -2474,7 +2474,6 @@ Method
 ToCString
 (
 )
-false
 )
 ;
 NS_ENSURE_SUCCESS

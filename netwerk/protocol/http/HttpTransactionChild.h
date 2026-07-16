@@ -417,10 +417,6 @@ uint64_t
 &
 aReqContentLength
 const
-bool
-&
-aReqBodyIncludesHeaders
-const
 uint64_t
 &
 aTopLevelOuterContentWindowId
@@ -657,8 +653,6 @@ bug
 1277681
 uint64_t
 requestContentLength
-bool
-requestBodyHasHeaders
 uint64_t
 topLevelOuterContentWindowId
 HttpTrafficCategory
