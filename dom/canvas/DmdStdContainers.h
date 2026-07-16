@@ -314,7 +314,6 @@ std
 :
 equal_to
 <
-Key
 >
 class
 Allocator
@@ -418,7 +417,6 @@ std
 :
 equal_to
 <
-Key
 >
 class
 Allocator

@@ -286,7 +286,6 @@ std
 :
 greater
 <
-nsString
 >
 >
 ;
@@ -346,7 +345,6 @@ std
 :
 greater
 <
-nsCString
 >
 >
 ;
@@ -400,7 +398,6 @@ std
 :
 greater
 <
-nsCString
 >
 >
 ;
