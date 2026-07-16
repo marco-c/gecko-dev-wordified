@@ -799,6 +799,11 @@ WasmComponent
 \
 _
 (
+WasmComponentInstanceInstance
+)
+\
+_
+(
 WasmTableTable
 )
 \
