@@ -591,7 +591,7 @@ in
 Value
 :
 :
-bitsFromDouble
+setDouble
 but
 is
 not
