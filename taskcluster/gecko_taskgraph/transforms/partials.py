@@ -78,7 +78,12 @@ util
 .
 attributes
 import
+(
+    
+copy_attributes_from_dependent_job
+    
 release_level
+)
 from
 taskgraph
 .
@@ -111,14 +116,6 @@ util
 treeherder
 import
 inherit_treeherder_from_dep
-from
-gecko_taskgraph
-.
-util
-.
-attributes
-import
-copy_attributes_from_dependent_job
 from
 gecko_taskgraph
 .
