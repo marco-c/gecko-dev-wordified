@@ -75,6 +75,11 @@ h
 #
 include
 <
+string
+>
+#
+include
+<
 windows
 .
 h
@@ -85,11 +90,6 @@ include
 wrl
 .
 h
->
-#
-include
-<
-string
 >
 #
 include

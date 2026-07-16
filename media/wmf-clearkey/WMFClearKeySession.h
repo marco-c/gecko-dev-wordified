@@ -86,6 +86,13 @@ h
 #
 include
 "
+content_decryption_module
+.
+h
+"
+#
+include
+"
 MFCDMExtra
 .
 h
@@ -101,13 +108,6 @@ h
 include
 "
 WMFClearKeyUtils
-.
-h
-"
-#
-include
-"
-content_decryption_module
 .
 h
 "
