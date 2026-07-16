@@ -192,13 +192,6 @@ for
 internal
 testing
 .
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 ValidationCanary

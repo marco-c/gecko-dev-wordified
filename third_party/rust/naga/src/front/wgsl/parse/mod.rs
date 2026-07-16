@@ -2342,13 +2342,6 @@ whole
 parser
 run
 .
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 Options
@@ -2435,13 +2428,6 @@ all
 }
 }
 }
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 Parser

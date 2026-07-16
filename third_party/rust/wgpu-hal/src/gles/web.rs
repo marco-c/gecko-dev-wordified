@@ -81,13 +81,6 @@ the
 EGL
 implementation
 .
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 AdapterContext

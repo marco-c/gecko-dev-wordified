@@ -686,7 +686,6 @@ derive
 (
 Clone
 Copy
-Debug
 )
 ]
 pub
@@ -1398,13 +1397,6 @@ when
 writing
 the
 function
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 struct
 FunctionCtx
@@ -3192,13 +3184,6 @@ for
 ray
 queries
 .
-#
-[
-derive
-(
-Debug
-)
-]
 #
 [
 repr

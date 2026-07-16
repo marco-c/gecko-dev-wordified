@@ -84,7 +84,7 @@ track
 :
 :
 {
-QuerySetTracker
+StatelessTracker
 TrackerIndex
 }
 FastHashMap
@@ -2163,7 +2163,10 @@ tracker
 :
 &
 mut
-QuerySetTracker
+StatelessTracker
+<
+QuerySet
+>
 query_index
 :
 u32
@@ -2497,7 +2500,10 @@ tracker
 :
 &
 mut
-QuerySetTracker
+StatelessTracker
+<
+QuerySet
+>
 device
 :
 &

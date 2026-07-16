@@ -176,7 +176,6 @@ rule
 derive
 (
 Clone
-Debug
 )
 ]
 pub

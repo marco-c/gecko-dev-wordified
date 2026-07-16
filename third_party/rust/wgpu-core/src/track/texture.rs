@@ -3278,13 +3278,11 @@ push
 (
 tex
 .
-try_inner
+inner
+.
+get
 (
 snatch_guard
-)
-.
-ok
-(
 )
 )
 ;

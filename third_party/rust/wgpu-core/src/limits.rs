@@ -1779,10 +1779,6 @@ issues
 8122
 >
 .
-pub
-(
-crate
-)
 const
 EXEMPT_FEATURES
 :
@@ -2605,9 +2601,6 @@ max_storage_buffer_binding_size
 /
 1
 GB
-max_storage_buffers_per_shader_stage
-:
-9
 max_vertex_attributes
 :
 31

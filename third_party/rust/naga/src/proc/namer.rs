@@ -696,7 +696,6 @@ backend
 [
 derive
 (
-Debug
 Default
 )
 ]

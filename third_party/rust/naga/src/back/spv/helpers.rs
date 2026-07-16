@@ -1602,13 +1602,6 @@ unwrap
 }
 }
 }
-#
-[
-derive
-(
-Debug
-)
-]
 pub
 enum
 BindingDecorations

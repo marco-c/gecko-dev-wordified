@@ -1014,15 +1014,6 @@ TextureFormat
 :
 :
 Bgra8UnormSrgb
-color_space
-:
-wgpu_types
-:
-:
-SurfaceColorSpace
-:
-:
-Srgb
 extent
 :
 wgpu_types
