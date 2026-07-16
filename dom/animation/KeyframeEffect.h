@@ -1085,7 +1085,6 @@ ErrorResult
 &
 aRv
 )
-const
 ;
 void
 GetProperties
