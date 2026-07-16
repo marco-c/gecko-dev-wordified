@@ -4857,7 +4857,12 @@ NewPlainObjectWithProto
 (
 cx
 proto
+{
+.
+newKind
+=
 TenuredObject
+}
 )
 ;
 }
@@ -5388,7 +5393,12 @@ NewPlainObjectWithProto
 (
 cx
 nullptr
+{
+.
+newKind
+=
 TenuredObject
+}
 )
 ;
 if

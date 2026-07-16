@@ -2639,7 +2639,12 @@ NewPlainObjectWithProto
 (
 cx
 objProto
+{
+.
+newKind
+=
 TenuredObject
+}
 )
 )
 ;

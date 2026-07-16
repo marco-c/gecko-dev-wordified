@@ -5207,7 +5207,12 @@ NewPlainObjectWithProto
 (
 cx
 nullptr
+{
+.
+newKind
+=
 TenuredObject
+}
 )
 )
 ;

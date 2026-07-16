@@ -33658,10 +33658,15 @@ propCount
 )
 ;
 return
-NewPlainObjectWithAllocKind
+NewPlainObject
 (
 cx
+{
+.
 allocKind
+=
+allocKind
+}
 )
 ;
 }

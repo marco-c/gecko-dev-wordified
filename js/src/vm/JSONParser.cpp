@@ -5498,7 +5498,12 @@ fromMarkedLocation
 (
 properties
 )
+{
+.
 newKind
+=
+newKind
+}
 )
 ;
 if

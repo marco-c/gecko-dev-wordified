@@ -5690,9 +5690,13 @@ PlainObject
 holder
 (
 cx
-NewPlainObjectWithAllocKind
+NewPlainObject
 (
 cx
+{
+.
+allocKind
+=
 gc
 :
 :
@@ -5700,6 +5704,7 @@ AllocKind
 :
 :
 OBJECT2
+}
 )
 )
 ;
