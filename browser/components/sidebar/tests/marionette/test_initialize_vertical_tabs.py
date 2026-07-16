@@ -899,14 +899,6 @@ horiz_tab_ids
 [
                 
 "
-firefox
--
-view
--
-button
-"
-                
-"
 tabbrowser
 -
 tabs
