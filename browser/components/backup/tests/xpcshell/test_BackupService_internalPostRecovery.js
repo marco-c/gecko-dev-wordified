@@ -175,7 +175,7 @@ archivePath
 await
 bs
 .
-getBackupFileInfo
+loadBackupFileInfo
 (
 testBackupPath
 )
