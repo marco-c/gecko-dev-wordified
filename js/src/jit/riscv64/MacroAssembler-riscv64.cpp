@@ -33301,10 +33301,16 @@ if
 (
 is_int12
 (
+int32_t
+(
 -
+uint32_t
+(
 rt
 .
 value
+)
+)
 )
 )
 {
@@ -33344,9 +33350,16 @@ if
 (
 is_two_int12
 (
+int32_t
+(
+-
+uint32_t
+(
 rt
 .
 value
+)
+)
 )
 )
 {
@@ -33358,6 +33371,7 @@ second
 =
 ToTwoInt12
 (
+-
 rt
 .
 value
@@ -33367,7 +33381,6 @@ addiw
 (
 rd
 rs
--
 first
 )
 ;
@@ -33375,7 +33388,6 @@ addiw
 (
 rd
 rd
--
 second
 )
 ;
@@ -33473,6 +33485,7 @@ if
 (
 is_two_int12
 (
+-
 rt
 .
 value
@@ -33487,6 +33500,7 @@ second
 =
 ToTwoInt12
 (
+-
 rt
 .
 value
@@ -33496,7 +33510,6 @@ addi
 (
 rd
 rs
--
 first
 )
 ;
@@ -33504,7 +33517,6 @@ addi
 (
 rd
 rd
--
 second
 )
 ;
