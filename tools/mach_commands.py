@@ -2185,6 +2185,8 @@ Command
 (
     
 "
+firefox
+-
 devtools
 -
 mcp
