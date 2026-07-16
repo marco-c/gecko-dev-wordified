@@ -1976,9 +1976,6 @@ Create
 |
 .
 EncryptedRandomAccessStream
-<
-CipherStrategy
->
 (
 MovingNotNull
 <
