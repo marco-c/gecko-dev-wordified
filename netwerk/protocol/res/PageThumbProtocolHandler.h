@@ -196,6 +196,16 @@ child
 .
 *
 param
+aLoadInfo
+the
+loadinfo
+send
+from
+the
+child
+.
+*
+param
 aTerminateSender
 out
 param
@@ -284,6 +294,9 @@ NewStream
 nsIURI
 *
 aChildURI
+nsILoadInfo
+*
+aLoadInfo
 bool
 *
 aTerminateSender

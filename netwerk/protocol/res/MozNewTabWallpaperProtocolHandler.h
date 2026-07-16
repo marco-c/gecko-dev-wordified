@@ -188,6 +188,15 @@ child
 process
 *
 param
+aLoadInfo
+the
+loadinfo
+from
+the
+child
+process
+*
+param
 aTerminateSender
 set
 to
@@ -224,6 +233,9 @@ NewStream
 nsIURI
 *
 aChildURI
+nsILoadInfo
+*
+aLoadInfo
 bool
 *
 aTerminateSender
