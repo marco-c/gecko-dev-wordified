@@ -130,6 +130,16 @@ inst
 -
 flatpak
 "
+    
+"
+tarball
+"
+:
+"
+inst
+-
+tarball
+"
 }
 transforms
 =
