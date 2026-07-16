@@ -907,12 +907,6 @@ aStartIndex
 0
 &
 &
-aEndIndex
-<
-=
-INT32_MAX
-&
-&
 aStartIndex
 <
 =
