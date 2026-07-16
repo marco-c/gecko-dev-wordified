@@ -2400,7 +2400,7 @@ ComparePoints
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 aNewBoundaryInFlat
@@ -2423,7 +2423,7 @@ ComparePoints
 TreeKind
 :
 :
-Flat
+FlatForSelection
 >
 (
 otherSideExistingCrossShadowBoundaryBoundaryInFlat
@@ -21768,7 +21768,7 @@ GetTreeKind
 TreeKind
 :
 :
-Flat
+FlatForSelection
 )
 ;
 nsINode
