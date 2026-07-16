@@ -191,7 +191,7 @@ open
 "
 README
 .
-md
+rst
 "
 )
 .
