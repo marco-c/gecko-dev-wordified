@@ -54,6 +54,10 @@ MPL
 /
 .
 from
+mozfile
+import
+which
+from
 mozboot
 .
 base
@@ -153,10 +157,30 @@ watchman
         
 #
 awk
-might
+may
+already
 be
+pulled
+in
+transitively
+;
+only
+request
+it
+when
 missing
+.
         
+if
+not
+which
+(
+"
+awk
+"
+)
+:
+            
 packages
 +
 =
