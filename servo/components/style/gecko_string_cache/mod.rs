@@ -1986,6 +1986,7 @@ lowercase
 [
 inline
 ]
+pub
 fn
 is_ascii_lowercase
 (
@@ -3693,6 +3694,9 @@ string
 )
 }
 }
+malloc_size_of
+:
+:
 malloc_size_of_is_0
 !
 (
