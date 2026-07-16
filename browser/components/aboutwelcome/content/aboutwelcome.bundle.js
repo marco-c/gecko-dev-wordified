@@ -1643,6 +1643,14 @@ map
 filtered
 =
 >
+filtered
+.
+id
+=
+=
+=
+LANGUAGE_MISMATCH_SCREEN_ID
+?
 screens
 .
 find
@@ -1662,6 +1670,8 @@ id
 )
 ?
 ?
+filtered
+:
 filtered
 )
 )
@@ -6895,6 +6905,8 @@ activeSelections
 props
 .
 activeMultiSelect
+?
+.
 [
 multiSelectId
 ]
@@ -7090,6 +7102,10 @@ values
 props
 .
 activeMultiSelect
+|
+|
+{
+}
 )
 )
 {
