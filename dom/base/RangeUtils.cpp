@@ -235,7 +235,7 @@ CompareNodeToRangeBoundaries
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 const
@@ -291,7 +291,7 @@ CompareNodeToRangeBoundaries
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 const
@@ -347,7 +347,7 @@ CompareNodeToRangeBoundaries
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 const
@@ -403,7 +403,7 @@ CompareNodeToRangeBoundaries
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 const
@@ -456,7 +456,7 @@ CompareNodeToRange
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 const
@@ -508,7 +508,7 @@ IsNodeContainedInRange
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 const
@@ -1136,7 +1136,7 @@ GetTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 ?
 nsContentUtils
 :
@@ -1146,7 +1146,7 @@ ComparePoints
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 aStartBoundary
@@ -1701,7 +1701,7 @@ aKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 ?
 AllowRangeCrossShadowBoundary
 :
@@ -1808,7 +1808,7 @@ aKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 {
 /

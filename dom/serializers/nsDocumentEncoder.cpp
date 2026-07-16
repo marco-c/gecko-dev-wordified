@@ -7933,7 +7933,7 @@ Yes
 nsContentUtils
 :
 :
-GetFlattenedTreeAncestorsAndOffsetsForSelection
+GetFlattenedTreeAncestorsAndOffsets
 (
 startContainer
 startOffset
@@ -7944,7 +7944,7 @@ inclusiveAncestorsOffsetsOfStart
 nsContentUtils
 :
 :
-GetFlattenedTreeAncestorsAndOffsetsForSelection
+GetFlattenedTreeAncestorsAndOffsets
 (
 endContainer
 endOffset
@@ -9016,7 +9016,7 @@ AllowCrossShadowBoundary
 TreeKind
 :
 :
-FlatForSelection
+Flat
 :
 TreeKind
 :
@@ -9140,7 +9140,7 @@ mTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 ?
 mContainer
 -
@@ -9234,7 +9234,7 @@ is
 TreeKind
 :
 :
-FlatForSelection
+Flat
 .
 *
 *
@@ -9342,7 +9342,7 @@ is
 TreeKind
 :
 :
-FlatForSelection
+Flat
 .
 *
 *
@@ -9689,7 +9689,7 @@ is
 TreeKind
 :
 :
-FlatForSelection
+Flat
 .
 *
 *
@@ -9770,7 +9770,7 @@ is
 TreeKind
 :
 :
-FlatForSelection
+Flat
 .
 *
 *
@@ -11399,7 +11399,7 @@ returns
 TreeKind
 :
 :
-FlatForSelection
+Flat
 what
 should
 we
@@ -11410,10 +11410,10 @@ result
 may
 cross
 the
-/
-/
 shadow
 DOM
+/
+/
 boundaries
 even
 though
@@ -11435,7 +11435,7 @@ GetTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 &
 &
 ref
@@ -11525,7 +11525,7 @@ GetTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 &
 &
 ref
@@ -14315,7 +14315,7 @@ GetTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 {
 if
@@ -14495,7 +14495,7 @@ GetTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 ?
 containerContent
 -
@@ -14717,7 +14717,7 @@ GetTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 {
 if
@@ -14938,7 +14938,7 @@ aKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 {
 /
@@ -15437,7 +15437,7 @@ GetTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 {
 FlattenedChildIteratorForSelection
@@ -15767,7 +15767,7 @@ GetTreeKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 )
 {
 FlattenedChildIteratorForSelection

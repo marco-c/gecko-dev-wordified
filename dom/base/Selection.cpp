@@ -6038,7 +6038,7 @@ aKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 >
 static
@@ -6223,7 +6223,7 @@ aKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 >
 static
@@ -6286,7 +6286,7 @@ aKind
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 >
 static
@@ -6441,7 +6441,7 @@ ComparePoints
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 aCompareBoundary
@@ -7006,7 +7006,7 @@ CompareToRangeStart
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 range
@@ -7037,7 +7037,7 @@ CompareToRangeEnd
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 range
@@ -9625,7 +9625,7 @@ CompareToRangeStart
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 )
 ;
@@ -11185,7 +11185,7 @@ ComparePoints
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 range
@@ -11294,7 +11294,7 @@ CompareToRangeStart
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 a
@@ -11490,7 +11490,7 @@ CompareToRangeStart
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 )
 ;
@@ -11686,7 +11686,7 @@ CompareToRangeEnd
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 )
 ;
@@ -20958,7 +20958,7 @@ ComparePointsWithIndices
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 aNode1
@@ -28195,7 +28195,7 @@ ComparePoints
 TreeKind
 :
 :
-FlatForSelection
+Flat
 >
 (
 aAnchorRef
