@@ -9497,6 +9497,7 @@ WalkInlineDescendantsToReflowAbsoluteFrames
 kid
 aPresContext
 aReflowInput
+aReflowOutput
 aStatus
 )
 )
@@ -9670,6 +9671,10 @@ const
 ReflowInput
 &
 aReflowInput
+const
+ReflowOutput
+&
+aReflowOutput
 nsReflowStatus
 &
 aStatus
@@ -9840,6 +9845,7 @@ WalkInlineDescendantsToReflowAbsoluteFrames
 kid
 aPresContext
 aReflowInput
+aReflowOutput
 aStatus
 )
 )
@@ -9915,6 +9921,7 @@ ReflowAbsoluteFramesInInlineFrame
 inlineFrame
 aPresContext
 aReflowInput
+aReflowOutput
 aStatus
 )
 )
@@ -10050,6 +10057,10 @@ const
 ReflowInput
 &
 aReflowInput
+const
+ReflowOutput
+&
+aReflowOutput
 nsReflowStatus
 &
 aStatus
