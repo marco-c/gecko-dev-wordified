@@ -521,6 +521,8 @@ expression_list
 "
 \
 n
+#
++
 "
 +
 identifier
@@ -528,37 +530,6 @@ identifier
 "
 \
 n
-(
-?
-:
-(
-?
-:
-(
-?
-:
--
-+
-\
-n
-)
-+
-)
-|
-(
-?
-:
-(
-?
-:
-.
-+
-\
-n
-)
-+
-)
-)
 "
             
 for
@@ -680,7 +651,7 @@ transforms
 /
 job
 .
-rst
+md
 "
         
 identifiers
@@ -741,7 +712,7 @@ filename
 "
 parameters
 .
-rst
+md
 "
         
 identifiers
@@ -782,7 +753,7 @@ filename
 "
 kinds
 .
-rst
+md
 "
 identifiers
 =
@@ -830,7 +801,7 @@ filename
 "
 attributes
 .
-rst
+md
 "
             
 identifiers
