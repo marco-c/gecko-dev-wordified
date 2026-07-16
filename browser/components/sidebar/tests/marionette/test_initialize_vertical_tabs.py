@@ -1649,9 +1649,7 @@ which
 is
 hide
 -
-on
--
-close
+sidebar
         
 fixture_prefs
 [
@@ -1725,9 +1723,7 @@ pref_value
 "
 hide
 -
-on
--
-close
+sidebar
 "
 )
     
