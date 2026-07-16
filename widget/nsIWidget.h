@@ -8510,6 +8510,12 @@ return
 false
 ;
 }
+void
+SetIsTiled
+(
+bool
+)
+;
 /
 *
 *

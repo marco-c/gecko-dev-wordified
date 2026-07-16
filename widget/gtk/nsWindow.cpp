@@ -24441,14 +24441,15 @@ endif
 /
 ACCESSIBILITY
 }
-mIsTiled
-=
+SetIsTiled
+(
 aEvent
 -
 >
 new_window_state
 &
 GDK_WINDOW_STATE_TILED
+)
 ;
 LOG
 (
