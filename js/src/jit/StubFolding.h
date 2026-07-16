@@ -153,6 +153,13 @@ icScript
 ICFallbackStub
 *
 fallback
+const
+gc
+:
+:
+AutoMarkingLock
+&
+lock
 )
 ;
 }

@@ -1040,6 +1040,7 @@ zone
 )
 &
 entry
+lock_
 )
 ;
 /

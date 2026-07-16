@@ -3473,6 +3473,18 @@ ICStubSpace
 newStubSpace
 )
 {
+gc
+:
+:
+AutoMarkingLock
+lock
+(
+zone
+markingLock
+(
+)
+)
+;
 for
 (
 size_t
@@ -3869,6 +3881,7 @@ discardStubs
 zone
 &
 entry
+lock
 )
 ;
 fallback
