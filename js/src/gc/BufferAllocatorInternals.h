@@ -2406,9 +2406,16 @@ Zone
 >
 zone
 ;
-MainThreadOrGCTaskData
+mozilla
+:
+:
+Atomic
 <
 bool
+mozilla
+:
+:
+Relaxed
 >
 allocatedDuringCollection
 ;
