@@ -152,6 +152,8 @@ Path
 :
     
 return
+(
+        
 Path
 (
 get_state_dir
@@ -161,12 +163,25 @@ specific_to_topsrcdir
 False
 )
 )
+        
 /
 "
-tc_credentials
+cache
+"
+        
+/
+"
+taskcluster
+"
+        
+/
+"
+credentials
 .
 json
 "
+    
+)
 def
 _scopes_key
 (
