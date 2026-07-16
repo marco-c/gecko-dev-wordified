@@ -335,10 +335,6 @@ int64_t
 &
 contentLength
 const
-bool
-&
-wasFileChannel
-const
 nsACString
 &
 aContentDispositionHeader

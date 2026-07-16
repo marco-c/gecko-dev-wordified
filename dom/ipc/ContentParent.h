@@ -5832,10 +5832,6 @@ const
 int64_t
 &
 aContentLength
-const
-bool
-&
-aWasFileChannel
 nsIURI
 *
 aReferrer
@@ -5891,10 +5887,6 @@ const
 int64_t
 &
 aContentLength
-const
-bool
-&
-aWasFileChannel
 nsIURI
 *
 aReferrer
