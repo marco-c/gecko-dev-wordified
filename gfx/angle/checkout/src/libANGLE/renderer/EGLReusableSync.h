@@ -98,13 +98,6 @@ public
 :
 ReusableSync
 (
-const
-egl
-:
-:
-AttributeMap
-&
-attribs
 )
 ;
 ~
@@ -148,6 +141,13 @@ Context
 context
 EGLenum
 type
+const
+egl
+:
+:
+AttributeMap
+&
+attribs
 )
 override
 ;

@@ -426,6 +426,17 @@ subject
 ;
 if
 (
+subject
+=
+=
+mSubject
+)
+{
+return
+;
+}
+if
+(
 mSubject
 )
 {

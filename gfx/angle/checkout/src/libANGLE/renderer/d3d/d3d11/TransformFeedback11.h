@@ -303,7 +303,7 @@ getSOBufferOffsets
 )
 const
 ;
-Serial
+UniqueSerial
 getSerial
 (
 )
@@ -337,7 +337,7 @@ UINT
 >
 mBufferOffsets
 ;
-Serial
+UniqueSerial
 mSerial
 ;
 }

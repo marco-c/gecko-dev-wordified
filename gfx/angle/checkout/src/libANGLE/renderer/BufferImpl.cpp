@@ -144,6 +144,14 @@ BufferUsage
 usage
 GLbitfield
 flags
+gl
+:
+:
+BufferStorage
+bufferStorage
+BufferFeedback
+*
+feedback
 )
 {
 return
@@ -154,6 +162,7 @@ target
 data
 size
 usage
+feedback
 )
 ;
 }

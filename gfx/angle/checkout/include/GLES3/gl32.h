@@ -22,7 +22,7 @@ endif
 Copyright
 2013
 -
-2020
+2026
 The
 Khronos
 Group
@@ -130,7 +130,7 @@ endif
 Generated
 on
 date
-20191013
+20260319
 *
 /
 /
@@ -2943,7 +2943,7 @@ GLuint
 *
 shaders
 GLenum
-binaryformat
+binaryFormat
 const
 void
 *
@@ -4942,7 +4942,7 @@ GLuint
 *
 shaders
 GLenum
-binaryformat
+binaryFormat
 const
 void
 *
@@ -8245,7 +8245,7 @@ sync
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLsizei
 *
 length
@@ -8673,7 +8673,7 @@ internalformat
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLint
 *
 params
@@ -9866,7 +9866,7 @@ sync
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLsizei
 *
 length
@@ -10240,7 +10240,7 @@ internalformat
 GLenum
 pname
 GLsizei
-bufSize
+count
 GLint
 *
 params
@@ -11121,7 +11121,7 @@ GLenum
 *
 props
 GLsizei
-bufSize
+count
 GLsizei
 *
 length
@@ -12300,7 +12300,7 @@ GLenum
 *
 props
 GLsizei
-bufSize
+count
 GLsizei
 *
 length

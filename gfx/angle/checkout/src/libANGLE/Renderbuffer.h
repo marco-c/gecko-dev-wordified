@@ -718,6 +718,12 @@ imageIndex
 const
 override
 ;
+bool
+isEGLImageSource
+(
+)
+const
+;
 void
 onAttach
 (
@@ -728,7 +734,7 @@ context
 rx
 :
 :
-Serial
+UniqueSerial
 framebufferSerial
 )
 override
@@ -743,7 +749,7 @@ context
 rx
 :
 :
-Serial
+UniqueSerial
 framebufferSerial
 )
 override

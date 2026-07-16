@@ -57,6 +57,14 @@ Buffer11
 classes
 .
 #
+ifdef
+UNSAFE_BUFFERS_BUILD
+#
+pragma
+allow_unsafe_buffers
+#
+endif
+#
 include
 "
 libANGLE
@@ -258,6 +266,9 @@ gl
 :
 BufferUsage
 usage
+BufferFeedback
+*
+feedback
 )
 {
 switch
@@ -338,6 +349,7 @@ STATIC
 initializeStaticData
 (
 context
+feedback
 )
 ;
 break
@@ -390,6 +402,9 @@ gl
 Context
 *
 context
+BufferFeedback
+*
+feedback
 )
 {
 if
@@ -854,6 +869,9 @@ gl
 Context
 *
 context
+BufferFeedback
+*
+feedback
 )
 {
 emptyStaticBufferCache
@@ -928,6 +946,7 @@ STATIC
 initializeStaticData
 (
 context
+feedback
 )
 ;
 }
@@ -964,6 +983,9 @@ Context
 context
 size_t
 dataSize
+BufferFeedback
+*
+feedback
 )
 {
 if
@@ -1024,6 +1046,7 @@ BufferUsage
 :
 :
 StaticDraw
+feedback
 )
 ;
 }

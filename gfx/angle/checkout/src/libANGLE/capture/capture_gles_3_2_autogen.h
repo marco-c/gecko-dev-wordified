@@ -114,6 +114,20 @@ FrameCapture
 .
 h
 "
+#
+ifdef
+ANGLE_ENABLE_CL
+#
+include
+"
+common
+/
+PackedCLEnums_autogen
+.
+h
+"
+#
+endif
 namespace
 gl
 {
@@ -643,8 +657,8 @@ bool
 isCallValid
 SamplerID
 samplerPacked
-GLenum
-pname
+SamplerParameter
+pnamePacked
 GLint
 *
 params
@@ -664,8 +678,8 @@ bool
 isCallValid
 SamplerID
 samplerPacked
-GLenum
-pname
+SamplerParameter
+pnamePacked
 GLuint
 *
 params
@@ -997,8 +1011,8 @@ bool
 isCallValid
 SamplerID
 samplerPacked
-GLenum
-pname
+SamplerParameter
+pnamePacked
 const
 GLint
 *
@@ -1019,8 +1033,8 @@ bool
 isCallValid
 SamplerID
 samplerPacked
-GLenum
-pname
+SamplerParameter
+pnamePacked
 const
 GLuint
 *
@@ -1154,8 +1168,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLDEBUGPROC
 callback
 const
@@ -1177,8 +1189,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 source
 GLenum
@@ -1208,8 +1218,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 source
 GLenum
@@ -1239,8 +1247,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 PrimitiveMode
 modePacked
 GLsizei
@@ -1268,8 +1274,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 PrimitiveMode
 modePacked
 GLsizei
@@ -1299,8 +1303,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 PrimitiveMode
 modePacked
 GLuint
@@ -1332,8 +1334,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLuint
 count
 GLsizei
@@ -1371,8 +1371,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLuint
 count
 GLsizei
@@ -1410,8 +1408,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLuint
 count
 GLsizei
@@ -1449,8 +1445,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLuint
 count
 GLsizei
@@ -1488,8 +1482,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLuint
 count
 GLsizei
@@ -1527,8 +1519,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLuint
 count
 GLsizei
@@ -1566,8 +1556,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 identifier
 GLuint
@@ -1595,8 +1583,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 identifier
 GLuint
@@ -1624,8 +1610,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 const
 void
 *
@@ -1653,8 +1637,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 const
 void
 *
@@ -1682,8 +1664,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 const
 void
 *
@@ -1711,8 +1691,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 pname
 void
@@ -1734,12 +1712,10 @@ const
 State
 &
 glState
-bool
-isCallValid
 SamplerID
 samplerPacked
-GLenum
-pname
+SamplerParameter
+pnamePacked
 GLint
 *
 params
@@ -1758,12 +1734,10 @@ const
 State
 &
 glState
-bool
-isCallValid
 SamplerID
 samplerPacked
-GLenum
-pname
+SamplerParameter
+pnamePacked
 GLuint
 *
 params
@@ -1782,8 +1756,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 TextureType
 targetPacked
 GLenum
@@ -1806,8 +1778,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 TextureType
 targetPacked
 GLenum
@@ -1830,8 +1800,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -1856,8 +1824,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -1882,8 +1848,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 ShaderProgramID
 programPacked
 UniformLocation
@@ -1908,8 +1872,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 identifier
 GLuint
@@ -1935,8 +1897,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 const
 void
 *
@@ -1962,8 +1922,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 const
 void
 *
@@ -1989,8 +1947,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLenum
 source
 GLuint
@@ -2016,8 +1972,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 GLint
 x
 GLint
@@ -2050,12 +2004,10 @@ const
 State
 &
 glState
-bool
-isCallValid
 SamplerID
 samplerPacked
-GLenum
-pname
+SamplerParameter
+pnamePacked
 const
 GLint
 *
@@ -2075,12 +2027,10 @@ const
 State
 &
 glState
-bool
-isCallValid
 SamplerID
 samplerPacked
-GLenum
-pname
+SamplerParameter
+pnamePacked
 const
 GLuint
 *
@@ -2100,8 +2050,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 TextureType
 targetPacked
 GLenum
@@ -2125,8 +2073,6 @@ const
 State
 &
 glState
-bool
-isCallValid
 TextureType
 targetPacked
 GLenum
