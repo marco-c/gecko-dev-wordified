@@ -99,13 +99,6 @@ h
 #
 include
 "
-Geolocation
-.
-h
-"
-#
-include
-"
 HandlerServiceChild
 .
 h
@@ -1317,6 +1310,13 @@ h
 include
 "
 nsFocusManager
+.
+h
+"
+#
+include
+"
+nsGeolocationService
 .
 h
 "
@@ -4338,8 +4338,8 @@ push
 pragma
 warning
 (
-disable
 \
+disable
 :
 4722
 )
