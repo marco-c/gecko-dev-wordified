@@ -27,13 +27,6 @@ helpers
 sub
 .
 js
-test
-(
-(
-)
-=
->
-{
 const
 params
 =
@@ -138,11 +131,9 @@ toString
 (
 )
 ;
-window
-.
-location
-.
-replace
+fetch_tests_from_window
+(
+openWindow
 (
 new
 URL
@@ -153,7 +144,5 @@ window
 location
 )
 )
-;
-}
 )
 ;

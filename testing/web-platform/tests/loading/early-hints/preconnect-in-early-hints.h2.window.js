@@ -27,13 +27,6 @@ helpers
 sub
 .
 js
-test
-(
-(
-)
-=
->
-{
 const
 resource_origin
 =
@@ -116,11 +109,9 @@ toString
 (
 )
 ;
-window
-.
-location
-.
-replace
+fetch_tests_from_window
+(
+openWindow
 (
 new
 URL
@@ -131,7 +122,5 @@ window
 location
 )
 )
-;
-}
 )
 ;

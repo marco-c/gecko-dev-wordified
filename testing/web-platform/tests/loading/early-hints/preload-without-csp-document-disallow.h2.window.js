@@ -27,13 +27,6 @@ helpers
 sub
 .
 js
-test
-(
-(
-)
-=
->
-{
 const
 early_hints_policy
 =
@@ -41,11 +34,11 @@ early_hints_policy
 absent
 "
 ;
+fetch_tests_from_window
+(
 navigateToContentSecurityPolicyDocumentDisallowTest
 (
 early_hints_policy
 )
-;
-}
 )
 ;
