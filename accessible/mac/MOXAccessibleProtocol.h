@@ -859,17 +859,6 @@ moxLinkedUIElements
 ;
 /
 /
-AXARIAControls
--
-(
-NSArray
-*
-_Nullable
-)
-moxARIAControls
-;
-/
-/
 AXDetailsElements
 -
 (

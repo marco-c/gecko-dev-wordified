@@ -1253,16 +1253,6 @@ override
 NSArray
 *
 )
-moxARIAControls
-;
-/
-/
-override
--
-(
-NSArray
-*
-)
 moxDetailsElements
 ;
 /
