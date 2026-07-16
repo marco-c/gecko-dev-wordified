@@ -4858,7 +4858,7 @@ headerFlagsFieldForTracing
 const
 {
 return
-headerFlagsField
+headerFlagsFieldAtomic
 (
 )
 ;
@@ -4872,7 +4872,7 @@ headerFlagsFieldForTracing
 const
 {
 return
-headerFlagsFieldAtomic
+headerFlagsField
 (
 )
 ;
