@@ -66,6 +66,13 @@ h
 #
 include
 "
+AccessibleRelation_i
+.
+c
+"
+#
+include
+"
 Relation
 .
 h
@@ -76,13 +83,6 @@ include
 nsID
 .
 h
-"
-#
-include
-"
-AccessibleRelation_i
-.
-c
 "
 using
 namespace

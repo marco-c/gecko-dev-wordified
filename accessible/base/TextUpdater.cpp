@@ -65,6 +65,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 CacheConstants
 .
@@ -86,11 +91,6 @@ TextLeafAccessible
 .
 h
 "
-#
-include
-<
-algorithm
->
 using
 namespace
 mozilla

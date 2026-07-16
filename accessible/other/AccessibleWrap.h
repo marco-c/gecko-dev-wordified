@@ -98,14 +98,14 @@ mozilla_a11y_AccessibleWrap_h_
 #
 include
 "
-nsCOMPtr
+LocalAccessible
 .
 h
 "
 #
 include
 "
-LocalAccessible
+nsCOMPtr
 .
 h
 "

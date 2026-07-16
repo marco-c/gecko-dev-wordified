@@ -74,9 +74,7 @@ include
 "
 mozilla
 /
-a11y
-/
-HyperTextAccessibleBase
+Utf16
 .
 h
 "
@@ -85,7 +83,9 @@ include
 "
 mozilla
 /
-Utf16
+a11y
+/
+HyperTextAccessibleBase
 .
 h
 "

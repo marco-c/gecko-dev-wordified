@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+UiaGridItem
+.
+h
+"
+#
+include
+"
 ia2AccessibleTableCell
 .
 h
@@ -82,13 +89,6 @@ mozilla
 a11y
 /
 TableCellAccessible
-.
-h
-"
-#
-include
-"
-UiaGridItem
 .
 h
 "

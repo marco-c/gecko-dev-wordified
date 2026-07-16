@@ -64,6 +64,11 @@ define
 mozilla_a11y_NotificationController_h_
 #
 include
+<
+utility
+>
+#
+include
 "
 EventQueue
 .
@@ -104,11 +109,6 @@ nsTHashSet
 .
 h
 "
-#
-include
-<
-utility
->
 #
 ifdef
 A11Y_LOG

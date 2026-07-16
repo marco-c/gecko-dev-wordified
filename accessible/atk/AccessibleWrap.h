@@ -65,14 +65,14 @@ NS_ACCESSIBLE_WRAP_H_
 #
 include
 "
-nsCOMPtr
+LocalAccessible
 .
 h
 "
 #
 include
 "
-LocalAccessible
+nsCOMPtr
 .
 h
 "

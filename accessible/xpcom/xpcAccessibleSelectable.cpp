@@ -59,6 +59,13 @@ MPL
 #
 include
 "
+xpcAccessibleSelectable
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h
@@ -81,13 +88,6 @@ h
 include
 "
 xpcAccessibleDocument
-.
-h
-"
-#
-include
-"
-xpcAccessibleSelectable
 .
 h
 "

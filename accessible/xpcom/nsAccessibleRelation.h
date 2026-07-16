@@ -65,7 +65,11 @@ _nsAccessibleRelation_H_
 #
 include
 "
-nsIAccessibleRelation
+mozilla
+/
+a11y
+/
+RemoteAccessible
 .
 h
 "
@@ -79,7 +83,7 @@ h
 #
 include
 "
-nsTArray
+nsIAccessibleRelation
 .
 h
 "
@@ -93,11 +97,7 @@ h
 #
 include
 "
-mozilla
-/
-a11y
-/
-RemoteAccessible
+nsTArray
 .
 h
 "

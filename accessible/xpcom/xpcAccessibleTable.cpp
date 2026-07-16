@@ -77,14 +77,14 @@ h
 #
 include
 "
-nsIMutableArray
+nsComponentManagerUtils
 .
 h
 "
 #
 include
 "
-nsComponentManagerUtils
+nsIMutableArray
 .
 h
 "

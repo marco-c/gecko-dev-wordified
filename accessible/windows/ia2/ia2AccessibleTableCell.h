@@ -72,13 +72,6 @@ h
 #
 include
 "
-ia2AccessibleHypertext
-.
-h
-"
-#
-include
-"
 IUnknownImpl
 .
 h
@@ -87,6 +80,13 @@ h
 include
 "
 UiaGridItem
+.
+h
+"
+#
+include
+"
+ia2AccessibleHypertext
 .
 h
 "

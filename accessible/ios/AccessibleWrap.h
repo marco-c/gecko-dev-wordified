@@ -121,14 +121,14 @@ h
 #
 include
 "
-nsCOMPtr
+LocalAccessible
 .
 h
 "
 #
 include
 "
-LocalAccessible
+nsCOMPtr
 .
 h
 "

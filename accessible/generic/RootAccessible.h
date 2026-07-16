@@ -65,14 +65,14 @@ mozilla_a11y_RootAccessible_h_
 #
 include
 "
-HyperTextAccessible
+DocAccessibleWrap
 .
 h
 "
 #
 include
 "
-DocAccessibleWrap
+HyperTextAccessible
 .
 h
 "

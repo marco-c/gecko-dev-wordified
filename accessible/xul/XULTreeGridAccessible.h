@@ -65,6 +65,13 @@ mozilla_a11y_XULTreeGridAccessible_h_
 #
 include
 "
+XULTreeAccessible
+.
+h
+"
+#
+include
+"
 mozilla
 /
 a11y
@@ -81,13 +88,6 @@ mozilla
 a11y
 /
 TableCellAccessible
-.
-h
-"
-#
-include
-"
-XULTreeAccessible
 .
 h
 "

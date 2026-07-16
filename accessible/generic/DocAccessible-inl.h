@@ -81,13 +81,6 @@ h
 #
 include
 "
-nsAccessibilityService
-.
-h
-"
-#
-include
-"
 NotificationController
 .
 h
@@ -107,6 +100,13 @@ mozilla
 dom
 /
 DocumentInlines
+.
+h
+"
+#
+include
+"
+nsAccessibilityService
 .
 h
 "

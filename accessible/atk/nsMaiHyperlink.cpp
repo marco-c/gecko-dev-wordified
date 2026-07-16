@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsMaiHyperlink
 .
 h
@@ -78,6 +71,13 @@ mozilla
 a11y
 /
 RemoteAccessible
+.
+h
+"
+#
+include
+"
+nsIURI
 .
 h
 "

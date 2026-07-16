@@ -65,13 +65,6 @@ mozilla_a11y_XULTreeAccessible_h_
 #
 include
 "
-nsITreeView
-.
-h
-"
-#
-include
-"
 XULListboxAccessible
 .
 h
@@ -84,6 +77,13 @@ mozilla
 dom
 /
 XULTreeElement
+.
+h
+"
+#
+include
+"
+nsITreeView
 .
 h
 "
