@@ -343,6 +343,14 @@ hookName
 '
 onNewPromise
 '
+&
+&
+hookName
+!
+=
+'
+onPromiseSettled
+'
 )
 {
 var
