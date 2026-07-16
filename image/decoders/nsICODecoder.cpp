@@ -115,9 +115,7 @@ include
 "
 mozilla
 /
-gfx
-/
-Swizzle
+UniquePtrExtensions
 .
 h
 "
@@ -126,7 +124,9 @@ include
 "
 mozilla
 /
-UniquePtrExtensions
+gfx
+/
+Swizzle
 .
 h
 "

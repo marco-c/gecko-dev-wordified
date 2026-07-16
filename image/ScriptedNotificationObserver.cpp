@@ -74,13 +74,6 @@ h
 #
 include
 "
-nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -89,6 +82,13 @@ h
 /
 for
 nsAutoScriptBlocker
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 namespace
 mozilla
 {

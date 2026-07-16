@@ -114,6 +114,13 @@ h
 #
 include
 "
+Orientation
+.
+h
+"
+#
+include
+"
 ShutdownTracker
 .
 h
@@ -268,13 +275,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-Orientation
 .
 h
 "

@@ -86,14 +86,14 @@ h
 #
 include
 "
-nsILoadInfo
+nsIContentPolicy
 .
 h
 "
 #
 include
 "
-nsIContentPolicy
+nsILoadInfo
 .
 h
 "

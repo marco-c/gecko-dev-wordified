@@ -65,14 +65,14 @@ mozilla_image_MultipartImage_h
 #
 include
 "
-ImageWrapper
+IProgressObserver
 .
 h
 "
 #
 include
 "
-IProgressObserver
+ImageWrapper
 .
 h
 "

@@ -73,13 +73,6 @@ h
 #
 include
 "
-png
-.
-h
-"
-#
-include
-"
 StreamingLexer
 .
 h
@@ -99,6 +92,13 @@ mozilla
 gfx
 /
 Swizzle
+.
+h
+"
+#
+include
+"
+png
 .
 h
 "

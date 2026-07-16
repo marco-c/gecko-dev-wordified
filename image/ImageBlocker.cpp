@@ -66,7 +66,9 @@ h
 #
 include
 "
-nsIPermissionManager
+mozilla
+/
+StaticPrefs_permissions
 .
 h
 "
@@ -80,9 +82,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_permissions
+nsIPermissionManager
 .
 h
 "

@@ -59,7 +59,14 @@ MPL
 #
 include
 "
-nsCRT
+nsICOEncoder
+.
+h
+"
+#
+include
+"
+BMPHeaders
 .
 h
 "
@@ -82,7 +89,7 @@ h
 #
 include
 "
-BMPHeaders
+nsCRT
 .
 h
 "
@@ -96,7 +103,7 @@ h
 #
 include
 "
-nsICOEncoder
+nsStreamUtils
 .
 h
 "
@@ -104,13 +111,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsStreamUtils
 .
 h
 "

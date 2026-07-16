@@ -65,9 +65,7 @@ mozilla_image_DynamicImage_h
 #
 include
 "
-mozilla
-/
-MemoryReporting
+Image
 .
 h
 "
@@ -81,7 +79,9 @@ h
 #
 include
 "
-Image
+mozilla
+/
+MemoryReporting
 .
 h
 "
