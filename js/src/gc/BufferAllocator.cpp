@@ -3305,11 +3305,11 @@ void
 BufferAllocatorRuntime
 :
 :
-incSweepCount
+incOffThreadCount
 (
 )
 {
-allocatorSweepCount
+offThreadAccessCount
 +
 +
 ;
@@ -3318,13 +3318,13 @@ void
 BufferAllocatorRuntime
 :
 :
-decSweepCount
+decOffThreadCount
 (
 )
 {
 MOZ_ALWAYS_TRUE
 (
-allocatorSweepCount
+offThreadAccessCount
 -
 -
 !
@@ -3343,7 +3343,7 @@ needLockToAccessBufferMap
 const
 {
 return
-allocatorSweepCount
+offThreadAccessCount
 !
 =
 0
@@ -3468,7 +3468,7 @@ checkGCStateNotInUse
 {
 MOZ_ASSERT
 (
-allocatorSweepCount
+offThreadAccessCount
 =
 =
 0
@@ -7651,7 +7651,7 @@ runtime
 )
 -
 >
-incSweepCount
+incOffThreadCount
 (
 )
 ;
@@ -8675,7 +8675,7 @@ runtime
 )
 -
 >
-incSweepCount
+incOffThreadCount
 (
 )
 ;
@@ -10503,7 +10503,7 @@ runtime
 )
 -
 >
-decSweepCount
+decOffThreadCount
 (
 )
 ;
@@ -10597,7 +10597,7 @@ runtime
 )
 -
 >
-decSweepCount
+decOffThreadCount
 (
 )
 ;
