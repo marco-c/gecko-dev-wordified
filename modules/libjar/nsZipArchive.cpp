@@ -9575,6 +9575,10 @@ next_in
 aBytesRead
 )
 ;
+buf
+=
+mBuf
+;
 mZs
 .
 avail_in
