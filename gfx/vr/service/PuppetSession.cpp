@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 VRPuppetCommandBuffer
 .
 h
@@ -76,13 +83,6 @@ include
 mozilla
 /
 StaticPrefs_dom
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "

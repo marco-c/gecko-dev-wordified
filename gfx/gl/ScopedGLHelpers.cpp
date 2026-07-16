@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-ScopedGLHelpers
-.
-h
-"
-#
-include
-"
 GLContext
 .
 h
@@ -74,6 +67,13 @@ h
 include
 "
 GLContextEGL
+.
+h
+"
+#
+include
+"
+ScopedGLHelpers
 .
 h
 "

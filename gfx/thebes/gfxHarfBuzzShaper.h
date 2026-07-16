@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsUnicodeProperties
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MruCache
@@ -93,13 +100,6 @@ include
 mozilla
 /
 RecursiveMutex
-.
-h
-"
-#
-include
-"
-nsUnicodeProperties
 .
 h
 "

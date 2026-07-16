@@ -138,7 +138,9 @@ include
 "
 mozilla
 /
-ScrollTypes
+gfx
+/
+Point
 .
 h
 "
@@ -147,9 +149,7 @@ include
 "
 mozilla
 /
-gfx
-/
-Point
+ScrollTypes
 .
 h
 "

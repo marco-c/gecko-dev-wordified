@@ -65,6 +65,13 @@ MOZILLA_GFX_VR_VRMANAGERCHILD_H
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -145,13 +152,6 @@ h
 /
 for
 LayersBackend
-#
-include
-"
-nsISupportsImpl
-.
-h
-"
 namespace
 mozilla
 {

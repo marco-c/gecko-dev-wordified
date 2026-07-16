@@ -66,13 +66,6 @@ h
 #
 include
 "
-GLContext
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -89,6 +82,13 @@ mozilla
 layers
 /
 ImageDataSerializer
+.
+h
+"
+#
+include
+"
+GLContext
 .
 h
 "

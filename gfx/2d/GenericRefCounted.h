@@ -116,7 +116,7 @@ include
 "
 mozilla
 /
-RefCounted
+RefPtr
 .
 h
 "
@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-RefPtr
+RefCounted
 .
 h
 "

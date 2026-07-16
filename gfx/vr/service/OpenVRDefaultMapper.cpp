@@ -66,14 +66,14 @@ h
 #
 include
 "
-VRSession
+moz_external_vr
 .
 h
 "
 #
 include
 "
-moz_external_vr
+VRSession
 .
 h
 "

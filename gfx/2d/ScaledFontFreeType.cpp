@@ -66,7 +66,7 @@ h
 #
 include
 "
-Logging
+UnscaledFontFreeType
 .
 h
 "
@@ -80,7 +80,7 @@ h
 #
 include
 "
-UnscaledFontFreeType
+Logging
 .
 h
 "

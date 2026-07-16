@@ -70,13 +70,6 @@ h
 #
 include
 "
-PDMFactory
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -152,7 +145,7 @@ mozilla
 /
 layers
 /
-PTextureChild
+StackingContextHelper
 .
 h
 "
@@ -163,7 +156,7 @@ mozilla
 /
 layers
 /
-StackingContextHelper
+PTextureChild
 .
 h
 "
@@ -186,6 +179,13 @@ mozilla
 webrender
 /
 WebRenderAPI
+.
+h
+"
+#
+include
+"
+PDMFactory
 .
 h
 "

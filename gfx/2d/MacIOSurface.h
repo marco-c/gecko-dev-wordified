@@ -102,7 +102,11 @@ h
 #
 include
 "
-CFTypeRefPtr
+mozilla
+/
+gfx
+/
+Types
 .
 h
 "
@@ -118,11 +122,7 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-Types
+CFTypeRefPtr
 .
 h
 "

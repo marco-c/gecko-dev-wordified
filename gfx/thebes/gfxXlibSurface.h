@@ -64,6 +64,13 @@ define
 GFX_XLIBSURFACE_H
 #
 include
+"
+gfxASurface
+.
+h
+"
+#
+include
 <
 X11
 /
@@ -74,13 +81,6 @@ h
 #
 include
 "
-GLXLibrary
-.
-h
-"
-#
-include
-"
 X11UndefineNone
 .
 h
@@ -88,7 +88,7 @@ h
 #
 include
 "
-gfxASurface
+GLXLibrary
 .
 h
 "

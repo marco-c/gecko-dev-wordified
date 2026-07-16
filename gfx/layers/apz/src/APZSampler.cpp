@@ -77,13 +77,6 @@ h
 #
 include
 "
-TreeTraversal
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ClearOnShutdown
@@ -131,6 +124,13 @@ mozilla
 layers
 /
 SynchronousTask
+.
+h
+"
+#
+include
+"
+TreeTraversal
 .
 h
 "

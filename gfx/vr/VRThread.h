@@ -65,6 +65,13 @@ GFX_VR_THREAD_H
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 base
 /
 thread
@@ -75,13 +82,6 @@ h
 /
 for
 Thread
-#
-include
-"
-nsISupportsImpl
-.
-h
-"
 namespace
 mozilla
 {

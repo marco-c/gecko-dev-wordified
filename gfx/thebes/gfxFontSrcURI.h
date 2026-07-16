@@ -65,13 +65,6 @@ MOZILLA_GFX_FONTSRCURI_H
 #
 include
 "
-PLDHashTable
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -80,6 +73,13 @@ h
 include
 "
 nsTString
+.
+h
+"
+#
+include
+"
+PLDHashTable
 .
 h
 "

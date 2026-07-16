@@ -64,11 +64,6 @@ define
 mozilla_gfx_layers_composite_Diagnostics_h
 #
 include
-<
-cstdint
->
-#
-include
 "
 mozilla
 /
@@ -76,6 +71,11 @@ Maybe
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {

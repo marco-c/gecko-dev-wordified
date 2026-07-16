@@ -108,13 +108,6 @@ h
 #
 include
 "
-SharedSurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
@@ -128,6 +121,13 @@ h
 for
 SurfaceDescriptor
 etc
+#
+include
+"
+SharedSurface
+.
+h
+"
 #
 if
 defined
@@ -148,7 +148,7 @@ mozilla
 /
 java
 /
-GeckoSurfaceTextureWrappers
+SurfaceAllocatorWrappers
 .
 h
 "
@@ -159,7 +159,7 @@ mozilla
 /
 java
 /
-SurfaceAllocatorWrappers
+GeckoSurfaceTextureWrappers
 .
 h
 "

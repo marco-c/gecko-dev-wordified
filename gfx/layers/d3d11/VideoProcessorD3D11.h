@@ -74,7 +74,9 @@ include
 "
 mozilla
 /
-RefPtr
+gfx
+/
+2D
 .
 h
 "
@@ -83,9 +85,7 @@ include
 "
 mozilla
 /
-gfx
-/
-2D
+RefPtr
 .
 h
 "

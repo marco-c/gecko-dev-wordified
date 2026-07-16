@@ -103,7 +103,9 @@ include
 "
 mozilla
 /
-StaticPrefs_toolkit
+gfx
+/
+Matrix
 .
 h
 "
@@ -112,9 +114,7 @@ include
 "
 mozilla
 /
-gfx
-/
-Matrix
+StaticPrefs_toolkit
 .
 h
 "

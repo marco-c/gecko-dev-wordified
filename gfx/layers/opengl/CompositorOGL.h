@@ -70,6 +70,13 @@ unordered_set
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 GLContextTypes
 .
 h
@@ -114,13 +121,6 @@ h
 /
 for
 ScreenPoint
-#
-include
-"
-gfx2DGlue
-.
-h
-"
 #
 include
 "

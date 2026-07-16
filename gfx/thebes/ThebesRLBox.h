@@ -201,7 +201,7 @@ include
 "
 graphite2
 /
-GraphiteStructsForRLBox
+Segment
 .
 h
 "
@@ -210,7 +210,7 @@ include
 "
 graphite2
 /
-Segment
+GraphiteStructsForRLBox
 .
 h
 "

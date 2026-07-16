@@ -73,13 +73,6 @@ h
 #
 include
 "
-HelpersCairo
-.
-h
-"
-#
-include
-"
 Logging
 .
 h
@@ -88,6 +81,13 @@ h
 include
 "
 PathHelpers
+.
+h
+"
+#
+include
+"
+HelpersCairo
 .
 h
 "

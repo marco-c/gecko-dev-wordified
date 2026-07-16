@@ -66,6 +66,13 @@ gfxFailure_h_
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsIGfxInfo
 .
 h
@@ -74,13 +81,6 @@ h
 include
 "
 nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
-nsString
 .
 h
 "

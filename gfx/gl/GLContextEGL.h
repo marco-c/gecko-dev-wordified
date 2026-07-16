@@ -64,11 +64,6 @@ define
 GLCONTEXTEGL_H_
 #
 include
-<
-memory
->
-#
-include
 "
 GLContext
 .
@@ -88,6 +83,11 @@ nsRegion
 .
 h
 "
+#
+include
+<
+memory
+>
 namespace
 mozilla
 {

@@ -64,11 +64,6 @@ define
 mozilla_layers_MockHitTester_h
 #
 include
-<
-queue
->
-#
-include
 "
 apz
 /
@@ -100,6 +95,11 @@ LayersTypes
 .
 h
 "
+#
+include
+<
+queue
+>
 namespace
 mozilla
 :

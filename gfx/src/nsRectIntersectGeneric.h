@@ -64,6 +64,13 @@ define
 NSRECT_INTERSECT_GENERIC_H_
 #
 include
+"
+nsRect
+.
+h
+"
+#
+include
 <
 xsimd
 /
@@ -71,13 +78,6 @@ xsimd
 .
 hpp
 >
-#
-include
-"
-nsRect
-.
-h
-"
 namespace
 mozilla
 {

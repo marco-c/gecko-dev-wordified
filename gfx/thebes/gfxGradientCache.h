@@ -65,6 +65,13 @@ GFX_GRADIENT_CACHE_H
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 gfxPattern
 .
 h
@@ -77,13 +84,6 @@ mozilla
 gfx
 /
 2D
-.
-h
-"
-#
-include
-"
-nsTArray
 .
 h
 "

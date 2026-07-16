@@ -73,14 +73,14 @@ h
 #
 include
 "
-nsHashKeys
+nsUnicharUtils
 .
 h
 "
 #
 include
 "
-nsUnicharUtils
+nsHashKeys
 .
 h
 "

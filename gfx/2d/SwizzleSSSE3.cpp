@@ -58,6 +58,13 @@ MPL
 /
 #
 include
+"
+Swizzle
+.
+h
+"
+#
+include
 <
 emmintrin
 .
@@ -70,13 +77,6 @@ tmmintrin
 .
 h
 >
-#
-include
-"
-Swizzle
-.
-h
-"
 namespace
 mozilla
 :

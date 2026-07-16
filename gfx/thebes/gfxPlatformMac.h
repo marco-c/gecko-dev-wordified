@@ -65,6 +65,13 @@ GFX_PLATFORM_MAC_H
 #
 include
 "
+nsTArrayForwardDeclare
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h
@@ -75,13 +82,6 @@ include
 mozilla
 /
 LookAndFeel
-.
-h
-"
-#
-include
-"
-nsTArrayForwardDeclare
 .
 h
 "

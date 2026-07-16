@@ -73,6 +73,13 @@ h
 #
 include
 "
+gfxGradientCache
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h
@@ -81,13 +88,6 @@ h
 include
 "
 VRManagerParent
-.
-h
-"
-#
-include
-"
-gfxGradientCache
 .
 h
 "

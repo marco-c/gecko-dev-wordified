@@ -100,6 +100,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 MockHitTester
 .
 h
@@ -112,13 +119,6 @@ apz
 src
 /
 WRHitTester
-.
-h
-"
-#
-include
-"
-gfxPlatform
 .
 h
 "

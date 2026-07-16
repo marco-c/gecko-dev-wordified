@@ -64,11 +64,6 @@ define
 GFX_QUATERNION_H
 #
 include
-<
-algorithm
->
-#
-include
 "
 gfxTypes
 .
@@ -96,6 +91,11 @@ Matrix
 .
 h
 "
+#
+include
+<
+algorithm
+>
 struct
 gfxQuaternion
 :

@@ -64,11 +64,6 @@ define
 MOZILLA_GFX_DRAWEVENTRECORDERTYPES_H_
 #
 include
-<
-deque
->
-#
-include
 "
 mozilla
 /
@@ -76,6 +71,11 @@ RefPtr
 .
 h
 "
+#
+include
+<
+deque
+>
 namespace
 mozilla
 {

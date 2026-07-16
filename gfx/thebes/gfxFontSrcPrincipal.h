@@ -65,14 +65,14 @@ MOZILLA_GFX_FONTSRCPRINCIPAL_H
 #
 include
 "
-PLDHashTable
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+PLDHashTable
 .
 h
 "

@@ -142,7 +142,9 @@ h
 #
 include
 "
-SurfaceTypes
+mozilla
+/
+Attributes
 .
 h
 "
@@ -151,7 +153,9 @@ include
 "
 mozilla
 /
-Attributes
+gfx
+/
+Point
 .
 h
 "
@@ -185,11 +189,7 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-Point
+SurfaceTypes
 .
 h
 "

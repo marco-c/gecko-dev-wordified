@@ -65,11 +65,6 @@ h
 "
 #
 include
-<
-algorithm
->
-#
-include
 "
 2D
 .
@@ -91,6 +86,11 @@ SSE
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 mozilla
 {

@@ -64,13 +64,6 @@ define
 GFX_GL_WGLLIBRARY_H_
 #
 include
-<
-windows
-.
-h
->
-#
-include
 "
 GLContextTypes
 .
@@ -92,6 +85,13 @@ UniquePtr
 .
 h
 "
+#
+include
+<
+windows
+.
+h
+>
 struct
 PRLibrary
 ;

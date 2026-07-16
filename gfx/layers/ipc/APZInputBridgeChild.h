@@ -80,7 +80,7 @@ mozilla
 /
 layers
 /
-GeckoContentControllerTypes
+PAPZInputBridgeChild
 .
 h
 "
@@ -91,7 +91,7 @@ mozilla
 /
 layers
 /
-PAPZInputBridgeChild
+GeckoContentControllerTypes
 .
 h
 "

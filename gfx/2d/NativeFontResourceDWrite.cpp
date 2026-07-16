@@ -65,6 +65,13 @@ h
 "
 #
 include
+"
+UnscaledFontDWrite
+.
+h
+"
+#
+include
 <
 unordered_map
 >
@@ -72,13 +79,6 @@ unordered_map
 include
 "
 Logging
-.
-h
-"
-#
-include
-"
-UnscaledFontDWrite
 .
 h
 "
