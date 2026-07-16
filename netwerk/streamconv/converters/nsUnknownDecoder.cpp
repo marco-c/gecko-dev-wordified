@@ -841,12 +841,12 @@ buffer
 /
 if
 (
-mBufferLen
-+
 aCount
 >
 =
 MAX_BUFFER_SIZE
+-
+mBufferLen
 )
 {
 count
