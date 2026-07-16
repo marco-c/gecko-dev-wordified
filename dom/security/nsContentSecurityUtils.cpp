@@ -3865,11 +3865,8 @@ Nothing
 ;
 }
 #
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
+ifdef
+NIGHTLY_BUILD
 /
 /
 Crash
