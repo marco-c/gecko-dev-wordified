@@ -1221,7 +1221,7 @@ the
 actual
 method
 .
-HeapPtr
+GCPtr
 <
 JitCode
 *
