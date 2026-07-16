@@ -165,6 +165,12 @@ UpdateAndGetSessionState
 )
 ;
 static
+bool
+IsSessionRestoreSupported
+(
+)
+;
+static
 void
 InitSessionRestore
 (
