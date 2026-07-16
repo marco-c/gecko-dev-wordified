@@ -51120,12 +51120,6 @@ detect
 ;
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
