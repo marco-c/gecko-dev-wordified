@@ -518,7 +518,8 @@ automatically
 const
 gRegistry
 =
-createInMemoryRegistry
+new
+TaskbarTabsRegistry
 (
 )
 ;
@@ -697,6 +698,7 @@ TaskbarTabsPin
 pinTaskbarTab
 (
 taskbarTab
+gRegistry
 await
 TaskbarTabsUtils
 .
@@ -1009,6 +1011,7 @@ TaskbarTabsPin
 unpinTaskbarTab
 (
 taskbarTab
+gRegistry
 )
 ;
 snapshot

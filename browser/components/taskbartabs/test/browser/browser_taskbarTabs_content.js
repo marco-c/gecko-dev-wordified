@@ -80,7 +80,8 @@ mjs
 const
 registry
 =
-createInMemoryRegistry
+new
+TaskbarTabsRegistry
 (
 )
 ;
