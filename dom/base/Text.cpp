@@ -814,6 +814,8 @@ rv
 SetDirectionFromNewTextNode
 (
 this
+&
+aParent
 )
 ;
 return
