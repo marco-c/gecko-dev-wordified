@@ -58,8 +58,6 @@ errno
 import
 os
 import
-shlex
-import
 subprocess
 import
 sys
@@ -81,10 +79,6 @@ asm_file
     
 cxx
 =
-shlex
-.
-split
-(
 buildconfig
 .
 substs
@@ -93,7 +87,6 @@ substs
 CXX
 "
 ]
-)
     
 if
 not

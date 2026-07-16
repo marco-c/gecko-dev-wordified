@@ -1419,10 +1419,6 @@ COMPILERS
 canonical_suffix
 ]
 ]
-.
-split
-(
-)
     
 def
 _build_db_line

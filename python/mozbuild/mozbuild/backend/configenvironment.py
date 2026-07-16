@@ -2007,7 +2007,13 @@ not
 in
 (
 "
+CC
+"
+"
 CPP
+"
+"
+CXX
 "
 "
 CXXCPP
@@ -2019,11 +2025,13 @@ SHELL
 )
 and
 (
+                
 key
 in
 os
 .
 environ
+            
 )
 :
                 

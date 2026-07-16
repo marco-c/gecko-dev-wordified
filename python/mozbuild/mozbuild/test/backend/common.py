@@ -245,19 +245,23 @@ substs
 CC
 "
 :
+[
 "
 clang
 "
+]
                 
 "
 CXX
 "
 :
+[
 "
 clang
 +
 +
 "
+]
                 
 "
 LIB_PREFIX
@@ -306,6 +310,7 @@ substs
 CC
 "
 :
+[
 "
 /
 usr
@@ -313,13 +318,17 @@ usr
 bin
 /
 kache
+"
+"
 clang
 "
+]
                 
 "
 CXX
 "
 :
+[
 "
 /
 usr
@@ -327,10 +336,13 @@ usr
 bin
 /
 kache
+"
+"
 clang
 +
 +
 "
+]
                 
 "
 COMPILER_WRAPPER
@@ -392,6 +404,7 @@ substs
 CC
 "
 :
+[
 "
 /
 usr
@@ -399,13 +412,17 @@ usr
 bin
 /
 ccache
+"
+"
 clang
 "
+]
                 
 "
 CXX
 "
 :
+[
 "
 /
 usr
@@ -413,10 +430,13 @@ usr
 bin
 /
 ccache
+"
+"
 clang
 +
 +
 "
+]
                 
 "
 COMPILER_WRAPPER
