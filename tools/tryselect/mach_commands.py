@@ -299,6 +299,24 @@ pushremote
 "
 ]
     
+push
+.
+GIT_BACKING_ENABLED
+=
+mach_context
+.
+settings
+[
+"
+try
+"
+]
+[
+"
+gitbacking
+"
+]
+    
 task_config
 .
 SKIP_ARTIFACT_BUILD_CHECK
