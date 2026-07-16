@@ -4062,8 +4062,8 @@ virtual
 cubeb_mixer
 (
 )
-{
-}
+=
+default
 ;
 MixerContext
 _context
