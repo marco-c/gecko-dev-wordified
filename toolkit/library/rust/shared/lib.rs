@@ -200,6 +200,10 @@ dom_fragmentdirectives
 ;
 extern
 crate
+dom_speculationrules
+;
+extern
+crate
 encoding_glue
 ;
 extern
@@ -300,6 +304,10 @@ rsdparsa_capi
 extern
 crate
 signature_cache
+;
+extern
+crate
+sitecategories
 ;
 extern
 crate
