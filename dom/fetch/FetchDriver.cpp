@@ -4356,6 +4356,13 @@ aCallbacks
 /
 loadFlags
 ios
+/
+*
+aSandboxFlags
+*
+/
+0
+mAssociatedBrowsingContextID
 )
 ;
 }
