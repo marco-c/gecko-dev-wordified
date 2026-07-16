@@ -92,10 +92,10 @@ public
 explicit
 RegExpMacroAssemblerTracer
 (
-js
+std
 :
 :
-UniquePtr
+unique_ptr
 <
 RegExpMacroAssembler
 >
@@ -909,10 +909,10 @@ override
 ;
 private
 :
-js
+std
 :
 :
-UniquePtr
+unique_ptr
 <
 RegExpMacroAssembler
 >
