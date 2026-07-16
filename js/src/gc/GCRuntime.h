@@ -5230,8 +5230,6 @@ JS
 :
 GCReason
 reason
-int64_t
-millis
 )
 ;
 bool
