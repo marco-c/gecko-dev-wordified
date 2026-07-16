@@ -372,6 +372,10 @@ static
 void
 FlushUncaughtRejectionsInternal
 (
+bool
+aDeferToEventPath
+=
+true
 )
 ;
 friend
