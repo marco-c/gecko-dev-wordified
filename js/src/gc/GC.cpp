@@ -24530,6 +24530,11 @@ Mark
 the
 object
 .
+bool
+hadDelayed
+=
+delayedMarkingWorkAdded
+;
 marker
 (
 )
@@ -24541,6 +24546,10 @@ obj
 ;
 if
 (
+!
+hadDelayed
+&
+&
 delayedMarkingWorkAdded
 )
 {
