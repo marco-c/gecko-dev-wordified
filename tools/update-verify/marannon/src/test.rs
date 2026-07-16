@@ -627,7 +627,7 @@ channel
 :
 &
 str
-appname
+product
 :
 &
 str
@@ -1037,7 +1037,7 @@ result
 prepare_updater
 (
 updater_package
-appname
+product
 cert_dir
 cert_overrides
 unpack_dir
@@ -1405,7 +1405,7 @@ check_updates
 target_platform
 to_installer
 channel
-appname
+product
 tmpdir
 artifact_dir
 runner
@@ -1728,7 +1728,7 @@ channel
 :
 &
 str
-appname
+product
 :
 &
 str
@@ -2007,7 +2007,7 @@ dir
 .
 arg
 (
-appname
+product
 )
 .
 current_dir

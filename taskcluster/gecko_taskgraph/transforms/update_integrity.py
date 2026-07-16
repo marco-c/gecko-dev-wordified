@@ -1626,7 +1626,7 @@ channel
 ]
             
 #
-app
+product
 name
             
 job
