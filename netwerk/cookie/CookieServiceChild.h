@@ -72,6 +72,13 @@ h
 #
 include
 "
+mozIThirdPartyUtil
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
@@ -97,7 +104,7 @@ h
 #
 include
 "
-mozIThirdPartyUtil
+nsThreadUtils
 .
 h
 "
@@ -105,13 +112,6 @@ h
 include
 "
 nsWeakReference
-.
-h
-"
-#
-include
-"
-nsThreadUtils
 .
 h
 "

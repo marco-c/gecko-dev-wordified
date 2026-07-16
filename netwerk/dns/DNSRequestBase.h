@@ -83,7 +83,7 @@ h
 #
 include
 "
-nsIDNSRecord
+nsIDNSByTypeRecord
 .
 h
 "
@@ -97,7 +97,7 @@ h
 #
 include
 "
-nsIDNSByTypeRecord
+nsIDNSRecord
 .
 h
 "

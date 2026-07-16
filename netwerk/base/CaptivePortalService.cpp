@@ -90,7 +90,7 @@ include
 "
 mozilla
 /
-Services
+Preferences
 .
 h
 "
@@ -99,7 +99,7 @@ include
 "
 mozilla
 /
-Preferences
+Services
 .
 h
 "
@@ -127,14 +127,14 @@ h
 #
 include
 "
-xpcpublic
+xpcprivate
 .
 h
 "
 #
 include
 "
-xpcprivate
+xpcpublic
 .
 h
 "

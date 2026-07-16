@@ -111,13 +111,6 @@ h
 #
 include
 "
-prprf
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -147,6 +140,13 @@ h
 include
 "
 nsIInputStream
+.
+h
+"
+#
+include
+"
+prprf
 .
 h
 "

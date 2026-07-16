@@ -66,6 +66,13 @@ h
 #
 include
 "
+DataChannelLog
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Components
@@ -78,13 +85,6 @@ include
 mozilla
 /
 RandomNum
-.
-h
-"
-#
-include
-"
-DataChannelLog
 .
 h
 "

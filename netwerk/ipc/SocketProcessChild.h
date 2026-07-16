@@ -67,9 +67,7 @@ include
 "
 mozilla
 /
-net
-/
-PSocketProcessChild
+Mutex
 .
 h
 "
@@ -89,9 +87,9 @@ include
 "
 mozilla
 /
-psm
+net
 /
-IPCClientCertsChild
+PSocketProcessChild
 .
 h
 "
@@ -100,7 +98,9 @@ include
 "
 mozilla
 /
-Mutex
+psm
+/
+IPCClientCertsChild
 .
 h
 "

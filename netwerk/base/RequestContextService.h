@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsInterfaceHashtable
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -87,6 +80,13 @@ h
 include
 "
 nsIRequestContext
+.
+h
+"
+#
+include
+"
+nsInterfaceHashtable
 .
 h
 "

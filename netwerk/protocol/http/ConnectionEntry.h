@@ -65,6 +65,13 @@ ConnectionEntry_h_
 #
 include
 "
+ConnectionAttemptPool
+.
+h
+"
+#
+include
+"
 PendingTransactionInfo
 .
 h
@@ -73,13 +80,6 @@ h
 include
 "
 PendingTransactionQueue
-.
-h
-"
-#
-include
-"
-ConnectionAttemptPool
 .
 h
 "

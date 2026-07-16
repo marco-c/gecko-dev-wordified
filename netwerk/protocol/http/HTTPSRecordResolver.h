@@ -74,6 +74,13 @@ h
 #
 include
 "
+nsHttpConnectionInfo
+.
+h
+"
+#
+include
+"
 nsICancelable
 .
 h
@@ -82,13 +89,6 @@ h
 include
 "
 nsIDNSListener
-.
-h
-"
-#
-include
-"
-nsHttpConnectionInfo
 .
 h
 "

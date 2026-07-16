@@ -72,14 +72,14 @@ h
 #
 include
 "
-nsString
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsISupportsImpl
+nsString
 .
 h
 "

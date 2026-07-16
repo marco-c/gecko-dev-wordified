@@ -93,14 +93,14 @@ h
 #
 include
 "
-nsIWeakReferenceUtils
+nsISupportsImpl
 .
 h
 "
 #
 include
 "
-nsISupportsImpl
+nsIWeakReferenceUtils
 .
 h
 "

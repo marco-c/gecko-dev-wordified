@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-nsWifiAccessPoint
+WinWifiScanner
 .
 h
 "
 #
 include
 "
-WinWifiScanner
+nsWifiAccessPoint
 .
 h
 "

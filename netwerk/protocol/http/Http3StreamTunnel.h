@@ -72,14 +72,14 @@ h
 #
 include
 "
-nsHttpConnection
+SimpleBuffer
 .
 h
 "
 #
 include
 "
-SimpleBuffer
+nsHttpConnection
 .
 h
 "

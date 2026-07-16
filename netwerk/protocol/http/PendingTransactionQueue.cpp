@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsHttpHandler
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ChaosMode
@@ -139,6 +132,13 @@ include
 mozilla
 /
 StaticPrefs_network
+.
+h
+"
+#
+include
+"
+nsHttpHandler
 .
 h
 "

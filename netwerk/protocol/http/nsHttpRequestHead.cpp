@@ -69,13 +69,6 @@ first
 #
 include
 "
-HttpLog
-.
-h
-"
-#
-include
-"
 nsHttpRequestHead
 .
 h
@@ -83,7 +76,7 @@ h
 #
 include
 "
-nsIHttpHeaderVisitor
+HttpLog
 .
 h
 "
@@ -95,6 +88,13 @@ mozilla
 net
 /
 Dictionary
+.
+h
+"
+#
+include
+"
+nsIHttpHeaderVisitor
 .
 h
 "

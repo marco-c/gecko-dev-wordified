@@ -69,14 +69,14 @@ first
 #
 include
 "
-HttpLog
+AltServiceChild
 .
 h
 "
 #
 include
 "
-AltServiceChild
+HttpLog
 .
 h
 "

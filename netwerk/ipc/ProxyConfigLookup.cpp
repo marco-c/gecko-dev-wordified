@@ -96,6 +96,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIProtocolProxyService
 .
 h
@@ -118,13 +125,6 @@ h
 include
 "
 nsThreadUtils
-.
-h
-"
-#
-include
-"
-nsIChannel
 .
 h
 "

@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsIMultiPartChannel
+.
+h
+"
+#
+include
+"
 nsIRequest
 .
 h
@@ -87,13 +94,6 @@ h
 include
 "
 nsIThreadRetargetableStreamListener
-.
-h
-"
-#
-include
-"
-nsIMultiPartChannel
 .
 h
 "

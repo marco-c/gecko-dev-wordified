@@ -200,7 +200,7 @@ mozilla
 /
 glean
 /
-NetwerkProtocolHttpMetrics
+NetwerkMetrics
 .
 h
 "
@@ -211,7 +211,7 @@ mozilla
 /
 glean
 /
-NetwerkMetrics
+NetwerkProtocolHttpMetrics
 .
 h
 "

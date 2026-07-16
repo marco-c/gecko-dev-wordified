@@ -65,14 +65,14 @@ _nsstreamconverterservice_h_
 #
 include
 "
-nsIStreamConverterService
+nsClassHashtable
 .
 h
 "
 #
 include
 "
-nsClassHashtable
+nsIStreamConverterService
 .
 h
 "

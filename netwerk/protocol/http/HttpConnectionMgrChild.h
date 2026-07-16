@@ -67,9 +67,7 @@ include
 "
 mozilla
 /
-net
-/
-PHttpConnectionMgrChild
+RefPtr
 .
 h
 "
@@ -78,7 +76,9 @@ include
 "
 mozilla
 /
-RefPtr
+net
+/
+PHttpConnectionMgrChild
 .
 h
 "

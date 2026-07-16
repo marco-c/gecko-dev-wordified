@@ -70,14 +70,14 @@ functional
 #
 include
 "
-nsIProtocolProxyCallback
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsIProtocolProxyCallback
 .
 h
 "

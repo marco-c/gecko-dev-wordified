@@ -62,9 +62,7 @@ once
 #
 include
 "
-mozilla
-/
-UniquePtr
+WifiScanner
 .
 h
 "
@@ -78,7 +76,9 @@ h
 #
 include
 "
-WifiScanner
+mozilla
+/
+UniquePtr
 .
 h
 "

@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-nsIGenericFactory
+nsDataHandler
 .
 h
 "
 #
 include
 "
-nsDataHandler
+nsIGenericFactory
 .
 h
 "

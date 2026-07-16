@@ -65,6 +65,13 @@ PendingTransactionQueue_h_
 #
 include
 "
+PendingTransactionInfo
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
@@ -73,13 +80,6 @@ h
 include
 "
 nsHttpTransaction
-.
-h
-"
-#
-include
-"
-PendingTransactionInfo
 .
 h
 "

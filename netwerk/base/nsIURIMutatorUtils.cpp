@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsIURIMutator
+nsComponentManagerUtils
 .
 h
 "
@@ -73,7 +73,7 @@ h
 #
 include
 "
-nsComponentManagerUtils
+nsIURIMutator
 .
 h
 "

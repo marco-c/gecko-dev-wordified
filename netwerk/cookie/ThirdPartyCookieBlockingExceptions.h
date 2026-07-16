@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsIThirdPartyCookieBlockingExceptionListService
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -96,13 +103,6 @@ h
 include
 "
 nsTHashSet
-.
-h
-"
-#
-include
-"
-nsIThirdPartyCookieBlockingExceptionListService
 .
 h
 "

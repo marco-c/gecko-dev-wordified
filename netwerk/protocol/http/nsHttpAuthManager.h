@@ -69,6 +69,9 @@ nsIHttpAuthManager
 .
 h
 "
+class
+nsIHttpAuthCache
+;
 namespace
 mozilla
 {

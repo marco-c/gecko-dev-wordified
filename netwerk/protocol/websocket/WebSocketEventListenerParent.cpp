@@ -59,14 +59,14 @@ MPL
 #
 include
 "
-WebSocketEventService
+WebSocketEventListenerParent
 .
 h
 "
 #
 include
 "
-WebSocketEventListenerParent
+WebSocketEventService
 .
 h
 "

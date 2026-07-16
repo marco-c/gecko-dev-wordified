@@ -65,7 +65,7 @@ nsSimpleStreamListener_h_
 #
 include
 "
-nsISimpleStreamListener
+nsCOMPtr
 .
 h
 "
@@ -79,7 +79,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsISimpleStreamListener
 .
 h
 "

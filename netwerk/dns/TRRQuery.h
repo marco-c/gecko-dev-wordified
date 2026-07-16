@@ -65,14 +65,14 @@ mozilla_net_TRRQuery_h
 #
 include
 "
-nsHostResolver
+DNSPacket
 .
 h
 "
 #
 include
 "
-DNSPacket
+nsHostResolver
 .
 h
 "

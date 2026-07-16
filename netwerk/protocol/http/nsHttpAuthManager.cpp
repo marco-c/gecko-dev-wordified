@@ -69,6 +69,13 @@ first
 #
 include
 "
+nsHttpAuthManager
+.
+h
+"
+#
+include
+"
 HttpLog
 .
 h
@@ -83,7 +90,7 @@ h
 #
 include
 "
-nsHttpAuthManager
+nsIPrincipal
 .
 h
 "
@@ -91,13 +98,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-nsIPrincipal
 .
 h
 "

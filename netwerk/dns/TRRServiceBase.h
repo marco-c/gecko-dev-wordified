@@ -94,13 +94,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsIDNSService
 .
 h
@@ -109,6 +102,13 @@ h
 include
 "
 nsIProtocolProxyService2
+.
+h
+"
+#
+include
+"
+nsString
 .
 h
 "

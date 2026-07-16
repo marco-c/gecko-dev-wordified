@@ -76,9 +76,7 @@ include
 "
 mozilla
 /
-ipc
-/
-GeckoChildProcessHost
+MemoryReportingProcess
 .
 h
 "
@@ -87,7 +85,9 @@ include
 "
 mozilla
 /
-MemoryReportingProcess
+ipc
+/
+GeckoChildProcessHost
 .
 h
 "

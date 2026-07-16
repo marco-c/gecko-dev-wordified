@@ -98,6 +98,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIThreadRetargetableStreamListener
 .
 h
@@ -106,13 +113,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

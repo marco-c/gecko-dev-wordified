@@ -93,7 +93,9 @@ h
 #
 include
 "
-nsRefPtrHashtable
+mozilla
+/
+Mutex
 .
 h
 "
@@ -107,9 +109,7 @@ h
 #
 include
 "
-mozilla
-/
-Mutex
+nsRefPtrHashtable
 .
 h
 "

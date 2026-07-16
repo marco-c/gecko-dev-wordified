@@ -65,13 +65,6 @@ mozilla_net_Http3WebTransportSession_h
 #
 include
 "
-WebTransportSessionBase
-.
-h
-"
-#
-include
-"
 Http3StreamBase
 .
 h
@@ -79,7 +72,7 @@ h
 #
 include
 "
-nsIWebTransport
+WebTransportSessionBase
 .
 h
 "
@@ -91,6 +84,13 @@ mozilla
 net
 /
 NeqoHttp3Conn
+.
+h
+"
+#
+include
+"
+nsIWebTransport
 .
 h
 "

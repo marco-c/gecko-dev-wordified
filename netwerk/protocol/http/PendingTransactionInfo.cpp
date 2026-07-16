@@ -69,14 +69,14 @@ first
 #
 include
 "
-HttpLog
+PendingTransactionInfo
 .
 h
 "
 #
 include
 "
-PendingTransactionInfo
+HttpLog
 .
 h
 "

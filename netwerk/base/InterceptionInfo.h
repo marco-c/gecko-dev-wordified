@@ -65,6 +65,13 @@ mozilla_net_InterceptionInfo_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIContentPolicy
 .
 h
@@ -94,13 +101,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsCOMPtr
 .
 h
 "

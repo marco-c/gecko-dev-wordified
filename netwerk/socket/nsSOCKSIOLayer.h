@@ -66,7 +66,7 @@ nsSOCKSIOLayer_h_
 #
 include
 "
-prio
+nsIProxyInfo
 .
 h
 "
@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsIProxyInfo
+prio
 .
 h
 "

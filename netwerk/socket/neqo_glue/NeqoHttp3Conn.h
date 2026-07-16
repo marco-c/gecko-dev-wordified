@@ -127,8 +127,6 @@ nsACString
 &
 aQlogDir
 uint32_t
-aProviderFlags
-uint32_t
 aIdleTimeout
 uint32_t
 aFastPto
@@ -157,7 +155,6 @@ aVersionNegotiation
 aWebTransport
 &
 aQlogDir
-aProviderFlags
 aIdleTimeout
 aFastPto
 (
@@ -213,8 +210,6 @@ nsACString
 &
 aQlogDir
 uint32_t
-aProviderFlags
-uint32_t
 aIdleTimeout
 uint32_t
 aFastPto
@@ -247,7 +242,6 @@ aVersionNegotiation
 aWebTransport
 &
 aQlogDir
-aProviderFlags
 aIdleTimeout
 aFastPto
 socket

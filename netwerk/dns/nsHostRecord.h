@@ -65,6 +65,13 @@ nsHostRecord_h_
 #
 include
 "
+PLDHashTable
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AtomicBitfields
@@ -103,13 +110,6 @@ h
 #
 include
 "
-nsIDNSService
-.
-h
-"
-#
-include
-"
 nsIDNSByTypeRecord
 .
 h
@@ -117,7 +117,7 @@ h
 #
 include
 "
-PLDHashTable
+nsIDNSService
 .
 h
 "

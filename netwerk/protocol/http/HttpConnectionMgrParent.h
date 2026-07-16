@@ -74,9 +74,7 @@ include
 "
 mozilla
 /
-net
-/
-PHttpConnectionMgrParent
+StaticMutex
 .
 h
 "
@@ -85,7 +83,9 @@ include
 "
 mozilla
 /
-StaticMutex
+net
+/
+PHttpConnectionMgrParent
 .
 h
 "

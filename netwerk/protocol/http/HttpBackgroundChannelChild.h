@@ -67,9 +67,9 @@ include
 "
 mozilla
 /
-net
+ipc
 /
-PHttpBackgroundChannelChild
+Endpoint
 .
 h
 "
@@ -78,9 +78,9 @@ include
 "
 mozilla
 /
-ipc
+net
 /
-Endpoint
+PHttpBackgroundChannelChild
 .
 h
 "

@@ -86,14 +86,14 @@ NSSERIALIZATIONHELPER_H_
 #
 include
 "
-nsStringFwd
+nsISerializationHelper
 .
 h
 "
 #
 include
 "
-nsISerializationHelper
+nsStringFwd
 .
 h
 "

@@ -73,11 +73,7 @@ h
 #
 include
 "
-nss
-/
-mozpkix
-/
-pkixutil
+hasht
 .
 h
 "
@@ -95,7 +91,11 @@ h
 #
 include
 "
-hasht
+nss
+/
+mozpkix
+/
+pkixutil
 .
 h
 "

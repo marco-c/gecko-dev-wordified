@@ -65,7 +65,7 @@ nsStreamTransportService_h_
 #
 include
 "
-nsIStreamTransportService
+nsCOMPtr
 .
 h
 "
@@ -86,7 +86,7 @@ h
 #
 include
 "
-nsCOMPtr
+nsIStreamTransportService
 .
 h
 "

@@ -76,9 +76,7 @@ include
 "
 mozilla
 /
-net
-/
-PNeckoParent
+MozPromise
 .
 h
 "
@@ -98,7 +96,9 @@ include
 "
 mozilla
 /
-MozPromise
+net
+/
+PNeckoParent
 .
 h
 "

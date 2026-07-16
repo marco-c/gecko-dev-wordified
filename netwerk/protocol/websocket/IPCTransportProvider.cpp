@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsISocketTransport
-.
-h
-"
-#
-include
-"
 nsIAsyncInputStream
 .
 h
@@ -92,6 +85,13 @@ h
 include
 "
 nsIAsyncOutputStream
+.
+h
+"
+#
+include
+"
+nsISocketTransport
 .
 h
 "

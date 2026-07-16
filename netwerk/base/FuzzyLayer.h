@@ -65,13 +65,6 @@ FuzzyLayer_h_
 #
 include
 "
-prerror
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -80,6 +73,13 @@ h
 include
 "
 nsIFile
+.
+h
+"
+#
+include
+"
+prerror
 .
 h
 "

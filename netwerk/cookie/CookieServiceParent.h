@@ -69,7 +69,7 @@ mozilla
 /
 net
 /
-PCookieServiceParent
+CookieKey
 .
 h
 "
@@ -80,7 +80,7 @@ mozilla
 /
 net
 /
-CookieKey
+PCookieServiceParent
 .
 h
 "

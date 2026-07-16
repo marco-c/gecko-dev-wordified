@@ -90,14 +90,14 @@ h
 #
 include
 "
-nsIChildChannel
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsIChildChannel
 .
 h
 "

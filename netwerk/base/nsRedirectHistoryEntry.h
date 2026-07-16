@@ -72,14 +72,14 @@ h
 #
 include
 "
-nsString
+nsIRedirectHistoryEntry
 .
 h
 "
 #
 include
 "
-nsIRedirectHistoryEntry
+nsString
 .
 h
 "

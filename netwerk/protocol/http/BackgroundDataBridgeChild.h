@@ -67,9 +67,9 @@ include
 "
 mozilla
 /
-net
+ipc
 /
-PBackgroundDataBridgeChild
+BackgroundChild
 .
 h
 "
@@ -78,9 +78,9 @@ include
 "
 mozilla
 /
-ipc
+net
 /
-BackgroundChild
+PBackgroundDataBridgeChild
 .
 h
 "

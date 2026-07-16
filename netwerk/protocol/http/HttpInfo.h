@@ -76,6 +76,9 @@ net
 struct
 HttpRetParams
 ;
+struct
+Http3ConnectionStatsParams
+;
 class
 HttpInfo
 {

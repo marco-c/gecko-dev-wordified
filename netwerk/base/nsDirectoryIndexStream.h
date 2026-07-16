@@ -65,7 +65,7 @@ nsDirectoryIndexStream_h_
 #
 include
 "
-nsString
+nsCOMArray
 .
 h
 "
@@ -79,7 +79,7 @@ h
 #
 include
 "
-nsCOMArray
+nsString
 .
 h
 "

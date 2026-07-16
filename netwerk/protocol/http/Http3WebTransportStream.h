@@ -70,14 +70,14 @@ functional
 #
 include
 "
-WebTransportStreamBase
+Http3StreamBase
 .
 h
 "
 #
 include
 "
-Http3StreamBase
+WebTransportStreamBase
 .
 h
 "

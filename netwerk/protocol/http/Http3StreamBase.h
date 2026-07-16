@@ -65,13 +65,6 @@ mozilla_net_Http3StreamBase_h
 #
 include
 "
-nsAHttpTransaction
-.
-h
-"
-#
-include
-"
 ARefBase
 .
 h
@@ -82,6 +75,13 @@ include
 mozilla
 /
 WeakPtr
+.
+h
+"
+#
+include
+"
+nsAHttpTransaction
 .
 h
 "

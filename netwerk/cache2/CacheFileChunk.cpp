@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-CacheLog
-.
-h
-"
-#
-include
-"
 CacheFileChunk
 .
 h
@@ -87,7 +80,7 @@ h
 #
 include
 "
-nsThreadUtils
+CacheLog
 .
 h
 "
@@ -97,6 +90,13 @@ include
 mozilla
 /
 IntegerPrintfMacros
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

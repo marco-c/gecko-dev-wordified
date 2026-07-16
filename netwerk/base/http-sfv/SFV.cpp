@@ -124,14 +124,14 @@ h
 #
 include
 "
-nsStringFwd
+nsError
 .
 h
 "
 #
 include
 "
-nsError
+nsStringFwd
 .
 h
 "

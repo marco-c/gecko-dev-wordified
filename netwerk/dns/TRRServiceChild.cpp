@@ -70,6 +70,13 @@ h
 #
 include
 "
+TRRService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -81,7 +88,7 @@ include
 "
 mozilla
 /
-Components
+ClearOnShutdown
 .
 h
 "
@@ -90,7 +97,7 @@ include
 "
 mozilla
 /
-ClearOnShutdown
+Components
 .
 h
 "
@@ -137,13 +144,6 @@ h
 include
 "
 nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
-TRRService
 .
 h
 "

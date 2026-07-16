@@ -72,13 +72,6 @@ h
 #
 include
 "
-prinrval
-.
-h
-"
-#
-include
-"
 nsHttp
 .
 h
@@ -87,6 +80,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+prinrval
 .
 h
 "

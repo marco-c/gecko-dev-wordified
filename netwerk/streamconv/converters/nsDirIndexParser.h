@@ -65,7 +65,9 @@ NSDIRINDEX_H_
 #
 include
 "
-nsString
+mozilla
+/
+RefPtr
 .
 h
 "
@@ -86,9 +88,7 @@ h
 #
 include
 "
-mozilla
-/
-RefPtr
+nsString
 .
 h
 "

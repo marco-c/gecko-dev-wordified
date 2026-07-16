@@ -65,7 +65,9 @@ nsIDNService_h_
 #
 include
 "
-nsIIDNService
+mozilla
+/
+RWLock
 .
 h
 "
@@ -74,7 +76,7 @@ include
 "
 mozilla
 /
-RWLock
+Span
 .
 h
 "
@@ -103,9 +105,7 @@ h
 #
 include
 "
-mozilla
-/
-Span
+nsIIDNService
 .
 h
 "

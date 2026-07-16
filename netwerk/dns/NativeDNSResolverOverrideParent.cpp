@@ -66,6 +66,13 @@ h
 #
 include
 "
+DNS
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown
@@ -87,13 +94,6 @@ h
 include
 "
 nsIOService
-.
-h
-"
-#
-include
-"
-DNS
 .
 h
 "

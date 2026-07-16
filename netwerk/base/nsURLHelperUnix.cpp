@@ -70,7 +70,9 @@ parsing
 #
 include
 "
-nsURLHelper
+mozilla
+/
+Utf8
 .
 h
 "
@@ -98,9 +100,7 @@ h
 #
 include
 "
-mozilla
-/
-Utf8
+nsURLHelper
 .
 h
 "

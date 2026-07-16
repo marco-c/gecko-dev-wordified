@@ -65,13 +65,6 @@ CacheCrypto_h_
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -80,6 +73,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "

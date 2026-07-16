@@ -65,13 +65,6 @@ ArrayBufferInputStream_h
 #
 include
 "
-nsIArrayBufferInputStream
-.
-h
-"
-#
-include
-"
 js
 /
 Value
@@ -84,6 +77,13 @@ include
 mozilla
 /
 UniquePtr
+.
+h
+"
+#
+include
+"
+nsIArrayBufferInputStream
 .
 h
 "

@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsIURIMutator
+.
+h
+"
+#
+include
+"
 nsSimpleNestedURI
 .
 h
@@ -80,13 +87,6 @@ h
 include
 "
 nsWeakReference
-.
-h
-"
-#
-include
-"
-nsIURIMutator
 .
 h
 "

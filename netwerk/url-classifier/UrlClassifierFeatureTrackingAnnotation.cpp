@@ -122,6 +122,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h
@@ -137,13 +144,6 @@ h
 include
 "
 nsIWebProgressListener
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

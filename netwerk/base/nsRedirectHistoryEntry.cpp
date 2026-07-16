@@ -73,14 +73,14 @@ h
 #
 include
 "
-nsIURI
+nsIPrincipal
 .
 h
 "
 #
 include
 "
-nsIPrincipal
+nsIURI
 .
 h
 "

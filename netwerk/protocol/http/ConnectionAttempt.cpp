@@ -66,14 +66,14 @@ h
 #
 include
 "
-nsHttpTransaction
+nsHttpConnectionInfo
 .
 h
 "
 #
 include
 "
-nsHttpConnectionInfo
+nsHttpTransaction
 .
 h
 "

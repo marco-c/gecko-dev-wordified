@@ -65,14 +65,14 @@ nsDownloader_h_
 #
 include
 "
-nsIDownloader
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsIDownloader
 .
 h
 "

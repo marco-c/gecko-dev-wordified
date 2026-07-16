@@ -70,14 +70,14 @@ functional
 #
 include
 "
-nsString
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsString
 .
 h
 "

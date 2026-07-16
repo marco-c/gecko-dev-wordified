@@ -77,6 +77,13 @@ h
 #
 include
 "
+HappyEyeballsTransaction
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Result
@@ -112,13 +119,6 @@ h
 include
 "
 nsIAsyncOutputStream
-.
-h
-"
-#
-include
-"
-HappyEyeballsTransaction
 .
 h
 "

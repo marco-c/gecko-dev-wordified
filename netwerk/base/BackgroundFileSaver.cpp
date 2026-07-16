@@ -84,7 +84,7 @@ include
 "
 mozilla
 /
-Components
+Casting
 .
 h
 "
@@ -93,7 +93,7 @@ include
 "
 mozilla
 /
-Casting
+Components
 .
 h
 "
@@ -215,6 +215,12 @@ h
 #
 ifdef
 XP_WIN
+/
+/
+clang
+-
+format
+off
 #
 include
 <
@@ -236,6 +242,12 @@ wintrust
 .
 h
 >
+/
+/
+clang
+-
+format
+on
 #
 endif
 /
