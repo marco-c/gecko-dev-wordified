@@ -15022,7 +15022,7 @@ const
 T
 *
 aText
-uint32_t
+uint8_t
 aLength
 uint32_t
 aHash
@@ -15238,7 +15238,7 @@ mDouble
 }
 mText
 ;
-uint32_t
+uint8_t
 mLength
 ;
 ShapedTextFlags
@@ -15311,7 +15311,7 @@ const
 uint8_t
 *
 aText
-uint32_t
+uint8_t
 aLength
 uint32_t
 aStringHash
@@ -15431,7 +15431,7 @@ const
 char16_t
 *
 aText
-uint32_t
+uint8_t
 aLength
 uint32_t
 aStringHash
@@ -15579,16 +15579,6 @@ mDouble
 aText
 ;
 }
-bool
-Matches
-(
-const
-WordCacheKey
-&
-aLookup
-)
-const
-;
 class
 HashPolicy
 {
