@@ -2220,7 +2220,7 @@ instead
 *
 /
 RangeBoundaryBase
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 aFor
@@ -3255,7 +3255,7 @@ IsSet
 RangeBoundaryBase
 inFlatTree
 =
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor
 )

@@ -2261,7 +2261,7 @@ startInFlat
 =
 aStartBoundary
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :
@@ -2275,7 +2275,7 @@ endInFlat
 =
 aEndBoundary
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :
@@ -2742,7 +2742,7 @@ startInFlat
 =
 aStartBoundary
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 isCollapsing
 ?
@@ -2771,7 +2771,7 @@ startInFlat
 :
 aEndBoundary
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 RangeBoundaryFor
 :

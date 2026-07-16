@@ -1491,7 +1491,7 @@ Some
 (
 newStart
 .
-AsRangeBoundaryInFlatTree
+AsRangeBoundaryInFlatTreeOrNonFlattenedNode
 (
 aFor
 )
