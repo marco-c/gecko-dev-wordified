@@ -1260,6 +1260,16 @@ moxARIAControls
 override
 -
 (
+NSArray
+*
+)
+moxDetailsElements
+;
+/
+/
+override
+-
+(
 id
 )
 moxEditableAncestor
