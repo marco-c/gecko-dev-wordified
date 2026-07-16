@@ -3072,6 +3072,14 @@ uint8_t
 &
 &
 remoteCerts
+Maybe
+<
+dom
+:
+:
+RTCErrorParams
+>
+error
 )
 {
 MutexAutoLock
@@ -3099,6 +3107,7 @@ move
 (
 remoteCerts
 )
+error
 )
 ;
 }
@@ -3137,6 +3146,14 @@ TransportLayer
 State
 &
 state
+Maybe
+<
+dom
+:
+:
+RTCErrorParams
+>
+error
 )
 {
 MutexAutoLock
@@ -3157,6 +3174,7 @@ OnRtcpStateChange
 (
 transportId
 state
+error
 )
 ;
 }
