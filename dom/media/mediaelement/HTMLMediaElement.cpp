@@ -12140,6 +12140,14 @@ SetIsMediaRequest
 true
 )
 ;
+loadInfo
+-
+>
+SetIsMediaInitialRequest
+(
+true
+)
+;
 if
 (
 nsCOMPtr
