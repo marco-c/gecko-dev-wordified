@@ -232,12 +232,6 @@ options
 ;
 options
 .
-variables
-=
-true
-;
-options
-.
 enforcePackingRestrictions
 =
 true
