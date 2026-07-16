@@ -213,7 +213,9 @@ initializeUninitializedGlobals
 bool
 canUseLoopsToInitialize
 bool
-forceDeferNonConstGlobalInitializers
+highPrecisionSupported
+bool
+forceDeferGlobalInitializers
 TSymbolTable
 *
 symbolTable

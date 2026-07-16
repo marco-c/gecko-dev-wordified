@@ -293,15 +293,6 @@ Token
 token
 )
 ;
-void
-handleVersion
-(
-const
-SourceLocation
-&
-location
-)
-;
 struct
 ConditionalBlock
 {
@@ -349,9 +340,6 @@ false
 {
 }
 }
-;
-bool
-mHandledVersion
 ;
 bool
 mPastFirstStatement

@@ -146,6 +146,11 @@ TIntermNode
 root
 )
 ;
+void
+cleanup
+(
+)
+;
 /
 /
 "

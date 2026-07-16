@@ -86,14 +86,6 @@ language
 preprocessor
 .
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 define
 YY_INT_ALIGNED
 short
@@ -5080,7 +5072,6 @@ yyout
 )
 \
 {
-\
 }
 \
 }
@@ -5671,7 +5662,6 @@ yyg
 >
 yy_start
 )
-{
 yyg
 -
 >
@@ -5686,29 +5676,24 @@ start
 state
 *
 /
-}
 if
 (
 !
 yyin
 )
-{
 yyin
 =
 stdin
 ;
-}
 if
 (
 !
 yyout
 )
-{
 yyout
 =
 stdout
 ;
-}
 if
 (
 !
@@ -5892,7 +5877,6 @@ yy_current_state
 =
 95
 )
-{
 yy_c
 =
 yy_meta
@@ -5900,7 +5884,6 @@ yy_meta
 yy_c
 ]
 ;
-}
 }
 yy_current_state
 =
@@ -7841,7 +7824,6 @@ yy_find_action
 }
 }
 else
-{
 switch
 (
 yy_get_next_buffer
@@ -7969,10 +7951,8 @@ yyg
 >
 yy_did_buffer_switch_on_eof
 )
-{
 YY_NEW_FILE
 ;
-}
 }
 break
 ;
@@ -8064,7 +8044,6 @@ YY_MORE_ADJ
 goto
 yy_find_action
 ;
-}
 }
 break
 ;
@@ -8230,7 +8209,6 @@ yy_n_chars
 1
 ]
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -8248,7 +8226,6 @@ missed
 "
 )
 ;
-}
 if
 (
 YY_CURRENT_BUFFER_LVALUE
@@ -8400,7 +8377,6 @@ number_to_move
 +
 i
 )
-{
 *
 (
 dest
@@ -8415,7 +8391,6 @@ source
 +
 )
 ;
-}
 if
 (
 YY_CURRENT_BUFFER_LVALUE
@@ -8426,7 +8401,6 @@ yy_buffer_status
 =
 YY_BUFFER_EOF_PENDING
 )
-{
 /
 *
 don
@@ -8463,7 +8437,6 @@ yy_n_chars
 =
 0
 ;
-}
 else
 {
 int
@@ -8560,7 +8533,6 @@ new_size
 =
 0
 )
-{
 b
 -
 >
@@ -8574,9 +8546,7 @@ yy_buf_size
 /
 8
 ;
-}
 else
-{
 b
 -
 >
@@ -8585,7 +8555,6 @@ yy_buf_size
 =
 2
 ;
-}
 b
 -
 >
@@ -8633,7 +8602,6 @@ yyscanner
 ;
 }
 else
-{
 /
 *
 Can
@@ -8657,7 +8625,6 @@ yy_ch_buf
 =
 NULL
 ;
-}
 if
 (
 !
@@ -8666,7 +8633,6 @@ b
 >
 yy_ch_buf
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -8680,7 +8646,6 @@ overflow
 "
 )
 ;
-}
 yyg
 -
 >
@@ -8713,12 +8678,10 @@ num_to_read
 >
 YY_READ_BUF_SIZE
 )
-{
 num_to_read
 =
 YY_READ_BUF_SIZE
 ;
-}
 /
 *
 Read
@@ -8819,12 +8782,10 @@ YY_BUFFER_EOF_PENDING
 }
 }
 else
-{
 ret_val
 =
 EOB_ACT_CONTINUE_SCAN
 ;
-}
 if
 (
 (
@@ -8913,7 +8874,6 @@ YY_CURRENT_BUFFER_LVALUE
 >
 yy_ch_buf
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -8928,7 +8888,6 @@ yy_get_next_buffer
 "
 )
 ;
-}
 /
 *
 "
@@ -9161,7 +9120,6 @@ yy_current_state
 =
 95
 )
-{
 yy_c
 =
 yy_meta
@@ -9169,7 +9127,6 @@ yy_meta
 yy_c
 ]
 ;
-}
 }
 yy_current_state
 =
@@ -9322,7 +9279,6 @@ yy_current_state
 =
 95
 )
-{
 yy_c
 =
 yy_meta
@@ -9330,7 +9286,6 @@ yy_meta
 yy_c
 ]
 ;
-}
 }
 yy_current_state
 =
@@ -9500,7 +9455,6 @@ yyg
 yy_n_chars
 ]
 )
-{
 /
 *
 This
@@ -9522,7 +9476,6 @@ yy_c_buf_p
 0
 '
 ;
-}
 else
 {
 /
@@ -9656,11 +9609,9 @@ yywrap
 yyscanner
 )
 )
-{
 return
 0
 ;
-}
 if
 (
 !
@@ -9669,10 +9620,8 @@ yyg
 >
 yy_did_buffer_switch_on_eof
 )
-{
 YY_NEW_FILE
 ;
-}
 #
 ifdef
 __cplusplus
@@ -9966,10 +9915,8 @@ YY_CURRENT_BUFFER
 =
 new_buffer
 )
-{
 return
 ;
-}
 if
 (
 YY_CURRENT_BUFFER
@@ -10240,7 +10187,6 @@ if
 !
 b
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -10255,7 +10201,6 @@ yy_create_buffer
 "
 )
 ;
-}
 b
 -
 >
@@ -10326,7 +10271,6 @@ b
 >
 yy_ch_buf
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -10341,7 +10285,6 @@ yy_create_buffer
 "
 )
 ;
-}
 b
 -
 >
@@ -10412,10 +10355,8 @@ if
 !
 b
 )
-{
 return
 ;
-}
 if
 (
 b
@@ -10435,7 +10376,6 @@ here
 .
 *
 /
-{
 YY_CURRENT_BUFFER_LVALUE
 =
 (
@@ -10443,7 +10383,6 @@ YY_BUFFER_STATE
 )
 0
 ;
-}
 if
 (
 b
@@ -10451,7 +10390,6 @@ b
 >
 yy_is_our_buffer
 )
-{
 yyfree
 (
 (
@@ -10465,7 +10403,6 @@ yy_ch_buf
 yyscanner
 )
 ;
-}
 yyfree
 (
 (
@@ -10702,10 +10639,8 @@ if
 !
 b
 )
-{
 return
 ;
-}
 b
 -
 >
@@ -10808,13 +10743,11 @@ b
 =
 YY_CURRENT_BUFFER
 )
-{
 yy_load_buffer_state
 (
 yyscanner
 )
 ;
-}
 }
 /
 *
@@ -10890,10 +10823,8 @@ new_buffer
 =
 NULL
 )
-{
 return
 ;
-}
 yyensure_buffer_stack
 (
 yyscanner
@@ -10976,7 +10907,6 @@ if
 (
 YY_CURRENT_BUFFER
 )
-{
 yyg
 -
 >
@@ -10984,7 +10914,6 @@ yy_buffer_stack_top
 +
 +
 ;
-}
 YY_CURRENT_BUFFER_LVALUE
 =
 new_buffer
@@ -11066,10 +10995,8 @@ if
 !
 YY_CURRENT_BUFFER
 )
-{
 return
 ;
-}
 yy_delete_buffer
 (
 YY_CURRENT_BUFFER
@@ -11089,7 +11016,6 @@ yy_buffer_stack_top
 >
 0
 )
-{
 -
 -
 yyg
@@ -11097,7 +11023,6 @@ yyg
 >
 yy_buffer_stack_top
 ;
-}
 if
 (
 YY_CURRENT_BUFFER
@@ -11268,7 +11193,6 @@ yyg
 >
 yy_buffer_stack
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -11283,7 +11207,6 @@ yyensure_buffer_stack
 "
 )
 ;
-}
 memset
 (
 yyg
@@ -11407,7 +11330,6 @@ yyg
 >
 yy_buffer_stack
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -11422,7 +11344,6 @@ yyensure_buffer_stack
 "
 )
 ;
-}
 /
 *
 zero
@@ -11561,7 +11482,6 @@ size
 =
 YY_END_OF_BUFFER_CHAR
 )
-{
 /
 *
 They
@@ -11580,7 +11500,6 @@ s
 return
 NULL
 ;
-}
 b
 =
 (
@@ -11601,7 +11520,6 @@ if
 !
 b
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -11616,7 +11534,6 @@ yy_scan_buffer
 "
 )
 ;
-}
 b
 -
 >
@@ -11971,7 +11888,6 @@ if
 !
 buf
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -11986,7 +11902,6 @@ yy_scan_bytes
 "
 )
 ;
-}
 for
 (
 i
@@ -12001,7 +11916,6 @@ _yybytes_len
 +
 i
 )
-{
 buf
 [
 i
@@ -12012,7 +11926,6 @@ yybytes
 i
 ]
 ;
-}
 buf
 [
 _yybytes_len
@@ -12041,7 +11954,6 @@ if
 !
 b
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -12054,7 +11966,6 @@ yy_scan_bytes
 "
 )
 ;
-}
 /
 *
 It
@@ -12364,11 +12275,9 @@ if
 !
 YY_CURRENT_BUFFER
 )
-{
 return
 0
 ;
-}
 return
 yylineno
 ;
@@ -12415,11 +12324,9 @@ if
 !
 YY_CURRENT_BUFFER
 )
-{
 return
 0
 ;
-}
 return
 yycolumn
 ;
@@ -12719,7 +12626,6 @@ if
 !
 YY_CURRENT_BUFFER
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -12731,7 +12637,6 @@ buffer
 "
 )
 ;
-}
 yylineno
 =
 _line_number
@@ -12799,7 +12704,6 @@ if
 !
 YY_CURRENT_BUFFER
 )
-{
 YY_FATAL_ERROR
 (
 "
@@ -12811,7 +12715,6 @@ buffer
 "
 )
 ;
-}
 yycolumn
 =
 _column_no
@@ -13841,7 +13744,6 @@ n
 +
 i
 )
-{
 s1
 [
 i
@@ -13852,7 +13754,6 @@ s2
 i
 ]
 ;
-}
 }
 #
 endif
@@ -14179,11 +14080,9 @@ string
 0
 )
 )
-{
 return
 false
 ;
-}
 mContext
 .
 input
@@ -14469,11 +14368,9 @@ mContext
 mHandle
 )
 )
-{
 return
 false
 ;
-}
 yyrestart
 (
 0
@@ -14499,10 +14396,8 @@ mHandle
 =
 nullptr
 )
-{
 return
 ;
-}
 yylex_destroy
 (
 mHandle

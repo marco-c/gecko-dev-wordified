@@ -670,11 +670,10 @@ constructorArgs
 }
 /
 /
-clamp
+min
 (
-index
-zero
-max
+gl_PointSize
+maxPointSize
 )
 TIntermSequence
 args

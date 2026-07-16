@@ -93,7 +93,7 @@ class
 VertexDataManager
 ;
 class
-ProgramExecutable
+Program
 ;
 }
 /
@@ -146,9 +146,9 @@ attributes
 gl
 :
 :
-ProgramExecutable
+Program
 *
-executable
+program
 GLint
 start
 GLsizei

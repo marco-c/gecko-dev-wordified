@@ -348,7 +348,7 @@ anglebug
 .
 com
 /
-42261786
+3107
 .
 /
 /
@@ -497,8 +497,6 @@ samples
 <
 =
 formatCaps
-.
-sampleCounts
 .
 getMaxSamples
 (

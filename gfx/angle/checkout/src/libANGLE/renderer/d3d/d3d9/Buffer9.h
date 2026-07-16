@@ -209,9 +209,6 @@ gl
 :
 BufferUsage
 usage
-BufferFeedback
-*
-feedback
 )
 override
 ;
@@ -241,9 +238,6 @@ size_t
 size
 size_t
 offset
-BufferFeedback
-*
-feedback
 )
 override
 ;
@@ -269,9 +263,6 @@ GLintptr
 destOffset
 GLsizeiptr
 size
-BufferFeedback
-*
-feedback
 )
 override
 ;
@@ -294,9 +285,6 @@ void
 *
 *
 mapPtr
-BufferFeedback
-*
-feedback
 )
 override
 ;
@@ -323,9 +311,6 @@ void
 *
 *
 mapPtr
-BufferFeedback
-*
-feedback
 )
 override
 ;
@@ -345,9 +330,6 @@ context
 GLboolean
 *
 result
-BufferFeedback
-*
-feedback
 )
 override
 ;
@@ -364,9 +346,6 @@ gl
 Context
 *
 context
-BufferFeedback
-*
-feedback
 )
 override
 ;

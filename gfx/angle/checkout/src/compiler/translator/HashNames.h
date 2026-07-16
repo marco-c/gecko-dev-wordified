@@ -99,8 +99,6 @@ const
 ImmutableString
 &
 name
-char
-prefix
 ShHashFunction64
 hashFunction
 NameMap
@@ -149,8 +147,6 @@ const
 TSymbol
 *
 symbol
-char
-prefix
 ShHashFunction64
 hashFunction
 NameMap

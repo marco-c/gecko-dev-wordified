@@ -202,9 +202,6 @@ freeTlsIndices
 ;
 #
 endif
-namespace
-angle
-{
 TLSIndex
 CreateTLSIndex
 (
@@ -745,8 +742,3 @@ index
 #
 endif
 }
-}
-/
-/
-namespace
-angle
