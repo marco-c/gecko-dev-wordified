@@ -1575,6 +1575,12 @@ nsIPrincipal
 >
 mLoadingPrincipal
 ;
+Maybe
+<
+ClientInfo
+>
+mClientInfo
+;
 RefPtr
 <
 WebSocketImplProxy
@@ -9985,6 +9991,10 @@ mSecureContext
 =
 aIsSecure
 ;
+mClientInfo
+=
+aClientInfo
+;
 /
 /
 If
@@ -11826,6 +11836,7 @@ nsIContentPolicy
 :
 :
 TYPE_WEBSOCKET
+mClientInfo
 0
 )
 ;
