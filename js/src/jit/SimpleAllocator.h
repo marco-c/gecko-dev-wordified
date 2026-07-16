@@ -2174,11 +2174,14 @@ LInstruction
 ins
 )
 ;
-LAllocation
+bool
 ensureStackLocation
 (
 uint32_t
 vregId
+LAllocation
+*
+allocation
 )
 ;
 LAllocation

@@ -5909,7 +5909,12 @@ LiveBundle
 bundle1
 )
 ;
-void
+[
+[
+nodiscard
+]
+]
+bool
 allocateStackDefinition
 (
 VirtualRegister
