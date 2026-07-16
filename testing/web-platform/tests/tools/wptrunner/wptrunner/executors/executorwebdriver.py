@@ -2830,7 +2830,8 @@ value
 =
 value
         
-return
+extension_id
+=
 self
 .
 parent
@@ -2856,6 +2857,9 @@ extension_data
 params
 )
 )
+        
+return
+extension_id
     
 def
 uninstall_web_extension

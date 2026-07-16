@@ -201,7 +201,7 @@ installPromise
 then
 (
 (
-result
+extension_id
 )
 =
 >
@@ -211,9 +211,7 @@ test_driver
 .
 uninstall_web_extension
 (
-result
-.
-extension
+extension_id
 )
 ;
 }

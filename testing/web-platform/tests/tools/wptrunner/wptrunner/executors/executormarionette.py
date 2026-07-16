@@ -5599,13 +5599,7 @@ True
 )
         
 return
-{
-'
-extension
-'
-:
 extension_id
-}
     
 def
 uninstall_web_extension
