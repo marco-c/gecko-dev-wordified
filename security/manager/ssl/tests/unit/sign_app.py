@@ -103,13 +103,8 @@ b64encode
 from
 cbor2
 import
-dumps
-from
-cbor2
-.
-types
-import
 CBORTag
+dumps
 from
 hashlib
 import
@@ -919,6 +914,9 @@ validity
 =
 "
 "
+tamperSpki
+=
+False
 )
 :
     
@@ -967,6 +965,18 @@ issuer
 key
     
 name
+a
+validity
+period
+and
+whether
+or
+not
+to
+tamper
+with
+the
+SPKI
 .
 "
 "
@@ -1095,6 +1105,19 @@ s
 %
 validity
     
+if
+tamperSpki
+:
+        
+certSpecification
++
+=
+"
+\
+ntamperSpki
+:
+"
+    
 certSpecificationStream
 =
 StringIO
@@ -1130,6 +1153,7 @@ coseAlgorithm
 issuerName
 issuerKey
 certValidity
+tamperSpki
 )
 :
     
@@ -1316,6 +1340,8 @@ True
 issuerKey
         
 certValidity
+        
+tamperSpki
     
 )
     
@@ -1344,6 +1370,8 @@ rootName
 rootKey
     
 certValidity
+    
+tamperSpki
     
 manifestHashes
     
@@ -1864,6 +1892,8 @@ coseIssuerName
 issuerKey
                     
 certValidity
+                    
+tamperSpki
                 
 )
                 
@@ -2820,6 +2850,52 @@ add_argument
         
 "
 -
+t
+"
+        
+"
+-
+-
+tamper
+-
+spki
+"
+        
+action
+=
+"
+store_true
+"
+        
+help
+=
+"
+Whether
+or
+not
+to
+tamper
+with
+the
+SPKI
+(
+only
+supported
+for
+COSE
+signatures
+)
+"
+    
+)
+    
+parser
+.
+add_argument
+(
+        
+"
+-
 z
 "
         
@@ -3034,6 +3110,10 @@ root_key
 parsed
 .
 cert_validity
+        
+parsed
+.
+tamper_spki
         
 [
 hashNameToFunctionAndIdentifier
