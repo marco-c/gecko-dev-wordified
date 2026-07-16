@@ -21338,7 +21338,7 @@ contextPaint
 =
 MakeRefPtr
 <
-SVGContextPaintImpl
+SVGContextPaint
 >
 (
 &

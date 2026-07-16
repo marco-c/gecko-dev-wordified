@@ -611,7 +611,7 @@ mContextPaint
 =
 MakeRefPtr
 <
-SVGEmbeddingContextPaint
+SVGContextPaint
 >
 (
 fill
@@ -870,7 +870,7 @@ mContextPaint
 =
 MakeRefPtr
 <
-SVGEmbeddingContextPaint
+SVGContextPaint
 >
 (
 fill

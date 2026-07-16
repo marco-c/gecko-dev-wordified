@@ -620,7 +620,7 @@ aLinkParameters
 ;
 }
 const
-SVGEmbeddingContextPaint
+SVGContextPaint
 *
 GetContextPaint
 (
@@ -654,7 +654,7 @@ mContextPaint
 =
 MakeRefPtr
 <
-SVGEmbeddingContextPaint
+SVGContextPaint
 >
 (
 aFill
@@ -1075,7 +1075,7 @@ operator
 .
 RefPtr
 <
-SVGEmbeddingContextPaint
+SVGContextPaint
 >
 mContextPaint
 ;
