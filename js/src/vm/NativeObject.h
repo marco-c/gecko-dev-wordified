@@ -6469,6 +6469,10 @@ MarkingTracerT
 ;
 friend
 class
+GCMarker
+;
+friend
+class
 Shape
 ;
 void
