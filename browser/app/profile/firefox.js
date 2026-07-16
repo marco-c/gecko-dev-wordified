@@ -26839,7 +26839,7 @@ shortcuts
 .
 smartwindow
 "
-false
+true
 )
 ;
 pref
