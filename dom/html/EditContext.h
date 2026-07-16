@@ -451,12 +451,7 @@ nsGenericHTMLElement
 *
 aElement
 )
-{
-mAssociatedElement
-=
-aElement
 ;
-}
 /
 /
 Anonymous
