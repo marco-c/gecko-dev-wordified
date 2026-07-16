@@ -3407,7 +3407,7 @@ observe
 (
 this
 .
-sidebarMain
+sidebarContainer
 )
 ;
 this
@@ -4350,7 +4350,7 @@ launcherWidth
 =
 entry
 .
-contentBoxSize
+borderBoxSize
 [
 0
 ]
@@ -11753,7 +11753,7 @@ panelWidth
 =
 entry
 .
-contentBoxSize
+borderBoxSize
 [
 0
 ]
