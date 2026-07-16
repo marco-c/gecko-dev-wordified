@@ -553,9 +553,6 @@ in
 &
 [
 "
-brush_solid
-"
-"
 brush_mix_blend
 "
 ]
