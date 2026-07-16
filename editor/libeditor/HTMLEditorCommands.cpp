@@ -9815,7 +9815,7 @@ htmlEditor
 htmlEditor
 -
 >
-GetEditContext
+ComputeEditContext
 (
 )
 )

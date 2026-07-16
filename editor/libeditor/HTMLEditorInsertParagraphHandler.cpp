@@ -470,7 +470,7 @@ result
 }
 if
 (
-GetEditContext
+GetEditActionEditContext
 (
 )
 )
