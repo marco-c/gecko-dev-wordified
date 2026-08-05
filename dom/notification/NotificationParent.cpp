@@ -287,6 +287,16 @@ Click
 ;
 }
 NS_IMETHODIMP
+OnAlertDismissedFromForeground
+(
+)
+override
+{
+return
+NS_OK
+;
+}
+NS_IMETHODIMP
 OnAlertClosed
 (
 )
