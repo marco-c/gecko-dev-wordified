@@ -116,17 +116,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 test
 /
 mock_video_encoder
@@ -229,6 +218,15 @@ api
 video_codecs
 /
 video_encoder_factory_template_open_h264_adapter
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_environment
 .
 h
 "
@@ -605,7 +603,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -823,7 +821,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1139,7 +1137,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1238,7 +1236,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1373,7 +1371,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -1481,7 +1479,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;

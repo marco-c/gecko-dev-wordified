@@ -223,6 +223,13 @@ GetFlag
 (
 FLAGS_force_fieldtrials
 )
+/
+*
+is_test
+=
+*
+/
+true
 )
 ;
 result

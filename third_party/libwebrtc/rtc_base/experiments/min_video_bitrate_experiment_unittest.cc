@@ -134,6 +134,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -151,6 +160,8 @@ NulloptForAllCodecsIfFieldTrialUndefined
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -217,6 +228,8 @@ NulloptForAllCodecsIfFieldTrialDisabled
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -294,6 +307,8 @@ BrForAllCodecsIfDefined
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -383,6 +398,8 @@ BrTrumpsSpecificCodecConfigs
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -483,6 +500,8 @@ SpecificCodecConfigsIgnoredIfExpDisabled
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -568,6 +587,8 @@ SpecificCodecConfigsUsedIfExpEnabled
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -662,6 +683,8 @@ Vp8BitrateValueTakenFromFallbackIfAvailable
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -733,6 +756,8 @@ NonVp8BitrateValuesTakenFromMinVideoBitrate
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

@@ -118,6 +118,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -135,6 +144,8 @@ DisabledByDefault
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -164,6 +175,8 @@ EnabledWithDefaults
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -274,6 +287,8 @@ ParsesValues
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -391,6 +406,8 @@ ValidationLowOverhead
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -436,6 +453,8 @@ ValidationHighOverhead
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -481,6 +500,8 @@ ParsesAsynchronousEvaluation
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

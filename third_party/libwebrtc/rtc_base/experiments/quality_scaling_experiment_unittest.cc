@@ -118,6 +118,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -339,6 +348,8 @@ DefaultEnabledWithoutFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -366,6 +377,8 @@ DefaultDisabledWithoutFieldTrialIOS
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -393,6 +406,8 @@ EnabledWithFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -484,6 +499,8 @@ drop
 ;
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -574,6 +591,8 @@ ParseSettingsUsesDefaultsWithoutFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -610,6 +629,8 @@ ParseSettingsFailsWithoutFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -637,6 +658,8 @@ ParseSettingsFailsWithInvalidFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -672,6 +695,8 @@ GetConfig
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -749,6 +774,8 @@ GetsDefaultConfigForInvalidFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -808,6 +835,8 @@ true
 ;
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -864,6 +893,8 @@ GetVp8Thresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -938,6 +969,8 @@ GetThresholdsFailsForInvalidVp8Value
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -994,6 +1027,8 @@ GetVp9Thresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1068,6 +1103,8 @@ GetThresholdsFailsForInvalidVp9Value
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1124,6 +1161,8 @@ GetH264Thresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1198,6 +1237,8 @@ GetThresholdsFailsForInvalidH264Value
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1254,6 +1295,8 @@ GetGenericThresholds
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -1328,6 +1371,8 @@ GetThresholdsFailsForInvalidGenericValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

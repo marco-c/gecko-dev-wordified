@@ -137,6 +137,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -454,6 +463,8 @@ InitializesFromFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

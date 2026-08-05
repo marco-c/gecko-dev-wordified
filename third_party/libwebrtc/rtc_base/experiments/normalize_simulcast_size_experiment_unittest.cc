@@ -107,6 +107,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -122,6 +131,8 @@ GetExponent
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -156,6 +167,8 @@ GetExponentWithTwoParameters
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -192,6 +205,8 @@ GetExponentFailsIfNotEnabled
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -223,6 +238,8 @@ GetExponentFailsForInvalidFieldTrial
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -266,6 +283,8 @@ range
 .
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -310,6 +329,8 @@ range
 .
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC

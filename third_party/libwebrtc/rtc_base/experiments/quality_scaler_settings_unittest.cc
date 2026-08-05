@@ -107,6 +107,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gtest
 .
 h
@@ -124,6 +133,8 @@ ValuesNotSetByDefault
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 "
@@ -192,6 +203,8 @@ ParseMinFrames
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -229,6 +242,8 @@ ParseInitialScaleFactor
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -270,6 +285,8 @@ ParseScaleFactor
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -311,6 +328,8 @@ ParseInitialBitrateInterval
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -348,6 +367,8 @@ ParseInitialBitrateFactor
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -389,6 +410,8 @@ ParseAll
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -500,6 +523,8 @@ DoesNotParseIncorrectValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -594,6 +619,8 @@ DoesNotReturnTooSmallValue
 {
 FieldTrials
 field_trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
