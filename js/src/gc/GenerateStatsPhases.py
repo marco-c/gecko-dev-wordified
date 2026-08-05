@@ -1070,6 +1070,13 @@ Callback
             
 )
             
+getPhaseKind
+(
+"
+EVICT_NURSERY_FOR_MAJOR_GC
+"
+)
+            
 addPhaseKind
 (
 "

@@ -828,6 +828,8 @@ gc
 ;
 bool
 restartPreVerifier
+=
+false
 ;
 public
 :
@@ -870,13 +872,6 @@ restartPreVerifier
 =
 !
 isShutdown
-;
-}
-else
-{
-restartPreVerifier
-=
-false
 ;
 }
 }
@@ -943,6 +938,11 @@ is
 in
 progress
 .
+if
+(
+restartPreVerifier
+)
+{
 gcstats
 :
 :
@@ -1010,11 +1010,6 @@ PhaseKind
 NONE
 )
 ;
-if
-(
-restartPreVerifier
-)
-{
 gc
 -
 >
@@ -1022,7 +1017,6 @@ startVerifyPreBarriers
 (
 )
 ;
-}
 if
 (
 outer
@@ -1049,6 +1043,7 @@ beginPhase
 outer
 )
 ;
+}
 }
 }
 }
