@@ -4041,18 +4041,15 @@ None
         
 assert
 methodspec
-=
-=
+in
+(
 MethodSpec
 .
 NONE
-or
-methodspec
-=
-=
 MethodSpec
 .
 STATIC
+)
         
 MethodDecl
 .
@@ -4262,18 +4259,15 @@ not
         
 assert
 methodspec
-=
-=
+in
+(
 MethodSpec
 .
 NONE
-or
-methodspec
-=
-=
 MethodSpec
 .
 VIRTUAL
+)
         
 MethodDecl
 .

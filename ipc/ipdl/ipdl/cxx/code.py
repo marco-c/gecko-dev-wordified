@@ -143,9 +143,9 @@ these
 cases
 .
 import
-re
-import
 math
+import
+re
 import
 textwrap
 from
@@ -155,10 +155,10 @@ cxx
 .
 ast
 import
-Node
-Whitespace
 GroupNode
+Node
 VerbatimNode
+Whitespace
 #
 -
 -
