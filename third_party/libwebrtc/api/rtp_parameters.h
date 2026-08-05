@@ -2735,6 +2735,15 @@ ToString
 )
 const
 ;
+std
+:
+:
+string
+SanitizedUriForLogging
+(
+)
+const
+;
 bool
 operator
 =
@@ -4248,7 +4257,9 @@ extension
 id
 extension
 .
-uri
+SanitizedUriForLogging
+(
+)
 )
 ;
 }
@@ -4274,7 +4285,9 @@ extension
 id
 extension
 .
-uri
+SanitizedUriForLogging
+(
+)
 )
 ;
 }
