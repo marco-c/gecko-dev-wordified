@@ -4215,11 +4215,11 @@ equal
 config
 .
 hasNoUserFix
-true
+false
 "
 Should
 have
-no
+a
 user
 fix
 "
