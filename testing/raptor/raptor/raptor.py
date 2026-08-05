@@ -677,6 +677,12 @@ args
 .
 samply_profile
             
+perf_profile
+=
+args
+.
+perf_profile
+            
 symbols_path
 =
 args
@@ -1314,15 +1320,23 @@ profiling
 any
 (
 [
+        
 args
 .
 gecko_profile
+        
 args
 .
 simpleperf
+        
 args
 .
 samply_profile
+        
+args
+.
+perf_profile
+    
 ]
 )
     
