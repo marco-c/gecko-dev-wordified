@@ -142,17 +142,6 @@ mozilla
 /
 dom
 /
-Document
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerPrivate
 .
 h

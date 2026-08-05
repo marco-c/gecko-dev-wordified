@@ -450,17 +450,6 @@ mozilla
 /
 dom
 /
-Document
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ElementBinding
 .
 h

@@ -123,13 +123,6 @@ h
 #
 include
 "
-ScriptLoaderInterface
-.
-h
-"
-#
-include
-"
 js
 /
 SourceText
@@ -159,6 +152,9 @@ ScriptFetchInfo
 ;
 class
 ScriptLoadRequest
+;
+class
+ScriptLoaderInterface
 ;
 /
 *

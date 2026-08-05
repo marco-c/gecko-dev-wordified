@@ -122,15 +122,6 @@ include
 "
 mozilla
 /
-StoragePrincipalHelper
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h
