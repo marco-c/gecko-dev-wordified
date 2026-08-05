@@ -2177,12 +2177,6 @@ RecvPrinting
 ;
 #
 endif
-bool
-ShouldAllowConstruction
-(
-)
-const
-;
 private
 :
 ~

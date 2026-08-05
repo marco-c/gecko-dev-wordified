@@ -8369,10 +8369,7 @@ SendRequestAckMutationEvents
 }
 if
 (
-mDocument
--
->
-ShouldSendToParentProcess
+IPCAccessibilityActive
 (
 )
 )
