@@ -3000,15 +3000,6 @@ statistics
 int32_t
 mDecodeCount
 ;
-Atomic
-<
-bool
->
-mIsBeingDestroyed
-{
-false
-}
-;
 #
 ifdef
 DEBUG
