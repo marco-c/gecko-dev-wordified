@@ -701,6 +701,14 @@ CongestionControl
 (
 )
 ;
+void
+GetProtocol
+(
+nsAString
+&
+aProtocol
+)
+;
 already_AddRefed
 <
 Promise
@@ -1087,6 +1095,9 @@ mIncomingUnidirectionalAlgorithm
 ;
 WebTransportReliabilityMode
 mReliability
+;
+nsString
+mProtocol
 ;
 /
 /
