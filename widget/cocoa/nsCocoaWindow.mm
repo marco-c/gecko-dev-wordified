@@ -47240,12 +47240,9 @@ UnlockNativePointer
 {
 if
 (
-NS_WARN_IF
-(
 !
 GetNativePointerLockedMode
 (
-)
 )
 )
 {
