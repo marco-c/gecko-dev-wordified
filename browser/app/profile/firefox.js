@@ -27638,7 +27638,7 @@ smartwindow
 .
 mistralRelease
 "
-false
+true
 )
 ;
 /
