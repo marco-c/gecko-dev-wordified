@@ -554,6 +554,10 @@ log_clock_
 }
 )
 )
+parsed_log_
+(
+nullptr
+)
 log_
 (
 RtcEventLogFactory
@@ -564,10 +568,6 @@ Create
 (
 log_env_
 )
-)
-parsed_log_
-(
-nullptr
 )
 {
 log_
