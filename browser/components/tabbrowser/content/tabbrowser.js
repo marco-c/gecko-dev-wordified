@@ -16234,7 +16234,7 @@ document
 createXULElement
 (
 "
-vbox
+box
 "
 )
 ;
