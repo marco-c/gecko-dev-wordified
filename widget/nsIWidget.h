@@ -14408,7 +14408,7 @@ Windows
 *
 *
 *
-NotifyCompositorScrollUpdates
+NotifyCompositorScrollUpdate
 notify
 widget
 about
@@ -14426,11 +14426,9 @@ zoom
 /
 virtual
 void
-NotifyCompositorScrollUpdates
+NotifyCompositorScrollUpdate
 (
 const
-nsTArray
-<
 mozilla
 :
 :
@@ -14438,9 +14436,8 @@ layers
 :
 :
 CompositorScrollUpdate
->
 &
-aUpdates
+aUpdate
 )
 {
 }
