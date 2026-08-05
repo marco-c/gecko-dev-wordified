@@ -158,6 +158,17 @@ include
 "
 api
 /
+environment
+/
+force_test_environment
+.
+h
+"
+#
+include
+"
+api
+/
 field_trials
 .
 h
@@ -433,6 +444,9 @@ CreateTestEnvironmentOptions
 o
 )
 {
+AutoBypassTestEnvironmentCheck
+bypass
+;
 EnvironmentFactory
 factory
 ;

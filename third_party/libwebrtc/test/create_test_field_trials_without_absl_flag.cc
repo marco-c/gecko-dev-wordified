@@ -139,6 +139,17 @@ include
 "
 api
 /
+environment
+/
+force_test_environment
+.
+h
+"
+#
+include
+"
+api
+/
 field_trials
 .
 h
@@ -165,6 +176,9 @@ string_view
 s
 )
 {
+AutoBypassTestEnvironmentCheck
+bypass
+;
 return
 FieldTrials
 (
