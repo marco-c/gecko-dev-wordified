@@ -24341,7 +24341,7 @@ stickyASR
 aBuilder
 -
 >
-GetOrCreateActiveScrolledRootForSticky
+GetOrCreateActiveScrolledRoot
 (
 aBuilder
 -
@@ -24350,6 +24350,13 @@ CurrentActiveScrolledRoot
 (
 )
 this
+ActiveScrolledRoot
+:
+:
+ASRKind
+:
+:
+Sticky
 )
 ;
 asrSetter
