@@ -221,8 +221,6 @@ other
 .
 mVariable
 ?
-other
-.
 mVariable
 -
 >
