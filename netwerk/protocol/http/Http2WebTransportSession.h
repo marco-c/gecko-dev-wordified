@@ -548,6 +548,14 @@ aKeyingMaterial
 )
 override
 ;
+nsresult
+RegisterSendGroup
+(
+uint64_t
+aGroupId
+)
+override
+;
 void
 CreateOutgoingBidirectionalStream
 (
