@@ -1458,7 +1458,7 @@ test
 "
 iconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

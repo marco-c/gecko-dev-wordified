@@ -136,7 +136,7 @@ Math
 .
 ceil
 (
-UrlbarShared
+UrlbarUtils
 .
 MAX_TEXT_LENGTH
 /
@@ -171,7 +171,7 @@ Math
 .
 ceil
 (
-UrlbarShared
+UrlbarUtils
 .
 MAX_TEXT_LENGTH
 /

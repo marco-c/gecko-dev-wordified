@@ -700,7 +700,7 @@ priority
 Infinity
 type
 :
-UrlbarShared
+UrlbarUtils
 .
 PROVIDER_TYPE
 .

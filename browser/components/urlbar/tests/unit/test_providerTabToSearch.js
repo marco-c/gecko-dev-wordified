@@ -467,7 +467,7 @@ testEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -1000,7 +1000,7 @@ testEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -1391,7 +1391,7 @@ testEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -1614,7 +1614,7 @@ wwwTestEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -1796,7 +1796,7 @@ wwwTestEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -2196,7 +2196,7 @@ fooTestEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -2401,7 +2401,7 @@ fooBarTestEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -2782,7 +2782,7 @@ testEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -3058,7 +3058,7 @@ testEngine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -3273,7 +3273,7 @@ engine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -3794,7 +3794,7 @@ engine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

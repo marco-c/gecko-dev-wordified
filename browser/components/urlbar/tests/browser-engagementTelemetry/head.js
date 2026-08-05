@@ -2524,7 +2524,7 @@ tesrt
 url
 icon
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

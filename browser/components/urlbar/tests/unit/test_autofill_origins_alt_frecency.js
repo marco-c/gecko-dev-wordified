@@ -739,7 +739,7 @@ engine
 name
 engineIconUri
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

@@ -1771,7 +1771,7 @@ openNewBrowserWindow
 const
 globeIconUrl
 =
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -4936,7 +4936,7 @@ Assert
 equal
 (
 searchModeSwitcherIconUrl
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -5220,7 +5220,7 @@ getSearchModeSwitcherIcon
 (
 window
 )
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

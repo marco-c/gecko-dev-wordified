@@ -119,7 +119,7 @@ highlights
 {
 url
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .

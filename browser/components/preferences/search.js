@@ -2954,7 +2954,7 @@ suffix
 >
 lazy
 .
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 .
@@ -3064,7 +3064,7 @@ englishIDs
 ;
 lazy
 .
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 .
@@ -4031,7 +4031,7 @@ null
 return
 lazy
 .
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 [
@@ -5338,7 +5338,7 @@ localModes
 =
 lazy
 .
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 ;

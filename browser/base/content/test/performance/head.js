@@ -2066,7 +2066,7 @@ window
 )
 !
 =
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

@@ -1245,7 +1245,7 @@ defaultEngines
 .
 length
 +
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 .
@@ -1579,7 +1579,7 @@ defaultEngines
 .
 length
 +
-UrlbarShared
+UrlbarUtils
 .
 LOCAL_SEARCH_MODES
 .

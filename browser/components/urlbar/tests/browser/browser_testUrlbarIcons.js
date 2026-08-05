@@ -272,7 +272,7 @@ getSwitcherIconUrl
 (
 window
 )
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -661,7 +661,7 @@ window
 )
 =
 =
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -688,7 +688,7 @@ getSwitcherIconUrl
 (
 window
 )
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -842,7 +842,7 @@ window
 )
 =
 =
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .
@@ -869,7 +869,7 @@ getSwitcherIconUrl
 (
 window
 )
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

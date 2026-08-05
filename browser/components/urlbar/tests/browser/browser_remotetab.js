@@ -146,7 +146,7 @@ url
 TEST_URL
 icon
 :
-UrlbarShared
+UrlbarUtils
 .
 ICON
 .

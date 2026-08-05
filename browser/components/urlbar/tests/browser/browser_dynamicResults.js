@@ -2381,7 +2381,7 @@ highlights
 {
 text
 :
-UrlbarShared
+UrlbarUtils
 .
 HIGHLIGHT
 .
