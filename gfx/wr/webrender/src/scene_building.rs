@@ -15700,7 +15700,6 @@ fn
 create_linear_gradient_prim
 (
 &
-mut
 self
 info
 :
@@ -16051,13 +16050,6 @@ stops
 reverse_stops
 nine_patch
 edge_aa_mask
-enable_dithering
-:
-self
-.
-config
-.
-enable_dithering
 }
 )
 }

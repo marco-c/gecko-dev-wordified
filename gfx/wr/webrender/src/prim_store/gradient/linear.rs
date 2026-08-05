@@ -411,10 +411,6 @@ Box
 NinePatchDescriptor
 >
 >
-pub
-enable_dithering
-:
-bool
 }
 impl
 LinearGradientKey
@@ -484,11 +480,6 @@ nine_patch
 linear_grad
 .
 nine_patch
-enable_dithering
-:
-linear_grad
-.
-enable_dithering
 }
 }
 }
@@ -2817,10 +2808,6 @@ pub
 edge_aa_mask
 :
 EdgeMask
-pub
-enable_dithering
-:
-bool
 }
 impl
 Internable
