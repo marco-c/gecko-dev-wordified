@@ -1655,6 +1655,12 @@ break
 ;
 }
 }
+mDocumentChildren
+.
+Clear
+(
+)
+;
 mXSLTProcessor
 -
 >
