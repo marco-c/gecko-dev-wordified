@@ -157,6 +157,14 @@ mozbuild
 .
 frontend
 .
+l10n_manifest
+import
+L10nManifestContext
+from
+mozbuild
+.
+frontend
+.
 reader
 import
 (
@@ -478,8 +486,13 @@ filter_common
 and
 isinstance
 (
+                
 obj
+(
 DirectoryTraversal
+L10nManifestContext
+)
+            
 )
 :
                 
