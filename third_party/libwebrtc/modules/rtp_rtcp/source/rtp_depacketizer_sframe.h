@@ -151,7 +151,7 @@ SframeRtpPacketReceived
 carrying
 the
 parsed
-SFrameDescriptor
+SframeDescriptor
 and
 a
 copy

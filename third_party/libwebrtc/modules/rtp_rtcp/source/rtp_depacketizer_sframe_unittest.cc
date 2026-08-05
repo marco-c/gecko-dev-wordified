@@ -215,7 +215,7 @@ bit
 indices
 declared
 on
-SFrameDescriptor
+SframeDescriptor
 .
 uint8_t
 MakeDescriptorByte
@@ -241,7 +241,7 @@ bits
 .
 set
 (
-SFrameDescriptor
+SframeDescriptor
 :
 :
 kSBit
@@ -252,7 +252,7 @@ bits
 .
 set
 (
-SFrameDescriptor
+SframeDescriptor
 :
 :
 kEBit
@@ -263,7 +263,7 @@ bits
 .
 set
 (
-SFrameDescriptor
+SframeDescriptor
 :
 :
 kTBit

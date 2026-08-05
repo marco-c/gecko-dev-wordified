@@ -350,7 +350,7 @@ be
 0
 .
 struct
-SFrameDescriptor
+SframeDescriptor
 {
 /
 /

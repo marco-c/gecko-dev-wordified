@@ -164,7 +164,7 @@ the
 parsed
 /
 /
-SFrameDescriptor
+SframeDescriptor
 alongside
 the
 packet
@@ -204,7 +204,7 @@ RtpPacketReceived
 >
 packet
 const
-SFrameDescriptor
+SframeDescriptor
 &
 descriptor
 )
@@ -271,7 +271,7 @@ packet_
 ;
 }
 const
-SFrameDescriptor
+SframeDescriptor
 &
 descriptor
 (
@@ -347,7 +347,7 @@ RtpPacketReceived
 >
 packet_
 ;
-SFrameDescriptor
+SframeDescriptor
 descriptor_
 ;
 }
