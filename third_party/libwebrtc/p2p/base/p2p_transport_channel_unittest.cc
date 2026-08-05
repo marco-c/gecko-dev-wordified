@@ -863,15 +863,6 @@ include
 "
 test
 /
-create_test_field_trials
-.
-h
-"
-#
-include
-"
-test
-/
 gmock
 .
 h
@@ -18290,8 +18281,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -18300,7 +18289,6 @@ PiggybackIceCheckAcknowledgement
 Enabled
 /
 "
-)
 .
 time
 =
@@ -33029,8 +33017,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -33043,7 +33029,6 @@ send_ping_on_nomination_ice_controlled
 true
 /
 "
-)
 .
 time
 =
@@ -33459,8 +33444,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -33471,7 +33454,6 @@ send_ping_on_switch_ice_controlling
 true
 /
 "
-)
 .
 time
 =
@@ -33857,8 +33839,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -33869,7 +33849,6 @@ send_ping_on_selected_ice_controlling
 true
 /
 "
-)
 .
 time
 =
@@ -41507,8 +41486,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -41519,7 +41496,6 @@ max_outstanding_pings
 3
 /
 "
-)
 .
 time
 =
@@ -43672,8 +43648,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -43684,7 +43658,6 @@ skip_relay_to_non_relay_connections
 true
 /
 "
-)
 .
 time
 =
@@ -51254,8 +51227,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -51266,7 +51237,6 @@ skip_relay_to_non_relay_connections
 true
 /
 "
-)
 .
 time
 =
@@ -51818,8 +51788,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -51830,7 +51798,6 @@ initial_select_dampening
 0
 /
 "
-)
 .
 time
 =
@@ -52047,8 +52014,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -52059,7 +52024,6 @@ initial_select_dampening
 100
 /
 "
-)
 .
 time
 =
@@ -52288,8 +52252,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -52300,7 +52262,6 @@ initial_select_dampening_ping_received
 100
 /
 "
-)
 .
 time
 =
@@ -52541,8 +52502,6 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 "
 WebRTC
 -
@@ -52563,7 +52522,6 @@ select_dampening_ping_received
 50
 /
 "
-)
 .
 time
 =
@@ -54663,10 +54621,7 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 field_trial
-)
 .
 time
 =
@@ -55148,10 +55103,7 @@ CreateTestEnvironment
 .
 field_trials
 =
-CreateTestFieldTrialsPtr
-(
 field_trial
-)
 .
 time
 =
