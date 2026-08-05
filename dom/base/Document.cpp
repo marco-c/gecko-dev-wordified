@@ -14550,6 +14550,15 @@ nsICacheInfoChannel
 :
 :
 kCacheHit
+|
+|
+disposition
+=
+=
+nsICacheInfoChannel
+:
+:
+kCacheHitViaReval
 ;
 }
 }
