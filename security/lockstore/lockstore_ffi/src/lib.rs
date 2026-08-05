@@ -3756,7 +3756,7 @@ secret
 nsACString
 timeout_ms
 :
-u32
+u64
 )
 -
 >
@@ -3820,8 +3820,6 @@ Duration
 from_millis
 (
 timeout_ms
-as
-u64
 )
 )
 ;
@@ -4295,7 +4293,7 @@ secret
 nsACString
 cache_timeout_ms
 :
-u32
+u64
 ret_kek_ref
 :
 &
@@ -4393,8 +4391,6 @@ Duration
 from_millis
 (
 cache_timeout_ms
-as
-u64
 )
 )
 ;

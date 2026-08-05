@@ -529,7 +529,7 @@ const
 nsACString
 &
 aSecret
-uint32_t
+uint64_t
 aTimeoutMs
 )
 ;
@@ -776,7 +776,7 @@ const
 nsACString
 &
 aSecret
-uint32_t
+uint64_t
 aCacheTimeoutMs
 )
 ;
