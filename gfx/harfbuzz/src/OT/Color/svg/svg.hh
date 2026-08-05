@@ -2715,7 +2715,7 @@ if
 (
 !
 (
-isalnum
+ISALNUM
 (
 c
 )

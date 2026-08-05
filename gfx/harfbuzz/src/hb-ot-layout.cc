@@ -2813,6 +2813,9 @@ length
 =
 point_count
 )
+(
+nullable
+)
 :
 The
 array
@@ -3033,6 +3036,9 @@ array
 length
 =
 caret_count
+)
+(
+nullable
 )
 :
 The
@@ -3438,6 +3444,9 @@ array
 length
 =
 script_count
+)
+(
+nullable
 )
 :
 The
@@ -4524,6 +4533,9 @@ length
 =
 feature_count
 )
+(
+nullable
+)
 :
 Array
 of
@@ -4963,6 +4975,9 @@ array
 length
 =
 language_count
+)
+(
+nullable
 )
 :
 Array
@@ -6266,6 +6281,9 @@ length
 =
 feature_count
 )
+(
+nullable
+)
 :
 The
 array
@@ -6523,6 +6541,9 @@ length
 =
 feature_count
 )
+(
+nullable
+)
 :
 The
 array
@@ -6709,6 +6730,9 @@ feature_tags
 ;
 if
 (
+feature_count
+&
+&
 feature_tags
 )
 {
@@ -7122,6 +7146,9 @@ array
 length
 =
 lookup_count
+)
+(
+nullable
 )
 :
 The
@@ -9679,6 +9706,9 @@ length
 =
 lookup_count
 )
+(
+nullable
+)
 :
 The
 array
@@ -12162,6 +12192,9 @@ array
 length
 =
 char_count
+)
+(
+nullable
 )
 :
 A
@@ -14788,7 +14821,7 @@ baseline
 value
 from
 the
-face
+font
 .
 *
 *
@@ -14930,7 +14963,7 @@ baseline
 value
 from
 the
-face
+font
 .
 *
 *
@@ -15093,7 +15126,7 @@ baseline
 value
 from
 the
-face
+font
 and
 synthesizes
 *
@@ -16081,7 +16114,7 @@ baseline
 value
 from
 the
-face
+font
 and
 synthesizes
 *
@@ -16438,6 +16471,9 @@ array
 length
 =
 alternate_count
+)
+(
+nullable
 )
 :
 A

@@ -542,6 +542,9 @@ length
 =
 axes_count
 )
+(
+nullable
+)
 :
 The
 array
@@ -854,6 +857,9 @@ array
 length
 =
 axes_count
+)
+(
+nullable
 )
 :
 The
@@ -1440,6 +1446,9 @@ array
 length
 =
 coords_length
+)
+(
+nullable
 )
 :
 The

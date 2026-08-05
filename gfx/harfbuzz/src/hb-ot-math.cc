@@ -1282,6 +1282,9 @@ length
 =
 entries_count
 )
+(
+nullable
+)
 :
 array
 of
@@ -1613,6 +1616,9 @@ array
 length
 =
 variants_count
+)
+(
+nullable
 )
 :
 array
@@ -2029,6 +2035,9 @@ array
 length
 =
 parts_count
+)
+(
+nullable
 )
 :
 the

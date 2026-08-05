@@ -301,6 +301,9 @@ length
 =
 entries_count
 )
+(
+nullable
+)
 :
 entries
 tags

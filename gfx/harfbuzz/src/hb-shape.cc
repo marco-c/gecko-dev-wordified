@@ -1890,10 +1890,9 @@ text_info
 hb_glyph_info_t
 *
 )
-hb_malloc
+hb_malloc2
 (
 text_len
-*
 sizeof
 (
 buffer

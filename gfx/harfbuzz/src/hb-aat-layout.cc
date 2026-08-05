@@ -3627,6 +3627,9 @@ length
 =
 feature_count
 )
+(
+nullable
+)
 :
 Array
 of

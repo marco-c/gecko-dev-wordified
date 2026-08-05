@@ -269,6 +269,7 @@ AnchorMatrix
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -816,6 +817,7 @@ MarkArray
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -1344,6 +1346,7 @@ SmallTypes
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -2763,7 +2766,7 @@ mark_array
 =
 graph
 .
-as_table
+as_mutable_table
 <
 MarkArray
 >
@@ -2832,7 +2835,7 @@ base_array
 =
 graph
 .
-as_table
+as_mutable_table
 <
 AnchorMatrix
 >
@@ -2939,6 +2942,10 @@ v
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 (
 (
@@ -2996,6 +3003,7 @@ unsigned
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -3053,6 +3061,10 @@ v
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 (
 (

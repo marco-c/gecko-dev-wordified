@@ -1140,6 +1140,11 @@ start_offset
 table_count
 )
 ;
+if
+(
+table_tags
+)
+{
 auto
 out
 =
@@ -1162,6 +1167,7 @@ hb_sink
 out
 )
 ;
+}
 return
 population
 ;

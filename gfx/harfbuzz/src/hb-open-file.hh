@@ -507,6 +507,9 @@ const
 if
 (
 table_count
+&
+&
+table_tags
 )
 {
 +
@@ -2975,6 +2978,10 @@ return
 case
 TTCTag
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -2987,6 +2994,10 @@ get_face_count
 case
 DFontTag
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -3108,6 +3119,10 @@ Typ1Tag
 case
 TrueTypeTag
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -3116,6 +3131,10 @@ fontFace
 case
 TTCTag
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -3129,6 +3148,10 @@ i
 case
 DFontTag
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -3303,6 +3326,10 @@ Typ1Tag
 case
 TrueTypeTag
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -3318,6 +3345,10 @@ c
 case
 TTCTag
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u
@@ -3333,6 +3364,10 @@ c
 case
 DFontTag
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 u

@@ -344,6 +344,7 @@ extensionOffset
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -448,6 +449,7 @@ len
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -2511,6 +2513,10 @@ major
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 u
 .
@@ -2526,6 +2532,10 @@ HB_NO_BEYOND_64K
 case
 2
 :
+hb_barrier
+(
+)
+;
 return
 u
 .

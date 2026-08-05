@@ -825,6 +825,9 @@ length
 =
 table_count
 )
+(
+nullable
+)
 :
 The
 array

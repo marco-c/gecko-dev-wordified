@@ -239,6 +239,7 @@ SmallTypes
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -329,6 +330,7 @@ SmallTypes
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -722,6 +724,7 @@ true
 bool
 sanitize
 (
+const
 graph_t
 :
 :

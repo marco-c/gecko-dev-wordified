@@ -1495,7 +1495,7 @@ font_serial
 font
 -
 >
-serial_coords
+serial
 .
 get_acquire
 (
@@ -3457,6 +3457,14 @@ ot_font
 -
 >
 ot_face
+;
+ot_font
+-
+>
+check_serial
+(
+font
+)
 ;
 /
 *

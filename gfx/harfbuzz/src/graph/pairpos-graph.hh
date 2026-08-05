@@ -281,6 +281,7 @@ SmallTypes
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -1196,6 +1197,7 @@ SmallTypes
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -3508,6 +3510,10 @@ v
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 (
 (
@@ -3532,6 +3538,10 @@ this_index
 case
 2
 :
+hb_barrier
+(
+)
+;
 return
 (
 (
@@ -3594,6 +3604,7 @@ unsigned
 bool
 sanitize
 (
+const
 graph_t
 :
 :
@@ -3651,6 +3662,10 @@ v
 case
 1
 :
+hb_barrier
+(
+)
+;
 return
 (
 (
@@ -3674,6 +3689,10 @@ vertex
 case
 2
 :
+hb_barrier
+(
+)
+;
 return
 (
 (

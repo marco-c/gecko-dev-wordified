@@ -6851,6 +6851,10 @@ subtable_type
 case
 Rearrangement
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
@@ -6880,6 +6884,10 @@ ds
 case
 Contextual
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
@@ -6909,6 +6917,10 @@ ds
 case
 Ligature
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
@@ -6938,6 +6950,10 @@ ds
 case
 Noncontextual
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
@@ -6967,6 +6983,10 @@ ds
 case
 Insertion
 :
+hb_barrier
+(
+)
+;
 return_trace
 (
 c
