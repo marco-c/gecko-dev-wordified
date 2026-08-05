@@ -269,7 +269,7 @@ class
 WeightRange
 ;
 class
-WidthRange
+StretchRange
 ;
 class
 SlantStyleRange
@@ -983,12 +983,12 @@ mozilla
 WeightRange
 ;
 using
-WidthRange
+StretchRange
 =
 mozilla
 :
 :
-WidthRange
+StretchRange
 ;
 using
 SlantStyleRange
@@ -2578,9 +2578,9 @@ WeightRange
 &
 aWeightForEntry
 const
-WidthRange
+StretchRange
 &
-aWidthForEntry
+aStretchForEntry
 const
 SlantStyleRange
 &
@@ -2675,9 +2675,9 @@ WeightRange
 &
 aWeightForEntry
 const
-WidthRange
+StretchRange
 &
-aWidthForEntry
+aStretchForEntry
 const
 SlantStyleRange
 &

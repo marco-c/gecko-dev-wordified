@@ -148,7 +148,7 @@ struct
 StyleFontFamilyList
 ;
 struct
-StyleFontWidth
+StyleFontStretch
 ;
 struct
 StyleFontWeight
@@ -1274,7 +1274,7 @@ about
 *
 FontFamily
 FontStyle
-FontWidth
+FontStretch
 and
 FontWeight
 .
@@ -1318,10 +1318,10 @@ output
 )
 *
 param
-aWidth
+aStretch
 The
 parsed
-FontWidth
+FontStretch
 .
 (
 output
@@ -1396,9 +1396,9 @@ aList
 StyleFontStyle
 &
 aStyle
-StyleFontWidth
+StyleFontStretch
 &
-aWidth
+aStretch
 StyleFontWeight
 &
 aWeight

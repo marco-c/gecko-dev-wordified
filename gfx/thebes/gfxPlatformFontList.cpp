@@ -7202,8 +7202,8 @@ nsACString
 aFaceName
 WeightRange
 aWeightForEntry
-WidthRange
-aWidthForEntry
+StretchRange
+aStretchForEntry
 SlantStyleRange
 aStyleForEntry
 )
@@ -7445,9 +7445,9 @@ aWeightForEntry
 fe
 -
 >
-mWidthRange
+mStretchRange
 =
-aWidthForEntry
+aStretchForEntry
 ;
 fe
 -

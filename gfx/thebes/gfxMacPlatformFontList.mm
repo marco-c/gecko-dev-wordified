@@ -2832,7 +2832,7 @@ NORMAL
 ;
 aFontStyle
 .
-width
+stretch
 =
 (
 traits
@@ -2840,7 +2840,7 @@ traits
 NSFontExpandedTrait
 )
 ?
-FontWidth
+FontStretch
 :
 :
 EXPANDED
@@ -2851,12 +2851,12 @@ traits
 NSFontCondensedTrait
 )
 ?
-FontWidth
+FontStretch
 :
 :
 CONDENSED
 :
-FontWidth
+FontStretch
 :
 :
 NORMAL

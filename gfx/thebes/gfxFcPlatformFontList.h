@@ -439,8 +439,8 @@ nsACString
 aFaceName
 WeightRange
 aWeight
-WidthRange
-aWidth
+StretchRange
+aStretch
 SlantStyleRange
 aStyle
 RefPtr
@@ -483,8 +483,8 @@ FcPattern
 aFontPattern
 WeightRange
 aWeight
-WidthRange
-aWidth
+StretchRange
+aStretch
 SlantStyleRange
 aStyle
 )
@@ -1638,8 +1638,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-WidthRange
-aWidthForEntry
+StretchRange
+aStretchForEntry
 SlantStyleRange
 aStyleForEntry
 )
@@ -1657,8 +1657,8 @@ nsACString
 aFontName
 WeightRange
 aWeightForEntry
-WidthRange
-aWidthForEntry
+StretchRange
+aStretchForEntry
 SlantStyleRange
 aStyleForEntry
 const
