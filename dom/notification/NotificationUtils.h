@@ -106,9 +106,6 @@ nsresult
 uint32_t
 ;
 class
-nsIAlertCallbacks
-;
-class
 nsIAlertNotification
 ;
 class
@@ -543,9 +540,9 @@ ShowAlertWithCleanup
 nsIAlertNotification
 *
 aAlert
-nsIAlertCallbacks
+nsIObserver
 *
-aAlertCallbacks
+aAlertListener
 )
 ;
 nsresult
