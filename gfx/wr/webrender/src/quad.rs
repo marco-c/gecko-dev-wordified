@@ -10086,7 +10086,7 @@ AA_PIXEL_RADIUS
 in
 /
 /
-quad
+ps_quad
 .
 glsl
 .
