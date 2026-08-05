@@ -167,17 +167,6 @@ include
 "
 api
 /
-environment
-/
-environment_factory
-.
-h
-"
-#
-include
-"
-api
-/
 test
 /
 metrics
@@ -355,7 +344,7 @@ include
 "
 test
 /
-create_test_field_trials
+create_test_environment
 .
 h
 "
@@ -2470,7 +2459,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -3145,7 +3134,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -3877,7 +3866,7 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
 )
 ;
@@ -4458,11 +4447,8 @@ const
 Environment
 env
 =
-CreateEnvironment
+CreateTestEnvironment
 (
-CreateTestFieldTrialsPtr
-(
-)
 )
 ;
 VideoSourceSettings

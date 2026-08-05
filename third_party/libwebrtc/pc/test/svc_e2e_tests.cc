@@ -447,6 +447,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -2070,6 +2079,8 @@ ScalabilityModeSupported
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 "
