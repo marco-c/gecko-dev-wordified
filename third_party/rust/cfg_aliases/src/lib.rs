@@ -166,12 +166,16 @@ dependencies
 cfg_aliases
 =
 "
-0
-.
-1
-.
-0
+*
 "
+#
+Set
+to
+latest
+published
+version
+of
+cfg_aliases
 /
 /
 !
@@ -2746,7 +2750,6 @@ rest
 *
 ]
 )
-;
 }
 ;
 /
@@ -2870,7 +2873,6 @@ current
 *
 tok
 )
-;
 }
 ;
 /
@@ -2964,7 +2966,6 @@ current
 +
 }
 )
-;
 }
 ;
 /
