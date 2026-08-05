@@ -1142,14 +1142,15 @@ glMapBufferRange
 is
 slow
 on
+D3D
 ANGLE
 so
 fall
 back
 to
+/
+/
 the
-/
-/
 glBufferSubData
 path
 .
@@ -1181,7 +1182,7 @@ map_buffer_range
 gl
 -
 >
-IsANGLE
+IsD3DANGLE
 (
 )
 )
