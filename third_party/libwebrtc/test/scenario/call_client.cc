@@ -760,6 +760,11 @@ audio_state
 {
 CallConfig
 call_config
+=
+CallConfig
+:
+:
+CreateSingleThreaded
 (
 env
 )

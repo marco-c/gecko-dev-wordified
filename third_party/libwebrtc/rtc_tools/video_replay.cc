@@ -3933,8 +3933,16 @@ Call
 Create
 (
 CallConfig
+:
+:
+CreateWithJoinedWorkerAndNetworkQueue
 (
 env_
+worker_thread_
+.
+get
+(
+)
 )
 )
 ;

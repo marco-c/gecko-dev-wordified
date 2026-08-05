@@ -2532,6 +2532,9 @@ CallConfig
 call_config
 (
 env
+worker_thread
+(
+)
 network_thread
 (
 )
