@@ -7397,7 +7397,10 @@ continue
 }
 if
 (
-IPCAccessibilityActive
+mDocument
+-
+>
+ShouldSendToParentProcess
 (
 )
 &
@@ -8369,7 +8372,10 @@ SendRequestAckMutationEvents
 }
 if
 (
-IPCAccessibilityActive
+mDocument
+-
+>
+ShouldSendToParentProcess
 (
 )
 )
