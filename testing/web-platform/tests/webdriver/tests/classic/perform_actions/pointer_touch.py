@@ -248,6 +248,7 @@ def
 test_touch_pointer_cancel_and_up
 (
 session
+new_tab_classic
 test_actions_pointer_page
 touch_chain
 )
@@ -451,9 +452,9 @@ events
 assert
 results
 [
-'
+"
 touchstart
-'
+"
 ]
     
 assert
@@ -574,6 +575,7 @@ viewport
 def
 test_params_actions_origin_outside_viewport
 (
+    
 session
 test_actions_page
 touch_chain
@@ -636,6 +638,7 @@ def
 test_move_to_fractional_position
 (
 session
+new_tab_classic
 inline
 touch_chain
 )
@@ -756,8 +759,6 @@ y
 }
     
 touch_chain
-\
-        
 .
 pointer_down
 (
@@ -765,26 +766,25 @@ button
 =
 0
 )
-\
-        
 .
 pointer_move
 (
+        
 target_point
 [
 "
 x
 "
 ]
+        
 target_point
 [
 "
 y
 "
 ]
+    
 )
-\
-        
 .
 perform
 (
@@ -952,8 +952,8 @@ inner
 def
 test_touch_pointer_in_shadow_tree
 (
-    
 session
+new_tab_classic
 get_test_page
 touch_chain
 mode
@@ -1151,6 +1151,7 @@ def
 test_touch_pointer_properties
 (
 session
+new_tab_classic
 test_actions_pointer_page
 touch_chain
 )
@@ -1657,6 +1658,7 @@ test_touch_pointer_properties_altitude_and_azimuth_angle
 (
     
 session
+new_tab_classic
 test_actions_pointer_page
 touch_chain
 )
@@ -1896,6 +1898,7 @@ def
 test_touch_pointer_properties_angle_twist
 (
 session
+new_tab_classic
 test_actions_pointer_page
 touch_chain
 )
@@ -2195,7 +2198,9 @@ twist
 def
 test_touch_pointer_properties_tilt_twist
 (
+    
 session
+new_tab_classic
 test_actions_pointer_page
 touch_chain
 )
