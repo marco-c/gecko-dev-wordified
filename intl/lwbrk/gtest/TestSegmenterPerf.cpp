@@ -594,15 +594,6 @@ LineBreaker
 ComputeBreakPositions
 (
 aStr
-.
-get
-(
-)
-aStr
-.
-Length
-(
-)
 WordBreakRule
 :
 :
@@ -613,10 +604,6 @@ LineBreakRule
 Strict
 aIsJaOrZh
 breakState
-.
-Elements
-(
-)
 )
 ;
 }
