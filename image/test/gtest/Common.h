@@ -4473,6 +4473,11 @@ PerfRgbAlphaLossyJXLTestCase
 (
 )
 ;
+ImageTestCase
+ProgressiveAlphaMultiGroupJXLTestCase
+(
+)
+;
 #
 endif
 ImageTestCase
