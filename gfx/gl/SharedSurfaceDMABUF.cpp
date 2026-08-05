@@ -249,6 +249,7 @@ desc
 size
 0
 false
+false
 LOCAL_GL_TEXTURE_2D
 tex
 )

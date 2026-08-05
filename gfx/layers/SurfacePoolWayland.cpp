@@ -2230,6 +2230,7 @@ aGL
 aSize
 0
 aNeedsDepthBuffer
+aNeedsDepthBuffer
 LOCAL_GL_TEXTURE_2D
 aTexture
 )

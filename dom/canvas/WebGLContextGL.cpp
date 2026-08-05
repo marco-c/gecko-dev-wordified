@@ -8561,6 +8561,9 @@ samples
 options
 .
 depthStencil
+options
+.
+depthStencil
 )
 ;
 if

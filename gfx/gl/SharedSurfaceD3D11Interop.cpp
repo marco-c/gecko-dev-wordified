@@ -2228,6 +2228,7 @@ gl
 size
 0
 false
+false
 LOCAL_GL_RENDERBUFFER
 data
 .
@@ -2390,6 +2391,7 @@ Create
 gl
 size
 0
+false
 false
 )
 ;
