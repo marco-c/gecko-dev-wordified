@@ -275,9 +275,7 @@ suffix
 =
 =
 =
-idn
-.
-convertUTF8toACE
+ensureValidHostname
 (
 hostname
 )
