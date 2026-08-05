@@ -79,6 +79,29 @@ Exception
     
 pass
 class
+TagNotFound
+(
+Exception
+)
+:
+    
+"
+"
+"
+No
+matching
+tag
+was
+found
+in
+the
+upstream
+repository
+.
+"
+"
+"
+class
 BaseHost
 :
     
@@ -461,7 +484,7 @@ revision
 :
                     
 raise
-Exception
+TagNotFound
 (
 f
 "
@@ -482,7 +505,7 @@ else
 :
                     
 raise
-Exception
+TagNotFound
 (
 "
 No
