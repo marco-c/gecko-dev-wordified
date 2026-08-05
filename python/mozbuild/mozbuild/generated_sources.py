@@ -71,6 +71,12 @@ mozpack
 files
 import
 FileFinder
+from
+mozbuild
+.
+util
+import
+get_rust_build_kind
 GENERATED_SOURCE_EXTS
 =
 (
@@ -443,24 +449,12 @@ directory
     
 rust_build_kind
 =
-"
-debug
-"
-if
+get_rust_build_kind
+(
 buildconfig
 .
 substs
-.
-get
-(
-"
-MOZ_DEBUG_RUST
-"
 )
-else
-"
-release
-"
     
 base
 =
