@@ -9571,7 +9571,7 @@ nullptr
 numberProto
 -
 >
-setPrimitiveValue
+initPrimitiveValue
 (
 0
 )

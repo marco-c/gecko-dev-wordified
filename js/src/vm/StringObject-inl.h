@@ -182,6 +182,10 @@ slot
 =
 =
 LENGTH_SLOT
+.
+index
+(
+)
 )
 ;
 obj
