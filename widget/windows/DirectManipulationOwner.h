@@ -198,6 +198,8 @@ mWindow
 ;
 DWORD
 mDmViewportHandlerCookie
+=
+0
 ;
 RefPtr
 <
