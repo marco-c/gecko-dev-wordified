@@ -677,7 +677,10 @@ extensions
 .
 RegisterByType
 (
+RtpHeaderExtensionId
+(
 i
+)
 extension_type
 )
 ;

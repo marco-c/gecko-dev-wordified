@@ -406,7 +406,10 @@ TransmissionOffset
 Uri
 (
 )
+RtpHeaderExtensionId
+(
 1
+)
 }
 {
 AbsoluteSendTime
@@ -415,7 +418,10 @@ AbsoluteSendTime
 Uri
 (
 )
+RtpHeaderExtensionId
+(
 3
+)
 }
 }
 ;
