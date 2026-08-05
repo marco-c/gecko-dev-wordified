@@ -1310,7 +1310,13 @@ mDtlsFingerprints
 .
 push_back
 (
+std
+:
+:
+move
+(
 fp
+)
 )
 ;
 return
@@ -1454,7 +1460,13 @@ mRtpExtensions
 .
 push_back
 (
+std
+:
+:
+move
+(
 extMediaType
+)
 )
 ;
 return

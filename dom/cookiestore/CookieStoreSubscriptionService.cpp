@@ -968,7 +968,13 @@ registrationData
 >
 mRegistration
 =
+std
+:
+:
+move
+(
 tmp
+)
 ;
 }
 bool

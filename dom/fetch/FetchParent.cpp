@@ -334,6 +334,14 @@ actorID
 =
 mActorID
 json
+=
+std
+:
+:
+move
+(
+json
+)
 reportGroup
 =
 nsString

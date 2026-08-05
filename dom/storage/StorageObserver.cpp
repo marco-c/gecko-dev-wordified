@@ -1070,7 +1070,13 @@ rv
 }
 aOriginScope
 =
+std
+:
+:
+move
+(
 originScope
+)
 ;
 return
 NS_OK

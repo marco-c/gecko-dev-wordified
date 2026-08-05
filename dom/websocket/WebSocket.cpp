@@ -13417,7 +13417,13 @@ NS_ERROR_DOM_SYNTAX_ERR
 ;
 mAsciiHost
 =
+std
+:
+:
+move
+(
 host
+)
 ;
 ToLowerCase
 (
@@ -13426,7 +13432,13 @@ mAsciiHost
 ;
 mResource
 =
+std
+:
+:
+move
+(
 filePath
+)
 ;
 if
 (

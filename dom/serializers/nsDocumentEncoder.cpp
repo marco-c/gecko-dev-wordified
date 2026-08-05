@@ -10908,7 +10908,13 @@ mEnd
 ;
 aInfoString
 =
+std
+:
+:
+move
+(
 infoString
+)
 ;
 return
 rv

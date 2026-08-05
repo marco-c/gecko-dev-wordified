@@ -2004,6 +2004,14 @@ NS_NewRunnableFunction
 __func__
 [
 JSON
+=
+std
+:
+:
+move
+(
+JSON
+)
 ]
 (
 )

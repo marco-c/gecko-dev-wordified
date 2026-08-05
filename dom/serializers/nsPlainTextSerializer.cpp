@@ -10089,7 +10089,13 @@ char16_t
 }
 aResult
 =
+std
+:
+:
+move
+(
 quotes
+)
 ;
 }
 /

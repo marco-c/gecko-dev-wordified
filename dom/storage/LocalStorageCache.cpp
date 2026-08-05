@@ -1736,7 +1736,13 @@ value
 }
 aRetval
 =
+std
+:
+:
+move
+(
 value
+)
 ;
 return
 NS_OK

@@ -2890,6 +2890,14 @@ RefPtr
 this
 }
 channel
+=
+std
+:
+:
+move
+(
+channel
+)
 integrity
 =
 RefPtr
@@ -2898,7 +2906,10 @@ integrity
 }
 computedHash
 =
-nsCString
+std
+:
+:
+move
 (
 computedHash
 )

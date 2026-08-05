@@ -1411,7 +1411,13 @@ nsString
 params
 =
 {
+std
+:
+:
+move
+(
 invalidTypesJoined
+)
 }
 ;
 mGlobal
@@ -1697,7 +1703,13 @@ nsString
 params
 =
 {
+std
+:
+:
+move
+(
 type
+)
 }
 ;
 mGlobal

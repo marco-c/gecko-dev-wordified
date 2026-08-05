@@ -487,6 +487,14 @@ AfterSetAttr
 [
 description
 value
+=
+std
+:
+:
+move
+(
+value
+)
 ]
 (
 )

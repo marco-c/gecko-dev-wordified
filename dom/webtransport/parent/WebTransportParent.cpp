@@ -1249,7 +1249,13 @@ aSocketThread
 :
 mResolver
 (
+std
+:
+:
+move
+(
 aResolver
+)
 )
 mStreamCallback
 (
@@ -1378,7 +1384,13 @@ aSocketThread
 :
 mResolver
 (
+std
+:
+:
+move
+(
 aResolver
+)
 )
 mStreamCallback
 (

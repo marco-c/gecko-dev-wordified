@@ -915,6 +915,14 @@ RefPtr
 this
 )
 item
+=
+std
+:
+:
+move
+(
+item
+)
 deletedEvent
 ]
 {
