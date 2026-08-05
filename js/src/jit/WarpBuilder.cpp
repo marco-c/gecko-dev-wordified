@@ -16041,7 +16041,7 @@ setSlotNull
 AbstractGeneratorObject
 :
 :
-calleeSlot
+calleeOrModuleSlot
 (
 )
 )

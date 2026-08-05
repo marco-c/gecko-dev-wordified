@@ -38831,6 +38831,18 @@ genObj
 Load
 callee
 .
+Note
+that
+JSOp
+:
+:
+Resume
+is
+never
+used
+for
+modules
+.
 Register
 callee
 =
@@ -38850,7 +38862,7 @@ genObj
 AbstractGeneratorObject
 :
 :
-offsetOfCalleeSlot
+offsetOfCalleeOrModuleSlot
 (
 )
 )
@@ -40143,7 +40155,7 @@ genObj
 AbstractGeneratorObject
 :
 :
-offsetOfCalleeSlot
+offsetOfCalleeOrModuleSlot
 (
 )
 )
