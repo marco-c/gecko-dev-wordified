@@ -5298,7 +5298,7 @@ inline
 /
 Return
 the
-auto
+normal
 value
 .
 pub
@@ -5323,7 +5323,7 @@ whether
 this
 is
 the
-auto
+normal
 value
 .
 pub
