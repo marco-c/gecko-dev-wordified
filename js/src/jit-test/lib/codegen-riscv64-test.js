@@ -61,10 +61,10 @@ addi
 sp
 sp
 -
-8
+16
 sd
 ra
-0
+8
 \
 \
 (
@@ -72,11 +72,6 @@ sp
 \
 \
 )
-addi
-sp
-sp
--
-8
 sd
 fp
 0
