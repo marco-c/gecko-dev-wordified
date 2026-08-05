@@ -32,6 +32,9 @@ use
 strict
 "
 ;
+let
+sandbox
+;
 Services
 .
 scriptloader
