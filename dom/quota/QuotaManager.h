@@ -514,6 +514,9 @@ class
 OriginScope
 ;
 class
+OriginUpserter
+;
+class
 QuotaObject
 ;
 class
@@ -5804,6 +5807,12 @@ nsCOMPtr
 mozIStorageConnection
 >
 mStorageConnection
+;
+RefPtr
+<
+OriginUpserter
+>
+mOriginUpserter
 ;
 EnumeratedArray
 <
