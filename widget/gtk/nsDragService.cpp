@@ -185,14 +185,14 @@ h
 #
 include
 "
-nsIFileURL
+nsGtkKeyUtils
 .
 h
 "
 #
 include
 "
-nsGtkKeyUtils
+nsIFileURL
 .
 h
 "
