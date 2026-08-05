@@ -4717,13 +4717,9 @@ char16_t
 -
 typed
 .
-static
 void
 getSourceProperties
 (
-ScriptSource
-*
-ss
 bool
 *
 hasSourceText

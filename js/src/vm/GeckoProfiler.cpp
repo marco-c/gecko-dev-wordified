@@ -3218,12 +3218,11 @@ retrievableSource
 bool
 unused
 ;
-ScriptSource
-:
-:
+scriptSource
+-
+>
 getSourceProperties
 (
-scriptSource
 &
 hasSourceText
 &
