@@ -367,6 +367,15 @@ SpeculationRuleSet
 aRuleSet
 )
 {
+aRuleSet
+-
+>
+SetUseCounters
+(
+*
+mDocument
+)
+;
 /
 /
 Step

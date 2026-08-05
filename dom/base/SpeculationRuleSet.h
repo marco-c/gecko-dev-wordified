@@ -116,6 +116,9 @@ mozilla
 dom
 {
 class
+Document
+;
+class
 PrefetchCandidates
 ;
 enum
@@ -212,6 +215,15 @@ PrefetchCandidates
 *
 aCandidates
 )
+;
+void
+SetUseCounters
+(
+Document
+&
+aDocument
+)
+const
 ;
 }
 ;
