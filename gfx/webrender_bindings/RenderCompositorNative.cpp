@@ -602,7 +602,7 @@ DoSwap
 ;
 MOZ_ASSERT
 (
-mPendingGpuFeces
+mPendingGpuFences
 .
 empty
 (
@@ -3203,7 +3203,7 @@ WebRenderBackend
 HARDWARE
 )
 {
-mPendingGpuFeces
+mPendingGpuFences
 .
 emplace_back
 (
@@ -4001,7 +4001,7 @@ std
 :
 move
 (
-mPendingGpuFeces
+mPendingGpuFences
 )
 )
 ;
@@ -4060,7 +4060,7 @@ fence
 mPreviousFrameDoneFences
 -
 >
-mGpuFeces
+mGpuFences
 )
 {
 if
