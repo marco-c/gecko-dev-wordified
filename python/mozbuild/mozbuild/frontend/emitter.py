@@ -135,6 +135,8 @@ data
 import
 (
     
+BaseRustLibrary
+    
 BaseRustProgram
     
 ChromeManifestEntry
@@ -1672,16 +1674,18 @@ _static_linking_shared
             
 #
 Rust
+libraries
+and
 tests
 can
 declare
 shared
 libraries
 in
-USE_LIBS
-for
             
 #
+USE_LIBS
+for
 build
 -
 order
@@ -1691,12 +1695,12 @@ actual
 linking
 is
 handled
+            
+#
 by
 Cargo
 .
 The
-            
-#
 dead
 -
 staticlib
@@ -1706,11 +1710,11 @@ too
 strict
 for
 this
+            
+#
 case
 because
 it
-            
-#
 expects
 a
 moz
@@ -1721,10 +1725,10 @@ level
 consumer
 of
 the
-static
-library
             
 #
+static
+library
 which
 Rust
 -
@@ -1742,7 +1746,10 @@ if
 isinstance
 (
 lib
+(
+BaseRustLibrary
 RustTests
+)
 )
 :
                 
