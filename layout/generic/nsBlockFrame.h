@@ -5173,6 +5173,17 @@ GetLineClampRoot
 )
 ;
 }
+const
+mozilla
+:
+:
+StyleBlockEllipsis
+*
+GetLineClampBlockEllipsis
+(
+)
+const
+;
 /
 *
 *
