@@ -29311,6 +29311,26 @@ MOZ_ENABLE_INC_ORIGIN_INIT
 "
             
 "
+nova
+"
+:
+self
+.
+extraPrefs
+.
+get
+(
+"
+browser
+.
+nova
+.
+enabled
+"
+False
+)
+            
+"
 sessionHistoryInParent
 "
 :
