@@ -14628,7 +14628,7 @@ rv
 editContext
 -
 >
-FireCharacterBoundsUpdateAndGetRects
+FireCharacterBoundsUpdateIfNeededAndGetRects
 (
 offset
 endOffset
@@ -18836,7 +18836,7 @@ rv
 editContext
 -
 >
-FireCharacterBoundsUpdateAndGetRects
+FireCharacterBoundsUpdateIfNeededAndGetRects
 (
 start
 end
@@ -22965,12 +22965,16 @@ if
 it
 fails
 ?
+(
+bug
+2054998
+)
 rv
 =
 editContext
 -
 >
-FireCharacterBoundsUpdateAndGetRects
+FireCharacterBoundsUpdateIfNeededAndGetRects
 (
 0
 editContext
