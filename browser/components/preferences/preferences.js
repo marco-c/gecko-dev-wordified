@@ -3237,9 +3237,6 @@ profiles
 "
 backup
 "
-"
-referrals
-"
 ]
 module
 :
