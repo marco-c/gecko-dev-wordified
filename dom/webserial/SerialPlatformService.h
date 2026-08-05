@@ -341,6 +341,8 @@ nsString
 aPortId
 uint32_t
 aBufferSize
+bool
+aDetectParityErrors
 nsIAsyncInputStream
 *
 *
@@ -544,6 +546,8 @@ nsString
 aPortId
 uint32_t
 aBufferSize
+bool
+aDetectParityErrors
 nsIAsyncInputStream
 *
 *
