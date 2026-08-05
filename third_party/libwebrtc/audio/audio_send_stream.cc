@@ -5549,9 +5549,14 @@ max_bitrate_bps
 1
 &
 &
+(
+allocate_audio_without_feedback_
+|
+|
 new_config
 .
 include_in_congestion_control_allocation
+)
 )
 {
 rtp_transport_
