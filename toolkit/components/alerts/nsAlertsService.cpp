@@ -568,6 +568,16 @@ get
 ;
 }
 NS_IMETHOD
+OnAlertDismissedFromForeground
+(
+)
+override
+{
+return
+NS_OK
+;
+}
+NS_IMETHOD
 OnAlertClosed
 (
 )
