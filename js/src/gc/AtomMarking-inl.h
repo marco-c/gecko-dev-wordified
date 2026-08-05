@@ -449,7 +449,7 @@ bitmap
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 ;
@@ -759,7 +759,7 @@ allocatedWords
 zone
 -
 >
-markedAtoms
+referencedAtoms
 (
 )
 .

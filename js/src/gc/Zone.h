@@ -3970,7 +3970,7 @@ regExps_
 Bitmap
 of
 atoms
-marked
+referenced
 by
 this
 zone
@@ -3985,7 +3985,7 @@ js
 :
 SparseBitmap
 >
-markedAtoms_
+referencedAtoms_
 ;
 /
 /
@@ -4916,7 +4916,7 @@ size_t
 shapeTables
 size_t
 *
-atomsMarkBitmaps
+atomReferenceBitmaps
 size_t
 *
 compartmentObjects
@@ -6715,12 +6715,12 @@ js
 :
 SparseBitmap
 &
-markedAtoms
+referencedAtoms
 (
 )
 {
 return
-markedAtoms_
+referencedAtoms_
 .
 ref
 (
