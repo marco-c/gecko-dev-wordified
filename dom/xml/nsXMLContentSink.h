@@ -667,16 +667,6 @@ aContent
 )
 ;
 virtual
-bool
-NotifyForDocElement
-(
-)
-{
-return
-true
-;
-}
-virtual
 nsresult
 CreateElement
 (
