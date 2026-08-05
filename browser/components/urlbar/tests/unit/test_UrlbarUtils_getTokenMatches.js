@@ -973,7 +973,7 @@ getTokenMatches
 (
 tokens
 phrase
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 .
@@ -1369,7 +1369,7 @@ getTokenMatches
 (
 tokens
 phrase
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 .
@@ -1520,7 +1520,7 @@ getTokenMatches
 (
 tokens
 phrase
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 .
@@ -1642,7 +1642,7 @@ getTokenMatches
 (
 tokens
 phrase
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 .
@@ -1682,7 +1682,7 @@ getTokenMatches
 (
 tokens
 phrase
-UrlbarUtils
+UrlbarShared
 .
 HIGHLIGHT
 .

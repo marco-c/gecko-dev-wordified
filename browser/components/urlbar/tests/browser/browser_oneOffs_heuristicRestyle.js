@@ -1083,7 +1083,7 @@ getIconURL
 )
 |
 |
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

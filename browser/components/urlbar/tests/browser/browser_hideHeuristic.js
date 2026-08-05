@@ -231,7 +231,7 @@ clear
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -316,7 +316,7 @@ ExtensionTest
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -410,7 +410,7 @@ test
 "
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -486,7 +486,7 @@ provider
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -627,7 +627,7 @@ foo
 "
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -706,7 +706,7 @@ unload
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -896,7 +896,7 @@ popPrefEnv
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1041,7 +1041,7 @@ foo
 "
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1168,7 +1168,7 @@ foo
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1315,7 +1315,7 @@ foo
 "
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1439,7 +1439,7 @@ window
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1511,7 +1511,7 @@ ex
 "
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1629,7 +1629,7 @@ heuristicURL
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1713,7 +1713,7 @@ value
 url
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1765,7 +1765,7 @@ url
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1877,7 +1877,7 @@ foo
 "
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2019,7 +2019,7 @@ window
 ;
 /
 /
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2129,7 +2129,7 @@ foo
 "
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2328,7 +2328,7 @@ ex
 "
 expectedGroup
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3053,7 +3053,7 @@ string
 *
 param
 {
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 }

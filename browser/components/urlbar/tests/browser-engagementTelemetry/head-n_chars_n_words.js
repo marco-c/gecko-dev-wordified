@@ -144,7 +144,7 @@ i
 ;
 i
 <
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 *
@@ -177,7 +177,7 @@ trigger
 await
 assert
 (
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 *
@@ -307,7 +307,7 @@ input
 .
 length
 <
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 *
@@ -334,7 +334,7 @@ trigger
 await
 assert
 (
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 /

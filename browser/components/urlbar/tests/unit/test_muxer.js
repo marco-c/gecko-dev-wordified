@@ -1656,7 +1656,7 @@ registerBasicTestProvider
 searchSuggestion
 ]
 null
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -1723,7 +1723,7 @@ registerBasicTestProvider
 unitConversionSuggestion
 ]
 null
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -2082,7 +2082,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2097,7 +2097,7 @@ general
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2142,7 +2142,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2157,7 +2157,7 @@ general
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2198,7 +2198,7 @@ maxResultCount
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2211,7 +2211,7 @@ general
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2249,7 +2249,7 @@ heuristics
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2262,7 +2262,7 @@ general
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2310,7 +2310,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2325,7 +2325,7 @@ general
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2348,7 +2348,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2395,7 +2395,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2410,7 +2410,7 @@ general
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2430,7 +2430,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2473,7 +2473,7 @@ maxResultCount
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2486,7 +2486,7 @@ general
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2502,7 +2502,7 @@ maxResultCount
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2540,7 +2540,7 @@ heuristics
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2553,7 +2553,7 @@ general
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2566,7 +2566,7 @@ heuristics
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2605,7 +2605,7 @@ first
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2629,7 +2629,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2669,7 +2669,7 @@ first
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2690,7 +2690,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2730,7 +2730,7 @@ first
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2747,7 +2747,7 @@ maxResultCount
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2785,7 +2785,7 @@ first
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2799,7 +2799,7 @@ second
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2840,7 +2840,7 @@ maxResultCount
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2854,7 +2854,7 @@ second
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2868,7 +2868,7 @@ third
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .

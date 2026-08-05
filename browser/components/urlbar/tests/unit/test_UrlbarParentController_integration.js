@@ -468,7 +468,7 @@ result
 ]
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
