@@ -27474,10 +27474,6 @@ firefox
 .
 com
 /
-en
--
-US
-/
 smart
 -
 window
