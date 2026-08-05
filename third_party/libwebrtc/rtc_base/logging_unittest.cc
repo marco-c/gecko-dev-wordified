@@ -2502,6 +2502,15 @@ my_tag
 )
 )
 ;
+LogMessage
+:
+:
+RemoveLogToStream
+(
+&
+stream
+)
+;
 }
 #
 endif
