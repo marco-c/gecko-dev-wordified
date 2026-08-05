@@ -2063,8 +2063,6 @@ gtk_window_new
 GTK_WINDOW_POPUP
 )
 ;
-GtkStyleContext
-*
 style
 =
 gtk_widget_get_style_context
