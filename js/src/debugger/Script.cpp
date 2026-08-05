@@ -10598,12 +10598,6 @@ JSOp
 :
 ThrowMsg
 :
-case
-JSOp
-:
-:
-ForceInterpreter
-:
 return
 false
 ;
