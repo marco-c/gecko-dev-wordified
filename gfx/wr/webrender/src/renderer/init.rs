@@ -2715,7 +2715,7 @@ wr_has_been_initialized
 /
 If
 the
-profiler
+tracy
 feature
 is
 enabled
@@ -2723,7 +2723,6 @@ try
 to
 load
 the
-profiler
 shared
 library
 /
@@ -2741,7 +2740,7 @@ cfg
 feature
 =
 "
-profiler
+tracy
 "
 )
 ]
