@@ -4268,6 +4268,15 @@ async
 function
 initSinglePageAppTest
 (
+{
+baseProviderOverrides
+=
+{
+}
+}
+=
+{
+}
 )
 {
 /
@@ -4591,6 +4600,10 @@ false
 }
 ]
 }
+.
+.
+.
+baseProviderOverrides
 }
 ;
 const
