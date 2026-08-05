@@ -307,6 +307,16 @@ selected
 "
 )
 ;
+let
+engaged
+=
+UrlbarTestUtils
+.
+promiseProviderEngagement
+(
+window
+)
+;
 EventUtils
 .
 synthesizeKey
@@ -330,6 +340,9 @@ KEY_Enter
 }
 window
 )
+;
+await
+engaged
 ;
 Assert
 .
