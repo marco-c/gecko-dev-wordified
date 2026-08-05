@@ -1043,6 +1043,8 @@ equal
 (
 receivedArgs
 .
+inferenceParams
+.
 temperature
 0
 .
