@@ -94,6 +94,10 @@ no_nova
 =
 None
     
+profiling
+=
+False
+    
 def
 setup_test
 (
@@ -208,6 +212,12 @@ strip
 )
             
 )
+            
+self
+.
+profiling
+=
+True
         
 if
 args
@@ -374,6 +384,12 @@ apps
 fenix
 geckoview
 "
+            
+self
+.
+profiling
+=
+True
     
 def
 handle_result
@@ -1222,25 +1238,9 @@ critical
 "
         
 if
-test
+self
 .
-get
-(
-"
-simpleperf
-"
-False
-)
-or
-test
-.
-get
-(
-"
-etw_profile
-"
-False
-)
+profiling
 :
             
 suite
