@@ -296,6 +296,13 @@ aSendOrder
 )
 ;
 IPCResult
+RecvCreateSendGroup
+(
+uint64_t
+aGroupId
+)
+;
+IPCResult
 RecvExportKeyingMaterial
 (
 nsTArray

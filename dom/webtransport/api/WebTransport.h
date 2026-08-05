@@ -1103,6 +1103,11 @@ mBrowsingContextID
 =
 0
 ;
+uint64_t
+mNextSendGroupId
+=
+1
+;
 RefPtr
 <
 mozilla
