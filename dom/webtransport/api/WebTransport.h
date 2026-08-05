@@ -594,6 +594,15 @@ aReason
 )
 ;
 void
+SetNegotiatedProtocol
+(
+const
+nsACString
+&
+aProtocol
+)
+;
+void
 OnStreamResetOrStopSending
 (
 uint64_t
