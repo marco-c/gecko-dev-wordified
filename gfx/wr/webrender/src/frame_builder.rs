@@ -4450,12 +4450,6 @@ config
 batch_lookback_count
 spatial_tree
 data_stores
-surfaces
-:
-&
-scene
-.
-surfaces
 scratch
 :
 &
@@ -4582,12 +4576,6 @@ config
 batch_lookback_count
 spatial_tree
 data_stores
-surfaces
-:
-&
-scene
-.
-surfaces
 scratch
 :
 &
