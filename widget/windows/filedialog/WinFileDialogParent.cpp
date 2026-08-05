@@ -858,8 +858,6 @@ Command
 const
 >
 commands
-bool
-aNeedsInputProtection
 )
 {
 auto
@@ -885,7 +883,6 @@ move
 (
 commands
 )
-aNeedsInputProtection
 )
 ;
 return
@@ -954,8 +951,6 @@ Command
 const
 >
 commands
-bool
-aNeedsInputProtection
 )
 {
 auto
@@ -980,7 +975,6 @@ move
 (
 commands
 )
-aNeedsInputProtection
 )
 ;
 return

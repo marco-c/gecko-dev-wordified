@@ -299,8 +299,6 @@ Command
 const
 >
 commands
-bool
-aNeedsInputProtection
 )
 ;
 [
@@ -325,8 +323,6 @@ Command
 const
 >
 commands
-bool
-aNeedsInputProtection
 )
 ;
 private
