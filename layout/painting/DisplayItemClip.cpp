@@ -201,6 +201,10 @@ const
 nsRectCornerRadii
 *
 aRadii
+const
+nsMargin
+*
+aInset
 )
 {
 mHaveClipRect
@@ -231,6 +235,14 @@ RoundedRect
 aRect
 *
 aRadii
+aInset
+?
+*
+aInset
+:
+nsMargin
+(
+)
 }
 )
 ;
@@ -3752,6 +3764,9 @@ mRect
 clipRect
 .
 mRadii
+clipRect
+.
+mInset
 aAppUnitsPerDevPixel
 )
 )

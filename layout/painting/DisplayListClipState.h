@@ -324,6 +324,10 @@ const
 nsRectCornerRadii
 *
 aRadii
+const
+nsMargin
+*
+aInset
 DisplayItemClipChain
 &
 aClipChainOnStack
@@ -829,6 +833,12 @@ nsRectCornerRadii
 aRadii
 =
 nullptr
+const
+nsMargin
+*
+aInset
+=
+nullptr
 )
 {
 NS_ASSERTION
@@ -869,6 +879,7 @@ ClipContainingBlockDescendants
 mBuilder
 aRect
 aRadii
+aInset
 mClipChain
 )
 ;
@@ -1473,6 +1484,10 @@ const
 nsRectCornerRadii
 *
 aRadii
+const
+nsMargin
+*
+aInset
 )
 {
 NS_ASSERTION
@@ -1513,6 +1528,7 @@ ClipContainingBlockDescendants
 mBuilder
 aRect
 aRadii
+aInset
 mExtraClipChain
 )
 ;

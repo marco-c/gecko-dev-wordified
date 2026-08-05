@@ -456,6 +456,10 @@ const
 nsRectCornerRadii
 *
 aRadii
+const
+nsMargin
+*
+aInset
 DisplayItemClipChain
 &
 aClipChainOnStack
@@ -474,6 +478,7 @@ SetTo
 (
 aRect
 aRadii
+aInset
 )
 ;
 }
@@ -887,6 +892,7 @@ hasBorderRadius
 &
 radii
 :
+nullptr
 nullptr
 aClipChainOnStack
 )
