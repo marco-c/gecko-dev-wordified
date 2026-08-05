@@ -530,7 +530,7 @@ MruCache
 SymbolicImageKey
 SymbolicImageEntry
 SymbolicImageCache
-5
+8
 >
 {
 static

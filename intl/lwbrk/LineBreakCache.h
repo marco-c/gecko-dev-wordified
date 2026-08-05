@@ -325,7 +325,7 @@ detail
 :
 LBCacheEntry
 LineBreakCache
-4093
+4096
 >
 {
 public

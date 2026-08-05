@@ -13613,7 +13613,7 @@ void
 PtrInfo
 *
 PtrInfoCache
-491
+256
 >
 {
 static
