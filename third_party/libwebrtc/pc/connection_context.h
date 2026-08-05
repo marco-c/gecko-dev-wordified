@@ -753,9 +753,7 @@ call_factory
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread
-(
-)
+signaling_thread_
 )
 ;
 return
@@ -1241,9 +1239,7 @@ const
 call_factory_
 RTC_GUARDED_BY
 (
-worker_thread
-(
-)
+signaling_thread_
 )
 ;
 std
