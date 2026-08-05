@@ -1301,7 +1301,13 @@ locationBuf
 {
 location
 =
+std
+:
+:
+move
+(
 locationBuf
+)
 ;
 }
 nsCOMPtr

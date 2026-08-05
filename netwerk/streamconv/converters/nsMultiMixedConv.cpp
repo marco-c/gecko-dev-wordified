@@ -2196,7 +2196,13 @@ rv
 {
 mRootContentSecurityPolicy
 =
+std
+:
+:
+move
+(
 csp
+)
 ;
 }
 nsCString
@@ -2228,7 +2234,13 @@ rv
 {
 mRootContentDisposition
 =
+std
+:
+:
+move
+(
 contentDisposition
+)
 ;
 }
 }

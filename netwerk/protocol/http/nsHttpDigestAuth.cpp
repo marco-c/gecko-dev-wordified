@@ -1198,7 +1198,13 @@ rv
 {
 path
 =
+std
+:
+:
+move
+(
 buf
+)
 ;
 }
 }

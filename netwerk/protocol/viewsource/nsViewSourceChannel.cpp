@@ -2643,7 +2643,13 @@ VIEWSOURCE_CONTENT_TYPE
 }
 mContentType
 =
+std
+:
+:
+move
+(
 contentType
+)
 ;
 }
 aContentType

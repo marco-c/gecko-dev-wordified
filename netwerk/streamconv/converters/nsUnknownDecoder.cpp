@@ -2626,7 +2626,13 @@ mMutex
 ;
 mContentType
 =
+std
+:
+:
+move
+(
 sniffedType
+)
 ;
 if
 (
@@ -3701,7 +3707,13 @@ mMutex
 ;
 mContentType
 =
+std
+:
+:
+move
+(
 type
+)
 ;
 return
 true

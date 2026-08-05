@@ -2680,7 +2680,13 @@ entry
 >
 mInfo
 =
+std
+:
+:
+move
+(
 info
+)
 ;
 entry
 -

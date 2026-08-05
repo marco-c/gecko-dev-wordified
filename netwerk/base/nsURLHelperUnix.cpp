@@ -205,7 +205,13 @@ else
 {
 ePath
 =
+std
+:
+:
+move
+(
 nativePath
+)
 ;
 }
 nsAutoCString
@@ -320,7 +326,13 @@ ReplaceSubstring
 ;
 result
 =
+std
+:
+:
+move
+(
 escPath
+)
 ;
 return
 NS_OK

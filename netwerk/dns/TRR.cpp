@@ -4711,7 +4711,13 @@ change
 it
 mCname
 =
+std
+:
+:
+move
+(
 cname
+)
 ;
 if
 (

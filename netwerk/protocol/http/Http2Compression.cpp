@@ -5477,7 +5477,13 @@ NS_ERROR_FAILURE
 }
 val
 =
+std
+:
+:
+move
+(
 buf
+)
 ;
 LOG
 (

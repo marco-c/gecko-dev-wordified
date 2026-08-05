@@ -15280,7 +15280,13 @@ it
 .
 aProtocolVersion
 =
+std
+:
+:
+move
+(
 protocol
+)
 ;
 return
 NS_OK
@@ -27020,7 +27026,13 @@ escape
 it
 aEntityID
 =
+std
+:
+:
+move
+(
 entityID
+)
 ;
 return
 NS_OK

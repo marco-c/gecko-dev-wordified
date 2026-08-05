@@ -5071,7 +5071,13 @@ mLock
 ;
 mMockHTTPSRRDomain
 =
+std
+:
+:
+move
+(
 mockHTTPSRRDomain
+)
 ;
 }
 }

@@ -13836,7 +13836,13 @@ some
 memory
 key
 =
+std
+:
+:
+move
+(
 entryKey
+)
 ;
 }
 else
