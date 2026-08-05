@@ -2679,10 +2679,10 @@ aTime
 *
 /
 static
-GraphTime
+MediaTime
 RoundUpToEndOfAudioBlock
 (
-GraphTime
+MediaTime
 aTime
 )
 ;
@@ -2712,10 +2712,10 @@ aTime
 *
 /
 static
-GraphTime
+MediaTime
 RoundUpToNextAudioBlock
 (
-GraphTime
+MediaTime
 aTime
 )
 ;
