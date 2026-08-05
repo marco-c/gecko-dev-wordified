@@ -11181,9 +11181,6 @@ executeLoad
 MemoryAccessDesc
 *
 access
-AccessCheck
-*
-check
 RegPtr
 instance
 RegPtr
@@ -11194,6 +11191,8 @@ AnyReg
 dest
 RegI32
 temp
+ZeroExtendIndex
+zeroExtend
 )
 ;
 void
@@ -11294,9 +11293,6 @@ executeStore
 MemoryAccessDesc
 *
 access
-AccessCheck
-*
-check
 RegPtr
 instance
 RegPtr
@@ -11307,6 +11303,8 @@ AnyReg
 src
 RegI32
 temp
+ZeroExtendIndex
+zeroExtend
 )
 ;
 void
