@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-SDPHELPER_H_
+DOM_MEDIA_WEBRTC_SDP_SDPHELPER_H_
 #
 define
-SDPHELPER_H_
+DOM_MEDIA_WEBRTC_SDP_SDPHELPER_H_
 #
 include
 <
@@ -77,6 +77,17 @@ include
 <
 vector
 >
+#
+include
+"
+mozilla
+/
+dom
+/
+PeerConnectionObserverEnumsBinding
+.
+h
+"
 #
 include
 "
@@ -193,6 +204,7 @@ component
 nsresult
 CopyTransportParams
 (
+const
 size_t
 numComponents
 const
@@ -219,6 +231,7 @@ const
 Sdp
 &
 newOffer
+const
 size_t
 level
 )
@@ -328,8 +341,10 @@ const
 Sdp
 &
 localSdp
+const
 uint16_t
 level
+const
 sdp
 :
 :
@@ -348,6 +363,7 @@ const
 BundledMids
 &
 bundledMids
+const
 sdp
 :
 :
@@ -384,6 +400,7 @@ const
 Sdp
 &
 sdp
+const
 uint16_t
 level
 std
@@ -477,6 +494,7 @@ std
 string
 &
 candidate
+const
 uint16_t
 level
 const
@@ -509,6 +527,7 @@ SetIceGatheringComplete
 Sdp
 *
 sdp
+const
 uint16_t
 level
 const
@@ -530,6 +549,7 @@ std
 string
 &
 defaultCandidateAddr
+const
 uint16_t
 defaultCandidatePort
 const
@@ -539,6 +559,7 @@ std
 string
 &
 defaultRtcpCandidateAddr
+const
 uint16_t
 defaultRtcpCandidatePort
 SdpMediaSection
@@ -632,6 +653,7 @@ dest
 bool
 HasRtcp
 (
+const
 SdpMediaSection
 :
 :
@@ -647,6 +669,7 @@ SdpMediaSection
 Protocol
 GetProtocolForMediaType
 (
+const
 SdpMediaSection
 :
 :
@@ -738,7 +761,13 @@ Sdp
 sdp2
 )
 ;
-nsresult
+Maybe
+<
+dom
+:
+:
+PCError
+>
 ValidateTransportAttributes
 (
 const
@@ -777,4 +806,4 @@ mozilla
 endif
 /
 /
-SDPHELPER_H_
+DOM_MEDIA_WEBRTC_SDP_SDPHELPER_H_
