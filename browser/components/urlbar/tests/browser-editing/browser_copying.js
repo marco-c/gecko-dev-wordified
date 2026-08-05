@@ -5230,6 +5230,8 @@ urlbar
 tests
 /
 browser
+-
+editing
 /
 wait
 -
