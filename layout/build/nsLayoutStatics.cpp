@@ -532,7 +532,7 @@ mozilla
 /
 widget
 /
-AudioSession
+WinAudioSession
 .
 h
 "
