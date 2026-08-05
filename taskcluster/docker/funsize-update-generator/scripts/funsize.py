@@ -2737,6 +2737,18 @@ from_dir
 {
 to_dir
 }
+{
+mar_data
+[
+'
+appName
+'
+]
+.
+lower
+(
+)
+}
 "
     
 await
