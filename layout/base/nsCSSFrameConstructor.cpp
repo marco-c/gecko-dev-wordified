@@ -11750,12 +11750,11 @@ insensitive
 search
 found
 =
-FindInReadable
+CaseInsensitiveFindInReadable
 (
 accesskey
 start
 end
-nsCaseInsensitiveStringComparator
 )
 ;
 }

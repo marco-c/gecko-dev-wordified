@@ -254,7 +254,7 @@ comparator
 case
 -
 sensitive
-comparision
+comparison
 )
 template
 <

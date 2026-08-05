@@ -714,7 +714,9 @@ _ns
 )
 |
 |
-FindInReadable
+aPath
+.
+Contains
 (
 u
 "
@@ -724,7 +726,6 @@ u
 /
 "
 _ns
-aPath
 )
 |
 |
