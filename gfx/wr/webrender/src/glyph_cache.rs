@@ -1226,9 +1226,6 @@ mut
 GlyphRasterizer
 )
 {
-tracy_rs
-:
-:
 profile_scope
 !
 (

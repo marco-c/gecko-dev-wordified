@@ -2741,7 +2741,7 @@ cfg
 feature
 =
 "
-tracy
+profiler
 "
 )
 ]
