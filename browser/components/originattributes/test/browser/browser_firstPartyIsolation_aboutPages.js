@@ -960,6 +960,9 @@ credits
 logins
 "
 "
+referrals
+"
+"
 rights
 "
 ]
