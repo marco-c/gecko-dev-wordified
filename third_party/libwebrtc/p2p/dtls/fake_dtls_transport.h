@@ -153,6 +153,17 @@ include
 "
 api
 /
+environment
+/
+environment
+.
+h
+"
+#
+include
+"
+api
+/
 ice_transport_interface
 .
 h
@@ -675,6 +686,10 @@ ownership
 FakeDtlsTransport
 (
 const
+Environment
+&
+env
+const
 std
 :
 :
@@ -695,6 +710,7 @@ make_unique
 FakeIceTransportInternal
 >
 (
+env
 name
 component
 )
@@ -703,6 +719,10 @@ component
 }
 FakeDtlsTransport
 (
+const
+Environment
+&
+env
 const
 std
 :
@@ -727,6 +747,7 @@ make_unique
 FakeIceTransportInternal
 >
 (
+env
 name
 component
 network_thread

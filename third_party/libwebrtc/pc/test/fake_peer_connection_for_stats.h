@@ -757,6 +757,11 @@ make_unique
 FakeIceTransportInternal
 >
 (
+init
+.
+env
+(
+)
 transport_name
 component
 )
@@ -2687,6 +2692,9 @@ make_unique
 FakeDtlsTransport
 >
 (
+env
+(
+)
 transport_name
 ICE_CANDIDATE_COMPONENT_RTP
 )
@@ -3019,6 +3027,9 @@ make_unique
 FakeDtlsTransport
 >
 (
+env
+(
+)
 transport_name
 ICE_CANDIDATE_COMPONENT_RTP
 )

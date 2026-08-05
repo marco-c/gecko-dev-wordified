@@ -304,6 +304,9 @@ make_unique
 FakeIceTransportInternal
 >
 (
+CreateTestEnvironment
+(
+)
 "
 name
 "
