@@ -184,9 +184,9 @@ import
 .
 .
 /
-UrlbarUtils
-.
-sys
+content
+/
+UrlbarQueryContext
 .
 mjs
 "
