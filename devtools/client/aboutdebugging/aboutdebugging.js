@@ -1170,7 +1170,7 @@ state
 .
 ui
 .
-debugTargetCollapsibilities
+mutableDebugTargetCollapsibilities
 )
 ;
 unmountComponentAtNode

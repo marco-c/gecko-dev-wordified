@@ -1810,7 +1810,7 @@ state
 .
 ui
 .
-debugTargetCollapsibilities
+mutableDebugTargetCollapsibilities
 installedExtensions
 :
 state
