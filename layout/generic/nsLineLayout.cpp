@@ -12415,7 +12415,7 @@ mOver
 aFontMetrics
 -
 >
-TrimmedAscent
+MaxAscent
 (
 )
 ;
@@ -12502,7 +12502,7 @@ mUnder
 aFontMetrics
 -
 >
-TrimmedDescent
+MaxDescent
 (
 )
 ;
