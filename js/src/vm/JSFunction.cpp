@@ -5777,12 +5777,6 @@ haveSource
 if
 (
 !
-ScriptSource
-:
-:
-loadSource
-(
-cx
 fun
 -
 >
@@ -5794,6 +5788,11 @@ baseScript
 scriptSource
 (
 )
+-
+>
+tryLoadSource
+(
+cx
 &
 haveSource
 )
