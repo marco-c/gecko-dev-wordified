@@ -795,7 +795,7 @@ cairo_truetype_font_t
 *
 font
 unsigned
-short
+long
 glyph
 unsigned
 short
@@ -5962,7 +5962,7 @@ cairo_truetype_font_t
 *
 font
 unsigned
-short
+long
 glyph
 unsigned
 short
@@ -6782,7 +6782,7 @@ i
 )
 {
 unsigned
-short
+long
 parent_glyph
 =
 font
