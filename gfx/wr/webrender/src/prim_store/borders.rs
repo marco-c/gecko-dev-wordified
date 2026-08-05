@@ -1188,6 +1188,15 @@ in
 &
 segments
 {
+if
+segment
+.
+is_solid
+.
+is_none
+(
+)
+{
 max_dim
 =
 segment
@@ -1210,6 +1219,7 @@ max_dim
 )
 )
 ;
+}
 }
 let
 max_scale
