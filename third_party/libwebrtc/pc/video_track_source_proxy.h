@@ -253,6 +253,11 @@ bool
 >
 needs_denoising
 )
+BYPASS_PROXY_CONSTMETHOD0
+(
+bool
+allow_zero_hertz_video
+)
 PROXY_METHOD1
 (
 bool

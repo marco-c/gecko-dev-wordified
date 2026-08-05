@@ -9104,6 +9104,17 @@ needs_denoising
 (
 )
 ;
+options
+.
+allow_zero_hertz_video
+=
+source
+-
+>
+allow_zero_hertz_video
+(
+)
+;
 }
 options
 .
