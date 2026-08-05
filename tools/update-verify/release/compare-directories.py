@@ -754,6 +754,9 @@ release
 "
 esr
 "
+"
+nightly
+"
 ]
         
 "
