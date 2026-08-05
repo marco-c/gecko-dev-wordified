@@ -862,6 +862,8 @@ i
 message
 =
 =
+(
+        
 "
 The
 manifest
@@ -871,8 +873,27 @@ not
 in
 alphabetical
 order
+;
+"
+        
+"
+[
+aaa
+.
+js
+]
+should
+come
+before
+[
+browser_test_resolution
+.
+js
+]
 .
 "
+    
+)
     
 assert
 results
@@ -884,6 +905,17 @@ level
 =
 =
 WARNING
+    
+assert
+results
+[
+i
+]
+.
+lineno
+=
+=
+14
     
 i
 +
