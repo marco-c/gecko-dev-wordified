@@ -544,6 +544,12 @@ WorkerDebuggerRunnable
 "
 WrappedDebuggerRunnable
 "
+/
+*
+aIsIPCMessage
+*
+/
+true
 )
 mInner
 (
