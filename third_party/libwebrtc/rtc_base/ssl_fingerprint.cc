@@ -511,7 +511,7 @@ SSLFingerprint
 >
 fingerprint
 =
-CreateUnique
+Create
 (
 digest_alg
 *
@@ -524,8 +524,10 @@ identity
 ;
 if
 (
-!
 fingerprint
+=
+=
+nullptr
 )
 {
 RTC_LOG

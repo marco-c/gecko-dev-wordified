@@ -2158,7 +2158,7 @@ fp_tmp
 SSLFingerprint
 :
 :
-CreateUnique
+Create
 (
 fingerprint
 -
@@ -2176,10 +2176,6 @@ identity
 RTC_DCHECK
 (
 fp_tmp
-.
-get
-(
-)
 !
 =
 nullptr
