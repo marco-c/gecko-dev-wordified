@@ -15929,6 +15929,13 @@ SendUpdateDocumentHasLoaded
 mIsDocumentLoaded
 )
 ;
+mWindowGlobalChild
+-
+>
+OnDocumentUnloaded
+(
+)
+;
 }
 }
 else
@@ -16009,6 +16016,13 @@ mWindowGlobalChild
 SendUpdateDocumentHasLoaded
 (
 mIsDocumentLoaded
+)
+;
+mWindowGlobalChild
+-
+>
+OnDocumentLoaded
+(
 )
 ;
 }
