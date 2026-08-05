@@ -141,6 +141,9 @@ credits
 about
 :
 logins
+about
+:
+referrals
 and
 about
 :
@@ -155,6 +158,9 @@ credits
 "
 "
 logins
+"
+"
+referrals
 "
 "
 rights
