@@ -332,7 +332,7 @@ Timelines
 =
 nsTArray
 <
-RefPtr
+TimelineEntry
 <
 TimelineType
 >

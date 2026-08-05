@@ -395,8 +395,12 @@ const
 PseudoStyleRequest
 &
 aPseudoRequest
-nsAtom
-*
+const
+dom
+:
+:
+ScopedTimelineName
+&
 aName
 StyleScrollAxis
 aAxis
