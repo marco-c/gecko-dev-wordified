@@ -762,8 +762,12 @@ Multiple
 nearestSelectAncestor
 -
 >
-ScheduleSelectedContentUpdateScriptRunner
+ScheduleSelectedContentUpdate
 (
+SelectedContentUpdateMode
+:
+:
+ScriptRunner
 )
 ;
 }
