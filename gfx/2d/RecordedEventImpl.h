@@ -22162,7 +22162,13 @@ if
 font
 )
 {
-gfxCriticalNote
+gfxDevCrash
+(
+LogReason
+:
+:
+InvalidFont
+)
 <
 <
 "
