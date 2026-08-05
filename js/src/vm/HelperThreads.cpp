@@ -3225,7 +3225,7 @@ checking
 of
 the
 atom
-marking
+reference
 bitmap
 since
 that
@@ -3233,9 +3233,9 @@ also
 relies
 on
 taking
+/
+/
 the
-/
-/
 lock
 .
 GCMarker

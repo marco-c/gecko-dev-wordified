@@ -4914,7 +4914,7 @@ color
 in
 the
 atom
-marking
+reference
 state
 /
 /
@@ -7460,7 +7460,7 @@ used
 for
 managing
 atom
-mark
+reference
 bitmaps
 in
 each

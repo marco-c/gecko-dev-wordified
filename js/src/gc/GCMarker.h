@@ -4434,11 +4434,11 @@ hook
 is
 currently
 being
-*
 called
 if
 any
 .
+*
 Set
 with
 AutoSetTracingSource
@@ -4463,8 +4463,7 @@ zone
 s
 *
 atom
--
-marking
+reference
 bitmap
 entry
 for
@@ -4479,8 +4478,8 @@ s
 also
 used
 in
-debug
 *
+debug
 builds
 to
 catch
@@ -4540,8 +4539,9 @@ traversed
 are
 present
 in
+the
 atom
-marking
+reference
 *
 bitmap
 .

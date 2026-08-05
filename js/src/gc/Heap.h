@@ -1561,8 +1561,8 @@ index
 into
 zone
 atom
+reference
 *
-marking
 bitmaps
 (
 see
@@ -1577,10 +1577,10 @@ in
 this
 zone
 .
-*
 Atoms
 never
 refer
+*
 to
 nursery
 things
@@ -1590,7 +1590,6 @@ store
 buffer
 index
 is
-*
 needed
 .
 *
@@ -1800,7 +1799,7 @@ Unregister
 the
 associated
 atom
-marking
+reference
 bitmap
 index
 for
