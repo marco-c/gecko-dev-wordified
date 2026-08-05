@@ -291,6 +291,16 @@ IsDirty
 ;
 }
 bool
+IsPrivate
+(
+)
+const
+{
+return
+mIsPrivate
+;
+}
+bool
 IsExtensionOrigin
 (
 )

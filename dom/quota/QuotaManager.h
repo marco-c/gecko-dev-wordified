@@ -2345,13 +2345,7 @@ void
 FlushDirtyOriginInfos
 (
 )
-{
-/
-*
-TODO
-*
-/
-}
+;
 private
 :
 nsresult
