@@ -1132,7 +1132,7 @@ wasmInstance
 static
 *
 /
-void
+bool
 DebugAPI
 :
 :
@@ -1167,6 +1167,7 @@ isDebuggee
 )
 )
 {
+return
 slowPathOnNewPromise
 (
 cx
@@ -1174,6 +1175,9 @@ promise
 )
 ;
 }
+return
+true
+;
 }
 /
 *
