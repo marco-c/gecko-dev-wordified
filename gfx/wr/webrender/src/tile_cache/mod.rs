@@ -15790,6 +15790,9 @@ current
 surface
 stack
 .
+tracy_rs
+:
+:
 profile_scope
 !
 (

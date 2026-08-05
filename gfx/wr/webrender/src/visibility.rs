@@ -2486,6 +2486,9 @@ prim_list
 .
 clusters
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (

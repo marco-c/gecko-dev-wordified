@@ -3196,6 +3196,9 @@ offset
 =
 >
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -10582,6 +10585,9 @@ u32
 >
 RenderBackendStatus
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -12676,6 +12682,9 @@ unwrap
 )
 ;
 }
+tracy_rs
+:
+:
 profile_scope
 !
 (
