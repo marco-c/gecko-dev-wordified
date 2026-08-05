@@ -1749,10 +1749,15 @@ command
 "
 )
 ;
-Assert
+await
+TestUtils
 .
-ok
+waitForCondition
 (
+(
+)
+=
+>
 details
 .
 element

@@ -5816,14 +5816,14 @@ acknowledgeFeedback
 )
 ;
 }
-invalidateResultMenuCommands
+updateResultMenuCommands
 (
 )
 {
 addCall
 (
 "
-invalidateResultMenuCommands
+updateResultMenuCommands
 "
 )
 ;
