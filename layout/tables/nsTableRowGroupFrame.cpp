@@ -10878,6 +10878,8 @@ non
 rows
 here
 .
+if
+(
 nsTableRowFrame
 *
 rowFrame
@@ -10886,10 +10888,6 @@ do_QueryFrame
 (
 aOldFrame
 )
-;
-if
-(
-rowFrame
 )
 {
 nsTableFrame
@@ -10948,11 +10946,13 @@ SetGeometryDirty
 )
 ;
 }
-mFrames
-.
-DestroyFrame
+nsContainerFrame
+:
+:
+RemoveFrame
 (
 aContext
+aListID
 aOldFrame
 )
 ;
