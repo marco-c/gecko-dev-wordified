@@ -69,13 +69,6 @@ nsDragService
 .
 h
 "
-#
-include
-"
-nsIObserver
-.
-h
-"
 class
 nsICookieJarSettings
 ;
@@ -118,13 +111,9 @@ nsDragSessionSource
 :
 public
 nsDragSession
-public
-nsIObserver
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIOBSERVER
 nsDragSessionSource
 (
 )
