@@ -397,6 +397,10 @@ override
 bool
 MaybeReleaseFrameToCodec
 (
+const
+MonitorAutoLock
+&
+aProofOfLock
 bool
 aRender
 )
@@ -725,6 +729,13 @@ gfx
 :
 SurfaceFormat
 aFormat
+)
+;
+void
+MaybeRenderFirstFrame
+(
+AndroidMediaCodecFrameId
+aFrameId
 )
 ;
 bool
