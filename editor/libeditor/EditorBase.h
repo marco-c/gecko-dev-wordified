@@ -7475,6 +7475,11 @@ return
 mEditContext
 ;
 }
+void
+UpdateEditContext
+(
+)
+;
 bool
 EditContextHasBeenChanged
 (
