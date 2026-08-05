@@ -8337,6 +8337,9 @@ alpha_type
 info
 .
 color
+info
+.
+sub_rect
 )
 ;
 }
@@ -8419,6 +8422,7 @@ alpha_type
 info
 .
 color
+None
 )
 ;
 }
@@ -16956,6 +16960,12 @@ AlphaType
 color
 :
 ColorF
+sub_rect
+:
+Option
+<
+DeviceIntRect
+>
 )
 {
 let
@@ -17115,6 +17125,7 @@ into
 )
 image_rendering
 alpha_type
+sub_rect
 }
 )
 ;
