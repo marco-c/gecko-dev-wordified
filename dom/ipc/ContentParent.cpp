@@ -21963,14 +21963,6 @@ ValidatePrincipalOptions
 :
 :
 AllowNullPtr
-ValidatePrincipalOptions
-:
-:
-AllowExpanded
-ValidatePrincipalOptions
-:
-:
-AllowSystem
 }
 )
 )
