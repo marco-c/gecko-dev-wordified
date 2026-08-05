@@ -1213,7 +1213,7 @@ JS_DEFINE_TYPED_SLOT
 (
 1
 VAL_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -1517,7 +1517,7 @@ JS_DEFINE_TYPED_SLOT
 (
 0
 INSTANCE_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -1533,7 +1533,7 @@ JS_DEFINE_TYPED_SLOT
 (
 2
 SCOPES_SLOT
-Double
+Private
 )
 ;
 JS_DEFINE_TYPED_SLOT
@@ -1548,7 +1548,7 @@ JS_DEFINE_TYPED_SLOT
 (
 4
 GLOBALS_SLOT
-Double
+Private
 )
 ;
 static
@@ -1943,7 +1943,7 @@ JS_DEFINE_TYPED_SLOT
 (
 1
 OBSERVERS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -2747,7 +2747,7 @@ JS_DEFINE_TYPED_SLOT
 (
 0
 TABLE_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -3132,7 +3132,7 @@ JS_DEFINE_TYPED_SLOT
 (
 0
 TYPE_SLOT
-Double
+Private
 )
 ;
 static
@@ -3339,14 +3339,14 @@ JS_DEFINE_TYPED_SLOT
 (
 1
 TYPE_SLOT
-Double
+Private
 )
 ;
 JS_DEFINE_TYPED_SLOT
 (
 2
 DATA_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -4094,7 +4094,7 @@ JS_DEFINE_TYPED_SLOT
 (
 0
 INSTANCE_SLOT
-Double
+Private
 Undefined
 )
 ;

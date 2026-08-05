@@ -190,7 +190,7 @@ JS_DEFINE_TYPED_SLOT
 (
 3
 URELATIVE_TIME_FORMAT_SLOT
-Double
+Private
 Undefined
 )
 ;

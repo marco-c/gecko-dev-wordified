@@ -209,7 +209,7 @@ JS_DEFINE_TYPED_SLOT
 (
 3
 LOCALE_DISPLAY_NAMES_SLOT
-Double
+Private
 Undefined
 )
 ;

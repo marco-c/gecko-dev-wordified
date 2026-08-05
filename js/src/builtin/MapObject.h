@@ -834,7 +834,7 @@ SlotCount
 +
 0
 NURSERY_KEYS_SLOT
-Double
+Private
 )
 ;
 JS_DEFINE_TYPED_SLOT
@@ -1954,7 +1954,7 @@ SlotCount
 +
 0
 NURSERY_KEYS_SLOT
-Double
+Private
 )
 ;
 JS_DEFINE_TYPED_SLOT

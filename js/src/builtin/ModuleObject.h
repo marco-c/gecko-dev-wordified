@@ -2844,7 +2844,7 @@ JS_DEFINE_TYPED_SLOT
 (
 CyclicModuleFieldsSlotIndex
 CYCLIC_MODULE_FIELDS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -2863,7 +2863,7 @@ JS_DEFINE_TYPED_SLOT
 (
 SyntheticModuleFieldsSlotIndex
 SYNTHETIC_MODULE_FIELDS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -3855,7 +3855,7 @@ JS_DEFINE_TYPED_SLOT
 (
 0
 STATE_SLOT
-Double
+Private
 Undefined
 )
 ;

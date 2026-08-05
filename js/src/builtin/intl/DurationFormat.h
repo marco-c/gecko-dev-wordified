@@ -194,7 +194,7 @@ JS_DEFINE_TYPED_SLOT
 (
 2
 NUMBER_FORMAT_YEARS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -202,7 +202,7 @@ JS_DEFINE_TYPED_SLOT
 (
 3
 NUMBER_FORMAT_MONTHS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -210,7 +210,7 @@ JS_DEFINE_TYPED_SLOT
 (
 4
 NUMBER_FORMAT_WEEKS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -218,7 +218,7 @@ JS_DEFINE_TYPED_SLOT
 (
 5
 NUMBER_FORMAT_DAYS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -226,7 +226,7 @@ JS_DEFINE_TYPED_SLOT
 (
 6
 NUMBER_FORMAT_HOURS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -234,7 +234,7 @@ JS_DEFINE_TYPED_SLOT
 (
 7
 NUMBER_FORMAT_MINUTES_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -242,7 +242,7 @@ JS_DEFINE_TYPED_SLOT
 (
 8
 NUMBER_FORMAT_SECONDS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -250,7 +250,7 @@ JS_DEFINE_TYPED_SLOT
 (
 9
 NUMBER_FORMAT_MILLISECONDS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -258,7 +258,7 @@ JS_DEFINE_TYPED_SLOT
 (
 10
 NUMBER_FORMAT_MICROSECONDS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -266,7 +266,7 @@ JS_DEFINE_TYPED_SLOT
 (
 11
 NUMBER_FORMAT_NANOSECONDS_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -274,7 +274,7 @@ JS_DEFINE_TYPED_SLOT
 (
 12
 LIST_FORMAT_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -389,7 +389,7 @@ TypedSlot
 ValueType
 :
 :
-Double
+Private
 ValueType
 :
 :

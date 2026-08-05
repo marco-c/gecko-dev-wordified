@@ -237,7 +237,7 @@ JS_DEFINE_TYPED_SLOT
 (
 7
 DATE_FORMAT_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -245,7 +245,7 @@ JS_DEFINE_TYPED_SLOT
 (
 8
 DATE_INTERVAL_FORMAT_SLOT
-Double
+Private
 Undefined
 )
 ;

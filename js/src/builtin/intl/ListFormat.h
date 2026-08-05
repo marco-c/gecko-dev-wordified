@@ -187,7 +187,7 @@ JS_DEFINE_TYPED_SLOT
 (
 2
 LIST_FORMAT_SLOT
-Double
+Private
 Undefined
 )
 ;

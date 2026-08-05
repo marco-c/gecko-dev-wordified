@@ -200,7 +200,7 @@ JS_DEFINE_TYPED_SLOT
 (
 4
 UNUMBER_FORMATTER_SLOT
-Double
+Private
 Undefined
 )
 ;
@@ -208,7 +208,7 @@ JS_DEFINE_TYPED_SLOT
 (
 5
 UNUMBER_RANGE_FORMATTER_SLOT
-Double
+Private
 Undefined
 )
 ;
