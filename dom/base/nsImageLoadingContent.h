@@ -1556,6 +1556,12 @@ imgIRequest
 aRequest
 )
 ;
+bool
+HasPendingAlwaysLoadImageTask
+(
+)
+const
+;
 /
 /
 The

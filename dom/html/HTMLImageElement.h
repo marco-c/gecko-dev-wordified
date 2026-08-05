@@ -515,6 +515,7 @@ bool
 Complete
 (
 )
+const
 ;
 uint32_t
 Hspace
