@@ -144,6 +144,15 @@ use
 crate
 :
 :
+visibility
+:
+:
+PrimitiveDrawIndex
+;
+use
+crate
+:
+:
 render_task_cache
 :
 :
@@ -212,7 +221,6 @@ NinePatchDescriptor
 PrimKey
 PrimTemplate
 PrimTemplateCommonData
-PrimitiveInstanceIndex
 PrimitiveKind
 PrimitiveScratchBuffer
 PrimitiveStore
@@ -397,9 +405,9 @@ SpatialNodeIndex
 device_pixel_scale
 :
 DevicePixelScale
-prim_instance_index
+draw_index
 :
-PrimitiveInstanceIndex
+PrimitiveDrawIndex
 quad_transform
 :
 &
@@ -1271,7 +1279,7 @@ segment
 .
 edge_flags
 }
-prim_instance_index
+draw_index
 &
 None
 clip_chain
@@ -1821,7 +1829,7 @@ edge_flags
 }
 stretch_size
 spacing
-prim_instance_index
+draw_index
 &
 None
 clip_chain

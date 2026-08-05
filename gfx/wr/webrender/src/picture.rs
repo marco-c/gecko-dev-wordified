@@ -1266,7 +1266,6 @@ prim_store
 {
 PictureIndex
 PrimitiveInstance
-PrimitiveInstanceIndex
 PrimitiveKind
 }
 ;
@@ -1291,7 +1290,10 @@ crate
 visibility
 :
 :
+{
 PrimitiveDrawHeader
+PrimitiveDrawIndex
+}
 ;
 use
 crate
@@ -16642,9 +16644,9 @@ raster_config
 :
 &
 RasterConfig
-prim_instance_index
+draw_index
 :
-PrimitiveInstanceIndex
+PrimitiveDrawIndex
 prim_spatial_node_index
 :
 SpatialNodeIndex
@@ -18166,7 +18168,7 @@ all
 (
 )
 }
-prim_instance_index
+draw_index
 &
 None
 &
@@ -18441,7 +18443,7 @@ all
 (
 )
 }
-prim_instance_index
+draw_index
 &
 None
 &
