@@ -623,16 +623,6 @@ ResetVideoStreamBufferControllerObserverStats
 (
 )
 ;
-video_timing_
--
->
-set_render_delay
-(
-config_
-.
-render_delay
-)
-;
 video_stream_buffer_controller_
 .
 StartNextDecode

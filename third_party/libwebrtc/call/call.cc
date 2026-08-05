@@ -6865,6 +6865,19 @@ configuration
 )
 )
 ;
+TimeDelta
+render_delay
+=
+TimeDelta
+:
+:
+Millis
+(
+configuration
+.
+render_delay_ms
+)
+;
 /
 /
 TODO
@@ -6995,6 +7008,7 @@ env_
 field_trials
 (
 )
+render_delay
 )
 &
 nack_periodic_processor_
