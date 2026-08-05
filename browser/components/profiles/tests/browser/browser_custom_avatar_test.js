@@ -1993,7 +1993,7 @@ customTabButton
 .
 type
 "
-default
+ghost
 "
 "
 Custom
@@ -2080,7 +2080,7 @@ iconTabButton
 .
 type
 "
-default
+ghost
 "
 "
 Icon
@@ -2166,7 +2166,7 @@ customTabButton
 .
 type
 "
-default
+ghost
 "
 "
 Custom
