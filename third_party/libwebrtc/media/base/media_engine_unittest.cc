@@ -420,7 +420,7 @@ extensions
 ;
 EXPECT_THAT
 (
-GetDefaultEnabledRtpHeaderExtensions
+GetDefaultEnabledRtpHeaderCapabilities
 (
 mock
 nullptr
@@ -430,7 +430,7 @@ ElementsAre
 Field
 (
 &
-RtpExtension
+RtpHeaderExtensionCapability
 :
 :
 uri
@@ -444,7 +444,7 @@ uri1
 Field
 (
 &
-RtpExtension
+RtpHeaderExtensionCapability
 :
 :
 uri
@@ -458,7 +458,7 @@ uri2
 Field
 (
 &
-RtpExtension
+RtpHeaderExtensionCapability
 :
 :
 uri
@@ -472,7 +472,7 @@ uri4
 Field
 (
 &
-RtpExtension
+RtpHeaderExtensionCapability
 :
 :
 uri

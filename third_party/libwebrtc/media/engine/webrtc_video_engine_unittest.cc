@@ -7421,11 +7421,11 @@ std
 :
 vector
 <
-RtpExtension
+RtpHeaderExtensionCapability
 >
 header_extensions
 =
-GetDefaultEnabledRtpHeaderExtensions
+GetDefaultEnabledRtpHeaderCapabilities
 (
 *
 engine_
@@ -7451,7 +7451,7 @@ Contains
 Field
 (
 &
-RtpExtension
+RtpHeaderExtensionCapability
 :
 :
 uri
@@ -7471,7 +7471,7 @@ Each
 Field
 (
 &
-RtpExtension
+RtpHeaderExtensionCapability
 :
 :
 uri
