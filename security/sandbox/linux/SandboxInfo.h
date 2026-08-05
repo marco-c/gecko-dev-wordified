@@ -64,6 +64,11 @@ define
 mozilla_SandboxInfo_h
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
@@ -71,11 +76,6 @@ Types
 .
 h
 "
-#
-include
-<
-cstdint
->
 /
 /
 Information

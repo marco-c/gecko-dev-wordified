@@ -158,14 +158,14 @@ XP_WIN
 #
 include
 <
-windows
+wincrypt
 .
 h
 >
 #
 include
 <
-wincrypt
+windows
 .
 h
 >

@@ -74,13 +74,6 @@ h
 #
 include
 "
-nsISiteIntegrityService
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -89,6 +82,13 @@ h
 include
 "
 nsIDataStorage
+.
+h
+"
+#
+include
+"
+nsISiteIntegrityService
 .
 h
 "

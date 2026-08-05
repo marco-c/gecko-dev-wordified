@@ -66,6 +66,13 @@ PKCS11Token_h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -95,13 +102,6 @@ h
 include
 "
 pk11func
-.
-h
-"
-#
-include
-"
-ScopedNSSTypes
 .
 h
 "

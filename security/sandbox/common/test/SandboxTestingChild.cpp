@@ -95,7 +95,7 @@ mozilla
 /
 ipc
 /
-UtilityProcessSandboxing
+UtilityProcessChild
 .
 h
 "
@@ -106,7 +106,7 @@ mozilla
 /
 ipc
 /
-UtilityProcessChild
+UtilityProcessSandboxing
 .
 h
 "

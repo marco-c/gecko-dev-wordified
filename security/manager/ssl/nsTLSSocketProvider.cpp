@@ -60,6 +60,13 @@ MPL
 #
 include
 "
+nsTLSSocketProvider
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasePrincipal
@@ -69,7 +76,7 @@ h
 #
 include
 "
-nsTLSSocketProvider
+nsError
 .
 h
 "
@@ -77,13 +84,6 @@ h
 include
 "
 nsNSSIOLayer
-.
-h
-"
-#
-include
-"
-nsError
 .
 h
 "

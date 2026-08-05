@@ -222,7 +222,7 @@ h
 #
 include
 "
-pk11pub
+ScopedNSSTypes
 .
 h
 "
@@ -247,7 +247,7 @@ h
 #
 include
 "
-ScopedNSSTypes
+pk11pub
 .
 h
 "

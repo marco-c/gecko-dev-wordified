@@ -65,7 +65,7 @@ CRLiteTimestamp_h
 #
 include
 "
-nsICertStorage
+CTVerifyResult
 .
 h
 "
@@ -73,6 +73,13 @@ h
 include
 "
 SignedCertificateTimestamp
+.
+h
+"
+#
+include
+"
+nsICertStorage
 .
 h
 "

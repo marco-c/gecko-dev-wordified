@@ -66,13 +66,6 @@ INC_NSVERIFICATIONJOB_H
 #
 include
 "
-nspr
-.
-h
-"
-#
-include
-"
 nsIX509Cert
 .
 h
@@ -81,6 +74,13 @@ h
 include
 "
 nsProxyRelease
+.
+h
+"
+#
+include
+"
+nspr
 .
 h
 "

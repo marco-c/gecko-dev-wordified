@@ -66,6 +66,13 @@ h
 #
 include
 "
+PublicKeyPinningService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -83,13 +90,6 @@ h
 include
 "
 nsIDataStorage
-.
-h
-"
-#
-include
-"
-PublicKeyPinningService
 .
 h
 "

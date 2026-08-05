@@ -65,6 +65,13 @@ mozilla_SandboxTest_h
 #
 include
 "
+GMPService
+.
+h
+"
+#
+include
+"
 SandboxTestingParent
 .
 h
@@ -91,13 +98,6 @@ include
 mozilla
 /
 MozPromise
-.
-h
-"
-#
-include
-"
-GMPService
 .
 h
 "

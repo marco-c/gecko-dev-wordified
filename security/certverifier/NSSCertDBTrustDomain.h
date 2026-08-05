@@ -65,14 +65,14 @@ NSSCertDBTrustDomain_h
 #
 include
 "
-CertVerifier
+CRLiteTimestamp
 .
 h
 "
 #
 include
 "
-CRLiteTimestamp
+CertVerifier
 .
 h
 "

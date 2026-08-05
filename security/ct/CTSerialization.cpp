@@ -65,13 +65,6 @@ h
 "
 #
 include
-"
-CTUtils
-.
-h
-"
-#
-include
 <
 stdint
 .
@@ -82,6 +75,13 @@ include
 <
 type_traits
 >
+#
+include
+"
+CTUtils
+.
+h
+"
 namespace
 mozilla
 {

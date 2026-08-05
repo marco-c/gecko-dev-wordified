@@ -65,14 +65,14 @@ SANDBOX_PROFILER_PARENT_H
 #
 include
 "
-SandboxProfiler
+SandboxInfo
 .
 h
 "
 #
 include
 "
-SandboxInfo
+SandboxProfiler
 .
 h
 "

@@ -91,13 +91,6 @@ h
 #
 include
 "
-pk11pub
-.
-h
-"
-#
-include
-"
 mozpkix
 /
 Input
@@ -110,6 +103,13 @@ include
 mozpkix
 /
 Result
+.
+h
+"
+#
+include
+"
+pk11pub
 .
 h
 "

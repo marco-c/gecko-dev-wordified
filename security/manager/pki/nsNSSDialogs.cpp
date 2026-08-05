@@ -147,14 +147,14 @@ h
 #
 include
 "
-nsIX509CertDB
+nsIX509Cert
 .
 h
 "
 #
 include
 "
-nsIX509Cert
+nsIX509CertDB
 .
 h
 "

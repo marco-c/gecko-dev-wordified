@@ -111,9 +111,7 @@ mozilla
 /
 gtest
 /
-ipc
-/
-TestUtilityProcess
+WaitFor
 .
 h
 "
@@ -124,7 +122,9 @@ mozilla
 /
 gtest
 /
-WaitFor
+ipc
+/
+TestUtilityProcess
 .
 h
 "

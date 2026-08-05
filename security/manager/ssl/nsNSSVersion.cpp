@@ -73,13 +73,6 @@ h
 #
 include
 "
-prinit
-.
-h
-"
-#
-include
-"
 nss
 .
 h
@@ -94,7 +87,7 @@ h
 #
 include
 "
-ssl
+prinit
 .
 h
 "
@@ -102,6 +95,13 @@ h
 include
 "
 smime
+.
+h
+"
+#
+include
+"
+ssl
 .
 h
 "

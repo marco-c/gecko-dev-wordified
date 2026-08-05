@@ -73,7 +73,9 @@ h
 #
 include
 "
-nsNetCID
+mozilla
+/
+SyncRunnable
 .
 h
 "
@@ -94,9 +96,7 @@ h
 #
 include
 "
-mozilla
-/
-SyncRunnable
+nsNetCID
 .
 h
 "

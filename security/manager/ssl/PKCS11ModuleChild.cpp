@@ -109,6 +109,13 @@ h
 #
 include
 "
+NSSCertDBTrustDomain
+.
+h
+"
+#
+include
+"
 PKCS11ModuleDB
 .
 h
@@ -128,13 +135,6 @@ h
 include
 "
 nsDebugImpl
-.
-h
-"
-#
-include
-"
-NSSCertDBTrustDomain
 .
 h
 "

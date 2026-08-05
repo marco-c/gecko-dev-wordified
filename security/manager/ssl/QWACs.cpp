@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsIX509CertDB
-.
-h
-"
-#
-include
-"
 CryptoTask
 .
 h
@@ -137,6 +130,13 @@ h
 include
 "
 nsIX509Cert
+.
+h
+"
+#
+include
+"
+nsIX509CertDB
 .
 h
 "

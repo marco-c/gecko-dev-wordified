@@ -64,6 +64,12 @@ CredentialManagerSecret
 .
 h
 "
+/
+/
+clang
+-
+format
+off
 #
 include
 <
@@ -78,6 +84,12 @@ wincred
 .
 h
 >
+/
+/
+clang
+-
+format
+on
 #
 include
 "

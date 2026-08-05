@@ -80,11 +80,6 @@ endif
 #
 include
 <
-algorithm
->
-#
-include
-<
 stdio
 .
 h
@@ -111,6 +106,11 @@ include
 unistd
 .
 h
+>
+#
+include
+<
+algorithm
 >
 #
 include
