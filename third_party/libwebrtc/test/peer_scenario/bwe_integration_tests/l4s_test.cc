@@ -6343,7 +6343,7 @@ feedback_fraction
 :
 0
 .
-05
+1
 "
 )
 ;
@@ -6364,7 +6364,7 @@ feedback_fraction
 :
 0
 .
-05
+1
 "
 )
 ;
@@ -6401,7 +6401,7 @@ feedback_fraction
 :
 0
 .
-05
+1
 "
 )
 ;
@@ -6440,7 +6440,7 @@ feedback_fraction
 :
 0
 .
-05
+1
 "
 )
 ;
