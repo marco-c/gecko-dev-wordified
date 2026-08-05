@@ -47153,7 +47153,7 @@ the
 overflow
 floats
 list
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 oofs
 (
 this
@@ -47996,7 +47996,7 @@ floats
 mine
 too
 .
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 oofs
 (
 prevBlock
@@ -48418,7 +48418,7 @@ before
 VerifyOverflowSituation
 )
 {
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 oofs
 (
 this
@@ -53456,7 +53456,7 @@ return
 }
 }
 {
-nsAutoOOFFrameList
+AutoOverflowFloatsList
 oofs
 (
 this
