@@ -691,7 +691,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -753,7 +753,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -819,7 +819,7 @@ isRelative
 true
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -895,7 +895,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -969,7 +969,7 @@ isRelative
 false
 dateFormatType
 :
-UrlbarUtils
+UrlbarShared
 .
 DATE_FORMAT_TYPE
 .
@@ -1166,7 +1166,12 @@ sandbox
 .
 stub
 (
-UrlbarUtils
+UrlbarTestUtils
+.
+getUrlbarShared
+(
+window
+)
 "
 formatDate
 "

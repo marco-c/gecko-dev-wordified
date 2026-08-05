@@ -522,7 +522,7 @@ tip
 let
 tipResultSpan
 =
-UrlbarUtils
+UrlbarShared
 .
 getSpanForResult
 (

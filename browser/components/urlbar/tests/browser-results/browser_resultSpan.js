@@ -112,7 +112,7 @@ maxRichResults
 const
 TIP_SPAN
 =
-UrlbarUtils
+UrlbarShared
 .
 getSpanForResult
 (
