@@ -154,10 +154,6 @@ WebGLRendererConstant
 )
 DESKTOP_DEFAULT
 (
-WebGLVendorRandomize
-)
-DESKTOP_DEFAULT
-(
 WebGLVendorConstant
 )
 DESKTOP_DEFAULT
@@ -167,10 +163,6 @@ WebGLVendorSanitize
 ANDROID_DEFAULT
 (
 WebGLRendererConstant
-)
-ANDROID_DEFAULT
-(
-WebGLVendorRandomize
 )
 ANDROID_DEFAULT
 (
