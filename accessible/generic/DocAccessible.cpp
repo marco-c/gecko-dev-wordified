@@ -13384,7 +13384,7 @@ eTopLevelContentDocInProcess
 ;
 if
 (
-ShouldSendToParentProcess
+IPCAccessibilityActive
 (
 )
 )
@@ -13890,7 +13890,7 @@ return
 }
 if
 (
-ShouldSendToParentProcess
+IPCAccessibilityActive
 (
 )
 )
