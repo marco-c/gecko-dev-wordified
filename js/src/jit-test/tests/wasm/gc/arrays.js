@@ -16,6 +16,16 @@ gc
 zeal
 =
 2
+;
+test
+-
+also
+=
+-
+-
+no
+-
+avx
 /
 /
 Test
