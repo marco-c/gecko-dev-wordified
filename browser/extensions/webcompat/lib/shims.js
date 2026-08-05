@@ -153,7 +153,7 @@ browser
 .
 appConstants
 .
-getReleaseBranch
+getEffectiveUpdateChannel
 (
 )
 ;
