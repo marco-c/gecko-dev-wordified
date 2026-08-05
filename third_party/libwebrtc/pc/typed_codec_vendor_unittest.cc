@@ -159,6 +159,15 @@ include
 "
 test
 /
+create_test_field_trials
+.
+h
+"
+#
+include
+"
+test
+/
 gmock
 .
 h
@@ -209,6 +218,8 @@ VideoCodecsFromFactoryWhenTrialEnabled
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -551,6 +562,8 @@ VideoCodecsFromFactoryWhenResiliencyAbsent
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -733,6 +746,8 @@ VideoCodecsLegacyWhenTrialDisabled
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -874,6 +889,8 @@ AudioCodecsFromFactoryWhenTrialEnabled
 {
 FieldTrials
 trials
+=
+CreateTestFieldTrials
 (
 "
 WebRTC
