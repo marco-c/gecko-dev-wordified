@@ -910,7 +910,7 @@ isVisible
 (
 footer
 .
-iconElement
+tabImageIconElement
 )
 )
 {
@@ -921,7 +921,7 @@ waitForEvent
 (
 footer
 .
-iconElement
+tabImageIconElement
 "
 load
 "
@@ -938,7 +938,7 @@ isVisible
 (
 footer
 .
-iconElement
+tabImageIconElement
 )
 "
 Show
@@ -1037,7 +1037,7 @@ ok
 (
 footer
 .
-iconElement
+tabImageIconElement
 .
 hidden
 "
@@ -1059,7 +1059,7 @@ ok
 !
 footer
 .
-iconElement
+tabImageIconElement
 .
 src
 "
