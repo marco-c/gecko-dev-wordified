@@ -454,6 +454,15 @@ split_first_3_mut
 (
 )
 ;
+/
+/
+TODO
+(
+veluca
+)
+:
+SIMD
+this
 for
 i
 in
@@ -518,6 +527,8 @@ input_b
 [
 i
 ]
+as
+f32
 +
 input_y
 [
@@ -526,9 +537,9 @@ input_y
 [
 i
 ]
-)
 as
 f32
+)
 *
 scale_b
 ;

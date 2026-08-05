@@ -49,7 +49,10 @@ crate
 util
 :
 :
+{
 SmallVec
+StackOnly
+}
 ;
 /
 /
@@ -176,6 +179,7 @@ a
 T
 ]
 32
+StackOnly
 >
 num_channels
 :
@@ -282,6 +286,7 @@ a
 T
 ]
 32
+StackOnly
 >
 num_channels
 :
@@ -647,6 +652,7 @@ mut
 T
 ]
 8
+StackOnly
 >
 num_channels
 :
@@ -747,6 +753,7 @@ mut
 T
 ]
 8
+StackOnly
 >
 num_channels
 :

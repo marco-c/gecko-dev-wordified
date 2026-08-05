@@ -64,10 +64,6 @@ color
 ;
 pub
 mod
-container
-;
-pub
-mod
 entropy_coding
 ;
 pub
@@ -101,6 +97,16 @@ render
 pub
 mod
 util
+;
+#
+[
+cfg
+(
+test
+)
+]
+mod
+tests
 ;
 /
 /
