@@ -1137,6 +1137,7 @@ and
 StoreX
 .
 Atomic
+INVALID
 }
 ;
 using
