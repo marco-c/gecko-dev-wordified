@@ -1219,8 +1219,8 @@ INTEGER
 "
 UNIQUE
 (
-prefix
 host
+prefix
 )
 "
 \
