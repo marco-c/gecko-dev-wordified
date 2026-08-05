@@ -71968,6 +71968,7 @@ GetDetailedGlyphs
 g
 -
 glyphs
+count
 )
 ;
 while
@@ -72300,6 +72301,7 @@ GetDetailedGlyphs
 g
 -
 glyphs
+count
 )
 ;
 while
@@ -74444,6 +74446,7 @@ GetDetailedGlyphs
 g
 -
 glyphs
+count
 )
 ;
 while
