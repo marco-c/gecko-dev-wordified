@@ -91,20 +91,6 @@ pffft
 rnnoise
 "
 ]
-LIBWEBRTC_DIR
-=
-os
-.
-path
-.
-normpath
-(
-"
-third_party
-/
-libwebrtc
-"
-)
 #
 Files
 in
@@ -2853,6 +2839,7 @@ fetch
 (
 target
 url
+destination_dir
 )
 :
     
@@ -2962,7 +2949,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 "
 README
 .
@@ -3185,6 +3172,7 @@ fetch_local
 target
 path
 commit
+destination_dir
 )
 :
     
@@ -3203,7 +3191,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 "
 README
 .
@@ -3776,6 +3764,7 @@ def
 unpack
 (
 target
+destination_dir
 from_local
 =
 None
@@ -3890,7 +3879,7 @@ delete
 those
 directories
 in
-LIBWEBRTC_DIR
+destination_dir
         
 libwebrtc_used_in_firefox
 =
@@ -3919,7 +3908,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
 )
@@ -4094,7 +4083,7 @@ from
 the
 tarfile
 to
-LIBWEBRTC_DIR
+destination_dir
         
 for
 path
@@ -4126,7 +4115,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -4366,7 +4355,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -4512,7 +4501,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
 )
@@ -4560,7 +4549,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -4584,7 +4573,7 @@ paths
 from
         
 #
-LIBWEBRTC_DIR
+destination_dir
 /
 third_party
 to
@@ -4627,7 +4616,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
 )
@@ -4732,7 +4721,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -4855,7 +4844,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
 )
@@ -4905,7 +4894,7 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+destination_dir
 path
 )
             
@@ -5128,15 +5117,22 @@ parse_args
 )
     
 #
+The
+destination
+directory
+within
 the
-default
-for
-LIBWEBRTC_DIR
-is
-set
-for
+tree
+depends
+on
+which
 target
-libwebrtc
+is
+    
+#
+being
+vendored
+.
     
 if
 args
@@ -5149,7 +5145,7 @@ build
 "
 :
         
-LIBWEBRTC_DIR
+destination_dir
 =
 os
 .
@@ -5177,7 +5173,7 @@ third_party
 "
 :
         
-LIBWEBRTC_DIR
+destination_dir
 =
 os
 .
@@ -5185,10 +5181,23 @@ path
 .
 join
 (
-LIBWEBRTC_DIR
+            
+os
+.
+path
+.
+normpath
+(
+"
+third_party
+/
+libwebrtc
+"
+)
 "
 third_party
 "
+        
 )
     
 elif
@@ -5204,7 +5213,7 @@ cpp
 "
 :
         
-LIBWEBRTC_DIR
+destination_dir
 =
 os
 .
@@ -5221,11 +5230,29 @@ cpp
 "
 )
     
+else
+:
+        
+destination_dir
+=
+os
+.
+path
+.
+normpath
+(
+"
+third_party
+/
+libwebrtc
+"
+)
+    
 os
 .
 makedirs
 (
-LIBWEBRTC_DIR
+destination_dir
 exist_ok
 =
 True
@@ -5246,9 +5273,11 @@ from_github
             
 fetch
 (
+                
 args
 .
 target
+                
 make_github_url
 (
 args
@@ -5258,6 +5287,9 @@ args
 .
 commit
 )
+                
+destination_dir
+            
 )
         
 elif
@@ -5268,9 +5300,11 @@ from_googlesource
             
 fetch
 (
+                
 args
 .
 target
+                
 make_googlesource_url
 (
 args
@@ -5280,6 +5314,9 @@ args
 .
 commit
 )
+                
+destination_dir
+            
 )
         
 elif
@@ -5299,23 +5336,30 @@ from_local
 args
 .
 commit
+destination_dir
 )
     
 unpack
 (
+        
 args
 .
 target
+        
+destination_dir
+        
 from_local
 =
 args
 .
 from_local
+        
 commit
 =
 args
 .
 commit
+    
 )
     
 if
