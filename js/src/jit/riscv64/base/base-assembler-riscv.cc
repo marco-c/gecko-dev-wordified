@@ -1630,7 +1630,7 @@ instr
 )
 ;
 }
-BufferOffset
+void
 AssemblerRiscvBase
 :
 :
@@ -1711,7 +1711,6 @@ imm12
 kImm12Shift
 )
 ;
-return
 emit
 (
 instr
@@ -1809,7 +1808,7 @@ doc
 )
 ;
 }
-BufferOffset
+void
 AssemblerRiscvBase
 :
 :
@@ -1890,7 +1889,6 @@ imm12
 kImm12Shift
 )
 ;
-return
 emit
 (
 instr
@@ -2285,7 +2283,7 @@ instr
 )
 ;
 }
-void
+BufferOffset
 AssemblerRiscvBase
 :
 :
@@ -2429,6 +2427,7 @@ imm13
 /
 bit
 12
+return
 emit
 (
 instr
@@ -2495,7 +2494,7 @@ instr
 )
 ;
 }
-void
+BufferOffset
 AssemblerRiscvBase
 :
 :
@@ -2606,6 +2605,7 @@ imm21
 /
 bit
 20
+return
 emit
 (
 instr
@@ -3866,7 +3866,7 @@ those
 in
 the
 compiler
-void
+BufferOffset
 AssemblerRiscvBase
 :
 :
@@ -3884,6 +3884,7 @@ LabelDoc
 doc
 )
 {
+return
 GenInstrB
 (
 funct3

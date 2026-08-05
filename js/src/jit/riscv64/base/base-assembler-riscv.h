@@ -954,7 +954,7 @@ FPURoundingMode
 frm
 )
 ;
-BufferOffset
+void
 GenInstrI
 (
 uint8_t
@@ -986,7 +986,7 @@ LabelDoc
 doc
 )
 ;
-BufferOffset
+void
 GenInstrI
 (
 uint8_t
@@ -1065,7 +1065,7 @@ int16_t
 imm12
 )
 ;
-void
+BufferOffset
 GenInstrB
 (
 uint8_t
@@ -1093,7 +1093,7 @@ int32_t
 imm20
 )
 ;
-void
+BufferOffset
 GenInstrJ
 (
 BaseOpcode
@@ -1330,7 +1330,7 @@ s
 RISCVInstrInfo
 .
 td
-void
+BufferOffset
 GenInstrBranchCC_rri
 (
 uint8_t

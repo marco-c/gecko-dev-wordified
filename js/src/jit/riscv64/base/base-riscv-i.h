@@ -117,7 +117,7 @@ imm20
 /
 /
 Jumps
-CodeOffset
+BufferOffset
 jal
 (
 Register
@@ -147,7 +147,7 @@ doc
 /
 /
 Branches
-void
+BufferOffset
 beq
 (
 Register
@@ -160,7 +160,7 @@ LabelDoc
 doc
 )
 ;
-void
+BufferOffset
 bne
 (
 Register
@@ -173,7 +173,7 @@ LabelDoc
 doc
 )
 ;
-void
+BufferOffset
 blt
 (
 Register
@@ -186,7 +186,7 @@ LabelDoc
 doc
 )
 ;
-void
+BufferOffset
 bge
 (
 Register
@@ -199,7 +199,7 @@ LabelDoc
 doc
 )
 ;
-void
+BufferOffset
 bltu
 (
 Register
@@ -212,7 +212,7 @@ LabelDoc
 doc
 )
 ;
-void
+BufferOffset
 bgeu
 (
 Register
@@ -683,7 +683,7 @@ unimp
 /
 /
 Branches
-void
+BufferOffset
 beqz
 (
 Register
@@ -694,6 +694,7 @@ LabelDoc
 doc
 )
 {
+return
 beq
 (
 rs
@@ -703,7 +704,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 bnez
 (
 Register
@@ -714,6 +715,7 @@ LabelDoc
 doc
 )
 {
+return
 bne
 (
 rs
@@ -723,7 +725,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 blez
 (
 Register
@@ -734,6 +736,7 @@ LabelDoc
 doc
 )
 {
+return
 bge
 (
 zero_reg
@@ -743,7 +746,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 bgez
 (
 Register
@@ -754,6 +757,7 @@ LabelDoc
 doc
 )
 {
+return
 bge
 (
 rs
@@ -763,7 +767,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 bltz
 (
 Register
@@ -774,6 +778,7 @@ LabelDoc
 doc
 )
 {
+return
 blt
 (
 rs
@@ -783,7 +788,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 bgtz
 (
 Register
@@ -794,6 +799,7 @@ LabelDoc
 doc
 )
 {
+return
 blt
 (
 zero_reg
@@ -803,7 +809,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 bgt
 (
 Register
@@ -816,6 +822,7 @@ LabelDoc
 doc
 )
 {
+return
 blt
 (
 rs2
@@ -825,7 +832,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 ble
 (
 Register
@@ -838,6 +845,7 @@ LabelDoc
 doc
 )
 {
+return
 bge
 (
 rs2
@@ -847,7 +855,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 bgtu
 (
 Register
@@ -860,6 +868,7 @@ LabelDoc
 doc
 )
 {
+return
 bltu
 (
 rs2
@@ -869,7 +878,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 bleu
 (
 Register
@@ -882,6 +891,7 @@ LabelDoc
 doc
 )
 {
+return
 bgeu
 (
 rs2
@@ -891,7 +901,7 @@ doc
 )
 ;
 }
-CodeOffset
+BufferOffset
 j
 (
 int32_t
@@ -909,7 +919,7 @@ doc
 )
 ;
 }
-CodeOffset
+BufferOffset
 jal
 (
 int32_t
@@ -927,13 +937,14 @@ doc
 )
 ;
 }
-void
+BufferOffset
 jr
 (
 Register
 rs
 )
 {
+return
 jalr
 (
 zero_reg
@@ -942,7 +953,7 @@ rs
 )
 ;
 }
-void
+BufferOffset
 jr
 (
 Register
@@ -953,6 +964,7 @@ LabelDoc
 doc
 )
 {
+return
 jalr
 (
 zero_reg
@@ -962,7 +974,7 @@ doc
 )
 ;
 }
-void
+BufferOffset
 jalr
 (
 Register
@@ -973,6 +985,7 @@ LabelDoc
 doc
 )
 {
+return
 jalr
 (
 ra
@@ -982,13 +995,14 @@ doc
 )
 ;
 }
-void
+BufferOffset
 jalr
 (
 Register
 rs
 )
 {
+return
 jalr
 (
 ra
