@@ -5626,10 +5626,7 @@ ok
 EXPECT_EQ
 (
 answer
-channel1_
--
->
-media_send_channel
+media_send_channel1_impl
 (
 )
 -

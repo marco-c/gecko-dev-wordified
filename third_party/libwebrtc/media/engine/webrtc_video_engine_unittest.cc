@@ -5261,9 +5261,6 @@ get
 GetMediaConfig
 (
 )
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -7294,9 +7291,6 @@ get
 GetMediaConfig
 (
 )
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -7531,9 +7525,6 @@ get
 GetMediaConfig
 (
 )
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -7632,9 +7623,6 @@ get
 GetMediaConfig
 (
 )
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -7729,9 +7717,6 @@ get
 (
 )
 GetMediaConfig
-(
-)
-VideoOptions
 (
 )
 CryptoOptions
@@ -7877,9 +7862,6 @@ get
 (
 )
 GetMediaConfig
-(
-)
-VideoOptions
 (
 )
 CryptoOptions
@@ -11845,9 +11827,6 @@ get
 GetMediaConfig
 (
 )
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -12821,9 +12800,6 @@ get
 (
 )
 MediaConfig
-(
-)
-VideoOptions
 (
 )
 CryptoOptions
@@ -14012,9 +13988,6 @@ get
 (
 )
 media_config
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -21460,9 +21433,6 @@ get
 GetMediaConfig
 (
 )
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -27307,9 +27277,6 @@ get
 (
 )
 media_config
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -27402,9 +27369,6 @@ get
 (
 )
 media_config
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -31665,9 +31629,6 @@ get
 (
 )
 media_config
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -32059,9 +32020,6 @@ get
 (
 )
 media_config
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -32271,9 +32229,6 @@ get
 (
 )
 media_config
-VideoOptions
-(
-)
 CryptoOptions
 (
 )
@@ -76294,9 +76249,6 @@ env_
 &
 fake_call_
 GetMediaConfig
-(
-)
-VideoOptions
 (
 )
 CryptoOptions
