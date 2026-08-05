@@ -1341,8 +1341,10 @@ alive_
 PendingTaskSafetyFlag
 :
 :
-Create
+CreateAttachedToTaskQueue
 (
+true
+worker_thread
 )
 )
 on_first_packet_received_
@@ -1470,11 +1472,6 @@ ssrc_generator_
 ssrc_generator
 )
 {
-RTC_DCHECK_RUN_ON
-(
-worker_thread_
-)
-;
 RTC_DCHECK
 (
 media_send_channel_

@@ -379,6 +379,12 @@ Run
 (
 )
 ;
+bool
+IsEmpty
+(
+)
+const
+;
 /
 /
 Queues
