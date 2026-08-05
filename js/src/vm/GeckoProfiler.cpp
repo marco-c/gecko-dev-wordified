@@ -3215,6 +3215,9 @@ hasSourceText
 bool
 retrievableSource
 ;
+bool
+unused
+;
 ScriptSource
 :
 :
@@ -3225,6 +3228,8 @@ scriptSource
 hasSourceText
 &
 retrievableSource
+&
+unused
 )
 ;
 uint32_t
