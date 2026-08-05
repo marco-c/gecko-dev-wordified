@@ -320,7 +320,7 @@ screenshots
 .
 enabled
 "
-SEND_MORE_INFO
+SHOW_SEND_MORE_INFO
 :
 "
 ui
@@ -331,6 +331,8 @@ webcompat
 -
 reporter
 .
+show
+-
 send
 -
 more
@@ -2304,7 +2306,7 @@ setBoolPref
 (
 PREFS
 .
-SEND_MORE_INFO
+SHOW_SEND_MORE_INFO
 true
 )
 ;
@@ -2322,7 +2324,7 @@ setBoolPref
 (
 PREFS
 .
-SEND_MORE_INFO
+SHOW_SEND_MORE_INFO
 false
 )
 ;
