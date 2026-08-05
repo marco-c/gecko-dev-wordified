@@ -9986,6 +9986,9 @@ spatial_id
 info
 .
 clip
+info
+.
+snap_outset
 )
 ;
 }
@@ -15055,6 +15058,9 @@ clip
 :
 &
 ComplexClipRegion
+snap_outset
+:
+f32
 )
 {
 let
@@ -15130,6 +15136,13 @@ new_node_id
 handle
 spatial_node_index
 region_rect
+Au
+:
+:
+from_f32_px
+(
+snap_outset
+)
 )
 ;
 }
