@@ -207,6 +207,19 @@ newtab
 "
     
 "
+opaqueResponseBlocking
+"
+#
+Requires
+C
++
++
+API
+for
+exposure
+events
+    
+"
 pocketNewtab
 "
     
