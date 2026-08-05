@@ -1568,7 +1568,6 @@ CreateDirectoryMetadata2
 nsIFile
 &
 aDirectory
-const
 FullOriginMetadata
 &
 aFullOriginMetadata
