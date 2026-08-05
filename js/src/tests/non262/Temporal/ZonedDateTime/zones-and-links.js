@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2026b
+2026c
 const
 zones
 =
