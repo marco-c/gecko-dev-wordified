@@ -386,6 +386,15 @@ URIParams
 &
 )
 ;
+bool
+IsValidInnerURI
+(
+nsIURI
+*
+aInnerURI
+)
+override
+;
 nsresult
 ReadPrivate
 (
