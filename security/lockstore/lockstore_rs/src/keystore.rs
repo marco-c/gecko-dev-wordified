@@ -184,7 +184,7 @@ kek_ref
 .
 "
 "
-dek
+wrapped_dek
 "
 :
 [
@@ -359,7 +359,7 @@ layout
 /
 !
 The
-dek
+wrapped_dek
 bytes
 are
 the
@@ -970,6 +970,17 @@ KekType
 kek_ref
 :
 String
+#
+[
+serde
+(
+rename
+=
+"
+wrapped_dek
+"
+)
+]
 dek
 :
 Vec
