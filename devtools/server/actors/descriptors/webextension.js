@@ -1404,7 +1404,7 @@ it
 is
 loaded
 from
-resource
+chrome
 :
 /
 /
