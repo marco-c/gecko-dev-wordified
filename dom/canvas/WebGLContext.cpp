@@ -15790,7 +15790,13 @@ webgl
 :
 IndexedName
 {
+std
+:
+:
+move
+(
 name
+)
 index
 }
 )

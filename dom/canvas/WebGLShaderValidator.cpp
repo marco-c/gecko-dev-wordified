@@ -2226,7 +2226,13 @@ size
 auto
 combined
 =
+std
+:
+:
+move
+(
 header
+)
 ;
 combined
 +
@@ -2236,7 +2242,13 @@ body
 *
 translatedSource
 =
+std
+:
+:
+move
+(
 combined
+)
 ;
 }
 }
