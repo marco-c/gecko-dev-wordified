@@ -18697,11 +18697,11 @@ GetAtomArrayValue
 (
 )
 ;
-if
+MOZ_ASSERT
 (
 array
 )
-{
+;
 for
 (
 const
@@ -18715,7 +18715,9 @@ className
 array
 -
 >
-mArray
+Array
+(
+)
 )
 {
 filter
@@ -18729,7 +18731,6 @@ HashForBloomFilter
 className
 )
 ;
-}
 }
 }
 else
