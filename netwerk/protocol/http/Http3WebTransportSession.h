@@ -452,6 +452,11 @@ nsACString
 aReason
 )
 ;
+void
+OnSessionDraining
+(
+)
+;
 uint64_t
 GetStreamId
 (
