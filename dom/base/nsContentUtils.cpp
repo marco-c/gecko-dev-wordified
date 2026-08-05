@@ -81522,10 +81522,6 @@ StaticPrefs
 dom_scoped_custom_element_registries_enabled
 (
 )
-&
-&
-*
-aResult
 )
 {
 if
