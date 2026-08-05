@@ -2180,6 +2180,9 @@ FileFinder
 command_context
 .
 topsrcdir
+find_dotfiles
+=
+True
 )
     
 for
