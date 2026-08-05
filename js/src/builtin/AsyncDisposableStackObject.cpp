@@ -209,7 +209,7 @@ ArrayObject
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 AsyncDisposableStackObject
 :
@@ -221,7 +221,7 @@ initialDisposeCapability
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 AsyncDisposableStackObject
 :
@@ -1466,7 +1466,7 @@ cx
 asyncDisposableStack
 -
 >
-getReservedSlot
+getReservedSlotTyped
 (
 AsyncDisposableStackObject
 :

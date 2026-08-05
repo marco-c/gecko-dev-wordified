@@ -154,7 +154,7 @@ ParseRecordObject
 "
 JSCLASS_HAS_RESERVED_SLOTS
 (
-SlotCount
+SLOT_COUNT
 )
 }
 ;
@@ -259,9 +259,9 @@ parseNode
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
-ParseNodeSlot
+PARSE_NODE_SLOT
 StringValue
 (
 parseNode
@@ -274,7 +274,7 @@ obj
 >
 initReservedSlot
 (
-ValueSlot
+VALUE_SLOT
 val
 )
 ;
