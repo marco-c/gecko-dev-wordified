@@ -501,10 +501,9 @@ for
 Summarizer
 model
 using
-Llama
+llama
 .
 cpp
-WASM
 "
 options
 :
@@ -856,7 +855,9 @@ numContext
 backend
 :
 "
-wllama
+llama
+.
+cpp
 "
 timeoutMS
 :
