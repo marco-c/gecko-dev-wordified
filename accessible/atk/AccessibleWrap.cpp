@@ -7311,7 +7311,13 @@ eAtkFormat
 }
 aResult
 =
+std
+:
+:
+move
+(
 keyBindingsStr
+)
 ;
 }
 /

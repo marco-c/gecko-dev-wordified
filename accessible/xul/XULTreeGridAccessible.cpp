@@ -4687,7 +4687,13 @@ accEvent
 ;
 mCachedTextEquiv
 =
+std
+:
+:
+move
+(
 textEquiv
+)
 ;
 return
 true
@@ -4729,7 +4735,13 @@ this
 ;
 mCachedTextEquiv
 =
+std
+:
+:
+move
+(
 textEquiv
+)
 ;
 return
 true
