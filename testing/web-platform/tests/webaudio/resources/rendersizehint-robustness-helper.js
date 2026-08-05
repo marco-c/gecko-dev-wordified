@@ -486,6 +486,15 @@ audioContext
 t
 )
 ;
+if
+(
+!
+node
+)
+{
+return
+;
+}
 source
 .
 connect
