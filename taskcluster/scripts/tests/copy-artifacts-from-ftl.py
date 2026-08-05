@@ -149,8 +149,14 @@ the
 availability
 of
 the
-gsutil
+gcloud
 command
+(
+with
+the
+storage
+component
+)
 in
 the
 environment
@@ -252,11 +258,10 @@ process
 It
 uses
 the
-gsutil
+gcloud
+storage
 command
--
-line
-tool
+group
 to
 interact
 with
@@ -314,8 +319,14 @@ directory
     
 -
 The
-gsutil
+gcloud
 command
+(
+with
+the
+storage
+component
+)
 must
 be
 available
@@ -861,7 +872,7 @@ gcs_path
 return
 None
 def
-check_gsutil_availability
+check_gcloud_storage_availability
 (
 )
 :
@@ -875,8 +886,10 @@ the
 availability
 of
 the
-gsutil
+gcloud
+storage
 command
+group
 in
 the
 environment
@@ -886,7 +899,13 @@ Exit
 the
 script
 if
-gsutil
+gcloud
+(
+or
+the
+storage
+component
+)
 is
 not
 available
@@ -906,20 +925,26 @@ run
             
 [
 "
-gsutil
+gcloud
+"
+"
+storage
 "
 "
 -
 -
-version
+help
 "
 ]
+            
 capture_output
 =
 True
+            
 text
 =
 True
+            
 check
 =
 True
@@ -938,7 +963,8 @@ f
 "
 Error
 executing
-gsutil
+gcloud
+storage
 :
 {
 e
@@ -1077,7 +1103,10 @@ check_output
             
 [
 "
-gsutil
+gcloud
+"
+"
+storage
 "
 "
 ls
@@ -1121,7 +1150,13 @@ or
         
 if
 "
-AccessDeniedException
+403
+"
+in
+output
+or
+"
+401
 "
 in
 output
@@ -1178,18 +1213,27 @@ gcs_path
         
 elif
 "
-CommandException
-:
-One
-or
-more
-URLs
 matched
 no
 objects
 "
 in
 output
+.
+lower
+(
+)
+or
+"
+not
+found
+"
+in
+output
+.
+lower
+(
+)
 :
             
 logging
@@ -1252,7 +1296,8 @@ f
 "
 Error
 executing
-gsutil
+gcloud
+storage
 :
 {
 e
@@ -1421,7 +1466,7 @@ device
 return
 devices
 def
-gsutil_cp
+gcloud_storage_cp
 (
 artifact
 dest
@@ -1441,7 +1486,8 @@ the
 destination
 path
 using
-gsutil
+gcloud
+storage
 .
     
 Args
@@ -1514,7 +1560,10 @@ run
             
 [
 "
-gsutil
+gcloud
+"
+"
+storage
 "
 "
 cp
@@ -1548,7 +1597,15 @@ returncode
             
 if
 "
-AccessDeniedException
+403
+"
+in
+result
+.
+stderr
+or
+"
+401
 "
 in
 result
@@ -1646,7 +1703,8 @@ f
 "
 Error
 executing
-gsutil
+gcloud
+storage
 :
 {
 e
@@ -2295,7 +2353,7 @@ count
 =
 1
         
-gsutil_cp
+gcloud_storage_cp
 (
 artifact
 dest_path
@@ -2481,7 +2539,7 @@ count
 =
 1
         
-gsutil_cp
+gcloud_storage_cp
 (
 artifact
 dest_path
@@ -2586,7 +2644,7 @@ base_name
 "
 )
             
-gsutil_cp
+gcloud_storage_cp
 (
 artifact
 dest_path
@@ -2653,7 +2711,7 @@ in
 artifacts
 :
             
-gsutil_cp
+gcloud_storage_cp
 (
 artifact
 Worker
@@ -2724,7 +2782,7 @@ setup_logging
 (
 )
     
-check_gsutil_availability
+check_gcloud_storage_availability
 (
 )
     
