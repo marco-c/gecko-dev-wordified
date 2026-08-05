@@ -462,6 +462,16 @@ pref
 "
 pdfjs
 .
+enableNova
+"
+true
+)
+;
+pref
+(
+"
+pdfjs
+.
 enableOptimizedPartialRendering
 "
 false
