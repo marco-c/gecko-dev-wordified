@@ -144,9 +144,11 @@ devtools
 -
 toolbox
 -
+iframe
+.
 browsertoolbox
 -
-iframe
+host
 "
 )
 ;

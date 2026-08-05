@@ -731,9 +731,11 @@ devtools
 -
 toolbox
 -
+iframe
+.
 window
 -
-iframe
+host
 "
 )
 ;
