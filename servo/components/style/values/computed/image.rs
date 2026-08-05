@@ -306,8 +306,8 @@ specified
 :
 :
 {
-ImageRendering
 ImageDecoding
+ImageRendering
 }
 ;
 /
