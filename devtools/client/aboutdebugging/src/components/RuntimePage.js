@@ -1005,6 +1005,11 @@ temporaryInstallError
 PropTypes
 .
 object
+temporaryInstallErrorCount
+:
+PropTypes
+.
+number
 }
 ;
 }
@@ -1289,6 +1294,7 @@ const
 {
 dispatch
 temporaryInstallError
+temporaryInstallErrorCount
 }
 =
 this
@@ -1301,6 +1307,7 @@ TemporaryExtensionInstallSection
 {
 dispatch
 temporaryInstallError
+temporaryInstallErrorCount
 }
 )
 ;
@@ -1882,6 +1889,13 @@ state
 ui
 .
 temporaryInstallError
+temporaryInstallErrorCount
+:
+state
+.
+ui
+.
+temporaryInstallErrorCount
 }
 ;
 }
