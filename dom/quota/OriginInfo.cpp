@@ -510,6 +510,9 @@ mAccessTime
 mMaintenanceDate
 mAccessed
 mPersisted
+LockedDirty
+(
+)
 }
 ;
 }

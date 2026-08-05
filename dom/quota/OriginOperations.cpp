@@ -17674,6 +17674,12 @@ aPersisted
 *
 /
 true
+/
+*
+aDirty
+*
+/
+false
 }
 ClientUsageArray
 (
