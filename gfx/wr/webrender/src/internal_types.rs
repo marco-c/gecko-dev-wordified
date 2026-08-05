@@ -6944,6 +6944,12 @@ ResourceUpdateList
 memory_pressure
 :
 bool
+discard_active_documents
+:
+bool
+trim_upload_buffers
+:
+bool
 }
 PublishPipelineInfo
 (
