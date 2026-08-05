@@ -804,7 +804,7 @@ nullptr
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 TimeZoneObject
 :
@@ -819,7 +819,7 @@ identifier
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 TimeZoneObject
 :
@@ -834,7 +834,7 @@ primaryIdentifier
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 TimeZoneObject
 :
@@ -1005,7 +1005,7 @@ nullptr
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 TimeZoneObject
 :
@@ -1020,7 +1020,7 @@ identifier
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 TimeZoneObject
 :
@@ -1034,7 +1034,7 @@ UndefinedValue
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 TimeZoneObject
 :

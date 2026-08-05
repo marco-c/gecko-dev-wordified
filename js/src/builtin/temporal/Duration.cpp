@@ -6139,7 +6139,7 @@ to
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6161,7 +6161,7 @@ years
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6183,7 +6183,7 @@ months
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6205,7 +6205,7 @@ weeks
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6227,7 +6227,7 @@ days
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6249,7 +6249,7 @@ hours
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6271,7 +6271,7 @@ minutes
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6293,7 +6293,7 @@ seconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6315,7 +6315,7 @@ milliseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6337,7 +6337,7 @@ microseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6575,7 +6575,7 @@ to
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6597,7 +6597,7 @@ years
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6619,7 +6619,7 @@ months
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6641,7 +6641,7 @@ weeks
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6663,7 +6663,7 @@ days
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6685,7 +6685,7 @@ hours
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6707,7 +6707,7 @@ minutes
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6729,7 +6729,7 @@ seconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6751,7 +6751,7 @@ milliseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -6773,7 +6773,7 @@ microseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DurationObject
 :
@@ -12373,7 +12373,10 @@ startEpochNs
 ;
 if
 (
-r1
+DateDurationSign
+(
+startDuration
+)
 =
 =
 0

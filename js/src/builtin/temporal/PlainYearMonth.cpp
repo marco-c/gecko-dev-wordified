@@ -792,7 +792,7 @@ isoDate
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainYearMonthObject
 :
@@ -814,7 +814,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainYearMonthObject
 :
@@ -939,7 +939,7 @@ yearMonth
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainYearMonthObject
 :
@@ -961,7 +961,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainYearMonthObject
 :

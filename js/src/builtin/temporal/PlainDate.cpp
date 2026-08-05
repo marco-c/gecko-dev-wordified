@@ -1385,7 +1385,7 @@ isoDate
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateObject
 :
@@ -1407,7 +1407,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateObject
 :
@@ -1549,7 +1549,7 @@ isoDate
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateObject
 :
@@ -1571,7 +1571,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainDateObject
 :

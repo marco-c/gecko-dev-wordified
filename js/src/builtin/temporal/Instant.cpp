@@ -2531,7 +2531,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 InstantObject
 :
@@ -2548,7 +2548,7 @@ seconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 InstantObject
 :
@@ -2690,7 +2690,7 @@ epochNanoseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 InstantObject
 :
@@ -2707,7 +2707,7 @@ seconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 InstantObject
 :

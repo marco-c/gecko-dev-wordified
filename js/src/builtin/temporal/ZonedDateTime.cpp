@@ -3301,7 +3301,7 @@ epochNanoseconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -3318,7 +3318,7 @@ seconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -3340,7 +3340,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -3361,7 +3361,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -3478,7 +3478,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -3495,7 +3495,7 @@ seconds
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -3517,7 +3517,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -3538,7 +3538,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ZonedDateTimeObject
 :
@@ -14850,11 +14850,21 @@ Step
 .
 f
 .
-MOZ_ASSERT
+thisNs
+=
+std
+:
+:
+min
 (
 thisNs
-<
 endNs
+-
+EpochDuration
+{
+0
+1
+}
 )
 ;
 /

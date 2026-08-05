@@ -588,7 +588,7 @@ isoDate
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainMonthDayObject
 :
@@ -610,7 +610,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainMonthDayObject
 :
@@ -735,7 +735,7 @@ monthDay
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainMonthDayObject
 :
@@ -757,7 +757,7 @@ Step
 object
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PlainMonthDayObject
 :
