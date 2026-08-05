@@ -91,7 +91,7 @@ client
 /
 inspector
 /
-shared
+rules
 /
 test
 /
