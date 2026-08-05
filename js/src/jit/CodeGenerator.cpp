@@ -16290,6 +16290,17 @@ bind
 legacyFeaturesEnabled
 )
 ;
+masm
+.
+store8
+(
+Imm32
+(
+0
+)
+invalidatedAddress
+)
+;
 }
 masm
 .
