@@ -66,6 +66,13 @@ h
 #
 include
 "
+StorageAccessAPIHelper
+.
+h
+"
+#
+include
+"
 mozIThirdPartyUtil
 .
 h
