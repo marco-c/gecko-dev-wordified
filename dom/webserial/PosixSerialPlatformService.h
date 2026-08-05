@@ -267,6 +267,8 @@ nsString
 aPortId
 uint32_t
 aBufferSize
+bool
+aDetectParityErrors
 nsIAsyncInputStream
 *
 *
