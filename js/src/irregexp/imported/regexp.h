@@ -755,9 +755,9 @@ Isolate
 isolate
 DirectHandle
 <
-JSRegExp
+RegExpData
 >
-regexp
+regexp_data
 DirectHandle
 <
 String
@@ -847,9 +847,9 @@ Isolate
 isolate
 DirectHandle
 <
-JSRegExp
+RegExpData
 >
-regexp
+regexp_data
 DirectHandle
 <
 String
