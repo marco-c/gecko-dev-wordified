@@ -186,7 +186,7 @@ const
 return
 mDecodedFramesLate
 >
-mMaxLateDecodedFrames
+kMaxLateDecodedFrames
 ;
 }
 void
