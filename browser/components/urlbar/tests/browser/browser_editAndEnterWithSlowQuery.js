@@ -2776,7 +2776,15 @@ Assert
 equal
 (
 selectedResult
+.
+id
 testResult
+.
+id
+"
+Selected
+result
+"
 )
 ;
 Assert
