@@ -956,7 +956,7 @@ rendered
 }
 async
 function
-addNavigableOriginLogin
+addLocalOriginLogin
 (
 )
 {
@@ -978,13 +978,11 @@ pass4
 origin
 :
 "
-https
+about
 :
-/
-/
-example
-.
-com
+preferences
+#
+privacy
 "
 }
 )
