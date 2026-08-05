@@ -1049,6 +1049,13 @@ ReceivedTransportCcFeedbackCount
 const
 override
 ;
+DataSize
+GetTransportOverhead
+(
+)
+const
+override
+;
 /
 /
 Mimics
