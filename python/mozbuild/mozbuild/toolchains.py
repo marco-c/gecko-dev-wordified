@@ -403,13 +403,23 @@ stdout
 =
 subprocess
 .
-DEVNULL
+PIPE
             
 stderr
 =
 subprocess
 .
-DEVNULL
+STDOUT
+            
+text
+=
+True
+            
+errors
+=
+"
+replace
+"
         
 )
         
@@ -443,6 +453,18 @@ result
 returncode
 }
 )
+:
+\
+n
+"
+                
+f
+"
+{
+result
+.
+stdout
+}
 "
             
 )
