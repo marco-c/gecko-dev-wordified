@@ -851,7 +851,7 @@ decode_time
 ;
 timing
 .
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 decode_time
 clock
@@ -1532,7 +1532,7 @@ HasConsistentVideoDelayTimings
 TEST
 (
 VCMTimingTest
-StopDecodeTimerClearsOldEstimates
+UpdateDecodeTimeEstimateClearsOldEstimates
 )
 {
 FieldTrials
@@ -1605,7 +1605,7 @@ Seconds
 ;
 timing
 .
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 TimeDelta
 :

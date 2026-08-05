@@ -333,7 +333,7 @@ decode_time
 ;
 timing
 .
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 decode_time
 clock

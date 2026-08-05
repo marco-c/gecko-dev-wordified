@@ -1003,10 +1003,10 @@ We
 need
 to
 "
-stop
+update
 the
 decode
-timer
+time
 "
 in
 order
@@ -1051,7 +1051,7 @@ below
 video_timing_
 -
 >
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 /
 *

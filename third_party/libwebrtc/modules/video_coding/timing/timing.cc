@@ -1081,7 +1081,7 @@ void
 VCMTiming
 :
 :
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 TimeDelta
 decode_time

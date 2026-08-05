@@ -1194,7 +1194,7 @@ decode_start
 timing_
 -
 >
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 decode_time
 now

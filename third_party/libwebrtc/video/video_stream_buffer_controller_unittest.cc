@@ -4579,7 +4579,7 @@ frame
 .
 timing_
 .
-StopDecodeTimer
+UpdateDecodeTimeEstimate
 (
 TimeDelta
 :
