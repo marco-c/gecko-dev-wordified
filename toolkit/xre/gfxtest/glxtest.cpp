@@ -344,15 +344,6 @@ string
 h
 >
 #
-include
-<
-gdk
-/
-gdk
-.
-h
->
-#
 ifdef
 MOZ_X11
 #
