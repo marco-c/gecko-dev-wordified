@@ -1110,6 +1110,11 @@ nsString
 outTitle
 )
 ;
+bool
+ShortcutUrlHasWebScheme
+(
+)
+;
 /
 /
 munge
