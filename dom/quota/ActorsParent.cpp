@@ -44019,7 +44019,9 @@ return
 sharedState
 -
 >
-mResult
+WaitForResult
+(
+)
 ;
 }
 nsresult
