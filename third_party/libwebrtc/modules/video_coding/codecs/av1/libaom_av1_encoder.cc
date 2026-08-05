@@ -5483,8 +5483,7 @@ more
 /
 /
 than
-one
-second
+500ms
 ago
 .
 if
@@ -5503,6 +5502,8 @@ second
 )
 >
 kVideoPayloadTypeFrequency
+/
+2
 )
 {
 all_layers_droppable
