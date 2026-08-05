@@ -3512,6 +3512,8 @@ kMinId
 ;
 id
 =
+RtpHeaderExtensionId
+(
 id
 .
 value
@@ -3519,6 +3521,7 @@ value
 )
 -
 1
+)
 )
 {
 if
