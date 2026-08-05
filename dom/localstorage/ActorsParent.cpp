@@ -25213,14 +25213,8 @@ mConnection
 )
 ;
 {
-const
-ScopedLogExtraInfo
-scope
-{
-ScopedLogExtraInfo
-:
-:
-kTagContextTainted
+QM_SCOPED_CONTEXT
+(
 "
 LSFlushOp
 :
@@ -25228,7 +25222,7 @@ LSFlushOp
 CommitFailed
 "
 _ns
-}
+)
 ;
 QM_TRY_INSPECT
 (
