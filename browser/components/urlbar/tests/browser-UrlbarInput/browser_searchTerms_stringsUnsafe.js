@@ -799,7 +799,7 @@ h
 .
 repeat
 (
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 +

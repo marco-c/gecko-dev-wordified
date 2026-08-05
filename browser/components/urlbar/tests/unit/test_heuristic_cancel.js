@@ -191,7 +191,7 @@ MyProvider
 "
 type
 :
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -236,7 +236,7 @@ type
 )
 {
 return
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .

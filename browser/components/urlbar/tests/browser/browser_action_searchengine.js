@@ -283,7 +283,7 @@ equal
 result
 .
 image
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

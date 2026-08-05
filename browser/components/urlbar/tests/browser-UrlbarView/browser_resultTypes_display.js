@@ -1346,7 +1346,7 @@ com
 "
 icon
 :
-UrlbarUtils
+UrlbarShared
 .
 ICON
 .

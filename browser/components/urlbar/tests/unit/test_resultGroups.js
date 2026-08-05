@@ -434,7 +434,7 @@ resultGroups
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -477,7 +477,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -552,7 +552,7 @@ limit
 0
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -632,7 +632,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -682,7 +682,7 @@ limit
 0
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -722,7 +722,7 @@ resultGroups
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -769,7 +769,7 @@ resultGroups
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -820,7 +820,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -869,7 +869,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -917,7 +917,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -926,7 +926,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -979,7 +979,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1034,7 +1034,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1043,7 +1043,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1098,7 +1098,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1109,7 +1109,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1167,7 +1167,7 @@ limit
 99
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1226,7 +1226,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1273,7 +1273,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1282,7 +1282,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1354,7 +1354,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1363,7 +1363,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1432,7 +1432,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1444,7 +1444,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1516,7 +1516,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1525,7 +1525,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1534,7 +1534,7 @@ REMOTE_SUGGESTION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1611,7 +1611,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1623,7 +1623,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1632,7 +1632,7 @@ REMOTE_SUGGESTION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1705,7 +1705,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1714,7 +1714,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1789,7 +1789,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1804,7 +1804,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1883,7 +1883,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1892,7 +1892,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1963,7 +1963,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -1978,7 +1978,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2054,7 +2054,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2072,7 +2072,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2151,7 +2151,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2166,7 +2166,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2181,7 +2181,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2265,7 +2265,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2283,7 +2283,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2298,7 +2298,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2377,7 +2377,7 @@ limit
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2388,7 +2388,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2397,7 +2397,7 @@ REMOTE_SUGGESTION
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2478,7 +2478,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2490,7 +2490,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2606,7 +2606,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2618,7 +2618,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2726,7 +2726,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2738,7 +2738,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2846,7 +2846,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2858,7 +2858,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -2870,7 +2870,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3105,7 +3105,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3117,7 +3117,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3129,7 +3129,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3301,7 +3301,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3313,7 +3313,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3325,7 +3325,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3497,7 +3497,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3509,7 +3509,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3521,7 +3521,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3761,7 +3761,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3773,7 +3773,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3785,7 +3785,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3906,7 +3906,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3918,7 +3918,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -3930,7 +3930,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4100,7 +4100,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4112,7 +4112,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4239,7 +4239,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4251,7 +4251,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4376,7 +4376,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4388,7 +4388,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4412,7 +4412,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4424,7 +4424,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4643,7 +4643,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4655,7 +4655,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4673,7 +4673,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4682,7 +4682,7 @@ FORM_HISTORY
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4869,7 +4869,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4881,7 +4881,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -4895,7 +4895,7 @@ limit
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5081,7 +5081,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5093,7 +5093,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5117,7 +5117,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5129,7 +5129,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5415,7 +5415,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5427,7 +5427,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5451,7 +5451,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5463,7 +5463,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5692,7 +5692,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5704,7 +5704,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5728,7 +5728,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5740,7 +5740,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5916,7 +5916,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5928,7 +5928,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5952,7 +5952,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -5964,7 +5964,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6133,7 +6133,7 @@ flex
 2
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6145,7 +6145,7 @@ flex
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6263,7 +6263,7 @@ children
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6272,7 +6272,7 @@ GENERAL
 {
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6391,7 +6391,7 @@ availableSpan
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6449,7 +6449,7 @@ availableSpan
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6533,7 +6533,7 @@ availableSpan
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6591,7 +6591,7 @@ availableSpan
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6639,7 +6639,7 @@ availableSpan
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6691,7 +6691,7 @@ availableSpan
 1
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6746,7 +6746,7 @@ availableSpan
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .
@@ -6822,7 +6822,7 @@ availableSpan
 3
 group
 :
-UrlbarUtils
+UrlbarShared
 .
 RESULT_GROUP
 .

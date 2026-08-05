@@ -261,7 +261,7 @@ displayed
 title
 .
 length
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 "
@@ -295,7 +295,7 @@ displayed
 title
 .
 length
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 "
@@ -318,7 +318,7 @@ displayed
 url
 .
 length
-UrlbarUtils
+UrlbarShared
 .
 MAX_TEXT_LENGTH
 "

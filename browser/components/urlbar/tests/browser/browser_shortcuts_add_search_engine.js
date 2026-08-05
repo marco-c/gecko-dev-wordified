@@ -1516,7 +1516,7 @@ const
 pref
 }
 of
-UrlbarUtils
+UrlbarShared
 .
 LOCAL_SEARCH_MODES
 )

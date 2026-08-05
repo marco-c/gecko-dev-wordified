@@ -1257,7 +1257,7 @@ heuristic
 false
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .

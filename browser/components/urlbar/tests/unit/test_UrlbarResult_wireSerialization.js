@@ -635,7 +635,7 @@ result
 .
 providerType
 =
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .
@@ -656,7 +656,7 @@ equal
 restored
 .
 providerType
-UrlbarUtils
+UrlbarShared
 .
 PROVIDER_TYPE
 .

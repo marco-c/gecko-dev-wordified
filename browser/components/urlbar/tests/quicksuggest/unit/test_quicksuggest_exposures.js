@@ -369,7 +369,7 @@ wikipediaResult
 )
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
@@ -3029,7 +3029,7 @@ heuristic
 false
 exposureTelemetry
 :
-UrlbarUtils
+UrlbarShared
 .
 EXPOSURE_TELEMETRY
 .
