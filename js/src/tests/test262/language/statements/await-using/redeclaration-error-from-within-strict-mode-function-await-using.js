@@ -83,6 +83,10 @@ flags
 :
 [
 noStrict
+]
+features
+:
+[
 explicit
 -
 resource
