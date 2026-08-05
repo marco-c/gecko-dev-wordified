@@ -61,9 +61,7 @@ jit
 /
 riscv64
 /
-constant
-/
-Constant
+Architecture
 -
 riscv64
 .
@@ -89,7 +87,9 @@ jit
 /
 riscv64
 /
-Architecture
+constant
+/
+Constant
 -
 riscv64
 .

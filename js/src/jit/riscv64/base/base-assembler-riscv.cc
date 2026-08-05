@@ -360,9 +360,9 @@ jit
 /
 riscv64
 /
-base
-/
-Integer
+Architecture
+-
+riscv64
 .
 h
 "
@@ -373,9 +373,9 @@ jit
 /
 riscv64
 /
-Architecture
--
-riscv64
+base
+/
+Integer
 .
 h
 "
