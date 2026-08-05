@@ -2294,10 +2294,6 @@ GetOrCreate
 ;
 /
 /
-XXX
-TODO
-/
-/
 Step
 15
 Let
