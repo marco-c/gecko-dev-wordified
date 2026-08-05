@@ -4198,7 +4198,7 @@ Rooted
 <
 UniquePtr
 <
-FinalizationRecordVector
+QueuedRecordVector
 >
 >
 recordsToBeCleanedUp
@@ -4209,15 +4209,9 @@ cx
 >
 make_unique
 <
-FinalizationRecordVector
+QueuedRecordVector
 >
 (
-cx
--
->
-zone
-(
-)
 )
 )
 ;
@@ -4523,7 +4517,7 @@ FinalizationQueueObject
 ;
 if
 (
-FinalizationRecordVector
+QueuedRecordVector
 *
 records
 =
@@ -4682,7 +4676,7 @@ hasRegistry
 ;
 if
 (
-FinalizationRecordVector
+QueuedRecordVector
 *
 records
 =
@@ -4809,7 +4803,7 @@ hasRecordsToCleanUp
 )
 const
 {
-FinalizationRecordVector
+QueuedRecordVector
 *
 records
 =
@@ -4830,7 +4824,10 @@ empty
 )
 ;
 }
-FinalizationRecordVector
+FinalizationQueueObject
+:
+:
+QueuedRecordVector
 *
 FinalizationQueueObject
 :
@@ -4864,7 +4861,7 @@ nullptr
 return
 static_cast
 <
-FinalizationRecordVector
+QueuedRecordVector
 *
 >
 (
@@ -5355,7 +5352,7 @@ HeldValue
 ]
 )
 .
-FinalizationRecordVector
+QueuedRecordVector
 *
 records
 =
