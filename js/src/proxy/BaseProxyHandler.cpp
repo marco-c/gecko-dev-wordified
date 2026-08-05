@@ -2670,6 +2670,10 @@ ptr
 value
 (
 )
+.
+unbarrieredGet
+(
+)
 !
 =
 wrapper
