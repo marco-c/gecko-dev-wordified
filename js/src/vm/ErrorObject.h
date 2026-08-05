@@ -1597,9 +1597,6 @@ JSEXN_REFERENCEERR
 JSProto_ReferenceError
 &
 &
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 JSProto_Error
 +
 int
@@ -1611,8 +1608,6 @@ JSEXN_SUPPRESSEDERR
 JSProto_SuppressedError
 &
 &
-#
-endif
 JSProto_Error
 +
 int

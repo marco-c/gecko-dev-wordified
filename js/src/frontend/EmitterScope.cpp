@@ -2496,9 +2496,6 @@ n
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 bool
 EmitterScope
 :
@@ -2691,8 +2688,6 @@ bce
 )
 ;
 }
-#
-endif
 bool
 EmitterScope
 :
@@ -2710,13 +2705,8 @@ LexicalScope
 ParserData
 *
 bindings
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 BlockKind
 blockKind
-#
-endif
 )
 {
 MOZ_ASSERT
@@ -2875,9 +2865,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 bi
@@ -2899,8 +2886,6 @@ bce
 )
 ;
 }
-#
-endif
 }
 updateFrameFixedSlots
 (
@@ -3090,9 +3075,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 MOZ_ASSERT_IF
 (
 blockKind_
@@ -3146,8 +3128,6 @@ return
 false
 ;
 }
-#
-endif
 return
 checkEnvironmentChainLength
 (
@@ -6028,9 +6008,6 @@ false
 ;
 }
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 bi
@@ -6052,8 +6029,6 @@ bce
 )
 ;
 }
-#
-endif
 }
 updateFrameFixedSlots
 (
@@ -6490,9 +6465,6 @@ ScopeKind
 :
 ClassBody
 :
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 !
@@ -6513,8 +6485,6 @@ false
 ;
 }
 }
-#
-endif
 if
 (
 bce

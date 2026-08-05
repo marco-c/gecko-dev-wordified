@@ -406,9 +406,6 @@ Abstract
 Closure
 .
 AsyncFromSyncIteratorClose
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 /
 /
 Explicit
@@ -481,8 +478,6 @@ unwrap
 Abstract
 Closure
 AsyncIteratorDisposeAwaitFulfilled
-#
-endif
 /
 /
 One
@@ -2302,9 +2297,6 @@ JSObject
 reject
 )
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 [
 [
 nodiscard
@@ -2338,8 +2330,6 @@ JSObject
 resultPromise
 )
 ;
-#
-endif
 }
 /
 /

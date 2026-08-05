@@ -6933,9 +6933,6 @@ false
 break
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 /
 /
 TODO
@@ -6959,8 +6956,6 @@ Using
 :
 break
 ;
-#
-endif
 case
 BindingKind
 :

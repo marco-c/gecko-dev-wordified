@@ -12981,9 +12981,6 @@ IteratorIdentity
 0
 0
 )
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 JS_SELF_HOSTED_SYM_FN
 (
 dispose
@@ -12993,8 +12990,6 @@ IteratorDispose
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

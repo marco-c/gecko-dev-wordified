@@ -82,9 +82,6 @@ h
 #
 endif
 #
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-#
 include
 "
 builtin
@@ -102,8 +99,6 @@ DisposableStackObject
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -435,9 +430,6 @@ AsyncIteratorHelperObject
 :
 class_
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 InlinableNative
 :
@@ -464,8 +456,6 @@ DisposableStackObject
 :
 class_
 ;
-#
-endif
 case
 InlinableNative
 :
@@ -1257,9 +1247,6 @@ InlinableNative
 :
 IntrinsicArrayIteratorPrototypeOptimizable
 :
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 InlinableNative
 :
@@ -1272,8 +1259,6 @@ InlinableNative
 :
 IntrinsicGuardToDisposableStack
 :
-#
-endif
 MOZ_CRASH
 (
 "

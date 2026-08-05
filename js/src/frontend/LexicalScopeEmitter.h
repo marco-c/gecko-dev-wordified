@@ -611,9 +611,6 @@ LexicalScope
 ParserData
 *
 bindings
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 BlockKind
 blockKind
 =
@@ -621,8 +618,6 @@ BlockKind
 :
 :
 Other
-#
-endif
 )
 ;
 [

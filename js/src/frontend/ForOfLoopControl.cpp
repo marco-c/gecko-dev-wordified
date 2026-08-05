@@ -250,9 +250,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 bool
 ForOfLoopControl
 :
@@ -306,8 +303,6 @@ return
 true
 ;
 }
-#
-endif
 bool
 ForOfLoopControl
 :
@@ -352,9 +347,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 /
 /
 Explicit
@@ -606,8 +598,6 @@ false
 ;
 }
 }
-#
-endif
 unsigned
 slotFromTop
 =
@@ -929,9 +919,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 forOfDisposalEmitter_
@@ -1031,8 +1018,6 @@ false
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -1583,9 +1568,6 @@ offset
 (
 )
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 /
 /
 Explicit
@@ -1702,8 +1684,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 !
@@ -1770,9 +1750,6 @@ return
 false
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 if
 (
 !
@@ -1793,8 +1770,6 @@ return
 false
 ;
 }
-#
-endif
 if
 (
 isTarget

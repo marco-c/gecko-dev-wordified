@@ -1237,8 +1237,6 @@ target
 "
 )
 \
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
 MACRO
 (
 Using
@@ -1247,7 +1245,6 @@ Using
 using
 '
 "
-)
 )
 \
 MACRO

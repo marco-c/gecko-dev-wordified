@@ -1241,9 +1241,6 @@ iterator
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 /
 *
 *
@@ -1412,8 +1409,6 @@ empty
 implicit
 )
 }
-#
-endif
 /
 *
 *

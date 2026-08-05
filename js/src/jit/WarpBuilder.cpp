@@ -229,9 +229,6 @@ h
 /
 TypeofEqOperand
 #
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
-#
 include
 "
 vm
@@ -240,8 +237,6 @@ UsingHint
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -7753,9 +7748,6 @@ StrictNe
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 bool
 WarpBuilder
 :
@@ -7931,8 +7923,6 @@ loc
 )
 ;
 }
-#
-endif
 /
 /
 Returns
@@ -21948,9 +21938,6 @@ blocks
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 bool
 WarpBuilder
 :
@@ -21974,8 +21961,6 @@ blocks
 )
 ;
 }
-#
-endif
 bool
 WarpBuilder
 :

@@ -9569,9 +9569,6 @@ thisOrRval
 ;
 }
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 /
 *
 *
@@ -10102,8 +10099,6 @@ return
 true
 ;
 }
-#
-endif
 static
 const
 JSFunctionSpec
@@ -11683,9 +11678,6 @@ AsyncIteratorIdentity
 0
 0
 )
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 JS_SYM_FN
 (
 asyncDispose
@@ -11693,8 +11685,6 @@ AsyncIteratorDispose
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;
@@ -11847,9 +11837,6 @@ AsyncIteratorIdentity
 0
 0
 )
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 JS_SYM_FN
 (
 asyncDispose
@@ -11857,8 +11844,6 @@ AsyncIteratorDispose
 0
 0
 )
-#
-endif
 JS_FS_END
 }
 ;

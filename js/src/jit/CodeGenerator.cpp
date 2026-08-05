@@ -173365,9 +173365,6 @@ offset
 }
 #
 endif
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 void
 CodeGenerator
 :
@@ -173600,8 +173597,6 @@ capabilityAddr
 )
 ;
 }
-#
-endif
 #
 ifdef
 FUZZING_JS_FUZZILLI

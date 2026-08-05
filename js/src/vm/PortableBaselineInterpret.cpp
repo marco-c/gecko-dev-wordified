@@ -58963,9 +58963,6 @@ LeaveWith
 )
 ;
 }
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 CASE
 (
 AddDisposable
@@ -59312,8 +59309,6 @@ CreateSuppressedError
 )
 ;
 }
-#
-endif
 CASE
 (
 BindVar

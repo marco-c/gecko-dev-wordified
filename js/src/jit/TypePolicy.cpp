@@ -7605,9 +7605,6 @@ BoxPolicy
 >
 )
 \
-IF_EXPLICIT_RESOURCE_MANAGEMENT
-(
-\
 _
 (
 MixPolicy
@@ -7624,13 +7621,11 @@ BoxPolicy
 <
 2
 >
-\
 BooleanPolicy
 <
 3
 >
 >
-)
 )
 \
 _

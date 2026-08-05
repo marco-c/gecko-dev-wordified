@@ -1103,9 +1103,6 @@ locks
 /
 /
 IDX_LOCKS
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 "
 suppressed
 "
@@ -1118,8 +1115,6 @@ error
 /
 /
 IDX_ERROR
-#
-endif
 }
 ;
 /

@@ -4660,9 +4660,6 @@ JSOp
 :
 StrictConstantNe
 :
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 JSOp
 :
@@ -4681,8 +4678,6 @@ JSOp
 :
 CreateSuppressedError
 :
-#
-endif
 /
 /
 Supported

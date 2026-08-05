@@ -106,13 +106,8 @@ LexicalScope
 ParserData
 *
 bindings
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 BlockKind
 blockKind
-#
-endif
 )
 {
 MOZ_ASSERT
@@ -156,12 +151,7 @@ enterLexical
 bce_
 kind
 bindings
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 blockKind
-#
-endif
 )
 )
 {

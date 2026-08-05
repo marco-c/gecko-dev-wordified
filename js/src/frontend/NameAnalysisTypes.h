@@ -521,13 +521,8 @@ CoverArrowParameter
 Var
 Let
 Const
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 Using
 AwaitUsing
-#
-endif
 Class
 /
 /
@@ -699,9 +694,6 @@ BindingKind
 :
 Const
 ;
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 case
 DeclarationKind
 :
@@ -720,8 +712,6 @@ BindingKind
 :
 Using
 ;
-#
-endif
 case
 DeclarationKind
 :
@@ -1007,9 +997,6 @@ FieldPlacement
 Unspecified
 )
 {
-#
-ifdef
-ENABLE_EXPLICIT_RESOURCE_MANAGEMENT
 /
 /
 TODO
@@ -1079,8 +1066,6 @@ closedOver_
 true
 ;
 }
-#
-endif
 }
 /
 /
