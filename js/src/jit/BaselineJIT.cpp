@@ -4844,10 +4844,6 @@ JSTracer
 trc
 )
 {
-assertInvariants
-(
-)
-;
 for
 (
 uint32_t
