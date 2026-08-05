@@ -99,7 +99,7 @@ std
 path
 :
 :
-PathBuf
+Path
 ;
 use
 std
@@ -149,7 +149,8 @@ new
 (
 dir
 :
-PathBuf
+&
+Path
 collection_name
 :
 String
@@ -196,6 +197,8 @@ collection_name
 )
 )
 ;
+Ok
+(
 Self
 :
 :
@@ -211,6 +214,7 @@ data_path
 collection_name
 keystore
 kek_ref
+)
 )
 }
 pub
@@ -249,6 +253,8 @@ kek_ref
 )
 ?
 ;
+Ok
+(
 Self
 :
 :
@@ -263,6 +269,7 @@ for_in_memory
 collection_name
 keystore
 kek_ref
+)
 )
 }
 fn
@@ -287,11 +294,7 @@ str
 )
 -
 >
-Result
-<
 Self
-LockstoreError
->
 {
 let
 store
@@ -310,8 +313,6 @@ store_path
 )
 )
 ;
-Ok
-(
 Self
 {
 store
@@ -325,7 +326,6 @@ to_string
 (
 )
 }
-)
 }
 pub
 fn
@@ -976,10 +976,10 @@ format
 (
 "
 {
+prefix
 }
 %
 "
-prefix
 )
 ;
 let

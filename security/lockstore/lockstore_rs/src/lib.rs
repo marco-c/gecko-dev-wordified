@@ -210,15 +210,15 @@ format
 (
 "
 {
+DATASTORE_FILENAME_PREFIX
 }
 {
+collection_name
 }
 {
+DATASTORE_FILENAME_SUFFIX
 }
 "
-DATASTORE_FILENAME_PREFIX
-collection_name
-DATASTORE_FILENAME_SUFFIX
 )
 }
 #
@@ -548,7 +548,7 @@ Error
 >
 Self
 {
-LockstoreError
+Self
 :
 :
 Serialization
@@ -580,7 +580,7 @@ NssError
 >
 Self
 {
-LockstoreError
+Self
 :
 :
 Encryption
@@ -931,7 +931,7 @@ str
 match
 self
 {
-KekType
+Self
 :
 :
 LocalKey
@@ -940,7 +940,7 @@ LocalKey
 "
 local
 "
-KekType
+Self
 :
 :
 Pkcs11Token
@@ -949,7 +949,7 @@ Pkcs11Token
 "
 pkcs11
 "
-KekType
+Self
 :
 :
 Password
@@ -986,7 +986,7 @@ local
 >
 Some
 (
-KekType
+Self
 :
 :
 LocalKey
@@ -998,7 +998,7 @@ pkcs11
 >
 Some
 (
-KekType
+Self
 :
 :
 Pkcs11Token
@@ -1010,7 +1010,7 @@ password
 >
 Some
 (
-KekType
+Self
 :
 :
 Password
@@ -1048,7 +1048,7 @@ KEK_REF_LOCAL_PREFIX
 {
 Ok
 (
-KekType
+Self
 :
 :
 LocalKey
@@ -1065,7 +1065,7 @@ KEK_REF_PASSWORD_PREFIX
 {
 Ok
 (
-KekType
+Self
 :
 :
 Password
@@ -1082,7 +1082,7 @@ KEK_REF_PKCS11_PREFIX
 {
 Ok
 (
-KekType
+Self
 :
 :
 Pkcs11Token
