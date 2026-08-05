@@ -2117,7 +2117,7 @@ aTableAcc
 mAccID
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_RELEASE_ASSERT
 (
 acc
 =
