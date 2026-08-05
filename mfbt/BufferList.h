@@ -2771,7 +2771,7 @@ MOZ_ASSERT
 mOwning
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aSize
 <
@@ -3265,6 +3265,18 @@ mSegments
 .
 back
 (
+)
+;
+MOZ_RELEASE_ASSERT
+(
+lastSegment
+.
+mCapacity
+>
+=
+lastSegment
+.
+mSize
 )
 ;
 size_t
