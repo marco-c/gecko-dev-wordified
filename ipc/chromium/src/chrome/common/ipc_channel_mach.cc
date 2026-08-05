@@ -5235,7 +5235,7 @@ get_if
 mozilla
 :
 :
-UniqueMachReceiveRight
+UniqueMachSendRight
 >
 (
 &
