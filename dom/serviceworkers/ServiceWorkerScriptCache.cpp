@@ -6157,7 +6157,13 @@ Scope
 (
 )
 )
+std
+:
+:
+move
+(
 statusAsText
+)
 NS_ConvertUTF8toUTF16
 (
 mURL
@@ -6536,7 +6542,13 @@ Scope
 (
 )
 )
+std
+:
+:
+move
+(
 mimeTypeUTF16
+)
 NS_ConvertUTF8toUTF16
 (
 mURL
