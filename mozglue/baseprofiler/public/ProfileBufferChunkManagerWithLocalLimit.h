@@ -556,10 +556,7 @@ first
 void
 RequestChunk
 (
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -665,10 +662,7 @@ AUTO_PROFILER_STATS
 Local_FulfillChunkRequests
 )
 ;
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
@@ -3201,10 +3195,7 @@ request
 in
 flight
 .
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (

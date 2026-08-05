@@ -583,10 +583,7 @@ mInitialChunk
 void
 RequestChunk
 (
-std
-:
-:
-function
+MoveOnlyFunction
 <
 void
 (
