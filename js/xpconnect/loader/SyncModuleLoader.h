@@ -84,6 +84,17 @@ ModuleLoaderBase
 .
 h
 "
+#
+include
+"
+js
+/
+loader
+/
+ScriptLoaderInterface
+.
+h
+"
 class
 mozJSModuleLoader
 ;
