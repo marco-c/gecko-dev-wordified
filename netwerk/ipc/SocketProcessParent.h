@@ -619,10 +619,13 @@ ipc
 IPCResult
 RecvSSLTokensCacheData
 (
-ByteBuf
+nsTArray
+<
+SSLTokensCacheRecordInfo
+>
 &
 &
-aBuf
+aRecords
 )
 ;
 #
