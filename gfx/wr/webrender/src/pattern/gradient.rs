@@ -151,9 +151,6 @@ stops
 [
 GradientStop
 ]
-_is_software
-:
-bool
 gpu_buffer_builder
 :
 &
@@ -326,9 +323,6 @@ stops
 [
 GradientStop
 ]
-_is_software
-:
-bool
 gpu_buffer_builder
 :
 &

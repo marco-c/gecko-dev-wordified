@@ -6924,11 +6924,6 @@ Clamp
 self
 .
 stops
-ctx
-.
-fb_config
-.
-is_software
 state
 .
 frame_gpu_data
