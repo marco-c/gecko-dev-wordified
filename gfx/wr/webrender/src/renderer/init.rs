@@ -282,8 +282,11 @@ renderer
 debug
 vertex
 gl
-Renderer
+debug
+:
+:
 DebugOverlayState
+Renderer
 BufferDamageTracker
 PipelineInfo
 TextureResolver
