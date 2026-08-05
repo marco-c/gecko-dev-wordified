@@ -316,7 +316,7 @@ sync
 egl
 -
 >
-fCreateSync
+fCreateSyncKHR
 (
 LOCAL_EGL_SYNC_NATIVE_FENCE_ANDROID
 attribs

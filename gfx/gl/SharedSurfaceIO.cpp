@@ -681,7 +681,7 @@ signalValue
 1
 ;
 const
-EGLint
+EGLAttrib
 attribs
 [
 ]
@@ -690,7 +690,7 @@ attribs
 LOCAL_EGL_SYNC_METAL_SHARED_EVENT_SIGNAL_VALUE_LO_ANGLE
 static_cast
 <
-EGLint
+EGLAttrib
 >
 (
 signalValue
@@ -700,7 +700,7 @@ signalValue
 LOCAL_EGL_SYNC_METAL_SHARED_EVENT_SIGNAL_VALUE_HI_ANGLE
 static_cast
 <
-EGLint
+EGLAttrib
 >
 (
 signalValue
@@ -718,7 +718,7 @@ sync
 egl
 -
 >
-fCreateSync
+fCreateSyncEGL15
 (
 LOCAL_EGL_SYNC_METAL_SHARED_EVENT_ANGLE
 attribs
