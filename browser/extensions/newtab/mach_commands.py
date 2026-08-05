@@ -5923,7 +5923,7 @@ recipe
 for
 the
 Nimbus
-newtabTrainhopAddon
+newtabTrainhopAddonDeployment
 feature
 given
 a
