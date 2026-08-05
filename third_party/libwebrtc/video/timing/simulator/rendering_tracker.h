@@ -564,6 +564,13 @@ assembled_frame
 )
 override
 ;
+void
+UpdateMaxRtt
+(
+TimeDelta
+max_rtt
+)
+;
 private
 :
 struct

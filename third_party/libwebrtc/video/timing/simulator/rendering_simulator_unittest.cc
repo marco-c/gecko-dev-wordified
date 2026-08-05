@@ -3927,7 +3927,7 @@ IsFinite
 )
 Eq
 (
-960
+987
 )
 )
 ;
@@ -4140,7 +4140,7 @@ Timestamp
 :
 Millis
 (
-821457178
+821457378
 )
 .
 decoded_timestamp
@@ -4150,7 +4150,7 @@ Timestamp
 :
 Micros
 (
-821457168065
+821457368242
 )
 .
 rendered_timestamp
@@ -4160,7 +4160,7 @@ Timestamp
 :
 Micros
 (
-821457168065
+821457368242
 )
 /
 /
@@ -4172,19 +4172,6 @@ information
 frames_dropped
 =
 0
-/
-/
-The
-value
-below
-is
-unreasonably
-low
-we
-should
-fix
-this
-.
 .
 jitter_buffer_minimum_delay
 =
@@ -4193,7 +4180,7 @@ TimeDelta
 :
 Micros
 (
-13085
+213371
 )
 .
 jitter_buffer_target_delay
@@ -4203,7 +4190,7 @@ TimeDelta
 :
 Micros
 (
-13085
+213371
 )
 .
 jitter_buffer_delay
@@ -4213,7 +4200,7 @@ TimeDelta
 :
 Micros
 (
-21065
+221242
 )
 }
 )

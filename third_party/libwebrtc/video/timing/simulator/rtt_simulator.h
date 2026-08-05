@@ -488,9 +488,6 @@ RTC_GUARDED_BY
 sequence_checker_
 )
 ;
-webrtc
-:
-:
 internal
 :
 :
