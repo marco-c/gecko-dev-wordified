@@ -10734,6 +10734,8 @@ override
 if
 not
 is_running_under_coding_agent
+(
+)
 :
                                 
 message
