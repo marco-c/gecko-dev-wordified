@@ -488,6 +488,7 @@ EXT_image_dma_buf_import_modifiers
 MESA_image_dma_buf_export
 KHR_no_config_context
 ANGLE_iosurface_client_buffer
+ANGLE_metal_commands_scheduled_sync
 Max
 }
 ;
