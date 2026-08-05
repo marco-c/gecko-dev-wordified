@@ -91,6 +91,11 @@ P2P_CLIENT_RELAY_PORT_FACTORY_INTERFACE_H_
 #
 include
 <
+cstdint
+>
+#
+include
+<
 memory
 >
 #
@@ -303,6 +308,11 @@ LocalNetworkAccessPermissionFactoryInterface
 lna_permission_factory
 =
 nullptr
+;
+uint64_t
+ice_tiebreaker
+=
+0
 ;
 }
 ;
