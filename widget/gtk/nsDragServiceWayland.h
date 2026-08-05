@@ -76,13 +76,6 @@ nsDragService
 .
 h
 "
-#
-include
-"
-nsDragSessionSource
-.
-h
-"
 namespace
 mozilla
 :
@@ -105,7 +98,7 @@ class
 nsDragSessionWayland
 :
 public
-nsDragSessionSource
+nsDragSession
 {
 public
 :
