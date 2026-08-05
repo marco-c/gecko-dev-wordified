@@ -236,9 +236,6 @@ module
 .
 scoped_refptr
 <
-webrtc
-:
-:
 AudioProcessing
 >
 audio_processing
@@ -258,9 +255,6 @@ module
 .
 scoped_refptr
 <
-webrtc
-:
-:
 AudioDeviceModule
 >
 audio_device_module
