@@ -1870,6 +1870,7 @@ perfSpewer_
 .
 startRecording
 (
+runtime
 )
 ;
 perfSpewer_
@@ -42927,7 +42928,9 @@ false
 }
 if
 (
-PerfEnabled
+perfSpewer_
+.
+perfEnabled
 (
 )
 )
