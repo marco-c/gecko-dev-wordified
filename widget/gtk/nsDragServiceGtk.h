@@ -97,7 +97,7 @@ h
 #
 include
 "
-nsDragSessionSource
+nsDragService
 .
 h
 "
@@ -123,7 +123,7 @@ class
 nsDragSessionGtk
 :
 public
-nsDragSessionSource
+nsDragSession
 {
 public
 :
