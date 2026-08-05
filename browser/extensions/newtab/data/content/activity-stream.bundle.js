@@ -214996,9 +214996,9 @@ const
 THEME_PICKER_FTL
 =
 "
-locales
--
-preview
+toolkit
+/
+global
 /
 theme
 -
