@@ -10513,8 +10513,6 @@ querySelector
 "
 [
 selected
-=
-true
 ]
 "
 )
