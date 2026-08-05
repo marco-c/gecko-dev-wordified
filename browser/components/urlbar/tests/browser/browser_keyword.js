@@ -505,8 +505,6 @@ urlbar
 tests
 /
 browser
--
-search
 /
 print_postdata
 .
