@@ -124,13 +124,10 @@ gtest
 h
 "
 namespace
-{
-using
 webrtc
-:
-:
-RateStatistics
-;
+{
+namespace
+{
 constexpr
 int64_t
 kWindowMs
@@ -2742,3 +2739,8 @@ kTimeDelta
 /
 /
 namespace
+}
+/
+/
+namespace
+webrtc

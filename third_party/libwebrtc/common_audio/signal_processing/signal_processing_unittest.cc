@@ -162,7 +162,11 @@ gtest
 .
 h
 "
-static
+namespace
+webrtc
+{
+namespace
+{
 const
 int16_t
 vector16
@@ -185,7 +189,6 @@ WEBRTC_SPL_WORD16_MIN
 345
 }
 ;
-static
 const
 size_t
 kVector16Size
@@ -908,9 +911,6 @@ b
 )
 )
 ;
-webrtc
-:
-:
 StringBuilder
 ss
 ;
@@ -4888,3 +4888,12 @@ i
 ;
 }
 }
+}
+/
+/
+namespace
+}
+/
+/
+namespace
+webrtc

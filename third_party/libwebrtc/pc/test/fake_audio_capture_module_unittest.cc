@@ -197,6 +197,11 @@ wait_until
 .
 h
 "
+namespace
+webrtc
+{
+namespace
+{
 class
 FakeAdmTest
 :
@@ -208,9 +213,6 @@ testing
 :
 Test
 public
-webrtc
-:
-:
 AudioTransport
 {
 protected
@@ -324,9 +326,6 @@ Initialized
 Callbacks
 inherited
 from
-webrtc
-:
-:
 AudioTransport
 .
 /
@@ -373,9 +372,6 @@ newMicLevel
 )
 override
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -503,9 +499,6 @@ ntp_time_ms
 )
 override
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -571,9 +564,6 @@ push_iterations
 )
 const
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -591,9 +581,6 @@ pull_iterations
 )
 const
 {
-webrtc
-:
-:
 MutexLock
 lock
 (
@@ -605,9 +592,6 @@ return
 pull_iterations_
 ;
 }
-webrtc
-:
-:
 scoped_refptr
 <
 FakeAudioCaptureModule
@@ -690,9 +674,6 @@ return
 min_buffer_size
 ;
 }
-webrtc
-:
-:
 test
 :
 :
@@ -700,9 +681,6 @@ RunLoop
 main_thread_
 ;
 mutable
-webrtc
-:
-:
 Mutex
 mutex_
 ;
@@ -892,9 +870,6 @@ delay_ms
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -920,9 +895,6 @@ Gt
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -932,9 +904,6 @@ kMsInSecond
 )
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -1077,9 +1046,6 @@ Recording
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -1105,9 +1071,6 @@ Gt
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1117,9 +1080,6 @@ kMsInSecond
 )
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -1219,9 +1179,6 @@ StartRecording
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -1247,9 +1204,6 @@ Gt
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1259,9 +1213,6 @@ kMsInSecond
 )
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -1269,9 +1220,6 @@ IsRtcOk
 ;
 EXPECT_THAT
 (
-webrtc
-:
-:
 WaitUntil
 (
 [
@@ -1297,9 +1245,6 @@ Gt
 .
 timeout
 =
-webrtc
-:
-:
 TimeDelta
 :
 :
@@ -1309,9 +1254,6 @@ kMsInSecond
 )
 }
 )
-webrtc
-:
-:
 IsRtcOk
 (
 )
@@ -1340,3 +1282,12 @@ StopRecording
 )
 ;
 }
+}
+/
+/
+namespace
+}
+/
+/
+namespace
+webrtc
