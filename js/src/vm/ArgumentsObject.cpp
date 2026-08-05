@@ -537,7 +537,7 @@ argsObjAliasesFormals
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 MAYBE_CALL_SLOT
 ObjectValue
@@ -685,7 +685,7 @@ CallObject
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 MAYBE_CALL_SLOT
 ObjectValue
@@ -1735,7 +1735,7 @@ nullptr
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 ArgumentsObject
 :
@@ -2106,7 +2106,7 @@ GC
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DATA_SLOT
 PrivateValue
@@ -2131,7 +2131,7 @@ numArgs
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 DATA_SLOT
 PrivateValue
@@ -2143,7 +2143,7 @@ data
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 CALLEE_SLOT
 ObjectValue
@@ -2156,7 +2156,7 @@ callee
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 INITIAL_LENGTH_SLOT
 Int32Value
@@ -2843,7 +2843,7 @@ recoverFromOutOfMemory
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DATA_SLOT
 PrivateValue
@@ -2868,7 +2868,7 @@ numArgs
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 INITIAL_LENGTH_SLOT
 Int32Value
@@ -2883,7 +2883,7 @@ PACKED_BITS_COUNT
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DATA_SLOT
 PrivateValue
@@ -2895,7 +2895,7 @@ data
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 MAYBE_CALL_SLOT
 UndefinedValue
@@ -2906,7 +2906,7 @@ UndefinedValue
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 CALLEE_SLOT
 ObjectValue
@@ -6650,7 +6650,7 @@ copiedBuffer
 {
 argsobj
 .
-setFixedSlot
+setFixedSlotTyped
 (
 DATA_SLOT
 PrivateValue
@@ -6838,7 +6838,7 @@ BufferMoved
 ndst
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 DATA_SLOT
 PrivateValue

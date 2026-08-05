@@ -13387,6 +13387,10 @@ ArgumentsObject
 :
 :
 CALLEE_SLOT
+.
+index
+(
+)
 )
 {
 MOZ_ASSERT
@@ -18108,6 +18112,10 @@ ArgumentsObject
 :
 :
 CALLEE_SLOT
+.
+index
+(
+)
 )
 ;
 MDefinition
