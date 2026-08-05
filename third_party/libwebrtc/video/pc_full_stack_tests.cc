@@ -110,15 +110,6 @@ include
 "
 api
 /
-field_trials
-.
-h
-"
-#
-include
-"
-api
-/
 function_view
 .
 h
@@ -324,6 +315,15 @@ media
 base
 /
 media_constants
+.
+h
+"
+#
+include
+"
+test
+/
+create_test_field_trials
 .
 h
 "
@@ -4253,7 +4253,7 @@ bob
 >
 AddFieldTrials
 (
-FieldTrials
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -8543,7 +8543,7 @@ alice
 >
 AddFieldTrials
 (
-FieldTrials
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -8806,7 +8806,7 @@ alice
 >
 AddFieldTrials
 (
-FieldTrials
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -9059,7 +9059,7 @@ alice
 >
 AddFieldTrials
 (
-FieldTrials
+CreateTestFieldTrials
 (
 "
 WebRTC
@@ -10174,7 +10174,7 @@ alice
 >
 AddFieldTrials
 (
-FieldTrials
+CreateTestFieldTrials
 (
 "
 WebRTC
