@@ -1208,6 +1208,10 @@ uint8_t
 aData
 uint64_t
 aTrackingId
+uint64_t
+aSendGroupId
+int64_t
+aSendOrder
 )
 =
 0
@@ -2043,6 +2047,10 @@ uint8_t
 aData
 uint64_t
 aTrackingId
+uint64_t
+aSendGroupId
+int64_t
+aSendOrder
 )
 override
 ;
