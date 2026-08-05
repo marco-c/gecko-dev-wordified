@@ -1429,9 +1429,11 @@ web_features_map
 .
 add
 (
+[
 "
 grid
 "
+]
 [
         
 Mock
@@ -1471,9 +1473,11 @@ web_features_map
 .
 add
 (
+[
 "
 avif
 "
+]
 [
 Mock
 (
