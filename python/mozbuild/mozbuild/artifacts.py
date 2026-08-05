@@ -5182,31 +5182,7 @@ updater
 product
 }
 /
-glxtest
-"
-        
-"
-{
-product
-}
-/
-v4l2test
-"
-        
-"
-{
-product
-}
-/
-vaapitest
-"
-        
-"
-{
-product
-}
-/
-vulkantest
+gfxtest
 "
         
 "
@@ -5993,6 +5969,25 @@ XUL
             
 ]
         
+)
+        
+(
+"
+Contents
+/
+Library
+/
+LaunchServices
+"
+[
+"
+org
+.
+mozilla
+.
+dmgInstallHelper
+"
+]
 )
     
 )
