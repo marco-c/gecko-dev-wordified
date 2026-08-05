@@ -7028,6 +7028,9 @@ PartialPresentMode
 >
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (

@@ -4738,6 +4738,9 @@ is_valid
 )
 )
 ;
+tracy_rs
+:
+:
 profile_scope
 !
 (

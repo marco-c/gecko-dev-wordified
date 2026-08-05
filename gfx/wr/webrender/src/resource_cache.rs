@@ -10091,6 +10091,9 @@ mut
 TransactionProfile
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -10271,6 +10274,9 @@ mut
 TransactionProfile
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -10625,6 +10631,9 @@ mut
 GpuBufferBuilder
 )
 {
+tracy_rs
+:
+:
 profile_scope
 !
 (
@@ -12058,6 +12067,9 @@ State
 QueryResources
 )
 ;
+tracy_rs
+:
+:
 profile_scope
 !
 (
