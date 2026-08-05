@@ -424,15 +424,6 @@ Image
 (
 ImageBufferKind
 )
-MixBlend
-{
-task_id
-:
-RenderTaskId
-backdrop_id
-:
-RenderTaskId
-}
 }
 #
 [
