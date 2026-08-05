@@ -135,8 +135,6 @@ data
 import
 (
     
-BaseRustLibrary
-    
 BaseRustProgram
     
 ChromeManifestEntry
@@ -1674,18 +1672,16 @@ _static_linking_shared
             
 #
 Rust
-libraries
-and
 tests
 can
 declare
 shared
 libraries
 in
-            
-#
 USE_LIBS
 for
+            
+#
 build
 -
 order
@@ -1695,12 +1691,12 @@ actual
 linking
 is
 handled
-            
-#
 by
 Cargo
 .
 The
+            
+#
 dead
 -
 staticlib
@@ -1710,11 +1706,11 @@ too
 strict
 for
 this
-            
-#
 case
 because
 it
+            
+#
 expects
 a
 moz
@@ -1725,10 +1721,10 @@ level
 consumer
 of
 the
-            
-#
 static
 library
+            
+#
 which
 Rust
 -
@@ -1746,10 +1742,7 @@ if
 isinstance
 (
 lib
-(
-BaseRustLibrary
 RustTests
-)
 )
 :
                 
@@ -4593,47 +4586,47 @@ context
             
 )
         
+crate_type
+=
+crate_type
+[
+0
+]
+        
 if
+crate_type
+!
+=
 "
 staticlib
 "
-not
-in
-crate_type
 :
             
 raise
 SandboxValidationError
 (
                 
-f
 "
 crate
 -
 type
-{
-crate_type
-}
+%
+s
+is
+not
+permitted
 for
-{
-libname
-}
-must
-include
-'
-staticlib
-'
+%
+s
 "
-                
+%
+(
+crate_type
+libname
+)
 context
             
 )
-        
-crate_type
-=
-"
-staticlib
-"
         
 dependencies
 =

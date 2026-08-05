@@ -1857,6 +1857,8 @@ FORCE_SHARED_LIB
 True
             
 elif
+(
+                
 spec
 [
 "
@@ -1868,9 +1870,8 @@ type
 "
 static_library
 "
-:
                 
-if
+and
 spec
 .
 get
@@ -1896,8 +1897,10 @@ no_expand_libs
 "
 1
 "
+            
+)
 :
-                    
+                
 #
 PSM
 links
@@ -1909,7 +1912,7 @@ but
 our
 folded
 libnss
-                    
+                
 #
 doesn
 '
@@ -1921,7 +1924,7 @@ that
 all
 of
 the
-                    
+                
 #
 objects
 within
@@ -1931,7 +1934,7 @@ so
 that
 one
 library
-                    
+                
 #
 should
 be
@@ -1942,33 +1945,11 @@ real
 static
 library
 .
-                    
+                
 context
 [
 "
 NO_EXPAND_LIBS
-"
-]
-=
-True
-                
-if
-name
-in
-(
-gyp_dir_attrs
-.
-install_static_libs
-or
-[
-]
-)
-:
-                    
-context
-[
-"
-DIST_INSTALL
 "
 ]
 =
