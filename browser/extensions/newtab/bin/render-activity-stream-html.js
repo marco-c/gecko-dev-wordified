@@ -1356,7 +1356,7 @@ panel
 -
 list
 .
-js
+mjs
 "
 >
 <
