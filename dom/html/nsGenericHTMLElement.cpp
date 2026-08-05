@@ -3490,9 +3490,14 @@ might
 have
 changed
 .
+RefPtr
+doc
+=
 OwnerDoc
 (
 )
+;
+doc
 -
 >
 UpdateTextEditContext
