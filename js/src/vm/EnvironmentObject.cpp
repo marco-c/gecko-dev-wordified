@@ -1366,7 +1366,7 @@ nullptr
 callobj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 CALLEE_SLOT
 ObjectValue
@@ -1798,7 +1798,7 @@ lexicalEnvironment
 callobj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 CALLEE_SLOT
 ObjectValue
@@ -3047,7 +3047,7 @@ nullptr
 env
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 MODULE_SLOT
 ObjectValue
@@ -3292,7 +3292,7 @@ endif
 env
 -
 >
-initSlot
+initFixedSlotTyped
 (
 ModuleEnvironmentObject
 :
@@ -3324,7 +3324,17 @@ EnvironmentObject
 *
 >
 env
-uint32_t
+TypedSlot
+<
+ValueType
+:
+:
+Object
+ValueType
+:
+:
+Undefined
+>
 slot
 )
 {
@@ -3337,7 +3347,7 @@ slotData
 env
 -
 >
-getReservedSlot
+getReservedSlotTyped
 (
 slot
 )
@@ -3377,7 +3387,7 @@ nullptr
 env
 -
 >
-setReservedSlot
+setReservedSlotTyped
 (
 slot
 ObjectValue
@@ -3473,7 +3483,7 @@ getDisposables
 )
 {
 return
-getReservedSlot
+getReservedSlotTyped
 (
 DISPOSABLE_RESOURCE_STACK_SLOT
 )
@@ -3487,7 +3497,7 @@ clearDisposables
 (
 )
 {
-setReservedSlot
+setReservedSlotTyped
 (
 DISPOSABLE_RESOURCE_STACK_SLOT
 UndefinedValue
@@ -3592,7 +3602,7 @@ nullptr
 env
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 MODULE_SLOT
 ObjectValue
@@ -3911,7 +3921,7 @@ nullptr
 env
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 MODULE_SLOT
 ObjectValue
@@ -3980,7 +3990,7 @@ module
 const
 {
 return
-getReservedSlot
+getReservedSlotTyped
 (
 MODULE_SLOT
 )
@@ -5163,7 +5173,7 @@ lexicalEnvironment
 env
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 SCOPE_SLOT
 PrivateGCThingValue
@@ -5361,7 +5371,7 @@ enclosing
 callobj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 SCOPE_SLOT
 PrivateGCThingValue
@@ -5658,7 +5668,7 @@ enclosing
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 OBJECT_SLOT
 ObjectValue
@@ -5671,7 +5681,7 @@ object
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 THIS_SLOT
 ObjectValue
@@ -5713,7 +5723,7 @@ unscopables
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 SCOPE_OR_SUPPORT_UNSCOPABLES_SLOT
 PrivateGCThingValue
@@ -5745,7 +5755,7 @@ Yes
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 SCOPE_OR_SUPPORT_UNSCOPABLES_SLOT
 v
@@ -7578,7 +7588,7 @@ enclosing
 env
 -
 >
-initSlot
+initFixedSlotTyped
 (
 LexicalEnvironmentObject
 :
@@ -9113,7 +9123,7 @@ JSObject
 obj
 =
 &
-getReservedSlot
+getReservedSlotTyped
 (
 THIS_VALUE_OR_SCOPE_SLOT
 )
@@ -9439,7 +9449,7 @@ obj
 )
 )
 ;
-setReservedSlot
+setReservedSlotTyped
 (
 THIS_VALUE_OR_SCOPE_SLOT
 ObjectValue
@@ -9651,7 +9661,7 @@ enclosing
 obj
 -
 >
-initReservedSlot
+initReservedSlotTyped
 (
 ERROR_SLOT
 Int32Value
@@ -18210,7 +18220,7 @@ DebugEnvironmentProxy
 debugEnv
 -
 >
-setReservedSlot
+setReservedSlotTyped
 (
 ENCLOSING_SLOT
 ObjectValue
@@ -18223,7 +18233,7 @@ enclosing
 debugEnv
 -
 >
-setReservedSlot
+setReservedSlotTyped
 (
 SNAPSHOT_SLOT
 NullValue
@@ -18270,7 +18280,7 @@ enclosingEnvironment
 const
 {
 return
-reservedSlot
+reservedSlotTyped
 (
 ENCLOSING_SLOT
 )
@@ -18294,7 +18304,7 @@ JSObject
 *
 obj
 =
-reservedSlot
+reservedSlotTyped
 (
 SNAPSHOT_SLOT
 )
@@ -18416,7 +18426,7 @@ hasTopLevelAwait
 }
 #
 endif
-setReservedSlot
+setReservedSlotTyped
 (
 SNAPSHOT_SLOT
 ObjectValue
@@ -25068,7 +25078,7 @@ object
 const
 {
 return
-getReservedSlot
+getReservedSlotTyped
 (
 OBJECT_SLOT
 )
@@ -25093,7 +25103,7 @@ JSObject
 obj
 =
 &
-getReservedSlot
+getReservedSlotTyped
 (
 THIS_SLOT
 )
@@ -25151,7 +25161,7 @@ const
 Value
 v
 =
-getReservedSlot
+getReservedSlotTyped
 (
 SCOPE_OR_SUPPORT_UNSCOPABLES_SLOT
 )
@@ -25203,7 +25213,7 @@ true
 Value
 v
 =
-getReservedSlot
+getReservedSlotTyped
 (
 SCOPE_OR_SUPPORT_UNSCOPABLES_SLOT
 )
@@ -25245,7 +25255,7 @@ isSyntactic
 Value
 v
 =
-getReservedSlot
+getReservedSlotTyped
 (
 SCOPE_OR_SUPPORT_UNSCOPABLES_SLOT
 )
