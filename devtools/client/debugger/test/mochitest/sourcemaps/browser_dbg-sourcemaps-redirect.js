@@ -421,10 +421,8 @@ BASE_URL
 }
 /
 redirect
-[
 Learn
 More
-]
 "
 A
 source

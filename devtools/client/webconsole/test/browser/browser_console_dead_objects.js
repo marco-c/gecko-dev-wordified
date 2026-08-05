@@ -278,10 +278,8 @@ anchor
 .
 textContent
 "
-[
 Learn
 More
-]
 "
 "
 Link
