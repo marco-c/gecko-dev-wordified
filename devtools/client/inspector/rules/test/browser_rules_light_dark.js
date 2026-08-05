@@ -734,6 +734,12 @@ refreshed
 "
 )
 ;
+await
+openEmulationPanel
+(
+view
+)
+;
 inspector
 .
 panelDoc
@@ -749,8 +755,6 @@ scheme
 simulation
 -
 light
--
-toggle
 "
 )
 .
