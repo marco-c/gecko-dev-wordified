@@ -183,6 +183,17 @@ aKeyingMaterial
 ;
 virtual
 void
+GetNegotiatedProtocol
+(
+nsACString
+&
+aProtocol
+)
+=
+0
+;
+virtual
+void
 SendDatagram
 (
 nsTArray
