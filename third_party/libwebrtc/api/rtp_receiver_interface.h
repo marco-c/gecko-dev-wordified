@@ -226,7 +226,7 @@ api
 /
 sframe
 /
-sframe_decrypter_interface
+sframe_decryptor_interface
 .
 h
 "
@@ -1178,7 +1178,7 @@ management
 Default
 implementation
 of
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 .
 /
 /
@@ -1207,10 +1207,10 @@ RTCErrorOr
 <
 scoped_refptr
 <
-SframeDecrypterInterface
+SframeDecryptorInterface
 >
 >
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 cipher_suite

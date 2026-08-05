@@ -84,10 +84,10 @@ tree
 /
 #
 ifndef
-API_SFRAME_SFRAME_DECRYPTER_INTERFACE_H_
+API_SFRAME_SFRAME_DECRYPTOR_INTERFACE_H_
 #
 define
-API_SFRAME_SFRAME_DECRYPTER_INTERFACE_H_
+API_SFRAME_SFRAME_DECRYPTOR_INTERFACE_H_
 #
 include
 <
@@ -130,7 +130,7 @@ receiver
 decryption
 .
 class
-SframeDecrypterInterface
+SframeDecryptorInterface
 :
 public
 RefCountInterface
@@ -169,7 +169,7 @@ key_id
 protected
 :
 ~
-SframeDecrypterInterface
+SframeDecryptorInterface
 (
 )
 override
@@ -187,4 +187,4 @@ webrtc
 endif
 /
 /
-API_SFRAME_SFRAME_DECRYPTER_INTERFACE_H_
+API_SFRAME_SFRAME_DECRYPTOR_INTERFACE_H_

@@ -193,7 +193,7 @@ api
 /
 sframe
 /
-sframe_decrypter_interface
+sframe_decryptor_interface
 .
 h
 "
@@ -431,10 +431,10 @@ RTCErrorOr
 <
 scoped_refptr
 <
-SframeDecrypterInterface
+SframeDecryptorInterface
 >
 >
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 SframeCipherSuite
 )
 END_PROXY_MAP

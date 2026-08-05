@@ -267,7 +267,7 @@ api
 /
 sframe
 /
-sframe_encrypter_interface
+sframe_encryptor_interface
 .
 h
 "
@@ -14472,7 +14472,7 @@ kDisableSimulcastLayersParameters
 TEST_F
 (
 RtpSenderReceiverTest
-AudioSenderCreateSframeEncrypterInvokesCallback
+AudioSenderCreateSframeEncryptorInvokesCallback
 )
 {
 bool
@@ -14546,7 +14546,7 @@ nullptr
 }
 )
 ;
-SframeEncrypterInit
+SframeEncryptorInit
 options
 {
 SframeMode
@@ -14562,7 +14562,7 @@ kAes128GcmSha256_128
 audio_rtp_sender_
 -
 >
-CreateSframeEncrypterOrError
+CreateSframeEncryptorOrError
 (
 options
 )
@@ -14576,7 +14576,7 @@ callback_called
 TEST_F
 (
 RtpSenderReceiverTest
-VideoSenderCreateSframeEncrypterInvokesCallback
+VideoSenderCreateSframeEncryptorInvokesCallback
 )
 {
 bool
@@ -14672,7 +14672,7 @@ initial_simulcast_layers
 }
 )
 ;
-SframeEncrypterInit
+SframeEncryptorInit
 options
 {
 SframeMode
@@ -14688,7 +14688,7 @@ kAes128GcmSha256_128
 video_rtp_sender_
 -
 >
-CreateSframeEncrypterOrError
+CreateSframeEncryptorOrError
 (
 options
 )
@@ -14702,7 +14702,7 @@ callback_called
 TEST_F
 (
 RtpSenderReceiverTest
-SenderCreateSframeEncrypterPropagatesCallbackError
+SenderCreateSframeEncryptorPropagatesCallbackError
 )
 {
 worker_thread_
@@ -14771,7 +14771,7 @@ nullptr
 }
 )
 ;
-SframeEncrypterInit
+SframeEncryptorInit
 options
 {
 SframeMode
@@ -14790,7 +14790,7 @@ result
 audio_rtp_sender_
 -
 >
-CreateSframeEncrypterOrError
+CreateSframeEncryptorOrError
 (
 options
 )
@@ -14843,7 +14843,7 @@ testing
 TEST_F
 (
 RtpSenderReceiverTest
-SenderCreateSframeEncrypterFailsWithNullCallback
+SenderCreateSframeEncryptorFailsWithNullCallback
 )
 {
 worker_thread_
@@ -14896,7 +14896,7 @@ nullptr
 }
 )
 ;
-SframeEncrypterInit
+SframeEncryptorInit
 options
 {
 SframeMode
@@ -14915,7 +14915,7 @@ result
 audio_rtp_sender_
 -
 >
-CreateSframeEncrypterOrError
+CreateSframeEncryptorOrError
 (
 options
 )
@@ -14950,7 +14950,7 @@ INTERNAL_ERROR
 TEST_F
 (
 RtpSenderReceiverTest
-AudioReceiverCreateSframeDecrypterInvokesCallback
+AudioReceiverCreateSframeDecryptorInvokesCallback
 )
 {
 bool
@@ -15012,7 +15012,7 @@ OK
 receiver
 -
 >
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 :
@@ -15029,7 +15029,7 @@ callback_called
 TEST_F
 (
 RtpSenderReceiverTest
-VideoReceiverCreateSframeDecrypterInvokesCallback
+VideoReceiverCreateSframeDecryptorInvokesCallback
 )
 {
 bool
@@ -15091,7 +15091,7 @@ OK
 receiver
 -
 >
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 :
@@ -15108,7 +15108,7 @@ callback_called
 TEST_F
 (
 RtpSenderReceiverTest
-ReceiverCreateSframeDecrypterPropagatesCallbackError
+ReceiverCreateSframeDecryptorPropagatesCallbackError
 )
 {
 auto
@@ -15168,7 +15168,7 @@ result
 receiver
 -
 >
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 :
@@ -15224,7 +15224,7 @@ testing
 TEST_F
 (
 RtpSenderReceiverTest
-ReceiverCreateSframeDecrypterFailsWithNullCallback
+ReceiverCreateSframeDecryptorFailsWithNullCallback
 )
 {
 auto
@@ -15268,7 +15268,7 @@ result
 receiver
 -
 >
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 :

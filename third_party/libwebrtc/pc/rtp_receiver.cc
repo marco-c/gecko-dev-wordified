@@ -200,7 +200,7 @@ api
 /
 sframe
 /
-sframe_decrypter_interface
+sframe_decryptor_interface
 .
 h
 "
@@ -646,13 +646,13 @@ RTCErrorOr
 <
 scoped_refptr
 <
-SframeDecrypterInterface
+SframeDecryptorInterface
 >
 >
 RtpReceiverBase
 :
 :
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 cipher_suite

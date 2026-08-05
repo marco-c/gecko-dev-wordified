@@ -2855,9 +2855,9 @@ receiver
 when
 /
 /
-CreateSframeEncrypterOrError
+CreateSframeEncryptorOrError
 /
-CreateSframeDecrypterOrError
+CreateSframeDecryptorOrError
 is
 called
 .
