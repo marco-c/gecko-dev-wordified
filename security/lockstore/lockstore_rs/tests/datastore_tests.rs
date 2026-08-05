@@ -168,6 +168,7 @@ collection
 &
 local
 false
+32
 )
 .
 expect
@@ -281,6 +282,7 @@ test
 &
 local
 false
+32
 )
 .
 expect
@@ -1654,6 +1656,7 @@ col1
 &
 local1
 false
+32
 )
 .
 expect
@@ -1763,6 +1766,7 @@ col2
 &
 local2
 false
+32
 )
 .
 expect
@@ -2047,6 +2051,7 @@ col1
 &
 local
 false
+32
 )
 .
 expect
@@ -2070,10 +2075,6 @@ new
 dir
 .
 path
-(
-)
-.
-to_path_buf
 (
 )
 "
@@ -2271,10 +2272,6 @@ dir
 path
 (
 )
-.
-to_path_buf
-(
-)
 "
 missing
 "
@@ -2435,6 +2432,7 @@ persist
 &
 local
 false
+32
 )
 .
 expect
@@ -2455,11 +2453,8 @@ LockstoreDatastore
 :
 new
 (
+&
 data_path
-.
-clone
-(
-)
 "
 persist
 "
@@ -2543,6 +2538,7 @@ LockstoreDatastore
 :
 new
 (
+&
 data_path
 "
 persist
@@ -2731,6 +2727,7 @@ listcol
 &
 local
 false
+32
 )
 .
 expect
@@ -2751,11 +2748,8 @@ LockstoreDatastore
 :
 new
 (
+&
 data_path
-.
-clone
-(
-)
 "
 listcol
 "
@@ -2883,6 +2877,7 @@ LockstoreDatastore
 :
 new
 (
+&
 data_path
 "
 listcol
@@ -3104,6 +3099,7 @@ memcol
 &
 local
 false
+32
 )
 .
 expect
@@ -3308,6 +3304,7 @@ ondisk
 &
 local
 false
+32
 )
 .
 expect
@@ -3331,10 +3328,6 @@ new
 dir
 .
 path
-(
-)
-.
-to_path_buf
 (
 )
 "
@@ -3534,6 +3527,7 @@ col_a
 &
 local
 false
+32
 )
 .
 expect
@@ -3558,6 +3552,7 @@ col_b
 &
 local
 false
+32
 )
 .
 expect
@@ -3583,10 +3578,6 @@ new
 dir
 .
 path
-(
-)
-.
-to_path_buf
 (
 )
 "
@@ -3627,10 +3618,6 @@ new
 dir
 .
 path
-(
-)
-.
-to_path_buf
 (
 )
 "
@@ -3988,6 +3975,7 @@ col
 &
 local
 false
+32
 )
 .
 expect
@@ -4033,11 +4021,8 @@ LockstoreDatastore
 :
 new
 (
+&
 data_path
-.
-clone
-(
-)
 "
 col
 "
@@ -4103,6 +4088,7 @@ LockstoreDatastore
 :
 new
 (
+&
 data_path
 "
 col

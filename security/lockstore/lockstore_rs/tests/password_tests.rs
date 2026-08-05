@@ -536,6 +536,7 @@ col
 &
 kek_ref
 true
+32
 )
 .
 expect
@@ -658,6 +659,7 @@ col
 &
 kek_ref
 true
+32
 )
 .
 expect
@@ -801,6 +803,7 @@ col
 &
 local
 true
+32
 )
 .
 expect
@@ -1512,6 +1515,7 @@ c
 &
 local
 true
+32
 )
 .
 expect
@@ -1777,6 +1781,7 @@ persisted
 &
 kek_ref
 true
+32
 )
 .
 expect
@@ -2058,6 +2063,7 @@ c
 &
 local
 false
+32
 )
 .
 expect
@@ -2131,8 +2137,18 @@ decrypt
 assert_eq
 !
 (
+&
 round
+[
+.
+.
+]
+&
 plaintext
+[
+.
+.
+]
 )
 ;
 }
@@ -2213,6 +2229,7 @@ c
 &
 kek_ref
 false
+32
 )
 .
 expect
@@ -2278,8 +2295,18 @@ decrypt
 assert_eq
 !
 (
+&
 round
+[
+.
+.
+]
+&
 plaintext
+[
+.
+.
+]
 )
 ;
 ks
@@ -2407,6 +2434,7 @@ c
 &
 local
 false
+32
 )
 .
 expect
@@ -2526,7 +2554,12 @@ decrypt
 assert_eq
 !
 (
+&
 round
+[
+.
+.
+]
 b
 "
 abc
@@ -2611,6 +2644,7 @@ nonex
 &
 kek_ref
 false
+32
 )
 .
 expect
@@ -2739,8 +2773,18 @@ DEK
 assert_eq
 !
 (
+&
 pt2
+[
+.
+.
+]
+&
 pt
+[
+.
+.
+]
 )
 ;
 }
@@ -3243,6 +3287,7 @@ col
 &
 pw
 false
+32
 )
 .
 expect
@@ -3438,6 +3483,7 @@ only
 &
 pw
 false
+32
 )
 .
 expect
@@ -3909,6 +3955,7 @@ col
 &
 pw
 false
+32
 )
 .
 expect
@@ -4299,6 +4346,7 @@ mint_local
 ks
 )
 false
+32
 )
 .
 expect
@@ -4443,6 +4491,7 @@ col
 &
 pw
 false
+32
 )
 .
 expect
