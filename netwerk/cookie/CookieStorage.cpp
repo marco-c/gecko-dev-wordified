@@ -2642,9 +2642,6 @@ script
 .
 if
 (
-cookie
-&
-&
 !
 aFromHttp
 &
