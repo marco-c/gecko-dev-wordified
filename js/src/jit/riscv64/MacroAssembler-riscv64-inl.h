@@ -11000,11 +11000,10 @@ Register
 dest
 )
 {
-andi
+ZeroExtendByte
 (
 dest
 src
-0xFF
 )
 ;
 }
