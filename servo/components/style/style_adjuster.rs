@@ -1373,7 +1373,7 @@ get_box
 if
 box_style
 .
-clone_line_clamp
+clone__webkit_line_clamp
 (
 )
 .
