@@ -4621,6 +4621,7 @@ clip
 .
 radius
 )
+None
 ClipMode
 :
 :
@@ -6111,6 +6112,7 @@ clip
 .
 radius
 )
+None
 ClipMode
 :
 :
