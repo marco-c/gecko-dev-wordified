@@ -1883,6 +1883,20 @@ str
 )
             
 "
+tolerate
+-
+git
+-
+fsck
+-
+errors
+"
+:
+Boolean
+(
+)
+            
+"
 vendor
 -
 directory
