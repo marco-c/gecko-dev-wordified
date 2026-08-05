@@ -827,7 +827,6 @@ aEvent
 ;
 mIsSorted
 =
-!
 wasEmpty
 ;
 if
