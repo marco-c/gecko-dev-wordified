@@ -101,17 +101,6 @@ h
 #
 include
 <
-asm
--
-generic
-/
-errno
-.
-h
->
-#
-include
-<
 cerrno
 >
 #
