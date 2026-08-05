@@ -31349,7 +31349,7 @@ cookiebanners
 .
 enabled
 "
-true
+false
 )
 ;
 pref
