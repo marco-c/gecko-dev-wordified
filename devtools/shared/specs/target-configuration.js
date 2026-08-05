@@ -140,6 +140,13 @@ nullable
 :
 number
 "
+reducedMotionEmulation
+:
+"
+nullable
+:
+string
+"
 printSimulationEnabled
 :
 "

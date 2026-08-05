@@ -108,6 +108,16 @@ state
 "
 SET_PRINT_SIMULATION_ENABLED
 "
+/
+/
+Set
+the
+reduced
+motion
+emulation
+"
+SET_REDUCED_MOTION_EMULATION
+"
 ]
 module
 .
