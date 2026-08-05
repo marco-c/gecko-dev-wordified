@@ -10801,9 +10801,12 @@ return
 1
                     
 if
+(
+                        
 config
 .
 is_artifact_build
+                        
 and
 target
 .
@@ -10813,6 +10816,20 @@ startswith
 installers
 -
 "
+)
+                        
+and
+config
+.
+substs
+.
+get
+(
+"
+MOZ_USE_LEGACY_L10N
+"
+)
+                    
 )
 :
                         
