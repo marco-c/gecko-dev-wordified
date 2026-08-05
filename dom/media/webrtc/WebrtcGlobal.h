@@ -1015,6 +1015,9 @@ mHeaderBytesReceived
 mFecPacketsReceived
 mFecPacketsDiscarded
 mBytesReceived
+mRtxSsrc
+mRetransmittedPacketsReceived
+mRetransmittedBytesReceived
 mNackCount
 mFirCount
 mPliCount
@@ -1105,6 +1108,7 @@ mNackCount
 mFirCount
 mPliCount
 mHeaderBytesSent
+mRtxSsrc
 mRetransmittedPacketsSent
 mRetransmittedBytesSent
 mTotalEncodedBytesTarget
