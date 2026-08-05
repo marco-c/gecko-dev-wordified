@@ -5699,7 +5699,7 @@ style
 /
 /
 weight
-width
+stretch
 )
 has
 changed
@@ -5929,7 +5929,7 @@ clone_font_weight
 font_property_changed
 !
 (
-clone_font_width
+clone_font_stretch
 )
 }
 /

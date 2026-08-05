@@ -958,7 +958,7 @@ aFont
 weight
 aFont
 .
-width
+stretch
 gfxFloat
 (
 aFont

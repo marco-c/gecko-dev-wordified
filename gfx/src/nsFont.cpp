@@ -325,12 +325,12 @@ weight
 |
 |
 (
-width
+stretch
 !
 =
 aOther
 .
-width
+stretch
 )
 |
 |

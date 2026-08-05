@@ -233,7 +233,7 @@ font_family
 font_size
 font_style
                            
-font_width
+font_stretch
 font_weight
 "
 "
@@ -488,7 +488,7 @@ weight
 "
 font
 -
-width
+stretch
 "
         
 "
@@ -1105,7 +1105,7 @@ appearance
 "
 font
 -
-width
+stretch
 "
 :
 [
@@ -1233,7 +1233,7 @@ weight
 "
 font
 -
-width
+stretch
 "
         
 "
@@ -5794,10 +5794,6 @@ None
 ignore_malloc_size_of
 =
 None
-aliases
-=
-[
-]
 )
 :
         
@@ -5806,12 +5802,6 @@ self
 name
 =
 name
-        
-self
-.
-aliases
-=
-aliases
         
 self
 .
