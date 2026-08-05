@@ -10851,9 +10851,16 @@ AllocPage
 ;
 Tag
 mTag
+=
+Tag
+:
+:
+GuardPage
 ;
 uintptr_t
 mIndex
+=
+0
 ;
 /
 /
