@@ -25736,9 +25736,17 @@ ErrorResult
 aRv
 )
 {
+RefPtr
+<
+Document
+>
+document
+=
 OwnerDoc
 (
 )
+;
+document
 -
 >
 HidePopover
