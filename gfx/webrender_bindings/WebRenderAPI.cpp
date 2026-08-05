@@ -1810,6 +1810,12 @@ MemoryChunkPool
 renderThread
 -
 >
+GetRenderBackendPool
+(
+)
+renderThread
+-
+>
 GlyphRasterThread
 (
 )
