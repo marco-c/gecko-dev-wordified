@@ -1115,7 +1115,7 @@ auto
 &
 slot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 OPTIONS
 )
@@ -1162,7 +1162,7 @@ DisplayNamesOptions
 options
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 OPTIONS
 PackedDisplayNamesOptions

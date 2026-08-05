@@ -818,7 +818,7 @@ auto
 &
 slot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 OPTIONS
 )
@@ -865,7 +865,7 @@ ListFormatOptions
 options
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 OPTIONS
 PackedListFormatOptions

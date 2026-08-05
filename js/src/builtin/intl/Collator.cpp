@@ -1045,7 +1045,7 @@ auto
 &
 slot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 OPTIONS_SLOT
 )
@@ -1092,7 +1092,7 @@ CollatorOptions
 options
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 OPTIONS_SLOT
 PackedCollatorOptions

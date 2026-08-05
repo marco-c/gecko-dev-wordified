@@ -866,7 +866,7 @@ auto
 &
 slot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 OPTIONS
 )
@@ -913,7 +913,7 @@ RelativeTimeFormatOptions
 options
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 OPTIONS
 PackedRelativeTimeFormatOptions

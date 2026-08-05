@@ -583,7 +583,7 @@ auto
 &
 slot
 =
-getFixedSlot
+getFixedSlotTyped
 (
 OPTIONS_SLOT
 )
@@ -630,7 +630,7 @@ PluralRulesOptions
 options
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 OPTIONS_SLOT
 PackedPluralRulesOptions
