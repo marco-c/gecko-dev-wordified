@@ -1749,14 +1749,14 @@ false
 cx
 -
 >
-markAtom
+recordRef
 (
 availableTimeZone
 )
 ;
 MOZ_ASSERT
 (
-AtomIsMarked
+ZoneHasRef
 (
 cx
 -
@@ -1769,7 +1769,7 @@ canonicalTimeZone
 "
 canonicalizeAvailableTimeZone
 already
-marked
+referenced
 the
 atom
 "
@@ -2015,7 +2015,7 @@ canonicalTimeZone
 cx
 -
 >
-markAtom
+recordRef
 (
 canonicalTimeZone
 )
@@ -2179,7 +2179,7 @@ name
 cx
 -
 >
-markAtom
+recordRef
 (
 *
 availablePtr

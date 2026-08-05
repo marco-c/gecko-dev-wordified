@@ -7466,8 +7466,8 @@ in
 each
 zone
 .
-AtomMarkingRuntime
-atomMarking
+AtomRefRuntime
+atomReferences
 ;
 MainThreadOrGCTaskData
 <

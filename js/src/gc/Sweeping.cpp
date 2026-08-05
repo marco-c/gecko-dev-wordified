@@ -3166,7 +3166,7 @@ if
 isAtomsZone
 )
 {
-atomMarking
+atomReferences
 .
 freeIndex
 (
@@ -9259,7 +9259,7 @@ updateAtomsBitmap
 (
 )
 {
-atomMarking
+atomReferences
 .
 refineZoneBitmapsForCollectedZones
 (
@@ -9295,7 +9295,7 @@ if
 atomsToMark
 )
 {
-atomMarking
+atomReferences
 .
 markAtomsUsedByUncollectedZones
 (

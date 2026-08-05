@@ -222,7 +222,7 @@ h
 "
 /
 /
-AtomIsMarked
+ZoneHasRef
 #
 include
 "
@@ -9199,7 +9199,7 @@ compartment
 ;
 MOZ_ASSERT
 (
-AtomIsMarked
+ZoneHasRef
 (
 zoneFromAnyThread
 (

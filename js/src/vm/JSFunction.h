@@ -160,7 +160,7 @@ h
 "
 /
 /
-AtomIsMarked
+ZoneHasRef
 #
 include
 "
@@ -2760,7 +2760,7 @@ atom
 js
 :
 :
-AtomIsMarked
+ZoneHasRef
 (
 zone
 (
@@ -2814,7 +2814,7 @@ atom
 js
 :
 :
-AtomIsMarked
+ZoneHasRef
 (
 zone
 (

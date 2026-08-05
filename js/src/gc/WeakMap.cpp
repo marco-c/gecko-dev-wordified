@@ -176,9 +176,9 @@ runtimeFromMainThread
 >
 gc
 .
-atomMarking
+atomReferences
 .
-inlinedMarkAtom
+inlinedRecordRef
 (
 zone
 sym
