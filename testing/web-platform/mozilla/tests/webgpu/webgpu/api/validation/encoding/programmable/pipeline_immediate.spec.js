@@ -534,7 +534,7 @@ padding
 -
 dynamic_indexing
 :
-Array
+Vector
 with
 dynamic
 indexing
@@ -1240,11 +1240,7 @@ immediate
 >
 data
 :
-array
-<
-u32
-4
->
+vec4u
 ;
 '
 ;

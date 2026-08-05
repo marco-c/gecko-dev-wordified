@@ -3056,6 +3056,10 @@ Uint32Array
 :
 Uint32Array
 ;
+Float16Array
+:
+Float16Array
+;
 Float32Array
 :
 Float32Array
