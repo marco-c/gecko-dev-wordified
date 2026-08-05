@@ -3687,6 +3687,12 @@ kNameSpaceID_XHTML
 false
 true
 sanitizationFlags
+mozilla
+:
+:
+Nothing
+(
+)
 )
 ;
 if

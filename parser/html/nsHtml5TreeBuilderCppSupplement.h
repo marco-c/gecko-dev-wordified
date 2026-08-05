@@ -883,6 +883,7 @@ aCreator
 .
 html
 intendedParent
+mCustomElementRegistry
 )
 ;
 }

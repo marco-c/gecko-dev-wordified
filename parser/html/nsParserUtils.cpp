@@ -744,6 +744,12 @@ kNameSpaceID_XHTML
 false
 true
 aFlags
+mozilla
+:
+:
+Nothing
+(
+)
 )
 ;
 }
