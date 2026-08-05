@@ -1239,7 +1239,7 @@ propName
 -
 browser
 -
-container
+stack
 -
 z
 -
@@ -1247,7 +1247,7 @@ index
 -
 devtools
 -
-toolbox
+splitter
 "
 isFromDevTools
 :
@@ -1261,15 +1261,15 @@ propName
 -
 browser
 -
-container
+stack
 -
 z
 -
 index
 -
-devtools
+rdm
 -
-splitter
+toolbar
 "
 isFromDevTools
 :
