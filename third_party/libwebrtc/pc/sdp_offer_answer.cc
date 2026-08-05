@@ -12880,12 +12880,10 @@ certificate
 this
 ]
 (
-const
 scoped_refptr
 <
 RTCCertificate
 >
-&
 certificate
 )
 {
