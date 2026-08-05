@@ -4568,7 +4568,7 @@ NS_ConvertUTF8toUTF16
 (
 aDictName
 )
-nsCaseInsensitiveStringComparator
+eIgnoreCase
 )
 ;
 break
@@ -6113,7 +6113,7 @@ NS_ConvertUTF8toUTF16
 (
 langCode
 )
-nsTDefaultStringComparator
+eCaseMatters
 )
 )
 {
