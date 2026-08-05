@@ -387,6 +387,9 @@ uniform
 '
 handle
 '
+'
+immediate
+'
 /
 /
 Texel

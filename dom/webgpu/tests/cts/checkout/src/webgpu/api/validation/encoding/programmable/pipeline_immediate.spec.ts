@@ -1669,7 +1669,6 @@ device
 limits
 .
 maxImmediateSize
-!
 )
 {
 t
@@ -1727,7 +1726,6 @@ size
 encoder
 .
 setImmediates
-!
 (
 offset
 data
@@ -2758,7 +2756,6 @@ Uint8Array
 encoder
 .
 setImmediates
-!
 (
 0
 data
@@ -3079,7 +3076,6 @@ kSetSize
 encoder
 .
 setImmediates
-!
 (
 0
 data
@@ -3439,7 +3435,6 @@ Uint8Array
 bundleEncoder
 .
 setImmediates
-!
 (
 0
 immediateData
@@ -3498,7 +3493,6 @@ pipeline
 pass
 .
 setImmediates
-!
 (
 0
 immediateData
@@ -3544,7 +3538,6 @@ resetImmediates
 pass
 .
 setImmediates
-!
 (
 0
 immediateData

@@ -557,9 +557,6 @@ fullyExpandSubtrees
 =
 [
 ]
-maxChunkTime
-=
-Infinity
 }
 :
 {
@@ -576,11 +573,6 @@ fullyExpandSubtrees
 string
 [
 ]
-;
-maxChunkTime
-?
-:
-number
 }
 =
 {
@@ -666,7 +658,6 @@ parseQuery
 s
 )
 )
-maxChunkTime
 }
 )
 ;

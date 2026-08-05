@@ -3051,7 +3051,6 @@ device
 limits
 .
 maxImmediateSize
-!
 ;
 const
 {

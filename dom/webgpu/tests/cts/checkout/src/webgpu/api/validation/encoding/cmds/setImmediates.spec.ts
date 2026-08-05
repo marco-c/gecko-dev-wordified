@@ -563,7 +563,6 @@ OperationError
 encoder
 .
 setImmediates
-!
 (
 rangeOffset
 data
@@ -853,7 +852,6 @@ doSetImmediates
 encoder
 .
 setImmediates
-!
 (
 rangeOffset
 data
@@ -1077,7 +1075,6 @@ device
 limits
 .
 maxImmediateSize
-!
 ;
 if
 (
@@ -1227,7 +1224,6 @@ false
 encoder
 .
 setImmediates
-!
 (
 rangeOffset
 data
