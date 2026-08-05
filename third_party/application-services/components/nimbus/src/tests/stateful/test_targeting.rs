@@ -618,10 +618,6 @@ en
 US
 '
 "
-.
-to_string
-(
-)
 )
 .
 unwrap
@@ -714,10 +710,6 @@ invalid
 {
 {
 "
-.
-to_string
-(
-)
 )
 .
 unwrap
@@ -825,10 +817,6 @@ eval_jexl_debug
 "
 test
 "
-.
-to_string
-(
-)
 )
 .
 unwrap
@@ -968,10 +956,6 @@ eval_jexl_debug
 "
 locale
 "
-.
-to_string
-(
-)
 )
 .
 unwrap
@@ -1129,10 +1113,6 @@ versionCompare
 >
 0
 "
-.
-to_string
-(
-)
 )
 .
 unwrap

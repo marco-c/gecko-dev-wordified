@@ -4312,9 +4312,7 @@ db
 =
 store
 .
-db
-.
-lock
+lock_db
 (
 )
 .
@@ -5055,9 +5053,7 @@ db
 =
 store
 .
-db
-.
-lock
+lock_db
 (
 )
 .
