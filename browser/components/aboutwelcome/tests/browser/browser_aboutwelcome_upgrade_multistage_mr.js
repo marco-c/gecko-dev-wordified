@@ -997,11 +997,17 @@ pinStub
 firstCall
 .
 lastArg
+?
+.
+privatePin
 pinStub
 .
 secondCall
 .
 lastArg
+?
+.
+privatePin
 "
 pinFirefoxToTaskbar
 should
