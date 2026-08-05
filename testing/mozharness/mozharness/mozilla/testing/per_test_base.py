@@ -5339,22 +5339,12 @@ path
 .
 join
 (
-            
 dir
 "
-%
-s
-%
-s_testsummary
+summary
 .
 jsonl
 "
-%
-(
-test_suite
-index
-)
-        
 )
         
 return
