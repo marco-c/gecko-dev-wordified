@@ -1445,14 +1445,10 @@ scratch
 .
 frame
 .
-draws
-[
+draw_for_instance
+(
 prim_instance_index
-.
-0
-as
-usize
-]
+)
 .
 clip_chain
 frame_state
