@@ -70,12 +70,6 @@ euclid
 :
 :
 {
-Box2D
-Point2D
-Scale
-Size2D
-Transform3D
-Vector2D
 approxeq
 :
 :
@@ -85,6 +79,12 @@ _
 default
 point2
 point3
+Box2D
+Point2D
+Scale
+Size2D
+Transform3D
+Vector2D
 }
 ;
 use
