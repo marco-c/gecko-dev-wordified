@@ -111317,7 +111317,7 @@ update
 callback
 -
 queue
-void
+bool
 Document
 :
 :
@@ -111371,6 +111371,7 @@ array
 when
 iterating
 .
+const
 auto
 callbacks
 =
@@ -111393,6 +111394,7 @@ IsEmpty
 ;
 for
 (
+const
 RefPtr
 <
 ViewTransition
@@ -111442,6 +111444,14 @@ the
 1st
 step
 .
+return
+!
+callbacks
+.
+IsEmpty
+(
+)
+;
 }
 /
 /

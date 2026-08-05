@@ -26591,8 +26591,16 @@ ViewTransition
 aVt
 )
 ;
+/
+/
+Returns
+whether
+any
+callback
+ran
+.
 MOZ_CAN_RUN_SCRIPT
-void
+bool
 FlushViewTransitionUpdateCallbackQueue
 (
 )
