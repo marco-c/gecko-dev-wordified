@@ -738,7 +738,6 @@ picture
 :
 {
 Picture3DContext
-PictureCompositeMode
 PictureInstance
 }
 ;
@@ -753,9 +752,17 @@ picture
 BlitReason
 OrderedPictureChild
 PrimitiveList
-SurfaceInfo
 PictureFlags
 }
+;
+use
+crate
+:
+:
+surface
+:
+:
+SurfaceInfo
 ;
 use
 crate
@@ -923,7 +930,10 @@ crate
 picture_composite_mode
 :
 :
+{
 PictureCompositeKey
+PictureCompositeMode
+}
 ;
 use
 crate
