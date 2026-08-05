@@ -359,6 +359,13 @@ foo
 bar
 "
 "
+no
+-
+vary
+-
+search
+"
+"
 pragma
 "
 "
@@ -655,6 +662,13 @@ pragma
 "
 "
 expires
+"
+"
+no
+-
+vary
+-
+search
 "
 "
 set
