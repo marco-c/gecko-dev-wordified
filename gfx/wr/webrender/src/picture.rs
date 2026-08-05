@@ -6297,6 +6297,9 @@ rg_builder
 frame_state
 .
 cmd_buffers
+frame_context
+.
+spatial_tree
 )
 ;
 }
