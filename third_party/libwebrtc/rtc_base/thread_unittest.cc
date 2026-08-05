@@ -4005,7 +4005,7 @@ ThreadTest
 DelayedPostsWithIdenticalTimesAreProcessedInFifoOrder
 )
 {
-ScopedBaseFakeClock
+ScopedFakeClock
 clock
 ;
 Thread
@@ -5977,6 +5977,13 @@ Millis
 (
 11
 )
+)
+;
+ThreadManager
+:
+:
+ProcessAllMessageQueuesForTesting
+(
 )
 ;
 EXPECT_TRUE
