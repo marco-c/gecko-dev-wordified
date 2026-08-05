@@ -2569,6 +2569,11 @@ AddBaselineJitcodeGlobalEntry
 cx
 script
 code
+perfSpewer_
+.
+extractSourceInfo
+(
+)
 )
 )
 {
