@@ -7570,11 +7570,6 @@ canSkipEnqueuingJobs
 this
 false
 )
-asyncResumeDepth
-(
-this
-0
-)
 promiseRejectionTrackerCallback
 (
 this
