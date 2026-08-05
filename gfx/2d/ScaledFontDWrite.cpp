@@ -539,12 +539,12 @@ weight
 ToIntRounded
 (
 )
-DWriteFontStretchFromStretch
+DWriteFontStretchFromWidth
 (
 aStyle
 -
 >
-stretch
+width
 )
 /
 /

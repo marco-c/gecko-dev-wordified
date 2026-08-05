@@ -403,11 +403,11 @@ aAttr
 .
 mWeight
 ;
-mStretchRange
+mWidthRange
 =
 aAttr
 .
-mStretch
+mWidth
 ;
 mStyleRange
 =
@@ -566,11 +566,11 @@ aAttr
 .
 mWeight
 ;
-mStretchRange
+mWidthRange
 =
 aAttr
 .
-mStretch
+mWidth
 ;
 mStyleRange
 =
@@ -770,12 +770,12 @@ aAttr
 mWeight
 &
 &
-mStretchRange
+mWidthRange
 =
 =
 aAttr
 .
-mStretch
+mWidth
 &
 &
 mStyleRange
@@ -3148,7 +3148,7 @@ mLocalName
 Weight
 (
 )
-Stretch
+Width
 (
 )
 SlantStyle
@@ -5367,7 +5367,7 @@ mName
 Weight
 (
 )
-Stretch
+Width
 (
 )
 SlantStyle
@@ -7112,7 +7112,7 @@ stretchString
 aUserFontEntry
 -
 >
-Stretch
+Width
 (
 )
 .
@@ -8582,7 +8582,7 @@ Weight
 mFontEntry
 -
 >
-Stretch
+Width
 (
 )
 !
@@ -8590,7 +8590,7 @@ Stretch
 fe
 -
 >
-Stretch
+Width
 (
 )
 |

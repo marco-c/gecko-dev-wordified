@@ -2997,7 +2997,7 @@ g
 .
 font
 -
-stretch
+width
 )
 .
 /
@@ -11963,11 +11963,11 @@ font_weight
 system
 .
 weight
-font_stretch
+font_width
 :
 system
 .
-stretch
+width
 font_style
 :
 system
