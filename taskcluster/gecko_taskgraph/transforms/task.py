@@ -20213,25 +20213,14 @@ job_expiry
         
 yield
 job
+functools
+.
+cache
 def
-group_name_variant
+_variant_symbols
 (
-group_names
-groupSymbol
 )
 :
-    
-#
-iterate
-through
-variants
-allow
-for
-Base
--
-[
-variant_list
-]
     
 #
 sorting
@@ -20256,8 +20245,7 @@ is
 a
 subset
     
-variant_symbols
-=
+return
 sorted
 (
         
@@ -20335,6 +20323,31 @@ reverse
 =
 True
     
+)
+def
+group_name_variant
+(
+group_names
+groupSymbol
+)
+:
+    
+#
+iterate
+through
+variants
+allow
+for
+Base
+-
+[
+variant_list
+]
+    
+variant_symbols
+=
+_variant_symbols
+(
 )
     
 #
