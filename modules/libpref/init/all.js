@@ -20390,16 +20390,6 @@ dialog_enable_delay
 1000
 )
 ;
-pref
-(
-"
-security
-.
-notification_enable_delay
-"
-500
-)
-;
 #
 ifdef
 NIGHTLY_BUILD
