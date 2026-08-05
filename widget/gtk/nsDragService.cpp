@@ -236,6 +236,9 @@ mozilla
 gfx
 ;
 #
+undef
+LOGDRAGSERVICE
+#
 ifdef
 MOZ_LOGGING
 extern
@@ -336,9 +339,11 @@ LOGDRAGSERVICE
 )
 #
 endif
-static
 const
 char
+nsDragSession
+:
+:
 gMozUrlType
 [
 ]
@@ -347,9 +352,11 @@ gMozUrlType
 _NETSCAPE_URL
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gMimeListType
 [
 ]
@@ -368,9 +375,11 @@ item
 list
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gTextUriListType
 [
 ]
@@ -383,9 +392,11 @@ uri
 list
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gTextPlainUTF8Type
 [
 ]
@@ -402,9 +413,11 @@ utf
 8
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gXdndDirectSaveType
 [
 ]
@@ -413,9 +426,11 @@ gXdndDirectSaveType
 XdndDirectSave0
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gTabDropType
 [
 ]
@@ -432,9 +447,11 @@ tabbrowser
 tab
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gPortalFile
 [
 ]
@@ -449,9 +466,11 @@ portal
 files
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gPortalFileTransfer
 [
 ]
@@ -466,9 +485,11 @@ portal
 filetransfer
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gUTF8STRINGType
 [
 ]
@@ -477,9 +498,11 @@ gUTF8STRINGType
 UTF8_STRING
 "
 ;
-static
 const
 char
+nsDragSession
+:
+:
 gSTRINGType
 [
 ]
@@ -847,7 +870,7 @@ true
 }
 }
 }
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 GetFileFromUri
@@ -1043,7 +1066,7 @@ Length
 )
 ;
 }
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 DragData
@@ -1087,7 +1110,7 @@ mDataFlavor
 )
 )
 ;
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 DragData
@@ -1230,7 +1253,7 @@ if
 fileExists
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 uri
@@ -1254,7 +1277,7 @@ return
 false
 ;
 }
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 export
@@ -1363,7 +1386,7 @@ return
 false
 ;
 }
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 %
@@ -1460,7 +1483,7 @@ IsImageFlavor
 )
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 export
@@ -1531,7 +1554,7 @@ IsTextFlavor
 )
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 export
@@ -1704,7 +1727,7 @@ mDragData
 mDragDataLen
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 export
@@ -1759,7 +1782,7 @@ unicodeData
 )
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 failed
@@ -2042,7 +2065,7 @@ mAsURIData
 mDragUris
 )
 ;
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 ConvertToMozURL
@@ -2204,7 +2227,7 @@ MOZ_ASSERT
 mDragData
 )
 ;
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 ConvertToMozURL
@@ -2273,7 +2296,7 @@ return
 data
 ;
 }
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 ConvertToMozURL
@@ -2637,7 +2660,7 @@ mDragDataLen
 2
 )
 ;
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 DragData
@@ -2744,7 +2767,7 @@ false
 break
 ;
 }
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 URI
@@ -2924,7 +2947,7 @@ get
 mDragDataLen
 )
 ;
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 DragData
@@ -2990,7 +3013,7 @@ mDragDataLen
 2
 )
 ;
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 DragData
@@ -3038,7 +3061,7 @@ if
 mDragUris
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 DragData
@@ -3112,7 +3135,7 @@ i
 +
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 %
@@ -3139,7 +3162,7 @@ Length
 )
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 DragData
@@ -3198,7 +3221,7 @@ i
 +
 )
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 %
@@ -3231,7 +3254,7 @@ get
 }
 else
 {
-LOGDRAG
+LOGDRAGSERVICE
 (
 "
 DragData
