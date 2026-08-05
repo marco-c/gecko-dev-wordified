@@ -263,7 +263,7 @@ TEXT_HTML
 VIEWSOURCE_CONTENT_TYPE
 APPLICATION_XHTML_XML
 APPLICATION_WAPXHTML_XML
-0
+nullptr
 }
 ;
 static
@@ -281,7 +281,7 @@ APPLICATION_XML
 APPLICATION_MATHML_XML
 APPLICATION_RDF_XML
 TEXT_RDF
-0
+nullptr
 }
 ;
 static
@@ -295,7 +295,7 @@ gSVGTypes
 =
 {
 IMAGE_SVG_XML
-0
+nullptr
 }
 ;
 static
@@ -1141,7 +1141,13 @@ would
 .
 contentType
 =
+std
+:
+:
+move
+(
 type
+)
 ;
 }
 else
@@ -1627,7 +1633,7 @@ nsGkAtoms
 :
 :
 html
-0
+nullptr
 kNameSpaceID_XHTML
 nsINode
 :
@@ -1668,7 +1674,7 @@ nsGkAtoms
 :
 :
 head
-0
+nullptr
 kNameSpaceID_XHTML
 nsINode
 :
@@ -1709,7 +1715,7 @@ nsGkAtoms
 :
 :
 body
-0
+nullptr
 kNameSpaceID_XHTML
 nsINode
 :
