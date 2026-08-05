@@ -86,9 +86,6 @@ ModuleLoaderBase
 .
 h
 "
-/
-/
-ScriptLoaderInterface
 #
 include
 "
@@ -130,6 +127,13 @@ h
 /
 /
 NS_NewURI
+#
+include
+"
+ScriptLoaderInterface
+.
+h
+"
 #
 include
 "
