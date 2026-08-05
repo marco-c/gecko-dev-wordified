@@ -2168,6 +2168,7 @@ if
 (
 digit
 >
+=
 sizeof
 (
 DIGITS
