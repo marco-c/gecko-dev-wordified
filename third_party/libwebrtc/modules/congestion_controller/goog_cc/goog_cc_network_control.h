@@ -806,6 +806,11 @@ previously_in_alr_
 =
 false
 ;
+bool
+last_is_bandwidth_limited_
+=
+true
+;
 std
 :
 :
