@@ -97,6 +97,7 @@ boilerplate
 {
 Example
 HandyDandyRectBuilder
+AU_PER_DEV_PX
 }
 ;
 use
@@ -302,6 +303,7 @@ sub_builder
 .
 begin
 (
+AU_PER_DEV_PX
 )
 ;
 sub_builder

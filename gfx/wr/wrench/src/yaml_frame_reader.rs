@@ -57,6 +57,12 @@ MPL
 *
 /
 use
+crate
+:
+:
+AU_PER_DEV_PX
+;
+use
 euclid
 :
 :
@@ -3424,6 +3430,7 @@ builder
 .
 begin
 (
+AU_PER_DEV_PX
 )
 ;
 /
