@@ -63687,9 +63687,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_placeholder
-:
-true
 subproperties
 :
 [
@@ -63861,9 +63858,6 @@ true
 applies_to_first_line
 :
 true
-applies_to_placeholder
-:
-true
 initial_values
 :
 [
@@ -63948,9 +63942,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_placeholder
 :
 true
 initial_values
@@ -64074,9 +64065,6 @@ applies_to_first_letter
 :
 true
 applies_to_first_line
-:
-true
-applies_to_placeholder
 :
 true
 initial_values
