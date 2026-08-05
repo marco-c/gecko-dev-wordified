@@ -12800,7 +12800,7 @@ optional
 chain
 .
 class
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 :
 public
 PropertyAccessBase
@@ -12872,7 +12872,7 @@ class
 PropertyAccess
 :
 public
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 {
 public
 :
@@ -12890,7 +12890,7 @@ uint32_t
 end
 )
 :
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 (
 ParseNodeKind
 :
@@ -12964,7 +12964,7 @@ node
 .
 is
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
@@ -13008,7 +13008,7 @@ class
 ArgumentsLength
 :
 public
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 {
 public
 :
@@ -13026,7 +13026,7 @@ uint32_t
 end
 )
 :
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 (
 ParseNodeKind
 :
@@ -13079,7 +13079,7 @@ node
 .
 is
 <
-NonOptonalPropertyAccessBase
+NonOptionalPropertyAccessBase
 >
 (
 )
