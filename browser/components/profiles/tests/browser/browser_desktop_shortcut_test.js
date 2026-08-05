@@ -355,15 +355,12 @@ equal
 (
 shortcutToggle
 .
-buttonEl
+labelEl
 .
-getAttribute
+textContent
+.
+trim
 (
-"
-aria
--
-label
-"
 )
 "
 Create
@@ -379,8 +376,6 @@ should
 have
 the
 expected
-aria
--
 label
 "
 )
@@ -413,6 +408,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 shortcutToggle
+.
+buttonEl
 {
 }
 content
@@ -765,6 +762,8 @@ EventUtils
 synthesizeMouseAtCenter
 (
 shortcutToggle
+.
+buttonEl
 {
 }
 content
