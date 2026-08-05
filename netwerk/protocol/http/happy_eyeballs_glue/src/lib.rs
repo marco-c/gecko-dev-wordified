@@ -1925,6 +1925,12 @@ metrics
 dns_response
 (
 id
+!
+addrs
+.
+is_empty
+(
+)
 is_trr
 )
 ;
@@ -2185,6 +2191,12 @@ metrics
 dns_response
 (
 id
+!
+addrs
+.
+is_empty
+(
+)
 is_trr
 )
 ;
