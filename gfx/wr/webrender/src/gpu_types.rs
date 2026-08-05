@@ -1366,7 +1366,7 @@ in
 sync
 with
 the
-correspondong
+corresponding
 #
 defines
 in
@@ -3857,7 +3857,7 @@ task_id
 /
 /
 The
-cooridnate
+coordinate
 space
 that
 the
@@ -3901,7 +3901,7 @@ rounded
 rect
 which
 is
-alreay
+already
 relative
 to
 clip

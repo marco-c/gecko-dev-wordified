@@ -1114,7 +1114,7 @@ X
 and
 Y
 scale
-facotrs
+factors
 of
 the
 local
@@ -1795,7 +1795,7 @@ could
 move
 back
 into
-preapre_quad_impl
+prepare_quad_impl
 if
 it
 took
@@ -1932,7 +1932,7 @@ which
 /
 /
 should
-resut
+result
 in
 some
 stretching
@@ -11040,7 +11040,7 @@ PrimitiveInstanceData
 /
 See
 the
-corresponfing
+corresponding
 #
 defines
 in

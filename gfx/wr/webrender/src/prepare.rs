@@ -440,7 +440,7 @@ entry
 point
 of
 the
-preapre
+prepare
 pass
 .
 pub

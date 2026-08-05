@@ -6657,7 +6657,7 @@ allocator
 /
 So
 we
-calulate
+calculate
 the
 memory
 footprint

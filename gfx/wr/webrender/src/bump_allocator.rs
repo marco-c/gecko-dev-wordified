@@ -2716,7 +2716,7 @@ the
 provided
 chunks
 is
-transfered
+transferred
 to
 the
 pool
