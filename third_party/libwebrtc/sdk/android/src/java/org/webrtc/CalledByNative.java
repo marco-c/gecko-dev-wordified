@@ -168,7 +168,6 @@ RetentionPolicy
 .
 CLASS
 )
-UsedReflectively
 public
 interface
 CalledByNative
