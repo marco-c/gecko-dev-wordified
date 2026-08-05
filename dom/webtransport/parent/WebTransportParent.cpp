@@ -3312,6 +3312,10 @@ mSessionReady
 =
 true
 ;
+mSessionId
+=
+aSessionId
+;
 /
 /
 Retarget
