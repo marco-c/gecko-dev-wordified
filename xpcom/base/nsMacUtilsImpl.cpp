@@ -755,12 +755,11 @@ end
 ;
 if
 (
-RFindInReadable
+CaseInsensitiveRFindInReadable
 (
 pattern
 start
 end
-nsCaseInsensitiveCStringComparator
 )
 )
 {
@@ -833,12 +832,11 @@ XRE_IsParentProcess
 {
 if
 (
-RFindInReadable
+CaseInsensitiveRFindInReadable
 (
 pattern
 start
 end
-nsCaseInsensitiveCStringComparator
 )
 )
 {
