@@ -37,7 +37,7 @@ Services
 .
 scriptloader
 .
-loadSubScriptWithOptions
+loadSubScript
 (
 Services
 .
@@ -56,14 +56,7 @@ js
 )
 .
 spec
-{
-target
-:
 this
-allowUnsafeURL
-:
-true
-}
 )
 ;
 const
