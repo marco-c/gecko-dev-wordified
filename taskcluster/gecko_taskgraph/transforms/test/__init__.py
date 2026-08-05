@@ -3409,6 +3409,20 @@ use_python
 :
 TOptional
 [
+#
+type
+:
+ignore
+        
+optionally_keyed_by
+(
+            
+"
+test
+-
+platform
+"
+            
 JobDescriptionSchema
 .
 __annotations__
@@ -3417,13 +3431,16 @@ __annotations__
 use_python
 "
 ]
+            
+use_msgspec
+=
+True
+        
+)
+    
 ]
 =
 None
-#
-type
-:
-ignore
     
 #
 Fetch
@@ -4445,6 +4462,12 @@ timeoutfactor
 use
 -
 caches
+"
+        
+"
+use
+-
+python
 "
     
 )
