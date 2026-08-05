@@ -14292,9 +14292,11 @@ crate
 type
 .
 *
-is
-not
-permitted
+must
+include
+'
+staticlib
+'
 "
         
 )
