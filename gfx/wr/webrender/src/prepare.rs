@@ -2213,9 +2213,11 @@ prim_data
 .
 common
 &
-prim_instance
+prim_data
 .
-unsnapped_prim_rect
+common
+.
+prim_rect
 &
 prim_info
 .
@@ -2611,9 +2613,11 @@ local_rect
 let
 local_rect
 =
-prim_instance
+prim_data
 .
-unsnapped_prim_rect
+common
+.
+prim_rect
 ;
 let
 surface
