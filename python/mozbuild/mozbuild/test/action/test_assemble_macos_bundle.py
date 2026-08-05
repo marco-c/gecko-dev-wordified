@@ -304,7 +304,7 @@ macos_copy_files
 None
             
 "
-move_to_frameworks
+moves
 "
 :
 [
@@ -1252,14 +1252,23 @@ icns
 ]
 ]
             
-move_to_frameworks
+moves
 =
 [
+(
 "
 ChannelPrefs
 .
 framework
 "
+"
+Frameworks
+/
+ChannelPrefs
+.
+framework
+"
+)
 ]
             
 pkginfo

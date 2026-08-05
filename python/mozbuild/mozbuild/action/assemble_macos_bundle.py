@@ -734,43 +734,20 @@ L
 )
     
 for
-name
+src_name
+dest_rel
 in
 spec
 .
 get
 (
 "
-move_to_frameworks
+moves
 "
 [
 ]
 )
 :
-        
-frameworks
-=
-os
-.
-path
-.
-join
-(
-contents
-"
-Frameworks
-"
-)
-        
-os
-.
-makedirs
-(
-frameworks
-exist_ok
-=
-True
-)
         
 source
 =
@@ -781,7 +758,7 @@ path
 join
 (
 resources
-name
+src_name
 )
         
 dest
@@ -792,8 +769,8 @@ path
 .
 join
 (
-frameworks
-name
+contents
+dest_rel
 )
         
 if
@@ -806,6 +783,23 @@ lexists
 source
 )
 :
+            
+os
+.
+makedirs
+(
+os
+.
+path
+.
+dirname
+(
+dest
+)
+exist_ok
+=
+True
+)
             
 if
 os
