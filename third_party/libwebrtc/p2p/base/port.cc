@@ -2174,11 +2174,6 @@ event
 )
 ;
 }
-[
-[
-deprecated
-]
-]
 void
 Port
 :
