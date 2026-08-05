@@ -11040,7 +11040,13 @@ AppendElement
 (
 ClipChainItem
 {
+std
+:
+:
+move
+(
 intersection
+)
 asr
 }
 )
