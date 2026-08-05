@@ -136,14 +136,14 @@ the
 form
 index
 .
-rst
+md
 as
 index
 file
 and
 suite_name
 .
-rst
+md
 for
     
 each
@@ -823,7 +823,7 @@ Insert
 documentation
 into
 .
-rst
+md
 file
             
 framework_rst
@@ -889,7 +889,7 @@ static
 For
 static
 .
-rst
+md
 file
             
 for
@@ -909,7 +909,7 @@ static_file
 endswith
 (
 "
-rst
+md
 "
 )
 :
@@ -1369,7 +1369,7 @@ endswith
 (
 "
 .
-rst
+md
 "
 )
 :
@@ -1484,7 +1484,7 @@ templates_path
 "
 index
 .
-rst
+md
 "
 )
 stringify
@@ -1506,9 +1506,11 @@ join
 f
 "
 *
-:
+{
+{
 doc
-:
+}
+}
 {
 name
 }

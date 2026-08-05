@@ -97,7 +97,7 @@ path
 extension
 =
 "
-rst
+md
 "
 )
 :

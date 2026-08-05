@@ -153,7 +153,7 @@ ALLOWED_STATIC_FILETYPES
 =
 (
 "
-rst
+md
 "
 "
 png
@@ -591,7 +591,7 @@ find
 the
 metrics
 .
-rst
+md
 file
 in
 the
@@ -640,7 +640,7 @@ Add
 the
 yml
 /
-rst
+md
 /
 static
 file
@@ -687,7 +687,7 @@ file
 "
 index
 .
-rst
+md
 "
 :
                     
@@ -707,7 +707,7 @@ file
 "
 metrics
 .
-rst
+md
 "
 :
                     

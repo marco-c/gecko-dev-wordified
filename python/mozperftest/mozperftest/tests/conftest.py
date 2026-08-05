@@ -1339,7 +1339,7 @@ temp_file
 "
 index
 .
-rst
+md
 "
             
 tempdir
