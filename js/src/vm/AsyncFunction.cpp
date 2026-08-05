@@ -1807,7 +1807,7 @@ nullptr
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PROMISE_SLOT
 ObjectValue
@@ -2300,7 +2300,7 @@ nullptr
 obj
 -
 >
-initFixedSlot
+initFixedSlotTyped
 (
 PROMISE_SLOT
 ObjectValue

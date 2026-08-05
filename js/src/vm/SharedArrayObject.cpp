@@ -5147,7 +5147,7 @@ return
 false
 ;
 }
-setFixedSlot
+setFixedSlotTyped
 (
 RAWBUF_SLOT
 PrivateValue
@@ -5156,7 +5156,7 @@ buffer
 )
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 LENGTH_SLOT
 PrivateValue
@@ -5228,7 +5228,7 @@ dropReference
 (
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 RAWBUF_SLOT
 UndefinedValue
@@ -5258,7 +5258,7 @@ const
 Value
 v
 =
-getFixedSlot
+getFixedSlotTyped
 (
 RAWBUF_SLOT
 )
@@ -5382,7 +5382,7 @@ v
 =
 buf
 .
-getFixedSlot
+getFixedSlotTyped
 (
 RAWBUF_SLOT
 )
