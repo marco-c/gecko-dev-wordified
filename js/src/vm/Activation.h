@@ -4504,7 +4504,7 @@ frame
 ;
 inline
 bool
-resumeGeneratorFrame
+pushInlineGeneratorResumeFrame
 (
 JS
 :

@@ -2070,7 +2070,7 @@ if
 !
 activation
 .
-resumeGeneratorFrame
+pushInlineGeneratorResumeFrame
 (
 callee
 envChain
