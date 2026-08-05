@@ -117,7 +117,10 @@ crate
 {
 Bytes
 Tos
-hex_with_len
+hex
+:
+:
+HexWithLen
 }
 ;
 /
@@ -788,7 +791,10 @@ src
 self
 .
 dst
-hex_with_len
+HexWithLen
+:
+:
+new
 (
 &
 self
@@ -1167,7 +1173,10 @@ dst
 self
 .
 datagram_size
-hex_with_len
+HexWithLen
+:
+:
+new
 (
 &
 self

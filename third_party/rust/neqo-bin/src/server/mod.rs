@@ -212,6 +212,9 @@ neqo_common
 {
 Datagram
 hex
+:
+:
+Hex
 qdebug
 qerror
 qinfo
@@ -2006,7 +2009,10 @@ ECHConfigList
 {
 }
 "
-hex
+Hex
+:
+:
+new
 (
 server
 .

@@ -89,6 +89,10 @@ connect_udp_session
 ;
 pub
 mod
+send_group
+;
+pub
+mod
 session
 ;
 pub
