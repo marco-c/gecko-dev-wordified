@@ -205,6 +205,15 @@ include
 "
 api
 /
+rtp_header_extension_id
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_parameters
 .
 h
@@ -1236,7 +1245,10 @@ RtpExtension
 :
 :
 kDependencyDescriptorUri
+RtpHeaderExtensionId
+(
 insert_id
+)
 )
 ;
 media_description1
