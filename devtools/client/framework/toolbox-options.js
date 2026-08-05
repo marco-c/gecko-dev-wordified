@@ -5067,6 +5067,17 @@ origin
 path
 )
 ;
+Glean
+.
+devtoolsLocalmodeMappings
+.
+addPermanentFromOptions
+.
+add
+(
+1
+)
+;
 }
 ;
 /
