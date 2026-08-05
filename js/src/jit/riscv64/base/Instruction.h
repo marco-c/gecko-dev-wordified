@@ -798,6 +798,7 @@ V
 encoding
 .
 inline
+enum
 BaseOpcode
 BaseOpcodeValue
 (
@@ -838,6 +839,7 @@ instruction
 encoding
 .
 inline
+enum
 BaseOpcode
 BaseOpcodeFieldRaw
 (
