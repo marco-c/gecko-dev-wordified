@@ -2329,6 +2329,13 @@ move
 (
 range
 )
+Animation
+:
+:
+FromJS
+:
+:
+Yes
 )
 ;
 return

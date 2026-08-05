@@ -1890,6 +1890,13 @@ move
 (
 aTimelineRange
 )
+Animation
+:
+:
+FromJS
+:
+:
+No
 )
 ;
 animationChanged
@@ -3563,7 +3570,7 @@ isStylePaused
 oldAnim
 -
 >
-GetOverriddenProperties
+PropertiesOverridenByJS
 (
 )
 aBuilder
@@ -3766,6 +3773,13 @@ move
 (
 range
 )
+Animation
+:
+:
+FromJS
+:
+:
+No
 )
 ;
 if
