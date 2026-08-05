@@ -314,6 +314,12 @@ uniform
 .
 0
 )
+LayoutSideOffsets
+:
+:
+zero
+(
+)
 ClipMode
 :
 :

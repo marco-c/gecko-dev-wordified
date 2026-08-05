@@ -3180,6 +3180,12 @@ new_rounded_rect_mask
 (
 minimal_shadow_rect
 shadow_radius
+LayoutSideOffsets
+:
+:
+zero
+(
+)
 ClipMode
 :
 :

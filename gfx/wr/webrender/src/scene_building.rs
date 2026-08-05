@@ -15054,6 +15054,9 @@ clip
 radii
 clip
 .
+inset
+clip
+.
 mode
 )
 }

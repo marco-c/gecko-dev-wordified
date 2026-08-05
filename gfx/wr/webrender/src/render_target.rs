@@ -3078,6 +3078,9 @@ region_task
 radius
 region_task
 .
+inset
+region_task
+.
 mode
 )
 ;

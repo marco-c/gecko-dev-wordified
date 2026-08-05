@@ -3291,6 +3291,7 @@ ClipItemKeyKind
 RoundedRectangle
 (
 _
+_
 ClipMode
 :
 :
@@ -3329,6 +3330,7 @@ ClipItemKeyKind
 RoundedRectangle
 (
 radius
+_
 ClipMode
 :
 :
@@ -3608,6 +3610,7 @@ ClipItemKeyKind
 RoundedRectangle
 (
 radius
+_
 ClipMode
 :
 :
@@ -3739,6 +3742,7 @@ ClipItemKeyKind
 RoundedRectangle
 (
 radius
+_
 ClipMode
 :
 :

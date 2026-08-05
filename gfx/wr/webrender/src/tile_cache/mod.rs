@@ -9031,6 +9031,9 @@ ClipItemKind
 RoundedRectangle
 {
 radius
+inset
+:
+_
 mode
 }
 =
