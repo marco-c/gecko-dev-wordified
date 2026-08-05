@@ -12808,6 +12808,9 @@ mHappyEyeballs
 aId
 &
 emptyArray
+mDnsMetadata
+.
+mIsTRR
 )
 ;
 if
@@ -12946,6 +12949,9 @@ mHappyEyeballs
 aId
 &
 ipv4Addresses
+mDnsMetadata
+.
+mIsTRR
 )
 ;
 if
@@ -13120,6 +13126,9 @@ mHappyEyeballs
 aId
 &
 emptyArray
+mDnsMetadata
+.
+mIsTRR
 )
 ;
 if
@@ -13258,6 +13267,9 @@ mHappyEyeballs
 aId
 &
 ipv6Addresses
+mDnsMetadata
+.
+mIsTRR
 )
 ;
 if

@@ -1014,6 +1014,9 @@ ThinVec
 <
 NetAddr
 >
+is_trr
+:
+bool
 )
 -
 >
@@ -1095,6 +1098,7 @@ process_dns_response_a
 (
 id
 addrs
+is_trr
 )
 }
 #
@@ -1126,6 +1130,9 @@ ThinVec
 <
 NetAddr
 >
+is_trr
+:
+bool
 )
 -
 >
@@ -1207,6 +1214,7 @@ process_dns_response_aaaa
 (
 id
 addrs
+is_trr
 )
 }
 #
@@ -1751,6 +1759,9 @@ ThinVec
 <
 NetAddr
 >
+is_trr
+:
+bool
 )
 -
 >
@@ -1914,6 +1925,7 @@ metrics
 dns_response
 (
 id
+is_trr
 )
 ;
 let
@@ -1981,6 +1993,9 @@ ThinVec
 <
 NetAddr
 >
+is_trr
+:
+bool
 )
 -
 >
@@ -2170,6 +2185,7 @@ metrics
 dns_response
 (
 id
+is_trr
 )
 ;
 let
