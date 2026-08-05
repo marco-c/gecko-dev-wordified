@@ -913,6 +913,9 @@ nullptr
 audio_frame_processor
 *
 /
+CreateTestFieldTrialsPtr
+(
+)
 )
 )
 {
