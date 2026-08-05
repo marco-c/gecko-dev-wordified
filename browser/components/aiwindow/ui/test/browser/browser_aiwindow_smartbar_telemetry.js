@@ -1125,7 +1125,7 @@ test
 )
 ;
 await
-stubLoadURL
+stubOpenSERP
 (
 browser
 )
