@@ -1943,7 +1943,7 @@ MaxContentLightLevel
 =
 aDesc
 .
-MaxFullFrameLuminance
+MaxLuminance
 ;
 metadata
 .
