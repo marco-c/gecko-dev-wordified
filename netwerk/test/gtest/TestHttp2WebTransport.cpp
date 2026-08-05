@@ -1476,18 +1476,6 @@ NS_IMETHODIMP
 MockWebTransportSessionEventListener
 :
 :
-OnDraining
-(
-)
-{
-return
-NS_OK
-;
-}
-NS_IMETHODIMP
-MockWebTransportSessionEventListener
-:
-:
 OnDatagramReceivedInternal
 (
 nsTArray
@@ -6544,8 +6532,6 @@ move
 mockData
 )
 1
-0
-0
 )
 ;
 ServerProcessCapsules

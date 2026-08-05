@@ -846,7 +846,10 @@ Http2WebTransportStream
 :
 SetSendOrder
 (
+Maybe
+<
 int64_t
+>
 aSendOrder
 )
 {

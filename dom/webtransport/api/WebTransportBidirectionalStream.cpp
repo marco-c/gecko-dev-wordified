@@ -189,11 +189,11 @@ receiver
 DataPipeSender
 *
 aSender
+Maybe
+<
 int64_t
+>
 aSendOrder
-WebTransportSendGroup
-*
-aSendGroup
 ErrorResult
 &
 aRv
@@ -287,7 +287,6 @@ aGlobal
 aStreamId
 aSender
 aSendOrder
-aSendGroup
 aRv
 )
 ;
