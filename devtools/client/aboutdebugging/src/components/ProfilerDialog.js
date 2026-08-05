@@ -855,6 +855,7 @@ type
 :
 "
 icon
+ghost
 "
 iconsrc
 :
