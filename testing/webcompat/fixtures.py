@@ -476,6 +476,16 @@ self
 .
 ws_port
 )
+            
+"
+-
+-
+allow
+-
+system
+-
+access
+"
         
 ]
         
@@ -1154,23 +1164,6 @@ True
 fx_options
 =
 {
-"
-args
-"
-:
-[
-"
--
--
-remote
--
-allow
--
-system
--
-access
-"
-]
 "
 prefs
 "
