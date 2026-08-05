@@ -60612,6 +60612,10 @@ value
 (
 )
 )
+tempFixed
+(
+CallTempReg0
+)
 )
 ;
 defineReturn
