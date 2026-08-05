@@ -8907,7 +8907,18 @@ captures
 that
 frame
 .
+for
+win
+in
 self
+.
+windows
+.
+values_mut
+(
+)
+{
+win
 .
 resource_cache
 .
@@ -8921,6 +8932,7 @@ all
 )
 )
 ;
+}
 let
 documents
 :
