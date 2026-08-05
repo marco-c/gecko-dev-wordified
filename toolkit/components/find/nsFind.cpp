@@ -6613,9 +6613,9 @@ nextChar
 )
 )
 {
-matchAnchorNode
-=
-nullptr
+EndPartialMatch
+(
+)
 ;
 continue
 ;
