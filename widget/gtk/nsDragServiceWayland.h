@@ -65,6 +65,13 @@ nsDragServiceWayland_h_
 #
 include
 "
+nsDragSessionSource
+.
+h
+"
+#
+include
+"
 RetrievalContextWayland
 .
 h
@@ -98,7 +105,7 @@ class
 nsDragSessionWayland
 :
 public
-nsDragSession
+nsDragSessionSource
 {
 public
 :
