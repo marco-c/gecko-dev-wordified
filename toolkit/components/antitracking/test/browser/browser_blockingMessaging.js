@@ -1,8 +1,13 @@
 requestLongerTimeout
 (
-2
+10
 )
 ;
+/
+/
+slow
+on
+verify
 AntiTracking
 .
 runTestInNormalAndPrivateMode
