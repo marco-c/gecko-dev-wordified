@@ -996,10 +996,34 @@ cwd
 env
 )
             
-result
+#
+Some
+suites
+have
+side
+-
+effects
+like
+emitting
+PERFHERDER_DATA
+so
+            
+#
+don
+'
+t
+short
+-
+circuit
+on
+the
+first
+failure
+.
+            
+results
 =
-all
-(
+[
                 
 run_test_process
 (
@@ -1027,6 +1051,13 @@ suite_filters
 suites
 )
             
+]
+            
+result
+=
+all
+(
+results
 )
         
 if
