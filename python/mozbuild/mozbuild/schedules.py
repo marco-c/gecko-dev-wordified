@@ -506,18 +506,6 @@ mochitest
 -
 browser
 -
-chrome
--
-ml
--
-models
-"
-    
-"
-mochitest
--
-browser
--
 translations
 "
     
