@@ -202,7 +202,7 @@ equal
 code
 .
 length
-10
+16
 "
 Should
 generate
