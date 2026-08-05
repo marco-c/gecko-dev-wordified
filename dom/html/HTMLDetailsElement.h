@@ -491,6 +491,9 @@ needed
 void
 CloseElementIfNeeded
 (
+nsAtom
+*
+aName
 )
 ;
 /
