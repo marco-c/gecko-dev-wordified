@@ -304,9 +304,6 @@ w
 BAD_TARGETS
 =
 [
-'
-libjingle_peerconnection_api
-'
 ]
 class
 TemporaryDirectory
