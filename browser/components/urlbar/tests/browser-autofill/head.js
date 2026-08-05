@@ -497,7 +497,7 @@ without
 racing
 .
 await
-UrlbarShared
+UrlbarUtils
 .
 _lastRecordAutofillBackspacePromise
 ;
