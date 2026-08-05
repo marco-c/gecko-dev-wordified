@@ -139,15 +139,6 @@ h
 #
 include
 "
-js
-/
-Date
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
@@ -232,6 +223,15 @@ h
 include
 "
 jstypes
+.
+h
+"
+#
+include
+"
+js
+/
+Date
 .
 h
 "
@@ -16122,7 +16122,7 @@ ind
 +
 )
 {
-setReservedSlot
+setNeverGCThingFixedSlot
 (
 ind
 UndefinedValue
@@ -16131,7 +16131,7 @@ UndefinedValue
 )
 ;
 }
-setFixedSlot
+setFixedSlotTyped
 (
 UTC_TIME_SLOT
 TimeValue
@@ -16261,7 +16261,7 @@ populated
 if
 (
 !
-getReservedSlot
+getReservedSlotTyped
 (
 LOCAL_TIME_SLOT
 )
@@ -16271,7 +16271,7 @@ isUndefined
 )
 &
 &
-getReservedSlot
+getReservedSlotTyped
 (
 TIME_ZONE_CACHE_KEY_SLOT
 )
@@ -16301,7 +16301,7 @@ cache
 .
 *
 /
-setReservedSlot
+setReservedSlotTyped
 (
 TIME_ZONE_CACHE_KEY_SLOT
 Int32Value
@@ -16356,7 +16356,7 @@ ind
 +
 )
 {
-setReservedSlot
+setNeverGCThingFixedSlot
 (
 ind
 DoubleValue
@@ -16378,7 +16378,7 @@ dtInfo
 utcTime
 )
 ;
-setReservedSlot
+setReservedSlotTyped
 (
 LOCAL_TIME_SLOT
 DoubleValue
@@ -16400,7 +16400,7 @@ ToYearMonthDay
 localTime
 )
 ;
-setReservedSlot
+setReservedSlotTyped
 (
 LOCAL_YEAR_SLOT
 Int32Value
@@ -16409,7 +16409,7 @@ year
 )
 )
 ;
-setReservedSlot
+setReservedSlotTyped
 (
 LOCAL_MONTH_SLOT
 Int32Value
@@ -16418,7 +16418,7 @@ month
 )
 )
 ;
-setReservedSlot
+setReservedSlotTyped
 (
 LOCAL_DATE_SLOT
 Int32Value
@@ -16435,7 +16435,7 @@ WeekDay
 localTime
 )
 ;
-setReservedSlot
+setReservedSlotTyped
 (
 LOCAL_DAY_SLOT
 Int32Value
@@ -16472,7 +16472,7 @@ yearTime
 msPerSecond
 )
 ;
-setReservedSlot
+setReservedSlotTyped
 (
 LOCAL_SECONDS_INTO_YEAR_SLOT
 Int32Value
