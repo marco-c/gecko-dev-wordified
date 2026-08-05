@@ -1147,10 +1147,6 @@ prim_info
 .
 clip_rect
 )
-vec
-!
-[
-]
 BoxShadow
 {
 color
@@ -1285,10 +1281,6 @@ prim_info
 clone
 (
 )
-vec
-!
-[
-]
 BoxShadow
 {
 color
