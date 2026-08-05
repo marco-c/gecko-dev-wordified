@@ -6718,6 +6718,16 @@ sandboxing
 }
 #
 endif
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+gmpThread
+=
+GetGMPThread
+(
+)
+;
 RefPtr
 <
 GMPParent
@@ -6727,6 +6737,7 @@ gmpParent
 new
 GMPParent
 (
+gmpThread
 )
 ;
 return
