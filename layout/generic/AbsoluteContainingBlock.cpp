@@ -1148,6 +1148,7 @@ nsIFrame
 *
 GetFirstInlineContinuationInPrevFragmentainer
 (
+const
 nsIFrame
 *
 aInlineFrame
@@ -1418,6 +1419,7 @@ nsIFrame
 *
 GetFirstInlineContinuationInNextFragmentainer
 (
+const
 nsIFrame
 *
 aInlineFrame
@@ -1607,6 +1609,7 @@ nsIFrame
 *
 GetFirstContinuationInPrevFragmentainer
 (
+const
 nsIFrame
 *
 aFrame
@@ -1656,6 +1659,7 @@ nsIFrame
 *
 GetFirstContinuationInNextFragmentainer
 (
+const
 nsIFrame
 *
 aFrame
