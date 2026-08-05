@@ -1260,10 +1260,10 @@ C
 [
 cfg_attr
 (
-target_arch
+target_family
 =
 "
-wasm32
+wasm
 "
 allow
 (

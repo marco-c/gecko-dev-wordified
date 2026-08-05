@@ -2863,11 +2863,6 @@ string_data
 self
 .
 string_data
-immediates_data
-:
-self
-.
-immediates_data
 }
 }
 }
@@ -2964,8 +2959,7 @@ C
 SetImmediate
 {
 offset
-size_bytes
-values_offset
+data
 }
 =
 >
@@ -2975,8 +2969,7 @@ C
 SetImmediate
 {
 offset
-size_bytes
-values_offset
+data
 }
 C
 :
@@ -3439,8 +3432,7 @@ C
 SetImmediate
 {
 offset
-size_bytes
-values_offset
+data
 }
 =
 >
@@ -3450,8 +3442,7 @@ C
 SetImmediate
 {
 offset
-size_bytes
-values_offset
+data
 }
 C
 :

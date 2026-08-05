@@ -6825,6 +6825,7 @@ info
 )
 =
 >
+{
 mod_info
 .
 entry_points
@@ -6833,6 +6834,8 @@ push
 (
 info
 )
+;
+}
 Err
 (
 error
