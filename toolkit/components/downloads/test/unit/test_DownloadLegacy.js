@@ -98,7 +98,7 @@ Services
 .
 scriptloader
 .
-loadSubScript
+loadSubScriptWithOptions
 (
 NetUtil
 .
@@ -108,6 +108,11 @@ scriptFile
 )
 .
 spec
+{
+allowUnsafeURL
+:
+true
+}
 )
 ;
 /
