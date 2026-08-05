@@ -227,7 +227,9 @@ await
 assertContextMenu
 (
 rootDocument
-devtoolsBrowser
+tab
+.
+linkedBrowser
 "
 #
 mount
