@@ -223,14 +223,14 @@ important
 "
 font
 -
-stretch
+width
 "
 :
 {
 domProp
 :
 "
-fontStretch
+fontWidth
 "
 values
 :

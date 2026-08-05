@@ -305,7 +305,10 @@ use
 specified
 :
 :
+{
+ImageDecoding
 ImageRendering
+}
 ;
 /
 /

@@ -35220,9 +35220,9 @@ FontWeight
 :
 NORMAL
 )
-stretch
+width
 (
-FontStretch
+FontWidth
 :
 :
 NORMAL
@@ -35310,8 +35310,8 @@ FontSlantStyle
 aStyle
 FontWeight
 aWeight
-FontStretch
-aStretch
+FontWidth
+aWidth
 gfxFloat
 aSize
 const
@@ -35359,9 +35359,9 @@ weight
 (
 aWeight
 )
-stretch
+width
 (
-aStretch
+aWidth
 )
 style
 (
@@ -35738,7 +35738,7 @@ style
 Raw
 (
 )
-stretch
+width
 .
 Raw
 (

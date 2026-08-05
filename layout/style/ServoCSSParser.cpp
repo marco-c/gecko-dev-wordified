@@ -584,9 +584,9 @@ aList
 StyleFontStyle
 &
 aStyle
-StyleFontStretch
+StyleFontWidth
 &
-aStretch
+aWidth
 StyleFontWeight
 &
 aWeight
@@ -609,7 +609,7 @@ aList
 &
 aStyle
 &
-aStretch
+aWidth
 &
 aWeight
 aSize

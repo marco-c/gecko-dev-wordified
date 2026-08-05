@@ -909,9 +909,9 @@ NORMAL
 ;
 aFontStyle
 .
-stretch
+width
 =
-FontStretch
+FontWidth
 :
 :
 NORMAL

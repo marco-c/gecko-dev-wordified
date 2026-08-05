@@ -709,9 +709,9 @@ font
 {
 FontSize
 FontSizeAdjust
-FontStretch
 FontSynthesis
 FontSynthesisStyle
+FontWidth
 LineHeight
 }
 ;

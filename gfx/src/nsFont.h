@@ -135,8 +135,8 @@ typedef
 mozilla
 :
 :
-FontStretch
-FontStretch
+FontWidth
+FontWidth
 ;
 typedef
 mozilla
@@ -364,7 +364,7 @@ font
 weight
 font
 -
-stretch
+width
 .
 These
 are
@@ -390,10 +390,10 @@ FontWeight
 :
 NORMAL
 ;
-FontStretch
-stretch
+FontWidth
+width
 =
-FontStretch
+FontWidth
 :
 :
 NORMAL
