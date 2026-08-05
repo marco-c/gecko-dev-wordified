@@ -725,6 +725,8 @@ bool
 show_alr_state
 bool
 show_link_capacity
+bool
+include_overhead
 )
 {
 plots_
@@ -1207,6 +1209,7 @@ incoming_bitrate
 "
 [
 this
+include_overhead
 ]
 (
 Plot
@@ -1220,6 +1223,7 @@ this
 CreateTotalIncomingBitrateGraph
 (
 plot
+include_overhead
 )
 ;
 }
@@ -1237,6 +1241,7 @@ this
 show_detector_state
 show_alr_state
 show_link_capacity
+include_overhead
 ]
 (
 Plot
@@ -1253,6 +1258,7 @@ plot
 show_detector_state
 show_alr_state
 show_link_capacity
+include_overhead
 )
 ;
 }
@@ -3102,6 +3108,8 @@ CreateTotalIncomingBitrateGraph
 Plot
 *
 plot
+bool
+include_overhead
 )
 const
 {
@@ -3113,6 +3121,7 @@ CreateTotalIncomingBitrateGraph
 parsed_log_
 config_
 plot
+include_overhead
 )
 ;
 }
@@ -3131,6 +3140,8 @@ bool
 show_alr_state
 bool
 show_link_capacity
+bool
+include_overhead
 )
 const
 {
@@ -3145,6 +3156,7 @@ plot
 show_detector_state
 show_alr_state
 show_link_capacity
+include_overhead
 )
 ;
 }
