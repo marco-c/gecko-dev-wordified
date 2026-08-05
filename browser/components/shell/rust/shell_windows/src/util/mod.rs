@@ -75,5 +75,5 @@ pub
 crate
 )
 mod
-thread_guard
+thread
 ;
