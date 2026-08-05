@@ -8767,6 +8767,16 @@ v
 0f
 }
 ;
+wr
+:
+:
+LayoutSideOffsets
+inset
+=
+EmptyLayoutSideOffsets
+(
+)
+;
 /
 /
 Anti
@@ -8800,6 +8810,7 @@ side
 side
 side
 radii
+inset
 )
 ;
 }
@@ -10384,6 +10395,13 @@ wr
 BorderRadius
 &
 aRadius
+const
+wr
+:
+:
+LayoutSideOffsets
+&
+aInset
 wr
 :
 :
@@ -10445,6 +10463,7 @@ aSides
 3
 ]
 aRadius
+aInset
 )
 ;
 }

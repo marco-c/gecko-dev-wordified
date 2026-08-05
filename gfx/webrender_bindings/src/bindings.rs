@@ -22684,6 +22684,9 @@ BorderSide
 radius
 :
 BorderRadius
+inset
+:
+LayoutSideOffsets
 )
 {
 debug_assert
@@ -22712,6 +22715,7 @@ right
 top
 bottom
 radius
+inset
 do_aa
 :
 do_aa
