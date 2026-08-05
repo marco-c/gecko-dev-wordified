@@ -801,10 +801,17 @@ value
 )
 ;
 await
+waitForThemeRestyle
+(
+(
+)
+=
+>
 extension
 .
 unload
 (
+)
 )
 ;
 Assert
