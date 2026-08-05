@@ -291,7 +291,7 @@ codec_header
 temporal_idx
 >
 =
-kMaxTemporalLayers
+kMaxTemporalStreams
 |
 |
 codec_header
@@ -1583,7 +1583,7 @@ if
 temporal_idx
 >
 =
-kMaxTemporalLayers
+kMaxTemporalStreams
 )
 {
 RTC_LOG
@@ -1598,7 +1598,7 @@ most
 "
 <
 <
-kMaxTemporalLayers
+kMaxTemporalStreams
 <
 <
 "
@@ -1951,7 +1951,7 @@ if
 temporal_idx
 >
 =
-kMaxTemporalLayers
+kMaxTemporalStreams
 )
 {
 RTC_LOG
@@ -1966,7 +1966,7 @@ most
 "
 <
 <
-kMaxTemporalLayers
+kMaxTemporalStreams
 <
 <
 "
@@ -2066,7 +2066,7 @@ if
 temporal_idx
 >
 =
-kMaxTemporalLayers
+kMaxTemporalStreams
 )
 {
 RTC_LOG
@@ -2081,7 +2081,7 @@ most
 "
 <
 <
-kMaxTemporalLayers
+kMaxTemporalStreams
 <
 <
 "

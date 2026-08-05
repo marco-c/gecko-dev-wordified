@@ -5992,12 +5992,6 @@ RtpVp9RefFinderTest
 GofTidTooHigh
 )
 {
-const
-int
-kMaxTemporalLayers
-=
-5
-;
 GofInfoVP9
 ss
 ;
@@ -6015,7 +6009,7 @@ temporal_idx
 1
 ]
 =
-kMaxTemporalLayers
+kMaxTemporalStreams
 ;
 Insert
 (
@@ -6480,12 +6474,6 @@ RtpVp9RefFinderTest
 TemporalIndexTooHighDropsFrame
 )
 {
-/
-/
-kMaxTemporalLayers
-is
-5
-.
 Insert
 (
 Frame
@@ -6500,7 +6488,7 @@ Pid
 SidAndTid
 (
 0
-5
+kMaxTemporalStreams
 )
 .
 AsKeyFrame
@@ -6549,7 +6537,7 @@ Pid
 SidAndTid
 (
 0
-5
+kMaxTemporalStreams
 )
 .
 Tl0

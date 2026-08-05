@@ -119,6 +119,17 @@ utility
 #
 include
 "
+api
+/
+video
+/
+video_codec_constants
+.
+h
+"
+#
+include
+"
 modules
 /
 rtp_rtcp
@@ -426,7 +437,7 @@ codec_header
 temporalIdx
 >
 =
-kMaxTemporalLayers
+kMaxTemporalStreams
 )
 return
 kDrop
