@@ -297,10 +297,6 @@ it_
 -
 >
 second
-.
-get
-(
-)
 ;
 }
 const
