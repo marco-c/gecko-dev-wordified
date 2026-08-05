@@ -2033,6 +2033,8 @@ EnqueueSurface
 (
 IOSurfaceRef
 aSurfaceRef
+bool
+aIsHDR
 )
 ;
 /
@@ -2251,9 +2253,11 @@ DeviceColor
 &
 aColor
 bool
+aIsVideo
+bool
 aIsDRM
 bool
-aIsVideo
+aIsHDR
 )
 ;
 /
@@ -2496,6 +2500,11 @@ mMutatedSpecializeVideo
 ;
 bool
 mMutatedIsDRM
+:
+1
+;
+bool
+mMutatedIsHDR
 :
 1
 ;
