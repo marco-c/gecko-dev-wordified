@@ -121,8 +121,6 @@ import
 re
 import
 time
-import
-typing
 from
 pathlib
 import
@@ -131,13 +129,8 @@ from
 typing
 import
 Literal
-Union
-from
-typing
-import
 Optional
-as
-TOptional
+Union
 from
 urllib
 .
@@ -561,7 +554,7 @@ sym
     
 symbol
 :
-TOptional
+Optional
 [
 str
 ]
@@ -575,7 +568,7 @@ kind
     
 kind
 :
-TOptional
+Optional
 [
 Literal
 [
@@ -601,7 +594,7 @@ task
     
 tier
 :
-TOptional
+Optional
 [
 int
 ]
@@ -640,7 +633,7 @@ labels
     
 platform
 :
-TOptional
+Optional
 [
 str
 ]
@@ -753,7 +746,7 @@ produces
     
 product
 :
-TOptional
+Optional
 [
 str
 ]
@@ -775,7 +768,7 @@ index
     
 job_name
 :
-TOptional
+Optional
 [
 str
 ]
@@ -978,7 +971,7 @@ task
     
 attributes
 :
-TOptional
+Optional
 [
 dict
 [
@@ -1008,7 +1001,7 @@ in
     
 task_from
 :
-TOptional
+Optional
 [
 str
 ]
@@ -1049,7 +1042,7 @@ method
     
 dependencies
 :
-TOptional
+Optional
 [
 dict
 [
@@ -1075,7 +1068,7 @@ labels
     
 soft_dependencies
 :
-TOptional
+Optional
 [
 list
 [
@@ -1102,7 +1095,7 @@ run
     
 if_dependencies
 :
-TOptional
+Optional
 [
 list
 [
@@ -1114,7 +1107,7 @@ None
     
 requires
 :
-TOptional
+Optional
 [
 Literal
 [
@@ -1168,7 +1161,7 @@ project
     
 expires_after
 :
-TOptional
+Optional
 [
 str
 ]
@@ -1177,7 +1170,7 @@ None
     
 deadline_after
 :
-TOptional
+Optional
 [
 str
 ]
@@ -1186,7 +1179,7 @@ None
     
 expiration_policy
 :
-TOptional
+Optional
 [
 str
 ]
@@ -1213,7 +1206,7 @@ automatically
     
 routes
 :
-TOptional
+Optional
 [
 list
 [
@@ -1283,7 +1276,7 @@ push
     
 scopes
 :
-TOptional
+Optional
 [
 list
 [
@@ -1298,7 +1291,7 @@ Tags
     
 tags
 :
-TOptional
+Optional
 [
 dict
 [
@@ -1320,7 +1313,7 @@ content
     
 extra
 :
-TOptional
+Optional
 [
 dict
 [
@@ -1393,7 +1386,7 @@ task
     
 treeherder
 :
-TOptional
+Optional
 [
 TreeherderSchema
 ]
@@ -1427,7 +1420,7 @@ indexed
     
 index
 :
-TOptional
+Optional
 [
 IndexSchema
 ]
@@ -1477,7 +1470,7 @@ details
     
 run_on_repo_type
 :
-TOptional
+Optional
 [
 list
 [
@@ -1536,7 +1529,7 @@ details
     
 run_on_projects
 :
-TOptional
+Optional
 [
 #
 type
@@ -1582,7 +1575,7 @@ all
     
 run_on_hg_branches
 :
-TOptional
+Optional
 [
 #
 type
@@ -1621,7 +1614,7 @@ run
     
 run_on_git_branches
 :
-TOptional
+Optional
 [
 list
 [
@@ -1656,7 +1649,7 @@ to
     
 shipping_phase
 :
-TOptional
+Optional
 [
 Literal
 [
@@ -1702,7 +1695,7 @@ to
     
 shipping_product
 :
-TOptional
+Optional
 [
 str
 ]
@@ -1800,7 +1793,7 @@ py
     
 optimization
 :
-TOptional
+Optional
 [
 OptimizationSchema
 ]
@@ -1848,7 +1841,7 @@ push
     
 worker_type
 :
-TOptional
+Optional
 [
 str
 ]
@@ -1887,7 +1880,7 @@ task
     
 worker
 :
-TOptional
+Optional
 [
 TaskWorkerSchema
 ]
@@ -1905,7 +1898,7 @@ project
     
 priority
 :
-TOptional
+Optional
 [
 str
 ]
@@ -1921,7 +1914,7 @@ retries
     
 retries
 :
-TOptional
+Optional
 [
 int
 ]
@@ -3163,8 +3156,6 @@ config
 tuple
 [
 str
-typing
-.
 Optional
 [
 str
@@ -4074,7 +4065,7 @@ name
     
 in_tree
 :
-TOptional
+Optional
 [
 str
 ]
@@ -4089,7 +4080,7 @@ image
     
 indexed
 :
-TOptional
+Optional
 [
 str
 ]
@@ -4243,7 +4234,7 @@ repo
     
 skip_untrusted
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -4323,7 +4314,7 @@ str
     
 expires_after
 :
-TOptional
+Optional
 [
 str
 ]
@@ -4470,7 +4461,7 @@ bool
     
 kvm
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -4486,7 +4477,7 @@ volumes
     
 volumes
 :
-TOptional
+Optional
 [
 list
 [
@@ -4511,7 +4502,7 @@ reasons
     
 required_volumes
 :
-TOptional
+Optional
 [
 list
 [
@@ -4532,7 +4523,7 @@ task
     
 caches
 :
-TOptional
+Optional
 [
 list
 [
@@ -4555,7 +4546,7 @@ completion
     
 artifacts
 :
-TOptional
+Optional
 [
 list
 [
@@ -4603,7 +4594,7 @@ image
     
 command
 :
-TOptional
+Optional
 [
 list
 [
@@ -4644,7 +4635,7 @@ retried
     
 retry_exit_status
 :
-TOptional
+Optional
 [
 list
 [
@@ -4678,7 +4669,7 @@ purged
     
 purge_caches_exit_status
 :
-TOptional
+Optional
 [
 list
 [
@@ -4700,7 +4691,7 @@ worker
     
 skip_artifacts
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -6765,7 +6756,7 @@ name
     
 name
 :
-TOptional
+Optional
 [
 str
 ]
@@ -6774,7 +6765,7 @@ None
     
 expires_after
 :
-TOptional
+Optional
 [
 str
 ]
@@ -6804,7 +6795,7 @@ content
     
 artifact
 :
-TOptional
+Optional
 [
 str
 ]
@@ -6826,7 +6817,7 @@ content
     
 task_id
 :
-TOptional
+Optional
 [
 taskref_or_string_msgspec
 ]
@@ -6850,7 +6841,7 @@ request
     
 url
 :
-TOptional
+Optional
 [
 str
 ]
@@ -6885,7 +6876,7 @@ directory
     
 cache_name
 :
-TOptional
+Optional
 [
 str
 ]
@@ -6914,7 +6905,7 @@ dir
     
 content
 :
-TOptional
+Optional
 [
 GenericMountContentSchema
 ]
@@ -6939,7 +6930,7 @@ directory
     
 directory
 :
-TOptional
+Optional
 [
 str
 ]
@@ -6965,7 +6956,7 @@ only
     
 file
 :
-TOptional
+Optional
 [
 str
 ]
@@ -6986,7 +6977,7 @@ directory
     
 format
 :
-TOptional
+Optional
 [
 Literal
 [
@@ -7111,7 +7102,7 @@ completion
     
 artifacts
 :
-TOptional
+Optional
 [
 list
 [
@@ -7134,7 +7125,7 @@ mounted
     
 mounts
 :
-TOptional
+Optional
 [
 list
 [
@@ -7180,7 +7171,7 @@ workers
     
 os_groups
 :
-TOptional
+Optional
 [
 list
 [
@@ -7202,7 +7193,7 @@ administrator
     
 run_as_administrator
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -7219,7 +7210,7 @@ bool
     
 taskcluster_proxy
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -7228,7 +7219,7 @@ None
     
 hide_cmd_window
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -7253,7 +7244,7 @@ retried
     
 retry_exit_status
 :
-TOptional
+Optional
 [
 list
 [
@@ -7275,7 +7266,7 @@ worker
     
 skip_artifacts
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -8575,7 +8566,7 @@ str
     
 single_file_globs
 :
-TOptional
+Optional
 [
 list
 [
@@ -8624,7 +8615,7 @@ True
     
 deep
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -8633,7 +8624,7 @@ None
     
 runtime
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -8642,7 +8633,7 @@ None
     
 force
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -8651,7 +8642,7 @@ None
     
 entitlements
 :
-TOptional
+Optional
 [
 str
 ]
@@ -8660,7 +8651,7 @@ None
     
 requirements
 :
-TOptional
+Optional
 [
 str
 ]
@@ -8731,7 +8722,7 @@ iscript
     
 mac_behavior
 :
-TOptional
+Optional
 [
         
 Literal
@@ -8781,7 +8772,7 @@ None
     
 entitlements_url
 :
-TOptional
+Optional
 [
 str
 ]
@@ -8790,7 +8781,7 @@ None
     
 requirements_plist_url
 :
-TOptional
+Optional
 [
 str
 ]
@@ -8799,7 +8790,7 @@ None
     
 provisioning_profile_config
 :
-TOptional
+Optional
 [
 list
 [
@@ -8807,15 +8798,11 @@ IscriptProvisioningProfileSchema
 ]
 ]
 =
-(
-        
 None
-    
-)
     
 hardened_sign_config
 :
-TOptional
+Optional
 [
 list
 [
@@ -9311,7 +9298,7 @@ seconds
     
 max_run_time
 :
-TOptional
+Optional
 [
 int
 ]
@@ -9331,7 +9318,7 @@ job
     
 locale
 :
-TOptional
+Optional
 [
 str
 ]
@@ -9364,7 +9351,7 @@ BeetmoverArtifactSchema
     
 artifact_map
 :
-TOptional
+Optional
 [
 object
 ]
@@ -9637,7 +9624,7 @@ seconds
     
 max_run_time
 :
-TOptional
+Optional
 [
 int
 ]
@@ -9775,7 +9762,7 @@ True
     
 max_run_time
 :
-TOptional
+Optional
 [
 int
 ]
@@ -9947,7 +9934,7 @@ str
     
 zip_extract
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -9968,7 +9955,7 @@ True
     
 max_run_time
 :
-TOptional
+Optional
 [
 int
 ]
@@ -9988,7 +9975,7 @@ BeetmoverMavenArtifactSchema
     
 artifact_map
 :
-TOptional
+Optional
 [
 object
 ]
@@ -10248,7 +10235,7 @@ str
     
 product
 :
-TOptional
+Optional
 [
 str
 ]
@@ -10257,7 +10244,7 @@ None
     
 platforms
 :
-TOptional
+Optional
 [
 list
 [
@@ -10269,7 +10256,7 @@ None
     
 release_eta
 :
-TOptional
+Optional
 [
 str
 ]
@@ -10278,7 +10265,7 @@ None
     
 channel_names
 :
-TOptional
+Optional
 [
 #
 type
@@ -10307,7 +10294,7 @@ None
     
 require_mirrors
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -10316,7 +10303,7 @@ None
     
 publish_rules
 :
-TOptional
+Optional
 [
 #
 type
@@ -10352,7 +10339,7 @@ None
     
 rules_to_update
 :
-TOptional
+Optional
 [
 #
 type
@@ -10388,7 +10375,7 @@ None
     
 archive_domain
 :
-TOptional
+Optional
 [
 #
 type
@@ -10414,7 +10401,7 @@ None
     
 download_domain
 :
-TOptional
+Optional
 [
 #
 type
@@ -10440,7 +10427,7 @@ None
     
 blob_suffix
 :
-TOptional
+Optional
 [
 str
 ]
@@ -10449,7 +10436,7 @@ None
     
 complete_mar_filename_pattern
 :
-TOptional
+Optional
 [
 str
 ]
@@ -10458,7 +10445,7 @@ None
     
 complete_mar_bouncer_product_pattern
 :
-TOptional
+Optional
 [
 str
 ]
@@ -10467,7 +10454,7 @@ None
     
 update_line
 :
-TOptional
+Optional
 [
 object
 ]
@@ -10476,7 +10463,7 @@ None
     
 suffixes
 :
-TOptional
+Optional
 [
 list
 [
@@ -10488,7 +10475,7 @@ None
     
 background_rate
 :
-TOptional
+Optional
 [
 #
 type
@@ -10508,7 +10495,7 @@ beta
 -
 number
 "
-TOptional
+Optional
 [
 int
 ]
@@ -10524,7 +10511,7 @@ None
     
 force_fallback_mapping_update
 :
-TOptional
+Optional
 [
 #
 type
@@ -10555,7 +10542,7 @@ None
     
 pin_channels
 :
-TOptional
+Optional
 [
 #
 type
@@ -10604,7 +10591,7 @@ beetmoved
     
 upstream_artifacts
 :
-TOptional
+Optional
 [
 list
 [
@@ -11533,7 +11520,7 @@ str
     
 publish_mode
 :
-TOptional
+Optional
 [
 str
 ]
@@ -12605,7 +12592,7 @@ str
     
 format
 :
-TOptional
+Optional
 [
 str
 ]
@@ -12674,7 +12661,7 @@ str
     
 l10n_repo_url
 :
-TOptional
+Optional
 [
 str
 ]
@@ -12683,7 +12670,7 @@ None
     
 l10n_repo_target_branch
 :
-TOptional
+Optional
 [
 str
 ]
@@ -12692,7 +12679,7 @@ None
     
 ignore_config
 :
-TOptional
+Optional
 [
 object
 ]
@@ -12770,7 +12757,7 @@ tags
 :
 list
 [
-TOptional
+Optional
 [
 Literal
 [
@@ -12790,7 +12777,7 @@ bool
     
 bump_files
 :
-TOptional
+Optional
 [
 list
 [
@@ -12802,7 +12789,7 @@ None
     
 repo_param_prefix
 :
-TOptional
+Optional
 [
 str
 ]
@@ -12811,7 +12798,7 @@ None
     
 dontbuild
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -12820,7 +12807,7 @@ None
     
 ignore_closed_tree
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -12829,7 +12816,7 @@ None
     
 force_dry_run
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -12838,7 +12825,7 @@ None
     
 push
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -12847,7 +12834,7 @@ None
     
 source_repo
 :
-TOptional
+Optional
 [
 str
 ]
@@ -12856,7 +12843,7 @@ None
     
 ssh_user
 :
-TOptional
+Optional
 [
 str
 ]
@@ -12865,7 +12852,7 @@ None
     
 l10n_bump_info
 :
-TOptional
+Optional
 [
 list
 [
@@ -12877,7 +12864,7 @@ None
     
 actions
 :
-TOptional
+Optional
 [
 object
 ]
@@ -12886,7 +12873,7 @@ None
     
 merge_info
 :
-TOptional
+Optional
 [
 object
 ]
@@ -12895,7 +12882,7 @@ None
     
 android_l10n_import_info
 :
-TOptional
+Optional
 [
 TreescriptAndroidL10nImportInfoSchema
 ]
@@ -12904,7 +12891,7 @@ None
     
 android_l10n_sync_info
 :
-TOptional
+Optional
 [
 TreescriptAndroidL10nSyncInfoSchema
 ]
@@ -14134,7 +14121,7 @@ str
     
 l10n_repo_url
 :
-TOptional
+Optional
 [
 str
 ]
@@ -14143,7 +14130,7 @@ None
     
 l10n_repo_target_branch
 :
-TOptional
+Optional
 [
 str
 ]
@@ -14152,7 +14139,7 @@ None
     
 ignore_config
 :
-TOptional
+Optional
 [
 object
 ]
@@ -14232,7 +14219,7 @@ str
     
 hg_repo_url
 :
-TOptional
+Optional
 [
 str
 ]
@@ -14241,7 +14228,7 @@ None
     
 ignore_closed_tree
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -14250,7 +14237,7 @@ None
     
 dontbuild
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -14259,11 +14246,11 @@ None
     
 tags
 :
-TOptional
+Optional
 [
 list
 [
-TOptional
+Optional
 [
 Literal
 [
@@ -14282,7 +14269,7 @@ None
     
 force_dry_run
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -14291,7 +14278,7 @@ None
     
 push
 :
-TOptional
+Optional
 [
 bool
 ]
@@ -14300,7 +14287,7 @@ None
     
 android_l10n_import_info
 :
-TOptional
+Optional
 [
 LandoscriptAndroidL10nImportInfoSchema
 ]
@@ -14309,7 +14296,7 @@ None
     
 android_l10n_sync_info
 :
-TOptional
+Optional
 [
 LandoscriptAndroidL10nSyncInfoSchema
 ]
@@ -14318,7 +14305,7 @@ None
     
 l10n_bump_info
 :
-TOptional
+Optional
 [
 list
 [
@@ -14330,7 +14317,7 @@ None
     
 bump_files
 :
-TOptional
+Optional
 [
 list
 [
@@ -14342,7 +14329,7 @@ None
     
 merge_info
 :
-TOptional
+Optional
 [
 object
 ]
