@@ -2922,7 +2922,7 @@ PrepareAddress
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2934,9 +2934,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2952,9 +2949,6 @@ clock
 time_controller_
 }
 )
-IsRtcOk
-(
-)
 )
 ;
 CreateUdpPort
@@ -2968,7 +2962,7 @@ PrepareAddress
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2980,9 +2974,6 @@ return
 udp_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2994,9 +2985,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -3426,7 +3414,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -3438,9 +3426,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -3452,9 +3437,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -3546,7 +3528,7 @@ PrepareAddress
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -3558,9 +3540,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -3575,9 +3554,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -3711,7 +3687,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -3723,9 +3699,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -3740,9 +3713,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -3929,7 +3899,7 @@ receive
 redirect
 notice
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -3941,9 +3911,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -3960,9 +3927,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -4045,7 +4009,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -4057,9 +4021,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -4074,9 +4035,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -4209,7 +4167,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -4221,9 +4179,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -4238,9 +4193,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -4562,7 +4514,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -4574,9 +4526,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -4591,9 +4540,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -4886,7 +4832,7 @@ conn2
 nullptr
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -4898,9 +4844,6 @@ return
 turn_create_permission_success_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -4912,9 +4855,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -5195,7 +5135,7 @@ conn2
 nullptr
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -5207,9 +5147,6 @@ return
 turn_create_permission_success_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -5221,9 +5158,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -5336,7 +5270,7 @@ Ping
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -5348,9 +5282,6 @@ return
 turn_unknown_address_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -5362,9 +5293,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -5663,7 +5591,7 @@ Ping
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -5675,9 +5603,6 @@ return
 turn_unknown_address_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -5689,9 +5614,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -5739,7 +5661,7 @@ Ping
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -5756,9 +5678,6 @@ receiving
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -5770,9 +5689,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -6825,7 +6741,7 @@ to
 signal
 closed
 .
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -6837,9 +6753,6 @@ return
 turn_port_closed_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -6851,9 +6764,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -7451,7 +7361,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -7463,18 +7373,12 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
 =
 kResolverTimeout
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -7807,7 +7711,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -7819,9 +7723,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -7835,9 +7736,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -7959,7 +7857,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -7971,9 +7869,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -7987,9 +7882,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -8072,7 +7964,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -8084,9 +7976,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -8100,9 +7989,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -8579,7 +8465,7 @@ one
 /
 expected
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -8591,9 +8477,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -8605,9 +8488,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -8930,7 +8810,7 @@ gathered
 as
 normally
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -8942,9 +8822,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -8958,9 +8835,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9174,7 +9048,7 @@ gathered
 as
 normally
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9186,9 +9060,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9202,9 +9073,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9274,7 +9142,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9286,18 +9154,12 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
 =
 kResolverTimeout
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9477,7 +9339,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9489,18 +9351,12 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
 =
 kResolverTimeout
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9562,7 +9418,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9574,18 +9430,12 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
 =
 kResolverTimeout
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9648,7 +9498,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9660,9 +9510,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9676,9 +9523,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9745,7 +9589,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9757,9 +9601,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9773,9 +9614,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10025,7 +9863,7 @@ will
 /
 succeed
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10037,9 +9875,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10053,9 +9888,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10114,7 +9946,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10126,9 +9958,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10142,9 +9971,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10301,7 +10127,7 @@ will
 /
 succeed
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10313,9 +10139,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10329,9 +10152,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10486,7 +10306,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10498,9 +10318,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10514,9 +10331,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10634,7 +10448,7 @@ to
 allocate
 mismatch
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10646,9 +10460,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10662,9 +10473,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10744,7 +10552,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10756,9 +10564,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10772,9 +10577,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10906,7 +10708,7 @@ to
 allocate
 mismatch
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10918,9 +10720,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10934,9 +10733,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -11079,7 +10875,7 @@ FlushForTest
 TURN_REFRESH_REQUEST
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -11091,9 +10887,6 @@ return
 turn_refresh_success_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -11105,9 +10898,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -11135,7 +10925,7 @@ FlushForTest
 TURN_REFRESH_REQUEST
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -11148,9 +10938,6 @@ return
 turn_refresh_success_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -11162,9 +10949,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -11649,7 +11433,7 @@ NotifyClosedForTest
 1
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -11670,9 +11454,6 @@ empty
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -11684,9 +11465,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -12425,7 +12203,7 @@ conn
 nullptr
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -12437,9 +12215,6 @@ return
 turn_create_permission_success_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -12451,9 +12226,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -12528,7 +12300,7 @@ FlushForTest
 kAllRequestsForTest
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -12540,9 +12312,6 @@ return
 turn_create_permission_success_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -12554,9 +12323,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -12588,7 +12354,7 @@ FlushForTest
 kAllRequestsForTest
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -12601,9 +12367,6 @@ return
 turn_create_permission_success_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -12615,9 +12378,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -12719,7 +12479,7 @@ Ping
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -12736,9 +12496,6 @@ writable
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -12752,9 +12509,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -12818,7 +12572,7 @@ data
 options
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -12833,9 +12587,6 @@ conn1
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -12847,9 +12598,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -12943,7 +12691,7 @@ data
 options
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -12960,9 +12708,6 @@ empty
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -12974,9 +12719,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -13248,7 +12990,7 @@ PrepareAddress
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -13260,9 +13002,6 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -13274,9 +13013,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -13450,7 +13186,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -13462,9 +13198,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -13478,9 +13211,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -13671,7 +13401,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -13683,9 +13413,6 @@ return
 turn_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -13699,9 +13426,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -13729,7 +13453,7 @@ PrepareAddress
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -13741,9 +13465,6 @@ return
 udp_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -13755,9 +13476,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -13824,7 +13542,7 @@ pruned
 and
 failed
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -13843,9 +13561,6 @@ connection
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -13858,12 +13573,9 @@ clock
 time_controller_
 }
 )
-IsRtcOk
-(
-)
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -13876,9 +13588,6 @@ return
 turn_create_permission_success_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -13890,9 +13599,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -14326,7 +14032,7 @@ PrepareAddress
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -14338,18 +14044,12 @@ return
 turn_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
 =
 kResolverTimeout
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -14404,7 +14104,7 @@ to
 be
 processed
 .
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -14416,9 +14116,6 @@ return
 test_finish_
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -14426,9 +14123,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -17037,7 +16731,7 @@ PrepareAddress
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -17054,12 +16748,6 @@ HasRequests
 )
 ;
 }
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;

@@ -8860,7 +8860,7 @@ RTCOfferAnswerOptions
 )
 ;
 }
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -8877,9 +8877,6 @@ called
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -8892,9 +8889,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9055,7 +9049,7 @@ PeerConnectionInterface
 kClosed
 )
 {
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9072,9 +9066,6 @@ called
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9087,9 +9078,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9245,7 +9233,7 @@ result
 return
 false
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9262,9 +9250,6 @@ called
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9277,9 +9262,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9329,7 +9311,7 @@ get
 )
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9346,9 +9328,6 @@ called
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9361,9 +9340,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10318,7 +10294,7 @@ will
 have
 candidates
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10332,9 +10308,6 @@ observer_
 ice_gathering_complete_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10347,9 +10320,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -11413,7 +11383,7 @@ get
 offer_answer_options
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -11430,9 +11400,6 @@ called
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -11445,9 +11412,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -15913,7 +15877,7 @@ IsRtcOk
 )
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -15927,9 +15891,6 @@ observer_
 ice_gathering_complete_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -15942,9 +15903,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -31341,7 +31299,7 @@ AddTrack
 audio_track
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -31355,9 +31313,6 @@ observer_
 renegotiation_needed_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -31370,9 +31325,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -31394,7 +31346,7 @@ AddTrack
 video_track
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -31408,9 +31360,6 @@ observer_
 renegotiation_needed_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -31423,9 +31372,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -31447,7 +31393,7 @@ RemoveTrack
 audio_track
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -31461,9 +31407,6 @@ observer_
 renegotiation_needed_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -31476,9 +31419,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -31500,7 +31440,7 @@ RemoveTrack
 video_track
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -31514,9 +31454,6 @@ observer_
 renegotiation_needed_
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -31529,9 +31466,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;

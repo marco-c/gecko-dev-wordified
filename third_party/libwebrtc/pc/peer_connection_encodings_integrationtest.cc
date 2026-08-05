@@ -2776,7 +2776,7 @@ get
 }
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -2793,12 +2793,6 @@ called
 )
 ;
 }
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2856,7 +2850,7 @@ get
 }
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -2873,12 +2867,6 @@ called
 )
 ;
 }
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;

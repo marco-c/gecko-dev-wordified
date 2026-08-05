@@ -8186,7 +8186,7 @@ has_value
 ;
 }
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -8200,9 +8200,6 @@ GetStatsReportAndReturnTrueIfRttIsDefined
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -8215,9 +8212,6 @@ Millis
 kMaxWaitMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -10785,7 +10779,7 @@ rtp
 to
 appear
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -10826,9 +10820,6 @@ empty
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -10841,9 +10832,6 @@ Millis
 kGetStatsTimeoutMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -11084,7 +11072,7 @@ rtp
 to
 appear
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -11125,9 +11113,6 @@ empty
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -11140,9 +11125,6 @@ Millis
 kGetStatsTimeoutMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -11585,7 +11567,7 @@ RTCInboundRtpStreamStats
 >
 inbound_rtps
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -11626,9 +11608,6 @@ empty
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -11641,9 +11620,6 @@ Millis
 kGetStatsTimeoutMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;

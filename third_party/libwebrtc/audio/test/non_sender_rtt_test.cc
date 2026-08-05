@@ -113,17 +113,6 @@ api
 /
 test
 /
-rtc_error_matchers
-.
-h
-"
-#
-include
-"
-api
-/
-test
-/
 simulated_network
 .
 h
@@ -404,7 +393,7 @@ than
 10
 seconds
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -418,9 +407,6 @@ HasRoundTripTimeMeasurement
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -433,9 +419,6 @@ Millis
 kLongTimeoutMs
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;

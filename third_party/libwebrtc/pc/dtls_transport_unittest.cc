@@ -759,7 +759,7 @@ CompleteDtlsHandshake
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -773,17 +773,6 @@ observer_
 state_change_called_
 ;
 }
-:
-:
-testing
-:
-:
-IsTrue
-(
-)
-)
-IsRtcOk
-(
 )
 )
 ;

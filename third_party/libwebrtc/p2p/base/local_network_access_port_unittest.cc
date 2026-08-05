@@ -198,17 +198,6 @@ include
 "
 api
 /
-test
-/
-rtc_error_matchers
-.
-h
-"
-#
-include
-"
-api
-/
 units
 /
 timestamp
@@ -1881,7 +1870,7 @@ LnaFakeResult
 kPermissionGranted
 )
 {
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -1893,9 +1882,6 @@ return
 port_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -1903,9 +1889,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -1938,7 +1921,7 @@ GetError
 }
 else
 {
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -1950,9 +1933,6 @@ return
 port_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -1960,9 +1940,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2056,7 +2033,7 @@ LnaFakeResult
 kPermissionGranted
 )
 {
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -2068,9 +2045,6 @@ return
 port_ready_
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -2078,9 +2052,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2113,7 +2084,7 @@ GetError
 }
 else
 {
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -2125,9 +2096,6 @@ return
 port_error_
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -2135,9 +2103,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;

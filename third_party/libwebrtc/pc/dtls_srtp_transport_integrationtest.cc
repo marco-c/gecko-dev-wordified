@@ -955,7 +955,7 @@ to
 be
 up
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -980,9 +980,6 @@ writable
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -1000,9 +997,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;

@@ -1059,7 +1059,7 @@ Port
 ORIGIN_MESSAGE
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -1076,9 +1076,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -1091,9 +1088,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -1371,7 +1365,7 @@ observer
 conn
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -1387,9 +1381,6 @@ connection_destroyed
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -1402,9 +1393,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -1617,7 +1605,7 @@ Port
 ORIGIN_MESSAGE
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -1634,9 +1622,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -1649,9 +1634,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -1851,7 +1833,7 @@ nullptr
 conn
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -1868,9 +1850,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -1883,9 +1862,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2079,7 +2055,7 @@ nullptr
 client_conn
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2096,9 +2072,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2111,9 +2084,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2194,7 +2164,7 @@ nullptr
 server_conn
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2211,9 +2181,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2226,9 +2193,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2264,7 +2228,7 @@ CurrentTime
 )
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2281,9 +2245,6 @@ writable
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2297,12 +2258,9 @@ kTimeout
 )
 }
 )
-IsRtcOk
-(
-)
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2319,9 +2277,6 @@ writable
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2334,9 +2289,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2646,7 +2598,7 @@ nullptr
 client_conn
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2663,9 +2615,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2678,9 +2627,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2758,7 +2704,7 @@ Port
 ORIGIN_THIS_PORT
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2775,9 +2721,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2790,9 +2733,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2822,7 +2762,7 @@ CurrentTime
 )
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2839,9 +2779,6 @@ writable
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2854,9 +2791,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -2939,7 +2873,7 @@ server_conn
 =
 nullptr
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -2957,9 +2891,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -2972,9 +2903,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -3061,7 +2989,7 @@ result
 SOCKET_ERROR
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -3078,9 +3006,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -3093,9 +3018,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -3309,7 +3231,7 @@ Port
 ORIGIN_THIS_PORT
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -3326,9 +3248,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -3341,9 +3260,6 @@ Millis
 kTimeout
 )
 }
-)
-IsRtcOk
-(
 )
 )
 ;

@@ -1207,7 +1207,7 @@ Ping
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -1224,9 +1224,6 @@ last_stun_msg
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -1238,9 +1235,6 @@ clock
 &
 time_controller
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -1295,7 +1289,7 @@ ms
 )
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -1312,9 +1306,6 @@ last_stun_msg
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -1326,9 +1317,6 @@ clock
 &
 time_controller
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -4275,7 +4263,7 @@ conn
 )
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -4297,9 +4285,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -4311,9 +4296,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -4659,7 +4641,7 @@ OnClose
 are
 delivered
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -4682,9 +4664,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -4697,12 +4676,9 @@ clock
 time_controller_
 }
 )
-IsRtcOk
-(
-)
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -4725,9 +4701,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -4739,9 +4712,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -5277,7 +5247,7 @@ outgoing
 TCPConnection
 connected
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -5298,9 +5268,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -5312,9 +5279,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -5336,7 +5300,7 @@ ch1
 ch2
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -5352,9 +5316,6 @@ connection_ready_to_send
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -5366,9 +5327,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -5458,7 +5416,7 @@ after
 the
 timeout
 .
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -5475,9 +5433,6 @@ conn
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -5491,9 +5446,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -6547,7 +6499,7 @@ conn
 nullptr
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -6568,9 +6520,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -6582,9 +6531,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -6604,7 +6550,7 @@ if
 accept
 )
 {
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -6625,9 +6571,6 @@ IsNil
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -6639,9 +6582,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -7259,7 +7199,7 @@ Ping
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -7280,9 +7220,6 @@ IsNil
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -7294,9 +7231,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -7723,7 +7657,7 @@ if
 possible
 )
 {
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -7744,9 +7678,6 @@ receiving
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -7754,9 +7685,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -7778,7 +7706,7 @@ write_state
 )
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -7799,9 +7727,6 @@ receiving
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -7809,9 +7734,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -9827,7 +9749,7 @@ conn
 )
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -9844,9 +9766,6 @@ conn
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -9858,9 +9777,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -12638,7 +12554,7 @@ conn
 nullptr
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -12659,9 +12575,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -12673,9 +12586,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -12690,7 +12600,7 @@ Ping
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -12711,9 +12621,6 @@ IsNil
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -12721,9 +12628,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -16618,7 +16522,7 @@ Ping
 (
 )
 ;
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -16635,9 +16539,6 @@ last_stun_msg
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -16649,9 +16550,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -16783,7 +16681,7 @@ nomination
 of
 lconn
 .
-ASSERT_THAT
+ASSERT_TRUE
 (
 WaitUntil
 (
@@ -16800,9 +16698,6 @@ last_stun_msg
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -16814,9 +16709,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -25458,7 +25350,7 @@ write_state
 for
 TCP
 connect
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -25479,9 +25371,6 @@ connected
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -25494,9 +25383,6 @@ clock
 time_controller_
 }
 )
-IsRtcOk
-(
-)
 )
 ;
 ch1
@@ -25505,7 +25391,7 @@ Ping
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -25526,9 +25412,6 @@ IsNil
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -25536,9 +25419,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -26324,7 +26204,7 @@ Ping
 (
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -26345,9 +26225,6 @@ IsNil
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 clock
@@ -26355,9 +26232,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
@@ -27539,7 +27413,7 @@ IsRtcOk
 )
 )
 ;
-EXPECT_THAT
+EXPECT_TRUE
 (
 WaitUntil
 (
@@ -27555,9 +27429,6 @@ nominated
 )
 ;
 }
-IsTrue
-(
-)
 {
 .
 timeout
@@ -27569,9 +27440,6 @@ clock
 &
 time_controller_
 }
-)
-IsRtcOk
-(
 )
 )
 ;
