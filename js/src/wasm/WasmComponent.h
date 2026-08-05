@@ -7722,8 +7722,11 @@ CoreInstanceVector
 =
 GCVector
 <
+HeapPtr
+<
 WasmInstanceObject
 *
+>
 0
 SystemAllocPolicy
 >
