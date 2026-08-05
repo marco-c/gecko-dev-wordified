@@ -243,14 +243,9 @@ mozIJSSubScriptLoader
 )
 \
 .
-loadSubScriptWithOptions
+loadSubScript
 (
 __SCRIPT_URI_SPEC__
-{
-allowUnsafeURL
-:
-true
-}
 )
 ;
 "
