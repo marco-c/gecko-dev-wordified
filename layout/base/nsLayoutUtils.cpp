@@ -40560,7 +40560,7 @@ ExcessOverflowContainers
 FrameChildListID
 :
 :
-OverflowOutOfFlow
+OverflowFloats
 }
 ;
 nsBlockFrame

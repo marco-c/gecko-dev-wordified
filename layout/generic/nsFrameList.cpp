@@ -2872,11 +2872,11 @@ case
 FrameChildListID
 :
 :
-OverflowOutOfFlow
+OverflowFloats
 :
 return
 "
-OverflowOutOfFlowList
+OverflowFloatsList
 "
 ;
 case

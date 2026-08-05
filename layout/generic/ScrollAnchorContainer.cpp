@@ -5455,9 +5455,7 @@ exclude
 FrameChildListID
 :
 :
-OverflowOutOfFlow
-/
-/
+OverflowFloats
 too
 ?
 if
@@ -5486,7 +5484,7 @@ listID
 FrameChildListID
 :
 :
-OverflowOutOfFlow
+OverflowFloats
 )
 {
 continue
