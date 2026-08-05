@@ -379,7 +379,7 @@ PW
 /
 /
 Keepalive
-collection
+dekName
 :
 remove_kek
 /
@@ -423,7 +423,7 @@ it
 .
 A
 keepalive
-coll
+dekName
 wrapped
 /
 /
@@ -732,7 +732,7 @@ createDek
 on
 an
 existing
-collection
+dekName
 rejects
 "
 )
@@ -775,7 +775,7 @@ INVALID_ARG_RE
 createDek
 with
 empty
-collection
+dekName
 rejects
 "
 )
@@ -1082,7 +1082,7 @@ INVALID_ARG_RE
 encrypt
 with
 empty
-collection
+dekName
 rejects
 "
 )
@@ -1165,7 +1165,7 @@ NS_ERROR_NOT_AVAILABLE
 encrypt
 against
 a
-collection
+dekName
 without
 a
 DEK
@@ -1230,7 +1230,7 @@ INVALID_ARG_RE
 decrypt
 with
 empty
-collection
+dekName
 rejects
 "
 )
@@ -1321,7 +1321,7 @@ under
 a
 /
 /
-collection
+dekName
 that
 doesn
 '
@@ -1367,7 +1367,7 @@ NS_ERROR_NOT_AVAILABLE
 decrypt
 against
 a
-collection
+dekName
 without
 a
 DEK
@@ -1635,7 +1635,7 @@ getService
 /
 Create
 a
-collection
+dekName
 wrapped
 only
 under
@@ -1722,7 +1722,7 @@ doesn
 t
 wrap
 this
-collection
+dekName
 "
 .
 await
@@ -1755,7 +1755,7 @@ does
 not
 wrap
 the
-collection
+dekName
 rejects
 "
 )
@@ -1900,7 +1900,7 @@ one
 )
 "
 deleted
-collection
+dekName
 disappears
 "
 )
@@ -1919,7 +1919,7 @@ two
 )
 "
 other
-collection
+dekName
 remains
 "
 )
@@ -1977,7 +1977,7 @@ NS_ERROR_NOT_AVAILABLE
 deleteDek
 on
 missing
-collection
+dekName
 rejects
 "
 )
@@ -2123,7 +2123,7 @@ the
 /
 unknown
 -
-collection
+dekName
 rejection
 path
 here
@@ -2200,7 +2200,7 @@ listKeks
 against
 an
 unknown
-collection
+dekName
 rejects
 NotAvailable
 "
@@ -2230,7 +2230,7 @@ rejects
 with
 NotAvailable
 (
-collection
+dekName
 lookup
 fails
 )
@@ -2281,7 +2281,7 @@ never
 -
 existed
 -
-coll
+dekName
 "
 )
 /
@@ -2292,7 +2292,7 @@ deleteDek
 on
 a
 missing
-collection
+dekName
 rejects
 "
 )
@@ -2408,7 +2408,7 @@ never
 -
 existed
 -
-coll
+dekName
 -
 2
 "
@@ -2421,7 +2421,7 @@ deleteDek
 on
 a
 missing
-collection
+dekName
 rejects
 "
 )
@@ -3685,7 +3685,7 @@ reject
 /
 Sanity
 :
-collection
+dekName
 still
 usable
 .
@@ -3828,7 +3828,7 @@ add_task
 (
 async
 function
-test_add_kek_missing_collection_rejects
+test_add_kek_missing_dekName_rejects
 (
 )
 {
@@ -3875,7 +3875,7 @@ never
 -
 created
 -
-coll
+dekName
 "
 KEK_LOCAL
 KEK_PASSWORD
@@ -3887,7 +3887,7 @@ NS_ERROR_NOT_AVAILABLE
 addKek
 against
 a
-collection
+dekName
 without
 a
 DEK
@@ -3932,7 +3932,7 @@ INVALID_ARG_RE
 addKek
 with
 empty
-collection
+dekName
 rejects
 "
 )
@@ -4025,7 +4025,7 @@ INVALID_ARG_RE
 removeKek
 with
 empty
-collection
+dekName
 rejects
 "
 )
@@ -4901,7 +4901,7 @@ in
 flight
 .
 const
-colls
+dekNames
 =
 [
 "
@@ -4926,7 +4926,7 @@ Promise
 .
 all
 (
-colls
+dekNames
 .
 map
 (
@@ -4946,7 +4946,7 @@ false
 )
 ;
 const
-collsAfter
+dekNamesAfter
 =
 await
 ls
@@ -4960,14 +4960,14 @@ for
 const
 c
 of
-colls
+dekNames
 )
 {
 Assert
 .
 ok
 (
-collsAfter
+dekNamesAfter
 .
 includes
 (
@@ -4999,7 +4999,7 @@ Promise
 .
 all
 (
-colls
+dekNames
 .
 map
 (
@@ -5036,7 +5036,7 @@ Promise
 .
 all
 (
-colls
+dekNames
 .
 map
 (
@@ -5069,7 +5069,7 @@ i
 ;
 i
 <
-colls
+dekNames
 .
 length
 ;
@@ -5089,12 +5089,12 @@ rounds
 i
 ]
 )
-colls
+dekNames
 [
 i
 ]
 {
-colls
+dekNames
 [
 i
 ]
@@ -5117,7 +5117,7 @@ Promise
 .
 all
 (
-colls
+dekNames
 .
 map
 (
@@ -5134,7 +5134,7 @@ c
 )
 ;
 const
-collsFinal
+dekNamesFinal
 =
 await
 ls
@@ -5148,7 +5148,7 @@ for
 const
 c
 of
-colls
+dekNames
 )
 {
 Assert
@@ -5156,7 +5156,7 @@ Assert
 ok
 (
 !
-collsFinal
+dekNamesFinal
 .
 includes
 (
@@ -5496,7 +5496,7 @@ INVALID_ARG_RE
 importDek
 with
 empty
-collection
+dekName
 rejects
 "
 )
@@ -5619,7 +5619,7 @@ importDek
 on
 an
 existing
-collection
+dekName
 rejects
 "
 )
@@ -5810,7 +5810,7 @@ never
 -
 existed
 -
-coll
+dekName
 "
 )
 /
@@ -5821,7 +5821,7 @@ isDekExtractable
 on
 a
 missing
-collection
+dekName
 rejects
 "
 )
@@ -5980,7 +5980,7 @@ new
 kekRef
 wraps
 the
-collection
+dekName
 after
 switch
 "
@@ -6051,7 +6051,7 @@ no
 longer
 wraps
 the
-collection
+dekName
 "
 )
 ;
@@ -6183,7 +6183,7 @@ INVALID_ARG_RE
 switchKek
 with
 empty
-collection
+dekName
 rejects
 "
 )
@@ -6247,7 +6247,7 @@ add_task
 (
 async
 function
-test_switch_kek_missing_collection_rejected
+test_switch_kek_missing_dekName_rejected
 (
 )
 {
@@ -6283,7 +6283,7 @@ switchKek
 on
 a
 missing
-collection
+dekName
 rejects
 "
 )

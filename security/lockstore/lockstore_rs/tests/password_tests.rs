@@ -4505,7 +4505,7 @@ create_dek
 /
 Switch
 the
-collection
+dek_name
 '
 s
 wrapping
@@ -4587,7 +4587,7 @@ no
 longer
 wraps
 any
-collection
+dek_name
 but
 its
 /
@@ -4607,7 +4607,7 @@ because
 /
 /
 no
-collection
+dek_name
 references
 it
 any

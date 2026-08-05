@@ -140,7 +140,7 @@ lockstore
 namespace
 {
 nsCString
-UniqueCollection
+UniqueDekName
 (
 const
 char
@@ -171,7 +171,7 @@ so
 we
 suffix
 every
-collection
+dekName
 with
 a
 counter
@@ -596,7 +596,7 @@ gets
 independent
 kek_refs
 so
-collection
+dekName
 lifetimes
 don
 '
@@ -1283,7 +1283,7 @@ instance
 /
 createDek
 /
-listCollections
+listDeks
 /
 deleteDek
 /
@@ -1370,9 +1370,9 @@ CreateAndDeleteDek
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 create
@@ -1396,7 +1396,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -1416,7 +1416,7 @@ keySize
 )
 ;
 auto
-collectionsResult
+dekNamesResult
 =
 mService
 -
@@ -1427,7 +1427,7 @@ DoListDeks
 ;
 ASSERT_TRUE
 (
-collectionsResult
+dekNamesResult
 .
 isOk
 (
@@ -1435,9 +1435,9 @@ isOk
 )
 ;
 auto
-collections
+dekNames
 =
-collectionsResult
+dekNamesResult
 .
 unwrap
 (
@@ -1455,7 +1455,7 @@ auto
 &
 c
 :
-collections
+dekNames
 )
 {
 if
@@ -1463,7 +1463,7 @@ if
 c
 =
 =
-coll
+dekName
 )
 {
 found
@@ -1482,11 +1482,11 @@ found
 <
 "
 Created
-collection
+dekName
 should
 appear
 in
-listCollections
+listDeks
 "
 ;
 EXPECT_NS_SUCCEEDED
@@ -1496,7 +1496,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 )
 ;
@@ -1518,7 +1518,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 NS_ERROR_NOT_AVAILABLE
 )
@@ -1534,9 +1534,9 @@ CreateDek_DuplicateRejects
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 dup
@@ -1558,7 +1558,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -1584,7 +1584,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -1610,7 +1610,7 @@ createDek
 on
 an
 existing
-collection
+dekName
 must
 reject
 "
@@ -1620,7 +1620,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -1630,7 +1630,7 @@ coll
 TEST_F
 (
 LockstoreServiceTest
-CreateDek_RejectsEmptyCollection
+CreateDek_RejectsEmptyDekName
 )
 {
 RunOnBackground
@@ -1681,9 +1681,9 @@ CreateDek_RejectsEmptyKekRef
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 empty
@@ -1707,7 +1707,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 "
 "
 _ns
@@ -1778,9 +1778,9 @@ three
 uniquely
 -
 named
-collections
+dekNames
 ;
-listCollections
+listDeks
 must
 /
 /
@@ -1793,7 +1793,7 @@ list
 may
 also
 include
-collections
+dekNames
 from
 /
 /
@@ -1810,7 +1810,7 @@ equality
 nsCString
 a
 =
-UniqueCollection
+UniqueDekName
 (
 "
 list
@@ -1822,7 +1822,7 @@ a
 nsCString
 b
 =
-UniqueCollection
+UniqueDekName
 (
 "
 list
@@ -1834,7 +1834,7 @@ b
 nsCString
 c
 =
-UniqueCollection
+UniqueDekName
 (
 "
 list
@@ -1996,7 +1996,7 @@ a
 <
 <
 "
-listCollections
+listDeks
 missing
 "
 <
@@ -2019,7 +2019,7 @@ b
 <
 <
 "
-listCollections
+listDeks
 missing
 "
 <
@@ -2042,7 +2042,7 @@ c
 <
 <
 "
-listCollections
+listDeks
 missing
 "
 <
@@ -2245,9 +2245,9 @@ ListKeks_ReflectsCreateDek
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 keks
@@ -2271,7 +2271,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -2298,7 +2298,7 @@ mService
 >
 DoListKeks
 (
-coll
+dekName
 )
 ;
 ASSERT_TRUE
@@ -2343,7 +2343,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -2357,9 +2357,9 @@ ListKeks_RejectsNoDek
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 keks
@@ -2384,7 +2384,7 @@ mService
 >
 DoListKeks
 (
-coll
+dekName
 )
 ;
 EXPECT_TRUE
@@ -2413,7 +2413,7 @@ NS_ERROR_NOT_AVAILABLE
 TEST_F
 (
 LockstoreServiceTest
-ListKeks_RejectsEmptyCollection
+ListKeks_RejectsEmptyDekName
 )
 {
 RunOnBackground
@@ -2451,7 +2451,7 @@ isErr
 Empty
 /
 unknown
-collection
+dekName
 surfaces
 as
 NS_ERROR_NOT_AVAILABLE
@@ -2670,9 +2670,9 @@ EncryptDecryptRoundtrip
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 roundtrip
@@ -2694,7 +2694,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -2721,7 +2721,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -2768,7 +2768,7 @@ mService
 >
 DoDecrypt
 (
-coll
+dekName
 mLocalKek
 ciphertext
 )
@@ -2834,7 +2834,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -2848,9 +2848,9 @@ Encrypt_YieldsUniqueCiphertexts
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 nonce
@@ -2872,7 +2872,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -2899,7 +2899,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -2917,7 +2917,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -2994,7 +2994,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -3008,9 +3008,9 @@ Decrypt_CorruptedCiphertextRejects
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 corrupt
@@ -3032,7 +3032,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -3059,7 +3059,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -3135,7 +3135,7 @@ mService
 >
 DoDecrypt
 (
-coll
+dekName
 mLocalKek
 ct
 )
@@ -3154,7 +3154,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -3168,9 +3168,9 @@ Decrypt_TruncatedCiphertextRejects
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 trunc
@@ -3192,7 +3192,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -3219,7 +3219,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -3280,7 +3280,7 @@ mService
 >
 DoDecrypt
 (
-coll
+dekName
 mLocalKek
 ct
 )
@@ -3299,7 +3299,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -3313,9 +3313,9 @@ Decrypt_WrongKekRejects
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 wrong
@@ -3339,7 +3339,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -3366,7 +3366,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -3402,7 +3402,7 @@ mService
 >
 DoDecrypt
 (
-coll
+dekName
 mOtherKek
 ct
 )
@@ -3421,7 +3421,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -3435,9 +3435,9 @@ Encrypt_NoDekRejects
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 no
@@ -3462,7 +3462,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -3492,9 +3492,9 @@ Encrypt_RejectsEmptyArgs
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 empty
@@ -3518,7 +3518,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -3568,7 +3568,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 "
 "
 _ns
@@ -3590,7 +3590,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -3604,9 +3604,9 @@ Decrypt_NoDekRejects
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 no
@@ -3676,7 +3676,7 @@ mService
 >
 DoDecrypt
 (
-coll
+dekName
 mLocalKek
 bogus
 )
@@ -3701,9 +3701,9 @@ Decrypt_RejectsEmptyArgs
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 empty
@@ -3727,7 +3727,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -3754,7 +3754,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -3808,7 +3808,7 @@ mService
 >
 DoDecrypt
 (
-coll
+dekName
 "
 "
 _ns
@@ -3825,7 +3825,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -3994,13 +3994,13 @@ removeKek
 TEST_F
 (
 LockstoreServiceTest
-AddKek_RejectsMissingCollection
+AddKek_RejectsMissingDekName
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 addkek
@@ -4024,7 +4024,7 @@ mService
 >
 DoAddKek
 (
-coll
+dekName
 mLocalKek
 mOtherKek
 )
@@ -4042,9 +4042,9 @@ AddKek_RejectsEmptyArgs
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 addkek
@@ -4068,7 +4068,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -4110,7 +4110,7 @@ mService
 >
 DoAddKek
 (
-coll
+dekName
 "
 "
 _ns
@@ -4126,7 +4126,7 @@ mService
 >
 DoAddKek
 (
-coll
+dekName
 mLocalKek
 "
 "
@@ -4140,7 +4140,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -4154,9 +4154,9 @@ RemoveKek_RejectsEmptyArgs
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 rmkek
@@ -4180,7 +4180,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -4221,7 +4221,7 @@ mService
 >
 DoRemoveKek
 (
-coll
+dekName
 "
 "
 _ns
@@ -4234,7 +4234,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -4248,9 +4248,9 @@ RemoveKek_LastWrappingRejects
 )
 {
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 rmkek
@@ -4274,7 +4274,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -4319,7 +4319,7 @@ mService
 >
 DoRemoveKek
 (
-coll
+dekName
 mLocalKek
 )
 NS_ERROR_FAILURE
@@ -4330,7 +4330,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -4555,9 +4555,9 @@ nonce
 )
 .
 nsCString
-coll
+dekName
 =
-UniqueCollection
+UniqueDekName
 (
 "
 concurrent
@@ -4579,7 +4579,7 @@ mService
 >
 DoCreateDek
 (
-coll
+dekName
 mLocalKek
 /
 *
@@ -4666,7 +4666,7 @@ worker
 [
 this
 &
-coll
+dekName
 &
 results
 &
@@ -4684,7 +4684,7 @@ mService
 >
 DoEncrypt
 (
-coll
+dekName
 mLocalKek
 Bytes
 (
@@ -4910,7 +4910,7 @@ mService
 >
 DoDeleteDek
 (
-coll
+dekName
 )
 ;
 }
@@ -4937,7 +4937,7 @@ across
 multiple
 /
 /
-collections
+dekNames
 concurrently
 .
 All
@@ -4949,7 +4949,7 @@ deadlock
 /
 /
 and
-listCollections
+listDeks
 at
 the
 end
@@ -4971,7 +4971,7 @@ nsTArray
 <
 nsCString
 >
-colls
+dekNames
 ;
 for
 (
@@ -4989,11 +4989,11 @@ N
 i
 )
 {
-colls
+dekNames
 .
 AppendElement
 (
-UniqueCollection
+UniqueDekName
 (
 "
 mix
@@ -5040,7 +5040,7 @@ nsCString
 &
 c
 =
-colls
+dekNames
 [
 i
 ]
@@ -5170,7 +5170,7 @@ round
 -
 trips
 per
-collection
+dekName
 .
 std
 :
@@ -5205,7 +5205,7 @@ nsCString
 &
 c
 =
-colls
+dekNames
 [
 i
 ]
@@ -5444,7 +5444,7 @@ nsCString
 &
 c
 =
-colls
+dekNames
 [
 i
 ]
@@ -5552,7 +5552,7 @@ N
 /
 /
 Verify
-listCollections
+listDeks
 no
 longer
 contains
@@ -5603,7 +5603,7 @@ auto
 &
 c
 :
-colls
+dekNames
 )
 {
 for
@@ -5624,7 +5624,7 @@ c
 <
 <
 "
-Collection
+DekName
 "
 <
 <

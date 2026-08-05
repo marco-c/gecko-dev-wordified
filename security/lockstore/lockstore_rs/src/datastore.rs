@@ -133,7 +133,7 @@ Arc
 <
 Keystore
 >
-collection_name
+dek_name
 :
 String
 kek_ref
@@ -151,7 +151,7 @@ dir
 :
 &
 Path
-collection_name
+dek_name
 :
 String
 keystore
@@ -178,7 +178,7 @@ keystore
 get_dek_internal
 (
 &
-collection_name
+dek_name
 kek_ref
 )
 ?
@@ -193,7 +193,7 @@ join
 datastore_filename
 (
 &
-collection_name
+dek_name
 )
 )
 ;
@@ -211,7 +211,7 @@ OnDisk
 (
 data_path
 )
-collection_name
+dek_name
 keystore
 kek_ref
 )
@@ -221,7 +221,7 @@ pub
 fn
 new_in_memory
 (
-collection_name
+dek_name
 :
 String
 keystore
@@ -248,7 +248,7 @@ keystore
 get_dek_internal
 (
 &
-collection_name
+dek_name
 kek_ref
 )
 ?
@@ -266,7 +266,7 @@ StorePath
 for_in_memory
 (
 )
-collection_name
+dek_name
 keystore
 kek_ref
 )
@@ -278,7 +278,7 @@ init
 store_path
 :
 StorePath
-collection_name
+dek_name
 :
 String
 keystore
@@ -317,7 +317,7 @@ Self
 {
 store
 keystore
-collection_name
+dek_name
 kek_ref
 :
 kek_ref
@@ -432,7 +432,7 @@ get_dek_internal
 &
 self
 .
-collection_name
+dek_name
 &
 self
 .
@@ -472,7 +472,7 @@ format
 "
 self
 .
-collection_name
+dek_name
 entry_name
 )
 ;
@@ -504,7 +504,7 @@ store
 &
 self
 .
-collection_name
+dek_name
 )
 ;
 let
@@ -583,7 +583,7 @@ format
 "
 self
 .
-collection_name
+dek_name
 entry_name
 )
 ;
@@ -602,7 +602,7 @@ store
 &
 self
 .
-collection_name
+dek_name
 )
 ;
 let
@@ -686,7 +686,7 @@ get_dek_internal
 &
 self
 .
-collection_name
+dek_name
 &
 self
 .
@@ -767,7 +767,7 @@ format
 "
 self
 .
-collection_name
+dek_name
 entry_name
 )
 ;
@@ -786,7 +786,7 @@ store
 &
 self
 .
-collection_name
+dek_name
 )
 ;
 let
@@ -898,7 +898,7 @@ format
 "
 self
 .
-collection_name
+dek_name
 )
 ;
 let
@@ -1002,7 +1002,7 @@ query_map
 &
 self
 .
-collection_name
+dek_name
 &
 pattern
 ]

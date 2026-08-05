@@ -292,7 +292,7 @@ mProfilePath
 ;
 const
 nsCString
-mTestColl
+mTestDekName
 {
 "
 test
@@ -460,7 +460,7 @@ keystore_create_dek
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 false
@@ -551,7 +551,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -590,7 +590,7 @@ rvClose
 TEST_F
 (
 LockstoreDatastoreTest
-OpenEmptyCollection
+OpenEmptyDekName
 )
 {
 nsAutoCString
@@ -631,7 +631,7 @@ OpenNoDek
 {
 const
 nsCString
-noDekColl
+noDekName
 (
 "
 nodek
@@ -645,7 +645,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-noDekColl
+noDekName
 &
 mLocalKekRef
 &
@@ -678,7 +678,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -799,7 +799,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -858,7 +858,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -920,7 +920,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1069,7 +1069,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1121,7 +1121,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1179,7 +1179,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1258,7 +1258,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1302,7 +1302,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1352,7 +1352,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1453,7 +1453,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1509,7 +1509,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1689,7 +1689,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1759,7 +1759,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &
@@ -1838,7 +1838,7 @@ lockstore_datastore_open
 (
 mKeystore
 &
-mTestColl
+mTestDekName
 &
 mLocalKekRef
 &

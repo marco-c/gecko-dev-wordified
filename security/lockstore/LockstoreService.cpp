@@ -3235,7 +3235,7 @@ DoCreateDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -3253,7 +3253,7 @@ keystore_create_dek
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 aKekRef
 aExtractable
@@ -3270,7 +3270,7 @@ DoImportDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -3293,7 +3293,7 @@ keystore_import_dek
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 aKekRef
 aDekBytes
@@ -3323,7 +3323,7 @@ DoIsDekExtractable
 const
 nsACString
 &
-aCollection
+aDekName
 )
 {
 LOCKSTORE_SYNC_PREAMBLE
@@ -3339,7 +3339,7 @@ keystore_is_dek_extractable
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 out
 )
@@ -3358,7 +3358,7 @@ DoDeleteDek
 const
 nsACString
 &
-aCollection
+aDekName
 )
 {
 LOCKSTORE_SYNC_PREAMBLE
@@ -3368,7 +3368,7 @@ keystore_delete_dek
 (
 mKeystore
 &
-aCollection
+aDekName
 )
 ;
 }
@@ -3381,7 +3381,7 @@ DoAddKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -3399,7 +3399,7 @@ keystore_add_kek
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 aFromKekRef
 &
@@ -3416,7 +3416,7 @@ DoRemoveKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -3430,7 +3430,7 @@ keystore_remove_kek
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 aKekRef
 )
@@ -3445,7 +3445,7 @@ DoSwitchKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -3463,7 +3463,7 @@ keystore_switch_kek
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 aOldKekRef
 &
@@ -3567,7 +3567,7 @@ DoEncrypt
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -3595,7 +3595,7 @@ keystore_encrypt
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 aKekRef
 aPlaintext
@@ -3633,7 +3633,7 @@ DoDecrypt
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -3661,7 +3661,7 @@ keystore_decrypt
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 aKekRef
 aCiphertext
@@ -3699,7 +3699,7 @@ DoGetDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -3720,7 +3720,7 @@ keystore_get_dek
 (
 mKeystore
 &
-aCollection
+aDekName
 &
 aKekRef
 &
@@ -4108,7 +4108,7 @@ CreateDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -4139,7 +4139,7 @@ LockstoreService
 DoCreateDek
 nsCString
 {
-aCollection
+aDekName
 }
 nsCString
 {
@@ -4159,7 +4159,7 @@ ImportDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -4195,7 +4195,7 @@ LockstoreService
 DoImportDek
 nsCString
 {
-aCollection
+aDekName
 }
 nsCString
 {
@@ -4222,7 +4222,7 @@ IsDekExtractable
 const
 nsACString
 &
-aCollection
+aDekName
 JSContext
 *
 aCx
@@ -4245,7 +4245,7 @@ LockstoreService
 DoIsDekExtractable
 nsCString
 {
-aCollection
+aDekName
 }
 )
 ;
@@ -4259,7 +4259,7 @@ DeleteDek
 const
 nsACString
 &
-aCollection
+aDekName
 JSContext
 *
 aCx
@@ -4282,7 +4282,7 @@ LockstoreService
 DoDeleteDek
 nsCString
 {
-aCollection
+aDekName
 }
 )
 ;
@@ -4296,7 +4296,7 @@ AddKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -4327,7 +4327,7 @@ LockstoreService
 DoAddKek
 nsCString
 {
-aCollection
+aDekName
 }
 nsCString
 {
@@ -4349,7 +4349,7 @@ RemoveKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -4376,7 +4376,7 @@ LockstoreService
 DoRemoveKek
 nsCString
 {
-aCollection
+aDekName
 }
 nsCString
 {
@@ -4394,7 +4394,7 @@ SwitchKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -4425,7 +4425,7 @@ LockstoreService
 DoSwitchKek
 nsCString
 {
-aCollection
+aDekName
 }
 nsCString
 {
@@ -4513,7 +4513,7 @@ Encrypt
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -4547,7 +4547,7 @@ LockstoreService
 DoEncrypt
 nsCString
 {
-aCollection
+aDekName
 }
 nsCString
 {
@@ -4570,7 +4570,7 @@ Decrypt
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -4604,7 +4604,7 @@ LockstoreService
 DoDecrypt
 nsCString
 {
-aCollection
+aDekName
 }
 nsCString
 {
@@ -4627,7 +4627,7 @@ GetDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -4654,7 +4654,7 @@ LockstoreService
 DoGetDek
 nsCString
 {
-aCollection
+aDekName
 }
 nsCString
 {

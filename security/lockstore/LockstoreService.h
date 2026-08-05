@@ -553,7 +553,7 @@ DoCreateDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -570,7 +570,7 @@ DoImportDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -596,7 +596,7 @@ DoIsDekExtractable
 const
 nsACString
 &
-aCollection
+aDekName
 )
 ;
 nsresult
@@ -605,7 +605,7 @@ DoDeleteDek
 const
 nsACString
 &
-aCollection
+aDekName
 )
 ;
 nsresult
@@ -614,7 +614,7 @@ DoAddKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -631,7 +631,7 @@ DoRemoveKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -644,7 +644,7 @@ DoSwitchKek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -696,7 +696,7 @@ DoEncrypt
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -723,7 +723,7 @@ DoDecrypt
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &
@@ -750,7 +750,7 @@ DoGetDek
 const
 nsACString
 &
-aCollection
+aDekName
 const
 nsACString
 &

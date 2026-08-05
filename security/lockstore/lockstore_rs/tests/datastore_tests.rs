@@ -94,7 +94,7 @@ tempdir
 fn
 make_in_memory_ds
 (
-collection
+dek_name
 :
 &
 str
@@ -164,7 +164,7 @@ keystore
 .
 create_dek
 (
-collection
+dek_name
 &
 local
 false
@@ -186,7 +186,7 @@ LockstoreDatastore
 :
 new_in_memory
 (
-collection
+dek_name
 .
 to_string
 (
@@ -1585,7 +1585,7 @@ close
 test
 ]
 fn
-test_multiple_collections_independent
+test_multiple_dek_names_independent
 (
 )
 {
@@ -3425,7 +3425,7 @@ close
 test
 ]
 fn
-test_multiple_collections_shared_on_disk_keystore
+test_multiple_dek_names_shared_on_disk_keystore
 (
 )
 {
