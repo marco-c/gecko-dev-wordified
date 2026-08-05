@@ -131,6 +131,14 @@ HasCompleted
 )
 override
 ;
+bool
+ClientWait
+(
+TimeDuration
+aTimeout
+)
+override
+;
 protected
 :
 GpuFenceMTLSharedEvent
