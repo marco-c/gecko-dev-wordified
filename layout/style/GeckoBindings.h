@@ -2631,7 +2631,7 @@ len
 Searches
 from
 the
-beginning
+end
 of
 |
 keyframes
@@ -2642,9 +2642,9 @@ Keyframe
 object
 with
 the
-/
-/
 specified
+/
+/
 offset
 and
 timing
@@ -2658,10 +2658,10 @@ a
 new
 Keyframe
 object
-/
-/
 with
 the
+/
+/
 specified
 |
 offset
@@ -2672,10 +2672,8 @@ timingFunction
 |
 will
 be
-prepended
+appended
 to
-/
-/
 |
 keyframes
 |
@@ -2693,12 +2691,13 @@ Keyframe
 objects
 sorted
 by
+descending
 offset
 .
 /
 /
 The
-first
+last
 Keyframe
 in
 the
@@ -2832,7 +2831,7 @@ mozilla
 :
 Keyframe
 *
-Gecko_GetOrCreateKeyframeAtStart
+Gecko_GetOrCreateKeyframeAtEnd
 (
 nsTArray
 <
@@ -2948,7 +2947,7 @@ aMatchedIdx
 /
 As
 with
-Gecko_GetOrCreateKeyframeAtStart
+Gecko_GetOrCreateKeyframeAtEnd
 except
 that
 this
@@ -3054,7 +3053,7 @@ composition
 /
 As
 with
-Gecko_GetOrCreateKeyframeAtStart
+Gecko_GetOrCreateKeyframeAtEnd
 except
 that
 this

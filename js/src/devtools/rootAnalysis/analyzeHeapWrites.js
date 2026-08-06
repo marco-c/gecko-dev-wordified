@@ -1468,7 +1468,7 @@ null
 ]
 [
 "
-Gecko_GetOrCreateKeyframeAtStart
+Gecko_GetOrCreateKeyframeAtEnd
 "
 "
 aKeyframes
