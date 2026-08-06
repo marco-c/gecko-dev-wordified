@@ -2175,6 +2175,14 @@ window
 transform
 "
 "
+-
+webkit
+-
+line
+-
+clamp
+"
+"
 line
 -
 clamp
