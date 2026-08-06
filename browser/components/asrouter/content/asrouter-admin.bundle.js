@@ -880,6 +880,9 @@ NEWTAB_MESSAGE_TELEMETRY
 SMART_WINDOW_PROMO_TELEMETRY
 "
 "
+SIDEBAR_CHATBOT_PROMO_TELEMETRY
+"
+"
 ACTION_ONLY_TELEMETRY
 "
 "
@@ -7924,6 +7927,9 @@ feature_callout
 "
 "
 pb_newtab
+"
+"
+sidebar_chatbot_promo
 "
 ]
 .
