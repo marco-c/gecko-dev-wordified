@@ -267,6 +267,15 @@ JSObject
 *
 )
 ;
+static
+bool
+IsAvailable
+(
+const
+GlobalObject
+&
+)
+;
 protected
 :
 virtual
