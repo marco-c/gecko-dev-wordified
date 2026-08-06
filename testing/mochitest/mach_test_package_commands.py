@@ -589,24 +589,6 @@ media
 -
 bc
 "
-        
-"
-mochitest
--
-browser
--
-chrome
--
-ml
--
-models
-"
-:
-"
-ml
--
-models
-"
     
 }
     
@@ -669,27 +651,6 @@ subsuite
 media
 -
 bc
-"
-:
-        
-args
-.
-flavor
-=
-"
-browser
-"
-    
-if
-args
-.
-subsuite
-=
-=
-"
-ml
--
-models
 "
 :
         
