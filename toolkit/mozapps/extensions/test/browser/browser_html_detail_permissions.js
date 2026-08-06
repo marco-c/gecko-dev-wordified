@@ -1184,8 +1184,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -4378,8 +4376,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -5851,8 +5847,6 @@ https
 eslint
 -
 disable
-microsoft
-/
 sdl
 /
 no
@@ -6503,8 +6497,6 @@ unload
 eslint
 -
 enable
-microsoft
-/
 sdl
 /
 no
