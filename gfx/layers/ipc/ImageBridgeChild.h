@@ -1385,6 +1385,11 @@ ClearImagesType
 aType
 )
 ;
+void
+WaitFlushTasks
+(
+)
+;
 bool
 IPCOpen
 (
