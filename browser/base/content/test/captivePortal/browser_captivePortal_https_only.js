@@ -87,8 +87,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -386,7 +384,6 @@ button
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter

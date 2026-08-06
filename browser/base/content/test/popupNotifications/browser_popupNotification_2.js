@@ -442,8 +442,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -533,8 +531,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -579,8 +575,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -639,8 +633,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -769,8 +761,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -879,8 +869,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -925,8 +913,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -1001,8 +987,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -1130,8 +1114,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -1222,8 +1204,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -1268,8 +1248,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no

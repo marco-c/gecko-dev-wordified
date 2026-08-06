@@ -55,8 +55,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -796,7 +794,7 @@ url
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

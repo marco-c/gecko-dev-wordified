@@ -15,8 +15,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -78,7 +76,7 @@ origin
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 "

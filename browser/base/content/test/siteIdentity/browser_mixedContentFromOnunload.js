@@ -107,8 +107,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -187,8 +185,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -350,7 +346,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -457,7 +453,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url
@@ -483,7 +479,7 @@ html
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 url

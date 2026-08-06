@@ -10,8 +10,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -53,8 +51,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -129,7 +125,7 @@ load
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 DUMMY_2

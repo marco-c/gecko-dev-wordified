@@ -48,8 +48,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -89,8 +87,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -145,7 +141,7 @@ browser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 testPath

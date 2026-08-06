@@ -167,8 +167,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -216,8 +214,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -265,8 +261,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -866,7 +860,7 @@ Ci
 .
 nsICookieService
 .
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 ]
 .
 includes
@@ -2309,7 +2303,7 @@ Ci
 .
 nsICookieService
 .
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 ]
 .
 includes

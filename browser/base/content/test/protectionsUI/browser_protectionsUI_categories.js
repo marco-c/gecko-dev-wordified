@@ -258,8 +258,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -726,7 +724,7 @@ Ci
 .
 nsICookieService
 .
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+BEHAVIOR_PARTITION_FOREIGN
 )
 ;
 await
@@ -1090,8 +1088,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no

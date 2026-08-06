@@ -77,8 +77,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -328,7 +326,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 {
@@ -357,7 +355,7 @@ selectedBrowser
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
 {

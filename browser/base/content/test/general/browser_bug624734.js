@@ -258,7 +258,7 @@ finishTest
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 tab
 .
@@ -272,8 +272,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no

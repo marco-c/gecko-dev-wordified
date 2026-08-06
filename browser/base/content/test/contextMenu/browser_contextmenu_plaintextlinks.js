@@ -69,8 +69,6 @@ prefix
 eslint
 -
 disable
-microsoft
-/
 sdl
 /
 no

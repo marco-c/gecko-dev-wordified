@@ -73,8 +73,6 @@ disable
 next
 -
 line
-microsoft
-/
 sdl
 /
 no
@@ -343,6 +341,12 @@ null
 .
 askChatMenu
 "
+-
+-
+-
+"
+null
+"
 spell
 -
 check
@@ -578,6 +582,12 @@ null
 .
 askChatMenu
 "
+-
+-
+-
+"
+null
+"
 spell
 -
 check
@@ -711,6 +721,12 @@ null
 .
 .
 askChatMenu
+"
+-
+-
+-
+"
+null
 "
 spell
 -
