@@ -1212,10 +1212,8 @@ void
 void
 "
 "
-libc
-:
-:
-c_void
+(
+)
 "
 "
 void
