@@ -2754,11 +2754,6 @@ nsIWebBrowserChrome
 :
 :
 CHROME_TITLEBAR
-|
-nsIWebBrowserChrome
-:
-:
-CHROME_STATUSBAR
 ;
 if
 (
