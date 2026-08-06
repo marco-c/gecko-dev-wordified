@@ -567,6 +567,7 @@ withSidebarTree
 "
 bookmarks
 "
+async
 function
 (
 )
@@ -580,6 +581,7 @@ by
 its
 title
 .
+await
 assertBookmarks
 (
 "
@@ -598,6 +600,7 @@ by
 its
 tag
 .
+await
 assertBookmarks
 (
 "
