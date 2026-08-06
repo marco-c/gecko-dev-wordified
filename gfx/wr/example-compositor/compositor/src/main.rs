@@ -2603,11 +2603,6 @@ txn
 set_display_list
 (
 current_epoch
-api
-.
-get_namespace_id
-(
-)
 root_builder
 .
 end
@@ -2815,11 +2810,6 @@ txn
 set_display_list
 (
 current_epoch
-api
-.
-get_namespace_id
-(
-)
 root_builder
 .
 end

@@ -1909,13 +1909,6 @@ set_display_list
 self
 .
 epoch
-self
-.
-api
-.
-get_namespace_id
-(
-)
 builder
 .
 end
