@@ -92,6 +92,15 @@ META
 :
 script
 =
+algorithm_registry
+.
+js
+/
+/
+META
+:
+script
+=
 successes
 .
 js

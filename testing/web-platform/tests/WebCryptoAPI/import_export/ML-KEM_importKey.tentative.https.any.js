@@ -52,9 +52,7 @@ META
 :
 script
 =
-ML
--
-KEM_importKey
+ml_importKey
 .
 js
 runTests
