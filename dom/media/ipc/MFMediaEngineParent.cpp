@@ -5517,6 +5517,19 @@ mIsFrameServerMode
 true
 ;
 }
+if
+(
+mContentProtectionManager
+)
+{
+mContentProtectionManager
+-
+>
+Shutdown
+(
+)
+;
+}
 HRESULT
 rv
 =
@@ -5527,6 +5540,7 @@ MFContentProtectionManager
 (
 &
 mContentProtectionManager
+mManagerThread
 )
 ;
 CDM_SETUP_IPC_RETURN_IF_FAILED
@@ -5872,7 +5886,6 @@ SendNotifyWaitingForKey
 ;
 }
 }
-mManagerThread
 )
 ;
 /
