@@ -481,7 +481,7 @@ util
 :
 {
 async_timer
-thread
+thread_guard
 :
 :
 MainThreadGuard
