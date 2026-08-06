@@ -708,16 +708,6 @@ mErroredLoadingImports
 true
 ;
 }
-bool
-IsErroredLoadingImports
-(
-)
-const
-{
-return
-mErroredLoadingImports
-;
-}
 void
 UpdateReferrerPolicy
 (
