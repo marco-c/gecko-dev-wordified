@@ -2103,7 +2103,7 @@ MS
 Format
 :
 :
-String
+UniqueString
 }
 {
 "
@@ -2170,7 +2170,7 @@ aLevel
 ;
 aWriter
 .
-StringProperty
+UniqueStringProperty
 (
 "
 message

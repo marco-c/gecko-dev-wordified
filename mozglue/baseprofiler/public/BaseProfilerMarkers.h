@@ -1202,7 +1202,7 @@ MS
 Format
 :
 :
-String
+UniqueString
 }
 }
 ;
@@ -1291,7 +1291,7 @@ aText
 {
 aWriter
 .
-StringProperty
+UniqueStringProperty
 (
 "
 name
@@ -1422,7 +1422,7 @@ MS
 Format
 :
 :
-String
+UniqueString
 }
 }
 ;
@@ -1518,7 +1518,7 @@ aText
 {
 aWriter
 .
-StringProperty
+UniqueStringProperty
 (
 "
 name
