@@ -12095,7 +12095,7 @@ rv
 )
 {
 return
-NS_ERROR_DOM_OPERATION_ERR
+rv
 ;
 }
 }
@@ -12146,7 +12146,7 @@ rv
 )
 {
 return
-NS_ERROR_DOM_OPERATION_ERR
+rv
 ;
 }
 }
