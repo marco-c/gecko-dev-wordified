@@ -193872,7 +193872,12 @@ toggle
 type
 :
 "
-default
+muted
+"
+size
+:
+"
+small
 "
 "
 aria
