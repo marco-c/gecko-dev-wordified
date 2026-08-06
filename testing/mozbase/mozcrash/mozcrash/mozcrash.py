@@ -3358,6 +3358,23 @@ or
 "
 main
 "
+                
+signature
+=
+(
+                    
+annotations
+.
+get
+(
+"
+CrashSignatureOverrideForTesting
+"
+)
+or
+signature
+                
+)
         
 if
 self
