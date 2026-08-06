@@ -5185,7 +5185,7 @@ files
 from
 doc
 /
-src
+rst
 /
 releases
 /
@@ -5195,7 +5195,7 @@ release_dir
 "
 doc
 /
-src
+rst
 /
 releases
 "
@@ -5234,13 +5234,13 @@ all
 nss_
 *
 .
-md
+rst
 files
 (
 excluding
 index
 .
-md
+rst
 )
     
 release_files
@@ -5278,7 +5278,7 @@ endswith
 (
 "
 .
-md
+rst
 "
 )
             
@@ -5289,7 +5289,7 @@ filename
 "
 index
 .
-md
+rst
 "
         
 )
@@ -5338,7 +5338,7 @@ filename
 like
 nss_3_116
 .
-md
+rst
         
 parts
 =
@@ -5357,7 +5357,7 @@ replace
 (
 "
 .
-md
+rst
 "
 "
 "
@@ -5437,12 +5437,8 @@ Create
 the
 index
 .
-md
+rst
 content
-(
-MyST
-Markdown
-)
     
 index_content
 =
@@ -5450,26 +5446,25 @@ f
 "
 "
 "
-(
-mozilla
--
-projects
--
-nss
--
-releases
-)
-=
-#
+.
+.
+_mozilla_projects_nss_releases
+:
 Release
 Notes
-{
-{
-eval
--
-rst
-}
-}
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
+=
 .
 .
 toctree
@@ -5491,14 +5486,12 @@ hidden
 {
 toctree_lines
 }
-:
-:
-:
-{
-{
+.
+.
 note
-}
-}
+:
+:
+   
 *
 *
 NSS
@@ -5514,6 +5507,7 @@ version
 of
 NSS
 .
+   
 Complete
 release
 notes
@@ -5521,16 +5515,15 @@ are
 available
 here
 :
-{
-{
+:
 ref
-}
-}
+:
 mozilla_projects_nss_nss_
 {
 latest_underscore
 }
 _release_notes
+   
 *
 *
 NSS
@@ -5550,6 +5543,7 @@ version
 of
 NSS
 .
+   
 Complete
 release
 notes
@@ -5557,19 +5551,14 @@ are
 available
 here
 :
-{
-{
+:
 ref
-}
-}
+:
 mozilla_projects_nss_nss_
 {
 esr_underscore
 }
 _release_notes
-:
-:
-:
 "
 "
 "
@@ -5586,7 +5575,7 @@ release_dir
 "
 index
 .
-md
+rst
 "
 )
     
@@ -5765,7 +5754,7 @@ f
 "
 doc
 /
-src
+rst
 /
 releases
 /
@@ -5774,7 +5763,7 @@ nss_
 version_underscore
 }
 .
-md
+rst
 "
     
 print_separator
@@ -6664,13 +6653,13 @@ manually
 edit
 doc
 /
-src
+rst
 /
 releases
 /
 index
 .
-md
+rst
 to
 adjust
 the

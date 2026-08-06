@@ -1765,12 +1765,6 @@ callExtensionWriterOnEchInner
 ;
 unsigned
 int
-enableEchXtnCompression
-:
-1
-;
-unsigned
-int
 enableGrease
 :
 1
