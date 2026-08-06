@@ -61,6 +61,8 @@ MPL
 eslint
 -
 disable
+microsoft
+/
 sdl
 /
 no
