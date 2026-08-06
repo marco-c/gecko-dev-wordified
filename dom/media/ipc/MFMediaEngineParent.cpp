@@ -4209,8 +4209,10 @@ isEncrypted
 mContentProtectionManager
 )
 {
-auto
-*
+RefPtr
+<
+MFCDMProxy
+>
 proxy
 =
 mContentProtectionManager
