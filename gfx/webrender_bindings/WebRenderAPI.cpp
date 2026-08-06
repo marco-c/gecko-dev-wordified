@@ -630,6 +630,11 @@ aEpoch
 wr
 :
 :
+IdNamespace
+aIdNamespace
+wr
+:
+:
 WrPipelineId
 pipeline_id
 wr
@@ -661,6 +666,7 @@ wr_transaction_set_display_list
 (
 mTxn
 aEpoch
+aIdNamespace
 pipeline_id
 dl_descriptor
 &
@@ -685,6 +691,11 @@ aEpoch
 wr
 :
 :
+IdNamespace
+aIdNamespace
+wr
+:
+:
 WrPipelineId
 aPipelineId
 )
@@ -693,6 +704,7 @@ wr_transaction_clear_display_list
 (
 mTxn
 aEpoch
+aIdNamespace
 aPipelineId
 )
 ;

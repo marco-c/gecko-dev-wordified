@@ -1142,6 +1142,7 @@ aTxn
 ClearDisplayList
 (
 epoch
+mIdNamespace
 aPipelineId
 )
 ;
@@ -3455,6 +3456,7 @@ aSceneBuilderTxn
 SetDisplayList
 (
 aEpoch
+mIdNamespace
 aPipelineId
 dl
 .
@@ -4113,6 +4115,7 @@ txn
 SetDisplayList
 (
 epoch
+mIdNamespace
 aPipelineId
 dl
 .

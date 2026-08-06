@@ -8510,6 +8510,10 @@ aTxn
 SetDisplayList
 (
 aWrEpoch
+mLateInit
+-
+>
+mIdNamespace
 pipelineId
 aDLDesc
 dlItems
@@ -14390,6 +14394,10 @@ ClearDisplayList
 GetNextWrEpoch
 (
 )
+mLateInit
+-
+>
+mIdNamespace
 mPipelineId
 )
 ;
@@ -19500,6 +19508,10 @@ txn
 ClearDisplayList
 (
 wrEpoch
+mLateInit
+-
+>
+mIdNamespace
 mPipelineId
 )
 ;

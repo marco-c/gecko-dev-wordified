@@ -14364,6 +14364,9 @@ Transaction
 epoch
 :
 WrEpoch
+namespace
+:
+WrIdNamespace
 pipeline_id
 :
 WrPipelineId
@@ -14420,6 +14423,7 @@ txn
 set_display_list
 (
 epoch
+namespace
 (
 pipeline_id
 dl
@@ -15945,6 +15949,9 @@ Transaction
 epoch
 :
 WrEpoch
+namespace
+:
+WrIdNamespace
 pipeline_id
 :
 WrPipelineId
@@ -15995,6 +16002,7 @@ txn
 set_display_list
 (
 epoch
+namespace
 frame_builder
 .
 dl_builder
