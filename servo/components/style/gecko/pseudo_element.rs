@@ -166,10 +166,7 @@ crate
 selector_parser
 :
 :
-{
 PseudoElementCascadeType
-SelectorImpl
-}
 ;
 use
 crate
@@ -2152,11 +2149,6 @@ PseudoElementTrait
 for
 PseudoElement
 {
-type
-Impl
-=
-SelectorImpl
-;
 /
 /
 :

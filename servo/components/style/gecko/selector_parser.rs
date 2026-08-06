@@ -2536,11 +2536,6 @@ NonTSPseudoClass
 for
 NonTSPseudoClass
 {
-type
-Impl
-=
-SelectorImpl
-;
 #
 [
 inline
