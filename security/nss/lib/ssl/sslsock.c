@@ -466,6 +466,10 @@ callExtensionWriterOnEchInner
 =
 PR_FALSE
 .
+enableEchXtnCompression
+=
+PR_TRUE
+.
 enableGrease
 =
 PR_FALSE
