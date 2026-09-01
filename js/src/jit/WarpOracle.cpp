@@ -4292,6 +4292,12 @@ case
 JSOp
 :
 :
+IsGenClosing
+:
+case
+JSOp
+:
+:
 IsNullOrUndefined
 :
 case
@@ -4617,6 +4623,12 @@ JSOp
 :
 :
 Yield
+:
+case
+JSOp
+:
+:
+Resume
 :
 case
 JSOp
