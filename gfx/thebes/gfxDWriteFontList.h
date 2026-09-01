@@ -1389,6 +1389,10 @@ gfx
 UnscaledFontDWrite
 >
 mUnscaledFont
+MOZ_GUARDED_BY
+(
+mLock
+)
 ;
 mozilla
 :
@@ -1404,6 +1408,10 @@ gfx
 UnscaledFontDWrite
 >
 mUnscaledFontBold
+MOZ_GUARDED_BY
+(
+mLock
+)
 ;
 }
 ;
