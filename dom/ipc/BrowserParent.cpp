@@ -1446,7 +1446,6 @@ MOZ_ASSERT
 (
 sBrowserParentCount
 <
-=
 INT32_MAX
 )
 ;
@@ -9002,7 +9001,9 @@ process
 NOTE
 :
 Keep
-this
+the
+AllowSystem
+condition
 in
 sync
 with
@@ -9140,7 +9141,7 @@ validationOptions
 ValidatePrincipalOptions
 :
 :
-AllowSystem
+AllowSystemIfLoaded
 ;
 }
 }
