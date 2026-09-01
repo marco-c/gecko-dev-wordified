@@ -357,16 +357,9 @@ StreamId
 aRhs
 )
 const
-{
-return
-mId
 =
-=
-aRhs
-.
-mId
+default
 ;
-}
 static
 constexpr
 StreamId
