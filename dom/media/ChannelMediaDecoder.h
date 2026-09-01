@@ -393,17 +393,6 @@ MediaDecoderInit
 aInit
 )
 ;
-void
-GetDebugInfo
-(
-dom
-:
-:
-MediaDecoderDebugInfo
-&
-aInfo
-)
-;
 public
 :
 /
