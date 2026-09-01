@@ -15878,6 +15878,11 @@ indices
 int
 stream_idx
 =
+std
+:
+:
+max
+(
 encoded_image
 .
 SpatialIndex
@@ -15886,6 +15891,8 @@ SpatialIndex
 .
 value_or
 (
+0
+)
 encoded_image
 .
 SimulcastIndex
