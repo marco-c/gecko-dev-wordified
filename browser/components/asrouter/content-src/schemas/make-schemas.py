@@ -565,7 +565,11 @@ InfoBar
 SCHEMA_DIR
 /
 "
-InfoBar
+CFR
+"
+/
+"
+templates
 "
 /
 "
