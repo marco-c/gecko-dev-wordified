@@ -148,13 +148,6 @@ MOZ_WIDGET_TOOLKIT
 "
 android
 "
-or
-CONFIG
-[
-"
-MOZ_LIBMEGAZORD_ARTIFACTS
-"
-]
 :
 RustLibrary
 (
