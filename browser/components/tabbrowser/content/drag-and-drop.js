@@ -16691,7 +16691,7 @@ moveOverThreshold
 =
 gBrowser
 .
-_tabGroupsEnabled
+tabGroupsEnabled
 ?
 Services
 .
@@ -17099,7 +17099,7 @@ if
 (
 gBrowser
 .
-_tabGroupsEnabled
+tabGroupsEnabled
 &
 &
 (
