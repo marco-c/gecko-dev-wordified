@@ -879,9 +879,7 @@ src
 /
 templates
 /
-CFR
-/
-templates
+InfoBar
 /
 InfoBar
 .

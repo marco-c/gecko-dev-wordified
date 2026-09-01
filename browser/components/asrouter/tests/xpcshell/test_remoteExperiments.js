@@ -29,7 +29,7 @@ zero
 /
 const
 {
-CFRMessageProvider
+PanelTestProvider
 }
 =
 ChromeUtils
@@ -46,7 +46,7 @@ modules
 /
 asrouter
 /
-CFRMessageProvider
+PanelTestProvider
 .
 sys
 .
@@ -99,7 +99,7 @@ let
 messages
 =
 await
-CFRMessageProvider
+PanelTestProvider
 .
 getMessages
 (
@@ -183,7 +183,7 @@ INVALID_MESSAGE
 template
 :
 "
-cfr_doorhanger
+infobar
 "
 }
 )
