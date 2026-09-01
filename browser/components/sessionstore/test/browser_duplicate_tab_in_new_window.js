@@ -7,12 +7,16 @@ this
 SessionStore
 :
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
 /
 sessionstore
 /
@@ -54,7 +58,7 @@ aBrowser
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 aBrowser
 "
