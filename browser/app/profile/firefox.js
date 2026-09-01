@@ -27791,7 +27791,7 @@ autoTabGrouping
 .
 enabled
 "
-false
+true
 )
 ;
 pref
