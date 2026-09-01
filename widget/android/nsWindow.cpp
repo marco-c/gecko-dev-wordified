@@ -12409,7 +12409,6 @@ dialog
 0
 remote
 resizable
-scrollbars
 "
 )
 ;

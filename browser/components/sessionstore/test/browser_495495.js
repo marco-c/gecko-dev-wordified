@@ -131,7 +131,6 @@ chrome
 extrachrome
 menubar
 resizable
-scrollbars
 status
 toolbar
 =

@@ -1229,13 +1229,6 @@ nsIAppWindow
 aBehind
 )
 ;
-void
-SetContentScrollbarVisibility
-(
-bool
-aVisible
-)
-;
 enum
 PersistentAttributeUpdate
 {
