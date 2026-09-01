@@ -241,15 +241,6 @@ aMallocSizeOf
 )
 const
 ;
-bool
-Equals
-(
-PageInformation
-*
-aOtherPageInfo
-)
-const
-;
 void
 StreamJSON
 (
