@@ -219,8 +219,8 @@ position
 :
 {
 AnchorName
-AnchorScope
 DashedIdentAndOrTryTactic
+FlexWrap
 GridAutoFlow
 GridTemplateAreas
 MasonryAutoFlow
@@ -234,6 +234,7 @@ PositionTryFallbacksTryTactic
 PositionTryFallbacksTryTacticKeyword
 PositionTryOrder
 PositionVisibility
+ScopedName
 }
 ;
 use

@@ -233,7 +233,7 @@ font_family
 font_size
 font_style
                            
-font_stretch
+font_width
 font_weight
 "
 "
@@ -488,7 +488,7 @@ weight
 "
 font
 -
-stretch
+width
 "
         
 "
@@ -1105,7 +1105,7 @@ appearance
 "
 font
 -
-stretch
+width
 "
 :
 [
@@ -1233,7 +1233,7 @@ weight
 "
 font
 -
-stretch
+width
 "
         
 "
@@ -4104,6 +4104,39 @@ engine
 :
         
 if
+"
+ALLOWS_DISABLED_SUBPROPERTIES
+"
+in
+shorthand
+.
+flags
+:
+            
+assert
+"
+IS_LEGACY_SHORTHAND
+"
+in
+shorthand
+.
+flags
+            
+assert
+len
+(
+shorthand
+.
+sub_properties
+)
+=
+=
+1
+            
+return
+False
+        
+if
 engine
 =
 =
@@ -4630,6 +4663,10 @@ DominantBaseline
                 
 "
 FillRule
+"
+                
+"
+FlexWrap
 "
                 
 "
@@ -5794,6 +5831,10 @@ None
 ignore_malloc_size_of
 =
 None
+aliases
+=
+[
+]
 )
 :
         
@@ -5802,6 +5843,12 @@ self
 name
 =
 name
+        
+self
+.
+aliases
+=
+aliases
         
 self
 .
