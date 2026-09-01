@@ -2050,6 +2050,16 @@ mSecurityInfo
 aSecurityInfo
 ;
 }
+void
+RefreshSecurityInfoAfter0RTTAdopt
+(
+)
+{
+MaybeRefreshSecurityInfo
+(
+)
+;
+}
 private
 :
 friend
