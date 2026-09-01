@@ -115,7 +115,7 @@ include
 "
 mozilla
 /
-RWLock
+Mutex
 .
 h
 "
@@ -2063,10 +2063,7 @@ mDBLock
 first
 .
 mutable
-mozilla
-:
-:
-RWLock
+Mutex
 mDBLock
 {
 "
