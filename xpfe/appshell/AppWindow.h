@@ -1888,9 +1888,6 @@ bool
 mIgnoreXULPosition
 ;
 bool
-mChromeFlagsFrozen
-;
-bool
 mIgnoreXULSizeMode
 ;
 /
