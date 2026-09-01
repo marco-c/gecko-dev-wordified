@@ -572,6 +572,15 @@ type
 !
 =
 FFI_TYPE_COMPLEX
+&
+&
+a
+-
+>
+type
+!
+=
+FFI_TYPE_VECTOR
 )
 |
 |

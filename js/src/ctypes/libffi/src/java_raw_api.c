@@ -564,10 +564,15 @@ break
 case
 FFI_TYPE_STRUCT
 :
+case
+FFI_TYPE_VECTOR
+:
 /
 *
 No
 structure
+or
+vector
 parameters
 in
 Java
