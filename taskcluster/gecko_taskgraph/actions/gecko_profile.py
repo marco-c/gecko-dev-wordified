@@ -671,7 +671,7 @@ type
 "
 :
 "
-integer
+number
 "
                 
 "
