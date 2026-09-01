@@ -1057,6 +1057,7 @@ loading
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DoneWalking
 (
@@ -1246,6 +1247,7 @@ XMLStylesheetProcessingInstruction
 aPINode
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 CloseElement
 (

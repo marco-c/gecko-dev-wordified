@@ -2379,6 +2379,7 @@ bool
 aRunInGlobalScope
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -2400,6 +2401,7 @@ StructuredCloneData
 aData
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -3030,6 +3032,7 @@ MaybeDiscardedBrowsingContext
 &
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :

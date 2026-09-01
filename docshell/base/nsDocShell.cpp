@@ -42325,6 +42325,15 @@ SetTransient
 )
 ;
 }
+const
+nsCOMPtr
+<
+nsIURI
+>
+uri
+=
+mCurrentURI
+;
 rv
 =
 Embed
@@ -42333,7 +42342,7 @@ viewer
 aActor
 true
 nullptr
-mCurrentURI
+uri
 )
 ;
 NS_ENSURE_SUCCESS
@@ -45940,7 +45949,10 @@ mTiming
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 mDocumentViewer
+)
 -
 >
 Init
@@ -64601,6 +64613,7 @@ doc
 ]
 (
 )
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 doc
 -

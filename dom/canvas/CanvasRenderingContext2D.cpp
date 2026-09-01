@@ -8834,6 +8834,9 @@ RefPtr
 this
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 /
 /
@@ -9025,6 +9028,9 @@ RefPtr
 this
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 /
 /

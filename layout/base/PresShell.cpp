@@ -30290,6 +30290,15 @@ isSafeToFlush
 return
 ;
 }
+const
+RefPtr
+<
+Document
+>
+doc
+=
+mDocument
+;
 /
 /
 We
@@ -30376,7 +30385,7 @@ Document
 :
 FlushPendingNotifications
 .
-mDocument
+doc
 -
 >
 FlushExternalResources
@@ -30433,7 +30442,7 @@ be
 /
 notified
 on
-mDocument
+doc
 -
 >
 FlushPendingNotifications
@@ -30444,7 +30453,7 @@ FlushType
 ContentAndNotify
 )
 ;
-mDocument
+doc
 -
 >
 UpdateSVGUseElementShadowTrees
@@ -30579,7 +30588,7 @@ a
 reflow
 )
 .
-mDocument
+doc
 -
 >
 FlushUserFontSet
@@ -30617,7 +30626,7 @@ samples
 .
 if
 (
-mDocument
+doc
 -
 >
 HasAnimationController
@@ -30625,7 +30634,7 @@ HasAnimationController
 )
 )
 {
-mDocument
+doc
 -
 >
 GetAnimationController
@@ -30700,7 +30709,7 @@ auto
 *
 window
 =
-mDocument
+doc
 -
 >
 GetInnerWindow

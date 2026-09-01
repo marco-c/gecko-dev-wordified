@@ -251,6 +251,7 @@ nsIOpenWindowInfo
 aInfo
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SwapFrameLoaders
 (
@@ -271,6 +272,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SwapFrameLoaders
 (
@@ -285,6 +287,7 @@ ErrorResult
 rv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SwapFrameLoaders
 (

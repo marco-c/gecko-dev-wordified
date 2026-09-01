@@ -678,6 +678,7 @@ friend
 class
 AutoRestoreSVGState
 ;
+MOZ_CAN_RUN_SCRIPT
 ~
 SVGDocumentWrapper
 (
@@ -699,6 +700,7 @@ nsILoadGroup
 aLoadGroup
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DestroyViewer
 (

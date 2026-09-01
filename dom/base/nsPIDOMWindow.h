@@ -2371,6 +2371,7 @@ window
 was
 frozen
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 FireDelayedDOMEvents
@@ -3510,6 +3511,7 @@ aCallerType
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Close
@@ -5308,6 +5310,7 @@ window
 was
 frozen
 .
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 FireDelayedDOMEvents
@@ -5461,6 +5464,7 @@ null
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetNewDocument
@@ -5676,6 +5680,7 @@ CanClose
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 ForceClose
@@ -5708,6 +5713,7 @@ fullscreen
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetFullscreenInternal
@@ -5720,6 +5726,7 @@ aIsFullscreen
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 FullscreenWillChange
@@ -5792,6 +5799,7 @@ fullscreen
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 FinishFullscreenChange
@@ -6280,6 +6288,7 @@ only
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 bool
 DispatchCustomEvent
@@ -6703,6 +6712,7 @@ GetFullScreen
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetFullScreen
@@ -6729,6 +6739,7 @@ aCallerType
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 Close

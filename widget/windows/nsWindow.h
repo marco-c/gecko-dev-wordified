@@ -1936,6 +1936,7 @@ DispatchPendingEvents
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchCustomEvent
 (
@@ -3041,6 +3042,7 @@ LPARAM
 lParam
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 LRESULT
 CALLBACK
@@ -3325,6 +3327,7 @@ LPARAM
 lParam
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ProcessMessage
 (
@@ -3355,6 +3358,7 @@ log
 the
 return
 value
+MOZ_CAN_RUN_SCRIPT
 bool
 ProcessMessageInternal
 (

@@ -497,6 +497,7 @@ the
 referenced
 element
 .
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateShadowTree
 (
@@ -940,6 +941,7 @@ nsAtom
 aName
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 LookupHref
 (

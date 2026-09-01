@@ -535,6 +535,7 @@ ModuleLoadRequest
 aRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ExecuteInlineModule
 (

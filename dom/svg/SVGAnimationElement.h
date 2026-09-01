@@ -222,6 +222,7 @@ override
 /
 nsIContent
 specializations
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 BindToTree
 (
@@ -266,6 +267,7 @@ aResult
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 AfterSetAttr
 (
@@ -660,6 +662,7 @@ protected
 /
 SVGElement
 overrides
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateHrefTarget
 (

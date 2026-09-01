@@ -457,6 +457,7 @@ NS_DECL_NSINAMED
 /
 /
 nsICSSLoaderObserver
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 StyleSheetLoaded
 (
@@ -507,6 +508,7 @@ WillBuildModelImpl
 void
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DidBuildModelImpl
 (
@@ -607,6 +609,7 @@ channel
 to
 connect
 back
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ProcessLinkFromHeader
 (
@@ -666,6 +669,7 @@ priority
 attribute
 >
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 nsresult
 ProcessStyleLinkFromHeader

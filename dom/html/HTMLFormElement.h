@@ -2100,6 +2100,7 @@ Reset
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 CheckValidity
 (
@@ -2623,6 +2624,7 @@ valid
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 CheckFormValidity
 (

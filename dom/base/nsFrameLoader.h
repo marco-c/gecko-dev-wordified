@@ -911,6 +911,7 @@ the
 source
 nsFrameLoader
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 FinishStaticClone
 (
@@ -1698,6 +1699,7 @@ to
 be
 swapped
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SwapWithOtherLoader
 (

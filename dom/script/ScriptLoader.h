@@ -1325,6 +1325,7 @@ script
 element
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 ProcessScriptElement
 (
@@ -2185,6 +2186,7 @@ argument
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OnStreamComplete
 (
@@ -2265,6 +2267,7 @@ processing
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 ProcessPendingRequests
 (
@@ -2338,6 +2341,7 @@ nothing
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 ParsingComplete
 (
@@ -2434,6 +2438,7 @@ you
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DeferCheckpointReached
 (
@@ -2655,6 +2660,7 @@ thread
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ProcessOffThreadRequest
 (
@@ -2904,6 +2910,7 @@ override
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ~
 ScriptLoader
 (
@@ -3114,6 +3121,7 @@ scripts
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 ContinueParserAsync
 (
@@ -3122,6 +3130,7 @@ ScriptLoadRequest
 aParserBlockingRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ProcessExternalScript
 (
@@ -3141,6 +3150,7 @@ nsIContent
 aScriptContent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ProcessInlineScript
 (
@@ -3456,6 +3466,7 @@ nsAutoString
 aCharsetForPreload
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 OnDelayedReady
 (
@@ -3736,6 +3747,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleLoadError
 (
@@ -3746,6 +3758,7 @@ nsresult
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 HandleLoadErrorAndProcessPendingRequests
 (
@@ -4089,6 +4102,7 @@ CompileOrDecodeTask
 aCompileOrDecodeTask
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ProcessRequest
 (
@@ -4097,6 +4111,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 CompileOffThreadOrProcessRequest
 (
@@ -4105,6 +4120,7 @@ ScriptLoadRequest
 aRequest
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FireScriptAvailable
 (

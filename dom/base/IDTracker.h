@@ -543,6 +543,7 @@ mechanism
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 ResetToURIWithFragmentID
 (
@@ -685,6 +686,7 @@ above
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 ResetToLocalFragmentID
 (
@@ -844,6 +846,7 @@ doc
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 ResetToExternalResource
 (

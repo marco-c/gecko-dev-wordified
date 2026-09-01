@@ -286,6 +286,7 @@ override
 nsIContent
 specializations
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 BindToTree
 (

@@ -1461,6 +1461,7 @@ aTarget
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 DispatchEvent
 (

@@ -2115,6 +2115,7 @@ do
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 Document
 *
 RequestResource
@@ -2831,6 +2832,7 @@ any
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 AddExternalResource
 (
@@ -10994,6 +10996,47 @@ get
 )
 ;
 }
+/
+/
+This
+calls
+UpdateVisibilityState
+with
+DispatchVisibilityChange
+:
+:
+No
+.
+Then
+/
+/
+UpdateVisibilityState
+does
+not
+run
+script
+.
+Additionally
+this
+needs
+to
+be
+/
+/
+called
+by
+Unlink
+(
+)
+.
+Therefore
+we
+mark
+this
+as
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
+.
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 void
 SetScriptGlobalObject
@@ -11967,6 +12010,7 @@ documents
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 RequestFullscreen
 (
@@ -11995,6 +12039,7 @@ bool
 aApplyFullscreenDirectly
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 RequestFullscreenInParentProcess
 (
@@ -12501,6 +12546,7 @@ document
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 RemoteFrameFullscreenChanged
 (
@@ -12611,6 +12657,7 @@ boundaries
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 RemoteFrameFullscreenReverted
 (
@@ -12655,6 +12702,7 @@ mode
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 RestorePreviousFullscreenState
 (
@@ -13807,6 +13855,7 @@ element
 shadow
 trees
 .
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateSVGUseElementShadowTrees
 (
@@ -15785,6 +15834,7 @@ close
 on
 -
 destroy
+MOZ_CAN_RUN_SCRIPT
 void
 CloseAnyAssociatedDocumentPiPWindows
 (
@@ -16201,6 +16251,7 @@ altered
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 OnPageShow
@@ -16360,6 +16411,7 @@ altered
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 OnPageHide
 (
@@ -17575,6 +17627,7 @@ if
 any
 *
 /
+MOZ_CAN_RUN_SCRIPT
 Document
 *
 RequestExternalResource
@@ -19524,6 +19577,7 @@ descriptive
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Document
@@ -21479,6 +21533,7 @@ No
 Yes
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 UpdateVisibilityState
 (
@@ -23665,6 +23720,7 @@ GetUnretargetedFullscreenElement
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -28877,6 +28933,7 @@ GetWindowContextForPageUseCounters
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoUpdateSVGUseElementShadowTrees
 (

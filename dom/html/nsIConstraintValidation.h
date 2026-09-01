@@ -392,6 +392,7 @@ valid
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 CheckValidity
 (
@@ -436,6 +437,7 @@ Validity
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 ReportValidity
 (

@@ -479,6 +479,7 @@ destroy
 the
 nsWindow
 .
+MOZ_CAN_RUN_SCRIPT
 void
 Close
 (

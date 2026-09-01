@@ -285,6 +285,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsGenericHTMLFrameElement
 nsGenericHTMLElement
 )
+MOZ_CAN_RUN_SCRIPT
 void
 SwapFrameLoaders
 (
@@ -305,6 +306,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SwapFrameLoaders
 (
@@ -325,6 +327,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SwapFrameLoaders
 (

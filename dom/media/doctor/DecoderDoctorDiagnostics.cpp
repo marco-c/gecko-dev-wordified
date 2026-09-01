@@ -2888,6 +2888,9 @@ RefPtr
 aDocument
 }
 ]
+(
+)
+MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
 (
 void
