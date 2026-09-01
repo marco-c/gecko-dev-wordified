@@ -1359,7 +1359,6 @@ gBrowser
 .
 removeAllDuplicateTabs
 (
-initialTab
 )
 )
 ;
