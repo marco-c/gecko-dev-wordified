@@ -5894,6 +5894,13 @@ null
 "
 )
 ;
+mGraphemeClusterFallbackToKeyEvent
+.
+SetIsVoid
+(
+true
+)
+;
 if
 (
 mPendingKeyEvents
@@ -7979,13 +7986,6 @@ s
 state
 .
 }
-mGraphemeClusterFallbackToKeyEvent
-.
-SetIsVoid
-(
-true
-)
-;
 mHandlingKeyEvent
 =
 aEvent
