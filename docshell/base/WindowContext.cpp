@@ -475,10 +475,11 @@ XRE_IsParentProcess
 )
 ;
 return
+static_cast
+<
 WindowGlobalParent
-:
-:
-Cast
+*
+>
 (
 this
 )
