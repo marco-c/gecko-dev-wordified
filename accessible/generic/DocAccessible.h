@@ -847,6 +847,11 @@ aDirty
 mViewportCacheDirty
 =
 aDirty
+&
+&
+IPCDoc
+(
+)
 ;
 }
 /
