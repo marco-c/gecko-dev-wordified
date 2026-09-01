@@ -1232,7 +1232,6 @@ property
 (
 nonatomic
 readonly
-copy
 )
 RTC_OBJC_TYPE
 (

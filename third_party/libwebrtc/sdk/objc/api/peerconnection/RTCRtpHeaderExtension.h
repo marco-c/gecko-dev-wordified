@@ -134,7 +134,6 @@ property
 (
 nonatomic
 readonly
-copy
 )
 NSString
 *
