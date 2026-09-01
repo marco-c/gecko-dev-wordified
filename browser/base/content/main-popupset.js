@@ -3867,11 +3867,6 @@ event
 isContextMenu
 :
 true
-containerSource
-:
-"
-synced_tabs_context_menu
-"
 }
 )
 ;
