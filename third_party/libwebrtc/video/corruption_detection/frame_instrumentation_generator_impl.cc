@@ -802,7 +802,13 @@ captured_frames_
 .
 push
 (
+std
+:
+:
+move
+(
 frame
+)
 )
 ;
 }

@@ -1962,10 +1962,12 @@ pacing_factor
 int
 GetEncoderPriorityBitrate
 (
+const
 std
 :
 :
 string
+&
 codec_name
 const
 FieldTrialsView
