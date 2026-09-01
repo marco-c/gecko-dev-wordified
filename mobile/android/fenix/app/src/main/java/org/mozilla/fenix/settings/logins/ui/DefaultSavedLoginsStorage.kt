@@ -81,7 +81,6 @@ Settings
 /
 *
 *
-*
 An
 interface
 to
@@ -100,7 +99,6 @@ interface
 SavedLoginsStorage
 {
 /
-*
 *
 *
 Indicates

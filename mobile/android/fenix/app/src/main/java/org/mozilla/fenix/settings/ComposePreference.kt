@@ -137,7 +137,6 @@ FirefoxTheme
 /
 *
 *
-*
 Base
 class
 for
@@ -246,7 +245,6 @@ Content
 }
 }
 /
-*
 *
 *
 Compose

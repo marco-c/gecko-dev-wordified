@@ -261,7 +261,6 @@ FirefoxTheme
 /
 *
 *
-*
 A
 fragment
 displaying

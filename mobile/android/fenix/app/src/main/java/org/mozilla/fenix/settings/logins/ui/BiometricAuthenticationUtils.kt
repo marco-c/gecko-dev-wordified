@@ -253,7 +253,6 @@ BiometricPromptFeature
 /
 *
 *
-*
 Allows
 handling
 of
@@ -324,6 +323,7 @@ a
 composable
 context
 .
+*
 *
 param
 title
@@ -402,6 +402,7 @@ lock
 screen
 .
 *
+*
 param
 activity
 The
@@ -437,6 +438,7 @@ a
 composable
 context
 .
+*
 *
 param
 title
@@ -504,6 +506,7 @@ secure
 lock
 .
 *
+*
 param
 activity
 The
@@ -546,7 +549,6 @@ Unit
 )
 }
 /
-*
 *
 *
 Default
@@ -782,6 +784,7 @@ pin
 verification
 dialog
 .
+*
 *
 param
 title

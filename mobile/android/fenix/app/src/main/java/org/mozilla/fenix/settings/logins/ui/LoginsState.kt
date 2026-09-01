@@ -500,7 +500,6 @@ LoginItem
 /
 *
 *
-*
 Represents
 the
 order
@@ -530,7 +529,6 @@ Comparator
 LoginItem
 >
 /
-*
 *
 *
 Represents
@@ -586,7 +584,6 @@ url
 }
 }
 /
-*
 *
 *
 Represents
@@ -650,7 +647,6 @@ timeLastUsed
 /
 *
 *
-*
 Represents
 the
 [
@@ -673,7 +669,6 @@ get
 =
 Alphabetical
 /
-*
 *
 *
 Converts
