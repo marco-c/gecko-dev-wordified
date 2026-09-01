@@ -1615,13 +1615,11 @@ chrome
 /
 browser
 /
-content
+skin
 /
-firefoxview
-/
-view
+open
 -
-opentabs
+tabs
 .
 svg
 "
