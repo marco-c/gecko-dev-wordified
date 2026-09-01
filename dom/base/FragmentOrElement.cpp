@@ -4723,9 +4723,10 @@ FatSlots
 (
 )
 ;
-mSlots
-=
+SetSlots
+(
 fatSlots
+)
 ;
 return
 fatSlots
