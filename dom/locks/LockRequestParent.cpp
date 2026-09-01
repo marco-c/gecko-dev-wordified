@@ -112,10 +112,15 @@ LockManagerParent
 >
 manager
 =
-static_cast
+mozilla
+:
+:
+ipc
+:
+:
+ActorCast
 <
 LockManagerParent
-*
 >
 (
 Manager

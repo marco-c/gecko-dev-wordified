@@ -141,10 +141,15 @@ WindowGlobalParent
 *
 manager
 =
-static_cast
+mozilla
+:
+:
+ipc
+:
+:
+ActorCast
 <
 WindowGlobalParent
-*
 >
 (
 Manager

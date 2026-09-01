@@ -2444,10 +2444,15 @@ MakeRefPtr
 SerialPermissionRequest
 >
 (
-static_cast
+mozilla
+:
+:
+ipc
+:
+:
+ActorCast
 <
 WindowGlobalParent
-*
 >
 (
 Manager
