@@ -47,11 +47,9 @@ assert
 .
 js
 .
-defines
+allow_unused
 :
-[
-compareArray
-]
+true
 -
 -
 -
