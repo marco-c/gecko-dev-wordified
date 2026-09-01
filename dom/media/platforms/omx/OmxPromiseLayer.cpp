@@ -190,6 +190,16 @@ mPlatformLayer
 )
 ;
 }
+OmxPromiseLayer
+:
+:
+~
+OmxPromiseLayer
+(
+)
+=
+default
+;
 RefPtr
 <
 OmxPromiseLayer
