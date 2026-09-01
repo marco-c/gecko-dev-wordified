@@ -227,6 +227,9 @@ absolute
 )
 ;
 }
+{
+msg
+:
 "
 The
 sidebar
@@ -234,6 +237,7 @@ launcher
 is
 expanded
 "
+}
 )
 ;
 info
@@ -384,6 +388,9 @@ relative
 )
 ;
 }
+{
+msg
+:
 "
 The
 sidebar
@@ -391,6 +398,7 @@ launcher
 is
 collapsed
 "
+}
 )
 ;
 info
@@ -525,6 +533,9 @@ querySelector
 input
 "
 )
+{
+msg
+:
 "
 Sidebar
 panel
@@ -535,6 +546,7 @@ input
 is
 displayed
 "
+}
 )
 ;
 info
@@ -743,6 +755,9 @@ panel
 expandOnHoverInput
 .
 checked
+{
+msg
+:
 "
 Expand
 on
@@ -751,6 +766,7 @@ has
 been
 enabled
 "
+}
 )
 ;
 info
@@ -851,6 +867,9 @@ sidebar
 positionend
 "
 )
+{
+msg
+:
 "
 The
 sidebar
@@ -860,6 +879,7 @@ on
 the
 right
 "
+}
 )
 ;
 await
@@ -919,6 +939,9 @@ sidebar
 positionend
 "
 )
+{
+msg
+:
 "
 The
 sidebar
@@ -928,6 +951,7 @@ on
 the
 left
 "
+}
 )
 ;
 await
@@ -1016,6 +1040,9 @@ panel
 expandOnHoverInput
 .
 checked
+{
+msg
+:
 "
 Expand
 on
@@ -1024,6 +1051,7 @@ has
 been
 disabled
 "
+}
 )
 ;
 }
@@ -1086,12 +1114,16 @@ SidebarController
 _state
 .
 launcherExpanded
+{
+msg
+:
 "
 The
 launcher
 is
 expanded
 "
+}
 )
 ;
 const
@@ -1417,12 +1449,16 @@ hasAttribute
 expanded
 "
 )
+{
+msg
+:
 "
 The
 launcher
 is
 expanded
 "
+}
 )
 ;
 let

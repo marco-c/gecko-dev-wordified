@@ -749,6 +749,9 @@ muted
 audioTab2
 .
 muted
+{
+msg
+:
 "
 Both
 tabs
@@ -756,6 +759,7 @@ should
 be
 muted
 "
+}
 )
 ;
 info

@@ -1944,6 +1944,9 @@ visibility
 hidden
 "
 )
+{
+msg
+:
 "
 At
 least
@@ -1959,6 +1962,7 @@ vertical
 tabs
 .
 "
+}
 )
 ;
 info
@@ -2054,6 +2058,9 @@ visibility
 hidden
 "
 )
+{
+msg
+:
 "
 No
 tool
@@ -2067,6 +2074,7 @@ horizontal
 tabs
 .
 "
+}
 )
 ;
 for

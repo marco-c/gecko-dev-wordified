@@ -3510,6 +3510,9 @@ getAttribute
 selectedGuid
 "
 )
+{
+msg
+:
 "
 Should
 select
@@ -3518,6 +3521,7 @@ menu
 folder
 item
 "
+}
 )
 ;
 }

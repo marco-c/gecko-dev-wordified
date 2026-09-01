@@ -1219,7 +1219,6 @@ promiseDocumentFlushed
 }
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1347,6 +1346,9 @@ true
 row
 .
 secondaryButtonEl
+{
+msg
+:
 Dismiss
 button
 should
@@ -1357,6 +1359,7 @@ tab
 j
 +
 1
+}
 }
 )
 ;
@@ -1467,6 +1470,9 @@ none
 )
 ;
 }
+{
+msg
+:
 Undo
 button
 is
@@ -1480,6 +1486,7 @@ j
 1
 }
 .
+}
 )
 ;
 /
@@ -1577,6 +1584,9 @@ button
 )
 ;
 }
+{
+msg
+:
 Dismiss
 button
 is
@@ -1590,6 +1600,7 @@ j
 1
 }
 .
+}
 )
 ;
 }
@@ -3851,7 +3862,6 @@ false
 }
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -3943,7 +3953,6 @@ false
 }
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -4032,7 +4041,6 @@ false
 }
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter

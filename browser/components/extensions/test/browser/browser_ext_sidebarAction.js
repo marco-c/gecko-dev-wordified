@@ -867,6 +867,9 @@ SidebarController
 sidebarMain
 .
 hidden
+{
+msg
+:
 Sidebar
 launcher
 element
@@ -875,6 +878,7 @@ be
 un
 -
 hidden
+}
 )
 ;
 }
