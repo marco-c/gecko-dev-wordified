@@ -124115,10 +124115,13 @@ nsIAsyncShutdownService
 >
 svc
 =
-services
+components
 :
 :
-GetAsyncShutdownService
+AsyncShutdown
+:
+:
+Service
 (
 )
 ;

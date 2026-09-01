@@ -419,7 +419,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -1098,10 +1098,13 @@ nsIAsyncShutdownService
 >
 svc
 =
-services
+components
 :
 :
-GetAsyncShutdownService
+AsyncShutdown
+:
+:
+Service
 (
 )
 ;
