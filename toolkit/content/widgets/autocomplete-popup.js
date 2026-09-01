@@ -100,11 +100,14 @@ lazy
 AutoCompleteParent
 :
 "
-resource
+moz
+-
+src
 :
 /
 /
-gre
+/
+toolkit
 /
 actors
 /
