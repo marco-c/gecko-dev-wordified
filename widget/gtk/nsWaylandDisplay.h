@@ -1420,6 +1420,11 @@ IsSetMDCVSupported
 (
 )
 ;
+bool
+IsSetLuminancesSupported
+(
+)
+;
 ~
 nsWaylandDisplay
 (
