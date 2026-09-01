@@ -3192,7 +3192,6 @@ i16x8_t
 typename
 u8x16_t
 >
-static
 already_AddRefed
 <
 DataSourceSurface
@@ -3292,7 +3291,6 @@ Operator
 typename
 u8x16_t
 >
-static
 u8x16_t
 Morph8
 (
@@ -3989,7 +3987,6 @@ i16x8_t
 typename
 u8x16_t
 >
-static
 void
 ApplyMorphologyVertical_SIMD
 (
@@ -6921,7 +6918,6 @@ template
 typename
 u8x16_t
 >
-static
 void
 SeparateColorChannels_SIMD
 (
@@ -7431,7 +7427,6 @@ template
 typename
 u8x16_t
 >
-static
 void
 CombineColorChannels_SIMD
 (
@@ -7813,7 +7808,6 @@ u16x8_t
 typename
 u8x16_t
 >
-static
 void
 DoOpacityCalculation_SIMD
 (

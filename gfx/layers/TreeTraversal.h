@@ -548,7 +548,6 @@ PreAction
 typename
 PostAction
 >
-static
 auto
 ForEachNode
 (
@@ -768,7 +767,6 @@ PreAction
 typename
 PostAction
 >
-static
 auto
 ForEachNode
 (
