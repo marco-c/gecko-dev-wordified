@@ -16474,7 +16474,7 @@ schemaVersion
 =
 kLatestSchemaVersion
 )
-NS_ERROR_FAILURE
+NS_ERROR_FILE_CORRUPTED
 )
 ;
 #
@@ -17710,7 +17710,7 @@ it
 MOZ_ASSERT
 (
 currentVersion
-=
+>
 =
 kLatestSchemaVersion
 )
