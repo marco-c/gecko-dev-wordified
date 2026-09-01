@@ -5997,7 +5997,7 @@ loadURL
 =
 (
 {
-url
+loadRequest
 }
 )
 =
@@ -6013,7 +6013,15 @@ content
 .
 _stubLoadedURL
 =
+loadRequest
+.
+urlLoad
+?
+.
 url
+?
+?
+null
 ;
 return
 {

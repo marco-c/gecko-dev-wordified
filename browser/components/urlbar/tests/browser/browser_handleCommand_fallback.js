@@ -361,7 +361,7 @@ callsFake
 (
 (
 {
-url
+loadRequest
 where
 }
 )
@@ -401,7 +401,7 @@ them
 resolve
 (
 [
-url
+loadRequest
 where
 ]
 )
@@ -852,7 +852,7 @@ callsFake
 (
 (
 {
-url
+loadRequest
 where
 }
 )
@@ -896,7 +896,7 @@ them
 resolve
 (
 [
-url
+loadRequest
 where
 ]
 )
@@ -1025,11 +1025,11 @@ KEY_Enter
 /
 /
 The
-loaded
-url
-should
+fallback
 always
-be
+fixes
+up
+to
 a
 valid
 url
@@ -1072,6 +1072,10 @@ promise
 [
 0
 ]
+.
+urlLoad
+.
+url
 )
 ;
 Assert

@@ -1491,9 +1491,17 @@ sinon
 match
 (
 {
+loadRequest
+:
+{
+urlLoad
+:
+{
 url
 :
 PASTE_URL
+}
+}
 }
 )
 )

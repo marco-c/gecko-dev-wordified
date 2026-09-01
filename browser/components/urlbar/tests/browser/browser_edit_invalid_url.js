@@ -690,6 +690,10 @@ resolve
 (
 options
 .
+loadRequest
+.
+urlLoad
+.
 url
 )
 ;
