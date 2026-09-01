@@ -2001,13 +2001,7 @@ mUserFontEntry
 FontDataDownloadComplete
 (
 mSrcIndex
-std
-:
-:
-move
-(
 aString
-)
 aStringLen
 aStatus
 this

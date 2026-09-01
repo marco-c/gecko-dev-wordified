@@ -972,7 +972,7 @@ if
 const
 auto
 *
-ufd
+data
 =
 GetUserFontData
 (
@@ -981,15 +981,10 @@ GetUserFontData
 {
 if
 (
-const
-auto
-*
 data
-=
-ufd
 -
 >
-GetData
+FontData
 (
 )
 )
@@ -1000,6 +995,11 @@ result
 aMallocSizeOf
 (
 data
+-
+>
+FontData
+(
+)
 )
 ;
 }
