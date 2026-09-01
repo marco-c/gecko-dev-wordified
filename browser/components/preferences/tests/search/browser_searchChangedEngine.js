@@ -312,7 +312,7 @@ ok
 (
 row
 .
-__iconSrc
+iconSrc
 .
 includes
 (
@@ -480,7 +480,7 @@ ok
 (
 updatedRow
 .
-__iconSrc
+iconSrc
 .
 includes
 (
