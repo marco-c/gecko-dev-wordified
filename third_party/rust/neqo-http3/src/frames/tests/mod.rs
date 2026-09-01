@@ -378,9 +378,8 @@ T
 /
 For
 data
-headers
 and
-push_promise
+headers
 we
 do
 not

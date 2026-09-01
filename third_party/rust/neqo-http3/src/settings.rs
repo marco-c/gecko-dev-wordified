@@ -101,7 +101,7 @@ qdebug
 }
 ;
 use
-neqo_crypto
+nss
 :
 :
 {
@@ -1471,7 +1471,7 @@ from
 (
 conn_param
 .
-get_webtransport
+webtransport_enabled
 (
 )
 )
@@ -1515,7 +1515,7 @@ from
 (
 conn_param
 .
-get_connect
+connect_enabled
 (
 )
 )
@@ -1663,7 +1663,7 @@ get_max_blocked_streams
 if
 settings
 .
-get_webtransport
+webtransport_enabled
 (
 )
 {
@@ -1925,7 +1925,7 @@ self
 .
 settings
 .
-get_webtransport
+webtransport_enabled
 (
 )
 |
@@ -2005,7 +2005,7 @@ self
 .
 settings
 .
-get_connect
+connect_enabled
 (
 )
 |
@@ -2703,7 +2703,13 @@ zero_rtt_checker
 )
 {
 use
-neqo_crypto
+neqo_transport
+:
+:
+ConnectionParameters
+;
+use
+nss
 :
 :
 {
@@ -2712,12 +2718,6 @@ ZeroRttChecker
 as
 _
 }
-;
-use
-neqo_transport
-:
-:
-ConnectionParameters
 ;
 use
 crate
