@@ -244,14 +244,6 @@ testing
 :
 Eq
 ;
-using
-:
-:
-testing
-:
-:
-InvokeWithoutArgs
-;
 static
 const
 int
@@ -494,8 +486,6 @@ kDefaultVolume
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 &
 ]
@@ -508,7 +498,6 @@ return
 true
 ;
 }
-)
 )
 ;
 receiver_
@@ -598,8 +587,6 @@ kVolume
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 &
 ]
@@ -612,7 +599,6 @@ return
 true
 ;
 }
-)
 )
 ;
 receiver_
