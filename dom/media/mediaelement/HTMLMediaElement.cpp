@@ -36481,7 +36481,7 @@ IsInComposedDoc
 )
 )
 {
-NotifyUAWidgetSetupOrChange
+AddScriptRunnerToNotifyUAWidgetSetupOrChange
 (
 )
 ;
@@ -36633,7 +36633,7 @@ IsInComposedDoc
 )
 )
 {
-NotifyUAWidgetSetupOrChange
+AddScriptRunnerToNotifyUAWidgetSetupOrChange
 (
 )
 ;
@@ -36824,6 +36824,10 @@ DOM
 .
 AttachAndSetUAShadowRoot
 (
+NotifyUAWidget
+:
+:
+Yes
 )
 ;
 /
@@ -36906,6 +36910,10 @@ IsInComposedDoc
 {
 TeardownUAShadowRoot
 (
+NotifyUAWidget
+:
+:
+Yes
 )
 ;
 }

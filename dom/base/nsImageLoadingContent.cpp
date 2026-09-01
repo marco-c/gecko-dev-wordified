@@ -287,6 +287,17 @@ mozilla
 /
 dom
 /
+ElementInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FetchPriority
 .
 h

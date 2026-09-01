@@ -1111,15 +1111,6 @@ rv
 bool
 isPrettyPrinting
 ;
-const
-RefPtr
-<
-Document
->
-doc
-=
-mDocument
-;
 rv
 =
 printer
@@ -1127,7 +1118,7 @@ printer
 >
 PrettyPrint
 (
-doc
+mDocument
 mXSLTIsDisabled
 &
 isPrettyPrinting

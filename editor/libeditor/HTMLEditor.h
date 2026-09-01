@@ -29426,6 +29426,7 @@ RefreshResizersInternal
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ManualNACPtr
 CreateResizer
 (
@@ -29454,6 +29455,7 @@ int32_t
 aY
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ManualNACPtr
 CreateShadow
 (
@@ -29537,6 +29539,7 @@ int32_t
 aElementTop
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 ManualNACPtr
 CreateResizingInfo
 (
@@ -30018,6 +30021,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 CreateGrabberInternal
 (
@@ -30365,6 +30369,7 @@ anonymous
 element
 *
 /
+MOZ_CAN_RUN_SCRIPT
 ManualNACPtr
 CreateAnonymousElement
 (

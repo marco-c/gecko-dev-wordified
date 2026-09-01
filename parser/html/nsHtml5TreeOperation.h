@@ -2815,6 +2815,7 @@ nsHtml5HtmlAttributes
 aAttributes
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 SetHTMLElementAttributesFast

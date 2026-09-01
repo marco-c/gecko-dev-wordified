@@ -4340,7 +4340,11 @@ media_cloneElementVisually_testing
 )
 )
 {
-NotifyUAWidgetSetupOrChange
+const
+nsAutoScriptBlocker
+scriptBlocker
+;
+AddScriptRunnerToNotifyUAWidgetSetupOrChange
 (
 )
 ;
@@ -4603,7 +4607,11 @@ media_cloneElementVisually_testing
 )
 )
 {
-NotifyUAWidgetSetupOrChange
+const
+nsAutoScriptBlocker
+scriptBlocker
+;
+AddScriptRunnerToNotifyUAWidgetSetupOrChange
 (
 )
 ;

@@ -530,7 +530,6 @@ override
 /
 /
 nsIContent
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 BindToTree
 (
@@ -542,7 +541,6 @@ aParent
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 UnbindFromTree
 (
