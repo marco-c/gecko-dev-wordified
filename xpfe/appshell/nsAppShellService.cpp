@@ -2719,11 +2719,6 @@ CHROME_TOOLBAR
 nsIWebBrowserChrome
 :
 :
-CHROME_LOCATIONBAR
-|
-nsIWebBrowserChrome
-:
-:
 CHROME_TITLEBAR
 ;
 if

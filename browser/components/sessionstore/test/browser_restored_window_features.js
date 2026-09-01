@@ -312,6 +312,9 @@ resizable
 barprops
 :
 {
+locationbar
+:
+true
 scrollbars
 :
 true
@@ -404,6 +407,9 @@ resizable
 barprops
 :
 {
+locationbar
+:
+true
 scrollbars
 :
 true
