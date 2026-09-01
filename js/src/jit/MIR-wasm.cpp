@@ -7247,7 +7247,7 @@ wasm
 RefType
 :
 :
-castPossible
+valuesInCommon
 (
 destType
 sourceType
