@@ -223,6 +223,10 @@ DecodingComplete
 (
 )
 ;
+RemovePluginObject
+(
+)
+;
 }
 }
 bool
@@ -286,6 +290,10 @@ decoder
 mVideoDecoder
 =
 aDecoder
+;
+AddPluginObject
+(
+)
 ;
 }
 void
