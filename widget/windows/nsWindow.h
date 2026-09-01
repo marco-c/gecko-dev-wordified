@@ -3964,6 +3964,12 @@ WindowAtMouse
 )
 ;
 static
+HWND
+NsWindowAtMouse
+(
+)
+;
+static
 bool
 IsTopLevelMouseExit
 (
