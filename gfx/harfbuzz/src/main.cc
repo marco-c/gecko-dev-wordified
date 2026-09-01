@@ -1380,9 +1380,9 @@ d
 %
 d
 %
-d
+lld
 %
-d
+lld
 \
 "
 >
@@ -1393,6 +1393,10 @@ extents
 .
 x_bearing
 0
+(
+long
+long
+)
 extents
 .
 x_bearing
@@ -1401,6 +1405,10 @@ extents
 .
 width
 -
+(
+long
+long
+)
 extents
 .
 height
@@ -1774,9 +1782,9 @@ d
 %
 d
 %
-d
+lld
 %
-d
+lld
 \
 "
 >
@@ -1791,6 +1799,10 @@ extents
 .
 x_bearing
 0
+(
+long
+long
+)
 extents
 .
 x_bearing
@@ -1798,6 +1810,10 @@ x_bearing
 extents
 .
 width
+(
+long
+long
+)
 font_extents
 .
 ascender

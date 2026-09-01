@@ -32,6 +32,12 @@ arabic
 pua
 .
 py
+ArabicPUASimplified
+.
+txt
+ArabicPUATraditional
+.
+txt
 *
 *
 /
