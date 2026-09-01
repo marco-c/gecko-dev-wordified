@@ -8990,6 +8990,7 @@ rect
 ;
 let
 (
+mut
 layout
 _
 spatial_node_index
@@ -9008,6 +9009,15 @@ info
 .
 bounds
 )
+;
+layout
+.
+transformed_aa_edges
+&
+=
+info
+.
+transformed_aa_edges
 ;
 self
 .
