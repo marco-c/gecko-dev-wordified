@@ -335,14 +335,6 @@ hookName
 '
 onNewScript
 '
-&
-&
-hookName
-!
-=
-'
-onNewPromise
-'
 )
 {
 var
