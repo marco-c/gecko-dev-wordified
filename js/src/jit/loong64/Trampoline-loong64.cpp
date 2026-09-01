@@ -1859,7 +1859,7 @@ reg_code
 ;
 masm
 .
-as_or
+ma_move
 (
 R1
 .
@@ -1867,7 +1867,6 @@ scratchReg
 (
 )
 reg_chain
-zero
 )
 ;
 }

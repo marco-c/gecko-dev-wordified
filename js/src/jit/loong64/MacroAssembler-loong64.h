@@ -3230,11 +3230,10 @@ Register
 dest
 )
 {
-as_ori
+ma_move
 (
 dest
 src
-0
 )
 ;
 }
