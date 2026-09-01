@@ -88,9 +88,7 @@ tree
 #
 include
 "
-modules
-/
-video_coding
+video
 /
 timing
 /
