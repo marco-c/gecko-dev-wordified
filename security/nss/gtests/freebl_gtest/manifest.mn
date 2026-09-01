@@ -104,10 +104,6 @@ cc
 CPPSRCS
 =
 \
-dh_unittest
-.
-cc
-\
 ecl_unittest
 .
 cc

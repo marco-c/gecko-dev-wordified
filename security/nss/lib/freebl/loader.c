@@ -1029,16 +1029,7 @@ return
 SECFailure
 ;
 return
-(
-vector
--
->
-p_DH_GenParam
-)
-(
-primeLen
-params
-)
+SECFailure
 ;
 }
 SECStatus
