@@ -67,11 +67,17 @@ Object
 -
 *
 /
+assert
+.
+sameValue
+(
 Object
 .
 isExtensible
 (
 0
+)
+false
 )
 ;
 reportCompare

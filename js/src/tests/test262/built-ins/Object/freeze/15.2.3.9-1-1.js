@@ -68,10 +68,16 @@ undefined
 -
 *
 /
+assert
+.
+sameValue
+(
 Object
 .
 freeze
 (
+undefined
+)
 undefined
 )
 ;

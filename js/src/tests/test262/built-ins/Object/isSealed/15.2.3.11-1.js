@@ -67,11 +67,17 @@ Object
 -
 *
 /
+assert
+.
+sameValue
+(
 Object
 .
 isSealed
 (
 0
+)
+true
 )
 ;
 reportCompare

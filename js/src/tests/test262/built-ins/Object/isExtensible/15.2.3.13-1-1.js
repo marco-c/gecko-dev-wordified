@@ -66,11 +66,17 @@ undefined
 -
 *
 /
+assert
+.
+sameValue
+(
 Object
 .
 isExtensible
 (
 undefined
+)
+false
 )
 ;
 reportCompare

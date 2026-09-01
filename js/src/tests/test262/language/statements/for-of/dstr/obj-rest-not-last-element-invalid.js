@@ -71,7 +71,7 @@ to
 be
 the
 last
-AssignmenProperty
+AssignmentProperty
 in
 ObjectAssignmentPattern
 .

@@ -68,10 +68,16 @@ null
 -
 *
 /
+assert
+.
+sameValue
+(
 Object
 .
 freeze
 (
+null
+)
 null
 )
 ;

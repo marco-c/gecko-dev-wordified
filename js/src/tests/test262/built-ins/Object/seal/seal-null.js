@@ -257,10 +257,16 @@ true
 -
 *
 /
+assert
+.
+sameValue
+(
 Object
 .
 seal
 (
+null
+)
 null
 )
 ;
