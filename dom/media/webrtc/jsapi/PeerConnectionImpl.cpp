@@ -490,6 +490,13 @@ h
 #
 include
 "
+PeerConnectionImpl
+.
+h
+"
+#
+include
+"
 RTCDataChannel
 .
 h
@@ -1877,6 +1884,7 @@ mCertificate
 mSTSThread
 mReceiveStreams
 mOperations
+mMainthreadDatachannels
 mTransportIdToRTCDtlsTransport
 mSctpTransport
 mLastStableSctpTransport
@@ -1898,6 +1906,7 @@ mSTSThread
 mReceiveStreams
 mOperations
 mTransceivers
+mMainthreadDatachannels
 mTransportIdToRTCDtlsTransport
 mSctpTransport
 mLastStableSctpTransport
@@ -6915,6 +6924,7 @@ maxLifeTime
 maxRetransmits
 aProtocol
 aExternalNegotiated
+this
 mWindow
 getter_AddRefs
 (
@@ -6934,6 +6944,13 @@ return
 rv
 ;
 }
+mMainthreadDatachannels
+.
+AppendElement
+(
+retval
+)
+;
 retval
 .
 forget
@@ -8957,6 +8974,7 @@ aMaxLifeTime
 aMaxRetransmits
 aProtocol
 aNegotiated
+this
 mWindow
 getter_AddRefs
 (
@@ -8967,6 +8985,13 @@ domchannel
 NS_ENSURE_SUCCESS_VOID
 (
 rv
+)
+;
+mMainthreadDatachannels
+.
+AppendElement
+(
+domchannel
 )
 ;
 domchannel

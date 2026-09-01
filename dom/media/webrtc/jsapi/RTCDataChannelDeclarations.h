@@ -126,6 +126,9 @@ mozilla
 class
 DataChannel
 ;
+class
+PeerConnectionImpl
+;
 namespace
 dom
 {
@@ -166,6 +169,9 @@ nsACString
 aProtocol
 bool
 aNegotiated
+PeerConnectionImpl
+*
+aPc
 nsPIDOMWindowInner
 *
 aWindow
