@@ -64,15 +64,6 @@ define
 mozilla_BinarySearch_h
 #
 include
-"
-mozilla
-/
-Assertions
-.
-h
-"
-#
-include
 <
 cstddef
 >
@@ -81,6 +72,15 @@ include
 <
 utility
 >
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 mozilla
 {
@@ -552,7 +552,7 @@ ordering
 relation
 .
 const
-int
+auto
 result
 =
 aCompare
@@ -1167,7 +1167,7 @@ ordering
 relation
 .
 const
-int
+auto
 result
 =
 aCompare
@@ -1315,7 +1315,7 @@ ordering
 relation
 .
 const
-int
+auto
 result
 =
 aCompare
@@ -1470,7 +1470,7 @@ ordering
 relation
 .
 const
-int
+auto
 result
 =
 aCompare
