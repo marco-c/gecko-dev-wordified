@@ -3977,6 +3977,9 @@ memory
 -
 1
 "
+isResumeActivity
+:
+true
 properties
 :
 {
@@ -4480,6 +4483,9 @@ memory
 -
 1
 "
+isResumeActivity
+:
+true
 properties
 :
 {
