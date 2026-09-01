@@ -228,9 +228,10 @@ operator
 const
 Transition
 &
-aOther
 )
 const
+=
+default
 ;
 uint32_t
 Hash
