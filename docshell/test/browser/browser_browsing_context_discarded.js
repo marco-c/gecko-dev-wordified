@@ -764,7 +764,7 @@ location
 "
 about
 :
-blocked
+newtab
 "
 ;
 }
