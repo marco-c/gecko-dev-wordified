@@ -1172,6 +1172,7 @@ numModules
 i
 )
 {
+const
 mozilla
 :
 :
@@ -1182,6 +1183,7 @@ ProcessedStack
 :
 :
 Module
+&
 module
 =
 stack
