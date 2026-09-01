@@ -2237,7 +2237,7 @@ image
 Lock
 (
 0
-mGL
+nullptr
 )
 ;
 RenderCompositorNative
