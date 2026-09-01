@@ -721,15 +721,13 @@ SetDefaultCodecs
 preferredCodecs
 )
 ;
-std
-:
-:
-vector
+AutoTArray
 <
 PeerConnectionImpl
 :
 :
 RtpExtensionHeader
+16
 >
 preferredHeaders
 ;
@@ -739,6 +737,7 @@ PeerConnectionImpl
 GetDefaultRtpExtensions
 (
 prefs
+&
 preferredHeaders
 )
 ;
