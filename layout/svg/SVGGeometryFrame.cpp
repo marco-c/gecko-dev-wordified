@@ -3449,11 +3449,8 @@ bbox
 }
 bbox
 =
+*
 pathBBoxExtents
-.
-value
-(
-)
 ;
 }
 if
@@ -3750,11 +3747,8 @@ PathExtentsToMaxStrokeExtents
 (
 ThebesRect
 (
+*
 pathBBoxExtents
-.
-value
-(
-)
 )
 this
 ThebesMatrix

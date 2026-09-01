@@ -283,11 +283,8 @@ mRoot
 >
 SetCurrentTime
 (
+*
 mStartTime
-.
-value
-(
-)
 )
 ;
 }
@@ -301,11 +298,8 @@ mRoot
 >
 PauseAnimationsAt
 (
+*
 mEndTime
-.
-value
-(
-)
 )
 ;
 }

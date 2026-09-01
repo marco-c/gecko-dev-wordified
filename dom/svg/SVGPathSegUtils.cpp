@@ -2307,11 +2307,8 @@ edge
 ;
 if
 (
+!
 maybeDir
-.
-isNothing
-(
-)
 )
 {
 return
@@ -2321,11 +2318,8 @@ false
 EdgeDir
 dir
 =
+*
 maybeDir
-.
-value
-(
-)
 ;
 if
 (

@@ -630,11 +630,8 @@ hasCtxDependentLength
 )
 {
 return
+*
 hasCtxDependentLength
-.
-value
-(
-)
 ;
 }
 /
