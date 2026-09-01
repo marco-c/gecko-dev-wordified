@@ -4832,6 +4832,9 @@ PrimitiveCommand
 Simple
 {
 draw_index
+device_rect
+:
+_
 }
 =
 >
@@ -4844,6 +4847,9 @@ PrimitiveCommand
 SplitComposite
 {
 draw_index
+device_rect
+:
+_
 polygons_address
 transform_id
 src_task_id
@@ -5063,6 +5069,9 @@ Quad
 pattern
 pattern_input
 draw_index
+device_rect
+:
+_
 gpu_buffer_address
 quad_flags
 edge_flags
