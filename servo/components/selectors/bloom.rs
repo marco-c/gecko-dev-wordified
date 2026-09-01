@@ -1906,7 +1906,7 @@ create_and_insert_some_stuff
 )
 {
 use
-fxhash
+rustc_hash
 :
 :
 FxHasher
@@ -2614,7 +2614,7 @@ new
 ;
 let
 mut
-gen
+generator
 =
 HashGenerator
 :
@@ -2647,7 +2647,7 @@ bf
 .
 might_contain_hash
 (
-gen
+generator
 .
 next
 (
@@ -2746,7 +2746,7 @@ new
 ;
 let
 mut
-gen
+generator
 =
 HashGenerator
 :
@@ -2779,7 +2779,7 @@ bf
 .
 insert_hash
 (
-gen
+generator
 .
 next
 (
@@ -2822,7 +2822,7 @@ new
 ;
 let
 mut
-gen
+generator
 =
 HashGenerator
 :
@@ -2863,7 +2863,7 @@ bf
 .
 remove_hash
 (
-gen
+generator
 .
 next
 (
