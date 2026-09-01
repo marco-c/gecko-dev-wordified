@@ -25585,6 +25585,16 @@ IPC_OK
 )
 ;
 }
+/
+/
+XXX
+:
+Can
+we
+remove
+AllowNullPtr
+here
+?
 if
 (
 !

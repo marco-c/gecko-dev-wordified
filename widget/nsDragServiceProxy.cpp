@@ -608,6 +608,16 @@ nsIPrincipal
 >
 principal
 ;
+/
+/
+XXX
+:
+Can
+this
+use
+mTriggeringPrincipal
+instead
+?
 if
 (
 mSourceNode
