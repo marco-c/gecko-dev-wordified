@@ -3011,6 +3011,16 @@ Ptr_t
 (
 __VA_ARGS__
 )
+constinit
+UniquePtr
+<
+MediaFoundationInitializer
+>
+MediaFoundationInitializer
+:
+:
+sInitializer
+;
 HRESULT
 MediaFoundationInitializer
 :
