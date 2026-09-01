@@ -984,7 +984,7 @@ kSps
 ;
 nalu_info
 .
-pps_id
+sps_id
 =
 sps_id
 ;
