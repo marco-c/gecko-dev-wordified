@@ -306,7 +306,7 @@ elementIndex
 or
 element
 .
-_tPos
+index
 .
 If
 *

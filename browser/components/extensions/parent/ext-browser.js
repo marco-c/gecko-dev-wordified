@@ -2909,7 +2909,7 @@ oldPosition
 =
 nativeTab
 .
-_tPos
+index
 ;
 this
 .
@@ -2966,7 +2966,7 @@ newPosition
 =
 nativeTab
 .
-_tPos
+index
 ;
 this
 .
@@ -5341,7 +5341,7 @@ this
 .
 nativeTab
 .
-_tPos
+index
 ;
 }
 get

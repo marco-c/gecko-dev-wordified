@@ -5550,7 +5550,7 @@ index
 ?
 element
 .
-_tPos
+index
 +
 1
 =
@@ -5562,7 +5562,7 @@ index
 1
 ]
 .
-_tPos
+index
 :
 true
 ;
@@ -7342,7 +7342,7 @@ at
 1
 )
 .
-_tPos
+index
 +
 1
 ;
@@ -7689,7 +7689,7 @@ tabIndex
 :
 tab
 .
-_tPos
+index
 +
 1
 triggeringPrincipal
@@ -7873,7 +7873,7 @@ if
 (
 insertBefore
 .
-_tPos
+index
 <
 gBrowser
 .
@@ -8053,7 +8053,7 @@ if
 (
 insertBefore
 .
-_tPos
+index
 <
 gBrowser
 .

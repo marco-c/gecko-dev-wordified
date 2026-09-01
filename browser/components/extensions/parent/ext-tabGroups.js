@@ -207,7 +207,7 @@ group_tabs
 0
 ]
 .
-_tPos
+index
 )
 {
 /

@@ -8383,7 +8383,7 @@ aClosingTab
 &
 aClosingTab
 .
-_tPos
+index
 >
 tabs
 .
@@ -8393,7 +8393,7 @@ at
 1
 )
 .
-_tPos
+index
 ;
 if
 (
