@@ -903,8 +903,6 @@ EncodedFrame
 >
 >
 aEncodedVideoQueue
-TrackRate
-aTrackRate
 const
 nsAString
 &
