@@ -14857,6 +14857,10 @@ pub
 rounded_rect_fast_path
 :
 bool
+pub
+rounded_rect_superellipse
+:
+bool
 }
 /
 /
