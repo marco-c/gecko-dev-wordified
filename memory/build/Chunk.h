@@ -1530,11 +1530,6 @@ mIsPurging
 =
 false
 ;
-bool
-mDying
-=
-false
-;
 /
 /
 Map
