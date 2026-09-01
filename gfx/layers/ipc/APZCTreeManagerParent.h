@@ -436,6 +436,12 @@ ScrollableLayerGuid
 aGuid
 )
 ;
+bool
+IsForRootLayer
+(
+)
+const
+;
 LayersId
 mLayersId
 ;
