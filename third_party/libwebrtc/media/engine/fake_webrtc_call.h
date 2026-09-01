@@ -882,12 +882,10 @@ FakeAudioReceiveStream
 (
 int
 id
-const
 AudioReceiveStreamInterface
 :
 :
 Config
-&
 config
 )
 ;
@@ -2723,12 +2721,10 @@ AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
-const
 AudioReceiveStreamInterface
 :
 :
 Config
-&
 config
 )
 override

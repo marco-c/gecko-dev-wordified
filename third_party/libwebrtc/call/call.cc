@@ -1841,7 +1841,6 @@ AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
-const
 webrtc
 :
 :
@@ -1849,7 +1848,6 @@ AudioReceiveStreamInterface
 :
 :
 Config
-&
 config
 )
 override
@@ -5405,7 +5403,6 @@ Call
 :
 CreateAudioReceiveStream
 (
-const
 webrtc
 :
 :
@@ -5413,7 +5410,6 @@ AudioReceiveStreamInterface
 :
 :
 Config
-&
 config
 )
 {
@@ -5479,7 +5475,13 @@ packet_router
 config_
 .
 neteq_factory
+std
+:
+:
+move
+(
 config
+)
 config_
 .
 audio_state
