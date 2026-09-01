@@ -662,8 +662,7 @@ urlbar
 querySelector
 (
 "
-.
-urlbar
+moz
 -
 input
 -
@@ -674,11 +673,9 @@ box
 let
 menu
 =
-window
+textBox
 .
-EditContextMenu
-.
-popup
+menupopup
 ;
 await
 openAndCheckContextMenu

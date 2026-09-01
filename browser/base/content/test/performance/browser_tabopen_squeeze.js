@@ -367,8 +367,7 @@ gURLBar
 querySelector
 (
 "
-.
-urlbar
+moz
 -
 input
 -
