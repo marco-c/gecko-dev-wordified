@@ -6069,7 +6069,6 @@ Warning
 {
 }
 "
-&
 warning
 )
 ;
