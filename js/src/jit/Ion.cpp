@@ -15750,6 +15750,17 @@ nullptr
 ;
 MOZ_ASSERT
 (
+!
+frame
+-
+>
+isResumingGenerator
+(
+)
+)
+;
+MOZ_ASSERT
+(
 frame
 -
 >
