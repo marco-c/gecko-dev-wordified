@@ -101,7 +101,6 @@ InitialYield
 0
 #
 RVAL
-GENERATOR
 RESUMEKIND
 /
 /

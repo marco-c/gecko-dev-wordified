@@ -15532,13 +15532,12 @@ when
 resuming
 execution
 rval
-gen
 and
 resumeKind
 will
-*
 receive
 the
+*
 values
 passed
 in
@@ -15723,7 +15722,6 @@ gen
 =
 >
 rval
-gen
 resumeKind
 *
 /
@@ -15735,7 +15733,7 @@ initial_yield
 NULL
 4
 1
-3
+2
 JOF_RESUMEINDEX
 )
 \
@@ -16120,13 +16118,12 @@ When
 resuming
 execution
 rval2
-gen
 and
 resumeKind
 receive
 the
-*
 values
+*
 passed
 in
 by
@@ -16217,7 +16214,6 @@ gen
 =
 >
 rval2
-gen
 resumeKind
 *
 /
@@ -16229,7 +16225,7 @@ yield
 NULL
 4
 2
-3
+2
 JOF_RESUMEINDEX
 )
 \
@@ -16898,7 +16894,6 @@ is
 *
 resumed
 resolved
-gen
 and
 resumeKind
 receive
@@ -16906,12 +16901,12 @@ the
 values
 passed
 in
-*
 by
-JSOp
+*
+js
 :
 :
-Resume
+ResumeGenerator
 and
 execution
 continues
@@ -16978,7 +16973,6 @@ gen
 Await
 #
 resolved
-gen
 resumeKind
 *
 AfterYield
@@ -17079,7 +17073,6 @@ gen
 Await
 #
 resolved
-gen
 resumeKind
 *
 AfterYield
@@ -17206,7 +17199,6 @@ gen
 =
 >
 resolved
-gen
 resumeKind
 *
 /
@@ -17218,7 +17210,7 @@ await
 NULL
 4
 2
-3
+2
 JOF_RESUMEINDEX
 )
 \

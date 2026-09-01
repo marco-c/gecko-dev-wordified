@@ -19241,7 +19241,6 @@ Push
 the
 [
 rval
-gen
 resumeKind
 ]
 values
@@ -19254,9 +19253,9 @@ stack
 Only
 a
 Next
-/
-/
 resume
+/
+/
 enters
 Ion
 so
@@ -19271,9 +19270,9 @@ of
 a
 read
 of
-/
-/
 the
+/
+/
 ResumeFrameArgs
 slot
 .
@@ -19289,14 +19288,6 @@ ResumeFrameArgs
 :
 ResumeValueSlot
 )
-)
-;
-current
--
->
-push
-(
-genObj
 )
 ;
 #
