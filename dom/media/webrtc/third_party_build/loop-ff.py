@@ -101,6 +101,10 @@ run_hg
     
 run_shell
 )
+from
+save_patch_stack
+import
+save_patch_stack
 #
 This
 script
@@ -2889,67 +2893,19 @@ stack
 "
 )
         
-run_command
-(
-[
-            
-"
-.
-/
-mach
-"
-            
-"
-python
-"
-            
-f
-"
-{
-script_dir
-}
-/
 save_patch_stack
-.
-py
-"
-            
-"
--
--
-skip
--
-startup
--
-sanity
-"
-            
-"
--
--
-repo
--
-path
-"
+(
             
 libwebrtc_src
             
-"
--
--
-branch
-"
-            
 libwebrtc_branch
             
-"
--
--
-patch
--
+os
+.
 path
-"
-            
+.
+abspath
+(
 "
 third_party
 /
@@ -2961,30 +2917,16 @@ patch
 -
 stack
 "
-            
-"
--
--
-state
--
-path
-"
+)
             
 state_dir
             
-"
--
--
 target
--
-branch
--
-head
-"
             
-target
+None
+            
+False
         
-]
 )
         
 modified_build_related_file_cnt
