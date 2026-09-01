@@ -862,10 +862,8 @@ aMaskContext
 CurrentMatrix
 (
 )
-;
-maskTransform
 .
-Invert
+Inverse
 (
 )
 ;
@@ -1375,10 +1373,8 @@ aTarget
 CurrentMatrix
 (
 )
-;
-maskTransform
 .
-Invert
+Inverse
 (
 )
 ;
