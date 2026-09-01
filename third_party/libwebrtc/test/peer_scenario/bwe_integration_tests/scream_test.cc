@@ -4444,7 +4444,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2300
+2500
 )
 )
 )
