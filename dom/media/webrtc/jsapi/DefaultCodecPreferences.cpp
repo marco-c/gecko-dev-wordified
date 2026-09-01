@@ -634,6 +634,7 @@ aOverrideRtxPreference
 ;
 EnumerateDefaultVideoCodecs
 (
+&
 aSupportedCodecs
 prefs
 )
@@ -649,7 +650,7 @@ UniquePtr
 JsepCodecDescription
 >
 >
-&
+*
 aSupportedCodecs
 const
 JsepCodecPreferences
@@ -657,6 +658,11 @@ JsepCodecPreferences
 aPrefs
 )
 {
+MOZ_ASSERT
+(
+aSupportedCodecs
+)
+;
 /
 /
 Supported
@@ -836,7 +842,8 @@ comparator
 )
 ;
 aSupportedCodecs
-.
+-
+>
 AppendElements
 (
 std
@@ -876,6 +883,7 @@ GetDefaultCodecPreferences
 ;
 EnumerateDefaultAudioCodecs
 (
+&
 aSupportedCodecs
 prefs
 )
@@ -891,7 +899,7 @@ UniquePtr
 JsepCodecDescription
 >
 >
-&
+*
 aSupportedCodecs
 const
 JsepCodecPreferences
@@ -900,7 +908,8 @@ aPrefs
 )
 {
 aSupportedCodecs
-.
+-
+>
 AppendElement
 (
 JsepAudioCodecDescription
@@ -913,7 +922,8 @@ aPrefs
 )
 ;
 aSupportedCodecs
-.
+-
+>
 AppendElement
 (
 JsepAudioCodecDescription
@@ -926,7 +936,8 @@ aPrefs
 )
 ;
 aSupportedCodecs
-.
+-
+>
 AppendElement
 (
 JsepAudioCodecDescription
@@ -939,7 +950,8 @@ aPrefs
 )
 ;
 aSupportedCodecs
-.
+-
+>
 AppendElement
 (
 JsepAudioCodecDescription
@@ -952,7 +964,8 @@ aPrefs
 )
 ;
 aSupportedCodecs
-.
+-
+>
 AppendElement
 (
 JsepAudioCodecDescription
