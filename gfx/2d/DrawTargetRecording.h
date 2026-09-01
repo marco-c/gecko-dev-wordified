@@ -258,7 +258,7 @@ void
 AccessibleId
 (
 uint64_t
-aBrowsingContextId
+aInnerWindowId
 uint64_t
 aAccId
 )

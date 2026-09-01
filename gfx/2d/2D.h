@@ -10181,7 +10181,6 @@ DrawSurface
 .
 *
 /
-virtual
 bool
 TryToReplaySurface
 (
@@ -10197,11 +10196,7 @@ Rect
 &
 aSource
 )
-{
-return
-false
 ;
-}
 /
 *
 *
