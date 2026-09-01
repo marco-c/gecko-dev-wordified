@@ -6698,7 +6698,13 @@ saveWasmProfile
 (
 start
 size
+std
+:
+:
+move
+(
 desc
+)
 )
 ;
 }
@@ -6800,7 +6806,13 @@ saveProfile
 (
 start
 size
+std
+:
+:
+move
+(
 desc
+)
 )
 ;
 }
