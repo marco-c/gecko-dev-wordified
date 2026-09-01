@@ -268,7 +268,6 @@ aGivenProto
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT
 static
 already_AddRefed
 <
@@ -350,7 +349,6 @@ return
 mTracks
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Promise
@@ -371,7 +369,6 @@ Reset
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Close
 (
@@ -399,7 +396,6 @@ uint32_t
 aSelectedIndex
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 ProcessControlMessageQueue
 (
@@ -504,7 +500,6 @@ ImageDecoder
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 void
 Initialize
 (
@@ -521,7 +516,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Close
 (
@@ -533,28 +527,6 @@ aResult
 ;
 void
 CloseWithoutRef
-(
-const
-MediaResult
-&
-aResult
-)
-;
-MOZ_CAN_RUN_SCRIPT
-void
-CloseAndCancelWithoutRef
-(
-const
-MediaResult
-&
-aResult
-)
-;
-already_AddRefed
-<
-ImageDecoderReadRequest
->
-CloseCommon
 (
 const
 MediaResult
@@ -589,13 +561,11 @@ QueueDecodeFrameMessage
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 ResumeControlMessageQueue
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 MessageProcessedResult
 ProcessConfigureMessage
 (
@@ -659,7 +629,6 @@ DecodeMetadataResult
 aMetadata
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 OnMetadataFailed
 (
@@ -688,7 +657,6 @@ DecodeFrameCountResult
 aResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 OnFrameCountFailed
 (
