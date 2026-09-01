@@ -47,6 +47,7 @@ dir
 body
 tag
 icon
+navigate
 requireInteraction
 silent
 data
@@ -173,6 +174,7 @@ dir
 body
 tag
 icon
+navigate
 requireInteraction
 silent
 data
