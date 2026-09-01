@@ -295,6 +295,7 @@ def
 uia
 (
 session
+default_timeout
 )
 :
     
@@ -316,14 +317,29 @@ NOT_APPLICABLE
 "
 )
     
-#
-TODO
-:
-Make
+from
+.
+uia_wrapper
+import
 UiaWrapper
-and
+    
+pid
+product_name
+=
+pid_from
+(
+session
+.
+capabilities
+)
+    
 return
-it
+UiaWrapper
+(
+pid
+product_name
+default_timeout
+)
 pytest
 .
 fixture
