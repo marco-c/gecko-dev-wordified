@@ -1343,6 +1343,7 @@ flush_pixels
 &
 mut
 bufs
+None
 )
 .
 map_err
@@ -1389,6 +1390,7 @@ from_mut
 mut
 buf
 )
+None
 )
 .
 map_err
@@ -2396,6 +2398,7 @@ process
 (
 data
 bufs
+None
 )
 ;
 let
