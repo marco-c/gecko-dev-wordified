@@ -257,6 +257,15 @@ Opcode
 :
 InlineArgumentsSlice
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+ArrayFromArgumentsObject
+:
 return
 KnownClass
 :
