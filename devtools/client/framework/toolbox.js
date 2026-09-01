@@ -16064,20 +16064,6 @@ false
 }
 )
 {
-const
-inspectorFront
-=
-this
-.
-target
-.
-getCachedFront
-(
-"
-inspector
-"
-)
-;
 let
 toggledHighlighters
 =
@@ -16124,9 +16110,6 @@ options
 panel
 if
 (
-inspectorFront
-&
-&
 button
 .
 highlighterTypes
@@ -31591,6 +31574,8 @@ components
 /
 extensions
 /
+parent
+/
 ext
 -
 devtools
@@ -31747,6 +31732,8 @@ components
 /
 extensions
 /
+parent
+/
 ext
 -
 devtools
@@ -31856,6 +31843,8 @@ browser
 components
 /
 extensions
+/
+parent
 /
 ext
 -
