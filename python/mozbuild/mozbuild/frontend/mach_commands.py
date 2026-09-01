@@ -2177,6 +2177,7 @@ finder
 =
 FileFinder
 (
+        
 command_context
 .
 topsrcdir
@@ -2190,7 +2191,12 @@ ignore
 .
 hg
 "
+"
+.
+git
+"
 ]
+    
 )
     
 for
