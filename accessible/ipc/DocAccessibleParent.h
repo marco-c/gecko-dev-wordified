@@ -2155,6 +2155,10 @@ dom
 WindowContext
 *
 aWindowContext
+bool
+aAllowShutdown
+=
+false
 )
 ;
 size_t
