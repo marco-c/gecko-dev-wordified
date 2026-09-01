@@ -7750,9 +7750,6 @@ texture_formats_tier1
 immediate_address_space
 '
 '
-fragment_depth
-'
-'
 buffer_view
 '
 ]
