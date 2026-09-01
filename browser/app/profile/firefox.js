@@ -12701,7 +12701,7 @@ smart
 .
 agglomerativeThresholdInt
 "
-825
+650
 )
 ;
 pref
