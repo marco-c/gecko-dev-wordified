@@ -140,13 +140,6 @@ nullable
 :
 number
 "
-reducedMotionEmulation
-:
-"
-nullable
-:
-string
-"
 printSimulationEnabled
 :
 "
@@ -160,6 +153,13 @@ rdmPaneOrientation
 nullable
 :
 json
+"
+reducedMotionEmulation
+:
+"
+nullable
+:
+string
 "
 reloadOnTouchSimulationToggle
 :

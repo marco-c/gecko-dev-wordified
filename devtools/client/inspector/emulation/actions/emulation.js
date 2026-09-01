@@ -63,8 +63,8 @@ strict
 ;
 const
 {
-SET_COLOR_SCHEME_SIMULATION
-SET_PRINT_SIMULATION_ENABLED
+SET_COLOR_SCHEME_EMULATION
+SET_PRINT_EMULATION_ENABLED
 SET_REDUCED_MOTION_EMULATION
 }
 =
@@ -96,7 +96,7 @@ module
 exports
 =
 {
-setColorSchemeSimulation
+setColorSchemeEmulation
 (
 colorScheme
 )
@@ -105,12 +105,12 @@ return
 {
 type
 :
-SET_COLOR_SCHEME_SIMULATION
+SET_COLOR_SCHEME_EMULATION
 colorScheme
 }
 ;
 }
-setPrintSimulationEnabled
+setPrintEmulationEnabled
 (
 enabled
 )
@@ -119,7 +119,7 @@ return
 {
 type
 :
-SET_PRINT_SIMULATION_ENABLED
+SET_PRINT_EMULATION_ENABLED
 enabled
 }
 ;

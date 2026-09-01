@@ -160,7 +160,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 -
@@ -183,7 +183,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 -
@@ -273,7 +273,7 @@ matches
 Clicks
 on
 the
-simulation
+emulation
 button
 which
 triggers

@@ -37,7 +37,7 @@ strict
 Test
 print
 media
-simulation
+emulation
 .
 /
 /
@@ -68,7 +68,7 @@ TEST_URI
 URL_ROOT_COM_SSL
 +
 "
-doc_print_media_simulation
+doc_print_media_emulation
 .
 html
 "
@@ -108,7 +108,7 @@ check
 that
 the
 print
-simulation
+emulation
 switch
 exists
 "
@@ -121,7 +121,7 @@ view
 )
 ;
 const
-printSimulationSwitch
+printEmulationSwitch
 =
 inspector
 .
@@ -133,7 +133,7 @@ querySelector
 #
 print
 -
-simulation
+emulation
 -
 enabled
 "
@@ -141,11 +141,11 @@ enabled
 ;
 ok
 (
-printSimulationSwitch
+printEmulationSwitch
 "
 The
 print
-simulation
+emulation
 switch
 exists
 "
@@ -153,7 +153,7 @@ exists
 ;
 is
 (
-printSimulationSwitch
+printEmulationSwitch
 .
 checked
 false
@@ -243,7 +243,7 @@ change
 according
 to
 print
-simulation
+emulation
 "
 )
 ;
@@ -315,7 +315,7 @@ applied
 "
 )
 ;
-printSimulationSwitch
+printEmulationSwitch
 .
 click
 (
@@ -328,7 +328,7 @@ waitFor
 )
 =
 >
-printSimulationSwitch
+printEmulationSwitch
 .
 checked
 =
@@ -446,7 +446,7 @@ ruleViewHasColor
 )
 "
 The
-simulation
+emulation
 is
 also
 applied
@@ -518,11 +518,11 @@ again
 to
 disable
 print
-simulation
+emulation
 "
 )
 ;
-printSimulationSwitch
+printEmulationSwitch
 .
 click
 (
@@ -535,7 +535,7 @@ waitFor
 )
 =
 >
-printSimulationSwitch
+printEmulationSwitch
 .
 checked
 =
@@ -641,7 +641,7 @@ ok
 true
 "
 The
-simulation
+emulation
 stopped
 on
 the

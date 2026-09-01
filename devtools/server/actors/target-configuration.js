@@ -293,7 +293,7 @@ true
 Enable
 color
 scheme
-simulation
+emulation
 .
 colorSchemeSimulation
 :
@@ -413,7 +413,7 @@ true
 /
 Enable
 print
-simulation
+emulation
 mode
 .
 printSimulationEnabled
@@ -1865,7 +1865,7 @@ colorSchemeSimulation
 :
 this
 .
-_setColorSchemeSimulation
+_setColorSchemeEmulation
 (
 value
 )
@@ -1970,7 +1970,7 @@ printSimulationEnabled
 :
 this
 .
-_setPrintSimulationEnabled
+_setPrintEmulationEnabled
 (
 value
 )
@@ -2157,7 +2157,7 @@ false
 ;
 this
 .
-_setPrintSimulationEnabled
+_setPrintEmulationEnabled
 (
 false
 )
@@ -2190,7 +2190,7 @@ Restore
 the
 color
 scheme
-simulation
+emulation
 only
 if
 it
@@ -2258,12 +2258,12 @@ if
 (
 this
 .
-_resetColorSchemeSimulationOnDestroy
+_resetColorSchemeEmulationOnDestroy
 )
 {
 this
 .
-_setColorSchemeSimulation
+_setColorSchemeEmulation
 (
 null
 )
@@ -2484,11 +2484,11 @@ or
 enable
 the
 print
-simulation
+emulation
 .
 *
 /
-_setPrintSimulationEnabled
+_setPrintEmulationEnabled
 (
 enabled
 )
@@ -2538,11 +2538,11 @@ the
 color
 -
 scheme
-simulation
+emulation
 .
 *
 /
-_setColorSchemeSimulation
+_setColorSchemeEmulation
 (
 override
 )
@@ -2579,7 +2579,7 @@ value
 ;
 this
 .
-_resetColorSchemeSimulationOnDestroy
+_resetColorSchemeEmulationOnDestroy
 =
 true
 ;
@@ -2596,7 +2596,7 @@ the
 reduced
 -
 motion
-simulation
+emulation
 .
 *
 /

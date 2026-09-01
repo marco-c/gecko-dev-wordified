@@ -37,7 +37,7 @@ strict
 Test
 color
 scheme
-simulation
+emulation
 when
 RDM
 is
@@ -117,7 +117,7 @@ that
 the
 color
 scheme
-simulation
+emulation
 radio
 buttons
 exist
@@ -145,7 +145,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 "
@@ -166,14 +166,14 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 "
 )
 ;
 const
-noSimulationRadioButton
+noEmulationRadioButton
 =
 inspector
 .
@@ -187,7 +187,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 none
 "
@@ -202,7 +202,7 @@ light
 color
 -
 scheme
-simulation
+emulation
 radio
 button
 exists
@@ -218,7 +218,7 @@ dark
 color
 -
 scheme
-simulation
+emulation
 radio
 button
 exists
@@ -227,11 +227,11 @@ exists
 ;
 ok
 (
-noSimulationRadioButton
+noEmulationRadioButton
 "
 The
 no
-simulation
+emulation
 radio
 button
 exists
@@ -410,7 +410,7 @@ dark
 radio
 button
 to
-simulate
+emulate
 the
 opposite
 color
@@ -512,7 +512,7 @@ rule
 view
 from
 the
-simulated
+emulated
 color
 scheme
 media
@@ -663,7 +663,7 @@ divHasCurrentSchemeStyling
 Color
 -
 scheme
-simulation
+emulation
 is
 still
 enabled
@@ -676,16 +676,16 @@ info
 Click
 the
 no
-simulation
+emulation
 radio
 button
 to
 disable
-simulation
+emulation
 "
 )
 ;
-noSimulationRadioButton
+noEmulationRadioButton
 .
 click
 (
@@ -700,7 +700,7 @@ waitFor
 >
 isRadioButtonChecked
 (
-noSimulationRadioButton
+noEmulationRadioButton
 )
 )
 ;
@@ -710,7 +710,7 @@ true
 "
 The
 no
-simulation
+emulation
 radio
 button
 is
@@ -738,7 +738,7 @@ We
 '
 re
 not
-simulating
+emulating
 color
 -
 scheme
@@ -755,7 +755,7 @@ enabling
 color
 -
 scheme
-simulation
+emulation
 before
 RDM
 does
@@ -811,7 +811,7 @@ rule
 view
 from
 the
-simulated
+emulated
 color
 scheme
 media
@@ -842,12 +842,12 @@ info
 Click
 the
 no
-simulation
+emulation
 radio
 button
 to
 disable
-simulation
+emulation
 while
 RDM
 is
@@ -856,7 +856,7 @@ opened
 "
 )
 ;
-noSimulationRadioButton
+noEmulationRadioButton
 .
 click
 (
@@ -871,7 +871,7 @@ waitFor
 >
 isRadioButtonChecked
 (
-noSimulationRadioButton
+noEmulationRadioButton
 )
 )
 ;
@@ -881,7 +881,7 @@ true
 "
 The
 no
-simulation
+emulation
 radio
 button
 is
@@ -909,7 +909,7 @@ We
 '
 re
 not
-simulating
+emulating
 color
 -
 scheme

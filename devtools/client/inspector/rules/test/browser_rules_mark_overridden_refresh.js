@@ -233,7 +233,7 @@ true
 info
 (
 "
-Simulate
+Emulate
 light
 mode
 to
@@ -271,7 +271,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 -

@@ -37,7 +37,7 @@ strict
 Test
 color
 scheme
-simulation
+emulation
 buttons
 '
 state
@@ -153,7 +153,7 @@ that
 the
 color
 scheme
-simulation
+emulation
 buttons
 exist
 "
@@ -174,7 +174,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 light
 -
@@ -197,7 +197,7 @@ color
 -
 scheme
 -
-simulation
+emulation
 -
 dark
 -
@@ -213,7 +213,7 @@ The
 light
 color
 scheme
-simulation
+emulation
 button
 exists
 "
@@ -227,7 +227,7 @@ The
 dark
 color
 scheme
-simulation
+emulation
 button
 exists
 "
