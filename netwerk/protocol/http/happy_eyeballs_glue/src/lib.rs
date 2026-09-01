@@ -1931,6 +1931,7 @@ dns_response
 id
 &
 addrs
+stale
 )
 ;
 self
@@ -2201,6 +2202,7 @@ dns_response
 id
 &
 addrs
+stale
 )
 ;
 self
@@ -2773,6 +2775,7 @@ dns_response_https
 id
 &
 infos
+stale
 )
 ;
 self
@@ -3174,6 +3177,7 @@ dns_query_started
 (
 id
 record_type
+allow_stale
 )
 ;
 self
