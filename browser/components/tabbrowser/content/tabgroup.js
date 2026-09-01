@@ -3549,11 +3549,13 @@ group
 *
 param
 {
+(
 MozTabbrowserTab
+|
+MozTabSplitViewWrapper
+)
 [
 ]
-|
-MozSplitViewWrapper
 }
 tabsOrSplitViews
 *
