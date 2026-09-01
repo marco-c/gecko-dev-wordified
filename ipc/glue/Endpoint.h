@@ -194,7 +194,6 @@ template
 class
 T
 >
-static
 auto
 ActorNeedsOtherPidHelper
 (
@@ -229,7 +228,6 @@ template
 <
 class
 >
-static
 auto
 ActorNeedsOtherPidHelper
 (
