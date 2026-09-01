@@ -417,6 +417,12 @@ fence
 refCount
 nullptr
 false
+gfx
+:
+:
+HDRMetadata
+(
+)
 )
 )
 ;
@@ -660,6 +666,12 @@ fence
 refCount
 nullptr
 false
+gfx
+:
+:
+HDRMetadata
+(
+)
 )
 )
 ;
