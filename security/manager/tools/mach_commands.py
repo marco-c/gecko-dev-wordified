@@ -579,6 +579,16 @@ from
 specifications
 .
 "
+    
+virtualenv_name
+=
+"
+generate
+-
+test
+-
+certs
+"
 )
 CommandArgument
 (
