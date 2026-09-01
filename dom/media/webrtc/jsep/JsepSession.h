@@ -570,10 +570,7 @@ AddRtpExtension
 JsepMediaType
 mediaType
 const
-std
-:
-:
-string
+nsACString
 &
 extensionName
 SdpDirectionAttribute
@@ -590,10 +587,7 @@ nsresult
 AddAudioRtpExtension
 (
 const
-std
-:
-:
-string
+nsACString
 &
 extensionName
 SdpDirectionAttribute
@@ -610,10 +604,7 @@ nsresult
 AddVideoRtpExtension
 (
 const
-std
-:
-:
-string
+nsACString
 &
 extensionName
 SdpDirectionAttribute
@@ -630,10 +621,7 @@ nsresult
 AddAudioVideoRtpExtension
 (
 const
-std
-:
-:
-string
+nsACString
 &
 extensionName
 SdpDirectionAttribute
