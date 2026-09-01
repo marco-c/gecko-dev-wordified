@@ -85,6 +85,7 @@ mozilla
 {
 /
 *
+*
 This
 provides
 a
@@ -100,6 +101,7 @@ tests
 In
 order
 to
+*
 change
 a
 preference
@@ -164,6 +166,17 @@ override
 {
 return
 mSoftwareH264Enabled
+;
+}
+bool
+HardwareH264Enabled
+(
+)
+const
+override
+{
+return
+mHardwareH264Enabled
 ;
 }
 bool
@@ -361,6 +374,11 @@ bool
 mSoftwareH264Enabled
 =
 true
+;
+bool
+mHardwareH264Enabled
+=
+false
 ;
 bool
 mH264PacketizationModeZeroSupported
