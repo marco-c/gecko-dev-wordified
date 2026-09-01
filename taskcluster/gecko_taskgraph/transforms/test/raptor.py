@@ -4347,8 +4347,6 @@ CaR
 ChR
 )
     
-jetstream2
-/
 jetstream3
 benchmarks
     
@@ -4481,10 +4479,6 @@ tp6m
 "
         
 "
-jetstream2
-"
-        
-"
 jetstream3
 "
         
@@ -4553,10 +4547,6 @@ playback
 vp9
 -
 720p60
-"
-        
-"
-jetstream2
 "
         
 "
