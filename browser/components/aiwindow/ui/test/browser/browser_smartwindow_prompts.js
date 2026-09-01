@@ -3988,9 +3988,7 @@ open_tabs
 tabGroupLabel
 :
 "
-Pick
-up
-your
+Your
 research
 "
 tabs
@@ -4493,9 +4491,7 @@ open_tabs
 tabGroupLabel
 :
 "
-Pick
-up
-your
+Your
 research
 "
 tabs
