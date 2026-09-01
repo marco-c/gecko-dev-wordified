@@ -2853,6 +2853,8 @@ MOZ_GUARDED_BY
 (
 mLock
 )
+=
+false
 ;
 /
 /
