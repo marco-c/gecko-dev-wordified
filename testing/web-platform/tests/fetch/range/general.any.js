@@ -683,7 +683,7 @@ get_host_info
 (
 )
 .
-HTTP_REMOTE_ORIGIN
+REMOTE_ORIGIN
 +
 '
 /
@@ -868,7 +868,7 @@ get_host_info
 (
 )
 .
-HTTP_REMOTE_ORIGIN
+REMOTE_ORIGIN
 +
 '
 /
