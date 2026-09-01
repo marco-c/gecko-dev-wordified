@@ -1471,14 +1471,14 @@ startBoundaryType
 nsIAccessibleText
 :
 :
-BOUNDARY_CHAR
+BOUNDARY_CLUSTER
 ;
 endBoundaryType
 =
 nsIAccessibleText
 :
 :
-BOUNDARY_CHAR
+BOUNDARY_CLUSTER
 ;
 break
 ;
