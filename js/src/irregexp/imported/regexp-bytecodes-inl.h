@@ -1136,7 +1136,6 @@ CamelName
 {
 \
 enum
-class
 Operand
 {
 UNPAREN
@@ -1144,11 +1143,6 @@ UNPAREN
 OpNames
 )
 }
-;
-\
-using
-enum
-Operand
 ;
 \
 static
@@ -1237,6 +1231,12 @@ OpTypes
 >
 class
 BytecodeOperandsBase
+:
+public
+BytecodeOperandNames
+<
+bc
+>
 {
 public
 :
@@ -2343,14 +2343,6 @@ OpTypes
 public
 AllStatic
 {
-\
-public
-:
-\
-using
-enum
-Operand
-;
 \
 }
 ;
