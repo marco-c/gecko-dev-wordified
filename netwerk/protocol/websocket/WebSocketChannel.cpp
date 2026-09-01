@@ -353,13 +353,6 @@ h
 #
 include
 "
-nsIProtocolHandler
-.
-h
-"
-#
-include
-"
 nsIProtocolProxyService
 .
 h
@@ -564,7 +557,6 @@ nsIWebSocketChannel
 nsIHttpUpgradeListener
 nsIRequestObserver
 nsIStreamListener
-nsIProtocolHandler
 nsIInputStreamCallback
 nsIOutputStreamCallback
 nsITimerCallback

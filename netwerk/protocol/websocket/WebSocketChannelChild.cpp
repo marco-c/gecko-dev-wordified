@@ -299,10 +299,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIWebSocketChannel
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsIProtocolHandler
-)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
