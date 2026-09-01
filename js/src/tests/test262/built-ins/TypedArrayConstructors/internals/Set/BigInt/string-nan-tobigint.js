@@ -403,7 +403,7 @@ n
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -436,6 +436,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -444,7 +445,10 @@ typedArray
 new
 TA
 (
+makeCtorArg
+(
 1
+)
 )
 ;
 assert
@@ -472,6 +476,13 @@ number
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

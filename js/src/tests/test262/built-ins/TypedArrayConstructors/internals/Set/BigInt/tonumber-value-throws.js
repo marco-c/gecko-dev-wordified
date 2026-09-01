@@ -196,7 +196,7 @@ value
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -229,6 +229,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 let
@@ -237,9 +238,12 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42n
 ]
+)
 )
 ;
 let
@@ -466,6 +470,13 @@ Test262Error
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

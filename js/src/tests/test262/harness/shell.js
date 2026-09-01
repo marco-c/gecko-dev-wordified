@@ -277,8 +277,6 @@ link
 .
 .
 /
-docs
-/
 rfcs
 /
 async
