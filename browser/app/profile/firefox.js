@@ -12366,12 +12366,12 @@ cutoff
 in
 thousandths
 (
-850
+825
 -
 >
 0
 .
-85
+825
 )
 .
 Lower
@@ -12407,7 +12407,7 @@ smart
 .
 agglomerativeThresholdInt
 "
-850
+825
 )
 ;
 pref
@@ -27805,7 +27805,7 @@ autoTabGrouping
 .
 maxGroups
 "
-5
+3
 )
 ;
 pref
