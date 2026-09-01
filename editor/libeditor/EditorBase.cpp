@@ -2782,8 +2782,10 @@ this
 /
 cache
 .
+RefPtr
+<
 Selection
-*
+>
 selection
 =
 aSelectionController

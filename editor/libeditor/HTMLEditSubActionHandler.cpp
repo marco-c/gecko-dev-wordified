@@ -3173,9 +3173,11 @@ return
 NS_ERROR_EDITOR_UNEXPECTED_DOM_TREE
 ;
 }
-Element
-*
 const
+RefPtr
+<
+Element
+>
 editingHost
 =
 ComputeEditingHost

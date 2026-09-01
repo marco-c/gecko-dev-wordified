@@ -5470,8 +5470,10 @@ the
 previous
 column
 .
+RefPtr
+<
 Element
-*
+>
 previousCellElement
 =
 aPointToInsert

@@ -2872,8 +2872,10 @@ IsEditActionDataAvailable
 )
 )
 ;
+RefPtr
+<
 Element
-*
+>
 editingHost
 =
 ComputeEditingHost

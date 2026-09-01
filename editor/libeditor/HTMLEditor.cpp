@@ -4218,7 +4218,7 @@ mHasFocus
 {
 if
 (
-auto
+RefPtr
 focusedElement
 =
 GetFocusedElement
@@ -50457,9 +50457,11 @@ current
 editing
 host
 .
-Element
-*
 const
+RefPtr
+<
+Element
+>
 editingHost
 =
 ComputeEditingHost
