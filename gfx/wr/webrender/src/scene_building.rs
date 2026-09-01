@@ -8199,7 +8199,6 @@ LayoutRect
 >
 (
 LayoutPrimitiveInfo
-LayoutRect
 SpatialNodeIndex
 ClipNodeId
 )
@@ -8300,11 +8299,6 @@ unwrap_or
 (
 clip_rect
 )
-;
-let
-unsnapped_rect
-=
-prim_rect
 ;
 let
 clip_node_id
@@ -8413,7 +8407,6 @@ all
 ;
 (
 layout
-unsnapped_rect
 spatial_node_index
 clip_node_id
 )
@@ -8436,7 +8429,6 @@ LayoutRect
 >
 (
 LayoutPrimitiveInfo
-LayoutRect
 SpatialNodeIndex
 ClipNodeId
 )
@@ -8552,7 +8544,6 @@ return
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -8643,7 +8634,6 @@ return
 let
 (
 layout
-unsnapped_rect
 spatial_node_index
 clip_node_id
 )
@@ -8667,7 +8657,9 @@ stretch_size
 process_image_stretch_size
 (
 &
-unsnapped_rect
+layout
+.
+rect
 info
 .
 stretch_size
@@ -8739,7 +8731,6 @@ return
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -8916,7 +8907,6 @@ point
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -8990,7 +8980,6 @@ let
 (
 mut
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -9288,7 +9277,6 @@ line
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -9354,7 +9342,6 @@ gradient
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -9455,7 +9442,6 @@ let
 (
 mut
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -9595,7 +9581,6 @@ conic
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -9700,7 +9685,6 @@ box_shadow
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -9819,7 +9803,6 @@ return
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
@@ -10143,7 +10126,6 @@ backdrop
 let
 (
 layout
-_
 spatial_node_index
 clip_node_id
 )
