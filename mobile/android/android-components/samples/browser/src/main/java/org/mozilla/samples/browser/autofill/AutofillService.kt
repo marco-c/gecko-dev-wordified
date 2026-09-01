@@ -101,7 +101,6 @@ components
 /
 *
 *
-*
 Service
 responsible
 for
@@ -132,5 +131,15 @@ lazy
 components
 .
 autofillConfiguration
+}
+override
+val
+applicationScope
+by
+lazy
+{
+components
+.
+applicationScope
 }
 }
