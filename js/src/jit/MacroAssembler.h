@@ -33162,7 +33162,6 @@ zeroExtend
 )
 DEFINED_ON
 (
-loong64
 riscv64
 )
 ;
@@ -33314,7 +33313,6 @@ zeroExtend
 )
 DEFINED_ON
 (
-loong64
 riscv64
 )
 ;
@@ -33536,7 +33534,6 @@ zeroExtend
 )
 DEFINED_ON
 (
-loong64
 riscv64
 )
 ;
@@ -33784,7 +33781,6 @@ zeroExtend
 )
 DEFINED_ON
 (
-loong64
 riscv64
 )
 ;
@@ -34071,7 +34067,6 @@ zeroExtend
 )
 DEFINED_ON
 (
-loong64
 riscv64
 )
 ;
@@ -34192,7 +34187,6 @@ zeroExtend
 )
 DEFINED_ON
 (
-loong64
 riscv64
 )
 ;
@@ -34354,7 +34348,6 @@ zeroExtend
 )
 DEFINED_ON
 (
-loong64
 riscv64
 )
 ;
