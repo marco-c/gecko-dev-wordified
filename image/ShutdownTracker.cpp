@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h
