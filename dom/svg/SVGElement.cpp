@@ -1834,7 +1834,7 @@ auto
 *
 pathSegList
 =
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 )
@@ -1843,7 +1843,7 @@ GetAnimPathSegList
 dest
 -
 >
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 =
@@ -3442,7 +3442,7 @@ SVGAnimatedPathSegList
 *
 segList
 =
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 )
@@ -5309,7 +5309,7 @@ SVGAnimatedPathSegList
 *
 segList
 =
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 ;
@@ -9096,7 +9096,7 @@ auto
 *
 path
 =
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 ;
@@ -11656,7 +11656,7 @@ newValue
 .
 SetTo
 (
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 -
@@ -11742,7 +11742,7 @@ auto
 *
 animPathSegList
 =
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 ;
@@ -14625,7 +14625,7 @@ SVGAnimatedPathSegList
 *
 segList
 =
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 ;

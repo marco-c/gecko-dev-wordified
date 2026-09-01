@@ -385,7 +385,7 @@ if
 mSVGElement
 -
 >
-GetAnimPathSegList
+GetAnimatedPathSegList
 (
 )
 -
