@@ -6147,7 +6147,6 @@ client
 code
 should
 call
-virtual
 bool
 TestCharacterMap
 (
