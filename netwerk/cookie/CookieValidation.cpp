@@ -892,10 +892,6 @@ aHostURI
 FixDomain
 (
 )
-and
-FixPath
-(
-)
 from
 CookieParser
 MUST
@@ -905,9 +901,9 @@ first
 to
 make
 sure
-/
-/
 invalid
+/
+/
 attributes
 are
 rejected
