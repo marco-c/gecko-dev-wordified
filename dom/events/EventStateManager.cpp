@@ -37921,6 +37921,10 @@ if
 (
 !
 aMovingInto
+&
+&
+!
+isPointer
 )
 {
 /
@@ -38693,6 +38697,12 @@ ePointerEnter
 eMouseEnter
 )
 ;
+if
+(
+!
+isPointer
+)
+{
 SetContentState
 (
 aContent
@@ -38702,6 +38712,7 @@ ElementState
 HOVER
 )
 ;
+}
 NotifyMouseOut
 (
 aMouseEvent
