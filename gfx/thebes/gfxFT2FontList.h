@@ -434,7 +434,7 @@ override
 ;
 hb_blob_t
 *
-GetFontTable
+GetFontTableInternal
 (
 uint32_t
 aTableTag

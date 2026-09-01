@@ -3818,7 +3818,7 @@ hb_blob_t
 CTFontEntry
 :
 :
-GetFontTable
+GetFontTableInternal
 (
 uint32_t
 aTag
