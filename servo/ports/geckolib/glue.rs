@@ -32219,6 +32219,13 @@ pseudo
 enabled_in_content
 (
 data
+/
+*
+for_supports_rule
+=
+*
+/
+false
 )
 {
 return

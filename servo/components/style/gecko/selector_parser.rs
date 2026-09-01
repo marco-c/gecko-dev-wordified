@@ -2999,6 +2999,9 @@ enabled_in_content
 self
 .
 url_data
+self
+.
+for_supports_rule
 )
 {
 return
