@@ -5467,48 +5467,19 @@ locales
     
 )
     
-#
-Read
-from
-the
-packaged
-AppConstants
-.
-sys
-.
-mjs
-(
-single
-source
-of
-truth
-is
-the
-    
-#
-MOZ_BACKGROUNDTASK_CLSID
-build
-config
-in
-toolkit
-/
-moz
-.
-configure
-)
-.
-    
-background_task_clsid
+background_task_class_id
 =
 next
 (
         
 get_appconstants_sys_mjs_values
 (
+            
 unpack_finder
 "
-MOZ_BACKGROUNDTASK_CLSID
+MOZ_BACKGROUNDTASK_ACTIVATABLE_CLASS_ID
 "
+        
 )
     
 )
@@ -5690,26 +5661,10 @@ b047
 "
         
 "
-MOZ_BACKGROUNDTASK_CLSID
+MOZ_BACKGROUNDTASK_ACTIVATABLE_CLASS_ID
 "
 :
-background_task_clsid
-        
-"
-MOZ_MSIXCOMSERVER_APPID
-"
-:
-"
-c9be1ae0
--
-6994
--
-4aff
--
-85d3
--
-d772d5c7a406
-"
+background_task_class_id
     
 }
     
