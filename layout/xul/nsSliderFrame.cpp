@@ -4283,7 +4283,7 @@ StopDrag
 we
 MUST
 call
-nsFrame
+nsIFrame
 HandleEvent
 for
 mouse

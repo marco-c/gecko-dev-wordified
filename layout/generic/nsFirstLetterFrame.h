@@ -354,12 +354,6 @@ GetLogicalSkipSides
 const
 final
 ;
-/
-/
-final
-of
-nsFrame
-method
 nsresult
 GetChildFrameContainingOffset
 (

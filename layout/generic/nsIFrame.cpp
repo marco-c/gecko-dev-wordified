@@ -3126,7 +3126,7 @@ Visibility
 ApproximatelyVisible
 "
 Visible
-nsFrame
+nsIFrame
 is
 being
 destroyed
@@ -39071,7 +39071,7 @@ Do
 not
 touch
 any
-nsFrame
+nsIFrame
 members
 after
 this
@@ -41421,7 +41421,7 @@ t
 rely
 on
 the
-nsFrame
+nsIFrame
 object
 to
 stay
@@ -42046,7 +42046,7 @@ may
 cause
 the
 current
-nsFrame
+nsIFrame
 object
 to
 be
