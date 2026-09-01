@@ -421,14 +421,6 @@ using
 testing
 :
 :
-InvokeWithoutArgs
-;
-using
-:
-:
-testing
-:
-:
 Mock
 ;
 using
@@ -2077,8 +2069,6 @@ OnFrame
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 &
 ]
@@ -2112,7 +2102,6 @@ Seconds
 )
 ;
 }
-)
 )
 ;
 adapter
@@ -2282,8 +2271,6 @@ OnFrame
 .
 WillOnce
 (
-InvokeWithoutArgs
-(
 [
 &
 ]
@@ -2311,7 +2298,6 @@ time_skipped
 )
 ;
 }
-)
 )
 ;
 adapter
@@ -9405,8 +9391,6 @@ OnFrame
 .
 WillRepeatedly
 (
-InvokeWithoutArgs
-(
 [
 &
 kAllowedBelate
@@ -9521,7 +9505,6 @@ Set
 ;
 }
 }
-)
 )
 ;
 adapter

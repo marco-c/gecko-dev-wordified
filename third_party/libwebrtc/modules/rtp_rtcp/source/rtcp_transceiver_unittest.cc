@@ -328,14 +328,6 @@ using
 testing
 :
 :
-InvokeWithoutArgs
-;
-using
-:
-:
-testing
-:
-:
 IsNull
 ;
 using
@@ -529,8 +521,6 @@ Call
 .
 WillRepeatedly
 (
-InvokeWithoutArgs
-(
 [
 &
 ]
@@ -545,7 +535,6 @@ IsCurrent
 )
 ;
 }
-)
 )
 ;
 RtcpTransceiver
@@ -641,8 +630,6 @@ Call
 .
 WillRepeatedly
 (
-InvokeWithoutArgs
-(
 [
 &
 ]
@@ -657,7 +644,6 @@ IsCurrent
 )
 ;
 }
-)
 )
 ;
 std
@@ -1631,8 +1617,6 @@ AtLeast
 .
 WillRepeatedly
 (
-InvokeWithoutArgs
-(
 [
 &
 ]
@@ -1647,7 +1631,6 @@ IsCurrent
 )
 ;
 }
-)
 )
 ;
 RtcpTransceiver
