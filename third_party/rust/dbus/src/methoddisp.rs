@@ -1261,6 +1261,7 @@ a
 (
 Box
 <
+dyn
 Fn
 (
 &
@@ -1389,6 +1390,7 @@ MethodSync
 (
 Box
 <
+dyn
 Fn
 (
 &
@@ -3300,7 +3302,7 @@ an
 annotation
 to
 this
-Inteface
+Interface
 .
 pub
 fn
