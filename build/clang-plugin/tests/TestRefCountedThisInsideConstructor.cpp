@@ -1,11 +1,6 @@
 #
 include
 <
-functional
->
-#
-include
-<
 mozilla
 /
 RefPtr
@@ -73,6 +68,8 @@ the
 constructor
 is
 a
+/
+/
 footgun
 this
 may
@@ -84,6 +81,8 @@ end
 of
 the
 constructor
+/
+/
 unless
 there
 '
@@ -95,6 +94,8 @@ reference
 Consider
 adding
 a
+/
+/
 separate
 Create
 function
@@ -127,6 +128,8 @@ inside
 the
 constructor
 is
+/
+/
 a
 footgun
 this
@@ -138,6 +141,8 @@ the
 end
 of
 the
+/
+/
 constructor
 unless
 there
@@ -148,6 +153,8 @@ strong
 reference
 .
 Consider
+/
+/
 adding
 a
 separate
@@ -182,6 +189,8 @@ inside
 the
 constructor
 is
+/
+/
 a
 footgun
 this
@@ -193,6 +202,8 @@ the
 end
 of
 the
+/
+/
 constructor
 unless
 there
@@ -203,6 +214,8 @@ strong
 reference
 .
 Consider
+/
+/
 adding
 a
 separate
@@ -238,6 +251,8 @@ inside
 the
 constructor
 is
+/
+/
 a
 footgun
 this
@@ -249,6 +264,8 @@ the
 end
 of
 the
+/
+/
 constructor
 unless
 there
@@ -259,6 +276,8 @@ strong
 reference
 .
 Consider
+/
+/
 adding
 a
 separate
@@ -294,6 +313,8 @@ inside
 the
 constructor
 is
+/
+/
 a
 footgun
 this
@@ -305,6 +326,8 @@ the
 end
 of
 the
+/
+/
 constructor
 unless
 there
@@ -315,6 +338,8 @@ strong
 reference
 .
 Consider
+/
+/
 adding
 a
 separate
@@ -355,6 +380,8 @@ the
 constructor
 is
 a
+/
+/
 footgun
 this
 may
@@ -366,6 +393,8 @@ end
 of
 the
 constructor
+/
+/
 unless
 there
 '
@@ -378,6 +407,8 @@ Consider
 adding
 a
 separate
+/
+/
 Create
 function
 and
@@ -409,6 +440,8 @@ inside
 the
 constructor
 is
+/
+/
 a
 footgun
 this
@@ -420,6 +453,8 @@ the
 end
 of
 the
+/
+/
 constructor
 unless
 there
@@ -430,6 +465,8 @@ strong
 reference
 .
 Consider
+/
+/
 adding
 a
 separate
@@ -461,6 +498,8 @@ inside
 the
 constructor
 is
+/
+/
 a
 footgun
 this
@@ -472,6 +511,8 @@ the
 end
 of
 the
+/
+/
 constructor
 unless
 there
@@ -482,6 +523,8 @@ strong
 reference
 .
 Consider
+/
+/
 adding
 a
 separate
@@ -602,6 +645,8 @@ constructor
 is
 a
 footgun
+/
+/
 this
 may
 be
@@ -616,6 +661,8 @@ unless
 there
 '
 s
+/
+/
 another
 strong
 reference
@@ -627,6 +674,8 @@ separate
 Create
 function
 and
+/
+/
 do
 the
 work
@@ -667,6 +716,8 @@ constructor
 is
 a
 footgun
+/
+/
 this
 may
 be
@@ -681,6 +732,8 @@ unless
 there
 '
 s
+/
+/
 another
 strong
 reference
@@ -692,6 +745,8 @@ separate
 Create
 function
 and
+/
+/
 do
 the
 work
@@ -804,6 +859,8 @@ the
 constructor
 is
 a
+/
+/
 footgun
 this
 may
@@ -815,6 +872,8 @@ end
 of
 the
 constructor
+/
+/
 unless
 there
 '
@@ -826,6 +885,8 @@ reference
 Consider
 adding
 a
+/
+/
 separate
 Create
 function
@@ -859,6 +920,8 @@ the
 constructor
 is
 a
+/
+/
 footgun
 this
 may
@@ -870,6 +933,8 @@ end
 of
 the
 constructor
+/
+/
 unless
 there
 '
@@ -881,6 +946,8 @@ reference
 Consider
 adding
 a
+/
+/
 separate
 Create
 function
@@ -914,6 +981,8 @@ the
 constructor
 is
 a
+/
+/
 footgun
 this
 may
@@ -925,6 +994,8 @@ end
 of
 the
 constructor
+/
+/
 unless
 there
 '
@@ -936,6 +1007,8 @@ reference
 Consider
 adding
 a
+/
+/
 separate
 Create
 function
@@ -1033,6 +1106,8 @@ the
 constructor
 is
 a
+/
+/
 footgun
 this
 may
@@ -1044,6 +1119,8 @@ end
 of
 the
 constructor
+/
+/
 unless
 there
 '
@@ -1055,6 +1132,8 @@ reference
 Consider
 adding
 a
+/
+/
 separate
 Create
 function

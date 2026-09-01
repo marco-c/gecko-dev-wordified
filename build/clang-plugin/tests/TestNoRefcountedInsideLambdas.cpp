@@ -1033,6 +1033,8 @@ type
 '
 R
 '
+/
+/
 cannot
 be
 captured
@@ -1047,6 +1049,8 @@ note
 {
 {
 Please
+/
+/
 consider
 using
 a
@@ -1174,6 +1178,8 @@ type
 R
 '
 cannot
+/
+/
 be
 captured
 by
@@ -1189,6 +1195,8 @@ note
 Please
 consider
 using
+/
+/
 a
 smart
 pointer
@@ -1294,6 +1302,8 @@ type
 '
 R
 '
+/
+/
 cannot
 be
 captured
@@ -1308,6 +1318,8 @@ note
 {
 {
 Please
+/
+/
 consider
 using
 a
@@ -1436,6 +1448,8 @@ type
 '
 R
 '
+/
+/
 cannot
 be
 captured
@@ -1450,6 +1464,8 @@ note
 {
 {
 Please
+/
+/
 consider
 using
 a
@@ -2847,6 +2863,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -2887,6 +2905,8 @@ by
 reference
 due
 to
+/
+/
 use
 here
 }
@@ -2963,6 +2983,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -3005,6 +3027,8 @@ by
 reference
 due
 to
+/
+/
 use
 here
 }
@@ -3079,6 +3103,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -3118,6 +3144,8 @@ reference
 due
 to
 use
+/
+/
 here
 }
 }
@@ -3187,6 +3215,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -3228,6 +3258,8 @@ reference
 due
 to
 use
+/
+/
 here
 }
 }
@@ -3312,6 +3344,8 @@ type
 '
 R
 '
+/
+/
 cannot
 be
 captured
@@ -3326,6 +3360,8 @@ note
 {
 {
 Please
+/
+/
 consider
 using
 a
@@ -3471,6 +3507,8 @@ type
 R
 '
 cannot
+/
+/
 be
 captured
 by
@@ -3485,6 +3523,8 @@ note
 {
 Please
 consider
+/
+/
 using
 a
 smart
@@ -3605,6 +3645,8 @@ variable
 ptr
 '
 of
+/
+/
 type
 '
 R
@@ -3617,6 +3659,8 @@ a
 lambda
 }
 }
+/
+/
 expected
 -
 note
@@ -3627,6 +3671,8 @@ consider
 using
 a
 smart
+/
+/
 pointer
 }
 }
@@ -3765,6 +3811,8 @@ variable
 ptr
 '
 of
+/
+/
 type
 '
 R
@@ -3777,6 +3825,8 @@ a
 lambda
 }
 }
+/
+/
 expected
 -
 note
@@ -3787,6 +3837,8 @@ consider
 using
 a
 smart
+/
+/
 pointer
 }
 }
@@ -3918,6 +3970,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -3928,6 +3982,8 @@ ptr
 returned
 }
 }
+/
+/
 expected
 -
 note
@@ -3992,6 +4048,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -4083,6 +4141,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -4093,6 +4153,8 @@ sp
 returned
 }
 }
+/
+/
 expected
 -
 note
@@ -4161,6 +4223,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -4252,6 +4316,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -4262,6 +4328,8 @@ ptr
 returned
 }
 }
+/
+/
 expected
 -
 note
@@ -4320,6 +4388,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -4405,6 +4475,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -4415,6 +4487,8 @@ sp
 returned
 }
 }
+/
+/
 expected
 -
 note
@@ -4477,6 +4551,8 @@ address
 of
 stack
 memory
+/
+/
 associated
 with
 local
@@ -4780,6 +4856,8 @@ type
 '
 R
 '
+/
+/
 cannot
 be
 captured
@@ -4794,6 +4872,8 @@ note
 {
 {
 Please
+/
+/
 consider
 using
 a
@@ -4841,6 +4921,8 @@ this
 '
 of
 type
+/
+/
 '
 R
 '
@@ -4852,6 +4934,8 @@ a
 lambda
 }
 }
+/
+/
 expected
 -
 note
@@ -4862,6 +4946,8 @@ consider
 using
 a
 smart
+/
+/
 pointer
 }
 }
@@ -4906,6 +4992,8 @@ type
 R
 '
 cannot
+/
+/
 be
 captured
 by
@@ -4921,6 +5009,8 @@ note
 Please
 consider
 using
+/
+/
 a
 smart
 pointer
@@ -4966,6 +5056,8 @@ type
 '
 R
 '
+/
+/
 cannot
 be
 captured
@@ -4980,6 +5072,8 @@ note
 {
 {
 Please
+/
+/
 consider
 using
 a

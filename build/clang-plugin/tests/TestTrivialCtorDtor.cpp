@@ -70,6 +70,8 @@ class
 BadUserDefinedCtor
 '
 must
+/
+/
 have
 trivial
 constructors
@@ -100,6 +102,8 @@ class
 BadUserDefinedDtor
 '
 must
+/
+/
 have
 trivial
 constructors
@@ -132,6 +136,8 @@ BadVirtualDtor
 '
 must
 have
+/
+/
 trivial
 constructors
 and
@@ -180,6 +186,8 @@ class
 BadNonEmptyCtorDtor
 '
 must
+/
+/
 have
 trivial
 constructors
@@ -266,6 +274,8 @@ class
 BadNonTrivialCtorInBase
 '
 must
+/
+/
 have
 trivial
 constructors
@@ -293,6 +303,8 @@ class
 BadNonTrivialDtorInBase
 '
 must
+/
+/
 have
 trivial
 constructors
@@ -314,12 +326,16 @@ error
 {
 {
 class
+/
+/
 '
 BadNonTrivialCtorInMember
 '
 must
 have
 trivial
+/
+/
 constructors
 and
 destructors
@@ -342,12 +358,16 @@ error
 {
 {
 class
+/
+/
 '
 BadNonTrivialDtorInMember
 '
 must
 have
 trivial
+/
+/
 constructors
 and
 destructors

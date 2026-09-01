@@ -15,6 +15,7 @@ moz_non_memmovable
 #
 define
 MOZ_NEEDS_MEMMOVABLE_TYPE
+\
 __attribute__
 (
 (
@@ -29,6 +30,7 @@ moz_needs_memmovable_type
 #
 define
 MOZ_NEEDS_MEMMOVABLE_MEMBERS
+\
 __attribute__
 (
 (
@@ -110,6 +112,8 @@ able
 type
 because
 it
+/
+/
 inherits
 from
 a
@@ -161,6 +165,8 @@ memmove
 )
 able
 type
+/
+/
 because
 member
 '
@@ -220,6 +226,8 @@ memmove
 )
 able
 type
+/
+/
 because
 member
 '
@@ -284,6 +292,8 @@ able
 type
 because
 it
+/
+/
 inherits
 from
 a
@@ -335,6 +345,8 @@ able
 type
 because
 it
+/
+/
 inherits
 from
 a
@@ -402,6 +414,8 @@ memmove
 (
 )
 able
+/
+/
 type
 because
 member
@@ -828,6 +842,8 @@ NeedyTemplate1
 >
 '
 with
+/
+/
 non
 -
 memmovable
@@ -865,6 +881,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate1
 <
@@ -897,6 +915,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate1
 <
@@ -929,6 +949,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate1
 <
@@ -961,6 +983,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate1
 <
@@ -993,6 +1017,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate1
 <
@@ -1036,6 +1062,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1071,6 +1099,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1106,6 +1136,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1141,6 +1173,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1176,6 +1210,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1211,6 +1247,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1246,6 +1284,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1281,6 +1321,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1316,6 +1358,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1351,6 +1395,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1386,6 +1432,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1421,6 +1469,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1456,6 +1506,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1491,6 +1543,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1526,6 +1580,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1561,6 +1617,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1596,6 +1654,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1631,6 +1691,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -1666,6 +1728,8 @@ NeedyTemplate1
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -2031,6 +2095,8 @@ NeedyTemplate2
 >
 '
 with
+/
+/
 non
 -
 memmovable
@@ -2085,6 +2151,8 @@ NeedyTemplate2
 >
 '
 requested
+/
+/
 here
 }
 }
@@ -2652,6 +2720,8 @@ NeedyTemplate3
 >
 '
 with
+/
+/
 non
 -
 memmovable
@@ -2693,6 +2763,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate3
 <
@@ -3275,6 +3347,8 @@ NeedyTemplate4
 >
 '
 with
+/
+/
 non
 -
 memmovable
@@ -3329,6 +3403,8 @@ NeedyTemplate4
 >
 '
 requested
+/
+/
 here
 }
 }
@@ -3913,6 +3989,8 @@ NeedyTemplate5
 >
 '
 with
+/
+/
 non
 -
 memmovable
@@ -3954,6 +4032,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate5
 <
@@ -4533,6 +4613,8 @@ a
 test
 with
 the
+/
+/
 default
 template
 argument
@@ -4577,6 +4659,8 @@ NeedyTemplate6
 >
 '
 with
+/
+/
 non
 -
 memmovable
@@ -4618,6 +4702,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate6
 <
@@ -4664,6 +4750,8 @@ NeedyTemplate6
 will
 already
 be
+/
+/
 instantiated
 with
 NonMovable
@@ -5264,6 +5352,8 @@ NeedyTemplate7
 >
 '
 with
+/
+/
 non
 -
 memmovable
@@ -5323,6 +5413,8 @@ NeedyTemplate7
 >
 '
 requested
+/
+/
 here
 }
 }
@@ -5854,6 +5946,8 @@ instantiated
 as
 default
 template
+/
+/
 argument
 /
 /
@@ -5895,6 +5989,8 @@ NeedyTemplate8
 >
 '
 with
+/
+/
 non
 -
 memmovable
@@ -5954,6 +6050,8 @@ NeedyTemplate8
 >
 '
 requested
+/
+/
 here
 }
 }
@@ -6584,6 +6682,8 @@ memmove
 )
 able
 type
+/
+/
 because
 it
 inherits
@@ -6596,6 +6696,8 @@ memmove
 )
 able
 type
+/
+/
 '
 SpecializedNonMovable
 '
@@ -6827,6 +6929,8 @@ re
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate1
 <
@@ -6841,6 +6945,8 @@ SpecializedNonMovable
 }
 >
 '
+/
+/
 requested
 here
 }
@@ -6943,6 +7049,8 @@ note
 {
 instantiation
 of
+/
+/
 '
 NeedyTemplate1
 <
@@ -7019,6 +7127,8 @@ NeedsMemMovableMembers
 '
 cannot
 have
+/
+/
 non
 -
 memmovable
@@ -7051,6 +7161,8 @@ class
 NeedsMemMovableMembers
 '
 cannot
+/
+/
 have
 non
 -
@@ -7084,6 +7196,8 @@ class
 NeedsMemMovableMembers
 '
 cannot
+/
+/
 have
 non
 -
@@ -7118,6 +7232,8 @@ NeedsMemMovableMembers
 '
 cannot
 have
+/
+/
 non
 -
 memmovable
@@ -7151,6 +7267,8 @@ NeedsMemMovableMembers
 '
 cannot
 have
+/
+/
 non
 -
 memmovable
@@ -7184,6 +7302,8 @@ NeedsMemMovableMembers
 '
 cannot
 have
+/
+/
 non
 -
 memmovable

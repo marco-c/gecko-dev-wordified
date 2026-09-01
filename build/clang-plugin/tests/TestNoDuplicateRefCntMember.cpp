@@ -41,6 +41,8 @@ also
 has
 an
 mRefCnt
+/
+/
 member
 }
 }
@@ -57,6 +59,8 @@ RC1
 has
 an
 mRefCnt
+/
+/
 member
 }
 }
@@ -81,6 +85,8 @@ record
 RC2
 '
 has
+/
+/
 multiple
 mRefCnt
 members
@@ -118,6 +124,8 @@ the
 _INHERITED
 macros
 for
+/
+/
 AddRef
 and
 Release
@@ -165,6 +173,8 @@ record
 RC4
 '
 has
+/
+/
 multiple
 superclasses
 with
@@ -200,6 +210,8 @@ record
 '
 RC6
 '
+/
+/
 has
 multiple
 mRefCnt
@@ -238,6 +250,8 @@ the
 _INHERITED
 macros
 for
+/
+/
 AddRef
 and
 Release
@@ -315,6 +329,8 @@ MultRCSuper
 has
 multiple
 superclasses
+/
+/
 with
 mRefCnt
 members

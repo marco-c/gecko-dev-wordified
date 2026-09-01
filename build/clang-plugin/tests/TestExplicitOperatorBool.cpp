@@ -32,6 +32,8 @@ implicit
 conversion
 operator
 for
+/
+/
 '
 Bad
 '
@@ -46,6 +48,8 @@ consider
 adding
 the
 explicit
+/
+/
 keyword
 to
 '

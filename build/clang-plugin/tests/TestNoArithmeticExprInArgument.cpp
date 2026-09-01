@@ -1,6 +1,7 @@
 #
 define
 MOZ_NO_ARITHMETIC_EXPR_IN_ARGUMENT
+\
 __attribute__
 (
 (
@@ -108,6 +109,8 @@ an
 arithmetic
 expression
 of
+/
+/
 built
 -
 in
@@ -143,6 +146,8 @@ cannot
 pass
 an
 arithmetic
+/
+/
 expression
 of
 built
@@ -175,6 +180,8 @@ an
 arithmetic
 expression
 of
+/
+/
 built
 -
 in
@@ -207,6 +214,8 @@ cannot
 pass
 an
 arithmetic
+/
+/
 expression
 of
 built
@@ -241,6 +250,8 @@ an
 arithmetic
 expression
 of
+/
+/
 built
 -
 in
@@ -273,6 +284,8 @@ an
 arithmetic
 expression
 of
+/
+/
 built
 -
 in

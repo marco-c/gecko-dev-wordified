@@ -116,6 +116,8 @@ point
 value
 to
 itself
+/
+/
 for
 NaN
 checking
@@ -126,6 +128,8 @@ incorrect
 results
 }
 }
+/
+/
 expected
 -
 note
@@ -162,6 +166,8 @@ point
 value
 to
 itself
+/
+/
 for
 NaN
 checking
@@ -172,6 +178,8 @@ incorrect
 results
 }
 }
+/
+/
 expected
 -
 note
@@ -208,6 +216,8 @@ point
 value
 to
 itself
+/
+/
 for
 NaN
 checking
@@ -218,6 +228,8 @@ incorrect
 results
 }
 }
+/
+/
 expected
 -
 note
@@ -254,6 +266,8 @@ point
 value
 to
 itself
+/
+/
 for
 NaN
 checking
@@ -264,6 +278,8 @@ incorrect
 results
 }
 }
+/
+/
 expected
 -
 note

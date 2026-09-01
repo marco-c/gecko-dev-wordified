@@ -67,6 +67,8 @@ recognized
 .
 Please
 use
+/
+/
 the
 background
 thread
@@ -77,6 +79,8 @@ pool
 expected
 -
 note
+/
+/
 {
 {
 NS_NewNamedThread
@@ -86,11 +90,15 @@ deprecated
 in
 favor
 of
+/
+/
 background
 task
 dispatch
 via
 NS_DispatchBackgroundTask
+/
+/
 and
 NS_CreateBackgroundTaskQueue
 .
@@ -99,6 +107,8 @@ you
 must
 create
 a
+/
+/
 new
 ad
 -
@@ -110,6 +120,8 @@ thread
 name
 added
 to
+/
+/
 ThreadAllows
 .
 txt

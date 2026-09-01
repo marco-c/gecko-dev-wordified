@@ -91,8 +91,6 @@ callExpr
 isSnprintfLikeFunc
 (
 )
-allOf
-(
 hasArgument
 (
 0
@@ -175,7 +173,6 @@ bind
 "
 constant
 "
-)
 )
 )
 )

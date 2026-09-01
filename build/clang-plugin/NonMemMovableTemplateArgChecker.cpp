@@ -98,8 +98,6 @@ addMatcher
 (
 classTemplateSpecializationDecl
 (
-allOf
-(
 needsMemMovableTemplateArg
 (
 )
@@ -109,7 +107,6 @@ refersToType
 (
 isNonMemMovable
 (
-)
 )
 )
 )

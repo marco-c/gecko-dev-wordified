@@ -177,6 +177,8 @@ Temporary
 '
 is
 only
+/
+/
 valid
 as
 a
@@ -190,6 +192,8 @@ note
 {
 value
 incorrectly
+/
+/
 allocated
 in
 an
@@ -219,6 +223,8 @@ type
 Temporary
 {
 {
+/
+/
 ?
 }
 }
@@ -237,6 +243,8 @@ temporary
 expected
 -
 note
+/
+/
 {
 {
 value
@@ -245,6 +253,8 @@ allocated
 in
 an
 automatic
+/
+/
 variable
 }
 }
@@ -268,6 +278,8 @@ Temporary
 '
 is
 a
+/
+/
 temporary
 type
 because
@@ -278,6 +290,8 @@ array
 of
 temporary
 type
+/
+/
 '
 Temporary
 '
@@ -302,6 +316,8 @@ Temporary
 '
 is
 only
+/
+/
 valid
 as
 a
@@ -315,6 +331,8 @@ note
 {
 value
 incorrectly
+/
+/
 allocated
 in
 a
@@ -345,6 +363,8 @@ type
 Temporary
 {
 {
+/
+/
 ?
 }
 }
@@ -360,6 +380,8 @@ a
 temporary
 }
 }
+/
+/
 expected
 -
 note
@@ -370,6 +392,8 @@ incorrectly
 allocated
 in
 a
+/
+/
 global
 variable
 }
@@ -385,6 +409,8 @@ re
 Temporary
 {
 {
+/
+/
 ?
 }
 }
@@ -400,6 +426,8 @@ because
 it
 is
 an
+/
+/
 array
 of
 temporary
@@ -506,6 +534,8 @@ type
 Temporary
 '
 is
+/
+/
 only
 valid
 as
@@ -519,6 +549,8 @@ note
 {
 {
 value
+/
+/
 incorrectly
 allocated
 on
@@ -549,6 +581,8 @@ type
 Temporary
 '
 is
+/
+/
 only
 valid
 as
@@ -559,6 +593,8 @@ temporary
 expected
 -
 note
+/
+/
 {
 {
 value
@@ -588,6 +624,8 @@ error
 variable
 of
 type
+/
+/
 '
 TemplateClass
 <
@@ -599,6 +637,8 @@ only
 valid
 as
 a
+/
+/
 temporary
 }
 }
@@ -608,6 +648,8 @@ note
 {
 {
 value
+/
+/
 incorrectly
 allocated
 on
@@ -642,6 +684,8 @@ type
 '
 Temporary
 '
+/
+/
 is
 only
 valid
@@ -653,6 +697,8 @@ temporary
 expected
 -
 note
+/
+/
 {
 {
 value
@@ -719,6 +765,8 @@ Temporary
 '
 is
 only
+/
+/
 valid
 as
 a
@@ -731,6 +779,8 @@ note
 {
 {
 value
+/
+/
 incorrectly
 allocated
 in
@@ -769,6 +819,8 @@ type
 Temporary
 '
 is
+/
+/
 only
 valid
 as
@@ -782,6 +834,8 @@ note
 {
 {
 value
+/
+/
 incorrectly
 allocated
 in
@@ -808,6 +862,8 @@ only
 used
 as
 a
+/
+/
 temporary
 .
 static
@@ -829,6 +885,8 @@ Temporary
 '
 is
 only
+/
+/
 valid
 as
 a
@@ -842,6 +900,8 @@ note
 {
 value
 incorrectly
+/
+/
 allocated
 in
 a

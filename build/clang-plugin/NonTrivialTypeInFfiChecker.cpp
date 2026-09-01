@@ -91,6 +91,9 @@ functionDecl
 isExternC
 (
 )
+isFirstParty
+(
+)
 )
 .
 bind
@@ -172,17 +175,6 @@ func
 )
 .
 second
-)
-{
-return
-;
-}
-if
-(
-inThirdPartyPath
-(
-func
-)
 )
 {
 return

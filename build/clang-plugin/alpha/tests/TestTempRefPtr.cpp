@@ -96,6 +96,8 @@ performance
 issue
 :
 temporary
+/
+/
 '
 RefPtr
 <
@@ -106,6 +108,8 @@ is
 only
 dereferenced
 here
+/
+/
 once
 which
 involves
@@ -151,6 +155,8 @@ performance
 issue
 :
 temporary
+/
+/
 '
 RefPtr
 <
@@ -161,6 +167,8 @@ is
 only
 dereferenced
 here
+/
+/
 once
 which
 involves
@@ -210,6 +218,8 @@ performance
 issue
 :
 temporary
+/
+/
 '
 RefPtr
 <
@@ -220,6 +230,8 @@ is
 only
 dereferenced
 here
+/
+/
 once
 which
 involves
@@ -268,6 +280,8 @@ performance
 issue
 :
 temporary
+/
+/
 '
 RefPtr
 <
@@ -278,6 +292,8 @@ is
 only
 dereferenced
 here
+/
+/
 once
 which
 involves
@@ -319,6 +335,8 @@ performance
 issue
 :
 temporary
+/
+/
 '
 RefPtr
 <
@@ -329,6 +347,8 @@ is
 only
 dereferenced
 here
+/
+/
 once
 which
 involves
@@ -373,6 +393,8 @@ performance
 issue
 :
 temporary
+/
+/
 '
 RefPtr
 <
@@ -383,6 +405,8 @@ is
 only
 dereferenced
 here
+/
+/
 once
 which
 involves
@@ -395,6 +419,8 @@ Release
 calls
 }
 }
+/
+/
 expected
 -
 note
@@ -403,6 +429,8 @@ note
 consider
 changing
 function
+/
+/
 RefCountedBaseHolder
 :
 :
@@ -410,6 +438,8 @@ GetRefCountedBase
 to
 return
 a
+/
+/
 raw
 reference
 instead

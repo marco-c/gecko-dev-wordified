@@ -177,7 +177,15 @@ EmptyBasesAttr
 ;
 }
 }
+/
+/
+namespace
+ast_matchers
 }
+/
+/
+namespace
+clang
 void
 EmptyBasesChecker
 :

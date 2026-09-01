@@ -198,6 +198,8 @@ as
 return
 type
 of
+/
+/
 extern
 "
 C
@@ -215,6 +217,8 @@ consider
 using
 a
 pointer
+/
+/
 or
 reference
 instead
@@ -252,6 +256,8 @@ be
 used
 as
 return
+/
+/
 type
 of
 extern
@@ -270,6 +276,8 @@ Please
 consider
 using
 a
+/
+/
 pointer
 or
 reference
@@ -278,6 +286,8 @@ explicitly
 instantiating
 the
 template
+/
+/
 instead
 }
 }
@@ -313,6 +323,8 @@ be
 used
 as
 return
+/
+/
 type
 of
 extern
@@ -331,6 +343,8 @@ Please
 consider
 using
 a
+/
+/
 pointer
 or
 reference
@@ -339,6 +353,8 @@ explicitly
 instantiating
 the
 template
+/
+/
 instead
 }
 }
@@ -396,6 +412,8 @@ be
 used
 as
 return
+/
+/
 type
 of
 extern
@@ -414,6 +432,8 @@ Please
 consider
 using
 a
+/
+/
 pointer
 or
 reference
@@ -422,6 +442,8 @@ explicitly
 instantiating
 the
 template
+/
+/
 instead
 }
 }
@@ -471,6 +493,8 @@ not
 be
 used
 as
+/
+/
 parameter
 to
 extern
@@ -486,6 +510,8 @@ note
 {
 {
 Please
+/
+/
 consider
 using
 a
@@ -534,6 +560,8 @@ int
 >
 '
 must
+/
+/
 not
 be
 used
@@ -544,6 +572,8 @@ extern
 "
 C
 "
+/
+/
 function
 }
 }
@@ -555,12 +585,16 @@ note
 Please
 consider
 using
+/
+/
 a
 pointer
 or
 reference
 or
 explicitly
+/
+/
 instantiating
 the
 template
@@ -609,6 +643,8 @@ float
 '
 must
 not
+/
+/
 be
 used
 as
@@ -621,6 +657,8 @@ C
 function
 }
 }
+/
+/
 expected
 -
 note
@@ -631,12 +669,16 @@ consider
 using
 a
 pointer
+/
+/
 or
 reference
 or
 explicitly
 instantiating
 the
+/
+/
 template
 instead
 }
@@ -666,6 +708,8 @@ not
 be
 used
 as
+/
+/
 return
 type
 of
@@ -683,6 +727,8 @@ note
 {
 Please
 consider
+/
+/
 using
 a
 pointer
@@ -712,6 +758,8 @@ Type
 '
 TransitivelyNonTrivial
 '
+/
+/
 must
 not
 be
@@ -723,6 +771,8 @@ extern
 "
 C
 "
+/
+/
 function
 }
 }
@@ -734,6 +784,8 @@ note
 Please
 consider
 using
+/
+/
 a
 pointer
 or

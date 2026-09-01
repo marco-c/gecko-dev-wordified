@@ -1,6 +1,7 @@
 #
 define
 MOZ_REQUIRED_BASE_METHOD
+\
 __attribute__
 (
 (
@@ -46,6 +47,8 @@ error
 {
 {
 MOZ_REQUIRED_BASE_METHOD
+/
+/
 can
 be
 used
@@ -122,6 +125,8 @@ error
 {
 {
 MOZ_REQUIRED_BASE_METHOD
+/
+/
 can
 be
 used

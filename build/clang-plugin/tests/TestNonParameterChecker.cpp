@@ -84,6 +84,8 @@ param
 type
 because
 member
+/
+/
 '
 x
 '
@@ -128,6 +130,8 @@ param
 type
 because
 member
+/
+/
 '
 x
 '
@@ -168,6 +172,8 @@ non
 param
 type
 because
+/
+/
 member
 '
 z
@@ -289,6 +295,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -330,6 +338,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -371,6 +381,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -409,6 +421,8 @@ not
 be
 used
 as
+/
+/
 parameter
 }
 }
@@ -423,6 +437,8 @@ passing
 a
 const
 reference
+/
+/
 instead
 }
 }
@@ -574,6 +590,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -619,6 +637,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -661,6 +681,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -750,6 +772,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -795,6 +819,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -837,6 +863,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -965,6 +993,8 @@ argument
 was
 passed
 to
+/
+/
 '
 tmplClassForNonParam
 '
@@ -1035,6 +1065,8 @@ bad
 argument
 was
 passed
+/
+/
 to
 '
 tmplClassForHasNonParamStruct
@@ -1125,6 +1157,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -1178,6 +1212,8 @@ bad
 argument
 was
 passed
+/
+/
 to
 '
 NestedTemplateInner
@@ -1229,6 +1265,8 @@ The
 bad
 argument
 was
+/
+/
 passed
 to
 '
@@ -1282,6 +1320,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -1328,6 +1368,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -1374,6 +1416,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -1420,6 +1464,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -1476,6 +1522,8 @@ argument
 was
 passed
 to
+/
+/
 '
 tmplFuncForNonParam
 '
@@ -1501,6 +1549,8 @@ argument
 was
 passed
 to
+/
+/
 '
 tmplFuncForNonParamImplicit
 '
@@ -1530,6 +1580,8 @@ The
 bad
 argument
 was
+/
+/
 passed
 to
 '
@@ -1555,11 +1607,15 @@ The
 bad
 argument
 was
+/
+/
 passed
 to
 '
 tmplFuncForHasNonParamStructImplicit
 '
+/
+/
 here
 "
 }
@@ -1617,6 +1673,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -1662,6 +1720,8 @@ not
 be
 used
 as
+/
+/
 parameter
 }
 }
@@ -1676,6 +1736,8 @@ passing
 a
 const
 reference
+/
+/
 instead
 }
 }
@@ -1713,6 +1775,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -1758,6 +1822,8 @@ not
 be
 used
 as
+/
+/
 parameter
 }
 }
@@ -1772,6 +1838,8 @@ passing
 a
 const
 reference
+/
+/
 instead
 }
 }
@@ -1819,6 +1887,8 @@ NonParam
 must
 not
 be
+/
+/
 used
 as
 parameter
@@ -1830,6 +1900,8 @@ note
 {
 {
 Please
+/
+/
 consider
 passing
 a
@@ -1869,6 +1941,8 @@ not
 be
 used
 as
+/
+/
 parameter
 }
 }
@@ -1882,6 +1956,8 @@ consider
 passing
 a
 const
+/
+/
 reference
 instead
 }
@@ -1917,6 +1993,8 @@ not
 be
 used
 as
+/
+/
 parameter
 }
 }
@@ -1930,6 +2008,8 @@ consider
 passing
 a
 const
+/
+/
 reference
 instead
 }
@@ -1963,6 +2043,8 @@ HasNonParamStructUnion
 must
 not
 be
+/
+/
 used
 as
 parameter
@@ -1977,6 +2059,8 @@ Please
 consider
 passing
 a
+/
+/
 const
 reference
 instead
@@ -2020,6 +2104,8 @@ because
 it
 has
 an
+/
+/
 explicit
 alignment
 of
@@ -2055,6 +2141,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note
@@ -2118,6 +2206,8 @@ member
 a
 '
 has
+/
+/
 an
 explicit
 alignment
@@ -2154,6 +2244,8 @@ as
 parameter
 }
 }
+/
+/
 expected
 -
 note

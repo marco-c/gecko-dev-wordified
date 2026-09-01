@@ -165,6 +165,8 @@ NonHeap
 '
 is
 not
+/
+/
 valid
 on
 the
@@ -178,6 +180,8 @@ note
 {
 value
 incorrectly
+/
+/
 allocated
 on
 the
@@ -208,6 +212,8 @@ NonHeap
 '
 is
 not
+/
+/
 valid
 on
 the
@@ -220,6 +226,8 @@ note
 {
 {
 value
+/
+/
 incorrectly
 allocated
 on
@@ -246,6 +254,8 @@ error
 variable
 of
 type
+/
+/
 '
 TemplateClass
 <
@@ -257,6 +267,8 @@ not
 valid
 on
 the
+/
+/
 heap
 }
 }
@@ -267,6 +279,8 @@ note
 {
 value
 incorrectly
+/
+/
 allocated
 on
 the
@@ -300,6 +314,8 @@ type
 '
 NonHeap
 '
+/
+/
 is
 not
 valid
@@ -311,6 +327,8 @@ heap
 expected
 -
 note
+/
+/
 {
 {
 value
@@ -365,6 +383,8 @@ non
 -
 heap
 type
+/
+/
 because
 member
 '
@@ -375,6 +395,8 @@ a
 non
 -
 heap
+/
+/
 type
 '
 NonHeap
@@ -428,6 +450,8 @@ it
 inherits
 from
 a
+/
+/
 non
 -
 heap
@@ -470,6 +494,8 @@ type
 BadInherit
 '
 is
+/
+/
 not
 valid
 on
@@ -483,6 +509,8 @@ note
 {
 {
 value
+/
+/
 incorrectly
 allocated
 on
@@ -510,6 +538,8 @@ type
 RandomClass
 '
 is
+/
+/
 not
 valid
 on
@@ -523,6 +553,8 @@ note
 {
 {
 value
+/
+/
 incorrectly
 allocated
 on
@@ -573,6 +605,8 @@ is
 a
 stack
 type
+/
+/
 because
 member
 '
@@ -607,6 +641,8 @@ InferredStackClass
 '
 only
 valid
+/
+/
 on
 the
 stack
@@ -622,6 +658,8 @@ incorrectly
 allocated
 in
 a
+/
+/
 global
 variable
 }

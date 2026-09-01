@@ -127,7 +127,7 @@ hasSourceExpression
 (
 materializeTemporaryExpr
 (
-anyOf
+optionally
 (
 hasDescendant
 (
@@ -139,9 +139,6 @@ bind
 (
 kCallExpr
 )
-)
-anything
-(
 )
 )
 )

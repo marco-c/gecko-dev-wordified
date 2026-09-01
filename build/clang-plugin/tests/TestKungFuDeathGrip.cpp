@@ -310,6 +310,8 @@ nsCOMPtr
 Type
 >
 '
+/
+/
 objects
 constructed
 from
@@ -321,6 +323,8 @@ prohibited
 expected
 -
 note
+/
+/
 {
 {
 Please
@@ -333,6 +337,8 @@ member
 to
 go
 through
+/
+/
 '
 kfdg_m1
 '
@@ -374,6 +380,8 @@ Type
 >
 '
 objects
+/
+/
 constructed
 from
 members
@@ -387,6 +395,8 @@ note
 {
 {
 Please
+/
+/
 switch
 all
 accesses
@@ -400,6 +410,8 @@ through
 kfdg_m2
 '
 or
+/
+/
 explicitly
 cast
 '
@@ -556,6 +568,8 @@ Type
 >
 '
 objects
+/
+/
 constructed
 from
 members
@@ -569,6 +583,8 @@ note
 {
 {
 Please
+/
+/
 switch
 all
 accesses
@@ -582,6 +598,8 @@ through
 kfdg_m5
 '
 or
+/
+/
 explicitly
 cast
 '
@@ -619,6 +637,8 @@ Type
 >
 '
 objects
+/
+/
 constructed
 from
 members
@@ -632,6 +652,8 @@ note
 {
 {
 Please
+/
+/
 switch
 all
 accesses
@@ -645,6 +667,8 @@ through
 kfdg_m6
 '
 or
+/
+/
 explicitly
 cast
 '
@@ -883,6 +907,8 @@ nsCOMPtr
 Type
 >
 '
+/
+/
 objects
 constructed
 from
@@ -894,6 +920,8 @@ prohibited
 expected
 -
 note
+/
+/
 {
 {
 Please
@@ -906,6 +934,8 @@ member
 to
 go
 through
+/
+/
 '
 kfdg_m1
 '
@@ -949,6 +979,8 @@ Type
 >
 '
 objects
+/
+/
 constructed
 from
 members
@@ -962,6 +994,8 @@ note
 {
 {
 Please
+/
+/
 switch
 all
 accesses
@@ -975,6 +1009,8 @@ through
 kfdg_m2
 '
 or
+/
+/
 explicitly
 cast
 '
@@ -1110,6 +1146,8 @@ Type
 >
 '
 objects
+/
+/
 constructed
 from
 members
@@ -1123,6 +1161,8 @@ note
 {
 {
 Please
+/
+/
 switch
 all
 accesses
@@ -1136,6 +1176,8 @@ through
 kfdg_m5
 '
 or
+/
+/
 explicitly
 cast
 '
@@ -1175,6 +1217,8 @@ Type
 >
 '
 objects
+/
+/
 constructed
 from
 members
@@ -1188,6 +1232,8 @@ note
 {
 {
 Please
+/
+/
 switch
 all
 accesses
@@ -1201,6 +1247,8 @@ through
 kfdg_m6
 '
 or
+/
+/
 explicitly
 cast
 '

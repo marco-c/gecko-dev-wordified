@@ -8,6 +8,7 @@ diagnostics
 #
 define
 MOZ_NEEDS_MEMMOVABLE_TYPE
+\
 __attribute__
 (
 (
@@ -37,11 +38,6 @@ mForceInst
 include
 <
 atomic
->
-#
-include
-<
-cstdint
 >
 struct
 CustomType

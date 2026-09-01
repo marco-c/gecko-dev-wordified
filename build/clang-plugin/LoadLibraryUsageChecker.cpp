@@ -134,8 +134,6 @@ addMatcher
 (
 callExpr
 (
-allOf
-(
 isFirstParty
 (
 )
@@ -182,7 +180,6 @@ hasArgument
 0
 stringLiteral
 (
-)
 )
 )
 )

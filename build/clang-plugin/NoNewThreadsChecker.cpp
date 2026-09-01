@@ -122,8 +122,6 @@ addMatcher
 (
 callExpr
 (
-allOf
-(
 isFirstParty
 (
 )
@@ -143,7 +141,6 @@ unless
 (
 isInAllowlistForThreads
 (
-)
 )
 )
 )

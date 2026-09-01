@@ -88,8 +88,6 @@ addMatcher
 (
 callExpr
 (
-allOf
-(
 hasDeclaration
 (
 noArithmeticExprInArgs
@@ -101,8 +99,6 @@ anyOf
 hasDescendant
 (
 binaryOperator
-(
-allOf
 (
 binaryArithmeticOperator
 (
@@ -126,7 +122,6 @@ declRefExpr
 )
 )
 )
-)
 .
 bind
 (
@@ -138,8 +133,6 @@ node
 hasDescendant
 (
 unaryOperator
-(
-allOf
 (
 unaryArithmeticOperator
 (
@@ -169,14 +162,12 @@ declRefExpr
 )
 )
 )
-)
 .
 bind
 (
 "
 node
 "
-)
 )
 )
 )
@@ -198,8 +189,6 @@ addMatcher
 (
 cxxConstructExpr
 (
-allOf
-(
 hasDeclaration
 (
 noArithmeticExprInArgs
@@ -211,8 +200,6 @@ anyOf
 hasDescendant
 (
 binaryOperator
-(
-allOf
 (
 binaryArithmeticOperator
 (
@@ -236,7 +223,6 @@ declRefExpr
 )
 )
 )
-)
 .
 bind
 (
@@ -248,8 +234,6 @@ node
 hasDescendant
 (
 unaryOperator
-(
-allOf
 (
 unaryArithmeticOperator
 (
@@ -279,14 +263,12 @@ declRefExpr
 )
 )
 )
-)
 .
 bind
 (
 "
 node
 "
-)
 )
 )
 )

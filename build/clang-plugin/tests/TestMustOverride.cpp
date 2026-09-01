@@ -117,6 +117,8 @@ error
 '
 C
 '
+/
+/
 must
 override
 '
@@ -204,6 +206,8 @@ error
 '
 D
 '
+/
+/
 must
 override
 '
@@ -399,6 +403,8 @@ VirtMethod
 expected
 -
 error
+/
+/
 {
 {
 '
@@ -414,6 +420,8 @@ NonVirtMethod
 expected
 -
 error
+/
+/
 {
 {
 '
@@ -448,6 +456,8 @@ VirtMethod
 '
 }
 }
+/
+/
 expected
 -
 error
@@ -527,8 +537,20 @@ here
 }
 ;
 }
+/
+/
+namespace
+C
 }
+/
+/
+namespace
+B
 }
+/
+/
+namespace
+A
 struct
 Param
 {

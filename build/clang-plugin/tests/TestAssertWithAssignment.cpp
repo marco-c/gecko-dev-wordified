@@ -47,8 +47,10 @@ define
 MOZ_CRASH
 (
 )
+\
 do
 {
+\
 }
 while
 (
@@ -103,7 +105,6 @@ while
 (
 0
 )
-\
 /
 *
 Now
@@ -151,7 +152,6 @@ while
 (
 0
 )
-\
 #
 define
 MOZ_RELEASE_ASSERT_GLUE
@@ -412,6 +412,8 @@ error
 {
 {
 Forbidden
+/
+/
 assignment
 in
 assert
