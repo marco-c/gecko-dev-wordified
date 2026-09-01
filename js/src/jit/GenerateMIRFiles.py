@@ -703,6 +703,10 @@ SharedArrayRawBufferLength
 "
     
 "
+GeneratorResumeState
+"
+    
+"
 Any
 "
 }
