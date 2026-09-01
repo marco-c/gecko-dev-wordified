@@ -3107,6 +3107,9 @@ PlacesUIUtils
 openInContainerTab
 (
 event
+"
+sidebar_history_context_menu
+"
 )
 ;
 Glean
@@ -3140,6 +3143,9 @@ PlacesUIUtils
 createContainerTabMenu
 (
 event
+"
+sidebar_history_context_menu
+"
 )
 )
 ;
@@ -3182,6 +3188,9 @@ PlacesUIUtils
 openInContainerTab
 (
 event
+"
+sidebar_synced_tabs_context_menu
+"
 )
 )
 ;
@@ -3200,6 +3209,9 @@ PlacesUIUtils
 createContainerTabMenu
 (
 event
+"
+sidebar_synced_tabs_context_menu
+"
 )
 )
 ;
@@ -3235,6 +3247,9 @@ PlacesUIUtils
 createContainerTabMenu
 (
 event
+"
+sidebar_bookmarks_context_menu
+"
 )
 )
 ;
