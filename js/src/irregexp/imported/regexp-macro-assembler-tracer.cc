@@ -71,10 +71,10 @@ RegExpMacroAssemblerTracer
 :
 RegExpMacroAssemblerTracer
 (
-js
+std
 :
 :
-UniquePtr
+unique_ptr
 <
 RegExpMacroAssembler
 >
