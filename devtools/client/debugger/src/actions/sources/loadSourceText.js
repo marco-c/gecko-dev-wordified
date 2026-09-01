@@ -211,9 +211,6 @@ function
 loadGeneratedSource
 (
 sourceActor
-{
-client
-}
 )
 {
 /
@@ -267,9 +264,11 @@ try
 response
 =
 await
-client
+sourceActor
 .
-sourceContents
+targetFront
+.
+getSourceContentForResource
 (
 sourceActor
 )
@@ -284,7 +283,9 @@ throw
 new
 Error
 (
-sourceContents
+targetFront
+.
+getSourceContentForResource
 failed
 :
 {
@@ -526,7 +527,6 @@ PROMISE
 loadGeneratedSource
 (
 sourceActor
-thunkArgs
 )
 }
 )
