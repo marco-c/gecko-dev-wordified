@@ -1481,8 +1481,9 @@ hr
 DWriteFontFallbackRenderer
 (
 )
-{
-}
+=
+default
+;
 /
 /
 If

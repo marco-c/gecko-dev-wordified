@@ -430,8 +430,9 @@ virtual
 TileD3D11
 (
 )
-{
-}
+=
+default
+;
 bool
 Map
 (
@@ -583,8 +584,9 @@ virtual
 SurfaceD3D11SWGL
 (
 )
-{
-}
+=
+default
+;
 SurfaceD3D11SWGL
 *
 AsSurfaceD3D11SWGL

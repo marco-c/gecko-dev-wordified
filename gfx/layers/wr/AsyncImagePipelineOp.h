@@ -398,6 +398,8 @@ ops
 AsyncImagePipelineOps
 (
 )
+=
+default
 ;
 void
 HandleOps

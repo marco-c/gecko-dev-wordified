@@ -922,8 +922,9 @@ public
 gfxDWriteFontFileLoader
 (
 )
-{
-}
+=
+default
+;
 /
 /
 IUnknown

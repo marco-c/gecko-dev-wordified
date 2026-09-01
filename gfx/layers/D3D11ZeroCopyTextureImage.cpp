@@ -238,15 +238,6 @@ aVideoSample
 )
 {
 }
-IMFSampleWrapper
-:
-:
-~
-IMFSampleWrapper
-(
-)
-{
-}
 void
 IMFSampleWrapper
 :

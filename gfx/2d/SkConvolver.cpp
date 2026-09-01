@@ -3146,16 +3146,6 @@ fMaxFilter
 )
 {
 }
-SkConvolutionFilter1D
-:
-:
-~
-SkConvolutionFilter1D
-(
-)
-=
-default
-;
 bool
 SkConvolutionFilter1D
 :

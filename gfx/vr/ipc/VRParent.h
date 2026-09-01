@@ -115,6 +115,8 @@ explicit
 VRParent
 (
 )
+=
+default
 ;
 bool
 Init
@@ -347,6 +349,9 @@ RefPtr
 VRGPUParent
 >
 mVRGPUParent
+{
+nullptr
+}
 ;
 DISALLOW_COPY_AND_ASSIGN
 (

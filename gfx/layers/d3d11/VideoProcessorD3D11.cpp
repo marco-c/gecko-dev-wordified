@@ -1519,8 +1519,9 @@ VideoProcessorD3D11
 VideoProcessorD3D11
 (
 )
-{
-}
+=
+default
+;
 HRESULT
 VideoProcessorD3D11
 :

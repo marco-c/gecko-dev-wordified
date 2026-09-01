@@ -472,6 +472,8 @@ SkConvolutionFilter1D
 SkConvolutionFilter1D
 (
 )
+=
+default
 ;
 /
 /

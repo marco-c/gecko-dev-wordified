@@ -100,6 +100,8 @@ NativeLayerCommandQueue
 NativeLayerCommandQueue
 (
 )
+=
+default
 ;
 void
 AppendCommand
@@ -156,6 +158,11 @@ NativeLayerCommand
 >
 >
 mQueue
+{
+"
+NativeLayerCommandQueue
+"
+}
 ;
 }
 ;

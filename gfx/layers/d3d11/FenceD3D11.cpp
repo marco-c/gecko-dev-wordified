@@ -757,15 +757,6 @@ mSignalFence
 )
 ;
 }
-FenceD3D11
-:
-:
-~
-FenceD3D11
-(
-)
-{
-}
 RefPtr
 <
 FenceD3D11

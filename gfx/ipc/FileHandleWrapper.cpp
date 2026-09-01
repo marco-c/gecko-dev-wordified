@@ -106,16 +106,6 @@ aHandle
 )
 {
 }
-FileHandleWrapper
-:
-:
-~
-FileHandleWrapper
-(
-)
-=
-default
-;
 mozilla
 :
 :

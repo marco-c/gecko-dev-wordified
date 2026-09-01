@@ -148,8 +148,9 @@ public
 DWriteFontFileLoader
 (
 )
-{
-}
+=
+default
+;
 /
 /
 IUnknown

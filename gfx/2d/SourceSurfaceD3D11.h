@@ -136,6 +136,12 @@ gfx
 ColorRange
 aColorRange
 const
+gfx
+:
+:
+TransferFunction
+aTransferFunction
+const
 Maybe
 <
 layers
@@ -173,6 +179,12 @@ gfx
 ColorRange
 aColorRange
 const
+gfx
+:
+:
+TransferFunction
+aTransferFunction
+const
 Maybe
 <
 layers
@@ -187,6 +199,8 @@ aFencesHolderId
 SourceSurfaceD3D11
 (
 )
+=
+default
 ;
 SurfaceType
 GetType
@@ -276,6 +290,10 @@ mColorSpace
 const
 ColorRange
 mColorRange
+;
+const
+TransferFunction
+mTransferFunction
 ;
 const
 Maybe

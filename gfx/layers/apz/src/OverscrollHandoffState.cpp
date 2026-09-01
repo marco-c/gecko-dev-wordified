@@ -97,16 +97,6 @@ mozilla
 namespace
 layers
 {
-OverscrollHandoffChain
-:
-:
-~
-OverscrollHandoffChain
-(
-)
-=
-default
-;
 void
 OverscrollHandoffChain
 :

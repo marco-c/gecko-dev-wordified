@@ -549,8 +549,9 @@ gfxDWriteFontFamily
 gfxDWriteFontFamily
 (
 )
-{
-}
+=
+default
+;
 static
 bool
 GetNameAsUtf8
@@ -17230,8 +17231,9 @@ public
 BundledFontLoader
 (
 )
-{
-}
+=
+default
+;
 IFACEMETHODIMP
 CreateEnumeratorFromKey
 (

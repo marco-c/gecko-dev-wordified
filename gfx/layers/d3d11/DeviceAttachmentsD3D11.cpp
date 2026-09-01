@@ -137,15 +137,6 @@ false
 )
 {
 }
-DeviceAttachmentsD3D11
-:
-:
-~
-DeviceAttachmentsD3D11
-(
-)
-{
-}
 /
 *
 static
