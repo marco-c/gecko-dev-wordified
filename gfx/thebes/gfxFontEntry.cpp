@@ -387,10 +387,6 @@ mSVGInitialized
 (
 false
 )
-mHasCmapTable
-(
-false
-)
 mGrFaceInitialized
 (
 false
@@ -868,8 +864,6 @@ list
 )
 ;
 MOZ_POP_THREAD_SAFETY
-mHasCmapTable
-=
 TrySetShmemCharacterMap
 (
 )
