@@ -3300,8 +3300,6 @@ double
 aHeight
 bool
 aRepaint
-bool
-aConstrainToCurrentScreen
 )
 ;
 /

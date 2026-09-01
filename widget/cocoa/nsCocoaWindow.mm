@@ -41279,8 +41279,6 @@ double
 aHeight
 bool
 aRepaint
-bool
-aConstrainToCurrentScreen
 )
 {
 NS_OBJC_BEGIN_TRY_IGNORE_BLOCK
@@ -41786,7 +41784,6 @@ aRect
 .
 height
 aRepaint
-false
 )
 ;
 }
@@ -41840,7 +41837,6 @@ aSize
 .
 height
 aRepaint
-true
 )
 ;
 }
