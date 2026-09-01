@@ -4068,3 +4068,7 @@ j_voip_client
 /
 namespace
 webrtc_examples
+DEFINE_JNI
+(
+VoipClient
+)

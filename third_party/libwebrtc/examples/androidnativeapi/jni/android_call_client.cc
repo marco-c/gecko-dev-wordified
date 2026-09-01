@@ -2155,3 +2155,7 @@ AndroidCallClient
 /
 namespace
 webrtc_examples
+DEFINE_JNI
+(
+CallClient
+)
