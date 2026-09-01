@@ -3581,6 +3581,14 @@ the
 generic
 tracer
 .
+/
+/
+/
+/
+Set
+also
+AutoSetMarkingZone
+.
 class
 MOZ_RAII
 AutoSetTracingSource
