@@ -1055,7 +1055,7 @@ document_id
 in
 sql
 def
-test_query_sql_targets_the_glean_hang_report_table
+test_query_sql_targets_the_redacted_hang_report_view
 (
 )
 :
@@ -1093,7 +1093,7 @@ mozdata
 .
 firefox_desktop
 .
-hang_report
+hang_report_redacted
 "
 in
 sql
