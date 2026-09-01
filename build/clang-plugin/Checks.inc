@@ -115,6 +115,15 @@ temporary
 )
 CHECK
 (
+DefaultEqualChecker
+"
+default
+-
+equal
+"
+)
+CHECK
+(
 EnumSerializerChecker
 "
 enum
