@@ -2092,7 +2092,6 @@ AudioTrackEncoder
 >
 mAudioEncoder
 ;
-const
 RefPtr
 <
 AudioTrackListener
@@ -2106,7 +2105,6 @@ VideoTrackEncoder
 >
 mVideoEncoder
 ;
-const
 RefPtr
 <
 VideoTrackListener
