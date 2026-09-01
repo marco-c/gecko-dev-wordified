@@ -683,7 +683,7 @@ if
 result
 !
 =
-Success
+X11Success
 |
 |
 bytes_after
