@@ -722,14 +722,11 @@ content
 chrome
 boundaries
 .
-already_AddRefed
-<
 WindowGlobalParent
->
+*
 GetEmbedderWindowGlobal
 (
 )
-const
 ;
 CanonicalBrowsingContext
 *
