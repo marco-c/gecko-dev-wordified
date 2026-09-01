@@ -79,7 +79,7 @@ the
 /
 /
 exported
-DllGetActivationFactory
+DllGetClassObject
 and
 DllCanUnloadNow
 lives
