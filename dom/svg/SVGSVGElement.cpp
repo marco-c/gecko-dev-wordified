@@ -1040,6 +1040,17 @@ IsInner
 )
 )
 {
+/
+/
+currentScale
+values
+cannot
+be
+set
+on
+inner
+svg
+elements
 return
 ;
 }
