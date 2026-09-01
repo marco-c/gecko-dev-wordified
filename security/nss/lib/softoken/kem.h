@@ -112,6 +112,17 @@ SECItem
 privkey
 )
 ;
+SECItem
+*
+sftk_kyber_AllocCiphertextItem
+(
+KyberParams
+params
+SECItem
+*
+ciphertext
+)
+;
 CK_RV
 NSC_Encapsulate
 (

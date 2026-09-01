@@ -113,6 +113,7 @@ OI
 (
 oid
 )
+\
 tag
 desc
 mech
@@ -133,6 +134,7 @@ OI
 (
 oid
 )
+\
 0
 desc
 CKM_INVALID_MECHANISM

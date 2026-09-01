@@ -8908,12 +8908,6 @@ ss
 vrange
 .
 max
-ss
--
->
-vrange
-.
-max
 PR_TRUE
 /
 *
