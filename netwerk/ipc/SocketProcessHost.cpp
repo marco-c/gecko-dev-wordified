@@ -824,7 +824,7 @@ MOZ_ASSERT
 rv
 )
 ;
-SocketPorcessInitAttributes
+SocketProcessInitAttributes
 attributes
 ;
 nsCOMPtr
