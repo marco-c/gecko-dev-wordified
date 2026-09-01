@@ -247,6 +247,7 @@ size
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -388,6 +389,7 @@ list
 [
 derive
 (
+Clone
 Debug
 )
 ]
