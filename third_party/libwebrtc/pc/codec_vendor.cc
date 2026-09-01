@@ -1906,7 +1906,7 @@ SetParam
 kCodecParamNotInNameValueFormat
 param
 .
-str
+Release
 (
 )
 )
@@ -5998,7 +5998,7 @@ SetParam
 kCodecParamNotInNameValueFormat
 param
 .
-str
+Release
 (
 )
 )
