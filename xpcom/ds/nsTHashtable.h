@@ -1204,7 +1204,6 @@ template
 size_t
 N
 >
-static
 void
 FixedSizeEntryMover
 (
