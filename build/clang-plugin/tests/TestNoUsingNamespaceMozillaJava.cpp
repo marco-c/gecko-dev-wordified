@@ -51,8 +51,6 @@ mozilla
 :
 java
 is
-/
-/
 forbidden
 }
 }
@@ -72,8 +70,6 @@ error
 {
 using
 namespace
-/
-/
 mozilla
 :
 :
@@ -86,10 +82,6 @@ forbidden
 }
 }
 }
-/
-/
-namespace
-mozilla
 using
 namespace
 mozilla
@@ -109,8 +101,6 @@ error
 {
 using
 namespace
-/
-/
 mozilla
 :
 :
@@ -134,10 +124,6 @@ namespace
 java
 ;
 }
-/
-/
-namespace
-shouldPass
 using
 namespace
 shouldPass

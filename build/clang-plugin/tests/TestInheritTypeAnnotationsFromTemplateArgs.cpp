@@ -44,7 +44,6 @@ moz_non_memmovable
 #
 define
 MOZ_NEEDS_MEMMOVABLE_TYPE
-\
 __attribute__
 (
 (
@@ -93,8 +92,6 @@ it
 inherits
 from
 a
-/
-/
 stack
 type
 '
@@ -131,8 +128,6 @@ m
 '
 is
 a
-/
-/
 stack
 type
 '
@@ -174,8 +169,6 @@ able
 type
 because
 it
-/
-/
 inherits
 from
 a
@@ -219,8 +212,6 @@ memmove
 able
 type
 because
-/
-/
 member
 '
 m
@@ -279,8 +270,6 @@ because
 it
 has
 a
-/
-/
 template
 argument
 stack
@@ -301,8 +290,6 @@ note
 -
 re
 5
-/
-/
 {
 {
 '
@@ -330,8 +317,6 @@ it
 has
 a
 template
-/
-/
 argument
 non
 -
@@ -377,8 +362,6 @@ type
 because
 it
 inherits
-/
-/
 from
 a
 stack
@@ -423,8 +406,6 @@ m
 '
 is
 a
-/
-/
 stack
 type
 '
@@ -458,8 +439,6 @@ Template
 Stack
 >
 '
-/
-/
 only
 valid
 on
@@ -473,8 +452,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -508,8 +485,6 @@ IndirectStack
 '
 only
 valid
-/
-/
 on
 the
 stack
@@ -526,8 +501,6 @@ allocated
 in
 a
 global
-/
-/
 variable
 }
 }
@@ -556,8 +529,6 @@ ContainsStack
 '
 only
 valid
-/
-/
 on
 the
 stack
@@ -574,8 +545,6 @@ allocated
 in
 a
 global
-/
-/
 variable
 }
 }
@@ -600,8 +569,6 @@ only
 valid
 on
 the
-/
-/
 stack
 }
 }
@@ -616,8 +583,6 @@ allocated
 in
 a
 global
-/
-/
 variable
 }
 }
@@ -642,8 +607,6 @@ only
 valid
 on
 the
-/
-/
 stack
 }
 }
@@ -658,8 +621,6 @@ allocated
 in
 a
 global
-/
-/
 variable
 }
 }
@@ -703,8 +664,6 @@ Mover
 >
 '
 with
-/
-/
 non
 -
 memmovable
@@ -760,8 +719,6 @@ memmove
 )
 able
 type
-/
-/
 because
 it
 inherits
@@ -812,8 +769,6 @@ memmove
 )
 able
 type
-/
-/
 because
 member
 '
@@ -871,8 +826,6 @@ Pointery
 }
 >
 '
-/
-/
 requested
 here
 }
@@ -898,8 +851,6 @@ re
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -939,8 +890,6 @@ re
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -981,8 +930,6 @@ Mover
 IndirectTemplatePointery
 >
 '
-/
-/
 requested
 here
 }
@@ -1009,8 +956,6 @@ Mover
 ContainsTemplatePointery
 >
 '
-/
-/
 requested
 here
 }
@@ -1072,8 +1017,6 @@ memmove
 able
 type
 because
-/
-/
 it
 has
 a
@@ -1131,8 +1074,6 @@ Pointery
 }
 >
 '
-/
-/
 requested
 here
 }
@@ -1169,8 +1110,6 @@ Pointery
 >
 {
 {
-/
-/
 ?
 }
 }
@@ -1210,8 +1149,6 @@ ManyTs
 <
 Normal
 Normal
-/
-/
 Pointery
 >
 {

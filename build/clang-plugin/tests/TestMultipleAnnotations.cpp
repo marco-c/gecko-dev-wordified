@@ -1,7 +1,6 @@
 #
 define
 MOZ_NON_TEMPORARY_CLASS
-\
 __attribute__
 (
 (
@@ -53,8 +52,6 @@ TestClass
 only
 valid
 on
-/
-/
 the
 stack
 }
@@ -69,8 +66,6 @@ incorrectly
 allocated
 in
 a
-/
-/
 global
 variable
 }
@@ -124,8 +119,6 @@ TestClass
 is
 not
 valid
-/
-/
 in
 a
 temporary
@@ -138,8 +131,6 @@ note
 {
 value
 incorrectly
-/
-/
 allocated
 in
 a

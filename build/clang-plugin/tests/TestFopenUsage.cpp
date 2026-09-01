@@ -1,14 +1,9 @@
 #
 include
 <
-fcntl
+stdio
 .
 h
->
-#
-include
-<
-fstream
 >
 #
 include
@@ -20,9 +15,14 @@ h
 #
 include
 <
-stdio
+fcntl
 .
 h
+>
+#
+include
+<
+fstream
 >
 #
 include
@@ -66,8 +66,6 @@ file
 functions
 (
 here
-/
-/
 fopen
 )
 is
@@ -83,8 +81,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -93,8 +89,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -102,8 +96,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to
@@ -148,8 +140,6 @@ file
 functions
 (
 here
-/
-/
 fopen_s
 )
 is
@@ -165,8 +155,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -175,8 +163,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -185,8 +171,6 @@ should
 never
 be
 used
-/
-/
 due
 to
 lossy
@@ -225,8 +209,6 @@ file
 functions
 (
 here
-/
-/
 _open
 )
 is
@@ -242,8 +224,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -252,8 +232,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -261,8 +239,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to
@@ -302,8 +278,6 @@ file
 functions
 (
 here
-/
-/
 open
 )
 is
@@ -320,8 +294,6 @@ note
 {
 On
 Windows
-/
-/
 executed
 functions
 :
@@ -330,8 +302,6 @@ fopen_s
 open
 _open
 _sopen
-/
-/
 _sopen_s
 OpenFile
 CreateFileA
@@ -341,8 +311,6 @@ be
 used
 due
 to
-/
-/
 lossy
 conversion
 from
@@ -380,8 +348,6 @@ file
 functions
 (
 here
-/
-/
 _sopen
 )
 is
@@ -397,8 +363,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -407,8 +371,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -416,8 +378,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to
@@ -464,8 +424,6 @@ file
 functions
 (
 here
-/
-/
 _sopen_s
 )
 is
@@ -481,8 +439,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -491,8 +447,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -500,8 +454,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to
@@ -545,8 +497,6 @@ file
 functions
 (
 here
-/
-/
 open
 )
 is
@@ -562,8 +512,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -572,8 +520,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -581,8 +527,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to
@@ -626,8 +570,6 @@ file
 functions
 (
 here
-/
-/
 open
 )
 is
@@ -643,8 +585,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -653,8 +593,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -662,8 +600,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to
@@ -707,8 +643,6 @@ file
 functions
 (
 here
-/
-/
 open
 )
 is
@@ -724,8 +658,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -734,8 +666,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -743,8 +673,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to
@@ -847,8 +775,6 @@ file
 functions
 (
 here
-/
-/
 OpenFile
 )
 is
@@ -864,8 +790,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -874,8 +798,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -884,8 +806,6 @@ should
 never
 be
 used
-/
-/
 due
 to
 lossy
@@ -936,8 +856,6 @@ file
 functions
 (
 here
-/
-/
 CreateFileA
 )
 is
@@ -953,8 +871,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -963,8 +879,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -972,8 +886,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to
@@ -1052,8 +964,6 @@ file
 functions
 (
 here
-/
-/
 CreateFileA
 )
 is
@@ -1069,8 +979,6 @@ note
 {
 {
 On
-/
-/
 Windows
 executed
 functions
@@ -1079,8 +987,6 @@ fopen
 fopen_s
 open
 _open
-/
-/
 _sopen
 _sopen_s
 OpenFile
@@ -1088,8 +994,6 @@ CreateFileA
 should
 never
 be
-/
-/
 used
 due
 to

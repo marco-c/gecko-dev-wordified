@@ -1,7 +1,6 @@
 #
 define
 MOZ_NON_TERMINATED_STRING
-\
 __attribute__
 (
 (
@@ -137,8 +136,6 @@ error
 {
 {
 MOZ_NON_TERMINATED_STRING
-/
-/
 return
 value
 from
@@ -147,8 +144,6 @@ getNotTerminated
 '
 passed
 as
-/
-/
 an
 argument
 to
@@ -193,8 +188,6 @@ error
 {
 {
 MOZ_NON_TERMINATED_STRING
-/
-/
 return
 value
 from
@@ -203,8 +196,6 @@ getNotTerminated
 '
 passed
 as
-/
-/
 an
 argument
 to
@@ -250,8 +241,6 @@ error
 {
 MOZ_NON_TERMINATED_STRING
 return
-/
-/
 value
 from
 '
@@ -260,8 +249,6 @@ getNotTerminated
 passed
 as
 an
-/
-/
 argument
 to
 printf
@@ -313,8 +300,6 @@ error
 {
 MOZ_NON_TERMINATED_STRING
 return
-/
-/
 value
 from
 '
@@ -323,8 +308,6 @@ getNotTerminated
 passed
 as
 an
-/
-/
 argument
 to
 printf
@@ -374,8 +357,6 @@ error
 {
 MOZ_NON_TERMINATED_STRING
 return
-/
-/
 value
 from
 '
@@ -384,8 +365,6 @@ getNotTerminated
 passed
 as
 an
-/
-/
 argument
 to
 printf
@@ -439,8 +418,6 @@ error
 {
 MOZ_NON_TERMINATED_STRING
 return
-/
-/
 value
 from
 '
@@ -454,8 +431,6 @@ as
 an
 argument
 to
-/
-/
 printf
 -
 like
@@ -532,8 +507,6 @@ error
 {
 MOZ_NON_TERMINATED_STRING
 return
-/
-/
 value
 from
 '
@@ -547,8 +520,6 @@ as
 an
 argument
 to
-/
-/
 printf
 -
 like
@@ -595,8 +566,6 @@ error
 {
 {
 MOZ_NON_TERMINATED_STRING
-/
-/
 return
 value
 from
@@ -604,8 +573,6 @@ from
 getNotTerminated
 '
 passed
-/
-/
 as
 an
 argument
@@ -614,8 +581,6 @@ printf
 -
 like
 function
-/
-/
 '
 PrintfCtor
 :
@@ -733,16 +698,12 @@ error
 {
 {
 MOZ_NON_TERMINATED_STRING
-/
-/
 return
 value
 from
 '
 getNotTerminated
 '
-/
-/
 passed
 as
 an
@@ -751,8 +712,6 @@ to
 single
 -
 argument
-/
-/
 function
 '
 takesOneArg
@@ -784,8 +743,6 @@ error
 {
 MOZ_NON_TERMINATED_STRING
 return
-/
-/
 value
 from
 '
@@ -799,8 +756,6 @@ as
 an
 argument
 to
-/
-/
 single
 -
 argument
@@ -868,8 +823,6 @@ error
 {
 MOZ_NON_TERMINATED_STRING
 return
-/
-/
 value
 from
 '
@@ -878,16 +831,12 @@ getNotTerminated
 passed
 as
 an
-/
-/
 argument
 to
 single
 -
 argument
 function
-/
-/
 '
 SingleArgCtor
 :
@@ -923,8 +872,6 @@ MOZ_NON_TERMINATED_STRING
 return
 value
 from
-/
-/
 '
 S
 :
@@ -940,8 +887,6 @@ single
 -
 argument
 function
-/
-/
 '
 SingleArgCtor
 :
@@ -1001,8 +946,6 @@ re
 MOZ_NON_TERMINATED_STRING
 return
 value
-/
-/
 from
 '
 S
@@ -1017,8 +960,6 @@ argument
 to
 operator
 function
-/
-/
 '
 {
 {
@@ -1070,8 +1011,6 @@ re
 {
 {
 MOZ_NON_TERMINATED_STRING
-/
-/
 return
 value
 from
@@ -1085,8 +1024,6 @@ passed
 as
 an
 argument
-/
-/
 to
 single
 -

@@ -157,8 +157,6 @@ only
 valid
 on
 the
-/
-/
 heap
 }
 }
@@ -172,8 +170,6 @@ incorrectly
 allocated
 in
 an
-/
-/
 automatic
 variable
 }
@@ -207,8 +203,6 @@ Heap
 2
 ]
 '
-/
-/
 only
 valid
 on
@@ -222,8 +216,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -232,8 +224,6 @@ automatic
 variable
 }
 }
-/
-/
 expected
 -
 note
@@ -256,8 +246,6 @@ is
 a
 heap
 type
-/
-/
 because
 it
 is
@@ -289,8 +277,6 @@ type
 Heap
 '
 only
-/
-/
 valid
 on
 the
@@ -303,8 +289,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -346,8 +330,6 @@ Heap
 only
 valid
 on
-/
-/
 the
 heap
 }
@@ -363,8 +345,6 @@ allocated
 in
 a
 global
-/
-/
 variable
 }
 }
@@ -390,8 +370,6 @@ is
 a
 heap
 type
-/
-/
 because
 it
 is
@@ -449,8 +427,6 @@ Heap
 only
 valid
 on
-/
-/
 the
 heap
 }
@@ -463,8 +439,6 @@ note
 value
 incorrectly
 allocated
-/
-/
 in
 a
 temporary
@@ -499,8 +473,6 @@ the
 heap
 }
 }
-/
-/
 expected
 -
 note
@@ -542,8 +514,6 @@ the
 heap
 }
 }
-/
-/
 expected
 -
 note
@@ -582,8 +552,6 @@ the
 heap
 }
 }
-/
-/
 expected
 -
 note
@@ -673,8 +641,6 @@ Heap
 only
 valid
 on
-/
-/
 the
 heap
 }
@@ -688,8 +654,6 @@ value
 incorrectly
 allocated
 in
-/
-/
 a
 global
 variable
@@ -716,8 +680,6 @@ a
 heap
 type
 because
-/
-/
 member
 '
 nonstaticMember
@@ -749,8 +711,6 @@ type
 Heap
 '
 only
-/
-/
 valid
 on
 the
@@ -763,8 +723,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -800,8 +758,6 @@ type
 Heap
 '
 only
-/
-/
 valid
 on
 the
@@ -814,8 +770,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -847,8 +801,6 @@ is
 a
 heap
 type
-/
-/
 because
 it
 inherits
@@ -893,8 +845,6 @@ BadInherit
 only
 valid
 on
-/
-/
 the
 heap
 }
@@ -909,8 +859,6 @@ incorrectly
 allocated
 in
 an
-/
-/
 automatic
 variable
 }
@@ -933,8 +881,6 @@ RandomClass
 '
 only
 valid
-/
-/
 on
 the
 heap
@@ -949,8 +895,6 @@ value
 incorrectly
 allocated
 in
-/
-/
 an
 automatic
 variable

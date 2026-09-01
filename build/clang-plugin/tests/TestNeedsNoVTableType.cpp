@@ -1,7 +1,6 @@
 #
 define
 MOZ_NEEDS_NO_VTABLE_TYPE
-\
 __attribute__
 (
 (
@@ -37,8 +36,6 @@ B
 '
 cannot
 be
-/
-/
 instantiated
 because
 '
@@ -52,8 +49,6 @@ VTable
 expected
 -
 error
-/
-/
 {
 {
 '
@@ -69,8 +64,6 @@ because
 '
 E
 '
-/
-/
 has
 a
 VTable
@@ -88,8 +81,6 @@ F
 >
 '
 cannot
-/
-/
 be
 instantiated
 because
@@ -104,8 +95,6 @@ VTable
 expected
 -
 error
-/
-/
 {
 {
 '
@@ -121,8 +110,6 @@ because
 '
 G
 '
-/
-/
 has
 a
 VTable
@@ -158,8 +145,6 @@ B
 '
 cannot
 be
-/
-/
 instantiated
 because
 '
@@ -173,8 +158,6 @@ VTable
 expected
 -
 error
-/
-/
 {
 {
 '
@@ -187,8 +170,6 @@ cannot
 be
 instantiated
 because
-/
-/
 '
 E
 '
@@ -200,8 +181,6 @@ VTable
 expected
 -
 error
-/
-/
 {
 {
 '
@@ -214,8 +193,6 @@ cannot
 be
 instantiated
 because
-/
-/
 '
 F
 '
@@ -227,8 +204,6 @@ VTable
 expected
 -
 error
-/
-/
 {
 {
 '
@@ -241,8 +216,6 @@ cannot
 be
 instantiated
 because
-/
-/
 '
 G
 '
@@ -288,8 +261,6 @@ B
 >
 '
 requested
-/
-/
 here
 }
 }
@@ -307,8 +278,6 @@ PickyConsumer_A
 E
 >
 '
-/
-/
 requested
 here
 }
@@ -321,8 +290,6 @@ note
 bad
 instantiation
 of
-/
-/
 '
 PickyConsumer_A
 <
@@ -339,8 +306,6 @@ note
 {
 {
 bad
-/
-/
 instantiation
 of
 '
@@ -379,8 +344,6 @@ B
 '
 cannot
 be
-/
-/
 instantiated
 because
 '
@@ -394,8 +357,6 @@ VTable
 expected
 -
 error
-/
-/
 {
 {
 '
@@ -408,8 +369,6 @@ cannot
 be
 instantiated
 because
-/
-/
 '
 E
 '
@@ -421,8 +380,6 @@ VTable
 expected
 -
 error
-/
-/
 {
 {
 '
@@ -435,8 +392,6 @@ cannot
 be
 instantiated
 because
-/
-/
 '
 F
 '
@@ -448,8 +403,6 @@ VTable
 expected
 -
 error
-/
-/
 {
 {
 '
@@ -462,8 +415,6 @@ cannot
 be
 instantiated
 because
-/
-/
 '
 G
 '
@@ -513,8 +464,6 @@ requested
 here
 }
 }
-/
-/
 expected
 -
 note
@@ -533,8 +482,6 @@ requested
 here
 }
 }
-/
-/
 expected
 -
 note
@@ -553,8 +500,6 @@ requested
 here
 }
 }
-/
-/
 expected
 -
 note
@@ -702,8 +647,6 @@ note
 bad
 instantiation
 of
-/
-/
 '
 PickyConsumer
 <
@@ -802,8 +745,6 @@ note
 bad
 instantiation
 of
-/
-/
 '
 PickyConsumer
 <
@@ -850,8 +791,6 @@ note
 bad
 instantiation
 of
-/
-/
 '
 PickyConsumer
 <
@@ -898,8 +837,6 @@ note
 bad
 instantiation
 of
-/
-/
 '
 PickyConsumer
 <

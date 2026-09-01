@@ -1,7 +1,6 @@
 #
 define
 MOZ_REQUIRED_BASE_METHOD
-\
 __attribute__
 (
 (
@@ -162,8 +161,6 @@ called
 in
 all
 overrides
-/
-/
 but
 is
 not
@@ -502,8 +499,6 @@ operator
 +
 must
 be
-/
-/
 called
 in
 all
@@ -515,8 +510,6 @@ called
 in
 this
 override
-/
-/
 defined
 for
 class
@@ -638,8 +631,6 @@ be
 called
 in
 all
-/
-/
 overrides
 but
 is
@@ -651,8 +642,6 @@ override
 defined
 for
 class
-/
-/
 DerivSecondErr
 }
 }

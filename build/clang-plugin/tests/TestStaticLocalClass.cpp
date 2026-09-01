@@ -1,7 +1,6 @@
 #
 define
 MOZ_STATIC_LOCAL_CLASS
-\
 __attribute__
 (
 (
@@ -107,8 +106,6 @@ type
 StaticLocal
 '
 is
-/
-/
 only
 valid
 as
@@ -123,8 +120,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -163,8 +158,6 @@ StaticLocal
 ]
 '
 is
-/
-/
 only
 valid
 as
@@ -184,8 +177,6 @@ re
 StaticLocal
 {
 {
-/
-/
 ?
 }
 }
@@ -205,8 +196,6 @@ is
 an
 array
 of
-/
-/
 static
 -
 local
@@ -222,8 +211,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -284,8 +271,6 @@ type
 StaticLocal
 '
 is
-/
-/
 only
 valid
 as
@@ -297,8 +282,6 @@ local
 expected
 -
 note
-/
-/
 {
 {
 value
@@ -331,8 +314,6 @@ type
 '
 StaticLocal
 '
-/
-/
 is
 only
 valid
@@ -345,8 +326,6 @@ local
 expected
 -
 note
-/
-/
 {
 {
 value
@@ -376,8 +355,6 @@ error
 variable
 of
 type
-/
-/
 '
 TemplateClass
 <
@@ -389,8 +366,6 @@ only
 valid
 as
 a
-/
-/
 static
 local
 }
@@ -401,8 +376,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 on
@@ -437,8 +410,6 @@ type
 '
 StaticLocal
 '
-/
-/
 is
 only
 valid
@@ -451,8 +422,6 @@ local
 expected
 -
 note
-/
-/
 {
 {
 value
@@ -500,8 +469,6 @@ StaticLocal
 '
 is
 only
-/
-/
 valid
 as
 a
@@ -515,8 +482,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -547,8 +512,6 @@ static
 -
 local
 type
-/
-/
 because
 member
 '
@@ -559,8 +522,6 @@ a
 static
 -
 local
-/
-/
 type
 '
 StaticLocal
@@ -586,8 +547,6 @@ StaticLocal
 '
 is
 only
-/
-/
 valid
 as
 a
@@ -601,8 +560,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -639,8 +596,6 @@ StaticLocal
 '
 is
 only
-/
-/
 valid
 as
 a
@@ -654,8 +609,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -692,8 +645,6 @@ type
 because
 it
 inherits
-/
-/
 from
 a
 static
@@ -738,8 +689,6 @@ BadInherit
 '
 is
 only
-/
-/
 valid
 as
 a
@@ -753,8 +702,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -780,8 +727,6 @@ type
 RandomClass
 '
 is
-/
-/
 only
 valid
 as
@@ -796,8 +741,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in

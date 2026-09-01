@@ -35,8 +35,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -79,8 +77,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -123,8 +119,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -167,8 +161,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -211,8 +203,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -255,8 +245,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -299,8 +287,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -340,8 +326,6 @@ not
 be
 used
 as
-/
-/
 parameter
 }
 }
@@ -356,8 +340,6 @@ passing
 a
 const
 reference
-/
-/
 instead
 }
 }
@@ -390,8 +372,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -435,8 +415,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -480,8 +458,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -525,8 +501,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -570,8 +544,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -615,8 +587,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -660,8 +630,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -702,8 +670,6 @@ not
 be
 used
 as
-/
-/
 parameter
 }
 }
@@ -718,8 +684,6 @@ passing
 a
 const
 reference
-/
-/
 instead
 }
 }
@@ -1088,8 +1052,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -1133,8 +1095,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -1178,8 +1138,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -1223,8 +1181,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note
@@ -1268,8 +1224,6 @@ as
 parameter
 }
 }
-/
-/
 expected
 -
 note

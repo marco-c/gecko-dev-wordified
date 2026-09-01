@@ -108,8 +108,6 @@ Global
 only
 valid
 as
-/
-/
 global
 }
 }
@@ -123,8 +121,6 @@ incorrectly
 allocated
 in
 an
-/
-/
 automatic
 variable
 }
@@ -158,8 +154,6 @@ Global
 2
 ]
 '
-/
-/
 only
 valid
 as
@@ -177,8 +171,6 @@ re
 Global
 {
 {
-/
-/
 ?
 }
 }
@@ -196,8 +188,6 @@ is
 an
 array
 of
-/
-/
 global
 type
 '
@@ -211,8 +201,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -274,8 +262,6 @@ Global
 '
 only
 valid
-/
-/
 as
 global
 }
@@ -288,8 +274,6 @@ note
 value
 incorrectly
 allocated
-/
-/
 on
 the
 heap
@@ -318,8 +302,6 @@ type
 Global
 '
 only
-/
-/
 valid
 as
 global
@@ -332,8 +314,6 @@ note
 {
 value
 incorrectly
-/
-/
 allocated
 on
 the
@@ -359,8 +339,6 @@ error
 variable
 of
 type
-/
-/
 '
 TemplateClass
 <
@@ -373,8 +351,6 @@ as
 global
 }
 }
-/
-/
 expected
 -
 note
@@ -383,8 +359,6 @@ note
 value
 incorrectly
 allocated
-/
-/
 on
 the
 heap
@@ -417,8 +391,6 @@ type
 '
 Global
 '
-/
-/
 only
 valid
 as
@@ -431,8 +403,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 on
@@ -483,8 +453,6 @@ a
 global
 type
 because
-/
-/
 member
 '
 nonstaticMember
@@ -543,8 +511,6 @@ it
 inherits
 from
 a
-/
-/
 global
 type
 '
@@ -584,8 +550,6 @@ type
 BadInherit
 '
 only
-/
-/
 valid
 as
 global
@@ -598,8 +562,6 @@ note
 {
 value
 incorrectly
-/
-/
 allocated
 in
 an
@@ -624,8 +586,6 @@ type
 RandomClass
 '
 only
-/
-/
 valid
 as
 global
@@ -638,8 +598,6 @@ note
 {
 value
 incorrectly
-/
-/
 allocated
 in
 an

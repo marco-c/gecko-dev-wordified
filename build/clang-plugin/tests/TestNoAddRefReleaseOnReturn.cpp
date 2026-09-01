@@ -1,7 +1,6 @@
 #
 define
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
-\
 __attribute__
 (
 (
@@ -215,8 +214,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -229,8 +226,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -261,8 +256,6 @@ be
 called
 on
 the
-/
-/
 return
 value
 of
@@ -276,8 +269,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -319,8 +310,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -333,8 +322,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -365,8 +352,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -379,8 +364,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -421,8 +404,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -435,8 +416,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -467,8 +446,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -481,8 +458,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -527,8 +502,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -541,8 +514,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -573,8 +544,6 @@ be
 called
 on
 the
-/
-/
 return
 value
 of
@@ -588,8 +557,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -630,54 +597,6 @@ be
 called
 on
 the
-return
-/
-/
-value
-of
-'
-SD
-:
-:
-g
-'
-which
-is
-marked
-with
-/
-/
-MOZ_NO_ADDREF_RELEASE_ON_RETURN
-}
-}
-sd
-.
-g
-(
-)
-.
-Release
-(
-)
-;
-/
-/
-expected
--
-error
-{
-{
-'
-Release
-'
-must
-not
-be
-called
-on
-the
-/
-/
 return
 value
 of
@@ -691,8 +610,48 @@ which
 is
 marked
 with
+MOZ_NO_ADDREF_RELEASE_ON_RETURN
+}
+}
+sd
+.
+g
+(
+)
+.
+Release
+(
+)
+;
 /
 /
+expected
+-
+error
+{
+{
+'
+Release
+'
+must
+not
+be
+called
+on
+the
+return
+value
+of
+'
+SD
+:
+:
+g
+'
+which
+is
+marked
+with
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -733,8 +692,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -747,8 +704,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -778,8 +733,6 @@ be
 called
 on
 the
-/
-/
 return
 value
 of
@@ -793,8 +746,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -842,8 +793,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -859,8 +808,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -891,8 +838,6 @@ be
 called
 on
 the
-/
-/
 return
 value
 of
@@ -909,8 +854,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -952,8 +895,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -969,8 +910,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1001,8 +940,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1018,8 +955,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1060,8 +995,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1077,8 +1010,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1109,8 +1040,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1126,8 +1055,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1175,8 +1102,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1192,8 +1117,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1224,8 +1147,6 @@ be
 called
 on
 the
-/
-/
 return
 value
 of
@@ -1242,8 +1163,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1285,8 +1204,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1302,8 +1219,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1333,8 +1248,6 @@ be
 called
 on
 the
-/
-/
 return
 value
 of
@@ -1351,8 +1264,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1393,8 +1304,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1410,8 +1319,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1441,8 +1348,6 @@ be
 called
 on
 the
-/
-/
 return
 value
 of
@@ -1459,8 +1364,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1504,8 +1407,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1523,8 +1424,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1552,8 +1451,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1571,8 +1468,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1613,8 +1508,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1632,8 +1525,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1661,8 +1552,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1680,8 +1569,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1718,8 +1605,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1729,8 +1614,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1760,8 +1643,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1771,8 +1652,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1810,8 +1689,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1821,8 +1698,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1851,8 +1726,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1862,8 +1735,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1900,8 +1771,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1911,8 +1780,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1941,8 +1808,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -1952,8 +1817,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -1991,8 +1854,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -2002,8 +1863,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -2033,8 +1892,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -2044,8 +1901,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -2083,8 +1938,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -2094,8 +1947,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -2124,8 +1975,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -2135,8 +1984,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -2173,8 +2020,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -2184,8 +2029,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }
@@ -2214,8 +2057,6 @@ called
 on
 the
 return
-/
-/
 value
 of
 '
@@ -2225,8 +2066,6 @@ which
 is
 marked
 with
-/
-/
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 }
 }

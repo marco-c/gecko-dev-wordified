@@ -128,8 +128,6 @@ builtin
 type
 '
 unsigned
-/
-/
 int
 '
 to
@@ -145,8 +143,6 @@ actor
 method
 }
 }
-/
-/
 expected
 -
 note
@@ -192,8 +188,6 @@ builtin
 type
 '
 unsigned
-/
-/
 int
 '
 to
@@ -206,8 +200,6 @@ in
 an
 IPC
 actor
-/
-/
 method
 }
 }
@@ -221,8 +213,6 @@ using
 the
 enum
 type
-/
-/
 directly
 }
 }
@@ -258,8 +248,6 @@ builtin
 type
 '
 unsigned
-/
-/
 int
 '
 to
@@ -275,8 +263,6 @@ actor
 method
 }
 }
-/
-/
 expected
 -
 note
@@ -322,8 +308,6 @@ builtin
 type
 '
 unsigned
-/
-/
 int
 '
 to
@@ -339,8 +323,6 @@ actor
 method
 }
 }
-/
-/
 expected
 -
 note
@@ -382,8 +364,6 @@ cast
 from
 builtin
 type
-/
-/
 '
 unsigned
 int
@@ -398,8 +378,6 @@ in
 an
 IPC
 actor
-/
-/
 method
 }
 }
@@ -413,8 +391,6 @@ using
 the
 enum
 type
-/
-/
 directly
 }
 }
@@ -481,8 +457,6 @@ builtin
 type
 '
 unsigned
-/
-/
 int
 '
 to
@@ -498,8 +472,6 @@ actor
 method
 }
 }
-/
-/
 expected
 -
 note

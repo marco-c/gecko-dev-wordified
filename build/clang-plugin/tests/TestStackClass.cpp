@@ -117,8 +117,6 @@ Stack
 '
 only
 valid
-/
-/
 on
 the
 stack
@@ -131,8 +129,6 @@ note
 {
 value
 incorrectly
-/
-/
 allocated
 in
 a
@@ -170,8 +166,6 @@ Stack
 2
 ]
 '
-/
-/
 only
 valid
 on
@@ -190,8 +184,6 @@ re
 Stack
 {
 {
-/
-/
 ?
 }
 }
@@ -209,8 +201,6 @@ is
 an
 array
 of
-/
-/
 stack
 type
 '
@@ -225,8 +215,6 @@ note
 {
 value
 incorrectly
-/
-/
 allocated
 in
 a
@@ -277,8 +265,6 @@ Stack
 only
 valid
 on
-/
-/
 the
 stack
 }
@@ -291,8 +277,6 @@ note
 value
 incorrectly
 allocated
-/
-/
 on
 the
 heap
@@ -322,8 +306,6 @@ Stack
 '
 only
 valid
-/
-/
 on
 the
 stack
@@ -336,8 +318,6 @@ note
 {
 value
 incorrectly
-/
-/
 allocated
 on
 the
@@ -363,8 +343,6 @@ error
 variable
 of
 type
-/
-/
 '
 TemplateClass
 <
@@ -375,8 +353,6 @@ only
 valid
 on
 the
-/
-/
 stack
 }
 }
@@ -387,8 +363,6 @@ note
 {
 value
 incorrectly
-/
-/
 allocated
 on
 the
@@ -422,8 +396,6 @@ type
 '
 Stack
 '
-/
-/
 only
 valid
 on
@@ -434,8 +406,6 @@ stack
 expected
 -
 note
-/
-/
 {
 {
 value
@@ -485,8 +455,6 @@ only
 valid
 on
 the
-/
-/
 stack
 }
 }
@@ -500,8 +468,6 @@ incorrectly
 allocated
 in
 a
-/
-/
 global
 variable
 }
@@ -527,8 +493,6 @@ a
 stack
 type
 because
-/
-/
 member
 '
 nonstaticMember
@@ -560,8 +524,6 @@ type
 Stack
 '
 only
-/
-/
 valid
 on
 the
@@ -574,8 +536,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -611,8 +571,6 @@ type
 Stack
 '
 only
-/
-/
 valid
 on
 the
@@ -625,8 +583,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -658,8 +614,6 @@ is
 a
 stack
 type
-/
-/
 because
 it
 inherits
@@ -697,8 +651,6 @@ type
 BadInherit
 '
 only
-/
-/
 valid
 on
 the
@@ -711,8 +663,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in
@@ -737,8 +687,6 @@ type
 '
 RandomClass
 '
-/
-/
 only
 valid
 on
@@ -752,8 +700,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 in

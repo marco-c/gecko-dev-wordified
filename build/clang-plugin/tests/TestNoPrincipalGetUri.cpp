@@ -93,8 +93,6 @@ deprecated
 and
 will
 be
-/
-/
 removed
 soon
 .
@@ -105,8 +103,6 @@ the
 new
 helper
 functions
-/
-/
 of
 nsIPrincipal
 }
@@ -146,8 +142,6 @@ deprecated
 and
 will
 be
-/
-/
 removed
 soon
 .
@@ -158,8 +152,6 @@ the
 new
 helper
 functions
-/
-/
 of
 nsIPrincipal
 }

@@ -37,8 +37,6 @@ Foo
 '
 }
 }
-/
-/
 expected
 -
 note
@@ -51,8 +49,6 @@ explicit
 keyword
 to
 the
-/
-/
 constructor
 }
 }
@@ -75,8 +71,6 @@ bad
 implicit
 conversion
 constructor
-/
-/
 for
 '
 Foo
@@ -91,8 +85,6 @@ note
 consider
 adding
 the
-/
-/
 explicit
 keyword
 to
@@ -124,8 +116,6 @@ Foo
 '
 }
 }
-/
-/
 expected
 -
 note
@@ -138,8 +128,6 @@ explicit
 keyword
 to
 the
-/
-/
 constructor
 }
 }
@@ -165,8 +153,6 @@ implicit
 conversion
 constructor
 for
-/
-/
 '
 Foo
 '
@@ -183,8 +169,6 @@ the
 explicit
 keyword
 to
-/
-/
 the
 constructor
 }
@@ -402,8 +386,6 @@ implicit
 conversion
 constructor
 for
-/
-/
 '
 Template
 '
@@ -418,8 +400,6 @@ consider
 adding
 the
 explicit
-/
-/
 keyword
 to
 the
@@ -448,8 +428,6 @@ implicit
 conversion
 constructor
 for
-/
-/
 '
 Template
 '
@@ -464,8 +442,6 @@ consider
 adding
 the
 explicit
-/
-/
 keyword
 to
 the

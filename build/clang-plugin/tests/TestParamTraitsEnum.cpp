@@ -173,8 +173,6 @@ error
 {
 Custom
 ParamTraits
-/
-/
 implementation
 for
 an
@@ -185,8 +183,6 @@ type
 expected
 -
 note
-/
-/
 {
 {
 Please
@@ -196,8 +192,6 @@ helper
 class
 for
 example
-/
-/
 ContiguousEnumSerializer
 }
 }
@@ -234,8 +228,6 @@ error
 {
 Custom
 ParamTraits
-/
-/
 implementation
 for
 an
@@ -243,8 +235,6 @@ enum
 type
 }
 }
-/
-/
 expected
 -
 note
@@ -255,8 +245,6 @@ use
 a
 helper
 class
-/
-/
 for
 example
 ContiguousEnumSerializer
@@ -283,8 +271,6 @@ error
 {
 Custom
 ParamTraits
-/
-/
 implementation
 for
 an
@@ -292,8 +278,6 @@ enum
 type
 }
 }
-/
-/
 expected
 -
 note
@@ -304,8 +288,6 @@ use
 a
 helper
 class
-/
-/
 for
 example
 ContiguousEnumSerializer
@@ -379,8 +361,6 @@ error
 {
 Custom
 ParamTraits
-/
-/
 implementation
 for
 an
@@ -391,8 +371,6 @@ type
 expected
 -
 note
-/
-/
 {
 {
 Please
@@ -402,8 +380,6 @@ helper
 class
 for
 example
-/
-/
 ContiguousEnumSerializer
 }
 }
@@ -444,8 +420,6 @@ error
 {
 Custom
 ParamTraits
-/
-/
 implementation
 for
 an
@@ -453,8 +427,6 @@ enum
 type
 }
 }
-/
-/
 expected
 -
 note
@@ -465,8 +437,6 @@ use
 a
 helper
 class
-/
-/
 for
 example
 ContiguousEnumSerializer

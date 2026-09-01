@@ -1,7 +1,6 @@
 #
 define
 MOZ_NEEDS_MEMMOVABLE_TYPE
-\
 __attribute__
 (
 (
@@ -65,8 +64,6 @@ Mover
 >
 '
 with
-/
-/
 non
 -
 memmovable
@@ -157,8 +154,6 @@ char
 '
 is
 a
-/
-/
 non
 -
 memmove
@@ -173,8 +168,6 @@ an
 stl
 -
 provided
-/
-/
 type
 not
 guaranteed
@@ -188,8 +181,6 @@ able
 expected
 -
 note
-/
-/
 {
 {
 '
@@ -209,8 +200,6 @@ char
 )
 is
 a
-/
-/
 non
 -
 memmove
@@ -225,8 +214,6 @@ an
 stl
 -
 provided
-/
-/
 type
 not
 guaranteed
@@ -343,8 +330,6 @@ memmove
 )
 able
 type
-/
-/
 because
 it
 has
@@ -386,8 +371,6 @@ std
 has_nontrivial_dtor
 '
 is
-/
-/
 a
 non
 -
@@ -400,8 +383,6 @@ because
 it
 is
 an
-/
-/
 stl
 -
 provided
@@ -410,8 +391,6 @@ not
 guaranteed
 to
 be
-/
-/
 memmove
 -
 able
@@ -448,8 +427,6 @@ std
 has_nontrivial_copy
 '
 is
-/
-/
 a
 non
 -
@@ -462,8 +439,6 @@ because
 it
 is
 an
-/
-/
 stl
 -
 provided
@@ -472,8 +447,6 @@ not
 guaranteed
 to
 be
-/
-/
 memmove
 -
 able
@@ -522,8 +495,6 @@ std
 has_nontrivial_move
 '
 is
-/
-/
 a
 non
 -
@@ -536,8 +507,6 @@ because
 it
 is
 an
-/
-/
 stl
 -
 provided
@@ -546,8 +515,6 @@ not
 guaranteed
 to
 be
-/
-/
 memmove
 -
 able
@@ -718,8 +685,6 @@ basic_string
 <
 char
 >
-/
-/
 custom_deleter
 <
 std
@@ -734,8 +699,6 @@ char
 '
 is
 a
-/
-/
 non
 -
 memmove
@@ -751,8 +714,6 @@ stl
 -
 provided
 type
-/
-/
 not
 guaranteed
 to
@@ -806,10 +767,6 @@ unique_ptr
 }
 ;
 }
-/
-/
-namespace
-std
 class
 HasString
 {
@@ -845,8 +802,6 @@ member
 '
 m
 '
-/
-/
 is
 a
 non
@@ -934,8 +889,6 @@ char
 >
 {
 {
-/
-/
 ?
 }
 }
@@ -969,8 +922,6 @@ HasString
 >
 '
 requested
-/
-/
 here
 }
 }
@@ -1026,8 +977,6 @@ std
 pair
 <
 bool
-/
-/
 std
 :
 :
@@ -1071,8 +1020,6 @@ note
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -1105,8 +1052,6 @@ note
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -1139,8 +1084,6 @@ note
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -1210,8 +1153,6 @@ note
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -1228,8 +1169,6 @@ has_nontrivial_dtor
 >
 >
 '
-/
-/
 requested
 here
 }
@@ -1260,8 +1199,6 @@ note
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -1278,8 +1215,6 @@ has_nontrivial_copy
 >
 >
 '
-/
-/
 requested
 here
 }
@@ -1310,8 +1245,6 @@ note
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -1328,8 +1261,6 @@ has_nontrivial_move
 >
 >
 '
-/
-/
 requested
 here
 }
@@ -1460,8 +1391,6 @@ note
 {
 instantiation
 of
-/
-/
 '
 Mover
 <
@@ -1477,8 +1406,6 @@ basic_string
 <
 char
 >
-/
-/
 custom_deleter
 <
 std
@@ -1493,8 +1420,6 @@ char
 >
 '
 requested
-/
-/
 here
 }
 }

@@ -44,10 +44,10 @@ compat
 "
 "
 )
+\
 __attribute__
 (
 (
-\
 annotate
 (
 "
@@ -56,6 +56,7 @@ moz_heap_allocator
 )
 )
 )
+\
 _Pragma
 (
 "
@@ -69,14 +70,14 @@ endif
 #
 include
 <
-new
+stdlib
+.
+h
 >
 #
 include
 <
-stdlib
-.
-h
+new
 >
 struct
 MOZ_NONHEAP_CLASS
@@ -178,8 +179,6 @@ X
 '
 is
 not
-/
-/
 valid
 on
 the
@@ -192,8 +191,6 @@ note
 {
 {
 value
-/
-/
 incorrectly
 allocated
 on
@@ -234,8 +231,6 @@ the
 heap
 }
 }
-/
-/
 expected
 -
 note

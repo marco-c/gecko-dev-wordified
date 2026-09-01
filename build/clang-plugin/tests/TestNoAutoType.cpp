@@ -77,8 +77,6 @@ declare
 a
 variable
 of
-/
-/
 type
 '
 ExplicitType
@@ -94,8 +92,6 @@ Please
 write
 out
 this
-/
-/
 type
 explicitly
 }
@@ -121,8 +117,6 @@ declare
 a
 variable
 of
-/
-/
 type
 '
 ExplicitType
@@ -138,8 +132,6 @@ note
 Please
 write
 out
-/
-/
 this
 type
 explicitly
@@ -168,8 +160,6 @@ a
 variable
 of
 type
-/
-/
 '
 const
 ExplicitType
@@ -186,8 +176,6 @@ Please
 write
 out
 this
-/
-/
 type
 explicitly
 }
@@ -214,8 +202,6 @@ declare
 a
 variable
 of
-/
-/
 type
 '
 ExplicitType
@@ -231,8 +217,6 @@ note
 Please
 write
 out
-/
-/
 this
 type
 explicitly
@@ -262,8 +246,6 @@ a
 variable
 of
 type
-/
-/
 '
 const
 ExplicitType
@@ -280,8 +262,6 @@ Please
 write
 out
 this
-/
-/
 type
 explicitly
 }
@@ -314,8 +294,6 @@ declare
 a
 variable
 of
-/
-/
 type
 '
 ExplicitTypeTemplate
@@ -331,8 +309,6 @@ note
 {
 {
 Please
-/
-/
 write
 out
 this
@@ -361,8 +337,6 @@ declare
 a
 variable
 of
-/
-/
 type
 '
 ExplicitTypeTemplate
@@ -379,8 +353,6 @@ note
 {
 {
 Please
-/
-/
 write
 out
 this
@@ -411,8 +383,6 @@ a
 variable
 of
 type
-/
-/
 '
 const
 ExplicitTypeTemplate
@@ -430,8 +400,6 @@ note
 {
 Please
 write
-/
-/
 out
 this
 type
@@ -460,8 +428,6 @@ declare
 a
 variable
 of
-/
-/
 type
 '
 ExplicitTypeTemplate
@@ -475,8 +441,6 @@ int
 expected
 -
 note
-/
-/
 {
 {
 Please
@@ -511,8 +475,6 @@ a
 variable
 of
 type
-/
-/
 '
 const
 ExplicitTypeTemplate
@@ -529,8 +491,6 @@ note
 {
 {
 Please
-/
-/
 write
 out
 this
@@ -600,8 +560,6 @@ auto
 to
 declare
 a
-/
-/
 variable
 of
 type
@@ -613,8 +571,6 @@ ExplicitType
 expected
 -
 note
-/
-/
 {
 {
 Please

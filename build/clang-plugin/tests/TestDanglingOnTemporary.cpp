@@ -40,8 +40,6 @@ methods
 annotated
 with
 MOZ_NO_DANGLING_ON_TEMPORARIES
-/
-/
 cannot
 be
 &
@@ -72,8 +70,6 @@ methods
 annotated
 with
 MOZ_NO_DANGLING_ON_TEMPORARIES
-/
-/
 must
 return
 a
@@ -121,8 +117,6 @@ call
 is
 implcitly
 on
-/
-/
 this
 }
 }
@@ -327,8 +321,6 @@ on
 a
 temporary
 potentially
-/
-/
 allowing
 use
 after
@@ -364,8 +356,6 @@ on
 a
 temporary
 potentially
-/
-/
 allowing
 use
 after
@@ -422,8 +412,6 @@ on
 a
 temporary
 potentially
-/
-/
 allowing
 use
 after
@@ -463,8 +451,6 @@ on
 a
 temporary
 potentially
-/
-/
 allowing
 use
 after
@@ -503,8 +489,6 @@ on
 a
 temporary
 potentially
-/
-/
 allowing
 use
 after

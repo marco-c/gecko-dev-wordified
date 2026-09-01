@@ -70,8 +70,6 @@ class
 BadUserDefinedDtor
 '
 must
-/
-/
 have
 a
 trivial
@@ -104,8 +102,6 @@ BadVirtualDtor
 must
 have
 a
-/
-/
 trivial
 destructor
 }
@@ -152,8 +148,6 @@ class
 BadNonEmptyCtorDtor
 '
 must
-/
-/
 have
 a
 trivial
@@ -225,8 +219,6 @@ class
 BadNonTrivialDtorInBase
 '
 must
-/
-/
 have
 a
 trivial
@@ -247,16 +239,12 @@ error
 {
 {
 class
-/
-/
 '
 BadNonTrivialDtorInMember
 '
 must
 have
 a
-/
-/
 trivial
 destructor
 }
