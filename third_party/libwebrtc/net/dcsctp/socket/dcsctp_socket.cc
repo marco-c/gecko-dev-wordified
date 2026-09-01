@@ -3438,6 +3438,11 @@ send_queue_
 .
 RestoreFromState
 (
+callbacks_
+.
+Now
+(
+)
 state
 )
 ;
@@ -15500,6 +15505,11 @@ send_queue_
 .
 AddHandoverState
 (
+callbacks_
+.
+Now
+(
+)
 state
 )
 ;
