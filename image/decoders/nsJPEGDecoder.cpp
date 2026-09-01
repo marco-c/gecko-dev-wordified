@@ -83,12 +83,6 @@ ImageLogging
 .
 h
 "
-/
-/
-Must
-appear
-first
-.
 #
 include
 "
