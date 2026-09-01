@@ -231,6 +231,13 @@ parking_lot
 :
 Mutex
 ;
+#
+[
+uniffi
+:
+:
+export
+]
 impl
 FirefoxAccount
 {
@@ -343,6 +350,13 @@ produce
 unexpected
 behaviour
 .
+#
+[
+uniffi
+:
+:
+constructor
+]
 #
 [
 handle_error

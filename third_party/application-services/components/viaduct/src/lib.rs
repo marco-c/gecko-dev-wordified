@@ -102,6 +102,17 @@ needed
 .
 #
 [
+cfg
+(
+feature
+=
+"
+ohttp
+"
+)
+]
+#
+[
 allow
 (
 unused_extern_crates

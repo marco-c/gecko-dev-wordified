@@ -61,6 +61,16 @@ mod
 address
 ;
 mod
+bridge
+;
+pub
+use
+bridge
+:
+:
+AddressesBridgedEngine
+;
+mod
 common
 ;
 pub
