@@ -1984,7 +1984,6 @@ sig
 )
 \
 {
-\
 DataBuffer
 (
 pkcs8
@@ -2018,7 +2017,6 @@ sizeof
 sig
 )
 )
-\
 }
 #
 define
