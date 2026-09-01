@@ -174,6 +174,14 @@ spidermonkey
 "
         
 "
+static
+-
+analysis
+-
+autotest
+"
+        
+"
 test
 "
         
