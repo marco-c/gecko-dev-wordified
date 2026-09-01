@@ -443,12 +443,6 @@ customHighlighterSpec
 ;
 this
 .
-_parent
-=
-parent
-;
-this
-.
 highlighterTypeName
 =
 typeName
@@ -573,9 +567,7 @@ if
 !
 isXUL
 (
-this
-.
-_parent
+parent
 .
 targetActor
 .
@@ -701,12 +693,6 @@ this
 finalize
 (
 )
-;
-this
-.
-_parent
-=
-null
 ;
 this
 .
