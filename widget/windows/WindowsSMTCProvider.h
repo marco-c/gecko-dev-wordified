@@ -813,9 +813,13 @@ again
 )
 EventRegistrationToken
 mButtonPressedToken
+{
+}
 ;
 EventRegistrationToken
 mSeekRegistrationToken
+{
+}
 ;
 }
 ;
