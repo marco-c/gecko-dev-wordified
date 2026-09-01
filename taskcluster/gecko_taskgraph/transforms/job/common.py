@@ -795,7 +795,16 @@ head_git_rev
                 
 head_ref
 =
-None
+config
+.
+params
+.
+get
+(
+"
+head_git_ref
+"
+)
                 
 type
 =
