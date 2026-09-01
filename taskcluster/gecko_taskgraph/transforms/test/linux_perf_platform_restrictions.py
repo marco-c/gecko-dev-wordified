@@ -157,14 +157,6 @@ PERFTEST_LINUX_1804_TESTS
 "
 ml
 -
-summarizer
--
-perf
-"
-    
-"
-ml
--
 perf
 -
 autofill
@@ -232,16 +224,6 @@ perf
 smart
 -
 tab
-"
-    
-"
-ml
--
-perf
--
-speecht5
--
-tts
 "
     
 "
