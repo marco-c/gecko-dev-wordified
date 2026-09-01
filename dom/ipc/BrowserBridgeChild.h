@@ -174,10 +174,15 @@ CanSend
 )
 ;
 return
-static_cast
+mozilla
+:
+:
+ipc
+:
+:
+ActorCast
 <
 BrowserChild
-*
 >
 (
 PBrowserBridgeChild

@@ -581,10 +581,15 @@ RemoteWorkerChild
 *
 manager
 =
-static_cast
+mozilla
+:
+:
+ipc
+:
+:
+ActorCast
 <
 RemoteWorkerChild
-*
 >
 (
 Manager
