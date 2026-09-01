@@ -457,6 +457,8 @@ json
 let
 blobUri
 =
+content
+.
 URL
 .
 createObjectURL

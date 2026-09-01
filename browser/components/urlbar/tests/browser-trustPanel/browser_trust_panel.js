@@ -1231,6 +1231,8 @@ document
 .
 location
 =
+content
+.
 URL
 .
 createObjectURL
