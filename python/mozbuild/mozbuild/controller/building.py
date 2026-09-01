@@ -382,6 +382,30 @@ generated
 ?
 P
 <
+python_traceback
+>
+^
+Traceback
+\
+\
+(
+most
+\
+recent
+\
+call
+\
+last
+\
+)
+:
+)
+    
+|
+(
+?
+P
+<
 make_error
 >
 make
@@ -6122,6 +6146,10 @@ in
                             
 "
 error_summary
+"
+                            
+"
+python_traceback
 "
                             
 "
