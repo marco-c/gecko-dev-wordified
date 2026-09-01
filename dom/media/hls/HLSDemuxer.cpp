@@ -747,10 +747,13 @@ SUPERVISOR
 "
 HLSDemuxer
 "
-TailDispatchPolicy
-:
-:
-NoTailDispatch
+/
+*
+aSupportsTailDispatch
+=
+*
+/
+false
 )
 )
 {

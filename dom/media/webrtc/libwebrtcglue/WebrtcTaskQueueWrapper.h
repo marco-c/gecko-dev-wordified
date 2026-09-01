@@ -122,12 +122,6 @@ mozilla
 class
 TaskQueue
 ;
-enum
-class
-TailDispatchPolicy
-:
-uint8_t
-;
 /
 *
 *
@@ -265,8 +259,8 @@ const
 nsACString
 &
 aName
-TailDispatchPolicy
-aTailDispatchPolicy
+bool
+aSupportsTailDispatch
 )
 ;
 /
@@ -442,8 +436,8 @@ const
 nsLiteralCString
 &
 aName
-TailDispatchPolicy
-aTailDispatchPolicy
+bool
+aSupportsTailDispatch
 )
 ;
 /

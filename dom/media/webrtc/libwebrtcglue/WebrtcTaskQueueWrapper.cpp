@@ -1542,8 +1542,8 @@ const
 nsACString
 &
 aName
-TailDispatchPolicy
-aTailDispatchPolicy
+bool
+aSupportsTailDispatch
 )
 {
 using
@@ -1585,7 +1585,7 @@ aTarget
 "
 WebrtcTaskQueue
 "
-aTailDispatchPolicy
+aSupportsTailDispatch
 )
 ;
 auto
@@ -1674,8 +1674,8 @@ const
 nsLiteralCString
 &
 aName
-TailDispatchPolicy
-aTailDispatchPolicy
+bool
+aSupportsTailDispatch
 )
 {
 using
@@ -1708,7 +1708,7 @@ StaticString
 (
 aName
 )
-aTailDispatchPolicy
+aSupportsTailDispatch
 )
 ;
 auto
@@ -1871,6 +1871,12 @@ what
 they
 expect
 .
+constexpr
+bool
+supportTailDispatch
+=
+false
+;
 /
 /
 XXX
@@ -1901,10 +1907,7 @@ size
 (
 )
 )
-TailDispatchPolicy
-:
-:
-NoTailDispatch
+supportTailDispatch
 )
 ;
 }

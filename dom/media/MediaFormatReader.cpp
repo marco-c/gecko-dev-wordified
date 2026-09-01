@@ -5950,10 +5950,13 @@ MediaFormatReader
 :
 mTaskQueue
 "
-TailDispatchPolicy
-:
-:
-ConsistentOrdering
+/
+*
+aSupportsTailDispatch
+=
+*
+/
+true
 )
 )
 mAudio

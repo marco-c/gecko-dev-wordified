@@ -3028,10 +3028,13 @@ WebrtcVideoConduit
 mFrameRecvThread
 "
 _ns
-TailDispatchPolicy
-:
-:
-ConsistentOrdering
+/
+*
+aSupportsTailDispatch
+=
+*
+/
+true
 )
 )
 mControl

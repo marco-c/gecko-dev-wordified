@@ -207,10 +207,7 @@ MediaTrackGraphImpl
 0
 aRate
 nullptr
-AbstractThread
-:
-:
-GetCurrent
+NS_GetCurrentThread
 (
 )
 )

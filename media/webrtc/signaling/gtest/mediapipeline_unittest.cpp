@@ -349,10 +349,7 @@ GetMainThreadSerialEventTarget
 MainAsCurrent
 "
 _ns
-TailDispatchPolicy
-:
-:
-NoTailDispatch
+false
 )
 )
 mWebrtcTaskQueue

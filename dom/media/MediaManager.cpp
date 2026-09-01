@@ -17006,6 +17006,12 @@ timesCreated
 1
 )
 ;
+constexpr
+bool
+kSupportsTailDispatch
+=
+false
+;
 RefPtr
 <
 TaskQueue
@@ -17028,10 +17034,7 @@ SUPERVISOR
 MediaManager
 "
 _ns
-TailDispatchPolicy
-:
-:
-NoTailDispatch
+kSupportsTailDispatch
 )
 ;
 #
@@ -17051,10 +17054,7 @@ SUPERVISOR
 "
 MediaManager
 "
-TailDispatchPolicy
-:
-:
-NoTailDispatch
+kSupportsTailDispatch
 )
 ;
 #

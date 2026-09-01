@@ -3245,6 +3245,12 @@ FakeAudioDeviceModule
 (
 )
 ;
+constexpr
+bool
+supportTailDispatch
+=
+true
+;
 /
 /
 This
@@ -3315,10 +3321,7 @@ WEBRTC_CALL_THREAD
 CallWorker
 "
 _ns
-TailDispatchPolicy
-:
-:
-ConsistentOrdering
+supportTailDispatch
 )
 ;
 auto
