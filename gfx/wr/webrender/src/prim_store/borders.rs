@@ -144,15 +144,6 @@ use
 crate
 :
 :
-visibility
-:
-:
-PrimitiveDrawIndex
-;
-use
-crate
-:
-:
 render_task_cache
 :
 :
@@ -405,9 +396,6 @@ SpatialNodeIndex
 device_pixel_scale
 :
 DevicePixelScale
-draw_index
-:
-PrimitiveDrawIndex
 quad_transform
 :
 &
@@ -1724,7 +1712,6 @@ segment
 .
 edge_flags
 }
-draw_index
 &
 None
 clip_chain
@@ -2278,7 +2265,6 @@ edge_flags
 }
 stretch_size
 spacing
-draw_index
 &
 None
 clip_chain
