@@ -628,10 +628,12 @@ ok
 )
 ;
 }
+const
 std
 :
 :
 string
+&
 message
 (
 )
@@ -778,10 +780,12 @@ ok
 )
 ;
 }
+const
 std
 :
 :
 string
+&
 message
 (
 )

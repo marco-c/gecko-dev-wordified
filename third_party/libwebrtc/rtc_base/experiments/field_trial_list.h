@@ -431,6 +431,7 @@ default_values
 )
 {
 }
+const
 std
 :
 :
@@ -438,6 +439,7 @@ vector
 <
 T
 >
+&
 Get
 (
 )
@@ -448,6 +450,7 @@ values_
 ;
 }
 operator
+const
 std
 :
 :
@@ -455,6 +458,7 @@ vector
 <
 T
 >
+&
 (
 )
 const
@@ -1313,6 +1317,7 @@ default_list
 )
 {
 }
+const
 std
 :
 :
@@ -1320,6 +1325,7 @@ vector
 <
 S
 >
+&
 Get
 (
 )
@@ -1330,6 +1336,7 @@ values_
 ;
 }
 operator
+const
 std
 :
 :
@@ -1337,6 +1344,7 @@ vector
 <
 S
 >
+&
 (
 )
 const

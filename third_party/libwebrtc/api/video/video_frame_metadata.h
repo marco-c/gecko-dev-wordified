@@ -668,6 +668,7 @@ uint32_t
 ssrc
 )
 ;
+const
 std
 :
 :
@@ -675,6 +676,7 @@ vector
 <
 uint32_t
 >
+&
 GetCsrcs
 (
 )

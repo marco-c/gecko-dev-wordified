@@ -834,6 +834,7 @@ on
 failure
 )
 .
+const
 std
 :
 :
@@ -841,6 +842,7 @@ vector
 <
 Config
 >
+&
 GetConfigs
 (
 )
