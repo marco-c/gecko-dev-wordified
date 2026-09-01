@@ -593,10 +593,10 @@ GetContainingBlockForClientRect
 aFrame
 )
 }
-nsIFrame
+TransformMatrixFlag
 :
 :
-IN_CSS_UNITS
+InCSSUnits
 nullptr
 )
 )
