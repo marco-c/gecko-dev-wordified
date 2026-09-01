@@ -6900,6 +6900,7 @@ x0
 dfdx
 const
 auto
+&
 head_end
 =
 *
