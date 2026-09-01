@@ -9556,12 +9556,16 @@ do
 that
 *
 /
-APPEND_TO_DRIVER_BLOCKLIST_RANGE_GPU2
+APPEND_TO_DRIVER_BLOCKLIST_RANGE_ADAPTER
 (
 OperatingSystem
 :
 :
 Windows7
+AdapterMatch
+:
+:
+Secondary
 DeviceFamily
 :
 :
