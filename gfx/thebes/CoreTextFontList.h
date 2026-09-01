@@ -606,7 +606,7 @@ aFontStyle
 override
 ;
 bool
-HasFontTable
+HasFontTableInternal
 (
 uint32_t
 aTableTag

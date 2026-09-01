@@ -4310,7 +4310,7 @@ bool
 gfxFontconfigFontEntry
 :
 :
-HasFontTable
+HasFontTableInternal
 (
 uint32_t
 aTableTag
