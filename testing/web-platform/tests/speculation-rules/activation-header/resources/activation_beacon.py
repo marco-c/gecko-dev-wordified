@@ -372,7 +372,7 @@ method
 =
 b
 "
-HEAD
+GET
 "
 and
 request
@@ -381,7 +381,7 @@ method
 !
 =
 "
-HEAD
+GET
 "
 :
                 
