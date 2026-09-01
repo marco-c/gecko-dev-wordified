@@ -1205,13 +1205,6 @@ extended_connect_close_session
 (
 conn
 session_id
-extended_connect
-:
-:
-ExtendedConnectType
-:
-:
-ConnectUdp
 error
 message
 now
