@@ -133,6 +133,20 @@ service
 .
 pocket
 .
+recommendations
+.
+api
+.
+ContentRecommendationsProvider
+import
+mozilla
+.
+components
+.
+service
+.
+pocket
+.
 stories
 .
 api
@@ -167,11 +181,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -223,7 +237,6 @@ ContentRecommendationsRequestConfig
 /
 *
 *
-*
 Get
 the
 list
@@ -246,7 +259,6 @@ appContext
 )
 }
 /
-*
 *
 *
 Fetches
@@ -276,7 +288,6 @@ client
 )
 }
 /
-*
 *
 *
 Updates
@@ -341,11 +352,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -371,7 +382,6 @@ appContext
 )
 {
 /
-*
 *
 *
 Returns
@@ -444,11 +454,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -525,7 +535,6 @@ config
 /
 *
 *
-*
 Fetches
 content
 recommendations
@@ -540,7 +549,6 @@ and
 stores
 the
 items
-*
 in
 storage
 .
@@ -558,7 +566,7 @@ Boolean
 val
 response
 =
-getContentRecommendationsEndpoint
+getContentRecommendationsProvider
 (
 client
 config
@@ -616,7 +624,6 @@ a
 list
 of
 content
-*
 recommendations
 .
 *
@@ -635,11 +642,11 @@ context
 to
 limit
 the
-*
 possibility
 of
 even
 small
+*
 leaks
 .
 *
@@ -682,7 +689,6 @@ the
 provided
 list
 of
-*
 [
 ContentRecommendation
 ]
@@ -703,7 +709,6 @@ that
 have
 an
 updated
-*
 impressions
 .
 *
@@ -758,7 +763,7 @@ context
 VisibleForTesting
 internal
 fun
-getContentRecommendationsEndpoint
+getContentRecommendationsProvider
 (
 client
 :
@@ -767,6 +772,8 @@ config
 :
 ContentRecommendationsRequestConfig
 )
+:
+ContentRecommendationsProvider
 =
 ContentRecommendationsEndpoint
 .

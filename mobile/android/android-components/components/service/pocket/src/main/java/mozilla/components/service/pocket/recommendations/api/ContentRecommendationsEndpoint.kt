@@ -181,6 +181,8 @@ rawEndpoint
 :
 ContentRecommendationEndpointRaw
 )
+:
+ContentRecommendationsProvider
 {
 /
 *
@@ -198,7 +200,6 @@ the
 provided
 endpoint
 on
-*
 success
 .
 *
@@ -218,10 +219,10 @@ response
 of
 the
 content
-*
 recommendations
 or
 a
+*
 [
 PocketResponse
 .
@@ -233,6 +234,7 @@ error
 *
 /
 WorkerThread
+override
 fun
 getContentRecommendations
 (
@@ -347,7 +349,6 @@ for
 the
 parent
 container
-*
 width
 and
 height
@@ -355,6 +356,7 @@ height
 *
 *
 See
+*
 https
 :
 /
@@ -437,20 +439,19 @@ width
 and
 height
 .
-*
 Also
 :
 force
 JPEG
 quality
 60
+*
 no
 upscaling
 no
 EXIF
 data
 .
-*
 Uses
 Thumbor
 :
