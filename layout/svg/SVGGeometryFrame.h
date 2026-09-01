@@ -474,7 +474,7 @@ imgDrawingParams
 aImgParams
 )
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 mozilla
@@ -857,9 +857,13 @@ aDryRun
 /
 true
 )
+.
+isOk
+(
+)
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 mozilla
@@ -946,7 +950,7 @@ SVGGeometryFrame
 mFrame
 )
 ;
-bool
+WebRenderCommandsResult
 result
 =
 frame
@@ -972,6 +976,10 @@ false
 MOZ_ASSERT
 (
 result
+.
+isOk
+(
+)
 "
 ShouldBeActive
 inconsistent

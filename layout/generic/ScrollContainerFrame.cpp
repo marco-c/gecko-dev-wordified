@@ -27095,7 +27095,7 @@ DrawBorders
 ;
 }
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -27150,7 +27150,9 @@ aSc
 ;
 }
 return
-true
+Ok
+(
+)
 ;
 }
 NS_DISPLAY_DECL_NAME

@@ -212,7 +212,7 @@ friend
 class
 DisplaySVGImage
 ;
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -856,9 +856,13 @@ aDryRun
 /
 true
 )
+.
+isOk
+(
+)
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 mozilla
@@ -917,7 +921,7 @@ SVGImageFrame
 mFrame
 )
 ;
-bool
+WebRenderCommandsResult
 result
 =
 frame
@@ -943,6 +947,10 @@ false
 MOZ_ASSERT
 (
 result
+.
+isOk
+(
+)
 "
 ShouldBeActive
 inconsistent

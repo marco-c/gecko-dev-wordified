@@ -3960,7 +3960,7 @@ forget
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 mozilla
@@ -4051,7 +4051,9 @@ container
 )
 {
 return
-true
+Ok
+(
+)
 ;
 }
 container
@@ -4165,7 +4167,9 @@ dest
 )
 ;
 return
-true
+Ok
+(
+)
 ;
 }
 /

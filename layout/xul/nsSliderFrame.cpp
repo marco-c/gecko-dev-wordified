@@ -949,7 +949,7 @@ ToReferenceFrame
 )
 ;
 }
-bool
+WebRenderCommandsResult
 CreateWebRenderCommands
 (
 wr
@@ -1648,7 +1648,7 @@ fillColor
 }
 }
 }
-bool
+WebRenderCommandsResult
 nsDisplaySliderMarks
 :
 :
@@ -1690,7 +1690,9 @@ nullptr
 )
 ;
 return
-true
+Ok
+(
+)
 ;
 }
 void
