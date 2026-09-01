@@ -77,6 +77,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DirectionalityUtils
+.
+h
+"
+#
+include
+"
 nsTextNode
 .
 h
