@@ -263,7 +263,7 @@ switcher
 {
 role
 :
-ROLE_EDITCOMBOBOX
+ROLE_PUSHBUTTON
 /
 /
 not
@@ -435,7 +435,7 @@ switcher
 {
 role
 :
-ROLE_EDITCOMBOBOX
+ROLE_PUSHBUTTON
 /
 /
 not
