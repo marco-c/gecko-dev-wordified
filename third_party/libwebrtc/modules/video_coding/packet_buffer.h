@@ -142,6 +142,15 @@ include
 "
 api
 /
+rtp_packet_info
+.
+h
+"
+#
+include
+"
+api
+/
 video
 /
 video_codec_type
@@ -406,6 +415,9 @@ video_payload
 ;
 RTPVideoHeader
 video_header
+;
+RtpPacketInfo
+rtp_packet_info
 ;
 }
 ;
