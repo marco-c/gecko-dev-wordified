@@ -332,7 +332,7 @@ i
 const
 telemetryType
 =
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (

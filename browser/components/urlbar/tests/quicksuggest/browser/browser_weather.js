@@ -2748,7 +2748,7 @@ Assert
 .
 equal
 (
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (
@@ -2796,7 +2796,7 @@ Assert
 .
 notEqual
 (
-UrlbarUtils
+UrlbarShared
 .
 searchEngagementTelemetryType
 (
