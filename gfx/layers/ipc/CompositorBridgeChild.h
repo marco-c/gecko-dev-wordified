@@ -718,6 +718,10 @@ const
 LayersId
 &
 id
+const
+LayersId
+&
+embedderId
 )
 ;
 bool
