@@ -1015,9 +1015,50 @@ dist
 /
 .
     
+#
+This
+must
+stay
+an
+ordered
+sequence
+:
+consumers
+use
+the
+first
+matching
+    
+#
+pattern
+and
+some
+patterns
+overlap
+(
+a
+trailing
+*
+matches
+a
+whole
+    
+#
+subtree
+)
+so
+more
+specific
+patterns
+have
+to
+come
+first
+.
+    
 test_artifact_patterns
 =
-{
+(
         
 (
 "
@@ -1323,7 +1364,7 @@ plugins
 )
 )
     
-}
+)
     
 #
 We
@@ -6797,9 +6838,21 @@ Makefile
 in
 .
     
+#
+See
+ArtifactJob
+.
+test_artifact_patterns
+for
+why
+the
+order
+matters
+.
+    
 test_artifact_patterns
 =
-{
+(
         
 (
 "
@@ -7175,7 +7228,7 @@ components
 )
 )
     
-}
+)
     
 def
 process_package_artifact
