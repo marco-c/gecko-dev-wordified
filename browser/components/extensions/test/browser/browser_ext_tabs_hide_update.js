@@ -533,6 +533,11 @@ extension
 "
 )
 ;
+await
+dismissTabHideDoorhanger
+(
+)
+;
 /
 /
 Test
@@ -842,6 +847,11 @@ hidden
 by
 extension
 "
+)
+;
+await
+dismissTabHideDoorhanger
+(
 )
 ;
 /

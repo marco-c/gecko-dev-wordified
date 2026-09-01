@@ -851,6 +851,11 @@ done
 )
 ;
 await
+dismissTabHideDoorhanger
+(
+)
+;
+await
 extension
 .
 unload
