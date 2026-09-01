@@ -306,8 +306,8 @@ packet
 ;
 /
 /
-Split
-payload_len
+Splits
+payload_size
 into
 sum
 of
@@ -335,8 +335,8 @@ int
 >
 SplitAboutEqually
 (
-int
-payload_len
+size_t
+payload_size
 const
 PayloadSizeLimits
 &
