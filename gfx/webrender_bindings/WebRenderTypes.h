@@ -5236,16 +5236,9 @@ WrClipChainId
 other
 )
 const
-{
-return
-id
 =
-=
-other
-.
-id
+default
 ;
-}
 static
 WrClipChainId
 Empty
