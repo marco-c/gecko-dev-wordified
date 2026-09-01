@@ -181,7 +181,6 @@ ColorSwatch
 /
 *
 *
-*
 The
 full
 Nova
@@ -544,6 +543,17 @@ Desaturated
 NovaColors
 .
 VioletDesaturated90
+)
+ColorSwatch
+(
+"
+Violet
+Desaturated
+90A40
+"
+NovaColors
+.
+VioletDesaturated90A40
 )
 ColorSwatch
 (

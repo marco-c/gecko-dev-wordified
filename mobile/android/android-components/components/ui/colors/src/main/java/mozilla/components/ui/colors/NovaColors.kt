@@ -77,7 +77,6 @@ Color
 /
 *
 *
-*
 Colors
 from
 the
@@ -349,6 +348,13 @@ VioletDesaturated90
 Color
 (
 0xFF180E30
+)
+val
+VioletDesaturated90A40
+=
+Color
+(
+0x66180E30
 )
 val
 VioletDesaturated90A50
