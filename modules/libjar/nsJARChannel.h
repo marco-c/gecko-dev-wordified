@@ -203,9 +203,6 @@ class
 nsJARInputThunk
 ;
 class
-nsJARProtocolHandler
-;
-class
 nsInputStreamPump
 ;
 /
@@ -467,12 +464,6 @@ bool
 mOnDataCalled
 =
 false
-;
-RefPtr
-<
-nsJARProtocolHandler
->
-mJarHandler
 ;
 nsCOMPtr
 <
