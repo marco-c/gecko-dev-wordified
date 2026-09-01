@@ -214,7 +214,7 @@ u
 {
 \
 "
-origins
+hosts
 \
 "
 :

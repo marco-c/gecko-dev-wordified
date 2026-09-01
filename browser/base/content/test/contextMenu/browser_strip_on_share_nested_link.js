@@ -920,7 +920,7 @@ test_2
 test_1
 "
 ]
-origins
+hosts
 :
 [
 "
@@ -945,7 +945,7 @@ test_3
 test_4
 "
 ]
-origins
+hosts
 :
 [
 "

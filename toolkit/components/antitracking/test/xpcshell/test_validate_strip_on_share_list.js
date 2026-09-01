@@ -195,7 +195,7 @@ string
 "
 }
 }
-origins
+hosts
 :
 {
 type
@@ -272,7 +272,7 @@ required
 :
 [
 "
-origins
+hosts
 "
 ]
 }

@@ -1575,7 +1575,7 @@ test_1
 TEST_5
 "
 ]
-origins
+hosts
 :
 [
 "
@@ -1600,7 +1600,7 @@ test_3
 test_4
 "
 ]
-origins
+hosts
 :
 [
 "

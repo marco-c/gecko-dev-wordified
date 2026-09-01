@@ -467,7 +467,7 @@ dom
 :
 StripRule
 >
-mStripOnShareOriginMap
+mStripOnShareHostMap
 ;
 nsTHashMap
 <
