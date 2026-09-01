@@ -9007,7 +9007,7 @@ batchSize
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_platform
 (
 )
 &

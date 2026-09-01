@@ -153,7 +153,15 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-media_use_remote_encoder_video
+media_use_remote_encoder_video_software
+(
+)
+|
+|
+StaticPrefs
+:
+:
+media_use_remote_encoder_video_platform
 (
 )
 )
@@ -249,7 +257,7 @@ XRE_IsContentProcess
 StaticPrefs
 :
 :
-media_use_remote_encoder_audio
+media_use_remote_encoder_audio_software
 (
 )
 )
