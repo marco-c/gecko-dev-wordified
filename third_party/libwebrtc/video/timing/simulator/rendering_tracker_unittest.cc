@@ -436,17 +436,7 @@ make_unique
 VCMTiming
 >
 (
-&
 env_
-.
-clock
-(
-)
-env_
-.
-field_trials
-(
-)
 /
 *
 render_delay

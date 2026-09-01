@@ -1405,17 +1405,7 @@ make_unique
 VCMTiming
 >
 (
-&
 env
-.
-clock
-(
-)
-env
-.
-field_trials
-(
-)
 RenderingSimulator
 :
 :
