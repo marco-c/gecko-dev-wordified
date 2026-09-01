@@ -783,9 +783,6 @@ kNotFound
 ;
 if
 (
-mAllowLineBreaking
-&
-&
 HasLongLines
 (
 data
