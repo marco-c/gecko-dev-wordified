@@ -4214,7 +4214,6 @@ analysis
 .
 init
 (
-temp
 )
 )
 {

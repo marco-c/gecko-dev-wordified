@@ -338,9 +338,6 @@ nodiscard
 bool
 init
 (
-TempAllocator
-&
-alloc
 )
 ;
 BytecodeInfo
