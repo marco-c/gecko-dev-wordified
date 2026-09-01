@@ -3587,8 +3587,9 @@ nsIconChannel
 nsIconChannel
 (
 )
-{
-}
+=
+default
+;
 nsIconChannel
 :
 :
