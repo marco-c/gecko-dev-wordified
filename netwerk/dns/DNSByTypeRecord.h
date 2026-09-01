@@ -238,6 +238,11 @@ mIsTRR
 =
 false
 ;
+bool
+mFromStaleCache
+=
+false
+;
 }
 ;
 }
@@ -265,6 +270,7 @@ IPCTypeRecord
 mData
 mTTL
 mIsTRR
+mFromStaleCache
 )
 ;
 DEFINE_IPC_SERIALIZER_WITH_FIELDS
