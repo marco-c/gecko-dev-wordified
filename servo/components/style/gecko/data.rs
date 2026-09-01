@@ -507,6 +507,8 @@ DomStyleSheet
 >
 Self
 {
+unsafe
+{
 debug_assert
 !
 (
@@ -533,6 +535,7 @@ from_addrefed
 (
 s
 )
+}
 }
 /
 /

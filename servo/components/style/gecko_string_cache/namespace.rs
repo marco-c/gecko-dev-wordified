@@ -70,6 +70,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 gecko_bindings
 :
 :
@@ -494,6 +503,8 @@ nsAtom
 a
 Self
 {
+unsafe
+{
 &
 *
 (
@@ -503,6 +514,7 @@ as
 const
 WeakNamespace
 )
+}
 }
 /
 /

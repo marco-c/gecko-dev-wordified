@@ -729,6 +729,8 @@ release
 self
 )
 {
+unsafe
+{
 if
 !
 self
@@ -750,6 +752,7 @@ release
 (
 )
 ;
+}
 }
 }
 }
@@ -1045,6 +1048,8 @@ other
 Self
 )
 {
+unsafe
+{
 self
 .
 clear
@@ -1074,6 +1079,7 @@ forget
 (
 )
 ;
+}
 }
 }
 /
@@ -1129,6 +1135,8 @@ mut
 self
 )
 {
+unsafe
+{
 if
 !
 self
@@ -1161,6 +1169,7 @@ null_mut
 (
 )
 ;
+}
 }
 }
 /
@@ -1634,6 +1643,8 @@ release
 self
 )
 {
+unsafe
+{
 release
 (
 self
@@ -1646,6 +1657,7 @@ as
 mut
 _
 )
+}
 }
 }
 }
@@ -1779,6 +1791,8 @@ structs
 nsAtom
 )
 {
+unsafe
+{
 mem
 :
 :
@@ -1793,6 +1807,7 @@ atom
 )
 )
 ;
+}
 }
 #
 [
@@ -1812,6 +1827,8 @@ structs
 nsAtom
 )
 {
+unsafe
+{
 let
 _
 =
@@ -1823,6 +1840,7 @@ from_addrefed
 atom
 )
 ;
+}
 }
 impl_threadsafe_refcount
 !

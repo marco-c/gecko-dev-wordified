@@ -4627,7 +4627,6 @@ Self
 :
 Inset
 (
-ref
 inset
 )
 =
@@ -4643,7 +4642,6 @@ Self
 :
 Xywh
 (
-ref
 xywh
 )
 =
@@ -4888,7 +4886,6 @@ Self
 :
 Rect
 (
-ref
 rect
 )
 =

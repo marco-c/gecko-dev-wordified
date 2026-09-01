@@ -1726,6 +1726,8 @@ URLExtraData
 &
 Self
 {
+unsafe
+{
 mem
 :
 :
@@ -1733,6 +1735,7 @@ transmute
 (
 ptr
 )
+}
 }
 /
 /

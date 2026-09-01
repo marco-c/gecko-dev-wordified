@@ -13489,7 +13489,6 @@ GenericLineHeight
 :
 Number
 (
-ref
 number
 )
 =
@@ -13652,7 +13651,6 @@ GenericLineHeight
 :
 Length
 (
-ref
 non_negative_lp
 )
 =

@@ -598,12 +598,15 @@ camel_case
 specified
 )
 ;
+unsafe
+{
 cascade_property
 (
 &
 decl
 context
 )
+}
 ;
 context
 .

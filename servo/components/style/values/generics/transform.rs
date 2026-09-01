@@ -5505,7 +5505,6 @@ PerspectiveFunction
 :
 Length
 (
-ref
 p
 )
 =

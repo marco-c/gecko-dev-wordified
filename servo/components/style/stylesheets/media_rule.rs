@@ -831,12 +831,10 @@ Self
 :
 MediaList
 (
-ref
 m
 )
 =
 >
-{
 Self
 :
 :
@@ -864,7 +862,6 @@ clone
 )
 )
 )
-}
 }
 }
 }
@@ -1490,7 +1487,6 @@ CustomMediaCondition
 :
 MediaList
 (
-ref
 m
 )
 =

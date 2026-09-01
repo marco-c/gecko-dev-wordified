@@ -219,6 +219,8 @@ T
 >
 Self
 {
+unsafe
+{
 Self
 {
 inner
@@ -236,6 +238,7 @@ from_raw
 ptr
 )
 )
+}
 }
 }
 /
@@ -305,6 +308,8 @@ Self
 >
 Self
 {
+unsafe
+{
 Self
 {
 inner
@@ -319,6 +324,7 @@ this
 .
 inner
 )
+}
 }
 }
 /
@@ -468,6 +474,8 @@ mut
 Self
 )
 {
+unsafe
+{
 ManuallyDrop
 :
 :
@@ -479,6 +487,7 @@ this
 .
 inner
 )
+}
 }
 }
 impl

@@ -9282,7 +9282,6 @@ Token
 :
 Function
 (
-ref
 name
 )
 if
@@ -9296,7 +9295,6 @@ type
 )
 =
 >
-{
 AttributeType
 :
 :
@@ -9313,13 +9311,11 @@ from_css_parser
 )
 ?
 )
-}
 Token
 :
 :
 Ident
 (
-ref
 ident
 )
 =

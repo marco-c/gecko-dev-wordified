@@ -1213,6 +1213,8 @@ self
 a
 T
 {
+unsafe
+{
 let
 ptr
 =
@@ -1227,6 +1229,7 @@ get
 &
 *
 ptr
+}
 }
 /
 /

@@ -3393,7 +3393,6 @@ ComponentName
 :
 Ident
 (
-ref
 name
 )
 =

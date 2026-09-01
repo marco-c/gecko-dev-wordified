@@ -5373,7 +5373,6 @@ Token
 :
 Ident
 (
-ref
 ident
 )
 =
@@ -8453,6 +8452,8 @@ usize
 >
 Self
 {
+unsafe
+{
 debug_assert
 !
 (
@@ -8476,6 +8477,7 @@ index
 as
 u8
 )
+}
 }
 #
 [
@@ -8532,6 +8534,8 @@ usize
 >
 Self
 {
+unsafe
+{
 debug_assert
 !
 (
@@ -8555,6 +8559,7 @@ index
 as
 u16
 )
+}
 }
 #
 [

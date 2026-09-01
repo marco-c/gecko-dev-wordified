@@ -1748,6 +1748,8 @@ self
 &
 T
 {
+unsafe
+{
 &
 (
 *
@@ -1768,6 +1770,7 @@ T
 )
 .
 value
+}
 }
 /
 /
@@ -2784,6 +2787,8 @@ static_assert_noncustomcsspropertyid
 (
 )
 {
+unsafe
+{
 %
 for
 i
@@ -2856,6 +2861,7 @@ name
 }
 %
 endfor
+}
 }
 %
 endif

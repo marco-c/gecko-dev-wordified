@@ -352,6 +352,8 @@ _
 debug_assert
 !
 (
+unsafe
+{
 bindings
 :
 :
@@ -359,6 +361,7 @@ Gecko_AssertClassAttrValueIsSane
 (
 attr
 )
+}
 )
 ;
 let
@@ -384,6 +387,8 @@ Class
 :
 One
 (
+unsafe
+{
 &
 *
 ptr
@@ -395,6 +400,7 @@ nsAtom
 (
 attr
 )
+}
 )
 ;
 }
@@ -406,6 +412,8 @@ structs
 :
 :
 nsAttrValue_ValueBaseType_eOtherBase
+{
+unsafe
 {
 let
 container
@@ -479,6 +487,7 @@ atom_array
 )
 ;
 }
+}
 debug_assert_eq
 !
 (
@@ -531,6 +540,8 @@ structs
 nsAttrValue_ValueBaseType_eAtomBase
 )
 ;
+unsafe
+{
 WeakAtom
 :
 :
@@ -546,6 +557,7 @@ nsAtom
 attr
 )
 )
+}
 }
 impl
 structs
@@ -605,6 +617,8 @@ is_nodeinfo
 )
 )
 ;
+unsafe
+{
 &
 *
 (
@@ -624,6 +638,7 @@ structs
 :
 NodeInfo
 )
+}
 }
 #
 [

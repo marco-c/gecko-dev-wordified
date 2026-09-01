@@ -1321,8 +1321,9 @@ is_span
 =
 true
 ;
+continue
+;
 }
-else
 if
 let
 Ok
@@ -1414,8 +1415,9 @@ Some
 i
 )
 ;
+continue
+;
 }
-else
 if
 let
 Ok
@@ -1499,12 +1501,11 @@ Some
 name
 )
 ;
-}
-else
-{
-break
+continue
 ;
 }
+break
+;
 }
 if
 line_num

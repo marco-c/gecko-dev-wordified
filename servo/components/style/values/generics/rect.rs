@@ -447,10 +447,6 @@ input
 ?
 ;
 let
-second
-=
-if
-let
 Ok
 (
 second
@@ -469,9 +465,6 @@ context
 i
 )
 )
-{
-second
-}
 else
 {
 /
@@ -509,10 +502,6 @@ first
 }
 ;
 let
-third
-=
-if
-let
 Ok
 (
 third
@@ -531,9 +520,6 @@ context
 i
 )
 )
-{
-third
-}
 else
 {
 /
@@ -570,10 +556,6 @@ second
 }
 ;
 let
-fourth
-=
-if
-let
 Ok
 (
 fourth
@@ -592,9 +574,6 @@ context
 i
 )
 )
-{
-fourth
-}
 else
 {
 /

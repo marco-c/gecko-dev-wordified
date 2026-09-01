@@ -7277,6 +7277,8 @@ is_logical
 )
 )
 ;
+unsafe
+{
 /
 /
 We
@@ -7342,6 +7344,7 @@ declaration
 context
 )
 ;
+}
 }
 fn
 compute_visited_style_if_needed
