@@ -2525,12 +2525,6 @@ PrincipalHandle
 aNewPrincipalHandle
 )
 {
-PrincipalHandle
-handle
-(
-aNewPrincipalHandle
-)
-;
 LOG
 (
 LogLevel
@@ -2579,7 +2573,7 @@ ptr
 (
 GetPrincipalFromHandle
 (
-handle
+aNewPrincipalHandle
 )
 )
 fmt
@@ -2611,7 +2605,7 @@ if
 (
 PrincipalHandleMatches
 (
-handle
+aNewPrincipalHandle
 mPendingPrincipal
 )
 )

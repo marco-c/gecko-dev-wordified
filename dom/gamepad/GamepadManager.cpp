@@ -2907,7 +2907,9 @@ handle
 (
 )
 ;
+const
 GamepadChangeEventBody
+&
 body
 =
 aEvent
