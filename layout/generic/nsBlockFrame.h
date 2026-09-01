@@ -5367,6 +5367,8 @@ ApplyLineClamp
 (
 nscoord
 aContentBlockEndEdge
+nscoord
+aCollapsingBEndMargin
 )
 ;
 /
