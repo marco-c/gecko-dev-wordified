@@ -36,7 +36,7 @@ for
 unEscapeURIForUI
 function
 in
-UrlbarUtils
+UrlbarShared
 .
 *
 /
@@ -223,7 +223,7 @@ description
 const
 result
 =
-UrlbarUtils
+UrlbarShared
 .
 unEscapeURIForUI
 (
