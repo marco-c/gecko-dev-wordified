@@ -1527,6 +1527,17 @@ popupId
 }
 )
 ;
+await
+BrowserTestUtils
+.
+waitForPopupEvent
+(
+panel
+"
+shown
+"
+)
+;
 /
 /
 Dismiss
