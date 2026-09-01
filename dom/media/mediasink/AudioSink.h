@@ -743,6 +743,17 @@ Ended
 const
 override
 ;
+bool
+IsIntentionallySilent
+(
+)
+const
+override
+{
+return
+mStoppedForSeek
+;
+}
 /
 /
 When
