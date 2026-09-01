@@ -20790,7 +20790,7 @@ value
 Register64
 temp
 =
-ToTempRegister64OrInvalid
+ToRegister64
 (
 lir
 -
@@ -20944,6 +20944,19 @@ value
 )
 )
 ;
+Register64
+temp
+=
+ToRegister64
+(
+lir
+-
+>
+temp0
+(
+)
+)
+;
 Scalar
 :
 :
@@ -21019,6 +21032,7 @@ Full
 atomicOp
 value
 dest
+temp
 )
 ;
 }
@@ -21567,7 +21581,7 @@ lir
 Register64
 temp
 =
-ToTempRegister64OrInvalid
+ToRegister64
 (
 lir
 -
