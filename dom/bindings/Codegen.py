@@ -68861,7 +68861,8 @@ argument
 d
 "
         
-if
+useCounterAttr
+=
 method
 .
 getExtendedAttribute
@@ -68870,9 +68871,12 @@ getExtendedAttribute
 UseCounter
 "
 )
+        
+if
+useCounterAttr
 :
             
-useCounterName
+baseCounterName
 =
 methodName
 .
@@ -68894,13 +68898,96 @@ replace
 _
 "
 )
+            
+perOverload
+=
+(
+                
+isinstance
+(
+useCounterAttr
+list
+)
+and
+"
+PerOverload
+"
+in
+useCounterAttr
+            
+)
         
 else
 :
             
-useCounterName
+baseCounterName
 =
 None
+            
+perOverload
+=
+False
+        
+def
+signatureCounterName
+(
+signature
+)
+:
+            
+if
+not
+baseCounterName
+:
+                
+return
+None
+            
+if
+not
+perOverload
+:
+                
+return
+baseCounterName
+            
+suffix
+=
+"
+_
+"
+.
+join
+(
+arg
+.
+type
+.
+name
+for
+arg
+in
+signature
+[
+1
+]
+)
+            
+return
+f
+"
+{
+baseCounterName
+}
+_
+{
+suffix
+}
+"
+if
+suffix
+else
+baseCounterName
         
 if
 method
@@ -69051,7 +69138,10 @@ isConstructor
                 
 useCounterName
 =
-useCounterName
+signatureCounterName
+(
+signature
+)
             
 )
         
@@ -121526,16 +121616,10 @@ false
                 
 rval
 .
-set
-(
-JS
-:
-:
-ObjectValue
+setObject
 (
 *
 obj
-)
 )
 ;
                 
