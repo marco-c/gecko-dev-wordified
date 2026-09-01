@@ -185,6 +185,9 @@ self
 workdir
 .
 name
+text
+=
+True
         
 )
         
@@ -227,6 +230,10 @@ self
 workdir
 .
 name
+            
+text
+=
+True
         
 )
         
@@ -264,10 +271,6 @@ workdir
 .
 name
 revision
-.
-decode
-(
-)
 +
 "
 .
