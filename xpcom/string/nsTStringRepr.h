@@ -1576,7 +1576,7 @@ aIndex
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aIndex
 <
