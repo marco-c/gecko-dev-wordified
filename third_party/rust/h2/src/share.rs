@@ -3190,6 +3190,14 @@ has
 sent
 data
 .
+n
+will
+always
+be
+greater
+than
+zero
+.
 pub
 fn
 poll_capacity
