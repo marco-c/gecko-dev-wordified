@@ -176,6 +176,15 @@ include
 "
 api
 /
+frame_transformer_interface
+.
+h
+"
+#
+include
+"
+api
+/
 rtp_header_extension_id
 .
 h
@@ -2511,7 +2520,10 @@ VideoCodecType
 :
 :
 kVideoCodecVP8
+RtpTimestampWithOffset
+{
 rtp_timestamp
+}
 Timestamp
 :
 :
