@@ -265,6 +265,10 @@ true
 class
 BytecodeAnalysis
 {
+TempAllocator
+&
+alloc_
+;
 JSScript
 *
 script_
