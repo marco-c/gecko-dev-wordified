@@ -87481,6 +87481,12 @@ instructions
 )
 |
 |
+#
+if
+defined
+(
+JS_SIMULATOR_LOONG64
+)
 !
 op
 .
@@ -87556,6 +87562,8 @@ instructions
 )
 |
 |
+#
+endif
 #
 ifdef
 JS_CODEGEN_RISCV64
