@@ -338,10 +338,12 @@ activateItem
 (
 popup
 .
-parentNode
-.
-getMenuItem
+querySelector
 (
+'
+[
+anonid
+=
 "
 add
 -
@@ -349,6 +351,8 @@ engine
 -
 0
 "
+]
+'
 )
 )
 ;
