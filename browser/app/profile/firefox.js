@@ -28723,7 +28723,7 @@ smartwindow
 .
 searchTheWebFast
 "
-false
+true
 )
 ;
 /
