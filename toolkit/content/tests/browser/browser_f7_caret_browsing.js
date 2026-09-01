@@ -2135,7 +2135,8 @@ once
 to
 test
 that
-_awaitingToggleCaretBrowsingPrompt
+#
+awaitingToggleCaretBrowsingPrompt
 /
 /
 is
