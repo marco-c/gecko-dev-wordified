@@ -2093,9 +2093,6 @@ auto_repeat_index
 .
 unwrap_or
 (
-std
-:
-:
 usize
 :
 :

@@ -208,11 +208,7 @@ use
 std
 :
 :
-{
 hash
-u32
-usize
-}
 ;
 use
 crate

@@ -4012,9 +4012,7 @@ Wildcard
 u32
 :
 :
-max_value
-(
-)
+MAX
 SdpAttributePayloadType
 :
 :
@@ -4876,9 +4874,7 @@ Wildcard
 u32
 :
 :
-max_value
-(
-)
+MAX
 SdpAttributePayloadType
 :
 :

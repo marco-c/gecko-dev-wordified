@@ -336,9 +336,7 @@ value
 i32
 :
 :
-min_value
-(
-)
+MIN
 {
 return
 Ok

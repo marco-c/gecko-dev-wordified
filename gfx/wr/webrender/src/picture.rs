@@ -1469,11 +1469,7 @@ use
 std
 :
 :
-{
 mem
-u8
-u32
-}
 ;
 use
 std

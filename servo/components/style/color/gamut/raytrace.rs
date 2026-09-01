@@ -1672,9 +1672,6 @@ let
 mut
 tfar
 =
-std
-:
-:
 f32
 :
 :
@@ -1701,9 +1698,6 @@ let
 mut
 tnear
 =
-std
-:
-:
 f32
 :
 :

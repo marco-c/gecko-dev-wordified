@@ -12170,9 +12170,7 @@ count
 i32
 :
 :
-max_value
-(
-)
+MAX
 as
 u64
 )

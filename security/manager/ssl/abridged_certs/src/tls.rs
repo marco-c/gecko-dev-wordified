@@ -96,12 +96,6 @@ io
 :
 Write
 ;
-use
-std
-:
-:
-u8
-;
 /
 /
 /

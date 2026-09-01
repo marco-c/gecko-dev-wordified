@@ -25041,9 +25041,6 @@ into
 )
 auto_repeat_index
 :
-std
-:
-:
 usize
 :
 :

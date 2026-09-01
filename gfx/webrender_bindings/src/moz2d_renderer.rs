@@ -246,12 +246,6 @@ use
 std
 :
 :
-i32
-;
-use
-std
-:
-:
 mem
 ;
 use
@@ -2921,9 +2915,6 @@ new
 (
 *
 bounds
-std
-:
-:
 u32
 :
 :

@@ -66,7 +66,6 @@ marker
 :
 :
 PhantomData
-u32
 }
 ;
 use
@@ -320,9 +319,7 @@ idx
 u32
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 )

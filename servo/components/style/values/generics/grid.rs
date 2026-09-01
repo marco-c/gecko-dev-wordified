@@ -173,12 +173,6 @@ Write
 }
 ;
 use
-std
-:
-:
-usize
-;
-use
 style_traits
 :
 :

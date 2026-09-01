@@ -1009,11 +1009,7 @@ use
 std
 :
 :
-{
-f32
 mem
-usize
-}
 ;
 use
 std

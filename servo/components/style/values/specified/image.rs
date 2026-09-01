@@ -3105,9 +3105,6 @@ Self
 {
 selected_index
 :
-std
-:
-:
 usize
 :
 :

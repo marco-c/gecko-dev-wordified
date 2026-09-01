@@ -3516,9 +3516,7 @@ len
 u32
 :
 :
-max_value
-(
-)
+MAX
 as
 usize
 )
