@@ -2807,14 +2807,6 @@ ColorScheme
 )
 override
 ;
-void
-SetShowsToolbarButton
-(
-bool
-aShow
-)
-override
-;
 bool
 GetSupportsNativeFullscreen
 (
