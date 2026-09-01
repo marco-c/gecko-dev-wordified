@@ -501,6 +501,16 @@ true
 device
 :
 {
+getLocalName
+:
+(
+)
+=
+>
+"
+Test
+Device
+"
 recentDeviceList
 :
 null
