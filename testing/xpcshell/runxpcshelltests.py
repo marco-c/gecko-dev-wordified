@@ -148,6 +148,8 @@ import
     
 symbolicate_profile_json
     
+symbolicate_profiles
+    
 view_gecko_profile
 )
 from
@@ -23169,6 +23171,20 @@ xpcsh
 runTests
 (
 options
+)
+    
+if
+"
+MOZ_AUTOMATION
+"
+in
+os
+.
+environ
+:
+        
+symbolicate_profiles
+(
 )
     
 if
