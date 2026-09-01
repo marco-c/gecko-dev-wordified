@@ -107,6 +107,11 @@ h
 >
 #
 include
+<
+span
+>
+#
+include
 "
 modules
 /
@@ -733,8 +738,14 @@ static
 void
 ParabolicFit
 (
+std
+:
+:
+span
+<
+const
 int16_t
-*
+>
 signal_points
 int
 fs_mult
