@@ -1968,6 +1968,15 @@ or
 context
 [
 "
+BUILD_STATIC_LIB_ARCHIVE
+"
+]
+=
+True
+                    
+context
+[
+"
 DIST_INSTALL
 "
 ]

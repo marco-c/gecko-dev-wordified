@@ -4296,6 +4296,9 @@ link_into
 "
 no_expand_lib
 "
+"
+build_static_lib_archive
+"
 )
     
 def
@@ -4303,15 +4306,24 @@ __init__
 (
         
 self
+        
 context
+        
 basename
+        
 real_name
 =
 None
+        
 link_into
 =
 None
+        
 no_expand_lib
+=
+False
+        
+build_static_lib_archive
 =
 False
     
@@ -4338,6 +4350,14 @@ self
 .
 no_expand_lib
 =
+no_expand_lib
+        
+self
+.
+build_static_lib_archive
+=
+build_static_lib_archive
+or
 no_expand_lib
 class
 SandboxedWasmLibrary
@@ -4381,6 +4401,10 @@ system
 .
     
 no_expand_lib
+=
+True
+    
+build_static_lib_archive
 =
 True
     
@@ -5894,6 +5918,10 @@ host
 no_expand_lib
 =
 False
+    
+build_static_lib_archive
+=
+False
 class
 HostRustLibrary
 (
@@ -5949,6 +5977,10 @@ BaseRustLibrary
 slots
     
 no_expand_lib
+=
+True
+    
+build_static_lib_archive
 =
 True
     
