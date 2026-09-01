@@ -371,9 +371,6 @@ class
 Transport
 ;
 class
-VideoBitrateAllocationObserver
-;
-class
 RtpRtcpInterface
 :
 public
@@ -536,12 +533,6 @@ nullptr
 NetworkStateEstimateObserver
 *
 network_state_estimate_observer
-=
-nullptr
-;
-VideoBitrateAllocationObserver
-*
-bitrate_allocation_observer
 =
 nullptr
 ;
