@@ -11329,7 +11329,7 @@ both
 false
 so
 clear
-mIsDeferredPurgeNeeded
+mIsPurgePending
 while
 we
 still
@@ -20913,7 +20913,7 @@ by
 setting
 /
 /
-mIsDeferredPurgePending
+mIsPurgePending
 to
 add
 us
@@ -30125,7 +30125,7 @@ the
 invalid
 state
 where
-mIsDeferredPurgePending
+mIsPurgePending
 is
 set
 /
@@ -30273,7 +30273,7 @@ and
 clear
 /
 /
-mIsDeferredPurgePending
+mIsPurgePending
 .
 Resulting
 in
