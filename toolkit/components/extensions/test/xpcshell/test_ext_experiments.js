@@ -81,12 +81,6 @@ setup
 (
 )
 {
-AddonTestUtils
-.
-overrideCertDB
-(
-)
-;
 await
 ExtensionTestUtils
 .
