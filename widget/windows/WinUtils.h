@@ -1271,8 +1271,9 @@ nsIDownloadObserver
 myDownloadObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -3902,7 +3903,7 @@ aImage
 *
 Wrapper
 for
-PathCanonicalize
+PathCchCanonicalize
 (
 )
 .
@@ -4247,7 +4248,7 @@ const
 size_t
 kMaxWhitelistedItems
 =
-3
+4
 ;
 using
 WhitelistVec
@@ -4716,6 +4717,8 @@ virtual
 AsyncDeleteAllFaviconsFromDisk
 (
 )
+=
+default
 ;
 int32_t
 mIcoNoDeleteSeconds
