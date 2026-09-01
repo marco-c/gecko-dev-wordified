@@ -1144,11 +1144,11 @@ from
 the
 server
 .
+await
 engine
 .
-setLastSync
+resetLastSync
 (
-0
 )
 ;
 await
