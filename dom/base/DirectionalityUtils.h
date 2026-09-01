@@ -416,7 +416,7 @@ slot
 *
 /
 void
-SlotAssignedNodeAdded
+SlotAssignedNodeAddedForDir
 (
 dom
 :
@@ -448,7 +448,7 @@ slot
 *
 /
 void
-SlotAssignedNodeRemoved
+SlotAssignedNodeRemovedForDir
 (
 dom
 :
