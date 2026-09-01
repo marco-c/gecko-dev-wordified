@@ -6831,7 +6831,7 @@ Int64
 LInt64Allocation
 valueAlloc
 =
-useInt64RegisterOrZeroAtStart
+useInt64RegisterAtStart
 (
 value
 )
@@ -6866,7 +6866,7 @@ return
 LAllocation
 valueAlloc
 =
-useRegisterOrZeroAtStart
+useRegisterAtStart
 (
 value
 )
