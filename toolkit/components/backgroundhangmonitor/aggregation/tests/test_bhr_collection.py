@@ -4539,6 +4539,19 @@ pdb
     
 }
     
+#
+Nothing
+inlined
+here
+so
+every
+frame
+is
+at
+depth
+0
+.
+    
 assert
 bhr_collection
 .
@@ -4566,6 +4579,7 @@ xul
 .
 pdb
 "
+0
 )
         
 (
@@ -4577,6 +4591,7 @@ kernel32
 .
 pdb
 "
+0
 )
     
 ]
@@ -4733,6 +4748,36 @@ xul
     
 }
     
+#
+The
+chain
+'
+s
+position
+becomes
+inline_depth
+:
+the
+enclosing
+FUNC
+is
+0
+and
+    
+#
+each
+inlined
+callee
+counts
+up
+from
+1
+(
+bug
+2059443
+)
+.
+    
 assert
 bhr_collection
 .
@@ -4754,6 +4799,7 @@ OuterFunc
 "
 xul
 "
+0
 )
         
 (
@@ -4765,6 +4811,7 @@ InlinedInner
 "
 xul
 "
+1
 )
         
 (
@@ -4776,6 +4823,7 @@ LeafFunc
 "
 xul
 "
+0
 )
     
 ]
@@ -4829,6 +4877,7 @@ xul
 .
 pdb
 "
+0
 )
     
 ]
@@ -4871,6 +4920,7 @@ unsymbolicated
 "
 unknown
 "
+0
 )
     
 ]
@@ -5152,6 +5202,7 @@ HandlerFunc
 "
 xul
 "
+0
 )
 (
 "
@@ -5160,6 +5211,7 @@ LeafFunc
 "
 xul
 "
+0
 )
 ]
     
@@ -5253,6 +5305,105 @@ annotations
 )
 :
     
+#
+Frames
+are
+(
+func
+lib
+inline_depth
+)
+;
+tests
+that
+don
+'
+t
+care
+about
+    
+#
+inlining
+pass
+plain
+(
+func
+lib
+)
+pairs
+and
+get
+depth
+0
+.
+Raw
+(
+module
+    
+#
+offset
+)
+stacks
+for
+symbolicate_hang
+are
+left
+alone
+.
+    
+stack
+=
+[
+        
+f
+        
+if
+not
+(
+isinstance
+(
+f
+tuple
+)
+and
+len
+(
+f
+)
+=
+=
+2
+and
+isinstance
+(
+f
+[
+0
+]
+str
+)
+)
+        
+else
+(
+f
+[
+0
+]
+f
+[
+1
+]
+0
+)
+        
+for
+f
+in
+stack
+    
+]
+    
 return
 (
         
@@ -5335,6 +5486,32 @@ out
 0
 ]
     
+#
+Depth
+is
+deliberately
+absent
+from
+the
+key
+so
+builds
+that
+inline
+    
+#
+differently
+still
+merge
+;
+it
+rides
+in
+the
+value
+instead
+.
+    
 assert
 key
 [
@@ -5384,6 +5561,9 @@ value
 1
 .
 0
+(
+0
+)
 )
 def
 test_map_to_hang_data_drops_below_lower_bound
@@ -5473,6 +5653,7 @@ bhr_collection
 .
 merge_hang_data
 (
+        
 (
 100
 .
@@ -5480,6 +5661,10 @@ merge_hang_data
 1
 .
 0
+(
+0
+1
+)
 )
 (
 250
@@ -5488,7 +5673,12 @@ merge_hang_data
 2
 .
 0
+(
+1
+0
 )
+)
+    
 )
 =
 =
@@ -5499,6 +5689,10 @@ merge_hang_data
 3
 .
 0
+(
+1
+1
+)
 )
 #
 -
@@ -6088,6 +6282,18 @@ grouped
 0
 ]
     
+#
+group_hangs
+folds
+the
+merged
+depths
+back
+onto
+the
+frames
+.
+    
 assert
 row
 [
@@ -6103,6 +6309,7 @@ FooFunc
 "
 xul
 "
+0
 )
 (
 "
@@ -6111,6 +6318,7 @@ BarFunc
 "
 xul
 "
+0
 )
 )
     
