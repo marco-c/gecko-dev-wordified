@@ -591,6 +591,9 @@ clip_chain_id
 bounds
 border_widths
 border_details
+&
+[
+]
 )
 ;
 if
