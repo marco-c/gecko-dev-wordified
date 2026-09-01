@@ -308,7 +308,7 @@ git
 default
 :
 "
-hg
+git
 "
 )
     
@@ -328,7 +328,7 @@ git
 ]
 =
 "
-hg
+git
 "
 defaults
 =

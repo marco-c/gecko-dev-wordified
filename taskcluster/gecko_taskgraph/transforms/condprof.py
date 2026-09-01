@@ -694,6 +694,26 @@ task
 "
                     
 "
+clone
+-
+with
+"
+:
+task
+[
+"
+run
+"
+]
+[
+"
+clone
+-
+with
+"
+]
+                    
+"
 cwd
 "
 :

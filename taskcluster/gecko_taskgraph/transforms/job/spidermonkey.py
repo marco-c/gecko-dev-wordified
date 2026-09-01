@@ -208,7 +208,7 @@ git
 default
 :
 "
-hg
+git
 "
 )
     
@@ -228,7 +228,7 @@ git
 ]
 =
 "
-hg
+git
 "
     
 def

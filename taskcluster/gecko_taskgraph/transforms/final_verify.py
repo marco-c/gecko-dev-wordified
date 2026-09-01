@@ -307,6 +307,16 @@ task
 "
             
 "
+clone
+-
+with
+"
+:
+"
+hg
+"
+            
+"
 cwd
 "
 :

@@ -344,6 +344,16 @@ mach
 "
             
 "
+clone
+-
+with
+"
+:
+"
+hg
+"
+            
+"
 mach
 "
 :

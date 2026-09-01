@@ -5353,6 +5353,16 @@ mozharness
 "
             
 "
+clone
+-
+with
+"
+:
+"
+hg
+"
+            
+"
 script
 "
 :

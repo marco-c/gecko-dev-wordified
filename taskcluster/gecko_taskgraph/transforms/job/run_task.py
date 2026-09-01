@@ -370,7 +370,7 @@ git
 default
 :
 "
-hg
+git
 "
 )
     
@@ -390,7 +390,7 @@ git
 ]
 =
 "
-hg
+git
 "
     
 #
@@ -1098,7 +1098,7 @@ with
 "
 :
 "
-hg
+git
 "
 }
 load_yaml

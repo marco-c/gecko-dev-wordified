@@ -75,6 +75,11 @@ yml
 "
 "
 from
+typing
+import
+Optional
+Union
+from
 taskgraph
 .
 transforms
@@ -89,7 +94,7 @@ util
 .
 schema
 import
-LegacySchema
+Schema
 from
 taskgraph
 .
@@ -99,44 +104,32 @@ taskcluster
 import
 get_artifact_path
 from
-voluptuous
-import
-Any
-Optional
-Required
-from
 gecko_taskgraph
 .
 transforms
 .
 task
 import
-task_description_schema
-index_or_string
-=
-Any
+TaskDescriptionSchema
+class
+IndexSearchSchema
 (
-    
-str
-    
-{
-Required
-(
-"
-index
--
-search
-"
+Schema
 )
 :
+    
+index_search
+:
 str
-}
-)
-diff_description_schema
-=
-LegacySchema
+class
+DiffDescriptionSchema
 (
-{
+Schema
+kw_only
+=
+True
+)
+:
     
 #
 Name
@@ -146,12 +139,7 @@ diff
 task
 .
     
-Required
-(
-"
 name
-"
-)
 :
 str
     
@@ -160,12 +148,7 @@ Treeherder
 tier
 .
     
-Required
-(
-"
 tier
-"
-)
 :
 int
     
@@ -174,12 +157,7 @@ Treeherder
 symbol
 .
     
-Required
-(
-"
 symbol
-"
-)
 :
 str
     
@@ -202,16 +180,14 @@ defined
 in
 .
     
-Optional
-(
-"
-task
--
-from
-"
-)
+task_from
 :
+Optional
+[
 str
+]
+=
+None
     
 #
 Original
@@ -222,23 +198,21 @@ to
 compare
 .
     
-Required
-(
-"
 original
-"
-)
 :
-index_or_string
+Union
+[
+str
+IndexSearchSchema
+]
     
-Required
-(
-"
 new
-"
-)
 :
-index_or_string
+Union
+[
+str
+IndexSearchSchema
+]
     
 #
 Arguments
@@ -264,14 +238,14 @@ kind
 .
 yml
     
-Optional
-(
-"
 args
-"
-)
 :
+Optional
+[
 str
+]
+=
+None
     
 #
 Extra
@@ -288,16 +262,14 @@ per
 job
 .
     
-Optional
-(
-"
-extra
--
-args
-"
-)
+extra_args
 :
+Optional
+[
 str
+]
+=
+None
     
 #
 Fail
@@ -309,18 +281,14 @@ are
 detected
 .
     
-Optional
-(
-"
-fail
--
-on
--
-diff
-"
-)
+fail_on_diff
 :
+Optional
+[
 bool
+]
+=
+None
     
 #
 What
@@ -361,14 +329,14 @@ for
 Android
 .
     
-Optional
-(
-"
 artifact
-"
-)
 :
+Optional
+[
 str
+]
+=
+None
     
 #
 Whether
@@ -420,14 +388,14 @@ ja
 )
 .
     
-Optional
-(
-"
 unpack
-"
-)
 :
+Optional
+[
 bool
+]
+=
+None
     
 #
 Commands
@@ -439,20 +407,17 @@ the
 diff
 .
     
-Optional
-(
-"
-pre
--
-diff
--
-commands
-"
-)
+pre_diff_commands
 :
+Optional
+[
+list
 [
 str
 ]
+]
+=
+None
     
 #
 Only
@@ -468,69 +433,44 @@ projects
 branches
 .
     
-Optional
-(
-"
-run
--
-on
--
-projects
-"
-)
+run_on_projects
 :
-task_description_schema
+TaskDescriptionSchema
+.
+__annotations__
 [
 "
-run
--
-on
--
-projects
+run_on_projects
 "
 ]
+=
+None
     
-Optional
-(
-"
-run
--
-on
--
-repo
--
-type
-"
-)
+run_on_repo_type
 :
-task_description_schema
+TaskDescriptionSchema
+.
+__annotations__
 [
 "
-run
--
-on
--
-repo
--
-type
+run_on_repo_type
 "
 ]
+=
+None
     
-Optional
-(
-"
 optimization
-"
-)
 :
-task_description_schema
+TaskDescriptionSchema
+.
+__annotations__
 [
 "
 optimization
 "
 ]
-}
-)
+=
+None
 transforms
 =
 TransformSequence
@@ -540,7 +480,7 @@ transforms
 .
 add_validate
 (
-diff_description_schema
+DiffDescriptionSchema
 )
 transforms
 .
@@ -1223,6 +1163,16 @@ using
 run
 -
 task
+"
+                
+"
+clone
+-
+with
+"
+:
+"
+hg
 "
                 
 "

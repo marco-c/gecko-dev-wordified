@@ -401,7 +401,7 @@ git
 default
 :
 "
-hg
+git
 "
 )
     
@@ -421,7 +421,7 @@ git
 ]
 =
 "
-hg
+git
 "
 def
 test_packages_url
