@@ -878,10 +878,13 @@ other
 {
 if
 (
+ABSL_PREDICT_FALSE
+(
 other
 .
 have_unknown_fields
 (
+)
 )
 )
 {
@@ -916,8 +919,11 @@ Clear
 {
 if
 (
+ABSL_PREDICT_FALSE
+(
 have_unknown_fields
 (
+)
 )
 )
 {

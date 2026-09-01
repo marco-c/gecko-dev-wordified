@@ -316,6 +316,9 @@ MapFieldLite
 InternalVisibility
 InternalMetadataOffset
 offset
+Arena
+*
+arena
 const
 MapFieldLite
 &

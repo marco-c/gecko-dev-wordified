@@ -303,7 +303,7 @@ micro
 #
 define
 GOOGLE_PROTOBUF_VERSION
-7035000
+7036000
 /
 /
 A

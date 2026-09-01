@@ -3847,6 +3847,9 @@ Message
 prototype
 InternalMetadataOffset
 offset
+Arena
+*
+arena
 const
 TypeDefinedMapFieldBase
 &
@@ -3871,6 +3874,7 @@ map_
 >
 (
 )
+arena
 from
 .
 GetMap
@@ -4194,6 +4198,9 @@ MapField
 InternalVisibility
 InternalMetadataOffset
 offset
+Arena
+*
+arena
 const
 MapField
 &
@@ -4222,6 +4229,7 @@ internal_message_globals
 )
 )
 offset
+arena
 from
 )
 {

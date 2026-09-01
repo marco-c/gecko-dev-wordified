@@ -4505,13 +4505,10 @@ enable_if_t
 std
 :
 :
-is_pointer
+is_pointer_v
 <
 Map
 >
-:
-:
-value
 >
 /
 /
@@ -4543,7 +4540,7 @@ enable_if_t
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 Map
 absl
@@ -4555,9 +4552,6 @@ const
 Sub
 >
 >
-:
-:
-value
 >
 >
 auto
@@ -7943,7 +7937,7 @@ enable_if_t
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 const
 String
@@ -7953,9 +7947,6 @@ std
 :
 string
 >
-:
-:
-value
 int
 >
 =
@@ -8032,13 +8023,10 @@ enable_if_t
 std
 :
 :
-is_class
+is_class_v
 <
 Desc
 >
-:
-:
-value
 int
 >
 =

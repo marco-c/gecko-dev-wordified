@@ -6020,6 +6020,8 @@ size
 MicroString
 &
 str
+size_t
+inline_capacity
 Arena
 *
 arena
@@ -6073,6 +6075,7 @@ s
 )
 ;
 }
+inline_capacity
 )
 ;
 return

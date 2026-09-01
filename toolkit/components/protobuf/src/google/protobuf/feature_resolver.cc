@@ -2463,6 +2463,18 @@ VisibilityFeature
 :
 DEFAULT_SYMBOL_VISIBILITY
 )
+CHECK_ENUM_FEATURE
+(
+enforce_proto_limits
+ProtoLimitsFeature
+:
+:
+EnforceProtoLimits
+ProtoLimitsFeature
+:
+:
+PROTO_LIMITS
+)
 #
 undef
 CHECK_ENUM_FEATURE
@@ -3479,7 +3491,7 @@ maximum_edition
 auto
 message_factory
 =
-absl
+std
 :
 :
 make_unique

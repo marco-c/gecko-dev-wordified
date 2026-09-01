@@ -474,7 +474,7 @@ constexpr
 size_t
 kBlockHistogramBins
 =
-15
+16
 ;
 static
 constexpr

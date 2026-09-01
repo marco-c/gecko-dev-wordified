@@ -2099,7 +2099,10 @@ return
 VisitKeyType
 (
 [
-=
+this
+arena
+list
+count
 ]
 (
 auto
