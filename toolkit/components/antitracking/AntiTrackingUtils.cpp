@@ -7875,6 +7875,13 @@ MOZ_ASSERT
 aChannel
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 if
 (
 !
@@ -7886,13 +7893,6 @@ XRE_IsParentProcess
 return
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
-(
-XRE_IsParentProcess
-(
-)
-)
-;
 AntiTrackingUtils
 :
 :
