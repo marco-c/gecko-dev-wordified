@@ -22805,6 +22805,8 @@ if
 aEvent
 )
 {
+if
+(
 nsRangeFrame
 *
 rangeFrame
@@ -22815,7 +22817,8 @@ GetPrimaryFrame
 (
 )
 )
-;
+)
+{
 SetValueOfRangeForUserEvent
 (
 rangeFrame
@@ -22831,6 +22834,7 @@ SnapToTickMarks
 Yes
 )
 ;
+}
 }
 mIsDraggingRange
 =
