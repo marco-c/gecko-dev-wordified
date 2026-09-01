@@ -6082,12 +6082,15 @@ aShouldScaleByResolution
 scrollPoint
 =
 scrollPoint
-*
+.
+ApplyResolution
+(
 mPresShell
 -
 >
 GetResolution
 (
+)
 )
 ;
 scrollRange
