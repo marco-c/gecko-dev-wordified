@@ -145,7 +145,7 @@ Object
 :
 Param
 aEditableChild
-int64_t
+int32_t
 aContentId
 int64_t
 aTabId

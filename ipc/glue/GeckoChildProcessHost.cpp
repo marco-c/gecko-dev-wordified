@@ -1937,6 +1937,9 @@ const
 GeckoProcessType
 aType
 const
+GeckoChildID
+aChildID
+const
 geckoargs
 :
 :
@@ -8796,6 +8799,7 @@ return
 LaunchAndroidService
 (
 mProcessType
+mChildID
 mChildArgs
 )
 -
@@ -12123,6 +12127,9 @@ const
 GeckoProcessType
 aType
 const
+GeckoChildID
+aChildId
+const
 geckoargs
 :
 :
@@ -12341,6 +12348,7 @@ GeckoProcessManager
 Start
 (
 type
+aChildId
 jargs
 jfds
 )
