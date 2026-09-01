@@ -8119,6 +8119,9 @@ move
 last_keyframe_request
 )
 ]
+(
+)
+mutable
 {
 RTC_DCHECK_RUN_ON
 (

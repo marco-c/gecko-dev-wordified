@@ -1946,6 +1946,7 @@ addresses
 ]
 (
 )
+mutable
 {
 RTC_DCHECK_RUN_ON
 (
@@ -1963,7 +1964,13 @@ result_
 .
 addresses_
 =
+std
+:
+:
+move
+(
 addresses
+)
 ;
 result_
 .
