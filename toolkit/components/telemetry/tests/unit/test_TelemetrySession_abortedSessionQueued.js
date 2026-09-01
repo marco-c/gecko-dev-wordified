@@ -350,12 +350,9 @@ IOUtils
 .
 remove
 (
-DATAREPORTING_PATH
+ABORTED_FILE
 {
 ignoreAbsent
-:
-true
-recursive
 :
 true
 }
@@ -780,12 +777,9 @@ IOUtils
 .
 remove
 (
-DATAREPORTING_PATH
+ABORTED_FILE
 {
 ignoreAbsent
-:
-true
-recursive
 :
 true
 }
