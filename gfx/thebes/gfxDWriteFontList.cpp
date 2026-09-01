@@ -3808,7 +3808,7 @@ bool
 gfxDWriteFontEntry
 :
 :
-HasVariations
+HasVariationsInternal
 (
 )
 {
@@ -3919,7 +3919,7 @@ void
 gfxDWriteFontEntry
 :
 :
-GetVariationAxes
+GetVariationAxesInternal
 (
 nsTArray
 <
@@ -4307,7 +4307,7 @@ void
 gfxDWriteFontEntry
 :
 :
-GetVariationInstances
+GetVariationInstancesInternal
 (
 nsTArray
 <

@@ -416,6 +416,9 @@ gfx
 :
 FontFeature
 ;
+struct
+gfxFontVariationAxis
+;
 enum
 nsCSSUnit
 :

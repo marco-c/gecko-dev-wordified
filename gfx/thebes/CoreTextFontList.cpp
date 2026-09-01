@@ -2968,7 +2968,7 @@ bool
 CTFontEntry
 :
 :
-HasVariations
+HasVariationsInternal
 (
 )
 {
@@ -3020,7 +3020,7 @@ void
 CTFontEntry
 :
 :
-GetVariationAxes
+GetVariationAxesInternal
 (
 nsTArray
 <
@@ -3095,7 +3095,7 @@ void
 CTFontEntry
 :
 :
-GetVariationInstances
+GetVariationInstancesInternal
 (
 nsTArray
 <
