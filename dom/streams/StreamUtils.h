@@ -231,7 +231,6 @@ typename
 T
 >
 MOZ_CAN_RUN_SCRIPT
-static
 already_AddRefed
 <
 Promise
