@@ -1711,7 +1711,6 @@ better
 is
 available
 .
-virtual
 nsCString
 RealFaceName
 (
