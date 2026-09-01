@@ -4423,7 +4423,6 @@ size
 (
 )
 >
-=
 stream_idx
 &
 &
