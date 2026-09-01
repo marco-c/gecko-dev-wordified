@@ -121,6 +121,12 @@ CreateEncoder
 (
 )
 ;
+static
+bool
+PreferSystemFFmpegForVulkan
+(
+)
+;
 enum
 LinkStatus
 {
