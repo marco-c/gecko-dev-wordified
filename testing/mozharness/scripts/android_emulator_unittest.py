@@ -4614,6 +4614,22 @@ output_parser
 parser
 )
                 
+self
+.
+append_test_summary
+(
+self
+.
+query_abs_dirs
+(
+)
+[
+"
+abs_blob_upload_dir
+"
+]
+)
+                
 tbpl_status
 log_level
 summary
