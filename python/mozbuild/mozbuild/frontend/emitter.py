@@ -9710,6 +9710,8 @@ HOST_LDFLAGS
         
 #
 Set
+compiler
+and
 link
 flags
 according
@@ -9777,6 +9779,28 @@ WIN32_CONSOLE_EXE_LDFLAGS
 ]
                 
 )
+                
+if
+"
+WINCONSOLE
+"
+in
+context
+:
+                    
+context
+[
+"
+DEFINES
+"
+]
+[
+"
+MOZ_WINCONSOLE
+"
+]
+=
+True
             
 else
 :
