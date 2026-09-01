@@ -28,7 +28,9 @@ issue
 hit
 by
 SessionStore
-.
+'
+s
+#
 onMoveToNewWindow
 will
 be

@@ -54,8 +54,10 @@ oldest
 actions
 in
 SessionStore
-.
-_addClosedAction
+'
+s
+#
+addClosedAction
 *
 /
 add_task
