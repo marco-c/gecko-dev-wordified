@@ -1557,7 +1557,7 @@ MediaTrackGraph
 *
 /
 void
-Dispatch
+DispatchToMainThread
 (
 already_AddRefed
 <
