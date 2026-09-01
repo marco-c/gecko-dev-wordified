@@ -11245,7 +11245,6 @@ successfully
 notified
 *
 /
-virtual
 bool
 StartAsyncAutoscroll
 (
@@ -11283,7 +11282,6 @@ autoscrolled
 .
 *
 /
-virtual
 void
 StopAsyncAutoscroll
 (
