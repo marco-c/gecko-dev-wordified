@@ -1252,7 +1252,6 @@ ICUStringFunction
 typename
 Buffer
 >
-static
 ICUResult
 FillBufferWithICUCall
 (
@@ -1610,7 +1609,6 @@ InlineSize
 typename
 CharType
 >
-static
 ICUResult
 FillBufferWithICUCall
 (
@@ -2012,7 +2010,6 @@ ICUStringFunction
 typename
 CharType
 >
-static
 ICUResult
 FillBufferWithICUCall
 (
@@ -2054,7 +2051,6 @@ CharType
 size_t
 N
 >
-static
 ICUResult
 FillBufferWithICUCall
 (
@@ -2782,7 +2778,6 @@ StackSize
 nodiscard
 ]
 ]
-static
 bool
 FillUTF16Vector
 (
