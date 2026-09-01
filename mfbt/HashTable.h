@@ -863,12 +863,12 @@ bit
 #
 include
 <
-utility
+type_traits
 >
 #
 include
 <
-type_traits
+utility
 >
 #
 include
@@ -9636,7 +9636,6 @@ HashPolicy
 typename
 Lookup
 >
-static
 bool
 MaybeGetHash
 (
@@ -9683,7 +9682,6 @@ HashPolicy
 typename
 Lookup
 >
-static
 bool
 EnsureHash
 (
