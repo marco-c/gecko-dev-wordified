@@ -118,7 +118,6 @@ traversal
 {
 recalc_style_at
 DomTraversal
-PerLevelTraversalData
 }
 ;
 /
@@ -235,10 +234,6 @@ F
 (
 &
 self
-traversal_data
-:
-&
-PerLevelTraversalData
 context
 :
 &
@@ -303,7 +298,6 @@ ensure_data
 recalc_style_at
 (
 self
-traversal_data
 context
 el
 &
