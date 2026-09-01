@@ -350,7 +350,6 @@ template
 typename
 func_ptr_type
 >
-static
 func_ptr_type
 cast
 (
