@@ -24549,6 +24549,9 @@ context
 )
 )
 ;
+if
+(
+!
 JS
 :
 :
@@ -24559,7 +24562,16 @@ loadPromise
 linkAndEvaluate
 nullptr
 )
+)
+{
+return
+RejectPromiseWithPendingError
+(
+cx
+promiseCapability
+)
 ;
+}
 return
 AsyncFunctionReturned
 (
