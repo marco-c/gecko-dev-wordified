@@ -2512,7 +2512,7 @@ paths
         
 self
 .
-_run
+_run_batched
 (
 "
 file
@@ -2520,7 +2520,8 @@ file
 "
 track
 "
-*
+paths
+=
 relative_paths
 )
     
@@ -2563,7 +2564,7 @@ paths
         
 self
 .
-_run
+_run_batched
 (
 "
 file
@@ -2571,7 +2572,8 @@ file
 "
 untrack
 "
-*
+paths
+=
 relative_paths
 )
     
