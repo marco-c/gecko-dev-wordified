@@ -942,16 +942,6 @@ nsACString
 data
 )
 ;
-nsresult
-RecordPlatformAnnotations
-(
-)
-;
-nsresult
-RecordXPCOMPlatformAnnotations
-(
-)
-;
 /
 /
 RAII
