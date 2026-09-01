@@ -9989,6 +9989,10 @@ mBidiEnabled
 (
 false
 )
+mNeedsDirHandling
+(
+false
+)
 mInitialAboutBlankLoadCompleting
 (
 false
