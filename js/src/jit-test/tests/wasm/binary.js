@@ -1,17 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-test
--
-also
-=
--
-P
-wasm_compact_imports
 load
 (
 libdir
