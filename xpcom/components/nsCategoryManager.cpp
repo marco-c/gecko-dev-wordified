@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsCOMArray
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
