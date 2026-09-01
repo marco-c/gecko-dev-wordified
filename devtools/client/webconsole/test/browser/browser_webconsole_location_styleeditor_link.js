@@ -127,8 +127,6 @@ toolbox
 u2018font
 -
 weight
-\
-u2019
 "
 )
 ;
@@ -160,8 +158,6 @@ toolbox
 "
 \
 u2018color
-\
-u2019
 "
 )
 ;
@@ -193,8 +189,6 @@ toolbox
 "
 \
 u2018display
-\
-u2019
 "
 )
 ;

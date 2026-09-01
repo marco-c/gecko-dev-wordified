@@ -92,7 +92,6 @@ cssparser
 serialize_string
 ParseError
 Parser
-Token
 UnicodeRange
 }
 ;
@@ -3183,8 +3182,6 @@ T
 >
 ParseError
 <
-'
-i
 E
 >
 >
@@ -3215,8 +3212,6 @@ Result
 T
 ParseError
 <
-'
-i
 E
 >
 >
@@ -3278,8 +3273,6 @@ T
 >
 ParseError
 <
-'
-i
 E
 >
 >
@@ -3310,8 +3303,6 @@ Result
 T
 ParseError
 <
-'
-i
 E
 >
 >
@@ -3381,8 +3372,6 @@ T
 >
 ParseError
 <
-'
-i
 E
 >
 >
@@ -3413,8 +3402,6 @@ Result
 T
 ParseError
 <
-'
-i
 E
 >
 >
@@ -3568,8 +3555,6 @@ T
 >
 ParseError
 <
-'
-i
 E
 >
 >
@@ -3600,8 +3585,6 @@ Result
 T
 ParseError
 <
-'
-i
 E
 >
 >
@@ -3662,15 +3645,6 @@ try_parse
 rewind
 less
 .
-let
-comma_location
-=
-input
-.
-current_source_location
-(
-)
-;
 let
 comma
 =
@@ -3743,14 +3717,11 @@ comma
 return
 Err
 (
-comma_location
-.
-new_unexpected_token_error
+ParseError
+:
+:
+unexpected_token
 (
-Token
-:
-:
-Comma
 )
 )
 ;

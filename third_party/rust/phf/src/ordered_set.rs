@@ -17,9 +17,9 @@ crate
 :
 :
 {
-ordered_map
 OrderedMap
 PhfHash
+ordered_map
 }
 ;
 use
@@ -50,7 +50,7 @@ use
 phf_shared
 :
 :
-PhfBorrow
+PhfEq
 ;
 /
 /
@@ -440,7 +440,7 @@ PhfHash
 Sized
 T
 :
-PhfBorrow
+PhfEq
 <
 U
 >
@@ -507,7 +507,7 @@ PhfHash
 Sized
 T
 :
-PhfBorrow
+PhfEq
 <
 U
 >
@@ -633,7 +633,7 @@ PhfHash
 Sized
 T
 :
-PhfBorrow
+PhfEq
 <
 U
 >
@@ -724,7 +724,7 @@ Eq
 +
 PhfHash
 +
-PhfBorrow
+PhfEq
 <
 T
 >

@@ -694,12 +694,6 @@ ColorInterpolationMethod
 {
 fn
 parse
-<
-'
-i
-'
-t
->
 (
 _
 :
@@ -710,12 +704,6 @@ input
 &
 mut
 Parser
-<
-'
-i
-'
-t
->
 )
 -
 >
@@ -723,10 +711,6 @@ Result
 <
 Self
 ParseError
-<
-'
-i
->
 >
 {
 input
@@ -820,10 +804,6 @@ Result
 <
 _
 ParseError
-<
-'
-i
->
 >
 {
 let

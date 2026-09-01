@@ -38,7 +38,7 @@ phf_shared
 :
 :
 {
-PhfBorrow
+PhfEq
 PhfHash
 }
 ;
@@ -47,8 +47,8 @@ crate
 :
 :
 {
-map
 Map
+map
 }
 ;
 /
@@ -414,7 +414,7 @@ PhfHash
 Sized
 T
 :
-PhfBorrow
+PhfEq
 <
 U
 >
@@ -468,7 +468,7 @@ PhfHash
 Sized
 T
 :
-PhfBorrow
+PhfEq
 <
 U
 >
@@ -556,7 +556,7 @@ Eq
 +
 PhfHash
 +
-PhfBorrow
+PhfEq
 <
 T
 >
