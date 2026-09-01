@@ -28006,7 +28006,7 @@ worldcup
 .
 enabled
 "
-true
+false
 )
 ;
 pref
