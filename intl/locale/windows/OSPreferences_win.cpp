@@ -181,8 +181,9 @@ OSPreferences
 OSPreferences
 (
 )
-{
-}
+=
+default
+;
 bool
 OSPreferences
 :
