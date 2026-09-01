@@ -46,6 +46,7 @@ undefined
 const
 setScrollTop
 =
+async
 (
 scroller
 y
@@ -53,6 +54,17 @@ y
 =
 >
 {
+if
+(
+scroller
+.
+scrollTop
+=
+=
+y
+)
+return
+;
 const
 scrollend_promise
 =
@@ -350,16 +362,7 @@ callback
 return
 runAndWaitForFrameUpdate
 (
-(
-)
-=
->
-{
 callback
-(
-)
-;
-}
 )
 .
 then
@@ -443,6 +446,7 @@ runAndWaitForTriggerResponse
 =
 >
 {
+return
 rangeBoundaries
 .
 enterTriggerRange
@@ -536,6 +540,7 @@ if
 exitAbove
 )
 {
+return
 rangeBoundaries
 .
 exitExitRangeAbove
@@ -545,6 +550,7 @@ exitExitRangeAbove
 }
 else
 {
+return
 rangeBoundaries
 .
 exitExitRangeBelow
