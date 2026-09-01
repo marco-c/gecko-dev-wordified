@@ -111,6 +111,7 @@ PlainObject
 Array
 Function
 RegExp
+Date
 ArrayIterator
 StringIterator
 RegExpStringIterator
