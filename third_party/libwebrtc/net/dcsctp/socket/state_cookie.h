@@ -216,7 +216,7 @@ constexpr
 size_t
 kCookieSize
 =
-44
+48
 ;
 StateCookie
 (
@@ -233,7 +233,7 @@ a_rwnd
 TieTag
 tie_tag
 Capabilities
-capabilities
+peer_capabilities
 )
 :
 peer_tag_
@@ -260,9 +260,9 @@ tie_tag_
 (
 tie_tag
 )
-capabilities_
+peer_capabilities_
 (
-capabilities
+peer_capabilities
 )
 {
 }
@@ -386,13 +386,13 @@ tie_tag_
 const
 Capabilities
 &
-capabilities
+peer_capabilities
 (
 )
 const
 {
 return
-capabilities_
+peer_capabilities_
 ;
 }
 private
@@ -443,7 +443,7 @@ tie_tag_
 ;
 const
 Capabilities
-capabilities_
+peer_capabilities_
 ;
 }
 ;
