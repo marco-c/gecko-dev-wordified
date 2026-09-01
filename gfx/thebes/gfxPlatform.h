@@ -203,6 +203,9 @@ qcms
 h
 "
 class
+FontData
+;
+class
 FontVisibilityProvider
 ;
 class
@@ -2682,12 +2685,9 @@ const
 SlantStyleRange
 &
 aStyleForEntry
-const
-uint8_t
+FontData
 *
 aFontData
-uint32_t
-aLength
 )
 ;
 /

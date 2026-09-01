@@ -13073,12 +13073,9 @@ const
 SlantStyleRange
 &
 aStyleForEntry
-const
-uint8_t
+FontData
 *
 aFontData
-uint32_t
-aLength
 )
 {
 return
@@ -13097,7 +13094,6 @@ aWeightForEntry
 aWidthForEntry
 aStyleForEntry
 aFontData
-aLength
 )
 ;
 }

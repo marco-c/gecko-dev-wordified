@@ -1661,12 +1661,9 @@ WidthRange
 aWidthForEntry
 SlantStyleRange
 aStyleForEntry
-const
-uint8_t
+FontData
 *
 aFontData
-uint32_t
-aLength
 )
 override
 ;
