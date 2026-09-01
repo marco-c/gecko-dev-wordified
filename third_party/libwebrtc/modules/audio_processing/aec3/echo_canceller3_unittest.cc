@@ -7685,6 +7685,16 @@ NeuralResidualEchoEstimatorMock
 )
 {
 }
+bool
+IsInitialized
+(
+)
+override
+{
+return
+true
+;
+}
 void
 Estimate
 (
