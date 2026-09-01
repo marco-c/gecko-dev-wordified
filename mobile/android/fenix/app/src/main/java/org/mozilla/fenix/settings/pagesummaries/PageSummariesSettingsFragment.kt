@@ -333,7 +333,9 @@ cache
 =
 requireComponents
 .
-summarizationSettingsCache
+core
+.
+summarizationSettingsBinding
 val
 store
 =
@@ -347,14 +349,14 @@ isFeatureEnabled
 =
 cache
 .
-featureEnabled
+isFeatureEnabled
 .
 value
 isGestureEnabled
 =
 cache
 .
-gestureEnabled
+isGestureEnabled
 .
 value
 shakeSensitivity
