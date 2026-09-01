@@ -127,13 +127,9 @@ public
 SensorEvent
 (
 )
-:
-mCount
-(
-0
-)
-{
-}
+=
+default
+;
 /
 /
 IUnknown
@@ -504,6 +500,9 @@ private
 :
 ULONG
 mCount
+{
+0
+}
 ;
 }
 ;
