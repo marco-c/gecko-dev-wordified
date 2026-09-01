@@ -8195,9 +8195,10 @@ v
 )
 ;
 }
-static
-MOZ_ALWAYS_INLINE
 bool
+js
+:
+:
 PreserveAnyUnpreservedWrapper
 (
 JSContext
