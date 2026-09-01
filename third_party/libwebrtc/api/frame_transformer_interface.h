@@ -546,8 +546,6 @@ remove
 this
 method
 .
-/
-/
 [
 [
 deprecated
