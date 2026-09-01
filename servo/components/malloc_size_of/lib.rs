@@ -1184,6 +1184,8 @@ ptr
 }
 else
 {
+unsafe
+{
 (
 self
 .
@@ -1196,6 +1198,7 @@ as
 const
 c_void
 )
+}
 }
 }
 /
@@ -1278,6 +1281,8 @@ ptr
 )
 )
 ;
+unsafe
+{
 (
 self
 .
@@ -1294,6 +1299,7 @@ as
 const
 c_void
 )
+}
 }
 /
 /
@@ -5490,7 +5496,6 @@ Component
 :
 AttributeOther
 (
-ref
 attr_selector
 )
 =
@@ -5506,7 +5511,6 @@ Component
 :
 Negation
 (
-ref
 components
 )
 =
@@ -5522,7 +5526,6 @@ Component
 :
 NonTSPseudoClass
 (
-ref
 pseudo
 )
 =
@@ -5541,7 +5544,6 @@ Component
 :
 Slotted
 (
-ref
 selector
 )
 |
@@ -5552,7 +5554,6 @@ Host
 (
 Some
 (
-ref
 selector
 )
 )
@@ -5571,7 +5572,6 @@ Component
 :
 Is
 (
-ref
 list
 )
 |
@@ -5580,7 +5580,6 @@ Component
 :
 Where
 (
-ref
 list
 )
 =
@@ -5596,7 +5595,6 @@ Component
 :
 Has
 (
-ref
 relative_selectors
 )
 =
@@ -5612,7 +5610,6 @@ Component
 :
 NthOf
 (
-ref
 nth_of_data
 )
 =
@@ -5628,7 +5625,6 @@ Component
 :
 PseudoElement
 (
-ref
 pseudo
 )
 =
