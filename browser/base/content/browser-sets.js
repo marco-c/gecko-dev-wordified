@@ -831,6 +831,9 @@ Referrals
 openReferralsTab
 (
 window
+"
+app_menu
+"
 )
 ;
 break
