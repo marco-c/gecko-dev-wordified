@@ -650,6 +650,36 @@ merged
 "
             
 }
+            
+"
+update
+-
+clobber
+-
+file
+"
+:
+{
+                
+"
+type
+"
+:
+"
+boolean
+"
+                
+"
+description
+"
+:
+"
+Update
+clobber
+file
+"
+            
+}
         
 }
         
@@ -804,6 +834,14 @@ merge
 automation
 -
 id
+"
+        
+"
+update
+-
+clobber
+-
+file
 "
     
 ]
