@@ -226,6 +226,7 @@ mozilla
 :
 PrefetchMemory
 (
+const
 uint8_t
 *
 aStart
@@ -244,6 +245,19 @@ aNumBytes
 return
 ;
 }
+uint8_t
+*
+ptr
+=
+const_cast
+<
+uint8_t
+*
+>
+(
+aStart
+)
+;
 #
 if
 defined
@@ -252,7 +266,7 @@ XP_SOLARIS
 )
 posix_madvise
 (
-aStart
+ptr
 aNumBytes
 POSIX_MADV_WILLNEED
 )
@@ -265,7 +279,7 @@ XP_UNIX
 )
 madvise
 (
-aStart
+ptr
 aNumBytes
 MADV_WILLNEED
 )
@@ -293,7 +307,7 @@ entry
 .
 VirtualAddress
 =
-aStart
+ptr
 ;
 entry
 .

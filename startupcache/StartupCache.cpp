@@ -1559,6 +1559,7 @@ NS_DispatchBackgroundTask
 (
 NewRunnableMethod
 <
+const
 uint8_t
 *
 size_t
@@ -4762,6 +4763,7 @@ StartupCache
 :
 ThreadedPrefetch
 (
+const
 uint8_t
 *
 aStart
