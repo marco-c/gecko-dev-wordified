@@ -719,7 +719,10 @@ JsepTrack
 PopulateCodecs
 (
 const
-nsTArray
+std
+:
+:
+vector
 <
 UniquePtr
 <
@@ -727,7 +730,7 @@ JsepCodecDescription
 >
 >
 &
-aPreferredCodecs
+prototype
 bool
 aUsePreferredCodecsOrder
 )
@@ -749,7 +752,7 @@ auto
 &
 prototypeCodec
 :
-aPreferredCodecs
+prototype
 )
 {
 if
