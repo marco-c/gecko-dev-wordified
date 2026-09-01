@@ -4214,8 +4214,8 @@ JSObject
 >
 "
 }
-{
 \
+{
 templateName
 "
 IdVector
@@ -4230,7 +4230,6 @@ JS
 PropertyKey
 >
 "
-\
 }
 static
 const

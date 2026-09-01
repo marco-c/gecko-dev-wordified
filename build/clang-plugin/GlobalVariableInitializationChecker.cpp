@@ -277,6 +277,8 @@ but
 actually
 has
 constinit
+"
+"
 initialisation
 .
 Consider
@@ -286,6 +288,8 @@ as
 constexpr
 or
 constinit
+"
+"
 instead
 .
 "
@@ -316,6 +320,8 @@ but
 actually
 has
 constant
+"
+"
 initialisation
 .
 Consider
@@ -327,6 +333,8 @@ or
 as
 a
 last
+"
+"
 resort
 )
 flagging
@@ -513,6 +521,8 @@ to
 remove
 it
 make
+"
+"
 it
 constexpr
 or
@@ -526,6 +536,8 @@ last
 resort
 flag
 it
+"
+"
 as
 MOZ_RUNINIT
 .
