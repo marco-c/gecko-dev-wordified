@@ -1216,6 +1216,10 @@ resumeOffsetList_
 (
 fc
 )
+tableSwitchOffsetList_
+(
+fc
+)
 currentLine_
 (
 lineNum
