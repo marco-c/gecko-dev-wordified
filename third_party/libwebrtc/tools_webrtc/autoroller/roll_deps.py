@@ -472,7 +472,7 @@ src
 /
 third_party
 /
-pipewire
+wireplumber
 /
 linux
 -
