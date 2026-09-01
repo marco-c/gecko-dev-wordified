@@ -922,6 +922,7 @@ on_chain_empty_callback
 ]
 (
 )
+mutable
 {
 operations_chain_
 -

@@ -2602,6 +2602,7 @@ error
 ]
 (
 )
+mutable
 {
 RTC_DCHECK_RUN_ON
 (
