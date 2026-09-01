@@ -6764,10 +6764,6 @@ NS_ConvertUTF8toUTF16
 aExtmap
 .
 extensionname
-.
-c_str
-(
-)
 )
 )
 ;

@@ -30358,6 +30358,7 @@ audio
 -
 level
 "
+_ns
 extmaps
 [
 0
@@ -30370,6 +30371,7 @@ ASSERT_EQ
 (
 "
 "
+_ns
 extmaps
 [
 0
@@ -30418,6 +30420,7 @@ ASSERT_EQ
 "
 some_extension
 "
+_ns
 extmaps
 [
 1
@@ -30430,6 +30433,7 @@ ASSERT_EQ
 (
 "
 "
+_ns
 extmaps
 [
 1
@@ -30464,6 +30468,7 @@ ASSERT_EQ
 "
 some_other_extension
 "
+_ns
 extmaps
 [
 2
@@ -30480,6 +30485,7 @@ some
 more
 params
 "
+_ns
 extmaps
 [
 2

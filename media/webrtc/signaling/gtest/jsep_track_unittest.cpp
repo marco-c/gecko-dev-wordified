@@ -3326,10 +3326,7 @@ aMsection
 uint16_t
 aId
 const
-std
-:
-:
-string
+nsACString
 &
 aUri
 const
@@ -3501,10 +3498,7 @@ CreateAnswer
 )
 ;
 const
-std
-:
-:
-string
+nsLiteralCString
 uri
 =
 "
@@ -3520,6 +3514,7 @@ hdrext
 :
 toffset
 "
+_ns
 ;
 AddExtmap
 (
@@ -3628,10 +3623,7 @@ CreateAnswer
 )
 ;
 const
-std
-:
-:
-string
+nsLiteralCString
 uri
 =
 "
@@ -3647,6 +3639,7 @@ hdrext
 :
 toffset
 "
+_ns
 ;
 AddExtmap
 (
@@ -3802,12 +3795,9 @@ CreateAnswer
 )
 ;
 const
-std
-:
-:
-string
+nsLiteralCString
 uri
-=
+(
 webrtc
 :
 :
@@ -3815,6 +3805,7 @@ RtpExtension
 :
 :
 kDependencyDescriptorUri
+)
 ;
 AddExtmap
 (
