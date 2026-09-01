@@ -5543,7 +5543,7 @@ trackerCount
 .
 featureGate
 "
-true
+false
 )
 ;
 pref
@@ -5557,7 +5557,7 @@ trackerCount
 .
 enabled
 "
-true
+false
 )
 ;
 pref
