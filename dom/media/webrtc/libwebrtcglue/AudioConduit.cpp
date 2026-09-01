@@ -6976,6 +6976,10 @@ Call
 CreateAudioReceiveStream
 (
 mRecvStreamConfig
+.
+Copy
+(
+)
 )
 ;
 /

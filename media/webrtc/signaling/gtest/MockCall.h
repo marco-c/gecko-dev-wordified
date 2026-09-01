@@ -1333,7 +1333,6 @@ AudioReceiveStreamInterface
 *
 CreateAudioReceiveStream
 (
-const
 webrtc
 :
 :
@@ -1341,7 +1340,6 @@ AudioReceiveStreamInterface
 :
 :
 Config
-&
 config
 )
 override
@@ -1359,7 +1357,13 @@ mozilla
 :
 Some
 (
+std
+:
+:
+move
+(
 config
+)
 )
 ;
 return
