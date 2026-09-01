@@ -5131,6 +5131,12 @@ rhs
 .
 mSandboxFlags
 )
+mFrameReferrerPolicySnapshot
+(
+rhs
+.
+mFrameReferrerPolicySnapshot
+)
 mInternalContentPolicyType
 (
 rhs
