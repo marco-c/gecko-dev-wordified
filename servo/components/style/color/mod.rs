@@ -5001,11 +5001,8 @@ color_space
 color_space
 {
 return
+*
 self
-.
-clone
-(
-)
 ;
 }
 /

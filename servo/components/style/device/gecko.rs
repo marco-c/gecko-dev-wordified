@@ -509,10 +509,6 @@ default_values
 Device
 {
 default_values
-:
-default_values
-root_style
-:
 root_style
 root_font_size
 :
@@ -3536,13 +3532,10 @@ bindings
 :
 Gecko_nsIURI_Debug
 (
-(
-*
 self
 .
 document
 (
-)
 )
 .
 mDocumentURI

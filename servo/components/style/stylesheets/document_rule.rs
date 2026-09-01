@@ -594,10 +594,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }

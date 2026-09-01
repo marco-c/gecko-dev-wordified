@@ -1429,7 +1429,6 @@ if
 let
 Some
 (
-ref
 id
 )
 =
@@ -1472,7 +1471,6 @@ if
 let
 Some
 (
-ref
 old_id
 )
 =
@@ -2278,9 +2276,8 @@ as_ref
 (
 )
 .
-map_or
+is_none_or
 (
-true
 |
 s
 |
@@ -2330,9 +2327,8 @@ as_ref
 (
 )
 .
-map_or
+is_none_or
 (
-true
 |
 s
 |
@@ -3876,13 +3872,11 @@ always
 invalidate
 fully
 .
-return
 self
 .
 invalidate_fully
 (
 )
-;
 }
 Document
 (

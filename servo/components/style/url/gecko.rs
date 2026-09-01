@@ -1281,9 +1281,8 @@ next
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 b
 |
@@ -1332,7 +1331,6 @@ self
 str
 {
 &
-*
 self
 .
 serialization
@@ -2110,12 +2108,8 @@ entry
 key
 )
 .
-or_insert_with
+or_default
 (
-Default
-:
-:
-default
 )
 ;
 &
@@ -2592,13 +2586,9 @@ LazyLock
 :
 new
 (
-|
-|
 Default
 :
 :
 default
-(
-)
 )
 ;

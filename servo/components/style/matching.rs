@@ -1095,7 +1095,6 @@ self
 .
 transition_rule
 (
-&
 context
 .
 shared
@@ -1159,7 +1158,6 @@ self
 .
 animation_rule
 (
-&
 context
 .
 shared
@@ -1587,7 +1585,6 @@ self
 .
 has_css_animations
 (
-&
 context
 .
 shared
@@ -2191,9 +2188,7 @@ return
 false
 ;
 }
-return
 true
-;
 }
 #
 [
@@ -2706,7 +2701,6 @@ as_ref
 .
 unwrap_or
 (
-&
 new_values
 )
 )
@@ -3138,7 +3132,6 @@ self
 .
 has_animations
 (
-&
 context
 .
 shared
@@ -5555,11 +5548,8 @@ let
 mut
 current
 =
+*
 self
-.
-clone
-(
-)
 ;
 loop
 {
@@ -6268,7 +6258,6 @@ device
 .
 calc_line_height
 (
-&
 new_primary_style
 .
 get_font
@@ -6395,8 +6384,8 @@ QuirksMode
 :
 :
 Quirks
-{
-if
+&
+&
 self
 .
 is_html_document_body_element
@@ -6503,7 +6492,6 @@ set_body_text_color
 text_color
 )
 ;
-}
 }
 /
 /
@@ -6900,16 +6888,12 @@ new
 )
 {
 (
-&
 Some
 (
-ref
 old
 )
-&
 Some
 (
-ref
 new
 )
 )
@@ -7027,9 +7011,8 @@ as_ref
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 s
 |
@@ -7050,9 +7033,8 @@ as_ref
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 s
 |
@@ -7271,9 +7253,8 @@ debug_assert
 (
 pseudo
 .
-map_or
+is_none_or
 (
-true
 |
 p
 |

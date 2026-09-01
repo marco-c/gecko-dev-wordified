@@ -69,6 +69,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 shared_lock
 :
 :
@@ -588,9 +597,9 @@ IndexSize
 Step
 3
 let
-ref
 rule
 =
+&
 self
 .
 0
@@ -1087,7 +1096,6 @@ CssRule
 :
 parse
 (
-&
 rule
 insert_rule_context
 parent_stylesheet_contents

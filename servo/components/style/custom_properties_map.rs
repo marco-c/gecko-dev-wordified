@@ -1009,9 +1009,8 @@ as_ref
 (
 )
 .
-map_or
+is_none_or
 (
-true
 |
 p
 |

@@ -1065,9 +1065,11 @@ self
 0
 >
 >
+(
 pos
 *
 PAINT_ORDER_SHIFT
+)
 )
 &
 PAINT_ORDER_MASK

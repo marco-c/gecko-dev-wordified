@@ -3958,7 +3958,6 @@ start
 source_location
 (
 )
-&
 self
 .
 shared_lock
@@ -5643,7 +5642,6 @@ CssRules
 new
 (
 rules
-&
 self
 .
 shared_lock
@@ -6570,10 +6568,6 @@ p
 context
 input
 source_location
-)
-.
-into
-(
 )
 )
 )

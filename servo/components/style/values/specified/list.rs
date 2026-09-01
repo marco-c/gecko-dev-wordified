@@ -985,13 +985,11 @@ next
 {
 Ok
 (
-&
 Token
 :
 :
 QuotedString
 (
-ref
 value
 )
 )

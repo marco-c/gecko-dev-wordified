@@ -4697,13 +4697,11 @@ keyword
 )
 )
 ;
-return
 Ok
 (
 (
 )
 )
-;
 }
 }
 impl
@@ -4982,7 +4980,6 @@ UnspecifiedError
 )
 ;
 }
-return
 Ok
 (
 Display
@@ -4995,7 +4992,6 @@ inside
 got_list_item
 )
 )
-;
 }
 }
 impl
@@ -8135,7 +8131,6 @@ bits
 =
 change_bits_for_maybe_property
 (
-&
 parser_ident
 context
 )
@@ -10310,12 +10305,8 @@ const
 DISALLOWED_CONTAINER_NAMES
 :
 &
-'
-static
 [
 &
-'
-static
 str
 ]
 =

@@ -644,10 +644,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }
@@ -1008,10 +1004,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }
@@ -1557,9 +1549,5 @@ ident
 )
 ;
 result
-.
-into
-(
-)
 }
 }

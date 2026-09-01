@@ -1966,16 +1966,12 @@ Self
 let
 abs
 =
-(
 shadow_cascade_order
 .
 0
 .
-abs
+unsigned_abs
 (
-)
-as
-u8
 )
 <
 <

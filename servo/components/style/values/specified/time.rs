@@ -1722,7 +1722,6 @@ new_calc
 _
 =
 >
-return
 Err
 (
 ParseError

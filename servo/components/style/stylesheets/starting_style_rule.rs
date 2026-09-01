@@ -101,6 +101,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 shared_lock
 :
 :
@@ -472,10 +481,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }

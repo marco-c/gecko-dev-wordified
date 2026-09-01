@@ -681,7 +681,6 @@ node
 _
 =
 >
-return
 Err
 (
 ParseError

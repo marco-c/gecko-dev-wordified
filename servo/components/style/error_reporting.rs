@@ -2523,9 +2523,8 @@ offset
 if
 c
 .
-map_or
+is_none_or
 (
-true
 |
 c
 |

@@ -453,7 +453,6 @@ self
 ComputedValues
 {
 &
-*
 self
 .
 0
@@ -661,7 +660,6 @@ self
 ComputedValues
 {
 &
-*
 self
 .
 style
@@ -813,10 +811,6 @@ mut
 layout_parent_el
 =
 parent_el
-.
-clone
-(
-)
 ;
 let
 layout_parent_data
@@ -830,9 +824,8 @@ parent_style
 if
 parent_style
 .
-map_or
+is_some_and
 (
-false
 |
 s
 |
@@ -1219,9 +1212,8 @@ inside_link
 =
 parent_style
 .
-map_or
+is_some_and
 (
-false
 |
 s
 |
@@ -1810,7 +1802,6 @@ default
 )
 ;
 if
-!
 self
 .
 element
@@ -1819,12 +1810,11 @@ implemented_pseudo_element
 (
 )
 .
-is_some_and
+is_none_or
 (
 |
 p
 |
-!
 p
 .
 is_element_backed
@@ -2160,9 +2150,8 @@ debug_assert
 (
 pseudo
 .
-map_or
+is_none_or
 (
-true
 |
 p
 |

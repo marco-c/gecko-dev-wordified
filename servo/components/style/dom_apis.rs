@@ -563,9 +563,7 @@ parent_element
 )
 ;
 }
-return
 None
-;
 }
 /
 /
@@ -1319,19 +1317,11 @@ self
 matching_context
 .
 current_host
-.
-clone
-(
-)
 self
 .
 matching_context
 .
 scope_element
-.
-clone
-(
-)
 )
 )
 }
@@ -1411,7 +1401,6 @@ Q
 :
 is_empty
 (
-&
 self
 .
 results
@@ -3726,8 +3715,8 @@ len
 =
 =
 1
-{
-if
+&
+&
 query_selector_single_query
 :
 :
@@ -3765,7 +3754,6 @@ Ok
 )
 )
 ;
-}
 }
 let
 mut
@@ -3846,9 +3834,8 @@ debug_assert
 (
 combinator
 .
-map_or
+is_none_or
 (
-true
 |
 c
 |
@@ -4318,7 +4305,6 @@ Q
 :
 is_empty
 (
-&
 results
 )
 {
@@ -4547,7 +4533,6 @@ SimpleFilter
 :
 Class
 (
-ref
 class
 )
 =
@@ -4672,7 +4657,6 @@ SimpleFilter
 :
 LocalName
 (
-ref
 local_name
 )
 =
@@ -4840,7 +4824,6 @@ SimpleFilter
 :
 Attr
 (
-ref
 local_name
 )
 =

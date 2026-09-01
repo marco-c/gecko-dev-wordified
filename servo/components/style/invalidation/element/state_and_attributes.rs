@@ -1532,8 +1532,6 @@ ElementWrapper
 new
 (
 element
-&
-*
 self
 .
 shared_context
@@ -1676,8 +1674,6 @@ ElementWrapper
 new
 (
 element
-&
-*
 self
 .
 shared_context
@@ -2287,9 +2283,6 @@ lookup_element
 state_changes
 element
 snapshot
-:
-&
-snapshot
 matching_context
 :
 &
@@ -2397,7 +2390,6 @@ invalidation_map
 for
 &
 (
-ref
 data
 ref
 host
@@ -2414,11 +2406,8 @@ current_host
 =
 Some
 (
+*
 host
-.
-clone
-(
-)
 )
 ;
 collector
@@ -2603,7 +2592,6 @@ element
 return
 should_process_descendants
 (
-&
 self
 .
 data
@@ -2631,7 +2619,6 @@ d
 None
 =
 >
-return
 false
 }
 }
@@ -2860,7 +2847,6 @@ if
 let
 Some
 (
-ref
 id
 )
 =
@@ -2910,7 +2896,6 @@ if
 let
 Some
 (
-ref
 id
 )
 =
@@ -3247,8 +3232,6 @@ element
 self
 .
 wrapper
-&
-mut
 self
 .
 matching_context
@@ -3367,7 +3350,6 @@ dependency
 set_scope
 )
 {
-return
 self
 .
 note_dependency
@@ -3375,7 +3357,6 @@ note_dependency
 dependency
 set_scope
 )
-;
 }
 }
 fn
@@ -3602,10 +3583,6 @@ self
 matching_context
 .
 current_host
-.
-clone
-(
-)
 self
 .
 matching_context
@@ -3672,10 +3649,6 @@ self
 matching_context
 .
 current_host
-.
-clone
-(
-)
 self
 .
 matching_context
@@ -3780,26 +3753,17 @@ Invalidation
 :
 new
 (
-&
 dependency
 self
 .
 matching_context
 .
 current_host
-.
-clone
-(
-)
 self
 .
 matching_context
 .
 scope_element
-.
-clone
-(
-)
 )
 ;
 let

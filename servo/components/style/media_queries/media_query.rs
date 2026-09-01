@@ -1005,14 +1005,12 @@ as_ref
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 c
 |
 {
-return
 c
 .
 cumulative_flags
@@ -1026,7 +1024,6 @@ FeatureFlags
 :
 VIEWPORT_DEPENDENT
 )
-;
 }
 )
 }
@@ -1146,7 +1143,6 @@ MediaQueryType
 :
 parse
 (
-&
 ident
 )
 ?

@@ -4082,7 +4082,6 @@ i
 (
 ref
 size
-ref
 names
 )
 )
@@ -5053,9 +5052,8 @@ peek
 (
 )
 .
-map_or
+is_some_and
 (
-false
 |
 v
 |
@@ -5542,7 +5540,6 @@ write_char
 ?
 ;
 for
-ref
 names
 in
 self

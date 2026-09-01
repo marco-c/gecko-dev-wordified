@@ -2191,8 +2191,8 @@ S
 :
 Hsl
 )
-{
-if
+&
+&
 source
 .
 flags
@@ -2216,7 +2216,6 @@ F
 :
 C2_IS_NONE
 )
-}
 }
 }
 else
@@ -2260,8 +2259,8 @@ S
 :
 Oklch
 )
-{
-if
+&
+&
 source
 .
 flags
@@ -2285,7 +2284,6 @@ F
 :
 C0_IS_NONE
 )
-}
 }
 /
 /
@@ -2426,8 +2424,8 @@ S
 :
 Oklch
 )
-{
-if
+&
+&
 source
 .
 flags
@@ -2451,7 +2449,6 @@ F
 :
 C2_IS_NONE
 )
-}
 }
 }
 else
@@ -2696,9 +2693,7 @@ ComponentMixOutcome
 :
 from_colors
 (
-&
 left
-&
 right
 ColorFlags
 :
@@ -2710,9 +2705,7 @@ ComponentMixOutcome
 :
 from_colors
 (
-&
 left
-&
 right
 ColorFlags
 :
@@ -2724,9 +2717,7 @@ ComponentMixOutcome
 :
 from_colors
 (
-&
 left
-&
 right
 ColorFlags
 :
@@ -2738,9 +2729,7 @@ ComponentMixOutcome
 :
 from_colors
 (
-&
 left
-&
 right
 ColorFlags
 :
@@ -2784,10 +2773,8 @@ result_flags
 =
 interpolate_premultiplied
 (
-&
 left
 left_weight
-&
 right
 right_weight
 color_space

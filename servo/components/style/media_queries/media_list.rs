@@ -1038,7 +1038,6 @@ MediaQuery
 :
 parse
 (
-&
 context
 &
 mut

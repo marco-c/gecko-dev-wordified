@@ -573,14 +573,11 @@ save_specified
 true
 )
 .
-or_else
+map_err
 (
 |
 err
 |
-{
-Err
-(
 StyleParseError
 :
 :
@@ -594,8 +591,6 @@ PropertySyntaxField
 err
 )
 )
-)
-}
 )
 ;
 }
@@ -2922,7 +2917,6 @@ byte_index
 (
 )
 ;
-return
 Ok
 (
 ComponentName
@@ -2933,7 +2927,6 @@ Ident
 name
 )
 )
-;
 }
 fn
 parse_multiplier

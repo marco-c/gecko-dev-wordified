@@ -102,6 +102,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 properties
 :
 :
@@ -136,7 +145,10 @@ use
 cssparser
 :
 :
+{
+match_ignore_ascii_case
 SourceLocation
+}
 ;
 #
 [
@@ -392,7 +404,7 @@ leading
 .
 pub
 fn
-match_name
+from_name
 (
 name
 :
@@ -1425,7 +1437,6 @@ self
 static
 str
 {
-&
 MARGIN_RULE_AT_NAMES
 [
 *
@@ -1966,7 +1977,6 @@ block
 .
 read_with
 (
-&
 guard
 )
 .
@@ -1980,10 +1990,6 @@ source_location
 self
 .
 source_location
-.
-clone
-(
-)
 }
 }
 }

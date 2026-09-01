@@ -1060,8 +1060,8 @@ loop
 if
 !
 inset
-{
-if
+&
+&
 input
 .
 try_parse
@@ -1089,7 +1089,6 @@ true
 ;
 continue
 ;
-}
 }
 if
 lengths
@@ -1327,8 +1326,6 @@ base
 SimpleShadow
 {
 color
-:
-color
 horizontal
 :
 lengths
@@ -1350,8 +1347,6 @@ spread
 lengths
 .
 3
-inset
-:
 inset
 }
 )

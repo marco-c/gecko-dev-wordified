@@ -2033,12 +2033,10 @@ as_ref
 (
 Some
 (
-ref
 this
 )
 Some
 (
-ref
 other
 )
 )
@@ -2328,7 +2326,6 @@ self
 .
 animate
 (
-&
 other
 procedure
 )
@@ -3220,6 +3217,12 @@ trivial_to_animated_value
 !
 (
 u8
+)
+;
+trivial_to_animated_value
+!
+(
+u16
 )
 ;
 trivial_to_animated_value

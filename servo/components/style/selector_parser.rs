@@ -528,16 +528,10 @@ querySelector
 pub
 fn
 parse_author_origin_no_namespace
-<
-'
-i
->
 (
 input
 :
 &
-'
-i
 str
 url_data
 :

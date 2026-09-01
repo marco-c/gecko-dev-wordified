@@ -1133,7 +1133,6 @@ rule
 }
 ;
 let
-mut
 iter
 =
 RuleBodyParser
@@ -1147,18 +1146,10 @@ mut
 parser
 )
 ;
-while
-let
-Some
-(
+for
 declaration
-)
-=
+in
 iter
-.
-next
-(
-)
 {
 if
 let
@@ -1409,7 +1400,6 @@ FontPaletteValueSet
 )
 {
 for
-ref
 family
 in
 self

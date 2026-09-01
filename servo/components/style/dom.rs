@@ -2695,8 +2695,6 @@ writeln
 !
 (
 f
-"
-"
 )
 ?
 ;
@@ -6117,7 +6115,6 @@ return
 false
 }
 ;
-return
 data
 .
 hint
@@ -6125,7 +6122,6 @@ hint
 has_animation_hint
 (
 )
-;
 }
 /
 /

@@ -985,9 +985,8 @@ as_ref
 (
 )
 .
-map_or
+is_none_or
 (
-true
 |
 o
 |
@@ -1438,11 +1437,8 @@ alpha
 clone
 (
 )
+*
 color_space
-.
-clone
-(
-)
 )
 ColorFunction
 :
@@ -1464,10 +1460,6 @@ f
 o
 )
 ?
-.
-into
-(
-)
 alpha
 .
 clone
