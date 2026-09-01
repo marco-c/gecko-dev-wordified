@@ -2139,12 +2139,6 @@ try_task_config
 parameters
 .
         
-prefix
-=
-"
-try
-"
-        
 metrics
 .
 mach_try
@@ -2161,7 +2155,9 @@ push_to_git_backing
 (
 prefix
 =
-prefix
+"
+try
+"
 )
         
 metrics
@@ -2229,29 +2225,6 @@ head_git_rev
 ]
 =
 backing_sha
-        
-try_task_config
-[
-"
-parameters
-"
-]
-[
-"
-head_git_ref
-"
-]
-=
-f
-"
-{
-prefix
-}
-/
-{
-backing_sha
-}
-"
     
 if
 try_task_config

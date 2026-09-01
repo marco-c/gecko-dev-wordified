@@ -674,15 +674,6 @@ version
 :
 str
     
-head_git_ref
-:
-Optional
-[
-str
-]
-=
-None
-    
 head_git_repository
 :
 Optional

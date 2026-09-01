@@ -463,14 +463,6 @@ firefox
 "
         
 "
-head_git_ref
-"
-:
-"
-autoland
-"
-        
-"
 optimize_strategies
 "
 :
@@ -542,14 +534,6 @@ firefox
 "
         
 "
-head_git_ref
-"
-:
-"
-main
-"
-        
-"
 target_tasks_method
 "
 :
@@ -593,14 +577,6 @@ mozilla
 firefox
 /
 firefox
-"
-        
-"
-head_git_ref
-"
-:
-"
-beta
 "
         
 "
@@ -664,14 +640,6 @@ firefox
 "
         
 "
-head_git_ref
-"
-:
-"
-release
-"
-        
-"
 target_tasks_method
 "
 :
@@ -718,14 +686,6 @@ firefox
 "
         
 "
-head_git_ref
-"
-:
-"
-esr140
-"
-        
-"
 target_tasks_method
 "
 :
@@ -750,34 +710,6 @@ esr153
 "
 :
 {
-        
-"
-head_git_repository
-"
-:
-"
-https
-:
-/
-/
-github
-.
-com
-/
-mozilla
--
-firefox
-/
-firefox
-"
-        
-"
-head_git_ref
-"
-:
-"
-esr153
-"
         
 "
 target_tasks_method
