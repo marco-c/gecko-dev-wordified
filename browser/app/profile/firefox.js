@@ -5557,7 +5557,7 @@ trackerCount
 .
 enabled
 "
-false
+true
 )
 ;
 pref
