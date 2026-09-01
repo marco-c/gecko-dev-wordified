@@ -1560,7 +1560,7 @@ const
 SheetInfo
 &
 const
-nsAString
+nsACString
 &
 aBuffer
 nsICSSLoaderObserver

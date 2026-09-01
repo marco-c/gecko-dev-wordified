@@ -506,7 +506,7 @@ nsIPrincipal
 *
 aPrincipal
 const
-nsAString
+nsACString
 &
 aBuffer
 F
@@ -582,7 +582,7 @@ nsTHashMap
 PrincipalHashKey
 nsTHashMap
 <
-nsStringHashKey
+nsCStringHashKey
 InlineSheetCandidates
 >
 >
