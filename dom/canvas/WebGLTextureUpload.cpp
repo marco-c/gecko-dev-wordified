@@ -8018,6 +8018,10 @@ get
 (
 )
 ;
+Truncate
+(
+)
+;
 return
 ;
 }
