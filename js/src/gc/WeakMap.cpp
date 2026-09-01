@@ -178,7 +178,7 @@ gc
 .
 atomReferences
 .
-inlinedRecordRef
+inlinedRecordRefInfallible
 (
 zone
 sym

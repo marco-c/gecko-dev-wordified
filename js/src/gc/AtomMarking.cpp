@@ -2948,8 +2948,7 @@ ReadBarrier
 thing
 )
 ;
-return
-inlinedRecordRef
+inlinedRecordRefInfallible
 (
 cx
 -
