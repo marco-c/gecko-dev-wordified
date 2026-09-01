@@ -1358,6 +1358,11 @@ aCookiePurgeAge
 0
 ;
 void
+PurgeExpiredCookies
+(
+)
+;
+void
 RemoveCookiesFromBack
 (
 nsTArray
