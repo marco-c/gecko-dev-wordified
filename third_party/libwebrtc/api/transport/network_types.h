@@ -1492,16 +1492,6 @@ PlusInfinity
 (
 )
 ;
-TimeDelta
-bwe_period
-=
-TimeDelta
-:
-:
-PlusInfinity
-(
-)
-;
 float
 loss_rate_ratio
 =

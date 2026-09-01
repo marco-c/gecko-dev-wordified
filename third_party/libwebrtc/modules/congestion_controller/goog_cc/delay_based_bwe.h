@@ -518,12 +518,6 @@ DataRate
 min_bitrate
 )
 ;
-TimeDelta
-GetExpectedBwePeriod
-(
-)
-const
-;
 DataRate
 TriggerOveruse
 (
