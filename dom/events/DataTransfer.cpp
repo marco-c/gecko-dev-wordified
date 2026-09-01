@@ -5735,6 +5735,15 @@ return
 NS_ERROR_DOM_INDEX_SIZE_ERR
 ;
 }
+nsAutoString
+format
+;
+GetRealFormat
+(
+aFormat
+format
+)
+;
 /
 /
 Don
@@ -5750,7 +5759,7 @@ assigned
 .
 if
 (
-aFormat
+format
 .
 EqualsLiteral
 (
@@ -5767,7 +5776,7 @@ if
 !
 PrincipalMaySetData
 (
-aFormat
+format
 aData
 aSubjectPrincipal
 )
@@ -5780,7 +5789,7 @@ NS_ERROR_DOM_SECURITY_ERR
 return
 SetDataWithPrincipal
 (
-aFormat
+format
 aData
 aIndex
 aSubjectPrincipal
