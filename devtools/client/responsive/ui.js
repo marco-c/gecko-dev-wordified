@@ -5699,7 +5699,7 @@ index
 css
 this
 .
-rdmFrame
+browserContainerEl
 .
 classList
 .
