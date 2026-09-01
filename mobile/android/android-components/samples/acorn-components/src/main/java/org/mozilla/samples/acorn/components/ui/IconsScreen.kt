@@ -455,7 +455,6 @@ CATEGORY_LABEL_WIDTH
 /
 *
 *
-*
 Displays
 a
 catalog
@@ -2969,6 +2968,11 @@ iconsR
 drawable
 .
 mozac_ic_tab_ungroup_24
+iconsR
+.
+drawable
+.
+mozac_ic_infinite_tabs_24
 )
 private
 val
