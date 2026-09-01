@@ -316,6 +316,7 @@ only
 by
 BytecodeEmitter
 .
+Destructuring
 Spread
 YieldStar
 }
