@@ -83,7 +83,7 @@ expectedValue
 {
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 browser
 uri
@@ -278,7 +278,7 @@ dirsvc
 get
 (
 "
-Desk
+ProfD
 "
 Ci
 .
