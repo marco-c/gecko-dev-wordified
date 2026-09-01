@@ -5087,6 +5087,11 @@ name
 "
 ]
         
+variant_suffix
+=
+"
+"
+        
 if
 attributes
 .
@@ -5098,7 +5103,7 @@ unittest_variant
 )
 :
             
-suffix
+variant_suffix
 =
 task
 .
@@ -5114,12 +5119,12 @@ suffix
 label
 +
 =
-suffix
+variant_suffix
             
 try_name
 +
 =
-suffix
+variant_suffix
         
 if
 task
@@ -5779,10 +5784,13 @@ name
 .
 {
 }
+{
+}
 "
 .
 format
 (
+                
 index
 [
 "
@@ -5792,6 +5800,8 @@ name
 "
 ]
 platform
+variant_suffix
+            
 )
             
 jobdesc
