@@ -936,7 +936,7 @@ DataFlowTrace
 {
 public
 :
-int
+void
 ReadCoverage
 (
 const
@@ -948,7 +948,7 @@ string
 DirPath
 )
 ;
-int
+bool
 Init
 (
 const
