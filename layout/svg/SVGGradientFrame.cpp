@@ -823,23 +823,6 @@ GetGradientUnits
 (
 )
 {
-/
-/
-This
-getter
-is
-called
-every
-time
-the
-others
-are
-called
--
-maybe
-cache
-it
-?
 return
 GetEnumValue
 (
@@ -1001,6 +984,8 @@ GetGradientTransform
 nsIFrame
 *
 aSource
+uint16_t
+aGradientUnits
 const
 gfxRect
 *
@@ -1010,16 +995,9 @@ aOverrideBounds
 gfxMatrix
 bboxMatrix
 ;
-uint16_t
-gradientUnits
-=
-GetGradientUnits
-(
-)
-;
 if
 (
-gradientUnits
+aGradientUnits
 !
 =
 SVG_UNIT_TYPE_USERSPACEONUSE
@@ -1027,7 +1005,7 @@ SVG_UNIT_TYPE_USERSPACEONUSE
 {
 NS_ASSERTION
 (
-gradientUnits
+aGradientUnits
 =
 =
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
@@ -1923,6 +1901,7 @@ nStops
 |
 GradientVectorLengthIsZero
 (
+gradientUnits
 )
 )
 {
@@ -2029,6 +2008,7 @@ patternMatrix
 GetGradientTransform
 (
 aSource
+gradientUnits
 aOverrideBounds
 )
 ;
@@ -2117,6 +2097,7 @@ gradient
 =
 CreateGradient
 (
+gradientUnits
 )
 ;
 if
@@ -2312,6 +2293,8 @@ SVGGradientFrame
 :
 GetLengthValue
 (
+uint16_t
+aGradientUnits
 const
 SVGAnimatedLength
 &
@@ -2357,16 +2340,9 @@ routines
 Fixes
 323669
 .
-uint16_t
-gradientUnits
-=
-GetGradientUnits
-(
-)
-;
 if
 (
-gradientUnits
+aGradientUnits
 =
 =
 SVG_UNIT_TYPE_USERSPACEONUSE
@@ -2386,7 +2362,7 @@ aLength
 }
 NS_ASSERTION
 (
-gradientUnits
+aGradientUnits
 =
 =
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
@@ -3209,6 +3185,8 @@ SVGLinearGradientFrame
 :
 GetLengthValue
 (
+uint16_t
+aGradientUnits
 uint32_t
 aIndex
 )
@@ -3282,6 +3260,7 @@ GetLinearGradientWithLength
 return
 GetLengthValue
 (
+aGradientUnits
 lengthElement
 -
 >
@@ -3376,11 +3355,14 @@ SVGLinearGradientFrame
 :
 GradientVectorLengthIsZero
 (
+uint16_t
+aGradientUnits
 )
 {
 return
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -3393,6 +3375,7 @@ ATTR_X1
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -3405,6 +3388,7 @@ ATTR_X2
 &
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -3417,6 +3401,7 @@ ATTR_Y1
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -3436,6 +3421,8 @@ SVGLinearGradientFrame
 :
 CreateGradient
 (
+uint16_t
+aGradientUnits
 )
 {
 float
@@ -3443,6 +3430,7 @@ x1
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -3457,6 +3445,7 @@ y1
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -3471,6 +3460,7 @@ x2
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -3485,6 +3475,7 @@ y2
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -3902,6 +3893,8 @@ SVGRadialGradientFrame
 :
 GetLengthValue
 (
+uint16_t
+aGradientUnits
 uint32_t
 aIndex
 Maybe
@@ -3991,6 +3984,7 @@ lengthElement
 ?
 GetLengthValue
 (
+aGradientUnits
 lengthElement
 -
 >
@@ -4088,6 +4082,8 @@ SVGRadialGradientFrame
 :
 GradientVectorLengthIsZero
 (
+uint16_t
+aGradientUnits
 )
 {
 float
@@ -4095,6 +4091,7 @@ cx
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4109,6 +4106,7 @@ cy
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4123,6 +4121,7 @@ r
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4151,6 +4150,7 @@ fx
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4166,6 +4166,7 @@ fy
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4181,6 +4182,7 @@ fr
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4218,6 +4220,8 @@ SVGRadialGradientFrame
 :
 CreateGradient
 (
+uint16_t
+aGradientUnits
 )
 {
 float
@@ -4225,6 +4229,7 @@ cx
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4239,6 +4244,7 @@ cy
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4253,6 +4259,7 @@ r
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4281,6 +4288,7 @@ fx
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4296,6 +4304,7 @@ fy
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :
@@ -4311,6 +4320,7 @@ fr
 =
 GetLengthValue
 (
+aGradientUnits
 dom
 :
 :

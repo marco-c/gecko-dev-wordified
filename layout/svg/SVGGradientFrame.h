@@ -405,6 +405,8 @@ GetGradientTransform
 nsIFrame
 *
 aSource
+uint16_t
+aGradientUnits
 const
 gfxRect
 *
@@ -417,6 +419,8 @@ virtual
 bool
 GradientVectorLengthIsZero
 (
+uint16_t
+aGradientUnits
 )
 =
 0
@@ -428,6 +432,8 @@ gfxPattern
 >
 CreateGradient
 (
+uint16_t
+aGradientUnits
 )
 =
 0
@@ -477,6 +483,8 @@ GetSpreadMethod
 float
 GetLengthValue
 (
+uint16_t
+aGradientUnits
 const
 SVGAnimatedLength
 &
@@ -931,6 +939,8 @@ GetLengthValue
 float
 GetLengthValue
 (
+uint16_t
+aGradientUnits
 uint32_t
 aIndex
 )
@@ -962,6 +972,8 @@ override
 bool
 GradientVectorLengthIsZero
 (
+uint16_t
+aGradientUnits
 )
 override
 ;
@@ -971,6 +983,8 @@ gfxPattern
 >
 CreateGradient
 (
+uint16_t
+aGradientUnits
 )
 override
 ;
@@ -1262,6 +1276,8 @@ GetLengthValue
 float
 GetLengthValue
 (
+uint16_t
+aGradientUnits
 uint32_t
 aIndex
 Maybe
@@ -1278,6 +1294,8 @@ Nothing
 float
 GetLengthValue
 (
+uint16_t
+aGradientUnits
 uint32_t
 aIndex
 float
@@ -1287,6 +1305,7 @@ aDefaultValue
 return
 GetLengthValue
 (
+aGradientUnits
 aIndex
 Some
 (
@@ -1322,6 +1341,8 @@ override
 bool
 GradientVectorLengthIsZero
 (
+uint16_t
+aGradientUnits
 )
 override
 ;
@@ -1331,6 +1352,8 @@ gfxPattern
 >
 CreateGradient
 (
+uint16_t
+aGradientUnits
 )
 override
 ;
