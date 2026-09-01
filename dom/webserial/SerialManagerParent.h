@@ -440,6 +440,13 @@ IPCSerialPortFilter
 &
 &
 aFilters
+nsTArray
+<
+nsString
+>
+&
+&
+aAllowedBluetoothServiceClassIds
 bool
 aAutoselect
 RequestPortResolver
@@ -469,6 +476,10 @@ uint16_t
 aVendorId
 uint16_t
 aProductId
+const
+nsString
+&
+aBluetoothServiceClassId
 SimulateDeviceConnectionResolver
 &
 &
