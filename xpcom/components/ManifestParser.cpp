@@ -180,7 +180,7 @@ include
 "
 mozilla
 /
-Services
+Components
 .
 h
 "
@@ -3732,10 +3732,13 @@ cr
 mozilla
 :
 :
-services
+components
 :
 :
-GetChromeRegistry
+ChromeRegistry
+:
+:
+Service
 (
 )
 ;
