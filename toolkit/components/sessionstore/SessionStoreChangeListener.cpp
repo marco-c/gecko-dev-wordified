@@ -1342,10 +1342,12 @@ document
 continue
 ;
 }
+const
 EnumSet
 <
 Change
 >
+&
 changes
 =
 iter
