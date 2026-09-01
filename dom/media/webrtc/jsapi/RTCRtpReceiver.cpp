@@ -3886,7 +3886,7 @@ Construct
 videoStats
 -
 >
-frame_counts
+decoded_frame_counts
 .
 key_frames
 )
@@ -3962,14 +3962,14 @@ Construct
 videoStats
 -
 >
-frame_counts
+received_frame_counts
 .
 key_frames
 +
 videoStats
 -
 >
-frame_counts
+received_frame_counts
 .
 delta_frames
 )
