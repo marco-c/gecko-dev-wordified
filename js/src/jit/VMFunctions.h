@@ -2334,6 +2334,14 @@ cx
 )
 ;
 bool
+CheckOverRecursedResumingGenerator
+(
+JSContext
+*
+cx
+)
+;
+bool
 CheckOverRecursedBaseline
 (
 JSContext
