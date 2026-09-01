@@ -534,9 +534,6 @@ if
 (
 !
 tab
-?
-.
-visible
 )
 {
 return
