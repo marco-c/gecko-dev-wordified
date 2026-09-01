@@ -1468,17 +1468,6 @@ is
 the
 GLB
 .
-The
-/
-/
-nullability
-should
-already
-match
-what
-we
-expect
-.
 if
 (
 RefType

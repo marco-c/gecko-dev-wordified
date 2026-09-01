@@ -3901,8 +3901,6 @@ any
 -
 >
 a1
-or
-none
 {
 a1
 RefType
@@ -3977,9 +3975,7 @@ a1
 eq
 -
 >
-eq
-or
-none
+a1
 {
 a1
 RefType
@@ -4245,8 +4241,6 @@ array
 -
 >
 a1
-or
-none
 {
 a1
 RefType
@@ -4425,8 +4419,6 @@ s2
 -
 >
 s2
-or
-none
 {
 s1
 s2
