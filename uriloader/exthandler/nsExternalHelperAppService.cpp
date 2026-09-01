@@ -13729,13 +13729,10 @@ permissionManager
 mozilla
 :
 :
-components
+services
 :
 :
-PermissionManager
-:
-:
-Service
+GetPermissionManager
 (
 )
 ;
