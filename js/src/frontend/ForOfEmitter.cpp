@@ -1170,10 +1170,11 @@ call
 IteratorClose
 so
 start
-TryNoteKind
-:
-:
-ForOfIterClose
+the
+try
+-
+block
+below
 after
 the
 GetProp
