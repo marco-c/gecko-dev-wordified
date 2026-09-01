@@ -3240,9 +3240,9 @@ webrtc
 encoder_creation_strategy
 "
 )
+!
 =
-=
-1
+0
 ;
 defaultMochitestPrefs
 .
@@ -3388,9 +3388,9 @@ webrtc
 encoder_creation_strategy
 "
 )
+!
 =
-=
-1
+0
 &
 &
 (

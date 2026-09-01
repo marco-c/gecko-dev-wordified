@@ -70,6 +70,13 @@ memory
 #
 include
 "
+EncoderConfig
+.
+h
+"
+#
+include
+"
 MediaCodecsSupport
 .
 h
@@ -106,9 +113,6 @@ h
 namespace
 mozilla
 {
-class
-EncoderConfig
-;
 class
 WebrtcVideoDecoder
 ;
@@ -238,6 +242,8 @@ webrtc
 SdpVideoFormat
 &
 aFormat
+HardwarePreference
+aHardwarePref
 )
 ;
 /
