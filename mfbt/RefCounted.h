@@ -1456,6 +1456,9 @@ an
 atomic
 operation
 .
+(
+void
+)
 mValue
 .
 load
