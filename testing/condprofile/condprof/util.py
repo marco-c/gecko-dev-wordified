@@ -3359,20 +3359,26 @@ get_tc_secret
 password
 =
 secret
-[
+.
+get
+(
 "
 password
 "
-]
+None
+)
         
 username
 =
 secret
-[
+.
+get
+(
 "
 username
 "
-]
+None
+)
     
 _CACHED
 [

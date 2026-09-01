@@ -71,6 +71,8 @@ import
 os
 import
 sys
+import
+traceback
 #
 easier
 than
@@ -595,6 +597,25 @@ device_name
 except
 Exception
 :
+        
+print
+(
+f
+"
+Failed
+to
+run
+condprof
+:
+{
+traceback
+.
+format_exc
+(
+)
+}
+"
+)
         
 sys
 .
