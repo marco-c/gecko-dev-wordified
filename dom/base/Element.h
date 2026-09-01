@@ -11700,7 +11700,7 @@ aCustomElementRegistry
 )
 ;
 void
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;

@@ -4848,7 +4848,7 @@ else
 element
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;

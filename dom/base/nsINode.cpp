@@ -27988,7 +27988,7 @@ Null
 cloneElem
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;
@@ -28040,7 +28040,7 @@ it
 cloneElem
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;

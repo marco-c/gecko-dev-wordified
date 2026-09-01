@@ -3651,7 +3651,7 @@ element
 element
 -
 >
-SetKeepCustomElementRegistryNull
+SetNullCustomElementRegistry
 (
 )
 ;
