@@ -16474,6 +16474,12 @@ schemaVersion
 =
 kLatestSchemaVersion
 )
+schemaVersion
+>
+kLatestSchemaVersion
+?
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
+:
 NS_ERROR_FILE_CORRUPTED
 )
 ;
