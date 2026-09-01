@@ -306,6 +306,9 @@ ctor
 :
 :
 ctor
+(
+unsafe
+)
 ]
 fn
 init

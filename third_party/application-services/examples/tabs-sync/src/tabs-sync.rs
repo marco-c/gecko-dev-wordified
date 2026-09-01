@@ -454,10 +454,10 @@ in
 /
 /
 consequence
-TabsStore
+TabsEngine
 :
 :
-prepare_for_sync
+set_clients
 is
 never
 called
