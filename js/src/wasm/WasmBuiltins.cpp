@@ -2141,10 +2141,11 @@ ContNew
 _RoN
 _FailOnNullPtr
 _ThrowReported
-2
+3
 {
 _PTR
 _RoN
+_PTR
 _END
 }
 }
@@ -11989,7 +11990,7 @@ ContNew
 *
 abiType
 =
-Args_General2
+Args_General3
 ;
 MOZ_ASSERT
 (

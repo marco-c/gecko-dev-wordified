@@ -4298,6 +4298,9 @@ instance
 void
 *
 funcRef
+void
+*
+baseFrameStub
 )
 ;
 static
