@@ -222,6 +222,10 @@ mod
 suggest
 ;
 pub
+mod
+worldcup
+;
+pub
 use
 curated_recommendations
 :

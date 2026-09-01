@@ -293,13 +293,6 @@ Ok
 }
 }
 ;
-engine
-.
-sync_started
-(
-)
-?
-;
 if
 let
 Some
@@ -311,7 +304,7 @@ clients
 {
 engine
 .
-set_clients
+prepare_for_sync
 (
 &
 |

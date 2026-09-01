@@ -2791,6 +2791,7 @@ is_err
 )
 ;
 let
+mut
 invalid_pub_key
 =
 [
@@ -2823,6 +2824,13 @@ is_err
 (
 )
 )
+;
+invalid_pub_key
+[
+0
+]
+=
+0x04
 ;
 let
 mut
