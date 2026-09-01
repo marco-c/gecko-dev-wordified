@@ -4813,11 +4813,7 @@ Wide
 arithmetic
 operations
 (
-proposed
-as
-of
-Jan
-2026
+standardized
 )
 0x13
 :

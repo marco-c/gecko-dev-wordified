@@ -579,7 +579,7 @@ wideArithmetic
 {
 status
 :
-NIGHTLY
+RELEASED
 test
 :
 (
