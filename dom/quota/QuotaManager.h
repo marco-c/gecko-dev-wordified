@@ -7011,6 +7011,9 @@ mAllTemporaryOriginsInitialized
 bool
 mCacheUsable
 ;
+bool
+mCacheRequiresFullScan
+;
 std
 :
 :
