@@ -609,6 +609,11 @@ branch
 child
 +
 =
+usize
+:
+:
+from
+(
 less_than
 (
 &
@@ -624,8 +629,7 @@ heap
 child
 ]
 )
-as
-usize
+)
 ;
 /
 /
@@ -753,7 +757,7 @@ adaptor
 that
 merges
 an
-abitrary
+arbitrary
 number
 of
 base
@@ -1154,7 +1158,7 @@ adaptor
 that
 merges
 an
-abitrary
+arbitrary
 number
 of
 base

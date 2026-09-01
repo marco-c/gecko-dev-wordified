@@ -4165,7 +4165,7 @@ can
 be
 used
 to
-preferrably
+preferably
 extract
 the
 left

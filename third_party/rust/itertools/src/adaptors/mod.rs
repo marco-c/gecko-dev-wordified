@@ -1849,6 +1849,11 @@ iter
 size_hint
 (
 )
+usize
+:
+:
+from
+(
 self
 .
 top
@@ -1856,8 +1861,7 @@ top
 is_some
 (
 )
-as
-usize
+)
 )
 }
 fn
@@ -1877,6 +1881,10 @@ count
 (
 )
 +
+usize
+:
+:
+from
 (
 self
 .
@@ -1885,8 +1893,6 @@ top
 is_some
 (
 )
-as
-usize
 )
 }
 fn
@@ -3283,7 +3289,7 @@ from
 a
 reference
 to
-clonable
+cloneable
 iterator
 .
 pub
@@ -3307,6 +3313,8 @@ F
 >
 TakeWhileRef
 <
+'
+_
 I
 F
 >
@@ -3945,7 +3953,7 @@ new
 TupleCombinations
 from
 a
-clonable
+cloneable
 iterator
 .
 pub
@@ -3971,8 +3979,6 @@ where
 I
 :
 Iterator
-+
-Clone
 I
 :
 :
@@ -6715,7 +6721,7 @@ e
 Create
 a
 new
-FilterOk
+FilterMapOk
 iterator
 .
 pub

@@ -212,7 +212,7 @@ new
 Powerset
 from
 a
-clonable
+cloneable
 iterator
 .
 pub

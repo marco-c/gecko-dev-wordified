@@ -135,7 +135,6 @@ is
 a
 tuple
 like
-like
 (
 A
 B

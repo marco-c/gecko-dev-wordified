@@ -220,9 +220,9 @@ MinMaxResult
 :
 {
 self
+MinMax
 NoElements
 OneElement
-MinMax
 }
 ;
 /

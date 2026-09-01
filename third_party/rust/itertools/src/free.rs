@@ -2249,7 +2249,7 @@ use
 itertools
 :
 :
-sorted
+assert_equal
 ;
 /
 /
@@ -2258,7 +2258,7 @@ use
 itertools
 :
 :
-assert_equal
+sorted
 ;
 /
 /
@@ -2407,7 +2407,7 @@ use
 itertools
 :
 :
-sorted_unstable
+assert_equal
 ;
 /
 /
@@ -2416,7 +2416,7 @@ use
 itertools
 :
 :
-assert_equal
+sorted_unstable
 ;
 /
 /

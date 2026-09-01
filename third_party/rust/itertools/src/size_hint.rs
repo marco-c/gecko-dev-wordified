@@ -10,9 +10,6 @@ size_hint
 )
 values
 .
-/
-/
-!
 use
 std
 :
@@ -638,6 +635,15 @@ lower
 upper
 )
 }
+/
+/
+/
+Test
+multiplication
+of
+size
+hints
+.
 #
 [
 test
