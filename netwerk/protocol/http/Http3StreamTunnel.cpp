@@ -926,7 +926,7 @@ mCondition
 (
 void
 )
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 NS_NewRunnableFunction
 (
@@ -1847,7 +1847,7 @@ mCondition
 (
 void
 )
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 NS_NewRunnableFunction
 (

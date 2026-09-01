@@ -748,9 +748,9 @@ TRRThread_locked
 ;
 already_AddRefed
 <
-nsIThread
+nsIEventTarget
 >
-MainThreadOrTRRThread
+MainThreadOrTRRTarget
 (
 bool
 aWithLock

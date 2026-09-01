@@ -5893,7 +5893,7 @@ DNS
 failure
 asynchronously
 .
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 NS_NewRunnableFunction
 (

@@ -4342,7 +4342,7 @@ entry
 =
 aEntry
 ;
-NS_DispatchToCurrentThread
+DispatchToCurrent
 (
 NS_NewRunnableFunction
 (
