@@ -1334,6 +1334,11 @@ endif
 /
 USE_MEMFD_CREATE
 }
+[
+[
+maybe_unused
+]
+]
 static
 bool
 MemfdCanSeal
@@ -1625,9 +1630,11 @@ mozilla
 UniqueFileHandle
 frozen_fd
 ;
-#
-ifdef
-USE_MEMFD_CREATE
+[
+[
+maybe_unused
+]
+]
 auto
 memfdStatus
 =
@@ -1635,6 +1642,9 @@ HaveMemfd
 (
 )
 ;
+#
+ifdef
+USE_MEMFD_CREATE
 if
 (
 memfdStatus
