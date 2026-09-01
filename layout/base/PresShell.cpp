@@ -24621,6 +24621,9 @@ GetComposedDoc
 NS_ENSURE_STATE
 (
 composedDoc
+=
+=
+mDocument
 )
 ;
 NS_ASSERTION
@@ -25434,6 +25437,17 @@ GetPrimaryFrame
 ;
 if
 (
+mContentToScrollTo
+-
+>
+OwnerDoc
+(
+)
+!
+=
+mDocument
+|
+|
 !
 frame
 |
