@@ -2445,11 +2445,6 @@ if
 mForwardingTransaction
 )
 {
-if
-(
-mForwardingTransaction
-)
-{
 DebugOnly
 <
 nsresult
@@ -2482,7 +2477,6 @@ ignored
 "
 )
 ;
-}
 }
 /
 /
