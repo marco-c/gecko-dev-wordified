@@ -97,6 +97,13 @@ ApplicationAccessibleWrap
 /
 LocalAccessible
 virtual
+void
+Shutdown
+(
+)
+override
+;
+virtual
 mozilla
 :
 :
