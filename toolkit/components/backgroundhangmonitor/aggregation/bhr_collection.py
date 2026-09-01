@@ -877,9 +877,6 @@ mergeable
 HLL
 sketch
     
-(
-sparse
-)
 per
 signature
 and
