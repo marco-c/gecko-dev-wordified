@@ -205,14 +205,6 @@ aChromeFlags
 override
 ;
 NS_IMETHOD
-SetChromeFlags
-(
-uint32_t
-aChromeFlags
-)
-override
-;
-NS_IMETHOD
 ShowAsModal
 (
 )
