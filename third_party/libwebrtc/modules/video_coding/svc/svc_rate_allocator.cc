@@ -126,6 +126,11 @@ optional
 #
 include
 <
+span
+>
+#
+include
+<
 vector
 >
 #
@@ -856,11 +861,12 @@ DistributeAllocationToTemporalLayers
 std
 :
 :
-vector
+span
 <
+const
 DataRate
 >
-spatial_layer_birates
+spatial_layer_bitrates
 size_t
 first_active_layer
 size_t
@@ -913,7 +919,7 @@ sl_idx
 ;
 sl_idx
 <
-spatial_layer_birates
+spatial_layer_bitrates
 .
 size
 (
@@ -936,7 +942,7 @@ temporal_layer_bitrates
 SplitBitrate
 (
 num_temporal_layers
-spatial_layer_birates
+spatial_layer_bitrates
 [
 sl_idx
 ]
