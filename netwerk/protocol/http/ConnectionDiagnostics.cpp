@@ -771,6 +771,8 @@ u
 "
 PRIu32
 "
+%
+s
 \
 n
 "
@@ -779,6 +781,18 @@ mCoalescingKeys
 [
 i
 ]
+.
+mHash
+mCoalescingKeys
+[
+i
+]
+.
+mString
+.
+get
+(
+)
 )
 ;
 }
