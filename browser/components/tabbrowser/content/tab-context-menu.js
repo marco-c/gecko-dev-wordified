@@ -7316,6 +7316,11 @@ getAttribute
 usercontextid
 "
 )
+containerSource
+:
+"
+tab_context_menu
+"
 }
 )
 ;
@@ -7688,6 +7693,15 @@ _tPos
 +
 1
 triggeringPrincipal
+eventDetail
+:
+{
+containerSource
+:
+"
+tab_context_menu
+"
+}
 }
 )
 ;
