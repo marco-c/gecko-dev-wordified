@@ -888,7 +888,7 @@ size
 QuadPart
 ;
 }
-void
+int
 ListFilesInDirRecursive
 (
 const
@@ -941,6 +941,7 @@ Epoch
 E
 )
 return
+0
 ;
 std
 :
@@ -1038,6 +1039,7 @@ GetLastError
 ERROR_FILE_NOT_FOUND
 )
 return
+0
 ;
 Printf
 (
@@ -1062,10 +1064,8 @@ c_str
 )
 )
 ;
-exit
-(
+return
 1
-)
 ;
 }
 do
@@ -1161,6 +1161,9 @@ cFileName
 )
 continue
 ;
+int
+Res
+=
 ListFilesInDirRecursive
 (
 FileName
@@ -1168,6 +1171,16 @@ Epoch
 V
 false
 )
+;
+if
+(
+Res
+!
+=
+0
+)
+return
+Res
 ;
 }
 else
@@ -1249,6 +1262,9 @@ TopDir
 Epoch
 =
 E
+;
+return
+0
 ;
 }
 void
