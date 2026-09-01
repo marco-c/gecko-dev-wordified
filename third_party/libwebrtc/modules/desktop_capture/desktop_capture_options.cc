@@ -112,6 +112,12 @@ pragma
 :
 keep
 #
+if
+defined
+(
+WEBRTC_USE_X11
+)
+#
 include
 "
 modules
@@ -126,6 +132,8 @@ shared_x_display
 .
 h
 "
+#
+endif
 #
 if
 defined
