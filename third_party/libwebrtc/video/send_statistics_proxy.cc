@@ -2006,7 +2006,7 @@ uma_name
 =
 ssb
 .
-str
+Release
 (
 )
 ;
