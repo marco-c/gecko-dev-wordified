@@ -15187,14 +15187,6 @@ input
 isPrivate
 :
 true
-onFirstResult
-(
-)
-{
-return
-false
-;
-}
 getSearchSource
 (
 )

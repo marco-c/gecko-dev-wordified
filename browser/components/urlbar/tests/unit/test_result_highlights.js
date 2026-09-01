@@ -354,14 +354,6 @@ isPrivate
 context
 .
 isPrivate
-onFirstResult
-(
-)
-{
-return
-false
-;
-}
 getSearchSource
 (
 )
