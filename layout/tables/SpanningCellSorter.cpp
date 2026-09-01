@@ -104,16 +104,6 @@ SpanningCellSorter
 =
 default
 ;
-SpanningCellSorter
-:
-:
-~
-SpanningCellSorter
-(
-)
-=
-default
-;
 bool
 SpanningCellSorter
 :

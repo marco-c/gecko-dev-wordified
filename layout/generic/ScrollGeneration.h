@@ -185,6 +185,8 @@ use
 ScrollGeneration
 (
 )
+=
+default
 ;
 uint64_t
 Raw
@@ -286,6 +288,9 @@ private
 :
 uint64_t
 mValue
+{
+0
+}
 ;
 }
 ;
