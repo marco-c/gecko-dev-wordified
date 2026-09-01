@@ -545,7 +545,7 @@ void
 nsIConstraintValidation
 :
 :
-SetValidityState
+DoSetValidityState
 (
 ValidityStateType
 aState
@@ -553,6 +553,17 @@ bool
 aValue
 )
 {
+MOZ_ASSERT
+(
+GetValidityState
+(
+aState
+)
+!
+=
+aValue
+)
+;
 bool
 previousValidity
 =
