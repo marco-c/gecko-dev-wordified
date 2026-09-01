@@ -333,9 +333,6 @@ layerVisibleRects
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -572,9 +569,6 @@ HandledByContent
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -662,9 +656,6 @@ Contain
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -754,9 +745,6 @@ None
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -846,9 +834,6 @@ None
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -936,9 +921,6 @@ Auto
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1038,9 +1020,6 @@ HandledByContent
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1123,9 +1102,6 @@ CSSPoint
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1213,9 +1189,6 @@ CSSPoint
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1299,9 +1272,6 @@ CSSPoint
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -1390,9 +1360,6 @@ CSSPoint
 {
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -2172,9 +2139,6 @@ layerVisibleRects
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -2261,9 +2225,6 @@ APZC
 .
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;
@@ -2357,9 +2318,6 @@ APZC
 .
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -2619,9 +2577,6 @@ HandledByContent
 .
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -2860,9 +2815,6 @@ Unhandled
 .
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 {
 CompositorHitTestFlags
@@ -3052,9 +3004,6 @@ Unhandled
 .
 QueueMockHitResult
 (
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 )
 ;

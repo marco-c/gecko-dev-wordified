@@ -108,9 +108,6 @@ ScrollableLayerGuid
 ViewID
 scrollId
 =
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 ;
 TestAsyncPanZoomController

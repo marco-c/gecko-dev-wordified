@@ -2573,9 +2573,6 @@ ScrollableLayerGuid
 ViewID
 scrollId
 =
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 ;
 ScreenIntPoint
@@ -3128,9 +3125,6 @@ ScrollableLayerGuid
 ViewID
 scrollId
 =
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 ;
 ScreenIntPoint
@@ -3717,9 +3711,6 @@ layerVisibleRect
 SetScrollableFrameMetrics
 (
 root
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 CSSRect
 (
@@ -3736,9 +3727,6 @@ layers
 [
 1
 ]
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
@@ -3868,9 +3856,6 @@ ScrollableLayerGuid
 ViewID
 subframeScrollId
 =
-ScrollableLayerGuid
-:
-:
 START_SCROLL_ID
 +
 1
