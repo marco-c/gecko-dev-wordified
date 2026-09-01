@@ -4117,15 +4117,6 @@ take
 (
 )
 ;
-mozilla
-:
-:
-AutoWriteLock
-lock
-(
-mLock
-)
-;
 if
 (
 mCharacterMap
