@@ -114,16 +114,9 @@ MyClass
 aOther
 )
 const
-{
-return
-mValue
 =
-=
-aOther
-.
-mValue
+default
 ;
-}
 MyClass
 operator
 +

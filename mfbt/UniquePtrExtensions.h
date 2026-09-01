@@ -1074,7 +1074,7 @@ when
 the
 conversion
 is
-ambiguoug
+ambiguous
 (
 the
 XP_WIN
@@ -1093,16 +1093,9 @@ FileHandleHelper
 aOther
 )
 const
-{
-return
-mHandle
 =
-=
-aOther
-.
-mHandle
+default
 ;
-}
 private
 :
 FileHandleType
