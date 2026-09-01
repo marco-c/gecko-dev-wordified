@@ -5587,11 +5587,6 @@ isThrowingDebuggeeWouldRun
 (
 )
 ;
-bool
-isClosingGenerator
-(
-)
-;
 void
 setPendingException
 (
