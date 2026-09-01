@@ -1812,7 +1812,9 @@ i
 +
 )
 {
+const
 CookieStruct
+&
 cookieStruct
 =
 aCookiesList
