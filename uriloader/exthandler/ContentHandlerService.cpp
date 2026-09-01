@@ -801,7 +801,9 @@ nsIHandlerInfo
 aHandlerInfo
 )
 {
+const
 HandlerApp
+&
 preferredApplicationHandler
 =
 info
@@ -1096,13 +1098,12 @@ rv
 ;
 }
 RefPtr
+mimeInfo
+=
+MakeRefPtr
 <
 nsChildProcessMIMEInfo
 >
-mimeInfo
-=
-new
-nsChildProcessMIMEInfo
 (
 returnedInfo
 .
