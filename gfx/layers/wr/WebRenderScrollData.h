@@ -301,7 +301,7 @@ for
 WebRenderScrollData
 :
 :
-Validate
+ValidateShape
 (
 )
 .
@@ -1467,7 +1467,7 @@ content
 process
 .
 bool
-Validate
+ValidateShape
 (
 )
 const
