@@ -22866,9 +22866,11 @@ static
 bool
 IsTransformed
 (
+const
 nsIFrame
 *
 aForFrame
+const
 nsIFrame
 *
 aTopFrame
