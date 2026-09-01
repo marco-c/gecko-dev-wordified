@@ -8225,19 +8225,6 @@ GetInputEventTargetElement
 )
 )
 {
-RefPtr
-<
-Document
->
-document
-=
-target
--
->
-OwnerDoc
-(
-)
-;
 DebugOnly
 <
 nsresult
@@ -8249,7 +8236,6 @@ nsContentUtils
 :
 DispatchTrustedEvent
 (
-document
 target
 u
 "

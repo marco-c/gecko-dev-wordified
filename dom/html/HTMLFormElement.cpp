@@ -6712,17 +6712,6 @@ defaultAction
 =
 true
 ;
-const
-RefPtr
-<
-Document
->
-doc
-=
-OwnerDoc
-(
-)
-;
 nsresult
 rv
 =
@@ -6731,7 +6720,6 @@ nsContentUtils
 :
 DispatchEventOnlyToChrome
 (
-doc
 static_cast
 <
 nsINode

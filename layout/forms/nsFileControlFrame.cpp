@@ -1872,12 +1872,6 @@ nsContentUtils
 DispatchTrustedEvent
 (
 inputElement
--
->
-OwnerDoc
-(
-)
-inputElement
 u
 "
 change
