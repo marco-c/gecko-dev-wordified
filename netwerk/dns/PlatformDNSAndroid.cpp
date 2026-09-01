@@ -349,9 +349,9 @@ aResult
 uint32_t
 &
 aTTL
-nsACString
+HTTPSAliasTarget
 &
-aAliasName
+aAlias
 )
 {
 DNSPacket
@@ -835,7 +835,7 @@ host
 packet
 aResult
 aTTL
-aAliasName
+aAlias
 )
 ;
 }

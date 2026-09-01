@@ -4495,6 +4495,10 @@ Truncate
 (
 )
 ;
+mCnameIsHTTPSAlias
+=
+false
+;
 /
 /
 Reset
@@ -6167,6 +6171,10 @@ aCname
 parsed
 .
 mSvcDomainName
+;
+mCnameIsHTTPSAlias
+=
+true
 ;
 /
 /
