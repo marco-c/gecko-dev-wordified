@@ -8525,7 +8525,11 @@ GetWindowGlobalChild
 )
 )
 {
-ipcDoc
+RefPtr
+<
+DocAccessibleChild
+>
+newIpcDoc
 =
 new
 DocAccessibleChild
@@ -8539,7 +8543,7 @@ childDoc
 >
 SetIPCDoc
 (
-ipcDoc
+newIpcDoc
 )
 ;
 wgc
@@ -8547,7 +8551,7 @@ wgc
 >
 SendPDocAccessibleConstructor
 (
-ipcDoc
+newIpcDoc
 id
 childDoc
 -
