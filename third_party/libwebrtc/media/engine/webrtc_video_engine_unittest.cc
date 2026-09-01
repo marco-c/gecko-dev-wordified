@@ -51637,7 +51637,7 @@ height
 ;
 stats
 .
-frame_counts
+received_frame_counts
 .
 key_frames
 =
@@ -51645,7 +51645,7 @@ key_frames
 ;
 stats
 .
-frame_counts
+received_frame_counts
 .
 delta_frames
 =
@@ -51662,6 +51662,14 @@ stats
 frames_decoded
 =
 14
+;
+stats
+.
+decoded_frame_counts
+.
+key_frames
+=
+4
 ;
 stats
 .
@@ -52031,13 +52039,13 @@ int
 (
 stats
 .
-frame_counts
+received_frame_counts
 .
 key_frames
 +
 stats
 .
-frame_counts
+received_frame_counts
 .
 delta_frames
 )
@@ -52091,7 +52099,7 @@ int
 (
 stats
 .
-frame_counts
+decoded_frame_counts
 .
 key_frames
 )
