@@ -1879,6 +1879,14 @@ it
 to
 adapt
 .
+ABSL_DEPRECATED
+(
+"
+Use
+OnReceivedUplinkAllocation
+instead
+"
+)
 virtual
 void
 OnReceivedUplinkBandwidth
