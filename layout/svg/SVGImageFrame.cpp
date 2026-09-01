@@ -2612,10 +2612,7 @@ context
 (
 Some
 (
-CSSIntSize
-:
-:
-Ceil
+CSSSize
 (
 width
 height
@@ -4216,10 +4213,7 @@ SetViewportSize
 (
 Some
 (
-CSSIntSize
-:
-:
-Ceil
+CSSSize
 (
 width
 height

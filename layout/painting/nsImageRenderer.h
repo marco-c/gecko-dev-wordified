@@ -1590,7 +1590,7 @@ mozilla
 :
 Maybe
 <
-nsSize
+CSSSize
 >
 &
 aSVGViewportSize

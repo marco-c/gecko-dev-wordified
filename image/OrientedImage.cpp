@@ -1830,7 +1830,7 @@ width
 and
 height
 :
-CSSIntSize
+CSSSize
 newViewport
 (
 oldViewport

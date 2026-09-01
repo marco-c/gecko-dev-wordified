@@ -73,6 +73,13 @@ h
 #
 include
 "
+Units
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -292,7 +299,7 @@ this
 argument
 should
 be
-pass
+passed
 as
 Nothing
 (
@@ -315,7 +322,7 @@ aClip
 const
 Maybe
 <
-nsSize
+CSSSize
 >
 &
 aSVGViewportSize
@@ -340,7 +347,7 @@ aClip
 const
 Maybe
 <
-nsSize
+CSSSize
 >
 &
 aSVGViewportSize
