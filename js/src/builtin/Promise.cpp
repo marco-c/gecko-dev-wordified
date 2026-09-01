@@ -1649,9 +1649,6 @@ the
 keys
 array
 .
-#
-ifdef
-NIGHTLY_BUILD
 class
 PromiseCombinatorKeyedDataHolder
 :
@@ -1828,8 +1825,6 @@ SlotsCount
 )
 }
 ;
-#
-endif
 /
 /
 Smart
@@ -2793,9 +2788,6 @@ return
 dataHolder
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 PromiseCombinatorKeyedDataHolder
 *
 PromiseCombinatorKeyedDataHolder
@@ -2966,8 +2958,6 @@ return
 dataHolder
 ;
 }
-#
-endif
 namespace
 {
 /
@@ -26229,9 +26219,6 @@ all
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -26831,8 +26818,6 @@ allSettledKeyed
 )
 ;
 }
-#
-endif
 [
 [
 nodiscard
@@ -37642,9 +37627,6 @@ stack
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 *
 *
@@ -41555,8 +41537,6 @@ processAllSettledRejectValue
 )
 ;
 }
-#
-endif
 /
 *
 *
@@ -60527,9 +60507,6 @@ Promise_static_allSettled
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -60548,8 +60525,6 @@ Promise_static_allSettledKeyed
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
