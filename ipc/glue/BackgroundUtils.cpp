@@ -3447,12 +3447,6 @@ redirectChain
 aLoadInfo
 -
 >
-GetHasInjectedCookieForCookieBannerHandling
-(
-)
-aLoadInfo
--
->
 GetSchemelessInput
 (
 )
@@ -3614,6 +3608,12 @@ aLoadInfo
 -
 >
 GetIsMetaRefresh
+(
+)
+aLoadInfo
+-
+>
+GetActivatedFromNavigationalPrefetch
 (
 )
 aLoadInfo
