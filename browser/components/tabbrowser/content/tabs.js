@@ -9959,11 +9959,14 @@ lazy
 we
 need
 to
-_insertBrowser
+call
+insertBrowser
+(
+)
 in
+/
+/
 order
-/
-/
 to
 have
 a
@@ -10036,7 +10039,7 @@ null
 }
 gBrowser
 .
-_insertBrowser
+insertBrowser
 (
 aTab
 )

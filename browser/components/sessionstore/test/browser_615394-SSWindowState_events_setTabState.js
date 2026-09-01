@@ -388,7 +388,7 @@ restore
 .
 gBrowser
 .
-_insertBrowser
+insertBrowser
 (
 tab
 )
