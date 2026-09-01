@@ -89,7 +89,6 @@ Action
 /
 *
 *
-*
 Actions
 for
 the
@@ -105,7 +104,6 @@ SummarizeSettingsAction
 :
 Action
 /
-*
 *
 *
 The
@@ -125,7 +123,6 @@ ViewAppeared
 :
 SummarizeSettingsAction
 /
-*
 *
 *
 The
@@ -160,7 +157,6 @@ SummarizeSettingsAction
 /
 *
 *
-*
 The
 shake
 sensitivity
@@ -183,7 +179,6 @@ SummarizeSettingsAction
 /
 *
 *
-*
 The
 user
 toggled
@@ -200,7 +195,6 @@ SummarizePagesPreferenceToggled
 :
 SummarizeSettingsAction
 /
-*
 *
 *
 The
@@ -222,7 +216,6 @@ SummarizeSettingsAction
 /
 *
 *
-*
 The
 user
 clicked
@@ -236,5 +229,30 @@ link
 data
 object
 LearnMoreClicked
+:
+SummarizeSettingsAction
+/
+*
+*
+The
+host
+opened
+the
+learn
+more
+link
+so
+the
+pending
+request
+can
+be
+cleared
+.
+*
+/
+data
+object
+LearnMoreHandled
 :
 SummarizeSettingsAction
