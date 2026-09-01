@@ -170,6 +170,12 @@ defined
 (
 XP_WIN
 )
+/
+/
+clang
+-
+format
+off
 #
 include
 "
@@ -186,6 +192,12 @@ psapi
 .
 h
 >
+/
+/
+clang
+-
+format
+on
 #
 elif
 defined
@@ -4953,6 +4965,7 @@ bufferAllocator
 allocMediumAligned
 (
 bytes
+false
 false
 )
 ;

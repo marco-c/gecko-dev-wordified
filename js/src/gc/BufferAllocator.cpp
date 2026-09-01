@@ -13405,6 +13405,7 @@ bumpAlloc
 bytes
 sizeClass
 MaxSmallAllocClass
+nurseryOwned
 )
 ;
 if
@@ -13422,6 +13423,7 @@ retrySmallAlloc
 (
 bytes
 sizeClass
+nurseryOwned
 inGC
 )
 ;
@@ -13593,6 +13595,8 @@ bytes
 size_t
 sizeClass
 bool
+nurseryOwned
+bool
 inGC
 )
 {
@@ -13611,6 +13615,7 @@ bumpAlloc
 bytes
 sizeClass
 MaxSmallAllocClass
+nurseryOwned
 )
 ;
 }
@@ -13628,6 +13633,7 @@ return
 allocNewSmallRegion
 (
 inGC
+nurseryOwned
 )
 ;
 }
@@ -13637,6 +13643,7 @@ refillFreeListsAndRetryAlloc
 (
 sizeClass
 MaxSmallAllocClass
+nurseryOwned
 alloc
 growHeap
 )
@@ -13649,6 +13656,8 @@ BufferAllocator
 allocNewSmallRegion
 (
 bool
+nurseryOwned
+bool
 inGC
 )
 {
@@ -13659,6 +13668,7 @@ ptr
 allocMediumAligned
 (
 SmallRegionSize
+nurseryOwned
 inGC
 )
 ;
@@ -13958,6 +13968,7 @@ bumpAlloc
 bytes
 sizeClass
 MaxMediumAllocClass
+nurseryOwned
 )
 ;
 if
@@ -13975,6 +13986,7 @@ retryMediumAlloc
 (
 bytes
 sizeClass
+nurseryOwned
 inGC
 )
 ;
@@ -14014,6 +14026,8 @@ bytes
 size_t
 sizeClass
 bool
+nurseryOwned
+bool
 inGC
 )
 {
@@ -14032,6 +14046,7 @@ bumpAlloc
 bytes
 sizeClass
 MaxMediumAllocClass
+nurseryOwned
 )
 ;
 }
@@ -14049,6 +14064,7 @@ return
 stealOrAllocNewChunk
 (
 sizeClass
+nurseryOwned
 inGC
 )
 ;
@@ -14059,6 +14075,7 @@ refillFreeListsAndRetryAlloc
 (
 sizeClass
 MaxMediumAllocClass
+nurseryOwned
 alloc
 growHeap
 )
@@ -14082,6 +14099,8 @@ size_t
 sizeClass
 size_t
 maxSizeClass
+bool
+nurseryOwned
 Alloc
 &
 &
@@ -14103,6 +14122,7 @@ refillFreeLists
 (
 sizeClass
 maxSizeClass
+nurseryOwned
 growHeap
 )
 ;
@@ -14168,6 +14188,8 @@ size_t
 sizeClass
 size_t
 maxSizeClass
+bool
+nurseryOwned
 GrowHeap
 &
 &
@@ -14208,6 +14230,7 @@ useAvailableChunk
 (
 sizeClass
 maxSizeClass
+nurseryOwned
 )
 )
 {
@@ -14361,6 +14384,8 @@ size_t
 sizeClass
 size_t
 maxSizeClass
+bool
+nurseryOwned
 )
 {
 return
@@ -15098,6 +15123,8 @@ size_t
 sizeClass
 size_t
 maxSizeClass
+bool
+nurseryOwned
 )
 {
 MOZ_ASSERT
@@ -15486,6 +15513,8 @@ allocMediumAligned
 size_t
 bytes
 bool
+nurseryOwned
+bool
 inGC
 )
 {
@@ -15541,6 +15570,7 @@ alloc
 alignedAlloc
 (
 sizeClass
+nurseryOwned
 )
 ;
 if
@@ -15557,6 +15587,7 @@ alloc
 retryAlignedAlloc
 (
 sizeClass
+nurseryOwned
 inGC
 )
 ;
@@ -15593,6 +15624,8 @@ retryAlignedAlloc
 (
 size_t
 sizeClass
+bool
+nurseryOwned
 bool
 inGC
 )
@@ -15632,6 +15665,7 @@ return
 alignedAlloc
 (
 sizeClass
+nurseryOwned
 )
 ;
 }
@@ -15649,6 +15683,7 @@ return
 stealOrAllocNewChunk
 (
 expandedSizeClass
+nurseryOwned
 inGC
 )
 ;
@@ -15659,6 +15694,7 @@ refillFreeListsAndRetryAlloc
 (
 expandedSizeClass
 MaxMediumAllocClass
+nurseryOwned
 alloc
 growHeap
 )
@@ -15673,6 +15709,8 @@ alignedAlloc
 (
 size_t
 sizeClass
+bool
+nurseryOwned
 )
 {
 freeLists
@@ -16949,6 +16987,8 @@ stealOrAllocNewChunk
 size_t
 sizeClass
 bool
+nurseryOwned
+bool
 inGC
 )
 {
@@ -16987,6 +17027,7 @@ if
 (
 tryToStealQueuedChunk
 (
+nurseryOwned
 sizeClass
 )
 )
@@ -16999,6 +17040,7 @@ true
 return
 allocNewChunk
 (
+nurseryOwned
 inGC
 )
 ;
@@ -17009,6 +17051,8 @@ BufferAllocator
 :
 tryToStealQueuedChunk
 (
+bool
+nurseryOwned
 size_t
 sizeClass
 )
@@ -17333,6 +17377,8 @@ BufferAllocator
 :
 allocNewChunk
 (
+bool
+nurseryOwned
 bool
 inGC
 )
