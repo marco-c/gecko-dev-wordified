@@ -5181,7 +5181,7 @@ true
 {
 while
 (
-1
+true
 )
 {
 MSG

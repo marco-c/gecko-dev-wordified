@@ -237,13 +237,9 @@ public
 ProfilerMarkerChannelHook
 (
 )
-:
-mRefCnt
-(
-0
-)
-{
-}
+=
+default
+;
 /
 /
 IUnknown
@@ -667,6 +663,9 @@ Atomic
 ULONG
 >
 mRefCnt
+{
+0
+}
 ;
 }
 ;

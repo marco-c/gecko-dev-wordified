@@ -591,8 +591,9 @@ private
 MessagePumpForNonMainUIThreads
 (
 )
-{
-}
+=
+default
+;
 bool
 mInWait
 MOZ_GUARDED_BY
