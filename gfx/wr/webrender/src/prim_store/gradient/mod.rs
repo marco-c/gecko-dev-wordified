@@ -541,7 +541,7 @@ LinearGradientTemplate
 >
 (
 )
-72
+88
 "
 LinearGradientTemplate
 size
@@ -563,7 +563,7 @@ LinearGradientKey
 >
 (
 )
-72
+88
 "
 LinearGradientKey
 size
@@ -607,7 +607,7 @@ RadialGradientTemplate
 >
 (
 )
-80
+96
 "
 RadialGradientTemplate
 size
@@ -629,7 +629,7 @@ RadialGradientKey
 >
 (
 )
-72
+96
 "
 RadialGradientKey
 size
@@ -673,7 +673,7 @@ ConicGradientTemplate
 >
 (
 )
-80
+96
 "
 ConicGradientTemplate
 size
@@ -695,7 +695,7 @@ ConicGradientKey
 >
 (
 )
-72
+96
 "
 ConicGradientKey
 size
