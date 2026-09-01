@@ -2849,6 +2849,7 @@ CustomElementRegistry
 >
 GetScopedRegistry
 (
+const
 nsINode
 &
 )

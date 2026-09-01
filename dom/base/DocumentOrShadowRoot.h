@@ -1440,6 +1440,7 @@ CustomElementRegistry
 GetCustomElementRegistry
 (
 )
+const
 ;
 protected
 :

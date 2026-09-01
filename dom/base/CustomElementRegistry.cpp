@@ -4529,6 +4529,7 @@ nsRefPtrHashtable
 <
 nsPtrHashKey
 <
+const
 nsINode
 >
 CustomElementRegistry
@@ -4555,6 +4556,7 @@ CustomElementRegistry
 :
 GetScopedRegistry
 (
+const
 nsINode
 &
 aNode

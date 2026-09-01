@@ -954,6 +954,9 @@ namespace
 dom
 {
 class
+BooleanOrImportNodeOptions
+;
+class
 ElementCreationOptionsOrString
 ;
 }
@@ -14676,6 +14679,7 @@ CustomElementRegistry
 GetEffectiveGlobalCustomElementRegistry
 (
 )
+const
 ;
 /
 /
@@ -22187,8 +22191,10 @@ ImportNode
 nsINode
 &
 aNode
-bool
-aDeep
+const
+BooleanOrImportNodeOptions
+&
+aOptions
 ErrorResult
 &
 rv
@@ -37796,6 +37802,13 @@ class
 SpeculationRules
 &
 SpeculationRules
+(
+)
+;
+class
+SpeculationRules
+*
+GetSpeculationRules
 (
 )
 ;

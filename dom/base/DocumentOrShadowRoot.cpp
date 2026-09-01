@@ -5353,6 +5353,7 @@ DocumentOrShadowRoot
 GetCustomElementRegistry
 (
 )
+const
 {
 /
 /
@@ -5418,6 +5419,7 @@ registry
 ;
 }
 }
+const
 Document
 *
 doc
@@ -5497,6 +5499,7 @@ custom
 element
 registry
 .
+const
 ShadowRoot
 *
 root
