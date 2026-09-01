@@ -85,6 +85,9 @@ connection
 the
 server
 Firefox
+the
+control
+channel
 and
 the
 JSON
@@ -117,6 +120,11 @@ from
 .
 import
 downloads
+from
+.
+control
+import
+ControlServer
 from
 .
 logs
@@ -441,6 +449,13 @@ log_dir
 headless
 )
     
+control
+=
+ControlServer
+(
+instance
+)
+    
 log
 (
 f
@@ -465,6 +480,12 @@ start
     
 try
 :
+        
+control
+.
+start
+(
+)
         
 description
 =
@@ -491,6 +512,14 @@ host
 instance
 .
 host
+            
+"
+control
+"
+:
+control
+.
+url
             
 "
 runtime
@@ -606,6 +635,12 @@ config_path
     
 finally
 :
+        
+control
+.
+stop
+(
+)
         
 instance
 .
