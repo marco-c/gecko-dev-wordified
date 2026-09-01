@@ -3287,6 +3287,12 @@ ContentParentId
 aNamespace
 /
 *
+aContentBridgeNamespace
+*
+/
+0
+/
+*
 aIsRoot
 *
 /
@@ -4322,6 +4328,8 @@ ContentParentId
 aChildId
 uint32_t
 aNamespace
+uint32_t
+aContentBridgeNamespace
 )
 {
 CompositorManagerParent
@@ -4338,6 +4346,7 @@ aEndpoint
 )
 aChildId
 aNamespace
+aContentBridgeNamespace
 /
 *
 aIsRoot
