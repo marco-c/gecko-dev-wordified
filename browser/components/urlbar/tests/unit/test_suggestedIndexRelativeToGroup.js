@@ -2130,7 +2130,7 @@ findIndex
 r
 =
 >
-UrlbarUtils
+UrlbarShared
 .
 getResultGroup
 (
