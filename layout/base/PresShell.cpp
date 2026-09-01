@@ -64139,8 +64139,11 @@ OwnerDoc
 :
 nullptr
 ;
+const
+RefPtr
+<
 Document
-*
+>
 root
 =
 nsContentUtils

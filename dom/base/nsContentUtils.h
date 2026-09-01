@@ -11800,6 +11800,7 @@ DispatchEvent
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchChromeEvent
@@ -12058,7 +12059,7 @@ DispatchEvent
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchEventOnlyToChrome
@@ -12095,7 +12096,7 @@ aDefaultAction
 nullptr
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
 DispatchEventOnlyToChrome

@@ -222,10 +222,7 @@ TapType
 =
 GeckoContentController_TapType
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-GeckoContentController
-)
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 /
 *
 *
@@ -907,6 +904,7 @@ event
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 NotifyMozMouseScrollEvent

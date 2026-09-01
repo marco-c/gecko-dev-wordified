@@ -515,6 +515,7 @@ nsString
 aFilterList
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 Open
 (

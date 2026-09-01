@@ -34628,8 +34628,8 @@ bug
 .
 if
 (
-auto
-*
+const
+RefPtr
 input
 =
 HTMLInputElement

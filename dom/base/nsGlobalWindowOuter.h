@@ -1725,6 +1725,7 @@ Outer
 windows
 only
 .
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchDOMWindowCreated
 (

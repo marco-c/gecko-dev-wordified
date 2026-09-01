@@ -461,7 +461,16 @@ nsString
 aEvent
 )
 {
+const
+RefPtr
+<
+GeckoContentController
+>
+controller
+=
 mController
+;
+controller
 -
 >
 NotifyMozMouseScrollEvent

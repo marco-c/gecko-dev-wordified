@@ -11197,6 +11197,7 @@ No
 Yes
 }
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 AttachAndSetUAShadowRoot
 (
@@ -11243,6 +11244,7 @@ the
 existing
 widget
 .
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyUAWidgetSetupOrChange
 (
@@ -11279,6 +11281,7 @@ the
 shadow
 root
 .
+MOZ_CAN_RUN_SCRIPT
 void
 TeardownUAShadowRoot
 (

@@ -473,6 +473,7 @@ nsAString
 aSpecialDirectory
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 MaybeBlockFilePicker
 (

@@ -110,11 +110,6 @@ nsRefreshObservers
 .
 h
 "
-#
-include
-<
-functional
->
 class
 nsIContent
 ;
@@ -1075,6 +1070,7 @@ event
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 void
 NotifyMozMouseScrollEvent

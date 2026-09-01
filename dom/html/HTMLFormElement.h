@@ -1987,6 +1987,7 @@ Element
 aSubmitter
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Submit
 (
@@ -2335,6 +2336,7 @@ the
 submit
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoSubmit
 (
@@ -2416,6 +2418,7 @@ submission
 object
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SubmitSubmission
 (
@@ -2485,6 +2488,7 @@ cancelled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DispatchBeforeSubmitChromeOnlyEvent
 (
@@ -2808,6 +2812,7 @@ script
 )
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 FlushPendingSubmission
 (

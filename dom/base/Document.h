@@ -9456,6 +9456,7 @@ RemoveMediaElementWithMSE
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DoNotifyPossibleTitleChange
 (
@@ -11874,6 +11875,7 @@ event
 when
 necessary
 .
+MOZ_CAN_RUN_SCRIPT
 ElementReadyCheckResult
 FullscreenElementReadyCheck
 (
@@ -12027,6 +12029,7 @@ false
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 void
 RequestFullscreenInContentProcess
 (
@@ -13079,6 +13082,7 @@ handled
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 static
 bool
 HandlePendingFullscreenRequests
@@ -26861,6 +26865,7 @@ form
 is
 submitted
 .
+MOZ_CAN_RUN_SCRIPT
 void
 NotifyFetchOrXHRSuccess
 (
@@ -29158,7 +29163,7 @@ nothing
 gets
 changed
 .
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 bool
 ApplyFullscreen
 (
