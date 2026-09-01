@@ -4630,6 +4630,16 @@ fc
 .
 mvc
 ;
+xd
+-
+>
+above_context
+=
+cm
+-
+>
+above_context
+;
 memset
 (
 cm
