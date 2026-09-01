@@ -921,3 +921,7 @@ test
 /
 namespace
 webrtc
+DEFINE_JNI
+(
+NativeTestWebrtc
+)

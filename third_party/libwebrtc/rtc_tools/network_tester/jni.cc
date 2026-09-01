@@ -370,3 +370,7 @@ UnwrapCurrentThread
 /
 namespace
 webrtc
+DEFINE_JNI
+(
+NetworkTester
+)
