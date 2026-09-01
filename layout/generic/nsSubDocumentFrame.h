@@ -1040,11 +1040,6 @@ MaybeUpdateEmbedderColorScheme
 )
 ;
 void
-MaybeUpdateEmbedderScrollbarInset
-(
-)
-;
-void
 MaybeUpdateEmbedderZoom
 (
 )

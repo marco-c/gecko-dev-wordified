@@ -573,7 +573,6 @@ ScrollSnapStop
 ScrollSnapStrictness
 ScrollSnapType
 ScrollbarGutter
-ScrollbarInset
 TouchAction
 WillChange
 WritingModeProperty
