@@ -1451,6 +1451,27 @@ traces
             
 "
 -
+k
+"
+#
+Use
+monotonic
+clock
+same
+clock
+as
+marker
+file
+and
+jitdump
+timestamps
+            
+"
+mono
+"
+            
+"
+-
 F
 "
 #
