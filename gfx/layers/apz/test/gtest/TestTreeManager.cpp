@@ -3662,9 +3662,6 @@ layer
 an
 APZC
 .
-ScrollableLayerGuid
-:
-:
 ViewID
 scrollId
 =

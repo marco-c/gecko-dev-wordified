@@ -102,9 +102,6 @@ ScopedLayerTreeRegistration
 >
 registration
 ;
-ScrollableLayerGuid
-:
-:
 ViewID
 scrollId
 =
