@@ -6722,6 +6722,7 @@ data
 for
 (
 auto
+&
 kv
 :
 connections
