@@ -7224,7 +7224,9 @@ no
 conversion
 needed
 .
+const
 nsRect
+&
 internalRect
 =
 *
