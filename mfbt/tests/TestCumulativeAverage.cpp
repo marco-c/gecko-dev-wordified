@@ -179,9 +179,16 @@ MyClass
 aOther
 )
 const
+{
+return
+mValue
 =
-default
+=
+aOther
+.
+mValue
 ;
+}
 MyClass
 operator
 -

@@ -1945,9 +1945,16 @@ ThreadSafeWeakPtr
 aOther
 )
 const
+{
+return
+mRef
 =
-default
+=
+aOther
+.
+mRef
 ;
+}
 bool
 operator
 =
