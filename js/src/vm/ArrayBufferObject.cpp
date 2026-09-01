@@ -12357,7 +12357,7 @@ uint8_t
 *
 >
 (
-getFixedSlot
+getFixedSlotTyped
 (
 DATA_SLOT
 )
@@ -12391,7 +12391,7 @@ uint8_t
 :
 unshared
 (
-getFixedSlot
+getFixedSlotTyped
 (
 DATA_SLOT
 )
@@ -12739,7 +12739,7 @@ BufferContents
 contents
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 DATA_SLOT
 PrivateValue
@@ -12820,7 +12820,7 @@ const
 return
 size_t
 (
-getFixedSlot
+getFixedSlotTyped
 (
 BYTE_LENGTH_SLOT
 )
@@ -12910,7 +12910,7 @@ ArrayBufferObject
 ByteLengthLimit
 )
 ;
-setFixedSlot
+setFixedSlotTyped
 (
 BYTE_LENGTH_SLOT
 PrivateValue
@@ -14577,7 +14577,7 @@ const
 return
 uint32_t
 (
-getFixedSlot
+getFixedSlotTyped
 (
 FLAGS_SLOT
 )
@@ -14598,7 +14598,7 @@ uint32_t
 flags
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 FLAGS_SLOT
 Int32Value
@@ -21797,7 +21797,7 @@ hasInlineData
 {
 dst
 .
-setFixedSlot
+setFixedSlotTyped
 (
 DATA_SLOT
 PrivateValue
@@ -21825,7 +21825,7 @@ firstView
 )
 {
 return
-getFixedSlot
+getFixedSlotTyped
 (
 FIRST_VIEW_SLOT
 )
@@ -21835,7 +21835,7 @@ isObject
 )
 ?
 &
-getFixedSlot
+getFixedSlotTyped
 (
 FIRST_VIEW_SLOT
 )
@@ -21858,7 +21858,7 @@ ArrayBufferViewObject
 view
 )
 {
-setFixedSlot
+setFixedSlotTyped
 (
 FIRST_VIEW_SLOT
 ObjectOrNullValue
@@ -22245,7 +22245,7 @@ zu
 "
 size_t
 (
-getFixedSlot
+getFixedSlotTyped
 (
 BYTE_LENGTH_SLOT
 )
@@ -22446,7 +22446,7 @@ zu
 "
 size_t
 (
-getFixedSlot
+getFixedSlotTyped
 (
 BYTE_LENGTH_SLOT
 )

@@ -1887,6 +1887,10 @@ ArrayBufferObject
 :
 :
 BYTE_LENGTH_SLOT
+.
+index
+(
+)
 "
 JIT
 code
