@@ -74,6 +74,8 @@ subprocess
 import
 sys
 import
+time
+import
 psutil
 #
 pyatspi
@@ -384,6 +386,15 @@ app
 ]
     
 for
+attempt
+in
+range
+(
+10
+)
+:
+        
+for
 embeds
 in
 root
@@ -392,7 +403,7 @@ getRelationSet
 (
 )
 :
-        
+            
 if
 embeds
 .
@@ -405,12 +416,29 @@ pyatspi
 .
 RELATION_EMBEDS
 :
-            
+                
 break
-    
+        
 else
 :
-        
+            
+if
+attempt
+<
+9
+:
+                
+time
+.
+sleep
+(
+0
+.
+5
+)
+                
+continue
+            
 raise
 LookupError
 (
@@ -424,6 +452,8 @@ have
 RELATION_EMBEDS
 "
 )
+        
+break
     
 doc
 =
@@ -434,6 +464,9 @@ getTarget
 0
 )
     
+try
+:
+        
 child
 =
 doc
@@ -441,6 +474,19 @@ doc
 0
 ]
     
+except
+IndexError
+:
+        
+pass
+#
+No
+child
+.
+    
+else
+:
+        
 if
 child
 .
@@ -464,7 +510,7 @@ iframe
 id
 "
 :
-        
+            
 #
 This
 is
@@ -474,7 +520,7 @@ or
 remoteIframe
 test
 .
-        
+            
 doc
 =
 child
