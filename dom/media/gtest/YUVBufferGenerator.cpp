@@ -115,6 +115,10 @@ gfx
 IntSize
 &
 aSize
+uint8_t
+aLuma
+uint8_t
+aChroma
 )
 {
 mImageSize
@@ -295,7 +299,7 @@ mSourceBuffer
 Elements
 (
 )
-0x10
+aLuma
 yPlaneLen
 .
 value
@@ -324,7 +328,7 @@ yPlaneLen
 value
 (
 )
-0x80
+aChroma
 cbcrPlaneLen
 .
 value
