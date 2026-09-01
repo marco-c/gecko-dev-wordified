@@ -96,6 +96,11 @@ x
 -
 ndjson
 "
+"
+text
+/
+jsonl
+"
 ]
 )
 {
@@ -761,6 +766,11 @@ application
 x
 -
 ndjson
+"
+"
+text
+/
+jsonl
 "
 ]
 )
