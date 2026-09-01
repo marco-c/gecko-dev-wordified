@@ -900,6 +900,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
@@ -1215,6 +1217,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
@@ -1769,6 +1773,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Waiting
@@ -2452,6 +2458,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
@@ -3563,6 +3571,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
@@ -4804,6 +4814,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
@@ -4842,6 +4854,8 @@ ContentTaskUtils
 isHidden
 (
 avatarSelector
+.
+dialog
 )
 "
 Waiting
@@ -4863,6 +4877,8 @@ ContentTaskUtils
 isHidden
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
@@ -4901,6 +4917,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Waiting
@@ -4922,6 +4940,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
@@ -5006,6 +5026,8 @@ ContentTaskUtils
 isHidden
 (
 avatarSelector
+.
+dialog
 )
 "
 Waiting
@@ -5027,6 +5049,8 @@ ContentTaskUtils
 isHidden
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
@@ -5065,6 +5089,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Waiting
@@ -5086,6 +5112,8 @@ ContentTaskUtils
 isVisible
 (
 avatarSelector
+.
+dialog
 )
 "
 Should
