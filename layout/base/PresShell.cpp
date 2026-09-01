@@ -30027,7 +30027,7 @@ MOZ_ASSERT
 (
 NeedFlush
 (
-flushType
+aFlush
 )
 "
 Why
