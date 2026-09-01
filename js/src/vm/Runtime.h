@@ -7178,7 +7178,7 @@ ref
 }
 /
 /
-List
+Set
 of
 all
 the
@@ -7235,7 +7235,7 @@ js
 wasm
 :
 :
-InstanceVector
+InstanceSet
 >
 wasmInstances
 ;
