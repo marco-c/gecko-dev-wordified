@@ -827,6 +827,8 @@ OutputMainFunction
 TInfoSinkBase
 &
 output
+char
+userSymbolPrefix
 )
 ;
 private

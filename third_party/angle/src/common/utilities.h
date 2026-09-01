@@ -61,14 +61,6 @@ COMMON_UTILITIES_H_
 define
 COMMON_UTILITIES_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 <
 EGL
@@ -95,6 +87,15 @@ ShaderLang
 .
 h
 >
+#
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 <
@@ -2066,6 +2067,8 @@ loop
 over
 array
 items
+ANGLE_UNSAFE_TODO
+(
 memset
 (
 array
@@ -2090,6 +2093,7 @@ array
 >
 data
 (
+)
 )
 )
 )

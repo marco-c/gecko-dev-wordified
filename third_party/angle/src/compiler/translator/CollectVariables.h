@@ -173,6 +173,8 @@ InterfaceBlock
 shaderStorageBlocks
 char
 userVariablePrefix
+char
+userBlockPrefix
 ShHashFunction64
 hashFunction
 TSymbolTable

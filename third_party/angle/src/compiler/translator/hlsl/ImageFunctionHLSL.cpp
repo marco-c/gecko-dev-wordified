@@ -60,14 +60,6 @@ output
 /
 /
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_libc_calls
-#
-endif
-#
 include
 "
 compiler
@@ -77,6 +69,15 @@ translator
 hlsl
 /
 ImageFunctionHLSL
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -721,6 +722,8 @@ UNREACHABLE
 ;
 if
 (
+ANGLE_UNSAFE_TODO
+(
 strcmp
 (
 imageFunction
@@ -731,6 +734,7 @@ getReturnType
 "
 int3
 "
+)
 )
 =
 =
@@ -757,6 +761,8 @@ n
 else
 if
 (
+ANGLE_UNSAFE_TODO
+(
 strcmp
 (
 imageFunction
@@ -767,6 +773,7 @@ getReturnType
 "
 int2
 "
+)
 )
 =
 =
@@ -792,6 +799,8 @@ n
 else
 if
 (
+ANGLE_UNSAFE_TODO
+(
 strcmp
 (
 imageFunction
@@ -803,10 +812,12 @@ getReturnType
 int
 "
 )
+)
 =
 =
 0
 )
+{
 out
 <
 <
@@ -821,6 +832,7 @@ width
 n
 "
 ;
+}
 else
 UNREACHABLE
 (

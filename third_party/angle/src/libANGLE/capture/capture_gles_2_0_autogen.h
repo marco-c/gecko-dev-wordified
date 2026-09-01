@@ -1943,8 +1943,8 @@ State
 glState
 bool
 isCallValid
-GLenum
-pname
+PackUnpackParameter
+pnamePacked
 GLint
 param
 )

@@ -42,14 +42,6 @@ file
 /
 /
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 compiler
@@ -64,6 +56,15 @@ h
 include
 "
 angle_gl
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -761,6 +762,8 @@ char
 name
 )
 {
+ANGLE_UNSAFE_TODO
+(
 ASSERT
 (
 name
@@ -777,6 +780,7 @@ name
 '
 (
 '
+)
 )
 ;
 out

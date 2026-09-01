@@ -2688,6 +2688,11 @@ WriteNameOf
 userVarNameStream
 *
 astVar
+compiler
+.
+getUserVariableNamePrefix
+(
+)
 )
 ;
 TString
@@ -2732,6 +2737,11 @@ typeStream
 WriteWgslType
 (
 typeStream
+compiler
+.
+getResources
+(
+)
 astVar
 -
 >
@@ -2985,6 +2995,11 @@ toMatrixColumnType
 WriteWgslType
 (
 rowVecTypeStream
+compiler
+.
+getResources
+(
+)
 rowVecAstType
 {
 }
@@ -4301,6 +4316,8 @@ OutputMainFunction
 TInfoSinkBase
 &
 output
+char
+userSymbolPrefix
 )
 {
 if
@@ -4458,7 +4475,7 @@ _
 '
 <
 <
-kUserDefinedNamePrefix
+userSymbolPrefix
 <
 <
 "

@@ -44,6 +44,15 @@ file
 #
 include
 "
+common
+/
+unsafe_buffers
+.
+h
+"
+#
+include
+"
 compiler
 /
 translator
@@ -52,14 +61,6 @@ IntermNode
 .
 h
 "
-#
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
 #
 include
 "
@@ -1733,6 +1734,8 @@ getSecondarySize
 )
 ;
 return
+ANGLE_UNSAFE_TODO
+(
 kFloatGLType
 [
 type
@@ -1752,6 +1755,7 @@ getSecondarySize
 -
 1
 ]
+)
 ;
 case
 EbtInt
@@ -1791,6 +1795,8 @@ getSecondarySize
 )
 ;
 return
+ANGLE_UNSAFE_TODO
+(
 kIntGLType
 [
 type
@@ -1801,6 +1807,7 @@ getNominalSize
 -
 1
 ]
+)
 ;
 case
 EbtUInt
@@ -1840,6 +1847,8 @@ getSecondarySize
 )
 ;
 return
+ANGLE_UNSAFE_TODO
+(
 kUIntGLType
 [
 type
@@ -1850,6 +1859,7 @@ getNominalSize
 -
 1
 ]
+)
 ;
 case
 EbtBool
@@ -1889,6 +1899,8 @@ getSecondarySize
 )
 ;
 return
+ANGLE_UNSAFE_TODO
+(
 kBoolGLType
 [
 type
@@ -1899,6 +1911,7 @@ getNominalSize
 -
 1
 ]
+)
 ;
 case
 EbtYuvCscStandardEXT
@@ -2205,12 +2218,6 @@ EbtAtomicCounter
 :
 return
 GL_UNSIGNED_INT_ATOMIC_COUNTER
-;
-case
-EbtSamplerVideoWEBGL
-:
-return
-GL_SAMPLER_VIDEO_IMAGE_WEBGL
 ;
 case
 EbtPixelLocalANGLE
@@ -3870,9 +3877,6 @@ output
 )
 {
 case
-SH_HLSL_3_0_OUTPUT
-:
-case
 SH_HLSL_4_1_OUTPUT
 :
 return
@@ -4368,6 +4372,8 @@ fieldIndex
 {
 if
 (
+ANGLE_UNSAFE_TODO
+(
 strcmp
 (
 fieldList
@@ -4384,6 +4390,7 @@ data
 (
 )
 fieldName
+)
 )
 =
 =

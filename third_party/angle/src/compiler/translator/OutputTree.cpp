@@ -42,13 +42,14 @@ file
 /
 /
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -3432,6 +3433,8 @@ getCurrentIndentDepth
 ;
 switch
 (
+ANGLE_UNSAFE_TODO
+(
 node
 -
 >
@@ -3441,6 +3444,7 @@ getConstantValue
 [
 i
 ]
+)
 .
 getType
 (
@@ -3452,6 +3456,8 @@ EbtBool
 :
 if
 (
+ANGLE_UNSAFE_TODO
+(
 node
 -
 >
@@ -3461,11 +3467,13 @@ getConstantValue
 [
 i
 ]
+)
 .
 getBConst
 (
 )
 )
+{
 mOut
 <
 <
@@ -3473,6 +3481,7 @@ mOut
 true
 "
 ;
+}
 else
 mOut
 <
@@ -3515,6 +3524,8 @@ EbtFloat
 mOut
 <
 <
+ANGLE_UNSAFE_TODO
+(
 node
 -
 >
@@ -3524,6 +3535,7 @@ getConstantValue
 [
 i
 ]
+)
 .
 getFConst
 (
@@ -3549,6 +3561,8 @@ EbtInt
 mOut
 <
 <
+ANGLE_UNSAFE_TODO
+(
 node
 -
 >
@@ -3558,6 +3572,7 @@ getConstantValue
 [
 i
 ]
+)
 .
 getIConst
 (
@@ -3583,6 +3598,8 @@ EbtUInt
 mOut
 <
 <
+ANGLE_UNSAFE_TODO
+(
 node
 -
 >
@@ -3592,6 +3609,7 @@ getConstantValue
 [
 i
 ]
+)
 .
 getUConst
 (
@@ -3619,6 +3637,8 @@ mOut
 <
 getYuvCscStandardEXTString
 (
+ANGLE_UNSAFE_TODO
+(
 node
 -
 >
@@ -3628,6 +3648,7 @@ getConstantValue
 [
 i
 ]
+)
 .
 getYuvCscStandardEXTConst
 (

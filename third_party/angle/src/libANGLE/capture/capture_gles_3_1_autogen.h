@@ -357,8 +357,8 @@ bool
 isCallValid
 GLenum
 target
-GLenum
-pname
+FramebufferParameter
+pnamePacked
 GLint
 param
 )
@@ -417,8 +417,8 @@ bool
 isCallValid
 GLenum
 target
-GLenum
-pname
+FramebufferParameter
+pnamePacked
 GLint
 *
 params
@@ -1824,8 +1824,8 @@ State
 glState
 GLenum
 target
-GLenum
-pname
+FramebufferParameter
+pnamePacked
 GLint
 *
 params

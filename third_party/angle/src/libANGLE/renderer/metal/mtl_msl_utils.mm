@@ -191,13 +191,9 @@ _u
 ;
 /
 /
-Defined
-in
-GLSLANG
-/
-ShaderLang
-.
-h
+Default
+for
+UserVariableNamePrefix
 constexpr
 char
 kAttribBindingsMarker

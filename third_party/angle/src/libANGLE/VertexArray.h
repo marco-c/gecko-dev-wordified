@@ -2131,7 +2131,7 @@ bindingIndex
 Buffer
 *
 boundBuffer
-GLintptr
+uintptr_t
 offset
 GLsizei
 stride

@@ -86,14 +86,6 @@ language
 preprocessor
 .
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 define
 YY_INT_ALIGNED
 short

@@ -63,14 +63,6 @@ MTLBuffer
 /
 /
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 libANGLE
@@ -3273,7 +3265,7 @@ depth
 1
 )
 {
-CHECK
+RELEASE_ASSERT
 (
 dataOut
 .
@@ -3294,7 +3286,7 @@ depth
 }
 else
 {
-CHECK
+RELEASE_ASSERT
 (
 dataOut
 .

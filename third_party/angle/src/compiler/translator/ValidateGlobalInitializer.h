@@ -77,7 +77,10 @@ bool
 hasExtNonConstGlobalInitializers
 bool
 *
-warning
+warningOut
+bool
+*
+tooComplexOut
 )
 ;
 }

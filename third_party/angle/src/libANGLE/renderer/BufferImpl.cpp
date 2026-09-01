@@ -152,6 +152,11 @@ bufferStorage
 BufferFeedback
 *
 feedback
+gl
+:
+:
+ZeroFillRequired
+zeroFillRequired
 )
 {
 return
@@ -163,6 +168,7 @@ data
 size
 usage
 feedback
+zeroFillRequired
 )
 ;
 }

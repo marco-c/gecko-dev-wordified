@@ -77,19 +77,20 @@ LIBANGLE_PIXEL_LOCAL_STORAGE_H_
 define
 LIBANGLE_PIXEL_LOCAL_STORAGE_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 GLSLANG
 /
 ShaderLang
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -768,6 +769,8 @@ value
 ]
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 mClearValuef
@@ -779,6 +782,7 @@ value
 4
 *
 4
+)
 )
 ;
 }
@@ -793,6 +797,8 @@ value
 ]
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 mClearValuei
@@ -804,6 +810,7 @@ value
 4
 *
 4
+)
 )
 ;
 }
@@ -818,6 +825,8 @@ value
 ]
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 mClearValueui
@@ -829,6 +838,7 @@ value
 4
 *
 4
+)
 )
 ;
 }
@@ -843,6 +853,8 @@ value
 )
 const
 {
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 value
@@ -854,6 +866,7 @@ data
 4
 *
 4
+)
 )
 ;
 }
@@ -868,6 +881,8 @@ value
 )
 const
 {
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 value
@@ -879,6 +894,7 @@ data
 4
 *
 4
+)
 )
 ;
 }
@@ -893,6 +909,8 @@ value
 )
 const
 {
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 value
@@ -904,6 +922,7 @@ data
 4
 *
 4
+)
 )
 ;
 }

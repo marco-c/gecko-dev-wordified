@@ -367,10 +367,6 @@ GLImplFactory
 factory
 SyncID
 id
-const
-Context
-*
-context
 )
 :
 RefCountObject
@@ -390,7 +386,6 @@ factory
 >
 createSync
 (
-context
 )
 )
 mLabel

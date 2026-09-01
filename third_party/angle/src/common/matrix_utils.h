@@ -122,14 +122,6 @@ COMMON_MATRIX_UTILS_H_
 define
 COMMON_MATRIX_UTILS_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 <
 array
@@ -144,6 +136,15 @@ include
 <
 vector
 >
+#
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -5204,6 +5205,8 @@ i
 +
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 data
@@ -5212,6 +5215,7 @@ data
 [
 i
 ]
+)
 /
 =
 det

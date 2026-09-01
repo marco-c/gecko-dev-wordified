@@ -353,11 +353,6 @@ updateExecutableTextures
 (
 )
 ;
-void
-updateExecutableSpecConstUsageBits
-(
-)
-;
 private
 :
 SharedProgramExecutable

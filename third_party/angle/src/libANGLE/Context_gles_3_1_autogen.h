@@ -223,8 +223,8 @@ framebufferParameteri
 (
 GLenum
 target
-GLenum
-pname
+FramebufferParameter
+pnamePacked
 GLint
 param
 )
@@ -259,8 +259,9 @@ getFramebufferParameteriv
 (
 GLenum
 target
-GLenum
-pname
+FramebufferParameter
+pnamePacked
+\
 GLint
 *
 params

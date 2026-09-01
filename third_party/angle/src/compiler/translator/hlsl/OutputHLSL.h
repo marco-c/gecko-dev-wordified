@@ -717,17 +717,6 @@ TIntermBranch
 )
 override
 ;
-bool
-handleExcessiveLoop
-(
-TInfoSinkBase
-&
-out
-TIntermLoop
-*
-node
-)
-;
 /
 /
 Emit
@@ -1334,10 +1323,6 @@ mInsideDiscontinuousLoop
 int
 mNestedLoopDepth
 ;
-TIntermSymbol
-*
-mExcessiveLoopIndex
-;
 TString
 structInitializerString
 (
@@ -1606,7 +1591,7 @@ std140Structs
 )
 const
 ;
-ImmutableString
+TString
 samplerNamePrefixFromStruct
 (
 TIntermTyped

@@ -86,14 +86,6 @@ cache
 from
 disk
 .
-#
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_libc_calls
-#
-endif
 /
 /
 Include
@@ -108,6 +100,15 @@ elsewhere
 #
 define
 USE_SYSTEM_ZLIB
+#
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -875,6 +876,8 @@ Final
 (
 )
 ;
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 hashOut
@@ -892,6 +895,7 @@ angle
 :
 :
 kBlobCacheKeyLength
+)
 )
 ;
 }
@@ -1664,6 +1668,8 @@ key
 {
 }
 ;
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 key
@@ -1680,6 +1686,7 @@ angle
 :
 :
 kBlobCacheKeyLength
+)
 )
 ;
 platform
@@ -1822,6 +1829,8 @@ return
 false
 ;
 }
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 newEntry
@@ -1831,6 +1840,7 @@ data
 )
 binary
 length
+)
 )
 ;
 /

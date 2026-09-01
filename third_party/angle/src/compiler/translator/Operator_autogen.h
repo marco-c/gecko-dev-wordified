@@ -718,7 +718,6 @@ EOpTexture2DRectProj
 EOpTexture2DGradEXT
 EOpTexture2DProjGradEXT
 EOpTextureCubeGradEXT
-EOpTextureVideoWEBGL
 /
 /
 Group

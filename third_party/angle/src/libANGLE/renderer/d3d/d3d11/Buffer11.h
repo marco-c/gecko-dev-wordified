@@ -575,6 +575,11 @@ usage
 BufferFeedback
 *
 feedback
+gl
+:
+:
+ZeroFillRequired
+zeroFillRequired
 )
 override
 ;
@@ -774,8 +779,7 @@ BufferStorage
 *
 storage
 ;
-unsigned
-int
+uint64_t
 lruCount
 ;
 }

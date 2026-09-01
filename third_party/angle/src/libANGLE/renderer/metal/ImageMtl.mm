@@ -1366,14 +1366,6 @@ UNREACHABLE
 )
 ;
 }
-mImageLevel
-=
-0
-;
-mImageLayer
-=
-0
-;
 }
 else
 {

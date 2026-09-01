@@ -42,14 +42,6 @@ file
 /
 /
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_libc_calls
-#
-endif
-#
 include
 "
 common
@@ -73,6 +65,15 @@ include
 common
 /
 system_utils
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -985,6 +986,8 @@ static_cast
 int32_t
 >
 (
+ANGLE_UNSAFE_TODO
+(
 std
 :
 :
@@ -994,6 +997,7 @@ numberPtr
 &
 endPtr
 10
+)
 )
 )
 ;
@@ -1017,6 +1021,8 @@ static_cast
 int32_t
 >
 (
+ANGLE_UNSAFE_TODO
+(
 std
 :
 :
@@ -1026,6 +1032,7 @@ commaPtr
 &
 endPtr
 10
+)
 )
 )
 ;

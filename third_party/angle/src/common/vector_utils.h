@@ -60,14 +60,6 @@ COMMON_VECTOR_UTILS_H_
 define
 COMMON_VECTOR_UTILS_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 <
 cmath
@@ -93,6 +85,15 @@ include
 common
 /
 debug
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -370,10 +371,13 @@ i
 )
 {
 return
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
 ]
+)
 ;
 }
 const
@@ -389,10 +393,13 @@ i
 const
 {
 return
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
 ]
+)
 ;
 }
 /
@@ -1431,10 +1438,13 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
 ]
+)
 =
 element
 ;
@@ -1774,17 +1784,22 @@ OtherDimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 CurrentIndex
 +
 i
 ]
+)
 =
 static_cast
 <
 Type
 >
+(
+ANGLE_UNSAFE_TODO
 (
 arg1
 .
@@ -1792,6 +1807,7 @@ mData
 [
 i
 ]
+)
 )
 ;
 }
@@ -2009,6 +2025,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2020,6 +2038,7 @@ source
 [
 i
 ]
+)
 ;
 }
 return
@@ -2072,6 +2091,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 destination
 [
 i
@@ -2083,6 +2104,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 }
@@ -2141,6 +2163,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2153,6 +2177,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2207,6 +2232,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2219,6 +2246,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2281,6 +2309,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2299,6 +2329,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2361,6 +2392,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2379,6 +2412,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2441,6 +2475,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2459,6 +2495,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2521,6 +2558,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2539,6 +2578,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2595,6 +2635,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2608,6 +2650,7 @@ i
 ]
 *
 other
+)
 ;
 }
 return
@@ -2664,6 +2707,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 result
 .
 mData
@@ -2677,6 +2722,7 @@ i
 ]
 /
 other
+)
 ;
 }
 return
@@ -2740,6 +2786,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
@@ -2752,6 +2800,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2820,6 +2869,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
@@ -2832,6 +2883,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2900,6 +2952,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
@@ -2912,6 +2966,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -2980,6 +3035,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
@@ -2992,6 +3049,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -3054,10 +3112,13 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
 ]
+)
 *
 =
 other
@@ -3123,10 +3184,13 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
 ]
+)
 /
 =
 other
@@ -3202,6 +3266,8 @@ i
 {
 if
 (
+ANGLE_UNSAFE_TODO
+(
 mData
 [
 i
@@ -3214,6 +3280,7 @@ mData
 [
 i
 ]
+)
 )
 {
 return
@@ -3411,6 +3478,8 @@ Dimension
 i
 )
 {
+ANGLE_UNSAFE_TODO
+(
 sum
 +
 =
@@ -3425,6 +3494,7 @@ mData
 [
 i
 ]
+)
 ;
 }
 return
@@ -3503,6 +3573,8 @@ ostream
 ostream
 <
 <
+ANGLE_UNSAFE_TODO
+(
 vector
 .
 data
@@ -3511,6 +3583,7 @@ data
 [
 elementIdx
 ]
+)
 ;
 }
 ostream

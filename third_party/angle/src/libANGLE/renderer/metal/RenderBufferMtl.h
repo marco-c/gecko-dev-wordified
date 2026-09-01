@@ -236,9 +236,9 @@ const
 gl
 :
 :
-ImageIndex
+OwnImageIndex
 &
-imageIndex
+ownImageIndex
 GLsizei
 samples
 FramebufferAttachmentRenderTarget
@@ -267,9 +267,9 @@ const
 gl
 :
 :
-ImageIndex
+OwnImageIndex
 &
-imageIndex
+ownImageIndex
 )
 override
 ;

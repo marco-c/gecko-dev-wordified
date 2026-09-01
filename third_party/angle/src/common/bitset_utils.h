@@ -5011,10 +5011,10 @@ std
 size_t
 >
 (
-rx
+gl
 :
 :
-Log2
+log2
 (
 static_cast
 <

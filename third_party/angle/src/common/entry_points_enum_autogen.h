@@ -791,7 +791,6 @@ GLImportSemaphoreZirconHandleANGLE
 GLInsertEventMarkerEXT
 GLInvalidateFramebuffer
 GLInvalidateSubFramebuffer
-GLInvalidateTextureANGLE
 GLIsBuffer
 GLIsEnabled
 GLIsEnabledi
@@ -1050,7 +1049,6 @@ GLTexGenivOES
 GLTexGenxOES
 GLTexGenxvOES
 GLTexImage2D
-GLTexImage2DExternalANGLE
 GLTexImage2DRobustANGLE
 GLTexImage3D
 GLTexImage3DOES

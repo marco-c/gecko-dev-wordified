@@ -1151,6 +1151,9 @@ rgbScaleLoc
 UniformLocation
 alphaScaleLoc
 ;
+UniformLocation
+lodBiasLoc
+;
 /
 /
 Alpha
@@ -1311,6 +1314,16 @@ GLfloat
 kTexUnitCount
 >
 texEnvAlphaScales
+;
+std
+:
+:
+array
+<
+GLfloat
+kTexUnitCount
+>
+texEnvLodBiases
 ;
 /
 /

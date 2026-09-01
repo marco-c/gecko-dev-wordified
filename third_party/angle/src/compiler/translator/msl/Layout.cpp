@@ -42,14 +42,6 @@ file
 /
 /
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 <
 algorithm
@@ -79,6 +71,15 @@ include
 <
 unordered_set
 >
+#
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -912,6 +913,8 @@ const
 size_t
 innerScale
 =
+ANGLE_UNSAFE_TODO
+(
 innerScalesPacked
 [
 type
@@ -920,6 +923,7 @@ getNominalSize
 (
 )
 ]
+)
 ;
 auto
 layout
@@ -946,6 +950,8 @@ const
 size_t
 innerScale
 =
+ANGLE_UNSAFE_TODO
+(
 innerScalesUnpacked
 [
 type
@@ -954,6 +960,7 @@ getNominalSize
 (
 )
 ]
+)
 ;
 auto
 layout
@@ -1015,6 +1022,8 @@ const
 size_t
 innerScale
 =
+ANGLE_UNSAFE_TODO
+(
 innerScalesUnpacked
 [
 type
@@ -1023,6 +1032,7 @@ getRows
 (
 )
 ]
+)
 ;
 const
 size_t
@@ -1399,9 +1409,12 @@ iter
 =
 end
 ;
+ANGLE_UNSAFE_TODO
+(
 +
 +
 iter
+)
 )
 {
 layout
@@ -1629,6 +1642,8 @@ fields
 data
 (
 )
+ANGLE_UNSAFE_TODO
+(
 fields
 .
 data
@@ -1639,6 +1654,7 @@ fields
 .
 size
 (
+)
 )
 storage
 matrixPacking
@@ -1692,6 +1708,8 @@ const
 size_t
 sizeScale
 =
+ANGLE_UNSAFE_TODO
+(
 innerScalesPacked
 [
 type
@@ -1700,11 +1718,14 @@ getNominalSize
 (
 )
 ]
+)
 ;
 const
 size_t
 alignScale
 =
+ANGLE_UNSAFE_TODO
+(
 innerScalesUnpacked
 [
 type
@@ -1713,6 +1734,7 @@ getNominalSize
 (
 )
 ]
+)
 ;
 auto
 layout
@@ -1741,6 +1763,8 @@ const
 size_t
 innerScale
 =
+ANGLE_UNSAFE_TODO
+(
 innerScalesUnpacked
 [
 type
@@ -1749,6 +1773,7 @@ getNominalSize
 (
 )
 ]
+)
 ;
 auto
 layout
@@ -1896,10 +1921,13 @@ const
 size_t
 innerScale
 =
+ANGLE_UNSAFE_TODO
+(
 innerScalesUnpacked
 [
 innerDim
 ]
+)
 ;
 const
 size_t

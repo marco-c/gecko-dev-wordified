@@ -122,8 +122,6 @@ ResourcesHLSL
 StructureHLSL
 *
 structureHLSL
-ShShaderOutput
-outputType
 const
 std
 :
@@ -137,14 +135,6 @@ uniforms
 unsigned
 int
 firstUniformRegister
-)
-;
-void
-reserveUniformRegisters
-(
-unsigned
-int
-registerCount
 )
 ;
 void
@@ -628,9 +618,6 @@ mImageCount
 StructureHLSL
 *
 mStructureHLSL
-;
-ShShaderOutput
-mOutputType
 ;
 const
 std

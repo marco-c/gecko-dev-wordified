@@ -65,14 +65,6 @@ index
 buffers
 .
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 "
 libANGLE
@@ -82,6 +74,15 @@ renderer
 d3d
 /
 IndexDataManager
+.
+h
+"
+#
+include
+"
+common
+/
+unsafe_buffers
 .
 h
 "
@@ -290,6 +291,8 @@ i
 +
 )
 {
+ANGLE_UNSAFE_TODO
+(
 out
 [
 i
@@ -317,6 +320,7 @@ i
 ]
 )
 )
+)
 ;
 }
 }
@@ -338,6 +342,8 @@ i
 +
 )
 {
+ANGLE_UNSAFE_TODO
+(
 out
 [
 i
@@ -352,6 +358,7 @@ in
 [
 i
 ]
+)
 )
 ;
 }
@@ -403,6 +410,8 @@ GetDrawElementsTypeSize
 destinationType
 )
 ;
+ANGLE_UNSAFE_TODO
+(
 memcpy
 (
 output
@@ -410,6 +419,7 @@ input
 count
 *
 dstTypeSize
+)
 )
 ;
 return
@@ -1393,9 +1403,12 @@ ANGLE_TRY
 streamIndexData
 (
 context
+ANGLE_UNSAFE_TODO
+(
 bufferData
 +
 offset
+)
 count
 srcType
 dstType

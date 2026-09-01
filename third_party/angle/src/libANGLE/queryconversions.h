@@ -213,7 +213,7 @@ constexpr
 GLenum
 value
 =
-GL_INT_64_ANGLEX
+GL_INT64
 ;
 }
 ;
@@ -231,7 +231,7 @@ constexpr
 GLenum
 value
 =
-GL_UINT_64_ANGLEX
+GL_UNSIGNED_INT64
 ;
 }
 ;

@@ -132,9 +132,6 @@ class
 TOutputVulkanGLSL
 ;
 class
-SpecConst
-;
-class
 DriverUniform
 ;
 /
@@ -268,9 +265,6 @@ compileOptions
 PerformanceDiagnostics
 *
 perfDiagnostics
-SpecConst
-*
-specConst
 DriverUniform
 *
 driverUniforms

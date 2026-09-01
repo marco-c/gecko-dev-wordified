@@ -287,10 +287,6 @@ GLImplFactory
 factory
 SyncID
 id
-const
-Context
-*
-context
 )
 ;
 ~

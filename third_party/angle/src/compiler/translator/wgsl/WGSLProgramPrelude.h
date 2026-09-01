@@ -167,6 +167,10 @@ outputPrelude
 TInfoSinkBase
 &
 sink
+const
+ShBuiltInResources
+&
+resources
 )
 ;
 private

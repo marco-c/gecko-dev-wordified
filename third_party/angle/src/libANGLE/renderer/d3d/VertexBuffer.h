@@ -713,6 +713,16 @@ uint64_t
 baseInstance
 )
 ;
+void
+clearReservedSpace
+(
+)
+{
+mReservedSpace
+=
+0
+;
+}
 private
 :
 angle

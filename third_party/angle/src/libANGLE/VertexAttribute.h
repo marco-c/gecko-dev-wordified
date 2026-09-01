@@ -241,7 +241,7 @@ mDivisor
 divisorIn
 ;
 }
-GLintptr
+uintptr_t
 getOffset
 (
 )
@@ -254,7 +254,7 @@ mOffset
 void
 setOffset
 (
-GLintptr
+uintptr_t
 offsetIn
 )
 {
@@ -313,7 +313,7 @@ mStride
 GLuint
 mDivisor
 ;
-GLintptr
+uintptr_t
 mOffset
 ;
 /
@@ -638,7 +638,7 @@ using
 this
 function
 .
-GLintptr
+uintptr_t
 ComputeVertexAttributeOffset
 (
 const
@@ -660,6 +660,8 @@ uint64_t
 drawCount
 size_t
 instanceCount
+uint64_t
+baseInstance
 )
 ;
 struct

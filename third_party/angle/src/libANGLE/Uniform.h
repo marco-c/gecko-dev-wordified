@@ -48,14 +48,6 @@ LIBANGLE_UNIFORM_H_
 define
 LIBANGLE_UNIFORM_H_
 #
-ifdef
-UNSAFE_BUFFERS_BUILD
-#
-pragma
-allow_unsafe_buffers
-#
-endif
-#
 include
 <
 string
@@ -65,6 +57,15 @@ include
 <
 vector
 >
+#
+include
+"
+common
+/
+unsafe_buffers
+.
+h
+"
 #
 include
 "
@@ -329,6 +330,8 @@ ActiveVariable
 (
 )
 {
+ANGLE_UNSAFE_TODO
+(
 memset
 (
 &
@@ -337,6 +340,7 @@ pod
 sizeof
 (
 pod
+)
 )
 )
 ;

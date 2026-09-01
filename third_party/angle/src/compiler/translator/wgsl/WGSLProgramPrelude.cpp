@@ -877,6 +877,10 @@ outputPrelude
 TInfoSinkBase
 &
 sink
+const
+ShBuiltInResources
+&
+resources
 )
 {
 auto
@@ -904,6 +908,7 @@ typeStr
 WriteWgslType
 (
 typeStr
+resources
 type
 {
 }
@@ -1349,6 +1354,7 @@ typeStr
 WriteWgslType
 (
 typeStr
+resources
 type
 {
 }
@@ -1811,6 +1817,7 @@ destTypeStr
 WriteWgslType
 (
 destTypeStr
+resources
 assigned
 .
 first
@@ -1826,6 +1833,7 @@ srcTypeStr
 WriteWgslType
 (
 srcTypeStr
+resources
 assigned
 .
 first

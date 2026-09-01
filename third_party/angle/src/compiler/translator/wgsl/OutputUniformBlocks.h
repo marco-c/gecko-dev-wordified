@@ -655,6 +655,10 @@ TInfoSinkBase
 &
 output
 const
+ShBuiltInResources
+&
+resources
+const
 WGSLGenerationMetadataForUniforms
 &
 wgslGenerationMetadataForUniforms
