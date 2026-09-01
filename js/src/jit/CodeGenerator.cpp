@@ -161620,10 +161620,10 @@ environmentChain
 )
 )
 ;
-Register
+ValueOperand
 argsObject
 =
-ToRegister
+ToValue
 (
 lir
 -
@@ -161662,7 +161662,7 @@ JSContext
 cx
 HandleFunction
 HandleObject
-HandleObject
+HandleValue
 )
 ;
 callVM

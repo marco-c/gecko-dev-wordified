@@ -2965,7 +2965,7 @@ JSContext
 cx
 HandleFunction
 HandleObject
-HandleObject
+HandleValue
 )
 ;
 JSObject
