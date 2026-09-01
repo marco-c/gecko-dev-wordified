@@ -514,13 +514,6 @@ override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
-OSToolbarButtonPressed
-(
-)
-override
-;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
-void
 WindowActivated
 (
 )
@@ -784,12 +777,6 @@ aIsFullyOccluded
 ;
 void
 RecomputeBrowsingContextVisibility
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-void
-OSToolbarButtonPressed
 (
 )
 ;
