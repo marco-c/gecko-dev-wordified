@@ -1022,7 +1022,6 @@ BaseMetricResult
 :
 BaseMetric
 (
-&
 memory_distribution_metric
 )
 }
@@ -1044,7 +1043,6 @@ IndexLabelPair
 (
 *
 id
-&
 label
 )
 }
