@@ -4653,6 +4653,10 @@ Vec
 <
 Key
 >
+Vec
+<
+CryptokiTrust
+>
 )
 Error
 >
@@ -4695,6 +4699,12 @@ return
 Ok
 (
 (
+Vec
+:
+:
+new
+(
+)
 Vec
 :
 :
@@ -4944,6 +4954,10 @@ CryptokiCert
 Vec
 <
 Key
+>
+Vec
+<
+CryptokiTrust
 >
 )
 Error
@@ -5474,6 +5488,12 @@ Ok
 (
 certs
 keys
+Vec
+:
+:
+new
+(
+)
 )
 )
 }

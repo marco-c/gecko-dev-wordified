@@ -1577,6 +1577,10 @@ Vec
 <
 Key
 >
+Vec
+<
+CryptokiTrust
+>
 )
 Error
 >
@@ -1612,6 +1616,12 @@ certs
 find_objects_context
 .
 keys
+Vec
+:
+:
+new
+(
+)
 )
 )
 }
