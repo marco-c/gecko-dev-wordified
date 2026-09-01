@@ -2745,15 +2745,10 @@ ContentChild
 *
 cc
 =
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 ContentChild
+*
 >
 (
 gNeckoChild

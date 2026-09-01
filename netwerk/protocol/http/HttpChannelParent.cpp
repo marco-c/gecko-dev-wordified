@@ -3174,15 +3174,10 @@ NS_IsMainThread
 ContentParentId
 cpId
 =
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 ContentParent
+*
 >
 (
 Manager

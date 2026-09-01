@@ -2540,15 +2540,10 @@ Manager
 const
 {
 return
-mozilla
-:
-:
-ipc
-:
-:
-ActorCast
+static_cast
 <
 ContentParent
+*
 >
 (
 PBrowserParent
