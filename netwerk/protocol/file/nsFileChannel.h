@@ -151,7 +151,13 @@ nsresult
 DoNotifyFileChannelOpened
 (
 const
-nsACString
+mozilla
+:
+:
+dom
+:
+:
+RemoteType
 &
 aRemoteType
 const

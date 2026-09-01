@@ -103,10 +103,6 @@ ContentParent
 .
 h
 "
-/
-/
-for
-FILE_REMOTE_TYPE
 namespace
 mozilla
 {
@@ -259,9 +255,10 @@ cc
 GetRemoteType
 (
 )
-=
-=
-FILE_REMOTE_TYPE
+.
+IsFile
+(
+)
 ;
 nsAutoCString
 extraSyscalls

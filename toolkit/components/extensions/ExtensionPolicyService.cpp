@@ -1179,9 +1179,10 @@ GetRemoteType
 ;
 return
 remoteType
-=
-=
-EXTENSION_REMOTE_TYPE
+.
+IsExtension
+(
+)
 ;
 }
 return

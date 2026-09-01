@@ -4141,9 +4141,8 @@ GeckoProcessType_Socket
 remoteType
 *
 /
-"
-"
-_ns
+{
+}
 )
 ;
 auto

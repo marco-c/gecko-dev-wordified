@@ -414,9 +414,8 @@ GeckoProcessType_GPU
 remoteType
 *
 /
-"
-"
-_ns
+{
+}
 )
 )
 {

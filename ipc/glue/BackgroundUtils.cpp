@@ -2552,7 +2552,7 @@ optionalResultPrincipalURI
 )
 ;
 }
-nsCString
+RemoteType
 triggeringRemoteType
 ;
 rv
@@ -3664,7 +3664,7 @@ LoadInfoArgs
 &
 aLoadInfoArgs
 const
-nsACString
+RemoteType
 &
 aOriginRemoteType
 nsILoadInfo
@@ -3691,7 +3691,7 @@ LoadInfoArgs
 &
 aLoadInfoArgs
 const
-nsACString
+RemoteType
 &
 aOriginRemoteType
 nsINode
@@ -3748,7 +3748,7 @@ LoadInfoArgs
 &
 aLoadInfoArgs
 const
-nsACString
+RemoteType
 &
 aOriginRemoteType
 LoadInfo
@@ -3775,7 +3775,7 @@ LoadInfoArgs
 &
 loadInfoArgs
 const
-nsACString
+RemoteType
 &
 aOriginRemoteType
 nsINode
@@ -4291,7 +4291,7 @@ specified
 remote
 type
 .
-nsCString
+RemoteType
 triggeringRemoteType
 =
 loadInfoArgs
@@ -4302,10 +4302,12 @@ triggeringRemoteType
 ;
 if
 (
-aOriginRemoteType
 !
-=
-NOT_REMOTE_TYPE
+aOriginRemoteType
+.
+IsNotRemote
+(
+)
 &
 &
 aOriginRemoteType

@@ -964,9 +964,10 @@ GetRemoteType
 if
 (
 remoteType
-=
-=
-PREALLOC_REMOTE_TYPE
+.
+IsPrealloc
+(
+)
 )
 {
 /

@@ -988,7 +988,7 @@ aStatus
 protected
 :
 const
-nsACString
+RemoteType
 &
 GetRemoteType
 (

@@ -1800,7 +1800,16 @@ OptionalServiceWorkerData
 *
 /
 agentClusterId
-DEFAULT_REMOTE_TYPE
+RemoteType
+(
+RemoteType
+:
+:
+Kind
+:
+:
+WebContent
+)
 /
 *
 ignored

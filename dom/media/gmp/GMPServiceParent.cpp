@@ -2361,9 +2361,8 @@ GeckoProcessType_GMPlugin
 remoteType
 *
 /
-"
-"
-_ns
+{
+}
 )
 ;
 return

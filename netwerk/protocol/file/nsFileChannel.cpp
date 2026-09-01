@@ -3808,7 +3808,13 @@ nsFileChannel
 DoNotifyFileChannelOpened
 (
 const
-nsACString
+mozilla
+:
+:
+dom
+:
+:
+RemoteType
 &
 aRemoteType
 const

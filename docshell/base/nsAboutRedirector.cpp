@@ -452,9 +452,10 @@ cp
 GetRemoteType
 (
 )
-=
-=
-EXTENSION_REMOTE_TYPE
+.
+IsExtension
+(
+)
 )
 {
 toKill

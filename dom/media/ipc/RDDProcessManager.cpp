@@ -679,9 +679,8 @@ GeckoProcessType_RDD
 remoteType
 *
 /
-"
-"
-_ns
+{
+}
 )
 ;
 if

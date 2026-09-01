@@ -14009,6 +14009,7 @@ if
 aPrincipal
 |
 |
+!
 Manager
 (
 )
@@ -14017,9 +14018,10 @@ Manager
 GetRemoteType
 (
 )
-!
-=
-EXTENSION_REMOTE_TYPE
+.
+IsExtension
+(
+)
 )
 {
 aPrincipal

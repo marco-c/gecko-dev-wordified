@@ -735,7 +735,7 @@ JSProcessActorProtocol
 Matches
 (
 const
-nsACString
+RemoteType
 &
 aRemoteType
 ErrorResult
@@ -751,7 +751,7 @@ mIncludeParent
 &
 aRemoteType
 .
-IsEmpty
+IsNotRemote
 (
 )
 )
@@ -792,7 +792,7 @@ false
 if
 (
 !
-RemoteTypePrefixMatches
+RemoteTypeMatches
 (
 aRemoteType
 )
@@ -827,9 +827,10 @@ mName
 get
 (
 )
-PromiseFlatCString
-(
 aRemoteType
+.
+Stringify
+(
 )
 .
 get

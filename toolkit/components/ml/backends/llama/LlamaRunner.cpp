@@ -4555,9 +4555,8 @@ GetRemoteType
 (
 )
 .
-Equals
+IsInference
 (
-INFERENCE_REMOTE_TYPE
 )
 ;
 }

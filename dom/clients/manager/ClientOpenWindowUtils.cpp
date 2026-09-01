@@ -2393,7 +2393,12 @@ GetRemoteType
 (
 )
 :
-NOT_REMOTE_TYPE
+RemoteType
+:
+:
+NotRemote
+(
+)
 )
 ;
 rv

@@ -338,9 +338,8 @@ GeckoProcessType_IPDLUnitTest
 remoteType
 *
 /
-"
-"
-_ns
+{
+}
 )
 )
 {

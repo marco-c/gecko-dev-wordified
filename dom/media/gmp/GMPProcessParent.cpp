@@ -606,9 +606,8 @@ GeckoProcessType_GMPlugin
 remoteType
 *
 /
-"
-"
-_ns
+{
+}
 )
 ;
 MonitorAutoLock
