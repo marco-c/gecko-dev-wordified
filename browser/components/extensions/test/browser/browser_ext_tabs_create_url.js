@@ -539,8 +539,10 @@ is
 (
 active
 .
-localName
+tagName
 "
+html
+:
 input
 "
 "
