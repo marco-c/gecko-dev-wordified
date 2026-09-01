@@ -2004,7 +2004,7 @@ setHTML
 (
 originalContainer
 .
-innerHTML
+outerHTML
 {
 sanitizer
 }

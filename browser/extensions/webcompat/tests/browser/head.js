@@ -114,6 +114,16 @@ smartblock_embed_test
 html
 ;
 const
+TEST_PAGE_WITH_SMARTBLOCK_LINK_CONTAINER_EMBED
+=
+{
+TEST_ROOT
+}
+smartblock_embed_link_container_test
+.
+html
+;
+const
 BLOCKED_TRACKER_URL
 =
 "
@@ -2171,6 +2181,9 @@ function
 loadSmartblockPageOnTab
 (
 tab
+url
+=
+TEST_PAGE_WITH_SMARTBLOCK_COMPATIBLE_EMBED
 )
 {
 let
@@ -2198,7 +2211,7 @@ startLoadingURIString
 tab
 .
 linkedBrowser
-TEST_PAGE_WITH_SMARTBLOCK_COMPATIBLE_EMBED
+url
 )
 ;
 return
@@ -2460,7 +2473,6 @@ to
 open
 protections
 panel
-await
 EventUtils
 .
 synthesizeMouseAtCenter
