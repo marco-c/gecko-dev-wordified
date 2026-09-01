@@ -248,8 +248,7 @@ CallerType
 ErrorResult
 &
 )
-{
-}
+;
 protected
 :
 virtual
