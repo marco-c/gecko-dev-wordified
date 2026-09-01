@@ -331,7 +331,7 @@ test
 Text
 field
 must
-containt
+contain
 '
 test
 '
@@ -364,6 +364,11 @@ destroyed
 "
 )
 ;
+}
+{
+once
+:
+true
 }
 )
 ;
