@@ -49,7 +49,10 @@ crate
 render
 :
 :
+{
+ErasedLocalState
 RenderPipelineInPlaceStage
+}
 ;
 use
 jxl_simd
@@ -483,14 +486,7 @@ Option
 <
 &
 mut
-dyn
-std
-:
-:
-any
-:
-:
-Any
+ErasedLocalState
 >
 )
 {

@@ -49,7 +49,10 @@ crate
 render
 :
 :
+{
+ErasedLocalState
 RenderPipelineInPlaceStage
+}
 ;
 /
 /
@@ -277,14 +280,7 @@ Option
 <
 &
 mut
-dyn
-std
-:
-:
-any
-:
-:
-Any
+ErasedLocalState
 >
 )
 {

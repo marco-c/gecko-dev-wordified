@@ -43,15 +43,6 @@ LICENSE
 file
 .
 use
-std
-:
-:
-any
-:
-:
-Any
-;
-use
 crate
 :
 :
@@ -62,6 +53,7 @@ render
 {
 Channels
 ChannelsMut
+ErasedLocalState
 RunInPlaceStage
 internal
 :
@@ -265,8 +257,7 @@ Option
 <
 &
 mut
-dyn
-Any
+ErasedLocalState
 >
 )
 {
@@ -454,8 +445,7 @@ Option
 <
 &
 mut
-dyn
-Any
+ErasedLocalState
 >
 )
 {

@@ -54,15 +54,6 @@ needless_range_loop
 )
 ]
 use
-std
-:
-:
-any
-:
-:
-Any
-;
-use
 crate
 :
 :
@@ -78,6 +69,7 @@ render
 :
 :
 {
+ErasedLocalState
 RenderPipelineInOutStage
 RenderPipelineInPlaceStage
 RunInOutStage
@@ -164,8 +156,7 @@ Option
 <
 &
 mut
-dyn
-Any
+ErasedLocalState
 >
 )
 {
@@ -558,8 +549,7 @@ Option
 <
 &
 mut
-dyn
-Any
+ErasedLocalState
 >
 )
 {

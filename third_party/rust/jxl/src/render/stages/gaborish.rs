@@ -52,6 +52,7 @@ render
 {
 Channels
 ChannelsMut
+ErasedLocalState
 RenderPipelineInOutStage
 }
 ;
@@ -812,14 +813,7 @@ Option
 <
 &
 mut
-dyn
-std
-:
-:
-any
-:
-:
-Any
+ErasedLocalState
 >
 )
 {

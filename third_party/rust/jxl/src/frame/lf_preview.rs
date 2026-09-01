@@ -95,6 +95,7 @@ buffer_splitter
 :
 {
 BufferSplitter
+OutputChannelRef
 SaveStageBufferInfo
 }
 low_memory_pipeline
@@ -173,11 +174,7 @@ mut
 [
 Option
 <
-JxlOutputBuffer
-<
-'
-_
->
+OutputChannelRef
 >
 ]
 full_size
@@ -534,7 +531,6 @@ upsample_stage
 .
 init_local_state
 (
-0
 )
 ?
 .
@@ -2431,7 +2427,6 @@ output_buffers
 ]
 ;
 let
-mut
 bufs
 =
 BufferSplitter
@@ -2444,6 +2439,15 @@ mut
 bufs
 )
 ;
+/
+/
+TODO
+(
+veluca
+)
+:
+parallelize
+this
 for
 r
 in
