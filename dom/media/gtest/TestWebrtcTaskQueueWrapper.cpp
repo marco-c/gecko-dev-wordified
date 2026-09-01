@@ -133,7 +133,10 @@ GetCurrentSerialEventTarget
 TestWebrtcTaskQueueWrapper
 "
 _ns
-true
+TailDispatchPolicy
+:
+:
+ConsistentOrdering
 )
 ;
 }
