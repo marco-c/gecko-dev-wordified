@@ -386,6 +386,13 @@ GCMarkingLock
 \
 _
 (
+GCAtomRefLock
+550
+)
+\
+\
+_
+(
 SharedImmutableStringsCache
 600
 )

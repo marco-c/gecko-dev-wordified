@@ -3330,6 +3330,13 @@ Black
 ;
 }
 }
+AutoMarkingLock
+lock
+(
+zone
+atomRefLock
+)
+;
 size_t
 bit
 =
