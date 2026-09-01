@@ -959,9 +959,6 @@ gTest0TimerCallback
 =
 {
 notify
-:
-function
-T0CB_notify
 (
 )
 {
@@ -1024,9 +1021,6 @@ gTest0Factory
 =
 {
 createInstance
-:
-function
-T0F_createInstance
 (
 aIID
 )
@@ -1047,9 +1041,6 @@ gTest1TimerCallback
 =
 {
 notify
-:
-function
-T1CB_notify
 (
 )
 {
@@ -1112,9 +1103,6 @@ gTest1Factory
 =
 {
 createInstance
-:
-function
-T1F_createInstance
 (
 aIID
 )
@@ -1135,9 +1123,6 @@ gTest2TimerCallback
 =
 {
 notify
-:
-function
-T2CB_notify
 (
 )
 {
@@ -1200,9 +1185,6 @@ gTest2Factory
 =
 {
 createInstance
-:
-function
-T2F_createInstance
 (
 aIID
 )
@@ -1241,9 +1223,6 @@ gTest3Factory
 =
 {
 createInstance
-:
-function
-T3F_createInstance
 (
 aIID
 )
@@ -1264,9 +1243,6 @@ gTest4TimerCallback
 =
 {
 notify
-:
-function
-T4CB_notify
 (
 )
 {
@@ -1319,9 +1295,6 @@ gTest4Factory
 =
 {
 createInstance
-:
-function
-T4F_createInstance
 (
 aIID
 )
@@ -1342,9 +1315,6 @@ gTest5TimerCallback
 =
 {
 notify
-:
-function
-T5CB_notify
 (
 )
 {
@@ -1397,9 +1367,6 @@ gTest5Factory
 =
 {
 createInstance
-:
-function
-T5F_createInstance
 (
 aIID
 )
@@ -1420,9 +1387,6 @@ gTest6TimerCallback
 =
 {
 notify
-:
-function
-T6CB_notify
 (
 )
 {
@@ -1475,9 +1439,6 @@ gTest6Factory
 =
 {
 createInstance
-:
-function
-T6F_createInstance
 (
 aIID
 )
@@ -1498,9 +1459,6 @@ gTest7TimerCallback
 =
 {
 notify
-:
-function
-T7CB_notify
 (
 )
 {
@@ -1553,9 +1511,6 @@ gTest7Factory
 =
 {
 createInstance
-:
-function
-T7F_createInstance
 (
 aIID
 )
@@ -1576,9 +1531,6 @@ gTest8TimerCallback
 =
 {
 notify
-:
-function
-T8CB_notify
 (
 )
 {
@@ -1638,9 +1590,6 @@ gTest8Factory
 =
 {
 createInstance
-:
-function
-T8F_createInstance
 (
 aIID
 )
@@ -1661,9 +1610,6 @@ gTest9TimerCallback
 =
 {
 notify
-:
-function
-T9CB_notify
 (
 )
 {
@@ -1723,9 +1669,6 @@ gTest10TimerCallback
 =
 {
 notify
-:
-function
-T9CB_notify
 (
 )
 {
@@ -1779,9 +1722,6 @@ gTest9Factory
 =
 {
 createInstance
-:
-function
-T9F_createInstance
 (
 aIID
 )
