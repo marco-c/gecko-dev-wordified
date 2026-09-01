@@ -2959,10 +2959,9 @@ aFontInfoData
 {
 if
 (
-mCharacterMap
-|
-|
-mShmemCharacterMap
+HasCharacterMap
+(
+)
 )
 {
 return
@@ -3591,6 +3590,12 @@ if
 setCharMap
 )
 {
+AutoWriteLock
+lock
+(
+mLock
+)
+;
 if
 (
 mCharacterMap

@@ -3712,7 +3712,9 @@ blank
 cmap
 if
 (
-mCharacterMap
+HasCharacterMap
+(
+)
 )
 {
 return
@@ -3959,6 +3961,12 @@ if
 setCharMap
 )
 {
+AutoWriteLock
+lock
+(
+mLock
+)
+;
 if
 (
 mCharacterMap
@@ -4031,7 +4039,9 @@ charmap
 -
 >
 mHash
-mCharacterMap
+GetCharacterMapRaw
+(
+)
 =
 =
 charmap
