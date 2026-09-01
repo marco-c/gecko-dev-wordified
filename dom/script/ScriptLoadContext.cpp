@@ -1756,7 +1756,7 @@ aInstantiationStorage
 {
 RefPtr
 <
-CompileOrDecodeTask
+StencilCompileOrDecodeTask
 >
 compileOrDecodeTask
 =
