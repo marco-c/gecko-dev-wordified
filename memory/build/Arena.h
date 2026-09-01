@@ -1761,10 +1761,9 @@ free
 list
 pointers
 in
-TypedBaseAlloc
-<
-arena_t
->
+the
+base
+allocator
 don
 '
 t
