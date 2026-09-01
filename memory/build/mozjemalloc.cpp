@@ -25397,12 +25397,17 @@ DefineGlobals
 ;
 #
 endif
+#
+ifndef
+XP_WIN
 gCache
 .
 Init
 (
 )
 ;
+#
+endif
 huge_init
 (
 )
