@@ -66,13 +66,6 @@ geckoview
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 content
 .
 ContentResolver
@@ -223,12 +216,6 @@ in
 fact
 okay
 .
-SuppressLint
-(
-"
-StaticFieldLeak
-"
-)
 private
 static
 final

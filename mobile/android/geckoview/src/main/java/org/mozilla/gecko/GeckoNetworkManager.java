@@ -66,13 +66,6 @@ gecko
 import
 android
 .
-annotation
-.
-SuppressLint
-;
-import
-android
-.
 content
 .
 BroadcastReceiver
@@ -3199,12 +3192,6 @@ return
 0
 ;
 }
-SuppressLint
-(
-"
-MissingPermission
-"
-)
 final
 DhcpInfo
 d
