@@ -128,7 +128,6 @@ elements
 /
 class
 MathMLElement
-final
 :
 public
 MathMLElementBase
