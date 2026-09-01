@@ -305,16 +305,6 @@ yaml
 "
 dom
 /
-cache
-/
-metrics
-.
-yaml
-"
-    
-"
-dom
-/
 canvas
 /
 metrics
