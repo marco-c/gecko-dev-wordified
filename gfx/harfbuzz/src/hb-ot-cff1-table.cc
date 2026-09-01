@@ -3346,6 +3346,11 @@ bool
 in_seac
 =
 false
+int64_t
+*
+budget
+=
+nullptr
 )
 ;
 struct
@@ -3558,6 +3563,9 @@ bounds_t
 bounds
 bool
 in_seac
+int64_t
+*
+budget
 )
 {
 bounds
@@ -3665,6 +3673,7 @@ interp
 interpret
 (
 param
+budget
 )
 )
 )
@@ -3701,6 +3710,9 @@ glyph
 hb_glyph_extents_t
 *
 extents
+int64_t
+*
+budget
 )
 const
 {
@@ -3739,6 +3751,8 @@ _get_bounds
 this
 glyph
 bounds
+false
+budget
 )
 )
 return
@@ -4398,6 +4412,11 @@ point_t
 delta
 =
 nullptr
+int64_t
+*
+budget
+=
+nullptr
 )
 ;
 struct
@@ -4614,6 +4633,9 @@ in_seac
 point_t
 *
 delta
+int64_t
+*
+budget
 )
 {
 if
@@ -4718,6 +4740,7 @@ interp
 interpret
 (
 param
+budget
 )
 )
 )
@@ -4772,6 +4795,9 @@ glyph
 hb_draw_session_t
 &
 draw_session
+int64_t
+*
+budget
 )
 const
 {
@@ -4806,6 +4832,9 @@ this
 font
 glyph
 draw_session
+false
+nullptr
+budget
 )
 ;
 }

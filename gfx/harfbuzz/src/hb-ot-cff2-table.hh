@@ -2885,6 +2885,11 @@ const
 int
 >
 coords
+int64_t
+*
+budget
+=
+nullptr
 )
 const
 ;
@@ -2921,6 +2926,11 @@ const
 int
 >
 coords
+int64_t
+*
+budget
+=
+nullptr
 )
 const
 ;

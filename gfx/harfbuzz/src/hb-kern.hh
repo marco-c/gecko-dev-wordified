@@ -433,7 +433,7 @@ continue
 }
 skippy_iter
 .
-reset
+reset_fast
 (
 idx
 )
@@ -442,6 +442,8 @@ unsigned
 unsafe_to
 ;
 if
+(
+unlikely
 (
 !
 skippy_iter
@@ -452,10 +454,11 @@ next
 unsafe_to
 )
 )
+)
 {
 idx
-+
-+
+=
+unsafe_to
 ;
 continue
 ;

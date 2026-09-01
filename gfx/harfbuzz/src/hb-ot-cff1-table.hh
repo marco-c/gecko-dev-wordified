@@ -8258,6 +8258,11 @@ glyph
 hb_glyph_extents_t
 *
 extents
+int64_t
+*
+budget
+=
+nullptr
 )
 const
 ;
@@ -8273,6 +8278,11 @@ glyph
 hb_draw_session_t
 &
 draw_session
+int64_t
+*
+budget
+=
+nullptr
 )
 const
 ;

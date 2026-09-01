@@ -659,6 +659,9 @@ this
 face
 )
 ;
+#
+ifndef
+HB_NO_MATH
 face
 -
 >
@@ -672,6 +675,11 @@ depend
 this
 )
 ;
+#
+endif
+#
+ifndef
+HB_NO_COLOR
 face
 -
 >
@@ -685,6 +693,8 @@ depend
 this
 )
 ;
+#
+endif
 face
 -
 >
@@ -698,6 +708,9 @@ depend
 this
 )
 ;
+#
+ifndef
+HB_NO_CFF
 OT
 :
 :
@@ -711,6 +724,8 @@ depend
 this
 )
 ;
+#
+endif
 /
 *
 XXX
