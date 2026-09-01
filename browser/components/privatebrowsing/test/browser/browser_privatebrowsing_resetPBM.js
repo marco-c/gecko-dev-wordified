@@ -4802,7 +4802,12 @@ closed
 )
 ;
 await
+Promise
+.
+all
+(
 promisesTabsClosed
+)
 ;
 Assert
 .
