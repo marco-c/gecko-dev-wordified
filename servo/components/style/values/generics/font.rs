@@ -1929,6 +1929,7 @@ Copy
 Debug
 Deserialize
 MallocSizeOf
+Parse
 PartialEq
 Serialize
 SpecifiedValueInfo
