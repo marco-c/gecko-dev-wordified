@@ -20469,7 +20469,7 @@ inherited
 false
 type
 :
-CSS_TYPE_SHORTHAND_AND_LONGHAND
+CSS_TYPE_LEGACY_SHORTHAND
 alias_for
 :
 "
