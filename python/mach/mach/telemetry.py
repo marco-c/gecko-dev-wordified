@@ -1153,8 +1153,15 @@ Path
 from
 mozversioncontrol
 import
+(
+        
 InvalidRepoPath
+        
+StaleWorkspaceError
+        
 get_repository_object
+    
+)
     
 try
 :
@@ -1170,7 +1177,10 @@ topsrcdir
 )
     
 except
+(
 InvalidRepoPath
+StaleWorkspaceError
+)
 :
         
 return

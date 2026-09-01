@@ -56,44 +56,13 @@ MPL
 import
 abc
 import
-re
+subprocess
 import
 sys
 from
 pathlib
 import
 Path
-from
-threading
-import
-Thread
-import
-sentry_sdk
-from
-mozversioncontrol
-import
-(
-    
-InvalidRepoPath
-    
-MissingUpstreamRepo
-    
-MissingVCSTool
-    
-get_repository_object
-)
-from
-mach
-.
-telemetry
-import
-is_telemetry_enabled
-from
-mach
-.
-util
-import
-get_state_dir
 #
 https
 :
@@ -191,6 +160,9 @@ exception
 )
 :
         
+import
+sentry_sdk
+        
 return
 sentry_sdk
 .
@@ -265,6 +237,21 @@ Path
 )
 :
     
+from
+threading
+import
+Thread
+    
+import
+sentry_sdk
+    
+from
+mach
+.
+telemetry
+import
+is_telemetry_enabled
+    
 if
 not
 is_telemetry_enabled
@@ -314,6 +301,7 @@ init
 (
         
 _SENTRY_DSN
+        
 before_send
 =
 lambda
@@ -325,6 +313,10 @@ _process_event
 event
 topsrcdir
 )
+        
+auto_enabling_integrations
+=
+False
     
 )
     
@@ -642,6 +634,9 @@ grouping
 behaves
 as
 expected
+    
+import
+re
     
 stacktrace_frames
 =
@@ -1011,6 +1006,16 @@ else
             
 return
 value
+    
+import
+re
+    
+from
+mach
+.
+util
+import
+get_state_dir
     
 for
 target_path
@@ -1543,6 +1548,21 @@ Path
 )
 :
     
+from
+mozversioncontrol
+import
+(
+        
+InvalidRepoPath
+        
+MissingVCSTool
+        
+StaleWorkspaceError
+        
+get_repository_object
+    
+)
+    
 try
 :
         
@@ -1580,6 +1600,13 @@ sys
 .
 stderr
 )
+        
+return
+None
+    
+except
+StaleWorkspaceError
+:
         
 return
 None
@@ -1719,12 +1746,24 @@ tree
 global
 _is_unmodified_mach_core_result
     
+_is_unmodified_mach_core_result
+=
+False
+    
 repo
 =
 _get_repository_object
 (
 topsrcdir
 )
+    
+if
+repo
+is
+None
+:
+        
+return
     
 try
 :
@@ -1748,14 +1787,25 @@ get_changed_files
 (
 )
 )
+    
+except
+(
+subprocess
+.
+CalledProcessError
+OSError
+)
+:
         
+return
+    
 _is_unmodified_mach_core_result
 =
 not
 any
 (
 [
-            
+        
 file
 for
 file
@@ -1778,43 +1828,9 @@ endswith
 py
 "
 )
-        
+    
 ]
 )
-    
-except
-MissingUpstreamRepo
-:
-        
-#
-If
-we
-don
-'
-t
-know
-the
-upstream
-state
-we
-don
-'
-t
-know
-if
-the
-mach
-files
-        
-#
-have
-been
-unmodified
-.
-        
-_is_unmodified_mach_core_result
-=
-False
 _is_unmodified_mach_core_result
 =
 None
