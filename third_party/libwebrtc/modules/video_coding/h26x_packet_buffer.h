@@ -285,6 +285,13 @@ string
 sprop_parameter_sets
 )
 ;
+void
+SetH264IdrOnlyKeyframesAllowed
+(
+bool
+allowed
+)
+;
 private
 :
 /
@@ -635,9 +642,10 @@ PPS
 are
 allowed
 .
-const
 bool
 h264_idr_only_keyframes_allowed_
+=
+false
 ;
 std
 :
