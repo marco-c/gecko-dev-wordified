@@ -19116,7 +19116,7 @@ ATOM_BIT
 /
 masm
 .
-or32
+nor32
 (
 Imm32
 (
@@ -19127,13 +19127,6 @@ StringFlags
 ATOM_BIT
 )
 temp1
-temp2
-)
-;
-masm
-.
-not32
-(
 temp2
 )
 ;
