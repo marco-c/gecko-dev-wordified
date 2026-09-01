@@ -177,9 +177,6 @@ Ok
 CrashHelperClient
 {
 connector
-spawner_thread
-:
-None
 pid
 :
 0
