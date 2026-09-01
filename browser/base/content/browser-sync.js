@@ -16322,6 +16322,9 @@ config
 .
 promiseConnectAccountURI
 (
+"
+sync
+"
 entryPoint
 )
 ;
@@ -16402,6 +16405,9 @@ config
 .
 promiseConnectDeviceURI
 (
+"
+sync
+"
 entryPoint
 )
 ;
@@ -16994,6 +17000,9 @@ config
 .
 promiseConnectAccountURI
 (
+"
+sync
+"
 entryPoint
 extraParams
 )
@@ -22742,6 +22751,9 @@ config
 .
 promiseConnectAccountURI
 (
+"
+sync
+"
 entryPoint
 {
 }

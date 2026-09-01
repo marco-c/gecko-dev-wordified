@@ -694,6 +694,9 @@ config
 .
 promiseConnectDeviceURI
 (
+"
+sync
+"
 SyncHelpers
 .
 getEntryPoint

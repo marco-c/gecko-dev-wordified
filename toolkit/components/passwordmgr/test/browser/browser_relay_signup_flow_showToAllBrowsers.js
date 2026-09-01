@@ -1843,11 +1843,6 @@ const
 relayParams
 =
 {
-service
-:
-"
-relay
-"
 utm_source
 :
 "
@@ -1876,6 +1871,9 @@ config
 .
 promiseConnectAccountURI
 (
+"
+relay
+"
 "
 relay_integration
 "
