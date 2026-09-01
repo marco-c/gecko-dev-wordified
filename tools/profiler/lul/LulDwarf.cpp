@@ -8198,10 +8198,17 @@ end
 unsigned
 opcode
 =
+static_cast
+<
+unsigned
+char
+>
+(
 *
 cursor_
 +
 +
+)
 ;
 if
 (
