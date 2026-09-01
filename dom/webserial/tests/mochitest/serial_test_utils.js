@@ -495,6 +495,10 @@ deviceId
 devicePath
 vendorId
 productId
+bluetoothServiceClassId
+=
+"
+"
 )
 {
 await
@@ -508,6 +512,7 @@ deviceId
 devicePath
 vendorId
 productId
+bluetoothServiceClassId
 )
 ;
 }
