@@ -1206,9 +1206,6 @@ resolve_is_employee
 topsrcdir
 :
 Path
-state_dir
-:
-Path
 settings
 )
 :
@@ -1358,7 +1355,6 @@ None
 record_is_employee_telemetry_setting
 (
 settings
-state_dir
 is_employee_by_creds
 )
         
@@ -1382,7 +1378,6 @@ None
 record_is_employee_telemetry_setting
 (
 settings
-state_dir
 is_employee_by_vcs
 )
         
@@ -1395,7 +1390,6 @@ def
 record_is_employee_telemetry_setting
 (
 settings
-state_dir
 is_employee
 )
 :
@@ -1433,16 +1427,18 @@ settings
 import
 MachSettings
     
+from
+mach
+.
+util
+import
+get_global_machrc_path
+    
 settings_path
 =
-Path
+get_global_machrc_path
 (
-state_dir
 )
-/
-"
-machrc
-"
     
 file_settings
 =
@@ -1562,10 +1558,6 @@ record_telemetry_settings
     
 main_settings
     
-state_dir
-:
-Path
-    
 is_enabled
 )
 :
@@ -1586,6 +1578,13 @@ mach
 settings
 import
 MachSettings
+    
+from
+mach
+.
+util
+import
+get_global_machrc_path
     
 #
 We
@@ -1655,11 +1654,9 @@ it
     
 settings_path
 =
-state_dir
-/
-"
-machrc
-"
+get_global_machrc_path
+(
+)
     
 file_settings
 =
@@ -2091,9 +2088,6 @@ settings
 topsrcdir
 :
 str
-state_dir
-:
-str
 )
 :
     
@@ -2168,20 +2162,6 @@ topsrcdir
 )
     
 if
-state_dir
-is
-not
-None
-:
-        
-state_dir
-=
-Path
-(
-state_dir
-)
-    
-if
 os
 .
 environ
@@ -2206,7 +2186,6 @@ is_employee
 resolve_is_employee
 (
 topsrcdir
-state_dir
 settings
 )
     
@@ -2234,6 +2213,5 @@ prompt_telemetry_message_contributor
 record_telemetry_settings
 (
 settings
-state_dir
 is_enabled
 )
