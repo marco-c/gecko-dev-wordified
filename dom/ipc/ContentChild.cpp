@@ -23415,6 +23415,10 @@ CrossProcessRedirectResolver
 aResolve
 )
 {
+MaybeBecomeUntrusted
+(
+)
+;
 nsCOMPtr
 <
 nsILoadInfo
