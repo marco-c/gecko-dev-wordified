@@ -181,7 +181,7 @@ windowGlobalChild
 getActor
 (
 "
-Pdfjs
+PdfJs
 "
 )
 ;

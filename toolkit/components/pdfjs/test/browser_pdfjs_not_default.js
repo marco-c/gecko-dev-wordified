@@ -94,14 +94,14 @@ don
 t
 have
 the
-Pdfjs
+PdfJs
 actor
 loaded
 this
 will
 throw
 await
-getPdfjsActor
+getPdfJsActor
 (
 )
 ;
@@ -136,7 +136,7 @@ true
 )
 ;
 function
-getPdfjsActor
+getPdfJsActor
 (
 )
 {
@@ -175,7 +175,7 @@ currentWindowGlobal
 getActor
 (
 "
-Pdfjs
+PdfJs
 "
 )
 ;

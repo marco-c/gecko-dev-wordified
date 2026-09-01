@@ -339,7 +339,7 @@ resultListener
 ;
 }
 function
-waitForPdfjsResult
+waitForPdfJSResult
 (
 findbar
 )
@@ -359,7 +359,9 @@ intercept
 the
 results
 from
-pdfjs
+PDF
+.
+js
 .
 .
 .
@@ -664,7 +666,7 @@ findbar
 "
 Mozilla
 "
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -852,7 +854,7 @@ doFind
 (
 findbar
 searchString
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -929,7 +931,7 @@ findbar
 "
 MozooOOX
 "
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -1103,7 +1105,7 @@ findbar
 "
 B2G
 "
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -1131,7 +1133,7 @@ await
 doFindNext
 (
 findbar
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -1181,7 +1183,7 @@ await
 doFindNext
 (
 findbar
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -1339,7 +1341,7 @@ findbar
 "
 Mozilla
 "
-waitForPdfjsResult
+waitForPdfJSResult
 )
 ;
 is
@@ -1413,10 +1415,12 @@ i
 .
 e
 .
-Pdfjs
+PDF
+.
+js
 disables
 its
-pdfjs
+find
 interception
 /
 /

@@ -2141,7 +2141,7 @@ name
 {
 }
 "
-Pdfjs
+PdfJs
 "
 )
 ;
