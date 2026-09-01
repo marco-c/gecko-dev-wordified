@@ -578,6 +578,16 @@ for
 it
 .
 ValueTooLarge
+/
+/
+/
+An
+incorrect
+password
+was
+provided
+.
+WrongPassword
 }
 impl
 fmt
@@ -614,7 +624,7 @@ error_type_str
 match
 self
 {
-ErrorType
+Self
 :
 :
 ExternalError
@@ -623,7 +633,7 @@ ExternalError
 "
 ExternalError
 "
-ErrorType
+Self
 :
 :
 ExtraInput
@@ -632,7 +642,7 @@ ExtraInput
 "
 ExtraInput
 "
-ErrorType
+Self
 :
 :
 InvalidArgument
@@ -641,7 +651,7 @@ InvalidArgument
 "
 InvalidArgument
 "
-ErrorType
+Self
 :
 :
 InvalidInput
@@ -650,7 +660,7 @@ InvalidInput
 "
 InvalidInput
 "
-ErrorType
+Self
 :
 :
 LibraryFailure
@@ -659,7 +669,7 @@ LibraryFailure
 "
 LibraryFailure
 "
-ErrorType
+Self
 :
 :
 TruncatedInput
@@ -668,7 +678,7 @@ TruncatedInput
 "
 TruncatedInput
 "
-ErrorType
+Self
 :
 :
 UnsupportedInput
@@ -677,7 +687,7 @@ UnsupportedInput
 "
 UnsupportedInput
 "
-ErrorType
+Self
 :
 :
 ValueTooLarge
@@ -685,6 +695,15 @@ ValueTooLarge
 >
 "
 ValueTooLarge
+"
+Self
+:
+:
+WrongPassword
+=
+>
+"
+WrongPassword
 "
 }
 ;
