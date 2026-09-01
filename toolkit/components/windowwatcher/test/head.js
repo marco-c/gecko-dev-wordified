@@ -580,13 +580,7 @@ true
 CHROME_TITLEBAR
 :
 true
-CHROME_MENUBAR
-:
-true
 CHROME_TOOLBAR
-:
-true
-CHROME_PERSONAL_TOOLBAR
 :
 true
 }
@@ -601,13 +595,7 @@ true
 CHROME_TITLEBAR
 :
 true
-CHROME_MENUBAR
-:
-false
 CHROME_TOOLBAR
-:
-false
-CHROME_PERSONAL_TOOLBAR
 :
 false
 }

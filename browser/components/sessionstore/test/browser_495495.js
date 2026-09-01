@@ -128,16 +128,10 @@ _blank
 "
 "
 chrome
-extrachrome
-menubar
 resizable
-status
 toolbar
 =
 no
-location
-personal
-directories
 dialog
 =
 no

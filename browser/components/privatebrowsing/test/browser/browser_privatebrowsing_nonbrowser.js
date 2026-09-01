@@ -94,10 +94,7 @@ _blank
 "
 "
 chrome
-extrachrome
-menubar
 resizable
-status
 toolbar
 "
 )
