@@ -6788,6 +6788,16 @@ nodiscard
 ]
 ]
 bool
+emitCheckYieldResumeKind
+(
+)
+;
+[
+[
+nodiscard
+]
+]
+bool
 emitCheckAwaitResumeKind
 (
 )
