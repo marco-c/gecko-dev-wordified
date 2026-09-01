@@ -2534,6 +2534,17 @@ checks
 for
 synthesized
 clicks
+and
+AccessibilityUtils
+reads
+/
+/
+its
+popup
+helpers
+at
+load
+time
 .
 this
 .
