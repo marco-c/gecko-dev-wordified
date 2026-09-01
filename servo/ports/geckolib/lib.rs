@@ -125,7 +125,10 @@ allocators
 .
 #
 [
+unsafe
+(
 no_mangle
+)
 ]
 pub
 extern
