@@ -310,24 +310,18 @@ BOOKMARK_FREQUENCY
 )
         
 #
-we
-'
-re
-syncing
-only
-on
-desktop
+Syncing
+is
+disabled
 for
-now
+all
+platforms
         
 self
 .
 syncing
 =
-not
-self
-.
-mobile
+False
         
 if
 self
