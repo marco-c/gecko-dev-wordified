@@ -142,9 +142,9 @@ isFinal
 isInPath
 (
 "
-/
 dom
 /
+html
 "
 )
 has
