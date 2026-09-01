@@ -12970,11 +12970,9 @@ aY
 )
 ;
 }
-RefPtr
-<
 const
 AccAttributes
->
+*
 RemoteAccessible
 :
 :
@@ -13023,7 +13021,7 @@ attrs
 mCachedFields
 -
 >
-GetAttributeRefPtr
+GetAttributeWeakPtr
 <
 AccAttributes
 >
@@ -13210,11 +13208,9 @@ continue
 }
 if
 (
-RefPtr
-<
 const
 AccAttributes
->
+*
 parentAttrs
 =
 parent
@@ -18940,11 +18936,9 @@ IsText
 {
 if
 (
-RefPtr
-<
 const
 AccAttributes
->
+*
 attrs
 =
 aAcc
