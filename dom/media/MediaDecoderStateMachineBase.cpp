@@ -364,13 +364,10 @@ MDSM
 :
 mTaskQueue
 "
-/
-*
-aSupportsTailDispatch
-=
-*
-/
-true
+TailDispatchPolicy
+:
+:
+ConsistentOrdering
 )
 )
 mReader

@@ -195,13 +195,10 @@ SUPERVISOR
 "
 TestStateMirroring
 "
-/
-*
-aSupportsTailDispatch
-=
-*
-/
-true
+TailDispatchPolicy
+:
+:
+ConsistentOrdering
 )
 )
 mCanonical
