@@ -50,7 +50,7 @@ equal
 (
 tab
 .
-_tPos
+index
 expectedTabIndex
 tab
 {

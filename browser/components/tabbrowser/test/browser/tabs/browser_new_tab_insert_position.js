@@ -1158,7 +1158,7 @@ is
 (
 openTab
 .
-_tPos
+index
 openTabIndex
 kDescription
 +
@@ -1311,7 +1311,7 @@ is
 (
 secondOpenTab
 .
-_tPos
+index
 secondOpenTabIndex
 kDescription
 +
@@ -1478,7 +1478,7 @@ is
 (
 unrelatedMidTab
 .
-_tPos
+index
 unrelatedMidIndex
 kDescription
 +
@@ -1529,7 +1529,7 @@ is
 (
 thirdOpenTab
 .
-_tPos
+index
 thirdOpenTabIndex
 kDescription
 +
@@ -1763,7 +1763,7 @@ is
 (
 unrelatedTab
 .
-_tPos
+index
 openTabIndex
 {
 kDescription
@@ -2021,7 +2021,7 @@ is
 (
 relatedTab
 .
-_tPos
+index
 relatedIndex
 kDescription
 +
@@ -2069,7 +2069,7 @@ secondRelatedIndex
 =
 relatedTab
 .
-_tPos
+index
 +
 1
 ;
@@ -2115,7 +2115,7 @@ is
 (
 secondRelatedTab
 .
-_tPos
+index
 secondRelatedIndex
 kDescription
 +
@@ -2373,7 +2373,7 @@ gBrowser
 .
 selectedTab
 .
-_tPos
+index
 +
 1
 :

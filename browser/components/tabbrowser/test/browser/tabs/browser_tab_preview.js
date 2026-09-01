@@ -8622,7 +8622,7 @@ tabIndex
 :
 tabToMove
 .
-_tPos
+index
 -
 1
 }

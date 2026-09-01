@@ -397,7 +397,7 @@ is
 (
 tab1
 .
-_tPos
+index
 0
 "
 Tab1
@@ -414,7 +414,7 @@ is
 (
 tab2
 .
-_tPos
+index
 1
 "
 Tab2
@@ -431,7 +431,7 @@ is
 (
 tab3
 .
-_tPos
+index
 2
 "
 Tab3
@@ -615,7 +615,7 @@ is
 (
 tab1
 .
-_tPos
+index
 0
 "
 Tab1
@@ -632,7 +632,7 @@ is
 (
 tab2
 .
-_tPos
+index
 1
 "
 Tab2
@@ -649,7 +649,7 @@ is
 (
 tab3
 .
-_tPos
+index
 2
 "
 Tab3
