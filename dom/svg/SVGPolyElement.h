@@ -208,12 +208,12 @@ aMarks
 )
 override
 ;
-bool
+Maybe
+<
+Rect
+>
 GetGeometryBounds
 (
-Rect
-*
-aBounds
 const
 StrokeOptions
 &

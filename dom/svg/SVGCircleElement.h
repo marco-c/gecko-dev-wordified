@@ -219,12 +219,12 @@ override
 SVGGeometryElement
 methods
 :
-bool
+Maybe
+<
+Rect
+>
 GetGeometryBounds
 (
-Rect
-*
-aBounds
 const
 StrokeOptions
 &
