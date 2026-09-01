@@ -446,7 +446,8 @@ focus
 rect
 when
 our
-nsSelectsAreaFrame
+scrolled
+frame
 is
 painting
 .

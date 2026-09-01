@@ -3769,7 +3769,8 @@ e
 g
 .
 for
-nsSelectsAreaFrame
+scrolled
+frames
 .
 )
 (

@@ -1988,7 +1988,8 @@ do
 our
 /
 /
-nsSelectsAreaFrame
+scrolled
+frame
 will
 have
 suppressed
