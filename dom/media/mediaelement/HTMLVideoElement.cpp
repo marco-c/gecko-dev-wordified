@@ -2133,6 +2133,7 @@ HTMLVideoElement
 GetVideoIntrinsicDimensions
 (
 )
+const
 {
 const
 auto
@@ -2211,6 +2212,7 @@ HTMLVideoElement
 VideoWidth
 (
 )
+const
 {
 if
 (
@@ -2281,6 +2283,7 @@ HTMLVideoElement
 VideoHeight
 (
 )
+const
 {
 if
 (

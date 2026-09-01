@@ -457,11 +457,13 @@ uint32_t
 VideoWidth
 (
 )
+const
 ;
 uint32_t
 VideoHeight
 (
 )
+const
 ;
 VideoRotation
 RotationDegrees
@@ -858,6 +860,7 @@ IntSize
 GetVideoIntrinsicDimensions
 (
 )
+const
 ;
 RefPtr
 <
