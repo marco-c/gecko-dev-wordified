@@ -2940,6 +2940,7 @@ Tenured
 =
 0
 Nursery
+RebuildFreeLists
 }
 ;
 /
@@ -4582,6 +4583,14 @@ sweepKind
 size_t
 *
 usedBytesOut
+)
+;
+void
+rebuildFreeLists
+(
+BufferChunk
+*
+chunk
 )
 ;
 void
