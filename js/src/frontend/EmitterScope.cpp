@@ -2621,7 +2621,7 @@ emitInitialize
 ForOfLoopControl
 :
 :
-emitPrepareForNonLocalJumpFromScope
+emitIteratorCloseForNonLocalExits
 and
 /
 /
