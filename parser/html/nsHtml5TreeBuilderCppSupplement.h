@@ -1206,11 +1206,6 @@ mode
 !
 =
 IN_TEMPLATE
-&
-&
-isTemplateModeStackEmpty
-(
-)
 )
 {
 switch
