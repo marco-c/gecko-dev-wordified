@@ -4399,6 +4399,13 @@ inGC
 )
 ;
 bool
+tryToStealQueuedChunk
+(
+size_t
+sizeClass
+)
+;
+bool
 allocNewChunk
 (
 bool
