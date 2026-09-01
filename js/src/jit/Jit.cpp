@@ -1648,10 +1648,6 @@ WarpBuilder
 :
 :
 build_AfterYield
-and
-/
-/
-build_CheckResumeKind
 .
 JitScript
 *

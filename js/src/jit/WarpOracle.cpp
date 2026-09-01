@@ -4292,12 +4292,6 @@ case
 JSOp
 :
 :
-IsGenClosing
-:
-case
-JSOp
-:
-:
 IsNullOrUndefined
 :
 case
@@ -4389,12 +4383,6 @@ JSOp
 :
 :
 AsyncReject
-:
-case
-JSOp
-:
-:
-CheckResumeKind
 :
 case
 JSOp

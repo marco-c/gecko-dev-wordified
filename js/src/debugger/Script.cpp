@@ -10524,12 +10524,6 @@ case
 JSOp
 :
 :
-IsGenClosing
-:
-case
-JSOp
-:
-:
 FinalYieldRval
 :
 case
@@ -10537,12 +10531,6 @@ JSOp
 :
 :
 Resume
-:
-case
-JSOp
-:
-:
-CheckResumeKind
 :
 case
 JSOp
