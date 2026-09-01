@@ -2618,11 +2618,6 @@ PDocAccessibleParent
 *
 AllocPDocAccessibleParent
 (
-a11y
-:
-:
-PDocAccessibleParent
-*
 const
 uint64_t
 &
@@ -2656,12 +2651,6 @@ a11y
 PDocAccessibleParent
 *
 aDoc
-a11y
-:
-:
-PDocAccessibleParent
-*
-aParentDoc
 const
 uint64_t
 &
