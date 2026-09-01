@@ -2535,7 +2535,6 @@ t
 splitview
 )
 ;
-+
 is
 (
 unpinnedNonSplitTabs
