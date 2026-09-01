@@ -231,6 +231,17 @@ maxSamples
 )
 ;
 void
+Clear
+(
+soundtouch
+:
+:
+SoundTouch
+*
+mTimeStretcher
+)
+;
+void
 Flush
 (
 soundtouch
