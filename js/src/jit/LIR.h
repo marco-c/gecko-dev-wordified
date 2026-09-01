@@ -15112,7 +15112,7 @@ name
 )
 {
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 is
 #
@@ -15157,7 +15157,7 @@ name
 const
 {
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 is
 #
@@ -15214,7 +15214,7 @@ type
 )
 {
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 is
 #
@@ -15265,7 +15265,7 @@ type
 const
 {
 \
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 is
 #
