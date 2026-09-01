@@ -1211,14 +1211,6 @@ RTC_GUARDED_BY
 sequenced_checker_
 )
 ;
-int64_t
-last_bwe_period_ms_
-RTC_GUARDED_BY
-(
-&
-sequenced_checker_
-)
-;
 /
 /
 Number
