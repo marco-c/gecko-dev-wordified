@@ -47969,7 +47969,7 @@ youtube
 .
 enabled
 "
-false
+true
 )
 ;
 /
