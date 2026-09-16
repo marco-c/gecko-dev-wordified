@@ -805,9 +805,6 @@ true
 displayRootNodeAsHeader
 :
 true
-focusable
-:
-false
 openLink
 :
 this
