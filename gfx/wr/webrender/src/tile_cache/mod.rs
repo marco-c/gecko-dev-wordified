@@ -9516,6 +9516,11 @@ Transform
 .
 .
 )
+|
+ClipSpaceConversion
+:
+:
+Indeterminate
 =
 >
 unreachable
@@ -14445,6 +14450,11 @@ Transform
 .
 .
 )
+|
+ClipSpaceConversion
+:
+:
+Indeterminate
 =
 >
 {
