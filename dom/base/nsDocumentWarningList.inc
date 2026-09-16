@@ -133,3 +133,7 @@ DOCUMENT_WARNING
 (
 ScreenFingerprintingProtection
 )
+DOCUMENT_WARNING
+(
+SpeechRecognitionBlockedByAIControls
+)
