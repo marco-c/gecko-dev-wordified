@@ -4487,7 +4487,7 @@ aIsFullscreen
 )
 ;
 static
-uint64_t
+int64_t
 GetSpoofedStorageLimit
 (
 )
