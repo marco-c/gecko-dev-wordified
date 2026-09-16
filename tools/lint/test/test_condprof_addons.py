@@ -1,6 +1,4 @@
 import
-importlib
-import
 tempfile
 from
 pathlib
@@ -21,61 +19,18 @@ condprof
 -
 addons
 "
-#
-Deferred
-until
-after
-conftest
-.
-py
-inserts
-tools
-/
-lint
-onto
-sys
-.
-path
-#
-since
-this
-module
-is
-imported
-before
-that
-setup
-when
-running
-via
-mozunit
-.
-main
-(
-)
-.
-def
-_get_linter_module
-(
-)
-:
-    
-return
-importlib
-.
-import_module
-(
-LINTER
-)
 def
 linter_module_mocks
 (
+    
+linter_module
     
 customizations_path
 =
 "
 .
 "
+    
 browsertime_fetches_path
 =
 "
@@ -83,6 +38,7 @@ browsertime
 .
 yml
 "
+    
 *
 *
 othermocks
@@ -97,9 +53,7 @@ patch
 multiple
 (
         
-_get_linter_module
-(
-)
+linter_module
         
 CUSTOMIZATIONS_PATH
 =
@@ -123,6 +77,7 @@ othermocks
 def
 linter_class_mocks
 (
+linter_module
 *
 *
 mocks
@@ -137,9 +92,7 @@ patch
 multiple
 (
         
-_get_linter_module
-(
-)
+linter_module
 .
 CondprofAddonsLinter
         
@@ -167,12 +120,15 @@ test_get_missing_xpi_msg
 (
 lint
 paths
+linter_module
 )
 :
     
 with
 linter_class_mocks
 (
+        
+linter_module
         
 get_firefox_addons_tar_names
 =
@@ -192,9 +148,7 @@ list
         
 instance
 =
-_get_linter_module
-(
-)
+linter_module
 .
 CondprofAddonsLinter
 (
@@ -246,6 +200,7 @@ test_xpi_missing_from_firefox_addons_tar
 (
 lint
 paths
+linter_module
 )
 :
     
@@ -267,9 +222,12 @@ json
 with
 linter_module_mocks
 (
+linter_module
 )
 linter_class_mocks
 (
+        
+linter_module
         
 get_firefox_addons_tar_names
 =
@@ -364,6 +322,7 @@ test_xpi_all_found_in_firefox_addons_tar
 (
 lint
 paths
+linter_module
 )
 :
     
@@ -465,13 +424,17 @@ xpi
 with
 linter_module_mocks
 (
+linter_module
 )
 linter_class_mocks
 (
         
+linter_module
+        
 get_firefox_addons_tar_names
 =
 get_tarnames_mock
+        
 read_json
 =
 read_json_mock
@@ -601,6 +564,8 @@ test_lint_error_on_missing_or_invalid_firefoxaddons_fetch_task
 lint
     
 paths
+    
+linter_module
 )
 :
     
@@ -651,10 +616,12 @@ found
 with
 linter_module_mocks
 (
+linter_module
 )
 linter_class_mocks
 (
         
+linter_module
 read_json
 =
 read_json_mock
@@ -728,9 +695,7 @@ call_count
             
 expected_path
 =
-_get_linter_module
-(
-)
+linter_module
 .
 BROWSERTIME_FETCHES_PATH
             
@@ -795,9 +760,7 @@ dict
             
 expected_msg
 =
-_get_linter_module
-(
-)
+linter_module
 .
 ERR_FETCH_TASK_MISSING
         
@@ -837,9 +800,7 @@ addons
             
 expected_msg
 =
-_get_linter_module
-(
-)
+linter_module
 .
 ERR_FETCH_TASK_MISSING
         
@@ -885,9 +846,7 @@ fetch
             
 expected_msg
 =
-_get_linter_module
-(
-)
+linter_module
 .
 ERR_FETCH_TASK_ADDPREFIX
         
@@ -949,9 +908,7 @@ name
             
 expected_msg
 =
-_get_linter_module
-(
-)
+linter_module
 .
 ERR_FETCH_TASK_ADDPREFIX
         
@@ -961,6 +918,7 @@ test_get_xpi_list_from_fetch_dir
 (
 lint
 paths
+linter_module
 )
 :
     
@@ -1005,6 +963,7 @@ with
 linter_module_mocks
 (
         
+linter_module
 MOZ_AUTOMATION
 =
 1
@@ -1052,9 +1011,7 @@ yml
         
 linter
 =
-_get_linter_module
-(
-)
+linter_module
 .
 CondprofAddonsLinter
 (
@@ -1114,6 +1071,7 @@ test_get_xpi_list_from_downloaded_tar
 (
 lint
 paths
+linter_module
 )
 :
     
@@ -1211,6 +1169,8 @@ tempdir
 linter_module_mocks
 (
         
+linter_module
+        
 MOZ_AUTOMATION
 =
 0
@@ -1222,6 +1182,8 @@ tempdir
 )
 linter_class_mocks
 (
+        
+linter_module
         
 download_firefox_addons_tar
 =
@@ -1255,9 +1217,7 @@ yml
         
 linter
 =
-_get_linter_module
-(
-)
+linter_module
 .
 CondprofAddonsLinter
 (
@@ -1348,6 +1308,7 @@ test_error_on_downloading_tar
 requests_get_mock
 lint
 paths
+linter_module
 )
 :
     
@@ -1392,6 +1353,7 @@ tempdir
 linter_module_mocks
 (
         
+linter_module
 MOZ_AUTOMATION
 =
 0
@@ -1460,9 +1422,7 @@ yml
         
 linter
 =
-_get_linter_module
-(
-)
+linter_module
 .
 CondprofAddonsLinter
 (
@@ -1499,9 +1459,7 @@ path
             
 =
 =
-_get_linter_module
-(
-)
+linter_module
 .
 BROWSERTIME_FETCHES_PATH
         
@@ -1526,9 +1484,7 @@ args
 f
 "
 {
-_get_linter_module
-(
-)
+linter_module
 .
 ERR_FETCH_TASK_ARCHIVE
 }
@@ -1571,6 +1527,7 @@ test_error_on_opening_tar
 requests_get_mock
 lint
 paths
+linter_module
 )
 :
     
@@ -1615,6 +1572,7 @@ tempdir
 linter_module_mocks
 (
         
+linter_module
 MOZ_AUTOMATION
 =
 0
@@ -1706,9 +1664,7 @@ yml
         
 linter
 =
-_get_linter_module
-(
-)
+linter_module
 .
 CondprofAddonsLinter
 (
@@ -1745,9 +1701,7 @@ path
             
 =
 =
-_get_linter_module
-(
-)
+linter_module
 .
 BROWSERTIME_FETCHES_PATH
         
@@ -1787,9 +1741,7 @@ startswith
 f
 "
 {
-_get_linter_module
-(
-)
+linter_module
 .
 ERR_FETCH_TASK_ARCHIVE
 }
@@ -1828,6 +1780,8 @@ test_lint_all_customization_files_when_linting_browsertime_yml
 lint
     
 paths
+    
+linter_module
 )
 :
     
@@ -1897,6 +1851,8 @@ with
 linter_module_mocks
 (
         
+linter_module
+        
 customizations_path
 =
 "
@@ -1910,6 +1866,8 @@ dir
 )
 linter_class_mocks
 (
+        
+linter_module
         
 get_firefox_addons_tar_names
 =
