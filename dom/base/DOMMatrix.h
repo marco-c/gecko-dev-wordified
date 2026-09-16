@@ -2252,6 +2252,14 @@ aSy
 ;
 DOMMatrix
 *
+PerspectiveSelf
+(
+double
+aDepth
+)
+;
+DOMMatrix
+*
 InvertSelf
 (
 )
