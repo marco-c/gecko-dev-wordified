@@ -2436,10 +2436,14 @@ package
 json
 with
 pnpm
-and
 "
     
 "
+prunes
+documentation
+and
+tests
+and
 adds
 the
 result
