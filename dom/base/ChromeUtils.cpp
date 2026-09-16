@@ -2145,7 +2145,7 @@ Name
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 true
 ;

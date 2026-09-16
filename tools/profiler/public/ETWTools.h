@@ -323,7 +323,7 @@ BaseMarkerDescription
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 false
 ;
@@ -486,7 +486,7 @@ SimpleMarker
 static
 constexpr
 bool
-StoreName
+ETWStoreName
 =
 true
 ;
@@ -607,11 +607,12 @@ uint8_t
 }
 }
 if
+constexpr
 (
 T
 :
 :
-StoreName
+ETWStoreName
 )
 {
 length
@@ -1086,11 +1087,12 @@ InputTy
 ;
 }
 if
+constexpr
 (
 T
 :
 :
-StoreName
+ETWStoreName
 )
 {
 for
@@ -2245,11 +2247,12 @@ PayloadFields
 >
 ;
 if
+constexpr
 (
 MarkerType
 :
 :
-StoreName
+ETWStoreName
 )
 {
 count
@@ -2510,7 +2513,7 @@ constexpr
 MarkerType
 :
 :
-StoreName
+ETWStoreName
 )
 {
 EventDataDescCreate
@@ -2635,7 +2638,7 @@ PayloadFields
 MarkerType
 :
 :
-StoreName
+ETWStoreName
 ?
 1
 :
@@ -2748,7 +2751,7 @@ PayloadFields
 MarkerType
 :
 :
-StoreName
+ETWStoreName
 ?
 1
 :
