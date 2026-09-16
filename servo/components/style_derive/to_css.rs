@@ -1160,13 +1160,9 @@ explicit
 (
 )
 .
-map_or
+unwrap_or
 (
 identifier
-|
-name
-|
-name
 )
 ;
 identifier
@@ -1279,7 +1275,6 @@ parse_field_attrs
 CssFieldAttrs
 >
 (
-&
 binding
 .
 ast

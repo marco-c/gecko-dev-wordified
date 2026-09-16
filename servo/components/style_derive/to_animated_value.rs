@@ -217,7 +217,6 @@ parse_field_attrs
 AnimationFieldAttrs
 >
 (
-&
 binding
 .
 ast

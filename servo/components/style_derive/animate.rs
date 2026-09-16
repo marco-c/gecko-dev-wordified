@@ -360,6 +360,14 @@ _
 >
 unsafe
 {
+use
+:
+:
+debug_unreachable
+:
+:
+debug_unreachable
+;
 debug_unreachable
 !
 (
@@ -556,7 +564,6 @@ cg
 :
 ref_pattern
 (
-&
 variant
 "
 this
@@ -574,7 +581,6 @@ cg
 :
 ref_pattern
 (
-&
 variant
 "
 other
@@ -619,7 +625,6 @@ cg
 :
 value
 (
-&
 variant
 "
 result
@@ -690,7 +695,6 @@ parse_field_attrs
 AnimationFieldAttrs
 >
 (
-&
 result
 .
 ast

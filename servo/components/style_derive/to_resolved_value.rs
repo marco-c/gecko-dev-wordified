@@ -211,7 +211,6 @@ parse_field_attrs
 ResolvedValueAttrs
 >
 (
-&
 binding
 .
 ast

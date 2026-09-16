@@ -227,7 +227,6 @@ parse_field_attrs
 ShmemFieldAttrs
 >
 (
-&
 binding
 .
 ast
