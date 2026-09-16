@@ -142,7 +142,7 @@ import
 sys
 MINIMUM_MINOR_VERSION
 =
-9
+10
 major
 minor
 =
