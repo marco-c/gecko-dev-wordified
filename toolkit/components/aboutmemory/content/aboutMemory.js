@@ -8983,7 +8983,7 @@ nsFile
 (
 aLogData
 .
-cc
+gc
 )
 .
 reveal
