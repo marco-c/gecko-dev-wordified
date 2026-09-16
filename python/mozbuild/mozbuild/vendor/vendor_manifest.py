@@ -4276,6 +4276,12 @@ stream
 True
 )
                     
+req
+.
+raise_for_status
+(
+)
+                    
 for
 data
 in
