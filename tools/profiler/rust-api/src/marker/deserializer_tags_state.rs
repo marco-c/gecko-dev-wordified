@@ -856,14 +856,8 @@ MarkerTypeFunctionsReadGuard
 pub
 fn
 iter
-<
-'
-a
->
 (
 &
-'
-a
 self
 )
 -
@@ -874,8 +868,6 @@ Iterator
 Item
 =
 &
-'
-a
 MarkerTypeFunctions
 >
 {
@@ -892,14 +884,8 @@ iter
 pub
 fn
 get
-<
-'
-a
->
 (
 &
-'
-a
 self
 deserializer_tag
 :
@@ -908,8 +894,6 @@ u8
 -
 >
 &
-'
-a
 MarkerTypeFunctions
 {
 self
