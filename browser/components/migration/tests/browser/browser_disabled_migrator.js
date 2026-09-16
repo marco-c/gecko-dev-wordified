@@ -691,7 +691,7 @@ display
 -
 name
 -
-firefox
+self
 "
 ;
 }
