@@ -5379,6 +5379,17 @@ Terminate
 >
 {
 }
+crate
+:
+:
+RayQueryFunction
+:
+:
+Begin
+=
+>
+{
+}
 }
 Ok
 (

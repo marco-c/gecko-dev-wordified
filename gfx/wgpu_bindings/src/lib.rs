@@ -1678,10 +1678,6 @@ Texture
 id
 :
 :
-DeviceId
-id
-:
-:
 TextureId
 TextureAction
 <
@@ -2514,6 +2510,13 @@ pub
 message
 :
 String
+pub
+message_type
+:
+wgt
+:
+:
+CompilationMessageType
 }
 #
 [

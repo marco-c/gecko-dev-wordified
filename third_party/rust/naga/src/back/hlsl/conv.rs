@@ -1775,6 +1775,11 @@ Self
 :
 :
 HitKind
+|
+Self
+:
+:
+HitBarycentrics
 =
 >
 unreachable

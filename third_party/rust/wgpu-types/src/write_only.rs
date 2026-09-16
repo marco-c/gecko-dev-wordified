@@ -6006,12 +6006,10 @@ cast_elements
 (
 )
 with
-a
 particular
-type
+types
 T
 and
-typ
 U
 will
 /

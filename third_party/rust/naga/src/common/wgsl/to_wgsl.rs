@@ -1836,6 +1836,15 @@ hit_kind
 Bi
 :
 :
+HitBarycentrics
+=
+>
+"
+hit_barycentrics
+"
+Bi
+:
+:
 BaseInstance
 |
 Bi

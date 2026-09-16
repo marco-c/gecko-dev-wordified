@@ -98,7 +98,7 @@ bool
 wgpu_ray_query_vertex_return
 :
 bool
-wgpu_ray_tracing_pipelines
+wgpu_ray_tracing_pipeline
 :
 bool
 dual_source_blending
@@ -186,7 +186,7 @@ false
 wgpu_ray_query_vertex_return
 :
 false
-wgpu_ray_tracing_pipelines
+wgpu_ray_tracing_pipeline
 :
 false
 f16
@@ -302,7 +302,7 @@ WgpuRayTracingPipeline
 mut
 self
 .
-wgpu_ray_tracing_pipelines
+wgpu_ray_tracing_pipeline
 }
 ImplementedEnableExtension
 :
@@ -484,7 +484,7 @@ WgpuRayTracingPipeline
 >
 self
 .
-wgpu_ray_tracing_pipelines
+wgpu_ray_tracing_pipeline
 ImplementedEnableExtension
 :
 :

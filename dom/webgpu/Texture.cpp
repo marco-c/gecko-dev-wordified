@@ -636,12 +636,6 @@ wgpu_client_create_texture_view
 GetClient
 (
 )
-mParent
--
->
-GetId
-(
-)
 GetId
 (
 )
