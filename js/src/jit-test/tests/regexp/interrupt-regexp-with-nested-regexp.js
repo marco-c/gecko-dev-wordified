@@ -17,14 +17,6 @@ interruptRegexp
 in
 this
 )
-|
-|
-getBuildConfiguration
-(
-'
-pbl
-'
-)
 gczeal
 (
 0
