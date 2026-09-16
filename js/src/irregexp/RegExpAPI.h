@@ -205,6 +205,16 @@ struct
 FrameData
 ;
 }
+/
+/
+namespace
+v8
+:
+:
+internal
+:
+:
+regexp
 namespace
 js
 {
