@@ -2404,16 +2404,12 @@ else
 if
 (
 !
-(
-gETWCollectionMask
-&
-uint64_t
+IsProfilingGroup
 (
 MarkerType
 :
 :
 Group
-)
 )
 )
 {
