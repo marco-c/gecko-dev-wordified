@@ -10148,7 +10148,7 @@ static
 const
 FrameConstructionData
 *
-FindXULLabelOrDescriptionData
+FindLabelOrDescriptionData
 (
 const
 Element
