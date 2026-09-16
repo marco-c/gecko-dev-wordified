@@ -670,7 +670,7 @@ temps
 /
 /
 load
-FaultingCodeOffset
+FaultingCodeRange
 ma_load
 (
 Register
@@ -687,7 +687,7 @@ extension
 SignExtend
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_load
 (
 Register
@@ -706,7 +706,7 @@ extension
 SignExtend
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_loadDouble
 (
 FloatRegister
@@ -715,7 +715,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_loadDouble
 (
 FloatRegister
@@ -726,7 +726,7 @@ BaseIndex
 src
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_loadFloat
 (
 FloatRegister
@@ -735,7 +735,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_loadFloat
 (
 FloatRegister
@@ -746,7 +746,7 @@ BaseIndex
 src
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_loadFloat16
 (
 FloatRegister
@@ -755,7 +755,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_loadFloat16
 (
 FloatRegister
@@ -769,7 +769,7 @@ src
 /
 /
 store
-FaultingCodeOffset
+FaultingCodeRange
 ma_store
 (
 Register
@@ -786,7 +786,7 @@ extension
 SignExtend
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_store
 (
 Register
@@ -805,7 +805,7 @@ extension
 SignExtend
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_store
 (
 Imm32
@@ -824,7 +824,7 @@ extension
 SignExtend
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_store
 (
 Imm32
@@ -841,7 +841,7 @@ extension
 SignExtend
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_storeDouble
 (
 FloatRegister
@@ -850,7 +850,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_storeDouble
 (
 FloatRegister
@@ -861,7 +861,7 @@ BaseIndex
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_storeFloat
 (
 FloatRegister
@@ -870,7 +870,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_storeFloat
 (
 FloatRegister
@@ -881,7 +881,7 @@ BaseIndex
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_storeFloat16
 (
 FloatRegister
@@ -890,7 +890,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_storeFloat16
 (
 FloatRegister
@@ -899,6 +899,15 @@ const
 BaseIndex
 &
 dest
+)
+;
+void
+ma_mv
+(
+Register
+dest
+Register
+src
 )
 ;
 /
@@ -7018,7 +7027,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load8SignExtend
 (
 const
@@ -7029,7 +7038,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load8SignExtend
 (
 const
@@ -7040,7 +7049,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load8ZeroExtend
 (
 const
@@ -7051,7 +7060,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load8ZeroExtend
 (
 const
@@ -7062,7 +7071,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load16SignExtend
 (
 const
@@ -7073,7 +7082,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load16SignExtend
 (
 const
@@ -7107,7 +7116,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load16ZeroExtend
 (
 const
@@ -7118,7 +7127,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load16ZeroExtend
 (
 const
@@ -7152,7 +7161,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load32
 (
 const
@@ -7163,7 +7172,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load32
 (
 const
@@ -7174,7 +7183,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load32
 (
 AbsoluteAddress
@@ -7183,7 +7192,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load32
 (
 wasm
@@ -7218,7 +7227,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load64
 (
 const
@@ -7239,7 +7248,7 @@ reg
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load64
 (
 const
@@ -7260,7 +7269,7 @@ reg
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadDouble
 (
 const
@@ -7279,7 +7288,7 @@ addr
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadDouble
 (
 const
@@ -7298,7 +7307,7 @@ src
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat32
 (
 const
@@ -7317,7 +7326,7 @@ addr
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat32
 (
 const
@@ -7336,7 +7345,7 @@ src
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat16
 (
 const
@@ -7356,7 +7365,7 @@ addr
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat16
 (
 const
@@ -7381,7 +7390,7 @@ template
 typename
 S
 >
-FaultingCodeOffset
+FaultingCodeRange
 load64Unaligned
 (
 const
@@ -7400,7 +7409,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadPtr
 (
 const
@@ -7411,7 +7420,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadPtr
 (
 const
@@ -7422,7 +7431,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadPtr
 (
 AbsoluteAddress
@@ -7431,7 +7440,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadPtr
 (
 wasm
@@ -7443,7 +7452,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadPrivate
 (
 const
@@ -7454,7 +7463,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store8
 (
 Register
@@ -7465,7 +7474,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store8
 (
 Imm32
@@ -7476,7 +7485,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store8
 (
 Register
@@ -7487,7 +7496,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store8
 (
 Imm32
@@ -7498,7 +7507,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store16
 (
 Register
@@ -7509,7 +7518,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store16
 (
 Imm32
@@ -7520,7 +7529,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store16
 (
 Register
@@ -7531,7 +7540,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store16
 (
 Imm32
@@ -7547,7 +7556,7 @@ template
 typename
 T
 >
-FaultingCodeOffset
+FaultingCodeRange
 store16Unaligned
 (
 Register
@@ -7566,7 +7575,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Register
@@ -7575,7 +7584,7 @@ AbsoluteAddress
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Register
@@ -7586,7 +7595,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Register
@@ -7597,7 +7606,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Imm32
@@ -7608,7 +7617,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Imm32
@@ -7683,7 +7692,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store64
 (
 Imm64
@@ -7705,7 +7714,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store64
 (
 Imm64
@@ -7729,7 +7738,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store64
 (
 Register64
@@ -7748,7 +7757,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 store64
 (
 Register64
@@ -7774,7 +7783,7 @@ template
 typename
 T
 >
-FaultingCodeOffset
+FaultingCodeRange
 store64Unaligned
 (
 Register64
@@ -7798,7 +7807,7 @@ template
 typename
 T
 >
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 ImmWord
@@ -7812,7 +7821,7 @@ template
 typename
 T
 >
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 ImmPtr
@@ -7826,7 +7835,7 @@ template
 typename
 T
 >
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 ImmGCPtr
@@ -7835,7 +7844,7 @@ T
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 Register
@@ -7846,7 +7855,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 Register
@@ -7857,7 +7866,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 Register
