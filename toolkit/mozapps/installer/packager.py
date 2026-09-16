@@ -161,6 +161,9 @@ get
 (
 self
 path
+known_to_exist
+=
+False
 )
 :
         
@@ -175,6 +178,7 @@ self
 get
 (
 path
+known_to_exist
 )
         
 #
