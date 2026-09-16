@@ -3590,6 +3590,7 @@ BoundFunction
 Set
 Map
 Date
+Duration
 WeakMap
 WeakSet
 }
@@ -3825,6 +3826,17 @@ Date
 return
 "
 Date
+"
+;
+case
+GuardClassKind
+:
+:
+Duration
+:
+return
+"
+Duration
 "
 ;
 case
