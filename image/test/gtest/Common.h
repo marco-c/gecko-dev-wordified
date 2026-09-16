@@ -4444,6 +4444,11 @@ LargeJXLTestCase
 )
 ;
 ImageTestCase
+LargeJXLReferenceWebPTestCase
+(
+)
+;
+ImageTestCase
 TransparentJXLTestCase
 (
 )
