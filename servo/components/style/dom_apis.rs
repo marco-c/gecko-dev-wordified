@@ -373,6 +373,7 @@ matching
 matches_selector_list
 (
 selector_list
+*
 element
 &
 mut
@@ -540,7 +541,6 @@ matching
 matches_selector_list
 (
 selector_list
-&
 element
 &
 mut
@@ -2957,7 +2957,6 @@ matching
 :
 select_name
 (
-&
 element
 &
 local_name
@@ -3202,7 +3201,6 @@ matching
 :
 select_name
 (
-&
 element
 local_name
 local_name_lower
@@ -3349,7 +3347,6 @@ matching
 to_unconditional_case_sensitivity
 (
 case_sensitivity
-&
 element
 )
 value
@@ -4035,7 +4032,6 @@ matching
 matches_selector_list
 (
 selector_list
-&
 e
 matching_context
 )
@@ -4643,7 +4639,6 @@ matching
 matches_selector_list
 (
 selector_list
-&
 element
 matching_context
 )
@@ -4780,7 +4775,6 @@ matching
 :
 select_name
 (
-&
 element
 &
 local_name
@@ -4810,7 +4804,6 @@ matching
 matches_selector_list
 (
 selector_list
-&
 element
 matching_context
 )
@@ -4904,7 +4897,6 @@ matching
 matches_selector_list
 (
 selector_list
-&
 element
 matching_context
 )
@@ -5010,7 +5002,6 @@ matching
 matches_selector_list
 (
 selector_list
-&
 element
 matching_context
 )

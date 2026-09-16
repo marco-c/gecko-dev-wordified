@@ -1020,7 +1020,6 @@ Impl
 >
 element
 :
-&
 E
 context
 :
@@ -2289,7 +2288,6 @@ AncestorHashes
 >
 element
 :
-&
 E
 context
 :
@@ -2421,7 +2419,6 @@ AncestorHashes
 >
 element
 :
-&
 E
 context
 :
@@ -2616,7 +2613,6 @@ Impl
 >
 element
 :
-&
 E
 )
 -
@@ -2700,7 +2696,6 @@ from_offset
 usize
 element
 :
-&
 E
 )
 -
@@ -2891,7 +2886,6 @@ Impl
 >
 element
 :
-&
 E
 )
 -
@@ -3342,7 +3336,6 @@ Impl
 >
 element
 :
-&
 E
 context
 :
@@ -3628,7 +3621,6 @@ Impl
 ]
 element
 :
-&
 E
 context
 :
@@ -3697,7 +3689,6 @@ Impl
 >
 element
 :
-&
 E
 context
 :
@@ -3827,7 +3818,6 @@ selector
 iter
 (
 )
-&
 el
 context
 rightmost
@@ -3859,7 +3849,6 @@ matches_relative_selector_subtree
 relative_selector
 .
 selector
-&
 el
 context
 rightmost
@@ -4022,7 +4011,6 @@ matches_relative_selector_subtree
 relative_selector
 .
 selector
-&
 el
 context
 rightmost
@@ -4039,7 +4027,6 @@ selector
 iter
 (
 )
-&
 el
 context
 rightmost
@@ -4104,7 +4091,6 @@ Impl
 >
 element
 :
-&
 E
 context
 :
@@ -4258,7 +4244,6 @@ Impl
 ]
 element
 :
-&
 E
 context
 :
@@ -4521,7 +4506,6 @@ Impl
 ]
 element
 :
-&
 E
 context
 :
@@ -4764,7 +4748,6 @@ Impl
 >
 element
 :
-&
 E
 context
 :
@@ -4830,7 +4813,6 @@ selector
 iter
 (
 )
-&
 el
 context
 rightmost
@@ -4849,7 +4831,6 @@ if
 matches_relative_selector_subtree
 (
 selector
-&
 el
 context
 rightmost
@@ -5090,7 +5071,6 @@ E
 (
 element
 :
-&
 E
 context
 :
@@ -5207,7 +5187,6 @@ E
 (
 element
 :
-&
 E
 context
 :
@@ -5377,7 +5356,6 @@ E
 (
 element
 :
-&
 E
 combinator
 :
@@ -5575,9 +5553,9 @@ E
 :
 Impl
 >
+mut
 element
 :
-&
 E
 context
 :
@@ -5926,16 +5904,6 @@ SelectorMatchingResult
 NotMatchedGlobally
 }
 ;
-let
-mut
-element
-=
-element
-.
-clone
-(
-)
-;
 loop
 {
 if
@@ -5962,10 +5930,8 @@ featureless
 =
 next_element_for_combinator
 (
-&
 element
 combinator
-&
 context
 )
 ;
@@ -6016,7 +5982,6 @@ selector_iter
 clone
 (
 )
-&
 element
 context
 rightmost
@@ -6366,7 +6331,6 @@ E
 (
 element
 :
-&
 E
 local_name
 :
@@ -6422,7 +6386,6 @@ E
 (
 element
 :
-&
 E
 parts
 :
@@ -6709,7 +6672,6 @@ E
 (
 element
 :
-&
 E
 selector
 :
@@ -6849,7 +6811,6 @@ E
 (
 element
 :
-&
 E
 selector
 :
@@ -6937,7 +6898,6 @@ E
 (
 element
 :
-&
 E
 attr_sel
 :
@@ -7518,7 +7478,6 @@ Impl
 >
 element
 :
-&
 E
 context
 :
@@ -7678,7 +7637,6 @@ Impl
 >
 element
 :
-&
 E
 context
 :
@@ -8635,7 +8593,6 @@ PartialEq
 (
 element
 :
-&
 E
 local_name
 :
@@ -8700,7 +8657,6 @@ parsed
 ParsedCaseSensitivity
 element
 :
-&
 E
 )
 -
@@ -8774,7 +8730,6 @@ E
 (
 element
 :
-&
 E
 context
 :
@@ -9335,7 +9290,6 @@ E
 (
 element
 :
-&
 E
 context
 :
@@ -9506,10 +9460,6 @@ mut
 curr
 =
 element
-.
-clone
-(
-)
 ;
 while
 let
@@ -9554,7 +9504,6 @@ is_empty
 matches_complex_selector_list
 (
 selectors
-&
 curr
 context
 rightmost
@@ -9628,10 +9577,6 @@ mut
 curr
 =
 element
-.
-clone
-(
-)
 ;
 let
 next
@@ -9703,7 +9648,6 @@ is_empty
 matches_complex_selector_list
 (
 selectors
-&
 curr
 context
 rightmost

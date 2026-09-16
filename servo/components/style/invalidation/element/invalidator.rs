@@ -7382,7 +7382,6 @@ invalidation
 .
 offset
 ctx
-&
 self
 .
 element
