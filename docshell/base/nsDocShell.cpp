@@ -2019,9 +2019,6 @@ h
 #
 endif
 #
-ifdef
-NS_PRINTING
-#
 include
 "
 nsIDocumentViewerPrint
@@ -2035,8 +2032,6 @@ nsIWebBrowserPrint
 .
 h
 "
-#
-endif
 using
 namespace
 mozilla
@@ -83907,9 +83902,6 @@ ExitPrintPreview
 (
 )
 {
-#
-ifdef
-NS_PRINTING
 nsCOMPtr
 <
 nsIWebBrowserPrint
@@ -83931,8 +83923,6 @@ ExitPrintPreview
 )
 )
 ;
-#
-endif
 return
 NS_OK
 ;

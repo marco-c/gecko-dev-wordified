@@ -334,9 +334,6 @@ h
 Printing
 Includes
 #
-ifdef
-NS_PRINTING
-#
 include
 "
 nsIWebBrowserPrint
@@ -350,8 +347,6 @@ nsIDocumentViewer
 .
 h
 "
-#
-endif
 /
 /
 PSM2
@@ -1262,9 +1257,6 @@ if
 mDocShell
 )
 {
-#
-ifdef
-NS_PRINTING
 if
 (
 aIID
@@ -1358,8 +1350,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 return
 mDocShell
 -
