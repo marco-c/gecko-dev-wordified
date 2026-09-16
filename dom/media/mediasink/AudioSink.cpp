@@ -1259,6 +1259,16 @@ aParams
 mPreservesPitch
 )
 ;
+mAudioStream
+-
+>
+SetStreamName
+(
+aParams
+.
+mStreamName
+)
+;
 }
 void
 AudioSink

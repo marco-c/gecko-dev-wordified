@@ -2324,6 +2324,12 @@ AssertOwnerThread
 (
 )
 ;
+mParams
+.
+mStreamName
+=
+aStreamName
+;
 if
 (
 mAudioSink

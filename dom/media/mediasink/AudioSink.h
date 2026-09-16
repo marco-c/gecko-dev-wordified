@@ -228,6 +228,9 @@ mPlaybackRate
 bool
 mPreservesPitch
 ;
+nsString
+mStreamName
+;
 }
 ;
 AudioSink
