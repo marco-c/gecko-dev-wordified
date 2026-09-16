@@ -676,6 +676,13 @@ frame_transformer
 *
 /
 nullptr
+/
+*
+on_first_packet
+=
+*
+/
+nullptr
 &
 packet_router_
 )

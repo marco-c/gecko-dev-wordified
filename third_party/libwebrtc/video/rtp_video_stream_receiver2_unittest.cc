@@ -1522,6 +1522,7 @@ nack_periodic_processor_
 mock_on_complete_frame_callback_
 nullptr
 nullptr
+nullptr
 )
 ;
 rtp_video_stream_receiver_
@@ -11646,6 +11647,7 @@ nack_periodic_processor_
 mock_on_complete_frame_callback_
 nullptr
 mock_frame_transformer
+nullptr
 )
 ;
 receiver
@@ -11894,6 +11896,7 @@ nack_periodic_processor_
 mock_on_complete_frame_callback_
 nullptr
 mock_frame_transformer
+nullptr
 )
 ;
 receiver

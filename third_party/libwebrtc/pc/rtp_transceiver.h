@@ -3562,7 +3562,7 @@ GetSendCodecs
 )
 ;
 void
-OnFirstPacketReceived
+OnFirstPacketReceived_s
 (
 uint32_t
 ssrc

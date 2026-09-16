@@ -1244,6 +1244,10 @@ RTC_DCHECK_RUN_ON
 signaling_thread_checker_
 )
 ;
+ssrc_s_
+=
+ssrc
+;
 bool
 enabled
 =
