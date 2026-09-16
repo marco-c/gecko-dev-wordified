@@ -1078,6 +1078,8 @@ aFrame
 nsILayoutHistoryState
 *
 aState
+CaptureStateFlags
+aFlags
 )
 {
 if
@@ -1156,6 +1158,7 @@ statefulFrame
 >
 SaveState
 (
+aFlags
 )
 ;
 if
@@ -1277,6 +1280,8 @@ aFrame
 nsILayoutHistoryState
 *
 aState
+CaptureStateFlags
+aFlags
 )
 {
 MOZ_ASSERT
@@ -1303,6 +1308,7 @@ CaptureFrameStateFor
 (
 aFrame
 aState
+aFlags
 )
 ;
 /
@@ -1520,6 +1526,7 @@ CaptureFrameState
 (
 realChild
 aState
+aFlags
 )
 ;
 }
