@@ -453,7 +453,7 @@ dom
 .
 security
 .
-featurePolicy
+permissionsPolicy
 .
 header
 .

@@ -640,7 +640,7 @@ dom
 .
 security
 .
-featurePolicy
+permissionsPolicy
 .
 header
 .
@@ -654,7 +654,7 @@ dom
 .
 security
 .
-featurePolicy
+permissionsPolicy
 .
 webidl
 .

@@ -517,7 +517,7 @@ dom
 .
 security
 .
-featurePolicy
+permissionsPolicy
 .
 experimental
 .
@@ -851,7 +851,7 @@ return
 StaticPrefs
 :
 :
-dom_security_featurePolicy_experimental_enabled
+dom_security_permissionsPolicy_experimental_enabled
 (
 )
 &
@@ -940,7 +940,7 @@ if
 StaticPrefs
 :
 :
-dom_security_featurePolicy_experimental_enabled
+dom_security_permissionsPolicy_experimental_enabled
 (
 )
 )
@@ -1075,7 +1075,7 @@ if
 StaticPrefs
 :
 :
-dom_security_featurePolicy_experimental_enabled
+dom_security_permissionsPolicy_experimental_enabled
 (
 )
 )
@@ -1402,7 +1402,7 @@ if
 StaticPrefs
 :
 :
-dom_security_featurePolicy_experimental_enabled
+dom_security_permissionsPolicy_experimental_enabled
 (
 )
 &
