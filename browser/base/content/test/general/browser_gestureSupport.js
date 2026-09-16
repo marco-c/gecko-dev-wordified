@@ -208,8 +208,9 @@ the
 test
 gGestureSupport
 .
-uninit
+init
 (
+false
 )
 ;
 test_utils
@@ -265,6 +266,7 @@ gGestureSupport
 .
 init
 (
+true
 )
 ;
 const
