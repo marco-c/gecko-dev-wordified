@@ -29885,7 +29885,7 @@ urlbar
 {
 urlbar
 .
-incrementBreakoutBlockerCount
+incrementPopoverBlockerCount
 (
 )
 ;
@@ -30088,8 +30088,9 @@ UpdatePopupNotificationsVisibility
 /
 /
 Restore
+the
 urlbar
-breakout
+popovers
 if
 needed
 for
@@ -30110,7 +30111,7 @@ urlbar
 {
 urlbar
 .
-decrementBreakoutBlockerCount
+decrementPopoverBlockerCount
 (
 )
 ;

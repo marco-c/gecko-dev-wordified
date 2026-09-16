@@ -33,7 +33,7 @@ strict
 "
 ;
 function
-assertBreakout
+assertAnchored
 (
 )
 {
@@ -134,7 +134,7 @@ window
 }
 )
 ;
-assertBreakout
+assertAnchored
 (
 )
 ;
@@ -214,7 +214,7 @@ focused
 )
 )
 ;
-assertBreakout
+assertAnchored
 (
 )
 ;
@@ -284,7 +284,7 @@ focused
 )
 )
 ;
-assertBreakout
+assertAnchored
 (
 )
 ;
@@ -418,7 +418,7 @@ focused
 )
 )
 ;
-assertBreakout
+assertAnchored
 (
 )
 ;
@@ -540,7 +540,7 @@ window
 }
 )
 ;
-assertBreakout
+assertAnchored
 (
 )
 ;
@@ -700,7 +700,7 @@ window
 }
 )
 ;
-assertBreakout
+assertAnchored
 (
 )
 ;
@@ -823,7 +823,7 @@ focused
 )
 )
 ;
-assertBreakout
+assertAnchored
 (
 )
 ;
@@ -966,7 +966,7 @@ window
 0
 )
 ;
-assertBreakout
+assertAnchored
 (
 )
 ;

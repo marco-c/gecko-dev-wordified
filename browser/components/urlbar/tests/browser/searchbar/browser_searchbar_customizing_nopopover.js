@@ -43,7 +43,7 @@ container
 ;
 async
 function
-assertBreakout
+assertAnchored
 (
 enabled
 message
@@ -158,14 +158,13 @@ enabled
 ?
 "
 :
-breakout
-on
+anchored
 "
 :
 "
 :
-breakout
-off
+not
+anchored
 "
 )
 )
@@ -175,12 +174,12 @@ add_task
 (
 async
 function
-test_breakout
+test_anchored
 (
 )
 {
 await
-assertBreakout
+assertAnchored
 (
 true
 "
@@ -203,7 +202,7 @@ startCustomizing
 )
 ;
 await
-assertBreakout
+assertAnchored
 (
 false
 "
@@ -224,7 +223,7 @@ AREA_NAVBAR
 )
 ;
 await
-assertBreakout
+assertAnchored
 (
 false
 "
@@ -244,7 +243,7 @@ WIDGET_ID
 )
 ;
 await
-assertBreakout
+assertAnchored
 (
 false
 "
@@ -270,7 +269,7 @@ endCustomizing
 )
 ;
 await
-assertBreakout
+assertAnchored
 (
 true
 "
