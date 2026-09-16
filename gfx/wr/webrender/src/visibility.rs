@@ -2151,10 +2151,6 @@ Option
 <
 SurfaceIndex
 >
-root_culling_rect
-:
-&
-DeviceRect
 store
 :
 &
@@ -3326,7 +3322,6 @@ Some
 (
 surface_index
 )
-root_culling_rect
 store
 false
 frame_context
@@ -3473,10 +3468,6 @@ local_coverage_rect
 map_local_to_picture
 &
 map_surface_to_vis
-&
-frame_context
-.
-spatial_tree
 &
 mut
 frame_state
