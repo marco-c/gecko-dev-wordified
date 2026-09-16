@@ -39109,15 +39109,10 @@ XP_WIN
 /
 /
 Crash
-recovery
-is
+scenarios
+are
 only
-supported
-(
-and
-hence
 tested
-)
 on
 Windows
 for
