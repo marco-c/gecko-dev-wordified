@@ -1466,6 +1466,15 @@ const
 nsACString
 &
 aReason
+mozilla
+:
+:
+dom
+:
+:
+WebTransportStatsData
+*
+aStats
 )
 {
 return
