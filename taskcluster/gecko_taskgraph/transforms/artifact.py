@@ -620,9 +620,7 @@ trunk
 "
 toolchain
 -
-linux64
--
-x86
+linux32
 -
 compiler
 -
