@@ -152,6 +152,8 @@ PingServer
         
 Profile
         
+MLServices
+        
 ProxyRunner
         
 AndroidDevice
@@ -323,6 +325,8 @@ macos
                 
 MacosDevice
                 
+MLServices
+                
 Profile
                 
 ProxyRunner
@@ -345,6 +349,16 @@ eval
 mochitest
 "
 :
+        
+env
+.
+set_arg
+(
+"
+ml_services
+"
+True
+)
         
 return
 Layers
