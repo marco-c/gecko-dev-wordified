@@ -1500,6 +1500,8 @@ gfx
 :
 IntSize
 aSize
+BitrateMode
+aBitrateMode
 HardwarePreference
 aHardwarePreference
 ScalabilityMode
@@ -1573,7 +1575,7 @@ bitrate
 /
 0
 0
-BIT_RATE_MODE
+aBitrateMode
 aHardwarePreference
 aScalabilityMode
 aSpecific
@@ -3060,6 +3062,7 @@ H264
 aUsage
 aFormat
 aSize
+BIT_RATE_MODE
 HardwarePreference
 :
 :
@@ -6038,6 +6041,7 @@ VP8
 aUsage
 aFormat
 aSize
+BIT_RATE_MODE
 HardwarePreference
 :
 :
@@ -6120,6 +6124,7 @@ VP9
 aUsage
 aFormat
 aSize
+BIT_RATE_MODE
 HardwarePreference
 :
 :
@@ -9803,6 +9808,7 @@ PQ
 )
 )
 kImageSize
+BIT_RATE_MODE
 HardwarePreference
 :
 :
