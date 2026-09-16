@@ -612,12 +612,7 @@ void
 SetResponseIsComplete
 (
 )
-{
-mResponseIsComplete
-=
-true
 ;
-}
 void
 EnableKeepAlive
 (
