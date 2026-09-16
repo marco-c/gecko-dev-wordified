@@ -2747,6 +2747,9 @@ logged
 /
 Native
 messaging
+proxy
+\
+/
 portal
 is
 not
