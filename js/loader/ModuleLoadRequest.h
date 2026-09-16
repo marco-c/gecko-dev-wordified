@@ -433,11 +433,6 @@ ModuleErrored
 (
 )
 ;
-void
-LoadFailed
-(
-)
-;
 /
 /
 Tells
@@ -597,14 +592,13 @@ this
 )
 ;
 }
-nsresult
+void
 OnFetchComplete
 (
 nsresult
 aRv
 )
 {
-return
 mLoader
 -
 >
