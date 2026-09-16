@@ -3992,7 +3992,9 @@ event
 .
 target
 is
-gBrowser
+the
+tab
+strip
 so
 we
 don
