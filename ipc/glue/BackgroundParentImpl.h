@@ -1180,8 +1180,10 @@ aFilter
 )
 override
 ;
+already_AddRefed
+<
 PMessagePortParent
-*
+>
 AllocPMessagePortParent
 (
 const
@@ -1223,15 +1225,6 @@ const
 uint32_t
 &
 aSequenceID
-)
-override
-;
-bool
-DeallocPMessagePortParent
-(
-PMessagePortParent
-*
-aActor
 )
 override
 ;
