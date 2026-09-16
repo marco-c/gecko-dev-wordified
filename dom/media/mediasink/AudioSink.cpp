@@ -3324,7 +3324,7 @@ silence
 }
 else
 {
-NS_WARNING
+SINK_LOG
 (
 "
 Underrun
