@@ -21595,6 +21595,9 @@ section
 -
 1
 "
+variant_id
+:
+0
 icon_src
 :
 "
