@@ -1421,6 +1421,9 @@ happen
 }
 Maybe
 <
+Path
+:
+:
 Circle
 >
 PathOps
@@ -1614,6 +1617,9 @@ end
 return
 Some
 (
+Path
+:
+:
 Circle
 {
 params
@@ -1643,6 +1649,9 @@ closed
 return
 Some
 (
+Path
+:
+:
 Circle
 {
 params
@@ -1668,6 +1677,9 @@ Nothing
 }
 Maybe
 <
+Path
+:
+:
 Line
 >
 PathOps
@@ -1693,6 +1705,9 @@ Nothing
 )
 ;
 }
+Path
+:
+:
 Line
 retval
 ;

@@ -1425,6 +1425,9 @@ public
 :
 RecordedStrokeCircle
 (
+Path
+:
+:
 Circle
 aCircle
 const
@@ -1540,6 +1543,9 @@ S
 aStream
 )
 ;
+Path
+:
+:
 Circle
 mCircle
 ;
@@ -1698,6 +1704,9 @@ public
 :
 RecordedFillCircle
 (
+Path
+:
+:
 Circle
 aCircle
 const
@@ -1805,6 +1814,9 @@ S
 aStream
 )
 ;
+Path
+:
+:
 Circle
 mCircle
 ;
