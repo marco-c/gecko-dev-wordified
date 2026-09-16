@@ -50,6 +50,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 dist
@@ -59,6 +62,16 @@ self
 distribution
         
 settings
+:
+dict
+[
+str
+dict
+[
+str
+str
+]
+]
 =
 {
 }
@@ -140,7 +153,4 @@ self
 .
 filename
 settings
-self
-.
-dry_run
 )

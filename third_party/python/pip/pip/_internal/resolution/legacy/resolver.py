@@ -77,6 +77,10 @@ first
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 logging
 import
@@ -86,18 +90,19 @@ collections
 import
 defaultdict
 from
+collections
+.
+abc
+import
+Iterable
+from
 itertools
 import
 chain
 from
 typing
 import
-DefaultDict
-Iterable
-List
 Optional
-Set
-Tuple
 from
 pip
 .
@@ -299,13 +304,13 @@ __name__
 )
 DiscoveredDependencies
 =
-DefaultDict
+defaultdict
 [
 Optional
 [
 str
 ]
-List
+list
 [
 InstallRequirement
 ]
@@ -320,7 +325,7 @@ BaseDistribution
     
 version_info
 :
-Tuple
+tuple
 [
 int
 int
@@ -729,10 +734,9 @@ PackageFinder
         
 wheel_cache
 :
-Optional
-[
 WheelCache
-]
+|
+None
         
 make_install_req
 :
@@ -764,16 +768,15 @@ str
         
 py_version_info
 :
-Optional
-[
-Tuple
+tuple
 [
 int
 .
 .
 .
 ]
-]
+|
+None
 =
 None
     
@@ -908,7 +911,7 @@ resolve
 self
 root_reqs
 :
-List
+list
 [
 InstallRequirement
 ]
@@ -1081,7 +1084,7 @@ type
         
 discovered_reqs
 :
-List
+list
 [
 InstallRequirement
 ]
@@ -1168,38 +1171,35 @@ InstallRequirement
         
 parent_req_name
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 extras_requested
 :
-Optional
-[
 Iterable
 [
 str
 ]
-]
+|
+None
 =
 None
     
 )
 -
 >
-Tuple
+tuple
 [
-List
-[
-InstallRequirement
-]
-Optional
+list
 [
 InstallRequirement
 ]
+InstallRequirement
+|
+None
 ]
 :
         
@@ -1604,21 +1604,18 @@ try
             
 existing_req
 :
-Optional
-[
 InstallRequirement
-]
+|
+None
 =
-(
-                
 requirement_set
 .
 get_requirement
 (
+                
 install_req
 .
 name
-)
             
 )
         
@@ -2179,19 +2176,16 @@ None
 def
 _check_skip_installed
 (
-        
 self
 req_to_install
 :
 InstallRequirement
-    
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -2578,10 +2572,9 @@ InstallRequirement
 )
 -
 >
-Optional
-[
 Link
-]
+|
+None
 :
         
 upgrade
@@ -3404,7 +3397,7 @@ InstallRequirement
 )
 -
 >
-List
+list
 [
 InstallRequirement
 ]
@@ -3553,7 +3546,7 @@ ignore_requires_python
         
 more_reqs
 :
-List
+list
 [
 InstallRequirement
 ]
@@ -3937,7 +3930,7 @@ RequirementSet
 )
 -
 >
-List
+list
 [
 InstallRequirement
 ]
@@ -4029,7 +4022,7 @@ order
         
 ordered_reqs
 :
-Set
+set
 [
 InstallRequirement
 ]

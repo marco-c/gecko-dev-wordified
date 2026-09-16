@@ -7253,19 +7253,6 @@ import
 ReprHighlighter
     
 from
-pip
-.
-_vendor
-.
-rich
-.
-table
-import
-Table
-as
-Table
-    
-from
 .
 _timer
 import

@@ -1,9 +1,21 @@
+from
+__future__
+import
+annotations
 import
 collections
 import
 logging
 import
 os
+from
+collections
+.
+abc
+import
+Container
+Generator
+Iterable
 from
 dataclasses
 import
@@ -12,14 +24,7 @@ field
 from
 typing
 import
-Container
-Dict
-Generator
-Iterable
-List
 NamedTuple
-Optional
-Set
 from
 pip
 .
@@ -115,7 +120,7 @@ str
     
 comments
 :
-List
+list
 [
 str
 ]
@@ -125,13 +130,12 @@ freeze
     
 requirement
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
@@ -149,13 +153,12 @@ False
     
 paths
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
@@ -193,7 +196,7 @@ None
     
 installations
 :
-Dict
+dict
 [
 str
 FrozenRequirement
@@ -327,7 +330,7 @@ again
         
 emitted_options
 :
-Set
+set
 [
 str
 ]
@@ -366,10 +369,10 @@ times
         
 req_files
 :
-Dict
+dict
 [
 str
-List
+list
 [
 str
 ]
@@ -553,21 +556,17 @@ line
 .
 startswith
 (
+(
 "
 -
 e
 "
-)
-or
-line
-.
-startswith
-(
 "
 -
 -
 editable
 "
+)
 )
 :
                         
@@ -1589,9 +1588,7 @@ BaseDistribution
 )
 -
 >
-"
 FrozenRequirement
-"
 :
         
 editable

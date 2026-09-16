@@ -1,5 +1,7 @@
 import
 collections
+import
+typing
 #
 from
 jaraco
@@ -154,20 +156,19 @@ default_factory
 class
 Pair
 (
-collections
+typing
 .
-namedtuple
-(
-'
-Pair
-'
-'
-name
-value
-'
-)
+NamedTuple
 )
 :
+    
+name
+:
+str
+    
+value
+:
+str
     
 classmethod
     

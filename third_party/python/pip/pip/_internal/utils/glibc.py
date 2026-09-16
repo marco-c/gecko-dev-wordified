@@ -1,22 +1,20 @@
+from
+__future__
+import
+annotations
 import
 os
 import
 sys
-from
-typing
-import
-Optional
-Tuple
 def
 glibc_version_string
 (
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -47,10 +45,9 @@ glibc_version_string_confstr
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -240,10 +237,9 @@ glibc_version_string_ctypes
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -731,7 +727,7 @@ libc_ver
 )
 -
 >
-Tuple
+tuple
 [
 str
 str

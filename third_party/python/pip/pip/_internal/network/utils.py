@@ -1,7 +1,8 @@
 from
-typing
+collections
+.
+abc
 import
-Dict
 Generator
 from
 pip
@@ -254,7 +255,7 @@ work
 .
 HEADERS
 :
-Dict
+dict
 [
 str
 str

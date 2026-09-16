@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 functools
 import
@@ -6,6 +10,13 @@ import
 sys
 import
 sysconfig
+from
+collections
+.
+abc
+import
+Generator
+Iterable
 from
 importlib
 .
@@ -17,13 +28,6 @@ typing
 import
 Any
 Callable
-Dict
-Generator
-Iterable
-List
-Optional
-Set
-Tuple
 from
 pip
 .
@@ -322,7 +326,7 @@ None
         
 seen
 :
-Set
+set
 [
 Any
 ]
@@ -635,7 +639,7 @@ str
 )
 -
 >
-Set
+set
 [
 str
 ]
@@ -711,7 +715,7 @@ sep
     
 short_paths
 :
-Set
+set
 [
 str
 ]
@@ -808,7 +812,7 @@ str
 )
 -
 >
-Set
+set
 [
 str
 ]
@@ -911,7 +915,7 @@ len
     
 wildcards
 :
-Set
+set
 [
 str
 ]
@@ -993,7 +997,7 @@ continue
         
 all_files
 :
-Set
+set
 [
 str
 ]
@@ -1004,7 +1008,7 @@ set
         
 all_subdirs
 :
-Set
+set
 [
 str
 ]
@@ -1146,13 +1150,13 @@ str
 )
 -
 >
-Tuple
+tuple
 [
-Set
+set
 [
 str
 ]
-Set
+set
 [
 str
 ]
@@ -1570,7 +1574,7 @@ self
 .
 _save_dirs
 :
-Dict
+dict
 [
 str
 TempDirectory
@@ -1604,9 +1608,9 @@ self
 .
 _moves
 :
-List
+list
 [
-Tuple
+tuple
 [
 str
 str
@@ -2380,7 +2384,7 @@ self
 .
 _paths
 :
-Set
+set
 [
 str
 ]
@@ -2393,7 +2397,7 @@ self
 .
 _refuse
 :
-Set
+set
 [
 str
 ]
@@ -2406,7 +2410,7 @@ self
 .
 _pth
 :
-Dict
+dict
 [
 str
 UninstallPthEntries
@@ -3408,9 +3412,7 @@ BaseDistribution
 )
 -
 >
-"
 UninstallPathSet
-"
 :
         
 dist_location
@@ -4046,11 +4048,43 @@ py2
 .
 egg
             
+#
+XXX
+We
+use
+normalized_dist_location
+because
+dist_location
+my
+contain
+            
+#
+a
+trailing
+/
+if
+the
+distribution
+is
+a
+zipped
+egg
+            
+#
+(
+which
+is
+not
+a
+directory
+)
+.
+            
 paths_to_remove
 .
 add
 (
-dist_location
+normalized_dist_location
 )
             
 easy_install_egg
@@ -4061,7 +4095,7 @@ path
 .
 split
 (
-dist_location
+normalized_dist_location
 )
 [
 1
@@ -4082,7 +4116,7 @@ path
 .
 dirname
 (
-dist_location
+normalized_dist_location
 )
                 
 "
@@ -4546,7 +4580,7 @@ self
 .
 entries
 :
-Set
+set
 [
 str
 ]
@@ -4559,13 +4593,12 @@ self
 .
 _saved_lines
 :
-Optional
-[
-List
+list
 [
 bytes
 ]
-]
+|
+None
 =
 None
     

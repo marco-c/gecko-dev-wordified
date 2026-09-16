@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 logging
 import
@@ -9,14 +13,15 @@ collections
 import
 defaultdict
 from
+collections
+.
+abc
+import
+Iterable
+from
 typing
 import
 Callable
-Dict
-Iterable
-List
-Optional
-Tuple
 from
 pip
 .
@@ -131,10 +136,9 @@ self
 )
 -
 >
-Optional
-[
 Link
-]
+|
+None
 :
         
 "
@@ -290,7 +294,7 @@ self
 .
 _page_candidates
 :
-List
+list
 [
 str
 ]
@@ -302,10 +306,10 @@ self
 .
 _project_name_to_urls
 :
-Dict
+dict
 [
 str
-List
+list
 [
 str
 ]
@@ -481,7 +485,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -514,10 +518,10 @@ self
 )
 -
 >
-Dict
+dict
 [
 str
-List
+list
 [
 str
 ]
@@ -610,7 +614,7 @@ directory
     
 _paths_to_urls
 :
-Dict
+dict
 [
 str
 _FlatDirectoryToUrls
@@ -721,10 +725,9 @@ self
 )
 -
 >
-Optional
-[
 Link
-]
+|
+None
 :
         
 return
@@ -935,10 +938,9 @@ self
 )
 -
 >
-Optional
-[
 Link
-]
+|
+None
 :
         
 return
@@ -1123,10 +1125,9 @@ self
 )
 -
 >
-Optional
-[
 Link
-]
+|
+None
 :
         
 return
@@ -1281,10 +1282,9 @@ self
 )
 -
 >
-Optional
-[
 Link
-]
+|
+None
 :
         
 return
@@ -1358,34 +1358,30 @@ str
 )
 -
 >
-Tuple
-[
-Optional
+tuple
 [
 str
-]
-Optional
-[
+|
+None
 LinkSource
-]
+|
+None
 ]
 :
     
 path
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
 url
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     

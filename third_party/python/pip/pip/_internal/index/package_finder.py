@@ -9,6 +9,10 @@ indexes
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 enum
 import
@@ -20,20 +24,26 @@ logging
 import
 re
 from
+collections
+.
+abc
+import
+Iterable
+from
 dataclasses
 import
 dataclass
 from
 typing
 import
+(
+    
 TYPE_CHECKING
-FrozenSet
-Iterable
-List
+    
 Optional
-Set
-Tuple
+    
 Union
+)
 from
 pip
 .
@@ -266,10 +276,6 @@ TYPE_CHECKING
 :
     
 from
-pip
-.
-_vendor
-.
 typing_extensions
 import
 TypeGuard
@@ -296,12 +302,12 @@ BuildTag
 =
 Union
 [
-Tuple
+tuple
 [
 (
 )
 ]
-Tuple
+tuple
 [
 int
 str
@@ -309,7 +315,7 @@ str
 ]
 CandidateSortingKey
 =
-Tuple
+tuple
 [
 int
 int
@@ -331,7 +337,7 @@ Link
     
 version_info
 :
-Tuple
+tuple
 [
 int
 int
@@ -768,7 +774,7 @@ str
         
 formats
 :
-FrozenSet
+frozenset
 [
 str
 ]
@@ -783,10 +789,9 @@ bool
         
 ignore_requires_python
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -1041,7 +1046,7 @@ Link
 )
 -
 >
-Tuple
+tuple
 [
 LinkType
 str
@@ -1701,6 +1706,95 @@ not
 supports_python
 :
             
+requires_python
+=
+link
+.
+requires_python
+            
+if
+requires_python
+:
+                
+def
+get_version_sort_key
+(
+v
+:
+str
+)
+-
+>
+tuple
+[
+int
+.
+.
+.
+]
+:
+                    
+return
+tuple
+(
+int
+(
+s
+)
+for
+s
+in
+v
+.
+split
+(
+"
+.
+"
+)
+if
+s
+.
+isdigit
+(
+)
+)
+                
+requires_python
+=
+"
+"
+.
+join
+(
+                    
+sorted
+(
+                        
+(
+str
+(
+s
+)
+for
+s
+in
+specifiers
+.
+SpecifierSet
+(
+requires_python
+)
+)
+                        
+key
+=
+get_version_sort_key
+                    
+)
+                
+)
+            
 reason
 =
 f
@@ -1712,8 +1806,6 @@ Requires
 -
 Python
 {
-link
-.
 requires_python
 }
 "
@@ -1757,17 +1849,16 @@ filter_unallowed_hashes
     
 candidates
 :
-List
+list
 [
 InstallationCandidate
 ]
     
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
     
 project_name
 :
@@ -1775,7 +1866,7 @@ str
 )
 -
 >
-List
+list
 [
 InstallationCandidate
 ]
@@ -2355,24 +2446,23 @@ found
     
 all_candidates
 :
-List
+list
 [
 InstallationCandidate
 ]
     
 applicable_candidates
 :
-List
+list
 [
 InstallationCandidate
 ]
     
 best_candidate
 :
-Optional
-[
 InstallationCandidate
-]
+|
+None
     
 def
 __post_init__
@@ -2468,10 +2558,9 @@ str
         
 target_python
 :
-Optional
-[
 TargetPython
-]
+|
+None
 =
 None
         
@@ -2489,30 +2578,26 @@ False
         
 specifier
 :
-Optional
-[
 specifiers
 .
 BaseSpecifier
-]
+|
+None
 =
 None
         
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 =
 None
     
 )
 -
 >
-"
 CandidateEvaluator
-"
 :
         
 "
@@ -2678,7 +2763,7 @@ str
         
 supported_tags
 :
-List
+list
 [
 Tag
 ]
@@ -2703,10 +2788,9 @@ False
         
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 =
 None
     
@@ -2851,7 +2935,7 @@ self
         
 candidates
 :
-List
+list
 [
 InstallationCandidate
 ]
@@ -2859,7 +2943,7 @@ InstallationCandidate
 )
 -
 >
-List
+list
 [
 InstallationCandidate
 ]
@@ -3466,74 +3550,11 @@ binary_preference
 =
 1
             
-if
+build_tag
+=
 wheel
 .
 build_tag
-is
-not
-None
-:
-                
-match
-=
-re
-.
-match
-(
-r
-"
-^
-(
-\
-d
-+
-)
-(
-.
-*
-)
-"
-wheel
-.
-build_tag
-)
-                
-assert
-match
-is
-not
-None
-"
-guaranteed
-by
-filename
-validation
-"
-                
-build_tag_groups
-=
-match
-.
-groups
-(
-)
-                
-build_tag
-=
-(
-int
-(
-build_tag_groups
-[
-0
-]
-)
-build_tag_groups
-[
-1
-]
-)
         
 else
 :
@@ -3606,7 +3627,7 @@ self
         
 candidates
 :
-List
+list
 [
 InstallationCandidate
 ]
@@ -3614,10 +3635,9 @@ InstallationCandidate
 )
 -
 >
-Optional
-[
 InstallationCandidate
-]
+|
+None
 :
         
 "
@@ -3680,7 +3700,7 @@ self
         
 candidates
 :
-List
+list
 [
 InstallationCandidate
 ]
@@ -3800,28 +3820,25 @@ bool
         
 format_control
 :
-Optional
-[
 FormatControl
-]
+|
+None
 =
 None
         
 candidate_prefs
 :
-Optional
-[
 CandidatePreferences
-]
+|
+None
 =
 None
         
 ignore_requires_python
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -3982,9 +3999,9 @@ self
 .
 _logged_links
 :
-Set
+set
 [
-Tuple
+tuple
 [
 Link
 LinkType
@@ -3995,6 +4012,58 @@ str
 set
 (
 )
+        
+#
+Cache
+of
+the
+result
+of
+finding
+candidates
+        
+self
+.
+_all_candidates
+:
+dict
+[
+str
+list
+[
+InstallationCandidate
+]
+]
+=
+{
+}
+        
+self
+.
+_best_candidates
+:
+dict
+[
+            
+tuple
+[
+str
+specifiers
+.
+BaseSpecifier
+|
+None
+Hashes
+|
+None
+]
+            
+BestCandidateResult
+        
+]
+=
+{
+}
     
 #
 Don
@@ -4064,19 +4133,16 @@ SelectionPreferences
         
 target_python
 :
-Optional
-[
 TargetPython
-]
+|
+None
 =
 None
     
 )
 -
 >
-"
 PackageFinder
-"
 :
         
 "
@@ -4277,7 +4343,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -4299,7 +4365,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -4321,10 +4387,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 return
@@ -4379,10 +4444,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 #
@@ -4456,10 +4520,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 cert
@@ -4572,7 +4635,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -4689,7 +4752,7 @@ Link
 )
 -
 >
-List
+list
 [
 Link
 ]
@@ -4732,7 +4795,7 @@ no_eggs
         
 seen
 :
-Set
+set
 [
 Link
 ]
@@ -4807,48 +4870,6 @@ str
 >
 None
 :
-        
-#
-This
-is
-a
-hot
-method
-so
-don
-'
-t
-waste
-time
-hashing
-links
-unless
-we
-'
-re
-        
-#
-actually
-going
-to
-log
-'
-em
-.
-        
-if
-not
-logger
-.
-isEnabledFor
-(
-logging
-.
-DEBUG
-)
-:
-            
-return
         
 entry
 =
@@ -4935,10 +4956,9 @@ Link
 )
 -
 >
-Optional
-[
 InstallationCandidate
-]
+|
+None
 :
         
 "
@@ -5051,7 +5071,7 @@ Link
 )
 -
 >
-List
+list
 [
 InstallationCandidate
 ]
@@ -5133,7 +5153,7 @@ LinkEvaluator
 )
 -
 >
-List
+list
 [
 InstallationCandidate
 ]
@@ -5215,15 +5235,6 @@ page_links
 return
 package_links
     
-functools
-.
-lru_cache
-(
-maxsize
-=
-None
-)
-    
 def
 find_all_candidates
 (
@@ -5234,7 +5245,7 @@ str
 )
 -
 >
-List
+list
 [
 InstallationCandidate
 ]
@@ -5287,6 +5298,22 @@ accepted
 "
 "
 "
+        
+if
+project_name
+in
+self
+.
+_all_candidates
+:
+            
+return
+self
+.
+_all_candidates
+[
+project_name
+]
         
 link_evaluator
 =
@@ -5525,10 +5552,24 @@ intentional
 priority
 ordering
         
-return
+self
+.
+_all_candidates
+[
+project_name
+]
+=
 file_candidates
 +
 page_candidates
+        
+return
+self
+.
+_all_candidates
+[
+project_name
+]
     
 def
 make_candidate_evaluator
@@ -5542,21 +5583,19 @@ str
         
 specifier
 :
-Optional
-[
 specifiers
 .
 BaseSpecifier
-]
+|
+None
 =
 None
         
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 =
 None
     
@@ -5624,15 +5663,6 @@ hashes
         
 )
     
-functools
-.
-lru_cache
-(
-maxsize
-=
-None
-)
-    
 def
 find_best_candidate
 (
@@ -5645,21 +5675,19 @@ str
         
 specifier
 :
-Optional
-[
 specifiers
 .
 BaseSpecifier
-]
+|
+None
 =
 None
         
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 =
 None
     
@@ -5722,6 +5750,28 @@ instance
 "
 "
         
+if
+(
+project_name
+specifier
+hashes
+)
+in
+self
+.
+_best_candidates
+:
+            
+return
+self
+.
+_best_candidates
+[
+project_name
+specifier
+hashes
+]
+        
 candidates
 =
 self
@@ -5752,13 +5802,35 @@ hashes
         
 )
         
-return
+self
+.
+_best_candidates
+[
+project_name
+specifier
+hashes
+]
+=
+(
+            
 candidate_evaluator
 .
 compute_best_candidate
 (
 candidates
 )
+        
+)
+        
+return
+self
+.
+_best_candidates
+[
+project_name
+specifier
+hashes
+]
     
 def
 find_requirement
@@ -5775,10 +5847,9 @@ bool
 )
 -
 >
-Optional
-[
 InstallationCandidate
-]
+|
+None
 :
         
 "
@@ -5817,6 +5888,27 @@ otherwise
 "
 "
         
+name
+=
+req
+.
+name
+        
+assert
+name
+is
+not
+None
+"
+find_requirement
+(
+)
+called
+with
+no
+name
+"
+        
 hashes
 =
 req
@@ -5835,8 +5927,6 @@ self
 find_best_candidate
 (
             
-req
-.
 name
             
 specifier
@@ -5859,10 +5949,9 @@ best_candidate
         
 installed_version
 :
-Optional
-[
 _BaseVersion
-]
+|
+None
 =
 None
         
@@ -6061,20 +6150,17 @@ _should_install_candidate
             
 candidate
 :
-Optional
-[
 InstallationCandidate
-]
+|
+None
         
 )
 -
 >
-"
 TypeGuard
 [
 InstallationCandidate
 ]
-"
 :
             
 if
@@ -6545,10 +6631,9 @@ str
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "

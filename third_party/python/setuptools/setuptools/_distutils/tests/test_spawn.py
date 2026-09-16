@@ -55,7 +55,7 @@ from
 .
 compat
 import
-py38
+py39
 as
 os_helper
 class
@@ -521,11 +521,13 @@ PATH
 '
             
 with
+(
+                
 mock
 .
 patch
 (
-                
+                    
 '
 distutils
 .
@@ -541,8 +543,9 @@ tmp_dir
 create
 =
 True
-            
+                
 )
+                
 mock
 .
 patch
@@ -557,6 +560,8 @@ os
 defpath
 '
 tmp_dir
+)
+            
 )
 :
                 
@@ -631,11 +636,12 @@ os
 pathsep
             
 with
+(
+                
 mock
 .
 patch
 (
-                
 '
 distutils
 .
@@ -652,8 +658,8 @@ return_value
 create
 =
 True
-            
 )
+                
 mock
 .
 patch
@@ -669,6 +675,8 @@ defpath
 '
 '
 '
+)
+            
 )
 :
                 
@@ -750,11 +758,13 @@ without
 confstr
             
 with
+(
+                
 mock
 .
 patch
 (
-                
+                    
 '
 distutils
 .
@@ -770,8 +780,9 @@ ValueError
 create
 =
 True
-            
+                
 )
+                
 mock
 .
 patch
@@ -786,6 +797,8 @@ os
 defpath
 '
 tmp_dir
+)
+            
 )
 :
                 
@@ -807,11 +820,13 @@ with
 confstr
             
 with
+(
+                
 mock
 .
 patch
 (
-                
+                    
 '
 distutils
 .
@@ -827,8 +842,9 @@ tmp_dir
 create
 =
 True
-            
+                
 )
+                
 mock
 .
 patch
@@ -844,6 +860,8 @@ defpath
 '
 '
 '
+)
+            
 )
 :
                 
