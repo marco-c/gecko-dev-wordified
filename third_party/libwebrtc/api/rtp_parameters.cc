@@ -2648,10 +2648,6 @@ encrypt
 a
 .
 id
-.
-value
-(
-)
 )
 <
 std
@@ -2668,10 +2664,6 @@ encrypt
 b
 .
 id
-.
-value
-(
-)
 )
 ;
 }
