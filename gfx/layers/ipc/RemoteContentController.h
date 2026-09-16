@@ -207,8 +207,13 @@ RemoteContentController
 final
 )
 ;
+explicit
 RemoteContentController
 (
+const
+LayersId
+&
+aLayersId
 )
 ;
 void
@@ -489,6 +494,10 @@ virtual
 RemoteContentController
 (
 )
+;
+const
+LayersId
+mLayersId
 ;
 nsCOMPtr
 <

@@ -4192,6 +4192,7 @@ MakeRefPtr
 RemoteContentController
 >
 (
+mRootLayerTreeID
 )
 ;
 StaticMonitorAutoLock

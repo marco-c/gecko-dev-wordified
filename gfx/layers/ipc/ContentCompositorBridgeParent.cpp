@@ -792,6 +792,7 @@ MakeRefPtr
 RemoteContentController
 >
 (
+aLayersId
 )
 ;
 CompositorBridgeParent
