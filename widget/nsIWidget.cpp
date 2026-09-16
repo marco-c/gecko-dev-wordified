@@ -14651,7 +14651,7 @@ aDragMetrics
 )
 ;
 }
-bool
+void
 nsIWidget
 :
 :
@@ -14679,7 +14679,6 @@ AsyncPanZoomEnabled
 )
 )
 ;
-return
 mAPZC
 -
 >

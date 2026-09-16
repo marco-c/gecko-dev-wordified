@@ -23959,7 +23959,6 @@ aPresShellId
 aScrollId
 )
 ;
-return
 widget
 -
 >
@@ -23978,6 +23977,9 @@ LayoutDeviceIsScreenForBounds
 )
 guid
 )
+;
+return
+true
 ;
 }
 void

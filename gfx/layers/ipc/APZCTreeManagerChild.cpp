@@ -643,7 +643,7 @@ aDragMetrics
 )
 ;
 }
-bool
+void
 APZCTreeManagerChild
 :
 :
@@ -666,7 +666,6 @@ NS_IsMainThread
 )
 )
 ;
-return
 SendStartAutoscroll
 (
 aGuid

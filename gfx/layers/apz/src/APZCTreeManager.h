@@ -3469,7 +3469,7 @@ aDragMetrics
 )
 override
 ;
-bool
+void
 StartAutoscroll
 (
 const
