@@ -220,13 +220,6 @@ cc
 "
 race
 :
-vp8cx_remove_encoder_threads
-\
-n
-"
-"
-race
-:
 third_party
 /
 libvpx
