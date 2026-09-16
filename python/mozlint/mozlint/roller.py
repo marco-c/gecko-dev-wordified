@@ -1729,18 +1729,32 @@ res
                     
 findobject
 (
+                        
 linter
 [
 "
 setup
 "
 ]
+                        
 linter
 [
 "
 path
 "
 ]
+                        
+self
+.
+lintargs
+.
+get
+(
+"
+linter_paths
+"
+)
+                    
 )
 (
                         
