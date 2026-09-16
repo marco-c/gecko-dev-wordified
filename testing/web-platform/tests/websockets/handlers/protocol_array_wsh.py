@@ -5,7 +5,7 @@ usr
 /
 bin
 /
-python
+python3
 from
 pywebsocket3
 import
@@ -34,6 +34,10 @@ protocol
 '
 )
     
+if
+line
+:
+        
 request
 .
 ws_protocol
@@ -49,8 +53,6 @@ split
 [
 0
 ]
-#
-pass
 def
 web_socket_transfer_data
 (
@@ -58,18 +60,19 @@ request
 )
 :
     
-while
-True
-:
-        
+message
+=
+request
+.
+ws_protocol
+or
+'
+'
+    
 msgutil
 .
 send_message
 (
 request
-request
-.
-ws_protocol
+message
 )
-        
-return
