@@ -109,8 +109,8 @@ cc
 self
 .
 crash_context
-{
-if
+&
+&
 cc
 .
 exception
@@ -421,7 +421,6 @@ ip_location
 }
 )
 ;
-}
 }
 }
 let

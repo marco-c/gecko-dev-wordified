@@ -237,8 +237,6 @@ code
 exc
 .
 code
-as
-u64
 ;
 /
 /
@@ -264,8 +262,6 @@ if
 exc
 .
 kind
-as
-u32
 =
 =
 et
@@ -635,8 +631,6 @@ if
 exc
 .
 kind
-as
-u32
 =
 =
 et
@@ -648,8 +642,6 @@ EXC_RESOURCE
 exc
 .
 kind
-as
-u32
 =
 =
 et
@@ -1356,10 +1348,8 @@ is_valid_exc_crash
 code
 )
 .
-then
+then_some
 (
-|
-|
 WrappedException
 {
 kind
