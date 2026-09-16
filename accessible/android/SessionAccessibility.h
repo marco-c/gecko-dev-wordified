@@ -313,6 +313,15 @@ int32_t
 aID
 )
 ;
+void
+ChangeValueBySteps
+(
+int32_t
+aID
+double
+aSteps
+)
+;
 bool
 Pivot
 (
