@@ -849,14 +849,11 @@ aBuilder
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 HTMLIFrameElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
@@ -1862,7 +1859,7 @@ directives
 mFeaturePolicy
 -
 >
-SetDeclaredPolicy
+SetDeclaredAttributePolicy
 (
 OwnerDoc
 (

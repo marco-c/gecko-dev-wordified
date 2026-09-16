@@ -332,7 +332,7 @@ bool
 FeaturePolicyParser
 :
 :
-ParseString
+ParsePolicyFromAttribute
 (
 const
 nsAString
