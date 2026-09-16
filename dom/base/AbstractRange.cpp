@@ -792,7 +792,7 @@ return
 }
 TreeIterator
 <
-FlattenedChildIterator
+FlattenedChildIteratorForSelection
 >
 iter
 (
