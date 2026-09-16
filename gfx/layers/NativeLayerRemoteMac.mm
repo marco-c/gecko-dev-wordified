@@ -564,8 +564,10 @@ mDirtyChangedSurface
 true
 ;
 }
+RefPtr
+<
 GpuFence
-*
+>
 NativeLayerRemoteMac
 :
 :

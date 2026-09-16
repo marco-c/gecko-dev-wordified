@@ -93,6 +93,9 @@ class
 FenceFileHandle
 ;
 class
+GpuFence
+;
+class
 Fence
 {
 public
@@ -117,6 +120,17 @@ virtual
 FenceFileHandle
 *
 AsFenceFileHandle
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+GpuFence
+*
+AsGpuFence
 (
 )
 {
