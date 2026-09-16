@@ -1347,6 +1347,8 @@ const
 nsIContent
 *
 aContent
+bool
+aSkipNativeAnonymousContent
 )
 {
 const
@@ -1537,11 +1539,16 @@ IsInNativeAnonymousSubtree
 )
 &
 &
+(
+aSkipNativeAnonymousContent
+|
+|
 !
 ShouldFindAnonymousContent
 (
 *
 content
+)
 )
 )
 {
@@ -1765,6 +1772,8 @@ State
 (
 bool
 aFindBackward
+bool
+aSkipNativeAnonymousContent
 nsIContent
 &
 aRoot
@@ -1777,6 +1786,10 @@ aStartPoint
 mFindBackward
 (
 aFindBackward
+)
+mSkipNativeAnonymousContent
+(
+aSkipNativeAnonymousContent
 )
 mInitialized
 (
@@ -2024,6 +2037,8 @@ aPrev
 bool
 aAlreadyMatching
 bool
+aSkipNativeAnonymousContent
+bool
 *
 aForcedBreak
 )
@@ -2063,6 +2078,7 @@ aNode
 AsText
 (
 )
+aSkipNativeAnonymousContent
 )
 )
 {
@@ -2319,6 +2335,10 @@ const
 bool
 mFindBackward
 ;
+const
+bool
+mSkipNativeAnonymousContent
+;
 /
 /
 Whether
@@ -2535,6 +2555,7 @@ AnalyzeNode
 current
 prev
 aAlreadyMatching
+mSkipNativeAnonymousContent
 &
 mFoundBreak
 )
@@ -2766,6 +2787,7 @@ AnalyzeNode
 current
 nullptr
 kAlreadyMatching
+mSkipNativeAnonymousContent
 &
 mFoundBreak
 )
@@ -4569,6 +4591,7 @@ State
 state
 (
 mFindBackward
+mSkipNativeAnonymousContent
 *
 root
 mFindBackward

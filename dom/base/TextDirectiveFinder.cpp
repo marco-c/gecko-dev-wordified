@@ -1073,6 +1073,14 @@ SetNodeIndexCache
 nodeIndexCache
 )
 ;
+finder
+-
+>
+SetSkipNativeAnonymousContent
+(
+true
+)
+;
 /
 /
 2
