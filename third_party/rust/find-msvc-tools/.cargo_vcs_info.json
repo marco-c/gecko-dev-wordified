@@ -17,5 +17,10 @@ path_in_vcs
 "
 :
 "
+find
+-
+msvc
+-
+tools
 "
 }

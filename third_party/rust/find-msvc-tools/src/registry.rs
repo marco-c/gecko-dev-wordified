@@ -126,9 +126,6 @@ use
 crate
 :
 :
-windows
-:
-:
 windows_sys
 :
 :
@@ -495,6 +492,10 @@ self
 -
 >
 Iter
+<
+'
+_
+>
 {
 Iter
 {
@@ -791,10 +792,10 @@ v
 as_mut_ptr
 (
 )
-as
-*
-mut
-_
+.
+cast
+(
+)
 &
 mut
 len

@@ -26,6 +26,10 @@ run
 /
 /
 cd
+dev
+-
+tools
+/
 generate
 -
 windows
@@ -48,9 +52,9 @@ windows
 bindgen
 0
 .
-62
+66
 .
-1
+0
 #
 !
 [

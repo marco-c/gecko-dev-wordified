@@ -114,9 +114,6 @@ use
 crate
 :
 :
-windows
-:
-:
 {
 com
 :
@@ -944,10 +941,10 @@ ComPtr
 from_raw
 (
 obj
-as
-*
-mut
-ISetupConfiguration
+.
+cast
+(
+)
 )
 }
 ;
