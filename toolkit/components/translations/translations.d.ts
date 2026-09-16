@@ -3043,6 +3043,16 @@ export
 type
 TranslationsPortMessages
 =
+|
+{
+type
+:
+"
+TranslationsPort
+:
+Close
+"
+}
 /
 /
 We
