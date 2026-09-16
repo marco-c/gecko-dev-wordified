@@ -1379,6 +1379,8 @@ const
 nsIntSize
 &
 aSize
+VideoRotation
+aRotation
 )
 {
 HTMLMediaElement
@@ -1387,6 +1389,7 @@ HTMLMediaElement
 UpdateMediaSize
 (
 aSize
+aRotation
 )
 ;
 /
@@ -1431,6 +1434,10 @@ ImageSizeChanged
 :
 Yes
 newSize
+Some
+(
+aRotation
+)
 ForceInvalidate
 :
 :
@@ -1595,6 +1602,13 @@ nsIntSize
 >
 &
 aNewIntrinsicSize
+const
+Maybe
+<
+VideoRotation
+>
+&
+aNewRotation
 ForceInvalidate
 aForceInvalidate
 )
@@ -1606,6 +1620,7 @@ Invalidate
 (
 aImageSizeChanged
 aNewIntrinsicSize
+aNewRotation
 aForceInvalidate
 )
 ;
