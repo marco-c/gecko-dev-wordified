@@ -674,7 +674,7 @@ stub
 (
 gURLBar
 .
-controller
+parentController
 "
 loadURL
 "

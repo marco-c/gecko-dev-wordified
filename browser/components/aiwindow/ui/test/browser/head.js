@@ -7693,12 +7693,13 @@ private
 #
 loadURL
 into
-controller
-.
-loadURL
-so
 the
+parent
 controller
+'
+s
+loadURL
+which
 is
 the
 seam
@@ -7867,7 +7868,7 @@ null
 ;
 smartbar
 .
-controller
+parentController
 .
 loadURL
 =
@@ -7910,7 +7911,7 @@ else
 {
 smartbar
 .
-controller
+parentController
 .
 loadURL
 =
@@ -8134,7 +8135,7 @@ null
 ;
 smartbar
 .
-controller
+parentController
 .
 openSERP
 =

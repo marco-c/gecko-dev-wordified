@@ -754,13 +754,15 @@ returned
 )
 ;
 let
-controller
+parentController
 =
 UrlbarTestUtils
 .
 mockChildController
 (
 )
+.
+parentController
 ;
 let
 stub
@@ -769,7 +771,7 @@ sinon
 .
 stub
 (
-controller
+parentController
 "
 removeResult
 "
@@ -795,7 +797,7 @@ provider
 onEngagement
 (
 queryContext
-controller
+parentController
 {
 selType
 :

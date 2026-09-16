@@ -445,7 +445,7 @@ win
 .
 gURLBar
 .
-controller
+parentController
 .
 getEngineIconURL
 (

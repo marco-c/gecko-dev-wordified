@@ -3905,7 +3905,7 @@ discard
 ;
 gURLBar
 .
-controller
+parentController
 .
 clearLastQueryContextCache
 (
