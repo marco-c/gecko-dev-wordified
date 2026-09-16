@@ -938,6 +938,7 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Hash
 MallocSizeOf
 Parse
 PartialEq

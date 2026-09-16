@@ -5355,6 +5355,15 @@ bit
 CssRuleType
 :
 :
+FontPaletteValues
+.
+bit
+(
+)
+|
+CssRuleType
+:
+:
 Page
 .
 bit
