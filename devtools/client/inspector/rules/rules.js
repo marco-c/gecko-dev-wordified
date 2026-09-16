@@ -18517,8 +18517,6 @@ this
 .
 inspector
 .
-styleChangeTracker
-.
 on
 (
 "
