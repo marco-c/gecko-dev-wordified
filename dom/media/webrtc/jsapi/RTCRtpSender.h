@@ -1085,11 +1085,6 @@ MaybeGetJsepRids
 )
 ;
 void
-UpdateDtmfSender
-(
-)
-;
-void
 WarnAboutBadSetParameters
 (
 const
