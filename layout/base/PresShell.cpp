@@ -38190,6 +38190,14 @@ IsRootContentDocumentCrossProcess
 ;
 MOZ_ASSERT_IF
 (
+aBuilder
+-
+>
+IsPaintingToWindow
+(
+)
+&
+&
 !
 aFrame
 -
