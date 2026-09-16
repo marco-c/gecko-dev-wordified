@@ -639,6 +639,16 @@ EqualsLiteral
 HONOR
 "
 )
+|
+|
+sManufacturer
+.
+EqualsLiteral
+(
+"
+HUAWEI
+"
+)
 )
 ;
 }
