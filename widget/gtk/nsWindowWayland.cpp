@@ -804,7 +804,7 @@ false
 NS_ConvertUTF16toUTF8
 id
 (
-mSessionID
+mWorkspaceID
 )
 ;
 if
@@ -889,7 +889,7 @@ workspaceID
 {
 if
 (
-mSessionID
+mWorkspaceID
 .
 IsEmpty
 (
@@ -899,7 +899,7 @@ IsEmpty
 !
 GenerateWorkspaceID
 (
-mSessionID
+mWorkspaceID
 )
 )
 {
@@ -910,7 +910,7 @@ workspaceID
 .
 Assign
 (
-mSessionID
+mWorkspaceID
 )
 ;
 LOG
@@ -931,7 +931,7 @@ p
 "
 NS_ConvertUTF16toUTF8
 (
-mSessionID
+mWorkspaceID
 )
 .
 get
@@ -1027,7 +1027,7 @@ p
 "
 NS_ConvertUTF16toUTF8
 (
-mSessionID
+mWorkspaceID
 )
 .
 get
@@ -1086,7 +1086,7 @@ nsAString
 workspaceIDStr
 )
 {
-mSessionID
+mWorkspaceID
 .
 Assign
 (
@@ -1117,7 +1117,7 @@ d
 "
 NS_ConvertUTF16toUTF8
 (
-mSessionID
+mWorkspaceID
 )
 .
 get
