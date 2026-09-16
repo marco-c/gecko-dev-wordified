@@ -1085,6 +1085,17 @@ gfxDWriteFontEntry
 (
 )
 ;
+#
+if
+MOZ_FONTATIONS
+void
+InitSkrifaFontFace
+(
+)
+override
+;
+#
+endif
 bool
 HasVariationsInternal
 (
