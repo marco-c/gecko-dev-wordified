@@ -57,14 +57,6 @@ require_user_interaction_for_beforeunload
 "
 false
 ]
-[
-"
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
 ]
 }
 )

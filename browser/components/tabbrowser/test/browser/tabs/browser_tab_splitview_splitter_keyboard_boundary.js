@@ -77,14 +77,6 @@ set
 [
 [
 "
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
 ui
 .
 prefersReducedMotion

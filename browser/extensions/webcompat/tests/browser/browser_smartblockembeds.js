@@ -89,14 +89,6 @@ featureGate
 "
 false
 ]
-[
-"
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
 /
 /
 Extend
@@ -597,7 +589,6 @@ for
 script
 to
 finish
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1172,7 +1163,6 @@ opened
 via
 embed
 button
-await
 EventUtils
 .
 synthesizeMouseAtCenter

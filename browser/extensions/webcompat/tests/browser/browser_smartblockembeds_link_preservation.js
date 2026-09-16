@@ -107,14 +107,6 @@ featureGate
 false
 ]
 [
-"
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
 SEC_DELAY_PREF
 1000
 ]
