@@ -477,12 +477,12 @@ DEFAULT_CXX_14
 SUPPORTS_GNUXX17
 +
 SUPPORTS_CXX17
-GCC_11
+GCC_10
 =
 GCC
 (
 "
-11
+10
 .
 2
 .
@@ -491,24 +491,75 @@ GCC
 )
 +
 DEFAULT_C17
-GXX_11
+GXX_10
 =
+(
+    
 GXX
 (
 "
-11
+10
 .
 2
 .
 1
 "
 )
+    
 +
-DEFAULT_CXX_17
+DEFAULT_CXX_14
+    
 +
-SUPPORTS_GNUXX20
+SUPPORTS_GNUXX17
+    
 +
-SUPPORTS_CXX20
+SUPPORTS_CXX17
+    
++
+{
+        
+"
+-
+std
+=
+gnu
++
++
+20
+"
+:
+{
+"
+__cplusplus
+"
+:
+"
+201709L
+"
+}
+        
+"
+-
+std
+=
+c
++
++
+20
+"
+:
+{
+"
+__cplusplus
+"
+:
+"
+201709L
+"
+}
+    
+}
+)
 GCC_14
 =
 GCC
@@ -2622,7 +2673,7 @@ f
 "
 Only
 GCC
-11
+10
 .
 1
 or
@@ -2717,10 +2768,10 @@ bin
 /
 gcc
 -
-11
+10
 "
 :
-GCC_11
+GCC_10
 +
 GCC_PLATFORM_X86_64_LINUX
         
@@ -2734,10 +2785,10 @@ g
 +
 +
 -
-11
+10
 "
 :
-GXX_11
+GXX_10
 +
 GCC_PLATFORM_X86_64_LINUX
         
@@ -2884,22 +2935,22 @@ GXX_7_RESULT
 =
 GCC_7_RESULT
     
-GCC_11_RESULT
+GCC_10_RESULT
 =
 CompilerResult
 (
         
 #
 gcc
-11
+10
 defaults
 to
 C17
 so
+no
 there
 '
 s
-no
 need
 to
 add
@@ -2912,7 +2963,7 @@ gnu17
 version
 =
 "
-11
+10
 .
 2
 .
@@ -2935,7 +2986,7 @@ bin
 /
 gcc
 -
-11
+10
 "
         
 language
@@ -2946,7 +2997,7 @@ C
     
 )
     
-GXX_11_RESULT
+GXX_10_RESULT
 =
 CompilerResult
 (
@@ -2963,12 +3014,22 @@ gnu
 +
 20
 "
+"
+-
+U__cplusplus
+"
+"
+-
+D__cplusplus
+=
+202002L
+"
 ]
         
 version
 =
 "
-11
+10
 .
 2
 .
@@ -2993,7 +3054,7 @@ g
 +
 +
 -
-11
+10
 "
         
 language
@@ -3008,7 +3069,7 @@ C
     
 GCC_14_RESULT
 =
-GCC_11_RESULT
+GCC_10_RESULT
 +
 {
 "
@@ -3753,7 +3814,7 @@ C
 compiler
 is
 version
-11
+10
 .
 2
 .
@@ -3795,7 +3856,7 @@ g
 +
 +
 -
-11
+10
 "
 }
         
@@ -3866,7 +3927,7 @@ C
 compiler
 is
 version
-11
+10
 .
 2
 .
@@ -3908,7 +3969,7 @@ g
 +
 +
 -
-11
+10
 "
 }
         
@@ -5748,10 +5809,10 @@ bin
 /
 gcc
 -
-11
+10
 "
 :
-GCC_11
+GCC_10
 +
 GCC_PLATFORM_X86_64_OSX
         
@@ -5765,10 +5826,10 @@ g
 +
 +
 -
-11
+10
 "
 :
-GXX_11
+GXX_10
 +
 GCC_PLATFORM_X86_64_OSX
         
@@ -6036,17 +6097,17 @@ LinuxToolchainTest
 .
 GXX_7_RESULT
     
-GCC_11_RESULT
+GCC_10_RESULT
 =
 LinuxToolchainTest
 .
-GCC_11_RESULT
+GCC_10_RESULT
     
-GXX_11_RESULT
+GXX_10_RESULT
 =
 LinuxToolchainTest
 .
-GXX_11_RESULT
+GXX_10_RESULT
     
 SYSROOT_FLAGS
 =
@@ -6355,7 +6416,7 @@ c_compiler
 :
 self
 .
-GCC_11_RESULT
+GCC_10_RESULT
 +
 self
 .
@@ -6367,7 +6428,7 @@ cxx_compiler
 :
 self
 .
-GXX_11_RESULT
+GXX_10_RESULT
 +
 self
 .
@@ -6385,7 +6446,7 @@ CC
 "
 gcc
 -
-11
+10
 "
 "
 CXX
@@ -6396,7 +6457,7 @@ g
 +
 +
 -
-11
+10
 "
 }
         
@@ -6622,10 +6683,10 @@ bin
 /
 gcc
 -
-11
+10
 "
 :
-GCC_11
+GCC_10
 +
 GCC_PLATFORM_X86_WIN
 +
@@ -6641,10 +6702,10 @@ g
 +
 +
 -
-11
+10
 "
 :
-GXX_11
+GXX_10
 +
 GCC_PLATFORM_X86_WIN
 +
@@ -7417,10 +7478,10 @@ bin
 /
 gcc
 -
-11
+10
 "
 :
-GCC_11
+GCC_10
 +
 GCC_PLATFORM_X86_64_WIN
 +
@@ -7436,10 +7497,10 @@ g
 +
 +
 -
-11
+10
 "
 :
-GXX_11
+GXX_10
 +
 GCC_PLATFORM_X86_64_WIN
 +
