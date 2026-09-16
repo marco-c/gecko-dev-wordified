@@ -725,24 +725,6 @@ build
 scripts
         
 "
-GECKO_PATH
-"
-:
-"
-.
-/
-src
-"
-#
-with
-values
-suiteable
-for
-windows
-generic
-worker
-        
-"
 UPLOAD_DIR
 "
 :
@@ -753,6 +735,14 @@ public
 /
 build
 "
+#
+with
+values
+suiteable
+for
+windows
+generic
+worker
     
 }
 )
@@ -899,6 +889,8 @@ concat
 '
 "
 .
+/
+build
 /
 src
 /
