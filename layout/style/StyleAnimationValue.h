@@ -310,7 +310,9 @@ supported
 nscolor
 GetColor
 (
-nscolor
+const
+StyleAbsoluteColor
+&
 aForegroundColor
 )
 const

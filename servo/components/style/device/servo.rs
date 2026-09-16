@@ -922,7 +922,7 @@ CssEnvironment
 default_values
 body_text_color
 :
-AtomicU32
+RwLock
 :
 :
 new
@@ -931,10 +931,6 @@ AbsoluteColor
 :
 :
 BLACK
-.
-to_nscolor
-(
-)
 )
 extra
 :

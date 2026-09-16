@@ -8198,12 +8198,6 @@ ServoCSSParser
 ComputeColor
 (
 data
-NS_RGB
-(
-0
-0
-0
-)
 aString
 &
 color
