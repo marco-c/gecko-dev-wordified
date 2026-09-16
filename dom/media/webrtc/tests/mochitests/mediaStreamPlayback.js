@@ -641,6 +641,16 @@ mediaElement
 play
 (
 )
+.
+catch
+(
+(
+)
+=
+>
+{
+}
+)
 ;
 }
 /
