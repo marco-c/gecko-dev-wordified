@@ -467,7 +467,15 @@ LogFunctionPtr
 aLogFunction
 )
 ;
-uint32_t
+[
+[
+nodiscard
+]
+]
+status
+:
+:
+Code
 ComputeCrc32
 (
 const
@@ -476,6 +484,9 @@ uint8_t
 aBuf
 size_t
 aBufSize
+uint32_t
+&
+aOutCrc32
 )
 ;
 class
