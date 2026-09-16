@@ -8628,9 +8628,6 @@ CrossProcessPaintFlags
 ResetScrollPosition
 ;
 }
-if
-(
-!
 gfx
 :
 :
@@ -8649,16 +8646,7 @@ color
 flags
 promise
 )
-)
-{
-aRv
-=
-NS_ERROR_FAILURE
 ;
-return
-nullptr
-;
-}
 return
 promise
 .
