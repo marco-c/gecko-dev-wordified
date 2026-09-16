@@ -1,4 +1,8 @@
 from
+collections
+import
+OrderedDict
+from
 typing
 import
 Dict
@@ -496,8 +500,9 @@ Text
 ]
 ]
 =
-{
-}
+OrderedDict
+(
+)
         
 if
 attrib_in

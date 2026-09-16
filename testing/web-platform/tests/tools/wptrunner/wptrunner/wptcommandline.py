@@ -13,6 +13,10 @@ os
 import
 sys
 from
+collections
+import
+OrderedDict
+from
 shutil
 import
 which
@@ -6457,8 +6461,9 @@ test_paths
     
 test_paths
 =
-{
-}
+OrderedDict
+(
+)
     
 for
 section

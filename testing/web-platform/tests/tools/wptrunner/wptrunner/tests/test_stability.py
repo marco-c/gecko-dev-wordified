@@ -11,6 +11,7 @@ sys
 from
 collections
 import
+OrderedDict
 defaultdict
 from
 unittest
@@ -654,8 +655,9 @@ LogHandler
     
 data
 =
-{
-}
+OrderedDict
+(
+)
     
 data
 [
@@ -686,8 +688,9 @@ subtests
 ]
 =
 =
-{
-}
+OrderedDict
+(
+)
     
 assert
 test

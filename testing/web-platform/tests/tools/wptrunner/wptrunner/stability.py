@@ -17,6 +17,7 @@ os
 from
 collections
 import
+OrderedDict
 defaultdict
 from
 datetime
@@ -361,8 +362,9 @@ self
 .
 results
 =
-{
-}
+OrderedDict
+(
+)
     
 def
 find_or_create_test
@@ -408,8 +410,9 @@ test
 subtests
 "
 :
-{
-}
+OrderedDict
+(
+)
             
 "
 status

@@ -7,6 +7,10 @@ untyped
 -
 defs
 from
+collections
+import
+OrderedDict
+from
 typing
 import
 Dict
@@ -94,8 +98,9 @@ self
 .
 raw_headers
 =
-{
-}
+OrderedDict
+(
+)
         
 for
 key
