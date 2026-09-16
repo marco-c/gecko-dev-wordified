@@ -42199,7 +42199,7 @@ trapDesc
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -42259,6 +42259,9 @@ OfficialUD
 fcr
 trapSiteDesc
 )
+;
+return
+fcr
 ;
 }
 uint32_t

@@ -127,7 +127,7 @@ js
 wasm
 :
 :
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 ;
 namespace
 js
@@ -917,6 +917,18 @@ wasm
 TrapSiteDesc
 &
 trapSiteDesc
+wasm
+:
+:
+StackMap
+*
+stackMapForTraps
+wasm
+:
+:
+StackMapRegistry
+*
+stackMapRegistry
 )
 ;
 /
@@ -2727,7 +2739,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_dtr
 (
 LoadStore
@@ -2747,7 +2759,7 @@ Condition
 cc
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_str
 (
 Register
@@ -2764,7 +2776,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_str
 (
 Register
@@ -2786,7 +2798,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ldr
 (
 DTRAddr
@@ -2803,7 +2815,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ldr
 (
 const
@@ -2825,7 +2837,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ldrb
 (
 DTRAddr
@@ -2842,7 +2854,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ldrh
 (
 EDtrAddr
@@ -2859,7 +2871,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ldrsh
 (
 EDtrAddr
@@ -2876,7 +2888,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_ldrsb
 (
 EDtrAddr
@@ -2918,7 +2930,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_strb
 (
 Register
@@ -2935,7 +2947,7 @@ cc
 Always
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 ma_strh
 (
 Register
@@ -8436,7 +8448,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load8SignExtend
 (
 const
@@ -8447,7 +8459,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load8SignExtend
 (
 const
@@ -8458,7 +8470,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load8ZeroExtend
 (
 const
@@ -8469,7 +8481,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load8ZeroExtend
 (
 const
@@ -8480,7 +8492,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load16SignExtend
 (
 const
@@ -8491,7 +8503,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load16SignExtend
 (
 const
@@ -8537,7 +8549,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load16ZeroExtend
 (
 const
@@ -8548,7 +8560,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load16ZeroExtend
 (
 const
@@ -8594,7 +8606,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 load32
 (
 const
@@ -8605,7 +8617,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 load32
 (
 const
@@ -8660,7 +8672,7 @@ dest
 )
 ;
 }
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 load64
 (
 const
@@ -8671,9 +8683,9 @@ Register64
 dest
 )
 {
-FaultingCodeOffset
-fco1
-fco2
+FaultingCodeRange
+fcr1
+fcr2
 ;
 bool
 highBeforeLow
@@ -8692,7 +8704,7 @@ if
 highBeforeLow
 )
 {
-fco1
+fcr1
 =
 load32
 (
@@ -8705,7 +8717,7 @@ dest
 high
 )
 ;
-fco2
+fcr2
 =
 load32
 (
@@ -8721,7 +8733,7 @@ low
 }
 else
 {
-fco1
+fcr1
 =
 load32
 (
@@ -8734,7 +8746,7 @@ dest
 low
 )
 ;
-fco2
+fcr2
 =
 load32
 (
@@ -8749,14 +8761,14 @@ high
 ;
 }
 return
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 (
-fco1
-fco2
+fcr1
+fcr2
 )
 ;
 }
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 load64
 (
 const
@@ -8829,9 +8841,9 @@ high
 )
 )
 ;
-FaultingCodeOffset
-fco1
-fco2
+FaultingCodeRange
+fcr1
+fcr2
 ;
 bool
 highBeforeLow
@@ -8860,7 +8872,7 @@ if
 highBeforeLow
 )
 {
-fco1
+fcr1
 =
 load32
 (
@@ -8873,7 +8885,7 @@ dest
 high
 )
 ;
-fco2
+fcr2
 =
 load32
 (
@@ -8889,7 +8901,7 @@ low
 }
 else
 {
-fco1
+fcr1
 =
 load32
 (
@@ -8902,7 +8914,7 @@ dest
 low
 )
 ;
-fco2
+fcr2
 =
 load32
 (
@@ -8917,10 +8929,10 @@ high
 ;
 }
 return
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 (
-fco1
-fco2
+fcr1
+fcr2
 )
 ;
 }
@@ -8957,7 +8969,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 loadPtr
 (
 const
@@ -8968,7 +8980,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadPtr
 (
 const
@@ -9011,7 +9023,7 @@ Register
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadDouble
 (
 const
@@ -9022,7 +9034,7 @@ FloatRegister
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadDouble
 (
 const
@@ -9033,7 +9045,7 @@ FloatRegister
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat32
 (
 const
@@ -9044,7 +9056,7 @@ FloatRegister
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat32
 (
 const
@@ -9055,7 +9067,7 @@ FloatRegister
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat16
 (
 const
@@ -9068,7 +9080,7 @@ Register
 scratch
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 loadFloat16
 (
 const
@@ -9081,7 +9093,7 @@ Register
 scratch
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store8
 (
 Register
@@ -9103,7 +9115,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store8
 (
 Register
@@ -9125,7 +9137,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store16
 (
 Register
@@ -9147,7 +9159,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store16
 (
 Register
@@ -9217,7 +9229,7 @@ AbsoluteAddress
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Register
@@ -9228,7 +9240,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Register
@@ -9239,7 +9251,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Imm32
@@ -9250,7 +9262,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 store32
 (
 Imm32
@@ -9300,7 +9312,7 @@ dest
 )
 ;
 }
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 store64
 (
 Register64
@@ -9309,8 +9321,8 @@ Address
 address
 )
 {
-FaultingCodeOffset
-fco1
+FaultingCodeRange
+fcr1
 =
 store32
 (
@@ -9323,8 +9335,8 @@ address
 )
 )
 ;
-FaultingCodeOffset
-fco2
+FaultingCodeRange
+fcr2
 =
 store32
 (
@@ -9338,14 +9350,14 @@ address
 )
 ;
 return
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 (
-fco1
-fco2
+fcr1
+fcr2
 )
 ;
 }
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 store64
 (
 Register64
@@ -9356,8 +9368,8 @@ BaseIndex
 address
 )
 {
-FaultingCodeOffset
-fco1
+FaultingCodeRange
+fcr1
 =
 store32
 (
@@ -9370,8 +9382,8 @@ address
 )
 )
 ;
-FaultingCodeOffset
-fco2
+FaultingCodeRange
+fcr2
 =
 store32
 (
@@ -9385,10 +9397,10 @@ address
 )
 ;
 return
-FaultingCodeOffsetPair
+FaultingCodeRangePair
 (
-fco1
-fco2
+fcr1
+fcr2
 )
 ;
 }
@@ -9503,7 +9515,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 ImmWord
@@ -9514,7 +9526,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 ImmWord
@@ -9569,7 +9581,7 @@ BaseIndex
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 Register
@@ -9580,7 +9592,7 @@ Address
 address
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 storePtr
 (
 Register

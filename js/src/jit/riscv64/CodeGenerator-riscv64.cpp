@@ -1632,6 +1632,8 @@ output
 flags
 off
 oolRejoin
+nullptr
+nullptr
 )
 ;
 }
@@ -1656,6 +1658,8 @@ output64
 flags
 off
 oolRejoin
+nullptr
+nullptr
 )
 ;
 }
@@ -1703,6 +1707,8 @@ output
 flags
 off
 oolRejoin
+nullptr
+nullptr
 )
 ;
 }
@@ -1727,6 +1733,8 @@ output64
 flags
 off
 oolRejoin
+nullptr
+nullptr
 )
 ;
 }
