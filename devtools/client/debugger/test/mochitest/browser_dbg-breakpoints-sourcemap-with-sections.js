@@ -105,6 +105,10 @@ initDebugger
 doc
 -
 sourcemaps
+-
+with
+-
+sections
 .
 html
 "
