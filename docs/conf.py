@@ -1913,6 +1913,17 @@ css
     
 app
 .
+add_js_file
+(
+"
+scrollable_regions
+.
+js
+"
+)
+    
+app
+.
 connect
 (
 "
