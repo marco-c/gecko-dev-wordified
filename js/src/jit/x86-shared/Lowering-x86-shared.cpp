@@ -5272,7 +5272,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -5878,7 +5878,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 lhs
@@ -7869,7 +7869,7 @@ endif
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 bool
 MWasmTernarySimd128
 :
@@ -9373,7 +9373,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 lhs
@@ -9622,7 +9622,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MDefinition
 *
 lhs
@@ -10308,7 +10308,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -10984,7 +10984,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -11316,7 +11316,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -11561,7 +11561,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_ASSERT
 (
 ins
@@ -12386,7 +12386,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 /
 /
 A
@@ -12580,7 +12580,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 /
 /
 See
@@ -12701,7 +12701,7 @@ endif
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 bool
 LIRGeneratorX86Shared
 :
@@ -12978,7 +12978,7 @@ usesEnd
 endif
 /
 /
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 LIRGenerator
 :
@@ -12992,7 +12992,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 if
 (
 canEmitWasmReduceSimd128AtUses

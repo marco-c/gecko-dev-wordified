@@ -1785,7 +1785,7 @@ return
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 MIRType
 :
@@ -15558,7 +15558,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 const
 LDefinition
 *
@@ -15613,7 +15613,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 switch
 (
 ins
@@ -16058,7 +16058,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 lhs
 =
@@ -18950,7 +18950,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 lhs
 =
@@ -20479,7 +20479,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 lhsDest
 =
@@ -20821,7 +20821,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 src
 =
@@ -21207,7 +21207,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 src
 =
@@ -21366,7 +21366,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 lhsDest
 =
@@ -21912,7 +21912,7 @@ endif
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 enum
 PermuteX64I16x8Action
 :
@@ -22593,7 +22593,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 src
 =
@@ -23924,7 +23924,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 lhs
 =
@@ -24152,7 +24152,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 MOZ_RELEASE_ASSERT
 (
 ins
@@ -24247,7 +24247,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 dest
 =
@@ -24450,7 +24450,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 Register64
 src
 =
@@ -24712,7 +24712,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 src
 =
@@ -25855,7 +25855,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 src
 =
@@ -26309,7 +26309,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 src
 =
@@ -26697,7 +26697,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 FloatRegister
 src
 =
@@ -26808,7 +26808,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 const
 MWasmLoadLaneSimd128
 *
@@ -27210,7 +27210,7 @@ ins
 {
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 const
 MWasmStoreLaneSimd128
 *

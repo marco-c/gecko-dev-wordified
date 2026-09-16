@@ -779,9 +779,7 @@ Int32
 :
 vp
 .
-set
-(
-Int32Value
+setInt32
 (
 *
 static_cast
@@ -791,7 +789,6 @@ int32_t
 >
 (
 dataPtr
-)
 )
 )
 ;
@@ -825,9 +822,7 @@ some
 precision
 vp
 .
-set
-(
-NumberValue
+setNumber
 (
 (
 double
@@ -840,7 +835,6 @@ int64_t
 >
 (
 dataPtr
-)
 )
 )
 ;
@@ -857,9 +851,7 @@ Float32
 :
 vp
 .
-set
-(
-NumberValue
+setNumber
 (
 *
 static_cast
@@ -869,7 +861,6 @@ float
 >
 (
 dataPtr
-)
 )
 )
 ;
@@ -886,9 +877,7 @@ Double
 :
 vp
 .
-set
-(
-NumberValue
+setNumber
 (
 *
 static_cast
@@ -898,7 +887,6 @@ double
 >
 (
 dataPtr
-)
 )
 )
 ;
@@ -935,7 +923,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 jit
 :
@@ -947,12 +935,9 @@ Simd128
 :
 vp
 .
-set
-(
-NumberValue
+setInt32
 (
 0
-)
 )
 ;
 break

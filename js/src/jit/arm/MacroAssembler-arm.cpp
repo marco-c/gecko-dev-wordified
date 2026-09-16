@@ -6864,7 +6864,7 @@ cc
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -6911,7 +6911,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -6921,7 +6921,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -6951,7 +6951,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -6961,7 +6961,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7063,7 +7063,7 @@ cc
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7093,7 +7093,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -7103,7 +7103,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7136,7 +7136,7 @@ cc
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7166,7 +7166,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -7176,7 +7176,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7207,7 +7207,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -7217,7 +7217,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7248,7 +7248,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -7258,7 +7258,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7289,7 +7289,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -7404,7 +7404,7 @@ cc
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7435,7 +7435,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -7445,7 +7445,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARM
 :
 :
@@ -7475,7 +7475,7 @@ cc
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -12268,7 +12268,7 @@ imm
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -12312,7 +12312,7 @@ scratch
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -12322,7 +12322,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -12374,8 +12374,8 @@ asMasm
 )
 )
 ;
-FaultingCodeOffset
-fco
+FaultingCodeRange
+fcr
 ;
 if
 (
@@ -12387,7 +12387,7 @@ offset
 0
 )
 {
-fco
+fcr
 =
 ma_ldrb
 (
@@ -12422,7 +12422,7 @@ scratch
 scratch2
 )
 ;
-fco
+fcr
 =
 ma_ldrb
 (
@@ -12443,10 +12443,10 @@ dest
 ;
 }
 return
-fco
+fcr
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -12490,7 +12490,7 @@ scratch
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -12500,7 +12500,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -12642,7 +12642,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -12686,7 +12686,7 @@ scratch
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -12696,7 +12696,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -12838,7 +12838,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -12882,7 +12882,7 @@ scratch
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -12892,7 +12892,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13031,7 +13031,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13053,7 +13053,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13094,7 +13094,7 @@ dest
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13125,7 +13125,7 @@ scratch
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13177,8 +13177,8 @@ asMasm
 )
 )
 ;
-FaultingCodeOffset
-fco
+FaultingCodeRange
+fcr
 ;
 if
 (
@@ -13203,7 +13203,7 @@ scratch
 scratch2
 )
 ;
-fco
+fcr
 =
 ma_ldr
 (
@@ -13225,7 +13225,7 @@ dest
 }
 else
 {
-fco
+fcr
 =
 ma_ldr
 (
@@ -13246,7 +13246,7 @@ dest
 ;
 }
 return
-fco
+fcr
 ;
 }
 void
@@ -13385,7 +13385,7 @@ scratch
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13418,7 +13418,7 @@ scratch
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -13428,7 +13428,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13549,7 +13549,7 @@ scratch2
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 boffset
 .
@@ -13559,7 +13559,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13599,7 +13599,7 @@ scratch
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -13609,7 +13609,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13737,7 +13737,7 @@ scratch2
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 boffset
 .
@@ -13747,7 +13747,7 @@ getOffset
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13764,7 +13764,7 @@ scratch
 )
 {
 auto
-fco
+fcr
 =
 load16ZeroExtend
 (
@@ -13779,10 +13779,10 @@ dest
 )
 ;
 return
-fco
+fcr
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13799,7 +13799,7 @@ scratch
 )
 {
 auto
-fco
+fcr
 =
 load16ZeroExtend
 (
@@ -13814,7 +13814,7 @@ dest
 )
 ;
 return
-fco
+fcr
 ;
 }
 void
@@ -13852,7 +13852,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -13896,7 +13896,7 @@ scratch
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -14032,7 +14032,7 @@ scale
 ;
 }
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -14084,8 +14084,8 @@ asMasm
 )
 )
 ;
-FaultingCodeOffset
-fco
+FaultingCodeRange
+fcr
 ;
 if
 (
@@ -14110,7 +14110,7 @@ scratch
 scratch2
 )
 ;
-fco
+fcr
 =
 ma_strb
 (
@@ -14132,7 +14132,7 @@ scale
 }
 else
 {
-fco
+fcr
 =
 ma_strb
 (
@@ -14153,7 +14153,7 @@ scale
 ;
 }
 return
-fco
+fcr
 ;
 }
 void
@@ -14191,7 +14191,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -14235,7 +14235,7 @@ scratch
 )
 ;
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 offset
 .
@@ -14375,7 +14375,7 @@ index
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -14519,7 +14519,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -14541,7 +14541,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -14586,7 +14586,7 @@ scratch2
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -14714,7 +14714,7 @@ scale
 ;
 }
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -14766,8 +14766,8 @@ asMasm
 )
 )
 ;
-FaultingCodeOffset
-fco
+FaultingCodeRange
+fcr
 ;
 if
 (
@@ -14792,7 +14792,7 @@ scratch
 scratch2
 )
 ;
-fco
+fcr
 =
 ma_str
 (
@@ -14814,7 +14814,7 @@ scale
 }
 else
 {
-fco
+fcr
 =
 ma_str
 (
@@ -14835,10 +14835,10 @@ scale
 ;
 }
 return
-fco
+fcr
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -14865,7 +14865,7 @@ address
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -15120,7 +15120,7 @@ scale
 ;
 }
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -15151,7 +15151,7 @@ scratch2
 )
 ;
 }
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssemblerARMCompat
 :
 :
@@ -29749,7 +29749,7 @@ doubles
 .
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -30032,7 +30032,7 @@ above
 .
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -30205,7 +30205,7 @@ above
 .
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 #
 error
 "
@@ -35021,7 +35021,7 @@ BaseObjectElementIndex
 dest
 )
 ;
-FaultingCodeOffset
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -35030,7 +35030,7 @@ wasmTrapInstruction
 )
 {
 return
-FaultingCodeOffset
+FaultingCodeRange
 (
 as_illegal_trap
 (
@@ -36658,7 +36658,7 @@ access
 {
 masm
 .
-append
+appendAndVerify
 (
 *
 access
@@ -36672,7 +36672,7 @@ TrapMachineInsnForLoad
 (
 nbytes
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 firstAccess
 .
@@ -37264,7 +37264,7 @@ access
 {
 masm
 .
-append
+appendAndVerify
 (
 *
 access
@@ -37278,7 +37278,7 @@ TrapMachineInsnForLoad
 (
 nbytes
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 firstAccess
 .
@@ -37903,7 +37903,7 @@ access
 {
 masm
 .
-append
+appendAndVerify
 (
 *
 access
@@ -37917,7 +37917,7 @@ TrapMachineInsnForLoad
 (
 nbytes
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 firstAccess
 .
@@ -38593,7 +38593,7 @@ access
 {
 masm
 .
-append
+appendAndVerify
 (
 *
 access
@@ -38607,7 +38607,7 @@ TrapMachineInsnForLoad
 (
 nbytes
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 firstAccess
 .
@@ -39039,7 +39039,7 @@ access
 {
 masm
 .
-append
+appendAndVerify
 (
 *
 access
@@ -39053,7 +39053,7 @@ TrapMachineInsn
 :
 :
 Load64
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -39421,7 +39421,7 @@ access
 {
 masm
 .
-append
+appendAndVerify
 (
 *
 access
@@ -39435,7 +39435,7 @@ TrapMachineInsn
 :
 :
 Load64
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -39895,7 +39895,7 @@ access
 {
 masm
 .
-append
+appendAndVerify
 (
 *
 access
@@ -39909,7 +39909,7 @@ TrapMachineInsn
 :
 :
 Load64
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -40407,7 +40407,7 @@ access
 {
 masm
 .
-append
+appendAndVerify
 (
 *
 access
@@ -40421,7 +40421,7 @@ TrapMachineInsn
 :
 :
 Load64
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -45003,7 +45003,11 @@ out64
 low
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -45016,7 +45020,7 @@ TrapMachineInsn
 :
 :
 Load32
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -45050,7 +45054,11 @@ out64
 high
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -45063,7 +45071,7 @@ TrapMachineInsn
 :
 :
 Load32
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -45092,7 +45100,11 @@ out64
 low
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -45105,7 +45117,7 @@ TrapMachineInsnForLoad
 (
 byteSize
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -45405,7 +45417,11 @@ scratch
 )
 ;
 }
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -45418,7 +45434,7 @@ TrapMachineInsnForLoad
 (
 byteSize
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -45514,7 +45530,11 @@ CoreToFloat
 Always
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -45527,7 +45547,7 @@ TrapMachineInsn
 :
 :
 Load32
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -45604,7 +45624,11 @@ DtrOffImm
 Always
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -45617,7 +45641,7 @@ TrapMachineInsn
 :
 :
 Load32
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -45679,7 +45703,11 @@ gpr
 )
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -45692,7 +45720,7 @@ TrapMachineInsnForLoad
 (
 byteSize
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 load
 .
@@ -46010,7 +46038,11 @@ val64
 high
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -46023,7 +46055,7 @@ TrapMachineInsn
 :
 :
 Store32
-FaultingCodeOffset
+FaultingCodeRange
 (
 store
 .
@@ -46067,7 +46099,11 @@ val64
 low
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -46080,7 +46116,7 @@ TrapMachineInsn
 :
 :
 Store32
-FaultingCodeOffset
+FaultingCodeRange
 (
 store
 .
@@ -46219,7 +46255,11 @@ scratch
 )
 ;
 }
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -46232,7 +46272,7 @@ TrapMachineInsnForStore
 (
 byteSize
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 store
 .
@@ -46359,7 +46399,11 @@ DtrOffImm
 Always
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -46372,7 +46416,7 @@ TrapMachineInsn
 :
 :
 Store32
-FaultingCodeOffset
+FaultingCodeRange
 (
 store
 .
@@ -46466,7 +46510,11 @@ DtrOffImm
 Always
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -46479,7 +46527,7 @@ TrapMachineInsn
 :
 :
 Store32
-FaultingCodeOffset
+FaultingCodeRange
 (
 store
 .
@@ -46576,7 +46624,11 @@ ptr
 val
 )
 ;
-append
+asMasm
+(
+)
+.
+appendAndVerify
 (
 access
 js
@@ -46589,7 +46641,7 @@ TrapMachineInsnForStore
 (
 byteSize
 )
-FaultingCodeOffset
+FaultingCodeRange
 (
 store
 .

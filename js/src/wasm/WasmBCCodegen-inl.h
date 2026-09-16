@@ -465,7 +465,7 @@ dest
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 BaseCompiler
 :
@@ -656,7 +656,7 @@ dest
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 template
 <
 >
@@ -1288,7 +1288,7 @@ r
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 RegV128
 BaseCompiler
 :
