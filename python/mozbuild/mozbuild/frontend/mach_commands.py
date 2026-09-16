@@ -3028,7 +3028,18 @@ recent_reviewers_for_files
 (
             
 command_context
+            
 relpaths
+            
+known_groups
+=
+reviewers
+.
+known_review_groups
+(
+rules_data
+mots_config
+)
         
 )
     
