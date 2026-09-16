@@ -26956,6 +26956,9 @@ const
 EmbeddedThemePicker
 =
 (
+{
+installSource
+}
 )
 =
 >
@@ -26978,7 +26981,11 @@ theme
 -
 picker
 "
-null
+{
+installsource
+:
+installSource
+}
 )
 ;
 }
@@ -34065,6 +34072,14 @@ handleAction
 props
 .
 handleAction
+installSource
+:
+tile
+.
+data
+?
+.
+installSource
 }
 )
 tile
