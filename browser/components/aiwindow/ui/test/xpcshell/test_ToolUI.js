@@ -11573,7 +11573,7 @@ equal
 (
 undo
 .
-action_type
+action
 "
 group_tabs
 "

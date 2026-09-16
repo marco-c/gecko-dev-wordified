@@ -176,7 +176,7 @@ chat
 message_seq
 :
 5
-action_type
+action
 :
 "
 close_tabs
@@ -249,7 +249,7 @@ chat
 message_seq
 :
 2
-action_type
+action
 :
 "
 close_tabs
@@ -296,7 +296,7 @@ chat
 message_seq
 :
 1
-action_type
+action
 :
 "
 close_tabs
@@ -407,7 +407,7 @@ undo
 message_seq
 :
 3
-action_type
+action
 :
 "
 close_tabs
@@ -453,7 +453,7 @@ error
 message_seq
 :
 4
-action_type
+action
 :
 "
 close_tabs
@@ -499,7 +499,7 @@ partial
 message_seq
 :
 6
-action_type
+action
 :
 "
 close_tabs
@@ -632,7 +632,12 @@ submit_type
 "
 enter
 "
-action_type
+action
+:
+"
+close_tabs
+"
+trigger
 :
 "
 tab_mention
@@ -707,7 +712,12 @@ prompt_version
 "
 6
 "
-action_type
+action
+:
+"
+close_tabs
+"
+trigger
 :
 "
 description
@@ -763,7 +773,12 @@ prompt_version
 "
 6
 "
-action_type
+action
+:
+"
+close_tabs
+"
+trigger
 :
 "
 tab_mention
@@ -820,7 +835,12 @@ prompt_version
 "
 6
 "
-action_type
+action
+:
+"
+close_tabs
+"
+trigger
 :
 "
 description
@@ -949,7 +969,7 @@ test
 message_seq
 :
 1
-action_type
+action
 :
 "
 close_tabs
@@ -995,7 +1015,7 @@ test
 message_seq
 :
 2
-action_type
+action
 :
 "
 close_tabs
@@ -1251,7 +1271,7 @@ group
 message_seq
 :
 5
-action_type
+action
 :
 "
 group_tabs
@@ -1326,7 +1346,7 @@ confirm
 message_seq
 :
 10
-action_type
+action
 :
 "
 group_tabs
@@ -1403,7 +1423,7 @@ cancel
 message_seq
 :
 7
-action_type
+action
 :
 "
 group_tabs
@@ -1481,7 +1501,7 @@ success
 message_seq
 :
 3
-action_type
+action
 :
 "
 group_tabs
@@ -1556,7 +1576,7 @@ error
 message_seq
 :
 4
-action_type
+action
 :
 "
 group_tabs
