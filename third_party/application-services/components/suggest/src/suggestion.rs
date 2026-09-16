@@ -322,6 +322,9 @@ Option
 <
 FtsMatchInfo
 >
+suggestion_id
+:
+String
 }
 Wikipedia
 {

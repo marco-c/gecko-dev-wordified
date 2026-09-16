@@ -2633,6 +2633,10 @@ pub
 icon_id
 :
 String
+pub
+suggestion_id
+:
+String
 }
 /
 /
