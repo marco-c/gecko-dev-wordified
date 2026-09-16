@@ -152,7 +152,6 @@ v1
 derive
 (
 Clone
-Copy
 Debug
 Default
 Eq
@@ -178,6 +177,10 @@ test
 )
 ]
 Test
+Custom
+(
+Url
+)
 }
 impl
 Environment
@@ -318,6 +321,16 @@ server_url
 unwrap
 (
 )
+Environment
+:
+:
+Custom
+(
+url
+)
+=
+>
+url
 }
 }
 }
