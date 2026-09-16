@@ -155,6 +155,8 @@ const
 AudioConfig
 &
 aOut
+int
+aResamplerQuality
 )
 :
 mIn
@@ -164,6 +166,10 @@ aIn
 mOut
 (
 aOut
+)
+mResamplerQuality
+(
+aResamplerQuality
 )
 mResampler
 (
@@ -3233,7 +3239,7 @@ mOut
 Rate
 (
 )
-SPEEX_RESAMPLER_QUALITY_DEFAULT
+mResamplerQuality
 &
 error
 )
