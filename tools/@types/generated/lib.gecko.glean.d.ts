@@ -35233,10 +35233,6 @@ unhandled_rejection
 GleanCounter
 >
 ;
-unsubscribedByClearingData
-:
-GleanCounter
-;
 }
 domQuota
 :
