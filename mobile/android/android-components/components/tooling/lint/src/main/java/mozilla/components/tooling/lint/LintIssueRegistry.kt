@@ -109,7 +109,6 @@ Issue
 /
 *
 *
-*
 Registry
 which
 provides
@@ -248,11 +247,10 @@ ISSUE_USE_KOTLIN_TEST_ASSERT_NOT_NULL
 PixelSizeForDetector
 .
 ISSUE_USE_PIXEL_SIZE_FOR
-)
-+
 ConstraintLayoutPerfDetector
 .
-ISSUES
+ISSUE
+)
 +
 ContextCompatDetector
 .
