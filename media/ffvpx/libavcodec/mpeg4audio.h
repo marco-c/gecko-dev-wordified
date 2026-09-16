@@ -255,6 +255,15 @@ presence
 int
 frame_length_short
 ;
+int
+frame_length
+;
+/
+/
+/
+<
+derived
+value
 }
 MPEG4AudioConfig
 ;

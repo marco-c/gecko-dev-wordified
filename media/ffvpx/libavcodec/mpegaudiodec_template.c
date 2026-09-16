@@ -12107,6 +12107,8 @@ lsf
 :
 1152
 ;
+av_fallthrough
+;
 default
 :
 nb_frames
