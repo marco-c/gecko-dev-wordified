@@ -290,11 +290,8 @@ aModType
 const
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
@@ -2520,7 +2517,7 @@ mResponsiveSelector
 This
 is
 a
-weak
+strong
 reference
 that
 this
@@ -2534,11 +2531,11 @@ cooperate
 in
 maintaining
 .
+RefPtr
+<
 HTMLFormElement
-*
+>
 mForm
-=
-nullptr
 ;
 private
 :

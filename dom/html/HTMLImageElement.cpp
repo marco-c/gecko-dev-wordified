@@ -620,6 +620,7 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 HTMLImageElement
 nsGenericHTMLElement
 mResponsiveSelector
+mForm
 )
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
@@ -1439,14 +1440,11 @@ return
 retval
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 HTMLImageElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
