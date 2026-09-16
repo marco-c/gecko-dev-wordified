@@ -393,7 +393,6 @@ SpecialPowers
 .
 registerFactory
 (
-null
 this
 .
 _contractID
