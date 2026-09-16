@@ -12192,6 +12192,8 @@ EditorDOMPoint
 aPointToInsert
 InsertTextTo
 aInsertTextTo
+InsertTextFor
+aPurpose
 )
 ;
 /
@@ -12257,6 +12259,8 @@ const
 EditorDOMPointInText
 &
 aPointToInsert
+InsertTextFor
+aPurpose
 )
 ;
 /

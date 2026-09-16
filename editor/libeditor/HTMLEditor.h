@@ -5750,6 +5750,8 @@ const
 nsAString
 &
 aStringToInsert
+InsertTextFor
+aPurpose
 )
 ;
 struct
@@ -5831,6 +5833,8 @@ const
 NormalizedStringToInsertText
 &
 aData
+InsertTextFor
+aPurpose
 )
 ;
 struct
@@ -5876,6 +5880,8 @@ const
 ReplaceWhiteSpacesData
 &
 aData
+InsertTextFor
+aPurpose
 )
 ;
 /
@@ -5923,6 +5929,8 @@ EditorDOMPoint
 aPointToInsert
 InsertTextTo
 aInsertTextTo
+InsertTextFor
+aPurpose
 )
 final
 ;
@@ -20444,20 +20452,6 @@ aSelection
 bool
 operator
 =
-=
-(
-const
-CellIndexes
-&
-aOther
-)
-const
-=
-default
-;
-bool
-operator
-!
 =
 (
 const

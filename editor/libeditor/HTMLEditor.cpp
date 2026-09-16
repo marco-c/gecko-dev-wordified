@@ -26911,6 +26911,8 @@ const
 ReplaceWhiteSpacesData
 &
 aData
+InsertTextFor
+aPurpose
 )
 {
 Result
@@ -26934,6 +26936,7 @@ ReplaceLength
 aData
 .
 mNormalizedString
+aPurpose
 )
 ;
 if
@@ -27029,6 +27032,8 @@ const
 nsAString
 &
 aStringToInsert
+InsertTextFor
+aPurpose
 )
 {
 MOZ_ASSERT
@@ -27152,6 +27157,7 @@ InsertTextTo
 :
 :
 ExistingTextNodeIfAvailable
+aPurpose
 )
 ;
 NS_WARNING_ASSERTION
@@ -27675,6 +27681,8 @@ const
 NormalizedStringToInsertText
 &
 aData
+InsertTextFor
+aPurpose
 )
 {
 MOZ_ASSERT
@@ -27724,6 +27732,7 @@ InsertTextTo
 :
 :
 SpecifiedPoint
+aPurpose
 )
 :
 ReplaceTextWithTransaction
@@ -27751,6 +27760,7 @@ ReplaceLength
 aData
 .
 mNormalizedString
+aPurpose
 )
 ;
 if
@@ -28050,6 +28060,8 @@ EditorDOMPoint
 aPointToInsert
 InsertTextTo
 aInsertTextTo
+InsertTextFor
+aPurpose
 )
 {
 if
@@ -28119,6 +28131,7 @@ InsertTextWithTransaction
 aStringToInsert
 aPointToInsert
 aInsertTextTo
+aPurpose
 )
 ;
 }

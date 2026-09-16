@@ -1328,6 +1328,10 @@ InsertTextTo
 :
 :
 ExistingTextNodeIfAvailable
+InsertTextFor
+:
+:
+NormalText
 )
 ;
 if
@@ -3038,6 +3042,7 @@ InsertTextTo
 :
 :
 ExistingTextNodeIfAvailable
+aPurpose
 )
 ;
 if
@@ -3176,6 +3181,7 @@ InsertTextTo
 :
 :
 ExistingTextNodeIfAvailable
+aPurpose
 )
 ;
 if
