@@ -137,3 +137,7 @@ DOCUMENT_WARNING
 (
 SpeechRecognitionBlockedByAIControls
 )
+DOCUMENT_WARNING
+(
+SpeechRecognitionLangDefaultedToUserLanguage
+)
