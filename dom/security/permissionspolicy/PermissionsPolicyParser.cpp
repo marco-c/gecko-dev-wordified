@@ -187,7 +187,7 @@ nsIScriptError
 :
 warningFlag
 "
-Feature
+Permissions
 Policy
 "
 _ns
@@ -197,7 +197,7 @@ PropertiesFile
 :
 SECURITY_PROPERTIES
 "
-FeaturePolicyUnsupportedFeatureName
+PermissionsPolicyUnsupportedFeatureName
 "
 params
 )
@@ -245,7 +245,7 @@ nsIScriptError
 :
 warningFlag
 "
-Feature
+Permissions
 Policy
 "
 _ns
@@ -255,7 +255,7 @@ PropertiesFile
 :
 SECURITY_PROPERTIES
 "
-FeaturePolicyInvalidEmptyAllowValue
+PermissionsPolicyInvalidEmptyAllowValue
 "
 params
 )
@@ -303,7 +303,7 @@ nsIScriptError
 :
 warningFlag
 "
-Feature
+Permissions
 Policy
 "
 _ns
@@ -313,7 +313,7 @@ PropertiesFile
 :
 SECURITY_PROPERTIES
 "
-FeaturePolicyInvalidAllowValue
+PermissionsPolicyInvalidAllowValue
 "
 params
 )

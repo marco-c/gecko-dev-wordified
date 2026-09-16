@@ -4339,7 +4339,7 @@ ThrowSecurityError
 Document
 '
 s
-Feature
+Permissions
 Policy
 does
 not
@@ -4347,6 +4347,8 @@ allow
 to
 create
 a
+"
+"
 PaymentRequest
 "
 )
