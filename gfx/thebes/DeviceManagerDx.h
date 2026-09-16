@@ -593,6 +593,11 @@ UpdateMonitorInfo
 (
 )
 ;
+uint32_t
+MonitorColorSpaceBitfield
+(
+)
+;
 bool
 SystemHDREnabled
 (
@@ -1341,6 +1346,15 @@ MOZ_GUARDED_BY
 (
 mDeviceLock
 )
+;
+uint32_t
+mMonitorColorSpaceBitfield
+MOZ_GUARDED_BY
+(
+mDeviceLock
+)
+=
+0
 ;
 std
 :
