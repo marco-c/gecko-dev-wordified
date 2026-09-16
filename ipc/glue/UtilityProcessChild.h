@@ -578,6 +578,17 @@ defined
 (
 XP_WIN
 )
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvShutdown
+(
+)
+;
 AsyncBlockers
 &
 AsyncShutdownService
