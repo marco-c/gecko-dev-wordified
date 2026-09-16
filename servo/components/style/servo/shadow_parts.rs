@@ -60,6 +60,12 @@ use
 crate
 :
 :
+Atom
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -73,12 +79,6 @@ values
 :
 :
 AtomIdent
-;
-use
-crate
-:
-:
-Atom
 ;
 type
 Mapping

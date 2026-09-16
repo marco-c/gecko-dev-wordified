@@ -204,10 +204,10 @@ values
 :
 :
 {
+CSSFloat
 normalize
 reify_percentage
 serialize_percentage
-CSSFloat
 }
 ;
 use

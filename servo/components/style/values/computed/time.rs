@@ -67,6 +67,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -95,12 +101,6 @@ values
 :
 :
 CSSFloat
-;
-use
-crate
-:
-:
-Zero
 ;
 use
 std

@@ -96,6 +96,12 @@ use
 crate
 :
 :
+One
+;
+use
+crate
+:
+:
 parser
 :
 :
@@ -132,12 +138,6 @@ specified
 :
 :
 NonNegativeNumber
-;
-use
-crate
-:
-:
-One
 ;
 use
 cssparser

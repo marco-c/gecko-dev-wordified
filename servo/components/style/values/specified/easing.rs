@@ -194,10 +194,10 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
 Delimiter
 Parser
 Token
+match_ignore_ascii_case
 }
 ;
 use

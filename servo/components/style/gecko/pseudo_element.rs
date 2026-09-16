@@ -202,7 +202,7 @@ crate
 values
 :
 :
-serialize_atom_identifier
+AtomIdent
 ;
 use
 crate
@@ -211,7 +211,7 @@ crate
 values
 :
 :
-AtomIdent
+serialize_atom_identifier
 ;
 use
 cssparser
@@ -4546,8 +4546,8 @@ parser
 :
 :
 {
-is_css2_pseudo_element
 SelectorParseErrorKind
+is_css2_pseudo_element
 }
 ;
 use

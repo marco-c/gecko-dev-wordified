@@ -214,6 +214,12 @@ use
 selectors
 :
 :
+OpaqueElement
+;
+use
+selectors
+:
+:
 context
 :
 :
@@ -244,12 +250,6 @@ ParseRelative
 Selector
 SelectorList
 }
-;
-use
-selectors
-:
-:
-OpaqueElement
 ;
 use
 servo_arc

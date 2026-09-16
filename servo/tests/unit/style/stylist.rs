@@ -121,8 +121,8 @@ properties
 :
 :
 {
-longhands
 Importance
+longhands
 }
 ;
 use

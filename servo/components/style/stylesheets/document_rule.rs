@@ -201,10 +201,10 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
 BasicParseErrorKind
 Parser
 SourceLocation
+match_ignore_ascii_case
 }
 ;
 #

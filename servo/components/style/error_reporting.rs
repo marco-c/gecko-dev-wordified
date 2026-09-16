@@ -106,6 +106,12 @@ use
 selectors
 :
 :
+SelectorList
+;
+use
+selectors
+:
+:
 parser
 :
 :
@@ -127,12 +133,6 @@ visitor
 SelectorListKind
 SelectorVisitor
 }
-;
-use
-selectors
-:
-:
-SelectorList
 ;
 use
 std

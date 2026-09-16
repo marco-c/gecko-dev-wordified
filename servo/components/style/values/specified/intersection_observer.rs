@@ -143,9 +143,9 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
 Parser
 Token
+match_ignore_ascii_case
 }
 ;
 use

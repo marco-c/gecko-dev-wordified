@@ -156,11 +156,11 @@ stylesheets
 :
 :
 {
+Origin
 layer_rule
 :
 :
 LayerOrder
-Origin
 }
 ;
 use

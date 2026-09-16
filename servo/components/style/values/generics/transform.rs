@@ -228,8 +228,8 @@ values
 :
 :
 {
-computed
 CSSFloat
+computed
 }
 ;
 use

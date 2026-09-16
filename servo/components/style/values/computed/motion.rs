@@ -75,6 +75,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -145,12 +151,6 @@ GenericOffsetPathFunction
 GenericOffsetPosition
 GenericRayFunction
 }
-;
-use
-crate
-:
-:
-Zero
 ;
 /
 /

@@ -98,12 +98,12 @@ builder
 :
 :
 {
-relative_selector_list_specificity_and_flags
-selector_list_specificity_and_flags
 SelectorBuilder
 SelectorFlags
 Specificity
 SpecificityAndFlags
+relative_selector_list_specificity_and_flags
+selector_list_specificity_and_flags
 }
 ;
 use
@@ -26302,11 +26302,11 @@ cssparser
 :
 :
 {
-serialize_identifier
 Parser
 as
 CssParser
 ToCss
+serialize_identifier
 }
 ;
 use

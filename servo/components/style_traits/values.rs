@@ -89,10 +89,10 @@ cssparser
 :
 :
 {
-serialize_string
 ParseError
 Parser
 UnicodeRange
+serialize_string
 }
 ;
 use

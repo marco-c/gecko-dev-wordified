@@ -82,6 +82,12 @@ use
 crate
 :
 :
+AllocErr
+;
+use
+crate
+:
+:
 applicable_declarations
 :
 :
@@ -149,12 +155,6 @@ Rule
 ScopeConditionId
 Stylist
 }
-;
-use
-crate
-:
-:
-AllocErr
 ;
 use
 crate

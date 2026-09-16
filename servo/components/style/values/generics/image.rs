@@ -147,6 +147,7 @@ generics
 :
 :
 {
+Optional
 color
 :
 :
@@ -155,7 +156,6 @@ position
 :
 :
 PositionComponent
-Optional
 }
 ;
 use

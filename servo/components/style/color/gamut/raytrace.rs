@@ -98,13 +98,13 @@ color
 :
 :
 {
+AbsoluteColor
+ColorComponents
+ColorSpace
 gamut
 :
 :
 MIN_PRECISION
-AbsoluteColor
-ColorComponents
-ColorSpace
 }
 ;
 impl

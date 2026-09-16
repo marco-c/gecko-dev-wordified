@@ -142,8 +142,8 @@ process
 :
 :
 {
-exit
 Command
+exit
 }
 ;
 use

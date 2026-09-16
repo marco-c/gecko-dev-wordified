@@ -130,8 +130,8 @@ values
 :
 :
 {
-generics
 CustomIdent
+generics
 }
 ;
 use
@@ -139,8 +139,8 @@ cssparser
 :
 :
 {
-match_ignore_ascii_case
 Parser
+match_ignore_ascii_case
 }
 ;
 use

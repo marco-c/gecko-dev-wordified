@@ -75,6 +75,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -88,12 +94,6 @@ parser
 :
 :
 ParserContext
-;
-use
-crate
-:
-:
-Zero
 ;
 use
 cssparser

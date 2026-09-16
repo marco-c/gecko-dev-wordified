@@ -128,8 +128,8 @@ cssparser
 :
 :
 {
-stylesheet_encoding
 EncodingSupport
+stylesheet_encoding
 }
 ;
 use

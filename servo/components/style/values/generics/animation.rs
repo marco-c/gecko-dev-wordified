@@ -73,6 +73,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -140,12 +146,6 @@ length
 :
 :
 EqualsPercentage
-;
-use
-crate
-:
-:
-Zero
 ;
 use
 std

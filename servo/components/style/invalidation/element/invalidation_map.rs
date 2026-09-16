@@ -73,6 +73,12 @@ use
 crate
 :
 :
+AllocErr
+;
+use
+crate
+:
+:
 context
 :
 :
@@ -121,12 +127,6 @@ values
 :
 :
 AtomIdent
-;
-use
-crate
-:
-:
-AllocErr
 ;
 use
 crate

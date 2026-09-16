@@ -391,10 +391,10 @@ euclid
 :
 :
 {
-default
 Point2D
 Rect
 Size2D
+default
 }
 ;
 use

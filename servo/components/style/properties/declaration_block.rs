@@ -77,7 +77,6 @@ super
 :
 :
 {
-property_counts
 AllShorthand
 ComputedValues
 LogicalGroupSet
@@ -92,6 +91,7 @@ ShorthandId
 SourcePropertyDeclaration
 SourcePropertyDeclarationDrain
 SubpropertiesVec
+property_counts
 }
 ;
 use
@@ -162,6 +162,7 @@ properties
 :
 :
 {
+StyleBuilder
 animated_properties
 :
 :
@@ -169,7 +170,6 @@ animated_properties
 AnimationValue
 AnimationValueMap
 }
-StyleBuilder
 }
 ;
 use
@@ -277,7 +277,6 @@ cssparser
 :
 :
 {
-parse_important
 AtRuleParser
 CowRcStr
 DeclarationParser
@@ -289,6 +288,7 @@ QualifiedRuleParser
 RuleBodyItemParser
 RuleBodyParser
 SourceLocation
+parse_important
 }
 ;
 use

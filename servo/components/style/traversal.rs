@@ -180,6 +180,12 @@ traversal_flags
 TraversalFlags
 ;
 use
+hashbrown
+:
+:
+HashMap
+;
+use
 selectors
 :
 :
@@ -215,12 +221,6 @@ smallvec
 :
 :
 SmallVec
-;
-use
-hashbrown
-:
-:
-HashMap
 ;
 /
 /

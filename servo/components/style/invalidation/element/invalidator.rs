@@ -175,8 +175,8 @@ smallvec
 :
 :
 {
-smallvec
 SmallVec
+smallvec
 }
 ;
 use
@@ -7417,6 +7417,7 @@ matched
 :
 false
 }
+;
 }
 CompoundSelectorMatchingResult
 :

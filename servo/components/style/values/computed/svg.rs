@@ -69,6 +69,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -124,12 +130,6 @@ generics
 svg
 as
 generic
-;
-use
-crate
-:
-:
-Zero
 ;
 pub
 use

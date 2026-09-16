@@ -69,6 +69,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -97,12 +103,6 @@ generics
 :
 :
 Optional
-;
-use
-crate
-:
-:
-Zero
 ;
 use
 std

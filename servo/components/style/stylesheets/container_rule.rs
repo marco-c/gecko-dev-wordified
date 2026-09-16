@@ -272,11 +272,11 @@ crate
 :
 :
 {
+LocalName
 derives
 :
 :
 *
-LocalName
 }
 ;
 use

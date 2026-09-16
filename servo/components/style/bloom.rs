@@ -89,6 +89,12 @@ use
 crate
 :
 :
+LocalName
+;
+use
+crate
+:
+:
 dom
 :
 :
@@ -96,12 +102,6 @@ dom
 SendElement
 TElement
 }
-;
-use
-crate
-:
-:
-LocalName
 ;
 use
 atomic_refcell

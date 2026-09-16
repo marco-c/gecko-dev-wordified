@@ -136,6 +136,12 @@ rlib
 "
 ]
 use
+hashbrown
+:
+:
+HashSet
+;
+use
 std
 :
 :
@@ -143,12 +149,6 @@ alloc
 :
 :
 Layout
-;
-use
-hashbrown
-:
-:
-HashSet
 ;
 use
 std

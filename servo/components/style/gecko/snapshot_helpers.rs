@@ -107,8 +107,8 @@ structs
 :
 {
 self
-nsAtom
 AttrAtomArray
+nsAtom
 }
 ;
 use

@@ -75,6 +75,12 @@ use
 crate
 :
 :
+Zero
+;
+use
+crate
+:
+:
 derives
 :
 :
@@ -200,12 +206,6 @@ specified
 Angle
 Position
 }
-;
-use
-crate
-:
-:
-Zero
 ;
 use
 cssparser

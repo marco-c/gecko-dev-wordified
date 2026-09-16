@@ -80,8 +80,8 @@ quote
 :
 :
 {
-quote
 TokenStreamExt
+quote
 }
 ;
 use

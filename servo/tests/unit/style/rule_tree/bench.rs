@@ -115,10 +115,10 @@ properties
 :
 :
 {
-longhands
 Importance
 PropertyDeclaration
 PropertyDeclarationBlock
+longhands
 }
 ;
 use

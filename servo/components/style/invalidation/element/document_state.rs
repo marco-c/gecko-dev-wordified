@@ -163,6 +163,12 @@ use
 selectors
 :
 :
+OpaqueElement
+;
+use
+selectors
+:
+:
 matching
 :
 :
@@ -175,12 +181,6 @@ QuirksMode
 SelectorCaches
 VisitedHandlingMode
 }
-;
-use
-selectors
-:
-:
-OpaqueElement
 ;
 /
 /

@@ -98,6 +98,9 @@ super
 :
 :
 {
+AbsoluteColor
+ColorFlags
+ColorSpace
 component
 :
 :
@@ -113,9 +116,6 @@ parsing
 NumberOrAngleComponent
 NumberOrPercentageComponent
 }
-AbsoluteColor
-ColorFlags
-ColorSpace
 }
 ;
 use
@@ -169,8 +169,8 @@ color
 :
 :
 {
-clamp_floor_256_f32
 OPAQUE
+clamp_floor_256_f32
 }
 ;
 /

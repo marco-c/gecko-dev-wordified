@@ -116,8 +116,8 @@ traversal
 :
 :
 {
-recalc_style_at
 DomTraversal
+recalc_style_at
 }
 ;
 /

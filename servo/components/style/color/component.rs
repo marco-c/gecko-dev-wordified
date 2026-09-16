@@ -83,11 +83,11 @@ super
 :
 :
 {
+AbsoluteColor
 parsing
 :
 :
 ChannelKeyword
-AbsoluteColor
 }
 ;
 use
@@ -146,12 +146,12 @@ cssparser
 :
 :
 {
+Parser
+Token
 color
 :
 :
 OPAQUE
-Parser
-Token
 }
 ;
 use
