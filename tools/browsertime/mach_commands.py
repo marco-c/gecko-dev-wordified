@@ -242,8 +242,6 @@ browsertime
 import
 argparse
 import
-collections
-import
 contextlib
 import
 json
@@ -2208,18 +2206,11 @@ json
 .
 loads
 (
-                
 f
 .
 read
 (
 )
-object_pairs_hook
-=
-collections
-.
-OrderedDict
-            
 )
         
 existing_body
