@@ -238,9 +238,8 @@ override
 void
 RemoveCookieFromDB
 (
-const
 Cookie
-&
+*
 aCookie
 )
 override
