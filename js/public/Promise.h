@@ -3820,6 +3820,9 @@ HandleValue
 rejectionValue
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 /
 *
 *
@@ -4043,6 +4046,11 @@ HandleValue
 resolutionValue
 )
 ;
+#
+endif
+/
+/
+NIGHTLY_BUILD
 /
 *
 *
