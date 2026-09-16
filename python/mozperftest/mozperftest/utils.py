@@ -2132,8 +2132,38 @@ and
 the
 value
 the
+list
+of
+candidate
 ci
-path
+paths
+#
+tried
+in
+order
+.
+A
+single
+source
+directory
+can
+hold
+tests
+of
+several
+flavors
+#
+which
+end
+up
+in
+different
+subdirectories
+of
+the
+test
+package
+.
 _TRY_MAPPING
 =
 {
@@ -2145,6 +2175,7 @@ accessible
 "
 )
 :
+[
 Path
 (
 "
@@ -2157,6 +2188,7 @@ browser
 accessible
 "
 )
+]
     
 Path
 (
@@ -2165,6 +2197,7 @@ browser
 "
 )
 :
+[
 Path
 (
 "
@@ -2177,6 +2210,7 @@ browser
 browser
 "
 )
+]
     
 Path
 (
@@ -2185,6 +2219,7 @@ netwerk
 "
 )
 :
+[
 Path
 (
 "
@@ -2197,6 +2232,7 @@ tests
 netwerk
 "
 )
+]
     
 Path
 (
@@ -2205,6 +2241,8 @@ dom
 "
 )
 :
+[
+        
 Path
 (
 "
@@ -2217,6 +2255,21 @@ tests
 dom
 "
 )
+        
+Path
+(
+"
+mochitest
+"
+"
+browser
+"
+"
+dom
+"
+)
+    
+]
     
 Path
 (
@@ -2225,6 +2278,7 @@ toolkit
 "
 )
 :
+[
 Path
 (
 "
@@ -2237,6 +2291,7 @@ browser
 toolkit
 "
 )
+]
 }
 def
 build_test_list
@@ -2440,7 +2495,7 @@ is_relative_to
             
 for
 src_path
-ci_path
+ci_paths
 in
 _TRY_MAPPING
 .
@@ -2450,20 +2505,14 @@ items
 :
                 
 src_path
-ci_path
 =
 str
 (
 src_path
 )
-str
-(
-ci_path
-)
-#
-noqa
                 
 if
+not
 test
 .
 startswith
@@ -2472,8 +2521,12 @@ src_path
 )
 :
                     
-p_test
+continue
+                
+candidates
 =
+[
+                    
 Path
 (
 test
@@ -2481,11 +2534,50 @@ test
 replace
 (
 src_path
+str
+(
 ci_path
+)
 1
 )
 )
                     
+for
+ci_path
+in
+ci_paths
+                
+]
+                
+p_test
+=
+next
+(
+                    
+(
+c
+for
+c
+in
+candidates
+if
+c
+.
+resolve
+(
+)
+.
+exists
+(
+)
+)
+candidates
+[
+0
+]
+                
+)
+                
 break
         
 resolved_test
