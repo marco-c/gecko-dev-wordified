@@ -89,6 +89,13 @@ nsRect
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIWidget
 ;
