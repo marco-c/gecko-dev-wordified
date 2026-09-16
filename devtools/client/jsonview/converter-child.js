@@ -318,19 +318,11 @@ jsonview
 /
 *
 /
-function
+class
 Converter
-(
-)
-{
-}
-Converter
-.
-prototype
-=
 {
 QueryInterface
-:
+=
 ChromeUtils
 .
 generateQI
@@ -347,6 +339,7 @@ nsIRequestObserver
 "
 ]
 )
+;
 get
 wrappedJSObject
 (
@@ -1239,7 +1232,6 @@ data
 ;
 }
 }
-;
 /
 *
 *
