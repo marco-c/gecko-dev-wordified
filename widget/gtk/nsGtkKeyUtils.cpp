@@ -4554,6 +4554,12 @@ xkb_context
 )
 )
 ;
+munmap
+(
+mapString
+size
+)
+;
 close
 (
 fd
