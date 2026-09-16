@@ -170,6 +170,10 @@ dry_run
 =
 False
     
+write_task_config
+=
+False
+    
 closed_tree
 =
 False
@@ -275,6 +279,10 @@ stage_changes
 dry_run
 =
 dry_run
+        
+write_task_config
+=
+write_task_config
         
 closed_tree
 =

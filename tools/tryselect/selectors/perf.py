@@ -9475,6 +9475,10 @@ dry_run
 =
 dry_run
                         
+write_task_config
+=
+False
+                        
 closed_tree
 =
 False
@@ -9597,6 +9601,10 @@ False
 dry_run
 =
 dry_run
+                            
+write_task_config
+=
+False
                             
 closed_tree
 =
@@ -9728,6 +9736,10 @@ False
 dry_run
 =
 dry_run
+                    
+write_task_config
+=
+False
                     
 closed_tree
 =
@@ -9862,6 +9874,10 @@ False
 dry_run
 =
 dry_run
+                        
+write_task_config
+=
+False
                         
 closed_tree
 =
