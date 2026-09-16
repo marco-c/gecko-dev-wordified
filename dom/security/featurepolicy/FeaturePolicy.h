@@ -722,7 +722,7 @@ response
 headers
 .
 void
-SetDeclaredPolicy
+SetDeclaredAttributePolicy
 (
 mozilla
 :
