@@ -9615,6 +9615,9 @@ aOutputName
 nsACString
 *
 aOutputValue
+bool
+&
+aOutputHasEquals
 )
 {
 nsDependentCSubstring
@@ -9729,6 +9732,15 @@ eqEnd
 '
 =
 '
+)
+;
+aOutputHasEquals
+=
+(
+eqIter
+!
+=
+eqEnd
 )
 ;
 nsDependentCSubstring
