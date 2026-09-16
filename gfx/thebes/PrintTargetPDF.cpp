@@ -64,17 +64,12 @@ PrintTargetPDF
 h
 "
 #
-ifdef
-MOZ_ENABLE_SKIA_PDF
-#
 include
 "
 PrintTargetSkPDF
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -421,9 +416,6 @@ return
 nullptr
 ;
 }
-#
-ifdef
-MOZ_ENABLE_SKIA_PDF
 if
 (
 StaticPrefs
@@ -445,8 +437,6 @@ aSizeInPoints
 )
 ;
 }
-#
-endif
 cairo_surface_t
 *
 surface

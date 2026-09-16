@@ -154,8 +154,14 @@ const
 nsAString
 &
 aPrintToFileName
-uint64_t
-aBrowsingContextId
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
 int32_t
 aStartPage
 int32_t
@@ -259,9 +265,6 @@ stream
 from
 settings
 .
-#
-ifdef
-MOZ_ENABLE_SKIA_PDF
 /
 /
 file
@@ -280,8 +283,6 @@ nsIFile
 >
 mTempFile
 ;
-#
-endif
 private
 :
 nsresult
