@@ -186,6 +186,17 @@ SendShutdown
 )
 ;
 }
+DocAccessible
+*
+GetDocAccessible
+(
+)
+const
+{
+return
+mDoc
+;
+}
 /
 *
 *
