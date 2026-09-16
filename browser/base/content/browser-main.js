@@ -580,7 +580,7 @@ tabbrowser
 /
 tabs
 .
-js
+mjs
 "
 this
 )

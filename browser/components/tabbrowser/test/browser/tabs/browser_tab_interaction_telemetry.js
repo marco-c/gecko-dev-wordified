@@ -4364,7 +4364,7 @@ resetTelemetry
 The
 tabs
 .
-js
+mjs
 on_keydown
 handler
 (
