@@ -222,11 +222,6 @@ mCopyQueueCount
 =
 0
 ;
-bool
-mCopyQueueIsDedicatedTransfer
-=
-false
-;
 std
 :
 :
@@ -414,11 +409,6 @@ nullptr
 ;
 PFN_vkGetPhysicalDeviceProperties
 mGetPhysicalDeviceProperties
-=
-nullptr
-;
-PFN_vkGetPhysicalDeviceQueueFamilyProperties
-mGetPhysicalDeviceQueueFamilyProperties
 =
 nullptr
 ;
@@ -927,6 +917,8 @@ uint64_t
 aGeneration
 uint32_t
 aCopyQueueFamilyIndex
+uint32_t
+aCopyQueueCount
 VkDeviceQueueCreateFlags
 aQueueCreateFlags
 )
