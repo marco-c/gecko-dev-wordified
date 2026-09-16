@@ -60,6 +60,15 @@ use
 crate
 :
 :
+derives
+:
+:
+*
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -832,6 +841,10 @@ Iterator
 Item
 =
 Mapping
+<
+'
+_
+>
 >
 {
 /
@@ -1616,6 +1629,7 @@ totally
 invalid
 -
 mapping
+:
 "
 )
 ;
@@ -1698,7 +1712,7 @@ it
 should
 be
 ignored
-assert
+assert_eq
 !
 (
 mappings
@@ -1706,10 +1720,7 @@ mappings
 next
 (
 )
-.
-is_none
-(
-)
+None
 "
 No
 more
