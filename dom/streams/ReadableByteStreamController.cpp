@@ -4254,7 +4254,7 @@ is
 not
 empty
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 reader
@@ -10550,7 +10550,7 @@ aRv
 Step
 1
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aController
@@ -10897,7 +10897,7 @@ MightThrowJSException
 Step
 1
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aController

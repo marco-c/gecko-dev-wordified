@@ -716,7 +716,7 @@ instantiation
 Step
 2
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aContainer
@@ -946,7 +946,7 @@ is
 not
 empty
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aContainer

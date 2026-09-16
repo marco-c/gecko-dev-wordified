@@ -2626,7 +2626,7 @@ is
 not
 empty
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mWriteRequests

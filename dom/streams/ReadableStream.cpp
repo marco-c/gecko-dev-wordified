@@ -5887,7 +5887,7 @@ GetDefaultReader
 Step
 3
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 reader
