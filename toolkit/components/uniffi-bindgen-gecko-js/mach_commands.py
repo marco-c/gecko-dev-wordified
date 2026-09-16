@@ -646,36 +646,9 @@ UNIFFI_META_
     
 #
 statics
-but
-the
-cdylib
-(
-linked
 from
 the
-staticlib
-via
-megazord_stub
-.
-c
-)
-    
-#
-drops
-any
-that
-the
-stub
-doesn
-'
-t
-reference
-.
-The
-staticlib
-keeps
-them
-all
+archive
 .
     
 #
