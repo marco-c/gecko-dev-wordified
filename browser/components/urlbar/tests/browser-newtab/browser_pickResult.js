@@ -81,6 +81,11 @@ com
 /
 "
 ;
+add_setup
+(
+useEngineWithoutSuggestions
+)
+;
 async
 function
 pickHeuristic
