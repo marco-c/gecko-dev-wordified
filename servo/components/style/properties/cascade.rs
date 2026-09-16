@@ -12668,6 +12668,11 @@ name
 {
 return
 existing_value
+.
+attr_tainted
+|
+|
+existing_value
 !
 =
 initial_value
