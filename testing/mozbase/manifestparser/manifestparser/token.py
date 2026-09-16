@@ -2443,6 +2443,27 @@ early_beta_or_earlier
         
 )
         
+_enterprise
+:
+Token
+=
+self
+.
+add
+(
+Token
+(
+t_type
+=
+t_other_flags
+value
+=
+"
+enterprise
+"
+)
+)
+        
 _false
 :
 Token
