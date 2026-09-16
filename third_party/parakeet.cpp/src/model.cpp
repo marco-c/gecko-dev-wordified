@@ -1402,7 +1402,13 @@ mb1
 .
 data
 =
+std
+:
+:
+move
+(
 feats
+)
 ;
 /
 /
@@ -4424,7 +4430,13 @@ mb1
 .
 data
 =
+std
+:
+:
+move
+(
 feats
+)
 ;
 /
 /
