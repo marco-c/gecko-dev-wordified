@@ -243,9 +243,9 @@ NimbusTestUtils
 .
 factories
 .
-recipe
-.
 bucketConfig
+(
+)
 }
 ]
 ;
