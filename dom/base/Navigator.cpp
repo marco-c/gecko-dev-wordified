@@ -4103,14 +4103,6 @@ privacy_globalprivacycontrol_pbmode_enabled
 ;
 }
 return
-StaticPrefs
-:
-:
-privacy_globalprivacycontrol_functionality_enabled
-(
-)
-&
-&
 gpcStatus
 ;
 }
