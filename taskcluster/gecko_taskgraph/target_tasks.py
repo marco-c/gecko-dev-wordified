@@ -3937,6 +3937,20 @@ shippable
 False
 )
         
+ccov
+=
+task
+.
+attributes
+.
+get
+(
+"
+ccov
+"
+False
+)
+        
 if
 not
 build_platform
@@ -4024,6 +4038,8 @@ than
 shippable
         
 #
+and
+ccov
 so
 it
 is
@@ -4035,10 +4051,10 @@ for
 .
 Other
 platforms
-have
-many
         
 #
+have
+many
 variants
 but
 none
@@ -4052,13 +4068,13 @@ we
 re
 looking
 for
+        
+#
 have
 a
 "
 -
 "
-        
-#
 in
 their
 platform
@@ -4085,6 +4101,9 @@ android
 and
 not
 shippable
+and
+not
+ccov
         
 )
 or
