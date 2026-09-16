@@ -142,7 +142,6 @@ structures
 from
 collections
 import
-OrderedDict
 defaultdict
 import
 mozpack
@@ -2382,9 +2381,8 @@ lib_defines
 Defines
 (
 context
-OrderedDict
-(
-)
+{
+}
 )
         
 self

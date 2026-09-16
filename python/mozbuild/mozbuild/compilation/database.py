@@ -69,7 +69,6 @@ os
 from
 collections
 import
-OrderedDict
 defaultdict
 import
 mozpack
@@ -154,9 +153,8 @@ self
 .
 _db
 =
-OrderedDict
-(
-)
+{
+}
         
 #
 The

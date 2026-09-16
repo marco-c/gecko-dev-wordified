@@ -59,10 +59,6 @@ import
 os
 import
 sys
-from
-collections
-import
-OrderedDict
 HELP_OPTIONS_CATEGORY
 =
 "
@@ -4171,17 +4167,15 @@ self
 .
 _args
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
 _extra_args
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .

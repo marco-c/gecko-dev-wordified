@@ -67,10 +67,6 @@ import
 pathlib
 import
 shutil
-from
-collections
-import
-OrderedDict
 import
 mozversioncontrol
 from
@@ -2445,9 +2441,8 @@ True
     
 records
 =
-OrderedDict
-(
-)
+{
+}
     
 downloaded
 =

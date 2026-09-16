@@ -62,10 +62,6 @@ struct
 import
 zlib
 from
-collections
-import
-OrderedDict
-from
 io
 import
 BytesIO
@@ -502,7 +498,7 @@ isinstance
 self
 .
 STRUCT
-OrderedDict
+dict
 )
         
 self
@@ -1429,84 +1425,73 @@ MAGIC
     
 STRUCT
 =
-OrderedDict
-(
-[
+{
         
-(
 "
 disk_num
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 cdir_disk
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 disk_entries
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 cdir_entries
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 cdir_size
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 cdir_offset
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 comment_size
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 comment
 "
+:
 "
 comment_size
 "
-)
     
-]
-)
+}
 CDIR_END_SIZE
 =
 JarCdirEnd
@@ -1540,183 +1525,161 @@ MAGIC
     
 STRUCT
 =
-OrderedDict
-(
-[
+{
         
-(
 "
 creator_version
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 min_version
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 general_flag
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 compression
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 lastmod_time
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 lastmod_date
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 crc32
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 compressed_size
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 uncompressed_size
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 filename_size
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 extrafield_size
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 filecomment_size
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 disknum
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 internal_attr
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 external_attr
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 offset
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 filename
 "
+:
 "
 filename_size
 "
-)
         
-(
 "
 extrafield
 "
+:
 "
 extrafield_size
 "
-)
         
-(
 "
 filecomment
 "
+:
 "
 filecomment_size
 "
-)
     
-]
-)
+}
 class
 JarLocalFileHeader
 (
@@ -1742,120 +1705,105 @@ MAGIC
     
 STRUCT
 =
-OrderedDict
-(
-[
+{
         
-(
 "
 min_version
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 general_flag
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 compression
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 lastmod_time
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 lastmod_date
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 crc32
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 compressed_size
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 uncompressed_size
 "
+:
 "
 uint32
 "
-)
         
-(
 "
 filename_size
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 extra_field_size
 "
+:
 "
 uint16
 "
-)
         
-(
 "
 filename
 "
+:
 "
 filename_size
 "
-)
         
-(
 "
 extra_field
 "
+:
 "
 extra_field_size
 "
-)
     
-]
-)
+}
 class
 JarFileReader
 :
@@ -2893,9 +2841,8 @@ _data
         
 entries
 =
-OrderedDict
-(
-)
+{
+}
         
 offset
 =
@@ -3736,9 +3683,8 @@ self
 .
 _contents
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
@@ -5322,9 +5268,8 @@ list
         
 new_contents
 =
-OrderedDict
-(
-)
+{
+}
         
 for
 f
