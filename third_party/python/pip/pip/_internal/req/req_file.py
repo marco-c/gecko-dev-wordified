@@ -7,10 +7,6 @@ parsing
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 codecs
 import
@@ -32,13 +28,6 @@ urllib
 .
 parse
 from
-collections
-.
-abc
-import
-Generator
-Iterable
-from
 dataclasses
 import
 dataclass
@@ -57,7 +46,19 @@ Any
     
 Callable
     
+Dict
+    
+Generator
+    
+Iterable
+    
+List
+    
 NoReturn
+    
+Optional
+    
+Tuple
 )
 from
 pip
@@ -122,7 +123,7 @@ ReqFileLines
 =
 Iterable
 [
-tuple
+Tuple
 [
 int
 str
@@ -135,7 +136,7 @@ Callable
 [
 str
 ]
-tuple
+Tuple
 [
 str
 Values
@@ -272,7 +273,7 @@ Z0
 )
 SUPPORTED_OPTIONS
 :
-list
+List
 [
 Callable
 [
@@ -352,7 +353,7 @@ to
 requirements
 SUPPORTED_OPTIONS_REQ
 :
-list
+List
 [
 Callable
 [
@@ -381,7 +382,7 @@ config_settings
 ]
 SUPPORTED_OPTIONS_EDITABLE_REQ
 :
-list
+List
 [
 Callable
 [
@@ -473,9 +474,9 @@ UTF32_LE
 data
 BOMS
 :
-list
+List
 [
-tuple
+Tuple
 [
 bytes
 str
@@ -687,19 +688,21 @@ bool
     
 options
 :
-dict
+Optional
+[
+Dict
 [
 str
 Any
 ]
-|
-None
+]
     
 line_source
 :
+Optional
+[
 str
-|
-None
+]
 dataclass
 (
 frozen
@@ -781,9 +784,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 if
@@ -838,23 +842,29 @@ str
     
 session
 :
+"
 PipSession
+"
     
 finder
 :
+Optional
+[
+"
 PackageFinder
-|
-None
+"
+]
 =
 None
     
 options
 :
+Optional
+[
 optparse
 .
 Values
-|
-None
+]
 =
 None
     
@@ -1093,11 +1103,12 @@ ParsedLine
     
 options
 :
+Optional
+[
 optparse
 .
 Values
-|
-None
+]
 =
 None
 )
@@ -1304,27 +1315,34 @@ int
     
 finder
 :
+Optional
+[
+"
 PackageFinder
-|
-None
+"
+]
 =
 None
     
 options
 :
+Optional
+[
 optparse
 .
 Values
-|
-None
+]
 =
 None
     
 session
 :
+Optional
+[
+"
 PipSession
-|
-None
+"
+]
 =
 None
 )
@@ -1725,35 +1743,43 @@ ParsedLine
     
 options
 :
+Optional
+[
 optparse
 .
 Values
-|
-None
+]
 =
 None
     
 finder
 :
+Optional
+[
+"
 PackageFinder
-|
-None
+"
+]
 =
 None
     
 session
 :
+Optional
+[
+"
 PipSession
-|
-None
+"
+]
 =
 None
 )
 -
 >
+Optional
+[
 ParsedRequirement
-|
-None
+]
 :
     
 "
@@ -2008,7 +2034,9 @@ self
         
 session
 :
+"
 PipSession
+"
         
 line_parser
 :
@@ -2112,14 +2140,15 @@ bool
         
 parsed_files_stack
 :
-list
+List
 [
-dict
+Dict
 [
 str
+Optional
+[
 str
-|
-None
+]
 ]
 ]
     
@@ -2563,9 +2592,12 @@ get_line_parser
 (
 finder
 :
+Optional
+[
+"
 PackageFinder
-|
-None
+"
+]
 )
 -
 >
@@ -2581,7 +2613,7 @@ str
 )
 -
 >
-tuple
+Tuple
 [
 str
 Values
@@ -2706,7 +2738,7 @@ str
 )
 -
 >
-tuple
+Tuple
 [
 str
 str
@@ -2793,15 +2825,19 @@ token
 .
 startswith
 (
-(
 "
--
-"
-"
--
 -
 "
 )
+or
+token
+.
+startswith
+(
+"
+-
+-
+"
 )
 :
             
@@ -2963,7 +2999,9 @@ str
 )
 -
 >
+"
 NoReturn
+"
 :
         
 raise
@@ -3069,7 +3107,7 @@ None
     
 new_line
 :
-list
+List
 [
 str
 ]
@@ -3510,11 +3548,13 @@ url
 str
 session
 :
+"
 PipSession
+"
 )
 -
 >
-tuple
+Tuple
 [
 str
 str

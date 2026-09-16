@@ -34,10 +34,6 @@ _log
 import
 log
 from
-typing
-import
-ClassVar
-from
 .
 .
 core
@@ -226,14 +222,6 @@ timestamps
 ]
     
 boolean_options
-:
-ClassVar
-[
-list
-[
-str
-]
-]
 =
 [
 '
@@ -245,15 +233,6 @@ force
 ]
     
 negative_opt
-:
-ClassVar
-[
-dict
-[
-str
-str
-]
-]
 =
 {
 '
@@ -327,9 +306,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 self
@@ -557,9 +533,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 #
@@ -1162,9 +1135,6 @@ build_package_data
 (
 self
 )
--
->
-None
 :
         
 "
@@ -2632,17 +2602,9 @@ get_outputs
 (
 self
 include_bytecode
-:
-bool
 =
 True
 )
--
->
-list
-[
-str
-]
 :
         
 modules
@@ -2947,9 +2909,6 @@ build_modules
 (
 self
 )
--
->
-None
 :
         
 modules
@@ -3034,9 +2993,6 @@ build_packages
 (
 self
 )
--
->
-None
 :
         
 for
@@ -3248,9 +3204,6 @@ byte_compile
 self
 files
 )
--
->
-None
 :
         
 if
@@ -3357,6 +3310,7 @@ compile
             
 byte_compile
 (
+                
 files
 optimize
 =
@@ -3369,6 +3323,12 @@ force
 prefix
 =
 prefix
+dry_run
+=
+self
+.
+dry_run
+            
 )
         
 if
@@ -3399,5 +3359,11 @@ force
 prefix
 =
 prefix
+                
+dry_run
+=
+self
+.
+dry_run
             
 )

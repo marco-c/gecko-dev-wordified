@@ -6,10 +6,6 @@ PEP
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 json
 import
@@ -19,12 +15,6 @@ urllib
 .
 parse
 from
-collections
-.
-abc
-import
-Iterable
-from
 dataclasses
 import
 dataclass
@@ -33,6 +23,10 @@ typing
 import
 Any
 ClassVar
+Dict
+Iterable
+Optional
+Type
 TypeVar
 Union
 __all__
@@ -137,14 +131,14 @@ _get
     
 d
 :
-dict
+Dict
 [
 str
 Any
 ]
 expected_type
 :
-type
+Type
 [
 T
 ]
@@ -153,17 +147,19 @@ key
 str
 default
 :
+Optional
+[
 T
-|
-None
+]
 =
 None
 )
 -
 >
+Optional
+[
 T
-|
-None
+]
 :
     
 "
@@ -244,14 +240,14 @@ _get_required
     
 d
 :
-dict
+Dict
 [
 str
 Any
 ]
 expected_type
 :
-type
+Type
 [
 T
 ]
@@ -260,9 +256,10 @@ key
 str
 default
 :
+Optional
+[
 T
-|
-None
+]
 =
 None
 )
@@ -311,14 +308,19 @@ infos
 :
 Iterable
 [
+Optional
+[
+"
 InfoType
-|
-None
+"
+]
 ]
 )
 -
 >
+"
 InfoType
+"
 :
     
 infos
@@ -406,7 +408,7 @@ Any
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -469,9 +471,10 @@ str
     
 requested_revision
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
     
@@ -483,19 +486,23 @@ _from_dict
 cls
 d
 :
-dict
+Optional
+[
+Dict
 [
 str
 Any
 ]
-|
-None
+]
 )
 -
 >
+Optional
+[
+"
 VcsInfo
-|
-None
+"
+]
 :
         
 if
@@ -553,7 +560,7 @@ self
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -601,21 +608,23 @@ self
         
 hash
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
 hashes
 :
-dict
+Optional
+[
+Dict
 [
 str
 str
 ]
-|
-None
+]
 =
 None
     
@@ -660,9 +669,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 return
@@ -680,9 +690,10 @@ hash
 self
 value
 :
+Optional
+[
 str
-|
-None
+]
 )
 -
 >
@@ -831,19 +842,23 @@ _from_dict
 cls
 d
 :
-dict
+Optional
+[
+Dict
 [
 str
 Any
 ]
-|
-None
+]
 )
 -
 >
+Optional
+[
+"
 ArchiveInfo
-|
-None
+"
+]
 :
         
 if
@@ -887,7 +902,7 @@ self
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -935,19 +950,23 @@ _from_dict
 cls
 d
 :
-dict
+Optional
+[
+Dict
 [
 str
 Any
 ]
-|
-None
+]
 )
 -
 >
+Optional
+[
+"
 DirInfo
-|
-None
+"
+]
 :
         
 if
@@ -984,7 +1003,7 @@ self
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -1025,9 +1044,10 @@ InfoType
     
 subdirectory
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
     
@@ -1255,7 +1275,7 @@ from_dict
 cls
 d
 :
-dict
+Dict
 [
 str
 Any
@@ -1263,7 +1283,9 @@ Any
 )
 -
 >
+"
 DirectUrl
+"
 :
         
 return
@@ -1354,7 +1376,7 @@ self
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -1412,7 +1434,9 @@ str
 )
 -
 >
+"
 DirectUrl
+"
 :
         
 return

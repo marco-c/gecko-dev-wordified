@@ -9,19 +9,8 @@ packages
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 logging
-from
-collections
-.
-abc
-import
-Generator
-Iterable
 from
 contextlib
 import
@@ -43,7 +32,23 @@ import
     
 Callable
     
+Dict
+    
+FrozenSet
+    
+Generator
+    
+Iterable
+    
+List
+    
 NamedTuple
+    
+Optional
+    
+Set
+    
+Tuple
 )
 from
 pip
@@ -144,7 +149,7 @@ Version
     
 dependencies
 :
-list
+List
 [
 Requirement
 ]
@@ -152,21 +157,21 @@ Requirement
 Shorthands
 PackageSet
 =
-dict
+Dict
 [
 NormalizedName
 PackageDetails
 ]
 Missing
 =
-tuple
+Tuple
 [
 NormalizedName
 Requirement
 ]
 Conflicting
 =
-tuple
+Tuple
 [
 NormalizedName
 Version
@@ -174,34 +179,34 @@ Requirement
 ]
 MissingDict
 =
-dict
+Dict
 [
 NormalizedName
-list
+List
 [
 Missing
 ]
 ]
 ConflictingDict
 =
-dict
+Dict
 [
 NormalizedName
-list
+List
 [
 Conflicting
 ]
 ]
 CheckResult
 =
-tuple
+Tuple
 [
 MissingDict
 ConflictingDict
 ]
 ConflictDetails
 =
-tuple
+Tuple
 [
 PackageSet
 CheckResult
@@ -212,7 +217,7 @@ create_package_set_from_installed
 )
 -
 >
-tuple
+Tuple
 [
 PackageSet
 bool
@@ -356,6 +361,8 @@ package_set
 PackageSet
 should_ignore
 :
+Optional
+[
 Callable
 [
 [
@@ -363,8 +370,7 @@ str
 ]
 bool
 ]
-|
-None
+]
 =
 None
 )
@@ -439,7 +445,7 @@ package_name
         
 missing_deps
 :
-set
+Set
 [
 Missing
 ]
@@ -450,7 +456,7 @@ set
         
 conflicting_deps
 :
-set
+Set
 [
 Conflicting
 ]
@@ -635,7 +641,7 @@ check_install_conflicts
 (
 to_install
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -793,7 +799,7 @@ WHEEL
             
 wheel_tags
 :
-frozenset
+FrozenSet
 [
 Tag
 ]
@@ -850,7 +856,7 @@ _simulate_installation_of
     
 to_install
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -860,7 +866,7 @@ PackageSet
 )
 -
 >
-set
+Set
 [
 NormalizedName
 ]
@@ -972,7 +978,7 @@ _create_whitelist
     
 would_be_installed
 :
-set
+Set
 [
 NormalizedName
 ]
@@ -982,7 +988,7 @@ PackageSet
 )
 -
 >
-set
+Set
 [
 NormalizedName
 ]

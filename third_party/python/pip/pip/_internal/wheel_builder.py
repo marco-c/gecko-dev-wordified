@@ -11,10 +11,6 @@ InstallRequirements
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 logging
 import
@@ -26,11 +22,12 @@ re
 import
 shutil
 from
-collections
-.
-abc
+typing
 import
 Iterable
+List
+Optional
+Tuple
 from
 pip
 .
@@ -263,13 +260,13 @@ IGNORECASE
 )
 BuildResult
 =
-tuple
+Tuple
 [
-list
+List
 [
 InstallRequirement
 ]
-list
+List
 [
 InstallRequirement
 ]
@@ -339,6 +336,10 @@ _should_build
 req
 :
 InstallRequirement
+    
+need_wheel
+:
+bool
 )
 -
 >
@@ -363,11 +364,23 @@ wheel
 "
 "
     
-assert
-not
+if
 req
 .
 constraint
+:
+        
+#
+never
+build
+requirements
+that
+are
+merely
+constraints
+        
+return
+False
     
 if
 req
@@ -375,13 +388,83 @@ req
 is_wheel
 :
         
+if
+need_wheel
+:
+            
+logger
+.
+info
+(
+                
+"
+Skipping
+%
+s
+due
+to
+already
+being
+wheel
+.
+"
+                
+req
+.
+name
+            
+)
+        
 return
 False
     
-assert
+if
+need_wheel
+:
+        
+#
+i
+.
+e
+.
+pip
+wheel
+not
+pip
+install
+        
+return
+True
+    
+#
+From
+this
+point
+this
+concerns
+the
+pip
+install
+command
+only
+    
+#
+(
+need_wheel
+=
+False
+)
+.
+    
+if
+not
 req
 .
 source_dir
+:
+        
+return
+False
     
 if
 req
@@ -406,6 +489,27 @@ supports_pyproject_editable
 return
 True
 def
+should_build_for_wheel_command
+(
+    
+req
+:
+InstallRequirement
+)
+-
+>
+bool
+:
+    
+return
+_should_build
+(
+req
+need_wheel
+=
+True
+)
+def
 should_build_for_install_command
 (
     
@@ -422,6 +526,9 @@ return
 _should_build
 (
 req
+need_wheel
+=
+False
 )
 def
 _should_cache
@@ -433,9 +540,10 @@ InstallRequirement
 )
 -
 >
+Optional
+[
 bool
-|
-None
+]
 :
     
 "
@@ -987,14 +1095,14 @@ bool
     
 build_options
 :
-list
+List
 [
 str
 ]
     
 global_options
 :
-list
+List
 [
 str
 ]
@@ -1005,9 +1113,10 @@ bool
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
     
 "
@@ -1194,14 +1303,14 @@ str
     
 build_options
 :
-list
+List
 [
 str
 ]
     
 global_options
 :
-list
+List
 [
 str
 ]
@@ -1212,9 +1321,10 @@ bool
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
     
 with
@@ -1598,7 +1708,7 @@ req
 InstallRequirement
 global_options
 :
-list
+List
 [
 str
 ]
@@ -1714,14 +1824,14 @@ bool
     
 build_options
 :
-list
+List
 [
 str
 ]
     
 global_options
 :
-list
+List
 [
 str
 ]

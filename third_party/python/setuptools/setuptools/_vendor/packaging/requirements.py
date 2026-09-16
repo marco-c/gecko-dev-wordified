@@ -43,6 +43,7 @@ annotations
 from
 typing
 import
+Any
 Iterator
 from
 .
@@ -492,13 +493,7 @@ return
 f
 "
 <
-{
-self
-.
-__class__
-.
-__name__
-}
+Requirement
 (
 '
 {
@@ -522,8 +517,16 @@ int
 return
 hash
 (
-tuple
+            
 (
+                
+self
+.
+__class__
+.
+__name__
+                
+*
 self
 .
 _iter_parts
@@ -535,7 +538,9 @@ self
 name
 )
 )
+            
 )
+        
 )
     
 def
@@ -544,7 +549,7 @@ __eq__
 self
 other
 :
-object
+Any
 )
 -
 >

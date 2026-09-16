@@ -52,6 +52,10 @@ os
 import
 sys
 from
+typing
+import
+List
+from
 pip
 .
 _vendor
@@ -275,7 +279,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -292,8 +296,8 @@ darwin
 "
 :
         
-dirval
-=
+return
+[
 _appdirs
 .
 site_data_dir
@@ -306,16 +310,7 @@ multipath
 =
 True
 )
-        
-return
-dirval
-.
-split
-(
-os
-.
-pathsep
-)
+]
     
 dirval
 =

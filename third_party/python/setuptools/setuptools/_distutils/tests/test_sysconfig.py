@@ -1025,6 +1025,11 @@ compiler
 env_cc
 -
 -
+sc
+-
+cflags
+-
+-
 env
 -
 cflags
@@ -1050,6 +1055,11 @@ compiler_so
             
 '
 env_cc
+-
+-
+sc
+-
+cflags
 -
 -
 env

@@ -7,12 +7,6 @@ functools
 import
 re
 from
-collections
-.
-abc
-import
-Iterable
-from
 typing
 import
 TYPE_CHECKING
@@ -43,9 +37,6 @@ def
 _have_cython
 (
 )
--
->
-bool
 :
     
 "
@@ -323,7 +314,7 @@ name
     
 :
 arg
-Iterable
+list
 [
 str
 |
@@ -337,23 +328,10 @@ str
 sources
 :
       
-iterable
+list
 of
 source
 filenames
-(
-except
-strings
-which
-could
-be
-misinterpreted
-      
-as
-a
-single
-filename
-)
 relative
 to
 the
@@ -1162,7 +1140,7 @@ str
         
 sources
 :
-Iterable
+list
 [
 StrPath
 ]
@@ -1181,9 +1159,6 @@ False
 kw
     
 )
--
->
-None
 :
         
 #

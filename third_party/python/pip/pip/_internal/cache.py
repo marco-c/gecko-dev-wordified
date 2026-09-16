@@ -6,10 +6,6 @@ Management
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 hashlib
 import
@@ -26,6 +22,9 @@ from
 typing
 import
 Any
+Dict
+List
+Optional
 from
 pip
 .
@@ -127,7 +126,7 @@ _hash_dict
 (
 d
 :
-dict
+Dict
 [
 str
 str
@@ -281,7 +280,7 @@ Link
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -644,7 +643,7 @@ str
 )
 -
 >
-list
+List
 [
 Any
 ]
@@ -760,13 +759,14 @@ Link
         
 package_name
 :
+Optional
+[
 str
-|
-None
+]
         
 supported_tags
 :
-list
+List
 [
 Tag
 ]
@@ -1064,13 +1064,14 @@ Link
         
 package_name
 :
+Optional
+[
 str
-|
-None
+]
         
 supported_tags
 :
-list
+List
 [
 Tag
 ]
@@ -1364,9 +1365,10 @@ self
 .
 origin
 :
+Optional
+[
 DirectUrl
-|
-None
+]
 =
 None
         
@@ -1605,13 +1607,14 @@ Link
         
 package_name
 :
+Optional
+[
 str
-|
-None
+]
         
 supported_tags
 :
-list
+List
 [
 Tag
 ]
@@ -1659,13 +1662,14 @@ Link
         
 package_name
 :
+Optional
+[
 str
-|
-None
+]
         
 supported_tags
 :
-list
+List
 [
 Tag
 ]
@@ -1673,9 +1677,10 @@ Tag
 )
 -
 >
+Optional
+[
 CacheEntry
-|
-None
+]
 :
         
 "

@@ -320,12 +320,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -510,12 +510,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -699,12 +699,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -889,12 +889,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -1079,12 +1079,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -1269,12 +1269,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -1459,12 +1459,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -1649,12 +1649,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2025,12 +2025,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2215,12 +2215,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2404,12 +2404,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2594,12 +2594,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2783,12 +2783,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -2973,12 +2973,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -3163,12 +3163,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -3353,12 +3353,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -3543,12 +3543,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -3733,12 +3733,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -4110,12 +4110,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     
@@ -4300,12 +4300,12 @@ appauthor
 :
 str
 |
+None
+|
 Literal
 [
 False
 ]
-|
-None
 =
 None
     

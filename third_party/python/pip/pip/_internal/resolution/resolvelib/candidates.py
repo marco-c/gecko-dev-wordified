@@ -1,22 +1,16 @@
-from
-__future__
-import
-annotations
 import
 logging
 import
 sys
 from
-collections
-.
-abc
-import
-Iterable
-from
 typing
 import
 TYPE_CHECKING
 Any
+FrozenSet
+Iterable
+Optional
+Tuple
 Union
 cast
 from
@@ -219,9 +213,10 @@ Candidate
 )
 -
 >
+Optional
+[
 BaseCandidate
-|
-None
+]
 :
     
 "
@@ -816,21 +811,25 @@ InstallRequirement
         
 factory
 :
+"
 Factory
+"
         
 name
 :
+Optional
+[
 NormalizedName
-|
-None
+]
 =
 None
         
 version
 :
+Optional
+[
 Version
-|
-None
+]
 =
 None
     
@@ -890,9 +889,10 @@ self
 .
 _hash
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
     
@@ -1046,9 +1046,10 @@ self
 )
 -
 >
+Optional
+[
 Link
-|
-None
+]
 :
         
 return
@@ -1545,49 +1546,12 @@ bool
 >
 Iterable
 [
+Optional
+[
 Requirement
-|
-None
+]
 ]
 :
-        
-#
-Emit
-the
-Requires
--
-Python
-requirement
-first
-to
-fail
-fast
-on
-        
-#
-unsupported
-candidates
-and
-avoid
-pointless
-downloads
-/
-preparation
-.
-        
-yield
-self
-.
-_factory
-.
-make_requires_python_requirement
-(
-self
-.
-dist
-.
-requires_python
-)
         
 requires
 =
@@ -1626,6 +1590,20 @@ self
 .
 _ireq
 )
+        
+yield
+self
+.
+_factory
+.
+make_requires_python_requirement
+(
+self
+.
+dist
+.
+requires_python
+)
     
 def
 get_install_requirement
@@ -1634,9 +1612,10 @@ self
 )
 -
 >
+Optional
+[
 InstallRequirement
-|
-None
+]
 :
         
 return
@@ -1670,21 +1649,25 @@ InstallRequirement
         
 factory
 :
+"
 Factory
+"
         
 name
 :
+Optional
+[
 NormalizedName
-|
-None
+]
 =
 None
         
 version
 :
+Optional
+[
 Version
-|
-None
+]
 =
 None
     
@@ -2062,21 +2045,25 @@ InstallRequirement
         
 factory
 :
+"
 Factory
+"
         
 name
 :
+Optional
+[
 NormalizedName
-|
-None
+]
 =
 None
         
 version
 :
+Optional
+[
 Version
-|
-None
+]
 =
 None
     
@@ -2177,7 +2164,9 @@ InstallRequirement
         
 factory
 :
+"
 Factory
+"
     
 )
 -
@@ -2528,9 +2517,10 @@ bool
 >
 Iterable
 [
+Optional
+[
 Requirement
-|
-None
+]
 ]
 :
         
@@ -2601,9 +2591,10 @@ self
 )
 -
 >
+Optional
+[
 InstallRequirement
-|
-None
+]
 :
         
 return
@@ -2895,7 +2886,7 @@ BaseCandidate
         
 extras
 :
-frozenset
+FrozenSet
 [
 str
 ]
@@ -2904,9 +2895,10 @@ str
         
 comes_from
 :
+Optional
+[
 InstallRequirement
-|
-None
+]
 =
 None
     
@@ -3373,9 +3365,10 @@ self
 )
 -
 >
+Optional
+[
 Link
-|
-None
+]
 :
         
 return
@@ -3397,9 +3390,10 @@ bool
 >
 Iterable
 [
+Optional
+[
 Requirement
-|
-None
+]
 ]
 :
         
@@ -3597,9 +3591,10 @@ self
 )
 -
 >
+Optional
+[
 InstallRequirement
-|
-None
+]
 :
         
 #
@@ -3657,15 +3652,16 @@ __init__
 self
 py_version_info
 :
-tuple
+Optional
+[
+Tuple
 [
 int
 .
 .
 .
 ]
-|
-None
+]
 )
 -
 >
@@ -3802,37 +3798,6 @@ _version
 }
 "
     
-def
-__repr__
-(
-self
-)
--
->
-str
-:
-        
-return
-f
-"
-{
-self
-.
-__class__
-.
-__name__
-}
-(
-{
-self
-.
-_version
-!
-r
-}
-)
-"
-    
 property
     
 def
@@ -3913,9 +3878,10 @@ bool
 >
 Iterable
 [
+Optional
+[
 Requirement
-|
-None
+]
 ]
 :
         
@@ -3930,9 +3896,10 @@ self
 )
 -
 >
+Optional
+[
 InstallRequirement
-|
-None
+]
 :
         
 return

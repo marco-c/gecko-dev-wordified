@@ -19,10 +19,6 @@ collect_sources
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 collections
 import
@@ -48,14 +44,6 @@ urllib
 .
 request
 from
-collections
-.
-abc
-import
-Iterable
-MutableMapping
-Sequence
-from
 dataclasses
 import
 dataclass
@@ -76,9 +64,25 @@ import
     
 Callable
     
+Dict
+    
+Iterable
+    
+List
+    
+MutableMapping
+    
 NamedTuple
     
+Optional
+    
 Protocol
+    
+Sequence
+    
+Tuple
+    
+Union
 )
 from
 pip
@@ -212,9 +216,10 @@ str
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
     
 "
@@ -1166,9 +1171,10 @@ ResponseHeaders
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
     
 "
@@ -1262,7 +1268,9 @@ __init__
 self
 page
 :
+"
 IndexContent
+"
 )
 -
 >
@@ -1348,7 +1356,9 @@ __call__
 self
 page
 :
+"
 IndexContent
+"
 )
 -
 >
@@ -1421,7 +1431,12 @@ False
     
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
     
 def
 wrapper
@@ -1432,7 +1447,7 @@ CacheablePageContent
 )
 -
 >
-list
+List
 [
 Link
 ]
@@ -1461,11 +1476,13 @@ wrapper_wrapper
 (
 page
 :
+"
 IndexContent
+"
 )
 -
 >
-list
+List
 [
 Link
 ]
@@ -1503,7 +1520,9 @@ parse_links
 (
 page
 :
+"
 IndexContent
+"
 )
 -
 >
@@ -1802,9 +1821,10 @@ str
     
 encoding
 :
+Optional
+[
 str
-|
-None
+]
     
 url
 :
@@ -1903,9 +1923,10 @@ self
 .
 base_url
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
@@ -1913,14 +1934,15 @@ self
 .
 anchors
 :
-list
+List
 [
-dict
+Dict
 [
 str
+Optional
+[
 str
-|
-None
+]
 ]
 ]
 =
@@ -1936,14 +1958,15 @@ tag
 str
 attrs
 :
-list
+List
 [
-tuple
+Tuple
 [
 str
+Optional
+[
 str
-|
-None
+]
 ]
 ]
 )
@@ -2016,22 +2039,24 @@ get_href
 self
 attrs
 :
-list
+List
 [
-tuple
+Tuple
 [
 str
+Optional
+[
 str
-|
-None
+]
 ]
 ]
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 for
@@ -2065,12 +2090,16 @@ Link
     
 reason
 :
+Union
+[
 str
-|
 Exception
+]
     
 meth
 :
+Optional
+[
 Callable
 [
 .
@@ -2078,8 +2107,7 @@ Callable
 .
 None
 ]
-|
-None
+]
 =
 None
 )
@@ -2192,9 +2220,12 @@ PipSession
 )
 -
 >
+Optional
+[
+"
 IndexContent
-|
-None
+"
+]
 :
     
 url
@@ -2728,18 +2759,20 @@ find_links
 :
 Sequence
 [
+Optional
+[
 LinkSource
-|
-None
+]
 ]
     
 index_urls
 :
 Sequence
 [
+Optional
+[
 LinkSource
-|
-None
+]
 ]
 class
 LinkCollector
@@ -2841,7 +2874,9 @@ False
 )
 -
 >
+"
 LinkCollector
+"
 :
         
 "
@@ -3017,7 +3052,7 @@ self
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -3040,9 +3075,10 @@ Link
 )
 -
 >
+Optional
+[
 IndexContent
-|
-None
+]
 :
         
 "

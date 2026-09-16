@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 email
 .
@@ -15,16 +11,6 @@ pathlib
 import
 zipfile
 from
-collections
-.
-abc
-import
-Collection
-Iterable
-Iterator
-Mapping
-Sequence
-from
 os
 import
 PathLike
@@ -32,6 +18,22 @@ from
 typing
 import
 (
+    
+Collection
+    
+Dict
+    
+Iterable
+    
+Iterator
+    
+Mapping
+    
+Optional
+    
+Sequence
+    
+Union
     
 cast
 )
@@ -318,7 +320,9 @@ str
 )
 -
 >
+"
 WheelDistribution
+"
 :
         
 info_dir
@@ -486,9 +490,10 @@ str
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 try
@@ -582,11 +587,15 @@ locate_file
 self
 path
 :
+Union
+[
 str
-|
+"
 PathLike
 [
 str
+]
+"
 ]
 )
 -
@@ -647,15 +656,17 @@ Distribution
         
 info_location
 :
+Optional
+[
 BasePath
-|
-None
+]
         
 installed_location
 :
+Optional
+[
 BasePath
-|
-None
+]
     
 )
 -
@@ -933,9 +944,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 if
@@ -968,9 +980,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 if
@@ -1001,9 +1014,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 if
@@ -1495,7 +1509,7 @@ contexts
 :
 Sequence
 [
-dict
+Dict
 [
 str
 str

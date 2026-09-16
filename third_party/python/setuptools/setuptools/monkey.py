@@ -24,6 +24,7 @@ types
 from
 typing
 import
+Type
 TypeVar
 cast
 overload
@@ -344,7 +345,7 @@ external_bases
         
 cast
 (
-type
+Type
 [
 _T
 ]
@@ -397,7 +398,6 @@ distutils
         
 msg
 =
-f
 "
 distutils
 has
@@ -405,12 +405,11 @@ already
 been
 patched
 by
-{
-cls
-!
+%
 r
-}
 "
+%
+cls
         
 raise
 AssertionError
@@ -424,9 +423,6 @@ def
 patch_all
 (
 )
--
->
-None
 :
     
 import
@@ -452,16 +448,6 @@ Command
 setuptools
 .
 Command
-#
-type
-:
-ignore
-[
-misc
-assignment
-]
-#
-monkeypatching
     
 _patch_distribution_metadata
 (
@@ -515,16 +501,6 @@ setuptools
 extension
 .
 Extension
-#
-type
-:
-ignore
-[
-misc
-assignment
-]
-#
-monkeypatching
     
 distutils
 .
@@ -537,16 +513,6 @@ setuptools
 extension
 .
 Extension
-#
-type
-:
-ignore
-[
-misc
-assignment
-]
-#
-monkeypatching
     
 if
 '
@@ -663,9 +629,6 @@ replacement
 target_mod
 func_name
 )
--
->
-None
 :
     
 "

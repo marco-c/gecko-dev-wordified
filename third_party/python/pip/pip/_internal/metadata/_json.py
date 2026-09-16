@@ -13,10 +13,6 @@ pfmoore
 /
 pkg_metadata
 from
-__future__
-import
-annotations
-from
 email
 .
 header
@@ -34,6 +30,9 @@ from
 typing
 import
 Any
+Dict
+List
+Union
 cast
 METADATA_FIELDS
 =
@@ -305,7 +304,7 @@ Message
 )
 -
 >
-dict
+Dict
 [
 str
 Any
@@ -335,9 +334,11 @@ sanitise_header
 (
 h
 :
+Union
+[
 Header
-|
 str
+]
 )
 -
 >
@@ -488,11 +489,13 @@ multi
             
 value
 :
-str
-|
-list
+Union
 [
 str
+List
+[
+str
+]
 ]
 =
 [

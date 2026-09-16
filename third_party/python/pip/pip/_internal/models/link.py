@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 functools
 import
@@ -19,12 +15,6 @@ urllib
 .
 parse
 from
-collections
-.
-abc
-import
-Mapping
-from
 dataclasses
 import
 dataclass
@@ -37,7 +27,19 @@ TYPE_CHECKING
     
 Any
     
+Dict
+    
+List
+    
+Mapping
+    
 NamedTuple
+    
+Optional
+    
+Tuple
+    
+Union
 )
 from
 pip
@@ -421,7 +423,12 @@ classmethod
     
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
     
 def
 find_hash_url_fragment
@@ -433,9 +440,12 @@ str
 )
 -
 >
+Optional
+[
+"
 LinkHash
-|
-None
+"
+]
 :
         
 "
@@ -505,7 +515,7 @@ self
 )
 -
 >
-dict
+Dict
 [
 str
 str
@@ -574,9 +584,10 @@ is_hash_allowed
 self
 hashes
 :
+Optional
+[
 Hashes
-|
-None
+]
 )
 -
 >
@@ -656,13 +667,14 @@ distribution
     
 hashes
 :
-dict
+Optional
+[
+Dict
 [
 str
 str
 ]
-|
-None
+]
     
 def
 __post_init__
@@ -701,23 +713,25 @@ supported_hashes
 (
 hashes
 :
-dict
+Optional
+[
+Dict
 [
 str
 str
 ]
-|
-None
+]
 )
 -
 >
-dict
+Optional
+[
+Dict
 [
 str
 str
 ]
-|
-None
+]
 :
     
 #
@@ -975,8 +989,7 @@ thing
 here
 .
     
-ret
-=
+return
 urllib
 .
 request
@@ -992,47 +1005,6 @@ url2pathname
 part
 )
 )
-    
-if
-ret
-.
-startswith
-(
-"
-/
-/
-/
-"
-)
-:
-        
-#
-Remove
-any
-URL
-authority
-section
-leaving
-only
-the
-URL
-path
-.
-        
-ret
-=
-ret
-.
-removeprefix
-(
-"
-/
-/
-"
-)
-    
-return
-ret
 #
 percent
 -
@@ -1336,41 +1308,7 @@ is_local_path
 is_local_path
 )
     
-#
-Temporarily
-replace
-scheme
-with
-file
-to
-ensure
-the
-URL
-generated
-by
-    
-#
-urlunsplit
-(
-)
-contains
-an
-empty
-netloc
-(
-file
-:
-/
-/
-)
-as
-per
-RFC
-1738
-.
-    
-ret
-=
+return
 urllib
 .
 parse
@@ -1381,36 +1319,11 @@ result
 .
 _replace
 (
-scheme
-=
-"
-file
-"
 path
 =
 path
 )
 )
-    
-ret
-=
-result
-.
-scheme
-+
-ret
-[
-4
-:
-]
-#
-Restore
-original
-scheme
-.
-    
-return
-ret
 def
 _absolute_link_url
 (
@@ -1577,35 +1490,43 @@ str
         
 comes_from
 :
+Optional
+[
+Union
+[
 str
-|
+"
 IndexContent
-|
-None
+"
+]
+]
 =
 None
         
 requires_python
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
 yanked_reason
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
 metadata_file_data
 :
+Optional
+[
 MetadataFile
-|
-None
+]
 =
 None
         
@@ -1617,13 +1538,14 @@ True
         
 hashes
 :
+Optional
+[
 Mapping
 [
 str
 str
 ]
-|
-None
+]
 =
 None
     
@@ -2145,7 +2067,7 @@ cls
         
 file_data
 :
-dict
+Dict
 [
 str
 Any
@@ -2158,9 +2080,12 @@ str
 )
 -
 >
+Optional
+[
+"
 Link
-|
-None
+"
+]
 :
         
 "
@@ -2490,12 +2415,13 @@ cls
         
 anchor_attribs
 :
-dict
+Dict
 [
 str
+Optional
+[
 str
-|
-None
+]
 ]
         
 page_url
@@ -2509,9 +2435,12 @@ str
 )
 -
 >
+Optional
+[
+"
 Link
-|
-None
+"
+]
 :
         
 "
@@ -2908,9 +2837,12 @@ return
 f
 "
 {
+redact_auth_from_url
+(
 self
 .
-redacted_url
+_url
+)
 }
 (
 from
@@ -2929,9 +2861,15 @@ else
 :
             
 return
+redact_auth_from_url
+(
+str
+(
 self
 .
-redacted_url
+_url
+)
+)
     
 def
 __repr__
@@ -3057,26 +2995,6 @@ return
 self
 .
 _url
-    
-property
-    
-def
-redacted_url
-(
-self
-)
--
->
-str
-:
-        
-return
-redact_auth_from_url
-(
-self
-.
-url
-)
     
 property
     
@@ -3280,7 +3198,7 @@ self
 )
 -
 >
-tuple
+Tuple
 [
 str
 str
@@ -3457,9 +3375,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 match
@@ -3575,7 +3494,7 @@ gone_in
 "
 25
 .
-3
+1
 "
                 
 issue
@@ -3620,9 +3539,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 match
@@ -3661,9 +3581,12 @@ self
 )
 -
 >
+Optional
+[
+"
 Link
-|
-None
+"
+]
 :
         
 "
@@ -3782,9 +3705,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 return
@@ -3812,9 +3736,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 return
@@ -4017,9 +3942,10 @@ is_hash_allowed
 self
 hashes
 :
+Optional
+[
 Hashes
-|
-None
+]
 )
 -
 >
@@ -4400,10 +4326,10 @@ SplitResult
     
 query
 :
-dict
+Dict
 [
 str
-list
+List
 [
 str
 ]
@@ -4415,7 +4341,7 @@ str
     
 hashes
 :
-dict
+Dict
 [
 str
 str
@@ -4675,7 +4601,12 @@ hashes
 )
 functools
 .
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 links_equivalent
 (

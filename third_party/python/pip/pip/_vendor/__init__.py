@@ -578,15 +578,6 @@ certifi
 vendored
 (
 "
-dependency
--
-groups
-"
-)
-    
-vendored
-(
-"
 distlib
 "
 )

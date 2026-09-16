@@ -79,20 +79,9 @@ functools
 import
 os
 from
-abc
-import
-abstractmethod
-from
 collections
 import
 defaultdict
-from
-collections
-.
-abc
-import
-Iterable
-Iterator
 from
 functools
 import
@@ -101,13 +90,30 @@ wraps
 from
 typing
 import
+(
+    
 TYPE_CHECKING
+    
 Any
+    
 Callable
-ClassVar
+    
+Dict
+    
 Generic
+    
+Iterable
+    
+Iterator
+    
+List
+    
+Tuple
+    
 TypeVar
+    
 cast
+)
 from
 packaging
 .
@@ -126,15 +132,16 @@ Requirement
 from
 packaging
 .
+specifiers
+import
+SpecifierSet
+from
+packaging
+.
 version
 import
 InvalidVersion
 Version
-from
-.
-.
-import
-_static
 from
 .
 .
@@ -184,10 +191,10 @@ SingleCommandOptions
 :
 TypeAlias
 =
-dict
+Dict
 [
 str
-tuple
+Tuple
 [
 str
 Any
@@ -261,7 +268,7 @@ AllCommandOptions
 :
 TypeAlias
 =
-dict
+Dict
 [
 str
 SingleCommandOptions
@@ -686,7 +693,7 @@ filenames
 =
 cast
 (
-list
+List
 [
 str
 ]
@@ -1463,13 +1470,10 @@ heirs
     
 aliases
 :
-ClassVar
-[
 dict
 [
 str
 str
-]
 ]
 =
 {
@@ -1539,9 +1543,6 @@ expand
 EnsurePackagesDiscovered
     
 )
--
->
-None
 :
         
 self
@@ -1593,11 +1594,13 @@ ensure_discovered
 self
 .
 _referenced_files
-=
+:
 set
 [
 str
 ]
+=
+set
 (
 )
         
@@ -1670,7 +1673,7 @@ items
 :
             
 pre
-_sep
+sep
 name
 =
 full_name
@@ -1701,20 +1704,11 @@ value
     
 property
     
-abstractmethod
-    
 def
 parsers
 (
 self
 )
--
->
-dict
-[
-str
-Callable
-]
 :
         
 "
@@ -1736,21 +1730,21 @@ raise
 NotImplementedError
 (
             
-f
 '
-{
-self
-.
-__class__
-.
-__name__
-}
+%
+s
 must
 provide
 .
 parsers
 property
 '
+%
+self
+.
+__class__
+.
+__name__
         
 )
     
@@ -2306,12 +2300,7 @@ accepted
 )
             
 return
-_static
-.
-Str
-(
 value
-)
         
 return
 parser
@@ -2430,12 +2419,7 @@ include_directive
 :
             
 return
-_static
-.
-Str
-(
 value
-)
         
 spec
 =
@@ -2477,33 +2461,13 @@ update
 filepaths
 )
         
-#
-XXX
-:
-Is
-marking
-as
-static
-contents
-coming
-from
-files
-too
-optimistic
-?
-        
 return
-_static
-.
-Str
-(
 expand
 .
 read_files
 (
 filepaths
 root_dir
-)
 )
     
 def
@@ -2579,12 +2543,7 @@ attr_directive
 :
             
 return
-_static
-.
-Str
-(
 value
-)
         
 attr_desc
 =
@@ -2909,9 +2868,6 @@ parse_section
 self
 section_options
 )
--
->
-None
 :
         
 "
@@ -3363,9 +3319,6 @@ os
 curdir
     
 )
--
->
-None
 :
         
 super
@@ -3399,13 +3352,6 @@ parsers
 (
 self
 )
--
->
-dict
-[
-str
-Callable
-]
 :
         
 "
@@ -3423,33 +3369,11 @@ mapping
 "
 "
         
-parse_list_static
+parse_list
 =
-self
-.
-_get_parser_compound
-(
 self
 .
 _parse_list
-_static
-.
-List
-)
-        
-parse_dict_static
-=
-self
-.
-_get_parser_compound
-(
-self
-.
-_parse_dict
-_static
-.
-Dict
-)
         
 parse_file
 =
@@ -3465,6 +3389,12 @@ self
 root_dir
 )
         
+parse_dict
+=
+self
+.
+_parse_dict
+        
 exclude_files_parser
 =
 self
@@ -3475,60 +3405,28 @@ return
 {
             
 '
-author
-'
-:
-_static
-.
-Str
-            
-'
-author_email
-'
-:
-_static
-.
-Str
-            
-'
-maintainer
-'
-:
-_static
-.
-Str
-            
-'
-maintainer_email
-'
-:
-_static
-.
-Str
-            
-'
 platforms
 '
 :
-parse_list_static
+parse_list
             
 '
 keywords
 '
 :
-parse_list_static
+parse_list
             
 '
 provides
 '
 :
-parse_list_static
+parse_list
             
 '
 obsoletes
 '
 :
-parse_list_static
+parse_list
             
 '
 classifiers
@@ -3539,7 +3437,7 @@ self
 _get_parser_compound
 (
 parse_file
-parse_list_static
+parse_list
 )
             
 '
@@ -3557,7 +3455,7 @@ license
 license_files
 '
 :
-parse_list_static
+parse_list
             
 '
 description
@@ -3572,40 +3470,18 @@ long_description
 parse_file
             
 '
-long_description_content_type
-'
-:
-_static
-.
-Str
-            
-'
 version
 '
 :
 self
 .
 _parse_version
-#
-Cannot
-be
-marked
-as
-dynamic
-            
-'
-url
-'
-:
-_static
-.
-Str
             
 '
 project_urls
 '
 :
-parse_dict_static
+parse_dict
         
 }
     
@@ -3801,9 +3677,6 @@ expand
 EnsurePackagesDiscovered
     
 )
--
->
-None
 :
         
 super
@@ -3967,10 +3840,7 @@ empties
 .
         
 return
-_static
-.
-List
-(
+[
 line
 for
 line
@@ -3986,24 +3856,7 @@ startswith
 #
 "
 )
-)
-        
-#
-^
--
--
-Use
-_static
-.
-List
-to
-mark
-a
-non
--
-Dynamic
-Core
-Metadata
+]
     
 property
     
@@ -4012,13 +3865,6 @@ parsers
 (
 self
 )
--
->
-dict
-[
-str
-Callable
-]
 :
         
 "
@@ -4048,6 +3894,12 @@ self
 .
 _parse_bool
         
+parse_dict
+=
+self
+.
+_parse_dict
+        
 parse_cmdclass
 =
 self
@@ -4073,9 +3925,7 @@ parse_bool
 package_dir
 '
 :
-self
-.
-_parse_dict
+parse_dict
             
 '
 scripts
@@ -4149,9 +3999,6 @@ install_requires
 :
 partial
 (
-#
-Core
-Metadata
                 
 self
 .
@@ -4196,12 +4043,7 @@ parse_list
 python_requires
 '
 :
-_static
-.
 SpecifierSet
-#
-Core
-Metadata
             
 '
 cmdclass
@@ -4521,9 +4363,6 @@ parse_section_entry_points
 self
 section_options
 )
--
->
-None
 :
         
 "
@@ -4601,9 +4440,6 @@ parse_section_package_data
 self
 section_options
 )
--
->
-None
 :
         
 "
@@ -4646,9 +4482,6 @@ parse_section_exclude_package_data
 self
 section_options
 )
--
->
-None
 :
         
 "
@@ -4691,13 +4524,7 @@ parse_section_extras_require
 self
 section_options
 )
--
->
-None
 :
-#
-Core
-Metadata
         
 "
 "
@@ -4757,29 +4584,7 @@ extras_require
 '
 ]
 =
-_static
-.
-Dict
-(
 parsed
-)
-        
-#
-^
--
--
-Use
-_static
-.
-Dict
-to
-mark
-a
-non
--
-Dynamic
-Core
-Metadata
     
 def
 parse_section_data_files
@@ -4787,9 +4592,6 @@ parse_section_data_files
 self
 section_options
 )
--
->
-None
 :
         
 "

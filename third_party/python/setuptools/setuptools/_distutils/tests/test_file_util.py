@@ -297,8 +297,6 @@ issue
 22182
         
 with
-(
-            
 mock
 .
 patch
@@ -318,13 +316,12 @@ wrong
 1
 )
 )
-            
 pytest
 .
 raises
 (
+            
 DistutilsFileError
-)
         
 )
 :
@@ -373,12 +370,11 @@ issue
 22182
         
 with
-(
-            
 mock
 .
 patch
 (
+            
 "
 os
 .
@@ -395,8 +391,8 @@ EXDEV
 wrong
 "
 )
+        
 )
-            
 mock
 .
 patch
@@ -416,13 +412,12 @@ wrong
 1
 )
 )
-            
 pytest
 .
 raises
 (
+            
 DistutilsFileError
-)
         
 )
 :

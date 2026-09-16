@@ -1,16 +1,12 @@
-from
-__future__
-import
-annotations
 import
 sys
 import
 textwrap
 from
-collections
-.
-abc
+typing
 import
+List
+Optional
 Sequence
 #
 Shim
@@ -237,7 +233,6 @@ import
 os
 sys
 tokenize
-traceback
     
 try
 :
@@ -247,6 +242,8 @@ setuptools
     
 except
 ImportError
+as
+error
 :
         
 print
@@ -263,9 +260,9 @@ setup
 py
 since
 setuptools
-failed
-to
-import
+is
+not
+available
 in
 "
             
@@ -273,9 +270,7 @@ in
 the
 build
 environment
-with
-exception
-:
+.
 "
             
 file
@@ -284,12 +279,6 @@ sys
 .
 stderr
         
-)
-        
-traceback
-.
-print_exc
-(
 )
         
 sys
@@ -430,12 +419,13 @@ str
     
 global_options
 :
+Optional
+[
 Sequence
 [
 str
 ]
-|
-None
+]
 =
 None
     
@@ -453,7 +443,7 @@ False
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -628,7 +618,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -740,7 +730,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -800,15 +790,17 @@ bool
     
 prefix
 :
+Optional
+[
 str
-|
-None
+]
     
 home
 :
+Optional
+[
 str
-|
-None
+]
     
 use_user_site
 :
@@ -816,7 +808,7 @@ bool
 )
 -
 >
-list
+List
 [
 str
 ]
@@ -933,9 +925,10 @@ str
     
 egg_info_dir
 :
+Optional
+[
 str
-|
-None
+]
     
 no_user_config
 :
@@ -943,7 +936,7 @@ bool
 )
 -
 >
-list
+List
 [
 str
 ]

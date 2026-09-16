@@ -3,13 +3,6 @@ __future__
 import
 annotations
 from
-collections
-.
-abc
-import
-Iterable
-Iterator
-from
 functools
 import
 lru_cache
@@ -18,6 +11,8 @@ typing
 import
 TYPE_CHECKING
 Callable
+Iterable
+Iterator
 TypeVar
 Union
 overload
@@ -289,8 +284,14 @@ assignment
 "
 "
     
-Parse
-requirements
+Replacement
+for
+pkg_resources
+.
+parse_requirements
+that
+uses
+packaging
 .
     
 "

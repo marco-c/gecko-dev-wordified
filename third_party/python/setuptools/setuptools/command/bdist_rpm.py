@@ -109,9 +109,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 SetuptoolsDeprecationWarning

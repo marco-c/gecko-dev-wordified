@@ -6,8 +6,7 @@ command
 line
 tool
 (
-enables
-the
+enable
 python
 -
 m
@@ -23,17 +22,10 @@ import
 annotations
 import
 sys
-from
-typing
-import
-NoReturn
 def
 main
 (
 )
--
->
-NoReturn
 :
 #
 needed
@@ -105,19 +97,20 @@ path
 path
 ]
     
-from
-.
-_commands
 import
-main
-as
-cli_main
+wheel
+.
+cli
     
 sys
 .
 exit
 (
-cli_main
+wheel
+.
+cli
+.
+main
 (
 )
 )
@@ -130,6 +123,11 @@ __main__
 "
 :
     
+sys
+.
+exit
+(
 main
 (
+)
 )

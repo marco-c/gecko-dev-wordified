@@ -1,11 +1,8 @@
 from
-__future__
-import
-annotations
-from
 typing
 import
 Any
+Optional
 from
 pip
 .
@@ -344,9 +341,10 @@ self
 .
 _equal_cache
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
@@ -354,9 +352,10 @@ self
 .
 _hash
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
         
@@ -982,9 +981,10 @@ self
 .
 _equal_cache
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
@@ -992,9 +992,10 @@ self
 .
 _hash
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
         
@@ -1195,9 +1196,10 @@ self
 .
 _hash
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
         

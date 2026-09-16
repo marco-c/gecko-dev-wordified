@@ -15,6 +15,10 @@ dataclasses
 import
 dataclass
 from
+typing
+import
+List
+from
 pip
 .
 _vendor
@@ -108,14 +112,14 @@ no_index
     
 find_links
 :
-list
+List
 [
 str
 ]
     
 index_urls
 :
-list
+List
 [
 str
 ]
@@ -134,14 +138,14 @@ cls
         
 find_links
 :
-list
+List
 [
 str
 ]
         
 index_urls
 :
-list
+List
 [
 str
 ]
@@ -243,7 +247,7 @@ a
         
 built_find_links
 :
-list
+List
 [
 str
 ]
@@ -684,7 +688,7 @@ str
 )
 -
 >
-list
+List
 [
 str
 ]

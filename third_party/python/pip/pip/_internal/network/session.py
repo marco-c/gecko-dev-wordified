@@ -19,10 +19,6 @@ behavior
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 email
 .
@@ -56,14 +52,6 @@ parse
 import
 warnings
 from
-collections
-.
-abc
-import
-Generator
-Mapping
-Sequence
-from
 typing
 import
 (
@@ -72,7 +60,19 @@ TYPE_CHECKING
     
 Any
     
+Dict
+    
+Generator
+    
+List
+    
+Mapping
+    
 Optional
+    
+Sequence
+    
+Tuple
     
 Union
 )
@@ -274,17 +274,6 @@ urllib3
 poolmanager
 import
 PoolManager
-    
-from
-pip
-.
-_vendor
-.
-urllib3
-.
-proxymanager
-import
-ProxyManager
 logger
 =
 logging
@@ -295,7 +284,7 @@ __name__
 )
 SecureOrigin
 =
-tuple
+Tuple
 [
 str
 str
@@ -333,7 +322,7 @@ InsecureRequestWarning
 )
 SECURE_ORIGINS
 :
-list
+List
 [
 SecureOrigin
 ]
@@ -741,7 +730,7 @@ agent
     
 data
 :
-dict
+Dict
 [
 str
 Any
@@ -1037,7 +1026,7 @@ codename
         
 distro_infos
 :
-dict
+Dict
 [
 str
 Any
@@ -1664,49 +1653,58 @@ False
         
 timeout
 :
+Optional
+[
+Union
+[
 float
-|
-tuple
+Tuple
 [
 float
 float
 ]
-|
-None
+]
+]
 =
 None
         
 verify
 :
+Union
+[
 bool
-|
 str
+]
 =
 True
         
 cert
 :
+Optional
+[
+Union
+[
 str
-|
-tuple
+Tuple
 [
 str
 str
 ]
-|
-None
+]
+]
 =
 None
         
 proxies
 :
+Optional
+[
 Mapping
 [
 str
 str
 ]
-|
-None
+]
 =
 None
     
@@ -2009,9 +2007,12 @@ self
         
 ssl_context
 :
+Optional
+[
+"
 SSLContext
-|
-None
+"
+]
 =
 None
         
@@ -2073,7 +2074,9 @@ Any
 )
 -
 >
+"
 PoolManager
+"
 :
         
 if
@@ -2129,98 +2132,6 @@ block
 pool_kwargs
         
 )
-    
-def
-proxy_manager_for
-(
-self
-proxy
-:
-str
-*
-*
-proxy_kwargs
-:
-Any
-)
--
->
-ProxyManager
-:
-        
-#
-Proxy
-manager
-replaces
-the
-pool
-manager
-so
-inject
-our
-SSL
-        
-#
-context
-here
-too
-.
-https
-:
-/
-/
-github
-.
-com
-/
-pypa
-/
-pip
-/
-issues
-/
-13288
-        
-if
-self
-.
-_ssl_context
-is
-not
-None
-:
-            
-proxy_kwargs
-.
-setdefault
-(
-"
-ssl_context
-"
-self
-.
-_ssl_context
-)
-        
-return
-super
-(
-)
-.
-proxy_manager_for
-(
-proxy
-*
-*
-proxy_kwargs
-)
-#
-type
-:
-ignore
-[
-misc
-]
 class
 HTTPAdapter
 (
@@ -2262,21 +2173,26 @@ str
         
 verify
 :
+Union
+[
 bool
-|
 str
+]
         
 cert
 :
+Optional
+[
+Union
+[
 str
-|
-tuple
+Tuple
 [
 str
 str
 ]
-|
-None
+]
+]
     
 )
 -
@@ -2326,21 +2242,26 @@ str
         
 verify
 :
+Union
+[
 bool
-|
 str
+]
         
 cert
 :
+Optional
+[
+Union
+[
 str
-|
-tuple
+Tuple
 [
 str
 str
 ]
-|
-None
+]
+]
     
 )
 -
@@ -2378,9 +2299,10 @@ Session
     
 timeout
 :
+Optional
+[
 int
-|
-None
+]
 =
 None
     
@@ -2403,9 +2325,10 @@ int
         
 cache
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
@@ -2421,20 +2344,24 @@ str
         
 index_urls
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 =
 None
         
 ssl_context
 :
+Optional
+[
+"
 SSLContext
-|
-None
+"
+]
 =
 None
         
@@ -2515,14 +2442,15 @@ self
 .
 pip_trusted_origins
 :
-list
+List
 [
-tuple
+Tuple
 [
 str
+Optional
+[
 int
-|
-None
+]
 ]
 ]
 =
@@ -3047,7 +2975,7 @@ update_index_urls
 self
 new_index_urls
 :
-list
+List
 [
 str
 ]
@@ -3099,9 +3027,10 @@ host
 str
 source
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
 suppress_logging

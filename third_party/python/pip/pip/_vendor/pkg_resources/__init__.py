@@ -471,6 +471,10 @@ StrPath
 StrOrBytesPath
     
 from
+pip
+.
+_vendor
+.
 typing_extensions
 import
 Self

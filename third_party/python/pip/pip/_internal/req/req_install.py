@@ -1,7 +1,3 @@
-from
-__future__
-import
-annotations
 import
 functools
 import
@@ -17,14 +13,6 @@ uuid
 import
 zipfile
 from
-collections
-.
-abc
-import
-Collection
-Iterable
-Sequence
-from
 optparse
 import
 Values
@@ -36,6 +24,13 @@ from
 typing
 import
 Any
+Collection
+Dict
+Iterable
+List
+Optional
+Sequence
+Union
 from
 pip
 .
@@ -433,17 +428,23 @@ self
         
 req
 :
+Optional
+[
 Requirement
-|
-None
+]
         
 comes_from
 :
+Optional
+[
+Union
+[
 str
-|
+"
 InstallRequirement
-|
-None
+"
+]
+]
         
 editable
 :
@@ -453,25 +454,28 @@ False
         
 link
 :
+Optional
+[
 Link
-|
-None
+]
 =
 None
         
 markers
 :
+Optional
+[
 Marker
-|
-None
+]
 =
 None
         
 use_pep517
 :
+Optional
+[
 bool
-|
-None
+]
 =
 None
         
@@ -485,44 +489,49 @@ False
         
 global_options
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 =
 None
         
 hash_options
 :
-dict
+Optional
+[
+Dict
 [
 str
-list
+List
 [
 str
 ]
 ]
-|
-None
+]
 =
 None
         
 config_settings
 :
-dict
+Optional
+[
+Dict
 [
 str
+Union
+[
 str
-|
-list
+List
 [
 str
 ]
 ]
-|
-None
+]
+]
 =
 None
         
@@ -670,9 +679,10 @@ self
 .
 source_dir
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
@@ -821,9 +831,10 @@ self
 .
 cached_wheel_source_link
 :
+Optional
+[
 Link
-|
-None
+]
 =
 None
         
@@ -857,9 +868,10 @@ self
 .
 download_info
 :
+Optional
+[
 DirectUrl
-|
-None
+]
 =
 None
         
@@ -879,9 +891,10 @@ self
 .
 local_file_path
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
@@ -978,9 +991,10 @@ self
 .
 satisfied_by
 :
+Optional
+[
 BaseDistribution
-|
-None
+]
 =
 None
         
@@ -1019,9 +1033,10 @@ self
 .
 _temp_build_dir
 :
+Optional
+[
 TempDirectory
-|
-None
+]
 =
 None
         
@@ -1037,9 +1052,10 @@ self
 .
 install_succeeded
 :
+Optional
+[
 bool
-|
-None
+]
 =
 None
         
@@ -1201,9 +1217,10 @@ self
 .
 metadata_directory
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
@@ -1223,12 +1240,13 @@ self
 .
 pyproject_requires
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 =
 None
         
@@ -1246,7 +1264,7 @@ self
 .
 requirements_to_check
 :
-list
+List
 [
 str
 ]
@@ -1271,9 +1289,10 @@ self
 .
 pep517_backend
 :
+Optional
+[
 BuildBackendHookCaller
-|
-None
+]
 =
 None
         
@@ -1457,9 +1476,10 @@ self
 .
 _archive_source
 :
+Optional
+[
 Path
-|
-None
+]
 =
 None
     
@@ -1611,9 +1631,10 @@ str
                 
 comes_from
 :
+Optional
+[
 str
-|
-None
+]
 =
 self
 .
@@ -1832,9 +1853,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 if
@@ -2101,12 +2123,13 @@ match_markers
 self
 extras_requested
 :
+Optional
+[
 Iterable
 [
 str
 ]
-|
-None
+]
 =
 None
 )
@@ -2492,9 +2515,10 @@ self
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -2544,9 +2568,10 @@ comes_from
             
 comes_from
 :
+Optional
+[
 str
-|
-None
+]
             
 if
 isinstance
@@ -5101,9 +5126,10 @@ False
 )
 -
 >
+Optional
+[
 UninstallPathSet
-|
-None
+]
 :
         
 "
@@ -5408,9 +5434,10 @@ archive
 self
 build_dir
 :
+Optional
+[
 str
-|
-None
+]
 )
 -
 >
@@ -5871,36 +5898,40 @@ self
         
 global_options
 :
+Optional
+[
 Sequence
 [
 str
 ]
-|
-None
+]
 =
 None
         
 root
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
 home
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
 prefix
 :
+Optional
+[
 str
-|
-None
+]
 =
 None
         
@@ -6088,7 +6119,7 @@ gone_in
 "
 25
 .
-3
+1
 "
                 
 issue
@@ -6480,7 +6511,7 @@ options
 Values
 reqs
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -6535,7 +6566,7 @@ Values
     
 reqs
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -6613,11 +6644,7 @@ settings
             
 gone_in
 =
-"
-25
-.
-3
-"
+None
         
 )
         

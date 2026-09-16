@@ -1,22 +1,9 @@
-from
-__future__
-import
-annotations
 import
 contextlib
 import
 functools
 import
 logging
-from
-collections
-.
-abc
-import
-Iterable
-Iterator
-Mapping
-Sequence
 from
 typing
 import
@@ -26,9 +13,29 @@ TYPE_CHECKING
     
 Callable
     
+Dict
+    
+FrozenSet
+    
+Iterable
+    
+Iterator
+    
+List
+    
+Mapping
+    
 NamedTuple
     
+Optional
+    
 Protocol
+    
+Sequence
+    
+Set
+    
+Tuple
     
 TypeVar
     
@@ -330,7 +337,7 @@ C
 )
 Cache
 =
-dict
+Dict
 [
 Link
 C
@@ -344,14 +351,14 @@ NamedTuple
     
 requirements
 :
-list
+List
 [
 Requirement
 ]
     
 constraints
 :
-dict
+Dict
 [
 str
 Constraint
@@ -359,7 +366,7 @@ Constraint
     
 user_requested
 :
-dict
+Dict
 [
 str
 int
@@ -388,9 +395,10 @@ InstallRequirementProvider
         
 wheel_cache
 :
+Optional
+[
 WheelCache
-|
-None
+]
         
 use_user_site
 :
@@ -410,15 +418,16 @@ bool
         
 py_version_info
 :
-tuple
+Optional
+[
+Tuple
 [
 int
 .
 .
 .
 ]
-|
-None
+]
 =
 None
     
@@ -519,7 +528,7 @@ self
 .
 _installed_candidate_cache
 :
-dict
+Dict
 [
 str
 AlreadyInstalledCandidate
@@ -532,13 +541,13 @@ self
 .
 _extras_candidate_cache
 :
-dict
+Dict
 [
             
-tuple
+Tuple
 [
 int
-frozenset
+FrozenSet
 [
 NormalizedName
 ]
@@ -710,7 +719,7 @@ BaseCandidate
         
 extras
 :
-frozenset
+FrozenSet
 [
 str
 ]
@@ -719,9 +728,10 @@ str
         
 comes_from
 :
+Optional
+[
 InstallRequirement
-|
-None
+]
 =
 None
     
@@ -802,7 +812,7 @@ BaseDistribution
         
 extras
 :
-frozenset
+FrozenSet
 [
 str
 ]
@@ -889,7 +899,7 @@ Link
         
 extras
 :
-frozenset
+FrozenSet
 [
 str
 ]
@@ -900,29 +910,33 @@ InstallRequirement
         
 name
 :
+Optional
+[
 NormalizedName
-|
-None
+]
         
 version
 :
+Optional
+[
 Version
-|
-None
+]
     
 )
 -
 >
+Optional
+[
 Candidate
-|
-None
+]
 :
         
 base
 :
+Optional
+[
 BaseCandidate
-|
-None
+]
 =
 self
 .
@@ -976,22 +990,25 @@ InstallRequirement
         
 name
 :
+Optional
+[
 NormalizedName
-|
-None
+]
         
 version
 :
+Optional
+[
 Version
-|
-None
+]
     
 )
 -
 >
+Optional
+[
 BaseCandidate
-|
-None
+]
 :
         
 #
@@ -1306,7 +1323,7 @@ bool
         
 incompatible_ids
 :
-set
+Set
 [
 int
 ]
@@ -1410,7 +1427,7 @@ name
         
 extras
 :
-frozenset
+FrozenSet
 [
 str
 ]
@@ -1477,9 +1494,10 @@ _get_installed_candidate
 )
 -
 >
+Optional
+[
 Candidate
-|
-None
+]
 :
             
 "
@@ -1955,7 +1973,7 @@ Requirement
         
 extras
 :
-frozenset
+FrozenSet
 [
 str
 ]
@@ -2302,7 +2320,7 @@ requirements
         
 explicit_candidates
 :
-set
+Set
 [
 Candidate
 ]
@@ -2313,7 +2331,7 @@ set
         
 ireqs
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -3231,7 +3249,7 @@ collect_root_requirements
 self
 root_ireqs
 :
-list
+List
 [
 InstallRequirement
 ]
@@ -3604,9 +3622,10 @@ str
         
 comes_from
 :
+Optional
+[
 InstallRequirement
-|
-None
+]
         
 requested_extras
 :
@@ -3756,9 +3775,10 @@ SpecifierSet
 )
 -
 >
+Optional
+[
 Requirement
-|
-None
+]
 :
         
 if
@@ -3809,21 +3829,25 @@ _python_candidate
 def
 get_wheel_cache_entry
 (
+        
 self
 link
 :
 Link
 name
 :
+Optional
+[
 str
-|
-None
+]
+    
 )
 -
 >
+Optional
+[
 CacheEntry
-|
-None
+]
 :
         
 "
@@ -3944,9 +3968,10 @@ Candidate
 )
 -
 >
+Optional
+[
 BaseDistribution
-|
-None
+]
 :
         
 #
@@ -4196,7 +4221,9 @@ causes
 :
 Sequence
 [
+"
 ConflictCause
+"
 ]
     
 )
@@ -4380,9 +4407,10 @@ req
 Requirement
 parent
 :
+Optional
+[
 Candidate
-|
-None
+]
     
 )
 -
@@ -4448,7 +4476,7 @@ requires_python_skipped_reasons
         
 versions_set
 :
-set
+Set
 [
 Version
 ]
@@ -4459,7 +4487,7 @@ set
         
 yanked_versions_set
 :
-set
+Set
 [
 Version
 ]
@@ -4799,15 +4827,17 @@ self
         
 e
 :
+"
 ResolutionImpossible
 [
 Requirement
 Candidate
 ]
+"
         
 constraints
 :
-dict
+Dict
 [
 str
 Constraint
@@ -5007,15 +5037,12 @@ causes
 req
 parent
 =
-next
-(
-iter
-(
 e
 .
 causes
-)
-)
+[
+0
+]
             
 if
 req
@@ -5069,7 +5096,7 @@ text_join
 (
 parts
 :
-list
+List
 [
 str
 ]

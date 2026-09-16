@@ -471,11 +471,11 @@ __all__
 [
     
 "
-InvalidLicenseExpression
+NormalizedLicenseExpression
 "
     
 "
-NormalizedLicenseExpression
+InvalidLicenseExpression
 "
     
 "

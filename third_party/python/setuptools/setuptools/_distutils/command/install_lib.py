@@ -23,10 +23,6 @@ modules
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 importlib
 .
@@ -35,11 +31,6 @@ import
 os
 import
 sys
-from
-typing
-import
-Any
-ClassVar
 from
 .
 .
@@ -489,14 +480,6 @@ steps
 ]
     
 boolean_options
-:
-ClassVar
-[
-list
-[
-str
-]
-]
 =
 [
 '
@@ -513,15 +496,6 @@ build
 ]
     
 negative_opt
-:
-ClassVar
-[
-dict
-[
-str
-str
-]
-]
 =
 {
 '
@@ -595,9 +569,6 @@ finalize_options
 (
 self
 )
--
->
-None
 :
         
 #
@@ -800,9 +771,6 @@ run
 (
 self
 )
--
->
-None
 :
         
 #
@@ -959,9 +927,6 @@ build
 (
 self
 )
--
->
-None
 :
         
 if
@@ -1009,48 +974,11 @@ build_ext
 '
 )
     
-#
-Any
-:
-https
-:
-/
-/
-typing
-.
-readthedocs
-.
-io
-/
-en
-/
-latest
-/
-guides
-/
-writing_stubs
-.
-html
-#
-the
--
-any
--
-trick
-    
 def
 install
 (
 self
 )
--
->
-list
-[
-str
-]
-|
-Any
 :
         
 if
@@ -1122,9 +1050,6 @@ byte_compile
 self
 files
 )
--
->
-None
 :
         
 if
@@ -1251,6 +1176,12 @@ force
 prefix
 =
 install_root
+                
+dry_run
+=
+self
+.
+dry_run
             
 )
         
@@ -1288,6 +1219,12 @@ verbose
 self
 .
 verbose
+                
+dry_run
+=
+self
+.
+dry_run
             
 )
     

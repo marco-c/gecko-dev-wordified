@@ -1,7 +1,7 @@
 from
-__future__
+typing
 import
-annotations
+Optional
 from
 pip
 .
@@ -155,9 +155,10 @@ False
         
 format_control
 :
+Optional
+[
 FormatControl
-|
-None
+]
 =
 None
         
@@ -169,9 +170,10 @@ False
         
 ignore_requires_python
 :
+Optional
+[
 bool
-|
-None
+]
 =
 None
     

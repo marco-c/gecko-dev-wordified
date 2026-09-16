@@ -162,9 +162,7 @@ _append_app_name_and_version
 (
 cast
 (
-"
 str
-"
 _android_folder
 (
 )
@@ -270,9 +268,7 @@ _append_app_name_and_version
 (
 cast
 (
-"
 str
-"
 _android_folder
 (
 )
@@ -375,9 +371,7 @@ _append_app_name_and_version
 (
 cast
 (
-"
 str
-"
 _android_folder
 (
 )
@@ -987,6 +981,7 @@ None
 noqa
 :
 C901
+PLR0912
     
 "
 "

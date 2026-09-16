@@ -462,6 +462,10 @@ None
 verbose
 =
 True
+    
+dry_run
+=
+False
 )
 :
     
@@ -774,6 +778,19 @@ the
 file
 was
 copied
+(
+or
+would
+    
+have
+been
+copied
+if
+'
+dry_run
+'
+true
+)
 .
     
 "
@@ -1018,7 +1035,7 @@ src
 return
 (
 dst
-False
+0
 )
     
 try
@@ -1124,6 +1141,16 @@ src
 dst
 )
     
+if
+dry_run
+:
+        
+return
+(
+dst
+1
+)
+    
 #
 If
 linking
@@ -1155,7 +1182,7 @@ s
 responsibility
 )
     
-if
+elif
 link
 =
 =
@@ -1245,7 +1272,7 @@ else
 return
 (
 dst
-True
+1
 )
     
 elif
@@ -1292,7 +1319,7 @@ dst
 return
 (
 dst
-True
+1
 )
     
 #
@@ -1415,7 +1442,7 @@ ST_MODE
 return
 (
 dst
-True
+1
 )
 #
 XXX
@@ -1440,6 +1467,9 @@ dst
 verbose
 =
 True
+dry_run
+=
+False
 )
 :
 #
@@ -1568,6 +1598,13 @@ s
 src
 dst
 )
+    
+if
+dry_run
+:
+        
+return
+dst
     
 if
 not

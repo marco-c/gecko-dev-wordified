@@ -32,10 +32,6 @@ directory
 "
 "
 from
-typing
-import
-ClassVar
-from
 .
 .
 core
@@ -68,19 +64,6 @@ files
 "
     
 user_options
-:
-ClassVar
-[
-list
-[
-tuple
-[
-str
-str
-str
-]
-]
-]
 =
 [
         
@@ -125,14 +108,6 @@ files
 ]
     
 boolean_options
-:
-ClassVar
-[
-list
-[
-str
-]
-]
 =
 [
 '

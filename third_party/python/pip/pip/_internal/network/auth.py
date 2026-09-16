@@ -26,10 +26,6 @@ requests
 "
 "
 "
-from
-__future__
-import
-annotations
 import
 logging
 import
@@ -54,7 +50,7 @@ abstractmethod
 from
 functools
 import
-cache
+lru_cache
 from
 os
 .
@@ -69,7 +65,11 @@ from
 typing
 import
 Any
+Dict
+List
 NamedTuple
+Optional
+Tuple
 from
 pip
 .
@@ -197,21 +197,25 @@ abstractmethod
 def
 get_auth_info
 (
+        
 self
 url
 :
 str
 username
 :
+Optional
+[
 str
-|
-None
+]
+    
 )
 -
 >
+Optional
+[
 AuthInfo
-|
-None
+]
 :
 .
 .
@@ -270,15 +274,17 @@ url
 str
 username
 :
+Optional
+[
 str
-|
-None
+]
 )
 -
 >
+Optional
+[
 AuthInfo
-|
-None
+]
 :
         
 return
@@ -358,15 +364,17 @@ url
 str
 username
 :
+Optional
+[
 str
-|
-None
+]
 )
 -
 >
+Optional
+[
 AuthInfo
-|
-None
+]
 :
         
 #
@@ -625,15 +633,17 @@ url
 str
 username
 :
+Optional
+[
 str
-|
-None
+]
 )
 -
 >
+Optional
+[
 AuthInfo
-|
-None
+]
 :
         
 #
@@ -747,9 +757,10 @@ str
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -987,7 +998,12 @@ True
         
 return
 None
-cache
+lru_cache
+(
+maxsize
+=
+None
+)
 def
 get_keyring_provider
 (
@@ -1472,12 +1488,13 @@ True
         
 index_urls
 :
-list
+Optional
+[
+List
 [
 str
 ]
-|
-None
+]
 =
 None
         
@@ -1512,12 +1529,19 @@ self
 keyring_provider
 =
 keyring_provider
+#
+type
+:
+ignore
+[
+assignment
+]
         
 self
 .
 passwords
 :
-dict
+Dict
 [
 str
 AuthInfo
@@ -1586,9 +1610,10 @@ self
 .
 _credentials_to_save
 :
+Optional
+[
 Credentials
-|
-None
+]
 =
 None
     
@@ -1752,22 +1777,25 @@ self
         
 url
 :
+Optional
+[
 str
-|
-None
+]
         
 username
 :
+Optional
+[
 str
-|
-None
+]
     
 )
 -
 >
+Optional
+[
 AuthInfo
-|
-None
+]
 :
         
 "
@@ -1932,9 +1960,10 @@ str
 )
 -
 >
+Optional
+[
 str
-|
-None
+]
 :
         
 "
@@ -2611,15 +2640,17 @@ str
 )
 -
 >
-tuple
+Tuple
 [
 str
+Optional
+[
 str
-|
-None
+]
+Optional
+[
 str
-|
-None
+]
 ]
 :
         
@@ -3121,21 +3152,25 @@ tests
 def
 _prompt_for_password
 (
+        
 self
 netloc
 :
 str
+    
 )
 -
 >
-tuple
+Tuple
+[
+Optional
 [
 str
-|
-None
+]
+Optional
+[
 str
-|
-None
+]
 bool
 ]
 :

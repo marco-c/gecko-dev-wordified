@@ -179,14 +179,6 @@ pathlib
 import
 sys
 from
-collections
-.
-abc
-import
-Iterable
-Iterator
-Mapping
-from
 configparser
 import
 ConfigParser
@@ -220,12 +212,10 @@ import
 TYPE_CHECKING
 Any
 Callable
+Iterable
+Iterator
+Mapping
 TypeVar
-from
-.
-.
-import
-_static
 from
 .
 .
@@ -320,9 +310,6 @@ spec
 :
 ModuleSpec
 )
--
->
-None
 :
         
 module
@@ -469,9 +456,6 @@ attr
 :
 str
 )
--
->
-Any
 :
         
 "
@@ -1392,8 +1376,7 @@ path
 try
 :
         
-value
-=
+return
 getattr
 (
 StaticModule
@@ -1402,29 +1385,6 @@ module_name
 spec
 )
 attr_name
-)
-        
-#
-XXX
-:
-Is
-marking
-as
-static
-contents
-coming
-from
-modules
-too
-optimistic
-?
-        
-return
-_static
-.
-attempt_conversion
-(
-value
 )
     
 except
@@ -2684,12 +2644,12 @@ _value
 )
     
 return
-f
 '
-{
+%
+s
+'
+%
 _value
-}
-'
 def
 canonic_package_data
 (
@@ -2831,7 +2791,6 @@ items
 def
 entry_points
 (
-    
 text
 :
 str
@@ -2851,10 +2810,6 @@ dict
 [
 str
 dict
-[
-str
-str
-]
 ]
 :
     
@@ -3133,9 +3088,6 @@ distribution
 :
 Distribution
 )
--
->
-None
 :
         
 self
@@ -3155,9 +3107,6 @@ __call__
 (
 self
 )
--
->
-None
 :
         
 "
@@ -3251,9 +3200,6 @@ TracebackType
 None
     
 )
--
->
-None
 :
         
 if
@@ -3496,9 +3442,6 @@ _V_co
 ]
 ]
 )
--
->
-None
 :
         
 self
