@@ -21246,6 +21246,15 @@ Opcode
 :
 StoreTypedArrayElementHole
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+PostWriteElementBarrier
+:
 /
 /
 Only
