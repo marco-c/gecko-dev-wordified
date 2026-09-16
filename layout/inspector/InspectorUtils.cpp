@@ -9143,7 +9143,7 @@ nsAString
 aPseudo
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aResult
