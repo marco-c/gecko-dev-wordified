@@ -1028,10 +1028,6 @@ importNameValueType
 :
 '
 all
--
-but
--
-default
 '
 localName
 :
