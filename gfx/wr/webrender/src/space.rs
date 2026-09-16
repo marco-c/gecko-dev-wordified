@@ -5576,6 +5576,9 @@ true
 should_snap
 :
 false
+snap_origin
+:
+false
 paired_with_perspective
 :
 false
@@ -6078,6 +6081,9 @@ is_2d_scale_translation
 :
 false
 should_snap
+:
+false
+snap_origin
 :
 false
 paired_with_perspective
