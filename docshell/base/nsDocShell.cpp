@@ -68279,13 +68279,6 @@ doc
 >
 EndLoad
 (
-/
-*
-aFireDOMContentLoadedSync
-=
-*
-/
-true
 )
 ;
 /
