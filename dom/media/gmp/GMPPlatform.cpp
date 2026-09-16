@@ -1305,7 +1305,7 @@ GetModulesTrustPromise
 >
 SendGetModulesTrust
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
 aModules

@@ -478,10 +478,10 @@ UtilityProcessParent
 :
 RecvGetModulesTrust
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
-aModPaths
+aModIdents
 bool
 aRunAtNormalPriority
 GetModulesTrustResolver
@@ -514,7 +514,7 @@ std
 :
 move
 (
-aModPaths
+aModIdents
 )
 aRunAtNormalPriority
 )
