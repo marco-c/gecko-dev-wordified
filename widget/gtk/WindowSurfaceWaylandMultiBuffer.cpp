@@ -544,7 +544,7 @@ WaylandBufferSHM
 |
 |
 |
-WaylandShmPool
+SHMBufSurface
 |
 |
 |
@@ -666,7 +666,7 @@ WaylandBufferSHM
 |
 |
 |
-WaylandShmPool
+SHMBufSurface
 |
 |
 |
@@ -901,7 +901,7 @@ WaylandBufferSHM
 |
 |
 |
-WaylandShmPool
+SHMBufSurface
 |
 |
 |
@@ -1015,7 +1015,7 @@ WaylandBufferSHM
 |
 |
 |
-WaylandShmPool
+SHMBufSurface
 |
 |
 |
@@ -1378,7 +1378,7 @@ owns
 wl_buffer
 object
 owns
-WaylandShmPool
+SHMBufSurface
 (
 which
 provides
@@ -1391,8 +1391,8 @@ ties
 them
 together
 .
-WaylandShmPool
-WaylandShmPool
+SHMBufSurface
+SHMBufSurface
 acts
 as
 a
@@ -2020,11 +2020,6 @@ uint8_t
 *
 )
 mFrontBuffer
--
->
-GetShmPool
-(
-)
 -
 >
 GetImageData
