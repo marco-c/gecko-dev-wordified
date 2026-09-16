@@ -10085,7 +10085,7 @@ is
 all
 -
 00h
-vpxor
+vxorps
 (
 xtmp
 xtmp
@@ -10182,7 +10182,7 @@ is
 all
 -
 00h
-vpxor
+vxorps
 (
 xtmp
 xtmp
@@ -10279,7 +10279,7 @@ is
 all
 -
 00h
-vpxor
+vxorps
 (
 xtmp
 xtmp
@@ -10376,7 +10376,7 @@ is
 all
 -
 00h
-vpxor
+vxorps
 (
 xtmp
 xtmp
@@ -11884,7 +11884,7 @@ val
 =
 =
 0
-vpxor
+vxorps
 (
 Operand
 (
@@ -13384,7 +13384,7 @@ src
 scratch
 ;
 }
-vpxor
+vxorps
 (
 Operand
 (
@@ -13443,7 +13443,7 @@ src
 scratch
 ;
 }
-vpxor
+vxorps
 (
 Operand
 (
@@ -13502,7 +13502,7 @@ src
 scratch
 ;
 }
-vpxor
+vxorps
 (
 Operand
 (
@@ -13561,7 +13561,7 @@ src
 scratch
 ;
 }
-vpxor
+vxorps
 (
 Operand
 (
@@ -15889,7 +15889,7 @@ src
 dest
 )
 ;
-vpxor
+vxorps
 (
 Operand
 (
@@ -20419,7 +20419,7 @@ src
 dest
 )
 ;
-vpxor
+vxorps
 (
 scratch
 scratch

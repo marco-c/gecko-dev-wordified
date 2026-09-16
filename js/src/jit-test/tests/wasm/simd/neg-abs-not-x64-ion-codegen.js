@@ -138,7 +138,7 @@ i8x16
 .
 neg
 '
-pxor
+xorps
 %
 xmm0
 %
@@ -155,7 +155,7 @@ i16x8
 .
 neg
 '
-pxor
+xorps
 %
 xmm0
 %
@@ -172,7 +172,7 @@ i32x4
 .
 neg
 '
-pxor
+xorps
 %
 xmm0
 %
@@ -189,7 +189,7 @@ i64x2
 .
 neg
 '
-pxor
+xorps
 %
 xmm0
 %

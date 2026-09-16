@@ -26482,7 +26482,7 @@ masm
 ;
 masm
 .
-vpxor
+vxorps
 (
 tmp
 tmp
