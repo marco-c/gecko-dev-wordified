@@ -152,6 +152,12 @@ h
 #
 ifdef
 XP_WIN
+/
+/
+clang
+-
+format
+off
 #
 include
 "
@@ -168,6 +174,12 @@ psapi
 .
 h
 >
+/
+/
+clang
+-
+format
+on
 #
 else
 #
@@ -1826,6 +1838,9 @@ length
 )
 ;
 }
+#
+ifdef
+JS_64BIT
 /
 *
 *
@@ -1937,6 +1952,8 @@ length
 )
 ;
 }
+#
+endif
 /
 *
 *
