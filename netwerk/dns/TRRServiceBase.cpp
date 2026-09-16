@@ -1909,6 +1909,12 @@ RegisterProxyChangeListener
 }
 dnsURI
 0
+/
+*
+aIsTRRServiceChannel
+*
+/
+true
 nullptr
 )
 ;

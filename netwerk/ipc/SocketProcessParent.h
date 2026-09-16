@@ -520,6 +520,10 @@ const
 uint32_t
 &
 aProxyResolveFlags
+const
+bool
+&
+aIsTRRServiceChannel
 )
 ;
 mozilla
@@ -541,6 +545,10 @@ const
 uint32_t
 &
 aProxyResolveFlags
+const
+bool
+&
+aIsTRRServiceChannel
 )
 override
 ;

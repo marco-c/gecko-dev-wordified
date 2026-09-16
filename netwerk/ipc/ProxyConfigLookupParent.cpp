@@ -93,6 +93,8 @@ nsIURI
 aURI
 uint32_t
 aProxyResolveFlags
+bool
+aIsTRRServiceChannel
 )
 :
 mURI
@@ -102,6 +104,10 @@ aURI
 mProxyResolveFlags
 (
 aProxyResolveFlags
+)
+mIsTRRServiceChannel
+(
+aIsTRRServiceChannel
 )
 {
 }
@@ -208,6 +214,7 @@ aStatus
 }
 mURI
 mProxyResolveFlags
+mIsTRRServiceChannel
 )
 ;
 if
