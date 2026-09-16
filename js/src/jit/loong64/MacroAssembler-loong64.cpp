@@ -7086,7 +7086,7 @@ Make
 the
 whole
 branch
-continous
+continuous
 in
 the
 buffer
@@ -7654,7 +7654,7 @@ Make
 the
 whole
 branch
-continous
+continuous
 in
 the
 buffer
@@ -7757,7 +7757,7 @@ Make
 the
 whole
 branch
-continous
+continuous
 in
 the
 buffer
