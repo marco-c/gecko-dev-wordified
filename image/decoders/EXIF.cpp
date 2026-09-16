@@ -435,16 +435,6 @@ resolutionUnit
 ;
 if
 (
-StaticPrefs
-:
-:
-image_exif_density_correction_sanity_check_enabled
-(
-)
-)
-{
-if
-(
 !
 aData
 .
@@ -511,7 +501,6 @@ return
 {
 }
 ;
-}
 }
 return
 resolution
