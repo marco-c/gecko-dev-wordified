@@ -714,7 +714,7 @@ ins
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 bool
 canFoldReduceSimd128AndBranch
 (

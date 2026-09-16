@@ -385,7 +385,7 @@ useI386ByteRegisters
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 bool
 isThreeOpAllowed
 (

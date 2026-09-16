@@ -6653,7 +6653,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -7176,7 +7176,7 @@ break
 }
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 ValType
 :
@@ -18935,7 +18935,7 @@ length
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 size_t
 numCopies16
 =
@@ -19093,7 +19093,7 @@ offset
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 for
 (
 uint32_t
@@ -19919,7 +19919,7 @@ true
 endif
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 for
 (
 uint32_t
@@ -20145,7 +20145,7 @@ length
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 size_t
 numCopies16
 =
@@ -20271,7 +20271,7 @@ as
 needed
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 V128
 val16
 (
@@ -20718,7 +20718,7 @@ true
 endif
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 for
 (
 uint32_t
@@ -20907,7 +20907,7 @@ SIMD
 .
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 void
 BaseCompiler
 :
@@ -21795,7 +21795,7 @@ type
 endif
 /
 /
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 }
 /
 /

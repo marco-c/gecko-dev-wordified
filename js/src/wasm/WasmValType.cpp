@@ -2236,7 +2236,7 @@ F64
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 }
 else
 if

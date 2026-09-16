@@ -9078,7 +9078,7 @@ return
 if
 defined
 (
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 )
 &
 &
@@ -57402,7 +57402,7 @@ MIRType
 WasmAnyRef
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 |
 |
 ins
@@ -57575,7 +57575,7 @@ ReturnDoubleReg
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 }
 else
 if
@@ -67756,7 +67756,7 @@ break
 ;
 #
 ifdef
-ENABLE_WASM_SIMD
+ENABLE_JIT_SIMD
 case
 MIRType
 :
