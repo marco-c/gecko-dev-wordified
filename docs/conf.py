@@ -489,10 +489,6 @@ source_suffix
 [
 "
 .
-rst
-"
-"
-.
 md
 "
 ]
@@ -1239,7 +1235,7 @@ gfx
 /
 Silk
 .
-rst
+md
 "
 -
 >
@@ -1250,7 +1246,7 @@ docs
 /
 Silk
 .
-rst
+md
 "
 .
     
@@ -1305,7 +1301,7 @@ gfx
 /
 Silk
 .
-rst
+md
 "
 -
 >
@@ -1318,7 +1314,7 @@ gfx
 "
 Silk
 .
-rst
+md
 "
 -
 >
@@ -1329,7 +1325,7 @@ docs
 /
 Silk
 .
-rst
+md
 "
             
 rel
