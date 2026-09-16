@@ -38541,6 +38541,13 @@ checkCacheAfterMovingGC
 (
 )
 ;
+r
+-
+>
+checkModuleScriptSourcesAfterMovingGC
+(
+)
+;
 if
 (
 r
