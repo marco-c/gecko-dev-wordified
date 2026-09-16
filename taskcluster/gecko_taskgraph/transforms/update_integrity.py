@@ -1604,8 +1604,6 @@ fetches
 ]
 [
 "
-shippable
--
 l10n
 -
 signing

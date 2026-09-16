@@ -3915,8 +3915,6 @@ keys
 are
 unique
 like
-shippable
--
 l10n
 -
 signing
@@ -3966,8 +3964,6 @@ kind
 !
 =
 "
-shippable
--
 l10n
 -
 signing
@@ -4383,8 +4379,6 @@ keys
 are
 unique
 like
-shippable
--
 l10n
 -
 signing
@@ -4476,8 +4470,6 @@ kind
 !
 =
 "
-shippable
--
 l10n
 -
 signing

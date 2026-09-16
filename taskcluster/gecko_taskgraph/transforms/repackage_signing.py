@@ -799,7 +799,6 @@ docker
 -
 image
 "
-            
 and
 not
 k
@@ -807,8 +806,6 @@ k
 startswith
 (
 "
-shippable
--
 l10n
 -
 signing

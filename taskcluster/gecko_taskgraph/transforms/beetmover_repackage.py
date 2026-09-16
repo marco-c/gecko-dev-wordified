@@ -874,8 +874,6 @@ locale
 signing_name
 =
 "
-shippable
--
 l10n
 -
 signing
