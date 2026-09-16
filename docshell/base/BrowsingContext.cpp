@@ -23842,7 +23842,7 @@ BrowsingContext
 SetCustomUserAgent
 (
 const
-nsAString
+nsACString
 &
 aUserAgent
 ErrorResult
@@ -23869,7 +23869,7 @@ BrowsingContext
 SetCustomUserAgent
 (
 const
-nsAString
+nsACString
 &
 aUserAgent
 )
@@ -25635,7 +25635,7 @@ FieldIndex
 IDX_UserAgentOverride
 >
 const
-nsString
+nsCString
 &
 aUserAgent
 ContentParent

@@ -548,7 +548,7 @@ Clone
 void
 GetUserAgent
 (
-nsString
+nsCString
 &
 aUserAgent
 CallerType

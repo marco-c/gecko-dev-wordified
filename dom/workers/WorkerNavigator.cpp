@@ -1047,7 +1047,7 @@ final
 public
 WorkerMainThreadRunnable
 {
-nsString
+nsCString
 &
 mUA
 ;
@@ -1061,7 +1061,7 @@ GetUserAgentRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-nsString
+nsCString
 &
 aUA
 bool
@@ -1206,7 +1206,7 @@ WorkerNavigator
 :
 GetUserAgent
 (
-nsString
+nsCString
 &
 aUserAgent
 CallerType

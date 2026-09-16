@@ -2504,7 +2504,7 @@ aEndpointName
 }
 )
 ;
-nsString
+nsAutoCString
 userAgent
 ;
 mozilla
@@ -2537,10 +2537,7 @@ InsertOrUpdate
 aGlobalKey
 GlobalReportingData
 {
-NS_ConvertUTF16toUTF8
-(
 userAgent
-)
 std
 :
 :
@@ -2656,7 +2653,7 @@ CookieJarSettings
 )
 ;
 }
-nsAutoString
+nsAutoCString
 userAgent
 ;
 (
@@ -2710,10 +2707,7 @@ aGlobal
 )
 GlobalReportingData
 {
-NS_ConvertUTF16toUTF8
-(
 userAgent
-)
 std
 :
 :

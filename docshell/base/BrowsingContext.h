@@ -1582,7 +1582,7 @@ bool
 FIELD
 (
 UserAgentOverride
-nsString
+nsCString
 )
 \
 FIELD
@@ -6365,7 +6365,7 @@ aError
 void
 GetCustomUserAgent
 (
-nsAString
+nsACString
 &
 aUserAgent
 )
@@ -6386,7 +6386,7 @@ nsresult
 SetCustomUserAgent
 (
 const
-nsAString
+nsACString
 &
 aUserAgent
 )
@@ -6395,7 +6395,7 @@ void
 SetCustomUserAgent
 (
 const
-nsAString
+nsACString
 &
 aUserAgent
 ErrorResult
@@ -10085,7 +10085,7 @@ FieldIndex
 IDX_UserAgentOverride
 >
 const
-nsString
+nsCString
 &
 aUserAgent
 ContentParent

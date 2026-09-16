@@ -3486,7 +3486,7 @@ return
 NS_OK
 ;
 }
-nsAutoString
+nsAutoCString
 customUserAgent
 ;
 bc
@@ -3517,12 +3517,6 @@ return
 NS_OK
 ;
 }
-NS_ConvertUTF16toUTF8
-utf8CustomUserAgent
-(
-customUserAgent
-)
-;
 nsresult
 rv
 =
@@ -3534,7 +3528,7 @@ User
 Agent
 "
 _ns
-utf8CustomUserAgent
+customUserAgent
 false
 nsHttpHeaderArray
 :
