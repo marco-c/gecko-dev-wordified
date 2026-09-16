@@ -1222,7 +1222,6 @@ usize
 *
 4
 }
-pub
 fn
 get_gl_target
 (
@@ -14254,7 +14253,6 @@ initialize_color_targets_with_pink
 false
 }
 }
-pub
 fn
 gl
 (
@@ -27895,7 +27893,6 @@ message
 ;
 }
 }
-pub
 fn
 gl_describe_format
 (

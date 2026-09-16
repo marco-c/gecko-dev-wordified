@@ -1522,7 +1522,6 @@ device
 {
 UploadMethod
 VertexUsageHint
-get_gl_target
 get_unoptimized_shader_source
 }
 ;
@@ -1538,7 +1537,6 @@ device
 ProgramBinary
 ProgramCache
 ProgramCacheObserver
-FormatDesc
 ShaderError
 }
 ;

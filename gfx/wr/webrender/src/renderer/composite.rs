@@ -648,11 +648,6 @@ unwrap
 .
 bind
 (
-&
-mut
-self
-.
-device
 NativeTileId
 {
 surface_id
@@ -1299,11 +1294,6 @@ unwrap
 .
 unbind
 (
-&
-mut
-self
-.
-device
 )
 ;
 }
