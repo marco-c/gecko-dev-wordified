@@ -508,6 +508,12 @@ GetMaxDatagramSize
 override
 ;
 void
+GetStats
+(
+)
+override
+;
+void
 SendDatagram
 (
 nsTArray
