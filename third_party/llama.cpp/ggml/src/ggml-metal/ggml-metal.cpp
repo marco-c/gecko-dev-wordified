@@ -111,6 +111,17 @@ g_devices
 =
 1
 ;
+void
+ggml_backend_metal_disable
+(
+void
+)
+{
+g_devices
+=
+0
+;
+}
 /
 /
 forward
