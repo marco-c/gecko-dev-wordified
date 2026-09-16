@@ -133,8 +133,44 @@ def
 _walk
 (
 base
+extensions
 )
 :
+    
+"
+"
+"
+Every
+file
+under
+base
+carrying
+one
+of
+the
+listed
+extensions
+or
+all
+of
+    
+them
+when
+the
+list
+is
+empty
+as
+mozlint
+itself
+reads
+the
+key
+.
+    
+"
+"
+"
     
 if
 not
@@ -149,9 +185,36 @@ return
 [
 ]
     
+patterns
+=
+[
+f
+"
+*
+.
+{
+e
+}
+"
+for
+e
+in
+extensions
+]
+or
+[
+"
+*
+"
+]
+    
 return
 [
 p
+for
+pattern
+in
+patterns
 for
 p
 in
@@ -159,11 +222,7 @@ base
 .
 rglob
 (
-"
-*
-.
-md
-"
+pattern
 )
 if
 p
@@ -379,9 +438,26 @@ fix
 else
 None
     
+extensions
+=
+set
+(
+config
+.
+get
+(
+"
+extensions
+"
+[
+]
+)
+)
+    
 claude_rels
 =
 {
+        
 p
 .
 relative_to
@@ -398,12 +474,15 @@ in
 _walk
 (
 claude_root
+extensions
 )
+    
 }
     
 agent_rels
 =
 {
+        
 p
 .
 relative_to
@@ -420,7 +499,9 @@ in
 _walk
 (
 agent_root
+extensions
 )
+    
 }
     
 results
@@ -571,7 +652,7 @@ True
                 
 shutil
 .
-copyfile
+copy
 (
 existing_path
 missing_path
@@ -817,7 +898,7 @@ agent_changed
                 
 shutil
 .
-copyfile
+copy
 (
 claude_path
 agent_path
@@ -839,7 +920,7 @@ claude_changed
                 
 shutil
 .
-copyfile
+copy
 (
 agent_path
 claude_path
