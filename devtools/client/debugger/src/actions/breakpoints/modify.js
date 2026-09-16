@@ -100,8 +100,8 @@ index
 import
 {
 getBreakpoint
-getBreakpointPositionsForLocation
-getFirstBreakpointPosition
+getBreakpointPositionsForLocationLineAndColumn
+getFirstBreakpointPositionForLocationLine
 getSettledSourceTextContent
 getBreakpointsList
 getPendingBreakpointList
@@ -870,7 +870,7 @@ initialLocation
 .
 column
 ?
-getBreakpointPositionsForLocation
+getBreakpointPositionsForLocationLineAndColumn
 (
 getState
 (
@@ -878,7 +878,7 @@ getState
 initialLocation
 )
 :
-getFirstBreakpointPosition
+getFirstBreakpointPositionForLocationLine
 (
 getState
 (
@@ -930,16 +930,7 @@ non
 -
 breakable
 location
-"
-{
-JSON
-.
-stringify
-(
 initialLocation
-)
-}
-"
 )
 ;
 return

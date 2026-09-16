@@ -719,7 +719,7 @@ greater
 (
 state
 .
-sources
+sourceActors
 .
 mutableBreakpointPositions
 .
@@ -1174,7 +1174,7 @@ is
 (
 state
 .
-sources
+sourceActors
 .
 mutableBreakpointPositions
 .
