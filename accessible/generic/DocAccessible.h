@@ -1140,6 +1140,17 @@ on
 the
 given
 accessible
+or
+the
+nearest
+ancestor
+*
+whose
+value
+might
+depend
+on
+it
 if
 applicable
 .
