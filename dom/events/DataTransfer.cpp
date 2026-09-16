@@ -4289,6 +4289,7 @@ aType
 )
 &
 &
+(
 !
 StringBeginsWith
 (
@@ -4304,6 +4305,15 @@ moz
 url
 "
 _ns
+)
+|
+|
+aType
+.
+EqualsLiteral
+(
+kURLPrivateMime
+)
 )
 )
 {
