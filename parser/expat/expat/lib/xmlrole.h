@@ -323,6 +323,13 @@ IN
 THE
 SOFTWARE
 .
+SPDX
+-
+License
+-
+Identifier
+:
+MIT
 *
 /
 #
