@@ -99,15 +99,6 @@ include
 "
 api
 /
-field_trials_view
-.
-h
-"
-#
-include
-"
-api
-/
 video_codecs
 /
 encoder_speed_controller
@@ -153,10 +144,6 @@ int
 height
 int
 num_temporal_layers
-const
-FieldTrialsView
-&
-field_trials
 )
 ;
 private
