@@ -375,7 +375,9 @@ std
 :
 max
 (
-target_rate_
+target_rate
+(
+)
 *
 params_
 .
@@ -397,7 +399,9 @@ received_rate_
 ;
 }
 return
-target_rate_
+target_rate
+(
+)
 *
 params_
 .
@@ -1133,7 +1137,7 @@ Zero
 )
 ;
 Timestamp
-last_received_rate_update_time_
+last_window_receive_time_
 =
 Timestamp
 :
