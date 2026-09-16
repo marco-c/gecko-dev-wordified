@@ -11446,7 +11446,7 @@ keypress
 *
 param
 {
-any
+*
 }
 aEvent
 .
@@ -21325,7 +21325,7 @@ synthesizeDragOver
 *
 param
 {
-any
+*
 }
 aResult
 *

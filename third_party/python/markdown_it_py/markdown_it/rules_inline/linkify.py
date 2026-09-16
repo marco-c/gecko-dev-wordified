@@ -251,7 +251,7 @@ match
 =
 SCHEME_RE
 .
-search
+match
 (
 state
 .

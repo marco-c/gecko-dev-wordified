@@ -8945,7 +8945,7 @@ return
 *
 param
 {
-any
+*
 }
 _default
 *
@@ -14614,7 +14614,7 @@ convert
 *
 param
 {
-any
+*
 }
 args
 *

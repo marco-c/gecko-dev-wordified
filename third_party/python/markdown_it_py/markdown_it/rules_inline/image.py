@@ -475,7 +475,6 @@ pos
 state
 .
 posMax
-None
 )
         
 if

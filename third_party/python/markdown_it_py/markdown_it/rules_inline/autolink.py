@@ -141,6 +141,10 @@ Z0
 *
 )
 "
+#
+noqa
+:
+E501
 )
 AUTOLINK_RE
 =
