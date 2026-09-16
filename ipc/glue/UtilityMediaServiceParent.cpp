@@ -674,7 +674,7 @@ LoadLibraryOrCrash
 (
 L
 "
-ole32
+user32
 .
 dll
 "
