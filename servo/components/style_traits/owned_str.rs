@@ -246,7 +246,6 @@ str
 from_utf8_unchecked
 (
 &
-*
 self
 .
 0
@@ -294,7 +293,6 @@ from_utf8_unchecked_mut
 (
 &
 mut
-*
 self
 .
 0
