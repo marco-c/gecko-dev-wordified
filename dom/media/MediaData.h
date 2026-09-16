@@ -1109,6 +1109,17 @@ return
 mData
 ;
 }
+Type
+*
+Elements
+(
+)
+const
+{
+return
+mData
+;
+}
 size_t
 Length
 (
