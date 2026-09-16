@@ -9013,11 +9013,6 @@ c
 import
 sys
 ;
-from
-collections
-import
-OrderedDict
-;
 "
                 
 #
@@ -9057,10 +9052,12 @@ case
 Use
 list
 (
-OrderectDict
+dict
+(
 .
 .
 .
+)
 )
 to
 de
@@ -9083,7 +9080,7 @@ print
 (
 list
 (
-OrderedDict
+dict
 .
 fromkeys
 (
