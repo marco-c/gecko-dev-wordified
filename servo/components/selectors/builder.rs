@@ -3069,7 +3069,6 @@ iter
 {
 component_specificity
 (
-&
 simple_selector
 &
 mut

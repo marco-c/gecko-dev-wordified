@@ -7399,7 +7399,11 @@ Self
 (
 opaque_host
 .
-as_const_ptr
+to_ptr
+(
+)
+.
+cast
 :
 :
 <
@@ -7409,10 +7413,6 @@ RawGeckoElement
 )
 .
 as_ref
-(
-)
-.
-unwrap
 (
 )
 )
