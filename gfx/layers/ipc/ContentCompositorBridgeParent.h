@@ -359,6 +359,10 @@ const
 LayersId
 &
 child
+const
+LayersId
+&
+embedderId
 CompositorOptions
 *
 aOptions
@@ -378,6 +382,10 @@ const
 LayersId
 &
 child
+const
+LayersId
+&
+embedderId
 const
 base
 :
@@ -404,6 +412,10 @@ const
 LayersId
 &
 child
+const
+LayersId
+&
+embedderId
 CompositorOptions
 *
 aOptions
@@ -430,6 +442,10 @@ const
 LayersId
 &
 child
+const
+LayersId
+&
+embedderId
 )
 override
 {
