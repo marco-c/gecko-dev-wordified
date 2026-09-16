@@ -783,10 +783,6 @@ aContent
 aDoc
 )
 {
-mType
-=
-eHTMLSpinnerType
-;
 mGenericTypes
 |
 =
@@ -904,10 +900,6 @@ aContent
 aDoc
 )
 {
-mType
-=
-eHTMLRangeType
-;
 mGenericTypes
 |
 =
