@@ -3937,9 +3937,6 @@ true
 should_snap
 :
 false
-snap_origin
-:
-false
 paired_with_perspective
 :
 false
@@ -14183,9 +14180,6 @@ is_2d_scale_translation
 :
 is_2d
 should_snap
-snap_origin
-:
-false
 paired_with_perspective
 :
 yaml
@@ -15067,9 +15061,6 @@ is_2d_scale_translation
 :
 true
 should_snap
-:
-false
-snap_origin
 :
 false
 paired_with_perspective

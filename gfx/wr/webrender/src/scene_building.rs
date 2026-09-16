@@ -7927,9 +7927,6 @@ true
 should_snap
 :
 true
-snap_origin
-:
-false
 paired_with_perspective
 :
 false
@@ -14663,9 +14660,6 @@ true
 should_snap
 :
 true
-snap_origin
-:
-false
 paired_with_perspective
 :
 false
