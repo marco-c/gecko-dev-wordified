@@ -1797,11 +1797,7 @@ mut
 reader
 br
 storage
-&
-mut
 scratch_space
-.
-decode_row_scratch
 )
 {
 if

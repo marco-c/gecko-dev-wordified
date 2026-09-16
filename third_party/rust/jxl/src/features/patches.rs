@@ -4414,7 +4414,7 @@ preserved
 .
 patches_for_row_result
 .
-sort
+sort_unstable
 (
 )
 ;

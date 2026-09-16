@@ -5793,7 +5793,7 @@ here
 .
 segments_by_y
 .
-sort_by_key
+sort_unstable_by_key
 (
 |
 segment

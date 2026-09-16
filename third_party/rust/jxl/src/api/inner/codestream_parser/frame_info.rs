@@ -344,7 +344,10 @@ frame
 :
 Option
 <
+Box
+<
 Frame
+>
 >
 /
 /
@@ -2046,7 +2049,7 @@ self
 .
 frame
 .
-as_mut
+as_deref_mut
 (
 )
 }
@@ -3911,7 +3914,7 @@ faster
 .
 group_readers
 .
-sort_by_key
+sort_unstable_by_key
 (
 |
 x
