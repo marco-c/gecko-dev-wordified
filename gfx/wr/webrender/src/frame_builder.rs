@@ -4746,13 +4746,13 @@ end_frame
 ;
 {
 let
-vis_stats
+raster_clip_stats
 =
 scene
 .
 clip_store
 .
-vis_stats
+raster_clip_stats
 (
 )
 ;
@@ -4764,7 +4764,7 @@ profiler
 :
 :
 VIS_CLIP_PROJECTIONS
-vis_stats
+raster_clip_stats
 .
 projections
 )
@@ -4777,7 +4777,7 @@ profiler
 :
 :
 VIS_CLIP_PROJECTION_FAILS
-vis_stats
+raster_clip_stats
 .
 projection_fails
 )
@@ -4790,7 +4790,7 @@ profiler
 :
 :
 VIS_CLIP_REJECTS
-vis_stats
+raster_clip_stats
 .
 rejects
 )
@@ -4803,7 +4803,7 @@ profiler
 :
 :
 VIS_CLIP_INDETERMINATE
-vis_stats
+raster_clip_stats
 .
 indeterminate
 )

@@ -823,12 +823,6 @@ world
 device
 spaces
 .
-Predates
-the
-VisPixel
-visibility
-space
-.
 -
 gfx
 /
