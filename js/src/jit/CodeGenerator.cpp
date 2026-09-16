@@ -175398,9 +175398,9 @@ void
 CodeGenerator
 :
 :
-visitWasmUint32ToDouble
+visitUint32ToDouble
 (
-LWasmUint32ToDouble
+LUint32ToDouble
 *
 lir
 )
@@ -175434,9 +175434,9 @@ void
 CodeGenerator
 :
 :
-visitWasmUint32ToFloat32
+visitUint32ToFloat32
 (
-LWasmUint32ToFloat32
+LUint32ToFloat32
 *
 lir
 )

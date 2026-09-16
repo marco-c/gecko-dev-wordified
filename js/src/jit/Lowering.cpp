@@ -72006,9 +72006,9 @@ void
 LIRGenerator
 :
 :
-visitWasmUnsignedToDouble
+visitUnsignedToDouble
 (
-MWasmUnsignedToDouble
+MUnsignedToDouble
 *
 ins
 )
@@ -72044,7 +72044,7 @@ alloc
 (
 )
 )
-LWasmUint32ToDouble
+LUint32ToDouble
 (
 useRegisterAtStart
 (
@@ -72068,9 +72068,9 @@ void
 LIRGenerator
 :
 :
-visitWasmUnsignedToFloat32
+visitUnsignedToFloat32
 (
-MWasmUnsignedToFloat32
+MUnsignedToFloat32
 *
 ins
 )
@@ -72106,7 +72106,7 @@ alloc
 (
 )
 )
-LWasmUint32ToFloat32
+LUint32ToFloat32
 (
 useRegisterAtStart
 (
