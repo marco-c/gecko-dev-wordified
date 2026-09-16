@@ -2721,15 +2721,14 @@ excluded
     
 extensions
 =
-[
+{
+f
+"
+.
+{
 e
-.
-lstrip
-(
+}
 "
-.
-"
-)
 for
 e
 in
@@ -2743,7 +2742,7 @@ extensions
 [
 ]
 )
-]
+}
     
 exclude_extensions
 =
@@ -3235,12 +3234,6 @@ extensions
 :
             
 for
-ext
-in
-extensions
-:
-                
-for
 p
 f
 in
@@ -3248,18 +3241,27 @@ finder
 .
 find
 (
-f
 "
 *
 *
-/
-*
-.
-{
-ext
-}
 "
 )
+:
+                
+if
+os
+.
+path
+.
+splitext
+(
+p
+)
+[
+1
+]
+in
+extensions
 :
                     
 yield
