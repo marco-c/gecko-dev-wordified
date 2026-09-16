@@ -58,10 +58,6 @@ os
 import
 re
 from
-collections
-import
-OrderedDict
-from
 talos
 import
 allowlist
@@ -164,104 +160,91 @@ LEAKED_SYMLINK_PREFIX
 "
 PATH_SUBSTITUTIONS
 =
-OrderedDict
-(
-[
+{
     
-(
 "
 profile
 "
+:
 "
 {
 profile
 }
 "
-)
     
-(
 "
 firefox
 "
+:
 "
 {
 xre
 }
 "
-)
     
-(
 "
 desktop
 "
+:
 "
 {
 desktop
 }
 "
-)
     
-(
 "
 fonts
 "
+:
 "
 {
 fonts
 }
 "
-)
     
-(
 "
 appdata
 "
+:
 "
 {
 appdata
 }
 "
-)
-]
-)
+}
 NAME_SUBSTITUTIONS
 =
-OrderedDict
-(
-[
+{
     
-(
 "
 installtime
 "
+:
 "
 {
 time
 }
 "
-)
     
-(
 "
 prefetch
 "
+:
 "
 {
 prefetch
 }
 "
-)
     
-(
 "
 thumbnails
 "
+:
 "
 {
 thumbnails
 }
 "
-)
     
 #
 {
@@ -278,50 +261,46 @@ temp
 *
 }
     
-(
 "
 temp
 -
 {
 "
+:
 "
 {
 temp
 }
 "
-)
     
-(
 "
 cltbld
 .
 "
+:
 "
 {
 cltbld
 }
 "
-)
     
-(
 "
 windows
 media
 player
 "
+:
 "
 {
 media_player
 }
 "
-)
     
 #
 regex
 order
 matters
     
-(
 re
 .
 compile
@@ -361,14 +340,13 @@ w
 }
 "
 )
+:
 "
 {
 uuid
 }
 "
-)
     
-(
 re
 .
 compile
@@ -394,6 +372,7 @@ w
 db
 "
 )
+:
 "
 {
 uuid
@@ -401,9 +380,7 @@ uuid
 db
 }
 "
-)
-]
-)
+}
 TUPLE_EVENT_SOURCE_INDEX
 =
 1

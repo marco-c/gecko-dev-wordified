@@ -56,8 +56,6 @@ MPL
 import
 argparse
 import
-collections
-import
 csv
 import
 os
@@ -352,11 +350,8 @@ data
             
 time_dict
 =
-collections
-.
-OrderedDict
-(
-)
+{
+}
             
 days
 =
