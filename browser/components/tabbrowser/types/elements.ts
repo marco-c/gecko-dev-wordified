@@ -644,6 +644,11 @@ for
 the
 group
 .
+pinned
+?
+:
+undefined
+;
 splitview
 ?
 :
