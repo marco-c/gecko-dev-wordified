@@ -56,7 +56,6 @@ MPL
 from
 collections
 import
-OrderedDict
 defaultdict
 from
 .
@@ -155,9 +154,8 @@ self
 .
 summary
 =
-OrderedDict
-(
-)
+{
+}
         
 self
 .
@@ -834,17 +832,15 @@ int
 unexpected_logs
 "
 :
-OrderedDict
-(
-)
+{
+}
                 
 "
 intermittent_logs
 "
 :
-OrderedDict
-(
-)
+{
+}
                 
 "
 harness_errors
