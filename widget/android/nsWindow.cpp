@@ -2665,6 +2665,11 @@ controller
 controller
 -
 >
+InputBridge
+(
+)
+-
+>
 SetLongTapEnabled
 (
 aIsLongpressEnabled
