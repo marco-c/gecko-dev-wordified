@@ -3303,7 +3303,7 @@ NormalBorderTemplate
 >
 (
 )
-184
+200
 "
 NormalBorderTemplate
 size
@@ -3325,7 +3325,7 @@ NormalBorderKey
 >
 (
 )
-136
+152
 "
 NormalBorderKey
 size
@@ -3369,7 +3369,7 @@ ImageBorderTemplate
 >
 (
 )
-88
+104
 "
 ImageBorderTemplate
 size
@@ -3391,7 +3391,7 @@ ImageBorderKey
 >
 (
 )
-88
+104
 "
 ImageBorderKey
 size
