@@ -1505,6 +1505,11 @@ retransmission_queue_
 >
 AddHandoverState
 (
+callbacks_
+.
+Now
+(
+)
 state
 )
 ;
@@ -1630,6 +1635,11 @@ retransmission_queue_
 >
 RestoreFromState
 (
+callbacks_
+.
+Now
+(
+)
 state
 )
 ;
