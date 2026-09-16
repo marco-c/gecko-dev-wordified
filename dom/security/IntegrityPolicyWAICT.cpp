@@ -2712,12 +2712,6 @@ mDocumentURI
 documentURL
 )
 ;
-NS_ConvertUTF8toUTF16
-documentURLUTF16
-(
-documentURL
-)
-;
 nsAutoCString
 blockedURL
 ;
@@ -2834,11 +2828,8 @@ nsGkAtoms
 :
 :
 integrity_violation
-NS_ConvertUTF8toUTF16
-(
 endpoint
-)
-documentURLUTF16
+documentURL
 body
 )
 ;

@@ -1681,15 +1681,11 @@ nsGkAtoms
 :
 :
 permissionsPolicyViolation
-u
 "
 default
 "
 _ns
-NS_ConvertUTF8toUTF16
-(
 url
-)
 body
 )
 ;
