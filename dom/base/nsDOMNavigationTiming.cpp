@@ -3628,6 +3628,13 @@ aOther
 >
 mDocShellHasBeenActiveSinceNavigationStart
 )
+mWasActivatedFromNavigationalPrefetch
+(
+aOther
+-
+>
+mWasActivatedFromNavigationalPrefetch
+)
 {
 }
 /
