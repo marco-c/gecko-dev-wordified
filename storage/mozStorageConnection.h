@@ -2932,16 +2932,6 @@ synchronousClose
 (
 )
 ;
-void
-RecordSlowStatement
-(
-sqlite3_stmt
-*
-aStatement
-TimeDuration
-aDuration
-)
-;
 /
 *
 *
