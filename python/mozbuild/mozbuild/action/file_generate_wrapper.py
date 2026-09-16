@@ -227,9 +227,11 @@ topsrcdir
 print
 (
             
+f
 "
-%
-s
+{
+relative
+}
 :
 action
 caught
@@ -237,15 +239,7 @@ exception
 .
 params
 =
-%
-s
-\
-n
-"
-            
-%
-(
-relative
+{
 json
 .
 dumps
@@ -260,7 +254,10 @@ indent
 =
 2
 )
-)
+}
+\
+n
+"
         
 )
         

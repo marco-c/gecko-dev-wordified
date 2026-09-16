@@ -2900,16 +2900,16 @@ buildid
         
 print
 (
+f
 "
 Ignoring
 invalid
 MOZ_BUILD_DATE
 :
-%
-s
-"
-%
+{
 buildid
+}
+"
 file
 =
 sys
