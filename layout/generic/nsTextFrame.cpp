@@ -33346,9 +33346,9 @@ has
 a
 frame
 now
-these
-flags
-are
+this
+flag
+is
 no
 longer
 needed
@@ -33359,8 +33359,6 @@ aContent
 UnsetFlags
 (
 NS_CREATE_FRAME_IF_NON_WHITESPACE
-|
-NS_REFRAME_IF_WHITESPACE
 )
 ;
 /
