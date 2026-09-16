@@ -912,7 +912,7 @@ dest
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseCompiler
 :
@@ -1707,7 +1707,7 @@ stack
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseCompiler
 :
@@ -2740,7 +2740,7 @@ break
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :
@@ -3255,7 +3255,7 @@ break
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 AnyReg
 :
@@ -3486,7 +3486,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseCompiler
 :
@@ -3699,7 +3699,7 @@ v
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseCompiler
 :
@@ -3893,7 +3893,7 @@ slot
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseCompiler
 :
@@ -4126,7 +4126,7 @@ f64
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :
@@ -4372,7 +4372,7 @@ popF64
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :
@@ -4803,7 +4803,7 @@ specific
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 /
 /
 Call
@@ -6647,7 +6647,7 @@ ConstF64
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :
@@ -7344,7 +7344,7 @@ popF64
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 void
 BaseCompiler
 :
@@ -7978,7 +7978,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :
@@ -8127,7 +8127,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 Stk
 :

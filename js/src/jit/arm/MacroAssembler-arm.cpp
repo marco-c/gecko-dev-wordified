@@ -29749,7 +29749,7 @@ doubles
 .
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 error
 "
@@ -30032,7 +30032,7 @@ above
 .
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 error
 "
@@ -30205,7 +30205,7 @@ above
 .
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 error
 "

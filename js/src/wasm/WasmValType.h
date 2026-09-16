@@ -3737,7 +3737,7 @@ F64
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 TypeCode
 :
@@ -3945,7 +3945,7 @@ tc
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 TypeCode
 :
@@ -4158,7 +4158,7 @@ F64
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 TypeCode
 :
@@ -4343,7 +4343,7 @@ tc
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 TypeCode
 :
@@ -5466,7 +5466,7 @@ const
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 if
 (
 kind

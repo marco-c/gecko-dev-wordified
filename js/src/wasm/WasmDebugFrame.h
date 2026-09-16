@@ -341,7 +341,7 @@ f64_
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 V128
 v128_
 ;
@@ -663,7 +663,7 @@ endif
 if
 defined
 (
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 )
 &
 &

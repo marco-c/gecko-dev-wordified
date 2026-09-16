@@ -718,7 +718,7 @@ cx
 if
 defined
 (
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 )
 &
 &

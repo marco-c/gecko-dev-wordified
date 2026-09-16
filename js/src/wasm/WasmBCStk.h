@@ -284,7 +284,7 @@ offs
 )
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MemV128
 /
 /
@@ -383,7 +383,7 @@ slot
 )
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 LocalV128
 /
 /
@@ -466,7 +466,7 @@ f64reg
 )
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 RegisterV128
 /
 /
@@ -550,7 +550,7 @@ f64val
 )
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 ConstV128
 /
 /
@@ -633,7 +633,7 @@ f64reg_
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 RegV128
 v128reg_
 ;
@@ -656,7 +656,7 @@ f64val_
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 V128
 v128val_
 ;
@@ -757,7 +757,7 @@ r
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 explicit
 Stk
 (
@@ -867,7 +867,7 @@ v
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 explicit
 Stk
 (
@@ -1006,7 +1006,7 @@ V128
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 k
 =
 Stk
@@ -1249,7 +1249,7 @@ f64reg_
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 RegV128
 v128reg
 (
@@ -1414,7 +1414,7 @@ f64val_
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 /
 /
 For
@@ -1642,7 +1642,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 MemV128
 :
@@ -1737,7 +1737,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 LocalV128
 :
@@ -1832,7 +1832,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 RegisterV128
 :
@@ -1933,7 +1933,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 ConstV128
 :

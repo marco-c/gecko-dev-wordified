@@ -163,7 +163,7 @@ wasm
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 #
 define
 WASM_SIMD_OP

@@ -481,7 +481,7 @@ f64_
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 int8_t
 s128_
 [
@@ -530,7 +530,7 @@ bits_
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 u
 .
 bits_
@@ -638,7 +638,7 @@ ret
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 static
 MWasmFloatConstant
 *
@@ -781,7 +781,7 @@ f32_
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 const
 SimdConstant
 toSimd128
@@ -893,7 +893,7 @@ break
 ;
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 case
 MIRType
 :
@@ -12910,7 +12910,7 @@ simdOp
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MDefinition
 *
 foldsTo
@@ -13180,7 +13180,7 @@ simdOp_
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MDefinition
 *
 foldsTo
@@ -13740,7 +13740,7 @@ simdOp_
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MDefinition
 *
 foldsTo
@@ -13921,7 +13921,7 @@ imm_
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MDefinition
 *
 foldsTo
@@ -21075,7 +21075,7 @@ undef
 INSTRUCTION_HEADER
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MWasmShuffleSimd128
 *
 BuildWasmShuffleSimd128
@@ -21099,7 +21099,7 @@ rhs
 endif
 /
 /
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 }
 /
 /

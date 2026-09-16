@@ -285,7 +285,7 @@ V128
 :
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 return
 MWasmFloatConstant
 :
@@ -369,7 +369,7 @@ const
 {
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 return
 ConstantValueHash
 (
@@ -447,7 +447,7 @@ type
 &
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 u
 .
 bits_
@@ -2750,7 +2750,7 @@ other
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MDefinition
 *
 MWasmTernarySimd128
@@ -5845,7 +5845,7 @@ this
 endif
 /
 /
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MWasmCallCatchable
 *
 MWasmCallCatchable
@@ -6892,7 +6892,7 @@ ins
 }
 #
 ifdef
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 MWasmShuffleSimd128
 *
 jit
@@ -7034,7 +7034,7 @@ s
 endif
 /
 /
-ENABLE_JIT_SIMD
+ENABLE_WASM_SIMD
 static
 MDefinition
 *
