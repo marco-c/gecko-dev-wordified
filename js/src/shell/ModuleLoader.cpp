@@ -1904,6 +1904,11 @@ emptyWasmModule
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
