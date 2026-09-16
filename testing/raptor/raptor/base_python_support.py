@@ -56,6 +56,8 @@ MPL
 import
 os
 import
+platform
+import
 filters
 from
 cmdline
@@ -210,6 +212,16 @@ bt_result
 =
 [
 ]
+        
+self
+.
+platform
+=
+platform
+.
+system
+(
+)
         
 self
 .
