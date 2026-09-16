@@ -817,7 +817,9 @@ bookmarks
 )
 ;
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -852,7 +854,9 @@ bookmarks
 )
 ;
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )

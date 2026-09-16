@@ -1774,7 +1774,9 @@ a
 tick
 .
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )
@@ -1866,7 +1868,9 @@ a
 tick
 .
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )

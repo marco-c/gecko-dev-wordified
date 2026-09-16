@@ -107,7 +107,9 @@ panel
 null
 ;
 await
-waitForConditionPromise
+TestUtils
+.
+waitForCondition
 (
 (
 )
