@@ -7344,7 +7344,7 @@ XML_MINOR_VERSION
 #
 define
 XML_MICRO_VERSION
-3
+4
 #
 ifdef
 __cplusplus
