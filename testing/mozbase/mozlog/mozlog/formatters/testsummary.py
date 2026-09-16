@@ -115,6 +115,33 @@ unexpected
 -
 crash
 actions
+      
+-
+log
+actions
+of
+level
+ERROR
+or
+CRITICAL
+(
+failures
+not
+tied
+to
+a
+        
+test
+e
+.
+g
+.
+LeakSanitizer
+reports
+or
+harness
+errors
+)
     
 All
 other
@@ -201,6 +228,10 @@ test_status
         
 "
 crash
+"
+        
+"
+log
 "
     
 }
@@ -325,6 +356,36 @@ status
 "
 )
         
+)
+:
+            
+return
+        
+if
+action
+=
+=
+"
+log
+"
+and
+data
+.
+get
+(
+"
+level
+"
+)
+not
+in
+(
+"
+ERROR
+"
+"
+CRITICAL
+"
 )
 :
             
