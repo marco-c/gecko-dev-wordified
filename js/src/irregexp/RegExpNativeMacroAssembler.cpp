@@ -4153,7 +4153,7 @@ jit
 Assembler
 :
 :
-HasSSE3
+HasSSSE3
 (
 )
 )
