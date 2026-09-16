@@ -1906,6 +1906,7 @@ APZCTreeManager
 Create
 (
 mRootLayerTreeID
+mScale
 )
 ;
 mApzSampler

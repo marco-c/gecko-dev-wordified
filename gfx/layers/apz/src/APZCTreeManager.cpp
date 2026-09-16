@@ -2212,6 +2212,8 @@ APZCTreeManager
 (
 LayersId
 aRootLayersId
+CSSToLayoutDeviceScale
+aWidgetScale
 UniquePtr
 <
 IAPZHitTester
@@ -2300,6 +2302,10 @@ mDPI
 160
 .
 0
+)
+mWidgetScale
+(
+aWidgetScale
 )
 mHitTester
 (
@@ -2451,6 +2457,8 @@ Create
 (
 LayersId
 aRootLayersId
+CSSToLayoutDeviceScale
+aWidgetScale
 UniquePtr
 <
 IAPZHitTester
@@ -2468,6 +2476,7 @@ new
 APZCTreeManager
 (
 aRootLayersId
+aWidgetScale
 std
 :
 :
@@ -29475,6 +29484,19 @@ AssertOnControllerThread
 ;
 return
 mDPI
+;
+}
+CSSToLayoutDeviceScale
+APZCTreeManager
+:
+:
+GetWidgetScale
+(
+)
+const
+{
+return
+mWidgetScale
 ;
 }
 void
