@@ -621,6 +621,16 @@ dom
 :
 RTCIceTransportState
 aState
+const
+Maybe
+<
+dom
+:
+:
+IceCandidateAttributePair
+>
+&
+aSelectedPair
 )
 {
 NS_ENSURE_TRUE_VOID
@@ -632,6 +642,7 @@ SendOnConnectionStateChange
 (
 aTransportId
 aState
+aSelectedPair
 )
 )
 ;
@@ -1726,7 +1737,7 @@ ufrag
 const
 string
 &
-obfuscatedAddr
+resolvedAddress
 )
 {
 mImpl
@@ -1740,7 +1751,7 @@ AddIceCandidate
 transportId
 candidate
 ufrag
-obfuscatedAddr
+resolvedAddress
 )
 ;
 return

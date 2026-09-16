@@ -2242,7 +2242,7 @@ std
 :
 string
 &
-aObfuscatedAddress
+aResolvedAddress
 )
 {
 mInitPromise
@@ -2287,7 +2287,7 @@ SendAddIceCandidate
 aTransportId
 aCandidate
 aUfrag
-aObfuscatedAddress
+aResolvedAddress
 )
 ;
 }

@@ -11577,6 +11577,18 @@ stat
 }
 )
 ;
+if
+(
+stat
+.
+candidateType
+!
+=
+"
+prflx
+"
+)
+{
 /
 /
 address
@@ -11600,7 +11612,6 @@ stat
 .
 address
 }
-+
 (
 {
 stat
@@ -11610,6 +11621,7 @@ kind
 )
 )
 ;
+}
 /
 /
 protocol

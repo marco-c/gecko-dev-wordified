@@ -555,6 +555,7 @@ char
 .
 1
 "
+nullptr
 EnsureEphemeral
 (
 port_s
@@ -3002,6 +3003,7 @@ stun_addr
 c_str
 (
 )
+nullptr
 stun_port
 IPPROTO_TCP
 &

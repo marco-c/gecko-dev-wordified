@@ -365,6 +365,7 @@ address
 nr_str_port_to_transport_addr
 (
 ip_str
+nullptr
 0
 proto
 &
@@ -2287,6 +2288,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 /
 /
 ssh
@@ -2332,6 +2334,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 /
 /
 ssh
@@ -2377,6 +2380,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 /
 /
 stuns
@@ -2422,6 +2426,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 /
 /
 turns
@@ -2494,6 +2499,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 53
 IPPROTO_UDP
 &
@@ -2536,6 +2542,7 @@ nr_str_port_to_transport_addr
 .
 1
 "
+nullptr
 53
 IPPROTO_TCP
 &
