@@ -1248,6 +1248,9 @@ GetFrame
 ;
 return
 menuPopupFrame
+&
+&
+menuPopupFrame
 -
 >
 IsOpen
