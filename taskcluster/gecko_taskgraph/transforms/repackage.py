@@ -286,6 +286,15 @@ str
 ]
 =
 None
+    
+sparse_profile
+:
+Optional
+[
+str
+]
+=
+None
 class
 MsiSchema
 (

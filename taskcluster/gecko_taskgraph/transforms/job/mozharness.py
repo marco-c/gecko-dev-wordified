@@ -651,6 +651,15 @@ git
 git
 "
     
+sparse_profile
+:
+Optional
+[
+str
+]
+=
+None
+    
 #
 If
 false
