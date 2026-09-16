@@ -39947,9 +39947,6 @@ fake_call_
 GetVideoReceiveStreams
 (
 )
-testing
-:
-:
 SizeIs
 (
 1
@@ -39986,9 +39983,6 @@ config
 rtp
 .
 raw_payload_types
-testing
-:
-:
 SizeIs
 (
 1
@@ -40092,9 +40086,6 @@ fake_call_
 GetVideoReceiveStreams
 (
 )
-testing
-:
-:
 SizeIs
 (
 1
