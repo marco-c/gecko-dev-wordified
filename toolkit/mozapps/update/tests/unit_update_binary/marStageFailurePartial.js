@@ -140,6 +140,10 @@ checkPostUpdateRunningFile
 false
 )
 ;
+checkNoUpdateTelemetry
+(
+)
+;
 checkFilesAfterUpdateFailure
 (
 getApplyDirFile
