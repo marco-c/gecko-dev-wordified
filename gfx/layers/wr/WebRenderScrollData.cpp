@@ -1686,7 +1686,7 @@ bool
 WebRenderScrollData
 :
 :
-Validate
+ValidateShape
 (
 )
 const
