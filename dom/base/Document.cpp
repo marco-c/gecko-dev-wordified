@@ -26596,7 +26596,7 @@ to
 parse
 the
 http
-Feature
+Permissions
 -
 Policy
 header
@@ -26604,6 +26604,8 @@ if
 this
 pref
 is
+/
+/
 off
 .
 if
@@ -26683,7 +26685,7 @@ httpChannel
 GetResponseHeader
 (
 "
-Feature
+Permissions
 -
 Policy
 "
@@ -26704,7 +26706,7 @@ FeaturePolicy
 )
 -
 >
-SetDeclaredPolicy
+SetDeclaredHeaderPolicy
 (
 this
 NS_ConvertUTF8toUTF16
@@ -26714,7 +26716,6 @@ value
 NodePrincipal
 (
 )
-nullptr
 )
 ;
 }
