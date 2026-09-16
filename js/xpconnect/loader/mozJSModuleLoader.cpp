@@ -3647,6 +3647,16 @@ Length
 )
 )
 ;
+if
+(
+!
+str
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
+;
+}
 JS
 :
 :
