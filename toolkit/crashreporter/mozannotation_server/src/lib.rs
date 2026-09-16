@@ -213,6 +213,8 @@ ManuallyDrop
 derive
 (
 Clone
+Debug
+PartialEq
 )
 ]
 pub
@@ -237,6 +239,8 @@ CString
 derive
 (
 Clone
+Debug
+PartialEq
 )
 ]
 pub
