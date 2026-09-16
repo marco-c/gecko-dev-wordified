@@ -13,10 +13,6 @@ os
 import
 re
 from
-collections
-import
-OrderedDict
-from
 copy
 import
 deepcopy
@@ -989,9 +985,8 @@ tasks_data
     
 map_resolved_tasks
 =
-OrderedDict
-(
-)
+{
+}
     
 tasks
 =
@@ -1208,24 +1203,20 @@ tasks
 ]
     
 return
-OrderedDict
-(
-[
-(
+{
 t
 [
 "
 name
 "
 ]
+:
 t
-)
 for
 t
 in
 tasks
-]
-)
+}
 def
 load_tasks_from_path
 (

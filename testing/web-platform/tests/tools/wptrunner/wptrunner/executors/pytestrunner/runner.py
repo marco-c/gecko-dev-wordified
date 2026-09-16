@@ -91,10 +91,6 @@ import
 shutil
 import
 tempfile
-from
-collections
-import
-OrderedDict
 pytest
 =
 None
@@ -679,9 +675,8 @@ self
 .
 results
 =
-OrderedDict
-(
-)
+{
+}
     
 def
 pytest_runtest_logreport
