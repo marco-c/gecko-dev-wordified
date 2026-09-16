@@ -1717,6 +1717,7 @@ reason
 {
 crash_impl
 (
+size
 reason
 )
 ;

@@ -217,6 +217,12 @@ oomUnsafe
 .
 crash
 (
+size
+*
+sizeof
+(
+T
+)
 "
 Irregexp
 NewArray
