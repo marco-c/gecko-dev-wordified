@@ -5571,6 +5571,9 @@ mozilla
 .
 org
 "
+isAddressBarUrlNavigation
+:
+false
 }
 }
 )
@@ -5923,6 +5926,9 @@ mozilla
 .
 org
 "
+isAddressBarUrlNavigation
+:
+false
 }
 }
 )
@@ -6275,6 +6281,9 @@ mozilla
 .
 org
 "
+isAddressBarUrlNavigation
+:
+false
 }
 }
 )
@@ -6778,6 +6787,9 @@ mozilla
 .
 org
 "
+isAddressBarUrlNavigation
+:
+false
 }
 }
 )
