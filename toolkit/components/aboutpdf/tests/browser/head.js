@@ -37,6 +37,10 @@ async
 function
 openAboutPDF
 (
+hash
+=
+"
+"
 )
 {
 const
@@ -56,6 +60,8 @@ about
 :
 pdf
 "
++
+hash
 waitForLoad
 :
 true
