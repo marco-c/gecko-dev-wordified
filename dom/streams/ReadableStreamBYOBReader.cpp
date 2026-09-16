@@ -746,7 +746,7 @@ false
 mPromise
 -
 >
-MaybeSafeResolve
+MaybeResolve
 (
 result
 )
@@ -935,7 +935,7 @@ true
 mPromise
 -
 >
-MaybeSafeResolve
+MaybeResolve
 (
 result
 )

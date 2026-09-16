@@ -7464,6 +7464,9 @@ int32_t
 {
 PromiseResolveThenableJob
 PromiseResolveBuiltinThenableJob
+#
+ifdef
+NIGHTLY_BUILD
 /
 /
 Job
@@ -7505,6 +7508,11 @@ this
 target
 .
 DeferredResolveJob
+#
+endif
+/
+/
+NIGHTLY_BUILD
 }
 ;
 Value
@@ -21296,6 +21304,9 @@ thenableJob
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 /
 *
 *
@@ -22428,6 +22439,11 @@ resolution
 )
 ;
 }
+#
+endif
+/
+/
+NIGHTLY_BUILD
 [
 [
 nodiscard
@@ -58595,6 +58611,9 @@ thenableObj
 )
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 case
 ThenableJob
 :
@@ -58667,6 +58686,11 @@ thenable
 )
 ;
 }
+#
+endif
+/
+/
+NIGHTLY_BUILD
 }
 MOZ_CRASH
 (

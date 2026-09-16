@@ -2083,7 +2083,7 @@ CancelPromise
 )
 -
 >
-MaybeSafeResolve
+MaybeResolve
 (
 cancelResult
 )
@@ -2837,7 +2837,7 @@ CancelPromise
 )
 -
 >
-MaybeSafeResolve
+MaybeResolve
 (
 promise
 )
@@ -4713,7 +4713,7 @@ CancelPromise
 )
 -
 >
-MaybeSafeResolve
+MaybeResolve
 (
 cancelPromise
 )
