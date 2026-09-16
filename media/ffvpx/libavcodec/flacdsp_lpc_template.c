@@ -409,6 +409,9 @@ LPC1
 (
 32
 )
+;
+av_fallthrough
+;
 case
 31
 :
@@ -416,6 +419,9 @@ LPC1
 (
 31
 )
+;
+av_fallthrough
+;
 case
 30
 :
@@ -423,6 +429,9 @@ LPC1
 (
 30
 )
+;
+av_fallthrough
+;
 case
 29
 :
@@ -430,6 +439,9 @@ LPC1
 (
 29
 )
+;
+av_fallthrough
+;
 case
 28
 :
@@ -437,6 +449,9 @@ LPC1
 (
 28
 )
+;
+av_fallthrough
+;
 case
 27
 :
@@ -444,6 +459,9 @@ LPC1
 (
 27
 )
+;
+av_fallthrough
+;
 case
 26
 :
@@ -451,6 +469,9 @@ LPC1
 (
 26
 )
+;
+av_fallthrough
+;
 case
 25
 :
@@ -458,6 +479,9 @@ LPC1
 (
 25
 )
+;
+av_fallthrough
+;
 case
 24
 :
@@ -465,6 +489,9 @@ LPC1
 (
 24
 )
+;
+av_fallthrough
+;
 case
 23
 :
@@ -472,6 +499,9 @@ LPC1
 (
 23
 )
+;
+av_fallthrough
+;
 case
 22
 :
@@ -479,6 +509,9 @@ LPC1
 (
 22
 )
+;
+av_fallthrough
+;
 case
 21
 :
@@ -486,6 +519,9 @@ LPC1
 (
 21
 )
+;
+av_fallthrough
+;
 case
 20
 :
@@ -493,6 +529,9 @@ LPC1
 (
 20
 )
+;
+av_fallthrough
+;
 case
 19
 :
@@ -500,6 +539,9 @@ LPC1
 (
 19
 )
+;
+av_fallthrough
+;
 case
 18
 :
@@ -507,6 +549,9 @@ LPC1
 (
 18
 )
+;
+av_fallthrough
+;
 case
 17
 :
@@ -514,6 +559,9 @@ LPC1
 (
 17
 )
+;
+av_fallthrough
+;
 case
 16
 :
@@ -521,6 +569,9 @@ LPC1
 (
 16
 )
+;
+av_fallthrough
+;
 case
 15
 :
@@ -528,6 +579,9 @@ LPC1
 (
 15
 )
+;
+av_fallthrough
+;
 case
 14
 :
@@ -535,6 +589,9 @@ LPC1
 (
 14
 )
+;
+av_fallthrough
+;
 case
 13
 :
@@ -542,6 +599,9 @@ LPC1
 (
 13
 )
+;
+av_fallthrough
+;
 case
 12
 :
@@ -549,6 +609,9 @@ LPC1
 (
 12
 )
+;
+av_fallthrough
+;
 case
 11
 :
@@ -556,6 +619,9 @@ LPC1
 (
 11
 )
+;
+av_fallthrough
+;
 case
 10
 :
@@ -563,6 +629,9 @@ LPC1
 (
 10
 )
+;
+av_fallthrough
+;
 case
 9
 :
@@ -618,6 +687,9 @@ LPC1
 (
 8
 )
+;
+av_fallthrough
+;
 case
 7
 :
@@ -625,6 +697,9 @@ LPC1
 (
 7
 )
+;
+av_fallthrough
+;
 case
 6
 :
@@ -632,6 +707,9 @@ LPC1
 (
 6
 )
+;
+av_fallthrough
+;
 case
 5
 :
@@ -639,6 +717,9 @@ LPC1
 (
 5
 )
+;
+av_fallthrough
+;
 case
 4
 :
@@ -646,6 +727,9 @@ LPC1
 (
 4
 )
+;
+av_fallthrough
+;
 case
 3
 :
@@ -653,6 +737,9 @@ LPC1
 (
 3
 )
+;
+av_fallthrough
+;
 case
 2
 :
@@ -660,6 +747,9 @@ LPC1
 (
 2
 )
+;
+av_fallthrough
+;
 case
 1
 :
