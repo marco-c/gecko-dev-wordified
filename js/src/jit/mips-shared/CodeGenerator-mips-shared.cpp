@@ -12797,7 +12797,7 @@ mem
 {
 masm
 .
-atomicEffectOpJS
+atomicEffectOp
 (
 arrayType
 Synchronization
