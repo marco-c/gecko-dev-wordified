@@ -5186,6 +5186,7 @@ binary
 if
 any
 (
+                
 p
 in
 task
@@ -5209,7 +5210,11 @@ osx
 "
 win
 "
+"
+android
+"
 )
+            
 )
 :
                 
@@ -5273,9 +5278,9 @@ build
 )
             
 if
-"
-linux
-"
+any
+(
+p
 in
 task
 [
@@ -5285,6 +5290,18 @@ build
 platform
 "
 ]
+for
+p
+in
+(
+"
+linux
+"
+"
+android
+"
+)
+)
 :
                 
 task
