@@ -1917,7 +1917,7 @@ mGlobal
 nextPromise
 -
 >
-MaybeResolve
+MaybeSafeResolve
 (
 nextResult
 )
@@ -2757,7 +2757,7 @@ mGlobal
 returnPromise
 -
 >
-MaybeResolve
+MaybeSafeResolve
 (
 returnResult
 )
@@ -6443,7 +6443,7 @@ CancelPromise
 )
 -
 >
-MaybeResolve
+MaybeSafeResolve
 (
 cancelResult
 )
@@ -7628,7 +7628,7 @@ chunk
 mPromise
 -
 >
-MaybeResolve
+MaybeSafeResolve
 (
 aChunk
 )

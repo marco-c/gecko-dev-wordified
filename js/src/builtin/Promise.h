@@ -2122,9 +2122,6 @@ unwrappedRejectionStack
 nullptr
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Implements
@@ -2198,11 +2195,6 @@ Value
 resolution
 )
 ;
-#
-endif
-/
-/
-NIGHTLY_BUILD
 [
 [
 nodiscard
