@@ -874,7 +874,7 @@ cid
 =
 MockRegistrar
 .
-registerEx
+register
 (
 "
 mozilla
@@ -889,11 +889,6 @@ key
 ;
 1
 "
-{
-shouldCreateInstance
-:
-false
-}
 mockRegistry
 )
 ;

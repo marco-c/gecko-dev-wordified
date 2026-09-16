@@ -354,14 +354,9 @@ cid
 =
 MockRegistrar
 .
-registerEx
+register
 (
 contractId
-{
-shouldCreateInstance
-:
-false
-}
 o
 )
 ;
