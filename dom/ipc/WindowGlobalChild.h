@@ -1545,9 +1545,9 @@ RefPtr
 dom
 :
 :
-FeaturePolicy
+PermissionsPolicy
 >
-mContainerFeaturePolicy
+mContainerPermissionsPolicy
 ;
 nsCOMPtr
 <

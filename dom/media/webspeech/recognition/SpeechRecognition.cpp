@@ -3128,7 +3128,7 @@ doc
 |
 |
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -3726,7 +3726,7 @@ gates
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

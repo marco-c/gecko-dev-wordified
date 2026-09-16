@@ -42677,7 +42677,7 @@ GetEmbedderElement
 blankDoc
 -
 >
-InitFeaturePolicy
+InitPermissionsPolicy
 (
 AsVariant
 (
@@ -42691,7 +42691,7 @@ else
 blankDoc
 -
 >
-InitFeaturePolicy
+InitPermissionsPolicy
 (
 AsVariant
 (

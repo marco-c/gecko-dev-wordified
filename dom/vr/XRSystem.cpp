@@ -1660,7 +1660,7 @@ bool
 XRSystem
 :
 :
-FeaturePolicyBlocked
+PermissionsPolicyBlocked
 (
 )
 const
@@ -2213,9 +2213,9 @@ mIsSessionSupportedRequests
 )
 ;
 bool
-featurePolicyBlocked
+permissionsPolicyBlocked
 =
-FeaturePolicyBlocked
+PermissionsPolicyBlocked
 (
 )
 ;
@@ -2233,7 +2233,7 @@ isSessionSupportedRequests
 {
 if
 (
-featurePolicyBlocked
+permissionsPolicyBlocked
 )
 {
 request
@@ -2348,9 +2348,9 @@ IsEmpty
 )
 ;
 bool
-featurePolicyBlocked
+permissionsPolicyBlocked
 =
-FeaturePolicyBlocked
+PermissionsPolicyBlocked
 (
 )
 ;
@@ -2541,7 +2541,7 @@ continue
 }
 if
 (
-featurePolicyBlocked
+permissionsPolicyBlocked
 )
 {
 /

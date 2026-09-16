@@ -4317,7 +4317,7 @@ nullptr
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

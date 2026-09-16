@@ -2050,7 +2050,7 @@ bool
 dropMics
 =
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -2067,7 +2067,7 @@ bool
 dropCams
 =
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -2100,7 +2100,7 @@ enabled
 |
 |
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

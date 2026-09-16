@@ -437,7 +437,7 @@ nsGkAtoms
 src
 )
 {
-RefreshFeaturePolicy
+RefreshPermissionsPolicy
 (
 )
 ;
@@ -1191,14 +1191,11 @@ aBuilder
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 HTMLEmbedElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom

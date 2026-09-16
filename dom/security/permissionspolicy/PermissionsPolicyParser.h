@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_FeaturePolicyParser_h
+mozilla_dom_PermissionsPolicyParser_h
 #
 define
-mozilla_dom_FeaturePolicyParser_h
+mozilla_dom_PermissionsPolicyParser_h
 #
 include
 "
@@ -85,7 +85,7 @@ class
 Feature
 ;
 class
-FeaturePolicyParser
+PermissionsPolicyParser
 final
 {
 public
@@ -179,4 +179,4 @@ dom
 endif
 /
 /
-mozilla_dom_FeaturePolicyParser_h
+mozilla_dom_PermissionsPolicyParser_h

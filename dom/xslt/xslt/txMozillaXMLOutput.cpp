@@ -4461,7 +4461,7 @@ MOZ_TRY
 mDocument
 -
 >
-InitFeaturePolicy
+InitPermissionsPolicy
 (
 mDocument
 -

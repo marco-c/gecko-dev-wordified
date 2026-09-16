@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_FeaturePolicyViolationReportBody_h
+mozilla_dom_PermissionsPolicyViolationReportBody_h
 #
 define
-mozilla_dom_FeaturePolicyViolationReportBody_h
+mozilla_dom_PermissionsPolicyViolationReportBody_h
 #
 include
 "
@@ -98,7 +98,7 @@ mozilla
 dom
 {
 class
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 final
 :
 public
@@ -106,7 +106,7 @@ ReportBody
 {
 public
 :
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 (
 nsIGlobalObject
 *
@@ -218,7 +218,7 @@ override
 private
 :
 ~
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 (
 )
 ;
@@ -262,4 +262,4 @@ dom
 endif
 /
 /
-mozilla_dom_FeaturePolicyViolationReportBody_h
+mozilla_dom_PermissionsPolicyViolationReportBody_h

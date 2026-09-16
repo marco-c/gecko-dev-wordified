@@ -329,7 +329,7 @@ static
 *
 /
 bool
-FeaturePolicyParser
+PermissionsPolicyParser
 :
 :
 ParsePolicyFromAttribute
@@ -412,7 +412,7 @@ continue
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsSupportedFeature
@@ -930,7 +930,7 @@ static
 *
 /
 bool
-FeaturePolicyParser
+PermissionsPolicyParser
 :
 :
 ParsePolicyFromHeader
@@ -1082,7 +1082,7 @@ key
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsSupportedFeature

@@ -105,7 +105,7 @@ class
 TrustedHTMLOrString
 ;
 class
-FeaturePolicy
+PermissionsPolicy
 ;
 class
 HTMLIFrameElement
@@ -973,9 +973,9 @@ mozilla
 dom
 :
 :
-FeaturePolicy
+PermissionsPolicy
 *
-FeaturePolicy
+PermissionsPolicy
 (
 )
 const
@@ -1149,7 +1149,7 @@ sSupportedSandboxTokens
 ]
 ;
 void
-RefreshFeaturePolicy
+RefreshPermissionsPolicy
 (
 bool
 aParseAllowAttribute
@@ -1238,7 +1238,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-GetFeaturePolicyDefaultOrigin
+GetPermissionsPolicyDefaultOrigin
 (
 )
 const
@@ -1350,7 +1350,7 @@ neccesary
 *
 /
 void
-MaybeStoreCrossOriginFeaturePolicy
+MaybeStoreCrossOriginPermissionsPolicy
 (
 )
 ;
@@ -1359,9 +1359,9 @@ RefPtr
 dom
 :
 :
-FeaturePolicy
+PermissionsPolicy
 >
-mFeaturePolicy
+mPermissionsPolicy
 ;
 RefPtr
 <

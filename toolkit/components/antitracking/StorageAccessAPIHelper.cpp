@@ -7421,14 +7421,14 @@ Request
 dom
 :
 :
-FeaturePolicy
+PermissionsPolicy
 *
 policy
 =
 aDocument
 -
 >
-FeaturePolicy
+PermissionsPolicy
 (
 )
 ;

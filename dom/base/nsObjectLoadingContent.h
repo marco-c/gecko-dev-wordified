@@ -181,7 +181,7 @@ struct
 BindContext
 ;
 class
-FeaturePolicy
+PermissionsPolicy
 ;
 template
 <
@@ -1399,7 +1399,7 @@ changed
 *
 /
 void
-RefreshFeaturePolicy
+RefreshPermissionsPolicy
 (
 )
 ;
@@ -2528,7 +2528,7 @@ process
 *
 /
 void
-MaybeStoreCrossOriginFeaturePolicy
+MaybeStoreCrossOriginPermissionsPolicy
 (
 )
 ;
@@ -2579,7 +2579,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-GetFeaturePolicyDefaultOrigin
+GetPermissionsPolicyDefaultOrigin
 (
 nsINode
 *
@@ -3121,12 +3121,12 @@ the
 first
 call
 of
-RefreshFeaturePolicy
+RefreshPermissionsPolicy
 and
 will
+/
+/
 be
-/
-/
 kept
 after
 that
@@ -3205,9 +3205,9 @@ mozilla
 dom
 :
 :
-FeaturePolicy
+PermissionsPolicy
 >
-mFeaturePolicy
+mPermissionsPolicy
 ;
 }
 ;

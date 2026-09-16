@@ -657,7 +657,7 @@ geolocation
 "
 *
 /
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 /
 *
 Persistent
@@ -1116,7 +1116,7 @@ attribute
 *
 /
 bool
-HasFeaturePolicyAllowed
+HasPermissionsPolicyAllowed
 (
 const
 PermissionDelegateInfo

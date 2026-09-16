@@ -291,7 +291,7 @@ get
 return
 0
 ;
-FeaturePolicyParser
+PermissionsPolicyParser
 :
 :
 ParsePolicyFromAttribute
@@ -407,6 +407,6 @@ MOZ_FUZZING_INTERFACE_RAW
 (
 LVVMFuzzerInitTest
 LLVMFuzzerTestOneInput
-FeaturePolicyParser
+PermissionsPolicyParser
 )
 ;

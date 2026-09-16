@@ -523,7 +523,7 @@ lock
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

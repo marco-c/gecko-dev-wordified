@@ -7019,7 +7019,7 @@ p
 if
 (
 !
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed

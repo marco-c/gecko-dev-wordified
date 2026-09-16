@@ -93,10 +93,10 @@ mozilla
 :
 dom
 {
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 (
 nsIGlobalObject
 *
@@ -155,11 +155,11 @@ aDisposition
 )
 {
 }
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
 ~
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 (
 )
 =
@@ -167,7 +167,7 @@ default
 ;
 JSObject
 *
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
 WrapObject
@@ -187,7 +187,7 @@ aGivenProto
 )
 {
 return
-FeaturePolicyViolationReportBody_Binding
+PermissionsPolicyViolationReportBody_Binding
 :
 :
 Wrap
@@ -199,7 +199,7 @@ aGivenProto
 ;
 }
 void
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
 GetFeatureId
@@ -216,7 +216,7 @@ mFeatureId
 ;
 }
 void
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
 GetSourceFile
@@ -236,7 +236,7 @@ Nullable
 <
 int32_t
 >
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
 GetLineNumber
@@ -252,7 +252,7 @@ Nullable
 <
 int32_t
 >
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
 GetColumnNumber
@@ -265,7 +265,7 @@ mColumnNumber
 ;
 }
 void
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
 GetDisposition
@@ -282,7 +282,7 @@ mDisposition
 ;
 }
 void
-FeaturePolicyViolationReportBody
+PermissionsPolicyViolationReportBody
 :
 :
 ToJSON

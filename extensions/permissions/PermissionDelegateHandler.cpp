@@ -243,7 +243,7 @@ geolocation
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 /
 /
@@ -280,7 +280,7 @@ geolocation
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -357,7 +357,7 @@ nullptr
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -382,7 +382,7 @@ camera
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -395,7 +395,7 @@ microphone
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -410,7 +410,7 @@ capture
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -427,7 +427,7 @@ tracking
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -444,7 +444,7 @@ network
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -461,7 +461,7 @@ network
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -482,7 +482,7 @@ lock
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 }
 {
 "
@@ -722,7 +722,7 @@ mFeatureName
 ;
 if
 (
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureUnsafeAllowedAll
@@ -826,7 +826,7 @@ mPolicy
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 )
 {
 return
@@ -1062,7 +1062,7 @@ bool
 PermissionDelegateHandler
 :
 :
-HasFeaturePolicyAllowed
+HasPermissionsPolicyAllowed
 (
 const
 DelegateInfo
@@ -1082,7 +1082,7 @@ mPolicy
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 |
 |
 !
@@ -1106,7 +1106,7 @@ mFeatureName
 )
 ;
 return
-FeaturePolicyUtils
+PermissionsPolicyUtils
 :
 :
 IsFeatureAllowed
@@ -1179,7 +1179,7 @@ info
 |
 |
 !
-HasFeaturePolicyAllowed
+HasPermissionsPolicyAllowed
 (
 info
 )
@@ -1295,7 +1295,7 @@ info
 |
 |
 !
-HasFeaturePolicyAllowed
+HasPermissionsPolicyAllowed
 (
 info
 )
@@ -1458,7 +1458,7 @@ mPolicy
 DelegatePolicy
 :
 :
-eDelegateUseFeaturePolicy
+eDelegateUsePermissionsPolicy
 )
 &
 &
