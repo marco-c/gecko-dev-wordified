@@ -367,12 +367,14 @@ JAVA_VERSION_MINOR
 "
 0
 .
-18
+20
+.
+1
 "
 JAVA_VERSION_PATCH
 =
 "
-8
+1
 "
 ANDROID_NDK_EXISTS
 =
@@ -6331,9 +6333,11 @@ jdk
 .
 0
 .
-18
+20
+.
+1
 %
-2B8
+2B1
 /
 OpenJDK17U
 -
@@ -6341,7 +6345,9 @@ jdk_x64_linux_hotspot_17
 .
 0
 .
-18_8
+20
+.
+1_1
 .
 tar
 .
@@ -7080,9 +7086,11 @@ jdk
 .
 0
 .
-18
+20
+.
+1
 +
-8
+1
     
 jdk_folder
 =
