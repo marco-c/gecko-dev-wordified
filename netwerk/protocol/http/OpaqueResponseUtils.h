@@ -895,8 +895,6 @@ testDataLen
 nsAutoCString
 contentType
 ;
-rv
-=
 httpChannel
 -
 >
