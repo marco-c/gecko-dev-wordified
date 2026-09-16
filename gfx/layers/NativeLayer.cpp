@@ -148,6 +148,16 @@ aFramebuffer
 )
 {
 }
+RenderSourceNLRS
+:
+:
+~
+RenderSourceNLRS
+(
+)
+=
+default
+;
 DownscaleTargetNLRS
 :
 :
