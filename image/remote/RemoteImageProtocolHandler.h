@@ -212,6 +212,8 @@ gfx
 :
 IntSize
 aSize
+bool
+aStretch
 ColorScheme
 aColorScheme
 )
