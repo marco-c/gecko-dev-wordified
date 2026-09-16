@@ -366,6 +366,10 @@ etp_matrix
 "
 staging_paths
 "
+    
+"
+dark_mode
+"
 ]
 myst_enable_extensions
 =
