@@ -277,9 +277,10 @@ alternative
 =
 mItems
 .
-ElementAt
+SafeElementAt
 (
 aIndex
+nullptr
 )
 ;
 return
