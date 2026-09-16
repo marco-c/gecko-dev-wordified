@@ -93,7 +93,7 @@ this
 )
 ;
 const
-kSearchEngineID
+kSearchEngineName
 =
 "
 browser_urifixup_search_engine
@@ -120,7 +120,7 @@ searchTerms
 "
 ;
 const
-kPrivateSearchEngineID
+kPrivateSearchEngineName
 =
 "
 browser_urifixup_search_engine_private
@@ -170,9 +170,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 true
 ]
@@ -183,6 +181,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 true
 ]
@@ -206,7 +206,7 @@ installSearchExtension
 {
 name
 :
-kSearchEngineID
+kSearchEngineName
 search_url
 :
 "
@@ -244,7 +244,7 @@ installSearchExtension
 {
 name
 :
-kPrivateSearchEngineID
+kPrivateSearchEngineName
 search_url
 :
 "

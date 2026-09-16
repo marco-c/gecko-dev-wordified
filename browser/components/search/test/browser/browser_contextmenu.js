@@ -1482,6 +1482,8 @@ set
 for
 the
 separatePrivateDefault
+.
+enabled
 pref
 .
 *
@@ -1501,9 +1503,7 @@ for
 the
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 pref
 .
 *
@@ -1595,9 +1595,7 @@ checkPrivateItem
 When
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 is
 false
 setDefaultPrivate
@@ -1881,6 +1879,8 @@ set
 for
 the
 separatePrivateDefault
+.
+enabled
 pref
 .
 *
@@ -1900,9 +1900,7 @@ for
 the
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 pref
 .
 *
@@ -2104,6 +2102,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 separatePrivateDefault
 ]
@@ -2115,9 +2115,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 separatePrivateDefaultUiEnabled
 ]

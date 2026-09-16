@@ -316,6 +316,8 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
 true
 ]

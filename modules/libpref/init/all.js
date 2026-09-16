@@ -45608,8 +45608,10 @@ browser
 search
 .
 separatePrivateDefault
+.
+enabled
 "
-true
+false
 )
 ;
 pref
@@ -45621,9 +45623,7 @@ search
 .
 separatePrivateDefault
 .
-ui
-.
-enabled
+featureGate
 "
 false
 )
