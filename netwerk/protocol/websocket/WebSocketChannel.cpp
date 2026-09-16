@@ -12308,6 +12308,7 @@ FrameReceived
 (
 mSerial
 mInnerWindowID
+mHttpChannelId
 frame
 .
 forget
@@ -12743,6 +12744,7 @@ FrameReceived
 (
 mSerial
 mInnerWindowID
+mHttpChannelId
 frame
 .
 forget
@@ -13058,6 +13060,7 @@ FrameReceived
 (
 mSerial
 mInnerWindowID
+mHttpChannelId
 frame
 .
 forget
@@ -13269,6 +13272,7 @@ FrameReceived
 (
 mSerial
 mInnerWindowID
+mHttpChannelId
 frame
 .
 forget
@@ -15657,6 +15661,7 @@ FrameSent
 (
 mSerial
 mInnerWindowID
+mHttpChannelId
 frame
 .
 forget
