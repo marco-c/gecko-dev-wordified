@@ -518,9 +518,11 @@ run
 (
                     
 [
+                        
 "
 git
 "
+                        
 "
 -
 -
@@ -528,13 +530,24 @@ no
 -
 pager
 "
+                        
 "
 tag
 "
+                        
 "
 -
 l
 "
+                        
+"
+-
+-
+no
+-
+column
+"
+                        
 "
 -
 -
@@ -542,6 +555,7 @@ sort
 =
 creatordate
 "
+                    
 ]
                     
 +
