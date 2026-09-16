@@ -336,10 +336,6 @@ uint32_t
 &
 aWebSocketSerialID
 const
-uint64_t
-&
-aHttpChannelId
-const
 bool
 &
 aWasClean
@@ -375,7 +371,6 @@ WebSocketClosed
 (
 aWebSocketSerialID
 mInnerWindowID
-aHttpChannelId
 aWasClean
 aCode
 aReason
@@ -405,10 +400,6 @@ const
 uint32_t
 &
 aWebSocketSerialID
-const
-uint64_t
-&
-aHttpChannelId
 const
 WebSocketFrameData
 &
@@ -448,7 +439,6 @@ FrameReceived
 (
 aWebSocketSerialID
 mInnerWindowID
-aHttpChannelId
 frame
 .
 forget
@@ -480,10 +470,6 @@ const
 uint32_t
 &
 aWebSocketSerialID
-const
-uint64_t
-&
-aHttpChannelId
 const
 WebSocketFrameData
 &
@@ -523,7 +509,6 @@ FrameSent
 (
 aWebSocketSerialID
 mInnerWindowID
-aHttpChannelId
 frame
 .
 forget

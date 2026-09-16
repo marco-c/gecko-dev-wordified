@@ -12817,15 +12817,6 @@ mImpl
 -
 >
 mInnerWindowID
-mImpl
--
->
-mChannel
--
->
-HttpChannelId
-(
-)
 aWasClean
 aCode
 aReason

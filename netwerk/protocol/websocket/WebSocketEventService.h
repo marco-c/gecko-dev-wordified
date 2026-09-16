@@ -274,8 +274,6 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
-uint64_t
-aHttpChannelId
 bool
 aWasClean
 uint16_t
@@ -298,8 +296,6 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
-uint64_t
-aHttpChannelId
 already_AddRefed
 <
 WebSocketFrame
@@ -319,8 +315,6 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
-uint64_t
-aHttpChannelId
 already_AddRefed
 <
 WebSocketFrame

@@ -176145,9 +176145,6 @@ webSocketClosed
 aWebSocketSerialID
 :
 u32
-aHttpChannelId
-:
-u64
 aWasClean
 :
 boolean
@@ -176184,9 +176181,6 @@ frameReceived
 aWebSocketSerialID
 :
 u32
-aHttpChannelId
-:
-u64
 aFrame
 :
 nsIWebSocketFrame
@@ -176217,9 +176211,6 @@ frameSent
 aWebSocketSerialID
 :
 u32
-aHttpChannelId
-:
-u64
 aFrame
 :
 nsIWebSocketFrame
