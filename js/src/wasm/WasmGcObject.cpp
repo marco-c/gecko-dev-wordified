@@ -2114,6 +2114,17 @@ i
 elemSize
 )
 ;
+if
+(
+!
+elementPtr
+-
+>
+isNull
+(
+)
+)
+{
 TraceManuallyBarrieredEdge
 (
 trc
@@ -2127,6 +2138,7 @@ element
 "
 )
 ;
+}
 }
 }
 /
