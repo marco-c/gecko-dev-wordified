@@ -357,7 +357,7 @@ type
 =
 "
 icon
-ghost
+toolbar
 "
 size
 =
