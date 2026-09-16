@@ -4394,6 +4394,14 @@ HandleObject
 proto
 )
 {
+cx
+-
+>
+releaseCheck
+(
+buffer
+)
+;
 /
 /
 Steps
