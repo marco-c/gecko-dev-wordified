@@ -11588,7 +11588,7 @@ dest
 {
 masm
 .
-compareExchangeJS
+compareExchange
 (
 arrayType
 Synchronization
@@ -11706,7 +11706,7 @@ dest
 {
 masm
 .
-atomicExchangeJS
+atomicExchange
 (
 arrayType
 Synchronization
@@ -11852,7 +11852,7 @@ mem
 {
 masm
 .
-atomicFetchOpJS
+atomicFetchOp
 (
 arrayType
 Synchronization
