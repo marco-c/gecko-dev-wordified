@@ -191,6 +191,7 @@ eMenuPopupType
 eProgressType
 eRootType
 eXULLabelType
+eXULListboxType
 eXULListItemType
 eXULTabpanelsType
 eXULTooltipType

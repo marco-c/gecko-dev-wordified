@@ -819,6 +819,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eXULListboxType
+;
 dom
 :
 :

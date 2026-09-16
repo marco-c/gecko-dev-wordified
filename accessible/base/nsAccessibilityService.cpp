@@ -1112,6 +1112,15 @@ parent
 IsTable
 (
 )
+&
+&
+!
+parent
+-
+>
+IsCustomTable
+(
+)
 )
 {
 return

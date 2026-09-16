@@ -36222,10 +36222,7 @@ IsTable
 &
 &
 !
-mContent
--
->
-IsXULElement
+IsCustomTable
 (
 )
 )
@@ -36256,15 +36253,6 @@ AsTableCell
 if
 (
 IsTableCell
-(
-)
-&
-&
-!
-mContent
--
->
-IsXULElement
 (
 )
 )
