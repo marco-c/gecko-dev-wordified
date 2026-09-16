@@ -349,6 +349,17 @@ contentanalysis
 .
 interception_point
 .
+clipboard_copy
+.
+enabled
+"
+"
+browser
+.
+contentanalysis
+.
+interception_point
+.
 download
 .
 enabled
