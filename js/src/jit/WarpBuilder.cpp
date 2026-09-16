@@ -2829,7 +2829,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -2848,7 +2848,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -3074,7 +3074,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -3093,7 +3093,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -16940,7 +16940,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -17126,7 +17126,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -17404,7 +17404,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -17676,7 +17676,7 @@ add
 MStoreDynamicSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -17759,7 +17759,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -17950,7 +17950,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -18136,7 +18136,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -20364,7 +20364,7 @@ store
 MStoreElement
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -20521,7 +20521,7 @@ add
 MStoreFixedSlot
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -23368,7 +23368,7 @@ store
 MStoreElement
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
@@ -24909,7 +24909,7 @@ store
 MStoreElement
 :
 :
-NewUnbarriered
+NewNoPreBarrier
 (
 alloc
 (
