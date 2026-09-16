@@ -235,13 +235,6 @@ event_source
 "
 card
 "
-layout_name
-:
-"
-card
--
-layout
-"
 }
 ;
 /
@@ -268,6 +261,13 @@ section_position
 :
 "
 2
+"
+layout_name
+:
+"
+card
+-
+layout
 "
 position
 :
