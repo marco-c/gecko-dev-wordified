@@ -119,6 +119,10 @@ pub
 mod
 sink
 ;
+pub
+mod
+subtree_filter
+;
 mod
 tree
 ;
