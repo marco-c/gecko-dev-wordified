@@ -4283,6 +4283,10 @@ auto
 &
 source
 )
+-
+>
+JSObject
+*
 {
 using
 T
@@ -4394,6 +4398,16 @@ length
 (
 )
 )
+;
+}
+if
+(
+!
+str
+)
+{
+return
+nullptr
 ;
 }
 JS
