@@ -194,9 +194,13 @@ IdleRequest
 IdleRequest
 (
 )
-=
-default
+{
+SetContainer
+(
+nullptr
+)
 ;
+}
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 IdleRequest
@@ -222,7 +226,7 @@ isInList
 tmp
 -
 >
-remove
+RemoveFromList
 (
 )
 ;
