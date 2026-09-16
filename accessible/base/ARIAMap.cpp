@@ -1857,7 +1857,7 @@ eNoLiveAttr
 eTableCell
 kNoReqStates
 eARIAExpanded
-eARIASelectable
+eARIASelectableIfDefined
 eARIAReadonly
 }
 {
