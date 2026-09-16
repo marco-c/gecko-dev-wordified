@@ -237,7 +237,7 @@ download
 folder
 .
     
-result
+nodes
 =
 await
 bidi_session
@@ -288,12 +288,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]
@@ -414,12 +409,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]
@@ -533,12 +523,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]
@@ -856,7 +841,7 @@ download
 folder
 .
     
-result
+nodes
 =
 await
 bidi_session
@@ -907,12 +892,7 @@ call_function
 arguments
 =
 [
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]

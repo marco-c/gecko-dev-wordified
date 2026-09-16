@@ -200,7 +200,7 @@ the
 other
 context
     
-result
+nodes
 =
 await
 bidi_session
@@ -245,12 +245,7 @@ context
 )
     
 assert
-result
-[
-"
 nodes
-"
-]
 =
 =
 [
@@ -263,7 +258,7 @@ the
 correct
 context
     
-result
+nodes
 =
 await
 bidi_session
@@ -400,12 +395,7 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -540,7 +530,7 @@ children
 0
 ]
     
-result
+nodes
 =
 await
 bidi_session
@@ -674,10 +664,5 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )

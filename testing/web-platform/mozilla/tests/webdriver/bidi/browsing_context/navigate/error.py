@@ -223,7 +223,7 @@ destroyed
 before
 query
     
-result
+nodes
 =
 await
 bidi_session
@@ -269,12 +269,7 @@ body
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 >
 0
@@ -367,7 +362,7 @@ destroyed
 before
 query
     
-result
+nodes
 =
 await
 bidi_session
@@ -410,12 +405,7 @@ body
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 >
 0

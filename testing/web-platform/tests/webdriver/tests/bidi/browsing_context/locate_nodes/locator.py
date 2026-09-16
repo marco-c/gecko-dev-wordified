@@ -248,7 +248,7 @@ complete
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -456,12 +456,7 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -528,7 +523,7 @@ complete
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -647,12 +642,7 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -776,7 +766,7 @@ complete
     
 )
     
-result
+nodes
 =
 await
 bidi_session
@@ -815,12 +805,7 @@ selector
     
 node_result
 =
-result
-[
-"
 nodes
-"
-]
 [
 0
 ]
@@ -1682,7 +1667,7 @@ in
 expected_nodes_values
 ]
     
-result
+nodes
 =
 await
 bidi_session
@@ -1710,12 +1695,7 @@ locator
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -2230,7 +2210,7 @@ expected_node_local_name
     
 ]
     
-result
+nodes
 =
 await
 bidi_session
@@ -2271,12 +2251,7 @@ locator_value
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -2424,7 +2399,7 @@ children
 0
 ]
     
-result
+nodes
 =
 await
 bidi_session
@@ -2567,12 +2542,7 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -2773,7 +2743,7 @@ children
 0
 ]
     
-result
+nodes
 =
 await
 bidi_session
@@ -2916,12 +2886,7 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )
 pytest
 .
@@ -3181,7 +3146,7 @@ children
 0
 ]
     
-result
+nodes
 =
 await
 bidi_session
@@ -3324,10 +3289,5 @@ nodeType
 recursive_compare
 (
 expected
-result
-[
-"
 nodes
-"
-]
 )

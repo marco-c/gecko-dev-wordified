@@ -308,7 +308,7 @@ the
 page
 .
     
-result
+nodes
 =
 await
 bidi_session
@@ -354,12 +354,7 @@ initial
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 =
 =
@@ -380,7 +375,7 @@ the
 page
 .
     
-result
+nodes
 =
 await
 bidi_session
@@ -426,12 +421,7 @@ redirect
 assert
 len
 (
-result
-[
-"
 nodes
-"
-]
 )
 =
 =
