@@ -118,7 +118,7 @@ endif
 if
 defined
 (
-USE_SSE42
+USE_SSE4_2
 )
 #
 include
@@ -472,7 +472,7 @@ supports_sse2
 if
 defined
 (
-USE_SSE42
+USE_SSE4_2
 )
 if
 (
@@ -837,7 +837,7 @@ supports_sse
 if
 defined
 (
-USE_SSE42
+USE_SSE4_2
 )
 if
 (
@@ -1620,7 +1620,7 @@ supports_sse2
 if
 defined
 (
-USE_SSE42
+USE_SSE4_2
 )
 if
 (
@@ -1886,7 +1886,7 @@ supports_sse2
 if
 defined
 (
-USE_SSE42
+USE_SSE4_2
 )
 if
 (
@@ -2111,7 +2111,7 @@ supports_sse
 if
 defined
 (
-USE_SSE42
+USE_SSE4_2
 )
 if
 (

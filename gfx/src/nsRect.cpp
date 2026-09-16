@@ -151,7 +151,7 @@ endif
 if
 defined
 (
-USE_SSE42
+USE_SSE4_2
 )
 #
 include
@@ -403,7 +403,7 @@ this
 endif
 #
 ifdef
-USE_SSE42
+USE_SSE4_2
 if
 (
 mozilla
@@ -625,7 +625,7 @@ this
 endif
 #
 ifdef
-USE_SSE42
+USE_SSE4_2
 if
 (
 mozilla
@@ -649,7 +649,7 @@ sse4_2
 >
 :
 :
-Intersect
+IntersectRect
 (
 &
 aRect1
