@@ -1855,24 +1855,23 @@ current
 yield
 _geckodriver
     
-if
+current
+=
 _geckodriver_state
 [
 "
 current
 "
 ]
+    
+if
+current
 is
 not
 None
 :
         
-_geckodriver_state
-[
-"
 current
-"
-]
 .
 kill
 (
