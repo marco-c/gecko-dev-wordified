@@ -215,7 +215,7 @@ template
 class
 T
 >
-static
+inline
 NativeException
 NullHandle
 (
@@ -232,7 +232,7 @@ template
 class
 T
 >
-static
+inline
 NativeException
 NullWeakPtr
 (
