@@ -41,6 +41,7 @@ process_inspection
 Error
 as
 BackendError
+ProcessReaderKind
 process_reader
 }
 }
@@ -49,9 +50,8 @@ pub
 mod
 app_memory
 ;
-pub
 mod
-crash_context
+crash_context_ext
 ;
 pub
 mod
@@ -60,6 +60,10 @@ maps_reader
 pub
 mod
 minidump_writer
+;
+pub
+mod
+module_list
 ;
 pub
 mod
@@ -107,4 +111,11 @@ type
 Pid
 =
 i32
+;
+pub
+use
+crash_context_ext
+:
+:
+CrashContextExt
 ;
