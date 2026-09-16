@@ -288,13 +288,12 @@ type
 null
 SpecialPowers
 .
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
+wrap
 (
+document
 )
+.
+nodePrincipal
 {
 QueryInterface
 :
