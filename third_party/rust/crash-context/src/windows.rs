@@ -167,7 +167,6 @@ kernel32
 "
 )
 ]
-unsafe
 extern
 "
 system

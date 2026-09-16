@@ -96,6 +96,10 @@ minidump_writer
 :
 :
 {
+crash_context
+:
+:
+CrashContext
 minidump_writer
 :
 :
@@ -105,7 +109,6 @@ as
 InternalDumpInfo
 MinidumpWriterConfig
 }
-CrashContextExt
 }
 mozannotation_server
 :
@@ -1423,7 +1426,7 @@ writer_config
 .
 set_crash_context
 (
-CrashContextExt
+CrashContext
 {
 inner
 :

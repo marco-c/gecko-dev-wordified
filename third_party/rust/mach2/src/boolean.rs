@@ -28,10 +28,9 @@ pub
 type
 boolean_t
 =
-core
 :
 :
-ffi
+libc
 :
 :
 c_uint
@@ -54,10 +53,9 @@ pub
 type
 boolean_t
 =
-core
 :
 :
-ffi
+libc
 :
 :
 c_int

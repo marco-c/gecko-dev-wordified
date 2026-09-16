@@ -1,13 +1,9 @@
 use
-crate
-:
-:
-wrapper
+{
+super
 :
 :
 errno
-;
-use
 core
 :
 :
@@ -15,6 +11,7 @@ ffi
 :
 :
 c_int
+}
 ;
 #
 [
@@ -25,9 +22,6 @@ Default
 )
 ]
 pub
-(
-crate
-)
 struct
 SyscallInvoker
 (
@@ -157,9 +151,6 @@ requested
 by
 testing
 pub
-(
-crate
-)
 fn
 invoke
 <
@@ -252,9 +243,6 @@ the
 syscall
 failed
 pub
-(
-crate
-)
 fn
 invoke_standard
 <
@@ -367,9 +355,6 @@ testing
 )
 ]
 pub
-(
-crate
-)
 fn
 fail_one_syscall_with
 (

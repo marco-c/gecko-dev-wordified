@@ -102,7 +102,6 @@ write_cpu_information
 process_inspector
 :
 &
-dyn
 ProcessInspector
 sys_info
 :
@@ -306,10 +305,6 @@ proc
 /
 cpuinfo
 "
-.
-into
-(
-)
 )
 .
 map_err
