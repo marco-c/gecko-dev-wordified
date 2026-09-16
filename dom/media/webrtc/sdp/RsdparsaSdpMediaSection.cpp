@@ -1167,12 +1167,15 @@ get
 )
 ;
 auto
+*
 sessAttributes
 =
 mAttributeList
 -
 >
-mSessionAttributes
+SessionAttributes
+(
+)
 ;
 mAttributeList
 .
