@@ -19779,7 +19779,6 @@ queue_id
 )
 ;
 if
-!
 submission_errored
 {
 /
