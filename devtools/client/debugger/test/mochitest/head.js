@@ -1061,18 +1061,10 @@ function
 assertBreakableLines
 (
 dbg
-source
 numberOfLines
 breakableLines
 )
 {
-await
-selectSource
-(
-dbg
-source
-)
-;
 is
 (
 getLineCount
@@ -1089,10 +1081,6 @@ of
 lines
 in
 CodeMirror
-for
-{
-source
-}
 )
 ;
 for
@@ -1116,7 +1104,6 @@ await
 assertLineIsBreakable
 (
 dbg
-source
 line
 breakableLines
 .

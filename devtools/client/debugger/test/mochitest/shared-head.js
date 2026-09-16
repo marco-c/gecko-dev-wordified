@@ -2050,7 +2050,6 @@ function
 assertLineIsBreakable
 (
 dbg
-file
 line
 shouldBeBreakable
 )
@@ -2097,10 +2096,6 @@ length
 :
 "
 "
-}
-in
-{
-file
 }
 ;
 /
