@@ -666,6 +666,14 @@ OnConnected
 )
 ;
 void
+RekeyAfterHttp3OnlyHandOff
+(
+nsHttpConnectionInfo
+*
+aConnInfo
+)
+;
+void
 SetDontExclude
 (
 )
