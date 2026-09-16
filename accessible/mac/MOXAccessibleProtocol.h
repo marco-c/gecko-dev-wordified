@@ -925,6 +925,17 @@ moxVisited
 ;
 /
 /
+AXGrabbed
+-
+(
+NSNumber
+*
+_Nullable
+)
+moxGrabbed
+;
+/
+/
 AXExpanded
 -
 (
