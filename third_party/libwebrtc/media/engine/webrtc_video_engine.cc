@@ -16651,12 +16651,8 @@ active
 encoding
 .
 max_bitrate_bps
-.
-value_or
-(
-0
-)
 >
+=
 0
 )
 {
