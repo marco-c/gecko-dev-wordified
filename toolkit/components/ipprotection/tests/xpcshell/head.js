@@ -159,8 +159,9 @@ mjs
 ;
 const
 {
-IPPExceptionsManager
+IPPPermissionRules
 IPPPrincipalRules
+IPPSiteRuleManager
 }
 =
 ChromeUtils
@@ -181,7 +182,7 @@ components
 /
 ipprotection
 /
-IPPExceptionsManager
+IPPSiteRuleManager
 .
 sys
 .

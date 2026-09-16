@@ -77,7 +77,7 @@ withExceptionsManager
 (
 )
 {
-IPPExceptionsManager
+IPPSiteRuleManager
 .
 init
 (
@@ -103,11 +103,14 @@ createContentPrincipalFromOrigin
 url
 )
 ;
-IPPExceptionsManager
+IPPPermissionRules
 .
-addExclusion
+setRule
 (
 principal
+IPPPrincipalRules
+.
+EXCLUDED
 )
 ;
 }
@@ -119,7 +122,7 @@ dispose
 (
 )
 {
-IPPExceptionsManager
+IPPSiteRuleManager
 .
 uninit
 (
