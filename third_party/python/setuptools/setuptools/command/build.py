@@ -793,6 +793,9 @@ initialize_options
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -824,6 +827,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 "
@@ -855,6 +861,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 "

@@ -1,11 +1,11 @@
 from
 typing
 import
-cast
+TYPE_CHECKING
 List
 Optional
-TYPE_CHECKING
 Union
+cast
 from
 .
 _spinners
@@ -36,8 +36,8 @@ console
 import
 Console
 ConsoleOptions
-RenderResult
 RenderableType
+RenderResult
     
 from
 .
@@ -850,15 +850,9 @@ sleep
     
 from
 .
-columns
+console
 import
-Columns
-    
-from
-.
-panel
-import
-Panel
+Group
     
 from
 .
@@ -868,9 +862,10 @@ Live
     
 all_spinners
 =
-Columns
+Group
 (
         
+*
 [
             
 Spinner
@@ -905,40 +900,16 @@ keys
 )
         
 ]
-        
-column_first
-=
-True
-        
-expand
-=
-True
     
 )
     
 with
 Live
 (
-        
-Panel
-(
 all_spinners
-title
-=
-"
-Spinners
-"
-border_style
-=
-"
-blue
-"
-)
-        
 refresh_per_second
 =
 20
-    
 )
 as
 live

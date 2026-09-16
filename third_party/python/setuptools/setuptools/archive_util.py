@@ -117,6 +117,7 @@ dst
 def
 unpack_archive
 (
+    
 filename
 extract_dir
 progress_filter
@@ -126,6 +127,9 @@ drivers
 =
 None
 )
+-
+>
+None
 :
     
 "
@@ -384,6 +388,7 @@ else
 raise
 UnrecognizedFormat
 (
+f
 "
 Not
 a
@@ -391,11 +396,10 @@ recognized
 archive
 type
 :
-%
-s
-"
-%
+{
 filename
+}
+"
 )
 def
 unpack_directory
@@ -406,6 +410,9 @@ progress_filter
 =
 default_filter
 )
+-
+>
+None
 :
     
 "
@@ -452,16 +459,16 @@ filename
 raise
 UnrecognizedFormat
 (
+f
 "
-%
-s
+{
+filename
+}
 is
 not
 a
 directory
 "
-%
-filename
 )
     
 paths
@@ -617,6 +624,9 @@ progress_filter
 =
 default_filter
 )
+-
+>
+None
 :
     
 "
@@ -679,19 +689,17 @@ filename
 raise
 UnrecognizedFormat
 (
+f
 "
-%
-s
+{
+filename
+}
 is
 not
 a
 zip
 file
 "
-%
-(
-filename
-)
 )
     
 with
@@ -1270,6 +1278,9 @@ progress_filter
 =
 default_filter
 )
+-
+>
+bool
 :
     
 "
@@ -1351,9 +1362,11 @@ raise
 UnrecognizedFormat
 (
             
+f
 "
-%
-s
+{
+filename
+}
 is
 not
 a
@@ -1363,10 +1376,6 @@ uncompressed
 tar
 file
 "
-%
-(
-filename
-)
         
 )
 from

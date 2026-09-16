@@ -67,6 +67,10 @@ InstallRequirement
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 copy
 import
@@ -76,19 +80,15 @@ os
 import
 re
 from
+collections
+.
+abc
+import
+Collection
+from
 dataclasses
 import
 dataclass
-from
-typing
-import
-Collection
-Dict
-List
-Optional
-Set
-Tuple
-Union
 from
 pip
 .
@@ -270,13 +270,12 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
-Optional
-[
 str
-]
+|
+None
 ]
 :
     
@@ -350,14 +349,13 @@ convert_extras
 (
 extras
 :
-Optional
-[
 str
-]
+|
+None
 )
 -
 >
-Set
+set
 [
 str
 ]
@@ -396,7 +394,7 @@ req
 Requirement
 new_extras
 :
-Set
+set
 [
 str
 ]
@@ -454,15 +452,14 @@ given
     
 match
 :
-Optional
-[
 re
 .
 Match
 [
 str
 ]
-]
+|
+None
 =
 re
 .
@@ -577,10 +574,9 @@ happen
     
 pre
 :
-Optional
-[
 str
-]
+|
+None
 =
 match
 .
@@ -591,10 +587,9 @@ group
     
 post
 :
-Optional
-[
 str
-]
+|
+None
 =
 match
 .
@@ -689,14 +684,13 @@ str
 )
 -
 >
-Tuple
-[
-Optional
+tuple
 [
 str
-]
+|
+None
 str
-Set
+set
 [
 str
 ]
@@ -1498,28 +1492,25 @@ RequirementParts
     
 requirement
 :
-Optional
-[
 Requirement
-]
+|
+None
     
 link
 :
-Optional
-[
 Link
-]
+|
+None
     
 markers
 :
-Optional
-[
 Marker
-]
+|
+None
     
 extras
 :
-Set
+set
 [
 str
 ]
@@ -1556,10 +1547,9 @@ try
             
 req
 :
-Optional
-[
 Requirement
-]
+|
+None
 =
 get_requirement
 (
@@ -1637,14 +1627,11 @@ str
     
 comes_from
 :
-Optional
-[
-Union
-[
 InstallRequirement
+|
 str
-]
-]
+|
+None
 =
 None
     
@@ -1652,10 +1639,9 @@ None
     
 use_pep517
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -1667,29 +1653,27 @@ False
     
 global_options
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
 hash_options
 :
-Optional
-[
-Dict
+dict
 [
 str
-List
+list
 [
 str
 ]
 ]
-]
+|
+None
 =
 None
     
@@ -1713,21 +1697,18 @@ False
     
 config_settings
 :
-Optional
-[
-Dict
+dict
 [
 str
-Union
-[
 str
-List
+|
+list
 [
 str
 ]
 ]
-]
-]
+|
+None
 =
 None
 )
@@ -1966,10 +1947,9 @@ str
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -2275,10 +2255,9 @@ name
 str
 line_source
 :
-Optional
-[
 str
-]
+|
+None
 )
 -
 >
@@ -2804,10 +2783,9 @@ None
         
 req
 :
-Optional
-[
 Requirement
-]
+|
+None
 =
 _parse_req_string
 (
@@ -2839,14 +2817,11 @@ str
     
 comes_from
 :
-Optional
-[
-Union
-[
 str
+|
 InstallRequirement
-]
-]
+|
+None
 =
 None
     
@@ -2854,10 +2829,9 @@ None
     
 use_pep517
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -2869,29 +2843,27 @@ False
     
 global_options
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 =
 None
     
 hash_options
 :
-Optional
-[
-Dict
+dict
 [
 str
-List
+list
 [
 str
 ]
 ]
-]
+|
+None
 =
 None
     
@@ -2903,10 +2875,9 @@ False
     
 line_source
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -2918,21 +2889,18 @@ False
     
 config_settings
 :
-Optional
-[
-Dict
+dict
 [
 str
-Union
-[
 str
-List
+|
+list
 [
 str
 ]
 ]
-]
-]
+|
+None
 =
 None
 )
@@ -3071,10 +3039,9 @@ str
     
 comes_from
 :
-Optional
-[
 InstallRequirement
-]
+|
+None
 =
 None
     
@@ -3086,10 +3053,9 @@ False
     
 use_pep517
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -3273,10 +3239,9 @@ False
     
 use_pep517
 :
-Optional
-[
 bool
-]
+|
+None
 =
 None
     
@@ -3288,21 +3253,18 @@ False
     
 config_settings
 :
-Optional
-[
-Dict
+dict
 [
 str
-Union
-[
 str
-List
+|
+list
 [
 str
 ]
 ]
-]
-]
+|
+None
 =
 None
 )

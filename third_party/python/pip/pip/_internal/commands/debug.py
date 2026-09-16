@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 locale
 import
@@ -18,9 +22,6 @@ from
 typing
 import
 Any
-Dict
-List
-Optional
 import
 pip
 .
@@ -214,7 +215,7 @@ create_vendor_txt_map
 )
 -
 >
-Dict
+dict
 [
 str
 str
@@ -337,10 +338,9 @@ str
 )
 -
 >
-Optional
-[
 ModuleType
-]
+|
+None
 :
     
 #
@@ -498,10 +498,9 @@ str
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 module
@@ -595,7 +594,7 @@ show_actual_vendor_versions
 (
 vendor_txt_versions
 :
-Dict
+dict
 [
 str
 str
@@ -1185,7 +1184,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]

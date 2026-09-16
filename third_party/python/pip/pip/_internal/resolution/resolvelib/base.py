@@ -1,14 +1,21 @@
 from
+__future__
+import
+annotations
+from
+collections
+.
+abc
+import
+Iterable
+from
 dataclasses
 import
 dataclass
 from
 typing
 import
-FrozenSet
-Iterable
 Optional
-Tuple
 from
 pip
 .
@@ -72,7 +79,7 @@ import
 Hashes
 CandidateLookup
 =
-Tuple
+tuple
 [
 Optional
 [
@@ -93,7 +100,7 @@ project
 NormalizedName
 extras
 :
-FrozenSet
+frozenset
 [
 NormalizedName
 ]
@@ -156,7 +163,7 @@ Hashes
     
 links
 :
-FrozenSet
+frozenset
 [
 Link
 ]
@@ -170,9 +177,7 @@ cls
 )
 -
 >
-"
 Constraint
-"
 :
         
 return
@@ -201,9 +206,7 @@ InstallRequirement
 )
 -
 >
-"
 Constraint
-"
 :
         
 links
@@ -284,9 +287,7 @@ InstallRequirement
 )
 -
 >
-"
 Constraint
-"
 :
         
 if
@@ -365,9 +366,7 @@ is_satisfied_by
 self
 candidate
 :
-"
 Candidate
-"
 )
 -
 >
@@ -611,9 +610,7 @@ is_satisfied_by
 self
 candidate
 :
-"
 Candidate
-"
 )
 -
 >
@@ -670,9 +667,7 @@ link
 Link
 candidate
 :
-"
 Candidate
-"
 )
 -
 >
@@ -914,10 +909,9 @@ self
 )
 -
 >
-Optional
-[
 Link
-]
+|
+None
 :
         
 raise
@@ -942,10 +936,9 @@ bool
 >
 Iterable
 [
-Optional
-[
 Requirement
-]
+|
+None
 ]
 :
         
@@ -966,10 +959,9 @@ self
 )
 -
 >
-Optional
-[
 InstallRequirement
-]
+|
+None
 :
         
 raise

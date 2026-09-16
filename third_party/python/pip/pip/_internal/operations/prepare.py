@@ -31,12 +31,22 @@ strict
 optional
 =
 False
+from
+__future__
+import
+annotations
 import
 mimetypes
 import
 os
 import
 shutil
+from
+collections
+.
+abc
+import
+Iterable
 from
 dataclasses
 import
@@ -48,10 +58,7 @@ Path
 from
 typing
 import
-Dict
-Iterable
-List
-Optional
+TYPE_CHECKING
 from
 pip
 .
@@ -62,6 +69,14 @@ packaging
 utils
 import
 canonicalize_name
+from
+pip
+.
+_internal
+.
+build_env
+import
+BuildEnvironmentInstaller
 from
 pip
 .
@@ -161,7 +176,6 @@ network
 .
 download
 import
-BatchDownloader
 Downloader
 from
 pip
@@ -303,6 +317,20 @@ _internal
 vcs
 import
 vcs
+if
+TYPE_CHECKING
+:
+    
+from
+pip
+.
+_internal
+.
+cli
+.
+progress_bars
+import
+BarType
 logger
 =
 getLogger
@@ -321,9 +349,9 @@ build_tracker
 :
 BuildTracker
     
-finder
+build_env_installer
 :
-PackageFinder
+BuildEnvironmentInstaller
     
 build_isolation
 :
@@ -386,7 +414,7 @@ abstract_dist
 prepare_distribution_metadata
 (
                 
-finder
+build_env_installer
 build_isolation
 check_build_deps
             
@@ -461,10 +489,9 @@ str
     
 content_type
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -486,6 +513,36 @@ is
 None
 :
             
+#
+Try
+to
+guess
+the
+file
+'
+s
+MIME
+type
+.
+If
+the
+system
+MIME
+tables
+            
+#
+can
+'
+t
+be
+loaded
+give
+up
+.
+            
+try
+:
+                
 self
 .
 content_type
@@ -501,6 +558,12 @@ path
 [
 0
 ]
+            
+except
+OSError
+:
+                
+pass
 def
 get_http_url
 (
@@ -515,19 +578,17 @@ Downloader
     
 download_dir
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 =
 None
 )
@@ -644,18 +705,16 @@ link
 Link
 download_dir
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 =
 None
 )
@@ -844,28 +903,25 @@ int
     
 download_dir
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
 =
 None
 )
 -
 >
-Optional
-[
 File
-]
+|
+None
 :
     
 "
@@ -1075,10 +1131,9 @@ str
     
 hashes
 :
-Optional
-[
 Hashes
-]
+|
+None
     
 warn_on_hash_mismatch
 :
@@ -1088,10 +1143,9 @@ True
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -1254,8 +1308,19 @@ Requirement
 def
 __init__
 (
+#
+noqa
+:
+PLR0913
+(
+too
+many
+parameters
+)
         
 self
+        
+*
         
 build_dir
 :
@@ -1263,10 +1328,9 @@ str
         
 download_dir
 :
-Optional
-[
 str
-]
+|
+None
         
 src_dir
 :
@@ -1275,6 +1339,10 @@ str
 build_isolation
 :
 bool
+        
+build_isolation_installer
+:
+BuildEnvironmentInstaller
         
 check_build_deps
 :
@@ -1290,7 +1358,7 @@ PipSession
         
 progress_bar
 :
-str
+BarType
         
 finder
 :
@@ -1315,6 +1383,10 @@ int
 legacy_resolver
 :
 bool
+        
+resume_retries
+:
+int
     
 )
 -
@@ -1362,16 +1434,7 @@ Downloader
 (
 session
 progress_bar
-)
-        
-self
-.
-_batch_download
-=
-BatchDownloader
-(
-session
-progress_bar
+resume_retries
 )
         
 self
@@ -1425,6 +1488,12 @@ self
 build_isolation
 =
 build_isolation
+        
+self
+.
+build_env_installer
+=
+build_isolation_installer
         
 #
 Should
@@ -1530,7 +1599,7 @@ self
 .
 _downloaded
 :
-Dict
+dict
 [
 str
 str
@@ -1704,10 +1773,9 @@ str
                 
 comes_from
 :
-Optional
-[
 str
-]
+|
+None
 =
 req
 .
@@ -2260,10 +2328,9 @@ InstallRequirement
 )
 -
 >
-Optional
-[
 BaseDistribution
-]
+|
+None
 :
         
 if
@@ -2375,10 +2442,9 @@ InstallRequirement
 )
 -
 >
-Optional
-[
 BaseDistribution
-]
+|
+None
 :
         
 "
@@ -2692,10 +2758,9 @@ Link
 )
 -
 >
-Optional
-[
 BaseDistribution
-]
+|
+None
 :
         
 "
@@ -3003,7 +3068,7 @@ BatchDownloader
         
 links_to_fully_download
 :
-Dict
+dict
 [
 Link
 InstallRequirement
@@ -3036,17 +3101,16 @@ batch_download
 =
 self
 .
-_batch_download
+_download
+.
+batch
 (
-            
 links_to_fully_download
 .
 keys
 (
 )
-            
 temp_dir
-        
 )
         
 for
@@ -3726,7 +3790,7 @@ separately
         
 partially_downloaded_reqs
 :
-List
+list
 [
 InstallRequirement
 ]
@@ -4427,7 +4491,7 @@ build_tracker
             
 self
 .
-finder
+build_env_installer
             
 self
 .
@@ -4784,7 +4848,7 @@ build_tracker
                 
 self
 .
-finder
+build_env_installer
                 
 self
 .

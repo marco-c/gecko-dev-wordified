@@ -39,6 +39,10 @@ stat
 import
 ST_MODE
 from
+typing
+import
+ClassVar
+from
 .
 .
 core
@@ -144,6 +148,14 @@ steps
 ]
     
 boolean_options
+:
+ClassVar
+[
+list
+[
+str
+]
+]
 =
 [
 '
@@ -192,6 +204,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 self
@@ -254,6 +269,9 @@ run
 (
 self
 )
+-
+>
+None
 :
         
 if
@@ -331,29 +349,6 @@ get_outputs
 )
 :
                 
-if
-self
-.
-dry_run
-:
-                    
-log
-.
-info
-(
-"
-changing
-mode
-of
-%
-s
-"
-file
-)
-                
-else
-:
-                    
 mode
 =
 (
@@ -373,7 +368,7 @@ ST_MODE
 )
 &
 0o7777
-                    
+                
 log
 .
 info
@@ -391,7 +386,7 @@ o
 file
 mode
 )
-                    
+                
 os
 .
 chmod

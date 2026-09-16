@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 csv
 import
@@ -17,6 +21,15 @@ re
 import
 zipfile
 from
+collections
+.
+abc
+import
+Collection
+Container
+Iterable
+Iterator
+from
 typing
 import
 (
@@ -25,25 +38,9 @@ IO
     
 Any
     
-Collection
-    
-Container
-    
-Dict
-    
-Iterable
-    
-Iterator
-    
-List
-    
 NamedTuple
     
-Optional
-    
 Protocol
-    
-Tuple
     
 Union
 )
@@ -256,7 +253,7 @@ _convert_installed_files_path
     
 entry
 :
-Tuple
+tuple
 [
 str
 .
@@ -266,7 +263,7 @@ str
     
 info
 :
-Tuple
+tuple
 [
 str
 .
@@ -554,9 +551,7 @@ str
 )
 -
 >
-"
 BaseDistribution
-"
 :
         
 "
@@ -622,9 +617,7 @@ str
 )
 -
 >
-"
 BaseDistribution
-"
 :
         
 "
@@ -730,18 +723,14 @@ from_wheel
 cls
 wheel
 :
-"
 Wheel
-"
 name
 :
 str
 )
 -
 >
-"
 BaseDistribution
-"
 :
         
 "
@@ -895,10 +884,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -1010,10 +998,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -1191,10 +1178,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -1290,10 +1276,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -1575,16 +1560,54 @@ location
 return
 False
         
-return
+#
+XXX
+if
+the
+distribution
+is
+a
+zipped
+egg
 location
+has
+a
+trailing
+/
+        
+#
+so
+we
+resort
+to
+pathlib
 .
-endswith
+Path
+to
+check
+the
+suffix
+in
+a
+reliable
+way
+.
+        
+return
+pathlib
+.
+Path
 (
+location
+)
+.
+suffix
+=
+=
 "
 .
 egg
 "
-)
     
 property
     
@@ -1982,10 +2005,9 @@ self
 )
 -
 >
-Optional
-[
 DirectUrl
-]
+|
+None
 :
         
 "
@@ -2666,7 +2688,7 @@ self
 )
 -
 >
-Dict
+dict
 [
 str
 Any
@@ -2745,10 +2767,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -3207,13 +3228,12 @@ self
 )
 -
 >
-Optional
-[
 Iterator
 [
 str
 ]
-]
+|
+None
 :
         
 try
@@ -3284,13 +3304,12 @@ self
 )
 -
 >
-Optional
-[
 Iterator
 [
 str
 ]
-]
+|
+None
 :
         
 try
@@ -3443,13 +3462,12 @@ self
 )
 -
 >
-Optional
-[
 Iterator
 [
 str
 ]
-]
+|
+None
 :
         
 "
@@ -4255,9 +4273,7 @@ cls
 )
 -
 >
-"
 BaseEnvironment
-"
 :
         
 raise
@@ -4273,19 +4289,16 @@ from_paths
 cls
 paths
 :
-Optional
-[
-List
+list
 [
 str
 ]
-]
+|
+None
 )
 -
 >
-"
 BaseEnvironment
-"
 :
         
 raise
@@ -4303,12 +4316,9 @@ str
 )
 -
 >
-Optional
-[
-"
 BaseDistribution
-"
-]
+|
+None
 :
         
 "
@@ -4359,9 +4369,7 @@ self
 >
 Iterator
 [
-"
 BaseDistribution
-"
 ]
 :
         

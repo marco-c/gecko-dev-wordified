@@ -77,6 +77,9 @@ initialize_options
 (
 self
 )
+-
+>
+None
 :
         
 orig
@@ -197,17 +200,17 @@ side
 effects
         
 from
-pkg_resources
+.
+.
 import
-Distribution
-PathMetadata
+_scripts
         
 from
 .
+.
+_importlib
 import
-easy_install
-as
-ei
+metadata
         
 ei_cmd
 =
@@ -222,31 +225,17 @@ egg_info
         
 dist
 =
+metadata
+.
 Distribution
-(
-            
-ei_cmd
 .
-egg_base
-            
-PathMetadata
+at
 (
-ei_cmd
-.
-egg_base
+path
+=
 ei_cmd
 .
 egg_info
-)
-            
-ei_cmd
-.
-egg_name
-            
-ei_cmd
-.
-egg_version
-        
 )
         
 bs_cmd
@@ -273,7 +262,7 @@ None
         
 writer
 =
-ei
+_scripts
 .
 ScriptWriter
         
@@ -388,6 +377,9 @@ t
 *
 ignored
 )
+-
+>
+None
 :
         
 "
@@ -406,12 +398,12 @@ directory
 "
         
 from
-setuptools
 .
-command
 .
-easy_install
+_shutil
 import
+attempt_chmod_verbose
+as
 chmod
 current_umask
         
@@ -479,18 +471,11 @@ current_umask
 (
 )
         
-if
-not
-self
-.
-dry_run
-:
-            
 ensure_directory
 (
 target
 )
-            
+        
 with
 open
 (
@@ -507,14 +492,14 @@ encoding
 as
 f
 :
-                
+            
 f
 .
 write
 (
 contents
 )
-            
+        
 chmod
 (
 target

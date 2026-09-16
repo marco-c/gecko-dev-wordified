@@ -1644,7 +1644,7 @@ in
 cleaning
 up
 the
-doctring
+docstring
 '
 s
 indentation

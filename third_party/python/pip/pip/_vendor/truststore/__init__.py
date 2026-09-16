@@ -87,6 +87,22 @@ version_info
 3
 13
 )
+and
+_sys
+.
+implementation
+.
+name
+not
+in
+(
+"
+cpython
+"
+"
+pypy
+"
+)
 :
     
 try
@@ -251,5 +267,5 @@ __version__
 .
 10
 .
-0
+1
 "

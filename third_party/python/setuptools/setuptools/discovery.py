@@ -223,7 +223,9 @@ collections
 .
 abc
 import
+Iterable
 Iterator
+Mapping
 from
 fnmatch
 import
@@ -240,8 +242,7 @@ from
 typing
 import
 TYPE_CHECKING
-Iterable
-Mapping
+ClassVar
 import
 _distutils_hack
 .
@@ -362,6 +363,9 @@ patterns
 :
 str
 )
+-
+>
+None
 :
         
 self
@@ -446,6 +450,8 @@ finders
     
 ALWAYS_EXCLUDE
 :
+ClassVar
+[
 tuple
 [
 str
@@ -453,18 +459,22 @@ str
 .
 .
 ]
+]
 =
 (
 )
     
 DEFAULT_EXCLUDE
 :
+ClassVar
+[
 tuple
 [
 str
 .
 .
 .
+]
 ]
 =
 (
@@ -542,14 +552,10 @@ implementation
 found
 within
 directory
-'
 where
-'
 .
         
-'
 where
-'
 is
 the
 root
@@ -595,9 +601,7 @@ path
 syntax
 .
         
-'
 exclude
-'
 is
 a
 sequence
@@ -606,9 +610,7 @@ names
 to
 exclude
 ;
-'
 *
-'
 can
 be
 used
@@ -624,33 +626,25 @@ names
 When
 finding
 packages
-'
 foo
 .
 *
-'
 will
 exclude
 all
 subpackages
 of
-'
 foo
-'
         
 (
 but
 not
-'
 foo
-'
 itself
 )
 .
         
-'
 include
-'
 is
 a
 sequence
@@ -688,9 +682,7 @@ be
 included
 .
         
-'
 include
-'
 can
 contain
 shell
@@ -700,9 +692,7 @@ patterns
 just
 like
         
-'
 exclude
-'
 .
         
 "
@@ -1919,6 +1909,9 @@ distribution
 :
 Distribution
 )
+-
+>
+None
 :
         
 self
@@ -2173,6 +2166,9 @@ bool
 False
     
 )
+-
+>
+None
 :
         
 "
@@ -3406,6 +3402,9 @@ analyse_name
 (
 self
 )
+-
+>
+None
 :
         
 "

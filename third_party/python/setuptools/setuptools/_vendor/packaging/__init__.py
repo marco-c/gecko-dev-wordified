@@ -68,9 +68,9 @@ packaging
 __version__
 =
 "
-24
+26
 .
-1
+0
 "
 __author__
 =
@@ -106,10 +106,10 @@ Apache
 "
 __copyright__
 =
+f
 "
 2014
-%
-s
-"
-%
+{
 __author__
+}
+"

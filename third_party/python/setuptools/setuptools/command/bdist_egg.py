@@ -28,9 +28,16 @@ sys
 import
 textwrap
 from
+collections
+.
+abc
+import
+Iterator
+from
 sysconfig
 import
 get_path
+get_platform
 get_python_version
 from
 types
@@ -40,6 +47,7 @@ from
 typing
 import
 TYPE_CHECKING
+AnyStr
 Literal
 from
 setuptools
@@ -56,6 +64,8 @@ from
 .
 _path
 import
+StrPath
+StrPathT
 ensure_directory
 from
 distutils
@@ -71,6 +81,11 @@ remove_tree
 if
 TYPE_CHECKING
 :
+    
+from
+_typeshed
+import
+GenericPath
     
 from
 typing_extensions
@@ -145,33 +160,47 @@ filename
 0
 ]
     
-if
+filename
+=
 filename
 .
-endswith
+removesuffix
 (
 '
 module
 '
 )
-:
-        
-filename
-=
-filename
-[
-:
--
-6
-]
     
 return
 filename
 def
 sorted_walk
 (
+    
 dir
+:
+GenericPath
+[
+AnyStr
+]
 )
+-
+>
+Iterator
+[
+tuple
+[
+AnyStr
+list
+[
+AnyStr
+]
+list
+[
+AnyStr
+]
+]
+]
 :
     
 "
@@ -232,6 +261,9 @@ write_stub
 resource
 pyfile
 )
+-
+>
+None
 :
     
 _stub_template
@@ -258,22 +290,37 @@ __file__
             
 import
 sys
-pkg_resources
+importlib
+.
+resources
+as
+irs
 importlib
 .
 util
             
-__file__
-=
-pkg_resources
+with
+irs
 .
-resource_filename
+as_file
+(
+irs
+.
+files
 (
 __name__
+)
+.
+joinpath
+(
 %
 r
 )
-            
+)
+as
+__file__
+:
+                
 __loader__
 =
 None
@@ -281,7 +328,7 @@ None
 del
 __bootstrap__
 __loader__
-            
+                
 spec
 =
 importlib
@@ -293,7 +340,7 @@ spec_from_file_location
 __name__
 __file__
 )
-            
+                
 mod
 =
 importlib
@@ -304,7 +351,7 @@ module_from_spec
 (
 spec
 )
-            
+                
 spec
 .
 loader
@@ -364,16 +411,14 @@ Command
     
 description
 =
-"
+'
 create
 an
-\
 "
 egg
-\
 "
 distribution
-"
+'
     
 user_options
 =
@@ -427,9 +472,9 @@ filenames
 by
 default
 uses
-pkg_resources
+sysconfig
 .
-get_build_platform
+get_platform
 (
 )
 )
@@ -610,6 +655,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 ei_cmd
@@ -680,16 +728,11 @@ is
 None
 :
             
-from
-pkg_resources
-import
-get_build_platform
-            
 self
 .
 plat_name
 =
-get_build_platform
+get_platform
 (
 )
         
@@ -781,6 +824,9 @@ do_install_data
 (
 self
 )
+-
+>
+None
 :
         
 #
@@ -1081,18 +1127,6 @@ self
 skip_build
 )
         
-kw
-.
-setdefault
-(
-'
-dry_run
-'
-self
-.
-dry_run
-)
-        
 cmd
 =
 self
@@ -1120,6 +1154,9 @@ run
 (
 self
 )
+-
+>
+None
 :
 #
 noqa
@@ -1287,7 +1324,7 @@ ext_outputs
 :
             
 filename
-ext
+_ext
 =
 os
 .
@@ -1344,13 +1381,6 @@ s
 ext_name
 )
             
-if
-not
-self
-.
-dry_run
-:
-                
 write_stub
 (
 os
@@ -1540,18 +1570,11 @@ s
 native_libs
 )
             
-if
-not
-self
-.
-dry_run
-:
-                
 ensure_directory
 (
 native_libs
 )
-                
+            
 with
 open
 (
@@ -1570,7 +1593,7 @@ utf
 as
 libs_file
 :
-                    
+                
 libs_file
 .
 write
@@ -1585,7 +1608,7 @@ join
 all_outputs
 )
 )
-                    
+                
 libs_file
 .
 write
@@ -1619,13 +1642,6 @@ s
 native_libs
 )
             
-if
-not
-self
-.
-dry_run
-:
-                
 os
 .
 unlink
@@ -1755,12 +1771,6 @@ self
 .
 verbose
             
-dry_run
-=
-self
-.
-dry_run
-            
 mode
 =
 self
@@ -1783,11 +1793,6 @@ remove_tree
 self
 .
 bdist_dir
-dry_run
-=
-self
-.
-dry_run
 )
         
 #
@@ -1843,6 +1848,9 @@ zap_pyfiles
 (
 self
 )
+-
+>
+None
 :
         
 log
@@ -1979,6 +1987,26 @@ pattern
 name
 )
                     
+#
+We
+shouldn
+'
+t
+find
+any
+non
+-
+pyc
+files
+in
+__pycache__
+                    
+assert
+m
+is
+not
+None
+                    
 path_new
 =
 os
@@ -2010,25 +2038,23 @@ log
 .
 info
 (
+f
 "
 Renaming
 file
 from
 [
-%
-s
+{
+path_old
+}
 ]
 to
 [
-%
-s
+{
+path_new
+}
 ]
 "
-%
-(
-path_old
-path_new
-)
 )
                     
 try
@@ -2120,6 +2146,14 @@ gen_header
 (
 self
 )
+-
+>
+Literal
+[
+"
+w
+"
+]
 :
         
 return
@@ -2133,6 +2167,9 @@ copy_metadata_to
 self
 target_dir
 )
+-
+>
+None
 :
         
 "
@@ -2488,6 +2525,12 @@ return
 all_outputs
 ext_outputs
 NATIVE_EXTENSIONS
+:
+dict
+[
+str
+None
+]
 =
 dict
 .
@@ -2512,7 +2555,26 @@ def
 walk_egg
 (
 egg_dir
+:
+StrPath
 )
+-
+>
+Iterator
+[
+tuple
+[
+str
+list
+[
+str
+]
+list
+[
+str
+]
+]
+]
 :
     
 "
@@ -2670,20 +2732,16 @@ name
 .
 endswith
 (
+(
 '
 .
 py
 '
-)
-or
-name
-.
-endswith
-(
 '
 .
 pyw
 '
+)
 )
 :
                 
@@ -2694,20 +2752,16 @@ name
 .
 endswith
 (
+(
 '
 .
 pyc
 '
-)
-or
-name
-.
-endswith
-(
 '
 .
 pyo
 '
+)
 )
 :
                 
@@ -2745,6 +2799,9 @@ write_safety_flag
 egg_dir
 safe
 )
+-
+>
+None
 :
     
 #
@@ -3190,7 +3247,15 @@ def
 iter_symbols
 (
 code
+:
+CodeType
 )
+-
+>
+Iterator
+[
+str
+]
 :
     
 "
@@ -3255,6 +3320,9 @@ def
 can_scan
 (
 )
+-
+>
+bool
 :
     
 if
@@ -3388,16 +3456,12 @@ make_zipfile
 (
     
 zip_filename
+:
+StrPathT
     
 base_dir
     
 verbose
-:
-bool
-=
-False
-    
-dry_run
 :
 bool
 =
@@ -3415,6 +3479,9 @@ _ZipFileMode
 w
 '
 )
+-
+>
+StrPathT
 :
     
 "
@@ -3519,10 +3586,22 @@ dirname
 (
 zip_filename
 )
-dry_run
-=
-dry_run
 )
+#
+type
+:
+ignore
+[
+arg
+-
+type
+]
+#
+python
+/
+mypy
+#
+18075
     
 log
 .
@@ -3605,11 +3684,6 @@ base_dir
 :
 ]
                 
-if
-not
-dry_run
-:
-                    
 z
 .
 write
@@ -3644,11 +3718,6 @@ zipfile
 .
 ZIP_STORED
     
-if
-not
-dry_run
-:
-        
 z
 =
 zipfile
@@ -3661,7 +3730,7 @@ compression
 =
 compression
 )
-        
+    
 for
 dirname
 dirs
@@ -3672,39 +3741,18 @@ sorted_walk
 base_dir
 )
 :
-            
+        
 visit
 (
 z
 dirname
 files
 )
-        
+    
 z
 .
 close
 (
-)
-    
-else
-:
-        
-for
-dirname
-dirs
-files
-in
-sorted_walk
-(
-base_dir
-)
-:
-            
-visit
-(
-None
-dirname
-files
 )
     
 return

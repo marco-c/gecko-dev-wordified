@@ -2449,9 +2449,6 @@ marker
 operator
 one
 of
-"
-            
-"
 <
 =
 <

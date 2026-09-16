@@ -98,7 +98,7 @@ env_names
 (
         
 "
-TERM
+CLICOLOR
 "
         
 "
@@ -106,23 +106,11 @@ COLORTERM
 "
         
 "
-CLICOLOR
-"
-        
-"
-NO_COLOR
-"
-        
-"
-TERM_PROGRAM
-"
-        
-"
 COLUMNS
 "
         
 "
-LINES
+JPY_PARENT_PID
 "
         
 "
@@ -134,7 +122,27 @@ JUPYTER_LINES
 "
         
 "
-JPY_PARENT_PID
+LINES
+"
+        
+"
+NO_COLOR
+"
+        
+"
+TERM_PROGRAM
+"
+        
+"
+TERM
+"
+        
+"
+TTY_COMPATIBLE
+"
+        
+"
+TTY_INTERACTIVE
 "
         
 "

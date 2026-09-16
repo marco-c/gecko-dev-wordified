@@ -12,6 +12,10 @@ support
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 logging
 import
@@ -25,6 +29,14 @@ urllib
 .
 parse
 from
+collections
+.
+abc
+import
+Iterable
+Iterator
+Mapping
+from
 dataclasses
 import
 dataclass
@@ -36,25 +48,9 @@ import
     
 Any
     
-Dict
-    
-Iterable
-    
-Iterator
-    
-List
-    
 Literal
     
-Mapping
-    
 Optional
-    
-Tuple
-    
-Type
-    
-Union
 )
 from
 pip
@@ -138,7 +134,7 @@ __name__
 )
 AuthInfo
 =
-Tuple
+tuple
 [
 Optional
 [
@@ -237,10 +233,9 @@ project_name
 str
 subdir
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
 )
@@ -366,10 +361,9 @@ str
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
     
 "
@@ -648,19 +642,16 @@ options
     
 vc_class
 :
-Type
+type
 [
-"
 VersionControl
-"
 ]
     
 rev
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -677,10 +668,9 @@ list
     
 branch_name
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -728,10 +718,9 @@ self
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 if
@@ -868,9 +857,7 @@ str
 )
 -
 >
-"
 RevOptions
-"
 :
         
 "
@@ -931,12 +918,10 @@ VcsSupport
     
 _registry
 :
-Dict
+dict
 [
 str
-"
 VersionControl
-"
 ]
 =
 {
@@ -1041,11 +1026,9 @@ self
 )
 -
 >
-List
+list
 [
-"
 VersionControl
-"
 ]
 :
         
@@ -1070,7 +1053,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1098,7 +1081,7 @@ self
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -1106,7 +1089,7 @@ str
         
 schemes
 :
-List
+list
 [
 str
 ]
@@ -1140,11 +1123,9 @@ register
 self
 cls
 :
-Type
+type
 [
-"
 VersionControl
-"
 ]
 )
 -
@@ -1261,12 +1242,9 @@ str
 )
 -
 >
-Optional
-[
-"
 VersionControl
-"
-]
+|
+None
 :
         
 "
@@ -1446,12 +1424,9 @@ str
 )
 -
 >
-Optional
-[
-"
 VersionControl
-"
-]
+|
+None
 :
         
 "
@@ -1506,12 +1481,9 @@ str
 )
 -
 >
-Optional
-[
-"
 VersionControl
-"
-]
+|
+None
 :
         
 "
@@ -1583,7 +1555,7 @@ Control
     
 schemes
 :
-Tuple
+tuple
 [
 str
 .
@@ -1610,7 +1582,7 @@ call_subprocess
     
 unset_environ
 :
-Tuple
+tuple
 [
 str
 .
@@ -1623,10 +1595,9 @@ str
     
 default_arg_rev
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
     
@@ -1719,10 +1690,9 @@ str
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "
@@ -1967,7 +1937,7 @@ str
 )
 -
 >
-List
+list
 [
 str
 ]
@@ -2109,18 +2079,16 @@ make_rev_options
 cls
 rev
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
 extra_args
 :
-Optional
-[
 CommandArgs
-]
+|
+None
 =
 None
     
@@ -2274,19 +2242,17 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
-Tuple
-[
-Optional
+tuple
 [
 str
-]
-Optional
-[
+|
+None
 str
-]
+|
+None
 ]
 ]
 :
@@ -2429,13 +2395,12 @@ str
 )
 -
 >
-Tuple
+tuple
 [
 str
-Optional
-[
 str
-]
+|
+None
 AuthInfo
 ]
 :
@@ -2700,20 +2665,16 @@ staticmethod
 def
 make_rev_args
 (
-        
 username
 :
-Optional
-[
 str
-]
+|
+None
 password
 :
-Optional
-[
 HiddenText
-]
-    
+|
+None
 )
 -
 >
@@ -2757,7 +2718,7 @@ HiddenText
 )
 -
 >
-Tuple
+tuple
 [
 HiddenText
 RevOptions
@@ -2814,10 +2775,9 @@ user_pass
         
 password
 :
-Optional
-[
 HiddenText
-]
+|
+None
 =
 None
         
@@ -3058,16 +3018,27 @@ NotImplementedError
 def
 switch
 (
+        
 self
+        
 dest
 :
 str
+        
 url
 :
 HiddenText
+        
 rev_options
 :
 RevOptions
+        
+verbosity
+:
+int
+=
+0
+    
 )
 -
 >
@@ -3109,16 +3080,27 @@ NotImplementedError
 def
 update
 (
+        
 self
+        
 dest
 :
 str
+        
 url
 :
 HiddenText
+        
 rev_options
 :
 RevOptions
+        
+verbosity
+:
+int
+=
+0
+    
 )
 -
 >
@@ -3169,10 +3151,9 @@ dest
 str
 name
 :
-Optional
-[
 str
-]
+|
+None
 )
 -
 >
@@ -3462,6 +3443,9 @@ update
 dest
 url
 rev_options
+verbosity
+=
+verbosity
 )
                 
 else
@@ -3877,6 +3861,9 @@ switch
 dest
 url
 rev_options
+verbosity
+=
+verbosity
 )
     
 def
@@ -4073,14 +4060,12 @@ cls
         
 cmd
 :
-Union
-[
-List
+list
 [
 str
 ]
+|
 CommandArgs
-]
         
 show_stdout
 :
@@ -4090,16 +4075,14 @@ True
         
 cwd
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 on_returncode
 :
-'
 Literal
 [
 "
@@ -4112,7 +4095,6 @@ warn
 ignore
 "
 ]
-'
 =
 "
 raise
@@ -4120,44 +4102,40 @@ raise
         
 extra_ok_returncodes
 :
-Optional
-[
 Iterable
 [
 int
 ]
-]
+|
+None
 =
 None
         
 command_desc
 :
-Optional
-[
 str
-]
+|
+None
 =
 None
         
 extra_environ
 :
-Optional
-[
 Mapping
 [
 str
 Any
 ]
-]
+|
+None
 =
 None
         
 spinner
 :
-Optional
-[
 SpinnerInterface
-]
+|
+None
 =
 None
         
@@ -4604,10 +4582,9 @@ str
 )
 -
 >
-Optional
-[
 str
-]
+|
+None
 :
         
 "

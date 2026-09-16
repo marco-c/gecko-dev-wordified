@@ -2092,7 +2092,7 @@ cmd
 .
 metadata_check
 =
-0
+False
         
 cmd
 .

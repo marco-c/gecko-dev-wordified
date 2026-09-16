@@ -18,7 +18,7 @@ C
 )
 2012
 -
-2023
+2024
 Vinay
 Sajip
 .
@@ -52,9 +52,9 @@ __version__
 '
 0
 .
-3
+4
 .
-9
+0
 '
 class
 DistlibException

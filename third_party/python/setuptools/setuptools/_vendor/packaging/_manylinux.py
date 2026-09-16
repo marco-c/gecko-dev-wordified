@@ -40,6 +40,38 @@ EF_ARM_ABI_VER5
 EF_ARM_ABI_FLOAT_HARD
 =
 0x00000400
+_ALLOWED_ARCHS
+=
+{
+    
+"
+x86_64
+"
+    
+"
+aarch64
+"
+    
+"
+ppc64
+"
+    
+"
+ppc64le
+"
+    
+"
+s390x
+"
+    
+"
+loongarch64
+"
+    
+"
+riscv64
+"
+}
 #
 os
 .
@@ -345,46 +377,12 @@ _is_linux_i686
 executable
 )
     
-allowed_archs
-=
-{
-        
-"
-x86_64
-"
-        
-"
-aarch64
-"
-        
-"
-ppc64
-"
-        
-"
-ppc64le
-"
-        
-"
-s390x
-"
-        
-"
-loongarch64
-"
-        
-"
-riscv64
-"
-    
-}
-    
 return
 any
 (
 arch
 in
-allowed_archs
+_ALLOWED_ARCHS
 for
 arch
 in
@@ -694,6 +692,10 @@ try
         
 import
 ctypes
+#
+noqa
+:
+PLC0415
     
 except
 ImportError
@@ -1041,11 +1043,7 @@ str
 )
 -
 >
-tuple
-[
-int
-int
-]
+_GLibCVersion
 :
     
 "
@@ -1192,10 +1190,6 @@ components
 major
 .
 minor
-"
-            
-f
-"
 got
 :
 {
@@ -1204,16 +1198,25 @@ version_str
 "
             
 RuntimeWarning
+            
+stacklevel
+=
+2
         
 )
         
 return
+_GLibCVersion
+(
 -
 1
 -
 1
+)
     
 return
+_GLibCVersion
+(
 int
 (
 m
@@ -1236,6 +1239,7 @@ minor
 "
 )
 )
+)
 functools
 .
 lru_cache
@@ -1245,11 +1249,7 @@ _get_glibc_version
 )
 -
 >
-tuple
-[
-int
-int
-]
+_GLibCVersion
 :
     
 version_str
@@ -1265,6 +1265,7 @@ None
 :
         
 return
+_GLibCVersion
 (
 -
 1
@@ -1327,6 +1328,10 @@ try
         
 import
 _manylinux
+#
+noqa
+:
+PLC0415
     
 except
 ImportError
@@ -1387,9 +1392,7 @@ _GLibCVersion
 2
 5
 )
-:
-        
-if
+and
 hasattr
 (
 _manylinux
@@ -1398,7 +1401,7 @@ manylinux1_compatible
 "
 )
 :
-            
+        
 return
 bool
 (
@@ -1416,18 +1419,18 @@ _GLibCVersion
 2
 12
 )
-:
-        
-if
+and
 hasattr
 (
+        
 _manylinux
 "
 manylinux2010_compatible
 "
+    
 )
 :
-            
+        
 return
 bool
 (
@@ -1445,18 +1448,18 @@ _GLibCVersion
 2
 17
 )
-:
-        
-if
+and
 hasattr
 (
+        
 _manylinux
 "
 manylinux2014_compatible
 "
+    
 )
 :
-            
+        
 return
 bool
 (
@@ -1468,6 +1471,12 @@ manylinux2014_compatible
 return
 True
 _LEGACY_MANYLINUX_MAP
+:
+dict
+[
+_GLibCVersion
+str
+]
 =
 {
     
@@ -1485,6 +1494,7 @@ PEP
 599
 )
     
+_GLibCVersion
 (
 2
 17
@@ -1508,6 +1518,7 @@ PEP
 571
 )
     
+_GLibCVersion
 (
 2
 12
@@ -1531,6 +1542,7 @@ PEP
 513
 )
     
+_GLibCVersion
 (
 2
 5
@@ -1917,10 +1929,20 @@ major
 glibc_minor
 )
                 
-tag
-=
+if
+_is_compatible
+(
+arch
+glibc_version
+)
+:
+                    
+yield
 "
 manylinux_
+{
+}
+_
 {
 }
 _
@@ -1932,28 +1954,9 @@ format
 (
 *
 glibc_version
-)
-                
-if
-_is_compatible
-(
 arch
-glibc_version
 )
-:
                     
-yield
-f
-"
-{
-tag
-}
-_
-{
-arch
-}
-"
-                
 #
 Handle
 the
@@ -1963,24 +1966,15 @@ manylinux2010
 manylinux2014
 tags
 .
-                
-if
-glibc_version
-in
-_LEGACY_MANYLINUX_MAP
-:
                     
+if
 legacy_tag
+:
 =
 _LEGACY_MANYLINUX_MAP
-[
-glibc_version
-]
-                    
-if
-_is_compatible
+.
+get
 (
-arch
 glibc_version
 )
 :

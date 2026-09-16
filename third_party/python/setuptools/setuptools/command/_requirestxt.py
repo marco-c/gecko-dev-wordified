@@ -89,14 +89,18 @@ collections
 import
 defaultdict
 from
+collections
+.
+abc
+import
+Mapping
+from
 itertools
 import
 filterfalse
 from
 typing
 import
-Dict
-Mapping
 TypeVar
 from
 jaraco
@@ -139,7 +143,7 @@ _T
 )
 _Ordered
 =
-Dict
+dict
 [
 _T
 None
@@ -234,7 +238,7 @@ _StrOrIter
 )
 -
 >
-Mapping
+defaultdict
 [
 str
 _Ordered
@@ -291,8 +295,8 @@ barbazquux
 "
     
 output
-:
-Mapping
+=
+defaultdict
 [
 str
 _Ordered
@@ -300,8 +304,6 @@ _Ordered
 Requirement
 ]
 ]
-=
-defaultdict
 (
 dict
 )

@@ -1,7 +1,9 @@
+from
+__future__
+import
+annotations
 import
 io
-import
-sys
 import
 typing
 import
@@ -61,6 +63,8 @@ typing
 import
 (
     
+TYPE_CHECKING
+    
 Any
     
 BinaryIO
@@ -79,13 +83,13 @@ Iterable
     
 List
     
+Literal
+    
 NamedTuple
     
 NewType
     
 Optional
-    
-Sequence
     
 TextIO
     
@@ -98,61 +102,26 @@ TypeVar
 Union
 )
 if
-sys
-.
-version_info
->
-=
-(
-3
-8
-)
+TYPE_CHECKING
 :
     
-from
-typing
-import
-Literal
-else
-:
-    
-from
-pip
-.
-_vendor
-.
-typing_extensions
-import
-Literal
 #
-pragma
-:
-no
-cover
-if
-sys
-.
-version_info
->
-=
-(
-3
-11
-)
-:
-    
+Can
+be
+replaced
+with
 from
 typing
 import
 Self
-else
-:
+in
+Python
+3
+.
+11
++
     
 from
-pip
-.
-_vendor
-.
 typing_extensions
 import
 Self
@@ -515,16 +484,9 @@ track
     
 sequence
 :
-Union
-[
-Sequence
-[
-ProgressType
-]
 Iterable
 [
 ProgressType
-]
 ]
     
 description
@@ -674,6 +636,24 @@ a
 sequence
 .
     
+You
+can
+also
+track
+progress
+of
+an
+iterable
+which
+might
+require
+that
+you
+additionally
+specify
+total
+.
+    
 Args
 :
         
@@ -685,20 +665,15 @@ ProgressType
 ]
 )
 :
-A
-sequence
-(
-must
-support
-"
-len
-"
-)
+Values
 you
 wish
 to
 iterate
 over
+and
+track
+progress
 .
         
 description
@@ -9072,16 +9047,9 @@ self
         
 sequence
 :
-Union
-[
 Iterable
 [
 ProgressType
-]
-Sequence
-[
-ProgressType
-]
 ]
         
 total
@@ -9148,21 +9116,36 @@ a
 sequence
 .
         
+You
+can
+also
+track
+progress
+of
+an
+iterable
+which
+might
+require
+that
+you
+additionally
+specify
+total
+.
+        
 Args
 :
             
 sequence
 (
-Sequence
+Iterable
 [
 ProgressType
 ]
 )
 :
-A
-sequence
-of
-values
+Values
 you
 want
 to

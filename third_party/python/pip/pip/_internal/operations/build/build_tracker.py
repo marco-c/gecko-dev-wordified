@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 contextlib
 import
@@ -7,17 +11,15 @@ logging
 import
 os
 from
+collections
+.
+abc
+import
+Generator
+from
 types
 import
 TracebackType
-from
-typing
-import
-Dict
-Generator
-Optional
-Type
-Union
 from
 pip
 .
@@ -93,14 +95,12 @@ object
     
 saved_values
 :
-Dict
+dict
 [
 str
-Union
-[
 object
+|
 str
-]
 ]
 =
 {
@@ -218,9 +218,7 @@ get_build_tracker
 >
 Generator
 [
-"
 BuildTracker
-"
 None
 None
 ]
@@ -425,7 +423,7 @@ self
 .
 _entries
 :
-Dict
+dict
 [
 TrackerId
 InstallRequirement
@@ -458,9 +456,7 @@ self
 )
 -
 >
-"
 BuildTracker
-"
 :
         
 logger
@@ -491,27 +487,24 @@ self
         
 exc_type
 :
-Optional
-[
-Type
+type
 [
 BaseException
 ]
-]
+|
+None
         
 exc_val
 :
-Optional
-[
 BaseException
-]
+|
+None
         
 exc_tb
 :
-Optional
-[
 TracebackType
-]
+|
+None
     
 )
 -

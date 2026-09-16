@@ -1,3 +1,7 @@
+from
+__future__
+import
+annotations
 import
 logging
 import
@@ -12,8 +16,7 @@ from
 typing
 import
 Any
-List
-Optional
+Callable
 from
 pip
 .
@@ -625,26 +628,30 @@ cmd_opts
 )
     
 def
-run
+handler_map
 (
 self
-options
-:
-Values
-args
-:
-List
-[
-str
-]
 )
 -
 >
-int
+dict
+[
+str
+Callable
+[
+[
+Values
+list
+[
+str
+]
+]
+None
+]
+]
 :
         
-handlers
-=
+return
 {
             
 "
@@ -696,6 +703,33 @@ self
 list_config_values
         
 }
+    
+def
+run
+(
+self
+options
+:
+Values
+args
+:
+list
+[
+str
+]
+)
+-
+>
+int
+:
+        
+handler_map
+=
+self
+.
+handler_map
+(
+)
         
 #
 Determine
@@ -711,7 +745,7 @@ args
 ]
 not
 in
-handlers
+handler_map
 :
             
 logger
@@ -739,7 +773,7 @@ join
 (
 sorted
 (
-handlers
+handler_map
 )
 )
             
@@ -878,7 +912,7 @@ handlers
 try
 :
             
-handlers
+handler_map
 [
 action
 ]
@@ -928,10 +962,9 @@ bool
 )
 -
 >
-Optional
-[
 Kind
-]
+|
+None
 :
         
 file_options
@@ -1105,7 +1138,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]
@@ -1144,6 +1177,20 @@ items
 )
 :
             
+for
+key
+value
+in
+sorted
+(
+value
+.
+items
+(
+)
+)
+:
+                
 write_output
 (
 "
@@ -1166,7 +1213,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]
@@ -1223,7 +1270,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]
@@ -1280,7 +1327,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]
@@ -1332,7 +1379,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]
@@ -1475,6 +1522,7 @@ self
 print_config_file_values
 (
 variant
+fname
 )
     
 def
@@ -1484,6 +1532,9 @@ self
 variant
 :
 Kind
+fname
+:
+str
 )
 -
 >
@@ -1532,6 +1583,24 @@ indent_log
 )
 :
                 
+if
+name
+=
+=
+fname
+:
+                    
+for
+confname
+confvalue
+in
+value
+.
+items
+(
+)
+:
+                        
 write_output
 (
 "
@@ -1541,8 +1610,8 @@ s
 %
 s
 "
-name
-value
+confname
+confvalue
 )
     
 def
@@ -1641,7 +1710,7 @@ options
 Values
 args
 :
-List
+list
 [
 str
 ]
@@ -1830,7 +1899,7 @@ _get_n_args
 self
 args
 :
-List
+list
 [
 str
 ]

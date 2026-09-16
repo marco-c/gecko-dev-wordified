@@ -3,6 +3,10 @@ __future__
 import
 annotations
 from
+typing
+import
+NoReturn
+from
 setuptools
 import
 Command
@@ -263,6 +267,9 @@ initialize_options
 (
 self
 )
+-
+>
+None
 :
         
 pass
@@ -272,6 +279,9 @@ finalize_options
 (
 self
 )
+-
+>
+None
 :
         
 pass
@@ -281,6 +291,9 @@ run
 (
 self
 )
+-
+>
+NoReturn
 :
         
 raise
