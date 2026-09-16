@@ -225,12 +225,6 @@ SerializeKey
 (
 aKey
 )
-CipherStrategy
-:
-:
-MakeBlockPrefix
-(
-)
 )
 )
 ;
