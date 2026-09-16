@@ -649,12 +649,6 @@ in
 the
 test
 .
-if
-(
-!
-redesignEnabled
-)
-{
 await
 waitForSubDialogLoad
 (
@@ -662,7 +656,6 @@ content
 EDIT_CREDIT_CARD_DIALOG_URL
 )
 ;
-}
 }
 )
 ;
@@ -987,7 +980,6 @@ cards
 "
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
