@@ -1354,7 +1354,7 @@ mSessionRestoreToken
 =
 nullptr
 ;
-nsString
+nsCString
 mWorkspaceID
 ;
 gulong
