@@ -268,6 +268,13 @@ Stop
 )
 override
 ;
+bool
+stopped
+(
+)
+const
+override
+;
 private
 :
 Clock
