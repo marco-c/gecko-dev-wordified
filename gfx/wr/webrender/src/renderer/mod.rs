@@ -759,7 +759,7 @@ DrawTarget
 ExternalTexture
 GpuFrameId
 GraphicsApiInfo
-UploadPBOPool
+UploadBufferPool
 }
 ;
 use
@@ -5301,9 +5301,9 @@ IDs
 texture_resolver
 :
 TextureResolver
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 :
-UploadPBOPool
+UploadBufferPool
 staging_texture_pool
 :
 UploadTexturePool
@@ -6234,7 +6234,7 @@ self
 .
 device
 .
-required_pbo_stride
+required_transfer_stride
 (
 )
 .
@@ -8795,7 +8795,7 @@ self
 {
 self
 .
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 .
 on_memory_pressure
 (
@@ -12285,7 +12285,7 @@ device
 ;
 self
 .
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 .
 end_frame
 (
@@ -22343,7 +22343,7 @@ device
 mut
 self
 .
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 frame
 )
 ;
@@ -22817,7 +22817,7 @@ pbo_pool
 :
 &
 mut
-UploadPBOPool
+UploadBufferPool
 )
 {
 if
@@ -23297,7 +23297,7 @@ gpu_buffer_texture_f
 mut
 self
 .
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 )
 ;
 Self
@@ -23323,7 +23323,7 @@ gpu_buffer_texture_i
 mut
 self
 .
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 )
 ;
 }
@@ -25268,7 +25268,7 @@ device
 }
 self
 .
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 .
 deinit
 (
@@ -25631,7 +25631,7 @@ report_memory
 /
 Texture
 upload
-PBO
+buffer
 memory
 .
 report
@@ -25639,7 +25639,7 @@ report
 =
 self
 .
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 .
 report_memory
 (

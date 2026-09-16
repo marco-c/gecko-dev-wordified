@@ -106,7 +106,7 @@ device
 :
 {
 Device
-PBO
+TransferBuffer
 DrawTarget
 ReadTarget
 Texture
@@ -257,7 +257,7 @@ data
 .
 pbo
 :
-PBO
+TransferBuffer
 /
 /
 /
@@ -451,7 +451,7 @@ available_pbos
 :
 Vec
 <
-PBO
+TransferBuffer
 >
 /
 /
@@ -647,7 +647,7 @@ available_pbos
 {
 device
 .
-delete_pbo
+delete_transfer_buffer
 (
 pbo
 )
@@ -665,7 +665,7 @@ awaiting_readback
 {
 device
 .
-delete_pbo
+delete_transfer_buffer
 (
 async_screenshot
 .
@@ -1045,7 +1045,7 @@ round_up_to_multiple
 stride
 device
 .
-required_pbo_stride
+required_transfer_stride
 (
 )
 .
@@ -1161,7 +1161,7 @@ required_size
 {
 device
 .
-delete_pbo
+delete_transfer_buffer
 (
 pbo
 )
@@ -1189,7 +1189,7 @@ unwrap_or_else
 |
 device
 .
-create_pbo_with_size
+create_transfer_buffer_with_size
 (
 required_size
 )
@@ -1267,7 +1267,7 @@ Default
 ;
 device
 .
-read_pixels_into_pbo
+read_pixels_into_transfer_buffer
 (
 read_target
 DeviceIntRect
@@ -2173,7 +2173,7 @@ bound_pbo
 =
 device
 .
-map_pbo_for_readback
+map_transfer_buffer
 (
 &
 pbo
@@ -2377,7 +2377,7 @@ CompositionRecorder
 >
 device
 .
-delete_pbo
+delete_transfer_buffer
 (
 pbo
 )

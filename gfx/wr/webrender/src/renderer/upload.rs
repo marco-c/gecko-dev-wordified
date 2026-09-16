@@ -142,9 +142,9 @@ a
 staging
 texture
 where
-PBO
-'
-s
+pixel
+buffer
+objects
 aren
 '
 t
@@ -626,7 +626,7 @@ upload_texture
 mut
 renderer
 .
-texture_upload_pbo_pool
+texture_upload_buffer_pool
 )
 ;
 let
@@ -1389,7 +1389,7 @@ staging_buffer
 StagingBufferKind
 :
 :
-Pbo
+TransferBuffer
 (
 pbo
 )
@@ -2532,7 +2532,7 @@ pbo
 StagingBufferKind
 :
 :
-Pbo
+TransferBuffer
 (
 pbo
 )
@@ -2829,7 +2829,7 @@ staging_buffer
 StagingBufferKind
 :
 :
-Pbo
+TransferBuffer
 (
 buffer
 )
@@ -5524,7 +5524,7 @@ StagingBufferKind
 a
 >
 {
-Pbo
+TransferBuffer
 (
 UploadStagingBuffer
 <
