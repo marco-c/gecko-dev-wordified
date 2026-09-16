@@ -69,10 +69,6 @@ os
 import
 pathlib
 from
-collections
-import
-OrderedDict
-from
 .
 constant
 import
@@ -713,7 +709,7 @@ sort
                 
 files
 =
-OrderedDict
+dict
 (
 sorted
 (
