@@ -119,7 +119,6 @@ MozAdsEnvironment
 /
 *
 *
-*
 Provides
 access
 to
@@ -201,7 +200,6 @@ initialize
 /
 *
 *
-*
 Initializes
 the
 [
@@ -231,7 +229,7 @@ environment
 (
 MozAdsEnvironment
 .
-PROD
+Prod
 )
 .
 cacheConfig
@@ -273,7 +271,6 @@ build
 )
 }
 /
-*
 *
 *
 Resets
