@@ -534,9 +534,7 @@ html
 .
 format
 (
-                    
 doc
-                
 )
             
 )

@@ -176,12 +176,15 @@ build
 .
 write
 (
+        
 out
+        
 "
 pseudo_element_definition
 .
 rs
 "
+        
 build
 .
 render
@@ -195,6 +198,7 @@ all_pseudos
 (
 )
 )
+    
 )
 if
 __name__

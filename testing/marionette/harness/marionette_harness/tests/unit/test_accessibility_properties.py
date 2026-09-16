@@ -375,7 +375,9 @@ marionette
 .
 get_accessibility_properties_for_accessibility_node
 (
+            
 id
+        
 )
         
 self
@@ -408,9 +410,11 @@ marionette
 .
 get_accessibility_properties_for_accessibility_node
 (
+            
 "
 nonexistent
 "
+        
 )
         
 self

@@ -375,6 +375,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -393,6 +394,7 @@ container
 -
 fix
 "
+                
 )
             
 )
@@ -408,6 +410,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -431,12 +434,14 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -459,6 +464,7 @@ container
 -
 fix
 "
+                
 )
             
 )
@@ -474,6 +480,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -499,13 +506,16 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
+                    
 "
 inactive
 -
@@ -529,6 +539,7 @@ container
 -
 fix
 "
+                
 )
             
 )
@@ -640,6 +651,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -665,13 +677,16 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
+                    
 "
 inactive
 -
@@ -695,6 +710,73 @@ item
 -
 fix
 "
+                
+)
+            
+)
+            
+FTL
+.
+Message
+(
+                
+id
+=
+FTL
+.
+Identifier
+(
+                    
+"
+inactive
+-
+css
+-
+not
+-
+grid
+-
+or
+-
+absolutely
+-
+positioned
+-
+item
+-
+fix
+-
+1
+"
+                
+)
+                
+value
+=
+STRIP_LEARN_MORE
+(
+                    
+path
+"
+inactive
+-
+css
+-
+not
+-
+grid
+-
+or
+-
+absolutely
+-
+positioned
+-
+item
+-
+fix
+"
+                
 )
             
 )
@@ -717,10 +799,6 @@ css
 -
 not
 -
-grid
--
-or
--
 absolutely
 -
 positioned
@@ -737,64 +815,7 @@ value
 =
 STRIP_LEARN_MORE
 (
-path
-"
-inactive
--
-css
--
-not
--
-grid
--
-or
--
-absolutely
--
-positioned
--
-item
--
-fix
-"
-)
-            
-)
-            
-FTL
-.
-Message
-(
-                
-id
-=
-FTL
-.
-Identifier
-(
-"
-inactive
--
-css
--
-not
--
-absolutely
--
-positioned
--
-item
--
-fix
--
-1
-"
-)
-                
-value
-=
-STRIP_LEARN_MORE
-(
+                    
 path
 "
 inactive
@@ -811,6 +832,7 @@ item
 -
 fix
 "
+                
 )
             
 )
@@ -901,6 +923,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -921,6 +944,7 @@ fix
 -
 3
 "
+                
 )
             
 )
@@ -1163,6 +1187,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -1179,6 +1204,7 @@ tablecell
 -
 fix
 "
+                
 )
             
 )
@@ -1194,6 +1220,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -1221,13 +1248,16 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
+                    
 "
 inactive
 -
@@ -1253,6 +1283,7 @@ group
 -
 fix
 "
+                
 )
             
 )
@@ -1268,6 +1299,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -1295,13 +1327,16 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
+                    
 "
 inactive
 -
@@ -1327,6 +1362,7 @@ group
 -
 fix
 "
+                
 )
             
 )
@@ -1367,6 +1403,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -1385,6 +1422,7 @@ floated
 -
 fix
 "
+                
 )
             
 )
@@ -1427,6 +1465,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -1447,6 +1486,7 @@ item
 -
 fix
 "
+                
 )
             
 )
@@ -1583,6 +1623,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -1601,6 +1642,7 @@ container
 -
 fix
 "
+                
 )
             
 )
@@ -1662,6 +1704,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -1681,12 +1724,14 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -1705,6 +1750,7 @@ box
 -
 fix
 "
+                
 )
             
 )
@@ -1793,6 +1839,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -1809,6 +1856,7 @@ overflow
 -
 fix
 "
+                
 )
             
 )
@@ -1899,6 +1947,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -1917,6 +1966,7 @@ elements
 -
 fix
 "
+                
 )
             
 )
@@ -1932,6 +1982,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -1957,13 +2008,16 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
+                    
 "
 inactive
 -
@@ -1987,6 +2041,7 @@ cells
 -
 fix
 "
+                
 )
             
 )
@@ -2069,6 +2124,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -2083,6 +2139,7 @@ borders
 -
 fix
 "
+                
 )
             
 )
@@ -2148,6 +2205,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -2167,12 +2225,14 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -2191,6 +2251,7 @@ container
 -
 fix
 "
+                
 )
             
 )
@@ -2340,6 +2401,7 @@ FTL
 .
 Identifier
 (
+                    
 "
 inactive
 -
@@ -2359,12 +2421,14 @@ fix
 -
 1
 "
+                
 )
                 
 value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -2383,6 +2447,7 @@ exceeded
 -
 fix
 "
+                
 )
             
 )
@@ -2421,6 +2486,7 @@ value
 =
 STRIP_LEARN_MORE
 (
+                    
 path
 "
 inactive
@@ -2437,6 +2503,7 @@ fragmented
 -
 fix
 "
+                
 )
             
 )

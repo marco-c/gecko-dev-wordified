@@ -246,9 +246,8 @@ PRIORITARY_PROPERTIES
 =
 set
 (
-    
 [
-        
+    
 #
 The
 writing
@@ -264,7 +263,7 @@ all
 property
 groups
 as
-        
+    
 #
 sizes
 like
@@ -276,23 +275,23 @@ depend
 on
 it
 .
-        
+    
 "
 writing
 -
 mode
 "
-        
+    
 "
 direction
 "
-        
+    
 "
 text
 -
 orientation
 "
-        
+    
 #
 The
 fonts
@@ -307,7 +306,7 @@ as
 all
 other
 lengths
-        
+    
 #
 and
 colors
@@ -315,9 +314,9 @@ depend
 on
 them
 .
-        
+    
 #
-        
+    
 #
 There
 are
@@ -331,14 +330,14 @@ fix
 them
 up
 in
-        
+    
 #
 Cascade
 :
 :
 fixup_font_stuff
 .
-        
+    
 #
 Needed
 to
@@ -350,7 +349,7 @@ font
 -
 size
 .
-        
+    
 "
 -
 x
@@ -359,7 +358,7 @@ text
 -
 scale
 "
-        
+    
 #
 Needed
 to
@@ -375,14 +374,14 @@ language
 dependent
 way
 .
-        
+    
 "
 -
 x
 -
 lang
 "
-        
+    
 #
 Needed
 for
@@ -397,7 +396,7 @@ min
 font
 -
 size
-        
+    
 #
 preferences
 properly
@@ -405,7 +404,7 @@ see
 bug
 1165538
 .
-        
+    
 "
 -
 moz
@@ -418,7 +417,7 @@ size
 -
 ratio
 "
-        
+    
 #
 font
 -
@@ -433,13 +432,13 @@ s
 computed
 value
 .
-        
+    
 "
 math
 -
 depth
 "
-        
+    
 #
 Needed
 to
@@ -452,7 +451,7 @@ and
 its
 used
 size
-        
+    
 #
 in
 order
@@ -464,13 +463,13 @@ relative
 units
 correctly
 .
-        
+    
 "
 font
 -
 size
 "
-        
+    
 "
 font
 -
@@ -478,31 +477,31 @@ size
 -
 adjust
 "
-        
+    
 "
 font
 -
 weight
 "
-        
+    
 "
 font
 -
 width
 "
-        
+    
 "
 font
 -
 style
 "
-        
+    
 "
 font
 -
 family
 "
-        
+    
 #
 color
 -
@@ -519,13 +518,13 @@ dark
 )
 resolve
 .
-        
+    
 "
 color
 -
 scheme
 "
-        
+    
 #
 forced
 -
@@ -538,7 +537,7 @@ colors
 are
 adjusted
 .
-        
+    
 "
 forced
 -
@@ -546,7 +545,7 @@ color
 -
 adjust
 "
-        
+    
 #
 Zoom
 affects
@@ -554,11 +553,11 @@ all
 absolute
 lengths
 .
-        
+    
 "
 zoom
 "
-        
+    
 #
 Line
 height
@@ -567,13 +566,13 @@ depend
 on
 this
 .
-        
+    
 "
 line
 -
 height
 "
-        
+    
 #
 appearance
 and
@@ -585,7 +584,7 @@ default
 appearance
 control
 whether
-        
+    
 #
 appearance
 -
@@ -593,7 +592,7 @@ base
 rules
 apply
 .
-        
+    
 "
 -
 moz
@@ -602,11 +601,10 @@ default
 -
 appearance
 "
-        
+    
 "
 appearance
 "
-    
 ]
 )
 #
@@ -1266,9 +1264,8 @@ VISITED_DEPENDENT_PROPERTIES
 =
 set
 (
-    
 [
-        
+    
 "
 column
 -
@@ -1276,7 +1273,7 @@ rule
 -
 color
 "
-        
+    
 "
 text
 -
@@ -1284,7 +1281,7 @@ emphasis
 -
 color
 "
-        
+    
 "
 -
 webkit
@@ -1295,7 +1292,7 @@ fill
 -
 color
 "
-        
+    
 "
 -
 webkit
@@ -1306,7 +1303,7 @@ stroke
 -
 color
 "
-        
+    
 "
 text
 -
@@ -1314,27 +1311,27 @@ decoration
 -
 color
 "
-        
+    
 "
 fill
 "
-        
+    
 "
 stroke
 "
-        
+    
 "
 caret
 -
 color
 "
-        
+    
 "
 background
 -
 color
 "
-        
+    
 "
 border
 -
@@ -1342,7 +1339,7 @@ top
 -
 color
 "
-        
+    
 "
 border
 -
@@ -1350,7 +1347,7 @@ right
 -
 color
 "
-        
+    
 "
 border
 -
@@ -1358,7 +1355,7 @@ bottom
 -
 color
 "
-        
+    
 "
 border
 -
@@ -1366,7 +1363,7 @@ left
 -
 color
 "
-        
+    
 "
 border
 -
@@ -1376,7 +1373,7 @@ start
 -
 color
 "
-        
+    
 "
 border
 -
@@ -1386,7 +1383,7 @@ end
 -
 color
 "
-        
+    
 "
 border
 -
@@ -1396,7 +1393,7 @@ end
 -
 color
 "
-        
+    
 "
 border
 -
@@ -1406,17 +1403,16 @@ start
 -
 color
 "
-        
+    
 "
 outline
 -
 color
 "
-        
+    
 "
 color
 "
-    
 ]
 )
 #
@@ -1928,9 +1924,9 @@ None
         
 separator
 =
-'
+"
 Comma
-'
+"
         
 animation_type
 =
@@ -2031,7 +2027,6 @@ self
 values
 =
 values
-;
         
 assert
 isinstance
@@ -2098,6 +2093,7 @@ Style
 +
 to_camel_case
 (
+                
 name
 .
 replace
@@ -2121,6 +2117,7 @@ webkit
 "
 "
 )
+            
 )
         
 self
@@ -2169,6 +2166,8 @@ self
 .
 gecko_inexhaustive
 =
+(
+            
 gecko_inexhaustive
 or
 self
@@ -2177,6 +2176,8 @@ gecko_constant_prefix
 is
 not
 None
+        
+)
     
 def
 values_for
@@ -3092,9 +3093,9 @@ None
         
 parse_method
 =
-'
+"
 parse
-'
+"
         
 spec
 =
@@ -5819,22 +5820,30 @@ object
 def
 __init__
 (
+        
 self
+        
 name
+        
 type
+        
 parser
 =
 None
+        
 gecko_pref
 =
 None
+        
 ignore_malloc_size_of
 =
 None
+        
 aliases
 =
 [
 ]
+    
 )
 :
         
@@ -6272,6 +6281,7 @@ toml
 .
 loads
 (
+            
 open
 (
 os
@@ -6299,6 +6309,7 @@ toml
 read
 (
 )
+        
 )
         
 for
@@ -6329,9 +6340,9 @@ struct
 del
 args
 [
-'
+"
 struct
-'
+"
 ]
             
 #
@@ -6340,9 +6351,9 @@ keyword
 properties
             
 if
-'
+"
 keyword
-'
+"
 in
 args
 :
@@ -6353,15 +6364,15 @@ args
 .
 pop
 (
-'
+"
 keyword
-'
+"
 )
                 
 if
-'
+"
 values
-'
+"
 not
 in
 keyword_dict
@@ -6391,9 +6402,9 @@ keyword_dict
 .
 pop
 (
-'
+"
 values
-'
+"
 )
                 
 keyword
@@ -6430,9 +6441,9 @@ predefined_type
 properties
                 
 if
-'
+"
 type
-'
+"
 not
 in
 args
@@ -6455,24 +6466,24 @@ type
                 
 args
 [
-'
+"
 predefined_type
-'
+"
 ]
 =
 args
 .
 pop
 (
-'
+"
 type
-'
+"
 )
                 
 if
-'
+"
 initial
-'
+"
 not
 in
 args
@@ -6482,15 +6493,16 @@ args
 .
 get
 (
-'
+"
 vector
-'
+"
 )
 :
                     
 raise
 TypeError
 (
+                        
 f
 "
 {
@@ -6510,22 +6522,23 @@ lack
 one
 )
 "
+                    
 )
                 
 args
 [
-'
+"
 initial_value
-'
+"
 ]
 =
 args
 .
 pop
 (
-'
+"
 initial
-'
+"
 None
 )
                 
@@ -6583,6 +6596,7 @@ props
 raise
 RuntimeError
 (
+                    
 f
 "
 Logical
@@ -6597,6 +6611,7 @@ logical
 physical
 properties
 "
+                
 )
         
 #
@@ -6838,6 +6853,7 @@ group
 in
 groupby
 (
+            
 sorted
 (
 self
@@ -6848,6 +6864,7 @@ key
 keyfunc
 )
 keyfunc
+        
 )
 :
             
@@ -7179,6 +7196,7 @@ toml
 .
 loads
 (
+            
 open
 (
 os
@@ -7206,6 +7224,7 @@ toml
 read
 (
 )
+        
 )
         
 for
@@ -7243,11 +7262,13 @@ self
 .
 _load_descriptors
 (
+            
 "
 font_face_descriptors
 .
 toml
 "
+        
 )
         
 self
@@ -7258,11 +7279,13 @@ self
 .
 _load_descriptors
 (
+            
 "
 counter_style_descriptors
 .
 toml
 "
+        
 )
         
 self
@@ -7288,11 +7311,13 @@ self
 .
 _load_descriptors
 (
+            
 "
 view_transition_descriptors
 .
 toml
 "
+        
 )
     
 def
@@ -7450,19 +7475,18 @@ p
 name
 in
 [
-'
+"
 direction
-'
-'
+"
+"
 unicode
 -
 bidi
-'
+"
 ]
 :
                 
 continue
-;
             
 if
 not
@@ -7484,7 +7508,6 @@ engine
 :
                 
 continue
-;
             
 if
 "
@@ -7500,7 +7523,6 @@ rule_types_allowed_names
 :
                 
 continue
-;
             
 if
 p
@@ -7854,6 +7876,7 @@ pref
 def
 declare_longhand
 (
+        
 self
 style_struct
 name
@@ -7866,6 +7889,7 @@ None
 *
 *
 kwargs
+    
 )
 :
         
@@ -7899,9 +7923,9 @@ kwargs
 .
 setdefault
 (
-'
+"
 aliases
-'
+"
 [
 ]
 )
@@ -8002,13 +8026,11 @@ logical_groups
 .
 setdefault
 (
-                
 longhand
 .
 logical_group
 [
 ]
-            
 )
 .
 append
@@ -8022,23 +8044,32 @@ longhand
 def
 declare_shorthand
 (
+        
 self
+        
 name
+        
 sub_properties
+        
 extra_gecko_sub_properties
 =
 None
+        
 extra_gecko_aliases
 =
 None
+        
 engine
 =
 None
+        
 *
 args
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -8085,9 +8116,9 @@ kwargs
 .
 setdefault
 (
-'
+"
 aliases
-'
+"
 [
 ]
 )
@@ -8238,21 +8269,28 @@ self
 :
         
 return
+(
+            
 self
 .
 longhands
+            
 +
 self
 .
 shorthands
+            
 +
 self
 .
 longhand_aliases
+            
 +
 self
 .
 shorthand_aliases
+        
+)
 def
 _add_logical_props
 (
@@ -8678,91 +8716,89 @@ props
 =
 set
 (
-            
 [
-                
+            
 "
 fill
 "
-                
+            
 "
 fill
 -
 opacity
 "
-                
+            
 "
 fill
 -
 rule
 "
-                
+            
 "
 paint
 -
 order
 "
-                
+            
 "
 stroke
 "
-                
+            
 "
 stroke
 -
 dasharray
 "
-                
+            
 "
 stroke
 -
 dashoffset
 "
-                
+            
 "
 stroke
 -
 linecap
 "
-                
+            
 "
 stroke
 -
 linejoin
 "
-                
+            
 "
 stroke
 -
 miterlimit
 "
-                
+            
 "
 stroke
 -
 opacity
 "
-                
+            
 "
 stroke
 -
 width
 "
-                
+            
 "
 text
 -
 rendering
 "
-                
+            
 "
 vector
 -
 effect
 "
-            
-]
         
+]
 )
         
 return
@@ -8779,9 +8815,8 @@ webkit_text_properties
 return
 set
 (
-            
 [
-                
+            
 #
 Kinda
 like
@@ -8789,7 +8824,7 @@ css
 -
 text
 ?
-                
+            
 "
 -
 webkit
@@ -8800,7 +8835,7 @@ stroke
 -
 width
 "
-                
+            
 "
 -
 webkit
@@ -8811,7 +8846,7 @@ fill
 -
 color
 "
-                
+            
 "
 -
 webkit
@@ -8822,9 +8857,8 @@ stroke
 -
 color
 "
-            
-]
         
+]
 )
     
 #

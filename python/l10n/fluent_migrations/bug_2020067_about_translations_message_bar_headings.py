@@ -198,6 +198,7 @@ STRIP_PUNCTUATION
 (
                             
 source
+                            
 "
 about
 -
@@ -238,6 +239,7 @@ COPY_PATTERN
 (
                             
 source
+                            
 "
 about
 -
@@ -314,6 +316,7 @@ STRIP_PUNCTUATION
 (
                             
 source
+                            
 "
 about
 -
@@ -356,6 +359,7 @@ COPY_PATTERN
 (
                             
 source
+                            
 "
 about
 -

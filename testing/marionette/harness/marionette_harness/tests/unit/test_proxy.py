@@ -996,8 +996,8 @@ marionette
 .
 start_session
 (
-                
 {
+                
 "
 proxy
 "
@@ -1016,8 +1016,8 @@ proxyAutoconfigUrl
 :
 None
 }
-}
             
+}
 )
     
 def

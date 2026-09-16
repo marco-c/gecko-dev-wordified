@@ -167,8 +167,6 @@ main
     
 usage
 =
-(
-        
 "
 Usage
 :
@@ -180,7 +178,6 @@ servo
 gecko
 ]
 "
-        
 %
 sys
 .
@@ -188,8 +185,6 @@ argv
 [
 0
 ]
-    
-)
     
 if
 len

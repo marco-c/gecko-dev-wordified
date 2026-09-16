@@ -71,6 +71,7 @@ mozpath
 .
 join
 (
+    
 buildconfig
 .
 topsrcdir
@@ -221,7 +222,7 @@ properties
 set
 (
 [
-          
+            
 mozpath
 .
 join
@@ -229,56 +230,60 @@ join
 SERVO_PROPS
 f
 )
+            
 for
 f
 in
 [
-              
+                
 "
 data
 .
 py
 "
+                
 "
 counted_unknown_properties
 .
 py
 "
-              
+                
 "
 longhands
 .
 toml
 "
+                
 "
 shorthands
 .
 toml
 "
-              
+                
 "
 font_face_descriptors
 .
 toml
 "
+                
 "
 counter_style_descriptors
 .
 toml
 "
-              
+                
 "
 property_descriptors
 .
 toml
 "
-              
+                
 "
 view_transition_descriptors
 .
 toml
 "
-          
+            
 ]
         
 ]
@@ -438,7 +443,6 @@ flags
 .
 join
 (
-            
 "
 CSSPropFlags
 :
@@ -451,7 +455,6 @@ format
 (
 flag
 )
-            
 for
 flag
 in
@@ -459,7 +462,6 @@ cpp_flags
 (
 prop
 )
-        
 )
         
 if
@@ -1021,6 +1023,7 @@ eCSSProperty_
 s
 )
 "
+            
 %
 (
 bindingTemplate
@@ -1583,6 +1586,7 @@ output
 return
 gen_webidl
 (
+        
 output
 "
 position
@@ -1592,10 +1596,10 @@ try
 "
 CSSPositionTryDescriptors
 "
-                      
 "
 CSSPositionTryDescriptor
 "
+    
 )
 def
 gen_font_face_descriptors_webidl
@@ -1692,7 +1696,6 @@ CSSStyleDeclaration
 "
 "
 "
-    
 )
     
 for
@@ -1728,6 +1731,7 @@ FontFaceDescriptorId
 s
 )
 "
+            
 %
 d
 .
@@ -1813,7 +1817,7 @@ alias_idl_name
 =
 alias
 :
-                 
+                
 extendedAttrs
 .
 append
@@ -1981,7 +1985,6 @@ name
 "
 "
 "
-    
 )
     
 for
@@ -2452,7 +2455,7 @@ prop
 RUST_TO_CPP_FLAGS
 =
 {
-      
+        
 "
 CAN_ANIMATE_ON_COMPOSITOR
 "
@@ -2460,7 +2463,7 @@ CAN_ANIMATE_ON_COMPOSITOR
 "
 CanAnimateOnCompositor
 "
-      
+        
 "
 SCROLL_LINKED_EFFECTIVE
 "
@@ -2468,7 +2471,7 @@ SCROLL_LINKED_EFFECTIVE
 "
 ScrollLinkedEffective
 "
-      
+        
 "
 AFFECTS_LAYOUT
 "
@@ -2476,7 +2479,7 @@ AFFECTS_LAYOUT
 "
 AffectsLayout
 "
-      
+        
 "
 AFFECTS_PAINT
 "
@@ -2484,7 +2487,7 @@ AFFECTS_PAINT
 "
 AffectsPaint
 "
-      
+        
 "
 AFFECTS_OVERFLOW
 "
@@ -2570,10 +2573,8 @@ Inaccessible
 )
     
 for
-(
 k
 v
-)
 in
 RUST_TO_CPP_FLAGS
 .
@@ -3448,6 +3449,7 @@ output
 .
 write
 (
+            
 '
 {
 {
@@ -3476,6 +3478,7 @@ d
 .
 name
 )
+        
 )
     
 output
@@ -3546,6 +3549,7 @@ output
 .
 write
 (
+            
 '
 {
 {
@@ -3567,13 +3571,16 @@ n
 .
 format
 (
+                
 d
 .
 camel_case
 d
 .
 name
+            
 )
+        
 )
     
 output
@@ -3644,7 +3651,6 @@ output
 .
 write
 (
-            
 "
 COUNTED_UNKNOWN_PROPERTY
 (
@@ -3666,7 +3672,6 @@ prop
 .
 ident
 )
-        
 )
     
 return
@@ -4003,6 +4008,7 @@ shorthand_count
 =
 property_ids
 [
+        
 len
 (
 properties
@@ -4016,6 +4022,7 @@ properties
 .
 shorthands
 )
+    
 ]
     
 output
@@ -4052,9 +4059,8 @@ template
 .
 substitute
 (
-            
 {
-                
+            
 "
 property_ids
 "
@@ -4080,7 +4086,7 @@ p
 in
 property_ids
 )
-                
+            
 "
 longhand_first
 "
@@ -4089,19 +4095,19 @@ property_ids
 [
 0
 ]
-                
+            
 "
 longhand_count
 "
 :
 longhand_count
-                
+            
 "
 shorthand_count
 "
 :
 shorthand_count
-                
+            
 "
 font_face_descriptors
 "
@@ -4113,6 +4119,7 @@ n
 .
 join
 (
+                
 "
 {
 }
@@ -4130,8 +4137,9 @@ in
 properties
 .
 font_face_descriptors
+            
 )
-                
+            
 "
 font_face_descriptor_count
 "
@@ -4142,7 +4150,7 @@ properties
 .
 font_face_descriptors
 )
-                
+            
 "
 counter_style_descriptors
 "
@@ -4154,6 +4162,7 @@ n
 .
 join
 (
+                
 "
 {
 }
@@ -4165,14 +4174,16 @@ d
 .
 camel_case
 )
+                
 for
 d
 in
 properties
 .
 counter_style_descriptors
+            
 )
-                
+            
 "
 counter_style_descriptor_count
 "
@@ -4183,9 +4194,8 @@ properties
 .
 counter_style_descriptors
 )
-            
-}
         
+}
 )
     
 )
@@ -4615,7 +4625,6 @@ name
 n
 "
 )
-;
         
 for
 prop
@@ -4672,25 +4681,22 @@ output
 write
 (
 f
-"
+'
 \
 t
 {
 {
 name
 :
-\
 "
 {
 prop
 .
 name
 }
-\
 "
 prop
 :
-\
 "
 {
 idl_attribute
@@ -4698,9 +4704,8 @@ idl_attribute
 prop
 )
 }
-\
 "
-"
+'
 )
             
 if
@@ -4714,19 +4719,17 @@ output
 write
 (
 f
-"
+'
 pref
 :
-\
 "
 {
 prop
 .
 gecko_pref
 }
-\
 "
-"
+'
 )
             
 output

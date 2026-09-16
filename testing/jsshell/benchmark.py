@@ -2364,9 +2364,8 @@ subtests
 .
 append
 (
-                    
 {
-                        
+                    
 "
 lowerIsBetter
 "
@@ -2374,21 +2373,20 @@ lowerIsBetter
 self
 .
 subtests_lower_is_better
-                        
+                    
 "
 name
 "
 :
 test_name
-                        
+                    
 "
 value
 "
 :
 mean
-                    
-}
                 
+}
 )
                 
 if

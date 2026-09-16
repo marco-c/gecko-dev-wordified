@@ -120,6 +120,7 @@ value
 =
 COPY_PATTERN
 (
+                    
 path
 "
 address
@@ -136,6 +137,7 @@ aria
 -
 label
 "
+                
 )
                 
 attributes

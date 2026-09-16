@@ -97,12 +97,14 @@ node
 if
 isinstance
 (
+            
 node
 .
 expression
 FTL
 .
 TermReference
+        
 )
 and
 node
@@ -578,6 +580,7 @@ description
                         
 COPY_PATTERN
 (
+                            
 preferences
 "
 referrals
@@ -588,6 +591,7 @@ header
 .
 description
 "
+                        
 )
                     
 )

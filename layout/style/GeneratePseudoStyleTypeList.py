@@ -69,6 +69,7 @@ path
 .
 insert
 (
+    
 0
 mozpath
 .
@@ -328,7 +329,7 @@ endif
 "
 "
 "
-  
+    
 )
     
 for
@@ -343,9 +344,9 @@ all_pseudos
         
 flags
 =
-'
+"
 |
-'
+"
 .
 join
 (
