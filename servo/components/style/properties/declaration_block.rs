@@ -9075,6 +9075,7 @@ CssRuleType
 PropertyDeclarationBlock
 {
 let
+mut
 context
 =
 ParserContext
@@ -9126,6 +9127,7 @@ default
 parse_property_declaration_list
 (
 &
+mut
 context
 &
 mut
@@ -9239,6 +9241,7 @@ Result
 >
 {
 let
+mut
 context
 =
 ParserContext
@@ -9351,6 +9354,7 @@ parse_into
 declarations
 id
 &
+mut
 context
 parser
 )
@@ -9421,6 +9425,7 @@ context
 &
 '
 a
+mut
 ParserContext
 <
 '
@@ -9712,6 +9717,7 @@ self
 context
 :
 &
+mut
 ParserContext
 name
 :
@@ -11196,6 +11202,7 @@ parse_property_declaration_list
 context
 :
 &
+mut
 ParserContext
 input
 :
@@ -11292,14 +11299,24 @@ location
 =
 >
 {
+let
+parser
+=
+&
+mut
+*
 iter
 .
+parser
+;
 parser
 .
 state
 .
 did_error
 (
+parser
+.
 context
 error
 slice
@@ -11314,6 +11331,8 @@ state
 .
 report_errors_if_needed
 (
+parser
+.
 context
 selectors
 )

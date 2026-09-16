@@ -1755,13 +1755,15 @@ FontPaletteValuesDeclarationParser
 <
 '
 a
+'
+b
 >
 {
 context
 :
 &
 '
-a
+b
 ParserContext
 <
 '
@@ -1771,7 +1773,7 @@ rule
 :
 &
 '
-a
+b
 mut
 FontPaletteValuesRule
 }
@@ -1779,6 +1781,8 @@ impl
 <
 '
 a
+'
+b
 '
 i
 >
@@ -1792,6 +1796,8 @@ FontPaletteValuesDeclarationParser
 <
 '
 a
+'
+b
 >
 {
 type
@@ -1817,6 +1823,8 @@ impl
 '
 a
 '
+b
+'
 i
 >
 QualifiedRuleParser
@@ -1829,6 +1837,8 @@ FontPaletteValuesDeclarationParser
 <
 '
 a
+'
+b
 >
 {
 type
@@ -1909,6 +1919,8 @@ FontPaletteValuesDeclarationParser
 <
 '
 a
+'
+b
 >
 {
 type
@@ -2077,6 +2089,8 @@ impl
 '
 a
 '
+b
+'
 i
 >
 RuleBodyItemParser
@@ -2092,6 +2106,8 @@ FontPaletteValuesDeclarationParser
 <
 '
 a
+'
+b
 >
 {
 fn

@@ -2729,13 +2729,15 @@ FontFeatureValuesRuleParser
 <
 '
 a
+'
+b
 >
 {
 context
 :
 &
 '
-a
+b
 ParserContext
 <
 '
@@ -2745,7 +2747,7 @@ rule
 :
 &
 '
-a
+b
 mut
 FontFeatureValuesRule
 }
@@ -2764,6 +2766,8 @@ impl
 '
 a
 '
+b
+'
 i
 >
 QualifiedRuleParser
@@ -2776,6 +2780,8 @@ FontFeatureValuesRuleParser
 <
 '
 a
+'
+b
 >
 {
 type
@@ -2801,6 +2807,8 @@ impl
 '
 a
 '
+b
+'
 i
 >
 AtRuleParser
@@ -2813,6 +2821,8 @@ FontFeatureValuesRuleParser
 <
 '
 a
+'
+b
 >
 {
 type
@@ -3083,6 +3093,8 @@ impl
 '
 a
 '
+b
+'
 i
 >
 DeclarationParser
@@ -3095,6 +3107,8 @@ FontFeatureValuesRuleParser
 <
 '
 a
+'
+b
 >
 {
 type
@@ -3114,6 +3128,8 @@ impl
 '
 a
 '
+b
+'
 i
 >
 RuleBodyItemParser
@@ -3129,6 +3145,8 @@ FontFeatureValuesRuleParser
 <
 '
 a
+'
+b
 >
 {
 fn

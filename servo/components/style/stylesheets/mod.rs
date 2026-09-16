@@ -6331,6 +6331,7 @@ declarations
 parse_property_declaration_list
 (
 &
+mut
 parser
 .
 context

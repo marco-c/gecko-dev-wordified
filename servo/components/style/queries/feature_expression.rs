@@ -7112,6 +7112,12 @@ custom_properties
 substitute
 (
 value
+/
+*
+property_id
+*
+/
+None
 &
 sub_funcs
 stylist
