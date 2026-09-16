@@ -171,7 +171,7 @@ request
 .
 threshold
 "
-high
+medium
 "
 "
 The
@@ -1220,7 +1220,7 @@ confidences
 =
 [
 "
-medium
+low
 "
 "
 sideways
@@ -1440,10 +1440,10 @@ confidences
 =
 [
 "
-high
-"
-"
 medium
+"
+"
+low
 "
 ]
 ;
