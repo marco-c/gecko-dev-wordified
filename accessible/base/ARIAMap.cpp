@@ -324,6 +324,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+ANDROID
+)
 eAssertiveLiveAttr
 #
 else
