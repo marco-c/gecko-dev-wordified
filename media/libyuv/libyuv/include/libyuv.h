@@ -219,7 +219,7 @@ include
 "
 libyuv
 /
-scale_row
+scale_rgb
 .
 h
 "
