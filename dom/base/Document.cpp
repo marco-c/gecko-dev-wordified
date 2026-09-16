@@ -23245,7 +23245,7 @@ aChannel
 /
 /
 Initialize
-FeaturePolicy
+PermissionsPolicy
 MOZ_TRY
 (
 InitFeaturePolicy

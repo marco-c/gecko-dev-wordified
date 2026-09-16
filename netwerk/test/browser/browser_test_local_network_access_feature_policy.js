@@ -60,7 +60,7 @@ Same
 origin
 iframe
 inherits
-Feature
+Permissions
 Policy
 from
 parent
@@ -96,7 +96,7 @@ the
 parent
 '
 s
-Feature
+Permissions
 Policy
 allowlist
 *
@@ -162,7 +162,7 @@ Same
 origin
 iframe
 inherits
-Feature
+Permissions
 Policy
 from
 parent
@@ -379,7 +379,7 @@ request
 is
 blocked
 by
-Feature
+Permissions
 Policy
 BEFORE
 showing
@@ -395,7 +395,7 @@ user
 *
 This
 validates
-Feature
+Permissions
 Policy
 '
 s
@@ -557,7 +557,7 @@ should
 be
 blocked
 by
-Feature
+Permissions
 Policy
 "
 )
@@ -605,7 +605,7 @@ prompt
 should
 appear
 when
-Feature
+Permissions
 Policy
 blocks
 request
@@ -2243,7 +2243,7 @@ prompt
 This
 validates
 that
-Feature
+Permissions
 Policy
 delegation
 works
@@ -2784,7 +2784,7 @@ request
 is
 blocked
 by
-Feature
+Permissions
 Policy
 even
 though
@@ -2802,7 +2802,7 @@ grant
 This
 validates
 that
-Feature
+Permissions
 Policy
 enforcement
 is
@@ -3087,7 +3087,7 @@ should
 be
 blocked
 by
-Feature
+Permissions
 Policy
 "
 )
@@ -3246,7 +3246,7 @@ prompt
 should
 appear
 -
-Feature
+Permissions
 Policy
 blocks
 it
@@ -3279,7 +3279,7 @@ Test
 Nested
 iframes
 -
-Feature
+Permissions
 Policy
 checks
 the
@@ -3357,8 +3357,8 @@ request
 is
 blocked
 by
-Feature
 *
+Permissions
 Policy
 .
 *
@@ -3366,7 +3366,7 @@ Policy
 This
 validates
 that
-Feature
+Permissions
 Policy
 checks
 the
@@ -3498,7 +3498,7 @@ Test
 Nested
 iframes
 respect
-Feature
+Permissions
 Policy
 (
 cross

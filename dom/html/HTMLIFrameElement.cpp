@@ -339,7 +339,7 @@ We
 always
 need
 a
-featurePolicy
+permissionsPolicy
 even
 if
 not
@@ -414,7 +414,7 @@ true
 *
 parse
 the
-feature
+permissions
 policy
 attribute
 *
@@ -1218,7 +1218,7 @@ true
 *
 parse
 the
-feature
+permissions
 policy
 attribute
 *
@@ -1245,7 +1245,7 @@ false
 *
 parse
 the
-feature
+permissions
 policy
 attribute
 *
@@ -1853,7 +1853,7 @@ Set
 or
 reset
 the
-FeaturePolicy
+PermissionsPolicy
 directives
 .
 mFeaturePolicy

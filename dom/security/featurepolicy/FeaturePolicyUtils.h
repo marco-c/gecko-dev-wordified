@@ -170,7 +170,7 @@ you
 need
 to
 check
-feature
+permissions
 -
 policy
 directives
@@ -197,7 +197,7 @@ aFeatureName
 is
 a
 known
-feature
+permissions
 policy
 name
 .
@@ -220,7 +220,7 @@ aFeatureName
 is
 a
 experimental
-feature
+permissions
 policy
 name
 .
@@ -241,7 +241,7 @@ aCallback
 for
 each
 known
-feature
+permissions
 policy
 with
 the
@@ -342,7 +342,7 @@ presented
 in
 the
 ancestor
-feature
+permissions
 policy
 chain
 via

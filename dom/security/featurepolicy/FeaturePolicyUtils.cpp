@@ -680,7 +680,7 @@ io
 webxr
 /
 #
-feature
+permissions
 -
 policy
 {

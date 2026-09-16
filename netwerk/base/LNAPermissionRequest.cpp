@@ -1052,7 +1052,7 @@ NS_IsMainThread
 /
 /
 Enforce
-Feature
+Permissions
 Policy
 for
 Local
@@ -1094,7 +1094,7 @@ canonical
 browsing
 context
 for
-feature
+permissions
 policy
 checks
 RefPtr
@@ -1201,7 +1201,7 @@ GetContainerFeaturePolicy
 ;
 /
 /
-Feature
+Permissions
 Policy
 is
 populated
@@ -1254,7 +1254,7 @@ s
 safe
 to
 ignore
-feature
+permissions
 policy
 when
 it
@@ -1294,7 +1294,7 @@ blocked
 by
 /
 /
-feature
+permissions
 policy
 .
 if

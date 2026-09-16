@@ -190,11 +190,8 @@ aResult
 )
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
@@ -1327,7 +1324,7 @@ aNotify
 *
 *
 *
-Feature
+Permissions
 policy
 inheritance
 is
@@ -1343,7 +1340,7 @@ may
 have
 to
 store
-feature
+permissions
 policy
 in
 browsingContext

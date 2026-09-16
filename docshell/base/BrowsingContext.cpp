@@ -5348,7 +5348,7 @@ This
 is
 controlled
 by
-feature
+permissions
 policy
 .
 return

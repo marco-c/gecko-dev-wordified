@@ -101,7 +101,7 @@ h
 *
 *
 *
-FeaturePolicy
+PermissionsPolicy
 *
 ~
 ~
@@ -125,11 +125,11 @@ each
 HTMLIFrameElement
 have
 a
-FeaturePolicy
+PermissionsPolicy
 object
+*
 which
 is
-*
 used
 to
 allow
@@ -142,7 +142,7 @@ contexts
 .
 *
 *
-FeaturePolicy
+PermissionsPolicy
 is
 composed
 by
@@ -178,8 +178,9 @@ attribute
 are
 parsed
 by
+the
 *
-FeaturePolicyParser
+PermissionsPolicyParser
 which
 returns
 an
@@ -189,8 +190,8 @@ Feature
 objects
 .
 Each
-Feature
 *
+Feature
 object
 has
 a
@@ -241,7 +242,7 @@ An
 interesting
 element
 of
-FeaturePolicy
+PermissionsPolicy
 is
 the
 inheritance
@@ -251,7 +252,7 @@ context
 *
 inherits
 the
-feature
+permissions
 -
 policy
 directives
@@ -261,6 +262,7 @@ parent
 context
 if
 it
+*
 exists
 .
 *
@@ -322,7 +324,7 @@ denied
 .
 *
 *
-FeaturePolicy
+PermissionsPolicy
 can
 be
 reset
@@ -336,9 +338,9 @@ or
 src
 '
 attributes
+*
 change
 in
-*
 HTMLIFrameElements
 .
 '
@@ -349,12 +351,12 @@ is
 important
 to
 compute
-correcly
 *
+correcly
 the
 features
 via
-FeaturePolicy
+PermissionsPolicy
 '
 src
 '
@@ -363,7 +365,7 @@ keyword
 *
 *
 When
-FeaturePolicy
+PermissionsPolicy
 must
 decide
 if
@@ -373,9 +375,9 @@ is
 allowed
 or
 denied
+*
 for
 the
-*
 current
 origin
 it
@@ -425,7 +427,7 @@ point
 of
 view
 use
-FeaturePolicyUtils
+PermissionsPolicyUtils
 to
 obtain
 the
@@ -578,7 +580,7 @@ aNode
 /
 /
 A
-FeaturePolicy
+PermissionsPolicy
 must
 have
 a
@@ -1211,7 +1213,7 @@ aOrigin
 /
 following
 the
-feature
+permissions
 -
 policy
 directives
@@ -1223,6 +1225,8 @@ at
 the
 top
 of
+/
+/
 this
 /
 /
@@ -1282,9 +1286,11 @@ we
 have
 a
 declared
-feature
+permissions
 policy
 for
+/
+/
 aFeatureName
 .
 bool
@@ -1415,7 +1421,7 @@ mDeclaredFeaturesInAncestorChain
 ;
 /
 /
-Feature
+Permissions
 policy
 for
 the
@@ -1433,7 +1439,7 @@ mFeatures
 Declared
 string
 represents
-Feature
+Permissions
 policy
 .
 nsString

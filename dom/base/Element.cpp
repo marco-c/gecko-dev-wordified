@@ -34907,7 +34907,7 @@ caller
 is
 privileged
 .
-Feature
+Permissions
 policy
 may
 also
