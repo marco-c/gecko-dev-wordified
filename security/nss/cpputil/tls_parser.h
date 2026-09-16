@@ -309,6 +309,12 @@ kTlsAlertBadCertificate
 ;
 const
 uint8_t
+kTlsAlertUnsupportedCertificate
+=
+43
+;
+const
+uint8_t
 kTlsAlertCertificateRevoked
 =
 44
