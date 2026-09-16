@@ -518,6 +518,14 @@ GetInternalPeerConnection
 (
 )
 ;
+const
+PeerConnection
+*
+GetInternalPeerConnection
+(
+)
+const
+;
 /
 /
 Calls
