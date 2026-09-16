@@ -56,8 +56,6 @@ MPL
 import
 atexit
 import
-collections
-import
 itertools
 import
 json
@@ -67,10 +65,6 @@ import
 os
 import
 re
-from
-collections
-import
-OrderedDict
 from
 ctypes
 import
@@ -5300,8 +5294,8 @@ loads
 the
 histograms
 into
-an
-OrderedDict
+a
+dict
 .
 #
 It
@@ -5325,11 +5319,8 @@ strict_type_checks
     
 d
 =
-collections
-.
-OrderedDict
-(
-)
+{
+}
     
 for
 key
@@ -5634,9 +5625,8 @@ load_allowlist
     
 all_histograms
 =
-OrderedDict
-(
-)
+{
+}
     
 for
 filename
@@ -5714,17 +5704,25 @@ strict_type_checks
 )
         
 #
-OrderedDicts
-are
-important
-because
-then
-the
-iteration
-order
-over
+We
+rely
+on
+dict
+being
+ordered
+(
+since
+Python
+3
+.
+6
+)
+to
+ensure
+iterating
         
 #
+over
 the
 parsed
 histograms
@@ -5745,9 +5743,9 @@ ordering
 in
 generated
 files
+stable
         
 #
-stable
 which
 makes
 builds
@@ -5760,7 +5758,7 @@ not
 isinstance
 (
 histograms
-OrderedDict
+dict
 )
 :
             
@@ -5772,8 +5770,8 @@ parser
 did
 not
 provide
-an
-OrderedDict
+a
+dict
 .
 "
 )

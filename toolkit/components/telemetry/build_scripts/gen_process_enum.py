@@ -80,8 +80,6 @@ line
 argument
 .
 import
-collections
-import
 sys
 from
 mozparsers
@@ -223,15 +221,6 @@ line
 file
 =
 output
-)
-    
-processes
-=
-collections
-.
-OrderedDict
-(
-processes
 )
     
 p
