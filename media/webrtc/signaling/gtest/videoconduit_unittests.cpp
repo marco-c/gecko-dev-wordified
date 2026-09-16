@@ -385,6 +385,13 @@ GetSize
 (
 )
 false
+mozilla
+:
+:
+VideoRotation
+:
+:
+kDegree_0
 )
 ;
 ProcessVideoFrame
