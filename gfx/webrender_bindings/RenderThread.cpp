@@ -5891,7 +5891,7 @@ layers
 :
 Fence
 >
-fence
+readFence
 ;
 if
 (
@@ -5902,12 +5902,12 @@ IsValid
 )
 )
 {
-fence
+readFence
 =
 renderer
 -
 >
-GetAndResetReleaseFence
+GetAndResetReadFence
 (
 )
 ;
@@ -6199,7 +6199,7 @@ std
 :
 move
 (
-fence
+readFence
 )
 )
 ;

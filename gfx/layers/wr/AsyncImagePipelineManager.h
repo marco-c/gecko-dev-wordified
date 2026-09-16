@@ -421,7 +421,7 @@ Fence
 >
 &
 &
-aFence
+aReadFence
 )
 ;
 /
@@ -1671,7 +1671,7 @@ Fence
 >
 &
 &
-aFence
+aReadFence
 )
 ;
 ~
@@ -1702,7 +1702,7 @@ RefPtr
 <
 Fence
 >
-mFence
+mReadFence
 ;
 }
 ;

@@ -416,7 +416,7 @@ layers
 :
 Fence
 >
-GetAndResetReleaseFence
+GetAndResetReadFence
 (
 )
 ;
