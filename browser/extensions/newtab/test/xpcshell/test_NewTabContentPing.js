@@ -251,6 +251,11 @@ section_position
 "
 2
 "
+card_column
+:
+"
+3
+"
 }
 ;
 /
