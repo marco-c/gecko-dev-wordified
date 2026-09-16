@@ -320,6 +320,10 @@ findbar
 -
 textbox
 "
+preserveundohistory
+=
+"
+"
 /
 >
 <
