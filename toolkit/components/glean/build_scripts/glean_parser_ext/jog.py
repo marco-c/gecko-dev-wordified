@@ -148,7 +148,7 @@ util
 common_metric_args
 with
 "
-dynamic_label
+label
 "
 in
 the
@@ -188,11 +188,11 @@ disabled
 "
     
 "
-dynamic_label
+in_session
 "
     
 "
-in_session
+label
 "
 ]
 #
@@ -1225,13 +1225,13 @@ arg_name
 =
 =
 "
-dynamic_label
+label
 "
 :
                     
 #
 "
-dynamic_label
+label
 "
 is
 special
@@ -1368,7 +1368,7 @@ in
 category
 "
 "
-dynamic_label
+label
 "
 ]
 :

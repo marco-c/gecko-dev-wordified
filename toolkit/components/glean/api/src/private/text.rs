@@ -257,7 +257,7 @@ false
 /
 /
 /
-dynamic_label
+label
 :
 None
 /
