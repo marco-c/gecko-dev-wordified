@@ -161,6 +161,10 @@ status
 =
 200
     
+response_range_overridden
+=
+False
+    
 for
 rewrite
 in
@@ -222,6 +226,10 @@ rewrite
 response
 '
 ]
+                    
+response_range_overridden
+=
+True
                 
 if
 '
@@ -239,6 +247,40 @@ rewrite
 status
 '
 ]
+    
+if
+status
+=
+=
+200
+and
+not
+response_range_overridden
+:
+        
+#
+By
+default
+a
+server
+ignoring
+the
+range
+request
+must
+return
+the
+entire
+resource
+.
+        
+start
+=
+None
+        
+end
+=
+None
     
 start
 =
