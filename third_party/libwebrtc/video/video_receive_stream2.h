@@ -1998,7 +1998,11 @@ RTC_GUARDED_BY
 worker_sequence_checker_
 )
 ;
+DecodeSynchronizer
+*
 const
+decode_sync_
+;
 std
 :
 :
@@ -2007,6 +2011,10 @@ unique_ptr
 VideoStreamBufferController
 >
 buffer_
+RTC_GUARDED_BY
+(
+worker_sequence_checker_
+)
 ;
 /
 /
