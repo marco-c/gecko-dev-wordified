@@ -1477,6 +1477,9 @@ bool
 mIsFullHandshake
 ;
 bool
+mDrewResumptionToken
+;
+bool
 mNotedTimeUntilReady
 ;
 EchExtensionStatus
