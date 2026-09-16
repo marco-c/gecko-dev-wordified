@@ -3917,12 +3917,13 @@ false
 return
 ;
 }
-nsTArray
+AutoTArray
 <
 RefPtr
 <
 nsAtom
 >
+2
 >
 filters
 ;
