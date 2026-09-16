@@ -5840,6 +5840,12 @@ object
 }
 dbg
 *
+param
+{
+object
+}
+pauseOptions
+*
 return
 {
 Promise
@@ -5853,6 +5859,7 @@ function
 stepIn
 (
 dbg
+pauseOptions
 )
 {
 const
@@ -5886,6 +5893,8 @@ return
 waitForPaused
 (
 dbg
+null
+pauseOptions
 )
 ;
 }
