@@ -120,7 +120,7 @@ value
 .
 static
 bool
-ParseString
+ParsePolicyFromAttribute
 (
 const
 nsAString

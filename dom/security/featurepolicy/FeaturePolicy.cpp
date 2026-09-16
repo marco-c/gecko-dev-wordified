@@ -600,7 +600,7 @@ IsEmpty
 featurePolicy
 -
 >
-SetDeclaredPolicy
+SetDeclaredAttributePolicy
 (
 nullptr
 declaredString
@@ -962,7 +962,7 @@ void
 FeaturePolicy
 :
 :
-SetDeclaredPolicy
+SetDeclaredAttributePolicy
 (
 Document
 *
@@ -1004,7 +1004,7 @@ NS_WARN_IF
 FeaturePolicyParser
 :
 :
-ParseString
+ParsePolicyFromAttribute
 (
 aPolicyString
 aDocument
