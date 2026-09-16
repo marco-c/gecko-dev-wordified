@@ -204,7 +204,7 @@ h
 #
 include
 "
-fffjni
+jni
 .
 h
 "

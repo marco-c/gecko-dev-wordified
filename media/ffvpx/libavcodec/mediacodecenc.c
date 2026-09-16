@@ -297,6 +297,13 @@ h
 #
 include
 "
+jni
+.
+h
+"
+#
+include
+"
 mediacodec
 .
 h

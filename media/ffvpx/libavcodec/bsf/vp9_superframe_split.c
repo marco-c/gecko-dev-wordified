@@ -185,8 +185,6 @@ h
 #
 include
 "
-libavcodec
-/
 bsf
 .
 h
@@ -194,8 +192,6 @@ h
 #
 include
 "
-libavcodec
-/
 bsf_internal
 .
 h
@@ -203,8 +199,6 @@ h
 #
 include
 "
-libavcodec
-/
 bytestream
 .
 h
@@ -212,8 +206,6 @@ h
 #
 include
 "
-libavcodec
-/
 get_bits
 .
 h

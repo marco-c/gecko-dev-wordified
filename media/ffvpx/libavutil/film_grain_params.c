@@ -203,15 +203,11 @@ size
 *
 size
 =
-params
-?
 sizeof
 (
 *
 params
 )
-:
-0
 ;
 return
 params
