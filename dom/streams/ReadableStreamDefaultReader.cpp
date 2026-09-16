@@ -465,7 +465,7 @@ ClosedPromise
 )
 -
 >
-MaybeResolve
+MaybeSafeResolve
 (
 JS
 :
@@ -1023,7 +1023,7 @@ return
 mPromise
 -
 >
-MaybeResolve
+MaybeSafeResolve
 (
 value
 )
@@ -1162,7 +1162,7 @@ return
 mPromise
 -
 >
-MaybeResolve
+MaybeSafeResolve
 (
 value
 )
