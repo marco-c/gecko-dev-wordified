@@ -19250,9 +19250,6 @@ anonymous
 block
 frame
 .
-this
--
->
 MarkSubtreeDirty
 (
 )
@@ -35407,7 +35404,7 @@ kid
 return
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 kid
