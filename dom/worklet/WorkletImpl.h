@@ -645,10 +645,10 @@ may
 release
 state
 that
+*
 ConstructGlobalScope
 (
 )
-*
 would
 otherwise
 have
