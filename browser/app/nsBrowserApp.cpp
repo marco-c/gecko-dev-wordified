@@ -776,6 +776,10 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+MOZ_WINCONSOLE
 static
 bool
 gIsBackgroundTask
@@ -1205,6 +1209,10 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+MOZ_WINCONSOLE
 /
 *
 *
@@ -2328,6 +2336,10 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+MOZ_WINCONSOLE
 /
 /
 Check
