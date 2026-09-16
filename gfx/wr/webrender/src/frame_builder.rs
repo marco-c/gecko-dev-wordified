@@ -438,15 +438,6 @@ use
 crate
 :
 :
-scene_debug
-:
-:
-SceneDebugOverride
-;
-use
-crate
-:
-:
 space
 :
 :
@@ -917,13 +908,6 @@ pub
 debug_flags
 :
 DebugFlags
-pub
-debug_override
-:
-&
-'
-a
-SceneDebugOverride
 pub
 fb_config
 :
@@ -2029,10 +2013,6 @@ ScratchBuffer
 debug_flags
 :
 DebugFlags
-debug_override
-:
-&
-SceneDebugOverride
 composite_state
 :
 &
@@ -2198,7 +2178,6 @@ MAX_CLIP_COORD
 )
 }
 debug_flags
-debug_override
 fb_config
 :
 &
@@ -2679,7 +2658,6 @@ FrameVisibilityContext
 spatial_tree
 global_screen_device_rect
 debug_flags
-debug_override
 scene_properties
 config
 :
@@ -3886,10 +3864,6 @@ ScratchBuffer
 debug_flags
 :
 DebugFlags
-debug_override
-:
-&
-SceneDebugOverride
 tile_caches
 :
 &
@@ -4237,7 +4211,6 @@ transform_palette
 data_stores
 scratch
 debug_flags
-debug_override
 &
 mut
 composite_state
