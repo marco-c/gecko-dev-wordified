@@ -14840,7 +14840,7 @@ GetParentObject
 startPromise
 -
 >
-MaybeSafeResolve
+MaybeResolve
 (
 startResult
 )
