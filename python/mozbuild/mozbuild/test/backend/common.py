@@ -1673,6 +1673,31 @@ BIN_SUFFIX
 :
 "
 "
+                
+"
+LIB_SUFFIX
+"
+:
+"
+a
+"
+                
+"
+DLL_PREFIX
+"
+:
+"
+lib
+"
+                
+"
+DLL_SUFFIX
+"
+:
+"
+.
+so
+"
             
 }
         
