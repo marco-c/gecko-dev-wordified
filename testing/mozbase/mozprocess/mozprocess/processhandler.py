@@ -988,15 +988,6 @@ creationflags
 }
             
 if
-sys
-.
-version_info
-.
-minor
->
-=
-6
-and
 universal_newlines
 :
                 
