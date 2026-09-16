@@ -15,10 +15,6 @@ os
 import
 sys
 from
-collections
-import
-OrderedDict
-from
 typing
 import
 Dict
@@ -319,9 +315,8 @@ curdir
     
 rv
 =
-OrderedDict
-(
-)
+{
+}
     
 for
 section

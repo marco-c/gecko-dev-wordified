@@ -10,8 +10,6 @@ python3
 import
 argparse
 import
-collections
-import
 copy
 import
 json
@@ -3613,11 +3611,8 @@ json
     
 spec_json
 =
-collections
-.
-OrderedDict
-(
-)
+{
+}
     
 if
 os
