@@ -173,6 +173,7 @@ vacuum
 on
 the
 DB
+pub
 fn
 vacuum
 (
