@@ -1590,7 +1590,7 @@ JS
 in
 tabgroup
 .
-js
+mjs
 {
 propName
 :

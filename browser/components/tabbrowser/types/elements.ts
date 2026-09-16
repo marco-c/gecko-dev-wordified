@@ -85,13 +85,13 @@ content
 /
 tabgroup
 .
-js
+mjs
 and
 content
 /
 tabsplitview
 .
-js
+mjs
 are
 loaded
 as
@@ -418,7 +418,7 @@ set
 :
 tabgroup
 .
-js
+mjs
 /
 /
 interpolates
@@ -643,7 +643,7 @@ own
 so
 tabgroup
 .
-js
+mjs
 assigns
 all
 four
@@ -690,7 +690,7 @@ it
 .
 tabsplitview
 .
-js
+mjs
 documents
 the
 same
