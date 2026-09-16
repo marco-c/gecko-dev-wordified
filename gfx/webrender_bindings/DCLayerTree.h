@@ -727,9 +727,9 @@ wr
 DeviceIntPoint
 *
 aOffset
-uint32_t
+uint64_t
 *
-aFboId
+aSurfaceHandle
 wr
 :
 :
@@ -2978,8 +2978,6 @@ ShaderBltSetup
 bool
 ShaderBlt
 (
-DXGI_COLOR_SPACE_TYPE
-inputColorSpace
 const
 RECT
 &

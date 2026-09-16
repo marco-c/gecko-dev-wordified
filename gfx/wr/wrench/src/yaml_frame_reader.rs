@@ -1084,7 +1084,12 @@ ExternalImageSource
 :
 NativeTexture
 (
+ExternalTextureHandle
+(
 id
+as
+u64
+)
 )
 }
 }

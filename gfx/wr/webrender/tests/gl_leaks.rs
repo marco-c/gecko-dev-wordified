@@ -206,13 +206,6 @@ init
 .
 rs
 "
-"
-renderer
-/
-mod
-.
-rs
-"
 ]
 ;
 /

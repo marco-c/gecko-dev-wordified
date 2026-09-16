@@ -4198,7 +4198,7 @@ wr
 WrExternalImage
 NativeTextureToWrExternalImage
 (
-uint32_t
+uint64_t
 aHandle
 float
 u0
