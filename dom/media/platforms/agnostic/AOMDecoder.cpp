@@ -3190,6 +3190,10 @@ header
 return
 ;
 }
+temp
+.
+mTemporalId
+=
 br
 .
 ReadBits
@@ -3197,9 +3201,6 @@ ReadBits
 3
 )
 ;
-/
-/
-temporal_id
 br
 .
 ReadBits
