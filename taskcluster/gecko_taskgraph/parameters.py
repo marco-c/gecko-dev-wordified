@@ -655,6 +655,10 @@ Optional
 str
 ]
     
+shipping
+:
+bool
+    
 test_manifest_loader
 :
 str
@@ -1058,6 +1062,12 @@ repository_type
 "
 hg
 "
+        
+"
+shipping
+"
+:
+False
         
 "
 test_manifest_loader
