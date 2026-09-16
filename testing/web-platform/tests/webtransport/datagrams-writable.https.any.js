@@ -1322,7 +1322,7 @@ assert_equals
 writer
 .
 desiredSize
-1
+5
 '
 writer
 is
