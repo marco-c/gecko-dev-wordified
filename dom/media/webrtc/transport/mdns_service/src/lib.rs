@@ -553,15 +553,8 @@ io
 Error
 :
 :
-new
+other
 (
-io
-:
-:
-ErrorKind
-:
-:
-Other
 "
 Name
 part
@@ -1176,7 +1169,6 @@ send_to
 (
 &
 buf
-&
 mdns_addr
 )
 {
@@ -1445,7 +1437,6 @@ net
 :
 :
 SocketAddr
-mut
 buffer
 :
 &
@@ -1535,8 +1526,6 @@ socket
 .
 recv_from
 (
-&
-mut
 buffer
 )
 {
@@ -1576,7 +1565,6 @@ Packet
 :
 parse
 (
-&
 buffer
 )
 {
@@ -1742,7 +1730,6 @@ push
 (
 (
 qname
-&
 octets
 )
 )
@@ -2022,7 +2009,6 @@ send_to
 (
 &
 buf
-&
 mdns_addr
 )
 {
@@ -3178,14 +3164,11 @@ parse
 (
 )
 .
-and_then
+map
 (
 |
 ip
 |
-{
-Ok
-(
 match
 ip
 {
@@ -3230,8 +3213,6 @@ octets
 .
 to_vec
 (
-)
-}
 )
 }
 )
