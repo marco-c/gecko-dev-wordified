@@ -699,6 +699,12 @@ nsRectCornerRadii
 const
 final
 ;
+nsMargin
+ScrollbarInsets
+(
+)
+const
+;
 nscoord
 IntrinsicISize
 (
