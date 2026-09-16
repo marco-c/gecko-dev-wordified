@@ -6978,6 +6978,8 @@ plContext
 PKIX_List
 *
 element
+=
+NULL
 ;
 PKIX_ENTER
 (
