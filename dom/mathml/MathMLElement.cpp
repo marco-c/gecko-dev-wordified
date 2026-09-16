@@ -1090,7 +1090,7 @@ bool
 MathMLElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
@@ -3317,6 +3317,11 @@ MappedDeclarationsBuilder
 aBuilder
 )
 {
+MapXmlLangAttrInto
+(
+aBuilder
+)
+;
 /
 /
 scriptlevel
