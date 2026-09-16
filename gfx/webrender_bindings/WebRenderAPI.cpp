@@ -9653,6 +9653,8 @@ bool
 aPreferCompositorSurface
 bool
 aSupportsExternalCompositing
+bool
+aRasterizedForRect
 )
 {
 WRDL_LOG
@@ -9704,6 +9706,7 @@ aPremultipliedAlpha
 aColor
 aPreferCompositorSurface
 aSupportsExternalCompositing
+aRasterizedForRect
 )
 ;
 }

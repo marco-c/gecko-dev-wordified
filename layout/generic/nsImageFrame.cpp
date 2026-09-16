@@ -14994,6 +14994,11 @@ ImageIntRegion
 >
 region
 ;
+bool
+rasterizedForDest
+=
+false
+;
 IntSize
 decodeSize
 =
@@ -15010,6 +15015,8 @@ aSc
 aFlags
 svgContext
 region
+&
+rasterizedForDest
 )
 ;
 RefPtr
@@ -15068,6 +15075,11 @@ aBuilder
 aResources
 destRect
 bounds
+rasterizedForDest
+&
+&
+!
+region
 )
 ;
 result
@@ -17267,6 +17279,11 @@ ImageIntRegion
 >
 region
 ;
+bool
+rasterizedForDest
+=
+false
+;
 IntSize
 decodeSize
 =
@@ -17283,6 +17300,8 @@ aSc
 flags
 svgContext
 region
+&
+rasterizedForDest
 )
 ;
 RefPtr
@@ -17863,6 +17882,11 @@ aBuilder
 aResources
 destRect
 destRect
+rasterizedForDest
+&
+&
+!
+region
 )
 ;
 return

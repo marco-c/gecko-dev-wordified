@@ -4271,6 +4271,11 @@ ImageIntRegion
 >
 region
 ;
+bool
+rasterizedForDest
+=
+false
+;
 IntSize
 decodeSize
 =
@@ -4287,6 +4292,8 @@ aSc
 flags
 svgContext
 region
+&
+rasterizedForDest
 )
 ;
 if
@@ -4623,6 +4630,11 @@ aBuilder
 aResources
 destRect
 clipRect
+rasterizedForDest
+&
+&
+!
+region
 )
 ;
 }
