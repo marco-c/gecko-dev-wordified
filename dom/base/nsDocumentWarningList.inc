@@ -141,3 +141,7 @@ DOCUMENT_WARNING
 (
 SpeechRecognitionLangDefaultedToUserLanguage
 )
+DOCUMENT_WARNING
+(
+SpeechRecognitionIsolatedTrack
+)
