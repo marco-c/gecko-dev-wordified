@@ -2391,12 +2391,10 @@ self
 ctx
 )
 ;
-debug_assert
+debug_assert_ne
 !
 (
 this_id
-!
-=
 instantiation
 .
 template_definition

@@ -816,9 +816,6 @@ kind
 )
 {
 CXCursor_ObjCClassRef
-=
->
-{
 if
 cursor
 .
@@ -828,6 +825,8 @@ kind
 =
 =
 CXCursor_ObjCCategoryDecl
+=
+>
 {
 /
 /
@@ -876,7 +875,6 @@ spelling
 )
 )
 ;
-}
 }
 CXCursor_ObjCProtocolRef
 =
