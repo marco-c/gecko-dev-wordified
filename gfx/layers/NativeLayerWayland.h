@@ -1406,8 +1406,10 @@ aScale
 /
 /
 TODO
+RefPtr
+<
 GpuFence
-*
+>
 GetGpuFence
 (
 )
