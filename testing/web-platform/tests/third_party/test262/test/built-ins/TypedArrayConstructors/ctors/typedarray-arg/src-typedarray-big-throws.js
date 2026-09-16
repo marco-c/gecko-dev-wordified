@@ -145,9 +145,6 @@ includes
 testTypedArray
 .
 js
-testTypedArray
-.
-js
 ]
 features
 :
