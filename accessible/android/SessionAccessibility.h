@@ -537,6 +537,14 @@ uint16_t
 aPriority
 )
 ;
+void
+SendValueChangedEvent
+(
+Accessible
+*
+aAccessible
+)
+;
 Accessible
 *
 GetAccessibleByID
