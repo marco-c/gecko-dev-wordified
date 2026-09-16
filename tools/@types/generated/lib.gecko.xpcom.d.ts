@@ -176145,6 +176145,9 @@ webSocketClosed
 aWebSocketSerialID
 :
 u32
+aHttpChannelId
+:
+u64
 aWasClean
 :
 boolean

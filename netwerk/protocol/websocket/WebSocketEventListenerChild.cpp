@@ -336,6 +336,10 @@ uint32_t
 &
 aWebSocketSerialID
 const
+uint64_t
+&
+aHttpChannelId
+const
 bool
 &
 aWasClean
@@ -371,6 +375,7 @@ WebSocketClosed
 (
 aWebSocketSerialID
 mInnerWindowID
+aHttpChannelId
 aWasClean
 aCode
 aReason

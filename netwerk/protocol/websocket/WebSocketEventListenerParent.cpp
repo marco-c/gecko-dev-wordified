@@ -342,6 +342,8 @@ WebSocketClosed
 (
 uint32_t
 aWebSocketSerialID
+uint64_t
+aHttpChannelId
 bool
 aWasClean
 uint16_t
@@ -358,6 +360,7 @@ void
 SendWebSocketClosed
 (
 aWebSocketSerialID
+aHttpChannelId
 aWasClean
 aCode
 aReason
