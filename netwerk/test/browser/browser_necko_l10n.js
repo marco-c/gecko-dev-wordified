@@ -294,14 +294,6 @@ set
 :
 [
 [
-"
-test
-.
-wait300msAfterTabSwitch
-"
-true
-]
-[
 HTTPS_FIRST
 false
 ]
