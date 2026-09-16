@@ -856,7 +856,7 @@ value
 Always
 false
 .
-mv
+ma_mv
 (
 dst
 zero
@@ -2472,7 +2472,7 @@ rd
 rs1
 )
 {
-mv
+ma_mv
 (
 rd
 rs1
@@ -2612,7 +2612,7 @@ Zero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rd
 rs2
@@ -2647,7 +2647,7 @@ NonZero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rd
 rs1
@@ -2690,7 +2690,7 @@ Zero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rtmp
 rs2
@@ -2716,7 +2716,7 @@ NonZero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rtmp
 rs1
@@ -2725,7 +2725,7 @@ rs1
 }
 else
 {
-mv
+ma_mv
 (
 rtmp
 rs1
@@ -2741,7 +2741,7 @@ Zero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rtmp
 rs2
@@ -2754,7 +2754,7 @@ bind
 done
 )
 ;
-mv
+ma_mv
 (
 rd
 rtmp
@@ -2763,7 +2763,7 @@ rtmp
 }
 else
 {
-mv
+ma_mv
 (
 rd
 rs1
@@ -2782,7 +2782,7 @@ Zero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rd
 rs2
@@ -2917,7 +2917,7 @@ rd
 rs1
 )
 {
-mv
+ma_mv
 (
 rd
 rs1
@@ -3057,7 +3057,7 @@ NonZero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rd
 rs2
@@ -3092,7 +3092,7 @@ Zero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rd
 rs1
@@ -3135,7 +3135,7 @@ NonZero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rtmp
 rs2
@@ -3161,7 +3161,7 @@ Zero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rtmp
 rs1
@@ -3170,7 +3170,7 @@ rs1
 }
 else
 {
-mv
+ma_mv
 (
 rtmp
 rs1
@@ -3186,7 +3186,7 @@ NonZero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rtmp
 rs2
@@ -3199,7 +3199,7 @@ bind
 done
 )
 ;
-mv
+ma_mv
 (
 rd
 rtmp
@@ -3208,7 +3208,7 @@ rtmp
 }
 else
 {
-mv
+ma_mv
 (
 rd
 rs1
@@ -3227,7 +3227,7 @@ NonZero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 rd
 rs2
@@ -3832,7 +3832,7 @@ Register
 dest
 )
 {
-mv
+ma_mv
 (
 dest
 src
@@ -9631,7 +9631,7 @@ dest
 base
 )
 {
-mv
+ma_mv
 (
 dest
 base
@@ -14738,7 +14738,7 @@ size
 StackPointer
 )
 ;
-mv
+ma_mv
 (
 a0
 StackPointer
@@ -15637,7 +15637,7 @@ skipProfilingInstrumentation
 )
 ;
 }
-mv
+ma_mv
 (
 StackPointer
 FramePointer
@@ -32763,7 +32763,7 @@ one
 more
 instruction
 .
-mv
+ma_mv
 (
 scratch
 sp
@@ -33037,7 +33037,7 @@ rd
 rj
 )
 {
-mv
+ma_mv
 (
 scratch
 rj
@@ -33070,7 +33070,7 @@ rd
 rk
 )
 {
-mv
+ma_mv
 (
 scratch
 rk
@@ -37255,7 +37255,7 @@ return
 case
 0
 :
-mv
+ma_mv
 (
 rd
 zero
@@ -37833,7 +37833,7 @@ return
 case
 0
 :
-mv
+ma_mv
 (
 rd
 zero
@@ -37852,7 +37852,7 @@ rd
 rs
 )
 {
-mv
+ma_mv
 (
 rd
 rs
@@ -38127,7 +38127,7 @@ Acquire
 (
 )
 ;
-mv
+ma_mv
 (
 savedRs
 rs
@@ -38208,7 +38208,7 @@ Acquire
 (
 )
 ;
-mv
+ma_mv
 (
 savedRs
 rs
@@ -39215,7 +39215,7 @@ rj
 rd
 )
 {
-mv
+ma_mv
 (
 scratch2
 rj
@@ -39369,7 +39369,7 @@ rj
 rd
 )
 {
-mv
+ma_mv
 (
 scratch
 rj
@@ -39448,7 +39448,7 @@ rj
 rd
 )
 {
-mv
+ma_mv
 (
 scratch2
 rj
@@ -41423,7 +41423,7 @@ rs
 n
 )
 ;
-mv
+ma_mv
 (
 x
 rs
@@ -41455,7 +41455,7 @@ Zero
 ShortJump
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -41500,7 +41500,7 @@ n
 8
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -41537,7 +41537,7 @@ n
 4
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -41574,7 +41574,7 @@ n
 2
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -41901,7 +41901,7 @@ rs
 n
 )
 ;
-mv
+ma_mv
 (
 x
 rs
@@ -41941,7 +41941,7 @@ n
 32
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -41978,7 +41978,7 @@ n
 16
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -42015,7 +42015,7 @@ n
 8
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -42052,7 +42052,7 @@ n
 4
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -42089,7 +42089,7 @@ n
 2
 )
 ;
-mv
+ma_mv
 (
 x
 y
@@ -45145,7 +45145,7 @@ ror_value
 0
 )
 {
-mv
+ma_mv
 (
 rd
 rs
@@ -45434,7 +45434,7 @@ dror_value
 0
 )
 {
-mv
+ma_mv
 (
 rd
 rs

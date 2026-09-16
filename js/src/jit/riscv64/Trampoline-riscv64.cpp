@@ -2359,7 +2359,7 @@ reg_code
 ;
 masm
 .
-mv
+ma_mv
 (
 R1
 .

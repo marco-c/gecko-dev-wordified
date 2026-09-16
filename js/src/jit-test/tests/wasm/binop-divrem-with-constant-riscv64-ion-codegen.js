@@ -1015,9 +1015,6 @@ divisor
 1
 expected
 :
-mv
-a0
-a0
 }
 {
 divisor
@@ -1587,9 +1584,6 @@ divisor
 1
 expected
 :
-mv
-a0
-a0
 }
 {
 divisor
