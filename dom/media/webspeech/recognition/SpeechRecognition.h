@@ -2463,6 +2463,14 @@ session
 nsCString
 mSessionId
 ;
+TimeDuration
+mResultLatencyTotal
+;
+uint32_t
+mResultLatencySampleCount
+=
+0
+;
 /
 /
 The
