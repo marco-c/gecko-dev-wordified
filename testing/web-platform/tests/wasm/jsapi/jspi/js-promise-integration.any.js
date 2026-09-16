@@ -2159,6 +2159,7 @@ async
 =
 >
 {
+await
 TestSandwich
 (
 true
@@ -2181,6 +2182,7 @@ async
 =
 >
 {
+await
 TestSandwich
 (
 false
