@@ -1056,6 +1056,17 @@ js
 irregexp
 :
 :
+HandleRegExpInterrupt
+)
+\
+_
+(
+js
+:
+:
+irregexp
+:
+:
 IsCharacterInRangeArray
 )
 \
