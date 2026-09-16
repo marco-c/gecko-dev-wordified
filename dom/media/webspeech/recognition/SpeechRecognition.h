@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SpeechRecognition_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHRECOGNITION_H_
 #
 define
-mozilla_dom_SpeechRecognition_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHRECOGNITION_H_
 #
 include
 "
@@ -1909,3 +1909,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHRECOGNITION_H_

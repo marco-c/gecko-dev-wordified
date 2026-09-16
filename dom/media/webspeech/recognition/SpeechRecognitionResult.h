@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SpeechRecognitionResult_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHRECOGNITIONRESULT_H_
 #
 define
-mozilla_dom_SpeechRecognitionResult_h
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHRECOGNITIONRESULT_H_
 #
 include
 "
@@ -256,3 +256,6 @@ mozilla
 dom
 #
 endif
+/
+/
+DOM_MEDIA_WEBSPEECH_RECOGNITION_SPEECHRECOGNITIONRESULT_H_

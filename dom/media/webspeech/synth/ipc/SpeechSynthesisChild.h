@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SpeechSynthesisChild_h
+DOM_MEDIA_WEBSPEECH_SYNTH_IPC_SPEECHSYNTHESISCHILD_H_
 #
 define
-mozilla_dom_SpeechSynthesisChild_h
+DOM_MEDIA_WEBSPEECH_SYNTH_IPC_SPEECHSYNTHESISCHILD_H_
 #
 include
 "
@@ -704,3 +704,6 @@ mozilla
 dom
 #
 endif
+/
+/
+DOM_MEDIA_WEBSPEECH_SYNTH_IPC_SPEECHSYNTHESISCHILD_H_
