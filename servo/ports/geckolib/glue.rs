@@ -27408,6 +27408,7 @@ PseudoElement
 :
 :
 MozPageContent
+&
 extra_declarations
 )
 ;
@@ -27671,8 +27672,7 @@ rule_node_for_precomputed_pseudo
 guards
 &
 pseudo
-vec
-!
+&
 [
 ]
 )
