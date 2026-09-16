@@ -935,6 +935,8 @@ picture_scratch_handles
 pic_index
 .
 0
+as
+usize
 ]
 {
 return
@@ -956,6 +958,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -998,6 +1002,8 @@ picture_scratch_handles
 pic_index
 .
 0
+as
+usize
 ]
 =
 Some
@@ -1050,6 +1056,8 @@ pic_context
 pic_index
 .
 0
+as
+usize
 ]
 .
 restore_context
@@ -2104,6 +2112,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 composite_mode
@@ -5363,6 +5373,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 let

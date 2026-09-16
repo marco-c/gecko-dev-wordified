@@ -4071,6 +4071,8 @@ push
 PictureIndex
 (
 pic_index
+as
+u32
 )
 )
 ;

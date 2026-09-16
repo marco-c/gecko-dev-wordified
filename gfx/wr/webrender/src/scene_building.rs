@@ -1968,6 +1968,8 @@ flags
 None
 )
 )
+as
+u32
 )
 ;
 let
@@ -2155,6 +2157,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 picture
@@ -2322,6 +2326,8 @@ flags
 snapshot
 )
 )
+as
+u32
 )
 ;
 create_prim_instance
@@ -4389,6 +4395,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 assert_ne
@@ -4695,6 +4703,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 snapshot
@@ -5254,6 +5264,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 composite_mode
@@ -5587,6 +5599,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 clip_root
@@ -5652,6 +5666,8 @@ pictures
 child_pic_index
 .
 0
+as
+usize
 ]
 ;
 if
@@ -5718,6 +5734,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 prim_list
@@ -13020,6 +13038,8 @@ empty
 None
 )
 )
+as
+u32
 )
 ;
 let
@@ -13188,6 +13208,8 @@ empty
 None
 )
 )
+as
+u32
 )
 ;
 let
@@ -13759,6 +13781,8 @@ pictures
 child_pic_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -13855,6 +13879,8 @@ empty
 None
 )
 )
+as
+u32
 )
 ;
 let
@@ -22307,6 +22333,8 @@ empty
 None
 )
 )
+as
+u32
 )
 ;
 let

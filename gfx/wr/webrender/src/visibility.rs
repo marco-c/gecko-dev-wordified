@@ -2528,6 +2528,8 @@ visited_pictures
 pic_index
 .
 0
+as
+usize
 ]
 {
 return
@@ -2540,6 +2542,8 @@ visited_pictures
 pic_index
 .
 0
+as
+usize
 ]
 =
 true
@@ -2555,6 +2559,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -3538,6 +3544,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 is_visible
@@ -3561,6 +3569,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 raster_config
@@ -3593,6 +3603,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 .
 clip_root
@@ -3976,6 +3988,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 matches
