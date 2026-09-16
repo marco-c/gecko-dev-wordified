@@ -516,8 +516,8 @@ info
 self
 .
 info
-{
-if
+&
+&
 *
 element
 =
@@ -531,7 +531,6 @@ info
 .
 next_sibling
 ;
-}
 }
 element
 .
@@ -580,8 +579,8 @@ info
 self
 .
 info
-{
-if
+&
+&
 *
 element
 =
@@ -595,7 +594,6 @@ info
 .
 prev_sibling
 ;
-}
 }
 element
 .
@@ -5353,8 +5351,8 @@ element
 shadow_root
 (
 )
-{
-if
+&
+&
 element
 .
 exports_any_part
@@ -5371,7 +5369,6 @@ invalidate_parts_in_shadow_tree
 shadow
 invalidations
 )
-}
 }
 }
 any
@@ -5996,8 +5993,8 @@ checker
 self
 .
 stack_limit_checker
-{
-if
+&
+&
 checker
 .
 limit_exceeded
@@ -6018,7 +6015,6 @@ element
 return
 true
 ;
-}
 }
 let
 mut

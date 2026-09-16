@@ -6452,8 +6452,8 @@ parse
 i
 )
 )
-{
-if
+&
+&
 op1
 .
 is_compatible_with
@@ -6490,7 +6490,6 @@ value3
 }
 )
 ;
-}
 }
 Ok
 (

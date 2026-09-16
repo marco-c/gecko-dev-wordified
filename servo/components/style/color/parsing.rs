@@ -1562,8 +1562,8 @@ color_function
 has_origin_color
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -1595,7 +1595,6 @@ resolved
 )
 )
 ;
-}
 }
 /
 /

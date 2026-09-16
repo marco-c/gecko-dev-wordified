@@ -10963,8 +10963,8 @@ right
 resolve
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -10976,8 +10976,8 @@ resolved
 as_number
 (
 )
-{
-if
+&
+&
 number
 !
 =
@@ -11022,8 +11022,6 @@ InPlaceDivisionResult
 :
 Merged
 ;
-}
-}
 }
 InPlaceDivisionResult
 :

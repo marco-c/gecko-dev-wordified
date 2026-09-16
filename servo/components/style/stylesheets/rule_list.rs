@@ -624,8 +624,8 @@ Namespace
 =
 *
 rule
-{
-if
+&
+&
 !
 self
 .
@@ -642,7 +642,6 @@ RulesMutateError
 InvalidState
 )
 ;
-}
 }
 }
 /

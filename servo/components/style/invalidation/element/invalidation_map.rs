@@ -7698,8 +7698,8 @@ state
 )
 =
 result
-{
-if
+&
+&
 let
 Some
 (
@@ -7733,7 +7733,6 @@ insert
 state
 )
 ;
-}
 }
 true
 }

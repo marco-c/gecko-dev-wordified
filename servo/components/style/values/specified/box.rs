@@ -9022,8 +9022,8 @@ lines
 is_none
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -9056,7 +9056,6 @@ value
 ;
 continue
 ;
-}
 }
 if
 !
@@ -9257,8 +9256,8 @@ max_lines
 is_none
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -9292,15 +9291,14 @@ value
 continue
 ;
 }
-}
 if
 block_ellipsis
 .
 is_none
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -9333,7 +9331,6 @@ value
 ;
 continue
 ;
-}
 }
 break
 ;

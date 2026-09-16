@@ -1696,7 +1696,6 @@ current_names
 extend_from_slice
 (
 &
-mut
 input
 .
 try_parse
@@ -2296,8 +2295,8 @@ if
 allow_grid_template_subgrids
 (
 )
-{
-if
+&
+&
 let
 Ok
 (
@@ -2339,7 +2338,6 @@ t
 )
 )
 ;
-}
 }
 if
 allow_grid_template_masonry

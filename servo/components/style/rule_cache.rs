@@ -658,8 +658,8 @@ fs
 self
 .
 font_size
-{
-if
+&
+&
 style
 .
 get_font
@@ -678,7 +678,6 @@ fs
 return
 false
 ;
-}
 }
 if
 let

@@ -1848,8 +1848,8 @@ media
 (
 guard
 )
-{
-if
+&
+&
 !
 media
 .
@@ -1882,7 +1882,6 @@ dest
 )
 ?
 ;
-}
 }
 dest
 .

@@ -4329,8 +4329,8 @@ simple_filter
 is_none
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -4355,7 +4355,6 @@ attr_name
 )
 )
 ;
-}
 }
 }
 }

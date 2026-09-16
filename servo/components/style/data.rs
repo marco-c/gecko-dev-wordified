@@ -873,7 +873,6 @@ from_eager_index
 (
 i
 )
-&
 values
 .
 rules

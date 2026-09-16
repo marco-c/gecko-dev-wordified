@@ -1068,8 +1068,8 @@ data
 )
 =
 data
-{
-if
+&
+&
 !
 traversal_flags
 .
@@ -1168,7 +1168,6 @@ actual_root
 )
 )
 ;
-}
 }
 }
 let
@@ -1927,8 +1926,8 @@ RuleInclusion
 :
 :
 All
-{
-if
+&
+&
 let
 Some
 (
@@ -1940,8 +1939,8 @@ current
 borrow_data
 (
 )
-{
-if
+&
+&
 let
 Some
 (
@@ -1970,8 +1969,6 @@ clone
 break
 ;
 }
-}
-}
 if
 let
 Some
@@ -1982,8 +1979,8 @@ cache
 )
 =
 undisplayed_style_cache
-{
-if
+&
+&
 let
 Some
 (
@@ -2015,7 +2012,6 @@ clone
 ;
 break
 ;
-}
 }
 ancestors_requiring_style_resolution
 .

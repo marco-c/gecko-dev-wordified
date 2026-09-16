@@ -3005,10 +3005,6 @@ Selector
 starts_with_ignore_ascii_case
 (
 name
-.
-as_ref
-(
-)
 "
 -
 moz
@@ -3649,11 +3645,10 @@ NonTSPseudoClass
 :
 parse_non_functional
 (
-&
 name
 )
-{
-if
+&
+&
 self
 .
 is_pseudo_class_enabled
@@ -3668,7 +3663,6 @@ Ok
 pseudo_class
 )
 ;
-}
 }
 Err
 (
@@ -4100,11 +4094,10 @@ PseudoElement
 :
 from_slice
 (
-&
 name
 )
-{
-if
+&
+&
 self
 .
 is_pseudo_element_enabled
@@ -4119,7 +4112,6 @@ Ok
 pseudo
 )
 ;
-}
 }
 /
 /
@@ -4142,8 +4134,8 @@ if
 self
 .
 for_supports_rule
-{
-if
+&
+&
 let
 Some
 (
@@ -4155,7 +4147,6 @@ PseudoElement
 :
 unknown_webkit_from_name
 (
-&
 name
 )
 {
@@ -4165,7 +4156,6 @@ Ok
 pseudo
 )
 ;
-}
 }
 Err
 (

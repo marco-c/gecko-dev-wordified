@@ -1010,8 +1010,8 @@ origin
 ;
 if
 resolvable
-{
-if
+&
+&
 let
 Ok
 (
@@ -1036,7 +1036,6 @@ absolute
 )
 )
 ;
-}
 }
 Ok
 (

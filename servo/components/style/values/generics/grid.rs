@@ -2992,8 +2992,8 @@ Auto
 =
 *
 min
-{
-if
+&
+&
 let
 TrackBreadth
 :
@@ -3014,7 +3014,6 @@ to_css
 dest
 )
 ;
-}
 }
 dest
 .
