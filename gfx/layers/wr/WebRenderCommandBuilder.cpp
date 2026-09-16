@@ -386,6 +386,11 @@ using
 namespace
 image
 ;
+[
+[
+maybe_unused
+]
+]
 static
 int
 sIndent
