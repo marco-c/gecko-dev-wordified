@@ -1230,6 +1230,15 @@ Register
 scratch
 )
 ;
+void
+ma_call36
+(
+int32_t
+offset
+Register
+scratch
+)
+;
 /
 /
 fp
