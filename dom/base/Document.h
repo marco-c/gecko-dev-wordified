@@ -1412,6 +1412,12 @@ PopoverAttributeState
 :
 uint8_t
 ;
+enum
+class
+SkipTransitionReason
+:
+uint8_t
+;
 class
 ProcessingInstruction
 ;
@@ -26820,6 +26826,12 @@ mActiveViewTransition
 void
 ClearActiveViewTransition
 (
+)
+;
+void
+MaybeSkipActiveViewTransition
+(
+SkipTransitionReason
 )
 ;
 MOZ_CAN_RUN_SCRIPT
