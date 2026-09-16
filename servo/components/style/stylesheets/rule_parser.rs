@@ -2111,16 +2111,6 @@ feature
 -
 values
 "
-if
-cfg
-!
-(
-feature
-=
-"
-gecko
-"
-)
 =
 >
 Self
