@@ -10196,7 +10196,7 @@ ContentParent
 *
 )
 ;
-bool
+CanSetResult
 CanSet
 (
 FieldIndex
