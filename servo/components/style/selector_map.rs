@@ -2238,6 +2238,7 @@ rule
 .
 matches_selector
 (
+&
 element
 matching_context
 )
