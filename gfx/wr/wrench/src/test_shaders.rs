@@ -949,6 +949,8 @@ let
 (
 vert_src
 frag_src
+_
+_
 )
 =
 build_shader_strings

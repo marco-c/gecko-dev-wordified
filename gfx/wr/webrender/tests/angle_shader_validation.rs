@@ -256,6 +256,8 @@ let
 (
 vs
 fs
+_
+_
 )
 =
 build_shader_strings
