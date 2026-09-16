@@ -1805,9 +1805,6 @@ Policy
 "
 macOSPoliciesParser
 "
-"
-PoliciesHelpers
-"
 ]
 ;
 let
