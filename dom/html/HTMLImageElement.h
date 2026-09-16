@@ -2517,7 +2517,7 @@ mResponsiveSelector
 This
 is
 a
-strong
+weak
 reference
 that
 this
@@ -2531,11 +2531,11 @@ cooperate
 in
 maintaining
 .
-RefPtr
-<
 HTMLFormElement
->
+*
 mForm
+=
+nullptr
 ;
 private
 :

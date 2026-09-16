@@ -18221,13 +18221,7 @@ point
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_INHERITED
-(
-nsGenericHTMLFormControlElement
-nsGenericHTMLFormElement
-mForm
-)
-NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsGenericHTMLFormControlElement
 nsGenericHTMLFormElement
