@@ -52,6 +52,9 @@ mod
 concat_slice
 ;
 mod
+dither
+;
+mod
 fast_math
 ;
 mod
@@ -113,6 +116,16 @@ cacheline
 pub
 use
 concat_slice
+:
+:
+*
+;
+pub
+(
+crate
+)
+use
+dither
 :
 :
 *

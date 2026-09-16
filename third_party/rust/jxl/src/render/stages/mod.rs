@@ -91,16 +91,6 @@ xyb
 mod
 ycbcr
 ;
-#
-[
-cfg
-(
-test
-)
-]
-mod
-nearest_neighbor
-;
 pub
 use
 blending

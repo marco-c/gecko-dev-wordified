@@ -282,6 +282,9 @@ Option
 mut
 ErasedLocalState
 >
+_previous_call_was_previous_row
+:
+bool
 )
 {
 let

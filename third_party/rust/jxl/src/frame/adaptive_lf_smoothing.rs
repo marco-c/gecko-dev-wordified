@@ -43,6 +43,12 @@ LICENSE
 file
 .
 use
+num_traits
+:
+:
+abs
+;
+use
 crate
 :
 :
@@ -92,12 +98,6 @@ buffer_splitter
 :
 :
 OutputChannelSplitter
-;
-use
-num_traits
-:
-:
-abs
 ;
 #
 [
@@ -537,9 +537,10 @@ num_lf_groups
 ;
 parallel_runner
 .
-run
+run_ordered
 (
 num_lf_groups
+None
 &
 |
 g
