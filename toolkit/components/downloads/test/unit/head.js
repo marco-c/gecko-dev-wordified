@@ -2150,6 +2150,8 @@ persist
 isPrivate
 classification
 null
+false
+null
 )
 ;
 persist

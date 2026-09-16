@@ -16667,6 +16667,7 @@ mDownloadClassification
 referrerInfo
 !
 mDialogShowing
+nullptr
 )
 ;
 }
@@ -17248,6 +17249,7 @@ channel
 mDownloadClassification
 referrerInfo
 true
+nullptr
 )
 ;
 }
