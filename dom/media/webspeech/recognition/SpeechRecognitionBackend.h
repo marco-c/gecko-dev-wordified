@@ -1409,6 +1409,8 @@ nsACString
 aTranscript
 bool
 aIsFinal
+float
+aConfidence
 )
 MOZ_REQUIRES
 (

@@ -972,6 +972,8 @@ nsCString
 aTranscript
 bool
 aIsFinal
+float
+aConfidence
 )
 ;
 void

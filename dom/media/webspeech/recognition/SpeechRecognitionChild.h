@@ -183,6 +183,7 @@ const
 nsCString
 &
 bool
+float
 )
 >
 ;
@@ -344,6 +345,10 @@ const
 bool
 &
 aIsFinal
+const
+float
+&
+aConfidence
 )
 ;
 mozilla
