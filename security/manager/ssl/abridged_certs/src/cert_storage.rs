@@ -63,9 +63,6 @@ cstr
 cstr
 ;
 use
-log
-;
-use
 nserror
 :
 :
@@ -191,6 +188,7 @@ HasAllCertsByHash
 (
 hashes
 &
+raw
 mut
 found
 )
@@ -288,6 +286,7 @@ FindCertByHash
 (
 hash
 &
+raw
 mut
 value
 )
