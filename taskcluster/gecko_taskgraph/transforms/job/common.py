@@ -1199,6 +1199,24 @@ config
 job
 )
     
+taskdesc
+.
+setdefault
+(
+"
+attributes
+"
+{
+}
+)
+[
+"
+clone_with
+"
+]
+=
+clone_with
+    
 if
 config
 .
