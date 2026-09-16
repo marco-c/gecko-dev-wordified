@@ -4653,7 +4653,11 @@ We
 skip
 incrementing
 the
-DOM_CONTENTPROCESS_OS_PRIORITY_RAISED
+dom
+.
+contentprocess
+.
+os_priority_raised
 if
 we
 '
