@@ -600,6 +600,11 @@ reported_cwnd_reduce_ratio_
 .
 0
 ;
+bool
+encoder_paused_due_to_congestion_
+=
+false
+;
 }
 ;
 }
