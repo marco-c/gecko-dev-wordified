@@ -597,6 +597,13 @@ Firefox
 "
 )
         
+self
+.
+wait_for_ca_cert
+(
+DEFAULT_CERT_PATH
+)
+        
 #
 browser_path
 is
