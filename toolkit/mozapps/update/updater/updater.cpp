@@ -18641,6 +18641,9 @@ LaunchCallbackApp
 #
 endif
 }
+#
+ifndef
+XP_MACOSX
 static
 void
 WriteUpdateTelemetry
@@ -18803,6 +18806,8 @@ file
 ;
 }
 }
+#
+endif
 static
 bool
 WriteToFile
@@ -22410,11 +22415,16 @@ gSucceeded
 =
 true
 ;
+#
+ifndef
+XP_MACOSX
 WriteUpdateTelemetry
 (
 gInstallDirPath
 )
 ;
+#
+endif
 return
 0
 ;
@@ -23738,6 +23748,9 @@ bundle
 }
 #
 endif
+#
+ifndef
+XP_MACOSX
 if
 (
 !
@@ -23750,6 +23763,8 @@ gInstallDirPath
 )
 ;
 }
+#
+endif
 LOG
 (
 (
