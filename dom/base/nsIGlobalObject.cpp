@@ -2596,9 +2596,8 @@ dom_reporting_delivering_maxReports
 (
 )
 ;
-const
-nsString
-&
+nsAtom
+*
 reportType
 =
 aReport

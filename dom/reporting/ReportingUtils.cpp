@@ -544,14 +544,8 @@ dom
 Report
 (
 aGlobal
-nsDependentAtomString
-(
 aType
-)
-NS_ConvertUTF8toUTF16
-(
 aURL
-)
 aBody
 )
 ;
@@ -686,7 +680,7 @@ ReportDeliver
 AttemptDelivery
 (
 aGlobal
-nsAtomCString
+nsAutoAtomCString
 (
 aType
 )

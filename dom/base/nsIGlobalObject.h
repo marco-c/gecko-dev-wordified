@@ -2963,7 +2963,10 @@ mReportBuffer
 ;
 nsTHashMap
 <
-nsString
+RefPtr
+<
+nsAtom
+>
 uint32_t
 >
 mReportPerTypeCount
