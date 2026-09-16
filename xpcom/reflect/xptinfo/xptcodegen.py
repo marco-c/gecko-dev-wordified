@@ -81,10 +81,6 @@ import
 functools
 import
 json
-from
-collections
-import
-OrderedDict
 import
 buildconfig
 from
@@ -2056,9 +2052,8 @@ domobject_cache
     
 strings
 =
-OrderedDict
-(
-)
+{
+}
     
 def
 lower_uuid
@@ -2359,7 +2354,7 @@ O
 1
 )
 on
-OrderedDict
+dict
 )
 .
             

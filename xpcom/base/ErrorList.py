@@ -9,10 +9,6 @@ env
 python
 import
 json
-from
-collections
-import
-OrderedDict
 class
 Mod
 :
@@ -93,9 +89,8 @@ active
 None
 modules
 =
-OrderedDict
-(
-)
+{
+}
 #
 To
 add
@@ -1001,9 +996,8 @@ code
 .
 errors
 =
-OrderedDict
-(
-)
+{
+}
 #
 Standard
 "
