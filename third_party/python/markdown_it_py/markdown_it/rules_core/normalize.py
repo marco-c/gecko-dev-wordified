@@ -108,7 +108,7 @@ sub
 (
 "
 \
-uFFFD
+ufffd
 "
 string
 )

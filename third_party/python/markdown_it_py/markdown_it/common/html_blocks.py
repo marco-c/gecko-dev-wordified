@@ -33,6 +33,28 @@ blocks
 "
 "
 "
+#
+see
+https
+:
+/
+/
+spec
+.
+commonmark
+.
+org
+/
+0
+.
+31
+.
+2
+/
+#
+html
+-
+blocks
 block_names
 =
 [
@@ -234,11 +256,11 @@ param
 "
     
 "
-section
+search
 "
     
 "
-source
+section
 "
     
 "
