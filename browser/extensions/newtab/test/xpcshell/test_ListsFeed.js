@@ -205,12 +205,12 @@ ok
 !
 feed
 .
-loaded
+initialized
 "
 ListsFeed
 is
 not
-loaded
+initialized
 "
 )
 ;
@@ -332,7 +332,7 @@ add_task
 (
 async
 function
-test_isEnabled
+test_isEnabled_via_system_pref
 (
 )
 {
@@ -419,7 +419,7 @@ add_task
 (
 async
 function
-test_isEnabled
+test_isEnabled_via_trainhopConfig
 (
 )
 {
@@ -517,7 +517,7 @@ add_task
 (
 async
 function
-test_isEnabled
+test_isEnabled_via_widgetsConfig
 (
 )
 {
