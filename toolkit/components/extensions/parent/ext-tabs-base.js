@@ -978,7 +978,9 @@ zoom
 "
 white
 "
+{
 resetScrollPosition
+}
 )
 ;
 let
@@ -8943,7 +8945,7 @@ return
 *
 param
 {
-*
+any
 }
 _default
 *
@@ -14612,7 +14614,7 @@ convert
 *
 param
 {
-*
+any
 }
 args
 *
