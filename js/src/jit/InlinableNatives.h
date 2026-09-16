@@ -499,6 +499,12 @@ FunctionBind
 \
 _
 (
+InstantEpochMilliseconds
+)
+\
+\
+_
+(
 IntlGuardToSegments
 )
 \
@@ -1130,6 +1136,12 @@ WeakMapHas
 _
 (
 WeakSetHas
+)
+\
+\
+_
+(
+ZonedDateTimeEpochMilliseconds
 )
 \
 \
