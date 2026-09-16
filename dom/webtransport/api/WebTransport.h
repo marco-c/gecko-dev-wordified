@@ -769,6 +769,16 @@ CongestionControl
 (
 )
 ;
+static
+bool
+SupportsReliableOnly
+(
+const
+GlobalObject
+&
+aGlobal
+)
+;
 void
 GetProtocol
 (
