@@ -318,6 +318,12 @@ serialize_atom_name
 }
 ;
 use
+crate
+:
+:
+FxHashMap
+;
+use
 arrayvec
 :
 :
@@ -336,12 +342,6 @@ cssparser
 match_ignore_ascii_case
 Parser
 }
-;
-use
-rustc_hash
-:
-:
-FxHashMap
 ;
 use
 servo_arc

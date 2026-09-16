@@ -303,6 +303,12 @@ computed
 TreeCountingResult
 ;
 use
+crate
+:
+:
+FxHashMap
+;
+use
 app_units
 :
 :
@@ -322,12 +328,6 @@ euclid
 :
 :
 Scale
-;
-use
-rustc_hash
-:
-:
-FxHashMap
 ;
 use
 selectors

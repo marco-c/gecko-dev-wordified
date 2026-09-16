@@ -217,6 +217,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 {
 Atom
 CaseSensitivityExt
@@ -248,12 +254,6 @@ dom
 DocumentState
 ElementState
 }
-;
-use
-rustc_hash
-:
-:
-FxHashMap
 ;
 use
 selectors

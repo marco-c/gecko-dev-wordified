@@ -398,6 +398,12 @@ crate
 Atom
 ;
 use
+crate
+:
+:
+FxHashMap
+;
+use
 debug_unreachable
 :
 :
@@ -408,12 +414,6 @@ parking_lot
 :
 :
 RwLock
-;
-use
-rustc_hash
-:
-:
-FxHashMap
 ;
 use
 servo_arc

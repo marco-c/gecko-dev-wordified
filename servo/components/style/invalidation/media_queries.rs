@@ -136,7 +136,7 @@ SupportsRule
 }
 ;
 use
-rustc_hash
+crate
 :
 :
 FxHashSet

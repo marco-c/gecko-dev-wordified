@@ -109,10 +109,7 @@ itertools
 Itertools
 ;
 use
-std
-:
-:
-collections
+hashbrown
 :
 :
 HashMap
@@ -230,13 +227,9 @@ Step
 *
 result
 .
-entry
+entry_ref
 (
 unit
-.
-clone
-(
-)
 )
 .
 or_insert

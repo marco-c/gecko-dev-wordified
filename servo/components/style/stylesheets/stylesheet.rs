@@ -223,6 +223,12 @@ use
 crate
 :
 :
+FxHashMap
+;
+use
+crate
+:
+:
 {
 Namespace
 Prefix
@@ -256,12 +262,6 @@ malloc_size_of
 MallocSizeOfOps
 MallocUnconditionalShallowSizeOf
 }
-;
-use
-rustc_hash
-:
-:
-FxHashMap
 ;
 use
 servo_arc

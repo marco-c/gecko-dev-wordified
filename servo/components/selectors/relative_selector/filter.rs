@@ -66,7 +66,7 @@ relative
 selectors
 .
 use
-rustc_hash
+crate
 :
 :
 FxHashMap

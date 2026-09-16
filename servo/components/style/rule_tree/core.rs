@@ -973,7 +973,7 @@ let
 mut
 children_count
 =
-rustc_hash
+crate
 :
 :
 FxHashMap
