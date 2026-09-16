@@ -647,6 +647,7 @@ ignore
 '
 :
         
+await
 assert_file_dialog_not_canceled
 (
 new_tab
@@ -655,6 +656,7 @@ new_tab
 else
 :
         
+await
 assert_file_dialog_canceled
 (
 new_tab
