@@ -1162,7 +1162,9 @@ not
 autofill
 .
 let
-controller
+{
+parentController
+}
 =
 UrlbarTestUtils
 .
@@ -1176,7 +1178,7 @@ providersManager
 startQuery
 (
 context
-controller
+parentController
 )
 ;
 Assert
@@ -1573,7 +1575,9 @@ HISTORY
 )
 ;
 let
-controller
+{
+parentController
+}
 =
 UrlbarTestUtils
 .
@@ -1587,7 +1591,7 @@ providersManager
 startQuery
 (
 context
-controller
+parentController
 )
 ;
 Assert
