@@ -298,17 +298,6 @@ CSSMatrixComponent
 Web
 IDL
 declarations
-already_AddRefed
-<
-DOMMatrix
->
-ToMatrix
-(
-ErrorResult
-&
-aRv
-)
-;
 void
 ToCssTextWithProperty
 (
