@@ -1897,13 +1897,6 @@ nsIScrollbarMediator
 AbstractFrame
 (
 "
-nsIStatefulFrame
-"
-)
-    
-AbstractFrame
-(
-"
 ISVGDisplayableFrame
 "
 )

@@ -12503,10 +12503,6 @@ nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIStatefulFrame
-)
-NS_QUERYFRAME_ENTRY
-(
 nsIScrollbarMediator
 )
 NS_QUERYFRAME_ENTRY
@@ -52547,7 +52543,7 @@ return
 state
 ;
 }
-NS_IMETHODIMP
+void
 ScrollContainerFrame
 :
 :
@@ -52837,9 +52833,6 @@ MainThreadRestore
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 ScrollContainerFrame
