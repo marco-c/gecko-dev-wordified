@@ -538,6 +538,20 @@ mono
 f32
 samples
 )
+.
+/
+/
+captureEndTime
+is
+when
+the
+last
+sample
+in
+audioData
+was
+captured
+.
 async
 ProcessAudioData
 (
@@ -545,6 +559,8 @@ float
 [
 ]
 audioData
+TimeStamp
+captureEndTime
 )
 ;
 /
@@ -701,6 +717,8 @@ bool
 isFinal
 float
 confidence
+TimeStamp
+eventTime
 )
 ;
 async
@@ -730,6 +748,8 @@ OnSpeechChange
 (
 bool
 speechDetected
+TimeStamp
+eventTime
 )
 ;
 }

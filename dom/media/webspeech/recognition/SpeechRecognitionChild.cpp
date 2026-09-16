@@ -393,6 +393,10 @@ this
 )
 ;
 }
+mIPCActorUserGuard
+=
+nullptr
+;
 }
 void
 SpeechRecognitionChild
@@ -558,6 +562,10 @@ const
 float
 &
 aConfidence
+const
+TimeStamp
+&
+aEventTime
 )
 {
 LOG
@@ -624,6 +632,7 @@ mResultCallback
 aTranscript
 aIsFinal
 aConfidence
+aEventTime
 )
 ;
 }
@@ -756,6 +765,10 @@ const
 bool
 &
 aSpeechDetected
+const
+TimeStamp
+&
+aEventTime
 )
 {
 LOG
@@ -805,6 +818,7 @@ callback
 mSpeechChangeCallback
 (
 aSpeechDetected
+aEventTime
 )
 ;
 }
