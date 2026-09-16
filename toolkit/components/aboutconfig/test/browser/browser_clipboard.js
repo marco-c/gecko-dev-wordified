@@ -48,14 +48,6 @@ set
 "
 test
 .
-wait300msAfterTabSwitch
-"
-true
-]
-[
-"
-test
-.
 aboutconfig
 .
 copy
