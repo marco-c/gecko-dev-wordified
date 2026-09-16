@@ -14198,7 +14198,6 @@ aNextCh
 ;
 protected
 :
-virtual
 const
 Metrics
 &
@@ -14206,9 +14205,11 @@ GetHorizontalMetrics
 (
 )
 const
-=
-0
+{
+return
+mMetrics
 ;
+}
 void
 CreateVerticalMetrics
 (
@@ -15458,6 +15459,9 @@ uint32_t
 *
 >
 sDefaultFeatures
+;
+Metrics
+mMetrics
 ;
 RefPtr
 <
