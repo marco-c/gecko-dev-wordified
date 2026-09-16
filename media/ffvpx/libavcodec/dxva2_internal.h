@@ -416,6 +416,15 @@ h
 #
 include
 "
+libavutil
+/
+mem
+.
+h
+"
+#
+include
+"
 avcodec
 .
 h

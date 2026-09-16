@@ -269,8 +269,6 @@ h
 #
 include
 "
-libavcodec
-/
 bsf
 .
 h
@@ -278,8 +276,6 @@ h
 #
 include
 "
-libavcodec
-/
 bsf_internal
 .
 h
@@ -287,8 +283,6 @@ h
 #
 include
 "
-libavcodec
-/
 cbs
 .
 h
@@ -296,8 +290,6 @@ h
 #
 include
 "
-libavcodec
-/
 cbs_av1
 .
 h

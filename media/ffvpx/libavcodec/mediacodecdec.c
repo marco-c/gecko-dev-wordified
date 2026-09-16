@@ -358,6 +358,13 @@ h
 #
 include
 "
+jni
+.
+h
+"
+#
+include
+"
 mediacodec_wrapper
 .
 h
@@ -4106,7 +4113,7 @@ codec_id
 bsf
 )
 \
-DECLARE_MEDIACODEC_ACLASS
+DECLARE_MEDIACODEC_VCLASS
 (
 short_name
 )
