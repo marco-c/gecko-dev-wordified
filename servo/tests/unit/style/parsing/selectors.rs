@@ -62,7 +62,6 @@ cssparser
 :
 {
 Parser
-ParserInput
 ToCss
 }
 ;

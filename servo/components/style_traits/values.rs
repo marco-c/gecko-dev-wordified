@@ -3150,8 +3150,6 @@ parse
 <
 '
 i
-'
-t
 F
 T
 E
@@ -3165,8 +3163,6 @@ Parser
 <
 '
 i
-'
-t
 >
 parse_one
 :
@@ -3188,11 +3184,6 @@ E
 where
 F
 :
-for
-<
-'
-tt
->
 FnMut
 (
 &
@@ -3201,8 +3192,6 @@ Parser
 <
 '
 i
-'
-tt
 >
 )
 -
@@ -3241,8 +3230,6 @@ parse
 <
 '
 i
-'
-t
 F
 T
 E
@@ -3256,8 +3243,6 @@ Parser
 <
 '
 i
-'
-t
 >
 parse_one
 :
@@ -3279,11 +3264,6 @@ E
 where
 F
 :
-for
-<
-'
-tt
->
 FnMut
 (
 &
@@ -3292,8 +3272,6 @@ Parser
 <
 '
 i
-'
-tt
 >
 )
 -
@@ -3339,8 +3317,6 @@ parse
 <
 '
 i
-'
-t
 F
 T
 E
@@ -3354,8 +3330,6 @@ Parser
 <
 '
 i
-'
-t
 >
 mut
 parse_one
@@ -3378,11 +3352,6 @@ E
 where
 F
 :
-for
-<
-'
-tt
->
 FnMut
 (
 &
@@ -3391,8 +3360,6 @@ Parser
 <
 '
 i
-'
-tt
 >
 )
 -
@@ -3522,8 +3489,6 @@ parse
 <
 '
 i
-'
-t
 F
 T
 E
@@ -3537,8 +3502,6 @@ Parser
 <
 '
 i
-'
-t
 >
 mut
 parse_one
@@ -3561,11 +3524,6 @@ E
 where
 F
 :
-for
-<
-'
-tt
->
 FnMut
 (
 &
@@ -3574,8 +3532,6 @@ Parser
 <
 '
 i
-'
-tt
 >
 )
 -

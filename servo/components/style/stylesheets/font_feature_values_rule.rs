@@ -1557,8 +1557,6 @@ Parser
 <
 '
 i
-'
-_
 >
 _declaration_start
 :
@@ -2843,8 +2841,6 @@ Parser
 <
 '
 i
-'
-_
 >
 )
 -
@@ -2901,8 +2897,6 @@ Parser
 <
 '
 i
-'
-_
 >
 )
 -

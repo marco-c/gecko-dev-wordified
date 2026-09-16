@@ -1943,8 +1943,6 @@ Parser
 <
 '
 i
-'
-_
 >
 _declaration_start
 :

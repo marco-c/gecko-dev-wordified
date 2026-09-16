@@ -63,7 +63,6 @@ super
 {
 BasicParseError
 Parser
-ParserInput
 Token
 }
 ;
@@ -927,18 +926,6 @@ i32
 {
 let
 mut
-input
-=
-ParserInput
-:
-:
-new
-(
-string
-)
-;
-let
-mut
 parser
 =
 Parser
@@ -946,9 +933,7 @@ Parser
 :
 new
 (
-&
-mut
-input
+string
 )
 ;
 let
