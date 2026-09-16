@@ -974,7 +974,7 @@ revert
 rule
 "
 if
-static_prefs
+crate
 :
 :
 pref

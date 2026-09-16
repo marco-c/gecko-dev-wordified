@@ -1038,7 +1038,7 @@ ParseError
 >
 {
 if
-static_prefs
+crate
 :
 :
 pref

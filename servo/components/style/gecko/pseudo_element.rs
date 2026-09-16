@@ -131,6 +131,12 @@ use
 crate
 :
 :
+pref
+;
+use
+crate
+:
+:
 properties
 :
 :
@@ -226,12 +232,6 @@ parser
 PseudoElement
 as
 PseudoElementTrait
-;
-use
-static_prefs
-:
-:
-pref
 ;
 use
 std

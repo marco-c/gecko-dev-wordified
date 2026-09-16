@@ -475,7 +475,7 @@ Auto
 >
 {
 if
-static_prefs
+crate
 :
 :
 pref
@@ -610,7 +610,7 @@ Auto
 >
 {
 if
-static_prefs
+crate
 :
 :
 pref
@@ -1348,6 +1348,7 @@ auto
 [
 inline
 ]
+pub
 fn
 is_auto
 (

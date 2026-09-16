@@ -3651,7 +3651,7 @@ image
 Image
 ;
 if
-static_prefs
+crate
 :
 :
 pref
@@ -8455,7 +8455,7 @@ always
 enabled
 .
 if
-static_prefs
+crate
 :
 :
 pref

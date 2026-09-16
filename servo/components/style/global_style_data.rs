@@ -1287,7 +1287,7 @@ stylo_threads_pref
 >
 i32
 {
-static_prefs
+crate
 :
 :
 pref
@@ -1319,7 +1319,7 @@ stylo_threads_pref
 >
 i32
 {
-static_prefs
+crate
 :
 :
 pref

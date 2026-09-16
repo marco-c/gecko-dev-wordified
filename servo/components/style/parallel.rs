@@ -1299,7 +1299,7 @@ current_thread_index
 =
 0
 {
-static_prefs
+crate
 :
 :
 pref
@@ -1328,7 +1328,7 @@ thread
 }
 else
 {
-static_prefs
+crate
 :
 :
 pref

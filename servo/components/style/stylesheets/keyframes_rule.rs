@@ -1514,7 +1514,7 @@ animation
 .
 if
 !
-static_prefs
+crate
 :
 :
 pref
@@ -3505,7 +3505,7 @@ Display
 &
 &
 !
-static_prefs
+crate
 :
 :
 pref

@@ -1828,7 +1828,7 @@ let
 should_snap
 =
 match
-static_prefs
+crate
 :
 :
 pref

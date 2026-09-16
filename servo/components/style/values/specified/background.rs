@@ -1011,7 +1011,7 @@ chrome_rules_enabled
 )
 |
 |
-static_prefs
+crate
 :
 :
 pref

@@ -2017,7 +2017,7 @@ PseudoElement
 :
 Marker
 if
-static_prefs
+crate
 :
 :
 pref
@@ -4021,7 +4021,7 @@ self
 >
 bool
 {
-static_prefs
+crate
 :
 :
 pref
@@ -4072,7 +4072,7 @@ self
 >
 bool
 {
-static_prefs
+crate
 :
 :
 pref

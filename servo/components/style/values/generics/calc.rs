@@ -2300,7 +2300,7 @@ typed_arithmetic_enabled
 >
 bool
 {
-static_prefs
+crate
 :
 :
 pref

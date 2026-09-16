@@ -1651,7 +1651,7 @@ ParseError
 {
 if
 !
-static_prefs
+crate
 :
 :
 pref
@@ -5550,7 +5550,7 @@ e
 }
 ;
 if
-static_prefs
+crate
 :
 :
 pref

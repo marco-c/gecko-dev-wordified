@@ -10686,7 +10686,7 @@ is_none
 &
 &
 !
-static_prefs
+crate
 :
 :
 pref
@@ -12211,7 +12211,7 @@ xml
 lang
 if
 !
-static_prefs
+crate
 :
 :
 pref
