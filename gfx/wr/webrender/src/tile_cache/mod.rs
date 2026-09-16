@@ -16064,6 +16064,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -16873,6 +16875,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 if
@@ -19084,6 +19088,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 surface_info

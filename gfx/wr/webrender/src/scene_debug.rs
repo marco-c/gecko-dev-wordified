@@ -1471,6 +1471,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -1550,6 +1552,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 let
@@ -2280,8 +2284,6 @@ index
 index
 .
 0
-as
-u32
 )
 kind
 :
@@ -2343,6 +2345,8 @@ pictures
 pic_index
 .
 0
+as
+usize
 ]
 ;
 SceneDebugNode
@@ -2357,8 +2361,6 @@ Some
 pic_index
 .
 0
-as
-u32
 )
 kind
 :
