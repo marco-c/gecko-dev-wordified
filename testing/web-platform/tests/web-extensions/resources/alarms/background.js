@@ -496,14 +496,15 @@ browser
 .
 test
 .
-assertTrue
+assertEq
 (
+undefined
 cleared
 '
 clearAll
 should
 return
-true
+undefined
 '
 )
 ;
