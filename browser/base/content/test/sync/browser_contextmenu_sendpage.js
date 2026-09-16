@@ -3440,6 +3440,17 @@ restore
 (
 )
 ;
+document
+.
+documentElement
+.
+removeAttribute
+(
+"
+fxadisabled
+"
+)
+;
 [
 .
 .
