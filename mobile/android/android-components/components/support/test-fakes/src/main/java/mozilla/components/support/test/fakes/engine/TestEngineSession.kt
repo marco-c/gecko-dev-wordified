@@ -332,7 +332,7 @@ Boolean
 Unit
 override
 fun
-hasCookieBannerRuleForSession
+checkForPdfViewer
 (
 onResult
 :
@@ -355,12 +355,14 @@ Unit
 Unit
 override
 fun
-checkForPdfViewer
+addSignatureToPdf
 (
+text
+:
+String
 onResult
 :
 (
-Boolean
 )
 -
 >
