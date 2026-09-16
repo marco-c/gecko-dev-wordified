@@ -697,7 +697,7 @@ urlbarController
 =
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 ;
@@ -780,7 +780,7 @@ smartbarController
 =
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 {
 sapName

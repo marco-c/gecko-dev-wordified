@@ -397,7 +397,7 @@ controller
 =
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 ;
@@ -805,7 +805,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -1156,7 +1156,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -1523,7 +1523,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -1751,7 +1751,7 @@ controller
 =
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 ;
@@ -3018,7 +3018,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -4386,7 +4386,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -5023,7 +5023,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -5347,7 +5347,7 @@ startQuery
 context
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -5848,7 +5848,7 @@ startQuery
 limitedResultsContext
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -5960,7 +5960,7 @@ startQuery
 historyViewContext
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
@@ -6144,7 +6144,7 @@ startQuery
 sparseContext
 UrlbarTestUtils
 .
-newMockController
+mockChildController
 (
 )
 .
