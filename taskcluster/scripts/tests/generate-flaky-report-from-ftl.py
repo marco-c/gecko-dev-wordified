@@ -262,6 +262,10 @@ path_to_output_html
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 argparse
 import

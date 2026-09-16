@@ -181,6 +181,10 @@ l10n_repackage
 "
 "
 "
+from
+__future__
+import
+annotations
 import
 argparse
 import
