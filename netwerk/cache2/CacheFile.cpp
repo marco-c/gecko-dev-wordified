@@ -9864,10 +9864,16 @@ CacheFileIOManager
 TruncateSeekSetEOF
 (
 mHandle
+int64_t
+(
 startChunk
+)
 *
 kChunkSize
+int64_t
+(
 aIndex
+)
 *
 kChunkSize
 nullptr
@@ -11829,7 +11835,10 @@ tail
 dataSize
 -
 (
+int64_t
+(
 aIndex
+)
 *
 kChunkSize
 )
