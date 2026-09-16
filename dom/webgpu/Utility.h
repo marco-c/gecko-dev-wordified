@@ -280,12 +280,12 @@ dom
 GPUTextureDescriptor
 into
 a
+/
+/
 ffi
 :
 :
-WGPUTextureDescriptor
-/
-/
+WGPUFfiTextureDescriptor
 owning
 the
 necessary
@@ -293,12 +293,12 @@ temporary
 storage
 .
 The
+/
+/
 converted
 descriptor
 returned
 by
-/
-/
 Get
 is
 only
@@ -308,6 +308,8 @@ the
 lifetime
 of
 this
+/
+/
 object
 .
 class
@@ -354,7 +356,7 @@ const
 ffi
 :
 :
-WGPUTextureDescriptor
+WGPUFfiTextureDescriptor
 *
 Get
 (
@@ -384,7 +386,7 @@ mViewFormats
 ffi
 :
 :
-WGPUTextureDescriptor
+WGPUFfiTextureDescriptor
 mDesc
 =
 {

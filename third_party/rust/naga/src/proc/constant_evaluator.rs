@@ -22165,15 +22165,6 @@ Vector
 .
 .
 }
-|
-TypeInner
-:
-:
-Matrix
-{
-.
-.
-}
 =
 >
 (

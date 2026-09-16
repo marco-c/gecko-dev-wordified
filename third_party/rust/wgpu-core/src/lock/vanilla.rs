@@ -6,7 +6,7 @@ uninstrumented
 wrappers
 around
 [
-parking_lot
+wgpu_sync
 ]
 lock
 types
@@ -67,7 +67,7 @@ plain
 wrapper
 around
 [
-parking_lot
+wgpu_sync
 :
 :
 Mutex
@@ -84,7 +84,7 @@ is
 just
 like
 [
-parking_lot
+wgpu_sync
 :
 :
 Mutex
@@ -175,7 +175,7 @@ Mutex
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 Mutex
@@ -210,7 +210,7 @@ wrapper
 around
 a
 [
-parking_lot
+wgpu_sync
 :
 :
 MutexGuard
@@ -225,7 +225,7 @@ a
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 MutexGuard
@@ -265,7 +265,7 @@ T
 {
 Mutex
 (
-parking_lot
+wgpu_sync
 :
 :
 Mutex
@@ -496,7 +496,7 @@ plain
 wrapper
 around
 [
-parking_lot
+wgpu_sync
 :
 :
 RwLock
@@ -513,7 +513,7 @@ is
 just
 like
 [
-parking_lot
+wgpu_sync
 :
 :
 RwLock
@@ -604,7 +604,7 @@ RwLock
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 RwLock
@@ -643,7 +643,7 @@ wrapper
 around
 a
 [
-parking_lot
+wgpu_sync
 :
 :
 RwLockReadGuard
@@ -658,7 +658,7 @@ a
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 RwLockReadGuard
@@ -699,7 +699,7 @@ wrapper
 around
 a
 [
-parking_lot
+wgpu_sync
 :
 :
 RwLockWriteGuard
@@ -714,7 +714,7 @@ a
 T
 >
 (
-parking_lot
+wgpu_sync
 :
 :
 RwLockWriteGuard
@@ -754,7 +754,7 @@ T
 {
 RwLock
 (
-parking_lot
+wgpu_sync
 :
 :
 RwLock

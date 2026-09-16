@@ -64,7 +64,7 @@ either
 backend
 .
 use
-parking_lot
+wgpu_sync
 :
 :
 Mutex

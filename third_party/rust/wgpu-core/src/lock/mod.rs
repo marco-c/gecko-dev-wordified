@@ -297,7 +297,7 @@ locks
 Mutex
 ]
 :
-parking_lot
+wgpu_sync
 :
 :
 Mutex
@@ -308,7 +308,7 @@ Mutex
 RwLock
 ]
 :
-parking_lot
+wgpu_sync
 :
 :
 RwLock

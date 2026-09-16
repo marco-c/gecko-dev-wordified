@@ -62,13 +62,13 @@ command
 {
 ArcCommand
 ArcComputeCommand
-ArcPassTimestampWrites
 ArcReferences
 ArcRenderCommand
 BasePass
 ColorAttachments
 Command
 ComputeCommand
+PassTimestampWrites
 PointerReferences
 RenderCommand
 RenderPassColorAttachment
@@ -1969,17 +1969,11 @@ aspect
 impl
 IntoTrace
 for
-ArcPassTimestampWrites
+PassTimestampWrites
 {
 type
 Output
 =
-crate
-:
-:
-command
-:
-:
 PassTimestampWrites
 <
 PointerId
@@ -2003,12 +1997,6 @@ Self
 :
 Output
 {
-crate
-:
-:
-command
-:
-:
 PassTimestampWrites
 {
 query_set
@@ -3742,7 +3730,7 @@ crate
 binding_model
 :
 :
-ResolvedPipelineLayoutDescriptor
+PipelineLayoutDescriptor
 <
 '
 _
@@ -3862,7 +3850,7 @@ crate
 binding_model
 :
 :
-ResolvedBindGroupDescriptor
+BindGroupDescriptor
 <
 '
 a
@@ -3900,7 +3888,6 @@ binding_model
 BindGroupEntry
 BindingResource
 BufferBinding
-ResolvedBindingResource
 }
 ;
 TraceBindGroupDescriptor
@@ -3953,7 +3940,7 @@ entry
 .
 resource
 {
-ResolvedBindingResource
+BindingResource
 :
 :
 Buffer
@@ -3992,7 +3979,7 @@ size
 }
 )
 }
-ResolvedBindingResource
+BindingResource
 :
 :
 BufferArray
@@ -4063,7 +4050,7 @@ resolved_buffers
 )
 )
 }
-ResolvedBindingResource
+BindingResource
 :
 :
 Sampler
@@ -4085,7 +4072,7 @@ to_trace
 )
 )
 }
-ResolvedBindingResource
+BindingResource
 :
 :
 SamplerArray
@@ -4139,7 +4126,7 @@ resolved
 )
 )
 }
-ResolvedBindingResource
+BindingResource
 :
 :
 TextureView
@@ -4161,7 +4148,7 @@ to_trace
 )
 )
 }
-ResolvedBindingResource
+BindingResource
 :
 :
 TextureViewArray
@@ -4215,7 +4202,7 @@ resolved
 )
 )
 }
-ResolvedBindingResource
+BindingResource
 :
 :
 AccelerationStructure
@@ -4237,7 +4224,7 @@ to_trace
 )
 )
 }
-ResolvedBindingResource
+BindingResource
 :
 :
 AccelerationStructureArray
@@ -4291,7 +4278,7 @@ resolved
 )
 )
 }
-ResolvedBindingResource
+BindingResource
 :
 :
 ExternalTexture
@@ -4469,7 +4456,7 @@ crate
 pipeline
 :
 :
-ResolvedComputePipelineDescriptor
+ComputePipelineDescriptor
 <
 '
 a
@@ -4554,7 +4541,7 @@ crate
 pipeline
 :
 :
-ResolvedProgrammableStageDescriptor
+ProgrammableStageDescriptor
 <
 '
 a
@@ -4793,7 +4780,7 @@ crate
 pipeline
 :
 :
-ResolvedTaskState
+TaskState
 <
 '
 a
@@ -4866,7 +4853,7 @@ crate
 pipeline
 :
 :
-ResolvedMeshState
+MeshState
 <
 '
 a
@@ -4939,7 +4926,7 @@ crate
 pipeline
 :
 :
-ResolvedVertexState
+VertexState
 <
 '
 a
@@ -5017,7 +5004,7 @@ crate
 pipeline
 :
 :
-ResolvedFragmentState
+FragmentState
 <
 '
 a

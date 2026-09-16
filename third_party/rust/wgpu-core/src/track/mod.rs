@@ -2279,6 +2279,9 @@ usage
 self
 .
 usage
+queue_family_ownership_transfer
+:
+None
 }
 }
 }

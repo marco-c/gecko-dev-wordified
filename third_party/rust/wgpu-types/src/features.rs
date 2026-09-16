@@ -103,14 +103,7 @@ as_str
 ]
 and
 [
-<
 Features
-as
-/
-/
-!
-FromStr
->
 :
 :
 from_str
