@@ -128,7 +128,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
+PSerialPort
 .
 h
 "
@@ -139,7 +139,7 @@ mozilla
 /
 dom
 /
-PSerialPort
+PermissionsPolicyUtils
 .
 h
 "

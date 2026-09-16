@@ -177,7 +177,7 @@ mozilla
 /
 dom
 /
-FeaturePolicy
+PermissionsPolicy
 .
 h
 "

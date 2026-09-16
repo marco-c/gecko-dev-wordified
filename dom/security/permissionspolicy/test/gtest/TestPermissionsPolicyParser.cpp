@@ -92,7 +92,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyParser
+PermissionsPolicyParser
 .
 h
 "

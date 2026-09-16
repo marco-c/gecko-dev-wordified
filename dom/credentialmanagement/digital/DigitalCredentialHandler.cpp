@@ -85,7 +85,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
+PermissionsPolicyUtils
 .
 h
 "

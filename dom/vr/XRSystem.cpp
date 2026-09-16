@@ -126,7 +126,7 @@ mozilla
 /
 dom
 /
-FeaturePolicyUtils
+PermissionMessageUtils
 .
 h
 "
@@ -137,7 +137,7 @@ mozilla
 /
 dom
 /
-PermissionMessageUtils
+PermissionsPolicyUtils
 .
 h
 "
