@@ -2984,6 +2984,17 @@ typed
 todo_derive_fields
 )
 ]
+#
+[
+value_info
+(
+other_values
+=
+"
+all
+"
+)
+]
 pub
 struct
 ScopedNameList
