@@ -1806,6 +1806,14 @@ int32_t
 pos
 )
 ;
+void
+anyOtherEndTagInBody
+(
+nsAtom
+*
+name
+)
+;
 bool
 adoptionAgencyEndTag
 (
@@ -2029,6 +2037,9 @@ insertIntoFosterParent
 nsIContentHandle
 *
 child
+nsIContentHandle
+*
+furthestBlock
 )
 ;
 nsIContentHandle
