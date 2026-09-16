@@ -884,6 +884,17 @@ s
 X
 (
 int
+parakeet_capi_stream_chunk_samples
+(
+parakeet_stream
+*
+s
+)
+)
+\
+X
+(
+int
 parakeet_capi_stream_drain_words
 \
 (
