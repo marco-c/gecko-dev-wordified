@@ -7277,8 +7277,7 @@ c_int32
 #
 These
 are
-private
-v4l2
+v4l2loopback
 control
 IDs
 see
@@ -7293,27 +7292,33 @@ github
 .
 com
 /
-umlaeute
+v4l2loopback
 /
 v4l2loopback
 /
 blob
 /
-fd822cf0faaccdf5f548cddd9a5a3dcebb6d584d
+v0
+.
+15
+.
+4
 /
 v4l2loopback
 .
 c
 #
-L131
+L260
+-
+L262
     
 KEEP_FORMAT
 =
-0x8000000
+0x0098F900
     
 SUSTAIN_FRAMERATE
 =
-0x8000001
+0x0098F901
     
 VIDIOC_S_CTRL
 =
@@ -7583,18 +7588,17 @@ return
 None
     
 #
-Feed
-it
+Repeat
 a
+single
 frame
+for
+the
+duration
 of
-output
-so
-it
-has
-something
-to
-display
+the
+tests
+.
     
 gst01
 =
@@ -7698,6 +7702,14 @@ num
 buffers
 =
 1
+"
+        
+"
+!
+"
+        
+"
+imagefreeze
 "
         
 "
