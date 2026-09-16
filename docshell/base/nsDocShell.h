@@ -3496,6 +3496,9 @@ aPreviousScrollPos
 nsIURI
 *
 aURI
+nsIURI
+*
+aOriginalURI
 nsIReferrerInfo
 *
 aReferrerInfo
