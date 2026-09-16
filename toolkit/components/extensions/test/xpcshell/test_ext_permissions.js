@@ -4519,9 +4519,6 @@ menus
 overrideContext
 "
 "
-normandyAddonStudy
-"
-"
 search
 "
 "
