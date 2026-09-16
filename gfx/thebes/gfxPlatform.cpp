@@ -627,7 +627,7 @@ mozilla
 /
 layers
 /
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 .
 h
 "
@@ -9320,7 +9320,7 @@ defined
 (
 XP_WIN
 )
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 :
 :
 Init
@@ -9728,7 +9728,7 @@ defined
 (
 XP_WIN
 )
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 :
 :
 Shutdown
@@ -27614,7 +27614,7 @@ defined
 (
 XP_WIN
 )
-CompositeProcessD3D11FencesHolderMap
+CompositeProcessFencesHolderMap
 :
 :
 Init
