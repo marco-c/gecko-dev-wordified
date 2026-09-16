@@ -508,6 +508,9 @@ testValues
 "
 username
 "
+"
+webauthn
+"
 ]
 expectation
 :
