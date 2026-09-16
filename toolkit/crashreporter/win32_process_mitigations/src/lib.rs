@@ -107,6 +107,9 @@ missing_docs
 )
 ]
 mod
+decode
+;
+mod
 error
 ;
 mod
