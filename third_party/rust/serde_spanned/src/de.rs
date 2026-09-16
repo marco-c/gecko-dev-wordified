@@ -14,10 +14,9 @@ serde_core
 de
 :
 :
-value
-:
-:
-BorrowedStrDeserializer
+IntoDeserializer
+as
+_
 ;
 use
 serde_core
@@ -26,9 +25,10 @@ serde_core
 de
 :
 :
-IntoDeserializer
-as
-_
+value
+:
+:
+BorrowedStrDeserializer
 ;
 use
 crate

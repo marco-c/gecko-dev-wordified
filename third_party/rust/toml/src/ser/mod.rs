@@ -586,7 +586,9 @@ This
 is
 identical
 to
+[
 to_string
+]
 except
 the
 output
@@ -603,10 +605,12 @@ pretty
 output
 .
 See
+[
 Serializer
 :
 :
 pretty
+]
 for
 more
 details

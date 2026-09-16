@@ -1063,9 +1063,9 @@ write
 f
 "
 {
+n
 }
 "
-n
 )
 ArtifactDebuginfo
 :

@@ -253,6 +253,13 @@ in
 both
 cases
 .
+#
+[
+askama
+:
+:
+filter_fn
+]
 pub
 fn
 docstring
@@ -428,6 +435,13 @@ statement
 for
 a
 module
+#
+[
+askama
+:
+:
+filter_fn
+]
 pub
 fn
 import_statement

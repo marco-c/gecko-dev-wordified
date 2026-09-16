@@ -335,6 +335,9 @@ identifier
 to_string
 (
 )
+orig_name
+:
+None
 ty
 :
 type_
@@ -853,6 +856,9 @@ module_path
 (
 )
 name
+orig_name
+:
+None
 is_async
 return_type
 inputs
@@ -1033,6 +1039,9 @@ new
 "
 )
 )
+orig_name
+:
+None
 /
 /
 We
@@ -1430,6 +1439,9 @@ constructor
 name
 }
 }
+orig_name
+:
+None
 is_async
 inputs
 :
@@ -1779,6 +1791,9 @@ constructor
 name
 }
 }
+orig_name
+:
+None
 is_async
 inputs
 :

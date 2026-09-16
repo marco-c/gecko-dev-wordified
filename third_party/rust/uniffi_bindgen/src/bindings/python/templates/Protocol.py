@@ -96,6 +96,8 @@ if
 callable
 .
 is_async
+(
+)
 %
 }
 async

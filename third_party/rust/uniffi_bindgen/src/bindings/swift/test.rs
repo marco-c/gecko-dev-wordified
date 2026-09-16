@@ -74,6 +74,7 @@ RunScriptOptions
 TargetLanguage
 }
 BindgenPaths
+GlobalConfig
 }
 ;
 use
@@ -1037,6 +1038,12 @@ BindgenLoader
 new
 (
 paths
+GlobalConfig
+:
+:
+default
+(
+)
 )
 ;
 let

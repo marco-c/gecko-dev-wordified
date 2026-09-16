@@ -8610,6 +8610,7 @@ with_span
 For
 richer
 syntactic
+errors
 with
 spans
 /
@@ -8651,6 +8652,12 @@ super
 :
 :
 chapter_3
+;
+use
+crate
+:
+:
+_topic
 ;
 use
 crate
@@ -8726,12 +8733,6 @@ crate
 :
 :
 Result
-;
-use
-crate
-:
-:
-_topic
 ;
 pub
 use

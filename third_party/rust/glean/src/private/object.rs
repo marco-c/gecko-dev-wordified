@@ -318,10 +318,7 @@ a
 str
 Option
 <
-&
-'
-a
-str
+String
 >
 )
 {

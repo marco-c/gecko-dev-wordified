@@ -433,7 +433,7 @@ Ping
 disabled
 :
 false
-dynamic_label
+label
 :
 None
 .
@@ -531,7 +531,7 @@ Ping
 disabled
 :
 false
-dynamic_label
+label
 :
 None
 .
@@ -629,7 +629,7 @@ Ping
 disabled
 :
 false
-dynamic_label
+label
 :
 None
 .

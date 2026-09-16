@@ -806,6 +806,9 @@ Ok
 VariantMetadata
 {
 name
+orig_name
+:
+None
 discr
 :
 None
@@ -1046,6 +1049,9 @@ identifier
 to_string
 (
 )
+orig_name
+:
+None
 remote
 :
 attributes
@@ -1221,6 +1227,9 @@ identifier
 to_string
 (
 )
+orig_name
+:
+None
 ty
 :
 type_
@@ -1674,6 +1683,9 @@ name
 to_string
 (
 )
+orig_name
+:
+None
 is_async
 :
 false

@@ -48,7 +48,7 @@ Note
 /
 !
 that
-implementions
+implementations
 for
 Rc
 <
@@ -363,12 +363,11 @@ components
 let
 initial_component
 =
+if
 is_relative
-.
-then
+{
+Some
 (
-|
-|
 format
 !
 (
@@ -385,6 +384,11 @@ path
 MAIN_SEPARATOR
 )
 )
+}
+else
+{
+None
+}
 ;
 initial_component
 .
@@ -395,10 +399,6 @@ into_iter
 chain
 (
 components
-.
-into_iter
-(
-)
 )
 .
 collect

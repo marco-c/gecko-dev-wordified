@@ -1623,9 +1623,9 @@ de
 :
 :
 {
+Deserializer
 from_slice
 from_str
-Deserializer
 }
 ;
 #
@@ -1666,9 +1666,9 @@ ser
 :
 :
 {
+Serializer
 to_string
 to_string_pretty
-Serializer
 }
 ;
 #

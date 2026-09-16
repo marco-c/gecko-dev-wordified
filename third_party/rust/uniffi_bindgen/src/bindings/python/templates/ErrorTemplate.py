@@ -732,6 +732,8 @@ if
 callable
 .
 is_async
+(
+)
 %
 }
 async
@@ -969,7 +971,9 @@ is_flat
                 
 {
 {
-string_type_node
+builtin_types
+.
+string
 .
 ffi_converter_name
 }

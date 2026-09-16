@@ -361,6 +361,16 @@ external
 types
 #
 [
+allow
+(
+clippy
+:
+:
+exhaustive_structs
+)
+]
+#
+[
 doc
 (
 hidden

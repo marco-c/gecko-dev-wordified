@@ -797,7 +797,7 @@ Trait
 {
 items
 self_ident
-with_foreign
+trait_kind
 callback_interface_only
 :
 false
@@ -817,7 +817,7 @@ args
 self_ident
 items
 udl_mode
-with_foreign
+trait_kind
 docstring
 )
 ExportItem
