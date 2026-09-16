@@ -216,6 +216,14 @@ Finish
 )
 override
 ;
+bool
+Reset
+(
+FillRule
+aFillRule
+)
+override
+;
 void
 AppendPath
 (

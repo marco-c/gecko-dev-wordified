@@ -197,6 +197,14 @@ Finish
 )
 override
 ;
+bool
+Reset
+(
+FillRule
+aFillRule
+)
+override
+;
 BackendType
 GetBackendType
 (
