@@ -9154,6 +9154,15 @@ type
 if
 (
 !
+loadInfo
+-
+>
+IsPrincipalToInheritTrusted
+(
+)
+&
+&
+!
 ValidatePrincipalCouldPotentiallyBeLoadedBy
 (
 loadInfo
