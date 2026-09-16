@@ -348,6 +348,17 @@ mChainRecord
 aRecord
 ;
 }
+BounceTrackingRecord
+*
+GetBounceChainRecord
+(
+)
+const
+{
+return
+mChainRecord
+;
+}
 private
 :
 ~
