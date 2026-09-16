@@ -3024,6 +3024,11 @@ ICReturnOffset
 uint32_t
 offset
 ;
+uint32_t
+bailoutStubOffset
+=
+0
+;
 JSOp
 op
 ;
@@ -3519,6 +3524,15 @@ bailoutResumePrologueOffset_
 uint8_t
 *
 retAddrForIC
+(
+JSOp
+op
+)
+const
+;
+uint8_t
+*
+bailoutStubAddrForIC
 (
 JSOp
 op
