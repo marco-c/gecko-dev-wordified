@@ -1859,7 +1859,7 @@ directives
 mFeaturePolicy
 -
 >
-SetDeclaredAttributePolicy
+SetDeclaredPolicy
 (
 OwnerDoc
 (
