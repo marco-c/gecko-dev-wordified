@@ -3229,7 +3229,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -3837,7 +3837,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -3929,7 +3929,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -4031,7 +4031,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -4129,7 +4129,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -4308,7 +4308,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -4429,7 +4429,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -4762,7 +4762,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -5019,7 +5019,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -5087,7 +5087,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -5304,7 +5304,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -5372,7 +5372,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -5597,7 +5597,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -5665,7 +5665,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -5783,7 +5783,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 nullptr
 nsCString
@@ -5856,7 +5856,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 nullptr
 nsCString
@@ -5986,7 +5986,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 nullptr
 nsCString
@@ -6059,7 +6059,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 nullptr
 nsCString
@@ -6982,7 +6982,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -7063,7 +7063,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -7247,7 +7247,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -7747,7 +7747,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -8309,7 +8309,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -8645,7 +8645,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -8981,7 +8981,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -9317,7 +9317,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -10351,7 +10351,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 )
@@ -11362,7 +11362,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -11522,7 +11522,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -11734,7 +11734,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
@@ -11869,7 +11869,7 @@ nsIContentAnalysisRequest
 OperationType
 :
 :
-eClipboard
+ePasteClipboard
 nullptr
 )
 ;
