@@ -129,3 +129,11 @@ FINAL_LIBRARY
 '
 xul
 '
+LICENSED_UNDER
++
+=
+[
+"
+apache
+"
+]
