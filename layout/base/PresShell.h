@@ -478,6 +478,9 @@ mozilla
 class
 AccessibleCaretEventHub
 ;
+struct
+AnchorPosAnchorInfo
+;
 class
 FallbackRenderer
 ;
@@ -4697,6 +4700,8 @@ const
 nsIFrame
 *
 aPositionedFrame
+uint32_t
+aPositionedFrameTreeDepth
 )
 const
 ;
@@ -20713,8 +20718,7 @@ nsAtom
 >
 nsTArray
 <
-nsIFrame
-*
+AnchorPosAnchorInfo
 >
 >
 mAnchorPosAnchors

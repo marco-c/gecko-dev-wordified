@@ -8970,6 +8970,12 @@ GetAnchorPosAnchor
 (
 scopedName
 frame
+frame
+-
+>
+GetDepthInFrameTree
+(
+)
 )
 ;
 if

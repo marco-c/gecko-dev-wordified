@@ -4761,6 +4761,10 @@ GetAnchorPosAnchor
 (
 anchorName
 aPositionedFrame
+referencedAnchors
+-
+>
+mFrameTreeDepth
 )
 :
 nullptr
@@ -5027,6 +5031,10 @@ GetAnchorPosAnchor
 (
 nameRef
 frame
+referencedAnchors
+-
+>
+mFrameTreeDepth
 )
 )
 {
