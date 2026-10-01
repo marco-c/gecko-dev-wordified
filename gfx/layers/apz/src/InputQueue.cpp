@@ -3409,7 +3409,7 @@ GetOverscrollHandoffChain
 )
 -
 >
-FindScrollTarget
+FindFirstScrollable
 (
 horizontalComponent
 &
