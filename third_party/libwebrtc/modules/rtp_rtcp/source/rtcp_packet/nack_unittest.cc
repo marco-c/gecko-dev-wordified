@@ -122,6 +122,11 @@ span
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 rtc_base
 /
@@ -190,14 +195,6 @@ testing
 :
 :
 ElementsAreArray
-;
-using
-:
-:
-testing
-:
-:
-make_tuple
 ;
 using
 :
@@ -456,6 +453,9 @@ Build
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 packet
@@ -581,6 +581,9 @@ Build
 ;
 EXPECT_THAT
 (
+std
+:
+:
 make_tuple
 (
 packet
