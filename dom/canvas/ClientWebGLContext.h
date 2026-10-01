@@ -3499,6 +3499,9 @@ typename
 T
 >
 inline
+mozilla
+:
+:
 Range
 <
 const
@@ -3522,6 +3525,9 @@ x
 )
 ;
 return
+mozilla
+:
+:
 Range
 <
 const
@@ -3567,6 +3573,9 @@ typename
 T
 >
 inline
+mozilla
+:
+:
 Range
 <
 const
@@ -12043,6 +12052,9 @@ loc
 bool
 transpose
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -12119,6 +12131,9 @@ loc
 bool
 transpose
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -12171,6 +12186,9 @@ T
 >
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 T
@@ -12179,6 +12197,9 @@ T
 ValidateSubrange
 (
 const
+mozilla
+:
+:
 Range
 <
 T
@@ -12887,6 +12908,9 @@ webgl
 :
 AttribBaseType
 const
+mozilla
+:
+:
 Range
 <
 const

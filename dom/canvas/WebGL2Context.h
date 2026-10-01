@@ -269,6 +269,9 @@ target
 uint64_t
 srcByteOffset
 const
+mozilla
+:
+:
 Range
 <
 uint8_t

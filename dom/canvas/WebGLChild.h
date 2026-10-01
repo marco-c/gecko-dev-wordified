@@ -243,6 +243,9 @@ ClientWebGLContext
 ;
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t

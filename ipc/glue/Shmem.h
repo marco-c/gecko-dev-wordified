@@ -982,6 +982,9 @@ template
 typename
 T
 >
+mozilla
+:
+:
 Range
 <
 T

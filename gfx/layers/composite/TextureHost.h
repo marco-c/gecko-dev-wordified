@@ -4152,6 +4152,9 @@ aResources
 ResourceUpdateOp
 aOp
 const
+mozilla
+:
+:
 Range
 <
 wr
@@ -4293,6 +4296,9 @@ wr
 ImageRendering
 aFilter
 const
+mozilla
+:
+:
 Range
 <
 wr
@@ -5067,6 +5073,9 @@ aResources
 ResourceUpdateOp
 aOp
 const
+mozilla
+:
+:
 Range
 <
 wr
@@ -5115,6 +5124,9 @@ wr
 ImageRendering
 aFilter
 const
+mozilla
+:
+:
 Range
 <
 wr

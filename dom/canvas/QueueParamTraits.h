@@ -434,6 +434,9 @@ typename
 T
 >
 inline
+mozilla
+:
+:
 Range
 <
 T
@@ -856,6 +859,9 @@ bool
 WriteFromRange
 (
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -1269,6 +1275,9 @@ T
 inline
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 const
@@ -2810,6 +2819,9 @@ const
 auto
 range
 =
+mozilla
+:
+:
 Range
 <
 const

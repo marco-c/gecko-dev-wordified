@@ -25866,6 +25866,9 @@ template
 typename
 T
 >
+mozilla
+:
+:
 Range
 <
 T
@@ -25873,6 +25876,9 @@ T
 SubRange
 (
 const
+mozilla
+:
+:
 Range
 <
 T
@@ -25900,6 +25906,9 @@ begin
 offset
 ;
 return
+mozilla
+:
+:
 Range
 <
 T
@@ -30589,6 +30598,9 @@ loc
 bool
 transpose
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -31433,6 +31445,9 @@ webgl
 AttribBaseType
 t
 const
+mozilla
+:
+:
 Range
 <
 const

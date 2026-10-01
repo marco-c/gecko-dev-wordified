@@ -232,6 +232,9 @@ layers
 OffsetRange
 Write
 (
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -250,6 +253,9 @@ layers
 OffsetRange
 WriteAsBytes
 (
+mozilla
+:
+:
 Range
 <
 T
@@ -260,6 +266,9 @@ aValues
 return
 Write
 (
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -506,6 +515,9 @@ failure
 .
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -563,6 +575,9 @@ nothing
 .
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -592,6 +607,9 @@ if
 (
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -632,6 +650,9 @@ aInto
 return
 Some
 (
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -690,6 +711,9 @@ aInto
 ;
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -934,6 +958,9 @@ const
 ImageDescriptor
 &
 aDescriptor
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -953,6 +980,9 @@ const
 ImageDescriptor
 &
 aDescriptor
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -1022,6 +1052,9 @@ const
 ImageDescriptor
 &
 aDescriptor
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -1041,6 +1074,9 @@ const
 ImageDescriptor
 &
 aDescriptor
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -1112,6 +1148,9 @@ wr
 :
 FontKey
 aKey
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -1129,6 +1168,9 @@ wr
 :
 FontKey
 aKey
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -1177,6 +1219,9 @@ wr
 FontInstancePlatformOptions
 *
 aPlatformOptions
+mozilla
+:
+:
 Range
 <
 const

@@ -323,6 +323,9 @@ const
 auto
 shmemBytes
 =
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -359,6 +362,9 @@ const
 auto
 cmdsBytes
 =
+mozilla
+:
+:
 Range
 <
 const
@@ -1247,6 +1253,9 @@ const
 auto
 dataRange
 =
+mozilla
+:
+:
 Range
 <
 uint8_t

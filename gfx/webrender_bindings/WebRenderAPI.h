@@ -1664,6 +1664,9 @@ SurfaceFormat
 &
 aFormat
 const
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4782,6 +4785,9 @@ LayoutSideOffsets
 &
 aWidths
 const
+mozilla
+:
+:
 Range
 <
 const
@@ -5069,6 +5075,9 @@ wr
 :
 FontInstanceKey
 aFontKey
+mozilla
+:
+:
 Range
 <
 const

@@ -194,6 +194,9 @@ mPendingCmdsShmem
 -
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -328,6 +331,9 @@ const
 auto
 range
 =
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -420,6 +426,9 @@ const
 auto
 remaining
 =
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -446,6 +455,9 @@ fyiAlignmentOverhead
 return
 Some
 (
+mozilla
+:
+:
 Range
 <
 uint8_t

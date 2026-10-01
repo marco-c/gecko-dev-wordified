@@ -1221,6 +1221,9 @@ FrontBufferSnapshotInto
 (
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -1260,6 +1263,9 @@ SharedSurface
 front
 Maybe
 <
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -3170,6 +3176,9 @@ target
 uint64_t
 srcByteOffset
 const
+mozilla
+:
+:
 Range
 <
 uint8_t
@@ -4610,6 +4619,9 @@ ReadPixelsDesc
 &
 desc
 const
+mozilla
+:
+:
 Range
 <
 uint8_t
