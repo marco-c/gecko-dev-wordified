@@ -644,7 +644,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri
 .
@@ -652,8 +652,6 @@ host
 {
 }
 )
-.
-length
 names
 .
 length

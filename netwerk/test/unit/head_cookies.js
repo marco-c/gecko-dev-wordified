@@ -803,7 +803,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri
 .
@@ -811,8 +811,6 @@ host
 {
 }
 )
-.
-length
 expected
 )
 ;
@@ -1040,7 +1038,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri
 .
@@ -1048,8 +1046,6 @@ host
 {
 }
 )
-.
-length
 expected
 [
 0
@@ -1086,7 +1082,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri
 .
@@ -1094,8 +1090,6 @@ host
 {
 }
 )
-.
-length
 expected
 [
 1

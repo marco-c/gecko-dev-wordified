@@ -216,7 +216,7 @@ i
 *
 2
 :
-3600
+0
 )
 now
 now
@@ -397,7 +397,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 "
 foo
@@ -407,8 +407,6 @@ com
 {
 }
 )
-.
-length
 N
 )
 ;

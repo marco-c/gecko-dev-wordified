@@ -853,7 +853,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri
 .
@@ -861,8 +861,6 @@ host
 {
 }
 )
-.
-length
 0
 "
 Cookies
@@ -893,7 +891,7 @@ Services
 .
 cookies
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 uri
 .
@@ -901,8 +899,6 @@ host
 {
 }
 )
-.
-length
 0
 "
 Cookies

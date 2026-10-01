@@ -629,14 +629,12 @@ is
 (
 cs
 .
-getCookiesFromHost
+countCookiesFromHost
 (
 domain
 {
 }
 )
-.
-length
 1
 "
 number
