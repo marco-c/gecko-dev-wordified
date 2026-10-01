@@ -833,7 +833,7 @@ not
 none
 .
 bool
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 const
@@ -848,7 +848,7 @@ Flags
 Flag
 :
 :
-HAS_AUTHOR_SPECIFIED_BORDER_BACKGROUND
+HAS_AUTHOR_OR_USER_SPECIFIED_BORDER_BACKGROUND
 )
 ;
 }
@@ -866,7 +866,7 @@ text
 color
 .
 bool
-HasAuthorSpecifiedTextColor
+HasAuthorOrUserSpecifiedTextColor
 (
 )
 const
@@ -881,7 +881,7 @@ Flags
 Flag
 :
 :
-HAS_AUTHOR_SPECIFIED_TEXT_COLOR
+HAS_AUTHOR_OR_USER_SPECIFIED_TEXT_COLOR
 )
 ;
 }
@@ -900,7 +900,7 @@ text
 shadow
 .
 bool
-HasAuthorSpecifiedTextShadow
+HasAuthorOrUserSpecifiedTextShadow
 (
 )
 const
@@ -915,7 +915,7 @@ Flags
 Flag
 :
 :
-HAS_AUTHOR_SPECIFIED_TEXT_SHADOW
+HAS_AUTHOR_OR_USER_SPECIFIED_TEXT_SHADOW
 )
 ;
 }
@@ -1514,7 +1514,7 @@ IS_IN_OPACITY_ZERO_SUBTREE
 ;
 }
 bool
-HasAuthorSpecifiedGridAutoFlow
+HasAuthorOrUserSpecifiedGridAutoFlow
 (
 )
 const
@@ -1529,7 +1529,7 @@ Flags
 Flag
 :
 :
-HAS_AUTHOR_SPECIFIED_GRID_AUTO_FLOW
+HAS_AUTHOR_OR_USER_SPECIFIED_GRID_AUTO_FLOW
 )
 ;
 }

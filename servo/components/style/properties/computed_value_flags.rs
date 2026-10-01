@@ -753,7 +753,7 @@ issuecomment
 -
 604424845
 const
-HAS_AUTHOR_SPECIFIED_BORDER_BACKGROUND
+HAS_AUTHOR_OR_USER_SPECIFIED_BORDER_BACKGROUND
 =
 1
 <
@@ -956,7 +956,7 @@ text
 color
 .
 const
-HAS_AUTHOR_SPECIFIED_TEXT_COLOR
+HAS_AUTHOR_OR_USER_SPECIFIED_TEXT_COLOR
 =
 1
 <
@@ -1066,8 +1066,8 @@ Whether
 there
 are
 author
--
-specific
+/
+user
 rules
 for
 text
@@ -1075,7 +1075,7 @@ text
 shadow
 .
 const
-HAS_AUTHOR_SPECIFIED_TEXT_SHADOW
+HAS_AUTHOR_OR_USER_SPECIFIED_TEXT_SHADOW
 =
 1
 <
@@ -1134,11 +1134,13 @@ auto
 flow
 is
 author
+/
+user
 -
 specified
 .
 const
-HAS_AUTHOR_SPECIFIED_GRID_AUTO_FLOW
+HAS_AUTHOR_OR_USER_SPECIFIED_GRID_AUTO_FLOW
 =
 1
 <

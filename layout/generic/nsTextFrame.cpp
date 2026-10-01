@@ -52869,7 +52869,7 @@ selectionStyle
 selectionStyle
 -
 >
-HasAuthorSpecifiedTextShadow
+HasAuthorOrUserSpecifiedTextShadow
 (
 )
 )

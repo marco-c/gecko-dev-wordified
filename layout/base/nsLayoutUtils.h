@@ -7278,7 +7278,7 @@ value
 /
 static
 bool
-AuthorSpecifiedBorderBackgroundDisablesTheming
+AuthorOrUserSpecifiedBorderBackgroundDisablesTheming
 (
 mozilla
 :

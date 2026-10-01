@@ -14591,7 +14591,7 @@ bool
 nsLayoutUtils
 :
 :
-AuthorSpecifiedBorderBackgroundDisablesTheming
+AuthorOrUserSpecifiedBorderBackgroundDisablesTheming
 (
 StyleAppearance
 aAppearance

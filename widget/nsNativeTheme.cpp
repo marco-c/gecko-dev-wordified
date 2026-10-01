@@ -1196,7 +1196,7 @@ return
 nsLayoutUtils
 :
 :
-AuthorSpecifiedBorderBackgroundDisablesTheming
+AuthorOrUserSpecifiedBorderBackgroundDisablesTheming
 (
 aAppearance
 )
@@ -1223,7 +1223,7 @@ Style
 )
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 ;

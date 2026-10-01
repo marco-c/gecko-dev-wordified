@@ -1739,7 +1739,7 @@ Style
 )
 -
 >
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorOrUserSpecifiedBorderOrBackground
 (
 )
 ;
