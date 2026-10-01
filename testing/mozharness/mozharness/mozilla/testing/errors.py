@@ -1045,12 +1045,6 @@ r
 "
 "
 (
-FAIL
--
-SHOULD
--
-RETRY
-|
 No
 space
 left
@@ -1063,13 +1057,6 @@ ADBProcessError
 |
 ADBTimeoutError
 |
-program
-finished
-with
-exit
-code
-80
-|
 INFRA
 -
 ERROR
@@ -1077,10 +1064,6 @@ ERROR
 "
 "
 "
-#
-NOQA
-:
-E501
         
 )
     
