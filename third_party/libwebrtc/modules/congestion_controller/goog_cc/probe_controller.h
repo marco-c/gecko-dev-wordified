@@ -106,6 +106,11 @@ optional
 #
 include
 <
+span
+>
+#
+include
+<
 vector
 >
 #
@@ -1203,8 +1208,9 @@ now
 std
 :
 :
-vector
+span
 <
+const
 DataRate
 >
 bitrates_to_probe
