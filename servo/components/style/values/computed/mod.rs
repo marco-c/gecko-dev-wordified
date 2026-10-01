@@ -1524,6 +1524,16 @@ use
 self
 :
 :
+svg
+:
+:
+ColorInterpolation
+;
+pub
+use
+self
+:
+:
 text
 :
 :
