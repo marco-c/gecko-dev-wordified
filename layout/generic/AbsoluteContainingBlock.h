@@ -1636,7 +1636,7 @@ mCumulativeContainingBlockBSize
 ifdef
 DEBUG
 void
-SanityCheckChildListsBeforeReflow
+SanityCheckChildLists
 (
 const
 nsIFrame
