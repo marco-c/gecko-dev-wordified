@@ -1157,6 +1157,7 @@ ZoomConstraints
 aConstraints
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :

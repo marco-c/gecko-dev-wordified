@@ -570,6 +570,7 @@ called
 via
 OpenWindow
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OpenWindowInternal
 (
@@ -581,7 +582,7 @@ nsACString
 &
 aUrl
 const
-nsACString
+nsAString
 &
 aName
 const
@@ -632,6 +633,7 @@ BrowsingContext
 aResult
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 OpenWindowInternal
 (
@@ -642,7 +644,7 @@ nsIURI
 *
 aUri
 const
-nsACString
+nsAString
 &
 aName
 const

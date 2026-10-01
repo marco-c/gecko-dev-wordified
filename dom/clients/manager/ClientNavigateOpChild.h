@@ -105,6 +105,7 @@ nsISerialEventTarget
 >
 mSerialEventTarget
 ;
+MOZ_CAN_RUN_SCRIPT
 [
 [
 nodiscard
@@ -120,6 +121,15 @@ const
 ClientNavigateOpConstructorArgs
 &
 aArgs
+mozilla
+:
+:
+ipc
+:
+:
+ActorLifecycleProxy
+*
+aProxy
 )
 ;
 /
@@ -149,6 +159,7 @@ ClientNavigateOpChild
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Init
 (
@@ -156,6 +167,15 @@ const
 ClientNavigateOpConstructorArgs
 &
 aArgs
+mozilla
+:
+:
+ipc
+:
+:
+ActorLifecycleProxy
+*
+aProxy
 )
 ;
 }

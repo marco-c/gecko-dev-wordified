@@ -3755,6 +3755,7 @@ owns
 this
 BrowsingContext
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 LoadURI
 (
@@ -3775,6 +3776,7 @@ nsDocShellLoadState
 aLoadState
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Navigate
 (

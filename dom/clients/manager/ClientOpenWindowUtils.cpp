@@ -1230,6 +1230,7 @@ originContent
 #
 ifndef
 MOZ_GECKOVIEW
+MOZ_CAN_RUN_SCRIPT
 static
 Result
 <
@@ -1733,6 +1734,7 @@ otherwise
 false
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 OpenWindow
 (
@@ -2076,6 +2078,7 @@ true
 }
 #
 endif
+MOZ_CAN_RUN_SCRIPT
 void
 WaitForLoad
 (
@@ -3486,6 +3489,7 @@ BrowsingContext
 &
 aBC
 )
+MOZ_CAN_RUN_SCRIPT
 {
 WaitForLoad
 (
