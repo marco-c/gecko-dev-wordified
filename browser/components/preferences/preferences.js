@@ -3122,6 +3122,9 @@ searchSuggestions
 "
 firefoxSuggest
 "
+"
+addressBarNavigation
+"
 ]
 iconSrc
 :
