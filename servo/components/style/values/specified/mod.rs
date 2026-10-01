@@ -1324,6 +1324,16 @@ use
 self
 :
 :
+text
+:
+:
+TextWrapStyle
+;
+pub
+use
+self
+:
+:
 time
 :
 :
