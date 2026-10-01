@@ -509,6 +509,12 @@ if
 XRE_IsGPUProcess
 (
 )
+&
+&
+!
+XRE_IsParentProcess
+(
+)
 )
 {
 MOZ_ASSERT_UNREACHABLE
