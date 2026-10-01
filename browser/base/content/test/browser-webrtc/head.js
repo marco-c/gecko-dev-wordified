@@ -2486,11 +2486,16 @@ function
 activateSecondaryAction
 (
 aAction
+aWindow
+=
+window
 )
 {
 let
 notification
 =
+aWindow
+.
 PopupNotifications
 .
 panel
@@ -2571,6 +2576,7 @@ secondaryButton
 chevronButtonEl
 {
 }
+aWindow
 )
 ]
 )
