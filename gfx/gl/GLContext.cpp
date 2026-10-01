@@ -4359,16 +4359,13 @@ if
 (
 versionStr
 .
-find
+starts_with
 (
 "
 OpenGL
 ES
 "
 )
-=
-=
-0
 )
 {
 mProfile

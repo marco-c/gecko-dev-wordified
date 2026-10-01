@@ -2103,16 +2103,13 @@ if
 (
 line
 .
-find
+starts_with
 (
 "
 m
 =
 "
 )
-=
-=
-0
 )
 {
 if
