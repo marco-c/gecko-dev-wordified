@@ -3813,8 +3813,7 @@ isEmpty
 const
 ;
 static
-void
-*
+bool
 TraceEdge
 (
 JSTracer
