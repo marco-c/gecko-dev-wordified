@@ -5476,6 +5476,12 @@ Samsung
 Xclipse
 "
 "
+AMD
+Radeon
+HD
+GFX10
+"
+"
 Unknown
 "
 }
