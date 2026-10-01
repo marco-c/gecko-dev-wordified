@@ -31381,11 +31381,6 @@ mOldLinkHandlingEnabled
 false
 ;
 bool
-mHasBeforeInputBeenCanceled
-=
-false
-;
-bool
 mHasFocus
 =
 false
@@ -31488,7 +31483,6 @@ RefreshEditingUI
 /
 /
 mComposerUpdater
-mHasBeforeInputBeenCanceled
 friend
 class
 JoinNodesTransaction
