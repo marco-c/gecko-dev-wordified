@@ -2715,6 +2715,17 @@ cacheMode
 requestRedirect
 requestPriority
 integrity
+/
+*
+keepalive
+*
+/
+false
+/
+*
+hasStreamBody
+*
+/
 false
 fragment
 principalInfo
