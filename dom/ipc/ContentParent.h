@@ -7838,9 +7838,9 @@ BrowsingContext
 &
 aContext
 const
-bool
+uint32_t
 &
-aForceReload
+aReloadFlags
 NotifyOnHistoryReloadResolver
 &
 &
@@ -8119,7 +8119,7 @@ ipc
 :
 :
 IPCResult
-RecvGetLoadingSessionHistoryInfoFromParent
+RecvAdoptChildSHEntry
 (
 const
 MaybeDiscarded
@@ -8128,7 +8128,7 @@ BrowsingContext
 >
 &
 aContext
-GetLoadingSessionHistoryInfoFromParentResolver
+AdoptChildSHEntryResolver
 &
 &
 aResolver

@@ -2527,14 +2527,6 @@ SessionHistoryEntry
 aChild
 )
 ;
-SessionHistoryEntry
-*
-GetChildSHEntryIfHasNoDynamicallyAddedChild
-(
-int32_t
-aChildOffset
-)
-;
 already_AddRefed
 <
 SessionHistoryEntry

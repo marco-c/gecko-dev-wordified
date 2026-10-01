@@ -1107,8 +1107,8 @@ docshell
 void
 NotifyOnHistoryReload
 (
-bool
-aForceReload
+uint32_t
+aReloadFlags
 bool
 &
 aCanReload
@@ -2070,7 +2070,7 @@ aEntry
 )
 ;
 void
-GetLoadingSessionHistoryInfoFromParent
+AdoptChildSHEntry
 (
 Maybe
 <
