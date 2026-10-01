@@ -331,7 +331,7 @@ destroy
 {
 mMutex
 =
-NULL
+nullptr
 ;
 }
 /
