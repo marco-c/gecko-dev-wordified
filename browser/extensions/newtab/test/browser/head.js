@@ -1507,7 +1507,6 @@ getElementById
 root
 "
 )
-?
 .
 children
 .
