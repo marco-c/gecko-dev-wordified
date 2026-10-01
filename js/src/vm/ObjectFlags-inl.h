@@ -384,7 +384,7 @@ if
 (
 propFlags
 .
-isDataDescriptor
+isDataProperty
 (
 )
 &
