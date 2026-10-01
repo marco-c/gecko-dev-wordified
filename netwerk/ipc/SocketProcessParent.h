@@ -701,10 +701,8 @@ SocketProcessParent
 (
 )
 ;
-RefPtr
-<
 SocketProcessHost
->
+*
 mHost
 ;
 UniquePtr

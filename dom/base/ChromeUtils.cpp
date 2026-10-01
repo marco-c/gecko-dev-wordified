@@ -12879,12 +12879,6 @@ non
 ContentParent
 processes
 .
-for
-(
-auto
-&
-geckoProcess
-:
 mozilla
 :
 :
@@ -12896,7 +12890,20 @@ GeckoChildProcessHost
 :
 GetAll
 (
-)
+[
+&
+requests
+]
+(
+mozilla
+:
+:
+ipc
+:
+:
+GeckoChildProcessHost
+*
+aGeckoProcess
 )
 {
 base
@@ -12905,7 +12912,7 @@ base
 ProcessId
 childPid
 =
-geckoProcess
+aGeckoProcess
 -
 >
 GetChildProcessId
@@ -12938,7 +12945,7 @@ already
 fail
 gracefully
 .
-continue
+return
 ;
 }
 mozilla
@@ -12957,7 +12964,7 @@ Unknown
 ;
 switch
 (
-geckoProcess
+aGeckoProcess
 -
 >
 GetProcessType
@@ -12980,7 +12987,7 @@ are
 handled
 separately
 .
-continue
+return
 ;
 }
 #
@@ -13100,7 +13107,7 @@ utilityActors
 ;
 if
 (
-geckoProcess
+aGeckoProcess
 -
 >
 GetProcessType
@@ -13151,7 +13158,7 @@ upm
 >
 GetActors
 (
-geckoProcess
+aGeckoProcess
 )
 fallible
 )
@@ -13166,7 +13173,7 @@ actors
 "
 )
 ;
-continue
+return
 ;
 }
 }
@@ -13259,7 +13266,7 @@ aChildTask
 =
 *
 /
-geckoProcess
+aGeckoProcess
 -
 >
 GetChildTask
@@ -13273,6 +13280,8 @@ XP_MACOSX
 )
 ;
 }
+)
+;
 /
 /
 Now

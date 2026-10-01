@@ -233,8 +233,6 @@ nsIThread
 >
 mOtherThread
 ;
-RefPtr
-<
 mozilla
 :
 :
@@ -242,7 +240,7 @@ ipc
 :
 :
 GeckoChildProcessHost
->
+*
 mSubprocess
 =
 nullptr

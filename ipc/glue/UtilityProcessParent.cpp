@@ -1274,10 +1274,6 @@ OnChannelClosed
 aWhy
 )
 ;
-mHost
-=
-nullptr
-;
 }
 /
 /
