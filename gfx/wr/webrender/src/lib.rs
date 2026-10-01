@@ -1562,6 +1562,7 @@ profiler
 :
 {
 ProfilerHooks
+ProfileCounterValue
 set_profiler_hooks
 }
 ;
