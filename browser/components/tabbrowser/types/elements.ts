@@ -80,7 +80,7 @@ content
 /
 tab
 .
-js
+mjs
 is
 loaded
 as
@@ -333,7 +333,7 @@ declared
 by
 tab
 .
-js
+mjs
 .
 _index
 :

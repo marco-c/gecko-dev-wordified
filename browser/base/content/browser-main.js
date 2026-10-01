@@ -420,7 +420,7 @@ tabbrowser
 /
 tab
 .
-js
+mjs
 "
 this
 )
