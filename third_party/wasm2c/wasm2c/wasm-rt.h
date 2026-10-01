@@ -961,16 +961,9 @@ WASM_RT_USE_MMAP
 WASM_RT_NONCONFORMING_ALLOW_OOB_READ_ELIMINATION
 |
 |
-\
 defined
 (
 __GNUC__
-)
-|
-|
-defined
-(
-__clang__
 )
 )
 #
