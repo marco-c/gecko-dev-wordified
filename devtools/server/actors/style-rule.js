@@ -11324,21 +11324,6 @@ param
 {
 string
 }
-property
-:
-The
-CSS
-property
-the
-expression
-is
-applied
-to
-*
-param
-{
-string
-}
 expression
 :
 The
@@ -11412,7 +11397,6 @@ string
 /
 getCssExplainersData
 (
-property
 expression
 pseudo
 inheritedNode
@@ -11476,7 +11460,6 @@ InspectorUtils
 .
 getComputationSteps
 (
-property
 expression
 element
 pseudo
