@@ -5131,6 +5131,17 @@ release
 (
 )
 ;
+RefPtr
+<
+LoadContextInfo
+>
+lci
+=
+GetLoadContextInfo
+(
+aChan
+)
+;
 mDictionaryCache
 -
 >
@@ -5138,6 +5149,7 @@ GetDictionaryFor
 (
 aURI
 aType
+lci
 aChan
 aSuspend
 [
