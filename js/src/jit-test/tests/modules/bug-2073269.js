@@ -6,6 +6,14 @@ jit
 test
 |
 module
+;
+skip
+-
+if
+:
+isLcovEnabled
+(
+)
 function
 a
 (
