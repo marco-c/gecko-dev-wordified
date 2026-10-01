@@ -277,8 +277,6 @@ return
 mWrappedObj
 ;
 }
-private
-:
 SpiderMonkeyInterfaceObjectStorage
 (
 const
