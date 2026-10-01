@@ -1613,7 +1613,7 @@ and
 /
 bailouts
 are
-disabled
+enabled
 .
 (
 Wasm
@@ -1629,7 +1629,11 @@ lhs
 0
 &
 &
+(
 rhs
+&
+shiftMask
+)
 =
 =
 0
