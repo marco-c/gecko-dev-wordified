@@ -2045,7 +2045,7 @@ if
 (
 updatedTab
 .
-initializingTab
+initializing
 |
 |
 updatedTab
