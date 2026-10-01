@@ -640,6 +640,17 @@ topsrcdir
 "
 ]
         
+self
+.
+path_to_gcnos
+=
+build_mozinfo
+[
+"
+topobjdir
+"
+]
+        
 strip_count
 =
 len
@@ -709,14 +720,14 @@ zip
         
 self
 .
-download_file
+download_unpack
 (
 url_to_gcno
-parent_dir
+extract_to
 =
 self
 .
-grcov_dir
+path_to_gcnos
 )
         
 #
@@ -1962,27 +1973,9 @@ fetches
 *
 "
             
-os
-.
-path
-.
-join
-(
 self
 .
-grcov_dir
-"
-target
-.
-code
--
-coverage
--
-gcno
-.
-zip
-"
-)
+path_to_gcnos
             
 gcov_dir
         
