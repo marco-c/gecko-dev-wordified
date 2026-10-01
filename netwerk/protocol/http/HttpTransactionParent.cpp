@@ -1324,6 +1324,7 @@ infoArgs
 requestHead
 ipcStream
 requestContentLength
+mRequestBodyIsStreaming
 browserId
 trafficCategory
 requestContextID

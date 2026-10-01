@@ -417,6 +417,10 @@ uint64_t
 &
 aReqContentLength
 const
+bool
+&
+aRequestBodyIsStreaming
+const
 uint64_t
 &
 aTopLevelOuterContentWindowId
