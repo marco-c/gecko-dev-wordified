@@ -2349,7 +2349,7 @@ space
 *
 /
 static
-gfxPoint
+CSSPoint
 FrameSpaceInCSSPxToUserSpaceOffset
 (
 const

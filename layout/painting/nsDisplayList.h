@@ -34465,7 +34465,7 @@ BBoxInUserSpace
 )
 const
 ;
-gfxPoint
+CSSPoint
 UserSpaceOffset
 (
 )
