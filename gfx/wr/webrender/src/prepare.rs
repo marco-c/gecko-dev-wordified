@@ -3291,6 +3291,8 @@ text_run_handle
 =
 prim_data
 .
+kind
+.
 request_resources
 (
 pattern_rect

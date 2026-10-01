@@ -1757,6 +1757,8 @@ text_run
 [
 data_handle
 ]
+.
+kind
 ;
 color
 =

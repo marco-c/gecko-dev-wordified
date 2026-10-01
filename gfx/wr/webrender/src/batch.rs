@@ -6181,6 +6181,8 @@ text_run
 [
 data_handle
 ]
+.
+kind
 ;
 let
 glyph_keys

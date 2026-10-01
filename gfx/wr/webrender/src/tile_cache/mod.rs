@@ -19320,7 +19320,7 @@ local
 space
 (
 see
-TextRunTemplate
+TextRun
 :
 :
 get_raster_space_for_prim
