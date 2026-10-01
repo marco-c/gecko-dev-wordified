@@ -2483,6 +2483,13 @@ for
 EditContext
 )
 .
+mSetAnchorToCaret
+=
+SetAnchorToCaret
+:
+:
+No
+;
 MOZ_ASSERT
 (
 !

@@ -912,7 +912,6 @@ spell
 check
 occurs
 .
-const
 SetAnchorToCaret
 mSetAnchorToCaret
 ;
