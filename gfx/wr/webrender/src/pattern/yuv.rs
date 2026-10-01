@@ -1385,12 +1385,6 @@ _pattern_rect
 :
 &
 LayoutRect
-_sub_rect
-:
-Option
-<
-DeviceRect
->
 state
 :
 &
