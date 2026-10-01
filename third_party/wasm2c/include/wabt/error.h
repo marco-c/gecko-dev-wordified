@@ -238,6 +238,11 @@ std
 :
 :
 string_view
+filename
+std
+:
+:
+string_view
 message
 )
 :
@@ -248,6 +253,10 @@ error_level
 loc
 (
 loc
+)
+filename
+(
+filename
 )
 message
 (
@@ -260,6 +269,12 @@ error_level
 ;
 Location
 loc
+;
+std
+:
+:
+string_view
+filename
 ;
 std
 :

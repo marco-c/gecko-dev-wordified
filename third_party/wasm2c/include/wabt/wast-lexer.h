@@ -281,6 +281,19 @@ GetToken
 (
 )
 ;
+std
+:
+:
+string_view
+Filename
+(
+)
+const
+{
+return
+filename_
+;
+}
 /
 /
 TODO
@@ -585,6 +598,7 @@ ReadSign
 Token
 GetStringToken
 (
+TokenType
 )
 ;
 Token

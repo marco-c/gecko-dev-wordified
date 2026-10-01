@@ -136,6 +136,13 @@ WABT_STRING_FORMAT_H_
 #
 include
 <
+inttypes
+.
+h
+>
+#
+include
+<
 cstdarg
 >
 #
@@ -201,8 +208,8 @@ PRItypecode
 s
 %
 #
-x
 "
+PRIx64
 #
 define
 WABT_PRINTF_TYPE_CODE
@@ -235,7 +242,7 @@ abs
 (
 static_cast
 <
-int32_t
+int64_t
 >
 (
 x

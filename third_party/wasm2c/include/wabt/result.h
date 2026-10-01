@@ -137,6 +137,11 @@ namespace
 wabt
 {
 struct
+[
+[
+nodiscard
+]
+]
 Result
 {
 enum
