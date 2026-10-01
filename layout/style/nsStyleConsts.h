@@ -1039,16 +1039,6 @@ IsolateOverride
 Plaintext
 }
 ;
-enum
-class
-StyleTableLayout
-:
-uint8_t
-{
-Auto
-Fixed
-}
-;
 /
 /
 See
