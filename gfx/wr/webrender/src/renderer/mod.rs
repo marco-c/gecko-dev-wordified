@@ -12801,6 +12801,8 @@ self
 device
 .
 textures_created
+(
+)
 )
 ;
 self
@@ -12818,6 +12820,8 @@ self
 device
 .
 textures_deleted
+(
+)
 )
 ;
 results
