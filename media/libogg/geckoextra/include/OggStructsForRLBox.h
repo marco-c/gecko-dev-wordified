@@ -59,6 +59,15 @@ OggStructsForRLBox_h__
 define
 OggStructsForRLBox_h__
 #
+include
+<
+ogg
+/
+ogg
+.
+h
+>
+#
 if
 defined
 (

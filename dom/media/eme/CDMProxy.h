@@ -1783,8 +1783,9 @@ virtual
 CDMProxy
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Helper

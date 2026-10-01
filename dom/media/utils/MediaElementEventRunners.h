@@ -885,12 +885,7 @@ void
 Cancel
 (
 )
-{
-mElement
-=
-nullptr
 ;
-}
 NS_IMETHODIMP
 GetName
 (
@@ -940,8 +935,6 @@ virtual
 nsMediaEventRunner
 (
 )
-=
-default
 ;
 bool
 IsCancelled

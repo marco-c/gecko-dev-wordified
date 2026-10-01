@@ -399,6 +399,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
