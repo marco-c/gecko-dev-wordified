@@ -302,7 +302,7 @@ mozilla
 /
 EventMessageList
 .
-h
+inc
 "
 #
 undef

@@ -73,6 +73,13 @@ h
 /
 for
 gfxFloat
+#
+include
+"
+nsTString
+.
+h
+"
 namespace
 mozilla
 {

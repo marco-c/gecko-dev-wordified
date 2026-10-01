@@ -69,6 +69,11 @@ glib
 .
 h
 >
+#
+include
+<
+cstdint
+>
 /
 /
 Some
