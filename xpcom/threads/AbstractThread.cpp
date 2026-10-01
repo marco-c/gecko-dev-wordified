@@ -828,6 +828,16 @@ mThread
 GetFeatures
 (
 )
+|
+(
+SupportsTailDispatch
+(
+)
+?
+SUPPORTS_TAIL_DISPATCH
+:
+SUPPORTS_BASE
+)
 ;
 }
 bool
