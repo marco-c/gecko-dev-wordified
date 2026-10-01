@@ -62,11 +62,6 @@ mozilla_dom_gamepad_GamepadTouchState_h_
 #
 define
 mozilla_dom_gamepad_GamepadTouchState_h_
-#
-include
-<
-cstdint
->
 namespace
 mozilla
 :

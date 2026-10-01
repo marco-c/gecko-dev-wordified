@@ -169,7 +169,7 @@ FileSystemBase
 *
 aFileSystem
 =
-nullptr
+0
 )
 ;
 /
