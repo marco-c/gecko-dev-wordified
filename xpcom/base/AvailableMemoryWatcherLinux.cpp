@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsExceptionHandler
+.
+h
+"
+#
+include
+"
 nsIAvailableMemoryWatcherTestingLinux
 .
 h
@@ -168,7 +175,7 @@ h
 #
 include
 "
-nsString
+nsPrintfCString
 .
 h
 "
