@@ -3819,7 +3819,7 @@ getBrowserState
 await
 SessionStoreTestUtils
 .
-promiseBrowserState
+promiseCompletedBrowserState
 (
 {
 windows
