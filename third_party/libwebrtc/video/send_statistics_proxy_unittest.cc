@@ -150,7 +150,9 @@ include
 "
 api
 /
-field_trials
+environment
+/
+environment
 .
 h
 "
@@ -391,7 +393,7 @@ include
 "
 test
 /
-create_test_field_trials
+create_test_environment
 .
 h
 "
@@ -617,13 +619,6 @@ string
 field_trials
 )
 :
-field_trials_
-(
-CreateTestFieldTrials
-(
-field_trials
-)
-)
 fake_clock_
 (
 Timestamp
@@ -632,6 +627,23 @@ Timestamp
 Seconds
 (
 1234
+)
+)
+env_
+(
+CreateTestEnvironment
+(
+{
+.
+field_trials
+=
+field_trials
+.
+time
+=
+&
+fake_clock_
+}
 )
 )
 config_
@@ -671,8 +683,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 GetTestConfig
 (
 )
@@ -683,7 +694,6 @@ ContentType
 :
 :
 kRealtimeVideo
-field_trials_
 )
 )
 ;
@@ -1576,11 +1586,11 @@ jitter
 }
 }
 }
-FieldTrials
-field_trials_
-;
 SimulatedClock
 fake_clock_
+;
+Environment
+env_
 ;
 std
 :
@@ -14127,8 +14137,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 config
 VideoEncoderConfig
 :
@@ -14137,7 +14146,6 @@ ContentType
 :
 :
 kRealtimeVideo
-field_trials_
 )
 )
 ;
@@ -14480,8 +14488,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 config
 VideoEncoderConfig
 :
@@ -14490,7 +14497,6 @@ ContentType
 :
 :
 kRealtimeVideo
-field_trials_
 )
 )
 ;
@@ -18721,8 +18727,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 GetTestConfigWithFlexFec
 (
 )
@@ -18733,7 +18738,6 @@ ContentType
 :
 :
 kRealtimeVideo
-field_trials_
 )
 )
 ;
@@ -18854,8 +18858,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 GetTestConfigWithFlexFec
 (
 )
@@ -18866,7 +18869,6 @@ ContentType
 :
 :
 kRealtimeVideo
-field_trials_
 )
 )
 ;
@@ -20785,8 +20787,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 config
 VideoEncoderConfig
 :
@@ -20795,7 +20796,6 @@ ContentType
 :
 :
 kRealtimeVideo
-field_trials_
 )
 )
 ;
@@ -21142,8 +21142,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 config
 VideoEncoderConfig
 :
@@ -21152,7 +21151,6 @@ ContentType
 :
 :
 kRealtimeVideo
-field_trials_
 )
 )
 ;
@@ -23254,8 +23252,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 config
 VideoEncoderConfig
 :
@@ -23264,7 +23261,6 @@ ContentType
 :
 :
 kRealtimeVideo
-field_trials_
 )
 )
 ;
@@ -24088,8 +24084,7 @@ reset
 new
 SendStatisticsProxy
 (
-&
-fake_clock_
+env_
 config
 VideoEncoderConfig
 :
@@ -24098,7 +24093,6 @@ ContentType
 :
 :
 kScreen
-field_trials_
 )
 )
 ;
