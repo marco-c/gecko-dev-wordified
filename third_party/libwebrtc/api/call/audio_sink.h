@@ -108,6 +108,9 @@ h
 namespace
 webrtc
 {
+class
+RtpPacketInfos
+;
 /
 /
 Represents
@@ -146,6 +149,12 @@ size_t
 channels
 uint32_t
 timestamp
+const
+RtpPacketInfos
+*
+packet_infos
+=
+nullptr
 )
 :
 data
@@ -167,6 +176,10 @@ channels
 timestamp
 (
 timestamp
+)
+packet_infos
+(
+packet_infos
 )
 {
 }
@@ -231,6 +244,11 @@ the
 first
 sample
 .
+const
+RtpPacketInfos
+*
+packet_infos
+;
 }
 ;
 virtual
