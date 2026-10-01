@@ -8368,11 +8368,6 @@ if
 appStartup
 )
 {
-bool
-userAllowedQuit
-=
-true
-;
 appStartup
 -
 >
@@ -8383,8 +8378,6 @@ nsIAppStartup
 :
 eAttemptQuit
 0
-&
-userAllowedQuit
 )
 ;
 }

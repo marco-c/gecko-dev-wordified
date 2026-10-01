@@ -20508,7 +20508,7 @@ aExitCode
 i32
 )
 :
-boolean
+void
 ;
 /
 *
