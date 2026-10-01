@@ -177,15 +177,7 @@ gl
 (
 )
 const
-{
-return
-mWeakGL
-.
-get
-(
-)
 ;
-}
 /
 /
 4

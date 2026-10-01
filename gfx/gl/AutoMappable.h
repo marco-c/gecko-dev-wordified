@@ -71,6 +71,11 @@ dragons
 #
 include
 <
+functional
+>
+#
+include
+<
 tuple
 >
 namespace

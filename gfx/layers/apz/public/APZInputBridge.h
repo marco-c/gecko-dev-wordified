@@ -233,7 +233,7 @@ bool
 {
 NotConsumed
 =
-0
+false
 /
 /
 Representing
@@ -247,7 +247,7 @@ the
 gesture
 Consumed
 =
-1
+true
 /
 /
 Representing

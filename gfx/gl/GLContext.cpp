@@ -322,6 +322,13 @@ LayersIPCChannel
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

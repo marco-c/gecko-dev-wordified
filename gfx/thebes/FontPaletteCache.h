@@ -70,6 +70,13 @@ utility
 #
 include
 "
+gfxFontEntry
+.
+h
+"
+#
+include
+"
 harfbuzz
 /
 hb
@@ -128,9 +135,6 @@ nsTArray
 .
 h
 "
-class
-gfxFontEntry
-;
 namespace
 mozilla
 :

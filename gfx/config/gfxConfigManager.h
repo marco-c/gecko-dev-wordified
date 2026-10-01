@@ -83,9 +83,13 @@ nsCOMPtr
 .
 h
 "
-class
+#
+include
+"
 nsIGfxInfo
-;
+.
+h
+"
 namespace
 mozilla
 {

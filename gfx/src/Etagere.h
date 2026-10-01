@@ -65,9 +65,7 @@ MOZILLA_GFX_ETAGERE_H
 #
 include
 <
-stddef
-.
-h
+cstdint
 >
 namespace
 Etagere

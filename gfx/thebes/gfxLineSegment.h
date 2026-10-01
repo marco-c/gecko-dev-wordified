@@ -82,8 +82,9 @@ gfxLineSegment
 gfxLineSegment
 (
 )
-{
-}
+=
+default
+;
 gfxLineSegment
 (
 const

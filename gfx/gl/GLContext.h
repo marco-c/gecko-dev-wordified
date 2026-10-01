@@ -240,6 +240,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+Point
+.
+h
+"
+#
+include
+"
 nsRegionFwd
 .
 h

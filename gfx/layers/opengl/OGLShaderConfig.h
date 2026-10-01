@@ -65,6 +65,13 @@ GFX_OGLSHADERCONFIG_H
 #
 include
 "
+GLTypes
+.
+h
+"
+#
+include
+"
 ImageTypes
 .
 h
