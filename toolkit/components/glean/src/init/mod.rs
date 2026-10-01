@@ -1325,6 +1325,11 @@ ping_schedule
 )
 )
 .
+with_events_ping_acceleration_factor
+(
+5
+)
+.
 with_rate_limit
 (
 rate_limit
