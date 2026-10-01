@@ -59,6 +59,10 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
 Link
 .
 h
