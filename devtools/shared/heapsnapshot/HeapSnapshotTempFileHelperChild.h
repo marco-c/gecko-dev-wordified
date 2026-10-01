@@ -89,8 +89,9 @@ explicit
 HeapSnapshotTempFileHelperChild
 (
 )
-{
-}
+=
+default
+;
 public
 :
 static
