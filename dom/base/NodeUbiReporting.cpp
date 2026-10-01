@@ -75,6 +75,13 @@ h
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsWindowSizes
 .
 h

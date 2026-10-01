@@ -83,6 +83,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+AbstractRange
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -103,9 +114,6 @@ mozilla
 :
 dom
 {
-class
-AbstractRange
-;
 struct
 StyledRange
 {

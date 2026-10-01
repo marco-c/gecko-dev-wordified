@@ -65,9 +65,12 @@ mozilla_dom_CharacterDataBufferImpl_h
 #
 include
 <
-stdint
-.
-h
+cstddef
+>
+#
+include
+<
+cstdint
 >
 template
 <
