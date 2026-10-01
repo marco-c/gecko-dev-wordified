@@ -710,6 +710,11 @@ return
 vector
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 initCapacity
 (
@@ -863,6 +868,11 @@ template
 typename
 U
 >
+[
+[
+nodiscard
+]
+]
 bool
 append
 (
