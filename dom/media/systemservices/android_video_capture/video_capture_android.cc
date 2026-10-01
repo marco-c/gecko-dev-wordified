@@ -944,14 +944,12 @@ Why
 VideoFrame
 captureFrame
 (
-I420Buffer
+std
 :
 :
-Rotate
+move
 (
-*
 buffer
-rotation
 )
 0
 webrtc
