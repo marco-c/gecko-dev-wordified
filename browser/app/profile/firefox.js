@@ -28726,7 +28726,7 @@ toolbar
 .
 enabled
 "
-true
+false
 )
 ;
 /
