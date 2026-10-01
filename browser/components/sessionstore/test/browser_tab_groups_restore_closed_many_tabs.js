@@ -450,7 +450,11 @@ ss
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 win
+}
 )
 ;
 Assert

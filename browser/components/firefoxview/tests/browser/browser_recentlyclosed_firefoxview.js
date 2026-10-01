@@ -408,7 +408,11 @@ SessionStore
 .
 getClosedTabCount
 (
+{
+sourceWindow
+:
 window
+}
 )
 0
 "
@@ -469,7 +473,11 @@ SessionStore
 .
 getClosedTabCount
 (
+{
+sourceWindow
+:
 window
+}
 )
 0
 "
@@ -2800,7 +2808,11 @@ SessionStore
 .
 getClosedTabCount
 (
+{
+sourceWindow
+:
 window
+}
 )
 +
 SessionStore
@@ -2914,7 +2926,11 @@ SessionStore
 .
 getClosedTabCount
 (
+{
+sourceWindow
+:
 window
+}
 )
 0
 "

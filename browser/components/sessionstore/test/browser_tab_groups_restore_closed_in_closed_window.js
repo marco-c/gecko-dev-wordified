@@ -351,7 +351,11 @@ SessionStore
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 win
+}
 )
 ;
 Assert

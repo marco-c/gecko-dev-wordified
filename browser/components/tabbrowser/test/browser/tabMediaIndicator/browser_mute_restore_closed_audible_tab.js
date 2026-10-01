@@ -446,7 +446,11 @@ SessionStore
 .
 getClosedTabData
 (
+{
+sourceWindow
+:
 window
+}
 )
 [
 0

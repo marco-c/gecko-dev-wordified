@@ -47,7 +47,7 @@ LOAD_FLAGS_REPLACE_HISTORY
 ;
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 win
 .
@@ -145,7 +145,11 @@ SessionStore
 .
 getClosedTabCount
 (
+{
+sourceWindow
+:
 window
+}
 )
 )
 {
@@ -297,7 +301,11 @@ SessionStore
 .
 getClosedTabData
 (
+{
+sourceWindow
+:
 winB
+}
 )
 [
 0
@@ -387,7 +395,11 @@ SessionStore
 .
 getClosedTabData
 (
+{
+sourceWindow
+:
 winB
+}
 )
 .
 length
@@ -498,7 +510,11 @@ SessionStore
 .
 getClosedTabData
 (
+{
+sourceWindow
+:
 window
+}
 )
 [
 0

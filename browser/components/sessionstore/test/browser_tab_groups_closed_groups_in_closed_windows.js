@@ -199,7 +199,11 @@ SessionStore
 .
 getClosedTabGroups
 (
+{
+sourceWindow
+:
 win
+}
 )
 .
 length
