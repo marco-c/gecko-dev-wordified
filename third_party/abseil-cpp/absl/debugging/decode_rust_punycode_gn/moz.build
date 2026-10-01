@@ -201,7 +201,7 @@ debugging
 /
 internal
 /
-demangle_rust
+decode_rust_punycode
 .
 cc
 "
@@ -1121,6 +1121,6 @@ True
 Library
 (
 "
-demangle_rust_gn
+decode_rust_punycode_gn
 "
 )

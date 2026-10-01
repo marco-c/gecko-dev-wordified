@@ -201,7 +201,7 @@ debugging
 /
 internal
 /
-demangle_rust
+utf8_for_code_point
 .
 cc
 "
@@ -1121,6 +1121,6 @@ True
 Library
 (
 "
-demangle_rust_gn
+utf8_for_code_point_gn
 "
 )
