@@ -7104,7 +7104,7 @@ return
 BufferAllocator
 :
 :
-TraceEdge
+MarkBuffer
 (
 this
 bufferp
