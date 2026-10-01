@@ -2261,6 +2261,12 @@ AnchorPosAnchorInfo
 aPossibleAnchorFrames
 uint32_t
 aPositionedFrameTreeDepth
+nsTArray
+<
+size_t
+>
+*
+aTopLayerIndexCache
 )
 ;
 static
