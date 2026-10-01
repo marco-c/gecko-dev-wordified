@@ -1320,6 +1320,12 @@ nsIURI
 aURI
 )
 {
+MOZ_ASSERT
+(
+!
+mFrozen
+)
+;
 mResponseURI
 =
 aURI
