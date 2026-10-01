@@ -2909,6 +2909,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 head
@@ -3000,6 +3002,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 head

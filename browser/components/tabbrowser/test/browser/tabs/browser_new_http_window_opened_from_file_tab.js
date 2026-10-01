@@ -115,6 +115,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 "
