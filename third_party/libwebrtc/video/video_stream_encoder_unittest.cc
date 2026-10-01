@@ -6049,7 +6049,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 int
 num_cores
 =
@@ -6345,7 +6345,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 int
 num_cores
 =
@@ -40607,7 +40607,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -43070,7 +43070,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -43360,7 +43360,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -47893,7 +47893,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -59751,7 +59751,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -60893,7 +60893,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -61458,7 +61458,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -64789,7 +64789,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -66324,7 +66324,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -66465,7 +66465,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -66591,7 +66591,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -66753,7 +66753,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -66920,7 +66920,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -67066,7 +67066,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores
@@ -67212,7 +67212,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 /
 *
 num_cores

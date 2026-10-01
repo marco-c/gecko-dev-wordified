@@ -2571,7 +2571,7 @@ VideoStreamEncoder
 BitrateAllocationCallbackType
 :
 :
-kVideoBitrateAllocationWhenScreenSharing
+kNone
 ;
 }
 RtpSenderFrameEncryptionConfig
