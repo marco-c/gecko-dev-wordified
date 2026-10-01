@@ -849,6 +849,9 @@ gfxFontVariation
 =
 sizeof
 (
+wr
+:
+:
 FontVariation
 )
 &
@@ -862,8 +865,11 @@ tag
 =
 offsetof
 (
+wr
+:
+:
 FontVariation
-mTag
+tag
 )
 &
 &
@@ -877,7 +883,7 @@ value
 offsetof
 (
 FontVariation
-mValue
+value
 )
 "
 gfxFontVariation
@@ -918,6 +924,9 @@ Length
 reinterpret_cast
 <
 const
+wr
+:
+:
 FontVariation
 *
 >
