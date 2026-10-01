@@ -85,7 +85,7 @@ from
 .
 symbolication
 import
-ProfileSymbolicator
+symbolicate_profile
 from
 .
 viewgeckoprofile
@@ -100,15 +100,15 @@ save_gecko_profile
 "
     
 "
+symbolicate_profile
+"
+    
+"
 symbolicate_profile_json
 "
     
 "
 symbolicate_profiles
-"
-    
-"
-ProfileSymbolicator
 "
     
 "

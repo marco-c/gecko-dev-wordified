@@ -1679,15 +1679,10 @@ gecko_profile
 =
 GeckoProfile
 (
-                
 upload_dir
 self
 .
-browser_config
-self
-.
 test_config
-            
 )
             
 self
