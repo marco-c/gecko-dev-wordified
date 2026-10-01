@@ -2579,6 +2579,11 @@ copySubmenu
 new
 Menu
 (
+{
+accesskeyConflictsBug
+:
+2073896
+}
 )
 ;
 copySubmenu
@@ -4521,6 +4526,9 @@ context
 -
 menu
 "
+accesskeyConflictsBug
+:
+2073896
 }
 )
 ;

@@ -611,6 +611,11 @@ menu
 new
 Menu
 (
+{
+accesskeyConflictsBug
+:
+2073896
+}
 )
 ;
 const

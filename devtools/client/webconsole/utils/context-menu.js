@@ -741,6 +741,9 @@ webconsole
 -
 menu
 "
+accesskeyConflictsBug
+:
+2073896
 }
 )
 ;

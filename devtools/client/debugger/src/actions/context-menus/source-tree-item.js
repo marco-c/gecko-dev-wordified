@@ -856,6 +856,11 @@ showMenu
 (
 event
 menuOptions
+{
+accesskeyConflictsBug
+:
+2073896
+}
 )
 ;
 }

@@ -3405,6 +3405,9 @@ screenY
 event
 .
 screenY
+accesskeyConflictsBug
+:
+2073896
 }
 )
 ;
