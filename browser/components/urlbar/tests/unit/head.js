@@ -5826,8 +5826,11 @@ icon
 =
 UrlbarUtils
 .
-getRemoteIconUrl
+getRemoteImageUrl
 (
+{
+url
+:
 "
 data
 :
@@ -5840,9 +5843,12 @@ R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw
 =
 =
 "
+size
+:
 UrlbarProviderSearchSuggestions
 .
 RICH_ICON_SIZE
+}
 )
 ;
 payload
