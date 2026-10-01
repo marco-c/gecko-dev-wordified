@@ -1163,7 +1163,13 @@ GetContextInfo
 (
 )
 ;
-bool
+WeakPtr
+<
+notification
+:
+:
+NotificationChild
+>
 CreateActor
 (
 const
@@ -1203,6 +1209,10 @@ IPCImage
 &
 &
 aIcon
+ContextInfo
+&
+&
+aInfo
 )
 ;
 /
