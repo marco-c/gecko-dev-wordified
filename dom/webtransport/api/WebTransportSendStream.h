@@ -233,16 +233,6 @@ WebTransportSendStream
 (
 )
 override
-{
-mozilla
-:
-:
-DropJSObjects
-(
-this
-)
-;
-}
 ;
 /
 /
