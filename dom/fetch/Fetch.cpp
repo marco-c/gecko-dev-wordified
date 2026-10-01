@@ -7772,6 +7772,17 @@ MaybeGetInputStreamIfUnread
 )
 )
 ;
+if
+(
+!
+mFetchStreamReader
+-
+>
+IsConsuming
+(
+)
+)
+{
 mFetchStreamReader
 -
 >
@@ -7782,6 +7793,7 @@ mReadableStreamBody
 aRv
 )
 ;
+}
 return
 ;
 }
