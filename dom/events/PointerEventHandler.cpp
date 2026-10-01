@@ -7496,6 +7496,17 @@ aSourceEvent
 ;
 /
 /
+WidgetMouseEvent
+aCoalescedEvent
+.
+mMovement
+=
+aSourceEvent
+.
+mMovement
+;
+/
+/
 WidgetPointerEvent
 aCoalescedEvent
 .
