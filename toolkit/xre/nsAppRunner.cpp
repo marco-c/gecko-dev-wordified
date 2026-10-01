@@ -15606,12 +15606,12 @@ status
 endif
 /
 /
-WP_WIN
+XP_WIN
 #
 endif
 /
 /
-WP_MACOSX
+XP_MACOSX
 #
 endif
 /
