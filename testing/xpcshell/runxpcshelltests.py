@@ -604,6 +604,7 @@ manifestparser
 util
 import
 normsep
+split_manifest_list
 from
 mozlog
 import
@@ -4925,6 +4926,8 @@ interpolation
             
 prefs
 =
+split_manifest_list
+(
 self
 .
 test_object
@@ -4933,36 +4936,7 @@ test_object
 prefs
 "
 ]
-.
-strip
-(
 )
-            
-if
-prefs
-:
-                
-prefs
-=
-[
-p
-.
-strip
-(
-)
-for
-p
-in
-prefs
-.
-split
-(
-"
-\
-n
-"
-)
-]
             
 name
 =
@@ -5163,6 +5137,8 @@ test_object
             
 extraEnv
 =
+split_manifest_list
+(
 self
 .
 test_object
@@ -5171,13 +5147,6 @@ test_object
 environment
 "
 ]
-.
-strip
-(
-)
-.
-split
-(
 )
             
 self

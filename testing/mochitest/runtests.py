@@ -218,6 +218,7 @@ manifestparser
 util
 import
 normsep
+split_manifest_list
 from
 mozgeckoprofiler
 import
@@ -31187,29 +31188,10 @@ prefs
                 
 prefs
 =
-[
-p
-.
-strip
+split_manifest_list
 (
-)
-for
-p
-in
 prefs
-.
-strip
-(
 )
-.
-split
-(
-"
-\
-n
-"
-)
-]
                 
 self
 .
@@ -31292,14 +31274,9 @@ self
 .
 extraEnv
 =
+split_manifest_list
+(
 envVars
-.
-strip
-(
-)
-.
-split
-(
 )
                 
 env_list
