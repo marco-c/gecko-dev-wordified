@@ -329,6 +329,15 @@ min_one_way_delay
 IsFinite
 (
 )
+&
+&
+feedback
+.
+max_one_way_delay
+.
+IsFinite
+(
+)
 ?
 feedback
 .
