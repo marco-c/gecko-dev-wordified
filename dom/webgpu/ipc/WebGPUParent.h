@@ -406,8 +406,6 @@ QueueSubmit
 (
 RawId
 aQueueId
-RawId
-aDeviceId
 Span
 <
 const

@@ -668,8 +668,6 @@ QueueSubmit
 (
 RawId
 aSelfId
-RawId
-aDeviceId
 nsTArray
 <
 RawId

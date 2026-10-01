@@ -8821,8 +8821,6 @@ WebGPUParent
 *
 aParent
 RawId
-aDeviceId
-RawId
 aQueueId
 )
 {
@@ -8976,7 +8974,6 @@ aParent
 GetContext
 (
 )
-aDeviceId
 aQueueId
 fenceHandle
 -

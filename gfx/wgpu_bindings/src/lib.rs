@@ -1781,10 +1781,6 @@ QueueSubmit
 id
 :
 :
-DeviceId
-id
-:
-:
 QueueId
 Cow
 <

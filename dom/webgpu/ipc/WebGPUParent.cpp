@@ -1445,8 +1445,6 @@ wgpu_parent_queue_submit
 (
 WGPUWebGPUParentPtr
 aParent
-WGPUDeviceId
-aDeviceId
 WGPUQueueId
 aQueueId
 const
@@ -1515,7 +1513,6 @@ parent
 QueueSubmit
 (
 aQueueId
-aDeviceId
 command_buffers
 textures
 externalTextureSources
@@ -3960,8 +3957,6 @@ QueueSubmit
 (
 RawId
 aQueueId
-RawId
-aDeviceId
 Span
 <
 const
@@ -4031,7 +4026,6 @@ source
 OnBeforeQueueSubmit
 (
 this
-aDeviceId
 aQueueId
 )
 )
@@ -4164,7 +4158,6 @@ mContext
 get
 (
 )
-aDeviceId
 aQueueId
 signalSemaphores
 )
@@ -4184,7 +4177,6 @@ mContext
 get
 (
 )
-aDeviceId
 aQueueId
 {
 aCommandBuffers

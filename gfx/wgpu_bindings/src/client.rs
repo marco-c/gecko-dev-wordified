@@ -6293,12 +6293,6 @@ client
 :
 &
 Client
-device_id
-:
-id
-:
-:
-DeviceId
 queue_id
 :
 id
@@ -6348,7 +6342,6 @@ Message
 :
 QueueSubmit
 (
-device_id
 queue_id
 Cow
 :
