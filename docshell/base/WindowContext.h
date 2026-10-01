@@ -1043,8 +1043,10 @@ BrowsingContext
 \
 FIELD
 (
+\
 AllowJavascript
 bool
+\
 {
 .
 mCanSet
@@ -1053,6 +1055,16 @@ CanSet
 :
 :
 OwnerOrParentOnly
+.
+mDefault
+=
+[
+]
+{
+return
+true
+;
+}
 }
 )
 \
