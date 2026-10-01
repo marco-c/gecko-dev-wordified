@@ -327,6 +327,13 @@ aOriginMetadata
 const
 int64_t
 aDirectoryLockId
+const
+Maybe
+<
+FileSystemCipherKey
+>
+&
+aMaybeCipherKey
 )
 ;
 /
