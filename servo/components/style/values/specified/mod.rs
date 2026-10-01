@@ -409,6 +409,16 @@ use
 self
 :
 :
+border
+:
+:
+FloatEdge
+;
+pub
+use
+self
+:
+:
 box_
 :
 :
