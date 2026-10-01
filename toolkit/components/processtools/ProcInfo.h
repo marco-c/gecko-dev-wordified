@@ -326,7 +326,7 @@ rest
 matches
 GeckoProcessTypes
 .
-h
+inc
 #
 define
 GECKO_PROCESS_TYPE
@@ -365,7 +365,7 @@ mozilla
 /
 GeckoProcessTypes
 .
-h
+inc
 "
 #
 undef

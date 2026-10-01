@@ -96,7 +96,7 @@ dense
 See
 GeckoProcessTypes
 .
-h
+inc
 for
 details
 .
@@ -134,7 +134,7 @@ mozilla
 /
 GeckoProcessTypes
 .
-h
+inc
 "
 #
 undef

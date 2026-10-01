@@ -7389,7 +7389,7 @@ mozilla
 /
 GeckoProcessTypes
 .
-h
+inc
 "
 #
 undef
@@ -43146,7 +43146,7 @@ mozilla
 /
 GeckoProcessTypes
 .
-h
+inc
 "
 #
 undef
@@ -43933,7 +43933,7 @@ mozilla
 /
 GeckoProcessTypes
 .
-h
+inc
 "
 #
 undef

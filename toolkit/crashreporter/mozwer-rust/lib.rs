@@ -486,7 +486,7 @@ comes
 from
 GeckoProcessTypes
 .
-h
+inc
 static
 MAIN_PROCESS_TYPE
 :
