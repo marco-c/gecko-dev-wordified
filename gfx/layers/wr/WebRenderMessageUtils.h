@@ -1619,6 +1619,9 @@ interners
 a
 .
 data_stores
+a
+.
+dl_stores
 )
 ;
 }
