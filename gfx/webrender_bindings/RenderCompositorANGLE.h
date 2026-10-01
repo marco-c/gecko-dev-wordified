@@ -609,15 +609,6 @@ EnableAsyncScreenshot
 override
 ;
 void
-GetCompositorCapabilities
-(
-CompositorCapabilities
-*
-aCaps
-)
-override
-;
-void
 GetWindowProperties
 (
 WindowProperties
