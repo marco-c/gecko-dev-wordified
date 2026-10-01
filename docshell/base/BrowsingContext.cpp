@@ -8467,6 +8467,17 @@ GetClosed
 AncestorsAreCurrent
 (
 )
+&
+&
+!
+Top
+(
+)
+-
+>
+GetIsPrinting
+(
+)
 ;
 }
 void
