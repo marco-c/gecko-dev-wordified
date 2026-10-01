@@ -1322,7 +1322,7 @@ get_capabilities
 (
 )
 .
-supports_nonzero_pbo_offsets
+supports_upload_buffer_offsets
 {
 (
 true
@@ -1557,7 +1557,7 @@ get_capabilities
 (
 )
 .
-supports_buffer_storage
+supports_persistent_upload_buffers
 &
 &
 can_recycle
@@ -2774,7 +2774,7 @@ get_capabilities
 (
 )
 .
-supports_nonzero_pbo_offsets
+supports_upload_buffer_offsets
 {
 assert_eq
 !
