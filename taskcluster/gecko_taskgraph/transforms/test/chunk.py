@@ -389,7 +389,7 @@ coverage
 )
 :
             
-env
+try_task_config
 =
 config
 .
@@ -409,16 +409,7 @@ or
             
 env
 =
-env
-.
-get
-(
-"
-templates
-"
-{
-}
-)
+try_task_config
 .
 get
 (
