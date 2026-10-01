@@ -9445,12 +9445,6 @@ masm
 .
 loadWasmPinnedRegsFromInstance
 (
-mozilla
-:
-:
-Nothing
-(
-)
 )
 ;
 #
