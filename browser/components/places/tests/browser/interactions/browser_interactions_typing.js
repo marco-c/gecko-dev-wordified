@@ -139,6 +139,8 @@ content
 /
 test
 /
+browser
+-
 contextMenu
 /
 subtst_contextmenu_input
