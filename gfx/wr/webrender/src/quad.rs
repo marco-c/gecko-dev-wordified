@@ -4086,7 +4086,6 @@ map_to_device_rect
 clip_chain
 .
 pic_coverage_rect
-spatial_tree
 )
 }
 ;
