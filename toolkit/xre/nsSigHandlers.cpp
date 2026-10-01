@@ -148,6 +148,13 @@ nsXULAppAPI
 h
 "
 #
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
+#
 if
 defined
 (

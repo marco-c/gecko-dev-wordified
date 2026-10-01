@@ -179,6 +179,13 @@ NS_ASSERTION
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsISupportsUtils
 .
 h
