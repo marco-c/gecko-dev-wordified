@@ -4131,7 +4131,7 @@ class
 AutoLockBufferAllocator
 ;
 void
-markNurseryOwnedAlloc
+promoteNurseryOwnedAlloc
 (
 void
 *
@@ -4260,7 +4260,7 @@ inGC
 )
 ;
 void
-markSmallNurseryOwnedBuffer
+promoteSmallNurseryOwnedBuffer
 (
 void
 *
@@ -4708,7 +4708,7 @@ alloc
 const
 ;
 void
-markMediumNurseryOwnedBuffer
+promoteMediumNurseryOwnedBuffer
 (
 void
 *
@@ -4986,7 +4986,7 @@ lock
 )
 ;
 void
-markLargeNurseryOwnedBuffer
+promoteLargeNurseryOwnedBuffer
 (
 LargeBuffer
 *
