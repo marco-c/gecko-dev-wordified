@@ -22620,6 +22620,8 @@ callee
 fastCallOffset
 &
 slowCallOffset
+nullptr
+nullptr
 )
 ;
 /

@@ -76860,6 +76860,8 @@ wasmReturnCallRef
 desc
 callee
 retCallInfo
+nullptr
+nullptr
 )
 ;
 /
@@ -76930,6 +76932,8 @@ callee
 retOffset
 &
 secondRetOffset
+nullptr
+nullptr
 )
 ;
 reloadInstance
