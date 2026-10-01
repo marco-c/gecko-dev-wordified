@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsCRTGlue
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

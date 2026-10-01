@@ -192,7 +192,7 @@ nsresult
 *
 aError
 =
-nullptr
+0
 )
 {
 return
@@ -227,7 +227,7 @@ nsresult
 *
 aResult
 =
-nullptr
+0
 )
 ;
 extern
@@ -241,7 +241,7 @@ nsresult
 *
 aResult
 =
-nullptr
+0
 )
 ;
 /
@@ -347,7 +347,7 @@ nsresult
 *
 aError
 =
-nullptr
+0
 )
 {
 return
@@ -375,7 +375,7 @@ nsresult
 *
 aError
 =
-nullptr
+0
 )
 {
 return
@@ -400,7 +400,7 @@ nsresult
 *
 aError
 =
-nullptr
+0
 )
 {
 /

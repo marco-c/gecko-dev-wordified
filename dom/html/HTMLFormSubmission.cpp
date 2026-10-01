@@ -4428,10 +4428,6 @@ HTMLFormSubmission
 )
 ;
 }
-MOZ_COUNTED_DTOR_VIRTUAL_DEF
-(
-HTMLFormSubmission
-)
 Element
 *
 HTMLFormSubmission

@@ -1437,7 +1437,7 @@ aStr
 ;
 }
 return
-nullptr
+0
 ;
 }
 }

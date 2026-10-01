@@ -605,6 +605,12 @@ nsTDependentSubstring
 =
 default
 ;
+private
+:
+/
+/
+NOT
+USED
 void
 operator
 =

@@ -81,13 +81,6 @@ DefaultHasher
 HashNumber
 HashString
 }
-#
-include
-"
-nsTString
-.
-h
-"
 namespace
 mozilla
 {

@@ -62,9 +62,6 @@ nsCategoryManagerUtils_h_
 #
 define
 nsCategoryManagerUtils_h_
-class
-nsISupports
-;
 void
 NS_CreateServicesFromCategory
 (
