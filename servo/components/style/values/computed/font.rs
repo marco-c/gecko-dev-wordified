@@ -6393,7 +6393,7 @@ settings_list
 :
 &
 mut
-ThinVec
+Vec
 <
 T
 >
@@ -6587,7 +6587,7 @@ collect
 :
 :
 <
-ThinVec
+Vec
 <
 _
 >
@@ -6605,6 +6605,10 @@ v
 FontSettings
 (
 v
+.
+into_boxed_slice
+(
+)
 )
 }
 fn

@@ -9525,7 +9525,7 @@ const
 return
 aIter
 .
-tag
+mTag
 =
 =
 aTag
@@ -9556,7 +9556,7 @@ IndexOf
 (
 aSetting
 .
-tag
+mTag
 0
 TagEquals
 (
@@ -9588,11 +9588,11 @@ aResult
 index
 ]
 .
-value
+mValue
 =
 aSetting
 .
-value
+mValue
 ;
 }
 }

@@ -1425,7 +1425,7 @@ setting
 kerning
 setting
 .
-tag
+mTag
 =
 aVertical
 ?
@@ -1474,7 +1474,7 @@ None
 :
 setting
 .
-value
+mValue
 =
 0
 ;
@@ -1498,7 +1498,7 @@ Normal
 :
 setting
 .
-value
+mValue
 =
 1
 ;
@@ -1605,13 +1605,13 @@ IsHistoricalForms
 {
 setting
 .
-value
+mValue
 =
 1
 ;
 setting
 .
-tag
+mTag
 =
 TRUETYPE_TAG
 (
@@ -1768,7 +1768,7 @@ clig
 also
 setting
 .
-tag
+mTag
 =
 TRUETYPE_TAG
 (
@@ -1788,7 +1788,7 @@ g
 ;
 setting
 .
-value
+mValue
 =
 1
 ;
@@ -1826,7 +1826,7 @@ clig
 also
 setting
 .
-tag
+mTag
 =
 TRUETYPE_TAG
 (
@@ -1846,7 +1846,7 @@ g
 ;
 setting
 .
-value
+mValue
 =
 0
 ;
@@ -1886,13 +1886,13 @@ calt
 clig
 setting
 .
-value
+mValue
 =
 0
 ;
 setting
 .
-tag
+mTag
 =
 TRUETYPE_TAG
 (
@@ -1922,7 +1922,7 @@ setting
 ;
 setting
 .
-tag
+mTag
 =
 TRUETYPE_TAG
 (
@@ -1952,7 +1952,7 @@ setting
 ;
 setting
 .
-tag
+mTag
 =
 TRUETYPE_TAG
 (
@@ -1982,7 +1982,7 @@ setting
 ;
 setting
 .
-tag
+mTag
 =
 TRUETYPE_TAG
 (
@@ -2060,7 +2060,7 @@ variantPosition
 width
 setting
 .
-tag
+mTag
 =
 FontFeatureTagForVariantWidth
 (
@@ -2071,12 +2071,12 @@ if
 (
 setting
 .
-tag
+mTag
 )
 {
 setting
 .
-value
+mValue
 =
 1
 ;
@@ -2370,7 +2370,7 @@ const
 return
 aVariation
 .
-tag
+mTag
 =
 =
 aTag
