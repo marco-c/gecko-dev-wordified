@@ -4375,10 +4375,6 @@ testloader
 TestLoader
 (
         
-logger
-=
-logger
-        
 test_manifests
         
 [
