@@ -2292,6 +2292,16 @@ handleNaN
 is
 true
 .
+Handle
+zeroes
+specially
+if
+/
+/
+handleZero
+is
+true
+.
 void
 minMaxDouble
 (
@@ -2301,6 +2311,8 @@ FloatRegister
 other
 bool
 handleNaN
+bool
+handleZero
 bool
 isMax
 )
@@ -2314,6 +2326,8 @@ FloatRegister
 other
 bool
 handleNaN
+bool
+handleZero
 bool
 isMax
 )
