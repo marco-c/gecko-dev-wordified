@@ -3499,26 +3499,6 @@ WebRTC
 -
 Bwe
 -
-ReceiveTimeFix
-'
-               
-42234228
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
-Bwe
--
 ReceiverLimitCapsOnly
 '
                
@@ -5194,7 +5174,7 @@ str
 \
     
 '
-fa94f997a8ae8fc462a803da10778c58e8c2cbeb
+6955b741248c753df09d864c23bbfc72d0476f28
 '
 REGISTERED_FIELD_TRIALS
 :
