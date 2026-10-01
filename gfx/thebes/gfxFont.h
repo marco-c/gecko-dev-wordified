@@ -1235,7 +1235,10 @@ sub
 /
 superscript
 variant
-uint8_t
+mozilla
+:
+:
+StyleFontVariantPosition
 variantSubSuper
 :
 2
@@ -11269,7 +11272,10 @@ substitutions
 bool
 SupportsSubSuperscript
 (
-uint32_t
+mozilla
+:
+:
+StyleFontVariantPosition
 aSubSuperscript
 const
 uint8_t
@@ -11284,7 +11290,10 @@ aRunScript
 bool
 SupportsSubSuperscript
 (
-uint32_t
+mozilla
+:
+:
+StyleFontVariantPosition
 aSubSuperscript
 const
 char16_t
