@@ -328,7 +328,7 @@ await
 settingControlRenders
 (
 "
-timer
+focusTimer
 "
 win
 )
@@ -547,7 +547,7 @@ await
 settingControlRenders
 (
 "
-timer
+focusTimer
 "
 win
 )
