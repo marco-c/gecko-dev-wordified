@@ -1943,6 +1943,17 @@ aEvent
 )
 ;
 void
+PerformHapticFeedback
+(
+mozilla
+:
+:
+HapticFeedbackType
+aType
+)
+override
+;
+void
 DispatchDoubleTapGesture
 (
 mozilla

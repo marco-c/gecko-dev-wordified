@@ -525,6 +525,9 @@ LongPress
 TextHandleMove
 =
 2
+ThresholdCrossing
+=
+3
 End
 /
 /
