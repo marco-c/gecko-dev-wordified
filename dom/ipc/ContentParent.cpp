@@ -4083,6 +4083,8 @@ locked
 processes
 )
 .
+StaticAutoPtr
+<
 nsClassHashtable
 <
 nsGenericHashKey
@@ -4095,7 +4097,7 @@ ContentParent
 *
 >
 >
-*
+>
 ContentParent
 :
 :
@@ -12225,9 +12227,6 @@ IsEmpty
 )
 )
 {
-delete
-sBrowserContentParents
-;
 sBrowserContentParents
 =
 nullptr

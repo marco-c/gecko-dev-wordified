@@ -4580,6 +4580,11 @@ APIs
 *
 /
 static
+mozilla
+:
+:
+StaticAutoPtr
+<
 nsClassHashtable
 <
 nsGenericHashKey
@@ -4592,7 +4597,7 @@ ContentParent
 *
 >
 >
-*
+>
 sBrowserContentParents
 ;
 static
