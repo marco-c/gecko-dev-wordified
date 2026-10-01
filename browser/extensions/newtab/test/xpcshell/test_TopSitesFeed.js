@@ -28125,6 +28125,9 @@ getState
 Prefs
 .
 values
+"
+duckduckgo
+"
 )
 )
 ;
