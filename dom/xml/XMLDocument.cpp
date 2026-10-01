@@ -2111,8 +2111,6 @@ XMLDocument
 :
 EndLoad
 (
-bool
-aFireDOMContentLoadedSync
 )
 {
 mChannelIsPending
@@ -2128,7 +2126,6 @@ Document
 :
 EndLoad
 (
-aFireDOMContentLoadedSync
 )
 ;
 if
