@@ -10859,7 +10859,7 @@ loadResult
 mBrowsingContext
 -
 >
-CheckSandboxFlags
+EnsureSourceSandboxAllowsNavigation
 (
 loadResult
 .

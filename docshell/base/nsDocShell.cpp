@@ -55748,7 +55748,7 @@ MOZ_TRY
 mBrowsingContext
 -
 >
-CheckSandboxFlags
+EnsureSourceSandboxAllowsNavigation
 (
 aLoadState
 )
