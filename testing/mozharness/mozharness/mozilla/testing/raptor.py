@@ -118,6 +118,14 @@ mozharness
 .
 base
 .
+python
+import
+perfherder_schema_path
+from
+mozharness
+.
+base
+.
 vcs
 .
 vcsbase
@@ -11435,6 +11443,17 @@ EXTERNALTOOLSPATH
 ]
 =
 external_tools_path
+        
+env
+[
+"
+PERFHERDER_SCHEMA_PATH
+"
+]
+=
+perfherder_schema_path
+(
+)
         
 #
 xpcshell
