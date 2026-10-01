@@ -3189,6 +3189,8 @@ None
 clips
 quad_transform
 frame_context
+.
+spatial_tree
 pic_context
 cmd_buffer_targets
 frame_state

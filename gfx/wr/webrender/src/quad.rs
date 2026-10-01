@@ -181,7 +181,6 @@ frame_builder
 :
 :
 {
-FrameBuildingContext
 FrameBuildingState
 PictureContext
 }
@@ -1679,10 +1678,10 @@ transform
 &
 mut
 QuadTransformState
-frame_context
+spatial_tree
 :
 &
-FrameBuildingContext
+SpatialTree
 pic_context
 :
 &
@@ -1710,10 +1709,6 @@ pattern_ctx
 =
 PatternBuilderContext
 {
-spatial_tree
-:
-frame_context
-.
 spatial_tree
 prim_origin
 :
@@ -1789,8 +1784,6 @@ transform
 is_2d_scale_offset
 (
 )
-pattern_ctx
-.
 spatial_tree
 )
 }
@@ -1804,8 +1797,6 @@ desc
 cache_key
 clips
 transform
-frame_context
-.
 spatial_tree
 pic_context
 targets
@@ -1848,10 +1839,10 @@ transform
 &
 mut
 QuadTransformState
-frame_context
+spatial_tree
 :
 &
-FrameBuildingContext
+SpatialTree
 pic_context
 :
 &
@@ -1879,10 +1870,6 @@ pattern_ctx
 =
 PatternBuilderContext
 {
-spatial_tree
-:
-frame_context
-.
 spatial_tree
 prim_origin
 :
@@ -2009,8 +1996,6 @@ transform
 is_2d_scale_offset
 (
 )
-pattern_ctx
-.
 spatial_tree
 )
 }
@@ -2181,8 +2166,6 @@ stretched_desc
 cache_key
 clips
 transform
-frame_context
-.
 spatial_tree
 pic_context
 targets
@@ -2518,8 +2501,6 @@ empty
 )
 cache_key
 None
-frame_context
-.
 spatial_tree
 frame_state
 )
@@ -2630,8 +2611,6 @@ desc
 None
 clips
 transform
-frame_context
-.
 spatial_tree
 pic_context
 targets
@@ -2680,8 +2659,6 @@ prim_spatial_node_index
 desc
 .
 bounds
-frame_context
-.
 spatial_tree
 )
 ;
@@ -2891,8 +2868,6 @@ reason
 None
 clips
 transform
-frame_context
-.
 spatial_tree
 pic_context
 targets
@@ -2931,10 +2906,10 @@ transform
 &
 mut
 QuadTransformState
-frame_context
+spatial_tree
 :
 &
-FrameBuildingContext
+SpatialTree
 pic_context
 :
 &
@@ -2962,10 +2937,6 @@ pattern_ctx
 =
 PatternBuilderContext
 {
-spatial_tree
-:
-frame_context
-.
 spatial_tree
 prim_origin
 :
@@ -3025,8 +2996,6 @@ transform
 is_2d_scale_offset
 (
 )
-pattern_ctx
-.
 spatial_tree
 )
 ;
@@ -3431,9 +3400,6 @@ empty
 &
 None
 None
-&
-frame_context
-.
 spatial_tree
 frame_state
 )
@@ -3516,8 +3482,6 @@ side
 None
 clips
 transform
-frame_context
-.
 spatial_tree
 pic_context
 targets
