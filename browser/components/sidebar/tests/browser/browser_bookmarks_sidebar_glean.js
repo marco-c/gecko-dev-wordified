@@ -299,6 +299,18 @@ in
 the
 revamped
 sidebar
+wait
+for
+the
+test
+folder
+*
+to
+appear
+in
+component
+.
+bookmarks
 and
 return
 the
@@ -345,7 +357,7 @@ window
 /
 async
 function
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 {
@@ -1229,7 +1241,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1411,7 +1423,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1644,7 +1656,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -1918,7 +1930,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2059,7 +2071,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2245,7 +2257,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2302,7 +2314,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2537,7 +2549,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2821,7 +2833,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -2890,7 +2902,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -3057,7 +3069,7 @@ component
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;
@@ -3236,7 +3248,7 @@ contentWindow
 }
 =
 await
-showBookmarksSidebar
+showBookmarksSidebarWithTestFolder
 (
 )
 ;

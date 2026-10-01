@@ -60,6 +60,7 @@ mjs
 ;
 const
 {
+showBookmarksSidebar
 openFolder
 openToolbarFolder
 findBookmarkItemByGuid
@@ -1789,6 +1790,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 ok
@@ -1866,6 +1868,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -2030,6 +2033,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -2287,6 +2291,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 ok
@@ -2595,6 +2600,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 EventUtils
@@ -2752,6 +2758,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -2923,6 +2930,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -3157,6 +3165,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -3351,6 +3360,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -3721,6 +3731,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 info
@@ -4415,6 +4426,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -4769,6 +4781,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -5077,6 +5090,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -5359,6 +5373,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -5572,6 +5587,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -5844,6 +5860,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -6019,6 +6036,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -6350,6 +6368,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -6661,6 +6680,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -6915,6 +6935,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -7056,6 +7077,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -7322,6 +7344,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -7642,6 +7665,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -7906,6 +7930,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -8227,6 +8252,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -8562,6 +8588,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -8831,6 +8858,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -9417,6 +9445,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -10012,6 +10041,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -10492,6 +10522,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -11389,6 +11420,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -12643,6 +12675,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -12954,6 +12987,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -13070,6 +13104,7 @@ component
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const

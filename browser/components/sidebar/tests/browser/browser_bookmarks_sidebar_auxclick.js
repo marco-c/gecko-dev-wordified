@@ -33,6 +33,15 @@ strict
 "
 ;
 const
+{
+showBookmarksSidebar
+}
+=
+SidebarTestUtils
+.
+bookmarks
+;
+const
 FIRST_URL
 =
 "
@@ -159,6 +168,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
@@ -495,6 +505,7 @@ contentWindow
 await
 showBookmarksSidebar
 (
+window
 )
 ;
 const
