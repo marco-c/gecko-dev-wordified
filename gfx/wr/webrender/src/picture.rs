@@ -13228,12 +13228,6 @@ resource_cache
 .
 create_compositor_surface
 (
-DeviceIntPoint
-:
-:
-zero
-(
-)
 tile_cache
 .
 current_tile_size
@@ -13249,12 +13243,6 @@ resource_cache
 .
 create_compositor_surface
 (
-DeviceIntPoint
-:
-:
-zero
-(
-)
 tile_cache
 .
 current_tile_size

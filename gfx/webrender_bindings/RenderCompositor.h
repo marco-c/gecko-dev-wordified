@@ -897,11 +897,6 @@ aId
 wr
 :
 :
-DeviceIntPoint
-aVirtualOffset
-wr
-:
-:
 DeviceIntSize
 aTileSize
 bool

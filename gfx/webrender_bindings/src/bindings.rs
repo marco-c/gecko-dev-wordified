@@ -8649,9 +8649,6 @@ c_void
 id
 :
 NativeSurfaceId
-virtual_offset
-:
-DeviceIntPoint
 tile_size
 :
 DeviceIntSize
@@ -9094,9 +9091,6 @@ self
 id
 :
 NativeSurfaceId
-virtual_offset
-:
-DeviceIntPoint
 tile_size
 :
 DeviceIntSize
@@ -9113,7 +9107,6 @@ self
 .
 0
 id
-virtual_offset
 tile_size
 is_opaque
 )
