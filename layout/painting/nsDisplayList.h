@@ -38790,7 +38790,13 @@ mFont
 smoothing
 =
 =
-NS_FONT_SMOOTHING_GRAYSCALE
+mozilla
+:
+:
+StyleFontSmoothing
+:
+:
+Grayscale
 )
 {
 return

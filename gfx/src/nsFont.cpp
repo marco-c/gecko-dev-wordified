@@ -2286,7 +2286,10 @@ if
 smoothing
 =
 =
-NS_FONT_SMOOTHING_GRAYSCALE
+StyleFontSmoothing
+:
+:
+Grayscale
 )
 {
 aStyle
