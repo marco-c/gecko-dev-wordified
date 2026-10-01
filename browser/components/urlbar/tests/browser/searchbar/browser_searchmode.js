@@ -250,6 +250,7 @@ source
 }
 )
 ;
+await
 SearchbarTestUtils
 .
 exitSearchMode

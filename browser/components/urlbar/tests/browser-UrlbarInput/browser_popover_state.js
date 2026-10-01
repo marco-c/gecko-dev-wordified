@@ -407,6 +407,7 @@ Assert
 .
 ok
 (
+!
 gURLBar
 .
 view
@@ -436,6 +437,7 @@ Assert
 .
 ok
 (
+!
 gURLBar
 .
 panel
@@ -818,6 +820,7 @@ Assert
 .
 ok
 (
+!
 gURLBar
 .
 view
@@ -847,6 +850,7 @@ Assert
 .
 ok
 (
+!
 gURLBar
 .
 panel
