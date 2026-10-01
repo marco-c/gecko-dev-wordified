@@ -54,8 +54,6 @@ MPL
 0
 /
 .
-import
-requests
 from
 mozbuild
 .
@@ -137,7 +135,9 @@ path
         
 req
 =
-requests
+self
+.
+session
 .
 get
 (

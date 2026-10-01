@@ -56,8 +56,6 @@ MPL
 .
 import
 base64
-import
-requests
 from
 mozbuild
 .
@@ -138,7 +136,9 @@ JSON
         
 req
 =
-requests
+self
+.
+session
 .
 get
 (

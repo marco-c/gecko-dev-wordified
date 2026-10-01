@@ -54,8 +54,6 @@ MPL
 0
 /
 .
-import
-requests
 from
 mozbuild
 .
@@ -157,7 +155,9 @@ commits
         
 req
 =
-requests
+self
+.
+session
 .
 get
 (

@@ -82,8 +82,6 @@ import
 urlparse
 import
 mozfile
-import
-requests
 from
 mozbuild
 .
@@ -1073,7 +1071,9 @@ str
             
 response
 =
-requests
+self
+.
+session
 .
 get
 (
@@ -1223,7 +1223,9 @@ tmpfile
                 
 req
 =
-requests
+self
+.
+session
 .
 get
 (
