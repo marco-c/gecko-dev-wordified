@@ -1344,6 +1344,16 @@ use
 self
 :
 :
+svg
+:
+:
+StrokeLinecap
+;
+pub
+use
+self
+:
+:
 text
 :
 :
