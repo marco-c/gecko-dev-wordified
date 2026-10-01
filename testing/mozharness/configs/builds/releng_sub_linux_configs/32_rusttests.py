@@ -214,6 +214,24 @@ TINDERBOX_OUTPUT
 }
     
 "
+app_name
+"
+:
+"
+tools
+/
+rusttests
+"
+    
+"
+mozconfig_variant
+"
+:
+"
+rusttests
+"
+    
+"
 disable_package_metrics
 "
 :

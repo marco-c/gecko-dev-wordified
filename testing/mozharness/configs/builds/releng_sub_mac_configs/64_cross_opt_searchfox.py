@@ -258,4 +258,14 @@ bin
 "
     
 }
+    
+"
+mozconfig_variant
+"
+:
+"
+opt
+-
+searchfox
+"
 }

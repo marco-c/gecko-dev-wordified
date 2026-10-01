@@ -230,6 +230,14 @@ builds
     
 }
     
+"
+mozconfig_variant
+"
+:
+"
+debug
+"
+    
 #
 #
 #

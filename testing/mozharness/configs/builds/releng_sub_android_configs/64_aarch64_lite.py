@@ -58,6 +58,16 @@ config
 {
     
 "
+mozconfig_platform
+"
+:
+"
+android
+-
+aarch64
+"
+    
+"
 extra_mozconfig_content
 "
 :
