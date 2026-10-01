@@ -5433,6 +5433,8 @@ stored
 block
 lengths
                 
+fname
+=
 bundle
 .
 extract
@@ -5466,25 +5468,6 @@ python
 org
 /
 issue15795
-                
-fname
-=
-os
-.
-path
-.
-realpath
-(
-os
-.
-path
-.
-join
-(
-extract_to
-entry
-)
-)
                 
 try
 :
