@@ -1747,11 +1747,8 @@ annotation
 *
 *
 param
-aId
+aTargetPid
 The
-ID
-of
-the
 target
 process
 for
@@ -1822,8 +1819,8 @@ failure
 bool
 CreateMinidumpsAndPair
 (
-GeckoChildID
-aId
+ProcessHandle
+aTargetPid
 ThreadId
 aTargetBlamedThread
 const

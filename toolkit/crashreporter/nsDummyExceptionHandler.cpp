@@ -1273,8 +1273,8 @@ false
 bool
 CreateMinidumpsAndPair
 (
-GeckoChildID
-aId
+ProcessHandle
+aTargetPid
 ThreadId
 aTargetBlamedThread
 const
