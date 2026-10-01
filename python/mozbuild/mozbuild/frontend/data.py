@@ -8514,34 +8514,6 @@ holding
 the
 verbatim
 notice
-named
-either
-    
-by
-the
-declaration
-'
-s
-text
-field
-or
-for
-a
-vendored
-library
-by
-the
-    
-origin
-.
-license
--
-file
-of
-its
-moz
-.
-yaml
 .
 paths
 are
@@ -8652,10 +8624,6 @@ url
 "
 paths
 "
-        
-"
-subcomponent
-"
     
 )
     
@@ -8689,10 +8657,6 @@ paths
 =
 (
 )
-        
-subcomponent
-=
-False
     
 )
 :
@@ -8738,7 +8702,6 @@ text_path
 raise
 LicenseError
 (
-                
 f
 '
 LICENSES
@@ -8753,30 +8716,8 @@ requires
 a
 text
 file
-:
-set
-text
-or
-declare
+.
 '
-                
-"
-origin
-.
-license
--
-file
-in
-the
-moz
-.
-yaml
-covering
-this
-directory
-.
-"
-            
 )
         
 if
@@ -8805,9 +8746,10 @@ id
 }
 "
 ]
+.
+text
 names
 a
-text
 file
 that
 does
@@ -8865,12 +8807,6 @@ list
 (
 paths
 )
-        
-self
-.
-subcomponent
-=
-subcomponent
     
 def
 asdict
