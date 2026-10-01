@@ -1346,7 +1346,7 @@ map_or
 messages
 :
 :
-TransferMinidumpReply
+MinidumpReply
 :
 :
 new
@@ -1362,10 +1362,11 @@ None
 |
 cr
 |
+{
 messages
 :
 :
-TransferMinidumpReply
+MinidumpReply
 :
 :
 new
@@ -1377,6 +1378,7 @@ cr
 .
 error
 )
+}
 )
 ;
 connector
