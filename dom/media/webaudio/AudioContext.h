@@ -1970,6 +1970,16 @@ aNode
 )
 ;
 void
+QueueOnStateChanged
+(
+void
+*
+aPromise
+AudioContextState
+aNewState
+)
+;
+void
 OnStateChanged
 (
 void
