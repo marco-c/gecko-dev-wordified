@@ -208,16 +208,6 @@ uint8_t
 Inset
 }
 ;
-enum
-class
-StyleColumnSpan
-:
-uint8_t
-{
-None
-All
-}
-;
 /
 /
 Define
