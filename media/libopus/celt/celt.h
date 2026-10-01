@@ -1475,6 +1475,8 @@ celt_sig
 mem
 int
 accum
+int
+arch
 )
 ;
 void
