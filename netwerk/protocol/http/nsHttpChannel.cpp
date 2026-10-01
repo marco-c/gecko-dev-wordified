@@ -14564,6 +14564,16 @@ SetIsForWebTransport
 mWebTransportSessionEventListener
 )
 ;
+mTransaction
+-
+>
+SetRequestBodyIsStreaming
+(
+LoadUploadStreamIsStreaming
+(
+)
+)
+;
 RefPtr
 <
 mozilla

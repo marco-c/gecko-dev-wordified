@@ -17291,6 +17291,16 @@ optionalCorsPreflightArgs
 ;
 openArgs
 .
+uploadStreamIsStreaming
+(
+)
+=
+LoadUploadStreamIsStreaming
+(
+)
+;
+openArgs
+.
 priority
 (
 )
