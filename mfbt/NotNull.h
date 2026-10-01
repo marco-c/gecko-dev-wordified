@@ -744,6 +744,17 @@ template
 typename
 U
 >
+requires
+(
+std
+:
+:
+is_convertible_v
+<
+U
+T
+>
+)
 explicit
 CopyablePtr
 (

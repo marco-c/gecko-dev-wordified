@@ -99,6 +99,11 @@ size_t
 #
 include
 <
+algorithm
+>
+#
+include
+<
 new
 >
 /
@@ -110,11 +115,6 @@ new
 include
 <
 utility
->
-#
-include
-<
-algorithm
 >
 #
 include
@@ -1109,8 +1109,6 @@ T2
 )
 ;
 }
-private
-:
 MaybeOneOf
 (
 const

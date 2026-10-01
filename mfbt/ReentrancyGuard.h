@@ -249,8 +249,6 @@ default
 )
 #
 endif
-private
-:
 ReentrancyGuard
 (
 const
