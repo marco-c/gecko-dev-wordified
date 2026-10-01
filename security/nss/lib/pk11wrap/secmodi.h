@@ -1282,6 +1282,15 @@ CERTCertificate
 cert
 )
 ;
+SECItem
+*
+pk11_mkcertKeyIDFromDER
+(
+SECItem
+*
+certDER
+)
+;
 SEC_END_PROTOS
 #
 endif

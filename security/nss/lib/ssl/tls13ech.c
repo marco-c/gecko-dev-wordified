@@ -2522,7 +2522,7 @@ SSL_BUFFER_EMPTY
 PRUint8
 tmpBuf
 [
-66
+133
 ]
 ;
 /
@@ -2535,8 +2535,9 @@ EC
 public
 key
 currently
-only
-X25519
+up
+to
+P521
 .
 unsigned
 int

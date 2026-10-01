@@ -901,8 +901,7 @@ arena
 =
 NULL
 )
-crv
-=
+return
 CKR_HOST_MEMORY
 ;
 crv
@@ -1368,8 +1367,7 @@ arena
 =
 NULL
 )
-crv
-=
+return
 CKR_HOST_MEMORY
 ;
 /
@@ -2007,8 +2005,7 @@ arena
 =
 NULL
 )
-crv
-=
+return
 CKR_HOST_MEMORY
 ;
 /
