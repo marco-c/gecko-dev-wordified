@@ -9081,28 +9081,18 @@ go
 before
 the
 test
-extension
             
 #
+extension
 so
 the
-name
+profile
+is
 still
-ends
-in
-e
-.
-g
-.
-"
-.
-js
-.
-json
-"
-as
-Treeherder
-expects
+named
+after
+the
+test
 .
             
 #
