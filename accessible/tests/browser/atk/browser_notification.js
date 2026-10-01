@@ -374,7 +374,7 @@ announcement
 "
 "
 {
-DEFAULT_CONTENT_DOC_BODY_ID
+DEFAULT_CONTENT_DOC_ID
 }
 "
 )

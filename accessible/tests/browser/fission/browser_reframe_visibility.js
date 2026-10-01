@@ -391,7 +391,7 @@ ok
 findAccessibleChildByID
 (
 contentDocAcc
-DEFAULT_IFRAME_DOC_BODY_ID
+DEFAULT_IFRAME_DOC_ID
 )
 "
 No
@@ -486,7 +486,7 @@ id
 =
 =
 =
-DEFAULT_IFRAME_DOC_BODY_ID
+DEFAULT_IFRAME_DOC_ID
 &
 &
 scEvent

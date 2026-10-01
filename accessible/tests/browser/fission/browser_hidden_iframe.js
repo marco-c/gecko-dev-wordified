@@ -190,7 +190,7 @@ iframeDocAcc
 findAccessibleChildByID
 (
 contentDocAcc
-DEFAULT_IFRAME_DOC_BODY_ID
+DEFAULT_IFRAME_DOC_ID
 )
 ;
 ok
@@ -366,7 +366,7 @@ return
 findAccessibleChildByID
 (
 contentDocAcc
-DEFAULT_IFRAME_DOC_BODY_ID
+DEFAULT_IFRAME_DOC_ID
 )
 ;
 }
