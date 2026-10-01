@@ -2166,6 +2166,7 @@ channel_or_error
 MoveValue
 (
 )
+channel_id
 ready_to_send
 =
 data_channel_transport_
@@ -2193,6 +2194,7 @@ move
 channel
 )
 ready_to_send
+channel_id
 )
 ;
 }
@@ -2241,6 +2243,8 @@ SctpDataChannel
 channel
 bool
 ready_to_send
+int
+id
 )
 {
 channel_usage_
@@ -2282,6 +2286,7 @@ OnDataChannel
 (
 *
 proxy
+id
 )
 ;
 }
