@@ -812,7 +812,7 @@ dependent
 axis
 .
 *
-Plese
+Please
 see
 the
 definition
