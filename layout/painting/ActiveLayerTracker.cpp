@@ -1485,6 +1485,13 @@ Style
 EffectiveZoom
 (
 )
+nsStyleTransformMatrix
+:
+:
+Zoomed
+:
+:
+Yes
 )
 ;
 }
