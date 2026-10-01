@@ -1175,7 +1175,7 @@ DevicePath
 let
 offset
 =
-memoffset
+mem
 :
 :
 offset_of
