@@ -240,7 +240,6 @@ CowRcStr
 Parser
 as
 CssParser
-SourcePosition
 ToCss
 match_ignore_ascii_case
 serialize_identifier
@@ -4595,8 +4594,6 @@ CssParser
 <
 '
 i
-'
-_
 >
 after_part
 :

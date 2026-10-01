@@ -3531,7 +3531,6 @@ prop
 camel_case
 }
 (
-ref
 value
 )
 =

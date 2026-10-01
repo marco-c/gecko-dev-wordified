@@ -7209,9 +7209,10 @@ true
 return
 Err
 (
-input
-.
-new_custom_error
+ParseError
+:
+:
+custom
 (
 StyleParseErrorKind
 :
@@ -7428,9 +7429,10 @@ true
 return
 Err
 (
-input
-.
-new_custom_error
+ParseError
+:
+:
+custom
 (
 StyleParseErrorKind
 :
