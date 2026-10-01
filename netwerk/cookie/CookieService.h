@@ -500,9 +500,8 @@ const
 nsACString
 &
 aCookieHeader
-const
-int
-aNumOfCookies
+bool
+aHasExistingCookies
 const
 OriginAttributes
 &
