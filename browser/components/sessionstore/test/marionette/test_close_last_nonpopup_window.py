@@ -235,6 +235,8 @@ self
 .
 open_window_with_extra_options
 (
+{
+}
 features
 =
 POPUP_FEATURES
@@ -368,6 +370,8 @@ self
 .
 open_window_with_extra_options
 (
+{
+}
 )
         
 self
