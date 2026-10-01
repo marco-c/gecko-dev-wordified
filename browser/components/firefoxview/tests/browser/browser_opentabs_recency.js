@@ -481,6 +481,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 browser_minimize

@@ -57,6 +57,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 head
