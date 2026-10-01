@@ -1704,9 +1704,6 @@ querySelector
 #
 weather
 -
-section
-moz
--
 toggle
 "
 )
@@ -1762,9 +1759,6 @@ querySelector
 "
 #
 weather
--
-section
-moz
 -
 toggle
 "
