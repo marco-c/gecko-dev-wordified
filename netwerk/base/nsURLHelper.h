@@ -105,7 +105,7 @@ class
 nsIFile
 ;
 class
-nsBaseURLParser
+nsIURLParser
 ;
 /
 /
@@ -299,7 +299,7 @@ parsers
 /
 already_AddRefed
 <
-nsBaseURLParser
+nsIURLParser
 >
 net_GetAuthURLParser
 (
@@ -307,7 +307,7 @@ net_GetAuthURLParser
 ;
 already_AddRefed
 <
-nsBaseURLParser
+nsIURLParser
 >
 net_GetNoAuthURLParser
 (
@@ -315,7 +315,7 @@ net_GetNoAuthURLParser
 ;
 already_AddRefed
 <
-nsBaseURLParser
+nsIURLParser
 >
 net_GetStdURLParser
 (
