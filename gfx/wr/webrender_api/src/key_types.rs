@@ -700,6 +700,7 @@ key
 derive
 (
 Debug
+Copy
 Clone
 Eq
 MallocSizeOf
