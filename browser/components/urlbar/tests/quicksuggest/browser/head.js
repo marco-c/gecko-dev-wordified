@@ -3644,6 +3644,12 @@ contextId
 "
 suggestionId
 "
+"
+experimentName
+"
+"
+experimentBranch
+"
 ]
 ;
 Assert
