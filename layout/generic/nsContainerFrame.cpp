@@ -14181,7 +14181,7 @@ stretchBSize
 nsLayoutUtils
 :
 :
-ComputeStretchBSize
+ComputeStretchSize
 (
 aCBSize
 .
