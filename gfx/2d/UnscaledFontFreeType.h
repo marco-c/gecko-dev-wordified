@@ -333,6 +333,9 @@ aInstanceData
 uint32_t
 aInstanceDataLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -364,6 +367,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -408,6 +414,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *
@@ -421,6 +430,9 @@ void
 ApplyVariationsToFace
 (
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -589,6 +601,9 @@ aInstanceData
 uint32_t
 aInstanceDataLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -620,6 +635,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations

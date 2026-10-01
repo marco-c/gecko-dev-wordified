@@ -297,6 +297,9 @@ aInstanceData
 uint32_t
 aInstanceDataLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -328,6 +331,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -351,6 +357,9 @@ aCTAxesCache
 uint32_t
 aVariationCount
 const
+wr
+:
+:
 FontVariation
 *
 aVariations

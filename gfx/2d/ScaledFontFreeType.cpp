@@ -394,6 +394,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 variations
@@ -488,6 +491,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *

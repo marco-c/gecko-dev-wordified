@@ -7393,6 +7393,9 @@ aData
 uint32_t
 aSize
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -7533,6 +7536,9 @@ aData
 uint32_t
 aSize
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -7563,6 +7569,9 @@ mInstanceData
 ;
 RecordedEventArray
 <
+wr
+:
+:
 FontVariation
 >
 mVariations
@@ -23072,6 +23081,9 @@ aData
 uint32_t
 aSize
 const
+wr
+:
+:
 FontVariation
 *
 aVariations

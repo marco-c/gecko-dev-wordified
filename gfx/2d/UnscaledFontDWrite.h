@@ -83,8 +83,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 class
@@ -202,6 +202,9 @@ aInstanceData
 uint32_t
 aInstanceDataLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -233,6 +236,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -309,12 +315,10 @@ mFontFileName
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx
 #
 endif
 /

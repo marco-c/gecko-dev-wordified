@@ -1936,6 +1936,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 variations
@@ -2024,6 +2027,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *
@@ -2599,6 +2605,9 @@ aInstanceData
 uint32_t
 aInstanceDataLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -2839,6 +2848,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations

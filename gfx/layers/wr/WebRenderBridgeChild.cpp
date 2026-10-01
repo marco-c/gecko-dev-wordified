@@ -1617,6 +1617,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 variations
@@ -1665,6 +1668,9 @@ nullptr
 Range
 <
 const
+wr
+:
+:
 FontVariation
 >
 (

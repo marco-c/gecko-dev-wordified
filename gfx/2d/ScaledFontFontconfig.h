@@ -222,6 +222,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *

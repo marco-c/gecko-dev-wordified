@@ -75,13 +75,6 @@ vector
 #
 include
 "
-FontVariation
-.
-h
-"
-#
-include
-"
 Matrix
 .
 h
@@ -456,6 +449,9 @@ wr
 {
 struct
 FontInstanceOptions
+;
+struct
+FontVariation
 ;
 struct
 FontInstancePlatformOptions
@@ -8740,6 +8736,9 @@ aInstanceData
 uint32_t
 aInstanceDataLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -8775,6 +8774,9 @@ FontInstancePlatformOptions
 *
 aPlatformOptions
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -9070,6 +9072,9 @@ aData
 uint32_t
 aLength
 const
+wr
+:
+:
 FontVariation
 *
 aVariations
@@ -9120,6 +9125,9 @@ std
 :
 vector
 <
+wr
+:
+:
 FontVariation
 >
 *
