@@ -2025,7 +2025,7 @@ if
 value_format1
 &
 &
-value_record2_size
+value_record1_size
 &
 &
 !
