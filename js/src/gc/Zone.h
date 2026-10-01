@@ -4802,17 +4802,6 @@ return
 }
 ;
 }
-void
-maybeDiscardJitCode
-(
-JS
-:
-:
-GCContext
-*
-gcx
-)
-;
 /
 /
 Discard
