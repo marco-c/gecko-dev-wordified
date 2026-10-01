@@ -678,15 +678,6 @@ decoding
 ;
 }
 ;
-struct
-NSSPrivateKeyStr
-;
-struct
-NSSPublicKeyStr
-;
-struct
-NSSSymmetricKeyStr
-;
 typedef
 struct
 nssTDCertificateCacheStr

@@ -100,6 +100,13 @@ defined
 (
 __aarch64__
 )
+&
+&
+!
+defined
+(
+_M_ARM64
+)
 typedef
 PRUint64
 SHA_HW_t
