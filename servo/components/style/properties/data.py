@@ -4792,6 +4792,10 @@ in
 {
                 
 "
+WindowShadow
+"
+                
+"
 WindowDragging
 "
                 
