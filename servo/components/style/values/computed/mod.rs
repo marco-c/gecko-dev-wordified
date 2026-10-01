@@ -896,6 +896,16 @@ use
 self
 :
 :
+effects
+:
+:
+Blend
+;
+pub
+use
+self
+:
+:
 flex
 :
 :
