@@ -16623,9 +16623,6 @@ APIs
 bool
 InitMetricsFromSfntTables
 (
-Metrics
-&
-aMetrics
 )
 ;
 #
@@ -16667,9 +16664,6 @@ font
 bool
 InitMetricsFromSkrifa
 (
-Metrics
-&
-aMetrics
 )
 ;
 #
@@ -16696,9 +16690,6 @@ code
 void
 CalculateDerivedMetrics
 (
-Metrics
-&
-aMetrics
 )
 ;
 /
@@ -16730,9 +16721,6 @@ true
 void
 SanitizeMetrics
 (
-Metrics
-*
-aMetrics
 bool
 aIsBadUnderlineFont
 )
