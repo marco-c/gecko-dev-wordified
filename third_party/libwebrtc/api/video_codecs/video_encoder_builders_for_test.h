@@ -537,6 +537,17 @@ FrameEncodeSettingsBuilderForTest
 &
 Res
 (
+webrtc
+:
+:
+Resolution
+resolution
+)
+;
+FrameEncodeSettingsBuilderForTest
+&
+Res
+(
 int
 width
 int
