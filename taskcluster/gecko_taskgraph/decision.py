@@ -2148,19 +2148,6 @@ more
 as
 artifacts
     
-mozharness_dir
-=
-Path
-(
-GECKO
-"
-testing
-"
-"
-mozharness
-"
-)
-    
 scripts_dir
 =
 Path
@@ -2269,11 +2256,7 @@ task
 git
 "
         
-mozharness_dir
-/
-"
-external_tools
-"
+scripts_dir
 /
 "
 robustcheckout

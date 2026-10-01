@@ -162,15 +162,22 @@ path
 )
 )
 )
-external_tools_path
+topsrcdir
 =
 os
 .
 path
 .
-join
+dirname
 (
     
+os
+.
+path
+.
+dirname
+(
+        
 os
 .
 path
@@ -196,9 +203,7 @@ __file__
 )
 )
     
-"
-external_tools
-"
+)
 )
 HG_OPTIONS
 =
@@ -2916,7 +2921,13 @@ path
 .
 join
 (
-external_tools_path
+topsrcdir
+"
+taskcluster
+"
+"
+scripts
+"
 "
 robustcheckout
 .
