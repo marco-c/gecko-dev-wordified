@@ -61,6 +61,17 @@ use
 strict
 "
 ;
+/
+*
+*
+The
+redesigned
+devtools
+settings
+panel
+.
+*
+/
 class
 SettingsPanel
 {
