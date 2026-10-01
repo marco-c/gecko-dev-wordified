@@ -2476,6 +2476,22 @@ CARGO_TARGET_DIR
 command_context
 .
 topobjdir
+                
+"
+MOZ_TOPOBJDIR
+"
+:
+command_context
+.
+topobjdir
+                
+"
+MOZ_TOPSRCDIR
+"
+:
+command_context
+.
+topsrcdir
             
 }
             

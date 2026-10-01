@@ -169,6 +169,8 @@ full_path
 .
 strip_prefix
 (
+&
+*
 mozbuild
 :
 :
