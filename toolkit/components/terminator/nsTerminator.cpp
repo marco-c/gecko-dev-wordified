@@ -123,7 +123,7 @@ than
 n
 milliseconds
 (
-63000
+70000
 by
 default
 )
