@@ -281,10 +281,32 @@ be
 removing
 anything
 .
+An
+empty
+FileRegistry
+removes
+nothing
+and
+is
+        
+#
+faster
+because
+the
+copier
+then
+avoids
+walking
+the
+whole
+destination
+.
         
 remove_unaccounted
 =
-False
+FileRegistry
+(
+)
         
 remove_empty_directories
 =

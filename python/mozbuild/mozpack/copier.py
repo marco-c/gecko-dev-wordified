@@ -132,6 +132,52 @@ symlink_targets
 "
 "
     
+return
+_scandir_info
+(
+[
+top
+]
+recurse
+=
+True
+)
+def
+_scandir_info
+(
+dirs
+recurse
+)
+:
+    
+"
+"
+"
+Collect
+file
+metadata
+from
+dirs
+descending
+into
+them
+if
+recurse
+.
+    
+Returns
+(
+existing_files
+existing_dirs
+mtimes
+symlink_targets
+)
+.
+    
+"
+"
+"
+    
 existing_files
 =
 set
@@ -156,9 +202,10 @@ symlink_targets
     
 stack
 =
-[
-top
-]
+list
+(
+dirs
+)
     
 while
 stack
@@ -288,6 +335,10 @@ add
 normed
 )
                         
+if
+recurse
+:
+                            
 stack
 .
 append
@@ -3290,9 +3341,14 @@ _
 dest_mtimes
 dest_symlinks
 =
-_scandir_dest_info
+_scandir_info
 (
-destination
+                    
+required_dirs
+recurse
+=
+False
+                
 )
         
 else
