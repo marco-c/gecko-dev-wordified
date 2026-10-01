@@ -243,7 +243,7 @@ button
 "
 >
 {
-contentDocBodyAttrs
+contentDocAttrs
 :
 {
 id
