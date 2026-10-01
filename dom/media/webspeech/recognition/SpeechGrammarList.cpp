@@ -306,7 +306,7 @@ void
 SpeechGrammarList
 :
 :
-AddFromUri
+AddFromURI
 (
 const
 nsAString
@@ -319,8 +319,18 @@ float
 >
 &
 aWeight
+ErrorResult
+&
+aRv
 )
 {
+aRv
+.
+Throw
+(
+NS_ERROR_NOT_IMPLEMENTED
+)
+;
 }
 void
 SpeechGrammarList
@@ -339,6 +349,9 @@ float
 >
 &
 aWeight
+ErrorResult
+&
+aRv
 )
 {
 SpeechGrammar
@@ -357,6 +370,7 @@ speechGrammar
 SetSrc
 (
 aString
+aRv
 )
 ;
 mItems
