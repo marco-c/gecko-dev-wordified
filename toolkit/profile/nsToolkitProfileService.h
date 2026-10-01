@@ -1141,6 +1141,9 @@ them
 bool
 mProfileDBExists
 ;
+bool
+mProfileDBReadFailed
+;
 int64_t
 mProfileDBFileSize
 ;
