@@ -1149,6 +1149,16 @@ each
 \
 MACRO
 (
+Defer
+"
+'
+defer
+'
+"
+)
+\
+MACRO
+(
 From
 "
 '

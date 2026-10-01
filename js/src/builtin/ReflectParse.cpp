@@ -6446,6 +6446,17 @@ case
 ImportPhase
 :
 :
+Deferred
+:
+return
+"
+defer
+"
+;
+case
+ImportPhase
+:
+:
 Limit
 :
 break
