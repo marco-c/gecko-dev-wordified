@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+Sandbox
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
