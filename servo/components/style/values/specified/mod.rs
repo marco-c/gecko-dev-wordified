@@ -1314,6 +1314,16 @@ use
 self
 :
 :
+text
+:
+:
+TextWrapMode
+;
+pub
+use
+self
+:
+:
 time
 :
 :
