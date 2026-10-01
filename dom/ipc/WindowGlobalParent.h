@@ -1807,6 +1807,7 @@ this
 /
 IPC
 messages
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :
@@ -2452,6 +2453,7 @@ AddCertExceptionResolver
 aResolver
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 mozilla
 :
 :

@@ -120,6 +120,15 @@ include
 <
 mozilla
 /
+Attributes
+.
+h
+>
+#
+include
+<
+mozilla
+/
 Types
 .
 h
@@ -135,6 +144,9 @@ MOZ_BEGIN_EXTERN_C
 #
 define
 MOZ_END_EXTERN_C
+#
+define
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 #
 endif
 #
@@ -389,6 +401,7 @@ close
 end
 MOZ_BEGIN_EXTERN_C
 MOZ_EXPORT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 id
 <
 GeckoViewWindow

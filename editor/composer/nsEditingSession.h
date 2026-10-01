@@ -382,6 +382,7 @@ nsPIDOMWindowOuter
 aWindow
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 void
 TimerCallback

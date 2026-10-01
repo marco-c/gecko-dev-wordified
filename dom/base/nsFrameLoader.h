@@ -765,6 +765,7 @@ nsIURI
 aURI
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ReallyStartLoading
 (
@@ -2668,6 +2669,7 @@ nsIPrincipal
 aTriggeringPrincipal
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ReallyStartLoadingInternal
 (

@@ -1596,6 +1596,7 @@ not
 be
 null
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 ForceRefreshURIFromTimer
 (
@@ -6502,6 +6503,7 @@ UserNavigationInvolvement
 aUserInvolvement
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 LoadHistoryEntry
 (
@@ -6525,7 +6527,7 @@ bool
 aIsResumingInterceptedNavigation
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 LoadHistoryEntry
 (
@@ -6749,6 +6751,7 @@ name
 resolves
 to
 .
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PerformRetargeting
 (
@@ -7130,6 +7133,7 @@ nsDocShellLoadState
 aLoadState
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 LoadURI
 (
