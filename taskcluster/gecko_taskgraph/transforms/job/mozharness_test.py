@@ -1252,20 +1252,6 @@ script
 ]
         
 "
-MOZILLA_BUILD_URL
-"
-:
-{
-"
-artifact
--
-reference
-"
-:
-installer
-}
-        
-"
 NEED_WINDOW_MANAGER
 "
 :
@@ -3514,20 +3500,6 @@ zip
 >
 "
             
-}
-            
-"
-MOZILLA_BUILD_URL
-"
-:
-{
-"
-artifact
--
-reference
-"
-:
-installer
 }
             
 "
