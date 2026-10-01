@@ -729,8 +729,6 @@ gcOutput_
 nullptr
 ;
 }
-private
-:
 InstantiationStorage
 (
 const

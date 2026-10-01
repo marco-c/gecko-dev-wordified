@@ -4920,13 +4920,10 @@ static_assert
 std
 :
 :
-is_integral
+is_integral_v
 <
 T
 >
-:
-:
-value
 "
 must
 be
@@ -10696,7 +10693,10 @@ toGCCellPtr
 std
 :
 :
-move
+forward
+<
+F
+>
 (
 f
 )

@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsTString
+.
+h
+"
+#
+include
+"
 ScriptKind
 .
 h

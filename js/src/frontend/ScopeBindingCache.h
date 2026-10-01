@@ -192,6 +192,9 @@ FakeStencilGlobalScope
 struct
 CompilationStencilMerger
 ;
+struct
+InitialStencilAndDelazifications
+;
 /
 /
 Generic
