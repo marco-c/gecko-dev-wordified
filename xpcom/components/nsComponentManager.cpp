@@ -6747,7 +6747,6 @@ mozilla
 MallocSizeOf
 aMallocSizeOf
 )
-const
 {
 size_t
 n
@@ -6755,6 +6754,12 @@ n
 aMallocSizeOf
 (
 this
+)
+;
+MonitorAutoLock
+lock
+(
+mLock
 )
 ;
 n
