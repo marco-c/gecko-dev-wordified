@@ -16660,6 +16660,15 @@ if
 IsHeadless
 (
 )
+&
+&
+!
+StaticPrefs
+:
+:
+layers_gpu_process_allow_headless_AtStartup
+(
+)
 )
 {
 gpuProc
