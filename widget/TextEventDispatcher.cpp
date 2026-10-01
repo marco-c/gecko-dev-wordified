@@ -1726,6 +1726,12 @@ aEvent
 mWidget
 )
 ;
+aEvent
+.
+mDispatchedByTextEventDispatcher
+=
+true
+;
 DispatchEvent
 (
 mWidget
@@ -1843,6 +1849,12 @@ aEvent
 .
 mWidget
 )
+;
+aEvent
+.
+mDispatchedByTextEventDispatcher
+=
+true
 ;
 DispatchEvent
 (

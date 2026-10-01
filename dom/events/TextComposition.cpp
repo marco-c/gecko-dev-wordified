@@ -4091,6 +4091,16 @@ WidgetSelectionEvent
 aSelectionEvent
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+aSelectionEvent
+-
+>
+DispatchedByValidDispatcher
+(
+)
+)
+;
 /
 /
 If
