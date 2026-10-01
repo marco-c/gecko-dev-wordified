@@ -2293,9 +2293,6 @@ max_shared_surface_size
 enable_dithering
 :
 false
-enable_yuv_overlay_stability
-:
-false
 }
 }
 }
