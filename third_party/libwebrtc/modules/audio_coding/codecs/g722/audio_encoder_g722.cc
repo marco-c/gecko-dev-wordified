@@ -505,7 +505,6 @@ i
 )
 RTC_CHECK_EQ
 (
-0
 WebRtcG722_EncoderInit
 (
 encoders_
@@ -515,6 +514,7 @@ i
 .
 encoder
 )
+0
 )
 ;
 }
@@ -1028,12 +1028,12 @@ EncoderState
 {
 RTC_CHECK_EQ
 (
-0
 WebRtcG722_CreateEncoder
 (
 &
 encoder
 )
+0
 )
 ;
 }
@@ -1050,11 +1050,11 @@ EncoderState
 {
 RTC_CHECK_EQ
 (
-0
 WebRtcG722_FreeEncoder
 (
 encoder
 )
+0
 )
 ;
 }

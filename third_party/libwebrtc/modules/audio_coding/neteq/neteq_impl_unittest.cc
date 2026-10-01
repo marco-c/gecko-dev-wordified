@@ -13184,13 +13184,13 @@ speech_type
 ;
 RTC_CHECK_EQ
 (
-2
 decoder
 -
 >
 Channels
 (
 )
+2
 )
 ;
 return
