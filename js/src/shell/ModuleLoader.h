@@ -177,8 +177,10 @@ JS
 :
 Handle
 <
-JSScript
-*
+JS
+:
+:
+Value
 >
 referrer
 HandleObject
@@ -303,7 +305,7 @@ loadImportedModule
 JSContext
 *
 cx
-HandleScript
+HandleValue
 referrer
 HandleObject
 moduleRequest
@@ -370,7 +372,7 @@ getOrLoadModule
 JSContext
 *
 cx
-HandleScript
+HandleValue
 referrer
 HandleObject
 moduleRequest
@@ -441,7 +443,7 @@ JSContext
 cx
 HandleObject
 moduleRequestArg
-HandleScript
+HandleValue
 referrer
 )
 ;
