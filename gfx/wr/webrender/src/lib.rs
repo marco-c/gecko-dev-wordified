@@ -1547,7 +1547,6 @@ device
 {
 Device
 DeviceOptions
-GlBackendConfig
 GpuBackendConfig
 GraphicsApi
 GraphicsApiInfo
