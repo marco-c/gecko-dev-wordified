@@ -4252,6 +4252,13 @@ params
 .
 channels
 ;
+SetOpusOutputChannels
+(
+mInfo
+.
+mAudio
+)
+;
 uint64_t
 duration
 =

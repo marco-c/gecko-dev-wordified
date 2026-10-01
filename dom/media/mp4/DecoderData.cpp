@@ -2257,6 +2257,12 @@ codecSpecificBinaryBlob
 }
 ;
 }
+SetOpusOutputChannels
+(
+*
+this
+)
+;
 return
 NS_OK
 ;
