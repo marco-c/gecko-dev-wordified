@@ -89,7 +89,6 @@ easier
 [
 derive
 (
-Clone
 Debug
 Default
 )
