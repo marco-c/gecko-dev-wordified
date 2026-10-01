@@ -44921,7 +44921,10 @@ NS_ERROR_FAILURE
 ;
 }
 const
-nsRange
+dom
+:
+:
+Range
 *
 range
 =
@@ -45402,7 +45405,10 @@ IsAcceptableInputEvent
 )
 .
 const
-nsRange
+dom
+:
+:
+Range
 *
 range
 =
@@ -50458,7 +50464,10 @@ mPresContext
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 range
 =

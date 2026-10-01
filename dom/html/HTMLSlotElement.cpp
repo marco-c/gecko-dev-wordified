@@ -2209,7 +2209,10 @@ Normally
 it
 '
 s
-nsRange
+dom
+:
+:
+Range
 :
 :
 ContentAppended
@@ -2234,7 +2237,10 @@ slotted
 /
 content
 because
-nsRange
+dom
+:
+:
+Range
 observes
 the
 common
@@ -2709,7 +2715,10 @@ shouldn
 t
 happen
 because
-nsRange
+dom
+:
+:
+Range
 :
 :
 ContentRemoved
@@ -2749,7 +2758,10 @@ for
 slotted
 element
 because
-nsRange
+dom
+:
+:
+Range
 /
 /
 observers

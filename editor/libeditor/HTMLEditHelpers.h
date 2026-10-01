@@ -7502,7 +7502,10 @@ default
 nsresult
 Init
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 )
@@ -7715,7 +7718,10 @@ delete
 nsresult
 Init
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 )

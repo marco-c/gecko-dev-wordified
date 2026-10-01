@@ -276,7 +276,13 @@ aSkipNativeAnonymousContent
 }
 already_AddRefed
 <
-nsRange
+mozilla
+:
+:
+dom
+:
+:
+Range
 >
 FindFromRangeBoundaries
 (

@@ -3087,7 +3087,10 @@ continue
 }
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 clauseRange
 ;
@@ -3189,7 +3192,10 @@ maxOffset
 ;
 clauseRange
 =
-nsRange
+dom
+:
+:
+Range
 :
 :
 Create
@@ -3220,7 +3226,7 @@ clauseRange
 NS_WARNING
 (
 "
-nsRange
+Range
 :
 :
 Create

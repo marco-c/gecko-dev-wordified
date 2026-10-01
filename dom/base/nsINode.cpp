@@ -5201,7 +5201,7 @@ a
 collection
 *
 of
-nsRange
+Range
 *
 for
 an
@@ -6244,7 +6244,7 @@ MOZ_ASSERT
 range
 -
 >
-IsDynamicRange
+IsRange
 (
 )
 "
@@ -6273,7 +6273,7 @@ crossBoundaryRange
 range
 -
 >
-AsDynamicRange
+AsRange
 (
 )
 -

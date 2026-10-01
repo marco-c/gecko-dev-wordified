@@ -2087,7 +2087,10 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 >
 &
@@ -2109,7 +2112,10 @@ InspectorFontFace
 :
 AddRange
 (
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )

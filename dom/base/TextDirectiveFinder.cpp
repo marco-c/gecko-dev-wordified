@@ -296,7 +296,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 TextDirectiveFinder
@@ -454,7 +454,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 textDirectiveRanges
@@ -597,7 +597,7 @@ if
 (
 RefPtr
 <
-nsRange
+Range
 >
 range
 =
@@ -903,7 +903,7 @@ textDirectiveRanges
 }
 RefPtr
 <
-nsRange
+Range
 >
 TextDirectiveFinder
 :
@@ -1017,11 +1017,11 @@ rv
 ;
 RefPtr
 <
-nsRange
+Range
 >
 searchRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -1119,7 +1119,7 @@ null
 .
 RefPtr
 <
-nsRange
+Range
 >
 potentialMatch
 ;
@@ -1191,7 +1191,7 @@ false
 .
 RefPtr
 <
-nsRange
+Range
 >
 prefixMatch
 =
@@ -1498,11 +1498,11 @@ boundary
 .
 RefPtr
 <
-nsRange
+Range
 >
 matchRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -2455,11 +2455,11 @@ end
 .
 RefPtr
 <
-nsRange
+Range
 >
 rangeEndSearchRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -2640,7 +2640,7 @@ mustEndAtWordBoundary
 .
 RefPtr
 <
-nsRange
+Range
 >
 endMatch
 =
@@ -2916,11 +2916,11 @@ boundary
 .
 RefPtr
 <
-nsRange
+Range
 >
 suffixRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -3131,7 +3131,7 @@ true
 .
 RefPtr
 <
-nsRange
+Range
 >
 suffixMatch
 =

@@ -225,7 +225,7 @@ ERT
 >
 &
 aEndBoundary
-nsRange
+Range
 *
 aOwner
 )
@@ -505,7 +505,7 @@ CrossShadowBoundaryRange
 nsINode
 *
 aNode
-nsRange
+Range
 *
 aOwner
 )
@@ -600,7 +600,7 @@ AbstractRange
 ;
 /
 /
-nsRange
+Range
 owns
 CrossShadowBoundaryRange
 ;
@@ -621,7 +621,7 @@ raw
 pointer
 here
 .
-nsRange
+Range
 *
 mOwner
 ;

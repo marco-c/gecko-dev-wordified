@@ -263,7 +263,7 @@ get
 ;
 /
 /
-nsRange
+Range
 expects
 the
 CharacterDataChanged
@@ -295,7 +295,7 @@ the
 appropriate
 changes
 in
-nsRange
+Range
 .
 newContent
 -

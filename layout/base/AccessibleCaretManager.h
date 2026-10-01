@@ -1743,7 +1743,10 @@ node
 FrameAndOffset
 GetFirstVisibleLeafFrameOrUnselectableChildFrame
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 nsIContent
@@ -2062,7 +2065,10 @@ node
 FrameAndOffset
 GetLastVisibleLeafFrameOrUnselectableChildFrame
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 nsIContent

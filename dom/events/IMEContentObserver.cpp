@@ -2132,7 +2132,10 @@ range
 if
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 selRange
 =

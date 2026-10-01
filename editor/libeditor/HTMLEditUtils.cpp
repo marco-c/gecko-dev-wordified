@@ -29886,7 +29886,10 @@ i
 +
 )
 {
-nsRange
+dom
+:
+:
+Range
 *
 range
 =

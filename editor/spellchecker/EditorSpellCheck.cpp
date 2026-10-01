@@ -2245,7 +2245,10 @@ RangeCount
 RefPtr
 <
 const
-nsRange
+dom
+:
+:
+Range
 >
 range
 =

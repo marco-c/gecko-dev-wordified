@@ -7872,7 +7872,10 @@ value
 -
 param
 )
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 const
@@ -8584,7 +8587,7 @@ rv
 NS_WARNING
 (
 "
-nsRange
+Range
 :
 :
 SetStartAndEnd

@@ -1127,9 +1127,6 @@ class
 nsPresContext
 ;
 class
-nsRange
-;
-class
 nsTextNode
 ;
 class
@@ -1437,6 +1434,9 @@ Promise
 ;
 struct
 PropertyDefinition
+;
+class
+Range
 ;
 class
 ScriptLoader
@@ -22643,7 +22643,7 @@ const
 ;
 already_AddRefed
 <
-nsRange
+Range
 >
 CreateRange
 (
@@ -24453,7 +24453,7 @@ CaretPosition
 /
 already_AddRefed
 <
-nsRange
+Range
 >
 CaretRangeFromPoint
 (

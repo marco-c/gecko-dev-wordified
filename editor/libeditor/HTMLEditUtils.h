@@ -16465,7 +16465,10 @@ nullptr
 ;
 }
 const
-nsRange
+dom
+:
+:
+Range
 *
 firstRange
 =
@@ -22855,7 +22858,10 @@ RangeCount
 rangeCount
 )
 ;
-nsRange
+dom
+:
+:
+Range
 *
 range
 =

@@ -2874,7 +2874,10 @@ mozilla
 :
 OwningNonNull
 <
-nsRange
+dom
+:
+:
+Range
 >
 8
 >

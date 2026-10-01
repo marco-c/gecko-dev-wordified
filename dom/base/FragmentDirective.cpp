@@ -976,7 +976,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 FragmentDirective
@@ -1630,7 +1630,7 @@ pending
 =
 /
 /
-nsRange
+Range
 )
 .
 /
@@ -2798,7 +2798,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -2989,7 +2989,7 @@ for
 const
 RefPtr
 <
-nsRange
+Range
 >
 &
 range
@@ -3109,7 +3109,7 @@ correct
 one
 .
 const
-nsRange
+Range
 *
 firstDirectiveRange
 =
@@ -3171,7 +3171,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -3270,7 +3270,7 @@ RangeCount
 rangeIndex
 )
 {
-nsRange
+Range
 *
 range
 =
@@ -3394,7 +3394,7 @@ Sequence
 <
 OwningNonNull
 <
-nsRange
+Range
 >
 >
 &

@@ -87,9 +87,6 @@ nsTArray
 .
 h
 "
-class
-nsRange
-;
 struct
 TextDirective
 ;
@@ -101,6 +98,9 @@ dom
 {
 class
 Document
+;
+class
+Range
 ;
 /
 *
@@ -150,7 +150,7 @@ is
 returned
 as
 an
-nsRange
+Range
 .
 *
 *
@@ -230,7 +230,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 FindTextDirectivesInDocument
@@ -283,7 +283,7 @@ directive
 /
 RefPtr
 <
-nsRange
+Range
 >
 FindRangeForTextDirective
 (

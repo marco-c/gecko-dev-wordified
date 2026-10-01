@@ -324,9 +324,6 @@ class
 nsDOMMutationObserver
 ;
 class
-nsRange
-;
-class
 nsWindowSizes
 ;
 namespace
@@ -369,6 +366,9 @@ WidgetEvent
 namespace
 dom
 {
+class
+Range
+;
 class
 NodeList
 ;
@@ -15288,7 +15288,7 @@ aEndOffset
 *
 overlaps
 any
-nsRange
+Range
 in
 *
 GetClosestCommonInclusiveAncestorForRangeInSelection
@@ -15318,7 +15318,7 @@ node
 *
 If
 a
-nsRange
+Range
 starts
 in
 (
@@ -15349,7 +15349,7 @@ false
 *
 for
 that
-nsRange
+Range
 .
 Collapsed
 ranges

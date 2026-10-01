@@ -59642,7 +59642,10 @@ rangeCount
 RefPtr
 <
 const
-nsRange
+dom
+:
+:
+Range
 >
 range
 =
@@ -59789,7 +59792,10 @@ vs
 focus
 .
 const
-nsRange
+dom
+:
+:
+Range
 *
 range
 =

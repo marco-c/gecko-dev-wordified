@@ -121,9 +121,6 @@ nsAtom
 class
 nsINode
 ;
-class
-nsRange
-;
 namespace
 mozilla
 {
@@ -133,7 +130,14 @@ dom
 class
 AbstractRange
 ;
+class
+Range
+;
 }
+/
+/
+namespace
+dom
 class
 FilteredContentIterator
 final
@@ -391,7 +395,10 @@ mFilter
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 mRange
 ;

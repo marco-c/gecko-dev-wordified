@@ -6206,7 +6206,10 @@ value
 -
 param
 )
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 const

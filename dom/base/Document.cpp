@@ -42232,11 +42232,17 @@ htmlEditor
 {
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 range
 =
-nsRange
+dom
+:
+:
+Range
 :
 :
 Create
@@ -60791,7 +60797,7 @@ nullptr
 }
 already_AddRefed
 <
-nsRange
+Range
 >
 Document
 :
@@ -60804,7 +60810,7 @@ rv
 )
 {
 return
-nsRange
+Range
 :
 :
 Create
@@ -90079,7 +90085,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 textDirectives
@@ -90119,7 +90125,7 @@ ranges
 const
 RefPtr
 <
-nsRange
+Range
 >
 textDirectiveToScroll
 =
@@ -91610,7 +91616,7 @@ Note
 also
 that
 because
-nsRange
+Range
 objects
 point
 into
@@ -91627,7 +91633,7 @@ reuse
 an
 array
 of
-nsRange
+Range
 objects
 across
 multiple
@@ -91965,7 +91971,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 *
@@ -91986,7 +91992,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 *
@@ -92074,7 +92080,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 >
@@ -92110,7 +92116,7 @@ rangeCount
 )
 ;
 const
-nsRange
+Range
 *
 range
 =
@@ -92214,11 +92220,11 @@ continue
 }
 RefPtr
 <
-nsRange
+Range
 >
 clonedRange
 =
-nsRange
+Range
 :
 :
 Create
@@ -92311,7 +92317,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 >
@@ -96333,7 +96339,7 @@ forget
 }
 already_AddRefed
 <
-nsRange
+Range
 >
 Document
 :
@@ -96452,11 +96458,11 @@ offset
 }
 RefPtr
 <
-nsRange
+Range
 >
 range
 =
-nsRange
+Range
 :
 :
 Create

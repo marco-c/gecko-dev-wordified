@@ -435,9 +435,6 @@ class
 nsPresShellEventCB
 ;
 class
-nsRange
-;
-class
 nsRefreshDriver
 ;
 class
@@ -580,6 +577,9 @@ Event
 ;
 class
 HTMLSlotElement
+;
+class
+Range
 ;
 class
 Selection
@@ -10647,7 +10647,10 @@ nsAString
 &
 aAnchorName
 const
-nsRange
+dom
+:
+:
+Range
 *
 aFirstTextDirective
 bool
@@ -13405,7 +13408,10 @@ aBuilder
 nsDisplayList
 *
 aList
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )
@@ -13439,7 +13445,10 @@ RangePaintInfo
 >
 CreateRangePaintInfo
 (
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 nsRect

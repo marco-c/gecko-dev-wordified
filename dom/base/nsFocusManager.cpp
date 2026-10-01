@@ -22532,7 +22532,10 @@ rv
 ;
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 newRange
 =
@@ -23193,7 +23196,10 @@ domSelection
 )
 ;
 const
-nsRange
+dom
+:
+:
+Range
 *
 domRange
 =

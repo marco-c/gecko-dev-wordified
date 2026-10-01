@@ -560,9 +560,6 @@ nsITransaction
 class
 nsIWidget
 ;
-class
-nsRange
-;
 namespace
 mozilla
 {
@@ -628,6 +625,9 @@ EventTarget
 ;
 class
 HTMLBRElement
+;
+class
+Range
 ;
 }
 /
@@ -4647,7 +4647,10 @@ const
 nsAString
 &
 aString
-nsRange
+dom
+:
+:
+Range
 *
 aReplaceRange
 AllowBeforeInputEventCancelable
@@ -5440,7 +5443,10 @@ actions
 .
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 mChangedRange
 ;
@@ -17509,7 +17515,10 @@ nsIEditor
 :
 EStripWrappers
 aStripWrappers
-nsRange
+dom
+:
+:
+Range
 &
 aRangeToDelete
 )
@@ -17791,7 +17800,10 @@ DeleteContentTransactionBase
 CreateTransactionForCollapsedRange
 (
 const
-nsRange
+dom
+:
+:
+Range
 &
 aCollapsedRange
 HowToHandleCollapsedRange

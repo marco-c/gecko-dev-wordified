@@ -190,7 +190,10 @@ EditorBase
 &
 aEditorBase
 const
-nsRange
+dom
+:
+:
+Range
 &
 aRangeToDelete
 )
@@ -244,7 +247,10 @@ EditorBase
 &
 aEditorBase
 const
-nsRange
+dom
+:
+:
+Range
 &
 aRangeToDelete
 )
@@ -502,7 +508,7 @@ deleted
 return
 NS_OK
 unless
-nsRange
+Range
 :
 :
 SetStart
@@ -517,7 +523,10 @@ fails
 nsresult
 MaybeExtendDeletingRangeWithSurroundingWhitespace
 (
-nsRange
+dom
+:
+:
+Range
 &
 aRange
 )
@@ -938,7 +947,10 @@ transactions
 .
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 mRangeToDelete
 ;

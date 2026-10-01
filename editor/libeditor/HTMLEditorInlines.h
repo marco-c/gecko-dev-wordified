@@ -430,7 +430,10 @@ mSelectedRangeForTopLevelEditSubAction
 }
 already_AddRefed
 <
-nsRange
+dom
+:
+:
+Range
 >
 HTMLEditor
 :
@@ -448,7 +451,10 @@ mChangedRangeForTopLevelEditSubAction
 {
 mChangedRangeForTopLevelEditSubAction
 =
-nsRange
+dom
+:
+:
+Range
 :
 :
 Create

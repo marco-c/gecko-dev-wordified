@@ -129,9 +129,6 @@ nsINode
 class
 nsIURI
 ;
-class
-nsRange
-;
 namespace
 mozilla
 :
@@ -140,6 +137,9 @@ dom
 {
 class
 Document
+;
+class
+Range
 ;
 class
 Promise
@@ -468,7 +468,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -568,7 +568,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 FindTextFragmentsInDocument
@@ -880,7 +880,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -983,7 +983,7 @@ Sequence
 <
 OwningNonNull
 <
-nsRange
+Range
 >
 >
 &

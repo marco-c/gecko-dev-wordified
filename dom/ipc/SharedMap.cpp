@@ -1441,6 +1441,9 @@ mHandle
 =
 nullptr
 ;
+mozilla
+:
+:
 Range
 <
 const

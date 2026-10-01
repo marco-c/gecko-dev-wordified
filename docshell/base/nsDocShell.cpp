@@ -69964,7 +69964,10 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 >
 textDirectiveRanges
@@ -70006,7 +70009,10 @@ IsTextDirectiveAllowedToBeScrolledTo
 const
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 textDirectiveToScroll
 =

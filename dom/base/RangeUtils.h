@@ -356,7 +356,7 @@ aNode
 *
 *
 XXX
-nsRange
+Range
 should
 accept
 0
@@ -369,7 +369,7 @@ However
 users
 of
 *
-nsRange
+Range
 treat
 offset
 as
@@ -393,7 +393,7 @@ int32_t
 .
 Therefore
 *
-nsRange
+Range
 should
 accept
 only

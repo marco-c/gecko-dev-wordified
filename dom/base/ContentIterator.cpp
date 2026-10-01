@@ -6413,11 +6413,17 @@ aEndBoundary
 {
 RefPtr
 <
-nsRange
+dom
+:
+:
+Range
 >
 range
 =
-nsRange
+dom
+:
+:
+Range
 :
 :
 Create
@@ -6491,7 +6497,7 @@ happen
 if
 the
 above
-nsRange
+Range
 :
 :
 Create
@@ -6569,7 +6575,7 @@ if
 aRange
 -
 >
-IsDynamicRange
+IsRange
 (
 )
 )
@@ -6607,7 +6613,7 @@ mRange
 aRange
 -
 >
-AsDynamicRange
+AsRange
 (
 )
 -

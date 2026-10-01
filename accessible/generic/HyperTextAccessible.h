@@ -120,9 +120,6 @@ class
 nsIFrame
 ;
 class
-nsRange
-;
-class
 nsIWidget
 ;
 namespace
@@ -135,9 +132,16 @@ namespace
 dom
 {
 class
+Range
+;
+class
 Selection
 ;
 }
+/
+/
+namespace
+dom
 namespace
 a11y
 {

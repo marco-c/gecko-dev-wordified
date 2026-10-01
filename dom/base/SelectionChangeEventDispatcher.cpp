@@ -187,7 +187,10 @@ RawRangeData
 RawRangeData
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )
@@ -269,7 +272,10 @@ RawRangeData
 Equals
 (
 const
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 )
@@ -589,7 +595,7 @@ fire
 selectionchange
 if
 the
-nsRange
+Range
 mutation
 observer
 caused

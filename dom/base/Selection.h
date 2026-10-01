@@ -1512,14 +1512,14 @@ bool
 IsUserSelectionCollapsed
 (
 const
-nsRange
+Range
 &
 aRange
 nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -1577,7 +1577,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 AddRangesForUserSelectableNodes
 (
-nsRange
+Range
 *
 aRange
 Maybe
@@ -1700,7 +1700,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 AddRangesForSelectableNodes
 (
-nsRange
+Range
 *
 aRange
 Maybe
@@ -1852,7 +1852,7 @@ mRanges
 .
 *
 /
-nsRange
+Range
 *
 GetRangeAt
 (
@@ -1861,7 +1861,7 @@ aIndex
 )
 const
 ;
-nsRange
+Range
 *
 GetFirstRange
 (
@@ -1875,7 +1875,7 @@ GetRangeAt
 )
 ;
 }
-nsRange
+Range
 *
 GetLastRange
 (
@@ -2018,7 +2018,7 @@ is
 focus
 .
 const
-nsRange
+Range
 *
 GetAnchorFocusRange
 (
@@ -2094,7 +2094,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 SetAnchorFocusToRange
 (
-nsRange
+Range
 *
 aRange
 )
@@ -2103,7 +2103,7 @@ MOZ_CAN_RUN_SCRIPT
 void
 ReplaceAnchorFocusRange
 (
-nsRange
+Range
 *
 aRange
 )
@@ -3000,7 +3000,7 @@ return
 range
 -
 >
-AsDynamicRange
+AsRange
 (
 )
 -
@@ -3193,7 +3193,7 @@ aOutType
 )
 const
 ;
-nsRange
+Range
 *
 GetRangeAt
 (
@@ -3211,7 +3211,7 @@ MOZ_CAN_RUN_SCRIPT
 void
 AddRangeJS
 (
-nsRange
+Range
 &
 aRange
 mozilla
@@ -4046,7 +4046,7 @@ nsTArray
 <
 RefPtr
 <
-nsRange
+Range
 >
 >
 &
@@ -4611,7 +4611,7 @@ MOZ_CAN_RUN_SCRIPT
 void
 AddRangeAndSelectFramesAndNotifyListeners
 (
-nsRange
+Range
 &
 aRange
 mozilla
@@ -5207,7 +5207,7 @@ selection
 nsresult
 SetTextRangeStyle
 (
-nsRange
+Range
 *
 aRange
 const
@@ -5511,8 +5511,9 @@ GetAbstractRangesForIntervalArray
 )
 |
 to
+*
 |
-nsRange
+Range
 |
 .
 *
@@ -5556,7 +5557,7 @@ be
 cast
 to
 |
-nsRange
+Range
 |
 .
 *
@@ -5578,7 +5579,7 @@ bool
 aAllowAdjacent
 nsTArray
 <
-nsRange
+Range
 *
 >
 *
@@ -5699,7 +5700,7 @@ MOZ_CAN_RUN_SCRIPT
 void
 AddRangeAndSelectFramesAndNotifyListenersInternal
 (
-nsRange
+Range
 &
 aRange
 Document
@@ -5845,7 +5846,7 @@ is
 due
 to
 a
-nsRange
+Range
 observing
 a
 DOM
@@ -6182,7 +6183,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 MaybeAddTableCellRange
 (
-nsRange
+Range
 &
 aRange
 Maybe
@@ -6808,7 +6809,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 MaybeAddRangeAndTruncateOverlaps
 (
-nsRange
+Range
 *
 aRange
 Maybe
@@ -7139,7 +7140,7 @@ SubtractRange
 StyledRange
 &
 aRange
-nsRange
+Range
 &
 aSubtract
 nsTArray
@@ -7577,7 +7578,7 @@ this
 ;
 RefPtr
 <
-nsRange
+Range
 >
 mAnchorFocusRange
 ;

@@ -6015,7 +6015,10 @@ RawRangeBoundary
 ;
 }
 const
-nsRange
+dom
+:
+:
+Range
 *
 firstRange
 =
@@ -6119,7 +6122,10 @@ rangeCount
 )
 ;
 const
-nsRange
+dom
+:
+:
+Range
 *
 range
 =
@@ -6463,7 +6469,10 @@ RawRangeBoundary
 ;
 }
 const
-nsRange
+dom
+:
+:
+Range
 *
 lastRange
 =
@@ -6567,7 +6576,10 @@ rangeCount
 )
 ;
 const
-nsRange
+dom
+:
+:
+Range
 *
 range
 =

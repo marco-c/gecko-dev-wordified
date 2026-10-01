@@ -1920,7 +1920,10 @@ TextRange
 :
 AssignDOMRange
 (
-nsRange
+dom
+:
+:
+Range
 *
 aRange
 bool
@@ -2342,7 +2345,10 @@ rangeCount
 )
 ;
 const
-nsRange
+dom
+:
+:
+Range
 *
 DOMRange
 =
