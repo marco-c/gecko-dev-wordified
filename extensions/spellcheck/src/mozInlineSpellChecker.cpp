@@ -560,13 +560,6 @@ h
 #
 include
 "
-nsRange
-.
-h
-"
-#
-include
-"
 nsIPrefBranch
 .
 h
@@ -624,13 +617,6 @@ h
 include
 "
 nsIContentInlines
-.
-h
-"
-#
-include
-"
-nsRange
 .
 h
 "

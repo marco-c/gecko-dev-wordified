@@ -97,7 +97,11 @@ h
 #
 include
 "
-nsRange
+mozilla
+/
+dom
+/
+Range
 .
 h
 "
