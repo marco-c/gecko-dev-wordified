@@ -1673,7 +1673,10 @@ case
 e_squish
 :
 return
-1
+e
+-
+>
+value
 /
 (
 1
@@ -1716,6 +1719,11 @@ param
 )
 ;
 return
+e
+-
+>
+value
+*
 exp
 (
 -
@@ -2313,6 +2321,12 @@ param
 )
 ;
 return
+e
+-
+>
+value
+*
+(
 v0
 +
 (
@@ -2322,6 +2336,7 @@ v0
 )
 *
 f
+)
 ;
 }
 case
@@ -2387,6 +2402,11 @@ x
 )
 ;
 return
+e
+-
+>
+value
+*
 x
 ;
 }
