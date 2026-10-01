@@ -236,6 +236,12 @@ DEFAULT_LIMIT
 mLength
 (
 initial
+<
+limit
+?
+initial
+:
+limit
 )
 mLimit
 (
@@ -253,7 +259,7 @@ mAlloc
 Grow
 (
 nullptr
-initial
+mLength
 )
 ;
 std
@@ -263,7 +269,7 @@ memset
 (
 mPtr
 0
-initial
+mLength
 )
 ;
 }
