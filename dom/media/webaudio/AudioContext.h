@@ -781,13 +781,6 @@ GetRelevantGlobal
 )
 ;
 }
-nsISerialEventTarget
-*
-GetMainThread
-(
-)
-const
-;
 void
 DisconnectFromOwner
 (
