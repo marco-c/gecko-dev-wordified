@@ -6985,7 +6985,7 @@ len
 def
 set_categories_for_test
 (
-full_task_graph_path
+full_task_set_path
 tests
 )
 :
@@ -6997,8 +6997,7 @@ Parses
 the
 full
 task
--
-graph
+set
 to
 find
 all
@@ -7045,7 +7044,7 @@ tasks
 )
         
 with
-full_task_graph_path
+full_task_set_path
 .
 open
 (
@@ -7054,7 +7053,7 @@ as
 f
 :
             
-full_task_graph
+full_task_set
 =
 json
 .
@@ -7095,7 +7094,7 @@ for
 task_label
 task_info
 in
-full_task_graph
+full_task_set
 .
 items
 (
@@ -10534,7 +10533,7 @@ PREVIEW_SCRIPT
         
 )
         
-full_task_graph
+full_task_set
 =
 pathlib
 .
@@ -10542,7 +10541,7 @@ Path
 (
 cache_dir
 "
-full_task_graph
+full_task_set
 "
 )
         
@@ -10564,7 +10563,7 @@ PerfParser
 set_categories_for_test
 (
                 
-full_task_graph
+full_task_set
 kwargs
 .
 get
