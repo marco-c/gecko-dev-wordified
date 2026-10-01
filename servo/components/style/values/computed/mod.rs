@@ -1784,6 +1784,16 @@ use
 self
 :
 :
+text
+:
+:
+WhiteSpaceCollapse
+;
+pub
+use
+self
+:
+:
 time
 :
 :
