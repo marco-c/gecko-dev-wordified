@@ -375,7 +375,6 @@ ErrorResult
 &
 aRv
 )
-const
 override
 ;
 void
@@ -709,7 +708,6 @@ use
 a
 mutex
 .
-mutable
 Mutex
 mMutex
 MOZ_UNANNOTATED
@@ -754,7 +752,6 @@ mStart
 int64_t
 mFileId
 ;
-mutable
 Maybe
 <
 uint64_t

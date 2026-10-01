@@ -29802,7 +29802,6 @@ ErrorResult
 &
 aRv
 )
-const
 override
 {
 MOZ_DIAGNOSTIC_ASSERT
