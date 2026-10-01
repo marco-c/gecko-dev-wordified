@@ -271,6 +271,12 @@ bool
 \
 _
 (
+loadedInForeground
+bool
+)
+\
+_
+(
 timeToRequestStart
 uint32_t
 )
