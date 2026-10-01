@@ -1271,6 +1271,16 @@ use
 self
 :
 :
+position
+:
+:
+BoxSizing
+;
+pub
+use
+self
+:
+:
 ratio
 :
 :
