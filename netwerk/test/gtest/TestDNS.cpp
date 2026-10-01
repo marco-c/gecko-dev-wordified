@@ -297,6 +297,8 @@ nsHostRecord
 aRecord
 nsresult
 aStatus
+bool
+aFromStaleCache
 )
 override
 {

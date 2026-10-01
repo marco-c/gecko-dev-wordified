@@ -1844,6 +1844,9 @@ aType
 nsresult
 &
 aStatus
+bool
+&
+aFromStaleCache
 )
 MOZ_REQUIRES
 (
@@ -1971,6 +1974,9 @@ aPb
 nsresult
 &
 aStatus
+bool
+&
+aFromStaleCache
 )
 MOZ_REQUIRES
 (
