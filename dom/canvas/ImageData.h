@@ -217,6 +217,12 @@ HoldData
 )
 ;
 }
+ImageData
+(
+)
+=
+delete
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS
 (
@@ -409,12 +415,6 @@ void
 DropData
 (
 )
-;
-ImageData
-(
-)
-=
-delete
 ;
 ~
 ImageData
