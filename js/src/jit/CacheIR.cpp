@@ -30200,7 +30200,6 @@ NativeObject
 ;
 if
 (
-!
 IsGlobalLexicalSetGName
 (
 JSOp
@@ -30213,6 +30212,17 @@ nobj
 prop
 )
 )
+{
+writer
+.
+guardSpecificObject
+(
+objId
+nobj
+)
+;
+}
+else
 {
 /
 /
