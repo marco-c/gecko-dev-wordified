@@ -2588,11 +2588,6 @@ test_list
 use_live_sites
 "
 ]
-=
-=
-"
-true
-"
     
 assert
 test_list
