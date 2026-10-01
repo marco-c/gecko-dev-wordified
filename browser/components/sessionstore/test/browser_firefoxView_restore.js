@@ -208,11 +208,6 @@ button
 "
 )
 {
-type
-:
-"
-mousedown
-"
 }
 window
 )
