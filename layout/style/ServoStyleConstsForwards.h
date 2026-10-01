@@ -311,6 +311,16 @@ StyleCalcLengthPercentage
 ;
 /
 /
+Same
+but
+for
+AsPercentage
+.
+struct
+StylePercentage
+;
+/
+/
 Forward
 declaration
 for
@@ -617,6 +627,9 @@ L
 >
 union
 StyleGenericCalcNode
+;
+union
+StyleSpecifiedLeaf
 ;
 namespace
 css
