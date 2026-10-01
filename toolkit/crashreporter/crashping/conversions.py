@@ -428,13 +428,7 @@ names
 .
 append
 (
-f
-"
-&
-{
 name
-}
-"
 )
     
 names
@@ -459,9 +453,6 @@ ANNOTATIONS
 :
 &
 [
-&
-'
-static
 Annotation
 ]
 =
