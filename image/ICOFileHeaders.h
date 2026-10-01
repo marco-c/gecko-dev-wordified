@@ -62,6 +62,11 @@ mozilla_image_ICOFileHeaders_h
 #
 define
 mozilla_image_ICOFileHeaders_h
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {
