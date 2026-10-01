@@ -94,6 +94,13 @@ ERROR_NO_ACTIVITY_CONTEXT_DELEGATE
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 app
 .
 Activity
@@ -5747,6 +5754,12 @@ canvas
 ;
 }
 }
+SuppressLint
+(
+"
+ClickableViewAccessibility
+"
+)
 Override
 public
 boolean
