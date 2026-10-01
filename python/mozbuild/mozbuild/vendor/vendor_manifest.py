@@ -164,6 +164,16 @@ moz
 .
 yaml
 "
+"
+*
+*
+/
+LICENSE
+-
+NOTICE
+.
+txt
+"
 ]
 DEFAULT_INCLUDE_FILES
 =
