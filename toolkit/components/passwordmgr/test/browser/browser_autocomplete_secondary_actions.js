@@ -4171,7 +4171,7 @@ id
 "
 autocomplete
 -
-remove
+delete
 -
 password
 -
@@ -4197,7 +4197,7 @@ id
 "
 autocomplete
 -
-remove
+delete
 -
 record
 -
