@@ -1979,7 +1979,6 @@ return
 false
 ;
 }
-virtual
 nsresult
 InterpolateResult
 (
@@ -1993,18 +1992,6 @@ aResult
 SMILValue
 &
 aBaseValue
-)
-;
-nsresult
-AccumulateResult
-(
-const
-SMILValueArray
-&
-aValues
-SMILValue
-&
-aResult
 )
 ;
 nsresult
