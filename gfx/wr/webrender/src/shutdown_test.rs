@@ -622,6 +622,9 @@ max_shared_surface_size
 enable_dithering
 :
 false
+enable_yuv_overlay_stability
+:
+false
 }
 }
 /
@@ -949,6 +952,13 @@ set_display_list
 self
 .
 epoch
+self
+.
+api
+.
+get_namespace_id
+(
+)
 builder
 .
 end
