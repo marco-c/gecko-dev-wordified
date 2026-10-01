@@ -132,6 +132,7 @@ background
 :
 {
 BackgroundClip
+BackgroundOrigin
 BackgroundRepeat
 }
 ;

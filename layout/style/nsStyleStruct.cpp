@@ -14283,7 +14283,7 @@ Background
 {
 mOrigin
 =
-StyleGeometryBox
+StyleBackgroundOrigin
 :
 :
 PaddingBox
@@ -14310,7 +14310,7 @@ type
 ;
 mOrigin
 =
-StyleGeometryBox
+StyleBackgroundOrigin
 :
 :
 BorderBox

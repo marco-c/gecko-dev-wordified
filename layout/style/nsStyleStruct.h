@@ -1339,7 +1339,10 @@ StyleBackgroundClip
 mClip
 ;
 MOZ_INIT_OUTSIDE_CTOR
-StyleGeometryBox
+mozilla
+:
+:
+StyleBackgroundOrigin
 mOrigin
 ;
 /
