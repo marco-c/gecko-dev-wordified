@@ -182,16 +182,6 @@ aSize
 override
 ;
 void
-NotifyClientSizeChanged
-(
-const
-LayoutDeviceIntSize
-&
-aClientSize
-)
-override
-;
-void
 NotifyVisibilityUpdated
 (
 bool
@@ -273,9 +263,6 @@ RefPtr
 CompositorWidgetVsyncObserver
 >
 mVsyncObserver
-;
-bool
-mIsHeadless
 ;
 HWND
 mCompositorWnd
