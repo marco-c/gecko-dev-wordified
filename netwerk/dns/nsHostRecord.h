@@ -2634,6 +2634,14 @@ nsHostRecord
 DNS_PRIORITY_LOW
 ;
 }
+nsLiteralCString
+RecordFamilyLabel
+(
+nsHostRecord
+*
+aRec
+)
+;
 #
 endif
 /
