@@ -1304,6 +1304,8 @@ TimeStamp
 aTimeStamp
 TimeStamp
 aWebrtcCaptureTime
+VideoRotation
+aRotation
 )
 {
 VideoChunk
@@ -1383,6 +1385,13 @@ TakeFrom
 &
 frame
 )
+;
+chunk
+-
+>
+mRotation
+=
+aRotation
 ;
 }
 VideoSegment
