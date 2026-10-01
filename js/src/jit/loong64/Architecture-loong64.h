@@ -235,16 +235,6 @@ Argument
 registers
 /
 /
-r4
--
-r5
-v0
--
-v1
-Return
-values
-/
-/
 r12
 -
 r20
