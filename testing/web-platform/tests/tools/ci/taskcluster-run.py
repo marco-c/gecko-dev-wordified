@@ -35,6 +35,7 @@ get_browser_args
 product
 channel
 artifact_path
+wpt_args
 )
 :
     
@@ -45,6 +46,27 @@ product
 "
 firefox
 "
+and
+not
+any
+(
+item
+.
+startswith
+(
+"
+-
+-
+install
+-
+browser
+"
+)
+for
+item
+in
+wpt_args
+)
 :
         
 local_binary
@@ -681,7 +703,7 @@ mach
 -
 level
 =
-info
+debug
 "
         
 "
@@ -800,6 +822,7 @@ get_browser_args
 product
 channel
 artifact_path
+wpt_args
 )
     
 wpt_args
