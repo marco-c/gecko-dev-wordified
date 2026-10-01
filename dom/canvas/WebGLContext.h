@@ -3944,6 +3944,17 @@ units
 )
 ;
 void
+PolygonOffsetClampEXT
+(
+GLfloat
+factor
+GLfloat
+units
+GLfloat
+clamp
+)
+;
+void
 ProvokingVertex
 (
 webgl
