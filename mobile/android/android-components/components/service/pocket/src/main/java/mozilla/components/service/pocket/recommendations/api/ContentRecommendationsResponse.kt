@@ -68,12 +68,6 @@ pocket
 recommendations
 .
 api
-import
-kotlinx
-.
-serialization
-.
-Serializable
 /
 *
 *
@@ -144,7 +138,6 @@ payload
 .
 *
 /
-Serializable
 internal
 data
 class
@@ -331,15 +324,14 @@ This
 is
 provided
 to
-*
 include
 in
 telemetry
+*
 payloads
 .
 *
 /
-Serializable
 internal
 data
 class
