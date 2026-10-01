@@ -100435,6 +100435,12 @@ initial_values
 "
 round
 "
+"
+superellipse
+(
+1
+)
+"
 ]
 other_values
 :
@@ -100458,12 +100464,6 @@ squircle
 superellipse
 (
 0
-)
-"
-"
-superellipse
-(
-1
 )
 "
 "
@@ -100537,10 +100537,6 @@ superellipse
 "
 superellipse
 1
-"
-"
-round
-scoop
 "
 ]
 }
