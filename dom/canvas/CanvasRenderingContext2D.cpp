@@ -7550,7 +7550,7 @@ lineCap
 }
 }
 static
-uint8_t
+StyleFontKerning
 CanvasToGfx
 (
 CanvasFontKerning
@@ -7569,7 +7569,10 @@ CanvasFontKerning
 Auto
 :
 return
-NS_FONT_KERNING_AUTO
+StyleFontKerning
+:
+:
+Auto
 ;
 case
 CanvasFontKerning
@@ -7578,7 +7581,10 @@ CanvasFontKerning
 Normal
 :
 return
-NS_FONT_KERNING_NORMAL
+StyleFontKerning
+:
+:
+Normal
 ;
 case
 CanvasFontKerning
@@ -7587,7 +7593,10 @@ CanvasFontKerning
 None
 :
 return
-NS_FONT_KERNING_NONE
+StyleFontKerning
+:
+:
+None
 ;
 default
 :

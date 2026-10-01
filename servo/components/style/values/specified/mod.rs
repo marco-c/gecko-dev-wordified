@@ -880,6 +880,16 @@ use
 self
 :
 :
+font
+:
+:
+FontKerning
+;
+pub
+use
+self
+:
+:
 image
 :
 :
