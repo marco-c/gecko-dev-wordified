@@ -1474,6 +1474,16 @@ use
 self
 :
 :
+text
+:
+:
+TextSizeAdjust
+;
+pub
+use
+self
+:
+:
 time
 :
 :
