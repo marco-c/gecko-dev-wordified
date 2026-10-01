@@ -576,7 +576,7 @@ key
 }
 }
 }
-add_task
+add_setup
 (
 async
 function
@@ -1536,7 +1536,7 @@ Test
 version
 :
 "
-1
+2
 .
 0
 "
@@ -1550,7 +1550,7 @@ install
 version
 :
 "
-1
+2
 .
 0
 "
