@@ -4881,9 +4881,6 @@ GetPrimaryFrame
 )
 )
 {
-nsRect
-rootRectRelativeToRootFrame
-;
 nsIFrame
 *
 containingBlock

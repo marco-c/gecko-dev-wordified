@@ -81856,12 +81856,6 @@ been
 included
 already
 .
-nsRect
-childVisual
-;
-nsRect
-childScrollable
-;
 for
 (
 const

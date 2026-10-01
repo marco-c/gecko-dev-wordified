@@ -6704,9 +6704,6 @@ true
 ;
 }
 }
-OverflowAreas
-kidOverflowAreas
-;
 nsReflowStatus
 kidStatus
 ;
