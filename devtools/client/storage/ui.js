@@ -2269,15 +2269,11 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
-:
 this
 .
 _panelDoc
 .
 defaultView
-}
 )
 ;
 const

@@ -28280,11 +28280,7 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
-:
 win
-}
 )
 ;
 const

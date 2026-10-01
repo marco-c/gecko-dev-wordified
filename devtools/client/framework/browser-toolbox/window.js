@@ -1151,9 +1151,7 @@ gShortcuts
 new
 KeyShortcuts
 (
-{
 window
-}
 )
 ;
 gShortcuts

@@ -1431,9 +1431,7 @@ shortcuts
 new
 KeyShortcuts
 (
-{
 window
-}
 )
 ;
 this

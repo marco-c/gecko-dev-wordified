@@ -922,14 +922,9 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
-target
-:
 this
 .
 editorRowContainer
-}
 )
 ;
 this

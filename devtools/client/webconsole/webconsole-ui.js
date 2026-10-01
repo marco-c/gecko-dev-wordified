@@ -4134,13 +4134,9 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
-:
 this
 .
 window
-}
 )
 ;
 for

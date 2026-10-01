@@ -317,9 +317,6 @@ shortcuts
 new
 KeyShortcuts
 (
-{
-window
-:
 this
 .
 tooltip
@@ -327,7 +324,6 @@ tooltip
 doc
 .
 defaultView
-}
 )
 ;
 this
