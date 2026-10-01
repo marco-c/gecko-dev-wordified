@@ -1024,6 +1024,16 @@ use
 self
 :
 :
+font
+:
+:
+MathVariant
+;
+pub
+use
+self
+:
+:
 image
 :
 :

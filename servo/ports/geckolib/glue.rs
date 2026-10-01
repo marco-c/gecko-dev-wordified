@@ -39095,6 +39095,10 @@ value
 MozMathVariant
 =
 >
+get_from_computed
+:
+:
+<
 longhands
 :
 :
@@ -39102,9 +39106,7 @@ _moz_math_variant
 :
 :
 SpecifiedValue
-:
-:
-from_gecko_keyword
+>
 (
 value
 )
