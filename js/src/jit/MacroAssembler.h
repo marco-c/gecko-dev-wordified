@@ -28828,11 +28828,6 @@ const
 ReturnCallAdjustmentInfo
 &
 retCallInfo
-wasm
-:
-:
-CallSiteDesc
-desc
 )
 ;
 void
