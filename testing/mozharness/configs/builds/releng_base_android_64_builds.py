@@ -646,16 +646,6 @@ SHIP_LICENSED_FONTS
     
 }
     
-"
-app_name
-"
-:
-"
-mobile
-/
-android
-"
-    
 #
 Bug
 1583594
