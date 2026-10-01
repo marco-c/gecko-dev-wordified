@@ -931,6 +931,17 @@ quota
 :
 :
 PERSISTENCE_TYPE_DEFAULT
+|
+|
+aOriginMetadata
+.
+mPersistenceType
+=
+=
+quota
+:
+:
+PERSISTENCE_TYPE_PRIVATE
 )
 ;
 quota
