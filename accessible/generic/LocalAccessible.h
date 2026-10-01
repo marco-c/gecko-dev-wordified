@@ -6394,11 +6394,9 @@ the
 document
 has
 no
-body
-or
-/
-/
 root
+/
+/
 element
 or
 if
