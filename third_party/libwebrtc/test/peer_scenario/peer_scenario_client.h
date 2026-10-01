@@ -1408,16 +1408,6 @@ LogWriterFactoryInterface
 >
 log_writer_factory_
 ;
-const
-std
-:
-:
-unique_ptr
-<
-Thread
->
-worker_thread_
-;
 CallbackHandlers
 handlers_
 RTC_GUARDED_BY

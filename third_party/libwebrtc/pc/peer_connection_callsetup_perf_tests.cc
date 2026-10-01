@@ -584,11 +584,6 @@ background_thread_
 get
 (
 )
-background_thread_
-.
-get
-(
-)
 )
 ;
 pc_wrapper

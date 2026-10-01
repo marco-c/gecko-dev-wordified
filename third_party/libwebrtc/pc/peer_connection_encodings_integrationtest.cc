@@ -1663,11 +1663,6 @@ background_thread_
 get
 (
 )
-background_thread_
-.
-get
-(
-)
 )
 ;
 pc_wrapper
@@ -25484,11 +25479,6 @@ background_thread_
 get
 (
 )
-background_thread_
-.
-get
-(
-)
 )
 ;
 pc_wrapper
@@ -25827,11 +25817,6 @@ pc
 env_
 &
 pss_
-background_thread_
-.
-get
-(
-)
 background_thread_
 .
 get
