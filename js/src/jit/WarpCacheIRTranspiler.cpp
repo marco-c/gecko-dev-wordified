@@ -41309,7 +41309,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitGuardNoAllocationMetadataBuilder
+emitAssertNoAllocationMetadataBuilder
 (
 uint32_t
 builderAddrOffset
@@ -41330,6 +41330,7 @@ all
 JIT
 code
 when
+we
 set
 an
 allocation
