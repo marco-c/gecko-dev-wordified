@@ -952,8 +952,6 @@ TimeStamp
 aTimeStamp
 TimeStamp
 aWebrtcCaptureTime
-VideoRotation
-aRotation
 )
 ;
 void
