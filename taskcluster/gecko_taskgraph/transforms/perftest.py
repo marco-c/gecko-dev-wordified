@@ -122,14 +122,6 @@ treeherder
 import
 join_symbol
 split_symbol
-from
-gecko_taskgraph
-.
-transforms
-.
-test
-import
-linux_perf_platform_restrictions
 transforms
 =
 TransformSequence
@@ -3186,14 +3178,6 @@ name
         
 yield
 job
-transforms
-.
-add
-(
-linux_perf_platform_restrictions
-.
-restrict_perftest_to_2404
-)
 transforms
 .
 add
