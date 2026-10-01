@@ -1961,10 +1961,6 @@ mChromeFlags
 (
 aChromeFlags
 )
-mBrowserBridgeParent
-(
-nullptr
-)
 mContentCache
 (
 *
@@ -3474,6 +3470,10 @@ const
 {
 return
 mBrowserBridgeParent
+.
+get
+(
+)
 ;
 }
 BrowserHost
