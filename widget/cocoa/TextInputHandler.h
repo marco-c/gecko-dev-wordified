@@ -7310,14 +7310,6 @@ uint32_t
 aStartOffset
 )
 ;
-enum
-class
-PreventSetSelection
-{
-Yes
-No
-}
-;
 void
 ReplaceTextForTextSubstitution
 (

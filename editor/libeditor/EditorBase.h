@@ -4702,14 +4702,6 @@ No
 Yes
 }
 ;
-enum
-class
-PreventSetSelection
-{
-No
-Yes
-}
-;
 /
 *
 *

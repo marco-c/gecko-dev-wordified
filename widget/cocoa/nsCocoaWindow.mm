@@ -26480,7 +26480,10 @@ command
 true
 eContentCommandPasteTransferable
 mGeckoChild
-true
+OnlyEnabledCheck
+:
+:
+Yes
 )
 ;
 command
