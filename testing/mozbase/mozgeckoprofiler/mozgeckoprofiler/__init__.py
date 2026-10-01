@@ -73,19 +73,13 @@ from
 .
 profiling
 import
-(
-    
-save_gecko_profile
-    
 symbolicate_profile_json
-    
 symbolicate_profiles
-)
 from
 .
 symbolication
 import
-symbolicate_profile
+symbolicate_profile_file
 from
 .
 viewgeckoprofile
@@ -96,11 +90,7 @@ __all__
 [
     
 "
-save_gecko_profile
-"
-    
-"
-symbolicate_profile
+symbolicate_profile_file
 "
     
 "
