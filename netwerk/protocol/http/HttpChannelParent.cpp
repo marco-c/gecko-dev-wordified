@@ -1263,11 +1263,6 @@ redirectionLimit
 )
 a
 .
-allowSTS
-(
-)
-a
-.
 thirdPartyFlags
 (
 )
@@ -3327,10 +3322,6 @@ uint8_t
 &
 redirectionLimit
 const
-bool
-&
-allowSTS
-const
 uint32_t
 &
 thirdPartyFlags
@@ -4531,14 +4522,6 @@ httpChannel
 SetRedirectionLimit
 (
 redirectionLimit
-)
-;
-httpChannel
--
->
-SetAllowSTS
-(
-allowSTS
 )
 ;
 httpChannel

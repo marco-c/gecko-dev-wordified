@@ -882,10 +882,6 @@ uint8_t
 &
 redirectionLimit
 const
-bool
-&
-allowSTS
-const
 uint32_t
 &
 thirdPartyFlags
