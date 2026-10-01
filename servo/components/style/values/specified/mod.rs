@@ -1343,6 +1343,16 @@ UserSelect
 ;
 pub
 use
+self
+:
+:
+table
+:
+:
+BorderCollapse
+;
+pub
+use
 super
 :
 :
