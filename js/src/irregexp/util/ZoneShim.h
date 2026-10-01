@@ -325,6 +325,11 @@ T
 &
 numBytes
 )
+|
+|
+numBytes
+>
+INT32_MAX
 )
 {
 oomUnsafe
@@ -351,12 +356,7 @@ inner
 .
 alloc
 (
-length
-*
-sizeof
-(
-T
-)
+numBytes
 )
 ;
 if
