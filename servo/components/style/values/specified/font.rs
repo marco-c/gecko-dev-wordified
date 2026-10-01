@@ -1477,7 +1477,7 @@ get_parent_font
 (
 )
 .
-clone_font_weight
+get_font_weight
 (
 )
 .
@@ -1498,7 +1498,7 @@ get_parent_font
 (
 )
 .
-clone_font_weight
+get_font_weight
 (
 )
 .
@@ -6544,7 +6544,7 @@ get_parent_font
 (
 )
 .
-clone_font_size
+slow_clone_font_size
 (
 )
 .

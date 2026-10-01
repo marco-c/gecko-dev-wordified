@@ -789,7 +789,7 @@ line_height
 =
 font
 .
-clone_line_height
+get_line_height
 (
 )
 ;
@@ -805,7 +805,6 @@ bindings
 :
 Gecko_CalcLineHeight
 (
-&
 line_height
 pres_context
 .

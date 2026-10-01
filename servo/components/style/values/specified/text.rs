@@ -3155,6 +3155,7 @@ Start
 let
 parent
 =
+*
 _context
 .
 builder
@@ -3163,7 +3164,7 @@ get_parent_inherited_text
 (
 )
 .
-clone_text_align
+get_text_align
 (
 )
 ;
@@ -3256,6 +3257,7 @@ MozCenterOrInherit
 let
 parent
 =
+*
 _context
 .
 builder
@@ -3264,7 +3266,7 @@ get_parent_inherited_text
 (
 )
 .
-clone_text_align
+get_text_align
 (
 )
 ;
@@ -3755,6 +3757,7 @@ mode
 property
 .
 if
+*
 context
 .
 style
@@ -3765,7 +3768,7 @@ get_inherited_box
 (
 )
 .
-clone_writing_mode
+get_writing_mode
 (
 )
 =

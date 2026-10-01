@@ -1017,13 +1017,14 @@ return
 false
 ;
 }
+*
 style
 .
 get_box
 (
 )
 .
-clone_display
+get_display
 (
 )
 =
