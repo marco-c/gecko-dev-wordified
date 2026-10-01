@@ -440,8 +440,9 @@ virtual
 MallocProfilerCallbacks
 (
 )
-{
-}
+=
+default
+;
 using
 TS
 =

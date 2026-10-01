@@ -321,8 +321,9 @@ public
 BaseArray
 (
 )
-{
-}
+=
+default
+;
 ~
 BaseArray
 (

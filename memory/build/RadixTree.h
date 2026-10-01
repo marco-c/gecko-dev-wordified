@@ -481,8 +481,9 @@ constexpr
 AddressRadixTree
 (
 )
-{
-}
+=
+default
+;
 bool
 Init
 (
