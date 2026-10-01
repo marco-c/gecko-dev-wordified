@@ -524,7 +524,7 @@ count
 detail
 :
 :
-check_range_doesnt_cross_app_sbx_boundary
+check_sandbox_pointer_range_is_contained
 <
 T_Sbx
 >
@@ -4009,7 +4009,7 @@ nullptr
 detail
 :
 :
-check_range_doesnt_cross_app_sbx_boundary
+check_sandbox_pointer_range_is_contained
 <
 T_Sbx
 >
