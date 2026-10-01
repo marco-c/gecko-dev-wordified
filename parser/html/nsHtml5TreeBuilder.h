@@ -2037,9 +2037,6 @@ insertIntoFosterParent
 nsIContentHandle
 *
 child
-nsIContentHandle
-*
-furthestBlock
 )
 ;
 nsIContentHandle
