@@ -255,6 +255,12 @@ properties
 agent
 :
 {
+monitorName
+:
+"
+Example
+product
+"
 url
 :
 "
