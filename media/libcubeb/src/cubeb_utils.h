@@ -345,6 +345,7 @@ T
 ;
 }
 namespace
+detail
 {
 template
 <
@@ -431,6 +432,7 @@ count
 /
 /
 namespace
+detail
 /
 *
 *
@@ -501,6 +503,9 @@ destination
 source
 )
 ;
+detail
+:
+:
 Copy
 (
 destination
@@ -523,6 +528,7 @@ type
 ;
 }
 namespace
+detail
 {
 template
 <
@@ -599,6 +605,7 @@ count
 /
 /
 namespace
+detail
 /
 *
 *
@@ -649,6 +656,9 @@ assert
 destination
 )
 ;
+detail
+:
+:
 ConstructDefault
 (
 destination
