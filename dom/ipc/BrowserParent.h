@@ -5203,8 +5203,10 @@ non
 -
 null
 .
+RefPtr
+<
 BrowserHost
-*
+>
 mBrowserHost
 ;
 /
