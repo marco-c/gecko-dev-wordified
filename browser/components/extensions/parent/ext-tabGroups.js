@@ -1032,9 +1032,9 @@ if
 (
 event
 .
-originalTarget
+detail
 .
-removedByAdoption
+adopting
 )
 {
 /
