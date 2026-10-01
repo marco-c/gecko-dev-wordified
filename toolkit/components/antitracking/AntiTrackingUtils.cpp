@@ -7868,13 +7868,6 @@ XRE_IsParentProcess
 return
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
-(
-XRE_IsParentProcess
-(
-)
-)
-;
 AntiTrackingUtils
 :
 :
