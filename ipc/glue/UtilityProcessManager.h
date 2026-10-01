@@ -1435,8 +1435,10 @@ current
 Utility
 process
 .
+RefPtr
+<
 UtilityProcessHost
-*
+>
 mProcess
 =
 nullptr

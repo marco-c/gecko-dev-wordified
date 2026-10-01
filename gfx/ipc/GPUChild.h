@@ -815,8 +815,10 @@ GPUDeviceData
 aData
 )
 ;
+RefPtr
+<
 GPUProcessHost
-*
+>
 mHost
 ;
 UniquePtr

@@ -8926,8 +8926,10 @@ more
 /
 details
 .
+RefPtr
+<
 GeckoChildProcessHost
-*
+>
 mSubprocess
 ;
 const
