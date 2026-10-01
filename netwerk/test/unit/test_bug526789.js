@@ -257,7 +257,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -267,6 +267,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -276,7 +278,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 BAZ
@@ -286,6 +288,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -295,7 +299,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -306,6 +310,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -315,7 +321,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -326,6 +332,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -335,7 +343,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -347,6 +355,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -358,7 +368,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -370,6 +380,8 @@ com
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -385,7 +397,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -396,6 +408,8 @@ com
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -411,7 +425,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -423,6 +437,8 @@ com
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -456,7 +472,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -466,6 +482,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -494,7 +512,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -504,6 +522,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -585,7 +605,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -595,6 +615,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -604,7 +626,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 BAZ
@@ -614,6 +636,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -623,7 +647,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -634,6 +658,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -643,7 +669,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -654,6 +680,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -663,7 +691,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -675,6 +703,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -703,7 +733,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -714,6 +744,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -743,7 +775,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 baz
@@ -754,6 +786,8 @@ com
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -849,7 +883,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 192
@@ -863,6 +897,8 @@ countCookiesFromHost
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -872,7 +908,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 192
@@ -887,6 +923,8 @@ countCookiesFromHost
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -898,7 +936,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -913,6 +951,8 @@ countCookiesFromHost
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -928,7 +968,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -944,6 +984,8 @@ countCookiesFromHost
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -1007,7 +1049,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 localhost
@@ -1015,6 +1057,8 @@ localhost
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -1024,7 +1068,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 localhost
@@ -1033,6 +1077,8 @@ localhost
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -1044,7 +1090,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -1053,6 +1099,8 @@ localhost
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -1068,7 +1116,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -1078,6 +1126,8 @@ localhost
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -1143,7 +1193,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 co
@@ -1153,6 +1203,8 @@ uk
 {
 }
 )
+.
+length
 1
 )
 ;
@@ -1162,7 +1214,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 co
@@ -1173,6 +1225,8 @@ uk
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -1184,7 +1238,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -1195,6 +1249,8 @@ uk
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -1210,7 +1266,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -1222,6 +1278,8 @@ uk
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -1364,13 +1422,15 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 "
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -1382,7 +1442,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -1390,6 +1450,8 @@ countCookiesFromHost
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -1405,7 +1467,7 @@ function
 {
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 .
@@ -1414,6 +1476,8 @@ countCookiesFromHost
 {
 }
 )
+.
+length
 ;
 }
 Cr
@@ -2222,12 +2286,14 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 domain
 {
 }
 )
+.
+length
 0
 )
 ;
@@ -2237,7 +2303,7 @@ equal
 (
 cm
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 domain
 +
@@ -2247,6 +2313,8 @@ domain
 {
 }
 )
+.
+length
 0
 )
 ;
