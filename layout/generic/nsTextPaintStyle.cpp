@@ -3527,7 +3527,7 @@ int32_t
 StyleTextDecorationStyle
 :
 :
-Sentinel
+Wavy
 )
 )
 {
