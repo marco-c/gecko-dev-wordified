@@ -624,7 +624,7 @@ integer
 add_task
 (
 function
-test_moz_url_format_hydrates_to_url_object
+test_uri_format_hydrates_to_url_object
 (
 )
 {
@@ -640,9 +640,7 @@ string
 format
 :
 "
-moz
--
-url
+uri
 "
 }
 ;
@@ -677,9 +675,9 @@ parsed
 )
 "
 a
-moz
+uri
 -
-url
+formatted
 string
 becomes
 a
@@ -711,9 +709,7 @@ path
 /
 format
 :
-moz
--
-url
+uri
 is
 permissive
 (
@@ -832,9 +828,7 @@ anyOf
 format
 :
 "
-moz
--
-url
+uri
 "
 }
 {
@@ -1406,9 +1400,7 @@ string
 format
 :
 "
-moz
--
-url
+uri
 "
 }
 }
