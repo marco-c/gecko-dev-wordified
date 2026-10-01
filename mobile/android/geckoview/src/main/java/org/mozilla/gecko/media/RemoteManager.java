@@ -906,6 +906,8 @@ catch
 (
 final
 RemoteException
+|
+NullPointerException
 e
 )
 {
