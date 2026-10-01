@@ -609,7 +609,9 @@ mjs
 ;
 const
 {
+ResumeActivity
 _clearDismissedResumeMemoriesForTesting
+_resetResumeSectionHiddenForTesting
 }
 =
 ChromeUtils
@@ -634,7 +636,7 @@ ui
 /
 modules
 /
-ResumeActivityDismissals
+ResumeActivity
 .
 sys
 .
