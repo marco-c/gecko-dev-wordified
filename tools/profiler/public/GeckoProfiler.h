@@ -3399,8 +3399,6 @@ profiler_unregister_thread
 )
 ;
 }
-private
-:
 AutoProfilerRegisterThread
 (
 const

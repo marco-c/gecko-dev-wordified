@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+ProfileJSONWriter
+.
+h
+"
+#
+include
+"
+mozilla
+/
 profiler_ffi_generated
 .
 h
