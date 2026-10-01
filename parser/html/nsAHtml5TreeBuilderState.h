@@ -273,8 +273,9 @@ virtual
 nsAHtml5TreeBuilderState
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

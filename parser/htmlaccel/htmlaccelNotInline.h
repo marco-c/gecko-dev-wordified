@@ -76,6 +76,11 @@ include
 <
 cstddef
 >
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 :
