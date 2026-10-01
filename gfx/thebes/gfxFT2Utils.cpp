@@ -1032,7 +1032,7 @@ value
 ;
 value
 .
-mTag
+tag
 =
 aMMVar
 -
@@ -1046,7 +1046,7 @@ tag
 ;
 value
 .
-mValue
+value
 =
 ns
 .

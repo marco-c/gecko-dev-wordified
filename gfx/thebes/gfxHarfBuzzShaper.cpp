@@ -8493,7 +8493,7 @@ hb_variation_t
 offsetof
 (
 gfxFontVariation
-mTag
+tag
 )
 =
 =
@@ -8507,7 +8507,7 @@ tag
 offsetof
 (
 gfxFontVariation
-mValue
+value
 )
 =
 =

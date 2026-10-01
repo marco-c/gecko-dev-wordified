@@ -6779,7 +6779,7 @@ tag
 =
 v
 .
-mTag
+tag
 )
 {
 FT_Fixed
@@ -6787,7 +6787,7 @@ val
 =
 v
 .
-mValue
+value
 *
 0x10000
 ;
