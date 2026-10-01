@@ -6567,6 +6567,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 head
