@@ -3588,7 +3588,7 @@ config
 "
 raptor
 /
-windows_external_browser_config
+windows_config
 .
 py
 "
