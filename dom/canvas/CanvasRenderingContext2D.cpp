@@ -29386,7 +29386,7 @@ None
 :
 setting
 .
-mValue
+value
 =
 0
 ;
@@ -29409,7 +29409,7 @@ Normal
 :
 setting
 .
-mValue
+value
 =
 1
 ;

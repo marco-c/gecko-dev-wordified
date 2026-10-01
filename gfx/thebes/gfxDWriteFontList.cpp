@@ -5820,11 +5820,11 @@ makeDWriteAxisTag
 (
 v
 .
-mTag
+tag
 )
 v
 .
-mValue
+value
 }
 ;
 fontAxisValues
@@ -6010,11 +6010,11 @@ makeDWriteAxisTag
 (
 v
 .
-mTag
+tag
 )
 v
 .
-mValue
+value
 }
 ;
 fontAxisValues
