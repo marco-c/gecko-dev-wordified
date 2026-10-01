@@ -144,6 +144,15 @@ use
 crate
 :
 :
+quad_clip
+:
+:
+QuadClipStack
+;
+use
+crate
+:
+:
 render_task_cache
 :
 :
@@ -378,6 +387,10 @@ clip_chain
 :
 &
 ClipChainInstance
+clips
+:
+&
+QuadClipStack
 quad_transform
 :
 &
@@ -1804,6 +1817,7 @@ edge_flags
 &
 None
 clip_chain
+clips
 quad_transform
 frame_context
 pic_context
@@ -2357,6 +2371,7 @@ spacing
 &
 None
 clip_chain
+clips
 quad_transform
 frame_context
 pic_context

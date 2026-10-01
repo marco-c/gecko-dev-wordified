@@ -141,6 +141,15 @@ use
 crate
 :
 :
+quad_clip
+:
+:
+QuadClipStack
+;
+use
+crate
+:
+:
 scene_building
 :
 :
@@ -1371,6 +1380,10 @@ clip_chain
 :
 &
 ClipChainInstance
+clips
+:
+&
+QuadClipStack
 quad_transform
 :
 &
@@ -1996,6 +2009,7 @@ transformed_aa_edges
 &
 None
 clip_chain
+clips
 quad_transform
 frame_context
 pic_context
@@ -2040,6 +2054,7 @@ tile_spacing
 &
 None
 clip_chain
+clips
 quad_transform
 frame_context
 pic_context
@@ -2362,6 +2377,7 @@ transformed_aa_edges
 &
 None
 clip_chain
+clips
 quad_transform
 frame_context
 pic_context
