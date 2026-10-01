@@ -685,14 +685,6 @@ bin
     
 }
     
-"
-mozconfig_platform
-"
-:
-"
-win32
-"
-    
 #
 #
 #
