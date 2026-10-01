@@ -391,17 +391,11 @@ let
 eventDetails
 =
 {
-type
-:
-"
-mousedown
-"
 button
 :
 2
 }
 ;
-await
 EventUtils
 .
 synthesizeMouseAtPoint
@@ -437,7 +431,6 @@ button
 2
 }
 ;
-await
 EventUtils
 .
 synthesizeMouseAtPoint
