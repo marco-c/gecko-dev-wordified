@@ -3053,6 +3053,15 @@ nsIContent
 :
 UnbindFromTree
 ;
+void
+NodeInfoChanged
+(
+Document
+*
+aOldDoc
+)
+override
+;
 /
 /
 Container
