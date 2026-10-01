@@ -1318,6 +1318,9 @@ verbose
 what
 =
 None
+append_env
+=
+None
 )
 :
         
@@ -1332,6 +1335,25 @@ build
 '
 is
 executed
+.
+        
+append_env
+holds
+environment
+variables
+every
+command
+of
+the
+build
+        
+runs
+with
+such
+as
+the
+PGO
+mode
 .
         
 This

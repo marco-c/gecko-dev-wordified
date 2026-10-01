@@ -10426,11 +10426,16 @@ backend_cls
 .
 build
 (
+                    
 self
 output
 jobs
 verbose
 what
+append_env
+=
+append_env
+                
 )
                 
 if
