@@ -2965,11 +2965,13 @@ derive
 (
 Copy
 Debug
+Default
 Clone
 MallocSizeOf
 PartialEq
 Serialize
 Deserialize
+PeekPoke
 )
 ]
 pub
@@ -3194,6 +3196,7 @@ derive
 (
 Copy
 Debug
+Default
 Clone
 MallocSizeOf
 PartialEq
@@ -3201,6 +3204,7 @@ Eq
 Hash
 Serialize
 Deserialize
+PeekPoke
 )
 ]
 pub
