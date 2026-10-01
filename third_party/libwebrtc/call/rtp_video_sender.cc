@@ -821,13 +821,7 @@ codecType
 =
 PayloadStringToCodecType
 (
-std
-:
-:
-string
-(
 payload_name
-)
 )
 ;
 if
