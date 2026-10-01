@@ -386,6 +386,14 @@ gfxPlatform
 IsHeadless
 (
 )
+|
+|
+StaticPrefs
+:
+:
+layers_gpu_process_allow_headless_AtStartup
+(
+)
 )
 ;
 mPrefSerializer

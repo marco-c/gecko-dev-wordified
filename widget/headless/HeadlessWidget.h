@@ -754,9 +754,9 @@ mDestroyed
 bool
 mAlwaysOnTop
 ;
-HeadlessCompositorWidget
+CompositorWidgetDelegate
 *
-mCompositorWidget
+mCompositorWidgetDelegate
 ;
 nsSizeMode
 mSizeMode

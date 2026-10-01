@@ -65,7 +65,11 @@ widget_headless_HeadlessCompositorWidget_h
 #
 include
 "
-HeadlessWidget
+mozilla
+/
+widget
+/
+CompositorWidget
 .
 h
 "
@@ -76,7 +80,7 @@ mozilla
 /
 widget
 /
-CompositorWidget
+HeadlessWidget
 .
 h
 "
@@ -91,7 +95,6 @@ HeadlessCompositorWidgetInitData
 ;
 class
 HeadlessCompositorWidget
-final
 :
 public
 CompositorWidget
@@ -126,6 +129,7 @@ LayoutDeviceIntSize
 &
 aClientSize
 )
+override
 ;
 /
 /
