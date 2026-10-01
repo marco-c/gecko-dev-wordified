@@ -211,17 +211,6 @@ FramePointer
 static
 constexpr
 Register
-LinkRegister
-{
-Registers
-:
-:
-invalid_reg2
-}
-;
-static
-constexpr
-Register
 ReturnReg
 {
 Registers
