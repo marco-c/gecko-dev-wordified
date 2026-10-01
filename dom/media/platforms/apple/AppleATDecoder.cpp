@@ -1453,6 +1453,11 @@ mTotalMediaFrames
 aacCodecSpecificData
 .
 mMediaFrameCount
+.
+valueOr
+(
+0
+)
 ;
 LOG
 (
