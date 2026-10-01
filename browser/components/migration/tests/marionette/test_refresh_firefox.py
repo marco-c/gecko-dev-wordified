@@ -4281,12 +4281,18 @@ importESModule
 (
             
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
+/
+migration
 /
 MigrationUtils
 .
