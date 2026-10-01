@@ -905,13 +905,6 @@ returnLabel
 scratch
 )
 ;
-masm
-.
-push
-(
-scratch
-)
-;
 /
 /
 Frame
@@ -919,8 +912,9 @@ prologue
 .
 masm
 .
-push
+pushRegs
 (
+scratch
 ebp
 )
 ;
