@@ -781,7 +781,7 @@ less
 even
 if
 more
-tasks
+secrets
 are
 available
 .
@@ -817,7 +817,7 @@ you
         
 keep
 calling
-listTaskGroup
+list
 with
 the
 last
