@@ -4766,7 +4766,7 @@ local_stream
 ;
 }
 }
-nr_ice_peer_ctx_check_if_connected
+nr_ice_peer_ctx_react_to_stream_change
 (
 stream
 -
@@ -5144,7 +5144,7 @@ re
 connected
 *
 /
-nr_ice_peer_ctx_check_if_connected
+nr_ice_peer_ctx_react_to_stream_change
 (
 stream
 -
@@ -5269,7 +5269,7 @@ ve
 failed
 *
 /
-nr_ice_peer_ctx_check_if_connected
+nr_ice_peer_ctx_react_to_stream_change
 (
 stream
 -
@@ -6357,7 +6357,7 @@ host_buf
 256
 ]
 ;
-int
+uint16_t
 port
 ;
 if
@@ -6520,7 +6520,7 @@ s
 ]
 :
 %
-d
+u
 %
 s
 "
@@ -6548,7 +6548,7 @@ s
 s
 :
 %
-d
+u
 %
 s
 "
