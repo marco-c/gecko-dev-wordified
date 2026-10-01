@@ -383,12 +383,12 @@ apple
 .
 Safari
 "
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsMacShellService
-nsIMacShellService
+nsShellService
 nsIShellService
-nsIToolkitShellService
+nsIMacShellService
 nsIWebProgressListener
 )
 NS_IMETHODIMP

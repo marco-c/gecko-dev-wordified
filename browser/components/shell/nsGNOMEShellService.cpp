@@ -651,12 +651,12 @@ mAppPath
 )
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 nsGNOMEShellService
+nsShellService
 nsIGNOMEShellService
 nsIShellService
-nsIToolkitShellService
 )
 bool
 nsGNOMEShellService

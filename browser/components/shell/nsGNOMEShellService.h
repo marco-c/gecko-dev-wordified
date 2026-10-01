@@ -72,7 +72,7 @@ h
 #
 include
 "
-nsToolkitShellService
+nsShellService
 .
 h
 "
@@ -103,9 +103,9 @@ nsGNOMEShellService
 final
 :
 public
-nsIGNOMEShellService
+nsShellService
 public
-nsToolkitShellService
+nsIGNOMEShellService
 {
 public
 :
@@ -119,7 +119,7 @@ false
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSISHELLSERVICE
 NS_DECL_NSIGNOMESHELLSERVICE
 nsresult
