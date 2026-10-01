@@ -252,6 +252,8 @@ virtual
 void
 EndLoad
 (
+bool
+aFireDOMContentLoadedSync
 )
 override
 ;

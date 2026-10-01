@@ -4650,6 +4650,13 @@ doc
 >
 EndLoad
 (
+/
+*
+aFireDOMContentLoadedSync
+=
+*
+/
+true
 )
 ;
 return
