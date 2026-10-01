@@ -532,7 +532,7 @@ enum
 class
 Kind
 :
-uint32_t
+uint8_t
 {
 Unparsed
 Atom
@@ -737,6 +737,13 @@ compilationArray
 2
 ]
 ;
+GCPtr
+<
+JSAtom
+*
+>
+patternAtom_
+;
 uint32_t
 pairCount_
 ;
@@ -756,13 +763,6 @@ Kind
 :
 :
 Unparsed
-;
-GCPtr
-<
-JSAtom
-*
->
-patternAtom_
 ;
 uint32_t
 maxRegisters_

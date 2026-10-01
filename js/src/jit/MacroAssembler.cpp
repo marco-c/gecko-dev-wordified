@@ -40295,11 +40295,11 @@ Kind
 =
 sizeof
 (
-uint32_t
+uint8_t
 )
 )
 ;
-branch32
+branch8
 (
 Assembler
 :
