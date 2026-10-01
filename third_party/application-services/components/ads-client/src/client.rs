@@ -596,6 +596,7 @@ and_then
 |
 x
 |
+{
 match
 AdsStore
 :
@@ -609,6 +610,11 @@ db_path
 .
 build
 (
+telemetry
+.
+clone
+(
+)
 )
 {
 Ok
@@ -637,6 +643,7 @@ e
 )
 ;
 None
+}
 }
 }
 )
@@ -1910,6 +1917,12 @@ db
 .
 build
 (
+MozAdsTelemetryWrapper
+:
+:
+noop
+(
+)
 )
 .
 expect
