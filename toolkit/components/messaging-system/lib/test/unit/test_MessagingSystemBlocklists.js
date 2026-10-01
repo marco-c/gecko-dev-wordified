@@ -126,7 +126,7 @@ of
 [
 /
 /
-Both
+The
 in
 -
 tree
@@ -141,6 +141,9 @@ CONFIRM_LAUNCH_ON_LOGIN
 "
 "
 PIN_FIREFOX_TO_TASKBAR
+"
+"
+ENABLE_CLOSED_BROWSER_NOTIFICATIONS
 "
 /
 /
