@@ -2462,13 +2462,13 @@ true
 ]
 histories
 context
-conditionalPayloadProperties
+payloadRules
 :
 {
 url
 :
 {
-custom
+validate
 :
 (
 index
@@ -2509,7 +2509,7 @@ true
 sponsoredClickUrl
 :
 {
-custom
+validate
 :
 (
 index
@@ -3541,13 +3541,13 @@ isPrivate
 false
 }
 )
-conditionalPayloadProperties
+payloadRules
 :
 {
 url
 :
 {
-custom
+validate
 :
 (
 _index
@@ -3576,7 +3576,7 @@ true
 sponsoredClickUrl
 :
 {
-custom
+validate
 :
 (
 _index
@@ -6407,6 +6407,10 @@ adm
 "
 icon
 :
+UrlbarTestUtils
+.
+makeMozRemoteImageUrl
+(
 "
 https
 :
@@ -6420,6 +6424,7 @@ amp
 -
 icon
 "
+)
 iabCategory
 :
 "
@@ -6623,6 +6628,10 @@ adm
 "
 icon
 :
+UrlbarTestUtils
+.
+makeMozRemoteImageUrl
+(
 "
 https
 :
@@ -6636,6 +6645,7 @@ amp
 -
 icon
 "
+)
 iabCategory
 :
 "
@@ -7914,6 +7924,10 @@ adm
 "
 icon
 :
+UrlbarTestUtils
+.
+makeMozRemoteImageUrl
+(
 "
 https
 :
@@ -7927,6 +7941,7 @@ amp
 -
 icon
 "
+)
 iabCategory
 :
 "

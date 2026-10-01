@@ -3605,7 +3605,7 @@ check_results
 {
 object
 }
-conditionalPayloadProperties
+payloadRules
 (
 optional
 )
@@ -3863,7 +3863,7 @@ prefs
 nimbus
 histories
 context
-conditionalPayloadProperties
+payloadRules
 expected
 merinoSuggestions
 =
@@ -3985,7 +3985,7 @@ check_results
 (
 {
 context
-conditionalPayloadProperties
+payloadRules
 matches
 :
 expected
@@ -4807,7 +4807,7 @@ check_results
 {
 object
 }
-conditionalPayloadProperties
+payloadRules
 (
 optional
 )
@@ -4965,7 +4965,7 @@ for
 let
 {
 context
-conditionalPayloadProperties
+payloadRules
 targetIndex
 before
 after
@@ -4979,7 +4979,7 @@ check_results
 (
 {
 context
-conditionalPayloadProperties
+payloadRules
 matches
 :
 before
@@ -5067,7 +5067,7 @@ check_results
 (
 {
 context
-conditionalPayloadProperties
+payloadRules
 matches
 :
 after

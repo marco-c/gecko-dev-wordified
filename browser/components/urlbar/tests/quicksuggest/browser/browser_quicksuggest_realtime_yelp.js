@@ -1023,9 +1023,14 @@ items
 {
 image
 :
+UrlbarTestUtils
+.
+makeMozRemoteImageUrl
+(
 target
 .
 image_url
+)
 title
 :
 target
@@ -1514,9 +1519,14 @@ i
 {
 image
 :
+UrlbarTestUtils
+.
+makeMozRemoteImageUrl
+(
 target
 .
 image_url
+)
 title
 :
 target
@@ -1707,7 +1717,6 @@ value
 url
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1899,7 +1908,6 @@ value
 url
 )
 ;
-await
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -1977,9 +1985,9 @@ item
 expected
 )
 {
-Assert
+UrlbarTestUtils
 .
-equal
+checkImageUrl
 (
 item
 .
