@@ -393,13 +393,7 @@ gc
 edge
 :
 "
-*
-*
-UNKNOWN
-SLOT
-1
-*
-*
+native_func_or_env
 "
 }
 {
