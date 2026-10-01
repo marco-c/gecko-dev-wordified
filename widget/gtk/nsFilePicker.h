@@ -409,6 +409,10 @@ void
 DoneCommon
 (
 ResultCode
+nsCOMPtr
+<
+nsIFilePickerShownCallback
+>
 )
 ;
 RefPtr
