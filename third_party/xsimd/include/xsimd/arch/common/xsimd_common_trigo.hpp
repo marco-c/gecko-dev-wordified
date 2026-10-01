@@ -1871,13 +1871,10 @@ enable_if_t
 std
 :
 :
-is_integral
+is_integral_v
 <
 T
 >
-:
-:
-value
 >
 >
 XSIMD_INLINE

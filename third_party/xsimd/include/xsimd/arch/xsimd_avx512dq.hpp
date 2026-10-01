@@ -293,7 +293,8 @@ avx512dq
 )
 noexcept
 {
-XSIMD_IF_CONSTEXPR
+if
+constexpr
 (
 mask
 .
@@ -432,7 +433,8 @@ avx512dq
 )
 noexcept
 {
-XSIMD_IF_CONSTEXPR
+if
+constexpr
 (
 mask
 .
@@ -2050,7 +2052,8 @@ is_dup_hi
 mask
 )
 ;
-XSIMD_IF_CONSTEXPR
+if
+constexpr
 (
 dup_lo
 |

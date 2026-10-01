@@ -4515,13 +4515,10 @@ enable_if_t
 std
 :
 :
-is_floating_point
+is_floating_point_v
 <
 T
 >
-:
-:
-value
 >
 >
 XSIMD_INLINE
