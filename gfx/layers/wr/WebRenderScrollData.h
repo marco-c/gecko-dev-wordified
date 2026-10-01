@@ -301,7 +301,7 @@ for
 WebRenderScrollData
 :
 :
-Validate
+ValidateShape
 (
 )
 .
@@ -624,6 +624,18 @@ mReferentId
 Some
 (
 aReferentId
+)
+;
+}
+void
+ClearReferentId
+(
+)
+{
+mReferentId
+=
+Nothing
+(
 )
 ;
 }
@@ -1467,7 +1479,7 @@ content
 process
 .
 bool
-Validate
+ValidateShape
 (
 )
 const
