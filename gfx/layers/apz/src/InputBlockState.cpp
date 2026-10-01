@@ -1809,7 +1809,7 @@ apzc
 mOverscrollHandoffChain
 -
 >
-FindFirstScrollable
+FindScrollTarget
 (
 aInitialEvent
 &
@@ -2035,7 +2035,7 @@ apzc
 handoffChain
 -
 >
-FindFirstScrollable
+FindScrollTarget
 (
 *
 aFirstInput
@@ -2133,7 +2133,7 @@ apzc
 handoffChain
 -
 >
-FindFirstScrollable
+FindScrollTarget
 (
 *
 aFirstInput
@@ -3387,7 +3387,7 @@ apzc
 mOverscrollHandoffChain
 -
 >
-FindFirstScrollable
+FindScrollTarget
 (
 aInitialEvent
 &
@@ -3512,7 +3512,7 @@ BuildOverscrollHandoffChain
 )
 -
 >
-FindFirstScrollable
+FindScrollTarget
 (
 *
 aFirstInput
