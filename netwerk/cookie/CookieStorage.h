@@ -127,9 +127,6 @@ class
 nsICookie
 ;
 class
-nsICookieTransactionCallback
-;
-class
 nsIPrefBranch
 ;
 namespace
@@ -861,17 +858,6 @@ virtual
 void
 EnsureInitialized
 (
-)
-=
-0
-;
-virtual
-nsresult
-RunInTransaction
-(
-nsICookieTransactionCallback
-*
-aCallback
 )
 =
 0
