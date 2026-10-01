@@ -88,6 +88,9 @@ mod
 intermediate_representation
 ;
 mod
+lints
+;
+mod
 parser
 ;
 mod

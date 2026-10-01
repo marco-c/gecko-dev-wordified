@@ -127,6 +127,17 @@ AdPlacementRequest
 AdRequestFlags
 }
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+stateful
+"
+)
+]
 pub
 mod
 ads_store
