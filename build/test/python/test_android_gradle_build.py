@@ -700,8 +700,6 @@ GRADLE_FLAGS
 =
 "
 -
-PbuildMetrics
--
 PbuildMetricsOutputDir
 =
 {
