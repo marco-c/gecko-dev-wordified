@@ -835,6 +835,9 @@ TaskQueue
 >
 &
 aTaskQueue
+AllocPolicy
+*
+aPolicy
 )
 {
 /
@@ -943,6 +946,7 @@ StrictSupportsAsync
 (
 aConfig
 aTaskQueue
+aPolicy
 )
 -
 >
