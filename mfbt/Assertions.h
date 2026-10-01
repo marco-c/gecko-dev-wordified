@@ -3706,13 +3706,12 @@ MOZ_RELEASE_ASSERT
 in
 Nightly
 and
-early
-beta
+Developer
 *
+Edition
 and
 MOZ_ASSERT
 in
-late
 Beta
 and
 Release
