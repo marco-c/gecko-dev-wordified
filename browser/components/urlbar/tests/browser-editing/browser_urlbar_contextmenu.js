@@ -2819,6 +2819,7 @@ Assert
 .
 ok
 (
+!
 subMenuItem
 .
 hasAttribute
@@ -2834,9 +2835,11 @@ for
 {
 userContextId
 }
-has
-an
-accesskey
+should
+have
+no
+access
+key
 )
 ;
 return
