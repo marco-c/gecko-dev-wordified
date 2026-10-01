@@ -1205,6 +1205,14 @@ max_sctp_streams
 o
 .
 max_sctp_streams
+&
+&
+enable_sctp_snap
+=
+=
+o
+.
+enable_sctp_snap
 ;
 }
 bool
