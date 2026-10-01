@@ -4281,7 +4281,7 @@ tabGroupCreateEvent
 .
 detail
 .
-isAdoptingGroup
+adopting
 "
 TabGroupCreate
 event
@@ -4578,7 +4578,7 @@ event
 .
 detail
 .
-isAdoptingGroup
+adopting
 "
 a
 tab

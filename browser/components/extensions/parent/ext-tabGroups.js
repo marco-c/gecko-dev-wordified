@@ -741,7 +741,7 @@ event
 .
 detail
 .
-isAdoptingGroup
+adopting
 )
 {
 /
@@ -897,7 +897,7 @@ event
 .
 detail
 .
-isAdoptingGroup
+adopting
 )
 {
 /
