@@ -2690,6 +2690,15 @@ Module
 \
 MACRO_
 (
+DeferredModule
+"
+Deferred
+Module
+"
+)
+\
+MACRO_
+(
 month
 "
 month
