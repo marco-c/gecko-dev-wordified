@@ -174,7 +174,7 @@ Services
 .
 cookies
 .
-countCookiesFromHost
+getCookiesFromHost
 (
 "
 e
@@ -184,6 +184,8 @@ com
 {
 }
 )
+.
+length
 1
 )
 ;
