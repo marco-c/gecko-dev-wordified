@@ -2430,8 +2430,10 @@ msg
 aTransforms
 )
 {
+RefPtr
+<
 BrowserParent
-*
+>
 parent
 =
 BrowserParent
