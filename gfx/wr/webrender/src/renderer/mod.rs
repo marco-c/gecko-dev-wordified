@@ -24737,14 +24737,6 @@ Other
 ;
 self
 .
-device
-.
-disable_stencil
-(
-)
-;
-self
-.
 bind_frame_data
 (
 frame
