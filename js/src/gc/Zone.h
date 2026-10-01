@@ -5105,11 +5105,16 @@ return
 gcScheduled_
 ;
 }
+#
+ifdef
+DEBUG
 bool
 isAnyRealmPreservingCode
 (
 )
 ;
+#
+endif
 void
 changeGCState
 (
