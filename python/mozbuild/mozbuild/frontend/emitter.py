@@ -160,6 +160,8 @@ FinalTargetPreprocessedFiles
     
 GeneratedFile
     
+Headers
+    
 HostDefines
     
 HostLibrary
@@ -7582,18 +7584,27 @@ for
 symbol
 in
 (
+            
 "
 SOURCES
 "
+            
 "
 HOST_SOURCES
 "
+            
 "
 UNIFIED_SOURCES
 "
+            
 "
 WASM_SOURCES
 "
+            
+"
+SOURCE_HEADERS
+"
+        
 )
 :
             
@@ -8169,6 +8180,33 @@ set
             
 "
 .
+h
+"
+:
+set
+(
+[
+"
+.
+h
+"
+"
+.
+H
+"
+"
+.
+hh
+"
+"
+.
+hpp
+"
+]
+)
+            
+"
+.
 cpp
 "
 :
@@ -8271,16 +8309,27 @@ listed
 therein
 .
         
-all_suffixes
+source_suffixes
 =
-list
-(
+[
+s
+for
+s
+in
 suffix_map
 .
 keys
 (
 )
-)
+if
+s
+!
+=
+"
+.
+h
+"
+]
         
 varmap
 =
@@ -8291,7 +8340,19 @@ SOURCES
 =
 (
 Sources
-all_suffixes
+source_suffixes
+)
+            
+SOURCE_HEADERS
+=
+(
+Headers
+[
+"
+.
+h
+"
+]
 )
             
 HOST_SOURCES

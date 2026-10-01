@@ -168,6 +168,8 @@ FinalTargetPreprocessedFiles
     
 GeneratedFile
     
+Headers
+    
 HostDefines
     
 HostLibrary
@@ -4320,6 +4322,23 @@ backend_file
 .
 relobjdir
 )
+        
+elif
+isinstance
+(
+obj
+Headers
+)
+:
+            
+#
+nothing
+to
+do
+            
+.
+.
+.
         
 elif
 isinstance
