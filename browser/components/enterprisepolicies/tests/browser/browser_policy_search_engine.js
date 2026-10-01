@@ -748,8 +748,6 @@ content
 /
 test
 /
-browser
--
 contextMenu
 /
 subtst_contextmenu_add_search_engine

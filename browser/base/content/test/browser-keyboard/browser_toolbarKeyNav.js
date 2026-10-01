@@ -153,8 +153,6 @@ content
 /
 test
 /
-browser
--
 permissions
 /
 permissions

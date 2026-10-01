@@ -3429,8 +3429,6 @@ com
 /
 *
 /
-browser
--
 general
 /
 download_page
@@ -3452,8 +3450,6 @@ com
 /
 *
 /
-browser
--
 general
 /
 *
@@ -3496,8 +3492,6 @@ com
 /
 *
 /
-browser
--
 static
 /
 download_page
@@ -3519,8 +3513,6 @@ com
 /
 *
 /
-browser
--
 static
 /
 *
@@ -3665,8 +3657,6 @@ net
 /
 *
 /
-browser
--
 about
 /
 download_page
@@ -3686,8 +3676,6 @@ com
 /
 *
 /
-browser
--
 about
 /
 download_page
@@ -3856,8 +3844,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 dummy_page
@@ -4010,8 +3996,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 download_page
@@ -4082,8 +4066,6 @@ content
 /
 test
 /
-browser
--
 static
 /
 dummy_page
@@ -4236,8 +4218,6 @@ content
 /
 test
 /
-browser
--
 static
 /
 download_page
@@ -4308,8 +4288,6 @@ content
 /
 test
 /
-browser
--
 about
 /
 dummy_page
@@ -4464,8 +4442,6 @@ content
 /
 test
 /
-browser
--
 about
 /
 download_page
@@ -4539,8 +4515,6 @@ content
 /
 test
 /
-browser
--
 about
 /
 dummy_page
@@ -4697,8 +4671,6 @@ content
 /
 test
 /
-browser
--
 about
 /
 download_page
@@ -4816,8 +4788,6 @@ com
 /
 *
 /
-browser
--
 general
 /
 download
@@ -4838,8 +4808,6 @@ com
 /
 *
 /
-browser
--
 general
 /
 download_page_2
@@ -4861,8 +4829,6 @@ com
 /
 *
 /
-browser
--
 general
 /
 *
@@ -4882,8 +4848,6 @@ com
 /
 *
 /
-browser
--
 general
 /
 clipboard
@@ -5008,8 +4972,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 dummy_page
@@ -5114,8 +5076,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 download_page_1
@@ -5177,8 +5137,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 download_page_2
@@ -5251,8 +5209,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 clipboard_pastefile
