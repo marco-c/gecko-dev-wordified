@@ -5437,7 +5437,16 @@ linux
 )
 ]
 {
+use
+crate
+:
+:
+FromRawProcessHandle
+;
 ProcessHandle
+:
+:
+from_raw_handle
 (
 self
 .
