@@ -317,10 +317,8 @@ aComponent
 ;
 if
 (
-RefPtr
-<
 Accessible
->
+*
 acc
 =
 GetInternalObj
