@@ -46204,15 +46204,9 @@ id
 ;
 masm
 .
-push
+pushRegs
 (
 scratch1
-)
-;
-masm
-.
-push
-(
 scratch2
 )
 ;
