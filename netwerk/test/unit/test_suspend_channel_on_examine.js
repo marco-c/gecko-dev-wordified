@@ -352,6 +352,8 @@ countCookiesFromHost
 "
 localhost
 "
+{
+}
 )
 0
 "

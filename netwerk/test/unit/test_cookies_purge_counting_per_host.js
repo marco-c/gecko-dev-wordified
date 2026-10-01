@@ -338,6 +338,8 @@ cookies
 countCookiesFromHost
 (
 host
+{
+}
 )
 ;
 /
@@ -472,6 +474,8 @@ cookies
 countCookiesFromHost
 (
 host
+{
+}
 )
 ;
 Assert

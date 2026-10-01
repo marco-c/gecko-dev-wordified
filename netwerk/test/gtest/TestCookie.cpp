@@ -9304,7 +9304,7 @@ yes
 /
 /
 check
-CountCookiesFromHost
+CountCookiesFromHostNative
 (
 )
 uint32_t
@@ -9319,7 +9319,7 @@ NS_SUCCEEDED
 cookieMgr2
 -
 >
-CountCookiesFromHost
+CountCookiesFromHostNative
 (
 "
 cookiemgr
@@ -9327,6 +9327,8 @@ cookiemgr
 test
 "
 _ns
+&
+attrs
 &
 hostCookies
 )
@@ -9416,7 +9418,7 @@ PR_TicksPerSecond
 check
 that
 both
-CountCookiesFromHost
+CountCookiesFromHostNative
 (
 )
 and
@@ -9424,9 +9426,9 @@ CookieExistsNative
 (
 )
 count
+/
+/
 the
-/
-/
 expired
 cookie
 EXPECT_TRUE
@@ -9436,7 +9438,7 @@ NS_SUCCEEDED
 cookieMgr2
 -
 >
-CountCookiesFromHost
+CountCookiesFromHostNative
 (
 "
 cookiemgr
@@ -9444,6 +9446,8 @@ cookiemgr
 test
 "
 _ns
+&
+attrs
 &
 hostCookies
 )

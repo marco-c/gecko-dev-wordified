@@ -2959,6 +2959,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 0
 "

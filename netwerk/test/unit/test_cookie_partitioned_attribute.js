@@ -411,6 +411,8 @@ cookies
 countCookiesFromHost
 (
 hostNonPartitioned
+{
+}
 )
 ;
 /

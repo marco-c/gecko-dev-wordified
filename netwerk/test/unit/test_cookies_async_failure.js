@@ -1200,6 +1200,8 @@ countCookiesFromHost
 cookie
 .
 host
+{
+}
 )
 1
 )
@@ -1341,6 +1343,8 @@ countCookiesFromHost
 cookie
 .
 host
+{
+}
 )
 1
 )
@@ -1454,6 +1458,8 @@ foo
 .
 com
 "
+{
+}
 )
 1
 )
@@ -1471,6 +1477,8 @@ countCookiesFromHost
 cookie
 .
 host
+{
+}
 )
 1
 )
@@ -1597,6 +1605,8 @@ foo
 .
 com
 "
+{
+}
 )
 1
 )
@@ -1942,6 +1952,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 0
 )
@@ -2042,6 +2054,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 0
 )
@@ -2456,6 +2470,8 @@ hither
 .
 com
 "
+{
+}
 )
 0
 )
@@ -2475,6 +2491,8 @@ haithur
 .
 com
 "
+{
+}
 )
 0
 )
@@ -3015,6 +3033,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 0
 )
@@ -3103,6 +3123,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 1
 )
@@ -3196,6 +3218,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 1
 )
@@ -3530,6 +3554,8 @@ bar
 .
 com
 "
+{
+}
 )
 0
 )
@@ -3549,6 +3575,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 0
 )
@@ -3732,6 +3760,8 @@ bar
 .
 com
 "
+{
+}
 )
 0
 )
@@ -3751,6 +3781,8 @@ countCookiesFromHost
 .
 com
 "
+{
+}
 )
 0
 )

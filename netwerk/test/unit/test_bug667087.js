@@ -157,6 +157,8 @@ countCookiesFromHost
 "
 a
 "
+{
+}
 )
 1
 )

@@ -438,6 +438,8 @@ cookies
 countCookiesFromHost
 (
 TEST_DOMAIN
+{
+}
 )
 )
 ;
@@ -516,6 +518,8 @@ cookies
 countCookiesFromHost
 (
 TEST_DOMAIN
+{
+}
 )
 )
 ;

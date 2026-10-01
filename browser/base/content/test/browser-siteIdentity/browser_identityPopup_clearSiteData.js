@@ -858,6 +858,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 0
 "
@@ -894,6 +896,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 0
 "

@@ -632,6 +632,8 @@ cs
 countCookiesFromHost
 (
 domain
+{
+}
 )
 1
 "

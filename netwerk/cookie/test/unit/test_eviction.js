@@ -649,6 +649,8 @@ countCookiesFromHost
 uri
 .
 host
+{
+}
 )
 names
 .
