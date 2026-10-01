@@ -2073,6 +2073,16 @@ DOMMatrix
 MultiplySelf
 (
 const
+DOMMatrix
+&
+aOther
+)
+;
+DOMMatrix
+*
+MultiplySelf
+(
+const
 DOMMatrixInit
 &
 aOther
