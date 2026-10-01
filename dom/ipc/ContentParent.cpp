@@ -9471,6 +9471,11 @@ return
 nullptr
 ;
 }
+if
+(
+NS_WARN_IF
+(
+!
 cpm
 -
 >
@@ -9478,7 +9483,13 @@ RegisterRemoteFrame
 (
 browserParent
 )
+)
+)
+{
+return
+nullptr
 ;
+}
 /
 /
 Open

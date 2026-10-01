@@ -5046,7 +5046,7 @@ cpm
 >
 UnregisterRemoteFrame
 (
-mTabId
+this
 )
 ;
 }
