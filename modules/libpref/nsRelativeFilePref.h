@@ -83,6 +83,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsIRelativeFilePref
+.
+h
+"
 /
 /
 Note
