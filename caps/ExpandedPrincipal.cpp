@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsIClassInfoImpl
 .
 h
