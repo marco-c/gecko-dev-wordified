@@ -2084,7 +2084,7 @@ behavior
 .
 mBehaviorX
 =
-OverscrollBehavior
+StyleOverscrollBehavior
 :
 :
 None
@@ -2093,7 +2093,7 @@ behavior
 .
 mBehaviorY
 =
-OverscrollBehavior
+StyleOverscrollBehavior
 :
 :
 None

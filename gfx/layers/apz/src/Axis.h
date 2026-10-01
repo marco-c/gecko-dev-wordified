@@ -2571,7 +2571,7 @@ GetAllowedHandoffDirections
 instead
 .
 virtual
-OverscrollBehavior
+StyleOverscrollBehavior
 GetOverscrollBehavior
 (
 )
@@ -2807,7 +2807,7 @@ const
 ;
 private
 :
-OverscrollBehavior
+StyleOverscrollBehavior
 GetOverscrollBehavior
 (
 )
@@ -3016,7 +3016,7 @@ const
 ;
 private
 :
-OverscrollBehavior
+StyleOverscrollBehavior
 GetOverscrollBehavior
 (
 )
