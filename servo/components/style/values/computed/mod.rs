@@ -1404,6 +1404,16 @@ use
 self
 :
 :
+svg
+:
+:
+MaskType
+;
+pub
+use
+self
+:
+:
 text
 :
 :
