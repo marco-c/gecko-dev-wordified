@@ -229,6 +229,16 @@ ToMilliseconds
 )
 ;
 }
+PrefetchMatchWaiter
+:
+:
+~
+PrefetchMatchWaiter
+(
+)
+=
+default
+;
 already_AddRefed
 <
 PrefetchMatchWaiter
