@@ -99,10 +99,7 @@ crate
 clip
 :
 :
-{
 ClipChainInstance
-ClipIntern
-}
 ;
 use
 crate
@@ -178,7 +175,6 @@ intern
 :
 :
 {
-DataStore
 Handle
 as
 InternHandle
@@ -1403,13 +1399,6 @@ targets
 [
 CommandBufferIndex
 ]
-interned_clips
-:
-&
-DataStore
-<
-ClipIntern
->
 frame_state
 :
 &
@@ -2014,7 +2003,6 @@ quad_transform
 frame_context
 pic_context
 targets
-interned_clips
 frame_state
 scratch
 )
@@ -2059,7 +2047,6 @@ quad_transform
 frame_context
 pic_context
 targets
-interned_clips
 frame_state
 scratch
 )
@@ -2382,7 +2369,6 @@ quad_transform
 frame_context
 pic_context
 targets
-interned_clips
 frame_state
 scratch
 )

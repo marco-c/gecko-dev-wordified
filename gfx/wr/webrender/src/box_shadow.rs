@@ -208,15 +208,6 @@ use
 crate
 :
 :
-render_backend
-:
-:
-DataStores
-;
-use
-crate
-:
-:
 render_task_cache
 :
 :
@@ -1098,10 +1089,6 @@ cmd_buffer_targets
 [
 CommandBufferIndex
 ]
-data_stores
-:
-&
-DataStores
 )
 {
 let
@@ -3226,10 +3213,6 @@ quad_transform
 frame_context
 pic_context
 cmd_buffer_targets
-&
-data_stores
-.
-clip
 frame_state
 scratch
 )
