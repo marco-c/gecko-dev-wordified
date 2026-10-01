@@ -2780,6 +2780,7 @@ SetWPChromaLocation
 uint32_t
 aWPChromaLocation
 )
+override
 {
 mWPChromaLocation
 =
@@ -2790,6 +2791,7 @@ uint32_t
 GetWPChromaLocation
 (
 )
+override
 {
 return
 mWPChromaLocation
