@@ -6598,6 +6598,11 @@ CHECK_CONFIG
 DataAttributes
 )
 ;
+CHECK_CONFIG
+(
+JavascriptURLs
+)
+;
 #
 undef
 CHECK_CONFIG
@@ -13174,6 +13179,11 @@ Step
 Return
 true
 .
+RecordConfigChange
+(
+eUseCounter_custom_SanitizerConfigJavascriptURLs
+)
+;
 return
 true
 ;
