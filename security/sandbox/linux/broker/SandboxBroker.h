@@ -1368,12 +1368,9 @@ int
 SymlinkPermissions
 (
 const
-char
-*
+nsACString
+&
 aPath
-const
-size_t
-aPathLen
 )
 ;
 /
