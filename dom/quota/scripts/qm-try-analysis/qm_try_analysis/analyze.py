@@ -103,23 +103,17 @@ form
 {
         
 "
-event_timeabs
+submit_timeabs
 "
 :
-1617121013137
-        
-"
-session_startabs
-"
-:
-1617120840000
+1788912018146
         
 "
 build_id
 "
 :
 "
-20210329095128
+20260908042139
 "
         
 "
@@ -155,10 +149,16 @@ bd5c
 "
         
 "
+event_timestamp
+"
+:
+1788907668153
+        
+"
 seq
 "
 :
-1
+4294967297
         
 "
 context
@@ -214,6 +214,23 @@ NS_ERROR_FILE_NOT_FOUND
 .
 .
 ]
+session_id
+is
+the
+id
+of
+the
+Glean
+events
+ping
+(
+document_id
+)
+see
+fetch
+.
+py
+.
 The
 location
 of
@@ -617,6 +634,9 @@ rows
 with
 hg
 locations
+and
+Searchfox
+permalinks
     
 buildids
 =
@@ -627,6 +647,8 @@ extractBuildIDs
 rows
 )
     
+gitcommits
+=
 utils
 .
 fetchBuildRevisions
@@ -639,6 +661,14 @@ stackanalysis
 constructHGLinks
 (
 buildids
+rows
+)
+    
+stackanalysis
+.
+constructSearchfoxLinks
+(
+gitcommits
 rows
 )
     
