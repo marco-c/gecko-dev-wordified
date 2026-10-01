@@ -2205,6 +2205,15 @@ whence
 )
     
 def
+flush
+(
+self
+)
+:
+        
+pass
+    
+def
 close
 (
 self
