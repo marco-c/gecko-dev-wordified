@@ -301,6 +301,10 @@ topsrcdir
         
 command_context
 .
+topobjdir
+        
+command_context
+.
 repository
         
 output
