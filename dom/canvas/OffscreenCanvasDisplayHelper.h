@@ -185,6 +185,9 @@ OffscreenCanvas
 class
 ThreadSafeWorkerRef
 ;
+class
+WorkerPrivate
+;
 struct
 OffscreenCanvasDisplayData
 final
@@ -276,6 +279,17 @@ GetImageContainer
 (
 )
 const
+;
+bool
+MayUpdateContext
+(
+WorkerPrivate
+*
+aWorker
+ErrorResult
+&
+aRv
+)
 ;
 void
 UpdateContext
