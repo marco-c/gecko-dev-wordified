@@ -90,6 +90,10 @@ set
     
 "
 linux64
+"
+    
+"
+linux64
 -
 shippable
 "
