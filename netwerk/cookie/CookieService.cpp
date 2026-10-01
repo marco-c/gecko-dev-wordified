@@ -3822,7 +3822,6 @@ STATUS_ACCEPT_SESSION
 NotifyAccepted
 (
 aChannel
-rejectedReason
 )
 ;
 /
@@ -4597,8 +4596,6 @@ NotifyAccepted
 nsIChannel
 *
 aChannel
-uint32_t
-aRejectedReason
 )
 {
 ContentBlockingNotifier
@@ -4614,7 +4611,7 @@ BlockingDecision
 :
 :
 eAllow
-aRejectedReason
+0
 )
 ;
 }
@@ -5907,11 +5904,6 @@ host
 "
 )
 ;
-uint32_t
-acceptedReason
-=
-0
-;
 if
 (
 !
@@ -6470,10 +6462,6 @@ default
 break
 ;
 }
-acceptedReason
-=
-rejectedReason
-;
 /
 /
 Note
@@ -7272,7 +7260,6 @@ some
 NotifyAccepted
 (
 aChannel
-acceptedReason
 )
 ;
 /
