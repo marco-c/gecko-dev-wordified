@@ -3286,6 +3286,9 @@ builtin
 "
 cenum
 "
+"
+typedef
+"
 }
 :
         
