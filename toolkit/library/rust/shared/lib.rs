@@ -802,11 +802,11 @@ urlpattern_glue
 ;
 extern
 crate
-adblock
+content_classifier_engine
 ;
 extern
 crate
-content_classifier_engine
+etp_engine
 ;
 #
 [
