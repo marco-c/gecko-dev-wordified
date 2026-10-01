@@ -173,6 +173,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsNodeInfoManager
 .
 h
@@ -560,6 +567,9 @@ GetSelect
 )
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 int32_t
 index
 =
@@ -827,6 +837,9 @@ return
 defaultIndex
 ;
 }
+nsAutoScriptBlocker
+scriptBlocker
+;
 int32_t
 index
 =
