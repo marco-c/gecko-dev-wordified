@@ -1122,16 +1122,6 @@ Inside
 Outside
 }
 ;
-enum
-class
-StyleIsolation
-:
-uint8_t
-{
-Auto
-Isolate
-}
-;
 /
 /
 See
