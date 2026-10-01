@@ -3163,7 +3163,6 @@ the
 new
 one
 .
-MOZ_CAN_RUN_SCRIPT
 bool
 MaybeHandleLoadErrorWithURIFixup
 (

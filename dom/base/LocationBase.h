@@ -281,7 +281,6 @@ public
 WebIDL
 API
 :
-MOZ_CAN_RUN_SCRIPT
 void
 Replace
 (
@@ -297,7 +296,6 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SetHref
 (
@@ -333,7 +331,6 @@ GetDocShell
 =
 0
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 Navigate
 (
@@ -355,7 +352,6 @@ NavigationHistoryBehavior
 Auto
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 void
 SetHrefWithBase
 (
@@ -385,7 +381,6 @@ Assign
 SetHref
 /
 Replace
-MOZ_CAN_RUN_SCRIPT
 void
 DoSetHref
 (
