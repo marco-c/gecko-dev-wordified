@@ -1626,9 +1626,9 @@ content
 /
 test
 /
-general
+static
 /
-browser_parsable_script
+browser_glean_metrics_exist
 .
 js
 "

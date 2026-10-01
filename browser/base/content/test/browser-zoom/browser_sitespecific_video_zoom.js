@@ -146,6 +146,8 @@ content
 /
 test
 /
+browser
+-
 general
 /
 video
