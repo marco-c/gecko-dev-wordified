@@ -2089,6 +2089,10 @@ MaybeSetupDtlsSrtp
 (
 )
 ;
+MaybeUpdateWritableState
+(
+)
+;
 }
 void
 DtlsSrtpTransport
