@@ -429,11 +429,13 @@ loginInput
 First
 synthesize
 a
-mousedown
+right
+click
 .
 We
 need
-this
+its
+mousedown
 to
 get
 the
@@ -450,11 +452,6 @@ let
 eventDetails1
 =
 {
-type
-:
-"
-mousedown
-"
 button
 :
 2

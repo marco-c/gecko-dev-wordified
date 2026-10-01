@@ -4710,11 +4710,6 @@ let
 eventDetails
 =
 {
-type
-:
-"
-mousedown
-"
 button
 :
 2

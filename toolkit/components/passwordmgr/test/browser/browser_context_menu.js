@@ -2832,11 +2832,6 @@ synthesizeMouseAtCenter
 (
 input
 {
-type
-:
-"
-mousedown
-"
 button
 :
 2
