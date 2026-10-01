@@ -1791,6 +1791,17 @@ Saved
 Search
 "
 .
+searchConnector
+-
+ms
+"
+/
+/
+Windows
+Search
+Connector
+"
+.
 seplugin
 "
 /
