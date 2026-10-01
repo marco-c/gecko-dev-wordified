@@ -65,6 +65,13 @@ mozilla_intl_l10n_L10nRegistry_h
 #
 include
 "
+nsIGlobalObject
+.
+h
+"
+#
+include
+"
 nsIStreamLoader
 .
 h
@@ -127,9 +134,6 @@ RegistryBindings
 .
 h
 "
-class
-nsIGlobalObject
-;
 namespace
 mozilla
 :
