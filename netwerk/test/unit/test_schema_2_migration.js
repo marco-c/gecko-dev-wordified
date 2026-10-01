@@ -718,11 +718,11 @@ com
 /
 2
 )
-All
-expired
-unique
+Expired
 cookies
-exist
+are
+not
+exposed
 .
 Assert
 .
@@ -742,7 +742,7 @@ com
 {
 }
 )
-20
+0
 )
 ;
 /
@@ -1241,7 +1241,7 @@ com
 {
 }
 )
-20
+0
 )
 ;
 Assert
@@ -1382,7 +1382,7 @@ com
 {
 }
 )
-20
+0
 )
 ;
 Assert
@@ -1558,7 +1558,7 @@ equal
 do_count_cookies
 (
 )
-81
+61
 )
 ;
 /
@@ -1609,7 +1609,7 @@ com
 {
 }
 )
-20
+0
 )
 ;
 Assert
