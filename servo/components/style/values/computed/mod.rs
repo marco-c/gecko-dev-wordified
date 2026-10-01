@@ -1054,6 +1054,16 @@ use
 self
 :
 :
+font
+:
+:
+FontOpticalSizing
+;
+pub
+use
+self
+:
+:
 image
 :
 :

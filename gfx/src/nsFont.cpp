@@ -325,12 +325,12 @@ weight
 |
 |
 (
-stretch
+width
 !
 =
 aOther
 .
-stretch
+width
 )
 |
 |
@@ -2388,7 +2388,10 @@ if
 opticalSizing
 =
 =
-NS_FONT_OPTICAL_SIZING_AUTO
+StyleFontOpticalSizing
+:
+:
+Auto
 &
 &
 !
