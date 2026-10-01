@@ -2063,7 +2063,7 @@ const
 return
 funcNames
 .
-sizeOfExcludingThis
+shallowSizeOfExcludingThis
 (
 mallocSizeOf
 )

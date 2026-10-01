@@ -3885,7 +3885,7 @@ nameWarning
 Unknown
 name
 subsection
-assertNoWarning
+assertWarning
 (
 (
 )
@@ -3906,7 +3906,7 @@ hi
 '
 )
 [
-4
+99
 0
 ]
 ]
@@ -3915,6 +3915,7 @@ hi
 toBuffer
 )
 )
+nameWarning
 )
 ;
 assertWarning
@@ -3938,7 +3939,7 @@ hi
 '
 )
 [
-4
+99
 1
 ]
 ]
@@ -3950,7 +3951,7 @@ toBuffer
 nameWarning
 )
 ;
-assertNoWarning
+assertWarning
 (
 (
 )
@@ -3971,7 +3972,7 @@ hi
 '
 )
 [
-4
+99
 1
 42
 ]
@@ -3981,6 +3982,7 @@ hi
 toBuffer
 )
 )
+nameWarning
 )
 ;
 /
