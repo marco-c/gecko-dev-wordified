@@ -76,7 +76,7 @@ namespace
 a11y
 {
 class
-LocalAccessible
+Accessible
 ;
 /
 *

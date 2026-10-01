@@ -1322,16 +1322,13 @@ gAtkStateMapLen
 std
 :
 :
-extent
+extent_v
 <
 decltype
 (
 gAtkStateMap
 )
 >
-:
-:
-value
 ;
 static_assert
 (
