@@ -49754,15 +49754,9 @@ littleEndian
 ;
 masm
 .
-push
+pushRegs
 (
 bigInt
-)
-;
-masm
-.
-push
-(
 bigIntScratch
 )
 ;
