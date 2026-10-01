@@ -1056,10 +1056,10 @@ compatibility
 CXXFLAGS
 +
 =
+CONFIG
 [
 '
--
-mlsx
+LSX_FLAGS
 '
 ]
     
@@ -1200,10 +1200,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-mlasx
+LASX_FLAGS
 '
 ]
     
@@ -1225,10 +1225,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-mlasx
+LASX_FLAGS
 '
 ]
     
@@ -1250,10 +1250,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-mlasx
+LASX_FLAGS
 '
 ]
     
@@ -1275,10 +1275,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-mlasx
+LASX_FLAGS
 '
 ]
 "
