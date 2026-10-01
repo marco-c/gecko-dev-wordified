@@ -52698,8 +52698,6 @@ key
 return
 ;
 }
-if
-(
 UniquePtr
 state
 =
@@ -52710,8 +52708,19 @@ TakeState
 (
 key
 )
+;
+if
+(
+!
+state
+|
+|
+mDidHistoryRestore
 )
 {
+return
+;
+}
 ScrollState
 scrollState
 ;
@@ -52753,7 +52762,6 @@ RestoreState
 scrollState
 )
 ;
-}
 }
 void
 ScrollContainerFrame
