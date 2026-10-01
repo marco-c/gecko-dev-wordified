@@ -4094,8 +4094,8 @@ mKeyMsg
 /
 For
 eSetSelection
-bool
-mSelectionReversed
+RangeDirection
+mSelectionRangeDirection
 ;
 /
 /
@@ -5266,8 +5266,9 @@ private
 AutoPendingActionAndContentFlusher
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 TSFTextStore
@@ -6336,6 +6337,8 @@ DWORD
 MouseTracker
 (
 )
+=
+default
 ;
 HRESULT
 Init
@@ -6433,6 +6436,9 @@ mRange
 ;
 DWORD
 mCookie
+{
+kInvalidCookie
+}
 ;
 }
 ;

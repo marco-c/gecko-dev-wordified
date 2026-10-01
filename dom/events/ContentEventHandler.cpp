@@ -26924,7 +26924,9 @@ mLength
 aEvent
 -
 >
-mExpandToClusterBoundary
+ShouldExpandToClusterBoundary
+(
+)
 )
 ;
 if
@@ -27080,7 +27082,9 @@ if
 aEvent
 -
 >
-mReversed
+IsReversed
+(
+)
 )
 {
 nsCOMPtr
