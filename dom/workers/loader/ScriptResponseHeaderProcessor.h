@@ -103,6 +103,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WorkerRef
+.
+h
+"
+#
+include
+"
 nsIHttpChannel
 .
 h
@@ -134,9 +145,6 @@ mozilla
 :
 dom
 {
-class
-ThreadSafeWorkerRef
-;
 namespace
 workerinternals
 :
