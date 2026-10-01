@@ -78129,7 +78129,7 @@ obj
 >
 is
 <
-WrapperObject
+ProxyObject
 >
 (
 )
