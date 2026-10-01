@@ -674,13 +674,6 @@ const
 nsACString
 &
 aURI
-const
-mozilla
-:
-:
-Encoding
-*
-aClassicScriptHintEncoding
 )
 ;
 private
@@ -1757,10 +1750,6 @@ const
 nsACString
 &
 aURI
-const
-nsACString
-&
-aClassicScriptHintCharset
 JS
 :
 :
