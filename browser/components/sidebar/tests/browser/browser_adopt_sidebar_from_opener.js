@@ -952,7 +952,7 @@ SidebarController
 .
 _state
 .
-userLauncherVisible
+launcherVisible
 =
 false
 ;
