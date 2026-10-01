@@ -2403,7 +2403,7 @@ int8_t
 |
 |
 !
-CheckMatrixBound
+CheckMatrixBoundAndAlignment
 (
 output
 sizeBias
@@ -2502,7 +2502,7 @@ inputBias
 if
 (
 !
-CheckMatrixBound
+CheckMatrixBoundAndAlignment
 (
 inputBias
 sizeBias
@@ -2882,7 +2882,7 @@ int8_t
 |
 |
 !
-CheckMatrixBound
+CheckMatrixBoundAndAlignment
 (
 inputBiasPrepared
 sizeBias
@@ -2895,7 +2895,7 @@ float
 |
 |
 !
-CheckMatrixBound
+CheckMatrixBoundAndAlignment
 (
 output
 sizeOutput
