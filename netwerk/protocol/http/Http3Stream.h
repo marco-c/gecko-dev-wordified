@@ -892,6 +892,12 @@ mRequestBodyLenSent
 0
 }
 ;
+bool
+mRequestBodyLenKnown
+{
+false
+}
+;
 #
 endif
 }
