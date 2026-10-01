@@ -5184,6 +5184,12 @@ defined
 (
 JS_CODEGEN_ARM64
 )
+|
+|
+defined
+(
+JS_CODEGEN_LOONG64
+)
 /
 /
 No
@@ -5197,6 +5203,8 @@ x86
 x64
 /
 arm64
+/
+loong64
 .
 #
 else
