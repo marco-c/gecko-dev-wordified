@@ -504,6 +504,10 @@ exclude
 extensions
 =
 extensions
+        
+expand_excludes
+=
+False
     
 )
     

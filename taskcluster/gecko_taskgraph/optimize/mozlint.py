@@ -610,7 +610,7 @@ return
 False
         
 to_lint
-to_exclude
+_
 =
 filterpaths
 (
@@ -637,6 +637,10 @@ extensions
 exclude_extensions
 =
 exclude_extensions
+            
+expand_excludes
+=
+False
         
 )
         

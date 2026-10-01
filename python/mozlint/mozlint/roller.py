@@ -2409,6 +2409,45 @@ True
 )
 :
                 
+#
+Only
+the
+paths
+to
+lint
+are
+needed
+here
+.
+Workers
+filter
+their
+                
+#
+own
+chunk
+again
+and
+compute
+the
+excludes
+at
+that
+point
+so
+                
+#
+skip
+the
+expensive
+glob
+expansion
+over
+the
+whole
+tree
+.
+                
 lpaths
 _
 =
@@ -2468,6 +2507,10 @@ exclude_extensions
 [
 ]
 )
+                    
+expand_excludes
+=
+False
                 
 )
                 
