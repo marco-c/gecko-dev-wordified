@@ -237,8 +237,7 @@ can
 get
 one
 .
-nsGlobalWindowOuter
-*
+RefPtr
 outer
 =
 nsGlobalWindowOuter

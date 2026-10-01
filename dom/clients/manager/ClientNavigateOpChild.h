@@ -105,6 +105,7 @@ nsISerialEventTarget
 >
 mSerialEventTarget
 ;
+MOZ_CAN_RUN_SCRIPT
 [
 [
 nodiscard
@@ -158,6 +159,7 @@ ClientNavigateOpChild
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Init
 (

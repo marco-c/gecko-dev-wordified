@@ -300,6 +300,7 @@ uint32_t
 length
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 handleCACertDownload
 (

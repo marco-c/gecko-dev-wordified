@@ -107,6 +107,7 @@ false
 nodiscard
 ]
 ]
+MOZ_CAN_RUN_SCRIPT
 RefPtr
 <
 ClientOpPromise

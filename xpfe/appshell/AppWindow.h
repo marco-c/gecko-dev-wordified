@@ -1157,6 +1157,7 @@ nsresult
 aStatus
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 CreateNewChromeWindow
 (
@@ -1168,6 +1169,7 @@ nsIAppWindow
 _retval
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 CreateNewContentWindow
 (

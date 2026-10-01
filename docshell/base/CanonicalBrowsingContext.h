@@ -1489,6 +1489,7 @@ BrowsingContext
 :
 LoadURI
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FixupAndLoadURIString
 (
@@ -1505,6 +1506,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 LoadURI
 (
