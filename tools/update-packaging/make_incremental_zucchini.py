@@ -2125,6 +2125,11 @@ settings
 .
 ini
 "
+"
+distribution
+.
+ini
+"
 }
         
 or
@@ -4100,6 +4105,22 @@ partials_dir
 newfile_rel
 )
             
+if
+check_for_add_if_not_update
+(
+newfile_rel
+)
+:
+                
+make_add_if_not_instruction
+(
+newfile_rel
+manifest_file
+)
+            
+else
+:
+                
 make_add_instruction
 (
 newfile_rel
