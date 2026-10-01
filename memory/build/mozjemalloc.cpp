@@ -4171,9 +4171,6 @@ on
 each
 arena
 .
-bool
-previous
-;
 {
 MutexAutoLock
 lock
@@ -4181,13 +4178,9 @@ lock
 mLock
 )
 ;
-previous
-=
-mIsDeferredPurgeEnabled
-;
 if
 (
-previous
+mIsDeferredPurgeEnabled
 =
 =
 aEnable
@@ -4204,7 +4197,7 @@ to
 do
 .
 return
-previous
+aEnable
 ;
 }
 mIsDeferredPurgeEnabled
@@ -4247,7 +4240,7 @@ __func__
 )
 ;
 return
-previous
+aEnable
 ;
 }
 bool
