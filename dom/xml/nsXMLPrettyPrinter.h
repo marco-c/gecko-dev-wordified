@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsIWeakReferenceUtils
+.
+h
+"
+#
+include
+"
 nsStubDocumentObserver
 .
 h
@@ -267,6 +274,9 @@ re
 observing
 the
 document
+nsWeakPtr
+mElement
+;
 bool
 mUnhookPending
 ;
