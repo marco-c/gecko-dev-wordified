@@ -454,6 +454,11 @@ StopScreenCastStream
 (
 )
 ;
+void
+ClearRenegotiateEventForTest
+(
+)
+;
 /
 /
 Below
