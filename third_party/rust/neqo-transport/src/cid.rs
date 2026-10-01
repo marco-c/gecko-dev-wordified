@@ -4284,7 +4284,13 @@ Token
 :
 NewConnectionId
 (
+Box
+:
+:
+new
+(
 entry
+)
 )
 )
 ;
@@ -4509,7 +4515,13 @@ Token
 :
 NewConnectionId
 (
+Box
+:
+:
+new
+(
 entry
+)
 )
 )
 ;

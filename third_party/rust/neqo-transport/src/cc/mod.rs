@@ -115,6 +115,12 @@ qlog
 Qlog
 ;
 use
+serde
+:
+:
+Serialize
+;
+use
 crate
 :
 :
@@ -235,6 +241,7 @@ Copy
 PartialEq
 Eq
 Debug
+Serialize
 )
 ]
 pub

@@ -177,11 +177,6 @@ frame
 :
 FrameType
 packet
-:
-:
-{
-self
-}
 tparams
 :
 :
