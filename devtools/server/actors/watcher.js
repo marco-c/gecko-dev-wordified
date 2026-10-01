@@ -2420,7 +2420,19 @@ web
 extension
 toolbox
 .
+const
+isTopLevelBrowsingContext
+=
+!
+subject
+.
+parent
+;
 if
+(
+isTopLevelBrowsingContext
+&
+&
 (
 this
 .
@@ -2453,6 +2465,7 @@ subject
 this
 .
 sessionContext
+)
 )
 )
 )
