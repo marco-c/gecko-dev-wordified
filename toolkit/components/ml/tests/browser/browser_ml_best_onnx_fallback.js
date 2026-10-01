@@ -250,6 +250,11 @@ revision
 "
 }
 ;
+add_setup
+(
+setupNativeOnnxRuntimeAvailabilityTest
+)
+;
 /
 *
 *

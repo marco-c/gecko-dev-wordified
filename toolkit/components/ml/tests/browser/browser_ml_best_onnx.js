@@ -147,6 +147,11 @@ revision
 "
 }
 ;
+add_setup
+(
+setupNativeOnnxRuntimeAvailabilityTest
+)
+;
 add_task
 (
 async

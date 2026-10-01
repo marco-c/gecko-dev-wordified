@@ -418,6 +418,12 @@ cleanupEngineCreationInterceptions
 }
 finally
 {
+EngineProcess
+.
+resetNativeOnnxRuntimeAvailabilityForTests
+(
+)
+;
 await
 EngineProcess
 .

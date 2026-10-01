@@ -158,6 +158,10 @@ function
 (
 )
 {
+setupNativeOnnxRuntimeAvailabilityTest
+(
+)
+;
 await
 SpecialPowers
 .
@@ -189,12 +193,6 @@ async
 =
 >
 {
-EngineProcess
-.
-resetNativeOnnxRuntimeAvailabilityForTests
-(
-)
-;
 await
 SpecialPowers
 .
