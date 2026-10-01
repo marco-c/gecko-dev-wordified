@@ -82,6 +82,11 @@ mozilla_PerfectHash_h
 #
 include
 <
+cstdint
+>
+#
+include
+<
 type_traits
 >
 namespace

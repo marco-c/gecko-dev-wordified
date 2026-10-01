@@ -74,6 +74,13 @@ h
 #
 include
 "
+nsCycleCollectionNoteChild
+.
+h
+"
+#
+include
+"
 nsCycleCollectionTraversalCallback
 .
 h

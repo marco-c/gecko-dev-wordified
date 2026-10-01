@@ -63,6 +63,13 @@ nsPipe_h_
 define
 nsPipe_h_
 #
+include
+"
+nsID
+.
+h
+"
+#
 define
 NS_PIPE_CONTRACTID
 "
