@@ -364,6 +364,12 @@ Timestamp
 now
 )
 ;
+DataRate
+GetPacingRate
+(
+)
+const
+;
 /
 /
 Calculates
