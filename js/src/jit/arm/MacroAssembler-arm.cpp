@@ -17945,13 +17945,7 @@ ma_cmp
 tag
 ImmTag
 (
-JS
-:
-:
-detail
-:
-:
-ValueUpperExclPrimitiveTag
+JSVAL_TAG_OBJECT
 )
 )
 ;
@@ -17961,9 +17955,9 @@ cond
 =
 Equal
 ?
-Below
+NotEqual
 :
-AboveOrEqual
+Equal
 ;
 }
 Assembler

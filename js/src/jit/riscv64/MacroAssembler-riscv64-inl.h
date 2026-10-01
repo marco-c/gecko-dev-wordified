@@ -6921,13 +6921,7 @@ ma_b
 tag
 ImmTagSignExt
 (
-JS
-:
-:
-detail
-:
-:
-ValueUpperExclPrimitiveTag
+JSVAL_TAG_OBJECT
 )
 label
 (
@@ -6937,9 +6931,9 @@ cond
 Equal
 )
 ?
-Below
+NotEqual
 :
-AboveOrEqual
+Equal
 ShortJump
 )
 ;

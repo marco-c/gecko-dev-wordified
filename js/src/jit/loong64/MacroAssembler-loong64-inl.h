@@ -13668,13 +13668,7 @@ ma_b
 tag
 ImmTag
 (
-JS
-:
-:
-detail
-:
-:
-ValueUpperExclPrimitiveTag
+JSVAL_TAG_OBJECT
 )
 label
 (
@@ -13684,9 +13678,9 @@ cond
 Equal
 )
 ?
-Below
+NotEqual
 :
-AboveOrEqual
+Equal
 )
 ;
 }
