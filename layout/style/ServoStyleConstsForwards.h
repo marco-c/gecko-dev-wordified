@@ -618,9 +618,6 @@ L
 union
 StyleGenericCalcNode
 ;
-union
-StyleSpecifiedLeaf
-;
 namespace
 css
 {
