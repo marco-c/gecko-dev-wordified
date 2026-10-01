@@ -721,22 +721,6 @@ sbin
     
 }
     
-"
-mozconfig_platform
-"
-:
-"
-macosx64
-"
-    
-"
-mozconfig_variant
-"
-:
-"
-nightly
-"
-    
 #
 #
 #

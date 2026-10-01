@@ -56,12 +56,4 @@ MPL
 config
 =
 {
-    
-"
-app_name
-"
-:
-"
-browser
-"
 }

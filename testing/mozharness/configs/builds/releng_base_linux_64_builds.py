@@ -586,14 +586,6 @@ sbin
     
 }
     
-"
-mozconfig_variant
-"
-:
-"
-nightly
-"
-    
 #
 #
 #
@@ -760,14 +752,6 @@ specific
     
 "
 platform
-"
-:
-"
-linux64
-"
-    
-"
-mozconfig_platform
 "
 :
 "
