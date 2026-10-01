@@ -7276,9 +7276,6 @@ Option
 <
 DeviceRect
 >
-offset
-:
-LayoutVector2D
 state
 :
 &
@@ -7295,8 +7292,6 @@ prim_origin
 pattern_rect
 .
 min
-+
-offset
 ;
 linear_gradient_pattern
 (

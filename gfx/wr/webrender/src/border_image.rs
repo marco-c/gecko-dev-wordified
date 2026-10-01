@@ -245,12 +245,6 @@ desc
 .
 pattern_rect
 None
-LayoutVector2D
-:
-:
-zero
-(
-)
 &
 mut
 PatternBuilderState
