@@ -11017,7 +11017,7 @@ mozilla
 wr
 :
 :
-ToLayoutPoint
+ToLayoutVector2D
 (
 lineStart
 )
@@ -11027,7 +11027,7 @@ mozilla
 wr
 :
 :
-ToLayoutPoint
+ToLayoutVector2D
 (
 lineEnd
 )
@@ -11120,7 +11120,7 @@ mozilla
 wr
 :
 :
-ToLayoutPoint
+ToLayoutVector2D
 (
 lineStart
 )
@@ -11206,7 +11206,7 @@ mozilla
 wr
 :
 :
-ToLayoutPoint
+ToLayoutVector2D
 (
 gradientCenter
 )

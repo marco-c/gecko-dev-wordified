@@ -11821,10 +11821,10 @@ mut
 self
 start_point
 :
-LayoutPoint
+LayoutVector2D
 end_point
 :
-LayoutPoint
+LayoutVector2D
 stops
 :
 Vec
@@ -11913,7 +11913,7 @@ mut
 self
 center
 :
-LayoutPoint
+LayoutVector2D
 radius
 :
 LayoutSize
@@ -12005,7 +12005,7 @@ mut
 self
 center
 :
-LayoutPoint
+LayoutVector2D
 angle
 :
 f32
@@ -13907,7 +13907,7 @@ start
 =
 gradient
 .
-start_point
+start
 ;
 let
 mut
@@ -13915,7 +13915,7 @@ end
 =
 gradient
 .
-end_point
+end
 ;
 /
 /
@@ -14043,11 +14043,7 @@ di
 :
 Gradient
 {
-start_point
-:
 start
-end_point
-:
 end
 .
 .

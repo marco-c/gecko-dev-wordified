@@ -23230,10 +23230,10 @@ slice
 DeviceIntSideOffsets
 start_point
 :
-LayoutPoint
+LayoutVector2D
 end_point
 :
-LayoutPoint
+LayoutVector2D
 stops
 :
 *
@@ -23437,7 +23437,7 @@ fill
 bool
 center
 :
-LayoutPoint
+LayoutVector2D
 radius
 :
 LayoutSize
@@ -23690,7 +23690,7 @@ fill
 bool
 center
 :
-LayoutPoint
+LayoutVector2D
 angle
 :
 f32
@@ -23935,12 +23935,12 @@ parent
 :
 &
 WrSpaceAndClipChain
-start_point
+start
 :
-LayoutPoint
-end_point
+LayoutVector2D
+end
 :
-LayoutPoint
+LayoutVector2D
 stops
 :
 *
@@ -24006,8 +24006,8 @@ dl_builder
 .
 create_gradient
 (
-start_point
-end_point
+start
+end
 stops_vector
 extend_mode
 )
@@ -24107,7 +24107,7 @@ parent
 WrSpaceAndClipChain
 center
 :
-LayoutPoint
+LayoutVector2D
 radius
 :
 LayoutSize
@@ -24277,7 +24277,7 @@ parent
 WrSpaceAndClipChain
 center
 :
-LayoutPoint
+LayoutVector2D
 angle
 :
 f32
