@@ -6796,6 +6796,28 @@ directories
 obj
 *
 "
+            
+#
+Ignore
+scratch
+directories
+that
+can
+hold
+whole
+checkouts
+.
+            
+"
+artifacts
+"
+            
+"
+.
+claude
+/
+worktrees
+"
         
 }
         
