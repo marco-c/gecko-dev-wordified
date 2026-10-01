@@ -4603,10 +4603,9 @@ surface
 :
 &
 SurfaceInfo
-clip_chain
+pic_coverage_rect
 :
-&
-ClipChainInstance
+PictureRect
 prim_spatial_node_index
 :
 SpatialNodeIndex
@@ -4659,8 +4658,6 @@ clipping_rect_in_picture_space
 intersection
 (
 &
-clip_chain
-.
 pic_coverage_rect
 )
 .
