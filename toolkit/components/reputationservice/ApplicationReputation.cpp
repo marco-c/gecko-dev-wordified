@@ -1400,6 +1400,15 @@ exec
 /
 Executable
 application
+/
+/
+"
+.
+appcontent
+-
+ms
+"
+exec
 "
 .
 applescript

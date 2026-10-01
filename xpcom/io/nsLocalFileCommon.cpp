@@ -353,6 +353,12 @@ executable
 application
 "
 .
+appcontent
+-
+ms
+"
+"
+.
 application
 "
 /

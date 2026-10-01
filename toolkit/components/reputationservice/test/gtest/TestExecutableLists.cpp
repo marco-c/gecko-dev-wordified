@@ -205,6 +205,12 @@ Executable
 application
 "
 .
+appcontent
+-
+ms
+"
+"
+.
 applescript
 "
 "
