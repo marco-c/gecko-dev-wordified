@@ -2196,14 +2196,6 @@ configuration
 .
 crypto_options
 ;
-modified_config
-.
-always_negotiate_data_channels
-=
-configuration
-.
-always_negotiate_data_channels
-;
 /
 /
 ICE
