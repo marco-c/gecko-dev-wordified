@@ -86,6 +86,8 @@ filter_by_uncommon_try_tasks
     
 filter_out_shippable
     
+filter_unsupported_artifact_builds
+    
 target_tasks_default
 )
 filter_task
@@ -325,6 +327,13 @@ mode
 "
 exclude
 "
+)
+        
+and
+filter_unsupported_artifact_builds
+(
+t
+parameters
 )
         
 and
