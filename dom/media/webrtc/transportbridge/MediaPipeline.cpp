@@ -279,15 +279,6 @@ include
 "
 mozilla
 /
-AbstractThread
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Logging
 .
 h
@@ -6820,10 +6811,7 @@ mListener
 >
 Then
 (
-AbstractThread
-:
-:
-MainThread
+GetMainThreadSerialEventTarget
 (
 )
 __func__

@@ -6811,10 +6811,7 @@ GenericPromise
 :
 AllSettled
 (
-AbstractThread
-:
-:
-MainThread
+GetCurrentSerialEventTarget
 (
 )
 promises
