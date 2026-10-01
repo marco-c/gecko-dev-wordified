@@ -2008,8 +2008,6 @@ std
 :
 less
 <
-WeakReference
-*
 >
 (
 )

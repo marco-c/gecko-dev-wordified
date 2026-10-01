@@ -65,6 +65,13 @@ h
 "
 #
 include
+"
+malloc_decls
+.
+h
+"
+#
+include
 <
 stdlib
 .

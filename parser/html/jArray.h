@@ -689,7 +689,7 @@ autoJArray
 :
 arr
 (
-0
+nullptr
 )
 length
 (
