@@ -448,6 +448,13 @@ Integer
 }
 }
 ;
+static
+constexpr
+bool
+IsStackBased
+=
+true
+;
 }
 ;
 bool
