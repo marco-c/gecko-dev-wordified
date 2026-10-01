@@ -431,6 +431,7 @@ bool
 IsPrivileged
 (
 )
+const
 {
 return
 mIsPrivileged
