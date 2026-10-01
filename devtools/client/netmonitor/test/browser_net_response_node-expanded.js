@@ -173,17 +173,8 @@ item
 0
 ]
 ;
-EventUtils
-.
-sendMouseEvent
+clickOnRequestRow
 (
-{
-type
-:
-"
-mousedown
-"
-}
 firstRequestItem
 )
 ;
@@ -367,7 +358,7 @@ the
 results
 .
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "
