@@ -2479,6 +2479,10 @@ realm
 )
 -
 >
+jitRealm
+(
+)
+.
 removeFromCompileQueue
 (
 script
