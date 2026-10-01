@@ -1206,7 +1206,7 @@ is
 only
 here
 to
-accomodate
+accommodate
 /
 /
 proposals

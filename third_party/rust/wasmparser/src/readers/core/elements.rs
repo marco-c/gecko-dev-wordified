@@ -130,8 +130,8 @@ crate
 :
 {
 BinaryReader
-BinaryReaderError
 ConstExpr
+Error
 ExternalKind
 FromReader
 OperatorsReader
@@ -228,7 +228,7 @@ range
 :
 Range
 <
-usize
+u64
 >
 }
 /
@@ -664,7 +664,7 @@ flags
 return
 Err
 (
-BinaryReaderError
+Error
 :
 :
 new
@@ -826,7 +826,7 @@ _
 return
 Err
 (
-BinaryReaderError
+Error
 :
 :
 new

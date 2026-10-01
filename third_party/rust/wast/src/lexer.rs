@@ -7487,7 +7487,7 @@ n
 /
 Reads
 a
-hexidecimal
+hexadecimal
 digit
 from
 the
@@ -10542,7 +10542,7 @@ an
 attempt
 to
 protect
-agains
+against
 the
 "
 trojan

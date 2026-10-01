@@ -1855,7 +1855,7 @@ NameSection
 functions
 ]
 and
-simlar
+similar
 /
 /
 /

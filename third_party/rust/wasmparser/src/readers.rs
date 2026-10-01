@@ -130,7 +130,7 @@ crate
 :
 {
 BinaryReader
-BinaryReaderError
+Error
 Result
 }
 ;
@@ -386,7 +386,7 @@ _
 >
 Err
 (
-BinaryReaderError
+Error
 :
 :
 new
@@ -908,7 +908,7 @@ self
 )
 -
 >
-usize
+u64
 {
 self
 .
@@ -950,7 +950,7 @@ self
 >
 Range
 <
-usize
+u64
 >
 {
 self
@@ -1316,7 +1316,7 @@ self
 )
 -
 >
-usize
+u64
 {
 self
 .
@@ -1420,7 +1420,7 @@ Some
 (
 Err
 (
-BinaryReaderError
+Error
 :
 :
 new
@@ -1604,7 +1604,7 @@ Item
 Result
 <
 (
-usize
+u64
 T
 )
 >
@@ -1988,7 +1988,7 @@ self
 )
 -
 >
-usize
+u64
 {
 self
 .
@@ -2030,7 +2030,7 @@ self
 >
 Range
 <
-usize
+u64
 >
 {
 self

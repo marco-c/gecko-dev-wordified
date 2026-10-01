@@ -1565,7 +1565,6 @@ map
 (
 name
 ty
-refines
 )
 |
 (
@@ -1576,8 +1575,6 @@ as_str
 )
 *
 ty
-*
-refines
 )
 )
 )

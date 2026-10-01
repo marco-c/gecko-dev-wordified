@@ -1578,7 +1578,7 @@ is
 only
 here
 to
-accomodate
+accommodate
 /
 /
 proposals
@@ -2059,7 +2059,7 @@ binary
 format
 can
 only
-accomodate
+accommodate
 the
 funcref
 type
@@ -2120,7 +2120,7 @@ the
 only
 way
 to
-accomodate
+accommodate
 a
 /
 /

@@ -797,6 +797,7 @@ StringRef
 (
 comp_dir_ref
 )
+None
 LineString
 :
 :
@@ -4024,7 +4025,7 @@ rand
 :
 :
 {
-Rng
+RngExt
 SeedableRng
 }
 ;
