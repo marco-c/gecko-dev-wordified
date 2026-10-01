@@ -830,6 +830,16 @@ use
 self
 :
 :
+font
+:
+:
+MathStyle
+;
+pub
+use
+self
+:
+:
 image
 :
 :
