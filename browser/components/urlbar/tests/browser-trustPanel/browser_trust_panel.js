@@ -311,6 +311,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 trackingPage
@@ -383,6 +385,8 @@ content
 /
 test
 /
+browser
+-
 protectionsUI
 /
 cookiePage
