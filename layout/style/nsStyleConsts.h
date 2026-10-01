@@ -1306,16 +1306,6 @@ Auto
 Fixed
 }
 ;
-enum
-class
-StyleEmptyCells
-:
-uint8_t
-{
-Hide
-Show
-}
-;
 /
 /
 See
