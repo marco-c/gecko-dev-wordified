@@ -68,16 +68,6 @@ mingwclang
 "
     
 "
-stage_platform
-"
-:
-"
-win64
--
-mingwclang
-"
-    
-"
 mozconfig_platform
 "
 :

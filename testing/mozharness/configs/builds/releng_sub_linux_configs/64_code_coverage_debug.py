@@ -59,16 +59,6 @@ config
 =
 {
     
-"
-stage_platform
-"
-:
-"
-linux64
--
-ccov
-"
-    
 #
 #
 #

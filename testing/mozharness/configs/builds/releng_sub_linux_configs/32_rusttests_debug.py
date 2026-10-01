@@ -65,18 +65,6 @@ debug_build
 :
 True
     
-"
-stage_platform
-"
-:
-"
-linux
--
-rusttests
--
-debug
-"
-    
 #
 #
 #

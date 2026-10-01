@@ -58,18 +58,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-win32
--
-noopt
--
-debug
-"
-    
-"
 debug_build
 "
 :

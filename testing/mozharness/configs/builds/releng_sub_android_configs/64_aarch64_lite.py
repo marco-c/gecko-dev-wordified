@@ -58,18 +58,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-android
--
-aarch64
--
-lite
-"
-    
-"
 mozconfig_platform
 "
 :

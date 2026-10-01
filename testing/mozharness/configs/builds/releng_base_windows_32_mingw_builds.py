@@ -549,16 +549,6 @@ mingw32
 "
     
 "
-stage_platform
-"
-:
-"
-win32
--
-mingw32
-"
-    
-"
 env
 "
 :

@@ -60,18 +60,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-linux64
--
-rusttests
--
-debug
-"
-    
-"
 debug_build
 "
 :

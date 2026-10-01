@@ -76,16 +76,6 @@ build
 ]
     
 "
-stage_platform
-"
-:
-"
-win64
--
-debug
-"
-    
-"
 debug_build
 "
 :

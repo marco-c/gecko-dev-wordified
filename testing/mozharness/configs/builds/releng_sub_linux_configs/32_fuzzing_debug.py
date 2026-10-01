@@ -60,18 +60,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-linux
--
-fuzzing
--
-debug
-"
-    
-"
 debug_build
 "
 :

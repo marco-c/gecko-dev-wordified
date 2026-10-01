@@ -58,20 +58,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-win64
--
-st
--
-an
--
-debug
-"
-    
-"
 debug_build
 "
 :

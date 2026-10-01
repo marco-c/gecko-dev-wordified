@@ -369,12 +369,6 @@ secrets
 ]
     
 "
-enable_check_test
-"
-:
-False
-    
-"
 vcs_share_base
 "
 :
@@ -574,14 +568,6 @@ specific
     
 "
 platform
-"
-:
-"
-macosx64
-"
-    
-"
-stage_platform
 "
 :
 "

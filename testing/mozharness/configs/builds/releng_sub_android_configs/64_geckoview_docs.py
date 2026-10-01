@@ -58,18 +58,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-android
--
-geckoview
--
-docs
-"
-    
-"
 mozconfig_platform
 "
 :

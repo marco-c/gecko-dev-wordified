@@ -76,16 +76,6 @@ build
 ]
     
 "
-stage_platform
-"
-:
-"
-win32
--
-debug
-"
-    
-"
 debug_build
 "
 :

@@ -60,18 +60,6 @@ config
 {
     
 "
-stage_platform
-"
-:
-"
-macosx64
--
-noopt
--
-debug
-"
-    
-"
 debug_build
 "
 :

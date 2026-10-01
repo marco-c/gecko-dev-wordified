@@ -771,14 +771,6 @@ linux64
 "
     
 "
-stage_platform
-"
-:
-"
-linux64
-"
-    
-"
 mozconfig_platform
 "
 :
