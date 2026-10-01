@@ -232,15 +232,6 @@ decision
 ;
 }
 ;
-nsresult
-NS_NewContentPolicy
-(
-nsIContentPolicy
-*
-*
-aResult
-)
-;
 #
 endif
 /
