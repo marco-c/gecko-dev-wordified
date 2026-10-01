@@ -155,6 +155,10 @@ expect
 initiator_pub
 "
 )
+.
+to_vec
+(
+)
 ;
 assert_eq
 !
@@ -542,6 +546,10 @@ expect
 initiator_pub
 "
 )
+.
+to_vec
+(
+)
 ;
 assert_eq
 !
@@ -599,6 +607,10 @@ expect
 "
 responder_pub
 "
+)
+.
+to_vec
+(
 )
 ;
 assert_eq
