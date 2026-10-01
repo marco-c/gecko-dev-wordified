@@ -916,6 +916,18 @@ USING_MOZFFVPX
 )
 if
 (
+(
+mCDM
+|
+|
+mCodecID
+=
+=
+AV_CODEC_ID_AAC
+)
+&
+&
+(
 XRE_IsRDDProcess
 (
 )
@@ -923,6 +935,7 @@ XRE_IsRDDProcess
 |
 XRE_IsUtilityProcess
 (
+)
 )
 )
 {
