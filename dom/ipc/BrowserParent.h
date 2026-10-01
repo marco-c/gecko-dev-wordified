@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h
@@ -4698,8 +4707,10 @@ BrowserParent
 LayerToBrowserParentTable
 ;
 static
+StaticAutoPtr
+<
 LayerToBrowserParentTable
-*
+>
 sLayerToBrowserParentTable
 ;
 static
