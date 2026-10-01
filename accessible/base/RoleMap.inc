@@ -1286,7 +1286,7 @@ java
 SessionAccessibility
 :
 :
-CLASSNAME_SPINNER
+CLASSNAME_VIEW
 IsAccessibilityElementRule
 :
 :
