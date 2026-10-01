@@ -97,9 +97,6 @@ crate
 database
 :
 :
-sqlite
-:
-:
 Database
 ;
 use
@@ -1416,6 +1413,17 @@ e
 )
 ;
 }
+#
+[
+cfg
+(
+feature
+=
+"
+sqlite
+"
+)
+]
 if
 let
 Err
