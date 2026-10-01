@@ -28491,7 +28491,7 @@ autoTabGrouping
 .
 minCandidateTabs
 "
-4
+2
 )
 ;
 pref
