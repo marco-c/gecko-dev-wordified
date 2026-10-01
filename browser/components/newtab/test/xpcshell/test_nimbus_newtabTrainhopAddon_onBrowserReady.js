@@ -259,7 +259,7 @@ t
 enrolled
 in
 the
-newtabTrainhopAddon
+newtabTrainhopAddonDeployment
 Nimbus
 feature
 don
