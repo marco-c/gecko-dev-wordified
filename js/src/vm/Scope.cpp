@@ -5076,6 +5076,11 @@ unusedStackResults
 )
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
