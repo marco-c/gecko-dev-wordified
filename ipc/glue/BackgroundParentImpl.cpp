@@ -671,17 +671,6 @@ include
 "
 mozilla
 /
-dom
-/
-PRTCCertServiceParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 BackgroundParent
