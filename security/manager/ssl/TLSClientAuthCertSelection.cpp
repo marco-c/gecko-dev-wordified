@@ -2769,6 +2769,9 @@ UnsafeMapInputToSECItem
 encodedIssuerName
 )
 ;
+AutoSearchingForCertificates
+_
+;
 /
 /
 NSS
