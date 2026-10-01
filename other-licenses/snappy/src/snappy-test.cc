@@ -3304,8 +3304,12 @@ write
 any
 output
 Bytef
-dummyin
 dummyout
+;
+Bytef
+dummyin
+=
+0
 ;
 uLongf
 dummylen
