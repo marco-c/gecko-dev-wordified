@@ -178,7 +178,6 @@ pattern
 {
 Pattern
 PatternBuilder
-PatternBuilderContext
 PatternBuilderState
 }
 ;
@@ -205,6 +204,10 @@ build
 (
 &
 self
+_pattern_rect
+:
+&
+LayoutRect
 _sub_rect
 :
 Option
@@ -214,10 +217,6 @@ DeviceRect
 _offset
 :
 LayoutVector2D
-_ctx
-:
-&
-PatternBuilderContext
 _state
 :
 &
