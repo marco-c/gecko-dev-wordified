@@ -1758,12 +1758,16 @@ importESModule
 (
                 
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
 /
 backup
 /
@@ -1877,12 +1881,16 @@ importESModule
 (
                 
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
 /
 backup
 /
@@ -2247,12 +2255,16 @@ importESModule
 (
                 
 "
-resource
+moz
+-
+src
 :
 /
 /
 /
-modules
+browser
+/
+components
 /
 backup
 /
