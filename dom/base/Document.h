@@ -9744,14 +9744,6 @@ aChannel
 )
 ;
 nsresult
-InitConnectionAllowlists
-(
-nsIChannel
-*
-aChannel
-)
-;
-nsresult
 InitCOEP
 (
 nsIChannel
