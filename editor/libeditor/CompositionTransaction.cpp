@@ -1734,8 +1734,6 @@ DoDeleteText
 (
 )
 failed
-but
-ignored
 "
 )
 ;
