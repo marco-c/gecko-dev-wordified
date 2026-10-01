@@ -1034,6 +1034,16 @@ use
 self
 :
 :
+position
+:
+:
+ObjectFit
+;
+pub
+use
+self
+:
+:
 random
 :
 :

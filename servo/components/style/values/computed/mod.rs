@@ -1281,6 +1281,16 @@ use
 self
 :
 :
+position
+:
+:
+ObjectFit
+;
+pub
+use
+self
+:
+:
 ratio
 :
 :
