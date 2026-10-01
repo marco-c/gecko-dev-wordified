@@ -13409,7 +13409,7 @@ Int64
 {
 masm
 .
-wasmLoadI64
+wasmLoadI32x2
 (
 mir
 -
@@ -13898,7 +13898,7 @@ temp0
 ;
 masm
 .
-wasmStoreI64
+wasmStoreI32x2
 (
 mir
 -

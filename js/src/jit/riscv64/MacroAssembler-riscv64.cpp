@@ -17839,7 +17839,7 @@ break
 }
 }
 static
-void
+FaultingCodeRange
 AtomicExchange
 (
 MacroAssembler
@@ -17966,6 +17966,12 @@ currentOffset
 (
 )
 ;
+FaultingCodeRange
+fcr
+(
+before
+)
+;
 masm
 .
 amoswap_w
@@ -17995,14 +18001,12 @@ TrapMachineInsn
 :
 :
 Atomic
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
 return
+fcr
 ;
 }
 /
@@ -18114,6 +18118,9 @@ memoryBarrierBefore
 (
 sync
 )
+;
+FaultingCodeRange
+fcr
 ;
 {
 /
@@ -18338,6 +18345,13 @@ currentOffset
 (
 )
 ;
+fcr
+=
+FaultingCodeRange
+(
+before
+)
+;
 masm
 .
 lr_w
@@ -18366,10 +18380,7 @@ TrapMachineInsn
 :
 :
 Load32
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
@@ -18465,6 +18476,9 @@ output
 offsetTemp
 )
 ;
+return
+fcr
+;
 }
 template
 <
@@ -18472,7 +18486,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 AtomicExchange
 (
 MacroAssembler
@@ -18532,6 +18546,7 @@ mem
 scratch
 )
 ;
+return
 AtomicExchange
 (
 masm
@@ -18548,7 +18563,7 @@ output
 ;
 }
 static
-void
+FaultingCodeRange
 AtomicExchange64
 (
 MacroAssembler
@@ -18596,6 +18611,12 @@ currentOffset
 (
 )
 ;
+FaultingCodeRange
+fcr
+(
+before
+)
+;
 masm
 .
 amoswap_d
@@ -18632,13 +18653,13 @@ TrapMachineInsn
 :
 :
 Atomic
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
+return
+fcr
+;
 }
 template
 <
@@ -18646,7 +18667,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 AtomicExchange64
 (
 MacroAssembler
@@ -18695,6 +18716,7 @@ mem
 scratch
 )
 ;
+return
 AtomicExchange64
 (
 masm
@@ -18707,7 +18729,7 @@ output
 ;
 }
 static
-void
+FaultingCodeRange
 AtomicFetchOp64
 (
 MacroAssembler
@@ -18816,6 +18838,12 @@ masm
 .
 currentOffset
 (
+)
+;
+FaultingCodeRange
+fcr
+(
+before
 )
 ;
 switch
@@ -18946,13 +18974,13 @@ TrapMachineInsn
 :
 :
 Atomic
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
+return
+fcr
+;
 }
 template
 <
@@ -18960,7 +18988,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 AtomicFetchOp64
 (
 MacroAssembler
@@ -19011,6 +19039,7 @@ mem
 scratch
 )
 ;
+return
 AtomicFetchOp64
 (
 masm
@@ -19024,7 +19053,7 @@ output
 ;
 }
 static
-void
+FaultingCodeRange
 AtomicFetchOrEffectOp
 (
 MacroAssembler
@@ -19303,6 +19332,12 @@ MOZ_CRASH
 )
 ;
 }
+FaultingCodeRange
+fcr
+(
+before
+)
+;
 if
 (
 access
@@ -19321,14 +19356,12 @@ TrapMachineInsn
 :
 :
 Atomic
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
 return
+fcr
 ;
 }
 /
@@ -19648,6 +19681,9 @@ maskTemp
 ;
 }
 }
+FaultingCodeRange
+fcr
+;
 {
 AutoForbidPoolsAndNops
 afp
@@ -19743,6 +19779,13 @@ MOZ_CRASH
 )
 ;
 }
+fcr
+=
+FaultingCodeRange
+(
+before
+)
+;
 if
 (
 access
@@ -19761,10 +19804,7 @@ TrapMachineInsn
 :
 :
 Atomic
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
@@ -19787,6 +19827,7 @@ offsetTemp
 ;
 }
 return
+fcr
 ;
 }
 masm
@@ -19795,6 +19836,9 @@ memoryBarrierBefore
 (
 sync
 )
+;
+FaultingCodeRange
+fcr
 ;
 {
 /
@@ -20055,6 +20099,13 @@ current
 address
 )
 ;
+fcr
+=
+FaultingCodeRange
+(
+before
+)
+;
 if
 (
 access
@@ -20073,10 +20124,7 @@ TrapMachineInsn
 :
 :
 Load32
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
@@ -20241,9 +20289,12 @@ offsetTemp
 )
 ;
 }
+return
+fcr
+;
 }
 static
-void
+FaultingCodeRange
 AtomicFetchOp
 (
 MacroAssembler
@@ -20279,6 +20330,7 @@ Register
 output
 )
 {
+return
 AtomicFetchOrEffectOp
 (
 masm
@@ -20301,7 +20353,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 AtomicFetchOp
 (
 MacroAssembler
@@ -20363,6 +20415,7 @@ mem
 scratch
 )
 ;
+return
 AtomicFetchOp
 (
 masm
@@ -20380,7 +20433,7 @@ output
 ;
 }
 static
-void
+FaultingCodeRange
 AtomicEffectOp
 (
 MacroAssembler
@@ -20414,6 +20467,7 @@ Register
 maskTemp
 )
 {
+return
 AtomicFetchOrEffectOp
 (
 masm
@@ -20436,7 +20490,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 AtomicEffectOp
 (
 MacroAssembler
@@ -20496,6 +20550,7 @@ mem
 scratch
 )
 ;
+return
 AtomicEffectOp
 (
 masm
@@ -22580,7 +22635,7 @@ msg
 ;
 }
 static
-void
+FaultingCodeRange
 CompareExchange64
 (
 MacroAssembler
@@ -22628,6 +22683,9 @@ sync
 ;
 Label
 exit
+;
+FaultingCodeRange
+fcr
 ;
 {
 /
@@ -22874,6 +22932,13 @@ reg
 address
 )
 ;
+fcr
+=
+FaultingCodeRange
+(
+before
+)
+;
 if
 (
 access
@@ -22892,10 +22957,7 @@ TrapMachineInsn
 :
 :
 Load64
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
@@ -23009,6 +23071,9 @@ bind
 exit
 )
 ;
+return
+fcr
+;
 }
 template
 <
@@ -23016,7 +23081,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 CompareExchange64
 (
 MacroAssembler
@@ -23067,6 +23132,7 @@ mem
 scratch
 )
 ;
+return
 CompareExchange64
 (
 masm
@@ -28345,7 +28411,7 @@ maskTemp
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -28368,6 +28434,7 @@ Register64
 output
 )
 {
+return
 AtomicExchange64
 (
 *
@@ -28385,7 +28452,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -28408,6 +28475,7 @@ Register64
 output
 )
 {
+return
 AtomicExchange64
 (
 *
@@ -28492,7 +28560,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -28521,6 +28589,7 @@ Register
 output
 )
 {
+return
 AtomicExchange
 (
 *
@@ -28546,7 +28615,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -28575,6 +28644,7 @@ Register
 output
 )
 {
+return
 AtomicExchange
 (
 *
@@ -28600,7 +28670,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -28656,6 +28726,7 @@ scratch
 zeroExtend
 )
 ;
+return
 AtomicExchange
 (
 *
@@ -28681,7 +28752,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -28721,6 +28792,7 @@ Invalid
 )
 )
 ;
+return
 AtomicFetchOp64
 (
 *
@@ -28739,7 +28811,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -28779,6 +28851,7 @@ Invalid
 )
 )
 ;
+return
 AtomicFetchOp64
 (
 *
@@ -29076,7 +29149,7 @@ zero_reg
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -29107,6 +29180,7 @@ Register
 output
 )
 {
+return
 AtomicFetchOp
 (
 *
@@ -29430,7 +29504,7 @@ ShortJump
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -29455,6 +29529,7 @@ Register64
 output
 )
 {
+return
 CompareExchange64
 (
 *
@@ -29473,7 +29548,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -29498,6 +29573,7 @@ Register64
 output
 )
 {
+return
 CompareExchange64
 (
 *
@@ -29587,7 +29663,7 @@ output
 ;
 }
 static
-void
+FaultingCodeRange
 CompareExchange
 (
 MacroAssembler
@@ -29714,6 +29790,9 @@ sync
 ;
 Label
 end
+;
+FaultingCodeRange
+fcr
 ;
 {
 /
@@ -29948,6 +30027,13 @@ currentOffset
 (
 )
 ;
+fcr
+=
+FaultingCodeRange
+(
+before
+)
+;
 masm
 .
 lr_w
@@ -29976,10 +30062,7 @@ TrapMachineInsn
 :
 :
 Load32
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
@@ -30088,6 +30171,7 @@ end
 )
 ;
 return
+fcr
 ;
 }
 /
@@ -30209,6 +30293,9 @@ sync
 ;
 Label
 end
+;
+FaultingCodeRange
+fcr
 ;
 {
 /
@@ -30440,6 +30527,13 @@ currentOffset
 (
 )
 ;
+fcr
+=
+FaultingCodeRange
+(
+before
+)
+;
 masm
 .
 lr_w
@@ -30468,10 +30562,7 @@ TrapMachineInsn
 :
 :
 Load32
-FaultingCodeRange
-(
-before
-)
+fcr
 )
 ;
 }
@@ -30643,6 +30734,9 @@ output
 offsetTemp
 )
 ;
+return
+fcr
+;
 }
 template
 <
@@ -30650,7 +30744,7 @@ typename
 T
 >
 static
-void
+FaultingCodeRange
 CompareExchange
 (
 MacroAssembler
@@ -30712,6 +30806,7 @@ mem
 scratch
 )
 ;
+return
 CompareExchange
 (
 masm
@@ -30824,7 +30919,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -30855,6 +30950,7 @@ Register
 output
 )
 {
+return
 CompareExchange
 (
 *
@@ -30881,7 +30977,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -30912,6 +31008,7 @@ Register
 output
 )
 {
+return
 CompareExchange
 (
 *
@@ -30938,7 +31035,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -30996,6 +31093,7 @@ scratch
 zeroExtend
 )
 ;
+return
 CompareExchange
 (
 *
@@ -31022,7 +31120,7 @@ output
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -31048,6 +31146,7 @@ ZeroExtendIndex
 zeroExtend
 )
 {
+return
 wasmLoadImpl
 (
 access
@@ -31058,7 +31157,7 @@ zeroExtend
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -31084,6 +31183,7 @@ ZeroExtendIndex
 zeroExtend
 )
 {
+return
 wasmLoadImpl
 (
 access
@@ -31099,7 +31199,7 @@ zeroExtend
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -31125,6 +31225,7 @@ ZeroExtendIndex
 zeroExtend
 )
 {
+return
 wasmStoreImpl
 (
 access
@@ -31135,7 +31236,7 @@ zeroExtend
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -31161,6 +31262,7 @@ ZeroExtendIndex
 zeroExtend
 )
 {
+return
 wasmStoreImpl
 (
 access
@@ -45620,7 +45722,7 @@ rd
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerRiscv64
 :
 :
@@ -45659,6 +45761,7 @@ offset32
 )
 )
 ;
+return
 wasmLoadImpl
 (
 access
@@ -45668,7 +45771,7 @@ zeroExtend
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerRiscv64
 :
 :
@@ -45984,8 +46087,11 @@ sync
 )
 )
 ;
+return
+fcr
+;
 }
-void
+FaultingCodeRange
 MacroAssemblerRiscv64
 :
 :
@@ -46024,6 +46130,7 @@ offset32
 )
 )
 ;
+return
 wasmStoreImpl
 (
 access
@@ -46033,7 +46140,7 @@ zeroExtend
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerRiscv64
 :
 :
@@ -46360,6 +46467,9 @@ sync
 (
 )
 )
+;
+return
+fcr
 ;
 }
 BaseIndex

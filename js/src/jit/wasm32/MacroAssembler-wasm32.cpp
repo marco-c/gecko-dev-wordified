@@ -877,7 +877,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -905,7 +905,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -1454,7 +1454,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -1482,7 +1482,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -2208,7 +2208,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
@@ -2238,7 +2238,7 @@ MOZ_CRASH
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssembler
 :
 :
