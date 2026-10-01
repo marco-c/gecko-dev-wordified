@@ -298,7 +298,7 @@ content
 .
 document
 .
-body
+documentElement
 .
 setAttribute
 (
