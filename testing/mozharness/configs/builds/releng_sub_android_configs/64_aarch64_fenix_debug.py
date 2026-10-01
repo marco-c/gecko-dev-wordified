@@ -58,6 +58,26 @@ config
 {
     
 "
+mozconfig_platform
+"
+:
+"
+android
+-
+aarch64
+"
+    
+"
+mozconfig_variant
+"
+:
+"
+fenix
+-
+debug
+"
+    
+"
 debug_build
 "
 :

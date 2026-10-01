@@ -82,4 +82,14 @@ abort
 "
     
 }
+    
+"
+mozconfig_variant
+"
+:
+"
+opt
+-
+searchfox
+"
 }

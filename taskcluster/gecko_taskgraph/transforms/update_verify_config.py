@@ -658,13 +658,21 @@ python
 "
             
 "
-python
+testing
 /
-mozrelease
+mozharness
 /
-mozrelease
+scripts
 /
-update_verify_config_creator
+release
+/
+update
+-
+verify
+-
+config
+-
+creator
 .
 py
 "

@@ -262,6 +262,18 @@ sbin
     
 }
     
+"
+mozconfig_variant
+"
+:
+"
+debug
+-
+searchfox
+-
+clang
+"
+    
 #
 #
 #
@@ -428,6 +440,25 @@ specific
     
 "
 platform
+"
+:
+"
+linux64
+"
+    
+#
+This
+doesn
+'
+t
+actually
+inherit
+from
+anything
+.
+    
+"
+mozconfig_platform
 "
 :
 "
