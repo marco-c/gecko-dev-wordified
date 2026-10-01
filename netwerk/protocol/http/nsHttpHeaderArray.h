@@ -65,6 +65,13 @@ nsHttpHeaderArray_h_
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h

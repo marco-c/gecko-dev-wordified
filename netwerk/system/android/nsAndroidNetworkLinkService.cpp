@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h

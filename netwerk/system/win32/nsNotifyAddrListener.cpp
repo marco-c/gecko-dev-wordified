@@ -315,6 +315,13 @@ h
 #
 include
 "
+nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
 nsComponentManagerUtils
 .
 h

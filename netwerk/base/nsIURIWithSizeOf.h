@@ -86,6 +86,13 @@ nsISupports
 h
 "
 #
+include
+"
+nsIURI
+.
+h
+"
+#
 define
 NS_IURIWITHSIZEOF_IID
 \
