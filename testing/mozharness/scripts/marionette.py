@@ -127,14 +127,6 @@ mozharness
 .
 base
 .
-transfer
-import
-TransferMixin
-from
-mozharness
-.
-base
-.
 vcs
 .
 vcsbase
@@ -210,7 +202,6 @@ MarionetteTest
 (
 TestingMixin
 MercurialScript
-TransferMixin
 CodeCoverageMixin
 )
 :
