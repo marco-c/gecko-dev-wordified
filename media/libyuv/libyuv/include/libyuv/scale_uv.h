@@ -90,6 +90,13 @@ define
 INCLUDE_LIBYUV_SCALE_UV_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 libyuv
 /

@@ -90,6 +90,13 @@ define
 INCLUDE_LIBYUV_SCALE_H_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 libyuv
 /
@@ -1280,7 +1287,7 @@ int
 dst_width
 int
 dst_height
-LIBYUV_BOOL
+int
 interpolate
 )
 ;
@@ -1298,7 +1305,7 @@ LIBYUV_API
 void
 SetUseReferenceImpl
 (
-LIBYUV_BOOL
+int
 use
 )
 ;

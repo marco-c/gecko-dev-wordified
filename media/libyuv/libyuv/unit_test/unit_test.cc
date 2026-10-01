@@ -372,7 +372,7 @@ defined
 _M_ARM
 )
 static
-LIBYUV_BOOL
+bool
 TestEnv
 (
 const
@@ -410,12 +410,12 @@ var
 )
 {
 return
-LIBYUV_TRUE
+true
 ;
 }
 }
 return
-LIBYUV_FALSE
+false
 ;
 }
 #
@@ -431,7 +431,7 @@ getenv
 )
 .
 static
-LIBYUV_BOOL
+bool
 TestEnv
 (
 const
@@ -440,7 +440,7 @@ char
 )
 {
 return
-LIBYUV_FALSE
+false
 ;
 }
 #

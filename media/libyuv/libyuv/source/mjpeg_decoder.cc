@@ -398,7 +398,7 @@ MJpegDecoder
 :
 has_scanline_padding_
 (
-LIBYUV_FALSE
+false
 )
 num_outbufs_
 (
@@ -475,9 +475,6 @@ error_exit
 &
 ErrorHandler
 ;
-#
-ifndef
-DEBUG_MJPEG
 error_mgr_
 -
 >
@@ -488,8 +485,6 @@ output_message
 &
 OutputHandler
 ;
-#
-endif
 #
 endif
 decompress_struct_
@@ -597,7 +592,7 @@ DestroyOutputBuffers
 )
 ;
 }
-LIBYUV_BOOL
+bool
 MJpegDecoder
 :
 :
@@ -622,7 +617,7 @@ src_len
 )
 {
 return
-LIBYUV_FALSE
+false
 ;
 }
 buf_
@@ -696,7 +691,7 @@ Return
 error
 .
 return
-LIBYUV_FALSE
+false
 ;
 }
 #
@@ -721,7 +716,7 @@ Bad
 MJPEG
 header
 return
-LIBYUV_FALSE
+false
 ;
 }
 AllocOutputBuffers
@@ -1011,12 +1006,12 @@ i
 {
 has_scanline_padding_
 =
-LIBYUV_TRUE
+true
 ;
 }
 }
 return
-LIBYUV_TRUE
+true
 ;
 }
 static
@@ -1436,7 +1431,7 @@ component
 )
 ;
 }
-LIBYUV_BOOL
+bool
 MJpegDecoder
 :
 :
@@ -1486,7 +1481,7 @@ Return
 error
 .
 return
-LIBYUV_FALSE
+false
 ;
 }
 #
@@ -1497,7 +1492,7 @@ decompress_struct_
 )
 ;
 return
-LIBYUV_TRUE
+true
 ;
 }
 /
@@ -1518,7 +1513,7 @@ y
 width
 height
 .
-LIBYUV_BOOL
+bool
 MJpegDecoder
 :
 :
@@ -1558,7 +1553,7 @@ ERROR
 Bad
 dimensions
 return
-LIBYUV_FALSE
+false
 ;
 }
 #
@@ -1611,7 +1606,7 @@ Return
 error
 .
 return
-LIBYUV_FALSE
+false
 ;
 }
 #
@@ -1625,7 +1620,7 @@ StartDecode
 )
 {
 return
-LIBYUV_FALSE
+false
 ;
 }
 SetScanlinePointers
@@ -1739,7 +1734,7 @@ FinishDecode
 )
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 skip
@@ -1798,7 +1793,7 @@ FinishDecode
 )
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 for
@@ -1966,7 +1961,7 @@ FinishDecode
 )
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 for
@@ -2065,7 +2060,7 @@ FinishDecode
 )
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 for
@@ -2142,7 +2137,7 @@ FinishDecode
 )
 ;
 }
-LIBYUV_BOOL
+bool
 MJpegDecoder
 :
 :
@@ -2183,7 +2178,7 @@ ERROR
 Bad
 dimensions
 return
-LIBYUV_FALSE
+false
 ;
 }
 #
@@ -2236,7 +2231,7 @@ Return
 error
 .
 return
-LIBYUV_FALSE
+false
 ;
 }
 #
@@ -2250,7 +2245,7 @@ StartDecode
 )
 {
 return
-LIBYUV_FALSE
+false
 ;
 }
 SetScanlinePointers
@@ -2323,7 +2318,7 @@ FinishDecode
 )
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 skip
@@ -2366,7 +2361,7 @@ FinishDecode
 )
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 for
@@ -2585,7 +2580,7 @@ FinishDecode
 )
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 (
@@ -2634,7 +2629,7 @@ FinishDecode
 )
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 (
@@ -3075,9 +3070,6 @@ setjmp_buffer
 )
 ;
 }
-#
-ifndef
-DEBUG_MJPEG
 /
 /
 Suppress
@@ -3097,8 +3089,6 @@ void
 cinfo
 ;
 }
-#
-endif
 #
 endif
 /
@@ -3337,7 +3327,7 @@ improve
 performance
 substantially
 .
-LIBYUV_BOOL
+bool
 MJpegDecoder
 :
 :
@@ -3389,7 +3379,7 @@ do_fancy_upsampling
 boolean
 )
 (
-LIBYUV_FALSE
+0
 )
 ;
 /
@@ -3408,7 +3398,7 @@ enable_2pass_quant
 boolean
 )
 (
-LIBYUV_FALSE
+0
 )
 ;
 /
@@ -3426,7 +3416,7 @@ do_block_smoothing
 boolean
 )
 (
-LIBYUV_FALSE
+0
 )
 ;
 if
@@ -3451,14 +3441,14 @@ decompressor
 "
 ;
 return
-LIBYUV_FALSE
+false
 ;
 }
 return
-LIBYUV_TRUE
+true
 ;
 }
-LIBYUV_BOOL
+bool
 MJpegDecoder
 :
 :
@@ -3501,7 +3491,7 @@ decompress_struct_
 )
 ;
 return
-LIBYUV_TRUE
+true
 ;
 }
 void
@@ -3582,7 +3572,7 @@ i
 }
 }
 inline
-LIBYUV_BOOL
+bool
 MJpegDecoder
 :
 :

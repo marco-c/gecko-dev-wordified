@@ -131,7 +131,7 @@ marker
 )
 .
 static
-LIBYUV_BOOL
+int
 ScanEOI
 (
 const
@@ -228,7 +228,7 @@ it
 )
 {
 return
-LIBYUV_TRUE
+1
 ;
 /
 /
@@ -265,7 +265,7 @@ found
 Size
 src_size_mjpg
 return
-LIBYUV_FALSE
+0
 ;
 }
 /
@@ -279,7 +279,7 @@ jpeg
 appears
 intact
 .
-LIBYUV_BOOL
+int
 ValidateJpeg
 (
 const
@@ -338,7 +338,7 @@ size
 :
 src_size_mjpg
 return
-LIBYUV_FALSE
+0
 ;
 }
 /
@@ -384,7 +384,7 @@ initial
 start
 code
 return
-LIBYUV_FALSE
+0
 ;
 }
 /
@@ -427,7 +427,7 @@ kBackSearchSize
 )
 {
 return
-LIBYUV_TRUE
+1
 ;
 /
 /

@@ -120,15 +120,6 @@ include
 "
 libyuv
 /
-basic_types
-.
-h
-"
-#
-include
-"
-libyuv
-/
 compare
 .
 h
@@ -321,7 +312,7 @@ kExpectedFoxHash
 =
 2611006483u
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 kExpectedFoxHash
 foxhash
@@ -401,7 +392,7 @@ kMaxTest
 5381
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 h1
 h2
@@ -454,7 +445,7 @@ kMaxTest
 5381
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 h1
 h2
@@ -525,7 +516,7 @@ kMaxTest
 5381
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 h1
 h2
@@ -566,7 +557,7 @@ kMaxTest
 5381
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 h1
 h2
@@ -608,7 +599,7 @@ kMaxTest
 1234
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 h1
 h2
@@ -662,7 +653,7 @@ kMaxTest
 5381
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 h1
 h2
@@ -712,7 +703,7 @@ kMaxTest
 5381
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 h1
 h2
@@ -764,7 +755,7 @@ kMaxTest
 5381
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 h1
 h2
@@ -812,7 +803,7 @@ kMaxTest
 5381
 )
 ;
-EXPECT_NE
+ASSERT_NE
 (
 h1
 h2
@@ -864,7 +855,7 @@ kMaxTest
 0
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 h1
 h2
@@ -964,7 +955,7 @@ kMaxTest
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 h1
 h2
@@ -1067,7 +1058,7 @@ kMaxTest
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 h1
 h2
@@ -1147,7 +1138,7 @@ benchmark_width_
 benchmark_height_
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -1188,7 +1179,7 @@ benchmark_width_
 benchmark_height_
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -1239,7 +1230,7 @@ benchmark_height_
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 0u
 fourcc
@@ -1325,7 +1316,7 @@ benchmark_width_
 benchmark_height_
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -1372,7 +1363,7 @@ benchmark_width_
 benchmark_height_
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -1427,7 +1418,7 @@ benchmark_height_
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 0u
 fourcc
@@ -1515,7 +1506,7 @@ src_b
 16
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 16u
 h1
@@ -1750,7 +1741,7 @@ kMaxWidth
 #
 endif
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 h0
 h1
@@ -1840,7 +1831,7 @@ src_b
 16
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 16u
 h1
@@ -1922,7 +1913,7 @@ kMaxWidth
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 h0
 h1
@@ -2007,7 +1998,7 @@ src_b
 16
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 16u
 h1
@@ -2089,7 +2080,7 @@ kMaxWidth
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 h0
 h1
@@ -2262,7 +2253,7 @@ src_b
 kMaxWidth
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 kMaxWidth
 *
@@ -2499,7 +2490,7 @@ kMaxWidth
 kMaxOptCount
 )
 {
-EXPECT_EQ
+ASSERT_EQ
 (
 kMaxWidth
 *
@@ -2683,7 +2674,7 @@ benchmark_height_
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 benchmark_width_
 *
@@ -2772,7 +2763,7 @@ src_b
 16
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 790u
 h1
@@ -2868,7 +2859,7 @@ kMaxWidth
 )
 ;
 }
-EXPECT_EQ
+ASSERT_EQ
 (
 0u
 h1
@@ -2937,7 +2928,7 @@ src_b
 kMaxWidth
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0u
 err
@@ -2959,7 +2950,7 @@ src_b
 kMaxWidth
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -2994,7 +2985,7 @@ src_b
 kMaxWidth
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 static_cast
 <
@@ -3083,7 +3074,7 @@ src_b
 kMaxWidth
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 c_err
 opt_err
@@ -3225,7 +3216,7 @@ opt_time
 1e6
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0
 0
@@ -3373,7 +3364,7 @@ opt_time
 1e6
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0
 0
@@ -3497,7 +3488,7 @@ kSrcWidth
 kSrcHeight
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 err
 kMaxPsnr
@@ -3534,7 +3525,7 @@ kSrcWidth
 kSrcHeight
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 err
 0
@@ -3573,7 +3564,7 @@ kSrcWidth
 kSrcHeight
 )
 ;
-EXPECT_GT
+ASSERT_GT
 (
 err
 48
@@ -3581,7 +3572,7 @@ err
 0
 )
 ;
-EXPECT_LT
+ASSERT_LT
 (
 err
 49
@@ -3637,7 +3628,7 @@ kSrcWidth
 kSrcHeight
 )
 ;
-EXPECT_GT
+ASSERT_GT
 (
 err
 2
@@ -3655,7 +3646,7 @@ kSrcHeight
 256
 )
 {
-EXPECT_LT
+ASSERT_LT
 (
 err
 6
@@ -3820,7 +3811,7 @@ kSrcWidth
 kSrcHeight
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 opt_err
 c_err
@@ -3962,7 +3953,7 @@ opt_time
 1e6
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0
 0
@@ -4141,7 +4132,7 @@ kSrcHeight
 8
 )
 {
-EXPECT_EQ
+ASSERT_EQ
 (
 err
 1
@@ -4193,7 +4184,7 @@ kSrcHeight
 8
 )
 {
-EXPECT_LT
+ASSERT_LT
 (
 err
 0
@@ -4245,7 +4236,7 @@ kSrcHeight
 8
 )
 {
-EXPECT_GT
+ASSERT_GT
 (
 err
 0
@@ -4253,7 +4244,7 @@ err
 0001
 )
 ;
-EXPECT_LT
+ASSERT_LT
 (
 err
 0
@@ -4322,7 +4313,7 @@ kSrcHeight
 8
 )
 {
-EXPECT_GT
+ASSERT_GT
 (
 err
 0
@@ -4330,7 +4321,7 @@ err
 0
 )
 ;
-EXPECT_LT
+ASSERT_LT
 (
 err
 0
@@ -4493,7 +4484,7 @@ kSrcHeight
 8
 )
 {
-EXPECT_EQ
+ASSERT_EQ
 (
 opt_err
 c_err

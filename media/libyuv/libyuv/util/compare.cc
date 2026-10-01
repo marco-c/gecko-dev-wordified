@@ -115,15 +115,6 @@ include
 "
 libyuv
 /
-basic_types
-.
-h
-"
-#
-include
-"
-libyuv
-/
 compare
 .
 h

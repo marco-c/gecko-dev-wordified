@@ -101,15 +101,6 @@ row
 h
 "
 #
-include
-"
-libyuv
-/
-basic_types
-.
-h
-"
-#
 ifdef
 __cplusplus
 namespace

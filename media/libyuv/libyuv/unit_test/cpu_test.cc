@@ -141,15 +141,6 @@ include
 "
 libyuv
 /
-basic_types
-.
-h
-"
-#
-include
-"
-libyuv
-/
 cpu_id
 .
 h
@@ -363,7 +354,7 @@ cpu_info
 ]
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 12u
 strlen
@@ -1529,6 +1520,14 @@ TestCpuFlag
 kCpuHasAMXINT8
 )
 ;
+int
+has_avx512bmm
+=
+TestCpuFlag
+(
+kCpuHasAVX512BMM
+)
+;
 printf
 (
 "
@@ -1839,6 +1838,20 @@ x
 n
 "
 has_amxint8
+)
+;
+printf
+(
+"
+Has
+AVX512BMM
+0x
+%
+x
+\
+n
+"
+has_avx512bmm
 )
 ;
 }
@@ -2520,7 +2533,7 @@ n
 "
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0
 ArmCpuCaps
@@ -2543,7 +2556,7 @@ txt
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 kCpuHasNEON
 ArmCpuCaps
@@ -2745,7 +2758,7 @@ only
 Neon
 available
 .
-EXPECT_EQ
+ASSERT_EQ
 (
 kCpuHasNEON
 AArch64CpuCaps
@@ -2772,7 +2785,7 @@ kCpuHasNEON
 |
 kCpuHasNeonDotProd
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 expected
 AArch64CpuCaps
@@ -2804,7 +2817,7 @@ kCpuHasSVE
 |
 kCpuHasSVE2
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 expected
 AArch64CpuCaps
@@ -2824,7 +2837,7 @@ Neoverse
 N2
 machine
 .
-EXPECT_EQ
+ASSERT_EQ
 (
 expected
 AArch64CpuCaps
@@ -2847,7 +2860,7 @@ expected
 =
 kCpuHasSME
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 expected
 AArch64CpuCaps
@@ -2930,7 +2943,7 @@ n
 "
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 0
 RiscvCpuCaps
@@ -2953,7 +2966,7 @@ txt
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 kCpuHasRVV
 RiscvCpuCaps
@@ -2976,7 +2989,7 @@ txt
 )
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 kCpuHasRVV
 |
@@ -3230,7 +3243,7 @@ SetCpuFlags
 cpu_flags
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 cpu_flags
 TestCpuFlag
@@ -3251,7 +3264,7 @@ SetCpuFlags
 cpu_flags
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 cpu_flags
 TestCpuFlag
@@ -3279,7 +3292,7 @@ SetCpuFlags
 0
 )
 ;
-EXPECT_EQ
+ASSERT_EQ
 (
 original_cpu_flags
 TestCpuFlag

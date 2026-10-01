@@ -90,6 +90,20 @@ define
 INCLUDE_LIBYUV_MJPEG_DECODER_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
+<
+stdint
+.
+h
+>
+#
+include
 "
 libyuv
 /
@@ -139,7 +153,7 @@ C
 {
 #
 endif
-LIBYUV_BOOL
+int
 ValidateJpeg
 (
 const
@@ -390,7 +404,7 @@ format
 /
 /
 Returns
-LIBYUV_TRUE
+true
 if
 image
 looks
@@ -406,7 +420,7 @@ If
 return
 value
 is
-LIBYUV_TRUE
+true
 then
 the
 values
@@ -434,7 +448,7 @@ frame
 in
 bytes
 .
-LIBYUV_BOOL
+bool
 LoadFrame
 (
 const
@@ -680,7 +694,7 @@ it
 after
 all
 .
-LIBYUV_BOOL
+bool
 UnloadFrame
 (
 )
@@ -801,7 +815,7 @@ to
 be
 decoded
 .
-LIBYUV_BOOL
+bool
 DecodeToBuffers
 (
 uint8_t
@@ -868,7 +882,7 @@ to
 be
 decoded
 .
-LIBYUV_BOOL
+bool
 DecodeToCallback
 (
 CallbackFunction
@@ -924,12 +938,12 @@ DestroyOutputBuffers
 (
 )
 ;
-LIBYUV_BOOL
+bool
 StartDecode
 (
 )
 ;
-LIBYUV_BOOL
+bool
 FinishDecode
 (
 )
@@ -943,7 +957,7 @@ uint8_t
 data
 )
 ;
-LIBYUV_BOOL
+bool
 DecodeImcuRow
 (
 )
@@ -987,7 +1001,7 @@ error_mgr_
 ;
 /
 /
-LIBYUV_TRUE
+true
 iff
 at
 least
@@ -1012,7 +1026,7 @@ GetComponentScanlinePadding
 0
 .
 )
-LIBYUV_BOOL
+bool
 has_scanline_padding_
 ;
 /
