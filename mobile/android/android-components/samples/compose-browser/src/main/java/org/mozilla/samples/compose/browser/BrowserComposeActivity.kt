@@ -83,12 +83,6 @@ setContent
 import
 androidx
 .
-activity
-.
-enableEdgeToEdge
-import
-androidx
-.
 appcompat
 .
 app
@@ -129,7 +123,7 @@ androidx
 .
 compose
 .
-material
+material3
 .
 Scaffold
 import
@@ -140,6 +134,14 @@ compose
 ui
 .
 Modifier
+import
+androidx
+.
+core
+.
+view
+.
+WindowCompat
 import
 androidx
 .
@@ -235,7 +237,6 @@ SettingsScreen
 /
 *
 *
-*
 Ladies
 and
 gentleman
@@ -291,8 +292,11 @@ onCreate
 (
 savedInstanceState
 )
+WindowCompat
+.
 enableEdgeToEdge
 (
+window
 )
 window
 .

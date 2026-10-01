@@ -109,9 +109,11 @@ View
 import
 androidx
 .
-activity
+core
 .
-enableEdgeToEdge
+view
+.
+WindowCompat
 import
 androidx
 .
@@ -267,7 +269,6 @@ components
 /
 *
 *
-*
 Activity
 that
 holds
@@ -304,7 +305,6 @@ openPopup
 )
 }
 /
-*
 *
 *
 Returns
@@ -362,8 +362,11 @@ layout
 .
 activity_main
 )
+WindowCompat
+.
 enableEdgeToEdge
 (
+window
 )
 window
 .
