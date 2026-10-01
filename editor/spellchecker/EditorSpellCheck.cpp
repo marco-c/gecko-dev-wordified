@@ -522,6 +522,13 @@ h
 /
 for
 XRE_GetProcessType
+#
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
 namespace
 mozilla
 {

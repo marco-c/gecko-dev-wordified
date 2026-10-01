@@ -119,6 +119,13 @@ h
 for
 nsresult
 #
+include
+"
+nsPIDOMWindow
+.
+h
+"
+#
 ifndef
 __gen_nsIWebProgressListener_h__
 #
