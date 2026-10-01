@@ -3242,10 +3242,10 @@ numContext
 1024
 numBatch
 :
-1024
+2048
 numUbatch
 :
-1024
+512
 flashAttn
 :
 false
