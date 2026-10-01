@@ -692,18 +692,6 @@ MOZ_RUST_LIBRARY_RUSTCFLAGS
 _as_list
     
 "
-MOZ_RUST_PROGRAM_LDFLAGS
-"
-:
-_as_list
-    
-"
-MOZ_RUST_PROGRAM_RUSTCFLAGS
-"
-:
-_as_list
-    
-"
 MOZ_RUST_SANITIZER_OPTION_VARS
 "
 :
@@ -3035,29 +3023,6 @@ Clto
 "
 )
     
-if
-cmd
-.
-kind
-=
-=
-"
-program
-"
-:
-        
-flags
-+
-=
-substs
-.
-get
-(
-"
-MOZ_RUST_PROGRAM_RUSTCFLAGS
-"
-)
-    
 flags
 +
 =
@@ -3352,18 +3317,6 @@ MOZ_CARGO_PROGRAM_LDFLAGS_FILTER_OUT
 "
 )
         
-)
-        
-ldflags
-+
-=
-substs
-.
-get
-(
-"
-MOZ_RUST_PROGRAM_LDFLAGS
-"
 )
     
 return

@@ -5166,20 +5166,6 @@ windows
 -
 msvc
 "
-        
-"
-mingw32
-"
-:
-"
-i686
--
-pc
--
-windows
--
-gnu
-"
     
 }
     
