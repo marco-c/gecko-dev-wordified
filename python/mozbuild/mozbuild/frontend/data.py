@@ -3487,7 +3487,7 @@ cargo_output_directory
 (
 context
 target_var
-libname
+profile_suffix
 =
 "
 "
@@ -3554,13 +3554,9 @@ context
 config
 .
 substs
-megazord
+profile_suffix
 =
-"
-megazord
-"
-in
-libname
+profile_suffix
 )
     
 )
@@ -4582,6 +4578,14 @@ output_category
 "
 is_gkrust
 "
+        
+"
+cargo_profile_suffix
+"
+        
+"
+cargo_crate_type
+"
     
 )
     
@@ -4604,6 +4608,10 @@ dependencies
 features
         
 is_gkrust
+        
+cargo_profile_suffix
+        
+cargo_crate_type
     
 )
 :
@@ -4613,6 +4621,18 @@ self
 is_gkrust
 =
 is_gkrust
+        
+self
+.
+cargo_profile_suffix
+=
+cargo_profile_suffix
+        
+self
+.
+cargo_crate_type
+=
+cargo_crate_type
         
 self
 .
@@ -4881,7 +4901,7 @@ self
 TARGET_SUBST_VAR
 self
 .
-import_name
+cargo_profile_suffix
                 
 )
                 
@@ -4968,6 +4988,16 @@ is_gkrust
 =
 False
         
+cargo_profile_suffix
+=
+"
+"
+        
+cargo_crate_type
+=
+"
+"
+        
 link_into
 =
 None
@@ -5037,6 +5067,10 @@ dependencies
 features
             
 is_gkrust
+            
+cargo_profile_suffix
+            
+cargo_crate_type
         
 )
 class
@@ -6003,6 +6037,16 @@ dependencies
 features
         
 is_gkrust
+        
+cargo_profile_suffix
+=
+"
+"
+        
+cargo_crate_type
+=
+"
+"
     
 )
 :
@@ -6036,6 +6080,10 @@ dependencies
 features
             
 is_gkrust
+            
+cargo_profile_suffix
+            
+cargo_crate_type
         
 )
 class
