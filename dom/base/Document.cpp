@@ -137072,6 +137072,11 @@ Sanitizer
 GetInstance
 (
 global
+-
+>
+GetAsInnerWindow
+(
+)
 aOptions
 .
 mSanitizer
@@ -137397,9 +137402,9 @@ true
 .
 nsCOMPtr
 <
-nsIGlobalObject
+nsPIDOMWindowInner
 >
-global
+window
 =
 do_QueryInterface
 (
@@ -137421,7 +137426,7 @@ Sanitizer
 :
 GetInstance
 (
-global
+window
 aOptions
 .
 mSanitizer
