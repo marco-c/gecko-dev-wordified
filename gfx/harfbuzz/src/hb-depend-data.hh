@@ -465,6 +465,7 @@ glyf
 CFF
 COLR
 MATH
+VARC
 )
 *
 -

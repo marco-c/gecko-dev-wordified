@@ -3068,11 +3068,9 @@ Visual_Order_Left
 or
 			
 U
-in
-{
+=
+=
 0x0F7F
-0x11A3A
-}
 or
 			
 USE
