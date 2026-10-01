@@ -1044,6 +1044,9 @@ popTab
 TabContextMenu
 .
 contextTab
+"
+tab_context_menu
+"
 )
 ;
 break
