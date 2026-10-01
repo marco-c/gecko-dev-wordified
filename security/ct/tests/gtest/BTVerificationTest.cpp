@@ -188,13 +188,13 @@ abort
 This
 comes
 from
-testing
+python
 /
-mozharness
+mozrelease
 /
 test
 /
-test_mozilla_merkle
+test_merkle
 .
 py
 static
