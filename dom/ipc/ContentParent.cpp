@@ -29182,8 +29182,7 @@ void
 aClosure
 )
 {
-auto
-*
+RefPtr
 self
 =
 static_cast
@@ -29263,8 +29262,7 @@ XPCSHELL_TEST_PROFILE_DIR
 return
 ;
 }
-auto
-*
+RefPtr
 self
 =
 static_cast
