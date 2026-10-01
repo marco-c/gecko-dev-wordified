@@ -187,8 +187,9 @@ virtual
 MVMContext
 (
 )
-{
-}
+=
+default
+;
 public
 :
 virtual

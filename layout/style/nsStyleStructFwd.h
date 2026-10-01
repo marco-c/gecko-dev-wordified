@@ -80,6 +80,11 @@ define
 nsStyleStructFwd_h_
 #
 include
+<
+cstdint
+>
+#
+include
 "
 nsStyleStructList
 .

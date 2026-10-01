@@ -101,6 +101,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
