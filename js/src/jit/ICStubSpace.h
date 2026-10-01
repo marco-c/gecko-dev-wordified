@@ -96,7 +96,7 @@ stub
 data
 .
 Each
-JitZone
+JitRealm
 has
 a
 single

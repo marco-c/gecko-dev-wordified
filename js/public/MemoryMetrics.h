@@ -3548,13 +3548,6 @@ MACRO
 (
 Other
 MallocHeap
-cacheIRStubs
-)
-\
-MACRO
-(
-Other
-MallocHeap
 objectFuses
 )
 \
@@ -4158,6 +4151,13 @@ MACRO
 Other
 MallocHeap
 allocSites
+)
+\
+MACRO
+(
+Other
+MallocHeap
+cacheIRStubs
 )
 \
 MACRO

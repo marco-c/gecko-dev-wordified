@@ -3155,9 +3155,6 @@ purgeStubs
 JSScript
 *
 script
-ICStubSpace
-&
-newStubSpace
 )
 ;
 void
@@ -4225,8 +4222,10 @@ Baseline
 IC
 stubs
 to
-the
-new
+their
+realm
+'
+s
 stub
 space
 .
@@ -4236,9 +4235,6 @@ MarkActiveICScriptsAndCopyStubs
 Zone
 *
 zone
-ICStubSpace
-&
-newStubSpace
 )
 ;
 #
