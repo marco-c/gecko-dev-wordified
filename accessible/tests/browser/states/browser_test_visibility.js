@@ -358,12 +358,15 @@ text
 /
 html
 <
-body
+html
 id
 =
 "
 iframeDoc
 "
+>
+<
+body
 >
 <
 p
@@ -381,6 +384,10 @@ p
 <
 /
 body
+>
+<
+/
+html
 >
 '
 ;
