@@ -8755,6 +8755,8 @@ NrIceMediaStream
 stream
 int
 component
+uint32_t
+dtls_id
 MediaPacket
 &
 packet
@@ -8856,6 +8858,12 @@ SendPacket
 component
 data
 len
+media_stream
+-
+>
+GetDtlsId
+(
+)
 )
 )
 )
@@ -8972,6 +8980,12 @@ c_str
 d
 .
 length
+(
+)
+media_stream
+-
+>
+GetDtlsId
 (
 )
 )
