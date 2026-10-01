@@ -3633,9 +3633,9 @@ content
 .
 mirror
 .
-mode
+enabled
 "
-1
+true
 ]
 [
 "
