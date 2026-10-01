@@ -114,7 +114,7 @@ in
 the
 about
 :
-aitab
+smartpage
 document
 rather
 than
@@ -186,7 +186,7 @@ enabled
 Opens
 about
 :
-aitab
+smartpage
 where
 every
 AI
@@ -274,7 +274,7 @@ withNewTab
 "
 about
 :
-aitab
+smartpage
 "
 async
 browser

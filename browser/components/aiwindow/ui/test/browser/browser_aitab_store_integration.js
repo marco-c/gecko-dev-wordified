@@ -110,7 +110,7 @@ describe
 "
 about
 :
-aitab
+smartpage
 store
 integration
 "
@@ -236,7 +236,7 @@ openNewForegroundTab
 gBrowser
 about
 :
-aitab
+smartpage
 ?
 page
 =
@@ -521,7 +521,7 @@ openNewForegroundTab
 gBrowser
 about
 :
-aitab
+smartpage
 ?
 page
 =
