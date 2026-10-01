@@ -76,7 +76,7 @@ mozfile
 from
 mozgeckoprofiler
 import
-symbolicate_profile_json
+symbolicate_profile_file
 from
 mozlog
 import
@@ -773,16 +773,60 @@ _save_gecko_profile
 self
 cycle
 profile_path
+out_path
 )
 :
+        
+"
+"
+"
+Symbolicate
+profile_path
+to
+out_path
+returning
+the
+path
+to
+archive
+.
+        
+The
+archive
+deflates
+its
+entries
+already
+so
+the
+symbolicated
+profile
+        
+is
+written
+uncompressed
+rather
+than
+gzipped
+.
+        
+"
+"
+"
         
 try
 :
             
-symbolicate_profile_json
+if
+symbolicate_profile_file
 (
 profile_path
+out_path
 )
+:
+                
+return
+out_path
         
 except
 Exception
@@ -820,6 +864,9 @@ exc_info
 True
             
 )
+        
+return
+profile_path
     
 def
 symbolicate
@@ -893,10 +940,18 @@ dir
 )
         
 with
+tempfile
+.
+TemporaryDirectory
+(
+)
+as
+sym_dir
 zipfile
 .
 ZipFile
 (
+            
 self
 .
 profile_arcname
@@ -904,6 +959,7 @@ profile_arcname
 a
 "
 mode
+        
 )
 as
 arc
@@ -926,13 +982,17 @@ gecko_profile_dir
 .
             
 for
+index
 profile_filename
 in
+enumerate
+(
 os
 .
 listdir
 (
 gecko_profile_dir
+)
 )
 :
                 
@@ -974,12 +1034,32 @@ gecko_profile_dir
 profile_filename
 )
                 
+archived_path
+=
 self
 .
 _save_gecko_profile
 (
+                    
 cycle
 profile_path
+os
+.
+path
+.
+join
+(
+sym_dir
+f
+"
+{
+index
+}
+.
+json
+"
+)
+                
 )
                 
 #
@@ -1138,7 +1218,7 @@ arc
 .
 write
 (
-profile_path
+archived_path
 path_in_zip
 )
                 

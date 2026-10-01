@@ -4596,7 +4596,8 @@ expected
                 
 message
 =
-f
+(
+                    
 "
 Test
 timed
@@ -4605,10 +4606,18 @@ out
 profile
 uploaded
 in
+"
+                    
+f
+"
 {
-profile_name
+self
+.
+timeout_profile_artifact_name
 }
 "
+                
+)
             
 )
         
@@ -8937,6 +8946,12 @@ timeout_profile_name
 =
 None
         
+self
+.
+timeout_profile_artifact_name
+=
+None
+        
 if
 not
 self
@@ -9248,6 +9263,44 @@ self
 timeout_profile_name
 =
 filename
+                
+#
+Symbolication
+gzips
+every
+uploaded
+profile
+and
+renames
+it
+                
+#
+accordingly
+so
+the
+surviving
+artifact
+is
+the
+"
+.
+json
+.
+gz
+"
+one
+.
+                
+self
+.
+timeout_profile_artifact_name
+=
+filename
++
+"
+.
+gz
+"
                 
 self
 .
@@ -10945,6 +10998,26 @@ self
 singleFile
 :
                 
+#
+Symbolication
+gzips
+the
+profile
+which
+moves
+it
+so
+open
+the
+                
+#
+path
+it
+returns
+.
+                
+profile_path
+=
 symbolicate_profile_json
 (
 profile_path
