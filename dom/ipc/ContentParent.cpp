@@ -43856,6 +43856,13 @@ ContentBlockingNotifier
 StorageAccessPermissionGrantedReason
 &
 aReason
+const
+Maybe
+<
+bool
+>
+&
+aHadPriorUserInteraction
 CompleteAllowAccessForResolver
 &
 &
@@ -43893,6 +43900,7 @@ aTrackingOrigin
 aCookieBehavior
 aReason
 nullptr
+aHadPriorUserInteraction
 )
 -
 >

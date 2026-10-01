@@ -7435,6 +7435,13 @@ ContentBlockingNotifier
 StorageAccessPermissionGrantedReason
 &
 aReason
+const
+Maybe
+<
+bool
+>
+&
+aHadPriorUserInteraction
 CompleteAllowAccessForResolver
 &
 &
