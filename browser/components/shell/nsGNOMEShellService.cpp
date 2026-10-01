@@ -1189,15 +1189,6 @@ do_GetService
 NS_GIOSERVICE_CONTRACTID
 )
 ;
-nsAutoCString
-handler
-;
-nsCOMPtr
-<
-nsIGIOMimeApp
->
-gioApp
-;
 for
 (
 auto
@@ -1213,8 +1204,10 @@ appProtocol
 .
 essential
 )
+{
 continue
 ;
+}
 if
 (
 !
