@@ -2841,7 +2841,9 @@ id_domain
 {
 for
 (
+const
 auto
+&
 reference_extension
 :
 reference_extensions
@@ -2962,6 +2964,11 @@ reference_extension
 id_domain
 )
 ;
+RtpExtension
+extension
+=
+reference_extension
+;
 if
 (
 suggested_id
@@ -2971,7 +2978,7 @@ ok
 )
 )
 {
-reference_extension
+extension
 .
 id
 =
@@ -3024,7 +3031,7 @@ all_encountered_extensions
 >
 push_back
 (
-reference_extension
+extension
 )
 ;
 offered_extensions
@@ -3032,7 +3039,13 @@ offered_extensions
 >
 push_back
 (
-reference_extension
+std
+:
+:
+move
+(
+extension
+)
 )
 ;
 }

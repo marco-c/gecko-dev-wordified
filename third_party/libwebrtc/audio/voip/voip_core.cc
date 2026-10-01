@@ -1650,12 +1650,15 @@ size
 ;
 for
 (
+const
 auto
+&
 kv
 :
 channels_
 )
 {
+const
 scoped_refptr
 <
 AudioChannel

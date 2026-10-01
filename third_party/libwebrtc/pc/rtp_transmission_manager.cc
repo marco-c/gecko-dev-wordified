@@ -2804,7 +2804,9 @@ IsUnifiedPlan
 ;
 for
 (
+const
 auto
+&
 transceiver
 :
 transceivers_
@@ -2898,7 +2900,9 @@ IsUnifiedPlan
 ;
 for
 (
+const
 auto
+&
 transceiver
 :
 transceivers_
@@ -4990,7 +4994,9 @@ RTC_ALLOW_PLAN_B_DEPRECATION_BEGIN
 )
 for
 (
+const
 auto
+&
 sender
 :
 transceiver
@@ -5130,7 +5136,9 @@ now
 .
 for
 (
+const
 auto
+&
 sender
 :
 transceiver
@@ -5217,7 +5225,9 @@ List
 {
 for
 (
+const
 auto
+&
 receiver
 :
 transceiver
