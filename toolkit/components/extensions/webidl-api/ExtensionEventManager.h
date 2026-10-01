@@ -115,6 +115,17 @@ include
 "
 mozilla
 /
+extensions
+/
+ExtensionBrowser
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h
@@ -188,9 +199,6 @@ dom
 namespace
 extensions
 {
-class
-ExtensionBrowser
-;
 class
 ExtensionEventListener
 ;

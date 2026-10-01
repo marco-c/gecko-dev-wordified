@@ -149,6 +149,13 @@ h
 #
 include
 "
+nsCRTGlue
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

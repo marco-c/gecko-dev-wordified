@@ -100,6 +100,17 @@ include
 "
 mozilla
 /
+extensions
+/
+ExtensionBrowser
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h
@@ -279,9 +290,6 @@ ExtensionAPICallAsyncFunction
 ;
 class
 ExtensionAPIGetProperty
-;
-class
-ExtensionBrowser
 ;
 class
 ExtensionEventManager

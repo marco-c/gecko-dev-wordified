@@ -187,6 +187,13 @@ IntegerPrintfMacros
 .
 h
 "
+#
+include
+"
+nsCharSeparatedTokenizer
+.
+h
+"
 /
 /
 MOZ_LOG
