@@ -4263,9 +4263,7 @@ late
 .
 if
 (
-window
-.
-gBrowser
+Tabbrowser
 .
 isTab
 (

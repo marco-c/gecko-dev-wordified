@@ -2400,7 +2400,7 @@ swapBrowsers
 {
 if
 (
-gBrowser
+Tabbrowser
 .
 isTabGroupLabel
 (
@@ -2451,7 +2451,7 @@ selectedTab
 else
 if
 (
-gBrowser
+Tabbrowser
 .
 isTabGroup
 (
@@ -2511,7 +2511,7 @@ add
 else
 if
 (
-gBrowser
+Tabbrowser
 .
 isSplitViewWrapper
 (
@@ -2661,7 +2661,7 @@ _clearTabToAdopt
 ;
 if
 (
-gBrowser
+Tabbrowser
 .
 isTab
 (
