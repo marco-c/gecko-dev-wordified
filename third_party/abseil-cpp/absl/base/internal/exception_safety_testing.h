@@ -180,6 +180,11 @@ cstdint
 #
 include
 <
+cstdlib
+>
+#
+include
+<
 functional
 >
 #
@@ -195,6 +200,21 @@ iosfwd
 #
 include
 <
+limits
+>
+#
+include
+<
+memory
+>
+#
+include
+<
+new
+>
+#
+include
+<
 string
 >
 #
@@ -205,7 +225,22 @@ tuple
 #
 include
 <
+type_traits
+>
+#
+include
+<
 unordered_map
+>
+#
+include
+<
+utility
+>
+#
+include
+<
+vector
 >
 #
 include
@@ -248,6 +283,17 @@ absl
 meta
 /
 type_traits
+.
+h
+"
+#
+include
+"
+absl
+/
+strings
+/
+str_cat
 .
 h
 "
@@ -1412,7 +1458,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -1741,7 +1787,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -1794,7 +1840,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 }
@@ -1850,7 +1896,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 }
@@ -1881,7 +1927,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -1969,7 +2015,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 }
@@ -2026,7 +2072,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 }
@@ -2061,7 +2107,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2088,7 +2134,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2115,7 +2161,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2142,7 +2188,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2167,7 +2213,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 +
@@ -2192,7 +2238,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 auto
@@ -2225,7 +2271,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 -
@@ -2250,7 +2296,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 auto
@@ -2286,7 +2332,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2317,7 +2363,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2348,7 +2394,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2378,7 +2424,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2407,7 +2453,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2472,7 +2518,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2507,7 +2553,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2541,7 +2587,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2575,7 +2621,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2609,7 +2655,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2643,7 +2689,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2673,7 +2719,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2698,7 +2744,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2727,7 +2773,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2756,7 +2802,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2784,7 +2830,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2815,7 +2861,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2846,7 +2892,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -2883,7 +2929,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -2915,7 +2961,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -2947,7 +2993,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -2979,7 +3025,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -3011,7 +3057,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -3043,7 +3089,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -3075,7 +3121,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -3107,7 +3153,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -3138,7 +3184,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -3168,7 +3214,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -3234,7 +3280,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -3275,7 +3321,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -3324,7 +3370,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 true
 )
 ;
@@ -3378,7 +3424,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 true
 )
 ;
@@ -3447,7 +3493,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 true
 )
 ;
@@ -3529,7 +3575,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 true
 )
 ;
@@ -4116,9 +4162,8 @@ is_nothrow
 std
 :
 :
-integral_constant
+bool_constant
 <
-bool
 Spec
 =
 =
@@ -4177,7 +4222,7 @@ exceptions_internal
 :
 MaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 dummy_
@@ -4543,7 +4588,7 @@ kNoThrowAllocate
 {
 ReadStateAndMaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return
@@ -4658,7 +4703,7 @@ kNoThrowAllocate
 {
 ReadStateAndMaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 :
@@ -4765,7 +4810,7 @@ kNoThrowAllocate
 {
 ReadStateAndMaybeThrow
 (
-ABSL_PRETTY_FUNCTION
+ABSL_INTERNAL_PRETTY_FUNCTION
 )
 ;
 return

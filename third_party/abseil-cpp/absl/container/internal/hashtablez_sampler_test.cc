@@ -152,6 +152,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 atomic
 >
 #

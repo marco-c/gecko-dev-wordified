@@ -184,6 +184,30 @@ include
 "
 absl
 /
+base
+/
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+numeric
+/
+internal
+/
+bits
+.
+h
+"
+#
+include
+"
+absl
+/
 random
 /
 random
@@ -580,8 +604,6 @@ uint8_t
 {
 0x12
 }
-"
-"
 )
 ;
 static_assert
@@ -600,8 +622,6 @@ uint8_t
 {
 0x12
 }
-"
-"
 )
 ;
 EXPECT_EQ
@@ -634,8 +654,6 @@ UIntType
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -654,8 +672,6 @@ UIntType
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -669,8 +685,6 @@ UIntType
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -689,8 +703,6 @@ UIntType
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -704,8 +716,6 @@ UIntType
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -724,8 +734,6 @@ UIntType
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -739,8 +747,6 @@ UIntType
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -759,8 +765,6 @@ UIntType
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -774,8 +778,6 @@ UIntType
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -790,8 +792,6 @@ UIntType
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -810,8 +810,6 @@ UIntType
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -825,8 +823,6 @@ UIntType
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -841,8 +837,6 @@ UIntType
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -857,8 +851,6 @@ UIntType
 =
 =
 2
-"
-"
 )
 ;
 static_assert
@@ -877,8 +869,6 @@ UIntType
 =
 =
 8
-"
-"
 )
 ;
 #
@@ -1113,8 +1103,6 @@ uint8_t
 {
 0x12
 }
-"
-"
 )
 ;
 static_assert
@@ -1133,8 +1121,6 @@ uint16_t
 {
 0x1234
 }
-"
-"
 )
 ;
 static_assert
@@ -1153,8 +1139,6 @@ uint32_t
 {
 0x12345678UL
 }
-"
-"
 )
 ;
 static_assert
@@ -1173,8 +1157,6 @@ uint64_t
 {
 0x12345678ABCDEF01ULL
 }
-"
-"
 )
 ;
 EXPECT_EQ
@@ -1555,8 +1537,6 @@ uint8_t
 {
 0x12
 }
-"
-"
 )
 ;
 static_assert
@@ -1575,8 +1555,6 @@ uint16_t
 {
 0x1234
 }
-"
-"
 )
 ;
 static_assert
@@ -1595,8 +1573,6 @@ uint32_t
 {
 0x12345678UL
 }
-"
-"
 )
 ;
 static_assert
@@ -1615,8 +1591,6 @@ uint64_t
 {
 0x12345678ABCDEF01ULL
 }
-"
-"
 )
 ;
 EXPECT_EQ
@@ -2442,8 +2416,6 @@ uint8_t
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -2462,8 +2434,6 @@ uint8_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -2477,8 +2447,6 @@ uint16_t
 =
 =
 16
-"
-"
 )
 ;
 static_assert
@@ -2497,8 +2465,6 @@ uint16_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -2512,8 +2478,6 @@ uint32_t
 =
 =
 32
-"
-"
 )
 ;
 static_assert
@@ -2528,8 +2492,6 @@ uint32_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -2543,8 +2505,6 @@ uint64_t
 =
 =
 64
-"
-"
 )
 ;
 static_assert
@@ -2559,8 +2519,6 @@ uint64_t
 =
 =
 0
-"
-"
 )
 ;
 #
@@ -2828,8 +2786,6 @@ uint8_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -2848,8 +2804,6 @@ uint8_t
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -2863,8 +2817,6 @@ uint16_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -2883,8 +2835,6 @@ uint16_t
 =
 =
 16
-"
-"
 )
 ;
 static_assert
@@ -2898,8 +2848,6 @@ uint32_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -2914,8 +2862,6 @@ uint32_t
 =
 =
 32
-"
-"
 )
 ;
 static_assert
@@ -2929,8 +2875,6 @@ uint64_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -2945,8 +2889,6 @@ uint64_t
 =
 =
 64
-"
-"
 )
 ;
 #
@@ -3072,8 +3014,6 @@ uint8_t
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -3092,8 +3032,6 @@ uint8_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3107,8 +3045,6 @@ uint16_t
 =
 =
 16
-"
-"
 )
 ;
 static_assert
@@ -3127,8 +3063,6 @@ uint16_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3142,8 +3076,6 @@ uint32_t
 =
 =
 32
-"
-"
 )
 ;
 static_assert
@@ -3158,8 +3090,6 @@ uint32_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3173,8 +3103,6 @@ uint64_t
 =
 =
 64
-"
-"
 )
 ;
 static_assert
@@ -3189,8 +3117,6 @@ uint64_t
 =
 =
 0
-"
-"
 )
 ;
 #
@@ -3316,8 +3242,6 @@ uint8_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3336,8 +3260,6 @@ uint8_t
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -3351,8 +3273,6 @@ uint16_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3371,8 +3291,6 @@ uint16_t
 =
 =
 16
-"
-"
 )
 ;
 static_assert
@@ -3386,8 +3304,6 @@ uint32_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3402,8 +3318,6 @@ uint32_t
 =
 =
 32
-"
-"
 )
 ;
 static_assert
@@ -3417,8 +3331,6 @@ uint64_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3433,8 +3345,6 @@ uint64_t
 =
 =
 64
-"
-"
 )
 ;
 #
@@ -3560,8 +3470,6 @@ uint8_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3576,8 +3484,6 @@ uint8_t
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -3596,8 +3502,6 @@ uint8_t
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -3611,8 +3515,6 @@ uint16_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3627,8 +3529,6 @@ uint16_t
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -3647,8 +3547,6 @@ uint16_t
 =
 =
 16
-"
-"
 )
 ;
 static_assert
@@ -3662,8 +3560,6 @@ uint32_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3678,8 +3574,6 @@ uint32_t
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -3694,8 +3588,6 @@ uint32_t
 =
 =
 32
-"
-"
 )
 ;
 static_assert
@@ -3709,8 +3601,6 @@ uint64_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -3725,8 +3615,6 @@ uint64_t
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -3741,8 +3629,6 @@ uint64_t
 =
 =
 64
-"
-"
 )
 ;
 #
@@ -4557,8 +4443,6 @@ has_single_bit
 (
 0u
 )
-"
-"
 )
 ;
 static_assert
@@ -4567,8 +4451,6 @@ has_single_bit
 (
 1u
 )
-"
-"
 )
 ;
 static_assert
@@ -4577,8 +4459,6 @@ has_single_bit
 (
 2u
 )
-"
-"
 )
 ;
 static_assert
@@ -4588,8 +4468,6 @@ has_single_bit
 (
 3u
 )
-"
-"
 )
 ;
 static_assert
@@ -4598,8 +4476,6 @@ has_single_bit
 (
 4u
 )
-"
-"
 )
 ;
 static_assert
@@ -4609,8 +4485,6 @@ has_single_bit
 (
 1337u
 )
-"
-"
 )
 ;
 static_assert
@@ -4619,8 +4493,6 @@ has_single_bit
 (
 65536u
 )
-"
-"
 )
 ;
 static_assert
@@ -4635,8 +4507,6 @@ uint32_t
 <
 30
 )
-"
-"
 )
 ;
 static_assert
@@ -4651,8 +4521,6 @@ uint64_t
 <
 42
 )
-"
-"
 )
 ;
 EXPECT_FALSE
@@ -4914,8 +4782,6 @@ bit_ceil
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -4927,8 +4793,6 @@ bit_ceil
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -4940,8 +4804,6 @@ bit_ceil
 =
 =
 2
-"
-"
 )
 ;
 static_assert
@@ -4953,8 +4815,6 @@ bit_ceil
 =
 =
 4
-"
-"
 )
 ;
 static_assert
@@ -4966,8 +4826,6 @@ bit_ceil
 =
 =
 4
-"
-"
 )
 ;
 static_assert
@@ -4979,8 +4837,6 @@ bit_ceil
 =
 =
 2048
-"
-"
 )
 ;
 static_assert
@@ -4992,8 +4848,6 @@ bit_ceil
 =
 =
 65536
-"
-"
 )
 ;
 static_assert
@@ -5007,8 +4861,6 @@ bit_ceil
 =
 =
 65536
-"
-"
 )
 ;
 static_assert
@@ -5026,8 +4878,6 @@ uint32_t
 {
 0x80000000
 }
-"
-"
 )
 ;
 static_assert
@@ -5045,8 +4895,6 @@ uint64_t
 {
 0x40000000000
 }
-"
-"
 )
 ;
 static_assert
@@ -5064,8 +4912,6 @@ uint64_t
 {
 0x8000000000000000
 }
-"
-"
 )
 ;
 EXPECT_TRUE
@@ -5450,8 +5296,6 @@ bit_floor
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -5463,8 +5307,6 @@ bit_floor
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -5476,8 +5318,6 @@ bit_floor
 =
 =
 2
-"
-"
 )
 ;
 static_assert
@@ -5489,8 +5329,6 @@ bit_floor
 =
 =
 2
-"
-"
 )
 ;
 static_assert
@@ -5502,8 +5340,6 @@ bit_floor
 =
 =
 4
-"
-"
 )
 ;
 static_assert
@@ -5515,8 +5351,6 @@ bit_floor
 =
 =
 1024
-"
-"
 )
 ;
 static_assert
@@ -5528,8 +5362,6 @@ bit_floor
 =
 =
 65536
-"
-"
 )
 ;
 static_assert
@@ -5543,8 +5375,6 @@ bit_floor
 =
 =
 32768
-"
-"
 )
 ;
 static_assert
@@ -5562,8 +5392,6 @@ uint64_t
 {
 0x40000000000
 }
-"
-"
 )
 ;
 #
@@ -5914,8 +5742,6 @@ uint8_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -5930,8 +5756,6 @@ uint8_t
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -5946,8 +5770,6 @@ uint8_t
 =
 =
 2
-"
-"
 )
 ;
 static_assert
@@ -5966,8 +5788,6 @@ uint8_t
 =
 =
 8
-"
-"
 )
 ;
 static_assert
@@ -5981,8 +5801,6 @@ uint16_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -5997,8 +5815,6 @@ uint16_t
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -6013,8 +5829,6 @@ uint16_t
 =
 =
 2
-"
-"
 )
 ;
 static_assert
@@ -6033,8 +5847,6 @@ uint16_t
 =
 =
 16
-"
-"
 )
 ;
 static_assert
@@ -6048,8 +5860,6 @@ uint32_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -6064,8 +5874,6 @@ uint32_t
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -6080,8 +5888,6 @@ uint32_t
 =
 =
 2
-"
-"
 )
 ;
 static_assert
@@ -6096,8 +5902,6 @@ uint32_t
 =
 =
 32
-"
-"
 )
 ;
 static_assert
@@ -6111,8 +5915,6 @@ uint64_t
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -6127,8 +5929,6 @@ uint64_t
 =
 =
 1
-"
-"
 )
 ;
 static_assert
@@ -6143,8 +5943,6 @@ uint64_t
 =
 =
 2
-"
-"
 )
 ;
 static_assert
@@ -6159,8 +5957,6 @@ uint64_t
 =
 =
 64
-"
-"
 )
 ;
 #

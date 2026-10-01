@@ -190,6 +190,17 @@ gtest
 .
 h
 "
+#
+include
+"
+absl
+/
+numeric
+/
+int128
+.
+h
+"
 namespace
 {
 TEST

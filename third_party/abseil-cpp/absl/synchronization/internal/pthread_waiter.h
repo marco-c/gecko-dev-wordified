@@ -151,6 +151,13 @@ defined
 (
 _WIN32
 )
+&
+&
+!
+defined
+(
+__MINGW32__
+)
 #
 include
 <
@@ -310,6 +317,13 @@ endif
 defined
 (
 _WIN32
+)
+&
+&
+!
+defined
+(
+__MINGW32__
 )
 #
 endif

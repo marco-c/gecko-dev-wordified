@@ -321,6 +321,17 @@ absl
 /
 base
 /
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 internal
 /
 tracing
@@ -938,7 +949,6 @@ call
 sites
 .
 static
-inline
 constexpr
 base_internal
 :

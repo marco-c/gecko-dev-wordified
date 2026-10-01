@@ -149,6 +149,11 @@ h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -534,7 +539,6 @@ dest
 src
 count
 initial_crc
-false
 )
 )
 ;

@@ -191,6 +191,17 @@ absl
 /
 base
 /
+config
+.
+h
+"
+#
+include
+"
+absl
+/
+base
+/
 internal
 /
 errno_saver
@@ -480,7 +491,7 @@ back
 /
 /
 to
-StrErrorAdaptor
+StrErrorInternal
 (
 )
 if

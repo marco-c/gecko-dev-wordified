@@ -2979,7 +2979,11 @@ RETIRED_FLAGS_
 name
 ;
 \
-ABSL_ATTRIBUTE_UNUSED
+[
+[
+maybe_unused
+]
+]
 static
 const
 auto

@@ -152,6 +152,17 @@ include
 "
 absl
 /
+base
+/
+config
+.
+h
+"
+#
+include
+"
+absl
+/
 random
 /
 internal
@@ -347,7 +358,6 @@ kStateBytes
 of
 state
 .
-inline
 void
 Generate
 (
@@ -483,7 +493,6 @@ kStateBytes
 of
 state
 .
-inline
 void
 Absorb
 (

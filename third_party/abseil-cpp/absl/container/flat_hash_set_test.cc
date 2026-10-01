@@ -257,6 +257,19 @@ container
 /
 internal
 /
+hash_policy_testing
+.
+h
+"
+#
+include
+"
+absl
+/
+container
+/
+internal
+/
 test_allocator
 .
 h
@@ -2918,7 +2931,7 @@ int
 >
 :
 :
-kIsDefaultHash
+kIsAbslHash
 true
 )
 ;
@@ -2936,7 +2949,7 @@ string
 >
 :
 :
-kIsDefaultHash
+kIsAbslHash
 true
 )
 ;
@@ -2972,7 +2985,7 @@ Hash
 >
 :
 :
-kIsDefaultHash
+kIsAbslHash
 )
 false
 )
