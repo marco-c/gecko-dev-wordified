@@ -526,6 +526,7 @@ Ia2Wrapper
 ApiWrapper
 [
 IAccessible2Ptr
+Any
 ]
 )
 :
