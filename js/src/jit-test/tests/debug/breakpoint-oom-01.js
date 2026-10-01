@@ -220,9 +220,13 @@ offset
 of
 script
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 2
+}
 )
 )
 script

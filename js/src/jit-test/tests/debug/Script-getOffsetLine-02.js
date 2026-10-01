@@ -82,7 +82,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 frame
 .

@@ -131,11 +131,11 @@ debuggeeFn
 for
 (
 const
-offset
+bp
 of
 script
 .
-getAllColumnOffsets
+getPossibleBreakpoints
 (
 )
 )
@@ -144,7 +144,7 @@ script
 .
 setBreakpoint
 (
-offset
+bp
 .
 offset
 {

@@ -117,11 +117,15 @@ offset
 of
 s
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 s
 .
 startLine
+}
 )
 )
 s

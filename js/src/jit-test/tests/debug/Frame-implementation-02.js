@@ -186,9 +186,13 @@ frame2
 .
 script
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 3
+}
 )
 [
 0

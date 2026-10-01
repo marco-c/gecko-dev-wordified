@@ -225,7 +225,7 @@ loc
 =
 wasmScript
 .
-getOffsetLocation
+getOffsetMetadata
 (
 offset
 )
@@ -234,7 +234,7 @@ assertEq
 (
 loc
 .
-isEntryPoint
+isBreakpoint
 true
 )
 ;
@@ -262,11 +262,15 @@ assertEq
 (
 wasmScript
 .
-getLineOffsets
+getPossibleBreakpointOffsets
 (
+{
+line
+:
 loc
 .
 lineNumber
+}
 )
 .
 length

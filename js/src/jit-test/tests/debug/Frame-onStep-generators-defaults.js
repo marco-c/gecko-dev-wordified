@@ -183,7 +183,7 @@ frame
 .
 script
 .
-getOffsetLocation
+getOffsetMetadata
 (
 frame
 .
@@ -241,10 +241,13 @@ log
 5
 7
 1
+7
 8
 2
+8
 9
 3
+9
 10
 ]
 )
