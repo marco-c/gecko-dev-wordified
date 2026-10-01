@@ -626,6 +626,12 @@ mozrunner
 utils
 import
 get_stack_fixer_function
+from
+moztest
+.
+assertions
+import
+AssertionFailureParser
 #
 -
 -
@@ -1609,6 +1615,17 @@ get
 "
 log
 "
+)
+        
+self
+.
+assertion_parser
+=
+AssertionFailureParser
+(
+self
+.
+log
 )
         
 self
@@ -6715,6 +6732,14 @@ process_line
 line_string
 )
         
+self
+.
+assertion_parser
+.
+flush
+(
+)
+        
 if
 self
 .
@@ -6895,6 +6920,35 @@ time
 ]
 =
 time
+            
+self
+.
+assertion_parser
+.
+log
+(
+                
+line
+pid
+=
+self
+.
+proc_ident
+test
+=
+self
+.
+test_object
+[
+"
+id
+"
+]
+time
+=
+time
+            
+)
             
 self
 .
@@ -7527,6 +7581,14 @@ replaying
 "
 +
 log_message
+)
+        
+self
+.
+assertion_parser
+.
+flush
+(
 )
         
 self
