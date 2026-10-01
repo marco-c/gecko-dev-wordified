@@ -415,7 +415,7 @@ tools
 .
 wpt
 .
-httputils
+utils
 import
 get_download_to_descriptor
 root
@@ -1106,9 +1106,6 @@ p
 def
 start_userspace_oom_killer
 (
-log_only
-=
-False
 )
 :
     
@@ -1145,8 +1142,8 @@ kill
 browsers
 .
     
-cmd
-=
+start
+(
 [
 "
 sudo
@@ -1184,25 +1181,6 @@ avoid
 python
 "
 ]
-    
-if
-log_only
-:
-        
-cmd
-.
-append
-(
-"
--
--
-dryrun
-"
-)
-    
-start
-(
-cmd
 )
 def
 make_hosts_file
@@ -2645,22 +2623,8 @@ oom_killer
 ]
 :
         
-log_only
-=
-"
-firefox_android
-"
-in
-kwargs
-[
-"
-browser
-"
-]
-        
 start_userspace_oom_killer
 (
-log_only
 )
 def
 setup_repository
@@ -4246,28 +4210,6 @@ in
 started_processes
 :
             
-process
-.
-terminate
-(
-)
-            
-try
-:
-                
-process
-.
-wait
-(
-30
-)
-            
-except
-subprocess
-.
-TimeoutExpired
-:
-                
 process
 .
 kill

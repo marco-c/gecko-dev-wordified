@@ -78,7 +78,6 @@ mozlog
 import
 capture
 handlers
-structuredlog
 from
 .
 font
@@ -255,11 +254,6 @@ __enter__
 (
 self
 )
--
->
-structuredlog
-.
-StructuredLogger
 :
         
 global
@@ -310,17 +304,10 @@ __exit__
 self
 *
 args
-:
-Any
 *
 *
 kwargs
-:
-Any
 )
--
->
-None
 :
         
 global
@@ -338,6 +325,7 @@ super
 .
 __exit__
 (
+self
 *
 args
 *
@@ -554,8 +542,6 @@ testloader
 .
 ManifestLoader
 (
-logger
-                                               
 test_paths
                                                
 force_manifest_update
@@ -840,10 +826,6 @@ testloader
 .
 TestLoader
 (
-logger
-=
-logger
-                                        
 test_manifests
 =
 test_manifests
@@ -3436,10 +3418,6 @@ kwargs
 ws_extra
 "
 ]
-                                 
-logger
-=
-logger
 )
 as
 test_environment

@@ -83,10 +83,8 @@ import
 wpttest
 from
 mozlog
-.
-structuredlog
 import
-StructuredLogger
+structured
 manifest
 =
 None
@@ -396,18 +394,8 @@ __init__
 (
 self
 logger
-:
-StructuredLogger
 path
-:
-str
 subsuites
-:
-Mapping
-[
-str
-Subsuite
-]
 )
 :
         
@@ -585,7 +573,7 @@ load_subsuites
 (
 logger
 :
-StructuredLogger
+Any
                    
 base_run_info
 :
@@ -1331,9 +1319,6 @@ def
 __init__
 (
 self
-logger
-:
-StructuredLogger
 total_chunks
 :
 int
@@ -1374,6 +1359,15 @@ self
 .
 logger
 =
+structured
+.
+get_default_logger
+(
+)
+        
+assert
+self
+.
 logger
         
 self
@@ -2085,7 +2079,6 @@ def
 __init__
 (
 self
-logger
 test_paths
 force_manifest_update
 =
@@ -2106,12 +2099,6 @@ do_delayed_imports
         
 self
 .
-logger
-=
-logger
-        
-self
-.
 test_paths
 =
 test_paths
@@ -2133,6 +2120,39 @@ self
 types
 =
 types
+        
+self
+.
+logger
+=
+structured
+.
+get_default_logger
+(
+)
+        
+if
+self
+.
+logger
+is
+None
+:
+            
+self
+.
+logger
+=
+structured
+.
+structuredlog
+.
+StructuredLogger
+(
+"
+ManifestLoader
+"
+)
     
 def
 load
@@ -2335,8 +2355,6 @@ __init__
 (
 self
                  
-logger
-                 
 test_manifests
                  
 test_types
@@ -2510,12 +2528,6 @@ chunk_number
 =
 chunk_number
         
-self
-.
-logger
-=
-logger
-        
 if
 chunker_kwargs
 is
@@ -2560,10 +2572,6 @@ DirectoryHashChunker
 chunk_type
 ]
 (
-self
-.
-logger
-                                                                      
 total_chunks
                                                                       
 chunk_number
@@ -3384,9 +3392,6 @@ tests_disabled
 def
 get_test_queue_builder
 (
-logger
-:
-StructuredLogger
 *
 *
 kwargs
@@ -3424,7 +3429,12 @@ processes
 logger
 "
 :
+kwargs
+[
+"
 logger
+"
+]
 }
     
 chunker_kwargs
@@ -3538,29 +3548,6 @@ else
 builder_cls
 =
 SingleTestSource
-    
-logger
-.
-debug
-(
-f
-"
-Using
-{
-builder_cls
-.
-__name__
-}
-test
-queue
-builder
-with
-kwargs
-{
-builder_kwargs
-}
-"
-)
     
 return
 builder_cls
@@ -3690,9 +3677,6 @@ def
 __init__
 (
 self
-logger
-:
-StructuredLogger
 *
 *
 kwargs
@@ -3780,12 +3764,6 @@ order
         
 self
 .
-logger
-=
-logger
-        
-self
-.
 kwargs
 =
 kwargs
@@ -3820,27 +3798,6 @@ self
 make_groups
 (
 tests_by_type
-)
-        
-self
-.
-logger
-.
-debug
-(
-f
-"
-Grouped
-tests
-into
-{
-len
-(
-groups
-)
-}
-groups
-"
 )
         
 processes
@@ -4573,8 +4530,7 @@ small_subsuite_size
 0
 )
         
-rv
-=
+return
 len
 (
 subsuite
@@ -4589,35 +4545,6 @@ tests
 <
 =
 small_subsuite_size
-        
-if
-rv
-:
-            
-self
-.
-logger
-.
-debug
-(
-f
-"
-Putting
-tests
-in
-subsuite
-{
-subsuite
-}
-in
-a
-single
-group
-"
-)
-        
-return
-rv
     
 def
 make_groups
