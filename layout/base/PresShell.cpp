@@ -85826,11 +85826,10 @@ GetLayoutViewportSize
 ;
 if
 (
-!
 mPresContext
 -
 >
-IsKeyboardHiddenOrResizesContentMode
+IsKeyboardVisibleOnOverlaysContent
 (
 )
 )
