@@ -2124,6 +2124,11 @@ mCallbacks
 ;
 }
 ;
+[
+[
+nodiscard
+]
+]
 bool
 EnqueueMicroTask
 (
@@ -2137,6 +2142,11 @@ MicroTaskRunnable
 aRunnable
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 EnqueueDebugMicroTask
 (
