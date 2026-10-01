@@ -471,10 +471,6 @@ qwac_trust_anchors
 ;
 extern
 crate
-remotecerts
-;
-extern
-crate
 trust_anchors
 ;
 #
