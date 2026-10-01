@@ -7405,6 +7405,7 @@ i32
 let
 style
 =
+*
 cx
 .
 builder
@@ -7413,7 +7414,7 @@ get_parent_font
 (
 )
 .
-slow_clone_math_style
+get_math_style
 (
 )
 ;

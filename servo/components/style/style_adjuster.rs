@@ -1413,6 +1413,7 @@ DisplayInside
 WebkitBox
 |
 |
+*
 self
 .
 style
@@ -1421,7 +1422,7 @@ get_xul
 (
 )
 .
-slow_clone__moz_box_orient
+get__moz_box_orient
 (
 )
 !
@@ -2564,6 +2565,7 @@ get_writing_mode
 let
 text_combine_upright
 =
+*
 self
 .
 style
@@ -2572,7 +2574,7 @@ get_inherited_text
 (
 )
 .
-slow_clone_text_combine_upright
+get_text_combine_upright
 (
 )
 ;
@@ -4200,6 +4202,7 @@ return
 let
 old_collapse
 =
+*
 self
 .
 style
@@ -4208,7 +4211,7 @@ get_inherited_text
 (
 )
 .
-slow_clone_white_space_collapse
+get_white_space_collapse
 (
 )
 ;
@@ -5351,6 +5354,7 @@ let
 new_value
 =
 match
+*
 self
 .
 style
@@ -5359,7 +5363,7 @@ get_text
 (
 )
 .
-slow_clone_unicode_bidi
+get_unicode_bidi
 (
 )
 {

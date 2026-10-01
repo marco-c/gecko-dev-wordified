@@ -19631,7 +19631,7 @@ get_box
 (
 )
 .
-slow_clone__moz_top_layer
+get__moz_top_layer
 (
 )
 longhands
