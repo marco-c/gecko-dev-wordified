@@ -750,11 +750,12 @@ Dashboard
 *
 target
 )
-{
+:
 mDashboard
-=
+(
 target
-;
+)
+{
 }
 nsCOMPtr
 <
@@ -787,8 +788,10 @@ mEventTarget
 nullptr
 }
 ;
+RefPtr
+<
 Dashboard
-*
+>
 mDashboard
 ;
 nsCString
