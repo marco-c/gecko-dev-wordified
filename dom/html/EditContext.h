@@ -1126,11 +1126,17 @@ const
 ;
 private
 :
+explicit
 EditContext
 (
 nsIGlobalObject
 *
 aGlobalObject
+)
+;
+void
+Init
+(
 const
 EditContextInit
 &
