@@ -17626,6 +17626,16 @@ mHandleFetchEventEnd
 ;
 openArgs
 .
+forceMainDocumentChannel
+(
+)
+=
+LoadForceMainDocumentChannel
+(
+)
+;
+openArgs
+.
 navigationStartTimeStamp
 (
 )
