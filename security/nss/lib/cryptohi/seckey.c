@@ -8873,12 +8873,6 @@ pubKeyHandle
 ;
 SECItem
 decodedPoint
-=
-{
-siBuffer
-NULL
-0
-}
 ;
 SECItem
 *
