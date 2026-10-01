@@ -3912,10 +3912,6 @@ tile_cache_builder
 build
 (
 &
-builder
-.
-config
-&
 mut
 builder
 .

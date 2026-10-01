@@ -610,13 +610,6 @@ Content
 /
 /
 The
-compositor
-type
-changed
-CompositorKindChanged
-/
-/
-The
 valid
 region
 of
