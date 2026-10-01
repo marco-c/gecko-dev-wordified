@@ -270,8 +270,17 @@ get
 page
 .
 html
-clickOnRequestRow
+EventUtils
+.
+sendMouseEvent
 (
+{
+type
+:
+"
+mousedown
+"
+}
 document
 .
 querySelector
@@ -298,8 +307,6 @@ REQUEST
 "
 ]
 )
-.
-parentNode
 )
 ;
 /

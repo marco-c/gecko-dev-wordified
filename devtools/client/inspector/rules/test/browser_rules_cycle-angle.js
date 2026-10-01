@@ -800,6 +800,11 @@ synthesizeMouseAtCenter
 (
 swatch
 {
+type
+:
+"
+mousedown
+"
 shiftKey
 :
 true

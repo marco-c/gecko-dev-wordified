@@ -1231,6 +1231,11 @@ synthesizeMouseAtCenter
 (
 swatchNode
 {
+type
+:
+"
+mousedown
+"
 shiftKey
 :
 true
@@ -1360,6 +1365,11 @@ synthesizeMouseAtCenter
 (
 swatchNode
 {
+type
+:
+"
+mousedown
+"
 clickCount
 :
 2

@@ -3137,6 +3137,11 @@ synthesizeMouseAtCenter
 (
 selector
 {
+type
+:
+"
+mousedown
+"
 button
 :
 2
@@ -3408,6 +3413,11 @@ synthesizeMouseAtCenter
 (
 selector
 {
+type
+:
+"
+mousedown
+"
 button
 :
 2
@@ -3605,6 +3615,11 @@ synthesizeMouseAtCenter
 (
 selector
 {
+type
+:
+"
+mousedown
+"
 button
 :
 2
