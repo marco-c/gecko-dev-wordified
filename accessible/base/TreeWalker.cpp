@@ -1973,6 +1973,11 @@ aria
 IsValidARIAHidden
 (
 mDoc
+-
+>
+GetContent
+(
+)
 )
 )
 {
