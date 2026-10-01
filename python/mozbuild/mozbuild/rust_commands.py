@@ -78,6 +78,12 @@ fields
 from
 mozshellutil
 import
+quote
+as
+shell_quote
+from
+mozshellutil
+import
 split
 as
 shell_split
@@ -3361,11 +3367,9 @@ MOZ_RUST_PROGRAM_LDFLAGS
 )
     
 return
-"
-"
-.
-join
+shell_quote
 (
+*
 ldflags
 )
 def
