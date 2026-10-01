@@ -1844,6 +1844,10 @@ Internal
 error
 "
 ;
+mHasDtlsFailureError
+=
+true
+;
 TL_SET_STATE
 (
 TS_ERROR
@@ -5374,6 +5378,10 @@ Internal
 error
 "
 ;
+mHasDtlsFailureError
+=
+true
+;
 TL_SET_STATE
 (
 TS_ERROR
@@ -5448,6 +5456,10 @@ ALPN_FAILURE
 CheckAlpn
 sets
 mErrorDescription
+mHasDtlsFailureError
+=
+true
+;
 TL_SET_STATE
 (
 TS_ERROR
@@ -5696,6 +5708,10 @@ DTLS
 handshake
 failure
 "
+;
+mHasDtlsFailureError
+=
+true
 ;
 TL_SET_STATE
 (
@@ -6629,6 +6645,10 @@ receive
 failed
 "
 ;
+mHasDtlsFailureError
+=
+true
+;
 TL_SET_STATE
 (
 TS_ERROR
@@ -6909,6 +6929,10 @@ DTLS
 send
 failed
 "
+;
+mHasDtlsFailureError
+=
+true
 ;
 TL_SET_STATE
 (
