@@ -602,6 +602,13 @@ BrowserParent
 (
 aContentParent
 aTabId
+aWindowInit
+.
+context
+(
+)
+.
+mOuterWindowId
 *
 aParentBrowser
 browsingContext
