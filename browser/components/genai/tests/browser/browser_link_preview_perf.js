@@ -186,6 +186,13 @@ mjs
 "
 )
 ;
+MLPerfTestUtils
+.
+init
+(
+this
+)
+;
 /
 /
 The
@@ -1288,8 +1295,6 @@ MLPerfTestUtils
 runPerfScenario
 (
 {
-info
-Assert
 metricPrefix
 :
 METRIC_PREFIX
