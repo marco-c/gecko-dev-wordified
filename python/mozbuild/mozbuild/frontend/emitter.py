@@ -4507,6 +4507,10 @@ cargo_crate_type
 "
 "
         
+no_lto
+=
+False
+        
 cls
 =
 RustLibrary
@@ -4878,6 +4882,10 @@ cargo_profile_suffix
 cargo_crate_type
 =
 cargo_crate_type
+            
+no_lto
+=
+no_lto
             
 *
 *
@@ -6837,6 +6845,20 @@ RUST_LIBRARY_CARGO_CRATE_TYPE
 "
 "
                         
+)
+                        
+no_lto
+=
+bool
+(
+context
+.
+get
+(
+"
+RUST_LIBRARY_NO_LTO
+"
+)
 )
                     
 )
