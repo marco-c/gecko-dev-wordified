@@ -367,13 +367,6 @@ FramePointer
 StackPointer
 )
 ;
-masm
-.
-Pop
-(
-FramePointer
-)
-;
 /
 /
 Load
@@ -383,8 +376,9 @@ address
 .
 masm
 .
-Pop
+PopRegs
 (
+FramePointer
 ICTailCallReg
 )
 ;

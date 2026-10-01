@@ -32562,15 +32562,9 @@ label
 ;
 masm
 .
-pop
+popRegs
 (
 reg2
-)
-;
-masm
-.
-pop
-(
 reg
 )
 ;
