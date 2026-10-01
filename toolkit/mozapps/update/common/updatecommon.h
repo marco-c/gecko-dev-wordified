@@ -237,6 +237,15 @@ NS_tchar
 message
 )
 ;
+bool
+EnvHasValue
+(
+const
+char
+*
+name
+)
+;
 #
 define
 LOG_WARN
