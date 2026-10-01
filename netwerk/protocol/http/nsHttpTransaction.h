@@ -3090,6 +3090,7 @@ trailer
 extraction
 )
 .
+mutable
 Mutex
 mLock
 {
@@ -4970,15 +4971,14 @@ mBackupConnInfo
 ;
 /
 /
-A
-clone
+The
+value
 of
 mConnInfo
-taken
 when
 this
 transaction
-is
+was
 activated
 .
 /

@@ -1085,11 +1085,6 @@ caps
 mConnInfo
 =
 cinfo
--
->
-Clone
-(
-)
 ;
 mIsHttp3Used
 =
@@ -2561,11 +2556,6 @@ nsHttpConnectionInfo
 connInfo
 =
 mConnInfo
--
->
-Clone
-(
-)
 ;
 return
 connInfo

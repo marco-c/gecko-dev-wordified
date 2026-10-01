@@ -5178,6 +5178,7 @@ nsHttpConnectionInfo
 UsingProxy
 (
 )
+const
 {
 if
 (

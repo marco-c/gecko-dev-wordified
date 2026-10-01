@@ -1457,7 +1457,6 @@ Http3Session
 nsresult
 Init
 (
-const
 nsHttpConnectionInfo
 *
 aConnInfo

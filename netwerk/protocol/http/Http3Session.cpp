@@ -681,7 +681,6 @@ Http3Session
 :
 Init
 (
-const
 nsHttpConnectionInfo
 *
 aConnInfo
@@ -742,11 +741,6 @@ udpConn
 mConnInfo
 =
 aConnInfo
--
->
-Clone
-(
-)
 ;
 mNetAddr
 =
@@ -2342,11 +2336,6 @@ get
 mConnInfo
 =
 aConnInfo
--
->
-Clone
-(
-)
 ;
 }
 void

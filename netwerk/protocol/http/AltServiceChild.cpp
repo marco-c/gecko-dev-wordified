@@ -345,11 +345,6 @@ nsHttpConnectionInfo
 ci
 =
 aCi
--
->
-Clone
-(
-)
 ;
 auto
 task
