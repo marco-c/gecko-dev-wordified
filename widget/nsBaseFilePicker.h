@@ -440,6 +440,15 @@ uint32_t
 aProtectionMs
 )
 ;
+static
+bool
+IsReadableDirectory
+(
+nsIFile
+&
+aDirectory
+)
+;
 protected
 :
 virtual
