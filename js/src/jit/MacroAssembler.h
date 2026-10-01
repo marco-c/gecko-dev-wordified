@@ -19676,6 +19676,7 @@ DEFINED_ON
 (
 x86_shared
 arm64
+loong64
 )
 ;
 /
@@ -24596,6 +24597,7 @@ DEFINED_ON
 (
 x86_shared
 arm64
+loong64
 )
 ;
 inline
@@ -24633,6 +24635,7 @@ DEFINED_ON
 (
 x86_shared
 arm64
+loong64
 )
 ;
 inline
