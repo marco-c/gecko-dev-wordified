@@ -1127,6 +1127,15 @@ aResult
 override
 ;
 NS_IMETHOD
+GetIsSecureContextAllowlistedHost
+(
+bool
+*
+aResult
+)
+override
+;
+NS_IMETHOD
 IsSameOrigin
 (
 nsIURI
