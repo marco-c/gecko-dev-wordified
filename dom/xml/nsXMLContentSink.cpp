@@ -4138,9 +4138,6 @@ NameAtom
 )
 )
 {
-nsAutoScriptBlocker
-scriptBlocker
-;
 aContent
 -
 >
