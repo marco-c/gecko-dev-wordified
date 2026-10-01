@@ -242,9 +242,13 @@ mCookieJarSettings
 ;
 uint32_t
 mFailures
+=
+0
 ;
 uintptr_t
 mGlobalKey
+=
+0
 ;
 /
 /
@@ -256,6 +260,8 @@ devtools
 only
 uint64_t
 mAssociatedBrowsingContext
+=
+0
 ;
 }
 ;
