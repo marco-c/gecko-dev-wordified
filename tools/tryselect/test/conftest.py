@@ -368,6 +368,14 @@ attrs
 {
         
 "
+name
+"
+:
+"
+git
+"
+        
+"
 path
 "
 :
@@ -385,6 +393,16 @@ return_value
 :
 "
 abc123fakegitsha
+"
+        
+"
+base_ref_as_commit
+.
+return_value
+"
+:
+"
+def456fakebaserev
 "
     
 }
