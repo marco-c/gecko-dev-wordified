@@ -685,22 +685,6 @@ bin
     
 }
     
-"
-mozconfig_platform
-"
-:
-"
-win64
-"
-    
-"
-mozconfig_variant
-"
-:
-"
-mingw32
-"
-    
 #
 #
 #

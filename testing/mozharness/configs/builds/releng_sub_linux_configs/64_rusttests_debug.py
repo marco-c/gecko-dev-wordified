@@ -206,16 +206,6 @@ TINDERBOX_OUTPUT
 }
     
 "
-app_name
-"
-:
-"
-tools
-/
-rusttests
-"
-    
-"
 disable_package_metrics
 "
 :
