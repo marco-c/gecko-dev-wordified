@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsIFileStreams
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -1437,6 +1444,8 @@ public
 nsIInputStream
 public
 nsIOutputStream
+public
+nsIFileMetadata
 {
 public
 :
@@ -1444,6 +1453,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSITELLABLESTREAM
 NS_DECL_NSISEEKABLESTREAM
 NS_DECL_NSIOUTPUTSTREAM
+NS_DECL_NSIFILEMETADATA
 /
 /
 nsIInputStream
