@@ -8394,7 +8394,11 @@ font
 .
 mLanguage
 .
-mRawPtr
+0
+.
+as_ptr
+(
+)
 )
 }
 ;
@@ -8643,7 +8647,11 @@ font
 .
 mLanguage
 .
-mRawPtr
+0
+.
+as_ptr
+(
+)
 )
 }
 }

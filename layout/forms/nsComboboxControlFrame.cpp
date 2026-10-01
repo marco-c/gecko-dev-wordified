@@ -772,7 +772,9 @@ StyleFont
 )
 -
 >
-mLanguage
+GetLangAtom
+(
+)
 ;
 AutoTArray
 <

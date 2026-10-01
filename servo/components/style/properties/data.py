@@ -3171,13 +3171,6 @@ size
 "
         
 "
--
-x
--
-lang
-"
-        
-"
 font
 -
 feature

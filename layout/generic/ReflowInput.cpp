@@ -22165,7 +22165,9 @@ aRelativeToFont
 mFont
 aRelativeToFont
 .
-mLanguage
+GetLangAtom
+(
+)
 aRelativeToFont
 .
 mExplicitLanguage
@@ -22265,7 +22267,9 @@ aRelativeToFont
 mFont
 aRelativeToFont
 .
-mLanguage
+GetLangAtom
+(
+)
 aRelativeToFont
 .
 mExplicitLanguage
