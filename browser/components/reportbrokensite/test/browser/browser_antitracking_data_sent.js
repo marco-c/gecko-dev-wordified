@@ -458,8 +458,6 @@ content
 /
 test
 /
-browser
--
 protectionsUI
 /
 benignPage

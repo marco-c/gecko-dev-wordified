@@ -839,8 +839,6 @@ content
 /
 test
 /
-browser
--
 siteIdentity
 /
 "

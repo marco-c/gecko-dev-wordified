@@ -1111,8 +1111,6 @@ content
 /
 test
 /
-browser
--
 siteIdentity
 /
 2

@@ -275,8 +275,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 dummy_page
@@ -356,8 +354,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 dummy_page
@@ -601,8 +597,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 dummy_page
@@ -701,8 +695,6 @@ content
 /
 test
 /
-browser
--
 general
 /
 dummy_page

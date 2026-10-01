@@ -71,8 +71,6 @@ content
 /
 test
 /
-browser
--
 tabPrompts
 /
 openPromptOffTimeout
