@@ -9519,6 +9519,17 @@ ETWStoreName
 =
 false
 ;
+/
+/
+Defines
+how
+ETW
+filters
+this
+marker
+at
+runtime
+.
 static
 constexpr
 MarkerSchema
