@@ -350,7 +350,7 @@ decrypt
 ct
 )
 /
-NS_ERROR_FAILURE
+NS_ERROR_ILLEGAL_VALUE
 /
 "
 decrypting
@@ -454,7 +454,7 @@ decrypt
 ct
 )
 /
-NS_ERROR_FAILURE
+NS_ERROR_ILLEGAL_VALUE
 /
 "
 decrypting
