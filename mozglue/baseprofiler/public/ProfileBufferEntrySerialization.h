@@ -4643,13 +4643,10 @@ static_assert
 std
 :
 :
-is_pointer
+is_pointer_v
 <
 T
 >
-:
-:
-value
 "
 Serializer
 won
