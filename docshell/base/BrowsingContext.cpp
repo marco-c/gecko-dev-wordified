@@ -14967,7 +14967,7 @@ effectiveRemoteType
 {
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+DEBUG
 nsAutoCString
 aboutModuleOrScheme
 ;
