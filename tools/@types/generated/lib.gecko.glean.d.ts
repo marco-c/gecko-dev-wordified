@@ -4448,6 +4448,10 @@ location
 ?
 :
 string
+mention_type
+?
+:
+string
 message_seq
 ?
 :
@@ -7407,6 +7411,10 @@ string
 |
 number
 location
+?
+:
+string
+mention_type
 ?
 :
 string
