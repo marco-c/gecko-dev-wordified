@@ -9,6 +9,15 @@ defs
 import
 logging
 from
+collections
+.
+abc
+import
+Iterable
+Mapping
+MutableMapping
+Callable
+from
 threading
 import
 Thread
@@ -19,6 +28,7 @@ TracebackType
 from
 typing
 import
+Any
 Optional
 Type
 from
@@ -42,9 +52,33 @@ def
 __init__
 (
 self
+                 
 args
+:
+MutableMapping
+[
+str
+Any
+]
+                 
 defaults
+:
+Mapping
+[
+str
+Any
+]
+                 
 formatter_defaults
+:
+Optional
+[
+Mapping
+[
+str
+Any
+]
+]
 =
 None
 )
@@ -53,6 +87,11 @@ None
 self
 .
 _logger
+:
+Optional
+[
+StructuredLogger
+]
 =
 None
         
@@ -85,6 +124,9 @@ __enter__
 (
 self
 )
+-
+>
+StructuredLogger
 :
         
 self
@@ -226,10 +268,17 @@ __exit__
 self
 *
 args
+:
+Any
 *
 *
 kwargs
+:
+Any
 )
+-
+>
+None
 :
         
 if
@@ -292,6 +341,9 @@ def
 setup_stdlib_logger
 (
 )
+-
+>
+None
 :
     
 logging
@@ -413,9 +465,31 @@ def
 __init__
 (
 self
+                 
 inner
+:
+Callable
+[
+[
+dict
+[
+str
+Any
+]
+]
+Any
+]
+                 
 from_levels
+:
+Iterable
+[
+str
+]
+                 
 to_level
+:
+str
 )
 :
         
@@ -456,7 +530,16 @@ __call__
 (
 self
 data
+:
+dict
+[
+str
+Any
+]
 )
+-
+>
+Any
 :
         
 if

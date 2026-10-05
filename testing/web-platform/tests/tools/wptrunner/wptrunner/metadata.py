@@ -25,8 +25,10 @@ List
 Tuple
 from
 mozlog
-import
+.
 structuredlog
+import
+StructuredLogger
 from
 sys
 import
@@ -69,8 +71,6 @@ manifestitem
 None
 logger
 =
-structuredlog
-.
 StructuredLogger
 (
 "
@@ -2050,6 +2050,7 @@ testloader
 .
 ManifestLoader
 (
+logger
 test_paths
 False
 )

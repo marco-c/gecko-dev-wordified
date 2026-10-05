@@ -69,15 +69,17 @@ import
 SpecifierSet
 from
 .
+httputils
+import
+get
+get_download_to_descriptor
+from
+.
 utils
 import
 (
     
 call
-    
-get
-    
-get_download_to_descriptor
     
 rmtree
     
@@ -558,10 +560,6 @@ path
 )
 .
 content
-#
-type
-:
-ignore
     
 return
 data
@@ -2965,10 +2963,6 @@ commit
 json
 (
 )
-#
-type
-:
-ignore
                         
 rev
 =
@@ -3238,10 +3232,6 @@ json
 (
 )
 :
-#
-type
-:
-ignore
             
 tag
 =

@@ -23,6 +23,12 @@ mock
 import
 Mock
 from
+mozlog
+.
+structuredlog
+import
+StructuredLogger
+from
 .
 .
 testloader
@@ -80,6 +86,9 @@ defined
 def
 test_get_pause_after_test
 (
+logger
+:
+StructuredLogger
 )
 -
 >
@@ -362,6 +371,7 @@ loader
 =
 TestLoader
 (
+logger
 test_manifests
 [
 "
@@ -398,6 +408,7 @@ loader
 =
 TestLoader
 (
+logger
 test_manifests
 [
 "
@@ -443,6 +454,7 @@ loader
 =
 TestLoader
 (
+logger
 test_manifests
 [
 "
@@ -487,6 +499,7 @@ loader
 =
 TestLoader
 (
+logger
 test_manifests
 [
 "
@@ -578,6 +591,7 @@ loader
 =
 TestLoader
 (
+logger
 test_manifests
 [
 "
@@ -1013,6 +1027,9 @@ test_get_loader
 tmp_path
 :
 Path
+logger
+:
+StructuredLogger
 )
 -
 >
@@ -1172,6 +1189,9 @@ test_get_loader_include
 tmp_path
 :
 Path
+logger
+:
+StructuredLogger
 )
 -
 >
@@ -1258,6 +1278,9 @@ test_get_loader_exclude
 tmp_path
 :
 Path
+logger
+:
+StructuredLogger
 )
 -
 >
@@ -1423,6 +1446,9 @@ test_get_loader_include_exclude
 tmp_path
 :
 Path
+logger
+:
+StructuredLogger
 )
 -
 >
@@ -1513,6 +1539,9 @@ test_get_loader_include_file
 tmp_path
 :
 Path
+logger
+:
+StructuredLogger
 )
 -
 >
@@ -1653,6 +1682,9 @@ test_get_loader_exclude_file
 tmp_path
 :
 Path
+logger
+:
+StructuredLogger
 )
 -
 >
@@ -1872,6 +1904,9 @@ test_get_loader_include_exclude_file
 tmp_path
 :
 Path
+logger
+:
+StructuredLogger
 )
 -
 >
