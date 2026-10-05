@@ -849,9 +849,6 @@ new
 HTMLOptionsCollection
 (
 this
-!
-!
-aFromParser
 )
 )
 mAutocompleteAttrState

@@ -240,8 +240,6 @@ HTMLOptionsCollection
 HTMLSelectElement
 *
 aRoot
-bool
-aFromParser
 )
 :
 ContentList
@@ -285,7 +283,6 @@ aLiveList
 *
 /
 true
-aFromParser
 )
 {
 }

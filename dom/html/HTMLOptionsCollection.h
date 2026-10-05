@@ -142,12 +142,11 @@ ContentList
 {
 public
 :
+explicit
 HTMLOptionsCollection
 (
 HTMLSelectElement
 *
-bool
-aFromParser
 )
 ;
 HTMLSelectElement
