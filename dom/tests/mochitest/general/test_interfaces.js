@@ -18501,9 +18501,6 @@ ScrollTimeline
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -20734,9 +20731,6 @@ name
 ViewTimeline
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
