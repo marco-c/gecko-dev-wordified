@@ -5899,6 +5899,16 @@ traceOrMark
 )
 ;
 void
+traceIncomingCrossCompartmentEdgesForZoneGC
+(
+JSTracer
+*
+trc
+EdgeSelector
+whichEdges
+)
+;
+void
 traceEmbeddingBlackRoots
 (
 JSTracer

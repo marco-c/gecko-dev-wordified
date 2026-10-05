@@ -5430,16 +5430,10 @@ traceEmbeddingGrayRoots
 trc
 )
 ;
-Compartment
-:
-:
 traceIncomingCrossCompartmentEdgesForZoneGC
 (
 &
 trc
-Compartment
-:
-:
 GrayEdges
 )
 ;

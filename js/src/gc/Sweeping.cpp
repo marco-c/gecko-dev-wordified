@@ -4843,9 +4843,6 @@ return
 NotFinished
 ;
 }
-Compartment
-:
-:
 traceIncomingCrossCompartmentEdgesForZoneGC
 (
 marker
@@ -4855,9 +4852,6 @@ marker
 tracer
 (
 )
-Compartment
-:
-:
 GrayEdges
 )
 ;
@@ -4886,9 +4880,6 @@ by
 a
 barrier
 .
-Compartment
-:
-:
 traceIncomingCrossCompartmentEdgesForZoneGC
 (
 marker
@@ -4898,9 +4889,6 @@ marker
 tracer
 (
 )
-Compartment
-:
-:
 BlackEdges
 )
 ;
