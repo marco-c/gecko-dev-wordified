@@ -24240,7 +24240,6 @@ DEFINED_ON
 (
 x86_shared
 arm64
-loong64
 )
 ;
 /
@@ -24355,7 +24354,6 @@ DEFINED_ON
 (
 x86_shared
 arm64
-loong64
 )
 ;
 /
@@ -24414,7 +24412,6 @@ DEFINED_ON
 (
 x86_shared
 arm64
-loong64
 )
 ;
 /
@@ -24559,7 +24556,6 @@ dest
 DEFINED_ON
 (
 arm64
-loong64
 )
 ;
 /
