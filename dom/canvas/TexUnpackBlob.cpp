@@ -6294,9 +6294,6 @@ y
 dstOrigin
 fbSize
 convertAlpha
-mDesc
-.
-destFormat
 )
 )
 {

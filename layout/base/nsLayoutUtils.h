@@ -17706,10 +17706,6 @@ DrawTarget
 >
 &
 aTarget
-bool
-aOptimizeSourceSurface
-=
-true
 )
 ;
 static
