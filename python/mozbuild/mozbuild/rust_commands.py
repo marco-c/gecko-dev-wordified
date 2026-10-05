@@ -4121,6 +4121,15 @@ full
 env
 [
 "
+MOZ_TOPSRCDIR
+"
+]
+=
+topsrcdir
+    
+env
+[
+"
 MOZ_TOPOBJDIR
 "
 ]
