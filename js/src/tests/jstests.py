@@ -4375,6 +4375,8 @@ testloader
 TestLoader
 (
         
+logger
+        
 test_manifests
         
 [
