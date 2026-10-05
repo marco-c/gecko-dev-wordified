@@ -2739,6 +2739,16 @@ isMagic
 )
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+!
+v
+.
+isMagic
+(
+)
+)
+;
 data
 (
 )

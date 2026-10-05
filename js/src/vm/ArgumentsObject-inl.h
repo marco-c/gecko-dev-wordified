@@ -139,6 +139,13 @@ v
 )
 )
 {
+MOZ_RELEASE_ASSERT
+(
+anyArgIsForwarded
+(
+)
+)
+;
 CallObject
 &
 callobj
@@ -216,6 +223,13 @@ value
 )
 )
 {
+MOZ_RELEASE_ASSERT
+(
+anyArgIsForwarded
+(
+)
+)
+;
 CallObject
 &
 callobj
