@@ -1760,7 +1760,7 @@ callback
 &
 name
 .
-as_ref
+as_str
 (
 )
 .
@@ -1832,7 +1832,7 @@ Self
 {
 name
 .
-as_ref
+as_str
 (
 )
 .
