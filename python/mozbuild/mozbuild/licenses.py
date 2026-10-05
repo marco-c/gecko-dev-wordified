@@ -1228,6 +1228,14 @@ subcomponent
 fields
 .
 subcomponent
+            
+acknowledgement
+=
+fields
+.
+acknowledgement
+or
+None
         
 )
 def
