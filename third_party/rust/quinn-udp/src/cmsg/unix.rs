@@ -119,7 +119,6 @@ self
 )
 }
 }
-unsafe
 fn
 cmsg_nxt_hdr
 (
@@ -127,8 +126,7 @@ cmsg_nxt_hdr
 self
 cmsg
 :
-*
-const
+&
 Self
 :
 :
@@ -304,15 +302,11 @@ as
 usize
 }
 }
-unsafe
 fn
 cmsg_data
 (
-this
-:
-*
-const
-Self
+&
+self
 )
 -
 >
@@ -327,7 +321,7 @@ libc
 :
 CMSG_DATA
 (
-this
+self
 )
 }
 }
