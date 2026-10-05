@@ -1969,7 +1969,7 @@ localFile
 nsBaseFilePicker
 :
 :
-IsReadableDirectory
+IsPotentiallyReadableDirectory
 (
 *
 localFile

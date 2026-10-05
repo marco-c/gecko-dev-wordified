@@ -4791,7 +4791,7 @@ defaultPath
 |
 |
 !
-IsReadableDirectory
+IsPotentiallyReadableDirectory
 (
 *
 defaultPath
