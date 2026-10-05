@@ -1683,7 +1683,11 @@ uint32_t
 aSrvNameArrSize
 void
 *
+/
+*
 aArg
+*
+/
 )
 {
 const

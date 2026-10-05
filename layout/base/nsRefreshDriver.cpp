@@ -2535,7 +2535,11 @@ TimerTick
 (
 nsITimer
 *
+/
+*
 aTimer
+*
+/
 void
 *
 aClosure
@@ -7198,7 +7202,11 @@ void
 ScheduleNextTick
 (
 TimeStamp
+/
+*
 aNowTime
+*
+/
 )
 override
 {
@@ -7504,7 +7512,11 @@ TimerTickOne
 (
 nsITimer
 *
+/
+*
 aTimer
+*
+/
 void
 *
 aClosure
@@ -18499,7 +18511,11 @@ mozilla
 :
 :
 TimeStamp
+/
+*
 aTime
+*
+/
 )
 {
 mRootRefresh

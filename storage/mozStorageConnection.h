@@ -1611,7 +1611,11 @@ transactionInProgress
 const
 SQLiteMutexAutoLock
 &
+/
+*
 aProofOfLock
+*
+/
 sqlite3
 *
 aNativeConnection

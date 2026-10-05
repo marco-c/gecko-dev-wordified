@@ -459,7 +459,11 @@ OnTestProgramEnd
 const
 UnitTest
 &
+/
+*
 aUnitTest
+*
+/
 )
 override
 {

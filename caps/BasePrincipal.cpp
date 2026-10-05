@@ -2333,7 +2333,11 @@ WriteJSONInnerProperties
 (
 JSONWriter
 &
+/
+*
 aWriter
+*
+/
 )
 {
 return
@@ -8981,7 +8985,11 @@ Write
 (
 nsIObjectOutputStream
 *
+/
+*
 aStream
+*
+/
 )
 {
 /

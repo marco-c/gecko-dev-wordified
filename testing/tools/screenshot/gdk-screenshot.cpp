@@ -435,7 +435,11 @@ GError
 *
 error
 gpointer
+/
+*
 data
+*
+/
 )
 {
 size_t

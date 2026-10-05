@@ -467,7 +467,11 @@ w2c_env_mozalloc_handle_oom
 (
 void
 *
+/
+*
 ctx
+*
+/
 uint32_t
 size
 )
