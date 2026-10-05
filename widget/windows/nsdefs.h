@@ -200,7 +200,6 @@ modules
 /
 /
 nsWindow
-nsSound
 and
 nsClipboard
 /
@@ -274,9 +273,6 @@ completely
 MOZ_LOG
 =
 nsWindow
-:
-5
-nsSound
 :
 5
 nsClipboard
