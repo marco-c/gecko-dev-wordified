@@ -832,6 +832,19 @@ mFinished
 struct
 ImageMemoryCounter
 {
+/
+/
+If
+aAnonymize
+is
+true
+URI
+(
+)
+is
+left
+empty
+.
 ImageMemoryCounter
 (
 imgRequest
@@ -842,6 +855,8 @@ SizeOfState
 aState
 bool
 aIsUsed
+bool
+aAnonymize
 )
 ;
 ImageMemoryCounter
@@ -857,6 +872,8 @@ SizeOfState
 aState
 bool
 aIsUsed
+bool
+aAnonymize
 )
 ;
 nsCString
