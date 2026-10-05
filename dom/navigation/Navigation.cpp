@@ -15999,11 +15999,6 @@ nsIStructuredCloneContainer
 aSerializedState
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-mOngoingAPIMethodTracker
-)
-;
 /
 /
 This
@@ -16018,6 +16013,11 @@ NavigationPrecommitController
 redirect
 (
 )
+if
+(
+mOngoingAPIMethodTracker
+)
+{
 mOngoingAPIMethodTracker
 -
 >
@@ -16026,6 +16026,7 @@ SetSerializedState
 aSerializedState
 )
 ;
+}
 }
 }
 /
