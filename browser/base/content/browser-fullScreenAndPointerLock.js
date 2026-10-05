@@ -226,7 +226,7 @@ if
 !
 document
 .
-fullscreen
+fullscreenElement
 )
 {
 let
@@ -3122,7 +3122,7 @@ if
 (
 document
 .
-fullscreen
+fullscreenElement
 )
 {
 document
