@@ -1646,6 +1646,8 @@ NS_OK
 }
 if
 (
+NS_WARN_IF
+(
 !
 IsPotentiallyReadableDirectory
 (
@@ -1653,9 +1655,10 @@ IsPotentiallyReadableDirectory
 aDirectory
 )
 )
+)
 {
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 nsCOMPtr
