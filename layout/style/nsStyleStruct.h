@@ -6631,12 +6631,6 @@ mGridAutoFlow
 mozilla
 :
 :
-StyleMasonryAutoFlow
-mMasonryAutoFlow
-;
-mozilla
-:
-:
 StyleContentDistribution
 mAlignContent
 ;
