@@ -2396,14 +2396,6 @@ replaceWith
 replacementElement
 )
 ;
-sendMessageToAddon
-(
-"
-smartblockEmbedReplaced
-"
-shimId
-)
-;
 }
 )
 ;

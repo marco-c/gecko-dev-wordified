@@ -3797,9 +3797,6 @@ needsShimHelpers
 embedClicked
 "
 "
-smartblockEmbedReplaced
-"
-"
 smartblockGetFluentString
 "
 "
