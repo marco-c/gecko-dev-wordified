@@ -67,6 +67,10 @@ import
 textwrap
 import
 unittest
+from
+unittest
+import
+mock
 import
 yaml
 from
@@ -3656,10 +3660,30 @@ self
 return
 0
     
+mock
+.
+patch
+(
+"
+mozbuild
+.
+vendor
+.
+sbom_cargo
+.
+collect_dependency_kinds
+"
+return_value
+=
+{
+}
+)
+    
 def
 test_document
 (
 self
+collect_dependency_kinds
 )
 :
         
@@ -3681,6 +3705,10 @@ loads
             
 build_tooling_document
 (
+                
+self
+.
+topsrcdir
 self
 .
 topsrcdir
@@ -3696,6 +3724,7 @@ version
 .
 0a1
 "
+            
 )
         
 )
