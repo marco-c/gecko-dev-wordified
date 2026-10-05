@@ -342,10 +342,11 @@ constexpr
 size_t
 MaxNurseryBytesParam
 =
-Nursery
-:
-:
-MaxNurseryBytesParam
+128
+*
+1024
+*
+1024
 ;
 namespace
 {
