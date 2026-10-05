@@ -5440,7 +5440,6 @@ textlist
 >
 Length
 (
-true
 )
 ;
 for
@@ -5699,7 +5698,6 @@ inputlist
 >
 Length
 (
-true
 )
 ;
 for
@@ -6259,7 +6257,6 @@ selectlist
 >
 Length
 (
-true
 )
 ;
 for
@@ -6731,7 +6728,6 @@ faceList
 >
 Length
 (
-true
 )
 ;
 for
