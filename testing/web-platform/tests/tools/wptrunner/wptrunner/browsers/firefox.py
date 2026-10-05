@@ -2401,6 +2401,19 @@ prefers_openh264
 (
 )
           
+"
+isolated_process
+"
+:
+kwargs
+.
+get
+(
+"
+isolated_process
+"
+)
+          
 }
     
 rv
@@ -7745,6 +7758,9 @@ None
 gmp_path
 =
 None
+isolated_process
+=
+False
 *
 *
 kwargs
@@ -7834,6 +7850,7 @@ headless
 gmp_path
 chaos_mode_flags
 e10s
+isolated_process
 )
         
 #
@@ -7910,6 +7927,7 @@ headless
 gmp_path
 chaos_mode_flags
 e10s
+isolated_process
 )
 :
         
