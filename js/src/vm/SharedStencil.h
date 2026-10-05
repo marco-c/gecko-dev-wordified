@@ -2058,6 +2058,14 @@ HasNonSyntacticScope
 _
 (
 ImmutableFlags
+allowRedeclaringExistingLexicalBinding
+\
+AllowRedeclaringExistingLexicalBinding
+)
+\
+_
+(
+ImmutableFlags
 noScriptRval
 NoScriptRval
 )
