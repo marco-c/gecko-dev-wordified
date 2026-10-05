@@ -307,7 +307,14 @@ IPC
 object
 been
 destroyed
+or
+could
+it
+not
+be
+created
 ?
+*
 If
 so
 you
@@ -315,7 +322,6 @@ shouldn
 '
 t
 send
-*
 messages
 to
 hal_sandbox
