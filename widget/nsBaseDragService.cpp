@@ -336,6 +336,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -5363,6 +5370,13 @@ aKeyModifiers
 )
 ;
 }
+nsGlobalWindowInner
+:
+:
+MouseButtonReleased
+(
+)
+;
 if
 (
 mDragPopup
