@@ -68,6 +68,15 @@ number
 :
 uuid
 ;
+equals
+(
+other
+:
+nsID
+)
+:
+boolean
+;
 }
 /
 *
