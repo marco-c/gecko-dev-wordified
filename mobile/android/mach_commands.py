@@ -514,6 +514,21 @@ the
 build
 already
 runs
+;
+sbom
+.
+json
+in
+the
+top
+-
+level
+moz
+.
+build
+depends
+on
+it
 .
     
 sbom_tasks
