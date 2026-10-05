@@ -130,7 +130,7 @@ PathOps
 aOther
 )
 {
-MOZ_ALWAYS_TRUE
+MOZ_RELEASE_ASSERT
 (
 mPathData
 .
@@ -306,7 +306,7 @@ T
 aOpData
 )
 {
-MOZ_ALWAYS_TRUE
+MOZ_RELEASE_ASSERT
 (
 mPathData
 .
@@ -347,7 +347,7 @@ T
 aOpParams
 )
 {
-MOZ_ALWAYS_TRUE
+MOZ_RELEASE_ASSERT
 (
 mPathData
 .
