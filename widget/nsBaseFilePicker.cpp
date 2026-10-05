@@ -2321,7 +2321,7 @@ return
 true
 ;
 #
-endif
+else
 #
 ifdef
 MOZ_WIDGET_GTK
@@ -2406,6 +2406,8 @@ isReadable
 &
 isReadable
 ;
+#
+endif
 }
 bool
 nsBaseFilePicker
