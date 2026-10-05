@@ -82,17 +82,6 @@ use
 crate
 :
 :
-bloom
-:
-:
-AtomExt
-as
-_
-;
-use
-crate
-:
-:
 context
 :
 :
@@ -2774,7 +2763,7 @@ class
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -2863,7 +2852,7 @@ name
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -2893,7 +2882,7 @@ lower_name
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -3031,7 +3020,7 @@ local_name
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -3059,7 +3048,7 @@ local_name_lower
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -3286,7 +3275,7 @@ local_name
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -4567,7 +4556,7 @@ class
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -4666,7 +4655,7 @@ name
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -4696,7 +4685,7 @@ lower_name
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )
@@ -4823,7 +4812,7 @@ local_name
 .
 0
 .
-get_hash32
+get_hash
 (
 )
 )

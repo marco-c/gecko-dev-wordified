@@ -1930,7 +1930,6 @@ derive
 (
 Clone
 Debug
-Deref
 MallocSizeOf
 PartialEq
 ToAnimatedValue
@@ -2058,7 +2057,6 @@ derive
 (
 Clone
 Debug
-Deref
 MallocSizeOf
 PartialEq
 ToCss
