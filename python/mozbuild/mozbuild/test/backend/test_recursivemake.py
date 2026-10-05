@@ -11852,13 +11852,6 @@ RUST_LIBRARY_CARGO_PROFILE_SUFFIX
 =
 custom
 "
-            
-"
-RUST_LIBRARY_CARGO_CRATE_TYPE
-:
-=
-staticlib
-"
         
 ]
         
@@ -13324,14 +13317,6 @@ s
 env
 .
 topobjdir
-            
-"
-HOST_RUST_LIBRARY_FEATURES
-:
-=
-musthave
-cantlivewithout
-"
         
 ]
         
@@ -13504,14 +13489,6 @@ s
 env
 .
 topobjdir
-            
-"
-RUST_LIBRARY_FEATURES
-:
-=
-musthave
-cantlivewithout
-"
             
 "
 RUST_LIBRARY_LTO
@@ -13713,14 +13690,6 @@ program
 -
 features
 "
-            
-"
-RUST_PROGRAM_FEATURES
-:
-=
-musthave
-cantlivewithout
-"
         
 ]
         
@@ -13921,14 +13890,6 @@ host
 program
 -
 features
-"
-            
-"
-HOST_RUST_PROGRAM_FEATURES
-:
-=
-musthave
-cantlivewithout
 "
         
 ]
