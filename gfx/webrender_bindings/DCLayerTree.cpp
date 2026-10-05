@@ -1480,7 +1480,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-gfx_webrender_layer_compositor_AtStartup
+gfx_webrender_layer_compositor
 (
 )
 )
