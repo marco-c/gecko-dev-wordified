@@ -211,7 +211,7 @@ surface
 surface
 -
 >
-CreateTexture
+CreateTextures
 (
 desc
 .
@@ -692,7 +692,7 @@ if
 importedSurface
 -
 >
-CreateTexture
+CreateTextures
 (
 &
 gl
