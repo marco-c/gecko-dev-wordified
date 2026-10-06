@@ -2694,15 +2694,7 @@ GL3_1
 GLESVersion
 :
 :
-NONE
-/
-/
-not
-part
-of
-any
-GLES
-core
+ES3_1
 GLContext
 :
 :
