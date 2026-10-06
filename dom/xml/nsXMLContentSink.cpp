@@ -3920,6 +3920,8 @@ close
 "
 )
 ;
+RefPtr
+<
 mozilla
 :
 :
@@ -3927,7 +3929,7 @@ dom
 :
 :
 NodeInfo
-*
+>
 nodeInfo
 =
 aContent
