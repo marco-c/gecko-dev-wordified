@@ -2240,9 +2240,6 @@ JS
 Value
 >
 resolution
-bool
-*
-deferred
 )
 ;
 [

@@ -145,7 +145,3 @@ DOCUMENT_WARNING
 (
 SpeechRecognitionIsolatedTrack
 )
-DOCUMENT_WARNING
-(
-SafePromiseResolveReordering
-)
