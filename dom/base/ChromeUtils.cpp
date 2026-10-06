@@ -12096,10 +12096,6 @@ const
 nsACString
 &
 aURI
-const
-nsACString
-&
-aHintCharset
 JS
 :
 :
@@ -12137,7 +12133,6 @@ GetCachedScriptSource
 cx
 aKey
 aURI
-aHintCharset
 aRetval
 )
 )
