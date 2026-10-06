@@ -179,6 +179,16 @@ ariaChecked
 true
 "
 ;
+this
+.
+_internals
+.
+ariaInvalid
+=
+"
+true
+"
+;
 }
 get
 internals
