@@ -879,10 +879,10 @@ buffer
 widget
 :
 :
-WaylandBufferDMABUF
+WaylandBuffer
 :
 :
-CreateRGBA
+CreateDMABuf
 (
 LayoutDeviceIntSize
 :
@@ -903,10 +903,10 @@ buffer
 widget
 :
 :
-WaylandBufferSHM
+WaylandBuffer
 :
 :
-Create
+CreateSHM
 (
 LayoutDeviceIntSize
 :
