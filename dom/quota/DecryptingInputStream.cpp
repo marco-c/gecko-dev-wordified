@@ -115,7 +115,7 @@ mBaseCloneableInputStream
 |
 |
 !
-mBaseStream
+mBlockSize
 )
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
@@ -124,7 +124,7 @@ mBaseIPCSerializableInputStream
 |
 |
 !
-mBaseStream
+mBlockSize
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
@@ -149,6 +149,12 @@ size_t
 aBlockSize
 )
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 Init
 (
 std
