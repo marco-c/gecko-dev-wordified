@@ -508,7 +508,7 @@ nsWindow
 |
 |
 |
-WaylandBufferSHM
+WaylandBuffer
 |
 |
 |
@@ -630,7 +630,7 @@ SHMBufSurface
 |
 |
 |
-WaylandBufferSHM
+WaylandBuffer
 |
 |
 |
@@ -868,7 +868,7 @@ nsWindow
 |
 |
 |
-WaylandBufferSHM
+WaylandBuffer
 |
 |
 |
@@ -982,7 +982,7 @@ SHMBufSurface
 |
 |
 |
-WaylandBufferSHM
+WaylandBuffer
 |
 |
 |
@@ -1226,7 +1226,7 @@ objects
 (
 owned
 by
-WaylandBufferSHM
+WaylandBuffer
 )
 as
 we
@@ -1300,7 +1300,7 @@ screen
 is
 invalidated
 .
-WaylandBufferSHM
+WaylandBuffer
 Is
 a
 class
@@ -1363,7 +1363,7 @@ rendered
 by
 compositor
 .
-WaylandBufferSHM
+WaylandBuffer
 is
 implemented
 by
@@ -1401,7 +1401,7 @@ of
 shared
 memory
 for
-WaylandBufferSHM
+WaylandBuffer
 .
 Allocates
 it
@@ -1454,7 +1454,7 @@ to
 wayland
 compositor
 by
-WaylandBufferSHM
+WaylandBuffer
 /
 WindowSurfaceWayland
 (
@@ -2359,7 +2359,7 @@ aWaylandSurfaceLock
 }
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 WindowSurfaceWaylandMB
 :
@@ -2388,7 +2388,7 @@ IsEmpty
 {
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 buffer
 =
@@ -2411,14 +2411,14 @@ buffer
 }
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 buffer
 =
-WaylandBufferSHM
+WaylandBuffer
 :
 :
-Create
+CreateSHM
 (
 aSize
 )
@@ -2453,7 +2453,7 @@ aWaylandSurfaceLock
 const
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 &
 aBuffer
@@ -2687,7 +2687,7 @@ for
 const
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 &
 buffer
@@ -2708,7 +2708,7 @@ for
 const
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 &
 buffer
@@ -2729,7 +2729,7 @@ for
 const
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 &
 buffer

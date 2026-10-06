@@ -328,7 +328,7 @@ aInvalidRegion
 ;
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 ObtainBufferFromPool
 (
@@ -352,7 +352,7 @@ aWaylandSurfaceLock
 const
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 &
 aBuffer
@@ -451,13 +451,13 @@ mWindowSize
 ;
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 mInProgressBuffer
 ;
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 mFrontBuffer
 ;
@@ -472,7 +472,7 @@ nsTArray
 <
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 >
 mInUseBuffers
@@ -481,7 +481,7 @@ nsTArray
 <
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 >
 mPendingBuffers
@@ -490,7 +490,7 @@ nsTArray
 <
 RefPtr
 <
-WaylandBufferSHM
+WaylandBuffer
 >
 >
 mAvailableBuffers
