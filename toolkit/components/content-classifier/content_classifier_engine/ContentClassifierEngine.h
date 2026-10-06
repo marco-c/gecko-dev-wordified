@@ -604,6 +604,8 @@ ContentClassifierRequest
 aRequest
 bool
 aPreviouslyMatched
+bool
+aMatchDocumentAsNetworkRequest
 )
 ;
 /
