@@ -1927,6 +1927,11 @@ list
 -
 body
 "
+role
+:
+"
+listbox
+"
 onKeyDown
 :
 this
