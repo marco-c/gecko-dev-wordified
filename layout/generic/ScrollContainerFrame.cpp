@@ -17571,7 +17571,7 @@ be
 destroyed
 here
 }
-void
+bool
 ScrollContainerFrame
 :
 :
@@ -17642,6 +17642,12 @@ halfRange
 1
 )
 ;
+AutoWeakFrame
+weakFrame
+(
+this
+)
+;
 ScrollToWithOrigin
 (
 pt
@@ -17676,6 +17682,13 @@ might
 be
 destroyed
 here
+return
+weakFrame
+.
+IsAlive
+(
+)
+;
 }
 CSSIntPoint
 ScrollContainerFrame
