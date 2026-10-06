@@ -2822,9 +2822,19 @@ base_ref
             
 base_ref
 =
-self
+"
+last
+(
+ancestors
+(
 .
-base_ref
+)
+and
+public
+(
+)
+)
+"
         
 head_ref
 =
@@ -2832,7 +2842,11 @@ head
 or
 self
 .
-head_ref
+branch
+or
+"
+.
+"
         
 cmd
 =
@@ -2849,19 +2863,25 @@ r
             
 f
 "
+(
 {
 base_ref
 }
+)
 :
 :
+(
 {
 head_ref
 }
+)
 and
 not
+(
 {
 base_ref
 }
+)
 "
             
 "
