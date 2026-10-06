@@ -814,6 +814,11 @@ n
 '
 and
 branch
+(
+via
+scratch
+t7
+)
 to
 SharedStub
 (
@@ -1126,7 +1131,8 @@ t
 "
 \
 "
-b
+tail36
+t7
 SharedStub
 \
 n
