@@ -133,9 +133,6 @@ join
 (
 AOM_DIR
 '
-build
-'
-'
 cmake
 '
                 
@@ -617,6 +614,12 @@ CMAKE_SYSTEM_PROCESSOR
 '
 x86_64
 '
+        
+'
+ENABLE_APPS
+'
+:
+0
         
 '
 ENABLE_EXAMPLES
