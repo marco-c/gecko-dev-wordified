@@ -3645,7 +3645,7 @@ tooltip
 -
 back
 -
-2
+3
 "
 "
 goBackKb
@@ -3670,7 +3670,7 @@ tooltip
 -
 forward
 -
-2
+3
 "
 "
 goForwardKb
