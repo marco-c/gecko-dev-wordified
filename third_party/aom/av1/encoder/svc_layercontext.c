@@ -1326,9 +1326,8 @@ lrc
 >
 avg_frame_bandwidth
 =
+saturate_cast_double_to_int
 (
-int
-)
 round
 (
 lc
@@ -1340,6 +1339,7 @@ lc
 -
 >
 framerate
+)
 )
 ;
 lrc
@@ -1860,9 +1860,8 @@ lc
 >
 avg_frame_size
 =
+saturate_cast_double_to_int
 (
-int
-)
 round
 (
 (
@@ -1883,6 +1882,7 @@ framerate
 prev_layer_framerate
 )
 )
+)
 ;
 }
 else
@@ -1892,9 +1892,8 @@ lc
 >
 avg_frame_size
 =
+saturate_cast_double_to_int
 (
-int
-)
 round
 (
 lc
@@ -1906,6 +1905,7 @@ lc
 -
 >
 framerate
+)
 )
 ;
 }

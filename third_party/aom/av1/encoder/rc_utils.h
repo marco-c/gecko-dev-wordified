@@ -615,6 +615,10 @@ target_bandwidth
 max_bitrate
 )
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
 /
 /
 Also
@@ -693,6 +697,8 @@ target_bandwidth
 0
 )
 ;
+#
+endif
 /
 /
 Adjust

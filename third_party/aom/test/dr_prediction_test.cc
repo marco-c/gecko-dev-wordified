@@ -740,6 +740,9 @@ dy
 )
 ;
 }
+#
+if
+CONFIG_AV1_HIGHBITDEPTH
 using
 Z1_Hbd
 =
@@ -1029,6 +1032,11 @@ bd
 )
 ;
 }
+#
+endif
+/
+/
+CONFIG_AV1_HIGHBITDEPTH
 template
 <
 typename

@@ -1263,7 +1263,7 @@ r
 r
 )
 {
-memmove
+memcpy
 (
 dst
 src
@@ -1929,7 +1929,7 @@ h
 y
 )
 {
-memmove
+memcpy
 (
 dst
 src

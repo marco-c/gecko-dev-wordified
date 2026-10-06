@@ -439,7 +439,7 @@ w
 copy2
 do
 {
-memmove
+memcpy
 (
 dst
 src
@@ -462,7 +462,7 @@ dst
 =
 dst_stride
 ;
-memmove
+memcpy
 (
 dst
 src

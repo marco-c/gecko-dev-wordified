@@ -268,6 +268,8 @@ int
 allow_second_mv
 int
 joint_me_num_refine_iter
+bool
+use_subpel_mv_cost_none
 )
 ;
 int

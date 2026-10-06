@@ -260,7 +260,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 4
@@ -274,7 +274,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 4
@@ -288,7 +288,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 4
@@ -302,7 +302,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 4
@@ -316,7 +316,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 4
@@ -330,7 +330,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 29
@@ -344,7 +344,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 3
@@ -358,7 +358,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 3
@@ -372,7 +372,7 @@ kPsnrThreshold
 {
 34
 .
-9
+1
 44
 .
 3

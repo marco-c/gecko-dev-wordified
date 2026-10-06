@@ -7321,7 +7321,10 @@ cpi
 >
 mt_info
 .
-num_workers
+num_mod_workers
+[
+MOD_CDEF_SEARCH
+]
 >
 1
 )

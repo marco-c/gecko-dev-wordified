@@ -322,6 +322,9 @@ dest16
 +
 +
 =
+(
+uint16_t
+)
 val
 ;
 return

@@ -128,6 +128,13 @@ h
 >
 #
 include
+<
+string
+.
+h
+>
+#
+include
 "
 config
 /
@@ -558,7 +565,7 @@ w
 {
 do
 {
-memmove
+memcpy
 (
 dst
 src
@@ -581,7 +588,7 @@ dst
 =
 dst_stride
 ;
-memmove
+memcpy
 (
 dst
 src
@@ -627,7 +634,7 @@ w
 {
 do
 {
-memmove
+memcpy
 (
 dst
 src
@@ -650,7 +657,7 @@ dst
 =
 dst_stride
 ;
-memmove
+memcpy
 (
 dst
 src
