@@ -9698,10 +9698,10 @@ thunk
 which
 upon
 return
+/
+/
 enters
 the
-/
-/
 wasm
 FP
 environment
@@ -9716,12 +9716,12 @@ called
 by
 a
 wasm
+/
+/
 function
 )
 .
 We
-/
-/
 should
 be
 in
@@ -9734,6 +9734,8 @@ so
 we
 need
 to
+/
+/
 reset
 it
 .
