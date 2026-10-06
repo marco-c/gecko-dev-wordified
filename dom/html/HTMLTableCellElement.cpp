@@ -389,8 +389,10 @@ CellIndex
 )
 const
 {
+RefPtr
+<
 HTMLTableRowElement
-*
+>
 row
 =
 GetRow
@@ -1061,14 +1063,11 @@ aBuilder
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 HTMLTableCellElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
