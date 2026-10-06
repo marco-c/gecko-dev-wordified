@@ -1176,8 +1176,14 @@ java
 HardwareCodecCapabilityUtils
 :
 :
-GetDecoderSupportedMimeTypesWithAccelInfo
+GetSupportedMimeTypesWithAccelInfo
 (
+/
+*
+aIncludeEncoders
+*
+/
+false
 )
 ;
 nsTArray
