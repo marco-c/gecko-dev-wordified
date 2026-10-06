@@ -98,7 +98,7 @@ mozilla
 ifdef
 XP_WIN
 struct
-ModulePaths
+ModuleIdentifiers
 ;
 #
 endif
@@ -238,7 +238,7 @@ GetModulesTrustPromise
 >
 SendGetModulesTrust
 (
-ModulePaths
+ModuleIdentifiers
 &
 &
 aModules
