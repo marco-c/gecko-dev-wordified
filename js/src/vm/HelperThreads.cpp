@@ -305,6 +305,15 @@ h
 #
 include
 "
+util
+/
+Denormals
+.
+h
+"
+#
+include
+"
 vm
 /
 ErrorReporting
@@ -4105,6 +4114,9 @@ JS
 :
 AutoSuppressGCAnalysis
 nogc
+;
+AutoAssertDenormalsEnabled
+denormals
 ;
 task
 -

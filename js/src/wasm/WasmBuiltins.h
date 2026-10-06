@@ -318,7 +318,6 @@ HandleDebugTrap
 HandleRequestTierUp
 HandleThrow
 HandleTrap
-ReportV128JSCall
 CallImport_General
 CoerceInPlace_ToInt32
 CoerceInPlace_ToNumber

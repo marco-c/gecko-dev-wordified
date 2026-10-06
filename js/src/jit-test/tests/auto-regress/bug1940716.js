@@ -13,6 +13,8 @@ main
 -
 thread
 -
+wasm
+-
 denormals
 ;
 skip
@@ -30,6 +32,8 @@ disable
 main
 -
 thread
+-
+wasm
 -
 denormals
 "
