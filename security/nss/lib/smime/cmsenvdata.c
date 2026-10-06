@@ -340,6 +340,13 @@ NSS_CMSRecipientInfo_Destroy
 ri
 )
 ;
+edp
+-
+>
+recipientInfos
+=
+NULL
+;
 NSS_CMSContentInfo_Destroy
 (
 &

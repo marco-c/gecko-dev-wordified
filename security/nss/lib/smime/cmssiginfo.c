@@ -737,6 +737,7 @@ cert
 =
 NULL
 )
+{
 CERT_DestroyCertificate
 (
 si
@@ -745,6 +746,14 @@ si
 cert
 )
 ;
+si
+-
+>
+cert
+=
+NULL
+;
+}
 if
 (
 si
@@ -755,6 +764,7 @@ certList
 =
 NULL
 )
+{
 CERT_DestroyCertificateList
 (
 si
@@ -763,6 +773,14 @@ si
 certList
 )
 ;
+si
+-
+>
+certList
+=
+NULL
+;
+}
 /
 *
 XXX

@@ -440,6 +440,13 @@ cinfo
 bulkkey
 )
 ;
+cinfo
+-
+>
+bulkkey
+=
+NULL
+;
 }
 }
 /

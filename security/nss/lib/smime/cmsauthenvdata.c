@@ -180,6 +180,13 @@ NSS_CMSRecipientInfo_Destroy
 ri
 )
 ;
+authenvd
+-
+>
+recipientInfos
+=
+NULL
+;
 NSS_CMSContentInfo_Destroy
 (
 &
