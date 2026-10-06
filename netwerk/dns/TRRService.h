@@ -728,16 +728,6 @@ nsCString
 aSuffixList
 )
 ;
-nsresult
-DispatchTRRRequestInternal
-(
-TRR
-*
-aTrrRequest
-bool
-aWithLock
-)
-;
 already_AddRefed
 <
 nsIThread
