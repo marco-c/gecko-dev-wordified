@@ -183,8 +183,6 @@ panel
 background
 -
 color
--
-dimmed
 )
 "
 }
