@@ -2245,10 +2245,10 @@ SocketProcessParent
 :
 RecvGetModulesTrust
 (
-ModuleIdentifiers
+ModulePaths
 &
 &
-aModIdents
+aModPaths
 bool
 aRunAtNormalPriority
 GetModulesTrustResolver
@@ -2281,7 +2281,7 @@ std
 :
 move
 (
-aModIdents
+aModPaths
 )
 aRunAtNormalPriority
 )

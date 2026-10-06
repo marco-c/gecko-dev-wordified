@@ -473,16 +473,10 @@ DllServices
 :
 GetModulesTrust
 (
-nsTArray
-<
-ipc
-:
-:
-FileDescriptor
->
+ModulePaths
 &
 &
-aModIdents
+aModPaths
 bool
 aRunAtNormalPriority
 )
@@ -515,7 +509,7 @@ std
 :
 move
 (
-aModIdents
+aModPaths
 )
 aRunAtNormalPriority
 )
