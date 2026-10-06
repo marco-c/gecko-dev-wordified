@@ -1876,22 +1876,6 @@ XPIDLModule
 )
 :
             
-#
-TODO
-bug
-1240134
-tracks
-not
-processing
-XPIDL
-files
-during
-            
-#
-artifact
-builds
-.
-            
 self
 .
 _idl_manager

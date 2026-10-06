@@ -13214,6 +13214,24 @@ context
                 
 )
         
+if
+not
+context
+.
+config
+.
+substs
+.
+get
+(
+"
+COMPILE_ENVIRONMENT
+"
+)
+:
+            
+return
+        
 yield
 XPIDLModule
 (
