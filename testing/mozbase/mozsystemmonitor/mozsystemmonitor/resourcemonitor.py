@@ -2812,6 +2812,9 @@ p
 .
 pid
                 
+try
+:
+                    
 create_time
 =
 p
@@ -2819,6 +2822,25 @@ p
 create_time
 (
 )
+                
+except
+psutil
+.
+Error
+:
+                    
+#
+The
+process
+exited
+or
+isn
+'
+t
+accessible
+.
+                    
+continue
                 
 #
 If
