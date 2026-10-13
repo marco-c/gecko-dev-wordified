@@ -6554,7 +6554,6 @@ NS_ShouldSecureUpgrade
 (
 mURI
 mLoadInfo
-this
 resultPrincipal
 LoadAllowSTS
 (
@@ -7819,18 +7818,6 @@ nsILoadInfo
 :
 :
 HTTPS_RR
-)
-;
-NS_LogSecureUpgradeToConsole
-(
-mURI
-mLoadInfo
-this
-"
-HTTPS
-RR
-"
-_ns
 )
 ;
 }
