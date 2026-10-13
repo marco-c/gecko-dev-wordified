@@ -91,6 +91,11 @@ PC_TEST_MOCK_RTP_SENDER_INTERNAL_H_
 #
 include
 <
+cstddef
+>
+#
+include
+<
 cstdint
 >
 #
@@ -760,6 +765,7 @@ BatchTaskWithFinalizer
 SetSsrcTask
 (
 uint32_t
+size_t
 )
 (
 override
