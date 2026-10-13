@@ -4468,8 +4468,7 @@ poll_interval
 0
 metadata
 =
-{
-}
+None
 )
 :
         
@@ -5143,6 +5142,17 @@ threading
 Lock
 (
 )
+        
+if
+metadata
+is
+None
+:
+            
+metadata
+=
+{
+}
         
 self
 .
