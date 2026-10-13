@@ -287,6 +287,11 @@ h
 "
 #
 include
+<
+memory
+>
+#
+include
 "
 ReverbConvolverStage
 .
@@ -920,9 +925,14 @@ UniquePtr
 ReverbConvolverStage
 >
 stage
-(
-new
+=
+std
+:
+:
+make_unique
+<
 ReverbConvolverStage
+>
 (
 response
 totalResponseLength
@@ -933,7 +943,6 @@ fftSize
 renderPhase
 &
 m_accumulationBuffer
-)
 )
 ;
 bool

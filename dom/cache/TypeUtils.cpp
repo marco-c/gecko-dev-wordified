@@ -76,6 +76,11 @@ algorithm
 >
 #
 include
+<
+memory
+>
+#
+include
 "
 mozilla
 /
@@ -2032,8 +2037,12 @@ ipc
 PrincipalInfo
 >
 info
-(
-new
+=
+std
+:
+:
+make_unique
+<
 mozilla
 :
 :
@@ -2041,6 +2050,7 @@ ipc
 :
 :
 PrincipalInfo
+>
 (
 aIn
 .
@@ -2050,7 +2060,6 @@ principalInfo
 .
 ref
 (
-)
 )
 )
 ;

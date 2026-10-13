@@ -294,6 +294,11 @@ h
 >
 #
 include
+<
+memory
+>
+#
+include
 "
 ReverbConvolver
 .
@@ -1043,9 +1048,14 @@ UniquePtr
 ReverbConvolver
 >
 convolver
-(
-new
+=
+std
+:
+:
+make_unique
+<
 ReverbConvolver
+>
 (
 channel
 length
@@ -1054,7 +1064,6 @@ convolverRenderPhase
 useBackgroundThreads
 &
 allocationFailure
-)
 )
 ;
 if
