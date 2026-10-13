@@ -2457,6 +2457,17 @@ return
 }
 ;
 }
+bool
+CanAttemptDtlsStunPiggybacking
+(
+)
+const
+override
+{
+return
+false
+;
+}
 protected
 :
 Environment

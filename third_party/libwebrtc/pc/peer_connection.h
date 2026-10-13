@@ -3387,6 +3387,13 @@ DisableSdpMungingChecksForTesting
 )
 ;
 }
+bool
+CanAttemptDtlsStunPiggybacking
+(
+)
+const
+override
+;
 protected
 :
 /
@@ -4410,11 +4417,6 @@ parsed_packet
 const
 >
 InitializeUnDemuxablePacketHandler
-(
-)
-;
-bool
-CanAttemptDtlsStunPiggybacking
 (
 )
 ;
