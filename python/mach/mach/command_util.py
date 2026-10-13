@@ -894,6 +894,27 @@ py
 )
     
 "
+devtools
+-
+update
+-
+compat
+-
+data
+"
+:
+MachCommandReference
+(
+"
+devtools
+/
+mach_commands
+.
+py
+"
+)
+    
+"
 doc
 "
 :
