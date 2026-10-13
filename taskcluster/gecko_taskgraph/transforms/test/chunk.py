@@ -1994,7 +1994,15 @@ runtimes
 resolve_manifest_runtimes
 (
             
-all_runtimes
+task
+[
+"
+test
+-
+platform
+"
+]
+suite_name
 task
 [
 "
