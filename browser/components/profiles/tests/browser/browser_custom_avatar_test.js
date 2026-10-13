@@ -4833,7 +4833,7 @@ EventUtils
 synthesizeKey
 (
 "
-Escape
+KEY_Escape
 "
 {
 }
@@ -5005,7 +5005,7 @@ EventUtils
 synthesizeKey
 (
 "
-Escape
+KEY_Escape
 "
 {
 }
@@ -5298,7 +5298,7 @@ EventUtils
 synthesizeKey
 (
 "
-Escape
+KEY_Escape
 "
 {
 }
