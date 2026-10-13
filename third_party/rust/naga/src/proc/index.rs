@@ -2494,9 +2494,6 @@ Access
 base
 index
 }
-=
->
-{
 if
 policies
 .
@@ -2538,6 +2535,8 @@ info
 is_some
 (
 )
+=
+>
 {
 guarded_indices
 .
@@ -2546,7 +2545,6 @@ insert
 index
 )
 ;
-}
 }
 Ex
 :
@@ -2560,9 +2558,6 @@ level
 .
 .
 }
-=
->
-{
 if
 policies
 .
@@ -2573,6 +2568,8 @@ BoundsCheckPolicy
 :
 :
 ReadZeroSkipWrite
+=
+>
 {
 guarded_indices
 .
@@ -2631,7 +2628,6 @@ insert
 level
 )
 ;
-}
 }
 }
 _

@@ -1962,7 +1962,10 @@ PREFER_COHERENT
 }
 ;
 let
+(
 staging_buffer
+_
+)
 =
 unsafe
 {
@@ -2755,7 +2758,10 @@ global_buffer
 unsafe
 {
 let
+(
 buffer
+_
+)
 =
 device
 .
@@ -2933,7 +2939,10 @@ PREFER_COHERENT
 }
 ;
 let
+(
 local_buffer
+_
+)
 =
 unsafe
 {
@@ -3070,6 +3079,10 @@ new
 global_buffer_desc
 .
 size
+)
+.
+unwrap
+(
 )
 )
 ;
@@ -3261,6 +3274,10 @@ Locals
 )
 as
 _
+)
+.
+unwrap
+(
 )
 )
 ;

@@ -2625,6 +2625,13 @@ gputexturesampletype
 .
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Clone
@@ -3148,6 +3155,13 @@ enumdef
 gpustoragetextureaccess
 )
 .
+#
+[
+repr
+(
+C
+)
+]
 #
 [
 derive

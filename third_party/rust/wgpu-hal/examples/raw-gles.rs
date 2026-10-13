@@ -1203,9 +1203,6 @@ Resized
 (
 size
 )
-=
->
-{
 if
 size
 .
@@ -1221,6 +1218,8 @@ height
 !
 =
 0
+=
+>
 {
 /
 /
@@ -1299,7 +1298,6 @@ gl_surface
 gl_context
 )
 ;
-}
 }
 }
 WindowEvent

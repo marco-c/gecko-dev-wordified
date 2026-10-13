@@ -1733,6 +1733,8 @@ PassTimestampWrites
 [
 derive
 (
+Clone
+Debug
 serde
 :
 :
@@ -2016,6 +2018,8 @@ CommandBufferId
 [
 derive
 (
+Clone
+Debug
 serde
 :
 :
@@ -2137,6 +2141,8 @@ End
 [
 derive
 (
+Clone
+Debug
 serde
 :
 :
@@ -2222,6 +2228,8 @@ RenderBundleId
 [
 derive
 (
+Clone
+Debug
 serde
 :
 :
@@ -2320,6 +2328,8 @@ End
 [
 derive
 (
+Clone
+Debug
 serde
 :
 :
@@ -2375,6 +2385,8 @@ String
 [
 derive
 (
+Clone
+Debug
 serde
 :
 :
@@ -2461,6 +2473,8 @@ u8
 [
 derive
 (
+Clone
+Debug
 serde
 :
 :

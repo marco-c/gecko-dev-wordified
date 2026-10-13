@@ -1687,6 +1687,9 @@ the
 WGSL
 spec
 "
+debugPrintf
+"
+"
 i64
 "
 "

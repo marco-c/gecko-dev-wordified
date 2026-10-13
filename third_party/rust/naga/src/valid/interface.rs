@@ -5287,9 +5287,6 @@ Bi
 :
 :
 Primitives
-=
->
-{
 if
 !
 self
@@ -5303,6 +5300,8 @@ Capabilities
 :
 MESH_SHADER
 )
+=
+>
 {
 return
 Err
@@ -5319,7 +5318,6 @@ MESH_SHADER
 )
 )
 ;
-}
 }
 _
 =
@@ -7397,9 +7395,6 @@ Sampler
 .
 .
 }
-=
->
-{
 if
 !
 self
@@ -7413,6 +7408,8 @@ Capabilities
 :
 TEXTURE_AND_SAMPLER_BINDING_ARRAY
 )
+=
+>
 {
 return
 Err
@@ -7429,7 +7426,6 @@ TEXTURE_AND_SAMPLER_BINDING_ARRAY
 )
 )
 ;
-}
 }
 crate
 :
@@ -7442,9 +7438,6 @@ AccelerationStructure
 .
 .
 }
-=
->
-{
 if
 !
 self
@@ -7458,6 +7451,8 @@ Capabilities
 :
 ACCELERATION_STRUCTURE_BINDING_ARRAY
 )
+=
+>
 {
 return
 Err
@@ -7474,7 +7469,6 @@ ACCELERATION_STRUCTURE_BINDING_ARRAY
 )
 )
 ;
-}
 }
 crate
 :
@@ -7905,9 +7899,6 @@ Rgba16Snorm
 .
 .
 }
-=
->
-{
 if
 !
 self
@@ -7921,6 +7912,8 @@ Capabilities
 :
 STORAGE_TEXTURE_16BIT_NORM_FORMATS
 )
+=
+>
 {
 return
 Err
@@ -7937,7 +7930,6 @@ STORAGE_TEXTURE_16BIT_NORM_FORMATS
 )
 )
 ;
-}
 }
 _
 =

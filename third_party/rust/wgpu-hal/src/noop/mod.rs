@@ -1713,7 +1713,13 @@ BufferDescriptor
 >
 DeviceResult
 <
+(
 Buffer
+wgt
+:
+:
+BufferAddress
+)
 >
 {
 Buffer

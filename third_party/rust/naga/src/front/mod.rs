@@ -35,6 +35,13 @@ any
 feature
 =
 "
+glsl
+-
+in
+"
+feature
+=
+"
 spv
 -
 in

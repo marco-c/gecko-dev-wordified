@@ -4259,9 +4259,6 @@ level
 .
 .
 }
-=
->
-{
 if
 policies
 .
@@ -4278,6 +4275,8 @@ BoundsCheckPolicy
 :
 :
 Unchecked
+=
+>
 {
 if
 sample
@@ -4312,7 +4311,6 @@ Features
 :
 TEXTURE_LEVELS
 )
-}
 }
 }
 Expression

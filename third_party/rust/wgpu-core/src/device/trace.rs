@@ -65,6 +65,10 @@ crate
 :
 :
 {
+binding_model
+:
+:
+BindGroupLayoutEntry
 command
 :
 :
@@ -1042,6 +1046,7 @@ BindGroupLayoutDescriptor
 <
 '
 a
+BindGroupLayoutEntry
 >
 )
 GetRenderPipelineBindGroupLayout
@@ -1117,7 +1122,7 @@ crate
 binding_model
 :
 :
-ResolvedPipelineLayoutDescriptor
+PipelineLayoutDescriptor
 <
 '
 a

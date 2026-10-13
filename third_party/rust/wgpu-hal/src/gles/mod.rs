@@ -2530,12 +2530,6 @@ Buffer
 target
 :
 BindTarget
-size
-:
-wgt
-:
-:
-BufferAddress
 /
 /
 /

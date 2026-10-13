@@ -8534,7 +8534,6 @@ size
 >
 {
 let
-mut
 location
 =
 match
@@ -8677,6 +8676,10 @@ Binding
 Location
 {
 location
+:
+location
++
+index
 interpolation
 sampling
 :
@@ -8688,11 +8691,6 @@ per_primitive
 :
 false
 }
-;
-location
-+
-=
-1
 ;
 self
 .
@@ -9550,9 +9548,6 @@ scalar
 .
 .
 }
-=
->
-{
 if
 scalar
 =
@@ -9561,6 +9556,8 @@ Scalar
 :
 :
 F64
+=
+>
 {
 variations
 |
@@ -9569,7 +9566,6 @@ BuiltinVariations
 :
 :
 DOUBLE
-}
 }
 TypeInner
 :

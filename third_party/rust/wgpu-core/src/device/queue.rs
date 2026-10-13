@@ -5432,7 +5432,7 @@ copy
 ;
 staging_buffer
 .
-write
+write_exact
 (
 data
 )
@@ -7611,7 +7611,7 @@ stage_size
 ;
 staging_buffer
 .
-write
+write_exact
 (
 &
 data
@@ -7623,6 +7623,17 @@ as
 usize
 .
 .
+]
+[
+.
+.
+stage_size
+.
+get
+(
+)
+as
+usize
 ]
 )
 ;
