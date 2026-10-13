@@ -196,7 +196,7 @@ https
 /
 www
 .
-mozilla
+example
 .
 org
 /
@@ -218,7 +218,7 @@ https
 /
 www
 .
-mozilla
+example
 .
 org
 /
@@ -1376,7 +1376,7 @@ https
 /
 www
 .
-mozilla
+example
 .
 org
 /
@@ -1391,7 +1391,7 @@ https
 /
 www
 .
-mozilla
+example
 .
 org
 /
