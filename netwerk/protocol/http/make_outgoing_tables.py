@@ -118,10 +118,15 @@ EDIT
 /
 #
 ifndef
-mozilla__net__Http2HuffmanOutgoing_h
+mozilla_net_Http2HuffmanOutgoing_h
 #
 define
-mozilla__net__Http2HuffmanOutgoing_h
+mozilla_net_Http2HuffmanOutgoing_h
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {
@@ -377,7 +382,7 @@ mozilla
 endif
 /
 /
-mozilla__net__Http2HuffmanOutgoing_h
+mozilla_net_Http2HuffmanOutgoing_h
 "
 "
 "

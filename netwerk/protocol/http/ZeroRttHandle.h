@@ -1219,8 +1219,6 @@ private
 ZeroRttHandle
 (
 )
-=
-default
 ;
 /
 /

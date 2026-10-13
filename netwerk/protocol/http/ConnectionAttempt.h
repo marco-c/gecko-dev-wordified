@@ -500,12 +500,7 @@ void
 ForgetRealTransaction
 (
 )
-{
-mTransaction
-=
-nullptr
 ;
-}
 protected
 :
 virtual
