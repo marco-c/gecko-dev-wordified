@@ -290,6 +290,13 @@ DoEndDocument
 (
 )
 ;
+nsresult
+PrintPDFViaPrintSession
+(
+CFURLRef
+aPDFURL
+)
+;
 }
 ;
 #
