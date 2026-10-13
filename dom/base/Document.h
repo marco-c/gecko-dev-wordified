@@ -17785,6 +17785,14 @@ mHasDisplayDocument
 !
 aDisplayDocument
 ;
+mIsBeingUsedAsImage
+|
+=
+aDisplayDocument
+-
+>
+mIsBeingUsedAsImage
+;
 }
 /
 *
