@@ -291,6 +291,13 @@ sidebarLauncher
 .
 updateComplete
 ;
+await
+SidebarController
+.
+waitUntilStable
+(
+)
+;
 }
 Assert
 .
@@ -1387,6 +1394,13 @@ await
 sidebar
 .
 updateComplete
+;
+await
+SidebarController
+.
+waitUntilStable
+(
+)
 ;
 ok
 (
