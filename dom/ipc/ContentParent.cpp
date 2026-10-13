@@ -35136,8 +35136,10 @@ return
 nullptr
 ;
 }
+nsCOMPtr
+<
 nsIPrincipal
-*
+>
 topPrincipal
 =
 aTopLevelPrincipal
@@ -35148,11 +35150,7 @@ if
 topPrincipal
 )
 {
-nsCOMPtr
-<
-nsIPrincipal
->
-principal
+topPrincipal
 =
 tp
 -
@@ -35160,10 +35158,6 @@ tp
 GetContentPrincipal
 (
 )
-;
-topPrincipal
-=
-principal
 ;
 }
 return
