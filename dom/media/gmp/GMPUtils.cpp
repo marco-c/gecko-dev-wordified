@@ -1278,6 +1278,14 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+NS_IsMainThread
+(
+)
+)
+;
 for
 (
 const
