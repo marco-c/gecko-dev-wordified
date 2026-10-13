@@ -729,8 +729,10 @@ return
 macModifiers
 ;
 }
+already_AddRefed
+<
 nsMenuBarX
-*
+>
 nsMenuUtilsX
 :
 :

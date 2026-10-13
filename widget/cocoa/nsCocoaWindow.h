@@ -3039,8 +3039,10 @@ nsMenuBarX
 aMenuBar
 )
 ;
+already_AddRefed
+<
 nsMenuBarX
-*
+>
 GetMenuBar
 (
 )
