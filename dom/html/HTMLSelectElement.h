@@ -2552,13 +2552,6 @@ SelectedIndex
 )
 ;
 }
-void
-ResetListBoxSelection
-(
-bool
-aAllowScrolling
-)
-;
 protected
 :
 virtual
@@ -2571,6 +2564,11 @@ HTMLSelectElement
 /
 Helper
 Methods
+void
+ResetListBoxSelection
+(
+)
+;
 /
 *
 *
