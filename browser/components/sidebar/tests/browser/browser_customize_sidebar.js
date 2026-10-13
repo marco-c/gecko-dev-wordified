@@ -3072,13 +3072,6 @@ true
 }
 )
 ;
-await
-SidebarController
-.
-waitUntilStable
-(
-)
-;
 const
 panel
 =

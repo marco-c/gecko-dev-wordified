@@ -584,13 +584,6 @@ await
 promiseClosed
 ;
 await
-SidebarController
-.
-waitUntilStable
-(
-)
-;
-await
 SidebarTestUtils
 .
 ensureLauncherVisible
