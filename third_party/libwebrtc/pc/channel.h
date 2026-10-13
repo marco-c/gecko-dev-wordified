@@ -978,6 +978,12 @@ enable
 )
 override
 ;
+void
+EnableSframe
+(
+)
+override
+;
 const
 std
 :

@@ -365,6 +365,17 @@ override
 ;
 MOCK_METHOD
 (
+void
+EnableSframe
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
 RTCError
 SetLocalContent
 (

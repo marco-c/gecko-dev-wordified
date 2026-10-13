@@ -331,6 +331,17 @@ override
 ;
 MOCK_METHOD
 (
+void
+EnableSframe
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
 bool
 SetOutputVolume
 (
