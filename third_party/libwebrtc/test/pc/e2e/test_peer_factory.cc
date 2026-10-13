@@ -932,13 +932,10 @@ audio_config
 -
 >
 input_file_name
-/
-*
+audio_config
+-
+>
 repeat
-=
-*
-/
-true
 )
 ;
 }
