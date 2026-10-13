@@ -29171,6 +29171,7 @@ supportedLocales
 "
 "
 en
+fr
 "
 )
 ;
