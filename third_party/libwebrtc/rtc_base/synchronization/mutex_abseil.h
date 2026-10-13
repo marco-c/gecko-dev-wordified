@@ -171,7 +171,11 @@ Lock
 )
 ;
 }
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (

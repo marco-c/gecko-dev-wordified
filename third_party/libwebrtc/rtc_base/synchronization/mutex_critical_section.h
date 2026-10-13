@@ -275,7 +275,11 @@ critical_section_
 )
 ;
 }
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (

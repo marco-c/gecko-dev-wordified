@@ -202,7 +202,11 @@ SCContentSharingPicker
 sharedPicker
 ;
 }
-ABSL_MUST_USE_RESULT
+[
+[
+nodiscard
+]
+]
 std
 :
 :
