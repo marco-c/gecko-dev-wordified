@@ -86,7 +86,7 @@ true
 ;
 /
 /
-Iniitally
+Initially
 we
 expect
 the
@@ -222,14 +222,13 @@ the
 mark
 color
 to
+still
 be
-gray
+/
+/
+black
 in
-/
-/
-*
 both
-*
 zones
 .
 grayRoot
@@ -263,7 +262,7 @@ this
 index
 )
 '
-gray
+black
 '
 )
 ;
@@ -275,7 +274,7 @@ other
 index
 )
 '
-gray
+black
 '
 )
 ;

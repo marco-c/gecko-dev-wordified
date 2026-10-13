@@ -28099,13 +28099,6 @@ grayBitsValid
 =
 false
 ;
-atomReferences
-.
-unmarkAllGrayReferences
-(
-this
-)
-;
 }
 void
 GCRuntime
