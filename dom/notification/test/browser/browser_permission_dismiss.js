@@ -567,8 +567,6 @@ requireuserinteraction
 false
 )
 ;
-SimpleTest
-.
 registerCleanupFunction
 (
 (
