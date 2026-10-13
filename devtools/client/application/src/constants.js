@@ -202,6 +202,13 @@ session
 -
 history
 "
+SPECULATIVE_LOADS
+:
+"
+speculative
+-
+loads
+"
 }
 ;
 const
