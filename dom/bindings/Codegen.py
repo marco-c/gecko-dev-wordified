@@ -99816,12 +99816,37 @@ obj
 )
 ;
               
-JS_MarkCrossZoneId
+JS
+:
+:
+Rooted
+<
+jsid
+>
+wrappedId
 (
 cx
 id
 )
 ;
+              
+if
+(
+!
+JS_WrapId
+(
+cx
+&
+wrappedId
+)
+)
+{
+                
+return
+false
+;
+              
+}
               
 JS
 :
@@ -99855,7 +99880,7 @@ DoResolve
 (
 cx
 obj
-id
+wrappedId
 &
 objDesc
 )
@@ -99957,7 +99982,7 @@ JS_DefinePropertyById
 (
 cx
 obj
-id
+wrappedId
 defineDesc
 )
 )
@@ -107679,6 +107704,7 @@ proxy
             
 Argument
 (
+                
 "
 JS
 :
@@ -107688,9 +107714,21 @@ Handle
 jsid
 >
 "
+                
+"
+idArg
+"
+if
+descriptor
+.
+isMaybeCrossOriginObject
+(
+)
+else
 "
 id
 "
+            
 )
             
 Argument
@@ -107807,6 +107845,20 @@ dedent
 "
 "
                 
+JS
+:
+:
+Rooted
+<
+jsid
+>
+id
+(
+cx
+idArg
+)
+;
+                
 if
 (
 !
@@ -107852,12 +107904,23 @@ proxy
 )
 ;
                 
-JS_MarkCrossZoneId
+if
+(
+!
+JS_WrapId
 (
 cx
+&
 id
 )
+)
+{
+                  
+return
+false
 ;
+                
+}
                 
 "
 "
@@ -109121,20 +109184,44 @@ addExpandoProps
                 
 for
 (
-auto
-&
-id
-:
+size_t
+i
+=
+0
+;
+i
+<
 props
+.
+length
+(
+)
+;
+i
++
++
 )
 {
                   
-JS_MarkCrossZoneId
+if
+(
+!
+JS_WrapId
 (
 cx
-id
+props
+[
+i
+]
 )
+)
+{
+                    
+return
+false
 ;
+                  
+}
                 
 }
                 
@@ -109250,6 +109337,7 @@ proxy
             
 Argument
 (
+                
 "
 JS
 :
@@ -109259,9 +109347,21 @@ Handle
 jsid
 >
 "
+                
+"
+idArg
+"
+if
+descriptor
+.
+isMaybeCrossOriginObject
+(
+)
+else
 "
 id
 "
+            
 )
             
 Argument
@@ -109333,6 +109433,20 @@ dedent
 "
 "
 "
+                
+JS
+:
+:
+Rooted
+<
+jsid
+>
+id
+(
+cx
+idArg
+)
+;
                 
 if
 (
@@ -109439,12 +109553,23 @@ proxy
 )
 ;
                 
-JS_MarkCrossZoneId
+if
+(
+!
+JS_WrapId
 (
 cx
+&
 id
 )
+)
+{
+                  
+return
+false
 ;
+                
+}
                 
 "
 "
@@ -109985,6 +110110,7 @@ receiver
             
 Argument
 (
+                
 "
 JS
 :
@@ -109994,9 +110120,21 @@ Handle
 jsid
 >
 "
+                
+"
+idArg
+"
+if
+descriptor
+.
+isMaybeCrossOriginObject
+(
+)
+else
 "
 id
 "
+            
 )
             
 Argument
@@ -110317,6 +110455,20 @@ here
 )
 ;
                 
+JS
+:
+:
+Rooted
+<
+jsid
+>
+id
+(
+cx
+idArg
+)
+;
+                
 if
 (
 !
@@ -110402,12 +110554,23 @@ false
                   
 }
                   
-JS_MarkCrossZoneId
+if
+(
+!
+JS_WrapId
 (
 cx
+&
 id
 )
+)
+{
+                    
+return
+false
 ;
+                  
+}
                   
 *
 {
@@ -113492,12 +113655,37 @@ proxy
 )
 ;
                 
-JS_MarkCrossZoneId
+JS
+:
+:
+Rooted
+<
+jsid
+>
+wrappedId
 (
 cx
 id
 )
 ;
+                
+if
+(
+!
+JS_WrapId
+(
+cx
+&
+wrappedId
+)
+)
+{
+                  
+return
+false
+;
+                
+}
                 
 /
 /
@@ -113580,7 +113768,7 @@ getOwnPropertyDescriptor
 (
 cx
 proxy
-id
+wrappedId
 desc
 )
 )
@@ -114321,12 +114509,37 @@ false
             
 }
             
-JS_MarkCrossZoneId
+JS
+:
+:
+Rooted
+<
+jsid
+>
+wrappedId
 (
 cx
 id
 )
 ;
+            
+if
+(
+!
+JS_WrapId
+(
+cx
+&
+wrappedId
+)
+)
+{
+              
+return
+false
+;
+            
+}
             
 return
 dom
@@ -114339,7 +114552,7 @@ set
 (
 cx
 proxy
-id
+wrappedId
 wrappedValue
 wrappedReceiver
 result
