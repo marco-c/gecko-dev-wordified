@@ -8825,7 +8825,10 @@ AddScriptRunner
 (
 NewRunnableMethod
 <
-bool
+PresShell
+:
+:
+MobileViewportManagerUpdate
 >
 (
 "
@@ -8840,7 +8843,13 @@ PresShell
 :
 :
 MaybeRecreateMobileViewportManager
-true
+PresShell
+:
+:
+MobileViewportManagerUpdate
+:
+:
+ManagerTypeMayChange
 )
 )
 ;
