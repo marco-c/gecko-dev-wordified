@@ -1007,7 +1007,7 @@ settings
 /
 panel
 .
-js
+mjs
 "
 )
 ;
@@ -1015,6 +1015,8 @@ return
 new
 SettingsPanel
 (
+iframeWindow
+toolbox
 )
 ;
 }
