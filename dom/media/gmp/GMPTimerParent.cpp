@@ -215,10 +215,7 @@ IPC_OK
 nsresult
 rv
 ;
-UniquePtr
-<
-Context
->
+auto
 ctx
 =
 std

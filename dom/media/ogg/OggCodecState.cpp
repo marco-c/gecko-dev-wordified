@@ -10407,10 +10407,7 @@ msgHead
 =
 msgProbe
 ;
-UniquePtr
-<
-MessageField
->
+auto
 field
 =
 std

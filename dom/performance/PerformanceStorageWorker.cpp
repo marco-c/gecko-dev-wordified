@@ -618,10 +618,7 @@ performanceTimingData
 return
 ;
 }
-UniquePtr
-<
-PerformanceProxyData
->
+auto
 data
 =
 std

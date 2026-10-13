@@ -104,16 +104,7 @@ char
 aResultData
 )
 {
-std
-:
-:
-unique_ptr
-<
-std
-:
-:
-string
->
+auto
 buf
 =
 std

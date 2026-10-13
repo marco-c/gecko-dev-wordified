@@ -1219,10 +1219,7 @@ Sort
 (
 )
 ;
-UniquePtr
-<
-nsCString
->
+auto
 completionStr
 =
 std
@@ -1824,10 +1821,7 @@ if
 count
 )
 {
-UniquePtr
-<
-nsCString
->
+auto
 prefixes
 =
 std
@@ -2807,10 +2801,7 @@ stringLength
 /
 prefixSize
 ;
-UniquePtr
-<
-nsCString
->
+auto
 vlPrefixes
 =
 std

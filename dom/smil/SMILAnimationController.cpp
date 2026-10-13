@@ -2426,13 +2426,7 @@ Create
 the
 compositor
 table
-std
-:
-:
-unique_ptr
-<
-SMILCompositorTable
->
+auto
 currentCompositorTable
 =
 std

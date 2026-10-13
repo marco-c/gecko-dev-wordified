@@ -1114,10 +1114,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-UniquePtr
-<
-PrincipalInfo
->
+auto
 principalInfo
 =
 std

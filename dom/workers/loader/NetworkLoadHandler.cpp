@@ -3182,10 +3182,7 @@ channelPrincipal
 )
 )
 ;
-UniquePtr
-<
-PrincipalInfo
->
+auto
 principalInfo
 =
 std

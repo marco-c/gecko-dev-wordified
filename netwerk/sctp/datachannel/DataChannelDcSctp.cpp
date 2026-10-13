@@ -1619,13 +1619,7 @@ this
 )
 )
 ;
-std
-:
-:
-unique_ptr
-<
-MediaPacket
->
+auto
 packet
 =
 std

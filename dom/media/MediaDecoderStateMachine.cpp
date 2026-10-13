@@ -24855,10 +24855,7 @@ OnTaskQueue
 )
 )
 ;
-UniquePtr
-<
-AudioSink
->
+auto
 audioSink
 =
 std

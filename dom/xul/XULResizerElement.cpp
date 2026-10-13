@@ -2166,10 +2166,7 @@ NS_PROPTABLE_PROP_NOT_THERE
 return
 ;
 }
-UniquePtr
-<
-SizeInfo
->
+auto
 sizeInfo
 =
 std

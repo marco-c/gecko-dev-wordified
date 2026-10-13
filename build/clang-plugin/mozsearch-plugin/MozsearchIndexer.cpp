@@ -2222,13 +2222,7 @@ Filename
 ;
 }
 }
-std
-:
-:
-unique_ptr
-<
-FileInfo
->
+auto
 Info
 =
 std

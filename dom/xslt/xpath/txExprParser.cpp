@@ -2408,10 +2408,7 @@ Token
 L_BRACKET
 )
 {
-UniquePtr
-<
-FilterExpr
->
+auto
 filterExpr
 =
 std
@@ -4067,10 +4064,7 @@ PathExpr
 containing
 several
 steps
-UniquePtr
-<
-PathExpr
->
+auto
 pathExpr
 =
 std
@@ -4330,10 +4324,7 @@ return
 NS_OK
 ;
 }
-UniquePtr
-<
-UnionExpr
->
+auto
 unionExpr
 =
 std
