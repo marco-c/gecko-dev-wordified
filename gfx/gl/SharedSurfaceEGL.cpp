@@ -1709,6 +1709,14 @@ IsValid
 const
 {
 return
+SharedSurface
+:
+:
+IsValid
+(
+)
+&
+&
 !
 mSurface
 -
