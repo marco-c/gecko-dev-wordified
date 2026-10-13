@@ -2655,7 +2655,7 @@ mozilla
 TaskController
 :
 :
-SetupMemoryCleanup
+SetupIdleMemoryCleanup
 (
 )
 ;

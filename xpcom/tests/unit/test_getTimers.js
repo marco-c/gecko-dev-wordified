@@ -182,7 +182,7 @@ anytime
 randomly
 .
 "
-MemoryCleanupWantsLaterCheck
+IdleMemoryCleanupWantsLaterCheck
 "
 /
 /
@@ -196,7 +196,7 @@ nsThread
 ProcessNextEvent
 may
 call
-MayScheduleMemoryCleanup
+MayScheduleIdleMemoryCleanup
 .
 "
 dom
