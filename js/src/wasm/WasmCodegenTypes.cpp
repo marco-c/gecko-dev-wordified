@@ -1519,9 +1519,6 @@ RequestTierUpStub
 case
 UpdateCallRefMetricsStub
 :
-case
-ReturnCallTrampoline
-:
 break
 ;
 default
