@@ -6655,7 +6655,11 @@ JsepSession
 &
 session
 ComponentType
+/
+*
 maxComponent
+*
+/
 =
 RTCP
 )

@@ -174,7 +174,11 @@ Update
 (
 auto
 &
+/
+*
 aControl
+*
+/
 )
 {
 mAudioConduit

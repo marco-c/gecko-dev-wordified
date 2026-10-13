@@ -110,7 +110,11 @@ webrtc
 :
 :
 SetParametersCallback
+/
+*
 callback
+*
+/
 )
 {
 mCallWrapper
@@ -242,7 +246,11 @@ webrtc
 :
 :
 SetParametersCallback
+/
+*
 callback
+*
+/
 )
 {
 ReconfigureVideoEncoder
@@ -274,7 +282,11 @@ webrtc
 VideoFrame
 >
 *
+/
+*
 source
+*
+/
 const
 webrtc
 :
