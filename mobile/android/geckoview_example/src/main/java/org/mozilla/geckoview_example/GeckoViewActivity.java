@@ -13560,6 +13560,13 @@ GeckoSession
 session
 )
 {
+PipSessionHolder
+.
+closeWindowFor
+(
+session
+)
+;
 Log
 .
 e
@@ -13589,6 +13596,13 @@ GeckoSession
 session
 )
 {
+PipSessionHolder
+.
+closeWindowFor
+(
+session
+)
+;
 TabSession
 tabSession
 =
