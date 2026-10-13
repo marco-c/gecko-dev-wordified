@@ -71,6 +71,12 @@ responses
 )
 :
     
+push_schedules
+.
+cache_clear
+(
+)
+    
 branch
 =
 (
@@ -242,10 +248,13 @@ status
 )
     
 assert
-len
-(
 push_schedules
+.
+cache_info
+(
 )
+.
+currsize
 =
 =
 0
@@ -350,10 +359,13 @@ label4
 }
     
 assert
-len
-(
 push_schedules
+.
+cache_info
+(
 )
+.
+currsize
 =
 =
 1
@@ -361,7 +373,7 @@ push_schedules
 #
 Value
 is
-memoized
+cached
 .
     
 responses
@@ -377,10 +389,13 @@ rev
 )
     
 assert
-len
-(
 push_schedules
+.
+cache_info
+(
 )
+.
+currsize
 =
 =
 1
