@@ -5026,8 +5026,10 @@ able
 to
 submit
 .
+RefPtr
+<
 Document
-*
+>
 doc
 =
 GetComposedDoc
