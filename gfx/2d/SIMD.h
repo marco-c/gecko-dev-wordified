@@ -102,6 +102,16 @@ h
 >
 #
 endif
+#
+include
+<
+cmath
+>
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {
