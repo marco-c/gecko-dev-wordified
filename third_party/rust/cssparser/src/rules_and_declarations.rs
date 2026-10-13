@@ -3209,7 +3209,7 @@ self
 .
 input
 .
-next_byte
+next_byte_before_delimiter
 (
 )
 ?
@@ -3730,7 +3730,7 @@ at_keyword
 if
 input
 .
-next_byte
+next_byte_before_delimiter
 (
 )
 =
