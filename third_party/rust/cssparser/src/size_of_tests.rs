@@ -330,7 +330,7 @@ parser
 :
 :
 Parser
-168
+152
 )
 ;
 size_of_test
@@ -352,7 +352,7 @@ crate
 :
 :
 ParserState
-24
+16
 )
 ;
 size_of_test
