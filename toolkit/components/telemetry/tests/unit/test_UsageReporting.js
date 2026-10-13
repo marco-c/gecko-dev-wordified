@@ -649,6 +649,7 @@ channel
 const
 testIsDefault
 =
+await
 ClientEnvironmentBase
 .
 isDefaultBrowser
