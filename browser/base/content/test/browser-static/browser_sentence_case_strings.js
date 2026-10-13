@@ -217,6 +217,11 @@ and
 Themes
 "
 "
+Extensions
+for
+Developers
+"
+"
 Find
 in
 Page
@@ -225,6 +230,12 @@ Page
 Help
 and
 Report
+"
+"
+Share
+Ideas
+and
+Feedback
 "
 "
 Troubleshoot
