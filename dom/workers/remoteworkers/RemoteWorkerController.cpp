@@ -409,6 +409,14 @@ AssertIsOnBackgroundThread
 MOZ_ASSERT
 (
 !
+IsTerminated
+(
+)
+)
+;
+MOZ_ASSERT
+(
+!
 mActor
 )
 ;
