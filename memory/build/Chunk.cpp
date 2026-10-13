@@ -2924,6 +2924,9 @@ return
 true
 ;
 }
+#
+ifndef
+XP_WIN
 /
 /
 Purge
@@ -2980,6 +2983,8 @@ length
 )
 ;
 }
+#
+endif
 /
 /
 pages_trim
