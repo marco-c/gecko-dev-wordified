@@ -3750,7 +3750,8 @@ FilterOp
 SVGFEDisplacementMap
 {
 node
-scale
+scale_x
+scale_y
 x_channel_selector
 y_channel_selector
 }
@@ -3771,7 +3772,8 @@ FilterGraphOp
 :
 SVGFEDisplacementMap
 {
-scale
+scale_x
+scale_y
 x_channel_selector
 y_channel_selector
 }

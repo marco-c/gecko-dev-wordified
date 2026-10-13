@@ -7208,6 +7208,11 @@ FilterOp
 SVGFEDisplacementMap
 {
 node
+scale_x
+:
+scale
+scale_y
+:
 scale
 x_channel_selector
 y_channel_selector

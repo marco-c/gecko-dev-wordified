@@ -3172,7 +3172,9 @@ SetAttribute
 (
 uint32_t
 aIndex
-Float
+const
+Size
+&
 aScale
 )
 override
@@ -3258,7 +3260,7 @@ IntRect
 aDestOrSourceRect
 )
 ;
-Float
+Size
 mScale
 ;
 ColorChannel

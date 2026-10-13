@@ -860,7 +860,7 @@ default
 struct
 DisplacementMapAttributes
 {
-float
+Size
 mScale
 ;
 SVGChannel
