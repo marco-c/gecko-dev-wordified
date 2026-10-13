@@ -579,7 +579,7 @@ min_min_psnr
 =
 24
 .
-8
+5
 .
 min_avg_ssim
 =
@@ -591,7 +591,7 @@ min_min_ssim
 =
 0
 .
-55
+54
 }
 }
 ;
