@@ -4289,6 +4289,14 @@ textNode
 )
 ;
 }
+rangesToDelete
+.
+MaybeExtendAnchorFocusRangeToDeleteAdjacentWhiteSpace
+(
+*
+this
+)
+;
 Result
 <
 CaretPoint
