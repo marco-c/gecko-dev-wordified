@@ -368,7 +368,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location

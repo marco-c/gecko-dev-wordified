@@ -7193,7 +7193,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location

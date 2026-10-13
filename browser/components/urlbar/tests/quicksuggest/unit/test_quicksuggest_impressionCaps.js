@@ -15201,7 +15201,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location

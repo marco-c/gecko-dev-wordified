@@ -1995,7 +1995,7 @@ source
 "
 ;
 }
-window
+browserWindow
 :
 {
 location

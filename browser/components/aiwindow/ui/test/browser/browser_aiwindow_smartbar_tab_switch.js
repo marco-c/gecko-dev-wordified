@@ -100,7 +100,7 @@ this
 .
 input
 .
-window
+browserWindow
 .
 *
 /

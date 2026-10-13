@@ -257,7 +257,7 @@ input
 :
 {
 isPrivate
-window
+browserWindow
 :
 {
 location
