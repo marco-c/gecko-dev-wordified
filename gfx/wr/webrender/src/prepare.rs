@@ -3074,6 +3074,9 @@ _
 )
 surface
 prim_spatial_node_index
+pic_context
+.
+shadow_offset
 allow_subpixel
 frame_context
 .
