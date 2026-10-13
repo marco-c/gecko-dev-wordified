@@ -3491,6 +3491,7 @@ phys_dev
 vkFormat
 compositorMods
 aImageUsages
+mCodecID
 )
 ;
 }

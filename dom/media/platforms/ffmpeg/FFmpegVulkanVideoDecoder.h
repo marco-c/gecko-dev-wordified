@@ -769,6 +769,10 @@ VkImageUsageFlags
 aImageUsages
 =
 0
+AVCodecID
+aCodecID
+=
+AV_CODEC_ID_NONE
 )
 ;
 bool
@@ -813,6 +817,11 @@ mNegotiatedCompositorDecoderVendorID
 ;
 uint32_t
 mNegotiatedCompositorDecoderDeviceID
+=
+0
+;
+uint32_t
+mVulkanDriverVersion
 =
 0
 ;
