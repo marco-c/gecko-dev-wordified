@@ -347,7 +347,7 @@ mTransactions
 ;
 nsTHashMap
 <
-ThreadSafeWeakPtrHashKey
+ThreadSafeWeakPtr
 <
 BlobImpl
 >
