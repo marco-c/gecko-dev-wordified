@@ -4218,6 +4218,13 @@ there
 if
 (
 current
+|
+|
+importantState
+!
+=
+=
+IMPORTANT_STATE_NONE
 )
 {
 /
