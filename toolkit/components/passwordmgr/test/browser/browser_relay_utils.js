@@ -1214,9 +1214,9 @@ scenarioName
 ;
 Services
 .
-fog
+telemetry
 .
-testResetFOG
+clearEvents
 (
 )
 ;
