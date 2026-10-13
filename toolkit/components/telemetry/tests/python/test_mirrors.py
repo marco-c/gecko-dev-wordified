@@ -274,16 +274,6 @@ WEAKER_EVENT_COMPATIBILITY_PROBES
 [
     
 "
-security
-.
-ui
-.
-protectionspopup
-#
-click
-"
-    
-"
 intl
 .
 ui
