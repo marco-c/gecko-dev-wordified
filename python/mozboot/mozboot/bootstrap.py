@@ -2566,24 +2566,16 @@ checkout_root
 mach
 "
         
-try
-:
-            
-subprocess
-.
-check_call
-(
-(
-                
+args
+=
+[
 sys
 .
 executable
-                
 str
 (
 mach_binary
 )
-                
 "
 install
 -
@@ -2591,8 +2583,39 @@ moz
 -
 phab
 "
+]
+        
+if
+self
+.
+instance
+.
+no_system_changes
+:
             
+args
+.
+append
+(
+"
+-
+-
+no
+-
+system
+-
+changes
+"
 )
+        
+try
+:
+            
+subprocess
+.
+check_call
+(
+args
 )
         
 except
@@ -3231,6 +3254,7 @@ state_dir
 )
         
 if
+not
 self
 .
 instance
@@ -3240,38 +3264,12 @@ no_system_changes
             
 self
 .
-maybe_install_private_packages_or_exit
-(
-                
-application
-checkout_type
-mozconfig_builder
-            
-)
-            
-self
-.
-_output_mozconfig
-(
-application
-mozconfig_builder
-)
-            
-sys
-.
-exit
-(
-0
-)
-        
-self
-.
 instance
 .
 install_system_packages
 (
 )
-        
+            
 #
 Like
 '
@@ -3282,7 +3280,7 @@ or
 install_mobile_android_packages
 '
 .
-        
+            
 getattr
 (
 self
@@ -3297,7 +3295,9 @@ s_packages
 application
 )
 (
+                
 mozconfig_builder
+            
 )
         
 if
@@ -3361,6 +3361,13 @@ checkout_type
 "
 hg
 "
+and
+not
+self
+.
+instance
+.
+no_system_changes
 :
             
 hg_installed
@@ -3424,7 +3431,16 @@ repo
 .
 configure
 (
+                    
 state_dir
+no_system_changes
+=
+self
+.
+instance
+.
+no_system_changes
+                
 )
         
 #
@@ -3508,7 +3524,16 @@ repo
 .
 configure
 (
+                    
 state_dir
+no_system_changes
+=
+self
+.
+instance
+.
+no_system_changes
+                
 )
         
 self

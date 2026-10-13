@@ -5488,15 +5488,25 @@ False
 def
 configure
 (
+        
 self
+        
 state_dir
 :
 Path
+        
 update_only
 :
 bool
 =
 False
+        
+no_system_changes
+:
+bool
+=
+False
+    
 )
 :
         
@@ -5549,6 +5559,9 @@ configure
 (
 state_dir
 update_only
+no_system_changes
+=
+no_system_changes
 )
         
 topsrcdir
