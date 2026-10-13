@@ -1489,13 +1489,6 @@ pt_mapper
 SuggestMapping
 (
 codec
-/
-*
-excluder
-=
-*
-/
-nullptr
 )
 ;
 if
@@ -1603,13 +1596,6 @@ pt_mapper
 SuggestMapping
 (
 rtx_codec
-/
-*
-excluder
-=
-*
-/
-nullptr
 )
 ;
 if

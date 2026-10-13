@@ -2954,7 +2954,6 @@ pt_mapper
 SuggestMapping
 (
 codec
-nullptr
 )
 ;
 /
@@ -3239,7 +3238,6 @@ pt_mapper
 SuggestMapping
 (
 red_codec
-nullptr
 )
 .
 value
@@ -3359,7 +3357,6 @@ pt_mapper
 SuggestMapping
 (
 cn_codec
-nullptr
 )
 .
 value
@@ -3430,7 +3427,6 @@ pt_mapper
 SuggestMapping
 (
 dtmf_codec
-nullptr
 )
 .
 value
