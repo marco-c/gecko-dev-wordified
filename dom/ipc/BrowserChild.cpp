@@ -19736,8 +19736,10 @@ true
 ;
 nsTArray
 <
+RefPtr
+<
 PContentPermissionRequestChild
-*
+>
 >
 childArray
 =
@@ -19785,6 +19787,10 @@ RemotePermissionRequest
 >
 (
 permissionRequestChild
+.
+get
+(
+)
 )
 ;
 child

@@ -5019,8 +5019,10 @@ PBrowser
 ?
 nsTArray
 <
+RefPtr
+<
 PContentPermissionRequestParent
-*
+>
 >
 parentArray
 =
