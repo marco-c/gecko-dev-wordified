@@ -611,20 +611,6 @@ s
 "
 -
 -
-log
--
-testsummary
-=
-%
-(
-test_summary_file
-)
-s
-"
-                
-"
--
--
 screenshot
 -
 on
@@ -679,6 +665,12 @@ runtests
 .
 py
 "
+            
+"
+test_summary
+"
+:
+True
             
 "
 testsdir
@@ -879,20 +871,6 @@ s
 "
 -
 -
-log
--
-testsummary
-=
-%
-(
-test_summary_file
-)
-s
-"
-                
-"
--
--
 utility
 -
 path
@@ -913,6 +891,12 @@ runxpcshelltests
 .
 py
 "
+            
+"
+test_summary
+"
+:
+True
             
 "
 testsdir
