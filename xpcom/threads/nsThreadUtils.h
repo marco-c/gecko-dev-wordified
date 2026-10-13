@@ -7264,7 +7264,11 @@ TimedOut
 (
 nsITimer
 *
+/
+*
 aTimer
+*
+/
 void
 *
 aClosure

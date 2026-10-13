@@ -2698,6 +2698,11 @@ nsIFile
 *
 *
 aFile
+[
+[
+maybe_unused
+]
+]
 const
 nsACString
 &
