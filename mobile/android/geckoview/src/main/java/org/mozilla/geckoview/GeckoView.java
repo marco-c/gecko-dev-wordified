@@ -969,7 +969,7 @@ GeckoView
 .
 this
 .
-maybeSetActive
+setActive
 (
 true
 )
@@ -1006,7 +1006,7 @@ GeckoView
 .
 this
 .
-maybeSetActive
+setActive
 (
 false
 )
@@ -1111,7 +1111,7 @@ GeckoView
 .
 this
 .
-maybeSetActive
+setActive
 (
 true
 )
@@ -1151,7 +1151,7 @@ GeckoView
 .
 this
 .
-maybeSetActive
+setActive
 (
 false
 )
@@ -2923,7 +2923,7 @@ package
 *
 /
 void
-maybeSetActive
+setActive
 (
 final
 boolean
@@ -2940,7 +2940,7 @@ null
 {
 mSession
 .
-maybeSetActive
+setActive
 (
 active
 )
