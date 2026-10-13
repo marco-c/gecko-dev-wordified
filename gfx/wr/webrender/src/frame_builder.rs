@@ -1902,14 +1902,6 @@ pub
 struct
 PictureState
 {
-pub
-map_local_to_pic
-:
-SpaceMapper
-<
-LayoutPixel
-PicturePixel
->
 /
 /
 /
