@@ -895,6 +895,16 @@ AsyncPacketSocket
 socket
 )
 ;
+void
+OnSocketClose
+(
+AsyncPacketSocket
+*
+socket
+int
+error
+)
+;
 /
 /
 This
