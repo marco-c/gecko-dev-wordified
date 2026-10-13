@@ -41333,6 +41333,15 @@ PlaybackEnded
 (
 )
 {
+RefPtr
+<
+HTMLMediaElement
+>
+kungFuDeathGrip
+(
+this
+)
+;
 /
 /
 We
