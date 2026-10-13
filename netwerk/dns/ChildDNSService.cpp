@@ -631,7 +631,7 @@ aHost
 ;
 aHashKey
 .
-Assign
+Append
 (
 aTrrServer
 )
