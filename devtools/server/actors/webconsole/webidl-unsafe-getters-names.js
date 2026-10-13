@@ -98,9 +98,6 @@ containerName
 containerQuery
 "
 "
-fullScreen
-"
-"
 mozInputSource
 "
 "
