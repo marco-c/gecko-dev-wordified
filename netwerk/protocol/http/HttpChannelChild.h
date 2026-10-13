@@ -2213,10 +2213,15 @@ mCreateBackgroundChannelFailed
 =
 false
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mBgInitFailCallbackTriggered
-=
+{
 false
+}
 ;
 bool
 mCanSendAtCancel
