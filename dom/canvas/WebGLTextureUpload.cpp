@@ -6617,6 +6617,10 @@ get
 (
 )
 ;
+Truncate
+(
+)
+;
 return
 ;
 }
@@ -9530,6 +9534,10 @@ driver
 call
 .
 get
+(
+)
+;
+Truncate
 (
 )
 ;
