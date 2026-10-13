@@ -61418,6 +61418,16 @@ IncomingCapturedFrame
 frame
 )
 ;
+AdvanceTime
+(
+TimeDelta
+:
+:
+Zero
+(
+)
+)
+;
 video_stream_encoder_
 -
 >
