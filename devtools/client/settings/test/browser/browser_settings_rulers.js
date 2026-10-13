@@ -111,6 +111,13 @@ getCurrentPanel
 (
 )
 ;
+await
+panel
+.
+element
+.
+updateComplete
+;
 const
 checkbox
 =
