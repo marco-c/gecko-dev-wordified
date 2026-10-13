@@ -1246,3 +1246,15 @@ LICENSED_UNDER
 mit
 "
 ]
+SOURCE_HEADERS
++
+=
+[
+"
+moz
+-
+overrides
+.
+h
+"
+]
