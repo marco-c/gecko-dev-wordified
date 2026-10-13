@@ -655,8 +655,9 @@ public
 Wrapper
 (
 )
-{
-}
+=
+default
+;
 typename
 T
 :

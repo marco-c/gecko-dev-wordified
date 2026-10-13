@@ -93,8 +93,9 @@ virtual
 SdpAttributeList
 (
 )
-{
-}
+=
+default
+;
 typedef
 SdpAttribute
 :

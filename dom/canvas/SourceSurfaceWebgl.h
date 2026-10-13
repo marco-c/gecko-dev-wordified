@@ -369,15 +369,7 @@ GetTarget
 (
 )
 const
-{
-return
-mDT
-.
-get
-(
-)
 ;
-}
 SurfaceFormat
 mFormat
 =

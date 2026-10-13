@@ -65,6 +65,13 @@ WEBGLQUEUEPARAMTRAITS_H_
 #
 include
 "
+QueueParamTraits
+.
+h
+"
+#
+include
+"
 TexUnpackBlob
 .
 h
