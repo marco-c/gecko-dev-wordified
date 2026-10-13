@@ -1164,7 +1164,7 @@ mFocus
 float
 mSpan
 ;
-int
+uint32_t
 mPinchLockBufferMaxAge
 ;
 public
