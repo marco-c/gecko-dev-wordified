@@ -531,10 +531,6 @@ RTCEncodedFrameBase
 (
 )
 {
-DetachData
-(
-)
-;
 mozilla
 :
 :
