@@ -3964,6 +3964,15 @@ clamp
 )
 ;
 void
+ClipControlEXT
+(
+GLenum
+origin
+GLenum
+depth
+)
+;
+void
 ProvokingVertex
 (
 webgl
