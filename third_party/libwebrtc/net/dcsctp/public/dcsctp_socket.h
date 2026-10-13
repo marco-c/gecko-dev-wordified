@@ -126,17 +126,6 @@ include
 "
 absl
 /
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
 strings
 /
 string_view
@@ -2582,7 +2571,9 @@ this
 /
 callback
 .
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -2590,6 +2581,8 @@ OnTotalBufferedAmountLow
 instead
 "
 )
+]
+]
 virtual
 void
 NotifyOutgoingMessageBufferEmpty
@@ -5437,7 +5430,9 @@ SctpImplementation
 :
 kUnknown
 .
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 See
@@ -5448,6 +5443,8 @@ peer_implementation
 instead
 "
 )
+]
+]
 virtual
 SctpImplementation
 peer_implementation

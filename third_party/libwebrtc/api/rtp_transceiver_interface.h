@@ -111,17 +111,6 @@ vector
 #
 include
 "
-absl
-/
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
 api
 /
 media_types
@@ -1127,7 +1116,9 @@ remove
 default
 implementations
 .
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -1135,6 +1126,8 @@ SetDirectionWithError
 instead
 "
 )
+]
+]
 virtual
 void
 SetDirection
@@ -1515,7 +1508,9 @@ StopInternal
 (
 )
 ;
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -1523,6 +1518,8 @@ StopStandard
 instead
 "
 )
+]
+]
 virtual
 void
 Stop

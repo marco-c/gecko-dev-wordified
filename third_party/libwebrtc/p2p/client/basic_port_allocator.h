@@ -125,17 +125,6 @@ absl
 /
 base
 /
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
-base
-/
 nullability
 .
 h
@@ -1237,7 +1226,9 @@ in
 downstream
 projects
 .
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -1255,6 +1246,8 @@ instead
 !
 "
 )
+]
+]
 void
 ConfigReady
 (

@@ -116,17 +116,6 @@ vector
 #
 include
 "
-absl
-/
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
 api
 /
 transport
@@ -1411,7 +1400,9 @@ Zero
 (
 )
 ;
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 Use
@@ -1421,6 +1412,8 @@ HasPacketWithBleachedEct1
 instead
 "
 )
+]
+]
 bool
 transport_supports_ecn
 =

@@ -2963,7 +2963,9 @@ virtual
 .
 /
 *
-ABSL_DEPRECATED
+[
+[
+deprecated
 (
 "
 bugs
@@ -2975,6 +2977,8 @@ org
 10720
 "
 )
+]
+]
 *
 /
 virtual
