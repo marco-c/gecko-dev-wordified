@@ -161,17 +161,6 @@ set
 [
 [
 "
-permissions
-.
-manager
-.
-defaultsUrl
-"
-"
-"
-]
-[
-"
 network
 .
 lna

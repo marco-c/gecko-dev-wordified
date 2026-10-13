@@ -277,17 +277,6 @@ set
 [
 [
 "
-permissions
-.
-manager
-.
-defaultsUrl
-"
-"
-"
-]
-[
-"
 network
 .
 websocket
