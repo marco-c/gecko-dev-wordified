@@ -135,7 +135,7 @@ All
 function
 createRootMessageHandler
 (
-sessionId
+internalSessionId
 )
 {
 const
@@ -173,7 +173,7 @@ RootMessageHandlerRegistry
 .
 getOrCreateMessageHandler
 (
-sessionId
+internalSessionId
 )
 ;
 }

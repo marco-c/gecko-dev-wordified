@@ -187,7 +187,7 @@ TEST_PAGE
 )
 ;
 const
-sessionId
+internalSessionId
 =
 "
 sessionData
@@ -213,7 +213,7 @@ rootMessageHandlerRegistry
 .
 getOrCreateMessageHandler
 (
-sessionId
+internalSessionId
 )
 ;
 ok
@@ -349,7 +349,7 @@ sessionDataSnapshot
 .
 has
 (
-sessionId
+internalSessionId
 )
 )
 ;
@@ -360,7 +360,7 @@ sessionDataSnapshot
 .
 get
 (
-sessionId
+internalSessionId
 )
 ;
 ok
@@ -465,7 +465,7 @@ getSessionDataFromContent
 .
 get
 (
-sessionId
+internalSessionId
 )
 ;
 is
@@ -556,7 +556,7 @@ getSessionDataFromContent
 .
 get
 (
-sessionId
+internalSessionId
 )
 ;
 is
@@ -643,7 +643,7 @@ getSessionDataFromContent
 .
 get
 (
-sessionId
+internalSessionId
 )
 ;
 is
@@ -752,7 +752,7 @@ getSessionDataFromContent
 .
 get
 (
-sessionId
+internalSessionId
 )
 ;
 is
@@ -829,7 +829,7 @@ getSessionDataFromContent
 .
 get
 (
-sessionId
+internalSessionId
 )
 ;
 is
@@ -903,7 +903,7 @@ test_sessionDataRootOnlyModule
 )
 {
 const
-sessionId
+internalSessionId
 =
 "
 sessionData
@@ -918,7 +918,7 @@ rootMessageHandler
 =
 createRootMessageHandler
 (
-sessionId
+internalSessionId
 )
 ;
 ok
@@ -932,12 +932,13 @@ created
 "
 )
 ;
-await
 BrowserTestUtils
 .
-loadURIString
+startLoadingURIString
 (
 gBrowser
+.
+selectedBrowser
 "
 https
 :

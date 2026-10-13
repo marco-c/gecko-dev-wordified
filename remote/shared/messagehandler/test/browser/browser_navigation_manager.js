@@ -118,7 +118,7 @@ test_navigationManager
 )
 {
 const
-sessionId
+internalSessionId
 =
 "
 navigationManager
@@ -149,7 +149,7 @@ rootMessageHandlerRegistry
 .
 getOrCreateMessageHandler
 (
-sessionId
+internalSessionId
 )
 ;
 const
