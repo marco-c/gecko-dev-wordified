@@ -9440,6 +9440,9 @@ i
 2
                 
 while
+any
+(
+                    
 os
 .
 path
@@ -9453,8 +9456,23 @@ path
 join
 (
 upload_dir
-filename
+checked_filename
 )
+)
+                    
+for
+checked_filename
+in
+(
+filename
+filename
++
+"
+.
+gz
+"
+)
+                
 )
 :
                     
