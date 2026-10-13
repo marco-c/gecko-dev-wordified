@@ -116,17 +116,6 @@ include
 "
 absl
 /
-base
-/
-attributes
-.
-h
-"
-#
-include
-"
-absl
-/
 strings
 /
 string_view
@@ -148,7 +137,7 @@ depending
 on
 platform
 .
-ABSL_CONST_INIT
+constinit
 extern
 const
 absl
