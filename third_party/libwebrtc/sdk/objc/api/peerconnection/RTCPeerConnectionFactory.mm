@@ -795,17 +795,6 @@ RTCAudioDevice
 )
 audioDevice
 {
-#
-ifdef
-HAVE_NO_MEDIA
-return
-[
-self
-initWithNoMedia
-]
-;
-#
-else
 webrtc
 :
 :
@@ -934,8 +923,6 @@ initWithMediaAndDependencies
 dependencies
 ]
 ;
-#
-endif
 }
 -
 (
