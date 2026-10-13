@@ -340,6 +340,9 @@ JSString
 *
 GetSymbolDescription
 (
+JSContext
+*
+cx
 Handle
 <
 Symbol
