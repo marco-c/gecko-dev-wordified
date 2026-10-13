@@ -6229,8 +6229,6 @@ compression
 -
 unaligned
 '
-as
-GPUFeatureName
 )
 ;
 t

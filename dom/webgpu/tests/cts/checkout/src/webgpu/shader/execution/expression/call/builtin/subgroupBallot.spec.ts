@@ -1279,8 +1279,6 @@ skipIfDeviceDoesNotHaveFeature
 '
 subgroups
 '
-as
-GPUFeatureName
 )
 ;
 const
@@ -1498,8 +1496,6 @@ skipIfDeviceDoesNotHaveFeature
 '
 subgroups
 '
-as
-GPUFeatureName
 )
 ;
 const
@@ -2108,8 +2104,6 @@ skipIfDeviceDoesNotHaveFeature
 '
 subgroups
 '
-as
-GPUFeatureName
 )
 ;
 const
@@ -3642,8 +3636,6 @@ skipIfDeviceDoesNotHaveFeature
 '
 subgroups
 '
-as
-GPUFeatureName
 )
 ;
 const

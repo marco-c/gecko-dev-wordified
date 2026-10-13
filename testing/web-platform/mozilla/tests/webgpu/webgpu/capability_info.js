@@ -6354,7 +6354,6 @@ control
 :
 {
 }
-[
 '
 atomic
 -
@@ -6364,11 +6363,9 @@ min
 -
 max
 '
-]
 :
 {
 }
-[
 '
 texture
 -
@@ -6376,7 +6373,6 @@ compression
 -
 unaligned
 '
-]
 :
 {
 }
