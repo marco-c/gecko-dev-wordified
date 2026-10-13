@@ -797,6 +797,9 @@ GL_ARB_texture_compression_rgtc
 GL_ARB_texture_float
 "
 "
+GL_ARB_texture_mirror_clamp_to_edge
+"
+"
 GL_ARB_texture_non_power_of_two
 "
 "
@@ -936,6 +939,9 @@ GL_EXT_texture_filter_anisotropic
 "
 "
 GL_EXT_texture_format_BGRA8888
+"
+"
+GL_EXT_texture_mirror_clamp_to_edge
 "
 "
 GL_EXT_texture_norm16
