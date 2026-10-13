@@ -4284,10 +4284,8 @@ media
 /
 /
 and
-put
-it
-at
-session
+use
+media
 level
 otherwise
 .
@@ -4348,7 +4346,7 @@ MediaContentDescription
 AttributeLevel
 :
 :
-kSession
+kMedia
 )
 ;
 }
