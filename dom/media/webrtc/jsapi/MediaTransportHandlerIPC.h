@@ -560,12 +560,6 @@ friend
 class
 MediaTransportChild
 ;
-void
-Destroy
-(
-)
-override
-;
 virtual
 ~
 MediaTransportHandlerIPC
