@@ -123,7 +123,9 @@ searching
 *
 *
 import
+{
 MozInputSearch
+}
 from
 "
 chrome

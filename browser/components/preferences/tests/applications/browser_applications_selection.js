@@ -2,8 +2,8 @@
 *
 *
 import
-MozSelect
 {
+MozSelect
 MozOption
 }
 from
@@ -42,7 +42,9 @@ mjs
 *
 *
 import
+{
 MozBoxItem
+}
 from
 "
 .

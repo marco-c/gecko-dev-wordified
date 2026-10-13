@@ -60,7 +60,9 @@ MPL
 *
 *
 import
+{
 MozBoxItem
+}
 from
 '
 moz
@@ -132,7 +134,9 @@ mjs
 *
 *
 import
+{
 MozSelect
+}
 from
 '
 moz
@@ -165,7 +169,9 @@ mjs
 *
 *
 import
+{
 MozBoxGroup
+}
 from
 '
 chrome

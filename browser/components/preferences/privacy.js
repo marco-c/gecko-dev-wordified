@@ -60,7 +60,9 @@ MPL
 *
 *
 import
+{
 MozCheckbox
+}
 from
 "
 chrome
@@ -86,7 +88,9 @@ mjs
 *
 *
 import
+{
 MozMessageBar
+}
 from
 "
 chrome

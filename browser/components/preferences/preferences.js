@@ -183,7 +183,9 @@ js
 *
 *
 import
+{
 MozButton
+}
 from
 "
 chrome

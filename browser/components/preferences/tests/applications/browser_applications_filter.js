@@ -2,8 +2,8 @@
 *
 *
 import
-MozSelect
 {
+MozSelect
 MozOption
 }
 from
