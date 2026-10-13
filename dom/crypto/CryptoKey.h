@@ -1087,6 +1087,13 @@ const
 JsonWebKey
 &
 aJwk
+const
+nsString
+aAlgName
+=
+EmptyString
+(
+)
 )
 ;
 static
@@ -1109,6 +1116,13 @@ const
 JsonWebKey
 &
 aKeyData
+const
+nsString
+aAlgName
+=
+EmptyString
+(
+)
 )
 ;
 static
