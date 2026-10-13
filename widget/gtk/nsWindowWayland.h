@@ -309,6 +309,14 @@ ForceToplevelCommit
 (
 )
 ;
+void
+SetToplevelOpaqueRegion
+(
+cairo_region_t
+*
+aRegion
+)
+;
 protected
 :
 virtual
