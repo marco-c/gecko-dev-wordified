@@ -104,6 +104,15 @@ RegExpObject
 .
 h
 "
+#
+include
+"
+vm
+/
+TypedArrayObject
+.
+h
+"
 namespace
 js
 {

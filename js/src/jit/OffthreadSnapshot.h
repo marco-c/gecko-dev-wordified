@@ -330,8 +330,6 @@ ptr_
 ptr
 ;
 }
-private
-:
 void
 operator
 =

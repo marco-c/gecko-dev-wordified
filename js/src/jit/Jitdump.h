@@ -107,6 +107,11 @@ specification
 txt
 *
 /
+#
+include
+<
+cstdint
+>
 namespace
 js
 {

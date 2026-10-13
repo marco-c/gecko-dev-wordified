@@ -326,6 +326,12 @@ headerPtr
 headerSize_
 ;
 }
+JitCode
+(
+)
+=
+delete
+;
 protected
 :
 ExecutablePool
@@ -495,12 +501,6 @@ BaselineScript
 .
 uint8_t
 localTracingSlots_
-;
-JitCode
-(
-)
-=
-delete
 ;
 JitCode
 (
