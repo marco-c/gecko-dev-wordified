@@ -114,6 +114,11 @@ optional
 #
 include
 <
+set
+>
+#
+include
+<
 span
 >
 #
@@ -1097,6 +1102,8 @@ TimeDelta
 max_buffer_size
 TimeDelta
 target_buffer_size
+double
+max_intra_bitrate_factor
 )
 {
 settings_
@@ -1119,6 +1126,10 @@ max_buffer_size
 target_buffer_size
 =
 target_buffer_size
+.
+max_intra_bitrate_factor
+=
+max_intra_bitrate_factor
 }
 )
 ;
@@ -1496,7 +1507,7 @@ SupportedFrameTypes
 std
 :
 :
-vector
+set
 <
 VideoEncoderInterface
 :

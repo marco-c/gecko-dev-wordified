@@ -104,6 +104,11 @@ optional
 #
 include
 <
+set
+>
+#
+include
+<
 variant
 >
 #
@@ -410,6 +415,8 @@ TimeDelta
 max_buffer_size
 TimeDelta
 target_buffer_size
+double
+max_intra_bitrate_factor
 )
 ;
 StaticEncoderSettingsBuilder
@@ -519,7 +526,7 @@ SupportedFrameTypes
 std
 :
 :
-vector
+set
 <
 VideoEncoderInterface
 :
