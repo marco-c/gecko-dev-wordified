@@ -862,6 +862,14 @@ initialized
 continue
 ;
 }
+lastReachablePC_
+=
+it
+.
+toRawBytecode
+(
+)
+;
 uint32_t
 stackDepth
 =

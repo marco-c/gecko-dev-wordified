@@ -320,9 +320,7 @@ false
 }
 if
 (
-deoptLabel_
-.
-used
+needsDeoptLabel
 (
 )
 )
@@ -492,12 +490,8 @@ snapshotOffset
 )
 )
 ;
-masm
-.
-B
+jumpToDeoptLabel
 (
-&
-deoptLabel_
 )
 ;
 }
