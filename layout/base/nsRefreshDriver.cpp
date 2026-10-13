@@ -15841,8 +15841,12 @@ and
 send
 -
 events
-nsAutoMicroTask
+nsAutoMicroTaskForDocument
 mt
+(
+&
+aDoc
+)
 ;
 UpdateAndReduceAnimations
 (

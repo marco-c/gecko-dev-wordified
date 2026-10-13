@@ -1458,8 +1458,11 @@ script
 element
 .
 {
-nsAutoMicroTask
+nsAutoMicroTaskForDocument
 mt
+(
+mDocument
+)
 ;
 }
 bool
