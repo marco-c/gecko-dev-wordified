@@ -64,6 +64,8 @@ components
 feature
 .
 ipprotection
+.
+storage
 import
 kotlinx
 .
@@ -72,8 +74,21 @@ coroutines
 flow
 .
 Flow
+import
+mozilla
+.
+components
+.
+feature
+.
+ipprotection
+.
+store
+.
+state
+.
+EligibilityStatus
 /
-*
 *
 *
 Storage
@@ -92,7 +107,6 @@ interface
 IPProtectionEligibilityStorage
 {
 /
-*
 *
 *
 Emits
@@ -118,7 +132,6 @@ Flow
 EligibilityStatus
 >
 /
-*
 *
 *
 Initializes
