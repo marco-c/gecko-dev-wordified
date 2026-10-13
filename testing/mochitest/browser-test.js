@@ -383,6 +383,9 @@ expectAssertions
 "
 requestCompleteLog
 "
+"
+registerCleanupFunction
+"
 ]
 ;
 /
@@ -3583,9 +3586,6 @@ Application
 "
 "
 __SS_tabsToRestore
-"
-"
-__SSi
 "
 "
 webConsoleCommandController
