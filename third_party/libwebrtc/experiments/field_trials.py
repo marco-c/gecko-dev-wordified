@@ -4157,24 +4157,6 @@ FieldTrial
 '
 WebRTC
 -
-LegacyFrameIdJumpBehavior
-'
-               
-42223541
-               
-date
-(
-2024
-4
-1
-)
-)
-    
-FieldTrial
-(
-'
-WebRTC
--
 LegacySimulcastLayerLimit
 '
                
@@ -5175,7 +5157,7 @@ str
 \
     
 '
-6af303162ccd3db0d047e3dd57d8d6f80a277034
+c896c26970b042620c2ccc9b337aa2c958e9705c
 '
 REGISTERED_FIELD_TRIALS
 :
