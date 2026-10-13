@@ -9622,6 +9622,8 @@ emitStringToAtom
 (
 StringOperandId
 strId
+StringOperandId
+resultId
 )
 {
 MDefinition
@@ -9653,14 +9655,12 @@ add
 ins
 )
 ;
-setOperand
+return
+defineOperand
 (
-strId
+resultId
 ins
 )
-;
-return
-true
 ;
 }
 bool
