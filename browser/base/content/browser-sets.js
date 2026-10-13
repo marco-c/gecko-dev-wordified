@@ -1961,7 +1961,14 @@ SidebarController
 handleToolbarButtonClick
 (
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 Glean
 .
 sidebar
@@ -1983,6 +1990,9 @@ SidebarController
 _state
 .
 launcherExpanded
+}
+)
+;
 }
 )
 ;

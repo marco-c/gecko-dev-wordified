@@ -1653,6 +1653,7 @@ urlbar
 "
 )
 ;
+await
 SidebarController
 .
 toggle
