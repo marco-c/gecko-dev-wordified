@@ -715,13 +715,6 @@ defined
 (
 MOZ_LINKER
 )
-&
-&
-!
-defined
-(
-__ANDROID__
-)
 /
 /
 Don
