@@ -110,7 +110,7 @@ a
 per
 file
 basis
-command
+arguments
 in
 #
 objdir

@@ -77,12 +77,6 @@ path
 as
 mozpath
 from
-mozshellutil
-import
-quote
-as
-shell_quote
-from
 mozbuild
 .
 backend
@@ -1044,14 +1038,10 @@ directory
 directory
                 
 "
-command
+arguments
 "
 :
-shell_quote
-(
-*
 c
-)
                 
 "
 file
