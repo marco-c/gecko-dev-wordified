@@ -2122,8 +2122,8 @@ return
 cargo
     
 #
-A
-whitelist
+An
+allowlist
 of
 acceptable
 license
@@ -2222,7 +2222,7 @@ have
 additions
 to
 this
-whitelist
+allowlist
 reviewed
     
 #
@@ -2271,7 +2271,7 @@ this
 list
 .
     
-RUNTIME_LICENSE_WHITELIST
+RUNTIME_LICENSE_ALLOWLIST
 =
 [
         
@@ -2344,7 +2344,7 @@ that
 we
 do
 not
-whitelist
+allowlist
         
 #
 the
@@ -2361,7 +2361,7 @@ added
         
 #
 to
-RUNTIME_LICENSE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_PACKAGE_ALLOWLIST
 below
 .
         
@@ -2447,7 +2447,7 @@ this
 list
 .
     
-BUILDTIME_LICENSE_WHITELIST
+BUILDTIME_LICENSE_ALLOWLIST
 =
 {
         
@@ -2499,7 +2499,7 @@ instant
     
 #
 This
-whitelist
+allowlist
 should
 only
 be
@@ -2526,7 +2526,7 @@ about
 license
 .
     
-RUNTIME_LICENSE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_PACKAGE_ALLOWLIST
 =
 {
         
@@ -2663,7 +2663,7 @@ ICU4X_LICENSE_SHA256
     
 #
 This
-whitelist
+allowlist
 should
 only
 be
@@ -2729,7 +2729,7 @@ have
 additions
 to
 this
-whitelist
+allowlist
     
 #
 reviewed
@@ -2755,7 +2755,7 @@ licensing
 minutiae
 .
     
-RUNTIME_LICENSE_FILE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_FILE_PACKAGE_ALLOWLIST
 =
 {
         
@@ -2774,7 +2774,7 @@ deque
 we
 '
 re
-whitelisting
+allowlisting
 this
 fuchsia
 crate
@@ -3018,8 +3018,8 @@ the
 license
 provided
 against
-a
-whitelist
+an
+allowlist
 of
         
 known
@@ -3287,7 +3287,7 @@ license
 in
 VendorRust
 .
-RUNTIME_LICENSE_WHITELIST
+RUNTIME_LICENSE_ALLOWLIST
 :
                 
 return
@@ -3298,7 +3298,7 @@ package
 in
 VendorRust
 .
-RUNTIME_LICENSE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_PACKAGE_ALLOWLIST
 .
 get
 (
@@ -3381,7 +3381,7 @@ not
 in
 self
 .
-BUILDTIME_LICENSE_WHITELIST
+BUILDTIME_LICENSE_ALLOWLIST
 :
                     
 self
@@ -3445,7 +3445,7 @@ add
 it
 to
 the
-whitelist
+allowlist
 of
 suitable
 licenses
@@ -3466,7 +3466,7 @@ not
 in
 self
 .
-BUILDTIME_LICENSE_WHITELIST
+BUILDTIME_LICENSE_ALLOWLIST
 [
 license
 ]
@@ -3519,7 +3519,7 @@ package
 itself
 is
 not
-whitelisted
+allowlisted
 as
 being
 a
@@ -3543,7 +3543,7 @@ add
 it
 to
 the
-whitelist
+allowlist
 of
 build
 -
@@ -3580,7 +3580,7 @@ add
 it
 to
 the
-whitelist
+allowlist
 of
 suitable
 licenses
@@ -4031,7 +4031,7 @@ not
 in
 self
 .
-RUNTIME_LICENSE_FILE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_FILE_PACKAGE_ALLOWLIST
 :
                 
 self
@@ -4085,7 +4085,7 @@ be
 added
 to
 the
-whitelist
+allowlist
 of
 packages
 whose
@@ -4106,7 +4106,7 @@ approved_hash
 =
 self
 .
-RUNTIME_LICENSE_FILE_PACKAGE_WHITELIST
+RUNTIME_LICENSE_FILE_PACKAGE_ALLOWLIST
 [
 package_name
 ]
