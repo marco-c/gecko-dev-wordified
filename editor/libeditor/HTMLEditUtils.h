@@ -429,6 +429,16 @@ r
 static
 constexpr
 char16_t
+kFormFeed
+=
+'
+\
+f
+'
+;
+static
+constexpr
+char16_t
 kTab
 =
 '
