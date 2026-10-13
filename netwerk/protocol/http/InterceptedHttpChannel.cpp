@@ -413,6 +413,10 @@ mProgressSink
 =
 nullptr
 ;
+mHasProgressSink
+=
+false
+;
 mBodyCallback
 =
 nullptr
@@ -6236,6 +6240,12 @@ mProgressSink
 )
 ;
 }
+mHasProgressSink
+=
+!
+!
+mProgressSink
+;
 MOZ_ASSERT_IF
 (
 !
@@ -6917,7 +6927,7 @@ mStatus
 }
 if
 (
-mProgressSink
+mHasProgressSink
 )
 {
 if
