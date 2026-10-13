@@ -80,13 +80,6 @@ h
 #
 include
 "
-WebGLContextUtils
-.
-h
-"
-#
-include
-"
 WebGLFormats
 .
 h
