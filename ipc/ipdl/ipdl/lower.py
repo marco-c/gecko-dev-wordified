@@ -29323,7 +29323,7 @@ thereEp
 )
         
 #
-void
+bool
 BindPEndpoint
 (
 ManagedEndpoint
@@ -29398,6 +29398,10 @@ ret
 Type
 .
 BOOL
+                
+warn_unused
+=
+True
             
 )
         
