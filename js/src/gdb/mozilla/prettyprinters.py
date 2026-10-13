@@ -1260,7 +1260,7 @@ for
 example
 mozilla
 .
-JSString
+JSObject
 should
 store
 its
@@ -1271,7 +1271,7 @@ the
 TypeCache
 '
 s
-mod_JSString
+mod_JSObject
 attribute
 .
 class
@@ -1395,6 +1395,26 @@ pointer
             
 self
 .
+StringFlags_ptr_t
+=
+gdb
+.
+lookup_type
+(
+"
+js
+:
+:
+StringFlags
+"
+)
+.
+pointer
+(
+)
+            
+self
+.
 JSSymbol_ptr_t
 =
 gdb
@@ -1441,6 +1461,12 @@ NotSpiderMonkeyObjfileError
         
 self
 .
+mod_CellHeader
+=
+None
+        
+self
+.
 mod_GCCellPtr
 =
 None
@@ -1465,12 +1491,6 @@ None
         
 self
 .
-mod_JSString
-=
-None
-        
-self
-.
 mod_JS_Value
 =
 None
@@ -1484,6 +1504,12 @@ None
 self
 .
 mod_IonGraph
+=
+None
+        
+self
+.
+mod_StringFlags
 =
 None
 #
