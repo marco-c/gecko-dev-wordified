@@ -791,8 +791,6 @@ virtual
 DragTask
 (
 )
-=
-default
 ;
 virtual
 void

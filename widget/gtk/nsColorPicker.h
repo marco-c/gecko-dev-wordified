@@ -88,6 +88,13 @@ h
 #
 include
 "
+nsColor
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
