@@ -373,6 +373,13 @@ dom
 :
 UnbindContext
 ;
+static
+constexpr
+bool
+kHasWeakReferenceTearoff
+=
+true
+;
 void
 ConstructUbiNode
 (

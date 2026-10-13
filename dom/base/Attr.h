@@ -180,6 +180,13 @@ default
 ;
 public
 :
+static
+constexpr
+bool
+kHasWeakReferenceTearoff
+=
+true
+;
 Attr
 (
 nsDOMAttributeMap
