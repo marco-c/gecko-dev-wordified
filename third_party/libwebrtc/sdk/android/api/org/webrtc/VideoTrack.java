@@ -154,6 +154,9 @@ track
 .
 *
 *
+<
+p
+>
 A
 track
 can
@@ -166,10 +169,10 @@ VideoSinks
 VideoSinks
 will
 replace
-*
 renderers
 .
 However
+*
 converting
 old
 style
@@ -178,7 +181,6 @@ frames
 will
 involve
 costly
-*
 conversion
 to
 I420
@@ -186,13 +188,13 @@ so
 it
 is
 not
+*
 recommended
 to
 upgrade
 before
 all
 your
-*
 sources
 produce
 VideoFrames
@@ -361,7 +363,7 @@ sink
 {
 lifecycleLock
 .
-run
+runIfAlive
 (
 nativeTrack
 -
