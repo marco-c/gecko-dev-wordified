@@ -238,6 +238,10 @@ const
 ;
 private
 :
+const
+size_t
+max_num_values_
+;
 /
 /
 A
