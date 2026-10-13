@@ -37685,6 +37685,14 @@ mBrowsingContext
 IsSubframe
 (
 )
+|
+|
+mBrowsingContext
+-
+>
+IsContent
+(
+)
 )
 {
 return
