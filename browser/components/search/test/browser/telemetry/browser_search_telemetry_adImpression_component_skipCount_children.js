@@ -941,15 +941,6 @@ assertSERPTelemetry
 (
 [
 {
-impression
-:
-{
-prescan
-:
-"
-found
-"
-}
 adImpressions
 :
 [
