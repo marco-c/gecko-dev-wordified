@@ -179,17 +179,12 @@ Carbon
 h
 >
 #
-ifdef
-NIGHTLY_BUILD
-#
 include
 "
 ASWebAuthSessionHandler
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1018,9 +1013,6 @@ LaunchStatus
 :
 DelegateIsSetup
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Apple
@@ -1065,8 +1057,6 @@ RegisterASWebAuthSessionHandler
 (
 )
 ;
-#
-endif
 NS_OBJC_END_TRY_IGNORE_BLOCK
 ;
 }
