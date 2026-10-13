@@ -845,11 +845,11 @@ panel
 )
 ;
 let
-wasChecked
+wasPressed
 =
 subtitlesToggle
 .
-checked
+pressed
 ;
 let
 toggleChanged
@@ -860,7 +860,7 @@ waitForEvent
 (
 subtitlesToggle
 "
-change
+toggle
 "
 )
 ;
@@ -884,8 +884,8 @@ notEqual
 (
 subtitlesToggle
 .
-checked
-wasChecked
+pressed
+wasPressed
 "
 Space
 should
