@@ -236,6 +236,7 @@ PermissionRequest
 PermissionAttribute
 NotificationShow
 LoadImageForShow
+PushSubscribe
 }
 ;
 /
@@ -538,12 +539,8 @@ aOptions
 nsIPrincipal
 &
 aPrincipal
-Maybe
-<
-IPCImage
->
-&
-&
+imgIContainer
+*
 aIcon
 )
 ;

@@ -3065,6 +3065,12 @@ const
 ColorScheme
 &
 aColoScheme
+NotNull
+<
+nsIPrincipal
+*
+>
+aPrincipal
 DecodeImageResolver
 &
 &
