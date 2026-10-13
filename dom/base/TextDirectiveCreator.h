@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsFind
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
@@ -1729,6 +1736,12 @@ nsContentUtils
 :
 NodeIndexCache
 mNodeIndexCache
+;
+nsFind
+:
+:
+WordBoundaryCache
+mWordBoundaryCache
 ;
 }
 ;
