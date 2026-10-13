@@ -1393,7 +1393,7 @@ as_ptr
 (
 )
 .
-add
+wrapping_add
 (
 idx
 +
@@ -1918,7 +1918,7 @@ as_ptr
 (
 )
 .
-add
+wrapping_add
 (
 idx
 +
