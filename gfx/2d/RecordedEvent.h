@@ -691,6 +691,9 @@ SourceSurface
 >
 LookupSourceSurfaceFromSurfaceDescriptor
 (
+DrawTarget
+*
+aDT
 const
 layers
 :

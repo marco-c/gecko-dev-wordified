@@ -16945,6 +16945,7 @@ aTranslator
 >
 LookupSourceSurfaceFromSurfaceDescriptor
 (
+dt
 mDesc
 )
 ;
