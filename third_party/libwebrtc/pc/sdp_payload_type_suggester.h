@@ -583,8 +583,6 @@ const
 ContentInfo
 &
 content
-SdpType
-type
 )
 ;
 /
