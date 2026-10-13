@@ -618,17 +618,6 @@ application
 .
 ftl
 "
-"
-devtools
-/
-preview
-/
-speculative
--
-loads
-.
-ftl
-"
 ]
 )
 ;
