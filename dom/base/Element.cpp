@@ -20643,6 +20643,12 @@ aContext
 InUncomposedDoc
 (
 )
+&
+&
+!
+IsInNativeAnonymousSubtree
+(
+)
 )
 {
 UpdateContainerTimingRootFromParent
