@@ -4452,13 +4452,11 @@ with
 purge
 after
 a
-/
-/
-significant
-re
--
-use
+page
+reuse
 happened
+/
+/
 for
 an
 arena
@@ -12126,7 +12124,7 @@ aReuseGraceMS
 (
 now
 -
-mLastSignificantReuseNS
+mLastPageReuseNS
 >
 =
 reuseGraceNS
@@ -17056,7 +17054,7 @@ num_dirty_after
 num_dirty_before
 )
 {
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 ;
@@ -17176,7 +17174,7 @@ num_dirty_after
 num_dirty_before
 )
 {
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 ;
@@ -17545,7 +17543,7 @@ num_dirty_after
 num_dirty_before
 )
 {
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 ;
@@ -20861,7 +20859,7 @@ void
 arena_t
 :
 :
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 {
@@ -20897,7 +20895,7 @@ Atomic
 /
 resulting
 in
-mLastSignificantReuseNS
+mLastPageReuseNS
 going
 potentially
 backwards
@@ -20926,7 +20924,7 @@ slightly
 earlier
 purge
 .
-mLastSignificantReuseNS
+mLastPageReuseNS
 =
 GetTimestampNS
 (
@@ -21354,7 +21352,7 @@ num_dirty_after
 num_dirty_before
 )
 {
-NotifySignificantReuse
+NotifyPageReuse
 (
 )
 ;
@@ -22051,7 +22049,7 @@ opt_dirty_max
 8
 )
 )
-mLastSignificantReuseNS
+mLastPageReuseNS
 (
 GetTimestampNS
 (
@@ -29453,7 +29451,7 @@ now
 -
 arena
 .
-mLastSignificantReuseNS
+mLastPageReuseNS
 >
 =
 reuseGraceNS
