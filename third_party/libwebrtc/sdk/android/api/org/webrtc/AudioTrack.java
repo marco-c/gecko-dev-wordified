@@ -122,6 +122,7 @@ nativeTrack
 /
 *
 *
+*
 Sets
 the
 volume
@@ -138,7 +139,6 @@ value
 in
 the
 range
-*
 0
 to
 10
@@ -153,12 +153,18 @@ double
 volume
 )
 {
+lifecycleLock
+.
+run
+(
+nativeTrack
+-
+>
 nativeSetVolume
 (
-getNativeAudioTrack
-(
-)
+nativeTrack
 volume
+)
 )
 ;
 }
