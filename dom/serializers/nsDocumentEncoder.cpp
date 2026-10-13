@@ -5825,7 +5825,6 @@ uint32_t
 )
 start
 <
-=
 inclusiveAncestorsOfStart
 .
 Length
@@ -5863,7 +5862,6 @@ uint32_t
 )
 end
 <
-=
 inclusiveAncestorsOfEnd
 .
 Length
