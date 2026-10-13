@@ -2009,6 +2009,42 @@ pointerdown
 "
 )
     
+#
+altitudeAngle
+and
+azimuthAngle
+may
+undergo
+a
+round
+-
+trip
+trigonometric
+    
+#
+conversion
+via
+tiltX
+and
+tiltY
+so
+compare
+with
+pytest
+.
+approx
+to
+    
+#
+account
+for
+floating
+-
+point
+precision
+loss
+.
+    
 assert
 pointerdown
 [
@@ -2018,7 +2054,14 @@ altitudeAngle
 ]
 =
 =
+pytest
+.
+approx
+(
 1
+.
+0
+)
     
 assert
 pointerdown
@@ -2029,7 +2072,14 @@ azimuthAngle
 ]
 =
 =
+pytest
+.
+approx
+(
 2
+.
+0
+)
     
 assert
 pointerdown
@@ -2086,9 +2136,14 @@ altitudeAngle
 ]
 =
 =
+pytest
+.
+approx
+(
 0
 .
 5
+)
     
 assert
 pointermove
@@ -2099,9 +2154,14 @@ azimuthAngle
 ]
 =
 =
+pytest
+.
+approx
+(
 1
 .
 5
+)
     
 assert
 pointermove
