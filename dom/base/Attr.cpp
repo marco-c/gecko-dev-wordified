@@ -213,6 +213,13 @@ h
 #
 include
 "
+nsNodeSupportsWeakRefTearoff
+.
+h
+"
+#
+include
+"
 nsTextNode
 .
 h

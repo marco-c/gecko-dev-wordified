@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsNodeSupportsWeakRefTearoff
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
