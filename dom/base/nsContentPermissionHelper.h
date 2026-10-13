@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
@@ -200,6 +193,9 @@ why
 #
 undef
 LoadImage
+class
+nsIMutableArray
+;
 class
 nsPIDOMWindowInner
 ;

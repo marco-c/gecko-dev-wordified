@@ -263,6 +263,13 @@ h
 #
 include
 "
+nsIMutableArray
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h

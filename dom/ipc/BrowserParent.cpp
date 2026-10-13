@@ -715,6 +715,13 @@ h
 #
 include
 "
+nsIArray
+.
+h
+"
+#
+include
+"
 nsIBaseWindow
 .
 h

@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsContentPermissionHelper
-.
-h
-"
-#
-include
-"
 nsHttp
 .
 h
