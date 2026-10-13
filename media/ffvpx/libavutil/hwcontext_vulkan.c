@@ -10479,6 +10479,13 @@ type
 =
 =
 VK_QUEUE_GRAPHICS_BIT
+|
+|
+\
+type
+=
+=
+VK_QUEUE_COMPUTE_BIT
 )
 \
 hwctx
