@@ -85,12 +85,17 @@ DeviceType
 derive
 (
 Debug
+uniffi
+:
+:
+Record
 )
 ]
 pub
 struct
 SyncParams
 {
+/
 /
 /
 Why
@@ -106,6 +111,7 @@ reason
 SyncReason
 /
 /
+/
 Which
 engines
 should
@@ -116,6 +122,7 @@ pub
 engines
 :
 SyncEngineSelection
+/
 /
 /
 Which
@@ -132,6 +139,7 @@ global
 list
 (
 for
+/
 /
 /
 example
@@ -152,6 +160,7 @@ the
 last
 /
 /
+/
 sync
 )
 .
@@ -163,6 +172,7 @@ HashMap
 String
 bool
 >
+/
 /
 /
 Keys
@@ -178,6 +188,7 @@ files
 .
 These
 are
+/
 /
 /
 separate
@@ -205,6 +216,7 @@ String
 >
 /
 /
+/
 Authorization
 for
 the
@@ -214,6 +226,7 @@ pub
 auth_info
 :
 SyncAuthInfo
+/
 /
 /
 An
@@ -229,6 +242,7 @@ sync
 s
 SyncResult
 and
+/
 /
 /
 persisted
@@ -247,6 +261,7 @@ This
 includes
 /
 /
+/
 information
 such
 as
@@ -257,6 +272,7 @@ engines
 previously
 enabled
 certain
+/
 /
 /
 server
@@ -273,6 +289,7 @@ isn
 t
 correctly
 persisted
+/
 /
 /
 and
@@ -299,6 +316,7 @@ String
 >
 /
 /
+/
 Information
 about
 the
@@ -310,6 +328,7 @@ its
 name
 formfactor
 and
+/
 /
 /
 FxA
@@ -326,6 +345,10 @@ DeviceSettings
 derive
 (
 Debug
+uniffi
+:
+:
+Enum
 )
 ]
 pub
@@ -344,6 +367,10 @@ Backgrounded
 derive
 (
 Debug
+uniffi
+:
+:
+Enum
 )
 ]
 pub
@@ -366,6 +393,10 @@ String
 derive
 (
 Debug
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -394,6 +425,10 @@ String
 derive
 (
 Debug
+uniffi
+:
+:
+Record
 )
 ]
 pub
@@ -418,12 +453,17 @@ DeviceType
 derive
 (
 Debug
+uniffi
+:
+:
+Record
 )
 ]
 pub
 struct
 SyncResult
 {
+/
 /
 /
 Result
@@ -437,6 +477,7 @@ status
 ServiceStatus
 /
 /
+/
 Engines
 that
 synced
@@ -448,6 +489,7 @@ Vec
 <
 String
 >
+/
 /
 /
 Maps
@@ -473,6 +515,7 @@ String
 >
 /
 /
+/
 State
 that
 should
@@ -486,6 +529,7 @@ to
 the
 sync
 method
+/
 /
 /
 on
@@ -503,6 +547,7 @@ pub
 persisted_state
 :
 String
+/
 /
 /
 The
@@ -524,6 +569,7 @@ on
 the
 /
 /
+/
 sync
 server
 .
@@ -537,6 +583,7 @@ global
 to
 the
 account
+/
 /
 /
 rather
@@ -555,6 +602,7 @@ sync
 to
 /
 /
+/
 update
 the
 local
@@ -570,6 +618,7 @@ UI
 correctly
 /
 /
+/
 reflects
 what
 engines
@@ -581,6 +630,7 @@ disabled
 because
 these
 could
+/
 /
 /
 change
@@ -600,6 +650,7 @@ String
 >
 /
 /
+/
 Earliest
 time
 that
@@ -616,6 +667,7 @@ Option
 <
 SystemTime
 >
+/
 /
 /
 JSON
@@ -637,6 +689,10 @@ String
 derive
 (
 Debug
+uniffi
+:
+:
+Enum
 )
 ]
 pub
