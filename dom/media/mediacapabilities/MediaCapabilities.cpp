@@ -12750,7 +12750,6 @@ aPromise
 )
 workerRef
 holder
-aConfiguration
 ]
 (
 MediaCapabilitiesInfo
