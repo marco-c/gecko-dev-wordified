@@ -1661,8 +1661,10 @@ aShouldHide
 )
 ;
 static
+already_AddRefed
+<
 nsIWidget
-*
+>
 GetHiddenWindowWidget
 (
 )
