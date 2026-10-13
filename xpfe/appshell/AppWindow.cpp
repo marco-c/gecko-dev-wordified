@@ -8108,9 +8108,14 @@ true
 }
 if
 (
+!
 gotPosition
 )
 {
+return
+false
+;
+}
 /
 /
 Our
@@ -8190,7 +8195,6 @@ height
 )
 ;
 }
-}
 mWindow
 -
 >
@@ -8219,7 +8223,7 @@ y
 ;
 }
 return
-gotPosition
+true
 ;
 }
 static
