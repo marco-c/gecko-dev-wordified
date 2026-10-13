@@ -4309,7 +4309,11 @@ HttpTransactionShell
 >
 mTransactionSticky
 ;
+Atomic
+<
 uint64_t
+Relaxed
+>
 mLogicalOffset
 {
 0
