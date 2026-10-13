@@ -164,7 +164,7 @@ namespace
 layers
 {
 class
-APZInputBridge
+APZBridge
 ;
 struct
 ZoomTarget
@@ -877,7 +877,7 @@ aGuid
 *
 Returns
 an
-APZInputBridge
+APZBridge
 interface
 that
 can
@@ -937,9 +937,9 @@ process
 *
 /
 virtual
-APZInputBridge
+APZBridge
 *
-InputBridge
+Bridge
 (
 )
 =

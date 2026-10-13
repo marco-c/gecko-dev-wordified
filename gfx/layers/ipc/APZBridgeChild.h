@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_layers_APZInputBridgeChild_h
+mozilla_layers_APZBridgeChild_h
 #
 define
-mozilla_layers_APZInputBridgeChild_h
+mozilla_layers_APZBridgeChild_h
 #
 include
 "
@@ -69,7 +69,7 @@ mozilla
 /
 layers
 /
-APZInputBridge
+APZBridge
 .
 h
 "
@@ -91,7 +91,7 @@ mozilla
 /
 layers
 /
-PAPZInputBridgeChild
+PAPZBridgeChild
 .
 h
 "
@@ -105,16 +105,16 @@ class
 RemoteCompositorSession
 ;
 class
-APZInputBridgeChild
+APZBridgeChild
 :
 public
-PAPZInputBridgeChild
+PAPZBridgeChild
 public
-APZInputBridge
+APZBridge
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-APZInputBridgeChild
+APZBridgeChild
 final
 )
 using
@@ -127,7 +127,7 @@ public
 static
 RefPtr
 <
-APZInputBridgeChild
+APZBridgeChild
 >
 Create
 (
@@ -137,7 +137,7 @@ uint64_t
 aProcessToken
 Endpoint
 <
-PAPZInputBridgeChild
+PAPZBridgeChild
 >
 &
 &
@@ -488,7 +488,7 @@ aWhy
 override
 ;
 explicit
-APZInputBridgeChild
+APZBridgeChild
 (
 const
 uint64_t
@@ -498,7 +498,7 @@ aProcessToken
 ;
 virtual
 ~
-APZInputBridgeChild
+APZBridgeChild
 (
 )
 ;
@@ -509,7 +509,7 @@ Open
 (
 Endpoint
 <
-PAPZInputBridgeChild
+PAPZBridgeChild
 >
 &
 &
@@ -700,4 +700,4 @@ mozilla
 endif
 /
 /
-mozilla_layers_APZInputBridgeChild_h
+mozilla_layers_APZBridgeChild_h

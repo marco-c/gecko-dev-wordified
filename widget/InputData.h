@@ -240,10 +240,10 @@ namespace
 layers
 {
 class
-APZInputBridgeChild
+APZBridgeChild
 ;
 class
-PAPZInputBridgeParent
+PAPZBridgeParent
 ;
 }
 /
@@ -1888,7 +1888,7 @@ mozilla
 layers
 :
 :
-APZInputBridgeChild
+APZBridgeChild
 ;
 friend
 mozilla
@@ -1897,7 +1897,7 @@ mozilla
 layers
 :
 :
-PAPZInputBridgeParent
+PAPZBridgeParent
 ;
 ALLOW_DEPRECATED_READPARAM
 MouseInput
@@ -2177,7 +2177,7 @@ mozilla
 layers
 :
 :
-APZInputBridgeChild
+APZBridgeChild
 ;
 friend
 mozilla
@@ -2186,7 +2186,7 @@ mozilla
 layers
 :
 :
-PAPZInputBridgeParent
+PAPZBridgeParent
 ;
 ALLOW_DEPRECATED_READPARAM
 PanGestureInput
@@ -3327,7 +3327,7 @@ mozilla
 layers
 :
 :
-APZInputBridgeChild
+APZBridgeChild
 ;
 friend
 mozilla
@@ -3336,7 +3336,7 @@ mozilla
 layers
 :
 :
-PAPZInputBridgeParent
+PAPZBridgeParent
 ;
 ALLOW_DEPRECATED_READPARAM
 PinchGestureInput
@@ -4188,7 +4188,7 @@ mozilla
 layers
 :
 :
-APZInputBridgeChild
+APZBridgeChild
 ;
 friend
 mozilla
@@ -4197,7 +4197,7 @@ mozilla
 layers
 :
 :
-PAPZInputBridgeParent
+PAPZBridgeParent
 ;
 ALLOW_DEPRECATED_READPARAM
 TapGestureInput
@@ -4469,7 +4469,7 @@ mozilla
 layers
 :
 :
-APZInputBridgeChild
+APZBridgeChild
 ;
 friend
 mozilla
@@ -4478,7 +4478,7 @@ mozilla
 layers
 :
 :
-PAPZInputBridgeParent
+PAPZBridgeParent
 ;
 ALLOW_DEPRECATED_READPARAM
 typedef
@@ -5354,7 +5354,7 @@ mozilla
 layers
 :
 :
-APZInputBridgeChild
+APZBridgeChild
 ;
 friend
 mozilla
@@ -5363,7 +5363,7 @@ mozilla
 layers
 :
 :
-PAPZInputBridgeParent
+PAPZBridgeParent
 ;
 ALLOW_DEPRECATED_READPARAM
 KeyboardInput

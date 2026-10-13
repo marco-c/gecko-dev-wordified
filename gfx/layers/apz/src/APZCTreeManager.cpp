@@ -11741,7 +11741,7 @@ nullptr
 )
 ;
 return
-APZInputBridge
+APZBridge
 :
 :
 ActionForWheelEvent
@@ -13646,7 +13646,7 @@ to
 /
 GetUserPrefsForWheelEvent
 in
-APZInputBridge
+APZBridge
 .
 cpp
 for

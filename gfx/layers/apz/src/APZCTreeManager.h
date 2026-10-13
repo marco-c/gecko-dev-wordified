@@ -267,14 +267,14 @@ mozilla
 /
 layers
 /
-APZInputBridge
+APZBridge
 .
 h
 "
 /
 /
 for
-APZInputBridge
+APZBridge
 #
 include
 "
@@ -1016,7 +1016,7 @@ APZCTreeManager
 public
 IAPZCTreeManager
 public
-APZInputBridge
+APZBridge
 {
 typedef
 mozilla
@@ -1697,7 +1697,7 @@ to
 the
 documentation
 of
-APZInputBridge
+APZBridge
 :
 :
 ReceiveInputEvent
@@ -3783,9 +3783,9 @@ ScrollableLayerGuid
 aHitGuid
 )
 ;
-APZInputBridge
+APZBridge
 *
-InputBridge
+Bridge
 (
 )
 override

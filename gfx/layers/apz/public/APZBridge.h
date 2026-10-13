@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_layers_APZInputBridge_h
+mozilla_layers_APZBridge_h
 #
 define
-mozilla_layers_APZInputBridge_h
+mozilla_layers_APZBridge_h
 #
 include
 "
@@ -143,7 +143,7 @@ namespace
 layers
 {
 class
-APZInputBridgeParent
+APZBridgeParent
 ;
 class
 AsyncPanZoomController
@@ -730,7 +730,7 @@ This
 is
 returned
 from
-APZInputBridge
+APZBridge
 :
 :
 ReceiveInputEvent
@@ -1580,9 +1580,9 @@ Android
 This
 class
 exposes
-a
+some
 synchronous
-API
+APIs
 to
 deliver
 *
@@ -1643,7 +1643,7 @@ directly
 *
 /
 class
-APZInputBridge
+APZBridge
 {
 public
 :
@@ -2240,7 +2240,7 @@ protected
 :
 friend
 class
-APZInputBridgeParent
+APZBridgeParent
 ;
 /
 /
@@ -2301,7 +2301,7 @@ aTargetGuid
 ;
 virtual
 ~
-APZInputBridge
+APZBridge
 (
 )
 =
@@ -2344,4 +2344,4 @@ mozilla
 endif
 /
 /
-mozilla_layers_APZInputBridge_h
+mozilla_layers_APZBridge_h

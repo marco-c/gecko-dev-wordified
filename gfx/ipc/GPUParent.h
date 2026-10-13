@@ -501,7 +501,7 @@ ipc
 :
 :
 IPCResult
-RecvInitAPZInputBridge
+RecvInitAPZBridge
 (
 const
 LayersId
@@ -509,7 +509,7 @@ LayersId
 aRootLayerTreeId
 Endpoint
 <
-PAPZInputBridgeParent
+PAPZBridgeParent
 >
 &
 &

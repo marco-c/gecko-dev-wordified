@@ -419,7 +419,7 @@ mozilla
 /
 layers
 /
-APZInputBridgeParent
+APZBridgeParent
 .
 h
 "
@@ -3651,7 +3651,7 @@ IPCResult
 GPUParent
 :
 :
-RecvInitAPZInputBridge
+RecvInitAPZBridge
 (
 const
 LayersId
@@ -3659,14 +3659,14 @@ LayersId
 aRootLayerTreeId
 Endpoint
 <
-PAPZInputBridgeParent
+PAPZBridgeParent
 >
 &
 &
 aEndpoint
 )
 {
-APZInputBridgeParent
+APZBridgeParent
 :
 :
 Create

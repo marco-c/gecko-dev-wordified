@@ -229,7 +229,7 @@ mozilla
 /
 layers
 /
-APZInputBridge
+APZBridge
 .
 h
 "
@@ -9441,7 +9441,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -9688,7 +9688,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -9753,7 +9753,7 @@ of
 ReceiveInputEvent
 because
 the
-APZInputBridge
+APZBridge
 version
 of
 /
@@ -9813,7 +9813,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -17921,7 +17921,7 @@ handling
 /
 /
 in
-APZInputBridge
+APZBridge
 .
 So
 passing
@@ -18107,7 +18107,7 @@ handling
 /
 /
 in
-APZInputBridge
+APZBridge
 .
 So
 passing

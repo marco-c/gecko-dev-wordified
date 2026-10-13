@@ -278,7 +278,7 @@ default
 /
 /
 Note
-APZInputBridgeParent
+APZBridgeParent
 is
 bound
 to
@@ -289,7 +289,7 @@ thread
 See
 /
 /
-PAPZInputBridge
+PAPZBridge
 .
 ipdl
 )
@@ -364,7 +364,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 mLayersId
 )
@@ -596,7 +596,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -969,7 +969,7 @@ endif
 /
 /
 Note
-APZInputBridgeParent
+APZBridgeParent
 is
 bound
 to
@@ -980,7 +980,7 @@ thread
 See
 /
 /
-PAPZInputBridge
+PAPZBridge
 .
 ipdl
 )
@@ -1023,7 +1023,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -1579,7 +1579,7 @@ XRE_IsGPUProcess
 /
 /
 Note
-APZInputBridgeParent
+APZBridgeParent
 is
 bound
 to
@@ -1590,7 +1590,7 @@ thread
 See
 /
 /
-PAPZInputBridge
+PAPZBridge
 .
 ipdl
 )
@@ -1644,7 +1644,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -1818,7 +1818,7 @@ XRE_IsGPUProcess
 /
 /
 Note
-APZInputBridgeParent
+APZBridgeParent
 is
 bound
 to
@@ -1829,7 +1829,7 @@ thread
 See
 /
 /
-PAPZInputBridge
+PAPZBridge
 .
 ipdl
 )
@@ -1883,7 +1883,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -2040,7 +2040,7 @@ XRE_IsGPUProcess
 /
 /
 Note
-APZInputBridgeParent
+APZBridgeParent
 is
 bound
 to
@@ -2051,7 +2051,7 @@ thread
 See
 /
 /
-PAPZInputBridge
+PAPZBridge
 .
 ipdl
 )
@@ -2099,7 +2099,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -2601,7 +2601,7 @@ mScrollId
 /
 /
 Note
-APZInputBridgeParent
+APZBridgeParent
 is
 bound
 to
@@ -2612,7 +2612,7 @@ thread
 See
 /
 /
-PAPZInputBridge
+PAPZBridge
 .
 ipdl
 )
@@ -2679,7 +2679,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .
@@ -2861,7 +2861,7 @@ aScale
 /
 /
 Note
-APZInputBridgeParent
+APZBridgeParent
 is
 bound
 to
@@ -2872,7 +2872,7 @@ thread
 See
 /
 /
-PAPZInputBridge
+PAPZBridge
 .
 ipdl
 )
@@ -2945,7 +2945,7 @@ apzib
 CompositorBridgeParent
 :
 :
-GetApzInputBridgeParentForRoot
+GetApzBridgeParentForRoot
 (
 aGuid
 .

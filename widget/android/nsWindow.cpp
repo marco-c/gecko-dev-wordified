@@ -693,7 +693,7 @@ mozilla
 /
 layers
 /
-APZEventState
+APZBridge
 .
 h
 "
@@ -704,7 +704,7 @@ mozilla
 /
 layers
 /
-APZInputBridge
+APZEventState
 .
 h
 "
@@ -2676,7 +2676,7 @@ controller
 controller
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -2889,7 +2889,7 @@ result
 controller
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -4086,7 +4086,7 @@ result
 controller
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -6552,7 +6552,7 @@ result
 controller
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -6907,7 +6907,7 @@ OVERSCROLL_FLAG_NONE
 return
 ;
 }
-APZInputBridge
+APZBridge
 :
 :
 InputBlockCallback
@@ -6963,7 +6963,7 @@ result
 controller
 -
 >
-InputBridge
+Bridge
 (
 )
 -

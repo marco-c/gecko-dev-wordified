@@ -365,6 +365,17 @@ mozilla
 /
 layers
 /
+APZBridge
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 APZCCallbackHelper
 .
 h
@@ -377,17 +388,6 @@ mozilla
 layers
 /
 APZEventState
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
-APZInputBridge
 .
 h
 "
@@ -4073,7 +4073,7 @@ mAPZC
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -7775,7 +7775,7 @@ mAPZC
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -7810,7 +7810,7 @@ CollectKeyboardShortcuts
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -9162,7 +9162,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -9363,7 +9363,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -9465,7 +9465,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -9567,7 +9567,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -9678,7 +9678,7 @@ result
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -10165,7 +10165,7 @@ IsControllerThread
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -11251,7 +11251,7 @@ created
 so
 that
 the
-input
+APZ
 bridge
 runs
 on
@@ -14701,7 +14701,7 @@ AsyncPanZoomEnabled
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -14740,7 +14740,7 @@ AsyncPanZoomEnabled
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -15787,7 +15787,7 @@ APZ
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -15967,7 +15967,7 @@ events
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -
@@ -16521,7 +16521,7 @@ overscrolling
 mAPZC
 -
 >
-InputBridge
+Bridge
 (
 )
 -

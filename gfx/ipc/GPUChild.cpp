@@ -297,7 +297,7 @@ mozilla
 /
 layers
 /
-APZInputBridgeChild
+APZBridgeChild
 .
 h
 "
