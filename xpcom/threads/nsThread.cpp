@@ -8892,7 +8892,7 @@ Get
 )
 -
 >
-MayScheduleIdleMemoryCleanup
+MayScheduleMemoryCleanup
 (
 )
 ;
