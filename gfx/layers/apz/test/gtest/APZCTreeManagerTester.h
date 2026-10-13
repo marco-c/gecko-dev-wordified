@@ -215,6 +215,10 @@ new
 TestAPZCTreeManager
 (
 mcc
+CSSToLayoutDeviceScale
+{
+1
+}
 std
 :
 :
