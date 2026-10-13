@@ -7593,11 +7593,6 @@ manager
 mTaskCount
 ;
 }
-else
-{
-break
-;
-}
 }
 if
 (
