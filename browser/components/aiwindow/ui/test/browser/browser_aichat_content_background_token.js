@@ -38,9 +38,9 @@ strict
 *
 *
 The
-assistant
 chat
-bubble
+content
+document
 uses
 -
 -
