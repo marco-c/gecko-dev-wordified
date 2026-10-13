@@ -2545,10 +2545,6 @@ arrayref
 "
             
 "
-mach
-"
-            
-"
 qlog
 "
         
