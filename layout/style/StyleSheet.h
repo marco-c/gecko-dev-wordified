@@ -2208,11 +2208,13 @@ ImportRule
 /
 version
 .
+already_AddRefed
+<
 css
 :
 :
 Rule
-*
+>
 GetDOMOwnerRule
 (
 )
