@@ -11111,6 +11111,17 @@ MIPS
 (
 )
 ;
+/
+/
+LoongArch
+.
+static
+unsigned
+int
+LOONGARCH
+(
+)
+;
 }
 ;
 /
