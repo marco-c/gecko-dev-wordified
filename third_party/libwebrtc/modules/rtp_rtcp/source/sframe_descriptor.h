@@ -372,6 +372,13 @@ kSize
 =
 1
 ;
+static
+constexpr
+size_t
+kNumBits
+=
+8
+;
 /
 /
 Bit
