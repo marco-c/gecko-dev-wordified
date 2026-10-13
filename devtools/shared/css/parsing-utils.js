@@ -3858,6 +3858,10 @@ if
 token
 .
 text
+.
+toLowerCase
+(
+)
 =
 =
 =
