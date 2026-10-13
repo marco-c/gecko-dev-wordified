@@ -4175,6 +4175,8 @@ scaling
 dst_w
 !
 =
+/
+/
 src_w
 )
 .
