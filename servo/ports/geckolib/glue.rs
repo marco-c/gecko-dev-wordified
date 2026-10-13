@@ -43417,6 +43417,9 @@ raw_extra_data
 *
 mut
 URLExtraData
+rule_type
+:
+CssRuleType
 )
 -
 >
@@ -43575,10 +43578,7 @@ origin
 url_data
 Some
 (
-CssRuleType
-:
-:
-Style
+rule_type
 )
 ParsingMode
 :
