@@ -7509,7 +7509,7 @@ GP_PLAT_riscv64_linux
 )
 #
 define
-UNWINDING_REGS_HAVE_RA
+UNWINDING_REGS_HAVE_RA_T3
 #
 endif
 /
@@ -7774,7 +7774,7 @@ pointer
 elif
 defined
 (
-UNWINDING_REGS_HAVE_RA
+UNWINDING_REGS_HAVE_RA_T3
 )
 Address
 mRA
@@ -7787,6 +7787,19 @@ nullptr
 Return
 address
 register
+.
+Address
+mT3
+{
+nullptr
+}
+;
+/
+/
+Temp
+for
+frame
+pointer
 .
 #
 endif
@@ -10024,7 +10037,7 @@ undef
 UNWINDING_REGS_HAVE_LR_R11
 #
 undef
-UNWINDING_REGS_HAVE_RA
+UNWINDING_REGS_HAVE_RA_T3
 /
 /
 END
