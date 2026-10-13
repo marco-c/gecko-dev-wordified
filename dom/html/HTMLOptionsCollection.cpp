@@ -304,6 +304,10 @@ HTMLSelectElement
 >
 (
 mRootNode
+.
+get
+(
+)
 )
 ;
 }
