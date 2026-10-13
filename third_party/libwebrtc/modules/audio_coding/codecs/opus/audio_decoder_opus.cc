@@ -916,6 +916,14 @@ return
 }
 return
 ret
+*
+static_cast
+<
+int
+>
+(
+channels_
+)
 ;
 }
 )
