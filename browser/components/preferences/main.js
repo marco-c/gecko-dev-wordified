@@ -12714,16 +12714,6 @@ _buildHeader
 const
 headerElement
 =
-/
-*
-*
-type
-{
-MozBoxItem
-}
-*
-/
-(
 document
 .
 createElement
@@ -12735,7 +12725,6 @@ box
 -
 item
 "
-)
 )
 ;
 headerElement
