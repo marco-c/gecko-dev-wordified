@@ -6592,9 +6592,9 @@ if
 server_address_
 .
 proto
+!
 =
-=
-PROTO_TCP
+PROTO_UDP
 &
 &
 server_address_
