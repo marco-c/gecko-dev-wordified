@@ -108,6 +108,13 @@ algorithm
 #
 include
 "
+Decoder
+.
+h
+"
+#
+include
+"
 DownscalingFilter
 .
 h

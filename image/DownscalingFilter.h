@@ -168,6 +168,15 @@ include
 "
 mozilla
 /
+fallible
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

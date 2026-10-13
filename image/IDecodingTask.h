@@ -293,8 +293,6 @@ virtual
 IDecodingTask
 (
 )
-=
-default
 ;
 /
 /
@@ -494,8 +492,6 @@ virtual
 MetadataDecodingTask
 (
 )
-=
-default
 ;
 /
 /
@@ -614,8 +610,6 @@ virtual
 AnonymousDecodingTask
 (
 )
-=
-default
 ;
 NotNull
 <
