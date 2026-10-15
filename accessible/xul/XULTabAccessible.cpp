@@ -1449,7 +1449,11 @@ NativeName
 (
 nsString
 &
+/
+*
 aName
+*
+/
 )
 const
 {

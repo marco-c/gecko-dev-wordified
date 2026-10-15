@@ -922,7 +922,11 @@ AtkAction
 *
 aAction
 gint
+/
+*
 aActionIndex
+*
+/
 )
 {
 Accessible

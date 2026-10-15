@@ -370,9 +370,17 @@ toplevel_event_watcher
 (
 GSignalInvocationHint
 *
+/
+*
 ihint
+*
+/
 guint
+/
+*
 n_param_values
+*
+/
 const
 GValue
 *

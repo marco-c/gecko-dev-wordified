@@ -7733,7 +7733,11 @@ HTMLProgressAccessible
 SetCurValue
 (
 double
+/
+*
 aValue
+*
+/
 )
 {
 return
@@ -8619,7 +8623,11 @@ HTMLMeterAccessible
 SetCurValue
 (
 double
+/
+*
 aValue
+*
+/
 )
 {
 return

@@ -1173,7 +1173,11 @@ OuterDocAccessible
 InsertChildAt
 (
 uint32_t
+/
+*
 aIdx
+*
+/
 LocalAccessible
 *
 aAccessible
@@ -1524,7 +1528,11 @@ IsAcceptableChild
 (
 nsIContent
 *
+/
+*
 aEl
+*
+/
 )
 const
 {

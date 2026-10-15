@@ -239,7 +239,11 @@ ShutdownCallback
 (
 nsITimer
 *
+/
+*
 aTimer
+*
+/
 void
 *
 aClosure

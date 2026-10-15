@@ -1941,7 +1941,11 @@ XULMenuitemAccessible
 GetLevel
 (
 bool
+/
+*
 aFast
+*
+/
 )
 const
 {
@@ -2576,7 +2580,11 @@ NativeName
 (
 nsString
 &
+/
+*
 aName
+*
+/
 )
 const
 {
@@ -4072,7 +4080,11 @@ SetCurrentItem
 const
 LocalAccessible
 *
+/
+*
 aItem
+*
+/
 )
 {
 NS_ERROR

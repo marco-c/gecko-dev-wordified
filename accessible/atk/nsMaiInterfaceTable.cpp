@@ -1004,7 +1004,11 @@ getSummaryCB
 (
 AtkTable
 *
+/
+*
 aTable
+*
+/
 )
 {
 /

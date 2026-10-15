@@ -17903,7 +17903,11 @@ result
 ]
 (
 TextLeafRange
+/
+*
 aLine
+*
+/
 LayoutDeviceIntRect
 aLineRect
 )
@@ -18026,7 +18030,11 @@ contentBounds
 ]
 (
 TextLeafRange
+/
+*
 aLine
+*
+/
 LayoutDeviceIntRect
 aLineRect
 )

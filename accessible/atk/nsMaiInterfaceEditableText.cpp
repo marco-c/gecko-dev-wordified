@@ -207,7 +207,11 @@ gchar
 *
 aString
 gint
+/
+*
 aLength
+*
+/
 gint
 *
 aPosition
