@@ -611,11 +611,7 @@ void
 aPC
 void
 *
-/
-*
 aSP
-*
-/
 void
 *
 aClosure
@@ -1001,11 +997,7 @@ aDepth
 int
 aLastSkipped
 int
-/
-*
 aIgnored
-*
-/
 StackWalkTester
 &
 aTester
@@ -1156,11 +1148,7 @@ aDepth
 int
 aLastSkipped
 int
-/
-*
 aIgnored
-*
-/
 StackWalkTester
 &
 aTester

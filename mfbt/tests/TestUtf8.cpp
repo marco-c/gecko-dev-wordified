@@ -390,11 +390,7 @@ Args
 .
 .
 .
-/
-*
 aArgs
-*
-/
 )
 {
 MOZ_RELEASE_ASSERT
@@ -690,11 +686,7 @@ aCharN
 N
 ]
 InvalidUtf8Reason
-/
-*
 aExpectedReason
-*
-/
 uint8_t
 aExpectedUnitsAvailable
 uint8_t

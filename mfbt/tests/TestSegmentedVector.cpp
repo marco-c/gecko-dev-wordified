@@ -243,11 +243,7 @@ T
 *
 aPtr
 size_t
-/
-*
 aNumElems
-*
-/
 =
 0
 )
@@ -1187,11 +1183,7 @@ explicit
 NonPOD
 (
 int
-/
-*
 x
-*
-/
 )
 {
 gNumExplicitCtors

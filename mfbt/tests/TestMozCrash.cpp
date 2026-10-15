@@ -99,11 +99,7 @@ void
 handler
 (
 int
-/
-*
 signum
-*
-/
 )
 {
 exit
@@ -123,11 +119,7 @@ int
 main
 (
 int
-/
-*
 argc
-*
-/
 char
 *
 *

@@ -26403,11 +26403,7 @@ ReadEach
 (
 ProfileBufferEntryReader
 &
-/
-*
 aER
-*
-/
 )
 {
 MOZ_RELEASE_ASSERT
@@ -26945,11 +26941,7 @@ ReadEach
 (
 ProfileBufferEntryReader
 &
-/
-*
 aER
-*
-/
 )
 {
 MOZ_RELEASE_ASSERT
@@ -36907,11 +36899,7 @@ SCJW
 aWriter
 UJS
 &
-/
-*
 aUniqueStrings
-*
-/
 )
 {
 aWriter
