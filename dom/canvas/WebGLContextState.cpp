@@ -2152,7 +2152,10 @@ LOCAL_GL_COLOR_WRITEMASK
 return
 Some
 (
-mColorWriteMask0
+mColorWriteMasks
+[
+0
+]
 )
 ;
 /
