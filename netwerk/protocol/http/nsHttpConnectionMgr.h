@@ -402,8 +402,8 @@ NS_DECL_NSINAMED
 /
 NOTE
 :
-functions
-below
+the
+constructor
 may
 only
 be
