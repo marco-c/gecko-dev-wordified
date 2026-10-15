@@ -1934,7 +1934,36 @@ error
 unless
 expected
             
+#
+or
+logged
+quietly
+(
+e
+.
+g
+.
+the
+test
+will
+be
+retried
+)
+            
 if
+item
+.
+get
+(
+"
+quiet
+"
+)
+:
+                
+pass
+            
+elif
 (
                 
 (
