@@ -211,10 +211,6 @@ nsIPrintSettings
 :
 :
 kOutputFormatPDF
-&
-&
-!
-mPrintViaSkPDF
 )
 {
 /

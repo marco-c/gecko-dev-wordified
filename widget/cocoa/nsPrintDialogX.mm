@@ -92,7 +92,7 @@ mozilla
 /
 gfx
 /
-PrintTargetCG
+PrintTarget
 .
 h
 "
