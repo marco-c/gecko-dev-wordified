@@ -1066,6 +1066,8 @@ Type
 =
 =
 mType
+.
+type
 )
 {
 mPrototypeCodecs
@@ -2274,6 +2276,8 @@ true
 if
 (
 mType
+.
+type
 =
 =
 SdpMediaSection
@@ -2326,6 +2330,8 @@ if
 (
 (
 mType
+.
+type
 =
 =
 SdpMediaSection
@@ -2798,6 +2804,8 @@ GetMediaType
 !
 =
 mType
+.
+type
 )
 {
 MOZ_MTLOG
@@ -2886,6 +2894,8 @@ kSend
 &
 (
 mType
+.
+type
 !
 =
 SdpMediaSection
@@ -3001,6 +3011,8 @@ return
 if
 (
 mType
+.
+type
 =
 =
 SdpMediaSection
@@ -3530,6 +3542,8 @@ IsSending
 if
 (
 mType
+.
+type
 !
 =
 SdpMediaSection

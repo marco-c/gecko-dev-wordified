@@ -1731,7 +1731,7 @@ AddMediaSection
 (
 transceiver
 .
-GetMediaType
+GetMediaTypeInfo
 (
 )
 transceiver
@@ -2798,6 +2798,10 @@ AddTransceiver
 (
 JsepTransceiver
 (
+{
+.
+type
+=
 SdpMediaSection
 :
 :
@@ -2805,6 +2809,7 @@ MediaType
 :
 :
 kApplication
+}
 *
 mUuidGen
 )
@@ -4489,7 +4494,7 @@ AddMediaSection
 (
 remoteMsection
 .
-GetMediaType
+GetMediaTypeInfo
 (
 )
 direction
@@ -12380,7 +12385,7 @@ newTransceiver
 (
 msection
 .
-GetMediaType
+GetMediaTypeInfo
 (
 )
 *
@@ -13073,7 +13078,7 @@ temp
 (
 transceiver
 .
-GetMediaType
+GetMediaTypeInfo
 (
 )
 *
@@ -13252,7 +13257,7 @@ temp
 (
 transceiver
 .
-GetMediaType
+GetMediaTypeInfo
 (
 )
 *

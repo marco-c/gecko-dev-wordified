@@ -285,7 +285,7 @@ const
 SdpMediaSection
 :
 :
-MediaType
+MediaTypeInfo
 media
 const
 SdpDirectionAttribute

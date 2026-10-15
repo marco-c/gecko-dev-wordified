@@ -5063,8 +5063,13 @@ nullptr
 JsepTransceiver
 jsepTransceiver
 (
+{
+.
+type
+=
 *
 type
+}
 *
 mUuidGen
 )
@@ -6969,6 +6974,10 @@ AddTransceiver
 (
 JsepTransceiver
 (
+{
+.
+type
+=
 SdpMediaSection
 :
 :
@@ -6976,6 +6985,7 @@ MediaType
 :
 :
 kApplication
+}
 *
 mUuidGen
 )
