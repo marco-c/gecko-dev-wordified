@@ -5250,7 +5250,9 @@ ModifiedContainingBlock
 referenceData
 -
 >
-mDefaultScrollShift
+AppliedScrollShift
+(
+)
 AnchorPositioningUtils
 :
 :
