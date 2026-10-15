@@ -23870,6 +23870,13 @@ nsCSSFrameConstructor
 :
 FindLabelOrDescriptionData
 )
+SIMPLE_TAG_CHAIN
+(
+area
+SUPPRESS_FCDATA
+(
+)
+)
 }
 ;
 return
