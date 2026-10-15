@@ -532,7 +532,7 @@ present
 ;
 ok
 (
-component
+SidebarController
 .
 panelHeader
 "
@@ -5920,14 +5920,14 @@ role
 "
 )
 "
-listitem
+treeitem
 "
 "
 Empty
 folder
 has
 a
-listitem
+treeitem
 role
 .
 "
