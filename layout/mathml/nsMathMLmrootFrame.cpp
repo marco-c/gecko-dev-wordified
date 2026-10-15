@@ -590,12 +590,6 @@ aBuilder
 this
 aLists
 0
-/
-*
-aIsArtifact
-*
-/
-true
 )
 ;
 DisplayBar
