@@ -2656,9 +2656,6 @@ GetEventListenerManagerForAttr
 nsAtom
 *
 aAttrName
-bool
-*
-aDefer
 )
 {
 /
@@ -2752,11 +2749,6 @@ do_QueryInterface
 window
 )
 ;
-*
-aDefer
-=
-false
-;
 return
 piTarget
 -
@@ -2773,7 +2765,6 @@ nsStyledElement
 GetEventListenerManagerForAttr
 (
 aAttrName
-aDefer
 )
 ;
 }
@@ -4097,7 +4088,6 @@ SetEventHandler
 (
 aLocalName
 value
-true
 )
 ;
 }
@@ -6717,14 +6707,11 @@ aVisitor
 /
 Implementation
 methods
-NS_IMETHODIMP_
-(
 bool
-)
 nsXULElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom

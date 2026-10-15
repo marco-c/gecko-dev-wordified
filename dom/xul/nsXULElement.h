@@ -2251,11 +2251,8 @@ IsFocusableFlags
 )
 override
 ;
-NS_IMETHOD_
-(
 bool
-)
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
@@ -2953,9 +2950,6 @@ GetEventListenerManagerForAttr
 nsAtom
 *
 aAttrName
-bool
-*
-aDefer
 )
 override
 ;

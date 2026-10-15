@@ -5204,9 +5204,6 @@ GetEventListenerManagerForAttr
 nsAtom
 *
 aAttrName
-bool
-*
-aDefer
 )
 override
 ;

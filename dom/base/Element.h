@@ -13626,15 +13626,6 @@ JS
 to
 attach
 *
-param
-aDefer
-indicates
-if
-deferred
-execution
-is
-allowed
-*
 /
 void
 SetEventHandler
@@ -13646,10 +13637,6 @@ const
 nsAString
 &
 aValue
-bool
-aDefer
-=
-true
 )
 ;
 /
@@ -16975,9 +16962,6 @@ GetEventListenerManagerForAttr
 nsAtom
 *
 aAttrName
-bool
-*
-aDefer
 )
 ;
 /
