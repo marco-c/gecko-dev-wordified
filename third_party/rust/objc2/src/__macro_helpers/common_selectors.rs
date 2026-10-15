@@ -117,8 +117,6 @@ __sel_inner
 (
 "
 alloc
-\
-0
 "
 "
 alloc
@@ -143,8 +141,6 @@ __sel_inner
 (
 "
 init
-\
-0
 "
 "
 init
@@ -169,8 +165,6 @@ __sel_inner
 (
 "
 new
-\
-0
 "
 "
 new
@@ -195,8 +189,6 @@ __sel_inner
 (
 "
 dealloc
-\
-0
 "
 "
 dealloc
@@ -257,8 +249,6 @@ __sel_inner
 "
 .
 cxx_construct
-\
-0
 "
 "
 .
@@ -704,8 +694,6 @@ __sel_inner
 "
 .
 cxx_destruct
-\
-0
 "
 "
 .
