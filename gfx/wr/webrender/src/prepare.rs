@@ -706,10 +706,7 @@ crate
 render_backend
 :
 :
-{
 DataStores
-DlStores
-}
 ;
 use
 crate
@@ -801,10 +798,6 @@ data_stores
 :
 &
 DataStores
-dl_stores
-:
-&
-DlStores
 scratch
 :
 &
@@ -1031,7 +1024,6 @@ pic_state
 frame_context
 frame_state
 data_stores
-dl_stores
 scratch
 tile_caches
 prim_instances
@@ -1096,10 +1088,6 @@ data_stores
 :
 &
 DataStores
-dl_stores
-:
-&
-DlStores
 scratch
 :
 &
@@ -1318,7 +1306,6 @@ frame_context
 frame_state
 plane_split_anchor
 data_stores
-dl_stores
 scratch
 tile_caches
 prim_instances
@@ -1648,10 +1635,6 @@ data_stores
 :
 &
 DataStores
-dl_stores
-:
-&
-DlStores
 scratch
 :
 &
@@ -2111,7 +2094,6 @@ subpixel_mode
 frame_context
 frame_state
 data_stores
-dl_stores
 scratch
 tile_caches
 prim_instances
@@ -3395,7 +3377,9 @@ PrimitiveKind
 :
 Rectangle
 {
-handle
+data_handle
+.
+.
 }
 =
 >
@@ -3415,12 +3399,12 @@ let
 prim_data
 =
 &
-dl_stores
+data_stores
 .
-rectangles
+prim
 [
 *
-handle
+data_handle
 ]
 ;
 let
