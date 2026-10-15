@@ -352,7 +352,11 @@ tabs
 [
 1
 ]
+{
+forceDiscard
+:
 true
+}
 )
 ;
 var

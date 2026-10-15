@@ -203,7 +203,11 @@ gBrowser
 discardBrowser
 (
 tab
+{
+forceDiscard
+:
 true
+}
 )
 ;
 ok

@@ -5070,6 +5070,11 @@ gBrowser
 discardBrowser
 (
 nativeTab
+{
+renderDiscarded
+:
+true
+}
 )
 ;
 }
