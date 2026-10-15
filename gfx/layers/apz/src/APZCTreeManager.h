@@ -3783,8 +3783,10 @@ ScrollableLayerGuid
 aHitGuid
 )
 ;
+RefPtr
+<
 APZBridge
-*
+>
 Bridge
 (
 )
