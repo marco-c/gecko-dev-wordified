@@ -969,7 +969,7 @@ GeckoView
 .
 this
 .
-setActive
+maybeSetActive
 (
 true
 )
@@ -1006,7 +1006,7 @@ GeckoView
 .
 this
 .
-setActive
+maybeSetActive
 (
 false
 )
@@ -1111,7 +1111,7 @@ GeckoView
 .
 this
 .
-setActive
+maybeSetActive
 (
 true
 )
@@ -1151,7 +1151,7 @@ GeckoView
 .
 this
 .
-setActive
+maybeSetActive
 (
 false
 )
@@ -2923,7 +2923,7 @@ package
 *
 /
 void
-setActive
+maybeSetActive
 (
 final
 boolean
@@ -2940,7 +2940,7 @@ null
 {
 mSession
 .
-setActive
+maybeSetActive
 (
 active
 )
@@ -8132,11 +8132,7 @@ printManager
 (
 PrintManager
 )
-mActivityDelegate
-.
-getActivityContext
-(
-)
+printContext
 .
 getSystemService
 (
@@ -8153,9 +8149,7 @@ new
 GeckoViewPrintDocumentAdapter
 (
 pdfStream
-getContext
-(
-)
+printContext
 isDialogFinished
 )
 ;
