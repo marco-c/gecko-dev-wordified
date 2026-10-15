@@ -438,10 +438,8 @@ override
 ;
 private
 :
-RefPtr
-<
 UtilityProcessHost
->
+*
 mHost
 ;
 UniquePtr

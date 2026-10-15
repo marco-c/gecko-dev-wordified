@@ -2415,10 +2415,6 @@ OnChannelClosed
 (
 )
 ;
-mHost
-=
-nullptr
-;
 }
 mozilla
 :

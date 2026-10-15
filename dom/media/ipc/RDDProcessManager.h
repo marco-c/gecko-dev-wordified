@@ -678,11 +678,11 @@ current
 RDD
 process
 .
-RefPtr
-<
 RDDProcessHost
->
+*
 mProcess
+=
+nullptr
 ;
 uint64_t
 mProcessToken

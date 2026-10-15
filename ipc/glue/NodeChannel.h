@@ -172,6 +172,15 @@ UniquePtr
 h
 "
 #
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
+#
 ifdef
 FUZZING_SNAPSHOT
 #
@@ -1263,7 +1272,7 @@ the
 IO
 thread
 .
-ThreadSafeWeakPtr
+WeakPtr
 <
 mozilla
 :

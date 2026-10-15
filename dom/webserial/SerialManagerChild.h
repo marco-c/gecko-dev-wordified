@@ -67,15 +67,6 @@ include
 "
 mozilla
 /
-WeakPtr
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 PSerialManagerChild

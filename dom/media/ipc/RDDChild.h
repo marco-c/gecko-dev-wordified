@@ -471,10 +471,8 @@ RDDChild
 (
 )
 ;
-RefPtr
-<
 RDDProcessHost
->
+*
 mHost
 ;
 UniquePtr

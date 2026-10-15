@@ -1380,10 +1380,6 @@ OnChannelClosed
 (
 )
 ;
-mHost
-=
-nullptr
-;
 }
 class
 DeferredDeleteRDDChild
