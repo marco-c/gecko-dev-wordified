@@ -532,7 +532,7 @@ present
 ;
 ok
 (
-SidebarController
+component
 .
 panelHeader
 "
