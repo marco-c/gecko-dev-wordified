@@ -1164,6 +1164,10 @@ const
 nsIContent
 &
 aContent
+const
+GetMenuItemsOptions
+&
+aOptions
 )
 {
 const
@@ -1232,6 +1236,11 @@ button
 IsDisabled
 (
 )
+|
+|
+aOptions
+.
+mIncludeDisabled
 )
 {
 return
@@ -1317,6 +1326,13 @@ nsIContent
 aStart
 StartKind
 aStartKind
+const
+GetMenuItemsOptions
+&
+aOptions
+=
+{
+}
 )
 {
 nsIContent
@@ -1399,6 +1415,7 @@ IsValidMenuItem
 aMenuParent
 *
 node
+aOptions
 )
 )
 {
@@ -1445,6 +1462,7 @@ StartKind
 :
 :
 Parent
+aOptions
 )
 )
 {
@@ -1535,6 +1553,7 @@ StartKind
 :
 :
 Item
+aOptions
 )
 ;
 }
@@ -1549,6 +1568,10 @@ XULMenuParentElement
 :
 GetFirstMenuItem
 (
+const
+GetMenuItemsOptions
+&
+aOptions
 )
 const
 {
@@ -1566,6 +1589,7 @@ StartKind
 :
 :
 Parent
+aOptions
 )
 ;
 }
@@ -1607,6 +1631,10 @@ const
 XULButtonElement
 &
 aStartingItem
+const
+GetMenuItemsOptions
+&
+aOptions
 )
 const
 {
@@ -1623,6 +1651,7 @@ StartKind
 :
 :
 Item
+aOptions
 )
 ;
 }
