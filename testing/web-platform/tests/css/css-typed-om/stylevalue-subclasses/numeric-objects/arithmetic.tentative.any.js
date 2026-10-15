@@ -792,7 +792,6 @@ TypeError
 )
 =
 >
-new
 CSS
 .
 px
