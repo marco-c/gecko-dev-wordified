@@ -701,12 +701,10 @@ mFontPattern
 ifdef
 MOZ_FONTATIONS
 void
-InitSkrifaFont
+InitSkrifaFontFace
 (
-FcPattern
-*
-aPattern
 )
+override
 ;
 #
 endif
