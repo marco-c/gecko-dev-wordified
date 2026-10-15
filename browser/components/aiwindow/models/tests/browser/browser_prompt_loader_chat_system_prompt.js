@@ -699,6 +699,11 @@ timezone
 "
 "
 {
+location
+}
+"
+"
+{
 isoTimestamp
 }
 "
