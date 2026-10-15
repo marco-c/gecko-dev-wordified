@@ -659,7 +659,11 @@ UnmovableValue
 const
 UnmovableValue
 &
+/
+*
 aOther
+*
+/
 )
 :
 mStatus
@@ -690,7 +694,11 @@ operator
 const
 UnmovableValue
 &
+/
+*
 aOther
+*
+/
 )
 {
 mStatus
@@ -6505,7 +6513,11 @@ apply
 const
 BasicValue
 &
+/
+*
 aVal
+*
+/
 )
 {
 gFunctionWasApplied
@@ -11733,7 +11745,11 @@ andThen
 const
 BasicValue
 &
+/
+*
 aVal
+*
+/
 )
 {
 gFunctionWasApplied
