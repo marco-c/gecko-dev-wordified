@@ -3500,6 +3500,12 @@ INT64_MAX
 )
 )
 {
+mDataOffset
+.
+Clear
+(
+)
+;
 return
 ;
 }
