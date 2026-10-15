@@ -271,6 +271,13 @@ targetFront
 getSourceContentForResource
 (
 sourceActor
+.
+sourceObject
+.
+type
+sourceActor
+.
+id
 )
 ;
 }
