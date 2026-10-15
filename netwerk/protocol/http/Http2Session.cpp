@@ -9197,6 +9197,15 @@ n
 return
 ;
 }
+RefPtr
+<
+Http2Session
+>
+self
+(
+this
+)
+;
 /
 /
 don
