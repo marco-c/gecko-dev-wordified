@@ -1818,17 +1818,6 @@ override
 value
 such
 as
-in
-/
-/
-AndroidNativeWindowTextureData
-where
-we
-own
-the
-producer
-side
-or
 for
 /
 /
@@ -1836,7 +1825,6 @@ MediaCodec
 output
 on
 devices
-where
 where
 we
 know

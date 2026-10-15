@@ -98,7 +98,6 @@ DXGLInterop2
 IOSurface
 GLXDrawable
 SharedGLTexture
-AndroidSurfaceTexture
 AndroidHardwareBuffer
 EGLSurfaceDMABUF
 }
