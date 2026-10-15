@@ -20295,7 +20295,7 @@ gfx
 gfxVars
 :
 :
-UseAImageReaderVideoGpuProcessAndroid
+ForceAImageReaderAndroid
 (
 )
 )
