@@ -496,6 +496,7 @@ bug
 2051415
 )
 .
+virtual
 void
 ForgetRealTransaction
 (
