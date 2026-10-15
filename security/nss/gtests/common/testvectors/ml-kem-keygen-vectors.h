@@ -89,7 +89,7 @@ gtests
 /
 common
 /
-wycheproof
+nist
 *
 automatically
 and
@@ -102,11 +102,11 @@ manually
 *
 Generation
 is
-trigged
+triggered
 by
 calling
 python3
-genTestVectors
+genNISTTestVector
 .
 py
 *
