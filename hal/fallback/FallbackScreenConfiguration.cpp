@@ -81,11 +81,7 @@ hal
 :
 ScreenOrientation
 &
-/
-*
 aOrientation
-*
-/
 )
 {
 return

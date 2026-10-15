@@ -219,11 +219,7 @@ T
 *
 aPtr
 size_t
-/
-*
 aNumElems
-*
-/
 =
 0
 )
