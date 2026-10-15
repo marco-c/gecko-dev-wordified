@@ -68,7 +68,10 @@ use
 bridge
 :
 :
+{
 AddressesBridgedEngine
+CreditCardsBridgedEngine
+}
 ;
 mod
 common
