@@ -6964,9 +6964,6 @@ aLoadState
 SameDocumentNavigationState
 &
 aState
-bool
-&
-aSameDocument
 )
 ;
 uint32_t
