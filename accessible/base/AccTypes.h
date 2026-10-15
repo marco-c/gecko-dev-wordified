@@ -185,6 +185,7 @@ types
 /
 eApplicationType
 eHTMLLinkType
+eHTMLListBulletType
 eHTMLOptGroupType
 eImageMapType
 eMenuPopupType
