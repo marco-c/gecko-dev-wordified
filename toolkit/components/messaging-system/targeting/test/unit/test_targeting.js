@@ -1,6 +1,6 @@
 const
 {
-ClientEnvironment
+ClientEnvironmentBase
 }
 =
 ChromeUtils
@@ -12,9 +12,13 @@ resource
 :
 /
 /
-normandy
+gre
 /
-lib
+modules
+/
+components
+-
+utils
 /
 ClientEnvironment
 .
@@ -1432,10 +1436,7 @@ that
 when
 using
 the
-Normandy
--
-style
-ClientEnvironment
+ClientEnvironmentBase
 context
 /
 /
@@ -1475,7 +1476,7 @@ ctx
 {
 env
 :
-ClientEnvironment
+ClientEnvironmentBase
 }
 ;
 let
