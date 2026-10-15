@@ -1274,6 +1274,10 @@ OnChannelClosed
 aWhy
 )
 ;
+mHost
+=
+nullptr
+;
 }
 /
 /

@@ -450,8 +450,10 @@ Observer
 >
 mObserver
 ;
+RefPtr
+<
 VRProcessParent
-*
+>
 mProcess
 ;
 VRChild
