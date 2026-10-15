@@ -219,6 +219,10 @@ mIsDestroyed
 ;
 }
 ;
+}
+/
+/
+namespace
 class
 APZBridgeTester
 :
@@ -266,10 +270,6 @@ nullptr
 }
 }
 ;
-}
-/
-/
-namespace
 TEST_F
 (
 APZBridgeTester
