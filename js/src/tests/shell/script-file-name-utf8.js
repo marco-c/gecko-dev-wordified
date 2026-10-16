@@ -1285,6 +1285,10 @@ moduleResolutionError
 fileName
 )
 {
+clearModules
+(
+)
+;
 const
 a
 =
@@ -1339,7 +1343,7 @@ b
 ;
 try
 {
-moduleLink
+moduleLoadAndLink
 (
 ma
 )
