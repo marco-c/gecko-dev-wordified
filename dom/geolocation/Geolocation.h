@@ -831,7 +831,6 @@ filling
 the
 request
 .
-static
 void
 RequestIfPermitted
 (
