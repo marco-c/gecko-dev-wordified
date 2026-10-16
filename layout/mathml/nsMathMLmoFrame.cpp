@@ -640,6 +640,12 @@ aBuilder
 this
 aLists
 0
+/
+*
+aIsArtifact
+*
+/
+false
 isSelected
 ?
 &
