@@ -1032,7 +1032,7 @@ GetParentObject
 const
 {
 return
-mParentNode
+mPolicyOwnerNode
 ;
 }
 /
@@ -1245,6 +1245,19 @@ aOrigin
 )
 const
 ;
+bool
+GetFeatureValueForOrigin
+(
+const
+nsAString
+&
+aFeatureName
+nsIPrincipal
+*
+aOrigin
+)
+const
+;
 /
 /
 Inherits
@@ -1305,7 +1318,7 @@ const
 ;
 nsINode
 *
-mParentNode
+mPolicyOwnerNode
 ;
 /
 /
