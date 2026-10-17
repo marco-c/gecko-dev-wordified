@@ -1664,6 +1664,10 @@ MSE_API
 "
 )
 ;
+CompletePendingTransactions
+(
+)
+;
 if
 (
 mDecoder
@@ -3693,13 +3697,8 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+CompletePendingTransactions
 (
-mCompletionPromises
-.
-IsEmpty
-(
-)
 )
 ;
 MSE_DEBUG
