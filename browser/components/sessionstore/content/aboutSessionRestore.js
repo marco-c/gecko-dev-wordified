@@ -1574,7 +1574,7 @@ newWindow
 *
 type
 {
-BrowserWindow
+ChromeWindow
 }
 *
 /
@@ -2145,7 +2145,7 @@ errorTryAgain
 *
 returns
 {
-BrowserWindow
+ChromeWindow
 }
 *
 /
@@ -2160,7 +2160,7 @@ return
 *
 type
 {
-BrowserWindow
+ChromeWindow
 }
 *
 /
@@ -2762,11 +2762,6 @@ tabbrowser
 .
 addWebTab
 (
-"
-about
-:
-blank
-"
 )
 ;
 var
