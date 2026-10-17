@@ -239,10 +239,6 @@ Index
 ;
 private
 :
-friend
-class
-CacheFile
-;
 virtual
 ~
 CacheFileInputStream
