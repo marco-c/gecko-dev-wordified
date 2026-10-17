@@ -1331,11 +1331,11 @@ firefox
 "
             
 "
-OS_ARCH
+MOZ_WIDGET_TOOLKIT
 "
 :
 "
-Linux
+gtk
 "
             
 "
@@ -1830,7 +1830,7 @@ in
 MOZ_APP_NAME
 "
 "
-OS_ARCH
+MOZ_WIDGET_TOOLKIT
 "
 "
 MOZ_TSAN
