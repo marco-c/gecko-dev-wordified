@@ -1327,6 +1327,7 @@ cleanup
 (
 )
 {
+await
 mockEngineManager
 .
 rejectAllRequests

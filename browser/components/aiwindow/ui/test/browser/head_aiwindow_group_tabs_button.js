@@ -966,6 +966,7 @@ win
 mockEngineManager
 )
 {
+await
 mockEngineManager
 .
 rejectAllRequests

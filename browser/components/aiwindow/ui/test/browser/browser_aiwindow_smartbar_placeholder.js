@@ -90,11 +90,13 @@ MockEngineManager
 ;
 registerCleanupFunction
 (
+async
 (
 )
 =
 >
 {
+await
 mockEngineManager
 .
 rejectAllRequests

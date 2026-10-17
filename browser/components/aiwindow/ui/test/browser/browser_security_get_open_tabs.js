@@ -1703,6 +1703,7 @@ cleanup
 (
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1904,6 +1905,7 @@ returned
 "
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -2285,6 +2287,7 @@ spotlighted
 "
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -2745,6 +2748,7 @@ URLs
 "
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -3459,6 +3463,7 @@ noiseTab
 tab
 )
 ;
+await
 mockEngineManager
 .
 rejectAllRequests

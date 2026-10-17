@@ -908,6 +908,7 @@ async
 =
 >
 {
+await
 mockEngineMan
 .
 rejectAllRequests
@@ -3436,6 +3437,7 @@ PURPOSE
 }
 )
 ;
+await
 mockEngineMan
 .
 rejectAllRequests

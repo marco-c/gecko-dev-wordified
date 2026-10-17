@@ -1119,6 +1119,7 @@ the
 model
 call
 .
+await
 mockEngine
 .
 rejectAllRequests

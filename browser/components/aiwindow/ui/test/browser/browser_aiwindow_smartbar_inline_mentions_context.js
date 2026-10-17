@@ -1081,6 +1081,7 @@ tab
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1367,6 +1368,7 @@ urlToken
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests

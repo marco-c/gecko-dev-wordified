@@ -257,6 +257,7 @@ the
 window
 for
 GC
+await
 mockEngineMan
 .
 rejectAllRequests

@@ -2854,6 +2854,7 @@ async
 =
 >
 {
+await
 gMockEngineManager
 .
 rejectAllRequests

@@ -943,6 +943,7 @@ grouped
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1075,6 +1076,7 @@ grouped
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1214,6 +1216,7 @@ elements
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -1842,6 +1845,7 @@ resolves
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -2303,6 +2307,7 @@ color
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests
@@ -2635,6 +2640,7 @@ group
 }
 finally
 {
+await
 mockEngineManager
 .
 rejectAllRequests

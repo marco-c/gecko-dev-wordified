@@ -1149,6 +1149,7 @@ GC
 '
 d
 .
+await
 gMockEngineManager
 .
 rejectAllRequests
@@ -2404,8 +2405,8 @@ assertAITabConversation
 (
 aiTab
 [
-TEST_URL
 TEST_URL2
+TEST_URL
 ]
 gMockEngineManager
 )
