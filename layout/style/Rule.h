@@ -742,6 +742,11 @@ GetContainingRuleStateForParsing
 )
 const
 ;
+bool
+SupportsDeclarations
+(
+)
+;
 protected
 :
 /
