@@ -8871,7 +8871,7 @@ in
 NativeObject
 :
 :
-maybeDensifySparseElements
+densifySparseElements
 .
 /
 /
