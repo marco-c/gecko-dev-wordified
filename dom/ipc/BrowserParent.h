@@ -5454,6 +5454,12 @@ mModifiers
 nsID
 mUUID
 ;
+CopyableTArray
+<
+AlternativeCharCode
+>
+mAlternativeCharCodes
+;
 }
 ;
 nsTArray
