@@ -607,6 +607,15 @@ TextureSampler
 :
 GpuBufferI
 )
+(
+"
+sPathEdges
+"
+TextureSampler
+:
+:
+PathEdges
+)
 ]
 ;
 const
