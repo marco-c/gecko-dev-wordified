@@ -2828,7 +2828,7 @@ build
 /
 mach
 build
-recurse_gtest
+gtest
 &
 &
 echo
@@ -3097,7 +3097,7 @@ build
 /
 mach
 build
-recurse_gtest
+gtest
 &
 &
 echo
@@ -3411,7 +3411,7 @@ build
 /
 mach
 build
-recurse_gtest
+gtest
 &
 &
 \
@@ -3470,7 +3470,7 @@ build
 /
 mach
 build
-recurse_gtest
+gtest
 "
 )
         
@@ -3486,7 +3486,7 @@ mach
 build
 "
 "
-recurse_gtest
+gtest
 "
 ]
 )
