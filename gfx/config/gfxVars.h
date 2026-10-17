@@ -505,6 +505,13 @@ int32_t
 \
 _
 (
+WebRenderPathAaSamples
+int32_t
+8
+)
+\
+_
+(
 WebRenderSlowCpuFrameThreshold
 float
 10
