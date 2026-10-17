@@ -1310,7 +1310,7 @@ mMonitor
 ;
 mPromise
 .
-Reject
+RejectIfExists
 (
 NS_ERROR_DOM_MEDIA_CANCELED
 __func__
@@ -1628,7 +1628,7 @@ mMonitor
 ;
 mPromise
 .
-Reject
+RejectIfExists
 (
 MediaResult
 (
@@ -1708,7 +1708,7 @@ mMonitor
 ;
 mPromise
 .
-Reject
+RejectIfExists
 (
 MediaResult
 (
@@ -3338,7 +3338,7 @@ mMonitor
 ;
 mPromise
 .
-Reject
+RejectIfExists
 (
 MediaResult
 (
@@ -4296,7 +4296,7 @@ mMonitor
 ;
 mPromise
 .
-Reject
+RejectIfExists
 (
 MediaResult
 (
