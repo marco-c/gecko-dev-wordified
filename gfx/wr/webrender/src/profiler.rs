@@ -1284,6 +1284,12 @@ Interned
 backdrop
 captures
 Interned
+polygons
+Interned
+box
+-
+shadows
+Interned
 paths
 "
 )
