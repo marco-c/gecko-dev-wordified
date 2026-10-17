@@ -31307,6 +31307,13 @@ ClearLineCursors
 (
 )
 ;
+nextInFlow
+-
+>
+ClearLineCursors
+(
+)
+;
 }
 else
 {
@@ -33980,6 +33987,13 @@ from
 first
 line
 "
+)
+;
+aFromContainer
+-
+>
+ClearLineCursors
+(
 )
 ;
 aFromContainer
