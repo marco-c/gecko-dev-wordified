@@ -1007,6 +1007,14 @@ aMsg
 )
 override
 ;
+void
+ActorDestroy
+(
+ActorDestroyReason
+aWhy
+)
+override
+;
 private
 :
 explicit
