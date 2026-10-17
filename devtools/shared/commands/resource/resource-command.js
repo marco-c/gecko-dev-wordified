@@ -131,7 +131,7 @@ devtools_resourcecommand
 maxLogLevel
 :
 "
-warn
+Warn
 "
 }
 )
