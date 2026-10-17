@@ -291,6 +291,7 @@ mState
 mValidity
 mValidationAnchor
 mCustomStateSet
+mForm
 )
 ;
 for
@@ -381,10 +382,6 @@ FormAssociatedCustomElement
 mTarget
 (
 aTarget
-)
-mForm
-(
-nullptr
 )
 mFieldSet
 (
