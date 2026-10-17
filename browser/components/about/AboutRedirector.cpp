@@ -1449,12 +1449,12 @@ MOZ_NORMANDY
 studies
 "
 "
-resource
+chrome
 :
 /
 /
-normandy
--
+nimbus
+/
 content
 /
 about

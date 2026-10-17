@@ -336,7 +336,7 @@ spec
 is
 (
 location
-AboutPages
+AboutStudies
 .
 aboutStudies
 .
