@@ -1532,6 +1532,22 @@ in
 rule_types
 :
         
+assert
+rule
+!
+=
+"
+scope
+"
+"
+scope
+is
+just
+derived
+from
+style
+"
+        
 mask
 |
 =
@@ -1539,6 +1555,20 @@ RULE_VALUES
 [
 rule
 ]
+        
+if
+rule
+=
+=
+"
+style
+"
+:
+            
+mask
+|
+=
+SCOPE_RULE
     
 return
 mask
