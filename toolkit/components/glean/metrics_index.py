@@ -1342,6 +1342,18 @@ browser
 /
 components
 /
+customizableui
+/
+metrics
+.
+yaml
+"
+    
+"
+browser
+/
+components
+/
 customkeys
 /
 metrics
@@ -2194,6 +2206,14 @@ yaml
     
 "
 netwerk
+/
+pings
+.
+yaml
+"
+    
+"
+storage
 /
 pings
 .
