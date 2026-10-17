@@ -48667,9 +48667,6 @@ case
 eMouseRawUpdate
 :
 case
-eMouseExploreByTouch
-:
-case
 ePointerCancel
 :
 case

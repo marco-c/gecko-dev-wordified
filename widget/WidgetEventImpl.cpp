@@ -766,9 +766,6 @@ eMouseTouchDrag
 case
 eMouseLongTap
 :
-case
-eMouseExploreByTouch
-:
 /
 /
 Pointer
@@ -1136,9 +1133,6 @@ eMouseTouchDrag
 :
 case
 eMouseLongTap
-:
-case
-eMouseExploreByTouch
 :
 return
 aClassID
@@ -3514,9 +3508,6 @@ eMouseUp
 :
 case
 eMouseMove
-:
-case
-eMouseExploreByTouch
 :
 case
 eContextMenu
