@@ -3399,11 +3399,11 @@ custom
 element
 definition
 .
+RefPtr
+<
 CustomElementDefinition
-*
+>
 customElementDefinition
-=
-nullptr
 ;
 nsAtom
 *
