@@ -4183,17 +4183,6 @@ toolkit
 /
 content
 /
-widgets
-/
-infobar
-.
-css
-"
-"
-toolkit
-/
-content
-/
 xul
 .
 css
