@@ -1462,11 +1462,6 @@ gfx
 Matrix4x4
 mProjMatrix
 ;
-bool
-mCanRenderToDefaultFramebuffer
-=
-true
-;
 /
 *
 *
