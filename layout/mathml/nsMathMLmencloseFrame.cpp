@@ -1334,6 +1334,12 @@ aBuilder
 this
 aLists
 1
+/
+*
+aIsArtifact
+*
+/
+true
 )
 ;
 nsRect
