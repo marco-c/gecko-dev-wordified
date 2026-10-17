@@ -441,7 +441,7 @@ sandbox
 .
 spy
 (
-window
+URILoadingHelper
 "
 openTrustedLinkIn
 "

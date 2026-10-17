@@ -2931,7 +2931,7 @@ sinon
 .
 spy
 (
-window
+URILoadingHelper
 "
 openTrustedLinkIn
 "
@@ -2993,7 +2993,7 @@ firstCall
 .
 args
 [
-0
+1
 ]
 "
 https
@@ -3020,7 +3020,7 @@ firstCall
 .
 args
 [
-2
+3
 ]
 .
 postData
