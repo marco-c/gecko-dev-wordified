@@ -420,17 +420,9 @@ mach
 build
 "
 "
-pre
+analysis
 -
-export
-"
-"
-export
-"
-"
-pre
--
-compile
+prereqs
 "
 ]
             
