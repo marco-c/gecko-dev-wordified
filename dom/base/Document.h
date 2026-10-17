@@ -31026,16 +31026,14 @@ aBody
 /
 Whether
 GetScrollingElementImpl
-/
-IsPotentiallyScrollableImpl
 should
 flush
-/
-/
 pending
 style
 and
 frame
+/
+/
 construction
 before
 answering
@@ -31063,7 +31061,6 @@ IsPotentiallyScrollableImpl
 HTMLBodyElement
 *
 aBody
-Flush
 )
 ;
 void
