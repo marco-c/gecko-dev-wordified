@@ -23936,6 +23936,16 @@ documentElement
 (
 )
 ;
+if
+(
+!
+nodeFront
+)
+{
+return
+null
+;
+}
 }
 else
 {

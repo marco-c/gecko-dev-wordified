@@ -696,6 +696,8 @@ node
 RetVal
 (
 "
+nullable
+:
 domnode
 "
 )
