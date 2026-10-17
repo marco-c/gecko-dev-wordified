@@ -121,6 +121,9 @@ Logging
 h
 "
 #
+ifdef
+MOZ_WEBSPEECH
+#
 include
 "
 mozilla
@@ -131,6 +134,8 @@ SpeechRecognitionParent
 .
 h
 "
+#
+endif
 namespace
 mozilla
 :
@@ -189,6 +194,9 @@ fmt
 #
 __VA_ARGS__
 )
+#
+ifdef
+MOZ_WEBSPEECH
 ipc
 :
 :
@@ -364,6 +372,11 @@ IPC_OK
 )
 ;
 }
+#
+endif
+/
+/
+MOZ_WEBSPEECH
 ipc
 :
 :

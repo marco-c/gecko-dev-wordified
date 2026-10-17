@@ -387,6 +387,9 @@ return
 mReadyPromise
 ;
 }
+#
+ifdef
+MOZ_WEBSPEECH
 /
 /
 Sends
@@ -420,6 +423,8 @@ ContentParentId
 aChildId
 )
 ;
+#
+endif
 /
 /
 Same

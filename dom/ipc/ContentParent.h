@@ -6833,6 +6833,9 @@ RecvAcquireHWInferenceProcess
 (
 )
 ;
+#
+ifdef
+MOZ_WEBSPEECH
 mozilla
 :
 :
@@ -6854,6 +6857,8 @@ PSpeechRecognitionParent
 aEndpoint
 )
 ;
+#
+endif
 mozilla
 :
 :
