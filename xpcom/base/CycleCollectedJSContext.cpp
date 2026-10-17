@@ -10010,7 +10010,7 @@ callbacks
 JS
 :
 :
-ExposeObjectToActiveJS
+AssertObjectIsNotGray
 (
 JS_GetFunctionObject
 (
@@ -10023,7 +10023,7 @@ mCallbackFunction
 JS
 :
 :
-ExposeObjectToActiveJS
+AssertObjectIsNotGray
 (
 callback
 .
