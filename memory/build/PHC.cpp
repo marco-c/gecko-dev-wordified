@@ -5573,7 +5573,7 @@ delay
 .
 #
 ifdef
-EARLY_BETA_OR_EARLIER
+NIGHTLY_BUILD
 const
 size_t
 array_size
