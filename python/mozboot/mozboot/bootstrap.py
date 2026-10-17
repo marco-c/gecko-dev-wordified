@@ -959,6 +959,10 @@ no_system_changes
 =
 False
         
+no_agentic_tools
+=
+False
+        
 exclude
 =
 [
@@ -1000,6 +1004,12 @@ self
 no_system_changes
 =
 no_system_changes
+        
+self
+.
+no_agentic_tools
+=
+no_agentic_tools
         
 self
 .
@@ -1840,14 +1850,22 @@ self
 if
 self
 .
-instance
-.
-no_interactive
+no_agentic_tools
 :
             
 return
         
 if
+(
+            
+not
+self
+.
+instance
+.
+no_interactive
+            
+and
 not
 self
 .
@@ -1855,6 +1873,8 @@ instance
 .
 cargo_tools_installed
 (
+)
+        
 )
 :
             
