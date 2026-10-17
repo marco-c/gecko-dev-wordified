@@ -43,6 +43,7 @@ as
 BackendError
 ProcessReaderKind
 process_reader
+remote_process_inspection
 }
 }
 ;
