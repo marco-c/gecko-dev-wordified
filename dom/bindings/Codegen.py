@@ -164828,15 +164828,8 @@ h
 ]
 )
         
-names
+descriptors
 =
-list
-(
-)
-        
-for
-d
-in
 config
 .
 getDescriptors
@@ -164845,16 +164838,12 @@ isSerializable
 =
 True
 )
-:
-            
-names
-.
-append
-(
+        
+for
 d
-.
-name
-)
+in
+descriptors
+:
             
 defineIncludes
 .
@@ -164873,7 +164862,7 @@ interface
 if
 len
 (
-names
+descriptors
 )
 =
 =
@@ -165165,7 +165154,7 @@ things
 if
 len
 (
-names
+descriptors
 )
 >
 20
@@ -165207,7 +165196,7 @@ table
 %
 len
 (
-names
+descriptors
 )
             
 )
@@ -165228,13 +165217,27 @@ ordering
 .
         
 for
-name
+d
 in
 sorted
 (
-names
+descriptors
+key
+=
+lambda
+descriptor
+:
+descriptor
+.
+name
 )
 :
+            
+name
+=
+d
+.
+name
             
 exposedGlobals
 =
