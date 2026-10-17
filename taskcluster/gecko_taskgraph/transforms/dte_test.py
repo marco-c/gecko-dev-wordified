@@ -159,14 +159,6 @@ name
 "
 ]
         
-target_info_artifact
-=
-"
-target_info
-.
-txt
-"
-        
 if
 "
 win
@@ -309,35 +301,6 @@ time
 -
 POLL_TIMEOUT_PADDING
 )
-            
-"
-TARGET_INFO_LINK
-"
-:
-{
-                
-"
-artifact
--
-reference
-"
-:
-f
-"
-<
-build
-/
-{
-get_artifact_path
-(
-task
-target_info_artifact
-)
-}
->
-"
-            
-}
         
 }
         
