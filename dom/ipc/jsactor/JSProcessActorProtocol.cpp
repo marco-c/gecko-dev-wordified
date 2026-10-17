@@ -442,6 +442,16 @@ GetSingleton
 )
 ;
 }
+if
+(
+!
+manager
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 Ensure
