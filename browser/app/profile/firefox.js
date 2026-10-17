@@ -36922,7 +36922,7 @@ window
 .
 enabled
 "
-true
+false
 )
 ;
 pref

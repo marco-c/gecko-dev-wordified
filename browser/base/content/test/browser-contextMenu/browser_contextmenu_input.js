@@ -1367,16 +1367,6 @@ screenshot
 "
 true
 "
-context
--
-use
--
-mini
--
-window
-"
-true
-"
 -
 -
 -
