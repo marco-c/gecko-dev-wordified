@@ -4040,6 +4040,16 @@ givenProto
 )
 override
 {
+const
+RefPtr
+<
+ClientWebGLContext
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 mIsWebGL2
