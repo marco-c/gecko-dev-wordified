@@ -590,7 +590,6 @@ way
 .
 *
 /
-static
 PKIX_Error
 *
 pkix_pl_HttpDefaultClient_HdrCheckComplete
@@ -2259,7 +2258,6 @@ way
 .
 *
 /
-static
 PKIX_Error
 *
 pkix_pl_HttpDefaultClient_Create
