@@ -321,16 +321,6 @@ TextureFlags
 aTextureFlags
 )
 ;
-YCbCrTextureClientAllocationHelper
-(
-const
-PlanarYCbCrData
-&
-aData
-TextureFlags
-aTextureFlags
-)
-;
 bool
 IsCompatible
 (
