@@ -1224,6 +1224,11 @@ aSize
 )
 ;
 void
+OnDrainingInternal
+(
+)
+;
+void
 GetStatsInternal
 (
 const
