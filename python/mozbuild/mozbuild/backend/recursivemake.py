@@ -2206,6 +2206,16 @@ export
 ]
         
 "
+rusttests
+"
+:
+[
+"
+recurse_rusttests
+"
+]
+        
+"
 syms
 "
 :

@@ -9786,15 +9786,12 @@ what
 =
 [
 "
-pre
+rust
 -
-export
+prereqs
 "
 "
-export
-"
-"
-recurse_rusttests
+rusttests
 "
 ]
     
