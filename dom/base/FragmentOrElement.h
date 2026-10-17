@@ -531,7 +531,7 @@ slots
 >
 mRadioGroupContainer
 =
-MakeUnique
+MakeRefPtr
 <
 RadioGroupContainer
 >
@@ -1052,7 +1052,7 @@ element
 .
 *
 /
-UniquePtr
+RefPtr
 <
 RadioGroupContainer
 >
