@@ -397,17 +397,13 @@ messages
 "
             
 "
-pre
+rust
 -
-export
+prereqs
 "
             
 "
-export
-"
-            
-"
-recurse_uniffi
+uniffi
 -
 target
 "
