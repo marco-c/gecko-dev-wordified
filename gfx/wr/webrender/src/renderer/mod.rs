@@ -1361,6 +1361,16 @@ GpuBufferBlockF
 GpuBufferBlockI
 }
 ;
+pub
+use
+gpu_buffer
+:
+:
+{
+GpuBufferBlockEdge
+PathEdgeBufferBuilder
+}
+;
 /
 /
 /
