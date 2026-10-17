@@ -940,7 +940,7 @@ within
 /
 /
 the
-flat
+composed
 tree
 .
 inclusiveAncestor
@@ -948,7 +948,7 @@ inclusiveAncestor
 inclusiveAncestor
 -
 >
-GetFlattenedTreeParentElement
+GetParentElementCrossingShadowRoot
 (
 )
 ;
@@ -1115,14 +1115,11 @@ aBuilder
 )
 ;
 }
-NS_IMETHODIMP_
-(
 bool
-)
 HTMLHeadingElement
 :
 :
-IsAttributeMapped
+IsNoNamespaceAttrMapped
 (
 const
 nsAtom
