@@ -116,8 +116,17 @@ path
 /
 /
 Allow
-5ms
+20ms
 tolerance
+for
+coarse
+clock
+resolution
+(
+especially
+for
+Windows
+)
 .
 Assert
 .
@@ -128,7 +137,7 @@ times
 created
 start
 -
-5
+20
 "
 Profile
 should
