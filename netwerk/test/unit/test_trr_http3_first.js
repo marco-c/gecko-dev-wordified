@@ -141,9 +141,6 @@ let
 h2Port
 ;
 let
-h3NoResponsePort
-;
-let
 h3ReverseProxyPort
 ;
 add_setup
@@ -269,14 +266,6 @@ start
 (
 h3ServerPath
 h3DBPath
-)
-;
-h3NoResponsePort
-=
-server
-.
-no_response_port
-(
 )
 ;
 h3ReverseProxyPort
@@ -938,9 +927,8 @@ TRRServer
 await
 trrServer
 .
-start
+startWithNoResponseUdpPort
 (
-h3NoResponsePort
 )
 ;
 await

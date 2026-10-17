@@ -234,13 +234,6 @@ server
 masque_proxy_port
 (
 )
-noResponsePort
-:
-server
-.
-no_response_port
-(
-)
 }
 )
 )
