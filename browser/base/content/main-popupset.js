@@ -1130,11 +1130,11 @@ lazy
 .
 MiniWindowManager
 .
-popTab
+popTabs
 (
 TabContextMenu
 .
-contextTab
+contextTabs
 "
 tab_context_menu
 "
