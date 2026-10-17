@@ -114,6 +114,7 @@ api
 :
 :
 {
+AlphaMode
 ExtendMode
 GradientStop
 }
@@ -383,6 +384,10 @@ extend_mode
 :
 ExtendMode
 pub
+alpha_mode
+:
+AlphaMode
+pub
 center
 :
 LayoutVector2D
@@ -510,6 +515,9 @@ end_offset
 self
 .
 extend_mode
+self
+.
+alpha_mode
 &
 self
 .
@@ -676,6 +684,11 @@ extend_mode
 item
 .
 extend_mode
+alpha_mode
+:
+item
+.
+alpha_mode
 params
 :
 item

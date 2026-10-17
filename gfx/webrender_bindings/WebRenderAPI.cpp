@@ -9573,6 +9573,11 @@ LayoutSize
 aTileSpacing
 bool
 aForceAntiAliasing
+wr
+:
+:
+AlphaMode
+aAlphaMode
 )
 {
 wr_dp_push_linear_gradient
@@ -9597,6 +9602,7 @@ Length
 (
 )
 aExtendMode
+aAlphaMode
 aTileSize
 aTileSpacing
 )
@@ -9667,6 +9673,11 @@ LayoutSize
 aTileSpacing
 bool
 aForceAntiAliasing
+wr
+:
+:
+AlphaMode
+aAlphaMode
 )
 {
 wr_dp_push_radial_gradient
@@ -9691,6 +9702,7 @@ Length
 (
 )
 aExtendMode
+aAlphaMode
 aTileSize
 aTileSpacing
 )
@@ -9755,6 +9767,11 @@ wr
 :
 LayoutSize
 aTileSpacing
+wr
+:
+:
+AlphaMode
+aAlphaMode
 )
 {
 wr_dp_push_conic_gradient
@@ -9778,6 +9795,7 @@ Length
 (
 )
 aExtendMode
+aAlphaMode
 aTileSize
 aTileSpacing
 )

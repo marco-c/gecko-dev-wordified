@@ -129,6 +129,7 @@ api
 :
 :
 {
+AlphaMode
 ExtendMode
 GradientStop
 }
@@ -376,6 +377,10 @@ pub
 extend_mode
 :
 ExtendMode
+pub
+alpha_mode
+:
+AlphaMode
 /
 /
 Relative
@@ -583,6 +588,9 @@ end
 self
 .
 extend_mode
+self
+.
+alpha_mode
 &
 self
 .
@@ -2327,6 +2335,11 @@ extend_mode
 item
 .
 extend_mode
+alpha_mode
+:
+item
+.
+alpha_mode
 start_point
 end_point
 stretch_ratio
