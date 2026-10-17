@@ -520,8 +520,12 @@ nsresult
 SubstitutingURL
 :
 :
-EnsureFile
+ResolveFile
 (
+nsIFile
+*
+*
+aResult
 )
 {
 nsAutoCString
@@ -740,10 +744,7 @@ return
 net_GetFileFromURLSpec
 (
 spec
-getter_AddRefs
-(
-mFile
-)
+aResult
 )
 ;
 }

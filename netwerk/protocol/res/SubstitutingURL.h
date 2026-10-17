@@ -117,8 +117,12 @@ nodiscard
 ]
 virtual
 nsresult
-EnsureFile
+ResolveFile
 (
+nsIFile
+*
+*
+aResult
 )
 override
 ;
