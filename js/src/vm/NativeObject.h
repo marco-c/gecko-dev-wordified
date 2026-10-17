@@ -11580,7 +11580,7 @@ as
 PrivateValue
 .
 Be
-very
+extremely
 careful
 when
 using
@@ -11589,9 +11589,9 @@ because
 the
 object
 might
+/
+/
 be
-/
-/
 moved
 in
 memory
@@ -11601,8 +11601,11 @@ template
 typename
 T
 >
+GCPtr
+<
 T
 *
+>
 *
 addressOfFixedSlotPrivatePtr
 (
@@ -11655,8 +11658,11 @@ slot
 return
 reinterpret_cast
 <
+GCPtr
+<
 T
 *
+>
 *
 >
 (
