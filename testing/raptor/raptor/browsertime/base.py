@@ -8107,6 +8107,17 @@ MOZ_REMOTE_SETTINGS_DEVTOOLS
 1
 "
         
+env
+[
+"
+MOZ_REMOTE_SETTINGS_DISABLED
+"
+]
+=
+"
+1
+"
+        
 if
 self
 .
