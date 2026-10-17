@@ -719,6 +719,12 @@ FirstSubsumedFrame
 rhs
 )
 :
+cx
+(
+rhs
+.
+cx
+)
 principals
 (
 rhs
