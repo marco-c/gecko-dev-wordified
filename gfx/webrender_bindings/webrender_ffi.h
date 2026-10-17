@@ -327,12 +327,6 @@ macro
 (
 box_shadow
 )
-\
-comma_like_delim
-macro
-(
-path
-)
 /
 /
 Prelude

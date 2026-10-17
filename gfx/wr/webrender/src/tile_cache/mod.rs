@@ -19658,15 +19658,6 @@ Image
 .
 .
 }
-|
-ClipItemKind
-:
-:
-Path
-{
-.
-.
-}
 =
 >
 Some

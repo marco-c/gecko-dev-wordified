@@ -9073,7 +9073,6 @@ renderer
 {
 GpuBufferBuilderF
 GpuBufferBuilderI
-PathEdgeBufferBuilder
 }
 }
 ;
@@ -9174,17 +9173,6 @@ FrameId
 first
 (
 )
-)
-edges
-:
-PathEdgeBufferBuilder
-:
-:
-new
-(
-&
-frame_memory
-0
 )
 }
 ;
