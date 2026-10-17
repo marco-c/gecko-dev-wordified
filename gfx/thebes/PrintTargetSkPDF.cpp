@@ -2153,6 +2153,12 @@ mState
 -
 >
 mCanvas
+/
+*
+aSupportsGlyphSourceText
+*
+/
+true
 )
 ;
 if
