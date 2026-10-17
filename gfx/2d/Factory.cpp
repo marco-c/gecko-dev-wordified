@@ -3752,8 +3752,6 @@ CreateDrawTargetWithSkCanvas
 SkCanvas
 *
 aCanvas
-bool
-aSupportsGlyphSourceText
 )
 {
 RefPtr
@@ -3775,7 +3773,6 @@ newTarget
 Init
 (
 aCanvas
-aSupportsGlyphSourceText
 )
 )
 {
