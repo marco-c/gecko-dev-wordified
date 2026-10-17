@@ -87,7 +87,7 @@ devtools_tabdescriptor
 maxLogLevel
 :
 "
-Warn
+warn
 "
 }
 )
@@ -1692,7 +1692,7 @@ logger
 shouldLog
 (
 "
-Debug
+debug
 "
 )
 )

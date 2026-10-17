@@ -2803,7 +2803,7 @@ uitour
 loglevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -3965,7 +3965,7 @@ abouthome_cache
 loglevel
 "
 "
-Warn
+warn
 "
 )
 ;
@@ -5211,7 +5211,7 @@ urlbar
 loglevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -12958,7 +12958,7 @@ view
 logLevel
 "
 "
-Warn
+warn
 "
 )
 ;
@@ -16777,7 +16777,7 @@ sessionstore
 loglevel
 "
 "
-Warn
+warn
 "
 )
 ;
@@ -16794,7 +16794,7 @@ sessionstore
 loglevel
 "
 "
-Debug
+debug
 "
 )
 ;
@@ -17511,7 +17511,7 @@ places
 loglevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -28802,7 +28802,7 @@ smartwindow
 memoriesLogLevel
 "
 "
-Warn
+warn
 "
 )
 ;
@@ -29204,7 +29204,7 @@ autoTabGrouping
 loglevel
 "
 "
-Warn
+warn
 "
 )
 ;
@@ -29767,7 +29767,7 @@ aiTabHistory
 logLevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -29783,7 +29783,7 @@ aiTabStore
 logLevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -29799,7 +29799,7 @@ chatHistory
 loglevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -29815,7 +29815,7 @@ chatStore
 loglevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -29831,7 +29831,7 @@ conversation
 logLevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -29847,7 +29847,7 @@ conversationHistory
 logLevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -29863,7 +29863,7 @@ conversationStore
 logLevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -29879,7 +29879,7 @@ smartbarMentions
 loglevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -29893,7 +29893,7 @@ smartwindow
 telemetryLogLevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -35494,7 +35494,7 @@ esedbreader
 loglevel
 "
 "
-Error
+error
 "
 )
 ;
@@ -42935,7 +42935,7 @@ helper
 loglevel
 "
 "
-Error
+error
 "
 )
 ;

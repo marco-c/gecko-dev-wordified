@@ -100,7 +100,7 @@ devtools_adb
 maxLogLevel
 :
 "
-Warn
+warn
 "
 }
 )

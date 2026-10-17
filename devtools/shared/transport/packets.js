@@ -337,7 +337,7 @@ devtools_rdp
 maxLogLevel
 :
 "
-Warn
+warn
 "
 }
 )
@@ -1152,7 +1152,7 @@ logger
 shouldLog
 (
 "
-Debug
+debug
 "
 )
 )
