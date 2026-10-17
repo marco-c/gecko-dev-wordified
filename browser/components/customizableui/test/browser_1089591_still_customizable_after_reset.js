@@ -34,8 +34,6 @@ document
 getElementById
 (
 "
-wrapper
--
 history
 -
 panelmenu
@@ -107,8 +105,6 @@ document
 getElementById
 (
 "
-wrapper
--
 history
 -
 panelmenu
