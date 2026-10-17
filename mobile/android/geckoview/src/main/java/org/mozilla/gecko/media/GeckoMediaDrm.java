@@ -65,13 +65,6 @@ gecko
 .
 media
 ;
-import
-android
-.
-media
-.
-MediaCrypto
-;
 public
 interface
 GeckoMediaDrm
@@ -224,11 +217,6 @@ sessionId
 ;
 void
 release
-(
-)
-;
-MediaCrypto
-getMediaCrypto
 (
 )
 ;
