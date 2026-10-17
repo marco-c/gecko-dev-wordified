@@ -3057,6 +3057,8 @@ aElement
 nsHtml5HtmlAttributes
 *
 aAttributes
+bool
+aNotify
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
