@@ -1576,6 +1576,10 @@ one
 is
 available
 .
+#
+[
+inline
+]
 pub
 fn
 rule_types
