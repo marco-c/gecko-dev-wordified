@@ -1537,9 +1537,11 @@ SidebarController
 .
 _state
 .
-launcherExpanded
-=
+updateVisibility
+(
 true
+true
+)
 ;
 await
 SidebarController
@@ -2355,9 +2357,11 @@ SidebarController
 .
 _state
 .
-launcherExpanded
-=
+updateVisibility
+(
 true
+true
+)
 ;
 await
 SidebarController
