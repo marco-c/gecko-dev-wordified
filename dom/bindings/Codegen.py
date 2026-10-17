@@ -115738,6 +115738,31 @@ getDeps
 (
 )
         
+self
+.
+_isIteratorInterface
+=
+(
+            
+descriptor
+.
+interface
+.
+isIteratorInterface
+(
+)
+            
+or
+descriptor
+.
+interface
+.
+isAsyncIteratorInterface
+(
+)
+        
+)
+        
 iteratorCGThings
 =
 None
@@ -115951,32 +115976,11 @@ cgThings
 [
 ]
         
-isIteratorInterface
-=
-(
-            
-descriptor
-.
-interface
-.
-isIteratorInterface
-(
-)
-            
-or
-descriptor
-.
-interface
-.
-isAsyncIteratorInterface
-(
-)
-        
-)
-        
 if
 not
-isIteratorInterface
+self
+.
+_isIteratorInterface
 :
             
 cgThings
@@ -117867,7 +117871,9 @@ concrete
 and
 (
             
-isIteratorInterface
+self
+.
+_isIteratorInterface
             
 or
 (
@@ -118079,10 +118085,14 @@ append
                     
 CGWrapNonWrapperCacheMethod
 (
+                        
 descriptor
 static
 =
-isIteratorInterface
+self
+.
+_isIteratorInterface
+                    
 )
                 
 )
@@ -118420,7 +118430,9 @@ haveLegacyWindowAliases
                     
 static
 =
-isIteratorInterface
+self
+.
+_isIteratorInterface
                 
 )
             
@@ -118478,7 +118490,9 @@ hasChildInterfaces
                     
 assert
 not
-isIteratorInterface
+self
+.
+_isIteratorInterface
                     
 cgThings
 .
@@ -118672,6 +118686,44 @@ forward_declare
 self
 )
 :
+        
+#
+If
+this
+is
+a
+generated
+iterator
+interface
+we
+only
+create
+these
+        
+#
+in
+the
+generated
+bindings
+and
+don
+'
+t
+need
+to
+forward
+declare
+.
+        
+if
+self
+.
+_isIteratorInterface
+:
+            
+return
+"
+"
         
 return
 f
@@ -164776,15 +164828,8 @@ h
 ]
 )
         
-names
+descriptors
 =
-list
-(
-)
-        
-for
-d
-in
 config
 .
 getDescriptors
@@ -164793,16 +164838,12 @@ isSerializable
 =
 True
 )
-:
-            
-names
-.
-append
-(
+        
+for
 d
-.
-name
-)
+in
+descriptors
+:
             
 defineIncludes
 .
@@ -164821,7 +164862,7 @@ interface
 if
 len
 (
-names
+descriptors
 )
 =
 =
@@ -165113,7 +165154,7 @@ things
 if
 len
 (
-names
+descriptors
 )
 >
 20
@@ -165155,7 +165196,7 @@ table
 %
 len
 (
-names
+descriptors
 )
             
 )
@@ -165176,13 +165217,27 @@ ordering
 .
         
 for
-name
+d
 in
 sorted
 (
-names
+descriptors
+key
+=
+lambda
+descriptor
+:
+descriptor
+.
+name
 )
 :
+            
+name
+=
+d
+.
+name
             
 exposedGlobals
 =
