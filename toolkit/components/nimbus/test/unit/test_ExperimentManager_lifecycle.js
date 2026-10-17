@@ -209,13 +209,8 @@ setupTest
 init
 :
 false
-storePath
+populateStore
 :
-await
-NimbusTestUtils
-.
-createStoreWith
-(
 store
 =
 >
@@ -359,7 +354,6 @@ test
 )
 ;
 }
-)
 migrationState
 :
 NimbusTestUtils
@@ -557,13 +551,8 @@ setupTest
 init
 :
 false
-storePath
+populateStore
 :
-await
-NimbusTestUtils
-.
-createStoreWith
-(
 store
 =
 >
@@ -593,7 +582,6 @@ control
 )
 ;
 }
-)
 migrationState
 :
 NimbusTestUtils
@@ -3023,13 +3011,8 @@ NimbusTestUtils
 migrationState
 .
 LATEST
-storePath
+populateStore
 :
-await
-NimbusTestUtils
-.
-createStoreWith
-(
 store
 =
 >
@@ -3083,7 +3066,6 @@ devtools
 )
 ;
 }
-)
 }
 )
 ;
@@ -3206,13 +3188,8 @@ NimbusTestUtils
 migrationState
 .
 LATEST
-storePath
+populateStore
 :
-await
-NimbusTestUtils
-.
-createStoreWith
-(
 store
 =
 >
@@ -3274,7 +3251,6 @@ devtools
 )
 ;
 }
-)
 }
 )
 ;
@@ -3503,14 +3479,8 @@ NimbusTestUtils
 migrationState
 .
 LATEST
-storePath
+populateStore
 :
-await
-NimbusTestUtils
-.
-createStoreWith
-(
-async
 store
 =
 >
@@ -3529,7 +3499,6 @@ by
 Remote
 Settings
 .
-await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -3558,7 +3527,6 @@ loader
 }
 )
 ;
-await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -3599,7 +3567,6 @@ out
 }
 )
 ;
-await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -3628,7 +3595,6 @@ loader
 }
 )
 ;
-await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -3690,7 +3656,6 @@ nimbus
 devtools
 )
 .
-await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -3719,7 +3684,6 @@ enrollment
 }
 )
 ;
-await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -3760,7 +3724,6 @@ out
 }
 )
 ;
-await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -3789,7 +3752,6 @@ devtools
 }
 )
 ;
-await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -3831,7 +3793,6 @@ out
 )
 ;
 }
-)
 init
 :
 false
@@ -4973,13 +4934,8 @@ NimbusTestUtils
 migrationState
 .
 LATEST
-storePath
+populateStore
 :
-await
-NimbusTestUtils
-.
-createStoreWith
-(
 store
 =
 >
@@ -5406,7 +5362,6 @@ seen
 )
 ;
 }
-)
 }
 )
 ;
