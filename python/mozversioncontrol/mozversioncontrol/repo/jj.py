@@ -961,6 +961,22 @@ self
 HEAD_REVSET
 )
     
+property
+    
+def
+is_shallow
+(
+self
+)
+:
+        
+return
+self
+.
+_git
+.
+is_shallow
+    
 def
 is_cinnabar_repo
 (
