@@ -15,7 +15,7 @@ EDIT
 tzdata
 version
 =
-2026b
+2026e
 #
 ifndef
 builtin_intl_TimeZoneDataGenerated_h
