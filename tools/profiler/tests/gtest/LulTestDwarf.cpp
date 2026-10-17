@@ -17015,6 +17015,12 @@ mLen
 =
 0
 ;
+si
+.
+mContents
+=
+mBacking
+;
 #
 define
 XX
@@ -17212,6 +17218,14 @@ TaggedUWord
 )
 ;
 }
+uint8_t
+mBacking
+[
+64
+]
+{
+}
+;
 StackImage
 si
 ;
