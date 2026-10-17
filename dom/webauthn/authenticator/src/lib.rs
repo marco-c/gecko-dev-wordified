@@ -336,6 +336,7 @@ transport
 :
 {
 BlinkResult
+CtapVersionSupport
 FidoDevice
 FidoDeviceIO
 FidoProtocol
