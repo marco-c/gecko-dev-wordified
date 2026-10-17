@@ -1556,8 +1556,6 @@ InsertOrUpdate
 (
 origin
 aWhen
-/
-PR_USEC_PER_SEC
 )
 ;
 return
