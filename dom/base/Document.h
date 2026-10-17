@@ -31067,13 +31067,6 @@ Flush
 )
 ;
 void
-MaybeAllowStorageForOpenerAfterUserInteraction
-(
-bool
-aHadPriorUserInteraction
-)
-;
-void
 MaybeStoreUserInteractionAsPermission
 (
 )
