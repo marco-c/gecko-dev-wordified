@@ -6650,10 +6650,13 @@ ContextDerived
 Describes
 compiler
 flags
+and
+dependencies
 specified
 for
 individual
 source
+    
 files
 .
 "
@@ -6664,10 +6667,16 @@ __slots__
 =
 (
 "
+path
+"
+"
 file_name
 "
 "
 flags
+"
+"
+object_deps
 "
 )
     
@@ -6676,8 +6685,12 @@ __init__
 (
 self
 context
-file_name
+path
 flags
+object_deps
+=
+(
+)
 )
 :
         
@@ -6691,15 +6704,29 @@ context
         
 self
 .
+path
+=
+path
+        
+self
+.
 file_name
 =
-file_name
+path
+.
+full_path
         
 self
 .
 flags
 =
 flags
+        
+self
+.
+object_deps
+=
+object_deps
 class
 JARManifest
 (

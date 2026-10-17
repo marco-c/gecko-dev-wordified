@@ -10658,16 +10658,25 @@ Path
 StrictOrderingOnAppendListWithFlagsFactory
 (
 {
+                
 "
 no_pgo
 "
 :
 bool
+                
 "
 flags
 "
 :
 List
+                
+"
+object_deps
+"
+:
+List
+            
 }
 )
         
