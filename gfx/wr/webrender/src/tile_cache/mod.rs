@@ -19658,6 +19658,15 @@ Image
 .
 .
 }
+|
+ClipItemKind
+:
+:
+Path
+{
+.
+.
+}
 =
 >
 Some

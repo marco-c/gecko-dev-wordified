@@ -1792,6 +1792,9 @@ surface_index
 data_stores
 .
 clip
+frame_context
+.
+dl_stores
 )
 ;
 quad
@@ -2361,6 +2364,9 @@ surface_index
 data_stores
 .
 clip
+frame_context
+.
+dl_stores
 )
 ;
 match
@@ -6419,6 +6425,9 @@ mut
 quad_clips
 clip_node_range
 clips
+frame_context
+.
+dl_stores
 )
 ;
 quad

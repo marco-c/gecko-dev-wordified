@@ -333,6 +333,7 @@ render_backend
 :
 {
 DataStores
+DlStores
 ScratchBuffer
 }
 ;
@@ -963,6 +964,13 @@ pub
 root_spatial_node_index
 :
 SpatialNodeIndex
+pub
+dl_stores
+:
+&
+'
+a
+DlStores
 }
 impl
 <
@@ -2057,6 +2065,10 @@ data_stores
 :
 &
 DataStores
+dl_stores
+:
+&
+DlStores
 scratch
 :
 &
@@ -2242,6 +2254,7 @@ scene
 .
 config
 root_spatial_node_index
+dl_stores
 }
 ;
 scene
@@ -3953,6 +3966,10 @@ data_stores
 :
 &
 DataStores
+dl_stores
+:
+&
+DlStores
 scratch
 :
 &
@@ -4310,6 +4327,7 @@ scene_properties
 mut
 transform_palette
 data_stores
+dl_stores
 scratch
 debug_flags
 debug_override
