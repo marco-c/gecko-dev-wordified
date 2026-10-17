@@ -2478,12 +2478,6 @@ uint32_t
 mNextNamespace
 ;
 uint32_t
-mIdNamespace
-;
-uint32_t
-mResourceId
-;
-uint32_t
 mUnstableProcessAttempts
 ;
 uint32_t
