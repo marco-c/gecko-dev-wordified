@@ -500,6 +500,9 @@ cs_line_decoration
 "
 cs_svg_filter_node
 "
+"
+cs_path_tile
+"
 ]
 {
 shaders
