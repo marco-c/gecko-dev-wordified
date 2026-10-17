@@ -21065,6 +21065,10 @@ CalculateCompositionSizeForFrame
 nsIFrame
 *
 aFrame
+bool
+aSubtractScrollbars
+=
+true
 const
 nsSize
 *
