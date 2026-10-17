@@ -1103,7 +1103,7 @@ mHeaderBytesSent
 mRtxSsrc
 mRetransmittedPacketsSent
 mRetransmittedBytesSent
-mTotalEncodedBytesTarget
+mTargetBitrate
 mFrameWidth
 mFrameHeight
 mFramesPerSecond
