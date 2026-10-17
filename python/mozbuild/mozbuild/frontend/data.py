@@ -9619,6 +9619,22 @@ cpp
                 
 "
 .
+dat
+"
+#
+ICU
+data
+read
+by
+icu_data
+.
+S
+via
+.
+incbin
+                
+"
+.
 inc
 "
                 
