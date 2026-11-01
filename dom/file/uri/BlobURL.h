@@ -164,7 +164,7 @@ mozilla
 dom
 {
 class
-BlobURLPrincipalEntry
+BlobURLNullOriginEntry
 ;
 /
 *
@@ -389,7 +389,7 @@ URLs
 .
 nsIPrincipal
 *
-GetNullPrincipal
+GetNullOriginPrincipal
 (
 )
 ;
@@ -458,9 +458,9 @@ mRevoked
 ;
 RefPtr
 <
-BlobURLPrincipalEntry
+BlobURLNullOriginEntry
 >
-mPrincipalEntry
+mNullOriginEntry
 ;
 public
 :
