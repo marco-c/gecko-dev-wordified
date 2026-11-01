@@ -394,9 +394,6 @@ HandleString
 input
 int32_t
 lastIndex
-MatchPairs
-*
-maybeMatches
 int32_t
 *
 result
