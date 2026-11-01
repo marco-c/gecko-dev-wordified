@@ -126,34 +126,6 @@ fix
 )
 :
     
-shell
-=
-False
-    
-if
-is_windows
-(
-)
-:
-        
-#
-The
-eslint
-binary
-needs
-to
-be
-run
-from
-a
-shell
-with
-msys
-        
-shell
-=
-True
-    
 encoding
 =
 "
@@ -182,11 +154,7 @@ subprocess
 .
 Popen
 (
-        
 cmd_args
-shell
-=
-shell
 stdout
 =
 subprocess
@@ -197,7 +165,6 @@ stderr
 subprocess
 .
 PIPE
-    
 )
     
 signal

@@ -1495,6 +1495,20 @@ exclude
 :
 ]
             
+linter
+[
+"
+global_exclude
+"
+]
+=
+self
+.
+exclude
+[
+:
+]
+            
 #
 Add
 in

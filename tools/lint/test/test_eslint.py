@@ -177,7 +177,7 @@ paths
 config
 [
 "
-exclude
+global_exclude
 "
 ]
 =
