@@ -153,8 +153,6 @@ IntRect
 &
 aFrameRect
 Func
-&
-&
 aFunc
 )
 {

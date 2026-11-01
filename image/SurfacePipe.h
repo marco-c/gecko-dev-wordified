@@ -1356,8 +1356,6 @@ WriteState
 WritePixels
 (
 Func
-&
-&
 aFunc
 )
 {
@@ -1684,8 +1682,6 @@ WriteState
 WritePixelBlocks
 (
 Func
-&
-&
 aFunc
 )
 {
@@ -2014,8 +2010,6 @@ WriteState
 WritePixelsToRow
 (
 Func
-&
-&
 aFunc
 )
 {
@@ -5492,8 +5486,6 @@ WriteState
 WritePixels
 (
 Func
-&
-&
 aFunc
 )
 {
@@ -5598,8 +5590,6 @@ WriteState
 WritePixelBlocks
 (
 Func
-&
-&
 aFunc
 )
 {
@@ -5706,8 +5696,6 @@ WriteState
 WritePixelsToRow
 (
 Func
-&
-&
 aFunc
 )
 {

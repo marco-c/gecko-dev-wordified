@@ -1161,7 +1161,6 @@ SetRTCStats
 (
 T
 &
-&
 aValue
 )
 {
@@ -1173,13 +1172,7 @@ std
 is_base_of_v
 <
 RTCStats
-std
-:
-:
-remove_cvref_t
-<
 T
->
 >
 "
 SetRTCStats
@@ -1293,6 +1286,9 @@ std
 :
 :
 forward
+<
+T
+>
 (
 aValue
 )

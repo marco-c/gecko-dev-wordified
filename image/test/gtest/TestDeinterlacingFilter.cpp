@@ -151,8 +151,6 @@ aSize
 bool
 aProgressiveDisplay
 Func
-&
-&
 aFunc
 )
 {
