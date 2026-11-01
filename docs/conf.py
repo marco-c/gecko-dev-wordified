@@ -328,6 +328,10 @@ sphinx_js
 "
     
 "
+js_typedef
+"
+    
+"
 sphinxcontrib
 .
 jquery
