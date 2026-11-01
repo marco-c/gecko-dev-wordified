@@ -9029,9 +9029,6 @@ unwrappedExceptionStack
 )
 ;
 }
-#
-ifdef
-DEBUG
 const
 JS
 :
@@ -9058,8 +9055,6 @@ unwrappedException
 )
 ;
 }
-#
-endif
 bool
 JSContext
 :
