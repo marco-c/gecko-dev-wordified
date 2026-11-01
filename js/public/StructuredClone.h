@@ -669,10 +669,12 @@ them
 )
 *
 /
-#
-define
+constexpr
+uint16_t
 JS_STRUCTURED_CLONE_VERSION
-8
+=
+9
+;
 namespace
 JS
 {
@@ -4846,6 +4848,10 @@ JS_SCERR_NOT_CLONABLE_WITH_COOP_COEP
 define
 JS_SCERR_TRANSFERABLE_TWICE
 9
+#
+define
+JS_SCERR_BAD_CLONE_VERSION
+10
 JS_PUBLIC_API
 bool
 JS_ReadUint32Pair

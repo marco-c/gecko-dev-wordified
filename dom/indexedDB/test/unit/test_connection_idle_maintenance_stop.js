@@ -79,7 +79,7 @@ checkpointing
 const
 cosmologicalConstant
 =
-35000
+40000
 ;
 /
 /
