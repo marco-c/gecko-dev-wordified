@@ -1326,7 +1326,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -2143,7 +2143,7 @@ platforms
 Bug
 1563234
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -2748,7 +2748,7 @@ geckoMutex
 }
 *
 /
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -3068,7 +3068,7 @@ Android
 Bug
 1563234
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
