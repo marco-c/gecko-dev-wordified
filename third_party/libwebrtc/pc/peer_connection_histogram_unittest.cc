@@ -2058,17 +2058,6 @@ Current
 ;
 pcf_deps
 .
-worker_thread
-=
-Thread
-:
-:
-Current
-(
-)
-;
-pcf_deps
-.
 signaling_thread
 =
 Thread

@@ -1912,7 +1912,6 @@ dependencies_
 MakeDependencies
 (
 signaling_thread_
-worker_thread_
 network_thread_
 )
 )
@@ -2150,9 +2149,6 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
-Thread
-*
 network_thread
 )
 {
@@ -2164,12 +2160,6 @@ dependencies
 network_thread
 =
 network_thread
-;
-dependencies
-.
-worker_thread
-=
-worker_thread
 ;
 dependencies
 .

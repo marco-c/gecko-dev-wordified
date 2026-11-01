@@ -1355,17 +1355,6 @@ Current
 ;
 d
 .
-worker_thread
-=
-Thread
-:
-:
-Current
-(
-)
-;
-d
-.
 signaling_thread
 =
 Thread
