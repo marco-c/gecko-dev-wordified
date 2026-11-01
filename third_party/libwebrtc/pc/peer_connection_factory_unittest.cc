@@ -1340,12 +1340,6 @@ Thread
 Current
 (
 )
-Thread
-:
-:
-Current
-(
-)
 scoped_refptr
 <
 AudioDeviceModule
@@ -2243,12 +2237,6 @@ nullptr
 /
 *
 network_thread
-*
-/
-nullptr
-/
-*
-worker_thread
 *
 /
 nullptr

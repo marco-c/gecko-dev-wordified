@@ -927,13 +927,6 @@ network_thread
 nullptr
 /
 *
-worker_thread
-=
-*
-/
-nullptr
-/
-*
 signaling_thread
 *
 /

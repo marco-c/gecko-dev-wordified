@@ -647,12 +647,6 @@ Thread
 Current
 (
 )
-Thread
-:
-:
-Current
-(
-)
 FakeAudioCaptureModule
 :
 :
