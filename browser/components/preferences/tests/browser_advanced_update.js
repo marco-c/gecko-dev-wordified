@@ -442,7 +442,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-general
+about
 "
 {
 leaveOpen
@@ -950,7 +950,7 @@ dialogClose
 ;
 closeBtn
 .
-doCommand
+click
 (
 )
 ;

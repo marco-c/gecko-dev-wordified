@@ -184,14 +184,8 @@ null
 const
 STARTUP_PANE
 =
-SRD_PREF_VALUE
-?
 "
 paneHome
-"
-:
-"
-paneGeneral
 "
 ;
 add_setup

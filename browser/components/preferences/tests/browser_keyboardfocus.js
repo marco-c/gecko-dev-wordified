@@ -41,7 +41,7 @@ await
 openPreferencesViaOpenPreferencesAPI
 (
 "
-paneGeneral
+accessibility
 "
 {
 leaveOpen
@@ -58,10 +58,10 @@ prefs
 .
 selectedPane
 "
-paneGeneral
+paneAccessibility
 "
 "
-General
+Accessibility
 pane
 was
 selected

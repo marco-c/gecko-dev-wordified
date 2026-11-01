@@ -145,7 +145,7 @@ await
 openPrefsTab
 (
 "
-general
+home
 "
 )
 ;
@@ -242,7 +242,7 @@ await
 openPrefsTab
 (
 "
-general
+home
 "
 )
 ;
@@ -353,7 +353,7 @@ await
 openPrefsTab
 (
 "
-general
+home
 "
 )
 ;
@@ -463,7 +463,7 @@ await
 openPrefsTab
 (
 "
-general
+home
 "
 )
 ;

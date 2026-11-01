@@ -259,7 +259,7 @@ t
 change
 anything
 await
-selectRedesignedHistoryMode
+selectHistoryMode
 (
 win
 "
@@ -284,7 +284,7 @@ mode
 )
 ;
 await
-selectRedesignedHistoryMode
+selectHistoryMode
 (
 win
 "
@@ -443,7 +443,7 @@ expect
 ;
 }
 await
-selectRedesignedHistoryMode
+selectHistoryMode
 (
 win
 mode
@@ -522,7 +522,7 @@ expect
 ;
 }
 await
-selectRedesignedHistoryMode
+selectHistoryMode
 (
 win
 "
