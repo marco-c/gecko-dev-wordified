@@ -1529,6 +1529,17 @@ params
 )
 override
 ;
+void
+SetMid
+(
+absl
+:
+:
+string_view
+mid
+)
+override
+;
 RtpParameters
 GetRtpSendParameters
 (
