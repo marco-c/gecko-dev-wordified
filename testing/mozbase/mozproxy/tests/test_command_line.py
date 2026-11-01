@@ -30,6 +30,10 @@ buildconfig
 import
 topobjdir
 topsrcdir
+from
+support
+import
+firefox_binary
 here
 =
 os
@@ -541,6 +545,7 @@ returncode
 def
 test_run_record_no_files
 (
+tmp_path
 )
 :
     
@@ -591,8 +596,15 @@ record
 -
 binary
 =
-firefox
 "
++
+firefox_binary
+(
+str
+(
+tmp_path
+)
+)
             
 "
 -
@@ -770,6 +782,7 @@ None
 def
 test_run_record_multiple_files
 (
+tmp_path
 )
 :
     
@@ -820,8 +833,15 @@ record
 -
 binary
 =
-firefox
 "
++
+firefox_binary
+(
+str
+(
+tmp_path
+)
+)
             
 "
 -
@@ -1027,6 +1047,7 @@ None
 def
 test_run_record
 (
+tmp_path
 )
 :
     
@@ -1077,8 +1098,15 @@ record
 -
 binary
 =
-firefox
 "
++
+firefox_binary
+(
+str
+(
+tmp_path
+)
+)
             
 "
 -
@@ -1311,6 +1339,7 @@ record_file
 def
 test_run_playback
 (
+tmp_path
 )
 :
     
@@ -1353,8 +1382,15 @@ local
 -
 binary
 =
-firefox
 "
++
+firefox_binary
+(
+str
+(
+tmp_path
+)
+)
             
 "
 -
