@@ -28,13 +28,6 @@ zero
 /
 *
 /
-const
-STATE_CHOOSE
-=
-"
-choose
-"
-;
 do_get_profile
 (
 )
@@ -6098,7 +6091,9 @@ properties
 {
 state
 :
-STATE_CHOOSE
+"
+creating
+"
 }
 }
 {
@@ -13138,7 +13133,9 @@ properties
 {
 state
 :
-STATE_CHOOSE
+"
+creating
+"
 }
 }
 {
