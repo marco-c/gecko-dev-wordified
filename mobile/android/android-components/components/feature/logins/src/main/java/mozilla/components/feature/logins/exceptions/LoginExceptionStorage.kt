@@ -151,7 +151,6 @@ LoginExceptions
 /
 *
 *
-*
 A
 storage
 implementation
@@ -211,6 +210,7 @@ origin
 *
 /
 override
+suspend
 fun
 addLoginException
 (
@@ -250,7 +250,6 @@ entity
 }
 }
 /
-*
 *
 *
 Returns
@@ -317,7 +316,6 @@ entity
 /
 *
 *
-*
 Returns
 all
 [
@@ -372,7 +370,6 @@ entity
 /
 *
 *
-*
 Removes
 the
 given
@@ -382,6 +379,7 @@ LoginException
 .
 *
 /
+suspend
 fun
 removeLoginException
 (
@@ -414,6 +412,7 @@ exceptionEntity
 )
 }
 override
+suspend
 fun
 isLoginExceptionByOrigin
 (
@@ -436,7 +435,6 @@ null
 /
 *
 *
-*
 Finds
 a
 [
@@ -447,6 +445,7 @@ origin
 .
 *
 /
+suspend
 fun
 findExceptionByOrigin
 (
@@ -488,7 +487,6 @@ it
 /
 *
 *
-*
 Removes
 all
 [
@@ -498,6 +496,7 @@ s
 .
 *
 /
+suspend
 fun
 deleteAllLoginExceptions
 (

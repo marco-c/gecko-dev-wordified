@@ -69,7 +69,6 @@ login
 /
 *
 *
-*
 Interface
 to
 be
@@ -115,6 +114,7 @@ an
 exception
 .
 *
+*
 param
 origin
 The
@@ -127,6 +127,7 @@ for
 .
 *
 /
+suspend
 fun
 isLoginExceptionByOrigin
 (
@@ -151,6 +152,7 @@ list
 implementation
 .
 *
+*
 param
 origin
 The
@@ -165,6 +167,7 @@ exceptions
 .
 *
 /
+suspend
 fun
 addLoginException
 (
