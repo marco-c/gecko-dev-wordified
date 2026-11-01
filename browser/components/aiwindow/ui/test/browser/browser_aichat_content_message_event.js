@@ -2339,9 +2339,7 @@ shadowRoot
 querySelector
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -2359,9 +2357,7 @@ ok
 (
 chip
 "
-ai
--
-website
+smartwindow
 -
 chip
 should

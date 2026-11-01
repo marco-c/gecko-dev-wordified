@@ -49,9 +49,7 @@ chat
 bubble
 shows
 one
-ai
--
-website
+smartwindow
 -
 chip
 per
@@ -759,9 +757,7 @@ shadowRoot
 querySelector
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -797,9 +793,7 @@ shadowRoot
 querySelectorAll
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -913,9 +907,7 @@ should
 render
 a
 single
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -1046,9 +1038,7 @@ websites
 should
 render
 two
-ai
--
-website
+smartwindow
 -
 chip
 elements
@@ -1204,9 +1194,7 @@ should
 not
 render
 individual
-ai
--
-website
+smartwindow
 -
 chip
 elements
@@ -1601,9 +1589,7 @@ shadowRoot
 querySelector
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "

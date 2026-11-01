@@ -1361,9 +1361,7 @@ innerList
 querySelectorAll
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -1850,9 +1848,7 @@ innerList
 querySelectorAll
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
