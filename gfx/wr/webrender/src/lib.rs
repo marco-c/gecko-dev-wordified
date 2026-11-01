@@ -1460,7 +1460,6 @@ composite
 :
 :
 {
-LayerCompositor
 CompositorInputConfig
 CompositorSurfaceUsage
 ClipRadius
