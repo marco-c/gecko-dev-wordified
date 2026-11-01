@@ -2265,8 +2265,6 @@ void
 destBuf
 )
 )
-<
-0
 )
 {
 return
