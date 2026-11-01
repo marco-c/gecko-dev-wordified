@@ -1482,9 +1482,6 @@ GeckoProcessType_Default
 case
 GeckoProcessType_Content
 :
-case
-GeckoProcessType_Socket
-:
 return
 Telemetry
 :

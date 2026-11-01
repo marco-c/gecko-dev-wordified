@@ -149,7 +149,7 @@ RDD
 rdd
 "
 )
-SOCKET
+OBSOLETE3
 (
 "
 socket
@@ -182,7 +182,7 @@ isolatedTab
 CONTENT_ISOLATED_WITH_ZYGOTE
 (
 "
-isolatedTabWithZygote
+zygoteTab
 "
 )
 ;

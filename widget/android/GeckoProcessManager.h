@@ -352,11 +352,6 @@ Param
 aInstance
 )
 ;
-void
-ObserveNetworkNotifications
-(
-)
-;
 private
 :
 java

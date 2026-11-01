@@ -1847,11 +1847,6 @@ inc
 #
 undef
 GECKO_PROCESS_TYPE
-bool
-XRE_IsSocketProcess
-(
-)
-;
 /
 *
 *

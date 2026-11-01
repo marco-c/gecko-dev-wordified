@@ -1518,15 +1518,6 @@ fallthrough
 ]
 ;
 case
-GeckoProcessType_Socket
-:
-[
-[
-fallthrough
-]
-]
-;
-case
 GeckoProcessType_Utility
 :
 break
