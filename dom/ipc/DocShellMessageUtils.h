@@ -241,7 +241,7 @@ dom
 PermitUnloadResult
 :
 :
-eCanceledByNavigate
+eInterceptedByNavigate
 >
 {
 }
