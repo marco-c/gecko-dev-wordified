@@ -6599,12 +6599,16 @@ self
 per_test_coverage
 :
                     
+final_env
+.
+update
+(
 self
 .
-set_coverage_env
+coverage_env
 (
-final_env
 is_baseline_test
+)
 )
                 
 try
