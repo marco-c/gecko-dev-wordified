@@ -2558,7 +2558,7 @@ aResolver
 {
 nsTArray
 <
-IPCClientCertObject
+CryptokiObject
 >
 objects
 ;
