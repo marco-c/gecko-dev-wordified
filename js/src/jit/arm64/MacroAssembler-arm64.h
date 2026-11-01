@@ -7163,7 +7163,7 @@ address
 )
 ;
 }
-void
+FaultingCodeRange
 store8
 (
 Imm32
@@ -7184,6 +7184,7 @@ value
 0
 )
 {
+return
 Strb
 (
 vixl
@@ -7195,8 +7196,6 @@ toMemOperand
 address
 )
 )
-;
-return
 ;
 }
 vixl
@@ -7242,6 +7241,7 @@ asUnsized
 )
 )
 ;
+return
 Strb
 (
 scratch32
@@ -7411,7 +7411,7 @@ address
 )
 ;
 }
-void
+FaultingCodeRange
 store16
 (
 Imm32
@@ -7432,6 +7432,7 @@ value
 0
 )
 {
+return
 Strh
 (
 vixl
@@ -7443,8 +7444,6 @@ toMemOperand
 address
 )
 )
-;
-return
 ;
 }
 vixl
@@ -7490,6 +7489,7 @@ asUnsized
 )
 )
 ;
+return
 Strh
 (
 scratch32
@@ -8229,7 +8229,7 @@ scratch64
 )
 ;
 }
-void
+FaultingCodeRange
 store32
 (
 Imm32
@@ -8250,6 +8250,7 @@ value
 0
 )
 {
+return
 Str
 (
 vixl
@@ -8261,8 +8262,6 @@ toMemOperand
 address
 )
 )
-;
-return
 ;
 }
 vixl
@@ -8309,6 +8308,7 @@ value
 )
 )
 ;
+return
 Str
 (
 scratch32
@@ -8565,7 +8565,7 @@ address
 )
 ;
 }
-void
+FaultingCodeRange
 store64
 (
 Imm64
@@ -8576,6 +8576,7 @@ Address
 address
 )
 {
+return
 storePtr
 (
 ImmWord

@@ -10163,7 +10163,7 @@ return
 fcr
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerMIPS64Compat
 :
 :
@@ -10199,6 +10199,7 @@ scratch2
 imm
 )
 ;
+return
 ma_store
 (
 scratch2
@@ -10275,7 +10276,7 @@ SizeByte
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerMIPS64Compat
 :
 :
@@ -10311,6 +10312,7 @@ scratch2
 imm
 )
 ;
+return
 ma_store
 (
 scratch2
@@ -10460,7 +10462,7 @@ SizeWord
 )
 ;
 }
-void
+FaultingCodeRange
 MacroAssemblerMIPS64Compat
 :
 :
@@ -10496,6 +10498,7 @@ src
 scratch2
 )
 ;
+return
 ma_store
 (
 scratch2

@@ -9255,7 +9255,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeRange
 store8
 (
 Imm32
@@ -9299,7 +9299,7 @@ Address
 address
 )
 ;
-void
+FaultingCodeRange
 store16
 (
 Imm32

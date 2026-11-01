@@ -374,6 +374,14 @@ MDefinition
 rhs
 )
 ;
+bool
+canStoreConstantWithoutRegister
+(
+MDefinition
+*
+value
+)
+;
 void
 lowerForALUInt64
 (

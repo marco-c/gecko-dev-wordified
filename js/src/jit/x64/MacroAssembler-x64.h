@@ -5575,7 +5575,7 @@ address
 )
 ;
 }
-void
+FaultingCodeRange
 store64
 (
 Imm64
@@ -5584,6 +5584,7 @@ Address
 address
 )
 {
+return
 storePtr
 (
 ImmWord
