@@ -7971,7 +7971,10 @@ every
 instance
 field
 is
-0
+a
+plain
+number
+literal
 .
 bool
 hasOnlyInlinableFields
