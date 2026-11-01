@@ -1313,16 +1313,6 @@ aOptions
 const
 Maybe
 <
-layers
-:
-:
-TextureFactoryIdentifier
->
-&
-aIdentifier
-const
-Maybe
-<
 uint64_t
 >
 &
@@ -1422,7 +1412,6 @@ framerate
 (
 )
 aOptions
-aIdentifier
 sRemoteMediaManagerParentThread
 decodeTaskQueue
 aMediaEngineId
