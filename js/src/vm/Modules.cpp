@@ -4622,8 +4622,7 @@ ModuleObject
 Synthetic
 modules
 and
-source
-phase
+wasm
 modules
 do
 not
@@ -4642,7 +4641,7 @@ hasSyntheticModuleFields
 |
 module
 .
-isSourcePhaseModule
+isWasmModule
 (
 )
 )
