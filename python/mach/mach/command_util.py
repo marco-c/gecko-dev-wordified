@@ -74,8 +74,6 @@ shlex
 import
 sys
 import
-types
-import
 uuid
 from
 collections
@@ -4772,24 +4770,9 @@ unknown
 parent
 .
         
-if
-"
-mach
+importlib
 .
-commands
-"
-not
-in
-sys
-.
-modules
-:
-            
-mod
-=
-types
-.
-ModuleType
+import_module
 (
 "
 mach
@@ -4797,19 +4780,6 @@ mach
 commands
 "
 )
-            
-sys
-.
-modules
-[
-"
-mach
-.
-commands
-"
-]
-=
-mod
         
 module_name
 =
