@@ -2886,6 +2886,13 @@ nsString
 aProtocols
 nsTArray
 <
+WebTransportHeader
+>
+&
+&
+aHeaders
+nsTArray
+<
 WebTransportHash
 >
 &
@@ -3021,6 +3028,13 @@ std
 move
 (
 aProtocols
+)
+std
+:
+:
+move
+(
+aHeaders
 )
 std
 :
