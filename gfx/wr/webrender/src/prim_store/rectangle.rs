@@ -172,6 +172,7 @@ Deserialize
 derive
 (
 MallocSizeOf
+Clone
 )
 ]
 pub
