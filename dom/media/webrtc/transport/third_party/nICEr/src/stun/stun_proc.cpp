@@ -2397,9 +2397,6 @@ _status
 ;
 abort
 :
-#
-ifdef
-USE_TURN
 assert
 (
 _status
@@ -2422,8 +2419,6 @@ reimplmement
 TURN
 *
 /
-#
-endif
 free
 (
 realm

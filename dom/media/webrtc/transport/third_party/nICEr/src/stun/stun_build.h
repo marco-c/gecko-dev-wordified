@@ -391,9 +391,6 @@ nr_stun_message
 msg
 )
 ;
-#
-ifdef
-USE_ICE
 typedef
 struct
 nr_stun_client_ice_binding_request_params_
@@ -449,13 +446,6 @@ nr_stun_message
 msg
 )
 ;
-#
-endif
-/
-*
-USE_ICE
-*
-/
 typedef
 struct
 nr_stun_client_auth_params_
@@ -481,9 +471,6 @@ password
 }
 nr_stun_client_auth_params
 ;
-#
-ifdef
-USE_TURN
 typedef
 struct
 nr_stun_client_allocate_request_params_
@@ -609,13 +596,6 @@ nr_stun_message
 msg
 )
 ;
-#
-endif
-/
-*
-USE_TURN
-*
-/
 int
 nr_stun_form_success_response
 (

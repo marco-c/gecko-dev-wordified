@@ -255,9 +255,6 @@ DAMAGE
 *
 /
 #
-ifdef
-USE_TURN
-#
 include
 <
 assert
@@ -7639,10 +7636,3 @@ return
 )
 ;
 }
-#
-endif
-/
-*
-USE_TURN
-*
-/

@@ -1410,9 +1410,6 @@ r
 ;
 }
 )
-#
-ifdef
-USE_ICE
 int
 nr_stun_message_add_ice_controlled_attribute
 (
@@ -1498,16 +1495,6 @@ NR_STUN_ATTR_USE_CANDIDATE
 {
 }
 )
-#
-endif
-/
-*
-USE_ICE
-*
-/
-#
-ifdef
-USE_TURN
 int
 nr_stun_message_add_data_attribute
 (
@@ -1586,10 +1573,3 @@ lifetime_secs
 ;
 }
 )
-#
-endif
-/
-*
-USE_TURN
-*
-/

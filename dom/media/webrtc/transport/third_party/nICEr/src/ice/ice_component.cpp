@@ -2059,9 +2059,6 @@ as_string
 )
 ;
 }
-#
-ifdef
-USE_TURN
 if
 (
 (
@@ -2630,13 +2627,6 @@ cand
 0
 ;
 }
-#
-endif
-/
-*
-USE_TURN
-*
-/
 }
 _status
 =
@@ -3810,9 +3800,6 @@ cand
 }
 }
 }
-#
-ifdef
-USE_TURN
 /
 *
 Create
@@ -4695,13 +4682,6 @@ cand
 0
 ;
 }
-#
-endif
-/
-*
-USE_TURN
-*
-/
 }
 _status
 =

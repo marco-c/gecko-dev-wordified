@@ -362,9 +362,6 @@ gtest_utils
 .
 h
 "
-#
-define
-USE_TURN
 /
 /
 nICEr
