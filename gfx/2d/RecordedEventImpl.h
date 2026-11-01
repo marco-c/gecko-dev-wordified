@@ -22458,6 +22458,15 @@ lengthHint
 ;
 gfxOTSContext
 otsContext
+(
+/
+*
+aDropShapingTables
+=
+*
+/
+true
+)
 ;
 if
 (
