@@ -1784,6 +1784,9 @@ window
 undefined
 {
 entryPoint
+triggeringEvent
+:
+event
 }
 )
 ;

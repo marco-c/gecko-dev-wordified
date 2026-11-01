@@ -1079,6 +1079,10 @@ document
 subDialogSetDefaultFocus
 =
 (
+isInitialFocus
+{
+focusVisible
+}
 )
 =
 >
@@ -1093,6 +1097,9 @@ sanitizeDurationChoice
 .
 focus
 (
+{
+focusVisible
+}
 )
 ;
 }
