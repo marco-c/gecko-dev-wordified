@@ -6712,13 +6712,17 @@ return
 None
         
 elif
-hasattr
+getattr
 (
 self
 "
 returncode
 "
+None
 )
+is
+not
+None
 :
             
 return
