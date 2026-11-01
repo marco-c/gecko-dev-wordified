@@ -6970,7 +6970,10 @@ template
 uint32_t
 opts
 >
-bool
+JSTracer
+:
+:
+TraceBufferResult
 MarkingTracerT
 <
 opts

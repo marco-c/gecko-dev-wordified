@@ -2045,7 +2045,10 @@ char
 name
 )
 ;
-bool
+JSTracer
+:
+:
+TraceBufferResult
 onBufferEdge
 (
 void

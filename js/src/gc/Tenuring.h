@@ -846,7 +846,7 @@ DEFINE_ON_EDGE_METHOD
 #
 undef
 DEFINE_ON_EDGE_METHOD
-bool
+TraceBufferResult
 onBufferEdge
 (
 void
