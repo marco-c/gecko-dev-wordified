@@ -10101,7 +10101,7 @@ expect
 (
 "
 Invoking
-Servo_Element_IsDisplayContents
+Servo_Element_IsDisplayNone
 on
 unstyled
 element
