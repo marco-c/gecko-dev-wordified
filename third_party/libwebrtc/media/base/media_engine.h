@@ -2294,7 +2294,9 @@ CreateRtpParametersWithOneEncoding
 RtpParameters
 CreateRtpParametersWithEncodings
 (
+const
 StreamParams
+&
 sp
 )
 ;
