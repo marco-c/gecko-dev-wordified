@@ -3211,6 +3211,15 @@ FuseIndex
 :
 ArrayProtoHasNoIndexedPropsFuse
 :
+case
+RealmFuses
+:
+:
+FuseIndex
+:
+:
+StringProtoHasNoIndexedPropsFuse
+:
 /
 /
 This
