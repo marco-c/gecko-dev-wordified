@@ -351,11 +351,7 @@ symbol
 "
 dependencies
 .
-build
--
-fat
--
-aar
+geckoview
 "
         
 )
@@ -440,13 +436,12 @@ in
 tasks
 :
         
-build_fat_aar
+geckoview
 =
 config
 .
 kind_dependencies_tasks
 [
-            
 task
 [
 "
@@ -455,18 +450,13 @@ dependencies
 ]
 [
 "
-build
--
-fat
--
-aar
+geckoview
 "
 ]
-        
 ]
         
 if
-build_fat_aar
+geckoview
 .
 attributes
 .
@@ -501,7 +491,7 @@ setdefault
 MOZ_UPDATE_CHANNEL
 "
                 
-build_fat_aar
+geckoview
 .
 attributes
 .
