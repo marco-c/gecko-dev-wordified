@@ -371,7 +371,7 @@ mShmProvider
 aShmProvider
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mShmProvider
 )
@@ -454,7 +454,7 @@ NS_ASSERT_OWNINGTHREAD
 FixedSizeSmallShmemSectionAllocator
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aSize
 =
@@ -462,7 +462,7 @@ aSize
 sSupportedBlockSize
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aShmemSection
 )
@@ -577,7 +577,7 @@ mUsedShmems
 i
 ]
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mUsedShmems
 [
@@ -666,7 +666,7 @@ shmem
 tmp
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 shmem
 .
@@ -784,7 +784,7 @@ heap
 allocationSize
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 allocHeader
 &
@@ -798,7 +798,7 @@ mStatus
 STATUS_FREED
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 allocHeader
 -
@@ -848,7 +848,7 @@ mSize
 aSize
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 allocHeader
 )
@@ -956,7 +956,7 @@ ShmemSection
 aShmemSection
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aShmemSection
 .
@@ -968,7 +968,7 @@ size
 sSupportedBlockSize
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aShmemSection
 .
@@ -1050,7 +1050,7 @@ offset
 headerSize
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 allocHeader
 -
@@ -1094,7 +1094,7 @@ is
 going
 on
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 success
 )

@@ -252,7 +252,7 @@ mCanSend
 true
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThread
 (
@@ -399,7 +399,7 @@ RepaintRequest
 aRequest
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsRepaintThread
 (
@@ -468,7 +468,7 @@ aTapType
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -559,14 +559,14 @@ DoubleTapToZoomMetrics
 aDoubleTapToZoomMetrics
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -757,7 +757,7 @@ aDoubleTapToZoomMetrics
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -800,7 +800,7 @@ thread
 #
 ifndef
 MOZ_WIDGET_ANDROID
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 )
@@ -1010,7 +1010,7 @@ Modifiers
 aModifiers
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -1244,7 +1244,7 @@ XRE_IsParentProcess
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -2226,7 +2226,7 @@ NotifyFlushComplete
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsRepaintThread
 (
@@ -2569,7 +2569,7 @@ ScrollableLayerGuid
 aGuid
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -2629,7 +2629,7 @@ ScrollableLayerGuid
 aGuid
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -2761,7 +2761,7 @@ float
 aScale
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -2891,7 +2891,7 @@ float
 aScale
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (

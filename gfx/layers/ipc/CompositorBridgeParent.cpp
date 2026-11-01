@@ -1543,7 +1543,7 @@ FinishShutdown
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -1686,14 +1686,14 @@ LayersId
 aLayerTreeId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -1766,7 +1766,7 @@ IsPaused
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1798,7 +1798,7 @@ LayersId
 aRootLayerTreeId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -1894,7 +1894,7 @@ Initialize
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThread
 (
@@ -1925,19 +1925,19 @@ UseAPZ
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mApzcTreeManager
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mApzSampler
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mApzUpdater
@@ -2029,7 +2029,7 @@ RootLayerTreeId
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mRootLayerTreeID
 .
@@ -2220,7 +2220,7 @@ StopAndClearResources
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2280,7 +2280,7 @@ before
 that
 happens
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 mApzSampler
@@ -2298,7 +2298,7 @@ nullptr
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 (
 mApzUpdater
@@ -2844,7 +2844,7 @@ DeferredDestroy
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 NS_IsMainThread
@@ -3502,7 +3502,7 @@ RenderReasons
 aReasons
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThread
 (
@@ -3552,7 +3552,7 @@ PauseComposition
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -3640,7 +3640,7 @@ ResumeComposition
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -3748,7 +3748,7 @@ return
 false
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -3862,7 +3862,7 @@ RenderReasons
 aReasons
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -3923,7 +3923,7 @@ the
 GPU
 process
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -3946,7 +3946,7 @@ in
 this
 compositor
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mOptions
 .
@@ -3971,12 +3971,12 @@ via
 RecvInitialize
 (
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mApzcTreeManager
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mApzUpdater
 )
@@ -3994,7 +3994,7 @@ because
 we
 assume
 mRootLayerTreeID
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aLayersId
@@ -4023,7 +4023,7 @@ mRootLayerTreeID
 lock
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 .
@@ -4037,7 +4037,7 @@ get
 this
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 state
@@ -4098,7 +4098,7 @@ XRE_IsGPUProcess
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -4127,7 +4127,7 @@ aLayersId
 lock
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 state
@@ -4170,7 +4170,7 @@ LayerTreeState
 aState
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -4180,7 +4180,7 @@ IsInCompositorThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aState
 .
@@ -4190,17 +4190,17 @@ mParent
 this
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mApzcTreeManager
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mApzUpdater
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aState
@@ -4693,7 +4693,7 @@ TimeStamp
 aTime
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -4843,7 +4843,7 @@ JankedAnimations
 aJankedAnimations
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aJankedAnimations
@@ -5022,7 +5022,7 @@ if
 mApzUpdater
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -5071,7 +5071,7 @@ if
 mApzUpdater
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -5104,12 +5104,12 @@ LayersId
 aLayersId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mApzUpdater
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -5174,7 +5174,7 @@ if
 mApzUpdater
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -5467,7 +5467,7 @@ LayersId
 aLayersId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_GetProcessType
 (
@@ -5477,7 +5477,7 @@ XRE_GetProcessType
 GeckoProcessType_GPU
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -5595,7 +5595,7 @@ RenderReasons
 aReasons
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_GetProcessType
 (
@@ -5605,7 +5605,7 @@ XRE_GetProcessType
 GeckoProcessType_GPU
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -5880,7 +5880,7 @@ iter
 >
 second
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 .
@@ -6445,7 +6445,7 @@ call
 it
 though
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -6762,7 +6762,7 @@ CompositorOptionsChangeKind
 eUnsupported
 :
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -6930,7 +6930,7 @@ if
 childWrBridge
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mWrBridge
 )
@@ -7267,7 +7267,7 @@ if
 parent
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mApzcTreeManager
 )
@@ -7339,7 +7339,7 @@ WindowKind
 aWindowKind
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 wr
 :
@@ -7353,13 +7353,13 @@ aPipelineId
 mRootLayerTreeID
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mWrBridge
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mCompositorScheduler
@@ -7879,7 +7879,7 @@ mRootLayerTreeID
 lock
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 .
@@ -7911,7 +7911,7 @@ EnsureWebRenderBridgeParentInitialized
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsInCompositorThread
 (
@@ -8136,7 +8136,7 @@ from
 gfx
 code
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -8342,7 +8342,7 @@ CompositorScheduler
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mCompositorScheduler
 )
@@ -9236,7 +9236,7 @@ LayersId
 aId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -9704,7 +9704,7 @@ TimeStamp
 aVsyncTimestamp
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -10122,7 +10122,7 @@ WebRenderPipelineInfo
 aInfo
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -10421,7 +10421,7 @@ MaybeDeclareStable
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -10796,7 +10796,7 @@ IsEmpty
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 stats
 .
@@ -10996,7 +10996,7 @@ use
 this
 method
 variant
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
