@@ -471,7 +471,7 @@ O
 thread
 )
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 IsOnVsyncIOThread
@@ -538,7 +538,7 @@ I
 O
 thread
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsOnVsyncIOThread
 (
