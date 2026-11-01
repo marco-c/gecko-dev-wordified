@@ -2725,7 +2725,7 @@ autofill
 label
 :
 "
-CVC
+CVV
 "
 comment
 :
@@ -2735,7 +2735,7 @@ makeCreditCardComment
 primary
 :
 "
-CVC
+CVV
 "
 secondary
 :
@@ -2746,7 +2746,7 @@ ariaLabel
 :
 "
 Visa
-CVC
+CVV
 6785
 "
 image
@@ -2817,7 +2817,7 @@ autofill
 label
 :
 "
-CVC
+CID
 "
 comment
 :
@@ -2827,7 +2827,7 @@ makeCreditCardComment
 primary
 :
 "
-CVC
+CID
 "
 secondary
 :
@@ -2839,7 +2839,7 @@ ariaLabel
 "
 American
 Express
-CVC
+CID
 1234
 "
 image
@@ -3024,7 +3024,7 @@ autofill
 label
 :
 "
-CVC
+CVV
 "
 comment
 :
@@ -3034,7 +3034,7 @@ makeCreditCardComment
 primary
 :
 "
-CVC
+CVV
 "
 secondary
 :
@@ -3045,7 +3045,7 @@ ariaLabel
 :
 "
 Visa
-CVC
+CVV
 6785
 "
 image
@@ -3116,7 +3116,7 @@ autofill
 label
 :
 "
-CVC
+CID
 "
 comment
 :
@@ -3126,7 +3126,7 @@ makeCreditCardComment
 primary
 :
 "
-CVC
+CID
 "
 secondary
 :
@@ -3138,7 +3138,7 @@ ariaLabel
 "
 American
 Express
-CVC
+CID
 1234
 "
 image
