@@ -153,7 +153,7 @@ enum
 class
 CalendarId
 :
-int32_t
+int8_t
 {
 ISO8601
 /
