@@ -5253,11 +5253,6 @@ ModuleObject
 *
 >
 module
-Handle
-<
-ExportNameVector
->
-exportNames
 )
 ;
 ModuleObject
