@@ -13,7 +13,6 @@ use
 ads_client
 :
 :
-{
 ads_store
 :
 :
@@ -21,8 +20,6 @@ builder
 :
 :
 AdsStoreBuilder
-MozAdsTelemetryWrapper
-}
 ;
 #
 [
@@ -299,12 +296,6 @@ db
 .
 build
 (
-MozAdsTelemetryWrapper
-:
-:
-noop
-(
-)
 )
 .
 expect
@@ -371,12 +362,6 @@ path
 .
 build
 (
-MozAdsTelemetryWrapper
-:
-:
-noop
-(
-)
 )
 .
 expect
@@ -430,12 +415,6 @@ new
 .
 build
 (
-MozAdsTelemetryWrapper
-:
-:
-noop
-(
-)
 )
 ;
 assert
