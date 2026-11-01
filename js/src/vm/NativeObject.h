@@ -13278,7 +13278,7 @@ elements
 *
 /
 static
-DenseElementResult
+bool
 maybeDensifySparseElements
 (
 JSContext
