@@ -1682,12 +1682,6 @@ TraceBufferRoot
 JSTracer
 *
 trc
-JS
-:
-:
-Zone
-*
-zone
 T
 *
 *
@@ -1698,6 +1692,14 @@ char
 name
 )
 {
+gc
+:
+:
+AssertRootMarkingPhase
+(
+trc
+)
+;
 void
 *
 *
@@ -1754,7 +1756,6 @@ buffer
 TraceBufferRoot
 (
 trc
-zone
 &
 buffer
 "
