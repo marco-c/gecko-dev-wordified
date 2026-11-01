@@ -7,12 +7,6 @@ test
 |
 -
 -
-fuzzing
--
-safe
-;
--
--
 blinterp
 -
 eager

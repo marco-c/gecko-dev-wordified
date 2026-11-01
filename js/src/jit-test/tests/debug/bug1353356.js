@@ -8,12 +8,6 @@ test
 allow
 -
 oom
-;
--
--
-fuzzing
--
-safe
 var
 lfLogBuffer
 =

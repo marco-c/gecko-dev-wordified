@@ -1,15 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
--
--
-fuzzing
--
-safe
 oomTest
 (
 Debugger
@@ -38,6 +26,5 @@ return
 ;
 dumpHeap
 (
-f
 )
 ;
