@@ -159,6 +159,16 @@ annotationEditorMode
 0
 )
 ;
+pref
+(
+"
+pdfjs
+.
+enableSignatureEditor
+"
+true
+)
+;
 #
 else
 pref
