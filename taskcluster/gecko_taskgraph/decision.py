@@ -1162,6 +1162,26 @@ toolchains
 {
         
 "
+head_git_repository
+"
+:
+"
+https
+:
+/
+/
+github
+.
+com
+/
+mozilla
+-
+firefox
+/
+firefox
+"
+        
+"
 target_tasks_method
 "
 :
