@@ -109,7 +109,6 @@ nsStubMutationObserver
 {
 public
 :
-explicit
 HTMLStyleElement
 (
 already_AddRefed
@@ -123,6 +122,8 @@ dom
 NodeInfo
 >
 aNodeInfo
+FromParser
+aFromParser
 )
 ;
 /
@@ -586,6 +587,9 @@ RefPtr
 nsDOMTokenList
 >
 mBlocking
+;
+FromParser
+mCreatedByParser
 ;
 }
 ;

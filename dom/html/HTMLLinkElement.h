@@ -146,7 +146,6 @@ SupportsDNSPrefetch
 {
 public
 :
-explicit
 HTMLLinkElement
 (
 already_AddRefed
@@ -160,6 +159,8 @@ dom
 NodeInfo
 >
 aNodeInfo
+FromParser
+aFromParser
 )
 ;
 /
@@ -1328,6 +1329,9 @@ nsCOMPtr
 nsIURI
 >
 mCachedURI
+;
+FromParser
+mCreatedByParser
 ;
 /
 /
