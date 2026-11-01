@@ -3116,7 +3116,7 @@ bool
 nsWindowWaylandToplevel
 :
 :
-IsPipWindow
+WaylandPipEnabled
 (
 )
 const
@@ -3174,7 +3174,7 @@ MaybeCreatePipResources
 if
 (
 !
-IsPipWindow
+WaylandPipEnabled
 (
 )
 )
@@ -3879,7 +3879,7 @@ EnableVSyncSource
 }
 if
 (
-IsPipWindow
+WaylandPipEnabled
 (
 )
 )
