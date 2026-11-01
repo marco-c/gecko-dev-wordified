@@ -15,12 +15,12 @@ EDIT
 tzdata
 version
 =
-2026e
+2026f
 const
 tzdata
 =
 "
-2026e
+2026f
 "
 ;
 if
