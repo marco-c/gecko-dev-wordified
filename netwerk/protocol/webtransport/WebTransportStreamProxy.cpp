@@ -236,8 +236,8 @@ WebTransportStreamProxy
 :
 SendStopSending
 (
-uint8_t
-aError
+uint64_t
+aErrorCode
 )
 {
 if
@@ -284,7 +284,7 @@ self
 }
 error
 (
-aError
+aErrorCode
 )
 ]
 (
@@ -308,7 +308,7 @@ mWebTransportStream
 >
 SendStopSending
 (
-aError
+aErrorCode
 )
 ;
 return
@@ -419,7 +419,7 @@ WebTransportStreamProxy
 :
 Reset
 (
-uint8_t
+uint64_t
 aErrorCode
 )
 {

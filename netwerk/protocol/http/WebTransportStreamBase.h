@@ -487,7 +487,7 @@ virtual
 void
 SendStopSending
 (
-uint8_t
+uint64_t
 aErrorCode
 )
 =

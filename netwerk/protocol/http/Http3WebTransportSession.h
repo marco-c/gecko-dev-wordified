@@ -698,8 +698,8 @@ OnStreamStopSending
 (
 uint64_t
 aId
-nsresult
-aError
+uint64_t
+aErrorCode
 )
 ;
 void
@@ -707,8 +707,8 @@ OnStreamReset
 (
 uint64_t
 aId
-nsresult
-aError
+uint64_t
+aErrorCode
 )
 ;
 private

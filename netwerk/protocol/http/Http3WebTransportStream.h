@@ -358,7 +358,7 @@ override
 void
 SendStopSending
 (
-uint8_t
+uint64_t
 aErrorCode
 )
 override
@@ -534,7 +534,7 @@ once
 .
 Maybe
 <
-uint8_t
+uint64_t
 >
 mStopSendingError
 ;

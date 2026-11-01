@@ -10715,8 +10715,8 @@ OnStopSendingInternal
 (
 uint64_t
 aStreamId
-nsresult
-aError
+uint64_t
+aErrorCode
 )
 {
 nsCOMPtr
@@ -10795,7 +10795,7 @@ RefPtr
 this
 }
 aStreamId
-aError
+aErrorCode
 ]
 {
 self
@@ -10804,7 +10804,7 @@ self
 OnStopSendingInternal
 (
 aStreamId
-aError
+aErrorCode
 )
 ;
 }
@@ -10843,7 +10843,7 @@ listener
 OnStopSending
 (
 aStreamId
-aError
+aErrorCode
 )
 ;
 }
@@ -10855,8 +10855,8 @@ OnStopSending
 (
 uint64_t
 aStreamId
-nsresult
-aError
+uint64_t
+aErrorCode
 )
 {
 MOZ_ASSERT
@@ -10906,7 +10906,7 @@ RefPtr
 this
 }
 aStreamId
-aError
+aErrorCode
 ]
 {
 self
@@ -10915,7 +10915,7 @@ self
 OnStopSendingInternal
 (
 aStreamId
-aError
+aErrorCode
 )
 ;
 }
@@ -10927,7 +10927,7 @@ aError
 OnStopSendingInternal
 (
 aStreamId
-aError
+aErrorCode
 )
 ;
 return
@@ -10942,8 +10942,8 @@ OnResetReceivedInternal
 (
 uint64_t
 aStreamId
-nsresult
-aError
+uint64_t
+aErrorCode
 )
 {
 nsCOMPtr
@@ -11022,7 +11022,7 @@ RefPtr
 this
 }
 aStreamId
-aError
+aErrorCode
 ]
 {
 self
@@ -11031,7 +11031,7 @@ self
 OnResetReceivedInternal
 (
 aStreamId
-aError
+aErrorCode
 )
 ;
 }
@@ -11070,7 +11070,7 @@ listener
 OnResetReceived
 (
 aStreamId
-aError
+aErrorCode
 )
 ;
 }
@@ -11082,8 +11082,8 @@ OnResetReceived
 (
 uint64_t
 aStreamId
-nsresult
-aError
+uint64_t
+aErrorCode
 )
 {
 MOZ_ASSERT
@@ -11133,7 +11133,7 @@ RefPtr
 this
 }
 aStreamId
-aError
+aErrorCode
 ]
 {
 self
@@ -11142,7 +11142,7 @@ self
 OnResetReceivedInternal
 (
 aStreamId
-aError
+aErrorCode
 )
 ;
 }
@@ -11154,7 +11154,7 @@ aError
 OnResetReceivedInternal
 (
 aStreamId
-aError
+aErrorCode
 )
 ;
 return

@@ -636,7 +636,7 @@ StreamStopSending
 Http3WebTransportStream
 *
 aStream
-uint8_t
+uint64_t
 aErrorCode
 )
 override

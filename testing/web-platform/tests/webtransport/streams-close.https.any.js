@@ -504,6 +504,8 @@ abort
 new
 WebTransportError
 (
+'
+'
 {
 streamErrorCode
 :
@@ -688,6 +690,8 @@ abort
 new
 WebTransportError
 (
+'
+'
 {
 streamErrorCode
 :
@@ -839,6 +843,8 @@ abort
 new
 WebTransportError
 (
+'
+'
 {
 streamErrorCode
 :
@@ -1023,6 +1029,8 @@ e
 new
 WebTransportError
 (
+'
+'
 {
 streamErrorCode
 :

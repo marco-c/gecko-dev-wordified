@@ -1275,8 +1275,8 @@ OnStopSendingInternal
 (
 uint64_t
 aStreamId
-nsresult
-aError
+uint64_t
+aErrorCode
 )
 ;
 void
@@ -1284,8 +1284,8 @@ OnResetReceivedInternal
 (
 uint64_t
 aStreamId
-nsresult
-aError
+uint64_t
+aErrorCode
 )
 ;
 nsCOMPtr
