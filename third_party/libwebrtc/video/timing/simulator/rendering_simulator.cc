@@ -1694,7 +1694,13 @@ streams
 .
 push_back
 (
+std
+:
+:
+move
+(
 stream
+)
 )
 ;
 }
