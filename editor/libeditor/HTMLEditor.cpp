@@ -27618,6 +27618,17 @@ aData
 ReplaceLength
 (
 )
+|
+|
+NS_WARN_IF
+(
+!
+aPointToInsert
+.
+IsInTextNode
+(
+)
+)
 ?
 InsertTextWithTransaction
 (
