@@ -372,6 +372,8 @@ uint32_t
 aFlags
 uint64_t
 aBrowserId
+uint32_t
+aUserContextId
 )
 final
 ;

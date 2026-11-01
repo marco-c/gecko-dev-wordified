@@ -1940,6 +1940,7 @@ IHistory
 :
 TOP_LEVEL
 0
+0
 )
 ;
 RefPtr
@@ -2062,6 +2063,7 @@ IHistory
 :
 TOP_LEVEL
 0
+0
 )
 ;
 finisher
@@ -2093,6 +2095,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 0
 )
 ;
@@ -2183,6 +2186,7 @@ IHistory
 :
 TOP_LEVEL
 0
+0
 )
 ;
 /
@@ -2221,6 +2225,7 @@ VisitURI
 nullptr
 visitedURI
 lastURI
+0
 0
 0
 )
@@ -2315,6 +2320,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 0
 )
 ;
@@ -2454,6 +2460,7 @@ IHistory
 :
 TOP_LEVEL
 0
+0
 )
 ;
 RefPtr
@@ -2566,6 +2573,7 @@ visitedURI
 nullptr
 0
 0
+0
 )
 ;
 RefPtr
@@ -2640,6 +2648,7 @@ IHistory
 :
 REDIRECT_SOURCE
 0
+0
 )
 ;
 {
@@ -2712,6 +2721,7 @@ IHistory
 :
 TOP_LEVEL
 0
+0
 )
 ;
 {
@@ -2781,6 +2791,7 @@ IHistory
 :
 :
 REDIRECT_SOURCE
+0
 0
 )
 ;
@@ -2894,6 +2905,7 @@ IHistory
 :
 TOP_LEVEL
 0
+0
 )
 ;
 RefPtr
@@ -2995,6 +3007,7 @@ VisitURI
 nullptr
 visitedURI
 lastURI
+0
 0
 0
 )
@@ -3117,6 +3130,7 @@ IHistory
 :
 :
 TOP_LEVEL
+0
 0
 )
 ;
