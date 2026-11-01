@@ -2316,7 +2316,7 @@ nsGkAtoms
 :
 :
 math
-ATK_ROLE_UNKNOWN
+ATK_ROLE_MATH
 NSAccessibilityUnknownRole
 "
 AXDocumentMath
