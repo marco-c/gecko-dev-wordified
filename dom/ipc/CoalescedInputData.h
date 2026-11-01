@@ -400,6 +400,7 @@ BrowserChild
 aBrowserChild
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 WillRefresh
