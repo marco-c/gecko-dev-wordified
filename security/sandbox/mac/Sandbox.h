@@ -106,7 +106,6 @@ MacSandboxType_Default
 MacSandboxType_Content
 MacSandboxType_GMP
 MacSandboxType_RDD
-MacSandboxType_Socket
 MacSandboxType_Utility
 MacSandboxType_GPU
 MacSandboxType_Invalid

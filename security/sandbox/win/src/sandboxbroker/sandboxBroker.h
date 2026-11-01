@@ -306,11 +306,6 @@ SetSecurityLevelForRDDProcess
 )
 ;
 bool
-SetSecurityLevelForSocketProcess
-(
-)
-;
-bool
 SetSecurityLevelForGMPlugin
 (
 GMPSandboxKind
