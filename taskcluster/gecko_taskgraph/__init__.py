@@ -895,7 +895,7 @@ util
 .
 verify
 import
-verifications
+profiled_verifications
     
 register_mozilla_taskgraph
 (
@@ -937,7 +937,7 @@ generator
 .
 verifications
 =
-verifications
+profiled_verifications
     
 #
 Workers
