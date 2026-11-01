@@ -833,7 +833,7 @@ modules
 /
 sframe
 /
-sframe_media_encryptor_interface
+sframe_encryption_config
 .
 h
 "
@@ -11680,15 +11680,12 @@ void
 WebRtcVoiceSendChannel
 :
 :
-SetSframeEncryptor
+SetSframeEncryptionConfig
 (
-scoped_refptr
-<
-SframeMediaEncryptorInterface
->
+SframeEncryptionConfig
 /
 *
-sframe_encryptor
+sframe_encryption_config
 *
 /
 )

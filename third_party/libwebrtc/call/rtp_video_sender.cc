@@ -2673,7 +2673,7 @@ require_frame_encryption
 ;
 video_config
 .
-sframe_required
+sframe_required_by_negotiation
 =
 rtp_config
 .
@@ -2683,13 +2683,13 @@ required
 ;
 video_config
 .
-sframe_encryptor
+sframe_encryption_config
 =
 rtp_config
 .
 sframe_options
 .
-encryptor
+encryption_config
 ;
 video_config
 .

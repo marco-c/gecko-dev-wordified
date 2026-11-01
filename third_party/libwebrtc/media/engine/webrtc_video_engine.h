@@ -571,7 +571,7 @@ modules
 /
 sframe
 /
-sframe_media_encryptor_interface
+sframe_encryption_config
 .
 h
 "
@@ -1728,13 +1728,10 @@ frame_encryptor
 override
 ;
 void
-SetSframeEncryptor
+SetSframeEncryptionConfig
 (
-scoped_refptr
-<
-SframeMediaEncryptorInterface
->
-sframe_encryptor
+SframeEncryptionConfig
+sframe_encryption_config
 )
 override
 ;
