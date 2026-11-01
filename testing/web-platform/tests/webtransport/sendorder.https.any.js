@@ -269,8 +269,9 @@ Create
 a
 bidirectional
 stream
-with
-sendorder
+without
+sendOrder
+option
 const
 {
 readable
@@ -290,6 +291,12 @@ writable
 .
 sendOrder
 0
+'
+sendOrder
+defaults
+to
+0
+'
 )
 ;
 /
@@ -400,8 +407,8 @@ Create
 a
 bidirectional
 stream
-without
-sendorder
+with
+sendOrder
 const
 {
 readable
