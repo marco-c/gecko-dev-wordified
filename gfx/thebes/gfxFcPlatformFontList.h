@@ -399,17 +399,6 @@ friend
 class
 gfxFcPlatformFontList
 ;
-using
-FTUserFontData
-=
-mozilla
-:
-:
-gfx
-:
-:
-FTUserFontData
-;
 public
 :
 /
@@ -559,7 +548,7 @@ GetFTFace
 (
 )
 ;
-FTUserFontData
+FontData
 *
 GetUserFontData
 (

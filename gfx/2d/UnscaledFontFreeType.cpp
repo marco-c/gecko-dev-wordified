@@ -548,7 +548,6 @@ Factory
 :
 NewSharedFTFace
 (
-nullptr
 mFile
 .
 c_str
@@ -1298,14 +1297,6 @@ if
 aNumVariations
 >
 0
-&
-&
-face
--
->
-GetData
-(
-)
 )
 {
 if
@@ -1319,11 +1310,6 @@ varFace
 face
 -
 >
-GetData
-(
-)
--
->
 CloneFace
 (
 )
@@ -1333,7 +1319,6 @@ face
 =
 varFace
 ;
-}
 }
 /
 /
@@ -1350,11 +1335,6 @@ face
 .
 if
 (
-aNumVariations
->
-0
-&
-&
 face
 !
 =
@@ -1375,6 +1355,7 @@ GetFace
 )
 )
 ;
+}
 }
 RefPtr
 scaledFont
