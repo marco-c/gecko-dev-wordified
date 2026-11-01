@@ -1047,6 +1047,11 @@ has_value
 void
 MaybeSendFastRetransmit
 (
+webrtc
+:
+:
+Timestamp
+now
 )
 ;
 /

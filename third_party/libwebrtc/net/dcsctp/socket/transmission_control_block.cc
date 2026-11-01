@@ -1102,6 +1102,7 @@ retransmission_queue_
 .
 HandleT3RtxTimerExpiry
 (
+now
 )
 ;
 SendBufferedPackets
@@ -1384,6 +1385,8 @@ TransmissionControlBlock
 :
 MaybeSendFastRetransmit
 (
+Timestamp
+now
 )
 {
 if
@@ -1542,6 +1545,7 @@ retransmission_queue_
 .
 GetChunksForFastRetransmit
 (
+now
 builder
 .
 bytes_remaining
