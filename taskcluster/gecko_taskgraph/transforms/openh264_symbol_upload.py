@@ -403,6 +403,29 @@ SYMBOL_SECRET
 "
 :
 symbol_secret
+                    
+"
+UPLOAD_SYMBOLS
+"
+:
+"
+/
+builds
+/
+worker
+/
+fetches
+/
+upload
+-
+symbols
+-
+cli
+/
+upload
+-
+symbols
+"
                 
 }
             
@@ -493,6 +516,26 @@ openh264
 dep_job
 .
 label
+}
+            
+"
+fetches
+"
+:
+{
+"
+fetch
+"
+:
+[
+"
+upload
+-
+symbols
+-
+linux64
+"
+]
 }
             
 "
