@@ -1240,6 +1240,11 @@ CreateAndOpenFile
 NS_tchar
 *
 filePath
+[
+[
+maybe_unused
+]
+]
 bool
 binary
 )

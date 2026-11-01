@@ -1110,7 +1110,11 @@ Observe
 (
 nsISupports
 *
+/
+*
 aSubject
+*
+/
 const
 char
 *
@@ -1118,7 +1122,11 @@ aTopic
 const
 char16_t
 *
+/
+*
 aData
+*
+/
 )
 {
 if
@@ -3766,7 +3774,11 @@ nsISelectionController
 *
 aSelectionController
 bool
+/
+*
 aIsFirstVisiblePreferred
+*
+/
 bool
 aFindPrev
 PresShell
@@ -6059,7 +6071,11 @@ aRange
 bool
 aMustBeInViewPort
 bool
+/
+*
 aGetTopVisibleLeaf
+*
+/
 bool
 *
 aUsesIndependentSelection

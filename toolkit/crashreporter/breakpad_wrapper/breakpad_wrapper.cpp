@@ -997,6 +997,11 @@ aAuxvInfo
 aContext
 ]
 (
+[
+[
+maybe_unused
+]
+]
 void
 *
 dump_context
@@ -1460,7 +1465,11 @@ phc
 :
 AddrInfo
 *
+/
+*
 aAddrInfo
+*
+/
 bool
 aSucceeded
 )

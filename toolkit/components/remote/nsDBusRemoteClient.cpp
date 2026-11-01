@@ -252,7 +252,11 @@ SendCommandLine
 const
 char
 *
+/
+*
 aProgram
+*
+/
 const
 char
 *
@@ -265,7 +269,11 @@ char
 *
 argv
 bool
+/
+*
 aRaise
+*
+/
 )
 {
 /
