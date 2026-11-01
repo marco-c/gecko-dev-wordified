@@ -2219,6 +2219,7 @@ aWhy
 {
 if
 (
+(
 aWhy
 =
 =
@@ -2226,6 +2227,16 @@ AbnormalShutdown
 |
 |
 mUnexpectedShutdown
+)
+&
+&
+!
+mHost
+-
+>
+WasKilledForTesting
+(
+)
 )
 {
 nsAutoCString

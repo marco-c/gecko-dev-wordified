@@ -13840,7 +13840,7 @@ NS_ERROR_NOT_INITIALIZED
 gpm
 -
 >
-KillProcess
+KillProcessForTesting
 (
 )
 ;
