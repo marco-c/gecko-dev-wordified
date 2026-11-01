@@ -255,6 +255,11 @@ OnAlertClick
 nsIAlertAction
 *
 aAction
+nsIAlertCallbacks
+:
+:
+ApplicationState
+aState
 )
 override
 {
@@ -266,6 +271,7 @@ NotificationCallbacksCommon
 OnAlertClick
 (
 aAction
+aState
 )
 )
 ;

@@ -1610,6 +1610,13 @@ mAlertCallbacks
 OnAlertClick
 (
 nullptr
+nsIAlertCallbacks
+:
+:
+ApplicationState
+:
+:
+UNKNOWN
 )
 ;
 }
@@ -1655,6 +1662,13 @@ mAlertCallbacks
 OnAlertClick
 (
 alertAction
+nsIAlertCallbacks
+:
+:
+ApplicationState
+:
+:
+UNKNOWN
 )
 ;
 }

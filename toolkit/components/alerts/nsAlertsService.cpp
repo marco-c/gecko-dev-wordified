@@ -373,6 +373,11 @@ OnAlertClick
 nsIAlertAction
 *
 aAction
+nsIAlertCallbacks
+:
+:
+ApplicationState
+aState
 )
 override
 {
@@ -385,6 +390,7 @@ mCallbacks
 OnAlertClick
 (
 aAction
+aState
 )
 :
 NS_OK
@@ -1150,6 +1156,11 @@ OnAlertClick
 nsIAlertAction
 *
 aAction
+nsIAlertCallbacks
+:
+:
+ApplicationState
+aState
 )
 override
 {

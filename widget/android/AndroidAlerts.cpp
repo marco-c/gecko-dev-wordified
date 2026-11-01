@@ -377,6 +377,13 @@ mAlertCallbacks
 OnAlertClick
 (
 action
+nsIAlertCallbacks
+:
+:
+ApplicationState
+:
+:
+UNKNOWN
 )
 ;
 return

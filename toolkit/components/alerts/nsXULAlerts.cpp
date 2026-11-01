@@ -245,6 +245,11 @@ OnAlertClick
 nsIAlertAction
 *
 aAction
+nsIAlertCallbacks
+:
+:
+ApplicationState
+aState
 )
 {
 if
@@ -264,6 +269,7 @@ mCallbacks
 OnAlertClick
 (
 aAction
+aState
 )
 ;
 }
@@ -1983,6 +1989,7 @@ alert
 xhtml
 "
 _ns
+u
 "
 _blank
 "
