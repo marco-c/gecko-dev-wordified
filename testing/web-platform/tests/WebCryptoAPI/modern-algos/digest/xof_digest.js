@@ -682,6 +682,16 @@ buffer
 while
 calling
 digest
+if
+(
+!
+buffer
+.
+buffer
+.
+detached
+)
+{
 buffer
 .
 buffer
@@ -690,6 +700,7 @@ transfer
 (
 )
 ;
+}
 return
 alg
 ;
