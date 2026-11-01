@@ -918,10 +918,6 @@ aRequest
 -
 >
 mReferrer
-aRequest
--
->
-mModuleType
 )
 ;
 NS_DispatchToMainThread
