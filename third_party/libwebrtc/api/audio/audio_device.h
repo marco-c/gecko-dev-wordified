@@ -1182,7 +1182,6 @@ ProcessingTimeStats
 GetAndResetCaptureProcessingTimeStats
 (
 )
-const
 {
 return
 std
