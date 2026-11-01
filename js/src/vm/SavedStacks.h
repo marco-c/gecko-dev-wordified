@@ -2144,7 +2144,7 @@ t
 sampled
 .
 static
-JSObject
+SavedFrame
 *
 buildAllocationMetadata
 (
