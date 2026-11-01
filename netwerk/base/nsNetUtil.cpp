@@ -10842,7 +10842,6 @@ other
 processes
 than
 :
-socket
 content
 or
 parent
@@ -10857,11 +10856,6 @@ a
 URL
 MOZ_ASSERT
 (
-XRE_IsSocketProcess
-(
-)
-|
-|
 XRE_IsContentProcess
 (
 )

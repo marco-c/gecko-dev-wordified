@@ -202,47 +202,6 @@ browser_dir
     
 ]
     
-#
-Disable
-the
-socket
-process
-(
-see
-https
-:
-/
-/
-bugzilla
-.
-mozilla
-.
-org
-/
-show_bug
-.
-cgi
-?
-id
-=
-1903631
-)
-.
-    
-env
-=
-{
-        
-"
-MOZ_DISABLE_SOCKET_PROCESS
-"
-:
-"
-1
-"
-    
-}
-    
 if
 args
 :
@@ -269,9 +228,5 @@ True
 ensure_exit_code
 =
 False
-        
-append_env
-=
-env
     
 )

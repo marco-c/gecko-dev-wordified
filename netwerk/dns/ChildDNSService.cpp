@@ -376,11 +376,6 @@ MOZ_ASSERT
 XRE_IsContentProcess
 (
 )
-|
-|
-XRE_IsSocketProcess
-(
-)
 )
 ;
 if
@@ -449,11 +444,6 @@ ChildDNSService
 MOZ_ASSERT
 (
 XRE_IsContentProcess
-(
-)
-|
-|
-XRE_IsSocketProcess
 (
 )
 )

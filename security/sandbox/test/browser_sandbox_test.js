@@ -177,9 +177,6 @@ processTypes
 tab
 "
 "
-socket
-"
-"
 rdd
 "
 "
