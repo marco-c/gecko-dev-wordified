@@ -6569,7 +6569,7 @@ PropertyProvider
 *
 aProvider
 Range
-aSpacingRange
+aProviderRange
 TextRunDrawParams
 &
 aParams
