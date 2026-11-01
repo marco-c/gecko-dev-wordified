@@ -1677,7 +1677,11 @@ OrientedIntRect
 &
 aFrameRect
 uint16_t
+/
+*
 aDepth
+*
+/
 bool
 aIsInterlaced
 )

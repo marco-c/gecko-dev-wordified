@@ -317,7 +317,11 @@ aOutputOptions
 const
 nsACString
 &
+/
+*
 aRandomizationKey
+*
+/
 )
 {
 /
@@ -585,7 +589,11 @@ aInputFormat
 const
 nsAString
 &
+/
+*
 aFrameOptions
+*
+/
 )
 {
 if
@@ -2339,7 +2347,11 @@ nsICOEncoder
 CloseWithStatus
 (
 nsresult
+/
+*
 aStatus
+*
+/
 )
 {
 return

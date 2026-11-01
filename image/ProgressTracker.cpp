@@ -159,7 +159,11 @@ void
 CheckProgressConsistency
 (
 Progress
+/
+*
 aOldProgress
+*
+/
 Progress
 aNewProgress
 bool

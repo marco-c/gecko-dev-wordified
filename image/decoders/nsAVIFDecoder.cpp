@@ -2761,7 +2761,11 @@ map
 const
 auto
 &
+/
+*
 nclx
+*
+/
 )
 {
 return
@@ -4562,7 +4566,11 @@ Dav1dFreeCallback_s
 const
 uint8_t
 *
+/
+*
 aBuf
+*
+/
 void
 *
 aCookie

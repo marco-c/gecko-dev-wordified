@@ -2401,7 +2401,11 @@ IsPending
 (
 bool
 *
+/
+*
 _retval
+*
+/
 )
 {
 return
@@ -2416,7 +2420,11 @@ GetStatus
 (
 nsresult
 *
+/
+*
 aStatus
+*
+/
 )
 {
 return

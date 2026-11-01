@@ -1476,7 +1476,11 @@ GetFrameAtSize
 const
 IntSize
 &
+/
+*
 aSize
+*
+/
 uint32_t
 aWhichFrame
 uint32_t
@@ -1557,7 +1561,11 @@ Maybe
 ImageIntRegion
 >
 &
+/
+*
 aRegion
+*
+/
 uint32_t
 aWhichFrame
 uint32_t

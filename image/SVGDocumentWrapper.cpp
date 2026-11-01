@@ -1626,7 +1626,11 @@ Observe
 (
 nsISupports
 *
+/
+*
 aSubject
+*
+/
 const
 char
 *
@@ -1634,7 +1638,11 @@ aTopic
 const
 char16_t
 *
+/
+*
 aData
+*
+/
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {

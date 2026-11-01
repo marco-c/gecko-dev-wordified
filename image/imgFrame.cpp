@@ -3463,7 +3463,11 @@ imgFrame
 Finish
 (
 Opacity
+/
+*
 aFrameOpacity
+*
+/
 /
 *
 =

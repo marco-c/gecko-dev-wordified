@@ -3344,7 +3344,11 @@ aThreshold
 size_t
 aBatch
 size_t
+/
+*
 aStartFrame
+*
+/
 )
 {
 /
@@ -4557,7 +4561,11 @@ aThreshold
 size_t
 aBatch
 size_t
+/
+*
 aStartFrame
+*
+/
 )
 {
 /

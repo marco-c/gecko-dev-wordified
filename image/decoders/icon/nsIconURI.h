@@ -496,7 +496,11 @@ Write
 (
 nsIObjectOutputStream
 *
+/
+*
 aOutputStream
+*
+/
 )
 override
 {

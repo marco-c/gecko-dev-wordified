@@ -212,7 +212,11 @@ uri
 const
 nsCString
 &
+/
+*
 aMimeType
+*
+/
 bool
 isMultiPart
 )
@@ -825,7 +829,11 @@ BadImage
 const
 char
 *
+/
+*
 aMessage
+*
+/
 RefPtr
 <
 T

@@ -762,7 +762,11 @@ principal
 ]
 (
 nsresult
+/
+*
 aError
+*
+/
 )
 {
 return
