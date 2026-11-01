@@ -15186,6 +15186,7 @@ using
 *
 /
 public
+final
 class
 MockLocationProvider
 {

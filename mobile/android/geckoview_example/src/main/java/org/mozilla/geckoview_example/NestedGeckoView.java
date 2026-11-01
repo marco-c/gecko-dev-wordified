@@ -208,6 +208,7 @@ coordinatorlayout
 *
 /
 public
+final
 class
 NestedGeckoView
 extends

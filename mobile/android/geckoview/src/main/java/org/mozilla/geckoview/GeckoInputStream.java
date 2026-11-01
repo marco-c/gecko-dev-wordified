@@ -451,7 +451,7 @@ expect
 )
 {
 final
-long
+int
 bytesRead
 =
 read

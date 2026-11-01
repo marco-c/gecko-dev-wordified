@@ -294,7 +294,6 @@ type
 /
 /
 *
-*
 package
 *
 /
