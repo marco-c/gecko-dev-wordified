@@ -1,4 +1,6 @@
 import
+functools
+import
 json
 import
 os
@@ -7116,13 +7118,16 @@ def
 defined
 (
 subst
+config
+=
+buildconfig
 )
 :
     
 return
 bool
 (
-buildconfig
+config
 .
 substs
 .
@@ -7135,6 +7140,9 @@ def
 read_manifest
 (
 filename
+config
+=
+buildconfig
 )
 :
     
@@ -7146,13 +7154,21 @@ glbl
 buildconfig
 "
 :
-buildconfig
+config
         
 "
 defined
 "
 :
+functools
+.
+partial
+(
 defined
+config
+=
+config
+)
         
 "
 ProcessSelector
