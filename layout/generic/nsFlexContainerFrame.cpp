@@ -39006,6 +39006,12 @@ if
 IsHiddenByContentVisibilityOfInFlowParentForLayout
 (
 )
+&
+&
+!
+GetNextContinuation
+(
+)
 )
 {
 return
@@ -46843,6 +46849,12 @@ aFragmentData
 if
 (
 HidesContentForLayout
+(
+)
+&
+&
+!
+GetNextContinuation
 (
 )
 )

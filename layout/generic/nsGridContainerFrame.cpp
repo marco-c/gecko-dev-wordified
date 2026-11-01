@@ -73956,6 +73956,12 @@ if
 HidesContentForLayout
 (
 )
+&
+&
+!
+GetNextContinuation
+(
+)
 )
 {
 return
@@ -75226,6 +75232,12 @@ NormalizeChildLists
 if
 (
 IsHiddenByContentVisibilityOfInFlowParentForLayout
+(
+)
+&
+&
+!
+GetNextContinuation
 (
 )
 )
