@@ -1277,6 +1277,13 @@ SendPendingAsyncMessages
 (
 )
 ;
+mImageBridge
+-
+>
+ClearAboutToSendAsyncMessages
+(
+)
+;
 if
 (
 mToDestroy
