@@ -896,6 +896,12 @@ ScreamFeedback
 parsed
 )
 ;
+TimeDelta
+ReactionInterval
+(
+)
+const
+;
 const
 Environment
 env_

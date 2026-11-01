@@ -217,9 +217,16 @@ L4sAvgGDown
 .
 0
 /
-128
+16
 .
 0
+)
+scale_l4s_alpha_with_rtt
+(
+"
+ScaleL4sAlphaWithRtt
+"
+true
 )
 rtts_with_loss_before_backoff
 (
@@ -737,6 +744,8 @@ min_ref_window
 l4s_avg_g_up
 &
 l4s_avg_g_down
+&
+scale_l4s_alpha_with_rtt
 &
 rtts_with_loss_before_backoff
 &
