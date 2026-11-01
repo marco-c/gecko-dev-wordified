@@ -460,12 +460,6 @@ PolicyContainerArgs
 >
 mPolicyContainerArgs
 ;
-nsCOMPtr
-<
-nsIContentSecurityPolicy
->
-mCSP
-;
 UniquePtr
 <
 OffThreadCSPContext

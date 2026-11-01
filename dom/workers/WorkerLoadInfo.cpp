@@ -724,10 +724,6 @@ reset
 (
 )
 ;
-mCSP
-=
-nullptr
-;
 mCSPContext
 =
 nullptr
@@ -773,7 +769,11 @@ policyContainerArgs
 )
 )
 ;
-mCSP
+if
+(
+nsIContentSecurityPolicy
+*
+csp
 =
 mPolicyContainer
 -
@@ -781,10 +781,6 @@ mPolicyContainer
 GetCSP
 (
 )
-;
-if
-(
-mCSP
 )
 {
 Result
@@ -802,7 +798,7 @@ OffThreadCSPContext
 :
 CreateFromCSP
 (
-mCSP
+csp
 )
 ;
 if
@@ -2133,7 +2129,7 @@ const
 uint32_t
 kDoomedCount
 =
-12
+11
 ;
 nsTArray
 <
@@ -2192,12 +2188,6 @@ doomed
 SwapToISupportsArray
 (
 mChannel
-doomed
-)
-;
-SwapToISupportsArray
-(
-mCSP
 doomed
 )
 ;
