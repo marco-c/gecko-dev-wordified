@@ -3926,7 +3926,7 @@ self
 .
 element_context
 .
-opaque_element
+random_seed
 (
 )
 .
@@ -3972,7 +3972,7 @@ self
 .
 element_context
 .
-opaque_element
+random_seed
 (
 )
 .
