@@ -356,9 +356,6 @@ DynamicImport
 bool
 IsSourcePhaseRequest
 (
-JSContext
-*
-aCx
 )
 const
 ;
