@@ -5074,6 +5074,9 @@ nativeTab
 renderDiscarded
 :
 true
+skipOnClose
+:
+false
 }
 )
 ;
