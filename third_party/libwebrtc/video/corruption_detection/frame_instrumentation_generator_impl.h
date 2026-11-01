@@ -251,7 +251,7 @@ FrameInstrumentationGeneratorImpl
 (
 const
 Environment
-*
+&
 environment
 VideoCodecType
 video_codec_type
