@@ -12365,10 +12365,7 @@ mNormalizedString
 std
 :
 :
-forward
-<
-nsAutoString
->
+move
 (
 aWhiteSpaces
 )
