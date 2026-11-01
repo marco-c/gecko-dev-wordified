@@ -169,6 +169,13 @@ target_locale
 current_compatible_version
 :
 {
+version
+:
+"
+2
+.
+0
+"
 files
 :
 [
