@@ -552,7 +552,7 @@ old
 =
 windows
 .
-fetch_update
+try_update
 (
 Relaxed
 Relaxed
@@ -649,7 +649,7 @@ now
 .
 windows
 .
-fetch_update
+try_update
 (
 Relaxed
 Relaxed
