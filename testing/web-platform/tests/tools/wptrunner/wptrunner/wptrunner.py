@@ -12,6 +12,8 @@ untyped
 -
 defs
 import
+gc
+import
 json
 import
 os
@@ -2398,6 +2400,27 @@ unexpected_pass_tests
 manager_group
 .
 unexpected_pass_tests
+(
+)
+        
+#
+Ensure
+we
+free
+multiprocessing
+queues
+and
+associated
+file
+handles
+        
+#
+between
+retries
+        
+gc
+.
+collect
 (
 )
     
