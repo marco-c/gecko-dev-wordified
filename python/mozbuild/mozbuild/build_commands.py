@@ -173,6 +173,14 @@ RISK
 strip
 (
 )
+class
+PriorityError
+(
+Exception
+)
+:
+    
+pass
 def
 _set_priority
 (
@@ -342,12 +350,44 @@ NICENESS_BY_PRIO_CLASS
 prio_class
 ]
         
+try
+:
+            
 os
 .
 nice
 (
 niceness
 )
+        
+except
+OSError
+as
+e
+:
+            
+raise
+PriorityError
+(
+f
+"
+os
+.
+nice
+(
+{
+niceness
+}
+)
+failed
+:
+{
+e
+}
+"
+)
+from
+e
         
 if
 verbose
@@ -385,7 +425,6 @@ niceness
 )
         
 return
-True
     
 try
 :
@@ -403,18 +442,51 @@ prio_class
     
 except
 ModuleNotFoundError
+as
+e
 :
         
-return
-False
+raise
+PriorityError
+(
+"
+psutil
+is
+not
+installed
+"
+)
+from
+e
     
 except
 AttributeError
+as
+e
 :
         
-return
-False
+raise
+PriorityError
+(
+f
+"
+psutil
+has
+no
+{
+prio_class
+}
+on
+this
+platform
+"
+)
+from
+e
     
+try
+:
+        
 psutil
 .
 Process
@@ -425,6 +497,45 @@ nice
 (
 prio_class_val
 )
+    
+except
+psutil
+.
+AccessDenied
+as
+e
+:
+        
+raise
+PriorityError
+(
+            
+f
+"
+psutil
+.
+Process
+(
+)
+.
+nice
+(
+psutil
+.
+{
+prio_class
+}
+)
+failed
+:
+{
+e
+}
+"
+        
+)
+from
+e
     
 if
 verbose
@@ -469,9 +580,6 @@ prio_class
 "
         
 )
-    
-return
-True
 #
 Interface
 to
@@ -1737,14 +1845,20 @@ same
 priority
 .
         
-if
-not
+try
+:
+            
 _set_priority
 (
 command_context
 priority
 verbose
 )
+        
+except
+PriorityError
+as
+e
 :
             
 command_context
@@ -1761,18 +1875,36 @@ priority
 "
                 
 {
+"
+priority
+"
+:
+priority
+"
+error
+"
+:
+str
+(
+e
+)
 }
                 
 "
--
--
-priority
+Could
 not
-supported
-on
-this
-platform
-.
+set
+the
+build
+priority
+to
+{
+priority
+}
+:
+{
+error
+}
 "
             
 )
