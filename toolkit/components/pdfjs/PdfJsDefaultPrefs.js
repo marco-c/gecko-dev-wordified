@@ -747,6 +747,16 @@ pref
 "
 pdfjs
 .
+rendererWorkerCount
+"
+1
+)
+;
+pref
+(
+"
+pdfjs
+.
 scrollModeOnLoad
 "
 -
