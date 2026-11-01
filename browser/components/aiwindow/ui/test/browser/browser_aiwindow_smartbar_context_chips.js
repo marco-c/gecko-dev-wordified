@@ -2353,7 +2353,9 @@ shadowRoot
 querySelector
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 "
@@ -2370,7 +2372,9 @@ shadowRoot
 querySelector
 (
 "
-smartwindow
+ai
+-
+website
 -
 chip
 "
