@@ -127,10 +127,6 @@ ITERATIONS
 "
     
 "
-webservers
-"
-    
-"
 process_perf_data
 "
 ]

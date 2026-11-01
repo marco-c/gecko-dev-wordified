@@ -6109,9 +6109,6 @@ base
 "
 dmd
 "
-"
-tp5
-"
 ]
 }
         
@@ -6159,13 +6156,6 @@ base
                 
 "
 dmd
-"
-:
-{
-}
-                
-"
-tp5
 "
 :
 {
@@ -6376,46 +6366,6 @@ Task
 n
 "
         
-#
-tp5
-tests
-are
-represented
-by
-awsy
--
-e10s
-test
-names
-        
-#
-while
-the
-others
-have
-their
-title
-in
-test
-names
-        
-search_tag
-=
-"
-awsy
--
-e10s
-"
-if
-title
-=
-=
-"
-tp5
-"
-else
-title
-        
 for
 platform
 in
@@ -6489,7 +6439,7 @@ test_name
 :
                 
 if
-search_tag
+title
 in
 test_dict
 [
