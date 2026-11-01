@@ -1869,10 +1869,12 @@ parametrize
 "
 x
 y
+event_count
 "
 [
     
 (
+0
 0
 0
 )
@@ -1880,10 +1882,12 @@ y
 (
 1
 0
+1
 )
     
 (
 0
+1
 1
 )
 ]
@@ -1905,11 +1909,13 @@ y
 def
 test_move_to_position_in_viewport
 (
+    
 session
 test_actions_page
 mouse_chain
 x
 y
+event_count
 )
 :
     
@@ -1939,7 +1945,7 @@ events
 )
 =
 =
-1
+event_count
     
 #
 Move
@@ -1982,7 +1988,7 @@ events
 )
 =
 =
-1
+event_count
 def
 test_move_to_fractional_position
 (
