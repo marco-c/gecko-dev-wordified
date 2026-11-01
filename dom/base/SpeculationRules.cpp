@@ -691,6 +691,14 @@ SpeculationRuleSet
 aRuleSet
 )
 {
+mDocument
+-
+>
+SetUseCounter
+(
+eUseCounter_custom_SpeculationRulesHeader
+)
+;
 aRuleSet
 -
 >
