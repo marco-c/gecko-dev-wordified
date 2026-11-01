@@ -11966,11 +11966,10 @@ firstUseBlock
 >
 insertBefore
 (
-*
 firstUseBlock
 -
 >
-begin
+safeInsertTop
 (
 )
 canonical
@@ -15250,13 +15249,10 @@ if
 !
 terms_
 .
-append
-(
-LinearTerm
+emplaceBack
 (
 term
 scale
-)
 )
 )
 {
