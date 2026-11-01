@@ -229,8 +229,7 @@ wstring
 using
 breakpad_init_type
 =
-wchar_t
-*
+HANDLE
 ;
 using
 breakpad_pid
@@ -729,12 +728,6 @@ minidumpPath
 aMinidumpPath
 )
 ;
-breakpad_string
-breakpadData
-(
-aBreakpadData
-)
-;
 CrashGenerationServer
 *
 server
@@ -742,13 +735,7 @@ server
 new
 CrashGenerationServer
 (
-breakpadData
-/
-*
-pipe_sec_attrs
-*
-/
-nullptr
+aBreakpadData
 /
 *
 connect_callback
