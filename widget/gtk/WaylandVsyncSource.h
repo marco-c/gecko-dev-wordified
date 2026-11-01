@@ -524,6 +524,11 @@ DisableVSyncSource
 (
 )
 ;
+void
+WatchHiddenWindowVSync
+(
+)
+;
 /
 /
 We
@@ -580,11 +585,6 @@ return
 mWindow
 ;
 }
-;
-void
-SetHiddenWindowVSync
-(
-)
 ;
 void
 SetVSyncEventsStateLocked

@@ -681,7 +681,7 @@ catch
 it
 up
 .
-SetHiddenWindowVSync
+WatchHiddenWindowVSync
 (
 )
 ;
@@ -878,7 +878,7 @@ void
 WaylandVsyncSource
 :
 :
-SetHiddenWindowVSync
+WatchHiddenWindowVSync
 (
 )
 {
@@ -901,7 +901,7 @@ LOG
 WaylandVsyncSource
 :
 :
-SetHiddenWindowVSync
+WatchHiddenWindowVSync
 (
 )
 "

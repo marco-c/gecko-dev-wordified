@@ -579,6 +579,12 @@ DisableVSyncSource
 )
 override
 ;
+void
+WatchHiddenVSyncSource
+(
+)
+override
+;
 bool
 CreateRestoreSession
 (

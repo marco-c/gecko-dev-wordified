@@ -3442,6 +3442,13 @@ DisableVSyncSource
 )
 {
 }
+virtual
+void
+WatchHiddenVSyncSource
+(
+)
+{
+}
 /
 /
 event
