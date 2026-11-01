@@ -6575,6 +6575,19 @@ try_name
                 
 if
 "
+-
+nofis
+"
+not
+in
+try_name
+:
+                    
+return
+False
+                
+if
+"
 hw
 -
 s24
@@ -6703,6 +6716,8 @@ ebay
 kleinanzeigen
 -
 search
+-
+nofis
 on
 custom
 -
@@ -6715,6 +6730,8 @@ ebay
 kleinanzeigen
 -
 search
+-
+nofis
 "
 in
 try_name
@@ -7329,6 +7346,27 @@ try_name
 return
 False
             
+if
+"
+chrome
+-
+m
+"
+in
+try_name
+and
+"
+-
+nofis
+"
+not
+in
+try_name
+:
+                
+return
+False
+            
 #
 Bug
 1929960
@@ -7378,6 +7416,8 @@ ebay
 kleinanzeigen
                 
 if
+(
+                    
 "
 ebay
 -
@@ -7385,6 +7425,7 @@ kleinanzeigen
 "
 in
 try_name
+                    
 and
 "
 search
@@ -7392,6 +7433,15 @@ search
 not
 in
 try_name
+                    
+and
+"
+nofis
+"
+in
+try_name
+                
+)
 :
                     
 return
@@ -8250,6 +8300,19 @@ try_name
             
 )
 :
+                
+if
+"
+-
+nofis
+"
+not
+in
+try_name
+:
+                    
+return
+False
                 
 return
 True
