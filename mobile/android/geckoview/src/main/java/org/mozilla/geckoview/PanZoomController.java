@@ -1271,8 +1271,9 @@ overscrollDirections
 *
 *
 *
+{
 return
-One
+one
 of
 the
 {
@@ -1289,7 +1290,7 @@ event
 *
 was
 handled
-.
+}
 *
 /
 AnyThread
@@ -1308,6 +1309,7 @@ mHandledResult
 *
 *
 *
+{
 return
 an
 OR
@@ -1329,7 +1331,7 @@ directions
 can
 be
 scrollable
-.
+}
 *
 /
 AnyThread
@@ -1348,6 +1350,7 @@ mScrollableDirections
 *
 *
 *
+{
 return
 an
 OR
@@ -1371,7 +1374,7 @@ be
 over
 -
 scrollable
-.
+}
 *
 /
 AnyThread

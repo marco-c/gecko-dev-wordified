@@ -1478,12 +1478,12 @@ null
 *
 *
 *
+{
 return
 the
 application
 package
 name
-.
 if
 context
 is
@@ -1503,7 +1503,7 @@ name
 will
 be
 returned
-.
+}
 *
 /
 Nullable
@@ -1591,11 +1591,12 @@ getJavaPackageName
 /
 *
 *
-*
+{
 return
+the
 application
 context
-.
+}
 *
 /
 AnyThread
