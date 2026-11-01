@@ -53,6 +53,8 @@ preferences
 tests
 /
 head
+-
+common
 .
 js
 "
@@ -62,13 +64,7 @@ this
 const
 PERF_PREF_PANE
 =
-SRD_PREF_VALUE
-?
 "
 paneTabsBrowsing
-"
-:
-"
-paneGeneral
 "
 ;
