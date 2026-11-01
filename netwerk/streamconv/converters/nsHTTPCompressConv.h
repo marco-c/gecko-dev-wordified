@@ -57,16 +57,11 @@ MPL
 *
 /
 #
-if
-!
-defined
-(
+ifndef
 _nsHTTPCompressConv_h_
-)
 #
 define
 _nsHTTPCompressConv_h_
-1
 #
 include
 "
