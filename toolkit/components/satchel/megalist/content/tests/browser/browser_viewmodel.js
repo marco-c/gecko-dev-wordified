@@ -84,6 +84,9 @@ alerts
 count
 :
 3
+perDeviceSyncEnabled
+:
+false
 }
 field
 :
