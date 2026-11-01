@@ -13812,16 +13812,7 @@ GetCaretBaseline
 (
 )
 const
-{
-return
-GetLogicalBaseline
-(
-GetWritingMode
-(
-)
-)
 ;
-}
 /
 /
 Gets
