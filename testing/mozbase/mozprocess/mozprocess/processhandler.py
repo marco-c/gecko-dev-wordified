@@ -1830,10 +1830,6 @@ sig
             
 self
 .
-returncode
-=
-self
-.
 wait
 (
 timeout
@@ -1984,10 +1980,6 @@ for
 each
 OS
             
-self
-.
-returncode
-=
 self
 .
 _custom_wait
@@ -4251,28 +4243,32 @@ value
 pass
             
 def
-_get_exit_code
+_update_returncode
 (
 self
+exited
+=
+False
 )
 :
                 
 "
 "
 "
-Return
-the
-exit
-code
-of
+Set
+returncode
+if
 the
 process
-or
-None
+has
+exited
+.
+Returns
+False
 if
+                
 its
 handle
-                
 has
 already
 been
@@ -4282,9 +4278,35 @@ _cleanup
 (
 possibly
 on
+                
 another
 thread
 )
+.
+                
+-
+exited
+:
+the
+caller
+knows
+the
+process
+has
+exited
+so
+an
+exit
+                  
+code
+equal
+to
+STILL_ACTIVE
+is
+the
+real
+exit
+code
 .
                 
 "
@@ -4298,12 +4320,17 @@ _cleanup_lock
 :
                     
 if
+not
 self
 .
 _handle
 :
                         
 return
+False
+                    
+returncode
+=
 winprocess
 .
 GetExitCodeProcess
@@ -4312,9 +4339,26 @@ self
 .
 _handle
 )
-                
+                    
+if
+exited
+or
+returncode
+!
+=
+winprocess
+.
+STILL_ACTIVE
+:
+                        
+self
+.
+returncode
+=
+returncode
+                    
 return
-None
+True
             
 def
 _custom_wait
@@ -4369,18 +4413,13 @@ is
 still
 running
                 
-returncode
-=
+if
+not
 self
 .
-_get_exit_code
+_update_returncode
 (
 )
-                
-if
-returncode
-is
-None
 :
                     
 #
@@ -4396,21 +4435,6 @@ dead
 return
 self
 .
-returncode
-                
-if
-returncode
-!
-=
-winprocess
-.
-STILL_ACTIVE
-:
-                    
-self
-.
-returncode
-=
 returncode
                 
 #
@@ -4700,31 +4724,11 @@ shutdown
 finally
 :
                         
-returncode
-=
 self
 .
-_get_exit_code
+_update_returncode
 (
 )
-                        
-if
-returncode
-not
-in
-(
-None
-winprocess
-.
-STILL_ACTIVE
-)
-:
-                            
-self
-.
-returncode
-=
-returncode
                 
 else
 :
@@ -4945,26 +4949,14 @@ successfully
 "
 )
                         
-returncode
-=
 self
 .
-_get_exit_code
+_update_returncode
 (
-)
-                        
-if
-returncode
-is
-not
-None
-:
-                            
-self
-.
-returncode
+exited
 =
-returncode
+True
+)
                     
 else
 :
