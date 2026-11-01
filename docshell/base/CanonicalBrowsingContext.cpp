@@ -14059,14 +14059,6 @@ mDocumentPiPWindowCount
 widget
 &
 &
-widget
--
->
-IsVisible
-(
-)
-&
-&
 !
 widget
 -
