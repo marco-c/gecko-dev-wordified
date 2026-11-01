@@ -169,7 +169,7 @@ svg
 "
 ;
 const
-VPN_OFF_ICON
+VPN_EXCLUDED_ICON
 =
 "
 chrome
@@ -188,7 +188,7 @@ states
 /
 ipprotection
 -
-off
+excluded
 .
 svg
 "
@@ -2473,7 +2473,7 @@ checkSiteRuleStatus
 (
 content
 EXCLUSION_DESCRIPTION_L10N_ID
-VPN_OFF_ICON
+VPN_EXCLUDED_ICON
 )
 ;
 await
@@ -3698,7 +3698,7 @@ checkSiteRuleStatus
 (
 content
 EXCLUSION_DESCRIPTION_L10N_ID
-VPN_OFF_ICON
+VPN_EXCLUDED_ICON
 )
 ;
 let
