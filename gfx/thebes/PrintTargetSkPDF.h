@@ -117,10 +117,6 @@ CreateOrNull
 nsIOutputStream
 *
 aStream
-const
-IntSize
-&
-aSizeInPoints
 )
 ;
 nsresult
@@ -200,12 +196,9 @@ final
 ;
 private
 :
+explicit
 PrintTargetSkPDF
 (
-const
-IntSize
-&
-aSize
 UniquePtr
 <
 GkSkWStream

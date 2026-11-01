@@ -280,6 +280,17 @@ MakePrintTarget
 =
 0
 ;
+nsIPrintSettings
+*
+PrintSettings
+(
+)
+const
+{
+return
+mPrintSettings
+;
+}
 /
 *
 *
