@@ -13945,7 +13945,7 @@ be
 dropped
 by
 stylo
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 Servo_IsWorkerThread

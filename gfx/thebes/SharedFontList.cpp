@@ -194,17 +194,17 @@ aStyle
 )
 {
 double
-stretchDist
+widthDist
 =
-StretchDistance
+WidthDistance
 (
 aFace
 -
 >
-mStretch
+mWidth
 aStyle
 .
-stretch
+width
 )
 ;
 double
@@ -273,7 +273,7 @@ changed
 .
 MOZ_ASSERT
 (
-stretchDist
+widthDist
 >
 =
 0
@@ -281,7 +281,7 @@ stretchDist
 0
 &
 &
-stretchDist
+widthDist
 <
 =
 2000
@@ -331,10 +331,10 @@ weight
 /
 style
 /
-stretch
+width
 priority
 :
-stretch
+width
 >
 >
 style
@@ -347,7 +347,7 @@ so
 we
 multiply
 the
-stretch
+width
 and
 style
 values
@@ -360,9 +360,9 @@ dominate
 the
 result
 return
-stretchDist
+widthDist
 *
-kStretchFactor
+kWidthFactor
 +
 styleDist
 *
@@ -1596,7 +1596,7 @@ InitData
 aFaces
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -1771,7 +1771,7 @@ IsSingle
 !
 f
 .
-mStretch
+mWidth
 .
 IsSingle
 (
@@ -1800,7 +1800,7 @@ if
 !
 f
 .
-mStretch
+mWidth
 .
 Min
 (
@@ -2208,7 +2208,7 @@ j
 nsAutoCString
 weight
 style
-stretch
+width
 ;
 aFaces
 [
@@ -2239,11 +2239,11 @@ aFaces
 j
 ]
 .
-mStretch
+mWidth
 .
 ToString
 (
-stretch
+width
 )
 ;
 LOG_FONTLIST
@@ -2277,7 +2277,7 @@ s
 style
 %
 s
-stretch
+width
 %
 s
 "
@@ -2312,7 +2312,7 @@ style
 get
 (
 )
-stretch
+width
 .
 get
 (
@@ -3063,7 +3063,7 @@ style
 and
 /
 /
-stretch
+width
 .
 Iterate
 over
@@ -3115,7 +3115,7 @@ weight
 /
 style
 /
-stretch
+width
 distance
 value
 .
@@ -3145,7 +3145,7 @@ weight
 /
 style
 /
-stretch
+width
 distance
 and
 add
@@ -3174,7 +3174,7 @@ weight
 /
 style
 /
-stretch
+width
 combination
 only
 the
@@ -3273,10 +3273,10 @@ weight
 /
 style
 /
-stretch
+width
 priority
 :
-stretch
+width
 >
 >
 style
@@ -4790,7 +4790,7 @@ IsSingle
 f
 -
 >
-mStretch
+mWidth
 .
 IsSingle
 (
@@ -4810,7 +4810,7 @@ if
 f
 -
 >
-mStretch
+mWidth
 .
 Min
 (
@@ -6371,7 +6371,7 @@ uint32_t
 aSizeNeeded
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -6800,7 +6800,7 @@ ReadOnlySharedMemoryHandle
 aHandle
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 XRE_IsParentProcess
@@ -7016,7 +7016,7 @@ uint32_t
 aIndex
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 XRE_IsParentProcess
@@ -7253,7 +7253,7 @@ aMustLock
 )
 MOZ_NO_THREAD_SAFETY_ANALYSIS
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 XRE_IsParentProcess
@@ -7600,7 +7600,7 @@ process
 does
 allocation
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -7953,7 +7953,7 @@ list
 of
 families
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -8398,7 +8398,7 @@ AliasData
 aAliasTable
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -8857,7 +8857,7 @@ this
 nsAutoCString
 weight
 style
-stretch
+width
 ;
 face
 -
@@ -8882,11 +8882,11 @@ style
 face
 -
 >
-mStretch
+mWidth
 .
 ToString
 (
-stretch
+width
 )
 ;
 LOG_FONTLIST
@@ -8914,7 +8914,7 @@ style
 s
 "
 "
-stretch
+width
 %
 s
 "
@@ -8937,7 +8937,7 @@ style
 get
 (
 )
-stretch
+width
 .
 get
 (
@@ -9013,7 +9013,7 @@ InitData
 aLocalNameTable
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (

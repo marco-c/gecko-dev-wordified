@@ -9579,7 +9579,7 @@ be
 dropped
 by
 stylo
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -19339,7 +19339,7 @@ font
 list
 changes
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (

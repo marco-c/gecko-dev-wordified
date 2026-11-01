@@ -121,7 +121,7 @@ mVsyncRate
 "
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -170,7 +170,7 @@ SoftwareVsyncSource
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -262,7 +262,7 @@ EnableVsync
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsInSoftwareVsyncThread
 (
@@ -363,7 +363,7 @@ DisableVsync
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsInSoftwareVsyncThread
 (
@@ -396,7 +396,7 @@ IsVsyncEnabled
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -448,7 +448,7 @@ TimeStamp
 aOutputTimestamp
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsInSoftwareVsyncThread
 (
@@ -626,7 +626,7 @@ TimeStamp
 aVsyncTimestamp
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsInSoftwareVsyncThread
 (
@@ -760,7 +760,7 @@ Shutdown
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (

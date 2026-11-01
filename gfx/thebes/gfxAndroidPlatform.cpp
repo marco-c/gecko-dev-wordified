@@ -3167,7 +3167,7 @@ IsVsyncEnabled
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3184,7 +3184,7 @@ EnableVsync
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3261,7 +3261,7 @@ DisableVsync
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (

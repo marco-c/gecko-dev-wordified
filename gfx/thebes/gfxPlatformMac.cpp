@@ -4799,7 +4799,7 @@ mDisplayLink
 "
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -4948,7 +4948,7 @@ OSXVsyncSource
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -4972,7 +4972,7 @@ void
 aOsxVsyncSource
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -5083,7 +5083,7 @@ CreateDisplayLink
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -5439,7 +5439,7 @@ DestroyDisplayLink
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -5480,7 +5480,7 @@ EnableVsync
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -5680,7 +5680,7 @@ DisableVsync
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -5771,7 +5771,7 @@ Shutdown
 )
 override
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (

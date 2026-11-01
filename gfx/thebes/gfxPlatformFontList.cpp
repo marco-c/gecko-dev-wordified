@@ -4311,7 +4311,7 @@ void
 aClosure
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -5232,7 +5232,7 @@ on
 another
 thread
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -7881,7 +7881,7 @@ bool
 aFullRebuild
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -20928,7 +20928,7 @@ gfxSparseBitSet
 aMap
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -21165,7 +21165,7 @@ bool
 aAlias
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -21433,7 +21433,7 @@ from
 any
 thread
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
