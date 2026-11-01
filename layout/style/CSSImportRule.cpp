@@ -692,7 +692,7 @@ StyleSheet
 *
 parent
 =
-GetParentStyleSheet
+GetStyleSheet
 (
 )
 )
