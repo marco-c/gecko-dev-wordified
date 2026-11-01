@@ -4135,14 +4135,6 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 if
 (
-nsIOService
-:
-:
-UseSocketProcess
-(
-)
-|
-|
 NS_FAILED
 (
 rv

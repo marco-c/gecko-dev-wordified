@@ -2111,15 +2111,6 @@ if
 aAvailable
 &
 &
-!
-nsIOService
-:
-:
-UseSocketProcess
-(
-)
-&
-&
 gSocketTransportService
 )
 {
