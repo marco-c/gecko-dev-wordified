@@ -328,6 +328,16 @@ A
 PMTUD
 probe
 packet
+carrying
+the
+IP
+MTU
+it
+probes
+for
 .
 PmtudProbe
+(
+usize
+)
 }

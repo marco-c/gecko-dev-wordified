@@ -213,6 +213,7 @@ Buffer
 Decoder
 Encoder
 MAX_VARINT
+Reservation
 }
 datagram
 :

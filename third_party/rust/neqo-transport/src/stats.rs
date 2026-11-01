@@ -2764,6 +2764,15 @@ probes
 ACK
 '
 ed
+for
+the
+size
+under
+test
+during
+an
+active
+search
 .
 pub
 pmtud_ack
