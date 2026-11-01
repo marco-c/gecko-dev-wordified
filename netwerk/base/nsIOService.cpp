@@ -1702,13 +1702,6 @@ network
 .
 proxy
 .
-parse_pac_on_socket_process
-"
-"
-network
-.
-proxy
-.
 allow_hijacking_localhost
 "
 "
