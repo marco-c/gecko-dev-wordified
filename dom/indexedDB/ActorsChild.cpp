@@ -7234,7 +7234,10 @@ aOpenRequestActor
 :
 mSpec
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 DatabaseSpec
 >
@@ -13489,7 +13492,10 @@ stream
 ;
 mCloneData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 JSStructuredCloneData
 >

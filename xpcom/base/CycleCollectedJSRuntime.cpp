@@ -4581,7 +4581,10 @@ add
 (
 ptr
 aZone
-MakeUnique
+std
+:
+:
+make_unique
 <
 EntryVector
 >

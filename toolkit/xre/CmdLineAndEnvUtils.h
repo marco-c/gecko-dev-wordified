@@ -3310,7 +3310,10 @@ len
 auto
 s
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 wchar_t
 [

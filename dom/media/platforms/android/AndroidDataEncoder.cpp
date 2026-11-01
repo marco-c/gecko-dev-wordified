@@ -1528,10 +1528,10 @@ JavaCallbacksSupport
 AttachNative
 (
 mJavaCallbacks
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 CallbacksSupport
 >

@@ -28724,7 +28724,10 @@ nsRect
 >
 ptr
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsRect
 >
@@ -30513,7 +30516,10 @@ Matrix4x4
 >
 ptr
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfx
 :

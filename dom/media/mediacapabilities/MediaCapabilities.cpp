@@ -2431,7 +2431,10 @@ ProbeAllocPolicy
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 ProbeAllocPolicy
 >

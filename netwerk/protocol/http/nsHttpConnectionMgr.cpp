@@ -6883,7 +6883,10 @@ n
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTArray
 <

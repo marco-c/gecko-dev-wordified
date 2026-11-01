@@ -9416,7 +9416,10 @@ footer
 auto
 messageEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 UserMessageEvent
 >

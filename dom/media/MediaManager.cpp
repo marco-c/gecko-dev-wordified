@@ -30422,7 +30422,10 @@ Stop
 }
 mDeviceState
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 DeviceState
 >

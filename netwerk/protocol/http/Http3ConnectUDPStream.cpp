@@ -445,7 +445,10 @@ mReceivedData
 .
 Push
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 UDPPayload
 >
@@ -1375,7 +1378,10 @@ mOutputData
 .
 Push
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 UDPPayload
 >

@@ -6589,7 +6589,10 @@ key
 {
 mColorFilterWatcher
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WinRegistry
 :

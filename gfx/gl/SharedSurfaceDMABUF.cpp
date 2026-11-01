@@ -477,7 +477,10 @@ nullptr
 auto
 dmabufFactory
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SurfaceFactory_DMABUF
 >

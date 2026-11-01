@@ -1656,7 +1656,10 @@ aOriginMetadata
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 FileSystemFileManager
 >

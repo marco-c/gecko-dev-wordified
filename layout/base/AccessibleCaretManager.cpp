@@ -587,7 +587,10 @@ Carets
 {
 aPresShell
 ?
-MakeUnique
+std
+:
+:
+make_unique
 <
 AccessibleCaret
 >
@@ -598,7 +601,10 @@ aPresShell
 nullptr
 aPresShell
 ?
-MakeUnique
+std
+:
+:
+make_unique
 <
 AccessibleCaret
 >

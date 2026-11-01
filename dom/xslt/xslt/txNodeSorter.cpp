@@ -145,12 +145,6 @@ using
 mozilla
 :
 :
-MakeUnique
-;
-using
-mozilla
-:
-:
 MakeUniqueFallible
 ;
 using
@@ -563,7 +557,10 @@ txResultStringComparator
 >
 comparator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 txResultStringComparator
 >
@@ -918,7 +915,10 @@ i
 auto
 nodeSetContext
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 txNodeSetContext
 >

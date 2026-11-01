@@ -6767,7 +6767,10 @@ PendingFunctionalEvent
 >
 pendingEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingCookieChangeEvent
 >
@@ -7123,7 +7126,10 @@ PendingPushEvent
 >
 pendingEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingPushEvent
 >
@@ -8305,7 +8311,10 @@ PendingFunctionalEvent
 >
 pendingEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingFetchEvent
 >

@@ -360,7 +360,10 @@ extraArgs
 ;
 mPrefSerializer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ipc
 :

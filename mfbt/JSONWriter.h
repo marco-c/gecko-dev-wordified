@@ -510,7 +510,10 @@ code
 JSONWriter
 w
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 MyWriteFunc
 >
@@ -832,6 +835,11 @@ define
 mozilla_JSONWriter_h
 #
 include
+<
+utility
+>
+#
+include
 "
 double
 -
@@ -899,11 +907,6 @@ Vector
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 {
@@ -2064,7 +2067,10 @@ string
 .
 mOwnedStr
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

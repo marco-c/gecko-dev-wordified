@@ -3320,7 +3320,10 @@ CookiePersistentStorage
 :
 mWriteQueue
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CookieDBWriteQueue
 >
@@ -12803,7 +12806,10 @@ the
 data
 .
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 CookieStruct
 >

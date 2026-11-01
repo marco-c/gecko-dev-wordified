@@ -849,7 +849,10 @@ PositionOptions
 >
 geoOptions
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PositionOptions
 >

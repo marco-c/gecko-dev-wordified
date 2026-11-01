@@ -1619,10 +1619,10 @@ MediaDrmJavaCallbacksSupport
 AttachNative
 (
 mJavaCallbacks
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 MediaDrmJavaCallbacksSupport
 >

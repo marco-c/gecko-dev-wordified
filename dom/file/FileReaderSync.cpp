@@ -326,7 +326,10 @@ aGlobal
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 FileReaderSync
 >

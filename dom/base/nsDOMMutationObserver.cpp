@@ -1918,7 +1918,10 @@ isNewEntry
 true
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsCOMArray
 <

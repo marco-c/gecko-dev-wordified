@@ -1472,7 +1472,10 @@ Clone
 )
 mRingBuffer
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 SPSCQueue
 <
@@ -1589,7 +1592,10 @@ mChild
 endif
 mAudibilityMonitor
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AudibilityMonitor
 >
@@ -3658,7 +3664,10 @@ FORMAT_FLT
 ;
 mAudioConverter
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AudioConverter
 >

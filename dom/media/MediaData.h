@@ -704,7 +704,10 @@ samples
 auto
 buffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 float
 [

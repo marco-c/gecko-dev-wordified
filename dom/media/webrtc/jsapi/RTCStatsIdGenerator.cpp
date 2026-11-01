@@ -354,7 +354,10 @@ aIntoReport
 auto
 stats
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :

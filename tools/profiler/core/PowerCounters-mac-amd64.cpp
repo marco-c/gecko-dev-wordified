@@ -2989,10 +2989,10 @@ XRE_IsParentProcess
 {
 mRapl
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 RAPL
 >
@@ -3039,8 +3039,9 @@ PowerCounters
 PowerCounters
 (
 )
-{
-}
+=
+default
+;
 void
 PowerCounters
 :

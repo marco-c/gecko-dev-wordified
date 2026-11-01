@@ -192,7 +192,10 @@ aAllocator
 auto
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SharedSurfaceTextureData
 >

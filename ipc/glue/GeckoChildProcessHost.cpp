@@ -2277,7 +2277,10 @@ mMonitor
 )
 mLaunchOptions
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 base
 :
@@ -11359,7 +11362,10 @@ mResults
 .
 mSandboxBroker
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SandboxBroker
 >

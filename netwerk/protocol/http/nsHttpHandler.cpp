@@ -3136,7 +3136,10 @@ map
 InsertOrUpdate
 (
 host
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsCString
 >
@@ -3383,7 +3386,10 @@ rv
 ;
 mAltSvcCache
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AltSvcCache
 >
@@ -15095,7 +15101,10 @@ token
 0
 index
 )
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsCString
 >

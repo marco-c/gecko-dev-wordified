@@ -1768,7 +1768,10 @@ handle
 >
 mBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsZipItemPtr
 <

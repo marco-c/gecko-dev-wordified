@@ -2071,7 +2071,10 @@ AppendElement
 ;
 t
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 Token
 >

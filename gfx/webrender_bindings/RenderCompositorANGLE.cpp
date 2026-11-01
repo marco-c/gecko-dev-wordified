@@ -464,7 +464,10 @@ RenderCompositorANGLE
 >
 compositor
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 RenderCompositorANGLE
 >

@@ -701,7 +701,10 @@ const
 override
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 PCUuidGenerator
 >

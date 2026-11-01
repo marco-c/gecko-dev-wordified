@@ -8921,7 +8921,10 @@ char
 >
 dynStrBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

@@ -601,7 +601,10 @@ NativeLayerRootSnapshotterCA
 :
 Create
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 SnapshotterDelegate
 >

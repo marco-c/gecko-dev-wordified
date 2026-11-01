@@ -363,7 +363,10 @@ accumulationBuffer
 ;
 m_fftKernel
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 FFTBlock
 >
@@ -384,7 +387,10 @@ stageLength
 ;
 m_fftConvolver
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 FFTConvolver
 >

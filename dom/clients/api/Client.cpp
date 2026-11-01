@@ -311,7 +311,10 @@ aGlobal
 )
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 ClientInfoAndState
 >

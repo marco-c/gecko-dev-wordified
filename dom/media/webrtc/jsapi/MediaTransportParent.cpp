@@ -1930,7 +1930,10 @@ else
 {
 aResolve
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :

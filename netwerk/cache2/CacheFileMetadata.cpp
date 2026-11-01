@@ -2345,7 +2345,10 @@ encrypted
 {
 scratch
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

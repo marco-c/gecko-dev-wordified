@@ -653,8 +653,9 @@ NOT_SYNTHESIZING
 SynthesizingEvent
 (
 )
-{
-}
+=
+default
+;
 static
 SynthesizingEvent
 *
@@ -2372,7 +2373,10 @@ sInstance
 >
 mSynthesizingEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SynthesizingEvent
 >

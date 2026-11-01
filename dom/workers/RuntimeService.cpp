@@ -7265,7 +7265,10 @@ builds
 auto
 wdi
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WorkerDomainInfo
 >
@@ -13691,7 +13694,10 @@ nsCycleCollector_startup
 auto
 context
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WorkerJSContext
 >

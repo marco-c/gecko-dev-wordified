@@ -190,8 +190,9 @@ Runnable
 LSPAnnotationGatherer
 (
 )
-{
-}
+=
+default
+;
 public
 :
 LSPAnnotationGatherer
@@ -322,7 +323,10 @@ NS_ERROR_FAILURE
 auto
 byteArray
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

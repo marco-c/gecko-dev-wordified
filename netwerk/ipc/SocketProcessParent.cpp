@@ -694,7 +694,10 @@ aDMDFile
 {
 mMemoryReportRequest
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :

@@ -3500,7 +3500,10 @@ aSVGContext
 {
 svgContext
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SVGImageContext
 >

@@ -337,7 +337,10 @@ spec
 .
 mDecoder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScriptDecoder
 >

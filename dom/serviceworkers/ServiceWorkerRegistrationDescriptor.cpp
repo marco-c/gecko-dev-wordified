@@ -261,7 +261,10 @@ aUpdateViaCache
 :
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCServiceWorkerRegistrationDescriptor
 >
@@ -394,7 +397,10 @@ aUpdateViaCache
 :
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCServiceWorkerRegistrationDescriptor
 >
@@ -434,7 +440,10 @@ aDescriptor
 :
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCServiceWorkerRegistrationDescriptor
 >
@@ -544,7 +553,10 @@ reset
 ;
 mData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCServiceWorkerRegistrationDescriptor
 >

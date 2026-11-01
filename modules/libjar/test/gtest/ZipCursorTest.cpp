@@ -205,10 +205,10 @@ bufSize
 auto
 buffer
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 uint8_t
 [

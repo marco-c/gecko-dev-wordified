@@ -2810,7 +2810,10 @@ mSynthesizedTouchInput
 {
 mSynthesizedTouchInput
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MultiTouchInput
 >

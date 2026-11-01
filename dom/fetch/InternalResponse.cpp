@@ -620,7 +620,10 @@ response
 >
 SetPrincipalInfo
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :
@@ -2597,7 +2600,10 @@ response
 >
 mPrincipalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :
@@ -2768,7 +2774,10 @@ copy
 >
 mPrincipalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :

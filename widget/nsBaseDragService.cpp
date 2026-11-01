@@ -10153,7 +10153,10 @@ GetPresShell
 auto
 event
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetDragEvent
 >

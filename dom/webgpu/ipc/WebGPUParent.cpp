@@ -7162,7 +7162,10 @@ IPC_OK
 auto
 snapshotRequest
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ReadbackSnapshotRequest
 >
@@ -8271,7 +8274,10 @@ copy
 auto
 presentRequest
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ReadbackPresentRequest
 >

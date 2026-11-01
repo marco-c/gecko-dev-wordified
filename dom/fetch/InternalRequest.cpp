@@ -964,7 +964,10 @@ GetInterceptionTriggeringPrincipalInfo
 {
 mInterceptionTriggeringPrincipalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :
@@ -1211,7 +1214,10 @@ principalInfo
 {
 mPrincipalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :
@@ -1245,7 +1251,10 @@ interceptionTriggeringPrincipalInfo
 {
 mInterceptionTriggeringPrincipalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :

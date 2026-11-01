@@ -4646,7 +4646,10 @@ self
 >
 mDatabaseManager
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 FileSystemDatabaseManagerVersion001
 >
@@ -4681,7 +4684,10 @@ self
 >
 mDatabaseManager
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 FileSystemDatabaseManagerVersion002
 >

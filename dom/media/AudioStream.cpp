@@ -1541,7 +1541,10 @@ endif
 auto
 timestretcher
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 RLBoxSoundTouch
 >

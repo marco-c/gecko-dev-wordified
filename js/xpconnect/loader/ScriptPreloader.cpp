@@ -4518,7 +4518,10 @@ finished
 auto
 script
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CachedStencil
 >

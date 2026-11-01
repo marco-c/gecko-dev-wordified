@@ -1341,7 +1341,10 @@ LoadKnownCTLogs
 {
 mCTVerifier
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MultiLogCTVerifier
 >

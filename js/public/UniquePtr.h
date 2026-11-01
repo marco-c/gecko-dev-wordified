@@ -213,10 +213,10 @@ detail
 /
 Replacement
 for
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 that
 correctly
 calls

@@ -3554,10 +3554,10 @@ char
 >
 buffer
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 char
 [

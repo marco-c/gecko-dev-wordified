@@ -2151,7 +2151,10 @@ GetReferrerPolicy
 ;
 principalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :

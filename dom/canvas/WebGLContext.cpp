@@ -7625,7 +7625,10 @@ swapChain
 .
 mFactory
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gl
 :

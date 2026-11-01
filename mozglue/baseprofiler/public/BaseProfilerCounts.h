@@ -540,7 +540,10 @@ myCounter
 =
 /
 /
-MakeUnique
+std
+:
+:
+make_unique
 <
 ProfilerCounter
 >
@@ -555,6 +558,8 @@ JIT
 Some
 JIT
 byte
+/
+/
 count
 "
 )

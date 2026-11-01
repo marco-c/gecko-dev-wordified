@@ -1397,7 +1397,10 @@ aOriginKey
 auto
 newOriginRecord
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 OriginRecord
 >

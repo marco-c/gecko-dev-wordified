@@ -545,7 +545,10 @@ mLastError
 )
 mParser
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 HybridSdpParser
 >
@@ -573,7 +576,10 @@ const
 override
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 JsepSessionImpl
 >

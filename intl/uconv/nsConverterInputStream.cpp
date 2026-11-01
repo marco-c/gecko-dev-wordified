@@ -1522,7 +1522,10 @@ mLineBuffer
 {
 mLineBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsLineBuffer
 <

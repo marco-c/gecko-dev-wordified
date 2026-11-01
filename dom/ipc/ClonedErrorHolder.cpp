@@ -2872,7 +2872,10 @@ size
 }
 mBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 JSAutoStructuredCloneBuffer
 >

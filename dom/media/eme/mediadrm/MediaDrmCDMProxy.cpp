@@ -446,10 +446,10 @@ self
 >
 mCDM
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 MediaDrmProxySupport
 >

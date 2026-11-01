@@ -4186,7 +4186,10 @@ IsPasswordEditor
 {
 mPasswordMaskData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PasswordMaskData
 >

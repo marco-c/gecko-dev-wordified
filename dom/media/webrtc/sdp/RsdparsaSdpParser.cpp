@@ -503,7 +503,10 @@ second
 auto
 sdp
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 RsdparsaSdp
 >

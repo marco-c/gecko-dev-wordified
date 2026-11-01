@@ -1121,7 +1121,10 @@ mOrdering
 InsertOrUpdate
 (
 aResource
-MakeUnique
+std
+:
+:
+make_unique
 <
 OrderingEntry
 >

@@ -1322,7 +1322,10 @@ ThreadSafety
 :
 :
 WithoutMutex
-MakeUnique
+std
+:
+:
+make_unique
 <
 ProfileBufferChunkManagerSingle
 >

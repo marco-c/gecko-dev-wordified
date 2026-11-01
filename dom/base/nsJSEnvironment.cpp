@@ -12430,7 +12430,10 @@ aStack
 {
 mStackHolder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SerializedStackHolder
 >

@@ -1920,7 +1920,10 @@ continue
 auto
 objNameBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 std
 :
@@ -2665,7 +2668,10 @@ true
 auto
 objTypeBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 std
 :

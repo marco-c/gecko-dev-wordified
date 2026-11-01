@@ -895,10 +895,10 @@ AttachNative
 (
 *
 instance
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 MyClass
 >
