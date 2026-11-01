@@ -969,6 +969,15 @@ return
 false
 ;
 }
+ScriptLoader
+:
+:
+AssociateFetchInfoWithSystemClassicScript
+(
+script
+uri
+)
+;
 if
 (
 JS_IsGlobalObject
