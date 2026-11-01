@@ -3507,7 +3507,7 @@ using
 a
 PBOUnpackSurface
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 map
 .
