@@ -377,30 +377,6 @@ stream
 "
 :
 stdout
-            
-"
-processOutputLine
-"
-:
-self
-.
-on_output
-            
-"
-onFinish
-"
-:
-self
-.
-on_finish
-            
-"
-onTimeout
-"
-:
-self
-.
-on_timeout
         
 }
         
