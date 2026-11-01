@@ -363,7 +363,9 @@ drift
 )
 /
 /
-requires
+is
+enabled
+unless
 the
 field
 trial
@@ -372,9 +374,8 @@ WebRTC
 -
 ClockAligner
 "
-to
-be
-enabled
+is
+disabled
 .
 Timestamp
 Align
@@ -419,7 +420,7 @@ env_
 ;
 const
 bool
-fix_non_monotonic_clock_
+disable_non_monotonic_clock_fix_
 ;
 RTC_NO_UNIQUE_ADDRESS
 SequenceChecker
