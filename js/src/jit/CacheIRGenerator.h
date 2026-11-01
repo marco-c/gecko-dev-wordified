@@ -564,6 +564,15 @@ Value
 v
 )
 ;
+bool
+calleeGuardIsIdentity
+(
+JSFunction
+*
+callee
+)
+const
+;
 void
 emitCalleeGuard
 (
