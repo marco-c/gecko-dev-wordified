@@ -987,6 +987,12 @@ bool
 aIsAdjacentToBStart
 )
 ;
+bool
+ShouldTrimChildBStartMargins
+(
+)
+const
+;
 /
 *
 *
