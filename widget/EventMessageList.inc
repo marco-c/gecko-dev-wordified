@@ -1617,6 +1617,10 @@ NS_EVENT_MESSAGE
 (
 ePageReveal
 )
+NS_EVENT_MESSAGE
+(
+ePageSwap
+)
 /
 /
 Canvas

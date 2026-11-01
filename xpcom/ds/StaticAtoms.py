@@ -9902,6 +9902,16 @@ onpageshow
 Atom
 (
 "
+onpageswap
+"
+"
+onpageswap
+"
+)
+    
+Atom
+(
+"
 onpaste
 "
 "
