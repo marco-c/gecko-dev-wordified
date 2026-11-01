@@ -107,6 +107,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 nsPISocketTransportService
 .
 h

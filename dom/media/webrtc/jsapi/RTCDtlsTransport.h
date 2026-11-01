@@ -134,7 +134,7 @@ mozilla
 :
 dom
 {
-class
+struct
 RTCErrorParams
 ;
 enum

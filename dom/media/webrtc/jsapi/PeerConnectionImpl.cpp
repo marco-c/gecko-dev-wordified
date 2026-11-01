@@ -22954,8 +22954,6 @@ aSelectedPair
 -
 >
 local
-(
-)
 .
 get
 (
@@ -22981,8 +22979,6 @@ aSelectedPair
 -
 >
 remote
-(
-)
 .
 get
 (
@@ -23081,8 +23077,6 @@ aSelectedPair
 -
 >
 local
-(
-)
 /
 *
 aHidePrflx
@@ -23110,8 +23104,6 @@ aSelectedPair
 -
 >
 remote
-(
-)
 /
 *
 aHidePrflx

@@ -152,10 +152,6 @@ in
 the
 content
 process
-and
-the
-socket
-process
 .
 class
 DNSRequestSender

@@ -15503,7 +15503,7 @@ dom
 :
 :
 IceCandidateAttributePair
-(
+{
 nsCString
 (
 localAttr
@@ -15512,7 +15512,7 @@ nsCString
 (
 remoteAttr
 )
-)
+}
 )
 ;
 }
@@ -16259,7 +16259,13 @@ dom
 :
 RTCErrorParams
 {
+std
+:
+:
+move
+(
 error
+)
 aDtlsLayer
 .
 GetErrorDescription
