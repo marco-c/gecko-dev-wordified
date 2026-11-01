@@ -459,10 +459,6 @@ localization_ffi
 ;
 extern
 crate
-ipcclientcerts
-;
-extern
-crate
 pdf_trust_anchors
 ;
 extern

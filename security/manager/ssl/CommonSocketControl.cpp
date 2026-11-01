@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsNetCID
+.
+h
+"
+#
+include
+"
 secerr
 .
 h
