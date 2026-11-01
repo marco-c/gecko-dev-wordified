@@ -4054,8 +4054,10 @@ family
 =
 0
 ;
-static
 void
+js
+:
+:
 ReportUninitializedModuleBinding
 (
 JSContext

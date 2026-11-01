@@ -7916,8 +7916,10 @@ ResolveExport
 exportName
 )
 '
-static
 bool
+js
+:
+:
 ModuleResolveExport
 (
 JSContext
@@ -7943,8 +7945,6 @@ result
 ModuleErrorInfo
 *
 errorInfoOut
-=
-nullptr
 )
 {
 /
@@ -10950,8 +10950,10 @@ return
 ns
 ;
 }
-static
 bool
+js
+:
+:
 IsResolvedBinding
 (
 JSContext

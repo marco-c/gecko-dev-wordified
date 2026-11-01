@@ -4476,6 +4476,16 @@ ImportPhase
 phase
 )
 ;
+void
+ReportUninitializedModuleBinding
+(
+JSContext
+*
+cx
+HandleId
+id
+)
+;
 }
 /
 /
