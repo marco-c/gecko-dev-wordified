@@ -1021,6 +1021,10 @@ False
 no_completion_messages
 =
 False
+    
+append_env
+=
+None
 )
 :
     
@@ -1708,10 +1712,6 @@ MOZ_AUTOMATION
 "
 )
 )
-        
-append_env
-=
-None
         
 #
 By
