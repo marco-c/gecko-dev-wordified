@@ -297,13 +297,8 @@ setupTest
 init
 :
 false
-storePath
+populateStore
 :
-await
-NimbusTestUtils
-.
-createStoreWith
-(
 store
 =
 >
@@ -342,7 +337,6 @@ store
 ;
 }
 }
-)
 experiments
 :
 RECIPES
