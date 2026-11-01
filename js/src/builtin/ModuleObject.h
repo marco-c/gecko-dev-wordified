@@ -3915,6 +3915,11 @@ ModuleObject
 *
 >
 self
+Handle
+<
+ExportNameVector
+>
+exportNames
 )
 ;
 void
