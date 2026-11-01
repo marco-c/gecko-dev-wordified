@@ -630,13 +630,6 @@ buffer
 )
 const
 ;
-virtual
-ScopedEvent
-CloneForBroadcast
-(
-)
-const
-;
 const
 PortName
 &
@@ -1336,13 +1329,6 @@ SerializeData
 void
 *
 buffer
-)
-const
-override
-;
-ScopedEvent
-CloneForBroadcast
-(
 )
 const
 override
