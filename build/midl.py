@@ -705,16 +705,9 @@ buildconfig
 substs
 [
 "
-INCLUDE
+MSVC_INCLUDE_DIRS
 "
 ]
-.
-split
-(
-"
-;
-"
-)
 +
 (
 args
