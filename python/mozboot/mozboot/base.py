@@ -4085,23 +4085,16 @@ installed
 "
 "
         
-_
-cargo_bin
+bin_dir
 =
-self
-.
-cargo_home
-(
-)
-        
-extra
-=
-[
 str
 (
-cargo_bin
+self
+.
+mozbuild_bin_dir
+(
 )
-]
+)
         
 return
 all
@@ -4109,9 +4102,9 @@ all
 which
 (
 tool
-extra_search_dirs
+path
 =
-extra
+bin_dir
 )
 for
 tool
@@ -4144,16 +4137,15 @@ artifacts
 "
 "
         
-cargo_home
-cargo_bin
+bin_dir
 =
 self
 .
-cargo_home
+mozbuild_bin_dir
 (
 )
         
-cargo_bin
+bin_dir
 .
 mkdir
 (
@@ -4250,7 +4242,7 @@ exe_suffix
             
 dest
 =
-cargo_bin
+bin_dir
 /
 exe
 .
