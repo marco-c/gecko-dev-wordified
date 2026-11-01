@@ -765,8 +765,8 @@ Element
 *
 )
 ;
-uint64_t
-Gecko_Document_GetRandomSeed
+void
+Gecko_Document_GetRandomHasherKey
 (
 const
 mozilla
@@ -777,6 +777,12 @@ dom
 :
 Document
 *
+uint64_t
+*
+aK0
+uint64_t
+*
+aK1
 )
 ;
 NS_DECL_THREADSAFE_FFI_REFCOUNTING
