@@ -26171,6 +26171,10 @@ lastTestSeen
 quiet
 =
 quiet
+                
+group
+=
+currentManifest
             
 )
             
