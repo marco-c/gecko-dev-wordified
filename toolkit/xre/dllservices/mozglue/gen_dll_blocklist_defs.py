@@ -1,36 +1,4 @@
 #
--
-*
--
-Mode
-:
-python
-;
-indent
--
-tabs
--
-mode
-:
-nil
-;
-tab
--
-width
-:
-40
--
-*
--
-#
-vim
-:
-set
-filetype
-=
-python
-:
-#
 This
 Source
 Code
@@ -344,11 +312,6 @@ UTILITY_PROCESSES_ONLY
 "
 UTILITY_PROCESSES_ONLY
 "
-SOCKET_PROCESSES_ONLY
-=
-"
-SOCKET_PROCESSES_ONLY
-"
 GPU_PROCESSES_ONLY
 =
 "
@@ -516,10 +479,6 @@ GPU_PROCESSES
     
 "
 UTILITY_PROCESSES
-"
-    
-"
-SOCKET_PROCESSES
 "
     
 "
@@ -2418,14 +2377,6 @@ UTILITY_PROCESSES_ONLY
 }
             
 "
-SOCKET_PROCESSES
-"
-:
-{
-SOCKET_PROCESSES_ONLY
-}
-            
-"
 RDD_PROCESSES
 "
 :
@@ -2488,14 +2439,6 @@ UTILITY_PROCESSES
 :
 {
 UTILITY_PROCESSES_ONLY
-}
-            
-"
-SOCKET_PROCESSES
-"
-:
-{
-SOCKET_PROCESSES_ONLY
 }
             
 "
