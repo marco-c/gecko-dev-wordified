@@ -16436,7 +16436,13 @@ codec_specific_info_copy
 >
 frame_instrumentation_data
 =
+std
+:
+:
+move
+(
 frame_instrumentation_data
+)
 ;
 codec_specific_info
 =

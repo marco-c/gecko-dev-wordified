@@ -121,6 +121,11 @@ span
 #
 include
 <
+utility
+>
+#
+include
+<
 vector
 >
 #
@@ -2445,7 +2450,13 @@ Builder
 .
 set_video_frame_buffer
 (
+std
+:
+:
+move
+(
 i420_frame_buffer
+)
 )
 .
 build
