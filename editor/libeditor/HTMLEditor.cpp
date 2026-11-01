@@ -36304,7 +36304,7 @@ savingRange
 .
 mSelection
 =
-GetSelection
+GetExistingSelection
 (
 selectionType
 )
@@ -39001,7 +39001,7 @@ savingRange
 .
 mSelection
 =
-GetSelection
+GetExistingSelection
 (
 selectionType
 )

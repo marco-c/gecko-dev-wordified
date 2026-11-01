@@ -3631,7 +3631,7 @@ domSel
 frameSel
 -
 >
-GetSelection
+GetExistingSelection
 (
 selType
 )
