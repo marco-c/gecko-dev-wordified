@@ -263,6 +263,17 @@ XRE_IsRDDProcess
 )
 &
 &
+#
+ifdef
+MOZ_WIDGET_ANDROID
+!
+XRE_IsGPUProcess
+(
+)
+&
+&
+#
+endif
 !
 (
 XRE_IsParentProcess
