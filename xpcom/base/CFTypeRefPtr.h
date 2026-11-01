@@ -64,6 +64,15 @@ define
 CFTypeRefPtr_h
 #
 include
+<
+CoreFoundation
+/
+CoreFoundation
+.
+h
+>
+#
+include
 "
 mozilla
 /
