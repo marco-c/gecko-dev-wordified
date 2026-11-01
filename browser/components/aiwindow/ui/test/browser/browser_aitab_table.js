@@ -1901,9 +1901,7 @@ row
 querySelector
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -2134,9 +2132,7 @@ shadowRoot
 querySelector
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "

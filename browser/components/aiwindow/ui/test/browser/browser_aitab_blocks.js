@@ -3127,9 +3127,7 @@ row
 querySelectorAll
 (
 "
-ai
--
-website
+smartwindow
 -
 chip
 "
@@ -3967,9 +3965,7 @@ untitled
 ;
 /
 /
-ai
--
-website
+smartwindow
 -
 chip
 is
