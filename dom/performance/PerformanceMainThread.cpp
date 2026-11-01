@@ -1122,16 +1122,6 @@ nullptr
 nullptr
 )
 ;
-/
-/
-it
-bubbles
-and
-it
-isn
-'
-t
-cancelable
 event
 -
 >
@@ -1142,7 +1132,7 @@ u
 resourcetimingbufferfull
 "
 _ns
-true
+false
 false
 )
 ;
