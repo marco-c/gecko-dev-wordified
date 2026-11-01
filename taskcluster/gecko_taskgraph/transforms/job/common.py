@@ -2210,8 +2210,6 @@ flags
 "
 -
 -
-no
--
 daemon
 "
 ]

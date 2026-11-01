@@ -875,8 +875,6 @@ True
 offline
 -
 -
-no
--
 daemon
 "
 True
@@ -902,8 +900,6 @@ False
 offline
 -
 -
-no
--
 daemon
 "
 False
@@ -927,8 +923,6 @@ online
 False
 "
 -
--
-no
 -
 daemon
 "
