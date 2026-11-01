@@ -1413,16 +1413,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-bool
-IsAltSvcValidation
-(
-)
-override
-{
-return
-true
-;
-}
 private
 :
 /

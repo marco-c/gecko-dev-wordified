@@ -258,9 +258,6 @@ bool
 aUsingSpdy
 bool
 aDisallowHttp3
-ConnectionEntry
-*
-aEntry
 )
 =
 0
