@@ -3234,6 +3234,15 @@ usize
 }
 )
 ;
+assert
+!
+(
+src_stride
+>
+=
+width_bytes
+)
+;
 let
 src_size
 =
