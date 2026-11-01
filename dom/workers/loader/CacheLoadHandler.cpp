@@ -4046,12 +4046,11 @@ Private
 )
 -
 >
-SetPrincipalsAndCSPOnMainThread
+SetPrincipalsOnMainThread
 (
 responsePrincipal
 responsePrincipal
 loadGroup
-nullptr
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT

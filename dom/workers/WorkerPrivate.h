@@ -6277,7 +6277,7 @@ CycleCollect
 )
 ;
 nsresult
-SetPrincipalsAndCSPOnMainThread
+SetPrincipalsOnMainThread
 (
 nsIPrincipal
 *
@@ -6288,13 +6288,10 @@ aPartitionedPrincipal
 nsILoadGroup
 *
 aLoadGroup
-nsIContentSecurityPolicy
-*
-aCsp
 )
 ;
 nsresult
-SetPrincipalsAndCSPFromChannel
+SetPrincipalsAndPolicyContainerFromChannel
 (
 nsIChannel
 *
