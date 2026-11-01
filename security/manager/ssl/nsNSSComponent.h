@@ -310,11 +310,6 @@ SetValidationOptionsCommon
 (
 )
 ;
-void
-PrepareForShutdownInSocketProcess
-(
-)
-;
 /
 /
 RAII

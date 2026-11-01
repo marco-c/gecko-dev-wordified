@@ -11153,6 +11153,16 @@ PublicSSLIOLayerHelpers
 (
 )
 ;
+if
+(
+!
+sslIOLayerHelpers
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 }
 RefPtr
 <
