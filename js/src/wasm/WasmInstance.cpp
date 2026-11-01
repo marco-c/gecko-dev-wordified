@@ -18350,7 +18350,7 @@ wasmMxcsr_
 )
 #
 endif
-allocationMetadataBuilder_
+hasAllocationMetadataBuilder_
 (
 cx
 -
@@ -18360,7 +18360,7 @@ realm
 )
 -
 >
-getAllocationMetadataBuilder
+hasAllocationMetadataBuilder
 (
 )
 )
