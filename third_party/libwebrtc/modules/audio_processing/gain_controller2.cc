@@ -1417,10 +1417,11 @@ speech_probability
 ;
 if
 (
+!
 speech_level_estimator_
 -
 >
-IsBackgroundSpeaker
+IsTargetSpeakerActive
 (
 )
 )
