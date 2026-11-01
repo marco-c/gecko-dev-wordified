@@ -43673,11 +43673,6 @@ the
 opening
 doc
 .
-if
-(
-aPolicyContainer
-)
-{
 RefPtr
 policyContainerToInherit
 =
@@ -43688,6 +43683,11 @@ PolicyContainer
 (
 )
 ;
+if
+(
+aPolicyContainer
+)
+{
 policyContainerToInherit
 -
 >
@@ -43702,6 +43702,7 @@ aPolicyContainer
 )
 )
 ;
+}
 blankDoc
 -
 >
@@ -43765,7 +43766,6 @@ rv
 return
 rv
 ;
-}
 }
 }
 blankDoc
