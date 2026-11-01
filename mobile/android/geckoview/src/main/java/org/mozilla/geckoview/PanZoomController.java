@@ -2155,6 +2155,8 @@ float
 y
 int
 buttons
+int
+toolType
 )
 ;
 WrapForJNI
@@ -2971,6 +2973,12 @@ event
 .
 getButtonState
 (
+)
+event
+.
+getToolType
+(
+0
 )
 )
 ;
