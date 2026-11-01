@@ -201,6 +201,12 @@ kTlsHandshakeNewSessionTicket
 ;
 const
 uint8_t
+kTlsHandshakeEndOfEarlyData
+=
+5
+;
+const
+uint8_t
 kTlsHandshakeHelloRetryRequest
 =
 6

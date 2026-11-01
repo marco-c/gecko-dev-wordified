@@ -491,6 +491,11 @@ SEC_PKCS7DecoderContext
 *
 dcx
 ;
+int
+status
+=
+0
+;
 if
 (
 SECU_ReadDERFromFile
@@ -836,6 +841,7 @@ certUsageEmailSigner
 PR_FALSE
 )
 )
+{
 fprintf
 (
 out
@@ -847,7 +853,9 @@ n
 "
 )
 ;
+}
 else
+{
 fprintf
 (
 out
@@ -871,6 +879,12 @@ PORT_GetError
 )
 )
 ;
+status
+=
+-
+1
+;
+}
 }
 else
 {
@@ -1111,7 +1125,7 @@ cinfo
 )
 ;
 return
-0
+status
 ;
 }
 /

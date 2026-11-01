@@ -208,6 +208,13 @@ util
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -1096,7 +1103,10 @@ key
 ScopedPK11SymKey
 sym_key
 (
-PK11_ImportSymKey
+nss_test
+:
+:
+ImportSymKey
 (
 slot
 .

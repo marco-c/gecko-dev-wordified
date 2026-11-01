@@ -119,6 +119,13 @@ gtest
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -260,7 +267,10 @@ SECItem
 *
 pkcs8Item
 =
-PK11_ExportDERPrivateKeyInfo
+nss_test
+:
+:
+ExportDERPrivateKeyInfo
 (
 key
 -

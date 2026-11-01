@@ -163,6 +163,13 @@ tls_connect
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -323,7 +330,10 @@ PK11SymKey
 *
 key
 =
-PK11_ImportSymKey
+nss_test
+:
+:
+ImportSymKey
 (
 slot
 .
@@ -442,8 +452,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )
@@ -592,8 +600,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )
@@ -787,8 +793,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 }
@@ -962,8 +966,6 @@ cb_called
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 SendReceive
@@ -1134,8 +1136,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )
@@ -1187,8 +1187,6 @@ Connect
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 }
@@ -1592,8 +1590,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )
@@ -1667,8 +1663,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )
@@ -1764,8 +1758,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )
@@ -2057,8 +2049,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_auth_rsa_sign
 )
 ;
 }
@@ -2218,8 +2208,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )
@@ -2780,8 +2768,6 @@ SendReceive
 ;
 CheckKeys
 (
-ssl_kea_ecdh
-ssl_grp_ec_curve25519
 ssl_auth_psk
 ssl_sig_none
 )

@@ -204,6 +204,13 @@ nss_scoped_ptrs
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -483,7 +490,10 @@ PK11SymKey
 *
 inner
 =
-PK11_ImportSymKey
+nss_test
+:
+:
+ImportSymKey
 (
 slot
 mech

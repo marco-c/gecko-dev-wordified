@@ -1479,7 +1479,9 @@ rsaGenParams
 &
 pub_keyRaw
 false
-false
+PK11_IsFIPS
+(
+)
 nullptr
 )
 )
@@ -1901,7 +1903,9 @@ rsaGenParams
 &
 pub_key
 false
-false
+PK11_IsFIPS
+(
+)
 nullptr
 )
 ;
