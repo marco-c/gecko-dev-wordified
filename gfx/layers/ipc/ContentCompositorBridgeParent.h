@@ -563,7 +563,7 @@ IPCResult
 RecvStartFrameTimeRecording
 (
 const
-int32_t
+uint32_t
 &
 aBufferSize
 uint32_t
