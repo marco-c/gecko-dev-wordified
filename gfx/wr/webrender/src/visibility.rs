@@ -629,6 +629,7 @@ render_backend
 :
 {
 DataStores
+DlStores
 ScratchBuffer
 }
 ;
@@ -792,6 +793,13 @@ data_stores
 '
 a
 DataStores
+pub
+dl_stores
+:
+&
+'
+a
+DlStores
 pub
 clip_tree
 :
@@ -5802,6 +5810,9 @@ snap_policy
 frame_state
 .
 data_stores
+frame_state
+.
+dl_stores
 )
 ;
 let
@@ -5814,6 +5825,9 @@ data_stores
 prim_rect
 (
 prim_instance
+frame_state
+.
+dl_stores
 )
 ;
 let
@@ -5938,6 +5952,9 @@ data_stores
 local_clip_rect
 (
 prim_instance
+frame_state
+.
+dl_stores
 )
 &
 snapper
@@ -6608,6 +6625,9 @@ frame_context
 frame_state
 .
 data_stores
+frame_state
+.
+dl_stores
 frame_state
 .
 clip_store
