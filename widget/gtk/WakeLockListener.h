@@ -146,6 +146,10 @@ bool
 aBackground
 bool
 aInhibit
+bool
+aCreateNewTask
+=
+true
 )
 ;
 WakeLockListener
