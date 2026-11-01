@@ -1278,6 +1278,10 @@ aAddr
 )
 )
 ;
+mHasCollectedJitReturnAddr
+=
+true
+;
 }
 void
 ProfileBufferCollector
