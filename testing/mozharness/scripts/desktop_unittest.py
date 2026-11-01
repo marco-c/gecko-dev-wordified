@@ -5983,6 +5983,26 @@ gtest
 )
             
 if
+suite_category
+=
+=
+"
+gtest
+"
+:
+                
+base_cmd
+.
+extend
+(
+self
+.
+query_gtest_symbols_options
+(
+)
+)
+            
+if
 c
 [
 "
