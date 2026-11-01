@@ -1136,7 +1136,7 @@ Ok
 )
 }
 fn
-convert_unix_timestamp
+convert_to_crash_time
 (
 metric
 :
@@ -1175,8 +1175,8 @@ context
 failed
 to
 parse
-unix
-timestamp
+crash
+time
 seconds
 "
 )
@@ -1207,6 +1207,8 @@ context
 failed
 to
 convert
+crash
+time
 unix
 timestamp
 "

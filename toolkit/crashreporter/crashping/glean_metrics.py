@@ -372,20 +372,6 @@ bugs
         
 ]
         
-expires
-=
-glean
-.
-pop
-(
-"
-expires
-"
-"
-never
-"
-)
-        
 glean
 .
 update
@@ -474,7 +460,9 @@ technical
 expires
 "
 :
-expires
+"
+never
+"
             
 "
 send_in_pings
