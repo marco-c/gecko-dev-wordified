@@ -480,6 +480,11 @@ typename
 .
 .
 .
+TArgs
+typename
+.
+.
+.
 Args
 >
 nsresult
@@ -494,12 +499,14 @@ AsyncAttribute
 BackgroundTask
 <
 T
-Args
+TArgs
 .
 .
 .
 >
 Args
+&
+&
 .
 .
 .
