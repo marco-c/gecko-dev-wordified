@@ -2047,10 +2047,6 @@ emplace
 mStructuredCloneScope
 )
 ;
-mVersion
-=
-JS_STRUCTURED_CLONE_VERSION
-;
 if
 (
 !
@@ -2342,8 +2338,6 @@ JSStructuredCloneData
 &
 &
 aData
-uint32_t
-aVersion
 )
 {
 MOZ_ASSERT
@@ -2387,10 +2381,6 @@ move
 aData
 )
 )
-;
-mVersion
-=
-aVersion
 ;
 mData
 -
@@ -3018,8 +3008,6 @@ JSStructuredCloneData
 &
 &
 aData
-uint32_t
-aVersion
 GeckoChildID
 aOriginChildID
 )
@@ -3036,7 +3024,6 @@ move
 (
 aData
 )
-aVersion
 )
 ;
 mOriginChildID
