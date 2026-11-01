@@ -4424,6 +4424,7 @@ imageSize
 bool
 hasCropRect
 =
+!
 mPictureRect
 .
 IsEqualEdges
