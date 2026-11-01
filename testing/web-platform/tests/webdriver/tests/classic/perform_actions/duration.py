@@ -256,7 +256,9 @@ _setup_event_recorder
 def
 test_mouse_move_dispatches_multiple_events
 (
+    
 session
+configuration
 setup_event_recorder
 mouse_chain
 )
@@ -280,6 +282,13 @@ pointer_move
 duration
 =
 DURATION
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
 )
 \
         
@@ -391,7 +400,9 @@ abs
 def
 test_touch_move_dispatches_multiple_events
 (
+    
 session
+configuration
 setup_event_recorder
 touch_chain
 )
@@ -421,6 +432,13 @@ pointer_move
 duration
 =
 DURATION
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
 )
 \
         
@@ -538,7 +556,9 @@ abs
 def
 test_wheel_scroll_dispatches_multiple_events
 (
+    
 session
+configuration
 setup_event_recorder
 wheel_chain
 )
@@ -552,6 +572,8 @@ wheel
 )
     
 wheel_chain
+\
+        
 .
 scroll
 (
@@ -562,7 +584,16 @@ scroll
 duration
 =
 DURATION
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
 )
+\
+        
 .
 perform
 (

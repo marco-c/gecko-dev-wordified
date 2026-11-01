@@ -339,6 +339,7 @@ test_mouse_move_dispatches_multiple_events
 (
     
 bidi_session
+configuration
 top_context
 setup_event_recorder
 )
@@ -366,6 +367,7 @@ add_pointer
 .
 pointer_move
 (
+        
 x
 =
 100
@@ -375,6 +377,14 @@ y
 duration
 =
 DURATION
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
+    
 )
     
 await
@@ -512,6 +522,7 @@ test_touch_move_dispatches_multiple_events
 (
     
 bidi_session
+configuration
 top_context
 setup_event_recorder
 )
@@ -555,6 +566,7 @@ button
 .
 pointer_move
 (
+            
 x
 =
 200
@@ -564,6 +576,14 @@ y
 duration
 =
 DURATION
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
+        
 )
         
 .
@@ -711,6 +731,7 @@ test_wheel_scroll_dispatches_multiple_events
 (
     
 bidi_session
+configuration
 top_context
 setup_event_recorder
 )
@@ -738,21 +759,34 @@ add_wheel
 .
 scroll
 (
+        
 x
 =
 0
+        
 y
 =
 0
+        
 delta_x
 =
 30
+        
 delta_y
 =
 60
+        
 duration
 =
 DURATION
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
+    
 )
     
 await
