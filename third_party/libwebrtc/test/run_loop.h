@@ -552,6 +552,13 @@ WakeUp
 )
 override
 ;
+bool
+CanCreateSockets
+(
+)
+const
+override
+;
 Socket
 *
 absl_nullable
