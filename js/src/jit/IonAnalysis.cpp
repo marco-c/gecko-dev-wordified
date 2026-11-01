@@ -11966,11 +11966,10 @@ firstUseBlock
 >
 insertBefore
 (
-*
 firstUseBlock
 -
 >
-begin
+safeInsertTop
 (
 )
 canonical
