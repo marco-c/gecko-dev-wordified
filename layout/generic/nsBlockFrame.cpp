@@ -10219,6 +10219,9 @@ fragmentainer
 AddOrRemoveStateBits
 (
 NS_BLOCK_HAS_INLINE_ABSPOS_DESCENDANT
+foundAbspos
+|
+|
 prev
 -
 >
