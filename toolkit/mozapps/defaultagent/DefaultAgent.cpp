@@ -1086,10 +1086,10 @@ wchar_t
 >
 valueName
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 wchar_t
 [

@@ -885,10 +885,7 @@ NS_IsMainThread
 ;
 CheckDoesWindowSupportProtectedMedia
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 PendingRequest
 >
@@ -935,10 +932,7 @@ NS_IsMainThread
 auto
 request
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PendingRequestWithMozPromise
 >

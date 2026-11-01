@@ -2369,10 +2369,7 @@ mHitTester
 {
 mHitTester
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WRHitTester
 >
@@ -3376,10 +3373,7 @@ APZTestData
 >
 ptr
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 APZTestData
 >

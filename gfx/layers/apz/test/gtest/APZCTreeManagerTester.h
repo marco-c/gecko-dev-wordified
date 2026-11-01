@@ -169,10 +169,7 @@ APZCTreeManagerTester
 :
 mHitTester
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 WRHitTester
 >
@@ -580,10 +577,7 @@ CreateMockHitTester
 {
 mHitTester
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MockHitTester
 >

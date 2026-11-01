@@ -827,10 +827,7 @@ NS_ERROR_INVALID_ARG
 }
 mYChannel
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -917,10 +914,7 @@ isSome
 {
 mCbChannel
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -946,10 +940,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 mCrChannel
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -1118,10 +1109,7 @@ NS_ERROR_INVALID_ARG
 }
 mAlphaChannel
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

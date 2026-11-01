@@ -408,10 +408,7 @@ aRv
 auto
 txtDecoder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 TextDecoder
 >

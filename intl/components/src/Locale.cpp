@@ -7151,10 +7151,7 @@ aStr
 auto
 duplicate
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [
@@ -7205,10 +7202,7 @@ size
 auto
 duplicate
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [
@@ -8151,10 +8145,7 @@ string
 auto
 chars
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

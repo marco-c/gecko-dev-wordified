@@ -289,10 +289,7 @@ SandboxReporter
 )
 mBuffer
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 SandboxReport
 [

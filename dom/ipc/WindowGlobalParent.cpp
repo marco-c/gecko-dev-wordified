@@ -9165,10 +9165,7 @@ page
 >
 mPageUseCounters
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PageUseCounters
 >

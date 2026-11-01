@@ -314,10 +314,7 @@ nullptr
 auto
 context
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 gfxContext
 >
@@ -2650,10 +2647,7 @@ gBlurCache
 >
 RegisterEntry
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 BlurCacheData
 >
@@ -6851,10 +6845,7 @@ gBlurCache
 >
 RegisterEntry
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 BlurCacheData
 >

@@ -742,10 +742,7 @@ MacIOSurface
 ifdef
 XP_MACOSX
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 SurfaceFactory_IOSurface
 >

@@ -3307,10 +3307,7 @@ null
 ;
 mParserContext
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CParserContext
 >
@@ -3539,10 +3536,7 @@ one
 .
 mParserContext
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CParserContext
 >

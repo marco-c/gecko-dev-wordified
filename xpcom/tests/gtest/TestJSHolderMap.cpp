@@ -1091,10 +1091,10 @@ holders
 .
 emplaceBack
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 MyHolder
 >
@@ -1306,10 +1306,10 @@ holders
 .
 emplaceBack
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 MyHolder
 >
@@ -1521,10 +1521,7 @@ holders
 .
 emplaceBack
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 MyHolder
 >

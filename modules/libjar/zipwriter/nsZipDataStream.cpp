@@ -362,10 +362,7 @@ NS_ERROR_NOT_INITIALIZED
 auto
 buffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [
@@ -784,10 +781,7 @@ rv
 auto
 buffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

@@ -2389,10 +2389,7 @@ mArgsHolder
 =
 Some
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :
@@ -3677,10 +3674,7 @@ mResultHolder
 =
 Some
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :

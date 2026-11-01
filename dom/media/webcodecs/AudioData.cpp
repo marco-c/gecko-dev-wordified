@@ -5451,10 +5451,7 @@ resource
 auto
 serialized
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AudioDataSerializedData
 >

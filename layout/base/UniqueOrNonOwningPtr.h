@@ -155,10 +155,10 @@ namespace
 detail
 /
 /
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 equivalent
 with
 the

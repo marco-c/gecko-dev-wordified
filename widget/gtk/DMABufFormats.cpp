@@ -1114,10 +1114,7 @@ mPendingTranche
 {
 mPendingTranche
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DMABufFeedbackTranche
 >
@@ -1279,10 +1276,7 @@ mPendingDMABufFeedback
 {
 mPendingDMABufFeedback
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DMABufFeedback
 >
@@ -2268,10 +2262,7 @@ mDMABufFeedback
 {
 mDMABufFeedback
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DMABufFeedback
 >

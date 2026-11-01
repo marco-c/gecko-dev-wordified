@@ -2173,10 +2173,10 @@ powershellPath
 auto
 exePath
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 wchar_t
 [

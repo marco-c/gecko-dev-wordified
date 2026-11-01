@@ -1473,10 +1473,7 @@ mPreviousSpec
 ;
 mPreviousSpec
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DatabaseSpec
 >

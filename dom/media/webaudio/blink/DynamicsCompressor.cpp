@@ -2132,10 +2132,10 @@ ZeroPoleFilterPack4
 }
 m_sourceChannels
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 const
 float
@@ -2149,10 +2149,10 @@ numberOfChannels
 ;
 m_destinationChannels
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 float
 *

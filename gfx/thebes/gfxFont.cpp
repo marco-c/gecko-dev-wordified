@@ -5562,10 +5562,7 @@ mDetailedGlyphs
 {
 mDetailedGlyphs
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DetailedGlyphStore
 >
@@ -20401,10 +20398,7 @@ useCache
 {
 mColorGlyphCache
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ColorGlyphCache
 >
@@ -24864,10 +24858,7 @@ mWordCache
 {
 mWordCache
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 HashMap
 <
@@ -36046,10 +36037,7 @@ mGlyphChangeObservers
 {
 mGlyphChangeObservers
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsTHashSet
 <

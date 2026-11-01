@@ -6599,10 +6599,7 @@ NS_OK
 auto
 buf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MediaPacket
 >
@@ -7557,10 +7554,7 @@ R_WOULDBLOCK
 auto
 buf
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MediaPacket
 >

@@ -400,10 +400,7 @@ string
 >
 a1
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 std
 :
@@ -422,10 +419,7 @@ DummyStruct
 >
 a2
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DummyStruct
 >
@@ -455,10 +449,7 @@ a4
 DummyUnion
 a5
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 std
 :
@@ -563,10 +554,7 @@ DummyStruct
 >
 b
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DummyStruct
 >

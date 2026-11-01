@@ -1048,10 +1048,7 @@ terminator
 auto
 file
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

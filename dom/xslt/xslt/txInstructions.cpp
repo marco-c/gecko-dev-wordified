@@ -163,6 +163,12 @@ using
 mozilla
 :
 :
+MakeUnique
+;
+using
+mozilla
+:
+:
 UniquePtr
 ;
 nsresult
@@ -3478,10 +3484,7 @@ rv
 auto
 context
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 txNodeSetContext
 >

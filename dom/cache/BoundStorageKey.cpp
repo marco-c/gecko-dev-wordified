@@ -1070,10 +1070,7 @@ aGlobal
 )
 mPrincipalInfo
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >

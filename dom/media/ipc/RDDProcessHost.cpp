@@ -290,10 +290,7 @@ mRDDChild
 ;
 mPrefSerializer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ipc
 :

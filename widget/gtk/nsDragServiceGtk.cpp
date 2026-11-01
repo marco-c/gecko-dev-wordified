@@ -319,10 +319,7 @@ nsDragSessionGtk
 {
 mRecentTask
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DragTaskGtk
 >
@@ -1715,10 +1712,7 @@ DragTaskGtk
 >
 task
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DragTaskGtk
 >
@@ -1767,10 +1761,7 @@ DragTaskGtk
 >
 task
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DragTaskGtk
 >
@@ -1897,10 +1888,7 @@ DragTaskGtk
 >
 task
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DragTaskGtk
 >

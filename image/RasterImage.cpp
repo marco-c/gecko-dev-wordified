@@ -5295,10 +5295,7 @@ mAnimationMode
 ;
 mFrameAnimator
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 FrameAnimator
 >

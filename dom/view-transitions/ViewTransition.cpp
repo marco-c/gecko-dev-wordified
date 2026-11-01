@@ -2856,10 +2856,7 @@ hidden
 auto
 params
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ViewTransitionParams
 >
@@ -11893,10 +11890,7 @@ algorithms
 auto
 capture
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CapturedElement
 >
@@ -12437,10 +12431,7 @@ wasPresent
 false
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 CapturedElement
 >

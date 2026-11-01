@@ -14012,10 +14012,7 @@ substitutions
 InsertOrUpdate
 (
 aSubstituteName
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCString
 >
@@ -14041,10 +14038,7 @@ substitutions
 InsertOrUpdate
 (
 aSubstituteName
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCString
 >
@@ -14384,10 +14378,7 @@ mSubstitutions
 InsertOrUpdate
 (
 substituteName
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCString
 >
@@ -14401,10 +14392,7 @@ mHardcodedSubstitutions
 InsertOrUpdate
 (
 substituteName
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCString
 >

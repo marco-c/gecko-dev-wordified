@@ -1754,10 +1754,7 @@ statements
 auto
 childPO
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsPrintObject
 >
@@ -3146,10 +3143,7 @@ here
 .
 mPrintObject
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsPrintObject
 >

@@ -2334,10 +2334,10 @@ aMARStrings
 >
 MARChannelID
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 char
 [

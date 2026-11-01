@@ -2323,10 +2323,7 @@ mCompositorVsyncDispatcherLock
 {
 mCompositorVsyncDispatcherLock
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Mutex
 >

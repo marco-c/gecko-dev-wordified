@@ -852,10 +852,10 @@ int
 (
 &
 incrementUnique
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 int
 >

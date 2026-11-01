@@ -562,10 +562,7 @@ SampleRate
 ;
 mHRTFPanner
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 HRTFPanner
 >

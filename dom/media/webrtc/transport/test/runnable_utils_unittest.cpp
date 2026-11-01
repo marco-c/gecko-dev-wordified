@@ -1797,10 +1797,7 @@ ran
 auto
 cl
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 TargetClass
 >
@@ -1867,10 +1864,7 @@ destroyed
 auto
 state
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CtorDtorState
 >

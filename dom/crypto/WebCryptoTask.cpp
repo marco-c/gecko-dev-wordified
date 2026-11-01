@@ -14132,10 +14132,7 @@ aKeyUsages
 :
 mKeyPair
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 CryptoKeyPair
 >
@@ -14195,10 +14192,7 @@ aKeyUsages
 :
 mKeyPair
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 CryptoKeyPair
 >

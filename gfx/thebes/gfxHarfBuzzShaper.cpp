@@ -8151,10 +8151,7 @@ numGlyphs
 }
 mCmapCache
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CmapCache
 >
@@ -8168,10 +8165,7 @@ mUseFontGlyphWidths
 {
 mWidthCache
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 WidthCache
 >

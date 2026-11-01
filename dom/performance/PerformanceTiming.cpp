@@ -511,10 +511,7 @@ offset
 )
 .
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 PerformanceTimingData
 >
@@ -604,10 +601,7 @@ new
 here
 instead
 of
-std
-:
-:
-make_unique
+MakeUnique
 /
 /
 because

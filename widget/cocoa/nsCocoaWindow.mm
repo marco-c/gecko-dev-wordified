@@ -3887,10 +3887,7 @@ mSynthesizedTouchInput
 {
 mSynthesizedTouchInput
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MultiTouchInput
 >
@@ -8920,10 +8917,7 @@ mVibrancyManager
 {
 mVibrancyManager
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 VibrancyManager
 >

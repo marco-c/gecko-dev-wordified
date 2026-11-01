@@ -823,10 +823,10 @@ mCmapCache
 {
 mCmapCache
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 CmapCacheSlot
 [
@@ -6416,10 +6416,10 @@ mGlyphMetrics
 {
 mGlyphMetrics
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 nsTHashMap
 <

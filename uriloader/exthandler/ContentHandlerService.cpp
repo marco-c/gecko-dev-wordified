@@ -1311,10 +1311,7 @@ type
 )
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsCString
 >

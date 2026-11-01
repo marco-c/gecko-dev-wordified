@@ -1937,10 +1937,10 @@ false
 auto
 chars
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 char
 [
@@ -2055,10 +2055,10 @@ false
 auto
 chars
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 wchar_t
 [

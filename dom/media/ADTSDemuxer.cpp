@@ -661,10 +661,7 @@ mInfo
 {
 mInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AudioInfo
 >
@@ -4746,10 +4743,7 @@ false
 auto
 parser
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ADTS
 :

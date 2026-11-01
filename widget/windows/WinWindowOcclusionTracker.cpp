@@ -2005,10 +2005,7 @@ Thread
 >
 thread
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 base
 :

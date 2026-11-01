@@ -270,10 +270,10 @@ aConstructionArgs
 )
 {
 return
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 U
 >

@@ -443,10 +443,7 @@ colorSpace
 auto
 tex
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Texture
 >

@@ -11147,10 +11147,7 @@ aBuffer
 .
 SetChunkManager
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ProfileBufferChunkManagerSingle
 >
@@ -11924,10 +11921,7 @@ mutex
 .
 bufferUPtr
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ProfileChunkedBuffer
 >

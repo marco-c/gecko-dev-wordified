@@ -4623,10 +4623,7 @@ aContentDispositionFilename
 {
 mContentDispositionFilename
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsString
 >
@@ -41991,10 +41988,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsHttpResponseHead
 >
@@ -42047,10 +42041,7 @@ aMaybeResponseHead
 {
 mResponseHead
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsHttpResponseHead
 >
@@ -42064,10 +42055,7 @@ else
 {
 mResponseHead
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsHttpResponseHead
 >

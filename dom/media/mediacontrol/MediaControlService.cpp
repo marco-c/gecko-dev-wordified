@@ -731,10 +731,7 @@ get
 ;
 mControllerManager
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ControllerManager
 >

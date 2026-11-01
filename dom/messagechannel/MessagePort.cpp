@@ -936,10 +936,7 @@ aGlobal
 ;
 mIdentifier
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MessagePortIdentifier
 >

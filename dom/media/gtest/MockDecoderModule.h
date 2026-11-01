@@ -122,10 +122,7 @@ aParams
 :
 DummyMediaDataDecoder
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 BlankVideoDataCreator
 >

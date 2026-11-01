@@ -553,10 +553,7 @@ StreamData
 >
 data
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 StreamData
 >

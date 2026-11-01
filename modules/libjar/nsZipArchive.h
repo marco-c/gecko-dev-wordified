@@ -2045,10 +2045,10 @@ release
 auto
 ret
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 T
 [

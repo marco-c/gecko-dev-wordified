@@ -651,10 +651,7 @@ nullptr
 auto
 sink
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SurfaceSink
 >

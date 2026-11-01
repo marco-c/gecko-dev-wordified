@@ -2301,10 +2301,7 @@ New
 auto
 native
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 XPCOMEventTargetWrapper
 >
@@ -2572,10 +2569,10 @@ screenManager
 .
 SetHelper
 (
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 ScreenHelperAndroid
 >
@@ -4471,10 +4468,10 @@ Event
 >
 runAndNotifyEvent
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 LambdaEvent
 <

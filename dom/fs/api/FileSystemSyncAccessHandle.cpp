@@ -3799,10 +3799,7 @@ OutputStream
 auto
 promiseHolder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MozPromiseHolder
 <

@@ -1106,10 +1106,7 @@ mTrailers
 {
 mTrailers
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsHttpHeaderArray
 >

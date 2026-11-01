@@ -4754,10 +4754,7 @@ it
 .
 deduplicatedArray
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AttrAtomArray
 >
@@ -8001,10 +7998,7 @@ AttrAtomArray
 auto
 array
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AttrAtomArray
 >

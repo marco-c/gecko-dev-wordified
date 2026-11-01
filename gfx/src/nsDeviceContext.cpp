@@ -1102,10 +1102,7 @@ nullptr
 auto
 pContext
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 gfxContext
 >

@@ -7425,10 +7425,10 @@ true
 ;
 mGatheringLog
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 Json
 :

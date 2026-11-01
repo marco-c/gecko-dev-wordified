@@ -5119,10 +5119,7 @@ MediaSourceDecoderDebugInfo
 >
 info
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MediaSourceDecoderDebugInfo
 >

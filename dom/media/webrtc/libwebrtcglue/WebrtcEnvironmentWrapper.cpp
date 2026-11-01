@@ -120,10 +120,7 @@ wrapper
 new
 WebrtcEnvironmentWrapper
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 webrtc
 :

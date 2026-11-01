@@ -2343,10 +2343,7 @@ For
 auto
 writer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SpliceableChunkedJSONWriter
 >

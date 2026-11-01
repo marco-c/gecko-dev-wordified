@@ -81813,10 +81813,7 @@ aResult
 >
 SetCustomElementData
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 CustomElementData
 >
@@ -82602,10 +82599,7 @@ aResult
 >
 SetCustomElementData
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 CustomElementData
 >
@@ -82875,10 +82869,7 @@ aResult
 >
 SetCustomElementData
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 CustomElementData
 >

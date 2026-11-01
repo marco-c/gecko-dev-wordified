@@ -2175,10 +2175,7 @@ mNamedItemsCache
 {
 mNamedItemsCache
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 NamedItemsCache
 >

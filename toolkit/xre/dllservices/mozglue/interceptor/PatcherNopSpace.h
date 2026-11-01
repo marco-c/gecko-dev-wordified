@@ -690,10 +690,10 @@ actual
 data
 data
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 wchar_t
 [

@@ -175,10 +175,7 @@ nullptr
 )
 mHandles
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsIContent
 *
@@ -3638,10 +3635,7 @@ mHandles
 ;
 mHandles
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsIContent
 *

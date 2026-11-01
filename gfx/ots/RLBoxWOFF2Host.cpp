@@ -378,10 +378,7 @@ sandbox
 auto
 sandbox
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 rlbox_sandbox_woff2
 >
@@ -461,10 +458,7 @@ RLBoxWOFF2SandboxData
 >
 sbxData
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 RLBoxWOFF2SandboxData
 >

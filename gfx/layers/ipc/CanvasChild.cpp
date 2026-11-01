@@ -2467,10 +2467,7 @@ Init
 aTextureType
 aWebglTextureType
 backendType
-std
-:
-:
-make_unique
+MakeUnique
 <
 RecorderHelpers
 >

@@ -2543,10 +2543,7 @@ NS_NewTimer
 }
 mManager
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AccessibleCaretManager
 >

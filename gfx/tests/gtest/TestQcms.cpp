@@ -508,10 +508,7 @@ colorSampleMax
 ;
 aOutBuffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -1083,10 +1080,7 @@ uint8_t
 >
 buffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -1133,10 +1127,7 @@ uint8_t
 >
 buffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

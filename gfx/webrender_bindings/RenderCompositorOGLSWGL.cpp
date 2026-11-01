@@ -623,10 +623,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 RenderCompositorOGLSWGL
 >
@@ -1840,10 +1837,7 @@ NO_FLAGS
 )
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 TileOGL
 >

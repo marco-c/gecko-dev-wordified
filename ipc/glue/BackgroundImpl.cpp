@@ -2830,10 +2830,7 @@ threadLocalInfo
 auto
 newInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ThreadLocalInfo
 >
@@ -8470,10 +8467,7 @@ threadLocalInfo
 >
 mConsumerThreadLocal
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 BackgroundChildImpl
 :

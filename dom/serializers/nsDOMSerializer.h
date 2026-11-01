@@ -143,10 +143,10 @@ aOwner
 )
 {
 return
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 nsDOMSerializer
 >

@@ -791,10 +791,7 @@ ProxyAutoConfigChild
 :
 mPAC
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ProxyAutoConfig
 >

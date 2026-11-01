@@ -10145,10 +10145,7 @@ aConfig
 auto
 shader
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ShaderProgramOGL
 >

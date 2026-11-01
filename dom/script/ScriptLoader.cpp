@@ -7307,10 +7307,7 @@ IsEmpty
 {
 sriDataVerifier
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SRICheckDataVerifier
 >

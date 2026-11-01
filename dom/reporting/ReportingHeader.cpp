@@ -1090,10 +1090,7 @@ header
 {
 client
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Client
 >
@@ -2268,10 +2265,7 @@ Client
 >
 client
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Client
 >

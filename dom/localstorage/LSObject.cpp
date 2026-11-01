@@ -1786,10 +1786,7 @@ NS_ERROR_NOT_AVAILABLE
 auto
 principalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >
@@ -1842,10 +1839,7 @@ TContentPrincipalInfo
 auto
 storagePrincipalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >
@@ -2318,10 +2312,7 @@ NS_ERROR_NOT_AVAILABLE
 auto
 principalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >
@@ -2388,10 +2379,7 @@ TSystemPrincipalInfo
 auto
 storagePrincipalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >

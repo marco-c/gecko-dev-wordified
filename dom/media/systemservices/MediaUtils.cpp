@@ -1095,10 +1095,7 @@ change
 barrier
 .
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 ShutdownBlockingTicketImpl
 >

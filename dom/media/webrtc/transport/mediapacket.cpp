@@ -179,10 +179,7 @@ len
 }
 data_
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -479,10 +476,7 @@ capacity_
 {
 data_
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [
@@ -527,10 +521,7 @@ encrypted_len_
 {
 encrypted_data_
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

@@ -1640,10 +1640,7 @@ ClassicScriptEncoding
 ;
 mDecoder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScriptDecoder
 >
@@ -1781,10 +1778,7 @@ encoding
 ;
 mDecoder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScriptDecoder
 >
@@ -1859,10 +1853,7 @@ encoding
 ;
 mDecoder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScriptDecoder
 >
@@ -1906,10 +1897,7 @@ encoding
 ;
 mDecoder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScriptDecoder
 >

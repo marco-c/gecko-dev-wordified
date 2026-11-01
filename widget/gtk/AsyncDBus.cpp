@@ -1241,10 +1241,7 @@ DBusConnectionCheck
 auto
 boxedData
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PortalResponseData
 >

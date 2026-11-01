@@ -229,10 +229,7 @@ TestCheckVideoDecodingInfo
 auto
 config
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 VideoInfo
 >
@@ -423,10 +420,7 @@ TestCheckVideoDecodingInfo
 auto
 config
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 VideoInfo
 >
@@ -617,10 +611,7 @@ TestCheckVideoDecodingInfo
 auto
 config
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 VideoInfo
 >

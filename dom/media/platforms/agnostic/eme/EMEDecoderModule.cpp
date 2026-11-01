@@ -1020,10 +1020,7 @@ mDecrypts
 InsertOrUpdate
 (
 aSample
-std
-:
-:
-make_unique
+MakeUnique
 <
 DecryptPromiseRequestHolder
 >
@@ -3171,10 +3168,7 @@ bug
 .
 converter
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ADTSSampleConverter
 >

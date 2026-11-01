@@ -969,10 +969,7 @@ kInvalidNodeName
 auto
 message
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 IPC
 :
@@ -1026,10 +1023,7 @@ aIntroduction
 auto
 message
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 IPC
 :
@@ -1180,10 +1174,7 @@ kInvalidPortName
 auto
 message
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 IPC
 :

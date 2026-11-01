@@ -1643,10 +1643,7 @@ int
 >
 p
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 int
 >

@@ -256,10 +256,7 @@ false
 ;
 mRequestHandler
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 MockFileSystemRequestHandler
 >

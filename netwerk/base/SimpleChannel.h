@@ -668,10 +668,7 @@ mozilla
 auto
 callbacks
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 net
 :

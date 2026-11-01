@@ -21939,10 +21939,7 @@ mCurrentTimeGetter
 {
 mCurrentTimeGetter
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 CurrentX11TimeGetter
 >
@@ -47771,10 +47768,7 @@ nullptr
 ;
 }
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 WaylandSurfaceLock
 >

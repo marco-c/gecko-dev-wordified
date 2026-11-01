@@ -3072,10 +3072,7 @@ entry
 .
 Insert
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsTArray
 <

@@ -613,10 +613,7 @@ mComputedStyle
 {
 svgContext
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SVGImageContext
 >

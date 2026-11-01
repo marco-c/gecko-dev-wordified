@@ -1694,10 +1694,10 @@ false
 private
 :
 friend
-std
+mozilla
 :
 :
-default_delete
+DefaultDelete
 <
 Http2StreamBase
 >

@@ -428,10 +428,7 @@ aSharedSurface
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 SharedResourceWrapper
 >
@@ -467,10 +464,7 @@ aSharedTexture
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 SharedResourceWrapper
 >

@@ -541,10 +541,7 @@ aCx
 auto
 data
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 Type
 [

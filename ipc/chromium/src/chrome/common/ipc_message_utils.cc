@@ -178,10 +178,10 @@ shmem_ok
 {
 shmem_cursor_
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 mozilla
 :
@@ -650,10 +650,10 @@ return
 }
 shmem_cursor_
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 mozilla
 :

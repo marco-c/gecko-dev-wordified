@@ -383,10 +383,7 @@ ScopedLayerTreeRegistration
 >
 registration
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScopedLayerTreeRegistration
 >
@@ -1014,10 +1011,7 @@ ScopedLayerTreeRegistration
 >
 registration
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScopedLayerTreeRegistration
 >
@@ -1446,10 +1440,7 @@ ScopedLayerTreeRegistration
 >
 registration
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScopedLayerTreeRegistration
 >
@@ -2071,10 +2062,7 @@ ScopedLayerTreeRegistration
 >
 registration
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ScopedLayerTreeRegistration
 >

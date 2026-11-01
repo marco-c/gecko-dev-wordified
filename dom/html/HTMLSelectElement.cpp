@@ -9177,10 +9177,7 @@ future
 .
 mRestoreState
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SelectContentData
 >

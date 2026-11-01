@@ -722,10 +722,7 @@ correct
 .
 mNativeThreadHandle
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 detail
 :
@@ -1748,10 +1745,7 @@ MakeRefPtr
 ThreadEventQueue
 >
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 mozilla
 :

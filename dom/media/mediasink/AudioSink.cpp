@@ -368,10 +368,7 @@ IsValid
 {
 mProcessedSPSCQueue
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SPSCQueue
 <
@@ -465,10 +462,7 @@ mOutputChannels
 ;
 mProcessedSPSCQueue
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 SPSCQueue
 <
@@ -4256,10 +4250,7 @@ return
 }
 mConverter
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AudioConverter
 >

@@ -5334,10 +5334,7 @@ aLeafName
 auto
 newTask
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DynamicBlocklistWriter
 >

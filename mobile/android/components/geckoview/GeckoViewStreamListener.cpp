@@ -1541,10 +1541,10 @@ StreamSupport
 AttachNative
 (
 mSupport
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 StreamSupport
 >

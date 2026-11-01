@@ -501,10 +501,7 @@ mScopes
 InsertOrUpdate
 (
 aContent
-std
-:
-:
-make_unique
+MakeUnique
 <
 ContainStyleScope
 >

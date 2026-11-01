@@ -3588,10 +3588,7 @@ mUploadList
 InsertOrUpdate
 (
 keyPtr
-std
-:
-:
-make_unique
+MakeUnique
 <
 UploadData
 >
@@ -10067,10 +10064,7 @@ mOutputMap
 InsertOrUpdate
 (
 keyPtr
-std
-:
-:
-make_unique
+MakeUnique
 <
 OutputData
 >
@@ -17431,10 +17425,10 @@ get
 auto
 toWalk
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 WalkData
 >

@@ -757,10 +757,7 @@ holder
 .
 Insert
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 PipelineTexturesHolder
 >
@@ -995,10 +992,7 @@ id
 auto
 holder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 AsyncImagePipeline
 >
@@ -4235,10 +4229,7 @@ mTextureHostsUntilRenderCompleted
 .
 emplace_back
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ForwardingTextureHost
 >
@@ -4364,10 +4355,7 @@ mExternalImages
 .
 emplace_back
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ForwardingExternalImage
 >

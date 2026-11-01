@@ -331,10 +331,7 @@ entry
 .
 InsertOrUpdate
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 DeleteItemInfo
 >
@@ -384,10 +381,7 @@ mTruncateInfo
 {
 mTruncateInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 TruncateInfo
 >

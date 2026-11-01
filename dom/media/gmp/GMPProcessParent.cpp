@@ -598,10 +598,7 @@ override
 auto
 prefSerializer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ipc
 :

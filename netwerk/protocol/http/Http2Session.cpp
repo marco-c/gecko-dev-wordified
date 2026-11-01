@@ -1252,10 +1252,7 @@ mSerial
 ;
 mInputFrameBuffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [
@@ -1267,10 +1264,7 @@ mInputFrameBufferSize
 ;
 mOutputQueueBuffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 char
 [

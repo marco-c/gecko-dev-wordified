@@ -330,10 +330,7 @@ aParent
 )
 WrapMovingNotNull
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 StyleNumericType
 >

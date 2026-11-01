@@ -5828,10 +5828,7 @@ aAddrRec
 >
 addr
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 NetAddr
 >

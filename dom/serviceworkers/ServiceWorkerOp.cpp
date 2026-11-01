@@ -10622,10 +10622,7 @@ aTiming
 initiatorType
 (
 )
-std
-:
-:
-make_unique
+MakeUnique
 <
 PerformanceTimingData
 >

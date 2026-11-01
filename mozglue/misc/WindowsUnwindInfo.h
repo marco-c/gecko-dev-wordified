@@ -1186,10 +1186,7 @@ Size
 auto
 result
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

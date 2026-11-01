@@ -633,10 +633,7 @@ slot
 {
 slot
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ViewRegion
 >

@@ -166,10 +166,7 @@ N
 )
 mArrayData
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ElemType
 [

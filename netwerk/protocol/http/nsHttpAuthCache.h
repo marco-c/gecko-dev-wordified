@@ -897,10 +897,10 @@ class
 nsHttpAuthCache
 ;
 friend
-std
+mozilla
 :
 :
-default_delete
+DefaultDelete
 <
 nsHttpAuthEntry
 >
@@ -911,6 +911,8 @@ needs
 to
 call
 the
+/
+/
 destructor
 }
 ;
@@ -1242,10 +1244,10 @@ class
 nsHttpAuthCache
 ;
 friend
-std
+mozilla
 :
 :
-default_delete
+DefaultDelete
 <
 nsHttpAuthNode
 >
@@ -1256,6 +1258,8 @@ needs
 to
 call
 the
+/
+/
 destructor
 }
 ;

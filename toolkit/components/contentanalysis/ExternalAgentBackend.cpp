@@ -6607,10 +6607,7 @@ request_token
 (
 )
 )
-std
-:
-:
-make_unique
+MakeUnique
 <
 ExternalAgentBackend
 :

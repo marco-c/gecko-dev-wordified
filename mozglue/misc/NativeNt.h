@@ -1756,10 +1756,7 @@ aBufferLen
 :
 mBuffer
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

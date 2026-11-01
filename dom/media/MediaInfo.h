@@ -2861,10 +2861,7 @@ const
 override
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 VideoInfo
 >
@@ -3914,10 +3911,7 @@ const
 override
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 AudioInfo
 >

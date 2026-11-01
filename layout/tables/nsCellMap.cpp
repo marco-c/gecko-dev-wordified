@@ -437,10 +437,7 @@ aBorderCollapse
 {
 mBCInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 BCInfo
 >

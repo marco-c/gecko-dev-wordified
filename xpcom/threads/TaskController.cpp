@@ -2590,10 +2590,7 @@ i
 auto
 thread
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 PoolThread
 >

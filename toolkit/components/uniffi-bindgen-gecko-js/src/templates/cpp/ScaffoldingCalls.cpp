@@ -1152,10 +1152,7 @@ id
 :
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 {
 {
@@ -1275,10 +1272,7 @@ id
 :
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 {
 {

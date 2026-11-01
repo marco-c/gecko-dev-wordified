@@ -434,10 +434,7 @@ CompareIIDs
 )
 ;
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 MozQueryInterface
 >

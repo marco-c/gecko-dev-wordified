@@ -1602,10 +1602,7 @@ DataHolder
 >
 dataHolder
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DataHolder
 >

@@ -305,10 +305,7 @@ return
 }
 mStringBuffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

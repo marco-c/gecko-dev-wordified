@@ -2443,10 +2443,7 @@ mVersionList
 .
 AppendElement
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 VersionEntry
 >

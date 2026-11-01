@@ -2726,10 +2726,7 @@ SocketProcessReady
 {
 mPAC
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 RemoteProxyAutoConfig
 >
@@ -2741,10 +2738,7 @@ else
 {
 mPAC
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ProxyAutoConfig
 >

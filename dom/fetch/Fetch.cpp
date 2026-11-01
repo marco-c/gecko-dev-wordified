@@ -2890,10 +2890,7 @@ internalRequest
 >
 SetInterceptionTriggeringPrincipalInfo
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 mozilla
 :
@@ -10813,10 +10810,7 @@ aPrincipalInfo
 {
 mPrincipalInfo
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 mozilla
 :

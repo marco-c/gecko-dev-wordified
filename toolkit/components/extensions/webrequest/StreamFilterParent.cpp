@@ -6947,10 +6947,7 @@ mQueue
 >
 RunOrEnqueue
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ChannelEventFunction
 >
@@ -6988,10 +6985,7 @@ mQueue
 >
 RunOrEnqueue
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ChannelEventRunnable
 >
@@ -7034,10 +7028,7 @@ mQueue
 >
 RunOrEnqueue
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ChannelEventFunction
 >
@@ -7075,10 +7066,7 @@ mQueue
 >
 RunOrEnqueue
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 ChannelEventRunnable
 >

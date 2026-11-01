@@ -1838,10 +1838,7 @@ surface
 .
 mCachedSurface
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 ClippedImageCachedSurface
 >

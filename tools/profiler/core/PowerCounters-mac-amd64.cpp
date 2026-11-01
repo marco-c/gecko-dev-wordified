@@ -2989,10 +2989,10 @@ XRE_IsParentProcess
 {
 mRapl
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 RAPL
 >

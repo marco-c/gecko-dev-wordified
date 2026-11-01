@@ -1923,10 +1923,7 @@ HybridEventTarget
 {
 mTimeoutManager
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 dom
 :
@@ -5281,10 +5278,7 @@ principalInfoPtr
 =
 allowed
 ?
-std
-:
-:
-make_unique
+MakeUnique
 <
 PrincipalInfo
 >

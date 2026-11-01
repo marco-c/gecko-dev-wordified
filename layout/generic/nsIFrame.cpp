@@ -24058,10 +24058,7 @@ nsDisplayListBuilder
 .
 autoPreserves3DContext
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsDisplayListBuilder
 :

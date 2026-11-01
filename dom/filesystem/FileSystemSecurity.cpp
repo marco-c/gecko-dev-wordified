@@ -552,10 +552,7 @@ OrInsertWith
 ]
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 nsTArray
 <

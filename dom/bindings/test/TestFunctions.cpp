@@ -178,10 +178,7 @@ aGlobal
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 TestFunctions
 >

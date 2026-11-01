@@ -749,10 +749,10 @@ scope
 >
 mWaiverWrapperMap
 =
-std
+mozilla
 :
 :
-make_unique
+MakeUnique
 <
 JSObject2JSObjectMap
 >

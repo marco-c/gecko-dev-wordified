@@ -2740,10 +2740,7 @@ CellHeaders
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 RemoteAccIterator
 >
@@ -2777,10 +2774,7 @@ AsLocal
 )
 {
 return
-std
-:
-:
-make_unique
+MakeUnique
 <
 AssociatedElementsIterator
 >

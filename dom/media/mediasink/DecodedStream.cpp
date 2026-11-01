@@ -3909,10 +3909,7 @@ NS_OK
 }
 mData
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 DecodedStreamData
 >

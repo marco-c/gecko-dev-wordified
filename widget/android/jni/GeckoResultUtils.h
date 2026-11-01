@@ -352,10 +352,7 @@ converted
 auto
 native
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 GeckoResultCallback
 >
@@ -426,10 +423,7 @@ New
 auto
 native
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 GeckoResultCallback
 >

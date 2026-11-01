@@ -1444,10 +1444,7 @@ AsyncCallbackMethodHandlerBase
 >
 handler
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 {
 {
@@ -2095,10 +2092,7 @@ AsyncCallbackMethodHandlerBase
 >
 handler
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 {
 {
@@ -2816,10 +2810,7 @@ AsyncCallbackMethodHandlerBase
 :
 ScheduleAsyncCall
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 CallbackFreeHandler
 >

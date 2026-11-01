@@ -2205,10 +2205,7 @@ false
 }
 nspr_io_adapter_
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 TransportLayerNSPRAdapter
 >
@@ -6472,10 +6469,7 @@ kBufferSize
 auto
 buffer
 =
-std
-:
-:
-make_unique
+MakeUnique
 <
 uint8_t
 [

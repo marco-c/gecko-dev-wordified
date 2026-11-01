@@ -503,10 +503,7 @@ GetIPCChannel
 >
 Send
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 IPC
 :
@@ -958,10 +955,7 @@ GetIPCChannel
 >
 Send
 (
-std
-:
-:
-make_unique
+MakeUnique
 <
 IPC
 :
