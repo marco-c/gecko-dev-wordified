@@ -2302,6 +2302,14 @@ leave
 1000
 "
 ]
+[
+"
+ui
+.
+prefersReducedMotion
+"
+0
+]
 /
 /
 Waive
