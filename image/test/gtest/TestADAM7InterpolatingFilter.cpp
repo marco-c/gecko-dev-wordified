@@ -180,6 +180,8 @@ IntSize
 &
 aSize
 Func
+&
+&
 aFunc
 )
 {
