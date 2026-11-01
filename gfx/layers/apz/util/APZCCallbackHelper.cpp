@@ -2453,7 +2453,7 @@ MatrixMessage
 aTransforms
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -3946,7 +3946,7 @@ nsIFrame
 aFrame
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -4160,7 +4160,7 @@ nsIFrame
 aFrame
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -6881,7 +6881,7 @@ PresShell
 aPresShell
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -7128,7 +7128,7 @@ ScrollDirection
 aDirection
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -7181,7 +7181,7 @@ ViewID
 aScrollId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -7232,7 +7232,7 @@ ViewID
 aScrollId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -7313,7 +7313,7 @@ ViewID
 aScrollId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -7394,7 +7394,7 @@ float
 aScale
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
