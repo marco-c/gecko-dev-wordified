@@ -1849,7 +1849,7 @@ Get
 )
 -
 >
-HandleWebRenderError
+NotifyWebRenderError
 (
 WebRenderError
 :
