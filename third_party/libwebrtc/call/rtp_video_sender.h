@@ -1467,8 +1467,6 @@ RTC_GUARDED_BY
 (
 mutex_
 )
-=
-0
 ;
 const
 bool
