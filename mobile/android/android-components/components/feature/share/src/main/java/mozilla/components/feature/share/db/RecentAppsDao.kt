@@ -119,6 +119,7 @@ OnConflictStrategy
 IGNORE
 )
 abstract
+suspend
 fun
 insertRecentApps
 (
@@ -147,6 +148,7 @@ activityName
 "
 )
 abstract
+suspend
 fun
 deleteRecentApp
 (
@@ -175,6 +177,7 @@ limit
 "
 )
 abstract
+suspend
 fun
 getRecentAppsUpTo
 (
@@ -199,6 +202,7 @@ a
 recent
 app
 .
+*
 *
 param
 activityName
@@ -236,6 +240,7 @@ activityName
 "
 )
 abstract
+suspend
 fun
 updateRecentAppScore
 (
@@ -260,6 +265,7 @@ exponential
 decay
 )
 .
+*
 *
 param
 exceptActivity
@@ -314,6 +320,7 @@ exceptActivity
 "
 )
 abstract
+suspend
 fun
 decayAllRecentApps
 (
@@ -328,6 +335,7 @@ DECAY_MULTIPLIER
 )
 Transaction
 open
+suspend
 fun
 updateRecentAppAndDecayRest
 (
