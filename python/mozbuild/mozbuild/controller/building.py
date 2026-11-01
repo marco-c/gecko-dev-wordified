@@ -2268,6 +2268,16 @@ _resources_started
 True
         
 if
+self
+.
+resources
+.
+forwarding
+:
+            
+return
+        
+if
 "
 MOZ_AUTOMATION
 "
@@ -3164,6 +3174,16 @@ self
 )
 :
         
+if
+self
+.
+resources
+.
+forwarding
+:
+            
+return
+        
 try
 :
             
@@ -3836,6 +3856,13 @@ start_time
 is
 not
 None
+and
+not
+self
+.
+resources
+.
+forwarding
     
 def
 get_resource_usage
