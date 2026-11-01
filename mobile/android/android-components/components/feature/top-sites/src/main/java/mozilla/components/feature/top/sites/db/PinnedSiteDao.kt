@@ -71,12 +71,6 @@ db
 import
 androidx
 .
-annotation
-.
-WorkerThread
-import
-androidx
-.
 room
 .
 Dao
@@ -113,7 +107,6 @@ Update
 /
 *
 *
-*
 Internal
 DAO
 for
@@ -130,8 +123,8 @@ internal
 interface
 PinnedSiteDao
 {
-WorkerThread
 Insert
+suspend
 fun
 insertPinnedSite
 (
@@ -141,8 +134,8 @@ PinnedSiteEntity
 )
 :
 Long
-WorkerThread
 Update
+suspend
 fun
 updatePinnedSite
 (
@@ -150,8 +143,8 @@ site
 :
 PinnedSiteEntity
 )
-WorkerThread
 Delete
+suspend
 fun
 deletePinnedSite
 (
@@ -159,8 +152,8 @@ site
 :
 PinnedSiteEntity
 )
-WorkerThread
 Transaction
+suspend
 fun
 insertAllPinnedSites
 (
@@ -200,7 +193,6 @@ id
 id
 }
 }
-WorkerThread
 Query
 (
 "
@@ -210,6 +202,7 @@ FROM
 top_sites
 "
 )
+suspend
 fun
 getPinnedSites
 (
@@ -231,6 +224,7 @@ FROM
 top_sites
 "
 )
+suspend
 fun
 getPinnedSitesCount
 (
