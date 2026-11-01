@@ -77,6 +77,11 @@ headers
 .
 #
 include
+<
+bit
+>
+#
+include
 "
 irregexp
 /
@@ -443,13 +448,10 @@ limit
 .
 size
 =
-base
+std
 :
 :
-bits
-:
-:
-RoundUpToPowerOfTwo
+bit_ceil
 (
 required_size
 )
