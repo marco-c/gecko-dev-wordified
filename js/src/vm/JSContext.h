@@ -962,7 +962,7 @@ FirstJSKind
 /
 /
 A
-ThenableJob
+ThenableJobObject
 ;
 the
 kind
