@@ -12767,9 +12767,9 @@ bailoutCmp32
 Assembler
 :
 :
-Equal
+Zero
 out
-zero
+out
 ins
 -
 >

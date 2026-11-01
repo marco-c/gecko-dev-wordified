@@ -7221,10 +7221,10 @@ ABIStackAlignment
 ma_b
 (
 scratch
-zero
+scratch
 &
 aligned
-Equal
+Zero
 ShortJump
 )
 ;
