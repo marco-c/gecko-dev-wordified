@@ -2942,6 +2942,12 @@ regexp_unroll
 true
 )
 ;
+SET_DEFAULT
+(
+regexp_atomic_loop
+true
+)
+;
 /
 /
 V8
