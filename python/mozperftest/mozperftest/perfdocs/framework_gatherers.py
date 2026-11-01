@@ -4373,6 +4373,21 @@ perftest_test2
 "
 "
         
+claude_dir
+=
+pathlib
+.
+Path
+(
+self
+.
+workspace_dir
+"
+.
+claude
+"
+)
+        
 for
 path
 in
@@ -4418,6 +4433,16 @@ str
 (
 path
 )
+:
+                
+continue
+            
+if
+claude_dir
+in
+path
+.
+parents
 :
                 
 continue
