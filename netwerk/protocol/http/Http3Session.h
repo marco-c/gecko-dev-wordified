@@ -2603,6 +2603,16 @@ ProcessPending
 )
 ;
 void
+ApplyAnticipatedWebTransportStreams
+(
+Http3StreamBase
+*
+aStream
+uint64_t
+aSessionId
+)
+;
+void
 CallCertVerification
 (
 Maybe
