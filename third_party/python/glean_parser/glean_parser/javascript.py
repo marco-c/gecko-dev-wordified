@@ -1453,11 +1453,17 @@ filename
         
 types
 =
-set
+sorted
 (
             
-[
+list
+(
                 
+set
+(
+                    
+[
+                        
 #
 This
 takes
@@ -1468,7 +1474,7 @@ regular
 metric
 type
 imports
-                
+                        
 #
 as
 well
@@ -1478,7 +1484,7 @@ labeled
 metric
 subtype
 imports
-                
+                        
 #
 thus
 the
@@ -1488,9 +1494,9 @@ the
 labeled_
 substring
 .
-                
+                        
 #
-                
+                        
 #
 The
 actual
@@ -1499,16 +1505,17 @@ import
 is
 conditioned
 after
-                
+                        
 #
 the
 has_labeled_metrics
 boolean
 .
-                
+                        
 obj
 .
 type
+                        
 if
 not
 obj
@@ -1521,6 +1528,7 @@ startswith
 labeled_
 "
 )
+                        
 else
 obj
 .
@@ -1529,7 +1537,7 @@ type
 8
 :
 ]
-                
+                        
 for
 obj
 in
@@ -1538,8 +1546,12 @@ category_val
 values
 (
 )
-            
+                    
 ]
+                
+)
+            
+)
         
 )
         
