@@ -295,15 +295,6 @@ aLastKnownTitle
 mLastKnownTitle
 ;
 }
-uint32_t
-UserContextId
-(
-)
-{
-return
-mUserContextId
-;
-}
 /
 /
 It
@@ -379,11 +370,6 @@ mTypedCount
 ;
 nsString
 mLastKnownTitle
-;
-uint32_t
-mUserContextId
-=
-0
 ;
 private
 :
