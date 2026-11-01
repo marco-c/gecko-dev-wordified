@@ -246,12 +246,19 @@ setupTest
 init
 :
 false
-populateStore
+storePath
 :
+await
+NimbusTestUtils
+.
+createStoreWith
+(
+async
 store
 =
 >
 {
+await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -262,6 +269,7 @@ store
 }
 )
 ;
+await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -272,6 +280,7 @@ store
 }
 )
 ;
+await
 NimbusTestUtils
 .
 addEnrollmentForRecipe
@@ -283,6 +292,7 @@ store
 )
 ;
 }
+)
 experiments
 :
 [
