@@ -313,6 +313,8 @@ nsACString
 aStorageOrigin
 bool
 aIsPrivate
+bool
+aIsEncrypted
 const
 ClientUsageArray
 &
@@ -352,6 +354,10 @@ aMaintenanceDate
 mIsPrivate
 (
 aIsPrivate
+)
+mIsEncrypted
+(
+aIsEncrypted
 )
 mAccessed
 (
@@ -563,6 +569,7 @@ mGroupInfo
 -
 >
 mPersistenceType
+mIsEncrypted
 }
 ;
 }
@@ -818,13 +825,6 @@ mMaintenanceDate
 )
 )
 ;
-OriginStateMetadata
-stateMetadata
-=
-LockedFlattenToOriginStateMetadata
-(
-)
-;
 QM_TRY
 (
 MOZ_TO_RESULT
@@ -838,7 +838,9 @@ BindInt32ByName
 metadata_flags
 "
 _ns
-stateMetadata
+LockedFlattenToFullOriginMetadata
+(
+)
 .
 ToMetadataFlags
 (

@@ -450,6 +450,7 @@ mGroup
 mOrigin
 mStorageOrigin
 mIsPrivate
+mIsEncrypted
 mPersistenceType
 mLastAccessTime
 mLastMaintenanceDate
