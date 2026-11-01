@@ -2555,8 +2555,10 @@ current
 GPU
 process
 .
+RefPtr
+<
 GPUProcessHost
-*
+>
 mProcess
 ;
 uint64_t

@@ -539,6 +539,10 @@ OnChannelClosed
 (
 )
 ;
+mHost
+=
+nullptr
+;
 }
 void
 VRChild
