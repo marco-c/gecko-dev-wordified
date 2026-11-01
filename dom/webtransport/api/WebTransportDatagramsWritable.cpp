@@ -328,8 +328,6 @@ aTransport
 WebTransportDatagramDuplexStream
 *
 aDatagrams
-double
-aHighWaterMark
 WebTransportSendGroup
 *
 aSendGroup
@@ -564,9 +562,8 @@ SetUpNative
 aCx
 *
 algorithms
-Some
+Nothing
 (
-aHighWaterMark
 )
 nullptr
 aRv

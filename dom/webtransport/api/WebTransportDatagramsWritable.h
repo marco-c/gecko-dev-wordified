@@ -198,8 +198,6 @@ aTransport
 WebTransportDatagramDuplexStream
 *
 aDatagrams
-double
-aHighWaterMark
 WebTransportSendGroup
 *
 aSendGroup

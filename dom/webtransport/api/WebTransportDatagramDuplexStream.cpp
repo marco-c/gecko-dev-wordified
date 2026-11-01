@@ -1134,7 +1134,6 @@ cx
 mGlobal
 mWebTransport
 this
-mOutgoingHighWaterMark
 aOptions
 .
 mSendGroup
