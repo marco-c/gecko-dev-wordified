@@ -362,7 +362,7 @@ use
 crate
 :
 :
-custom_properties
+substitution
 :
 :
 AttrTaintedRange

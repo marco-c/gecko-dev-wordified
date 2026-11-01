@@ -249,6 +249,12 @@ use
 crate
 :
 :
+substitution
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -3263,7 +3269,7 @@ None
 )
 ;
 let
-custom_properties
+substitution
 :
 :
 SubstitutionResult
@@ -3273,7 +3279,7 @@ attr_taint
 }
 =
 match
-custom_properties
+substitution
 :
 :
 substitute
@@ -6269,7 +6275,7 @@ None
 )
 ;
 let
-custom_properties
+substitution
 :
 :
 SubstitutionResult
@@ -6279,7 +6285,7 @@ attr_taint
 }
 =
 match
-custom_properties
+substitution
 :
 :
 substitute
