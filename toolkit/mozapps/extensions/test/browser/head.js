@@ -8341,6 +8341,13 @@ section
 {
 className
 }
+moz
+-
+card
+.
+{
+className
+}
 )
 ;
 }
