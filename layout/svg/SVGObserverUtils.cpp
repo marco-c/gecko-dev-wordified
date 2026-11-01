@@ -6011,6 +6011,7 @@ default
 ;
 CanvasRenderingContext2D
 *
+const
 mContext
 ;
 bool
