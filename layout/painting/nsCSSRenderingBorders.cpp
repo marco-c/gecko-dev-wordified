@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+SVGImageContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

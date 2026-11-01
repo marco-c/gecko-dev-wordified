@@ -205,6 +205,15 @@ include
 "
 mozilla
 /
+SVGImageContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScrollContainerFrame
 .
 h

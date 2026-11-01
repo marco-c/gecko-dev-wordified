@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-SVGImageContext
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Span
 .
 h
@@ -450,6 +441,9 @@ uint8_t
 ;
 class
 RetainedDisplayListBuilder
+;
+class
+SVGImageContext
 ;
 struct
 AspectRatio
