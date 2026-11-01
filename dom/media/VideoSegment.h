@@ -282,10 +282,7 @@ mPrincipalHandle
 std
 :
 :
-forward
-<
-PrincipalHandle
->
+move
 (
 aPrincipalHandle
 )

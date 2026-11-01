@@ -4880,13 +4880,7 @@ DeliverRtcpPacket
 std
 :
 :
-forward
-<
-webrtc
-:
-:
-CopyOnWriteBuffer
->
+move
 (
 aPacket
 )
