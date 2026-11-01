@@ -1899,6 +1899,13 @@ DLLVM_ENABLE_CURL
 OFF
 "
             
+"
+-
+DCLANG_ENABLE_CIR
+=
+OFF
+"
+            
 #
 Don
 '
