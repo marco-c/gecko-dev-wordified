@@ -573,6 +573,16 @@ CodeCoverageMixin
 )
 :
     
+python_constraints
+=
+"
+requirements
+-
+marionette
+.
+txt
+"
+    
 def
 __init__
 (

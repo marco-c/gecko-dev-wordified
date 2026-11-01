@@ -667,24 +667,6 @@ default
 "
 :
 [
-"
-https
-:
-/
-/
-pypi
-.
-pub
-.
-build
-.
-mozilla
-.
-org
-/
-pub
-/
-"
 ]
             
 "
@@ -730,7 +712,7 @@ store_true
 default
 "
 :
-False
+True
             
 "
 dest
@@ -748,6 +730,9 @@ help
 Use
 pip
 indexes
+(
+default
+)
 "
         
 }
@@ -797,9 +782,6 @@ t
 use
 pip
 indexes
-(
-default
-)
 "
         
 }
@@ -1392,13 +1374,6 @@ format
 "
 freeze
 "
-"
--
--
-no
--
-index
-"
 ]
             
 )
@@ -1691,6 +1666,17 @@ package_versions
 ]
     
 def
+query_python_constraints
+(
+self
+)
+:
+        
+return
+[
+]
+    
+def
 install_module
 (
         
@@ -1947,6 +1933,54 @@ pip_command_args
 [
 ]
             
+for
+constraint
+in
+self
+.
+query_python_constraints
+(
+)
+:
+                
+pip_command_args
++
+=
+[
+"
+-
+-
+constraint
+"
+constraint
+]
+            
+if
+not
+c
+.
+get
+(
+"
+pip_index
+"
+True
+)
+:
+                
+pip_command_args
+.
+append
+(
+"
+-
+-
+no
+-
+index
+"
+)
+            
 pip_command_non_uv_args
 =
 [
@@ -2077,38 +2111,6 @@ pip_command_args
 r
 "
 requirement
-]
-            
-if
-c
-.
-get
-(
-"
-find_links
-"
-)
-and
-not
-c
-[
-"
-pip_index
-"
-]
-:
-                
-pip_command_args
-+
-=
-[
-"
--
--
-no
--
-index
-"
 ]
             
 for
@@ -2631,6 +2633,17 @@ find_links_added
 =
 =
 0
+and
+not
+c
+.
+get
+(
+"
+pip_index
+"
+True
+)
 :
             
 self
