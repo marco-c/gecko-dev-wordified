@@ -337,6 +337,16 @@ assert_called_with
 "
 network
 .
+proxy
+.
+type
+"
+:
+0
+        
+"
+network
+.
 dns
 .
 forceResolve
