@@ -146,15 +146,6 @@ testResetFOG
 (
 )
 ;
-GleanPings
-.
-prototypeNoCodeEvents
-.
-setEnabled
-(
-true
-)
-;
 }
 /
 /
