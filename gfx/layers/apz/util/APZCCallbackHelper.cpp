@@ -3328,6 +3328,15 @@ GetScrollId
 )
 )
 ;
+if
+(
+!
+sf
+)
+{
+return
+;
+}
 CSSPoint
 currentScrollPosition
 =
