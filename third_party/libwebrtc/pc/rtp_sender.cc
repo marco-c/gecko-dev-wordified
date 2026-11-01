@@ -5609,7 +5609,6 @@ media_channel_
 >
 SetSframeEncryptor
 (
-ssrc
 sframe_encryptor_
 )
 ;
@@ -7006,7 +7005,6 @@ media_channel_
 >
 SetSframeEncryptor
 (
-ssrc
 sframe_encryptor_
 )
 ;
@@ -8466,12 +8464,10 @@ worker_safety_
 [
 this
 sframe_encryptor
-=
-sframe_encryptor
-ssrc
-=
-ssrc_
 ]
+(
+)
+mutable
 {
 RTC_DCHECK_RUN_ON
 (
@@ -8480,7 +8476,13 @@ worker_thread_
 ;
 sframe_encryptor_
 =
+std
+:
+:
+move
+(
 sframe_encryptor
+)
 ;
 if
 (
@@ -8492,7 +8494,6 @@ media_channel_
 >
 SetSframeEncryptor
 (
-ssrc
 sframe_encryptor_
 )
 ;

@@ -1692,8 +1692,6 @@ override
 void
 SetSframeEncryptor
 (
-uint32_t
-ssrc
 scoped_refptr
 <
 SframeMediaEncryptorInterface
