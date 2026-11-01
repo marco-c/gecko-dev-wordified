@@ -739,17 +739,6 @@ mozilla
 /
 net
 /
-BackgroundDataBridgeParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-net
-/
 HttpBackgroundChannelParent
 .
 h
