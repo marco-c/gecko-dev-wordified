@@ -1064,7 +1064,7 @@ mNativeBuffer
 aUsage
 fd
 .
-get
+release
 (
 )
 aRect
