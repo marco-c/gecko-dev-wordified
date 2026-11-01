@@ -706,6 +706,9 @@ Release
 TESTRAIL_PRODUCT_TYPE
 RELEASE_TYPE
 RELEASE_VERSION
+{
+BUILD_NUMBER_TEXT
+}
 <
 https
 :
@@ -722,11 +725,11 @@ index
 php
 ?
 /
-projects
+milestones
 /
-overview
+view
 /
-TESTRAIL_PROJECT_ID
+MILESTONE_ID
 |
 Milestone
 >
