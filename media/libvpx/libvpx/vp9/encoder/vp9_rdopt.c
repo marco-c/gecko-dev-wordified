@@ -8351,7 +8351,7 @@ row
 *
 4
 *
-src_stride
+dst_stride
 +
 col
 *

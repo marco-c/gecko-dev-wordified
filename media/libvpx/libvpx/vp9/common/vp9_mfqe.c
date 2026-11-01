@@ -912,7 +912,7 @@ src_stride
 src_stride
 dst
 +
-src_stride
+dst_stride
 *
 32
 dst_stride
@@ -930,7 +930,7 @@ src_stride
 src_stride
 dst
 +
-src_stride
+dst_stride
 *
 32
 +
