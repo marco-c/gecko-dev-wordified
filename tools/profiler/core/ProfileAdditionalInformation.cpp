@@ -783,9 +783,14 @@ srcText
 {
 result
 =
-JS_NewStringCopyN
+JS_NewStringCopyUTF8N
 (
 aCx
+JS
+:
+:
+UTF8Chars
+(
 srcText
 .
 chars
@@ -799,6 +804,7 @@ srcText
 .
 length
 (
+)
 )
 )
 ;
@@ -975,9 +981,14 @@ SourceTextUTF8
 ;
 result
 =
-JS_NewStringCopyN
+JS_NewStringCopyUTF8N
 (
 aCx
+JS
+:
+:
+UTF8Chars
+(
 srcText
 .
 chars
@@ -991,6 +1002,7 @@ srcText
 .
 length
 (
+)
 )
 )
 ;
