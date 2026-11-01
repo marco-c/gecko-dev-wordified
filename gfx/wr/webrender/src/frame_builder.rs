@@ -977,6 +977,13 @@ pub
 root_spatial_node_index
 :
 SpatialNodeIndex
+pub
+dl_stores
+:
+&
+'
+a
+DlStores
 }
 impl
 <
@@ -2260,6 +2267,7 @@ scene
 .
 config
 root_spatial_node_index
+dl_stores
 }
 ;
 scene

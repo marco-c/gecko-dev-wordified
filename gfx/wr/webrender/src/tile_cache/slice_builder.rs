@@ -3419,6 +3419,15 @@ ImageMask
 ClipItemKeyKind
 :
 :
+Path
+(
+.
+.
+)
+|
+ClipItemKeyKind
+:
+:
 Rectangle
 (
 ClipMode
