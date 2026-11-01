@@ -1038,7 +1038,6 @@ HardwareCodecCapabilityUtils
 :
 GetSupportedMimeTypesWithAccelInfo
 (
-true
 )
 ;
 for
