@@ -1987,6 +1987,13 @@ InstallTime
 1784641473
 "
 "
+JumpListShellCallStart
+"
+:
+"
+1234
+"
+"
 LastInteractionDuration
 "
 :
