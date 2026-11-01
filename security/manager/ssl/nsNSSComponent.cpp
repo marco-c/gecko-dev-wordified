@@ -11594,15 +11594,6 @@ token
 -
 cache
 entries
-and
-forwards
-a
-scoped
-clear
-to
-the
-socket
-process
 .
 return
 NS_OK
