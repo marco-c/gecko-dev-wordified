@@ -215,8 +215,14 @@ const
 nsAString
 &
 aPrintToFileName
-uint64_t
-aBrowsingContextId
+mozilla
+:
+:
+dom
+:
+:
+WindowContext
+*
 int32_t
 aStartPage
 int32_t
@@ -239,7 +245,7 @@ EndDocument
 )
 final
 ;
-NS_IMETHOD
+nsresult
 BeginPage
 (
 const
@@ -249,7 +255,7 @@ aSizeInPoints
 )
 final
 ;
-NS_IMETHOD
+nsresult
 EndPage
 (
 )
