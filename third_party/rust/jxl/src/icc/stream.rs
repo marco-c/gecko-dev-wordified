@@ -187,9 +187,6 @@ value
 )
 }
 pub
-(
-crate
-)
 fn
 read_varint_from_reader
 (

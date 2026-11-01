@@ -1144,6 +1144,17 @@ num_contexts
 8
 ;
 let
+mut
+lz77_scratch
+=
+Vec
+:
+:
+new
+(
+)
+;
+let
 histograms
 =
 Histograms
@@ -1160,6 +1171,9 @@ allow_lz77
 *
 /
 true
+&
+mut
+lz77_scratch
 )
 ?
 ;
@@ -1176,6 +1190,9 @@ new
 histograms
 br
 None
+&
+mut
+lz77_scratch
 )
 ?
 ;

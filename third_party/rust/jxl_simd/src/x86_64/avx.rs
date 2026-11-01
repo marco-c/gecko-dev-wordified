@@ -12132,15 +12132,7 @@ pub
 struct
 U64VecAvx
 (
-pub
-(
-crate
-)
 __m256i
-pub
-(
-crate
-)
 AvxDescriptor
 )
 ;

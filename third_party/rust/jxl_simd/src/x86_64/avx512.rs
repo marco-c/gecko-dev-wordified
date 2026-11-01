@@ -13724,15 +13724,7 @@ pub
 struct
 U64VecAvx512
 (
-pub
-(
-crate
-)
 __m512i
-pub
-(
-crate
-)
 Avx512Descriptor
 )
 ;

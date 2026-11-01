@@ -117,6 +117,9 @@ rect
 Rect
 ;
 pub
+(
+crate
+)
 use
 recycler
 :
@@ -133,4 +136,14 @@ Image
 ImageRect
 ImageRectMut
 }
+;
+pub
+use
+crate
+:
+:
+util
+:
+:
+f16
 ;

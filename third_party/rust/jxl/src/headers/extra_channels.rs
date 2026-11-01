@@ -367,6 +367,13 @@ ExtraChannelInfo
 {
 #
 [
+cfg
+(
+test
+)
+]
+#
+[
 allow
 (
 clippy

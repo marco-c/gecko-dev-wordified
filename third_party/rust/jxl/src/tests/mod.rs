@@ -2846,6 +2846,17 @@ jxl
 declare_test_file
 !
 (
+ec_dim_shift_no_upsampling
+"
+ec_dim_shift_no_upsampling
+.
+jxl
+"
+)
+;
+declare_test_file
+!
+(
 ec_upsampling8_multi_group
 "
 ec_upsampling8_multi_group

@@ -1872,6 +1872,12 @@ with
 [
 table_lookup_bf16_8
 ]
+[
+Self
+:
+:
+table_lookup_bf16_8
+]
 .
 fn
 prepare_table_bf16_8
@@ -1949,6 +1955,12 @@ times
 /
 Use
 [
+prepare_table_bf16_8
+]
+[
+Self
+:
+:
 prepare_table_bf16_8
 ]
 to

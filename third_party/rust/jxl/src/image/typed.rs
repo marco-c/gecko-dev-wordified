@@ -91,16 +91,10 @@ image
 internal
 :
 :
+{
 DistinctRowsIndexes
-;
-use
-crate
-:
-:
-util
-:
-:
-CACHE_LINE_BYTE_SIZE
+MAX_IMAGE_ALIGN
+}
 ;
 use
 crate
@@ -564,7 +558,7 @@ const
 assert
 !
 (
-CACHE_LINE_BYTE_SIZE
+MAX_IMAGE_ALIGN
 .
 is_multiple_of
 (
@@ -1594,7 +1588,7 @@ const
 assert
 !
 (
-CACHE_LINE_BYTE_SIZE
+MAX_IMAGE_ALIGN
 .
 is_multiple_of
 (
@@ -2147,7 +2141,7 @@ const
 assert
 !
 (
-CACHE_LINE_BYTE_SIZE
+MAX_IMAGE_ALIGN
 .
 is_multiple_of
 (

@@ -120,6 +120,13 @@ usize
 =
 8
 ;
+#
+[
+cfg
+(
+test
+)
+]
 pub
 fn
 new_with_seed
@@ -411,6 +418,13 @@ s0
 s1
 }
 }
+#
+[
+cfg
+(
+test
+)
+]
 pub
 fn
 fill

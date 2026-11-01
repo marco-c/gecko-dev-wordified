@@ -1369,15 +1369,6 @@ downsample
 1
 )
 ;
-let
-ty
-=
-ty
-.
-unwrap
-(
-)
-;
 assert_eq
 !
 (
