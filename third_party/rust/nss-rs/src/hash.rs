@@ -110,6 +110,15 @@ SECOidTag
 Constants
 /
 /
+#
+[
+derive
+(
+Debug
+PartialEq
+Eq
+)
+]
 pub
 enum
 HashAlgorithm
