@@ -123,6 +123,8 @@ GetIteratorBytecode
 ArraySpecies
 TypedArraySpecies
 RegExpPrototype
+ObjectProtoHasNoIndexedProps
+ArrayProtoHasNoIndexedProps
 EmulatesUndefined
 ArrayExceedsInt32Length
 ObjectFuseProperty
