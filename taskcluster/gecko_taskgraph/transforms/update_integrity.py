@@ -697,6 +697,21 @@ shipping_product
             
 )
         
+if
+job
+[
+"
+last
+-
+watershed
+"
+]
+is
+None
+:
+            
+continue
+        
 yield
 job
 transforms
