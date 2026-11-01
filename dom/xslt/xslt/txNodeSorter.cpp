@@ -551,10 +551,7 @@ NS_ERROR_XSLT_BAD_VALUE
 ;
 }
 }
-UniquePtr
-<
-txResultStringComparator
->
+auto
 comparator
 =
 std

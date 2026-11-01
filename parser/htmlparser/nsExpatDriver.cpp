@@ -10304,13 +10304,7 @@ create_ok
 nullptr
 )
 ;
-mozilla
-:
-:
-UniquePtr
-<
-RLBoxExpatSandboxData
->
+auto
 sbxData
 =
 std

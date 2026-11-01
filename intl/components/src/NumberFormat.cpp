@@ -150,10 +150,7 @@ NumberFormatOptions
 aOptions
 )
 {
-UniquePtr
-<
-NumberFormat
->
+auto
 nf
 =
 std

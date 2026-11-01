@@ -716,10 +716,7 @@ aData
 return
 ;
 }
-UniquePtr
-<
-PerformanceProxyData
->
+auto
 data
 =
 std

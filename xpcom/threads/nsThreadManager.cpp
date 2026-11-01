@@ -2231,10 +2231,7 @@ construct
 main
 thread
 .
-UniquePtr
-<
-EventQueue
->
+auto
 queue
 =
 std

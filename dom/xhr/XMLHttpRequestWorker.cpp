@@ -5839,13 +5839,7 @@ mTotal
 ;
 }
 }
-UniquePtr
-<
-XMLHttpRequestWorker
-:
-:
-StateData
->
+auto
 state
 =
 std

@@ -5787,12 +5787,6 @@ Nothing
 )
 ;
 }
-UniquePtr
-<
-VideoCodecConfigH264
->
-h264Config
-;
 if
 (
 aCodec
@@ -5805,6 +5799,7 @@ H264
 "
 )
 {
+auto
 h264Config
 =
 std

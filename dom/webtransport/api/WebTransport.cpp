@@ -916,10 +916,7 @@ ReceiveStreams
 and
 SendStreams
 arrays
-UniquePtr
-<
-BidirectionalPair
->
+auto
 streams
 =
 std

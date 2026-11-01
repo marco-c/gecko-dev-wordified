@@ -181,10 +181,7 @@ NumberRangeFormatOptions
 aOptions
 )
 {
-UniquePtr
-<
-NumberRangeFormat
->
+auto
 nrf
 =
 std

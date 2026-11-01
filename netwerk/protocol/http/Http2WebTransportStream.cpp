@@ -1759,10 +1759,7 @@ data
 )
 )
 ;
-UniquePtr
-<
-CapsuleEncoder
->
+auto
 encoder
 =
 std
@@ -1939,10 +1936,7 @@ if
 mStopSendingCapsule
 )
 {
-UniquePtr
-<
-CapsuleEncoder
->
+auto
 encoder
 =
 std
@@ -1989,10 +1983,7 @@ if
 mStreamResetCapsule
 )
 {
-UniquePtr
-<
-CapsuleEncoder
->
+auto
 encoder
 =
 std

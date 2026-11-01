@@ -12605,15 +12605,7 @@ for
 the
 actual
 data
-mozilla
-:
-:
-UniquePtr
-<
-wchar_t
-[
-]
->
+auto
 data
 =
 std

@@ -386,10 +386,7 @@ status
 )
 ;
 }
-UniquePtr
-<
-RelativeTimeFormat
->
+auto
 rtf
 =
 std

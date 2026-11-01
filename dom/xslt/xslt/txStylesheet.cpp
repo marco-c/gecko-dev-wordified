@@ -2122,13 +2122,7 @@ if
 templates
 )
 {
-UniquePtr
-<
-nsTArray
-<
-MatchableTemplate
->
->
+auto
 newList
 =
 std

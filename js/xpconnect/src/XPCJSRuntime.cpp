@@ -24000,13 +24000,7 @@ event
 /
 handlers
 .
-mozilla
-:
-:
-UniquePtr
-<
-XPCJSSourceHook
->
+auto
 hook
 =
 std

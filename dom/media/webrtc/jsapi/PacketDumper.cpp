@@ -268,12 +268,7 @@ aSending
 return
 ;
 }
-UniquePtr
-<
-uint8_t
-[
-]
->
+auto
 ownedPacket
 =
 std

@@ -547,10 +547,7 @@ lied
 "
 )
 ;
-UniquePtr
-<
-StreamData
->
+auto
 data
 =
 std

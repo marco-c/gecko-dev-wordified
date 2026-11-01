@@ -2262,10 +2262,7 @@ return
 nullptr
 ;
 }
-UniquePtr
-<
-Client
->
+auto
 client
 =
 std

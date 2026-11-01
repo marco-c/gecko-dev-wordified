@@ -9351,10 +9351,7 @@ false
 )
 ;
 }
-UniquePtr
-<
-nsKeyFrameIndex
->
+auto
 keyPoints
 =
 std

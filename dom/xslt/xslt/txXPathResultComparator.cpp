@@ -509,10 +509,7 @@ txIEvalContext
 aContext
 )
 {
-UniquePtr
-<
-nsString
->
+auto
 string
 =
 std

@@ -504,10 +504,7 @@ CapsuleParserListener
 (
 )
 ;
-UniquePtr
-<
-CapsuleParser
->
+auto
 parser
 =
 std
@@ -1534,10 +1531,7 @@ CapsuleParserListener
 (
 )
 ;
-UniquePtr
-<
-CapsuleParser
->
+auto
 parser
 =
 std

@@ -1672,12 +1672,7 @@ of
 the
 service
 .
-UniquePtr
-<
-char
-[
-]
->
+auto
 serviceConfigBuffer
 =
 std

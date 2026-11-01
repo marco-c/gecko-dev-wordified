@@ -9583,10 +9583,7 @@ IsEmpty
 continue
 ;
 }
-UniquePtr
-<
-CoalescedMouseData
->
+auto
 dispatchData
 =
 std
@@ -9936,10 +9933,7 @@ data
 in
 mToBeDispatchedMouseData
 .
-UniquePtr
-<
-CoalescedMouseData
->
+auto
 dispatchData
 =
 std
@@ -10790,10 +10784,7 @@ FlushAllCoalescedMouseData
 (
 )
 ;
-UniquePtr
-<
-CoalescedMouseData
->
+auto
 dispatchData
 =
 std

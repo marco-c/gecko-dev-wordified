@@ -24725,10 +24725,7 @@ the
 critical
 section
 .
-UniquePtr
-<
-nsHttpHeaderArray
->
+auto
 httpTrailers
 =
 std

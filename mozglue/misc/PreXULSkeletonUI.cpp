@@ -2217,12 +2217,7 @@ uint32_t
 +
 1
 ;
-UniquePtr
-<
-wchar_t
-[
-]
->
+auto
 installHash
 =
 std
@@ -9135,12 +9130,7 @@ CSSToDevPixels
 sCSSToDevPixelScaling
 )
 ;
-UniquePtr
-<
-uint32_t
-[
-]
->
+auto
 animationLookup
 =
 std

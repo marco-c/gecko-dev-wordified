@@ -290,11 +290,7 @@ get
 )
 )
 {
-UniquePtr
-<
-struct
-__res_state
->
+auto
 resState
 =
 std

@@ -6427,10 +6427,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-UniquePtr
-<
-JsepTrackNegotiatedDetails
->
+auto
 negotiatedDetails
 =
 std

@@ -14327,10 +14327,7 @@ NotifyImpendingShutdown
 (
 )
 {
-UniquePtr
-<
-Message
->
+auto
 msg
 =
 std

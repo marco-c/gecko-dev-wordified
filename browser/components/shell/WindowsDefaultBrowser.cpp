@@ -676,15 +676,7 @@ byte
 for
 terminating
 null
-mozilla
-:
-:
-UniquePtr
-<
-wchar_t
-[
-]
->
+auto
 params
 =
 std

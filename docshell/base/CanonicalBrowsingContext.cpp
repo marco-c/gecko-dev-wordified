@@ -4346,10 +4346,7 @@ also
 the
 LoadingSessionHistoryInfo
 .
-UniquePtr
-<
-LoadingSessionHistoryInfo
->
+auto
 lshi
 =
 std
@@ -9347,12 +9344,7 @@ FillLoadInfo
 loadState
 )
 ;
-UniquePtr
-<
-LoadingSessionHistoryInfo
->
-loadingInfo
-;
+auto
 loadingInfo
 =
 std

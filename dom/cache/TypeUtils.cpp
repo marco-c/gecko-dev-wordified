@@ -2026,16 +2026,7 @@ isSome
 )
 )
 {
-UniquePtr
-<
-mozilla
-:
-:
-ipc
-:
-:
-PrincipalInfo
->
+auto
 info
 =
 std

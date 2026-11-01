@@ -4229,10 +4229,7 @@ nsAHttpTransaction
 trans
 )
 {
-UniquePtr
-<
-nsHttpRequestHead
->
+auto
 request
 =
 std

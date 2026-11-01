@@ -1554,10 +1554,7 @@ rv
 )
 ;
 }
-UniquePtr
-<
-txStepPattern
->
+auto
 step
 =
 std

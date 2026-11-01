@@ -7364,13 +7364,7 @@ for
 this
 object
 .
-mozilla
-:
-:
-UniquePtr
-<
-SecMap
->
+auto
 smap
 =
 std

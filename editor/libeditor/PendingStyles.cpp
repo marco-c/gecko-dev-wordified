@@ -2874,10 +2874,7 @@ font
 styles
 first
 .
-UniquePtr
-<
-PendingStyle
->
+auto
 style
 =
 std

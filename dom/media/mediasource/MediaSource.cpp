@@ -5113,10 +5113,7 @@ MOZ_ASSERT
 domPromise
 )
 ;
-UniquePtr
-<
-MediaSourceDecoderDebugInfo
->
+auto
 info
 =
 std

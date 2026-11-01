@@ -49629,13 +49629,7 @@ return
 false
 ;
 }
-mozilla
-:
-:
-UniquePtr
-<
-ShellSourceHook
->
+auto
 hook
 =
 std

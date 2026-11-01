@@ -943,10 +943,7 @@ empty
 ordered
 map
 .
-UniquePtr
-<
-SpecifierMap
->
+auto
 normalized
 =
 std
@@ -1883,10 +1880,7 @@ an
 empty
 map
 .
-UniquePtr
-<
-ScopeMap
->
+auto
 normalized
 =
 std
@@ -2416,10 +2410,7 @@ empty
 ordered
 map
 .
-UniquePtr
-<
-IntegrityMap
->
+auto
 normalized
 =
 std
@@ -4447,10 +4438,7 @@ copy
 of
 oldMap
 .
-UniquePtr
-<
-SpecifierMap
->
+auto
 mergedMap
 =
 std

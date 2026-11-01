@@ -3193,12 +3193,7 @@ nullptr
 ;
 }
 }
-UniquePtr
-<
-IndiceWrapper
->
-indice
-;
+auto
 indice
 =
 std

@@ -1567,10 +1567,7 @@ if
 mScriptBuffer
 )
 {
-UniquePtr
-<
-ScriptDecoder
->
+auto
 decoder
 =
 std
@@ -4079,12 +4076,7 @@ on
 worklet
 thread
 .
-UniquePtr
-<
-uint8_t
-[
-]
->
+auto
 scriptTextBuf
 =
 std

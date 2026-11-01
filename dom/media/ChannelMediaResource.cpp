@@ -3836,12 +3836,7 @@ closure
 >
 mLoadID
 ;
-UniquePtr
-<
-uint8_t
-[
-]
->
+auto
 data
 =
 std

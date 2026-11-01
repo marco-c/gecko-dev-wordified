@@ -28718,10 +28718,7 @@ Some
 newBoundsRect
 )
 ;
-UniquePtr
-<
-nsRect
->
+auto
 ptr
 =
 std
@@ -30507,13 +30504,7 @@ if
 transformed
 )
 {
-UniquePtr
-<
-gfx
-:
-:
-Matrix4x4
->
+auto
 ptr
 =
 std

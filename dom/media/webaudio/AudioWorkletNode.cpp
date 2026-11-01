@@ -5817,10 +5817,7 @@ the
 rendering
 thread
 .
-UniquePtr
-<
-StructuredCloneHolder
->
+auto
 serializedOptions
 =
 std

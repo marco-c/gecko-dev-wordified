@@ -5480,16 +5480,7 @@ IsReadable
 )
 )
 {
-UniquePtr
-<
-mozilla
-:
-:
-ipc
-:
-:
-Shmem
->
+auto
 shmem
 =
 std

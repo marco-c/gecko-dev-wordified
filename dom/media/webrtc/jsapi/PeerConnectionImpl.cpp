@@ -26638,13 +26638,7 @@ this
 (
 )
 {
-UniquePtr
-<
-dom
-:
-:
-RTCStatsReportInternal
->
+auto
 finalStats
 =
 std

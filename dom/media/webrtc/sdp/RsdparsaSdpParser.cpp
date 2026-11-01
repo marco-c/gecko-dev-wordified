@@ -194,13 +194,7 @@ string
 aText
 )
 {
-UniquePtr
-<
-SdpParser
-:
-:
-InternalResults
->
+auto
 results
 =
 std

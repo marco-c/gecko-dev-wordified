@@ -7120,10 +7120,7 @@ ServiceWorkerState
 Activating
 )
 {
-UniquePtr
-<
-PendingPushEvent
->
+auto
 pendingEvent
 =
 std

@@ -7253,10 +7253,7 @@ current
 /
 entry
 !
-UniquePtr
-<
-OffsetEntry
->
+auto
 newInsertedTextEntry
 =
 std
@@ -7539,10 +7536,7 @@ so
 create
 one
 .
-UniquePtr
-<
-OffsetEntry
->
+auto
 newInsertedTextEntry
 =
 std

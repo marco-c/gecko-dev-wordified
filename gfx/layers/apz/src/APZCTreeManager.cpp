@@ -3370,10 +3370,7 @@ lock
 mTestDataLock
 )
 ;
-UniquePtr
-<
-APZTestData
->
+auto
 ptr
 =
 std

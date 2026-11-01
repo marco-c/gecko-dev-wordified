@@ -1152,10 +1152,7 @@ MOZ_ASSERT
 mIsServiceWorker
 )
 ;
-UniquePtr
-<
-PendingSharedWorkerOp
->
+auto
 op
 =
 std
@@ -1491,10 +1488,7 @@ Private
 __func__
 )
 ;
-UniquePtr
-<
-PendingServiceWorkerOp
->
+auto
 op
 =
 std
@@ -1592,10 +1586,7 @@ Private
 __func__
 )
 ;
-UniquePtr
-<
-PendingSWFetchEventOp
->
+auto
 op
 =
 std

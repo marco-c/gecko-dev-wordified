@@ -4562,12 +4562,7 @@ aLength
 4096
 )
 ;
-UniquePtr
-<
-char
-[
-]
->
+auto
 buf
 =
 std

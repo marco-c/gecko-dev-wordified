@@ -58426,10 +58426,7 @@ mPresShell
 mNoDelayedKeyEvents
 )
 {
-UniquePtr
-<
-DelayedKeyEvent
->
+auto
 delayedKeyEvent
 =
 std
@@ -58945,10 +58942,7 @@ mNoDelayedMouseEvents
 break
 ;
 }
-UniquePtr
-<
-DelayedMouseEvent
->
+auto
 delayedMouseEvent
 =
 std
@@ -59020,10 +59014,7 @@ on
 other
 platforms
 .
-UniquePtr
-<
-DelayedPointerEvent
->
+auto
 delayedPointerEvent
 =
 std

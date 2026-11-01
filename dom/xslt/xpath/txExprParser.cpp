@@ -3465,10 +3465,7 @@ rv
 ;
 }
 }
-UniquePtr
-<
-LocationStep
->
+auto
 lstep
 =
 std

@@ -7980,10 +7980,7 @@ NS_ENSURE_STATE
 DB
 )
 ;
-UniquePtr
-<
-ConnectionAdapter
->
+auto
 adapter
 =
 std

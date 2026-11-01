@@ -1596,10 +1596,7 @@ yadda
 *
 *
 *
-UniquePtr
-<
-DataHolder
->
+auto
 dataHolder
 =
 std

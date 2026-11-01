@@ -4153,10 +4153,7 @@ mChannel
 name
 )
 ;
-UniquePtr
-<
-PerformanceTimingData
->
+auto
 timing
 =
 std

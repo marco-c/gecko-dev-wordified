@@ -476,15 +476,7 @@ argvlen
 len
 ;
 }
-mozilla
-:
-:
-UniquePtr
-<
-char
-[
-]
->
+auto
 buffer
 =
 std

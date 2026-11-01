@@ -1709,10 +1709,7 @@ get
 a
 leave
 .
-UniquePtr
-<
-DragTaskGtk
->
+auto
 task
 =
 std
@@ -1761,10 +1758,7 @@ guint
 aTime
 )
 {
-UniquePtr
-<
-DragTaskGtk
->
+auto
 task
 =
 std
@@ -1891,10 +1885,7 @@ will
 be
 replaced
 .
-UniquePtr
-<
-DragTaskGtk
->
+auto
 task
 =
 std

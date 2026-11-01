@@ -4417,12 +4417,7 @@ return
 nullptr
 ;
 }
-UniquePtr
-<
-wchar_t
-[
-]
->
+auto
 packageIdentity
 =
 std

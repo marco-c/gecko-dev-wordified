@@ -934,10 +934,7 @@ DataOffer
 aDataOffer
 )
 {
-UniquePtr
-<
-DragTaskWayland
->
+auto
 task
 =
 std
@@ -977,10 +974,7 @@ DataOffer
 aDataOffer
 )
 {
-UniquePtr
-<
-DragTaskWayland
->
+auto
 task
 =
 std
@@ -1099,10 +1093,7 @@ will
 be
 replaced
 .
-UniquePtr
-<
-DragTaskWayland
->
+auto
 task
 =
 std

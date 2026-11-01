@@ -1602,12 +1602,7 @@ null
 -
 terminated
 .
-UniquePtr
-<
-char
-[
-]
->
+auto
 line
 =
 std

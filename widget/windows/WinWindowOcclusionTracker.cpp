@@ -1996,13 +1996,7 @@ sTracker
 nullptr
 ;
 }
-UniquePtr
-<
-base
-:
-:
-Thread
->
+auto
 thread
 =
 std

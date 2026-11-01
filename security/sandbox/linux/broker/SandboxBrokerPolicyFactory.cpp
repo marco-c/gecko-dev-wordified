@@ -6570,13 +6570,7 @@ MOZ_ASSERT
 mCommonContentPolicy
 )
 ;
-UniquePtr
-<
-SandboxBroker
-:
-:
-Policy
->
+auto
 policy
 =
 std

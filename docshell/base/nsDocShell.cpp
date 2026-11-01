@@ -66851,10 +66851,7 @@ on
 it
 existing
 .
-UniquePtr
-<
-SessionHistoryInfo
->
+auto
 entry
 =
 std

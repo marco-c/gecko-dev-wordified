@@ -843,10 +843,7 @@ PositionOptions
 aOptions
 )
 {
-UniquePtr
-<
-PositionOptions
->
+auto
 geoOptions
 =
 std
