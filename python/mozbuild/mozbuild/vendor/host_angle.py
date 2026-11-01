@@ -149,6 +149,16 @@ tools
 /
 src
 "
+    
+"
+third_party
+/
+vulkan
+-
+headers
+/
+src
+"
 )
 GOOGLESOURCE_HOST_SUFFIX
 =
