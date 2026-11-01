@@ -491,7 +491,7 @@ defined
 (
 XP_MACOSX
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mShmemFD
 =
@@ -505,7 +505,7 @@ defined
 (
 XP_WIN
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mShmemFile
 =
@@ -729,7 +729,7 @@ HasExternalShmem
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mIsSharedExternalShmem
 &
@@ -984,7 +984,7 @@ if
 aCreateOnSharedMemory
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalShmem
 =
@@ -1031,7 +1031,7 @@ return
 }
 #
 endif
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aCreateOnSharedMemory
 )
@@ -1223,7 +1223,7 @@ GetLastError
 ERROR_ALREADY_EXISTS
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mShmemFile
 )
@@ -1619,7 +1619,7 @@ IsCreatedOnSharedMemory
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mIsSharedExternalShmem
@@ -2085,7 +2085,7 @@ if
 mExternalShmem
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalShmem
 )
@@ -3675,7 +3675,7 @@ nullptr
 /
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalShmem
 )
@@ -4344,7 +4344,7 @@ VRFxEventState
 aEventState
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 HasExternalShmem
@@ -4590,7 +4590,7 @@ uint64_t
 aWindowID
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 HasExternalShmem
 (
