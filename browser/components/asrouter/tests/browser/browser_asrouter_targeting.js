@@ -9443,6 +9443,12 @@ TaskbarTabsPin
 pinTaskbarTab
 "
 )
+.
+resolves
+(
+{
+}
+)
 ;
 sandbox
 .
@@ -9657,6 +9663,12 @@ TaskbarTabsPin
 "
 pinTaskbarTab
 "
+)
+.
+resolves
+(
+{
+}
 )
 ;
 sandbox

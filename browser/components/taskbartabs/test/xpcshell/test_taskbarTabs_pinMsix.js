@@ -583,6 +583,7 @@ Assert
 .
 equal
 (
+(
 await
 TaskbarTabsPin
 .
@@ -590,6 +591,9 @@ pinTaskbarTab
 (
 taskbarTab
 )
+)
+.
+shortcut
 "
 taskbartab
 -
@@ -738,6 +742,7 @@ Assert
 .
 equal
 (
+(
 await
 TaskbarTabsPin
 .
@@ -745,6 +750,9 @@ pinTaskbarTab
 (
 invalidTaskbarTab
 )
+)
+.
+shortcut
 "
 taskbartab
 -
