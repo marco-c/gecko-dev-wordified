@@ -1308,7 +1308,7 @@ bool
 fec_allowed_
 RTC_GUARDED_BY
 (
-mutex_
+transport_checker_
 )
 =
 true
