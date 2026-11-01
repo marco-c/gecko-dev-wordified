@@ -28722,7 +28722,7 @@ always
 be
 updated
 .
-void
+FaultingCodeRange
 wasmUnalignedLoad
 (
 const
@@ -28758,7 +28758,7 @@ always
 be
 updated
 .
-void
+FaultingCodeRange
 wasmUnalignedLoadFP
 (
 const
@@ -28792,7 +28792,7 @@ always
 be
 updated
 .
-void
+FaultingCodeRange
 wasmUnalignedLoadI64
 (
 const
@@ -28828,7 +28828,7 @@ always
 be
 updated
 .
-void
+FaultingCodeRange
 wasmUnalignedStore
 (
 const
@@ -28862,7 +28862,7 @@ always
 be
 updated
 .
-void
+FaultingCodeRange
 wasmUnalignedStoreFP
 (
 const
@@ -28896,7 +28896,7 @@ always
 be
 updated
 .
-void
+FaultingCodeRange
 wasmUnalignedStoreI64
 (
 const

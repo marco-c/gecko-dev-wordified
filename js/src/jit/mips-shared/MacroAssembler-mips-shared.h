@@ -636,7 +636,7 @@ extension
 SignExtend
 )
 ;
-void
+FaultingCodeRange
 ma_load_unaligned
 (
 const
@@ -731,7 +731,7 @@ size
 SizeWord
 )
 ;
-void
+FaultingCodeRange
 ma_store_unaligned
 (
 const
@@ -1595,7 +1595,7 @@ stackMapRegistry
 ;
 protected
 :
-void
+FaultingCodeRange
 wasmLoadImpl
 (
 const
@@ -1617,7 +1617,7 @@ Register
 tmp
 )
 ;
-void
+FaultingCodeRange
 wasmStoreImpl
 (
 const
