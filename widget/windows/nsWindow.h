@@ -2977,6 +2977,10 @@ state
 class
 TaskbarConcealer
 ;
+friend
+class
+TaskbarConcealerTest
+;
 /
 /
 A
