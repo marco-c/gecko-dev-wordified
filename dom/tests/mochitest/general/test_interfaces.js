@@ -18847,9 +18847,6 @@ SpeechGrammar
 insecureContext
 :
 true
-nightly
-:
-true
 android
 :
 false
@@ -18877,9 +18874,6 @@ name
 SpeechGrammarList
 "
 insecureContext
-:
-true
-nightly
 :
 true
 android
@@ -18911,9 +18905,6 @@ SpeechRecognition
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -18943,9 +18934,6 @@ SpeechRecognitionAlternative
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -18975,9 +18963,6 @@ SpeechRecognitionErrorEvent
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -19007,9 +18992,6 @@ SpeechRecognitionErrorEvent
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -19039,9 +19021,6 @@ SpeechRecognitionEvent
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -19071,9 +19050,6 @@ SpeechRecognitionPhrase
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -19103,9 +19079,6 @@ SpeechRecognitionResult
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -19135,9 +19108,6 @@ SpeechRecognitionResultList
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
@@ -28319,9 +28289,6 @@ webkitSpeechGrammar
 insecureContext
 :
 true
-nightly
-:
-true
 android
 :
 false
@@ -28349,9 +28316,6 @@ name
 webkitSpeechGrammarList
 "
 insecureContext
-:
-true
-nightly
 :
 true
 android
@@ -28383,9 +28347,6 @@ webkitSpeechRecognition
 insecureContext
 :
 false
-nightly
-:
-true
 android
 :
 false
