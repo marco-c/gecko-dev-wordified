@@ -574,7 +574,7 @@ alloc
 }
 inline
 bool
-IsBufferAlloc
+IsGCPointerBufferAlloc
 (
 void
 *
@@ -585,7 +585,7 @@ return
 BufferAllocator
 :
 :
-IsBufferAlloc
+IsGCPointerBufferAlloc
 (
 alloc
 )
