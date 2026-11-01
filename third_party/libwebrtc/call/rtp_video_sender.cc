@@ -3860,10 +3860,6 @@ transport_queue_
 *
 transport_queue
 )
-active_
-(
-false
-)
 fec_controller_
 (
 std
@@ -3873,10 +3869,6 @@ move
 (
 fec_controller
 )
-)
-fec_allowed_
-(
-true
 )
 rtp_streams_
 (
@@ -3954,14 +3946,6 @@ rtp_config
 ssrcs
 states
 )
-)
-transport_overhead_bytes_per_packet_
-(
-0
-)
-encoder_target_rate_bps_
-(
-0
 )
 frame_counts_
 (
