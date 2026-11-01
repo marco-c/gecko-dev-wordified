@@ -99,6 +99,15 @@ t
 be
 monitored
 .
+The
+profile
+is
+named
+after
+RUN_TASK_RESOURCE_USAGE_NAME
+if
+set
+.
 Monitors
 started
 by
@@ -603,11 +612,21 @@ metadata
 product
 "
 :
+os
+.
+environ
+.
+pop
+(
+"
+RUN_TASK_RESOURCE_USAGE_NAME
+"
 "
 run
 -
 task
 "
+)
 }
     
 if
