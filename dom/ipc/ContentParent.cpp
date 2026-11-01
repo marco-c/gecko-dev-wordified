@@ -52835,7 +52835,6 @@ RemoteWorkerDebuggerManagerParent
 :
 CreateForProcess
 (
-this
 &
 remoteDebuggerChildEp
 )
