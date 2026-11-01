@@ -1483,6 +1483,31 @@ on_first_event
 )
     
 #
+Subscribe
+before
+navigating
+as
+the
+prompt
+opens
+right
+after
+the
+    
+#
+navigation
+is
+committed
+.
+    
+on_second_event
+=
+wait_for_event
+(
+USER_PROMPT_OPENED_EVENT
+)
+    
+#
 Open
 a
 prompt
@@ -1533,13 +1558,6 @@ script
 "
 )
     
-)
-    
-on_second_event
-=
-wait_for_event
-(
-USER_PROMPT_OPENED_EVENT
 )
     
 await

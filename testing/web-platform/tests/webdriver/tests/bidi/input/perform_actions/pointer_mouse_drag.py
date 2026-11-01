@@ -813,20 +813,32 @@ without
 intermediate
 movements
 .
+With
+a
+duration
+the
+number
+and
+timing
+of
     
-if
-drag_duration
-!
-=
-0
-:
-        
-assert
-"
+#
+the
+intermediate
+movements
+are
+implementation
+-
+defined
+so
 dragleave
-"
-in
-drag_events_captured
+is
+    
+#
+not
+guaranteed
+either
+.
     
 assert
 "
@@ -966,10 +978,11 @@ dragenter
 )
     
 if
-drag_duration
-!
-=
-0
+"
+dragleave
+"
+in
+drag_events_captured
 :
         
 assert
