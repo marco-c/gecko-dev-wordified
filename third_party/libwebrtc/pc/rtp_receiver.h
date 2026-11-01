@@ -1117,6 +1117,8 @@ CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 cipher_suite
+SframeDecryptErrorCallback
+error_callback
 )
 override
 ;

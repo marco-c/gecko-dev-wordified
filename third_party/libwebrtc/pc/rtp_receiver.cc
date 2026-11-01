@@ -1152,6 +1152,8 @@ CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 cipher_suite
+SframeDecryptErrorCallback
+error_callback
 )
 {
 RTC_DCHECK_RUN_ON
