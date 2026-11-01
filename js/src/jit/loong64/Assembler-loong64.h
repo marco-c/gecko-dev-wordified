@@ -9305,6 +9305,10 @@ getBranchCode
 (
 FPConditionBit
 cj
+Condition
+c
+=
+NonZero
 )
 ;
 /
