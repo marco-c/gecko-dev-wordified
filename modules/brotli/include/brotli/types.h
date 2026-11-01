@@ -302,7 +302,7 @@ x
 YetAnotherBrotliFunction
 (
 encoder
-TO_BROLTI_BOOL
+TO_BROTLI_BOOL
 (
 2
 *
