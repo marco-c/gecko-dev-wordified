@@ -6677,6 +6677,8 @@ public
 using
 VectorT
 =
+BufferAllocated
+<
 GCVector
 <
 HeapPtr
@@ -6686,6 +6688,7 @@ JSObject
 >
 0
 BufferAllocPolicy
+>
 >
 ;
 enum
@@ -7696,6 +7699,8 @@ public
 using
 HashSetT
 =
+BufferAllocated
+<
 GCHashSet
 <
 HeapPtr
@@ -7712,6 +7717,7 @@ JSObject
 >
 >
 BufferAllocPolicy
+>
 >
 ;
 enum
