@@ -1328,8 +1328,6 @@ units
 nscoord
 InterScriptSpacingWidth
 (
-float
-aAutospaceSize
 )
 const
 ;
