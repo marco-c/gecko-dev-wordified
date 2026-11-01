@@ -1824,6 +1824,9 @@ kdelegate
 ;
 if
 (
+aValue
+&
+&
 !
 aValue
 .
