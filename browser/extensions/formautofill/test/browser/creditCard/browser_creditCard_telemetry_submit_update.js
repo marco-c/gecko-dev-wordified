@@ -527,6 +527,11 @@ cc_exp
 "
 unavailable
 "
+cc_csc
+:
+"
+not_filled
+"
 }
 "
 filled
@@ -567,6 +572,11 @@ cc_exp_year
 :
 "
 user_filled
+"
+cc_csc
+:
+"
+not_filled
 "
 }
 "
