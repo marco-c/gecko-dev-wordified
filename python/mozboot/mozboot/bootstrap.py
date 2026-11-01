@@ -1832,22 +1832,30 @@ no_agentic_tools
 return
         
 if
-(
-            
 not
 self
 .
 instance
 .
 no_interactive
-            
 and
 not
+(
+            
 self
 .
 instance
 .
 cargo_tools_installed
+(
+)
+            
+and
+self
+.
+instance
+.
+npm_tools_installed
 (
 )
         
@@ -1888,6 +1896,22 @@ self
 instance
 .
 ensure_cargo_tools
+(
+)
+        
+self
+.
+instance
+.
+ensure_npm_tools
+(
+)
+        
+self
+.
+instance
+.
+ensure_mozbuild_bin_in_path
 (
 )
     

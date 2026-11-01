@@ -727,6 +727,16 @@ return_value
 =
 tools_installed
         
+bootstrapper
+.
+instance
+.
+npm_tools_installed
+.
+return_value
+=
+tools_installed
+        
 return
 bootstrapper
     
