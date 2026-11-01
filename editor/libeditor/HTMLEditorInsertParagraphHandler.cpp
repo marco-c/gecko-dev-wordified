@@ -9503,10 +9503,13 @@ HTMLEditUtils
 ScanInclusiveNextThingWithIgnoringUnnecessaryLineBreak
 (
 aCandidatePointToSplit
+TreatAsUnnecessaryLineBreak
+{
+LineBreakFor
+:
+:
 PaddingForEmptyBlock
-:
-:
-Unnecessary
+}
 aEditingHost
 &
 aBlockElementToSplit

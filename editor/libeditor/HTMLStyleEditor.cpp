@@ -14771,10 +14771,13 @@ new
 styled
 element
 .
+TreatAsUnnecessaryLineBreak
+{
+LineBreakFor
+:
+:
 PaddingForEmptyBlock
-:
-:
-Unnecessary
+}
 aEditingHost
 )
 ;
