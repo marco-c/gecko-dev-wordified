@@ -210,11 +210,11 @@ undefined
 &
 &
 isTabIcon
-=
+!
 =
 data
 .
-isRichIcon
+isTabIcon
 )
 {
 return
