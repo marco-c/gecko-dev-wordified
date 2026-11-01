@@ -654,6 +654,17 @@ Metal
 "
 )
 \
+_
+(
+WEBRENDER_ANGLE_GL
+Feature
+"
+WebRender
+ANGLE
+OpenGL
+"
+)
+\
 /
 *
 Add
