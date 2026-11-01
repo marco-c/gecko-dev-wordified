@@ -3053,7 +3053,7 @@ NeedsParser
 Loader
 :
 :
-PendingLoad
+TriggeringPendingLoad
 :
 :
 Yes
@@ -8087,6 +8087,10 @@ SheetComplete
 (
 aLoadData
 rv
+TriggeringPendingLoad
+:
+:
+No
 )
 ;
 return
@@ -8216,6 +8220,10 @@ SheetComplete
 (
 aLoadData
 rv
+TriggeringPendingLoad
+:
+:
+No
 )
 ;
 return
@@ -8336,7 +8344,7 @@ SheetLoadData
 aLoadData
 SheetState
 aSheetState
-PendingLoad
+TriggeringPendingLoad
 aPendingLoad
 const
 SheetLoadDataHashKey
@@ -8390,7 +8398,7 @@ NeedsParser
 aPendingLoad
 =
 =
-PendingLoad
+TriggeringPendingLoad
 :
 :
 No
@@ -8703,7 +8711,7 @@ SheetState
 aSheetState
 uint64_t
 aEarlyHintPreloaderId
-PendingLoad
+TriggeringPendingLoad
 aPendingLoad
 )
 {
@@ -8839,7 +8847,7 @@ if
 aPendingLoad
 =
 =
-PendingLoad
+TriggeringPendingLoad
 :
 :
 No
@@ -8959,6 +8967,7 @@ SheetComplete
 (
 aLoadData
 NS_BINDING_ABORTED
+aPendingLoad
 )
 ;
 return
@@ -9072,6 +9081,7 @@ LoadSheetAsyncInternal
 aLoadData
 aEarlyHintPreloaderId
 key
+aPendingLoad
 )
 ;
 }
@@ -9310,6 +9320,8 @@ const
 SheetLoadDataHashKey
 &
 aKey
+TriggeringPendingLoad
+aPendingLoad
 )
 {
 SRIMetadata
@@ -9393,6 +9405,7 @@ SheetComplete
 (
 aLoadData
 rv
+aPendingLoad
 )
 ;
 return
@@ -10037,6 +10050,7 @@ SheetComplete
 (
 aLoadData
 rv
+aPendingLoad
 )
 ;
 return
@@ -10309,6 +10323,10 @@ SheetComplete
 *
 loadData
 NS_OK
+TriggeringPendingLoad
+:
+:
+No
 )
 ;
 return
@@ -11199,6 +11217,8 @@ SheetLoadData
 aLoadData
 nsresult
 aStatus
+TriggeringPendingLoad
+aPendingLoad
 )
 {
 LOG
@@ -11218,12 +11238,19 @@ status
 %
 "
 PRIx32
-static_cast
-<
+"
+pending
+=
+%
+d
+"
 uint32_t
->
 (
 aStatus
+)
+int
+(
+aPendingLoad
 )
 )
 )
@@ -11256,6 +11283,7 @@ get
 )
 aLoadData
 aStatus
+aPendingLoad
 )
 ;
 }
@@ -15745,6 +15773,10 @@ SheetComplete
 *
 aLoadData
 NS_OK
+TriggeringPendingLoad
+:
+:
+No
 )
 ;
 }

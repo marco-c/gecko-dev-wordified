@@ -300,6 +300,13 @@ css
 SheetLoadData
 &
 nsresult
+css
+:
+:
+Loader
+:
+:
+TriggeringPendingLoad
 )
 ;
 using
