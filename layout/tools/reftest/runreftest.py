@@ -2155,6 +2155,12 @@ started
         
 self
 .
+currentManifestID
+=
+None
+        
+self
+.
 gtkTheme
 =
 self
@@ -7243,6 +7249,12 @@ test
 self
 .
 lastTestSeen
+            
+group
+=
+self
+.
+currentManifestID
         
 )
         
@@ -8315,6 +8327,18 @@ manifest
 self
 .
 currentManifest
+=
+manifest
+            
+self
+.
+currentManifestID
+=
+manifest_id
+            
+self
+.
+lastTestSeen
 =
 manifest
             
