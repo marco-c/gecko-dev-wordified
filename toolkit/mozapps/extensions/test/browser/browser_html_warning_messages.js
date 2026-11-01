@@ -2468,6 +2468,15 @@ AddonManager
 getInstallForURL
 (
 XPI_URL
+{
+id
+type
+:
+"
+extension
+"
+version
+}
 )
 ;
 await
