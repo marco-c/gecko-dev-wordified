@@ -188,13 +188,6 @@ tls_connect
 .
 h
 "
-#
-include
-"
-pk11_import
-.
-h
-"
 namespace
 nss_test
 {
@@ -1415,10 +1408,7 @@ scoped_psk_
 .
 reset
 (
-nss_test
-:
-:
-ImportSymKey
+PK11_ImportSymKey
 (
 slot
 .

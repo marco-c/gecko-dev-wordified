@@ -126,13 +126,6 @@ pk11_signature_test
 .
 h
 "
-#
-include
-"
-pk11_import
-.
-h
-"
 namespace
 nss_test
 {
@@ -212,10 +205,7 @@ nullptr
 SECStatus
 rv
 =
-nss_test
-:
-:
-ImportDERPrivateKeyInfoAndReturnKey
+PK11_ImportDERPrivateKeyInfoAndReturnKey
 (
 slot
 .

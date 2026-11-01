@@ -160,13 +160,6 @@ nss_scoped_ptrs
 .
 h
 "
-#
-include
-"
-pk11_import
-.
-h
-"
 namespace
 nss_test
 {
@@ -862,10 +855,7 @@ nullptr
 SECStatus
 rv
 =
-nss_test
-:
-:
-ExtractKeyValue
+PK11_ExtractKeyValue
 (
 sym_key
 .
@@ -884,10 +874,7 @@ SECItem
 *
 key_data
 =
-nss_test
-:
-:
-GetKeyData
+PK11_GetKeyData
 (
 sym_key
 .

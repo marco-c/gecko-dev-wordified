@@ -146,13 +146,6 @@ nss_scoped_ptrs
 .
 h
 "
-#
-include
-"
-pk11_import
-.
-h
-"
 namespace
 nss_test
 {
@@ -228,10 +221,7 @@ CKM_NSS_TLS_KEY_AND_MAC_DERIVE_SHA256
 ScopedPK11SymKey
 baseKey
 (
-nss_test
-:
-:
-ImportSymKey
+PK11_ImportSymKey
 (
 slot
 .

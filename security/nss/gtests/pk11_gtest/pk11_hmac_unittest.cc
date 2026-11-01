@@ -178,13 +178,6 @@ structs
 .
 h
 "
-#
-include
-"
-pk11_import
-.
-h
-"
 namespace
 nss_test
 {
@@ -809,10 +802,7 @@ err
 ScopedPK11SymKey
 p11_key
 (
-nss_test
-:
-:
-ImportSymKey
+PK11_ImportSymKey
 (
 slot
 .
@@ -903,10 +893,7 @@ PK11_Digest
 ScopedPK11SymKey
 p11_verify_key
 (
-nss_test
-:
-:
-ImportSymKey
+PK11_ImportSymKey
 (
 slot
 .
