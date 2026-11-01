@@ -229,9 +229,9 @@ const
 ipc
 :
 :
-Shmem
+SharedMemoryMapping
 &
-aDestShmem
+aDestMapping
 size_t
 aDestStride
 )

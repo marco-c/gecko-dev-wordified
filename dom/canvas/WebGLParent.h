@@ -314,9 +314,6 @@ webgl
 FrontBufferSnapshotIpc
 *
 ret
-IProtocol
-*
-aProtocol
 )
 ;
 IPCResult

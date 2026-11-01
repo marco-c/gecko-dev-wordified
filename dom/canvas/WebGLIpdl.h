@@ -121,6 +121,17 @@ mozilla
 /
 ipc
 /
+SharedMemoryHandle
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 Shmem
 .
 h

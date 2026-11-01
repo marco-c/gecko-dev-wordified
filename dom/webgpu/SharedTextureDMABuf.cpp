@@ -657,9 +657,9 @@ const
 ipc
 :
 :
-Shmem
+SharedMemoryMapping
 &
-aDestShmem
+aDestMapping
 size_t
 aDestStride
 )
@@ -811,9 +811,9 @@ uint8_t
 *
 dst
 =
-aDestShmem
+aDestMapping
 .
-get
+DataAs
 <
 uint8_t
 >
