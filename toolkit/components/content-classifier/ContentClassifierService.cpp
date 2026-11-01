@@ -803,7 +803,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_FINGERPRINTING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+IsNonPassiveThirdPartyUnlessAnnotating
 nullptr
 }
 {
