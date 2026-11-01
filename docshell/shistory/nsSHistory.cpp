@@ -8514,6 +8514,10 @@ bool
 aPageSwapFired
 =
 false
+bool
+aViewTransitionCaptured
+=
+false
 )
 {
 MOZ_ASSERT
@@ -9153,6 +9157,7 @@ frameLoaderOwner
 RestoreFrameLoaderFromBFCache
 (
 aFrameLoader
+aViewTransitionCaptured
 )
 ;
 /
@@ -9682,6 +9687,7 @@ BeginOutboundCrossDocumentViewTransitionPromise
 :
 ResolveOrRejectValue
 &
+aValue
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY_LAMBDA
 {
@@ -9770,6 +9776,18 @@ aPageSwapFired
 *
 /
 true
+aValue
+.
+IsResolve
+(
+)
+&
+&
+aValue
+.
+ResolveValue
+(
+)
 )
 ;
 }

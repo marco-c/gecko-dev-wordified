@@ -31331,7 +31331,7 @@ IsNullOrDiscarded
 {
 aResolver
 (
-true
+false
 )
 ;
 return
@@ -31408,7 +31408,7 @@ docShell
 {
 aResolver
 (
-true
+false
 )
 ;
 return
@@ -31444,10 +31444,14 @@ move
 aResolver
 )
 ]
+(
+bool
+aCaptured
+)
 {
 resolver
 (
-true
+aCaptured
 )
 ;
 }

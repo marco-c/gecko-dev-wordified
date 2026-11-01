@@ -6429,6 +6429,19 @@ nothing
 to
 capture
 .
+Its
+argument
+is
+true
+if
+the
+old
+state
+/
+/
+was
+captured
+.
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 BeginDeferredOutboundCrossDocumentViewTransition
@@ -6460,6 +6473,7 @@ function
 <
 void
 (
+bool
 )
 >
 &
