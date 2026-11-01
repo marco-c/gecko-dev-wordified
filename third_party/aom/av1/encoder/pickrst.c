@@ -9993,6 +9993,9 @@ const
 double
 c
 =
+(
+double
+)
 A
 [
 (
@@ -10010,6 +10013,9 @@ const
 double
 cd
 =
+(
+double
+)
 A
 [
 k

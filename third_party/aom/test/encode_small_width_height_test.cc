@@ -181,6 +181,11 @@ crash
 #
 include
 <
+cstring
+>
+#
+include
+<
 memory
 >
 #
