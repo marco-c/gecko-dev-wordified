@@ -4762,6 +4762,8 @@ this
 even
 longer
 .
+if
+(
 nsCOMPtr
 <
 nsIBrowserChild
@@ -4771,7 +4773,8 @@ browserChild
 GetBrowserChild
 (
 )
-;
+)
+{
 static_cast
 <
 BrowserChild
@@ -4791,6 +4794,7 @@ SetCancelContentJSEpoch
 aEpoch
 )
 ;
+}
 return
 NS_OK
 ;
