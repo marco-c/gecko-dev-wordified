@@ -15458,6 +15458,12 @@ aIsInPrivateBrowsingMode
 *
 /
 false
+/
+*
+aCipherKeyManager
+*
+/
+nullptr
 )
 ;
 nsresult

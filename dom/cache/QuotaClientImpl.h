@@ -694,9 +694,13 @@ nsIFile
 aBaseDir
 )
 ;
+Result
+<
 RefPtr
 <
 CipherKeyManager
+>
+nsresult
 >
 GetOrCreateCipherKeyManager
 (
