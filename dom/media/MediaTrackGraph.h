@@ -4987,6 +4987,12 @@ otherwise
 .
 *
 /
+#
+ifdef
+ENABLE_TESTS
+virtual
+#
+endif
 TrackTime
 AppendData
 (
