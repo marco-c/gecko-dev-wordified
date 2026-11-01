@@ -179,7 +179,10 @@ mClipboards
 {
 clipboard
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 HeadlessClipboardData
 >

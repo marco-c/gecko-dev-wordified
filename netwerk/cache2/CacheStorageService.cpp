@@ -6503,7 +6503,10 @@ sGlobalEntryTables
 InsertOrUpdate
 (
 memoryStorageID
-MakeUnique
+std
+:
+:
+make_unique
 <
 CacheEntryTable
 >
@@ -9782,7 +9785,10 @@ get
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 CacheEntryTable
 >

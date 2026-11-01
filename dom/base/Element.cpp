@@ -34770,7 +34770,10 @@ aDst
 >
 SetCustomElementData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CustomElementData
 >
@@ -42858,7 +42861,10 @@ slots
 >
 mAnimations
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ElementAnimationData
 >
@@ -42903,7 +42909,10 @@ slots
 >
 mPopoverData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PopoverData
 >

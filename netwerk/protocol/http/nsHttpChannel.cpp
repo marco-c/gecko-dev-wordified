@@ -8572,7 +8572,10 @@ mOverrideResponse
 .
 mResponseHead
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsHttpResponseHead
 >
@@ -35347,7 +35350,10 @@ response
 headers
 mCachedResponseHead
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsHttpResponseHead
 >
@@ -37097,7 +37103,10 @@ ref
 {
 ref
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTArray
 <

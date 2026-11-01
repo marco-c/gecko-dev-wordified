@@ -895,7 +895,10 @@ NS_ERROR_FILE_CORRUPTED
 auto
 field
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

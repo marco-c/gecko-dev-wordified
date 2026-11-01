@@ -780,7 +780,10 @@ aOther
 :
 StyleBox
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 T
 >
@@ -808,7 +811,10 @@ mRaw
 ;
 mRaw
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 T
 >

@@ -4951,7 +4951,10 @@ PrincipalInfo
 >
 principalInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PrincipalInfo
 >

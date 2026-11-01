@@ -347,7 +347,10 @@ default
 :
 mContentIterator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PostContentIterator
 >
@@ -361,7 +364,10 @@ PRE_ORDER_ITERATOR
 :
 mContentIterator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PreContentIterator
 >
@@ -375,7 +381,10 @@ SUBTREE_ITERATOR
 :
 mContentIterator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ContentSubtreeIterator
 >

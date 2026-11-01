@@ -268,7 +268,10 @@ len
 auto
 buf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 wchar_t
 [

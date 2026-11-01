@@ -351,7 +351,10 @@ aExitMode
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedTestResultReporterImpl
 >

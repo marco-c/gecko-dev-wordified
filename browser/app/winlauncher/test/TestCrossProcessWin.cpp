@@ -1588,7 +1588,10 @@ uint8_t
 >
 stringBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [
@@ -1658,7 +1661,10 @@ DllBlockInfo
 >
 sortedBlockEntries
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 DllBlockInfo
 [
@@ -2175,7 +2181,10 @@ uint8_t
 >
 bufferData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [

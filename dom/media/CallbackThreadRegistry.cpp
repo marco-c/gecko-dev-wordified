@@ -91,7 +91,10 @@ CallbackThreadRegistrySingleton
 :
 mRegistry
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 CallbackThreadRegistry
 >

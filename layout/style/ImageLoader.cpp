@@ -1413,7 +1413,10 @@ nullptr
 ;
 }
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 FrameSet
 >
@@ -1452,7 +1455,10 @@ true
 )
 ;
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 RequestSet
 >

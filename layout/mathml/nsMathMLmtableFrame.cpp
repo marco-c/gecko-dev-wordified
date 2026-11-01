@@ -7786,7 +7786,10 @@ modification
 .
 mUniqueStyleText
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsStyleText
 >
@@ -8048,7 +8051,10 @@ aOldComputedStyle
 ;
 mUniqueStyleText
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsStyleText
 >

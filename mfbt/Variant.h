@@ -3326,7 +3326,10 @@ C
 >
 v2
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 A
 >
@@ -4282,7 +4285,10 @@ C
 >
 v
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 A
 >

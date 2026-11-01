@@ -1172,7 +1172,10 @@ i
 {
 attributes
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 StaticAtomSet
 >

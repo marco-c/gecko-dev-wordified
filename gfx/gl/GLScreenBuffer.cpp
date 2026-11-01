@@ -384,7 +384,10 @@ pop
 auto
 ret
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SwapChainPresenter
 >

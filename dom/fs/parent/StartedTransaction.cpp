@@ -129,7 +129,10 @@ aConn
 auto
 transaction
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozStorageTransaction
 >

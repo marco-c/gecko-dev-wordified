@@ -1658,7 +1658,10 @@ aFontEntry
 >
 mUserFontData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfxUserFontData
 >

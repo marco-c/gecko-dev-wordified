@@ -4438,7 +4438,10 @@ return
 auto
 verInfoBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

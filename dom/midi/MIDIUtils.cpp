@@ -1042,7 +1042,10 @@ currentMsg
 }
 currentMsg
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MIDIMessage
 >

@@ -814,7 +814,10 @@ textureFactoryIdentifier
 ;
 mDLBuilder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 wr
 :
@@ -2198,7 +2201,10 @@ mainId
 ;
 offscreenBuilder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 wr
 :
@@ -4281,7 +4287,10 @@ check
 .
 mDLBuilder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 wr
 :

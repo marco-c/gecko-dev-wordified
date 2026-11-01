@@ -487,7 +487,10 @@ GetReferenceDrawTarget
 ;
 mTranslator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 InlineTranslator
 >

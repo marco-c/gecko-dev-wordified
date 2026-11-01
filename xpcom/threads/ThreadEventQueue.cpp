@@ -1224,7 +1224,10 @@ PushEventQueue
 auto
 queue
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 EventQueue
 >

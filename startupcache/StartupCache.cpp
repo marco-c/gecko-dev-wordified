@@ -1523,7 +1523,10 @@ this
 ;
 mDecompressionContext
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 LZ4FrameDecompressionContext
 >
@@ -3713,7 +3716,10 @@ GetRequiredWriteBufferLength
 auto
 writeBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

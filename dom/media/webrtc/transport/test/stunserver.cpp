@@ -1092,7 +1092,10 @@ outp
 auto
 wrapped
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nr_socket_wrapped
 >

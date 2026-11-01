@@ -192,7 +192,10 @@ nullptr
 ;
 }
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 RenderCompositorSWGL
 >

@@ -514,7 +514,10 @@ aSchema
 ]
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 widget
 :

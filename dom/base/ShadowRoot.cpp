@@ -5842,7 +5842,10 @@ mStyleRuleMap
 {
 mStyleRuleMap
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :

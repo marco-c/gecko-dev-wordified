@@ -350,7 +350,10 @@ hb_data_face
 auto
 colorPalette
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTArray
 <

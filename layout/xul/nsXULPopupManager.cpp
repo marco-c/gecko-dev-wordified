@@ -7746,7 +7746,10 @@ Tooltip
 auto
 item
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsMenuChainItem
 >

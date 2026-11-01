@@ -11891,7 +11891,10 @@ here
 .
 mDeletedSpec
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ObjectStoreSpec
 >

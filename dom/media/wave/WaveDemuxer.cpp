@@ -468,7 +468,10 @@ mInfo
 {
 mInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AudioInfo
 >

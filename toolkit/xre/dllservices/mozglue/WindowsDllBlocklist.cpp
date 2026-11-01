@@ -1808,7 +1808,10 @@ nullptr
 auto
 full_fname
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 wchar_t
 [

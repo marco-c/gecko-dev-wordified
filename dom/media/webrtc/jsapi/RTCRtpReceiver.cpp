@@ -1866,7 +1866,10 @@ mutable
 auto
 report
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :
@@ -2089,7 +2092,10 @@ transportId
 auto
 report
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 dom
 :
@@ -5712,7 +5718,10 @@ extmap
 }
 filter
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MediaPipelineFilter
 >

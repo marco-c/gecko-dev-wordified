@@ -877,7 +877,10 @@ nsString
 >
 value
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsString
 >
@@ -938,7 +941,10 @@ Matrix4x4
 >
 value
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfx
 :
@@ -987,7 +993,10 @@ nsRect
 >
 value
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsRect
 >

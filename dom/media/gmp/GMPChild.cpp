@@ -3668,7 +3668,10 @@ this
 ;
 mGMPLoader
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 GMPLoader
 >

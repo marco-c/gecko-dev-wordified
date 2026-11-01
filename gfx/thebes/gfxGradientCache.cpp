@@ -992,7 +992,10 @@ nullptr
 auto
 data
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 GradientCacheData
 >

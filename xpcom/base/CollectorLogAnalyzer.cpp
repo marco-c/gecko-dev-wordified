@@ -7072,7 +7072,10 @@ totalGCFileSize
 auto
 buffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

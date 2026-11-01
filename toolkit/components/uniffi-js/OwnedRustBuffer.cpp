@@ -444,7 +444,10 @@ data
 auto
 userData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 OwnedRustBuffer
 >

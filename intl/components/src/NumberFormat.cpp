@@ -156,7 +156,10 @@ NumberFormat
 >
 nf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 NumberFormat
 >

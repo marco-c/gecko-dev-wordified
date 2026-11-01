@@ -6100,7 +6100,10 @@ aRows
 .
 AppendElement
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 Row
 >
@@ -6349,7 +6352,10 @@ return
 auto
 row
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 Row
 >

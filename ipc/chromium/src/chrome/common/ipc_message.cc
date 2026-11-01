@@ -409,10 +409,10 @@ flags
 )
 {
 return
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 Message
 >
@@ -448,10 +448,10 @@ level
 auto
 m
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 Message
 >

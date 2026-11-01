@@ -2464,7 +2464,10 @@ nsAppShell
 :
 PostEvent
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 RunnableEvent
 >

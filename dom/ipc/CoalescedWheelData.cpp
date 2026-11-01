@@ -112,7 +112,10 @@ IsEmpty
 {
 mCoalescedInputEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WidgetWheelEvent
 >

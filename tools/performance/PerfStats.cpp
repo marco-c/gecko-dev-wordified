@@ -835,7 +835,10 @@ PerfStatsCollector
 :
 writer
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 JSONStringRefWriteFunc
 >

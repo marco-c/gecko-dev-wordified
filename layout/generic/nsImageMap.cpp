@@ -4787,7 +4787,10 @@ case
 :
 area
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 RectArea
 >
@@ -4805,7 +4808,10 @@ case
 :
 area
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CircleArea
 >
@@ -4820,7 +4826,10 @@ case
 :
 area
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 DefaultArea
 >
@@ -4838,7 +4847,10 @@ case
 :
 area
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PolyArea
 >

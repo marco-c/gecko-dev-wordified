@@ -150,7 +150,10 @@ aAxis
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 AndroidVelocityTracker
 >

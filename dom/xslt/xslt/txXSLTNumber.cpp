@@ -121,12 +121,6 @@ using
 mozilla
 :
 :
-MakeUnique
-;
-using
-mozilla
-:
-:
 UniquePtr
 ;
 nsresult
@@ -839,7 +833,10 @@ nodeTest
 ;
 newCountPattern
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 txStepPattern
 >

@@ -965,10 +965,10 @@ mozilla
 ThreadEventQueue
 >
 (
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 mozilla
 :

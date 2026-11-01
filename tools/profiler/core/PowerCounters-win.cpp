@@ -800,7 +800,10 @@ return
 }
 mDataBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 EMI_CHANNEL_MEASUREMENT_DATA
 [
@@ -984,7 +987,10 @@ return
 }
 mDataBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 EMI_CHANNEL_MEASUREMENT_DATA
 [
@@ -1622,7 +1628,10 @@ PowerMeterDevice
 >
 pmd
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PowerMeterDevice
 >

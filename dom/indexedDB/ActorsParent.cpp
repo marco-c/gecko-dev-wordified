@@ -44123,7 +44123,10 @@ mDatabases
 InsertOrUpdate
 (
 aDatabaseId
-MakeUnique
+std
+:
+:
+make_unique
 <
 DatabaseInfo
 >
@@ -44159,7 +44162,10 @@ mTransactions
 InsertOrUpdate
 (
 transactionId
-MakeUnique
+std
+:
+:
+make_unique
 <
 TransactionInfo
 >
@@ -44709,7 +44715,10 @@ mCompleteCallbacks
 .
 EmplaceBack
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 DatabaseCompleteCallback
 >
@@ -91526,7 +91535,10 @@ mDatabaseId
 ref
 (
 )
-MakeUnique
+std
+:
+:
+make_unique
 <
 DatabaseActorInfo
 >

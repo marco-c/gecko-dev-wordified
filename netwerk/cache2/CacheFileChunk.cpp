@@ -2229,7 +2229,10 @@ kBlockOverhead
 ;
 mEncryptedReadBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [
@@ -2527,7 +2530,10 @@ WRITING
 ;
 mWritingStateHandle
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CacheFileChunkReadHandle
 >
@@ -2701,7 +2707,10 @@ kBlockOverhead
 ;
 mEncryptedWriteBuf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [

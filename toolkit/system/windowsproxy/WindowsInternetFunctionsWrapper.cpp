@@ -573,7 +573,10 @@ key
 {
 mKeyWatcher
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 KeyWatcher
 >

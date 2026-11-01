@@ -157,7 +157,10 @@ aFrameType
 :
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCClientInfo
 >
@@ -198,7 +201,10 @@ aData
 :
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCClientInfo
 >
@@ -248,7 +254,10 @@ reset
 ;
 mData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCClientInfo
 >

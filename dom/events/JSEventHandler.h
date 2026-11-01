@@ -64,6 +64,11 @@ define
 mozilla_JSEventHandler_h_
 #
 include
+<
+memory
+>
+#
+include
 "
 mozilla
 /
@@ -1125,7 +1130,10 @@ aNameSpaceID
 {
 mPendingSource
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingSource
 >

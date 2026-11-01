@@ -814,7 +814,10 @@ mSourceBlockIndex
 {
 mData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [
@@ -878,7 +881,10 @@ BLOCK_SIZE
 ;
 mData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [

@@ -969,7 +969,10 @@ WINDOWPOS
 >
 ncCalcSizeData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 std
 :

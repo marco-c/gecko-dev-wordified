@@ -3955,7 +3955,10 @@ mMonitors
 .
 AppendElement
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 MonitorConfig
 >

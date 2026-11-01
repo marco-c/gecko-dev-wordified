@@ -5418,7 +5418,10 @@ aAxis
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SimpleVelocityTracker
 >
@@ -7273,7 +7276,10 @@ GetFrameTime
 )
 mOverscrollEffect
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 OverscrollEffect
 >
@@ -7401,7 +7407,10 @@ mPlatformSpecificState
 {
 mPlatformSpecificState
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 PlatformSpecificState
 >
@@ -38464,7 +38473,10 @@ forTelemetry
 {
 mCheckerboardEvent
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 CheckerboardEvent
 >

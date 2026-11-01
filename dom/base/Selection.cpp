@@ -15319,7 +15319,10 @@ isFullySelected
 auto
 newHead
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SelectionDetails
 >
@@ -15982,7 +15985,10 @@ range
 auto
 newHead
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SelectionDetails
 >

@@ -619,7 +619,10 @@ Document
 >
 AddPendingFullscreenEvent
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 PendingFullscreenEvent
 >

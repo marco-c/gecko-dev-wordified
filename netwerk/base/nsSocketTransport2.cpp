@@ -18183,7 +18183,10 @@ NS_ERROR_FAILURE
 }
 mBindAddr
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 NetAddr
 >

@@ -930,7 +930,10 @@ length
 auto
 doc
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 gfxSVGGlyphsDocument
 >

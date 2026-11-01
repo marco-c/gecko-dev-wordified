@@ -276,12 +276,6 @@ using
 mozilla
 :
 :
-MakeUnique
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
@@ -8615,7 +8609,10 @@ InsertOrUpdate
 pair
 .
 first
-MakeUnique
+std
+:
+:
+make_unique
 <
 EventRecordArray
 >

@@ -862,7 +862,10 @@ TrackType
 :
 :
 kAudioTrack
-MakeUnique
+std
+:
+:
+make_unique
 <
 AudioInfo
 >
@@ -889,7 +892,10 @@ TrackType
 :
 :
 kVideoTrack
-MakeUnique
+std
+:
+:
+make_unique
 <
 VideoInfo
 >

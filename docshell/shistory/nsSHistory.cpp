@@ -1695,10 +1695,10 @@ tabGroup
 .
 mHistoryTracker
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 HistoryTracker
 >

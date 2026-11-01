@@ -105,7 +105,10 @@ ConvolutionFilter
 :
 mFilter
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 skia
 :

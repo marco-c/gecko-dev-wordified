@@ -5788,7 +5788,10 @@ mBrotli
 {
 mBrotli
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 BrotliWrapper
 >
@@ -5897,7 +5900,10 @@ mZstd
 {
 mZstd
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ZstdWrapper
 >

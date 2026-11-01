@@ -161,7 +161,10 @@ aState
 :
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCServiceWorkerDescriptor
 >
@@ -302,7 +305,10 @@ aState
 :
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCServiceWorkerDescriptor
 >
@@ -339,7 +345,10 @@ aDescriptor
 :
 mData
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCServiceWorkerDescriptor
 >
@@ -403,7 +412,10 @@ reset
 ;
 mData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 IPCServiceWorkerDescriptor
 >

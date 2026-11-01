@@ -5209,7 +5209,10 @@ i
 auto
 policy
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SandboxBroker
 :
@@ -5566,7 +5569,10 @@ i
 auto
 policy
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SandboxBroker
 :

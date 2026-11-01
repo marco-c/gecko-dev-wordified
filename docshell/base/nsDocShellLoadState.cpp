@@ -1419,7 +1419,10 @@ isSome
 {
 mLoadingSessionHistoryInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 LoadingSessionHistoryInfo
 >
@@ -2758,7 +2761,10 @@ mLoadingSessionHistoryInfo
 {
 mLoadingSessionHistoryInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 LoadingSessionHistoryInfo
 >
@@ -5607,7 +5613,10 @@ aSHEntry
 {
 mLoadingSessionHistoryInfo
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 LoadingSessionHistoryInfo
 >
@@ -5748,7 +5757,10 @@ aLoadingInfo
 {
 SetLoadingSessionHistoryInfo
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 mozilla
 :

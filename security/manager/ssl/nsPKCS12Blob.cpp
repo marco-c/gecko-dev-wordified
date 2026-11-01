@@ -1458,7 +1458,10 @@ wideLength
 auto
 buffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint8_t
 [

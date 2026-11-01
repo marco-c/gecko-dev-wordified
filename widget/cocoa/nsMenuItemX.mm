@@ -765,7 +765,10 @@ SetTooltip
 }
 mIcon
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsMenuItemIconX
 >

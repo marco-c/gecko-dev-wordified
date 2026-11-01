@@ -2785,7 +2785,10 @@ aSizeInBytes
 :
 mPtr
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 AudioRingBufferPrivate
 >

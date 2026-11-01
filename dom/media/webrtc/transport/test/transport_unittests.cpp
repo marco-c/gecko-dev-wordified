@@ -1227,7 +1227,10 @@ length
 auto
 db
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 MediaPacket
 >
@@ -5899,7 +5902,10 @@ p2_
 >
 SetInspector
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 DtlsInspectorInjector
 >

@@ -5492,7 +5492,10 @@ Shmem
 >
 shmem
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ipc
 :

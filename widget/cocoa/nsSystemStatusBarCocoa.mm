@@ -188,10 +188,10 @@ mItems
 InsertOrUpdate
 (
 keyPtr
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 StatusItem
 >

@@ -5184,7 +5184,10 @@ entry
 .
 Insert
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 LinkInfo
 >
@@ -7529,7 +7532,10 @@ aNlh
 {
 route
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 NetlinkRoute
 >

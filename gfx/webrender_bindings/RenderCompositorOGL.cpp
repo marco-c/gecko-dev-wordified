@@ -293,7 +293,10 @@ nullptr
 ;
 }
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 RenderCompositorOGL
 >

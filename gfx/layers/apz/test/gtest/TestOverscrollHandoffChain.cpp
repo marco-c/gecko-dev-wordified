@@ -1786,7 +1786,10 @@ layers
 ;
 registration
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedLayerTreeRegistration
 >

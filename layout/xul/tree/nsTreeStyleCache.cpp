@@ -265,7 +265,10 @@ the
 table
 mTransitionTable
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 TransitionTable
 >
@@ -625,7 +628,10 @@ mCache
 {
 mCache
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ComputedStyleCache
 >

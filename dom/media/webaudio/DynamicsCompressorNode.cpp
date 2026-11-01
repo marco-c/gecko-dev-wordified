@@ -472,7 +472,10 @@ channel
 count
 mCompressor
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 WebCore
 :

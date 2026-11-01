@@ -517,7 +517,10 @@ mPorts
 InsertOrUpdate
 (
 aDestinationUUID
-MakeUnique
+std
+:
+:
+make_unique
 <
 MessagePortServiceData
 >
@@ -543,7 +546,10 @@ aParent
 ID
 (
 )
-MakeUnique
+std
+:
+:
+make_unique
 <
 MessagePortServiceData
 >

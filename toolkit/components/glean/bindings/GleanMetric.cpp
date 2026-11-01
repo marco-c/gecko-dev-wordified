@@ -208,7 +208,10 @@ lock
 *
 lock
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SubmetricToLabeledMirrorMapType
 >
@@ -538,7 +541,10 @@ lock
 *
 lock
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SubmetricToLabeledDistributionMirrorMapType
 >
@@ -868,7 +874,10 @@ lock
 *
 lock
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 SubmetricToDualLabeledDistributionMirrorMapType
 >

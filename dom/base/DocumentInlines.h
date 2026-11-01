@@ -429,7 +429,10 @@ doc
 >
 mStyleSet
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ServoStyleSet
 >

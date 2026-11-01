@@ -229,7 +229,10 @@ mCachedBytes
 )
 mCachedBlock
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

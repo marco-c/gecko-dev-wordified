@@ -676,7 +676,10 @@ false
 }
 gSettingsChangedCallbacks
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTArray
 <

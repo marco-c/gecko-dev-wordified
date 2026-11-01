@@ -333,12 +333,6 @@ using
 mozilla
 :
 :
-MakeUnique
-;
-using
-mozilla
-:
-:
 PositiveInfinity
 ;
 namespace
@@ -588,7 +582,10 @@ m_preDelayBuffers
 .
 AppendElement
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 float
 [

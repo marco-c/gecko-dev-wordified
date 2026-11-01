@@ -217,7 +217,10 @@ root
 ;
 registration
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedLayerTreeRegistration
 >
@@ -294,7 +297,10 @@ START_SCROLL_ID
 ;
 registration
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedLayerTreeRegistration
 >
@@ -546,7 +552,10 @@ layers
 ;
 registration
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScopedLayerTreeRegistration
 >

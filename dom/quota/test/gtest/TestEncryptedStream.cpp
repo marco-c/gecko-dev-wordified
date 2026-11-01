@@ -539,7 +539,10 @@ aData
 :
 mArrayBuffer
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

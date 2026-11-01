@@ -323,7 +323,10 @@ NS_ERROR_FAILURE
 auto
 byteArray
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

@@ -438,12 +438,6 @@ using
 mozilla
 :
 :
-MakeUnique
-;
-using
-mozilla
-:
-:
 MicroTaskRunnable
 ;
 using
@@ -7805,7 +7799,10 @@ mResolvedModuleSet
 {
 mResolvedModuleSet
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ResolvedModuleSet
 >

@@ -468,7 +468,10 @@ aUsage
 )
 {
 return
-MakeUnique
+std
+:
+:
+make_unique
 <
 SharedTextureReadBackPresent
 >

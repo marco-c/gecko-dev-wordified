@@ -1642,7 +1642,10 @@ true
 {
 buf
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 wchar_t
 [
@@ -2222,7 +2225,10 @@ wchar_t
 >
 installHash
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 wchar_t
 [
@@ -9137,7 +9143,10 @@ uint32_t
 >
 animationLookup
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 uint32_t
 [
@@ -13349,7 +13358,10 @@ doubles
 auto
 doubles
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 double
 [

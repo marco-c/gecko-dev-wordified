@@ -985,7 +985,10 @@ aChannels
 ;
 mBuffer
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 T
 [

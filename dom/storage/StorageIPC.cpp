@@ -1171,7 +1171,10 @@ mOriginsHavingData
 {
 mOriginsHavingData
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsTHashSet
 <

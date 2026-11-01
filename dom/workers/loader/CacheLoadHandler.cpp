@@ -1577,7 +1577,10 @@ spec
 .
 mDecoder
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 ScriptDecoder
 >
@@ -2822,10 +2825,10 @@ pInfo
 {
 mPrincipalInfo
 =
-mozilla
+std
 :
 :
-MakeUnique
+make_unique
 <
 PrincipalInfo
 >

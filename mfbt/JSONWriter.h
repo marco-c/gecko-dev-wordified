@@ -510,7 +510,10 @@ code
 JSONWriter
 w
 (
-MakeUnique
+std
+:
+:
+make_unique
 <
 MyWriteFunc
 >
@@ -2064,7 +2067,10 @@ string
 .
 mOwnedStr
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 char
 [

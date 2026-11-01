@@ -4235,7 +4235,10 @@ nsHttpRequestHead
 >
 request
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 nsHttpRequestHead
 >

@@ -3094,7 +3094,10 @@ return
 }
 mSectionAllocator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 FixedSizeSmallShmemSectionAllocator
 >
@@ -3140,7 +3143,10 @@ ChildSide
 ;
 mSectionAllocator
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 FixedSizeSmallShmemSectionAllocator
 >

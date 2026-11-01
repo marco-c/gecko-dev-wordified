@@ -507,7 +507,10 @@ mPendingAnimations
 {
 mPendingAnimations
 =
-MakeUnique
+std
+:
+:
+make_unique
 <
 AnimationArray
 >
