@@ -1260,9 +1260,9 @@ invokeContentTask
 (
 browser
 [
+XLARGE_NODE_COUNT
 ]
-(
-)
+count
 =
 >
 {
@@ -1289,7 +1289,7 @@ i
 ;
 i
 <
-15000
+count
 ;
 i
 +

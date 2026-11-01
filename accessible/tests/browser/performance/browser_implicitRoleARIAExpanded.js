@@ -1317,9 +1317,9 @@ invokeContentTask
 (
 browser
 [
+LARGE_NODE_COUNT
 ]
-(
-)
+count
 =
 >
 {
@@ -1346,7 +1346,7 @@ c
 ;
 c
 <
-10000
+count
 ;
 +
 +
@@ -1423,9 +1423,6 @@ a
 single
 show
 event
-rather
-than
-10000
 .
 /
 /

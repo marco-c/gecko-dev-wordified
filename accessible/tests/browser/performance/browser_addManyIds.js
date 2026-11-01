@@ -1224,9 +1224,9 @@ invokeContentTask
 (
 browser
 [
+LARGE_NODE_COUNT
 ]
-(
-)
+count
 =
 >
 {
@@ -1259,7 +1259,7 @@ from
 new
 Array
 (
-10000
+count
 )
 (
 )
