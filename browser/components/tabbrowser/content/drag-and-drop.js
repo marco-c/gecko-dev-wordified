@@ -4974,6 +4974,16 @@ if
 window
 .
 fullScreen
+&
+&
+AppConstants
+.
+platform
+=
+=
+"
+macosx
+"
 )
 {
 /
