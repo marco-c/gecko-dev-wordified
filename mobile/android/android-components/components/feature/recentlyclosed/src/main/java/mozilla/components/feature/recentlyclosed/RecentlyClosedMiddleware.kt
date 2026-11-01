@@ -75,12 +75,6 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-import
-kotlinx
-.
-coroutines
-.
 flow
 .
 Flow
@@ -265,13 +259,6 @@ val
 scope
 :
 CoroutineScope
-=
-CoroutineScope
-(
-Dispatchers
-.
-IO
-)
 )
 :
 Middleware
@@ -707,7 +694,6 @@ removeAllTabs
 /
 *
 *
-*
 Interface
 for
 a
@@ -727,7 +713,6 @@ interface
 Storage
 {
 /
-*
 *
 *
 Returns
@@ -764,7 +749,6 @@ TabState
 /
 *
 *
-*
 Removes
 the
 given
@@ -784,7 +768,6 @@ recentlyClosedTab
 TabState
 )
 /
-*
 *
 *
 Removes
@@ -825,9 +808,9 @@ storage
 to
 keep
 only
-*
 the
 newest
+*
 [
 maxTabs
 ]
