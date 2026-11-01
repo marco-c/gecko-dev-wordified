@@ -708,8 +708,6 @@ OnScrollPositionChanged
 Handle
 reflow
 event
-from
-nsIReflowObserver
 .
 MOZ_CAN_RUN_SCRIPT
 virtual
