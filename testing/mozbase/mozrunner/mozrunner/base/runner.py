@@ -1331,18 +1331,26 @@ check_for_crashes
 (
         
 self
+        
 dump_directory
 =
 None
+        
 dump_save_path
 =
 None
+        
 test_name
 =
 None
+        
 quiet
 =
 False
+        
+group
+=
+None
     
 )
 :
@@ -1413,6 +1421,25 @@ CRASH
 message
 to
 stdout
+        
+:
+param
+group
+:
+Test
+group
+(
+e
+.
+g
+.
+manifest
+)
+to
+attribute
+the
+crashes
+to
         
 :
 returns
@@ -1521,6 +1548,10 @@ dump_save_path
 test
 =
 test_name
+                        
+group
+=
+group
                     
 )
                 

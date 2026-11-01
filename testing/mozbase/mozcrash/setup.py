@@ -67,9 +67,9 @@ PACKAGE_VERSION
 "
 2
 .
-2
+3
 .
-1
+0
 "
 #
 dependencies
@@ -88,7 +88,9 @@ mozfile
 mozlog
 >
 =
-6
+9
+.
+0
 .
 0
 "
