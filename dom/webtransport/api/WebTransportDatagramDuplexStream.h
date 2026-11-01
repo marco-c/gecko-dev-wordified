@@ -518,6 +518,8 @@ aWebTransport
 void
 Init
 (
+bool
+aUseByteStream
 ErrorResult
 &
 aError
