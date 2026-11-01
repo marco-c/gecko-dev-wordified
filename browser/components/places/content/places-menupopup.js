@@ -261,6 +261,7 @@ this
 ;
 }
 }
+static
 get
 markup
 (
