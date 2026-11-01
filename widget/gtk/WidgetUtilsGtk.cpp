@@ -2951,6 +2951,12 @@ nitems_return
 !
 =
 1
+|
+|
+actual_format_return
+!
+=
+32
 )
 {
 return
@@ -3757,6 +3763,12 @@ numberOfItems
 =
 =
 1
+&
+&
+actualFormat
+=
+=
+32
 )
 {
 userTime
