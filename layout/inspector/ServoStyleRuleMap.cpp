@@ -1107,7 +1107,7 @@ sheet
 =
 rule
 .
-GetStyleSheet
+GetImportedSheet
 (
 )
 )
