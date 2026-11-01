@@ -4564,8 +4564,7 @@ are
 /
 enabled
 in
-early
-beta
+Nightly
 builds
 .
 (
@@ -4589,7 +4588,7 @@ bug
 if
 defined
 (
-EARLY_BETA_OR_EARLIER
+NIGHTLY_BUILD
 )
 #
 define

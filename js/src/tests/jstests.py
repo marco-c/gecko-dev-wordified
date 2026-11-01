@@ -4310,23 +4310,28 @@ nightly_build
 not
 release_or_beta
     
-early_beta_or_earlier
-=
-xul_tester
+#
+Still
+referenced
+by
+WPT
+metadata
+(
+wasm
+/
+jsapi
+/
+memory
+/
+constructor
 .
-test
-(
-        
-"
-getBuildConfiguration
-(
-'
-early_beta_or_earlier
-'
+any
+.
+js
+.
+ini
 )
-"
-    
-)
+.
     
 run_info
 [
@@ -4335,7 +4340,8 @@ early_beta_or_earlier
 "
 ]
 =
-early_beta_or_earlier
+not
+release_or_beta
     
 path_filter
 =
