@@ -2083,6 +2083,11 @@ options
 closeWindowsWithHistory
 :
 true
+entryPoint
+:
+"
+fire_button
+"
 }
 "
 Clearing
@@ -2413,6 +2418,11 @@ options
 closeWindowsWithHistory
 :
 true
+entryPoint
+:
+"
+fire_button
+"
 }
 "
 Clearing
