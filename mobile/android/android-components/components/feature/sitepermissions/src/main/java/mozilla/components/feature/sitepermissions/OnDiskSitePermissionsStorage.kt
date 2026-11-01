@@ -93,14 +93,6 @@ kotlinx
 .
 coroutines
 .
-Dispatchers
-.
-Main
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -437,7 +429,6 @@ toSitePermissionsEntity
 /
 *
 *
-*
 A
 storage
 implementation
@@ -457,6 +448,11 @@ OnDiskSitePermissionsStorage
 context
 :
 Context
+private
+val
+coroutineScope
+:
+CoroutineScope
 private
 val
 dataCleanable
@@ -491,14 +487,6 @@ context
 }
 private
 val
-coroutineScope
-=
-CoroutineScope
-(
-Main
-)
-private
-val
 database
 by
 lazy
@@ -521,6 +509,7 @@ as
 a
 parameter
 .
+*
 *
 param
 sitePermissions
@@ -614,6 +603,7 @@ as
 a
 parameter
 .
+*
 *
 param
 sitePermissions
@@ -709,6 +699,7 @@ the
 origin
 ]
 .
+*
 *
 param
 origin
@@ -935,6 +926,7 @@ Permission
 ]
 .
 *
+*
 return
 a
 map
@@ -1120,6 +1112,7 @@ a
 parameter
 .
 *
+*
 param
 sitePermissions
 the
@@ -1186,7 +1179,6 @@ toSitePermissionsEntity
 /
 *
 *
-*
 Deletes
 all
 sitePermissions
@@ -1232,7 +1224,6 @@ deleteAllSitePermissions
 )
 }
 /
-*
 *
 *
 Returns

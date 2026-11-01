@@ -466,13 +466,13 @@ and
 ExternalAppBrowserFragment
 ]
 .
-*
 This
 class
 only
 contains
 shared
 code
+*
 focused
 on
 the
@@ -480,7 +480,6 @@ main
 browsing
 content
 .
-*
 UI
 code
 specific
@@ -1338,6 +1337,11 @@ store
 components
 .
 store
+coroutineScope
+=
+components
+.
+applicationScope
 )
 owner
 =
