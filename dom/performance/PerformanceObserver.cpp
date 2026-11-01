@@ -2302,6 +2302,12 @@ Disconnect
 (
 )
 {
+mQueuedEntries
+.
+Clear
+(
+)
+;
 if
 (
 mConnected
