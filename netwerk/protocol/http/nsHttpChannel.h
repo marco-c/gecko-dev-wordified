@@ -604,15 +604,6 @@ and
 others
 .
 NS_IMETHOD
-GetIsSSL
-(
-bool
-*
-aIsSSL
-)
-override
-;
-NS_IMETHOD
 GetProxyMethodIsConnect
 (
 bool
