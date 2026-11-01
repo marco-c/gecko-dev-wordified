@@ -16136,7 +16136,7 @@ font
 list
 to
 avoid
-excessive
+excesive
 /
 /
 repetition
@@ -16152,6 +16152,14 @@ found
 .
 if
 (
+StaticPrefs
+:
+:
+mathml_font_family_math_enabled
+(
+)
+&
+&
 aGenericType
 =
 =
