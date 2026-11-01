@@ -2628,6 +2628,9 @@ getSubmission
 (
 aData
 null
+"
+searchbar
+"
 )
 ;
 /
@@ -2669,6 +2672,7 @@ telemetrySelectedIndex
 =
 -
 1
+submission
 }
 ;
 this
