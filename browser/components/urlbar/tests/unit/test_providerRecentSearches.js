@@ -136,9 +136,7 @@ engine
 suggestion
 )
 {
-let
-result
-=
+return
 makeFormHistoryResult
 (
 context
@@ -151,16 +149,6 @@ engine
 name
 }
 )
-;
-delete
-result
-.
-payload
-.
-lowerCaseSuggestion
-;
-return
-result
 ;
 }
 async
