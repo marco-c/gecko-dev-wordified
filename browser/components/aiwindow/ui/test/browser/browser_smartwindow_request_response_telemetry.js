@@ -4019,9 +4019,9 @@ sb
 .
 stub
 (
-openAIEngine
+AuthProvider
 "
-getFxAccountToken
+getToken
 "
 )
 .
@@ -4253,9 +4253,9 @@ sb
 .
 stub
 (
-openAIEngine
+AuthProvider
 "
-getFxAccountToken
+getToken
 "
 )
 .
@@ -4522,9 +4522,9 @@ sb
 .
 stub
 (
-openAIEngine
+AuthProvider
 "
-getFxAccountToken
+getToken
 "
 )
 .
@@ -4801,9 +4801,9 @@ sb
 .
 stub
 (
-openAIEngine
+AuthProvider
 "
-getFxAccountToken
+getToken
 "
 )
 .

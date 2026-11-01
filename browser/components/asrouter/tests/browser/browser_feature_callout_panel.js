@@ -5085,7 +5085,7 @@ test_content_document_selector
 {
 const
 {
-AIWindowAccountAuth
+AuthProvider
 }
 =
 ChromeUtils
@@ -5106,11 +5106,9 @@ components
 /
 aiwindow
 /
-ui
+models
 /
-modules
-/
-AIWindowAccountAuth
+AuthProvider
 .
 sys
 .
@@ -5160,9 +5158,9 @@ sinon
 .
 stub
 (
-AIWindowAccountAuth
+AuthProvider
 "
-ensureAIWindowAccess
+maybeSignIn
 "
 )
 .

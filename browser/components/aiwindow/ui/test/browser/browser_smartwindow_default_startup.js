@@ -386,7 +386,7 @@ sign
 -
 in
 :
-ensureAIWindowAccess
+maybeSignIn
 returns
 false
 .
@@ -397,9 +397,9 @@ sinon
 .
 stub
 (
-AIWindowAccountAuth
+AuthProvider
 "
-ensureAIWindowAccess
+maybeSignIn
 "
 )
 .
