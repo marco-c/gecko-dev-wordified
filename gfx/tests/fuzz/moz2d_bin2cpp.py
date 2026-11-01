@@ -915,25 +915,6 @@ blob_len
 "
 )
     
-print
-(
-"
-mozilla
-:
-:
-wr
-:
-:
-IdNamespace
-{
-.
-mHandle
-:
-0
-}
-"
-)
-    
 if
 aFormat
 in

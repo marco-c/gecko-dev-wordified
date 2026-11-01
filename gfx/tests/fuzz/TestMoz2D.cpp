@@ -587,16 +587,6 @@ get
 )
 blobLength
 }
-mozilla
-:
-:
-wr
-:
-:
-IdNamespace
-{
-0
-}
 static_cast
 <
 mozilla

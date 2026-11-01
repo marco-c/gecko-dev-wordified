@@ -181,9 +181,8 @@ return
 SharedSurfacesParent
 :
 :
-GetForIdNamespace
+Get
 (
-mIdNamespace
 wr
 :
 :
