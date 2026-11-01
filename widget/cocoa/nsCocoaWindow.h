@@ -4311,6 +4311,11 @@ bool
 mHasStartedNativeFullscreen
 ;
 bool
+mIsWaitingForFullscreenVisibility
+=
+false
+;
+bool
 mModal
 =
 false
