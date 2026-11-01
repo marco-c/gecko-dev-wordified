@@ -341,12 +341,17 @@ family
 ]
             
 if
+family
+not
+in
+(
 "
 android
 "
-not
-in
-family
+"
+ios
+"
+)
 :
                 
 #
@@ -354,6 +359,8 @@ These
 are
 not
 GeckoView
+or
+iOS
 builds
 so
 are
