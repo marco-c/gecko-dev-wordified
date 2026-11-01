@@ -6631,7 +6631,7 @@ relevant
 security
 UI
 .
-topWC
+requestingWindow
 -
 >
 AddSecurityState
