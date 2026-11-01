@@ -327,8 +327,6 @@ public
 nsSupportsWeakReference
 public
 nsIIOServiceInternal
-public
-nsIObserverService
 {
 public
 :
@@ -338,7 +336,6 @@ NS_DECL_NSIOBSERVER
 NS_DECL_NSINETUTIL
 NS_DECL_NSISPECULATIVECONNECT
 NS_DECL_NSIIOSERVICEINTERNAL
-NS_DECL_NSIOBSERVERSERVICE
 /
 /
 Gets
@@ -691,16 +688,6 @@ const
 char
 *
 aName
-)
-;
-static
-bool
-UseSocketProcess
-(
-bool
-aCheckAgain
-=
-false
 )
 ;
 bool
