@@ -1364,6 +1364,13 @@ columnNumber_
 ;
 public
 :
+static
+constexpr
+uint32_t
+WasmDefaultLineNumber
+=
+1
+;
 RequestedModule
 (
 Handle
