@@ -691,6 +691,13 @@ ref_count
 cairo_user_data_array_t
 user_data
 ;
+/
+*
+hash
+key
+members
+*
+/
 cairo_font_face_t
 *
 original_font_face
@@ -700,13 +707,6 @@ original_font_face
 may
 be
 NULL
-*
-/
-/
-*
-hash
-key
-members
 *
 /
 cairo_font_face_t

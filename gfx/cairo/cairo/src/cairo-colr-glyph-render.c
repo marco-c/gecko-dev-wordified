@@ -6460,17 +6460,6 @@ status
 =
 CAIRO_STATUS_SUCCESS
 ;
-assert
-(
-cairo_status
-(
-cr
-)
-=
-=
-CAIRO_STATUS_SUCCESS
-)
-;
 if
 (
 !

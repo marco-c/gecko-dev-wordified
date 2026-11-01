@@ -446,14 +446,6 @@ defined
 (
 __GNUC__
 )
-&
-&
-(
-__GNUC__
->
-=
-4
-)
 #
 define
 _cairo_export
