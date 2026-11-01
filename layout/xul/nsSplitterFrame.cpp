@@ -1185,9 +1185,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsSplitterFrame
 (
 aStyle

@@ -7301,7 +7301,6 @@ list
 AutoFrameListPtr
 overflows
 (
-aPresContext
 StealOverflowFrames
 (
 )
@@ -11462,9 +11461,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTableRowGroupFrame
 (
 aStyle

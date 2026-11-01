@@ -9351,9 +9351,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTableRowFrame
 (
 aStyle

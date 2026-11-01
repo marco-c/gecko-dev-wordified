@@ -975,9 +975,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTableColFrame
 (
 aStyle

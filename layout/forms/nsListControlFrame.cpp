@@ -268,9 +268,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsListControlFrame
 (
 aStyle

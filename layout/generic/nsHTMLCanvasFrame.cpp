@@ -2267,9 +2267,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsHTMLCanvasFrame
 (
 aStyle

@@ -138,9 +138,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmspaceFrame
 (
 aStyle

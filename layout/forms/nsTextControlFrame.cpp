@@ -294,9 +294,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTextControlFrame
 (
 aStyle

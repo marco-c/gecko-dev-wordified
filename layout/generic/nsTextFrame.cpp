@@ -35821,9 +35821,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTextFrame
 (
 aStyle
@@ -35854,9 +35851,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsContinuingTextFrame
 (
 aStyle

@@ -192,9 +192,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmoFrame
 (
 aStyle

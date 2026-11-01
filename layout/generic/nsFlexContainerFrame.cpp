@@ -25104,9 +25104,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsFlexContainerFrame
 (
 aStyle

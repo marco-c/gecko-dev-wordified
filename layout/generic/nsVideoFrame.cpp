@@ -279,9 +279,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsVideoFrame
 (
 aStyle
@@ -308,9 +305,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsAudioFrame
 (
 aStyle

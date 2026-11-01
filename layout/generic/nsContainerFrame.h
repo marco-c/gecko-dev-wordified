@@ -1196,7 +1196,7 @@ See
 InlineReflowInput
 :
 :
-mSetParentPointer
+mSetParentDuringReflow
 .
 )
 *
@@ -4975,11 +4975,6 @@ auto
 list
 =
 new
-(
-PresShell
-(
-)
-)
 nsFrameList
 (
 std
@@ -5077,11 +5072,6 @@ auto
 list
 =
 new
-(
-PresShell
-(
-)
-)
 nsFrameList
 (
 std
@@ -5179,11 +5169,6 @@ auto
 list
 =
 new
-(
-PresShell
-(
-)
-)
 nsFrameList
 (
 std
@@ -5299,9 +5284,6 @@ list
 >
 Delete
 (
-PresShell
-(
-)
 )
 ;
 }
@@ -5339,9 +5321,6 @@ list
 >
 Delete
 (
-PresShell
-(
-)
 )
 ;
 }
@@ -5379,9 +5358,6 @@ list
 >
 Delete
 (
-PresShell
-(
-)
 )
 ;
 }

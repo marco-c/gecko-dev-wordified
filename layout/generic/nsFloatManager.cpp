@@ -281,9 +281,6 @@ nsFloatManager
 :
 nsFloatManager
 (
-PresShell
-*
-aPresShell
 WritingMode
 aWM
 )
@@ -304,10 +301,6 @@ mLineLeft
 mBlockStart
 (
 0
-)
-mFloatDamage
-(
-aPresShell
 )
 mPushedLeftFloatPastBreak
 (
@@ -25901,12 +25894,6 @@ MakeUnique
 nsFloatManager
 >
 (
-aPresContext
--
->
-PresShell
-(
-)
 mReflowInput
 .
 GetWritingMode

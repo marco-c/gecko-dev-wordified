@@ -158,9 +158,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmrootFrame
 (
 aStyle

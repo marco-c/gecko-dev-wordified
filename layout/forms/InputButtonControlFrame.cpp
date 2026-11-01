@@ -1307,9 +1307,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 InputButtonControlFrame
 (
 aStyle

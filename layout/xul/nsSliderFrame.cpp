@@ -489,9 +489,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsSliderFrame
 (
 aStyle

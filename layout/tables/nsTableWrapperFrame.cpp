@@ -5719,9 +5719,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTableWrapperFrame
 (
 aStyle

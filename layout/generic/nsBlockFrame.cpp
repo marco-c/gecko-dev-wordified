@@ -2797,9 +2797,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsBlockFrame
 (
 aStyle
@@ -51145,7 +51142,6 @@ StealPushedFloats
 >
 Delete
 (
-presShell
 )
 ;
 }
@@ -51218,9 +51214,6 @@ prevBlock
 AutoFrameListPtr
 list
 (
-PresContext
-(
-)
 prevBlock
 -
 >
@@ -51913,9 +51906,6 @@ list
 >
 Delete
 (
-PresShell
-(
-)
 )
 ;
 RemoveStateBits
@@ -51971,11 +51961,6 @@ OverflowFloatsProperty
 (
 )
 new
-(
-PresShell
-(
-)
-)
 nsFrameList
 (
 std
@@ -52291,11 +52276,6 @@ list
 list
 =
 new
-(
-PresShell
-(
-)
-)
 nsFrameList
 ;
 SetProperty
@@ -52530,11 +52510,6 @@ result
 result
 =
 new
-(
-PresShell
-(
-)
-)
 nsFrameList
 ;
 SetProperty
@@ -55242,9 +55217,6 @@ StealFloats
 >
 Delete
 (
-PresShell
-(
-)
 )
 ;
 }
@@ -55321,9 +55293,6 @@ StealPushedFloats
 >
 Delete
 (
-PresShell
-(
-)
 )
 ;
 }
@@ -62162,9 +62131,6 @@ StealFloats
 >
 Delete
 (
-PresShell
-(
-)
 )
 ;
 floats
@@ -68032,11 +67998,6 @@ OutsideMarkerProperty
 (
 )
 new
-(
-PresShell
-(
-)
-)
 nsFrameList
 (
 aMarkerFrame

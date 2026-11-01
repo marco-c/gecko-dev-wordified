@@ -306,9 +306,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsRubyFrame
 (
 aStyle

@@ -293,9 +293,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsImageControlFrame
 (
 aStyle

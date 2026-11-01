@@ -448,6 +448,13 @@ h
 #
 include
 "
+nsPresArena
+.
+h
+"
+#
+include
+"
 nsRegion
 .
 h
@@ -1462,6 +1469,10 @@ Initialize
 (
 )
 ;
+InitPresArenas
+(
+)
+;
 PointerEventHandler
 :
 :
@@ -2118,6 +2129,10 @@ nsLayoutUtils
 :
 :
 Shutdown
+(
+)
+;
+ShutdownPresArenas
 (
 )
 ;

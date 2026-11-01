@@ -351,9 +351,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsFileControlFrame
 (
 aStyle
@@ -2566,9 +2563,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 FileControlLabelFrame
 (
 aStyle

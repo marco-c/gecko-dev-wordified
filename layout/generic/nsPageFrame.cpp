@@ -321,9 +321,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsPageFrame
 (
 aStyle
@@ -8349,9 +8346,6 @@ printing
 ;
 return
 new
-(
-aPresShell
-)
 nsPageBreakFrame
 (
 aStyle

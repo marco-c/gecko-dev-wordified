@@ -120,9 +120,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmrowFrame
 (
 aStyle

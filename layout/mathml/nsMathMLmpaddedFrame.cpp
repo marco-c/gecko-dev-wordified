@@ -150,9 +150,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmpaddedFrame
 (
 aStyle

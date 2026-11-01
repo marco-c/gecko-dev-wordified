@@ -323,9 +323,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsRangeFrame
 (
 aStyle

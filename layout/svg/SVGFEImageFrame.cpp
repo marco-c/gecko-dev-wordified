@@ -395,9 +395,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 mozilla
 :
 :

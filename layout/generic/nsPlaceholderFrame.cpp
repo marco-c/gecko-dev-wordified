@@ -236,9 +236,6 @@ aTypeBits
 {
 return
 new
-(
-aPresShell
-)
 nsPlaceholderFrame
 (
 aStyle

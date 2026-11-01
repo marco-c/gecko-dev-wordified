@@ -195,9 +195,6 @@ nsIFrame
 frame
 =
 new
-(
-aPresShell
-)
 mozilla
 :
 :

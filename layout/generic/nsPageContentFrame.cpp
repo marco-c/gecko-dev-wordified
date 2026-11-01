@@ -194,9 +194,6 @@ aPageName
 {
 return
 new
-(
-aPresShell
-)
 nsPageContentFrame
 (
 aStyle

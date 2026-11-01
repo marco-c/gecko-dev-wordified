@@ -249,9 +249,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsFieldSetFrame
 (
 aStyle
@@ -2747,9 +2744,6 @@ ocStatus
 AutoFrameListPtr
 prevOverflowFrames
 (
-PresContext
-(
-)
 prevInFlow
 -
 >

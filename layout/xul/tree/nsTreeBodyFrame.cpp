@@ -1422,9 +1422,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsTreeBodyFrame
 (
 aStyle

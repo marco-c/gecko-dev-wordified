@@ -228,9 +228,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsMathMLmunderoverFrame
 (
 aStyle

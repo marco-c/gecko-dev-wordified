@@ -191,9 +191,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 nsColorControlFrame
 (
 aStyle

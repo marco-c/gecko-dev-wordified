@@ -154,9 +154,6 @@ aStyle
 {
 return
 new
-(
-aPresShell
-)
 PrintedSheetFrame
 (
 aStyle
