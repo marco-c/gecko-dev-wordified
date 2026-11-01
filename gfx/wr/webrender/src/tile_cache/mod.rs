@@ -19771,6 +19771,15 @@ RoundedRectangle
 ClipItemKind
 :
 :
+Border
+{
+.
+.
+}
+|
+ClipItemKind
+:
+:
 Image
 {
 .
