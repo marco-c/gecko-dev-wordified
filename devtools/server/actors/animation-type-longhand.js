@@ -2689,6 +2689,13 @@ stroke
 opacity
 "
 "
+text
+-
+autospace
+-
+size
+"
+"
 zoom
 "
 "

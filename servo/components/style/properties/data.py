@@ -8559,6 +8559,25 @@ blend
 -
 mode
 "
+                
+#
+Not
+yet
+in
+css
+-
+text
+spec
+but
+coming
+                
+"
+text
+-
+autospace
+-
+size
+"
             
 ]
             
@@ -8804,6 +8823,25 @@ background
 blend
 -
 mode
+"
+                
+#
+Not
+yet
+in
+css
+-
+text
+spec
+but
+coming
+                
+"
+text
+-
+autospace
+-
+size
 "
             
 ]
