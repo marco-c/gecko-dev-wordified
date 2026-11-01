@@ -561,6 +561,7 @@ _ns
 /
 /
 aUrl
+u
 "
 _blank
 "
@@ -591,7 +592,7 @@ newWindow
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 result
 =
@@ -792,7 +793,7 @@ populate
 these
 members
 first
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 windowState
 .
@@ -802,7 +803,7 @@ hwndFx
 0
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 windowState
 .
