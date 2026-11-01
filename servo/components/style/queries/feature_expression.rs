@@ -5878,7 +5878,6 @@ CustomVariableValue
 :
 parse
 (
-context
 &
 mut
 Parser
@@ -5893,6 +5892,18 @@ slice_from
 start
 )
 )
+Some
+(
+&
+context
+.
+namespaces
+.
+prefixes
+)
+context
+.
+url_data
 )
 }
 ;

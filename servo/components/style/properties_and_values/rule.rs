@@ -1141,6 +1141,7 @@ input
 self
 .
 descriptors
+None
 &
 self
 .
@@ -1518,6 +1519,7 @@ syntax
 initial
 .
 url_data
+None
 AllowComputationallyDependent
 :
 :
@@ -2125,8 +2127,19 @@ SpecifiedValue
 :
 parse
 (
-context
 input
+Some
+(
+&
+context
+.
+namespaces
+.
+prefixes
+)
+context
+.
+url_data
 )
 ?
 )
