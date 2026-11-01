@@ -921,7 +921,7 @@ GetContentId
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 state
@@ -1073,7 +1073,7 @@ StaticMonitorAutoLock
 aProofOfLock
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorBridgeParent
 :
@@ -1101,7 +1101,7 @@ layersId
 aProofOfLock
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 .
@@ -1883,7 +1883,7 @@ aProofOfLock
 mWrBridge
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 )
@@ -1917,7 +1917,7 @@ TimeStamp
 aTime
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aId
 .
@@ -1952,7 +1952,7 @@ return
 false
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 -
@@ -1986,7 +1986,7 @@ LayersId
 aId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aId
 .
@@ -2020,7 +2020,7 @@ state
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 -
@@ -2063,7 +2063,7 @@ CSSPoint
 aPoint
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -2097,7 +2097,7 @@ state
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 -
@@ -2142,7 +2142,7 @@ LayerToParentLayerScale
 aZoom
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -2176,7 +2176,7 @@ state
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 -
@@ -2210,7 +2210,7 @@ LayersId
 aLayersId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -2278,7 +2278,7 @@ APZTestData
 aOutData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -2347,7 +2347,7 @@ FrameUniformityData
 aOutData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -2424,7 +2424,7 @@ ScrollableLayerGuid
 aTargets
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -2504,7 +2504,7 @@ EndWheelTransactionResolver
 aResolve
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .
@@ -2614,7 +2614,7 @@ ContentCompositorBridgeParent
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_GetAsyncIOEventTarget
 (
@@ -2849,7 +2849,7 @@ bool
 aActive
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aLayersId
 .

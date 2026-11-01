@@ -419,7 +419,7 @@ AsParent
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 tex
 .
@@ -570,7 +570,7 @@ AsParent
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 t
 -
@@ -732,7 +732,7 @@ depends
 on
 it
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 texture
 -
@@ -779,7 +779,7 @@ AsWebRenderImageHost
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 host
 )
@@ -833,7 +833,7 @@ break
 default
 :
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "
@@ -922,7 +922,7 @@ break
 default
 :
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 "

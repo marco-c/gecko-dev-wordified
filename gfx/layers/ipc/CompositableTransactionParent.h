@@ -220,7 +220,7 @@ uint64_t
 aTransactionId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mFwdTransactionId
 <

@@ -667,13 +667,13 @@ CompositorVsyncScheduler
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mIsObservingVsync
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mVsyncObserver
@@ -710,7 +710,7 @@ Destroy
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -956,7 +956,7 @@ RenderReasons
 aReasons
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1326,7 +1326,7 @@ IsInCompositorThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 NS_IsMainThread
@@ -1441,7 +1441,7 @@ CancelCurrentVRTask
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1491,7 +1491,7 @@ CancelCurrentCompositeTask
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1568,7 +1568,7 @@ RenderReasons
 aReasons
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1578,7 +1578,7 @@ IsInCompositorThread
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mVsyncSchedulerOwner
 )
@@ -1884,7 +1884,7 @@ IntRect
 aRect
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2067,7 +2067,7 @@ FromNow
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mVsyncSchedulerOwner
 )
@@ -2094,7 +2094,7 @@ NeedsComposite
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2119,7 +2119,7 @@ FlushPendingComposite
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2167,7 +2167,7 @@ ObserveVsync
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2198,7 +2198,7 @@ UnobserveVsync
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2338,7 +2338,7 @@ GetLastComposeTime
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2363,7 +2363,7 @@ GetLastVsyncTime
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2388,7 +2388,7 @@ GetLastVsyncOutputTime
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2413,7 +2413,7 @@ GetLastVsyncId
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2435,7 +2435,7 @@ UpdateLastComposeTime
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
