@@ -664,6 +664,12 @@ aAbort
 )
 override
 ;
+nsresult
+RemoveFileIdsWithoutMainFile
+(
+)
+override
+;
 void
 Close
 (
