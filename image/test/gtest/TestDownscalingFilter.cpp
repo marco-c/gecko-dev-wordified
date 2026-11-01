@@ -153,6 +153,8 @@ IntSize
 &
 aOutputSize
 Func
+&
+&
 aFunc
 )
 {
