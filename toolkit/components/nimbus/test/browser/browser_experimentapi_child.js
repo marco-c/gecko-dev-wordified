@@ -40,14 +40,6 @@ setup
 (
 )
 {
-const
-cleanup
-=
-await
-setupTest
-(
-)
-;
 SpecialPowers
 .
 addTaskImport
@@ -114,11 +106,6 @@ sys
 .
 mjs
 "
-)
-;
-registerCleanupFunction
-(
-cleanup
 )
 ;
 }
