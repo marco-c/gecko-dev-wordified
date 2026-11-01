@@ -2388,6 +2388,11 @@ historyUrl
 frecency
 :
 100
+distance
+:
+0
+.
+25
 }
 ]
 async

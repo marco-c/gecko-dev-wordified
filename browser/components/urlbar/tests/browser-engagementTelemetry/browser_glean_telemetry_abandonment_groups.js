@@ -1148,6 +1148,11 @@ results
 search_engine
 history_semantic
 "
+semantic_distances
+:
+"
+25
+"
 n_results
 :
 2

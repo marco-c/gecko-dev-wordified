@@ -7857,6 +7857,13 @@ true
 lastVisit
 :
 optionalDateValidator
+semanticDistance
+:
+{
+optional
+:
+true
+}
 /
 /
 suggestionObject
