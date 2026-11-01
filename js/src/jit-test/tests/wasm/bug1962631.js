@@ -31,7 +31,7 @@ toFixedLengthBuffer
 have
 AutoSetNewObjectMetadata
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

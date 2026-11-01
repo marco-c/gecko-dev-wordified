@@ -9,7 +9,7 @@ threads
 to
 crash
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

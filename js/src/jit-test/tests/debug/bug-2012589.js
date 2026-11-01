@@ -1,13 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
-error
-:
-Error
 const
 g
 =
@@ -22,7 +12,7 @@ true
 ;
 g
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

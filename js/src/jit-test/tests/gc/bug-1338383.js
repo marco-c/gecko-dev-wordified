@@ -30,7 +30,7 @@ newGlobal
 (
 )
 ;
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 lfOffThreadGlobal

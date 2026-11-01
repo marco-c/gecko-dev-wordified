@@ -1,6 +1,6 @@
 /
 /
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 ignores
 its
 argument
@@ -38,7 +38,7 @@ just
 in
 case
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 function
 (

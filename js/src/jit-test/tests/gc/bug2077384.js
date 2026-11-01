@@ -211,7 +211,7 @@ box
 }
 fresh
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

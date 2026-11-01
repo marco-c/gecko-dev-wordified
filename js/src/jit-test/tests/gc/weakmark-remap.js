@@ -34,7 +34,7 @@ from
 here
 on
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

@@ -40,7 +40,7 @@ problems
 Bug
 1532654
 )
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;

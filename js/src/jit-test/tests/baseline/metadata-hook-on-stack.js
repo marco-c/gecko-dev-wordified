@@ -49,7 +49,7 @@ i
 =
 20
 )
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;
@@ -100,12 +100,11 @@ true
 ;
 assertEq
 (
-typeof
 md
 .
-index
+functionDisplayName
 "
-number
+f
 "
 )
 ;

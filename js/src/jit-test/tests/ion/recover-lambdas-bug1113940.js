@@ -47,7 +47,7 @@ reconstructed
 /
 /
 /
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 ignores
 its
 argument
@@ -85,7 +85,7 @@ just
 in
 case
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 function
 (
@@ -155,7 +155,7 @@ comment
 as
 above
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 function
 (

@@ -47,7 +47,7 @@ already
 been
 discarded
 .
-enableShellAllocationMetadataBuilder
+enableTrackAllocations
 (
 )
 ;
