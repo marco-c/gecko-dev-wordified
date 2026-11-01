@@ -1070,7 +1070,9 @@ begin
 )
 )
 ;
+const
 auto
+&
 streams
 =
 parsed_log
@@ -1101,7 +1103,9 @@ end
 ssrc
 ]
 (
+const
 auto
+&
 stream
 )
 {
