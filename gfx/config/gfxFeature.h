@@ -431,6 +431,16 @@ device
 \
 _
 (
+D3D11_FENCES
+Feature
+"
+D3D11
+fences
+"
+)
+\
+_
+(
 BACKDROP_FILTER
 Feature
 "
