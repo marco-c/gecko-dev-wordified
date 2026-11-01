@@ -178,6 +178,13 @@ h
 #
 include
 "
+IncorrectStdForwardUsageChecker
+.
+h
+"
+#
+include
+"
 IntToEnumCastChecker
 .
 h
