@@ -1282,7 +1282,11 @@ IPDLUnitTestChild
 ActorDestroy
 (
 ActorDestroyReason
+/
+*
 aWhy
+*
+/
 )
 {
 if

@@ -753,7 +753,6 @@ mActor
 >
 SendStart
 (
-\
 (
 uint32_t
 )
@@ -774,6 +773,7 @@ detectedHang
 EXPECT_EQ
 (
 detectedHang
+\
 HangMode
 :
 :
@@ -800,12 +800,18 @@ Close
 [
 ]
 (
+[
+[
+maybe_unused
+]
+]
 auto
 &
 &
 reason
 )
 {
+\
 FAIL
 (
 )
@@ -818,6 +824,7 @@ send
 start
 "
 ;
+\
 }
 )
 ;
