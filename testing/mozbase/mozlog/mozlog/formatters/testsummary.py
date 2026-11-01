@@ -224,15 +224,15 @@ pid
 source
 extra
 tests
+    
 js_source
 minidump_path
 crashing_thread_stack
-stack
 and
 any
-    
 field
 whose
+    
 name
 starts
 with
@@ -241,20 +241,8 @@ are
 stripped
 from
 every
-    
 emitted
 record
-except
-that
-stack
-is
-preserved
-for
-crash
-and
-    
-ubsan_error
-actions
     
 "
 "
@@ -352,10 +340,6 @@ source
 "
         
 "
-stack
-"
-        
-"
 tests
 "
         
@@ -365,30 +349,6 @@ thread
     
 }
 )
-    
-_KEEP_STACK_ACTIONS
-=
-frozenset
-(
-{
-"
-crash
-"
-"
-ubsan_error
-"
-}
-)
-    
-_ALWAYS_STRIP_KEEP_STACK
-=
-_ALWAYS_STRIP
--
-{
-"
-stack
-"
-}
     
 def
 __call__
@@ -548,29 +508,6 @@ allowed_match
             
 return
         
-if
-action
-in
-self
-.
-_KEEP_STACK_ACTIONS
-:
-            
-strip
-=
-self
-.
-_ALWAYS_STRIP_KEEP_STACK
-        
-else
-:
-            
-strip
-=
-self
-.
-_ALWAYS_STRIP
-        
 data
 =
 {
@@ -593,7 +530,9 @@ if
 k
 not
 in
-strip
+self
+.
+_ALWAYS_STRIP
 and
 not
 k
