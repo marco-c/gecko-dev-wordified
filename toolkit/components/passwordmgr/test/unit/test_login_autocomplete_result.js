@@ -709,8 +709,6 @@ could
 be
 compromised
 .
-Learn
-More
 "
 style
 :
@@ -817,8 +815,6 @@ could
 be
 compromised
 .
-Learn
-More
 "
 style
 :
@@ -1282,8 +1278,6 @@ could
 be
 compromised
 .
-Learn
-More
 "
 style
 :
@@ -1755,8 +1749,6 @@ could
 be
 compromised
 .
-Learn
-More
 "
 style
 :
