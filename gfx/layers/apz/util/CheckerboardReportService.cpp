@@ -268,14 +268,14 @@ is
 likely
 wrong
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -488,7 +488,7 @@ string
 aLog
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -971,7 +971,7 @@ CheckerboardReport
 aOutReports
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1425,7 +1425,7 @@ FlushActiveReports
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (

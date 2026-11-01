@@ -240,14 +240,14 @@ uint32_t
 aNamespace
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -450,7 +450,7 @@ bool
 aIsRoot
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -486,7 +486,7 @@ GPU
 process
 )
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aEndpoint
 .
@@ -622,14 +622,14 @@ uint64_t
 aInnerWindowId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -982,7 +982,7 @@ bool
 aIsRoot
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1025,7 +1025,7 @@ bool
 aIsRoot
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1072,7 +1072,7 @@ if
 aIsRoot
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 sInstance
@@ -1338,7 +1338,7 @@ Shutdown
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -2072,7 +2072,7 @@ SourceSurfaceSharedData
 aSurface
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -2472,7 +2472,7 @@ ReportMemoryResolver
 aResolver
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2725,7 +2725,7 @@ WebRenderError
 aError
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

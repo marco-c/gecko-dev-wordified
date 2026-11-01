@@ -231,14 +231,14 @@ LayersId
 aLayersId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -259,7 +259,7 @@ GetAPZCTreeManager
 aLayersId
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mTreeManager
 )

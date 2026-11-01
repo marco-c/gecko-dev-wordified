@@ -440,7 +440,7 @@ RefCountedShmem
 aShm
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 IsValid

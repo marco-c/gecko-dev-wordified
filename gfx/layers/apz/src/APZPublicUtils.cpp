@@ -109,7 +109,7 @@ InitializeGlobalState
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

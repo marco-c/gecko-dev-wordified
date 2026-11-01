@@ -406,7 +406,7 @@ Initialize
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -486,7 +486,7 @@ the
 main
 thread
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 wr
 :
@@ -505,7 +505,7 @@ lock
 sMutex
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sInstance
 )
@@ -640,7 +640,7 @@ the
 main
 thread
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1002,7 +1002,10 @@ if
 surface
 )
 {
+DebugOnly
+<
 bool
+>
 rv
 =
 surface
@@ -1012,7 +1015,7 @@ AddConsumer
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 rv
@@ -1189,14 +1192,14 @@ SourceSurfaceSharedData
 aSurface
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1881,7 +1884,7 @@ ProcessId
 aPid
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1891,7 +1894,7 @@ IsInCompositorThread
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aPid
 !
@@ -2248,7 +2251,10 @@ ExternalImageId
 aId
 )
 {
+DebugOnly
+<
 bool
+>
 rv
 =
 Release
@@ -2262,7 +2268,7 @@ aForCreator
 true
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 rv
 )
@@ -2288,7 +2294,7 @@ StaticMutexAutoLock
 aAutoLock
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 aSurface
@@ -2304,7 +2310,7 @@ IsTracked
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aSurface
 -
@@ -2639,7 +2645,7 @@ surface
 aExpired
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 surface
 -

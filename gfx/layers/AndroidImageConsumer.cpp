@@ -322,12 +322,12 @@ mImageReader
 aImageReader
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mImageReader
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mGL
 )
