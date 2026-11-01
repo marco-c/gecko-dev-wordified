@@ -2030,3 +2030,17 @@ manager
 .
 staging_dir
 )
+    
+return
+{
+"
+parallel_read_safe
+"
+:
+True
+"
+parallel_write_safe
+"
+:
+True
+}
