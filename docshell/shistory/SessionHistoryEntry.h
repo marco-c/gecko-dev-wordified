@@ -390,7 +390,11 @@ operator
 const
 SessionHistoryInfo
 &
+/
+*
 aInfo
+*
+/
 )
 const
 {

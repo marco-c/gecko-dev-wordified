@@ -1330,7 +1330,11 @@ FieldIndex
 IDX_AllowJavascript
 >
 bool
+/
+*
 aOldValue
+*
+/
 )
 {
 RecomputeCanExecuteScripts
@@ -1618,7 +1622,11 @@ FieldIndex
 IDX_SHEntryHasUserInteraction
 >
 bool
+/
+*
 aOldValue
+*
+/
 )
 {
 MOZ_ASSERT

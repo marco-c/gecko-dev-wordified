@@ -1340,7 +1340,11 @@ PrefChanged
 const
 char
 *
+/
+*
 aPref
+*
+/
 )
 {
 nsSHistory
@@ -1366,7 +1370,11 @@ Observe
 (
 nsISupports
 *
+/
+*
 aSubject
+*
+/
 const
 char
 *
@@ -1374,7 +1382,11 @@ aTopic
 const
 char16_t
 *
+/
+*
 aData
+*
+/
 )
 {
 if
