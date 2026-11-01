@@ -4843,6 +4843,10 @@ const
 NavigationType
 &
 aNavigationType
+const
+TabId
+&
+aSnapshotTargetTab
 BeginOutboundCrossDocumentViewTransitionResolver
 &
 &

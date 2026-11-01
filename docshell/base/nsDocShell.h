@@ -6451,6 +6451,8 @@ dom
 :
 NavigationType
 aNavigationType
+uint64_t
+aSnapshotTargetTabId
 std
 :
 :
