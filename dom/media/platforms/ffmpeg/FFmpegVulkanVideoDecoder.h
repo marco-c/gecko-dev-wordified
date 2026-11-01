@@ -788,7 +788,7 @@ nsCString
 aRendererNode
 )
 ;
-void
+bool
 CheckDecodeCapabilities
 (
 AVCodecID

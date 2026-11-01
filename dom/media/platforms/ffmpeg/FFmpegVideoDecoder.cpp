@@ -4784,6 +4784,9 @@ return
 NS_ERROR_DOM_MEDIA_FATAL_ERR
 ;
 }
+if
+(
+!
 mVulkanDecoder
 .
 CheckDecodeCapabilities
@@ -4797,9 +4800,8 @@ mInfo
 .
 mColorDepth
 )
-;
-if
-(
+|
+|
 !
 mVulkanDecoder
 .
