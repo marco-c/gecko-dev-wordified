@@ -2933,7 +2933,7 @@ getAcc
 aria_form_with_label
 "
 )
-ROLE_FORM
+ROLE_FORM_LANDMARK
 )
 ;
 testRole
@@ -2944,7 +2944,7 @@ getAcc
 aria_form_with_label_mixed
 "
 )
-ROLE_FORM
+ROLE_FORM_LANDMARK
 )
 ;
 testRole
@@ -5394,7 +5394,7 @@ getAcc
 articleform_label
 "
 )
-ROLE_FORM
+ROLE_FORM_LANDMARK
 )
 ;
 testRole
@@ -5405,7 +5405,7 @@ getAcc
 articleform_label_mixed
 "
 )
-ROLE_FORM
+ROLE_FORM_LANDMARK
 )
 ;
 /
@@ -5583,7 +5583,7 @@ getAcc
 form_label
 "
 )
-ROLE_FORM
+ROLE_FORM_LANDMARK
 )
 ;
 testRole
@@ -5594,7 +5594,7 @@ getAcc
 form_label_mixed
 "
 )
-ROLE_FORM
+ROLE_FORM_LANDMARK
 )
 ;
 testRole
