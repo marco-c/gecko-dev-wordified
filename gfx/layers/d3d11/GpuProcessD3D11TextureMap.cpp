@@ -171,7 +171,7 @@ Init
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -199,7 +199,7 @@ Shutdown
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -224,7 +224,7 @@ GetNextTextureId
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (
@@ -1247,7 +1247,7 @@ GpuProcessTextureId
 aTextureId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 wr
 :
@@ -1848,7 +1848,7 @@ MOZ_ASSERT
 aHolder
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aHolder
 -
@@ -2584,7 +2584,7 @@ mAllocator
 aAllocator
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2606,7 +2606,7 @@ UpdatingTextureHolder
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

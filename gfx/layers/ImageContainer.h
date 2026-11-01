@@ -3867,7 +3867,7 @@ VideoRotation
 aRotation
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -3885,7 +3885,7 @@ GetRotation
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

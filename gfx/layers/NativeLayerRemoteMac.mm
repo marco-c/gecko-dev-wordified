@@ -365,7 +365,7 @@ RenderTextureHost
 aExternalImage
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsGPUProcess
 (

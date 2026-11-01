@@ -694,7 +694,7 @@ EndDraw
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mDT
 -
@@ -704,7 +704,7 @@ hasOneRef
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mLockedMode
 =

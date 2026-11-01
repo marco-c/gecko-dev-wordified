@@ -562,7 +562,7 @@ Get
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sVRManagerSingleton
 !
@@ -570,7 +570,7 @@ sVRManagerSingleton
 nullptr
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 ValidVRManagerProcess
 (
@@ -595,7 +595,7 @@ MaybeGet
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 ValidVRManagerProcess
 (
@@ -650,7 +650,7 @@ ManagerInit
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -851,7 +851,7 @@ mLastSensorState
 {
 }
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sVRManagerSingleton
 =
@@ -859,14 +859,14 @@ sVRManagerSingleton
 nullptr
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 ValidVRManagerProcess
 (
@@ -1315,14 +1315,14 @@ VRManager
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -3657,7 +3657,7 @@ ProcessManagerState_Disabled
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -3723,7 +3723,7 @@ ProcessManagerState_Stopping
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -3849,7 +3849,7 @@ ProcessManagerState_Idle_StartEnumeration
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -4244,7 +4244,7 @@ ProcessManagerState_Idle_StartRuntimeDetection
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -4495,7 +4495,7 @@ ProcessManagerState_Idle
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -4604,7 +4604,7 @@ ProcessManagerState_DetectRuntimes
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -4615,7 +4615,7 @@ VRManagerState
 RuntimeDetection
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mShmem
 !
@@ -4813,7 +4813,7 @@ ProcessManagerState_Enumeration
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -4824,7 +4824,7 @@ VRManagerState
 Enumeration
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mShmem
 !
@@ -4899,7 +4899,7 @@ ProcessManagerState_Active
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mState
 =
@@ -5542,7 +5542,7 @@ bestSlotIndex
 =
 aDuration
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 bestSlotIndex
 <
@@ -7413,7 +7413,7 @@ size_t
 aSlot
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aSlot
 <
@@ -8108,7 +8108,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mBrowserState
 .
@@ -8537,7 +8537,7 @@ endif
 default
 :
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 false
 )
@@ -8799,7 +8799,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mSubmitThread
 -

@@ -260,7 +260,7 @@ clearing
 it
 )
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mCompositorSession
@@ -319,14 +319,14 @@ the
 GPU
 process
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mBridge
@@ -351,7 +351,7 @@ Destroy
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -395,7 +395,7 @@ uint32_t
 aFlags
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -422,7 +422,7 @@ bool
 aPreventDefault
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -453,7 +453,7 @@ ScrollableLayerGuid
 aTargets
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -486,7 +486,7 @@ ZoomConstraints
 aConstraints
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -525,7 +525,7 @@ TouchBehaviorFlags
 aValues
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -555,7 +555,7 @@ AsyncDragMetrics
 aDragMetrics
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -581,7 +581,7 @@ ScrollableLayerGuid
 aGuid
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -613,14 +613,14 @@ Bridge
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mBridge
 )

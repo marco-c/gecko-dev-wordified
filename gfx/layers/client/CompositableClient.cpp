@@ -224,7 +224,7 @@ CompositableHandle
 aHandle
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aHandle
 )

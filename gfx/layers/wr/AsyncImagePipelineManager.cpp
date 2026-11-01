@@ -581,7 +581,7 @@ SetWillGenerateFrame
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -604,7 +604,7 @@ GetAndResetWillGenerateFrame
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -4412,7 +4412,7 @@ Fence
 aReadFence
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 wr
 :
@@ -4568,7 +4568,7 @@ ProcessPipelineUpdates
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

@@ -308,7 +308,7 @@ initializing
 mUIThread
 incorrectly
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -523,7 +523,7 @@ RepaintRequest
 aRequest
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsRepaintThread
 (
@@ -646,7 +646,7 @@ Destroy
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mUIThread
 -
@@ -870,7 +870,7 @@ n
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mUIThread
 -
@@ -1727,7 +1727,7 @@ NotifyFlushComplete
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsRepaintThread
 (

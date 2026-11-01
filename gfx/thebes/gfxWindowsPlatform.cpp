@@ -8684,7 +8684,7 @@ InitializeDirectDrawConfig
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -8784,7 +8784,7 @@ InitializeD3D11Config
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -9192,7 +9192,7 @@ InitializeDevices
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -9833,7 +9833,7 @@ Shutdown
 )
 override
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -9862,7 +9862,7 @@ EnableVsync
 )
 override
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -9932,7 +9932,7 @@ DisableVsync
 )
 override
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -9970,7 +9970,7 @@ IsVsyncEnabled
 )
 override
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -9999,7 +9999,7 @@ TimeStamp
 aVsyncTimestamp
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInVsyncThread
 (
@@ -10496,7 +10496,7 @@ VBlankLoop
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 IsInVsyncThread
 (
@@ -11141,7 +11141,7 @@ D3DVsyncSource
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -11369,7 +11369,7 @@ GPUDeviceData
 aData
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -11552,7 +11552,7 @@ ContentDeviceData
 aData
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsContentProcess
 (

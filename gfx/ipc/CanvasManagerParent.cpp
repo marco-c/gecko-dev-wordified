@@ -281,7 +281,7 @@ ContentParentId
 aContentId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 layers
 :
@@ -378,7 +378,7 @@ Shutdown
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -643,7 +643,7 @@ DisableRemoteCanvasInternal
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CanvasRenderThread
 :

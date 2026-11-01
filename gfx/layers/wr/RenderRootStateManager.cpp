@@ -261,7 +261,7 @@ AsyncResourceUpdates
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -392,7 +392,7 @@ FlushAsyncResourceUpdates
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

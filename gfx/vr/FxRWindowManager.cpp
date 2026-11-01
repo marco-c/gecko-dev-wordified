@@ -322,7 +322,7 @@ GetWindowID
 )
 const
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mWindow
 )

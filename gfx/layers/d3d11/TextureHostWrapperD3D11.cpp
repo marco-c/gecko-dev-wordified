@@ -222,7 +222,7 @@ IntSize
 aSize
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mThread
 -
@@ -548,7 +548,7 @@ ID3D11Device
 aDevice
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mThread
 -
@@ -697,7 +697,7 @@ GetStagingTexture
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mThread
 -
@@ -722,7 +722,7 @@ GetDevice
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mThread
 -
@@ -755,7 +755,7 @@ MutexAutoLock
 aProofOfLock
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mThread
 -
@@ -790,7 +790,7 @@ ID3D11Texture2D
 aTexture
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -941,7 +941,7 @@ TextureHost
 aTextureHost
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1022,7 +1022,7 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1099,7 +1099,7 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1172,7 +1172,7 @@ TextureHost
 aTextureHost
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1788,7 +1788,7 @@ mWrappedExternalImageId
 aWrappedExternalImageId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1827,7 +1827,7 @@ TextureHostWrapperD3D11
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :
@@ -2263,7 +2263,7 @@ NotifyNotUsed
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 CompositorThreadHolder
 :

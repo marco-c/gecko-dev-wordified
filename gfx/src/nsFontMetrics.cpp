@@ -1118,7 +1118,7 @@ be
 dropped
 by
 stylo
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

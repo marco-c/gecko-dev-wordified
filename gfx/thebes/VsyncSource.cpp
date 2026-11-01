@@ -135,7 +135,7 @@ State
 "
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -151,7 +151,7 @@ VsyncSource
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -659,7 +659,7 @@ UpdateVsyncStatus
 return
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

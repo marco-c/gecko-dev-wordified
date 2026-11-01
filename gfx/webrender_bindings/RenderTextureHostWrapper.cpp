@@ -174,6 +174,11 @@ GetRenderTexture
 mExternalImageId
 )
 ;
+MOZ_ASSERT
+(
+mTextureHost
+)
+;
 if
 (
 !

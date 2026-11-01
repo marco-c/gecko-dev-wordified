@@ -1666,7 +1666,7 @@ mTreeManager
 aTreeManager
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1720,7 +1720,7 @@ Unregister
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1816,7 +1816,7 @@ char16_t
 *
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1948,7 +1948,7 @@ SendFlushActiveCheckerboardReportsDone
 }
 else
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -13665,7 +13665,7 @@ are
 stored
 separately
 .
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

@@ -175,7 +175,7 @@ MOZ_COUNT_CTOR
 VRPuppetCommandBuffer
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sVRPuppetCommandBufferSingleton
 =
@@ -2678,7 +2678,7 @@ bufLen
 0
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 bufLen
 <
@@ -3006,7 +3006,7 @@ bufLen
 }
 else
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 bufLen
 =

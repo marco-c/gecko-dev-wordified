@@ -145,7 +145,7 @@ GetVRParent
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sVRParent
 )

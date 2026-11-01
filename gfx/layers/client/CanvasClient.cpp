@@ -264,7 +264,7 @@ const
 aTexture
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aTexture
 )

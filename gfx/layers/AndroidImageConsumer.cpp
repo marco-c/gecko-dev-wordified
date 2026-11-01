@@ -195,7 +195,7 @@ GLContext
 aGL
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 wr
 :
@@ -322,12 +322,12 @@ mImageReader
 aImageReader
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mImageReader
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mGL
 )
@@ -341,7 +341,7 @@ AndroidImageConsumer
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 wr
 :
@@ -404,7 +404,7 @@ AndroidMediaCodecFrameId
 aFrameId
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 wr
 :

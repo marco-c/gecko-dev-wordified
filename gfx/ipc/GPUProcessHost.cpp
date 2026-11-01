@@ -976,7 +976,7 @@ ProcessId
 peer_pid
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 NS_IsMainThread
@@ -1377,7 +1377,7 @@ OnAsyncInitComplete
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -1789,7 +1789,7 @@ bool
 aGenerateMinidump
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (

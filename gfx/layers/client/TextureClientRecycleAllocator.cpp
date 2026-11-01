@@ -412,7 +412,7 @@ TextureClient
 aTextureClient
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aTextureClient
 -
@@ -854,7 +854,7 @@ pop
 )
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mInUseClients
 .
@@ -906,7 +906,7 @@ TextureAllocationFlags
 aAllocFlags
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 (
@@ -960,7 +960,7 @@ ITextureClientAllocationHelper
 aHelper
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 aHelper
 .
@@ -1216,7 +1216,7 @@ lock
 mLock
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mInUseClients
 .

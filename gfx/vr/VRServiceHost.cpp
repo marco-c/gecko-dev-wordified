@@ -141,7 +141,7 @@ bool
 aEnableVRProcess
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -186,7 +186,7 @@ Get
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 sVRServiceHostSingleton
 !
@@ -242,7 +242,7 @@ VRServiceHost
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -444,7 +444,7 @@ VRExternalShmem
 aShmem
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mVRProcessEnabled
@@ -682,7 +682,7 @@ GetSingleton
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 gpu
 )
@@ -706,14 +706,14 @@ NotifyVRProcessStarted
 (
 )
 {
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mVRProcessEnabled
 )
@@ -1073,7 +1073,7 @@ GetSingleton
 (
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 gpu
 )

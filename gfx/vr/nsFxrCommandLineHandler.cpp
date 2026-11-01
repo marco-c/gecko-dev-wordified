@@ -475,7 +475,7 @@ e10s
 )
 ;
 }
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 mozilla
 :
@@ -592,7 +592,7 @@ newWindow
 )
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 result
 =
@@ -793,7 +793,7 @@ populate
 these
 members
 first
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 windowState
 .
@@ -803,7 +803,7 @@ hwndFx
 0
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 windowState
 .

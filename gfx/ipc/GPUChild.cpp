@@ -1305,7 +1305,7 @@ at
 the
 main
 process
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -1406,7 +1406,7 @@ at
 the
 main
 process
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 XRE_IsParentProcess
 (
