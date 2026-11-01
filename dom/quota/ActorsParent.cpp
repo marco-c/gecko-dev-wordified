@@ -17414,6 +17414,12 @@ happens
 if
 (
 !
+aFullOriginMetadata
+.
+mIsPrivate
+&
+&
+!
 cacheRowMatches
 &
 &
