@@ -1875,6 +1875,16 @@ result
 =
 1
 ;
+else
+if
+(
+!
+doVerify
+)
+result
+=
+0
+;
 }
 cleanup
 :
