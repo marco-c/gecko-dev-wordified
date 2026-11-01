@@ -308,18 +308,16 @@ artifact
             
 cmd
 .
-append
+extend
 (
-f
+[
 "
 -
 -
 artifact
-=
-{
-artifact
-}
 "
+artifact
+]
 )
         
 #
@@ -329,18 +327,16 @@ argument
         
 cmd
 .
-append
+extend
 (
-f
+[
 "
 -
 -
 suite
-=
-{
-suite
-}
 "
+suite
+]
 )
         
 print
