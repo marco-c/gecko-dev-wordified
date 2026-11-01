@@ -356,9 +356,6 @@ DNSUtils
 class
 TRRServiceChannel
 ;
-class
-SocketProcessChild
-;
 /
 *
 *

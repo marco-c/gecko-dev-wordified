@@ -220,17 +220,6 @@ mozilla
 /
 net
 /
-SocketProcessBridgeChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
-net
-/
 WebSocketChannelChild
 .
 h

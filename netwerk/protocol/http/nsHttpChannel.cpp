@@ -673,17 +673,6 @@ mozilla
 /
 net
 /
-SocketProcessParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
-net
-/
 TRRService
 .
 h
