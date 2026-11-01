@@ -1730,9 +1730,6 @@ mIsSampleNew
 class
 RAPL
 {
-bool
-mIsGpuSupported
-;
 /
 /
 Is
@@ -1745,7 +1742,9 @@ the
 processor
 ?
 bool
-mIsRamSupported
+mIsGpuSupported
+=
+false
 ;
 /
 /
@@ -1758,6 +1757,11 @@ by
 the
 processor
 ?
+bool
+mIsRamSupported
+=
+false
+;
 /
 /
 The
@@ -1883,6 +1887,8 @@ diagCall64
 pkg_energy_statistics_t
 *
 mPkes
+=
+nullptr
 ;
 RaplDomain
 *
