@@ -2486,13 +2486,6 @@ TakeItems
 {
 if
 (
-!
-i
-)
-{
-break
-;
-}
 nsDisplayList
 *
 subList
@@ -2503,10 +2496,6 @@ i
 GetSameCoordinateSystemChildren
 (
 )
-;
-if
-(
-subList
 )
 {
 PruneDisplayListForExtraPage
