@@ -240,7 +240,7 @@ input
 FOOBAR
 "
 )
-output
+expected_output
 )
 ;
 /
