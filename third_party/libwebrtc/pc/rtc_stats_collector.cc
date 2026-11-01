@@ -5364,15 +5364,6 @@ total_encode_time_ms
 /
 kNumMillisecsPerSec
 ;
-outbound_video
--
->
-total_encoded_bytes_target
-=
-video_sender_info
-.
-total_encoded_bytes_target
-;
 if
 (
 video_sender_info
