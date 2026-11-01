@@ -1354,10 +1354,6 @@ window
 )
 {
 return
-[
-.
-.
-.
 this
 .
 activeTabs
@@ -1365,7 +1361,6 @@ activeTabs
 keys
 (
 )
-]
 .
 some
 (

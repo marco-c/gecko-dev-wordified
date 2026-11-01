@@ -3601,10 +3601,6 @@ position
 const
 nextSibling
 =
-[
-.
-.
-.
 this
 .
 items
@@ -3612,7 +3608,6 @@ items
 values
 (
 )
-]
 .
 find
 (
