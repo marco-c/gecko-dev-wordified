@@ -45,12 +45,6 @@ of
 the
 search
 pane
-*
-with
-the
-settings
-redesign
-enabled
 .
 *
 /
