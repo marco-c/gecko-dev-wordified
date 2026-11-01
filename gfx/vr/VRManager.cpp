@@ -570,7 +570,7 @@ sVRManagerSingleton
 nullptr
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ValidVRManagerProcess
 (
@@ -595,7 +595,7 @@ MaybeGet
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ValidVRManagerProcess
 (
@@ -650,7 +650,7 @@ ManagerInit
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
@@ -851,7 +851,7 @@ mLastSensorState
 {
 }
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 sVRManagerSingleton
 =
@@ -859,14 +859,14 @@ sVRManagerSingleton
 nullptr
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ValidVRManagerProcess
 (
@@ -1315,14 +1315,14 @@ VRManager
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 NS_IsMainThread
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
@@ -3657,7 +3657,7 @@ ProcessManagerState_Disabled
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
@@ -3723,7 +3723,7 @@ ProcessManagerState_Stopping
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
@@ -3849,7 +3849,7 @@ ProcessManagerState_Idle_StartEnumeration
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
@@ -4244,7 +4244,7 @@ ProcessManagerState_Idle_StartRuntimeDetection
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
@@ -4495,7 +4495,7 @@ ProcessManagerState_Idle
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
@@ -4899,7 +4899,7 @@ ProcessManagerState_Active
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
@@ -5542,7 +5542,7 @@ bestSlotIndex
 =
 aDuration
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 bestSlotIndex
 <
@@ -7413,7 +7413,7 @@ size_t
 aSlot
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aSlot
 <
@@ -8108,7 +8108,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mBrowserState
 .
@@ -8537,7 +8537,7 @@ endif
 default
 :
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 false
 )
@@ -8799,7 +8799,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mSubmitThread
 -
