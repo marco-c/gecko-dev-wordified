@@ -454,8 +454,7 @@ FontVariation
 >
 *
 aVariations
-SharedFTFace
-*
+FT_Face
 aFace
 )
 ;
