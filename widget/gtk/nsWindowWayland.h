@@ -526,6 +526,12 @@ AsWaylandPopup
 nullptr
 ;
 }
+bool
+IsPipWindow
+(
+)
+const
+;
 protected
 :
 virtual
@@ -560,12 +566,6 @@ void
 HideAndRemoveAppPopups
 (
 )
-;
-bool
-WaylandPipEnabled
-(
-)
-const
 ;
 void
 EnableVSyncSource

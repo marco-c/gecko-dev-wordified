@@ -1880,8 +1880,9 @@ aOverlapAmount
 )
 final
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
-SetWidgetFullscreen
+TryMakeWidgetFullscreen
 (
 FullscreenReason
 aReason
