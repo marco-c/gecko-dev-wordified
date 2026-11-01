@@ -129,11 +129,6 @@ build
 =
 None
 from
-browsertime
-import
-BrowsertimeAndroid
-BrowsertimeDesktop
-from
 cmdline
 import
 DESKTOP_APPS
@@ -562,16 +557,26 @@ in
 DESKTOP_APPS
 :
             
-klass
-=
+from
+browsertime
+.
+desktop
+import
 BrowsertimeDesktop
+as
+klass
         
 else
 :
             
-klass
-=
+from
+browsertime
+.
+android
+import
 BrowsertimeAndroid
+as
+klass
         
 return
 klass
