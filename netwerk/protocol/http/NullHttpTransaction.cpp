@@ -96,15 +96,10 @@ mozilla
 /
 net
 /
-NeckoChannelParams
+HttpActivityArgs
 .
 h
 "
-/
-/
-For
-HttpActivityArgs
-.
 #
 include
 "
@@ -711,6 +706,8 @@ mActivityDistributor
 >
 ObserveActivityWithArgs
 (
+HttpActivityArgs
+(
 HttpActivity
 (
 mConnectionInfo
@@ -730,6 +727,7 @@ mConnectionInfo
 >
 EndToEndSSL
 (
+)
 )
 )
 NS_HTTP_ACTIVITY_TYPE_SOCKET_TRANSPORT
@@ -1000,6 +998,8 @@ mActivityDistributor
 >
 ObserveActivityWithArgs
 (
+HttpActivityArgs
+(
 HttpActivity
 (
 mConnectionInfo
@@ -1019,6 +1019,7 @@ mConnectionInfo
 >
 EndToEndSSL
 (
+)
 )
 )
 NS_HTTP_ACTIVITY_TYPE_HTTP_TRANSACTION
@@ -1160,6 +1161,8 @@ mActivityDistributor
 >
 ObserveActivityWithArgs
 (
+HttpActivityArgs
+(
 HttpActivity
 (
 mConnectionInfo
@@ -1179,6 +1182,7 @@ mConnectionInfo
 >
 EndToEndSSL
 (
+)
 )
 )
 NS_HTTP_ACTIVITY_TYPE_HTTP_TRANSACTION

@@ -136,7 +136,7 @@ mozilla
 /
 net
 /
-NeckoChannelParams
+HttpActivityArgs
 .
 h
 "
@@ -351,7 +351,10 @@ gHttpHandler
 >
 ObserveHttpActivityWithArgs
 (
+HttpActivityArgs
+(
 activity
+)
 NS_ACTIVITY_TYPE_HTTP_CONNECTION
 aSubtype
 PR_Now

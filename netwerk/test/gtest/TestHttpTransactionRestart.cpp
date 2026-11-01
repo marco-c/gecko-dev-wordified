@@ -691,12 +691,6 @@ channelId
 *
 /
 0
-/
-*
-transactionObserver
-*
-/
-nullptr
 nsILoadInfo
 :
 :

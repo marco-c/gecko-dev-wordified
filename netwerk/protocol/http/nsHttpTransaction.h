@@ -2482,13 +2482,6 @@ ShouldThrottle
 (
 )
 ;
-void
-NotifyTransactionObserver
-(
-nsresult
-reason
-)
-;
 /
 /
 When
@@ -4677,9 +4670,6 @@ MaybeStartHttp3BackupTimer
 ;
 private
 :
-TransactionObserverFunc
-mTransactionObserver
-;
 NetAddr
 mSelfAddr
 ;

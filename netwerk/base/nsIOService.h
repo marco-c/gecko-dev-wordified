@@ -690,11 +690,6 @@ char
 aName
 )
 ;
-bool
-IsSocketProcessLaunchComplete
-(
-)
-;
 /
 /
 Call

@@ -5809,12 +5809,6 @@ channelId
 *
 /
 0
-/
-*
-transactionObserver
-*
-/
-nullptr
 nsILoadInfo
 :
 :
@@ -6510,12 +6504,6 @@ channelId
 *
 /
 0
-/
-*
-transactionObserver
-*
-/
-nullptr
 nsILoadInfo
 :
 :
