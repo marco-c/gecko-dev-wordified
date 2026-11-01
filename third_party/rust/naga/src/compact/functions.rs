@@ -457,6 +457,7 @@ trace_expressions
 )
 ;
 }
+pub
 const
 fn
 as_expression

@@ -714,6 +714,9 @@ ModuleInfo
 }
 ;
 mod
+hoist
+;
+mod
 keywords
 ;
 mod

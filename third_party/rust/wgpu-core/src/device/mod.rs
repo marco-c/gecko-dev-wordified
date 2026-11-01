@@ -46,7 +46,7 @@ resource
 Buffer
 BufferAccessError
 BufferAccessResult
-BufferMapOperation
+BufferMapCallback
 Labeled
 RawResourceAccess
 ResourceErrorIdent
@@ -116,6 +116,9 @@ ray_tracing
 pub
 mod
 resource
+;
+mod
+stage_compiler
 ;
 pub
 (
@@ -1061,7 +1064,10 @@ type
 BufferMapPendingClosure
 =
 (
-BufferMapOperation
+Option
+<
+BufferMapCallback
+>
 BufferAccessResult
 )
 ;
@@ -1259,7 +1265,7 @@ callback
 for
 (
 mut
-operation
+callback
 status
 )
 in
@@ -1274,8 +1280,6 @@ Some
 callback
 )
 =
-operation
-.
 callback
 .
 take

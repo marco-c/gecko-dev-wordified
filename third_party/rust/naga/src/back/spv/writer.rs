@@ -4117,6 +4117,9 @@ binding
 binding_array_size
 :
 None
+external_texture
+:
+false
 }
 )
 None
