@@ -43219,7 +43219,6 @@ obj
 data
 (
 )
-JS_STRUCTURED_CLONE_VERSION
 scope
 &
 deserialized
