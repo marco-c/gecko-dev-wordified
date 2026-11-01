@@ -972,7 +972,7 @@ MaybeExternalImageId
 aExternalImageId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 (
@@ -1189,7 +1189,7 @@ uint64_t
 aTransactionId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mFwdTransactionId
 <
@@ -1643,7 +1643,7 @@ aFlags
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aExternalImageId
 .
@@ -2276,7 +2276,7 @@ SurfaceDescriptor
 TSurfaceDescriptorGPUVideo
 :
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aDesc
 .
@@ -2397,7 +2397,7 @@ TextureHost
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalImageId
 .
@@ -2554,7 +2554,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 GetFlags
 (
@@ -2566,7 +2566,7 @@ TextureFlags
 RECYCLE
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aFlags
 &
@@ -2621,7 +2621,7 @@ AsSurfaceTextureHost
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalImageId
 .
@@ -2927,7 +2927,7 @@ created
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalImageId
 .
@@ -3031,7 +3031,7 @@ get_YCbCrDescriptor
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 gfx
 :
@@ -3328,7 +3328,7 @@ ExternalImageId
 aExternalImageId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mExternalImageId
 .
@@ -4343,7 +4343,7 @@ read
 lock
 again
 !
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mReadLocked
@@ -5458,7 +5458,7 @@ mDeallocator
 aDeallocator
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 (
@@ -5807,7 +5807,7 @@ RenderTextureHost
 aRenderTexture
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aRenderTexture
 )
@@ -6069,7 +6069,7 @@ MemoryTextureHost
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mBuffer
@@ -6376,7 +6376,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mSurfaceAllocator
 )
