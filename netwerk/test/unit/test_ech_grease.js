@@ -726,6 +726,7 @@ stop
 ;
 }
 }
+async
 function
 startServer
 (
@@ -789,6 +790,7 @@ tlsServer
 .
 serverCert
 =
+await
 getTestServerCertificate
 (
 )
@@ -1137,25 +1139,6 @@ OK
 "
 )
 ;
-/
-/
-Only
-check
-telemetry
-if
-network
-process
-is
-disabled
-.
-if
-(
-!
-mozinfo
-.
-socketprocess_networking
-)
-{
 HandshakeTelemetryHelpers
 .
 checkSuccess
@@ -1170,7 +1153,6 @@ checkEmpty
 nonflavors
 )
 ;
-}
 resolve
 (
 )
@@ -1315,6 +1297,7 @@ connecting
 let
 server
 =
+await
 startServer
 (
 )
@@ -1388,6 +1371,7 @@ connecting
 let
 server
 =
+await
 startServer
 (
 )
@@ -1461,6 +1445,7 @@ connecting
 let
 server
 =
+await
 startServer
 (
 )
@@ -1534,6 +1519,7 @@ connecting
 let
 server
 =
+await
 startServer
 (
 )

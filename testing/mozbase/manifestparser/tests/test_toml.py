@@ -1327,7 +1327,7 @@ linux
 debug
 &
 &
-socketprocess_networking
+swgl
 "
             
 "
@@ -1352,7 +1352,7 @@ False
 debug
 &
 &
-socketprocess_networking
+swgl
 "
 "
 os

@@ -1826,11 +1826,6 @@ os
 "
 android
 "
-|
-|
-mozinfo
-.
-socketprocess_networking
 }
 async
 function

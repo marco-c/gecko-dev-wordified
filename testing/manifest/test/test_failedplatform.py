@@ -1399,7 +1399,7 @@ test_variant1
 }
             
 "
-socketprocess_networking
+swgl
 +
 !
 fission
@@ -1446,7 +1446,7 @@ test_variant1
 &
 &
 !
-socketprocess_networking
+swgl
 &
 &
 fission
@@ -1480,7 +1480,7 @@ fission
 }
             
 "
-socketprocess_networking
+swgl
 +
 !
 fission
@@ -1502,8 +1502,6 @@ no_variant
 )
     
 assert
-(
-        
 fp
 .
 get_no_variant_conditions
@@ -1516,17 +1514,14 @@ get_no_variant_conditions
 build_type1
 "
 )
-        
 =
 =
 "
 &
 &
 !
-socketprocess_networking
+swgl
 "
-    
-)
 def
 test_get_test_variant_condition
 (
