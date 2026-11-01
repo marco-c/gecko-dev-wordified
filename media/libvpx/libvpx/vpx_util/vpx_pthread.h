@@ -232,6 +232,16 @@ WIN32_LEAN_AND_MEAN
 #
 include
 <
+errno
+.
+h
+>
+/
+/
+NOLINT
+#
+include
+<
 process
 .
 h
