@@ -816,9 +816,6 @@ return
 NS_OK
 ;
 }
-nsAutoScriptBlocker
-scriptBlocker
-;
 /
 /
 Move
@@ -5236,9 +5233,6 @@ HideCaretsAndDispatchCaretStateChangedEvent
 __FUNCTION__
 )
 ;
-nsAutoScriptBlocker
-scriptBlocker
-;
 HideCaretsAndDispatchCaretStateChangedEvent
 (
 )
@@ -5277,9 +5271,6 @@ HideCaretsAndDispatchCaretStateChangedEvent
 "
 __FUNCTION__
 )
-;
-nsAutoScriptBlocker
-scriptBlocker
 ;
 HideCaretsAndDispatchCaretStateChangedEvent
 (
