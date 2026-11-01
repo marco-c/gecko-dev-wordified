@@ -3979,7 +3979,7 @@ CurrentServoStyleSet
 ;
 static
 void
-AssertSafeThreadOrServoFontMetricsLocked
+AssertSafeThreadOrServoFFILocked
 (
 )
 #

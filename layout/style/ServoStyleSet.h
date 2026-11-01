@@ -2730,7 +2730,7 @@ appropriate
 synchronization
 measures
 .
-AssertIsMainThreadOrServoFontMetricsLocked
+AssertIsMainThreadOrServoFFILocked
 (
 )
 ;

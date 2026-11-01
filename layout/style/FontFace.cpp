@@ -1734,7 +1734,7 @@ MaybeResolve
 gfxFontUtils
 :
 :
-AssertSafeThreadOrServoFontMetricsLocked
+AssertSafeThreadOrServoFFILocked
 (
 )
 ;
@@ -1800,7 +1800,7 @@ aMessage
 gfxFontUtils
 :
 :
-AssertSafeThreadOrServoFontMetricsLocked
+AssertSafeThreadOrServoFFILocked
 (
 )
 ;

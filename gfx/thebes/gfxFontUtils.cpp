@@ -11770,7 +11770,7 @@ void
 gfxFontUtils
 :
 :
-AssertSafeThreadOrServoFontMetricsLocked
+AssertSafeThreadOrServoFFILocked
 (
 )
 {
@@ -11785,7 +11785,10 @@ GetCurrentThreadWorkerPrivate
 )
 )
 {
-AssertIsMainThreadOrServoFontMetricsLocked
+mozilla
+:
+:
+AssertIsMainThreadOrServoFFILocked
 (
 )
 ;

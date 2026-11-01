@@ -444,7 +444,7 @@ stylo
 mozilla
 :
 :
-AssertIsMainThreadOrServoFontMetricsLocked
+AssertIsMainThreadOrServoFFILocked
 (
 )
 ;
