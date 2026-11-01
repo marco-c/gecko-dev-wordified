@@ -689,10 +689,10 @@ ThreadLocal
 final
 {
 friend
-mozilla
+std
 :
 :
-DefaultDelete
+default_delete
 <
 ThreadLocal
 >
