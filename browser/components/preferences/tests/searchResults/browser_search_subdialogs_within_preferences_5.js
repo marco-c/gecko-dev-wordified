@@ -190,14 +190,8 @@ sites
 listed
 here
 "
-SRD_PREF_VALUE
-?
 "
 passwords
-"
-:
-"
-passwordsGroup
 "
 )
 ;
