@@ -744,6 +744,8 @@ const
 HBUINT8
 *
 end
+bool
+extended
 )
 {
 auto
@@ -796,6 +798,17 @@ flag
 p
 +
 +
+;
+if
+(
+!
+extended
+)
+flag
+&
+=
+~
+FLAG_CUBIC
 ;
 points
 [
@@ -1058,6 +1071,8 @@ points
 OUT
 *
 /
+bool
+extended
 bool
 phantom_only
 =
@@ -1432,6 +1447,7 @@ read_flags
 p
 points_
 end
+extended
 )
 &
 &

@@ -4109,6 +4109,13 @@ hb_scalar_cache_t
 *
 gvar_cache
 =
+nullptr
+;
+#
+ifndef
+HB_NO_VAR
+gvar_cache
+=
 font
 -
 >
@@ -4130,6 +4137,8 @@ gvar
 :
 nullptr
 ;
+#
+endif
 for
 (
 unsigned
@@ -4264,6 +4273,9 @@ y_stride
 )
 ;
 }
+#
+ifndef
+HB_NO_VAR
 if
 (
 gvar_cache
@@ -4278,6 +4290,8 @@ release_gvar_cache
 gvar_cache
 )
 ;
+#
+endif
 glyf
 .
 release_scratch

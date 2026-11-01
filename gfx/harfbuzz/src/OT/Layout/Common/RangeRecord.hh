@@ -233,6 +233,10 @@ template
 <
 typename
 Types
+typename
+Value
+=
+HBUINT16
 >
 struct
 RangeRecord
@@ -269,7 +273,7 @@ the
 range
 *
 /
-HBUINT16
+Value
 value
 ;
 /
@@ -280,13 +284,16 @@ Value
 DEFINE_SIZE_STATIC
 (
 2
-+
-2
 *
 Types
 :
 :
 size
++
+Value
+:
+:
+static_size
 )
 ;
 bool
@@ -625,6 +632,8 @@ template
 <
 typename
 Spec
+typename
+Value
 >
 struct
 Null
@@ -641,6 +650,7 @@ Common
 RangeRecord
 <
 Spec
+Value
 >
 >
 {
@@ -657,6 +667,7 @@ Common
 RangeRecord
 <
 Spec
+Value
 >
 const
 &
@@ -681,6 +692,7 @@ Common
 RangeRecord
 <
 Spec
+Value
 >
 *
 >

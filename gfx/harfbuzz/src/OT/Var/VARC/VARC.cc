@@ -229,7 +229,7 @@ unsigned
 axis_indices
 hb_vector_t
 <
-float
+double
 >
 *
 axis_values
@@ -2214,9 +2214,6 @@ AXIS_VALUES_HAVE_VARIATION
 show
 &
 &
-coords
-&
-&
 !
 axisValues
 .
@@ -2441,7 +2438,7 @@ hb_clamp_to
 int
 >
 (
-roundf
+round
 (
 axisValues
 [
@@ -2478,12 +2475,9 @@ VarIdx
 :
 :
 NO_VARIATION
-&
-&
-coords
 )
 {
-float
+double
 transformValues
 [
 9
@@ -2524,6 +2518,9 @@ numTransformValues
 +
 ]
 =
+(
+double
+)
 transform
 .
 name
@@ -2600,6 +2597,9 @@ transform
 .
 name
 =
+(
+float
+)
 transformValues
 [
 numTransformValues

@@ -51,7 +51,7 @@ Types
 :
 :
 template
-OffsetTo
+LOffsetTo
 <
 Coverage
 >
@@ -133,7 +133,7 @@ Types
 :
 :
 template
-OffsetTo
+LOffsetTo
 <
 ClassDef
 >
@@ -170,7 +170,7 @@ Types
 :
 :
 template
-OffsetTo
+LOffsetTo
 <
 ClassDef
 >
@@ -275,7 +275,10 @@ DEFINE_SIZE_ARRAY
 Types
 :
 :
-size
+LOffset
+:
+:
+static_size
 values
 )
 ;

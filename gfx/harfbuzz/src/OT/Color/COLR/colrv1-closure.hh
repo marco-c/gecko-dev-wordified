@@ -333,9 +333,17 @@ c
 ;
 }
 }
+template
+<
+typename
+Types
+>
 HB_INTERNAL
 void
 PaintGlyph
+<
+Types
+>
 :
 :
 closurev1

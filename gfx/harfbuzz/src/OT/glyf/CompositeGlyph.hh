@@ -95,6 +95,8 @@ public
 size_t
 get_size
 (
+bool
+extended
 )
 const
 {
@@ -119,9 +121,14 @@ ifndef
 HB_NO_BEYOND_64K
 if
 (
+extended
+&
+&
+(
 flags
 &
 GID_IS_24BIT
+)
 )
 size
 +
@@ -342,6 +349,8 @@ unsigned
 int
 &
 point2
+bool
+extended
 )
 const
 {
@@ -365,9 +374,14 @@ ifndef
 HB_NO_BEYOND_64K
 if
 (
+extended
+&
+&
+(
 flags
 &
 GID_IS_24BIT
+)
 )
 p
 +
@@ -746,6 +760,8 @@ get_points
 contour_point_vector_t
 &
 points
+bool
+extended
 )
 const
 {
@@ -762,6 +778,7 @@ get_transformation
 (
 matrix
 trans
+extended
 )
 ;
 if
@@ -812,6 +829,8 @@ point
 char
 *
 out
+bool
+extended
 )
 const
 {
@@ -835,9 +854,14 @@ ifndef
 HB_NO_BEYOND_64K
 if
 (
+extended
+&
+&
+(
 flags
 &
 GID_IS_24BIT
+)
 )
 p
 +
@@ -863,6 +887,7 @@ len
 =
 get_size
 (
+extended
 )
 ;
 unsigned
@@ -1190,6 +1215,8 @@ matrix
 contour_point_t
 &
 trans
+bool
+extended
 )
 const
 {
@@ -1241,9 +1268,14 @@ ifndef
 HB_NO_BEYOND_64K
 if
 (
+extended
+&
+&
+(
 flags
 &
 GID_IS_24BIT
+)
 )
 p
 +
@@ -1532,6 +1564,8 @@ ty
 hb_codepoint_t
 get_gid
 (
+bool
+extended
 )
 const
 {
@@ -1540,9 +1574,14 @@ ifndef
 HB_NO_BEYOND_64K
 if
 (
+extended
+&
+&
+(
 flags
 &
 GID_IS_24BIT
+)
 )
 return
 StructAfter
@@ -1573,6 +1612,8 @@ set_gid
 (
 hb_codepoint_t
 gid
+bool
+extended
 )
 {
 #
@@ -1580,9 +1621,14 @@ ifndef
 HB_NO_BEYOND_64K
 if
 (
+extended
+&
+&
+(
 flags
 &
 GID_IS_24BIT
+)
 )
 StructAfter
 <
@@ -1628,6 +1674,7 @@ gid
 =
 get_gid
 (
+true
 )
 ;
 if
@@ -1667,6 +1714,7 @@ size
 =
 get_size
 (
+true
 )
 ;
 char
@@ -1712,6 +1760,7 @@ GID_IS_24BIT
 set_gid
 (
 gid
+true
 )
 ;
 memmove
@@ -1772,6 +1821,9 @@ header
 hb_bytes_t
 bytes
 ;
+bool
+extended
+;
 CompositeGlyph
 (
 const
@@ -1780,6 +1832,8 @@ GlyphHeader
 header_
 hb_bytes_t
 bytes_
+bool
+extended_
 )
 :
 header
@@ -1789,6 +1843,10 @@ header_
 bytes
 (
 bytes_
+)
+extended
+(
+extended_
 )
 {
 }
@@ -1811,6 +1869,7 @@ GlyphHeader
 (
 header
 )
+extended
 )
 ;
 }
@@ -1897,6 +1956,7 @@ last
 >
 get_size
 (
+extended
 )
 ;
 if
@@ -2230,6 +2290,7 @@ c
 source_len
 )
 c
+extended
 )
 ;
 char
@@ -2301,6 +2362,7 @@ component
 .
 get_size
 (
+extended
 )
 ;
 if
@@ -2340,6 +2402,7 @@ points_with_deltas
 i
 ]
 p
+extended
 )
 ;
 p
