@@ -2593,6 +2593,7 @@ surfaces
 scene
 .
 prim_instances
+tile_caches
 &
 frame_context
 &
