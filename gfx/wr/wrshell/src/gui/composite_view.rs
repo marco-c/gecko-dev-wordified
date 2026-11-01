@@ -731,7 +731,7 @@ new
 (
 1
 .
-0
+0_f32
 egui
 :
 :
@@ -1099,7 +1099,7 @@ new
 (
 1
 .
-0
+0_f32
 stroke_color
 )
 egui
