@@ -621,7 +621,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 /
@@ -703,7 +703,7 @@ Nothing
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 {
@@ -754,7 +754,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_SOCIALTRACKING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 {
@@ -803,7 +803,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_FINGERPRINTING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsNonPassiveThirdPartyUnlessAnnotating
+ShouldClassifyNonPassiveForETP
 nullptr
 }
 {
@@ -854,7 +854,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_EMAILTRACKING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 {
@@ -903,7 +903,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_CRYPTOMINING_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 {
@@ -999,7 +999,7 @@ Nothing
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 {
@@ -1037,7 +1037,7 @@ Nothing
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 /
@@ -1143,7 +1143,7 @@ PRIVACY_TRACKINGPROTECTION_CONTENT_TEST_ENABLED
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 {
@@ -1188,7 +1188,7 @@ Nothing
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 nullptr
 }
 }

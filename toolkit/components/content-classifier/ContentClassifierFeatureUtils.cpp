@@ -392,7 +392,7 @@ bool
 ContentClassifierFeatureUtils
 :
 :
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 (
 const
 ContentClassifierRequest
@@ -412,10 +412,20 @@ ClassifyMode
 Annotate
 |
 |
+(
 aRequest
 .
 ThirdParty
 (
+)
+&
+&
+!
+aRequest
+.
+AddonMayLoad
+(
+)
 )
 ;
 }
@@ -428,7 +438,7 @@ bool
 ContentClassifierFeatureUtils
 :
 :
-IsNonPassiveThirdPartyUnlessAnnotating
+ShouldClassifyNonPassiveForETP
 (
 const
 ContentClassifierRequest
@@ -447,7 +457,7 @@ IsPassiveContent
 )
 &
 &
-IsThirdPartyUnlessAnnotating
+ShouldClassifyForETP
 (
 aRequest
 aMode
