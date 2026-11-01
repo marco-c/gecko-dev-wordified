@@ -4511,7 +4511,7 @@ get
 &
 pubTmp
 PR_FALSE
-PR_FALSE
+PR_TRUE
 nullptr
 )
 )

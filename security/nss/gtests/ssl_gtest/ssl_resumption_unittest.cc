@@ -230,6 +230,13 @@ tls_protect
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -2046,7 +2053,10 @@ PK11SymKey
 *
 hmac_key
 =
-PK11_ImportSymKey
+nss_test
+:
+:
+ImportSymKey
 (
 slot
 .

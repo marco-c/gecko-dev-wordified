@@ -157,6 +157,13 @@ nss_scoped_ptrs
 .
 h
 "
+#
+include
+"
+pk11_import
+.
+h
+"
 namespace
 nss_test
 {
@@ -381,7 +388,10 @@ kek_len
 ScopedPK11SymKey
 kek
 (
-PK11_ImportSymKey
+nss_test
+:
+:
+ImportSymKey
 (
 slot
 .
