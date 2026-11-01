@@ -89,7 +89,6 @@ Insert
 /
 *
 *
-*
 Internal
 DAO
 for
@@ -107,6 +106,7 @@ interface
 TabDao
 {
 Insert
+suspend
 fun
 insertTab
 (
@@ -117,6 +117,7 @@ TabEntity
 :
 Long
 Delete
+suspend
 fun
 deleteTab
 (
