@@ -19790,6 +19790,14 @@ aTex
 mWebgl
 -
 >
+HintTexRenderTarget
+(
+LOCAL_GL_TEXTURE_2D
+)
+;
+mWebgl
+-
+>
 TexStorage
 (
 LOCAL_GL_TEXTURE_2D
