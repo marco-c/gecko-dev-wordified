@@ -226,16 +226,15 @@ extra
 tests
     
 js_source
-minidump_path
 crashing_thread_stack
 and
 any
 field
 whose
-    
 name
 starts
 with
+    
 stackwalk_
 are
 stripped
@@ -325,10 +324,6 @@ extra
         
 "
 js_source
-"
-        
-"
-minidump_path
 "
         
 "
