@@ -167,9 +167,11 @@ JS
 :
 GCCellPtr
 aKey
-JSObject
-*
-aKeyDelegate
+JS
+:
+:
+GCCellPtr
+aDelegate
 JS
 :
 :
