@@ -119,7 +119,10 @@ class
 SyncObjectHost
 :
 public
-RefCounted
+external
+:
+:
+AtomicRefCounted
 <
 SyncObjectHost
 >
