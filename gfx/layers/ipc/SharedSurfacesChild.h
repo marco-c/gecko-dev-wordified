@@ -995,7 +995,7 @@ ExternalImageId
 aId
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mShared

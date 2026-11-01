@@ -553,7 +553,7 @@ VideoBridgeSource
 aSource
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aSource
 .
@@ -724,7 +724,7 @@ return
 nullptr
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mCompositorThreadHolder
 -
@@ -1452,7 +1452,7 @@ UnregisterExternalImages
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 sVideoBridgeParentShutDown
 )
