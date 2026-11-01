@@ -1428,6 +1428,11 @@ int
 overlap
 int
 arch
+ARG_QEXT
+(
+int
+qext_scale
+)
 )
 ;
 void

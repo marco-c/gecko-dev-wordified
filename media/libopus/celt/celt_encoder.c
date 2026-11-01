@@ -13413,6 +13413,10 @@ st
 -
 >
 arch
+ARG_QEXT
+(
+qext_scale
+)
 )
 ;
 comb_filter
@@ -13467,6 +13471,10 @@ st
 -
 >
 arch
+ARG_QEXT
+(
+qext_scale
+)
 )
 ;
 for
@@ -13856,6 +13864,10 @@ st
 -
 >
 arch
+ARG_QEXT
+(
+qext_scale
+)
 )
 ;
 }
@@ -23487,6 +23499,10 @@ st
 -
 >
 arch
+ARG_QEXT
+(
+qext_scale
+)
 )
 ;
 if
@@ -23546,6 +23562,10 @@ st
 -
 >
 arch
+ARG_QEXT
+(
+qext_scale
+)
 )
 ;
 }
