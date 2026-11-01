@@ -1007,6 +1007,8 @@ MediaSourceInterface
 :
 SourceState
 state
+double
+volume
 )
 RTC_RUN_ON
 (
@@ -1018,6 +1020,8 @@ Reconfigure
 (
 bool
 track_enabled
+double
+volume
 )
 RTC_RUN_ON
 (
@@ -1098,7 +1102,8 @@ double
 cached_volume_
 RTC_GUARDED_BY
 (
-worker_thread_
+&
+signaling_thread_checker_
 )
 =
 1
