@@ -203,17 +203,6 @@ absl
 /
 strings
 /
-match
-.
-h
-"
-#
-include
-"
-absl
-/
-strings
-/
 string_view
 .
 h
@@ -16022,10 +16011,7 @@ sanitized
 bool
 use_hostname_address
 =
-absl
-:
-:
-EndsWith
+IsMdnsHostname
 (
 c
 .
@@ -16036,7 +16022,6 @@ address
 hostname
 (
 )
-LOCAL_TLD
 )
 ;
 /
