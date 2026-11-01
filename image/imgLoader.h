@@ -2581,6 +2581,10 @@ dom
 :
 FetchPriority
 aFetchPriority
+const
+nsAString
+&
+aInitiatorType
 )
 ;
 bool
@@ -2642,6 +2646,10 @@ dom
 :
 FetchPriority
 aFetchPriority
+const
+nsAString
+&
+aInitiatorType
 bool
 *
 aNewChannelCreated
