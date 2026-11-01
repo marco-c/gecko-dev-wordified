@@ -336,7 +336,7 @@ override
 ifdef
 MOZ_WIDGET_ANDROID
 bool
-MaybeCaptureScreenPixels
+CaptureScreenPixels
 (
 const
 gfx
