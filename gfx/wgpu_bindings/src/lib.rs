@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+unsafe_op_in_unsafe_fn
+)
+]
 /
 *
 This
@@ -525,6 +533,8 @@ return
 ]
 ;
 }
+unsafe
+{
 std
 :
 :
@@ -540,6 +550,7 @@ self
 .
 length
 )
+}
 }
 }
 impl
@@ -743,6 +754,8 @@ self
 u8
 ]
 {
+unsafe
+{
 slice
 :
 :
@@ -755,6 +768,7 @@ self
 .
 len
 )
+}
 }
 }
 fn
