@@ -4615,7 +4615,7 @@ VRManagerState
 RuntimeDetection
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mShmem
 !
@@ -4824,7 +4824,7 @@ VRManagerState
 Enumeration
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mShmem
 !
