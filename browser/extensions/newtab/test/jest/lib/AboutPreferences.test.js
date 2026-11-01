@@ -2172,6 +2172,11 @@ Prefs
 values
 :
 {
+region
+:
+"
+US
+"
 trainhopConfig
 :
 {
@@ -2478,6 +2483,11 @@ Prefs
 values
 :
 {
+region
+:
+"
+US
+"
 trainhopConfig
 :
 {
@@ -3914,6 +3924,11 @@ Prefs
 values
 :
 {
+region
+:
+"
+US
+"
 trainhopConfig
 :
 {
@@ -4166,6 +4181,11 @@ Prefs
 values
 :
 {
+region
+:
+"
+US
+"
 trainhopConfig
 :
 {
