@@ -83,14 +83,8 @@ true
 let
 expectedPane
 =
-SRD_PREF_VALUE
-?
 "
 panePermissionsData
-"
-:
-"
-panePrivacy
 "
 ;
 is
