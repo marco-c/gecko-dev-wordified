@@ -891,7 +891,9 @@ here
 to
 ensure
 that
-DefaultDeleter
+std
+:
+default_delete
 for
 Servo
 /

@@ -105,7 +105,10 @@ class
 ThreadLocal
 {
 friend
-DefaultDelete
+std
+:
+:
+default_delete
 <
 ThreadLocal
 >
