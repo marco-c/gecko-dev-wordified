@@ -6530,7 +6530,7 @@ doc
 aNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
