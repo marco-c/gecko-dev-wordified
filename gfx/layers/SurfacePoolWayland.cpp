@@ -378,7 +378,7 @@ GLContext
 aGL
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 wr
 :
@@ -1468,7 +1468,7 @@ with
 this
 method
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 wr
 :

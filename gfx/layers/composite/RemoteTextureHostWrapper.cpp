@@ -1136,7 +1136,7 @@ MonitorAutoLock
 aProofOfLock
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1165,7 +1165,7 @@ TextureHost
 aTextureHost
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
@@ -1210,7 +1210,7 @@ MonitorAutoLock
 aProofOfLoc
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 CompositorThreadHolder
 :
