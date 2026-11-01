@@ -236,7 +236,10 @@ use
 threaded_mainloop
 :
 :
+{
+MainloopLockGuard
 ThreadedMainloop
+}
 ;
 #
 [
