@@ -5565,7 +5565,7 @@ array
 static
 constexpr
 size_t
-MaxInlinedZeroFields
+MaxInlinedFields
 =
 8
 ;
@@ -5595,7 +5595,7 @@ hasDecorators
 #
 endif
 bool
-hasInlinedZeroFields
+hasInlinedFields
 :
 1
 ;
@@ -5637,7 +5637,7 @@ endif
 uint32_t
 numMemberInitializers
 bool
-hasInlinedZeroFields
+hasInlinedFields
 =
 false
 )
@@ -5664,9 +5664,9 @@ hasDecorators
 )
 #
 endif
-hasInlinedZeroFields
+hasInlinedFields
 (
-hasInlinedZeroFields
+hasInlinedFields
 )
 numMemberInitializers
 (
@@ -5842,7 +5842,7 @@ NumBits
 )
 |
 (
-hasInlinedZeroFields
+hasInlinedFields
 <
 <
 NumBits
@@ -5868,7 +5868,7 @@ NumBits
 )
 |
 (
-hasInlinedZeroFields
+hasInlinedFields
 <
 <
 NumBits
@@ -6006,7 +6006,7 @@ false
 )
 #
 endif
-hasInlinedZeroFields
+hasInlinedFields
 (
 false
 )
