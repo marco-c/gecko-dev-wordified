@@ -1863,6 +1863,17 @@ return
 true
 ;
 }
+MOZ_RELEASE_ASSERT
+(
+!
+shape
+-
+>
+isDictionary
+(
+)
+)
+;
 /
 /
 Check
