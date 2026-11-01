@@ -2412,6 +2412,7 @@ new
 JumpListBuilder
 (
 aumid
+aPrivateBrowsing
 )
 ;
 if

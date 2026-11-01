@@ -759,6 +759,8 @@ const
 nsAString
 &
 aAppUserModelId
+bool
+aPrivateBrowsing
 RefPtr
 <
 JumpListBackend
