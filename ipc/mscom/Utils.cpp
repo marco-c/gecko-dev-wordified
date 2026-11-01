@@ -1351,10 +1351,7 @@ mStr
 std
 :
 :
-forward
-<
-nsLiteralCString
->
+move
 (
 aStr
 )
