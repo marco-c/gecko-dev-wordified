@@ -72,13 +72,6 @@ h
 #
 include
 "
-DNSRequestParent
-.
-h
-"
-#
-include
-"
 DNSServiceBase
 .
 h
@@ -128,9 +121,6 @@ mozilla
 namespace
 net
 {
-class
-TRRServiceParent
-;
 class
 ChildDNSService
 final
@@ -347,12 +337,6 @@ mPendingRequestsLock
 DNSPendingRequestsLock
 "
 }
-;
-RefPtr
-<
-TRRServiceParent
->
-mTRRServiceParent
 ;
 nsCString
 mTRRDomain
