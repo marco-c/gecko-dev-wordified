@@ -156,7 +156,7 @@ c
 )
 2017
 -
-2021
+2026
 Sebastian
 Pipping
 <
@@ -542,7 +542,6 @@ NO_ENC
 ;
 static
 int
-PTRCALL
 NS
 (
 initScanProlog
@@ -589,7 +588,6 @@ nextTokPtr
 }
 static
 int
-PTRCALL
 NS
 (
 initScanContent

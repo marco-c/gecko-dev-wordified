@@ -134,7 +134,7 @@ c
 )
 2017
 -
-2025
+2026
 Sebastian
 Pipping
 <
@@ -346,16 +346,6 @@ xmltok
 .
 h
 "
-#
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
 enum
 {
 XML_ROLE_ERROR
@@ -443,7 +433,6 @@ prolog_state
 {
 int
 (
-PTRCALL
 *
 handler
 )
@@ -550,12 +539,6 @@ end
 enc
 )
 )
-#
-ifdef
-__cplusplus
-}
-#
-endif
 #
 endif
 /

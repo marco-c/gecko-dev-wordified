@@ -154,7 +154,7 @@ c
 )
 2016
 -
-2022
+2026
 Sebastian
 Pipping
 <
@@ -259,6 +259,19 @@ nick
 stunttruck
 .
 net
+>
+Copyright
+(
+c
+)
+2026
+Kartik
+Kenchi
+<
+netliomax25
+gmail
+.
+com
 >
 Licensed
 under
@@ -452,36 +465,6 @@ MIT
 #
 ifdef
 XML_TOK_IMPL_C
-#
-ifndef
-IS_INVALID_CHAR
-/
-/
-i
-.
-e
-.
-for
-UTF
--
-16
-and
-XML_MIN_SIZE
-not
-defined
-#
-define
-IS_INVALID_CHAR
-(
-enc
-ptr
-n
-)
-(
-0
-)
-#
-endif
 #
 define
 INVALID_LEAD_CASE
@@ -1053,7 +1036,6 @@ following
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanComment
@@ -1253,7 +1235,6 @@ following
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanDecl
@@ -1492,7 +1473,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 checkPiTarget
@@ -1681,7 +1661,6 @@ following
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanPi
@@ -1990,7 +1969,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanCdataSection
@@ -2110,7 +2088,6 @@ XML_TOK_CDATA_SECT_OPEN
 }
 static
 int
-PTRCALL
 PREFIX
 (
 cdataSectionTok
@@ -2525,7 +2502,6 @@ following
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanEndTag
@@ -2780,7 +2756,6 @@ X
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanHexCharRef
@@ -2934,7 +2909,6 @@ following
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanCharRef
@@ -3107,7 +3081,6 @@ following
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanRef
@@ -3260,7 +3233,6 @@ name
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanAtts
@@ -3926,7 +3898,6 @@ following
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanLt
@@ -4416,7 +4387,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 contentTok
@@ -4986,7 +4956,6 @@ following
 /
 static
 int
-PTRCALL
 PREFIX
 (
 scanPercent
@@ -5125,7 +5094,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanPoundName
@@ -5258,7 +5226,6 @@ XML_TOK_POUND_NAME
 }
 static
 int
-PTRCALL
 PREFIX
 (
 scanLit
@@ -5412,7 +5379,6 @@ XML_TOK_PARTIAL
 }
 static
 int
-PTRCALL
 PREFIX
 (
 prologTok
@@ -6635,7 +6601,6 @@ tok
 }
 static
 int
-PTRCALL
 PREFIX
 (
 attributeValueTok
@@ -7027,7 +6992,6 @@ XML_TOK_DATA_CHARS
 }
 static
 int
-PTRCALL
 PREFIX
 (
 entityValueTok
@@ -7419,7 +7383,6 @@ ifdef
 XML_DTD
 static
 int
-PTRCALL
 PREFIX
 (
 ignoreSectionTok
@@ -7707,7 +7670,6 @@ XML_DTD
 /
 static
 int
-PTRCALL
 PREFIX
 (
 isPublicId
@@ -7975,7 +7937,6 @@ atts
 /
 static
 int
-PTRCALL
 PREFIX
 (
 getAtts
@@ -8553,7 +8514,6 @@ reached
 }
 static
 int
-PTRFASTCALL
 PREFIX
 (
 charRefNumber
@@ -8849,7 +8809,6 @@ result
 }
 static
 int
-PTRCALL
 PREFIX
 (
 predefinedEntityName
@@ -9132,7 +9091,6 @@ return
 }
 static
 int
-PTRCALL
 PREFIX
 (
 nameMatchesAscii
@@ -9267,7 +9225,6 @@ end1
 }
 static
 int
-PTRFASTCALL
 PREFIX
 (
 nameLength
@@ -9410,7 +9367,6 @@ static
 const
 char
 *
-PTRFASTCALL
 PREFIX
 (
 skipS
@@ -9470,7 +9426,6 @@ ptr
 }
 static
 void
-PTRCALL
 PREFIX
 (
 updatePosition

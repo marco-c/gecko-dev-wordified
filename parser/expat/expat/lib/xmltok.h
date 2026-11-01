@@ -366,16 +366,6 @@ h
 /
 /
 uint64_t
-#
-ifdef
-__cplusplus
-extern
-"
-C
-"
-{
-#
-endif
 /
 *
 The
@@ -1075,7 +1065,6 @@ ENCODING
 typedef
 int
 (
-PTRCALL
 *
 SCANNER
 )
@@ -1137,7 +1126,6 @@ XML_N_LITERAL_TYPES
 ;
 int
 (
-PTRCALL
 *
 nameMatchesAscii
 )
@@ -1158,7 +1146,6 @@ char
 ;
 int
 (
-PTRFASTCALL
 *
 nameLength
 )
@@ -1175,7 +1162,6 @@ const
 char
 *
 (
-PTRFASTCALL
 *
 skipS
 )
@@ -1190,7 +1176,6 @@ char
 ;
 int
 (
-PTRCALL
 *
 getAtts
 )
@@ -1212,7 +1197,6 @@ atts
 ;
 int
 (
-PTRFASTCALL
 *
 charRefNumber
 )
@@ -1229,7 +1213,6 @@ ptr
 ;
 int
 (
-PTRCALL
 *
 predefinedEntityName
 )
@@ -1247,7 +1230,6 @@ char
 ;
 void
 (
-PTRCALL
 *
 updatePosition
 )
@@ -1269,7 +1251,6 @@ POSITION
 ;
 int
 (
-PTRCALL
 *
 isPublicId
 )
@@ -1296,7 +1277,6 @@ badPtr
 enum
 XML_Convert_Result
 (
-PTRCALL
 *
 utf8Convert
 )
@@ -1327,7 +1307,6 @@ toLim
 enum
 XML_Convert_Result
 (
-PTRCALL
 *
 utf16Convert
 )
@@ -2065,7 +2044,6 @@ void
 )
 ;
 int
-FASTCALL
 XmlUtf8Encode
 (
 int
@@ -2076,7 +2054,6 @@ buf
 )
 ;
 int
-FASTCALL
 XmlUtf16Encode
 (
 int
@@ -2226,12 +2203,6 @@ void
 userData
 )
 ;
-#
-ifdef
-__cplusplus
-}
-#
-endif
 #
 endif
 /
