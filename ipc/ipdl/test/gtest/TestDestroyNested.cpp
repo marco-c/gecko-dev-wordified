@@ -310,11 +310,7 @@ TestDestroyNestedSubParent
 ActorDestroy
 (
 ActorDestroyReason
-/
-*
 aReason
-*
-/
 )
 {
 /
@@ -459,11 +455,7 @@ TestDestroyNestedParent
 ActorDestroy
 (
 ActorDestroyReason
-/
-*
 aReason
-*
-/
 )
 {
 /

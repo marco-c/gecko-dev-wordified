@@ -10900,11 +10900,7 @@ writer
 const
 paramType
 &
-/
-*
 aParam
-*
-/
 )
 {
 bool

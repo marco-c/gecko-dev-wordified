@@ -251,11 +251,7 @@ std
 :
 string
 &
-/
-*
 aPrefix
-*
-/
 FILE
 *
 aOutf

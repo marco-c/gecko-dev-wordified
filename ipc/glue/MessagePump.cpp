@@ -1152,11 +1152,7 @@ Notify
 (
 nsITimer
 *
-/
-*
 aTimer
-*
-/
 )
 {
 MessageLoop

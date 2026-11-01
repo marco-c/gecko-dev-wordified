@@ -425,11 +425,7 @@ Notify
 (
 nsITimer
 *
-/
-*
 timer
-*
-/
 )
 {
 /

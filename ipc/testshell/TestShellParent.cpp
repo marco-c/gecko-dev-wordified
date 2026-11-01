@@ -170,11 +170,7 @@ AllocPTestShellCommandParent
 const
 nsAString
 &
-/
-*
 aCommand
-*
-/
 )
 {
 return
