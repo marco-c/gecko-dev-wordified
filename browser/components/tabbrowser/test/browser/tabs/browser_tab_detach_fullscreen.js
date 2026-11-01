@@ -111,6 +111,14 @@ detachTabWithoutOpeningWindow
 aTab
 )
 {
+await
+BrowserTestUtils
+.
+allTabOpenAnimationsFinished
+(
+window
+)
+;
 let
 props
 ;
