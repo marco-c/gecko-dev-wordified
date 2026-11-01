@@ -1407,12 +1407,9 @@ thread
 ;
 if
 (
-NS_WARN_IF
-(
 NS_FAILED
 (
 rv
-)
 )
 )
 {
@@ -3254,6 +3251,10 @@ nullptr
 }
 return
 thread
+.
+get
+(
+)
 ;
 }
 nsISerialEventTarget
