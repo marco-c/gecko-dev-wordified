@@ -3672,7 +3672,11 @@ ProfilerChild
 ActorDestroy
 (
 ActorDestroyReason
+/
+*
 aActorDestroyReason
+*
+/
 )
 {
 mDestroyed

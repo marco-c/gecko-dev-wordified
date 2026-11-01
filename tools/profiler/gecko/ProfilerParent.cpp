@@ -5381,7 +5381,11 @@ ipc
 :
 :
 ResponseRejectReason
+/
+*
 aReason
+*
+/
 )
 {
 /
@@ -6502,7 +6506,11 @@ ProfilerParent
 ActorDestroy
 (
 ActorDestroyReason
+/
+*
 aActorDestroyReason
+*
+/
 )
 {
 MOZ_RELEASE_ASSERT

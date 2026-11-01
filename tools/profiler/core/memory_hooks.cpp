@@ -1372,7 +1372,11 @@ T
 *
 aPtr
 size_t
+/
+*
 aOldSize
+*
+/
 size_t
 aNewSize
 )
@@ -1541,7 +1545,11 @@ T
 *
 aPtr
 size_t
+/
+*
 aSize
+*
+/
 =
 0
 )
@@ -3237,7 +3245,11 @@ void
 *
 aPtr
 size_t
+/
+*
 aReqSize
+*
+/
 )
 {
 if
@@ -4434,7 +4446,11 @@ aMallocTable
 ReplaceMallocBridge
 *
 *
+/
+*
 aBridge
+*
+/
 )
 {
 gMallocTable
