@@ -1669,6 +1669,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 if
@@ -1737,6 +1741,10 @@ nsGkAtoms
 _class
 aAnonClass
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 if

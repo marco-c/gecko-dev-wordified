@@ -17167,6 +17167,10 @@ nsGkAtoms
 href
 aURL
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 if
@@ -20179,6 +20183,10 @@ aBlockquoteElement
 IsInComposedDoc
 (
 )
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
@@ -23093,6 +23101,10 @@ aSpanElement
 IsInComposedDoc
 (
 )
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
@@ -23216,6 +23228,10 @@ width
 "
 )
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
@@ -23283,6 +23299,10 @@ wrap
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
@@ -25075,6 +25095,10 @@ aBlockquoteElement
 IsInComposedDoc
 (
 )
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION
@@ -25160,6 +25184,10 @@ aBlockquoteElement
 IsInComposedDoc
 (
 )
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 NS_WARNING_ASSERTION

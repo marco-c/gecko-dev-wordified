@@ -8786,6 +8786,10 @@ nsGkAtoms
 cols
 newColAttr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -8987,6 +8991,10 @@ nsGkAtoms
 rows
 newRowAttr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

@@ -582,6 +582,13 @@ true
 "
 _ns
 true
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

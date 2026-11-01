@@ -4212,6 +4212,13 @@ true
 "
 _ns
 false
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

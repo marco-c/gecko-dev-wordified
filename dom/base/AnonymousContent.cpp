@@ -200,6 +200,10 @@ presentation
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 host
@@ -222,6 +226,10 @@ host
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 ShadowRootInit

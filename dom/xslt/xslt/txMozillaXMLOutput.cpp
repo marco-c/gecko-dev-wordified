@@ -909,6 +909,10 @@ aLocalName
 aPrefix
 aValue
 false
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -3609,6 +3613,10 @@ Type
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 )
 ;
@@ -3657,6 +3665,10 @@ nsGkAtoms
 content
 metacontent
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 )
 ;

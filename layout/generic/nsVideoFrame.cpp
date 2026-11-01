@@ -3502,6 +3502,10 @@ nsGkAtoms
 src
 posterStr
 aNotify
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

@@ -7661,6 +7661,10 @@ GetPrefix
 )
 valueStr
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 if

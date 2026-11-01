@@ -1276,6 +1276,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 return

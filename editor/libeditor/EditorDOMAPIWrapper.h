@@ -2888,6 +2888,13 @@ kNameSpaceID_None
 aAttr
 aNewValue
 aNotify
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 /

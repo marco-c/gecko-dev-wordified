@@ -18893,6 +18893,10 @@ nsGkAtoms
 value
 aValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 case
@@ -31193,6 +31197,10 @@ nsGkAtoms
 value
 oldValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

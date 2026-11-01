@@ -3134,6 +3134,10 @@ NS_ConvertUTF8toUTF16
 href
 )
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

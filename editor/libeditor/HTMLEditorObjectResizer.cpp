@@ -832,6 +832,10 @@ nsGkAtoms
 anonlocation
 locationStr
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 )
 )
@@ -892,6 +896,10 @@ nsGkAtoms
 style
 cursor
 true
+IsKnownNewAttr
+:
+:
+Yes
 )
 )
 )
@@ -4402,6 +4410,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 NS_WARNING_ASSERTION
@@ -4454,6 +4466,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 NS_WARNING_ASSERTION
@@ -5652,6 +5668,10 @@ u
 "
 _ns
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 NS_WARNING_ASSERTION
@@ -6767,6 +6787,10 @@ nsGkAtoms
 src
 imageSource
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 if

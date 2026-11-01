@@ -511,6 +511,10 @@ true
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 /
@@ -555,6 +559,10 @@ true
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 mTooltipContent

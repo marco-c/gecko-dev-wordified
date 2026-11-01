@@ -690,6 +690,13 @@ aNotify
 *
 /
 true
+dom
+:
+:
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

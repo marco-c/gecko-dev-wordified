@@ -1429,6 +1429,10 @@ none
 "
 _ns
 kNotify
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 ShadowRoot
@@ -1505,6 +1509,10 @@ nsGkAtoms
 id
 aElementId
 kNotify
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 mCaretElementHolder
@@ -2106,6 +2114,10 @@ nsGkAtoms
 style
 styleStr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 AC_LOG
@@ -2215,6 +2227,10 @@ nsGkAtoms
 style
 styleStr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 AC_LOG
@@ -2303,6 +2319,10 @@ nsGkAtoms
 style
 styleStr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 AC_LOG

@@ -2500,6 +2500,10 @@ Value
 (
 )
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 if
@@ -2558,6 +2562,10 @@ u
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 if

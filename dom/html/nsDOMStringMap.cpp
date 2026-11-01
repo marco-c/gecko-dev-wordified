@@ -553,6 +553,10 @@ kNameSpaceID_None
 attrAtom
 aValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 if

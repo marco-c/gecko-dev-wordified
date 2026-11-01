@@ -2124,6 +2124,10 @@ nsGkAtoms
 rowspan
 newRowSpan
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 NS_WARNING_ASSERTION
@@ -2197,6 +2201,10 @@ nsGkAtoms
 colspan
 newColSpan
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 NS_WARNING_ASSERTION

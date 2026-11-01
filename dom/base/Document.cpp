@@ -56768,6 +56768,10 @@ presentation
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 container
@@ -56792,6 +56796,10 @@ container
 "
 _ns
 false
+IsKnownNewAttr
+:
+:
+Yes
 )
 ;
 nsAutoScriptBlocker
@@ -63094,6 +63102,10 @@ nsGkAtoms
 title
 aTitle
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 return
@@ -65254,6 +65266,10 @@ nsGkAtoms
 dir
 aDirection
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }

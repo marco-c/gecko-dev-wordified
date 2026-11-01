@@ -559,6 +559,10 @@ kNameSpaceID_None
 mAttrAtom
 aValue
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -974,6 +978,10 @@ kNameSpaceID_None
 mAttrAtom
 resultStr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -1190,6 +1198,10 @@ kNameSpaceID_None
 mAttrAtom
 resultStr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 }
@@ -1910,6 +1922,10 @@ kNameSpaceID_None
 mAttrAtom
 resultStr
 true
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 return

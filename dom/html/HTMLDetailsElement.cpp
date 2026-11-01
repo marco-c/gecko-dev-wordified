@@ -752,6 +752,10 @@ summary
 "
 _ns
 kNotify
+IsKnownNewAttr
+:
+:
+No
 )
 ;
 sr
