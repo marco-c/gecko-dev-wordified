@@ -2158,6 +2158,17 @@ key
 =
 value
         
+env
+.
+update
+(
+self
+.
+device
+.
+target_ccov_env
+)
+        
 for
 env_count
 (
