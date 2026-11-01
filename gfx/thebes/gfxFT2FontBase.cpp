@@ -1709,6 +1709,10 @@ GetGlyph
 '
 )
 ;
+mIsValid
+=
+true
+;
 return
 ;
 }
@@ -2476,6 +2480,10 @@ false
 UnlockFTFace
 (
 )
+;
+mIsValid
+=
+true
 ;
 return
 ;
@@ -3829,6 +3837,10 @@ InitExtraMetrics
 emHeight
 lineHeight
 )
+;
+mIsValid
+=
+true
 ;
 }
 void
