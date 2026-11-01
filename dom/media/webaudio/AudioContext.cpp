@@ -1375,6 +1375,7 @@ AudioDestinationNode
 (
 this
 aIsOffline
+allowedToStart
 aNumberOfChannels
 aLength
 )
