@@ -21448,6 +21448,14 @@ BuiltIn
 :
 :
 LocalInvocationIndex
+|
+crate
+:
+:
+BuiltIn
+:
+:
+ViewIndex
 =
 >
 {

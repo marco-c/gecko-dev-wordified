@@ -1187,9 +1187,6 @@ spirv
 :
 :
 Op
-wc
-:
-u32
 type_id
 :
 Option

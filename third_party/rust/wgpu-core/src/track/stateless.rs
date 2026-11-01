@@ -254,10 +254,6 @@ self
 .
 resources
 .
-as_slice
-(
-)
-.
 iter
 (
 )

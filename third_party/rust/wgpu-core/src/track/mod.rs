@@ -1164,7 +1164,7 @@ multiple
 resource
 IDs
 pointing
-the
+to
 the
 same
 resource

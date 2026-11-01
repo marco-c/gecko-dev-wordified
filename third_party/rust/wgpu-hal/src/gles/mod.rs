@@ -5794,7 +5794,8 @@ buffer
 failing
 to
 clear
-atleast
+at
+least
 in
 WebGL
 .

@@ -7536,7 +7536,6 @@ out
 {
 }
 "
-&
 self
 .
 names
@@ -9720,7 +9719,6 @@ out
 {
 }
 "
-&
 this
 .
 names
@@ -11835,7 +11833,6 @@ out
 {
 }
 "
-&
 self
 .
 names
@@ -11954,7 +11951,6 @@ out
 }
 ;
 "
-&
 self
 .
 names
@@ -14531,12 +14527,15 @@ self
 out
 "
 {
+ty
 }
 {
+return_struct
 }
 =
 "
-&
+ty
+=
 self
 .
 names
@@ -14552,7 +14551,6 @@ result
 ty
 )
 ]
-return_struct
 )
 ?
 ;
@@ -14754,7 +14752,6 @@ out
 }
 ;
 "
-&
 self
 .
 names
@@ -15702,7 +15699,6 @@ out
 }
 (
 "
-&
 self
 .
 names
@@ -19425,7 +19421,6 @@ out
 {
 }
 "
-&
 self
 .
 names
@@ -19583,7 +19578,6 @@ out
 {
 }
 "
-&
 self
 .
 names

@@ -12146,7 +12146,6 @@ out
 {
 }
 "
-&
 self
 .
 names
@@ -15315,7 +15314,6 @@ out
 }
 :
 "
-&
 self
 .
 names

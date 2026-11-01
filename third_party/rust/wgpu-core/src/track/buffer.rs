@@ -4221,7 +4221,6 @@ a
 state
 from
 an
-an
 array
 of
 states
@@ -4526,10 +4525,6 @@ if
 let
 Some
 (
-&
-mut
-ref
-mut
 start_state
 )
 =

@@ -1225,7 +1225,7 @@ is
 sent
 to
 /
-recieved
+received
 from
 the
 backend

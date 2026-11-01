@@ -5960,7 +5960,7 @@ buffer
 .
 map_state
 .
-lock
+read
 (
 )
 BufferMapState
@@ -14139,7 +14139,7 @@ buffer
 .
 map_state
 .
-lock
+read
 (
 )
 {

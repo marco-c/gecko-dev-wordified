@@ -111,7 +111,7 @@ each
 associated
 with
 a
-singe
+single
 value
 .
 /
