@@ -7355,9 +7355,6 @@ aLists
 {
 nsDisplayList
 content
-(
-aBuilder
-)
 ;
 nsDisplayListSet
 set

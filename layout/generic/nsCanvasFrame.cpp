@@ -1878,9 +1878,6 @@ items
 .
 nsDisplayList
 list
-(
-aBuilder
-)
 ;
 /
 /
@@ -2292,9 +2289,6 @@ asr
 ;
 nsDisplayList
 thisItemList
-(
-aBuilder
-)
 ;
 nsDisplayBackgroundImage
 :

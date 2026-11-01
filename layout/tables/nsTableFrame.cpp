@@ -51974,14 +51974,6 @@ mBuilder
 (
 aBuilder
 )
-mColGroupBackgrounds
-(
-aBuilder
-)
-mColBackgrounds
-(
-aBuilder
-)
 {
 mPrevTableBackgroundSet
 =

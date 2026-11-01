@@ -25125,9 +25125,6 @@ continue
 }
 nsDisplayList
 list
-(
-aBuilder
-)
 ;
 partList
 .
@@ -25912,9 +25909,6 @@ GetFrameForStyle
 ;
 nsDisplayList
 rootResultList
-(
-aBuilder
-)
 ;
 bool
 serializedList

@@ -2085,11 +2085,6 @@ nsDisplayListBuilderMode
 Painting
 false
 )
-mList
-(
-&
-mBuilder
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -35337,13 +35332,6 @@ GetContent
 ;
 nsDisplayList
 wrapped
-(
-&
-info
--
->
-mBuilder
-)
 ;
 wrapped
 .
@@ -37937,9 +37925,6 @@ aItem
 {
 nsDisplayList
 list
-(
-aBuilder
-)
 ;
 list
 .

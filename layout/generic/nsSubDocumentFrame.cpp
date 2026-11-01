@@ -2068,9 +2068,6 @@ TYPE_BACKGROUND_COLOR
 {
 nsDisplayList
 tmpList
-(
-aBuilder
-)
 ;
 tmpList
 .
@@ -2933,9 +2930,6 @@ IsScrollingActive
 ;
 nsDisplayList
 childItems
-(
-aBuilder
-)
 ;
 if
 (
