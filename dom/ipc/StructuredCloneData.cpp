@@ -413,7 +413,7 @@ aReader
 MOZ_ASSERT
 (
 !
-mBuffer
+mData
 "
 StructuredCloneData
 was
@@ -620,7 +620,7 @@ aVersion
 MOZ_ASSERT
 (
 !
-mBuffer
+mData
 "
 StructuredCloneData
 was
