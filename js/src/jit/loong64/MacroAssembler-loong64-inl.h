@@ -11697,7 +11697,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_UNDEFINED
 )
@@ -11739,7 +11739,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -11885,7 +11885,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_INT32
 )
@@ -11927,7 +11927,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -12145,7 +12145,7 @@ Above
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_MAX_DOUBLE
 )
@@ -12187,7 +12187,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -12393,7 +12393,7 @@ Above
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JS
 :
@@ -12441,7 +12441,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -12487,7 +12487,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_BOOLEAN
 )
@@ -12529,7 +12529,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -12727,7 +12727,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_STRING
 )
@@ -12769,7 +12769,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -12985,7 +12985,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_SYMBOL
 )
@@ -13027,7 +13027,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -13173,7 +13173,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_BIGINT
 )
@@ -13215,7 +13215,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -13318,7 +13318,7 @@ address
 scratch
 )
 ;
-splitTag
+splitSignExtTag
 (
 scratch
 scratch
@@ -13434,7 +13434,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_NULL
 )
@@ -13476,7 +13476,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -13602,7 +13602,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -13748,7 +13748,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_OBJECT
 )
@@ -13790,7 +13790,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -13937,7 +13937,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -14090,7 +14090,7 @@ scratch
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JS
 :
@@ -14146,7 +14146,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_OBJECT
 )
@@ -14196,7 +14196,7 @@ NotEqual
 ma_b
 (
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_MAGIC
 )
@@ -14338,7 +14338,7 @@ Acquire
 (
 )
 ;
-splitTag
+splitSignExtTag
 (
 value
 scratch
@@ -14347,7 +14347,7 @@ scratch
 ma_b
 (
 scratch
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_MAGIC
 )
@@ -14609,7 +14609,7 @@ ma_cmp_set
 (
 dest
 tag
-ImmTag
+ImmTagSignExt
 (
 JS
 :
@@ -14694,7 +14694,7 @@ ma_cmp_set
 (
 dest
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_BOOLEAN
 )
@@ -14766,7 +14766,7 @@ ma_cmp_set
 (
 dest
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_STRING
 )
@@ -14838,7 +14838,7 @@ ma_cmp_set
 (
 dest
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_SYMBOL
 )
@@ -14910,7 +14910,7 @@ ma_cmp_set
 (
 dest
 tag
-ImmTag
+ImmTagSignExt
 (
 JSVAL_TAG_BIGINT
 )
