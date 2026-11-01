@@ -2567,9 +2567,6 @@ Option
 <
 SnapshotInfo
 >
-can_use_shared_surface
-:
-bool
 frame_context
 :
 &
@@ -2888,7 +2885,7 @@ None
 None
 clear_color
 cmd_buffer_index
-can_use_shared_surface
+true
 Some
 (
 original_size
@@ -3409,7 +3406,7 @@ None
 None
 clear_color
 cmd_buffer_index
-can_use_shared_surface
+true
 content_size
 )
 )
@@ -3875,7 +3872,7 @@ None
 None
 None
 cmd_buffer_index
-can_use_shared_surface
+true
 None
 )
 )
@@ -3991,7 +3988,7 @@ None
 None
 None
 cmd_buffer_index
-can_use_shared_surface
+true
 None
 )
 )
@@ -4107,7 +4104,7 @@ None
 None
 None
 cmd_buffer_index
-can_use_shared_surface
+true
 None
 )
 )
@@ -4231,7 +4228,7 @@ None
 None
 None
 cmd_buffer_index
-can_use_shared_surface
+true
 None
 )
 )
@@ -4343,7 +4340,7 @@ None
 None
 None
 cmd_buffer_index
-can_use_shared_surface
+true
 None
 )
 )
@@ -4550,7 +4547,7 @@ None
 None
 None
 cmd_buffer_index
-can_use_shared_surface
+true
 None
 )
 )

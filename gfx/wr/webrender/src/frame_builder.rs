@@ -3657,7 +3657,6 @@ surface_builder
 push_surface
 (
 snapshot_surface
-false
 DeviceRect
 :
 :
