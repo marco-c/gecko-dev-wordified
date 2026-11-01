@@ -905,7 +905,7 @@ deallocated
 mTextureData
 in
 ActorDestroy
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mTextureData
@@ -3510,7 +3510,7 @@ TextureFlags
 NON_BLOCKING_READ_LOCK
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 (
@@ -3539,7 +3539,7 @@ TextureFlags
 BLOCKING_READ_LOCK
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 (
@@ -3596,7 +3596,7 @@ if
 mReadLock
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mReadLock
 -
@@ -3703,7 +3703,7 @@ return
 false
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mReadLock
 -
@@ -3742,7 +3742,7 @@ GetReadCount
 ;
 }
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mAllocator
 -
@@ -4049,7 +4049,7 @@ true
 ;
 }
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mAllocator
 -
@@ -4155,7 +4155,7 @@ mIsReadLocked
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mReadLock
 )
@@ -4599,7 +4599,7 @@ EnableReadLock
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ShouldReadLock
 (
@@ -4960,7 +4960,7 @@ the
 paint
 thread
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mPaintThreadRefs
 =
@@ -4991,19 +4991,19 @@ SourceSurface
 aSurface
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsValid
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mIsLocked
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aSurface
 )
@@ -5033,7 +5033,7 @@ read
 -
 write
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mBorrowedDrawTarget
@@ -5241,7 +5241,7 @@ aAllocFlags
 )
 const
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsValid
 (
@@ -5439,7 +5439,7 @@ EndDraw
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mOpenMode
 &
@@ -5566,7 +5566,7 @@ BorrowSnapshot
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mIsLocked
 )
@@ -5919,7 +5919,7 @@ MappedTextureData
 aMap
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsValid
 (
@@ -5996,7 +5996,7 @@ MappedYCbCrTextureData
 aMap
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsValid
 (
@@ -6370,7 +6370,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 IsSharedWithCompositor
@@ -6414,7 +6414,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 IsSharedWithCompositor
@@ -6459,7 +6459,7 @@ TextureFlags
 aFlags
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 GetFlags
 (
@@ -6471,7 +6471,7 @@ TextureFlags
 RECYCLE
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mIsLocked
@@ -6531,7 +6531,7 @@ RECYCLE
 return
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mIsLocked
@@ -6713,7 +6713,7 @@ void
 aClosure
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aClient
 -
@@ -6796,7 +6796,7 @@ GetTextureForwarder
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aForwarder
 &
@@ -7061,7 +7061,7 @@ return
 true
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mActor
@@ -7385,7 +7385,7 @@ GetTextureForwarder
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aKnowsCompositor
 &
@@ -7504,7 +7504,7 @@ return
 true
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mActor
@@ -8850,14 +8850,14 @@ IntPoint
 aPoint
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 IsLocked
 (
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aTarget
 -
@@ -10181,7 +10181,7 @@ added
 in
 constructor
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mReadCount
 =
@@ -10303,7 +10303,7 @@ readCount
 -
 mReadCount
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 readCount
 >
@@ -10351,12 +10351,12 @@ MOZ_COUNT_CTOR
 ShmemTextureReadLock
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mClientAllocator
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mClientAllocator
 -
@@ -10615,7 +10615,7 @@ info
 readCount
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 readCount
 >
@@ -10913,7 +10913,7 @@ EnableBlockingReadLock
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 ShouldReadLock
 (
@@ -10947,12 +10947,12 @@ PlanarYCbCrData
 aData
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aTexture
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aTexture
 -
@@ -10962,7 +10962,7 @@ IsLocked
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aTexture
 -
@@ -10990,7 +10990,7 @@ data
 "
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aTexture
@@ -11001,7 +11001,7 @@ IsImmutable
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aTexture
 -
@@ -11011,7 +11011,7 @@ IsValid
 )
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 aData
 .
@@ -11694,7 +11694,7 @@ return
 true
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 bytesPerPixel
 =
