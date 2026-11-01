@@ -306,7 +306,6 @@ SlowScriptAction
 {
 Continue
 Terminate
-StartDebugger
 }
 ;
 SlowScriptAction
@@ -333,11 +332,6 @@ NotifyPluginHang
 (
 uint32_t
 aPluginId
-)
-;
-bool
-IsDebuggerStartupComplete
-(
 )
 ;
 void

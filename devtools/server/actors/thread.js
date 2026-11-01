@@ -7211,9 +7211,6 @@ if
 !
 [
 "
-break
-"
-"
 step
 "
 "
@@ -7541,11 +7538,6 @@ steppingType
 case
 "
 step
-"
-:
-case
-"
-break
 "
 :
 case
