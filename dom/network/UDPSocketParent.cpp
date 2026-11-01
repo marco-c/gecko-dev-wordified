@@ -2084,8 +2084,6 @@ unallowed
 data
 kill
 content
-or
-socket
 process
 at
 the

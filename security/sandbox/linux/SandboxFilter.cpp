@@ -6839,15 +6839,6 @@ Necko
 might
 use
 MSG_PEEK
-but
-the
-socket
-process
-/
-/
-overrides
-this
-method
 .
 )
 static

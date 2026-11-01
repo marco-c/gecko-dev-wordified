@@ -888,8 +888,6 @@ from
 chrome
 or
 content
-or
-socket
 processes
 /
 /

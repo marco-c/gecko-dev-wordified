@@ -1892,7 +1892,7 @@ send
 group
 to
 the
-network
+parent
 process
 so
 the

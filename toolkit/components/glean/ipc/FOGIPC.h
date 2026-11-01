@@ -431,9 +431,8 @@ Method
 Trigger
 GMP
 GPU
-RDD
 or
-Socket
+RDD
 process
 test
 instrumentation
