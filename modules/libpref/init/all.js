@@ -3128,7 +3128,7 @@ sdp
 alternate_parse_mode
 "
 "
-parallel
+never
 "
 )
 ;
