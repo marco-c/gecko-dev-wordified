@@ -79,6 +79,17 @@ mozilla
 /
 dom
 /
+AudioSessionManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MediaSessionBinding
 .
 h
@@ -197,6 +208,8 @@ Clear
 void
 SuspendForInterrupt
 (
+AudioSessionInterruptKind
+aKind
 )
 override
 {

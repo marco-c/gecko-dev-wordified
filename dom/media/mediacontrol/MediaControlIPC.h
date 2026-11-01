@@ -190,10 +190,7 @@ mozilla
 dom
 :
 :
-AudioFocusInterruptAction
-:
-:
-Resume
+kHighestAudioFocusInterruptAction
 >
 {
 }
