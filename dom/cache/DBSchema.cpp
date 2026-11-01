@@ -3598,6 +3598,15 @@ TYPE_INTERNAL_TEXT_PRELOAD
 =
 =
 66
+&
+&
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_SPECULATION_RULES
+=
+=
+67
 "
 nsContentPolicyType
 values

@@ -27208,6 +27208,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_EXTERNAL_RESOURCE
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_SPECULATION_RULES
+:
 return
 ExtContentPolicy
 :
