@@ -4379,6 +4379,11 @@ ChunkKind
 kind
 )
 ;
+void
+reset
+(
+)
+;
 inline
 bool
 isEmpty
@@ -4547,8 +4552,6 @@ initializeRegion
 (
 ChunkRegion
 region
-size_t
-initialCapacity
 )
 ;
 [
