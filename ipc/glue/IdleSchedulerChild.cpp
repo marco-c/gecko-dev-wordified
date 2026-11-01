@@ -538,7 +538,11 @@ this
 ]
 (
 bool
+/
+*
 aIgnored
+*
+/
 )
 {
 /

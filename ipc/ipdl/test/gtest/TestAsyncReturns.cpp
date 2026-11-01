@@ -225,7 +225,11 @@ true
 ResponseRejectReason
 &
 &
+/
+*
 aReason
+*
+/
 )
 {
 FAIL
@@ -253,7 +257,11 @@ RecvNoReturn
 NoReturnResolver
 &
 &
+/
+*
 resolve
+*
+/
 )
 final
 override
@@ -353,7 +361,11 @@ SendNoReturn
 ]
 (
 bool
+/
+*
 unused
+*
+/
 )
 {
 FAIL
@@ -454,7 +466,11 @@ Close
 ResponseRejectReason
 &
 &
+/
+*
 aReason
+*
+/
 )
 {
 FAIL
