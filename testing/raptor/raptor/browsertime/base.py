@@ -1938,6 +1938,12 @@ benchmark
 stop_http_server
 (
 )
+            
+self
+.
+benchmark
+=
+None
         
 if
 test

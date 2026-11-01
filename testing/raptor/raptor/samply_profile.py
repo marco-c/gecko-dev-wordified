@@ -427,10 +427,15 @@ None
 def
 __init__
 (
+        
 self
 upload_dir
 raptor_config
 test_config
+source_path_mappings
+=
+None
+    
 )
 :
         
@@ -443,6 +448,7 @@ __init__
 upload_dir
 raptor_config
 test_config
+source_path_mappings
 )
         
 if
