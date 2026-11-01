@@ -623,7 +623,7 @@ specified
 animation
 :
 :
-ViewTransitionClass
+ViewTransitionClassList
 as
 TransitionTypes
 ;
