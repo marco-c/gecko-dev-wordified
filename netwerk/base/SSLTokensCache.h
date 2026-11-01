@@ -1385,8 +1385,6 @@ from
 its
 raw
 persisted
-/
-IPC
 fields
 .
 static
@@ -2033,8 +2031,6 @@ the
 on
 -
 storage
-/
-IPC
 format
 ;
 in
