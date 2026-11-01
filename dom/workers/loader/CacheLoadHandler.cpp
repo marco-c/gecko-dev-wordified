@@ -4204,7 +4204,9 @@ XHRParamsAllowed
 /
 /
 Set
-ContentSecurityPolicy
+Policy
+-
+Container
 nsresult
 rv
 =
@@ -4216,12 +4218,12 @@ Private
 )
 -
 >
-SetCsp
+SetPolicyContainerOnMainThread
 (
 parent
 -
 >
-GetCsp
+GetPolicyContainer
 (
 )
 )
