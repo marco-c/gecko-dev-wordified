@@ -8386,6 +8386,15 @@ nsACString
 &
 )
 ;
+mozilla
+:
+:
+gfx
+:
+:
+PaletteCache
+mPaletteCache
+;
 friend
 class
 CanvasGeneralPattern

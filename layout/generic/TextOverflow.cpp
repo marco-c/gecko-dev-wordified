@@ -1534,8 +1534,8 @@ y
 )
 ;
 auto
-*
-paletteValueSet
+&
+paletteCache
 =
 mFrame
 -
@@ -1545,7 +1545,7 @@ PresContext
 )
 -
 >
-GetFontPaletteValueSet
+FontPaletteCache
 (
 )
 ;
@@ -1568,7 +1568,7 @@ gfxTextRun
 DrawParams
 (
 aCtx
-paletteValueSet
+paletteCache
 )
 aImgParams
 )
