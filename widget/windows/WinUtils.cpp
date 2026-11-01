@@ -6356,11 +6356,8 @@ aFaviconPageURI
 nsString
 &
 aICOFilePath
-RefPtr
-<
-LazyIdleThread
->
-&
+nsISerialEventTarget
+*
 aIOThread
 bool
 aURLShortcut
@@ -6904,11 +6901,8 @@ nsCOMPtr
 nsIURI
 >
 aFaviconPageURI
-RefPtr
-<
-LazyIdleThread
->
-&
+nsISerialEventTarget
+*
 aIOThread
 FaviconHelper
 :
