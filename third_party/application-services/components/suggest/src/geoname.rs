@@ -798,6 +798,7 @@ the
 geoname
 itself
 .
+pub
 geoname
 :
 AlternateNames
@@ -836,6 +837,7 @@ typically
 be
 true
 .
+pub
 country
 :
 Option
@@ -891,6 +893,7 @@ from
 this
 map
 .
+pub
 admin_divisions
 :
 HashMap
@@ -949,6 +952,7 @@ Geoname
 :
 name
 .
+pub
 primary
 :
 String
@@ -1000,6 +1004,7 @@ its
 primary
 name
 .
+pub
 localized
 :
 Option
@@ -1017,6 +1022,7 @@ abbreviation
 if
 any
 .
+pub
 abbreviation
 :
 Option

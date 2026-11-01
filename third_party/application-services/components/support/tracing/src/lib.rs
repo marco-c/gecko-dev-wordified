@@ -88,6 +88,7 @@ unregister_event_sink
 EventSinkId
 EventSinkSpecification
 EventTarget
+SimpleEventFilter
 }
 ;
 /
@@ -935,6 +936,7 @@ Event
 )
 ;
 }
+pub
 use
 serde_json
 :

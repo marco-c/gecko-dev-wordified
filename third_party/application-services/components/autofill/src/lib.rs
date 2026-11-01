@@ -119,6 +119,7 @@ uniffi
 generated
 code
 .
+pub
 use
 crate
 :
@@ -131,6 +132,7 @@ credit_cards
 :
 CreditCardsDeletionMetrics
 ;
+pub
 use
 crate
 :
@@ -146,6 +148,7 @@ address
 :
 *
 ;
+pub
 use
 crate
 :
@@ -161,6 +164,7 @@ credit_card
 :
 *
 ;
+pub
 use
 crate
 :
@@ -176,6 +180,7 @@ passport
 :
 *
 ;
+pub
 use
 crate
 :
