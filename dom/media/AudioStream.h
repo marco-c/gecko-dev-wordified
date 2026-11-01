@@ -2832,6 +2832,16 @@ bool
 aKeepRunning
 )
 ;
+bool
+IsCubebStarted
+(
+)
+const
+{
+return
+mCubebStarted
+;
+}
 /
 /
 Rebase
