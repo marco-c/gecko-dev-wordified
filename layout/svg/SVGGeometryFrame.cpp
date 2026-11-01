@@ -5280,6 +5280,8 @@ DisplaySVGGeometry
 aItem
 bool
 aDryRun
+bool
+aAxisAligned
 )
 {
 MOZ_ASSERT
@@ -5396,6 +5398,9 @@ const
 bool
 axisAligned
 =
+aAxisAligned
+&
+&
 !
 aSc
 .
