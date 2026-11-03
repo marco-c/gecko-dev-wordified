@@ -420,6 +420,13 @@ className
 PropTypes
 .
 string
+isDebugEnabled
+:
+PropTypes
+.
+bool
+.
+isRequired
 registration
 :
 PropTypes
@@ -606,6 +613,7 @@ render
 const
 {
 registration
+isDebugEnabled
 className
 }
 =
@@ -896,6 +904,7 @@ Worker
 (
 {
 worker
+isDebugEnabled
 }
 )
 )
