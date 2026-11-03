@@ -3805,12 +3805,12 @@ same
 {
 /
 /
-Layer
-compositor
-expects
-front
-to
+WebRender
+adds
+surfaces
 back
+to
+front
 .
 mRootVisual
 -
@@ -3823,7 +3823,7 @@ surface
 GetRootVisual
 (
 )
-true
+false
 nullptr
 )
 ;
