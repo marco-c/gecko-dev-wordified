@@ -2468,7 +2468,7 @@ Window
 enabled
 source
 pref
-ToS
+ToU
 consent
 active
 window
@@ -2560,7 +2560,7 @@ stub
 (
 AuthProvider
 "
-hasToSConsent
+hasToUConsent
 "
 )
 .

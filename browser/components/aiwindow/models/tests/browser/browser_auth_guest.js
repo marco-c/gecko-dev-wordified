@@ -222,7 +222,7 @@ hasCompleted
 "
 ;
 const
-PREF_TOS_CONSENT_TIME
+PREF_TOU_CONSENT_TIME
 =
 "
 browser
@@ -800,7 +800,7 @@ set
 :
 [
 [
-PREF_TOS_CONSENT_TIME
+PREF_TOU_CONSENT_TIME
 1735689600
 ]
 ]
@@ -2753,7 +2753,7 @@ set
 :
 [
 [
-PREF_TOS_CONSENT_TIME
+PREF_TOU_CONSENT_TIME
 0
 ]
 ]
@@ -2923,7 +2923,7 @@ prefs
 .
 getIntPref
 (
-PREF_TOS_CONSENT_TIME
+PREF_TOU_CONSENT_TIME
 )
 0
 "
@@ -2975,7 +2975,7 @@ set
 :
 [
 [
-PREF_TOS_CONSENT_TIME
+PREF_TOU_CONSENT_TIME
 0
 ]
 [
@@ -3093,7 +3093,7 @@ prefs
 .
 getIntPref
 (
-PREF_TOS_CONSENT_TIME
+PREF_TOU_CONSENT_TIME
 )
 0
 "

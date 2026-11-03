@@ -402,7 +402,7 @@ stub
 (
 AuthProvider
 "
-hasToSConsent
+hasToUConsent
 "
 )
 .

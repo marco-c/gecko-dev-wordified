@@ -383,7 +383,7 @@ hasCompleted
 "
 ;
 const
-PREF_TOS_CONSENT_TIME
+PREF_TOU_CONSENT_TIME
 =
 "
 browser
@@ -1634,7 +1634,7 @@ source
 firstrun
 and
 *
-ToS
+ToU
 consent
 prefs
 are
@@ -1951,7 +1951,7 @@ PREF_FIRSTRUN_HAS_COMPLETED
 true
 ]
 [
-PREF_TOS_CONSENT_TIME
+PREF_TOU_CONSENT_TIME
 Math
 .
 floor
