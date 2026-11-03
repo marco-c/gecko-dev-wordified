@@ -1544,6 +1544,14 @@ mTargetCanScrollHorizontally
 =
 false
 ;
+SideBits
+mSwipableDirectionsForTouch
+=
+SideBits
+:
+:
+eNone
+;
 }
 ;
 /
