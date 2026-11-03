@@ -51408,10 +51408,6 @@ aContent
 nsIURI
 *
 aLinkURI
-const
-nsString
-&
-aTargetSpec
 )
 {
 MOZ_ASSERT
@@ -51491,7 +51487,6 @@ OnOverLink
 (
 aContent
 aLinkURI
-aTargetSpec
 )
 ;
 if

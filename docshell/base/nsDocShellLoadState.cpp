@@ -3375,14 +3375,6 @@ WebNavigationFlagsToFixupFlags
 nsIURI
 *
 aURI
-const
-nsACString
-&
-/
-*
-aURIString
-*
-/
 uint32_t
 aNavigationFlags
 )
@@ -3730,7 +3722,6 @@ fixupFlags
 WebNavigationFlagsToFixupFlags
 (
 uri
-uriString
 loadFlags
 )
 ;
@@ -4050,7 +4041,6 @@ rv
 =
 CreateFromLoadURIOptions
 (
-aBrowsingContext
 uri
 aLoadURIOptions
 loadFlags
@@ -4098,9 +4088,6 @@ nsDocShellLoadState
 :
 CreateFromLoadURIOptions
 (
-BrowsingContext
-*
-aBrowsingContext
 nsIURI
 *
 aURI
@@ -4117,7 +4104,6 @@ aResult
 return
 CreateFromLoadURIOptions
 (
-aBrowsingContext
 aURI
 aLoadURIOptions
 aLoadURIOptions
@@ -4136,13 +4122,6 @@ nsDocShellLoadState
 :
 CreateFromLoadURIOptions
 (
-BrowsingContext
-*
-/
-*
-aBrowsingContext
-*
-/
 nsIURI
 *
 aURI
