@@ -1191,7 +1191,15 @@ return
 mLazyLoading
 |
 |
+(
+mImageLoadData
+&
+&
+mImageLoadData
+-
+>
 mPendingImageLoadTask
+)
 ;
 }
 bool
