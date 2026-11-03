@@ -1056,6 +1056,13 @@ new
 -
 sum_specified
 )
+.
+max
+(
+0
+.
+0
+)
 /
 m
 as
