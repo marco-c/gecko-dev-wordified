@@ -2596,10 +2596,12 @@ parametrize
 "
 x
 y
+event_count
 "
 [
     
 (
+0
 0
 0
 )
@@ -2607,10 +2609,12 @@ y
 (
 1
 0
+1
 )
     
 (
 0
+1
 1
 )
 ]
@@ -2639,6 +2643,7 @@ load_static_test_page
 top_context
 x
 y
+event_count
 )
 :
     
@@ -2719,7 +2724,7 @@ events
 )
 =
 =
-1
+event_count
     
 #
 Move
@@ -2801,7 +2806,7 @@ events
 )
 =
 =
-1
+event_count
 pytest
 .
 mark
