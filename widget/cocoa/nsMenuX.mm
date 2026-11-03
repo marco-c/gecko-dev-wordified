@@ -894,6 +894,7 @@ nsMenuUtilsX
 GetTruncatedCocoaLabel
 (
 mLabel
+mContent
 )
 ;
 mNativeMenuItem
@@ -5563,6 +5564,7 @@ nsMenuUtilsX
 GetTruncatedCocoaLabel
 (
 mLabel
+mContent
 )
 ;
 mNativeMenu

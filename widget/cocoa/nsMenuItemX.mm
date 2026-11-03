@@ -713,6 +713,7 @@ nsMenuUtilsX
 GetTruncatedCocoaLabel
 (
 aLabel
+mContent
 )
 ;
 mNativeMenuItem
@@ -2683,10 +2684,10 @@ alloc
 ]
 initWithString
 :
-nsMenuUtilsX
+nsCocoaUtils
 :
 :
-GetTruncatedCocoaLabel
+ToNSString
 (
 badgeValue
 )
@@ -2738,6 +2739,7 @@ nsMenuUtilsX
 GetTruncatedCocoaLabel
 (
 newLabel
+mContent
 )
 ;
 SetAttributedTitle
@@ -3398,10 +3400,10 @@ mNativeMenuItem
 .
 toolTip
 =
-nsMenuUtilsX
+nsCocoaUtils
 :
 :
-GetTruncatedCocoaLabel
+ToNSString
 (
 tooltip
 )
