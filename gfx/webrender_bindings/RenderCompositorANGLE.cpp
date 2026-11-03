@@ -5902,6 +5902,12 @@ GetMaxPartialPresentRects
 if
 (
 !
+UseLayerCompositor
+(
+)
+&
+&
+!
 mUseWindowPartialPresent
 )
 {

@@ -302,6 +302,12 @@ aProperties
 )
 override
 ;
+uint32_t
+GetMaxPartialPresentRects
+(
+)
+override
+;
 bool
 SurfaceOriginIsTopLeft
 (
