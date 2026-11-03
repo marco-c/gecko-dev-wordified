@@ -4015,6 +4015,8 @@ len
 let
 static_arc
 =
+unsafe
+{
 Self
 :
 :
@@ -4058,6 +4060,7 @@ is_static
 /
 true
 )
+}
 ;
 #
 [
