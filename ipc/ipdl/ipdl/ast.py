@@ -1466,6 +1466,22 @@ self
 attributes
     
 def
+isTainted
+(
+self
+)
+:
+        
+return
+"
+Tainted
+"
+in
+self
+.
+attributes
+    
+def
 isSendMoveOnly
 (
 self
