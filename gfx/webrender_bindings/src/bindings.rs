@@ -9934,6 +9934,9 @@ SwapchainMode
 :
 :
 OsLayers
+{
+max_partial_present_rects
+}
 }
 else
 {
