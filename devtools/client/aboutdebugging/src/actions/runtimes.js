@@ -1059,11 +1059,6 @@ const
 runtimeDetails
 =
 {
-canDebugServiceWorkers
-:
-deviceDescription
-.
-canDebugServiceWorkers
 clientWrapper
 compatibilityReport
 connectionPromptEnabled
