@@ -4367,6 +4367,8 @@ vixl
 :
 LoadLiteralOp
 op
+PoolEntryKind
+kind
 const
 LiteralDoc
 &
@@ -4380,6 +4382,8 @@ ARMRegister
 dest
 uint64_t
 value
+PoolEntryKind
+kind
 )
 ;
 BufferOffset

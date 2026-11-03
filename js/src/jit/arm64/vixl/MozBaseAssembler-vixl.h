@@ -1019,6 +1019,14 @@ inst
 uint8_t
 *
 data
+js
+:
+:
+jit
+:
+:
+PoolEntryKind
+kind
 const
 LiteralDoc
 &
@@ -1062,6 +1070,7 @@ numInst
 numPoolEntries
 inst
 data
+kind
 )
 ;
 propagateOOM
