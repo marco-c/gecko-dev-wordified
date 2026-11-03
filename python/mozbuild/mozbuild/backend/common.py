@@ -5249,7 +5249,6 @@ obj
 .
 _context
 )
-ab_cd
         
 )
         
@@ -5265,6 +5264,17 @@ jarinfo
 in
 sections
 :
+            
+section_name
+=
+jarinfo
+.
+name
+.
+resolve
+(
+ab_cd
+)
             
 jar_context
 =
@@ -5409,6 +5419,28 @@ jarinfo
 entries
 :
                 
+entry_source
+=
+e
+.
+source
+.
+resolve
+(
+ab_cd
+)
+                
+entry_output
+=
+e
+.
+output
+.
+resolve
+(
+ab_cd
+)
+                
 if
 e
 .
@@ -5453,9 +5485,7 @@ en
 -
 US
 "
-e
-.
-source
+entry_source
 )
                 
 else
@@ -5463,9 +5493,7 @@ else
                     
 src
 =
-e
-.
-source
+entry_source
                 
 src
 =
@@ -5481,9 +5509,7 @@ if
 "
 not
 in
-e
-.
-source
+entry_source
 and
 not
 os
@@ -5508,40 +5534,37 @@ raise
 Exception
 (
                             
+f
 "
-%
-s
-:
-Cannot
-find
-%
-s
-(
-tried
-%
-s
-)
-"
-                            
-%
-(
+{
 obj
 .
 path
-e
-.
-source
+}
+:
+Cannot
+find
+{
+entry_source
+}
+"
+                            
+f
+"
+(
+tried
+{
 src
 .
 full_path
+}
 )
+"
                         
 )
                     
 if
-e
-.
-source
+entry_source
 .
 startswith
 (
@@ -5560,9 +5583,7 @@ jar_context
 !
 "
 +
-e
-.
-source
+entry_source
 )
                     
 else
@@ -5632,9 +5653,7 @@ _context
 !
 "
 +
-e
-.
-source
+entry_source
 )
                 
 output_basename
@@ -5643,9 +5662,7 @@ mozpath
 .
 basename
 (
-e
-.
-output
+entry_output
 )
                 
 if
@@ -5678,12 +5695,8 @@ mozpath
 .
 join
 (
-jarinfo
-.
-name
-e
-.
-output
+section_name
+entry_output
 )
 )
                 
@@ -5698,9 +5711,7 @@ if
 *
 "
 in
-e
-.
-source
+entry_source
 :
                         
 raise
@@ -5865,12 +5876,15 @@ mozpath
 .
 dirname
 (
-jarinfo
-.
-name
+section_name
 )
                     
 m
+.
+resolve
+(
+ab_cd
+)
 .
 replace
 (
@@ -5881,9 +5895,7 @@ mozpath
 .
 basename
 (
-jarinfo
-.
-name
+section_name
 )
 +
 "
@@ -5900,20 +5912,16 @@ consume_object
                     
 ChromeManifestEntry
 (
-                        
 jar_context
+f
 "
-%
-s
+{
+section_name
+}
 .
 manifest
 "
-%
-jarinfo
-.
-name
 entry
-                    
 )
                 
 )
