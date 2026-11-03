@@ -87,12 +87,6 @@ mozpack
 manifests
 import
 InstallManifest
-from
-mozbuild
-.
-util
-import
-DefinesAction
 COMPLETE
 =
 (
@@ -154,10 +148,6 @@ track
 no_symlinks
 =
 False
-defines
-=
-{
-}
 )
 :
     
@@ -360,15 +350,10 @@ manifest
 .
 populate_registry
 (
-        
 copier
-defines_override
-=
-defines
 link_policy
 =
 link_policy
-    
 )
     
 with
@@ -586,54 +571,6 @@ path
     
 )
     
-parser
-.
-add_argument
-(
-        
-"
--
-D
-"
-        
-action
-=
-DefinesAction
-        
-dest
-=
-"
-defines
-"
-        
-metavar
-=
-"
-VAR
-[
-=
-VAL
-]
-"
-        
-help
-=
-"
-Define
-a
-variable
-to
-override
-what
-is
-specified
-in
-the
-manifest
-"
-    
-)
-    
 args
 =
 parser
@@ -675,12 +612,6 @@ no_symlinks
 args
 .
 no_symlinks
-        
-defines
-=
-args
-.
-defines
     
 )
     
