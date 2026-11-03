@@ -1015,6 +1015,16 @@ QueryHttpTransaction
 )
 override
 ;
+bool
+IsHappyEyeballsTransaction
+(
+)
+override
+{
+return
+true
+;
+}
 /
 /
 Forward
