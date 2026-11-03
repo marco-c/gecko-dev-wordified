@@ -1934,6 +1934,11 @@ SessionStore
 forgetSavedTabGroup
 (
 tabGroupId
+"
+user
+-
+deleted
+"
 )
 ;
 }
