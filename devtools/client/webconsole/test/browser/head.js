@@ -12232,10 +12232,12 @@ addTestTrackers
 ;
 registerCleanupFunction
 (
+async
 function
 (
 )
 {
+await
 UrlClassifierTestUtils
 .
 cleanupTestTrackers

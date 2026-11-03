@@ -63,6 +63,11 @@ head
 js
 *
 /
+add_setup
+(
+setupBuiltInTestTrackers
+)
+;
 function
 setClipboard
 (
