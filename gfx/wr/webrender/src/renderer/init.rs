@@ -2935,7 +2935,9 @@ a
 query
 method
 on
-LayerCompositor
+the
+Compositor
+trait
 .
 match
 options

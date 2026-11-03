@@ -922,7 +922,11 @@ rust
 impl
 of
 the
-LayerCompositor
+swapchain
+part
+of
+the
+Compositor
 trait
 extern
 "
