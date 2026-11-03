@@ -76,15 +76,20 @@ mozbuild
 .
 frontend
 .
+jar_manifest
+import
+JarEntry
+JarSection
+from
+mozbuild
+.
+frontend
+.
 l10n_manifest
 import
 (
     
 MANIFEST_VERSION
-    
-JarEntry
-    
-JarSection
     
 L10nManifest
     
@@ -306,7 +311,7 @@ locales
                             
 chrome_manifests
 =
-[
+(
 "
 locale
 browser
@@ -316,16 +321,11 @@ en
 US
 %
 "
-]
-                            
-pp_includes
-=
-[
-]
+)
                             
 entries
 =
-[
+(
                                 
 JarEntry
 (
@@ -360,7 +360,7 @@ False
                                 
 )
                             
-]
+)
                         
 )
                     
@@ -1459,17 +1459,12 @@ relativesrcdir
             
 chrome_manifests
 =
-[
-]
-            
-pp_includes
-=
-[
-]
+(
+)
             
 entries
 =
-[
+(
                 
 JarEntry
 (
@@ -1506,7 +1501,7 @@ False
                 
 )
             
-]
+)
         
 )
     

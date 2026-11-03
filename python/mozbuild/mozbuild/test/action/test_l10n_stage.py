@@ -79,6 +79,15 @@ mozbuild
 .
 frontend
 .
+jar_manifest
+import
+JarEntry
+JarSection
+from
+mozbuild
+.
+frontend
+.
 l10n_manifest
 import
 (
@@ -86,10 +95,6 @@ import
 MANIFEST_VERSION
     
 MOZ_L10N_AB_CD_PLACEHOLDER
-    
-JarEntry
-    
-JarSection
     
 L10nManifest
     
@@ -212,17 +217,12 @@ locales
                         
 chrome_manifests
 =
-[
-]
-                        
-pp_includes
-=
-[
-]
+(
+)
                         
 entries
 =
-[
+(
                             
 JarEntry
 (
@@ -269,7 +269,7 @@ False
                             
 )
                         
-]
+)
                     
 )
                 
@@ -315,7 +315,8 @@ relativesrcdir
             
 chrome_manifests
 =
-[
+tuple
+(
                 
 f
 "
@@ -348,16 +349,12 @@ package
 in
 chrome_packages
             
-]
-            
-pp_includes
-=
-[
-]
+)
             
 entries
 =
-[
+tuple
+(
                 
 JarEntry
 (
@@ -400,7 +397,7 @@ source
 in
 sources
             
-]
+)
         
 )
     
@@ -644,17 +641,12 @@ relativesrcdir
                         
 chrome_manifests
 =
-[
-]
-                        
-pp_includes
-=
-[
-]
+(
+)
                         
 entries
 =
-[
+(
                             
 JarEntry
 (
@@ -705,7 +697,7 @@ False
                             
 )
                         
-]
+)
                     
 )
                 
