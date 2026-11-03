@@ -1508,6 +1508,7 @@ composite
 MappableCompositor
 MappedTileInfo
 SWGLCompositeSurfaceInfo
+SwapchainMode
 WindowVisibility
 WindowProperties
 }
