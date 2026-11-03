@@ -2722,6 +2722,10 @@ CanTriggerSwipe
 (
 *
 this
+SwipeInputSource
+:
+:
+Touchpad
 )
 ;
 }
