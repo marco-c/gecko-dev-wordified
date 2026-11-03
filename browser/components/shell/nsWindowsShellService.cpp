@@ -9805,6 +9805,17 @@ shell_windows_taskbar_pin_app_to_taskbar
 aumid
 &
 shortcut_path
+/
+*
+fire_and_forget
+*
+/
+false
+/
+*
+prompt_only
+*
+/
 false
 promise
 )
@@ -10851,6 +10862,11 @@ bool
 aFireAndForget
 =
 false
+const
+bool
+aPromptOnly
+=
+false
 )
 {
 if
@@ -11314,6 +11330,7 @@ PinCurrentAppToTaskbarImpl
 [
 aPrivateBrowsing
 aFireAndForget
+aPromptOnly
 shortcutName
 aumid
 =
@@ -11383,6 +11400,7 @@ callback
 "
 [
 aFireAndForget
+aPromptOnly
 aumid
 rv
 =
@@ -11442,6 +11460,7 @@ inspect
 (
 )
 aFireAndForget
+aPromptOnly
 promise
 )
 ;
@@ -11491,6 +11510,8 @@ bool
 aPrivateBrowsing
 bool
 aFireAndForget
+bool
+aPromptOnly
 JSContext
 *
 aCx
@@ -11510,6 +11531,7 @@ aPrivateBrowsing
 aCx
 aPromise
 aFireAndForget
+aPromptOnly
 )
 ;
 }

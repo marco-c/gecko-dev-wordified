@@ -158,6 +158,8 @@ nsAString
 shortcut_path
 bool
 fire_and_forget
+bool
+prompt_only
 const
 mozilla
 :

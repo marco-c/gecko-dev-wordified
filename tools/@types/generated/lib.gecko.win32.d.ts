@@ -852,6 +852,10 @@ aFireAndForget
 ?
 :
 boolean
+aPromptOnly
+?
+:
+boolean
 )
 :
 Promise
