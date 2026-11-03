@@ -3502,6 +3502,11 @@ false
 nullptr
 0
 aOperationID
+.
+ptrOr
+(
+nullptr
+)
 )
 ;
 os

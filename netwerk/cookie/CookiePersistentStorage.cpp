@@ -16037,9 +16037,7 @@ IsEmpty
 (
 )
 nullptr
-Nothing
-(
-)
+nullptr
 )
 ;
 }
@@ -16092,9 +16090,7 @@ http
 *
 /
 true
-Nothing
-(
-)
+nullptr
 )
 ;
 }
