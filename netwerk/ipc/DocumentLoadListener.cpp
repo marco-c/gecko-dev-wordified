@@ -26288,6 +26288,10 @@ const
 nsACString
 &
 aCSPHeader
+const
+nsACString
+&
+aConnectionAllowlistHeader
 )
 {
 LOG
@@ -26325,6 +26329,7 @@ GetChannelCreationURI
 mChannel
 aReferrerPolicy
 aCSPHeader
+aConnectionAllowlistHeader
 GetLoadingBrowsingContext
 (
 )

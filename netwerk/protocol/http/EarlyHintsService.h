@@ -182,6 +182,10 @@ const
 nsACString
 &
 aCSPHeader
+const
+nsACString
+&
+aConnectionAllowlistHeader
 dom
 :
 :

@@ -246,6 +246,10 @@ const
 nsACString
 &
 aCSPHeader
+const
+nsACString
+&
+aConnectionAllowlistHeader
 dom
 :
 :
@@ -828,6 +832,7 @@ principal
 cookieJarSettings
 aReferrerPolicy
 aCSPHeader
+aConnectionAllowlistHeader
 loadInfo
 -
 >
@@ -877,6 +882,7 @@ principal
 cookieJarSettings
 aReferrerPolicy
 aCSPHeader
+aConnectionAllowlistHeader
 loadInfo
 -
 >
@@ -928,6 +934,7 @@ principal
 cookieJarSettings
 aReferrerPolicy
 aCSPHeader
+aConnectionAllowlistHeader
 loadInfo
 -
 >
