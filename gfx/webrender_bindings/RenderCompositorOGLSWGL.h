@@ -243,7 +243,7 @@ sw
 wr
 .
 bool
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 override

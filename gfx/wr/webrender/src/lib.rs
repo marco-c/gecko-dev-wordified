@@ -1493,7 +1493,7 @@ NativeSurfaceId
 NativeTileId
 NativeSurfaceHandle
 NativeSurfaceInfo
-PartialPresentCompositor
+BufferDamageCompositor
 }
 ;
 pub

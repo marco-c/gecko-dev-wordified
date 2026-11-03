@@ -3895,7 +3895,7 @@ CompositorConfig
 Draw
 {
 max_partial_present_rects
-draw_previous_partial_present_regions
+uses_buffer_age
 .
 .
 }
@@ -3908,7 +3908,7 @@ CompositorKind
 Draw
 {
 max_partial_present_rects
-draw_previous_partial_present_regions
+uses_buffer_age
 }
 }
 CompositorConfig

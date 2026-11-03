@@ -525,7 +525,7 @@ GetNextRenderFrameId
 ;
 if
 (
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 &
@@ -780,7 +780,7 @@ bool
 RenderCompositorOGL
 :
 :
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 {
@@ -802,7 +802,7 @@ bool
 RenderCompositorOGL
 :
 :
-ShouldDrawPreviousPartialPresentRegions
+ShouldUseBufferAge
 (
 )
 {

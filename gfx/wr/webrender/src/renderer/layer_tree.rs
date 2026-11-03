@@ -1942,13 +1942,13 @@ CompositorConfig
 :
 Draw
 {
-partial_present
+buffer_damage
 :
 Some
 (
 ref
 mut
-partial_present
+buffer_damage
 )
 .
 .
@@ -1988,7 +1988,7 @@ is_empty
 (
 )
 {
-partial_present
+buffer_damage
 .
 set_buffer_damage_region
 (
@@ -2002,7 +2002,7 @@ CompositorConfig
 :
 Draw
 {
-partial_present
+buffer_damage
 :
 None
 .

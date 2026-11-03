@@ -1332,7 +1332,7 @@ if
 mCompositor
 -
 >
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 &

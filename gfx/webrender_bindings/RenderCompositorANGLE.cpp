@@ -1245,7 +1245,7 @@ return
 false
 ;
 }
-InitializeUsePartialPresent
+InitializeUseWindowPartialPresent
 (
 )
 ;
@@ -2982,7 +2982,7 @@ ref
 ;
 if
 (
-mUsePartialPresent
+mUseWindowPartialPresent
 &
 &
 mSwapChain1
@@ -3867,7 +3867,7 @@ false
 }
 if
 (
-mUsePartialPresent
+mUseWindowPartialPresent
 )
 {
 mFullRender
@@ -5796,7 +5796,7 @@ void
 RenderCompositorANGLE
 :
 :
-InitializeUsePartialPresent
+InitializeUseWindowPartialPresent
 (
 )
 {
@@ -5832,7 +5832,7 @@ one
 /
 buffer
 .
-mUsePartialPresent
+mUseWindowPartialPresent
 =
 !
 UseLayerCompositor
@@ -5871,12 +5871,12 @@ bool
 RenderCompositorANGLE
 :
 :
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 {
 return
-mUsePartialPresent
+mUseWindowPartialPresent
 ;
 }
 bool
@@ -5902,7 +5902,7 @@ GetMaxPartialPresentRects
 if
 (
 !
-mUsePartialPresent
+mUseWindowPartialPresent
 )
 {
 return

@@ -2311,7 +2311,7 @@ bool
 RenderCompositorEGL
 :
 :
-UsePartialPresent
+UseWindowPartialPresent
 (
 )
 {
@@ -2365,7 +2365,7 @@ bool
 RenderCompositorEGL
 :
 :
-ShouldDrawPreviousPartialPresentRegions
+ShouldUseBufferAge
 (
 )
 {
