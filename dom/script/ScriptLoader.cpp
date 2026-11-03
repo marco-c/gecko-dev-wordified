@@ -9510,9 +9510,6 @@ mClassicScriptHintEncoding
 &
 &
 mDocument
-&
-&
-mDocument
 -
 >
 GetDocumentCharacterSetSource
