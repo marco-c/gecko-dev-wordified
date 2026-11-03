@@ -3864,12 +3864,12 @@ already
 .
 const
 bool
-hadAttrs
+mightHaveAttrs
 =
 aElement
 -
 >
-HasAttrs
+HasCustomElementData
 (
 )
 ;
@@ -3918,6 +3918,8 @@ _class
 aNotify
 )
 {
+if
+(
 nsAtom
 *
 klass
@@ -3927,10 +3929,6 @@ val
 MaybeAsAtom
 (
 )
-;
-if
-(
-klass
 )
 {
 aElement
@@ -3990,7 +3988,7 @@ aNotify
 IsKnownNewAttr
 (
 !
-hadAttrs
+mightHaveAttrs
 )
 )
 ;
@@ -4066,7 +4064,7 @@ aNotify
 IsKnownNewAttr
 (
 !
-hadAttrs
+mightHaveAttrs
 )
 )
 ;
