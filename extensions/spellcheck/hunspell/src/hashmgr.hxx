@@ -928,8 +928,7 @@ std
 :
 vector
 <
-unsigned
-short
+size_t
 >
 aliasflen
 ;
@@ -1042,7 +1041,7 @@ len
 )
 const
 ;
-int
+size_t
 hash
 (
 const
@@ -1141,7 +1140,7 @@ string
 word
 )
 ;
-int
+size_t
 decode_flags
 (
 unsigned
@@ -1220,7 +1219,7 @@ is_aliasf
 )
 const
 ;
-int
+size_t
 get_aliasf
 (
 int
@@ -1267,7 +1266,7 @@ const
 ;
 private
 :
-int
+size_t
 get_clen_and_captype
 (
 const
@@ -1282,7 +1281,7 @@ int
 captype
 )
 ;
-int
+size_t
 get_clen_and_captype
 (
 const
@@ -1329,13 +1328,13 @@ std
 string
 &
 word
-int
+size_t
 wcl
 unsigned
 short
 *
 ap
-int
+size_t
 al
 const
 std
@@ -1390,13 +1389,13 @@ std
 string
 &
 word
-int
+size_t
 wcl
 unsigned
 short
 *
 flags
-int
+size_t
 al
 const
 std
@@ -1479,7 +1478,7 @@ arena
 -
 allocate
 .
-int
+size_t
 decode_flags
 (
 unsigned

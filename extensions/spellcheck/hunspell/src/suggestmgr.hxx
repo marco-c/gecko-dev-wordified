@@ -1249,7 +1249,7 @@ int
 &
 )
 ;
-int
+size_t
 replchars
 (
 std
@@ -1274,7 +1274,7 @@ int
 &
 )
 ;
-int
+size_t
 doubletwochars
 (
 std
@@ -1299,7 +1299,7 @@ int
 &
 )
 ;
-int
+size_t
 forgotchar
 (
 std
@@ -1324,7 +1324,7 @@ int
 &
 )
 ;
-int
+size_t
 swapchar
 (
 std
@@ -1349,7 +1349,7 @@ int
 &
 )
 ;
-int
+size_t
 longswapchar
 (
 std
@@ -1374,7 +1374,7 @@ int
 &
 )
 ;
-int
+size_t
 movechar
 (
 std
@@ -1399,7 +1399,7 @@ int
 &
 )
 ;
-int
+size_t
 extrachar
 (
 std
@@ -1424,7 +1424,7 @@ int
 &
 )
 ;
-int
+size_t
 badcharkey
 (
 std
@@ -1449,7 +1449,7 @@ int
 &
 )
 ;
-int
+size_t
 badchar
 (
 std
@@ -1528,7 +1528,7 @@ int
 &
 )
 ;
-int
+size_t
 doubletwochars_utf
 (
 std
@@ -1556,7 +1556,7 @@ int
 &
 )
 ;
-int
+size_t
 forgotchar_utf
 (
 std
@@ -1584,7 +1584,7 @@ int
 &
 )
 ;
-int
+size_t
 extrachar_utf
 (
 std
@@ -1612,7 +1612,7 @@ int
 &
 )
 ;
-int
+size_t
 badcharkey_utf
 (
 std
@@ -1640,7 +1640,7 @@ int
 &
 )
 ;
-int
+size_t
 badchar_utf
 (
 std
@@ -1668,7 +1668,7 @@ int
 &
 )
 ;
-int
+size_t
 swapchar_utf
 (
 std
@@ -1696,7 +1696,7 @@ int
 &
 )
 ;
-int
+size_t
 longswapchar_utf
 (
 std
@@ -1724,7 +1724,7 @@ int
 &
 )
 ;
-int
+size_t
 movechar_utf
 (
 std
@@ -1752,7 +1752,7 @@ int
 &
 )
 ;
-int
+size_t
 mapchars
 (
 std
@@ -1777,7 +1777,7 @@ int
 &
 )
 ;
-int
+size_t
 map_related
 (
 const
