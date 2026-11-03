@@ -2553,14 +2553,9 @@ static
 void
 MaybeNotifyKeywordSearchLoading
 (
-const
-nsString
-&
-aProviderId
-const
-nsString
-&
-aKeyword
+nsIURIFixupInfo
+*
+aInfo
 )
 ;
 nsDocShell
