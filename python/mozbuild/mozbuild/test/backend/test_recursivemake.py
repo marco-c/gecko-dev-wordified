@@ -8486,6 +8486,25 @@ self
 .
 assertEqual
 (
+lines
+.
+count
+(
+"
+\
+t
+(
+TOUCH
+)
+"
+)
+1
+)
+        
+self
+.
+assertEqual
+(
             
 [
 l

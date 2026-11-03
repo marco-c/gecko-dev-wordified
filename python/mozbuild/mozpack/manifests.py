@@ -66,6 +66,12 @@ path
 as
 mozpath
 from
+mozbuild
+.
+util
+import
+FileAvoidWrite
+from
 .
 files
 import
@@ -163,10 +169,32 @@ path
         
 fileobj
 =
+(
+            
+FileAvoidWrite
+(
+path
+)
+if
+"
+w
+"
+in
+mode
+else
 open
 (
 path
 mode
+encoding
+=
+"
+utf
+-
+8
+"
+)
+        
 )
     
 try
@@ -1469,12 +1497,25 @@ will
 be
 written
 to
+and
+left
+untouched
+        
+when
+the
+serialized
+content
+matches
+what
+is
+already
+there
 .
 If
 fileobj
 is
-specified
         
+specified
 the
 serialized
 content
@@ -1604,7 +1645,8 @@ base
                     
 paths
 =
-[
+sorted
+(
 f
 [
 0
@@ -1618,7 +1660,7 @@ find
 (
 pattern
 )
-]
+)
                     
 for
 file_path
@@ -1639,12 +1681,12 @@ file_path
 parts
 =
 [
+f
 "
-%
-d
-"
-%
+{
 type
+}
+"
 mozpath
 .
 join
@@ -1659,13 +1701,9 @@ fh
 .
 write
 (
+f
 "
-%
-s
-\
-n
-"
-%
+{
 self
 .
 FIELD_SEPARATOR
@@ -1674,6 +1712,10 @@ join
 (
 parts
 )
+}
+\
+n
+"
 )
                 
 else
@@ -1682,15 +1724,15 @@ else
 parts
 =
 [
+f
 "
-%
-d
-"
-%
+{
 entry
 [
 0
 ]
+}
+"
 dest
 ]
                     
@@ -1709,13 +1751,9 @@ fh
 .
 write
 (
+f
 "
-%
-s
-\
-n
-"
-%
+{
 self
 .
 FIELD_SEPARATOR
@@ -1724,6 +1762,10 @@ join
 (
 parts
 )
+}
+\
+n
+"
 )
     
 def
