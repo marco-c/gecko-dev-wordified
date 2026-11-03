@@ -1262,9 +1262,6 @@ TextGenerationKVCacheDtype
 :
 F16
 false
-DevicePlacement
-(
-)
 )
 )
 ;

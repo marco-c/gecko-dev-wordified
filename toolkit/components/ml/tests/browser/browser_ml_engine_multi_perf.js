@@ -89,6 +89,11 @@ dtype
 "
 q8
 "
+device
+:
+"
+wasm
+"
 request
 :
 {
@@ -144,6 +149,11 @@ dtype
 "
 q8
 "
+device
+:
+"
+wasm
+"
 request
 :
 {
@@ -198,6 +208,11 @@ dtype
 :
 "
 q8
+"
+device
+:
+"
+wasm
 "
 request
 :
@@ -270,6 +285,11 @@ dtype
 :
 "
 q8
+"
+device
+:
+"
+wasm
 "
 request
 :
