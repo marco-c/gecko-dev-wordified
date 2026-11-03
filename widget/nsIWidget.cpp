@@ -10726,6 +10726,15 @@ const
 bool
 touchSwipeEnabled
 =
+mPiPType
+=
+=
+PiPType
+:
+:
+NoPiP
+&
+&
 StaticPrefs
 :
 :
