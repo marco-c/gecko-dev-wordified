@@ -1007,7 +1007,13 @@ ManualNACPtr
 :
 RemoveContentFromNACArray
 (
+std
+:
+:
+move
+(
 nativeAnonNode
+)
 )
 ;
 /
