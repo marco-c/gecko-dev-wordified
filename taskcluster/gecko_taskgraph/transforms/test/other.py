@@ -3894,6 +3894,34 @@ canary
         
 }
         
+#
+Stable
+Beta
+and
+backup
+chromedrivers
+are
+extracted
+into
+directories
+prefixed
+        
+#
+with
+their
+major
+version
+which
+raptor
+fills
+in
+from
+the
+Chrome
+being
+tested
+.
+        
 cd_extracted_name
 =
 {
@@ -3905,6 +3933,12 @@ windows
 "
 {
 }
+cft
+-
+chromedriver
+-
+win64
+/
 chromedriver
 .
 exe
@@ -3917,6 +3951,12 @@ mac
 "
 {
 }
+cft
+-
+chromedriver
+-
+mac
+/
 chromedriver
 "
             
@@ -3927,6 +3967,12 @@ default
 "
 {
 }
+cft
+-
+chromedriver
+-
+linux
+/
 chromedriver
 "
         
