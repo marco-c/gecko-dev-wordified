@@ -737,6 +737,20 @@ complete
     
 )
     
+#
+Keep
+detached
+nodes
+alive
+in
+the
+sharedId
+map
+until
+set_files
+runs
+.
+    
 node
 =
 await
@@ -766,6 +780,12 @@ context
 await_promise
 =
 False
+        
+result_ownership
+=
+"
+root
+"
     
 )
     

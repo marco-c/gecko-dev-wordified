@@ -1292,6 +1292,20 @@ complete
     
 )
     
+#
+Keep
+detached
+nodes
+alive
+in
+the
+sharedId
+map
+until
+perform_actions
+runs
+.
+    
 node
 =
 await
@@ -1321,6 +1335,12 @@ context
 await_promise
 =
 False
+        
+result_ownership
+=
+"
+root
+"
     
 )
     

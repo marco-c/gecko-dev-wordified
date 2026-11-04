@@ -702,6 +702,7 @@ script
 comes
 first
     
+assert
 events
 [
 0
