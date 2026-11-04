@@ -3215,7 +3215,7 @@ TimeStamp
 aTimeStamp
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 layers
 :
@@ -3484,7 +3484,7 @@ RemoteTextureInfoList
 aList
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 layers
 :
