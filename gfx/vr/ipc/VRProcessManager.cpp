@@ -186,7 +186,7 @@ Initialize
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 XRE_IsParentProcess
 (
@@ -333,7 +333,7 @@ been
 shut
 down
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mProcess
@@ -684,7 +684,7 @@ VRProcessParent
 aParent
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mProcess
 &
@@ -814,7 +814,7 @@ VRProcessParent
 aParent
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mProcess
 &
@@ -1337,7 +1337,7 @@ if
 mVRChild
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mQueuedPrefs
 .

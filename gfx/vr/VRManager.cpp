@@ -4604,7 +4604,7 @@ ProcessManagerState_DetectRuntimes
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
@@ -4813,7 +4813,7 @@ ProcessManagerState_Enumeration
 (
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 =
