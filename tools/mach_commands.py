@@ -2020,19 +2020,6 @@ run_process
         
 [
 npm_path
-"
--
--
-scripts
--
-prepend
--
-node
--
-path
-=
-auto
-"
 ]
 +
 args
