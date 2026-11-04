@@ -1057,19 +1057,6 @@ it
 .
 )
         
-#
-TODO
-(
-ER
-)
-:
-Temporary
-hack
-until
-bug
-1121139
-lands
-        
 self
 .
 logger

@@ -6769,33 +6769,12 @@ args
 kw
 )
         
-#
-XXX
-temporary
-python
-version
-check
-        
 python
 =
 self
 .
 query_python_path
 (
-)
-        
-self
-.
-run_command
-(
-[
-python
-"
--
--
-version
-"
-]
 )
         
 parser
