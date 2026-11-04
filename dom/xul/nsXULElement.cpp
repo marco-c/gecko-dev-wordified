@@ -2973,6 +2973,17 @@ disabled
 if
 (
 disabled
+&
+&
+!
+(
+aFlags
+&
+IsFocusableFlags
+:
+:
+IgnoreDisabled
+)
 )
 {
 return
