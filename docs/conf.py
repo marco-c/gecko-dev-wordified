@@ -770,6 +770,34 @@ minNodeWidth
 0
 }
     
+#
+Without
+an
+explicit
+useWidth
+gantt
+charts
+take
+the
+width
+of
+the
+element
+    
+#
+Mermaid
+renders
+them
+in
+which
+is
+shrink
+-
+to
+-
+fit
+.
+    
 "
 gantt
 "
@@ -780,6 +808,11 @@ useMaxWidth
 "
 :
 False
+"
+useWidth
+"
+:
+800
 }
     
 "
