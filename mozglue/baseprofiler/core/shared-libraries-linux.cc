@@ -5494,7 +5494,13 @@ aInfo
 )
 mExeName
 (
+std
+:
+:
+move
+(
 aExeName
+)
 )
 {
 }
@@ -6149,7 +6155,13 @@ AddSharedLibrary
 (
 SharedLibraryAtPath
 (
+std
+:
+:
+move
+(
 libName
+)
 firstMappingStart
 lastMappingEnd
 firstMappingStart
