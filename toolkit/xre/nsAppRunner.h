@@ -233,10 +233,6 @@ bool
 gSafeMode
 ;
 extern
-bool
-gFxREmbedded
-;
-extern
 int
 gArgc
 ;

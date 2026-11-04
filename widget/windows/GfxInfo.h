@@ -151,15 +151,6 @@ aDwriteVersion
 override
 ;
 NS_IMETHOD
-GetEmbeddedInFirefoxReality
-(
-bool
-*
-aEmbeddedInFirefoxReality
-)
-override
-;
-NS_IMETHOD
 GetHasBattery
 (
 bool

@@ -5537,14 +5537,6 @@ aIsFullscreen
 ;
 virtual
 void
-ForceFullScreenInWidget
-(
-)
-=
-0
-;
-virtual
-void
 MacFullscreenMenubarOverlapChanged
 (
 mozilla

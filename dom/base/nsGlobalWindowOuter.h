@@ -1864,12 +1864,6 @@ aIsFullscreen
 final
 ;
 void
-ForceFullScreenInWidget
-(
-)
-final
-;
-void
 MacFullscreenMenubarOverlapChanged
 (
 mozilla
@@ -6508,11 +6502,6 @@ Maybe
 FullscreenRequest
 >
 mInProcessFullscreenRequest
-;
-bool
-mForceFullScreenInWidget
-:
-1
 ;
 bool
 mIsClosed

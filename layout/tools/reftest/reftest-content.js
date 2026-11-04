@@ -8874,14 +8874,6 @@ gfxInfo
 .
 DWriteEnabled
 ;
-info
-.
-EmbeddedInFirefoxReality
-=
-gfxInfo
-.
-EmbeddedInFirefoxReality
-;
 }
 catch
 (
@@ -8891,12 +8883,6 @@ e
 info
 .
 DWriteEnabled
-=
-false
-;
-info
-.
-EmbeddedInFirefoxReality
 =
 false
 ;
