@@ -2041,7 +2041,7 @@ indexing
 build
 :
 the
-semanticdb
+scip
 -
 javac
 plugin
