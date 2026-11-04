@@ -70,7 +70,7 @@ u64
 >
 Self
 {
-Id
+Self
 (
 value
 )
@@ -93,7 +93,7 @@ Id
 )
 -
 >
-u64
+Self
 {
 id
 .
@@ -126,9 +126,6 @@ the
 crate
 .
 pub
-(
-crate
-)
 struct
 IdGenerator
 {
@@ -155,6 +152,7 @@ pub
 (
 crate
 )
+const
 fn
 new
 (
@@ -204,6 +202,7 @@ pub
 (
 crate
 )
+const
 fn
 next_id
 (
