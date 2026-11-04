@@ -333,7 +333,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .
@@ -1767,7 +1767,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .
@@ -2054,7 +2054,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .
@@ -2535,7 +2535,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .
@@ -2598,7 +2598,6 @@ allowlists
 .
 For
 each
-connection
 allowlist
 in
 allowlists
@@ -2650,7 +2649,6 @@ continue
 1
 .
 If
-connection
 allowlist
 s
 webrtc
@@ -2724,9 +2722,6 @@ webrtc
 "
 environment
 and
-connection
-/
-/
 allowlist
 .
 ReportViolation
@@ -2744,7 +2739,6 @@ allowlist
 3
 .
 If
-connection
 allowlist
 s
 disposition
@@ -2920,7 +2914,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .

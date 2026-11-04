@@ -214,7 +214,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .
@@ -525,7 +525,7 @@ https
 :
 /
 /
-wicg
+w3c
 .
 github
 .
