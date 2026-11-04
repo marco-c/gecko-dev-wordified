@@ -312,7 +312,6 @@ createEngine
 PipelineOptions
 QuantizationLevel
 ExecutionPriority
-InferenceDevice
 LogLevel
 }
 =
