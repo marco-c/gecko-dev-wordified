@@ -7976,6 +7976,7 @@ mSurfacePoolHandle
 >
 ObtainBufferFromPool
 (
+&
 lock
 mSize
 mRootLayer
@@ -8022,6 +8023,7 @@ mSurfacePoolHandle
 >
 ReturnBufferToPool
 (
+&
 lock
 mFrontBuffer
 )
@@ -8265,6 +8267,7 @@ mSurfacePoolHandle
 >
 ObtainBufferFromPool
 (
+&
 lock
 mSize
 mRootLayer
@@ -8418,6 +8421,7 @@ mSurfacePoolHandle
 >
 ReturnBufferToPool
 (
+&
 lock
 mFrontBuffer
 )
@@ -9251,6 +9255,7 @@ mSurfacePoolHandle
 >
 ReturnBufferToPool
 (
+&
 aProofOfLock
 mInProgressBuffer
 )
@@ -9285,6 +9290,7 @@ mSurfacePoolHandle
 >
 ReturnBufferToPool
 (
+&
 aProofOfLock
 mFrontBuffer
 )
