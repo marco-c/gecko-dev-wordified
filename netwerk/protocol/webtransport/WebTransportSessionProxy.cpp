@@ -9969,6 +9969,14 @@ RefPtr
 this
 }
 stats
+=
+std
+:
+:
+move
+(
+stats
+)
 ]
 (
 )
