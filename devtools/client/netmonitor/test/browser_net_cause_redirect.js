@@ -250,7 +250,7 @@ false
 )
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -269,7 +269,7 @@ HSTS_SJS
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /
@@ -487,7 +487,7 @@ state
 before
 the
 test
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -509,7 +509,7 @@ reset
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 teardown
@@ -680,7 +680,7 @@ false
 )
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -697,7 +697,7 @@ HSTS_SJS
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 waitUntil
@@ -952,7 +952,7 @@ state
 before
 the
 test
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -974,7 +974,7 @@ reset
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 teardown

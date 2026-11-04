@@ -242,7 +242,7 @@ displayed
 in
 DevTools
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -300,7 +300,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /
@@ -435,7 +435,7 @@ messages
 are
 not
 cleared
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -470,7 +470,7 @@ requests
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 secondRequestFrames

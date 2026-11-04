@@ -389,7 +389,7 @@ GET3
 ]
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -404,7 +404,7 @@ requests
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 store
 .
@@ -593,7 +593,7 @@ requests
 "
 )
 ;
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -608,7 +608,7 @@ requests
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (
@@ -727,7 +727,7 @@ requests
 "
 )
 ;
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -742,7 +742,7 @@ requests
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (

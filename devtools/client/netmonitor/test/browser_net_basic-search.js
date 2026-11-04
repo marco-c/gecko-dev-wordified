@@ -175,7 +175,7 @@ test
 "
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -214,7 +214,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 searchButton
@@ -281,7 +281,7 @@ panel
 opens
 .
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "
@@ -456,7 +456,7 @@ the
 results
 .
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 document
 "

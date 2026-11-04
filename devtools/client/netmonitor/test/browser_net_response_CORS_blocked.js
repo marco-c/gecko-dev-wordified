@@ -144,7 +144,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -238,7 +238,7 @@ netmonitor
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (
@@ -506,7 +506,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -599,7 +599,7 @@ netmonitor
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (

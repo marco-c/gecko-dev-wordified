@@ -435,7 +435,7 @@ newres
 )
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -450,7 +450,7 @@ requests
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 clickOnRequestRow
 (
@@ -739,7 +739,7 @@ we
 fetch
 event
 timings
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -758,7 +758,7 @@ REQUESTS_WITH_MEDIA
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (
@@ -835,7 +835,7 @@ we
 fetch
 event
 timings
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -854,7 +854,7 @@ REQUESTS_WITH_MEDIA
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (

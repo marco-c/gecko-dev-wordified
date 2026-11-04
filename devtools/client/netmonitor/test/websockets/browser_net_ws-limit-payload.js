@@ -282,7 +282,7 @@ displayed
 in
 DevTools
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -340,7 +340,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /

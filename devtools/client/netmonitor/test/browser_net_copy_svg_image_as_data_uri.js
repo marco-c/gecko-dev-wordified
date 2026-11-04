@@ -104,7 +104,7 @@ monitor
 panelWin
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -142,7 +142,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 clickOnRequestRow
 (

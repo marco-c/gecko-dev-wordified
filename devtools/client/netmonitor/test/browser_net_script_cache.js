@@ -443,7 +443,7 @@ request
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -463,7 +463,7 @@ headers
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 responseScope
@@ -1126,7 +1126,7 @@ request
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -1146,7 +1146,7 @@ headers
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 responseScope

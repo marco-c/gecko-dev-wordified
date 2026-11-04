@@ -112,8 +112,8 @@ false
 )
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -152,7 +152,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /
@@ -187,7 +187,8 @@ container
 server
 "
 ;
-wait
+const
+onDomUpdated
 =
 waitForDOM
 (
@@ -234,7 +235,7 @@ timings
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /

@@ -386,7 +386,7 @@ GET3
 ]
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -401,7 +401,7 @@ requests
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 store
 .

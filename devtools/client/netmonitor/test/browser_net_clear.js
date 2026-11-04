@@ -227,7 +227,7 @@ in
 the
 list
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -241,7 +241,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 assertSingleRequestState
 (
@@ -498,7 +498,7 @@ they
 still
 show
 up
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -512,7 +512,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 assertSingleRequestState
 (

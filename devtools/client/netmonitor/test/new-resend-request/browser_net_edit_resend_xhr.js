@@ -1080,7 +1080,7 @@ com
 CORS_SJS_PATH
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -1131,7 +1131,7 @@ netmonitor
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 {

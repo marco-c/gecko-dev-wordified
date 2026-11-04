@@ -243,7 +243,7 @@ displayed
 in
 DevTools
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -301,7 +301,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /
@@ -687,7 +687,7 @@ option
 is
 the
 same
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -722,7 +722,7 @@ requests
 )
 ;
 await
-wait
+onDomUpdated
 ;
 const
 secondRequestFrames

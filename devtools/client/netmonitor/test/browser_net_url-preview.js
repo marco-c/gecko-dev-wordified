@@ -142,7 +142,7 @@ tab
 )
 ;
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -181,7 +181,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /
@@ -200,7 +200,7 @@ Select
 the
 second
 request
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -239,7 +239,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /
@@ -309,7 +309,7 @@ Select
 the
 third
 request
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -348,7 +348,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /

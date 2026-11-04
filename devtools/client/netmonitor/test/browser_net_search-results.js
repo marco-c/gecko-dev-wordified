@@ -212,7 +212,7 @@ test2
 ]
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -235,7 +235,7 @@ makeRequests
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /
@@ -1138,7 +1138,7 @@ somethingDifferent
 ]
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -1181,7 +1181,7 @@ makeRequests
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /

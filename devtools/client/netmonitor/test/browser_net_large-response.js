@@ -199,8 +199,8 @@ false
 )
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -239,7 +239,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 requestItem
@@ -369,7 +369,8 @@ OK
 }
 )
 ;
-wait
+let
+onDomUpdated
 =
 waitForDOM
 (
@@ -406,9 +407,9 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -461,7 +462,7 @@ monitor
 )
 ;
 await
-wait
+onDomUpdated
 ;
 ok
 (

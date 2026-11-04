@@ -156,7 +156,7 @@ preview
 ihas
 loaded
 const
-wait
+onUrlPreview
 =
 waitUntil
 (
@@ -202,7 +202,7 @@ item
 )
 ;
 await
-wait
+onUrlPreview
 ;
 const
 requestURL

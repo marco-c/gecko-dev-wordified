@@ -274,7 +274,7 @@ throttleProfile
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -293,7 +293,7 @@ WITH_CACHE_DISABLED
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 waitForRequestData

@@ -947,7 +947,7 @@ originalRequestItem
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -976,7 +976,7 @@ await
 waitForNewRequest
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 newResourceId
@@ -1415,7 +1415,7 @@ the
 new
 request
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -1435,7 +1435,7 @@ sendCustomRequest
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 let
 sentItem

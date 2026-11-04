@@ -277,7 +277,7 @@ the
 table
 )
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -291,7 +291,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 headers

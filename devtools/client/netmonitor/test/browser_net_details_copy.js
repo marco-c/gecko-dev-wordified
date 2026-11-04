@@ -128,7 +128,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -142,7 +142,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 store
 .
@@ -547,7 +547,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -561,7 +561,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 store
 .
@@ -1428,8 +1428,8 @@ false
 )
 )
 ;
-let
-wait
+const
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -1443,9 +1443,10 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
-wait
+const
+onDomUpdated
 =
 waitForDOM
 (
@@ -1479,7 +1480,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 clickOnRequestRow
 (

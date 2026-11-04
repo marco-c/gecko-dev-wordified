@@ -159,7 +159,7 @@ tab
 )
 ;
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -198,9 +198,9 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -214,7 +214,6 @@ raw
 -
 headers
 "
-1
 )
 ;
 EventUtils
@@ -237,9 +236,9 @@ RESPONSE
 )
 ;
 await
-wait
+onDomUpdated
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -253,7 +252,6 @@ raw
 -
 headers
 "
-1
 )
 ;
 EventUtils
@@ -276,7 +274,7 @@ REQUEST
 )
 ;
 await
-wait
+onDomUpdated
 ;
 testRawHeaderToggleStyle
 (

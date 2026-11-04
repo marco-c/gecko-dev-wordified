@@ -182,7 +182,7 @@ index
 )
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -196,7 +196,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /
@@ -455,7 +455,8 @@ correctly
 "
 )
 ;
-wait
+let
+onDomUpdated
 =
 waitForDOM
 (
@@ -492,7 +493,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 let
 tabpanel
@@ -567,7 +568,7 @@ bodyLimit
 1024
 )
 ;
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -581,7 +582,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (
@@ -618,7 +619,7 @@ item
 )
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -655,7 +656,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 tabpanel
 =

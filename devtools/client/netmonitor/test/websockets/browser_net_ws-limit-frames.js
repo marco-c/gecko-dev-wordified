@@ -257,7 +257,7 @@ notification
 to
 appear
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -306,7 +306,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /

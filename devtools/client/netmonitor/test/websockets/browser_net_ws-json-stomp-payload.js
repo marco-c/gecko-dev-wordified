@@ -300,7 +300,7 @@ displayed
 in
 DevTools
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -358,7 +358,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 /
 /
@@ -621,7 +621,7 @@ Toggle
 raw
 data
 display
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -668,7 +668,7 @@ monitor
 )
 ;
 await
-wait
+onDomUpdated
 ;
 is
 (

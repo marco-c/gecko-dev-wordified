@@ -266,7 +266,7 @@ CZ
 ]
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -324,7 +324,7 @@ xhr
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 let
 item

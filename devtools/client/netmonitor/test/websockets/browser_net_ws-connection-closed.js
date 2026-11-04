@@ -240,7 +240,7 @@ response
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -295,7 +295,7 @@ closeConnection
 )
 ;
 await
-wait
+onDomUpdated
 ;
 is
 (

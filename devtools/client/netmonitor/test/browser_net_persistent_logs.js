@@ -489,7 +489,7 @@ reloadAndWait
 )
 {
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -503,7 +503,7 @@ reloadSelectedTab
 )
 ;
 return
-wait
+onNetworkEvents
 ;
 }
 }

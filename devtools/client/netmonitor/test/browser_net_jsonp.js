@@ -455,8 +455,13 @@ request
 )
 ;
 let
-wait
+onDomUpdated
 =
+Promise
+.
+all
+(
+[
 waitForDOM
 (
 document
@@ -471,10 +476,6 @@ data
 header
 "
 )
-;
-let
-waitForPropsView
-=
 waitForDOM
 (
 document
@@ -488,7 +489,8 @@ properties
 -
 view
 "
-1
+)
+]
 )
 ;
 store
@@ -511,15 +513,7 @@ response
 )
 ;
 await
-Promise
-.
-all
-(
-[
-wait
-waitForPropsView
-]
-)
+onDomUpdated
 ;
 testJsonSectionInResponseTab
 (
@@ -530,7 +524,7 @@ JSONP
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -583,7 +577,7 @@ monitor
 )
 ;
 await
-wait
+onDomUpdated
 ;
 testResponseTab
 (
@@ -601,7 +595,7 @@ request
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -639,9 +633,9 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
-waitForPropsView
+onDomUpdated
 =
 waitForDOM
 (
@@ -656,7 +650,6 @@ properties
 -
 view
 "
-1
 )
 ;
 rawResponseToggle
@@ -694,7 +687,7 @@ monitor
 )
 ;
 await
-waitForPropsView
+onDomUpdated
 ;
 testJsonSectionInResponseTab
 (
@@ -706,7 +699,7 @@ JSONP
 "
 )
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -758,7 +751,7 @@ monitor
 )
 ;
 await
-wait
+onDomUpdated
 ;
 testResponseTab
 (

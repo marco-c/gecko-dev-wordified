@@ -741,7 +741,7 @@ requestURL
 )
 {
 const
-wait
+onRequest
 =
 waitForRequest
 (
@@ -784,7 +784,7 @@ url
 )
 ;
 await
-wait
+onRequest
 ;
 }
 /

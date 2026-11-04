@@ -1375,7 +1375,7 @@ test
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -1392,7 +1392,7 @@ REQUESTS_WITH_MEDIA_AND_FLASH_AND_WS
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 clickOnRequestRow
 (

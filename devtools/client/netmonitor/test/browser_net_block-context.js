@@ -126,7 +126,7 @@ page
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -141,7 +141,7 @@ HTTPS_SIMPLE_URL
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 requestListBlockingButton
@@ -796,7 +796,7 @@ action
 )
 {
 const
-wait
+onDispatch
 =
 waitForDispatch
 (
@@ -816,7 +816,7 @@ action
 )
 ;
 await
-wait
+onDispatch
 ;
 }
 async
@@ -874,7 +874,7 @@ contents
 )
 ;
 const
-wait
+onDispatch
 =
 waitForDispatch
 (
@@ -892,7 +892,7 @@ itemSelector
 )
 ;
 await
-wait
+onDispatch
 ;
 }
 async
@@ -911,7 +911,7 @@ false
 )
 {
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -965,7 +965,7 @@ reloadSelectedTab
 ;
 }
 await
-wait
+onNetworkEvents
 ;
 }
 function

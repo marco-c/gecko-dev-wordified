@@ -747,7 +747,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -775,7 +775,7 @@ linkedBrowser
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /

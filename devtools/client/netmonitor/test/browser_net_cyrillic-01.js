@@ -296,7 +296,7 @@ DA
 )
 ;
 let
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -330,9 +330,9 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -358,7 +358,7 @@ response
 )
 ;
 await
-wait
+onDomUpdated
 ;
 ok
 (

@@ -157,7 +157,7 @@ com
 CORS_SJS_PATH
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -196,7 +196,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (

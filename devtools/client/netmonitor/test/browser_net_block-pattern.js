@@ -311,7 +311,7 @@ test4
 "
 ;
 let
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -440,7 +440,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /
@@ -690,7 +690,7 @@ URL
 was
 not
 blocked
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -729,7 +729,7 @@ url
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 await
 waitForDOM

@@ -155,7 +155,7 @@ the
 table
 )
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -169,7 +169,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 info
 (

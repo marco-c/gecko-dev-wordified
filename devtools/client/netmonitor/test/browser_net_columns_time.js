@@ -150,8 +150,8 @@ ui
 .
 columns
 ;
-const
-wait
+let
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -165,7 +165,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /
@@ -281,7 +281,6 @@ column
 }
 )
 ;
-const
 onNetworkEvents
 =
 waitForNetworkEvents

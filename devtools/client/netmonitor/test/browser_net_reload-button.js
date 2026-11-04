@@ -92,7 +92,7 @@ monitor
 panelWin
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -131,7 +131,7 @@ button
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 is
 (

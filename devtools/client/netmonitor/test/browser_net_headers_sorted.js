@@ -172,7 +172,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -186,7 +186,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /
@@ -256,7 +256,7 @@ sorted
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -290,7 +290,7 @@ item
 )
 ;
 await
-wait
+onDomUpdated
 ;
 await
 waitForRequestData

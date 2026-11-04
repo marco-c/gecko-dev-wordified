@@ -111,7 +111,7 @@ update
 )
 ;
 const
-wait
+onDomUpdated
 =
 waitForDOM
 (
@@ -145,7 +145,7 @@ timings
 )
 ;
 await
-wait
+onDomUpdated
 ;
 ok
 (

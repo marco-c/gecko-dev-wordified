@@ -289,7 +289,7 @@ Reload
 debugee
 .
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -303,7 +303,7 @@ reloadSelectedTab
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 /
 /
@@ -438,7 +438,7 @@ title
 )
 ;
 await
-waitForDOMIfNeeded
+waitForDOM
 (
 requestItem
 "

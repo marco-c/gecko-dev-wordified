@@ -954,7 +954,7 @@ false
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -969,7 +969,7 @@ TOP_URL
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 is
 (

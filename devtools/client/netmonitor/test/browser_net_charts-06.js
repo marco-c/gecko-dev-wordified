@@ -141,7 +141,7 @@ Chart
 )
 ;
 const
-wait
+onNetworkEvents
 =
 waitForNetworkEvents
 (
@@ -156,7 +156,7 @@ HTTPS_SIMPLE_URL
 )
 ;
 await
-wait
+onNetworkEvents
 ;
 const
 pie
