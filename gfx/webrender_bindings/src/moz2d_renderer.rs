@@ -5912,6 +5912,9 @@ handle
 *
 mut
 c_void
+size
+:
+usize
 index
 :
 u32
@@ -6415,6 +6418,7 @@ as
 mut
 c_void
 0
+0
 )
 }
 ;
@@ -6587,6 +6591,7 @@ as
 *
 mut
 c_void
+0
 0
 )
 }
@@ -6781,6 +6786,7 @@ as
 mut
 c_void
 0
+0
 )
 }
 ;
@@ -6849,6 +6855,19 @@ unwrap
 (
 )
 ;
+let
+size
+=
+cstr
+.
+to_bytes_with_nul
+(
+)
+.
+len
+(
+)
+;
 unsafe
 {
 AddNativeFontHandle
@@ -6863,6 +6882,7 @@ as
 *
 mut
 c_void
+size
 handle
 .
 index
