@@ -170,12 +170,6 @@ GetSingleton
 (
 )
 ;
-nsresult
-Init
-(
-)
-override
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 HasPluginForAPI
@@ -336,6 +330,12 @@ BeginShutdown
 ;
 protected
 :
+nsresult
+InitMainThread
+(
+)
+override
+;
 void
 InitializePlugins
 (
