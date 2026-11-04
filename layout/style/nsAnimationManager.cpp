@@ -2845,6 +2845,7 @@ GetScopeObject
 (
 )
 animationName
+isStylePaused
 )
 ;
 animation
