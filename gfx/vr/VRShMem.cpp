@@ -1750,7 +1750,7 @@ if
 mMutex
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mRequiresMutex
 )
@@ -2313,7 +2313,7 @@ if
 mMutex
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mRequiresMutex
 )
