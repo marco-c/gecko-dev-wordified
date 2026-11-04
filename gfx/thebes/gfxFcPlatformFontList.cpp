@@ -17958,7 +17958,15 @@ aLanguage
 nsAutoCString
 fontlistValue
 ;
-mFontPrefs
+AutoLock
+lock
+(
+mLock
+)
+;
+GetFontPrefs
+(
+)
 -
 >
 LookupName
@@ -18033,7 +18041,9 @@ with
 complicated
 path
 .
-mFontPrefs
+GetFontPrefs
+(
+)
 -
 >
 LookupNameList
