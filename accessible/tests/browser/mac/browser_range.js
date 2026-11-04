@@ -297,6 +297,9 @@ waitForMacEvent
 "
 AXValueChanged
 "
+"
+range
+"
 )
 ;
 range
@@ -336,6 +339,9 @@ waitForMacEvent
 "
 AXValueChanged
 "
+"
+range
+"
 )
 ;
 range
@@ -374,6 +380,9 @@ waitForMacEvent
 (
 "
 AXValueChanged
+"
+"
+range
 "
 )
 ;
@@ -592,6 +601,9 @@ waitForMacEvent
 "
 AXValueChanged
 "
+"
+range
+"
 )
 ;
 range
@@ -787,6 +799,9 @@ waitForMacEvent
 "
 AXValueChanged
 "
+"
+number
+"
 )
 ;
 number
@@ -828,6 +843,9 @@ waitForMacEvent
 "
 AXValueChanged
 "
+"
+number
+"
 )
 ;
 number
@@ -866,6 +884,9 @@ waitForMacEvent
 (
 "
 AXValueChanged
+"
+"
+number
 "
 )
 ;
@@ -1053,6 +1074,9 @@ waitForMacEvent
 (
 "
 AXValueChanged
+"
+"
+number
 "
 )
 ;
@@ -1271,6 +1295,9 @@ waitForMacEvent
 (
 "
 AXValueChanged
+"
+"
+slider
 "
 )
 ;
@@ -1807,6 +1834,9 @@ waitForMacEvent
 "
 AXValueChanged
 "
+"
+progress
+"
 )
 ;
 await
@@ -2022,6 +2052,9 @@ waitForMacEvent
 (
 "
 AXValueChanged
+"
+"
+fuel
 "
 )
 ;
