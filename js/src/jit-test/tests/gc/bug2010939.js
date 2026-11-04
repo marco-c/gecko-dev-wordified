@@ -21,7 +21,7 @@ evalInWorker
 "
 try
 {
-getAtomMarkIndex
+getAtomRefIndex
 (
 '
 '

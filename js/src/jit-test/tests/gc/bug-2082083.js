@@ -316,7 +316,7 @@ map
 s
 =
 >
-getAtomMarkIndex
+getAtomRefIndex
 (
 s
 )
@@ -733,7 +733,7 @@ i
 {
 if
 (
-getAtomMarkColor
+getAtomRefColor
 (
 B
 A

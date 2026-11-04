@@ -128,7 +128,7 @@ random
 var
 descIndex
 =
-getAtomMarkIndex
+getAtomRefIndex
 (
 sym
 .
@@ -157,7 +157,7 @@ makeSymbol
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 other
 index
@@ -169,7 +169,7 @@ black
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -213,7 +213,7 @@ description
 .
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -241,7 +241,7 @@ string
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -299,7 +299,7 @@ gc
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -345,7 +345,7 @@ makeSymbol
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -368,7 +368,7 @@ sym
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -386,7 +386,7 @@ description
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index
@@ -433,7 +433,7 @@ zone
 ;
 assertEq
 (
-getAtomMarkColor
+getAtomRefColor
 (
 this
 index

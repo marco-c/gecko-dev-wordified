@@ -9,7 +9,7 @@ tracking
 and
 check
 the
-isAtomMarked
+isAtomReferenced
 function
 /
 /
@@ -71,7 +71,7 @@ Symbol
 ;
 assertEq
 (
-isAtomMarked
+isAtomReferenced
 (
 this
 atom
@@ -81,7 +81,7 @@ false
 ;
 assertEq
 (
-isAtomMarked
+isAtomReferenced
 (
 global
 atom
@@ -100,7 +100,7 @@ atom
 ;
 assertEq
 (
-isAtomMarked
+isAtomReferenced
 (
 global
 atom
@@ -137,7 +137,7 @@ baz
 ;
 assertEq
 (
-isAtomMarked
+isAtomReferenced
 (
 this
 sym
@@ -147,7 +147,7 @@ true
 ;
 assertEq
 (
-isAtomMarked
+isAtomReferenced
 (
 global
 sym
@@ -166,7 +166,7 @@ sym
 ;
 assertEq
 (
-isAtomMarked
+isAtomReferenced
 (
 global
 sym
