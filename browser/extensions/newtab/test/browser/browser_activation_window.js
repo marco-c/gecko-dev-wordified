@@ -1107,6 +1107,10 @@ example
 com
 "
 ]
+[
+WIDGETS_PREF
+false
+]
 ]
 }
 )
