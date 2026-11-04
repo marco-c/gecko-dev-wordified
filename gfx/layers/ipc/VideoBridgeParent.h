@@ -409,11 +409,8 @@ VideoBridgeParent
 (
 )
 ;
-explicit
 VideoBridgeParent
 (
-VideoBridgeSource
-aSource
 )
 ;
 void
@@ -437,6 +434,13 @@ ShutdownInternal
 void
 DoUnregisterExternalImages
 (
+)
+;
+void
+RegisterSingleton
+(
+VideoBridgeSource
+aSource
 )
 ;
 void
