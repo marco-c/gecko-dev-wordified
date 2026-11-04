@@ -317,7 +317,7 @@ nsresult
 GeckoMediaPluginServiceChild
 :
 :
-InitMainThread
+Init
 (
 )
 {
@@ -411,7 +411,7 @@ return
 GeckoMediaPluginService
 :
 :
-InitMainThread
+Init
 (
 )
 ;
