@@ -115,7 +115,6 @@ RustLog
 /
 *
 *
-*
 A
 namespaced
 object
@@ -159,7 +158,6 @@ Changes
 can
 lead
 to
-*
 unexpected
 runtime
 failures
