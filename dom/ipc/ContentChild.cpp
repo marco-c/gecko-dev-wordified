@@ -8021,7 +8021,10 @@ GetIsTopLevelCreatedByWebContent
 aURI
 features
 aModifiers
+WrapNotNull
+(
 triggeringPrincipal
+)
 policyContainer
 referrerInfo
 aOpenWindowInfo
@@ -22474,8 +22477,11 @@ ContentChild
 :
 AllocPURLClassifierChild
 (
+NotNull
+<
 nsIPrincipal
 *
+>
 aPrincipal
 bool
 *

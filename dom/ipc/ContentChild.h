@@ -3384,8 +3384,11 @@ PURLClassifierChild
 *
 AllocPURLClassifierChild
 (
+NotNull
+<
 nsIPrincipal
 *
+>
 aPrincipal
 bool
 *
