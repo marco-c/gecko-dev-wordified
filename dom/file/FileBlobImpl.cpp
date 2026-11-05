@@ -1548,6 +1548,11 @@ nsIFileInputStream
 :
 :
 SHARE_DELETE
+|
+nsIFileInputStream
+:
+:
+NO_MAGIC_FILES
 ;
 void
 FileBlobImpl
