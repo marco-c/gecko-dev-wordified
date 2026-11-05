@@ -4029,6 +4029,13 @@ aCallback
 mRequest
 -
 >
+SetHadRedirected
+(
+)
+;
+mRequest
+-
+>
 SetMinimumExpirationTime
 (
 nsContentUtils
