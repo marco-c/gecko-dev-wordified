@@ -9998,7 +9998,10 @@ const
 AttrModType
 modType
 =
+HasAttr
+(
 aName
+)
 ?
 AttrModType
 :
