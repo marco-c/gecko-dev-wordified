@@ -175,15 +175,6 @@ CookieStoreNotificationWatcher
 =
 default
 ;
-void
-MaybeResolveOperations
-(
-const
-nsID
-*
-aOperationID
-)
-;
 struct
 PendingOperation
 {
