@@ -126,13 +126,22 @@ fix
 )
 :
     
-encoding
-=
-"
-utf
--
-8
-"
+return
+finish_prettier
+(
+start_process
+(
+cmd_args
+)
+config
+fix
+)
+def
+start_process
+(
+cmd_args
+)
+:
     
 orig
 =
@@ -176,6 +185,25 @@ signal
 SIGINT
 orig
 )
+    
+return
+proc
+def
+finish_prettier
+(
+proc
+config
+fix
+)
+:
+    
+encoding
+=
+"
+utf
+-
+8
+"
     
 try
 :
