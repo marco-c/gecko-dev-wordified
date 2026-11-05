@@ -22581,6 +22581,20 @@ sparse
 "
 )
     
+re_git_checkout_cache
+=
+re
+.
+compile
+(
+"
+^
+checkouts
+-
+git
+"
+)
+    
 re_shallow_checkout_cache
 =
 re
@@ -22933,8 +22947,6 @@ sparse_profile
 require_sparse_cache
 =
 True
-                    
-break
                 
 if
 arg
@@ -22954,8 +22966,6 @@ clone
 require_shallow_cache
 =
 True
-                    
-break
         
 caches
 =
@@ -23095,6 +23105,24 @@ re_sparse_checkout_cache
 match
 (
 cache
+)
+or
+(
+                
+repo_type
+=
+=
+"
+git
+"
+and
+re_git_checkout_cache
+.
+match
+(
+cache
+)
+            
 )
 :
                 
