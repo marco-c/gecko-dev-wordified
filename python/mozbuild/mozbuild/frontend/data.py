@@ -6788,6 +6788,9 @@ file_name
 flags
 "
 "
+no_pgo
+"
+"
 object_deps
 "
 )
@@ -6799,6 +6802,9 @@ self
 context
 path
 flags
+no_pgo
+=
+False
 object_deps
 =
 (
@@ -6833,6 +6839,12 @@ self
 flags
 =
 flags
+        
+self
+.
+no_pgo
+=
+no_pgo
         
 self
 .
