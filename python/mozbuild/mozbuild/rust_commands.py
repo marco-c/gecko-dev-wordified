@@ -960,9 +960,17 @@ the
 computed
 #
 flags
+and
+Cargo
+host
+builds
+never
+received
+NSPR_CFLAGS
 so
 these
 categories
+#
 are
 left
 out
@@ -978,6 +986,9 @@ RUST_EXCLUDED_FLAG_CATEGORIES
 (
 "
 LTO
+"
+"
+NSPR
 "
 "
 PGO
