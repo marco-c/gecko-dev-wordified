@@ -282,6 +282,13 @@ support
 -
 files
 "
+"
+split
+-
+ignore
+-
+files
+"
 )
 :
             
@@ -610,6 +617,15 @@ dirs
 ]
             
 if
+depth
+!
+=
+"
+auto
+"
+and
+(
+                
 isinstance
 (
 depth
@@ -626,6 +642,8 @@ or
 depth
 <
 1
+            
+)
 :
                 
 raise
@@ -634,7 +652,6 @@ LinterParseError
                     
 relpath
                     
-f
 "
 The
 split
@@ -646,6 +663,14 @@ be
 a
 positive
 integer
+or
+'
+auto
+'
+"
+                    
+f
+"
 not
 {
 depth
