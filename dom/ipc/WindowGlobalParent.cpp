@@ -16209,7 +16209,7 @@ false
 /
 M1
 :
-same_site_only
+same_origin_only
 gate
 prevents
 cross
