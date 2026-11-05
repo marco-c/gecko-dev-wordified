@@ -1351,6 +1351,9 @@ main
 html_show_copyright
 =
 False
+html_copy_source
+=
+False
 #
 GitHub
 integration
@@ -1541,6 +1544,15 @@ not
 manager
 .
 trees
+or
+pagename
+not
+in
+app
+.
+env
+.
+all_docs
 :
         
 return
