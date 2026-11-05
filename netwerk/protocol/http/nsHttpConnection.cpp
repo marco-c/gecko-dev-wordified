@@ -13907,9 +13907,6 @@ rv
 =
 NS_OK
 ;
-uint32_t
-n
-;
 bool
 again
 =
@@ -14061,6 +14058,11 @@ break
 mSocketInCondition
 =
 NS_OK
+;
+uint32_t
+n
+=
+0
 ;
 if
 (
