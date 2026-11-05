@@ -32933,9 +32933,6 @@ _ns
 )
 ;
 }
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 We
@@ -32974,8 +32971,6 @@ gtk_check_version
 49
 )
 ;
-#
-endif
 }
 if
 (
