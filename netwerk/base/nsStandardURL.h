@@ -956,7 +956,7 @@ URLSegment
 {
 #
 ifdef
-EARLY_BETA_OR_EARLIER
+NIGHTLY_BUILD
 URLSegmentNumber
 <
 uint32_t
