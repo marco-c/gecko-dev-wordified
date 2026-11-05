@@ -169,6 +169,14 @@ wchar_t
 aPattern
 )
 ;
+sandbox
+:
+:
+ResultCode
+AllowFontFileAccess
+(
+)
+;
 private
 :
 sandbox
