@@ -604,6 +604,12 @@ JWK_TYPE_OKP
 "
 OKP
 "
+#
+define
+JWK_TYPE_AKP
+"
+AKP
+"
 /
 /
 JWK
