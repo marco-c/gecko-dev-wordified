@@ -608,6 +608,17 @@ override
 MOCK_METHOD
 (
 ResultCode
+AllowFontFileAccess
+(
+)
+(
+override
+)
+)
+;
+MOCK_METHOD
+(
+ResultCode
 AllowExtraDll
 (
 const
