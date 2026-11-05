@@ -337,6 +337,12 @@ InitMainThread
 override
 ;
 void
+UninitMainThread
+(
+)
+override
+;
+void
 InitializePlugins
 (
 nsISerialEventTarget

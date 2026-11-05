@@ -810,6 +810,12 @@ InitMainThread
 override
 ;
 void
+UninitMainThread
+(
+)
+override
+;
+void
 OnShutdown
 (
 )
