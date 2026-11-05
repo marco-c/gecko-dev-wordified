@@ -27152,16 +27152,6 @@ CalculateCacheFlag
 aRequest
 )
 ;
-MOZ_ASSERT
-(
-aRequest
--
->
-PassedConditionForMemoryCache
-(
-)
-)
-;
 /
 /
 For
