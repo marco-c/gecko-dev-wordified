@@ -3842,8 +3842,15 @@ const
 LayoutDeviceIntRect
 &
 aDragRect
+Tainted
+<
+RefPtr
+<
 nsIPrincipal
-*
+>
+>
+&
+&
 aPrincipal
 nsIPolicyContainer
 *
