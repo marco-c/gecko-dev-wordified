@@ -1033,6 +1033,10 @@ def
 get_flags
 (
 self
+exclude
+=
+(
+)
 )
 :
         
@@ -1054,6 +1058,14 @@ flags
 .
 flag_variables
 :
+            
+if
+key
+in
+exclude
+:
+                
+continue
             
 value
 =
