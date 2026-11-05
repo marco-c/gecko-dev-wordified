@@ -3601,6 +3601,20 @@ path
         
 ]
         
+if
+not
+os
+.
+path
+.
+isdir
+(
+path
+)
+:
+            
+continue
+        
 finder
 =
 FileFinder
@@ -3616,15 +3630,12 @@ find_dotfiles
         
 for
 p
-f
 in
 finder
 .
-find
+walk_unfiltered
 (
 "
-*
-*
 "
 )
 :
@@ -3650,6 +3661,18 @@ extensions
                 
 continue
             
+if
+finder
+.
+get
+(
+p
+known_to_exist
+=
+True
+)
+:
+                
 yield
 os
 .
