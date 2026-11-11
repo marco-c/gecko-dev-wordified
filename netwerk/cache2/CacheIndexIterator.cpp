@@ -176,6 +176,16 @@ this
 )
 )
 ;
+}
+void
+CacheIndexIterator
+:
+:
+Destroy
+(
+)
+{
+{
 StaticMutexAutoLock
 lock
 (
@@ -194,6 +204,10 @@ CloseInternal
 (
 NS_ERROR_NOT_AVAILABLE
 )
+;
+}
+delete
+this
 ;
 }
 nsresult
