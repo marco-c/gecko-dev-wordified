@@ -105,14 +105,6 @@ mozperftest
 .
 test
 .
-webpagetest
-import
-WebPageTest
-from
-mozperftest
-.
-test
-.
 xpcshell
 import
 XPCShell
@@ -130,8 +122,6 @@ BrowsertimeRunner
 AndroidLog
         
 XPCShell
-        
-WebPageTest
         
 PerfMochitest
         
@@ -208,25 +198,6 @@ mach_cmd
 (
 BrowsertimeRunner
 AndroidLog
-)
-)
-    
-if
-flavor
-=
-=
-"
-webpagetest
-"
-:
-        
-return
-Layers
-(
-env
-mach_cmd
-(
-WebPageTest
 )
 )
     

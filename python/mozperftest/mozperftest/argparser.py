@@ -186,10 +186,6 @@ xpcshell
 "
     
 "
-webpagetest
-"
-    
-"
 mochitest
 "
     
