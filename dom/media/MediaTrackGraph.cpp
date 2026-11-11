@@ -26288,6 +26288,11 @@ MediaSegment
 :
 Type
 aType
+MediaTrack
+:
+:
+Flags
+aFlags
 )
 {
 SourceMediaTrack
@@ -26306,8 +26311,7 @@ GraphRate
 AddTrack
 (
 track
-{
-}
+aFlags
 )
 ;
 return
