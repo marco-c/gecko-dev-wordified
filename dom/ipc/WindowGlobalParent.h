@@ -2947,6 +2947,15 @@ PrefetchRecordParent
 aJustCompleted
 )
 ;
+static
+void
+ClearPrefetchCache
+(
+nsIPrincipal
+*
+aPartitionedPrincipal
+)
+;
 /
 /
 "

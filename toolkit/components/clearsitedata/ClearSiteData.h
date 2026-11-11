@@ -202,6 +202,9 @@ eCookies
 eStorage
 =
 0x04
+ePrefetchCache
+=
+0x08
 }
 ;
 /
