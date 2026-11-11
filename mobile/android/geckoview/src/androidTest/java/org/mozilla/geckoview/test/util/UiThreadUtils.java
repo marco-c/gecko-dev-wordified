@@ -92,6 +92,10 @@ androidx
 .
 test
 .
+platform
+.
+app
+.
 InstrumentationRegistry
 ;
 import
