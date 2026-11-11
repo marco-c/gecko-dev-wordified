@@ -23752,7 +23752,11 @@ HTMLEditor
 aHTMLEditor
 AutoClonedRangeArray
 &
+/
+*
 aRanges
+*
+/
 AutoContentNodeArray
 &
 aArrayOfContents
@@ -42042,7 +42046,11 @@ nsIContent
 &
 aEndOfRange
 BlockInlineCheck
+/
+*
 aBlockInlineCheck
+*
+/
 )
 {
 MOZ_ASSERT

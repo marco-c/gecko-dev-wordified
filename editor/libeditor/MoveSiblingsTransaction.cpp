@@ -2594,7 +2594,11 @@ nsIContent
 >
 >
 &
+/
+*
 aClonedSiblingsToMove
+*
+/
 nsINode
 &
 aParentNode

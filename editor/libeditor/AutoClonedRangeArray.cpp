@@ -2628,7 +2628,11 @@ ShrinkRangesIfStartFromOrEndAfterAtomicContent
 const
 HTMLEditor
 &
+/
+*
 aHTMLEditor
+*
+/
 nsIEditor
 :
 :

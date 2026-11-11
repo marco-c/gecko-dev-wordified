@@ -399,7 +399,11 @@ dom
 :
 MouseEvent
 *
+/
+*
 aMouseEvent
+*
+/
 )
 {
 return

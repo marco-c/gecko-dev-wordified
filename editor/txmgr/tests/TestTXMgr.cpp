@@ -3578,7 +3578,11 @@ Merge
 (
 nsITransaction
 *
+/
+*
 aTransaction
+*
+/
 bool
 *
 aDidMerge
@@ -4115,7 +4119,11 @@ create
 (
 nsITransactionManager
 *
+/
+*
 txmgr
+*
+/
 int32_t
 flags
 )

@@ -648,7 +648,11 @@ HTMLEditor
 aHTMLEditor
 Selection
 &
+/
+*
 aSelection
+*
+/
 )
 {
 /
@@ -1104,7 +1108,11 @@ AtIndexInTableElement
 const
 HTMLEditor
 &
+/
+*
 aHTMLEditor
+*
+/
 const
 Element
 &

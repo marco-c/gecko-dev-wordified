@@ -586,9 +586,9 @@ dom
 :
 Element
 *
-aAncestorLimiter
 /
 *
+aAncestorLimiter
 =
 nullptr
 *

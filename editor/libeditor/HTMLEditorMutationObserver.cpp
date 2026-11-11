@@ -3930,9 +3930,9 @@ RunOrScheduleOnModifyDocument
 const
 nsIContent
 *
-aContentWillBeRemoved
 /
 *
+aContentWillBeRemoved
 =
 nullptr
 *
