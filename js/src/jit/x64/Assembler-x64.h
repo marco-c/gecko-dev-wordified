@@ -701,7 +701,7 @@ constexpr
 Register
 ScratchReg
 =
-rbx
+r11
 ;
 /
 /
@@ -904,7 +904,7 @@ constexpr
 Register
 CallTempReg2
 =
-r11
+rbx
 ;
 static
 constexpr
@@ -1000,7 +1000,7 @@ CallTempNonArgRegs
 {
 rax
 rdi
-r11
+rbx
 rsi
 }
 ;
@@ -1144,7 +1144,7 @@ CallTempNonArgRegs
 =
 {
 rax
-r11
+rbx
 }
 ;
 static
@@ -1447,7 +1447,7 @@ information
 /
 /
 Avoid
-rbx
+r11
 which
 is
 the
@@ -1468,7 +1468,7 @@ constexpr
 Register
 ABINonArgReg1
 =
-r11
+rbx
 ;
 static
 constexpr
@@ -1803,7 +1803,7 @@ constexpr
 Register
 WasmJitEntryReturnScratch
 =
-r11
+rbx
 ;
 static
 constexpr

@@ -5664,7 +5664,7 @@ asMasm
 )
 rsp
 rax
-r11
+rbx
 rcx
 )
 ;
@@ -6534,7 +6534,7 @@ rhs
 ;
 /
 /
-r11
+rbx
 is
 chosen
 arbitrarily
@@ -6561,7 +6561,7 @@ rhs
 rdx
 )
 ?
-r11
+rbx
 :
 rhs
 ;

@@ -2825,7 +2825,7 @@ masm
 movq
 (
 rsp
-r11
+rbx
 )
 ;
 using
@@ -2863,7 +2863,7 @@ masm
 .
 passABIArg
 (
-r11
+rbx
 )
 ;
 masm
@@ -4081,7 +4081,7 @@ rax
 Register
 temp2
 =
-r11
+rbx
 ;
 Register
 temp3
