@@ -93,6 +93,9 @@ DIRS
 common
 "
 "
+instrumentationscope
+"
+"
 resource
 "
 "
