@@ -2848,14 +2848,6 @@ needed
 DisplayItem
 :
 :
-SetGradientStops
-=
->
-{
-}
-DisplayItem
-:
-:
 SetFilterOps
 =
 >

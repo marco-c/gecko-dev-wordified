@@ -10050,11 +10050,6 @@ parser
 DisplayItem
 :
 :
-SetGradientStops
-|
-DisplayItem
-:
-:
 SetFilterOps
 |
 DisplayItem
