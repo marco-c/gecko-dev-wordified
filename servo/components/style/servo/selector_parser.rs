@@ -4344,6 +4344,17 @@ NonTSPseudoClass
 :
 Hover
 "
+in
+-
+range
+"
+=
+>
+NonTSPseudoClass
+:
+:
+InRange
+"
 indeterminate
 "
 =
