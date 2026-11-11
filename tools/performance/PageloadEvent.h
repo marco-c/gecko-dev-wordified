@@ -199,12 +199,6 @@ uint32_t
 \
 _
 (
-hasSsd
-bool
-)
-\
-_
-(
 httpVer
 uint32_t
 )
@@ -303,12 +297,6 @@ _
 (
 userFeatures
 uint32_t
-)
-\
-_
-(
-usingWebdriver
-bool
 )
 \
 _
