@@ -139,7 +139,6 @@ SelectingFile
 /
 *
 *
-*
 Reduces
 the
 given
@@ -182,6 +181,20 @@ ImporterAction
 FileSelected
 -
 >
+if
+(
+action
+.
+uri
+=
+=
+null
+)
+Finished
+(
+Canceled
+)
+else
 Loading
 ImporterAction
 .
@@ -201,7 +214,7 @@ Success
 (
 action
 .
-bookmarksImported
+itemsCount
 )
 )
 is
@@ -219,9 +232,6 @@ action
 error
 )
 )
-ImporterAction
-.
-FileSelectionCanceled
 ImporterAction
 .
 ImportCancelled
