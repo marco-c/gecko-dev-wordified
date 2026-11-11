@@ -784,9 +784,13 @@ RawDuration
 (
 )
 .
-valueOr
+isSome
 (
-0
+)
+&
+&
+Duration
+(
 )
 >
 =
