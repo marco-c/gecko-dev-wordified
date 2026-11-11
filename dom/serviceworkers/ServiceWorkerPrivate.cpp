@@ -3617,15 +3617,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-URIParams
-baseScriptURL
-;
-SerializeURI
-(
-uri
-baseScriptURL
-)
-;
 nsString
 id
 ;
@@ -5300,8 +5291,8 @@ ScriptSpec
 (
 )
 )
-baseScriptURL
-baseScriptURL
+uri
+uri
 workerOptions
 /
 *
