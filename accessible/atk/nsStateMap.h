@@ -179,12 +179,6 @@ translated
 just
 ignored
 :
-STATE_READONLY
-:
-Supported
-indirectly
-via
-EXT_STATE_EDITABLE
 STATE_HOTTRACKED
 :
 No
@@ -662,7 +656,7 @@ MIXED
 <
 5
 {
-kNone
+ATK_STATE_READ_ONLY
 kMapDirectly
 }
 /
