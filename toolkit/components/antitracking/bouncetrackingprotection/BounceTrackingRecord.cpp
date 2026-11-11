@@ -66,13 +66,6 @@ h
 #
 include
 "
-BounceTrackingProtectionStorage
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging
@@ -228,7 +221,7 @@ aOriginAttributes
 OriginAttributes
 originAttributes
 =
-BounceTrackingProtectionStorage
+BounceTrackingSite
 :
 :
 NormalizeOriginAttributes
