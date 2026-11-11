@@ -2526,6 +2526,14 @@ copy
 .
 *
 /
+SuppressWarnings
+(
+"
+this
+-
+escape
+"
+)
 public
 GeckoResult
 (
