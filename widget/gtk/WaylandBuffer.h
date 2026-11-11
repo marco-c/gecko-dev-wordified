@@ -326,6 +326,16 @@ GetFormat
 )
 ;
 }
+BufferSurface
+*
+GetSurface
+(
+)
+{
+return
+mBufferSurface
+;
+}
 DMABufSurface
 *
 GetDMABufSurface
