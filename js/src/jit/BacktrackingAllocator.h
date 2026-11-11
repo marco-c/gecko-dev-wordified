@@ -5897,7 +5897,7 @@ queueing
 of
 LiveRange
 groups
-void
+bool
 tryMergeBundles
 (
 LiveBundle
@@ -5906,6 +5906,10 @@ bundle0
 LiveBundle
 *
 bundle1
+bool
+limitRangeComparisons
+=
+true
 )
 ;
 [
