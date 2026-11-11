@@ -346,6 +346,15 @@ use
 crate
 :
 :
+url
+:
+:
+UrlInitiator
+;
+use
+crate
+:
+:
 values
 :
 :
@@ -3438,6 +3447,10 @@ CorsMode
 :
 :
 None
+UrlInitiator
+:
+:
+Css
 )
 ;
 let
