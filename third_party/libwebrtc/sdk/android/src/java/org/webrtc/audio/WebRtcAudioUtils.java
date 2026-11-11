@@ -262,6 +262,12 @@ information
 .
 *
 /
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 static
 String
@@ -1274,6 +1280,12 @@ statistics
 .
 *
 /
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 static
 void

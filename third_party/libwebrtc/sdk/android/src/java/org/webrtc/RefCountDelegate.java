@@ -334,6 +334,12 @@ released
 .
 *
 /
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 boolean
 safeRetain
 (

@@ -3920,6 +3920,12 @@ Visible
 for
 testing
 .
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 protected
 void
 deliverEncodedImage
@@ -5420,6 +5426,12 @@ release
 )
 ;
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 protected
 boolean
 isSemiPlanar

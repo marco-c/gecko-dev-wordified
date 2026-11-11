@@ -3062,6 +3062,12 @@ qp
 )
 ;
 }
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 void
 deliverByteFrame

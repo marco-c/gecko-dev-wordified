@@ -1301,6 +1301,12 @@ true
 ;
 }
 WebRTCJNITarget
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 private
 int
 getDeviceOrientation
