@@ -2296,7 +2296,7 @@ void
 SetupTimer
 (
 uint64_t
-aTimeout
+aTimeoutUs
 )
 ;
 /
