@@ -7725,6 +7725,11 @@ mParentId
 =
 0
 ;
+uint64_t
+mOpenerInnerWindowId
+=
+0
+;
 already_AddRefed
 <
 WindowContext
