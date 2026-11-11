@@ -116,13 +116,7 @@ nsINode
 *
 aNode
 )
-:
-mNode
-(
-aNode
-)
-{
-}
+;
 /
 /
 nsISupports
@@ -141,8 +135,6 @@ private
 nsNodeSupportsWeakRefTearoff
 (
 )
-=
-default
 ;
 nsCOMPtr
 <
