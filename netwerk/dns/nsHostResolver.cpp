@@ -1830,6 +1830,10 @@ bool
 aFlushEvictionQueue
 )
 {
+DNSNetworkChanged
+(
+)
+;
 MutexAutoLock
 dbLock
 (
