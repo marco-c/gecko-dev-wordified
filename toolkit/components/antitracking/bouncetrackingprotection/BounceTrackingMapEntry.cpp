@@ -88,7 +88,11 @@ aSiteHost
 {
 aSiteHost
 =
-mSiteHost
+mSite
+.
+SiteHost
+(
+)
 ;
 return
 NS_OK
@@ -137,7 +141,11 @@ aSiteHost
 {
 aSiteHost
 =
-mSiteHost
+mSite
+.
+SiteHost
+(
+)
 ;
 return
 NS_OK
