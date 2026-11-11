@@ -800,7 +800,7 @@ modified
 ]
     
 def
-__nonzero__
+__bool__
 (
 self
 )
