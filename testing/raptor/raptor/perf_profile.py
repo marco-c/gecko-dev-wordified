@@ -648,7 +648,7 @@ MOZ_DISABLE_CONTENT_SANDBOX
 "
                 
 "
-JIT_OPTION_enableICFramePointers
+JIT_OPTION_enableStubFramePointers
 "
 :
 "
