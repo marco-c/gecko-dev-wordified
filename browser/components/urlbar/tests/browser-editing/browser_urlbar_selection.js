@@ -844,9 +844,8 @@ command
 "
 )
 ;
-contextMenu
-.
-activateItem
+await
+click
 (
 contextMenuItem
 )
