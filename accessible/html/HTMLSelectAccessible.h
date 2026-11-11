@@ -970,17 +970,6 @@ default
 /
 LocalAccessible
 virtual
-EDescriptionValueFlag
-Description
-(
-nsString
-&
-aDescription
-)
-const
-override
-;
-virtual
 void
 Value
 (

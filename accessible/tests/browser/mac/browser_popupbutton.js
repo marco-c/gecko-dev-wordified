@@ -1033,12 +1033,6 @@ waitForMacEvent
 AXFocusedUIElementChanged
 "
 )
-waitForMacEvent
-(
-"
-AXSelectedChildrenChanged
-"
-)
 ]
 )
 ;
