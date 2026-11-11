@@ -8409,6 +8409,8 @@ self
 has_window
 :
                 
+test_window
+=
 self
 .
 protocol
@@ -8422,6 +8424,17 @@ type
 "
 window
 "
+)
+                
+self
+.
+protocol
+.
+base
+.
+set_window
+(
+test_window
 )
                 
 #
