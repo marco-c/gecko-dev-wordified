@@ -23,14 +23,12 @@ once
 #
 include
 <
-stdint
-.
-h
+array
 >
 #
 include
 <
-array
+cstdint
 >
 #
 include

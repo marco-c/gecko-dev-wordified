@@ -214,16 +214,6 @@ const
 noexcept
 {
 return
-const_cast
-<
-CircularBuffer
-*
->
-(
-this
-)
--
->
 PeekImpl
 (
 )
@@ -1007,6 +997,7 @@ T
 PeekImpl
 (
 )
+const
 noexcept
 {
 uint64_t

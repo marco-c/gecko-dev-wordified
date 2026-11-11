@@ -62,7 +62,7 @@ const
 int
 minor_version
 =
-27
+30
 ;
 const
 int
@@ -95,7 +95,7 @@ short_version
 "
 1
 .
-27
+30
 .
 0
 "
@@ -108,7 +108,7 @@ full_version
 "
 1
 .
-27
+30
 .
 0
 "
@@ -148,9 +148,9 @@ build_date
 "
 2026
 -
-05
+10
 -
-13
+22
 "
 ;
 }

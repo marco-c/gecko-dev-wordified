@@ -253,6 +253,12 @@ SamplingResult
 {
 Decision
 decision
+{
+Decision
+:
+:
+DROP
+}
 ;
 /
 /
@@ -329,6 +335,8 @@ bool
 IsRecording
 (
 )
+const
+noexcept
 {
 return
 decision
@@ -354,6 +362,8 @@ bool
 IsSampled
 (
 )
+const
+noexcept
 {
 return
 decision

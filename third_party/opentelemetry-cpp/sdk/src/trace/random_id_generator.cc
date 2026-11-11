@@ -20,9 +20,7 @@ Apache
 #
 include
 <
-stdint
-.
-h
+cstdint
 >
 #
 include

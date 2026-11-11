@@ -23,9 +23,7 @@ once
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include

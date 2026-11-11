@@ -183,12 +183,13 @@ string_view
 {
 public
 :
-typedef
+using
+size_type
+=
 std
 :
 :
 size_t
-size_type
 ;
 static
 constexpr
@@ -442,7 +443,7 @@ length_
 {
 #
 if
-__EXCEPTIONS
+OPENTELEMETRY_HAVE_EXCEPTIONS
 throw
 std
 :

@@ -23,9 +23,7 @@ once
 #
 include
 <
-stddef
-.
-h
+cstddef
 >
 #
 include
@@ -254,7 +252,7 @@ struct
 is_key_value_iterable
 {
 static
-const
+constexpr
 bool
 value
 =

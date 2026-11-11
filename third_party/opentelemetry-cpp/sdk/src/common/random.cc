@@ -382,6 +382,9 @@ uint64_t
 buf_size
 )
 {
+std
+:
+:
 memcpy
 (
 &
@@ -400,6 +403,9 @@ uint64_t
 }
 else
 {
+std
+:
+:
 memcpy
 (
 &
