@@ -5041,7 +5041,7 @@ ETW_ENABLED
 -
 -
 setenv
-JIT_OPTION_enableStubFramePointers
+JIT_OPTION_enableICFramePointers
 =
 true
 "

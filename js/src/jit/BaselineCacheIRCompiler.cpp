@@ -364,7 +364,7 @@ if
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 {
 #
@@ -435,7 +435,7 @@ MOZ_ASSERT
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 ;
 #
@@ -474,7 +474,7 @@ MOZ_ASSERT
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 ;
 #
@@ -711,7 +711,7 @@ if
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 {
 /
@@ -841,7 +841,7 @@ if
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 {
 /
@@ -1283,7 +1283,7 @@ if
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 {
 /
@@ -1693,7 +1693,7 @@ if
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 {
 PopICFrameRegs
@@ -1769,7 +1769,7 @@ if
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 {
 PopICFrameRegs
@@ -12233,7 +12233,7 @@ if
 (
 JitOptions
 .
-enableStubFramePointers
+enableICFramePointers
 )
 {
 baselineFrameReg_
