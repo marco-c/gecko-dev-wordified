@@ -1362,11 +1362,6 @@ mCanRecycle
 false
 ;
 }
-bool
-SupportsDirectComposition
-(
-)
-;
 protected
 :
 BufferSurface
