@@ -1053,6 +1053,16 @@ set
 to
 clipboard
 *
+param
+isPrivateData
+whether
+to
+mark
+the
+clip
+as
+sensitive
+*
 return
 true
 if
