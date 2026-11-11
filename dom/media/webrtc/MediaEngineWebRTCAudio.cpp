@@ -10767,6 +10767,8 @@ aGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 return

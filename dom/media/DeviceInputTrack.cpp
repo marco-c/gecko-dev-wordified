@@ -1638,6 +1638,8 @@ aGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 /

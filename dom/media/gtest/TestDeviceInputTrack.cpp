@@ -579,6 +579,8 @@ aGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 return
@@ -1180,6 +1182,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 /
@@ -1641,6 +1645,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 /
@@ -2412,6 +2418,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 /
@@ -3091,6 +3099,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 /
@@ -3518,6 +3528,8 @@ mGraph
 AddTrack
 (
 track
+{
+}
 )
 ;
 /
