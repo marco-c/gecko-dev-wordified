@@ -947,11 +947,16 @@ PRThread
 *
 acceptorThread
 ;
+#
+ifdef
+PR_LOGGING
 static
 PRLogModuleInfo
 *
 lm
 ;
+#
+endif
 #
 define
 PRINTF
@@ -18700,6 +18705,9 @@ PR_TRUE
 ;
 }
 }
+#
+ifdef
+PR_LOGGING
 lm
 =
 PR_NewLogModule
@@ -18709,6 +18717,8 @@ TestCase
 "
 )
 ;
+#
+endif
 if
 (
 fileName

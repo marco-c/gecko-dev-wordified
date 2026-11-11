@@ -310,11 +310,16 @@ PRThread
 *
 acceptorThread
 ;
+#
+ifdef
+PR_LOGGING
 static
 PRLogModuleInfo
 *
 lm
 ;
+#
+endif
 #
 define
 PRINTF
@@ -1928,7 +1933,7 @@ PR_Lock
 qLock
 )
 ;
-PORT_Assert
+PORT_AssertArg
 (
 threadCount
 =
@@ -7753,6 +7758,9 @@ PR_SetFDInheritable
 "
 )
 ;
+#
+ifdef
+PR_LOGGING
 lm
 =
 PR_NewLogModule
@@ -7762,6 +7770,8 @@ TestCase
 "
 )
 ;
+#
+endif
 /
 *
 set

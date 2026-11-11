@@ -499,10 +499,9 @@ keyType
 ecMontKey
 )
 ;
-SECKEYPrivateKeyInfo
-*
+ScopedSECKEYPrivateKeyInfo
 pkInfo
-=
+(
 nss_test
 :
 :
@@ -514,6 +513,7 @@ get
 (
 )
 nullptr
+)
 )
 ;
 ASSERT_TRUE
@@ -575,12 +575,6 @@ GetParam
 .
 pkcs8_
 exported
-)
-;
-SECKEY_DestroyPrivateKeyInfo
-(
-pkInfo
-PR_TRUE
 )
 ;
 }
@@ -1807,10 +1801,9 @@ ASSERT_TRUE
 pub
 )
 ;
-SECKEYPrivateKeyInfo
-*
+ScopedSECKEYPrivateKeyInfo
 pkInfo
-=
+(
 nss_test
 :
 :
@@ -1822,6 +1815,7 @@ get
 (
 )
 nullptr
+)
 )
 ;
 ASSERT_TRUE
@@ -1945,12 +1939,6 @@ unsigned
 int
 )
 0
-)
-;
-SECKEY_DestroyPrivateKeyInfo
-(
-pkInfo
-PR_TRUE
 )
 ;
 }
