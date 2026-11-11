@@ -211,9 +211,6 @@ buttonContainer
 querySelector
 (
 "
-.
-notification
--
 button
 "
 )

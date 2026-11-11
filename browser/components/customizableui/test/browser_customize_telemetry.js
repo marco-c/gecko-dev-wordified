@@ -878,7 +878,7 @@ enabled
 ;
 resetButton
 .
-click
+doCommand
 (
 )
 ;
@@ -993,7 +993,7 @@ visible
 ;
 undoButton
 .
-click
+doCommand
 (
 )
 ;
