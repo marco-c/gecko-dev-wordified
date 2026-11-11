@@ -913,15 +913,6 @@ AnimationEffect
 aEffect
 )
 ;
-void
-RemovedNamedTimelineReferenceFromJS
-(
-const
-nsAtom
-*
-aName
-)
-;
 AnimationTimeline
 *
 GetTimelineFromJS
