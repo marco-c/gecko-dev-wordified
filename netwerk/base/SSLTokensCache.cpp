@@ -4968,7 +4968,7 @@ tokenInfo
 ;
 if
 (
-SSL_GetResumptionTokenInfo
+SSL_GetResumptionTokenInfoWithFlags
 (
 aToken
 aTokenLen
@@ -4978,6 +4978,7 @@ sizeof
 (
 tokenInfo
 )
+SSL_RESUMPTION_TOKEN_INFO_NO_PEER_CERT
 )
 !
 =
