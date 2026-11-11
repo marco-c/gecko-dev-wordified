@@ -1467,11 +1467,6 @@ KEY_Tab
 window
 )
 ;
-await
-flakyWaitForManyIdles
-(
-)
-;
 }
 EventUtils
 .
