@@ -378,9 +378,9 @@ activity
 -
 stream
 .
-discoverystream
+feeds
 .
-enabled
+discoverystreamfeed
 "
 false
 ]
