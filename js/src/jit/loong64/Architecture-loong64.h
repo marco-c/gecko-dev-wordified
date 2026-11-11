@@ -3363,6 +3363,9 @@ JumpImmediateRange
 INT32_MAX
 ;
 struct
+VRegister
+;
+struct
 FloatRegister
 {
 typedef
@@ -3838,6 +3841,12 @@ set
 #
 endif
 }
+VRegister
+toV
+(
+)
+const
+;
 constexpr
 uint32_t
 size
