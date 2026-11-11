@@ -24,6 +24,19 @@ extension_data
 )
 :
     
+#
+Use
+"
+path
+"
+as
+it
+is
+supported
+more
+widely
+.
+    
 web_extension
 =
 await
@@ -43,17 +56,17 @@ type
 "
 :
 "
-base64
+path
 "
             
 "
-value
+path
 "
 :
 extension_data
 [
 "
-base64
+path
 "
 ]
         
