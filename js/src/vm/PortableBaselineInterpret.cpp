@@ -4997,7 +4997,12 @@ GuardIndexIsNotDenseElement
 ;
 DECLARE_CACHEOP_CASE
 (
-LoadFixedSlotTypedResult
+LoadReservedFixedSlotResult
+)
+;
+DECLARE_CACHEOP_CASE
+(
+LoadReservedFixedSlotTypedResult
 )
 ;
 DECLARE_CACHEOP_CASE
@@ -18420,7 +18425,11 @@ LoadFixedSlotResult
 )
 CACHEOP_CASE_FALLTHROUGH
 (
-LoadFixedSlotTypedResult
+LoadReservedFixedSlotResult
+)
+CACHEOP_CASE_FALLTHROUGH
+(
+LoadReservedFixedSlotTypedResult
 )
 {
 ObjOperandId
@@ -18449,7 +18458,7 @@ cacheop
 CacheOp
 :
 :
-LoadFixedSlotTypedResult
+LoadReservedFixedSlotTypedResult
 )
 {
 /
