@@ -967,6 +967,9 @@ buttonContainer
 querySelector
 (
 "
+.
+notification
+-
 button
 :
 last
@@ -1727,6 +1730,9 @@ buttonContainer
 querySelector
 (
 "
+.
+notification
+-
 button
 :
 last
@@ -2857,6 +2863,9 @@ buttonContainer
 querySelector
 (
 "
+.
+notification
+-
 button
 :
 last
@@ -3033,6 +3042,9 @@ buttonContainer
 querySelector
 (
 "
+.
+notification
+-
 button
 :
 first
@@ -3248,6 +3260,9 @@ buttonContainer
 querySelector
 (
 "
+.
+notification
+-
 button
 :
 first

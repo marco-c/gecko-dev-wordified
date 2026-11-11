@@ -757,6 +757,9 @@ buttonContainer
 querySelector
 (
 "
+.
+notification
+-
 button
 "
 )
@@ -892,6 +895,11 @@ translateFragment
 button
 )
 ;
+await
+button
+.
+updateComplete
+;
 is
 (
 button
@@ -918,12 +926,9 @@ is
 (
 button
 .
-getAttribute
-(
-"
-accesskey
-"
-)
+buttonEl
+.
+accessKey
 accessKey
 "
 notification

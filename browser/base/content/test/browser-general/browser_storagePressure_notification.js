@@ -756,6 +756,8 @@ buttonContainer
 getElementsByTagName
 (
 "
+moz
+-
 button
 "
 )

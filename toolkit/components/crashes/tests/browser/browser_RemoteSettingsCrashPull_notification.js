@@ -1189,6 +1189,9 @@ notification
 querySelector
 (
 '
+.
+notification
+-
 button
 [
 data
@@ -1846,6 +1849,9 @@ notification2
 querySelector
 (
 '
+.
+notification
+-
 button
 [
 data
@@ -2412,6 +2418,9 @@ notification
 querySelector
 (
 '
+.
+notification
+-
 button
 [
 data
