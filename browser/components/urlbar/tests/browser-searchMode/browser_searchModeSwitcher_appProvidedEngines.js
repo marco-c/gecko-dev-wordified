@@ -256,11 +256,6 @@ cleanup
 (
 )
 ;
-await
-resetApplicationProvidedEngines
-(
-)
-;
 }
 )
 ;
