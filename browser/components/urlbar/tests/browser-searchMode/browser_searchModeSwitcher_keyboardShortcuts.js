@@ -344,7 +344,6 @@ window
 value
 :
 "
-test
 "
 }
 )
