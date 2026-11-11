@@ -376,6 +376,18 @@ reload
 "
 )
 ;
+/
+/
+Wait
+for
+the
+script
+and
+style
+soources
+to
+be
+added
 await
 waitForDispatch
 (
@@ -385,6 +397,7 @@ store
 "
 ADD_SOURCES
 "
+2
 )
 ;
 reloads
@@ -426,6 +439,7 @@ store
 "
 ADD_SOURCES
 "
+2
 )
 ;
 reloads
