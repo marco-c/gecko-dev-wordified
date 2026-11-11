@@ -271,14 +271,6 @@ ChildToParentInternalResponse
 aIPCResponse
 )
 ;
-void
-SerializeChildToParentInternalResponseBody
-(
-ChildToParentInternalResponse
-*
-aIPCResponse
-)
-;
 ParentToParentInternalResponse
 ToParentToParentInternalResponse
 (
