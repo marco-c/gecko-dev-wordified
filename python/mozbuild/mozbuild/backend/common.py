@@ -2088,25 +2088,32 @@ dist
 /
 bin
 .
-Other
-platforms
+Outside
+Windows
         
 #
+they
 use
 an
 rpath
-while
+and
+on
+Linux
+and
 Windows
-stages
-the
-libraries
-next
-to
-the
-test
+compose_env
+also
+adds
         
 #
-binaries
+dist
+/
+bin
+to
+the
+library
+search
+path
 .
         
 if
