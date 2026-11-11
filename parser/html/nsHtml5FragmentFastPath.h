@@ -138,6 +138,7 @@ ups
 plain
 *
 attributes
+comments
 and
 text
 without
