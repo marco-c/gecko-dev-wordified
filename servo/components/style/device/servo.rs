@@ -90,7 +90,10 @@ use
 crate
 :
 :
-custom_properties
+substitution
+:
+:
+env
 :
 :
 CssEnvironment
@@ -781,6 +784,12 @@ Box
 dyn
 FontMetricsProvider
 >
+submit_string
+:
+Box
+<
+str
+>
 media_data
 :
 MediaData
@@ -958,6 +967,7 @@ AbsoluteColor
 :
 BLACK
 )
+submit_string
 extra
 :
 ExtraDeviceData
