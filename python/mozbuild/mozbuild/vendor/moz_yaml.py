@@ -1514,6 +1514,16 @@ min
 )
             
 "
+artifact
+-
+build
+"
+:
+Boolean
+(
+)
+            
+"
 tasks
 "
 :
