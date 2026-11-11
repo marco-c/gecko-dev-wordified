@@ -304,13 +304,6 @@ h
 #
 include
 "
-nsIWebBrowser
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -1351,7 +1344,7 @@ the
 lifetimes
 of
 the
-nsIWebBrowser
+nsWebBrowser
 and
 container
 window
