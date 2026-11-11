@@ -718,6 +718,8 @@ querySelector
 (
 "
 .
+page
+-
 title
 "
 )
@@ -1448,6 +1450,8 @@ querySelector
 "
 a
 .
+page
+-
 title
 "
 )
