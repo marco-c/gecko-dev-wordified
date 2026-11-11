@@ -92,6 +92,8 @@ CT_LOW
     
 CT_MEDIUM
     
+CT_VERY_LOW
+    
 BugbugTimeoutException
     
 get_confidence_threshold
@@ -680,9 +682,7 @@ pushes
 args
 =
 (
-0
-.
-3
+CT_VERY_LOW
 False
 True
 FALLBACK
