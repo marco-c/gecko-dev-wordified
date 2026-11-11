@@ -46138,7 +46138,7 @@ uri
 mActiveEntry
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -46153,7 +46153,7 @@ mLoadingEntry
 >
 mInfo
 .
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -77641,7 +77641,7 @@ activeURI
 mActiveEntry
 -
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;
@@ -77661,7 +77661,7 @@ GetLoadingSessionHistoryInfo
 >
 mInfo
 .
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 ;

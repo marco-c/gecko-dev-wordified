@@ -1026,7 +1026,7 @@ already_AddRefed
 <
 nsIURI
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 const
@@ -2889,7 +2889,7 @@ already_AddRefed
 <
 nsIURI
 >
-GetURIOrInheritedForAboutBlank
+GetURIOrInheritedForAboutBlankOrSrcdoc
 (
 )
 const
