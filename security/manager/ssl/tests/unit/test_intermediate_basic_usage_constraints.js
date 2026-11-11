@@ -73,6 +73,7 @@ trust
 function
 test_cert_for_usages
 (
+certNick
 certChainNicks
 expected_usages
 )
@@ -86,19 +87,11 @@ certs
 for
 (
 let
-i
-in
+certNick
+of
 certChainNicks
 )
 {
-let
-certNick
-=
-certChainNicks
-[
-i
-]
-;
 let
 certPEM
 =
@@ -127,6 +120,45 @@ push
 (
 certdb
 .
+addCertFromBase64
+(
+pemToBase64
+(
+certPEM
+)
+"
+"
+)
+)
+;
+}
+let
+certPEM
+=
+readFile
+(
+do_get_file
+(
+"
+test_intermediate_basic_usage_constraints
+/
+"
++
+certNick
++
+"
+.
+pem
+"
+)
+false
+)
+;
+let
+cert
+=
+certdb
+.
 constructX509FromBase64
 (
 pemToBase64
@@ -134,16 +166,6 @@ pemToBase64
 certPEM
 )
 )
-)
-;
-}
-let
-cert
-=
-certs
-[
-0
-]
 ;
 return
 asyncTestCertificateUsages
@@ -241,8 +263,8 @@ CTu
 await
 test_cert_for_usages
 (
-[
 ca_name
+[
 ]
 ca_usages
 )
@@ -263,7 +285,6 @@ EE
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -271,6 +292,7 @@ no
 -
 extensions
 "
+[
 ]
 ee_usages
 )
@@ -303,7 +325,6 @@ it
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -313,6 +334,7 @@ no
 -
 extensions
 "
+[
 "
 int
 -
@@ -344,7 +366,6 @@ EE
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -354,6 +375,7 @@ a
 -
 ca
 "
+[
 ]
 ee_usages
 )
@@ -386,7 +408,6 @@ it
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -398,6 +419,7 @@ a
 -
 ca
 "
+[
 "
 int
 -
@@ -451,7 +473,6 @@ entity
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -463,6 +484,7 @@ asserts
 -
 keyCertSign
 "
+[
 ]
 ee_usages
 )
@@ -470,7 +492,6 @@ ee_usages
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -484,6 +505,7 @@ asserts
 -
 keyCertSign
 "
+[
 "
 int
 -
@@ -523,7 +545,6 @@ zero
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -531,6 +552,7 @@ limited
 -
 depth
 "
+[
 ]
 ca_usages
 )
@@ -564,7 +586,6 @@ cert
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -574,6 +595,7 @@ limited
 -
 depth
 "
+[
 "
 int
 -
@@ -625,7 +647,6 @@ true
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -635,6 +656,7 @@ depth
 -
 invalid
 "
+[
 "
 int
 -
@@ -650,7 +672,6 @@ depth
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -662,6 +683,7 @@ depth
 -
 invalid
 "
+[
 "
 int
 -
@@ -699,7 +721,6 @@ keyCertSign
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -711,6 +732,7 @@ no
 -
 eku
 "
+[
 ]
 ca_usages
 )
@@ -718,7 +740,6 @@ ca_usages
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -732,6 +753,7 @@ no
 -
 eku
 "
+[
 "
 int
 -
@@ -811,7 +833,6 @@ uses
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -823,6 +844,7 @@ no
 -
 eku
 "
+[
 ]
 [
 ]
@@ -831,7 +853,6 @@ eku
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -845,6 +866,7 @@ no
 -
 eku
 "
+[
 "
 int
 -
@@ -903,7 +925,6 @@ OK
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -915,6 +936,7 @@ no
 -
 eku
 "
+[
 ]
 ca_usages
 )
@@ -922,7 +944,6 @@ ca_usages
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -936,6 +957,7 @@ no
 -
 eku
 "
+[
 "
 int
 -
@@ -994,7 +1016,6 @@ clientAuth
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -1006,6 +1027,7 @@ server
 -
 eku
 "
+[
 ]
 ca_usages
 )
@@ -1013,7 +1035,6 @@ ca_usages
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -1027,6 +1048,7 @@ server
 -
 eku
 "
+[
 "
 int
 -
@@ -1086,7 +1108,6 @@ clientAuth
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -1098,6 +1119,7 @@ server
 -
 eku
 "
+[
 ]
 [
 ]
@@ -1106,7 +1128,6 @@ eku
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -1120,6 +1141,7 @@ server
 -
 eku
 "
+[
 "
 int
 -
@@ -1178,7 +1200,6 @@ clientAuth
 await
 test_cert_for_usages
 (
-[
 "
 int
 -
@@ -1190,6 +1211,7 @@ server
 -
 eku
 "
+[
 ]
 ca_usages
 )
@@ -1197,7 +1219,6 @@ ca_usages
 await
 test_cert_for_usages
 (
-[
 "
 ee
 -
@@ -1211,6 +1232,7 @@ server
 -
 eku
 "
+[
 "
 int
 -
