@@ -419,7 +419,9 @@ cleanup
 )
 ;
 await
-resetApplicationProvidedEngines
+SearchTestUtils
+.
+updateRemoteSettingsConfig
 (
 )
 ;
@@ -858,11 +860,6 @@ null
 )
 ;
 cleanup
-(
-)
-;
-await
-resetApplicationProvidedEngines
 (
 )
 ;

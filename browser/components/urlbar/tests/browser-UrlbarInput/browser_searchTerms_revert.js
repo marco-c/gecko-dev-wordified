@@ -597,8 +597,11 @@ gBrowser
 tab
 )
 ;
+UrlbarTestUtils
+.
 assertSearchStringIsInUrlbar
 (
+window
 SEARCH_STRING
 {
 pageProxyState
@@ -852,8 +855,11 @@ focused
 await
 pageShowPromise
 ;
+UrlbarTestUtils
+.
 assertSearchStringIsInUrlbar
 (
+window
 SEARCH_STRING
 )
 ;
@@ -898,8 +904,11 @@ focused
 "
 )
 ;
+UrlbarTestUtils
+.
 assertSearchStringIsInUrlbar
 (
+window
 "
 another
 search
