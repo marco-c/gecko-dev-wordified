@@ -7972,10 +7972,8 @@ instance
 field
 is
 a
-number
-literal
-optionally
-negated
+simple
+constant
 .
 bool
 hasOnlyInlinableFields
