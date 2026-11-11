@@ -535,6 +535,9 @@ Head
 (
 )
 aHost
+Nothing
+(
+)
 result
 ttl
 alias
