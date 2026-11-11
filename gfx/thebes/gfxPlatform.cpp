@@ -6320,7 +6320,7 @@ webgl_disabled
 StaticPrefs
 :
 :
-webgl_disable_angle
+webgl_disable_angle_AtStartup
 (
 )
 #
