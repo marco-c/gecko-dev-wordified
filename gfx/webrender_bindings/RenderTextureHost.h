@@ -220,7 +220,7 @@ class
 RenderTextureHostWrapper
 ;
 class
-RenderDMABUFTextureHost
+RenderLinuxTextureHost
 ;
 void
 ActivateBindAndTexParameteri
@@ -817,9 +817,9 @@ nullptr
 ;
 }
 virtual
-RenderDMABUFTextureHost
+RenderLinuxTextureHost
 *
-AsRenderDMABUFTextureHost
+AsRenderLinuxTextureHost
 (
 )
 {
