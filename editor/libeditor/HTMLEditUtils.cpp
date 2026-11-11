@@ -10745,6 +10745,7 @@ EditorRawLineBreak
 IsSignificant
 (
 aTreatAsUnnecessaryLineBreaks
+aAncestorLimiter
 )
 )
 ;
