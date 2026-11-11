@@ -4601,7 +4601,15 @@ asMasm
 (
 )
 .
-currentOffset
+indirectTarget
+(
+TargetKind
+:
+:
+Jump
+)
+.
+offset
 (
 )
 ;
@@ -5656,7 +5664,7 @@ asMasm
 )
 rsp
 rax
-rbx
+r11
 rcx
 )
 ;
@@ -6526,7 +6534,7 @@ rhs
 ;
 /
 /
-rbx
+r11
 is
 chosen
 arbitrarily
@@ -6553,7 +6561,7 @@ rhs
 rdx
 )
 ?
-rbx
+r11
 :
 rhs
 ;
