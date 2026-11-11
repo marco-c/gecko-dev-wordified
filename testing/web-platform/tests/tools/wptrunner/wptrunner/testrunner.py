@@ -6883,6 +6883,9 @@ restart
 True
             
 elif
+not
+restart
+and
 test_group
 .
 test_type
