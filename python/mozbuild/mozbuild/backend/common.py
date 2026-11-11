@@ -1850,6 +1850,11 @@ rustc_flags
 (
 )
         
+inputs
+=
+(
+)
+        
 #
 Windows
 programs
@@ -1920,6 +1925,24 @@ module
 res
 "
 )
+            
+inputs
+=
+(
+mozpath
+.
+join
+(
+first
+.
+relobjdir
+"
+module
+.
+res
+"
+)
+)
         
 return
 CargoCommand
@@ -1970,6 +1993,10 @@ program
 in
 programs
 )
+            
+inputs
+=
+inputs
             
 features
 =
