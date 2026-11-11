@@ -18,6 +18,8 @@ script
 =
 .
 /
+resources
+/
 test
 -
 helper

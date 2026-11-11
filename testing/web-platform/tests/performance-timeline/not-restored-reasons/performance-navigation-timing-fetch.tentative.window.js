@@ -24,6 +24,8 @@ script
 =
 .
 /
+resources
+/
 test
 -
 helper
