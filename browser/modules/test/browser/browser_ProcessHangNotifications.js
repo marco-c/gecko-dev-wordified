@@ -659,6 +659,8 @@ buttonContainer
 getElementsByTagName
 (
 "
+moz
+-
 button
 "
 )
@@ -910,6 +912,8 @@ buttonContainer
 getElementsByTagName
 (
 "
+moz
+-
 button
 "
 )
