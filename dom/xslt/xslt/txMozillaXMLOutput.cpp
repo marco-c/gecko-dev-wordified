@@ -908,7 +908,7 @@ aNsID
 aLocalName
 aPrefix
 aValue
-false
+true
 IsKnownNewAttr
 :
 :
