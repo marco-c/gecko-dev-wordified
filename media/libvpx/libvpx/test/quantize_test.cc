@@ -1304,6 +1304,13 @@ Values
 make_tuple
 (
 &
+vp8_fast_quantize_b_lsx
+&
+vp8_fast_quantize_b_c
+)
+make_tuple
+(
+&
 vp8_regular_quantize_b_lsx
 &
 vp8_regular_quantize_b_c
