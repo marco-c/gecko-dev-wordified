@@ -480,7 +480,7 @@ op
 SuppressWarnings
 (
 "
-DEPRECATION
+deprecation
 "
 )
 public

@@ -6263,6 +6263,7 @@ final
 GeckoSession
 session
 Nullable
+final
 TranslationState
 translationState
 )
@@ -8061,6 +8062,14 @@ TranslationsException
 extends
 Exception
 {
+private
+static
+final
+long
+serialVersionUID
+=
+1L
+;
 /
 *
 *

@@ -427,6 +427,7 @@ JSONObject
 onGetExperimentFeature
 (
 NonNull
+final
 String
 feature
 )
@@ -658,6 +659,7 @@ Void
 onRecordExposureEvent
 (
 NonNull
+final
 String
 feature
 )
@@ -889,9 +891,11 @@ Void
 onRecordExperimentExposureEvent
 (
 NonNull
+final
 String
 feature
 NonNull
+final
 String
 slug
 )
@@ -1039,9 +1043,11 @@ Void
 onRecordMalformedConfigurationEvent
 (
 NonNull
+final
 String
 feature
 NonNull
+final
 String
 part
 )
@@ -1112,6 +1118,14 @@ ExperimentException
 extends
 Exception
 {
+private
+static
+final
+long
+serialVersionUID
+=
+1L
+;
 /
 *
 *
