@@ -1319,6 +1319,7 @@ Cursor
 FieldSizing
 ImeMode
 Inert
+Interactivity
 MozTheme
 PointerEvents
 ScrollbarColor
