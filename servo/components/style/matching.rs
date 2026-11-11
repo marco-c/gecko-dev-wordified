@@ -4394,6 +4394,12 @@ dirty
 =
 false
 ;
+self
+.
+set_may_have_animations
+(
+)
+;
 shared_context
 .
 animations
