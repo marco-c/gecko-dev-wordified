@@ -143,13 +143,6 @@ browser_1267910_page
 html
 "
 triggeringPrincipal_base64
-charset
-:
-"
-UTF
--
-8
-"
 ID
 :
 0
@@ -404,13 +397,6 @@ browser_1267910_page
 html
 "
 triggeringPrincipal_base64
-charset
-:
-"
-UTF
--
-8
-"
 ID
 :
 0
