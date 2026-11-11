@@ -5218,17 +5218,6 @@ to
 care
 about
 .
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 {
 use
 crate
