@@ -1284,8 +1284,6 @@ Interned
 backdrop
 captures
 Interned
-polygons
-Interned
 box
 -
 shadows
@@ -2309,7 +2307,7 @@ usize
 ;
 pub
 const
-INTERNED_POLYGONS
+INTERNED_BOX_SHADOWS
 :
 usize
 =
@@ -2317,7 +2315,7 @@ usize
 ;
 pub
 const
-INTERNED_BOX_SHADOWS
+DEPTH_TARGETS_MEM
 :
 usize
 =
@@ -2325,7 +2323,7 @@ usize
 ;
 pub
 const
-DEPTH_TARGETS_MEM
+SHADER_BUILD_TIME
 :
 usize
 =
@@ -2333,7 +2331,7 @@ usize
 ;
 pub
 const
-SHADER_BUILD_TIME
+RENDER_REASON_FIRST
 :
 usize
 =
@@ -2341,7 +2339,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_FIRST
+RENDER_REASON_SCENE
 :
 usize
 =
@@ -2349,7 +2347,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_SCENE
+RENDER_REASON_ANIMATED_PROPERTY
 :
 usize
 =
@@ -2357,7 +2355,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_ANIMATED_PROPERTY
+RENDER_REASON_RESOURCE_UPDATE
 :
 usize
 =
@@ -2365,7 +2363,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_RESOURCE_UPDATE
+RENDER_REASON_ASYNC_IMAGE
 :
 usize
 =
@@ -2373,7 +2371,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_ASYNC_IMAGE
+RENDER_REASON_CLEAR_RESOURCES
 :
 usize
 =
@@ -2381,7 +2379,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_CLEAR_RESOURCES
+RENDER_REASON_APZ
 :
 usize
 =
@@ -2389,7 +2387,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_APZ
+RENDER_REASON_RESIZE
 :
 usize
 =
@@ -2397,7 +2395,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_RESIZE
+RENDER_REASON_WIDGET
 :
 usize
 =
@@ -2405,7 +2403,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_WIDGET
+RENDER_REASON_TEXTURE_CACHE_FLUSH
 :
 usize
 =
@@ -2413,7 +2411,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_TEXTURE_CACHE_FLUSH
+RENDER_REASON_SNAPSHOT
 :
 usize
 =
@@ -2421,7 +2419,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_SNAPSHOT
+RENDER_REASON_POST_RESOURCE_UPDATE_HOOKS
 :
 usize
 =
@@ -2429,7 +2427,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_POST_RESOURCE_UPDATE_HOOKS
+RENDER_REASON_CONFIG_CHANGE
 :
 usize
 =
@@ -2437,7 +2435,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_CONFIG_CHANGE
+RENDER_REASON_CONTENT_SYNC
 :
 usize
 =
@@ -2445,7 +2443,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_CONTENT_SYNC
+RENDER_REASON_FLUSH
 :
 usize
 =
@@ -2453,7 +2451,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_FLUSH
+RENDER_REASON_TESTING
 :
 usize
 =
@@ -2461,7 +2459,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_TESTING
+RENDER_REASON_OTHER
 :
 usize
 =
@@ -2469,7 +2467,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_OTHER
+RENDER_REASON_VSYNC
 :
 usize
 =
@@ -2477,7 +2475,7 @@ usize
 ;
 pub
 const
-RENDER_REASON_VSYNC
+TEXTURES_CREATED
 :
 usize
 =
@@ -2485,7 +2483,7 @@ usize
 ;
 pub
 const
-TEXTURES_CREATED
+TEXTURES_DELETED
 :
 usize
 =
@@ -2493,7 +2491,7 @@ usize
 ;
 pub
 const
-TEXTURES_DELETED
+SLOW_FRAME_CPU_COUNT
 :
 usize
 =
@@ -2501,7 +2499,7 @@ usize
 ;
 pub
 const
-SLOW_FRAME_CPU_COUNT
+SLOW_FRAME_GPU_COUNT
 :
 usize
 =
@@ -2509,7 +2507,7 @@ usize
 ;
 pub
 const
-SLOW_FRAME_GPU_COUNT
+SLOW_FRAME_BUILD_COUNT
 :
 usize
 =
@@ -2517,7 +2515,7 @@ usize
 ;
 pub
 const
-SLOW_FRAME_BUILD_COUNT
+SLOW_UPLOAD_COUNT
 :
 usize
 =
@@ -2525,7 +2523,7 @@ usize
 ;
 pub
 const
-SLOW_UPLOAD_COUNT
+SLOW_RENDER_COUNT
 :
 usize
 =
@@ -2533,7 +2531,7 @@ usize
 ;
 pub
 const
-SLOW_RENDER_COUNT
+SLOW_DRAW_CALLS_COUNT
 :
 usize
 =
@@ -2541,7 +2539,7 @@ usize
 ;
 pub
 const
-SLOW_DRAW_CALLS_COUNT
+SLOW_TARGETS_COUNT
 :
 usize
 =
@@ -2549,7 +2547,7 @@ usize
 ;
 pub
 const
-SLOW_TARGETS_COUNT
+SLOW_BLOB_COUNT
 :
 usize
 =
@@ -2557,7 +2555,7 @@ usize
 ;
 pub
 const
-SLOW_BLOB_COUNT
+SLOW_SCROLL_AFTER_SCENE_COUNT
 :
 usize
 =
@@ -2565,7 +2563,7 @@ usize
 ;
 pub
 const
-SLOW_SCROLL_AFTER_SCENE_COUNT
+GPU_BUFFER_MEM
 :
 usize
 =
@@ -2573,7 +2571,7 @@ usize
 ;
 pub
 const
-GPU_BUFFER_MEM
+GPU_TOTAL_MEM
 :
 usize
 =
@@ -2581,7 +2579,7 @@ usize
 ;
 pub
 const
-GPU_TOTAL_MEM
+FRAME_SEND_TIME
 :
 usize
 =
@@ -2589,7 +2587,7 @@ usize
 ;
 pub
 const
-FRAME_SEND_TIME
+UPDATE_DOCUMENT_TIME
 :
 usize
 =
@@ -2597,7 +2595,7 @@ usize
 ;
 pub
 const
-UPDATE_DOCUMENT_TIME
+COMPOSITOR_SURFACE_UNDERLAYS
 :
 usize
 =
@@ -2605,7 +2603,7 @@ usize
 ;
 pub
 const
-COMPOSITOR_SURFACE_UNDERLAYS
+COMPOSITOR_SURFACE_OVERLAYS
 :
 usize
 =
@@ -2613,19 +2611,11 @@ usize
 ;
 pub
 const
-COMPOSITOR_SURFACE_OVERLAYS
-:
-usize
-=
-132
-;
-pub
-const
 COMPOSITOR_SURFACE_BLITS
 :
 usize
 =
-133
+132
 ;
 /
 /
@@ -2676,7 +2666,7 @@ VISIBILITY_VISITED_PRIMS
 :
 usize
 =
-134
+133
 ;
 /
 /
@@ -2716,7 +2706,7 @@ PREPARE_VISITED_PRIMS
 :
 usize
 =
-135
+134
 ;
 /
 /
@@ -2764,7 +2754,7 @@ PREPARE_CMD_TARGETS
 :
 usize
 =
-136
+135
 ;
 /
 /
@@ -2785,7 +2775,7 @@ PREPARE_PICTURES
 :
 usize
 =
-137
+136
 ;
 /
 /
@@ -2873,7 +2863,7 @@ INTERN_INSERTIONS
 :
 usize
 =
-138
+137
 ;
 /
 /
@@ -2914,7 +2904,7 @@ INTERN_REMOVALS
 :
 usize
 =
-139
+138
 ;
 /
 /
@@ -2995,7 +2985,7 @@ OFF_GRID_COORDS
 :
 usize
 =
-140
+139
 ;
 /
 /
@@ -3110,7 +3100,7 @@ VIS_CLIP_PROJECTIONS
 :
 usize
 =
-141
+140
 ;
 /
 /
@@ -3156,7 +3146,7 @@ VIS_CLIP_PROJECTION_FAILS
 :
 usize
 =
-142
+141
 ;
 /
 /
@@ -3203,7 +3193,7 @@ VIS_CLIP_REJECTS
 :
 usize
 =
-143
+142
 ;
 /
 /
@@ -3253,7 +3243,7 @@ VIS_CULLING_RECT_FALLBACKS
 :
 usize
 =
-144
+143
 ;
 /
 /
@@ -3311,7 +3301,7 @@ VIS_CLIP_INDETERMINATE
 :
 usize
 =
-145
+144
 ;
 pub
 const
@@ -3319,7 +3309,7 @@ INTERNED_PATHS
 :
 usize
 =
-146
+145
 ;
 /
 /
@@ -3340,7 +3330,7 @@ PATH_FILLS
 :
 usize
 =
-147
+146
 ;
 /
 /
@@ -3361,7 +3351,7 @@ PATH_CLIPS
 :
 usize
 =
-148
+147
 ;
 pub
 const
@@ -3369,7 +3359,7 @@ NUM_PROFILER_EVENTS
 :
 usize
 =
-149
+148
 ;
 pub
 struct
@@ -5700,22 +5690,6 @@ renders
 "
 "
 INTERNED_BACKDROP_RENDERS
-Expected
-:
-:
-none
-(
-)
-)
-int
-(
-"
-Interned
-polygons
-"
-"
-"
-INTERNED_POLYGONS
 Expected
 :
 :

@@ -1322,7 +1322,10 @@ crate
 render_backend
 :
 :
+{
 DataStores
+DlStores
+}
 ;
 use
 crate
@@ -16922,6 +16925,10 @@ data_stores
 :
 &
 DataStores
+dl_stores
+:
+&
+DlStores
 pic_context
 :
 &
@@ -17295,9 +17302,9 @@ frame
 clip_mask_instances
 prim_spatial_node_index
 &
-data_stores
+dl_stores
 .
-clip
+clips
 use_quads
 &
 mut

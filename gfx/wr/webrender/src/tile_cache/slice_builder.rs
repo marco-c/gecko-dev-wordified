@@ -3403,8 +3403,6 @@ is_rcs
 match
 clip_node_data
 .
-key
-.
 kind
 {
 ClipItemKeyKind
@@ -3769,8 +3767,6 @@ match
 accumulated_rounded_rect
 clip_node_data
 .
-key
-.
 kind
 )
 {
@@ -3942,8 +3938,6 @@ Clip
 )
 =
 clip_node_data
-.
-key
 .
 kind
 {
