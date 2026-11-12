@@ -5092,6 +5092,7 @@ webrtc
 CopyOnWriteBuffer
 packet_buffer
 (
+{
 packet
 .
 data
@@ -5102,6 +5103,7 @@ packet
 len
 (
 )
+}
 )
 ;
 webrtc
@@ -5776,6 +5778,7 @@ webrtc
 :
 CopyOnWriteBuffer
 (
+{
 packet
 .
 data
@@ -5786,6 +5789,7 @@ packet
 len
 (
 )
+}
 )
 )
 ;
