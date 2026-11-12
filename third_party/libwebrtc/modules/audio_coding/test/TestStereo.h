@@ -115,6 +115,11 @@ memory
 >
 #
 include
+<
+string
+>
+#
+include
 "
 api
 /
@@ -416,6 +421,11 @@ int16_t
 test_number
 )
 ;
+void
+CloseOutFile
+(
+)
+;
 const
 Environment
 env_
@@ -458,6 +468,12 @@ in_file_mono_
 ;
 PCMFile
 out_file_
+;
+std
+:
+:
+string
+out_file_name_
 ;
 int16_t
 test_cntr_

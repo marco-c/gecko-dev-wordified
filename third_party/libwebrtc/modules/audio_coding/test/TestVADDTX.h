@@ -113,6 +113,11 @@ optional
 >
 #
 include
+<
+string
+>
+#
+include
 "
 absl
 /
@@ -697,6 +702,12 @@ expect_dtx_enabled
 ;
 int
 output_file_num_
+;
+std
+:
+:
+string
+out_filename_
 ;
 }
 ;

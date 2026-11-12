@@ -1107,6 +1107,17 @@ Close
 (
 )
 ;
+EXPECT_TRUE
+(
+test
+:
+:
+RemoveFile
+(
+fileName
+)
+)
+;
 #
 endif
 }

@@ -108,6 +108,11 @@ optional
 >
 #
 include
+<
+string
+>
+#
+include
 "
 api
 /
@@ -305,6 +310,11 @@ int16_t
 testNumber
 )
 ;
+void
+CloseOutFile
+(
+)
+;
 const
 Environment
 env_
@@ -356,6 +366,12 @@ _inFileA
 ;
 PCMFile
 _outFileB
+;
+std
+:
+:
+string
+_out_file_name
 ;
 int16_t
 _testCntr
