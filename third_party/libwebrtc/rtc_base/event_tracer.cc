@@ -1716,6 +1716,7 @@ one
 ;
 if
 (
+!
 g_event_logging_active
 .
 compare_exchange_strong
