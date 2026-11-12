@@ -687,6 +687,7 @@ env_
 ;
 NetworkManager
 *
+const
 network_manager_
 ;
 /
@@ -711,6 +712,7 @@ network_ignore_mask_
 =
 kDefaultNetworkIgnoreMask
 ;
+const
 AlwaysValidPointer
 <
 RelayPortFactoryInterface
@@ -718,6 +720,7 @@ TurnPortFactory
 >
 relay_port_factory_
 ;
+const
 std
 :
 :
@@ -1980,14 +1983,17 @@ newly_pairable_turn_port
 ;
 BasicPortAllocator
 *
+const
 allocator_
 ;
 TaskQueueBase
 *
+const
 network_thread_
 ;
 PacketSocketFactory
 *
+const
 socket_factory_
 ;
 bool
@@ -2062,6 +2068,7 @@ the
 port
 allocator
 .
+const
 PortPrunePolicy
 turn_port_prune_policy_
 ;
@@ -2754,6 +2761,7 @@ port
 ;
 BasicPortAllocatorSession
 *
+const
 session_
 ;
 bool
@@ -2764,6 +2772,7 @@ false
 const
 Network
 *
+const
 network_
 ;
 /
@@ -2782,11 +2791,13 @@ previous_best_ip_
 ;
 PortConfiguration
 *
+const
 config_
 ;
 State
 state_
 ;
+const
 uint32_t
 flags_
 ;
@@ -2831,6 +2842,7 @@ relay_ports_
 int
 phase_
 ;
+const
 std
 :
 :

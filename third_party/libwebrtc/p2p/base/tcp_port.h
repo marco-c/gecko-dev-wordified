@@ -726,6 +726,7 @@ AsyncPacketSocket
 socket
 )
 ;
+const
 bool
 allow_listen_
 ;

@@ -1117,6 +1117,7 @@ ResolverMap
 ;
 PacketSocketFactory
 *
+const
 socket_factory_
 ;
 /
@@ -1156,6 +1157,7 @@ if
 it
 succeeded
 .
+const
 std
 :
 :
@@ -1524,6 +1526,7 @@ PORTALLOCATOR_DISABLE_DEFAULT_LOCAL_CANDIDATE
 is
 specified
 .
+const
 bool
 emit_local_for_anyaddress_
 ;
