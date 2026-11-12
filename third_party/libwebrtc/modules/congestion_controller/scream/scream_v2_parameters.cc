@@ -685,6 +685,13 @@ BackoffScaleLowTargetRate
 .
 25
 )
+inhibit_backoff_if_data_in_flight_decreases
+(
+"
+InhibitBackoffIfDataInFlightDecreases
+"
+true
+)
 allow_large_pacing_bursts_after_congestion_time
 (
 "
@@ -854,6 +861,8 @@ use_spec_backoff
 acked_bitrate_margin
 &
 backoff_scale_low_target_rate
+&
+inhibit_backoff_if_data_in_flight_decreases
 &
 allow_large_pacing_bursts_after_congestion_time
 &
