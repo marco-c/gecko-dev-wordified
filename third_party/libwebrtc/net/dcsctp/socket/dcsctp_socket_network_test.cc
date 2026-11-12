@@ -1304,6 +1304,14 @@ PostTask
 [
 this
 buf
+=
+std
+:
+:
+move
+(
+buf
+)
 ]
 {
 this
