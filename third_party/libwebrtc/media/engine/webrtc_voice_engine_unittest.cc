@@ -25893,10 +25893,6 @@ CopyOnWriteBuffer
 kPcmuPacket
 (
 kPcmuFrame
-sizeof
-(
-kPcmuFrame
-)
 )
 ;
 static
@@ -25945,10 +25941,6 @@ CopyOnWriteBuffer
 kRtcpPacket
 (
 kRtcp
-sizeof
-(
-kRtcp
-)
 )
 ;
 EXPECT_TRUE

@@ -629,15 +629,6 @@ algorithm
 digest
 (
 digest_view
-.
-data
-(
-)
-digest_view
-.
-size
-(
-)
 )
 {
 }

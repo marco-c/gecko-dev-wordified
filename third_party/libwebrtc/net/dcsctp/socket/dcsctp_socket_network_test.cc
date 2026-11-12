@@ -1031,15 +1031,6 @@ webrtc
 CopyOnWriteBuffer
 (
 data
-.
-data
-(
-)
-data
-.
-size
-(
-)
 )
 )
 ;
