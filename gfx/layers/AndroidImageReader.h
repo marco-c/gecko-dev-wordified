@@ -925,6 +925,11 @@ Monitor
 mMonitor
 ;
 bool
+mRegistered
+=
+false
+;
+bool
 mInited
 MOZ_GUARDED_BY
 (
@@ -940,6 +945,8 @@ MOZ_GUARDED_BY
 (
 mMonitor
 )
+=
+nullptr
 ;
 ANativeWindow
 *
@@ -948,6 +955,8 @@ MOZ_GUARDED_BY
 (
 mMonitor
 )
+=
+nullptr
 ;
 AndroidMediaCodecFrameId
 mCurrentFrameId
