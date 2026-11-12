@@ -1,6 +1,4 @@
 import
-time
-import
 pytest
 URL
 =
@@ -65,6 +63,14 @@ client
 navigate
 (
 URL
+)
+    
+await
+client
+.
+stall
+(
+2
 )
     
 #
@@ -168,11 +174,12 @@ s
 done
 .
     
-time
+await
+client
 .
-sleep
+stall
 (
-1
+2
 )
     
 return
