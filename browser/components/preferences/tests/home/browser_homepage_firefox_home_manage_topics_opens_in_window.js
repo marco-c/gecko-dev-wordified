@@ -285,6 +285,10 @@ home
 customize
 -
 topics
+?
+source
+=
+settings
 "
 expectedWhere
 :
