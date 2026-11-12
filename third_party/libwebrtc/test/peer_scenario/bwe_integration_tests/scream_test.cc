@@ -3831,7 +3831,7 @@ DataRate
 :
 KilobitsPerSec
 (
-140
+150
 )
 )
 )
@@ -5033,7 +5033,7 @@ DataRate
 :
 KilobitsPerSec
 (
-600
+1100
 )
 DataRate
 :
@@ -10523,7 +10523,7 @@ TimeDelta
 :
 Millis
 (
-500
+600
 )
 )
 )
@@ -10576,7 +10576,7 @@ TimeDelta
 :
 Millis
 (
-500
+600
 )
 )
 )
