@@ -2264,6 +2264,7 @@ make_unique
 MockDataChannelObserver
 >
 (
+network_thread_
 data_channels_
 .
 back
@@ -7799,6 +7800,7 @@ make_unique
 MockDataChannelObserver
 >
 (
+network_thread_
 data_channel
 .
 get
