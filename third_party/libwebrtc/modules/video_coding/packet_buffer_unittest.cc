@@ -3904,13 +3904,14 @@ Rand
 ;
 CopyOnWriteBuffer
 data
-=
+(
 "
 some
 plain
 old
 data
 "
+)
 ;
 auto
 packet
