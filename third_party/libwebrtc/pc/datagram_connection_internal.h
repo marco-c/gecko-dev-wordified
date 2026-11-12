@@ -190,6 +190,17 @@ include
 "
 api
 /
+transport
+/
+ecn_marking
+.
+h
+"
+#
+include
+"
+api
+/
 units
 /
 timestamp
@@ -537,6 +548,8 @@ CopyOnWriteBuffer
 packet
 Timestamp
 receive_time
+EcnMarking
+ecn
 )
 ;
 void

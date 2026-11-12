@@ -924,6 +924,11 @@ MinusInfinity
 (
 )
 )
+packet
+.
+ecn
+(
+)
 )
 ;
 }
@@ -1314,8 +1319,9 @@ optional
 <
 Timestamp
 >
-packet_time_ms
+packet_time
 EcnMarking
+ecn
 )
 {
 PacketMetadata
@@ -1324,7 +1330,7 @@ metadata
 .
 receive_time
 =
-packet_time_ms
+packet_time
 .
 value_or
 (
@@ -1335,6 +1341,10 @@ MinusInfinity
 (
 )
 )
+.
+ecn
+=
+ecn
 }
 ;
 observer_
@@ -2607,6 +2617,14 @@ packet
 arrival_time
 (
 )
+.
+ecn
+=
+packet
+.
+ecn
+(
+)
 }
 ;
 observer_
@@ -2633,6 +2651,8 @@ CopyOnWriteBuffer
 packet
 Timestamp
 receive_time
+EcnMarking
+ecn
 )
 {
 if
@@ -2656,6 +2676,10 @@ metadata
 receive_time
 =
 receive_time
+.
+ecn
+=
+ecn
 }
 ;
 if
@@ -2733,6 +2757,7 @@ move
 packet
 )
 receive_time
+ecn
 )
 ;
 if
