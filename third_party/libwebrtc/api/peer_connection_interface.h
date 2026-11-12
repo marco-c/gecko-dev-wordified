@@ -7237,6 +7237,16 @@ enabled
 .
 /
 /
+-
+INVALID_STATE
+:
+The
+PeerConnection
+is
+closed
+.
+/
+/
 Adds
 a
 transceiver
