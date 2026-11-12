@@ -6112,8 +6112,6 @@ RTC_DCHECK_RUN_ON
 worker_sequence_checker_
 )
 ;
-if
-(
 std
 :
 :
@@ -6133,6 +6131,17 @@ EncodedImage
 PlayoutDelay
 (
 )
+;
+stats_proxy_
+.
+OnPlayoutDelay
+(
+playout_delay
+)
+;
+if
+(
+playout_delay
 )
 {
 frame_minimum_playout_delay_
