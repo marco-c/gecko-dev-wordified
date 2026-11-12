@@ -2160,11 +2160,6 @@ schedule
 )
 )
 ;
-if
-(
-use_ecn
-)
-{
 LeakyBucketNetworkQueueFactory
 queue_factory
 (
@@ -2196,6 +2191,11 @@ Millis
 }
 )
 ;
+if
+(
+use_ecn
+)
+{
 schedulable_builder
 .
 set_queue_factory
