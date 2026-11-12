@@ -623,7 +623,13 @@ CreateNetEqConfig
 (
 env
 )
+std
+:
+:
+move
+(
 decoder_factory
+)
 )
 )
 ntp_estimator_

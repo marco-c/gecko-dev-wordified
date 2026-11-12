@@ -1120,7 +1120,13 @@ send_queue
 :
 send_frame_callback_
 (
+std
+:
+:
+move
+(
 send_frame_callback
+)
 )
 frame_transformer_
 (
