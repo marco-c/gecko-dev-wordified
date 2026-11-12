@@ -5302,13 +5302,10 @@ jsep_close_task
 mutable
 -
 >
-RTCErrorOr
-<
 ScopedOperationsBatcher
 :
 :
-FinalizerTask
->
+BatchTaskResult
 {
 RTC_DCHECK_RUN_ON
 (
