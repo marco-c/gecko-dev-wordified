@@ -1043,6 +1043,7 @@ provided
 callbacks
 .
 struct
+RTC_EXPORT
 Callbacks
 {
 Callbacks
