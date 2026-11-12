@@ -1281,6 +1281,10 @@ FakePeriodicVideoSource
 :
 kDefaultHeight
 }
+int
+fps
+=
+10
 )
 ;
 void

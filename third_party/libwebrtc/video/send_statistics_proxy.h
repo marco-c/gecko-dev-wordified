@@ -1885,6 +1885,13 @@ RTC_GUARDED_BY
 mutex_
 )
 ;
+RateTracker
+dropped_due_to_bandwidth_rate_tracker_
+RTC_GUARDED_BY
+(
+mutex_
+)
+;
 /
 /
 Trackers
