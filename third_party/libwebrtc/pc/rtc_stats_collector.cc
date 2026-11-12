@@ -7581,13 +7581,6 @@ GetParametersInternal
 (
 /
 *
-may_use_cache
-=
-*
-/
-true
-/
-*
 with_all_layers
 =
 *

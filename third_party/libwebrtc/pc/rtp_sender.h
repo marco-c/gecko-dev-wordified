@@ -989,8 +989,6 @@ RtpParameters
 GetParametersInternal
 (
 bool
-may_use_cache
-bool
 with_all_layers
 )
 const
@@ -1455,10 +1453,6 @@ id
 RtpParameters
 GetParametersInternal
 (
-bool
-may_use_cache
-=
-true
 bool
 with_all_layers
 =

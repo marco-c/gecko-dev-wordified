@@ -489,7 +489,6 @@ RtpParameters
 GetParametersInternal
 (
 bool
-bool
 )
 (
 const
