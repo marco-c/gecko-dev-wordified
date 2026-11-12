@@ -25209,6 +25209,12 @@ ResolutionIs
 )
 )
 )
+{
+.
+timeout
+=
+kLongTimeoutForRampingUp
+}
 )
 IsRtcOk
 (
