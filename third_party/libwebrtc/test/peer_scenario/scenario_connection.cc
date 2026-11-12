@@ -1655,6 +1655,13 @@ jsep_controller_
 >
 MaybeStartGathering
 (
+/
+*
+discard_candidate_pool
+=
+*
+/
+false
 )
 ;
 }
