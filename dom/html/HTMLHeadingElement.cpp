@@ -711,7 +711,7 @@ be
 element
 .
 const
-Element
+nsINode
 *
 inclusiveAncestor
 =
@@ -948,7 +948,7 @@ inclusiveAncestor
 inclusiveAncestor
 -
 >
-GetParentElementCrossingShadowRoot
+GetParentOrShadowHostNode
 (
 )
 ;
