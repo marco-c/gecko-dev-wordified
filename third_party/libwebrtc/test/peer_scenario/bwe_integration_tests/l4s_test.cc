@@ -2311,7 +2311,7 @@ squares_video
 >
 width
 =
-640
+320
 ;
 video_conf
 .
@@ -2322,7 +2322,7 @@ squares_video
 >
 height
 =
-360
+180
 ;
 caller
 -
@@ -3155,7 +3155,7 @@ squares_video
 >
 height
 =
-240
+180
 ;
 caller
 -
@@ -8430,7 +8430,7 @@ squares_video
 >
 width
 =
-1280
+320
 ;
 video_conf
 .
@@ -8441,7 +8441,7 @@ squares_video
 >
 height
 =
-720
+180
 ;
 callee
 -
