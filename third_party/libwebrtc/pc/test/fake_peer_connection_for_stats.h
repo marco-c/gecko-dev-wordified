@@ -4821,6 +4821,13 @@ discard_candidate_pool
 *
 /
 false
+/
+*
+on_pooled_credentials
+=
+*
+/
+nullptr
 )
 ;
 }
