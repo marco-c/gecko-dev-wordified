@@ -2321,6 +2321,10 @@ unique_ptr
 ObserverAdapter
 >
 observer_adapter_
+RTC_GUARDED_BY
+(
+signaling_thread_
+)
 ;
 CachedState
 *
