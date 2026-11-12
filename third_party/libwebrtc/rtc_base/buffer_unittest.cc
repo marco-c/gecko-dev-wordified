@@ -610,8 +610,9 @@ absl
 :
 string_view
 view
-=
+(
 buf
+)
 ;
 EXPECT_EQ
 (

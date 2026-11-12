@@ -1240,7 +1240,7 @@ MaybeZeroCompleteBuffer
 }
 /
 /
-Implicit
+Explicit
 conversion
 to
 absl
@@ -1261,6 +1261,7 @@ U
 =
 T
 >
+explicit
 operator
 typename
 std
