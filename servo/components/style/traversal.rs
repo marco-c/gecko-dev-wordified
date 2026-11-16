@@ -2699,13 +2699,6 @@ data
 in
 the
 subtree
-notify
-the
-caller
-to
-early
--
-return
 .
 if
 data
