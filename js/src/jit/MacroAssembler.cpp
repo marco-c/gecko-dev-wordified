@@ -7995,6 +7995,14 @@ templateObj
 isBlockLexicalEnvironmentObject
 (
 )
+&
+&
+!
+templateObj
+.
+isClassBodyLexicalEnvironmentObject
+(
+)
 startOfUninitialized
 =
 =

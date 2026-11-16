@@ -62775,7 +62775,7 @@ NameOpEmitter
 Kind
 :
 :
-SimpleAssignment
+Initialize
 )
 ;
 /

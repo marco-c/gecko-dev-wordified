@@ -246,6 +246,13 @@ const
 ;
 inline
 bool
+isClassBodyLexicalEnvironmentObject
+(
+)
+const
+;
+inline
+bool
 isPlainObject
 (
 )
