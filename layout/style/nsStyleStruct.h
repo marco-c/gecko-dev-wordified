@@ -4251,6 +4251,12 @@ mCornerShape
 mozilla
 :
 :
+StyleBorderShape
+mBorderShape
+;
+mozilla
+:
+:
 StyleImage
 mBorderImageSource
 ;
