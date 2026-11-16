@@ -124,7 +124,8 @@ virtual
 gfxPlatformMac
 (
 )
-;
+{
+}
 struct
 SupplementalFontThread
 {

@@ -15041,7 +15041,6 @@ them
 into
 aShapedText
 .
-virtual
 bool
 ShapeText
 (
