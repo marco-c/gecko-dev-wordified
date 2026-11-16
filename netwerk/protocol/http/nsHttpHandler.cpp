@@ -4822,7 +4822,7 @@ nsHttpRequestHead
 *
 aRequest
 bool
-aSecure
+aAllowDictionaries
 nsHttpChannel
 *
 aChan
@@ -4906,7 +4906,7 @@ Dictionary
 headers
 if
 (
-aSecure
+aAllowDictionaries
 )
 {
 /
