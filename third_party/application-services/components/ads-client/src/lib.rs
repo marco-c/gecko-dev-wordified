@@ -153,7 +153,6 @@ bytesize
 mod
 client
 ;
-pub
 mod
 clock
 ;
