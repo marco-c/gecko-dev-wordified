@@ -38850,6 +38850,16 @@ None
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 bool
 congruentTo
 (
