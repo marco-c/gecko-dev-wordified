@@ -7123,7 +7123,10 @@ borrow
 )
 ;
 let
+Some
+(
 without_animations_rules
+)
 =
 doc_data
 .
@@ -7137,13 +7140,7 @@ remove_animation_rules
 (
 rules
 )
-;
-if
-without_animations_rules
-=
-=
-*
-rules
+else
 {
 return
 computed_values
@@ -7157,6 +7154,7 @@ into
 )
 ;
 }
+;
 let
 element
 =
