@@ -1210,7 +1210,6 @@ def
 test_cli_run_with_stdin_filename
 (
 run
-filedir
 capfd
 monkeypatch
 tmp_path
@@ -1325,7 +1324,7 @@ stdin
 filename
 =
 {
-filedir
+tmp_path
 }
 /
 foobar
@@ -1409,7 +1408,7 @@ stdin
 filename
 =
 {
-filedir
+tmp_path
 }
 /
 foobar
@@ -1493,7 +1492,7 @@ stdin
 filename
 =
 {
-filedir
+tmp_path
 }
 /
 foobar
@@ -1584,7 +1583,7 @@ stdin
 filename
 =
 {
-filedir
+tmp_path
 }
 /
 foobar
