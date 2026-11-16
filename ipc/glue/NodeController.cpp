@@ -6043,6 +6043,9 @@ NodeController
 :
 InviteChildProcess
 (
+GeckoChildProcessHost
+*
+aChildProcessHost
 IPC
 :
 :
@@ -6223,6 +6226,7 @@ base
 :
 :
 kInvalidProcessId
+aChildProcessHost
 )
 ;
 {
