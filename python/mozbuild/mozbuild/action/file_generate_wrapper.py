@@ -100,13 +100,12 @@ list
 args
 )
     
-topobjdir
+objdir
 =
 Path
-(
-buildconfig
 .
-topobjdir
+cwd
+(
 )
     
 topsrcdir
@@ -153,7 +152,7 @@ str
 (
 make_absolute
 (
-topobjdir
+objdir
 target_dir
 )
 )
