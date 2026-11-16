@@ -1,3 +1,15 @@
+#
+-
+*
+-
+coding
+:
+utf
+-
+8
+-
+*
+-
 "
 "
 "
@@ -308,7 +320,7 @@ host
 from
 __future__
 import
-annotations
+absolute_import
 try
 :
     
@@ -372,11 +384,13 @@ io
 /
 en
 /
-latest
+1
+.
+26
+.
+x
 /
-advanced
--
-usage
+contrib
 .
 html
 #
@@ -392,8 +406,12 @@ DependencyWarning
 )
     
 raise
+from
+socket
 import
-typing
+error
+as
+SocketError
 from
 socket
 import
@@ -447,53 +465,6 @@ ImportError
 ssl
 =
 None
-#
-type
-:
-ignore
-[
-assignment
-]
-class
-_TYPE_SOCKS_OPTIONS
-(
-typing
-.
-TypedDict
-)
-:
-    
-socks_version
-:
-int
-    
-proxy_host
-:
-str
-|
-None
-    
-proxy_port
-:
-str
-|
-None
-    
-username
-:
-str
-|
-None
-    
-password
-:
-str
-|
-None
-    
-rdns
-:
-bool
 class
 SOCKSConnection
 (
@@ -526,42 +497,32 @@ proxy
 def
 __init__
 (
-        
 self
-        
-_socks_options
-:
-_TYPE_SOCKS_OPTIONS
-        
 *
 args
-:
-typing
-.
-Any
-        
 *
 *
 kwargs
-:
-typing
-.
-Any
-    
 )
--
->
-None
 :
         
 self
 .
 _socks_options
 =
+kwargs
+.
+pop
+(
+"
 _socks_options
+"
+)
         
 super
 (
+SOCKSConnection
+self
 )
 .
 __init__
@@ -578,11 +539,6 @@ _new_conn
 (
 self
 )
--
->
-socks
-.
-socksocket
 :
         
 "
@@ -604,14 +560,6 @@ proxy
 "
         
 extra_kw
-:
-dict
-[
-str
-typing
-.
-Any
-]
 =
 {
 }
@@ -701,15 +649,6 @@ _socks_options
 proxy_port
 "
 ]
-#
-type
-:
-ignore
-[
-arg
--
-type
-]
                 
 proxy_username
 =
@@ -749,15 +688,6 @@ timeout
 self
 .
 timeout
-#
-type
-:
-ignore
-[
-arg
--
-type
-]
                 
 *
 *
@@ -767,8 +697,6 @@ extra_kw
         
 except
 SocketTimeout
-as
-e
 :
             
 raise
@@ -777,15 +705,11 @@ ConnectTimeoutError
                 
 self
                 
-f
 "
 Connection
 to
-{
-self
-.
-host
-}
+%
+s
 timed
 out
 .
@@ -793,17 +717,22 @@ out
 connect
 timeout
 =
-{
+%
+s
+)
+"
+                
+%
+(
+self
+.
+host
 self
 .
 timeout
-}
 )
-"
             
 )
-from
-e
         
 except
 socks
@@ -862,15 +791,11 @@ ConnectTimeoutError
                         
 self
                         
-f
 "
 Connection
 to
-{
-self
-.
-host
-}
+%
+s
 timed
 out
 .
@@ -878,48 +803,31 @@ out
 connect
 timeout
 =
-{
+%
+s
+)
+"
+                        
+%
+(
+self
+.
+host
 self
 .
 timeout
-}
 )
-"
                     
 )
-from
-e
                 
 else
 :
-                    
-#
-Adding
-from
-e
-messes
-with
-coverage
-somehow
-so
-it
-'
-s
-omitted
-.
-                    
-#
-See
-#
-2386
-.
                     
 raise
 NewConnectionError
 (
                         
 self
-f
 "
 Failed
 to
@@ -928,45 +836,22 @@ a
 new
 connection
 :
-{
-error
-}
+%
+s
 "
+%
+error
                     
 )
             
 else
 :
-#
-Defensive
-:
-see
-https
-:
-/
-/
-github
-.
-com
-/
-urllib3
-/
-urllib3
-/
-pull
-/
-3728
-#
-pullrequestreview
--
-3816302703
                 
 raise
 NewConnectionError
 (
                     
 self
-f
 "
 Failed
 to
@@ -975,17 +860,16 @@ a
 new
 connection
 :
-{
-e
-}
+%
+s
 "
+%
+e
                 
 )
-from
-e
         
 except
-OSError
+SocketError
 as
 e
 :
@@ -1004,7 +888,6 @@ NewConnectionError
 (
                 
 self
-f
 "
 Failed
 to
@@ -1013,14 +896,13 @@ a
 new
 connection
 :
-{
-e
-}
+%
+s
 "
+%
+e
             
 )
-from
-e
         
 return
 conn
@@ -1164,52 +1046,26 @@ __init__
 self
         
 proxy_url
-:
-str
         
 username
-:
-str
-|
-None
 =
 None
         
 password
-:
-str
-|
-None
 =
 None
         
 num_pools
-:
-int
 =
 10
         
 headers
-:
-typing
-.
-Mapping
-[
-str
-str
-]
-|
-None
 =
 None
         
 *
 *
 connection_pool_kw
-:
-typing
-.
-Any
     
 )
 :
@@ -1229,14 +1085,42 @@ and
 password
 is
 None
+and
+parsed
+.
+auth
+is
+not
+None
 :
             
-username
-password
+split
 =
 parsed
 .
-auth_decoded
+auth
+.
+split
+(
+"
+:
+"
+)
+            
+if
+len
+(
+split
+)
+=
+=
+2
+:
+                
+username
+password
+=
+split
         
 if
 parsed
@@ -1328,7 +1212,6 @@ else
 raise
 ValueError
 (
-f
 "
 Unable
 to
@@ -1336,10 +1219,11 @@ determine
 SOCKS
 version
 from
-{
-proxy_url
-}
+%
+s
 "
+%
+proxy_url
 )
         
 self
@@ -1405,15 +1289,19 @@ socks_options
         
 super
 (
+SOCKSProxyManager
+self
 )
 .
 __init__
 (
+            
 num_pools
 headers
 *
 *
 connection_pool_kw
+        
 )
         
 self

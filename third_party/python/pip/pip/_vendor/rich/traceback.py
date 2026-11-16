@@ -135,8 +135,6 @@ ConsoleOptions
     
 ConsoleRenderable
     
-OverflowMethod
-    
 Group
     
 RenderResult
@@ -409,15 +407,6 @@ int
 =
 LOCALS_MAX_STRING
     
-locals_max_depth
-:
-Optional
-[
-int
-]
-=
-None
-    
 locals_hide_dunder
 :
 bool
@@ -429,15 +418,6 @@ locals_hide_sunder
 Optional
 [
 bool
-]
-=
-None
-    
-locals_overflow
-:
-Optional
-[
-OverflowMethod
 ]
 =
 None
@@ -710,28 +690,6 @@ to
 80
 .
         
-locals_max_depth
-(
-int
-optional
-)
-:
-Maximum
-depths
-of
-locals
-before
-truncating
-or
-None
-to
-disable
-.
-Defaults
-to
-None
-.
-        
 locals_hide_dunder
 (
 bool
@@ -766,27 +724,6 @@ underscore
 Defaults
 to
 False
-.
-        
-locals_overflow
-(
-OverflowMethod
-optional
-)
-:
-How
-to
-handle
-overflowing
-locals
-or
-None
-to
-disable
-.
-Defaults
-to
-None
 .
         
 indent_guides
@@ -960,10 +897,6 @@ locals_max_string
 =
 locals_max_string
             
-locals_max_depth
-=
-locals_max_depth
-            
 locals_hide_dunder
 =
 locals_hide_dunder
@@ -974,10 +907,6 @@ bool
 (
 locals_hide_sunder
 )
-            
-locals_overflow
-=
-locals_overflow
             
 indent_guides
 =
@@ -1844,28 +1773,6 @@ to
 80
 .
         
-locals_max_depth
-(
-int
-optional
-)
-:
-Maximum
-depths
-of
-locals
-before
-truncating
-or
-None
-to
-disable
-.
-Defaults
-to
-None
-.
-        
 locals_hide_dunder
 (
 bool
@@ -1900,27 +1807,6 @@ underscore
 Defaults
 to
 False
-.
-        
-locals_overflow
-(
-OverflowMethod
-optional
-)
-:
-How
-to
-handle
-overflowing
-locals
-or
-None
-to
-disable
-.
-Defaults
-to
-None
 .
         
 suppress
@@ -2098,15 +1984,6 @@ int
 =
 LOCALS_MAX_STRING
         
-locals_max_depth
-:
-Optional
-[
-int
-]
-=
-None
-        
 locals_hide_dunder
 :
 bool
@@ -2118,15 +1995,6 @@ locals_hide_sunder
 bool
 =
 False
-        
-locals_overlow
-:
-Optional
-[
-OverflowMethod
-]
-=
-None
         
 indent_guides
 :
@@ -2296,12 +2164,6 @@ locals_max_string
         
 self
 .
-locals_max_depth
-=
-locals_max_depth
-        
-self
-.
 locals_hide_dunder
 =
 locals_hide_dunder
@@ -2311,12 +2173,6 @@ self
 locals_hide_sunder
 =
 locals_hide_sunder
-        
-self
-.
-locals_overflow
-=
-locals_overlow
         
 self
 .
@@ -2522,15 +2378,6 @@ int
 =
 LOCALS_MAX_STRING
         
-locals_max_depth
-:
-Optional
-[
-int
-]
-=
-None
-        
 locals_hide_dunder
 :
 bool
@@ -2542,15 +2389,6 @@ locals_hide_sunder
 bool
 =
 False
-        
-locals_overflow
-:
-Optional
-[
-OverflowMethod
-]
-=
-None
         
 indent_guides
 :
@@ -2783,28 +2621,6 @@ to
 10
 .
             
-locals_max_depth
-(
-int
-optional
-)
-:
-Maximum
-depths
-of
-locals
-before
-truncating
-or
-None
-to
-disable
-.
-Defaults
-to
-None
-.
-            
 locals_max_string
 (
 int
@@ -2861,27 +2677,6 @@ underscore
 Defaults
 to
 False
-.
-            
-locals_overflow
-(
-OverflowMethod
-optional
-)
-:
-How
-to
-handle
-overflowing
-locals
-or
-None
-to
-disable
-.
-Defaults
-to
-None
 .
             
 suppress
@@ -2975,10 +2770,6 @@ locals_max_string
 =
 locals_max_string
             
-locals_max_depth
-=
-locals_max_depth
-            
 locals_hide_dunder
 =
 locals_hide_dunder
@@ -3031,10 +2822,6 @@ locals_max_string
 =
 locals_max_string
             
-locals_max_depth
-=
-locals_max_depth
-            
 locals_hide_dunder
 =
 locals_hide_dunder
@@ -3042,10 +2829,6 @@ locals_hide_dunder
 locals_hide_sunder
 =
 locals_hide_sunder
-            
-locals_overlow
-=
-locals_overflow
             
 suppress
 =
@@ -3102,15 +2885,6 @@ locals_max_string
 int
 =
 LOCALS_MAX_STRING
-        
-locals_max_depth
-:
-Optional
-[
-int
-]
-=
-None
         
 locals_hide_dunder
 :
@@ -3245,28 +3019,6 @@ disable
 Defaults
 to
 80
-.
-            
-locals_max_depth
-(
-int
-optional
-)
-:
-Maximum
-depths
-of
-locals
-before
-truncating
-or
-None
-to
-disable
-.
-Defaults
-to
-None
 .
             
 locals_hide_dunder
@@ -4002,10 +3754,6 @@ locals_max_length
 max_string
 =
 locals_max_string
-                                
-max_depth
-=
-locals_max_depth
                             
 )
                             
@@ -5461,18 +5209,6 @@ max_string
 self
 .
 locals_max_string
-                    
-max_depth
-=
-self
-.
-locals_max_depth
-                    
-overflow
-=
-self
-.
-locals_overflow
                 
 )
         

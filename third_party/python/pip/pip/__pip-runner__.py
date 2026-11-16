@@ -67,7 +67,7 @@ PYTHON_REQUIRES
 =
 (
 3
-10
+9
 )
 def
 version_str

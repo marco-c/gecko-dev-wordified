@@ -41,13 +41,6 @@ TYPE_CHECKING
 :
     
 from
-collections
-.
-abc
-import
-Mapping
-    
-from
 hashlib
 import
 _Hash
@@ -760,7 +753,7 @@ has_one_of
 self
 hashes
 :
-Mapping
+dict
 [
 str
 str

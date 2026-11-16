@@ -32,7 +32,7 @@ copyright
 Copyright
 2006
 -
-present
+2025
 by
 the
 Pygments
@@ -2650,7 +2650,7 @@ _inherit
 "
     
 Indicates
-that
+the
 a
 state
 should
@@ -3316,20 +3316,13 @@ cache
 that
 somehow
                 
-d
-=
-dict
+kwargs
+.
+update
 (
 lexer
 .
 options
-)
-                
-d
-.
-update
-(
-kwargs
 )
                 
 lx
@@ -3340,7 +3333,7 @@ __class__
 (
 *
 *
-d
+kwargs
 )
             
 else
@@ -3420,20 +3413,13 @@ cache
 that
 somehow
             
-d
-=
-dict
+kwargs
+.
+update
 (
 lexer
 .
 options
-)
-            
-d
-.
-update
-(
-kwargs
 )
             
 lx
@@ -3442,7 +3428,7 @@ _other
 (
 *
 *
-d
+kwargs
 )
             
 s

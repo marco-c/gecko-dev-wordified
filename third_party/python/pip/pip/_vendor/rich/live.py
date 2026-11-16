@@ -1246,28 +1246,16 @@ pop_render_hook
 )
                     
 if
-(
-                        
 not
 self
 .
 _alt_screen
-                        
 and
 self
 .
 console
 .
 is_terminal
-                        
-and
-self
-.
-_live_render
-.
-last_render_height
-                    
-)
 :
                         
 self

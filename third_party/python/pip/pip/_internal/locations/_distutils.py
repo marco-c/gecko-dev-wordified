@@ -155,6 +155,14 @@ command
 .
 install
 import
+SCHEME_KEYS
+from
+distutils
+.
+command
+.
+install
+import
 install
 as
 distutils_install_command
@@ -173,7 +181,6 @@ models
 .
 scheme
 import
-SCHEME_KEYS
 Scheme
 from
 pip

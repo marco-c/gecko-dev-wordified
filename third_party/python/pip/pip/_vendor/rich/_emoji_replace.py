@@ -1,11 +1,16 @@
-import
-re
 from
 typing
 import
 Callable
 Match
 Optional
+import
+re
+from
+.
+_emoji_codes
+import
+EMOJI
 _ReStringMatch
 =
 Match
@@ -125,12 +130,6 @@ text
 "
 "
     
-from
-.
-_emoji_codes
-import
-EMOJI
-    
 get_emoji
 =
 EMOJI
@@ -146,7 +145,7 @@ text
 :
 "
 \
-ufe0e
+uFE0E
 "
 "
 emoji
@@ -154,7 +153,7 @@ emoji
 :
 "
 \
-ufe0f
+uFE0F
 "
 }
     

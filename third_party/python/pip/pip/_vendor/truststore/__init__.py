@@ -25,10 +25,6 @@ version_info
 10
 )
 :
-#
-noqa
-:
-UP036
     
 raise
 ImportError
@@ -220,6 +216,10 @@ del
 _ssl
 _sslobj
 _sslmem
+#
+noqa
+:
+F821
 from
 .
 _api
@@ -227,6 +227,10 @@ import
 SSLContext
 extract_from_ssl
 inject_into_ssl
+#
+noqa
+:
+E402
 del
 _api
 _sys
@@ -263,5 +267,5 @@ __version__
 .
 10
 .
-5
+1
 "

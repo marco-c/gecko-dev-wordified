@@ -1,3 +1,5 @@
+import
+inspect
 from
 functools
 import
@@ -494,9 +496,6 @@ __init__
             
 try
 :
-                
-import
-inspect
                 
 signature
 =

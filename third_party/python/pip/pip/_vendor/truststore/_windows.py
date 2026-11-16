@@ -1,9 +1,5 @@
 import
 contextlib
-#
-noqa
-:
-I001
 import
 ssl
 import
@@ -16,11 +12,6 @@ WinDLL
 type
 :
 ignore
-[
-attr
--
-defined
-]
 from
 ctypes
 import
@@ -29,11 +20,6 @@ WinError
 type
 :
 ignore
-[
-attr
--
-defined
-]
 from
 ctypes
 import

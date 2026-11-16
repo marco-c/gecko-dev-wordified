@@ -1786,6 +1786,8 @@ print
 (
         
 Panel
+.
+fit
 (
             
 "
@@ -1809,14 +1811,17 @@ n
 "
             
 "
-Consider
+Please
+consider
 sponsoring
-to
-ensure
-this
-project
-is
-maintained
+me
+if
+you
+get
+value
+from
+my
+work
 .
 \
 n
@@ -1825,9 +1830,23 @@ n
 "
             
 "
-[
-cyan
-]
+Even
+the
+price
+of
+a
+can
+brighten
+my
+day
+!
+\
+n
+\
+n
+"
+            
+"
 https
 :
 /
@@ -1839,16 +1858,12 @@ com
 sponsors
 /
 willmcgugan
-[
-/
-cyan
-]
 "
             
 border_style
 =
 "
-green
+red
 "
             
 title
@@ -1860,13 +1875,6 @@ Rich
 is
 maintained
 "
-            
-padding
-=
-(
-1
-2
-)
         
 )
     

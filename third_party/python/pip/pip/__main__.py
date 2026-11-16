@@ -109,12 +109,7 @@ pip
 .
 whl
 if
-not
-__spec__
-or
-__spec__
-.
-parent
+__package__
 =
 =
 "
@@ -225,7 +220,7 @@ cli
 .
 main
 import
-cli
+main
 as
 _main
     

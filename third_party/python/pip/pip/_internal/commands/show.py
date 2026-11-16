@@ -344,11 +344,6 @@ results
 search_packages_info
 (
 query
-include_files
-=
-options
-.
-files
 )
         
 if
@@ -479,17 +474,12 @@ None
 def
 search_packages_info
 (
-    
 query
 :
 list
 [
 str
 ]
-    
-include_files
-:
-bool
 )
 -
 >
@@ -865,6 +855,20 @@ entry_points
 [
 ]
         
+files_iter
+=
+dist
+.
+iter_declared_entries
+(
+)
+        
+if
+files_iter
+is
+None
+:
+            
 files
 :
 list
@@ -876,25 +880,9 @@ None
 =
 None
         
-if
-include_files
+else
 :
             
-files_iter
-=
-dist
-.
-iter_declared_entries
-(
-)
-            
-if
-files_iter
-is
-not
-None
-:
-                
 files
 =
 sorted
@@ -1253,21 +1241,15 @@ write_output
 "
 )
         
-metadata_version
-=
-dist
-.
-metadata_version
-        
 metadata_version_tuple
 =
-(
-            
 tuple
 (
 map
 (
 int
+dist
+.
 metadata_version
 .
 split
@@ -1277,13 +1259,6 @@ split
 "
 )
 )
-)
-if
-metadata_version
-else
-(
-)
-        
 )
         
 write_output
