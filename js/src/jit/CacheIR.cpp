@@ -15943,6 +15943,10 @@ t
 optimize
 such
 properties
+(
+bug
+2092482
+)
 .
 Value
 result

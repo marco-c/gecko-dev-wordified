@@ -2258,6 +2258,15 @@ buildEnvironmentChain
 (
 )
 ;
+void
+pushConstantBinding
+(
+const
+WarpConstantBinding
+*
+snapshot
+)
+;
 MInstruction
 *
 buildNamedLambdaEnv
