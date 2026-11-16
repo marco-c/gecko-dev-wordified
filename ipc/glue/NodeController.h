@@ -188,9 +188,6 @@ mozilla
 ipc
 {
 class
-GeckoChildProcessHost
-;
-class
 NodeController
 final
 :
@@ -858,9 +855,6 @@ it
 bool
 InviteChildProcess
 (
-GeckoChildProcessHost
-*
-aChildProcessHost
 IPC
 :
 :
