@@ -8544,6 +8544,17 @@ thread
 #
 ifndef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
+/
+/
+Only
+do
+the
+real
+verification
+in
+early
+beta
+builds
 return
 true
 ;
