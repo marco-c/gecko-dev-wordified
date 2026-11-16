@@ -330,6 +330,10 @@ ComputePassEncoder
 ;
 pub
 type
+RayTracingPassEncoder
+;
+pub
+type
 RenderBundleEncoder
 ;
 pub
@@ -347,5 +351,9 @@ Blas
 pub
 type
 Tlas
+;
+pub
+type
+RayTracingPipeline
 ;
 }

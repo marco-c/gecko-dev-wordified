@@ -1473,7 +1473,7 @@ ray_tracing
 AsAction
 :
 :
-UseTlas
+BindTlas
 (
 tlas
 .

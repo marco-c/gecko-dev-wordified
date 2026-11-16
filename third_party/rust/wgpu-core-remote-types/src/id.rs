@@ -1266,6 +1266,11 @@ ComputePipeline
 ;
 pub
 type
+RayTracingPipelineId
+RayTracingPipeline
+;
+pub
+type
 PipelineCacheId
 PipelineCache
 ;

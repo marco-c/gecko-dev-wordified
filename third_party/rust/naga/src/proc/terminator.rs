@@ -387,6 +387,15 @@ _
 S
 :
 :
+HitObject
+{
+.
+.
+}
+|
+S
+:
+:
 DebugPrintf
 {
 .

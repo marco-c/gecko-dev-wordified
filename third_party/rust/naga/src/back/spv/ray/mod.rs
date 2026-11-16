@@ -18,6 +18,10 @@ code
 /
 pub
 mod
+hit_object
+;
+pub
+mod
 pipeline
 ;
 pub
