@@ -3853,6 +3853,16 @@ mIsHttp3Used
 false
 }
 ;
+Atomic
+<
+bool
+Relaxed
+>
+mIsTunnelOverHttp3
+{
+false
+}
+;
 /
 /
 True

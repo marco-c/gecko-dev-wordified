@@ -4621,6 +4621,13 @@ nsHttpConnection
 conn
 -
 >
+SetTunnelOverHttp3
+(
+)
+;
+conn
+-
+>
 SetTransactionCaps
 (
 mTransaction

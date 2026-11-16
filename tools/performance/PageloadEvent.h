@@ -295,6 +295,12 @@ nsCString
 \
 _
 (
+proxyType
+uint32_t
+)
+\
+_
+(
 userFeatures
 uint32_t
 )
