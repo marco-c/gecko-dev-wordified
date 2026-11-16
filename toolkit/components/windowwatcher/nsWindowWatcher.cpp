@@ -11784,7 +11784,7 @@ window
 os
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 domwin
 "
