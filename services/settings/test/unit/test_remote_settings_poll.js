@@ -7592,7 +7592,7 @@ UptakeTelemetry
 .
 STATUS
 .
-STALE_EXPECTED
+STALE_TIMESTAMP_ERROR
 }
 ]
 )
