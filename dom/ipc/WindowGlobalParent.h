@@ -2263,8 +2263,11 @@ ipc
 IPCResult
 RecvSetClientInfo
 (
-const
+Tainted
+<
 IPCClientInfo
+>
+&
 &
 aIPCClientInfo
 )
