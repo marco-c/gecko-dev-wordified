@@ -2835,7 +2835,13 @@ Clean
 up
 test
 handlers
+[
+.
+.
+.
 TEST_PROTOS
+WALLET_PROTO
+]
 .
 forEach
 (
