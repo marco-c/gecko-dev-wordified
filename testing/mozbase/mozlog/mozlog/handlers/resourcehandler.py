@@ -659,6 +659,23 @@ data
 )
     
 def
+asan_error
+(
+self
+data
+)
+:
+        
+self
+.
+resources
+.
+asan_error
+(
+data
+)
+    
+def
 mozleak_object
 (
 self
