@@ -184,7 +184,13 @@ NotificationCallbacksCommon
 (
 aScope
 aPrincipal
+std
+:
+:
+move
+(
 aNotification
+)
 )
 {
 }
