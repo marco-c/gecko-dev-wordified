@@ -2267,6 +2267,14 @@ WarpConstantBinding
 snapshot
 )
 ;
+MDefinition
+*
+aliasedVarEnvironment
+(
+BytecodeLocation
+loc
+)
+;
 MInstruction
 *
 buildNamedLambdaEnv
