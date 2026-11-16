@@ -2783,7 +2783,6 @@ gfx
 font_rendering
 .
 "
-nullptr
 }
 ;
 static

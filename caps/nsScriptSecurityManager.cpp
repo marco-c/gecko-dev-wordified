@@ -10009,7 +10009,6 @@ capability
 policy
 .
 "
-nullptr
 }
 ;
 /

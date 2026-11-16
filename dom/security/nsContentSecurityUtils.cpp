@@ -6336,7 +6336,6 @@ autoadmin
 .
 failover_to_cached
 "
-nullptr
 }
 ;
 if

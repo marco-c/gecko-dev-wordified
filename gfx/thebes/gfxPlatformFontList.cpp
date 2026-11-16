@@ -1692,7 +1692,6 @@ fontations
 .
 enabled
 "
-nullptr
 }
 ;
 static
