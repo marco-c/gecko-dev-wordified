@@ -8609,17 +8609,6 @@ longhand
 is_discrete_animatable
 (
 )
-/
-/
-TODO
-(
-bug
-1885995
-)
-:
-Refine
-this
-.
 Self
 :
 :
@@ -8629,7 +8618,7 @@ _
 )
 =
 >
-true
+false
 }
 }
 /
