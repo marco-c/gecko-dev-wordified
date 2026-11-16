@@ -227,7 +227,7 @@ mShouldApplyTextBoxTrimAtFragmentEnd
 (
 false
 )
-mShouldApplyLineClampAuto
+mShouldApplyLineClamp
 (
 false
 )
@@ -779,7 +779,6 @@ mShouldApplyTextBoxTrimAtFragmentEnd
 ;
 /
 /
-Automatic
 line
 -
 clamp
@@ -810,7 +809,7 @@ first
 reflow
 .
 bool
-mShouldApplyLineClampAuto
+mShouldApplyLineClamp
 :
 1
 ;

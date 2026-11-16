@@ -4164,7 +4164,6 @@ whether
 line
 -
 clamp
-auto
 should
 be
 applied
@@ -4187,7 +4186,7 @@ are
 available
 .
 bool
-mDimensionsReadyForLineClampAuto
+mDimensionsReadyForLineClamp
 :
 1
 ;
