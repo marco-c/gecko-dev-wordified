@@ -206,9 +206,9 @@ script
 '
 s
 filename
-+
-sourceStart
-value
+and
+source
+extent
 and
 if
 we
@@ -257,6 +257,8 @@ the
 filename
 +
 sourceStart
++
+sourceEnd
 .
 using
 ScriptKey

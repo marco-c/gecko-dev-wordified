@@ -185,6 +185,12 @@ script
 sourceStart
 (
 )
+script
+-
+>
+sourceEnd
+(
+)
 )
 ;
 }
