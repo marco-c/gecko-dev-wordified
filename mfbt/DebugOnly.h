@@ -580,8 +580,9 @@ const
 DebugOnly
 &
 )
-{
-}
+=
+default
+;
 DebugOnly
 &
 operator
