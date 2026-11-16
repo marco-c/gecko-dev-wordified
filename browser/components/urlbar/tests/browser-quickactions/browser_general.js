@@ -4282,7 +4282,7 @@ gURLBar
 .
 controller
 .
-engagementEvent
+session
 .
 discard
 (
