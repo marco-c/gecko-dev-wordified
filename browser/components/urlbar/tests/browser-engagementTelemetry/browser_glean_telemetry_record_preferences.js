@@ -74,7 +74,7 @@ in
 order
 to
 initialize
-TelemetryEvent
+UrlbarSession
 of
 /
 /
@@ -567,7 +567,7 @@ are
 currently
 recorded
 by
-TelemetryEvent
+UrlbarSession
 an
 instance
 of
