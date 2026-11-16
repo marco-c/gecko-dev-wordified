@@ -574,12 +574,14 @@ endif
 /
 ifdef
 DEBUG
-private
-:
 OffTheBooksCondVar
 (
 )
+=
+delete
 ;
+private
+:
 OffTheBooksMutex
 *
 mLock
