@@ -102,7 +102,6 @@ for
 working
 with
 permission
-*
 just
 pass
 one
@@ -116,6 +115,7 @@ to
 be
 granted
 .
+*
 *
 param
 permissions
@@ -140,9 +140,6 @@ permissions
 String
 )
 {
-val
-application
-=
 shadowOf
 (
 getApplicationContext
@@ -152,15 +149,10 @@ Application
 (
 )
 )
-permissions
-.
-map
-{
-application
 .
 grantPermissions
 (
-it
+*
+permissions
 )
-}
 }

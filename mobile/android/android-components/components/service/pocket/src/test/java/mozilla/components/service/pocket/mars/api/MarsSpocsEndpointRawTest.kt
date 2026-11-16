@@ -81,6 +81,12 @@ runners
 .
 AndroidJUnit4
 import
+java
+.
+io
+.
+IOException
+import
 kotlinx
 .
 serialization
@@ -296,12 +302,6 @@ junit
 runner
 .
 RunWith
-import
-java
-.
-io
-.
-IOException
 RunWith
 (
 AndroidJUnit4
@@ -518,6 +518,8 @@ request
 .
 conservative
 )
+assertTrue
+(
 request
 .
 headers
@@ -544,6 +546,9 @@ contains
 CONTENT_TYPE_APPLICATION_JSON
 true
 )
+)
+assertTrue
+(
 request
 .
 headers
@@ -573,6 +578,7 @@ userAgent
 !
 !
 true
+)
 )
 val
 requestBody
@@ -756,6 +762,8 @@ request
 .
 conservative
 )
+assertTrue
+(
 request
 .
 headers
@@ -781,6 +789,7 @@ contains
 (
 CONTENT_TYPE_APPLICATION_JSON
 true
+)
 )
 val
 requestBody

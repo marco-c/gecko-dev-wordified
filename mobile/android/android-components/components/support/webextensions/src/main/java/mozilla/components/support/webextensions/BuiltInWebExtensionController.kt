@@ -71,6 +71,14 @@ annotation
 .
 VisibleForTesting
 import
+java
+.
+util
+.
+concurrent
+.
+ConcurrentHashMap
+import
 mozilla
 .
 components
@@ -136,14 +144,6 @@ org
 json
 .
 JSONObject
-import
-java
-.
-util
-.
-concurrent
-.
-ConcurrentHashMap
 /
 *
 *
@@ -161,7 +161,6 @@ with
 a
 web
 extension
-*
 that
 these
 modules
@@ -197,7 +196,6 @@ path
 for
 locating
 the
-*
 extension
 within
 the
@@ -207,6 +205,7 @@ e
 .
 g
 .
+*
 resource
 :
 /
@@ -232,12 +231,12 @@ used
 to
 exchange
 messages
-*
 between
 extension
 scripts
 and
 the
+*
 application
 .
 Extensions
@@ -246,7 +245,6 @@ open
 multiple
 ports
 .
-*
 so
 [
 sendContentMessage
@@ -256,9 +254,9 @@ and
 sendBackgroundMessage
 ]
 allow
+*
 specifying
 an
-*
 alternative
 port
 if
@@ -308,7 +306,6 @@ WebExtension
 -
 >
 Unit
-?
 =
 {
 }
@@ -322,7 +319,6 @@ WebExtension
 -
 >
 Unit
-?
 =
 {
 }
@@ -344,15 +340,14 @@ runtime
 .
 If
 a
-*
 content
 message
 handler
 was
 registered
+*
 (
 see
-*
 [
 registerContentMessageHandler
 ]
@@ -361,11 +356,11 @@ before
 install
 completed
 registration
-*
 will
 happen
 upon
 successful
+*
 installation
 .
 *
@@ -398,7 +393,6 @@ extension
 was
 installed
 successfully
-*
 or
 is
 already
@@ -786,12 +780,12 @@ session
 Currently
 only
 one
-*
 handler
 can
 be
 registered
 per
+*
 session
 .
 An
@@ -801,7 +795,6 @@ will
 be
 replaced
 and
-*
 there
 is
 no
@@ -919,7 +912,6 @@ extension
 An
 existing
 handler
-*
 will
 be
 replaced
@@ -927,6 +919,7 @@ and
 there
 is
 no
+*
 need
 to
 unregister
@@ -961,7 +954,6 @@ will
 be
 used
 .
-*
 *
 /
 fun
@@ -1435,7 +1427,6 @@ engineSession
 )
 }
 /
-*
 *
 *
 Companion
