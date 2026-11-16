@@ -21,9 +21,6 @@ skip
 -
 if
 (
-release_or_beta
-|
-|
 !
 xulRuntime
 .
@@ -31,15 +28,6 @@ shell
 )
 -
 -
-regexp
--
-buffer
--
-boundaries
-is
-not
-released
-yet
 requires
 shell
 -
