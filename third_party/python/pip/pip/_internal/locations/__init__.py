@@ -15,10 +15,6 @@ sys
 import
 sysconfig
 from
-typing
-import
-Any
-from
 pip
 .
 _internal
@@ -147,17 +143,6 @@ platlibdir
 lib
 "
 )
-_USE_SYSCONFIG_DEFAULT
-=
-sys
-.
-version_info
->
-=
-(
-3
-10
-)
 def
 _should_use_sysconfig
 (
@@ -184,12 +169,6 @@ default
 pip
 uses
 sysconfig
-on
-Python
-3
-.
-10
-+
 .
     
 But
@@ -259,7 +238,7 @@ sysconfig
 "
 _PIP_USE_SYSCONFIG
 "
-_USE_SYSCONFIG_DEFAULT
+True
 )
 )
 _USE_SYSCONFIG
@@ -332,9 +311,6 @@ distutils
 instead
 .
 if
-_USE_SYSCONFIG_DEFAULT
-and
-not
 _USE_SYSCONFIG
 :
     
@@ -342,7 +318,7 @@ _MISMATCH_LEVEL
 =
 logging
 .
-WARNING
+DEBUG
 else
 :
     
@@ -350,7 +326,7 @@ _MISMATCH_LEVEL
 =
 logging
 .
-DEBUG
+WARNING
 def
 _looks_like_bpo_44860
 (
@@ -787,8 +763,6 @@ import
 Distribution
     
 cmd
-:
-Any
 =
 install
 (
@@ -1839,12 +1813,6 @@ _looks_like_red_hat_lib
 continue
         
 #
-On
-Python
-3
-.
-9
-+
 sysconfig
 '
 s

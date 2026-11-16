@@ -18,7 +18,7 @@ C
 )
 2013
 -
-2017
+2026
 Vinay
 Sajip
 .
@@ -139,9 +139,9 @@ as
 _quote
 unquote
 url2pathname
-                        
 pathname2url
 ContentTooShortError
+                        
 splittype
 )
     
@@ -190,7 +190,6 @@ Request
 urlopen
 URLError
 HTTPError
-                         
 HTTPBasicAuthHandler
 HTTPPasswordMgr
 HTTPHandler
@@ -421,7 +420,6 @@ urlunparse
 urljoin
 quote
 unquote
-                              
 urlsplit
 urlunsplit
 splittype
@@ -437,13 +435,11 @@ urlopen
 urlretrieve
 Request
 url2pathname
-                                
 pathname2url
 HTTPBasicAuthHandler
                                 
 HTTPPasswordMgr
 HTTPHandler
-                                
 HTTPRedirectHandler
 build_opener
 )
@@ -694,9 +690,8 @@ choice
 raise
 CertificateError
 (
-                
-"
-too
+'
+Too
 many
 wildcards
 in
@@ -704,12 +699,11 @@ certificate
 DNS
 name
 :
-"
-+
-repr
-(
+%
+r
+'
+%
 dn
-)
 )
         
 #
@@ -1308,7 +1302,6 @@ of
 s
 "
 %
-                                   
 (
 hostname
 '
@@ -1353,7 +1346,6 @@ match
 r
 "
 %
-                                   
 (
 hostname
 dnsnames
@@ -2555,7 +2547,6 @@ not
 s
 "
 %
-                            
 type
 (
 filename
@@ -2615,7 +2606,6 @@ not
 s
 "
 %
-                            
 type
 (
 filename
@@ -3264,7 +3254,6 @@ r
 .
 format
 (
-                        
 filename
 encoding
 )
@@ -3309,7 +3298,7 @@ None
 msg
 =
 '
-encoding
+Encoding
 problem
 :
 utf
@@ -3323,24 +3312,18 @@ else
 msg
 =
 '
-encoding
+Encoding
 problem
 for
-{
-!
+%
 r
-}
 :
 utf
 -
 8
 '
-.
-format
-(
-                            
+%
 filename
-)
                     
 raise
 SyntaxError
@@ -3520,8 +3503,95 @@ from
 html
 import
 unescape
+_get_ident
+=
+None
+def
+_thread_get_ident
+(
+)
+:
+    
+global
+_get_ident
+    
+if
+_get_ident
+is
+None
+:
+        
 try
 :
+            
+#
+Python
+2
+            
+from
+thread
+import
+get_ident
+as
+_get_ident
+        
+except
+ImportError
+:
+            
+try
+:
+                
+from
+dummy_thread
+import
+get_ident
+as
+_get_ident
+            
+except
+ImportError
+:
+                
+#
+Python
+>
+=
+3
+                
+try
+:
+                    
+from
+_thread
+import
+get_ident
+as
+_get_ident
+                
+except
+ImportError
+:
+                    
+from
+_dummy_thread
+import
+get_ident
+as
+_get_ident
+    
+return
+_get_ident
+try
+:
+    
+#
+Python
+>
+=
+3
+.
+3
     
 from
 collections
@@ -3544,6 +3614,14 @@ MutableMapping
 try
 :
         
+#
+Python
+>
+=
+3
+.
+2
+        
 from
 reprlib
 import
@@ -3554,6 +3632,12 @@ _recursive_repr
 except
 ImportError
 :
+        
+_get_ident
+=
+_thread_get_ident
+(
+)
         
 def
 _recursive_repr
@@ -3616,7 +3700,7 @@ id
 (
 self
 )
-get_ident
+_get_ident
 (
 )
                     
@@ -3718,7 +3802,6 @@ __annotations__
 getattr
 (
 user_function
-                                                  
 '
 __annotations__
 '
@@ -3927,7 +4010,6 @@ try
 return
 mapping
 [
-                        
 key
 ]
 #
@@ -3954,7 +4036,6 @@ self
 .
 __missing__
 (
-                
 key
 )
 #
@@ -4003,7 +4084,6 @@ set
 .
 union
 (
-                
 *
 self
 .
@@ -4107,7 +4187,6 @@ __name__
 .
 format
 (
-                
 self
 '
 '
@@ -4365,7 +4444,6 @@ KeyError
 raise
 KeyError
 (
-                    
 '
 Key
 not
@@ -4518,7 +4596,6 @@ KeyError
 raise
 KeyError
 (
-                    
 '
 Key
 not
@@ -4605,6 +4682,9 @@ path
 debug_override
 =
 None
+optimization
+=
+None
 )
 :
         
@@ -4654,6 +4734,14 @@ path
 suffix
 try
 :
+    
+#
+Python
+>
+=
+3
+.
+1
     
 from
 collections
@@ -4734,26 +4822,11 @@ latest
 updates
 .
     
-try
-:
-        
-from
-thread
-import
-get_ident
-as
 _get_ident
-    
-except
-ImportError
-:
-        
-from
-dummy_thread
-import
-get_ident
-as
-_get_ident
+=
+_thread_get_ident
+(
+)
     
 try
 :
@@ -4974,7 +5047,6 @@ got
 d
 '
 %
-                                
 len
 (
 args
@@ -6729,7 +6801,6 @@ self
 =
 len
 (
-                    
 other
 )
 and
@@ -7137,7 +7208,6 @@ in
 (
 ConvertingDict
 ConvertingList
-                                    
 ConvertingTuple
 )
 :
@@ -7225,7 +7295,6 @@ in
 (
 ConvertingDict
 ConvertingList
-                                    
 ConvertingTuple
 )
 :
@@ -7294,7 +7363,6 @@ in
 (
 ConvertingDict
 ConvertingList
-                                
 ConvertingTuple
 )
 :
@@ -7397,7 +7465,6 @@ in
 (
 ConvertingDict
 ConvertingList
-                                    
 ConvertingTuple
 )
 :
@@ -7465,7 +7532,6 @@ in
 (
 ConvertingDict
 ConvertingList
-                                    
 ConvertingTuple
 )
 :
@@ -7543,7 +7609,6 @@ in
 (
 ConvertingDict
 ConvertingList
-                                    
 ConvertingTuple
 )
 :
@@ -8162,9 +8227,7 @@ n
 =
 int
 (
-                                        
 idx
-                                    
 )
 #
 try
@@ -8310,7 +8373,6 @@ ConvertingDict
 and
 isinstance
 (
-                    
 value
 dict
 )
@@ -8339,7 +8401,6 @@ ConvertingList
 and
 isinstance
 (
-                    
 value
 list
 )

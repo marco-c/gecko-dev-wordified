@@ -299,10 +299,8 @@ nt
 "
 :
         
-(
 drive
 path
-)
 =
 os
 .

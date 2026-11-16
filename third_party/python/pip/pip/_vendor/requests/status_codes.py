@@ -901,6 +901,11 @@ network_authentication
 )
 }
 codes
+:
+LookupDict
+[
+int
+]
 =
 LookupDict
 (
@@ -973,7 +978,12 @@ def
 doc
 (
 code
+:
+int
 )
+-
+>
+str
 :
         
 names

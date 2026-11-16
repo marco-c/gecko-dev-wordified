@@ -13,6 +13,12 @@ s
 "
 "
 "
+#
+pyright
+:
+reportUnknownMemberType
+=
+false
 import
 json
 import
@@ -21,6 +27,10 @@ import
 ssl
 import
 sys
+from
+typing
+import
+Any
 from
 pip
 .
@@ -78,9 +88,31 @@ else
     
 import
 cryptography
+#
+type
+:
+ignore
+[
+import
+-
+not
+-
+found
+]
     
 import
 OpenSSL
+#
+type
+:
+ignore
+[
+import
+-
+not
+-
+found
+]
 def
 _implementation
 (
@@ -232,41 +264,43 @@ PyPy
 "
 :
         
+pypy
+=
+sys
+.
+pypy_version_info
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
+        
 implementation_version
 =
+f
 "
 {
-}
-.
-{
-}
-.
-{
-}
-"
-.
-format
-(
-            
-sys
-.
-pypy_version_info
+pypy
 .
 major
-            
-sys
+}
 .
-pypy_version_info
+{
+pypy
 .
 minor
-            
-sys
+}
 .
-pypy_version_info
+{
+pypy
 .
 micro
-        
-)
+}
+"
         
 if
 sys
@@ -280,6 +314,15 @@ releaselevel
 final
 "
 :
+#
+type
+:
+ignore
+[
+attr
+-
+defined
+]
             
 implementation_version
 =
@@ -296,6 +339,15 @@ sys
 pypy_version_info
 .
 releaselevel
+]
+#
+type
+:
+ignore
+[
+attr
+-
+defined
 ]
             
 )
@@ -366,6 +418,13 @@ def
 info
 (
 )
+-
+>
+dict
+[
+str
+Any
+]
 :
     
 "
@@ -454,6 +513,13 @@ urllib3
 .
 __version__
 }
+#
+type
+:
+ignore
+[
+reportPrivateImportUsage
+]
     
 charset_normalizer_info
 =
@@ -466,6 +532,14 @@ None
 }
     
 chardet_info
+:
+dict
+[
+str
+str
+|
+None
+]
 =
 {
 "
@@ -508,6 +582,14 @@ __version__
 }
     
 pyopenssl_info
+:
+dict
+[
+str
+str
+|
+None
+]
 =
 {
         
@@ -631,6 +713,13 @@ else
 "
 "
 }
+#
+type
+:
+ignore
+[
+reportUnnecessaryComparison
+]
     
 return
 {

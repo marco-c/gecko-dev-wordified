@@ -15,15 +15,14 @@ collections
 .
 abc
 import
+Callable
 Iterable
 Mapping
 from
 typing
 import
 Any
-Callable
 Literal
-Union
 from
 pip
 .
@@ -78,11 +77,9 @@ CommandArgs
 =
 list
 [
-Union
-[
 str
+|
 HiddenText
-]
 ]
 def
 make_command
@@ -1093,6 +1090,12 @@ cwd
 env
 =
 env
+            
+encoding
+=
+"
+locale
+"
             
 errors
 =

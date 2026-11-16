@@ -1,7 +1,3 @@
-from
-__future__
-import
-absolute_import
 #
 For
 backwards
@@ -14,6 +10,10 @@ to
 be
 here
 .
+from
+__future__
+import
+annotations
 from
 .
 connection
@@ -44,17 +44,13 @@ import
     
 ALPN_PROTOCOLS
     
-HAS_SNI
-    
 IS_PYOPENSSL
-    
-IS_SECURETRANSPORT
-    
-PROTOCOL_TLS
     
 SSLContext
     
 assert_fingerprint
+    
+create_urllib3_context
     
 resolve_cert_reqs
     
@@ -67,15 +63,12 @@ from
 timeout
 import
 Timeout
-current_time
 from
 .
 url
 import
 Url
-get_host
 parse_url
-split_first
 from
 .
 wait
@@ -87,23 +80,11 @@ __all__
 (
     
 "
-HAS_SNI
-"
-    
-"
 IS_PYOPENSSL
 "
     
 "
-IS_SECURETRANSPORT
-"
-    
-"
 SSLContext
-"
-    
-"
-PROTOCOL_TLS
 "
     
 "
@@ -127,7 +108,7 @@ assert_fingerprint
 "
     
 "
-current_time
+create_urllib3_context
 "
     
 "
@@ -136,10 +117,6 @@ is_connection_dropped
     
 "
 is_fp_closed
-"
-    
-"
-get_host
 "
     
 "
@@ -156,10 +133,6 @@ resolve_cert_reqs
     
 "
 resolve_ssl_version
-"
-    
-"
-split_first
 "
     
 "
