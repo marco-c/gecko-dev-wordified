@@ -732,11 +732,9 @@ clearScalars
 let
 cumulativeSearchesHistogram
 =
-Services
+TelemetryTestUtils
 .
-telemetry
-.
-getHistogramById
+getAndClearHistogram
 (
 "
 PLACES_LIBRARY_CUMULATIVE_HISTORY_SEARCHES
