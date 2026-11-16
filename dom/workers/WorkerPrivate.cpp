@@ -40251,6 +40251,7 @@ Name
 ;
 const
 nsCString
+&
 status
 =
 GET_WORKERREF_DEBUG_STATUS
