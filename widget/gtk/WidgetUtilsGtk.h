@@ -472,6 +472,16 @@ SynthesizeStartupToken
 (
 )
 ;
+uint32_t
+GetX11StartupUserTime
+(
+GdkDisplay
+*
+aDisplay
+uintptr_t
+aWindow
+)
+;
 void
 FindLatestUserTime
 (
@@ -480,6 +490,8 @@ GdkDisplay
 aDisplay
 uintptr_t
 aWindow
+uint32_t
+aCurrentTime
 uint32_t
 *
 aLatestTime
