@@ -12896,7 +12896,7 @@ frameLevel
 nsBidiPresUtils
 :
 :
-GetFrameBaseLevel
+GetLineBaseLevel
 (
 aSubFrame
 )
