@@ -1163,6 +1163,17 @@ bytes
 =
 =
 19915
+    
+assert
+leaks
+[
+0
+]
+[
+"
+scope
+"
+]
 if
 __name__
 =

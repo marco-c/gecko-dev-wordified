@@ -189,6 +189,14 @@ these
 failures
 .
             
+if
+"
+message
+"
+in
+data
+:
+                
 return
 "
 %
@@ -203,6 +211,15 @@ data
 message
 "
 ]
+            
+return
+TbplFormatter
+.
+__call__
+(
+self
+data
+)
         
 formatted
 =

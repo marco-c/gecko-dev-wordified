@@ -3381,6 +3381,14 @@ valgrindSuppFiles
 =
 None
         
+checkLeaks
+=
+False
+        
+leakScope
+=
+None
+        
 *
 *
 profileArgs
