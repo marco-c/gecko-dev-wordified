@@ -104,18 +104,6 @@ to
 defeat
 conservative
 GC
-/
-/
-Make
-each
-eval
-string
-distinct
-to
-avoid
-eval
-cache
-.
 g
 .
 eval
@@ -145,8 +133,6 @@ length
 )
 ;
 "
-+
-i
 )
 ;
 gc
