@@ -12931,6 +12931,7 @@ n
 "
 "
 in
+highp
 vec4
 v_clipdist
 ;
@@ -12940,6 +12941,7 @@ n
 "
 flat
 in
+highp
 vec2
 v_gauss_coeffs
 ;
@@ -12973,6 +12975,7 @@ main
 n
 "
 "
+highp
 vec3
 gauss_coeff
 =
