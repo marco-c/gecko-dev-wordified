@@ -1472,10 +1472,6 @@ nsIPrincipal
 aSelfOrigin
 )
 {
-ResetDeclaredPolicy
-(
-)
-;
 mDeclaredString
 =
 aPolicyString
