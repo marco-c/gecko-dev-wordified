@@ -73,8 +73,8 @@ anyhow
 :
 :
 {
-Result
 bail
+Result
 }
 ;
 use
@@ -143,8 +143,8 @@ crate
 :
 :
 {
-USER_AGENT
 config
+USER_AGENT
 }
 ;
 #

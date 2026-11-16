@@ -121,6 +121,7 @@ DeviceCapability
 DeviceType
 Error
 FxaError
+FxaRustAuthState
 FxaState
 LocalDevice
 Result
@@ -445,6 +446,10 @@ to_state_machine_err
 |
 |
 initial_state
+.
+into
+(
+)
 )
 ?
 ;
@@ -1207,7 +1212,7 @@ Ok
 }
 pub
 fn
-get_initial_state
+get_auth_state
 (
 &
 mut
@@ -1215,13 +1220,13 @@ self
 )
 -
 >
-FxaState
+FxaRustAuthState
 {
 self
 .
 inner
 .
-get_initial_state
+get_auth_state
 (
 )
 }

@@ -3647,12 +3647,6 @@ accept
 "
 )
 (
-AGE
-"
-age
-"
-)
-(
 AUTHORIZATION
 "
 authorization
@@ -3672,12 +3666,6 @@ CONTENT_TYPE
 content
 -
 type
-"
-)
-(
-DATE
-"
-date
 "
 )
 (
