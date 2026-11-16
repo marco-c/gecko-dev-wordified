@@ -2467,7 +2467,7 @@ gNonSynthesizedMouseOrKeyboardEventCounter
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "
@@ -2483,7 +2483,7 @@ nullptr
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "
@@ -2524,7 +2524,7 @@ else
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "
@@ -2582,7 +2582,7 @@ mPreviousNonSynthesizedCount
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "
@@ -2605,7 +2605,7 @@ else
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "

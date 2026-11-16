@@ -5248,7 +5248,7 @@ obs
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "
@@ -5303,7 +5303,7 @@ obs
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "
@@ -5449,7 +5449,7 @@ GC_CYCLE_BEGIN
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "
@@ -5473,7 +5473,7 @@ GC_CYCLE_END
 obs
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "

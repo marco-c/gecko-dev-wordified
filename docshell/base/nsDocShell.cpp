@@ -29216,7 +29216,7 @@ NS_CHROME_WEBNAVIGATION_DESTROY
 serv
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 GetAsSupports
 (

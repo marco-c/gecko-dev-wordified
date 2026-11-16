@@ -7108,7 +7108,7 @@ observerService
 observerService
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 nullptr
 "

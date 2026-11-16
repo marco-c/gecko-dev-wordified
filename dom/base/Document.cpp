@@ -83476,7 +83476,7 @@ NodePrincipal
 os
 -
 >
-NotifyWhenScriptSafe
+NotifyObservers
 (
 ToSupports
 (
