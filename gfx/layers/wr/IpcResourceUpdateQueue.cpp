@@ -2298,6 +2298,8 @@ uint8_t
 aBytes
 ImageIntRect
 aVisibleRect
+uint16_t
+aTileSize
 )
 {
 MOZ_RELEASE_ASSERT
@@ -2352,7 +2354,7 @@ OpAddBlobImage
 aDescriptor
 bytes
 aVisibleRect
-0
+aTileSize
 key
 )
 )
