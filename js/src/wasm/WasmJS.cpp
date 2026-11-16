@@ -9205,14 +9205,6 @@ record
 exportValues
 )
 ;
-ModuleObject
-:
-:
-onTopLevelEvaluationFinished
-(
-record
-)
-;
 return
 true
 ;
