@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 from
 webdriver
@@ -242,9 +240,9 @@ not
 interactable
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .

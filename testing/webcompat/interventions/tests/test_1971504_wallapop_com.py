@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 from
 webdriver
@@ -191,9 +189,9 @@ True
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -315,9 +313,9 @@ range
 :
         
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .

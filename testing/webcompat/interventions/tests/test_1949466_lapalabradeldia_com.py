@@ -1,5 +1,3 @@
-import
-asyncio
 from
 random
 import
@@ -531,9 +529,9 @@ coords
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -581,9 +579,9 @@ coords
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -619,9 +617,9 @@ coords
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -657,9 +655,9 @@ coords
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -695,9 +693,9 @@ coords
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -733,9 +731,9 @@ coords
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .
@@ -768,9 +766,9 @@ problem
 .
         
 await
-asyncio
+client
 .
-sleep
+stall
 (
 0
 .

@@ -1,6 +1,4 @@
 import
-asyncio
-import
 pytest
 URL
 =
@@ -99,9 +97,9 @@ timeout
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 2
 )
@@ -113,9 +111,9 @@ click
 )
             
 await
-asyncio
+client
 .
-sleep
+stall
 (
 2
 )
@@ -196,9 +194,9 @@ timeout
 )
         
 await
-asyncio
+client
 .
-sleep
+stall
 (
 2
 )
@@ -230,9 +228,9 @@ click
 )
         
 await
-asyncio
+client
 .
-sleep
+stall
 (
 2
 )
@@ -296,9 +294,9 @@ client
 )
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 3
 )
@@ -383,9 +381,9 @@ dismissed
 .
     
 await
-asyncio
+client
 .
-sleep
+stall
 (
 3
 )
