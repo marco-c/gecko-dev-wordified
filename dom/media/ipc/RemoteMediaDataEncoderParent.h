@@ -202,8 +202,11 @@ aResolver
 IPCResult
 RecvReconfigure
 (
+NotNull
+<
 EncoderConfigurationChangeList
 *
+>
 aConfigurationChanges
 ReconfigureResolver
 &

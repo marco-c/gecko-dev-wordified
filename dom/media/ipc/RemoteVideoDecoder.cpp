@@ -2343,9 +2343,12 @@ GetTextureForwarder
 {
 aDecodedData
 =
-MakeRefPtr
+MakeNotNull
+<
+RefPtr
 <
 ArrayOfRemoteVideoData
+>
 >
 (
 )
@@ -3157,9 +3160,12 @@ output
 }
 aDecodedData
 =
-MakeRefPtr
+MakeNotNull
+<
+RefPtr
 <
 ArrayOfRemoteVideoData
+>
 >
 (
 std

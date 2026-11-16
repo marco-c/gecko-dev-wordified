@@ -1538,9 +1538,12 @@ AudioData
 auto
 samples
 =
-MakeRefPtr
+MakeNotNull
+<
+RefPtr
 <
 ArrayOfRemoteAudioData
+>
 >
 (
 )
@@ -1707,9 +1710,12 @@ VideoData
 auto
 samples
 =
-MakeRefPtr
+MakeNotNull
+<
+RefPtr
 <
 ArrayOfRemoteVideoData
+>
 >
 (
 )
@@ -2295,9 +2301,9 @@ MediaRawData
 >
 samples
 ;
-if
-(
+const
 auto
+&
 remoteSamples
 =
 encodeResponse
@@ -2305,8 +2311,7 @@ encodeResponse
 samples
 (
 )
-)
-{
+;
 size_t
 count
 =
@@ -2433,7 +2438,6 @@ __func__
 ;
 return
 ;
-}
 }
 }
 LOGV
@@ -2778,9 +2782,9 @@ MediaRawData
 >
 samples
 ;
-if
-(
+const
 auto
+&
 remoteSamples
 =
 encodeResponse
@@ -2788,8 +2792,7 @@ encodeResponse
 samples
 (
 )
-)
-{
+;
 size_t
 count
 =
@@ -2899,7 +2902,6 @@ __func__
 ;
 return
 ;
-}
 }
 }
 LOGD
@@ -3148,6 +3150,8 @@ mChild
 >
 SendReconfigure
 (
+WrapNotNull
+(
 const_cast
 <
 EncoderConfigurationChangeList
@@ -3158,6 +3162,7 @@ changes
 .
 get
 (
+)
 )
 )
 )

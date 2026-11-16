@@ -1065,9 +1065,12 @@ audio
 auto
 array
 =
-MakeRefPtr
+MakeNotNull
+<
+RefPtr
 <
 ArrayOfRemoteAudioData
+>
 >
 (
 )

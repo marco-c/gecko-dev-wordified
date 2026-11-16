@@ -219,8 +219,11 @@ aResolver
 IPCResult
 RecvDecode
 (
+NotNull
+<
 ArrayOfRemoteMediaRawData
 *
+>
 aData
 DecodeResolver
 &
