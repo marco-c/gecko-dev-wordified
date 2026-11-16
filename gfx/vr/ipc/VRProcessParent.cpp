@@ -1014,11 +1014,6 @@ VRProcessParent
 :
 OnChannelConnected
 (
-base
-:
-:
-ProcessId
-peer_pid
 )
 {
 MOZ_RELEASE_ASSERT
@@ -1034,7 +1029,6 @@ GeckoChildProcessHost
 :
 OnChannelConnected
 (
-peer_pid
 )
 ;
 NS_DispatchToMainThread
