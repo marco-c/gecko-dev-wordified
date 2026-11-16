@@ -151,6 +151,7 @@ def
 test_key
 (
 bidi_session
+configuration
 inline
 top_context
 )
@@ -275,10 +276,30 @@ key_up
 "
 )
         
+#
+Give
+the
+triggered
+navigation
+time
+to
+load
+the
+new
+page
+.
+        
 .
 pause
 (
 1000
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
 )
         
 .
@@ -400,6 +421,7 @@ def
 test_pointer
 (
 bidi_session
+configuration
 inline
 top_context
 get_element
@@ -522,10 +544,30 @@ button
 0
 )
         
+#
+Give
+the
+triggered
+navigation
+time
+to
+load
+the
+new
+page
+.
+        
 .
 pause
 (
 1000
+*
+configuration
+[
+"
+timeout_multiplier
+"
+]
 )
         
 .
