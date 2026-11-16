@@ -795,10 +795,14 @@ nurseryPromotedCount
 Number
 of
 times
-the
+this
+site
+was
+reset
+or
+had
+its
 script
-has
-been
 invalidated
 .
 uint32_t

@@ -4974,6 +4974,11 @@ gcx
 )
 ;
 void
+resetPretenuredWasmAllocSites
+(
+)
+;
+void
 traceWeakJitScripts
 (
 JSTracer
