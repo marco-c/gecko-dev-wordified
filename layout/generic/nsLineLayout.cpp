@@ -9914,8 +9914,6 @@ if
 0
 =
 =
-startMargin
-+
 pfd
 -
 >
@@ -9925,6 +9923,12 @@ ISize
 (
 lineWM
 )
+&
+&
+0
+=
+=
+startMargin
 +
 endMargin
 )
