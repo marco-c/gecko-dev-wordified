@@ -2657,10 +2657,6 @@ IPCResult
 RecvSetCookies
 (
 const
-nsCString
-&
-aBaseDomain
-const
 OriginAttributes
 &
 aOriginAttributes
