@@ -1042,14 +1042,6 @@ else
 False
 )
         
-self
-.
-device
-.
-pull_ccov
-(
-)
-        
 if
 self
 .

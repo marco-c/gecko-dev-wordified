@@ -3634,14 +3634,6 @@ suite_end
 (
 )
         
-self
-.
-device
-.
-pull_ccov
-(
-)
-        
 if
 self
 .
