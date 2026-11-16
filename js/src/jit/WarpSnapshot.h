@@ -1103,6 +1103,13 @@ JSOp
 :
 :
 GetAliasedVar
+or
+/
+/
+JSOp
+:
+:
+GetImport
 .
 class
 WarpConstantBinding
