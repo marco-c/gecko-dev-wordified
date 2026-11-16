@@ -820,6 +820,9 @@ WM_MBUTTONDOWN
 case
 WM_RBUTTONDOWN
 :
+case
+WM_XBUTTONDOWN
+:
 return
 &
 mPenPointerDownInfo
@@ -833,9 +836,12 @@ WM_MBUTTONUP
 case
 WM_RBUTTONUP
 :
+case
+WM_XBUTTONUP
+:
 return
 &
-mPenPointerDownInfo
+mPenPointerUpInfo
 ;
 case
 WM_MOUSEMOVE
