@@ -984,6 +984,13 @@ aHeight
 )
 ;
 bool
+SetVideoProcessorAutoHDR
+(
+bool
+aEnable
+)
+;
+bool
 SupportsHardwareOverlays
 (
 )
@@ -1204,6 +1211,11 @@ RefPtr
 ID3D11VideoProcessorEnumerator
 >
 mVideoProcessorEnumerator
+;
+bool
+mVideoProcessorAutoHDREnabled
+=
+false
 ;
 gfx
 :
