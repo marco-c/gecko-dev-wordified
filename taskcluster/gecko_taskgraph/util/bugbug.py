@@ -151,7 +151,7 @@ RETRY_TIMEOUT
 seconds
 RETRY_INTERVAL
 =
-10
+2
 #
 seconds
 #
