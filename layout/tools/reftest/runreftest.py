@@ -6559,11 +6559,12 @@ by
 this
 harness
 for
-the
-benefit
-of
 crash
 logging
+and
+            
+sanitizer
+reports
 .
 "
 "
@@ -6693,6 +6694,16 @@ test
 ]
 )
 )
+            
+self
+.
+outputHandler
+.
+lastTestSeen
+=
+self
+.
+lastTestSeen
         
 self
 .
@@ -7222,6 +7233,14 @@ outputHandler
 proc_name
 =
 None
+        
+self
+.
+outputHandler
+.
+finish
+(
+)
         
 crashed
 =
@@ -8411,6 +8430,24 @@ self
 lastTestSeen
 =
 manifest
+            
+self
+.
+outputHandler
+.
+lastTestSeen
+=
+self
+.
+lastTestSeen
+            
+self
+.
+outputHandler
+.
+scope
+=
+manifest_id
             
 status
 =
