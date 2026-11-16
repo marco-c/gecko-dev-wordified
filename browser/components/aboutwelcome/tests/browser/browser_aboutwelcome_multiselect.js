@@ -158,6 +158,8 @@ position
 :
 "
 center
+-
+large
 "
 logo
 :
@@ -423,6 +425,8 @@ position
 :
 "
 center
+-
+large
 "
 logo
 :
