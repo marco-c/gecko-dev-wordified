@@ -1724,6 +1724,9 @@ updates
 "
 support
 "
+"
+newsletter
+"
 ]
 module
 :
