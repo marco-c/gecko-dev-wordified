@@ -2434,7 +2434,7 @@ void
 ModuleScript
 :
 :
-ResetPreload
+ResetPreloadErrors
 (
 )
 {
@@ -2448,17 +2448,6 @@ IsForModulePreload
 )
 )
 ;
-if
-(
-mModuleRecord
-)
-{
-ResetPreloadedModule
-(
-mModuleRecord
-)
-;
-}
 if
 (
 HasParseError
