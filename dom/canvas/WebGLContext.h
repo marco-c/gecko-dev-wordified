@@ -8705,9 +8705,12 @@ webgl
 LinkActiveInfo
 GetLinkActiveInfo
 (
-WebGLContext
+gl
+:
+:
+GLContext
 &
-webgl
+gl
 const
 GLuint
 prog
