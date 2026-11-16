@@ -92340,7 +92340,6 @@ flags
 /
 Verify
 that
-spread
 calls
 have
 a
@@ -92371,12 +92370,12 @@ safely
 ignore
 the
 limit
+for
+spread
+calls
 .
 if
 (
-isSpread
-&
-&
 argsLength
 (
 )
@@ -94182,7 +94181,6 @@ NoAction
 /
 Verify
 that
-spread
 calls
 have
 a
@@ -94193,9 +94191,6 @@ arguments
 .
 if
 (
-isSpread
-&
-&
 argsLength
 (
 )
