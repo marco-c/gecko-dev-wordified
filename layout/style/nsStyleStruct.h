@@ -4018,6 +4018,14 @@ mBorderImageSource
 IsNone
 (
 )
+|
+|
+!
+mBorderShape
+.
+IsNone
+(
+)
 ;
 }
 /
