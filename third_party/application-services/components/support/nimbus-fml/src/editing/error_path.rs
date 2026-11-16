@@ -1,5 +1,5 @@
 /
-*
+/
 This
 Source
 Code
@@ -13,7 +13,8 @@ of
 the
 Mozilla
 Public
-*
+/
+/
 License
 v
 .
@@ -32,14 +33,15 @@ not
 distributed
 with
 this
-*
+/
+/
 file
 You
 can
 obtain
 one
 at
-http
+https
 :
 /
 /
@@ -54,8 +56,6 @@ MPL
 0
 /
 .
-*
-/
 use
 serde_json
 :
@@ -606,7 +606,6 @@ name
 "
 ]
 "
-&
 self
 .
 path
@@ -654,7 +653,6 @@ format
 prop_key
 }
 "
-&
 self
 .
 path
@@ -712,7 +710,6 @@ key
 }
 ]
 "
-&
 self
 .
 path
@@ -786,7 +783,6 @@ key
 '
 ]
 "
-&
 self
 .
 path
@@ -894,7 +890,6 @@ index
 }
 ]
 "
-&
 self
 .
 path
@@ -936,7 +931,6 @@ format
 name
 }
 "
-&
 self
 .
 path

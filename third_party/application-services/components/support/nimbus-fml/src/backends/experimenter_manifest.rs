@@ -1,5 +1,5 @@
 /
-*
+/
 This
 Source
 Code
@@ -13,7 +13,8 @@ of
 the
 Mozilla
 Public
-*
+/
+/
 License
 v
 .
@@ -32,14 +33,15 @@ not
 distributed
 with
 this
-*
+/
+/
 file
 You
 can
 obtain
 one
 at
-http
+https
 :
 /
 /
@@ -54,8 +56,6 @@ MPL
 0
 /
 .
-*
-/
 use
 std
 :
@@ -90,7 +90,6 @@ use
 crate
 :
 :
-{
 command_line
 :
 :
@@ -98,6 +97,11 @@ commands
 :
 :
 GenerateExperimenterManifestCmd
+;
+use
+crate
+:
+:
 error
 :
 :
@@ -105,6 +109,11 @@ error
 FMLError
 Result
 }
+;
+use
+crate
+:
+:
 intermediate_representation
 :
 :
@@ -115,7 +124,6 @@ GeckoPrefDef
 PropDef
 TargetLanguage
 TypeRef
-}
 }
 ;
 pub
