@@ -124,9 +124,15 @@ Gecko
 (
 such
 as
-gfx
+dom
 /
-angle
+canvas
+/
+test
+/
+webgl
+-
+conf
 /
 cherry_picks
 .
