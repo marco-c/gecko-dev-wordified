@@ -2936,6 +2936,18 @@ stop
 (
 force
 )
+        
+self
+.
+runner
+.
+device
+.
+device
+.
+pull_ccov
+(
+)
     
 def
 executor_browser
