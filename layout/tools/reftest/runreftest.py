@@ -2594,9 +2594,24 @@ port
         
 sandbox_allowlist_paths
 =
+[
+            
+os
+.
+path
+.
+normpath
+(
+p
+)
+for
+p
+in
 options
 .
 sandboxReadWhitelist
+        
+]
         
 if
 platform
@@ -2644,12 +2659,8 @@ Windows
             
 sandbox_allowlist_paths
 =
-map
-(
+[
                 
-lambda
-p
-:
 os
 .
 path
@@ -2660,9 +2671,12 @@ p
 "
 "
 )
+for
+p
+in
 sandbox_allowlist_paths
             
-)
+]
         
 addons
 =
