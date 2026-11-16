@@ -82,8 +82,6 @@ stat
 import
 sys
 import
-time
-import
 warnings
 from
 contextlib
@@ -1250,17 +1248,15 @@ error
     
 retry_delay
 is
-multiplied
-by
-the
-number
-of
+doubled
+after
+each
 failed
-attempts
+attempt
 to
 increase
-    
 the
+    
 likelihood
 of
 success
@@ -1273,17 +1269,43 @@ attempts
 "
 "
     
-retry_count
+import
+redo
+    
+error
+=
+None
+    
+for
+_
+in
+redo
+.
+retrier
+(
+        
+attempts
+=
+retry_max
++
+1
+sleeptime
+=
+retry_delay
+sleepscale
+=
+2
+jitter
 =
 0
     
-while
-True
+)
 :
         
 try
 :
             
+return
 func
 (
 *
@@ -1345,19 +1367,9 @@ ENOTEMPTY
                 
 raise
             
-if
-retry_count
+error
 =
-=
-retry_max
-:
-                
-raise
-            
-retry_count
-+
-=
-1
+e
             
 print
 (
@@ -1404,32 +1416,9 @@ errno
 )
             
 )
-            
-time
-.
-sleep
-(
-retry_count
-*
-retry_delay
-)
-        
-else
-:
-            
-#
-If
-no
-exception
-has
-been
-thrown
-it
-should
-be
-done
-            
-break
+    
+raise
+error
 def
 remove
 (
