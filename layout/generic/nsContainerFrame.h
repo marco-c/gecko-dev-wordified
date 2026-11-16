@@ -3942,9 +3942,10 @@ SetHasFirstLetterChild
 (
 )
 {
-mHasFirstLetterChild
-=
-true
+AddStateBits
+(
+NS_FRAME_HAS_FIRST_LETTER_CHILD
+)
 ;
 }
 void
@@ -3952,9 +3953,10 @@ ClearHasFirstLetterChild
 (
 )
 {
-mHasFirstLetterChild
-=
-false
+RemoveStateBits
+(
+NS_FRAME_HAS_FIRST_LETTER_CHILD
+)
 ;
 }
 #
