@@ -89423,13 +89423,13 @@ mParent
 =
 aParent
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 mParent
 |
 |
-PresShell
+PresContext
 (
 )
 =
@@ -89437,7 +89437,7 @@ PresShell
 mParent
 -
 >
-PresShell
+PresContext
 (
 )
 )
