@@ -409,6 +409,12 @@ destroyWidget
 kWidgetId
 )
 ;
+viewNode
+.
+remove
+(
+)
+;
 }
 )
 ;
