@@ -100,10 +100,6 @@ itertools
 import
 chain
 from
-typing
-import
-Optional
-from
 pip
 .
 _vendor
@@ -306,10 +302,9 @@ DiscoveredDependencies
 =
 defaultdict
 [
-Optional
-[
 str
-]
+|
+None
 list
 [
 InstallRequirement
@@ -749,6 +744,17 @@ bool
 ignore_dependencies
 :
 bool
+        
+only_dependencies
+:
+bool
+#
+unused
+for
+compatibility
+with
+new
+resolver
         
 ignore_installed
 :
@@ -2848,7 +2854,7 @@ wheels
 at
 present
 have
-undeterministic
+nondeterministic
         
 contents
 due
@@ -2879,6 +2885,24 @@ self
 _find_requirement_link
 (
 req
+)
+            
+if
+req
+.
+link
+is
+not
+None
+:
+                
+req
+.
+set_source_link
+(
+req
+.
+link
 )
         
 if

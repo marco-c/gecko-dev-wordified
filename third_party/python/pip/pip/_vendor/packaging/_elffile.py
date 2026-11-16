@@ -29,22 +29,6 @@ interface
 is
 implemented
 .
-Based
-on
-:
-https
-:
-/
-/
-gist
-.
-github
-.
-com
-/
-lyssdod
-/
-f51579ae8d93c8657a5564aefc2ffbca
 ELF
 header
 :
@@ -150,7 +134,7 @@ X8664
 =
 62
     
-AArc64
+AArch64
 =
 183
 class
@@ -310,7 +294,8 @@ e_fmt
 :
 Format
 for
-program
+the
+ELF
 header
 .
             
@@ -319,7 +304,8 @@ p_fmt
 :
 Format
 for
-section
+a
+program
 header
 .
             
@@ -550,7 +536,10 @@ _e_phentsize
 #
 Size
 of
-section
+a
+program
+header
+entry
 .
                 
 self
@@ -559,7 +548,8 @@ _e_phnum
 #
 Number
 of
-sections
+program
+headers
 .
             
 )

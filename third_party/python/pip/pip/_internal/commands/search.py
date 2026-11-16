@@ -788,15 +788,6 @@ indent_log
 )
 :
             
-if
-dist
-.
-version
-=
-=
-latest
-:
-                
 write_output
 (
 "
@@ -804,31 +795,12 @@ INSTALLED
 :
 %
 s
-(
-latest
-)
 "
 dist
 .
 version
 )
             
-else
-:
-                
-write_output
-(
-"
-INSTALLED
-:
-%
-s
-"
-dist
-.
-version
-)
-                
 if
 parse_version
 (
@@ -837,10 +809,10 @@ latest
 .
 pre
 :
-                    
+                
 write_output
 (
-                        
+                    
 "
 LATEST
 :
@@ -852,9 +824,6 @@ pre
 release
 ;
 install
-"
-                        
-"
 with
 pip
 install
@@ -863,14 +832,14 @@ install
 pre
 )
 "
-                        
-latest
                     
-)
+latest
                 
+)
+            
 else
 :
-                    
+                
 write_output
 (
 "

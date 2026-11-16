@@ -2,8 +2,6 @@ import
 ssl
 import
 sys
-import
-typing
 #
 Hold
 on
@@ -86,12 +84,9 @@ __class__
 )
 _truststore_SSLContext_dunder_class
 :
-typing
-.
-Optional
-[
 type
-]
+|
+None
 #
 This
 value

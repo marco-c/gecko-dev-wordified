@@ -1743,6 +1743,9 @@ console
 print
 (
 error
+markup
+=
+True
 )
     
 def

@@ -26,8 +26,6 @@ annotations
 import
 functools
 import
-types
-import
 weakref
 import
 zlib
