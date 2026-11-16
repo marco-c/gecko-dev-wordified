@@ -11985,12 +11985,18 @@ jsSourceEntries
 bool
 gatherSourceText
 =
+ProfilerFeature
+:
+:
+HasJSSources
+(
 ActivePS
 :
 :
-FeatureJS
+Features
 (
 aLock
+)
 )
 ;
 ThreadRegistry
@@ -12148,6 +12154,7 @@ text
 if
 the
 JS
+sources
 feature
 is
 enabled
