@@ -114,6 +114,7 @@ unexpected
       
 -
 crash
+tsan_error
 and
 ubsan_error
 actions
@@ -242,6 +243,23 @@ from
 every
 emitted
 record
+except
+that
+    
+tsan_error
+keeps
+pid
+which
+names
+the
+racing
+process
+rather
+than
+the
+    
+logging
+one
     
 "
 "
@@ -283,6 +301,10 @@ test_status
         
 "
 crash
+"
+        
+"
+tsan_error
 "
         
 "
@@ -503,6 +525,31 @@ allowed_match
             
 return
         
+strip
+=
+self
+.
+_ALWAYS_STRIP
+        
+if
+action
+=
+=
+"
+tsan_error
+"
+:
+            
+strip
+=
+strip
+-
+{
+"
+pid
+"
+}
+        
 data
 =
 {
@@ -525,9 +572,7 @@ if
 k
 not
 in
-self
-.
-_ALWAYS_STRIP
+strip
 and
 not
 k
