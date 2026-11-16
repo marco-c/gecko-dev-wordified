@@ -77,11 +77,13 @@ generated
 sheets
 .
   
-token
--
-resolve
 .
-py
+/
+mach
+theme
+resolve
+-
+token
 DIR
 -
 -
@@ -99,11 +101,13 @@ declarations
 and
 values
   
-token
--
-resolve
 .
-py
+/
+mach
+theme
+resolve
+-
+token
 DIR
 -
 -
@@ -121,11 +125,13 @@ in
 every
 environment
   
-token
--
-resolve
 .
-py
+/
+mach
+theme
+resolve
+-
+token
 DIR
 -
 -
@@ -144,7 +150,7 @@ token
 -
 at
 REV
-                                               
+                                                  
 the
 same
 sheets
@@ -152,11 +158,13 @@ committed
 at
 REV
   
-token
--
-resolve
 .
-py
+/
+mach
+theme
+resolve
+-
+token
 DIR
 -
 -
@@ -169,11 +177,13 @@ diff
 per
 realm
   
-token
--
-resolve
 .
-py
+/
+mach
+theme
+resolve
+-
+token
 DIR
 -
 -
@@ -189,11 +199,13 @@ REV
 vs
 DIR
   
-token
--
-resolve
 .
-py
+/
+mach
+theme
+resolve
+-
+token
 -
 -
 history
@@ -212,11 +224,13 @@ declarations
 every
 sheet
   
-token
--
-resolve
 .
-py
+/
+mach
+theme
+resolve
+-
+token
 -
 -
 declared
@@ -7896,6 +7910,7 @@ declared
         
 usage
 (
+            
 f
 "
 {
@@ -7909,11 +7924,13 @@ put
 it
 first
 :
-token
--
-resolve
 .
-py
+/
+mach
+theme
+resolve
+-
+token
 {
 mode
 }
@@ -7921,6 +7938,7 @@ mode
 .
 .
 "
+        
 )
     
 if
