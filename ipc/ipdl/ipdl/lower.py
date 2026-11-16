@@ -7553,7 +7553,6 @@ a
 [
 Tainted
 ]
-imported
 type
 (
 possibly
@@ -7566,10 +7565,10 @@ side
 may
 receive
 it
-        
 from
 a
 less
+        
 trusted
 process
 .

@@ -2616,6 +2616,9 @@ def
 __init__
 (
 self
+tainted
+=
+False
 )
 :
         
@@ -2641,6 +2644,24 @@ _CompoundType
 |
 ArrayType
 )
+        
+self
+.
+tainted
+=
+tainted
+    
+def
+isTainted
+(
+self
+)
+:
+        
+return
+self
+.
+tainted
     
 def
 isAtom
@@ -2890,6 +2911,9 @@ __init__
 self
 qname
 fields
+tainted
+=
+False
 )
 :
         
@@ -2898,6 +2922,7 @@ _CompoundType
 __init__
 (
 self
+tainted
 )
         
 self
@@ -2980,6 +3005,9 @@ __init__
 self
 qname
 components
+tainted
+=
+False
 )
 :
         
@@ -2988,6 +3016,7 @@ _CompoundType
 __init__
 (
 self
+tainted
 )
         
 self
@@ -3932,19 +3961,15 @@ a
 [
 Tainted
 ]
-imported
-C
-+
-+
 type
 .
 Does
 not
 look
 inside
-    
 structs
 or
+    
 unions
 .
 "
@@ -6503,6 +6528,16 @@ str
 qname
 )
         
+tainted
+=
+"
+Tainted
+"
+in
+su
+.
+attributes
+        
 if
 isinstance
 (
@@ -6518,6 +6553,7 @@ StructType
 qname
 [
 ]
+tainted
 )
         
 elif
@@ -6535,6 +6571,7 @@ UnionType
 qname
 [
 ]
+tainted
 )
         
 else
@@ -6866,6 +6903,11 @@ Comparable
 "
 :
 None
+"
+Tainted
+"
+:
+None
 }
 )
         
@@ -7063,6 +7105,11 @@ attributes
 {
 "
 Comparable
+"
+:
+None
+"
+Tainted
 "
 :
 None
