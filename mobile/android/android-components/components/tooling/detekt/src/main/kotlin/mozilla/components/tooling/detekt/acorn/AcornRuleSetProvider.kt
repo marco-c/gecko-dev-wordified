@@ -105,7 +105,6 @@ RuleSetProvider
 /
 *
 *
-*
 Set
 of
 rules
@@ -159,6 +158,10 @@ rules
 =
 listOf
 (
+AcornDisplayedTextCasingRule
+(
+config
+)
 AcornPaddingRule
 (
 config
