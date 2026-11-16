@@ -30559,6 +30559,21 @@ MOZ_ENABLE_INC_ORIGIN_INIT
 "
             
 "
+repeat
+"
+:
+options
+.
+repeat
+>
+0
+and
+not
+options
+.
+verify
+            
+"
 sessionHistoryInParent
 "
 :
