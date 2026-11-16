@@ -1513,10 +1513,6 @@ mIsNightly
 =
 true
 ;
-mIsEarlyBetaOrEarlier
-=
-true
-;
 }
 void
 TearDown
@@ -1863,8 +1859,6 @@ WebRenderDefaultRelease
 )
 {
 mIsNightly
-=
-mIsEarlyBetaOrEarlier
 =
 false
 ;
@@ -4652,8 +4646,6 @@ WebRenderIntelBatteryNoHwStretchingNotNightly
 {
 mIsNightly
 =
-mIsEarlyBetaOrEarlier
-=
 false
 ;
 +
@@ -5458,8 +5450,6 @@ WebRenderSoftwareReleaseWindowsGPUProcessDisabled
 )
 {
 mIsNightly
-=
-mIsEarlyBetaOrEarlier
 =
 false
 ;

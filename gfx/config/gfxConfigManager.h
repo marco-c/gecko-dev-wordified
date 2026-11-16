@@ -233,10 +233,6 @@ mIsNightly
 (
 false
 )
-mIsEarlyBetaOrEarlier
-(
-false
-)
 mSafeMode
 (
 false
@@ -446,9 +442,6 @@ mDisableHwCompositingNoWr
 ;
 bool
 mIsNightly
-;
-bool
-mIsEarlyBetaOrEarlier
 ;
 bool
 mSafeMode

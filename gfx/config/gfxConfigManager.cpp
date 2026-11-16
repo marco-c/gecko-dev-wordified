@@ -400,15 +400,6 @@ true
 ;
 #
 endif
-#
-ifdef
-EARLY_BETA_OR_EARLIER
-mIsEarlyBetaOrEarlier
-=
-true
-;
-#
-endif
 mSafeMode
 =
 gfxPlatform
