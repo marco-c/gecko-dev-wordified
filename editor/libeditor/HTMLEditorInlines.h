@@ -370,7 +370,7 @@ Element
 HTMLEditor
 :
 :
-GetTableCellElementAt
+GetMaybeGeneratedTableCellElementAt
 (
 Element
 &
@@ -383,7 +383,7 @@ aCellIndexes
 const
 {
 return
-GetTableCellElementAt
+GetMaybeGeneratedTableCellElementAt
 (
 aTableElement
 aCellIndexes
