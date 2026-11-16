@@ -181,9 +181,6 @@ features
 "
 js
 "
-"
-jssources
-"
 ]
 }
 )

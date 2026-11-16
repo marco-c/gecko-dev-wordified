@@ -124,9 +124,6 @@ features
 "
 js
 "
-"
-jssources
-"
 ]
 }
 )
@@ -923,9 +920,6 @@ stackwalk
 "
 "
 js
-"
-"
-jssources
 "
 ]
 }
