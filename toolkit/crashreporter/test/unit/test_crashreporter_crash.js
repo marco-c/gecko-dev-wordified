@@ -367,6 +367,7 @@ data
 await
 do_crash
 (
+async
 function
 (
 )
@@ -507,6 +508,7 @@ mjs
 "
 )
 ;
+await
 TelemetryController
 .
 testSetup
@@ -834,6 +836,7 @@ default
 await
 do_crash
 (
+async
 function
 (
 )
@@ -1093,6 +1096,7 @@ setTestModeEnabled
 true
 )
 ;
+await
 TelemetryController
 .
 testSetup
@@ -1265,6 +1269,7 @@ value
 await
 do_crash
 (
+async
 function
 (
 )
@@ -1396,6 +1401,7 @@ setTestModeEnabled
 true
 )
 ;
+await
 TelemetryController
 .
 testSetup
@@ -1493,6 +1499,7 @@ disabled
 await
 do_crash
 (
+async
 function
 (
 )
@@ -1615,6 +1622,7 @@ setTestModeEnabled
 true
 )
 ;
+await
 TelemetryController
 .
 testSetup

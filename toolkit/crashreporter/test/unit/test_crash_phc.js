@@ -312,6 +312,7 @@ true
 true
 )
 ;
+await
 do_crash
 (
 function

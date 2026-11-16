@@ -99,6 +99,7 @@ reject
 {
 do_crash
 (
+async
 function
 (
 )
@@ -138,6 +139,7 @@ mjs
 "
 )
 ;
+await
 TelemetryController
 .
 testSetup

@@ -1359,9 +1359,14 @@ initTestCrasherSymbols
 let
 stackTraces
 =
+JSON
+.
+parse
+(
 extra
 .
 StackTraces
+)
 ;
 let
 crashingThreadIndex
@@ -1402,6 +1407,7 @@ expectedStack
 ;
 }
 ;
+await
 do_crash
 (
 setupFn
