@@ -169,9 +169,12 @@ ProcessReaderError
 Ok
 (
 ProcessReader
-{
+:
+:
+Local
+(
 process
-}
+)
 )
 }
 pub
@@ -641,6 +644,8 @@ K32EnumProcessModules
 self
 .
 process
+(
+)
 module_array
 .
 as_mut_ptr
@@ -794,6 +799,8 @@ K32GetModuleBaseNameW
 self
 .
 process
+(
+)
 module
 path
 .
@@ -896,6 +903,8 @@ K32GetModuleInformation
 self
 .
 process
+(
+)
 module
 info
 .
@@ -993,6 +1002,8 @@ ReadProcessMemory
 self
 .
 process
+(
+)
 src
 as
 _
@@ -1169,6 +1180,8 @@ ReadProcessMemory
 self
 .
 process
+(
+)
 src
 as
 _

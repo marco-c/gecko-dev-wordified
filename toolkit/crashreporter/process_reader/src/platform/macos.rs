@@ -431,9 +431,12 @@ ProcessReaderError
 Ok
 (
 ProcessReader
-{
+:
+:
+Local
+(
 process
-}
+)
 )
 }
 pub
@@ -1070,6 +1073,8 @@ task_info
 self
 .
 process
+(
+)
 TASK_DYLD_INFO
 info
 .
@@ -1185,6 +1190,8 @@ mach_vm_read_overwrite
 self
 .
 process
+(
+)
 src
 as
 u64
@@ -1362,6 +1369,8 @@ mach_vm_read_overwrite
 self
 .
 process
+(
+)
 src
 as
 u64
