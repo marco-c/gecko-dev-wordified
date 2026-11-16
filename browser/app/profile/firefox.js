@@ -12292,7 +12292,7 @@ browser
 .
 tabs
 .
-loadBookmarksInBackground
+loadUILinkInBackground
 "
 false
 )
@@ -12304,7 +12304,7 @@ browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
 false
 )

@@ -4142,13 +4142,13 @@ true
 !
 PlacesUIUtils
 .
-loadBookmarksInBackground
+loadUILinkInBackground
 &
 &
 !
 PlacesUIUtils
 .
-loadBookmarksInTabs
+loadUILinkInTab
 &
 &
 this

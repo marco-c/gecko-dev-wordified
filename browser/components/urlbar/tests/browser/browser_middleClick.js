@@ -170,7 +170,7 @@ browser
 .
 tabs
 .
-loadBookmarksInBackground
+loadUILinkInBackground
 "
 )
 ;
@@ -1417,7 +1417,7 @@ browser
 .
 tabs
 .
-loadBookmarksInBackground
+loadUILinkInBackground
 [
 {
 isLoadInBackground
@@ -1461,7 +1461,7 @@ browser
 .
 tabs
 .
-loadBookmarksInBackground
+loadUILinkInBackground
 "
 isLoadInBackground
 )

@@ -112,7 +112,7 @@ showForNewBookmarks
         
 self
 .
-original_loadBookmarksInTabs_pref
+original_loadUILinkInTab_pref
 =
 self
 .
@@ -126,7 +126,7 @@ browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
         
 )
@@ -162,7 +162,7 @@ browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
 True
 )

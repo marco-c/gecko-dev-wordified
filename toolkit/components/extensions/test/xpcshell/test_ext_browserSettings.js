@@ -254,7 +254,7 @@ browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
 :
 false
@@ -1533,7 +1533,7 @@ browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
 :
 true
@@ -1553,7 +1553,7 @@ browser
 .
 tabs
 .
-loadBookmarksInTabs
+loadUILinkInTab
 "
 :
 false
