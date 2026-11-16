@@ -76,6 +76,12 @@ Future
 import
 requests
 from
+mozsystemmonitor
+.
+resourcemonitor
+import
+SystemResourceMonitor
+from
 taskgraph
 import
 create
@@ -1115,6 +1121,9 @@ timeout
 3
 )
     
+try
+:
+        
 r
 i
 =
@@ -1125,10 +1134,40 @@ session
 timeout
 )
     
+finally
+:
+        
 end
 =
 monotonic
 (
+)
+        
+SystemResourceMonitor
+.
+record_marker
+(
+            
+"
+bugbug
+"
+start
+end
+{
+"
+type
+"
+:
+"
+Text
+"
+"
+text
+"
+:
+url
+}
+        
 )
     
 if
