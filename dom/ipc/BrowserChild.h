@@ -1683,6 +1683,10 @@ const
 uint64_t
 &
 aInputBlockId
+const
+nsID
+&
+aUUID
 )
 ;
 mozilla
@@ -1709,6 +1713,10 @@ const
 uint64_t
 &
 aInputBlockId
+const
+nsID
+&
+aUUID
 )
 ;
 mozilla
@@ -3816,6 +3824,10 @@ const
 uint64_t
 &
 aInputBlockId
+const
+nsID
+&
+aUUID
 )
 ;
 MOZ_CAN_RUN_SCRIPT

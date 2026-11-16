@@ -21664,6 +21664,16 @@ nsPresContext
 aPresContext
 )
 ;
+static
+EventMessage
+ContentCommandFromString
+(
+const
+nsAString
+&
+aType
+)
+;
 /
 *
 *
