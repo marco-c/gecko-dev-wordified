@@ -270,7 +270,6 @@ matching
 {
 ElementSelectorFlags
 QuirksMode
-VisitedHandlingMode
 }
 ;
 use
@@ -6837,9 +6836,6 @@ V
 (
 &
 self
-visited_handling
-:
-VisitedHandlingMode
 hints
 :
 &
