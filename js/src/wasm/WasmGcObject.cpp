@@ -3309,7 +3309,6 @@ MOZ_ASSERT
 (
 index
 <
-=
 resultType
 .
 fields_
