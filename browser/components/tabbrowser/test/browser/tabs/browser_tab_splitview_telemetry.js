@@ -285,9 +285,7 @@ panel
 querySelector
 (
 "
-split
--
-view
+address
 -
 footer
 "

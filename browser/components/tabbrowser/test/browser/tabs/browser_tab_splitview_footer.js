@@ -353,9 +353,7 @@ panel
 querySelector
 (
 "
-split
--
-view
+address
 -
 footer
 "
@@ -512,9 +510,7 @@ panel1
 querySelector
 (
 "
-split
--
-view
+address
 -
 footer
 "
@@ -528,9 +524,7 @@ panel2
 querySelector
 (
 "
-split
--
-view
+address
 -
 footer
 "
@@ -827,9 +821,7 @@ inactivePanel
 querySelector
 (
 "
-split
--
-view
+address
 -
 footer
 "

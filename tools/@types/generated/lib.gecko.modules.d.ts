@@ -1376,9 +1376,7 @@ content
 /
 tabbrowser
 /
-split
--
-view
+address
 -
 footer
 .
@@ -1399,9 +1397,7 @@ content
 /
 tabbrowser
 /
-split
--
-view
+address
 -
 footer
 .
