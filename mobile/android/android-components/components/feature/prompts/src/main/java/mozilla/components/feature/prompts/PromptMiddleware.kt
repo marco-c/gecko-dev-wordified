@@ -75,12 +75,6 @@ kotlinx
 .
 coroutines
 .
-MainScope
-import
-kotlinx
-.
-coroutines
-.
 launch
 import
 mozilla
@@ -165,7 +159,6 @@ Store
 /
 *
 *
-*
 [
 Middleware
 ]
@@ -187,10 +180,6 @@ val
 scope
 :
 CoroutineScope
-=
-MainScope
-(
-)
 )
 :
 Middleware
