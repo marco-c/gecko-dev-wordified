@@ -683,6 +683,8 @@ in
 the
 allowlist
 s
+/
+/
 expressions
 :
 for
