@@ -1065,6 +1065,7 @@ suite
 test_list
 yaml_content
 global_descriptions
+rel_yml_path
     
 )
 :
@@ -1465,6 +1466,32 @@ description
 for
 {
 test_name
+}
+.
+Add
+one
+"
+                    
+f
+"
+under
+the
+{
+suite
+}
+suite
+in
+the
+perfdocs
+YAML
+config
+:
+"
+                    
+f
+"
+{
+rel_yml_path
 }
 "
                     
@@ -1944,6 +1971,7 @@ suite
 test_list
 yaml_content
 global_metrics
+rel_yml_path
     
 )
 :
@@ -2101,8 +2129,28 @@ metric
 }
 in
 test
+"
+                        
+f
+"
 {
 test
+}
+.
+Add
+one
+to
+the
+perfdocs
+YAML
+config
+:
+"
+                        
+f
+"
+{
+rel_yml_path
 }
 "
                         
@@ -2888,6 +2936,25 @@ tests
 /
 suites
         
+rel_yml_path
+=
+os
+.
+path
+.
+relpath
+(
+framework_info
+[
+"
+yml_path
+"
+]
+self
+.
+workspace_dir
+)
+        
 for
 suite
 test_list
@@ -2943,6 +3010,22 @@ for
 {
 suite
 }
+.
+Add
+one
+to
+the
+"
+                    
+f
+"
+perfdocs
+YAML
+config
+:
+{
+rel_yml_path
+}
 "
                     
 [
@@ -2977,9 +3060,14 @@ _validate_desc_harness_direction
 (
                 
 suite
+                
 test_list
+                
 yaml_content
+                
 global_descriptions
+                
+rel_yml_path
             
 )
             
@@ -2989,9 +3077,14 @@ _validate_metrics_harness_direction
 (
                 
 suite
+                
 test_list
+                
 yaml_content
+                
 global_metrics
+                
+rel_yml_path
             
 )
         
