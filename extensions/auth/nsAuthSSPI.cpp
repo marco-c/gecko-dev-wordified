@@ -2483,7 +2483,13 @@ der
 PublicKeyAlgorithm
 publicKeyAlg
 ;
+std
+:
+:
+optional
+<
 DigestAlgorithm
+>
 digestAlg
 ;
 Reader
@@ -2516,6 +2522,10 @@ pkixResult
 !
 =
 Success
+|
+|
+!
+digestAlg
 )
 {
 return
@@ -2534,6 +2544,7 @@ Extended
 Protection
 switch
 (
+*
 digestAlg
 )
 {
