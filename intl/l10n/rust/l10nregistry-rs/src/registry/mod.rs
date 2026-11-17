@@ -67,7 +67,7 @@ RefMut
 collections
 :
 :
-HashSet
+BTreeSet
 rc
 :
 :
@@ -2387,6 +2387,7 @@ clone
 /
 Returns
 a
+sorted
 unique
 list
 of
@@ -2418,7 +2419,7 @@ let
 mut
 result
 =
-HashSet
+BTreeSet
 :
 :
 new
