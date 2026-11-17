@@ -1440,6 +1440,7 @@ wrapper
 GetRemoteTextureInfo
 (
 )
+this
 readyCallback
 )
 ;
@@ -1464,6 +1465,16 @@ GetRemoteTexture
 wrapper
 )
 ;
+if
+(
+wrapper
+-
+>
+IsReadyForRendering
+(
+)
+)
+{
 texture
 =
 mPendingRemoteTextureWrappers
@@ -1472,6 +1483,7 @@ front
 (
 )
 ;
+}
 mPendingRemoteTextureWrappers
 .
 pop_front
