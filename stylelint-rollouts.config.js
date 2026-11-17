@@ -2419,17 +2419,6 @@ themes
 /
 shared
 /
-UITour
-.
-css
-"
-"
-browser
-/
-themes
-/
-shared
-/
 aiWindowSidebar
 .
 css
