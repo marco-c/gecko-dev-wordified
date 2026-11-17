@@ -1032,7 +1032,7 @@ mTrack
 AppendData
 (
 audio1
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 start
@@ -1123,7 +1123,7 @@ mTrack
 AppendData
 (
 audio2
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 start
@@ -1349,7 +1349,7 @@ mTrack
 AppendData
 (
 audio1
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 TrackTime
@@ -1524,7 +1524,7 @@ mTrack
 AppendData
 (
 audio2
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 start
@@ -1800,7 +1800,7 @@ track
 AppendData
 (
 audio
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 track
@@ -1925,7 +1925,7 @@ mTrack
 AppendData
 (
 audio1
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 TrackTime
@@ -2025,7 +2025,7 @@ mTrack
 AppendData
 (
 audioHalfSampleRate
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 start
@@ -2145,7 +2145,7 @@ mTrack
 AppendData
 (
 audioDoubleSampleRate
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 start
@@ -2316,7 +2316,7 @@ mTrack
 AppendData
 (
 audioMono
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 TrackTime
@@ -2393,7 +2393,7 @@ mTrack
 AppendData
 (
 audioWithFiveChannels
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 start
@@ -2504,7 +2504,7 @@ mTrack
 AppendData
 (
 audio
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 appendedFrames
@@ -2827,7 +2827,7 @@ mTrack
 AppendData
 (
 audio
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 mTrack
@@ -3179,7 +3179,7 @@ mTrack
 AppendData
 (
 audio
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 mTrack
@@ -3473,7 +3473,7 @@ track
 AppendData
 (
 audio
-nullptr
+PRINCIPAL_HANDLE_NONE
 )
 ;
 /

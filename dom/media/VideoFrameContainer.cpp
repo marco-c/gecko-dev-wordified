@@ -189,6 +189,10 @@ mFrameID
 (
 0
 )
+mLastPrincipalHandle
+(
+PRINCIPAL_HANDLE_NONE
+)
 mPendingPrincipalHandle
 (
 PRINCIPAL_HANDLE_NONE

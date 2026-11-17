@@ -313,8 +313,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -794,8 +792,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1316,8 +1312,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1653,8 +1647,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1980,8 +1972,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :

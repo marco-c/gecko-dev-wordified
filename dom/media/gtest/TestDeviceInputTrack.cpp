@@ -892,8 +892,6 @@ mIsVoice
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1134,8 +1132,6 @@ bufferSize
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -1590,8 +1586,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -2363,8 +2357,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -3044,8 +3036,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :
@@ -3473,8 +3463,6 @@ channels
 const
 PrincipalHandle
 testPrincipal
-=
-MakePrincipalHandle
 (
 nsContentUtils
 :

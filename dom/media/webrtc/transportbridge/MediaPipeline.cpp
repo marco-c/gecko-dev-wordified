@@ -11582,6 +11582,8 @@ aVideoFrame
 {
 PrincipalHandle
 principal
+=
+PRINCIPAL_HANDLE_NONE
 ;
 {
 MutexAutoLock
