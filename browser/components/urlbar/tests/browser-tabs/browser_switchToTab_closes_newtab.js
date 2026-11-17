@@ -94,6 +94,15 @@ test_switchToTab_closes
 (
 )
 {
+registerCleanupFunction
+(
+PlacesUtils
+.
+history
+.
+clear
+)
+;
 let
 testURL
 =
