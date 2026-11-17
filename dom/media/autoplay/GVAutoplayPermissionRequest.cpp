@@ -387,7 +387,7 @@ obs
 obs
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 ToSupports
 (
