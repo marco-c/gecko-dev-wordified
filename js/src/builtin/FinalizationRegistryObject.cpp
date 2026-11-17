@@ -5244,6 +5244,14 @@ compartment
 )
 )
 ;
+JS
+:
+:
+AssertObjectIsNotGray
+(
+queue
+)
+;
 /
 /
 2
@@ -5470,7 +5478,7 @@ isInRecordMap
 JS
 :
 :
-ExposeObjectToActiveJS
+AssertObjectIsNotGray
 (
 record
 )
