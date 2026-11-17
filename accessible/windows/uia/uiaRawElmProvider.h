@@ -137,6 +137,11 @@ mIsWebContentRoot
 =
 0
 ;
+PROPERTYID
+mMathML
+=
+0
+;
 }
 ;
 /
