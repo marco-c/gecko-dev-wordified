@@ -68,12 +68,14 @@ strict
 Build
 :
 <
-objdir
+srcdir
 >
 /
-dist
+tools
 /
 types
+/
+generated
 /
 lib
 .

@@ -134,7 +134,7 @@ try
 running
 mach
 ts
-paths
+update
 first
 .
 *
