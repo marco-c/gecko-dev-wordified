@@ -556,10 +556,12 @@ PBroadcastChannelChild
 *
 AllocPBroadcastChannelChild
 (
-const
-PrincipalInfo
-&
-aPrincipalInfo
+NotNull
+<
+nsIPrincipal
+*
+>
+aPrincipal
 const
 nsACString
 &
