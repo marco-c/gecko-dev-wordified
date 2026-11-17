@@ -1460,8 +1460,6 @@ sized
 /
 correctly
 .
-window
-.
 TabBarVisibility
 .
 update
