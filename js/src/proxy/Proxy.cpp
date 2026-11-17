@@ -5780,7 +5780,10 @@ JSObject
 *
 >
 (
-0x1
+TaggedProto
+:
+:
+LazyProtoBits
 )
 ;
 /
