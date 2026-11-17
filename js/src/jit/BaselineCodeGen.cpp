@@ -45193,7 +45193,7 @@ currentOffset
 ;
 masm
 .
-jump
+tailJump
 (
 handlerCode
 )

@@ -295,7 +295,7 @@ calls
 .
 masm
 .
-jump
+tailJump
 (
 target
 )

@@ -288,7 +288,7 @@ ra
 ;
 masm
 .
-jump
+tailJump
 (
 target
 )

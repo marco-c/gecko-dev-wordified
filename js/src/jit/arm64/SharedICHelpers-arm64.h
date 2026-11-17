@@ -529,7 +529,7 @@ stubcode
 .
 masm
 .
-jump
+tailJump
 (
 Address
 (
