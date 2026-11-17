@@ -1453,6 +1453,11 @@ exn
 constructor
 .
 name
+name
+:
+exn
+.
+name
 message
 :
 exn
