@@ -126,6 +126,13 @@ SourceSurfaceSharedData
 .
 h
 "
+#
+include
+"
+nsITimer
+.
+h
+"
 class
 nsICanvasRenderingContextInternal
 ;
@@ -1037,6 +1044,12 @@ RefPtr
 CanvasDrawEventRecorder
 >
 mRecorder
+;
+nsCOMPtr
+<
+nsITimer
+>
+mDormantTimer
 ;
 std
 :
