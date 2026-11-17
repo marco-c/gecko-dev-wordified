@@ -644,14 +644,6 @@ setUndefined
 (
 )
 ;
-mozilla
-:
-:
-DropJSObjects
-(
-tmp
-)
-;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
