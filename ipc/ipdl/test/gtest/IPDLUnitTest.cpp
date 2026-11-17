@@ -385,7 +385,7 @@ parent
 mSubprocess
 -
 >
-SyncLaunch
+LaunchAndWaitForProcessHandle
 (
 std
 :
