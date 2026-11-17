@@ -6548,16 +6548,6 @@ mDirectoryLockHandle
 )
 ;
 }
-/
-/
-Note
-this
-may
-set
-the
-mOrphanedData
-flag
-.
 mManager
 -
 >
