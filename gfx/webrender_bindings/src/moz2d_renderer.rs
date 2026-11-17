@@ -6860,7 +6860,7 @@ size
 =
 cstr
 .
-to_bytes_with_nul
+to_bytes
 (
 )
 .
