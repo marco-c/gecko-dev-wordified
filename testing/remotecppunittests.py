@@ -1328,6 +1328,14 @@ PASS
 return
 False
         
+self
+.
+device
+.
+pull_ccov
+(
+)
+        
 result
 =
 returncode
