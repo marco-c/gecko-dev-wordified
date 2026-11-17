@@ -7163,6 +7163,12 @@ EditUsage
 effFormat
 )
 ;
+usage
+.
+isFilterable
+=
+true
+;
 const
 auto
 &
