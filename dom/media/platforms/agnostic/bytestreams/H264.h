@@ -3738,6 +3738,17 @@ IntSize
 aSize
 )
 ;
+/
+/
+aSPS
+and
+aPPS
+include
+their
+NAL
+unit
+headers
+.
 static
 void
 WriteExtraData
