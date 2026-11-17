@@ -433,6 +433,15 @@ int
 =
 None
     
+repeat_tests
+:
+Optional
+[
+int
+]
+=
+None
+    
 tasks_regex
 :
 Optional
