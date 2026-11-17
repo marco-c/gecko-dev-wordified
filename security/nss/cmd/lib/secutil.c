@@ -25723,6 +25723,15 @@ secp384r1mlkem1024
 )
 ssl_grp_kem_secp384r1mlkem1024
 }
+{
+NAME_AND_LEN
+(
+"
+MLKEM1024
+"
+)
+ssl_grp_kem_mlkem1024
+}
 /
 /
 keep

@@ -2622,7 +2622,7 @@ data
 ;
 if
 (
-nssCertificate_SetCertKeyID
+nssCertificate_TryToSetCertKeyID
 (
 c
 )
