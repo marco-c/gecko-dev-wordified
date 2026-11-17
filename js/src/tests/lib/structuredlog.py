@@ -84,6 +84,33 @@ getpid
         
 }
         
+#
+Only
+write
+the
+raw
+JSON
+log
+in
+automation
+where
+it
+'
+s
+uploaded
+as
+an
+        
+#
+artifact
+.
+        
+self
+.
+fh
+=
+None
+        
 directory
 =
 os
@@ -95,11 +122,12 @@ get
 "
 MOZ_UPLOAD_DIR
 "
-"
-.
-"
 )
         
+if
+directory
+:
+            
 self
 .
 fh
@@ -186,6 +214,12 @@ obj
 )
 :
         
+if
+self
+.
+fh
+:
+            
 print
 (
 json
