@@ -86,6 +86,7 @@ Copyright
 C
 )
 2011
+2026
 Anthony
 Green
 Copyright
@@ -845,8 +846,17 @@ rtype
 size
 ;
 #
-ifdef
+if
+defined
+(
 FFI_TARGET_HAS_COMPLEX_TYPE
+)
+&
+&
+defined
+(
+POWERPC64
+)
 /
 *
 Integer
