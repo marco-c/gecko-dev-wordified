@@ -250,6 +250,8 @@ import
     
 FileAvoidWrite
     
+compiler_cache_env
+    
 construct_log_filename
     
 is_running_under_coding_agent
@@ -4542,6 +4544,9 @@ self
 ccache
 =
 None
+ccache_dir
+=
+None
 )
 :
         
@@ -4595,6 +4600,29 @@ check_version_3_7_or_newer
 ccache
 )
             
+env
+=
+os
+.
+environ
+.
+copy
+(
+)
+            
+if
+ccache_dir
+:
+                
+env
+[
+"
+CCACHE_DIR
+"
+]
+=
+ccache_dir
+            
 try
 :
                 
@@ -4622,6 +4650,10 @@ else
 s
 "
 ]
+                    
+env
+=
+env
                     
 universal_newlines
 =
@@ -10914,7 +10946,19 @@ monitor
 .
 ccache_stats
 (
+                    
 ccache
+config
+.
+substs
+.
+get
+(
+"
+CCACHE_DIR
+"
+)
+                
 )
             
 else
@@ -11972,34 +12016,12 @@ client_mk_env
 .
 update
 (
-                    
+compiler_cache_env
 (
-name
-value
-)
-                    
-for
-name
-value
-in
 config
 .
 substs
-.
-items
-(
 )
-                    
-if
-name
-.
-startswith
-(
-"
-SCCACHE_
-"
-)
-                
 )
                 
 status
@@ -13024,6 +13046,16 @@ monitor
 ccache_stats
 (
 ccache
+config
+.
+substs
+.
+get
+(
+"
+CCACHE_DIR
+"
+)
 )
         
 else
