@@ -555,6 +555,11 @@ aOutString
 )
 override
 ;
+void
+ReleaseJSObjects
+(
+)
+;
 private
 :
 virtual
@@ -563,12 +568,8 @@ CallbackTimeoutHandler
 (
 )
 {
-mozilla
-:
-:
-DropJSObjectsWithKey
+ReleaseJSObjects
 (
-this
 )
 ;
 }
