@@ -1286,6 +1286,14 @@ test_second_close_attempt_does_not_redispatch
 (
 )
 {
+Services
+.
+fog
+.
+testResetFOG
+(
+)
+;
 let
 sandbox
 =
