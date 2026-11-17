@@ -638,7 +638,7 @@ actionButtonEl
 let
 locationButton
 =
-statusCard
+content
 .
 locationButtonEl
 ;
