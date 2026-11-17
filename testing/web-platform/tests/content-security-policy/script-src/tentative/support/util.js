@@ -72,7 +72,7 @@ e
 base64url
 /
 /
-without
+with
 padding
 .
 const
@@ -102,9 +102,6 @@ alphabet
 "
 base64url
 "
-omitPadding
-:
-true
 }
 )
 ;
