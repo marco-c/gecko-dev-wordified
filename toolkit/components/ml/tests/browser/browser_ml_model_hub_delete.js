@@ -749,9 +749,6 @@ listModels
 )
 [
 {
-taskName
-:
-TASK_NAME
 name
 :
 hub
@@ -760,6 +757,11 @@ qualified
 revision
 :
 REVISION
+tasks
+:
+[
+TASK_NAME
+]
 }
 ]
 "
@@ -1751,9 +1753,6 @@ listModels
 )
 [
 {
-taskName
-:
-TASK_NAME
 name
 :
 hub
@@ -1764,6 +1763,11 @@ revision
 "
 v2
 "
+tasks
+:
+[
+TASK_NAME
+]
 }
 ]
 "
