@@ -18571,6 +18571,7 @@ aClipboard
 GetClipboardCacheInnerWindowId
 (
 aClipboardType
+aWindow
 )
 ;
 RefPtr
