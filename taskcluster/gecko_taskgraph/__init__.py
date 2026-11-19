@@ -435,7 +435,7 @@ run
 -
 task
 /
-resourcemonitor
+basemonitor
 .
 py
 "
@@ -467,7 +467,7 @@ mozsystemmonitor
 "
     
 "
-resourcemonitor
+basemonitor
 .
 py
 "
@@ -586,7 +586,7 @@ run
 -
 task
 /
-resourcemonitor
+basemonitor
 .
 py
 /
@@ -598,7 +598,7 @@ bin
 /
 mozsystemmonitor
 /
-resourcemonitor
+basemonitor
 .
 py
 \

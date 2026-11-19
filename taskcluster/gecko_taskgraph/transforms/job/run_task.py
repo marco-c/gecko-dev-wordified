@@ -2667,7 +2667,7 @@ script_url
 (
 config
 "
-resourcemonitor
+basemonitor
 .
 py
 "
@@ -2684,7 +2684,7 @@ file
 /
 mozsystemmonitor
 /
-resourcemonitor
+basemonitor
 .
 py
 "

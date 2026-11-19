@@ -2618,7 +2618,7 @@ mozsystemmonitor
             
 /
 "
-resourcemonitor
+basemonitor
 .
 py
 "
