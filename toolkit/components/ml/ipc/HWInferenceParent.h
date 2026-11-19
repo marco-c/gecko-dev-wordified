@@ -344,6 +344,16 @@ the
 process
 is
 up
+or
+with
+null
+if
+it
+/
+/
+failed
+to
+launch
 .
 nsresult
 BindToUtilityProcess
