@@ -876,17 +876,6 @@ unreachable
 )
 }
 ;
-let
-app
-=
-value
-.
-app
-.
-clone
-(
-)
-;
 Ok
 (
 if
@@ -896,6 +885,8 @@ Some
 app
 )
 =
+value
+.
 app
 {
 ExperimentListSource
@@ -911,10 +902,6 @@ ExperimentListFilter
 for_app
 (
 app
-.
-as_str
-(
-)
 )
 inner
 :
