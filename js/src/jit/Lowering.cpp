@@ -70199,7 +70199,7 @@ if
 ins
 -
 >
-keepAlive
+wasmObject
 (
 )
 !
@@ -70227,7 +70227,7 @@ useKeepalive
 ins
 -
 >
-keepAlive
+wasmObject
 (
 )
 )
@@ -70628,7 +70628,7 @@ if
 ins
 -
 >
-keepAlive
+wasmObject
 (
 )
 !
@@ -70656,7 +70656,7 @@ useKeepalive
 ins
 -
 >
-keepAlive
+wasmObject
 (
 )
 )
@@ -70781,7 +70781,7 @@ if
 ins
 -
 >
-keepAlive
+wasmObject
 (
 )
 !
@@ -70809,7 +70809,7 @@ useKeepalive
 ins
 -
 >
-keepAlive
+wasmObject
 (
 )
 )
