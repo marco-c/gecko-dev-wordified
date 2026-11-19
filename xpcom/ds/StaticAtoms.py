@@ -5202,16 +5202,6 @@ prefixes
 Atom
 (
 "
-eyedropper
-"
-"
-eyedropper
-"
-)
-    
-Atom
-(
-"
 face
 "
 "
