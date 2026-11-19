@@ -3532,6 +3532,16 @@ val
 ;
 private
 :
+#
+ifdef
+__clang__
+[
+[
+maybe_unused
+]
+]
+#
+endif
 uint8_t
 padding
 [
