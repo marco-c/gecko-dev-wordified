@@ -3124,7 +3124,9 @@ future
 based
 on
 the
-IMAGE_DECODE_CHUNKS
+image_decode
+.
+chunks
 telemetry
 to
 ensure
