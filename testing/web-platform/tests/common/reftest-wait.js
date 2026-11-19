@@ -246,10 +246,11 @@ if
 document
 .
 readyState
+!
 =
 =
 "
-interactive
+loading
 "
 )
 {
