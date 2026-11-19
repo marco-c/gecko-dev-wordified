@@ -3025,18 +3025,6 @@ on
 Mac
                     
 #
-netwerk
-/
-sctp
-/
-src
-uses
--
-U__APPLE__
-on
-Mac
-                    
-#
 XXX
 We
 should
