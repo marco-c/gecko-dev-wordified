@@ -330,6 +330,14 @@ aReason
 )
 ;
 void
+OnLaunchFailed
+(
+HWInferenceParent
+*
+aActor
+)
+;
+void
 RetireActor
 (
 HWInferenceParent
@@ -355,6 +363,9 @@ mKeepAlive
 /
 /
 Crashes
+and
+failed
+launches
 since
 the
 last
