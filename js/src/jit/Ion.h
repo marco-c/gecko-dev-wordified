@@ -82,15 +82,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-MemoryReporting
-.
-h
-"
-#
-include
 <
 stddef
 .
@@ -711,11 +702,6 @@ SizeOfIonData
 JSScript
 *
 script
-mozilla
-:
-:
-MallocSizeOf
-mallocSizeOf
 )
 ;
 inline

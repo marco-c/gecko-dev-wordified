@@ -1245,12 +1245,6 @@ ionScript
 >
 decrementInvalidationCount
 (
-cx
--
->
-gcContext
-(
-)
 )
 ;
 }
@@ -1968,12 +1962,6 @@ ionScript
 >
 decrementInvalidationCount
 (
-cx
--
->
-gcContext
-(
-)
 )
 ;
 /

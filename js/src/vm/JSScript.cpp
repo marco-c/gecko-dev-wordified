@@ -27512,7 +27512,6 @@ jit
 SizeOfIonData
 (
 script
-mallocSizeOf
 )
 ;
 }

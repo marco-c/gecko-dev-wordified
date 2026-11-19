@@ -12806,7 +12806,7 @@ code
 "
 )
 ;
-ZRREPORT_BYTES
+ZRREPORT_NONHEAP_BYTES
 (
 realmJSPathPrefix
 +
