@@ -29937,7 +29937,7 @@ firstrun
 .
 singlePageWithAutoModel
 "
-false
+true
 )
 ;
 pref
