@@ -107,6 +107,9 @@ TouchSwipeInfo
 struct
 TouchSwipeInfoQueue
 ;
+class
+MultiTouchInput
+;
 /
 /
 TouchSwipeState
@@ -837,6 +840,16 @@ TouchSwipeInfo
 &
 aInfo
 )
+;
+bool
+ShouldSkipInputOnWindows
+(
+const
+MultiTouchInput
+&
+aInput
+)
+const
 ;
 }
 ;
