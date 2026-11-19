@@ -235,7 +235,7 @@ await
 waitForElementAttributeSet
 (
 "
-root
+container
 "
 "
 drawn
@@ -299,7 +299,7 @@ await
 waitForElementAttributeRemoved
 (
 "
-root
+container
 "
 "
 drawn
