@@ -802,6 +802,9 @@ test_types
 (
 )
 {
+static_assertions
+:
+:
 assert_eq_size
 !
 (
@@ -819,6 +822,9 @@ cfg
 linux_kernel
 )
 ]
+static_assertions
+:
+:
 assert_eq_size
 !
 (
