@@ -1109,12 +1109,6 @@ locks
 /
 IDX_LOCKS
 "
-storage
-"
-/
-/
-IDX_STORAGE
-"
 suppressed
 "
 /

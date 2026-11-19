@@ -2554,10 +2554,8 @@ cx
 )
 ;
 }
+static
 bool
-xpc
-:
-:
 SandboxCreateStorage
 (
 JSContext
@@ -2566,11 +2564,7 @@ cx
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
+HandleObject
 obj
 )
 {

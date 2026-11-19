@@ -60,7 +60,7 @@ mjs
 )
 ;
 let
-breachAlertStorage
+storage
 ;
 add_setup
 (
@@ -70,7 +70,7 @@ async
 =
 >
 {
-breachAlertStorage
+storage
 =
 new
 BreachAlertStorage
@@ -78,7 +78,7 @@ BreachAlertStorage
 )
 ;
 await
-breachAlertStorage
+storage
 .
 initialize
 (
@@ -90,7 +90,7 @@ registerCleanupFunction
 )
 =
 >
-breachAlertStorage
+storage
 .
 finalize
 (
@@ -139,7 +139,7 @@ timeDismissed
 ]
 ;
 await
-breachAlertStorage
+storage
 .
 setBreachAlertDismissals
 (
@@ -150,7 +150,7 @@ const
 results
 =
 await
-breachAlertStorage
+storage
 .
 getBreachAlertDismissals
 (
@@ -237,7 +237,7 @@ const
 results
 =
 await
-breachAlertStorage
+storage
 .
 getBreachAlertDismissals
 (
@@ -272,7 +272,7 @@ test_clear_specific
 )
 {
 await
-breachAlertStorage
+storage
 .
 setBreachAlertDismissals
 (
@@ -305,7 +305,7 @@ timeDismissed
 )
 ;
 await
-breachAlertStorage
+storage
 .
 clearBreachAlertDismissals
 (
@@ -322,7 +322,7 @@ const
 remaining
 =
 await
-breachAlertStorage
+storage
 .
 getBreachAlertDismissals
 (
@@ -379,7 +379,7 @@ test_clear_all
 )
 {
 await
-breachAlertStorage
+storage
 .
 setBreachAlertDismissals
 (
@@ -412,7 +412,7 @@ timeDismissed
 )
 ;
 await
-breachAlertStorage
+storage
 .
 clearAllBreachAlertDismissals
 (
@@ -422,7 +422,7 @@ const
 results
 =
 await
-breachAlertStorage
+storage
 .
 getBreachAlertDismissals
 (
@@ -473,7 +473,7 @@ Assert
 .
 equal
 (
-breachAlertStorage
+storage
 second
 "
 Constructor
