@@ -3257,7 +3257,7 @@ create_parser_wpt
 virtualenv_name
 =
 "
-wpt
+wptrunner
 "
 )
 def
@@ -3664,7 +3664,7 @@ create_parser_wpt
 virtualenv_name
 =
 "
-wpt
+wptrunner
 "
 )
 def
