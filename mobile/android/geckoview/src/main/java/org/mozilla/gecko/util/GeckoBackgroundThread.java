@@ -199,6 +199,11 @@ handler
 new
 Handler
 (
+Looper
+.
+myLooper
+(
+)
 )
 ;
 GeckoBackgroundThread

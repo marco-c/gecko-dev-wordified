@@ -2864,6 +2864,11 @@ sBackgroundHandler
 new
 Handler
 (
+Looper
+.
+myLooper
+(
+)
 )
 ;
 GeckoInputConnection

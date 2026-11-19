@@ -2412,6 +2412,11 @@ sGeckoHandler
 new
 Handler
 (
+Looper
+.
+myLooper
+(
+)
 )
 ;
 /

@@ -3809,11 +3809,8 @@ defaultColor
 ;
 if
 (
-ViewCompat
-.
 isAttachedToWindow
 (
-this
 )
 )
 {
