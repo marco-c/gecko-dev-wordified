@@ -183,7 +183,7 @@ class
 NativeLayerRemoteMac
 ;
 class
-NativeLayerWayland
+NativeLayerRemoteWayland
 ;
 class
 NativeLayerRootCA
@@ -1195,6 +1195,17 @@ virtual
 NativeLayerRemoteMac
 *
 AsNativeLayerRemoteMac
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+NativeLayerRemoteWayland
+*
+AsNativeLayerRemoteWayland
 (
 )
 {
