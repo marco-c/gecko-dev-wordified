@@ -1249,25 +1249,6 @@ py
 )
         
 "
-geckoview
--
-junit
-"
-:
-MachCommandReference
-(
-            
-"
-mochitest
-/
-mach_test_package_commands
-.
-py
-"
-        
-)
-        
-"
 reftest
 "
 :
