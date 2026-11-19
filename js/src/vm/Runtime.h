@@ -3447,6 +3447,17 @@ and
 debuggee
 status
 .
+Entries
+are
+/
+/
+always
+allocated
+in
+the
+atoms
+zone
+.
 js
 :
 :

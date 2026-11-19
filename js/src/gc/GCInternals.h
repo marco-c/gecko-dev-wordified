@@ -1274,6 +1274,17 @@ Unspecified
 >
 ;
 using
+AutoSetThreadIsPreparing
+=
+AutoSetThreadGCUseT
+<
+GCUse
+:
+:
+Preparing
+>
+;
+using
 AutoSetThreadIsMarking
 =
 AutoSetThreadGCUseT

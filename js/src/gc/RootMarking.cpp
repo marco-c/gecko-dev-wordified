@@ -3103,6 +3103,13 @@ anstr
 rt
 -
 >
+finishSelfHosting
+(
+)
+;
+rt
+-
+>
 finishAtoms
 (
 )
@@ -3122,13 +3129,6 @@ clear
 )
 ;
 finishPersistentRoots
-(
-)
-;
-rt
--
->
-finishSelfHosting
 (
 )
 ;

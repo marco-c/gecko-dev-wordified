@@ -3113,10 +3113,6 @@ jit
 AddSizeOfBaselineData
 (
 script
-rtStats
--
->
-mallocSizeOf_
 &
 realmStats
 .

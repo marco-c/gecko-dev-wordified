@@ -4142,7 +4142,7 @@ scriptsGCBuffers
 MACRO
 (
 Other
-MallocHeap
+NonHeap
 baselineData
 )
 \
