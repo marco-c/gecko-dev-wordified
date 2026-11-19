@@ -4159,10 +4159,9 @@ i
 ]
 -
 >
-allows
+allowsByNonce
 (
 aDirective
-CSP_NONCE
 aNonce
 )
 )
