@@ -563,6 +563,12 @@ isCreating
 ;
 }
 Override
+SuppressWarnings
+(
+"
+deprecation
+"
+)
 public
 void
 setType
