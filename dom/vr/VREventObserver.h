@@ -233,14 +233,6 @@ VREventObserver
 (
 )
 ;
-bool
-IsWebVR
-(
-uint32_t
-aDisplayID
-)
-const
-;
 RefPtr
 <
 nsGlobalWindowInner
