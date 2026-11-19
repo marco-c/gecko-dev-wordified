@@ -207676,6 +207676,10 @@ complete
 success
 :
 boolean
+unlockedPortal
+?
+:
+boolean
 )
 :
 void
