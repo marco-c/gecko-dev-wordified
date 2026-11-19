@@ -4474,13 +4474,7 @@ if
 StringBeginsWith
 (
 mCurToken
-nsDependentString
-(
-CSP_EnumToUTF16Keyword
-(
-CSP_NONCE
-)
-)
+kCSPNonceSourcePrefix
 nsASCIICaseInsensitiveStringComparator
 )
 |
