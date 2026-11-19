@@ -346,12 +346,6 @@ InitPlatformHardwareVideoConfig
 override
 ;
 void
-InitPlatformGPUProcessPrefs
-(
-)
-override
-;
-void
 InitWebRenderConfig
 (
 )
