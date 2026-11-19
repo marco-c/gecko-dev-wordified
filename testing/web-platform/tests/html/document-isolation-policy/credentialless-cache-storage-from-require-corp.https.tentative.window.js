@@ -28,15 +28,7 @@ META
 variant
 =
 ?
-shared_worker
-/
-/
-META
-:
-variant
-=
-?
-service_worker
+document_with_service_worker
 /
 /
 META
