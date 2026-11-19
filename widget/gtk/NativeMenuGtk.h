@@ -258,6 +258,11 @@ OnUnmap
 (
 )
 ;
+void
+QueueResizeToContent
+(
+)
+;
 protected
 :
 virtual
@@ -271,6 +276,11 @@ void
 FireEvent
 (
 EventMessage
+)
+;
+void
+ResizeToContent
+(
 )
 ;
 /
@@ -325,6 +335,11 @@ yet
 .
 bool
 mClosePending
+=
+false
+;
+bool
+mResizePending
 =
 false
 ;
