@@ -106,13 +106,13 @@ PCompositorWidgetChild
 public
 PlatformCompositorWidgetDelegate
 {
-public
-:
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 CompositorWidgetChild
 override
 )
+public
+:
 CompositorWidgetChild
 (
 RefPtr
@@ -140,6 +140,11 @@ layers
 CompositorOptions
 &
 aOptions
+)
+;
+void
+Shutdown
+(
 )
 ;
 mozilla
