@@ -981,6 +981,13 @@ a
 /
 sectioning
 element
+otherwise
+it
+maps
+to
+a
+sectionheader
+role
 .
 testComputedARIARole
 (
@@ -988,7 +995,7 @@ testComputedARIARole
 htmlSectionHeader
 "
 "
-generic
+sectionheader
 "
 )
 ;
