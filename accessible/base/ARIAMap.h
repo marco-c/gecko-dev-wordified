@@ -872,6 +872,15 @@ ATTR_BYPASSOBJ_IF_FALSE
 <
 1
 ;
+const
+uint8_t
+ATTR_BYPASSOBJ_IF_EMPTY
+=
+0x1
+<
+<
+2
+;
 /
 *
 *
@@ -914,7 +923,7 @@ ATTR_VALTOKEN
 0x1
 <
 <
-2
+3
 ;
 /
 *
@@ -962,7 +971,7 @@ ATTR_GLOBAL
 0x1
 <
 <
-3
+4
 ;
 /
 *
@@ -987,7 +996,7 @@ ATTR_VALINT
 0x1
 <
 <
-4
+5
 ;
 /
 *
@@ -1011,7 +1020,7 @@ ATTR_REFLECT_ELEMENTS
 0x1
 <
 <
-5
+6
 ;
 /
 /
