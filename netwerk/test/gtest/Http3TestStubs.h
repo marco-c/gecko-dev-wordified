@@ -438,6 +438,13 @@ aMaxAge
 override
 {
 }
+void
+RequestOutgoingDatagramProgress
+(
+)
+override
+{
+}
 bool
 GetWebTransportSessionStats
 (
