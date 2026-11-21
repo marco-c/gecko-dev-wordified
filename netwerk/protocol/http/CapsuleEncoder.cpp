@@ -988,7 +988,7 @@ WebTransportDatagramCapsule
 (
 )
 ;
-size_t
+uint64_t
 length
 =
 value
@@ -1018,13 +1018,6 @@ EncodeBuffer
 value
 .
 mPayload
-)
-;
-mDatagramSize
-=
-Some
-(
-length
 )
 ;
 return
