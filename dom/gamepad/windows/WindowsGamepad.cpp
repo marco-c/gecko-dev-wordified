@@ -853,8 +853,9 @@ private
 Gamepad
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -2829,10 +2830,6 @@ GamepadMappingType
 :
 :
 Standard
-GamepadHand
-:
-:
-_empty
 kStandardGamepadButtons
 kStandardGamepadAxes
 0
@@ -5041,10 +5038,6 @@ remapper
 GetMappingType
 (
 )
-GamepadHand
-:
-:
-_empty
 gamepad
 .
 remapper
@@ -7882,8 +7875,9 @@ private
 StartWindowsGamepadServiceRunnable
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -7968,8 +7962,9 @@ private
 StopWindowsGamepadServiceRunnable
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
