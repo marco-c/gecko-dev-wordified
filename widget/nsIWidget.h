@@ -1509,6 +1509,8 @@ only
 notified
 on
 macOS
+and
+Windows
 .
 *
 /
@@ -1542,6 +1544,8 @@ only
 notified
 on
 macOS
+and
+Windows
 .
 *
 /
