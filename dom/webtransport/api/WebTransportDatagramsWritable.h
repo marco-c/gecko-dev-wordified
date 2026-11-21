@@ -349,15 +349,6 @@ Cleanup
 (
 )
 ;
-void
-UpdateQueueParams
-(
-uint32_t
-aMaxBufferedDatagrams
-double
-aMaxAge
-)
-;
 private
 :
 ~
