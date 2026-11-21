@@ -277,6 +277,9 @@ async
 =
 >
 {
+let
+cleanupTopSites
+=
 await
 addTopSites
 (
@@ -319,6 +322,11 @@ dropped
 "
 }
 ]
+)
+;
+await
+cleanupTopSites
+(
 )
 ;
 }
@@ -450,6 +458,9 @@ async
 =
 >
 {
+let
+cleanupTopSites
+=
 await
 addTopSites
 (
@@ -494,6 +505,11 @@ pasted
 "
 }
 ]
+)
+;
+await
+cleanupTopSites
+(
 )
 ;
 }
