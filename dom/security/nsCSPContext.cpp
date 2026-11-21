@@ -1354,8 +1354,6 @@ permits
 aDir
 aLoadInfo
 aContentLocation
-!
-!
 aOriginalURIIfRedirect
 aSpecific
 violatedDirective
@@ -3158,10 +3156,6 @@ allows
 (
 SCRIPT_SRC_DIRECTIVE
 CSP_TRUSTED_TYPES_EVAL
-u
-"
-"
-_ns
 )
 )
 &
@@ -3177,10 +3171,6 @@ allows
 (
 SCRIPT_SRC_DIRECTIVE
 CSP_UNSAFE_EVAL
-u
-"
-"
-_ns
 )
 )
 {
@@ -3320,10 +3310,6 @@ allows
 (
 SCRIPT_SRC_DIRECTIVE
 CSP_WASM_UNSAFE_EVAL
-u
-"
-"
-_ns
 )
 &
 &
@@ -3338,10 +3324,6 @@ allows
 (
 SCRIPT_SRC_DIRECTIVE
 CSP_UNSAFE_EVAL
-u
-"
-"
-_ns
 )
 )
 {
@@ -4393,10 +4375,6 @@ allows
 (
 aDirective
 CSP_UNSAFE_HASHES
-u
-"
-"
-_ns
 )
 ;
 /
@@ -4539,10 +4517,6 @@ allows
 (
 aDirective
 CSP_STRICT_DYNAMIC
-u
-"
-"
-_ns
 )
 )
 {
@@ -5009,10 +4983,6 @@ allows
 (
 SCRIPT_SRC_DIRECTIVE
 keyword
-u
-"
-"
-_ns
 )
 )
 {
