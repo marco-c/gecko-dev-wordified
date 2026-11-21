@@ -4877,9 +4877,41 @@ zip_path
 =
 filename
             
+megazord
+=
+(
+                
+f
+"
+{
+self
+.
+_substs
+[
+'
+DLL_PREFIX
+'
+]
+}
+megazord
+{
+self
+.
+_substs
+[
+'
+DLL_SUFFIX
+'
+]
+}
+"
+            
+)
+            
 for
 pattern
 prefix
+only
 in
 (
                 
@@ -4915,6 +4947,8 @@ self
 _host_jna_arch
 }
 "
+                    
+None
                 
 )
                 
@@ -4932,6 +4966,26 @@ aar
 "
 bin
 "
+None
+)
+                
+(
+"
+*
+*
+/
+full
+-
+megazord
+-
+*
+.
+aar
+"
+"
+bin
+"
+megazord
 )
             
 )
@@ -5101,6 +5155,17 @@ split
 (
 p
 )
+                        
+if
+only
+and
+basename
+!
+=
+only
+:
+                            
+continue
                         
 procname
 =
