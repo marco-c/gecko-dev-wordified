@@ -2799,6 +2799,8 @@ import
             
 InstallIntent
             
+prepend_adb_dir_to_path
+            
 verify_android_device
         
 )
@@ -3125,6 +3127,11 @@ print
             
 return
 1
+        
+prepend_adb_dir_to_path
+(
+build_obj
+)
     
 #
 Remove
