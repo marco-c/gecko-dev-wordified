@@ -16,7 +16,7 @@ Public
 License
 v
 .
-0
+2
 .
 0
 .
@@ -48,7 +48,7 @@ org
 /
 MPL
 /
-0
+2
 .
 0
 /
