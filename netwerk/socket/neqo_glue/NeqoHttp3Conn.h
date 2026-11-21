@@ -1417,6 +1417,8 @@ WebTransportSetSendGroup
 uint64_t
 aSessionId
 uint64_t
+aStreamId
+uint64_t
 aSendGroupId
 )
 {
@@ -1425,6 +1427,7 @@ neqo_http3conn_webtransport_set_sendgroup
 (
 this
 aSessionId
+aStreamId
 aSendGroupId
 )
 ;
