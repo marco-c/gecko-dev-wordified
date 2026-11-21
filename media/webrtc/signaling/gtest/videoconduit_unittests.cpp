@@ -4901,7 +4901,7 @@ videoStreams
 ]
 .
 min_bitrate_bps
-150000
+30000
 )
 ;
 EXPECT_EQ
@@ -4987,7 +4987,7 @@ videoStreams
 ]
 .
 min_bitrate_bps
-1200000
+30000
 )
 ;
 EXPECT_EQ
@@ -5206,7 +5206,7 @@ videoStreams
 ]
 .
 min_bitrate_bps
-1200000
+30000
 )
 ;
 ASSERT_EQ
@@ -11816,7 +11816,7 @@ videoStreams
 ]
 .
 min_bitrate_bps
-1200000
+30000
 )
 ;
 EXPECT_EQ
@@ -12918,7 +12918,7 @@ videoStreams
 ]
 .
 min_bitrate_bps
-1200000
+30000
 )
 ;
 EXPECT_EQ
