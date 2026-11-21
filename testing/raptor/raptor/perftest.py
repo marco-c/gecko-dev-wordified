@@ -526,6 +526,11 @@ extra_summary_methods
 [
 ]
         
+perfherder_extra_options
+=
+[
+]
+        
 benchmark_repository
 =
 None
@@ -554,6 +559,10 @@ install_extensions
 =
 None
         
+test_names
+=
+None
+        
 *
 *
 kwargs
@@ -566,6 +575,15 @@ self
 _remote_test_root
 =
 None
+        
+self
+.
+_test_names
+=
+test_names
+or
+[
+]
         
 self
 .
@@ -837,6 +855,12 @@ extra_summary_methods
 "
 :
 extra_summary_methods
+            
+"
+perfherder_extra_options
+"
+:
+perfherder_extra_options
             
 "
 benchmark_repository
@@ -4095,7 +4119,6 @@ run_tests
 (
 self
 tests
-test_names
 )
 :
         
@@ -4212,7 +4235,6 @@ self
 process_results
 (
 tests
-test_names
 )
         
 finally
@@ -4261,7 +4283,6 @@ process_results
 (
 self
 tests
-test_names
 )
 :
         
@@ -4396,11 +4417,15 @@ results_handler
 .
 summarize_and_output
 (
+            
 self
 .
 config
 tests
-test_names
+self
+.
+_test_names
+        
 )
         
 #

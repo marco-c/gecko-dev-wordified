@@ -321,6 +321,11 @@ extra_summary_methods
 [
 ]
         
+perfherder_extra_options
+=
+[
+]
+        
 *
 *
 kwargs
@@ -463,6 +468,12 @@ xtreme_regressions
 =
 [
 ]
+        
+self
+.
+perfherder_extra_options
+=
+perfherder_extra_options
     
 abstractmethod
     
@@ -809,6 +820,15 @@ extra
 option
 "
                     
+)
+        
+extra_options
+.
+extend
+(
+self
+.
+perfherder_extra_options
 )
         
 #
