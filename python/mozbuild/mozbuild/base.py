@@ -242,12 +242,18 @@ pass
         
 if
 flag
-=
-=
+in
+(
 "
 -
 j
 "
+"
+-
+-
+jobs
+"
+)
 :
             
 num_jobs
@@ -263,10 +269,18 @@ flag
 .
 startswith
 (
+(
 "
 -
 j
 "
+"
+-
+-
+jobs
+=
+"
+)
 )
 :
             
@@ -278,10 +292,24 @@ num_jobs
 int
 (
 flag
-[
-2
-:
-]
+.
+removeprefix
+(
+"
+-
+-
+jobs
+=
+"
+)
+.
+removeprefix
+(
+"
+-
+j
+"
+)
 )
             
 except
@@ -5788,6 +5816,20 @@ extend
 extra_flags
 )
         
+if
+"
+MAKEFLAGS
+"
+not
+in
+(
+append_env
+or
+{
+}
+)
+:
+            
 num_jobs
 =
 self
@@ -5797,19 +5839,19 @@ resolve_num_jobs
 num_jobs
 job_size
 )
-        
+            
 args
 .
 append
 (
+f
 "
 -
 j
-%
-d
-"
-%
+{
 num_jobs
+}
+"
 )
         
 if
