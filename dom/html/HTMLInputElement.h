@@ -5652,7 +5652,7 @@ SetupShadowTreeWithDispatchingChromeEventAsync
 .
 ShadowRoot
 *
-CreateShadowTreeBeforeLayoutIfNeeded
+CreateShadowTreeFromLayoutIfNeeded
 (
 )
 ;
