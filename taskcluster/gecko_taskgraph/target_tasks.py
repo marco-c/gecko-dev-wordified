@@ -6411,6 +6411,20 @@ raptor
 return
 False
         
+if
+attributes
+.
+get
+(
+"
+ab_profiles
+"
+)
+:
+            
+return
+False
+        
 try_name
 =
 attributes
@@ -6644,6 +6658,20 @@ unittest_suite
 "
 raptor
 "
+:
+            
+return
+False
+        
+if
+attributes
+.
+get
+(
+"
+ab_profiles
+"
+)
 :
             
 return
