@@ -4772,21 +4772,6 @@ self
 )
 :
         
-if
-os
-.
-path
-.
-isdir
-(
-self
-.
-statedir
-)
-:
-            
-return
-        
 os
 .
 makedirs
@@ -4794,6 +4779,9 @@ makedirs
 self
 .
 statedir
+exist_ok
+=
+True
 )
     
 def
@@ -4818,24 +4806,14 @@ statedir
 subdir
 )
         
-if
-os
-.
-path
-.
-isdir
-(
-path
-)
-:
-            
-return
-        
 os
 .
 makedirs
 (
 path
+exist_ok
+=
+True
 )
     
 def
