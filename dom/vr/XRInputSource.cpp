@@ -124,6 +124,17 @@ mozilla
 /
 dom
 /
+GamepadPoseState
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 XRInputSourceEvent
 .
 h
