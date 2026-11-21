@@ -6940,6 +6940,7 @@ get_AndroidImageReaderImageDescriptor
 )
 ;
 auto
+*
 imageReaderMap
 =
 layers
