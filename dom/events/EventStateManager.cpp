@@ -10803,14 +10803,6 @@ content
 .
 if
 (
-StaticPrefs
-:
-:
-dom_user_activation_ignore_scrollbars
-(
-)
-&
-&
 (
 aEvent
 -
