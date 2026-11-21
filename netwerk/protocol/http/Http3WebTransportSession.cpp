@@ -2287,7 +2287,7 @@ Http3WebTransportSession
 nsAHttpTransaction
 *
 trans
-Http3SessionBase
+Http3Session
 *
 aHttp3Session
 )
