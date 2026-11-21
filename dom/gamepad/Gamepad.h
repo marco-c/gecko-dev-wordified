@@ -307,8 +307,6 @@ GamepadHandle
 aHandle
 GamepadMappingType
 aMapping
-GamepadHand
-aHand
 uint32_t
 aNumButtons
 uint32_t
@@ -380,13 +378,6 @@ const
 GamepadTouchState
 &
 aTouch
-)
-;
-void
-SetHand
-(
-GamepadHand
-aHand
 )
 ;
 /
@@ -509,7 +500,10 @@ Hand
 )
 {
 return
-mHand
+GamepadHand
+:
+:
+_empty
 ;
 }
 bool
@@ -822,9 +816,6 @@ use
 .
 GamepadMappingType
 mMapping
-;
-GamepadHand
-mHand
 ;
 /
 /
