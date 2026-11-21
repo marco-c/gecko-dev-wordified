@@ -522,7 +522,7 @@ aWaylandSurfaceLock
 aWaylandSurfaceLock
 -
 >
-GetWaylandSurface
+GetSurface
 (
 )
 :
@@ -1005,7 +1005,7 @@ waylandSurface
 aWaylandSurfaceLock
 -
 >
-GetWaylandSurface
+GetSurface
 (
 )
 ;

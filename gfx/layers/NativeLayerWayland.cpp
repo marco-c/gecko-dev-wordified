@@ -6621,7 +6621,7 @@ parentSurface
 =
 aParentWaylandSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 ;
@@ -8186,7 +8186,7 @@ MOZ_DIAGNOSTIC_ASSERT
 !
 aSurfaceLock
 .
-GetWaylandSurface
+GetSurface
 (
 )
 -
