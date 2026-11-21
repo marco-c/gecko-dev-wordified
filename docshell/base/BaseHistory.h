@@ -166,6 +166,12 @@ nullptr
 )
 final
 ;
+void
+NotifyHistoryCleared
+(
+)
+final
+;
 /
 /
 Some
