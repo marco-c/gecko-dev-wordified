@@ -80,7 +80,10 @@ SemanticEmbedder
 .
 create
 (
+embedderOptions
+(
 options
+)
 )
 ;
 }
