@@ -195,16 +195,7 @@ equal
 (
 smartbarEditor
 .
-hasAttribute
-(
-"
-show
--
-placeholder
--
-animation
-"
-)
+showPlaceholderAnimation
 shouldAnimate
 Smartbar
 placeholder
