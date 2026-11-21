@@ -4163,7 +4163,7 @@ cacheIRStubs
 MACRO
 (
 Other
-MallocHeap
+NonHeap
 ionData
 )
 \
