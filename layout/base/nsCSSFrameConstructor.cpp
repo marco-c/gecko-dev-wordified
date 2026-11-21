@@ -22384,7 +22384,7 @@ aState
 PushAbsoluteContainingBlock
 (
 blockFrame
-blockFrame
+newFrame
 absoluteSaveState
 )
 ;
