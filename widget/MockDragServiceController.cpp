@@ -1413,6 +1413,10 @@ EventMessage
 :
 eDrag
 aKeyModifiers
+widgetEvent
+-
+>
+mRefPoint
 )
 ;
 NS_ENSURE_SUCCESS
