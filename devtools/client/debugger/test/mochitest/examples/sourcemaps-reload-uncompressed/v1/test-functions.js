@@ -28,6 +28,10 @@ functionName
 function
 breakInEval
 (
+suffix
+=
+"
+"
 )
 {
 eval
@@ -59,6 +63,16 @@ bar
 ;
 }
 ;
+{
+suffix
+&
+&
+/
+/
+{
+suffix
+}
+}
 )
 ;
 }
