@@ -1184,9 +1184,9 @@ sendlinktodevice
 label
 "
 Send
-Link
 to
-Device
+Your
+Devices
 "
 "
 Send
@@ -2645,9 +2645,9 @@ sendlinktodevice
 label
 "
 Send
-Link
 to
-Mobile
+Your
+Devices
 "
 "
 Send
