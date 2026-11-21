@@ -21816,8 +21816,15 @@ MediaCodecNativeWindowReleaseCallback
 ;
 if
 (
+(
 XRE_IsGPUProcess
 (
+)
+|
+|
+XRE_IsRDDProcess
+(
+)
 )
 &
 &
