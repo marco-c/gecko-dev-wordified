@@ -601,7 +601,7 @@ file
 "
 nsisstrings
 .
-properties
+ftl
 "
                 
 "
@@ -919,6 +919,18 @@ US
 installer
 "
                     
+"
+-
+-
+ab
+-
+cd
+=
+en
+-
+US
+"
+                    
 str
 (
 config_dir
@@ -927,7 +939,7 @@ config_dir
 "
 nsisstrings
 .
-properties
+ftl
 "
                     
 "
@@ -1151,7 +1163,7 @@ file
 "
 nsisstrings
 .
-properties
+ftl
 "
 "
 nsisstrings
@@ -2344,7 +2356,7 @@ file
 "
 nsisstrings
 .
-properties
+ftl
 "
                 
 "
@@ -2560,7 +2572,7 @@ single_files
 "
 nsisstrings
 .
-properties
+ftl
 "
 "
 nsisstrings
@@ -2751,7 +2763,7 @@ single_files
 "
 nsisstrings
 .
-properties
+ftl
 "
 "
 nsisstrings
@@ -3107,7 +3119,7 @@ single_files
 "
 nsisstrings
 .
-properties
+ftl
 "
 "
 nsisstrings
