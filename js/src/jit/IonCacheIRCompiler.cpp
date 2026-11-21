@@ -15494,10 +15494,6 @@ IonCacheIRCompiler
 :
 emitMetaCreateThis
 (
-uint32_t
-numFixedSlots
-uint32_t
-numDynamicSlots
 gc
 :
 :
