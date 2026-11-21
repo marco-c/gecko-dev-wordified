@@ -24787,11 +24787,22 @@ restartAfterFailure
             
 )
             
+timed_out
+=
+False
+            
 def
 timeoutHandler
 (
 )
 :
+                
+nonlocal
+timed_out
+                
+timed_out
+=
+True
                 
 browserProcessId
 =
@@ -25599,6 +25610,10 @@ status
 =
 0
             
+exit_code
+=
+status
+            
 self
 .
 log
@@ -25853,7 +25868,7 @@ with
 exit
 code
 {
-status
+exit_code
 }
 "
                 
@@ -26304,6 +26319,8 @@ elif
 crash_count
 or
 zombieProcesses
+or
+status
 :
                 
 if
@@ -26319,6 +26336,91 @@ expected
 "
 PASS
 "
+                
+elif
+status
+and
+not
+crash_count
+and
+not
+timed_out
+:
+                    
+#
+No
+minidump
+reported
+the
+abnormal
+exit
+e
+.
+g
+.
+a
+sanitizer
+                    
+#
+abort
+in
+a
+build
+without
+a
+crash
+reporter
+.
+A
+harness
+                    
+#
+timeout
+has
+already
+reported
+the
+test
+it
+killed
+.
+                    
+self
+.
+log
+.
+error
+(
+                        
+f
+"
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+{
+self
+.
+lastTestSeen
+}
+|
+"
+                        
+f
+"
+application
+terminated
+with
+exit
+code
+{
+exit_code
+}
+"
+                    
+)
                 
 status
 =
@@ -26424,7 +26526,7 @@ with
 exit
 code
 {
-status
+exit_code
 }
 "
                 
@@ -28485,6 +28587,10 @@ status
 =
 0
         
+result
+=
+0
+        
 bisection_log
 =
 0
@@ -28711,7 +28817,7 @@ options
 restartBetweenTests
 :
                 
-result
+res
 =
 self
 .
@@ -28729,7 +28835,7 @@ manifestToFilter
 else
 :
                 
-result
+res
 =
 self
 .
@@ -28741,7 +28847,7 @@ manifestToFilter
 )
             
 if
-result
+res
 =
 =
 TBPL_RETRY
@@ -28751,10 +28857,10 @@ terminate
 task
                 
 return
-result
+res
             
 if
-result
+res
 =
 =
 -
@@ -28764,7 +28870,13 @@ result
 interrupted
                 
 return
+res
+            
 result
+=
+result
+or
+res
             
 if
 options
