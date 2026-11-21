@@ -264,6 +264,11 @@ data
 ;
 }
 }
+onDatagramsFlush
+(
+)
+{
+}
 onOutgoingDatagramSpaceAvailable
 (
 )
