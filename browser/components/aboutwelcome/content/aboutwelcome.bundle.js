@@ -39057,6 +39057,8 @@ line
 jsx
 -
 a11y
+-
+x
 /
 media
 -
@@ -41784,6 +41786,8 @@ line
 jsx
 -
 a11y
+-
+x
 /
 anchor
 -
@@ -48570,6 +48574,9 @@ CONFIGURABLE_STYLES
 [
 "
 background
+"
+"
+backgroundImage
 "
 "
 border
