@@ -1233,11 +1233,6 @@ aData
 )
 ;
 void
-NotifyDatagramsFlush
-(
-)
-;
-void
 NotifyOutgoingDatagramSpaceAvailable
 (
 )
