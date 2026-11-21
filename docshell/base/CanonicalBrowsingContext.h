@@ -2498,6 +2498,9 @@ aEntry
 SessionHistoryEntry
 *
 aPreviousEntryForActivation
+nsIPrincipal
+*
+aPreviousDocumentPrincipal
 )
 ;
 void
