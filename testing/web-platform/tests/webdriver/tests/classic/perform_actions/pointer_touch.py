@@ -185,10 +185,6 @@ close
 "
 >
 close
-<
-/
-input
->
 "
 "
 "

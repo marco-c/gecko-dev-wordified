@@ -270,10 +270,6 @@ value
 foo
 "
 >
-<
-/
-input
->
         
 <
 /

@@ -451,10 +451,6 @@ close
 "
 >
 close
-<
-/
-input
->
 "
 "
 "
