@@ -166,6 +166,11 @@ pop
 (
 )
 ;
+void
+clear
+(
+)
+;
 bool
 isEmpty
 (
