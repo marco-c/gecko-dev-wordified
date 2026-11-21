@@ -133,12 +133,6 @@ WINDOWS_FILE_DIALOG
 endif
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -149,9 +143,6 @@ PKCS11_MODULE
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 #

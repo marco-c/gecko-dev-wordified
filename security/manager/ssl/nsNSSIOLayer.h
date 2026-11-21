@@ -749,12 +749,6 @@ usedLen
 ;
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -777,9 +771,6 @@ searchingFor
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 #

@@ -39627,9 +39627,6 @@ v1
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -39642,8 +39639,6 @@ enabled
 true
 )
 ;
-#
-endif
 /
 /
 Prefs

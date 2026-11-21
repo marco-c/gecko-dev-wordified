@@ -2324,12 +2324,6 @@ NS_OK
 }
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -3631,8 +3625,5 @@ NS_OK
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS

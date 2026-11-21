@@ -310,12 +310,6 @@ h
 "
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -336,9 +330,6 @@ h
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 namespace
@@ -4567,12 +4558,6 @@ endif
 XP_WIN
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -4744,9 +4729,6 @@ __func__
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 void

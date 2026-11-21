@@ -2827,12 +2827,6 @@ failed
 }
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -2894,9 +2888,6 @@ failed
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 {
@@ -3369,8 +3360,6 @@ TimeDuration
 FromSeconds
 (
 3
-.
-0
 )
 )
 {
@@ -12702,12 +12691,6 @@ true
 .
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -12725,9 +12708,6 @@ CACertificates
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 auto
@@ -12877,12 +12857,6 @@ AutoSearchingForCertificates
 .
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -12900,9 +12874,6 @@ ClientCertificates
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 auto

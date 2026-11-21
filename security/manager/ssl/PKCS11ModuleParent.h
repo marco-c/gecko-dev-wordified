@@ -64,13 +64,6 @@ define
 mozilla_psm_PKCS11ModuleParent_h
 #
 if
-!
-defined
-(
-NIGHTLY_BUILD
-)
-|
-|
 defined
 (
 MOZ_NO_SMART_CARDS
@@ -83,9 +76,6 @@ should
 only
 be
 used
-under
-NIGHTLY_BUILD
-and
 when
 MOZ_NO_SMART_CARDS
 is
@@ -96,10 +86,6 @@ defined
 endif
 /
 /
-!
-NIGHTLY_BUILD
-|
-|
 MOZ_NO_SMART_CARDS
 #
 include

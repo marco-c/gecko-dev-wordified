@@ -1509,12 +1509,6 @@ IPC_OK
 }
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -1618,9 +1612,6 @@ IPC_OK
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 #
@@ -3010,12 +3001,6 @@ nullptr
 endif
 #
 if
-defined
-(
-NIGHTLY_BUILD
-)
-&
-&
 !
 defined
 (
@@ -3029,9 +3014,6 @@ nullptr
 endif
 /
 /
-NIGHTLY_BUILD
-&
-&
 !
 MOZ_NO_SMART_CARDS
 /
