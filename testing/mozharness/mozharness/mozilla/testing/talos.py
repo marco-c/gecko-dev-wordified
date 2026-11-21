@@ -134,7 +134,12 @@ base
 .
 python
 import
+(
+    
+perf_expected_changes_path
+    
 perfherder_schema_path
+)
 from
 mozharness
 .
@@ -7009,6 +7014,17 @@ PYTHONPATH
 self
 .
 talos_path
+        
+env
+[
+"
+PERF_EXPECTED_CHANGES_PATH
+"
+]
+=
+perf_expected_changes_path
+(
+)
         
 if
 self
