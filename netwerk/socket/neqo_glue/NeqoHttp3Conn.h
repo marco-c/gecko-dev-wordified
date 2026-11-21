@@ -133,12 +133,6 @@ bool
 aVersionNegotiation
 bool
 aWebTransport
-uint64_t
-aWtInitialMaxData
-uint64_t
-aWtInitialMaxStreamsUni
-uint64_t
-aWtInitialMaxStreamsBidi
 const
 nsACString
 &
@@ -172,9 +166,6 @@ aMaxData
 aMaxStreamData
 aVersionNegotiation
 aWebTransport
-aWtInitialMaxData
-aWtInitialMaxStreamsUni
-aWtInitialMaxStreamsBidi
 &
 aQlogDir
 aIdleTimeout
@@ -228,12 +219,6 @@ bool
 aVersionNegotiation
 bool
 aWebTransport
-uint64_t
-aWtInitialMaxData
-uint64_t
-aWtInitialMaxStreamsUni
-uint64_t
-aWtInitialMaxStreamsBidi
 const
 nsACString
 &
@@ -269,9 +254,6 @@ aMaxData
 aMaxStreamData
 aVersionNegotiation
 aWebTransport
-aWtInitialMaxData
-aWtInitialMaxStreamsUni
-aWtInitialMaxStreamsBidi
 &
 aQlogDir
 aIdleTimeout
