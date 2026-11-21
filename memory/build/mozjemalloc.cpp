@@ -10819,8 +10819,6 @@ arena_t
 :
 PurgeGetDirtyChunk
 (
-PurgeCondition
-aCond
 PurgeStats
 &
 aStats
@@ -12184,7 +12182,6 @@ dirty_chunk
 =
 PurgeGetDirtyChunk
 (
-aCond
 purge_stats
 )
 ;
