@@ -1057,7 +1057,11 @@ ipc
 ResponseRejectReason
 &
 &
+/
+*
 aReason
+*
+/
 )
 {
 return

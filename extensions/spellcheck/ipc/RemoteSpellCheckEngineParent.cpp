@@ -531,7 +531,11 @@ aResolve
 ]
 (
 nsresult
+/
+*
 aError
+*
+/
 )
 {
 /

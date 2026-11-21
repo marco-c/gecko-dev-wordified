@@ -268,7 +268,11 @@ spellChecker
 ResponseRejectReason
 &
 &
+/
+*
 aReason
+*
+/
 )
 {
 spellChecker
@@ -437,7 +441,11 @@ spellChecker
 ResponseRejectReason
 &
 &
+/
+*
 aReason
+*
+/
 )
 {
 spellChecker
@@ -545,7 +553,11 @@ ipc
 ResponseRejectReason
 &
 &
+/
+*
 aReason
+*
+/
 )
 {
 return
