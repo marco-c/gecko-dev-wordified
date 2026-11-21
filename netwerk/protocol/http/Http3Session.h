@@ -1214,7 +1214,7 @@ aStats
 0
 ;
 virtual
-void
+nsresult
 SendDatagram
 (
 Http3WebTransportSession
@@ -2365,7 +2365,7 @@ aErrorCode
 )
 override
 ;
-void
+nsresult
 SendDatagram
 (
 Http3WebTransportSession
