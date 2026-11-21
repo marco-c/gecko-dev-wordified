@@ -8186,7 +8186,7 @@ MOZ_ASSERT
 markOnBackgroundThreadDuringSweeping
 )
 ;
-assertNoMarkingWork
+assertNoMarkingWorkInSweepingZones
 (
 )
 ;
@@ -11384,6 +11384,10 @@ using
 namespace
 gcstats
 ;
+assertNoMarkingWork
+(
+)
+;
 AutoSCC
 scc
 (
@@ -12416,7 +12420,7 @@ return
 NotFinished
 ;
 }
-assertNoMarkingWork
+assertNoMarkingWorkInSweepingZones
 (
 )
 ;
