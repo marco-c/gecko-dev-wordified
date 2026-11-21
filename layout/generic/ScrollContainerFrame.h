@@ -8080,6 +8080,16 @@ FireScrolledAreaEvent
 (
 )
 ;
+bool
+IsScrollbarPartShown
+(
+const
+nsIFrame
+*
+aPart
+)
+const
+;
 /
 /
 The
