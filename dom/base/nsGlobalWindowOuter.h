@@ -420,6 +420,9 @@ nsGlobalWindowInner
 class
 nsDOMWindowUtils
 ;
+class
+LazyFocusActionId
+;
 struct
 nsRect
 ;
@@ -3112,7 +3115,8 @@ CallerType
 aCallerType
 bool
 aFromOtherProcess
-uint64_t
+LazyFocusActionId
+&
 aActionId
 )
 ;

@@ -25575,6 +25575,9 @@ ErrorResult
 aError
 )
 {
+LazyFocusActionId
+actionId
+;
 FORWARD_TO_OUTER_OR_THROW
 (
 FocusOuter
@@ -25586,12 +25589,7 @@ aFromOtherProcess
 *
 /
 false
-nsFocusManager
-:
-:
-GenerateFocusActionId
-(
-)
+actionId
 )
 aError
 )
@@ -44215,7 +44213,7 @@ gamepad
 =
 entry
 .
-GetWeak
+GetRawPtr
 (
 )
 ;
@@ -44431,7 +44429,7 @@ GetKey
 this
 entry
 .
-GetWeak
+GetRawPtr
 (
 )
 )

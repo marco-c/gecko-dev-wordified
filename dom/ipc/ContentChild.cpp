@@ -26049,6 +26049,12 @@ IPC_OK
 )
 ;
 }
+LazyFocusActionId
+actionId
+(
+aActionId
+)
+;
 nsGlobalWindowOuter
 :
 :
@@ -26067,7 +26073,7 @@ aFromOtherProcess
 *
 /
 true
-aActionId
+actionId
 )
 ;
 return
@@ -26467,6 +26473,12 @@ GetFocusManager
 )
 )
 {
+LazyFocusActionId
+actionId
+(
+aActionId
+)
+;
 fm
 -
 >
@@ -26474,7 +26486,7 @@ RaiseWindow
 (
 window
 aCallerType
-aActionId
+actionId
 )
 ;
 }
