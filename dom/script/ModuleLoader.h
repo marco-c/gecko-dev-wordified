@@ -762,14 +762,6 @@ JSObject
 aModuleOut
 )
 ;
-void
-DisallowImportMapsForModuleFetch
-(
-ModuleLoadRequest
-*
-aRequest
-)
-;
 private
 :
 const
