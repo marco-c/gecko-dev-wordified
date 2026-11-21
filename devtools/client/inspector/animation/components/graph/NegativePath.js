@@ -510,6 +510,8 @@ createSummaryGraphPathStringFunction
 endTime
 state
 .
+absoluteValues
+.
 playbackRate
 )
 ;

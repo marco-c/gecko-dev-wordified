@@ -1099,6 +1099,8 @@ animation
 .
 state
 .
+absoluteValues
+.
 playbackRate
 )
 ;
@@ -1230,7 +1232,6 @@ height
 }
 const
 {
-playbackRate
 playBackRateMultiplier
 }
 =
@@ -1241,6 +1242,7 @@ state
 const
 {
 createdTime
+playbackRate
 }
 =
 animation
