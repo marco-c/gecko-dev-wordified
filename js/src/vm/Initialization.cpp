@@ -498,7 +498,7 @@ generates
 .
 volatile
 double
-infinity
+volatileInfinity
 =
 mozilla
 :
@@ -509,6 +509,11 @@ double
 >
 (
 )
+;
+double
+infinity
+=
+volatileInfinity
 ;
 volatile
 double
