@@ -7879,6 +7879,9 @@ goto
 bad_arg
 ;
 }
+#
+ifdef
+ENABLE_DEEP_PLC
 ret
 =
 lpcnet_plc_load_model
@@ -7892,6 +7895,8 @@ data
 len
 )
 ;
+#
+endif
 if
 (
 silk_LoadOSCEModels
