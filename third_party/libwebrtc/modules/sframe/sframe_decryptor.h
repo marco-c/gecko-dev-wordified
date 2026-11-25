@@ -243,7 +243,7 @@ override
 ;
 /
 /
-SframeDecryptorInterface
+SframeMediaDecryptorInterface
 implementation
 .
 RTCError
@@ -271,11 +271,6 @@ key_id
 )
 override
 ;
-/
-/
-SframeMediaDecryptorInterface
-implementation
-.
 SframeDecryptResult
 Decrypt
 (
