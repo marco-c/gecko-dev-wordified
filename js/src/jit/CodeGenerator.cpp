@@ -30105,12 +30105,6 @@ the
 code
 buffer
 .
-masm
-.
-flushBuffer
-(
-)
-;
 setOsrEntryOffset
 (
 masm
