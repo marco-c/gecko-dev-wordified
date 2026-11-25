@@ -157940,7 +157940,7 @@ binding_to
 (
 idl
 const
-XPIDL_nsIAboutModule_URI_CAN_LOAD_IN_CHILD
+XPIDL_nsIAboutModule_URI_IS_ERROR_PAGE
 )
 -
 -
@@ -157948,7 +157948,7 @@ XPIDL_nsIAboutModule_URI_CAN_LOAD_IN_CHILD
 *
 /
 readonly
-URI_CAN_LOAD_IN_CHILD
+URI_IS_ERROR_PAGE
 ?
 :
 16
