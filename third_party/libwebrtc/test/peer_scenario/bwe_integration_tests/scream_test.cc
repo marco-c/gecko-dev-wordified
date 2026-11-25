@@ -4226,7 +4226,7 @@ DataRate
 :
 KilobitsPerSec
 (
-370
+350
 )
 DataRate
 :
@@ -5033,14 +5033,14 @@ DataRate
 :
 KilobitsPerSec
 (
-1100
+1000
 )
 DataRate
 :
 :
 KilobitsPerSec
 (
-2200
+2400
 )
 )
 )
@@ -5194,7 +5194,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2500
+2700
 )
 )
 )
@@ -5348,7 +5348,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2100
+2200
 )
 )
 )
@@ -5882,7 +5882,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2600
+2650
 )
 )
 )
@@ -6808,7 +6808,7 @@ DataRate
 :
 KilobitsPerSec
 (
-2500
+2800
 )
 )
 )
@@ -7509,7 +7509,7 @@ DataRate
 :
 KilobitsPerSec
 (
-550
+500
 )
 DataRate
 :
@@ -7533,7 +7533,7 @@ two
 reports
 is
 below
-100ms
+140ms
 .
 for
 (
@@ -7572,7 +7572,7 @@ TimeDelta
 :
 Millis
 (
-100
+140
 )
 result
 .
