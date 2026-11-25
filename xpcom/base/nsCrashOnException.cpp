@@ -87,6 +87,9 @@ h
 namespace
 mozilla
 {
+#
+ifdef
+HAVE_SEH_EXCEPTIONS
 static
 int
 ReportException
@@ -137,6 +140,8 @@ return
 EXCEPTION_EXECUTE_HANDLER
 ;
 }
+#
+endif
 XPCOM_API
 (
 LRESULT

@@ -1338,6 +1338,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+__MINGW32__
 static
 IInspectable
 *
@@ -1352,9 +1355,6 @@ NS_IsMainThread
 )
 )
 ;
-#
-ifndef
-__MINGW32__
 /
 /
 We
@@ -1846,14 +1846,9 @@ get
 (
 )
 ;
-#
-else
-return
-nullptr
-;
+}
 #
 endif
-}
 Maybe
 <
 nscolor

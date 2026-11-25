@@ -858,6 +858,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+__MINGW32__
 static
 HRESULT
 RejectOnMainThread
@@ -936,9 +939,6 @@ return
 S_OK
 ;
 }
-#
-ifndef
-__MINGW32__
 /
 /
 forward
@@ -996,11 +996,6 @@ nsAutoString
 aCampaignId
 )
 ;
-#
-endif
-/
-/
-__MINGW32__
 static
 std
 :
@@ -1159,6 +1154,11 @@ NS_OK
 )
 ;
 }
+#
+endif
+/
+/
+__MINGW32__
 NS_IMETHODIMP
 nsWindowsPackageManager
 :

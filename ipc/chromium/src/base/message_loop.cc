@@ -431,6 +431,9 @@ defined
 (
 XP_WIN
 )
+#
+ifdef
+HAVE_SEH_EXCEPTIONS
 /
 /
 Upon
@@ -469,6 +472,8 @@ return
 EXCEPTION_CONTINUE_SEARCH
 ;
 }
+#
+endif
 /
 /
 Retrieves
