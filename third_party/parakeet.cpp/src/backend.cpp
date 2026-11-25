@@ -3091,7 +3091,7 @@ dst
 )
 ;
 }
-void
+bool
 ensure_weights_realized
 (
 const
@@ -3109,6 +3109,7 @@ weights_realized
 )
 )
 return
+true
 ;
 /
 /
@@ -3185,6 +3186,7 @@ ModelLoader
 ml
 )
 ;
+return
 mut
 .
 realize_weights

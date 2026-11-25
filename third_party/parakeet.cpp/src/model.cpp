@@ -452,6 +452,9 @@ not
 per
 utterance
 .
+if
+(
+!
 ensure_weights_realized
 (
 m
@@ -459,7 +462,12 @@ m
 >
 loader_
 )
+)
+{
+return
+nullptr
 ;
+}
 return
 m
 ;
@@ -561,6 +569,9 @@ return
 nullptr
 ;
 }
+if
+(
+!
 ensure_weights_realized
 (
 m
@@ -568,7 +579,12 @@ m
 >
 loader_
 )
+)
+{
+return
+nullptr
 ;
+}
 return
 m
 ;
