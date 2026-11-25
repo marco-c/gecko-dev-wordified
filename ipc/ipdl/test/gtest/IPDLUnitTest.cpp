@@ -810,7 +810,7 @@ child
 "
 <
 <
-OtherPid
+OtherChildID
 (
 )
 <
