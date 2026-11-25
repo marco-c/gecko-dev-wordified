@@ -281,19 +281,19 @@ logger
 .
 info
 (
+f
 "
 Setting
 ADB
 log
 file
 to
-%
-s
-"
-%
+{
 self
 .
 log_file
+}
+"
 )
         
 adb_logger
@@ -634,17 +634,17 @@ app_name
 raise
 Exception
 (
+f
 "
-%
-s
+{
+self
+.
+app_name
+}
 is
 not
 installed
 "
-%
-self
-.
-app_name
 )
         
 if
@@ -814,10 +814,14 @@ logger
 .
 info
 (
+f
 "
 Setting
-%
-s
+{
+self
+.
+app_name
+}
 as
 the
 debug
@@ -826,10 +830,6 @@ on
 the
 phone
 "
-%
-self
-.
-app_name
 )
         
 device
@@ -837,6 +837,7 @@ device
 shell
 (
             
+f
 "
 am
 set
@@ -847,13 +848,12 @@ app
 -
 -
 persistent
-%
-s
-"
-%
+{
 self
 .
 app_name
+}
+"
             
 stdout_callback
 =
@@ -1345,6 +1345,7 @@ logger
 .
 info
 (
+f
 "
 The
 profile
@@ -1354,11 +1355,10 @@ phone
 will
 be
 at
-%
-s
-"
-%
+{
 remote_profile
+}
+"
 )
         
 #
@@ -1457,18 +1457,18 @@ logger
 .
 info
 (
+f
 "
 Pushing
-%
-s
+{
+self
+.
+profile
+}
 on
 the
 phone
 "
-%
-self
-.
-profile
 )
         
 device
@@ -1624,9 +1624,13 @@ MOZ_LOG
         
 yml_name
 =
+f
 "
-%
-s
+{
+self
+.
+app_name
+}
 -
 geckoview
 -
@@ -1634,10 +1638,6 @@ config
 .
 yaml
 "
-%
-self
-.
-app_name
         
 yml_on_host
 =
@@ -1690,9 +1690,11 @@ tmp_on_device
 raise
 IOError
 (
+f
 "
-%
-s
+{
+tmp_on_device
+}
 does
 not
 exists
@@ -1700,8 +1702,6 @@ on
 the
 device
 "
-%
-tmp_on_device
 )
         
 yml_on_device
@@ -1862,36 +1862,36 @@ app_name
 raise
 Exception
 (
+f
 "
 Could
 not
 start
-%
-s
-"
-%
+{
 self
 .
 app_name
+}
+"
 )
         
 logger
 .
 info
 (
+f
 "
 Creating
 socket
 forwarding
 on
 port
-%
-d
-"
-%
+{
 self
 .
 marionette_port
+}
+"
 )
         
 device
@@ -1901,29 +1901,29 @@ forward
             
 local
 =
+f
 "
 tcp
 :
-%
-d
-"
-%
+{
 self
 .
 marionette_port
+}
+"
             
 remote
 =
+f
 "
 tcp
 :
-%
-d
-"
-%
+{
 self
 .
 marionette_port
+}
+"
         
 )
         
@@ -1989,15 +1989,15 @@ logger
 .
 info
 (
+f
 "
 Stopping
-%
-s
-"
-%
+{
 self
 .
 app_name
+}
+"
 )
         
 try
@@ -2059,18 +2059,18 @@ logger
 .
 info
 (
+f
 "
-%
-s
+{
+self
+.
+app_name
+}
 still
 running
 trying
 SIGKILL
 "
-%
-self
-.
-app_name
 )
             
 num_tries
@@ -2130,15 +2130,15 @@ logger
 .
 info
 (
+f
 "
-%
-s
-stopped
-"
-%
+{
 self
 .
 app_name
+}
+stopped
+"
 )
     
 def
@@ -2152,17 +2152,17 @@ logger
 .
 info
 (
+f
 "
 Collecting
 profile
 from
-%
-s
-"
-%
+{
 self
 .
 remote_profile
+}
+"
 )
         
 self
@@ -2211,16 +2211,16 @@ device
 .
 remove_forwards
 (
+f
 "
 tcp
 :
-%
-d
-"
-%
+{
 self
 .
 marionette_port
+}
+"
 )
         
 except
@@ -2332,16 +2332,16 @@ logger
 .
 info
 (
+f
 "
 Running
 Webdriver
 on
 port
-%
-d
-"
-%
+{
 port
+}
+"
 )
         
 logger
@@ -2537,20 +2537,18 @@ return
 app
         
 return
+f
 "
-%
-s
--
-%
-s
-"
-%
-(
+{
 self
 .
 device_name
+}
+-
+{
 app
-)
+}
+"
     
 def
 dump_logs
@@ -2616,15 +2614,15 @@ logger
 .
 info
 (
+f
 "
 Writing
 logcat
 at
-%
-s
-"
-%
+{
 logfile
+}
+"
 )
                 
 with
