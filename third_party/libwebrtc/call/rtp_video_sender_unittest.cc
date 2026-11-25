@@ -1565,7 +1565,7 @@ bitrate_config
 =
 bitrate_config_
 .
-worker_thread
+network_thread
 =
 time_controller_
 .
@@ -13796,7 +13796,7 @@ bitrate_config
 =
 bitrate_config
 .
-worker_thread
+network_thread
 =
 time_controller
 .
