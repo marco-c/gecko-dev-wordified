@@ -22216,7 +22216,7 @@ condition
 =
 condition
 .
-query_condition
+query
 (
 )
 {

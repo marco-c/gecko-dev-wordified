@@ -157,6 +157,18 @@ use
 crate
 :
 :
+queries
+:
+:
+boolean_expression
+:
+:
+BooleanExprTest
+;
+use
+crate
+:
+:
 stylesheets
 :
 :
@@ -791,7 +803,7 @@ c
 {
 c
 .
-matches
+evaluate
 (
 context
 custom
