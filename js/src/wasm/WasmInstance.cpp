@@ -21151,9 +21151,6 @@ grow
 if
 (
 memory
-&
-&
-memory
 -
 >
 movingGrowable
