@@ -1998,7 +1998,7 @@ env_
 call
 -
 >
-worker_thread
+network_thread
 (
 )
 this

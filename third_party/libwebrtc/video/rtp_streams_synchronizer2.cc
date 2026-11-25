@@ -345,7 +345,7 @@ Environment
 env
 TaskQueueBase
 *
-main_queue
+network_queue
 Syncable
 *
 syncable_video
@@ -355,9 +355,9 @@ env_
 (
 env
 )
-task_queue_
+network_queue_
 (
-main_queue
+network_queue
 )
 syncable_video_
 (
@@ -392,8 +392,7 @@ RtpStreamsSynchronizer
 {
 RTC_DCHECK_RUN_ON
 (
-&
-main_checker_
+network_queue_
 )
 ;
 repeating_task_
@@ -416,8 +415,7 @@ syncable_audio
 {
 RTC_DCHECK_RUN_ON
 (
-&
-main_checker_
+network_queue_
 )
 ;
 /
@@ -502,13 +500,11 @@ RepeatingTaskHandle
 :
 DelayedStart
 (
-task_queue_
+network_queue_
 kSyncInterval
 [
 this
 ]
-(
-)
 {
 UpdateDelay
 (
@@ -531,8 +527,7 @@ UpdateDelay
 {
 RTC_DCHECK_RUN_ON
 (
-&
-main_checker_
+network_queue_
 )
 ;
 if
@@ -1181,8 +1176,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-&
-main_checker_
+network_queue_
 )
 ;
 if
