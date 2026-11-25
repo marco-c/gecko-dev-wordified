@@ -465,6 +465,9 @@ move
 (
 my_weak_ptr
 )
+next_internal_id_
++
++
 std
 :
 :
@@ -1429,6 +1432,15 @@ RTC_GUARDED_BY
 (
 network_thread_
 )
+;
+int
+next_internal_id_
+RTC_GUARDED_BY
+(
+network_thread_
+)
+=
+0
 ;
 int
 channels_closed_

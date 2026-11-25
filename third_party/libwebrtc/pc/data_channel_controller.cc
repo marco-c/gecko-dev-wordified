@@ -3193,6 +3193,9 @@ weak_factory_
 GetWeakPtr
 (
 )
+next_internal_id_
++
++
 label
 data_channel_transport_
 !
