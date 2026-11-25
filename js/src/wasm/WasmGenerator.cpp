@@ -1557,12 +1557,6 @@ case
 CallSiteKind
 :
 :
-ReturnStub
-:
-case
-CallSiteKind
-:
-:
 ReturnCallFallback
 :
 case
