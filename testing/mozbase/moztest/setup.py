@@ -63,7 +63,7 @@ PACKAGE_VERSION
 "
 1
 .
-1
+2
 .
 0
 "
@@ -74,6 +74,11 @@ deps
 [
 "
 mozinfo
+>
+=
+0
+.
+7
 "
 ]
 setup
