@@ -2095,11 +2095,6 @@ ShareShmBlockToProcess
 (
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 ipc
 :
 :
@@ -2202,8 +2197,8 @@ be
 *
 shared
 to
-the
-given
+a
+child
 process
 .
 This
@@ -2236,11 +2231,6 @@ ReadOnlySharedMemoryHandle
 >
 *
 aBlocks
-base
-:
-:
-ProcessId
-aPid
 )
 ;
 ipc
@@ -2251,11 +2241,6 @@ ShareBlockToProcess
 (
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 )
 ;
 void

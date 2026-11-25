@@ -6487,6 +6487,8 @@ NS_IsMainThread
 {
 bool
 initialized
+=
+false
 ;
 dom
 :
@@ -20569,11 +20571,6 @@ uint32_t
 aGeneration
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 mozilla
 :
 :
@@ -20621,7 +20618,6 @@ list
 ShareShmBlockToProcess
 (
 aIndex
-aPid
 aOut
 )
 ;
@@ -20653,11 +20649,6 @@ ReadOnlySharedMemoryHandle
 >
 *
 aBlocks
-base
-:
-:
-ProcessId
-aPid
 )
 {
 auto
@@ -20678,7 +20669,6 @@ list
 ShareBlocksToProcess
 (
 aBlocks
-aPid
 )
 ;
 }
@@ -20697,11 +20687,6 @@ ShareShmBlockToProcess
 (
 uint32_t
 aIndex
-base
-:
-:
-ProcessId
-aPid
 )
 {
 MOZ_RELEASE_ASSERT
@@ -20720,7 +20705,6 @@ SharedFontList
 ShareBlockToProcess
 (
 aIndex
-aPid
 )
 ;
 }

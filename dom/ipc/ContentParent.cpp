@@ -9988,12 +9988,6 @@ pfl
 ShareShmBlockToProcess
 (
 aIndex
-cp
--
->
-Pid
-(
-)
 )
 ;
 if
@@ -18969,9 +18963,6 @@ ShareFontListToProcess
 (
 &
 sharedFontListBlocks
-OtherPid
-(
-)
 )
 ;
 /
@@ -38141,9 +38132,6 @@ ShareFontListShmBlockToProcess
 (
 aGeneration
 aIndex
-Pid
-(
-)
 aOut
 )
 ;
