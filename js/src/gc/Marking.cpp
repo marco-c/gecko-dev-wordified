@@ -23166,7 +23166,7 @@ This
 is
 implemented
 in
-nsXPConnect
+js
 :
 :
 FixWeakMappingGrayBits

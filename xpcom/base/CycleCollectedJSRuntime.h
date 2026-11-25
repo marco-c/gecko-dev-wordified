@@ -3155,12 +3155,6 @@ UsefulToMergeZones
 const
 ;
 void
-FixWeakMappingGrayBits
-(
-)
-const
-;
-void
 CheckGrayBits
 (
 )
