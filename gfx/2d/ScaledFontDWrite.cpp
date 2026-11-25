@@ -1213,6 +1213,11 @@ context
 =
 nullptr
 ;
+bool
+success
+=
+false
+;
 hr
 =
 E_FAIL
@@ -1260,6 +1265,8 @@ hr
 )
 )
 {
+success
+=
 aDataCallback
 (
 (
@@ -1319,7 +1326,7 @@ context
 )
 ;
 return
-true
+success
 ;
 }
 static
@@ -1818,6 +1825,7 @@ GetIndex
 (
 )
 ;
+return
 aCb
 (
 reinterpret_cast
@@ -1846,9 +1854,6 @@ WCHAR
 index
 aBaton
 )
-;
-return
-true
 ;
 }
 ScaledFontDWrite
@@ -2548,6 +2553,7 @@ mFontFace
 variations
 )
 ;
+return
 aCb
 (
 reinterpret_cast
@@ -2575,9 +2581,6 @@ size
 )
 aBaton
 )
-;
-return
-true
 ;
 }
 bool

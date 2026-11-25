@@ -357,6 +357,9 @@ return
 false
 ;
 }
+bool
+success
+=
 aDataCallback
 (
 fontData
@@ -372,7 +375,7 @@ length
 )
 ;
 return
-true
+success
 ;
 }
 bool
@@ -454,6 +457,8 @@ length
 FT_Err_Ok
 )
 {
+success
+=
 aDataCallback
 (
 fontData
@@ -461,10 +466,6 @@ length
 0
 aBaton
 )
-;
-success
-=
-true
 ;
 }
 delete
@@ -503,6 +504,7 @@ return
 false
 ;
 }
+return
 aCb
 (
 reinterpret_cast
@@ -526,9 +528,6 @@ size
 mIndex
 aBaton
 )
-;
-return
-true
 ;
 }
 RefPtr

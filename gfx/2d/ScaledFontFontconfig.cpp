@@ -1961,6 +1961,7 @@ mFace
 )
 ;
 }
+return
 aCb
 (
 reinterpret_cast
@@ -1988,9 +1989,6 @@ size
 )
 aBaton
 )
-;
-return
-true
 ;
 }
 bool
