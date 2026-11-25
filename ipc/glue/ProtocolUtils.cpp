@@ -3050,9 +3050,6 @@ well
 if
 (
 aManager
-&
-&
-aManager
 -
 >
 mLinkStatus
