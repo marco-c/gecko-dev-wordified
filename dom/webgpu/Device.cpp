@@ -3783,6 +3783,9 @@ texture
 CreateView
 (
 defaultDesc
+IgnoreErrors
+(
+)
 )
 ;
 setTextureViewBinding
