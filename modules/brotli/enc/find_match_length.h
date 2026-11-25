@@ -57,9 +57,6 @@ BROTLI_ENC_FIND_MATCH_LENGTH_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

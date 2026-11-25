@@ -60,9 +60,6 @@ BROTLI_ENC_LITERAL_COST_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

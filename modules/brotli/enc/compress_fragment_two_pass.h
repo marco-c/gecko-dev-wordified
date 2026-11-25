@@ -112,9 +112,6 @@ BROTLI_ENC_COMPRESS_FRAGMENT_TWO_PASS_H_
 #
 include
 "
-.
-.
-/
 common
 /
 constants
@@ -124,9 +121,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

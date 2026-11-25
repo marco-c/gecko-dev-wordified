@@ -58,9 +58,6 @@ BROTLI_ENC_HISTOGRAM_H_
 #
 include
 "
-.
-.
-/
 common
 /
 constants
@@ -70,9 +67,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 context
@@ -82,9 +76,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

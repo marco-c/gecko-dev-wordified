@@ -65,9 +65,6 @@ BROTLI_ENC_QUALITY_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

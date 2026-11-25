@@ -70,9 +70,6 @@ BROTLI_ENC_HASH_H_
 #
 include
 "
-.
-.
-/
 common
 /
 constants
@@ -82,9 +79,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary
@@ -94,9 +88,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

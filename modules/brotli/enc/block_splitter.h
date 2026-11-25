@@ -54,9 +54,6 @@ BROTLI_ENC_BLOCK_SPLITTER_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

@@ -55,9 +55,6 @@ BROTLI_ENC_CLUSTER_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

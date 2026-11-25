@@ -59,9 +59,6 @@ BROTLI_ENC_UTF8_UTIL_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

@@ -59,9 +59,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

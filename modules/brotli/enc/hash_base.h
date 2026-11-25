@@ -55,9 +55,6 @@ THIRD_PARTY_BROTLI_ENC_HASH_BASE_H_
 #
 include
 "
-.
-.
-/
 common
 /
 platform

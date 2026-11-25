@@ -74,9 +74,6 @@ BROTLI_DEC_PREFIX_H_
 #
 include
 "
-.
-.
-/
 common
 /
 constants
@@ -86,9 +83,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -106,9 +100,6 @@ keep
 #
 include
 "
-.
-.
-/
 common
 /
 static_init

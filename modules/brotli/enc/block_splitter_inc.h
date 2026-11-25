@@ -3299,12 +3299,6 @@ num_histograms
 1
 )
 ;
-tmp
-=
-histograms
-+
-num_histograms
-;
 if
 (
 BROTLI_IS_OOM
@@ -3319,6 +3313,12 @@ histograms
 )
 )
 return
+;
+tmp
+=
+histograms
++
+num_histograms
 ;
 /
 *

@@ -56,9 +56,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 constants
@@ -68,9 +65,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 context
@@ -80,9 +74,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -149,13 +140,6 @@ h
 include
 "
 params
-.
-h
-"
-#
-include
-"
-prefix
 .
 h
 "

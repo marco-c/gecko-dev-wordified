@@ -57,9 +57,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform
@@ -77,9 +74,6 @@ keep
 #
 include
 "
-.
-.
-/
 common
 /
 static_init
@@ -97,9 +91,6 @@ BROTLI_STATIC_INIT_NONE
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary
@@ -109,9 +100,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 transform

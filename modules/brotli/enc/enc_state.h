@@ -51,9 +51,6 @@ BROTLI_ENC_STATE_H_
 #
 include
 "
-.
-.
-/
 common
 /
 constants
@@ -63,9 +60,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform

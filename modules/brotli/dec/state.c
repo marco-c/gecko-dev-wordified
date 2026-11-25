@@ -45,9 +45,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 dictionary
@@ -57,9 +54,6 @@ h
 #
 include
 "
-.
-.
-/
 common
 /
 platform
