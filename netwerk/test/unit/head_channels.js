@@ -4367,6 +4367,9 @@ not_resumed
 "
 rejected
 "
+"
+failed
+"
 ]
 )
 {
