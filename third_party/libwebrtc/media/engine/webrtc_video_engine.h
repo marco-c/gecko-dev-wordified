@@ -1853,7 +1853,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 return
@@ -2114,7 +2114,7 @@ changed_params
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-worker_thread_
+network_thread_
 )
 ;
 bool
@@ -2141,7 +2141,7 @@ sp
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -2169,7 +2169,7 @@ allow_default_fallback
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -3033,7 +3033,7 @@ remote_mapped_codecs
 const
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-worker_thread_
+network_thread_
 )
 ;
 void
@@ -3047,7 +3047,7 @@ log_stats
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-worker_thread_
+network_thread_
 )
 ;
 void
@@ -3059,7 +3059,7 @@ video_media_info
 )
 RTC_EXCLUSIVE_LOCKS_REQUIRED
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -3156,7 +3156,7 @@ env_
 TaskQueueBase
 *
 const
-worker_thread_
+network_thread_
 ;
 ScopedTaskSafety
 task_safety_
@@ -3175,7 +3175,7 @@ bool
 sending_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 Call
@@ -3215,7 +3215,7 @@ WebRtcVideoSendStream
 send_streams_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -3228,7 +3228,7 @@ uint32_t
 send_ssrcs_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -3241,7 +3241,7 @@ VideoCodecSettings
 send_codec_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -3254,7 +3254,7 @@ VideoCodecSettings
 negotiated_codecs_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -3304,7 +3304,7 @@ VideoCodecSettings
 available_negotiated_codecs_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -3317,7 +3317,7 @@ VideoCodecSettings
 send_codecs_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -3330,7 +3330,7 @@ RtpExtension
 send_rtp_extensions_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 VideoEncoderFactory
@@ -3339,7 +3339,7 @@ const
 encoder_factory_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 VideoBitrateAllocatorFactory
@@ -3348,7 +3348,7 @@ const
 bitrate_allocator_factory_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -3378,14 +3378,14 @@ BitrateConstraints
 bitrate_config_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 VideoSenderParameters
 send_params_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 const
@@ -3396,7 +3396,7 @@ int64_t
 last_send_stats_log_ms_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -3426,7 +3426,7 @@ SframeSendOptions
 sframe_options_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -3482,7 +3482,7 @@ void
 parameters_changed_callback_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 /
