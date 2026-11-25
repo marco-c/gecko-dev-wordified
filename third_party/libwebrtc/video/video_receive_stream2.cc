@@ -1472,7 +1472,7 @@ clock
 call
 -
 >
-worker_thread
+network_thread
 (
 )
 )
@@ -1495,7 +1495,7 @@ clock
 call
 -
 >
-worker_thread
+network_thread
 (
 )
 timing
@@ -1838,7 +1838,7 @@ clock
 call
 -
 >
-worker_thread
+network_thread
 (
 )
 )
@@ -1933,7 +1933,7 @@ env_
 call
 -
 >
-worker_thread
+network_thread
 (
 )
 &
@@ -2144,7 +2144,7 @@ RTC_DCHECK
 call_
 -
 >
-worker_thread
+network_thread
 (
 )
 )
@@ -2305,7 +2305,7 @@ receiver_controller
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 RTC_DCHECK
@@ -2387,7 +2387,7 @@ UnregisterFromTransport
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 media_receiver_
@@ -2424,7 +2424,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 return
@@ -2446,7 +2446,7 @@ state
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 rtp_video_stream_receiver_
@@ -2477,7 +2477,7 @@ packet
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 return
@@ -2503,7 +2503,7 @@ audio_syncable
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 rtp_stream_sync_
@@ -2525,7 +2525,7 @@ Start
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 if
@@ -2872,7 +2872,7 @@ Stop
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 rtp_video_stream_receiver_
@@ -3118,7 +3118,7 @@ safely
 invalidate
 any
 pending
-worker
+network
 queue
 tasks
 /
@@ -3152,7 +3152,7 @@ mode
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 config_
@@ -3185,7 +3185,7 @@ flexfec_sink
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 rtp_video_stream_receiver_
@@ -3230,7 +3230,7 @@ history
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 RTC_DCHECK_GE
@@ -3383,7 +3383,7 @@ ulpfec_payload_type
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 rtp_video_stream_receiver_
@@ -3414,7 +3414,7 @@ rtcp_xr
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 rtp_video_stream_receiver_
@@ -3447,7 +3447,7 @@ associated_payload_types
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 if
@@ -3493,7 +3493,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -3909,7 +3909,7 @@ ConfigureCodecs
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 RegisterCodecsOnReceiver
@@ -3956,7 +3956,7 @@ decoders
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 if
@@ -4197,7 +4197,7 @@ state
 call_
 -
 >
-worker_thread
+network_thread
 (
 )
 -
@@ -4220,7 +4220,7 @@ this
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 RequestKeyFrame
@@ -4272,7 +4272,7 @@ raw_payload_types
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 if
@@ -4637,7 +4637,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 VideoReceiveStream2
@@ -5002,7 +5002,7 @@ UpdateHistograms
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -5357,7 +5357,7 @@ delay_ms
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 TimeDelta
@@ -5411,7 +5411,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 constexpr
@@ -5715,7 +5715,7 @@ now
 call_
 -
 >
-worker_thread
+network_thread
 (
 )
 -
@@ -5739,7 +5739,7 @@ this
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 int64_t
@@ -6028,7 +6028,7 @@ now
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 /
@@ -6075,7 +6075,7 @@ frame
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -6184,7 +6184,7 @@ max_rtt_ms
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 /
@@ -6239,7 +6239,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 return
@@ -6269,7 +6269,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -6376,7 +6376,7 @@ delay
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 syncable_minimum_playout_delay_
@@ -6410,7 +6410,7 @@ frame
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 Timestamp
@@ -6640,7 +6640,7 @@ keyframe_required
 call_
 -
 >
-worker_thread
+network_thread
 (
 )
 -
@@ -6678,7 +6678,7 @@ keyframe_request_is_due
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 keyframe_required_
@@ -6748,7 +6748,7 @@ wait
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 Timestamp
@@ -7971,7 +7971,7 @@ keyframe_request_is_due
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 bool
@@ -8112,7 +8112,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 std
@@ -8190,7 +8190,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 const
@@ -8717,7 +8717,7 @@ generate_key_frame
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 Event
@@ -8910,7 +8910,7 @@ GenerateKeyFrame
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 RequestKeyFrame
@@ -8944,7 +8944,7 @@ ssrc
 RTC_DCHECK_RUN_ON
 (
 &
-worker_sequence_checker_
+network_sequence_checker_
 )
 ;
 RTC_DCHECK
