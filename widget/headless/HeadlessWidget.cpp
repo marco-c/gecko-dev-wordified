@@ -2866,7 +2866,7 @@ nsresult
 HeadlessWidget
 :
 :
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 (
 TouchpadGesturePhase
 aEventPhase
@@ -3259,7 +3259,7 @@ aDeltaY
 /
 Same
 as
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 case
 we
 ignore

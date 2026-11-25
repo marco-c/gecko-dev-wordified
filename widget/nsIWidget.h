@@ -11097,7 +11097,7 @@ NS_ERROR_UNEXPECTED
 TouchpadGesturePhase
 states
 for
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 and
 *
 SynthesizeNativeTouchpadPan
@@ -11308,7 +11308,7 @@ sendNativeTouchpadPinch
 /
 virtual
 nsresult
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 (
 TouchpadGesturePhase
 aEventPhase
@@ -11323,7 +11323,7 @@ aModifierFlags
 MOZ_CRASH
 (
 "
-SynthesizeNativeTouchPadPinch
+SynthesizeNativeTouchpadPinch
 not
 implemented
 on
