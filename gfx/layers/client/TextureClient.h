@@ -1296,11 +1296,6 @@ Serialize
 ReadLockDescriptor
 &
 aOutput
-base
-:
-:
-ProcessId
-aOther
 )
 =
 0
