@@ -1705,7 +1705,7 @@ cssLoader
 cssLoader
 -
 >
-HasPendingLoads
+HasPendingNonDeferredLoads
 (
 )
 )
@@ -2701,7 +2701,7 @@ GetExistingCSSLoader
 )
 -
 >
-HasPendingLoads
+HasPendingNonDeferredLoads
 (
 )
 )
@@ -4730,6 +4730,10 @@ aMedia
 const
 nsAString
 &
+aCrossOrigin
+const
+nsAString
+&
 aReferrerPolicy
 const
 nsAString
@@ -4792,6 +4796,7 @@ aTitle
 aIntegrity
 aType
 aMedia
+aCrossOrigin
 aReferrerPolicy
 aFetchPriority
 )

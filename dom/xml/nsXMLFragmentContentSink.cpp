@@ -541,6 +541,10 @@ aMedia
 const
 nsAString
 &
+aCrossOrigin
+const
+nsAString
+&
 aReferrerPolicy
 const
 nsAString
@@ -1523,6 +1527,10 @@ const
 nsAString
 &
 aMedia
+const
+nsAString
+&
+aCrossOrigin
 const
 nsAString
 &
