@@ -208,6 +208,8 @@ test
 /
 browser
 /
+starters
+/
 test_smartwindow_prompts_page
 .
 html
