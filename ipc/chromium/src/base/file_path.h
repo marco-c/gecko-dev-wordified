@@ -735,6 +735,11 @@ BASE_FILE_PATH_H_
 #
 include
 <
+iosfwd
+>
+#
+include
+<
 string
 >
 #
