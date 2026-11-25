@@ -2170,7 +2170,7 @@ realm
 .
 txn
 .
-SetLanguageOverride
+SetLanguageOverrideInternal
 (
 GetLanguageOverride
 (
