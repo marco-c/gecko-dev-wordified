@@ -504,8 +504,8 @@ by
 its
 caller
 #
-ifndef
-__MINGW32__
+ifdef
+HAVE_SEH_EXCEPTIONS
 THREADNAME_INFO
 info
 ;
