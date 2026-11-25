@@ -2800,6 +2800,9 @@ StaticRange
 >
 OwningNonNullStaticRangeArray
 ;
+struct
+QueryContentResult
+;
 /
 /
 FontRange
