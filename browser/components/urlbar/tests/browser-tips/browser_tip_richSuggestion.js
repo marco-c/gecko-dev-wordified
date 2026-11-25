@@ -216,11 +216,9 @@ id
 "
 urlbar
 -
-dismissal
+feedback
 -
 acknowledgment
--
-weather
 "
 }
 buttons
@@ -576,11 +574,9 @@ l10nId
 "
 urlbar
 -
-dismissal
+feedback
 -
 acknowledgment
--
-weather
 "
 )
 ;
