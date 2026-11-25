@@ -139,14 +139,6 @@ compose
 .
 material3
 .
-ExperimentalMaterial3Api
-import
-androidx
-.
-compose
-.
-material3
-.
 Scaffold
 import
 androidx
@@ -279,7 +271,6 @@ Snackbar
 /
 *
 *
-*
 Displays
 a
 list
@@ -292,13 +283,6 @@ components
 .
 *
 /
-OptIn
-(
-ExperimentalMaterial3Api
-:
-:
-class
-)
 Composable
 fun
 ComponentListScreen

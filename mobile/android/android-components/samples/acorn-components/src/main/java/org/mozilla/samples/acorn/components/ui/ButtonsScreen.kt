@@ -131,14 +131,6 @@ compose
 .
 material3
 .
-ExperimentalMaterial3Api
-import
-androidx
-.
-compose
-.
-material3
-.
 HorizontalDivider
 import
 androidx
@@ -371,7 +363,6 @@ iconsR
 /
 *
 *
-*
 Displays
 demos
 of
@@ -382,13 +373,6 @@ components
 .
 *
 /
-OptIn
-(
-ExperimentalMaterial3Api
-:
-:
-class
-)
 Composable
 fun
 ButtonsScreen
