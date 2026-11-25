@@ -100,8 +100,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 using
@@ -674,9 +674,7 @@ source
 /
 /
 namespace
-widget
-}
-/
-/
-namespace
 mozilla
+:
+:
+widget
