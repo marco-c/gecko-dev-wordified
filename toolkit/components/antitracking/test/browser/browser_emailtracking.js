@@ -1014,7 +1014,7 @@ nsIWebProgressListener
 .
 STATE_BLOCKED_EMAILTRACKING_CONTENT
 true
-1
+2
 ]
 ]
 }
