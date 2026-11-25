@@ -1022,6 +1022,10 @@ toname
 )
 ;
 }
+bp
+=
+buf
+;
 while
 (
 (
@@ -1030,7 +1034,7 @@ cc
 read
 (
 fromfd
-buf
+bp
 sizeof
 buf
 )
@@ -1039,10 +1043,6 @@ buf
 0
 )
 {
-bp
-=
-buf
-;
 while
 (
 (
