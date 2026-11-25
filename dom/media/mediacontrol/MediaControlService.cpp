@@ -807,8 +807,6 @@ fallback
 title
 "
 _ns
-{
-}
 translation
 rv
 )

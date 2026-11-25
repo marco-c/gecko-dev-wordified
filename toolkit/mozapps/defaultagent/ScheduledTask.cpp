@@ -457,8 +457,6 @@ task
 description
 "
 _ns
-{
-}
 daTaskDesc
 rv
 )

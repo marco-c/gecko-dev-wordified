@@ -5956,8 +5956,6 @@ FormatValueSync
 (
 *
 statusId
-{
-}
 errorText
 IgnoreErrors
 (
