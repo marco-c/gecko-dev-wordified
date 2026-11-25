@@ -473,10 +473,7 @@ Parse
 (
 temp_packet
 .
-data
-temp_packet
-.
-length
+buffer
 )
 )
 {
