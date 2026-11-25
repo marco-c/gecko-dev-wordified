@@ -5864,6 +5864,7 @@ build_sticky_frame
 (
 descriptor
 parent_space
+pipeline_id
 )
 ;
 }
@@ -7036,6 +7037,9 @@ StickyFrameDescriptor
 parent_node_index
 :
 SpatialNodeIndex
+pipeline_id
+:
+PipelineId
 )
 {
 let
@@ -7074,13 +7078,7 @@ add_sticky_frame
 (
 parent_node_index
 sticky_frame_info
-info
-.
-id
-.
 pipeline_id
-(
-)
 )
 ;
 self
