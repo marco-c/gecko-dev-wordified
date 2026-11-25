@@ -770,7 +770,7 @@ DesktopCapture
 .
 Win
 .
-WgcWindowFallbackSelectSource
+WgcWindowFallbackStartOutcome
 "
 )
 ;
