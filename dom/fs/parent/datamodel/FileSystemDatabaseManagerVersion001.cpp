@@ -2463,9 +2463,6 @@ handle
 =
 :
 handle
-"
-"
-)
 ;
 "
 _ns
