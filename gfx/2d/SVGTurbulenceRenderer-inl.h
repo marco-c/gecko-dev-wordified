@@ -312,12 +312,6 @@ mNumOctaves
 StitchInfo
 mStitchInfo
 ;
-bool
-mStitchable
-;
-TurbulenceType
-mType
-;
 uint8_t
 mLatticeSelector
 [
@@ -677,14 +671,6 @@ aNumOctaves
 )
 mStitchInfo
 (
-)
-mStitchable
-(
-false
-)
-mType
-(
-TURBULENCE_TYPE_TURBULENCE
 )
 {
 InitFromSeed
