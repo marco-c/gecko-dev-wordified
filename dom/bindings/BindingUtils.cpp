@@ -27545,7 +27545,6 @@ nsContentUtils
 ReportDeprecation
 (
 globalObject
-nullptr
 uri
 aOperation
 JSCallingLocation
