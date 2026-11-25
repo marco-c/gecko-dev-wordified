@@ -55067,7 +55067,7 @@ aDrawTarget
 const
 {
 return
-InkOverflowRect
+GetRectRelativeToSelf
 (
 )
 ;
