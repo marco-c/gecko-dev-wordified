@@ -3527,7 +3527,7 @@ make_ref_counted
 AudioRtpReceiver
 >
 (
-worker_thread
+network_thread
 (
 )
 remote_sender_info
@@ -3575,7 +3575,7 @@ remote_sender_info
 first_ssrc
 )
 ;
-worker_thread
+network_thread
 (
 )
 -
@@ -3616,7 +3616,7 @@ Create
 signaling_thread
 (
 )
-worker_thread
+network_thread
 (
 )
 std
@@ -3770,7 +3770,7 @@ make_ref_counted
 VideoRtpReceiver
 >
 (
-worker_thread
+network_thread
 (
 )
 remote_sender_info
@@ -3836,7 +3836,7 @@ video_media_receive_channel
 )
 )
 ;
-worker_thread
+network_thread
 (
 )
 -
@@ -3877,7 +3877,7 @@ Create
 signaling_thread
 (
 )
-worker_thread
+network_thread
 (
 )
 std

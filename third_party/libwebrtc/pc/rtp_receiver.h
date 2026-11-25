@@ -480,7 +480,7 @@ be
 invoked
 on
 the
-worker
+network
 thread
 .
 virtual
@@ -560,7 +560,7 @@ be
 invoked
 on
 the
-worker
+network
 thread
 .
 virtual
@@ -609,9 +609,9 @@ be
 invoked
 on
 the
-worker
 /
 /
+network
 thread
 by
 the
@@ -625,10 +625,10 @@ This
 is
 done
 to
+/
+/
 allow
 the
-/
-/
 caller
 to
 batch
@@ -636,7 +636,7 @@ up
 tasks
 for
 the
-worker
+network
 thread
 .
 [
@@ -697,9 +697,9 @@ be
 invoked
 on
 the
-worker
 /
 /
+network
 thread
 by
 the
@@ -713,10 +713,10 @@ This
 is
 done
 to
+/
+/
 allow
 the
-/
-/
 caller
 to
 batch
@@ -724,7 +724,7 @@ up
 tasks
 for
 the
-worker
+network
 thread
 .
 [
@@ -765,8 +765,7 @@ dtls_transport
 ;
 /
 /
-Worker
--
+Network
 thread
 getter
 for
@@ -1393,7 +1392,7 @@ RtpReceiverBase
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -1434,7 +1433,7 @@ media_channel
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -1454,13 +1453,13 @@ scoped_refptr
 PendingTaskSafetyFlag
 >
 &
-worker_thread_safety
+network_thread_safety
 (
 )
 const
 {
 return
-worker_thread_safety_
+network_thread_safety_
 ;
 }
 RTC_NO_UNIQUE_ADDRESS
@@ -1470,7 +1469,7 @@ signaling_thread_checker_
 Thread
 *
 const
-worker_thread_
+network_thread_
 ;
 SourceTracker
 source_tracker_
@@ -1489,7 +1488,7 @@ uint32_t
 signaled_ssrc_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -1520,7 +1519,7 @@ FrameDecryptorInterface
 frame_decryptor_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 scoped_refptr
@@ -1530,7 +1529,7 @@ FrameTransformerInterface
 frame_transformer_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 private
@@ -1540,7 +1539,7 @@ scoped_refptr
 <
 PendingTaskSafetyFlag
 >
-worker_thread_safety_
+network_thread_safety_
 ;
 /
 /
@@ -1616,7 +1615,7 @@ MediaReceiveChannelInterface
 media_channel_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 RtpReceiverObserverInterface

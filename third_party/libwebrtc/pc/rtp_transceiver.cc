@@ -1510,7 +1510,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -1541,13 +1541,13 @@ RtpReceiverInternal
 Create
 (
 signaling_thread
-worker_thread
+network_thread
 make_ref_counted
 <
 RtpReceiverT
 >
 (
-worker_thread
+network_thread
 receiver_id
 std
 :
@@ -1606,7 +1606,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -1647,7 +1647,7 @@ VoiceMediaReceiveChannelInterface
 (
 env
 signaling_thread
-worker_thread
+network_thread
 receiver_id
 receive_channel
 std
@@ -1678,7 +1678,7 @@ VideoMediaReceiveChannelInterface
 (
 env
 signaling_thread
-worker_thread
+network_thread
 receiver_id
 receive_channel
 std

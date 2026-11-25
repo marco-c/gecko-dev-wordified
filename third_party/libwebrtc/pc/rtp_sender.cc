@@ -1404,7 +1404,7 @@ that
 runs
 on
 the
-worker
+network
 thread
 to
 set
@@ -1428,7 +1428,7 @@ set
 failed
 .
 void
-SetRtpParametersOnWorkerThread
+SetRtpParametersOnNetworkThread
 (
 MediaSendChannelInterface
 *
@@ -1836,7 +1836,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -1897,9 +1897,9 @@ signaling_thread_
 (
 signaling_thread
 )
-worker_thread_
+network_thread_
 (
-worker_thread
+network_thread
 )
 id_
 (
@@ -1934,7 +1934,7 @@ set_streams_observer_
 (
 set_streams_observer
 )
-worker_safety_
+network_safety_
 (
 PendingTaskSafetyFlag
 :
@@ -1951,7 +1951,7 @@ media_channel
 !
 =
 nullptr
-worker_thread_
+network_thread_
 )
 )
 signaling_safety_
@@ -1984,7 +1984,7 @@ enable_sframe_at_owner
 {
 RTC_DCHECK
 (
-worker_thread_
+network_thread_
 )
 ;
 init_parameters_
@@ -2069,7 +2069,7 @@ any
 existing
 channel
 .
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -2083,7 +2083,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 frame_encryptor_
@@ -2221,7 +2221,7 @@ ssrc_
 return
 ;
 }
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -2235,7 +2235,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -2349,7 +2349,7 @@ media_channel
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -2397,7 +2397,7 @@ state
 /
 /
 via
-ClearSend_w
+ClearSend_n
 are
 separate
 operations
@@ -2427,7 +2427,7 @@ call
 to
 /
 /
-ClearSend_w
+ClearSend_n
 (
 )
 such
@@ -2442,14 +2442,14 @@ media_channel
 ;
 media_channel_
 ?
-worker_safety_
+network_safety_
 -
 >
 SetAlive
 (
 )
 :
-worker_safety_
+network_safety_
 -
 >
 SetNotAlive
@@ -2604,7 +2604,7 @@ else
 bool
 success
 =
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -2620,7 +2620,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -2918,7 +2918,7 @@ InvalidState
 RtpParameters
 fetched_parameters
 ;
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -2934,7 +2934,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -2947,7 +2947,7 @@ return
 Event
 done_event
 ;
-SetRtpParametersOnWorkerThread
+SetRtpParametersOnNetworkThread
 (
 media_channel_
 send_codecs_
@@ -3147,7 +3147,7 @@ stale
 cache
 while
 the
-worker
+network
 thread
 is
 updating
@@ -3163,7 +3163,7 @@ if
 blocking
 &
 &
-worker_thread_
+network_thread_
 =
 =
 signaling_thread_
@@ -3258,7 +3258,7 @@ the
 parameters
 on
 the
-worker
+network
 thread
 /
 /
@@ -3324,7 +3324,7 @@ thread
 other
 than
 the
-worker
+network
 /
 /
 thread
@@ -3351,7 +3351,7 @@ back
 /
 to
 the
-worker
+network
 thread
 to
 safely
@@ -3373,9 +3373,9 @@ signaling_safety_
 flag
 (
 )
-worker_safety_flag
+network_safety_flag
 =
-worker_safety_
+network_safety_
 input_parameters
 =
 parameters
@@ -3402,7 +3402,7 @@ error
 mutable
 {
 auto
-on_worker_thread
+on_network_thread
 =
 [
 this
@@ -3454,7 +3454,7 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -3752,7 +3752,7 @@ error
 ;
 if
 (
-worker_thread_
+network_thread_
 -
 >
 IsCurrent
@@ -3760,14 +3760,14 @@ IsCurrent
 )
 )
 {
-on_worker_thread
+on_network_thread
 (
 )
 ;
 }
 else
 {
-worker_thread_
+network_thread_
 -
 >
 PostTask
@@ -3779,14 +3779,14 @@ std
 :
 move
 (
-worker_safety_flag
+network_safety_flag
 )
 std
 :
 :
 move
 (
-on_worker_thread
+on_network_thread
 )
 )
 )
@@ -3821,7 +3821,7 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -3829,7 +3829,7 @@ if
 media_channel_
 )
 {
-SetRtpParametersOnWorkerThread
+SetRtpParametersOnNetworkThread
 (
 media_channel_
 send_codecs_
@@ -3873,7 +3873,7 @@ if
 blocking
 )
 {
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -3931,14 +3931,14 @@ return
 blocking_error
 ;
 }
-worker_thread_
+network_thread_
 -
 >
 PostTask
 (
 SafeTask
 (
-worker_safety_
+network_safety_
 std
 :
 :
@@ -4009,7 +4009,7 @@ applied_parameters
 RTCError
 error
 =
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -4023,7 +4023,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -5205,7 +5205,7 @@ MaybeCreateFactoryOverride
 (
 )
 ;
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -5240,12 +5240,12 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 applied_parameters
 =
-ApplyInitParameters_w
+ApplyInitParameters_n
 (
 ssrc
 !
@@ -5274,15 +5274,15 @@ we
 re
 on
 the
-worker
+network
 thread
 attach
 the
 frame
 decryptor
+/
+/
 transformer
-/
-/
 and
 selector
 to
@@ -5499,7 +5499,7 @@ read
 back
 on
 the
-worker
+network
 thread
 while
 this
@@ -5543,7 +5543,7 @@ RtpParameters
 RtpSenderBase
 :
 :
-ApplyInitParameters_w
+ApplyInitParameters_n
 (
 std
 :
@@ -5557,7 +5557,7 @@ ssrc
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -6414,7 +6414,7 @@ unexplained
 inconsistency
 on
 the
-worker
+network
 thread
 .
 init_parameters_
@@ -6424,7 +6424,7 @@ on
 the
 /
 /
-worker
+network
 thread
 by
 the
@@ -6643,7 +6643,7 @@ BatchTaskResult
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -6655,7 +6655,7 @@ RtpParameters
 >
 applied_parameters
 =
-ApplyInitParameters_w
+ApplyInitParameters_n
 (
 ssrc
 !
@@ -6684,15 +6684,15 @@ we
 re
 on
 the
-worker
+network
 thread
 attach
 the
 frame
 decryptor
+/
+/
 transformer
-/
-/
 and
 selector
 to
@@ -7053,7 +7053,7 @@ RemoveTrackFromStats
 )
 ;
 }
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -7068,7 +7068,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -7076,7 +7076,7 @@ if
 clear_send
 )
 {
-ClearSend_w
+ClearSend_n
 (
 ssrc
 )
@@ -7202,7 +7202,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -7210,7 +7210,7 @@ if
 clear_send
 )
 {
-ClearSend_w
+ClearSend_n
 (
 ssrc
 )
@@ -7660,7 +7660,7 @@ ssrc_
 stopped_
 )
 {
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -7674,7 +7674,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -7765,7 +7765,7 @@ move
 (
 bitrate_callback
 )
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -7837,7 +7837,7 @@ CreateEncoderFactory
 (
 )
 ;
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -7863,7 +7863,7 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -7968,7 +7968,7 @@ move
 (
 bitrate_callback
 )
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -8037,7 +8037,7 @@ CreateEncoderFactory
 (
 )
 ;
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -8063,7 +8063,7 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -8188,7 +8188,7 @@ reset
 return
 ;
 }
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -8202,7 +8202,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -8349,14 +8349,14 @@ cipher_suite
 )
 }
 ;
-worker_thread_
+network_thread_
 -
 >
 PostTask
 (
 SafeTask
 (
-worker_safety_
+network_safety_
 [
 this
 sframe_encryption_config
@@ -8367,7 +8367,7 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 sframe_encryption_config_
@@ -8410,7 +8410,7 @@ SframeEncryptorProxy
 :
 Create
 (
-worker_thread_
+network_thread_
 std
 :
 :
@@ -8603,7 +8603,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -8665,7 +8665,7 @@ AudioRtpSender
 (
 env
 signaling_thread
-worker_thread
+network_thread
 id
 stats
 set_streams_observer
@@ -8715,7 +8715,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -8773,7 +8773,7 @@ RtpSenderBase
 (
 env
 signaling_thread
-worker_thread
+network_thread
 id
 MediaType
 :
@@ -8942,7 +8942,7 @@ false
 ;
 }
 return
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -8953,7 +8953,7 @@ BlockingCall
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 return
@@ -9030,7 +9030,7 @@ false
 ;
 }
 return
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -9044,7 +9044,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 return
@@ -9426,7 +9426,7 @@ hop
 /
 to
 the
-worker
+network
 thread
 or
 else
@@ -9596,7 +9596,7 @@ parameters
 bool
 success
 =
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -9610,7 +9610,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -9746,7 +9746,7 @@ RTC_DCHECK
 stopped_
 )
 ;
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -9760,10 +9760,10 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
-ClearSend_w
+ClearSend_n
 (
 ssrc
 )
@@ -9776,7 +9776,7 @@ void
 AudioRtpSender
 :
 :
-ClearSend_w
+ClearSend_n
 (
 uint32_t
 ssrc
@@ -9820,7 +9820,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -9893,7 +9893,7 @@ VideoRtpSender
 (
 env
 signaling_thread
-worker_thread
+network_thread
 id
 set_streams_observer
 std
@@ -9938,7 +9938,7 @@ Thread
 signaling_thread
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -10007,7 +10007,7 @@ RtpSenderBase
 (
 env
 signaling_thread
-worker_thread
+network_thread
 id
 MediaType
 :
@@ -10398,14 +10398,14 @@ configured
 ;
 }
 }
-worker_thread_
+network_thread_
 -
 >
 PostTask
 (
 SafeTask
 (
-worker_safety_
+network_safety_
 [
 this
 rids
@@ -10416,7 +10416,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -10631,7 +10631,7 @@ parameters
 bool
 success
 =
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -10645,7 +10645,7 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -10806,7 +10806,7 @@ been
 /
 deleted
 .
-worker_thread_
+network_thread_
 -
 >
 BlockingCall
@@ -10820,10 +10820,10 @@ ssrc_
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
-ClearSend_w
+ClearSend_n
 (
 ssrc
 )
@@ -10836,7 +10836,7 @@ void
 VideoRtpSender
 :
 :
-ClearSend_w
+ClearSend_n
 (
 uint32_t
 ssrc

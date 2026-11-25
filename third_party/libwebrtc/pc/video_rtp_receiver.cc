@@ -334,7 +334,7 @@ VideoRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -371,7 +371,7 @@ clock
 :
 VideoRtpReceiver
 (
-worker_thread
+network_thread
 receiver_id
 CreateStreamsFromIds
 (
@@ -402,7 +402,7 @@ VideoRtpReceiver
 (
 Thread
 *
-worker_thread
+network_thread
 absl
 :
 :
@@ -441,7 +441,7 @@ clock
 :
 RtpReceiverBase
 (
-worker_thread
+network_thread
 std
 :
 :
@@ -483,7 +483,7 @@ Thread
 Current
 (
 )
-worker_thread
+network_thread
 VideoTrack
 :
 :
@@ -491,7 +491,7 @@ Create
 (
 receiver_id
 source_
-worker_thread
+network_thread
 )
 )
 )
@@ -504,7 +504,7 @@ GenerateUniqueId
 {
 RTC_DCHECK
 (
-worker_thread_
+network_thread_
 )
 ;
 SetStreams
@@ -684,7 +684,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VideoMediaReceiveChannelInterface
@@ -864,10 +864,10 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
-GetRestartFunctionForMediaChannel_w
+GetRestartFunctionForMediaChannel_n
 (
 std
 :
@@ -886,7 +886,7 @@ void
 VideoRtpReceiver
 :
 :
-GetRestartFunctionForMediaChannel_w
+GetRestartFunctionForMediaChannel_n
 (
 std
 :
@@ -905,7 +905,7 @@ state
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VideoMediaReceiveChannelInterface
@@ -1099,7 +1099,7 @@ sink
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -1541,7 +1541,7 @@ delay_seconds
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 delay_
@@ -1596,7 +1596,7 @@ media_channel
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -1620,7 +1620,7 @@ media_type
 )
 )
 ;
-SetMediaChannel_w
+SetMediaChannel_n
 (
 media_channel
 )
@@ -1630,7 +1630,7 @@ void
 VideoRtpReceiver
 :
 :
-SetMediaChannel_w
+SetMediaChannel_n
 (
 MediaReceiveChannelInterface
 *
@@ -1639,7 +1639,7 @@ media_channel
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 MediaReceiveChannelInterface
@@ -1898,15 +1898,15 @@ mutable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
-SetMediaChannel_w
+SetMediaChannel_n
 (
 media_channel
 )
 ;
-GetRestartFunctionForMediaChannel_w
+GetRestartFunctionForMediaChannel_n
 (
 std
 :
@@ -1931,7 +1931,7 @@ OnGenerateKeyFrame
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VideoMediaReceiveChannelInterface
@@ -2059,7 +2059,7 @@ enable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 SetEncodedSinkEnabled
@@ -2102,7 +2102,7 @@ enable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 VideoMediaReceiveChannelInterface
