@@ -3024,6 +3024,15 @@ toObject
 )
 )
 ;
+js
+:
+:
+AutoAllowScriptInInterrupt
+allowScript
+(
+cx
+)
+;
 JSAutoRealm
 ar
 (
@@ -4532,6 +4541,12 @@ cx
 (
 )
 filename
+?
+filename
+:
+"
+-
+"
 )
 ;
 if
@@ -8353,7 +8368,7 @@ binDirPath
 SandboxBroker
 :
 :
-GeckoDependentInitialize
+CacheGeckoDirs
 (
 )
 ;
