@@ -68727,8 +68727,11 @@ int64_t
 aFileId
 )
 {
-AssertIsOnBackgroundThread
+MOZ_RELEASE_ASSERT
 (
+IsOnBackgroundThread
+(
+)
 )
 ;
 if
@@ -91820,7 +91823,7 @@ metadata
 =
 objectStoreEntry
 .
-GetWeak
+GetRawPtr
 (
 )
 ;
@@ -91877,7 +91880,7 @@ indexMetadata
 =
 indexEntry
 .
-GetWeak
+GetRawPtr
 (
 )
 ;
