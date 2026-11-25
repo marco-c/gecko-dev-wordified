@@ -172,7 +172,7 @@ onlyStrict
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]

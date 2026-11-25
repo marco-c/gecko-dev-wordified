@@ -62,6 +62,13 @@ Norbert
 Lindenberg
 Daniel
 Ehrenberg
+includes
+:
+[
+testIntl
+.
+js
+]
 -
 -
 -
@@ -70,6 +77,8 @@ Ehrenberg
 let
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -82,6 +91,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 let
 supportedNumberingSystems

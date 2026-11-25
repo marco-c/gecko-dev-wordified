@@ -159,16 +159,7 @@ BYTES_PER_ELEMENT
 2
 )
 ;
-var
-views
-=
-nonClampedIntArrayConstructors
-.
-slice
-(
-)
-;
-testWithTypedArrayConstructors
+testWithAtomicsFriendlyTypedArrayConstructors
 (
 function
 (
@@ -218,7 +209,7 @@ view
 )
 ;
 }
-views
+null
 [
 "
 passthrough

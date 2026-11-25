@@ -144,7 +144,7 @@ false
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -177,6 +177,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -185,9 +186,12 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 0n
 ]
+)
 )
 ;
 assert
@@ -278,6 +282,13 @@ check
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

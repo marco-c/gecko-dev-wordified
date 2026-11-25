@@ -167,7 +167,7 @@ noStrict
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]

@@ -163,11 +163,6 @@ TypeError
 )
 ;
 }
-[
-"
-arraybuffer
-"
-]
 )
 ;
 reportCompare

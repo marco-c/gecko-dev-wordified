@@ -160,6 +160,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 var
@@ -168,10 +169,13 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42
 43
 ]
+)
 )
 ;
 sample
@@ -366,6 +370,13 @@ bar
 )
 ;
 }
+null
+null
+[
+"
+resizable
+"
+]
 )
 ;
 reportCompare

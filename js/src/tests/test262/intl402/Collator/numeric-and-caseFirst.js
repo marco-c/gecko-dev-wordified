@@ -62,6 +62,13 @@ author
 :
 Norbert
 Lindenberg
+includes
+:
+[
+testIntl
+.
+js
+]
 -
 -
 -
@@ -138,6 +145,8 @@ option
 var
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -150,6 +159,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 var
 collator

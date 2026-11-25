@@ -150,12 +150,6 @@ returns
 )
 ;
 }
-null
-[
-"
-arraybuffer
-"
-]
 )
 ;
 reportCompare

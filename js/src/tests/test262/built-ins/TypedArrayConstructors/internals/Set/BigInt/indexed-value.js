@@ -136,7 +136,7 @@ true
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -224,6 +224,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 let
@@ -232,7 +233,10 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 2
+)
 )
 ;
 assert
@@ -344,6 +348,13 @@ is
 )
 ;
 }
+null
+null
+[
+"
+immutable
+"
+]
 )
 ;
 reportCompare

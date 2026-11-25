@@ -234,6 +234,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 keys
@@ -251,6 +252,10 @@ sample1
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 assert
@@ -369,6 +374,10 @@ sample2
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 assert
@@ -514,6 +523,10 @@ sample3
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 Object
@@ -570,6 +583,10 @@ sample4
 new
 TA
 (
+makeCtorArg
+(
+0
+)
 )
 ;
 Object
@@ -624,6 +641,13 @@ undefined
 )
 ;
 }
+null
+null
+[
+"
+resizable
+"
+]
 )
 ;
 reportCompare

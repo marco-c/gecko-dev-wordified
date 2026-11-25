@@ -314,6 +314,7 @@ i
 0
 ;
 var
+a
 c
 ;
 stmts

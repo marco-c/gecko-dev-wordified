@@ -133,7 +133,7 @@ P
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
@@ -176,6 +176,7 @@ testWithBigIntTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 keys
@@ -193,10 +194,13 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42n
 43n
 ]
+)
 )
 ;
 assert

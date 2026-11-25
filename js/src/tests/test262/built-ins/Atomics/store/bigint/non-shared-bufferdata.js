@@ -184,11 +184,7 @@ returns
 ;
 }
 null
-[
-"
-arraybuffer
-"
-]
+null
 [
 "
 immutable

@@ -134,7 +134,7 @@ keys
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 compareArray

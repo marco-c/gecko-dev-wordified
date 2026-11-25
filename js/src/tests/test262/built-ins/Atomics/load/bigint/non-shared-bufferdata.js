@@ -156,12 +156,6 @@ returns
 )
 ;
 }
-null
-[
-"
-arraybuffer
-"
-]
 )
 ;
 reportCompare

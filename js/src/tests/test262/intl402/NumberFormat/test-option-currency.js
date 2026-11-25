@@ -52,6 +52,13 @@ author
 :
 Norbert
 Lindenberg
+includes
+:
+[
+testIntl
+.
+js
+]
 -
 -
 -
@@ -124,6 +131,8 @@ return
 var
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -136,6 +145,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 validValues
 .

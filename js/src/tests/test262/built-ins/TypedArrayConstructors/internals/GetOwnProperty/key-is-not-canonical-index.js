@@ -175,6 +175,7 @@ testWithTypedArrayConstructors
 function
 (
 TA
+makeCtorArg
 )
 {
 keys
@@ -192,10 +193,13 @@ sample
 new
 TA
 (
+makeCtorArg
+(
 [
 42
 43
 ]
+)
 )
 ;
 assert

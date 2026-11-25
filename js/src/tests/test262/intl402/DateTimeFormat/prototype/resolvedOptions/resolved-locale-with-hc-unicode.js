@@ -259,6 +259,13 @@ be
 .
 .
 .
+includes
+:
+[
+testIntl
+.
+js
+]
 -
 -
 -
@@ -267,6 +274,8 @@ be
 var
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -279,6 +288,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 var
 defaultLocaleWithHourCycle

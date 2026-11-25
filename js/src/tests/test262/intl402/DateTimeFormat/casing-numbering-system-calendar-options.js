@@ -69,6 +69,13 @@ prototype
 .
 includes
 ]
+includes
+:
+[
+testIntl
+.
+js
+]
 -
 -
 -
@@ -77,6 +84,8 @@ includes
 let
 defaultLocale
 =
+getLocaleBaseName
+(
 new
 Intl
 .
@@ -89,6 +98,7 @@ resolvedOptions
 )
 .
 locale
+)
 ;
 let
 supportedNumberingSystems

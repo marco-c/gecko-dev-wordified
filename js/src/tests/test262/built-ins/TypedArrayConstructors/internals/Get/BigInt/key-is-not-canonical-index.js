@@ -132,7 +132,7 @@ Receiver
 includes
 :
 [
-testBigIntTypedArray
+testTypedArray
 .
 js
 ]
