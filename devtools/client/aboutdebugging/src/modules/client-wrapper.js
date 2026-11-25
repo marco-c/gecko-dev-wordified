@@ -561,11 +561,6 @@ properties
 .
 return
 {
-canDebugServiceWorkers
-:
-description
-.
-canDebugServiceWorkers
 channel
 :
 description

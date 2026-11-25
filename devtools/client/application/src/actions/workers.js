@@ -65,7 +65,6 @@ const
 {
 START_WORKER
 UNREGISTER_WORKER
-UPDATE_CAN_DEBUG_WORKERS
 UPDATE_WORKERS
 }
 =
@@ -159,21 +158,6 @@ workers
 }
 ;
 }
-function
-updateCanDebugWorkers
-(
-canDebugWorkers
-)
-{
-return
-{
-type
-:
-UPDATE_CAN_DEBUG_WORKERS
-canDebugWorkers
-}
-;
-}
 module
 .
 exports
@@ -181,7 +165,6 @@ exports
 {
 startWorker
 unregisterWorker
-updateCanDebugWorkers
 updateWorkers
 }
 ;

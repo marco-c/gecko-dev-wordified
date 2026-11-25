@@ -167,8 +167,6 @@ tests
 like
 browser_dbg
 -
-windowless
--
 service
 -
 workers
