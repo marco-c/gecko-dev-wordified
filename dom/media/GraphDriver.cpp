@@ -9320,12 +9320,10 @@ AudioStreamState
 >
 audioStreamState
 =
-static_cast
-<
-AudioStreamState
->
-(
 mAudioStreamState
+.
+load
+(
 )
 ;
 MOZ_ASSERT

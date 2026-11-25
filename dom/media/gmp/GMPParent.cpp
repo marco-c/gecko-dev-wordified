@@ -497,8 +497,8 @@ ptr
 (
 this
 )
-mChildPid
 \
+mChildPid
 #
 #
 __VA_ARGS__
@@ -3909,9 +3909,10 @@ state
 __FUNCTION__
 uint32_t
 (
-GMPState
-(
 mState
+.
+load
+(
 )
 )
 )
@@ -5576,9 +5577,10 @@ int
 aWhy
 uint32_t
 (
-GMPState
-(
 mState
+.
+load
+(
 )
 )
 )
