@@ -698,6 +698,16 @@ return
 mIsEligibleForPrefetch
 ;
 }
+bool
+FinalResponseHadNetworkTransfer
+(
+)
+const
+{
+return
+mFinalResponseHadNetworkTransfer
+;
+}
 /
 /
 (
@@ -1159,7 +1169,7 @@ aURL
 )
 const
 ;
-void
+uint64_t
 AccumulateTransferSize
 (
 nsIRequest
@@ -1404,6 +1414,11 @@ uint64_t
 mTransferSize
 =
 0
+;
+bool
+mFinalResponseHadNetworkTransfer
+=
+false
 ;
 protected
 :
