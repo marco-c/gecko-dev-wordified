@@ -223,6 +223,16 @@ restart
 )
 override
 ;
+void
+OnFrameDropped
+(
+const
+LayerFrameConfig
+&
+config
+)
+override
+;
 GenericFrameInfo
 OnEncodeDone
 (
