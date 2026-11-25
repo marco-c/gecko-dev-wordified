@@ -12723,16 +12723,12 @@ aOriginatingElement
 !
 aOriginatingElement
 .
-IsAnyOfHTMLElements
+IsHTMLElement
 (
 nsGkAtoms
 :
 :
 details
-nsGkAtoms
-:
-:
-optgroup
 )
 &
 &

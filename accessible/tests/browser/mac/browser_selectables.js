@@ -1419,6 +1419,12 @@ of
 [
 [
 "
+"
+false
+false
+]
+[
+"
 Fruits
 "
 false
@@ -1447,6 +1453,12 @@ true
 ]
 [
 "
+"
+false
+false
+]
+[
+"
 Vegetables
 "
 false
@@ -1472,6 +1484,12 @@ Onion
 "
 true
 true
+]
+[
+"
+"
+false
+false
 ]
 [
 "
@@ -1716,7 +1734,7 @@ AXChildren
 "
 )
 [
-0
+1
 ]
 ;
 ok

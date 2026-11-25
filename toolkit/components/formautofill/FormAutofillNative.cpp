@@ -6285,10 +6285,6 @@ option
 GetRenderedLabel
 (
 str
-AltText
-:
-:
-Exclude
 )
 ;
 val
