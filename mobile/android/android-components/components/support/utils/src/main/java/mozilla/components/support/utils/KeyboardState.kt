@@ -95,16 +95,6 @@ androidx
 .
 compose
 .
-foundation
-.
-layout
-.
-ExperimentalLayoutApi
-import
-androidx
-.
-compose
-.
 runtime
 .
 Composable
@@ -155,7 +145,6 @@ isKeyboardVisible
 /
 *
 *
-*
 Detects
 if
 the
@@ -174,13 +163,6 @@ KeyboardState
 .
 *
 /
-OptIn
-(
-ExperimentalLayoutApi
-:
-:
-class
-)
 Composable
 fun
 keyboardAsState
@@ -308,7 +290,6 @@ return
 keyboardState
 }
 /
-*
 *
 *
 Represents
