@@ -319,7 +319,7 @@ uint8_t
 lvl
 )
 [
-4
+2
 ]
 ptrdiff_t
 lvl_stride
