@@ -541,6 +541,8 @@ continuation
 stack
 that
 the
+exit
+or
 trap
 occurred
 on
@@ -548,10 +550,10 @@ but
 which
 has
 no
+/
+/
 frame
 in
-/
-/
 this
 iteration
 (
@@ -563,7 +565,6 @@ torn
 down
 by
 a
-trapping
 return_call
 )
 .
