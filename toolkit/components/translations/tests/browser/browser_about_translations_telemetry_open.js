@@ -85,6 +85,15 @@ expectedEventCount
 expectNewFlowId
 :
 true
+assertForAllEvents
+:
+{
+open_location
+:
+"
+full
+"
+}
 }
 )
 ;
