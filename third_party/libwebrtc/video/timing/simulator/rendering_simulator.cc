@@ -1860,12 +1860,6 @@ rtc_event_log_simulator
 (
 {
 .
-reuse_streams
-=
-config_
-.
-reuse_streams
-.
 ssrc_filter
 =
 config_
