@@ -1893,6 +1893,31 @@ return_value
 fakehead
 "
     
+mocker
+.
+patch
+.
+object
+(
+vcs
+"
+_try_head_to_commit
+"
+side_effect
+=
+lambda
+h
+:
+f
+"
+{
+h
+}
+-
+sha
+"
+)
+    
 mock_push
 =
 mocker
@@ -1907,6 +1932,7 @@ push
 "
 )
     
+assert
 vcs
 .
 push_to_try
@@ -1918,6 +1944,13 @@ remote
 =
 remote
 )
+=
+=
+"
+fakehead
+-
+sha
+"
     
 mock_push
 .
@@ -1929,6 +1962,8 @@ ref
 =
 "
 fakehead
+-
+sha
 "
 dest_branch
 =
@@ -2154,6 +2189,24 @@ return_value
 "
 fakehead
 "
+    
+mocker
+.
+patch
+.
+object
+(
+vcs
+"
+_try_head_to_commit
+"
+side_effect
+=
+lambda
+h
+:
+h
+)
     
 mock_push
 =

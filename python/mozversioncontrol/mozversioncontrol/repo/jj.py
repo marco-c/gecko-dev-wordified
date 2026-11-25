@@ -3308,6 +3308,22 @@ env
 )
     
 def
+_try_head_to_commit
+(
+self
+head
+)
+:
+        
+return
+self
+.
+_resolve_to_commit
+(
+head
+)
+    
+def
 _resolve_try_branch
 (
 self
