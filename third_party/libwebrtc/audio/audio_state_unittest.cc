@@ -127,6 +127,11 @@ numbers
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -1719,6 +1724,10 @@ kSampleRate
 0
 false
 new_mic_level
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_EQ
@@ -2154,6 +2163,10 @@ kSampleRate
 0
 true
 new_mic_level
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_EQ
@@ -2386,6 +2399,10 @@ kSampleRate
 0
 false
 new_mic_level
+std
+:
+:
+nullopt
 )
 ;
 EXPECT_EQ

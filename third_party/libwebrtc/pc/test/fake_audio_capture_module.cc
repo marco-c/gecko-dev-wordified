@@ -111,6 +111,11 @@ memory
 #
 include
 <
+optional
+>
+#
+include
+<
 utility
 >
 #
@@ -2591,6 +2596,10 @@ kClockDriftMs
 current_mic_level
 key_pressed
 current_mic_level
+std
+:
+:
+nullopt
 )
 !
 =

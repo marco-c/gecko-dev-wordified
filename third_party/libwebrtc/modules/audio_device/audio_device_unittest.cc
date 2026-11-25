@@ -2831,6 +2831,7 @@ _
 _
 _
 _
+_
 )
 )
 .
@@ -2982,6 +2983,18 @@ uint32_t
 /
 *
 new_mic_level
+*
+/
+std
+:
+:
+optional
+<
+int64_t
+>
+/
+*
+estimated_capture_time_ns
 *
 /
 )
