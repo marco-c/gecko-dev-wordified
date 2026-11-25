@@ -111,8 +111,10 @@ NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
 protected
 :
+already_AddRefed
+<
 nsIWidget
-*
+>
 GetWindowWidget
 (
 )
@@ -144,6 +146,13 @@ bool
 ;
 void
 RecomputeIcon
+(
+Element
+&
+)
+;
+void
+UpdateWindowClass
 (
 Element
 &
