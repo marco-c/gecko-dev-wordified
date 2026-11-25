@@ -14784,6 +14784,7 @@ self
 .
 assertEqual
 (
+            
 edge
 [
 "
@@ -14791,7 +14792,27 @@ rustflags
 "
 ]
 [
+"
+-
+C
+"
+"
+link
+-
+arg
+=
+-
+Wl
+-
+Xlink
+=
+-
+force
+:
+unresolved
+"
 ]
+        
 )
     
 def
