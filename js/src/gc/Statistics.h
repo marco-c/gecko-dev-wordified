@@ -2132,6 +2132,11 @@ Normal
 GCAbortReason
 nonincrementalReason_
 ;
+bool
+grayBitsWereValidAtStart
+=
+false
+;
 SliceDataVector
 slices_
 ;

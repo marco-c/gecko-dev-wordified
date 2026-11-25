@@ -173,6 +173,12 @@ Boolean
 \
 _
 (
+GC_GRAY_BITS_VALID
+Boolean
+)
+\
+_
+(
 GC_ZONE_COUNT
 QuantityDistribution
 )
