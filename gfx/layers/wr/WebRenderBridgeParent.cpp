@@ -15244,7 +15244,7 @@ ImageBridgeParent
 :
 GetInstance
 (
-OtherPid
+OtherChildID
 (
 )
 )

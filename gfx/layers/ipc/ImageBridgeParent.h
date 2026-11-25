@@ -588,7 +588,7 @@ ImageBridgeParent
 >
 GetInstance
 (
-ProcessId
+GeckoChildID
 aId
 )
 ;
@@ -709,10 +709,7 @@ std
 :
 map
 <
-base
-:
-:
-ProcessId
+GeckoChildID
 ImageBridgeParent
 *
 >
