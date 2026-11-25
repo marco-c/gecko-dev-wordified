@@ -227,6 +227,7 @@ szWildCardPath
 =
 LPSTR
 (
+b
 "
 \
 \
@@ -288,6 +289,7 @@ szExpandedPathList
 =
 LPCSTR
 (
+b
 "
 \
 0
@@ -370,6 +372,8 @@ value
         
 c
 =
+str
+(
 struct
 .
 unpack_from
@@ -385,6 +389,7 @@ j
 [
 0
 ]
+)
         
 if
 c
@@ -597,7 +602,7 @@ PdhEnumObjectsA
 None
 None
 0
-1
+0
 0
 True
 )
@@ -628,11 +633,24 @@ self
 .
 _addCounter
 (
+                    
+bytes
+(
 process_name
+encoding
+=
+"
+utf
+-
+8
+"
+)
+b
 "
 process
 "
 counter
+                
 )
             
 except
@@ -686,11 +704,24 @@ self
 .
 _addCounter
 (
+                    
+bytes
+(
 process_name
+encoding
+=
+"
+utf
+-
+8
+"
+)
+b
 "
 Memory
 "
 counter
+                
 )
             
 self
@@ -821,6 +852,7 @@ raise
 TalosError
 (
                 
+f
 "
 Could
 not
@@ -829,18 +861,14 @@ counter
 path
 for
 counter
-%
-s
-for
-%
-s
-"
-                
-%
-(
+{
 counterName
+}
+for
+{
 processName
-)
+}
+"
             
 )
         
@@ -848,6 +876,7 @@ szFullPathBuffer
 =
 LPCSTR
 (
+b
 "
 \
 0
@@ -906,6 +935,7 @@ raise
 TalosError
 (
                 
+f
 "
 Could
 not
@@ -914,18 +944,14 @@ counter
 path
 for
 counter
-%
-s
-for
-%
-s
-"
-                
-%
-(
+{
 counterName
+}
+for
+{
 processName
-)
+}
+"
             
 )
         
@@ -998,17 +1024,17 @@ hc
 raise
 TalosError
 (
+f
 "
 Could
 not
 add
 win32
 counter
-%
-s
-"
-%
+{
 path
+}
+"
 )
         
 self
@@ -1145,7 +1171,17 @@ self
 .
 registeredCounters
 [
+bytes
+(
 counter
+encoding
+=
+"
+utf
+-
+8
+"
+)
 ]
 =
 [
@@ -1281,7 +1317,7 @@ PdhEnumObjectsA
 None
 None
 0
-1
+0
 0
 True
 )
@@ -1290,10 +1326,22 @@ expandedPaths
 =
 _getExpandedCounterPaths
 (
+            
+bytes
+(
 self
 .
 childProcess
+encoding
+=
+"
+utf
+-
+8
+"
+)
 counter
+        
 )
         
 if
@@ -1377,6 +1425,7 @@ raise
 TalosError
 (
                             
+f
 "
 Could
 not
@@ -1384,11 +1433,10 @@ add
 expanded
 win32
 counter
-%
-s
-"
-%
+{
 expandedPath
+}
+"
                         
 )
                     
@@ -1487,6 +1535,20 @@ a
 combined
 value
 .
+        
+counter
+=
+bytes
+(
+counter
+encoding
+=
+"
+utf
+-
+8
+"
+)
         
 if
 counter

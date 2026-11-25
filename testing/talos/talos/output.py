@@ -1598,14 +1598,14 @@ f
 .
 write
 (
+f
 "
-%
-s
+{
+result
+}
 \
 n
 "
-%
-result
 )
         
 else
@@ -1615,12 +1615,19 @@ raise
 NotImplementedError
 (
                 
+f
 "
-%
-s
+{
+self
+.
+__class__
+.
+__name__
+}
 :
-%
-s
+{
+results_url
+}
 -
 only
 http
@@ -1638,16 +1645,6 @@ file
 /
 supported
 "
-                
-%
-(
-self
-.
-__class__
-.
-__name__
-results_url
-)
             
 )
         
@@ -1739,13 +1736,11 @@ LOG
 .
 info
 (
+f
 "
 PERFHERDER_DATA
 :
-%
-s
-"
-%
+{
 json
 .
 dumps
@@ -1755,6 +1750,8 @@ ignore_nan
 =
 True
 )
+}
+"
 )
         
 if

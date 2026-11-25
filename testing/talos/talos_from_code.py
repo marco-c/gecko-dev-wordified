@@ -362,17 +362,17 @@ failed
         
 print
 (
+f
 "
 ERROR
 :
-%
-s
-"
-%
+{
 str
 (
 e
 )
+}
+"
 )
         
 sys
@@ -392,6 +392,7 @@ files
     
 print
 (
+f
 "
 INFO
 :
@@ -400,13 +401,12 @@ talos
 json
 URL
 :
-%
-s
-"
-%
+{
 options
 .
 talos_json_url
+}
+"
 )
     
 try
@@ -464,25 +464,21 @@ zip
 print
 (
                 
+f
 "
 INFO
 :
 Downloading
-%
-s
-as
-%
-s
-"
-                
-%
-(
+{
 entity
 [
-"
+'
 url
-"
+'
 ]
+}
+as
+{
 os
 .
 path
@@ -491,13 +487,14 @@ join
 (
 entity
 [
-"
+'
 path
-"
+'
 ]
 key
 )
-)
+}
+"
             
 )
             
@@ -537,19 +534,19 @@ file
 "
                 
 +
+f
 "
 from
 :
-%
-s
-"
-%
+{
 entity
 [
-"
+'
 url
-"
+'
 ]
+}
+"
                 
 +
 "
@@ -611,17 +608,17 @@ e
         
 print
 (
+f
 "
 ERROR
 :
-%
-s
-"
-%
+{
 str
 (
 e
 )
+}
+"
 )
         
 sys
@@ -1064,16 +1061,16 @@ path
             
 print
 (
+f
 "
 INFO
 :
 directory
-%
-s
+{
+path
+}
 created
 "
-%
-path
 )
         
 except
@@ -1084,17 +1081,17 @@ e
             
 print
 (
+f
 "
 ERROR
 :
-%
-s
-"
-%
+{
 str
 (
 e
 )
+}
+"
 )
             
 sys

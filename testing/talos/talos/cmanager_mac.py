@@ -548,6 +548,7 @@ registeredCounters
 print
 (
                 
+f
 "
 Warning
 :
@@ -555,8 +556,9 @@ attempting
 to
 collect
 counter
-%
-s
+{
+counterName
+}
 and
 it
 is
@@ -566,8 +568,6 @@ not
 "
 registered
 "
-%
-counterName
             
 )
             
@@ -601,31 +601,28 @@ e
 print
 (
                 
+f
 "
 Error
 in
 collecting
 counter
 :
-%
-s
+{
+counterName
+}
 pid
 :
-%
-s
-exception
-:
-%
-s
-"
-                
-%
-(
-counterName
+{
 self
 .
 pid
+}
+exception
+:
+{
 e
-)
+}
+"
             
 )

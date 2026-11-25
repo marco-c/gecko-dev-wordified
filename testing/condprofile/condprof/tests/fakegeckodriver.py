@@ -67,13 +67,13 @@ url
         
 print
 (
+f
 "
 Visiting
-%
-s
-"
-%
+{
 url
+}
+"
 )
         
 #

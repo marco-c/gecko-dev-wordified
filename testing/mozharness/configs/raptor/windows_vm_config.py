@@ -151,20 +151,22 @@ mozinstall
 :
 [
             
+f
 "
-%
-s
+{
+VENV_PATH
+}
 /
 scripts
 /
 python
 "
-%
-VENV_PATH
             
+f
 "
-%
-s
+{
+VENV_PATH
+}
 /
 scripts
 /
@@ -174,8 +176,6 @@ script
 .
 py
 "
-%
-VENV_PATH
         
 ]
         

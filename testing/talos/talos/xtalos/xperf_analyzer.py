@@ -3198,27 +3198,25 @@ event
 "
                 
 +
+f
 '
 "
-%
-s
+{
+self
+.
+event
+}
 "
 fired
 for
 event
 "
-%
-s
+{
+evt
+}
 "
 instead
 '
-%
-(
-self
-.
-event
-evt
-)
             
 )
         
@@ -3600,6 +3598,7 @@ raise
 Exception
 (
                 
+f
 "
 EventSequence
 requires
@@ -3607,15 +3606,14 @@ at
 least
 two
 events
-%
-d
-provided
-"
-%
+{
 len
 (
 events
 )
+}
+provided
+"
             
 )
         
@@ -3693,12 +3691,14 @@ raise
 Exception
 (
                 
+f
 '
 Unexpected
 event
 "
-%
-s
+{
+evt
+}
 "
 is
 not
@@ -3709,10 +3709,6 @@ this
 event
 sequence
 '
-%
-(
-evt
-)
             
 )
         
@@ -4108,27 +4104,25 @@ event
 "
                 
 +
+f
 '
 "
-%
-s
+{
+self
+.
+event
+}
 "
 fired
 for
 event
 "
-%
-s
+{
+evt
+}
 "
 instead
 '
-%
-(
-self
-.
-event
-evt
-)
             
 )
         
@@ -6611,20 +6605,20 @@ debug
             
 print
 (
+f
 "
 Executing
 '
-%
-s
-'
-"
-%
+{
 subprocess
 .
 list2cmdline
 (
 xperf_cmd
 )
+}
+'
+"
 )
         
 subprocess
@@ -6738,20 +6732,20 @@ debug
             
 print
 (
+f
 "
 Executing
 '
-%
-s
-'
-"
-%
+{
 subprocess
 .
 list2cmdline
 (
 xperf_cmd
 )
+}
+'
+"
 )
         
 subprocess

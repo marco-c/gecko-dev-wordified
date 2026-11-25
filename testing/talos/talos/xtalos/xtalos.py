@@ -1035,22 +1035,22 @@ xperf_path
             
 print
 (
+f
 "
 ERROR
 :
 xperf_path
 '
-%
-s
+{
+options
+.
+xperf_path
+}
 '
 does
 not
 exist
 "
-%
-options
-.
-xperf_path
 )
             
 return

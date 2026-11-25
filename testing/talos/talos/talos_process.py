@@ -315,13 +315,13 @@ LOG
 .
 debug
 (
+f
 "
 Terminating
-%
-s
-"
-%
+{
 parentProc
+}
+"
 )
             
 try
@@ -397,13 +397,13 @@ LOG
 .
 debug
 (
+f
 "
 Killing
-%
-s
-"
-%
+{
 parentProc
+}
+"
 )
                 
 parentProc
@@ -1008,25 +1008,25 @@ LOG
 .
 info
 (
+f
 "
 Using
 env
 :
-%
-s
-"
-%
+{
 pprint
 .
 pformat
 (
 kwargs
 [
-"
+'
 env
-"
+'
 ]
 )
+}
+"
 )
     
 timed_out
@@ -1317,16 +1317,16 @@ utility_path
 raise
 TalosError
 (
+f
 "
 TIMEOUT
 :
-%
-s
-"
-%
+{
 reader
 .
 timeout_message
+}
+"
 )
         
 elif
@@ -1448,13 +1448,14 @@ output
 append
 (
         
+f
 "
 __startBeforeLaunchTimestamp
-%
-d__endBeforeLaunchTimestamp
-"
-%
+{
 first_time
+}
+__endBeforeLaunchTimestamp
+"
     
 )
     
@@ -1465,14 +1466,10 @@ output
 append
 (
         
+f
 "
 __startAfterTerminationTimestamp
-%
-d__endAfterTerminationTimestamp
-"
-        
-%
-(
+{
 int
 (
 time
@@ -1483,7 +1480,9 @@ time
 )
 *
 1000
-)
+}
+__endAfterTerminationTimestamp
+"
     
 )
     
@@ -1511,6 +1510,7 @@ LOG
 .
 debug
 (
+f
 "
 Unable
 to
@@ -1520,14 +1520,13 @@ code
 of
 the
 process
-%
-s
-.
-"
-%
+{
 proc
 .
 pid
+}
+.
+"
 )
     
 context
@@ -1641,6 +1640,7 @@ LOG
 .
 debug
 (
+f
 "
 Unable
 to
@@ -1650,14 +1650,13 @@ code
 of
 the
 process
-%
-s
-.
-"
-%
+{
 ttest_process
 .
 pid
+}
+.
+"
 )
     
 return
@@ -1746,18 +1745,18 @@ LOG
 .
 debug
 (
+f
 "
 Killing
-%
-s
+{
+proc
+}
 and
 writing
 a
 minidump
 file
 "
-%
-proc
 )
     
 mozcrash

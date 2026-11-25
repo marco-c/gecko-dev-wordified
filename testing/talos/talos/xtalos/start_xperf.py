@@ -147,14 +147,14 @@ BufferSize
 f
 "
         
+f
 "
-%
-s
+{
+etl_filename
+}
 .
 kernel
 "
-%
-etl_filename
         
 "
 -
@@ -202,14 +202,14 @@ BufferSize
 f
 "
         
+f
 "
-%
-s
+{
+etl_filename
+}
 .
 user
 "
-%
-etl_filename
     
 ]
     
@@ -219,20 +219,20 @@ debug
         
 print
 (
+f
 "
 executing
 '
-%
-s
-'
-"
-%
+{
 subprocess
 .
 list2cmdline
 (
 xperf_cmd
 )
+}
+'
+"
 )
     
 subprocess
@@ -448,25 +448,25 @@ xtalos
 XTalosError
 (
             
+f
 "
 ERROR
 :
 xperf_path
 '
-%
-s
+{
+kwargs
+[
+'
+xperf_path
+'
+]
+}
 '
 does
 not
 exist
 "
-%
-kwargs
-[
-"
-xperf_path
-"
-]
         
 )
     

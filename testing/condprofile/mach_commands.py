@@ -390,6 +390,7 @@ version
     
 print
 (
+f
 "
 Downloaded
 conditioned
@@ -399,11 +400,10 @@ be
 found
 at
 :
-%
-s
-"
-%
+{
 target_dir
+}
+"
 )
 Command
 (

@@ -318,10 +318,8 @@ file
 :
 /
 /
-%
-s
 "
-%
++
 os
 .
 path
@@ -349,16 +347,8 @@ Exception
                 
 pass
             
-print
-(
-"
-\
-nFAIL
-:
-%
-s
-"
-%
+fail_msg
+=
 str
 (
 e
@@ -376,6 +366,18 @@ nRETURN
 :
 "
 )
+            
+print
+(
+f
+"
+\
+nFAIL
+:
+{
+fail_msg
+}
+"
 )
             
 raise
@@ -2396,7 +2398,7 @@ self
 .
 error
 (
-                
+f
 "
 Could
 not
@@ -2406,14 +2408,12 @@ in
 browser
 output
 :
-%
-s
-"
-%
+{
 self
 .
 report_tokens
-            
+}
+"
 )
         
 #
@@ -2462,12 +2462,14 @@ self
 error
 (
                     
+f
 "
 Could
 not
 find
-%
-s
+{
+attr
+}
 in
 browser
 output
@@ -2475,15 +2477,11 @@ output
 (
 tokens
 :
-%
-s
+{
+tokens
+}
 )
 "
-%
-(
-attr
-tokens
-)
                 
 )
             
@@ -2508,24 +2506,22 @@ self
 .
 error
 (
+f
 "
 Could
 not
 cast
-%
-s
+{
+attr
+}
 to
 an
 integer
 :
-%
-s
-"
-%
-(
-attr
+{
 value
-)
+}
+"
 )
             
 if
@@ -2539,39 +2535,37 @@ self
 error
 (
                     
+f
 "
-%
-s
+{
+tokens
+}
 [
 character
 position
 :
-%
-s
+{
+_last_token
+}
 ]
 found
 before
-%
-s
+{
+previous_tokens
+}
 "
                     
+f
 "
 [
 character
 position
 :
-%
-s
+{
+position
+}
 ]
 "
-                    
-%
-(
-tokens
-_last_token
-previous_tokens
-position
-)
                 
 )
             
@@ -2680,20 +2674,18 @@ self
 .
 error
 (
+f
 "
 Multiple
 matches
 for
-%
-s
-%
-s
-"
-%
-(
+{
 start_token
+}
+{
 end_token
-)
+}
+"
 )
         
 return
@@ -2742,6 +2734,7 @@ utils
 TalosError
 (
                 
+f
 "
 Unable
 to
@@ -2752,16 +2745,15 @@ class
 for
 format
 :
-%
-s
-"
-%
+{
 repr
 (
 self
 .
 format
 )
+}
+"
             
 )
         
@@ -3007,6 +2999,7 @@ utils
 TalosError
 (
                 
+f
 "
 Error
 :
@@ -3017,8 +3010,9 @@ for
 xperf
 results
 file
-%
-s
+{
+filename
+}
 "
                 
 "
@@ -3029,8 +3023,6 @@ t
 find
 it
 "
-%
-filename
             
 )
         
@@ -3167,25 +3159,26 @@ _io_bytes
             
 counter_name
 =
+f
 "
-%
-s_
-%
-s_
-%
-sio
-"
-%
-(
+{
 thread
+}
+_
+{
 values
 [
-"
+'
 stage
-"
+'
 ]
+}
+_
+{
 counter
-)
+}
+io
+"
             
 value
 =
@@ -3283,9 +3276,11 @@ results
 file
 "
                     
+f
 "
-%
-s
+{
+filename
+}
 and
 didn
 '
@@ -3293,8 +3288,6 @@ t
 find
 it
 "
-%
-filename
                 
 )
             

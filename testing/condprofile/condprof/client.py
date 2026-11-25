@@ -540,20 +540,18 @@ logger
 .
 info
 (
+f
 "
 Removing
 pref
-%
-s
-:
-%
-s
-"
-%
-(
+{
 name
+}
+:
+{
 value
-)
+}
+"
 )
             
 return
@@ -848,16 +846,16 @@ logger
 .
 info
 (
+f
 "
 Retried
-%
-s
+{
+_retry_count
+}
 attempts
 and
 failed
 "
-%
-_retry_count
 )
     
 raise
@@ -970,14 +968,14 @@ version
         
 version
 =
+f
 "
 -
 v
-%
-s
-"
-%
+{
 version
+}
+"
     
 else
 :
@@ -1118,6 +1116,7 @@ logger
 .
 info
 (
+f
 "
 Getting
 conditioned
@@ -1125,11 +1124,10 @@ profile
 with
 arguments
 :
-%
-s
-"
-%
+{
 params
+}
+"
 )
     
 filename
@@ -1257,16 +1255,16 @@ logger
 .
 info
 (
+f
 "
 Downloaded
 archive
 path
 :
-%
-s
-"
-%
+{
 downloaded_archive
+}
+"
 )
     
 def
@@ -1279,13 +1277,13 @@ logger
 .
 info
 (
+f
 "
 Getting
-%
-s
-"
-%
+{
 url
+}
+"
 )
         
 try
@@ -1334,17 +1332,17 @@ logger
 .
 info
 (
+f
 "
 Extracting
 the
 tarball
 content
 in
-%
-s
-"
-%
+{
 target_dir
+}
+"
 )
                 
 size
@@ -1711,13 +1709,13 @@ logger
 .
 info
 (
+f
 "
 Getting
-%
-s
-"
-%
+{
 changelog_url
+}
+"
 )
     
 download_dir

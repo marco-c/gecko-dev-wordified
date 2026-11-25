@@ -257,22 +257,20 @@ e
             
 print
 (
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 e
 .
 filename
+}
+:
+{
 e
 .
 strerror
-)
+}
+"
 )
             
 return
@@ -461,14 +459,9 @@ dirs
 1
 ]
 =
+f
 "
-%
-s
-~
-1
-"
-%
-(
+{
 dirs
 [
 -
@@ -478,7 +471,10 @@ dirs
 :
 6
 ]
-)
+}
+~
+1
+"
                         
 #
 now
@@ -552,15 +548,12 @@ fname
                 
 filename
 =
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 subst
+}
+{
 path
 .
 join
@@ -571,7 +564,8 @@ parts
 :
 ]
 )
-)
+}
+"
         
 for
 old_name
@@ -631,20 +625,18 @@ parts
                     
 filename
 =
+f
 "
-%
-s
-%
-s
-"
-%
-(
+{
 parts
 [
 0
 ]
+}
+{
 new_name
-)
+}
+"
         
 return
 filename
@@ -1111,11 +1103,13 @@ error_strs
 append
 (
                     
+f
 "
 File
 '
-%
-s
+{
+filename
+}
 '
 was
 accessed
@@ -1125,18 +1119,17 @@ were
 not
 "
                     
+f
 "
 expecting
 it
 :
-%
-r
-"
-%
-(
-filename
+{
 datum
-)
+!
+r
+}
+"
                 
 )
         
@@ -1159,6 +1152,7 @@ error_strs
             
 print
 (
+f
 "
 TEST
 -
@@ -1166,19 +1160,16 @@ UNEXPECTED
 -
 FAIL
 |
-%
-s
-|
-%
-s
-"
-%
-(
+{
 self
 .
 test_name
+}
+|
+{
 error_msg
-)
+}
+"
 )
     
 #
@@ -1240,28 +1231,27 @@ self
         
 filename
 =
+f
 "
-%
-s
-%
-sdependentlibs
-.
-list
-"
-%
-(
+{
 self
 .
 paths
 [
 KEY_XRE
 ]
+}
+{
 os
 .
 path
 .
 sep
-)
+}
+dependentlibs
+.
+list
+"
         
 try
 :
@@ -1289,28 +1279,26 @@ dependent_libs
 =
 {
                 
+f
 "
-%
-s
-%
-s
-%
-s
-"
-%
-(
+{
 KEY_XRE
+}
+{
 os
 .
 path
 .
 sep
+}
+{
 lib
 .
 strip
 (
 )
-)
+}
+"
 :
 {
 "
@@ -1319,7 +1307,6 @@ ignore
 :
 True
 }
-                
 for
 lib
 in
@@ -1338,22 +1325,20 @@ e
             
 print
 (
+f
 "
-%
-s
-:
-%
-s
-"
-%
-(
+{
 e
 .
 filename
+}
+:
+{
 e
 .
 strerror
-)
+}
+"
 )
             
 return

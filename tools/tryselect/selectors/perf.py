@@ -2255,16 +2255,16 @@ continue
             
 print
 (
+f
 "
 Gathering
 tasks
 for
-%
-s
+{
+category
+}
 category
 "
-%
-category
 )
             
 category_tasks
@@ -2328,28 +2328,24 @@ suite_queries
                     
 print
 (
-                        
+f
 "
 Executing
-%
-s
+{
+suite
+}
 queries
 :
-%
-s
-"
-%
-(
-suite
-"
-"
+{
+'
+'
 .
 join
 (
 suite_queries
 )
-)
-                    
+}
+"
 )
                     
 for
@@ -2430,6 +2426,7 @@ category_suite_tasks
                             
 print
 (
+f
 "
 Failed
 to
@@ -2439,11 +2436,10 @@ tasks
 for
 query
 :
-%
-s
-"
-%
+{
 perf_query
+}
+"
 )
                             
 break
@@ -2507,11 +2503,9 @@ not
 be
 found
 :
-%
-s
 "
                         
-%
++
 "
 "
 .
@@ -2536,6 +2530,7 @@ category_tasks
                 
 print
 (
+f
 "
 Could
 not
@@ -2544,11 +2539,10 @@ any
 tasks
 for
 category
-%
-s
-"
-%
+{
 category
+}
+"
 )
             
 else
