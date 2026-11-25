@@ -2537,7 +2537,7 @@ dom
 Element
 *
 aChild
-NodeSelectorFlags
+NodeStyleFlags
 aParentFlags
 )
 ;
@@ -3406,7 +3406,7 @@ RestyleWholeContainer
 nsINode
 *
 aContainer
-NodeSelectorFlags
+NodeStyleFlags
 )
 ;
 void

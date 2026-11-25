@@ -5505,7 +5505,7 @@ sure
 not
 to
 clear
-NODE_NEEDS_FRAME
+NeedsFrame
 on
 the
 root

@@ -281,9 +281,12 @@ IsText
 aContent
 -
 >
-HasFlag
+HasStyleFlag
 (
-NODE_NEEDS_FRAME
+NodeStyleFlags
+:
+:
+NeedsFrame
 )
 &
 &

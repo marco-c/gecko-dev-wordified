@@ -5643,9 +5643,12 @@ needsFrame
 content
 -
 >
-HasFlag
+HasStyleFlag
 (
-NODE_NEEDS_FRAME
+NodeStyleFlags
+:
+:
+NeedsFrame
 )
 ;
 }
