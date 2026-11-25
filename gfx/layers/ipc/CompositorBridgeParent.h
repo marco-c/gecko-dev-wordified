@@ -1261,7 +1261,7 @@ LayersId
 &
 embedderId
 const
-ProcessId
+GeckoChildID
 &
 owner
 CompositorOptions
@@ -1723,12 +1723,9 @@ LayersId
 &
 aEmbedderId
 const
-base
-:
-:
-ProcessId
+GeckoChildID
 &
-aPid
+aChildID
 CompositorOptions
 *
 aOptions

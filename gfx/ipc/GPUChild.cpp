@@ -500,11 +500,8 @@ Iterate
 (
 LayersId
 aLayersId
-base
-:
-:
-ProcessId
-aProcessId
+GeckoChildID
+aChildID
 )
 {
 mappings
@@ -514,7 +511,7 @@ AppendElement
 LayerTreeIdMapping
 (
 aLayersId
-aProcessId
+aChildID
 )
 )
 ;

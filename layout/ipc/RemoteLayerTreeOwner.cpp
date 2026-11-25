@@ -636,7 +636,7 @@ GetCompositorBridgeChild
 :
 nullptr
 ;
-mTabProcessId
+mTabChildID
 =
 mBrowserParent
 -
@@ -646,7 +646,7 @@ Manager
 )
 -
 >
-OtherPid
+ChildID
 (
 )
 ;
@@ -695,7 +695,7 @@ gpm
 AllocateAndConnectLayerTreeId
 (
 compositor
-mTabProcessId
+mTabChildID
 GetEmbedderLayersId
 (
 mBrowserParent
@@ -813,7 +813,7 @@ Get
 UnmapLayerTreeId
 (
 mLayersId
-mTabProcessId
+mTabChildID
 )
 ;
 }

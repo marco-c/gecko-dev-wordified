@@ -498,7 +498,7 @@ Get
 IsMapped
 (
 aLayersId
-OtherPid
+OtherChildID
 (
 )
 )
@@ -829,7 +829,7 @@ Get
 IsMapped
 (
 aLayersId
-OtherPid
+OtherChildID
 (
 )
 )
@@ -1060,7 +1060,7 @@ Get
 IsMapped
 (
 layersId
-OtherPid
+OtherChildID
 (
 )
 )
@@ -1571,12 +1571,9 @@ LayersId
 &
 embedderId
 const
-base
-:
-:
-ProcessId
+GeckoChildID
 &
-pid
+owner
 CompositorOptions
 *
 aOptions
@@ -1803,7 +1800,7 @@ Get
 IsMapped
 (
 aId
-OtherPid
+OtherChildID
 (
 )
 )
