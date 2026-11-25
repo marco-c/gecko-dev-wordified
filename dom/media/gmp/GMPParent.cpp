@@ -9495,10 +9495,7 @@ GMPParent
 :
 EnsureProcessLoaded
 (
-base
-:
-:
-ProcessId
+GeckoChildID
 *
 aID
 )
@@ -9518,7 +9515,7 @@ false
 *
 aID
 =
-OtherPid
+OtherChildID
 (
 )
 ;

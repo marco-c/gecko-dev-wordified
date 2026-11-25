@@ -1617,7 +1617,7 @@ nsCString
 aTags
 nsTArray
 <
-ProcessId
+GeckoChildID
 >
 &
 &
