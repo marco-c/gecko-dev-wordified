@@ -1336,7 +1336,7 @@ rtp_rtcp_module_
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 ConfigureStream
@@ -1358,7 +1358,7 @@ AudioSendStream
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 RTC_LOG
@@ -1414,7 +1414,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -1444,7 +1444,7 @@ callback
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 ConfigureStream
@@ -2502,7 +2502,7 @@ encoder
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -2579,7 +2579,7 @@ Start
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -2721,7 +2721,7 @@ Stop
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -3029,7 +3029,7 @@ duration_ms
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_send_
@@ -3065,7 +3065,7 @@ muted
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_send_
@@ -3119,7 +3119,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 webrtc
@@ -3547,7 +3547,7 @@ packet
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 channel_send_
@@ -3609,7 +3609,7 @@ update
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -3803,7 +3803,7 @@ UpdateOverheadPerPacket
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 size_t
@@ -3889,7 +3889,7 @@ const
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 return
@@ -4924,7 +4924,7 @@ encoder
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 if
@@ -5688,7 +5688,7 @@ ConfigureBitrateObserver
 RTC_DCHECK_RUN_ON
 (
 &
-worker_thread_checker_
+network_thread_checker_
 )
 ;
 /

@@ -3146,7 +3146,7 @@ field_trials
 )
 )
 )
-worker_queue_
+network_queue_
 (
 TaskQueueBase
 :
@@ -4606,7 +4606,7 @@ RepeatingTaskHandle
 :
 DelayedStart
 (
-worker_queue_
+network_queue_
 kEncoderTimeOut
 [
 this
@@ -5124,7 +5124,7 @@ TQ
 RTC_DCHECK
 (
 !
-worker_queue_
+network_queue_
 -
 >
 IsCurrent
@@ -5608,14 +5608,14 @@ GetAllocationConfig
 }
 }
 ;
-worker_queue_
+network_queue_
 -
 >
 PostTask
 (
 SafeTask
 (
-worker_queue_safety_
+network_queue_safety_
 .
 flag
 (
@@ -5705,7 +5705,7 @@ true
 RTC_DCHECK
 (
 !
-worker_queue_
+network_queue_
 -
 >
 IsCurrent
@@ -5714,7 +5714,7 @@ IsCurrent
 )
 ;
 auto
-task_to_run_on_worker
+task_to_run_on_network
 =
 [
 this
@@ -5758,14 +5758,14 @@ SignalEncoderActive
 }
 }
 ;
-worker_queue_
+network_queue_
 -
 >
 PostTask
 (
 SafeTask
 (
-worker_queue_safety_
+network_queue_safety_
 .
 flag
 (
@@ -5775,7 +5775,7 @@ std
 :
 move
 (
-task_to_run_on_worker
+task_to_run_on_network
 )
 )
 )

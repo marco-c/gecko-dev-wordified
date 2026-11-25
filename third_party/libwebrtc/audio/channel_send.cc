@@ -1768,7 +1768,7 @@ audio_level_dbov
 )
 RTC_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 void
@@ -1881,7 +1881,8 @@ locks
 .
 TaskQueueBase
 *
-worker_thread_
+const
+network_thread_
 ;
 const
 ScopedTaskSafety
@@ -1964,7 +1965,7 @@ bool
 sending_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 =
 false
@@ -2074,7 +2075,7 @@ PacketRouter
 packet_router_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 =
 nullptr
@@ -2088,10 +2089,6 @@ unique_ptr
 RtpPacketSenderProxy
 >
 rtp_packet_pacer_proxy_
-;
-RTC_NO_UNIQUE_ADDRESS
-SequenceChecker
-construction_thread_
 ;
 std
 :
@@ -2139,7 +2136,7 @@ FrameEncryptorInterface
 frame_encryptor_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -2170,7 +2167,7 @@ bool
 sframe_required_by_negotiation_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 =
 false
@@ -2185,7 +2182,7 @@ SframeEncryptionConfig
 sframe_encryption_config_
 RTC_GUARDED_BY
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -2761,7 +2758,7 @@ value_or
 csrcs_
 )
 ;
-worker_thread_
+network_thread_
 -
 >
 PostTask
@@ -2802,7 +2799,7 @@ audio_level_dbov
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 SendRtpAudio
@@ -3560,7 +3557,7 @@ env_
 (
 env
 )
-worker_thread_
+network_thread_
 (
 TaskQueueBase
 :
@@ -3851,13 +3848,9 @@ ChannelSend
 (
 )
 {
-RTC_DCHECK
+RTC_DCHECK_RUN_ON
 (
-construction_thread_
-.
-IsCurrent
-(
-)
+network_thread_
 )
 ;
 /
@@ -3995,7 +3988,7 @@ StartSend
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -4097,7 +4090,7 @@ StopSend
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -4304,7 +4297,7 @@ encoder
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK_GE
@@ -4717,7 +4710,7 @@ length
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -4806,7 +4799,7 @@ enable
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 MutexLock
@@ -4860,7 +4853,7 @@ csrcs
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 std
@@ -4949,7 +4942,7 @@ duration_ms
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK_LE
@@ -5076,7 +5069,7 @@ payload_frequency
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK_LE
@@ -5129,7 +5122,7 @@ id
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 include_audio_level_indication_
@@ -5197,7 +5190,7 @@ transport
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RtpPacketSender
@@ -5270,7 +5263,7 @@ ResetSenderCongestionControlObjects
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 RTC_DCHECK
@@ -5315,7 +5308,7 @@ c_name
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -5405,7 +5398,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 /
@@ -5468,7 +5461,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 ChannelSendStatistics
@@ -6327,7 +6320,7 @@ const
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 return
@@ -6372,7 +6365,7 @@ frame_encryptor
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 frame_encryptor_
@@ -6400,7 +6393,7 @@ options
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 sframe_required_by_negotiation_
@@ -6431,7 +6424,7 @@ frame_transformer
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 if
@@ -6629,7 +6622,7 @@ audio_level_dbov
 {
 RTC_DCHECK_RUN_ON
 (
-worker_thread_
+network_thread_
 )
 ;
 uint32_t
@@ -6721,7 +6714,7 @@ move
 (
 frame_transformer
 )
-worker_thread_
+network_thread_
 )
 ;
 frame_transformer_delegate_
