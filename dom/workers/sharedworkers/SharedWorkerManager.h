@@ -547,11 +547,8 @@ aWindowID
 UniqueMessagePortId
 &
 aPortIdentifier
-base
-:
-:
-ProcessId
-aProcessId
+GeckoChildID
+aChildID
 )
 ;
 void
