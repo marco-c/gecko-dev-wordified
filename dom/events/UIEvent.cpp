@@ -779,6 +779,10 @@ nsIntPoint
 }
 if
 (
+!
+mEvent
+|
+|
 (
 mEvent
 -

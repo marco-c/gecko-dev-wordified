@@ -44872,6 +44872,9 @@ aStatus
 MOZ_ASSERT
 (
 aClickTarget
+|
+|
+aOverrideClickTarget
 )
 ;
 bool
@@ -44993,6 +44996,9 @@ nsEventStatus_eConsumeNoDefault
 &
 &
 aClickTarget
+&
+&
+aClickTarget
 -
 >
 IsInComposedDoc
@@ -45054,6 +45060,9 @@ mClickCount
 &
 !
 fireAuxClick
+&
+&
+aClickTarget
 &
 &
 aClickTarget

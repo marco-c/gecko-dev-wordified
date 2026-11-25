@@ -9311,6 +9311,9 @@ event
 .
 if
 (
+aListener
+&
+&
 aTypeAtom
 =
 =
