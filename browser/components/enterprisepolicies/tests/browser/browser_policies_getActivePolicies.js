@@ -48,9 +48,9 @@ setupPolicyEngineWithJson
 policies
 :
 {
-DisablePrivateBrowsing
+PrivateBrowsingModeAvailability
 :
-true
+1
 }
 }
 )
@@ -59,9 +59,9 @@ let
 expected
 =
 {
-DisablePrivateBrowsing
+PrivateBrowsingModeAvailability
 :
-true
+1
 }
 ;
 Assert
