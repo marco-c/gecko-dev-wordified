@@ -4955,6 +4955,15 @@ ListNode
 obj
 FieldPlacement
 placement
+mozilla
+:
+:
+Span
+<
+const
+InlinedField
+>
+alreadyInlinedFields
 #
 ifdef
 ENABLE_DECORATORS
