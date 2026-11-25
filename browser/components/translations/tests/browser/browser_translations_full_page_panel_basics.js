@@ -150,6 +150,8 @@ translations
 button
 -
 intro
+-
+2
 "
 )
 ;

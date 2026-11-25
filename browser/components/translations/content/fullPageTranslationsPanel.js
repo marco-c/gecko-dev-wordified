@@ -10888,7 +10888,7 @@ urlbar
 -
 translations
 -
-button2
+button3
 "
 )
 ;
@@ -10910,6 +10910,8 @@ translations
 button
 -
 intro
+-
+2
 "
 )
 ;
