@@ -9844,6 +9844,10 @@ also
 close
 the
 connection
+NoteHandshakeTimeout
+(
+)
+;
 SetCloseReason
 (
 ConnectionCloseReason
