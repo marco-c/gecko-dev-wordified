@@ -436,7 +436,9 @@ site
 )
 ;
 const
+{
 tabs
+}
 =
 await
 getOpenTabs
@@ -745,7 +747,9 @@ true
 )
 ;
 const
+{
 tabs
+}
 =
 await
 getOpenTabs
@@ -767,7 +771,7 @@ tabs
 )
 "
 returns
-array
+tabs
 not
 refusal
 "
@@ -899,7 +903,9 @@ description
 )
 ;
 const
+{
 tabs
+}
 =
 await
 getOpenTabs
@@ -1315,7 +1321,11 @@ sb
 )
 ;
 const
+{
+tabs
+:
 returnedTabs
+}
 =
 await
 getOpenTabs
@@ -1592,7 +1602,11 @@ tabs
 )
 ;
 const
+{
+tabs
+:
 returnedTabs
+}
 =
 await
 getOpenTabs

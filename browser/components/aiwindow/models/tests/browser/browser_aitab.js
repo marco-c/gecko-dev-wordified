@@ -2538,7 +2538,9 @@ const
 {
 body
 :
+{
 tabs
+}
 }
 =
 await

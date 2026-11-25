@@ -1416,12 +1416,15 @@ toolMessages
 content
 .
 body
+.
+tabs
 )
 "
 Tool
 result
 should
-be
+hold
+a
 tab
 list
 "
@@ -1462,6 +1465,8 @@ toolMessages
 content
 .
 body
+.
+tabs
 .
 length
 2
