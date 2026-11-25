@@ -79138,6 +79138,16 @@ callee
 (
 )
 ;
+ReturnCallFallback
+retCallFallback
+(
+&
+returnLabel_
+frameSize
+(
+)
+)
+;
 CodeOffset
 retOffset
 ;
@@ -79276,6 +79286,7 @@ wasmReturnCallImport
 desc
 callee
 retCallInfo
+retCallFallback
 )
 ;
 /
@@ -79493,6 +79504,7 @@ desc
 callee
 nullCheckFailed
 retCallInfo
+retCallFallback
 )
 ;
 /
@@ -79784,6 +79796,7 @@ wasmReturnCallRef
 desc
 callee
 retCallInfo
+retCallFallback
 nullptr
 nullptr
 )
