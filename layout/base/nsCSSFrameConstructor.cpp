@@ -34753,6 +34753,13 @@ input
 >
 CreateShadowTreeBeforeLayoutIfNeeded
 (
+HTMLInputElement
+:
+:
+FromFrameConstruction
+:
+:
+Yes
 )
 )
 {
