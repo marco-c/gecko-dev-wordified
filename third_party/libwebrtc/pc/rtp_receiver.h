@@ -156,6 +156,17 @@ include
 "
 absl
 /
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
+absl
+/
 functional
 /
 any_invocable
@@ -1223,6 +1234,7 @@ CreateSframeDecryptorOrError
 (
 SframeCipherSuite
 cipher_suite
+absl_nonnull
 SframeDecryptErrorCallback
 error_callback
 )

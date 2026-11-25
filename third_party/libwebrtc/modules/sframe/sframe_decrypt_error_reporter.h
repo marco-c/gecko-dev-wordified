@@ -101,6 +101,17 @@ optional
 #
 include
 "
+absl
+/
+base
+/
+nullability
+.
+h
+"
+#
+include
+"
 api
 /
 sequence_checker
@@ -192,6 +203,7 @@ public
 explicit
 SframeDecryptErrorReporter
 (
+absl_nonnull
 SframeDecryptErrorCallback
 error_callback
 )
