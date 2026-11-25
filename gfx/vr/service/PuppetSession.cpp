@@ -189,7 +189,7 @@ if
 StaticPrefs
 :
 :
-dom_vr_enabled
+dom_vr_webxr_enabled
 (
 )
 |
