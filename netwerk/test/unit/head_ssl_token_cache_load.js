@@ -366,7 +366,7 @@ conn
 .
 schemaVersion
 =
-1
+2
 ;
 conn
 .
@@ -402,6 +402,18 @@ payload
 BLOB
 NOT
 NULL
+)
+;
+"
++
+"
+CREATE
+INDEX
+ssl_tokens_key
+ON
+ssl_tokens
+(
+key
 )
 "
 )
