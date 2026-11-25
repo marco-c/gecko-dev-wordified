@@ -4874,6 +4874,13 @@ PoolHeader
 p
 -
 >
+getFill
+(
+)
++
+p
+-
+>
 getPoolSize
 (
 )
