@@ -4254,7 +4254,7 @@ IsRunning
 return
 ;
 }
-RTC_DCHECK
+RTC_CHECK
 (
 !
 IsCurrent
