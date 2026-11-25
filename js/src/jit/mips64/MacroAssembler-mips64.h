@@ -5987,6 +5987,11 @@ breakpoint
 )
 ;
 void
+crash
+(
+)
+;
+void
 checkStackAlignment
 (
 )

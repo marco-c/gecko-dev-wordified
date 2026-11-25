@@ -7454,6 +7454,11 @@ value
 )
 ;
 void
+crash
+(
+)
+;
+void
 checkStackAlignment
 (
 )

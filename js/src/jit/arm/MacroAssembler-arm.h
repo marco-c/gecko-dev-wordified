@@ -10027,6 +10027,11 @@ Condition
 cc
 )
 ;
+void
+crash
+(
+)
+;
 /
 /
 Trigger

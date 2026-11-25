@@ -4191,7 +4191,7 @@ WasmCatch
 wasmCatch
 )
 ;
-breakpoint
+crash
 (
 )
 ;

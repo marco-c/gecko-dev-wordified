@@ -8706,7 +8706,7 @@ fail
 ;
 masm
 .
-breakpoint
+crash
 (
 )
 ;
@@ -15769,7 +15769,7 @@ point
 .
 masm
 .
-breakpoint
+crash
 (
 )
 ;
@@ -17567,7 +17567,7 @@ stub
 .
 masm
 .
-breakpoint
+crash
 (
 )
 ;
@@ -24147,7 +24147,7 @@ here
 .
 masm
 .
-breakpoint
+crash
 (
 )
 ;

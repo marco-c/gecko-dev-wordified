@@ -6391,7 +6391,7 @@ returnLabel_
 .
 masm
 .
-breakpoint
+crash
 (
 )
 ;
