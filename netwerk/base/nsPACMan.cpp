@@ -5844,8 +5844,9 @@ HTTPS
 >
 DIRECT
 .
-NS_SUCCEEDED
 (
+void
+)
 mSystemProxySettings
 -
 >
@@ -5868,7 +5869,6 @@ query
 >
 mPort
 pacString
-)
 )
 ;
 }
