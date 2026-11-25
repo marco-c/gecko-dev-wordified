@@ -539,16 +539,6 @@ rtt_ms
 )
 override
 ;
-void
-OnLossNotification
-(
-const
-LossNotification
-&
-loss_notification
-)
-override
-;
 EncoderInfo
 GetEncoderInfo
 (

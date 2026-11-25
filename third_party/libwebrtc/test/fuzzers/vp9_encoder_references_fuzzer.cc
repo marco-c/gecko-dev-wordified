@@ -1912,13 +1912,6 @@ VideoEncoder
 :
 Settings
 (
-VideoEncoder
-:
-:
-Capabilities
-(
-false
-)
 /
 *
 number_of_cores

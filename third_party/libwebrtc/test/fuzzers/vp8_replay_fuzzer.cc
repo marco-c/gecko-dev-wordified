@@ -271,16 +271,6 @@ rtp_history_ms
 =
 1000
 ;
-vp8_config
-.
-rtp
-.
-lntf
-.
-enabled
-=
-true
-;
 std
 :
 :

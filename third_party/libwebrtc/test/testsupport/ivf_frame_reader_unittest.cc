@@ -503,16 +503,6 @@ Seconds
 2
 )
 ;
-const
-VideoEncoder
-:
-:
-Capabilities
-kCapabilities
-(
-false
-)
-;
 #
 if
 defined
@@ -1087,7 +1077,6 @@ VideoEncoder
 :
 Settings
 (
-kCapabilities
 /
 *
 number_of_cores

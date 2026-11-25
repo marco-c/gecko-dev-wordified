@@ -1916,15 +1916,6 @@ payload_type
 )
 ;
 bool
-HasLntf
-(
-const
-Codec
-&
-codec
-)
-;
-bool
 HasNack
 (
 const

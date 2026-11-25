@@ -5301,12 +5301,6 @@ VideoEncoder
 :
 Capabilities
 (
-/
-*
-loss_notification
-=
-*
-/
 false
 )
 }
@@ -71806,12 +71800,6 @@ VideoEncoder
 :
 Capabilities
 (
-/
-*
-loss_notification
-=
-*
-/
 false
 )
 }

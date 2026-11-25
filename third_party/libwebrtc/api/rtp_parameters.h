@@ -886,6 +886,14 @@ goog
 -
 lntf
 "
+(
+deprecated
+kept
+for
+UMA
+enum
+numbering
+)
 NACK
 REMB
 /
