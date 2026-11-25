@@ -446,6 +446,11 @@ uint64_t
 aTokenId
 =
 nullptr
+bool
+*
+aRestored
+=
+nullptr
 )
 ;
 static
@@ -2349,6 +2354,8 @@ for
 about
 :
 networking
+and
+telemetry
 .
 bool
 mRestored
