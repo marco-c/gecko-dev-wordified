@@ -25293,7 +25293,7 @@ HasSnapshot
 )
 )
 {
-Servo_ProcessInvalidations
+Servo_ProcessSnapshotInvalidations
 (
 StyleSet
 (
