@@ -162,12 +162,6 @@ NTDDI_VERSION
 <
 NTDDI_WIN10_RS4
 )
-|
-|
-defined
-(
-__MINGW32__
-)
 WINBASEAPI
 PVOID
 WINAPI
@@ -224,12 +218,6 @@ endif
 NTDDI_VERSION
 <
 NTDDI_WIN10_RS4
-)
-|
-|
-defined
-(
-__MINGW32__
 )
 /
 /
