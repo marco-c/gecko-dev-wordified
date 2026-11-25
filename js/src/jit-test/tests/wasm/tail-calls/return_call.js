@@ -1908,8 +1908,13 @@ not
 cling
 to
 the
-trampoline
 frame
+of
+a
+cross
+-
+instance
+return_call
 .
 /
 /
@@ -1917,9 +1922,10 @@ The
 return_call
 caller
 will
-create
+make
 a
-trampoline
+regular
+call
 because
 the
 callee
