@@ -1730,7 +1730,7 @@ be
 executed
 on
 the
-worker
+network
 thread
 .
 /
@@ -1747,7 +1747,7 @@ to
 /
 /
 batch
-worker
+network
 thread
 operations
 .
@@ -2663,7 +2663,7 @@ be
 executed
 on
 the
-worker
+network
 thread
 .
 /
@@ -2675,7 +2675,7 @@ by
 SdpOfferAnswerHandler
 to
 batch
-worker
+network
 thread
 operations
 .
@@ -2719,7 +2719,7 @@ be
 executed
 on
 the
-worker
+network
 thread
 .
 /
@@ -2731,7 +2731,7 @@ by
 SdpOfferAnswerHandler
 to
 batch
-worker
+network
 thread
 operations
 .
@@ -3833,7 +3833,7 @@ be
 executed
 on
 the
-worker
+network
 thread
 .
 [
@@ -3874,7 +3874,7 @@ context
 )
 -
 >
-worker_thread
+network_thread
 (
 )
 )
@@ -3890,7 +3890,7 @@ context
 )
 -
 >
-worker_thread
+network_thread
 (
 )
 )
@@ -3991,7 +3991,7 @@ ScopedOperationsBatcher
 /
 Signaling
 Thread
-Worker
+Network
 Thread
 /
 /
@@ -4232,7 +4232,7 @@ parameters
 *
 Execution
 (
-Worker
+Network
 Thread
 )
 *
@@ -4251,7 +4251,7 @@ the
 ScopedOperationsBatcher
 on
 the
-worker
+network
 thread
 .
 Runs
@@ -4303,7 +4303,7 @@ by
 the
 /
 /
-worker
+network
 thread
 task
 is
@@ -4324,7 +4324,7 @@ batched
 operations
 on
 the
-worker
+network
 thread
 are
 complete
