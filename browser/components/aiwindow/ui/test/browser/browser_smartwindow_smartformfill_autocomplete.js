@@ -267,7 +267,7 @@ Localization
 (
 [
 "
-preview
+browser
 /
 aiWindow
 .
