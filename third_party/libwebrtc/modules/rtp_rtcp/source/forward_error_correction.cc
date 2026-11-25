@@ -3560,16 +3560,6 @@ fec_packet
 >
 protected_packets
 ;
-std
-:
-:
-vector
-<
-RecoveredPacket
-*
->
-recovered_protected_packets
-;
 /
 /
 Find
