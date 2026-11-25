@@ -136,7 +136,7 @@ manipulate
 the
 path
 of
-a
+an
 URL
 that
 is
@@ -2247,7 +2247,7 @@ parsing
 the
 serialization
 of
-a
+an
 URL
 gives
 the
