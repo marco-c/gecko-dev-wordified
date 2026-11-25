@@ -14199,10 +14199,7 @@ eQueryTextRect
 aWindow
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 ;
 options
@@ -14403,10 +14400,7 @@ eQueryCaretRect
 aWindow
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 ;
 options

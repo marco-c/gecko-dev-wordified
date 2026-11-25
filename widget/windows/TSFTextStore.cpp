@@ -14469,10 +14469,7 @@ InitEvent
 queryTextRectEvent
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 ;
 int64_t
@@ -27999,10 +27996,7 @@ InitEvent
 queryCaretRectEvent
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 ;
 /
