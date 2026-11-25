@@ -75,6 +75,7 @@ complete
 partialHash
 gethashUrl
 tableName
+useOHTTP
 cb
 )
 {
