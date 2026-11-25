@@ -581,7 +581,9 @@ the
 parser
 outside
 the
-wpt
+desktop
+-
+theme
 virtualenv
 .
     

@@ -111,7 +111,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 <
 skill
 >
@@ -170,7 +172,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 <
 skill
 >
@@ -1605,7 +1609,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 -
 -
 <

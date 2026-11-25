@@ -691,7 +691,9 @@ python
 -
 -
 virtualenv
-wpt
+desktop
+-
+theme
 <
 path
 >

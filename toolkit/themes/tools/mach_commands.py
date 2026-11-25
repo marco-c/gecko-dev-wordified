@@ -408,7 +408,9 @@ contrast
 virtualenv_name
 =
 "
-wpt
+desktop
+-
+theme
 "
 )
 def
@@ -513,7 +515,9 @@ pair_walk
 virtualenv_name
 =
 "
-wpt
+desktop
+-
+theme
 "
 )
 def
@@ -607,7 +611,9 @@ pixel_diff
 virtualenv_name
 =
 "
-wpt
+desktop
+-
+theme
 "
 )
 def
