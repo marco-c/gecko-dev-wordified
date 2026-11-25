@@ -2612,6 +2612,13 @@ MACRO
 (
 _
 MallocHeap
+megamorphicSetPropCache
+)
+\
+MACRO
+(
+_
+MallocHeap
 scriptData
 )
 \
