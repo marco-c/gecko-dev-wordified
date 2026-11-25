@@ -73,18 +73,11 @@ h
 #
 include
 "
-gfxImageSurface
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
 /
-Types
+2D
 .
 h
 "
@@ -170,7 +163,10 @@ private
 :
 RefPtr
 <
-gfxImageSurface
+gfx
+:
+:
+DataSourceSurface
 >
 mImageSurface
 ;
@@ -196,4 +192,4 @@ mozilla
 endif
 /
 /
-MOZILLA_WIDGET_GTK_WINDOW_SURFACE_X11_IMAGE_H
+MOZILLA_WIDGET_GTK_WINDOW_SURFACE_CAIRO_H
