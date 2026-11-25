@@ -1951,8 +1951,9 @@ RestartForkServer
 Restart
 fork
 server
-NS_SUCCEEDED
 (
+void
+)
 NS_DispatchToMainThreadQueue
 (
 NS_NewRunnableFunction
@@ -1989,7 +1990,6 @@ EventQueuePriority
 :
 :
 Idle
-)
 )
 ;
 }
