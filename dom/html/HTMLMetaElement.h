@@ -451,14 +451,6 @@ ChangeKind
 aChangeKind
 )
 ;
-void
-ReportCSPReportOnlyMeta
-(
-Document
-&
-aDoc
-)
-;
 }
 ;
 }
