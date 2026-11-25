@@ -933,7 +933,7 @@ that
 crate
 :
 :
-report_error_to_app
+report_error
 (
 report_class
 e
