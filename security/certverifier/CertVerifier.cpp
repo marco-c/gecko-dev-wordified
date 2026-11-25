@@ -3900,7 +3900,10 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS_WEAK
-mCRLiteMode
+CRLiteMode
+:
+:
+Disabled
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -4771,7 +4774,10 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS_WEAK
-mCRLiteMode
+CRLiteMode
+:
+:
+Disabled
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -4859,7 +4865,10 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS_WEAK
-mCRLiteMode
+CRLiteMode
+:
+:
+Disabled
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
@@ -5031,7 +5040,10 @@ mOCSPTimeoutSoft
 mOCSPTimeoutHard
 mCertShortLifetimeInDays
 MIN_RSA_BITS_WEAK
-mCRLiteMode
+CRLiteMode
+:
+:
+Disabled
 originAttributes
 mThirdPartyRootInputs
 mThirdPartyIntermediateInputs
