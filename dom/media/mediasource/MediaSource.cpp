@@ -4827,15 +4827,13 @@ IsValid
 MSE_DEBUG
 (
 "
-DurationChangeOnEndOfStream
-:
 duration
 overflow
 (
 highestEndTime
 =
-%
-s
+{
+}
 )
 "
 highestEndTime
