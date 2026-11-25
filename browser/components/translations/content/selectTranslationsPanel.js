@@ -5165,7 +5165,7 @@ id
 {
 this
 .
-onClickCancelButton
+onCancelButton
 (
 )
 ;
@@ -5180,7 +5180,7 @@ id
 {
 this
 .
-onClickCopyButton
+onCopyButton
 (
 )
 ;
@@ -5200,7 +5200,7 @@ id
 {
 this
 .
-onClickDoneButton
+onDoneButton
 (
 )
 ;
@@ -5231,7 +5231,7 @@ id
 {
 this
 .
-onClickTranslateButton
+onTranslateButton
 (
 )
 ;
@@ -5246,7 +5246,7 @@ id
 {
 this
 .
-onClickTranslateFullPageButton
+onTranslateFullPageButton
 (
 )
 ;
@@ -5261,7 +5261,7 @@ id
 {
 this
 .
-onClickTryAgainButton
+onTryAgainButton
 (
 )
 ;
@@ -7500,7 +7500,7 @@ clicked
 .
 *
 /
-onClickCancelButton
+onCancelButton
 (
 )
 {
@@ -7543,7 +7543,7 @@ clicked
 .
 *
 /
-onClickCopyButton
+onCopyButton
 (
 )
 {
@@ -7619,7 +7619,7 @@ clicked
 .
 *
 /
-onClickDoneButton
+onDoneButton
 (
 )
 {
@@ -7662,7 +7662,7 @@ clicked
 .
 *
 /
-onClickTranslateButton
+onTranslateButton
 (
 )
 {
@@ -7748,7 +7748,7 @@ clicked
 .
 *
 /
-onClickTranslateFullPageButton
+onTranslateFullPageButton
 (
 )
 {
@@ -7958,7 +7958,7 @@ clicked
 .
 *
 /
-onClickTryAgainButton
+onTryAgainButton
 (
 )
 {
