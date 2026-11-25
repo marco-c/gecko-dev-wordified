@@ -3815,7 +3815,7 @@ Create
 mWorkerPrivate
 -
 >
-GetLocationInfo
+GetBaseURI
 (
 )
 )
