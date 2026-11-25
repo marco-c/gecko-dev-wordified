@@ -5060,7 +5060,16 @@ const
 int
 maxDigits
 =
-DBL_DIG
+std
+:
+:
+numeric_limits
+<
+double
+>
+:
+:
+max_digits10
 ;
 uint64_t
 lastDigit
