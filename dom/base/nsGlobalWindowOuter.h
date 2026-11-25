@@ -466,9 +466,6 @@ dom
 class
 BarProp
 ;
-struct
-ChannelPixelLayout
-;
 class
 Console
 ;
@@ -492,12 +489,6 @@ Function
 ;
 class
 Gamepad
-;
-enum
-class
-ImageBitmapFormat
-:
-uint8_t
 ;
 class
 IntlUtils

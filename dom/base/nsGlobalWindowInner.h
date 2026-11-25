@@ -532,9 +532,6 @@ BarProp
 class
 BrowsingContext
 ;
-struct
-ChannelPixelLayout
-;
 class
 Credential
 ;
@@ -573,12 +570,6 @@ Gamepad
 ;
 class
 ContentMediaController
-;
-enum
-class
-ImageBitmapFormat
-:
-uint8_t
 ;
 class
 IdleRequest
@@ -8435,7 +8426,7 @@ mm
 =
 entry
 .
-GetWeak
+GetRawPtr
 (
 )
 ;
