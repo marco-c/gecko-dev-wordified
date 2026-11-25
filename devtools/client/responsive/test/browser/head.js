@@ -289,6 +289,7 @@ js
 const
 {
 addDevice
+getDeviceString
 removeDevice
 removeLocalDevices
 }
