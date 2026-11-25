@@ -1862,7 +1862,9 @@ the
 child
 *
 process
-PID
+'
+s
+GeckoChildID
 in
 the
 upper
@@ -1875,8 +1877,8 @@ verify
 that
 this
 is
-as
 *
+as
 expected
 .
 *
@@ -1901,7 +1903,7 @@ aId
 (
 uint64_t
 )
-OtherPid
+OtherChildID
 (
 )
 ;
