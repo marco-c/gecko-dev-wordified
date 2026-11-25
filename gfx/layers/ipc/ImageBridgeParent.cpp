@@ -1133,7 +1133,7 @@ remoteTextureMap
 >
 ClearDestroyedProcess
 (
-OtherPid
+OtherChildID
 (
 )
 )

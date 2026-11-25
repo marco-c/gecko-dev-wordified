@@ -176,11 +176,8 @@ const
 RemoteTextureOwnerId
 aOwnerId
 const
-base
-:
-:
-ProcessId
-aForPid
+GeckoChildID
+aForChildID
 const
 gfx
 :
@@ -203,7 +200,7 @@ RemoteTextureHostWrapper
 (
 aTextureId
 aOwnerId
-aForPid
+aForChildID
 aSize
 aFlags
 |
@@ -249,11 +246,8 @@ const
 RemoteTextureOwnerId
 aOwnerId
 const
-base
-:
-:
-ProcessId
-aForPid
+GeckoChildID
+aForChildID
 const
 gfx
 :
@@ -281,9 +275,9 @@ mOwnerId
 (
 aOwnerId
 )
-mForPid
+mForChildID
 (
-aForPid
+aForChildID
 )
 mSize
 (
@@ -1018,7 +1012,7 @@ UnregisterRemoteTextureHostWrapper
 (
 mTextureId
 mOwnerId
-mForPid
+mForChildID
 )
 ;
 }

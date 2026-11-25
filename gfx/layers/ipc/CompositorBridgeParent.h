@@ -707,11 +707,8 @@ aActive
 /
 /
 HostIPCAllocator
-base
-:
-:
-ProcessId
-GetChildProcessId
+GeckoChildID
+GetChildID
 (
 )
 override
