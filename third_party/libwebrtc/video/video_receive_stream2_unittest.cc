@@ -1623,11 +1623,6 @@ time_controller_
 GetMainThread
 (
 )
-time_controller_
-.
-GetMainThread
-(
-)
 &
 dummy_validator_
 )
