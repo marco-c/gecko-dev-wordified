@@ -2800,12 +2800,6 @@ StaticRange
 >
 OwningNonNullStaticRangeArray
 ;
-struct
-QueryContentOptions
-;
-struct
-QueryContentResult
-;
 /
 /
 FontRange
