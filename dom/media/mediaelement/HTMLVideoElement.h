@@ -862,6 +862,13 @@ ReleaseVideoWakeLockIfExists
 (
 )
 ;
+void
+UpdateAutoplayAfterVisibilityChange
+(
+bool
+aSync
+)
+;
 gfx
 :
 :
@@ -1363,6 +1370,11 @@ override
 MOZ_CAN_RUN_SCRIPT
 void
 EndCloningVisually
+(
+)
+;
+void
+ClearSecondaryVideoOutput
 (
 )
 ;
