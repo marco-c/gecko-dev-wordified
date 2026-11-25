@@ -10881,12 +10881,10 @@ static_cast
 SamplingState
 >
 (
-static_cast
-<
-int
->
-(
 samplingState
+.
+load
+(
 )
 )
 ;
