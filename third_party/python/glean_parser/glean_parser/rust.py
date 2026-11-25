@@ -101,6 +101,10 @@ __version__
 from
 .
 import
+flows
+from
+.
+import
 metrics
 from
 .
@@ -1298,6 +1302,9 @@ Ping
 tags
 .
 Tag
+flows
+.
+Flow
 ]
 ]
         
@@ -1633,6 +1640,24 @@ common_metric_args
 util
 .
 common_metric_args
+                
+flows
+=
+flows
+.
+registration_data
+(
+options
+.
+get
+(
+"
+flows
+"
+{
+}
+)
+)
             
 )
         

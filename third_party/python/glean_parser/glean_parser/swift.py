@@ -101,6 +101,10 @@ __version__
 from
 .
 import
+flows
+from
+.
+import
 metrics
 from
 .
@@ -1317,6 +1321,9 @@ Ping
 tags
 .
 Tag
+flows
+.
+Flow
 ]
 ]
     
@@ -1870,6 +1877,24 @@ False
 build_info
 =
 build_info
+                
+flows
+=
+flows
+.
+registration_data
+(
+options
+.
+get
+(
+"
+flows
+"
+{
+}
+)
+)
             
 )
         
