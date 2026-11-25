@@ -5376,7 +5376,7 @@ window
 =
 entry
 .
-GetWeak
+GetRawPtr
 (
 )
 ;
@@ -5846,9 +5846,6 @@ mGhostWindowCount
 if
 (
 aOutGhostIDs
-&
-&
-window
 )
 {
 aOutGhostIDs
