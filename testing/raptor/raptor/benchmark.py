@@ -2501,7 +2501,10 @@ mozfile
 .
 remove
 (
+str
+(
 external_repo_path
+)
 )
                 
 self
