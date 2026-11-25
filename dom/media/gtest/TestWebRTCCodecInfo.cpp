@@ -470,13 +470,10 @@ EncoderConfig
 :
 SampleFormat
 (
-dom
+ImagePixelFormat
 :
 :
-ImageBitmapFormat
-:
-:
-YUV420P
+I420
 )
 /
 *

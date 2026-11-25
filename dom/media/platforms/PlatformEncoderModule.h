@@ -147,17 +147,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-ImageBitmapBinding
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

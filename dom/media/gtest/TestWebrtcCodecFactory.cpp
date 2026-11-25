@@ -489,13 +489,13 @@ EncoderConfig
 :
 SampleFormat
 (
-dom
+mozilla
 :
 :
-ImageBitmapFormat
+ImagePixelFormat
 :
 :
-YUV420P
+I420
 )
 30
 240
