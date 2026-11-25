@@ -601,7 +601,7 @@ PeerConnection
 GetDataChannelStats
 on
 the
-signaling
+network
 thread
 .
 std
