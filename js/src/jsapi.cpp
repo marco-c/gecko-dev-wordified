@@ -30556,7 +30556,7 @@ true
 {
 iter
 .
-skipNonScriptedJSFrames
+skipNonScriptedFrames
 (
 )
 ;
