@@ -497,8 +497,8 @@ ptr
 (
 this
 )
-\
 mChildPid
+\
 #
 #
 __VA_ARGS__

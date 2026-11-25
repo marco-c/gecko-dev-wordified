@@ -3455,8 +3455,8 @@ EagerLogPrintf
 this
 _category
 _label
-\
 _format
+\
 #
 #
 __VA_ARGS__
@@ -3623,8 +3623,8 @@ EagerLogFmt
 this
 _category
 _label
-\
 _format
+\
 #
 #
 __VA_ARGS__
@@ -4073,8 +4073,8 @@ MozLogFmt
 _this
 _logModule
 _logLevel
-\
 _format
+\
 #
 #
 __VA_ARGS__
@@ -4125,8 +4125,8 @@ MozLogFmt
 _this
 _logModule
 _logLevel
-\
 _format
+\
 #
 #
 __VA_ARGS__
