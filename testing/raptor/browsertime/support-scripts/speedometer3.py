@@ -1366,22 +1366,6 @@ if
 self
 .
 profiling
-or
-test
-.
-get
-(
-"
-name
-"
-)
-=
-=
-"
-speedometer3
--
-a11y
-"
 :
             
 suite
