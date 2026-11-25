@@ -8439,6 +8439,12 @@ flushBuffer
 {
 }
 void
+flushBufferIfDue
+(
+)
+{
+}
+void
 comment
 (
 const

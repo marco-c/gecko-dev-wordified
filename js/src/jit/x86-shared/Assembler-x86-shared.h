@@ -37392,6 +37392,12 @@ flushBuffer
 )
 {
 }
+void
+flushBufferIfDue
+(
+)
+{
+}
 /
 /
 Patching

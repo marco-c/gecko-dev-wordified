@@ -12869,6 +12869,16 @@ flushBuffer
 )
 ;
 void
+flushBufferIfDue
+(
+)
+{
+flushBuffer
+(
+)
+;
+}
+void
 enterNoPool
 (
 size_t
