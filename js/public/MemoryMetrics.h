@@ -2642,6 +2642,13 @@ _
 MallocHeap
 jitLazyLink
 )
+\
+MACRO
+(
+_
+MallocHeap
+jitHints
+)
 RuntimeSizes
 (
 )
