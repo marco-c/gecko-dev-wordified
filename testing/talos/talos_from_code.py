@@ -941,6 +941,7 @@ else
 print
 (
             
+f
 "
 ERROR
 :
@@ -952,11 +953,11 @@ download
 a
 file
 from
-%
-s
+{
+url
+}
 "
             
-+
 "
 but
 the

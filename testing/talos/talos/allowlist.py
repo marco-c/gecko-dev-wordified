@@ -951,23 +951,20 @@ filename
 append
 (
                     
+f
 "
 Duration
-%
-s
->
-%
-s
-"
-%
-(
+{
 row_value
 [
 file_duration_index
 ]
-)
-                    
+}
+>
+{
 DEFAULT_DURATION
+}
+"
                 
 )
         
