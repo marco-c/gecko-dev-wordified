@@ -107,12 +107,10 @@ Services
 .
 prefs
 .
-setStringPref
+setIntPref
 (
 PREF_SMARTWINDOW_CONSENT_TIME
-"
 12345
-"
 )
 ;
 }
