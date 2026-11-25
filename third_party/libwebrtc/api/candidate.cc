@@ -773,7 +773,7 @@ address
 (
 )
 .
-PortAsString
+port
 (
 )
 <
@@ -855,7 +855,7 @@ related_address
 (
 )
 .
-PortAsString
+port
 (
 )
 <
@@ -1144,7 +1144,7 @@ GetRfc4572Fingerprint
 return
 os
 .
-str
+Release
 (
 )
 ;
