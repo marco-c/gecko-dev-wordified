@@ -255,7 +255,7 @@ nsCString
 &
 aHost
 const
-int
+uint16_t
 &
 aPort
 const
@@ -263,7 +263,7 @@ nsCString
 &
 aLocalAddress
 const
-int
+uint16_t
 &
 aLocalPort
 bool
@@ -297,11 +297,11 @@ NewRunnableMethod
 const
 nsCString
 const
-int
+uint16_t
 const
 nsCString
 const
-int
+uint16_t
 bool
 const
 shared_ptr
