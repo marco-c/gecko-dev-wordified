@@ -67,7 +67,7 @@ PACKAGE_VERSION
 "
 2
 .
-3
+4
 .
 0
 "
@@ -85,6 +85,14 @@ mozfile
 0
 "
 "
+mozinfo
+>
+=
+0
+.
+7
+"
+"
 mozlog
 >
 =
@@ -92,7 +100,7 @@ mozlog
 .
 0
 .
-0
+1
 "
 ]
 setup
