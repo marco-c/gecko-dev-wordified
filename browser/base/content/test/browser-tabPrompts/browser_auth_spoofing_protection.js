@@ -712,7 +712,7 @@ gBrowser
 .
 selectedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 "
 user
@@ -778,7 +778,7 @@ gBrowser
 .
 selectedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 "
 "

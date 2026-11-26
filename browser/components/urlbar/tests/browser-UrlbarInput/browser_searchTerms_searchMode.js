@@ -918,7 +918,7 @@ mode
 ;
 /
 /
-UserTypedValue
+UrlbarOverrideValue
 is
 set
 when
@@ -937,7 +937,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-userTypedValue
+urlbarOverrideValue
 :
 SEARCH_STRING
 }
@@ -1052,7 +1052,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-userTypedValue
+urlbarOverrideValue
 :
 SEARCH_STRING
 persistSearchTerms
@@ -1092,7 +1092,7 @@ tab
 ;
 /
 /
-UserTypedValue
+UrlbarOverrideValue
 is
 set
 when
@@ -1111,7 +1111,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-userTypedValue
+urlbarOverrideValue
 :
 SEARCH_STRING
 persistSearchTerms
@@ -1295,7 +1295,7 @@ mode
 ;
 /
 /
-UserTypedValue
+UrlbarOverrideValue
 is
 set
 when
@@ -1314,7 +1314,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-userTypedValue
+urlbarOverrideValue
 :
 SEARCH_STRING
 }
@@ -1564,7 +1564,7 @@ mode
 ;
 /
 /
-UserTypedValue
+UrlbarOverrideValue
 is
 set
 when
@@ -1583,7 +1583,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-userTypedValue
+urlbarOverrideValue
 :
 SEARCH_STRING
 }
@@ -1752,7 +1752,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-userTypedValue
+urlbarOverrideValue
 :
 SEARCH_STRING
 }
@@ -1925,7 +1925,7 @@ assertSearchStringIsInUrlbar
 window
 SEARCH_STRING
 {
-userTypedValue
+urlbarOverrideValue
 :
 SEARCH_STRING
 }

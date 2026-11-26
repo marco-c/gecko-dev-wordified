@@ -2279,7 +2279,7 @@ gBrowser
 .
 selectedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 null
 "
 The
