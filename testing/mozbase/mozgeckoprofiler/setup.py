@@ -65,7 +65,7 @@ mozgeckoprofiler
 PACKAGE_VERSION
 =
 "
-1
+2
 .
 0
 .
@@ -247,6 +247,14 @@ False
 install_requires
 =
 [
+"
+mozlog
+>
+=
+6
+.
+0
+"
 ]
     
 tests_require
