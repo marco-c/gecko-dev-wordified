@@ -704,6 +704,10 @@ const
 nsAString
 &
 aContentType
+bool
+aRandomizeFilename
+=
+false
 )
 ;
 /
