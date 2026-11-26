@@ -17305,7 +17305,7 @@ ExampleDeviceDelegate
 :
 onRecordingDeviceEvent
 display
-alert_mic_camera
+alert_camera
 "
 )
 ;
@@ -17330,7 +17330,7 @@ R
 .
 drawable
 .
-alert_mic_camera
+alert_camera
 ;
 }
 else
