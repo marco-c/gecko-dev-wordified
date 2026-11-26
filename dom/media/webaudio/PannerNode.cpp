@@ -560,6 +560,15 @@ SampleRate
 )
 )
 ;
+if
+(
+!
+loader
+)
+{
+return
+;
+}
 mHRTFPanner
 =
 std
