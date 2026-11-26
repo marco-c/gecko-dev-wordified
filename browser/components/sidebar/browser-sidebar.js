@@ -1832,9 +1832,9 @@ menu
 -
 view
 -
-widget
+custom
 -
-studio
+widgets
 "
 revampL10nId
 :
@@ -1843,9 +1843,9 @@ sidebar
 -
 menu
 -
-widget
+custom
 -
-studio
+widgets
 -
 label
 "
@@ -1864,9 +1864,6 @@ topsites
 .
 svg
 "
-hasCustomHeader
-:
-true
 }
 )
 ;

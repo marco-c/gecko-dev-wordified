@@ -1670,7 +1670,9 @@ yet
 ;
 ok
 (
-panel
+SidebarController
+.
+panelHeader
 .
 closeButton
 "
