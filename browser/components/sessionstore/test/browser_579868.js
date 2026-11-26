@@ -148,7 +148,7 @@ pinned
 :
 true
 "
-userTypedValue
+urlbarOverrideValue
 "
 :
 "

@@ -68,7 +68,7 @@ tabState
 >
 tabState
 .
-userTypedValue
+urlbarOverrideValue
 =
 =
 url

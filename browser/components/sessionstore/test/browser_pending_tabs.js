@@ -236,7 +236,7 @@ don
 '
 t
 collect
-userTypedValue
+urlbarOverrideValue
 when
 we
 shouldn
@@ -248,7 +248,7 @@ ok
 !
 tabState
 .
-userTypedValue
+urlbarOverrideValue
 "
 tab
 didn
@@ -256,7 +256,7 @@ didn
 t
 have
 a
-userTypedValue
+urlbarOverrideValue
 "
 )
 ;

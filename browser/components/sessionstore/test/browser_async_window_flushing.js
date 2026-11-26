@@ -327,7 +327,7 @@ browser
 Clear
 out
 the
-userTypedValue
+urlbarOverrideValue
 so
 that
 the
