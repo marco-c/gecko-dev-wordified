@@ -69,7 +69,7 @@ PACKAGE_VERSION
 .
 1
 .
-2
+3
 "
 deps
 =
@@ -91,8 +91,6 @@ mozdevice
 0
 .
 0
-<
-5
 "
 ]
 setup
