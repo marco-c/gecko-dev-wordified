@@ -226,9 +226,9 @@ ipc
 :
 :
 IPCResult
-RecvRequestClientCapabilities
+RecvRequestIsUVPAA
 (
-RequestClientCapabilitiesResolver
+RequestIsUVPAAResolver
 &
 &
 aResolver
