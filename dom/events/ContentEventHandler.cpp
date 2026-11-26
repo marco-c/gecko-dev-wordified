@@ -11033,6 +11033,8 @@ if
 aEvent
 -
 >
+mInput
+.
 mWithFontRanges
 )
 {
