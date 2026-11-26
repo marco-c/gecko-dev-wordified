@@ -1006,20 +1006,10 @@ dep_job
 dependencies
 )
         
-signing_task
+package_dependency
 =
 None
         
-for
-dependency
-in
-dependencies
-.
-keys
-(
-)
-:
-            
 if
 build_platform
 .
@@ -1029,21 +1019,14 @@ startswith
 macosx
 "
 )
-and
-dependency
-.
-endswith
-(
-"
-signing
-"
-)
 :
-                
-signing_task
-=
-dependency
             
+package_dependency
+=
+dep_job
+.
+kind
+        
 elif
 build_platform
 .
@@ -1053,7 +1036,15 @@ startswith
 win
 "
 )
-and
+:
+            
+for
+dependency
+in
+dependencies
+:
+                
+if
 dependency
 .
 endswith
@@ -1063,8 +1054,8 @@ repack
 "
 )
 :
-                
-signing_task
+                    
+package_dependency
 =
 dependency
         
@@ -1291,16 +1282,6 @@ using
 :
 "
 mozharness
-"
-            
-"
-clone
--
-with
-"
-:
-"
-hg
 "
             
 "
@@ -1684,7 +1665,7 @@ dep_job
                 
 build_platform
                 
-signing_task
+package_dependency
                 
 partner
 =
@@ -1860,7 +1841,7 @@ task
     
 build_platform
     
-signing_task
+package_dependency
     
 partner
 =
@@ -1905,7 +1886,7 @@ macosx
 return
 {
             
-signing_task
+package_dependency
 :
 [
                 
@@ -2052,7 +2033,7 @@ exe
         
 return
 {
-signing_task
+package_dependency
 :
 download_config
 }
