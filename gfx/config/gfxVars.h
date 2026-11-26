@@ -186,6 +186,16 @@ MediaCodecsSupported
 \
 _
 (
+PlatformMediaCodecsAdaptivePlayback
+MediaCodecsSupported
+\
+MediaCodecsSupported
+(
+)
+)
+\
+_
+(
 PlatformH264HwDecodeMaxSize
 IntSize
 IntSize
