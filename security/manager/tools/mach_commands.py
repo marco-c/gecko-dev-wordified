@@ -846,6 +846,18 @@ siteIdentity
 "
         
 "
+browser
+/
+components
+/
+backup
+/
+tests
+/
+marionette
+"
+        
+"
 netwerk
 /
 test
@@ -879,6 +891,24 @@ test
 unit
 /
 test_remote_settings_signatures
+"
+        
+"
+testing
+/
+mochitest
+/
+DoHServer
+"
+        
+"
+testing
+/
+raptor
+/
+browsertime
+/
+utils
 "
         
 "

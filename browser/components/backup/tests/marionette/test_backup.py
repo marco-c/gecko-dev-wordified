@@ -111,7 +111,12 @@ test
 _cert_db_key
 =
 "
-AAAAAAAAAAAAAAAUAAAAG0Wbze8lahTcE4RhwEqMtTpThrzjMBkxFzAVBgNVBAMMDiBIVFRQMiBUZXN0IENB
+AAAAAAAAAAAAAAAUAAAAGj1g4M
+/
+cXM
+/
+VZakCnRhSTnJ9fkxkMBgxFjAUBgNVBAMMDUhUVFAyIFRlc3QgQ0E
+=
 "
     
 def
@@ -3839,9 +3844,10 @@ nsIX509CertDB
             
 if
 (
+await
 certDb
 .
-findCertByDBKey
+asyncFindCertByDBKey
 (
 certDbKey
 )
@@ -4148,11 +4154,14 @@ nsIX509CertDB
 ;
             
 return
+(
+await
 certDb
 .
-findCertByDBKey
+asyncFindCertByDBKey
 (
 certDbKey
+)
 )
 !
 =
