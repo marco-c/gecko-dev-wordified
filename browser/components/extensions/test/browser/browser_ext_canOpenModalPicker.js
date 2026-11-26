@@ -1016,11 +1016,6 @@ tab
 /
 /
 AddonCard
-'
-s
-render
-(
-)
 calls
 optionsButton
 .
