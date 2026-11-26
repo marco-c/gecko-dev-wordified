@@ -3506,7 +3506,7 @@ mMediaPlayingSession
 null
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -5410,7 +5410,7 @@ click
 )
 ;
 }
-Log
+DebugLog
 .
 i
 (
@@ -9519,14 +9519,16 @@ e
 {
 Log
 .
-d
+w
 (
 LOGTAG
+"
+Failed
+to
+download
+PDF
+"
 e
-.
-getMessage
-(
-)
 )
 ;
 }
@@ -9787,7 +9789,7 @@ preferredList
 -
 >
 {
-Log
+DebugLog
 .
 d
 (
@@ -10383,7 +10385,7 @@ model
 models
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -10696,7 +10698,7 @@ model
 models
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -12160,7 +12162,7 @@ getFileName
 response
 )
 ;
-Log
+DebugLog
 .
 i
 (
@@ -12271,7 +12273,7 @@ MIME_TYPE
 mime
 )
 ;
-Log
+DebugLog
 .
 i
 (
@@ -12469,19 +12471,16 @@ e
 {
 Log
 .
-i
+w
 (
 LOGTAG
-String
-.
-valueOf
-(
+"
+Failed
+to
+write
+download
+"
 e
-.
-getStackTrace
-(
-)
-)
 )
 ;
 }
@@ -12918,7 +12917,7 @@ e
 {
 Log
 .
-d
+w
 (
 LOGTAG
 "
@@ -13086,7 +13085,7 @@ int
 flags
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -13207,7 +13206,7 @@ HistoryList
 state
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -13378,7 +13377,7 @@ String
 title
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -13511,7 +13510,7 @@ GeckoSession
 session
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -13576,7 +13575,7 @@ ContextElement
 element
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -13828,7 +13827,7 @@ GeckoSession
 session
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -13851,7 +13850,7 @@ JSONObject
 manifest
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -14223,7 +14222,7 @@ String
 url
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -14239,7 +14238,7 @@ at
 url
 )
 ;
-Log
+DebugLog
 .
 i
 (
@@ -14288,7 +14287,7 @@ boolean
 success
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -14312,7 +14311,7 @@ unsuccessfully
 )
 )
 ;
-Log
+DebugLog
 .
 i
 (
@@ -14353,7 +14352,7 @@ int
 progress
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -14418,7 +14417,7 @@ SecurityInformation
 securityInfo
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -14449,7 +14448,7 @@ SessionState
 state
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -15506,7 +15505,7 @@ getWebCompatInfo
 -
 >
 {
-Log
+DebugLog
 .
 d
 (
@@ -15827,7 +15826,7 @@ LoadRequest
 request
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -15902,7 +15901,7 @@ LoadRequest
 request
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -16559,7 +16558,7 @@ e
 {
 Log
 .
-d
+w
 (
 LOGTAG
 "
@@ -16707,7 +16706,7 @@ WebRequestError
 error
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -16846,7 +16845,7 @@ logCounters
 (
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -16910,7 +16909,7 @@ BlockEvent
 event
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -17128,7 +17127,7 @@ BlockEvent
 event
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -17319,7 +17318,7 @@ microphone
 null
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -17366,7 +17365,7 @@ camera
 null
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -17413,7 +17412,7 @@ microphone
 null
 )
 {
-Log
+DebugLog
 .
 d
 (
@@ -17453,7 +17452,7 @@ alert_mic
 }
 else
 {
-Log
+DebugLog
 .
 d
 (
@@ -17659,7 +17658,7 @@ GeckoSession
 session
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -17680,7 +17679,7 @@ GeckoSession
 session
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -17712,7 +17711,7 @@ TranslationState
 translationState
 )
 {
-Log
+DebugLog
 .
 i
 (
@@ -17870,7 +17869,7 @@ mPipFullscreenMedia
 =
 enabled
 ;
-Log
+DebugLog
 .
 d
 (

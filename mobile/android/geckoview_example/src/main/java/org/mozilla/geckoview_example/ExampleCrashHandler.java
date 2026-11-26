@@ -296,7 +296,7 @@ mCrashIntent
 =
 intent
 ;
-Log
+DebugLog
 .
 d
 (
@@ -317,7 +317,7 @@ EXTRA_MINIDUMP_PATH
 )
 )
 ;
-Log
+DebugLog
 .
 d
 (
@@ -338,7 +338,7 @@ EXTRA_EXTRAS_PATH
 )
 )
 ;
-Log
+DebugLog
 .
 d
 (
@@ -359,7 +359,7 @@ EXTRA_CRASH_PROCESS_VISIBILITY
 )
 )
 ;
-Log
+DebugLog
 .
 d
 (
@@ -401,7 +401,7 @@ remoteType
 null
 )
 {
-Log
+DebugLog
 .
 d
 (
