@@ -54,6 +54,8 @@ MPL
 /
 .
 import
+logging
+import
 os
 import
 sys
@@ -862,6 +864,7 @@ YES
 )
 :
         
+return
 _run_tests
 (
 command_context
@@ -1222,6 +1225,33 @@ data
         
 )
     
+def
+_error
+(
+message
+)
+:
+        
+command_context
+.
+log
+(
+logging
+.
+ERROR
+"
+perftest
+-
+test
+"
+{
+}
+message
+)
+        
+return
+1
+    
 args
 =
 [
@@ -1247,7 +1277,8 @@ durations
 tests
 ]
     
-assert
+if
+not
 checkout_python_script
 (
         
@@ -1266,6 +1297,18 @@ verbose
 =
 verbose
     
+)
+:
+        
+return
+_error
+(
+"
+Some
+tests
+failed
+.
+"
 )
     
 if
@@ -1291,17 +1334,37 @@ True
 )
 :
         
-raise
-ValueError
+return
+_error
 (
+            
 "
 Coverage
 is
 too
 low
 !
+Add
+tests
+for
+the
+new
+code
+see
+the
 "
+            
+"
+coverage
+report
+above
+.
+"
+        
 )
+    
+return
+0
 Command
 (
     
