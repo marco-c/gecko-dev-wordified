@@ -535,7 +535,7 @@ auth
 :
 :
 {
-AuthorizationInfo
+AuthorizationStatus
 FxaEvent
 FxaState
 }

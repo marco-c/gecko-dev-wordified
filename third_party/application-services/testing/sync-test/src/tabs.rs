@@ -568,6 +568,9 @@ HashMap
 new
 (
 )
+tabs_disabled
+:
+false
 }
 )
 ;
@@ -780,6 +783,9 @@ HashMap
 new
 (
 )
+tabs_disabled
+:
+false
 }
 )
 ;
