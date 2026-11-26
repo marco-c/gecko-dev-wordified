@@ -1303,7 +1303,7 @@ std
 array
 <
 nsLiteralCString
-3
+4
 >
 kStripOAPermissions
 =
@@ -1327,6 +1327,10 @@ _ns
 ipp
 -
 vpn
+"
+_ns
+"
+translations
 "
 _ns
 }
