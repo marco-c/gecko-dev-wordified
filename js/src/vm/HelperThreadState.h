@@ -2543,14 +2543,6 @@ runtime
 )
 ;
 void
-trace
-(
-JSTracer
-*
-trc
-)
-;
-void
 waitForAllTasks
 (
 )
@@ -2594,6 +2586,8 @@ const
 CompilationSelector
 &
 selector
+WaitForRunningCompiles
+waitForRunning
 )
 ;
 void

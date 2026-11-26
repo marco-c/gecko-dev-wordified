@@ -3447,6 +3447,14 @@ task
 )
 ;
 void
+traceOffThreadCompilations
+(
+JSTracer
+*
+trc
+)
+;
+void
 handleGrowSlotsForPureCall
 (
 JSContext
