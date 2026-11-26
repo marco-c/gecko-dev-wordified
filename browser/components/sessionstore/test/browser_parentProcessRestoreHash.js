@@ -278,7 +278,7 @@ browser
 correctly
 clears
 the
-userTypedValue
+urlbarOverrideValue
 *
 /
 add_task
@@ -590,7 +590,7 @@ linkedBrowser
 urlbarOverrideValue
 "
 No
-userTypedValue
+urlbarOverrideValue
 should
 be
 on
