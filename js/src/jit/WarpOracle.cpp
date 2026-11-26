@@ -1951,7 +1951,7 @@ value
 targetEnv
 -
 >
-getSlot
+getRawSlot
 (
 slot
 )
