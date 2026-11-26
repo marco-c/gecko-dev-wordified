@@ -761,6 +761,7 @@ enable_store_submitted_pings
 :
 false
 }
+None
 )
 .
 unwrap
@@ -1165,6 +1166,7 @@ enable_store_submitted_pings
 :
 false
 }
+None
 )
 .
 unwrap

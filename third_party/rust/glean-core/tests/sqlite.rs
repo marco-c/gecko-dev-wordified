@@ -1525,6 +1525,7 @@ Glean
 new
 (
 cfg
+None
 )
 ;
 assert
@@ -1805,6 +1806,7 @@ Glean
 new
 (
 cfg
+None
 )
 ;
 assert

@@ -493,6 +493,7 @@ initialize
 (
 cfg
 client_info
+None
 )
 ;
 }
