@@ -1463,13 +1463,14 @@ nimbus
 {
 UrlbarPrefs
 .
-clear
+set
 (
 "
 temporal
 .
 featureGate
 "
+false
 )
 ;
 await
