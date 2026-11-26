@@ -1654,6 +1654,17 @@ addr
 }
 if
 (
+this
+-
+>
+raw
+.
+family
+=
+=
+AF_INET6
+&
+&
 IPv6ADDR_IS_V4MAPPED
 (
 &
