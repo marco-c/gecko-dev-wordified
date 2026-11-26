@@ -13470,15 +13470,7 @@ Point
 &
 aDestPoint
 )
-{
-return
-CreateSimilarDrawTarget
-(
-aSize
-aFormat
-)
 ;
-}
 /
 *
 *
