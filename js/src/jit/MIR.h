@@ -10581,7 +10581,15 @@ case
 Upper
 }
 ;
-MIR_OPCODE_CLASS_GENERATED
+#
+include
+"
+jit
+/
+MIROpClassesGenerated
+.
+h
+"
 /
 /
 Truncation
