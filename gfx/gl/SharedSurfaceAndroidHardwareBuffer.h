@@ -223,6 +223,12 @@ WaitForBufferOwnership
 )
 override
 ;
+void
+WaitForBufferOwnershipForWrite
+(
+)
+override
+;
 }
 ;
 class
