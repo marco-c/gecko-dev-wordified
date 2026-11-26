@@ -123,6 +123,15 @@ vpn
 "
 install
 "
+"
+persist
+-
+data
+-
+on
+-
+shutdown
+"
 ]
 ;
 let
