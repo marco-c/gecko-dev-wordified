@@ -18572,10 +18572,7 @@ eQueryTextRect
 aEvent
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 (
 *
@@ -22723,10 +22720,7 @@ eQueryTextRect
 aEvent
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 (
 *
@@ -24034,10 +24028,7 @@ aEvent
 mWidget
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 (
 *

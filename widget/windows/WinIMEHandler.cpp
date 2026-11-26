@@ -7097,10 +7097,7 @@ InitEvent
 queryCaretRectEvent
 )
 ;
-WidgetQueryContentEvent
-:
-:
-Options
+QueryContentOptions
 options
 ;
 options
