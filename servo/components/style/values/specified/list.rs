@@ -1228,7 +1228,7 @@ parent
 if
 context
 .
-in_ua_sheet
+chrome_rules_enabled
 (
 )
 |
