@@ -66,6 +66,13 @@ geckoview_example
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 content
 .
 Context
@@ -349,6 +356,12 @@ true
 )
 ;
 }
+SuppressLint
+(
+"
+ClickableViewAccessibility
+"
+)
 Override
 public
 boolean
