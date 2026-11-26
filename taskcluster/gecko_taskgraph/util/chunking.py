@@ -149,9 +149,13 @@ import
     
 CT_LOW
     
+SUPPORTED_PROJECTS
+    
 BugbugTimeoutException
     
 get_confidence_threshold
+    
+is_try_auto
     
 push_schedules
 )
@@ -4270,6 +4274,15 @@ on
 a
 backstop
 push
+bugbug
+doesn
+'
+t
+        
+#
+support
+the
+project
 or
 there
 was
@@ -4278,6 +4291,8 @@ timeout
 .
         
 if
+(
+            
 self
 .
 params
@@ -4286,10 +4301,26 @@ params
 backstop
 "
 ]
+            
+or
+self
+.
+params
+[
+"
+project
+"
+]
+not
+in
+SUPPORTED_PROJECTS
+            
 or
 self
 .
 timedout
+        
+)
 :
             
 return
@@ -4325,7 +4356,54 @@ except
 BugbugTimeoutException
 RetryError
 )
+as
+e
 :
+            
+if
+is_try_auto
+(
+self
+.
+params
+)
+:
+                
+raise
+BugbugTimeoutException
+(
+                    
+"
+mach
+try
+auto
+requires
+bugbug
+which
+failed
+to
+select
+the
+"
+                    
+"
+tests
+to
+run
+.
+Try
+again
+later
+or
+use
+another
+selector
+.
+"
+                
+)
+from
+e
             
 traceback
 .

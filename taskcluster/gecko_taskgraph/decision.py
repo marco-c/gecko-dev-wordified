@@ -206,6 +206,10 @@ import
     
 PUSH_SCHEDULES_ENV
     
+SUPPORTED_PROJECTS
+    
+is_try_auto
+    
 push_schedules
     
 read_push_schedules_data
@@ -4388,6 +4392,64 @@ json
     
 ]
     
+if
+is_try_auto
+(
+parameters
+)
+and
+parameters
+[
+"
+project
+"
+]
+not
+in
+SUPPORTED_PROJECTS
+:
+        
+raise
+Exception
+(
+            
+f
+"
+mach
+try
+auto
+requires
+bugbug
+which
+doesn
+'
+t
+support
+the
+"
+            
+f
+"
+'
+{
+parameters
+[
+'
+project
+'
+]
+}
+'
+project
+.
+Use
+another
+selector
+.
+"
+        
+)
+    
 result
 =
 Parameters
@@ -5040,6 +5102,21 @@ resolved
 "
 "
 "
+    
+if
+options
+[
+"
+project
+"
+]
+not
+in
+SUPPORTED_PROJECTS
+:
+        
+return
+False
     
 if
 options
