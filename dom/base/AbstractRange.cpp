@@ -780,10 +780,6 @@ if
 (
 !
 target
-|
-|
-!
-target
 -
 >
 IsContent
