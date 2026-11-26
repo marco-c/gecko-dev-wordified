@@ -942,16 +942,6 @@ length
 )
 ;
 void
-MakePagesReadOnly
-(
-void
-*
-region
-size_t
-length
-)
-;
-void
 UnprotectPages
 (
 void
