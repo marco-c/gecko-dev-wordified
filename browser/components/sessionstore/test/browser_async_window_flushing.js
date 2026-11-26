@@ -347,7 +347,7 @@ restoring
 .
 browser
 .
-userTypedValue
+urlbarOverrideValue
 =
 null
 ;

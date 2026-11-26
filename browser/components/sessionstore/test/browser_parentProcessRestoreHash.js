@@ -587,7 +587,7 @@ tab
 .
 linkedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 "
 No
 userTypedValue

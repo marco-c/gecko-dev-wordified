@@ -380,7 +380,7 @@ gBrowser
 .
 selectedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 null
 "
 Stored

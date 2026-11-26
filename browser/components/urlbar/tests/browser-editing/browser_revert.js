@@ -79,7 +79,7 @@ value
 ;
 gBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 "
 foobar

@@ -352,7 +352,7 @@ com
 ;
 gURLBar
 .
-userTypedValue
+overrideValue
 =
 true
 ;

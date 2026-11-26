@@ -552,10 +552,10 @@ equal
 (
 smartbar
 .
-userTypedValue
+overrideValue
 typed
 "
-userTypedValue
+overrideValue
 matches
 the
 typed

@@ -14008,9 +14008,10 @@ keyword
 URIs
 clear
 the
-user
-typed
+address
+bar
 value
+override
 since
 they
 will
@@ -14038,7 +14039,7 @@ isTopLevel
 {
 gBrowser
 .
-userTypedValue
+urlbarOverrideValue
 =
 null
 ;

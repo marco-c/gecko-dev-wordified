@@ -569,7 +569,7 @@ tab
 .
 linkedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 input
 "
 Text
@@ -625,7 +625,7 @@ tab
 .
 linkedBrowser
 .
-userTypedValue
+urlbarOverrideValue
 input
 "
 Text
@@ -742,7 +742,7 @@ Create
 a
 tab
 with
-userTypedValue
+urlbarOverrideValue
 .
 const
 userTypedTabText
