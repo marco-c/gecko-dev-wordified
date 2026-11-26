@@ -4531,7 +4531,7 @@ set
 env
 -
 >
-getSlot
+getRawSlot
 (
 prop
 -
@@ -4759,7 +4759,7 @@ Data
 env
 -
 >
-getSlot
+getRawSlot
 (
 prop
 -
