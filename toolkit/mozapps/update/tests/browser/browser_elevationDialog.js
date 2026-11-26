@@ -159,6 +159,14 @@ nsIAppStartup
 "
 ]
 )
+canQuit
+(
+)
+{
+return
+true
+;
+}
 quit
 (
 _mode
