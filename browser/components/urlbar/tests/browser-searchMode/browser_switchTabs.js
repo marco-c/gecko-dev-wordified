@@ -207,7 +207,7 @@ so
 that
 /
 /
-urlbarOverrideValue
+userTypedValue
 is
 set
 and

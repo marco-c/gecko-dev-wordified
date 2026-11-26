@@ -319,7 +319,7 @@ tab
 .
 linkedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 null
 "
 The
@@ -328,7 +328,7 @@ should
 have
 no
 recorded
-urlbarOverrideValue
+userTypedValue
 "
 )
 ;
@@ -509,7 +509,7 @@ tab
 .
 linkedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 null
 "
 The
@@ -518,7 +518,7 @@ should
 have
 no
 recorded
-urlbarOverrideValue
+userTypedValue
 "
 )
 ;
@@ -646,10 +646,10 @@ tab
 .
 linkedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 null
 "
-urlbarOverrideValue
+userTypedValue
 should
 be
 null
@@ -724,10 +724,10 @@ tab
 .
 linkedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 null
 "
-urlbarOverrideValue
+userTypedValue
 should
 be
 null
@@ -1413,7 +1413,7 @@ TYPED_VALUE
 ;
 browser
 .
-urlbarOverrideValue
+userTypedValue
 =
 TYPED_VALUE
 ;
@@ -1466,7 +1466,7 @@ is
 (
 browser
 .
-urlbarOverrideValue
+userTypedValue
 null
 "
 The
@@ -1475,7 +1475,7 @@ should
 have
 no
 recorded
-urlbarOverrideValue
+userTypedValue
 "
 )
 ;

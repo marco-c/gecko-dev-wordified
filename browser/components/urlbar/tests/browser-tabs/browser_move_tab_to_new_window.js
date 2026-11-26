@@ -229,7 +229,7 @@ equal
 (
 gBrowser
 .
-urlbarOverrideValue
+userTypedValue
 "
 hello
 world

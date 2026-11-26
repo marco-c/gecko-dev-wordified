@@ -1857,10 +1857,10 @@ value
 "
 }
 }
-urlbarOverrideLoadStarted
+userTypedClear
 :
-true
-urlbarOverrideValue
+1
+userTypedValue
 :
 "
 typed

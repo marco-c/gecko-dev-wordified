@@ -238,7 +238,7 @@ is
 (
 gBrowser
 .
-urlbarOverrideValue
+userTypedValue
 null
 "
 no
@@ -326,7 +326,7 @@ is
 (
 gBrowser
 .
-urlbarOverrideValue
+userTypedValue
 null
 "
 no

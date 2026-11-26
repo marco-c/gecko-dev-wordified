@@ -900,9 +900,9 @@ gBrowser
 .
 selectedBrowser
 .
-urlbarOverrideValue
+userTypedValue
 searchString
-urlbarOverrideValue
+userTypedValue
 should
 be
 {

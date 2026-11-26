@@ -327,7 +327,7 @@ browser
 Clear
 out
 the
-urlbarOverrideValue
+userTypedValue
 so
 that
 the
@@ -347,7 +347,7 @@ restoring
 .
 browser
 .
-urlbarOverrideValue
+userTypedValue
 =
 null
 ;
